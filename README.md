@@ -1,5 +1,5 @@
 # TranslationFiles
-All the necessary files to generate 1.6 translation packs
+All the necessary files to generate translation packs for PrestaShop 1.7 and 1.6
 
 ### Create gzip archive
 ```bash
