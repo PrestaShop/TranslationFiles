@@ -18,7 +18,7 @@ $_MODULE['<{statsforecast}prestashop>statsforecast_95deefb44d887f65b77407b87684b
 $_MODULE['<{statsforecast}prestashop>statsforecast_51f2b17f5537de83c8b52dc52867fb1c'] = 'אחוזים מהרשמות';
 $_MODULE['<{statsforecast}prestashop>statsforecast_688cb5b32405309351ee01da0ff3c3ac'] = 'אחוזים מהזמנות';
 $_MODULE['<{statsforecast}prestashop>statsforecast_54358a914f51e1af19df8520159fe607'] = 'הכנסה';
-$_MODULE['<{statsforecast}prestashop>statsforecast_96b0141273eabab320119c467cdcaf17'] = 'סה\\"כ';
+$_MODULE['<{statsforecast}prestashop>statsforecast_96b0141273eabab320119c467cdcaf17'] = 'סה\"כ';
 $_MODULE['<{statsforecast}prestashop>statsforecast_b1897515d548a960afe49ecf66a29021'] = 'ממוצע';
 $_MODULE['<{statsforecast}prestashop>statsforecast_89c1265be62d3ba835a3d963db5956b0'] = 'תחזית';
 $_MODULE['<{statsforecast}prestashop>statsforecast_3bb1503332637805beddb73a2dd1fe1b'] = 'המרה';

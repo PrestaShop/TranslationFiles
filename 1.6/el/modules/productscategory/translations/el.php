@@ -13,7 +13,6 @@ $_MODULE['<{productscategory}prestashop>productscategory_00d23a76e43b46dae9ec7aa
 $_MODULE['<{productscategory}prestashop>productscategory_b9f5c797ebbf55adccdd8539a65a0241'] = 'Απενεργοποιημένο';
 $_MODULE['<{productscategory}prestashop>productscategory_c9cc8cce247e49bae79f15173ce97354'] = 'Αποθήκευση';
 $_MODULE['<{productscategory}prestashop>productscategory_f55e0a28b86c2ab66ac632ab9ddf1833'] = '%s ακόμη προϊόν στην ίδια κατηγορία:';
-$_MODULE['<{productscategory}prestashop>productscategory_bebb44f38b03407098d48198c1d0aaa5'] = '';
 $_MODULE['<{productscategory}prestashop>productscategory_dd1f775e443ff3b9a89270713580a51b'] = 'Προηγούμενο';
 $_MODULE['<{productscategory}prestashop>productscategory_10ac3d04253ef7e1ddc73e6091c0cd55'] = 'Επόμενο';
 $_MODULE['<{productscategory}prestashop>productscategory_2d0f6b8300be19cf35e89e66f0677f95'] = 'Αγορά';

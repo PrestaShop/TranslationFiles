@@ -4,7 +4,6 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{statsforecast}prestashop>statsforecast_240c994d8b61c7bd68ac1c5182bbdb2e'] = '統計報表';
-$_MODULE['<{statsforecast}prestashop>statsforecast_b17fbc0dacaf9964df883d8065118b98'] = '';
 $_MODULE['<{statsforecast}prestashop>statsforecast_7a27f506c0104592dcb95c31e650cfed'] = '所顯示金額不含稅。';
 $_MODULE['<{statsforecast}prestashop>statsforecast_0f65535c189c29b4a5326a319baa4a8d'] = '時間表';
 $_MODULE['<{statsforecast}prestashop>statsforecast_c512b685438f41daa7386329a3b8f8d3'] = '每天';
@@ -15,8 +14,6 @@ $_MODULE['<{statsforecast}prestashop>statsforecast_d7e637a6e9ff116de2fa89551240a
 $_MODULE['<{statsforecast}prestashop>statsforecast_a28735af01fbb1e35371cb120985ac47'] = '註冊';
 $_MODULE['<{statsforecast}prestashop>statsforecast_fc6e0920b914b164802d44220e6163f3'] = '已下訂單';
 $_MODULE['<{statsforecast}prestashop>statsforecast_95deefb44d887f65b77407b87684b593'] = '已購商品';
-$_MODULE['<{statsforecast}prestashop>statsforecast_51f2b17f5537de83c8b52dc52867fb1c'] = '';
-$_MODULE['<{statsforecast}prestashop>statsforecast_688cb5b32405309351ee01da0ff3c3ac'] = '';
 $_MODULE['<{statsforecast}prestashop>statsforecast_54358a914f51e1af19df8520159fe607'] = '收入';
 $_MODULE['<{statsforecast}prestashop>statsforecast_96b0141273eabab320119c467cdcaf17'] = '總計';
 $_MODULE['<{statsforecast}prestashop>statsforecast_b1897515d548a960afe49ecf66a29021'] = '平均';
@@ -28,9 +25,7 @@ $_MODULE['<{statsforecast}prestashop>statsforecast_87cac5a0b60008003ccf46dc1d49e
 $_MODULE['<{statsforecast}prestashop>statsforecast_7442e29d7d53e549b78d93c46b8cdcfc'] = '訂單';
 $_MODULE['<{statsforecast}prestashop>statsforecast_5a9e532b24379dca2ab0e973172a78e1'] = '註冊會員';
 $_MODULE['<{statsforecast}prestashop>statsforecast_fc26e55e0993a75e892175deb02aae15'] = '購物車';
-$_MODULE['<{statsforecast}prestashop>statsforecast_a34f9feb654595d53807df17b041d804'] = '';
 $_MODULE['<{statsforecast}prestashop>statsforecast_42de3b7ec2450ded7d6c600b359def52'] = '每位訪客的平均訂單金額：';
-$_MODULE['<{statsforecast}prestashop>statsforecast_c06cbe5e69067225dbcab04fb85200fa'] = '';
 $_MODULE['<{statsforecast}prestashop>statsforecast_3fa6443ce3f838b6901b70cd812abf0d'] = '付款分佈';
 $_MODULE['<{statsforecast}prestashop>statsforecast_cbb3a9a8d0b10c0618904ce4ecb08716'] = '金額是含稅的，所以您可以基於付款方式預估佣金';
 $_MODULE['<{statsforecast}prestashop>statsforecast_e6e42855066e7a3ae050b2c698021b14'] = '區塊';
@@ -42,7 +37,6 @@ $_MODULE['<{statsforecast}prestashop>statsforecast_f13877f6ad53ce91fcb20fb8b7969
 $_MODULE['<{statsforecast}prestashop>statsforecast_b3ff996fe5c77610359114835baf9b38'] = '區塊';
 $_MODULE['<{statsforecast}prestashop>statsforecast_3adbdb3ac060038aa0e6e6c138ef9873'] = '分類';
 $_MODULE['<{statsforecast}prestashop>statsforecast_d1873a71f318c4e4733240f0b5911af3'] = '售出商品';
-$_MODULE['<{statsforecast}prestashop>statsforecast_954b04c203e651728d12622da369cd80'] = '';
 $_MODULE['<{statsforecast}prestashop>statsforecast_a613e7309e4cb7fdaf416fa4f8bfd360'] = '銷售百分率';
 $_MODULE['<{statsforecast}prestashop>statsforecast_844c29394eea07066bb2efefc35784ec'] = '平均價格';
 $_MODULE['<{statsforecast}prestashop>statsforecast_88183b946cc5f0e8c96b2e66e1c74a7e'] = '未知';

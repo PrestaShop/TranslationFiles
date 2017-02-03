@@ -152,10 +152,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_655d20c1ca69519ca647684edbb2
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_26f07ad840fb1c17d29f5be0f428f015'] = 'Desativar módulos não-nativos';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_70c06c37194d755dd9aef11cf0469981'] = 'Uma vez que os módulos não-nativos podem causar problemas de compatibilidade, recomendamos que estejam desativados por omissão.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_469ab377c49ea68b2ecdfe76d628a53b'] = 'Mantê-los ativados poderá impedir que veja a página "Módulos" de forma apropriada após a atualização.';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_fa2508196ef3391139d01d8d38b2c1bb'] = '';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_837f859cdd8b16024d72169ed315e9b5'] = 'Se personalizou o tema gráfico padrão do PrestaShop na pasta deste ("prestashop" na versão 1.4, "default" na versão 1.5, "bootstrap-default" na versão 1.6), ativar esta opção irá reverter todas as suas alterações.';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_97a989a73b46233ae4330fb7682a70a2'] = '';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_92991497ed914de6bb7795b701b4c6e4'] = '';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c7ae0af8d5653beb68b344415aca135d'] = 'Irá alterar o seu tema gráfico: a sua loja irá o usar o tema padrão da versão PrestaShop para a qual está a atualizar.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5a6925648fc1286cae7924e80690d3a7'] = 'Atualizar os emails padrão';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9770c64dad08073b1291334767e0f99c'] = 'Isto irá atualizar os emails padrão do PrestaShop.';

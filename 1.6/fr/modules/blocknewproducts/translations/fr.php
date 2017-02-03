@@ -5,7 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_f7c34fc4a48bc683445c1e7bbc245508'] = 'Bloc nouveaux produits';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_d3ee346c7f6560faa13622b6fef26f96'] = 'Ajoute un bloc proposant les derniers produits ajoutés.';
-$_MODULE['<{blocknewproducts}prestashop>blocknewproducts_1cd777247f2a6ed79534d4ace72d78ce'] = 'Vous devez remplir le champ \\"produit affiché\\".';
+$_MODULE['<{blocknewproducts}prestashop>blocknewproducts_1cd777247f2a6ed79534d4ace72d78ce'] = 'Vous devez remplir le champ \"produit affiché\".';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_73293a024e644165e9bf48f270af63a0'] = 'Nombre invalide.';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_c888438d14855d7d96a2724ee9c306bd'] = 'Mise à jour réussie';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_f4f70727dc34561dfde1a3c529b6205c'] = 'Paramètres';

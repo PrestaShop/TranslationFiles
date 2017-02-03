@@ -4,7 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{statsproduct}prestashop>statsproduct_78e454064a7d3a7755a011a3b79f31a7'] = 'Toote detailid';
-$_MODULE['<{statsproduct}prestashop>statsproduct_15944ce3356cfd0513cbc76e7df9d233'] = 'Lisab \\"Avalehele\\" detailse statistika iga toote kohta.';
+$_MODULE['<{statsproduct}prestashop>statsproduct_15944ce3356cfd0513cbc76e7df9d233'] = 'Lisab \"Avalehele\" detailse statistika iga toote kohta.';
 $_MODULE['<{statsproduct}prestashop>statsproduct_6602bbeb2956c035fb4cb5e844a4861b'] = 'Juhend';
 $_MODULE['<{statsproduct}prestashop>statsproduct_f083d0403991f2b0ae72ea8782518f36'] = 'Võrdleb ostunumbrit vaatamise numbriga.';
 $_MODULE['<{statsproduct}prestashop>statsproduct_6e13e61b8535a66feb27d285f5c42855'] = 'Peale kataloogi ja toote valimist ilmub infograafik.';

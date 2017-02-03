@@ -3,8 +3,6 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{dashgoals}prestashop>dashgoals_50698c5b8ffaf2b7dd089898a244a668'] = '';
-$_MODULE['<{dashgoals}prestashop>dashgoals_14089da5dd6132b674d9829b136efff9'] = '';
 $_MODULE['<{dashgoals}prestashop>dashgoals_86f5978d9b80124f509bdb71786e929e'] = 'জানুয়ারী';
 $_MODULE['<{dashgoals}prestashop>dashgoals_659e59f062c75f81259d22786d6c44aa'] = 'ফেব্রুয়ারী';
 $_MODULE['<{dashgoals}prestashop>dashgoals_fa3e5edac607a88d8fd7ecb9d6d67424'] = 'মার্চ';
@@ -33,7 +31,6 @@ $_MODULE['<{dashgoals}prestashop>config_11ff9f68afb6b8b5b8eda218d7c83a65'] = '�
 $_MODULE['<{dashgoals}prestashop>config_c9cc8cce247e49bae79f15173ce97354'] = 'সংরক্ষণ করুন';
 $_MODULE['<{dashgoals}prestashop>dashboard_zone_two_89c1265be62d3ba835a3d963db5956b0'] = 'পূর্বাভাস';
 $_MODULE['<{dashgoals}prestashop>dashboard_zone_two_f1206f9fadc5ce41694f69129aecac26'] = 'কনফিগার করুন';
-$_MODULE['<{dashgoals}prestashop>dashboard_zone_two_63a6a88c066880c5ac42394a22803ca6'] = '';
 $_MODULE['<{dashgoals}prestashop>dashboard_zone_two_e7935ae6c516d89405ec532359d2d75a'] = 'ট্রাফিক ';
 $_MODULE['<{dashgoals}prestashop>dashboard_zone_two_3bb1503332637805beddb73a2dd1fe1b'] = 'রূপান্তর';
 $_MODULE['<{dashgoals}prestashop>dashboard_zone_two_8c804960da61b637c548c951652b0cac'] = 'গড়  কার্ট';

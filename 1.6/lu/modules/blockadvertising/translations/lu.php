@@ -13,7 +13,6 @@ $_MODULE['<{blockadvertising}prestashop>blockadvertising_351ec5e81711303a312e244
 $_MODULE['<{blockadvertising}prestashop>blockadvertising_4163f94824da4886254e88de13fbb863'] = 'Bild-Link';
 $_MODULE['<{blockadvertising}prestashop>blockadvertising_24c28ef67324898298e45026d8efabaf'] = 'Bezeichnung der Zieladresse';
 $_MODULE['<{blockadvertising}prestashop>blockadvertising_78315dd2b27ef8037115b9f66351c155'] = 'Dieser Name wird angezeigt, wenn man mit der Maus über den Block "Werbung" fährt.';
-$_MODULE['<{blockadvertising}prestashop>blockadvertising_c9cc8cce247e49bae79f15173ce97354'] = '';
 
 
 return $_MODULE;

@@ -3,7 +3,6 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{referralprogram}prestashop>program_36c94bd456cf8796723ad09eac258aef'] = '';
 $_MODULE['<{referralprogram}prestashop>program_d95cf4ab2cbf1dfb63f066b50558b07d'] = 'マイアカウント';
 $_MODULE['<{referralprogram}prestashop>program_6540b502e953f4c05abeb8f234cd50bf'] = '紹介プログラム';
 $_MODULE['<{referralprogram}prestashop>program_6b31baf25848e7a6563ecc3946626c80'] = '紹介プログラム';
@@ -18,15 +17,9 @@ $_MODULE['<{referralprogram}prestashop>program_79cd362fc64832faa0a2079f1142aa12'
 $_MODULE['<{referralprogram}prestashop>program_2b90ca4a7b1c83e0a3bb65899725cd65'] = 'お友達に紹介メールが送信されました';
 $_MODULE['<{referralprogram}prestashop>program_819e52b3c6ca4db131dcfea19188a0c3'] = '紹介メールがお客様の友達に送信されました。';
 $_MODULE['<{referralprogram}prestashop>program_46ee2fe8845962d24bf5178a26e109f3'] = 'お友達の紹介';
-$_MODULE['<{referralprogram}prestashop>program_7e9b0e998138fefac8749975c737ac27'] = '';
 $_MODULE['<{referralprogram}prestashop>program_c56567bc42584de1a7ac430039b3a87e'] = '保留中のお友達';
-$_MODULE['<{referralprogram}prestashop>program_b9ebe5bbe91ed6e7e23285fb6c595ab4'] = '';
 $_MODULE['<{referralprogram}prestashop>program_58c7f2542ab2e2c3e4e39e851ea0f225'] = 'お友達を私は提供する';
-$_MODULE['<{referralprogram}prestashop>program_a44fa3fcad7f0f3ef4b6d77b74ca66f2'] = '';
 $_MODULE['<{referralprogram}prestashop>program_8d3ae82bfa996855cdf841dd9e15a7e3'] = '迅速で簡単です。ちょうど下の項目にあなたのお友達の姓名、メールアドレスを記入してください。';
-$_MODULE['<{referralprogram}prestashop>program_666149e67589bd65ed1e787932cd74f5'] = '';
-$_MODULE['<{referralprogram}prestashop>program_def1ac1f353beef52f7e86a30cae01c4'] = '';
-$_MODULE['<{referralprogram}prestashop>program_8d122aed0fe2c5076e4941bfbd53fe04'] = '';
 $_MODULE['<{referralprogram}prestashop>program_8d3f5eff9c40ee315d452392bed5309b'] = '姓';
 $_MODULE['<{referralprogram}prestashop>program_20db0bfeecd8fe60533206a2b5e9891a'] = '名';
 $_MODULE['<{referralprogram}prestashop>program_1e884e3078d9978e216a027ecd57fb34'] = 'メール';
@@ -45,8 +38,6 @@ $_MODULE['<{referralprogram}prestashop>program_70a17ffa722a3985b86d30b034ad06d7'
 $_MODULE['<{referralprogram}prestashop>program_ec7342814444c667ab93181b30b28e38'] = 'あなたが紹介して依頼、お友達はまだこのウェブサイトからご注文していませんが、もう一度試すことができます！これを行うには思い出して欲しいお友達のチェックボックスにマークを入れ、その後「お友達に紹介」ボタンをクリックしてください。';
 $_MODULE['<{referralprogram}prestashop>program_3e717a04ff77cd5fa068d8ad9d3facc8'] = '最後の招待状';
 $_MODULE['<{referralprogram}prestashop>program_9c9d4ed270f02c72124702edb192ff19'] = 'お友達に紹介';
-$_MODULE['<{referralprogram}prestashop>program_161133b6c2d0f520d9221ec8180c16e2'] = '';
-$_MODULE['<{referralprogram}prestashop>program_26ef5cd4989dd9b7a6e81a22312b06fd'] = '';
 $_MODULE['<{referralprogram}prestashop>program_193f3d8bbaceba40499cab1a3545e9e8'] = '次の通りに、ここはあなたの招待を受け取ったお友達です：';
 $_MODULE['<{referralprogram}prestashop>program_3c648ba41cfb45f13b083a9cbbacdfdf'] = '署名日';
 $_MODULE['<{referralprogram}prestashop>program_8d4e5c2bc4c3cf67d2b59b263a707cb6'] = 'まだ招待に同意されたお客様がありません';

@@ -16,7 +16,7 @@ $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_03e1a999dcdb904
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_b51d73fb490ad1245fa9b87042bbbbb7'] = 'Vihje : Kui kliendiandmete kaitsmise tekst on liiga pikk, et seda otse näidata siis saad lisada lingi mõnele oma lehele. Seda on lihtne teha järgmise menüü abil : Seadistus > CMS.';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_67ebed7cf9667003ad2047609440513a'] = 'Näita kliendi alal';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_fc67768369eadd8d4fb1e7839f5eae69'] = 'Kliendiandmete kaitse sõnum kliendi alal :';
-$_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_432d64c20d5d06378d96c247c3f358f4'] = 'Kliendiandmete kaitse sõnumit näidatakse kliendiala \\"Personaalse info\\" lehel.';
+$_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_432d64c20d5d06378d96c247c3f358f4'] = 'Kliendiandmete kaitse sõnumit näidatakse kliendiala \"Personaalse info\" lehel.';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_de1126ae0ac67eb4fda28cfad8429c79'] = 'Vihje : Kui kliendiandmete kaitsmise tekst on liiga pikk, et seda otse näidata siis saad lisada lingi mõnele oma lehele. Seda on lihtne teha järgmise menüü abil : Seadistus > CMS.';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_c9cc8cce247e49bae79f15173ce97354'] = 'Salvesta';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_fb0440f9ca32a8b49eded51b09e70821'] = 'Kliendi andmete kaitse';

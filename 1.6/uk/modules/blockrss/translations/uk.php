@@ -3,7 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{blockrss}prestashop>blockrss_2516c13a12d3dbaf4efa88d9fce2e7da'] = 'Блок \\"Канал RSS\\"';
+$_MODULE['<{blockrss}prestashop>blockrss_2516c13a12d3dbaf4efa88d9fce2e7da'] = 'Блок \"Канал RSS\"';
 $_MODULE['<{blockrss}prestashop>blockrss_4bb9f05422c5afbb84ed1eeb39beb8c6'] = 'Додає блок, що показує канал RSS.';
 $_MODULE['<{blockrss}prestashop>blockrss_9680162225162baf2a085dfdc2814deb'] = 'Канал RSS';
 $_MODULE['<{blockrss}prestashop>blockrss_6706b6d8ba45cc4f0eda0506ba1dc3c8'] = 'Невірний URL каналу';

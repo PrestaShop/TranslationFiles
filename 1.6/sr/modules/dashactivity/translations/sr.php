@@ -3,7 +3,6 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{dashactivity}prestashop>dashactivity_0369e7f54bf8a30b2766e6a9a708de0b'] = '';
 $_MODULE['<{dashactivity}prestashop>dashactivity_02b5205ddff3073efc5c8b5b9cc165ba'] = '(od %s do %s)';
 $_MODULE['<{dashactivity}prestashop>dashactivity_14542f5997c4a02d4276da364657f501'] = 'Direktan link';
 $_MODULE['<{dashactivity}prestashop>dashactivity_c9cc8cce247e49bae79f15173ce97354'] = 'Sačuvaj';
@@ -19,7 +18,6 @@ $_MODULE['<{dashactivity}prestashop>dashactivity_a5493eb7cba36f452249d093e7757ad
 $_MODULE['<{dashactivity}prestashop>dashactivity_45e9c82415a3bee4413485c6bcb4347f'] = 'Koliko dugo (u satima) nakon poslednje akcije se korpa ne smatra napuštenom (podrazumevano: 24 sata).';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_91b1b529580f2bb429493a51a1af932b'] = 'Pregled aktivnosti';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_f1206f9fadc5ce41694f69129aecac26'] = 'Konfiguriši';
-$_MODULE['<{dashactivity}prestashop>dashboard_zone_one_63a6a88c066880c5ac42394a22803ca6'] = '';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_254f642527b45bc260048e30704edb39'] = 'Konfiguracija';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_edfc5fccc0439856b5bd432522ef47aa'] = 'Onlajn posetioci';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_962b7da7912bc637b03626e23b5832b5'] = 'U poslednjih %d minuta';

@@ -4,7 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{crossselling}prestashop>crossselling_46532f43e161343763ff815e5208f7e9'] = 'Venda cruzada';
-$_MODULE['<{crossselling}prestashop>crossselling_83bcd48a4b3938f7cd10c898ece01adf'] = 'Adiciona uma seção \\"Clientes que compraram este produto também compraram\\" na página do produto.';
+$_MODULE['<{crossselling}prestashop>crossselling_83bcd48a4b3938f7cd10c898ece01adf'] = 'Adiciona uma seção \"Clientes que compraram este produto também compraram\" na página do produto.';
 $_MODULE['<{crossselling}prestashop>crossselling_462390017ab0938911d2d4e964c0cab7'] = 'Configurações atualizadas com sucesso';
 $_MODULE['<{crossselling}prestashop>crossselling_f4f70727dc34561dfde1a3c529b6205c'] = 'Configurações';
 $_MODULE['<{crossselling}prestashop>crossselling_b6bf131edd323320bac67303a3f4de8a'] = 'Mostrar preço nos produtos';

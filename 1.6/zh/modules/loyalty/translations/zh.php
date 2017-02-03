@@ -3,7 +3,6 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{loyalty}prestashop>loyalty_36c94bd456cf8796723ad09eac258aef'] = '';
 $_MODULE['<{loyalty}prestashop>loyalty_d95cf4ab2cbf1dfb63f066b50558b07d'] = '我的帐户';
 $_MODULE['<{loyalty}prestashop>loyalty_c540093e64d84440025b2d8201f04336'] = '我的忠诚点数';
 $_MODULE['<{loyalty}prestashop>loyalty_a240fa27925a635b08dc28c9e4f9216d'] = '购买';
@@ -34,10 +33,7 @@ $_MODULE['<{loyalty}prestashop>loyalty_cec73b5ce095a59305ad92a0d47495cb'] = '要
 $_MODULE['<{loyalty}prestashop>loyalty_019d1ca7d50cc54b995f60d456435e87'] = '已使用';
 $_MODULE['<{loyalty}prestashop>loyalty_2af3bf4c82c5b33875d532820a959799'] = '下列的订单产生';
 $_MODULE['<{loyalty}prestashop>loyalty_1f67ea7a0b26e9eacc70523bde28df0c'] = '更多...';
-$_MODULE['<{loyalty}prestashop>loyalty_18fb6221fe0d9895c2e9ba08283f00e9'] = '';
-$_MODULE['<{loyalty}prestashop>loyalty_4c8d2e0395ae7d21e374dcbeb1cbeaaa'] = '';
 $_MODULE['<{loyalty}prestashop>loyalty_a149e85a44aeec9140e92733d9ed694e'] = '已废除';
-$_MODULE['<{loyalty}prestashop>loyalty_a16cf3ec5200cc519f4fe48e34b1df83'] = '';
 $_MODULE['<{loyalty}prestashop>loyalty_8e69341aca5dbf9f55c2e75a2ed5df3c'] = '尚无优惠券。';
 $_MODULE['<{loyalty}prestashop>loyalty_00d56a5e37c19c59d521530fc8e7f337'] = '尚无积分。';
 $_MODULE['<{loyalty}prestashop>loyalty_0b3db27bc15f682e92ff250ebb167d4b'] = '返回您的帐户';

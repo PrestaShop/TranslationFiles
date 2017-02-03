@@ -29,7 +29,7 @@ $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_5e8fbd010bca773512f58
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_4e15ce9f3df1555d6932a9938d34a2cc'] = 'Töötab ainult esimesel korral. Kohe kui külastaja küpsised on seatud siis kirjutatakse see tema poolt valituga üle.';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_419e2c499b79ae49a7d50b510cddc28e'] = 'Näita ülemist bännerit';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_2393b3a8e21e442273b6ad9219f4786c'] = 'Näita võimalike maksemeetodite logosid';
-$_MODULE['<{themeconfigurator}prestashop>themeconfigurator_905791e2e93ced2cb9b092985604cc55'] = 'Näita \\"Käigult muutmist\\".';
+$_MODULE['<{themeconfigurator}prestashop>themeconfigurator_905791e2e93ced2cb9b092985604cc55'] = 'Näita \"Käigult muutmist\".';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_2e4a0101b1ea2b15782a07dd34067447'] = 'See kohandamistööriist lubab muuta teema värvi ja fonti.';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_638c5a51a25a56ae4b8d6fa975be0d59'] = 'Näita alamkategooriaid.';
 $_MODULE['<{themeconfigurator}prestashop>items_b9b371458ab7c314f88b81c553f6ce51'] = 'Haak';

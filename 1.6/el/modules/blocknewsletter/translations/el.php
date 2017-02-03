@@ -50,14 +50,8 @@ $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_c9cc8cce247e49bae79f15173
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_c48244f3d519c8c3260f2a40022f8d27'] = 'Εξαγωγή διευθύνσεων πελατών';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_521f7e76a7d4f9e50c50bb945559b942'] = 'Φιλτράρισμα πελατών ανά χώρα.';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_1b09c341aa487e26dac94d2467b7f7e3'] = 'Φιλτράρισμα πελατών οι οποίοι έχουν ή δεν έχουν εγγραφεί στο ενημερωτικό δελτίο, και που έχουν ή δεν έχουν λογαριασμό.';
-$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_e8be50a6977f278040458abdb2b18229'] = '';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_847b0223c73ac0fec0d9df6539c7cad6'] = 'Όλοι οι συνδρομητές';
-$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_a307579714b75082f3f8734971b125cd'] = '';
-$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_d0da5609e4aebc5d532de97511a5a34a'] = '';
-$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_6395c19dc5a1cef9ca125b9736358dc7'] = '';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_498bed86a7c58dcf1125dd21f40a6482'] = 'Φιλτράρισμα των πελατών που έχουν δεχθεί να λαμβάνουν προσφορές από τους συνεργάτες σας ή όχι.';
-$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_e72237358bd145d6dba764c39e53bba5'] = '';
-$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_85d02b888be056b290282ab2021341dc'] = '';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_dbb392a2dc9b38722e69f6032faea73e'] = 'Εξαγωγή αρχείου .CSV';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_f6df4ad6dc4798f26d1f2460eef4f2e9'] = 'Αναζήτηση για διευθύνσεις';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_375afa60efcc1d48300bd339cb8154b0'] = 'Διεύθυνση Email προς αναζήτηση';
@@ -66,8 +60,6 @@ $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_13348442cc6a27032d2b4aa28
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_82e5e0bc0f9c776c98253d569c111c0f'] = 'Δε βρέθηκε κανένας πελάτης με αυτά τα φίλτρα!';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_644ecc2486a059ca16b001a77909bf40'] = 'Το αρχείο .CSV έχει εξαχθεί επιτυχώς: βρέθηκαν %d πελάτες.';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_48e3d5f66961b621c78f709afcd7d437'] = 'Λήψη αρχείου';
-$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_dca37b874cf34bd5ebcf1c2fdc59a8b4'] = '';
-$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_b40866b115d74009183e06fc86b5c014'] = '';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_87b0ca57db642f4e7780174a6abdc37d'] = 'Δεν βρέθηκαν αποτελέσματα!';
 $_MODULE['<{blocknewsletter}prestashop>list_action_enable_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Ενεργοποιημένο';
 $_MODULE['<{blocknewsletter}prestashop>list_action_enable_b9f5c797ebbf55adccdd8539a65a0241'] = 'Απενεργοποιημένο';

@@ -4,7 +4,6 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{trackingfront}prestashop>trackingfront_e8a827db4eca37d2c6cdef8e406f6fa9'] = '跟踪-	 前台';
-$_MODULE['<{trackingfront}prestashop>trackingfront_d565f36c06949442a4eb998354376c5b'] = '';
 $_MODULE['<{trackingfront}prestashop>trackingfront_8f5ac7793b2547cd025a7335f4934d26'] = '需要登录';
 $_MODULE['<{trackingfront}prestashop>trackingfront_6f658a5bbec855ca5ae4ef4c94eb5d43'] = '登录无效';
 $_MODULE['<{trackingfront}prestashop>trackingfront_962c91be4b1056412febf0c272760814'] = '需要密码';
@@ -30,7 +29,6 @@ $_MODULE['<{trackingfront}prestashop>account_7cbb885aa1164b390a0bc050a64e1812'] 
 $_MODULE['<{trackingfront}prestashop>account_537c66b24ef5c83b7382cdc3f34885f2'] = '年';
 $_MODULE['<{trackingfront}prestashop>account_1e6d57e813355689e9c77e947d73ad8f'] = '自：';
 $_MODULE['<{trackingfront}prestashop>account_33caa076f23f453dd4061726f3706325'] = '到：';
-$_MODULE['<{trackingfront}prestashop>account_5fa8aff419bb8e614b178cf1563ac13a'] = '';
 $_MODULE['<{trackingfront}prestashop>account_b718adec73e04ce3ec720dd11a06a308'] = '编号';
 $_MODULE['<{trackingfront}prestashop>account_49ee3087348e8d44e1feda1917443987'] = '名称';
 $_MODULE['<{trackingfront}prestashop>account_ae5d01b6efa819cc7a7c05a8c57fcc2c'] = '访问者';
@@ -43,7 +41,6 @@ $_MODULE['<{trackingfront}prestashop>account_a85eba4c6c699122b2bb1387ea4813ad'] 
 $_MODULE['<{trackingfront}prestashop>account_43005b13d452a4ad6f2d8e29b499c55a'] = '注册率';
 $_MODULE['<{trackingfront}prestashop>account_e14c8640d236365d11a060832b219a11'] = '订单率';
 $_MODULE['<{trackingfront}prestashop>account_316853cc3718335f11c048e33b9be98a'] = '点击';
-$_MODULE['<{trackingfront}prestashop>account_b450fdef2453e92c31263a70f14fbd7b'] = '';
 $_MODULE['<{trackingfront}prestashop>account_0bcef9c45bd8a48eda1b26eb0c61c869'] = '%';
 $_MODULE['<{trackingfront}prestashop>header_bf15e68d25d8a2b7664950ba7385ed0a'] = '加盟';
 $_MODULE['<{trackingfront}prestashop>login_bf15e68d25d8a2b7664950ba7385ed0a'] = '加盟';

@@ -11,7 +11,6 @@ $_MODULE['<{cheque}prestashop>cheque_a02758d758e8bec77a33d7f392eb3f8a'] = 'Nincs
 $_MODULE['<{cheque}prestashop>cheque_81c6c3ba23ca2657a8eedc561f865ddb'] = '"Rendelés elfogadása" menüpont szükséges.';
 $_MODULE['<{cheque}prestashop>cheque_00a369029140cfd18857425d49b472f8'] = 'A "Cím" mező kitöltése kötelező.';
 $_MODULE['<{cheque}prestashop>cheque_c888438d14855d7d96a2724ee9c306bd'] = 'Beállítások frissítve';
-$_MODULE['<{cheque}prestashop>cheque_a60468657881aa431a0a5fccc76258e2'] = '';
 $_MODULE['<{cheque}prestashop>cheque_5dd532f0a63d89c5af0243b74732f63c'] = 'Kapcsolat részletek';
 $_MODULE['<{cheque}prestashop>cheque_4b2f62e281e9a6829c6df0e87d34233a'] = 'Rendelés utáni fizetés (név)';
 $_MODULE['<{cheque}prestashop>cheque_dd7bf230fde8d4836917806aff6a6b27'] = 'Cím';

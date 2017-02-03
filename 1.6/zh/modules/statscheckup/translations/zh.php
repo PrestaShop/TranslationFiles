@@ -9,7 +9,6 @@ $_MODULE['<{statscheckup}prestashop>statscheckup_20015706a8cbd457cbb6ea3e7d5dc9b
 $_MODULE['<{statscheckup}prestashop>statscheckup_7ff3e75ce6aca348bc513ed3d5882946'] = '差';
 $_MODULE['<{statscheckup}prestashop>statscheckup_b1897515d548a960afe49ecf66a29021'] = '平均';
 $_MODULE['<{statscheckup}prestashop>statscheckup_0c6ad70beb3a7e76c3fc7adab7c46acc'] = '好';
-$_MODULE['<{statscheckup}prestashop>statscheckup_619a1efbedc7855aa27c0a50579c104e'] = '';
 $_MODULE['<{statscheckup}prestashop>statscheckup_8bc84316c4078bf66723fd019616d920'] = '描述';
 $_MODULE['<{statscheckup}prestashop>statscheckup_5cd1930570823694abdd596f29c8943d'] = '字节（未含HTML）';
 $_MODULE['<{statscheckup}prestashop>statscheckup_fff0d600f8a0b5e19e88bfb821dd1157'] = '图片';

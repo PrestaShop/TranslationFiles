@@ -3,7 +3,6 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{blockmyaccountfooter}prestashop>blockmyaccountfooter_b97d23f7cde011d190f39468e146425e'] = '';
 $_MODULE['<{blockmyaccountfooter}prestashop>blockmyaccountfooter_abdb95361b4c92488add0a5a37afabcb'] = '사용자 계정가 연관이 있는 링크 불록을 표시하시오';
 $_MODULE['<{blockmyaccountfooter}prestashop>blockmyaccountfooter_ae9ec80afffec5a455fbf2361a06168a'] = '고객 계정 관리';
 $_MODULE['<{blockmyaccountfooter}prestashop>blockmyaccountfooter_d95cf4ab2cbf1dfb63f066b50558b07d'] = '내 계정';

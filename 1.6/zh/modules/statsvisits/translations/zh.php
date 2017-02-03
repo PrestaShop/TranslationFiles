@@ -4,7 +4,6 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{statsvisits}prestashop>statsvisits_504c16c26a96283f91fb46a69b7c8153'] = '访问计数';
-$_MODULE['<{statsvisits}prestashop>statsvisits_432c3ab90b3af30ad318201ba09aa824'] = '';
 $_MODULE['<{statsvisits}prestashop>statsvisits_6602bbeb2956c035fb4cb5e844a4861b'] = '向导';
 $_MODULE['<{statsvisits}prestashop>statsvisits_ffbee337f031c2282b311bac40bc8bb9'] = '确定访客的兴趣';
 $_MODULE['<{statsvisits}prestashop>statsvisits_e90d50ca1e68dc66c97bd62929dcbaf1'] = '游客访问图十分相似，此仅供当作额外信息作为参考';

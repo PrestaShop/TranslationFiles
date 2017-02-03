@@ -3,7 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{blockcart}prestashop>blockcart_c2e1362a9710a3dd86f937c2ea1f336d'] = 'Блок \\"Кошик\\"';
+$_MODULE['<{blockcart}prestashop>blockcart_c2e1362a9710a3dd86f937c2ea1f336d'] = 'Блок \"Кошик\"';
 $_MODULE['<{blockcart}prestashop>blockcart_e03093a5753b436ee1de63b6e3e1bd02'] = 'Додає блок, що містить кошик клієнта.';
 $_MODULE['<{blockcart}prestashop>blockcart_a21e5718d2a196280b729438933501c7'] = 'Ajax: Невірний вибір.';
 $_MODULE['<{blockcart}prestashop>blockcart_02c793e3df4632db20e4d6e146095d62'] = 'Будь ласка, заповніть поле "Товари для показу".';

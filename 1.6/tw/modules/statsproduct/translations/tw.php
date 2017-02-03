@@ -4,14 +4,11 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{statsproduct}prestashop>statsproduct_78e454064a7d3a7755a011a3b79f31a7'] = '商品詳情';
-$_MODULE['<{statsproduct}prestashop>statsproduct_15944ce3356cfd0513cbc76e7df9d233'] = '';
 $_MODULE['<{statsproduct}prestashop>statsproduct_6602bbeb2956c035fb4cb5e844a4861b'] = '導引';
 $_MODULE['<{statsproduct}prestashop>statsproduct_f083d0403991f2b0ae72ea8782518f36'] = '購買次數和瀏覽次數比較';
 $_MODULE['<{statsproduct}prestashop>statsproduct_6e13e61b8535a66feb27d285f5c42855'] = '在選擇了分類、商品後，會顯示資訊圖表';
 $_MODULE['<{statsproduct}prestashop>statsproduct_6734b1d16e064d64d9ea4affaed74cc7'] = '如果您發現一個商品經常被訂購但是瀏覽次數不多，您應該將它放在前台比較醒目的位置。';
-$_MODULE['<{statsproduct}prestashop>statsproduct_f3a492ed300e8565dcdbbc1da340d226'] = '';
 $_MODULE['<{statsproduct}prestashop>statsproduct_3ec365dd533ddb7ef3d1c111186ce872'] = '詳細資料';
-$_MODULE['<{statsproduct}prestashop>statsproduct_290b169159edc205e3a46902d4554d52'] = '';
 $_MODULE['<{statsproduct}prestashop>statsproduct_155d5c362e6887660600763fc0d55f02'] = '銷售（不含稅）';
 $_MODULE['<{statsproduct}prestashop>statsproduct_8041d874fe39d54c6e78156c27341c85'] = '瀏覽共計';
 $_MODULE['<{statsproduct}prestashop>statsproduct_d311128c6b9f34f85e6b0e29bcbcd165'] = '轉換率';

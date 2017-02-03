@@ -15,7 +15,6 @@ $_MODULE['<{ganalytics}prestashop>ganalytics_bcd08e73ca9d8bfed2cccd50dd6d8328'] 
 $_MODULE['<{ganalytics}prestashop>ganalytics_9bda6a2c3edca377eb901d7ea57c8b06'] = 'The User ID is set at the property level. To find a property, click Admin, then select an account and a property. From the Property column, click Tracking Info then User ID';
 $_MODULE['<{ganalytics}prestashop>ganalytics_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Enabled';
 $_MODULE['<{ganalytics}prestashop>ganalytics_b9f5c797ebbf55adccdd8539a65a0241'] = 'Disabled';
-$_MODULE['<{ganalytics}prestashop>ganalytics_612e1a524ec979815b12182c34e2daa0'] = '';
 $_MODULE['<{ganalytics}prestashop>ganalytics_8e7b67b44506b7ac6685da041a603044'] = 'Settings for User ID updated successfully';
 $_MODULE['<{ganalytics}prestashop>configuration_1f13d86a35be758509f9bdfcce5ec55d'] = 'Your customers go everywhere; shouldn\'t your analytics.';
 $_MODULE['<{ganalytics}prestashop>configuration_7063e771c3bb338ba74ac4e4716dbae1'] = 'Google Analytics shows you the full customer picture across ads and videos, websites and social tools, tables and smartphones. That makes it easier to serve your current customers and win new ones.';

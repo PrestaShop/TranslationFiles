@@ -6,19 +6,12 @@ $_MODULE = array();
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e5b7525b4214a759876af4448bd6b87d'] = 'Menu atas mendatar';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_f7979d86fe0b2cd11f44747ed4ff1100'] = 'Tambah menu mendatar pada bahagian atas laman kedai anda.';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_efc226b17e0532afff43be870bff0de7'] = 'Tetapan dikemaskini';
-$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_d9a776c185f73d018b2915f4d5e7cc05'] = '';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_f32880ae5183a02c0a743bfd37a42cbc'] = 'Sila lengkapkan ruangan "Pautan".';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_cf8d684bd5f89d30da67c95363a48ab9'] = 'Sila letakkan label.';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e8d6809226ab177013e0a26bd2d8b60d'] = 'Sila letakkan label untuk bahasa asas anda.';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_3da9d5745155a430aac6d7de3b6de0c8'] = 'Link tersebut telah ditambah.';
-$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_022bb0995e3256abeeac1788a5e2c5b3'] = '';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e24e88b590807c2816be15abd7c7dbbc'] = 'Pautan telah dihapuskan.';
-$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e418ee8626f7941239c5b7a0880691ae'] = '';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_beb4f951c292ec9218473ffe5f59849d'] = 'Pautan telah disunting.';
-$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_b1a23c1a76918c10acc27bfa60798c42'] = '';
-$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_298b615220606d42b6ac60269df0d321'] = '';
-$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_aef3662e6419ddaaa0a31df70e3b6557'] = '';
-$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_dd25f68471362f6f5f183d6158d67854'] = '';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_bf24faeb13210b5a703f3ccef792b000'] = 'Semua pengeluar';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_ecf253735ac0cba84a9d2eeff1f1b87c'] = 'Semua pembekal';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_944d19a34e5fa333a6a0de27e8c971da'] = 'Pautan Menu Atas';
@@ -26,7 +19,6 @@ $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_eacd852cc1f621763dccbda3f3c1508
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Aktif';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_b9f5c797ebbf55adccdd8539a65a0241'] = 'Tidak-aktif';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_c9cc8cce247e49bae79f15173ce97354'] = 'Simpan';
-$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_0a112e5da975d8eaf28df9219c397764'] = '';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_1a6191a2dc928ff8fb8c02c050975ea7'] = 'Kemaskini pautan';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_58e9b25bb2e2699986a3abe2c92fc82e'] = 'Tambah pautan baru';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_b021df6aac4654c454f46c77646e745f'] = 'Label';
@@ -53,7 +45,6 @@ $_MODULE['<{blocktopmenu}prestashop>form_3713a99a6284e39061bd48069807aa52'] = 'B
 $_MODULE['<{blocktopmenu}prestashop>form_8fb31b552d63ffef9df733646a195bc0'] = 'Benda sedia ada';
 $_MODULE['<{blocktopmenu}prestashop>form_1063e38cb53d94d386f21227fcd84717'] = 'Padam';
 $_MODULE['<{blocktopmenu}prestashop>form_ec211f7c20af43e742bf2570c3cb84f9'] = 'Tambah';
-$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_b61541208db7fa7dba42c85224405911'] = '';
 
 
 return $_MODULE;

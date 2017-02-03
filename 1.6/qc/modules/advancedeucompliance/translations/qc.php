@@ -9,8 +9,6 @@ $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_bb8956c67b82c74
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_3b528a3fe35bcd29ad2ab0e77fe01d4d'] = 'Impossible d\'installer le nouveau point d\'accroche.';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_cac77d4c7de337f13ad1e89a8cecbc7f'] = 'Livraison : 1 à 3 semaines';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_eeb992239a8454067cd7a47bbf0df359'] = 'Livraison : 3 à 6 semaines';
-$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_f4a0d7cb0cd45214c8ca5912c970de13'] = '';
-$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_befcac0f9644a7abee43e69f49252ac4'] = '';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_272c87c1b60ba25f293fab358ba94a39'] = 'Vous devez accepter nos conditions générales de vente avant de continuer !';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_2223d375913a9a3b4619a1ada82f8de7'] = 'Une erreur est survenue. Veuillez nous contacter si le problème persiste.';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_7219074549f88adb580bf5a6fe57c459'] = 'Veuillez d\'abord choisir votre mode de paiement.';
@@ -40,8 +38,6 @@ $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_90c14df48f5356a
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_e41b0b5a9329a0959e8ca1a792b8f2c4'] = 'Indique le délai de livraison estimé pour vos produits en rupture de stock. Laissez le champ vide pour le désactiver.';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_714157963f7f7548cd9cc3046a31d2de'] = 'Prix "Au lieu de"';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_5400b516956ae7625857f5c569316fba'] = 'Quand un produit est en promotion, affiche "Au lieu de" avant le prix de base.';
-$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_00d23a76e43b46dae9ec7aa9dcbebb32'] = '';
-$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_b9f5c797ebbf55adccdd8539a65a0241'] = '';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_cce448884153975b6d9fa2116eb7b388'] = 'Taxes incluses / exclues';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_1aabae15098e05b040516d060dbbbeae'] = 'Affiche si les taxes sont incluses ou non, à côté du prix du produit ("HT / TTC").';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_f85a64cf43eb446308f74902dff3173c'] = 'Frais de port inclus / exclus';

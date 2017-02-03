@@ -3,7 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{blocklink}prestashop>blocklink_fc738410141e4ec0c0319a81255a1431'] = 'Блок \\"Посилання\\"';
+$_MODULE['<{blocklink}prestashop>blocklink_fc738410141e4ec0c0319a81255a1431'] = 'Блок \"Посилання\"';
 $_MODULE['<{blocklink}prestashop>blocklink_baa2ae9622a47c3217d725d1537e5187'] = 'Додає блок з посиланнями';
 $_MODULE['<{blocklink}prestashop>blocklink_8d85948ef8fda09c2100de886e8663e5'] = 'Ви впевнені, що хочете видалити всі посилання?';
 $_MODULE['<{blocklink}prestashop>blocklink_33476c93475bba83cdcaac18e09b95ec'] = 'Цей модуль має розміщатися в колонці, але ваша тема цього не підтримує';
@@ -12,7 +12,7 @@ $_MODULE['<{blocklink}prestashop>blocklink_9394bb34611399534ffac4f0ece96b7f'] = 
 $_MODULE['<{blocklink}prestashop>blocklink_3da9d5745155a430aac6d7de3b6de0c8'] = 'Посилання було додане.';
 $_MODULE['<{blocklink}prestashop>blocklink_898536ebd630aa3a9844e9cd9d1ebb9b'] = 'Помилка при створенні посилання.';
 $_MODULE['<{blocklink}prestashop>blocklink_b18032737875f7947443c98824103a1f'] = 'Поле "Назва" не може бути порожнім.';
-$_MODULE['<{blocklink}prestashop>blocklink_43b38b9a2fe65059bed320bd284047e3'] = 'Поле \\"title\\" невірне';
+$_MODULE['<{blocklink}prestashop>blocklink_43b38b9a2fe65059bed320bd284047e3'] = 'Поле \"title\" невірне';
 $_MODULE['<{blocklink}prestashop>blocklink_eb74914f2759760be5c0a48f699f8541'] = 'Помилка при оновленні заголовку';
 $_MODULE['<{blocklink}prestashop>blocklink_5c0f7e2db8843204f422a369f2030b37'] = 'Заголовок був поновлений.';
 $_MODULE['<{blocklink}prestashop>blocklink_5d73d4c0bcb035a1405e066eb0cdf832'] = 'Помилка при видаленні посилання';

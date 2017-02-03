@@ -30,7 +30,6 @@ $_MODULE['<{watermark}prestashop>watermark_7c60ca861e403259d8a41b5e6577788c'] = 
 $_MODULE['<{watermark}prestashop>watermark_b28354b543375bfa94dabaeda722927f'] = 'dalt';
 $_MODULE['<{watermark}prestashop>watermark_71f262d796bed1ab30e8a2d5a8ddee6f'] = 'baix';
 $_MODULE['<{watermark}prestashop>watermark_27bd5f34e4375356363346e90dbbe2ca'] = 'Trieu els tipus d\'imatge per a la protecció amb filigrana (marca d\'aigua):';
-$_MODULE['<{watermark}prestashop>watermark_b48748047a9eed520aa26ae2a8b62905'] = '';
 $_MODULE['<{watermark}prestashop>watermark_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Activat';
 $_MODULE['<{watermark}prestashop>watermark_b9f5c797ebbf55adccdd8539a65a0241'] = 'Desactivat';
 $_MODULE['<{watermark}prestashop>watermark_c9cc8cce247e49bae79f15173ce97354'] = 'Desar';

@@ -46,7 +46,6 @@ $_MODULE['<{referralprogram}prestashop>program_ec7342814444c667ab93181b30b28e38'
 $_MODULE['<{referralprogram}prestashop>program_3e717a04ff77cd5fa068d8ad9d3facc8'] = 'הזמנה אחרונה';
 $_MODULE['<{referralprogram}prestashop>program_9c9d4ed270f02c72124702edb192ff19'] = 'הזכר לחברים שלי';
 $_MODULE['<{referralprogram}prestashop>program_161133b6c2d0f520d9221ec8180c16e2'] = 'אין לך הזמנות בהמתנה.';
-$_MODULE['<{referralprogram}prestashop>program_26ef5cd4989dd9b7a6e81a22312b06fd'] = '';
 $_MODULE['<{referralprogram}prestashop>program_193f3d8bbaceba40499cab1a3545e9e8'] = 'הנה חברים ממומנים אשר קיבלו את הזמנתך:';
 $_MODULE['<{referralprogram}prestashop>program_3c648ba41cfb45f13b083a9cbbacdfdf'] = 'תאריך רישום';
 $_MODULE['<{referralprogram}prestashop>program_8d4e5c2bc4c3cf67d2b59b263a707cb6'] = 'אין חברים בעלי חסות שקיבלו כרגע את הזמנתך.';

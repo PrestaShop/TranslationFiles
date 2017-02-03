@@ -6,7 +6,6 @@ $_MODULE = array();
 $_MODULE['<{blockcmsinfo}prestashop>blockcmsinfo_988659f6c5d3210a3f085ecfecccf5d3'] = 'основни информации за CMS блокот';
 $_MODULE['<{blockcmsinfo}prestashop>blockcmsinfo_cd4abd29bdc076fb8fabef674039cd6e'] = 'додава стандардни информации за блоковите во Вашата продавница.';
 $_MODULE['<{blockcmsinfo}prestashop>blockcmsinfo_666f6333e43c215212b916fef3d94af0'] = 'мора да ги пополнете сите полиња.';
-$_MODULE['<{blockcmsinfo}prestashop>blockcmsinfo_86432715902fbaf53de469fed3fa6c53'] = '';
 $_MODULE['<{blockcmsinfo}prestashop>blockcmsinfo_d52eaeff31af37a4a7e0550008aff5df'] = 'Се појави грешка при обидот за снимање.';
 $_MODULE['<{blockcmsinfo}prestashop>blockcmsinfo_6f16c729fadd8aa164c6c47853983dd2'] = 'нов стандарден CMS блок';
 $_MODULE['<{blockcmsinfo}prestashop>blockcmsinfo_9dffbf69ffba8bc38bc4e01abf4b1675'] = 'Текст';

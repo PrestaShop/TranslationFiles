@@ -35,7 +35,7 @@ $_MODULE['<{gapi}prestashop>gapi_d4e6d6c42bf3eb807b8778255a4ce415'] = 'Echec lor
 $_MODULE['<{gapi}prestashop>gapi_a670b4cdb42644e4b46fa857d3f73d9e'] = 'API Google Analytics v1.3';
 $_MODULE['<{gapi}prestashop>gapi_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'E-mail';
 $_MODULE['<{gapi}prestashop>gapi_dc647eb65e6711e155375218212b3964'] = 'Mot de passe';
-$_MODULE['<{gapi}prestashop>gapi_970a710b7344f8639b6a86d1f081b660'] = 'Vous trouverez l\'identifiant de profil (\\"Profile ID\\") dans la barre d\'adresse de votre navigateur lorsque vous consultez le rapport sur le site de Google Analytics.';
+$_MODULE['<{gapi}prestashop>gapi_970a710b7344f8639b6a86d1f081b660'] = 'Vous trouverez l\'identifiant de profil (\"Profile ID\") dans la barre d\'adresse de votre navigateur lorsque vous consultez le rapport sur le site de Google Analytics.';
 $_MODULE['<{gapi}prestashop>gapi_e33d3b3409f8a0fcc326596c918c4961'] = 'Pour l\'ANCIENNE version de Google Analytics, l\'ID du profil est dans le paramètre "id" de l\'URL (voir "&id=xxxxxxxx") :';
 $_MODULE['<{gapi}prestashop>gapi_c78fedea48082c7a437773e31b418f96'] = 'Pour la NOUVELLE VERSION de Google Analytics, l\'ID du profile est le numéro situé à la fin de l\'adresse, commençant par un p :';
 

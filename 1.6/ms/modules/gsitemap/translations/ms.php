@@ -12,14 +12,9 @@ $_MODULE['<{gsitemap}prestashop>configuration_1c95b77d135b55c84429588c11697ea4']
 $_MODULE['<{gsitemap}prestashop>configuration_aa17b80751f4ae53ab8e3ed2fe99e94d'] = 'Peta laman memang sudah ada.';
 $_MODULE['<{gsitemap}prestashop>configuration_a0bfb8e59e6c13fc8d990781f77694fe'] = 'Sambung';
 $_MODULE['<{gsitemap}prestashop>configuration_9ab08b9ceeef857df07ad10e1de9301e'] = 'Sila letakkan URL Peta Laman berikut di dalam akaun Google Webmaster:';
-$_MODULE['<{gsitemap}prestashop>configuration_aef717e48ecd01989c92849d44bff9b6'] = '';
-$_MODULE['<{gsitemap}prestashop>configuration_0dbf904a2b27f036cf06741aad221ecc'] = '';
 $_MODULE['<{gsitemap}prestashop>configuration_6d37779958434303f8397436a1484ed8'] = 'Untuk penggunaan lebih baik bagi modul ini, sila pastikan yang anda mempunyai';
-$_MODULE['<{gsitemap}prestashop>configuration_6a3282611e5ffb8539ce434133073f15'] = '';
-$_MODULE['<{gsitemap}prestashop>configuration_f891951357d4892887f0e416c54f972d'] = '';
 $_MODULE['<{gsitemap}prestashop>configuration_8156303464de0fba7cb8306cc768e998'] = 'Anda boleh menyunting had ini pada php.ini. Untuk keterangan lebih lanjut, sila hubungi penyedia hos laman anda.';
 $_MODULE['<{gsitemap}prestashop>configuration_0b9b4b91e0a8f59e264202a23d9c57a6'] = 'Konfigurasi Peta Laman anda';
-$_MODULE['<{gsitemap}prestashop>configuration_fe242b3dd3f455778072dc7042637a5e'] = '';
 $_MODULE['<{gsitemap}prestashop>configuration_7f751d19f85d49a411d5691f5bb0b5f2'] = 'Berapa kerapkah anda mengemaskini kedai anda?';
 $_MODULE['<{gsitemap}prestashop>configuration_f9f90eeaf400d228facde6bc48da5cfb'] = 'selalu';
 $_MODULE['<{gsitemap}prestashop>configuration_745fd0ea7f576f350a0eed4b8c48a8e2'] = 'setiap jam';
@@ -30,7 +25,6 @@ $_MODULE['<{gsitemap}prestashop>configuration_1bf712896e6077fa0b708e911d8ee0b3']
 $_MODULE['<{gsitemap}prestashop>configuration_c7561db7a418dd39b2201dfe110ab4a4'] = 'tidak pernah langsung';
 $_MODULE['<{gsitemap}prestashop>configuration_e51d91c7bfa9fc658b11afca4d84653c'] = 'Tandakan kotak ini jika anda berhasrat untuk menyemak kehadiran fail imej itu pada pelayan';
 $_MODULE['<{gsitemap}prestashop>configuration_05ff8159ccaef6f0f8391c61a6d0e631'] = 'semak semua';
-$_MODULE['<{gsitemap}prestashop>configuration_0dfcf5f2f5b9ab7c909f9bdca2b53b56'] = '';
 $_MODULE['<{gsitemap}prestashop>configuration_2ec111ec9826a83509c02bf5e6b797f1'] = 'Hasilkan Peta Laman';
 $_MODULE['<{gsitemap}prestashop>configuration_ca99f8a0d484faef3a057fe7a5da3141'] = 'Ini boleh mengambil masa beberapa minit';
 $_MODULE['<{gsitemap}prestashop>configuration_162b34489ed8df561be1720f04fe6d42'] = 'Anda mempunyai 2 cara untuk hasilkan Peta Laman:';

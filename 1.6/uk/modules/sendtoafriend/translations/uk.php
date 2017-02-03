@@ -12,7 +12,7 @@ $_MODULE['<{sendtoafriend}prestashop>sendtoafriend-extra_36fb3f59b4a75949a0db90e
 $_MODULE['<{sendtoafriend}prestashop>sendtoafriend-extra_2107f6398c37b4b9ee1e1b5afb5d3b2a'] = 'Надіслати другу';
 $_MODULE['<{sendtoafriend}prestashop>sendtoafriend-extra_d1f092e79827eaffce4a33fa011fde24'] = 'Ви не заповнили усі обов\'язкові поля';
 $_MODULE['<{sendtoafriend}prestashop>sendtoafriend-extra_5d6103b662f41b07e10687f03aca8fdc'] = 'Отримувач:';
-$_MODULE['<{sendtoafriend}prestashop>sendtoafriend-extra_bb6aa0be8236a10e6d3b315ebd5f2547'] = 'Ім\'\\я вашого друга';
+$_MODULE['<{sendtoafriend}prestashop>sendtoafriend-extra_bb6aa0be8236a10e6d3b315ebd5f2547'] = 'Ім\'\я вашого друга';
 $_MODULE['<{sendtoafriend}prestashop>sendtoafriend-extra_099bc8914b5be9e522a29e48cb3c01c4'] = 'Адреса електронної пошти вашого друга';
 $_MODULE['<{sendtoafriend}prestashop>sendtoafriend-extra_70397c4b252a5168c5ec003931cea215'] = 'Обов\'язкові поля';
 $_MODULE['<{sendtoafriend}prestashop>sendtoafriend-extra_ea4788705e6873b424c65e91c2846b19'] = 'Відміна';

@@ -5,7 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{blockviewed}prestashop>blockviewed_859e85774d372c6084d62d02324a1cc3'] = 'produktet që keni parë';
 $_MODULE['<{blockviewed}prestashop>blockviewed_eaa362292272519b786c2046ab4b68d2'] = 'Shton një bllok që tregon produktet e vizituara së fundmi.';
-$_MODULE['<{blockviewed}prestashop>blockviewed_2e57399079951d84b435700493b8a8c1'] = 'Duhet ta plotësoni fushën \\"Produktet e shfaqura\\".';
+$_MODULE['<{blockviewed}prestashop>blockviewed_2e57399079951d84b435700493b8a8c1'] = 'Duhet ta plotësoni fushën \"Produktet e shfaqura\".';
 $_MODULE['<{blockviewed}prestashop>blockviewed_73293a024e644165e9bf48f270af63a0'] = 'Numër i pavlefshëm.';
 $_MODULE['<{blockviewed}prestashop>blockviewed_f38f5974cdc23279ffe6d203641a8bdf'] = 'Parametrat u përditësuan.';
 $_MODULE['<{blockviewed}prestashop>blockviewed_f4f70727dc34561dfde1a3c529b6205c'] = 'Parametrat';

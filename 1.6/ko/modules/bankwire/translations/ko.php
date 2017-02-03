@@ -39,7 +39,6 @@ $_MODULE['<{bankwire}prestashop>payment_execution_569fd05bdafa1712c4f6be5b153b84
 $_MODULE['<{bankwire}prestashop>infos_c1be305030739396775edaca9813f77d'] = '이 모듈은 고객님이 무통장 입금(계좌이체)를 허용하고 있습니다.';
 $_MODULE['<{bankwire}prestashop>infos_60742d06006fde3043c77e6549d71a99'] = '만약 고객이 은행송금 방법을 선택시 "결제 대기"로 변경됩니다.';
 $_MODULE['<{bankwire}prestashop>infos_5fb4bbf993c23848433caf58e6b2816d'] = '즉, 입금내역을 계좌를 통해 수시로 확인해야 합니다.';
-$_MODULE['<{bankwire}prestashop>payment_return_88526efe38fd18179a127024aba8c1d7'] = '';
 $_MODULE['<{bankwire}prestashop>payment_return_1f8cdc30326f1f930b0c87b25fdac965'] = '입금하실 금액과 은행정보는 아래와 같습니다.';
 $_MODULE['<{bankwire}prestashop>payment_return_b2f40690858b404ed10e62bdf422c704'] = '입금하실 금액';
 $_MODULE['<{bankwire}prestashop>payment_return_5ca0b1b910f393ed1f9f6fa99e414255'] = '예금주:';
@@ -47,7 +46,6 @@ $_MODULE['<{bankwire}prestashop>payment_return_d717aa33e18263b8405ba00e94353cdc'
 $_MODULE['<{bankwire}prestashop>payment_return_984482eb9ff11e6310fef641d2268a2a'] = '은행명
 ';
 $_MODULE['<{bankwire}prestashop>payment_return_bb4ec5aac6864a05fcc220cccd8e82f9'] = '*은행송금 시 주문번호 #%d 를 꼭 입력하여 주세요.';
-$_MODULE['<{bankwire}prestashop>payment_return_1faa25b80a8d31e5ef25a78d3336606d'] = '';
 $_MODULE['<{bankwire}prestashop>payment_return_19c419a8a4f1cd621853376a930a2e24'] = '이 정보는 귀하의 Email로도 발송하였습니다.';
 $_MODULE['<{bankwire}prestashop>payment_return_b9a1cae09e5754424e33764777cfcaa0'] = '본 주문상품은 결제확인 후 발송됩니다.';
 $_MODULE['<{bankwire}prestashop>payment_return_ca7e41a658753c87973936d7ce2429a8'] = '다른 문의사항이 있으시면 고객지원센터를 통해 연락주시길 바랍니다.';

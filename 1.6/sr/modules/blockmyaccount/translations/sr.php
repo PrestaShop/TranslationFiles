@@ -11,7 +11,6 @@ $_MODULE['<{blockmyaccount}prestashop>blockmyaccount_89080f0eedbd5491a93157930f1
 $_MODULE['<{blockmyaccount}prestashop>blockmyaccount_9132bc7bac91dd4e1c453d4e96edf219'] = 'Moji reversi';
 $_MODULE['<{blockmyaccount}prestashop>blockmyaccount_e45be0a0d4a0b62b15694c1a631e6e62'] = 'Moje adrese';
 $_MODULE['<{blockmyaccount}prestashop>blockmyaccount_63b1ba91576576e6cf2da6fab7617e58'] = 'Moji lični podaci';
-$_MODULE['<{blockmyaccount}prestashop>blockmyaccount_95d2137c196c7f84df5753ed78f18332'] = '';
 $_MODULE['<{blockmyaccount}prestashop>blockmyaccount_c87aacf5673fada1108c9f809d354311'] = 'Odjavi se';
 
 

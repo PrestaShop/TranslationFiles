@@ -8,12 +8,9 @@ $_MODULE['<{statsbestcategories}prestashop>statsbestcategories_f5c493141bb4b2508
 $_MODULE['<{statsbestcategories}prestashop>statsbestcategories_49ee3087348e8d44e1feda1917443987'] = '名稱';
 $_MODULE['<{statsbestcategories}prestashop>statsbestcategories_eebfd2d9a7ea25b9e61e8260bcd4849c'] = '銷售數量共計';
 $_MODULE['<{statsbestcategories}prestashop>statsbestcategories_f3547ae5e06426d87312eff7dda775aa'] = '總價';
-$_MODULE['<{statsbestcategories}prestashop>statsbestcategories_89a4e26859399438513f41c4971795b5'] = '';
 $_MODULE['<{statsbestcategories}prestashop>statsbestcategories_c13329e42ec01a10f84c0f950274b404'] = '瀏覽共計';
 $_MODULE['<{statsbestcategories}prestashop>statsbestcategories_6e3b3150807da868ebd33ad2c991b8d7'] = '最佳分類';
-$_MODULE['<{statsbestcategories}prestashop>statsbestcategories_e5510869e31bbf721ca15dff21cf1169'] = '';
 $_MODULE['<{statsbestcategories}prestashop>statsbestcategories_998e4c5c80f27dec552e99dfed34889a'] = 'CSV輸出';
-$_MODULE['<{statsbestcategories}prestashop>statsbestcategories_26f1502c886f4daa37c43d27bb58d40d'] = '';
 
 
 return $_MODULE;

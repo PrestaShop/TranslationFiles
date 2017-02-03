@@ -24,8 +24,6 @@ $_MODULE['<{referralprogram}prestashop>program_b9ebe5bbe91ed6e7e23285fb6c595ab4'
 $_MODULE['<{referralprogram}prestashop>program_58c7f2542ab2e2c3e4e39e851ea0f225'] = 'Osalenud sõbrad';
 $_MODULE['<{referralprogram}prestashop>program_a44fa3fcad7f0f3ef4b6d77b74ca66f2'] = 'Saa soodustusi kuni %1$s omale ja sõpradele soovitades seda veebilehte.';
 $_MODULE['<{referralprogram}prestashop>program_8d3ae82bfa996855cdf841dd9e15a7e3'] = 'See on lihtne ja kiire. Lihtsalt täitke oma sõprade andmed alljärgnevatel väljadel.';
-$_MODULE['<{referralprogram}prestashop>program_666149e67589bd65ed1e787932cd74f5'] = '';
-$_MODULE['<{referralprogram}prestashop>program_def1ac1f353beef52f7e86a30cae01c4'] = '';
 $_MODULE['<{referralprogram}prestashop>program_8d122aed0fe2c5076e4941bfbd53fe04'] = 'saab Tema kupongi väärtusega %1$s ja Sina saad kupongi väärtusega %1$s';
 $_MODULE['<{referralprogram}prestashop>program_8d3f5eff9c40ee315d452392bed5309b'] = 'Perekonnanimi';
 $_MODULE['<{referralprogram}prestashop>program_20db0bfeecd8fe60533206a2b5e9891a'] = 'Eesnimi';
@@ -55,13 +53,13 @@ $_MODULE['<{referralprogram}prestashop>program_8cf04a9734132302f96da8e113e80ce5'
 $_MODULE['<{referralprogram}prestashop>program_d3d2e617335f08df83599665eef8a418'] = 'Sulge';
 $_MODULE['<{referralprogram}prestashop>program_7a81aa9275331bb0f5e6adb5e8650a03'] = 'Või Esc nupp';
 $_MODULE['<{referralprogram}prestashop>rules_01705c0177ebf5fbcbf4e882bc454405'] = 'Soovita sõbrale reeglid';
-$_MODULE['<{referralprogram}prestashop>authentication_6b31baf25848e7a6563ecc3946626c80'] = '\\"Soovita sõbrale\\" programm';
+$_MODULE['<{referralprogram}prestashop>authentication_6b31baf25848e7a6563ecc3946626c80'] = '\"Soovita sõbrale\" programm';
 $_MODULE['<{referralprogram}prestashop>authentication_8fdb2298a0db461ac64e71192a562ca1'] = 'Sisestage siia Teie soovitaja e-posti aadress';
-$_MODULE['<{referralprogram}prestashop>my-account_6b31baf25848e7a6563ecc3946626c80'] = '\\"Soovita sõbrale\\" programm';
+$_MODULE['<{referralprogram}prestashop>my-account_6b31baf25848e7a6563ecc3946626c80'] = '\"Soovita sõbrale\" programm';
 $_MODULE['<{referralprogram}prestashop>order-confirmation_f2ef523efa8d23f8afc29e195592fc58'] = 'Täname tellimuse eest, Teie soovitaja %1$s %2$s saab peale ostu sooritamist kupongi väärtusega %3$d.';
 $_MODULE['<{referralprogram}prestashop>shopping-cart_b76b807810393d9fce7f154d82aef1d1'] = 'Tänu soovitajale saate Te kupongi väärtusega %s !';
 $_MODULE['<{referralprogram}prestashop>shopping-cart_9a5b602be8d9b2d4b8c3f22911fba01d'] = 'Sisesta kupongi kood, et saada soodustust sellele tellimusele';
-$_MODULE['<{referralprogram}prestashop>shopping-cart_6b31baf25848e7a6563ecc3946626c80'] = '\\"Soovita sõbrale\\" programm';
+$_MODULE['<{referralprogram}prestashop>shopping-cart_6b31baf25848e7a6563ecc3946626c80'] = '\"Soovita sõbrale\" programm';
 $_MODULE['<{referralprogram}prestashop>shopping-cart_106527986549f3ec8da1ae5a7abde467'] = 'Vaata oma soovitaja programmi.';
 
 

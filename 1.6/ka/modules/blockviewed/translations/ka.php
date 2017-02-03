@@ -14,7 +14,6 @@ $_MODULE['<{blockviewed}prestashop>blockviewed_d36bbb6066e3744039d38e580f17a2cc'
 $_MODULE['<{blockviewed}prestashop>blockviewed_c9cc8cce247e49bae79f15173ce97354'] = 'Сохранить';
 $_MODULE['<{blockviewed}prestashop>blockviewed_43560641f91e63dc83682bc598892fa1'] = 'ნანახი პროდუქცია';
 $_MODULE['<{blockviewed}prestashop>blockviewed_8f7f4c1ce7a4f933663d10543562b096'] = 'დაწვრილებით';
-$_MODULE['<{blockviewed}prestashop>blockviewed_c70ad5f80e4c6f299013e08cabc980df'] = '';
 
 
 return $_MODULE;

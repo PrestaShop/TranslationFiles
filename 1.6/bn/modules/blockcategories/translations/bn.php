@@ -9,15 +9,10 @@ $_MODULE['<{blockcategories}prestashop>blockcategories_23e0d4ecc25de9b2777fdaca3
 $_MODULE['<{blockcategories}prestashop>blockcategories_0cf328636f0d607ac24a5c435866b94b'] = 'ভুল কোড';
 $_MODULE['<{blockcategories}prestashop>blockcategories_f4f70727dc34561dfde1a3c529b6205c'] = 'সেটিংস';
 $_MODULE['<{blockcategories}prestashop>blockcategories_1379a6b19242372c1f23cc9adedfcdd6'] = 'ক্যাটাগরি রুট ';
-$_MODULE['<{blockcategories}prestashop>blockcategories_c6d333d07d30f7b4c31a94bbd510bf88'] = '';
-$_MODULE['<{blockcategories}prestashop>blockcategories_89b278a71f2be5f620307502326587a0'] = '';
 $_MODULE['<{blockcategories}prestashop>blockcategories_62381fc27e62649a16182a616de3f7ea'] = 'বর্তমান ক্যাটাগরি ';
 $_MODULE['<{blockcategories}prestashop>blockcategories_52b68aaa602d202c340d9e4e9157f276'] = 'প্যারেন্ট ক্যাটাগরি';
-$_MODULE['<{blockcategories}prestashop>blockcategories_f225631c1a6f71e99cc779f6bbf06dd4'] = '';
 $_MODULE['<{blockcategories}prestashop>blockcategories_19561e33450d1d3dfe6af08df5710dd0'] = 'সর্বাধিক গভীরতা';
-$_MODULE['<{blockcategories}prestashop>blockcategories_584d4e251b6f778eda9cfc2fc756b0b0'] = '';
 $_MODULE['<{blockcategories}prestashop>blockcategories_971fd8cc345d8bd9f92e9f7d88fdf20c'] = 'ডাইনামিক';
-$_MODULE['<{blockcategories}prestashop>blockcategories_c10efcaa2a8ff4eedaa3538fff78eb53'] = '';
 $_MODULE['<{blockcategories}prestashop>blockcategories_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'সক্রিয়';
 $_MODULE['<{blockcategories}prestashop>blockcategories_b9f5c797ebbf55adccdd8539a65a0241'] = 'নিষ্ক্রিয়';
 $_MODULE['<{blockcategories}prestashop>blockcategories_6b46ae48421828d9973deec5fa9aa0c3'] = 'সাজান';
@@ -30,9 +25,6 @@ $_MODULE['<{blockcategories}prestashop>blockcategories_5f73e737cedf8f4ccf880473a
 $_MODULE['<{blockcategories}prestashop>blockcategories_c9cc8cce247e49bae79f15173ce97354'] = 'সংরক্ষণ করুন';
 $_MODULE['<{blockcategories}prestashop>blockcategories_footer_af1b98adf7f686b84cd0b443e022b7a0'] = 'প্রকার';
 $_MODULE['<{blockcategories}prestashop>blockcategories_af1b98adf7f686b84cd0b443e022b7a0'] = 'প্রকার';
-$_MODULE['<{blockcategories}prestashop>blockcategories_admin_63239117f39d923b2e407620fc1fa5b5'] = '';
-$_MODULE['<{blockcategories}prestashop>blockcategories_admin_eea317348d82718d49f9a79189dc0f93'] = '';
-$_MODULE['<{blockcategories}prestashop>blockcategories_admin_5bc1667deb2b522c0cac00de5f15ffbc'] = '';
 
 
 return $_MODULE;

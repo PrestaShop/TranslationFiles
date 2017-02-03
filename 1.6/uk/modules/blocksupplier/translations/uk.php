@@ -3,7 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{blocksupplier}prestashop>blocksupplier_9ae42413e3cb9596efe3857f75bad3df'] = 'Блок \\"Постачальники\\"';
+$_MODULE['<{blocksupplier}prestashop>blocksupplier_9ae42413e3cb9596efe3857f75bad3df'] = 'Блок \"Постачальники\"';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_e72b2501ba75e9ab754d3294d43c2590'] = 'Додає блок що показує ваших поставщиків.';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_85ab0c0d250e58397e95c96277a3f8e3'] = 'Невірна кількість елементів.';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_914b0cd4e4aa7cba84a3fd47b880fd2a'] = 'Будь ласка активуйте хоча б один тип списку.';

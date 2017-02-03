@@ -49,7 +49,6 @@ $_MODULE['<{blockcart}prestashop>blockcart_544c3bd0eac526113a9c66542be1e5bc'] = 
 $_MODULE['<{blockcart}prestashop>blockcart_694e8d1f2ee056f98ee488bdc4982d73'] = 'Cantidade';
 $_MODULE['<{blockcart}prestashop>blockcart_e5694b7726ceaf2f057e5f06cf86209e'] = 'Hai [1]%d[/1] artigos no teu carro.';
 $_MODULE['<{blockcart}prestashop>blockcart_fc86c43dbffcadc193832a310f7a444a'] = 'Hai 1 artigo no teu carro.';
-$_MODULE['<{blockcart}prestashop>blockcart_db205f01b4fd580fb5daa9072d96849d'] = '';
 $_MODULE['<{blockcart}prestashop>blockcart_21034ae6d01a83e702839a72ba8a77b0'] = '(taxas non incl.)';
 $_MODULE['<{blockcart}prestashop>blockcart_1f87346a16cf80c372065de3c54c86d9'] = '(taxas incl.)';
 $_MODULE['<{blockcart}prestashop>blockcart_f4e8b53a114e5a17d051ab84d326cae5'] = 'Total envío';

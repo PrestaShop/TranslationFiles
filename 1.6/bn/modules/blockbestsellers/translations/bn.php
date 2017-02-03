@@ -8,7 +8,6 @@ $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_ed6476843a865d9daf92e40
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_c888438d14855d7d96a2724ee9c306bd'] = 'সেটিংস আপডেট হয়েছে ।';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_f4f70727dc34561dfde1a3c529b6205c'] = 'সেটিংস';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_26986c3388870d4148b1b5375368a83d'] = 'প্রদর্শন করার জন্য পণ্য';
-$_MODULE['<{blockbestsellers}prestashop>blockbestsellers_2b21378492166b0e5a855e2da611659c'] = '';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_24ff4e4d39bb7811f6bdf0c189462272'] = 'সর্বদা এই ব্লক প্রদর্শন করুন';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_84b0c5fdef19ab8ef61cd809f9250d85'] = 'যদি কোন শীর্ষ বিক্রিত পণ্য নাও থাকে তবুও এই ব্লক টি দেখান ';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'সক্রিয়';

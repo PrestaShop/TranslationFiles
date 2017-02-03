@@ -10,9 +10,6 @@ $_MODULE['<{sekeywords}prestashop>sekeywords_9ed50bd6876a9273f2192c224b87657b'] 
 $_MODULE['<{sekeywords}prestashop>sekeywords_7acbda50735929f05f6f463e05bc7ead'] = 'এটি একটি সার্চ ইঞ্জিন এর মাধ্যমে একটি ওয়েবসাইট খুঁজে বের করার সবচেয়ে সাধারণ পদ্ধতি ';
 $_MODULE['<{sekeywords}prestashop>sekeywords_4ad084c0b816ff9278765a00720caf32'] = 'আপনার নতুন দর্শক দ্বারা প্রবেশ সবচেয়ে জনপ্রিয় কীওয়ার্ড সনাক্তকরণের মাধ্যমে সার্চ ইঞ্জিনে ভাল দৃশ্যমানতা অর্জন করতে কোন পণ্য গুলি সামনে রাখা উচিত তা দেখতে পারবেন। ';
 $_MODULE['<{sekeywords}prestashop>sekeywords_359f9e79e746fa9f684e5cda9e60ca2e'] = 'এটি কিভাবে কাজ করে?';
-$_MODULE['<{sekeywords}prestashop>sekeywords_ec2184245585ba979912af9e34d738c6'] = '';
-$_MODULE['<{sekeywords}prestashop>sekeywords_ef79a74a2fd296e19e8cc58cdae91d43'] = '';
-$_MODULE['<{sekeywords}prestashop>sekeywords_dcbcf5d190af87351a16edd5f132c657'] = '';
 $_MODULE['<{sekeywords}prestashop>sekeywords_16d5f8dc3bc4411c85848ae9cf6a947a'] = '%d শব্দ আপনার অনুসন্ধানের সাথে মেলে.';
 $_MODULE['<{sekeywords}prestashop>sekeywords_5029f8eef402bb8ddd6191dffb5e7c19'] = '%d  গুলোশব্দ আপনার অনুসন্ধানের সাথে মেলে.';
 $_MODULE['<{sekeywords}prestashop>sekeywords_0849140171616600e8f2c35f0a225212'] = 'কিওয়ার্ড ফিল্টার করুন';

@@ -30,7 +30,6 @@ $_MODULE['<{watermark}prestashop>watermark_7c60ca861e403259d8a41b5e6577788c'] = 
 $_MODULE['<{watermark}prestashop>watermark_b28354b543375bfa94dabaeda722927f'] = 'κορυφή';
 $_MODULE['<{watermark}prestashop>watermark_71f262d796bed1ab30e8a2d5a8ddee6f'] = 'κάτω';
 $_MODULE['<{watermark}prestashop>watermark_27bd5f34e4375356363346e90dbbe2ca'] = 'Επιλογή τύπου εικόνας για προστασία με υδατογράφημα:';
-$_MODULE['<{watermark}prestashop>watermark_b48748047a9eed520aa26ae2a8b62905'] = '';
 $_MODULE['<{watermark}prestashop>watermark_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Ενεργοποιημένο';
 $_MODULE['<{watermark}prestashop>watermark_b9f5c797ebbf55adccdd8539a65a0241'] = 'Απενεργοποιημένο';
 $_MODULE['<{watermark}prestashop>watermark_c9cc8cce247e49bae79f15173ce97354'] = 'Αποθήκευση';

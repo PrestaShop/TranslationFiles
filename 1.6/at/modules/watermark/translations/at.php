@@ -17,7 +17,6 @@ $_MODULE['<{watermark}prestashop>watermark_a9cac4be0fa0b815376b96f49e1435d7'] = 
 $_MODULE['<{watermark}prestashop>watermark_b670770ad59c1f8e7fb65f276074172b'] = 'Bild muss im GIF-Format sein.';
 $_MODULE['<{watermark}prestashop>watermark_130aab6764f25267c79cef371270eb2a'] = 'Beim Wasserzeichen-Upload ist ein Fehler aufgetreten : %1$s nach %2$s';
 $_MODULE['<{watermark}prestashop>watermark_281bec6c0d3fed2b0f5839d1ee197a6e'] = 'Das Wasserzeichen-Bild ist keine GIF-Datei. Bitte konvertieren Sie das Bild.';
-$_MODULE['<{watermark}prestashop>watermark_f4f70727dc34561dfde1a3c529b6205c'] = '';
 $_MODULE['<{watermark}prestashop>watermark_cc99ba657a4a5ecf9d2d7cb974d25596'] = 'Sobald Sie das Modul eingestellt haben, müssen Sie die Bilder unter Voreinstellungen -> Bilder wieder herstellen. Das Wasserzeichen wird in jedem Fall automatisch zu den neuen Bildern hinzugefügt.';
 $_MODULE['<{watermark}prestashop>watermark_3dad9d209b698755340cd82c93fa299d'] = 'Wasserzeichen-Datei';
 $_MODULE['<{watermark}prestashop>watermark_ce4ca541df51a63fd8e78e0da29e1d44'] = 'Muss im GIF-Format sein';
@@ -31,9 +30,6 @@ $_MODULE['<{watermark}prestashop>watermark_b28354b543375bfa94dabaeda722927f'] = 
 $_MODULE['<{watermark}prestashop>watermark_71f262d796bed1ab30e8a2d5a8ddee6f'] = 'unten';
 $_MODULE['<{watermark}prestashop>watermark_27bd5f34e4375356363346e90dbbe2ca'] = 'Dateitypen für Wasserzeichen auswählen:';
 $_MODULE['<{watermark}prestashop>watermark_b48748047a9eed520aa26ae2a8b62905'] = 'Angemeldete Kunden sehen die Bilder ohne Wasserzeichen.';
-$_MODULE['<{watermark}prestashop>watermark_00d23a76e43b46dae9ec7aa9dcbebb32'] = '';
-$_MODULE['<{watermark}prestashop>watermark_b9f5c797ebbf55adccdd8539a65a0241'] = '';
-$_MODULE['<{watermark}prestashop>watermark_c9cc8cce247e49bae79f15173ce97354'] = '';
 
 
 return $_MODULE;

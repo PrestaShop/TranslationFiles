@@ -38,7 +38,7 @@ $_MODULE['<{gsitemap}prestashop>configuration_6caa369fd774beef106abbc5cc1e3368']
 $_MODULE['<{gsitemap}prestashop>configuration_4ed0b6a0097c3d38c43d756fe2653962'] = 'kasutades ülalolevat vormi (nii tihti kui vaja)';
 $_MODULE['<{gsitemap}prestashop>configuration_3d263eb0233f14872193733387840c80'] = '-või-';
 $_MODULE['<{gsitemap}prestashop>configuration_957d27165d1dc5947fb00e57967ffcce'] = 'Automaatselt :';
-$_MODULE['<{gsitemap}prestashop>configuration_024d2d2f6d7fd575701fd1b30cc5c0c2'] = 'Palu oma teenusepakkujal seada tööle \\"Cron task\\", et laadida sinna vabalt valitud ajal järgmine URL :';
+$_MODULE['<{gsitemap}prestashop>configuration_024d2d2f6d7fd575701fd1b30cc5c0c2'] = 'Palu oma teenusepakkujal seada tööle \"Cron task\", et laadida sinna vabalt valitud ajal järgmine URL :';
 $_MODULE['<{gsitemap}prestashop>configuration_8076be06e575e50c7f9585271c8842ad'] = 'See genereerib automaatselt Sinu XML Sisulehe';
 $_MODULE['<{gsitemap}prestashop>configuration_98a9d595be84a0687c4b26887977e0c3'] = 'tühista kõik';
 

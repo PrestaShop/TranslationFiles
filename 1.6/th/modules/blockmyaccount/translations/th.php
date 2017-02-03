@@ -4,7 +4,6 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{blockmyaccount}prestashop>blockmyaccount_ecf3e4f8f34a293099620cc25d5b4d93'] = 'บล๊อก My Account';
-$_MODULE['<{blockmyaccount}prestashop>blockmyaccount_ecf2ffd31994b3edea4b916011b08bfa'] = '';
 $_MODULE['<{blockmyaccount}prestashop>blockmyaccount_d95cf4ab2cbf1dfb63f066b50558b07d'] = 'บัญชีของฉัน';
 $_MODULE['<{blockmyaccount}prestashop>blockmyaccount_74ecd9234b2a42ca13e775193f391833'] = 'รายการสั่งซื้อ';
 $_MODULE['<{blockmyaccount}prestashop>blockmyaccount_89080f0eedbd5491a93157930f1e45fc'] = 'รายการคืนสินค้าของฉัน';

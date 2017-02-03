@@ -36,7 +36,6 @@ $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_cc5d90569e1c8313c2b1c2aab14
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_eca60ae8611369fe28a02e2ab8c5d12e'] = 'Oktober';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_7e823b37564da492ca1629b4732289a8'] = 'November';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_82331503174acbae012b2004f6431fa5'] = 'Dezember';
-$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_f4f70727dc34561dfde1a3c529b6205c'] = '';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_0008e84621e5c9f21f8a55387a28692f'] = 'Zusätzliche Zeit, wenn ein Artikel nicht vorrätig ist';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_225e75c29d32392d311f5dc94c792384'] = 'Tag(e)';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_521d02cf307201053a46e0b9c5b5170c'] = 'Zusätzliche Zeit zur Vorbereitung einer Bestellung';
@@ -45,7 +44,6 @@ $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_15b4020fafe2bcadf41fbdb2e7f
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_9685cbc6ac9090137fb087d4f48d0561'] = 'Vorbereitung am Sonntag';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_104f1a7d59077b514d4105fcee0e42ff'] = 'Datumsformat:';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_f19cb36e3ae263c8c3617a453a0ff521'] = 'Hier sehen Sie alle verfügbaren Einstellungen:';
-$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_c9cc8cce247e49bae79f15173ce97354'] = '';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_85140afa1c99d6b4dc10179e2c5b4151'] = 'Versanddienst';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_1b9f5204ddf0881dc9f3a7bf65d4ac15'] = 'Lieferung zwischen';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_19dfe063714422004b75043eaf74c9b8'] = 'Lieferoption';

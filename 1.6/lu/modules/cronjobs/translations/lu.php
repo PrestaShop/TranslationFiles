@@ -3,7 +3,6 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{cronjobs}prestashop>cronjobsforms_c9cc8cce247e49bae79f15173ce97354'] = '';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_d4169d52732e9ae8df56d2cbcad81a94'] = 'Beschreibung';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_70d4968bea9a6e76c0333904b9d385e4'] = 'Meine Währungen aktualisieren';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_0eff773cf33456a033e913f6ed18045c'] = 'Link';

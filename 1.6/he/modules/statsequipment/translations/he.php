@@ -7,7 +7,6 @@ $_MODULE['<{statsequipment}prestashop>statsequipment_247270d410e2b9de01814b82111
 $_MODULE['<{statsequipment}prestashop>statsequipment_2876718a648dea03aaafd4b5a63b1efe'] = 'מוסיף את הכרטיסיה המכילה גרפים על דפדפן אינטרנט ושימוש במערכת הפעלה ללוח המחוונים סטטיסטיקה.';
 $_MODULE['<{statsequipment}prestashop>statsequipment_6602bbeb2956c035fb4cb5e844a4861b'] = 'מדריך';
 $_MODULE['<{statsequipment}prestashop>statsequipment_854c8e126f839cc861cde822b641230e'] = 'על מנת לוודא שהאתר שלכם זמין לכמה שיותר אנשים';
-$_MODULE['<{statsequipment}prestashop>statsequipment_0d5f13106dec10bb8a9301541052278c'] = '';
 $_MODULE['<{statsequipment}prestashop>statsequipment_11db1362a88c5e3e74c8f699c14d6798'] = 'מציין את אחוז השימוש של סוג הדפדפנים בשימוש הלקוחות.';
 $_MODULE['<{statsequipment}prestashop>statsequipment_998e4c5c80f27dec552e99dfed34889a'] = 'CSV יצוא';
 $_MODULE['<{statsequipment}prestashop>statsequipment_90c58bfe4872fc9ca7bf6a181c3e5edd'] = 'מציין את אחוז השימוש של סוגי מערכת הפעלה שבשימוש הלקוחות.';

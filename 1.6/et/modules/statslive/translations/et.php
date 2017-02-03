@@ -5,7 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{statslive}prestashop>statslive_fa55230e9791f2b71322869318a5f00f'] = 'Külalisi lehel';
 $_MODULE['<{statslive}prestashop>statslive_abf306fd198ab007d480ed610a6690fb'] = 'Lisab Statistika lehele nimekirja hetkel poes olevate külastajatega.';
-$_MODULE['<{statslive}prestashop>statslive_85f955e33756b8f40ce35e5b277de5bc'] = 'Et näha mida kliendid hetkel vaatavad pead aktiveerima \\"Andmete kogumine statistika jaoks\\" moodulis võimaluse \\"Salvesta kuvamised iga külastaja kohta\\".';
+$_MODULE['<{statslive}prestashop>statslive_85f955e33756b8f40ce35e5b277de5bc'] = 'Et näha mida kliendid hetkel vaatavad pead aktiveerima \"Andmete kogumine statistika jaoks\" moodulis võimaluse \"Salvesta kuvamised iga külastaja kohta\".';
 $_MODULE['<{statslive}prestashop>statslive_f5ee3b50dba1fb98f1342a584e46cd30'] = 'Kliente lehel just praegu';
 $_MODULE['<{statslive}prestashop>statslive_66c4c5112f455a19afde47829df363fa'] = 'Kokku:';
 $_MODULE['<{statslive}prestashop>statslive_d37c2bf1bd3143847fca087b354f920e'] = 'Kliendi ID';

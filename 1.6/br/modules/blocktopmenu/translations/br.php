@@ -7,7 +7,7 @@ $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e5b7525b4214a759876af4448bd6b87
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_f7979d86fe0b2cd11f44747ed4ff1100'] = 'Adiciona um menu horizontal no topo da sua loja.';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_efc226b17e0532afff43be870bff0de7'] = 'As configurações foram atualizadas.';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_d9a776c185f73d018b2915f4d5e7cc05'] = 'Não foi possível atualizar as configurações para a(s) seguinte(s) loja(s): %s';
-$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_f32880ae5183a02c0a743bfd37a42cbc'] = 'Favor completar o campo \\"Link\\".';
+$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_f32880ae5183a02c0a743bfd37a42cbc'] = 'Favor completar o campo \"Link\".';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_cf8d684bd5f89d30da67c95363a48ab9'] = 'Favor adicionar um rótulo.';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e8d6809226ab177013e0a26bd2d8b60d'] = 'Por favor, adicione um rótulo para o seu idioma padrão';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_3da9d5745155a430aac6d7de3b6de0c8'] = 'O link foi adicionado.';

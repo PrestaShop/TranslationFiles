@@ -10,13 +10,8 @@ $_MODULE['<{homefeatured}prestashop>homefeatured_c284a59996a4e984b30319999a7feb1
 $_MODULE['<{homefeatured}prestashop>homefeatured_fd2608d329d90e9a49731393427d0a5a'] = 'Érvénytelen érték a "randomizálás"-nál.';
 $_MODULE['<{homefeatured}prestashop>homefeatured_6af91e35dff67a43ace060d1d57d5d1a'] = 'Beállítások frissítése megtörtént';
 $_MODULE['<{homefeatured}prestashop>homefeatured_f4f70727dc34561dfde1a3c529b6205c'] = 'Beállítások';
-$_MODULE['<{homefeatured}prestashop>homefeatured_abc877135a96e04fc076becb9ce6fdfa'] = '';
 $_MODULE['<{homefeatured}prestashop>homefeatured_d44168e17d91bac89aab3f38d8a4da8e'] = 'Megjelenítendő termékek száma';
 $_MODULE['<{homefeatured}prestashop>homefeatured_1b73f6b70a0fcd38bbc6a6e4b67e3010'] = 'Állítsd be a honlapon megjelenítendő termékek számát (alapértelmezés: 8)!';
-$_MODULE['<{homefeatured}prestashop>homefeatured_b773a38d8c456f7b24506c0e3cd67889'] = '';
-$_MODULE['<{homefeatured}prestashop>homefeatured_0db2d53545e2ee088cfb3f45e618ba68'] = '';
-$_MODULE['<{homefeatured}prestashop>homefeatured_49417670345173e7b95018b7bf976fc7'] = '';
-$_MODULE['<{homefeatured}prestashop>homefeatured_3c12c1068fb0e02fe65a6c4fc40bc29a'] = '';
 $_MODULE['<{homefeatured}prestashop>homefeatured_93cba07454f06a4a960172bbd6e2a435'] = 'Igen';
 $_MODULE['<{homefeatured}prestashop>homefeatured_bafd7322c6e97d25b6299b5d6fe8920b'] = 'Nem';
 $_MODULE['<{homefeatured}prestashop>homefeatured_c9cc8cce247e49bae79f15173ce97354'] = 'Mentés';

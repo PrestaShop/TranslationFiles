@@ -20,7 +20,6 @@ $_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_197bad7ad08abfd1dc4
 $_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_bf0d87b5aa8d331563ee61f2ac82069d'] = '要达到这个目标您要组织：';
 $_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_397a5e109a5897ee7d699050cbc93347'] = 'Les opérations ponctuelles : les récompenses marchandes (offres promotionnelles ciblées et personnalisées, cadeaux -produit ou service offert-), les récompenses non marchandes (traitement prioritaire d\'une commande ou d\'un produit), les récompenses pécuniaires (bons d\'achat, de réduction, de remboursement). ';
 $_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_4bc24eed56e0ba89fc3ab4e094d18d8a'] = 'Les opérations pérennes : (carte de fidélité, points de fidélité) qui non seulement justifient la communication marchand-clients, et aussi offre des avantages aux clients (offres privatives, réductions).';
-$_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_2f408c42912e3afe23a0e4adcbe34b96'] = '';
 $_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_998e4c5c80f27dec552e99dfed34889a'] = 'CSV导出';
 
 

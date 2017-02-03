@@ -152,10 +152,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_655d20c1ca69519ca647684edbb2
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_26f07ad840fb1c17d29f5be0f428f015'] = 'העבר מודולים חיצונים למצב לא פעיל';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_70c06c37194d755dd9aef11cf0469981'] = 'מודולים חיצוניים יכולים לגרום כמה בעיות תאימות, אנו ממליצים לבטל אותם כברירת מחדל.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_469ab377c49ea68b2ecdfe76d628a53b'] = 'להשאיר אותם פעילים עלול למנוע ממך לטעון את דף "מודולים" כראוי לאחר השדרוג.';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_fa2508196ef3391139d01d8d38b2c1bb'] = '';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_837f859cdd8b16024d72169ed315e9b5'] = 'אם שינית את ערכת עיצוב ברירת המחדל של תיקייה המקורית PrestaShop (המכונה "PrestaShop" בגרסת 1.4 , ובגרסת 1.5  "default",  ובגרסת 1.6  "bootstrap-default" ) ,  הפעלת אפשרות זו תאבד את השינויים שביצעת.';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_97a989a73b46233ae4330fb7682a70a2'] = '';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_92991497ed914de6bb7795b701b4c6e4'] = '';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c7ae0af8d5653beb68b344415aca135d'] = 'זה ישנה את ערכת העיצוב שלך: החנות שלך תשתמש בערכת העיצוב ברירת המחדל של גרסת PrestaShop  אליה אתה משדרג.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5a6925648fc1286cae7924e80690d3a7'] = 'שדרג את תבניות המיילים של ברירת המחדל';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9770c64dad08073b1291334767e0f99c'] = 'זה יעדכן את המיילים ברירת המחדל של PrestaShop.';
@@ -172,8 +169,6 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_56195ded2802813800f43e3be1ba
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a520e5cbdc465c7b7d39c98f78fe2506'] = 'תהליך השחזור הסתיים. ברכותינו! ניתן להוציא את החנות ממצב תחזוקה כעת.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2a7e17be5dc799b0c478ec5f576f0713'] = 'תהליך השדרוג הסתיים. ברכותינו! ניתן להוציא את החנות ממצב תחזוקה כעת.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7a32329d6776ff98d77f7344caf7e00b'] = 'תהליך השדרוג הסתיים, אולם נמצאו מספר שגיאות.';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d2b9f1e39aa8e96bb61f3a4bfe133f58'] = '';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_75802ba44ba3369defd92ef897bf2f21'] = '';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_93cba07454f06a4a960172bbd6e2a435'] = 'כן';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_bafd7322c6e97d25b6299b5d6fe8920b'] = 'לא';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_38fb7d24e0d60a048f540ecb18e13376'] = '   שמור   ';
@@ -438,9 +433,6 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_db992f14c2e79f2e8650cdb5d918
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0bce225c5aed0aaee0d357a11a079962'] = 'עבור שדרוג לגירסה';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5be0150b075f706fc27b09753ce6646d'] = 'לא נמצא קובץ ארכיון בתקייה admin/autoupgrade/download שלך';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_4b0319a87fb1baabe2fdb810e5cd4e62'] = 'אפשרות זו תדלג על שלב ההורדה.';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d477bfdc10c5b1dc8afaf9018555e28f'] = '';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_58a7807a7c90ca70d471aeab775f32a9'] = '';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_59934c8d535a30c791e371449d6b564c'] = '';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c9cc8cce247e49bae79f15173ce97354'] = 'שמור';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9e68a57463e52beb2b2d4d116085044e'] = 'אפשרויות נוספות (מצב מומחה)';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d0285505fd09db653a4ec0fd3799f357'] = 'מצב מומחה';
@@ -458,7 +450,6 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_1f966606f0a941f655a4e9b7791a
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_21739f79b8e95f4187fce4fefb12af28'] = 'מנתח את המצב...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5ef0c737746fae2ca90e66c39333f8f6'] = 'שגיאות';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_dc3fd488f03d423a04da27ce66274c1b'] = 'אזהרה!';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_95095fc4bbc8b42ec512cfb1cfa19d8a'] = '';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e58eae3d7ced672a49b5716587b15f89'] = 'התחל שדרוג';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5784315a8bcebe79611d3353723e010d'] = 'מזל טוב, אתה משתמש כעת בגרסה האחרונה ביותר!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_da3cd17bbbbd3ef7da8e817d3c4cdb46'] = 'אתה בא מהעתיד! אתה משתמש בגרסה עדכנית יותר מאשר הגרסה הזמינה ביותר!';

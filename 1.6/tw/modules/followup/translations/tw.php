@@ -12,7 +12,6 @@ $_MODULE['<{followup}prestashop>followup_edf9feeab43a7623f6afc152d1ede515'] = '�
 $_MODULE['<{followup}prestashop>followup_a053fc9952a7dfc79282eba56ab8ad3a'] = '謝謝您的訂單。';
 $_MODULE['<{followup}prestashop>followup_7fcd592dd47028c7c1f2d0ce9168a303'] = '您是我們最好的客戶之一！';
 $_MODULE['<{followup}prestashop>followup_c2ab23672d4bb31c7664bf8e854a10f7'] = '我們想念您！';
-$_MODULE['<{followup}prestashop>followup_fba6524bb4f34a4c7d8e84b082fc4ce1'] = '';
 $_MODULE['<{followup}prestashop>followup_a82be0f551b8708bc08eb33cd9ded0cf'] = '資訊';
 $_MODULE['<{followup}prestashop>followup_87b1e57b5e8cd700618b6ae4938a4023'] = '有四種電郵提醒可用以聯繫客戶！';
 $_MODULE['<{followup}prestashop>followup_b547c073d144a57761d1d00d0b9d9f27'] = '取消購物車';

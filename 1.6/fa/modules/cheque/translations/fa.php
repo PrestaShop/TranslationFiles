@@ -52,7 +52,7 @@ $_MODULE['<{cheque}prestashop>payment_return_decce112a9e64363c997b04aa71b7cb8'] 
 $_MODULE['<{cheque}prestashop>payment_return_9bdf695c5a30784327137011da6ef568'] = 'ما متوجه وجود یک مشکل در سفارش شما شدیم. اگر فکر می کنید که خطایی روی داده است، می توانید با ما تماس بگیرید';
 $_MODULE['<{cheque}prestashop>payment_4b80fae2153218ed763bdadc418e8589'] = 'پرداخت با چک';
 $_MODULE['<{cheque}prestashop>payment_4e1fb9f4b46556d64db55d50629ee301'] = '(فرآیند سفارش طولانی تر است)';
-$_MODULE['<{cheque}prestashop>payment_execution_0881a11f7af33bc1b43e437391129d66'] = 'لطفاً سفارش خود را با کلیک کردن بر روی \\"من سفارش خود را تأیید می کنم\\" تأیید کنید';
+$_MODULE['<{cheque}prestashop>payment_execution_0881a11f7af33bc1b43e437391129d66'] = 'لطفاً سفارش خود را با کلیک کردن بر روی \"من سفارش خود را تأیید می کنم\" تأیید کنید';
 $_MODULE['<{cheque}prestashop>payment_return_d15feee53d81ea16269e54d4784fa123'] = 'ما متوجه وجود یک مشکل در سفارش شما شدیم. اگر فکر می کنید که خطایی روی داده است، می توانید تماس بگیرید با';
 $_MODULE['<{cheque}prestashop>payment_f05fd8637f8a6281466a507fcb56baec'] = 'پرداخت با چک.';
 

@@ -12,14 +12,9 @@ $_MODULE['<{gsitemap}prestashop>configuration_1c95b77d135b55c84429588c11697ea4']
 $_MODULE['<{gsitemap}prestashop>configuration_aa17b80751f4ae53ab8e3ed2fe99e94d'] = 'সাইটম্যাপ ইতিপূর্বে তৈরি করা হয়েছিল ';
 $_MODULE['<{gsitemap}prestashop>configuration_a0bfb8e59e6c13fc8d990781f77694fe'] = 'চালিয়ে যেতে পারেন';
 $_MODULE['<{gsitemap}prestashop>configuration_9ab08b9ceeef857df07ad10e1de9301e'] = 'আপনার গুগল ওয়েবমাস্টার একাউন্টে নিম্নলিখিত সাইটম্যাপ URL টি সেট আপ করুন:';
-$_MODULE['<{gsitemap}prestashop>configuration_aef717e48ecd01989c92849d44bff9b6'] = '';
-$_MODULE['<{gsitemap}prestashop>configuration_0dbf904a2b27f036cf06741aad221ecc'] = '';
 $_MODULE['<{gsitemap}prestashop>configuration_6d37779958434303f8397436a1484ed8'] = 'মডিউলের সঠিক ব্যবহারের জন্য, নিশ্চিত করুন যে আপনার আছে';
-$_MODULE['<{gsitemap}prestashop>configuration_6a3282611e5ffb8539ce434133073f15'] = '';
-$_MODULE['<{gsitemap}prestashop>configuration_f891951357d4892887f0e416c54f972d'] = '';
 $_MODULE['<{gsitemap}prestashop>configuration_8156303464de0fba7cb8306cc768e998'] = 'আপনি আপনার php.ini ফাইল এই সীমা সম্পাদনা করতে পারেন। অধিক বিবরণের জন্য, আপনার হোস্টিং প্রদানকারীর সাথে যোগাযোগ করুন।';
 $_MODULE['<{gsitemap}prestashop>configuration_0b9b4b91e0a8f59e264202a23d9c57a6'] = 'আপনার সাইট ম্যাপ কনফিগার করুন';
-$_MODULE['<{gsitemap}prestashop>configuration_fe242b3dd3f455778072dc7042637a5e'] = '';
 $_MODULE['<{gsitemap}prestashop>configuration_7f751d19f85d49a411d5691f5bb0b5f2'] = 'আপনি কত সময় পর পর আপনার দোকান আপডেট করেন?';
 $_MODULE['<{gsitemap}prestashop>configuration_f9f90eeaf400d228facde6bc48da5cfb'] = 'সবসময়';
 $_MODULE['<{gsitemap}prestashop>configuration_745fd0ea7f576f350a0eed4b8c48a8e2'] = 'প্রতি ঘণ্টায়';
@@ -30,7 +25,6 @@ $_MODULE['<{gsitemap}prestashop>configuration_1bf712896e6077fa0b708e911d8ee0b3']
 $_MODULE['<{gsitemap}prestashop>configuration_c7561db7a418dd39b2201dfe110ab4a4'] = 'কখনো না';
 $_MODULE['<{gsitemap}prestashop>configuration_e51d91c7bfa9fc658b11afca4d84653c'] = 'আপনি সার্ভারে ইমেজ ফাইল উপস্থিতি পরীক্ষা করতে ইচ্ছুক হলে এই বক্স চেক করুন';
 $_MODULE['<{gsitemap}prestashop>configuration_05ff8159ccaef6f0f8391c61a6d0e631'] = 'সব চেক';
-$_MODULE['<{gsitemap}prestashop>configuration_0dfcf5f2f5b9ab7c909f9bdca2b53b56'] = '';
 $_MODULE['<{gsitemap}prestashop>configuration_2ec111ec9826a83509c02bf5e6b797f1'] = 'সাইটম্যাপ জেনারেট করুন';
 $_MODULE['<{gsitemap}prestashop>configuration_ca99f8a0d484faef3a057fe7a5da3141'] = 'এতে কয়েক মিনিট লাগতে পারে';
 $_MODULE['<{gsitemap}prestashop>configuration_162b34489ed8df561be1720f04fe6d42'] = 'আপনার জন্য সাইটম্যাপ জেনারেটের দুটি উপায় আছে:';

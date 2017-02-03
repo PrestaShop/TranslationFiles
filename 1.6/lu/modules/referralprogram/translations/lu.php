@@ -4,7 +4,6 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{referralprogram}prestashop>program_36c94bd456cf8796723ad09eac258aef'] = 'Ihr Konto bearbeiten ';
-$_MODULE['<{referralprogram}prestashop>program_d95cf4ab2cbf1dfb63f066b50558b07d'] = '';
 $_MODULE['<{referralprogram}prestashop>program_6540b502e953f4c05abeb8f234cd50bf'] = 'Kundenempfehlungsprogramm';
 $_MODULE['<{referralprogram}prestashop>program_6b31baf25848e7a6563ecc3946626c80'] = 'Kundenempfehlungsprogramm';
 $_MODULE['<{referralprogram}prestashop>program_dbc65cd60abde51277c2881ce915a225'] = 'Sie müssen sich den Bedingungen des Referral-Programm zustimmen!';

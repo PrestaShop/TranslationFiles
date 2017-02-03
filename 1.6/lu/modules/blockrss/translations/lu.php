@@ -14,14 +14,11 @@ $_MODULE['<{blockrss}prestashop>blockrss_bef637cd0e222a8b56676cb64ce75258'] = 'F
 $_MODULE['<{blockrss}prestashop>blockrss_1844ef1bfaa030dc8423c4645a43525c'] = 'Feed ungültig:';
 $_MODULE['<{blockrss}prestashop>blockrss_c888438d14855d7d96a2724ee9c306bd'] = 'Einstellungen aktualisiert';
 $_MODULE['<{blockrss}prestashop>blockrss_0a1c629f0e86804a9e165f4b1ee399b7'] = 'Fehler: Ungültiger RSS-Feed im "blockrss" Modul: %s';
-$_MODULE['<{blockrss}prestashop>blockrss_f4f70727dc34561dfde1a3c529b6205c'] = '';
-$_MODULE['<{blockrss}prestashop>blockrss_b22c8f9ad7db023c548c3b8e846cb169'] = '';
 $_MODULE['<{blockrss}prestashop>blockrss_5a33009bfebd22448e4265f65f8a7d98'] = 'Geben Sie einen Namen für den Block ein (Standard: "RSS-Feed").';
 $_MODULE['<{blockrss}prestashop>blockrss_402d00ca8e4f0fff26fc24ee9ab8e82b'] = 'Fügen Sie eine Feed-URL hinzu';
 $_MODULE['<{blockrss}prestashop>blockrss_3117d1276345461366a62c6950c186ed'] = 'Fügen Sie die URL des Feeds hinzu, die Sie verwenden möchten (Beispiel: http://news.google.com/?output=rss).';
 $_MODULE['<{blockrss}prestashop>blockrss_ff9aa540e20285875ac8b190a3cb7ccf'] = 'Anzahl der angezeigten Threads';
 $_MODULE['<{blockrss}prestashop>blockrss_0b4c4685f03f258492af3705a03b619b'] = 'Anzahl der im Block angezeigten Threads (Standardwert: 5).';
-$_MODULE['<{blockrss}prestashop>blockrss_c9cc8cce247e49bae79f15173ce97354'] = '';
 $_MODULE['<{blockrss}prestashop>blockrss_10fd25dcd3353c0ba3731d4a23657f2e'] = 'Kein RSS Feed hinzugefügt';
 
 

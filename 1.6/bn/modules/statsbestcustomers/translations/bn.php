@@ -20,7 +20,6 @@ $_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_197bad7ad08abfd1dc4
 $_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_bf0d87b5aa8d331563ee61f2ac82069d'] = 'এই লক্ষ্য অর্জন করার জন্য, আপনি বিন্যস্ত করতে পারেন :';
 $_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_397a5e109a5897ee7d699050cbc93347'] = 'সময়নিষ্ঠ অপারেশন : বাণিজ্যিক পুরস্কার ( দেওয়া ব্যক্তিগতকৃত বিশেষ অফার , পণ্য বা সেবা) , অ বাণিজ্যিক পুরস্কার (একটি আদেশ বা একটি পণ্য অগ্রাধিকার হ্যান্ডলিং ), আর্থিক পুরস্কারের ( বন্ড, ডিসকাউন্ট কুপন , মূল্য ফেরত ).';
 $_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_4bc24eed56e0ba89fc3ab4e094d18d8a'] = 'টেকসই অপারেশন : আনুগত্য পয়েন্ট বা কার্ড, বণিক ও ক্লায়েন্টের মধ্যে যোগাযোগ ন্যায্যতা , কিন্তু গ্রাহকদের সুবিধার ও লক্ষ্য রাখা ( চিঠি অফার, ডিসকাউন্ট ) প্রদান না শুধুমাত্র হয়.';
-$_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_2f408c42912e3afe23a0e4adcbe34b96'] = '';
 $_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_998e4c5c80f27dec552e99dfed34889a'] = 'CSV রপ্তানি';
 
 

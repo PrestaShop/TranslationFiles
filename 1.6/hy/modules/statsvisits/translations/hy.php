@@ -4,9 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{statsvisits}prestashop>statsvisits_504c16c26a96283f91fb46a69b7c8153'] = 'Այցելուներ եւ այցելություններ';
-$_MODULE['<{statsvisits}prestashop>statsvisits_432c3ab90b3af30ad318201ba09aa824'] = '';
 $_MODULE['<{statsvisits}prestashop>statsvisits_6602bbeb2956c035fb4cb5e844a4861b'] = 'Ուղեցույց';
-$_MODULE['<{statsvisits}prestashop>statsvisits_ffbee337f031c2282b311bac40bc8bb9'] = '';
 $_MODULE['<{statsvisits}prestashop>statsvisits_e90d50ca1e68dc66c97bd62929dcbaf1'] = 'Այցելուների ներգրավման գրաֆիկը շատ նման է այցելությունների գրաֆիկին, սակայն տալիս է լրացուցիչ տեղեկություններ.';
 $_MODULE['<{statsvisits}prestashop>statsvisits_e9849ece0b2ecf1eea74d92d492a47f2'] = 'Եթե դա աայդպես է, շնորհավորում ենք, Ձեր կայքը լավ պալնավորված է եւ բավարարում է օգտագործողներին:';
 $_MODULE['<{statsvisits}prestashop>statsvisits_c745121a98cf1d5b26bc5299d9880d5c'] = 'ՀԱկառակ դեպքում, եզրակացություններն այնքան էլ հասարակ չեն: Խնդիրը կարող է լինել գեղագիտական եւ էրգոնոմիկ, կամ առաջարկը բավարար չի հանդիսանում: Նունպես հնարավոր է, որ այցելուները սխալմամբ են եկել այստեղ, Ձեր խանութի նկատմամբ առանց որեւէ հետաքրքրասիրություն ցուցաբերելու: Այս երեւույթը հաճախ պատահում է որոնողական համակարգերի հետ:';

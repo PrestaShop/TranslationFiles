@@ -9,7 +9,6 @@ $_MODULE['<{pagesnotfound}prestashop>pagesnotfound_dc3a3db6b98723bf91f924537a630
 $_MODULE['<{pagesnotfound}prestashop>pagesnotfound_b323790d8ee3c43d317d19aea5012626'] = 'кешот од “непронајдени страни“ е испразнет.';
 $_MODULE['<{pagesnotfound}prestashop>pagesnotfound_6602bbeb2956c035fb4cb5e844a4861b'] = 'водич';
 $_MODULE['<{pagesnotfound}prestashop>pagesnotfound_3604249130acf7fda296e16edc996e5b'] = '404 грешка';
-$_MODULE['<{pagesnotfound}prestashop>pagesnotfound_675f1f46497aeeee35832a5d9d095976'] = '';
 $_MODULE['<{pagesnotfound}prestashop>pagesnotfound_a90083861c168ef985bf70763980aa60'] = 'како да се уловат овие грешки?';
 $_MODULE['<{pagesnotfound}prestashop>pagesnotfound_4f803d59ee120b11662027e049cba1f3'] = 'ако твојот хостинг провајдер поддржува .htaccess files може да креирате еден во основната патека на  PrestaShop  и да се вметне следното во него.';
 $_MODULE['<{pagesnotfound}prestashop>pagesnotfound_07e7f83ae625fe216a644d09feab4573'] = 'кога корисникот ке дојде до страната која не постои автоматски ке биде пренасочен кон страницата %s';

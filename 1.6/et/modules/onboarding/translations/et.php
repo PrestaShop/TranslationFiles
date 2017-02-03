@@ -10,8 +10,8 @@ $_MODULE['<{onboarding}prestashop>backoffice_top_79b0fcd70b51a3065ebbfe7e953eae3
 $_MODULE['<{onboarding}prestashop>backoffice_top_9a12f893e37f0f1fb9fb04bf16a7d78d'] = 'Alusta oma tootekataloogi esimese tootega. [1] Märgi ära kõik põhiline, nagu baashind, tee kena kirjeldus ja pane juurde nägusad pildid ! [1] Kui Sul juba on oma tootebaas CSv kujul siis hoia aega kokku ja tee import !';
 $_MODULE['<{onboarding}prestashop>backoffice_top_4cf1a5e51827d65ded27c32d4213b12e'] = 'Sinu poes on juba olemas PrestaShop\'i HiPay, seega saad juba praegu vastu võtta kaardimakseid. Teised maksemeetodid on ka saadaval, pane need ka tööle.';
 $_MODULE['<{onboarding}prestashop>backoffice_top_0429b4766bfd2e6540dc3cb5537387ff'] = 'Vali milliseid maksemeetodeid tahad oma klientidele pakkuda ja määra ka võimalikud piirangud (valuuta kohta, riigi kohta, kliendigruppide kohta).';
-$_MODULE['<{onboarding}prestashop>backoffice_top_e62f682bcf70125635d8915ea127fe9b'] = 'Kui tunned, et vajad rohkem infot, saad uurida PrestaShop\' dokumentatsiooni : Kliki \\"Abi\\" oma kontori üleval parmas nurgas !';
-$_MODULE['<{onboarding}prestashop>backoffice_top_d26019e187250752a24c5f07694bda99'] = 'Nüüd oled läbinud kõik olulised eimesed sammud oma poe seadistamisel. Saad neid samme korrata kui on rohkem tooteid, maksemeetodeid või transpordivõimalusi. [1] Et oma poega põhjalikumalt tegeleda peaksid lugema peatükki [2] \\"Esimesed sammud PrestaShop 1.6-ga (First steps with PrestaShop 1.6)\\" [/2] PrrestaShop\'i kasutusjuhendist. [1] Kui oled kindel, et pood on müügiks valmis kliki \\"Anna minna\\" nuppu ja ole kõigile kättesaadav.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_e62f682bcf70125635d8915ea127fe9b'] = 'Kui tunned, et vajad rohkem infot, saad uurida PrestaShop\' dokumentatsiooni : Kliki \"Abi\" oma kontori üleval parmas nurgas !';
+$_MODULE['<{onboarding}prestashop>backoffice_top_d26019e187250752a24c5f07694bda99'] = 'Nüüd oled läbinud kõik olulised eimesed sammud oma poe seadistamisel. Saad neid samme korrata kui on rohkem tooteid, maksemeetodeid või transpordivõimalusi. [1] Et oma poega põhjalikumalt tegeleda peaksid lugema peatükki [2] \"Esimesed sammud PrestaShop 1.6-ga (First steps with PrestaShop 1.6)\" [/2] PrrestaShop\'i kasutusjuhendist. [1] Kui oled kindel, et pood on müügiks valmis kliki \"Anna minna\" nuppu ja ole kõigile kättesaadav.';
 $_MODULE['<{onboarding}prestashop>backoffice_top_82269147f55aa394633d8ffab65a8524'] = 'Stardime !';
 $_MODULE['<{onboarding}prestashop>backoffice_top_d51786a260fac2376360796f7c79b076'] = 'Kõik on hästi, anna minna !';
 $_MODULE['<{onboarding}prestashop>backoffice_top_3eb86a3e1dc693b55502d7391aae5cbf'] = 'Valmis, järgmine sammm';
@@ -57,7 +57,7 @@ $_MODULE['<{onboarding}prestashop>backoffice_top_d03e44872879b8a258b6b65973aceb8
 $_MODULE['<{onboarding}prestashop>backoffice_top_26ef476ae1184dd26c0f68c3891bdbe7'] = 'Kõik on valmis !';
 $_MODULE['<{onboarding}prestashop>backoffice_top_48fac01462229af90e4a4af28d671d13'] = 'Sul on vaid %s sammu alustamiseni !';
 $_MODULE['<{onboarding}prestashop>backoffice_top_c1230cc7fd7b733996ff1342c852de26'] = 'Nüüd oled valmis oma poega alustamiseks. Kui tunned, et vajad rohkem infot, saad uurida PrestaShop\' dokumentatsiooni :';
-$_MODULE['<{onboarding}prestashop>backoffice_top_74d6651537f0fcd4184b612ee5950343'] = 'Kliki \\"Abi\\" oma kontori üleval parmas nurgas !';
+$_MODULE['<{onboarding}prestashop>backoffice_top_74d6651537f0fcd4184b612ee5950343'] = 'Kliki \"Abi\" oma kontori üleval parmas nurgas !';
 $_MODULE['<{onboarding}prestashop>backoffice_top_01793ff8582acbe351310a6bf5d070a1'] = 'Ma just alustasin oma veebipoega koos PrestaShop\'iga. Tule uuri järgi !';
 
 

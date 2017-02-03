@@ -14,14 +14,11 @@ $_MODULE['<{blockspecials}prestashop>blockspecials_b9f5c797ebbf55adccdd8539a65a0
 $_MODULE['<{blockspecials}prestashop>blockspecials_61465481ac2491b37e4517960bbd4a14'] = 'Broj keširanih datoteka';
 $_MODULE['<{blockspecials}prestashop>blockspecials_e80a11f1704b88ad50f8fc6ce0f43525'] = 'Specijalne ponude su prikazane nasumično na prednjem kraju, ali s\' obzirom da tome treba puno resursa, bolje je keširati rezultate. Keš se resetuje svaki dan. 0 će isključiti keš.';
 $_MODULE['<{blockspecials}prestashop>blockspecials_26986c3388870d4148b1b5375368a83d'] = 'Prozvodi za prikaz';
-$_MODULE['<{blockspecials}prestashop>blockspecials_63c150b9c1204c4825ce5914aed20717'] = '';
 $_MODULE['<{blockspecials}prestashop>blockspecials_c9cc8cce247e49bae79f15173ce97354'] = 'Sačuvaj';
-$_MODULE['<{blockspecials}prestashop>blockspecials-home_e420850bc0f6c94eff7edb2041b206bd'] = '';
 $_MODULE['<{blockspecials}prestashop>blockspecials_d1aa22a3126f04664e0fe3f598994014'] = 'Specijalna ponuda';
 $_MODULE['<{blockspecials}prestashop>blockspecials_b4f95c1ea534936cc60c6368c225f480'] = 'Sve specijalne ponude';
 $_MODULE['<{blockspecials}prestashop>blockspecials_3c9f5a6dc6585f75042bd4242c020081'] = 'Trenutno nema specijalnih ponuda.';
 $_MODULE['<{blockspecials}prestashop>tab_d1aa22a3126f04664e0fe3f598994014'] = 'Specijalna ponuda';
-$_MODULE['<{blockspecials}prestashop>blockspecials_e420850bc0f6c94eff7edb2041b206bd'] = '';
 
 
 return $_MODULE;

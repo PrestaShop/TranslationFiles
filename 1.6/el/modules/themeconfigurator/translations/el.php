@@ -18,7 +18,6 @@ $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_b9f5c797ebbf55adccdd8
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_f4f70727dc34561dfde1a3c529b6205c'] = 'Ρυθμίσεις';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_c9cc8cce247e49bae79f15173ce97354'] = 'Αποθήκευση';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_4351cfebe4b61d8aa5efa1d020710005'] = 'Προβολή';
-$_MODULE['<{themeconfigurator}prestashop>themeconfigurator_3b41baf5b2f335fc796a083a1945116b'] = '';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_6e3670bb5e3826106c5243b242cc52d9'] = 'Εμφάνιση συνδέσμων για τους κοινωνικούς λογαριασμούς του καταστήματός σας (Twitter, Facebook, κλπ.)';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_1334ff714a38e8004e9cdc755baa5afb'] = 'Εμφάνιση των στοιχείων επικοινωνίας σας';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_2f4fe84a25dc0024c9e80b4efd1d68f6'] = 'Εμφάνιση κουμπιών κοινής χρήσης σε κοινωνικά δίκτυα στη σελίδα του προϊόντος';
@@ -26,7 +25,6 @@ $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_6080ab31226b39af728c2
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_2debd734d0a150ccfd48e8d1e8e914b0'] = 'Εμφάνιση του προσαρμοσμένου ταμπλό πληροφοριών CMS';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_bfebda351190d4dbbd3499558175c7b9'] = 'Εμφάνιση παραθύρου γρήγορης προβολής στην αρχική σελίδα και στις σελίδες κατηγοριών';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_5e8fbd010bca773512f58a4dcd89ed13'] = 'Εμφάνισε κατηγορίες ως λίστες προϊόντων αντί της προεπιλεγμένης εμφάνιση πλέγματος';
-$_MODULE['<{themeconfigurator}prestashop>themeconfigurator_4e15ce9f3df1555d6932a9938d34a2cc'] = '';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_419e2c499b79ae49a7d50b510cddc28e'] = 'Εμφάνιση πανό κορυφής';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_2393b3a8e21e442273b6ad9219f4786c'] = 'Εμφάνιση λογοτύπων των διαθέσιμων μεθόδων πληρωμής';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_905791e2e93ced2cb9b092985604cc55'] = 'Εμφάνιση Εργαλείου "Ζωντανής" Παραμετροποίησης';

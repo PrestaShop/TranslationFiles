@@ -3,7 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{blockspecials}prestashop>blockspecials_c19ed4ea98cbf319735f6d09bde6c757'] = 'Блок \\"Знижки\\"';
+$_MODULE['<{blockspecials}prestashop>blockspecials_c19ed4ea98cbf319735f6d09bde6c757'] = 'Блок \"Знижки\"';
 $_MODULE['<{blockspecials}prestashop>blockspecials_f5bae06098deb9298cb9ceca89171944'] = 'Додає блок, що показує ваші товари зі знижкою.';
 $_MODULE['<{blockspecials}prestashop>blockspecials_c888438d14855d7d96a2724ee9c306bd'] = 'Налаштування оновлено';
 $_MODULE['<{blockspecials}prestashop>blockspecials_f4f70727dc34561dfde1a3c529b6205c'] = 'Налаштування';

@@ -3,7 +3,6 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{blockmyaccountfooter}prestashop>blockmyaccountfooter_b97d23f7cde011d190f39468e146425e'] = '';
 $_MODULE['<{blockmyaccountfooter}prestashop>blockmyaccountfooter_abdb95361b4c92488add0a5a37afabcb'] = 'İstifadəçi bölməsində hesaba aid olan keçidləri göstər';
 $_MODULE['<{blockmyaccountfooter}prestashop>blockmyaccountfooter_ae9ec80afffec5a455fbf2361a06168a'] = 'Şəxsi hesabınızı idarə edin';
 $_MODULE['<{blockmyaccountfooter}prestashop>blockmyaccountfooter_d95cf4ab2cbf1dfb63f066b50558b07d'] = 'Hesabım';

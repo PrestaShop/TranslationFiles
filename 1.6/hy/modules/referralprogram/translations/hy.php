@@ -22,11 +22,7 @@ $_MODULE['<{referralprogram}prestashop>program_7e9b0e998138fefac8749975c737ac27'
 $_MODULE['<{referralprogram}prestashop>program_c56567bc42584de1a7ac430039b3a87e'] = 'Սպասող ընկերները';
 $_MODULE['<{referralprogram}prestashop>program_b9ebe5bbe91ed6e7e23285fb6c595ab4'] = 'Ընկերների ցուցակը որոնցից հովանավորվել եմ';
 $_MODULE['<{referralprogram}prestashop>program_58c7f2542ab2e2c3e4e39e851ea0f225'] = 'Ընկերներից հովանավորվել';
-$_MODULE['<{referralprogram}prestashop>program_a44fa3fcad7f0f3ef4b6d77b74ca66f2'] = '';
 $_MODULE['<{referralprogram}prestashop>program_8d3ae82bfa996855cdf841dd9e15a7e3'] = 'Դա շատ արագ է եւ շատ հեշտ: Ողղակի ներքեւի դաշտում լրացրեք Ձեր ընկերոջ(ների) անունը, ազգանունը եւ էլ. փոստի հասցեն(ները)';
-$_MODULE['<{referralprogram}prestashop>program_666149e67589bd65ed1e787932cd74f5'] = '';
-$_MODULE['<{referralprogram}prestashop>program_def1ac1f353beef52f7e86a30cae01c4'] = '';
-$_MODULE['<{referralprogram}prestashop>program_8d122aed0fe2c5076e4941bfbd53fe04'] = '';
 $_MODULE['<{referralprogram}prestashop>program_8d3f5eff9c40ee315d452392bed5309b'] = 'Ազգանուն';
 $_MODULE['<{referralprogram}prestashop>program_20db0bfeecd8fe60533206a2b5e9891a'] = 'Անուն';
 $_MODULE['<{referralprogram}prestashop>program_1e884e3078d9978e216a027ecd57fb34'] = 'Էլ. փոստ';
@@ -45,8 +41,6 @@ $_MODULE['<{referralprogram}prestashop>program_70a17ffa722a3985b86d30b034ad06d7'
 $_MODULE['<{referralprogram}prestashop>program_ec7342814444c667ab93181b30b28e38'] = 'Այս  կայքում, Ձեր կողմից հովանավորված ընկերները, դեռ ոչ մի պատվեր չեն կատարել, բայց Դուք կարող եք կրկին փորձել: Դա  անելու համար, նշեք  ընկերների վանդակները որոնց ուզում եք հիշեցնել, հետո սեղմեք «Հիշեցնել իմ ընկերոջը / ընկերներին» կոճակը ';
 $_MODULE['<{referralprogram}prestashop>program_3e717a04ff77cd5fa068d8ad9d3facc8'] = 'Վերջին հրավերը';
 $_MODULE['<{referralprogram}prestashop>program_9c9d4ed270f02c72124702edb192ff19'] = 'Հիշեցնել իմ ընկերոջը / ընկերներին';
-$_MODULE['<{referralprogram}prestashop>program_161133b6c2d0f520d9221ec8180c16e2'] = '';
-$_MODULE['<{referralprogram}prestashop>program_26ef5cd4989dd9b7a6e81a22312b06fd'] = '';
 $_MODULE['<{referralprogram}prestashop>program_193f3d8bbaceba40499cab1a3545e9e8'] = 'Այստեղ հովանավորված ընկերներն են, ովքեր ընդունել են Ձեր հրավերը.';
 $_MODULE['<{referralprogram}prestashop>program_3c648ba41cfb45f13b083a9cbbacdfdf'] = 'Դուրսգրման ամսաթիվ';
 $_MODULE['<{referralprogram}prestashop>program_8d4e5c2bc4c3cf67d2b59b263a707cb6'] = 'Հովանավորված ընկերներից դեռ ոչ մեկը չի ընդունել Ձեր հրավերը:';

@@ -42,7 +42,7 @@ $_MODULE['<{referralprogram}prestashop>program_ad3d06d03d94223fa652babc913de686'
 $_MODULE['<{referralprogram}prestashop>program_59352cd5314a67c0fb10c964831920f3'] = 'Untuk menjadi sponsor, Anda harus menyelesaikan sedikitnya';
 $_MODULE['<{referralprogram}prestashop>program_12c500ed0b7879105fb46af0f246be87'] = 'penjualan';
 $_MODULE['<{referralprogram}prestashop>program_70a17ffa722a3985b86d30b034ad06d7'] = 'penjualan';
-$_MODULE['<{referralprogram}prestashop>program_ec7342814444c667ab93181b30b28e38'] = 'These friends have not yet placed an order on this Website since you sponsored them, but you can try again! To do so, mark the checkboxes of the friend(s) you want to remind, then click on the button \\"Remind my friend(s)\\"';
+$_MODULE['<{referralprogram}prestashop>program_ec7342814444c667ab93181b30b28e38'] = 'These friends have not yet placed an order on this Website since you sponsored them, but you can try again! To do so, mark the checkboxes of the friend(s) you want to remind, then click on the button \"Remind my friend(s)\"';
 $_MODULE['<{referralprogram}prestashop>program_3e717a04ff77cd5fa068d8ad9d3facc8'] = 'undangan terakhir';
 $_MODULE['<{referralprogram}prestashop>program_9c9d4ed270f02c72124702edb192ff19'] = 'Ingatkan teman saya';
 $_MODULE['<{referralprogram}prestashop>program_161133b6c2d0f520d9221ec8180c16e2'] = 'Anda tidak memiliki undangan yang tertunda.';

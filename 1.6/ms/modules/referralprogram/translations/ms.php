@@ -45,8 +45,6 @@ $_MODULE['<{referralprogram}prestashop>program_70a17ffa722a3985b86d30b034ad06d7'
 $_MODULE['<{referralprogram}prestashop>program_ec7342814444c667ab93181b30b28e38'] = 'Rakan-rakan ini masih belum meletakkan tempahan di laman ini sejak anda menaja mereka, tetapi anda boleh cuba lagi! Untuk berbuat begitu, tandakan kotak pada rakan yang ingin anda ingatkan, kemudian klik butang "Ingatkan rakan saya"';
 $_MODULE['<{referralprogram}prestashop>program_3e717a04ff77cd5fa068d8ad9d3facc8'] = 'Jemputan terakhir';
 $_MODULE['<{referralprogram}prestashop>program_9c9d4ed270f02c72124702edb192ff19'] = 'Ingatkan rakan saya';
-$_MODULE['<{referralprogram}prestashop>program_161133b6c2d0f520d9221ec8180c16e2'] = '';
-$_MODULE['<{referralprogram}prestashop>program_26ef5cd4989dd9b7a6e81a22312b06fd'] = '';
 $_MODULE['<{referralprogram}prestashop>program_193f3d8bbaceba40499cab1a3545e9e8'] = 'Ini adalah rakan yang telah menerima jemputan anda:';
 $_MODULE['<{referralprogram}prestashop>program_3c648ba41cfb45f13b083a9cbbacdfdf'] = 'Tarikh inskripsi';
 $_MODULE['<{referralprogram}prestashop>program_8d4e5c2bc4c3cf67d2b59b263a707cb6'] = 'Setakat ini, tiada rakan yang anda biayai telah menerima pelawaan anda.';

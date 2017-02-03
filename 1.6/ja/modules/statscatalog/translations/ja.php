@@ -4,7 +4,6 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{statscatalog}prestashop>statscatalog_cf3aa21c6a2147ddbd86f34091daeccd'] = 'カタログ統計';
-$_MODULE['<{statscatalog}prestashop>statscatalog_08a7c3cf820979d2c8d4de4f47abb5e6'] = '';
 $_MODULE['<{statscatalog}prestashop>statscatalog_74cda5a02df704cc5c3e8fee7fc0f7bc'] = '（1購入 / %d 訪問）';
 $_MODULE['<{statscatalog}prestashop>statscatalog_0173374ac20f5843d58b553d5b226ef6'] = 'カテゴリを選択';
 $_MODULE['<{statscatalog}prestashop>statscatalog_b1c94ca2fbc3e78fc30069c8d0f01680'] = 'すべて';
@@ -19,7 +18,6 @@ $_MODULE['<{statscatalog}prestashop>statscatalog_65275d1b04037d8c8e4242500211036
 $_MODULE['<{statscatalog}prestashop>statscatalog_51b8891d531ad91128ba58c8928322ab'] = '今まで参照されていない商品：';
 $_MODULE['<{statscatalog}prestashop>statscatalog_8725647ef741e5d48c1e6f652ce80b50'] = '今まで購入されていない商品：';
 $_MODULE['<{statscatalog}prestashop>statscatalog_b86770bc713186bcf43dbb1164c5fd28'] = 'コンバージョン率*：';
-$_MODULE['<{statscatalog}prestashop>statscatalog_082d537edb8c61539b9f266eb331c88e'] = '';
 $_MODULE['<{statscatalog}prestashop>statscatalog_58a714d3e9bb2902a5b688c99bd4d8e6'] = '今まで購入されていない商品';
 $_MODULE['<{statscatalog}prestashop>statscatalog_b718adec73e04ce3ec720dd11a06a308'] = 'IDは';
 $_MODULE['<{statscatalog}prestashop>statscatalog_49ee3087348e8d44e1feda1917443987'] = '名前';

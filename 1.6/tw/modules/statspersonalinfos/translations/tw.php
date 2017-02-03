@@ -11,7 +11,6 @@ $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_74036f0101d2f3f9b08
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_daa0ad6a8b07a64f18b26e0f5e1255bd'] = '設定您的目標客群是必要的，這樣才能夠選擇適合的工具來贏得他們';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_8044a3d0d61282c4c425cd0da5432f11'] = '最好限制在一或多個群組的客戶。';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_05f074d112460c990203ff2f17a7d46d'] = '儲存的註冊客戶資訊讓您正確的知道客戶資訊，這樣一來就能夠安排特別的活動或促銷。';
-$_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_9dc739320e2523183e8b31f395e1e489'] = '';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_2f619981f1abd95da0907766cc409be9'] = '開展有針對性的廣告活動。';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_428dc481e13dad2818d8088da7362dd2'] = '透過電子郵件或電子報聯絡一個群組的客戶。';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_12344d957b4aee1e2c322549ddc9741f'] = '性別分佈讓您知道商店消費的男女性別比例。';

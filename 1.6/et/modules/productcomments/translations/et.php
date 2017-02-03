@@ -94,22 +94,12 @@ $_MODULE['<{productcomments}prestashop>products-comparison_8413c683b4b27cc3f4dbd
 $_MODULE['<{productcomments}prestashop>products-comparison_b1897515d548a960afe49ecf66a29021'] = 'keskmine';
 $_MODULE['<{productcomments}prestashop>products-comparison_bc976f6c3405523cde61f63a7cbe224b'] = 'Vaata kommentaare';
 $_MODULE['<{productcomments}prestashop>tab_8413c683b4b27cc3f4dbd4c90329d8ba'] = 'Kommentaarid';
-$_MODULE['<{productcomments}prestashop>form_b9aefa40a54680bb258f9f9569290fae'] = '';
-$_MODULE['<{productcomments}prestashop>productcomments-extra_dda9c06f33071c9b6fc237ee164109d8'] = '';
 $_MODULE['<{productcomments}prestashop>productcomments-extra_899139b5174d8d7a6e38a0360008a695'] = 'Loe kasutajate ülevaateid';
 $_MODULE['<{productcomments}prestashop>productcomments-extra_c31732fda0c6f01c446db7163b214de4'] = 'Kirjutage oma ülevaade';
-$_MODULE['<{productcomments}prestashop>productcomments_reviews_d844ad9202d0de8442498775ba6ef819'] = '';
 $_MODULE['<{productcomments}prestashop>productcomments_93cba07454f06a4a960172bbd6e2a435'] = 'Jah';
 $_MODULE['<{productcomments}prestashop>productcomments_bafd7322c6e97d25b6299b5d6fe8920b'] = 'Ei';
-$_MODULE['<{productcomments}prestashop>productcomments_c565011debb8e2812ef12853eb6a38a9'] = '';
-$_MODULE['<{productcomments}prestashop>productcomments_f444678e4f3575d59b32a858630741fd'] = '';
 $_MODULE['<{productcomments}prestashop>productcomments_c31732fda0c6f01c446db7163b214de4'] = 'Kirjutage oma ülevaade';
-$_MODULE['<{productcomments}prestashop>productcomments_51ec9bf4aaeab1b25bb57f9f8d4de557'] = '';
-$_MODULE['<{productcomments}prestashop>productcomments_240f3031f25601fa128bd4e15f0a37de'] = '';
-$_MODULE['<{productcomments}prestashop>productcomments_a2ed44743411cf8b80e397448fce104c'] = '';
 $_MODULE['<{productcomments}prestashop>productcomments_a4d3b161ce1309df1c4e25df28694b7b'] = 'Sisesta';
-$_MODULE['<{productcomments}prestashop>productcomments_4e3ee0f5bd8f527715fb0776741b9754'] = '';
-$_MODULE['<{productcomments}prestashop>products-comparison_5d9acecbb0b55a71dea7403896356001'] = '';
 $_MODULE['<{productcomments}prestashop>tab_34e80a799d144cfe4af46815e103f017'] = 'Kommentaarid';
 
 

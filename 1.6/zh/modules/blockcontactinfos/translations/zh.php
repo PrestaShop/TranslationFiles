@@ -16,7 +16,6 @@ $_MODULE['<{blockcontactinfos}prestashop>blockcontactinfos_02d4482d332e1aef3437c
 $_MODULE['<{blockcontactinfos}prestashop>blockcontactinfos_2e006b735fbd916d8ab26978ae6714d4'] = '电话号码';
 $_MODULE['<{blockcontactinfos}prestashop>blockcontactinfos_6a1e265f92087bb6dd18194833fe946b'] = '电子邮件：';
 $_MODULE['<{blockcontactinfos}prestashop>blockcontactinfos_80a11d2a54a677f6fadd9c041c0d6b98'] = '店信息';
-$_MODULE['<{blockcontactinfos}prestashop>blockcontactinfos_320abee94a07e976991e4df0d4afb319'] = '';
 
 
 return $_MODULE;

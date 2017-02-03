@@ -9,7 +9,6 @@ $_MODULE['<{pscleaner}prestashop>pscleaner_752369f18aebeed9ae8384d8f1b5dc5e'] = 
 $_MODULE['<{pscleaner}prestashop>pscleaner_550b877b1a255ba717cfad4b82057731'] = 'Sledeći upiti su uspešno popravili slomljene podatke:';
 $_MODULE['<{pscleaner}prestashop>pscleaner_14a7ab23d566b4505d0c711338c19a08'] = '%d linija';
 $_MODULE['<{pscleaner}prestashop>pscleaner_d1ff3c9d57acd4283d2793a36737479e'] = 'Ništa ne treba da se popravi';
-$_MODULE['<{pscleaner}prestashop>pscleaner_53d097f11855337bb74f1444d6c47c99'] = '';
 $_MODULE['<{pscleaner}prestashop>pscleaner_098c3581a731f08d24311bbf515adbbb'] = 'Ništa ne treba da se briše';
 $_MODULE['<{pscleaner}prestashop>pscleaner_1bb7c5eb8682aeada82c407b40ec09c8'] = 'Katalog je oštećen';
 $_MODULE['<{pscleaner}prestashop>pscleaner_ed6ecb7169d5476ef5251524bb17552a'] = 'Narudžbine i kupci su oštećeni';

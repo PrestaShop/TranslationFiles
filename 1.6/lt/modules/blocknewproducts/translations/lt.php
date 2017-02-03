@@ -11,7 +11,7 @@ $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_c888438d14855d7d96a2724
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_f4f70727dc34561dfde1a3c529b6205c'] = 'Nustatymai';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_26986c3388870d4148b1b5375368a83d'] = 'Rodyti prekių';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_3ea7689283770958661c27c37275b89c'] = 'Nustatykite rodomų prekių kiekį bloke.';
-$_MODULE['<{blocknewproducts}prestashop>blocknewproducts_85dd6b2059e1ff8fbefcc9cf6e240933'] = 'Dienų skaičius, per kurias prekė laikoma \\"nauja\\"';
+$_MODULE['<{blocknewproducts}prestashop>blocknewproducts_85dd6b2059e1ff8fbefcc9cf6e240933'] = 'Dienų skaičius, per kurias prekė laikoma \"nauja\"';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_24ff4e4d39bb7811f6bdf0c189462272'] = 'Visuomet rodyti šį bloką';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_d68e7b860a7dba819fa1c75225c284b5'] = 'Rodyti bloką net jei nėra naujų prekių.';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Įjungta';

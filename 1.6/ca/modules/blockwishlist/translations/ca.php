@@ -4,9 +4,6 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_2715a65604e1af3d6933b61704865daf'] = 'Bloc de desitjos';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist_7244141a5de030c4c882556f4fd70a8b'] = '';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist_9ae79c1fccd231ac7fbbf3235dbf6326'] = '';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist_5ef2d617096ae7b47a83f3d4de9c84bd'] = '';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_c888438d14855d7d96a2724ee9c306bd'] = 'Configuració modificada';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_deb10517653c255364175796ace3553f'] = 'Producte';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_694e8d1f2ee056f98ee488bdc4982d73'] = 'Quantitat';
@@ -14,29 +11,18 @@ $_MODULE['<{blockwishlist}prestashop>blockwishlist_502996d9790340c5fd7b86a5b93b1
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_655d20c1ca69519ca647684edbb2db35'] = 'Alt';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_87f8a6ab85c9ced3702b4ea641ad4bb5'] = 'Mig';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_28d0edd045e05cf5af64e35ae0c4c6ef'] = 'Baix';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist_e0fd9b310aba555f96e76738ff192ac3'] = '';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist_862af8838fba380d3b30e63546a394e5'] = '';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_641254d77e7a473aa5910574f3f9453c'] = 'Llista de desitjos';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist_88b589bbf6282a2e02f50ebe90aae6f1'] = '';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_56ee3495a32081ccb6d2376eab391bfa'] = 'Llistat';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_6bee4060e5e05246d4bcbb720736417c'] = 'Clients :';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist_c515b215b9c6be251c924cc6d1324c41'] = '';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_c440899c1d6f8c8271b9b1d171c7e665'] = 'Llista de desitjos :';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_12246cb491c807e85279b8aed74ea3cf'] = 'Trieu la llista de desitjos';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_be53a0541a6d36f6ecb879fa2c584b08'] = 'Imatge';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_47ac923d219501859fb68fed8c8db77b'] = 'Combinació';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_81355310011c137fdd21cf9a1394ed6a'] = 'Llistat de productes';
 $_MODULE['<{blockwishlist}prestashop>buywishlistproduct_607e1d854783c8229998ac2b5b6923d3'] = 'Element invàlid';
-$_MODULE['<{blockwishlist}prestashop>buywishlistproduct_b0ffc4925401f6f4edb038f5ca954937'] = '';
 $_MODULE['<{blockwishlist}prestashop>cart_607e1d854783c8229998ac2b5b6923d3'] = 'Element invàlid';
-$_MODULE['<{blockwishlist}prestashop>cart_a9839ad48cf107667f73bad1d651f2ca'] = '';
 $_MODULE['<{blockwishlist}prestashop>cart_16a23698e7cf5188ce1c07df74298076'] = 'Heu ha d\'estar registrats per poder gestionar la vostra llista de desitjos.';
 $_MODULE['<{blockwishlist}prestashop>mywishlist_607e1d854783c8229998ac2b5b6923d3'] = 'Element invàlid';
-$_MODULE['<{blockwishlist}prestashop>mywishlist_b30545c7b2d429352b9afdd85be810c7'] = '';
-$_MODULE['<{blockwishlist}prestashop>mywishlist_b74c118d823d908d653cfbf1c877ae55'] = '';
-$_MODULE['<{blockwishlist}prestashop>mywishlist_7098d49878bbd102b13038a748125e27'] = '';
-$_MODULE['<{blockwishlist}prestashop>mywishlist_ce7510c007e56bccd6b16af6c40a03de'] = '';
-$_MODULE['<{blockwishlist}prestashop>mywishlist_3c924eebbd7c3447336bbec3b325d3da'] = '';
 $_MODULE['<{blockwishlist}prestashop>mywishlist_3540aa14bffcdfbbfc3aafbbcb028a1f'] = 'El producte s\'ha mogut correctament';
 $_MODULE['<{blockwishlist}prestashop>view_655d20c1ca69519ca647684edbb2db35'] = 'Alt';
 $_MODULE['<{blockwishlist}prestashop>view_87f8a6ab85c9ced3702b4ea641ad4bb5'] = 'Mig';
@@ -59,7 +45,6 @@ $_MODULE['<{blockwishlist}prestashop>blockwishlist-extra_2d96bb66d8541a89620d3c1
 $_MODULE['<{blockwishlist}prestashop>blockwishlist-extra_ec211f7c20af43e742bf2570c3cb84f9'] = 'Afegir';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist-extra_15b94c64c4d5a4f7172e5347a36b94fd'] = 'Afegir a la meva llista de desitjos';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_top_16a23698e7cf5188ce1c07df74298076'] = 'Heu ha d\'estar registrats per poder gestionar la vostra llista de desitjos.';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist_top_8a6830ac12924a940aa0a83d5e7c76ff'] = '';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_7ec9cceb94985909c6994e95c31c1aa8'] = 'Les meves llistes de desitjos';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_4a84e5921e203aede886d04fc41a414b'] = 'esborrar aquest producte de la meva llista de desitjos';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_f2a6c498fb90ee345d997f888fce3b18'] = 'Esborrar';
@@ -114,7 +99,6 @@ $_MODULE['<{blockwishlist}prestashop>view_4351cfebe4b61d8aa5efa1d020710005'] = '
 $_MODULE['<{blockwishlist}prestashop>view_2d0f6b8300be19cf35e89e66f0677f95'] = 'Afegir al carret';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist-extra_641254d77e7a473aa5910574f3f9453c'] = 'Llista de desitjos';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist-extra_33010ef6524c87c41380e2cc5e212f73'] = 'Afegir a %s';
-$_MODULE['<{blockwishlist}prestashop>managewishlist_521cf5d189bc7b0a56b961f9a1b30d13'] = '';
 $_MODULE['<{blockwishlist}prestashop>view_d95cf4ab2cbf1dfb63f066b50558b07d'] = 'El meu compte';
 $_MODULE['<{blockwishlist}prestashop>view_7ec9cceb94985909c6994e95c31c1aa8'] = 'Les meves llistes de desitjos';
 

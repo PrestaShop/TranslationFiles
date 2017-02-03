@@ -4,7 +4,6 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{statscheckup}prestashop>statscheckup_e7a908d79d3758c911692ba791da9c70'] = '目錄審核';
-$_MODULE['<{statscheckup}prestashop>statscheckup_11c7290f636a816cbcffb9059958b5c0'] = '';
 $_MODULE['<{statscheckup}prestashop>statscheckup_20015706a8cbd457cbb6ea3e7d5dc9b3'] = '設定已更新';
 $_MODULE['<{statscheckup}prestashop>statscheckup_7ff3e75ce6aca348bc513ed3d5882946'] = '壞';
 $_MODULE['<{statscheckup}prestashop>statscheckup_b1897515d548a960afe49ecf66a29021'] = '平均';

@@ -3,8 +3,6 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{cashondelivery}prestashop>validation_ea9cf7e47ff33b2be14e6dd07cbcefc6'] = '';
-$_MODULE['<{cashondelivery}prestashop>validation_f1d3b424cd68795ecaa552883759aceb'] = '';
 $_MODULE['<{cashondelivery}prestashop>validation_d538c5b86e9a71455ba27412f4e9ab51'] = 'Nachnahme-Zahlung (COD)';
 $_MODULE['<{cashondelivery}prestashop>validation_ad2f6328c24caa7d25dd34bfc3e7e25a'] = 'Sie haben die Versandart Nachnahme gewählt.';
 $_MODULE['<{cashondelivery}prestashop>validation_e2867a925cba382f1436d1834bb52a1c'] = 'Der Gesamtbetrag Ihrer Bestellung beträgt';

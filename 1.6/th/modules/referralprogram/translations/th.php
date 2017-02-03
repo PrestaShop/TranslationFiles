@@ -18,15 +18,9 @@ $_MODULE['<{referralprogram}prestashop>program_79cd362fc64832faa0a2079f1142aa12'
 $_MODULE['<{referralprogram}prestashop>program_2b90ca4a7b1c83e0a3bb65899725cd65'] = 'การแจ้งเตือนอีเมลที่ได้รับการส่งไปยังเพื่อนของคุณ!';
 $_MODULE['<{referralprogram}prestashop>program_819e52b3c6ca4db131dcfea19188a0c3'] = 'คำเตือนที่ e - mail ได้ถูกส่งไปให้เพื่อนของคุณ!';
 $_MODULE['<{referralprogram}prestashop>program_46ee2fe8845962d24bf5178a26e109f3'] = 'ผู้ให้การสนับสนุนเพื่อนของฉัน';
-$_MODULE['<{referralprogram}prestashop>program_7e9b0e998138fefac8749975c737ac27'] = '';
 $_MODULE['<{referralprogram}prestashop>program_c56567bc42584de1a7ac430039b3a87e'] = 'เพื่อนที่รอดำเนินการ';
-$_MODULE['<{referralprogram}prestashop>program_b9ebe5bbe91ed6e7e23285fb6c595ab4'] = '';
 $_MODULE['<{referralprogram}prestashop>program_58c7f2542ab2e2c3e4e39e851ea0f225'] = 'เพื่อนผมให้การสนับสนุน';
-$_MODULE['<{referralprogram}prestashop>program_a44fa3fcad7f0f3ef4b6d77b74ca66f2'] = '';
 $_MODULE['<{referralprogram}prestashop>program_8d3ae82bfa996855cdf841dd9e15a7e3'] = 'มันรวดเร็วและง่าย เพียงแค่กรอกชื่อแรก, นามสกุล, และ e - mail address (es) ของเพื่อนของคุณ (s) ในช่องด้านล่าง';
-$_MODULE['<{referralprogram}prestashop>program_666149e67589bd65ed1e787932cd74f5'] = '';
-$_MODULE['<{referralprogram}prestashop>program_def1ac1f353beef52f7e86a30cae01c4'] = '';
-$_MODULE['<{referralprogram}prestashop>program_8d122aed0fe2c5076e4941bfbd53fe04'] = '';
 $_MODULE['<{referralprogram}prestashop>program_8d3f5eff9c40ee315d452392bed5309b'] = 'นามสกุล';
 $_MODULE['<{referralprogram}prestashop>program_20db0bfeecd8fe60533206a2b5e9891a'] = 'ชื่อ';
 $_MODULE['<{referralprogram}prestashop>program_1e884e3078d9978e216a027ecd57fb34'] = 'อีเมล์';
@@ -45,8 +39,6 @@ $_MODULE['<{referralprogram}prestashop>program_70a17ffa722a3985b86d30b034ad06d7'
 $_MODULE['<{referralprogram}prestashop>program_ec7342814444c667ab93181b30b28e38'] = 'เพื่อนเหล่านี้ยังไม่ได้วางไว้ยังสั่งซื้อสินค้าในเว็บไซต์นี้ตั้งแต่คุณผู้ให้การสนับสนุนพวกเขา แต่คุณสามารถลองอีกครั้ง! ให้ทำเครื่องหมายช่องทำเครื่องหมายของเพื่อน (s) คุณต้องการที่จะเตือนแล้วคลิกที่ปุ่ม"เตือนเพื่อนของฉัน (s)"';
 $_MODULE['<{referralprogram}prestashop>program_3e717a04ff77cd5fa068d8ad9d3facc8'] = 'เชิญครั้งสุดท้าย';
 $_MODULE['<{referralprogram}prestashop>program_9c9d4ed270f02c72124702edb192ff19'] = 'เตือนเพื่อนของฉัน (s)';
-$_MODULE['<{referralprogram}prestashop>program_161133b6c2d0f520d9221ec8180c16e2'] = '';
-$_MODULE['<{referralprogram}prestashop>program_26ef5cd4989dd9b7a6e81a22312b06fd'] = '';
 $_MODULE['<{referralprogram}prestashop>program_193f3d8bbaceba40499cab1a3545e9e8'] = 'ที่นี่เพื่อนผู้ให้การสนับสนุนผู้ที่ได้รับการยอมรับคำเชิญของคุณ :';
 $_MODULE['<{referralprogram}prestashop>program_3c648ba41cfb45f13b083a9cbbacdfdf'] = 'วันที่ศิลาจารึก';
 $_MODULE['<{referralprogram}prestashop>program_8d4e5c2bc4c3cf67d2b59b263a707cb6'] = 'ไม่มีเพื่อนผู้ให้การสนับสนุนได้รับการยอมรับคำเชิญของคุณยัง';
@@ -58,9 +50,6 @@ $_MODULE['<{referralprogram}prestashop>rules_01705c0177ebf5fbcbf4e882bc454405'] 
 $_MODULE['<{referralprogram}prestashop>authentication_6b31baf25848e7a6563ecc3946626c80'] = 'โปรแกรมการอ้างอิง';
 $_MODULE['<{referralprogram}prestashop>authentication_8fdb2298a0db461ac64e71192a562ca1'] = 'E - mail address ของสปอนเซอร์ของคุณ';
 $_MODULE['<{referralprogram}prestashop>my-account_6b31baf25848e7a6563ecc3946626c80'] = 'โปรแกรมการอ้างอิง';
-$_MODULE['<{referralprogram}prestashop>order-confirmation_f2ef523efa8d23f8afc29e195592fc58'] = '';
-$_MODULE['<{referralprogram}prestashop>shopping-cart_b76b807810393d9fce7f154d82aef1d1'] = '';
-$_MODULE['<{referralprogram}prestashop>shopping-cart_9a5b602be8d9b2d4b8c3f22911fba01d'] = '';
 $_MODULE['<{referralprogram}prestashop>shopping-cart_6b31baf25848e7a6563ecc3946626c80'] = 'โปรแกรมการอ้างอิง';
 $_MODULE['<{referralprogram}prestashop>shopping-cart_106527986549f3ec8da1ae5a7abde467'] = 'ดูโปรแกรมการแนะนำผลิตภัณฑ์ของคุณ';
 

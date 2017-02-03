@@ -3,7 +3,6 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{dashactivity}prestashop>dashactivity_0369e7f54bf8a30b2766e6a9a708de0b'] = '';
 $_MODULE['<{dashactivity}prestashop>dashactivity_02b5205ddff3073efc5c8b5b9cc165ba'] = '(dari %s ke %s)';
 $_MODULE['<{dashactivity}prestashop>dashactivity_14542f5997c4a02d4276da364657f501'] = 'Link langsung';
 $_MODULE['<{dashactivity}prestashop>dashactivity_c9cc8cce247e49bae79f15173ce97354'] = 'Simpan';
@@ -19,7 +18,6 @@ $_MODULE['<{dashactivity}prestashop>dashactivity_a5493eb7cba36f452249d093e7757ad
 $_MODULE['<{dashactivity}prestashop>dashactivity_45e9c82415a3bee4413485c6bcb4347f'] = 'Berapa lama (dalam jam) troli ditakrifkan sebagai tidak lagi terbiar selepas perubahan terakhir (asas: 24 jam).';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_91b1b529580f2bb429493a51a1af932b'] = 'Keseluruhan aktiviti';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_f1206f9fadc5ce41694f69129aecac26'] = 'Tatarajah';
-$_MODULE['<{dashactivity}prestashop>dashboard_zone_one_63a6a88c066880c5ac42394a22803ca6'] = '';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_254f642527b45bc260048e30704edb39'] = 'Konfigurasi';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_edfc5fccc0439856b5bd432522ef47aa'] = 'Pelanggan Dalam Talian';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_962b7da7912bc637b03626e23b5832b5'] = 'dalam %d minit yang lepas';

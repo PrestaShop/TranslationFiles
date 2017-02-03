@@ -71,7 +71,6 @@ $_MODULE['<{blockcms}prestashop>form_f2a6c498fb90ee345d997f888fce3b18'] = 'Törl
 $_MODULE['<{blockcms}prestashop>form_49ee3087348e8d44e1feda1917443987'] = 'Név';
 $_MODULE['<{blockcms}prestashop>form_f7c68d40f8727c658e821c6e6d56af07'] = 'Nem lett oldal létrehozva';
 $_MODULE['<{blockcms}prestashop>blockcms_3cb29f0ccc5fd220a97df89dafe46290'] = 'Népszerű eladások';
-$_MODULE['<{blockcms}prestashop>blockcms_8be39233fce812574e94aa277f5a2e32'] = '';
 
 
 return $_MODULE;

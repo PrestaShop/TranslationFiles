@@ -3,12 +3,9 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{dashproducts}prestashop>dashproducts_6655df4af87b2038afd507a33545a56d'] = '';
-$_MODULE['<{dashproducts}prestashop>dashproducts_4a528e24be5aca96e8a15b256efe1f31'] = '';
 $_MODULE['<{dashproducts}prestashop>dashproducts_2ea989f83006e233627987293f4bde0a'] = 'গ্রাহকের নাম';
 $_MODULE['<{dashproducts}prestashop>dashproducts_068f80c7519d0528fb08e82137a72131'] = 'পণ্য সমূহ';
 $_MODULE['<{dashproducts}prestashop>dashproducts_96b0141273eabab320119c467cdcaf17'] = 'মোট';
-$_MODULE['<{dashproducts}prestashop>dashproducts_58ef6750a23ba432fc1377b7de085d9f'] = '';
 $_MODULE['<{dashproducts}prestashop>dashproducts_44749712dbec183e983dcd78a7736c41'] = 'তারিখ';
 $_MODULE['<{dashproducts}prestashop>dashproducts_ec53a8c4f07baed5d8825072c89799be'] = 'অবস্থা';
 $_MODULE['<{dashproducts}prestashop>dashproducts_3ec365dd533ddb7ef3d1c111186ce872'] = 'বিবরণ';
@@ -34,7 +31,6 @@ $_MODULE['<{dashproducts}prestashop>dashproducts_14d24dddc4c67abf8364b980b2ccd5a
 $_MODULE['<{dashproducts}prestashop>dashproducts_f1ee1eaab342241138d45f35f4d8466a'] = 'প্রদর্শনের জন্য "শীর্ষ অনুসন্ধান" সংখ্যা ';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_3e361ce73ecabd6524af286d55809ed7'] = 'পণ্য এবং বিক্রয় ';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_f1206f9fadc5ce41694f69129aecac26'] = 'কনফিগার করুন';
-$_MODULE['<{dashproducts}prestashop>dashboard_zone_two_63a6a88c066880c5ac42394a22803ca6'] = '';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_254f642527b45bc260048e30704edb39'] = 'মান নির্ধারণ';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_fd3458547ef9c3a8bd0e1e1b4ef2b4dd'] = 'সাম্প্রতিক আদেশ';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_d7b2933ba512ada478c97fa43dd7ebe6'] = 'সেরা বিক্রেতা';

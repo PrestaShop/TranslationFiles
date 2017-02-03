@@ -429,7 +429,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8ed3e1637b29848c462242873908
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_15e90667b50b56b1f8a01bdb1190f3dc'] = 'Archivo local';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_17897209dd708b862fe417f6d429a8da'] = 'Carpeta local';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3b3d4b4b6a128cfeafc8e3f8987ddb9b'] = 'Canal:';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e710e20abcca585174701a265f39885f'] = '\\\\\\\\\\\\\\\nEsta opción reagrupa todas las versiones estables.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e710e20abcca585174701a265f39885f'] = '\\\\\\\\nEsta opción reagrupa todas las versiones estables.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ef2f59f06132ddc2e1bc8d00abbe6e02'] = 'Enlace:';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_6e843a36f447872179db90ceff68d970'] = 'Hash key:';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b77d20ed1ba7b2ee7139dc4f3fd13117'] = 'Autoriza actualización principal:';

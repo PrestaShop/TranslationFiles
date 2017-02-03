@@ -11,7 +11,6 @@ $_MODULE['<{bankwire}prestashop>bankwire_a02758d758e8bec77a33d7f392eb3f8a'] = 'M
 $_MODULE['<{bankwire}prestashop>bankwire_bfa43217dfe8261ee7cb040339085677'] = 'Kontuaren xehetasunak derrigorrezkoak dira.';
 $_MODULE['<{bankwire}prestashop>bankwire_ccab155f173ac76f79eb192703f86b18'] = 'Kontuaren jabea derrigorrezkoa da.';
 $_MODULE['<{bankwire}prestashop>bankwire_c888438d14855d7d96a2724ee9c306bd'] = 'Ezarpenak eguneratuta';
-$_MODULE['<{bankwire}prestashop>bankwire_4ffaad55a1d22c453e7c9bad67b0598f'] = '';
 $_MODULE['<{bankwire}prestashop>bankwire_5dd532f0a63d89c5af0243b74732f63c'] = 'Kontakturako xehetasunak';
 $_MODULE['<{bankwire}prestashop>bankwire_857216dd1b374de9bf54068fcd78a8f3'] = 'Kontuaren jabea';
 $_MODULE['<{bankwire}prestashop>bankwire_3ec365dd533ddb7ef3d1c111186ce872'] = 'Xehetasunak';
@@ -54,7 +53,6 @@ $_MODULE['<{bankwire}prestashop>payment_return_66fcf4c223bbf4c7c886d4784e1f62e4'
 $_MODULE['<{bankwire}prestashop>payment_return_d15feee53d81ea16269e54d4784fa123'] = 'Zure eskaeran arazo bat aurkitu dugu. Hau errore bat dela pentsatzen baduzu, jarri harremanetan gure bezeroen arretarako taldearekin.';
 $_MODULE['<{bankwire}prestashop>payment_5e1695822fc5af98f6b749ea3cbc9b4c'] = 'Banku transferentzia bidez ordaindu';
 $_MODULE['<{bankwire}prestashop>payment_4e1fb9f4b46556d64db55d50629ee301'] = '(eskaera prozesatzen luzeago jo lezake)';
-$_MODULE['<{bankwire}prestashop>payment_return_decce112a9e64363c997b04aa71b7cb8'] = '';
 
 
 return $_MODULE;

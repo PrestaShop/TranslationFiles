@@ -21,7 +21,6 @@ $_MODULE['<{blockspecials}prestashop>blockspecials_d1aa22a3126f04664e0fe3f598994
 $_MODULE['<{blockspecials}prestashop>blockspecials_b4f95c1ea534936cc60c6368c225f480'] = 'Utvalde produkt';
 $_MODULE['<{blockspecials}prestashop>blockspecials_3c9f5a6dc6585f75042bd4242c020081'] = 'Ingen utvalte produkt for augneblinken.';
 $_MODULE['<{blockspecials}prestashop>tab_d1aa22a3126f04664e0fe3f598994014'] = 'Tilbod';
-$_MODULE['<{blockspecials}prestashop>blockspecials_e420850bc0f6c94eff7edb2041b206bd'] = '';
 
 
 return $_MODULE;

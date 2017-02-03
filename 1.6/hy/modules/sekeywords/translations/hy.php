@@ -4,15 +4,9 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{sekeywords}prestashop>sekeywords_65b0b42febc8ea16db4652eab6f420a4'] = 'Որոնողական մեքենայի հիմնաբառերը';
-$_MODULE['<{sekeywords}prestashop>sekeywords_8effa630c1740a748801b881acb90fa6'] = '';
 $_MODULE['<{sekeywords}prestashop>sekeywords_6602bbeb2956c035fb4cb5e844a4861b'] = 'Ուղեցույց';
 $_MODULE['<{sekeywords}prestashop>sekeywords_9ed50bd6876a9273f2192c224b87657b'] = 'Արտաքին որոնողական հիմնաբառերի սահմանումը';
-$_MODULE['<{sekeywords}prestashop>sekeywords_7acbda50735929f05f6f463e05bc7ead'] = '';
-$_MODULE['<{sekeywords}prestashop>sekeywords_4ad084c0b816ff9278765a00720caf32'] = '';
 $_MODULE['<{sekeywords}prestashop>sekeywords_359f9e79e746fa9f684e5cda9e60ca2e'] = 'Ինչպես՞ է այն աշխատում:';
-$_MODULE['<{sekeywords}prestashop>sekeywords_ec2184245585ba979912af9e34d738c6'] = '';
-$_MODULE['<{sekeywords}prestashop>sekeywords_ef79a74a2fd296e19e8cc58cdae91d43'] = '';
-$_MODULE['<{sekeywords}prestashop>sekeywords_dcbcf5d190af87351a16edd5f132c657'] = '';
 $_MODULE['<{sekeywords}prestashop>sekeywords_16d5f8dc3bc4411c85848ae9cf6a947a'] = '%d հիմնաբառ, որը համապատասխանում է Ձեր հարցմանը:';
 $_MODULE['<{sekeywords}prestashop>sekeywords_5029f8eef402bb8ddd6191dffb5e7c19'] = '%d հիմնաբառեր, որոնք համապատասխանում են Ձեր հարցմանը:';
 $_MODULE['<{sekeywords}prestashop>sekeywords_0849140171616600e8f2c35f0a225212'] = 'Հիմնաբառերի ֆիլտր';

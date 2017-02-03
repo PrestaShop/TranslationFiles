@@ -52,7 +52,7 @@ $_MODULE['<{cheque}prestashop>payment_return_decce112a9e64363c997b04aa71b7cb8'] 
 $_MODULE['<{cheque}prestashop>payment_return_9bdf695c5a30784327137011da6ef568'] = 'Opazili smo težavo z vašim naročilom. Če mislite da je to napaka, lahko obvestite našo';
 $_MODULE['<{cheque}prestashop>payment_4b80fae2153218ed763bdadc418e8589'] = 'Plačilo s čekom';
 $_MODULE['<{cheque}prestashop>payment_4e1fb9f4b46556d64db55d50629ee301'] = '(proces naročila bo daljši)';
-$_MODULE['<{cheque}prestashop>payment_execution_0881a11f7af33bc1b43e437391129d66'] = 'Potrdite vaše naročilo s pritiskom na \\"Potrjujem moje naročilo\\"';
+$_MODULE['<{cheque}prestashop>payment_execution_0881a11f7af33bc1b43e437391129d66'] = 'Potrdite vaše naročilo s pritiskom na \"Potrjujem moje naročilo\"';
 $_MODULE['<{cheque}prestashop>payment_return_d15feee53d81ea16269e54d4784fa123'] = 'Opazili smo težavo pri vašem naročilu. Če mislite da je to napaka, se obrnite na našo';
 $_MODULE['<{cheque}prestashop>payment_f05fd8637f8a6281466a507fcb56baec'] = 'Plačilo s čekom';
 

@@ -4,17 +4,9 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{statsproduct}prestashop>statsproduct_78e454064a7d3a7755a011a3b79f31a7'] = 'Ապրանքի մանրամասները';
-$_MODULE['<{statsproduct}prestashop>statsproduct_15944ce3356cfd0513cbc76e7df9d233'] = '';
 $_MODULE['<{statsproduct}prestashop>statsproduct_6602bbeb2956c035fb4cb5e844a4861b'] = 'Ուղեցույց';
-$_MODULE['<{statsproduct}prestashop>statsproduct_f083d0403991f2b0ae72ea8782518f36'] = '';
 $_MODULE['<{statsproduct}prestashop>statsproduct_6e13e61b8535a66feb27d285f5c42855'] = 'Կատեգորիան ընտրելուց եւ ապրանքը առանձնացնելուց հետո կհայտնվեն տեղեկատվական գրաֆիկները: Այդ ժամանակ Դուք ի վիճակի կլինեք դրանք վերլուծել:';
-$_MODULE['<{statsproduct}prestashop>statsproduct_6734b1d16e064d64d9ea4affaed74cc7'] = '';
-$_MODULE['<{statsproduct}prestashop>statsproduct_f3a492ed300e8565dcdbbc1da340d226'] = '';
 $_MODULE['<{statsproduct}prestashop>statsproduct_3ec365dd533ddb7ef3d1c111186ce872'] = 'Մանրամասներ';
-$_MODULE['<{statsproduct}prestashop>statsproduct_290b169159edc205e3a46902d4554d52'] = '';
-$_MODULE['<{statsproduct}prestashop>statsproduct_155d5c362e6887660600763fc0d55f02'] = '';
-$_MODULE['<{statsproduct}prestashop>statsproduct_8041d874fe39d54c6e78156c27341c85'] = '';
-$_MODULE['<{statsproduct}prestashop>statsproduct_d311128c6b9f34f85e6b0e29bcbcd165'] = '';
 $_MODULE['<{statsproduct}prestashop>statsproduct_998e4c5c80f27dec552e99dfed34889a'] = 'CSV արտահանում';
 $_MODULE['<{statsproduct}prestashop>statsproduct_c90b9dca2d3f5bb6e0d0bdceac8a631d'] = 'Վաճառքի հատկանիշների որոշումը:';
 $_MODULE['<{statsproduct}prestashop>statsproduct_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'Վաճառքներ';

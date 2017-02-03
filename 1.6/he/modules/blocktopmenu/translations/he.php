@@ -16,8 +16,6 @@ $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e24e88b590807c2816be15abd7c7dbb
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e418ee8626f7941239c5b7a0880691ae'] = 'לא ניתן להסיר את הקישור עבור החנו(יו)ת הבאות: %s';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_beb4f951c292ec9218473ffe5f59849d'] = 'הקישור נערך.';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_b1a23c1a76918c10acc27bfa60798c42'] = 'אתה לא יכול לנהל את הפריטים בתפריט העליון מ" כל חנויות "או " קבוצת חנויות ", בחר ישירות את החנות שברצונך לערוך';
-$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_298b615220606d42b6ac60269df0d321'] = '';
-$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_aef3662e6419ddaaa0a31df70e3b6557'] = '';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_dd25f68471362f6f5f183d6158d67854'] = 'שינויים אילו יחולו על כול החנויות';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_bf24faeb13210b5a703f3ccef792b000'] = 'כל היצרנים';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_ecf253735ac0cba84a9d2eeff1f1b87c'] = 'כל הספקים';

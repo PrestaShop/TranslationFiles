@@ -5,7 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{pagesnotfound}prestashop>pagesnotfound_251295238bdf7693252f2804c8d3707e'] = 'Páginas não encontradas';
 $_MODULE['<{pagesnotfound}prestashop>pagesnotfound_607cc8b8993662a37cac86032fb071d2'] = 'Adiciona uma guia ao Painel de Estatísticas, mostrando quais as páginas requisitadas pelos seus visitantes que não puderam ser encontradas.';
-$_MODULE['<{pagesnotfound}prestashop>pagesnotfound_dc3a3db6b98723bf91f924537a630600'] = 'O cache das \\"Páginas não encontradas\\" foi esvaziado.';
+$_MODULE['<{pagesnotfound}prestashop>pagesnotfound_dc3a3db6b98723bf91f924537a630600'] = 'O cache das \"Páginas não encontradas\" foi esvaziado.';
 $_MODULE['<{pagesnotfound}prestashop>pagesnotfound_b323790d8ee3c43d317d19aea5012626'] = 'O cache de "Páginas não encontradas" foi esvaziado.';
 $_MODULE['<{pagesnotfound}prestashop>pagesnotfound_6602bbeb2956c035fb4cb5e844a4861b'] = 'Guia';
 $_MODULE['<{pagesnotfound}prestashop>pagesnotfound_3604249130acf7fda296e16edc996e5b'] = 'erros 404';

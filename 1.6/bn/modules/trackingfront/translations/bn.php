@@ -30,7 +30,6 @@ $_MODULE['<{trackingfront}prestashop>account_7cbb885aa1164b390a0bc050a64e1812'] 
 $_MODULE['<{trackingfront}prestashop>account_537c66b24ef5c83b7382cdc3f34885f2'] = 'বছর';
 $_MODULE['<{trackingfront}prestashop>account_1e6d57e813355689e9c77e947d73ad8f'] = 'হতে';
 $_MODULE['<{trackingfront}prestashop>account_33caa076f23f453dd4061726f3706325'] = 'প্রাপক';
-$_MODULE['<{trackingfront}prestashop>account_5fa8aff419bb8e614b178cf1563ac13a'] = '';
 $_MODULE['<{trackingfront}prestashop>account_b718adec73e04ce3ec720dd11a06a308'] = 'আইডি';
 $_MODULE['<{trackingfront}prestashop>account_49ee3087348e8d44e1feda1917443987'] = 'নাম';
 $_MODULE['<{trackingfront}prestashop>account_ae5d01b6efa819cc7a7c05a8c57fcc2c'] = 'দর্শক';
@@ -43,8 +42,6 @@ $_MODULE['<{trackingfront}prestashop>account_a85eba4c6c699122b2bb1387ea4813ad'] 
 $_MODULE['<{trackingfront}prestashop>account_43005b13d452a4ad6f2d8e29b499c55a'] = 'রেজিসট্রেসন হার';
 $_MODULE['<{trackingfront}prestashop>account_e14c8640d236365d11a060832b219a11'] = 'অর্ডার হার';
 $_MODULE['<{trackingfront}prestashop>account_316853cc3718335f11c048e33b9be98a'] = 'ক্লিক';
-$_MODULE['<{trackingfront}prestashop>account_b450fdef2453e92c31263a70f14fbd7b'] = '';
-$_MODULE['<{trackingfront}prestashop>account_0bcef9c45bd8a48eda1b26eb0c61c869'] = '';
 $_MODULE['<{trackingfront}prestashop>header_bf15e68d25d8a2b7664950ba7385ed0a'] = 'সংযুক্তি';
 $_MODULE['<{trackingfront}prestashop>login_bf15e68d25d8a2b7664950ba7385ed0a'] = 'সংযুক্তি';
 $_MODULE['<{trackingfront}prestashop>login_8954e140059f7b2544469f40161ba507'] = 'অনুমতি স্থান';

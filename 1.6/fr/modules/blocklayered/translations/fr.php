@@ -5,7 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{blocklayered}prestashop>blocklayered_84241e458cdd5162745500a59a3680f3'] = 'Bloc navigation à facettes';
 $_MODULE['<{blocklayered}prestashop>blocklayered_2d08fa8e157fe3f1875402cbd98aee1b'] = 'Affiche un bloc avec les filtres de la navigation à facettes';
-$_MODULE['<{blocklayered}prestashop>blocklayered_b3786b970611c1a3809dd51b630812a7'] = '\\"%s\\" n\'est pas une URL valable';
+$_MODULE['<{blocklayered}prestashop>blocklayered_b3786b970611c1a3809dd51b630812a7'] = '\"%s\" n\'est pas une URL valable';
 $_MODULE['<{blocklayered}prestashop>blocklayered_ccc12c5568381293a27db0232877937b'] = 'Nom du modèle de filtre nécessaire (ne doit être vide)';
 $_MODULE['<{blocklayered}prestashop>blocklayered_8c97e587c1b4e519bec26f3903561da3'] = 'Vous devez sélectionner au moins une catégorie';
 $_MODULE['<{blocklayered}prestashop>blocklayered_817c37b9c1f5cd4a450dad384e63e6c7'] = 'Votre filtre';

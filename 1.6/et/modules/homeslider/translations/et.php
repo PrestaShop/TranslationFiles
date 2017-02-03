@@ -45,9 +45,9 @@ $_MODULE['<{homeslider}prestashop>homeslider_105b296a83f9c105355403f3332af50f'] 
 $_MODULE['<{homeslider}prestashop>homeslider_44f0ca4d7ea17bb667e8d5e31311d959'] = 'Kahe slaidi vaheline viide.';
 $_MODULE['<{homeslider}prestashop>homeslider_1e6a508c037fc42ef6155eeadbb80331'] = 'Automaatselt vahetuvad';
 $_MODULE['<{homeslider}prestashop>homeslider_5a3489cc067f89b268b6958bffb98ebf'] = 'Kuna poes on mitu keelt siis peab igaühele laadima oma pildi';
-$_MODULE['<{homeslider}prestashop>homeslider_c8a1ed10db4201b3ae06ea0aa912028d'] = 'Slaide saab vahetada vaid ühes poes, mitte olukorras \\"Poodide grupp\\" või \\"Kõik poed\\".';
-$_MODULE['<{homeslider}prestashop>homeslider_432ed99c2e808d79c96f892807d33325'] = 'Slaidi saab muuta vaid olukorras \\"Pood\\" : %s';
-$_MODULE['<{homeslider}prestashop>homeslider_6a1ae4ad1018e00dddb16a2ce30a24f6'] = 'Ei saa lisada slaidi olukorras \\"Poodide grupp\\" või \\"Kõik poed\\".';
+$_MODULE['<{homeslider}prestashop>homeslider_c8a1ed10db4201b3ae06ea0aa912028d'] = 'Slaide saab vahetada vaid ühes poes, mitte olukorras \"Poodide grupp\" või \"Kõik poed\".';
+$_MODULE['<{homeslider}prestashop>homeslider_432ed99c2e808d79c96f892807d33325'] = 'Slaidi saab muuta vaid olukorras \"Pood\" : %s';
+$_MODULE['<{homeslider}prestashop>homeslider_6a1ae4ad1018e00dddb16a2ce30a24f6'] = 'Ei saa lisada slaidi olukorras \"Poodide grupp\" või \"Kõik poed\".';
 $_MODULE['<{homeslider}prestashop>homeslider_7a5c11dddbb2118d08611a1f0678bb91'] = 'Ei õnnestunud saada slaidiga seotud poe infot (id_slide : %d)';
 $_MODULE['<{homeslider}prestashop>homeslider_298b615220606d42b6ac60269df0d321'] = 'Need muudatused rakendatakse nendele poodidele : %s';
 $_MODULE['<{homeslider}prestashop>homeslider_aef3662e6419ddaaa0a31df70e3b6557'] = 'Need muudatused rakendatakse sellele grupile : %s';

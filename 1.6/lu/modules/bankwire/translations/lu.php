@@ -17,7 +17,6 @@ $_MODULE['<{bankwire}prestashop>bankwire_857216dd1b374de9bf54068fcd78a8f3'] = 'K
 $_MODULE['<{bankwire}prestashop>bankwire_3ec365dd533ddb7ef3d1c111186ce872'] = 'Details';
 $_MODULE['<{bankwire}prestashop>bankwire_6b154cafbab54ba3a1e76a78c290c02a'] = 'wie Zweigstelle, IBAN-Nummer, BIC, etc.';
 $_MODULE['<{bankwire}prestashop>bankwire_f9a1a1bb716cbae0503d351ea2af4b34'] = 'Bankadresse';
-$_MODULE['<{bankwire}prestashop>bankwire_c9cc8cce247e49bae79f15173ce97354'] = '';
 $_MODULE['<{bankwire}prestashop>validation_e2b7dec8fa4b498156dfee6e4c84b156'] = 'Zahlungsart nicht verfügbar';
 $_MODULE['<{bankwire}prestashop>payment_execution_644818852b4dd8cf9da73543e30f045a'] = 'Zurück zum Bestellvorgang';
 $_MODULE['<{bankwire}prestashop>payment_execution_6ff063fbc860a79759a7369ac32cee22'] = 'Bestellvorgang';

@@ -4,11 +4,8 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{statscheckup}prestashop>statscheckup_e7a908d79d3758c911692ba791da9c70'] = 'การประเมินผลการแคตตาล็อก';
-$_MODULE['<{statscheckup}prestashop>statscheckup_11c7290f636a816cbcffb9059958b5c0'] = '';
 $_MODULE['<{statscheckup}prestashop>statscheckup_20015706a8cbd457cbb6ea3e7d5dc9b3'] = 'ปรับปรุงการกำหนดค่าแล้ว';
-$_MODULE['<{statscheckup}prestashop>statscheckup_7ff3e75ce6aca348bc513ed3d5882946'] = '';
 $_MODULE['<{statscheckup}prestashop>statscheckup_b1897515d548a960afe49ecf66a29021'] = 'เฉลี่ย';
-$_MODULE['<{statscheckup}prestashop>statscheckup_0c6ad70beb3a7e76c3fc7adab7c46acc'] = '';
 $_MODULE['<{statscheckup}prestashop>statscheckup_619a1efbedc7855aa27c0a50579c104e'] = 'ไม่พบสินค้าที่ต้องการ';
 $_MODULE['<{statscheckup}prestashop>statscheckup_8bc84316c4078bf66723fd019616d920'] = 'คำอธิบาย';
 $_MODULE['<{statscheckup}prestashop>statscheckup_5cd1930570823694abdd596f29c8943d'] = 'ตัวอักษร (ไม่รวม HTML)';
@@ -17,9 +14,7 @@ $_MODULE['<{statscheckup}prestashop>statscheckup_59b514174bffe4ae402b3d63aad79fe
 $_MODULE['<{statscheckup}prestashop>statscheckup_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'ยอดขาย';
 $_MODULE['<{statscheckup}prestashop>statscheckup_c3917e1f7138a24c6dc954fe81b86679'] = 'การสั่งซื้อ / เดือน';
 $_MODULE['<{statscheckup}prestashop>statscheckup_7bd5825a187064017975513b95d7f7de'] = 'จำนวนที่สามารถขายได้';
-$_MODULE['<{statscheckup}prestashop>statscheckup_691d502cfd0e0626cd3b058e5682ad1c'] = '';
 $_MODULE['<{statscheckup}prestashop>statscheckup_dc270bcf468689b19074a5eef7581b52'] = 'ไม่เพียงพอ';
-$_MODULE['<{statscheckup}prestashop>statscheckup_f4abc77d498c89880f67331609406774'] = '';
 $_MODULE['<{statscheckup}prestashop>statscheckup_ad647e4ae904c7ed54ee93040d8298c7'] = 'น้อยกว่า';
 $_MODULE['<{statscheckup}prestashop>statscheckup_05824b7be006782aaefd1fdb97c71e06'] = 'มากกว่า';
 $_MODULE['<{statscheckup}prestashop>statscheckup_c9cc8cce247e49bae79f15173ce97354'] = 'บันทึก';

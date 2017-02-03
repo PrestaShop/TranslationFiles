@@ -15,13 +15,9 @@ $_MODULE['<{blockuserinfo}prestashop>blockuserinfo_a0623b78a5f2cfe415d9dbbd4428e
 $_MODULE['<{blockuserinfo}prestashop>blockuserinfo_83218ac34c1834c26781fe4bde918ee4'] = 'Բարի գալուստ';
 $_MODULE['<{blockuserinfo}prestashop>blockuserinfo_4b877ba8588b19f1b278510bf2b57ebb'] = 'Ինձ դուրս հանել';
 $_MODULE['<{blockuserinfo}prestashop>blockuserinfo_c87aacf5673fada1108c9f809d354311'] = 'Դուրս գալ';
-$_MODULE['<{blockuserinfo}prestashop>blockuserinfo_d4151a9a3959bdd43690735737034f27'] = '';
-$_MODULE['<{blockuserinfo}prestashop>blockuserinfo_b6d4223e60986fa4c9af77ee5f7149c5'] = '';
 $_MODULE['<{blockuserinfo}prestashop>nav_2cbfb6731610056e1d0aaacde07096c1'] = 'Նայել իմ  հաճախորդի պահոցը';
 $_MODULE['<{blockuserinfo}prestashop>nav_4b877ba8588b19f1b278510bf2b57ebb'] = 'Ինձ դուրս հանել';
 $_MODULE['<{blockuserinfo}prestashop>nav_c87aacf5673fada1108c9f809d354311'] = 'Դուրս գալ';
-$_MODULE['<{blockuserinfo}prestashop>nav_d4151a9a3959bdd43690735737034f27'] = '';
-$_MODULE['<{blockuserinfo}prestashop>nav_b6d4223e60986fa4c9af77ee5f7149c5'] = '';
 
 
 return $_MODULE;

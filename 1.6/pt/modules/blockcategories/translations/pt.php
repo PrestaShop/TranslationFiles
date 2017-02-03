@@ -30,9 +30,6 @@ $_MODULE['<{blockcategories}prestashop>blockcategories_5f73e737cedf8f4ccf880473a
 $_MODULE['<{blockcategories}prestashop>blockcategories_c9cc8cce247e49bae79f15173ce97354'] = 'Guardar';
 $_MODULE['<{blockcategories}prestashop>blockcategories_footer_af1b98adf7f686b84cd0b443e022b7a0'] = 'Categorias';
 $_MODULE['<{blockcategories}prestashop>blockcategories_af1b98adf7f686b84cd0b443e022b7a0'] = 'Categorias';
-$_MODULE['<{blockcategories}prestashop>blockcategories_admin_63239117f39d923b2e407620fc1fa5b5'] = '';
-$_MODULE['<{blockcategories}prestashop>blockcategories_admin_eea317348d82718d49f9a79189dc0f93'] = '';
-$_MODULE['<{blockcategories}prestashop>blockcategories_admin_5bc1667deb2b522c0cac00de5f15ffbc'] = '';
 
 
 return $_MODULE;

@@ -6,7 +6,6 @@ $_MODULE = array();
 $_MODULE['<{statsvisits}prestashop>statsvisits_504c16c26a96283f91fb46a69b7c8153'] = 'ভিসিট এবং ভিসিটর ';
 $_MODULE['<{statsvisits}prestashop>statsvisits_432c3ab90b3af30ad318201ba09aa824'] = 'আপনার পরিদর্শক এবং পরিদর্শন সম্পর্কে পরিসংখ্যান ড্যাশবোর্ডে পরিসংখ্যান যোগ করুন ';
 $_MODULE['<{statsvisits}prestashop>statsvisits_6602bbeb2956c035fb4cb5e844a4861b'] = 'গাইড';
-$_MODULE['<{statsvisits}prestashop>statsvisits_ffbee337f031c2282b311bac40bc8bb9'] = '';
 $_MODULE['<{statsvisits}prestashop>statsvisits_e90d50ca1e68dc66c97bd62929dcbaf1'] = 'দর্শক গ্রাফ এর বিবর্তন গ্রাফ প্রকিতপক্ষে ভিজিট গ্রাফ হওয়া উচিত \' , কিন্তু অতিরিক্ত তথ্য ও থাকতে পারে';
 $_MODULE['<{statsvisits}prestashop>statsvisits_e9849ece0b2ecf1eea74d92d492a47f2'] = 'এই পরিস্থিতির সম্মুখীন হলে, অভিনন্দন, আপনার ওয়েবসাইটে ভাল এবং আনন্দদায়ক। আপনি যে মনোযোগ পাচ্ছেন তা  দেখতে ভাল লাগছে';
 $_MODULE['<{statsvisits}prestashop>statsvisits_c745121a98cf1d5b26bc5299d9880d5c'] = 'অন্যথা, উপসংহার এত সহজ নয়. সমস্যা নান্দনিক বা কৌশলগত হতে পারে।অনেক দর্শক ভুল করে আপনার দোকানে একটি নির্দিষ্ট কারন  ছাড়াই পরিদর্শন করেছেন তাও সম্ভব. এই অদ্ভুত এবং সদা বিভ্রান্তিকর ঘটনাটি সার্চ ইঞ্জিন দ্বারা ঘটতে পারে. এই ক্ষেত্রে , আপনি আপনার এসইও কাঠামোর সংশোধন বিবেচনা করতে পারেন.';

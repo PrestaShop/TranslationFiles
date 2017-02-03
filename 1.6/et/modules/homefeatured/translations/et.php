@@ -7,14 +7,14 @@ $_MODULE['<{homefeatured}prestashop>homefeatured_5d17bf499a1b9b2e816c99eebf0153a
 $_MODULE['<{homefeatured}prestashop>homefeatured_6d37ec35b5b6820f90394e5ee49e8cec'] = 'Näitab esilehe keskmises veerus tooteid';
 $_MODULE['<{homefeatured}prestashop>homefeatured_fddb8a1881e39ad11bfe0d0aca5becc3'] = 'Toodete kogus on vigane. Vali positiivne arv.';
 $_MODULE['<{homefeatured}prestashop>homefeatured_c284a59996a4e984b30319999a7feb1d'] = 'Kategooria ID on vigane. Vali mõni eksisteeriv ID.';
-$_MODULE['<{homefeatured}prestashop>homefeatured_fd2608d329d90e9a49731393427d0a5a'] = 'Vale väärtus \\"juhuslik\\" omadusele.';
+$_MODULE['<{homefeatured}prestashop>homefeatured_fd2608d329d90e9a49731393427d0a5a'] = 'Vale väärtus \"juhuslik\" omadusele.';
 $_MODULE['<{homefeatured}prestashop>homefeatured_6af91e35dff67a43ace060d1d57d5d1a'] = 'Seaded uuendatud';
 $_MODULE['<{homefeatured}prestashop>homefeatured_f4f70727dc34561dfde1a3c529b6205c'] = 'Seaded';
-$_MODULE['<{homefeatured}prestashop>homefeatured_abc877135a96e04fc076becb9ce6fdfa'] = 'Toodete lisamiseks esilehele lisa nad lihtsalt vastavasse tootekategooriasse (algselt on \\"Home\\").';
+$_MODULE['<{homefeatured}prestashop>homefeatured_abc877135a96e04fc076becb9ce6fdfa'] = 'Toodete lisamiseks esilehele lisa nad lihtsalt vastavasse tootekategooriasse (algselt on \"Home\").';
 $_MODULE['<{homefeatured}prestashop>homefeatured_d44168e17d91bac89aab3f38d8a4da8e'] = 'Mitu toodet näidatakse';
 $_MODULE['<{homefeatured}prestashop>homefeatured_1b73f6b70a0fcd38bbc6a6e4b67e3010'] = 'Määra mitu toodet esilehel näidatakse (algselt on 8).';
 $_MODULE['<{homefeatured}prestashop>homefeatured_b773a38d8c456f7b24506c0e3cd67889'] = 'Millisest kategooriast tooted võetakse';
-$_MODULE['<{homefeatured}prestashop>homefeatured_0db2d53545e2ee088cfb3f45e618ba68'] = 'Määra millisest kategooriast esilehe tooted võetakse (algselt on 2 = \\"Home\\").';
+$_MODULE['<{homefeatured}prestashop>homefeatured_0db2d53545e2ee088cfb3f45e618ba68'] = 'Määra millisest kategooriast esilehe tooted võetakse (algselt on 2 = \"Home\").';
 $_MODULE['<{homefeatured}prestashop>homefeatured_49417670345173e7b95018b7bf976fc7'] = 'Näita tooteid juhuslikult.';
 $_MODULE['<{homefeatured}prestashop>homefeatured_3c12c1068fb0e02fe65a6c4fc40bc29a'] = 'Määra kas tooteid näidatakse juhuslikul (algselt on : ei)';
 $_MODULE['<{homefeatured}prestashop>homefeatured_93cba07454f06a4a960172bbd6e2a435'] = 'Jah';

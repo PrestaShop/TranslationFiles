@@ -144,7 +144,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e53b4fd73748419564a1742f66ba
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d5342bfd5b032cd75faeebdf2a918a79'] = 'Backup de mis imagenes';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9a2cad898ee3d0ea4573946becdec9cf'] = 'Para ahorrar tiempo, puede decidir no hacer una copia de seguridad de sus imágenes. En cualquier caso, siempre asegúrese de que ha hecho copia de ellas manualmente.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5243e62512552a2cd6369e446bbf10f4'] = 'Rendimiento del Servidor';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a94e6f7e27ad55c963170658ee6a9e28'] = 'A menos que utilice un servidor dedicado, seleccione \\"Baja\\".';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a94e6f7e27ad55c963170658ee6a9e28'] = 'A menos que utilice un servidor dedicado, seleccione \"Baja\".';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9e435ab00f5e0606f46337fdc73164ff'] = 'Un valor alto puede causar error en la actualización si su servidor no es lo suficientemente rápido como para procesar las tareas de actualización en un corto período de tiempo.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_73ae0e1bfd470f9e26dac64d270cda9d'] = 'Bajo(recomendado)';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_87f8a6ab85c9ced3702b4ea641ad4bb5'] = 'Media';
@@ -166,7 +166,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e803dd4410d411c286544d04af33
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d5e479152ae739641ca1bc69cbab0b3e'] = 'Esta opción mantendrá activado "display_errors" de PHP (o lo forzará).';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_04c9fb8fb8679a8fbaf09f5a3568f0a9'] = 'Esto no es recomendable ya que la actualización fallará inmediatamente si se produce un error de PHP durante una llamada Ajax.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_36be1130454bc8c4e0a41d36fa062a8b'] = 'no puede crear el directorio%s';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_6215d33db0d099fcaae168dd4715135a'] = 'No se puede escribir en el \\"%s\\" directorio';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_6215d33db0d099fcaae168dd4715135a'] = 'No se puede escribir en el \"%s\" directorio';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_dec33e9cf9ab739bc3a27b98b343a4ef'] = 'unable to create file %s';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_56195ded2802813800f43e3be1babe1c'] = 'Error al probar la supresión de copia de seguridad %s';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a520e5cbdc465c7b7d39c98f78fe2506'] = 'Proceso de restauración hecho. ¡Enhorabuena! Ahora puedes reactivar tu tienda.';
@@ -246,7 +246,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9dcf84f429818d396d05335d52ef
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_4cb8d96f333a2339fe544b96ee2740de'] = '[CLEANING CACHE] Eliminados %s archivos';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9c7e0ba2c6ecb11af7f39843bbc18ff8'] = 'Alerta detectada durante la actualización.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c4615fc8cb7877b074cbe9813cd742b1'] = 'Actualización de la base de datos completa';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f08c0f19e801344fe73ef0a0f4cd1dcb'] = 'Error al abrir el archivo settings.inc.php en \\"modo escribir\\"';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f08c0f19e801344fe73ef0a0f4cd1dcb'] = 'Error al abrir el archivo settings.inc.php en \"modo escribir\"';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_38ef745d6a25e051fe2463983dd735b8'] = 'Error al generar un nuevo archivo settings.inc.php';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_618bfc1f9ba85d07157a388208fe3ff8'] = 'Archivo de ajustes actualizado';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c76662717bc0a1c0a601534af98f537b'] = '[NOTICE] El archivo %s no existe, se saltará la fusión.';
@@ -338,7 +338,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_6d60c7758acae39203ef1fadcbb2
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_fb1ca1f5f3eb5a2ca85201f449525527'] = 'Necesita activar allow_url_fopen o cURL para trabajar con las descargas automáticas. También puede subir de forma manual en la ruta %s.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a75d0dd3210dc796149dd5503a4b9b9f'] = '[AVISO] no se encuentra la propiedad %s';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3bb38e7d0bfd5a02f7c06cae446fee86'] = 'acciones %s omitidas';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b4302e98d94591ee9afa09e769b2ee63'] = 'acción \\"%1$s\\" no encontrada';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b4302e98d94591ee9afa09e769b2ee63'] = 'acción \"%1$s\" no encontrada';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_760c4026bc5a0bd5378e6efc3f1370b4'] = '¡Demasiado largo!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_4f2e28904946a09d8c7f36dd3ee72457'] = '¡Los campos son diferentes!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e5110300599f995b9d8cfbe930fba83e'] = '¡Esta dirección email no es válida!';
@@ -447,7 +447,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d0285505fd09db653a4ec0fd3799
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_89f144934543c527b7b064ee64361d90'] = 'Por favor seleccione su canal:';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_cdcf07ad291a3b7a0cc30b870705ba63'] = 'Los canales le ofrecen diferentes formas de realizar una actualización. Puede cargar la nueva versión manualmente o dejar que el módulo de actualización 1-click la descargue para usted.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_87ad8a8ff4a99ffd2e72d5e69765f830'] = 'Los canales Alpha, Beta y Privados le ofrecen la posibilidad de actualizar a una versión no oficial o inestable (con el propósito de probarla solamente).';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7d71d389caebafeecac50e98c8e14dec'] = 'Por defecto, se debe utilizar la \\"Versión secundaria\\", el canal que ofrece la última versión estable disponible....';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7d71d389caebafeecac50e98c8e14dec'] = 'Por defecto, se debe utilizar la \"Versión secundaria\", el canal que ofrece la última versión estable disponible....';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_48c7c41b72e1d678923ce3571aa65b2d'] = 'Paso';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_eeb5a49c38d2d8c2baa51ed09beccf88'] = 'Pasos de actualización';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2359934469520d062d98f6b3e91e1523'] = 'Comparación de versión';
@@ -543,11 +543,11 @@ $_MODULE['<{autoupgrade}prestashop>autoupgrade_bf544d00f0406f90f6e658a2571f5e9c'
 $_MODULE['<{autoupgrade}prestashop>autoupgrade_786cc166a84595ae291b2d8b26d93bb3'] = 'Actualización 1-Clic';
 $_MODULE['<{autoupgrade}prestashop>autoupgrade_990a862982b19c0c1266a4cf6afbdd96'] = 'Proporciona un método automático de actualizar su tienda a la última versión de PrestaShop.';
 $_MODULE['<{autoupgrade}prestashop>autoupgrade_a1c06846db19625473aa4ffacb6307e4'] = 'No es posible eliminar la pestaña antigua "AdminUpgrade" (tab ID: %d).';
-$_MODULE['<{autoupgrade}prestashop>autoupgrade_cade82f9025d8fb9d2af869af19c72b8'] = 'No se puede crear el \\"AdminSelfUpgrade\\" tab...';
+$_MODULE['<{autoupgrade}prestashop>autoupgrade_cade82f9025d8fb9d2af869af19c72b8'] = 'No se puede crear el \"AdminSelfUpgrade\" tab...';
 $_MODULE['<{autoupgrade}prestashop>autoupgrade_12de3725023e3c02c25c7898f524b25d'] = 'Incapaz de copiar logo.gif en %s';
-$_MODULE['<{autoupgrade}prestashop>autoupgrade_5d7ef5c6fd32feb5d482ec1459e86f83'] = 'No se puede cargar el \\"AdminSelfUpgrade\\" tab...';
-$_MODULE['<{autoupgrade}prestashop>autoupgrade_21dc065f2d8653ebca37ec552d17b37e'] = 'No se puede crear el directorio \\"%s\\"';
-$_MODULE['<{autoupgrade}prestashop>autoupgrade_6215d33db0d099fcaae168dd4715135a'] = 'No se puede escribir en el \\"%s\\" directorio';
+$_MODULE['<{autoupgrade}prestashop>autoupgrade_5d7ef5c6fd32feb5d482ec1459e86f83'] = 'No se puede cargar el \"AdminSelfUpgrade\" tab...';
+$_MODULE['<{autoupgrade}prestashop>autoupgrade_21dc065f2d8653ebca37ec552d17b37e'] = 'No se puede crear el directorio \"%s\"';
+$_MODULE['<{autoupgrade}prestashop>autoupgrade_6215d33db0d099fcaae168dd4715135a'] = 'No se puede escribir en el \"%s\" directorio';
 $_MODULE['<{autoupgrade}prestashop>autoupgrade_10c008d228c9f35d12ce0437aa3eade9'] = 'Incapaz de copiar ajax-upgradetab.php en %s';
 
 

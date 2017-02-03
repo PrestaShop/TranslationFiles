@@ -12,7 +12,7 @@ $_MODULE['<{productpaymentlogos}prestashop>productpaymentlogos_223795d3a336ef80c
 $_MODULE['<{productpaymentlogos}prestashop>productpaymentlogos_c7dd01cfb61ff8c984c0aff44f6540e3'] = 'Você pode escolher adicionar um cabeçalho acima dos logos.';
 $_MODULE['<{productpaymentlogos}prestashop>productpaymentlogos_89ca5c48bbc6b7a648a5c1996767484c'] = 'Bloco de imagem';
 $_MODULE['<{productpaymentlogos}prestashop>productpaymentlogos_9ce38727cff004a058021a6c7351a74a'] = 'Link da imagem';
-$_MODULE['<{productpaymentlogos}prestashop>productpaymentlogos_826eeee52fe142372c3a2bc195eff911'] = 'Você pode enviar sua própria imagem usando o formulário acima, ou vinculá-la a partir da opção \\"Link da Imagem\\".';
+$_MODULE['<{productpaymentlogos}prestashop>productpaymentlogos_826eeee52fe142372c3a2bc195eff911'] = 'Você pode enviar sua própria imagem usando o formulário acima, ou vinculá-la a partir da opção \"Link da Imagem\".';
 $_MODULE['<{productpaymentlogos}prestashop>productpaymentlogos_c9cc8cce247e49bae79f15173ce97354'] = 'Salvar';
 
 

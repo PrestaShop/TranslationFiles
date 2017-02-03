@@ -4,7 +4,6 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{trackingfront}prestashop>trackingfront_e8a827db4eca37d2c6cdef8e406f6fa9'] = 'Penjejakan - Balai Pameran';
-$_MODULE['<{trackingfront}prestashop>trackingfront_d565f36c06949442a4eb998354376c5b'] = '';
 $_MODULE['<{trackingfront}prestashop>trackingfront_8f5ac7793b2547cd025a7335f4934d26'] = 'Login diperlukan';
 $_MODULE['<{trackingfront}prestashop>trackingfront_6f658a5bbec855ca5ae4ef4c94eb5d43'] = 'Log masuk tidak sah';
 $_MODULE['<{trackingfront}prestashop>trackingfront_962c91be4b1056412febf0c272760814'] = 'kata laluan diperlukan';
@@ -30,7 +29,6 @@ $_MODULE['<{trackingfront}prestashop>account_7cbb885aa1164b390a0bc050a64e1812'] 
 $_MODULE['<{trackingfront}prestashop>account_537c66b24ef5c83b7382cdc3f34885f2'] = 'Tahun';
 $_MODULE['<{trackingfront}prestashop>account_1e6d57e813355689e9c77e947d73ad8f'] = 'Dari:';
 $_MODULE['<{trackingfront}prestashop>account_33caa076f23f453dd4061726f3706325'] = 'Kepada:';
-$_MODULE['<{trackingfront}prestashop>account_5fa8aff419bb8e614b178cf1563ac13a'] = '';
 $_MODULE['<{trackingfront}prestashop>account_b718adec73e04ce3ec720dd11a06a308'] = 'MY';
 $_MODULE['<{trackingfront}prestashop>account_49ee3087348e8d44e1feda1917443987'] = 'Nama';
 $_MODULE['<{trackingfront}prestashop>account_ae5d01b6efa819cc7a7c05a8c57fcc2c'] = 'Pengunjung';

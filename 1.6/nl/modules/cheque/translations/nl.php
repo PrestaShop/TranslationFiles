@@ -52,7 +52,7 @@ $_MODULE['<{cheque}prestashop>payment_return_decce112a9e64363c997b04aa71b7cb8'] 
 $_MODULE['<{cheque}prestashop>payment_return_9bdf695c5a30784327137011da6ef568'] = 'We hebben gemerkt dat er een probleem is met uw bestelling. Als u denkt dat dit een vergissing is kunt u contact opnemen met onze';
 $_MODULE['<{cheque}prestashop>payment_4b80fae2153218ed763bdadc418e8589'] = 'Betaal via acceptgiro';
 $_MODULE['<{cheque}prestashop>payment_4e1fb9f4b46556d64db55d50629ee301'] = '(orderverwerking duurt langer)';
-$_MODULE['<{cheque}prestashop>payment_execution_0881a11f7af33bc1b43e437391129d66'] = 'Klik op: \\"Ik bevestig mijn bestelling\\" om uw bestelling te bevestigen';
+$_MODULE['<{cheque}prestashop>payment_execution_0881a11f7af33bc1b43e437391129d66'] = 'Klik op: \"Ik bevestig mijn bestelling\" om uw bestelling te bevestigen';
 $_MODULE['<{cheque}prestashop>payment_return_d15feee53d81ea16269e54d4784fa123'] = 'We hebben gemerkt dat er een probleem is met uw bestelling. Als u denkt dat dit een vergissing is kunt u contact opnemen met onze';
 $_MODULE['<{cheque}prestashop>payment_f05fd8637f8a6281466a507fcb56baec'] = 'Betaal via acceptgiro.';
 

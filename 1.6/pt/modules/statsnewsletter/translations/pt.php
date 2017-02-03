@@ -3,7 +3,6 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{statsnewsletter}prestashop>statsnewsletter_ffb7e666a70151215b4c55c6268d7d72'] = '';
 $_MODULE['<{statsnewsletter}prestashop>statsnewsletter_5106250927c6e24c99601968284066de'] = 'Acrescenta ao painel de estatísticas um separador com um gráfico que mostra os registos na Newsletter.';
 $_MODULE['<{statsnewsletter}prestashop>statsnewsletter_61a898af87607e3f4d41c3613d8761c7'] = 'Subscrição de clientes:';
 $_MODULE['<{statsnewsletter}prestashop>statsnewsletter_7fe462207f98012d9ff00cf0e6633c94'] = 'Subscrição de convidados:';

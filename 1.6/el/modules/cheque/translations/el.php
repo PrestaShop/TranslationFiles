@@ -52,7 +52,7 @@ $_MODULE['<{cheque}prestashop>payment_return_decce112a9e64363c997b04aa71b7cb8'] 
 $_MODULE['<{cheque}prestashop>payment_return_9bdf695c5a30784327137011da6ef568'] = 'Έχουμε παρατηρήσει ένα πρόβλημα με την παραγγελία σας. Αν νομίζετε ότι αυτό είναι λάθος, μπορείτε να επικοινωνήσετε με την';
 $_MODULE['<{cheque}prestashop>payment_4b80fae2153218ed763bdadc418e8589'] = 'Πληρωμή με επιταγή.';
 $_MODULE['<{cheque}prestashop>payment_4e1fb9f4b46556d64db55d50629ee301'] = '(η επεξεργασία της παραγγελίας θα διαρκέσει περισσότερο)';
-$_MODULE['<{cheque}prestashop>payment_execution_0881a11f7af33bc1b43e437391129d66'] = 'Επιβεβαιώστε την παραγγελία σας κάνοντας κλικ στο \\"Επιβεβαίωση παραγγελίας»';
+$_MODULE['<{cheque}prestashop>payment_execution_0881a11f7af33bc1b43e437391129d66'] = 'Επιβεβαιώστε την παραγγελία σας κάνοντας κλικ στο \"Επιβεβαίωση παραγγελίας»';
 $_MODULE['<{cheque}prestashop>payment_return_d15feee53d81ea16269e54d4784fa123'] = 'Έχουμε παρατηρήσει ένα πρόβλημα με την παραγγελία σας. Αν νομίζετε ότι είναι λάθος, μπορείτε να επικοινωνήσετε με την';
 $_MODULE['<{cheque}prestashop>payment_f05fd8637f8a6281466a507fcb56baec'] = 'Πληρωμή με επιταγή.';
 

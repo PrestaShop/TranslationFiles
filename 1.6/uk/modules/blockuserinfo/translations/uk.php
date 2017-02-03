@@ -3,7 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{blockuserinfo}prestashop>blockuserinfo_a2e9cd952cda8ba167e62b25a496c6c1'] = 'Блок \\"Інформація користувача\\"';
+$_MODULE['<{blockuserinfo}prestashop>blockuserinfo_a2e9cd952cda8ba167e62b25a496c6c1'] = 'Блок \"Інформація користувача\"';
 $_MODULE['<{blockuserinfo}prestashop>blockuserinfo_970a31aa19d205f92ccfd1913ca04dc0'] = 'Додає блок з інформацією про клієнта';
 $_MODULE['<{blockuserinfo}prestashop>blockuserinfo_0c3bf3014aafb90201805e45b5e62881'] = 'Перейти до кошика';
 $_MODULE['<{blockuserinfo}prestashop>blockuserinfo_a85eba4c6c699122b2bb1387ea4813ad'] = 'Кошик:';

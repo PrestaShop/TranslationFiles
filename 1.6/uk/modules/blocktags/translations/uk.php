@@ -3,7 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{blocktags}prestashop>blocktags_f2568a62d4ac8d1d5b532556379772ba'] = 'Блок \\"Теґи\\"';
+$_MODULE['<{blocktags}prestashop>blocktags_f2568a62d4ac8d1d5b532556379772ba'] = 'Блок \"Теґи\"';
 $_MODULE['<{blocktags}prestashop>blocktags_b2de1a21b938fcae9955206a4ca11a12'] = 'Додає блок, що містить теги ваших товарів.';
 $_MODULE['<{blocktags}prestashop>blocktags_8d731d453cacf8cff061df22a269b82b'] = 'Будь ласка, заповніть поле "Теги для відображення".';
 $_MODULE['<{blocktags}prestashop>blocktags_73293a024e644165e9bf48f270af63a0'] = 'Невірна кількість';

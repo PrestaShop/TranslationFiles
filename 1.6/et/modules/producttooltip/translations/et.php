@@ -9,7 +9,7 @@ $_MODULE['<{producttooltip}prestashop>producttooltip_c888438d14855d7d96a2724ee9c
 $_MODULE['<{producttooltip}prestashop>producttooltip_f4f70727dc34561dfde1a3c529b6205c'] = 'Seaded';
 $_MODULE['<{producttooltip}prestashop>producttooltip_6a3f9bbed911bae4ffe5ab84294d7b9f'] = 'Külastajate arv';
 $_MODULE['<{producttooltip}prestashop>producttooltip_5c65d0f105e43f5186c1275fb83a661a'] = 'Mitu külastajat seda toodet hetkel vaatab.';
-$_MODULE['<{producttooltip}prestashop>producttooltip_6ce86506e83863b6414e760c8406e156'] = 'Kui soovid seda aktiveerida siis peab aktiveerima ka \\"Andmete kogumine statistika jaoks\\" moodulis võimaluse \\"Salvesta kuvamised iga külastaja kohta\\".';
+$_MODULE['<{producttooltip}prestashop>producttooltip_6ce86506e83863b6414e760c8406e156'] = 'Kui soovid seda aktiveerida siis peab aktiveerima ka \"Andmete kogumine statistika jaoks\" moodulis võimaluse \"Salvesta kuvamised iga külastaja kohta\".';
 $_MODULE['<{producttooltip}prestashop>producttooltip_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Lubatud';
 $_MODULE['<{producttooltip}prestashop>producttooltip_b9f5c797ebbf55adccdd8539a65a0241'] = 'Keelatud';
 $_MODULE['<{producttooltip}prestashop>producttooltip_18522b8438c82ae472267ff57e8db76f'] = 'Perioodi pikkus';
