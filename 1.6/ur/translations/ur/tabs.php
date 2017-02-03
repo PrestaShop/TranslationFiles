@@ -1,0 +1,61 @@
+<?php
+
+global $_TABS;
+$_TABS = array();
+
+$_TABS['AdminCatalog'] = 'Catalogue';
+$_TABS['AdminParentOrders'] = 'Commandes';
+$_TABS['AdminParentCustomer'] = 'Clients';
+$_TABS['AdminParentShipping'] = 'شپنگ';
+$_TABS['AdminParentLocalization'] = 'Localisation';
+$_TABS['AdminTools'] = 'Paramètres avancés';
+$_TABS['AdminParentStats'] = 'Statistiques';
+$_TABS['AdminAttributeGenerator'] = 'Générateur de déclinaisons';
+$_TABS['AdminSearch'] = 'تلاش';
+$_TABS['AdminLogin'] = 'لاگ ان';
+$_TABS['AdminShop'] = 'Boutiques';
+$_TABS['AdminProducts'] = 'پراڈکٹس';
+$_TABS['AdminCategories'] = 'زمرہ جات';
+$_TABS['AdminManufacturers'] = 'مینوفیکچررز';
+$_TABS['AdminSuppliers'] = 'سپلائر';
+$_TABS['AdminAttachments'] = 'Pièces jointes';
+$_TABS['AdminOrders'] = 'Commandes';
+$_TABS['AdminInvoices'] = 'Factures';
+$_TABS['AdminReturn'] = 'Retours produit';
+$_TABS['AdminStatuses'] = 'États';
+$_TABS['AdminCustomers'] = 'Clients';
+$_TABS['AdminAddresses'] = 'ایڈریسز';
+$_TABS['AdminGroups'] = 'Groupes';
+$_TABS['AdminCustomerThreads'] = 'کسٹمر سروس';
+$_TABS['AdminGenders'] = 'عنوان';
+$_TABS['AdminCartRules'] = 'Règles panier';
+$_TABS['AdminSpecificPriceRule'] = 'Règles de prix catalogue';
+$_TABS['AdminCarriers'] = 'Transporteurs';
+$_TABS['AdminCarrierWizard'] = 'کیریئر';
+$_TABS['AdminLocalization'] = 'Localisation';
+$_TABS['AdminLanguages'] = 'Langues';
+$_TABS['AdminCountries'] = 'Pays';
+$_TABS['AdminStates'] = 'Etats';
+$_TABS['AdminCurrencies'] = 'Devises';
+$_TABS['AdminTaxRulesGroup'] = 'Règles';
+$_TABS['AdminPayment'] = 'ادائیگی';
+$_TABS['AdminPreferences'] = 'Général';
+$_TABS['AdminOrderPreferences'] = 'Commandes';
+$_TABS['AdminPPreferences'] = 'پراڈکٹس';
+$_TABS['AdminCustomerPreferences'] = 'Clients';
+$_TABS['AdminSearchConf'] = 'تلاش';
+$_TABS['AdminInformation'] = 'Informations';
+$_TABS['AdminPerformance'] = 'Performances';
+$_TABS['AdminEmails'] = 'ای میل';
+$_TABS['AdminShopGroup'] = 'Multiboutique';
+$_TABS['AdminQuickAccesses'] = 'Accès rapide';
+$_TABS['AdminEmployees'] = 'Employées';
+$_TABS['AdminTabs'] = 'فہرست';
+$_TABS['AdminStats'] = 'Statistiques';
+$_TABS['AdminReferrers'] = 'Affiliés';
+$_TABS['AdminWarehouses'] = 'Entrepôts';
+$_TABS['AdminStockManagement'] = 'Gestion de stock';
+$_TABS['AdminStockInstantState'] = 'Etat instantané du stock';
+
+
+return $_TABS;

@@ -1,0 +1,68 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+
+$_MODULE['<{referralprogram}prestashop>program_36c94bd456cf8796723ad09eac258aef'] = 'Gestione del mio account';
+$_MODULE['<{referralprogram}prestashop>program_d95cf4ab2cbf1dfb63f066b50558b07d'] = 'Il mio account';
+$_MODULE['<{referralprogram}prestashop>program_6540b502e953f4c05abeb8f234cd50bf'] = 'Programma di Segnalazione';
+$_MODULE['<{referralprogram}prestashop>program_6b31baf25848e7a6563ecc3946626c80'] = 'Programma di segnalazione';
+$_MODULE['<{referralprogram}prestashop>program_dbc65cd60abde51277c2881ce915a225'] = 'È necessario accettare le condizioni del programma di segnalazione!';
+$_MODULE['<{referralprogram}prestashop>program_83fc792f687bc45d75ac35c84c721a26'] = 'Almeno un indirizzo email non è valido!';
+$_MODULE['<{referralprogram}prestashop>program_1019072b9e450c8652590cda2db45e49'] = 'Almeno un nome o cognome non è valido!';
+$_MODULE['<{referralprogram}prestashop>program_ff2d2e45b90b4426c3bb14bd56b95a2d'] = 'Qualcuno con questo indirizzo email è già stato segnalato!';
+$_MODULE['<{referralprogram}prestashop>program_3f8a4c7f93945fea0d951fa402ee4272'] = 'Spunta almeno una casella';
+$_MODULE['<{referralprogram}prestashop>program_dcc99d8715486f570db3ec5ee469a828'] = 'Impossibile aggiungere amici alla banca dati';
+$_MODULE['<{referralprogram}prestashop>program_f6cb78f0afcf7c3a06048a7a5855d6a1'] = 'E-mail sono state inviate ai tuoi amici!';
+$_MODULE['<{referralprogram}prestashop>program_79cd362fc64832faa0a2079f1142aa12'] = 'Una email è stata inviata ad un amico!';
+$_MODULE['<{referralprogram}prestashop>program_2b90ca4a7b1c83e0a3bb65899725cd65'] = 'E-mail di promemoria sono state inviate ai tuoi amici!';
+$_MODULE['<{referralprogram}prestashop>program_819e52b3c6ca4db131dcfea19188a0c3'] = 'Una email di promemoria è stata inviata ad un amico!';
+$_MODULE['<{referralprogram}prestashop>program_46ee2fe8845962d24bf5178a26e109f3'] = 'Segnala i miei amici';
+$_MODULE['<{referralprogram}prestashop>program_7e9b0e998138fefac8749975c737ac27'] = 'Lista di amici in attesa';
+$_MODULE['<{referralprogram}prestashop>program_c56567bc42584de1a7ac430039b3a87e'] = 'Amici in attesa';
+$_MODULE['<{referralprogram}prestashop>program_b9ebe5bbe91ed6e7e23285fb6c595ab4'] = 'Lista di amici che ho segnalato';
+$_MODULE['<{referralprogram}prestashop>program_58c7f2542ab2e2c3e4e39e851ea0f225'] = 'Amici che ho segnalato';
+$_MODULE['<{referralprogram}prestashop>program_a44fa3fcad7f0f3ef4b6d77b74ca66f2'] = 'Ottieni uno sconto di %1$s per te e i tuoi amici invitandoli sul nostro sito.';
+$_MODULE['<{referralprogram}prestashop>program_8d3ae82bfa996855cdf841dd9e15a7e3'] = 'È veloce e è facile. Basta compilare nome, cognome e indirizzo/i di posta elettronica del tuo amico/i nei campi sottostanti.';
+$_MODULE['<{referralprogram}prestashop>program_666149e67589bd65ed1e787932cd74f5'] = 'Quando uno di loro effettua almeno %d ordini, ';
+$_MODULE['<{referralprogram}prestashop>program_def1ac1f353beef52f7e86a30cae01c4'] = 'Quando uno di loro effettua almeno un numero di %d ordine, ';
+$_MODULE['<{referralprogram}prestashop>program_8d122aed0fe2c5076e4941bfbd53fe04'] = 'il tuo o la tua amica riceverà un coupon del valore di %1$s e tu riceverai un coupon del valore di %1$s.';
+$_MODULE['<{referralprogram}prestashop>program_8d3f5eff9c40ee315d452392bed5309b'] = 'Cognome';
+$_MODULE['<{referralprogram}prestashop>program_20db0bfeecd8fe60533206a2b5e9891a'] = 'Nome';
+$_MODULE['<{referralprogram}prestashop>program_1e884e3078d9978e216a027ecd57fb34'] = 'Email';
+$_MODULE['<{referralprogram}prestashop>program_9386de858384e7f790a28beecdb986dd'] = 'Importante: gli indirizzi email dei tuoi amici saranno utilizzati solo nel programma di segnalazione. Non saranno mai utilizzati per altri scopi.';
+$_MODULE['<{referralprogram}prestashop>program_605eef3cad421619ce034ab48415190f'] = 'Accetto le Condizioni Generali di Vendita e vi aderisco incondizionatamente.';
+$_MODULE['<{referralprogram}prestashop>program_6b719c160f9b08dad4760bcc4b52ed48'] = 'Condizioni del programma di riferimento';
+$_MODULE['<{referralprogram}prestashop>program_868ca5fe643791c23b47c75fb833c9b8'] = 'Leggi le condizioni.';
+$_MODULE['<{referralprogram}prestashop>program_31fde7b05ac8952dacf4af8a704074ec'] = 'Anteprima';
+$_MODULE['<{referralprogram}prestashop>program_8e8dc296c6bf3876468aa028974bfebe'] = 'Invito email';
+$_MODULE['<{referralprogram}prestashop>program_a86073a0c3b0bebf11bd807caf8e505a'] = 'l\'email di default';
+$_MODULE['<{referralprogram}prestashop>program_7532696b81dfc0b94a37e876677152c5'] = 'che sarà inviata al tuo amico/amici.';
+$_MODULE['<{referralprogram}prestashop>program_ad3d06d03d94223fa652babc913de686'] = 'Conferma';
+$_MODULE['<{referralprogram}prestashop>program_59352cd5314a67c0fb10c964831920f3'] = 'Per diventare un segnalatore, è necessario aver completato almeno';
+$_MODULE['<{referralprogram}prestashop>program_12c500ed0b7879105fb46af0f246be87'] = 'ordini';
+$_MODULE['<{referralprogram}prestashop>program_70a17ffa722a3985b86d30b034ad06d7'] = 'ordine';
+$_MODULE['<{referralprogram}prestashop>program_ec7342814444c667ab93181b30b28e38'] = 'Questi amici non hanno ancora effettuato un ordine su questo sito da quando li hai segnalati, ma puoi provare di nuovo! Per farlo, seleziona le caselle degli amici a cui desideri rinnovare l\'invito, quindi fai clic sul pulsante "Ricorda il mio amico/i"';
+$_MODULE['<{referralprogram}prestashop>program_3e717a04ff77cd5fa068d8ad9d3facc8'] = 'ultimo invito';
+$_MODULE['<{referralprogram}prestashop>program_9c9d4ed270f02c72124702edb192ff19'] = 'Ricorda il mio amico/i';
+$_MODULE['<{referralprogram}prestashop>program_161133b6c2d0f520d9221ec8180c16e2'] = 'Non hai inviti in attesa.';
+$_MODULE['<{referralprogram}prestashop>program_26ef5cd4989dd9b7a6e81a22312b06fd'] = 'Non hai ancora presentato degli amici.';
+$_MODULE['<{referralprogram}prestashop>program_193f3d8bbaceba40499cab1a3545e9e8'] = 'Ecco gli amici segnalati che hanno accettato il tuo invito:';
+$_MODULE['<{referralprogram}prestashop>program_3c648ba41cfb45f13b083a9cbbacdfdf'] = 'Data di iscrizione';
+$_MODULE['<{referralprogram}prestashop>program_8d4e5c2bc4c3cf67d2b59b263a707cb6'] = 'Nessun amico segnalato ha ancora accettato il tuo invito.';
+$_MODULE['<{referralprogram}prestashop>program_0b3db27bc15f682e92ff250ebb167d4b'] = 'Torna al tuo account';
+$_MODULE['<{referralprogram}prestashop>program_8cf04a9734132302f96da8e113e80ce5'] = 'Home';
+$_MODULE['<{referralprogram}prestashop>program_d3d2e617335f08df83599665eef8a418'] = 'Chiudi';
+$_MODULE['<{referralprogram}prestashop>program_7a81aa9275331bb0f5e6adb5e8650a03'] = 'o il tasto Esc';
+$_MODULE['<{referralprogram}prestashop>rules_01705c0177ebf5fbcbf4e882bc454405'] = 'Regole programma di segnalazione';
+$_MODULE['<{referralprogram}prestashop>authentication_6b31baf25848e7a6563ecc3946626c80'] = 'Programma di segnalazione';
+$_MODULE['<{referralprogram}prestashop>authentication_8fdb2298a0db461ac64e71192a562ca1'] = 'Indirizzo email della persona che ti ha segnalato';
+$_MODULE['<{referralprogram}prestashop>my-account_6b31baf25848e7a6563ecc3946626c80'] = 'Programma di segnalazione';
+$_MODULE['<{referralprogram}prestashop>order-confirmation_f2ef523efa8d23f8afc29e195592fc58'] = 'Grazie per il tuo ordine, il tuo amico %1$s %2$s guadagnerà un buono di %3$d quando il tuo ordine sarà confermato.';
+$_MODULE['<{referralprogram}prestashop>shopping-cart_b76b807810393d9fce7f154d82aef1d1'] = 'Hai guadagnato un buono sconto del valore di %s grazie al tuo sponsor!';
+$_MODULE['<{referralprogram}prestashop>shopping-cart_9a5b602be8d9b2d4b8c3f22911fba01d'] = 'Inserisci il nome del tuo buono sconto %s per ricevere uno sconto su questo ordine.';
+$_MODULE['<{referralprogram}prestashop>shopping-cart_6b31baf25848e7a6563ecc3946626c80'] = 'Programma di segnalazione';
+$_MODULE['<{referralprogram}prestashop>shopping-cart_106527986549f3ec8da1ae5a7abde467'] = 'Visualizza il tuo programma di segnalazione.';
+
+
+return $_MODULE;

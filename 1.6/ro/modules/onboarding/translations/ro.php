@@ -1,0 +1,64 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+
+$_MODULE['<{onboarding}prestashop>onboarding_403078410560ac74cd18391f1fbf55fa'] = 'Ghid introductiv';
+$_MODULE['<{onboarding}prestashop>onboarding_76ddbb9f8bbe2624552fd553d0f9d040'] = 'Modulul Ghid Introductiv intampina noii utilizatori in biroul lor administrativ PrestaShop: prin intermediul unei interfete vesele, acesta arata utilizatorului cum sa isi lanseze magazinul in cativa pasi usori.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_c50e83d3857e41ea59189e385d4ed024'] = 'Buna %s, bine ai venit in propriul tau magazin online. [1]Urmeaza acest ghid si fa primii pasi cu magazinul tau online!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_79b0fcd70b51a3065ebbfe7e953eae38'] = 'Vedeti catalogul nostru pentru a obtine o tema noua sau pentru a personaliza tema predefinita actuala. [1]Adauga-ti sigla, joaca-te cu fonturile si culorile... Da-i magazinului tau un aspect special!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_9a12f893e37f0f1fb9fb04bf16a7d78d'] = 'Initiaza-ti catalogul de produse cu un prim produs.[1]Asigura-te ca ai acoperit elementele de baza stabilind pretul acestuia, scriind o descriere atractiva si incarcand o imagine usor de retinut! [1]Daca ai deja baza de produse intr-un fisier .csv, economisiti timpul si fa un import!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_4cf1a5e51827d65ded27c32d4213b12e'] = 'Magazinul tau include modulul Plati PrestaShop de la HiPay, astfel incat sa poti accepta plati prin card chiar acum. Sunt disponibile si alte metode de plata - asigura-te ca ai configurat tot!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_0429b4766bfd2e6540dc3cb5537387ff'] = 'Alege ce metode de plata doresti sa oferi clientilor magazinului tau si administreaza diversele restrictii care se pot aplica (per moneda, tara sau grup de clienti).';
+$_MODULE['<{onboarding}prestashop>backoffice_top_e62f682bcf70125635d8915ea127fe9b'] = 'Daca ai nevoie de mai multe informatii, poti consulta documentatia PrestaShop: clicheaza pe "Ajutor", in coltul din dreapta sus al interfetei de administrare!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_d26019e187250752a24c5f07694bda99'] = 'Ai finalizat primii pasi esentiali pentru a va configura magazinul online. Poti repeta acesti pasi daca ai mai multe produse, metode de plata sau parteneri de transport de adaugat. [1]Pentru a patrunde mai adanc in configuratia magazinului tau, este necesar sa cititi capitolul [2]: "Primii pasi cu PrestaShop 1.6" [/2] din Ghidul utilizatorului de PrestaShop.[1]Odata ce esti sigur ca magazinul tau este gata pentru a va vinde produsele, clicheaza pe butonul "Lanseaza" pentru a deschide magazinul pentru public.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_82269147f55aa394633d8ffab65a8524'] = 'Sa incepem!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_d51786a260fac2376360796f7c79b076'] = 'Totul este in regula, sa-l lansam!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_3eb86a3e1dc693b55502d7391aae5cbf'] = 'Am terminat, du-ma la urmatorul pas';
+$_MODULE['<{onboarding}prestashop>backoffice_top_d592a24b3a6f07d1731cc5e82247ea89'] = 'Faceti un tur: porniti cu PrestaShop';
+$_MODULE['<{onboarding}prestashop>backoffice_top_de01a1b72dcfe775cd72a5ff7af650a9'] = 'Personalizeaza aspectul si functionarea magazinului tau';
+$_MODULE['<{onboarding}prestashop>backoffice_top_28e28cc9b29cb7be024359a92ed55282'] = 'Adauga primele dumneavoastra produse';
+$_MODULE['<{onboarding}prestashop>backoffice_top_9067f937e50eccdb6e7aeaf92cd054e1'] = 'Pregateste-ti magazinul pentru plati';
+$_MODULE['<{onboarding}prestashop>backoffice_top_e2a122121719451136536f8a97406f8a'] = 'Sunteti gata acum sa iti lansezi magazinul.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_587b4c19feb558e98b1b9cbab054c8d6'] = 'Cativa pasi pana la lansare!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_7eeabe2ad5cb52ab41a2760232e5589e'] = 'Sa cream primele dumneavoastra produse';
+$_MODULE['<{onboarding}prestashop>backoffice_top_c88d196f22ac2187d88469d9faaad8fd'] = 'Alege optiunile tale de livrare';
+$_MODULE['<{onboarding}prestashop>backoffice_top_186ec838194777c517b25acc5728ffad'] = 'Uraaa!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_8ace2d742ee0c597260b3d0acbfb37f0'] = '1/4 complet';
+$_MODULE['<{onboarding}prestashop>backoffice_top_07401b0a5880897a0aaddf3f02840d42'] = '2/4 complet';
+$_MODULE['<{onboarding}prestashop>backoffice_top_8fe45aff43af351538b5a09436642467'] = '3/4 complet';
+$_MODULE['<{onboarding}prestashop>backoffice_top_b361b43eb8b02ed09668ee20a0c5dfc7'] = '4/4 complet';
+$_MODULE['<{onboarding}prestashop>backoffice_top_863d165c22d70b710d8340b386476059'] = 'Notiuni elementare de Prestashop';
+$_MODULE['<{onboarding}prestashop>backoffice_top_8537edc13c831abe2ab38ce7f57edb5e'] = 'Personalizeaza-ti magazinul';
+$_MODULE['<{onboarding}prestashop>backoffice_top_ea6fc12147e71d57bdd78ca17ca734ce'] = 'Adauga produse';
+$_MODULE['<{onboarding}prestashop>backoffice_top_e8907cbf554073d2b2edca1196a32533'] = 'Configureaza platile';
+$_MODULE['<{onboarding}prestashop>backoffice_top_3ebc767d6b3a2251fcef53c51c253827'] = 'Nu, multumesc!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_7c7ca9fcc594f7ee55caa299a2afe0f5'] = 'Dati-i magazinului propria identitate bazata pe identitatea vizuala a firmei tale.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_ddd3ed3987ae409ab3aa41bb608254e6'] = 'Aveti posibilitatea de a modifica tema sau de a instala una noua; asigura-te ca ai incarcat propriul logo pentru a face magazin cu adevarat unic.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_0ea7a6aae70efc93aee629e0ba7ba864'] = 'Bine, du-ma la tema mea';
+$_MODULE['<{onboarding}prestashop>backoffice_top_0f03d5ce51612c788f8add6d37f65eb9'] = 'Continua editarea';
+$_MODULE['<{onboarding}prestashop>backoffice_top_f2a25700f353028e282a4c13e89f3932'] = 'Adauga produse in catalogul dumneavoatra';
+$_MODULE['<{onboarding}prestashop>backoffice_top_88878b5385fec8a0d075e469b57ad0f1'] = 'Initiaza-ti catalogul de produse cu un prim produs.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_7b98227ffa8c57c1b7cedfb6065833b4'] = 'Asigura-te ca ai acoperit elementele de baza stabilind pretul acestuia, scriind o descriere atractiva si incarcand o imagine memorabila!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_e684454ccd86011ad208c4d78bbd7861'] = 'Daca deja ai baza ta de produse intr-un fisier .csv, economisiti timp efectuand un import!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_30ae23ab5d1b9b02aeac19255cb4bbf8'] = 'Bine, acceseaza catalogul meu';
+$_MODULE['<{onboarding}prestashop>backoffice_top_af72bbd773d9516f0b4b0f56c7f88be4'] = 'Continua adaugarea produselor';
+$_MODULE['<{onboarding}prestashop>backoffice_top_8497f6af90ba868416219ad993db929e'] = 'Configureaza-ti metodele de plata';
+$_MODULE['<{onboarding}prestashop>backoffice_top_72b6798bba9dcd1a791794993d420176'] = 'Arata-mi metodele de plata';
+$_MODULE['<{onboarding}prestashop>backoffice_top_96ae5a401a41ca3d9a6d57618021d9ee'] = 'Continua selectarea metodelor de plata';
+$_MODULE['<{onboarding}prestashop>backoffice_top_a76f0bf03508b84c2bf7f9e3282eb097'] = 'Configureaza-ti metodele de livrare';
+$_MODULE['<{onboarding}prestashop>backoffice_top_60037e39c43a94445bd3e0d8d7ec38f3'] = 'Daca nu vindeti numai produse virtuale, trebuie sa iti inregistrezi partenerii de transport in PrestaShop.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_9cec8ecea187a33fd3df36d40c14c702'] = 'Fara aceasta, clientii nu vor putea sa se bucure de produsele tale!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_37068a6beef3631c2eb656eff27d2549'] = 'Sa vedem informatiile despre transport';
+$_MODULE['<{onboarding}prestashop>backoffice_top_c78edf2d54662ed96f41752e05a981bc'] = 'Continua selectarea metodelor de transport';
+$_MODULE['<{onboarding}prestashop>backoffice_top_9506f0fd0f7f1b07960b15b4c9e68d1a'] = 'Lanseaza';
+$_MODULE['<{onboarding}prestashop>backoffice_top_b70150e16be1e1fdc7bc9f706bfe5f2c'] = 'Sari peste instructiuni';
+$_MODULE['<{onboarding}prestashop>backoffice_top_d03e44872879b8a258b6b65973aceb88'] = 'Ultimul pas inainte de lansare!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_26ef476ae1184dd26c0f68c3891bdbe7'] = 'Esti pregatit!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_48fac01462229af90e4a4af28d671d13'] = 'Au mai ramas numai %s pasi pana la lansare!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_c1230cc7fd7b733996ff1342c852de26'] = 'Acum esti gata sa iti lansezi magazinul. Daca ai nevoie de mai multe informatii, inca mai poti consulta documentatia PrestaShop:';
+$_MODULE['<{onboarding}prestashop>backoffice_top_74d6651537f0fcd4184b612ee5950343'] = 'apasa pe "Ajutor", in coltul din dreapta sus al interfetei de administrare!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_01793ff8582acbe351310a6bf5d070a1'] = 'Tocmai mi-am lansat magazinul online cu @PrestaShop. Incearca-l!';
+
+
+return $_MODULE;

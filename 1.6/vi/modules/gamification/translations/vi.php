@@ -1,0 +1,67 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_ca96b4f8d13722aac99da25f94ea1711'] = 'Giám định bán hàng của bạn';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_7258e7251413465e0a3eb58094430bde'] = 'Quản trị';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_3d4aafb2eedeba2fbf92e852f0af745a'] = 'Giám định việc bán hàng';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_98f770b0af18ca763421bac22b4b6805'] = 'Tính năng';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_f5c7922da355fd289ec1d6469e0583a7'] = 'Thành tựu';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_8189ecf686157db0c0274c1f49373318'] = 'Quốc tế';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_851f12a0c936baace7f0e734d5c624e7'] = '1. Khởi đầu';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_583981a16ea761fe852b64094d8a887e'] = '2. Chuyên nghiệp';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_38f7af7416ffcd1524d8a4acda756cbf'] = '3. Chuyên gia';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_e7613fe56cdbeddfc9bb6276fd0f0d12'] = '4. Hướng dẫn';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_8d03eaad7ff7babdd33c2c74fe479ed0'] = '5. Guru';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_e4be4f3e3ae4ee9dda6b60815bf774c1'] = '6. Legend';
+$_MODULE['<{gamification}prestashop>gamification_3d4aafb2eedeba2fbf92e852f0af745a'] = 'Giám định việc bán hàng';
+$_MODULE['<{gamification}prestashop>gamification_bacc1bf300527bad9c6ac2d3b875a8d8'] = 'Trở thành một chuyên gia thương mại điện tử trong chớp mắt!';
+$_MODULE['<{gamification}prestashop>filters_bt_e659b52eba1f0299b2d8ca3483919e72'] = 'Loại:';
+$_MODULE['<{gamification}prestashop>filters_bt_b1c94ca2fbc3e78fc30069c8d0f01680'] = 'Tất cả';
+$_MODULE['<{gamification}prestashop>filters_bt_24a23d787190f2c4812ff9ab11847a72'] = 'Trạng thái:';
+$_MODULE['<{gamification}prestashop>filters_bt_5364259abab90e94890f2ed2481b9824'] = 'Xác nhận';
+$_MODULE['<{gamification}prestashop>filters_bt_dc450ba947e6adecbdbe68c25de03a1b'] = 'Không xác nhận';
+$_MODULE['<{gamification}prestashop>filters_bt_07ad815187b53dc2ceaf5ad6e0a12bb1'] = 'Mức độ:';
+$_MODULE['<{gamification}prestashop>filters_e659b52eba1f0299b2d8ca3483919e72'] = 'Loại:';
+$_MODULE['<{gamification}prestashop>filters_b1c94ca2fbc3e78fc30069c8d0f01680'] = 'Tất cả';
+$_MODULE['<{gamification}prestashop>filters_24a23d787190f2c4812ff9ab11847a72'] = 'Trạng thái:';
+$_MODULE['<{gamification}prestashop>filters_5364259abab90e94890f2ed2481b9824'] = 'Xác nhận';
+$_MODULE['<{gamification}prestashop>filters_dc450ba947e6adecbdbe68c25de03a1b'] = 'Không xác nhận';
+$_MODULE['<{gamification}prestashop>filters_07ad815187b53dc2ceaf5ad6e0a12bb1'] = 'Mức độ:';
+$_MODULE['<{gamification}prestashop>view_bt_a0db49ba470c1c9ae2128c3470339153'] = 'Mức độ';
+$_MODULE['<{gamification}prestashop>view_bt_2a0ab6a9172272d54f0d601b0ac157f3'] = 'Trở thành một chuyên gia thương mại điện tử trong nhảy vọt!';
+$_MODULE['<{gamification}prestashop>view_bt_5cf06184f524aad72c14d3ec5d325c56'] = 'Với tất cả các tính năng tuyệt vời và những lợi ích mà PrestaShop cung cấp, điều quan trọng là phải theo kịp!';
+$_MODULE['<{gamification}prestashop>view_bt_2c3193c85bb2555c333adfcfb824804a'] = 'Mục tiêu chính của tất cả các tính năng cung cấp cho chúng tôi là làm cho bạn thành công trong thế giới thương mại điện tử. Để thực hiện điều này, chúng tôi đã được tạo một hệ thống phù hiệu và các điểm mà làm cho nó dễ dàng để theo dõi sự tiến bộ của bạn như là một thương gia. Chúng tôi đã chia nhỏ hệ thống thành ba cấp độ, tất cả trong số đó là không thể thiếu để thành công trong thương mại điện tử thế giới: (i) Việc bạn sử dụng tính năng thương mại điện tử chủ chốt trên cửa hàng của bạn; (ii) hoạt động bán hàng của bạn; (iii) sự hiện diện của bạn trong thị trường quốc tế.';
+$_MODULE['<{gamification}prestashop>view_bt_6b766dc388ad21053bde0f8fd95d1e04'] = 'Càng tiến bộ cửa hàng của bạn làm, các phù hiệu hơn và điểm bạn kiếm được. Không cần phải nộp thêm bất cứ thông tin hoặc điền vào bất kỳ hình thức nào; chúng tôi biết bạn đang bận rộn như thế nào, mọi thứ đều tự động!';
+$_MODULE['<{gamification}prestashop>view_bt_21dc1cfc9ef1cdfbb665cab323d5e1a9'] = 'Bây giờ, với các bấm vào một nút, bạn sẽ có thể xem các tính năng bán hàng-Tăng cường mà bạn có thể bỏ lỡ. Hãy tận dụng và kiểm tra xem nó ra dưới đây!';
+$_MODULE['<{gamification}prestashop>view_bt_bcc5a331e758a60ad298b4b18a26d0e0'] = 'Nhóm chúng tôi là sẵn sàng giúp đỡ. Liên hệ ngay hôm nay!';
+$_MODULE['<{gamification}prestashop>view_bt_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'Hộp thư';
+$_MODULE['<{gamification}prestashop>view_bt_7d6d8e6610fd23b684be7e95a6cc5c39'] = 'Điền vào mẫu liên hệ';
+$_MODULE['<{gamification}prestashop>view_bt_6b6ac7834d96afefbca5677814769109'] = 'Hoàn thành cấp độ';
+$_MODULE['<{gamification}prestashop>view_bt_82338dd23ce2fd2f6d3606c20f4ee96e'] = 'Không có huy hiệu trong phần này';
+$_MODULE['<{gamification}prestashop>view_a0db49ba470c1c9ae2128c3470339153'] = 'Mức độ';
+$_MODULE['<{gamification}prestashop>view_2a0ab6a9172272d54f0d601b0ac157f3'] = 'Trở thành một chuyên gia thương mại điện tử trong nhảy vọt!';
+$_MODULE['<{gamification}prestashop>view_5cf06184f524aad72c14d3ec5d325c56'] = 'Với tất cả các tính năng tuyệt vời và những lợi ích mà PrestaShop cung cấp, điều quan trọng là phải theo kịp!';
+$_MODULE['<{gamification}prestashop>view_2c3193c85bb2555c333adfcfb824804a'] = 'Mục tiêu chính của tất cả các tính năng cung cấp cho chúng tôi là làm cho bạn thành công trong thế giới thương mại điện tử. Để thực hiện điều này, chúng tôi đã được tạo một hệ thống phù hiệu và các điểm mà làm cho nó dễ dàng để theo dõi sự tiến bộ của bạn như là một thương gia. Chúng tôi đã chia nhỏ hệ thống thành ba cấp độ, tất cả trong số đó là không thể thiếu để thành công trong thương mại điện tử thế giới: (i) Việc bạn sử dụng tính năng thương mại điện tử chủ chốt trên cửa hàng của bạn; (ii) hoạt động bán hàng của bạn; (iii) sự hiện diện của bạn trong thị trường quốc tế.';
+$_MODULE['<{gamification}prestashop>view_6b766dc388ad21053bde0f8fd95d1e04'] = 'Càng tiến bộ cửa hàng của bạn làm, các phù hiệu hơn và điểm bạn kiếm được. Không cần phải nộp thêm bất cứ thông tin hoặc điền vào bất kỳ hình thức nào; chúng tôi biết bạn đang bận rộn như thế nào, mọi thứ đều tự động!';
+$_MODULE['<{gamification}prestashop>view_21dc1cfc9ef1cdfbb665cab323d5e1a9'] = 'Bây giờ, với các bấm vào một nút, bạn sẽ có thể xem các tính năng bán hàng-Tăng cường mà bạn có thể bỏ lỡ. Hãy tận dụng và kiểm tra xem nó ra dưới đây!';
+$_MODULE['<{gamification}prestashop>view_bcc5a331e758a60ad298b4b18a26d0e0'] = 'Nhóm chúng tôi là sẵn sàng giúp đỡ. Liên hệ ngay hôm nay!';
+$_MODULE['<{gamification}prestashop>view_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'Hộp thư';
+$_MODULE['<{gamification}prestashop>view_7d6d8e6610fd23b684be7e95a6cc5c39'] = 'Điền vào mẫu liên hệ';
+$_MODULE['<{gamification}prestashop>view_6b6ac7834d96afefbca5677814769109'] = 'Hoàn thành cấp độ';
+$_MODULE['<{gamification}prestashop>view_82338dd23ce2fd2f6d3606c20f4ee96e'] = 'Không có huy hiệu trong phần này';
+$_MODULE['<{gamification}prestashop>notification_bt_a0db49ba470c1c9ae2128c3470339153'] = 'Mức độ';
+$_MODULE['<{gamification}prestashop>notification_bt_6153e612347ad743d65e4bbf06a2e404'] = 'Bạn có thực sự muốn ẩn lời khuyên này?';
+$_MODULE['<{gamification}prestashop>notification_bt_ca96b4f8d13722aac99da25f94ea1711'] = 'Giám định bán hàng của bạn';
+$_MODULE['<{gamification}prestashop>notification_bt_16a1daea9e8873542aec1e820798aa44'] = 'Huy hiệu cuối :';
+$_MODULE['<{gamification}prestashop>notification_bt_15377177c0259c6f79341cc57da13f19'] = 'Huy hiệu tiếp theo :';
+$_MODULE['<{gamification}prestashop>notification_bt_f8978f781f97e6f851e9c8f7059c37b2'] = 'Xem hồ sơ hoàn chỉnh của tôi';
+$_MODULE['<{gamification}prestashop>notification_a0db49ba470c1c9ae2128c3470339153'] = 'Mức độ';
+$_MODULE['<{gamification}prestashop>notification_ca96b4f8d13722aac99da25f94ea1711'] = 'Giám định bán hàng của bạn';
+$_MODULE['<{gamification}prestashop>notification_16a1daea9e8873542aec1e820798aa44'] = 'Huy hiệu cuối :';
+$_MODULE['<{gamification}prestashop>notification_15377177c0259c6f79341cc57da13f19'] = 'Huy hiệu tiếp theo :';
+$_MODULE['<{gamification}prestashop>notification_f8978f781f97e6f851e9c8f7059c37b2'] = 'Xem hồ sơ hoàn chỉnh của tôi';
+
+
+return $_MODULE;

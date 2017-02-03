@@ -1,0 +1,64 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+
+$_MODULE['<{onboarding}prestashop>onboarding_403078410560ac74cd18391f1fbf55fa'] = 'Oryantasyon';
+$_MODULE['<{onboarding}prestashop>onboarding_76ddbb9f8bbe2624552fd553d0f9d040'] = 'Oryantasyon modülü ilk kez PrestaShop yönetim paneli ile tanışan müşterileri küçük eğlenceli bir arayüz üzerinden karşılar, kullanıcılara birkaç kolay adımda bir mağaza oluşturulması için neler yapılması gerektiğini gösterir.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_c50e83d3857e41ea59189e385d4ed024'] = 'Selam %s, kendi çevrimiçi mağazanıza hoş geldiniz.[1]Çevrimiçi mağaza ile ilgili ilk adımlar için kılavuzu izleyin!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_79b0fcd70b51a3065ebbfe7e953eae38'] = 'Yeni bir tema edinmek veya mevcut temanızı özelleştirmek için kataloğumuzu inceleyin.[1]Logonuzu ekleyin, yazı tipi ve renklerle oynayın... Mağazanıza özel bir görünüm kazandırın!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_9a12f893e37f0f1fb9fb04bf16a7d78d'] = 'İlk ürününüzle birlikte ürün kataloğunuzu oluşturmaya başlayın.[1]Fiyat belirleyerek, etkili bir açıklama girerek ve akılda kalıcı bir resim ekleyerek en temel adımları kapsadığınızdan emin olun![1] Eğer ürün bilgilerini içeren bir .CSV dosyanız varsa, zaman kazanın ve bu dosyayı içe aktarın!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_4cf1a5e51827d65ded27c32d4213b12e'] = 'Mağazanız HiPay tarafından sağlanan PrestaShop Ödemeleri ile çalışır, böylece hali hazırda kart ödemelerini kabul edebilirsiniz. Diğer ödeme yöntemleri de mevcuttur, her şeyi ayarladığınızdan emin olun!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_0429b4766bfd2e6540dc3cb5537387ff'] = 'Mağazanızda müşterilerinize sunacağınız ödeme yöntemlerini seçin, ve uygulayabileceğiniz çeşitli kısıtlamaları ayarlayın (her bir para birimi, ülke ya da müşteri grubu için).';
+$_MODULE['<{onboarding}prestashop>backoffice_top_e62f682bcf70125635d8915ea127fe9b'] = 'Daha fazla bilgiye ihtiyaç duyuyorsanız, PrestaShop Belgelerini inceleyebilirsiniz: Yönetim Paneli\'nin sağ üst köşesindeki "Yardım" düğmesine tıklayın!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_d26019e187250752a24c5f07694bda99'] = 'Çevrimiçi mağazanızı yapılandırmak için gereken tüm temel adımları tamamladınız. Eğer eklemek istediğiniz daha fazla ürün, ödeme yöntemi veya kargo firması varsa bu adımları tekrarlayabilirsiniz.[1]Mağazanızın daha detaylı yapılandırılması için PrestaShop Kullanıcı kılavuzundaki [2]"PrestaShop 1.6 ile ilk adımlar"[/2] bölümünü incelemelisiniz.[1] Mağazanın, ürünlerinizin satışı için hazır olduğundan emin olduğunuzda, mağazanızı yayınlamak için Başla düğmesini tıklayın.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_82269147f55aa394633d8ffab65a8524'] = 'Haydi başlayalım!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_d51786a260fac2376360796f7c79b076'] = 'Ben hazırım, haydi başlatalım!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_3eb86a3e1dc693b55502d7391aae5cbf'] = 'Tamamladım, sonraki adıma geçelim';
+$_MODULE['<{onboarding}prestashop>backoffice_top_d592a24b3a6f07d1731cc5e82247ea89'] = 'Tura katılın: PrestaShop ile başlamak';
+$_MODULE['<{onboarding}prestashop>backoffice_top_de01a1b72dcfe775cd72a5ff7af650a9'] = 'Mağazanızın görünümünü özelleştirin';
+$_MODULE['<{onboarding}prestashop>backoffice_top_28e28cc9b29cb7be024359a92ed55282'] = 'İlk ürünlerinizi ekleyin';
+$_MODULE['<{onboarding}prestashop>backoffice_top_9067f937e50eccdb6e7aeaf92cd054e1'] = 'Mağazanızı ödeme almak için hazırlayın';
+$_MODULE['<{onboarding}prestashop>backoffice_top_e2a122121719451136536f8a97406f8a'] = 'Artık mağazanızı açmaya hazırsınız.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_587b4c19feb558e98b1b9cbab054c8d6'] = 'Başlamadan önce bir kaç adım!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_7eeabe2ad5cb52ab41a2760232e5589e'] = 'Haydi, ilk ürünlerinizi oluşturalım';
+$_MODULE['<{onboarding}prestashop>backoffice_top_c88d196f22ac2187d88469d9faaad8fd'] = 'Teslimat seçeneklerinizi seçin';
+$_MODULE['<{onboarding}prestashop>backoffice_top_186ec838194777c517b25acc5728ffad'] = 'Yaşasın!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_8ace2d742ee0c597260b3d0acbfb37f0'] = '1/4 tamamlandı';
+$_MODULE['<{onboarding}prestashop>backoffice_top_07401b0a5880897a0aaddf3f02840d42'] = '2/4 tamamlandı';
+$_MODULE['<{onboarding}prestashop>backoffice_top_8fe45aff43af351538b5a09436642467'] = '3/4 tamamlandı';
+$_MODULE['<{onboarding}prestashop>backoffice_top_b361b43eb8b02ed09668ee20a0c5dfc7'] = '4/4 tamamlandı';
+$_MODULE['<{onboarding}prestashop>backoffice_top_863d165c22d70b710d8340b386476059'] = 'PrestaShop ile Başlarken';
+$_MODULE['<{onboarding}prestashop>backoffice_top_8537edc13c831abe2ab38ce7f57edb5e'] = 'Mağazanızı özelleştirin';
+$_MODULE['<{onboarding}prestashop>backoffice_top_ea6fc12147e71d57bdd78ca17ca734ce'] = 'Ürünler ekle';
+$_MODULE['<{onboarding}prestashop>backoffice_top_e8907cbf554073d2b2edca1196a32533'] = 'Ödeme yöntemlerini yapılandır';
+$_MODULE['<{onboarding}prestashop>backoffice_top_3ebc767d6b3a2251fcef53c51c253827'] = 'Hayır teşekkürler!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_7c7ca9fcc594f7ee55caa299a2afe0f5'] = 'Mağazanıza, markanıza dayalı kendi kimliğini kazandırın.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_ddd3ed3987ae409ab3aa41bb608254e6'] = 'Temanızı değiştirebilir veya yeni bir tema yükleyebilirsiniz, mağazanızı gerçekten benzersiz yapmak için kendi logonuzu yüklediğinizden emin olun.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_0ea7a6aae70efc93aee629e0ba7ba864'] = 'Tamam, beni temama götür';
+$_MODULE['<{onboarding}prestashop>backoffice_top_0f03d5ce51612c788f8add6d37f65eb9'] = 'Düzenlemeye devam et';
+$_MODULE['<{onboarding}prestashop>backoffice_top_f2a25700f353028e282a4c13e89f3932'] = 'Kataloğunuza ürünler ekleyin';
+$_MODULE['<{onboarding}prestashop>backoffice_top_88878b5385fec8a0d075e469b57ad0f1'] = 'İlk ürününüzle birlikte ürün kataloğunuzu oluşturmaya başlayın.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_7b98227ffa8c57c1b7cedfb6065833b4'] = 'Fiyat belirleyerek, etkili bir açıklama girerek ve akılda kalıcı bir resim ekleyerek en temel adımları kapsadığınızdan emin olun!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_e684454ccd86011ad208c4d78bbd7861'] = 'Eğer ürün bilgilerini içeren bir .CSV dosyanız varsa, zaman kazanın ve bu dosyayı içe aktarın!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_30ae23ab5d1b9b02aeac19255cb4bbf8'] = 'Tamam, Kataloğuma git';
+$_MODULE['<{onboarding}prestashop>backoffice_top_af72bbd773d9516f0b4b0f56c7f88be4'] = 'Ürün eklemeye devam et';
+$_MODULE['<{onboarding}prestashop>backoffice_top_8497f6af90ba868416219ad993db929e'] = 'Ödeme yöntemlerinizi ayarlayın';
+$_MODULE['<{onboarding}prestashop>backoffice_top_72b6798bba9dcd1a791794993d420176'] = 'Ödeme yöntemlerini göster';
+$_MODULE['<{onboarding}prestashop>backoffice_top_96ae5a401a41ca3d9a6d57618021d9ee'] = 'Ödeme yöntemlerini seçmeye devam et';
+$_MODULE['<{onboarding}prestashop>backoffice_top_a76f0bf03508b84c2bf7f9e3282eb097'] = 'Teslimat yöntemlerinizi ayarlayın';
+$_MODULE['<{onboarding}prestashop>backoffice_top_60037e39c43a94445bd3e0d8d7ec38f3'] = 'Sadece sanal ürünler satmıyorsanız, PrestaShop içinde kullanılacak karo firmalarınızı belirlemeniz gerekir.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_9cec8ecea187a33fd3df36d40c14c702'] = 'Bu olmadan müşterileriniz ürünlerinizden keyif almayacaktır!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_37068a6beef3631c2eb656eff27d2549'] = 'Nakliye ile ilgili bilgilere bakalım';
+$_MODULE['<{onboarding}prestashop>backoffice_top_c78edf2d54662ed96f41752e05a981bc'] = 'Nakliye yöntemlerini seçmeye devam et';
+$_MODULE['<{onboarding}prestashop>backoffice_top_9506f0fd0f7f1b07960b15b4c9e68d1a'] = 'Başlat';
+$_MODULE['<{onboarding}prestashop>backoffice_top_b70150e16be1e1fdc7bc9f706bfe5f2c'] = 'Öğreticiyi Atla';
+$_MODULE['<{onboarding}prestashop>backoffice_top_d03e44872879b8a258b6b65973aceb88'] = 'Başlamadan önce son adım!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_26ef476ae1184dd26c0f68c3891bdbe7'] = 'Her şeyi ayarladınız!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_48fac01462229af90e4a4af28d671d13'] = 'Başlamanıza sadece %s adım kaldı!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_c1230cc7fd7b733996ff1342c852de26'] = 'Şimdi mağazanızı yayınlamaya hazırsınız. Daha fazla bilgiye ihtiyaç duyuyorsanız, PrestaShop Belgelerini inceleyebilirsiniz:';
+$_MODULE['<{onboarding}prestashop>backoffice_top_74d6651537f0fcd4184b612ee5950343'] = 'yönetim panelinin sağ üst köşesindeki "Yardım" düğmesine tıklayın!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_01793ff8582acbe351310a6bf5d070a1'] = 'Çevrim içi mağazamı @PrestaShop ile açtım. Bir bakın isterseniz!';
+
+
+return $_MODULE;

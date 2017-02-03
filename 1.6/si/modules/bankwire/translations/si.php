@@ -1,0 +1,60 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+
+$_MODULE['<{bankwire}prestashop>bankwire_05adcee99142c1a60fb38bb1330bbbc1'] = 'Bančno nakazilo';
+$_MODULE['<{bankwire}prestashop>bankwire_a246a8e9907530c4c36b8b4c37bbc823'] = 'Prejmi plačila za izdelke z bančnim nakazilom.';
+$_MODULE['<{bankwire}prestashop>bankwire_cbe0a99684b145e77f3e14174ac212e3'] = 'Ali želite izbrisati vaše podrobnosti?';
+$_MODULE['<{bankwire}prestashop>bankwire_0ea0227283d959415eda0cfa31d9f718'] = 'Lastnik računa in podrobnosti morajo biti vpisane, če želite uporabljati ta modul pravilno';
+$_MODULE['<{bankwire}prestashop>bankwire_a02758d758e8bec77a33d7f392eb3f8a'] = 'Ni nastavljene valute za ta modul';
+$_MODULE['<{bankwire}prestashop>bankwire_bfa43217dfe8261ee7cb040339085677'] = 'Podrobnosti računa so zahtevane';
+$_MODULE['<{bankwire}prestashop>bankwire_ccab155f173ac76f79eb192703f86b18'] = 'Lastnik računa je zahtevan.';
+$_MODULE['<{bankwire}prestashop>bankwire_c888438d14855d7d96a2724ee9c306bd'] = 'Nastavitve posodobljene';
+$_MODULE['<{bankwire}prestashop>bankwire_4ffaad55a1d22c453e7c9bad67b0598f'] = 'Plačaj preko bančnega nakazila';
+$_MODULE['<{bankwire}prestashop>bankwire_5dd532f0a63d89c5af0243b74732f63c'] = 'Kontaktni podatki';
+$_MODULE['<{bankwire}prestashop>bankwire_857216dd1b374de9bf54068fcd78a8f3'] = 'Lastnik računa';
+$_MODULE['<{bankwire}prestashop>bankwire_3ec365dd533ddb7ef3d1c111186ce872'] = 'Podrobnosti';
+$_MODULE['<{bankwire}prestashop>bankwire_6b154cafbab54ba3a1e76a78c290c02a'] = 'Kot so izpostava banke, IBAN, BIC, itd.';
+$_MODULE['<{bankwire}prestashop>bankwire_f9a1a1bb716cbae0503d351ea2af4b34'] = 'Naslov banke';
+$_MODULE['<{bankwire}prestashop>bankwire_c9cc8cce247e49bae79f15173ce97354'] = 'Shrani';
+$_MODULE['<{bankwire}prestashop>validation_e2b7dec8fa4b498156dfee6e4c84b156'] = 'Ta plačilna metoda ni na voljo.';
+$_MODULE['<{bankwire}prestashop>payment_execution_644818852b4dd8cf9da73543e30f045a'] = 'Pojdi nazaj na blagajno';
+$_MODULE['<{bankwire}prestashop>payment_execution_6ff063fbc860a79759a7369ac32cee22'] = 'Nakup';
+$_MODULE['<{bankwire}prestashop>payment_execution_511e8b930b4d3d6002984c0373eb6d4b'] = 'Plačilo z bančnim nakazilom';
+$_MODULE['<{bankwire}prestashop>payment_execution_f1d3b424cd68795ecaa552883759aceb'] = 'Povzetek naročila';
+$_MODULE['<{bankwire}prestashop>payment_execution_879f6b8877752685a966564d072f498f'] = 'Vaša spletna košarica je prazna.';
+$_MODULE['<{bankwire}prestashop>payment_execution_05adcee99142c1a60fb38bb1330bbbc1'] = 'Bančno nakazilo';
+$_MODULE['<{bankwire}prestashop>payment_execution_afda466128ee0594745d9f8152699b74'] = 'Izbrali ste plačilo z bančnim nakazilom.';
+$_MODULE['<{bankwire}prestashop>payment_execution_c884ed19483d45970c5bf23a681e2dd2'] = 'Tu je kratek povzetek vašega naročila:';
+$_MODULE['<{bankwire}prestashop>payment_execution_e2867a925cba382f1436d1834bb52a1c'] = 'Skupni znesek vašega naročila je';
+$_MODULE['<{bankwire}prestashop>payment_execution_1f87346a16cf80c372065de3c54c86d9'] = '(z davkom)';
+$_MODULE['<{bankwire}prestashop>payment_execution_b28be4c423d93e02081f4e79fe2434e8'] = 'Pri plačilu z bančnim nakazilom sprejemamo različne valute.';
+$_MODULE['<{bankwire}prestashop>payment_execution_a7a08622ee5c8019b57354b99b7693b2'] = 'Izberite eno izmed sledečih:';
+$_MODULE['<{bankwire}prestashop>payment_execution_a854d894458d66d92cabf0411c499ef4'] = 'Pri plačilu z bančnim nakazilom sprejemamo sledečo valuto:';
+$_MODULE['<{bankwire}prestashop>payment_execution_3dd021316505c0204989f984246c6ff1'] = 'Podatki o bančnem računu za nakazilo bodo prikazani na naslednji strani.';
+$_MODULE['<{bankwire}prestashop>payment_execution_edd87c9059d88fea45c0bd6384ce92b9'] = 'Prosimo, potrdite vaše naročilo s klikom na "Potrjujem naročilo".';
+$_MODULE['<{bankwire}prestashop>payment_execution_46b9e3665f187c739c55983f757ccda0'] = 'Potrjujem naročilo';
+$_MODULE['<{bankwire}prestashop>payment_execution_569fd05bdafa1712c4f6be5b153b8418'] = 'Ostali načini plačila';
+$_MODULE['<{bankwire}prestashop>infos_c1be305030739396775edaca9813f77d'] = 'Ta modul vam omogoča da sprejemate plačila z bančnim nakazilom.';
+$_MODULE['<{bankwire}prestashop>infos_60742d06006fde3043c77e6549d71a99'] = 'Če kupec izbere plačilo z bančnim nakazilom, bo stanje naročila spremenjeno v "Čakanje na plačilo."';
+$_MODULE['<{bankwire}prestashop>infos_5fb4bbf993c23848433caf58e6b2816d'] = 'Zato boste morali ročno potrditi naročilo, takoj ko prejmete naročilo.';
+$_MODULE['<{bankwire}prestashop>payment_return_88526efe38fd18179a127024aba8c1d7'] = 'Vaše naročilo %s je zaključeno.';
+$_MODULE['<{bankwire}prestashop>payment_return_1f8cdc30326f1f930b0c87b25fdac965'] = 'Pošljite nam bančno nakazilo z:';
+$_MODULE['<{bankwire}prestashop>payment_return_b2f40690858b404ed10e62bdf422c704'] = 'Znesek';
+$_MODULE['<{bankwire}prestashop>payment_return_5ca0b1b910f393ed1f9f6fa99e414255'] = 'na lastnika računa';
+$_MODULE['<{bankwire}prestashop>payment_return_d717aa33e18263b8405ba00e94353cdc'] = 'Številka transakcijskega računa';
+$_MODULE['<{bankwire}prestashop>payment_return_984482eb9ff11e6310fef641d2268a2a'] = 'Naziv banke';
+$_MODULE['<{bankwire}prestashop>payment_return_bb4ec5aac6864a05fcc220cccd8e82f9'] = 'Ne pozabite vpisati številke naročila #%d kot sklic pri nakazilu.';
+$_MODULE['<{bankwire}prestashop>payment_return_1faa25b80a8d31e5ef25a78d3336606d'] = 'Ne pozabite vstaviti vaše številke naročila %s v namen vašega bančnega nakazila.';
+$_MODULE['<{bankwire}prestashop>payment_return_19c419a8a4f1cd621853376a930a2e24'] = 'Poslano vam je bilo E-poštno sporočilo s temi podatki.';
+$_MODULE['<{bankwire}prestashop>payment_return_b9a1cae09e5754424e33764777cfcaa0'] = 'Vaše naročilo bo odposlano, ko prejmemo vaše nakazilo.';
+$_MODULE['<{bankwire}prestashop>payment_return_ca7e41a658753c87973936d7ce2429a8'] = 'Za vprašanja in nadaljne informacije se obrnite na našo';
+$_MODULE['<{bankwire}prestashop>payment_return_66fcf4c223bbf4c7c886d4784e1f62e4'] = 'strokovno ekipo za podporo uporabnikom';
+$_MODULE['<{bankwire}prestashop>payment_return_d15feee53d81ea16269e54d4784fa123'] = 'Opazili smo težavo pri vašem naročilu. Če mislite da je to napaka, se obrnite na našo';
+$_MODULE['<{bankwire}prestashop>payment_5e1695822fc5af98f6b749ea3cbc9b4c'] = 'Plačilo z bančnim nakazilom';
+$_MODULE['<{bankwire}prestashop>payment_4e1fb9f4b46556d64db55d50629ee301'] = '(proces naročila bo daljši)';
+$_MODULE['<{bankwire}prestashop>payment_return_decce112a9e64363c997b04aa71b7cb8'] = 'službo za pomoč uporabnikom';
+
+
+return $_MODULE;

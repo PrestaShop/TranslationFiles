@@ -1,0 +1,64 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+
+$_MODULE['<{onboarding}prestashop>onboarding_403078410560ac74cd18391f1fbf55fa'] = 'Wprowadzenie';
+$_MODULE['<{onboarding}prestashop>onboarding_76ddbb9f8bbe2624552fd553d0f9d040'] = 'Moduł ten wprowadza początkujących użytkowników PrestaShop do ich zaplecza: przez mały zabawny interfejs, pokazuje użytkownikowi, jak uruchomić sklep w kilku prostych krokach.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_c50e83d3857e41ea59189e385d4ed024'] = 'Cześć %s, zapraszamy do swojego własnego sklepu internetowego.[1] Postępuj zgodnie z instrukcjami i podejmij pierwsze kroki w sklepie internetowym!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_79b0fcd70b51a3065ebbfe7e953eae38'] = 'Sprawdź nasz katalog by pobrać nowy szablon lub dostosuj domyślny motyw.[1]Dodaj logo, ustaw czcionki i kolory... Stwórz niepowtarzalny wygląd sklepu!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_9a12f893e37f0f1fb9fb04bf16a7d78d'] = 'Rozpocznij swój katalog produktów od pierwszego produktu.[1]Upewnij się, że wypełniłeś podstawowe ustawienia jak cena, ładny opis i przesłałeś chwytliwe zdjęcia![1]Jeśli masz już swoją bazę produktów w pliku CSV, zaoszczędź czas i zrób import!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_4cf1a5e51827d65ded27c32d4213b12e'] = 'Twój sklep PrestaShop działa z płatnościami dokonywanymi przez Hipay, tak, że od razu można przyjmować płatności kartą. Istnieją również inne sposoby płatności. Upewnij się, że dokonałeś niezbędnych ustawień!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_0429b4766bfd2e6540dc3cb5537387ff'] = 'Wybierz, które metody płatność chcesz zaoferować klientom na sklepie i ustaw różne ograniczenia, które można zastosować (na waluty, kraj lub grupy klientów).';
+$_MODULE['<{onboarding}prestashop>backoffice_top_e62f682bcf70125635d8915ea127fe9b'] = 'Jeśli potrzebujesz więcej informacji, możesz jeszcze spojrzeć na dokumentacje PrestaShop: kliknij na "Pomoc" w prawym górnym rogu zaplecza!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_d26019e187250752a24c5f07694bda99'] = 'Wykonałeś wszystkie istotne pierwsze kroki, aby skonfigurować swój sklep internetowy. Jeśli masz więcej produktów, formy płatności lub przewoźników do dodania możesz powtarzać te czynności.[1]Aby zagłębić się głębiej w konfiguracje sklepu, należy przeczytać [2]"Pierwsze kroki z PrestaShop 1.6"[/2] rozdział podręcznika użytkownika PrestaShop.[1]Gdy masz pewność że Twój sklep jest gotowy do sprzedaży swoich produktów, kliknij przycisk Uruchom, aby Twój sklep był dostępny publicznie.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_82269147f55aa394633d8ffab65a8524'] = 'Zaczynamy!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_d51786a260fac2376360796f7c79b076'] = 'Jeśli jest wszystko dobrze, można uruchomić!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_3eb86a3e1dc693b55502d7391aae5cbf'] = 'Jeśli skończyłeś, przejdź do kolejnego kroku';
+$_MODULE['<{onboarding}prestashop>backoffice_top_d592a24b3a6f07d1731cc5e82247ea89'] = 'Przejrzyj przewodnik: rozpoczęcie pracy z PrestaShop';
+$_MODULE['<{onboarding}prestashop>backoffice_top_de01a1b72dcfe775cd72a5ff7af650a9'] = 'Dostosuj wygląd Twojego sklepu';
+$_MODULE['<{onboarding}prestashop>backoffice_top_28e28cc9b29cb7be024359a92ed55282'] = 'Dodaj swoje pierwsze produkty';
+$_MODULE['<{onboarding}prestashop>backoffice_top_9067f937e50eccdb6e7aeaf92cd054e1'] = 'Przygotuj swój sklep do dokonywania płatności';
+$_MODULE['<{onboarding}prestashop>backoffice_top_e2a122121719451136536f8a97406f8a'] = 'Jesteś teraz gotowy do uruchomienia sklepu.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_587b4c19feb558e98b1b9cbab054c8d6'] = 'Kilka kroków przed uruchomieniem!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_7eeabe2ad5cb52ab41a2760232e5589e'] = 'Utwórzmy pierwsze produkty';
+$_MODULE['<{onboarding}prestashop>backoffice_top_c88d196f22ac2187d88469d9faaad8fd'] = 'Wybierz opcje wysyłki';
+$_MODULE['<{onboarding}prestashop>backoffice_top_186ec838194777c517b25acc5728ffad'] = 'Hurra!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_8ace2d742ee0c597260b3d0acbfb37f0'] = '1/4 zakończona';
+$_MODULE['<{onboarding}prestashop>backoffice_top_07401b0a5880897a0aaddf3f02840d42'] = '2/4 zakończone';
+$_MODULE['<{onboarding}prestashop>backoffice_top_8fe45aff43af351538b5a09436642467'] = '3/4 zakończone';
+$_MODULE['<{onboarding}prestashop>backoffice_top_b361b43eb8b02ed09668ee20a0c5dfc7'] = '4/4 zakończone';
+$_MODULE['<{onboarding}prestashop>backoffice_top_863d165c22d70b710d8340b386476059'] = 'Pierwsze kroki z PrestaShop';
+$_MODULE['<{onboarding}prestashop>backoffice_top_8537edc13c831abe2ab38ce7f57edb5e'] = 'Dostosuj swój sklep';
+$_MODULE['<{onboarding}prestashop>backoffice_top_ea6fc12147e71d57bdd78ca17ca734ce'] = 'Dodaj produkty';
+$_MODULE['<{onboarding}prestashop>backoffice_top_e8907cbf554073d2b2edca1196a32533'] = 'Skonfiguruj płatności';
+$_MODULE['<{onboarding}prestashop>backoffice_top_3ebc767d6b3a2251fcef53c51c253827'] = 'Nie, dziękuję!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_7c7ca9fcc594f7ee55caa299a2afe0f5'] = 'Zamieść w sklepie swoją własną tożsamość w oparciu o swoją markę.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_ddd3ed3987ae409ab3aa41bb608254e6'] = 'Możesz zmienić wygląd swojego szablonu lub zainstalować nowy i upewnij się, czy wgrałeś własne logo, aby Twój sklep był naprawdę wyjątkowy.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_0ea7a6aae70efc93aee629e0ba7ba864'] = 'OK, zabierz mnie do mojego szablonu';
+$_MODULE['<{onboarding}prestashop>backoffice_top_0f03d5ce51612c788f8add6d37f65eb9'] = 'Kontynuuj edycję';
+$_MODULE['<{onboarding}prestashop>backoffice_top_f2a25700f353028e282a4c13e89f3932'] = 'Dodaj produkty do katalogu';
+$_MODULE['<{onboarding}prestashop>backoffice_top_88878b5385fec8a0d075e469b57ad0f1'] = 'Rozpocznij swój katalog produktów od pierwszego produktu.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_7b98227ffa8c57c1b7cedfb6065833b4'] = 'Upewnij się, że wypełniłeś podstawowe ustawienia jak cena, ładny opis i przesłałeś chwytliwe zdjęcia!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_e684454ccd86011ad208c4d78bbd7861'] = 'Jeśli masz już swoją bazę produktów w pliku CSV, zaoszczędź czas i zrób import!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_30ae23ab5d1b9b02aeac19255cb4bbf8'] = 'Ok, Idź do mojego katalogu';
+$_MODULE['<{onboarding}prestashop>backoffice_top_af72bbd773d9516f0b4b0f56c7f88be4'] = 'Kontynuuj dodawanie produktów';
+$_MODULE['<{onboarding}prestashop>backoffice_top_8497f6af90ba868416219ad993db929e'] = 'Skonfiguruj swoje metody płatności';
+$_MODULE['<{onboarding}prestashop>backoffice_top_72b6798bba9dcd1a791794993d420176'] = 'Pokaż mi formy płatności';
+$_MODULE['<{onboarding}prestashop>backoffice_top_96ae5a401a41ca3d9a6d57618021d9ee'] = 'Kontynuuj wybór metod płatności';
+$_MODULE['<{onboarding}prestashop>backoffice_top_a76f0bf03508b84c2bf7f9e3282eb097'] = 'Skonfiguruj swoje metody wysyłki';
+$_MODULE['<{onboarding}prestashop>backoffice_top_60037e39c43a94445bd3e0d8d7ec38f3'] = 'Chyba, że sprzedajesz tylko produkty wirtualne, musisz zarejestrować swoich przewoźników do PrestaShop.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_9cec8ecea187a33fd3df36d40c14c702'] = 'Bez tego klienci nie będą w stanie cieszyć się z Twoich produktów!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_37068a6beef3631c2eb656eff27d2549'] = 'Zobacz wysyłkę';
+$_MODULE['<{onboarding}prestashop>backoffice_top_c78edf2d54662ed96f41752e05a981bc'] = 'Kontynuuj wybór metody wysyłki';
+$_MODULE['<{onboarding}prestashop>backoffice_top_9506f0fd0f7f1b07960b15b4c9e68d1a'] = 'Uruchom';
+$_MODULE['<{onboarding}prestashop>backoffice_top_b70150e16be1e1fdc7bc9f706bfe5f2c'] = 'Wyłącz samouczek';
+$_MODULE['<{onboarding}prestashop>backoffice_top_d03e44872879b8a258b6b65973aceb88'] = 'Ostatni krok przed startem!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_26ef476ae1184dd26c0f68c3891bdbe7'] = 'Wszystko jest ustawione!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_48fac01462229af90e4a4af28d671d13'] = 'Jesteś tylko %s kroki od rozpoczęcia!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_c1230cc7fd7b733996ff1342c852de26'] = 'Jesteś teraz gotowy do uruchomienia sklepu. Jeśli potrzebujesz więcej informacji, możesz spojrzeć na dokumentacje PrestaShop:';
+$_MODULE['<{onboarding}prestashop>backoffice_top_74d6651537f0fcd4184b612ee5950343'] = 'kliknij "Pomoc" w prawym górnym rogu zaplecza!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_01793ff8582acbe351310a6bf5d070a1'] = 'Właśnie uruchomiłem w Internecie sklep z @PrestaShop. Sprawdź to!';
+
+
+return $_MODULE;

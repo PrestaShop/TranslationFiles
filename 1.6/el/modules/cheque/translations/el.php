@@ -1,0 +1,60 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+
+$_MODULE['<{cheque}prestashop>cheque_7b4cc4f79be9aae43efd53b4ae5cba4d'] = 'Πληρωμή με επιταγή';
+$_MODULE['<{cheque}prestashop>cheque_14e41f4cfd99b10766cc15676d8cda66'] = 'Αυτό το module σας επιτρέπει να δέχεστε πληρωμές με επιταγή.';
+$_MODULE['<{cheque}prestashop>cheque_e09484ba6c16bc20236b63cc0d87ee95'] = 'Είστε βέβαιοι ότι θέλετε να διαγράψετε τα στοιχεία σας;';
+$_MODULE['<{cheque}prestashop>cheque_32776feb26ff6f9648054e796aa0e423'] = 'Τα πεδία "Πληρώστε με τη σειρά του" και "Διεύθυνση" πρέπει να ρυθμιστούν για να χρησιμοποιήσετε αυτό το ένθεμα.';
+$_MODULE['<{cheque}prestashop>cheque_a02758d758e8bec77a33d7f392eb3f8a'] = 'Δεν έχετε ορίσει νόμισμα γι’ αυτό το module';
+$_MODULE['<{cheque}prestashop>cheque_81c6c3ba23ca2657a8eedc561f865ddb'] = 'Το πεδίο "Πληρώστε με τη σειρά του" είναι υποχρεωτικό.';
+$_MODULE['<{cheque}prestashop>cheque_00a369029140cfd18857425d49b472f8'] = 'Το πεδίο "Διεύθυνση" είναι υποχρεωτικό.';
+$_MODULE['<{cheque}prestashop>cheque_c888438d14855d7d96a2724ee9c306bd'] = 'Οι ρυθμίσεις ενημερώθηκαν';
+$_MODULE['<{cheque}prestashop>cheque_a60468657881aa431a0a5fccc76258e2'] = 'Πληρωμή με επιταγή';
+$_MODULE['<{cheque}prestashop>cheque_5dd532f0a63d89c5af0243b74732f63c'] = 'Στοιχεία επικοινωνίας';
+$_MODULE['<{cheque}prestashop>cheque_4b2f62e281e9a6829c6df0e87d34233a'] = 'Πληρωμή στην παραγγελία του (όνομα)';
+$_MODULE['<{cheque}prestashop>cheque_dd7bf230fde8d4836917806aff6a6b27'] = 'Διεύθυνση';
+$_MODULE['<{cheque}prestashop>cheque_0fe62049ad5246bc188ec1bae347269e'] = 'Διεύθυνση που πρέπει να αποσταλεί η επιταγή.';
+$_MODULE['<{cheque}prestashop>cheque_c9cc8cce247e49bae79f15173ce97354'] = 'Αποθήκευση';
+$_MODULE['<{cheque}prestashop>validation_e2b7dec8fa4b498156dfee6e4c84b156'] = 'Αυτή η μέθοδος πληρωμής δεν είναι διαθέσιμη.';
+$_MODULE['<{cheque}prestashop>payment_execution_644818852b4dd8cf9da73543e30f045a'] = 'Επιστροφή στην πληρωμή';
+$_MODULE['<{cheque}prestashop>payment_execution_6ff063fbc860a79759a7369ac32cee22'] = 'Ολοκλήρωση αγοράς';
+$_MODULE['<{cheque}prestashop>payment_execution_8520b283b0884394b13b80d5689628b3'] = 'Πληρωμή με επιταγή.';
+$_MODULE['<{cheque}prestashop>payment_execution_f1d3b424cd68795ecaa552883759aceb'] = 'Περίληψη παραγγελίας';
+$_MODULE['<{cheque}prestashop>payment_execution_879f6b8877752685a966564d072f498f'] = 'Το καλάθι αγορών σας είναι άδειο.';
+$_MODULE['<{cheque}prestashop>payment_execution_060bf2d587991d8f090a1309b285291c'] = 'επιταγή';
+$_MODULE['<{cheque}prestashop>payment_execution_76ca011e4772bfcce26aecd42c598510'] = 'Έχετε επιλέξει να πληρώσει με επιταγή.';
+$_MODULE['<{cheque}prestashop>payment_execution_c884ed19483d45970c5bf23a681e2dd2'] = 'Εδώ είναι μια σύντομη περίληψη της παραγγελίας σας:';
+$_MODULE['<{cheque}prestashop>payment_execution_3b3b41f131194e747489ef93e778ed0d'] = 'Το συνολικό ποσό της παραγγελίας σας είναι';
+$_MODULE['<{cheque}prestashop>payment_execution_1f87346a16cf80c372065de3c54c86d9'] = '(με Φ.Π.Α.).';
+$_MODULE['<{cheque}prestashop>payment_execution_7b1c6e78d93817f61f2b1bbc2108a803'] = 'Δεχόμαστε επιταγές σε διάφορα νομίσματα ';
+$_MODULE['<{cheque}prestashop>payment_execution_a7a08622ee5c8019b57354b99b7693b2'] = 'Επιλέξτε ένα από τα ακόλουθα:';
+$_MODULE['<{cheque}prestashop>payment_execution_f73ad0f08052884ff465749bf48b55ce'] = 'Δεχόμαστε το ακόλουθο νόμισμα για πληρωμή με επιταγή:';
+$_MODULE['<{cheque}prestashop>payment_execution_7135ff14c7931e1c8e9d33aff3dfc7f7'] = 'Ο αποδέκτης της επιταγής και η διεύθυνση αποστολής θα εμφανιστούν στην επόμενη σελίδα.';
+$_MODULE['<{cheque}prestashop>payment_execution_52f64bc0164b0e79deaeaaaa7e93f98f'] = 'Παρακαλούμε επιβεβαιώστε την παραγγελία σας κάνοντας κλικ στο "Επιβεβαιώνω την παραγγελία μου.".';
+$_MODULE['<{cheque}prestashop>payment_execution_46b9e3665f187c739c55983f757ccda0'] = 'Επιβεβαίωση παραγγελίας';
+$_MODULE['<{cheque}prestashop>payment_execution_569fd05bdafa1712c4f6be5b153b8418'] = 'Άλλες μέθοδοι πληρωμής';
+$_MODULE['<{cheque}prestashop>infos_14e41f4cfd99b10766cc15676d8cda66'] = 'Αυτό το module σας επιτρέπει να δέχεστε πληρωμές με επιταγή.';
+$_MODULE['<{cheque}prestashop>infos_e444fe40d43bccfad255cf62ddc8d18f'] = 'Αν ο πελάτης επιλέξει αυτόν τον τρόπο πληρωμής, η κατάσταση της παραγγελίας θα αλλάξει σε "Αναμονή για πληρωμή"';
+$_MODULE['<{cheque}prestashop>infos_8c88bbf5712292b26e2a6bbeb0a7b5c4'] = 'Ως εκ τούτου, θα πρέπει να επιβεβαιώσετε χειροκίνητα τη παραγγελία μόλις λάβετε την επιταγή.';
+$_MODULE['<{cheque}prestashop>payment_return_88526efe38fd18179a127024aba8c1d7'] = 'Η παραγγελία σας στο %s έχει ολοκληρωθεί';
+$_MODULE['<{cheque}prestashop>payment_return_61da27a5dd1f8ced46c77b0feaa9e159'] = 'Παρακαλούμε στείλτε μας μια επιταγή με:';
+$_MODULE['<{cheque}prestashop>payment_return_621455d95c5de701e05900a98aaa9c66'] = 'Ποσότητα πληρωμής.';
+$_MODULE['<{cheque}prestashop>payment_return_9b8f932b1412d130ece5045ecafd1b42'] = 'πληρωτέα σε διαταγή';
+$_MODULE['<{cheque}prestashop>payment_return_9a94f1d749a3de5d299674d6c685e416'] = 'και ταχυδρομήστε την στη διεύθυνση';
+$_MODULE['<{cheque}prestashop>payment_return_e1c54fdba2544646684f41ace03b5fda'] = 'Μην ξεχάσετε να εισάγετε τον αριθμό της παραγγελίας σας #%d.';
+$_MODULE['<{cheque}prestashop>payment_return_4761b03b53bc2b3bd948bb7443a26f31'] = 'Μην ξεχάσετε να εισάγετε τον αριθμό αναφοράς της παραγγελίας σας %s.';
+$_MODULE['<{cheque}prestashop>payment_return_610abe74e72f00210e3dcb91a0a3f717'] = 'Σας έχει αποσταλεί e-mail με αυτές τις πληροφορίες.';
+$_MODULE['<{cheque}prestashop>payment_return_ffd2478830ca2f519f7fe7ee259d4b96'] = 'Η παραγγελία σας θα αποσταλεί αμέσως μόλις λάβουμε την πληρωμή σας.';
+$_MODULE['<{cheque}prestashop>payment_return_0db71da7150c27142eef9d22b843b4a9'] = 'Για ερωτήσεις ή για περαιτέρω πληροφορίες, παρακαλώ επικοινωνήστε με την';
+$_MODULE['<{cheque}prestashop>payment_return_decce112a9e64363c997b04aa71b7cb8'] = 'εξυπηρέτηση πελατών';
+$_MODULE['<{cheque}prestashop>payment_return_9bdf695c5a30784327137011da6ef568'] = 'Έχουμε παρατηρήσει ένα πρόβλημα με την παραγγελία σας. Αν νομίζετε ότι αυτό είναι λάθος, μπορείτε να επικοινωνήσετε με την';
+$_MODULE['<{cheque}prestashop>payment_4b80fae2153218ed763bdadc418e8589'] = 'Πληρωμή με επιταγή.';
+$_MODULE['<{cheque}prestashop>payment_4e1fb9f4b46556d64db55d50629ee301'] = '(η επεξεργασία της παραγγελίας θα διαρκέσει περισσότερο)';
+$_MODULE['<{cheque}prestashop>payment_execution_0881a11f7af33bc1b43e437391129d66'] = 'Επιβεβαιώστε την παραγγελία σας κάνοντας κλικ στο \\"Επιβεβαίωση παραγγελίας»';
+$_MODULE['<{cheque}prestashop>payment_return_d15feee53d81ea16269e54d4784fa123'] = 'Έχουμε παρατηρήσει ένα πρόβλημα με την παραγγελία σας. Αν νομίζετε ότι είναι λάθος, μπορείτε να επικοινωνήσετε με την';
+$_MODULE['<{cheque}prestashop>payment_f05fd8637f8a6281466a507fcb56baec'] = 'Πληρωμή με επιταγή.';
+
+
+return $_MODULE;

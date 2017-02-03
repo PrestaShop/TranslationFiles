@@ -1,0 +1,68 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+
+$_MODULE['<{referralprogram}prestashop>program_36c94bd456cf8796723ad09eac258aef'] = 'Διαχείρηση του λογαριασμού μου';
+$_MODULE['<{referralprogram}prestashop>program_d95cf4ab2cbf1dfb63f066b50558b07d'] = 'Ο λογαριασμός μου';
+$_MODULE['<{referralprogram}prestashop>program_6540b502e953f4c05abeb8f234cd50bf'] = 'Πρόγραμμα Συστάσεων';
+$_MODULE['<{referralprogram}prestashop>program_6b31baf25848e7a6563ecc3946626c80'] = 'Παραπεμπτικό πρόγραμμα';
+$_MODULE['<{referralprogram}prestashop>program_dbc65cd60abde51277c2881ce915a225'] = 'Απαιτείτε να συμφωνήσετε στους όρους του πρόγραμμα προτεινόμενων!';
+$_MODULE['<{referralprogram}prestashop>program_83fc792f687bc45d75ac35c84c721a26'] = 'Τουλάχιστον ένα email είναι λανθασμένο!';
+$_MODULE['<{referralprogram}prestashop>program_1019072b9e450c8652590cda2db45e49'] = 'Τουλάχιστον ένα όνομα ή επίθετο είναι λανθασμένο!';
+$_MODULE['<{referralprogram}prestashop>program_ff2d2e45b90b4426c3bb14bd56b95a2d'] = 'Κάποιος με αυτό το email έχει ήδη προταθεί!';
+$_MODULE['<{referralprogram}prestashop>program_3f8a4c7f93945fea0d951fa402ee4272'] = 'Παρακαλώ τσεκάρετε τουλάχιστον ένα κουτάκι';
+$_MODULE['<{referralprogram}prestashop>program_dcc99d8715486f570db3ec5ee469a828'] = 'Δεν μπορώ να προσθέσω φίλους στην βάση δεδομένων';
+$_MODULE['<{referralprogram}prestashop>program_f6cb78f0afcf7c3a06048a7a5855d6a1'] = 'E-mail στάλθηκαν στους φίλους σας!';
+$_MODULE['<{referralprogram}prestashop>program_79cd362fc64832faa0a2079f1142aa12'] = 'Ένα email στάλθηκε στο/η φίλο/η σας!';
+$_MODULE['<{referralprogram}prestashop>program_2b90ca4a7b1c83e0a3bb65899725cd65'] = 'Email υπενθύμισης στάλθηκαν στους φίλους σας!';
+$_MODULE['<{referralprogram}prestashop>program_819e52b3c6ca4db131dcfea19188a0c3'] = 'Ένα email υπενθύμισης στάλθηκε στο/η φίλο/η σας!';
+$_MODULE['<{referralprogram}prestashop>program_46ee2fe8845962d24bf5178a26e109f3'] = 'Χορήγηση των φίλων μου';
+$_MODULE['<{referralprogram}prestashop>program_7e9b0e998138fefac8749975c737ac27'] = 'Λίστα των φίλων που εκκρεμούν';
+$_MODULE['<{referralprogram}prestashop>program_c56567bc42584de1a7ac430039b3a87e'] = 'Εκκρεμείς φίλοι';
+$_MODULE['<{referralprogram}prestashop>program_b9ebe5bbe91ed6e7e23285fb6c595ab4'] = 'Λίστα φίλων που χορήγησα';
+$_MODULE['<{referralprogram}prestashop>program_58c7f2542ab2e2c3e4e39e851ea0f225'] = 'Φίλοι που χορήγησαν';
+$_MODULE['<{referralprogram}prestashop>program_a44fa3fcad7f0f3ef4b6d77b74ca66f2'] = 'Λάβετε μια έκπτωση των %1$s για εσάς και τους φίλους σας προτείνοντας αυτή την Ιστοσελίδα.';
+$_MODULE['<{referralprogram}prestashop>program_8d3ae82bfa996855cdf841dd9e15a7e3'] = 'Είναι εύκολο και γρήγορο. Απλά συμπληρώστε το όνομα, το επώνυμο και την ηλεκτρονική διεύθυνση(σεις) του φίλου(ων) σας στα παρακάτω πεδία.';
+$_MODULE['<{referralprogram}prestashop>program_666149e67589bd65ed1e787932cd74f5'] = 'Όταν ένας από αυτούς κάνει τουλάχιστον %d παραγγελίες ';
+$_MODULE['<{referralprogram}prestashop>program_def1ac1f353beef52f7e86a30cae01c4'] = 'Όταν ένας από αυτούς κάνει τουλάχιστον %d παραγγελία ';
+$_MODULE['<{referralprogram}prestashop>program_8d122aed0fe2c5076e4941bfbd53fe04'] = 'αυτός ή αυτή θα λάβει ένα %1$s κουπόνι και θα λάβετε το δικό σας κουπόνι αξίας %1$s.';
+$_MODULE['<{referralprogram}prestashop>program_8d3f5eff9c40ee315d452392bed5309b'] = 'Επώνυμο';
+$_MODULE['<{referralprogram}prestashop>program_20db0bfeecd8fe60533206a2b5e9891a'] = 'Όνομα';
+$_MODULE['<{referralprogram}prestashop>program_1e884e3078d9978e216a027ecd57fb34'] = 'e-mail';
+$_MODULE['<{referralprogram}prestashop>program_9386de858384e7f790a28beecdb986dd'] = 'Σημαντικό: Οι ηλεκτρονικές διευθύνσεις των φίλων σας θα χρησιμοποιηθούν μόνο στο παραπεμπτικό πρόγραμμα. Δεν χρησιμοποιηθούν ποτέ για άλλους σκοπούς.';
+$_MODULE['<{referralprogram}prestashop>program_605eef3cad421619ce034ab48415190f'] = 'Συμφωνώ με τους όρους της υπηρεσίας και θα τους τηρώ άνευ όρων.';
+$_MODULE['<{referralprogram}prestashop>program_6b719c160f9b08dad4760bcc4b52ed48'] = 'Όροι του παραπεμπτικού προγράμματος';
+$_MODULE['<{referralprogram}prestashop>program_868ca5fe643791c23b47c75fb833c9b8'] = 'Διαβάστε τους όρους.';
+$_MODULE['<{referralprogram}prestashop>program_31fde7b05ac8952dacf4af8a704074ec'] = 'Προεπισκόπηση';
+$_MODULE['<{referralprogram}prestashop>program_8e8dc296c6bf3876468aa028974bfebe'] = 'Εmail-πρόσκληση';
+$_MODULE['<{referralprogram}prestashop>program_a86073a0c3b0bebf11bd807caf8e505a'] = 'το προεπιλεγμένο email';
+$_MODULE['<{referralprogram}prestashop>program_7532696b81dfc0b94a37e876677152c5'] = 'που θα σταλθεί στον φίλο(ους) σας.';
+$_MODULE['<{referralprogram}prestashop>program_ad3d06d03d94223fa652babc913de686'] = 'Επικύρωση';
+$_MODULE['<{referralprogram}prestashop>program_59352cd5314a67c0fb10c964831920f3'] = 'Για να γίνετε χορηγός, χρειάζεται να έχετε ολοκληρώσει τουλάχιστον';
+$_MODULE['<{referralprogram}prestashop>program_12c500ed0b7879105fb46af0f246be87'] = 'Παραγγελίες';
+$_MODULE['<{referralprogram}prestashop>program_70a17ffa722a3985b86d30b034ad06d7'] = 'παραγγελία';
+$_MODULE['<{referralprogram}prestashop>program_ec7342814444c667ab93181b30b28e38'] = 'Αυτοί οι φίλοι δεν κάνανε καμία παραγγελία σε αυτό το site από τότε που τους πρότεινες, αλλά μπορείς να δοκιμάσεις πάλι! Για να το κάνεις, επέλεξε τα κουτάκια που αντιστοιχούν στον/στους φίλο/ους που θέλεις να υπενθυμίσεις, και μετά κάνε κλικ στο κουμπί "Υπενθύμισε τον/τους φίλο/ους"';
+$_MODULE['<{referralprogram}prestashop>program_3e717a04ff77cd5fa068d8ad9d3facc8'] = 'Τελευταία πρόσκληση';
+$_MODULE['<{referralprogram}prestashop>program_9c9d4ed270f02c72124702edb192ff19'] = 'Υπενθύμιση φίλου(ων) μου';
+$_MODULE['<{referralprogram}prestashop>program_161133b6c2d0f520d9221ec8180c16e2'] = 'Δεν έχεις εκκρεμείς προσκλήσεις.';
+$_MODULE['<{referralprogram}prestashop>program_26ef5cd4989dd9b7a6e81a22312b06fd'] = 'Δεν έχεις προτείνει φίλους ακόμα.';
+$_MODULE['<{referralprogram}prestashop>program_193f3d8bbaceba40499cab1a3545e9e8'] = 'Εδώ είναι οι χορηγούμενη φίλοι που αποδέχθηκαν την πρόσκλησή σας:';
+$_MODULE['<{referralprogram}prestashop>program_3c648ba41cfb45f13b083a9cbbacdfdf'] = 'Ημερομηνία επιγραφής';
+$_MODULE['<{referralprogram}prestashop>program_8d4e5c2bc4c3cf67d2b59b263a707cb6'] = 'Κανένας χορηγημένος φίλος δεν αποδέχθηκε την πρόσκληση σας ακόμα.';
+$_MODULE['<{referralprogram}prestashop>program_0b3db27bc15f682e92ff250ebb167d4b'] = 'Επιστροφή στο λογαριασμό σας';
+$_MODULE['<{referralprogram}prestashop>program_8cf04a9734132302f96da8e113e80ce5'] = 'Αρχική';
+$_MODULE['<{referralprogram}prestashop>program_d3d2e617335f08df83599665eef8a418'] = 'Κλείσιμο';
+$_MODULE['<{referralprogram}prestashop>program_7a81aa9275331bb0f5e6adb5e8650a03'] = 'ή το κουμπί Esc';
+$_MODULE['<{referralprogram}prestashop>rules_01705c0177ebf5fbcbf4e882bc454405'] = 'Κανόνες παραπεμπτικών προγραμμάτων';
+$_MODULE['<{referralprogram}prestashop>authentication_6b31baf25848e7a6563ecc3946626c80'] = 'Παραπεμπτικό πρόγραμμα';
+$_MODULE['<{referralprogram}prestashop>authentication_8fdb2298a0db461ac64e71192a562ca1'] = 'Ηλεκτρονική διεύθυνση email του χορηγού σας';
+$_MODULE['<{referralprogram}prestashop>my-account_6b31baf25848e7a6563ecc3946626c80'] = 'Παραπεμπτικό πρόγραμμα';
+$_MODULE['<{referralprogram}prestashop>order-confirmation_f2ef523efa8d23f8afc29e195592fc58'] = 'Χάρη στην παραγγελία σας, ο χορηγός σας %1$s %2$s θα λάβει ένα κουπόνι αξίας %3$d κάτω όταν επιβεβαιωθεί αυτή η παραγγελία.';
+$_MODULE['<{referralprogram}prestashop>shopping-cart_b76b807810393d9fce7f154d82aef1d1'] = 'Κερδίσατε ένα κουπόνι αξίας %s από τις χορηγίες σας!';
+$_MODULE['<{referralprogram}prestashop>shopping-cart_9a5b602be8d9b2d4b8c3f22911fba01d'] = 'Εισάγετε τον κωδικό του κουπονιού %s για να λάβετε έκπτωση σε αυτή την παραγγελία.';
+$_MODULE['<{referralprogram}prestashop>shopping-cart_6b31baf25848e7a6563ecc3946626c80'] = 'Παραπεμπτικό πρόγραμμα';
+$_MODULE['<{referralprogram}prestashop>shopping-cart_106527986549f3ec8da1ae5a7abde467'] = 'Εμφάνιση του προγράμματος προτεινόμενων.';
+
+
+return $_MODULE;

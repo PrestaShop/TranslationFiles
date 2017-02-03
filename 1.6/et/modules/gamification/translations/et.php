@@ -1,0 +1,67 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_ca96b4f8d13722aac99da25f94ea1711'] = 'Sinu Kaupmehe Kogemus';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_7258e7251413465e0a3eb58094430bde'] = 'Haldamine';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_3d4aafb2eedeba2fbf92e852f0af745a'] = 'Tarnija haldus??';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_98f770b0af18ca763421bac22b4b6805'] = 'Lisainformatsioon';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_f5c7922da355fd289ec1d6469e0583a7'] = 'Saavutused';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_8189ecf686157db0c0274c1f49373318'] = 'Rahvusvaheline';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_851f12a0c936baace7f0e734d5c624e7'] = '1. Algaja';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_583981a16ea761fe852b64094d8a887e'] = '2. Professionaal';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_38f7af7416ffcd1524d8a4acda756cbf'] = '3. Ekspert';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_e7613fe56cdbeddfc9bb6276fd0f0d12'] = '4. Võlur';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_8d03eaad7ff7babdd33c2c74fe479ed0'] = '5. Guru';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_e4be4f3e3ae4ee9dda6b60815bf774c1'] = '6. Legend';
+$_MODULE['<{gamification}prestashop>gamification_3d4aafb2eedeba2fbf92e852f0af745a'] = 'Kasutajatase (Merchant expertise)';
+$_MODULE['<{gamification}prestashop>gamification_bacc1bf300527bad9c6ac2d3b875a8d8'] = 'Saa ühe silmapilgutusega e-kaubanduse eksperdiks!';
+$_MODULE['<{gamification}prestashop>filters_bt_e659b52eba1f0299b2d8ca3483919e72'] = 'Tüüp:';
+$_MODULE['<{gamification}prestashop>filters_bt_b1c94ca2fbc3e78fc30069c8d0f01680'] = 'Kõik';
+$_MODULE['<{gamification}prestashop>filters_bt_24a23d787190f2c4812ff9ab11847a72'] = 'Staatus:';
+$_MODULE['<{gamification}prestashop>filters_bt_5364259abab90e94890f2ed2481b9824'] = 'Valideeritud';
+$_MODULE['<{gamification}prestashop>filters_bt_dc450ba947e6adecbdbe68c25de03a1b'] = 'Valideerimata';
+$_MODULE['<{gamification}prestashop>filters_bt_07ad815187b53dc2ceaf5ad6e0a12bb1'] = 'Tase:';
+$_MODULE['<{gamification}prestashop>filters_e659b52eba1f0299b2d8ca3483919e72'] = 'Tüüp:';
+$_MODULE['<{gamification}prestashop>filters_b1c94ca2fbc3e78fc30069c8d0f01680'] = 'Kõik';
+$_MODULE['<{gamification}prestashop>filters_24a23d787190f2c4812ff9ab11847a72'] = 'Staatus:';
+$_MODULE['<{gamification}prestashop>filters_5364259abab90e94890f2ed2481b9824'] = 'Valideeritud';
+$_MODULE['<{gamification}prestashop>filters_dc450ba947e6adecbdbe68c25de03a1b'] = 'Valideerimata';
+$_MODULE['<{gamification}prestashop>filters_07ad815187b53dc2ceaf5ad6e0a12bb1'] = 'Tase:';
+$_MODULE['<{gamification}prestashop>view_bt_a0db49ba470c1c9ae2128c3470339153'] = 'Tase';
+$_MODULE['<{gamification}prestashop>view_bt_2a0ab6a9172272d54f0d601b0ac157f3'] = 'Saa ühe kiire hüppega e-kaubanduse eksperdiks!';
+$_MODULE['<{gamification}prestashop>view_bt_5cf06184f524aad72c14d3ec5d325c56'] = 'Kõikide suurepäraste funktsioonide ja võimalustega, mida Prestashop pakub on tähtis sammu pidada!';
+$_MODULE['<{gamification}prestashop>view_bt_2c3193c85bb2555c333adfcfb824804a'] = 'Peamine eesmärk meie poolt pakutava puhul on tagada Sinu edu e-äri maailmas. Selle saavutamiseks oleme loonud punktide ja märkide süsteemi, et lihtsamalt jälgida Sinu kogemuste tekkimist. Oleme jaganud süsteemi kolmeks tasemeks, mis kõik on e-äris edu saavutamiseks omavahel seotud : (I) Sinu e-äri võtmekomponentide kasutamine oma poes, (II) Müügiedenemine, (III) Tegevus rahvusvahelistel turgudel.';
+$_MODULE['<{gamification}prestashop>view_bt_6b766dc388ad21053bde0f8fd95d1e04'] = 'Mida kaugemale Sa poega jõuad seda enam märke ja punkte koguneb. Pole vaja täita mingeid vorme, ega kuskile infot saata. Kuna Sul on nagunii koguaeg palju teha siis on kõik automaatne.';
+$_MODULE['<{gamification}prestashop>view_bt_21dc1cfc9ef1cdfbb665cab323d5e1a9'] = 'Nüüd saad nupuvajutusega näha müügiarengu võimalusi, millest oled siiani puudust tundnud. Uuri kohe järele, see on allpool !';
+$_MODULE['<{gamification}prestashop>view_bt_bcc5a331e758a60ad298b4b18a26d0e0'] = 'Meie meeskond on valmis aitama. Võta juba täna ühendust !';
+$_MODULE['<{gamification}prestashop>view_bt_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'E-kiri';
+$_MODULE['<{gamification}prestashop>view_bt_7d6d8e6610fd23b684be7e95a6cc5c39'] = 'Täida kontaktivorm';
+$_MODULE['<{gamification}prestashop>view_bt_6b6ac7834d96afefbca5677814769109'] = 'Saavutatud tase';
+$_MODULE['<{gamification}prestashop>view_bt_82338dd23ce2fd2f6d3606c20f4ee96e'] = 'Siin osakonnas pole märke';
+$_MODULE['<{gamification}prestashop>view_a0db49ba470c1c9ae2128c3470339153'] = 'Tase';
+$_MODULE['<{gamification}prestashop>view_2a0ab6a9172272d54f0d601b0ac157f3'] = 'Saa hüppeliselt e-äri eksperdiks !';
+$_MODULE['<{gamification}prestashop>view_5cf06184f524aad72c14d3ec5d325c56'] = 'Kõikide suurepäraste omaduste ja eeliste puhul on tähtis taset hoida !';
+$_MODULE['<{gamification}prestashop>view_2c3193c85bb2555c333adfcfb824804a'] = 'Peamine eesmärk meie poolt pakutava puhul on tagada Sinu edu e-äri maailmas. Selle saavutamiseks oleme loonud punktide ja märkide süsteemi, et lihtsamalt jälgida Sinu kogemuste tekkimist. Oleme jaganud süsteemi kolmeks tasemeks, mis kõik on e-äris edu saavutamiseks omavahel seotud : (I) Sinu e-äri võtmekomponentide kasutamine oma poes, (II) Müügiedenemine, (III) Tegevus rahuvsvahelistel turgudel.';
+$_MODULE['<{gamification}prestashop>view_6b766dc388ad21053bde0f8fd95d1e04'] = 'Mida kaugemale Sa poega jõuad seda enam märke ja punkte koguneb. Pole vaja täita mingeid vorme, ega kuskile infot saata. Kuna Sul on nagunii koguaeg palju teha siis on kõik automaatne.';
+$_MODULE['<{gamification}prestashop>view_21dc1cfc9ef1cdfbb665cab323d5e1a9'] = 'Nüüd saad nupuvajutusega näha müügiarengu võimalusi, millest oled siiani puudust tundnud. Uuri kohe järele, see on allpool !';
+$_MODULE['<{gamification}prestashop>view_bcc5a331e758a60ad298b4b18a26d0e0'] = 'Meie meeskond on valmis aitama. Võta juba täna ühendust !';
+$_MODULE['<{gamification}prestashop>view_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'E-kiri';
+$_MODULE['<{gamification}prestashop>view_7d6d8e6610fd23b684be7e95a6cc5c39'] = 'Täida kontaktandmete vorm';
+$_MODULE['<{gamification}prestashop>view_6b6ac7834d96afefbca5677814769109'] = 'Saavutatud tase';
+$_MODULE['<{gamification}prestashop>view_82338dd23ce2fd2f6d3606c20f4ee96e'] = 'Siin osakonnas pole märke';
+$_MODULE['<{gamification}prestashop>notification_bt_a0db49ba470c1c9ae2128c3470339153'] = 'Tase';
+$_MODULE['<{gamification}prestashop>notification_bt_6153e612347ad743d65e4bbf06a2e404'] = 'Tahad selle nõuande peita ?';
+$_MODULE['<{gamification}prestashop>notification_bt_ca96b4f8d13722aac99da25f94ea1711'] = 'Sinu kasutajatase';
+$_MODULE['<{gamification}prestashop>notification_bt_16a1daea9e8873542aec1e820798aa44'] = 'Viimane märk :';
+$_MODULE['<{gamification}prestashop>notification_bt_15377177c0259c6f79341cc57da13f19'] = 'Järgmine märk :';
+$_MODULE['<{gamification}prestashop>notification_bt_f8978f781f97e6f851e9c8f7059c37b2'] = 'Vaata täielikku profiili';
+$_MODULE['<{gamification}prestashop>notification_a0db49ba470c1c9ae2128c3470339153'] = 'Tase';
+$_MODULE['<{gamification}prestashop>notification_ca96b4f8d13722aac99da25f94ea1711'] = 'Sinu kasutajatase';
+$_MODULE['<{gamification}prestashop>notification_16a1daea9e8873542aec1e820798aa44'] = 'Viimane märk :';
+$_MODULE['<{gamification}prestashop>notification_15377177c0259c6f79341cc57da13f19'] = 'Järgmine märk :';
+$_MODULE['<{gamification}prestashop>notification_f8978f781f97e6f851e9c8f7059c37b2'] = 'Vaata täielikku profiili';
+
+
+return $_MODULE;

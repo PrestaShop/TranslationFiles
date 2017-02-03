@@ -1,0 +1,64 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+
+$_MODULE['<{onboarding}prestashop>onboarding_403078410560ac74cd18391f1fbf55fa'] = 'Úvod do administrácie';
+$_MODULE['<{onboarding}prestashop>onboarding_76ddbb9f8bbe2624552fd553d0f9d040'] = 'Modul Úvod do administrácie víta užívateľov, ktorý prvý krát navštívia svoju administráciu. Prostredníctvom malého hravého prostredia ukáže užívateľovi, ako spustiť vlastný obchod použitím pár jednoduchých krokov.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_c50e83d3857e41ea59189e385d4ed024'] = 'Dobrý deň %s, vitajte vo Vašom online obchode. [1]Sprievodca Vás prevedie prvými krokmi s Vaším e-shopom!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_79b0fcd70b51a3065ebbfe7e953eae38'] = 'Prehliadnite si náš katalóg a nájdite v ňom nové šablóny alebo prispôsobenie pre súčasnú šablónu.[1]Pridajte svoje logo, pohrajte sa s písmami a farbami...Dodajte svojmu e-shopu originalitu!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_9a12f893e37f0f1fb9fb04bf16a7d78d'] = 'Spustite Váš katalóg produktov s prvým produktom.[1] Zadajte aspoň jeho cenu, dajte mu pútavý popis a nahrajte chytľavý obrázok![1]Ak už máte svoje produkty v .CSV súbore, ušetrite si čas a vykonajte import!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_4cf1a5e51827d65ded27c32d4213b12e'] = 'Váš e-shop podporuje platby PrestaShop Payments od HiPay, môžete tak hneď prijímať platby platobnými kartami. Dostupné sú aj ďalšie platobné metódy, skontrolujte si, či ste všetko nastavili!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_0429b4766bfd2e6540dc3cb5537387ff'] = 'Vyberte platobné metódy, ktoré chcete ponúknuť svojim zákazníkom a nastavte si pre nich potrebné obmedzenia (podľa meny, štátu alebo skupiny zákazníkov).';
+$_MODULE['<{onboarding}prestashop>backoffice_top_e62f682bcf70125635d8915ea127fe9b'] = 'Pokiaľ cítite, že potrebujete viac informácii, môžete sa pozrieť do dokumentácie PrestaShop-u: kliknite na "Pomocník" v pravom hornom rohu administrácie!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_d26019e187250752a24c5f07694bda99'] = 'Dokončili ste všetky potrebné základné kroky pre nastavenie Vášho online obchodu. Tieto kroky môžete zopakovať, pokiaľ potrebujete pridať ďalšie produkty, platobné metódy alebo prepravcov.[1]Pre hlbšie preniknutie do konfigurácie Vášho obchodu si prečítajte kapitolu [2]"Prvé kroky s PrestaShop-om[/2] v užívateľskom manuále PrestaShop.[1]Akonáhle ste si istý, že je Váš obchod pripravený na predaj produktov, kliknite na tlačítko "Spustiť" pre zverejnenie obchodu.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_82269147f55aa394633d8ffab65a8524'] = 'Začnime!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_d51786a260fac2376360796f7c79b076'] = 'Všetko je nastavené, spustime to!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_3eb86a3e1dc693b55502d7391aae5cbf'] = 'Som hotový, prejsť na ďalší krok';
+$_MODULE['<{onboarding}prestashop>backoffice_top_d592a24b3a6f07d1731cc5e82247ea89'] = 'Rozhliadnite sa: začíname s PrestaShop-om';
+$_MODULE['<{onboarding}prestashop>backoffice_top_de01a1b72dcfe775cd72a5ff7af650a9'] = 'Prispôsobte Váš obchod podľa seba';
+$_MODULE['<{onboarding}prestashop>backoffice_top_28e28cc9b29cb7be024359a92ed55282'] = 'Pridajte Vaše prvé produkty';
+$_MODULE['<{onboarding}prestashop>backoffice_top_9067f937e50eccdb6e7aeaf92cd054e1'] = 'Pripravte Váš obchod na platby';
+$_MODULE['<{onboarding}prestashop>backoffice_top_e2a122121719451136536f8a97406f8a'] = 'Ste pripravený spustiť obchod.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_587b4c19feb558e98b1b9cbab054c8d6'] = 'Pár krokov pred spustením!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_7eeabe2ad5cb52ab41a2760232e5589e'] = 'Vytvorte Vaše prvé produkty';
+$_MODULE['<{onboarding}prestashop>backoffice_top_c88d196f22ac2187d88469d9faaad8fd'] = 'Výber možností platby';
+$_MODULE['<{onboarding}prestashop>backoffice_top_186ec838194777c517b25acc5728ffad'] = 'Hurá!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_8ace2d742ee0c597260b3d0acbfb37f0'] = '1/4 kompletná';
+$_MODULE['<{onboarding}prestashop>backoffice_top_07401b0a5880897a0aaddf3f02840d42'] = '2/4 kompletné';
+$_MODULE['<{onboarding}prestashop>backoffice_top_8fe45aff43af351538b5a09436642467'] = '3/4 kompletné';
+$_MODULE['<{onboarding}prestashop>backoffice_top_b361b43eb8b02ed09668ee20a0c5dfc7'] = '4/4 kompletné';
+$_MODULE['<{onboarding}prestashop>backoffice_top_863d165c22d70b710d8340b386476059'] = 'Začíname s PrestaShop-om';
+$_MODULE['<{onboarding}prestashop>backoffice_top_8537edc13c831abe2ab38ce7f57edb5e'] = 'Prispôsobenie Vášho obchodu';
+$_MODULE['<{onboarding}prestashop>backoffice_top_ea6fc12147e71d57bdd78ca17ca734ce'] = 'Pridanie produktov';
+$_MODULE['<{onboarding}prestashop>backoffice_top_e8907cbf554073d2b2edca1196a32533'] = 'Konfigurácia platieb';
+$_MODULE['<{onboarding}prestashop>backoffice_top_3ebc767d6b3a2251fcef53c51c253827'] = 'Nie, ďakujem!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_7c7ca9fcc594f7ee55caa299a2afe0f5'] = 'Dajte Vášmu obchodu identitu založenú na Vašej značke.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_ddd3ed3987ae409ab3aa41bb608254e6'] = 'Môžete zmeniť Váš motív, alebo nainštalovať nový. Nezabudnite nahrať aj Vaše logo, aby ste urobili Váš obchod jedinečným.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_0ea7a6aae70efc93aee629e0ba7ba864'] = 'OK, prejdime k mojim šablónam';
+$_MODULE['<{onboarding}prestashop>backoffice_top_0f03d5ce51612c788f8add6d37f65eb9'] = 'Pokračovať v úprave';
+$_MODULE['<{onboarding}prestashop>backoffice_top_f2a25700f353028e282a4c13e89f3932'] = 'Pridať produkty do Vášho katalógu';
+$_MODULE['<{onboarding}prestashop>backoffice_top_88878b5385fec8a0d075e469b57ad0f1'] = 'Spustite Váš katalóg produktov s prvým produktom.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_7b98227ffa8c57c1b7cedfb6065833b4'] = 'Uistite sa, že ste pokryli základy nastavením ceny, pridaním pekného popisu a nahraním chytľavého obrázku!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_e684454ccd86011ad208c4d78bbd7861'] = 'Ak už máte Váš katalóg produktov v .CSV formáte, ušetrite si čas a nahrajte ho!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_30ae23ab5d1b9b02aeac19255cb4bbf8'] = 'Ok, prejdime do môjho katalógu';
+$_MODULE['<{onboarding}prestashop>backoffice_top_af72bbd773d9516f0b4b0f56c7f88be4'] = 'Pokračovať v pridávaní produktov';
+$_MODULE['<{onboarding}prestashop>backoffice_top_8497f6af90ba868416219ad993db929e'] = 'Nastavte Vaše platobné metódy';
+$_MODULE['<{onboarding}prestashop>backoffice_top_72b6798bba9dcd1a791794993d420176'] = 'Ukázať mi platobné metódy';
+$_MODULE['<{onboarding}prestashop>backoffice_top_96ae5a401a41ca3d9a6d57618021d9ee'] = 'Pokračovať voľbou platobných metód';
+$_MODULE['<{onboarding}prestashop>backoffice_top_a76f0bf03508b84c2bf7f9e3282eb097'] = 'Nastaviť spôsoby doručenia';
+$_MODULE['<{onboarding}prestashop>backoffice_top_60037e39c43a94445bd3e0d8d7ec38f3'] = 'Ak nepredávate výhradne virtuálne produkty, musíte do PrestaShop-u nastaviť Vašich prepravcov.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_9cec8ecea187a33fd3df36d40c14c702'] = 'Bez toho by si Vaši zákazníci nemohli užívať Vaše produkty!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_37068a6beef3631c2eb656eff27d2549'] = 'Poďme si pozrieť niečo o doručovaní';
+$_MODULE['<{onboarding}prestashop>backoffice_top_c78edf2d54662ed96f41752e05a981bc'] = 'Pokračovať voľbou spôsobov doručenia';
+$_MODULE['<{onboarding}prestashop>backoffice_top_9506f0fd0f7f1b07960b15b4c9e68d1a'] = 'Spustiť';
+$_MODULE['<{onboarding}prestashop>backoffice_top_b70150e16be1e1fdc7bc9f706bfe5f2c'] = 'Preskočiť návod';
+$_MODULE['<{onboarding}prestashop>backoffice_top_d03e44872879b8a258b6b65973aceb88'] = 'Posledný krok pred spustením!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_26ef476ae1184dd26c0f68c3891bdbe7'] = 'Všetko je nastavené!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_48fac01462229af90e4a4af28d671d13'] = 'Ste iba %s kroky od spustenia!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_c1230cc7fd7b733996ff1342c852de26'] = 'Teraz ste pripravený spustiť svoj obchod. Pokiaľ cítite, že potrebujete viac informácii, môžete sa pozrieť do dokumentácie PrestaShop-u:';
+$_MODULE['<{onboarding}prestashop>backoffice_top_74d6651537f0fcd4184b612ee5950343'] = 'kliknite na "Pomocník" v pravom hornom rohu administrácie!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_01793ff8582acbe351310a6bf5d070a1'] = 'Práve ste spustili svoj obchod s @PrestaShop. Skontrolujte ho!';
+
+
+return $_MODULE;

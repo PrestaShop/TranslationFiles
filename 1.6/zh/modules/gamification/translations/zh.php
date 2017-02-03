@@ -1,0 +1,67 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_ca96b4f8d13722aac99da25f94ea1711'] = '您的店主技能';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_7258e7251413465e0a3eb58094430bde'] = '行政';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_3d4aafb2eedeba2fbf92e852f0af745a'] = '店主技能';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_98f770b0af18ca763421bac22b4b6805'] = '特性';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_f5c7922da355fd289ec1d6469e0583a7'] = '成绩';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_8189ecf686157db0c0274c1f49373318'] = '国际';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_851f12a0c936baace7f0e734d5c624e7'] = '1. 初级';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_583981a16ea761fe852b64094d8a887e'] = '2. 专业';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_38f7af7416ffcd1524d8a4acda756cbf'] = '3. 教授';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_e7613fe56cdbeddfc9bb6276fd0f0d12'] = '4. 巫师';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_8d03eaad7ff7babdd33c2c74fe479ed0'] = '5. 领袖';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_e4be4f3e3ae4ee9dda6b60815bf774c1'] = '6. 传说';
+$_MODULE['<{gamification}prestashop>gamification_3d4aafb2eedeba2fbf92e852f0af745a'] = '店主技能';
+$_MODULE['<{gamification}prestashop>gamification_bacc1bf300527bad9c6ac2d3b875a8d8'] = '眨眼间成为一个电子商务专家！';
+$_MODULE['<{gamification}prestashop>filters_bt_e659b52eba1f0299b2d8ca3483919e72'] = '类型';
+$_MODULE['<{gamification}prestashop>filters_bt_b1c94ca2fbc3e78fc30069c8d0f01680'] = '全部';
+$_MODULE['<{gamification}prestashop>filters_bt_24a23d787190f2c4812ff9ab11847a72'] = '';
+$_MODULE['<{gamification}prestashop>filters_bt_5364259abab90e94890f2ed2481b9824'] = '已确认';
+$_MODULE['<{gamification}prestashop>filters_bt_dc450ba947e6adecbdbe68c25de03a1b'] = '未确认';
+$_MODULE['<{gamification}prestashop>filters_bt_07ad815187b53dc2ceaf5ad6e0a12bb1'] = '级别';
+$_MODULE['<{gamification}prestashop>filters_e659b52eba1f0299b2d8ca3483919e72'] = '类型';
+$_MODULE['<{gamification}prestashop>filters_b1c94ca2fbc3e78fc30069c8d0f01680'] = '全部';
+$_MODULE['<{gamification}prestashop>filters_24a23d787190f2c4812ff9ab11847a72'] = '';
+$_MODULE['<{gamification}prestashop>filters_5364259abab90e94890f2ed2481b9824'] = '已确认';
+$_MODULE['<{gamification}prestashop>filters_dc450ba947e6adecbdbe68c25de03a1b'] = '未确认';
+$_MODULE['<{gamification}prestashop>filters_07ad815187b53dc2ceaf5ad6e0a12bb1'] = '级别';
+$_MODULE['<{gamification}prestashop>view_bt_a0db49ba470c1c9ae2128c3470339153'] = '级别';
+$_MODULE['<{gamification}prestashop>view_bt_2a0ab6a9172272d54f0d601b0ac157f3'] = '成为跨越式发展的电子商务专家！';
+$_MODULE['<{gamification}prestashop>view_bt_5cf06184f524aad72c14d3ec5d325c56'] = '通过 Prestashop 提供的优秀和完整功能，坚持就是胜利！';
+$_MODULE['<{gamification}prestashop>view_bt_2c3193c85bb2555c333adfcfb824804a'] = '所有我们提供的功能的主要目的是让您在电子商务世界中取得成功。为了做到这一点，我们创建了徽章和分数制度，让您轻松监控作为一个商人的进步。我们的系统分成三个层次，是在电子商务的世界得到成功必不可少的：（一）使用店铺主要的电子商务主要功能;（二）您的销售业绩;（三）你在国际市场的位置。';
+$_MODULE['<{gamification}prestashop>view_bt_6b766dc388ad21053bde0f8fd95d1e04'] = '您的店铺越进步，赢得的徽章和分数越多。无需提交任何信息或填写任何表格，我们知道你有多么忙，一切都是自动的！';
+$_MODULE['<{gamification}prestashop>view_bt_21dc1cfc9ef1cdfbb665cab323d5e1a9'] = '现在，只需点击一个按钮，您就可以利用我们强大的功能看到您错过的销售。在下面找到它并充分利用这项功能！';
+$_MODULE['<{gamification}prestashop>view_bt_bcc5a331e758a60ad298b4b18a26d0e0'] = '';
+$_MODULE['<{gamification}prestashop>view_bt_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'E-mail';
+$_MODULE['<{gamification}prestashop>view_bt_7d6d8e6610fd23b684be7e95a6cc5c39'] = '';
+$_MODULE['<{gamification}prestashop>view_bt_6b6ac7834d96afefbca5677814769109'] = '完成级别';
+$_MODULE['<{gamification}prestashop>view_bt_82338dd23ce2fd2f6d3606c20f4ee96e'] = '本节没有徽章';
+$_MODULE['<{gamification}prestashop>view_a0db49ba470c1c9ae2128c3470339153'] = '级别';
+$_MODULE['<{gamification}prestashop>view_2a0ab6a9172272d54f0d601b0ac157f3'] = '成为跨越式发展的电子商务专家！';
+$_MODULE['<{gamification}prestashop>view_5cf06184f524aad72c14d3ec5d325c56'] = '通过 Prestashop 提供的优秀和完整功能，坚持就是胜利！';
+$_MODULE['<{gamification}prestashop>view_2c3193c85bb2555c333adfcfb824804a'] = '所有我们提供的功能的主要目的是让您在电子商务世界中取得成功。为了做到这一点，我们创建了徽章和分数制度，让您轻松监控作为一个商人的进步。我们的系统分成三个层次，是在电子商务的世界得到成功必不可少的：（一）使用店铺主要的电子商务主要功能;（二）您的销售业绩;（三）你在国际市场的位置。';
+$_MODULE['<{gamification}prestashop>view_6b766dc388ad21053bde0f8fd95d1e04'] = '您的店铺越进步，赢得的徽章和分数越多。无需提交任何信息或填写任何表格，我们知道你有多么忙，一切都是自动的！';
+$_MODULE['<{gamification}prestashop>view_21dc1cfc9ef1cdfbb665cab323d5e1a9'] = '现在，只需点击一个按钮，您就可以利用我们强大的功能看到您错过的销售。在下面找到它并充分利用这项功能！';
+$_MODULE['<{gamification}prestashop>view_bcc5a331e758a60ad298b4b18a26d0e0'] = '';
+$_MODULE['<{gamification}prestashop>view_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'E-mail';
+$_MODULE['<{gamification}prestashop>view_7d6d8e6610fd23b684be7e95a6cc5c39'] = '';
+$_MODULE['<{gamification}prestashop>view_6b6ac7834d96afefbca5677814769109'] = '完成级别';
+$_MODULE['<{gamification}prestashop>view_82338dd23ce2fd2f6d3606c20f4ee96e'] = '本节没有徽章';
+$_MODULE['<{gamification}prestashop>notification_bt_a0db49ba470c1c9ae2128c3470339153'] = '级别';
+$_MODULE['<{gamification}prestashop>notification_bt_6153e612347ad743d65e4bbf06a2e404'] = '';
+$_MODULE['<{gamification}prestashop>notification_bt_ca96b4f8d13722aac99da25f94ea1711'] = '您的店主技能';
+$_MODULE['<{gamification}prestashop>notification_bt_16a1daea9e8873542aec1e820798aa44'] = '最新徽章：';
+$_MODULE['<{gamification}prestashop>notification_bt_15377177c0259c6f79341cc57da13f19'] = '下一个徽章：';
+$_MODULE['<{gamification}prestashop>notification_bt_f8978f781f97e6f851e9c8f7059c37b2'] = '显示我的完整资料';
+$_MODULE['<{gamification}prestashop>notification_a0db49ba470c1c9ae2128c3470339153'] = '级别';
+$_MODULE['<{gamification}prestashop>notification_ca96b4f8d13722aac99da25f94ea1711'] = '您的店主技能';
+$_MODULE['<{gamification}prestashop>notification_16a1daea9e8873542aec1e820798aa44'] = '最新徽章：';
+$_MODULE['<{gamification}prestashop>notification_15377177c0259c6f79341cc57da13f19'] = '下一个徽章：';
+$_MODULE['<{gamification}prestashop>notification_f8978f781f97e6f851e9c8f7059c37b2'] = '显示我的完整资料';
+
+
+return $_MODULE;

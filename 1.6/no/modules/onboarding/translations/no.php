@@ -1,0 +1,64 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+
+$_MODULE['<{onboarding}prestashop>onboarding_403078410560ac74cd18391f1fbf55fa'] = 'Integrering';
+$_MODULE['<{onboarding}prestashop>onboarding_76ddbb9f8bbe2624552fd553d0f9d040'] = 'Integreringsmodulen (OnBoarding) møter førstegangsbrukere med PrestaShops admin-sider: gjennom et enkelt og lekent grensesnitt viser den brukeren hvordan man kan lansere butikken sin i flere enkle steg.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_c50e83d3857e41ea59189e385d4ed024'] = 'Hei %s, velkommen til din egen nettbutikk.[1]Følg denne veiviseren og ta de første skrittene med din egen nettbutikk!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_79b0fcd70b51a3065ebbfe7e953eae38'] = 'Sjekk også vår katalog for å finne et tema eller tilpass standardtemaet.[1]Legg til din egen logo, lek med fonter og farger... Gi butikken sitt eget spesielle uttrykk!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_9a12f893e37f0f1fb9fb04bf16a7d78d'] = 'Start produktkatalogen din med ett første produkt.[1]Sørg for at du dekker det viktigste ved å sette pris, ha en god beskrivelse og laste opp et fengende bilde![1]Dersom du allerede har en produktdatabase i en .CSV-fil kan du spare tid ved å importere fra denne!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_4cf1a5e51827d65ded27c32d4213b12e'] = 'Din butikk bruker PrestaShop Betalinger via HiPay slik at du kan begynne å ta imot betaling med kort med en gang. Andre betalingsmetoder er også tilgjengelig, sørg for å sette opp alt som er relevant!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_0429b4766bfd2e6540dc3cb5537387ff'] = 'Velg hvilke betalingsmetoder du vil tilby kundene i butikken din, og sett opp eventuelle restriksjoner (per valuta, land eller kundegrupper).';
+$_MODULE['<{onboarding}prestashop>backoffice_top_e62f682bcf70125635d8915ea127fe9b'] = 'Dersom du trenger mer informasjon kan du også ta en titt på PrestaShops dokumentasjon: klikk på "Hjelp" i hjørnet øverst til høyre på admin-sidene!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_d26019e187250752a24c5f07694bda99'] = 'Du har fullført alle de essiensielle første stegene for å konfigurere nettbutikken din. Du kan gjenta disse stegene dersom du har flere produkter, betalingsmetoder eller fraktopsjoner å legge til.[1]For å gå dypere inn i konfigurasjonen av nettbutikken din bør du lese [2]"Første steg med PrestaShop 1.6"[/2] kapittelet i PrestaShop Brukerhåndbok.[1]Når du er sikker på at nettbutikken din er klar til å selge produkter, klikk på "Lanser"-knappen for å publisere nettbutikken.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_82269147f55aa394633d8ffab65a8524'] = 'La oss begynne!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_d51786a260fac2376360796f7c79b076'] = 'Jeg er klar, la oss lansere!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_3eb86a3e1dc693b55502d7391aae5cbf'] = 'Jeg er klar, gå til neste steg';
+$_MODULE['<{onboarding}prestashop>backoffice_top_d592a24b3a6f07d1731cc5e82247ea89'] = 'Ta en omvisning: start med PrestaShop';
+$_MODULE['<{onboarding}prestashop>backoffice_top_de01a1b72dcfe775cd72a5ff7af650a9'] = 'Tilpass butikkens utseende';
+$_MODULE['<{onboarding}prestashop>backoffice_top_28e28cc9b29cb7be024359a92ed55282'] = 'Legg til dine første produkter';
+$_MODULE['<{onboarding}prestashop>backoffice_top_9067f937e50eccdb6e7aeaf92cd054e1'] = 'Gjør butikken klar til å ta imot betaling';
+$_MODULE['<{onboarding}prestashop>backoffice_top_e2a122121719451136536f8a97406f8a'] = 'Du er nå klar til å lansere nettbutikken din.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_587b4c19feb558e98b1b9cbab054c8d6'] = 'Et par steg før lansering!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_7eeabe2ad5cb52ab41a2760232e5589e'] = 'La oss opprette dine første produkter';
+$_MODULE['<{onboarding}prestashop>backoffice_top_c88d196f22ac2187d88469d9faaad8fd'] = 'Velg fraktopsjonene du vil tilby';
+$_MODULE['<{onboarding}prestashop>backoffice_top_186ec838194777c517b25acc5728ffad'] = 'Hurra!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_8ace2d742ee0c597260b3d0acbfb37f0'] = '1/4 komplett';
+$_MODULE['<{onboarding}prestashop>backoffice_top_07401b0a5880897a0aaddf3f02840d42'] = '2/4 komplett';
+$_MODULE['<{onboarding}prestashop>backoffice_top_8fe45aff43af351538b5a09436642467'] = '3/4 komplett';
+$_MODULE['<{onboarding}prestashop>backoffice_top_b361b43eb8b02ed09668ee20a0c5dfc7'] = '4/4 komplett';
+$_MODULE['<{onboarding}prestashop>backoffice_top_863d165c22d70b710d8340b386476059'] = 'Begynne med PrestaShop';
+$_MODULE['<{onboarding}prestashop>backoffice_top_8537edc13c831abe2ab38ce7f57edb5e'] = 'Tilpass nettbutikken';
+$_MODULE['<{onboarding}prestashop>backoffice_top_ea6fc12147e71d57bdd78ca17ca734ce'] = 'Legg til produkter';
+$_MODULE['<{onboarding}prestashop>backoffice_top_e8907cbf554073d2b2edca1196a32533'] = 'Konfigurer betalingsløsninger';
+$_MODULE['<{onboarding}prestashop>backoffice_top_3ebc767d6b3a2251fcef53c51c253827'] = 'Nei takk!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_7c7ca9fcc594f7ee55caa299a2afe0f5'] = 'Gi nettbutikken sin egen identitet basert på ditt varemerke.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_ddd3ed3987ae409ab3aa41bb608254e6'] = 'Du kan endre temaet eller installere et nytt, og sørg for å laste opp din egen logo for gjøre nettbutikken helt unik.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_0ea7a6aae70efc93aee629e0ba7ba864'] = 'OK, ta meg til mitt tema';
+$_MODULE['<{onboarding}prestashop>backoffice_top_0f03d5ce51612c788f8add6d37f65eb9'] = 'Fortsett redigeringen';
+$_MODULE['<{onboarding}prestashop>backoffice_top_f2a25700f353028e282a4c13e89f3932'] = 'Legg produkter til i katalogen';
+$_MODULE['<{onboarding}prestashop>backoffice_top_88878b5385fec8a0d075e469b57ad0f1'] = 'Start produktkatalogen med et første produkt.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_7b98227ffa8c57c1b7cedfb6065833b4'] = 'Sørg for å ha med det viktigste ved å sette pris, ha en god beskrivelse og laste opp et fengende bilde!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_e684454ccd86011ad208c4d78bbd7861'] = 'Dersom du allerede har en produktdatabase i en .CSV-fil kan du spare tid ved å importere fra den!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_30ae23ab5d1b9b02aeac19255cb4bbf8'] = 'Ok, gå til katalogen min';
+$_MODULE['<{onboarding}prestashop>backoffice_top_af72bbd773d9516f0b4b0f56c7f88be4'] = 'Fortsett å legge til produkter';
+$_MODULE['<{onboarding}prestashop>backoffice_top_8497f6af90ba868416219ad993db929e'] = 'Sett opp betalingsalternativer';
+$_MODULE['<{onboarding}prestashop>backoffice_top_72b6798bba9dcd1a791794993d420176'] = 'Vis meg betalingsalternativer';
+$_MODULE['<{onboarding}prestashop>backoffice_top_96ae5a401a41ca3d9a6d57618021d9ee'] = 'Fortsett å velge betalingsalternativer';
+$_MODULE['<{onboarding}prestashop>backoffice_top_a76f0bf03508b84c2bf7f9e3282eb097'] = 'Sett opp fraktalternativer';
+$_MODULE['<{onboarding}prestashop>backoffice_top_60037e39c43a94445bd3e0d8d7ec38f3'] = 'Med mindre du bare selger virtuelle produkter må du registrere dine fraktalternativer i PrestaShop.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_9cec8ecea187a33fd3df36d40c14c702'] = 'Uten dette vil ikke kundene dine få glede av dine produkter!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_37068a6beef3631c2eb656eff27d2549'] = 'La oss se på frakt';
+$_MODULE['<{onboarding}prestashop>backoffice_top_c78edf2d54662ed96f41752e05a981bc'] = 'Fortsett med å velge fraktalternativer';
+$_MODULE['<{onboarding}prestashop>backoffice_top_9506f0fd0f7f1b07960b15b4c9e68d1a'] = 'Lanser';
+$_MODULE['<{onboarding}prestashop>backoffice_top_b70150e16be1e1fdc7bc9f706bfe5f2c'] = 'Hopp over opplæring';
+$_MODULE['<{onboarding}prestashop>backoffice_top_d03e44872879b8a258b6b65973aceb88'] = 'Siste steg før lansering!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_26ef476ae1184dd26c0f68c3891bdbe7'] = 'Du er klar!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_48fac01462229af90e4a4af28d671d13'] = 'Du er bare %s steg unna lansering!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_c1230cc7fd7b733996ff1342c852de26'] = 'Du er nå klar til å lansere nettbutikken din. Dersom du trenger mer informasjon kan du fremdeles ta en titt på PrestaShops dokumentasjon:';
+$_MODULE['<{onboarding}prestashop>backoffice_top_74d6651537f0fcd4184b612ee5950343'] = 'klikk på "Hjelp" i hjørnet øverst til høyre på admin-sidene!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_01793ff8582acbe351310a6bf5d070a1'] = 'Jeg har akkurat lansert min nettbutikk med @PrestaShop. Ta en titt!';
+
+
+return $_MODULE;

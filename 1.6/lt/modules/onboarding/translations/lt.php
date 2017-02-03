@@ -1,0 +1,64 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+
+$_MODULE['<{onboarding}prestashop>onboarding_403078410560ac74cd18391f1fbf55fa'] = 'Gidas';
+$_MODULE['<{onboarding}prestashop>onboarding_76ddbb9f8bbe2624552fd553d0f9d040'] = 'Gido modulis pasitinka vartotojus, kurie pirmą kartą naudojasi PrestaShop administracine dalimi: viskas pateikia per nedidelę įtraukiančią sąsają, kuri parodo vartotojui kokius svarbiausius žingsnius reikia atlikti, norint paruošti savo parduotuvę išleidimui.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_c50e83d3857e41ea59189e385d4ed024'] = 'Sveiki (%s) atvykę į savo el. parduotuvę. [1]Sekite gidą ir atlikite pirmiuosius darbus savo el. parduotuvėje!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_79b0fcd70b51a3065ebbfe7e953eae38'] = 'Peržvelkite mūsų katalogą, kuriame rasite naują parduotuvės temą arba pritaikykite dabartinė numatytąją temą. [1]Pridėkite logotipą, pakeiskite spalvas ir šriftą... Parinkite unikalų įvaizdį savo parduotuvei!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_9a12f893e37f0f1fb9fb04bf16a7d78d'] = 'Pradėkite tvarkyti savo parduotuvės katalogą - pridėkite pirmąją prekę. [1]Įsitikinkite, kad nustatėte pagrindinę prekės informaciją - kainą, pilną aprašymą ir patrauklų paveiksliuką[1]. Jei jau turite prekių sąrašą .CSV faile, sutaupykite laiko ir įkelkite šias prekes tiesiai iš failo!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_4cf1a5e51827d65ded27c32d4213b12e'] = 'Jūsų parduotuvė veikia su PrestaShop mokėjimų pagal HiPay, taigi jūs galite priimti mokėjimus kortele dabar. Kiti mokėjimo būdai taip pat yra prieinami, įsitikinkite, ar viską nustatėte!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_0429b4766bfd2e6540dc3cb5537387ff'] = 'Pasirinkite, kuriuos apmokėjimo būdus norite pateikti klientams savo parduotuvėje. Taip pat galite nustatyti įvairius apribojimus pagal valiutą, šalį arba klientų grupę.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_e62f682bcf70125635d8915ea127fe9b'] = 'Jei norite rasti daugiau informacijos, galite jos ieškoti PrestaShop dokumentacijoje: spauskite "Pagalba" nuorodą viršutiniame dešiniajame administracinės dalies kampe!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_d26019e187250752a24c5f07694bda99'] = 'Jūs baigėte visus būtinus žingsnius konfigūruojant savo el. parduotuvę. Jūs galite tęsti atliktus žingsnius, jei turite daugiau prekių, mokėjimo metodų ar kurjerių, kuriuos reikia pridėti. [1]Jei norite sužinoti apie PrestaShop plačiau, jums reiktų perskaityti [2]"First steps with PrestaShop 1.6"[/2] skyrelį PrestaShop vartotojo gide. [1]Kai manote, kad jūsų parduotuvė yra paruošta pardavinėti prekes, spauskite mygtuką "Paleisti" ir jūsų parduotuvė taps viešai prieinama.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_82269147f55aa394633d8ffab65a8524'] = 'Pradėkime!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_d51786a260fac2376360796f7c79b076'] = 'Viskas paruošta, paleidžiam!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_3eb86a3e1dc693b55502d7391aae5cbf'] = 'Baigiau, einam į sekantį žingsnį';
+$_MODULE['<{onboarding}prestashop>backoffice_top_d592a24b3a6f07d1731cc5e82247ea89'] = 'Gidas: kur pradėti dirbti su PrestaShop';
+$_MODULE['<{onboarding}prestashop>backoffice_top_de01a1b72dcfe775cd72a5ff7af650a9'] = 'Pakeiskite savo parduotuvės išvaizdą ir atmosferą';
+$_MODULE['<{onboarding}prestashop>backoffice_top_28e28cc9b29cb7be024359a92ed55282'] = 'Pridėkite pirmąsias prekes';
+$_MODULE['<{onboarding}prestashop>backoffice_top_9067f937e50eccdb6e7aeaf92cd054e1'] = 'Paruoškite savo parduotuvę mokėjimams';
+$_MODULE['<{onboarding}prestashop>backoffice_top_e2a122121719451136536f8a97406f8a'] = 'Jūsų parduotuvė paruošta išleidimui.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_587b4c19feb558e98b1b9cbab054c8d6'] = 'Liko dar keli žingsniai iki išleidimo!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_7eeabe2ad5cb52ab41a2760232e5589e'] = 'Sukurkime pirmąsias jūsų prekes';
+$_MODULE['<{onboarding}prestashop>backoffice_top_c88d196f22ac2187d88469d9faaad8fd'] = 'Pasirinkite pristatymo būdus';
+$_MODULE['<{onboarding}prestashop>backoffice_top_186ec838194777c517b25acc5728ffad'] = 'Valio!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_8ace2d742ee0c597260b3d0acbfb37f0'] = '1/4 baigta';
+$_MODULE['<{onboarding}prestashop>backoffice_top_07401b0a5880897a0aaddf3f02840d42'] = '2/4 baigta';
+$_MODULE['<{onboarding}prestashop>backoffice_top_8fe45aff43af351538b5a09436642467'] = '3/4 baigta';
+$_MODULE['<{onboarding}prestashop>backoffice_top_b361b43eb8b02ed09668ee20a0c5dfc7'] = '4/4 baigta';
+$_MODULE['<{onboarding}prestashop>backoffice_top_863d165c22d70b710d8340b386476059'] = 'Kaip pradėti dirbti su PrestaShop';
+$_MODULE['<{onboarding}prestashop>backoffice_top_8537edc13c831abe2ab38ce7f57edb5e'] = 'Pritaikykite savo parduotuvę';
+$_MODULE['<{onboarding}prestashop>backoffice_top_ea6fc12147e71d57bdd78ca17ca734ce'] = 'Pridėkite prekes';
+$_MODULE['<{onboarding}prestashop>backoffice_top_e8907cbf554073d2b2edca1196a32533'] = 'Sukonfigūruokite mokėjimo būdus';
+$_MODULE['<{onboarding}prestashop>backoffice_top_3ebc767d6b3a2251fcef53c51c253827'] = 'Ne, ačiū!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_7c7ca9fcc594f7ee55caa299a2afe0f5'] = 'Suteikite savo parduotuvei jos unikalų stilių, pagrįstą jūsų prekiniu ženklu.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_ddd3ed3987ae409ab3aa41bb608254e6'] = 'Jūs galite pakeisti savo temą arba įdiegti naują temą. Taip pat įkelkite savo logotipą, kad parduotuvė taptų tikrai jūsų.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_0ea7a6aae70efc93aee629e0ba7ba864'] = 'Gerai, nuvesk mane prie mano parduotuvės temos';
+$_MODULE['<{onboarding}prestashop>backoffice_top_0f03d5ce51612c788f8add6d37f65eb9'] = 'Tęsti redagavimą';
+$_MODULE['<{onboarding}prestashop>backoffice_top_f2a25700f353028e282a4c13e89f3932'] = 'Pridėkite prekes į savo katalogą';
+$_MODULE['<{onboarding}prestashop>backoffice_top_88878b5385fec8a0d075e469b57ad0f1'] = 'Pradėkite pildyti savo prekių katalogą sukūrę pirmąją prekę.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_7b98227ffa8c57c1b7cedfb6065833b4'] = 'Įsitikinkite, kad užpildėte pagrindinę informaciją apie prekę: jos kainą, išsamų aprašymą ir prekės nuotrauką.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_e684454ccd86011ad208c4d78bbd7861'] = 'Jei jau turite prekių sąrašą .CSV faile, sutaupykite laiko ir įkelkite jas visas iš karto!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_30ae23ab5d1b9b02aeac19255cb4bbf8'] = 'Gerai, einam į mano prekių katalogą';
+$_MODULE['<{onboarding}prestashop>backoffice_top_af72bbd773d9516f0b4b0f56c7f88be4'] = 'Tęsti prekių pridėjimą';
+$_MODULE['<{onboarding}prestashop>backoffice_top_8497f6af90ba868416219ad993db929e'] = 'Sukonfigūruokite mokėjimo metodus';
+$_MODULE['<{onboarding}prestashop>backoffice_top_72b6798bba9dcd1a791794993d420176'] = 'Parodykite man mokėjimo metodus';
+$_MODULE['<{onboarding}prestashop>backoffice_top_96ae5a401a41ca3d9a6d57618021d9ee'] = 'Tęsti mokėjimo metodų pasirinkimą';
+$_MODULE['<{onboarding}prestashop>backoffice_top_a76f0bf03508b84c2bf7f9e3282eb097'] = 'Sukonfigūruokite pristatymo būdus';
+$_MODULE['<{onboarding}prestashop>backoffice_top_60037e39c43a94445bd3e0d8d7ec38f3'] = 'Jūs turite užregistruoti savo pristatymo partnerius į PrestaShop, nebent pardavinėjate tik virtualias prekes.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_9cec8ecea187a33fd3df36d40c14c702'] = 'Jei to nebus, klientais negalės mėgautis jūsų prekėmis!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_37068a6beef3631c2eb656eff27d2549'] = 'Peržiūrėkime pristatymo būdus';
+$_MODULE['<{onboarding}prestashop>backoffice_top_c78edf2d54662ed96f41752e05a981bc'] = 'Tęsti pristatymo metodų konfigūravimą';
+$_MODULE['<{onboarding}prestashop>backoffice_top_9506f0fd0f7f1b07960b15b4c9e68d1a'] = 'Paleisti';
+$_MODULE['<{onboarding}prestashop>backoffice_top_b70150e16be1e1fdc7bc9f706bfe5f2c'] = 'Praleisti pamoką';
+$_MODULE['<{onboarding}prestashop>backoffice_top_d03e44872879b8a258b6b65973aceb88'] = 'Paskutinis žingsnis prieš paleidžiant!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_26ef476ae1184dd26c0f68c3891bdbe7'] = 'Viskas parengta!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_48fac01462229af90e4a4af28d671d13'] = 'Jums liko tik %s žingsniai iki paleidimo!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_c1230cc7fd7b733996ff1342c852de26'] = 'Jūs esate pasiruošęs paleisti savo parduotuvę. Jei manote, kad jums reikia daugiau informacijos, jūs galite jos ieškoti PrestaShop dokumentacijoje:';
+$_MODULE['<{onboarding}prestashop>backoffice_top_74d6651537f0fcd4184b612ee5950343'] = 'spauskite "Pagalba" nuorodą administracinės dalies viršutiniame dešiniajame kampe!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_01793ff8582acbe351310a6bf5d070a1'] = 'Aš ką tik atidariau savo el. parduotuvę su @PrestaShop pagalba. Pažiūrėkite!';
+
+
+return $_MODULE;

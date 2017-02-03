@@ -1,0 +1,68 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+
+$_MODULE['<{referralprogram}prestashop>program_36c94bd456cf8796723ad09eac258aef'] = 'Administrere min kundekonto';
+$_MODULE['<{referralprogram}prestashop>program_d95cf4ab2cbf1dfb63f066b50558b07d'] = 'Min konto';
+$_MODULE['<{referralprogram}prestashop>program_6540b502e953f4c05abeb8f234cd50bf'] = 'Verveprogram';
+$_MODULE['<{referralprogram}prestashop>program_6b31baf25848e7a6563ecc3946626c80'] = 'Referanseprogram';
+$_MODULE['<{referralprogram}prestashop>program_dbc65cd60abde51277c2881ce915a225'] = 'Du må godta betingelsene i referanseprogrammet';
+$_MODULE['<{referralprogram}prestashop>program_83fc792f687bc45d75ac35c84c721a26'] = 'Minst en e-postadresse er ugyldig!';
+$_MODULE['<{referralprogram}prestashop>program_1019072b9e450c8652590cda2db45e49'] = 'Minst en fornavn eller etternavn er ugyldig!';
+$_MODULE['<{referralprogram}prestashop>program_ff2d2e45b90b4426c3bb14bd56b95a2d'] = 'En med denne e-postadressen har allerede blitt sponset!';
+$_MODULE['<{referralprogram}prestashop>program_3f8a4c7f93945fea0d951fa402ee4272'] = 'Merk minst en avhukningsboks';
+$_MODULE['<{referralprogram}prestashop>program_dcc99d8715486f570db3ec5ee469a828'] = 'Kan ikke legge til venner i databasen';
+$_MODULE['<{referralprogram}prestashop>program_f6cb78f0afcf7c3a06048a7a5855d6a1'] = 'E-poster har blitt sendt til dine venner!';
+$_MODULE['<{referralprogram}prestashop>program_79cd362fc64832faa0a2079f1142aa12'] = 'En e-post er sendt til din venn!';
+$_MODULE['<{referralprogram}prestashop>program_2b90ca4a7b1c83e0a3bb65899725cd65'] = 'En påminnelsese-post har blitt sendt til dine venner!';
+$_MODULE['<{referralprogram}prestashop>program_819e52b3c6ca4db131dcfea19188a0c3'] = 'En påminnelsese-post har blitt sendt til din venn!';
+$_MODULE['<{referralprogram}prestashop>program_46ee2fe8845962d24bf5178a26e109f3'] = 'Spons mine venner';
+$_MODULE['<{referralprogram}prestashop>program_7e9b0e998138fefac8749975c737ac27'] = 'Liste over venner som venter';
+$_MODULE['<{referralprogram}prestashop>program_c56567bc42584de1a7ac430039b3a87e'] = 'Venner som venter';
+$_MODULE['<{referralprogram}prestashop>program_b9ebe5bbe91ed6e7e23285fb6c595ab4'] = 'Liste over venner jeg har sponset';
+$_MODULE['<{referralprogram}prestashop>program_58c7f2542ab2e2c3e4e39e851ea0f225'] = 'Venner jeg har sponset';
+$_MODULE['<{referralprogram}prestashop>program_a44fa3fcad7f0f3ef4b6d77b74ca66f2'] = 'Få en rabatt på %1$s for deg og dine venner ved å anbefale dette nettstedet.';
+$_MODULE['<{referralprogram}prestashop>program_8d3ae82bfa996855cdf841dd9e15a7e3'] = 'Det er raskt og enkelt. Bare fyll inn fornavn, etternavn og adresse til vennen(e) din(e) i feltene nedenfor.';
+$_MODULE['<{referralprogram}prestashop>program_666149e67589bd65ed1e787932cd74f5'] = 'Når en av dem foretar minst %d ordre(r) ';
+$_MODULE['<{referralprogram}prestashop>program_def1ac1f353beef52f7e86a30cae01c4'] = 'Når en av dem foretar minst %d ordre(r) ';
+$_MODULE['<{referralprogram}prestashop>program_8d122aed0fe2c5076e4941bfbd53fe04'] = 'han eller hun vil motta en verdikupong verdt %1$s, og du vil motta din egen kupong verdt %1$s.';
+$_MODULE['<{referralprogram}prestashop>program_8d3f5eff9c40ee315d452392bed5309b'] = 'Etternavn';
+$_MODULE['<{referralprogram}prestashop>program_20db0bfeecd8fe60533206a2b5e9891a'] = 'Fornavn';
+$_MODULE['<{referralprogram}prestashop>program_1e884e3078d9978e216a027ecd57fb34'] = 'E-post';
+$_MODULE['<{referralprogram}prestashop>program_9386de858384e7f790a28beecdb986dd'] = 'Viktig: Dine venners e-postadresser vil bare bli brukt i henvisningsprogrammet. De ikke vil bli brukt til andre formål.';
+$_MODULE['<{referralprogram}prestashop>program_605eef3cad421619ce034ab48415190f'] = 'Jeg godtar brukervilkårene for tjenesten og vil følge dem betingelsesløst.';
+$_MODULE['<{referralprogram}prestashop>program_6b719c160f9b08dad4760bcc4b52ed48'] = 'Betingelser for referanseprogrammet';
+$_MODULE['<{referralprogram}prestashop>program_868ca5fe643791c23b47c75fb833c9b8'] = 'Les betingelsene.';
+$_MODULE['<{referralprogram}prestashop>program_31fde7b05ac8952dacf4af8a704074ec'] = 'Forhåndsvisning';
+$_MODULE['<{referralprogram}prestashop>program_8e8dc296c6bf3876468aa028974bfebe'] = 'e-postinvitasjon';
+$_MODULE['<{referralprogram}prestashop>program_a86073a0c3b0bebf11bd807caf8e505a'] = 'standard e-post';
+$_MODULE['<{referralprogram}prestashop>program_7532696b81dfc0b94a37e876677152c5'] = 'som vil bli sendt til din(e) venn(er).';
+$_MODULE['<{referralprogram}prestashop>program_ad3d06d03d94223fa652babc913de686'] = 'Valider';
+$_MODULE['<{referralprogram}prestashop>program_59352cd5314a67c0fb10c964831920f3'] = 'For å bli en sponsor, må du minst ha foretatt';
+$_MODULE['<{referralprogram}prestashop>program_12c500ed0b7879105fb46af0f246be87'] = 'Ordre';
+$_MODULE['<{referralprogram}prestashop>program_70a17ffa722a3985b86d30b034ad06d7'] = 'ordre';
+$_MODULE['<{referralprogram}prestashop>program_ec7342814444c667ab93181b30b28e38'] = 'Disse vennene har ennå ikke lagt inn en bestilling på dette nettstedet siden du sponset dem, men du kan prøve igjen! For å gjøre dette, merk av i avmerkingsboksene til vennen(e) du ønsker å gi en påminnelse. Klikk deretter på knappen "Påminn min(e) venn (er)"';
+$_MODULE['<{referralprogram}prestashop>program_3e717a04ff77cd5fa068d8ad9d3facc8'] = 'Siste invitasjon';
+$_MODULE['<{referralprogram}prestashop>program_9c9d4ed270f02c72124702edb192ff19'] = 'Påminn min(e) venn(er)';
+$_MODULE['<{referralprogram}prestashop>program_161133b6c2d0f520d9221ec8180c16e2'] = 'Du har ingen ventende invitasjoner.';
+$_MODULE['<{referralprogram}prestashop>program_26ef5cd4989dd9b7a6e81a22312b06fd'] = 'Du har ikke sponset noen venner enda.';
+$_MODULE['<{referralprogram}prestashop>program_193f3d8bbaceba40499cab1a3545e9e8'] = 'Her er sponsede venner som har akseptert din invitasjon:';
+$_MODULE['<{referralprogram}prestashop>program_3c648ba41cfb45f13b083a9cbbacdfdf'] = 'Lagt til dato:';
+$_MODULE['<{referralprogram}prestashop>program_8d4e5c2bc4c3cf67d2b59b263a707cb6'] = 'Ingen sponsede venner har akseptert din invitasjon enda.';
+$_MODULE['<{referralprogram}prestashop>program_0b3db27bc15f682e92ff250ebb167d4b'] = 'Tilbake til din konto';
+$_MODULE['<{referralprogram}prestashop>program_8cf04a9734132302f96da8e113e80ce5'] = 'Hjem';
+$_MODULE['<{referralprogram}prestashop>program_d3d2e617335f08df83599665eef8a418'] = 'Lukk';
+$_MODULE['<{referralprogram}prestashop>program_7a81aa9275331bb0f5e6adb5e8650a03'] = 'eller Esc-tasten';
+$_MODULE['<{referralprogram}prestashop>rules_01705c0177ebf5fbcbf4e882bc454405'] = 'Regler for referanseprogram';
+$_MODULE['<{referralprogram}prestashop>authentication_6b31baf25848e7a6563ecc3946626c80'] = 'Referanseprogram';
+$_MODULE['<{referralprogram}prestashop>authentication_8fdb2298a0db461ac64e71192a562ca1'] = 'E-postadressen til din sponsor';
+$_MODULE['<{referralprogram}prestashop>my-account_6b31baf25848e7a6563ecc3946626c80'] = 'Referanseprogram';
+$_MODULE['<{referralprogram}prestashop>order-confirmation_f2ef523efa8d23f8afc29e195592fc58'] = 'Takk for at du handlet hos oss. Din sponsor  %1$s %2$s vil få en verdikupong til en verdi av %3$d når denne ordren er bekreftet.';
+$_MODULE['<{referralprogram}prestashop>shopping-cart_b76b807810393d9fce7f154d82aef1d1'] = 'Du har fått en verdikupong til en verdi av %s takket være din sponsor!';
+$_MODULE['<{referralprogram}prestashop>shopping-cart_9a5b602be8d9b2d4b8c3f22911fba01d'] = 'Skriv inn verdikupong %s for å motta en reduksjon på denne bestillingen.';
+$_MODULE['<{referralprogram}prestashop>shopping-cart_6b31baf25848e7a6563ecc3946626c80'] = 'Referanseprogram';
+$_MODULE['<{referralprogram}prestashop>shopping-cart_106527986549f3ec8da1ae5a7abde467'] = 'Vis ditt referanseprogram.';
+
+
+return $_MODULE;
