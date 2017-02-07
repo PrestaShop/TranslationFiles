@@ -9,7 +9,6 @@ $_MODULE['<{blockcart}prestashop>blockcart_b9f5c797ebbf55adccdd8539a65a0241'] = 
 $_MODULE['<{blockcart}prestashop>blockcart_c9cc8cce247e49bae79f15173ce97354'] = 'சேமி';
 $_MODULE['<{blockcart}prestashop>blockcart_c6995d6cc084c192bc2e742f052a5c74'] = 'இலவச விநியோகம்!';
 $_MODULE['<{blockcart}prestashop>blockcart_e7a6ca4e744870d455a57b644f696457'] = 'இலவசம்!';
-$_MODULE['<{blockcart}prestashop>blockcart_f2a6c498fb90ee345d997f888fce3b18'] = 'அழி';
 $_MODULE['<{blockcart}prestashop>blockcart_0c3bf3014aafb90201805e45b5e62881'] = 'என் வண்டியை பார்வையிட';
 $_MODULE['<{blockcart}prestashop>blockcart_a85eba4c6c699122b2bb1387ea4813ad'] = 'வண்டி';
 $_MODULE['<{blockcart}prestashop>blockcart_068f80c7519d0528fb08e82137a72131'] = 'பொருட்கள்';
