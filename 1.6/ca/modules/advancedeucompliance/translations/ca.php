@@ -5,10 +5,17 @@ $_MODULE = array();
 
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_d602cd3160dcb3b836420a2e5683cb0f'] = 'Cumpliment EU Avançat';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_a0445c0b106a1b48b719fc6fd5a734e9'] = 'Aquest mòdul ajuda els comerciants europeus a complir amb les lleis d\'e-commerce aplicables.';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_bb8956c67b82c7444a80c6b2433dd8b4'] = 'Estàs segur de desinstal·lar aquest mòdul?';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_cac77d4c7de337f13ad1e89a8cecbc7f'] = 'Enviament: 1 a 3 setmanes';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_eeb992239a8454067cd7a47bbf0df359'] = 'Enviament: 3 a 6 setmanes';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_f4a0d7cb0cd45214c8ca5912c970de13'] = 'Impostos inclosos';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_272c87c1b60ba25f293fab358ba94a39'] = 'Has d\'acceptar les nostres Condicions de Servei abans de continuar!';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_2223d375913a9a3b4619a1ada82f8de7'] = 'Alguna cosa no ha anat bé. Si el problema persisteix, contacta\'ns.';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_7219074549f88adb580bf5a6fe57c459'] = 'Primer selecciona una opció de pagament.';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_c0bf28c9c2b9c95f01ff4fddfed71432'] = 'Si us plau, marca primer la casella "Cancel·lació de productes virtuals"!';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_5da618e8e4b89c66fe86e32cdafde142'] = 'Des de';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_9060587edeb01a63e3d3edc959678d1e'] = 'Abans';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_89bea8045e50a337d8ce9849a4e1633c'] = 'Enviament exclòs';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_ea21841da70e6405af19fabc4ff8bdd9'] = 'no trobat';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_1045f54e17e9e40c46a304888134f958'] = 'Amaga això. Sé el que em faig.';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_c80372d827bd1757101adff95d8dfdba'] = 'Sembla que el tema actual no és compatible amb aquest mòdul, falten algunes plantilles obligatòries. És possible que algunes opcions no funcionin com s\'esperava.';

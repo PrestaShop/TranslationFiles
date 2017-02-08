@@ -6,6 +6,7 @@ $_MODULE = array();
 $_MODULE['<{onboarding}prestashop>onboarding_76ddbb9f8bbe2624552fd553d0f9d040'] = 'El mòdul d\'incorporació saluda els usuaris de primera vegada al seu càrrec PrestaShop enrere: a través d\'una petita interfície lúdica, es mostra a l\'usuari com posar en marxa el seu / la seva botiga en diversos passos.';
 $_MODULE['<{onboarding}prestashop>backoffice_top_82269147f55aa394633d8ffab65a8524'] = 'Començem!';
 $_MODULE['<{onboarding}prestashop>backoffice_top_3eb86a3e1dc693b55502d7391aae5cbf'] = 'Ja estic, porta\'m al següent pas';
+$_MODULE['<{onboarding}prestashop>backoffice_top_28e28cc9b29cb7be024359a92ed55282'] = 'Afegeix els teus primers productes';
 $_MODULE['<{onboarding}prestashop>backoffice_top_7eeabe2ad5cb52ab41a2760232e5589e'] = 'Anem a crear els primers productes';
 $_MODULE['<{onboarding}prestashop>backoffice_top_c88d196f22ac2187d88469d9faaad8fd'] = 'Escolliu el sistema d\'enviament';
 $_MODULE['<{onboarding}prestashop>backoffice_top_07401b0a5880897a0aaddf3f02840d42'] = '2/4 complert';

@@ -4,11 +4,17 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{productcomments}prestashop>default_da3e413ae5dde1a6b986203857fb1a59'] = 'L\'identificador és incorrecte';
+$_MODULE['<{productcomments}prestashop>default_ddbd56de5feb78ef1aaf60401f8c472b'] = 'El comentari és incorrecte';
+$_MODULE['<{productcomments}prestashop>default_1b1030b6294e9096a7d7c40d83d61872'] = 'El nom del client és incorrecte';
 $_MODULE['<{productcomments}prestashop>default_a201fbadca94d310a1b62407cdc775d5'] = 'Has de fer una valoració';
 $_MODULE['<{productcomments}prestashop>default_dfbe69c6d9568ecb0e65e7b32ed92a3a'] = 'Producte no trobat';
 $_MODULE['<{productcomments}prestashop>default_ba8d7ae5dcadfba739f28a777378f208'] = 'segons abans d\'escriure un comentari nou';
 $_MODULE['<{productcomments}prestashop>productcommentcriterion_a09ed6c60eb3213939cecb4c580813cd'] = 'Vàlid per a tot el catàleg';
 $_MODULE['<{productcomments}prestashop>productcommentcriterion_467366059d7d7c743a4d0971363a8d66'] = 'Restringit a certes categories';
+$_MODULE['<{productcomments}prestashop>productcommentcriterion_772911becd336c843ab09a1d4b4f66c0'] = 'Restringit a alguns productes';
+$_MODULE['<{productcomments}prestashop>productcomments-ajax_fd4b5401d4d3c7d32d158bfc1e552f3b'] = 'Si us plau, escriu el teu nom';
+$_MODULE['<{productcomments}prestashop>productcomments-ajax_f88dc17737f7fdd4464b2eb922a8f133'] = 'S\'ha produït un error al desar el teu comentari.';
+$_MODULE['<{productcomments}prestashop>productcomments-ajax_7fa4a3510dafd0eac6435c19861b2bb7'] = 'Comentari publicat.';
 $_MODULE['<{productcomments}prestashop>productcomments-ajax_f8694a9aae2eb045920f613cfa7f1235'] = 'Esperant validació del moderador.';
 $_MODULE['<{productcomments}prestashop>productcomments_b91c4e8b229a399a3bc911d352524a9b'] = 'Comentaris del producte';
 $_MODULE['<{productcomments}prestashop>productcomments_c888438d14855d7d96a2724ee9c306bd'] = 'Configuració modificada';

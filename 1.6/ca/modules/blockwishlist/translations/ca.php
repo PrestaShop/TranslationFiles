@@ -4,6 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_2715a65604e1af3d6933b61704865daf'] = 'Bloc de desitjos';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist_9ae79c1fccd231ac7fbbf3235dbf6326'] = 'Els meus desitjos';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_c888438d14855d7d96a2724ee9c306bd'] = 'Configuració modificada';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_deb10517653c255364175796ace3553f'] = 'Producte';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_694e8d1f2ee056f98ee488bdc4982d73'] = 'Quantitat';
@@ -11,7 +12,10 @@ $_MODULE['<{blockwishlist}prestashop>blockwishlist_502996d9790340c5fd7b86a5b93b1
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_655d20c1ca69519ca647684edbb2db35'] = 'Alt';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_87f8a6ab85c9ced3702b4ea641ad4bb5'] = 'Mig';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_28d0edd045e05cf5af64e35ae0c4c6ef'] = 'Baix';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist_e0fd9b310aba555f96e76738ff192ac3'] = 'Desitjos';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist_862af8838fba380d3b30e63546a394e5'] = 'No hi ha favorits.';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_641254d77e7a473aa5910574f3f9453c'] = 'Llista de desitjos';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist_88b589bbf6282a2e02f50ebe90aae6f1'] = 'Heu d\'estar registrats per administrar la llista de desitjos.';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_56ee3495a32081ccb6d2376eab391bfa'] = 'Llistat';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_6bee4060e5e05246d4bcbb720736417c'] = 'Clients :';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_c440899c1d6f8c8271b9b1d171c7e665'] = 'Llista de desitjos :';

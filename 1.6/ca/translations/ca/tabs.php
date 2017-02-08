@@ -8,6 +8,7 @@ $_TABS['AdminCatalog'] = 'Catàleg';
 $_TABS['AdminParentOrders'] = 'Comandes';
 $_TABS['AdminParentCustomer'] = 'Clients';
 $_TABS['AdminPriceRule'] = 'Regles de preu';
+$_TABS['AdminParentModules'] = 'Mòduls i Serveis';
 $_TABS['AdminParentShipping'] = 'Lliurament';
 $_TABS['AdminParentLocalization'] = 'Localització';
 $_TABS['AdminParentPreferences'] = 'Preferències';

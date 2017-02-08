@@ -8,6 +8,7 @@ $_ERRORS['e38d3ed240ea149315399f76813ad836'] = 'No existeix el directori "/backu
 $_ERRORS['8a5a71bcb5b4e12673c79e3d8b1deb56'] = 'No existeix el fitxer especificat';
 $_ERRORS['db5aa3efeee3f75954f4a6de541f7fd2'] = 'No és possible obrir el fitxer de còpia de seguretat.';
 $_ERRORS['089426c3b86f7f52cc14c3ebf5ca5b8f'] = 'Impossible mostrar el fitxer de còpia de seguretat.';
+$_ERRORS['c73b4b3a554196f363373761829a4a56'] = 'La pàgina %s no s\'ha trobat.';
 $_ERRORS['bdc8e277b56a4b3878838c1ba9b47524'] = 'La classe %s no s\'ha trobat.';
 $_ERRORS['652122103181aa2752efaecab300edf0'] = 'Accés denegat.';
 $_ERRORS['47be00818e1acd46db0092d6586204cf'] = 'Aquest nom de classe no existeix.';
