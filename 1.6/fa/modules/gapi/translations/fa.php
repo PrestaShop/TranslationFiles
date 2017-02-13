@@ -34,7 +34,7 @@ $_MODULE['<{gapi}prestashop>gapi_b1a026d322c634ca9e88525070e012fd'] = 'ذخیر�
 $_MODULE['<{gapi}prestashop>gapi_d4e6d6c42bf3eb807b8778255a4ce415'] = 'سند رد شد';
 $_MODULE['<{gapi}prestashop>gapi_a670b4cdb42644e4b46fa857d3f73d9e'] = 'API آمار گوگل نسخه 1.3';
 $_MODULE['<{gapi}prestashop>gapi_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'ایمیل';
-$_MODULE['<{gapi}prestashop>gapi_dc647eb65e6711e155375218212b3964'] = 'رمز عبور';
+$_MODULE['<{gapi}prestashop>gapi_dc647eb65e6711e155375218212b3964'] = 'کلمه‌ی عبور';
 $_MODULE['<{gapi}prestashop>gapi_970a710b7344f8639b6a86d1f081b660'] = 'شناسه پروفایل گوگل آنالیتیک خود را می‌توانید از نوار آدرس مرورگر خود در هنگام دیدن گزارش آنالیتیک پیدا کنید.';
 $_MODULE['<{gapi}prestashop>gapi_e33d3b3409f8a0fcc326596c918c4961'] = 'برای نسخه‌ی قدیمی تجزیه و تحلیل گوگل، شناسه‌ی نمایه در پارامتر "id" URL است ("&id=xxxxxxxx" را ببینید):';
 $_MODULE['<{gapi}prestashop>gapi_c78fedea48082c7a437773e31b418f96'] = 'برای نسخه‌ی جدید تجزیه و تحلیل گوگل، شناسه‌ی نمایه، شماره‌ی آخر URL  است که با p شروع می‌شود:';

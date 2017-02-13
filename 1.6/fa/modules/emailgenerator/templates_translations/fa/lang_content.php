@@ -8,11 +8,11 @@ $_LANGMAIL['Thank you for creating a customer account at {shop_name}.'] = 'بر�
 $_LANGMAIL['Your {shop_name} login details'] = 'جزئیات ورود شما به {shop_name}';
 $_LANGMAIL['Here are your login details:'] = 'اطلاعات ورود شما این‌جاست:';
 $_LANGMAIL['E-mail address:'] = 'آدرس ایمیل:';
-$_LANGMAIL['Password:'] = 'گذرواژه:';
+$_LANGMAIL['Password:'] = 'کلمه‌ی عبور:';
 $_LANGMAIL['Important Security Tips:'] = 'نکات مهم امنیتی:';
 $_LANGMAIL['Always keep your account details safe.'] = 'همیشه از اطلاعات حساب خود محافظت کنید.';
 $_LANGMAIL['Never disclose your login details to anyone.'] = 'هرگز جزییات ورود به حساب خود را در اختیار کسی قرار ندهید.';
-$_LANGMAIL['Change your password regularly.'] = 'رمز عبور خود را به صورت دوره‌ای تغییر دهید.';
+$_LANGMAIL['Change your password regularly.'] = 'کلمه‌ی عبور خود را به صورت دوره‌ای تغییر دهید.';
 $_LANGMAIL['Should you suspect someone is using your account illegally, please notify us immediately.'] = 'اگر مشکوک هستید که کسی بدون مجوز از حساب شما استفاده میکند، لطفا بلافاصله به ما اطلاع دهید.';
 $_LANGMAIL['You can now place orders on our shop:'] = 'هم اکنون می توانید سفارش ها را بر روی فرشگاه ما قرار دهید:';
 $_LANGMAIL['A new order has been generated on your behalf.'] = 'یک سفارش جدید از طرف شما ایجاد شد.';
@@ -104,9 +104,9 @@ $_LANGMAIL['Thanks for your order with the reference {order_name} from {shop_nam
 $_LANGMAIL['Item(s) out of stock'] = 'کالا(ها) موجود نیست';
 $_LANGMAIL['Unfortunately, one or more items are currently out of stock. This may cause a slight delay in your delivery. Please accept our apologies and rest assured that we are working hard to rectify this.'] = 'متاسفانه یک یا چند مورد، در حال حاضر موجود نیست. این موضوع ممکن است در تحویل کالا به شما مقداری تاخیر ایجاد کند. لطفا عذر خواهی ما را پذیرا باشید و اطمینان داشته باشید که ما سخت در پی برطرف کردن این موضوع هستیم.';
 $_LANGMAIL['Your new {shop_name} login details'] = 'اطلاعات ورودی جدید {shop_name}';
-$_LANGMAIL['Password reset request for {shop_name}'] = 'درخواست رمز جدید برای {shop_name}';
+$_LANGMAIL['Password reset request for {shop_name}'] = 'درخواست کلمه‌ی عبور برای {shop_name}';
 $_LANGMAIL['You have requested to reset your <span><strong>{shop_name}</strong></span> login details.'] = 'شما در خواست رمز جدید در <span><strong>{shop_name}</strong></span> کرده اید.';
-$_LANGMAIL['Please note that this will change your current password.'] = 'لطفا دقت داشته باشید که با انجام این کار، رمز فعلی شما تغییر خواهد کرد.';
+$_LANGMAIL['Please note that this will change your current password.'] = 'لطفا دقت داشته باشید که با انجام این کار، کلمه‌ی عبور فعلی شما تغییر خواهد کرد.';
 $_LANGMAIL['To confirm this action, please use the following link:'] = 'برای تایید این کار، لطفا از لینک داده شده استفاده کنید:';
 $_LANGMAIL['Payment processing error'] = 'اشکال در پردازش پرداخت';
 $_LANGMAIL['There is a problem with your payment for <strong><span>{shop_name}</span></strong> order with the reference <strong><span>{order_name}</span></strong>. Please contact us at your earliest convenience.'] = 'مشکلی با پرداخت شما برای سفارش با مرجع <strong><span>{order_name}</span></strong> در فروشگاه <strong><span>{shop_name}</span></strong> وجود دارد. لطفا در اولین زمان ممکن با ما تماس بگیرید.';

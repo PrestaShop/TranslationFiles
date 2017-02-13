@@ -7,8 +7,8 @@ $_MODULE['<{trackingfront}prestashop>trackingfront_e8a827db4eca37d2c6cdef8e406f6
 $_MODULE['<{trackingfront}prestashop>trackingfront_d565f36c06949442a4eb998354376c5b'] = 'فعال کردن وابستگیهای شما برای دسترسی  آنها به آمار خود. آمار>>ارجاع ها را ببینید.';
 $_MODULE['<{trackingfront}prestashop>trackingfront_8f5ac7793b2547cd025a7335f4934d26'] = 'نام کاربری مورد نیاز است';
 $_MODULE['<{trackingfront}prestashop>trackingfront_6f658a5bbec855ca5ae4ef4c94eb5d43'] = 'نام کاربری نامعتبر';
-$_MODULE['<{trackingfront}prestashop>trackingfront_962c91be4b1056412febf0c272760814'] = 'کلمه عبور مورد نیاز است';
-$_MODULE['<{trackingfront}prestashop>trackingfront_703c2b69e5d9f7072b7db5338214448b'] = 'کلمه عبور نامعتبر';
+$_MODULE['<{trackingfront}prestashop>trackingfront_962c91be4b1056412febf0c272760814'] = 'کلمه‌ی عبور اجباری است';
+$_MODULE['<{trackingfront}prestashop>trackingfront_703c2b69e5d9f7072b7db5338214448b'] = 'کلمه‌ی عبور نامعتبر';
 $_MODULE['<{trackingfront}prestashop>trackingfront_c41c77e4dddc04b1e0752a6050ae5656'] = 'تایید ناموفق';
 $_MODULE['<{trackingfront}prestashop>trackingfront_10965b2740f42ad4887932c35cee26ab'] = 'بازدیدکنندگان غیرمشابه';
 $_MODULE['<{trackingfront}prestashop>trackingfront_ae5d01b6efa819cc7a7c05a8c57fcc2c'] = 'مراجعین';
@@ -49,7 +49,7 @@ $_MODULE['<{trackingfront}prestashop>header_bf15e68d25d8a2b7664950ba7385ed0a'] =
 $_MODULE['<{trackingfront}prestashop>login_bf15e68d25d8a2b7664950ba7385ed0a'] = 'بازاریابی';
 $_MODULE['<{trackingfront}prestashop>login_8954e140059f7b2544469f40161ba507'] = 'بخش بازاریابی';
 $_MODULE['<{trackingfront}prestashop>login_b6d4223e60986fa4c9af77ee5f7149c5'] = 'ورود به حساب';
-$_MODULE['<{trackingfront}prestashop>login_dc647eb65e6711e155375218212b3964'] = 'رمز عبور';
+$_MODULE['<{trackingfront}prestashop>login_dc647eb65e6711e155375218212b3964'] = 'کلمه‌ی عبور';
 
 
 return $_MODULE;

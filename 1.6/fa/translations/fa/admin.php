@@ -504,9 +504,9 @@ $_LANGADM['AdminCustomerPreferencesc7e45dbe45b7f0ea82d5d0ddad25254e'] = 'اگر 
 $_LANGADM['AdminCustomerPreferencesa7ddcecde44eba59d425762fcdeec665'] = 'نمایش مجدد سبد خرید در بدو ورود';
 $_LANGADM['AdminCustomerPreferencesb9716d3d87447a2275318bf88ced7bf8'] = 'پس از ورود مشتري به حساب، شما مي توانيد مطالب مربوط به آخرين سبد خريد او را فراخواني و نمايش دهيد.';
 $_LANGADM['AdminCustomerPreferencesfcae2ef516600f29ac9aa4b084981328'] = 'یک ایمیل پس از ثبت نام ارسال شود';
-$_LANGADM['AdminCustomerPreferences751e29d82b27256878d1a38f2be4e118'] = 'ارسال یک ایمیل پس از ثبت نام به کاربر که دارای نتیجه‎ی اطلاعات حساب (ایمیل، گذرواژه) است.';
-$_LANGADM['AdminCustomerPreferences9ca2e29ab10b2046b32dea40f4e5c232'] = 'تاخیر زمانی بازنشانی رمز';
-$_LANGADM['AdminCustomerPreferences59a84d54ad58aa4bea8aeacd11e47ab2'] = 'حداقل فاصله زمانی لازم بین دو درخواست بازنشانی رمز.';
+$_LANGADM['AdminCustomerPreferences751e29d82b27256878d1a38f2be4e118'] = 'ارسال یک ایمیل پس از ثبت نام به کاربر که دارای نتیجه‎ی اطلاعات حساب (ایمیل، کلمه‌ی عبور) است.';
+$_LANGADM['AdminCustomerPreferences9ca2e29ab10b2046b32dea40f4e5c232'] = 'تاخیر زمانی بازنشانی کلمه‌ی عبور';
+$_LANGADM['AdminCustomerPreferences59a84d54ad58aa4bea8aeacd11e47ab2'] = 'حداقل فاصله زمانی لازم بین دو درخواست بازنشانی کلمه‌ی عبور.';
 $_LANGADM['AdminCustomerPreferences640fd0cc0ffa0316ae087652871f4486'] = 'دقیقه';
 $_LANGADM['AdminCustomerPreferencesc760118c537146713521758269a44bd3'] = 'فعال کردن حالت B2B';
 $_LANGADM['AdminCustomerPreferencese0cf416b39580f321e4641721698560f'] = 'فعال یا غیر فعال کردن حالت B2B. وقتی این گزینه فعال است، خصوصیات B2B در درسترس است.';
@@ -542,9 +542,9 @@ $_LANGADM['AdminCustomers601bcb96f0fb98dadc4dda90d98ef24d'] = 'افزودن مش
 $_LANGADM['AdminCustomers257630448a4acd9cfc1ce6c7a5ce05f3'] = 'افزودن مشتری جدید';
 $_LANGADM['AdminCustomersce26601dac0dea138b7295f02b7620a7'] = 'مشتری';
 $_LANGADM['AdminCustomers6252c0f2c2ed83b7b06dfca86d4650bb'] = 'کاراکترهای نامعتبر:';
-$_LANGADM['AdminCustomersdc647eb65e6711e155375218212b3964'] = 'رمز عبور';
+$_LANGADM['AdminCustomersdc647eb65e6711e155375218212b3964'] = 'کلمه‌ی عبور';
 $_LANGADM['AdminCustomersc303e977a1def43cf2ef42804513c6ff'] = 'اگر تغییری بوجود نیامده است، این فیلد را خالی رها کنید.';
-$_LANGADM['AdminCustomersf44c07e8b6e19d8ea1e551d181993898'] = 'طول رمز عبور باید حداقل"%s"حرف باشد.';
+$_LANGADM['AdminCustomersf44c07e8b6e19d8ea1e551d181993898'] = 'طول کلمه‌ی عبور باید حداقل"%s"حرف باشد.';
 $_LANGADM['AdminCustomersaac772216aecbeca0e86d06671fe985a'] = 'تاریخ تولد';
 $_LANGADM['AdminCustomersb9f5c797ebbf55adccdd8539a65a0241'] = 'غیرفعال';
 $_LANGADM['AdminCustomers6010127763b917fdc47eb0c50a86a6f6'] = 'فعال یا غیر فعال کردن ورود مشتری به سایت.';
@@ -604,8 +604,8 @@ $_LANGADM['AdminCustomerThreads197f7f372a439787cef040d61f4dbe83'] = 'پورت IM
 $_LANGADM['AdminCustomerThreadsd60419d8fec86275eb0752ce43556e6f'] = 'پورت اتصال به سرور IMAP.';
 $_LANGADM['AdminCustomerThreadsf9b68c21c5d51df2d6b54cfbfa985abe'] = 'کاربر IMAP';
 $_LANGADM['AdminCustomerThreadsb8453d9982fb11c704dca368e5107677'] = 'کاربر متصل کننده سرور IMAP.';
-$_LANGADM['AdminCustomerThreads2cacfd762c9fc6f7a140aadc7b5a608c'] = 'گذرواژه IMAP';
-$_LANGADM['AdminCustomerThreads849dafe04c2f54cb0dc079da9ca15a8f'] = 'گذرواژه برای وصل شدن به سرور IMAP شما.';
+$_LANGADM['AdminCustomerThreads2cacfd762c9fc6f7a140aadc7b5a608c'] = 'کلمه‌ی عبور IMAP';
+$_LANGADM['AdminCustomerThreads849dafe04c2f54cb0dc079da9ca15a8f'] = 'کلمه‌ی عبور برای وصل شدن به سرور IMAP شما.';
 $_LANGADM['AdminCustomerThreadsca7e64e3f55ef8e0f50818d8117d26cc'] = 'حذف پیام‎ها';
 $_LANGADM['AdminCustomerThreadse9d5cadd20f10058a5bb0823aed17584'] = 'پیام ها را پس از همگام سازی پاک کن. اگر این گزینه را فعال نکنید، همگام سازی زمان بیشتری به طول خواهد انجامید.';
 $_LANGADM['AdminCustomerThreads1fd5325f317b2c9aacc11fb393fd2aa8'] = 'ایجاد موضوع جدید';
@@ -706,7 +706,7 @@ $_LANGADM['AdminEmailsbdd48fb41b9d0a4a1051fa22a87eb5a2'] = 'سرور SMTP';
 $_LANGADM['AdminEmails2a3c280f73a3389c6ba4b2d87c8aa15f'] = 'آدرس آی پی و یا نام سرور (به عنوان مثال smtp.mydomain.com).';
 $_LANGADM['AdminEmailsa7bfd8847270913b15396380c3627d76'] = 'نام کاربری SMTP';
 $_LANGADM['AdminEmailsa5d35e0a66d41c7d12c0df6e643fa0ff'] = 'اگر لازم نیست خالی بگذارید';
-$_LANGADM['AdminEmails3cffa2fabd5519beaf4c2fbd0610899b'] = 'رمزعبور SMTP';
+$_LANGADM['AdminEmails3cffa2fabd5519beaf4c2fbd0610899b'] = 'کلمه‌ی عبور SMTP';
 $_LANGADM['AdminEmailsd7f2615c71a1567cc13cf3a7f7de0aea'] = 'رمزگذاری';
 $_LANGADM['AdminEmailsd8f5b3c4ad206980b27a9d88a217a0d5'] = 'از یک پروتکل رمزگذاری استفاده کن';
 $_LANGADM['AdminEmails5b8df4265c79cd43831e740281850c84'] = 'SSL ظاهرا در سرور شما غیر فعال است.';
@@ -736,8 +736,8 @@ $_LANGADM['AdminEmployeesb357b524e740bc85b9790a0712d84a30'] = 'آدرس ایمی
 $_LANGADM['AdminEmployeescce99c598cfdb9773ab041d54c3d973a'] = 'پروفایل';
 $_LANGADM['AdminEmployees4d3d769b812b6faa6b76e1a8abaece2d'] = 'فعال';
 $_LANGADM['AdminEmployeesa19df5d477865657e2e2d4f9c30325db'] = 'تنظیمات کارمند';
-$_LANGADM['AdminEmployees67dc4a38907a53d52fb27cd3ae7972d6'] = 'دوباره سازی گذرواژه';
-$_LANGADM['AdminEmployees4513dcc4cec4ce6e5a428c81ce7592ae'] = 'ایمنی: حداقل زمان انتظار میان تغییر دو گذرواژه';
+$_LANGADM['AdminEmployees67dc4a38907a53d52fb27cd3ae7972d6'] = 'بازنشانی کلمه‌ی عبور';
+$_LANGADM['AdminEmployees4513dcc4cec4ce6e5a428c81ce7592ae'] = 'امنیتی: حداقل زمان انتظار میان تغییر دو کلمه‌ی عبور.';
 $_LANGADM['AdminEmployees640fd0cc0ffa0316ae087652871f4486'] = 'دقیقه';
 $_LANGADM['AdminEmployees987f9e9654b8201f8a428d71d903b1d2'] = 'به یادداشتن زبان مورد استفاده شده در فرم‌های صفحه مدیریت';
 $_LANGADM['AdminEmployees4696cdea33eee7e2c4fcb5dca30ccf56'] = 'اجازه به کارمندان برای ذخیره زبان پیش‎فرض برای خودشان';
@@ -749,8 +749,8 @@ $_LANGADM['AdminEmployees485263210a4a12e35e3426045e3301b1'] = 'افزودن کا
 $_LANGADM['AdminEmployees69041353e07f2d5faa09e0cc1f8967a9'] = 'ویرایش: %1$s %2$s';
 $_LANGADM['AdminEmployeeseb626c94531ec554f93b2b78a77c8b1b'] = 'کارمندان';
 $_LANGADM['AdminEmployeesa5659b5b75918dbf9cb6f36ce026779e'] = 'آواتار شما در پرستاشاپ 1.6 تصویر پروفایل شما در %1$s است. برای تغییر آواتار، با ایمیل خود %2$s وارد پرستاشاپ شوید و راهنمایی‎های نمایش داده شده را دنبال نمایید.';
-$_LANGADM['AdminEmployeesdc647eb65e6711e155375218212b3964'] = 'رمز عبور';
-$_LANGADM['AdminEmployeesf44c07e8b6e19d8ea1e551d181993898'] = 'طول رمز عبور باید حداقل"%s"حرف باشد.';
+$_LANGADM['AdminEmployeesdc647eb65e6711e155375218212b3964'] = 'کلمه‌ی عبور';
+$_LANGADM['AdminEmployeesf44c07e8b6e19d8ea1e551d181993898'] = 'طول کلمه‌ی عبور باید حداقل"%s"حرف باشد.';
 $_LANGADM['AdminEmployeesd52c376b3badee6132116bb9af74d0d2'] = 'عضویت در خبرنامه پرستاشاپ';
 $_LANGADM['AdminEmployees0b2827832fff3d973ee0ed2e6c7d4b23'] = 'پرستاشاپ می تواند به طور منظم به وسیله ی ارسال نکته هایی جهت چگونگی مدیریت فروشگاه شما را راهنمایی خواهد کرد که به رشد تجارت شما کمک خواهد کرد. اگر تمایل به دریافت این نکات ندارید، لطفا تیک این جعبه را بردارید.';
 $_LANGADM['AdminEmployees435a2d71a0c6c33cd2c917b00b8e0da1'] = 'صفحه‌ی پیش‎فرض';
@@ -1022,7 +1022,7 @@ $_LANGADM['AdminImport7506b41cf1aa65b2663b038e465c0d6d'] = 'فعال کردن م
 $_LANGADM['AdminImporta10d0bff85112a2b35f885a38088cd20'] = 'فعال (0/1)';
 $_LANGADM['AdminImportf323be7152201bfc856e649e84e9d64c'] = 'شناسه عناوین (مرد = 1 ، زن = 2 ، دیگران 0)';
 $_LANGADM['AdminImport2800934ee0a7d93e23921cc9f8130e7b'] = 'پست الکترونیک *';
-$_LANGADM['AdminImportfa55b690a40b612af02ba2958cd6cb71'] = 'کلمه عبور *';
+$_LANGADM['AdminImportfa55b690a40b612af02ba2958cd6cb71'] = 'کلمه‌ی عبور *';
 $_LANGADM['AdminImporte791ac244233afc29b6f16f20b6e8e1f'] = 'تاریخ تولد (yyyy-mm-dd)';
 $_LANGADM['AdminImport5a10c39efebe8e46755c6f5ac518316b'] = 'نام خانوادگی *';
 $_LANGADM['AdminImportc0ae9625141c7d096008b373ce13d22e'] = 'نام *';
@@ -1246,7 +1246,7 @@ $_LANGADM['AdminLogin86bbc77fd75ac02c21b84a37b260eadd'] = 'بخش مدیریت';
 $_LANGADM['AdminLogind3338ce970be43e586e64e0a41dc01e2'] = 'یک خطا رخ داده است.';
 $_LANGADM['AdminLoginc7da8f310b3b53c7c3529517860b7ecc'] = 'چندین خطا رخ داده است.';
 $_LANGADM['AdminLogin4b2fad63171f88001e65ffa9d8a3f234'] = 'اتصال به بخش مدیریت از %s';
-$_LANGADM['AdminLogin50beba9b007780eafda4d1c72fe6f35c'] = 'کلمه عبور از طریق ایمیل برای شما ارسال شده است';
+$_LANGADM['AdminLogin50beba9b007780eafda4d1c72fe6f35c'] = 'کلمه‌ی عبور برای شما ایمیل شده است.';
 $_LANGADM['AdminLogsb718adec73e04ce3ec720dd11a06a308'] = 'شناسه';
 $_LANGADM['AdminLogsf8c8b903cb2e4f297e4b96d4b9c1e98a'] = 'کارمند';
 $_LANGADM['AdminLogsecb833e2dc5d6c03d4d0cddf1b15e85a'] = 'درجه امنیتی (1-4)';
@@ -1954,10 +1954,10 @@ $_LANGADM['AdminReferrersd3b206d196cd6be3a2764c1fb90b200f'] = 'حذف انتخا
 $_LANGADM['AdminReferrerse25f0ecd41211b01c83e5fec41df4fe7'] = 'موارد انتخابی حذف شوند؟';
 $_LANGADM['AdminReferrers581007491cfa474c1e1c1943b4f7026e'] = 'افزودن ارجاع دهنده‎ی جدید';
 $_LANGADM['AdminReferrersbb166feff34b74fef81127259160c93a'] = 'واسطه';
-$_LANGADM['AdminReferrersdc647eb65e6711e155375218212b3964'] = 'رمز عبور';
+$_LANGADM['AdminReferrersdc647eb65e6711e155375218212b3964'] = 'کلمه‌ی عبور';
 $_LANGADM['AdminReferrers6ca725316d3577fb24218119380f38fe'] = 'جهت عدم تغییر، خالی رها کنید.';
 $_LANGADM['AdminReferrersc9cc8cce247e49bae79f15173ce97354'] = 'ذخیره';
-$_LANGADM['AdminReferrers467c4d2c6929de8029b216ef0c57df6a'] = 'بازاریاب‎ها می‎توانند به داده‎های خودشان با این نام و رمز دسترسی داشته باشند.';
+$_LANGADM['AdminReferrers467c4d2c6929de8029b216ef0c57df6a'] = 'همکاران فروش می‌توانند به داده‌های خود از طریق این نام و کلمه‌ی عبور دسترسی داشته باشند.';
 $_LANGADM['AdminReferrers6d4acea4a9682c8387d2117120a060e5'] = 'آدرس دسترسی';
 $_LANGADM['AdminReferrers65cb8cfe592b4ebd784f166f775bcae0'] = 'لطفا ماژول "%s" را به منظور اجازه دادن دسترسی همکاران فروش به آمار های خود را نصب کنید.';
 $_LANGADM['AdminReferrers6691265cf8673ac521e3a1672d482723'] = 'طرح دستمزد';
@@ -3541,7 +3541,7 @@ $_LANGADM['AdminCustomers4d3d769b812b6faa6b76e1a8abaece2d'] = 'فعال';
 $_LANGADM['AdminCustomers3cab03c00dbd11bc3569afa0748013f0'] = 'غیرفعال';
 $_LANGADM['AdminCustomers1f8895b98efdf9e96766d39f24ec352c'] = 'این مشتری به عنوان کاربر مهمان ثبت شده است.';
 $_LANGADM['AdminCustomers832c2f75a0029f82a281704661b07542'] = 'تبدیل به حساب کاربری مشتری';
-$_LANGADM['AdminCustomersfef9632f39b66ba488e163a665bb0e99'] = 'این ویژگی یک رمز تصادفی تولید کرده و یک ایمیل به مشتری ارسال می‌کند.';
+$_LANGADM['AdminCustomersfef9632f39b66ba488e163a665bb0e99'] = 'این ویژگی یک کلمه‌ی عبور تصادفی تولید کرده و یک ایمیل به مشتری ارسال می‌کند.';
 $_LANGADM['AdminCustomersc7b085efe30557dbc76c2ba487506049'] = 'یک حساب کاربری با همین آدرس رایانامه وجود دارد.';
 $_LANGADM['AdminCustomers7442e29d7d53e549b78d93c46b8cdcfc'] = 'سفارش‌ها';
 $_LANGADM['AdminCustomersd1554912e46f8d36a800ad8b604225f1'] = 'سفارشات معتبر';
@@ -3794,7 +3794,7 @@ $_LANGADM['AdminInformationbdd48fb41b9d0a4a1051fa22a87eb5a2'] = 'سرور SMTP';
 $_LANGADM['AdminInformationa7bfd8847270913b15396380c3627d76'] = 'نام کاربری SMTP';
 $_LANGADM['AdminInformationc4e9522d7b3c8c652f7f0333ff436eec'] = 'معین شده';
 $_LANGADM['AdminInformationf8b1369a8e9d90da0cae0b11049309af'] = 'معین نشده';
-$_LANGADM['AdminInformation3cffa2fabd5519beaf4c2fbd0610899b'] = 'رمزعبور SMTP';
+$_LANGADM['AdminInformation3cffa2fabd5519beaf4c2fbd0610899b'] = 'کلمه‌ی عبور SMTP';
 $_LANGADM['AdminInformation8a7363b823dce00b3b1b7e62ca1d777d'] = 'رمزگذاری';
 $_LANGADM['AdminInformation599303a627bf19148eedd5fe29112729'] = 'درگاه SMTP';
 $_LANGADM['AdminInformation8746097684bc64be8b7eff424c4debdb'] = 'اطلاعات شما';
@@ -3816,11 +3816,11 @@ $_LANGADM['AdminLanguagesc8177e39573538431ca4c24841ee3fbe'] = 'فایل‎های
 $_LANGADM['AdminLogin1e460c9780e870a025de51dbac61eeae'] = '%d خطا وجود دارد';
 $_LANGADM['AdminLogine1ca36437c42dca0886afdc7d463b012'] = '%d خطا وجود دارد';
 $_LANGADM['AdminLoginb357b524e740bc85b9790a0712d84a30'] = 'آدرس ایمیل';
-$_LANGADM['AdminLogindc647eb65e6711e155375218212b3964'] = 'رمز عبور';
+$_LANGADM['AdminLogindc647eb65e6711e155375218212b3964'] = 'کلمه‌ی عبور';
 $_LANGADM['AdminLoginbffe9a3c9a7e00ba00a11749e022d911'] = 'ورود';
 $_LANGADM['AdminLogin77dcc4123443269bb7d3e1e5912439df'] = 'از حساب کاربری خارج نشوید';
-$_LANGADM['AdminLoginb05d72142020283dc6812fd3a9bc691c'] = 'گذرواژه‌ام را فراموش کرده ام';
-$_LANGADM['AdminLogin01a569ddc6cf67ddec2a683f0a5f5956'] = 'کلمه عبور خود را فراموش کرده اید؟';
+$_LANGADM['AdminLoginb05d72142020283dc6812fd3a9bc691c'] = 'کلمه‌ی عبورم را فراموش کرده‌ام';
+$_LANGADM['AdminLogin01a569ddc6cf67ddec2a683f0a5f5956'] = 'کلمه‌ی عبور خود را فراموش کرده‌اید؟';
 $_LANGADM['AdminLogin8a4708958fbee231a8973f816ee2206e'] = 'لطفاً آدرس ایمیلی که هنگام ثبت نام ارائه داده اید وارد کنید تا کد دسترسی را از طریق ایمیل دریافت کنید.';
 $_LANGADM['AdminLogince8ae9da5b7cd6c3df2929543a9af92d'] = 'ایمیل';
 $_LANGADM['AdminLogin463e58c1d35fb5a4a8d717c99a60d257'] = 'بازگشت به ورود';
@@ -3924,7 +3924,7 @@ $_LANGADM['AdminModules7b32d6283ead7a0eae21c442c8188e1a'] = 'برای ورود �
 $_LANGADM['AdminModulese7115c36c576e92587f81766ecaaef2f'] = 'یک حساب کاربری ندارید؟';
 $_LANGADM['AdminModules030547d47b4cb2e88a3c9a581a61487a'] = 'قدرت افزونه‌های پرستاشاپ را کشف کنید! بازارچه رسمی پرستاشاپ را ببینید و بیش از 3500 ماژول بدیع را بیابید که نرخ تبدیل را بهینه می کند، بازدیدکنندگان را افزایش می دهد، بر میزان وفاداری مشتریان  و سوددهی شما می افزاید';
 $_LANGADM['AdminModules74ec9ffc8d108924d191065b416d8544'] = 'اتصال به افزونه‌های پرستاشاپ';
-$_LANGADM['AdminModulesb05d72142020283dc6812fd3a9bc691c'] = 'گذرواژه‌ام را فراموش کرده ام';
+$_LANGADM['AdminModulesb05d72142020283dc6812fd3a9bc691c'] = 'کلمه‌ی عبورم را فراموش کرده‌ام';
 $_LANGADM['AdminModules2fe4fe0a0ebea41ce43eb3dc3fce4ea3'] = 'ایجاد حساب کاربری';
 $_LANGADM['AdminModulesb6d4223e60986fa4c9af77ee5f7149c5'] = 'ورود به حساب';
 $_LANGADM['AdminModulese88e176e72b122566ada523a7297e4e5'] = 'این ماژول توسط پرستاشاپ تایید نشده است.';
@@ -4154,7 +4154,7 @@ $_LANGADM['AdminOrdersd694c11f096d5d666dde9ab8f9d9ba29'] = 'تغییر واحد 
 $_LANGADM['AdminOrdersf9a5775d7def0b6c57393fc86bb7a730'] = 'فراموش نکنید نرخ تبدیل را قبل از ایجاد این تغییر به روز کنید.';
 $_LANGADM['AdminOrders6fe50cb3c0bf60f28ac9049ae6cb8c26'] = 'این سفارش توسط یک مهمان ثبت شده است.';
 $_LANGADM['AdminOrders730224c4825ae2c174f4cdaff321520e'] = 'تبدیل مهمان به مشتری';
-$_LANGADM['AdminOrders883370e6a8360f9ffe2e658db153fd74'] = 'این ویژگی یک کلمه عبور اتفاقی ساخته و به مشتری ارسال می‎کند.';
+$_LANGADM['AdminOrders883370e6a8360f9ffe2e658db153fd74'] = 'این ویژگی یک کلمه‌ی عبور تصادفی ساخته و به مشتری ارسال می‎کند.';
 $_LANGADM['AdminOrdersecd2046a1d4a6e46c11914c04b9559e4'] = 'یک حساب کاربری با همین آدرس رایانامه وجود دارد';
 $_LANGADM['AdminOrdersce8ae9da5b7cd6c3df2929543a9af92d'] = 'ایمیل';
 $_LANGADM['AdminOrders6a7bac4a86e299a2718b9d2c7c8aaea9'] = 'حساب ثبت شده';
@@ -5071,18 +5071,18 @@ $_LANGADM['Helperec211f7c20af43e742bf2570c3cb84f9'] = 'افزودن';
 $_LANGADM['Helper1063e38cb53d94d386f21227fcd84717'] = 'حذف';
 $_LANGADM['Helper93cba07454f06a4a960172bbd6e2a435'] = 'بله';
 $_LANGADM['Helperbafd7322c6e97d25b6299b5d6fe8920b'] = 'خیر';
-$_LANGADM['Helper26ce1315d2bff025e8fb8a0c6259e58c'] = 'تغییر رمز عبور ...';
-$_LANGADM['Helperd9c2d86a66aa5a45326c3757f3a272cc'] = 'گذرواژه فعلی';
-$_LANGADM['Helper98a6ee4b0f0e346c15ab21a289165a2d'] = 'رمز عبور باید حد اقل 8 کاراکتر باشد.';
-$_LANGADM['Helper3544848f820b9d94a3f3871a382cf138'] = 'گذرواژه‎ی نو';
-$_LANGADM['Helper4c231e0da3eaaa6a9752174f7f9cfb31'] = 'تأیید گذرواژه';
-$_LANGADM['Helper2871afea416378d2772937c4d67d6c2c'] = 'تولید رمز عبور';
-$_LANGADM['Helpered400dc4c641d6e5672616ac56a669ec'] = 'گذرواژه‌ی جدید را به وسیله‌ی ایمیل برای من ارسال کن';
+$_LANGADM['Helper26ce1315d2bff025e8fb8a0c6259e58c'] = 'تغییر کلمه‌ی عبور...';
+$_LANGADM['Helperd9c2d86a66aa5a45326c3757f3a272cc'] = 'کلمه‌ی عبور فعلی';
+$_LANGADM['Helper98a6ee4b0f0e346c15ab21a289165a2d'] = 'کلمه‌ی عبور باید حد اقل 8 کاراکتر باشد.';
+$_LANGADM['Helper3544848f820b9d94a3f3871a382cf138'] = 'کلمه‌ی عبور جدید';
+$_LANGADM['Helper4c231e0da3eaaa6a9752174f7f9cfb31'] = 'تأیید کلمه‌ی عبور';
+$_LANGADM['Helper2871afea416378d2772937c4d67d6c2c'] = 'تولید کلمه‌ی عبور';
+$_LANGADM['Helpered400dc4c641d6e5672616ac56a669ec'] = 'کلمه‌ی عبور جدید را به وسیله‌ی ایمیل برای من ارسال کن';
 $_LANGADM['Helper4bbb8f967da6d1a610596d7257179c2b'] = 'نامعتبر';
 $_LANGADM['Helper26b63f278101527e06a5547719568bb5'] = 'بسیار خوب';
 $_LANGADM['Helper0c6ad70beb3a7e76c3fc7adab7c46acc'] = 'خوب';
 $_LANGADM['Helperb8dc7c80939667637db7ac31ece215b9'] = 'شگفت آور';
-$_LANGADM['Helper01e8202cf69f19ea7cf3a80f7673066a'] = 'تأیید گذرواژه اشتباه است';
+$_LANGADM['Helper01e8202cf69f19ea7cf3a80f7673066a'] = 'تأیید کلمه‌ی عبور نامعتبر است';
 $_LANGADM['Helper1e1cc9bdeb2f29f5480106aec7e9bc48'] = 'هم اکنون';
 $_LANGADM['Helperf92965e2c8a7afb3c1b9a5c09a263636'] = '\"انجام شد\"';
 $_LANGADM['Helper3964fd83339fec5014c831822005653a'] = 'گزینش زمان';

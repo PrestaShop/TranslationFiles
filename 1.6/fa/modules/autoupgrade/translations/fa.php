@@ -350,7 +350,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_774fc7a0f56391abc5d8856f2436
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8fd007bf08e0717537825a3e91cb4fcc'] = 'خواندن محتوای یک فایل MySQL ممکن نیست.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_17a90b480e6f6b8d1214df46c8678015'] = 'قادر به دستیابی به محتویات فایل MySQL نیست.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3d5c8f1d29b1a1dc4ea0673122e0d277'] = 'خطا هنگام قرارگیری اطلاعات در پایگاه داده';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_17e1581d01152347bfaacd153b961379'] = 'گذرواژه اشتباه است (رشته حروف و اعداد باید حداقل 8 کاراکتر باشد)';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_17e1581d01152347bfaacd153b961379'] = 'کلمه‌ی عبور اشتباه است (حداقل 8 کاراکتر شامل حروف الفبا و اعداد).';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_26b66034d6aa1380df1d30fe33e2e0f6'] = 'یک پایگاه داده پرستاشاپ هم اکنون موجود است. لطفا آن را حذف کنید یا پیشوندها را تغییر دهید.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_bc5e1163a15106f9e941a7603124709d'] = 'این یک نام معتبر برای فایل نیست.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a9d82945b8603f0c8807958d7db9a24d'] = 'این یک فایل تصویری معتبر نیست.';
@@ -360,7 +360,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c5bcaf2cc3be924182f0ec0e3124
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d7a99f61bb284d096ea4f221784af85a'] = 'خطایی هنگام تغییر اندازه تصویر رخ داد.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_428c933bafbf262d693fbf1c22c03e5d'] = 'اتصال به پایگاه داده امکان پذیر است!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_76bd190129b7aefb90fdf42f09ec3ec7'] = 'سرور پایگاه داده موجود است اما پایگاه داده یافت نشد';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_045f4b5c3f990e5a26e2837495d68259'] = 'سرور پایگاه داده پیدا نشد. لطفا فیلدهای نام کاربری، گذرواژه و سرور را بررسی کنید.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_045f4b5c3f990e5a26e2837495d68259'] = 'سرور پایگاه داده پیدا نشد. لطفا فیلدهای نام کاربری، کلمه‌ی عبور و سرور را بررسی کنید.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_757fc72e8d69106dd2cf9da22cc7adb1'] = 'خطایی هنگام ارسال ایمیل رخ داد، لطفا پارامترهای خود را بررسی کنید.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d18ad19290b3bfc3cd0d7badbb6cb6a3'] = 'نمیتوان عکس /img/logo.jpg را نوشت. اگر این عکس هم اکنون وجود دارد، لطفا آن را حذف کنید.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2368e33e3e01d53abb9b60061ab83903'] = 'فایل آپلود شده از upload_max_filesize مشخص شده در php.ini تجاوز میکند';
