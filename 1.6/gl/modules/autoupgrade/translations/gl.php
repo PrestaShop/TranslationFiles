@@ -207,6 +207,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_89928a14f2090aec4fd7aff9ea98
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b3884f9e8ed49a8d7165787d3adec342'] = 'Configuración da base de datos non válida';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f25792b5b08a78dd01810297d219c10c'] = 'Non é posible atopar o directorio de actualización na ruta de instalación.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_bf3abb5f80807c7453c246193372e1ae'] = '%s non é un número de versión válido.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f8b97ae2c4f8cc2a9dc74ca3d4306ce3'] = 'Produciuse un erro ao carga-lo ficheiro de actualización SQL "%s.sql".';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3c2e3b812ebc9bc95ccd9bf9086c4af7'] = 'Produciuse un erro durante a actualización da base de datos.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_257f5523f283710c6859d8f425a0c657'] = 'Base de datos actualizada correctamente';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9dcf84f429818d396d05335d52ef5f42'] = '[SKIP] o directorio "%s" non existe e non pode baleirarse.';
@@ -252,6 +253,13 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f5f6ee32184b6a03c5c9928cbefa
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0e27b7ac485e03dabd5648acd5982dde'] = 'Produciuse un erro durante a realización da copia de seguridade do ficheiro %s.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_48f95ff09327408a578e91655ed872a1'] = 'Ficheiros de %s para facer copia de seguridade.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f36d7ee6cae92008008a95bf5898daf2'] = 'Gardados tódolos ficheiros. Facendo agora copia de seguridade da base de datos';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f39b870765d50b64ba7a6facea83010d'] = 'Engadíronse tódolos ficheiros ao arquivo.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_995d693d79b7f8a95c6b7b195970eed2'] = '%1$s engadido ao arquivo. Faltan %2$s ficheiros.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_4f1030e1e84ec150a7786a243cd7fb08'] = 'Produciuse un erro ao tentar engadir %1$s ao arquivo %2$s.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c7c570b3566699e8c10eabb1a12c3b07'] = 'Engadiuse o ficheiro %1$s (tamaño: %3$s) ao arquivo. Faltan %2$s ficheiros.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d85360d9b6992f471292bf16fe32a16d'] = 'Engadiuse o ficheiro %1$s (tamaño: %2$s) ao arquivo.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_6e30d5ad868a1053455a9219e14883fc'] = 'Omitiuse o ficheiro %1$s (tamaño: %2$s) durante a copia de seguridade.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8a5062d4832b42720342c513d7d52f7d'] = '[ERROR] Produciuse un erro na copia de seguridade ao empregar PclZip: %s.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b9a2db69065827812dd4b7a7f9ffc0b1'] = 'imposible abri-lo arquivo';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_41247d1e5ee2ca774bfdc3262ee1770b'] = 'Gardados tódolos ficheiros. Facendo agora copia de seguridade da base de datos.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_6db37da3334e8a950c5bcdabc9fcf8f8'] = 'Borráronse tódolos ficheiros de exemplo. Copia de seguridade omitida. Actualizando agora os ficheiros.';
