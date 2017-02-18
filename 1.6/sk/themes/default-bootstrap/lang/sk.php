@@ -743,7 +743,6 @@ $_LANG['order-slip_8cf04a9734132302f96da8e113e80ce5'] = 'Úvodná stránka';
 $_LANG['order-steps_290612199861c31d1036b185b4e69b75'] = 'Zhrnutie';
 $_LANG['order-steps_b6d4223e60986fa4c9af77ee5f7149c5'] = 'Prihlásiť sa';
 $_LANG['order-steps_dd7bf230fde8d4836917806aff6a6b27'] = 'Adresa';
-$_LANG['order-steps_ea9cf7e47ff33b2be14e6dd07cbcefc6'] = 'Doručenie';
 $_LANG['order-steps_c453a4b8e8d98e82f35b67f433e3b4da'] = 'Platba';
 $_LANG['pagination_eb92025cb8c66f1850c13a9b602a1856'] = 'Zobraziť všetko';
 $_LANG['pagination_dd1f775e443ff3b9a89270713580a51b'] = 'Predchádz.';

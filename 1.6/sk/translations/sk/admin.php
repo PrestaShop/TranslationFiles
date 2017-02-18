@@ -4092,7 +4092,6 @@ $_LANGADM['AdminOrdersc89db248919294ef0291a6586f6e9a5b'] = 'Hľadať zľavový k
 $_LANGADM['AdminOrders11599f38f7ac080ae579f1bf32f08561'] = 'Pridať nový zľavový kupón';
 $_LANGADM['AdminOrders284b47b0bb63ae2df3b29f0e691d6fcf'] = 'Adresy';
 $_LANGADM['AdminOrdersb15e1100a6196acba01ef7aaa5b2a9e5'] = 'Pridať novú adresu';
-$_LANGADM['AdminOrdersea9cf7e47ff33b2be14e6dd07cbcefc6'] = 'Doručenie';
 $_LANGADM['AdminOrders19dfe063714422004b75043eaf74c9b8'] = 'Spôsob doručenia';
 $_LANGADM['AdminOrders4c15f9bb0c76e90180c701b2d39994d8'] = 'Doručenie (s DPH)';
 $_LANGADM['AdminOrdersa6105c0a611b41b08f1209506350279e'] = 'áno';
