@@ -9,6 +9,7 @@ $_TABS['AdminParentOrders'] = 'Objednávky';
 $_TABS['AdminParentCustomer'] = 'Zákazníci';
 $_TABS['AdminPriceRule'] = 'Cenové pravidlá';
 $_TABS['AdminParentModules'] = 'Moduly a Služby';
+$_TABS['AdminParentShipping'] = 'Doručenie';
 $_TABS['AdminParentLocalization'] = 'Lokalizácia';
 $_TABS['AdminParentPreferences'] = 'Nastavenia';
 $_TABS['AdminTools'] = 'Rozšírené nastavenia';
