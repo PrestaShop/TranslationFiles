@@ -4,6 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{homefeatured}prestashop>homefeatured_5d17bf499a1b9b2e816c99eebf0153a9'] = 'محصولات پرطرفدار در صفحه خانگی';
+$_MODULE['<{homefeatured}prestashop>homefeatured_6d37ec35b5b6820f90394e5ee49e8cec'] = 'نمایش محصولات پرطرفدار در ستون مرکزی صفحه اصلی.';
 $_MODULE['<{homefeatured}prestashop>homefeatured_fddb8a1881e39ad11bfe0d0aca5becc3'] = 'تعداد این محصولات نادرست است. لطفا یک مقدار مثبت وارد کنید.';
 $_MODULE['<{homefeatured}prestashop>homefeatured_c284a59996a4e984b30319999a7feb1d'] = 'شناسه‌ی دسته نادرست است. لطفا از بین شناسه‌های موجود در دسته‌ها، یکی را انتخاب کنید.';
 $_MODULE['<{homefeatured}prestashop>homefeatured_fd2608d329d90e9a49731393427d0a5a'] = 'مقدار نادرست برای پرچم "اتفاقی".';
@@ -14,6 +15,7 @@ $_MODULE['<{homefeatured}prestashop>homefeatured_d44168e17d91bac89aab3f38d8a4da8
 $_MODULE['<{homefeatured}prestashop>homefeatured_1b73f6b70a0fcd38bbc6a6e4b67e3010'] = 'تعداد محصولاتی که در صفحه خانگی نمایش داده می شوند را تنظیم کنید (پیش فرض: 8).';
 $_MODULE['<{homefeatured}prestashop>homefeatured_b773a38d8c456f7b24506c0e3cd67889'] = 'دسته‌ای که محصولات از آن انتخاب و نمایش داده شده‌اند';
 $_MODULE['<{homefeatured}prestashop>homefeatured_0db2d53545e2ee088cfb3f45e618ba68'] = 'شناسه‌ی دسته‌ی محصولاتی که می‌خواهید روی صفحه‌ی اصلی به نمایش درآید را انتخاب کنید (پیش فرض: 2 برای "خانه").';
+$_MODULE['<{homefeatured}prestashop>homefeatured_49417670345173e7b95018b7bf976fc7'] = 'نمایش اتفاقی محصولات پرطرفدار';
 $_MODULE['<{homefeatured}prestashop>homefeatured_3c12c1068fb0e02fe65a6c4fc40bc29a'] = 'فعال کنید اگر می خواهید محصولات به صورت تصادفی نمایش داده شوند (پیش فرض: خیر).';
 $_MODULE['<{homefeatured}prestashop>homefeatured_93cba07454f06a4a960172bbd6e2a435'] = 'بله';
 $_MODULE['<{homefeatured}prestashop>homefeatured_bafd7322c6e97d25b6299b5d6fe8920b'] = 'خیر';
