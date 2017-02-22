@@ -5,7 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{gamification}prestashop>admingamificationcontroller_ca96b4f8d13722aac99da25f94ea1711'] = 'Vaše obchodné znalosti';
 $_MODULE['<{gamification}prestashop>admingamificationcontroller_7258e7251413465e0a3eb58094430bde'] = 'Administrácia';
-$_MODULE['<{gamification}prestashop>admingamificationcontroller_3d4aafb2eedeba2fbf92e852f0af745a'] = 'Skúsenosti obchodníkov';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_3d4aafb2eedeba2fbf92e852f0af745a'] = 'Obchodné znalosti';
 $_MODULE['<{gamification}prestashop>admingamificationcontroller_98f770b0af18ca763421bac22b4b6805'] = 'Vlastnosti';
 $_MODULE['<{gamification}prestashop>admingamificationcontroller_f5c7922da355fd289ec1d6469e0583a7'] = 'Úspechy';
 $_MODULE['<{gamification}prestashop>admingamificationcontroller_8189ecf686157db0c0274c1f49373318'] = 'Medzinárodné';
@@ -15,7 +15,7 @@ $_MODULE['<{gamification}prestashop>admingamificationcontroller_38f7af7416ffcd15
 $_MODULE['<{gamification}prestashop>admingamificationcontroller_e7613fe56cdbeddfc9bb6276fd0f0d12'] = '4. Šaman';
 $_MODULE['<{gamification}prestashop>admingamificationcontroller_8d03eaad7ff7babdd33c2c74fe479ed0'] = '5. Guru';
 $_MODULE['<{gamification}prestashop>admingamificationcontroller_e4be4f3e3ae4ee9dda6b60815bf774c1'] = '6. Legenda';
-$_MODULE['<{gamification}prestashop>gamification_3d4aafb2eedeba2fbf92e852f0af745a'] = 'Skúsenosti obchodníkov';
+$_MODULE['<{gamification}prestashop>gamification_3d4aafb2eedeba2fbf92e852f0af745a'] = 'Obchodné znalosti';
 $_MODULE['<{gamification}prestashop>gamification_bacc1bf300527bad9c6ac2d3b875a8d8'] = 'Staňte sa e-commerce odborníkom mihnutím oka!';
 $_MODULE['<{gamification}prestashop>filters_bt_e659b52eba1f0299b2d8ca3483919e72'] = 'Typ:';
 $_MODULE['<{gamification}prestashop>filters_bt_b1c94ca2fbc3e78fc30069c8d0f01680'] = 'Všetko';
