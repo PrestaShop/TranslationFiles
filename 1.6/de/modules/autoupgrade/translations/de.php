@@ -458,7 +458,6 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_1f966606f0a941f655a4e9b7791a
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_21739f79b8e95f4187fce4fefb12af28'] = 'Analysiere die Situation...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5ef0c737746fae2ca90e66c39333f8f6'] = 'Fehler';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_dc3fd488f03d423a04da27ce66274c1b'] = 'Warnung!';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_95095fc4bbc8b42ec512cfb1cfa19d8a'] = 'Sie verwenden PHP Version %s. Bald wird auch PHP Version 5.4 von PrestaShop unterstützt. Um für die Zukunft bereit zu sein, sollten Sie jetzt ein Upgrade auf PHP 5.4 machen!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e58eae3d7ced672a49b5716587b15f89'] = 'Jetzt aktualisieren';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5784315a8bcebe79611d3353723e010d'] = 'Glückwunsch, Sie nutzen bereits die aktuellste Version!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_da3cd17bbbbd3ef7da8e817d3c4cdb46'] = 'Sie kommen wohl aus der Zukunft! Ihre Version ist aktueller als die zur Zeit verfügbare!';
