@@ -4,11 +4,13 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{onboarding}prestashop>onboarding_403078410560ac74cd18391f1fbf55fa'] = 'Erste Schritte';
+$_MODULE['<{onboarding}prestashop>onboarding_76ddbb9f8bbe2624552fd553d0f9d040'] = 'Das Modul "Erste Schritte" begrüßt Anfänger im Back Office Prestashops und führt sie durch Animationen durch die einzelnen Schritte zur Erstellung eines eigenen Shops.';
 $_MODULE['<{onboarding}prestashop>backoffice_top_c50e83d3857e41ea59189e385d4ed024'] = 'Willkommen in Ihrem Online-Shop, %s![1] Mit dieser Anleitung meistern Sie die ersten Schritte mit Ihrem eigenen Shop!';
 $_MODULE['<{onboarding}prestashop>backoffice_top_79b0fcd70b51a3065ebbfe7e953eae38'] = 'Wählen Sie ein neues Template aus dem Verzeichnis aus oder ändern Sie ein vorhandenes..[1]Fügen Sie Ihr Logo ein, spielen Sie mit Fonts und Farben ... Verleihen Sie Ihrem Shop einen unverwechselbares Gepräge!';
 $_MODULE['<{onboarding}prestashop>backoffice_top_9a12f893e37f0f1fb9fb04bf16a7d78d'] = 'Legen Sie den Grundstein für Ihre Artikelpalette mit dem ersten Artikel.[1]Erfassen Sie auf jeden Fall die unverzichtbaren Angaben (Preis, eine treffende Beschreibung und ein eingängiges Artikelbild).[1]Natürlich können Sie auch gleich alle Artikel auf einmal per CSV-Datei laden - so ein Import spart Zeit!';
 $_MODULE['<{onboarding}prestashop>backoffice_top_4cf1a5e51827d65ded27c32d4213b12e'] = 'Ihr Shop ist standardmäßig mit PrestaShop Payments by HiPay ausgestattet, so dass Sie auch Kartenzahlung akzeptieren können. Es sind auch andere Zahlungsarten möglich, sofern Sie sie installiert haben.';
 $_MODULE['<{onboarding}prestashop>backoffice_top_0429b4766bfd2e6540dc3cb5537387ff'] = 'Wählen Sie die Zahlungsarten aus, die Sie Ihren Kunden anbieten wollen, verwalten Sie die verschiedenen Beschränkungen (nach Währung, Land oder Kundengruppe).';
+$_MODULE['<{onboarding}prestashop>backoffice_top_e62f682bcf70125635d8915ea127fe9b'] = 'Für weitere Informationen schauen Sie einfach mal in die PrestaShop-Dokumentation (nur Englisch). Dazu reicht ein Klick auf Hilfe in der rechten oberen Ecke Ihres Back Office!';
 $_MODULE['<{onboarding}prestashop>backoffice_top_d26019e187250752a24c5f07694bda99'] = 'Sie haben die grundlegenden ersten Schritte Ihrer Shop-Einstellungen abgeschlossen. Wiederholen Sie sie einfach, um weitere Artikel, Zahlungsarten oder  Versanddienste u erfassen.[1]Weitere Einstellungsmöglichkeiten finden Sie im Kapitel  [2]"First steps with PrestaShop 1.6"[/2] des PrestaShop User Guide.[1]Sobald Sie der Ansicht sind, dass Ihr Shop fertig ist, klicken Sie auf den Button "Starten" und stellen Sie ihn so online.';
 $_MODULE['<{onboarding}prestashop>backoffice_top_82269147f55aa394633d8ffab65a8524'] = 'Los geht\'s!';
 $_MODULE['<{onboarding}prestashop>backoffice_top_d51786a260fac2376360796f7c79b076'] = 'Alles erledigt, jetzt starten!';
@@ -30,6 +32,7 @@ $_MODULE['<{onboarding}prestashop>backoffice_top_863d165c22d70b710d8340b38647605
 $_MODULE['<{onboarding}prestashop>backoffice_top_8537edc13c831abe2ab38ce7f57edb5e'] = 'Ihren Shop inividualisieren';
 $_MODULE['<{onboarding}prestashop>backoffice_top_ea6fc12147e71d57bdd78ca17ca734ce'] = 'Artikel erfassen';
 $_MODULE['<{onboarding}prestashop>backoffice_top_e8907cbf554073d2b2edca1196a32533'] = 'Zahlungsarten einrichten';
+$_MODULE['<{onboarding}prestashop>backoffice_top_3ebc767d6b3a2251fcef53c51c253827'] = 'Nein danke!';
 $_MODULE['<{onboarding}prestashop>backoffice_top_7c7ca9fcc594f7ee55caa299a2afe0f5'] = 'Geben Sie Ihrem Shop eine Identität durch Ihr Logo.';
 $_MODULE['<{onboarding}prestashop>backoffice_top_ddd3ed3987ae409ab3aa41bb608254e6'] = 'Ändern Sie das Template oder installieren Sie ein neues, und verleihen Sie ihm durch Ihr eigenes Logo eine individuelle Note.';
 $_MODULE['<{onboarding}prestashop>backoffice_top_0ea7a6aae70efc93aee629e0ba7ba864'] = 'Ok, jetzt zu meinem Template';
@@ -54,6 +57,7 @@ $_MODULE['<{onboarding}prestashop>backoffice_top_d03e44872879b8a258b6b65973aceb8
 $_MODULE['<{onboarding}prestashop>backoffice_top_26ef476ae1184dd26c0f68c3891bdbe7'] = 'Alle Einstellungen erledigt!';
 $_MODULE['<{onboarding}prestashop>backoffice_top_48fac01462229af90e4a4af28d671d13'] = 'Sie sind nur noch %s Schritte vom Starten entfernt!';
 $_MODULE['<{onboarding}prestashop>backoffice_top_c1230cc7fd7b733996ff1342c852de26'] = 'Sie sind jetzt eigentlich bereit zum Starten des Shops. Sollten Sie dennoch mehr Informationen brauchen, schauen Sie einfach ins PrestaShop-Handbuch (nur Englisch):';
+$_MODULE['<{onboarding}prestashop>backoffice_top_74d6651537f0fcd4184b612ee5950343'] = 'Klicken Sie auf "Hilfe" in der rechten oberen Ecke Ihres Back Office!';
 $_MODULE['<{onboarding}prestashop>backoffice_top_01793ff8582acbe351310a6bf5d070a1'] = 'Mein Shop ist gerade mit @PrestaShop online gegangen. Willst du ihn dir nicht mal ansehen? ';
 
 

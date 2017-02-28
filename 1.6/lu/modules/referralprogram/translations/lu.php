@@ -30,6 +30,7 @@ $_MODULE['<{referralprogram}prestashop>program_8d3f5eff9c40ee315d452392bed5309b'
 $_MODULE['<{referralprogram}prestashop>program_20db0bfeecd8fe60533206a2b5e9891a'] = 'Vorname';
 $_MODULE['<{referralprogram}prestashop>program_1e884e3078d9978e216a027ecd57fb34'] = 'E-Mail';
 $_MODULE['<{referralprogram}prestashop>program_9386de858384e7f790a28beecdb986dd'] = 'Wichtig: Die E-Mail-Adressen Ihrer Freunde werden nur im Kundenempfehlungsprogramm verwendet. Sie werden niemals für andere Zwecke verwendet werden.';
+$_MODULE['<{referralprogram}prestashop>program_605eef3cad421619ce034ab48415190f'] = 'Ich habe die Allgemeinen Geschäftsbedingungen gelesen und stimme ihnen uneingeschränkt zu.';
 $_MODULE['<{referralprogram}prestashop>program_6b719c160f9b08dad4760bcc4b52ed48'] = 'Bedingungen des Empfehlungsprogramms';
 $_MODULE['<{referralprogram}prestashop>program_868ca5fe643791c23b47c75fb833c9b8'] = 'Lesen Sie die Allgemeinen Geschäftsbedingungen.';
 $_MODULE['<{referralprogram}prestashop>program_31fde7b05ac8952dacf4af8a704074ec'] = 'Vorschau';

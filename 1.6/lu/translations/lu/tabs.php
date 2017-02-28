@@ -4,6 +4,7 @@ global $_TABS;
 $_TABS = array();
 
 $_TABS['AdminPriceRule'] = 'Preisregeln';
+$_TABS['AdminParentModules'] = 'Module';
 $_TABS['AdminParentLocalization'] = 'Lokalisierung';
 $_TABS['AdminParentPreferences'] = 'Voreinstellungen';
 $_TABS['AdminTools'] = 'Erweiterte Einstellungen';
@@ -37,6 +38,7 @@ $_TABS['AdminSpecificPriceRule'] = 'Katalog Preisregeln';
 $_TABS['AdminMarketing'] = 'Marketing-Addons';
 $_TABS['AdminShipping'] = 'Voreinstellungen';
 $_TABS['AdminTranslations'] = 'Übersetzungen';
+$_TABS['AdminModules'] = 'Module';
 $_TABS['AdminAddonsCatalog'] = 'Modul- und Template-Shop';
 $_TABS['AdminModulesPositions'] = 'Positionen';
 $_TABS['AdminPreferences'] = 'Allgemein';
