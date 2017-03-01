@@ -37,6 +37,7 @@ $_MODULE['<{homeslider}prestashop>homeslider_f4f70727dc34561dfde1a3c529b6205c'] 
 $_MODULE['<{homeslider}prestashop>homeslider_44877c6aa8e93fa5a91c9361211464fb'] = 'Sebesség';
 $_MODULE['<{homeslider}prestashop>homeslider_105b296a83f9c105355403f3332af50f'] = 'Szünet';
 $_MODULE['<{homeslider}prestashop>homeslider_1e6a508c037fc42ef6155eeadbb80331'] = 'Automatikus lejátszás';
+$_MODULE['<{homeslider}prestashop>homeslider_298b615220606d42b6ac60269df0d321'] = 'A módosítások erre az áruházra lesznek alkalmazva: %s';
 $_MODULE['<{homeslider}prestashop>form_92fbf0e5d97b8afd7e73126b52bdc4bb'] = 'Válassz fájlt';
 $_MODULE['<{homeslider}prestashop>list_c82324ebbcea34f55627a897b37190e3'] = 'Diák listája';
 $_MODULE['<{homeslider}prestashop>list_ef61fb324d729c341ea8ab9901e23566'] = 'Új hozzáadása';

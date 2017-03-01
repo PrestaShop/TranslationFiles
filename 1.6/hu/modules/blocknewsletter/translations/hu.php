@@ -19,7 +19,7 @@ $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_7b15c043d66fecc45c8752592
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_417d63b1effb110e438d4b4b9f0fbd95'] = 'Érvénytelen kupon.';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_c888438d14855d7d96a2724ee9c306bd'] = 'Beállítások frissítve';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_b718adec73e04ce3ec720dd11a06a308'] = 'Azonosító';
-$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_9f82518d468b9fee614fcc92f76bb163'] = 'Bolt';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_9f82518d468b9fee614fcc92f76bb163'] = 'Áruház';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_019ec3132cdf8ee0f2e2a75cf5d3e459'] = 'Neme';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_dff4bf10409100d989495c6d5486035e'] = 'Vezetéknév';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_04176f095283bc729f1e3926967e7034'] = 'Keresztnév';

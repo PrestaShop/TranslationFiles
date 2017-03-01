@@ -25,7 +25,7 @@ $_MODULE['<{cronjobs}prestashop>cronjobsforms_2257d36bcb68362b24cf74f626bac599']
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_94ad8b9f9d516489693dd835cf22bd3b'] = 'Najprv sa uistite, že je na tomto servery nainštalovaná knižnica \'curl\'.';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_18028ef85b7ce8fbde749a2c49c6d18a'] = 'Pre spustenie Vašich úloh prosím vložte nasledujúci riadok do Vášho plánovača:';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_b55e509c697e4cca0e1d160a7806698f'] = 'hodina';
-$_MODULE['<{cronjobs}prestashop>cronjobsforms_03727ac48595a24daed975559c944a44'] = 'deň';
+$_MODULE['<{cronjobs}prestashop>cronjobsforms_03727ac48595a24daed975559c944a44'] = 'Deň';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_7cbb885aa1164b390a0bc050a64e1812'] = 'Mesiac';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_e59278675b8f1e052b22b7e5e7d65da7'] = 'Deň v týždni';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_8cebfac3b4821cbc83041f5df54d7730'] = 'Posledné spustenie';

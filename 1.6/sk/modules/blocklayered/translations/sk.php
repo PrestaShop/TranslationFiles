@@ -46,7 +46,7 @@ $_MODULE['<{blocklayered}prestashop>blocklayered_c74ea6dbff701bfa23819583c52ebd9
 $_MODULE['<{blocklayered}prestashop>blocklayered_8524de963f07201e5c086830d370797f'] = 'Načítavanie ...';
 $_MODULE['<{blocklayered}prestashop>add_1.6_51e17eed0057675de4bde1b34206bb12'] = 'Nová šablóna filtrov';
 $_MODULE['<{blocklayered}prestashop>add_1.6_f8263d99054a4cdb3428196f078fa212'] = 'Názov šablóny:';
-$_MODULE['<{blocklayered}prestashop>add_1.6_4284fda63513b7da70b5d8f032900580'] = 'Len ako pripomienka';
+$_MODULE['<{blocklayered}prestashop>add_1.6_4284fda63513b7da70b5d8f032900580'] = 'Slúži len ako označenie v administrácii';
 $_MODULE['<{blocklayered}prestashop>add_1.6_5d9632c49fb1586eed7123afe2bd806f'] = 'Kategórie použité v tejto šablóne:';
 $_MODULE['<{blocklayered}prestashop>add_1.6_78587049e12fb4f6b12e2bb045f2880a'] = 'Výber kategórie je deaktivovaný, pretože nemáte žiadne kategórie alebo ste v kontexte "všetky obchody".';
 $_MODULE['<{blocklayered}prestashop>add_1.6_c2d0bf5ad42279c519cdcb4a94eb46b6'] = 'Vyberte priradenie pre e-shop:';
@@ -82,7 +82,7 @@ $_MODULE['<{blocklayered}prestashop>add_1.6_dc3f85827350641490287c65c0c4ddf8'] =
 $_MODULE['<{blocklayered}prestashop>add_254f642527b45bc260048e30704edb39'] = 'Konfigurácia';
 $_MODULE['<{blocklayered}prestashop>add_51e17eed0057675de4bde1b34206bb12'] = 'Nová šablóna filtrov';
 $_MODULE['<{blocklayered}prestashop>add_f8263d99054a4cdb3428196f078fa212'] = 'Názov šablóny:';
-$_MODULE['<{blocklayered}prestashop>add_4284fda63513b7da70b5d8f032900580'] = 'Len ako pripomienka';
+$_MODULE['<{blocklayered}prestashop>add_4284fda63513b7da70b5d8f032900580'] = 'Slúži len ako označenie v administrácii';
 $_MODULE['<{blocklayered}prestashop>add_5d9632c49fb1586eed7123afe2bd806f'] = 'Kategórie použité v tejto šablóne:';
 $_MODULE['<{blocklayered}prestashop>add_c2d0bf5ad42279c519cdcb4a94eb46b6'] = 'Vyberte priradenie pre e-shop:';
 $_MODULE['<{blocklayered}prestashop>add_60266302eeda2ac9775c3a2036ae25ca'] = 'Filtre:';
@@ -131,7 +131,7 @@ $_MODULE['<{blocklayered}prestashop>view_1.6_341ce134fbec9978d185ff533931b1b3'] 
 $_MODULE['<{blocklayered}prestashop>view_1.6_53795c3624ae2361363780589aa2aa42'] = 'Môžete nastaviť cron, ktorý znovu vytvorý index použitím nasledovnej URL:';
 $_MODULE['<{blocklayered}prestashop>view_1.6_e43b32b88c77e49f06144cd1ffaeba96'] = 'Môžete nastaviť cron, ktorý znovu vytvorí index atribútov použitím nasledovnej URL:';
 $_MODULE['<{blocklayered}prestashop>view_1.6_94f6d9bfb2c36037040b5764e73dca47'] = 'Môžete nastaviť cron, ktorý znovu vytvorí index použitím nasledovnej URL:';
-$_MODULE['<{blocklayered}prestashop>view_1.6_16349835364cf839e6670b0de7da6362'] = 'Nočná obnova je odporúčaná.';
+$_MODULE['<{blocklayered}prestashop>view_1.6_16349835364cf839e6670b0de7da6362'] = 'Odporúčame nastaviť CRON na nočné hodiny.';
 $_MODULE['<{blocklayered}prestashop>view_1.6_dc83eb2d8601743d8111c5150b93fc71'] = 'Filtrovať šablóny';
 $_MODULE['<{blocklayered}prestashop>view_1.6_b718adec73e04ce3ec720dd11a06a308'] = 'Číslo [ID]';
 $_MODULE['<{blocklayered}prestashop>view_1.6_49ee3087348e8d44e1feda1917443987'] = 'Názov';
@@ -185,7 +185,7 @@ $_MODULE['<{blocklayered}prestashop>view_341ce134fbec9978d185ff533931b1b3'] = 'V
 $_MODULE['<{blocklayered}prestashop>view_53795c3624ae2361363780589aa2aa42'] = 'Môžete nastaviť cron, ktorý znovu vytvorý index použitím nasledovnej URL:';
 $_MODULE['<{blocklayered}prestashop>view_e43b32b88c77e49f06144cd1ffaeba96'] = 'Môžete nastaviť cron, ktorý znovu vytvorí index atribútov použitím nasledovnej URL:';
 $_MODULE['<{blocklayered}prestashop>view_94f6d9bfb2c36037040b5764e73dca47'] = 'Môžete nastaviť cron, ktorý znovu vytvorí index použitím nasledovnej URL:';
-$_MODULE['<{blocklayered}prestashop>view_16349835364cf839e6670b0de7da6362'] = 'Nočná obnova je odporúčaná.';
+$_MODULE['<{blocklayered}prestashop>view_16349835364cf839e6670b0de7da6362'] = 'Odporúčame nastaviť CRON na nočné hodiny.';
 $_MODULE['<{blocklayered}prestashop>view_dc83eb2d8601743d8111c5150b93fc71'] = 'Filtrovať šablóny';
 $_MODULE['<{blocklayered}prestashop>view_2198220edde014ff59601bb2646fed00'] = 'Filtrovať šablóny (%d)';
 $_MODULE['<{blocklayered}prestashop>view_b718adec73e04ce3ec720dd11a06a308'] = 'Číslo [ID]';
@@ -279,7 +279,7 @@ $_MODULE['<{blocklayered}prestashop>feature_value_form_a6c8c88e5e16cba7b9d65ca76
 $_MODULE['<{blocklayered}prestashop>feature_value_form_28034a200e932f22b324a4dda1bb9f64'] = 'Nepovolené znaky: <>;=#{}_';
 $_MODULE['<{blocklayered}prestashop>feature_value_form_9e11e4b371570340ca07913bc4783a7a'] = 'Meta názov';
 $_MODULE['<{blocklayered}prestashop>feature_value_form_26029c4864b0b6843acfe55ee14ba807'] = 'Ak je povolený modul "Blok rozšírená navigácia", môžete získať podrobnejšie URL odkazy výberom slova, ktoré najlepšie vystihuje tento atribút. V predvolenom nastavení PrestaShop používa názov hodnôt, ale toto nastavenie môžete pomocou tohto poľa zmeniť.';
-$_MODULE['<{blocklayered}prestashop>blocklayered_c32516babc5b6c47eb8ce1bfc223253c'] = 'Katalóg';
+$_MODULE['<{blocklayered}prestashop>blocklayered_c32516babc5b6c47eb8ce1bfc223253c'] = 'Filter';
 
 
 return $_MODULE;

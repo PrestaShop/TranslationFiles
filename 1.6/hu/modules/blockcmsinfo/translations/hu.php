@@ -14,7 +14,7 @@ $_MODULE['<{blockcmsinfo}prestashop>blockcmsinfo_c9cc8cce247e49bae79f15173ce9735
 $_MODULE['<{blockcmsinfo}prestashop>blockcmsinfo_630f6dc397fe74e52d5189e2c80f282b'] = 'Vissza a listához';
 $_MODULE['<{blockcmsinfo}prestashop>blockcmsinfo_9d55fc80bbb875322aa67fd22fc98469'] = 'Bolthozzárendelés';
 $_MODULE['<{blockcmsinfo}prestashop>blockcmsinfo_6fcdef6ca2bb47a0cf61cd41ccf274f4'] = 'Blokkazonosító';
-$_MODULE['<{blockcmsinfo}prestashop>blockcmsinfo_9f82518d468b9fee614fcc92f76bb163'] = 'Bolt';
+$_MODULE['<{blockcmsinfo}prestashop>blockcmsinfo_9f82518d468b9fee614fcc92f76bb163'] = 'Áruház';
 $_MODULE['<{blockcmsinfo}prestashop>blockcmsinfo_56425383198d22fc8bb296bcca26cecf'] = 'Tömb szöveg';
 $_MODULE['<{blockcmsinfo}prestashop>blockcmsinfo_ef61fb324d729c341ea8ab9901e23566'] = 'Új hozzáadása';
 

@@ -13,6 +13,7 @@ $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e8d6809226ab177013e0a26bd2d8b60
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_3da9d5745155a430aac6d7de3b6de0c8'] = 'Link hozzáadva';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e24e88b590807c2816be15abd7c7dbbc'] = 'Link eltávolítva.';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_beb4f951c292ec9218473ffe5f59849d'] = 'Link módosítva.';
+$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_298b615220606d42b6ac60269df0d321'] = 'A módosítások erre az áruházra lesznek alkalmazva: %s';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_bf24faeb13210b5a703f3ccef792b000'] = 'Összes gyártó';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_ecf253735ac0cba84a9d2eeff1f1b87c'] = 'Összes beszállító';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_944d19a34e5fa333a6a0de27e8c971da'] = 'Fejléc menü link';
@@ -31,7 +32,7 @@ $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_c7da501f54544eba6787960200d9efd
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_ec136b444eede3bc85639fac0dd06229'] = 'Beszállító';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_c0bd7654d5b278e65f21cf4e9153fdb4'] = 'Gyártó';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_af1b98adf7f686b84cd0b443e022b7a0'] = 'Kategóriák';
-$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_12a521af593422cd508f7707662c9eb2'] = 'Boltok';
+$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_12a521af593422cd508f7707662c9eb2'] = 'Áruházak';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_068f80c7519d0528fb08e82137a72131'] = 'Termék';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_778118c7dd993db08f704e15efa4a7fa'] = 'Válassz termék azonosítót';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_56e8bf6c54f1638e7bce5a2fcd5b20fe'] = 'Felső menü hivatkozásai';

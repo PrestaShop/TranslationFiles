@@ -4,7 +4,7 @@ global $_TABS;
 $_TABS = array();
 
 $_TABS['AdminDashboard'] = 'Prehľadový panel';
-$_TABS['AdminCatalog'] = 'Katalóg';
+$_TABS['AdminCatalog'] = 'Filter';
 $_TABS['AdminParentOrders'] = 'Objednávky';
 $_TABS['AdminParentCustomer'] = 'Zákazníci';
 $_TABS['AdminPriceRule'] = 'Cenové pravidlá';

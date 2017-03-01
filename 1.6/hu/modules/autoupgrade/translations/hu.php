@@ -9,7 +9,7 @@ $_MODULE['<{autoupgrade}prestashop>adminpreferences_b563636fd3896671be0104bbc678
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_27f3765c3871cd5fe52f88f31dfe2c89'] = 'kiválóbb';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_f8d23e159df67b2673d7c29166864453'] = 'rosszabb';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_700e61469b84a66ddb24304a85b0c181'] = 'klasszikus';
-$_MODULE['<{autoupgrade}prestashop>adminpreferences_7fe15a347d66e291d7a1375273226205'] = 'Bolt bekapcsolása';
+$_MODULE['<{autoupgrade}prestashop>adminpreferences_7fe15a347d66e291d7a1375273226205'] = 'Áruház bekapcsolva';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_049104cffa3c1841dece50e6e41f749c'] = 'Bolt be-/kikapcsolása. Kapcsold ki, mikor karbantartást végzel rajta - kérlek vedd figyelembe, hogy a webszolgáltatás nem lesz letiltva';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_daf835712085aaaf81818e7ebfeb66b8'] = 'Karbantartási IP';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_894cd7887e47ca0e836e31577664b1ea'] = 'Ezekről az IP címekről akkor is elérhető az Arculati iroda, ha a bolt ki van kapcsolva. Vesszővel elválasztva tudod megadni őket (pl.: 42.24.4.2,127.0.0.1,99.98.97.96).';
@@ -163,6 +163,8 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_19f823c6453c2b1ffd09cb715214
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_1fe9dd96f646eaa0cd3a0fcc7632ce12'] = 'Hiba a konfiguráció mentése során';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_02a400be38a385b3aa5a07df9a39e9d7'] = '%1$s fájl módosítva lesz, %2s$s fájl törölve lesz (ha megtalálható)';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ca895e37bd5dfe413d7ffdd592580117'] = 'Frissítés indítása...';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b06a965d6f83ecc3c04eefe175482f1d'] = 'Áruház kikapcsolva. Minta fájlok eltávolítása...';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a3e702f156f1b517ba98d2487f58bd91'] = 'Áruház kikapcsolva. Letöltés... (eltarthat némi ideig)';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_01d9d38b1d4d8eff5b530eeecfd3ccd5'] = '%s kitömörítési mappa nem írható.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_99f0e3a6d61b6d39da9213c647fd35ce'] = '[ERROR] %s nem létezik vagy nem mappa.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d8316e26b7d1322f4445d3ffeec4bcfb'] = 'Semmi nem került kicsomagolásra. Úgy tűnik, a kicsomagolás át lett lépve.';
@@ -217,6 +219,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_69ff9aca0bd03b3981784593311d
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_06933067aafd48425d67bcb01bba5cb6'] = 'Frissítés';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_801ab24683a4a8c433c6eb40c48bcd9d'] = 'Letöltés';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_027d4866414c87a3af00e3acf98f2012'] = 'A PHP "allow_url_fopen" opció bekapcsolt vagy a cURL telepítve van';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_49c20044e894d8cc2da7783adbf79f16'] = 'Áruházad karbantartási üzemmódban van';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8641eaacafab9d58e7e93a92ff318714'] = '%s másodperc';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_987023af1c4e507ea04eb5069578f7f0'] = 'Verziószám:';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3b3d06023f6353f8fd05f859b298573e'] = 'URL:';
