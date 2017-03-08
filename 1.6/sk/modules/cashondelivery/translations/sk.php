@@ -16,7 +16,7 @@ $_MODULE['<{cashondelivery}prestashop>confirmation_2e2117b7c81aa9ea6931641ea2c64
 $_MODULE['<{cashondelivery}prestashop>confirmation_75fbf512d744977d62599cc3f0ae2bb4'] = 'je dokončená.';
 $_MODULE['<{cashondelivery}prestashop>confirmation_8861c5d3fa54b330d1f60ba50fcc4aab'] = 'Vybrali ste si platbu na dobierku.';
 $_MODULE['<{cashondelivery}prestashop>confirmation_e6dc7945b557a1cd949bea92dd58963e'] = 'Vaša objednávka bude odoslaná čoskoro.';
-$_MODULE['<{cashondelivery}prestashop>confirmation_0db71da7150c27142eef9d22b843b4a9'] = 'Ak máte akékoľvek otázky alebo máte záujem o dodatočné informácie, prosím kontaktujte prosím našu';
+$_MODULE['<{cashondelivery}prestashop>confirmation_0db71da7150c27142eef9d22b843b4a9'] = 'Ak máte akékoľvek otázky alebo máte záujem o dodatočné informácie, kontaktujte prosím našu';
 $_MODULE['<{cashondelivery}prestashop>confirmation_64430ad2835be8ad60c59e7d44e4b0b1'] = 'zákaznícku podporu';
 $_MODULE['<{cashondelivery}prestashop>payment_b7ada96a0da7ee7fb5371cca0b036d5c'] = 'Platba na dobierku';
 $_MODULE['<{cashondelivery}prestashop>payment_536dc7424180872c8c2488ae0286fb53'] = 'Za tovar zaplatíte pri dodaní';

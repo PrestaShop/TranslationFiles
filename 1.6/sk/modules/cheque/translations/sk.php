@@ -47,7 +47,7 @@ $_MODULE['<{cheque}prestashop>payment_return_e1c54fdba2544646684f41ace03b5fda'] 
 $_MODULE['<{cheque}prestashop>payment_return_4761b03b53bc2b3bd948bb7443a26f31'] = 'Nezabudnite vložiť kód vašej objednávky #%s.';
 $_MODULE['<{cheque}prestashop>payment_return_610abe74e72f00210e3dcb91a0a3f717'] = 'E-mail s týmito informáciami Vám bol úspešne odoslaný.';
 $_MODULE['<{cheque}prestashop>payment_return_ffd2478830ca2f519f7fe7ee259d4b96'] = 'Vaša objednávka bude od momentu prijatia platby čoskoro odoslaná ';
-$_MODULE['<{cheque}prestashop>payment_return_0db71da7150c27142eef9d22b843b4a9'] = 'Ak máte akékoľvek otázky alebo máte záujem o dodatočné informácie, prosím kontaktujte prosím našu';
+$_MODULE['<{cheque}prestashop>payment_return_0db71da7150c27142eef9d22b843b4a9'] = 'Ak máte akékoľvek otázky alebo máte záujem o dodatočné informácie, kontaktujte prosím našu';
 $_MODULE['<{cheque}prestashop>payment_return_decce112a9e64363c997b04aa71b7cb8'] = 'zákaznícku podporu';
 $_MODULE['<{cheque}prestashop>payment_return_9bdf695c5a30784327137011da6ef568'] = 'Zaznamenali sme problém pri vašej objednávke. Ak si myslíte, že toto je chyba, môžete kontaktovať našu';
 $_MODULE['<{cheque}prestashop>payment_4b80fae2153218ed763bdadc418e8589'] = 'Platba šekom';

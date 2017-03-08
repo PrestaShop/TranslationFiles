@@ -14,7 +14,9 @@ $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_befcac0f9644a7a
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_272c87c1b60ba25f293fab358ba94a39'] = 'Πρέπει να συμφωνήσετε με τους Όρους Χρήσης μας για να προχωρήσετε!';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_2223d375913a9a3b4619a1ada82f8de7'] = 'Συνέβη κάποιο σφάλμα. Εάν το πρόβλημα παραμένει, παρακαλώ επικοινωνήστε μαζί μας.';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_7219074549f88adb580bf5a6fe57c459'] = 'Επιλέξτε πρώτα έναν τρόπο πληρωμής.';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_c0bf28c9c2b9c95f01ff4fddfed71432'] = 'Παρακαλώ επιλέξτε πρώτα την επιλογή "Ανάκληση εικονικών προϊόντων" !';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_5da618e8e4b89c66fe86e32cdafde142'] = 'Από';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_9060587edeb01a63e3d3edc959678d1e'] = 'Πριν';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_89bea8045e50a337d8ce9849a4e1633c'] = 'Χωρίς έξοδα αποστολής';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_ea21841da70e6405af19fabc4ff8bdd9'] = 'λείπουν';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_fc724a540ce30b0b634163c922d60bed'] = 'Οι ρυθμίσεις αποθηκεύτηκαν επιτυχώς!';

@@ -16,6 +16,7 @@ $_LANGPDF['PDF28a59051cd90053f87bacd5f1ffbc0b8'] = 'Διεύθυνση τιμο�
 $_LANGPDF['PDFe2f324b87eac820c81e4d4a1105dcddf'] = 'Διεύθυνση τιμολόγησης & παράδοσης';
 $_LANGPDF['PDF707436a5aa13b82a4d777f64c717a625'] = 'Τρόπος Πληρωμής';
 $_LANGPDF['PDFe40007b408ac5f66d2c2e6c54f787c99'] = 'Καμία πληρωμή';
+$_LANGPDF['PDF63d5049791d9d79d86e9a108b0a999ca'] = 'Κωδικός';
 $_LANGPDF['PDFdeb10517653c255364175796ace3553f'] = 'προϊόν';
 $_LANGPDF['PDF03ab340b3f99e03cff9e84314ead38c0'] = 'Ποσότητα';
 $_LANGPDF['PDF1ac6ee29e9e68fb71bad91c1d34348cc'] = '%s:';

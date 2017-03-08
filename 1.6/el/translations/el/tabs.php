@@ -15,6 +15,7 @@ $_TABS['AdminParentPreferences'] = 'Προτιμήσεις';
 $_TABS['AdminTools'] = 'Παράμετροι';
 $_TABS['AdminAdmin'] = 'Διαχείριση';
 $_TABS['AdminParentStats'] = 'Στατιστικές';
+$_TABS['AdminStock'] = 'Απόθεμα';
 $_TABS['AdminCms'] = 'Σελίδες CMS';
 $_TABS['AdminCmsCategories'] = 'Κατηγορίες CMS';
 $_TABS['AdminAttributeGenerator'] = 'Γεννήτρια Παραλλαγών';

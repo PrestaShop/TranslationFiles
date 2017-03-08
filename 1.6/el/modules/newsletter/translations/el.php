@@ -13,6 +13,8 @@ $_MODULE['<{newsletter}prestashop>newsletter_99006a61d48499231e1be92241cf772a'] 
 $_MODULE['<{newsletter}prestashop>newsletter_7e3a51a56ddd2846e21c33f05e0aea6f'] = 'Όλοι οι πελάτες';
 $_MODULE['<{newsletter}prestashop>newsletter_39f7a3e2b56e9bfd753ba6325533a127'] = 'Συνδρομητές';
 $_MODULE['<{newsletter}prestashop>newsletter_011d8c5d94f729f013963d856cd78745'] = 'Μη συνδρομητές';
+$_MODULE['<{newsletter}prestashop>newsletter_6395c19dc5a1cef9ca125b9736358dc7'] = 'Συνδρομητές με συγκατάθεση';
+$_MODULE['<{newsletter}prestashop>newsletter_3136b84457870341f29f741f7a07d325'] = 'Φιλτράρισμα συνδρομητών με συγκατάθεση.';
 $_MODULE['<{newsletter}prestashop>newsletter_82e5e0bc0f9c776c98253d569c111c0f'] = 'Δε βρέθηκε κανένας πελάτης με αυτά τα φίλτρα!';
 $_MODULE['<{newsletter}prestashop>newsletter_644ecc2486a059ca16b001a77909bf40'] = 'Το αρχείο .CSV έχει εξαχθεί επιτυχώς: βρέθηκαν %d πελάτες.';
 $_MODULE['<{newsletter}prestashop>newsletter_48e3d5f66961b621c78f709afcd7d437'] = 'Λήψη αρχείου';

@@ -13,6 +13,10 @@ $_MODULE['<{productcomments}prestashop>default_dfbe69c6d9568ecb0e65e7b32ed92a3a'
 $_MODULE['<{productcomments}prestashop>default_6d10b2f471e8894d59ae18e01537ece5'] = 'Παρακαλώ περιμένετε πριν δημοσιεύσετε κάποιο άλλο σχόλιο';
 $_MODULE['<{productcomments}prestashop>default_ba8d7ae5dcadfba739f28a777378f208'] = 'δευτερόλεπτα πριν καταχωρήσετε νέο σχόλιο';
 $_MODULE['<{productcomments}prestashop>productcommentcriterion_a09ed6c60eb3213939cecb4c580813cd'] = 'Έγκυρο για ολόκληρο τον κατάλογο';
+$_MODULE['<{productcomments}prestashop>productcommentcriterion_467366059d7d7c743a4d0971363a8d66'] = 'Περιορισμένο σε μερικές κατηγορίες';
+$_MODULE['<{productcomments}prestashop>productcommentcriterion_772911becd336c843ab09a1d4b4f66c0'] = 'Περιορισμένο σε μερικά προϊόντα';
+$_MODULE['<{productcomments}prestashop>productcomments-ajax_fd4b5401d4d3c7d32d158bfc1e552f3b'] = 'Παρακαλώ καταχώρησε το όνομα σου';
+$_MODULE['<{productcomments}prestashop>productcomments-ajax_f88dc17737f7fdd4464b2eb922a8f133'] = 'Κάποιο σφάλμα προέκυψε καθώς αποθηκεύαμε το σχόλιο σας.';
 $_MODULE['<{productcomments}prestashop>productcomments_c888438d14855d7d96a2724ee9c306bd'] = 'Οι ρυθμίσεις ενημερώθηκαν';
 $_MODULE['<{productcomments}prestashop>productcomments_254f642527b45bc260048e30704edb39'] = 'Παραμετροποίηση';
 $_MODULE['<{productcomments}prestashop>productcomments_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Ενεργοποιημένο';
