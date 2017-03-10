@@ -10,6 +10,7 @@ $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_7e3a51a56ddd2846e21c33f05
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_c888438d14855d7d96a2724ee9c306bd'] = 'تم تحديث الإعدادات بنجاح';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_b718adec73e04ce3ec720dd11a06a308'] = 'الرقم التعريفي';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_9f82518d468b9fee614fcc92f76bb163'] = 'المتجر';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_019ec3132cdf8ee0f2e2a75cf5d3e459'] = 'الجنس';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'عنوان البريد';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_4351cfebe4b61d8aa5efa1d020710005'] = 'عرض';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_e267e2be02cf3e29f4ba53b5d97cf78a'] = 'البريد الالكترونى غير صحيح';

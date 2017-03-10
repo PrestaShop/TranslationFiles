@@ -771,6 +771,7 @@ $_LANG['product_10ac3d04253ef7e1ddc73e6091c0cd55'] = 'التالي';
 $_LANG['product_02ea084dc2ef3e9965dbba4ec87d2f9b'] = 'عرض جميع الصور';
 $_LANG['product_03de921a8ea82897e13d33d66c28b4db'] = 'على الإنترنت فقط!';
 $_LANG['product_3dd42bfc8345e82c43b4a40a3426ec49'] = 'المرجع:';
+$_LANG['product_656c3be690ee43df4b845bd2a2ebe587'] = 'منتج جديد';
 $_LANG['product_019d1ca7d50cc54b995f60d456435e87'] = 'مستخدم';
 $_LANG['product_6da03a74721a0554b7143254225cc08a'] = 'تحديث';
 $_LANG['product_2b56b60f878922093facd42284848a0c'] = 'مزيد من التفاصيل';
