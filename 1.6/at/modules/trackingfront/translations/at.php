@@ -8,7 +8,7 @@ $_MODULE['<{trackingfront}prestashop>trackingfront_d565f36c06949442a4eb998354376
 $_MODULE['<{trackingfront}prestashop>trackingfront_8f5ac7793b2547cd025a7335f4934d26'] = 'Anmeldung ist erforderlich';
 $_MODULE['<{trackingfront}prestashop>trackingfront_6f658a5bbec855ca5ae4ef4c94eb5d43'] = 'ungültige Anmeldung';
 $_MODULE['<{trackingfront}prestashop>trackingfront_962c91be4b1056412febf0c272760814'] = 'Passwort erforderlich';
-$_MODULE['<{trackingfront}prestashop>trackingfront_703c2b69e5d9f7072b7db5338214448b'] = 'ungültiges Passwort';
+$_MODULE['<{trackingfront}prestashop>trackingfront_703c2b69e5d9f7072b7db5338214448b'] = 'Falsches Passwort';
 $_MODULE['<{trackingfront}prestashop>trackingfront_c41c77e4dddc04b1e0752a6050ae5656'] = 'Authentifizierung fehlgeschlagen';
 $_MODULE['<{trackingfront}prestashop>trackingfront_10965b2740f42ad4887932c35cee26ab'] = 'Einmalige Besucher';
 $_MODULE['<{trackingfront}prestashop>trackingfront_ae5d01b6efa819cc7a7c05a8c57fcc2c'] = 'Besucher';
