@@ -52,7 +52,7 @@ $_MODULE['<{blockcart}prestashop>blockcart_fc86c43dbffcadc193832a310f7a444a'] = 
 $_MODULE['<{blockcart}prestashop>blockcart_db205f01b4fd580fb5daa9072d96849d'] = 'Gesamt Artikel';
 $_MODULE['<{blockcart}prestashop>blockcart_f4e8b53a114e5a17d051ab84d326cae5'] = 'Versandkosten';
 $_MODULE['<{blockcart}prestashop>blockcart_300225ee958b6350abc51805dab83c24'] = 'Einkauf fortsetzen';
-$_MODULE['<{blockcart}prestashop>blockcart_7e0bf6d67701868aac3116ade8fea957'] = 'Zur Kasse gehen';
+$_MODULE['<{blockcart}prestashop>blockcart_7e0bf6d67701868aac3116ade8fea957'] = 'Zur Kasse';
 
 
 return $_MODULE;
