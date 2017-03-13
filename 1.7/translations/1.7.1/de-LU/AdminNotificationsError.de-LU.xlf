@@ -95,6 +95,12 @@ File: classes/controller/AdminController.php:1257</note>
         <note>Context:
 File: classes/controller/AdminController.php:1408</note>
       </trans-unit>
+      <trans-unit id="c2c0e06097c62422199e29a5574e9fc4" approved="yes">
+        <source>Cannot add configuration %s</source>
+        <target xml:lang="de-LU">Einstellung %s kann nicht gespeichert werden</target>
+        <note>Context:
+File: classes/controller/AdminController.php:1470</note>
+      </trans-unit>
       <trans-unit id="fa4611fb85bb8f118f562d107ab790d4" approved="yes">
         <source>The object cannot be loaded (or found)</source>
         <target xml:lang="de-LU">Objekt kann nicht geladen werden (nicht gefunden)</target>
@@ -113,6 +119,12 @@ File: classes/controller/AdminController.php:1642</note>
         <target xml:lang="de-LU">Das Feld %1$s wird mindestens in %2$s benötigt.</target>
         <note>Context:
 File: classes/controller/AdminController.php:3644</note>
+      </trans-unit>
+      <trans-unit id="387e788cca16a28bde9a0795e5ad5b9c" approved="yes">
+        <source>%s : Incorrect value</source>
+        <target xml:lang="de-LU">%s: Ungültiger Wert</target>
+        <note>Context:
+File: classes/controller/AdminController.php:3875</note>
       </trans-unit>
       <trans-unit id="9bc4cb281e01dc945f3d0ab0710a898a" approved="yes">
         <source>Can't delete #%d</source>
@@ -190,6 +202,18 @@ File: controllers/admin/AdminProductsController.php:3381</note>
         <note>Context:
 File: controllers/admin/AdminProductsController.php:1679</note>
       </trans-unit>
+      <trans-unit id="6c3609de8769a4456305ec22e764573d" approved="yes">
+        <source>An error occurred while copying this image: %s</source>
+        <target xml:lang="de-LU">Beim Kopieren des Bildes ist ein Fehler aufgetreten: %s</target>
+        <note>Context:
+File: controllers/admin/AdminProductsController.php:1684</note>
+      </trans-unit>
+      <trans-unit id="211ff814e7bf91c4548a61ba1c427c15" approved="yes">
+        <source>Error while updating the status.</source>
+        <target xml:lang="de-LU">Fehler beim Aktualisieren des Status!</target>
+        <note>Context:
+File: controllers/admin/AdminProductsController.php:3431</note>
+      </trans-unit>
       <trans-unit id="02af8c16ef4efa9fa9e2142372b0b90d" approved="yes">
         <source>The %s field is required.</source>
         <target xml:lang="de-LU">Das Feld %s ist ein Pflichtfeld.</target>
@@ -201,6 +225,12 @@ File: controllers/admin/AdminProductsController.php:2004</note>
         <target xml:lang="de-LU">Ungültiger Dateiname</target>
         <note>Context:
 File: controllers/admin/AdminProductsController.php:477</note>
+      </trans-unit>
+      <trans-unit id="527d23f49ced7a14e50546e1b90672e7" approved="yes">
+        <source>Cannot retrieve file.</source>
+        <target xml:lang="de-LU">Datei fehlt!</target>
+        <note>Context:
+File: controllers/admin/AdminProductsController.php:363</note>
       </trans-unit>
       <trans-unit id="fb86a99edb05e880b59843698a2fafbd" approved="yes">
         <source>Cannot delete file</source>
@@ -244,6 +274,12 @@ File: controllers/admin/AdminProductsController.php:480</note>
         <note>Context:
 File: controllers/admin/AdminProductsController.php:496</note>
       </trans-unit>
+      <trans-unit id="505bbc38260c669d0793757e414caecc" approved="yes">
+        <source>The %s field is not valid</source>
+        <target xml:lang="de-LU">Eingabe %s ist ungültig</target>
+        <note>Context:
+File: controllers/admin/AdminProductsController.php:744</note>
+      </trans-unit>
       <trans-unit id="e267d34972b3ab66b987fbad59fba513" approved="yes">
         <source>Invalid date format.</source>
         <target xml:lang="de-LU">Ungültiges Datumsformat.</target>
@@ -261,6 +297,12 @@ File: controllers/admin/AdminProductsController.php:970</note>
         <target xml:lang="de-LU">Beim Aktualisieren des Bildes ist ein Fehler aufgetreten</target>
         <note>Context:
 File: controllers/admin/AdminProductsController.php:1636</note>
+      </trans-unit>
+      <trans-unit id="46d431810202adee8bca6b13a5ebd0d9" approved="yes">
+        <source>An error occurred while linking the object %table_name% to categories.</source>
+        <target xml:lang="de-LU">Fehler beim Zuordnen von Kategorien zum Artikel! (%table_name%)</target>
+        <note>Context:
+File: controllers/admin/AdminProductsController.php:1929</note>
       </trans-unit>
       <trans-unit id="723b4a80bd8ae233c9fcde1e5bd55436" approved="yes">
         <source>The object cannot be loaded. </source>
@@ -380,9 +422,9 @@ File: src/PrestaShopBundle/Controller/Admin/ProductController.php:1041</note>
   </file>
   <file original="controllers/admin/AdminCategoriesController.php" source-language="en" target-language="de-LU" datatype="plaintext">
     <body>
-      <trans-unit id="3452da55a90ccedd184c7ba264b2afd5">
+      <trans-unit id="3452da55a90ccedd184c7ba264b2afd5" approved="yes">
         <source>Due to memory limit restrictions, this image cannot be loaded. Please increase your memory_limit value via your server's configuration settings. </source>
-        <target xml:lang="de-LU" state="needs-translation"> </target>
+        <target xml:lang="de-LU">Dieses Bild kann nicht geladen werden, da der Arbeitsspeicher zu gering dimensioniert ist. Der PHP-Wert memory_limit Ihrer Servereinstellungen muss erhöht werden. </target>
         <note>Context:
 File: controllers/admin/AdminCategoriesController.php:1057</note>
       </trans-unit>
@@ -434,7 +476,12 @@ File: classes/Currency.php:533</note>
   </file>
   <file original="classes/Customization.php" source-language="en" target-language="de-LU" datatype="plaintext">
     <body>
-      
+      <trans-unit id="95013b94140e1438329efc8a39352f4b" approved="yes">
+        <source>Could not load cart id=%s</source>
+        <target xml:lang="de-LU">Warenkorb Nr. %s nicht vorhanden</target>
+        <note>Context:
+File: classes/Customization.php:374</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/FileUploader.php" source-language="en" target-language="de-LU" datatype="plaintext">
@@ -444,6 +491,12 @@ File: classes/Currency.php:533</note>
         <target xml:lang="de-LU">Es wurden keine Dateien hochgeladen.</target>
         <note>Context:
 File: classes/FileUploader.php:69</note>
+      </trans-unit>
+      <trans-unit id="e1a0a773bd7a52245c9a25d45dc6d807" approved="yes">
+        <source>Source file does not exist or is empty.</source>
+        <target xml:lang="de-LU">Quelldatei existiert nicht oder ist leer.</target>
+        <note>Context:
+File: classes/FileUploader.php:75</note>
       </trans-unit>
       <trans-unit id="6e9550e40cc317663fbe81e759d098e8" approved="yes">
         <source>The uploaded file is too large.</source>
@@ -473,11 +526,23 @@ File: classes/FileUploader.php:215</note>
         <note>Context:
 File: classes/Uploader.php:334</note>
       </trans-unit>
+      <trans-unit id="0bff5a3a7cc19937dd97b8a995915222" approved="yes">
+        <source>File is too big. Current size is %1s, maximum size is %2s.</source>
+        <target xml:lang="de-LU">Datei ist zu groß (%1s)! Die maximal erlaubte Größe beträgt %2s.</target>
+        <note>Context:
+File: classes/Uploader.php:354</note>
+      </trans-unit>
       <trans-unit id="fb0e0badcf5ac5c98f791447646f5ac8" approved="yes">
         <source>Server file size is different from local file size</source>
         <target xml:lang="de-LU">Dateilänge auf dem Server weicht von der lokalen Dateilänge ab</target>
         <note>Context:
 File: classes/Uploader.php:279</note>
+      </trans-unit>
+      <trans-unit id="ae8e757923a42d666e5c0fdf59fda545" approved="yes">
+        <source>The uploaded file exceeds %s</source>
+        <target xml:lang="de-LU">The uploaded file exceeds %s</target>
+        <note>Context:
+File: classes/Uploader.php:299</note>
       </trans-unit>
       <trans-unit id="f8fe8cba1625eaf8e5c253b041d57dbd" approved="yes">
         <source>The uploaded file was only partially uploaded</source>
@@ -573,11 +638,23 @@ File: classes/ImageManager.php:462</note>
   </file>
   <file original="classes/Meta.php" source-language="en" target-language="de-LU" datatype="plaintext">
     <body>
+      <trans-unit id="36757394a699878de6f0e51f203d1ee7" approved="yes">
+        <source>Cannot scan root directory</source>
+        <target xml:lang="de-LU">Stammverzeichnis kann nicht gelesen werden</target>
+        <note>Context:
+File: classes/Meta.php:71</note>
+      </trans-unit>
       <trans-unit id="c0c29d8902aa2cb256ea9eaefe307bf5" approved="yes">
         <source>Cannot scan "override" directory</source>
         <target xml:lang="de-LU">Override-Verzeichnis kann nicht gelesen werden</target>
         <note>Context:
 File: classes/Meta.php:75</note>
+      </trans-unit>
+      <trans-unit id="b1ea648f9b7634752699f28ec9897b1a" approved="yes">
+        <source>File %2$s (in directory %1$s)</source>
+        <target xml:lang="de-LU">Datei %2$s (im Verzeichnis %1$s)</target>
+        <note>Context:
+File: classes/Meta.php:103</note>
       </trans-unit>
     </body>
   </file>
@@ -599,6 +676,42 @@ File: classes/module/Module.php:2872</note>
   </file>
   <file original="classes/ObjectModel.php" source-language="en" target-language="de-LU" datatype="plaintext">
     <body>
+      <trans-unit id="fed3c8d832129d27b64c34fe410e7346" approved="yes">
+        <source>Property %s is empty.</source>
+        <target xml:lang="de-LU">Kein Eintrag in %s</target>
+        <note>Context:
+File: classes/ObjectModel.php:1040</note>
+      </trans-unit>
+      <trans-unit id="872d428c40b36bba9fc5fafaa76c6f22" approved="yes">
+        <source>Property %1$s has a bad value (allowed values are: %2$s).</source>
+        <target xml:lang="de-LU">Eintrag in Feld %1$s ungültig! (erlaubte Werte: %2$s)</target>
+        <note>Context:
+File: classes/ObjectModel.php:1054</note>
+      </trans-unit>
+      <trans-unit id="14b9752ff376a78a373e9c3c221e6956" approved="yes">
+        <source>The field %1$s (in the %2$s language) is too long (%3$d chars max, html chars including).</source>
+        <target xml:lang="de-LU">Eingabe in Feld %1$s (Sprache %2$s) iüberschreitet die Maximallänge von %3$d Zeichen (inklusive HTML-Tags)!</target>
+        <note>Context:
+File: classes/ObjectModel.php:1069</note>
+      </trans-unit>
+      <trans-unit id="2674ff1d6f5ff826dae13cd4db1ca9b0" approved="yes">
+        <source>The length of property %1$s is currently %2$d chars. It must be between %3$d and %4$d chars.</source>
+        <target xml:lang="de-LU">Sie haben %2$d Zeichen in Feld %1$s eingegeben (Nur Eingaben zwischen %3$d und %4$d Zeichen möglich).</target>
+        <note>Context:
+File: classes/ObjectModel.php:1074</note>
+      </trans-unit>
+      <trans-unit id="1448270fc6dbabe70584c87fa27cc96f" approved="yes">
+        <source>Validation function not found: %s.</source>
+        <target xml:lang="de-LU">Eingabeüberprüfung nicht möglich: %s.</target>
+        <note>Context:
+File: classes/ObjectModel.php:1092</note>
+      </trans-unit>
+      <trans-unit id="6938fc7c0e5b0b07a6ba370bcb84bbd3" approved="yes">
+        <source>Property %s is not valid</source>
+        <target xml:lang="de-LU">Die Eigenschaft %s ist ungültig</target>
+        <note>Context:
+File: classes/ObjectModel.php:1114</note>
+      </trans-unit>
       <trans-unit id="ee66f9c9930cb33d2a5dde9b240d3f7e" approved="yes">
         <source>is required.</source>
         <target xml:lang="de-LU">erforderlich</target>
@@ -610,6 +723,12 @@ File: classes/ObjectModel.php:1171</note>
         <target xml:lang="de-LU">%1$s ist zu lang. Maximale Länge: %2$d</target>
         <note>Context:
 File: classes/ObjectModel.php:1178</note>
+      </trans-unit>
+      <trans-unit id="87ecb83d305a6af0e0438a0587e31de8" approved="yes">
+        <source>%s is invalid.</source>
+        <target xml:lang="de-LU">%s ist ungültig.</target>
+        <note>Context:
+File: classes/ObjectModel.php:1189</note>
       </trans-unit>
       <trans-unit id="2deae2efe4b65df80c188a31fed3cc17" approved="yes">
         <source>The field %s is required.</source>
@@ -797,6 +916,12 @@ File: controllers/admin/AdminThemesController.php:322</note>
   </file>
   <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="de-LU" datatype="plaintext">
     <body>
+      <trans-unit id="e96814b3d9ff9ae65c8f2be2ee3e0555" approved="yes">
+        <source>Invalid tag(s) (%s)</source>
+        <target xml:lang="de-LU">Stichwort(e) ungültig: %s</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:2063</note>
+      </trans-unit>
       <trans-unit id="05a4ef007052620ef82d7f310722c5c8" approved="yes">
         <source>Incorrect value for "Depends on stock" for product %1$s </source>
         <target xml:lang="de-LU">Falscher Wert für "abhängig vom Warenbestand" bei Artikel %1$s </target>
@@ -849,7 +974,7 @@ File: controllers/admin/AdminLoginController.php:192</note>
       </trans-unit>
       <trans-unit id="855eb8db89b4921c42072832d33d2dc2" approved="yes">
         <source>Invalid password.</source>
-        <target xml:lang="de-LU">ungültiges Passwort</target>
+        <target xml:lang="de-LU">Falsches Passwort</target>
         <note>Context:
 File: controllers/admin/AdminLoginController.php:194</note>
       </trans-unit>
@@ -935,7 +1060,12 @@ File: controllers/admin/AdminModulesPositionsController.php:107</note>
   </file>
   <file original="controllers/admin/AdminNotFoundController.php" source-language="en" target-language="de-LU" datatype="plaintext">
     <body>
-      
+      <trans-unit id="d0fbda9855d118740f1105334305c126" approved="yes">
+        <source>Page not found</source>
+        <target xml:lang="de-LU">Seite nicht gefunden</target>
+        <note>Context:
+File: controllers/admin/AdminNotFoundController.php:47</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminTranslationsController.php" source-language="en" target-language="de-LU" datatype="plaintext">

@@ -116,7 +116,7 @@ File: install-dev/controllers/http/configure.php:260</note>
       </trans-unit>
       <trans-unit id="992a0f0542384f1ee5ef51b7cf4ae6c4" approved="yes">
         <source>Services</source>
-        <target xml:lang="fr-CA">Services </target>
+        <target xml:lang="fr-CA">Services</target>
         <note>Context:
 File: install-dev/controllers/http/configure.php:261</note>
       </trans-unit>
@@ -188,7 +188,7 @@ File: install-dev/controllers/http/configure.php:112</note>
       </trans-unit>
       <trans-unit id="74d36cb95a84f88728b3d69678aba185" approved="yes">
         <source>The password and its confirmation are different</source>
-        <target xml:lang="fr-CA">Le mot de passe et sa confirmation ne correspondent pas.</target>
+        <target xml:lang="fr-CA">Le mot de passe et sa confirmation ne correspondent pas</target>
         <note>Context:
 File: install-dev/controllers/http/configure.php:114</note>
       </trans-unit>
@@ -261,6 +261,13 @@ File: install-dev/classes/controllerHttp.php:118</note>
         <target xml:lang="fr-CA">Installation de la boutique</target>
         <note>Context:
 File: install-dev/classes/controllerHttp.php:123</note>
+      </trans-unit>
+      <trans-unit id="9fca14e649c0c0615185b971b85b4348" approved="yes">
+        <source>http://doc.prestashop.com/display/PS17/Installing+PrestaShop</source>
+        <target xml:lang="fr-CA">http://doc.prestashop.com/display/PS17/Installing+PrestaShop</target>
+        <note>Context:
+File: install-dev/classes/controllerHttp.php:367
+ Comment: Link to translated documentation (if available)</note>
       </trans-unit>
       <trans-unit id="7b5993743a96bf7b6d8a9c0802e7d6b0" approved="yes">
         <source>https://www.youtube.com/watch?v=psz4aIPZZuk</source>
@@ -412,15 +419,27 @@ File: install-dev/controllers/http/system.php:96</note>
         <note>Context:
 File: install-dev/controllers/http/system.php:97</note>
       </trans-unit>
+      <trans-unit id="8edddbd91415fa92ce68a7601116e39d" approved="yes">
+        <source>cURL extension is not enabled</source>
+        <target xml:lang="fr-CA">L'extension cURL n'est pas activée</target>
+        <note>Context:
+File: install-dev/controllers/http/system.php:98</note>
+      </trans-unit>
       <trans-unit id="d482b958dcd96bf9219f5039afae2dde" approved="yes">
         <source>GD library is not installed</source>
         <target xml:lang="fr-CA">La bibliothèque GD n'est pas installée</target>
         <note>Context:
 File: install-dev/controllers/http/system.php:99</note>
       </trans-unit>
+      <trans-unit id="53451c05d2a863bad2f972f2a423ca78" approved="yes">
+        <source>JSON extension is not loaded</source>
+        <target xml:lang="fr-CA">L'extension JSON n'est pas chargée</target>
+        <note>Context:
+File: install-dev/controllers/http/system.php:100</note>
+      </trans-unit>
       <trans-unit id="8e36201b3398a5af1e571037b16cb7cc" approved="yes">
         <source>PHP OpenSSL extension is not loaded</source>
-        <target xml:lang="fr-CA">L'extension PHP OpenSSL n'est pas chargée.</target>
+        <target xml:lang="fr-CA">L'extension PHP OpenSSL n'est pas chargée</target>
         <note>Context:
 File: install-dev/controllers/http/system.php:101</note>
       </trans-unit>
@@ -430,11 +449,23 @@ File: install-dev/controllers/http/system.php:101</note>
         <note>Context:
 File: install-dev/controllers/http/system.php:102</note>
       </trans-unit>
+      <trans-unit id="f37d70acdd46c99aa2738a9b9c6a4484" approved="yes">
+        <source>SimpleXML extension is not loaded</source>
+        <target xml:lang="fr-CA">L'extension SimpleXML n'est pas chargée</target>
+        <note>Context:
+File: install-dev/controllers/http/system.php:103</note>
+      </trans-unit>
       <trans-unit id="88ab0c1cce0f8be93e9cef2d42d47f97" approved="yes">
         <source>ZIP extension is not enabled</source>
         <target xml:lang="fr-CA">L'extension ZIP n'est pas activée</target>
         <note>Context:
 File: install-dev/controllers/http/system.php:104</note>
+      </trans-unit>
+      <trans-unit id="110b26012a01ad5604e5b9ac39b585ba" approved="yes">
+        <source>Fileinfo extension is not enabled</source>
+        <target xml:lang="fr-CA">L'extension Mbstring n'est pas activée</target>
+        <note>Context:
+File: install-dev/controllers/http/system.php:105</note>
       </trans-unit>
       <trans-unit id="9985ec427b90450fffe50ef87916f316" approved="yes">
         <source>Required Apache configuration</source>
@@ -1276,7 +1307,7 @@ File: src/PrestaShopBundle/Install/Install.php:915</note>
       </trans-unit>
       <trans-unit id="4a85cd1d84d691a2e0b73a5f08cd3483" approved="yes">
         <source>Fixtures class "%class%" not found</source>
-        <target xml:lang="fr-CA">La classe de démo « %class% » n'a pas été trouvée</target>
+        <target xml:lang="fr-CA">La classe "%class%" pour les fixtures n'a pas été trouvée</target>
         <note>Context:
 File: src/PrestaShopBundle/Install/Install.php:948</note>
       </trans-unit>
@@ -1330,11 +1361,23 @@ File: src/PrestaShopBundle/Install/XmlLoader.php:725</note>
   </file>
   <file original="src/PrestaShopBundle/Install/Upgrade.php" source-language="en" target-language="fr-CA" datatype="plaintext">
     <body>
+      <trans-unit id="de08f967b14ff56ab63e1b6a6e0c9f4e" approved="yes">
+        <source>Database upgrade completed.</source>
+        <target xml:lang="fr-CA">La mise à jour de la base de données est terminée.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Install/Upgrade.php:317</note>
+      </trans-unit>
       <trans-unit id="9c7e0ba2c6ecb11af7f39843bbc18ff8" approved="yes">
         <source>Warning detected during upgrade.</source>
         <target xml:lang="fr-CA">Erreur(s) détectée(s) pendant la mise à jour.</target>
         <note>Context:
 File: src/PrestaShopBundle/Install/Upgrade.php:929</note>
+      </trans-unit>
+      <trans-unit id="bd077be8e2cdf937e5b77300a0131f9a" approved="yes">
+        <source>Error detected during upgrade.</source>
+        <target xml:lang="fr-CA">Erreur détectée pendant la mise à jour.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Install/Upgrade.php:959</note>
       </trans-unit>
     </body>
   </file>

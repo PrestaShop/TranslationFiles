@@ -132,6 +132,12 @@ File: classes/module/Module.php:646</note>
         <note>Context:
 File: classes/module/Module.php:757</note>
       </trans-unit>
+      <trans-unit id="e8f98f4457c87a8aad1d4d625ad1a9f3" approved="yes">
+        <source>%1$s is not a valid module name.</source>
+        <target xml:lang="el">%1$s δεν είναι έγκυρο όνομα πρόσθετου.</target>
+        <note>Context:
+File: classes/module/Module.php:1048</note>
+      </trans-unit>
       <trans-unit id="8f62a26bf441ad698c2c562ec10448c4" approved="yes">
         <source>All modules cannot be loaded due to memory limit restrictions, please increase your memory_limit value on your server configuration</source>
         <target xml:lang="el">Όλα τα modules δεν μπορούν να φορτωθούν εξαιτίας των περιορισμών στο όριο μνήμης, παρακαλούμε να αυξήσετε την αξία memory_limit στη διαμόρφωση του sever σας</target>
@@ -322,6 +328,18 @@ File: controllers/admin/AdminModulesController.php:868</note>
         <note>Context:
 File: controllers/admin/AdminModulesController.php:870</note>
       </trans-unit>
+      <trans-unit id="2c465b2a1769653563dcacfc83ab61d0" approved="yes">
+        <source>This module is already installed: %s.</source>
+        <target xml:lang="el">Αυτό το πρόσθετο είναι ήδη εγκατεστημένο: %s.</target>
+        <note>Context:
+File: controllers/admin/AdminModulesController.php:872</note>
+      </trans-unit>
+      <trans-unit id="0ec73cc5b2910764fc221acb633c20bc" approved="yes">
+        <source>This module has already been uninstalled: %s.</source>
+        <target xml:lang="el">Αυτό το πρόσθετο είναι ήδη απεγκατεστημένο: %s.</target>
+        <note>Context:
+File: controllers/admin/AdminModulesController.php:874</note>
+      </trans-unit>
       <trans-unit id="4e03a50f18350f93b8ec321b488a4a8c" approved="yes">
         <source>You do not have permission to uninstall this module.</source>
         <target xml:lang="el">Δεν έχετε δικαίωμα να απεγκαταστήσετε αυτό το module.</target>
@@ -410,12 +428,22 @@ File: src/Adapter/Module/ModuleZipManager.php:129</note>
   </file>
   <file original="src/Adapter/Module/Tab/ModuleTabRegister.php" source-language="en" target-language="el" datatype="plaintext">
     <body>
-      
+      <trans-unit id="ee34aeaa570c9f1c206b8401d6eaa58d" approved="yes">
+        <source>Failed to install admin tab "%name%".</source>
+        <target xml:lang="el">Αποτυχία εγκατάστασης διαχειριστικής καρτέλας "%name%".</target>
+        <note>Context:
+File: src/Adapter/Module/Tab/ModuleTabRegister.php:261</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Module/Tab/ModuleTabUnregister.php" source-language="en" target-language="el" datatype="plaintext">
     <body>
-      
+      <trans-unit id="e85403d2e654955b45105b9929924c89" approved="yes">
+        <source>Failed to uninstall admin tab "%name%".</source>
+        <target xml:lang="el">Αποτυχία απεγκατάστασης διαχειριστικής καρτέλας "%name%".</target>
+        <note>Context:
+File: src/Adapter/Module/Tab/ModuleTabUnregister.php:98</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Core/Addon/Module/ModuleManager.php" source-language="en" target-language="el" datatype="plaintext">

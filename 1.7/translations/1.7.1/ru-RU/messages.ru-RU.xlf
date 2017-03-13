@@ -330,6 +330,12 @@ File: modules/autoupgrade/AdminSelfTab.php:338</note>
         <note>Context:
 File: modules/autoupgrade/AdminSelfTab.php:339</note>
       </trans-unit>
+      <trans-unit id="cd42867909b2cb10eb52348dd5d1d861" approved="yes">
+        <source>if you change the theme, the parameters.php file must be writable (CHMOD 755 / 777)</source>
+        <target xml:lang="ru">для изменения шаблона файл parameters.php должен иметь разрешения на запись (CHMOD 755 / 777)</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfTab.php:421</note>
+      </trans-unit>
       <trans-unit id="38fb7d24e0d60a048f540ecb18e13376" approved="yes">
         <source>   Save   </source>
         <target xml:lang="ru">   Сохранить   </target>
@@ -660,7 +666,7 @@ File: classes/controller/AdminController.php:693</note>
       </trans-unit>
       <trans-unit id="921d54865f8169b84c90d4335c256494" approved="yes">
         <source>filter by %s</source>
-        <target xml:lang="ru">фильтровать по %s</target>
+        <target xml:lang="ru">фильтр по %s</target>
         <note>Context:
 File: classes/controller/AdminController.php:700</note>
       </trans-unit>
@@ -1649,6 +1655,12 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:554</note>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:558</note>
       </trans-unit>
+      <trans-unit id="b6b1ed5508bc97f38ab9075ccf234c69" approved="yes">
+        <source>If you customized the default PrestaShop theme in its folder (folder name "classic" in 1.7), enabling this option will lose your modifications.</source>
+        <target xml:lang="ru">Если вы модифицировали стандартный шаблон магазина в его папке (название "classic" в версии 1.7), то при включении этой опции изменения потеряются.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:559</note>
+      </trans-unit>
       <trans-unit id="97a989a73b46233ae4330fb7682a70a2" approved="yes">
         <source>If you are using your own theme, enabling this option will simply update the default theme files, and your own theme will be safe.</source>
         <target xml:lang="ru">Если вы используете свой собственный шаблон, включение этой опции просто обновит файлы шаблона по умолчанию, и собственный шаблон будет в безопасности.</target>
@@ -1666,6 +1678,12 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:564</note>
         <target xml:lang="ru">Это заменит ваш текущий шаблон на стандартный из нового пакета Prestashop.</target>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:565</note>
+      </trans-unit>
+      <trans-unit id="378f79e37ef9cc2c9d631885ffbfe816" approved="yes">
+        <source>Keep the default e-mails</source>
+        <target xml:lang="ru">Сохранить стандартные сообщения e-mail</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:569</note>
       </trans-unit>
       <trans-unit id="5ea970658668e0b45cb6f64ce18b420e" approved="yes">
         <source>This will not upgrade the default PrestaShop e-mails.</source>
@@ -1866,6 +1884,12 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:1506</note>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:1523</note>
       </trans-unit>
+      <trans-unit id="ee1185047ebc6f873d1c9804caa2f8c3" approved="yes">
+        <source>It's not a valid upgrade %s archive...</source>
+        <target xml:lang="ru">Неверный архив обновления %s...</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:1518</note>
+      </trans-unit>
       <trans-unit id="064a15c7711dd82e5026a17a453b3a3b" approved="yes">
         <source>Extraction directory is not writable.</source>
         <target xml:lang="ru">Директория для извлечения не имеет прав на запись.</target>
@@ -2034,6 +2058,18 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:2059</note>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:2139</note>
       </trans-unit>
+      <trans-unit id="e04426beffbb68ad104bcaa54466f13b" approved="yes">
+        <source>The app/config/parameters.php file was not found.</source>
+        <target xml:lang="ru">Файл app/config/parameters.php не найден.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:2154</note>
+      </trans-unit>
+      <trans-unit id="bc141f39167fd8d4a57f6c9437aec8ee" approved="yes">
+        <source>The app/config/parameters.yml file was not found.</source>
+        <target xml:lang="ru">Файл app/config/parameters.yml не найден.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:2160</note>
+      </trans-unit>
       <trans-unit id="22f18bac5d420d7ac5aca37b1afe30c9" approved="yes">
         <source>Current version: %1$s. Version to install: %2$s.</source>
         <target xml:lang="ru">Текущая версия: %1$s. Устанавливаемая версия: %2$s.</target>
@@ -2051,6 +2087,12 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:2179</note>
         <target xml:lang="ru">[ERROR] Устанавливаемая версия слишком стара.</target>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:2181</note>
+      </trans-unit>
+      <trans-unit id="d159b135bb83d88adcde6c1ac420556e" approved="yes">
+        <source>There is no older version. Did you delete or rename the app/config/parameters.php file?</source>
+        <target xml:lang="ru">Раниих версий не найдено. Вы удаляли/переименовывали файл app/config/parameters.php?</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:3998</note>
       </trans-unit>
       <trans-unit id="b3884f9e8ed49a8d7165787d3adec342" approved="yes">
         <source>Invalid database configuration</source>
@@ -2094,6 +2136,12 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:2371</note>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:2400</note>
       </trans-unit>
+      <trans-unit id="584cca3a7ed0acf45634dee12c9ee9d5" approved="yes">
+        <source>Error upgrading doctrine schema</source>
+        <target xml:lang="ru">Ошибка обновления схемы доктрины</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:2410</note>
+      </trans-unit>
       <trans-unit id="257f5523f283710c6859d8f425a0c657" approved="yes">
         <source>Database upgrade OK</source>
         <target xml:lang="ru">Обновление базы данных успешно</target>
@@ -2111,6 +2159,12 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:2425</note>
         <target xml:lang="ru">[CLEANING CACHE] Файл %s удалён</target>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:2435</note>
+      </trans-unit>
+      <trans-unit id="0e8fc0184c6a5faaf01d3f9851256cac" approved="yes">
+        <source>Error updating translations</source>
+        <target xml:lang="ru">Ошибка обновления переводов</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:2503</note>
       </trans-unit>
       <trans-unit id="9c7e0ba2c6ecb11af7f39843bbc18ff8" approved="yes">
         <source>Warning detected during upgrade.</source>
@@ -2642,6 +2696,12 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:3957</note>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:3958</note>
       </trans-unit>
+      <trans-unit id="5f9ff5f3662e1675dcf694c707b41466" approved="yes">
+        <source>Cannot create settings file, if /app/config/parameters.php exists, please give the public write permissions to this file, else please create a file named parameters.php in config directory.</source>
+        <target xml:lang="ru">Невозможно создание файла настроек. Если файл /app/config/parameters.php существует, дайте ему разрешения на запись, или же создайте этот файл, если он отсутствует.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:3959</note>
+      </trans-unit>
       <trans-unit id="128a6722ff88445b488e4eb3319fa5b7" approved="yes">
         <source>Cannot write settings file, please create a file named settings.inc.php in the "config" directory.</source>
         <target xml:lang="ru">Невозможно записать файл настроек. Создайте файл settings.inc.php в директории "config".</target>
@@ -2701,6 +2761,12 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:3968</note>
         <target xml:lang="ru">Этот файл не является корректным образом (image file).</target>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:3969</note>
+      </trans-unit>
+      <trans-unit id="77797ec8a35666683bbac1b20db16f5f" approved="yes">
+        <source>Error while creating the /app/config/parameters.php file.</source>
+        <target xml:lang="ru">Ошибка создания файла /app/config/parameters.php.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:3970</note>
       </trans-unit>
       <trans-unit id="3d9f514d46849760ef1b1412e314fd99" approved="yes">
         <source>Error:</source>
@@ -2857,6 +2923,12 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:3996</note>
         <target xml:lang="ru">У вас уже установлена %s версия.</target>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:3997</note>
+      </trans-unit>
+      <trans-unit id="240810ecd34fca674fa9489b1ea0e879" approved="yes">
+        <source>The app/config/parameters.php file was not found. Did you delete or rename this file?</source>
+        <target xml:lang="ru">Файл /app/config/parameters.php не найден. Вы его удаляли/переименовывали?</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:3999</note>
       </trans-unit>
       <trans-unit id="5908157f5787d0050586f5629562f1f0" approved="yes">
         <source>Cannot find the SQL upgrade files. Please verify that the /install/upgrade/sql folder is not empty.</source>
@@ -3164,11 +3236,41 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:4281</note>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:4285</note>
       </trans-unit>
+      <trans-unit id="911b1409c3b677e9ebd4c98e2cb322af" approved="yes">
+        <source>Save in the following directory the archive file of the version you want to upgrade to: %1$s</source>
+        <target xml:lang="ru">Сохраните файл-архив с обновлением в эту директорию: %1$s</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:4289</note>
+      </trans-unit>
+      <trans-unit id="c38adafb0966d8ae1e0ea5753c4116b9" approved="yes">
+        <source>Click "Save" once the archive is there.</source>
+        <target xml:lang="ru">Когда появится архив, кликните "Сохранить".</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:4300</note>
+      </trans-unit>
       <trans-unit id="4b0319a87fb1baabe2fdb810e5cd4e62" approved="yes">
         <source>This option will skip the download step.</source>
         <target xml:lang="ru">При включении этой опции будет пропущен этап загрузки.</target>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:4292</note>
+      </trans-unit>
+      <trans-unit id="6f3f13220e46d8d1957a6ac998389e07" approved="yes">
+        <source>Save in the following directory the uncompressed PrestaShop files of the version you want to upgrade to: %1$s</source>
+        <target xml:lang="ru">Сохраните распакованные файлы обновления в эту директорию: %1$s</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:4296</note>
+      </trans-unit>
+      <trans-unit id="f0f7e91e97c7e0d617e6b9fd307bfe16" approved="yes">
+        <source>Please tell us which version you are upgrading to</source>
+        <target xml:lang="ru">Пожалуйста, поделитесь с нами, до какой версии вы обновляетесь</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:4298</note>
+      </trans-unit>
+      <trans-unit id="1e034b9b374950ec672faf75cdc3f713" approved="yes">
+        <source>This option will skip both download and unzip steps and will use %1$s as the source directory</source>
+        <target xml:lang="ru">Эта опция пропускает шаги загрузки и распаковки. В качестве источника обновления будет использована директория %1$s</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:4301</note>
       </trans-unit>
       <trans-unit id="9e68a57463e52beb2b2d4d116085044e" approved="yes">
         <source>More options (Expert mode)</source>
@@ -3984,7 +4086,7 @@ File: modules/gamification/controllers/admin/AdminGamificationController.php:80<
       </trans-unit>
       <trans-unit id="8189ecf686157db0c0274c1f49373318" approved="yes">
         <source>International</source>
-        <target xml:lang="ru">Международное присутствие</target>
+        <target xml:lang="ru">Интернационализация</target>
         <note>Context:
 File: modules/gamification/controllers/admin/AdminGamificationController.php:81</note>
       </trans-unit>
@@ -4078,7 +4180,7 @@ File: controllers/admin/AdminModulesController.php:97</note>
       </trans-unit>
       <trans-unit id="a8cf512208bee5db82f968d2dc247c5f" approved="yes">
         <source>Internationalization and Localization</source>
-        <target xml:lang="ru">Локализация</target>
+        <target xml:lang="ru">Интернационализация/Локализация</target>
         <note>Context:
 File: controllers/admin/AdminModulesController.php:98</note>
       </trans-unit>
@@ -4163,7 +4265,7 @@ File: controllers/admin/AdminModulesController.php:113</note>
       </trans-unit>
       <trans-unit id="44f9bbe73101a9c7842e9384e0db70c9" approved="yes">
         <source><![CDATA[Internationalization & Localization]]></source>
-        <target xml:lang="ru"><![CDATA[Локализация]]></target>
+        <target xml:lang="ru"><![CDATA[Интернационализация/Локализация]]></target>
         <note>Context:
 File: controllers/admin/AdminModulesController.php:114</note>
       </trans-unit>
@@ -4612,6 +4714,18 @@ File: admin-dev/themes/default/template/controllers/referrers/form_settings.tpl:
         <target xml:lang="ru">Сохранять прямой трафик</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/referrers/form_settings.tpl:60</note>
+      </trans-unit>
+      <trans-unit id="9e7ff803e9245919433265f5430333c9" approved="yes">
+        <source>Exclude taxes in sales total?</source>
+        <target xml:lang="ru">Исключить налоги из итога по продажам?</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/referrers/form_settings.tpl:80</note>
+      </trans-unit>
+      <trans-unit id="9cb43fe3704c7798a2564e0d9cd16d38" approved="yes">
+        <source>Exclude shipping in sales total?</source>
+        <target xml:lang="ru">Исключить доставку из общей выручки?</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/referrers/form_settings.tpl:100</note>
       </trans-unit>
       <trans-unit id="60496e92d8c44007e78f095a1cb6adc2" approved="yes">
         <source>The module '%s' must be activated and configurated in order to have all the statistics</source>
@@ -12422,19 +12536,19 @@ File: admin-dev/themes/default/template/controllers/login/content.tpl:161</note>
     <body>
       <trans-unit id="3979bb684920e9e9dc86e266f93d8c87" approved="yes">
         <source>Severity levels</source>
-        <target xml:lang="ru">Уровни безопасности</target>
+        <target xml:lang="ru">Серьёзность ошибок</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/logs/helpers/list/list_header.tpl:33</note>
       </trans-unit>
       <trans-unit id="c9869fa659bd86f03aba826acd8db5b5" approved="yes">
         <source>Meaning of severity levels:</source>
-        <target xml:lang="ru">Значение уровней безопасности:</target>
+        <target xml:lang="ru">Степень серьёзности ошибки:</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/logs/helpers/list/list_header.tpl:35</note>
       </trans-unit>
       <trans-unit id="b80c52e7f679fba3c2837b42705fe779" approved="yes">
         <source>Informative only</source>
-        <target xml:lang="ru">Информационное сообщение</target>
+        <target xml:lang="ru">Информация</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/logs/helpers/list/list_header.tpl:37</note>
       </trans-unit>
@@ -12446,7 +12560,7 @@ File: admin-dev/themes/default/template/controllers/logs/helpers/list/list_heade
       </trans-unit>
       <trans-unit id="4a378407770df6a42474ec5db9f54740" approved="yes">
         <source>Major issue (crash)!</source>
-        <target xml:lang="ru">Неустранимая ошибка (крэш)</target>
+        <target xml:lang="ru">Серьёзная ошибка (сбой)!</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/logs/helpers/list/list_header.tpl:40</note>
       </trans-unit>
