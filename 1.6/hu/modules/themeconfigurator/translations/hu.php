@@ -17,7 +17,7 @@ $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_00d23a76e43b46dae9ec7
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_b9f5c797ebbf55adccdd8539a65a0241'] = 'Kikapcsolt';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_f4f70727dc34561dfde1a3c529b6205c'] = 'Beállítások';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_c9cc8cce247e49bae79f15173ce97354'] = 'Mentés';
-$_MODULE['<{themeconfigurator}prestashop>themeconfigurator_4351cfebe4b61d8aa5efa1d020710005'] = 'megtekintés';
+$_MODULE['<{themeconfigurator}prestashop>themeconfigurator_4351cfebe4b61d8aa5efa1d020710005'] = 'Megtekintés';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_6e3670bb5e3826106c5243b242cc52d9'] = 'Hivatkozások megjelenítése boltod szociális fiókjaihoz (Twitter, Facebook stb.)';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_1334ff714a38e8004e9cdc755baa5afb'] = 'Kapcsolati információid megjelenítése';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_2f4fe84a25dc0024c9e80b4efd1d68f6'] = 'Jelenítse meg a szociális hálók megosztási hivatkozásait a termékoldalon';

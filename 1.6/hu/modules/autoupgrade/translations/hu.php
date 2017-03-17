@@ -129,7 +129,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselftab_00d23a76e43b46dae9ec7aa9dcbebb32
 $_MODULE['<{autoupgrade}prestashop>adminselftab_b9f5c797ebbf55adccdd8539a65a0241'] = 'Kikapcsolt';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_ed75712b0eb1913c28a3872731ffd48d'] = 'Duplikálás';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_bfc18def58cfa50029d149e9b932e974'] = 'Másoljuk a képeket is?';
-$_MODULE['<{autoupgrade}prestashop>adminselftab_4351cfebe4b61d8aa5efa1d020710005'] = 'megtekintés';
+$_MODULE['<{autoupgrade}prestashop>adminselftab_4351cfebe4b61d8aa5efa1d020710005'] = 'Megtekintés';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_7dce122004969d56ae2e0245cb754d35'] = 'Szerkesztés';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_f2a6c498fb90ee345d997f888fce3b18'] = 'Törlés';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_0071aa279bd1583754a544277740f047'] = 'Elem törlése - #';
@@ -221,6 +221,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_801ab24683a4a8c433c6eb40c48b
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_027d4866414c87a3af00e3acf98f2012'] = 'A PHP "allow_url_fopen" opció bekapcsolt vagy a cURL telepítve van';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_49c20044e894d8cc2da7783adbf79f16'] = 'Áruházad karbantartási üzemmódban van';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8641eaacafab9d58e7e93a92ff318714'] = '%s másodperc';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_4e140ba723a03baa6948340bf90e2ef6'] = 'Név:';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_987023af1c4e507ea04eb5069578f7f0'] = 'Verziószám:';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3b3d06023f6353f8fd05f859b298573e'] = 'URL:';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_43899376e3f4d4cb70dad59c81a4b957'] = 'Kisebb kiadás (javasolt)';
@@ -248,8 +249,14 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9a843f20677a52ca79af90312314
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f2a6c498fb90ee345d997f888fce3b18'] = 'Törlés';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_48995d15304fe79fc0240bf6544f2395'] = 'Biztosan törölni akarod ezt a mentést?';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_19ea4327ee1bad0ed94b42a77255f3c6'] = 'Kérlek ellenőrizd az áruház működését (próbálj létrehozni egy fiókot, rendelést leadni...)';
+$_MODULE['<{autoupgrade}prestashop>autoupgrade_bf544d00f0406f90f6e658a2571f5e9c'] = 'Ez a PrestaShop verzió nem frissíthető : hiányzó PS_ADMIN_DIR konstans.';
 $_MODULE['<{autoupgrade}prestashop>autoupgrade_786cc166a84595ae291b2d8b26d93bb3'] = '1-klikk frissítés';
+$_MODULE['<{autoupgrade}prestashop>autoupgrade_a1c06846db19625473aa4ffacb6307e4'] = 'Nem törölhető az elavult "AdminUpgrade" fül (fülazonosító: %d).';
+$_MODULE['<{autoupgrade}prestashop>autoupgrade_cade82f9025d8fb9d2af869af19c72b8'] = 'Az "AdminSelfUpgrade" fül nem hozható létre';
+$_MODULE['<{autoupgrade}prestashop>autoupgrade_12de3725023e3c02c25c7898f524b25d'] = 'A logo.gif %s helyen nem másolható';
+$_MODULE['<{autoupgrade}prestashop>autoupgrade_5d7ef5c6fd32feb5d482ec1459e86f83'] = 'Nem tölthető be az "AdminSelfUpgrade" fül';
 $_MODULE['<{autoupgrade}prestashop>autoupgrade_6215d33db0d099fcaae168dd4715135a'] = '"%s" könyvtár nem írható';
+$_MODULE['<{autoupgrade}prestashop>autoupgrade_10c008d228c9f35d12ce0437aa3eade9'] = 'Az ajax-upgradetab.php %s helyen nem másolható';
 
 
 return $_MODULE;

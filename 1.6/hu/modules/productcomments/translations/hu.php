@@ -55,6 +55,7 @@ $_MODULE['<{productcomments}prestashop>productcomments_reviews_d844ad9202d0de844
 $_MODULE['<{productcomments}prestashop>productcomments_93cba07454f06a4a960172bbd6e2a435'] = 'Igen';
 $_MODULE['<{productcomments}prestashop>productcomments_bafd7322c6e97d25b6299b5d6fe8920b'] = 'Nem';
 $_MODULE['<{productcomments}prestashop>productcomments_c31732fda0c6f01c446db7163b214de4'] = 'Írd meg véleményed';
+$_MODULE['<{productcomments}prestashop>productcomments_240f3031f25601fa128bd4e15f0a37de'] = 'Hozzászólás:';
 $_MODULE['<{productcomments}prestashop>productcomments_a4d3b161ce1309df1c4e25df28694b7b'] = 'Elküldés';
 $_MODULE['<{productcomments}prestashop>products-comparison_5d9acecbb0b55a71dea7403896356001'] = 'Hozzászólások megtekintése';
 $_MODULE['<{productcomments}prestashop>tab_34e80a799d144cfe4af46815e103f017'] = 'Vélemények';

@@ -25,7 +25,7 @@ $_MODULE['<{statscatalog}prestashop>statscatalog_b718adec73e04ce3ec720dd11a06a30
 $_MODULE['<{statscatalog}prestashop>statscatalog_49ee3087348e8d44e1feda1917443987'] = 'Név';
 $_MODULE['<{statscatalog}prestashop>statscatalog_8e7c9a35104a5a68199678bd6bc5d187'] = 'Szerkesztés / Megtekintés';
 $_MODULE['<{statscatalog}prestashop>statscatalog_7dce122004969d56ae2e0245cb754d35'] = 'Szerkesztés';
-$_MODULE['<{statscatalog}prestashop>statscatalog_4351cfebe4b61d8aa5efa1d020710005'] = 'megtekintés';
+$_MODULE['<{statscatalog}prestashop>statscatalog_4351cfebe4b61d8aa5efa1d020710005'] = 'Megtekintés';
 
 
 return $_MODULE;

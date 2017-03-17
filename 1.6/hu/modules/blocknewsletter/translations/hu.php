@@ -27,7 +27,7 @@ $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_ce8ae9da5b7cd6c3df2929543
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_808c7457c768423c5651cbf676d9f6d7'] = 'Feliratkozott';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_ec59738d441f28011a81e62bdcea6200'] = 'A feliratkozás ideje';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_3a1205098d0a13a9c41a8d538fd6a34a'] = 'Hírlevél-regisztrációk';
-$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_4351cfebe4b61d8aa5efa1d020710005'] = 'megtekintés';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_4351cfebe4b61d8aa5efa1d020710005'] = 'Megtekintés';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_4182c8f19d40c7ca236a5f4f83faeb6b'] = 'Leiratkozás';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_e267e2be02cf3e29f4ba53b5d97cf78a'] = 'Érvénytelen e-mail cím';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_1c623b291d95f4f1b1d0c03d0dc0ffa1'] = 'Ez az e-mail cím nem regisztrált';

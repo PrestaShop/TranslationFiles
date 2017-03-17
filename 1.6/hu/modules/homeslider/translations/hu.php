@@ -28,6 +28,7 @@ $_MODULE['<{homeslider}prestashop>homeslider_eb28485b92fbf9201918698245ec6430'] 
 $_MODULE['<{homeslider}prestashop>homeslider_b9f5c797ebbf55adccdd8539a65a0241'] = 'Kikapcsolt';
 $_MODULE['<{homeslider}prestashop>homeslider_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Bekapcsolt';
 $_MODULE['<{homeslider}prestashop>homeslider_792744786ed30c5623dd1cf0c16f4ffe'] = 'Fájl kiválasztása';
+$_MODULE['<{homeslider}prestashop>homeslider_b112d8dc41120e6d28639b7eb825f491'] = 'Maximum képméret: %s.';
 $_MODULE['<{homeslider}prestashop>homeslider_272ba7d164aa836995be6319a698be84'] = 'Képaláírás';
 $_MODULE['<{homeslider}prestashop>homeslider_b5a7adde1af5c87d7fd797b6245c2a39'] = 'Leírás';
 $_MODULE['<{homeslider}prestashop>homeslider_93cba07454f06a4a960172bbd6e2a435'] = 'Igen';

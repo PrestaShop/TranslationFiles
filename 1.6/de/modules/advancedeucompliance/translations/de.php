@@ -26,7 +26,7 @@ $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_d6a0f3d55f2b3e5
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_cca40d516b6d8c0b9c0e8c88752f1710'] = 'Label "AGB mit Widerrufsrecht" kann erst aktiviert werden, nachdem  der Link "%s" mit einer CMS-Seite verknüpft worden ist.';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_169f26196195b1ba3e10dd34fda1e110'] = 'Label "Versandkosten" kann erst aktiviert werden, nachdem  der Link "%s" mit einer CMS-Seite verknüpft worden ist.';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_dce8bc104eff9adc2d0e580b008721ec'] = 'Die Aktivierung der rechtssicheren Bestellübersicht ist nicht möglich, da Ihr Template mit dieser Option nicht kompatibel ist.';
-$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_23e162ba6bf36c7560ebbc868d9e2552'] = 'Rechtliche Hinweise';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_23e162ba6bf36c7560ebbc868d9e2552'] = 'Impressum';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_98664ee75f74254b622a52d86a798ae3'] = 'Allgemeine Geschäftsbedingungen (AGB)';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_93fb7e4d4616f108db46461360b7a6ae'] = 'Widerrufsrecht';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_01ed64f3ede93b663b4d78d2a0693f0a'] = 'Widerrufs-Formular';

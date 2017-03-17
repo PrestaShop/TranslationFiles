@@ -101,7 +101,7 @@ $_MODULE['<{blockwishlist}prestashop>mywishlist_0eceeb45861f9585dd7a97a3e36f85c6
 $_MODULE['<{blockwishlist}prestashop>mywishlist_45284ef16392f85ff424b2ef36ab5948'] = 'Hivatkozás';
 $_MODULE['<{blockwishlist}prestashop>mywishlist_7a1920d61156abc05a60135aefe8bc67'] = 'Alapértelmezett';
 $_MODULE['<{blockwishlist}prestashop>mywishlist_f2a6c498fb90ee345d997f888fce3b18'] = 'Törlés';
-$_MODULE['<{blockwishlist}prestashop>mywishlist_4351cfebe4b61d8aa5efa1d020710005'] = 'megtekintés';
+$_MODULE['<{blockwishlist}prestashop>mywishlist_4351cfebe4b61d8aa5efa1d020710005'] = 'Megtekintés';
 $_MODULE['<{blockwishlist}prestashop>mywishlist_d025259319054206be54336a00defe89'] = 'Biztosan törlöd a kívánságlistáról?';
 $_MODULE['<{blockwishlist}prestashop>mywishlist_0b3db27bc15f682e92ff250ebb167d4b'] = 'Vissza a fiókodhoz';
 $_MODULE['<{blockwishlist}prestashop>mywishlist_8cf04a9734132302f96da8e113e80ce5'] = 'Kezdőlap';
@@ -110,7 +110,7 @@ $_MODULE['<{blockwishlist}prestashop>view_315356f4c2ed70df345ffc01021f7f56'] = '
 $_MODULE['<{blockwishlist}prestashop>view_4b7d496eedb665d0b5f589f2f874e7cb'] = 'Termékrészletek';
 $_MODULE['<{blockwishlist}prestashop>view_694e8d1f2ee056f98ee488bdc4982d73'] = 'Mennyiség';
 $_MODULE['<{blockwishlist}prestashop>view_502996d9790340c5fd7b86a5b93b1c9f'] = 'Prioritás';
-$_MODULE['<{blockwishlist}prestashop>view_4351cfebe4b61d8aa5efa1d020710005'] = 'megtekintés';
+$_MODULE['<{blockwishlist}prestashop>view_4351cfebe4b61d8aa5efa1d020710005'] = 'Megtekintés';
 $_MODULE['<{blockwishlist}prestashop>view_2d0f6b8300be19cf35e89e66f0677f95'] = 'Kosárba';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist-extra_641254d77e7a473aa5910574f3f9453c'] = 'Kívánságlista';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist-extra_33010ef6524c87c41380e2cc5e212f73'] = 'Hozzáadás ehhez %s';
