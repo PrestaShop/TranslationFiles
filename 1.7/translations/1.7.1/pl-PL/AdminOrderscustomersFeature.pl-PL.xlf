@@ -4,9 +4,25 @@
     <body>
       <trans-unit id="8f497c1a3d15af9e0c215019f26b887d" approved="yes">
         <source>Delay</source>
-        <target xml:lang="pl">Czas przesyłki</target>
+        <target xml:lang="pl">Opóźnienie</target>
         <note>Context:
 File: classes/lang/OrderMessageLang.php:40</note>
+      </trans-unit>
+      <trans-unit id="2a442c1a811c488f4aad5d970f1047c5" approved="yes">
+        <source>Hi,
+
+Unfortunately, an item on your order is currently out of stock. This may cause a slight delay in delivery.
+Please accept our apologies and rest assured that we are working hard to rectify this.
+
+Best regards,</source>
+        <target xml:lang="pl">Witaj,
+
+Niestety, artykuł na twoim zamówieniu jest obecnie niedostępny. Może to spowodować delikatne opóźnienie w dostawie.
+Przepraszamy za powstałe utrudnienia, zapewniamy że pracujemy by to skorygować.
+
+Z poważaniem,</target>
+        <note>Context:
+File: classes/lang/OrderMessageLang.php:44</note>
       </trans-unit>
     </body>
   </file>
@@ -48,7 +64,7 @@ File: classes/lang/OrderReturnStateLang.php:44</note>
     <body>
       <trans-unit id="d698e777b19f6f487ae0490950174fde" approved="yes">
         <source>Awaiting check payment</source>
-        <target xml:lang="pl">Oczekiwanie płatności czekiem</target>
+        <target xml:lang="pl">Oczekiwanie na płatność czekiem</target>
         <note>Context:
 File: classes/lang/OrderStateLang.php:41</note>
       </trans-unit>
@@ -96,19 +112,19 @@ File: classes/lang/OrderStateLang.php:62</note>
       </trans-unit>
       <trans-unit id="48eac0bd985bc909fb58ccc1e1f669ed" approved="yes">
         <source>On backorder (paid)</source>
-        <target xml:lang="pl">Brak towaru</target>
+        <target xml:lang="pl">Zamówienie oczekujące (opłacone)</target>
         <note>Context:
 File: classes/lang/OrderStateLang.php:65</note>
       </trans-unit>
       <trans-unit id="6d59fd4089482ca1a4017ca4852f8d1d" approved="yes">
         <source>On backorder (not paid)</source>
-        <target xml:lang="pl">Brak towaru</target>
+        <target xml:lang="pl">Zamówienie oczekujące (nieopłacone)</target>
         <note>Context:
 File: classes/lang/OrderStateLang.php:68</note>
       </trans-unit>
       <trans-unit id="688a337ab9864a53b41cd6ccd7f8880d" approved="yes">
         <source>Awaiting bank wire payment</source>
-        <target xml:lang="pl">Oczekiwanie na płatność przelewem bankowym</target>
+        <target xml:lang="pl">Oczekiwanie na płatność przelewem</target>
         <note>Context:
 File: classes/lang/OrderStateLang.php:71</note>
       </trans-unit>
@@ -126,7 +142,7 @@ File: classes/lang/OrderStateLang.php:77</note>
       </trans-unit>
       <trans-unit id="51ebf726bac579d61910a5425e3128c5" approved="yes">
         <source>Awaiting Cash On Delivery validation</source>
-        <target xml:lang="pl">Awaiting cod validation</target>
+        <target xml:lang="pl">Oczekiwanie na płatność przy odbiorze</target>
         <note>Context:
 File: classes/lang/OrderStateLang.php:80</note>
       </trans-unit>
@@ -336,13 +352,13 @@ File: controllers/admin/AdminSlipController.php:72</note>
       </trans-unit>
       <trans-unit id="44180a771d7f3bf534550199c3293441" approved="yes">
         <source>Credit slip options</source>
-        <target xml:lang="pl">Opcje paragonu</target>
+        <target xml:lang="pl">Opcje potwierdzenia zwrotu</target>
         <note>Context:
 File: controllers/admin/AdminSlipController.php:76</note>
       </trans-unit>
       <trans-unit id="d3174688da67b4530a7c8e774a7f31d5" approved="yes">
         <source>Credit slip prefix</source>
-        <target xml:lang="pl">Prefiks paragonów</target>
+        <target xml:lang="pl">Prefiks potwierdzenia zwrotu</target>
         <note>Context:
 File: controllers/admin/AdminSlipController.php:79</note>
       </trans-unit>
@@ -394,7 +410,7 @@ File: controllers/admin/AdminOrdersController.php:269</note>
       </trans-unit>
       <trans-unit id="0262a3dc4fae9adc8cb46e788806ccbf" approved="yes">
         <source>Create order</source>
-        <target xml:lang="pl">stwórz zamówienie</target>
+        <target xml:lang="pl">Utwórz zamówienie</target>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:269</note>
       </trans-unit>
@@ -436,13 +452,13 @@ File: controllers/admin/AdminOrdersController.php:327</note>
       </trans-unit>
       <trans-unit id="d201284604b35aa9392cb9c1acc434a6" approved="yes">
         <source>Credit slip for order #%d</source>
-        <target xml:lang="pl">Nota kredytowa do zamówienia #%d</target>
+        <target xml:lang="pl">Potwierdzenie zwrotu do zamówienia #%d</target>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:800</note>
       </trans-unit>
       <trans-unit id="bbee72681d2c075d95355d3d9ccefb4e" approved="yes">
         <source>Credit card slip for order #%d</source>
-        <target xml:lang="pl">Nota kredytowa do zamówienia #%d</target>
+        <target xml:lang="pl">Potwierdzenie zwrotu do zamówienia #%d</target>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:1071</note>
       </trans-unit>
