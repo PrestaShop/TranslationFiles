@@ -56,6 +56,12 @@ File: admin-dev/themes/default/template/controllers/customers/helpers/view/view.
         <note>Context:
 File: admin-dev/themes/default/template/controllers/customers/helpers/view/view.tpl:58</note>
       </trans-unit>
+      <trans-unit id="56b80d8cc0afeaff5a2e624583b976ab" approved="yes">
+        <source>%1$d years old (birth date: %2$s)</source>
+        <target xml:lang="da">%1$d år gammel (fødselsdato: %2$s)</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/customers/helpers/view/view.tpl:62</note>
+      </trans-unit>
       <trans-unit id="97ce2ccb5de5849fd94203a375054378" approved="yes">
         <source>Registration Date</source>
         <target xml:lang="da">Oprettelsesdato</target>
@@ -323,6 +329,12 @@ File: modules/autoupgrade/AdminSelfTab.php:338</note>
         <target xml:lang="da">Når dit tema er importeret, venligst vælg temaet på denne side</target>
         <note>Context:
 File: modules/autoupgrade/AdminSelfTab.php:339</note>
+      </trans-unit>
+      <trans-unit id="cd42867909b2cb10eb52348dd5d1d861" approved="yes">
+        <source>if you change the theme, the parameters.php file must be writable (CHMOD 755 / 777)</source>
+        <target xml:lang="da">hvis du skifter tema, skal der kunne skrives til filen parameters.php (CHMOD 755 / 777)</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfTab.php:421</note>
       </trans-unit>
       <trans-unit id="38fb7d24e0d60a048f540ecb18e13376" approved="yes">
         <source>   Save   </source>
@@ -1643,6 +1655,12 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:554</note>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:558</note>
       </trans-unit>
+      <trans-unit id="b6b1ed5508bc97f38ab9075ccf234c69" approved="yes">
+        <source>If you customized the default PrestaShop theme in its folder (folder name "classic" in 1.7), enabling this option will lose your modifications.</source>
+        <target xml:lang="da">Hvis du tilpassede PrestaShops standardtema i dets mappe (mappe med navnet "classic" i 1.7), bliver ændringerne ikke gemt, hvis du aktiverer denne indstilling.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:559</note>
+      </trans-unit>
       <trans-unit id="97a989a73b46233ae4330fb7682a70a2" approved="yes">
         <source>If you are using your own theme, enabling this option will simply update the default theme files, and your own theme will be safe.</source>
         <target xml:lang="da">Hvis du anvender dit eget tema, så vil aktivering af denne indstilling blot opdatere standard tema filerne og dit eget tema vil ikke ændres.</target>
@@ -1660,6 +1678,24 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:564</note>
         <target xml:lang="da">Dette vil ændre dit tema: din butik vil benytte standardtemaet i henhold til den version af PrestaShop, du opgraderer til.</target>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:565</note>
+      </trans-unit>
+      <trans-unit id="378f79e37ef9cc2c9d631885ffbfe816" approved="yes">
+        <source>Keep the default e-mails</source>
+        <target xml:lang="da">Behold standard e-mails</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:569</note>
+      </trans-unit>
+      <trans-unit id="5ea970658668e0b45cb6f64ce18b420e" approved="yes">
+        <source>This will not upgrade the default PrestaShop e-mails.</source>
+        <target xml:lang="da">Dette vil ikke opgradere Prestashops standarde-mails.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:570</note>
+      </trans-unit>
+      <trans-unit id="a83c73a145dbc0f4ea7c6a95203df43d" approved="yes">
+        <source>If you customized the default PrestaShop e-mail templates, enabling this option will keep your modifications.</source>
+        <target xml:lang="da">Hvis du har tilpasset PrestaShops standard e-mailskabeloner, gemmes dine ændringer ikke, hvis du aktiverer denne indstilling.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:571</note>
       </trans-unit>
       <trans-unit id="36be1130454bc8c4e0a41d36fa062a8b" approved="yes">
         <source>unable to create directory %s</source>
@@ -1848,6 +1884,12 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:1506</note>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:1523</note>
       </trans-unit>
+      <trans-unit id="ee1185047ebc6f873d1c9804caa2f8c3" approved="yes">
+        <source>It's not a valid upgrade %s archive...</source>
+        <target xml:lang="da">Opgraderingen af %s-arkivet er ikke gyldig...</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:1518</note>
+      </trans-unit>
       <trans-unit id="064a15c7711dd82e5026a17a453b3a3b" approved="yes">
         <source>Extraction directory is not writable.</source>
         <target xml:lang="da">Der kan ikke skrives til udpakningsmappen.</target>
@@ -1950,6 +1992,18 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:1882</note>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:1902</note>
       </trans-unit>
+      <trans-unit id="128cb6d6cda290b11bb070adb00d5e88" approved="yes">
+        <source>%1$s module is not compatible with %2$s, it will be removed from your ftp.</source>
+        <target xml:lang="da">Modulet %1$s er ikke kompatibelt med %2$s og fjernes fra din ftp.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:1926</note>
+      </trans-unit>
+      <trans-unit id="c663e95d4fde6600f5e4760ccb5d9fcc" approved="yes">
+        <source>%1$s module is not compatible with %2$s, please remove it from your ftp.</source>
+        <target xml:lang="da">Modulet %1$s er ikke kompatibelt med %2$s, så du bedes fjerne det fra din ftp.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:1928</note>
+      </trans-unit>
       <trans-unit id="f0d18de100ab33463602ea5b8165d842" approved="yes">
         <source>Addons modules files have been upgraded.</source>
         <target xml:lang="da">Addons modul filer blev opgraderet.</target>
@@ -2004,6 +2058,18 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:2059</note>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:2139</note>
       </trans-unit>
+      <trans-unit id="e04426beffbb68ad104bcaa54466f13b" approved="yes">
+        <source>The app/config/parameters.php file was not found.</source>
+        <target xml:lang="da">Filen app/config/parameters.php blev ikke fundet.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:2154</note>
+      </trans-unit>
+      <trans-unit id="bc141f39167fd8d4a57f6c9437aec8ee" approved="yes">
+        <source>The app/config/parameters.yml file was not found.</source>
+        <target xml:lang="da">Filen app/config/parameters.yml blev ikke fundet.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:2160</note>
+      </trans-unit>
       <trans-unit id="22f18bac5d420d7ac5aca37b1afe30c9" approved="yes">
         <source>Current version: %1$s. Version to install: %2$s.</source>
         <target xml:lang="da">Nuværende version: %1$s. Version der skal instaleres: %2$s.</target>
@@ -2021,6 +2087,12 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:2179</note>
         <target xml:lang="da">[ERROR] Versionen der skal installeres er for gammel.</target>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:2181</note>
+      </trans-unit>
+      <trans-unit id="d159b135bb83d88adcde6c1ac420556e" approved="yes">
+        <source>There is no older version. Did you delete or rename the app/config/parameters.php file?</source>
+        <target xml:lang="da">Der er ingen ældre version. Har du slettet eller omdøbt filen app/config/parameters.php?</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:3998</note>
       </trans-unit>
       <trans-unit id="b3884f9e8ed49a8d7165787d3adec342" approved="yes">
         <source>Invalid database configuration</source>
@@ -2064,6 +2136,12 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:2371</note>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:2400</note>
       </trans-unit>
+      <trans-unit id="584cca3a7ed0acf45634dee12c9ee9d5" approved="yes">
+        <source>Error upgrading doctrine schema</source>
+        <target xml:lang="da">Der opstod en fejl under opgradering af læreskemaet</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:2410</note>
+      </trans-unit>
       <trans-unit id="257f5523f283710c6859d8f425a0c657" approved="yes">
         <source>Database upgrade OK</source>
         <target xml:lang="da">Databaseopgradering OK</target>
@@ -2081,6 +2159,12 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:2425</note>
         <target xml:lang="da">[CLEANING CACHE] Filen %s fjernet</target>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:2435</note>
+      </trans-unit>
+      <trans-unit id="0e8fc0184c6a5faaf01d3f9851256cac" approved="yes">
+        <source>Error updating translations</source>
+        <target xml:lang="da">Der opstod en fejl under opdatering af oversættelser</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:2503</note>
       </trans-unit>
       <trans-unit id="9c7e0ba2c6ecb11af7f39843bbc18ff8" approved="yes">
         <source>Warning detected during upgrade.</source>
@@ -2263,9 +2347,9 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:3239</note>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:3249</note>
       </trans-unit>
-      <trans-unit id="e40517de82d2888877a24f233cef618e">
+      <trans-unit id="e40517de82d2888877a24f233cef618e" approved="yes">
         <source>[SQL ERROR] </source>
-        <target xml:lang="da" state="needs-translation"> </target>
+        <target xml:lang="da">[SQL ERROR] </target>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:3269</note>
       </trans-unit>
@@ -2293,9 +2377,9 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:3302</note>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:3319</note>
       </trans-unit>
-      <trans-unit id="2b0e9a817cf34a8251bdf75c9b1cfefc">
+      <trans-unit id="2b0e9a817cf34a8251bdf75c9b1cfefc" approved="yes">
         <source>Backup directory is not writable </source>
-        <target xml:lang="da" state="needs-translation"> </target>
+        <target xml:lang="da">Der kan ikke skrives til Backup-mappen </target>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:3327</note>
       </trans-unit>
@@ -2611,6 +2695,12 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:3957</note>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:3958</note>
       </trans-unit>
+      <trans-unit id="5f9ff5f3662e1675dcf694c707b41466" approved="yes">
+        <source>Cannot create settings file, if /app/config/parameters.php exists, please give the public write permissions to this file, else please create a file named parameters.php in config directory.</source>
+        <target xml:lang="da">Indstillingsfilen kan ikke oprettes. Hvis /app/config/parameters.php findes, skal du tildele offentlige skriverettigheder til denne fil, ellers skal du oprette en fil med navnet parameters.php i konfigurationsmappen.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:3959</note>
+      </trans-unit>
       <trans-unit id="128a6722ff88445b488e4eb3319fa5b7" approved="yes">
         <source>Cannot write settings file, please create a file named settings.inc.php in the "config" directory.</source>
         <target xml:lang="da">Kan ikke gemme indstillinger i fil. Opret venligst en fil med navnet settings.inc.php i mappen "config".</target>
@@ -2670,6 +2760,12 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:3968</note>
         <target xml:lang="da">Dette er ikke en gyldig billedfil.</target>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:3969</note>
+      </trans-unit>
+      <trans-unit id="77797ec8a35666683bbac1b20db16f5f" approved="yes">
+        <source>Error while creating the /app/config/parameters.php file.</source>
+        <target xml:lang="da">Der opstod en fejl under oprettelse af filen /app/config/parameters.php.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:3970</note>
       </trans-unit>
       <trans-unit id="3d9f514d46849760ef1b1412e314fd99" approved="yes">
         <source>Error:</source>
@@ -2826,6 +2922,12 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:3996</note>
         <target xml:lang="da">Du har allerede version %s.</target>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:3997</note>
+      </trans-unit>
+      <trans-unit id="240810ecd34fca674fa9489b1ea0e879" approved="yes">
+        <source>The app/config/parameters.php file was not found. Did you delete or rename this file?</source>
+        <target xml:lang="da">Filen app/config/parameters.php blev ikke fundet. Har du slettet eller omdøbt denne fil?</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:3999</note>
       </trans-unit>
       <trans-unit id="5908157f5787d0050586f5629562f1f0" approved="yes">
         <source>Cannot find the SQL upgrade files. Please verify that the /install/upgrade/sql folder is not empty.</source>
@@ -3133,11 +3235,41 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:4281</note>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:4285</note>
       </trans-unit>
+      <trans-unit id="911b1409c3b677e9ebd4c98e2cb322af" approved="yes">
+        <source>Save in the following directory the archive file of the version you want to upgrade to: %1$s</source>
+        <target xml:lang="da">Gem arkivfilen af den version, du vil opgradere til, i følgende mappe: %1$s</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:4289</note>
+      </trans-unit>
+      <trans-unit id="c38adafb0966d8ae1e0ea5753c4116b9" approved="yes">
+        <source>Click "Save" once the archive is there.</source>
+        <target xml:lang="da">Klik på "Gem", når arkivet er der.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:4300</note>
+      </trans-unit>
       <trans-unit id="4b0319a87fb1baabe2fdb810e5cd4e62" approved="yes">
         <source>This option will skip the download step.</source>
         <target xml:lang="da">Denne indstilling vil springe over download skridtet.</target>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:4292</note>
+      </trans-unit>
+      <trans-unit id="6f3f13220e46d8d1957a6ac998389e07" approved="yes">
+        <source>Save in the following directory the uncompressed PrestaShop files of the version you want to upgrade to: %1$s</source>
+        <target xml:lang="da">Gem de ikke-komprimerede PrestaShop-filer af den version, du vil opgradere til, i følgende mappe: %1$s</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:4296</note>
+      </trans-unit>
+      <trans-unit id="f0f7e91e97c7e0d617e6b9fd307bfe16" approved="yes">
+        <source>Please tell us which version you are upgrading to</source>
+        <target xml:lang="da">Angiv, hvilken version du opgraderer til</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:4298</note>
+      </trans-unit>
+      <trans-unit id="1e034b9b374950ec672faf75cdc3f713" approved="yes">
+        <source>This option will skip both download and unzip steps and will use %1$s as the source directory</source>
+        <target xml:lang="da">Denne indstilling springer både download og udpakning over og bruger %1$s som kildemappe</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:4301</note>
       </trans-unit>
       <trans-unit id="9e68a57463e52beb2b2d4d116085044e" approved="yes">
         <source>More options (Expert mode)</source>
@@ -3331,9 +3463,9 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:4511</note>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:4516</note>
       </trans-unit>
-      <trans-unit id="64acebe80a242d6dbb2013d92db337d9">
+      <trans-unit id="64acebe80a242d6dbb2013d92db337d9" approved="yes">
         <source>Last datetime check: %s </source>
-        <target xml:lang="da" state="needs-translation"> </target>
+        <target xml:lang="da">Seneste datetime kontrol: %s </target>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:4517</note>
       </trans-unit>
@@ -3481,9 +3613,9 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:4968</note>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:5002</note>
       </trans-unit>
-      <trans-unit id="a8192fd08a431bf547ebf9a3eaa9b6bb">
+      <trans-unit id="a8192fd08a431bf547ebf9a3eaa9b6bb" approved="yes">
         <source>Javascript error (parseJSON) detected for action </source>
-        <target xml:lang="da" state="needs-translation"> </target>
+        <target xml:lang="da">JavaScript-fejl (parseJSON) opdaget for handling </target>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:5079</note>
       </trans-unit>
@@ -3701,6 +3833,12 @@ File: admin-dev/themes/default/template/controllers/modules/tab_module_line.tpl:
         <note>Context:
 File: admin-dev/themes/default/template/controllers/modules/tab_module_line.tpl:36</note>
       </trans-unit>
+      <trans-unit id="0461779839539a8ee8fb2dca43cf5bec" approved="yes">
+        <source>This module is available on PrestaShop Addons</source>
+        <target xml:lang="da">Dette modul findes på PrestaShop Addons</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/modules/tab_module_line.tpl:38</note>
+      </trans-unit>
       <trans-unit id="2cc1943d4c0b46bfcf503a75c44f988b" approved="yes">
         <source>Popular</source>
         <target xml:lang="da">Populær</target>
@@ -3854,6 +3992,18 @@ File: admin-dev/themes/default/template/helpers/options/options.tpl:61</note>
         <target xml:lang="da">Marker/fjern alle markeringer</target>
         <note>Context:
 File: admin-dev/themes/default/template/helpers/options/options.tpl:80</note>
+      </trans-unit>
+      <trans-unit id="ff8ff5e54a1832486773ec48b8f8175d" approved="yes">
+        <source>You are editing this page for a specific shop or group. Click "Yes" to check all fields, "No" to uncheck all.</source>
+        <target xml:lang="da">Du er i gang med at redigere denne side til en bestemt butik eller gruppe. Klik på "Ja" for at markere alle felter, eller klik på "Nej" for at fjerne markeringen af alle felter.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/helpers/options/options.tpl:81</note>
+      </trans-unit>
+      <trans-unit id="d97ccb3e617d930d52ffd95e5db2c101" approved="yes">
+        <source>If you check a field, change its value, and save, the multistore behavior will not apply to this shop (or group), for this particular parameter.</source>
+        <target xml:lang="da">Hvis du markerer et felt, ændrer dets værdi og gemmer det, vil butikskædefunktionen ikke gælde for denne butik (eller gruppe) for dette bestemte parameter.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/helpers/options/options.tpl:82</note>
       </trans-unit>
       <trans-unit id="a157a50f5a421a7dfbdf280f3ff9d56e" approved="yes">
         <source>You can't change the value of this configuration field in the context of this shop.</source>
@@ -4540,6 +4690,12 @@ File: admin-dev/themes/default/template/controllers/referrers/form_settings.tpl:
         <note>Context:
 File: admin-dev/themes/default/template/controllers/referrers/form_settings.tpl:43</note>
       </trans-unit>
+      <trans-unit id="6c4defc21d9e7428d7fe81a81f8eb05d" approved="yes">
+        <source>Your data is cached in order to sort it and filter it. You can refresh the cache by clicking on the "Refresh cache" button.</source>
+        <target xml:lang="da">Dine data bliver gemt for at sortere og filtrere dem. Du kan opdatere cachelageret ved at klikke på knappen "Opdater cachelager".</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/referrers/form_settings.tpl:45</note>
+      </trans-unit>
       <trans-unit id="1faa3e365bfe45ad8e3a6c97da5b94d1" approved="yes">
         <source>Refresh cache</source>
         <target xml:lang="da">Opdater cache</target>
@@ -4557,6 +4713,24 @@ File: admin-dev/themes/default/template/controllers/referrers/form_settings.tpl:
         <target xml:lang="da">Gem direkte trafik?</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/referrers/form_settings.tpl:60</note>
+      </trans-unit>
+      <trans-unit id="9e7ff803e9245919433265f5430333c9" approved="yes">
+        <source>Exclude taxes in sales total?</source>
+        <target xml:lang="da">Skal det samlede salgsbeløb være uden moms?</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/referrers/form_settings.tpl:80</note>
+      </trans-unit>
+      <trans-unit id="9cb43fe3704c7798a2564e0d9cd16d38" approved="yes">
+        <source>Exclude shipping in sales total?</source>
+        <target xml:lang="da">Skal det samlede salgsbeløb være uden forsendelse?</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/referrers/form_settings.tpl:100</note>
+      </trans-unit>
+      <trans-unit id="60496e92d8c44007e78f095a1cb6adc2" approved="yes">
+        <source>The module '%s' must be activated and configurated in order to have all the statistics</source>
+        <target xml:lang="da">Modulet "%s" skal være aktiveret og konfigureret for at få vist alle statistikker</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/referrers/form_settings.tpl:133</note>
       </trans-unit>
     </body>
   </file>
@@ -4892,6 +5066,12 @@ File: controllers/admin/AdminSupplyOrdersController.php:793</note>
         <note>Context:
 File: controllers/admin/AdminSupplyOrdersController.php:1643</note>
       </trans-unit>
+      <trans-unit id="d069f85c7c0a8987df720b39391af496" approved="yes">
+        <source>The quantity of supplies that you received so far (today and the days before, if it applies).</source>
+        <target xml:lang="da">Antallet af leverandører, som du har modtaget indtil videre (i dag og dagene inden, hvis det er relevant).</target>
+        <note>Context:
+File: controllers/admin/AdminSupplyOrdersController.php:802</note>
+      </trans-unit>
       <trans-unit id="17fe16e88ac2e6fc0a5a9ed7f0d87ba2" approved="yes">
         <source>Quantity expected</source>
         <target xml:lang="da">Antal forventet</target>
@@ -5208,6 +5388,12 @@ File: admin-dev/themes/default/template/controllers/orders/form.tpl:1461</note>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/form.tpl:1057</note>
       </trans-unit>
+      <trans-unit id="28a996f23ec7c4f6cf75da6bf30670bd" approved="yes">
+        <source>Search for an existing customer by typing the first letters of his/her name.</source>
+        <target xml:lang="da">Søg efter en eksisterende kunde ved at angive de første bogstaver i vedkommendes navn.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/form.tpl:1107</note>
+      </trans-unit>
       <trans-unit id="eeddc7284795f5c71b12156c06e9e821" approved="yes">
         <source>Search for a customer</source>
         <target xml:lang="da">Søg efter kunde</target>
@@ -5231,6 +5417,12 @@ File: admin-dev/themes/default/template/controllers/orders/form.tpl:1175</note>
         <target xml:lang="da">Kurv</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/form.tpl:1194</note>
+      </trans-unit>
+      <trans-unit id="c78ba40a94a132dc170cba2f8c66f310" approved="yes">
+        <source>Search for an existing product by typing the first letters of its name.</source>
+        <target xml:lang="da">Søg efter en eksisterende vare ved at indtaste de første bogstaver i betegnelsen.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/form.tpl:1198</note>
       </trans-unit>
       <trans-unit id="fcebe56087b9373f15514831184fa572" approved="yes">
         <source>In stock</source>
@@ -5423,6 +5615,12 @@ File: controllers/admin/AdminWarehousesController.php:129
         <note>Context:
 File: controllers/admin/AdminWarehousesController.php:130</note>
       </trans-unit>
+      <trans-unit id="33ebc093b4234601c5699b0a7c3f0286" approved="yes">
+        <source>You should also check the management type (according to the law in your country), the valuation currency and its associated carriers and shops.</source>
+        <target xml:lang="da">Du skal også tjekke ledelsestypen (i henhold til lovgivningen i dit land), vurderingsvalutaen og de tilknyttede forsendelsesfirmaer og butikker.</target>
+        <note>Context:
+File: controllers/admin/AdminWarehousesController.php:131</note>
+      </trans-unit>
       <trans-unit id="668aa00798e8a04b2a7c4799132d3e00" approved="yes">
         <source>You can also see detailed information about your stock, such as its overall value, the number of products and quantities stored, etc.</source>
         <target xml:lang="da">Endelig kan du se detaljeret information om dit lager pr. lagersted, som dets samlede værdi, antallet af varer og oplagrede mængder osv.</target>
@@ -5489,6 +5687,12 @@ File: controllers/admin/AdminWarehousesController.php:211</note>
         <note>Context:
 File: controllers/admin/AdminWarehousesController.php:215</note>
       </trans-unit>
+      <trans-unit id="869e1c1151e8af3732c5d994c8183a2a" approved="yes">
+        <source>Complementary address (optional).</source>
+        <target xml:lang="da">Supplerende adresse (valgfri).</target>
+        <note>Context:
+File: controllers/admin/AdminWarehousesController.php:229</note>
+      </trans-unit>
       <trans-unit id="c6e2a9b2d1979c244d18c7e9fbf9a86f" approved="yes">
         <source>Zip/postal code</source>
         <target xml:lang="da">Postnummer</target>
@@ -5519,11 +5723,35 @@ File: controllers/admin/AdminWarehousesController.php:283</note>
         <note>Context:
 File: controllers/admin/AdminWarehousesController.php:293</note>
       </trans-unit>
+      <trans-unit id="401197eaf446d0e5538c7975303da61d" approved="yes">
+        <source>You can choose which carriers can ship orders from particular warehouses.</source>
+        <target xml:lang="da">Du kan vælge, hvilke forsendelsesfirmaer der kan sende ordrer fra bestemte lagre.</target>
+        <note>Context:
+File: controllers/admin/AdminWarehousesController.php:294</note>
+      </trans-unit>
+      <trans-unit id="cb054746cc47033d0aae6d9721c99622" approved="yes">
+        <source>If you do not select any carrier, all the carriers will be able to ship from this warehouse.</source>
+        <target xml:lang="da">Hvis du ikke vælger et forsendelsesfirma, vil alle forsendelsesfirmaer kunne sende fra dette lager.</target>
+        <note>Context:
+File: controllers/admin/AdminWarehousesController.php:295</note>
+      </trans-unit>
+      <trans-unit id="b892f75db05101c7aabf598066f82bf0" approved="yes">
+        <source>If no carrier is selected, all the carriers will be allowed to ship from this warehouse. Use CTRL+Click to select more than one carrier.</source>
+        <target xml:lang="da">Hvis der ikke er valgt et forsendelsesfirma, må alle forsendelsesfirmaer sende fra dette lager. Brug CTRL+Klik for at vælge mere end ét forsendelsesfirma.</target>
+        <note>Context:
+File: controllers/admin/AdminWarehousesController.php:297</note>
+      </trans-unit>
       <trans-unit id="9d55fc80bbb875322aa67fd22fc98469" approved="yes">
         <source>Shop association</source>
         <target xml:lang="da">Butikstilknytning</target>
         <note>Context:
 File: controllers/admin/AdminWarehousesController.php:307</note>
+      </trans-unit>
+      <trans-unit id="37b85bd86253a0f205798a8a0b745e82" approved="yes">
+        <source>Inventory valuation method. Be careful! You won't be able to change this value later!</source>
+        <target xml:lang="da">Metode til vurdering af lagerbeholdning. Forsigtig! Du vil ikke kunne ændre denne værdi senere!</target>
+        <note>Context:
+File: controllers/admin/AdminWarehousesController.php:319</note>
       </trans-unit>
       <trans-unit id="38ec320f6a024cac956e0a07f14b2482" approved="yes">
         <source>Weighted Average</source>
@@ -5554,6 +5782,12 @@ File: controllers/admin/AdminWarehousesController.php:345</note>
         <target xml:lang="da">Forsigtig! Du vil ikke være i stand til at ændre denne værdi senere!</target>
         <note>Context:
 File: controllers/admin/AdminWarehousesController.php:346</note>
+      </trans-unit>
+      <trans-unit id="909e530594771cde514f5299d30356da" approved="yes">
+        <source>WA: Weighted Average</source>
+        <target xml:lang="da">VG: Vægtet gennemsnit</target>
+        <note>Context:
+File: controllers/admin/AdminWarehousesController.php:511</note>
       </trans-unit>
       <trans-unit id="4d195c31db15c54af8ab20c920fcb861" approved="yes">
         <source>FIFO: First In, First Out</source>
@@ -6854,7 +7088,7 @@ File: controllers/admin/AdminStockCoverController.php:96</note>
       </trans-unit>
       <trans-unit id="2eed868f1c9e7e2cd302334fd7885e35" approved="yes">
         <source>Stock coverage</source>
-        <target xml:lang="da">Lagerbeholdning</target>
+        <target xml:lang="da">Lager dækning</target>
         <note>Context:
 File: controllers/admin/AdminStockCoverController.php:107</note>
       </trans-unit>
@@ -7616,6 +7850,12 @@ File: admin-dev/themes/default/template/controllers/modules/modal_not_trusted.tp
         <note>Context:
 File: admin-dev/themes/default/template/controllers/modules/modal_not_trusted.tpl:30</note>
       </trans-unit>
+      <trans-unit id="cff96407d828626ba1219454e9dde40c" approved="yes">
+        <source>Since you may not have downloaded this module from PrestaShop Addons, we cannot assert that the module is not adding some undisclosed functionalities. We advise you to install it only if you trust the source of the content.</source>
+        <target xml:lang="da">Da du eventuelt ikke har downloadet dette modul fra PrestaShop Addons, kan vi ikke garantere, at modulet ikke tilføjer nogle ukendte funktioner. Vi råder dig til kun at installere det, hvis du har tillid til indholdets kilde.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/modules/modal_not_trusted.tpl:62</note>
+      </trans-unit>
       <trans-unit id="cb6c308b881809f8ab33d50efad0b665" approved="yes">
         <source>What's the risk?</source>
         <target xml:lang="da">Hvad er risikoen?</target>
@@ -7627,6 +7867,30 @@ File: admin-dev/themes/default/template/controllers/modules/modal_not_trusted.tp
         <target xml:lang="da">Er jeg i fare?</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/modules/modal_not_trusted.tpl:73</note>
+      </trans-unit>
+      <trans-unit id="144f70b53defb91dacdb0a4ac79b7e70" approved="yes">
+        <source>A module that hasn't been verified may be dangerous and could add hidden functionalities like backdoors, ads, hidden links, spam, etc. Don’t worry, this alert is simply a warning.</source>
+        <target xml:lang="da">Et modul, som ikke er blevet bekræftet, kan være farligt og kan tilføje skjulte funktioner såsom bagdøre, reklamer, skjulte links, spam osv. Ingen grund til bekymring, denne meddelelse er blot en advarsel.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/modules/modal_not_trusted.tpl:75</note>
+      </trans-unit>
+      <trans-unit id="50d39ed39f0e1c95d185acc6b89de6f8" approved="yes">
+        <source>PrestaShop, being an open-source software, has an awesome community with a long history of developing and sharing high quality modules. Before installing this module, making sure its author is a known community member is always a good idea (by checking [1]our forum[/1] for instance).</source>
+        <target xml:lang="da">PrestaShop, som er en open source-software, har et formidabelt fællesskab med en lang historie med at udvikle og dele moduler af høj kvalitet. Inden du installerer dette modul, er det altid en god idé at sørge for, at dets forfatter er et kendt fællesskabsmedlem (ved for eksempel at besøge [1]vores forum[/1]).</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/modules/modal_not_trusted.tpl:77</note>
+      </trans-unit>
+      <trans-unit id="9bbcbf7c1f7c1df3c3d9d3b7767fac09" approved="yes">
+        <source>If you trust or find the author of this module to be an active community member, you can proceed with the installation.</source>
+        <target xml:lang="da">Hvis du har tillid til eller finder ud af, at dette moduls forfatter er et aktivt medlem af fællesskabet, kan du fortsætte med installationen.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/modules/modal_not_trusted.tpl:81</note>
+      </trans-unit>
+      <trans-unit id="67afee0d8b56356469f89525a1423331" approved="yes">
+        <source>Otherwise you can look for similar modules on the official marketplace. [1]Click here to browse PrestaShop Addons[/1].</source>
+        <target xml:lang="da">Ellers kan du kigge efter lignende moduler på den officielle markedsplads. [1]Klik her for at gennemse PrestaShop Addons[/1].</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/modules/modal_not_trusted.tpl:83</note>
       </trans-unit>
     </body>
   </file>
@@ -7649,6 +7913,12 @@ File: admin-dev/themes/default/template/controllers/translations/helpers/view/tr
         <target xml:lang="da">Vælg et modul</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/translations/helpers/view/translation_modules.tpl:176</note>
+      </trans-unit>
+      <trans-unit id="06a92b5dc72bff3b98bf4b932ce72864" approved="yes">
+        <source>Apache mod_security is activated on your server. This could result in some Bad Request errors</source>
+        <target xml:lang="da">Apache mod_security er aktiveret på din server. Dette kan medføre fejl vedrørende Forkert anmodning</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/translation_modules.tpl:31</note>
       </trans-unit>
       <trans-unit id="1f0f8b59397f34d499b181297714713a" approved="yes">
         <source>Warning! Your hosting provider is using the Suhosin patch for PHP, which limits the maximum number of fields allowed in a form:</source>
@@ -7716,11 +7986,23 @@ File: admin-dev/themes/default/template/controllers/translations/helpers/view/tr
         <note>Context:
 File: admin-dev/themes/default/template/controllers/translations/helpers/view/translation_modules.tpl:69</note>
       </trans-unit>
+      <trans-unit id="919a5a4550f8f714f806f5590ed1b66a" approved="yes">
+        <source>There are [1]%replace%[/1] products</source>
+        <target xml:lang="da">Der er [1]%replace%[/1] varer</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/translation_modules.tpl:74</note>
+      </trans-unit>
       <trans-unit id="df80af80ac597d540a4d0d6f18c9d5ab" approved="yes">
         <source>%s" will be replaced by a number.</source>
         <target xml:lang="da">%s" vil blive erstattet af et tal.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/translations/helpers/view/translation_modules.tpl:74</note>
+      </trans-unit>
+      <trans-unit id="cfe3ecf9fcc29ce36de15ee87cebd12b" approved="yes">
+        <source>List of pages in [1]%replace%[/1]</source>
+        <target xml:lang="da">Liste med sider i [1]%replace%[/1]</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/translation_modules.tpl:75</note>
       </trans-unit>
       <trans-unit id="eb683b8fbef42b06921f7c3643dcb8d5" approved="yes">
         <source>%s" will be replaced by a string.</source>
@@ -7851,6 +8133,12 @@ File: admin-dev/themes/default/template/controllers/orders/_product_line.tpl:183
         <target xml:lang="da">Pakkens indhold</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/_product_line.tpl:43</note>
+      </trans-unit>
+      <trans-unit id="65247263c6ea1d91027b28a41db8cb4b" approved="yes">
+        <source>Editing this product line will remove the reduction and base price.</source>
+        <target xml:lang="da">Redigering af denne varelinje vil fjerne reduktionen og basisprisen.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/_product_line.tpl:47</note>
       </trans-unit>
       <trans-unit id="782678f4ba02feb3e9ecd51e902cd16b" approved="yes">
         <source>Refund history</source>
@@ -8385,6 +8673,12 @@ File: admin-dev/themes/default/template/controllers/languages/helpers/form/form.
         <target xml:lang="da">PrestaShop-versionen er kompatibel med dette sprog, og dit system er:</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/languages/helpers/form/form.tpl:40</note>
+      </trans-unit>
+      <trans-unit id="e0b8465b4242ddda2a682f8fa81dacf3" approved="yes">
+        <source>After creating the language, you can import the content of the language pack, which you can download under "Localization -- Translations.</source>
+        <target xml:lang="da">Efter oprettelse af sproget kan du importere indholdet af den sprogpakke, som du kan downloade ovenfor under ʺLokalisering - oversættelserʺ.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/languages/helpers/form/form.tpl:41</note>
       </trans-unit>
       <trans-unit id="a6669356dbb699457f5750c1b6e0ab0d" approved="yes">
         <source>No language pack is available on prestashop.com for this ISO code</source>
@@ -9146,6 +9440,12 @@ File: admin-dev/themes/default/template/controllers/attribute_generator/content.
         <note>Context:
 File: admin-dev/themes/default/template/controllers/attribute_generator/content.tpl:133</note>
       </trans-unit>
+      <trans-unit id="d22efb68037a7c900bee3e1c11ba447f" approved="yes">
+        <source>Please click on "Generate these Combinations</source>
+        <target xml:lang="da">Klik på "Generer disse varianter"</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/attribute_generator/content.tpl:138</note>
+      </trans-unit>
       <trans-unit id="555cdd7a9725dadf0a73b00b0a2cc7ea" approved="yes">
         <source>Generate these Combinations</source>
         <target xml:lang="da">Generer disse varianter</target>
@@ -9171,6 +9471,12 @@ File: admin-dev/themes/default/template/controllers/attributes/helpers/form/form
         <target xml:lang="da">Download backupfil (%s MB)</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:39</note>
+      </trans-unit>
+      <trans-unit id="0478391d3c5bfff8ce84cabb1ac330ee" approved="yes">
+        <source>Tip: You can also download this file from your FTP server. Backup files are located in the "/adminXXXX/backups" directory.</source>
+        <target xml:lang="da">Tip: Du kan også downloade denne fil fra din FTP-server. Backupfiler ligger i mappen "/adminXXXX/backups".</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:42</note>
       </trans-unit>
       <trans-unit id="54ee283a75b8a8a38f0b4996e4e69db5" approved="yes">
         <source>Disclaimer before creating a new backup</source>
@@ -9310,11 +9616,29 @@ File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_hea
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:70</note>
       </trans-unit>
+      <trans-unit id="bcb4db2b36ea3b1e20e5ee4aa9a68665" approved="yes">
+        <source>If you need to restore a database backup, we invite you to subscribe to a [1][2]technical support plan[/2][/1].</source>
+        <target xml:lang="da">Hvis du er nødt til at gendanne en backup af database, opfordrer vi dig til at tegne et [1][2]abonnement på teknisk support[/2][/1].</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:71</note>
+      </trans-unit>
+      <trans-unit id="0929b3759c8eef31c299400f513072dd" approved="yes">
+        <source>Our team will take care of restoring your database safely.</source>
+        <target xml:lang="da">Gendannelsen af din database vil være i sikre hænder hos vores team.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:73</note>
+      </trans-unit>
       <trans-unit id="c4b6a12f5f4cbbeb2353a718ee9a8a9a" approved="yes">
         <source>Why can't I restore it by myself?</source>
         <target xml:lang="da">Hvorfor kan jeg ikke gendanne det selv?</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:76</note>
+      </trans-unit>
+      <trans-unit id="d4ef96663955ee203ce986ef40945199" approved="yes">
+        <source>Your shop is hosted by PrestaShop. Although you can create backup files here below, there are core settings you cannot access for security reasons, like the database management. Thus, only our team can proceed to a restoration.</source>
+        <target xml:lang="da">Din butik bliver hostet af PrestaShop. Selvom du kan oprette backup-filer nedenfor, er der kerneindstillinger, som du af sikkerhedsmæssige årsager ikke kan tilgå, såsom databaseadministration. Derfor er det kun vores team, der kan foretage en gendannelse.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:78</note>
       </trans-unit>
       <trans-unit id="20fbc8f64351875f498d7d6f8c91810b" approved="yes">
         <source>How to restore a database backup in 10 easy steps</source>
@@ -9341,6 +9665,12 @@ File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:69<
         <target xml:lang="da">Starter download ...</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/helpers/view/view.tpl:32</note>
+      </trans-unit>
+      <trans-unit id="6a278621d6f2e7dbd56c7beca4081e2d" approved="yes">
+        <source>Backup files should automatically start downloading.</source>
+        <target xml:lang="da">Backupfiler skal automatisk starte med at downloade.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/view/view.tpl:33</note>
       </trans-unit>
       <trans-unit id="b828e7a94de289536d535e8c141868b9" approved="yes">
         <source>If not,</source>
@@ -9428,6 +9758,18 @@ File: admin-dev/themes/default/template/controllers/modules/page.tpl:59</note>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/modules/page.tpl:32</note>
       </trans-unit>
+      <trans-unit id="b10a51e4d433fa3330b26d266502db00" approved="yes">
+        <source>Addons membership provides access to all our PrestaShop modules.</source>
+        <target xml:lang="da">Addons-medlemsskab giver adgang til alle vores PrestaShop-moduler.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/modules/page.tpl:28</note>
+      </trans-unit>
+      <trans-unit id="20afba9e56de0c1da3d5188111d72947" approved="yes">
+        <source>Once connected, your new modules will be automatically installed.</source>
+        <target xml:lang="da">Når du har oprettet forbindelse, bliver dine nye moduler automatisk installeret.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/modules/page.tpl:29</note>
+      </trans-unit>
       <trans-unit id="d9776f0775997b2e698c6975420b5c5d" approved="yes">
         <source>Sign up</source>
         <target xml:lang="da">Tilmeld</target>
@@ -9439,6 +9781,12 @@ File: admin-dev/themes/default/template/controllers/modules/page.tpl:32</note>
         <target xml:lang="da">Forbind til PrestaShop Marketplads konto</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/modules/page.tpl:32</note>
+      </trans-unit>
+      <trans-unit id="6dc2462f2851bdac265c852f023b6d3f" approved="yes">
+        <source>The module must either be a Zip file (.zip) or a tarball file (.tar, .tar.gz, .tgz).</source>
+        <target xml:lang="da">Modulet skal enten være en zip-fil (.zip) eller en tarball-fil (.tar, .tar.gz, .tgz).</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/modules/page.tpl:43</note>
       </trans-unit>
       <trans-unit id="6779ef184c16fbd18a0bc13ebda839c5" approved="yes">
         <source>Upload a module from your computer.</source>
@@ -9640,6 +9988,12 @@ File: admin-dev/themes/default/template/controllers/carrier_wizard/summary.tpl:5
         <note>Context:
 File: admin-dev/themes/default/template/controllers/carriers/helpers/list/list_footer.tpl:30</note>
       </trans-unit>
+      <trans-unit id="80a305c8cb9737ef8474472aaa65026e" approved="yes">
+        <source>It seems there are no recommended carriers for your country.</source>
+        <target xml:lang="da">Det lader ikke til, at der er nogen anbefalede forsendelsesfirmaer til dit land.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/carriers/helpers/list/list_footer.tpl:31</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/helpers/modules_list/list.tpl" source-language="en" target-language="da" datatype="plaintext">
@@ -9678,10 +10032,30 @@ File: admin-dev/themes/default/template/helpers/modules_list/list.tpl:56</note>
   </file>
   <file original="admin-dev/themes/default/template/controllers/carriers/helpers/list/list_header.tpl" source-language="en" target-language="da" datatype="plaintext">
     <body>
-      
-      
-      
-      
+      <trans-unit id="401c8f6635d231c5360f31ce548c4462" approved="yes">
+        <source>Your online store needs to have a proper carrier registered in PrestaShop as soon as you start shipping your products. This means sending yours parcels using your local postal service, or having a contract with a private carrier which in turn will ship your parcels to your customers. In order to have PrestaShop suggest the most adequate carrier to your customers during their order checkout process, you need to register all the carriers with which you have chosen to work.</source>
+        <target xml:lang="da">Din onlinebutik skal have et bestemt forsendelsesfirma registreret i PrestaShop, så snart du starter med at sende dine varer. Det betyder afsendelse af dine pakker via dit lokale postvæsen eller en kontrakt med et privat forsendelsesfirma, som sender dine pakker til kunderne. For at PrestaShop kan foreslå det bedst egnede forsendelsesfirma til dine kunder, når de bestiller, skal du registrere alle de forsendelsesfirmaer, som du har valgt at arbejde med.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/carriers/helpers/list/list_header.tpl:30</note>
+      </trans-unit>
+      <trans-unit id="c751fd51e685dd8c071f8535be0d0d8f" approved="yes">
+        <source>PrestaShop comes with a number of carrier modules that you can activate. You can also buy carrier modules on the PrestaShop Addons marketplace. Recommended modules are listed below: install the module that matches your carrier, and configure it!</source>
+        <target xml:lang="da">PrestaShop indeholder flere moduler med forsendelsesfirmaer, som du kan aktivere. Du kan også købe moduler med forsendelsesfirmaer på PrestaShop Addons-markedspladsen. De anbefalede moduler er anført nedenfor: Installer det modul, der svarer til dit forsendelsesfirma, og konfigurer det!</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/carriers/helpers/list/list_header.tpl:31</note>
+      </trans-unit>
+      <trans-unit id="5bacfd2dc472feddb875fc29134b03bb" approved="yes">
+        <source>If there is no existing module for your carrier, then you can register that carrier by hand using the information that it can provide you: shipping rates, regional zones, size and weight limits, etc. Click on the "Add new carrier" button below to open the Carrier Wizard, which will help you register a new carrier in a few steps.</source>
+        <target xml:lang="da">Hvis der ikke er noget eksisterende modul for dit forsendelsesfirma, så kan du registrere forsendelsesfirmaet manuelt ved hjælp af de oplysninger, som forsendelsesfirmaet kan give dig: Forsendelsespriser, regionale zoner, størrelses- og vægtgrænser osv. Klik på knappen "Tilføj nyt forsendelsesfirma" nedenfor for at åbne guiden Forsendelsesfirma, som vil hjælpe dig med at registrere et nyt forsendelsesfirma i nogle få trin.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/carriers/helpers/list/list_header.tpl:32</note>
+      </trans-unit>
+      <trans-unit id="12a118b904361ef7a25365b2ff29cfa9" approved="yes">
+        <source>Note: DO NOT register a new carrier if there already exists a module for it! Using a module will be much faster and more accurate!</source>
+        <target xml:lang="da">Bemærk: Registrer IKKE et ny forsendelsesfirma, hvis der allerede eksisterer et modul til det! Det er meget hurtigere og mere nøjagtigt at bruge et modul!</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/carriers/helpers/list/list_header.tpl:33</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/cart_rules/actions.tpl" source-language="en" target-language="da" datatype="plaintext">
@@ -10098,11 +10472,23 @@ File: admin-dev/themes/default/template/controllers/cart_rules/informations.tpl:
         <note>Context:
 File: admin-dev/themes/default/template/controllers/cart_rules/informations.tpl:63</note>
       </trans-unit>
+      <trans-unit id="4c04b0afd7a378940377c1948fa65e5f" approved="yes">
+        <source>This is the code users should enter to apply the voucher to a cart. Either create your own code or generate one by clicking on "Generate".</source>
+        <target xml:lang="da">Brugerne skal indtaste denne kode for at trække rabatkuponen fra en indkøbskurv. Opret enten din egen kode, eller generer en kode ved at klikke på "Generer".</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/cart_rules/informations.tpl:75</note>
+      </trans-unit>
       <trans-unit id="32b919d18cfaca89383f6000dcc9c031" approved="yes">
         <source>Generate</source>
         <target xml:lang="da">Generer</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/cart_rules/informations.tpl:83</note>
+      </trans-unit>
+      <trans-unit id="b9fe1289d4d385c85d61f262aea8de40" approved="yes">
+        <source>Caution! If you leave this field blank, the rule will automatically be applied to benefiting customers.</source>
+        <target xml:lang="da">Forsigtig! Hvis du lader feltet være tomt, anvendes denne regel automatisk på de kunder, som reglen gælder for.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/cart_rules/informations.tpl:86</note>
       </trans-unit>
       <trans-unit id="9c0cc5911e6caceaa3f19e4bcf264ab0" approved="yes">
         <source>If the voucher is not yet in the cart, it will be displayed in the cart summary.</source>
@@ -10294,11 +10680,29 @@ File: admin-dev/themes/default/template/controllers/categories/helpers/list/list
         <note>Context:
 File: admin-dev/themes/default/template/controllers/categories/helpers/list/list_header.tpl:62</note>
       </trans-unit>
+      <trans-unit id="764d0e955d240f946ceac8bfd3f9a83b" approved="yes">
+        <source>I want to associate the products without other categories to the parent category, then disable these products for now. I re-enable them when they are moved in their new category.</source>
+        <target xml:lang="da">Jeg vil tilknytte varerne uden andre kategorier til den overordnede kategori og derefter deaktivere disse varer på nuværende tidspunkt. Jeg aktiverer dem igen, når de er flyttet til deres nye kategori.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/categories/helpers/list/list_header.tpl:70</note>
+      </trans-unit>
       <trans-unit id="fe8da1bad19e3e82de7c76c99c53cb27" approved="yes">
         <source>(Recommended)</source>
         <target xml:lang="da">(Anbefalet)</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/categories/helpers/list/list_header.tpl:70</note>
+      </trans-unit>
+      <trans-unit id="a9a433336c261a84c4375331e7c847a8" approved="yes">
+        <source>I want to associate the products without other categories to the parent category, and keep them enabled.</source>
+        <target xml:lang="da">Jeg vil tilknytte varerne uden andre kategorier til den overordnede kategori og holde dem aktiverede.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/categories/helpers/list/list_header.tpl:76</note>
+      </trans-unit>
+      <trans-unit id="b994ed2b38e35d32b51f5589794b2109" approved="yes">
+        <source>I want to remove the products which are listed only within this category and no others.</source>
+        <target xml:lang="da">Jeg vil fjerne de varer, som kun er anført i denne kategori og ingen andre.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/categories/helpers/list/list_header.tpl:82</note>
       </trans-unit>
       <trans-unit id="6ee5d2b90cedb3573844f84c25ba194f" approved="yes">
         <source>Deleting this category will remove products linked only within this category and no others. Are you sure you want to continue?</source>
@@ -10816,11 +11220,29 @@ File: admin-dev/themes/default/template/controllers/referrers/calendar.tpl:41</n
   </file>
   <file original="admin-dev/themes/default/template/controllers/customers/helpers/list/list_header.tpl" source-language="en" target-language="da" datatype="plaintext">
     <body>
+      <trans-unit id="a37bf274ad160c76e7d17b9178bc1f57" approved="yes">
+        <source>How do you want to delete the selected customers?</source>
+        <target xml:lang="da">Hvordan vil du slette de valgte kunder?</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/customers/helpers/list/list_header.tpl:40</note>
+      </trans-unit>
       <trans-unit id="6513e5e8645f98d950d6174b30c151b8" approved="yes">
         <source>There are two ways of deleting a customer. Please choose your preferred method.</source>
         <target xml:lang="da">Du kan slette kunder på to måder. Vælg venligst din foretrukne metode.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/customers/helpers/list/list_header.tpl:41</note>
+      </trans-unit>
+      <trans-unit id="ecace08642e28fc9c2704b5f73605b6d" approved="yes">
+        <source>I want my customers to be able to register again with the same email address. All data will be removed from the database.</source>
+        <target xml:lang="da">Jeg vil have, at mine kunder er i stand til at registrere sig igen med den samme e-mailadresse. Alle data bliver fjernet fra databasen.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/customers/helpers/list/list_header.tpl:47</note>
+      </trans-unit>
+      <trans-unit id="fd5b3faeaab816c19b1337785c0b531b" approved="yes">
+        <source>I do not want my customer(s) to register again with the same email address. All selected customer(s) will be removed from this list but their corresponding data will be kept in the database.</source>
+        <target xml:lang="da">Jeg vil ikke have, at min(e) kunde(r) er i stand til at registrere sig igen med den samme e-mailadresse. Alle valgte kunder bliver fjernet fra denne liste, men deres tilsvarende data bliver gemt i databasen.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/customers/helpers/list/list_header.tpl:53</note>
       </trans-unit>
     </body>
   </file>
@@ -10848,6 +11270,12 @@ File: admin-dev/themes/default/template/controllers/translations/helpers/view/ma
         <note>Context:
 File: admin-dev/themes/default/template/controllers/translations/helpers/view/main.tpl:171</note>
       </trans-unit>
+      <trans-unit id="025e0b297fd22587431e0cbf0ad0a7fa" approved="yes">
+        <source>Please select a module!</source>
+        <target xml:lang="da">Vælg et modul.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/main.tpl:126</note>
+      </trans-unit>
       <trans-unit id="6b066c4432fd52f87eaadf824e561796" approved="yes">
         <source>Please select your language!</source>
         <target xml:lang="da">Vælg dit sprog!</target>
@@ -10859,6 +11287,12 @@ File: admin-dev/themes/default/template/controllers/translations/helpers/view/ma
         <target xml:lang="da">Her kan du ændre oversættelser for alle tekster i PrestaShop.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/translations/helpers/view/main.tpl:152</note>
+      </trans-unit>
+      <trans-unit id="00fd55ca2b1b20cca50d295393b32440" approved="yes">
+        <source>First, select a type of translation (such as "Back office" or "Installed modules"), and then select the language you want to translate strings in.</source>
+        <target xml:lang="da">Vælg først en oversættelsestype (såsom "Back office" eller "Installerede moduler"), og vælg derefter det sprog, som strengene skal oversættes til.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/main.tpl:153</note>
       </trans-unit>
       <trans-unit id="021257190c6e64120915e008a94a06f8" approved="yes">
         <source>Type of translation</source>
@@ -10980,6 +11414,12 @@ File: admin-dev/themes/default/template/controllers/translations/helpers/view/ma
         <note>Context:
 File: admin-dev/themes/default/template/controllers/translations/helpers/view/main.tpl:310</note>
       </trans-unit>
+      <trans-unit id="234350fd7a2ea83720f91f40eb2985a9" approved="yes">
+        <source>Select which theme you would like to export your translations to.</source>
+        <target xml:lang="da">Vælg, hvilket tema du vil eksportere dine oversættelser til.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/main.tpl:311</note>
+      </trans-unit>
       <trans-unit id="5fb63579fc981698f97d55bfecb213ea" approved="yes">
         <source>Copy</source>
         <target xml:lang="da">Kopier</target>
@@ -11019,6 +11459,18 @@ File: admin-dev/themes/default/template/controllers/translations/helpers/view/ma
         <target xml:lang="da">Beskeder</target>
         <note>Context:
 File: admin-dev/themes/default/template/header.tpl:271</note>
+      </trans-unit>
+      <trans-unit id="1558db2a9e35b7898e0b2a4a777ed2f9" approved="yes">
+        <source>Latest orders</source>
+        <target xml:lang="da">Seneste ordrer</target>
+        <note>Context:
+File: admin-dev/themes/default/template/header.tpl:259</note>
+      </trans-unit>
+      <trans-unit id="5dc5aba5187b03594ed0512efb6a8d4f" approved="yes">
+        <source>New customers</source>
+        <target xml:lang="da">Nye kunder</target>
+        <note>Context:
+File: admin-dev/themes/default/template/header.tpl:265</note>
       </trans-unit>
     </body>
   </file>
@@ -11186,6 +11638,12 @@ File: admin-dev/themes/new-theme/template/controllers/modules/login_addons.tpl:4
         <note>Context:
 File: admin-dev/themes/new-theme/template/controllers/modules/login_addons.tpl:46</note>
       </trans-unit>
+      <trans-unit id="030547d47b4cb2e88a3c9a581a61487a" approved="yes">
+        <source>Discover the Power of PrestaShop Addons! Explore the PrestaShop Official Marketplace and find over 3 500 innovative modules and themes that optimize conversion rates, increase traffic, build customer loyalty and maximize your productivity</source>
+        <target xml:lang="da">Se alle mulighederne med PrestaShop Addons. Se PrestaShops officielle markedsplads, og find mere end 3.500 innovative moduler og temaer, der optimerer konverteringsrater, øger trafik, opbygger kundeloyalitet og maksimerer din produktivitet</target>
+        <note>Context:
+File: admin-dev/themes/new-theme/template/controllers/modules/login_addons.tpl:47</note>
+      </trans-unit>
       <trans-unit id="74ec9ffc8d108924d191065b416d8544" approved="yes">
         <source>Connect to PrestaShop Addons</source>
         <target xml:lang="da">Forbind til PrestaShop Addons</target>
@@ -11330,6 +11788,12 @@ File: admin-dev/themes/default/template/controllers/images/content.tpl:81</note>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/images/content.tpl:102</note>
       </trans-unit>
+      <trans-unit id="85cf8b897040b0bc24d97db52d0922ee" approved="yes">
+        <source>Select "No" only if your server timed out and you need to resume the regeneration.</source>
+        <target xml:lang="da">Vælg kun "Nej", hvis din server fik timeout, og du er nødt til at genoptage gendannelsen.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/images/content.tpl:117</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl" source-language="en" target-language="da" datatype="plaintext">
@@ -11358,11 +11822,23 @@ File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:52</note>
       </trans-unit>
+      <trans-unit id="418dde4b22e22a725e75b2819c0373b2" approved="yes">
+        <source>Note that the Category import does not support having two categories with the same name.</source>
+        <target xml:lang="da">Bemærk, at import af kategori ikke understøtter at have to kategorier med samme navn.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:65</note>
+      </trans-unit>
       <trans-unit id="b990d5cecd822de3b6922abcf71549b4" approved="yes">
         <source>Note that you can have several products with the same reference.</source>
         <target xml:lang="da">Bemærk, at du kan have flere varer med den samme reference.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:66</note>
+      </trans-unit>
+      <trans-unit id="7ec8e6a8a53cd81e13594780931cfce5" approved="yes">
+        <source>Importing Supply Order Details will reset your history of ordered products, if there are any.</source>
+        <target xml:lang="da">Import af forsyningsordreoplysninger nulstiller din historik over bestilte varer, hvis der er nogen.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:70</note>
       </trans-unit>
       <trans-unit id="14020ff11547c4c18da91394d1cae2a6" approved="yes">
         <source>Select a file to import</source>
@@ -11580,6 +12056,18 @@ File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:345</note>
       </trans-unit>
+      <trans-unit id="754fec39af6e1ff8618a1a3cd414af47" approved="yes">
+        <source>Sample Supply Orders file</source>
+        <target xml:lang="da">Eksempel på filen Forsyningsordrer</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:349</note>
+      </trans-unit>
+      <trans-unit id="85769e64d6e480bba48ea2332db57ed7" approved="yes">
+        <source>Sample Supply Order Details file</source>
+        <target xml:lang="da">Eksempel på filen Forsyningsordreoplysninger</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:352</note>
+      </trans-unit>
       <trans-unit id="df6e9862566912e908ef785e860f9c71" approved="yes">
         <source>Are you sure that you would like to delete this entity: </source>
         <target xml:lang="da">Er du sikker på, du vil slette denne entitet: </target>
@@ -11596,6 +12084,12 @@ File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl
   </file>
   <file original="admin-dev/themes/default/template/controllers/import/helpers/view/view.tpl" source-language="en" target-language="da" datatype="plaintext">
     <body>
+      <trans-unit id="5f613cee6c941423b73e1f87ea3b99bc" approved="yes">
+        <source>Please name your data matching configuration in order to save it.</source>
+        <target xml:lang="da">Giv venligst dine data et navn, der svarer til konfigurationen, for at gemme dem.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/view/view.tpl:28</note>
+      </trans-unit>
       <trans-unit id="43a37c093f7655efe882a7ffd7ce2e8d" approved="yes">
         <source>Match your data</source>
         <target xml:lang="da">Match dine data</target>
@@ -11619,6 +12113,18 @@ File: admin-dev/themes/default/template/controllers/import/helpers/view/view.tpl
         <target xml:lang="da">Indlæs</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/view/view.tpl:76</note>
+      </trans-unit>
+      <trans-unit id="e195639ebd7491676218b40af7aeafe3" approved="yes">
+        <source>Save your data matching configuration</source>
+        <target xml:lang="da">Gem dine data, der svarer til konfigurationen</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/view/view.tpl:81</note>
+      </trans-unit>
+      <trans-unit id="371ed088d2c0e456f5cae0bb97fe7c4b" approved="yes">
+        <source>Two columns cannot have the same type of values</source>
+        <target xml:lang="da">To kolonner kan ikke have den samme type værdier</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/view/view.tpl:91</note>
       </trans-unit>
       <trans-unit id="6a00e03023004b3330275e8d9842b54c" approved="yes">
         <source>This column must be set:</source>
@@ -12162,11 +12668,29 @@ File: admin-dev/themes/default/template/controllers/themes/helpers/form/form.tpl
         <note>Context:
 File: admin-dev/themes/default/template/controllers/themes/helpers/form/form.tpl:59</note>
       </trans-unit>
+      <trans-unit id="26a278c1e0598e21f7c1ed7ab113e6ac" approved="yes">
+        <source>To add a new theme, simply connect to your PrestaShop Addons account: your new theme will be automatically imported to your shop.</source>
+        <target xml:lang="da">For at tilføje et nyt tema skal du blot oprette forbindelse til din PrestaShop Addons-konto. Dit nye tema bliver automatisk importeret til din butik.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/themes/helpers/form/form.tpl:64</note>
+      </trans-unit>
+      <trans-unit id="a5ed2b9ca9427746aced5b4037560434" approved="yes">
+        <source>You can choose among 1,500+ professional templates!</source>
+        <target xml:lang="da">Du kan vælge mellem mere end 1.500 professionelle skabeloner!</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/themes/helpers/form/form.tpl:65</note>
+      </trans-unit>
       <trans-unit id="dc9ac2e66cddf6e2c64e1c72b18ae130" approved="yes">
         <source>Can I add my own theme?</source>
         <target xml:lang="da">Kan jeg tilføje mit eget tema?</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/themes/helpers/form/form.tpl:82</note>
+      </trans-unit>
+      <trans-unit id="7c854ab311760ecb245fb938378cd4e9" approved="yes">
+        <source>Please note that for security reasons, you can only add themes that are being distributed on PrestaShop Addons, the official marketplace.</source>
+        <target xml:lang="da">Bemærk, at du af sikkerhedsmæssige årsager kun kan tilføje temaer, der bliver distribueret på PrestaShops Addons, den officielle markedsplads.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/themes/helpers/form/form.tpl:83</note>
       </trans-unit>
       <trans-unit id="80bf7b97a380d8d8aa29993fa61ab5e5" approved="yes">
         <source>You can also create a new theme below.</source>
@@ -12184,11 +12708,23 @@ File: admin-dev/themes/default/template/controllers/themes/helpers/form/form.tpl
         <note>Context:
 File: admin-dev/themes/default/template/controllers/modules/content-legacy.tpl:53</note>
       </trans-unit>
+      <trans-unit id="4181fcfe54e8fadc0644e1cadde3483f" approved="yes">
+        <source>To add a new module, simply connect to your PrestaShop Addons account and all your purchases will be automatically imported.</source>
+        <target xml:lang="da">For at tilføje et nyt modul skal du blot oprette forbindelse til din PrestaShop Addons-konto, så bliver alle dine køb importeret automatisk.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/modules/content-legacy.tpl:67</note>
+      </trans-unit>
       <trans-unit id="82010160301993d2d752d8f185b31d0c" approved="yes">
         <source>Can I add my own modules?</source>
         <target xml:lang="da">Kan jeg tilføje mine egne moduler?</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/modules/content-legacy.tpl:84</note>
+      </trans-unit>
+      <trans-unit id="bb2ee5b5f12b6eae3c1716d26cddeab7" approved="yes">
+        <source>Please note that for security reasons, you can only add modules that are being distributed on PrestaShop Addons, the official marketplace.</source>
+        <target xml:lang="da">Bemærk, at du af sikkerhedsmæssige årsager kun kan tilføje moduler, der bliver distribueret på PrestaShops Addons, den officielle markedsplads.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/modules/content-legacy.tpl:85</note>
       </trans-unit>
     </body>
   </file>
@@ -12238,6 +12774,12 @@ File: admin-dev/themes/default/template/controllers/modules/readmore-header.tpl:
   </file>
   <file original="admin-dev/themes/default/template/controllers/modules/modal_not_trusted_blocked.tpl" source-language="en" target-language="da" datatype="plaintext">
     <body>
+      <trans-unit id="6754e4799f554bcdf4fef4782bf4d7de" approved="yes">
+        <source>This generally happens when the module isn't distributed through our official marketplace, PrestaShop Addons - or when your server failed to communicate with PrestaShop Addons.</source>
+        <target xml:lang="da">Dette sker som regel, når modulet ikke distribueres gennem vores officielle markedsplads, PrestaShop Addons - eller når din server ikke kunne kommunikere med PrestaShop Addons.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/modules/modal_not_trusted_blocked.tpl:30</note>
+      </trans-unit>
       <trans-unit id="a517747c3d12f99244ae598910d979c5" approved="yes">
         <source>Author</source>
         <target xml:lang="da">Forfatter</target>
@@ -12249,6 +12791,24 @@ File: admin-dev/themes/default/template/controllers/modules/modal_not_trusted_bl
         <target xml:lang="da">Dette modul kunne ikke verificeres af PrestaShop.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/modules/modal_not_trusted_blocked.tpl:28</note>
+      </trans-unit>
+      <trans-unit id="d16d7b2c414d4750596290776d0bfbf7" approved="yes">
+        <source>Since you may not have installed this module from PrestaShop Addons, we cannot assert that the module is complying with our safety requirements (e.g. that it is not adding some undisclosed functionalities such as ads, hidden links, spam, etc...).</source>
+        <target xml:lang="da">Da du muligvis ikke har installeret dette modul fra PrestaShop Addons, kan vi ikke garantere, at modulet overholder alle vores sikkerhedskrav (f.eks. at det ikke tilføjer nogle ukendte funktioner såsom reklamer, skjulte links, spam osv.).</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/modules/modal_not_trusted_blocked.tpl:58</note>
+      </trans-unit>
+      <trans-unit id="64b9168c0ef9c05d1568a15c6e273bf1" approved="yes">
+        <source>You can search for similar modules on the official marketplace.</source>
+        <target xml:lang="da">Du kan søge efter lignende moduler på den officielle markedsplads.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/modules/modal_not_trusted_blocked.tpl:60</note>
+      </trans-unit>
+      <trans-unit id="57acfffeede560e141ea67a4487fe065" approved="yes">
+        <source>[1]Click here to browse our catalog on PrestaShop Addons[/1].</source>
+        <target xml:lang="da">[1]Klik her for at gennemse vores katalog på PrestaShop Addons[/1].</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/modules/modal_not_trusted_blocked.tpl:62</note>
       </trans-unit>
     </body>
   </file>
@@ -12272,11 +12832,41 @@ File: admin-dev/themes/default/template/controllers/modules/modal_not_trusted_co
         <note>Context:
 File: admin-dev/themes/default/template/controllers/modules/modal_not_trusted_country.tpl:36</note>
       </trans-unit>
+      <trans-unit id="54752f2f929b686b98ddb16e40c4a1be" approved="yes">
+        <source>You are about to install "%s", a module which is not compatible with your country.</source>
+        <target xml:lang="da">Du er ved at installere modulet "%s", som ikke er kompatibelt med dit land.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/modules/modal_not_trusted_country.tpl:30</note>
+      </trans-unit>
+      <trans-unit id="1a56544ab8d473b3383731fbe3fc9d07" approved="yes">
+        <source>This module was not verified by PrestaShop hence we cannot certify that it works well in your country and that it complies with our quality requirements.</source>
+        <target xml:lang="da">Dette modul blev ikke bekræftet af PrestaShop, og derfor kan vi ikke certificere, at det fungerer i dit land, og at det overholder vores kvalitetskrav.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/modules/modal_not_trusted_country.tpl:32</note>
+      </trans-unit>
       <trans-unit id="d1ce387d44c3dc9cdc4e30ad64dbf47e" approved="yes">
         <source>Use at your own risk.</source>
         <target xml:lang="da">Brug på eget ansvar.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/modules/modal_not_trusted_country.tpl:33</note>
+      </trans-unit>
+      <trans-unit id="080e6f65e34e2ffe7162beb258f4577d" approved="yes">
+        <source>If you are unsure about this, you should contact the Customer Service of %s to ask them to make the module compatible with your country.</source>
+        <target xml:lang="da">Hvis du er i tvivl om dette, skal du kontakte kundeservice på %s for at bede dem om at gøre modulet kompatibelt med dit land.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/modules/modal_not_trusted_country.tpl:38</note>
+      </trans-unit>
+      <trans-unit id="17e8aa9ff6f7c374738eb3a15270583c" approved="yes">
+        <source>Moreover, we recommend that you use an equivalent module: compatible modules for your country are listed in the "Modules" tab of your back office.</source>
+        <target xml:lang="da">Desuden anbefaler vi, at du bruger et tilsvarende modul. De moduler, der er kompatible med dit land, er anført under fanen "Moduler" i dit back office.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/modules/modal_not_trusted_country.tpl:39</note>
+      </trans-unit>
+      <trans-unit id="1de1cd538749db5ea85a79c300b092e3" approved="yes">
+        <source>If you are unsure about this module, you can look for similar modules on the official marketplace.</source>
+        <target xml:lang="da">Hvis du er i tvivl om dette modul, kan du søge efter lignende moduler på den officielle markedsplads.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/modules/modal_not_trusted_country.tpl:42</note>
       </trans-unit>
       <trans-unit id="f7df37601ea653a7a5bf63e3556772d3" approved="yes">
         <source>Click here to browse PrestaShop Addons.</source>
@@ -12366,6 +12956,12 @@ File: admin-dev/themes/default/template/controllers/modules_positions/form.tpl:4
         <note>Context:
 File: admin-dev/themes/default/template/controllers/modules_positions/form.tpl:51</note>
       </trans-unit>
+      <trans-unit id="0b08e9b451b556f1bdd62b285ee2a9df" approved="yes">
+        <source>Select a module above before choosing from available hooks</source>
+        <target xml:lang="da">Vælg et modul ovenfor, inden du vælger fra tilgængelige kroge</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/modules_positions/form.tpl:55</note>
+      </trans-unit>
       <trans-unit id="d5f1381c5f97f928df4ef8d18c2a27c0" approved="yes">
         <source>Exceptions</source>
         <target xml:lang="da">Undtagelser</target>
@@ -12377,6 +12973,18 @@ File: admin-dev/themes/default/template/controllers/modules_positions/form.tpl:6
         <target xml:lang="da">Angiv venligst de filer, til hvilke du ikke ønsker modulet vist.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/modules_positions/form.tpl:69</note>
+      </trans-unit>
+      <trans-unit id="07b7dbb810d745fc3891d68448f3f213" approved="yes">
+        <source>Please input each filename, separated by a comma (",").</source>
+        <target xml:lang="da">Angiv alle filnavne, adskilt med et komma (",").</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/modules_positions/form.tpl:70</note>
+      </trans-unit>
+      <trans-unit id="804a997021a16e79a9e6ef9a2bf39e3d" approved="yes">
+        <source>You can also click the filename in the list below, and even make a multiple selection by keeping the Ctrl key pressed while clicking, or choose a whole range of filename by keeping the Shift key pressed while clicking.</source>
+        <target xml:lang="da">Du kan også klikke på filnavnet på listen nedenfor og vælge flere filnavne samtidig ved at holde Ctrl-tasten nede, mens du klikker, eller vælge en hel række filnavne ved at holde Shift-tasten nede, mens du klikker.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/modules_positions/form.tpl:71</note>
       </trans-unit>
     </body>
   </file>
@@ -12441,6 +13049,12 @@ File: admin-dev/themes/default/template/controllers/modules_positions/list_modul
         <target xml:lang="da">1 modul er valgt</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/modules_positions/list_modules.tpl:175</note>
+      </trans-unit>
+      <trans-unit id="2451f8c34b91d6d3b6e7ee63c23d13fc" approved="yes">
+        <source>modules selected</source>
+        <target xml:lang="da">moduler valgt</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/modules_positions/list_modules.tpl:177</note>
       </trans-unit>
     </body>
   </file>
@@ -12644,6 +13258,24 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/list/list_hea
         <note>Context:
 File: admin-dev/themes/default/template/controllers/payment_preferences/helpers/view/view.tpl:29</note>
       </trans-unit>
+      <trans-unit id="bf300d92910197db357bc70d62143559" approved="yes">
+        <source>This is where you decide what payment modules are available for different variations like your customers' currency, group, and country.</source>
+        <target xml:lang="da">Her kan du bestemme, hvilke betalingsmoduler der skal være tilgængelige til de forskellige variationer, såsom kundevaluta, kundegruppe og land.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/payment_preferences/helpers/view/view.tpl:32</note>
+      </trans-unit>
+      <trans-unit id="faf0cf10ced3f7e6202c929d8633a616" approved="yes">
+        <source>A check mark indicates you want the payment module available.</source>
+        <target xml:lang="da">Et flueben angiver, at du vil have, at betalingsmodulet er tilgængeligt.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/payment_preferences/helpers/view/view.tpl:34</note>
+      </trans-unit>
+      <trans-unit id="2bae052f842849e596b0c6bf6adec2bf" approved="yes">
+        <source>If it is not checked then this means that the payment module is disabled.</source>
+        <target xml:lang="da">Hvis betalingsmodulet ikke er markeret, betyder det, at det er deaktiveret.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/payment_preferences/helpers/view/view.tpl:35</note>
+      </trans-unit>
       <trans-unit id="96da5148dae274ad7f96aba4569dbb9d" approved="yes">
         <source>Please make sure to click Save for each section.</source>
         <target xml:lang="da">Husk at trykke gem for hver sektion.</target>
@@ -12694,6 +13326,12 @@ File: admin-dev/themes/default/template/controllers/referrers/helpers/form/form.
         <note>Context:
 File: admin-dev/themes/default/template/controllers/referrers/helpers/form/form.tpl:35</note>
       </trans-unit>
+      <trans-unit id="b0194c3357e1b561284a08ba9c8625c7" approved="yes">
+        <source>The "http_referer" field is the website from which your customers arrive.</source>
+        <target xml:lang="da">Feltet "http_referer" er det websted, hvor dine kunder kommer fra.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/referrers/helpers/form/form.tpl:38</note>
+      </trans-unit>
       <trans-unit id="e1bc4efa13a13333c86fdf2eb70a0c38" approved="yes">
         <source>For example, visitors coming from Google will have an "http_referer" value like this one: "http://www.google.com/search?q=prestashop".</source>
         <target xml:lang="da">F.eks. vil kunder, der kommer fra Google have en "http_referer" som denne: "http://www.google.com/search?q=prestashop".</target>
@@ -12712,11 +13350,35 @@ File: admin-dev/themes/default/template/controllers/referrers/helpers/form/form.
         <note>Context:
 File: admin-dev/themes/default/template/controllers/referrers/helpers/form/form.tpl:41</note>
       </trans-unit>
+      <trans-unit id="41b06c521ee2d1075f9bd3b12e8758a5" approved="yes">
+        <source>The "request_uri" field is the URL from which the customers come to your website.</source>
+        <target xml:lang="da">Feltet "request_uri" er den URL-adresse, som kunderne kommer fra til dit websted.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/referrers/helpers/form/form.tpl:45</note>
+      </trans-unit>
+      <trans-unit id="aa9eb9d62ab328d8da04b77469fbb6c8" approved="yes">
+        <source>For example, if the visitor accesses a product page, the URL will be like this one: "%smusic-ipods/1-ipod-nano.html".</source>
+        <target xml:lang="da">Hvis den besøgende for eksempel åbner en vareside, vil URL-adressen ligne den her: "%smusic-ipods/1-ipod-nano.html".</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/referrers/helpers/form/form.tpl:46</note>
+      </trans-unit>
       <trans-unit id="4451a0228098136036ced8d9b7478ed9" approved="yes">
         <source>This is helpful because you can add tags or tokens in the links pointing to your website.</source>
         <target xml:lang="da">Det er interessant, fordi du kan tilføje nogle tags eller tokens i linkene, der peger på din webshop.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/referrers/helpers/form/form.tpl:47</note>
+      </trans-unit>
+      <trans-unit id="6ca25929481cee3aef9cda0f7d309f9d" approved="yes">
+        <source>For example, you can post a link (such as "%sindex.php?myuniquekeyword" -- note that you added "?myuniquekeyword" at the end of the URL) in an online forum or as a blog comment, and get visitors statistics for that unique link by entering "%%myuniquekeyword" in the "request_uri" field.</source>
+        <target xml:lang="da">Du kan for eksempel opslå et link (såsom "%sindex.php?myuniquekeyword" -- bemærk, at du tilføjede "?myuniquekeyword" til sidst i URL-adressen) i et onlineforum eller som en blogkommentar og få statistikker over besøgende for det entydige link ved at indtaste "%%myuniquekeyword" i feltet "request_uri".</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/referrers/helpers/form/form.tpl:48</note>
+      </trans-unit>
+      <trans-unit id="07d199fdf852bd9dc4d899b6cd2a16e7" approved="yes">
+        <source>This method is more reliable than the "http_referer" one, but there is one disadvantage: if a search engine references a page with your link, then it will be displayed in the search results and you will not only indicate visitors from the places where you posted the link, but also those from the search engines that picked up that link.</source>
+        <target xml:lang="da">Denne metode er mere pålidelig end den med "http_referer", men der er en ulempe. Hvis en søgemaskine henviser til en side med dit link, så bliver det vist i søgeresultaterne, og du vil ikke alene angive besøgende fra de steder, hvor du opslog linket, men også dem fra søgemaskinerne, der registrerede det link.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/referrers/helpers/form/form.tpl:49</note>
       </trans-unit>
       <trans-unit id="2a7510ee054a824a06c67cb30a9dc85f" approved="yes">
         <source>The "Include" fields indicate what has to be included in the URL.</source>
@@ -12747,6 +13409,18 @@ File: admin-dev/themes/default/template/controllers/referrers/helpers/form/form.
         <target xml:lang="da">%" erstatter et vilkårligt antal tegn. Hvis du vil benytte det rigtige "%", skal du skrive sådan her: "\\%".</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/referrers/helpers/form/form.tpl:64</note>
+      </trans-unit>
+      <trans-unit id="5d23fb29ee98e1f050bc9dabbcca667d" approved="yes">
+        <source>The Simple mode uses the MySQL "LIKE" pattern matching, but for a higher potency you can use MySQL's regular expressions in the Expert mode.</source>
+        <target xml:lang="da">Metoden Simple benytter MySQLs "LIKE" mønstermatching. En mere slagkraftig løsning kan opnås ved at benytte MySQLs regulære udtryk i eksperttilstand.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/referrers/helpers/form/form.tpl:69</note>
+      </trans-unit>
+      <trans-unit id="88b3441035077ae06f817c3b4afb8d2a" approved="yes">
+        <source>Take a look at MySQL's documentation for more details.</source>
+        <target xml:lang="da">Læs mere om MySQL i dokumentationen.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/referrers/helpers/form/form.tpl:70</note>
       </trans-unit>
       <trans-unit id="2d0c2b736fa1ab8ce149d26fc36e453a" approved="yes">
         <source>Get help!</source>
@@ -13196,11 +13870,23 @@ File: admin-dev/themes/default/template/controllers/themes/helpers/options/optio
   </file>
   <file original="admin-dev/themes/default/template/controllers/themes/helpers/view/view.tpl" source-language="en" target-language="da" datatype="plaintext">
     <body>
+      <trans-unit id="f1246f9ac6a7094789c17068713ebfe6" approved="yes">
+        <source>The "%1$s" theme has been successfully installed.</source>
+        <target xml:lang="da">Temaet "%1$s" er blevet installeret.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/themes/helpers/view/view.tpl:27</note>
+      </trans-unit>
       <trans-unit id="623a0df3a4b9fcca8e08c9ed1a07bba1" approved="yes">
         <source>The following module(s) were not installed properly:</source>
         <target xml:lang="da">Følgende modul(er) blev ikke installeret korrekt:</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/themes/helpers/view/view.tpl:42</note>
+      </trans-unit>
+      <trans-unit id="940d7a8d6502a022e8eb2d8a090b1a05" approved="yes">
+        <source>Warning: You may have to regenerate images to fit with this new theme.</source>
+        <target xml:lang="da">Advarsel: Du skal muligvis regenerere billeder, så de passer til det nye tema.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/themes/helpers/view/view.tpl:54</note>
       </trans-unit>
       <trans-unit id="aedd6903868a8d6c7b01e0754fb56336" approved="yes">
         <source>Go to the thumbnails regeneration page</source>
@@ -13242,7 +13928,12 @@ File: admin-dev/themes/default/template/controllers/themes/helpers/view/view.tpl
   </file>
   <file original="admin-dev/themes/default/template/controllers/tracking/helpers/list/list_header.tpl" source-language="en" target-language="da" datatype="plaintext">
     <body>
-      
+      <trans-unit id="b40b4b1a0589005b45e9fa351c1b91f3" approved="yes">
+        <source>An empty category is a category that has no product directly associated to it. An empty category may however contain products through its subcategories.</source>
+        <target xml:lang="da">En tom kategori har ingen varer direkte tilknyttet. En tom kategori kan dog indeholde varer via dens underkategorier.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/tracking/helpers/list/list_header.tpl:29</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/helpers/uploader/simple.tpl" source-language="en" target-language="da" datatype="plaintext">
