@@ -229,6 +229,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3b3d06023f6353f8fd05f859b298
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_95095fc4bbc8b42ec512cfb1cfa19d8a'] = 'Ju jeni duke përdorur versionin PHP %s. Së shpejti, versioni i fundit i mbështetur nga PHP Prestashop do të jetë në PHP 5.4. Për të qenë të sigurt që ju jeni gati për të ardhmen, ne ju rekomandojmë që ta përmirësoni tani në versionin PHP 5.4!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a7eca295291f53a23ab7ba0a9c7fd9de'] = 'Ky funksionalitet është deaktivizuar.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9a843f20677a52ca79af903123147af0'] = 'Mirësevini!';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_10ac3d04253ef7e1ddc73e6091c0cd55'] = 'Vazhd.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f2a6c498fb90ee345d997f888fce3b18'] = 'Fshi';
 $_MODULE['<{autoupgrade}prestashop>autoupgrade_6215d33db0d099fcaae168dd4715135a'] = 'Direktoria %s nuk ka të drejta shkrimi';
 

@@ -222,7 +222,6 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0aebfe257803d2dc4f444fe079ed
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_eac34868b4fb511702e53d1405c45454'] = 'Σφάλμα κατά την αναβάθμιση της βάσης δεδομένων. Ίσως χρειαστεί να την επαναφέρετε.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_08ee54c048e1589f4072a351035db2ad'] = 'Η βάση δεδομένων αναβαθμίστηκε. Γίνεται ενημέρωση των modules από τα Addons...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ead14b0273e8d6cae7d146130d4be8f6'] = 'Η βάση δεδομένων έχει καθαριστεί.';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ca02217f9735e1acce9d586baeeac905'] = '/install/upgrade/php κατάλογος απουσιάζει από τον αρχειοθετημένο ή κατάλογο';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3b8f044559a7568ea572776caf1d6526'] = 'Το αρχείο config/settings.inc.php δεν βρέθηκε.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_22f18bac5d420d7ac5aca37b1afe30c9'] = 'Τρέχουσα έκδοση: %1$s. Έκδοση για εγκατάσταση: %2$s.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_6b81346a0c9173213e0c32d0082dc073'] = 'Τρέχουσα έκδοση: %1$s. Έκδοση για εγκατάσταση: %2$s';
@@ -310,9 +309,6 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_06933067aafd48425d67bcb01bba
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_801ab24683a4a8c433c6eb40c48bcd9d'] = 'Λήψη';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_958f470d0b1c8fb2b9e62b48e8903299'] = 'απεριόριστο';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8641eaacafab9d58e7e93a92ff318714'] = '%s δευτερόλεπτα';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d5d4eff97eccea28fa291fecac84fa14'] = 'υποκατάστημα:';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e4894ca167b08880bfc35862f18575eb'] = 'διαθέσιμο';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7060e0481896e00b3f7d20f1e8e2749a'] = 'Μη διαθέσιμο';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_4e140ba723a03baa6948340bf90e2ef6'] = 'Όνομα:';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_987023af1c4e507ea04eb5069578f7f0'] = 'Αρıθμός έκδοσης:';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3b3d06023f6353f8fd05f859b298573e'] = 'URL:';
@@ -342,6 +338,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c7561db7a418dd39b2201dfe110a
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d6c41259de614f426844d7caeaf532ed'] = 'ανανέωσε τη σελίδα';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a7eca295291f53a23ab7ba0a9c7fd9de'] = 'Αυτή η λειτουργία έχει απενεργοποιηθεί.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9a843f20677a52ca79af903123147af0'] = 'Καλωσορίσατε!';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_10ac3d04253ef7e1ddc73e6091c0cd55'] = 'Επόμενο';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f2a6c498fb90ee345d997f888fce3b18'] = 'Διαγραφή';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e02d726a7e733ffb7737e53c89be5e4f'] = 'Αναβάθμιση ολοκληρώθηκε';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_bdec5eb7ca6ae2b5646bb9524df5579a'] = 'Επαναφορά ολοκληρώθηκε.';

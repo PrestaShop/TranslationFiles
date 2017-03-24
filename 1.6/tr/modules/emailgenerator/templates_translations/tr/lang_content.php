@@ -181,6 +181,8 @@ $_LANGMAIL[', with an amount of'] = ', miktarı';
 $_LANGMAIL['Hi {name},'] = 'Selam {name},';
 $_LANGMAIL['{customer} has sent you a link to a product that (s)he thinks may interest you.'] = '{customer} ilgilenebileceğinizi düşündüğü bir ürün için size bir bağlantı gönderdi.';
 $_LANGMAIL['Click here to view this item:'] = 'Ürünü görüntülemek için burayı tıklayınız:';
+$_LANGMAIL['Order edited'] = 'Sipariş düzenlendi';
+$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = '<span><strong>{order_name}</strong></span> referanslı siparişiniz düzenlendi.';
 
 
 return $_LANGMAIL;

@@ -61,6 +61,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_382b0f5185773fa0f67a8ed8056c
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c7561db7a418dd39b2201dfe110ab4a4'] = 'ไม่เคย';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a7eca295291f53a23ab7ba0a9c7fd9de'] = 'ฟังก์ชั่นการใช้งานนี้ได้ถูกระงับการใช้งานเอาไว้';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9a843f20677a52ca79af903123147af0'] = 'ยินดีต้อนรับ!';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_10ac3d04253ef7e1ddc73e6091c0cd55'] = 'ต่อไป';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f2a6c498fb90ee345d997f888fce3b18'] = 'ลบ';
 
 

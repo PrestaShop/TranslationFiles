@@ -181,6 +181,8 @@ $_LANGMAIL[', with an amount of'] = 'Über:';
 $_LANGMAIL['Hi {name},'] = 'Hallo {name}, ';
 $_LANGMAIL['{customer} has sent you a link to a product that (s)he thinks may interest you.'] = '{customer} hat Ihnen einen Link zu dem Artikel gesandt, das Sie interessieren könnte.';
 $_LANGMAIL['Click here to view this item:'] = 'Klicken Sie hier, um den Artikel zu sehen:';
+$_LANGMAIL['Order edited'] = '';
+$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = '';
 
 
 return $_LANGMAIL;

@@ -178,8 +178,6 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8c9067e52e4440d8a20e74fdc745
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_06933067aafd48425d67bcb01bba5cb6'] = 'Atjaunot';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_801ab24683a4a8c433c6eb40c48bcd9d'] = 'Lejupielādēt';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8641eaacafab9d58e7e93a92ff318714'] = '%s sekundes';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e4894ca167b08880bfc35862f18575eb'] = 'pieejams';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7060e0481896e00b3f7d20f1e8e2749a'] = 'nav pieejams';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_4e140ba723a03baa6948340bf90e2ef6'] = 'Nosaukums:';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_987023af1c4e507ea04eb5069578f7f0'] = 'Versijas numurs:';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3b3d06023f6353f8fd05f859b298573e'] = 'URL:';
@@ -192,6 +190,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_382b0f5185773fa0f67a8ed8056c
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c7561db7a418dd39b2201dfe110ab4a4'] = 'nekad';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_96f1fa7f23402c1307c8e2c57c6bccfa'] = '1-Click atjaunināšana';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9a843f20677a52ca79af903123147af0'] = 'Sveicināti!';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_10ac3d04253ef7e1ddc73e6091c0cd55'] = 'Nākošais';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f2a6c498fb90ee345d997f888fce3b18'] = 'Dzēst';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_bdec5eb7ca6ae2b5646bb9524df5579a'] = 'Atjaunošana pabeigta.';
 $_MODULE['<{autoupgrade}prestashop>autoupgrade_786cc166a84595ae291b2d8b26d93bb3'] = '1-Click atjaunināšana';

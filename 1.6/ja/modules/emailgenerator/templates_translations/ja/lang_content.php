@@ -79,7 +79,7 @@ $_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></s
 $_LANGMAIL['Order details'] = '';
 $_LANGMAIL['Order:'] = '';
 $_LANGMAIL['Placed on'] = '';
-$_LANGMAIL['Payment:'] = '';
+$_LANGMAIL['Payment:'] = '支払い：';
 $_LANGMAIL['Reference'] = 'リファレンス';
 $_LANGMAIL['Product'] = '商品';
 $_LANGMAIL['Unit price'] = '単価';
@@ -181,6 +181,8 @@ $_LANGMAIL[', with an amount of'] = '';
 $_LANGMAIL['Hi {name},'] = '';
 $_LANGMAIL['{customer} has sent you a link to a product that (s)he thinks may interest you.'] = '';
 $_LANGMAIL['Click here to view this item:'] = '';
+$_LANGMAIL['Order edited'] = '';
+$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = '';
 
 
 return $_LANGMAIL;

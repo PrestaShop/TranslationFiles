@@ -228,7 +228,6 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_36d56d20b3894281531cd4108e2c
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_eac34868b4fb511702e53d1405c45454'] = 'Erro durante a atualização da base de dados. Talvez você necessite restaurar a sua base de dados.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_08ee54c048e1589f4072a351035db2ad'] = 'Sua base de dados foi atualizada. Agora atualizando os seus Módulos do Addons...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ead14b0273e8d6cae7d146130d4be8f6'] = 'A base de dados foi limpa.';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ca02217f9735e1acce9d586baeeac905'] = 'a pasta /install/upgrade/php está faltando no arquivo ou na pasta';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3b8f044559a7568ea572776caf1d6526'] = 'O arquivo config/settings.inc.php não foi encontrado.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_22f18bac5d420d7ac5aca37b1afe30c9'] = 'Versão atual: %1$s. Instalar a versão: %2$s.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_6b81346a0c9173213e0c32d0082dc073'] = 'Versão atual: %1$s. Instalar a versão: %2$s';
@@ -411,9 +410,6 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0c3d04ce8fc363ea466bc20e3773
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_958f470d0b1c8fb2b9e62b48e8903299'] = 'ilimitado';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8641eaacafab9d58e7e93a92ff318714'] = '%s segundos';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_aa9b0228ac4e3e44b836f79eebf5e481'] = 'Por favor certifique-se de ter um backup manual integral de todos os seus arquivos e do banco de dados.';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d5d4eff97eccea28fa291fecac84fa14'] = 'seção:';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e4894ca167b08880bfc35862f18575eb'] = 'disponível';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7060e0481896e00b3f7d20f1e8e2749a'] = 'indisponível';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_4e140ba723a03baa6948340bf90e2ef6'] = 'Nome:';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_987023af1c4e507ea04eb5069578f7f0'] = 'Número da versão:';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3b3d06023f6353f8fd05f859b298573e'] = 'URL:';
@@ -465,7 +461,6 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_da3cd17bbbbd3ef7da8e817d3c4c
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_762b3814b0c85540ac4be47c7815fc0c'] = 'Sua versão atual do PrestaShop';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_40cb0f190ec55b9721df3aed84b0b29b'] = 'Ultima versão oficial para o canal %1$s.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_382b0f5185773fa0f67a8ed8056c7759'] = 'N/A';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f34ac641f410c44e719fbc1496efd3d8'] = 'Atualizar o PrestaShop agora!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7926343e047e18778b6819beb8468086'] = 'Você utiliza o Smarty 3';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a9bf52016ab038b62d072d35039a76b4'] = 'Smarty 2 está obsoleto desde a versão 1.4 e foi removido na versão 1.5. Você precisará atualizar o seu tema ou utilizar um novo.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d19581ebc0d99bfda1b0bb789dc65c5f'] = 'Utilização do Smarty 3:';
@@ -489,8 +484,9 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f0afedd1444b8ac9f765b544cb5b
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_68e5fa63e9c51108b49d3d643ec36972'] = 'Por favor, faça sempre um backup manual completo dos seus arquivos e banco de dados antes de iniciar qualquer atualização.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a1f24b1cec5482ed0d97bce1ba0570a4'] = 'Deve verificar a integridade do seu backup e confirmar que pode facilmente restaurá-lo caso seja necessário.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0a8276f35797dc24e6ccb5b5ff5cf102'] = 'Se tiver dúvidas sobre a melhor forma de prosseguir, deve perguntar ao suporte da sua hospedagem.';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_017697f698d570dffed5f88a5a933d01'] = 'Opções de Backup';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_10ac3d04253ef7e1ddc73e6091c0cd55'] = 'Próximo';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_564b7c9d8683f1a94798e9f7449564e4'] = 'Opções de Atualização';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_017697f698d570dffed5f88a5a933d01'] = 'Opções de Backup';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f15547fe5f9f307bd42b2c01657efbcb'] = 'O seu servidor não consegue baixar o arquivo. Por favor envie-o primeiro por FTP para a pasta admin/autoupgrade';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f2a6c498fb90ee345d997f888fce3b18'] = 'Apagar';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_48995d15304fe79fc0240bf6544f2395'] = 'Tem certeza que deseja apagar este backup?';

@@ -181,6 +181,8 @@ $_LANGMAIL[', with an amount of'] = ', ennek mértéke';
 $_LANGMAIL['Hi {name},'] = 'Helló {name}!';
 $_LANGMAIL['{customer} has sent you a link to a product that (s)he thinks may interest you.'] = '{customer} vásárlónk úgy gondolta, hogy egy termék érdekelhet téged, elküldte hivatkozását.';
 $_LANGMAIL['Click here to view this item:'] = 'Kattints ide a megtekintéséhez:';
+$_LANGMAIL['Order edited'] = '';
+$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = '';
 
 
 return $_LANGMAIL;

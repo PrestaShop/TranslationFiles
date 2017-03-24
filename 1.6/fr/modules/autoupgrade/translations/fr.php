@@ -201,6 +201,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_da652b8ece8ba2da84d5f5116f6e
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_654f7ceb787fd455c166d5d8744cbf90'] = 'Le répertoire "/latest" a été vidé';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7dce6149440985f89756b4c451d7dc03'] = 'Extraction du fichier terminée. Suppression des fichiers de démonstration...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_89640d2ed666aab722d12be60a61938d'] = 'Impossible d\'extraire le fichier %1$s dans le dossier %2$s...';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_115437a77cd81057e681ff2e12b14192'] = 'Il ne s\'agit pas d\'une archive valide pour la version %s.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_064a15c7711dd82e5026a17a453b3a3b'] = 'Impossible d\'écrire dans le dossier d\'extraction.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_01d9d38b1d4d8eff5b530eeecfd3ccd5'] = 'Impossible d\'écrire dans le dossier d\'extraction %s.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_99f0e3a6d61b6d39da9213c647fd35ce'] = '[ERREUR] %s n\'existe pas ou n\'est pas un répertoire.';
@@ -228,7 +229,6 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_36d56d20b3894281531cd4108e2c
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_eac34868b4fb511702e53d1405c45454'] = 'Erreur lors de la mise à jour de la base de données. Nous vous conseillons de restaurer votre base de données.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_08ee54c048e1589f4072a351035db2ad'] = 'Base de données mise à jour. Mise à jour de vos modules Addons...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ead14b0273e8d6cae7d146130d4be8f6'] = 'La base de données a été nettoyée.';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ca02217f9735e1acce9d586baeeac905'] = 'Le dossier /install/upgrade/php est manquant dans l\'archive ou le répertoire';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3b8f044559a7568ea572776caf1d6526'] = 'Le fichier config/settings.inc.php n\'a pas été trouvé.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_22f18bac5d420d7ac5aca37b1afe30c9'] = 'Version actuelle : %1$s. Version à installer : %2$s.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_6b81346a0c9173213e0c32d0082dc073'] = 'Version actuelle : %1$s. Version à installer : %2$s';
@@ -411,9 +411,6 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0c3d04ce8fc363ea466bc20e3773
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_958f470d0b1c8fb2b9e62b48e8903299'] = 'illimité';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8641eaacafab9d58e7e93a92ff318714'] = '%s secondes';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_aa9b0228ac4e3e44b836f79eebf5e481'] = 'Veuillez aussi vous assurez de faire vous-même une sauvegarde manuelle complète de vos fichiers et de votre base de donnée.';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d5d4eff97eccea28fa291fecac84fa14'] = 'branche :';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e4894ca167b08880bfc35862f18575eb'] = 'disponible';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7060e0481896e00b3f7d20f1e8e2749a'] = 'non disponible';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_4e140ba723a03baa6948340bf90e2ef6'] = 'Nom :';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_987023af1c4e507ea04eb5069578f7f0'] = 'Numéro de version :';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3b3d06023f6353f8fd05f859b298573e'] = 'URL :';
@@ -465,7 +462,6 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_da3cd17bbbbd3ef7da8e817d3c4c
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_762b3814b0c85540ac4be47c7815fc0c'] = 'Votre version actuelle de PrestaShop';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_40cb0f190ec55b9721df3aed84b0b29b'] = 'Dernière version officielle pour le canal %1$s.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_382b0f5185773fa0f67a8ed8056c7759'] = 'N/D';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f34ac641f410c44e719fbc1496efd3d8'] = 'Mettre à jour PrestaShop maintenant !';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7926343e047e18778b6819beb8468086'] = 'Vous utilisez Smarty 3';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a9bf52016ab038b62d072d35039a76b4'] = 'Smarty 2 est déprécié dans la version 1.4 et a été supprimé en 1.5. Vous pouvez choisir de mettre à jour votre thème actuel ou utiliser un nouveau thème.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d19581ebc0d99bfda1b0bb789dc65c5f'] = 'Utilisation de Smarty 3 :';
@@ -489,8 +485,9 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f0afedd1444b8ac9f765b544cb5b
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_68e5fa63e9c51108b49d3d643ec36972'] = 'Veuillez s\'il vous plaît toujours faire une sauvegarde manuelle complète de vos fichiers et de votre base de données avant de commencer une mise à jour.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a1f24b1cec5482ed0d97bce1ba0570a4'] = 'Vérifiez bien l\'intégrité de votre sauvegarde des données et vérifiez que vous pouvez facilement restaurer votre boutique manuellement si nécessaire.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0a8276f35797dc24e6ccb5b5ff5cf102'] = 'Si vous ne savez pas comment procéder, demandez à votre hébergeur.';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_017697f698d570dffed5f88a5a933d01'] = 'Options de sauvegarde';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_10ac3d04253ef7e1ddc73e6091c0cd55'] = 'Suivant';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_564b7c9d8683f1a94798e9f7449564e4'] = 'Options de mise à jour';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_017697f698d570dffed5f88a5a933d01'] = 'Options de sauvegarde';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f15547fe5f9f307bd42b2c01657efbcb'] = 'Votre serveur ne peut télécharger le fichier. Merci de l\'envoyer par FTP dans votre dossier admin/autoupgrade';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f2a6c498fb90ee345d997f888fce3b18'] = 'Supprimer';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_48995d15304fe79fc0240bf6544f2395'] = 'Êtes-vous sûr de vouloir supprimer cette sauvegarde ?';

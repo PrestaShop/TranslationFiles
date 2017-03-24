@@ -188,7 +188,6 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_36d56d20b3894281531cd4108e2c
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_eac34868b4fb511702e53d1405c45454'] = 'Hiba adatbázis frissítésekor. Szükség lehet az adatbázis visszaállítására.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_08ee54c048e1589f4072a351035db2ad'] = 'Adatbázis frissítve. Az Addons modulok frissítése következik...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ead14b0273e8d6cae7d146130d4be8f6'] = 'Adatbázis kitisztítva.';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ca02217f9735e1acce9d586baeeac905'] = 'hiányzik a /install/upgrade/php mappa az archívból vagy mappából';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3b8f044559a7568ea572776caf1d6526'] = 'A config/settings.inc.php fájl nem található.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_22f18bac5d420d7ac5aca37b1afe30c9'] = 'Jelenlegi verzió: %1$s. Telepítendő verzió: %2$s.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_89928a14f2090aec4fd7aff9ea983f95'] = 'Nincs régebbi verzió. Törölted vagy átnevezted a config/settings.inc.php fájlt?';
@@ -238,7 +237,6 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_dc3fd488f03d423a04da27ce6627
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5784315a8bcebe79611d3353723e010d'] = 'Gratulálunk, a legfrissebb verziót használod!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_762b3814b0c85540ac4be47c7815fc0c'] = 'A jelenlegi PrestaShop verziód';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_382b0f5185773fa0f67a8ed8056c7759'] = 'Semmi';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f34ac641f410c44e719fbc1496efd3d8'] = 'PrestaShop frissítése most!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7926343e047e18778b6819beb8468086'] = 'Okoska 3-at használsz';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_411d9b409e4b9a6c2db930dae9f1feb1'] = 'Smarty beállítások módosítása';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a0c7f60d480662bb235ca5e204d71883'] = 'változásnapló megnyitása új ablakban';
@@ -246,6 +244,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c7561db7a418dd39b2201dfe110a
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a7eca295291f53a23ab7ba0a9c7fd9de'] = 'Ez a funkció ki van kapcsolva.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_96f1fa7f23402c1307c8e2c57c6bccfa'] = '1-klikk frissítés';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9a843f20677a52ca79af903123147af0'] = 'Üdvözlünk!';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_10ac3d04253ef7e1ddc73e6091c0cd55'] = 'Következő';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f2a6c498fb90ee345d997f888fce3b18'] = 'Törlés';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_48995d15304fe79fc0240bf6544f2395'] = 'Biztosan törölni akarod ezt a mentést?';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_19ea4327ee1bad0ed94b42a77255f3c6'] = 'Kérlek ellenőrizd az áruház működését (próbálj létrehozni egy fiókot, rendelést leadni...)';

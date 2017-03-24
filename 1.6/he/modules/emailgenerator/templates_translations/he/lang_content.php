@@ -181,6 +181,8 @@ $_LANGMAIL[', with an amount of'] = ', בסכום של';
 $_LANGMAIL['Hi {name},'] = 'הי {name},';
 $_LANGMAIL['{customer} has sent you a link to a product that (s)he thinks may interest you.'] = '{customer} שלח לך קישור למוצר שחשב(ה) שיעניין אותך.';
 $_LANGMAIL['Click here to view this item:'] = 'לחץ כאן על מנת לראות את הפריט:';
+$_LANGMAIL['Order edited'] = '';
+$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = '';
 
 
 return $_LANGMAIL;

@@ -186,6 +186,7 @@ $_LANG['identity_15bbb9d0bbf25e8d2978de1168c749dc'] = 'ウェブサイト';
 $_LANG['identity_c9cc8cce247e49bae79f15173ce97354'] = '保存';
 $_LANG['identity_a958dbb46713e59856c35f89e5092a5e'] = 'アカウントへ戻る';
 $_LANG['identity_8cf04a9734132302f96da8e113e80ce5'] = 'ホーム';
+$_LANG['manufacturer-list_84be54bb4bd1b755a27d86388700d097'] = 'ブランド';
 $_LANG['manufacturer-list_0397cbccfd02272abd38f8933b865218'] = '%d 個の商品';
 $_LANG['manufacturer-list_864c665aea5e824772fda0e678c3ac4d'] = '%d 個の商品';
 $_LANG['manufacturer_4c8d12a46c2deb4898979acfd4e23f6a'] = 'メーカーごとの商品のリスト';

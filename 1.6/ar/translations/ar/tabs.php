@@ -9,7 +9,6 @@ $_TABS['AdminParentOrders'] = 'الطلبات';
 $_TABS['AdminParentCustomer'] = 'العملاء';
 $_TABS['AdminParentShipping'] = 'الشحن';
 $_TABS['AdminParentLocalization'] = 'اللغة والإعدادت الإقليمية';
-$_TABS['AdminTools'] = 'Paramètres avancés';
 $_TABS['AdminAdmin'] = 'الإدارة';
 $_TABS['AdminParentStats'] = 'الإحصائيات';
 $_TABS['AdminStock'] = 'الاسهم';
