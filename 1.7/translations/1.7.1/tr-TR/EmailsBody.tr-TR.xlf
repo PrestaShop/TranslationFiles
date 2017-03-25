@@ -154,12 +154,6 @@ File: modules/ps_emailgenerator/templates/core/backoffice_order.php:24</note>
         <note>Context:
 File: modules/ps_emailgenerator/templates/core/shipped.php:26</note>
       </trans-unit>
-      <trans-unit id="fce4d5217e51f199cfbd10ae913cc5dd" approved="yes">
-        <source><![CDATA[You can review your order and download your invoice from the <a href="{history_url}">"Order history"</a> section of your customer account by clicking <a href="{my_account_url}">"My account"</a> on our shop.]]></source>
-        <target xml:lang="tr"><![CDATA[Mağazamızdaki <a href="{my_account_url}">"Hesabım"</a> düğmesine tıkladıktan sonra müşteri hesabınız altında bulunan <a href="{history_url}">"Sipariş geçmişi"</a> bölümünden siparişinizi inceleyebilir ve faturanızı indirebilirsiniz.]]></target>
-        <note>Context:
-File: modules/ps_emailgenerator/templates/core/shipped.php:38</note>
-      </trans-unit>
       <trans-unit id="d0cc952b66ca292a2e4a1bc53453b287" approved="yes">
         <source>Your order has been shipped</source>
         <target xml:lang="tr">Siparişiniz kargoya verildi</target>
@@ -180,31 +174,37 @@ File: modules/ps_emailgenerator/templates/core/shipped.php:25</note>
       </trans-unit>
     </body>
   </file>
-  <file original="modules/ps_emailgenerator/templates/core/voucher.php" source-language="en" target-language="tr" datatype="plaintext">
+  <file original="modules/ps_emailgenerator/templates/modules/ps_emailalerts/order_changed.php" source-language="en" target-language="tr" datatype="plaintext">
     <body>
       <trans-unit id="008400d8db73946ba53b2d7f091eb845" approved="yes">
         <source>Order {order_name}</source>
         <target xml:lang="tr">Sipariş {order_name}</target>
         <note>Context:
-File: modules/ps_emailgenerator/templates/core/voucher.php:21</note>
+File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/order_changed.php:21</note>
       </trans-unit>
-      <trans-unit id="6edfaaf163aab585fb50f909e6f2cadf" approved="yes">
-        <source>Voucher created</source>
-        <target xml:lang="tr">Kupon oluşturuldu</target>
+      <trans-unit id="fce4d5217e51f199cfbd10ae913cc5dd" approved="yes">
+        <source><![CDATA[You can review your order and download your invoice from the <a href="{history_url}">"Order history"</a> section of your customer account by clicking <a href="{my_account_url}">"My account"</a> on our shop.]]></source>
+        <target xml:lang="tr"><![CDATA[Mağazamızdaki <a href="{my_account_url}">"Hesabım"</a> düğmesine tıkladıktan sonra müşteri hesabınız altında bulunan <a href="{history_url}">"Sipariş geçmişi"</a> bölümünden siparişinizi inceleyebilir ve faturanızı indirebilirsiniz.]]></target>
         <note>Context:
-File: modules/ps_emailgenerator/templates/core/voucher.php:21</note>
+File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/order_changed.php:40</note>
       </trans-unit>
-      <trans-unit id="17ab9221f0e6cb342a02d31c56c79c2b" approved="yes">
-        <source><![CDATA[A voucher has been created in your name as a result of your order with the reference <span><strong>{order_name}</strong></span>.]]></source>
-        <target xml:lang="tr"><![CDATA[<span><strong>{order_name}</strong></span> referanslı siparişin sonucu olarak sizin adınıza bir kupon oluşturuldu.]]></target>
+      <trans-unit id="992ed3f1f7ce7be683fd4051138b693e" approved="yes">
+        <source><![CDATA[If you have a guest account, you can follow your order via the <a href="{guest_tracking_url}?id_order={order_name}">"Guest Tracking"</a> section on our shop.]]></source>
+        <target xml:lang="tr"><![CDATA[Eğer bir misafir hesabınız varsa mağazamız üzerinden <a href="{guest_tracking_url}?id_order={order_name}"> "Misafir Takibi"</a> bağlantısını tıklayarak siparişinizi takip edebilirsiniz.]]></target>
         <note>Context:
-File: modules/ps_emailgenerator/templates/core/voucher.php:24</note>
+File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/order_changed.php:49</note>
       </trans-unit>
-      <trans-unit id="25cecf399c0cd872952ced4a7d150e0d" approved="yes">
-        <source><![CDATA[<span><strong>Voucher code: {voucher_num}</strong></span> in the amount of <span><strong>{voucher_amount}</strong></span>]]></source>
-        <target xml:lang="tr"><![CDATA[<span><strong>Kupon Kodu: {voucher_num}</strong></span> <span>(<strong>{voucher_amount}</strong></span> tutarında)]]></target>
+      <trans-unit id="6eaf1dae59f88437851d95f504f9cb3c" approved="yes">
+        <source>Order edited</source>
+        <target xml:lang="tr">Sipariş düzenlendi</target>
         <note>Context:
-File: modules/ps_emailgenerator/templates/core/voucher.php:25</note>
+File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/order_changed.php:21</note>
+      </trans-unit>
+      <trans-unit id="fe61da38922f840543c9f7a4f5dc8140" approved="yes">
+        <source><![CDATA[Your order with the reference <span><strong>{order_name}</strong></span> has been modified.]]></source>
+        <target xml:lang="tr"><![CDATA[<span><strong>{order_name}</strong></span> referanslı siparişiniz düzenlendi.]]></target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/order_changed.php:24</note>
       </trans-unit>
     </body>
   </file>
@@ -492,28 +492,6 @@ File: modules/ps_emailgenerator/templates/core/download_product.php:25</note>
       </trans-unit>
     </body>
   </file>
-  <file original="modules/ps_emailgenerator/templates/core/refund.php" source-language="en" target-language="tr" datatype="plaintext">
-    <body>
-      <trans-unit id="992ed3f1f7ce7be683fd4051138b693e" approved="yes">
-        <source><![CDATA[If you have a guest account, you can follow your order via the <a href="{guest_tracking_url}?id_order={order_name}">"Guest Tracking"</a> section on our shop.]]></source>
-        <target xml:lang="tr"><![CDATA[Eğer bir misafir hesabınız varsa mağazamız üzerinden <a href="{guest_tracking_url}?id_order={order_name}"> "Misafir Takibi"</a> bağlantısını tıklayarak siparişinizi takip edebilirsiniz.]]></target>
-        <note>Context:
-File: modules/ps_emailgenerator/templates/core/refund.php:49</note>
-      </trans-unit>
-      <trans-unit id="9b45ae8a346e0587013cdb1494e113d8" approved="yes">
-        <source>Refund processed</source>
-        <target xml:lang="tr">İade işlendi</target>
-        <note>Context:
-File: modules/ps_emailgenerator/templates/core/refund.php:21</note>
-      </trans-unit>
-      <trans-unit id="b3e67c974cc0ca43712679a17bedf6db" approved="yes">
-        <source><![CDATA[We have processed your <strong><span>{shop_name}</span></strong> refund for order with the reference <strong><span>{order_name}</span></strong>.]]></source>
-        <target xml:lang="tr"><![CDATA[<strong><span>{shop_name}</span></strong> üzerinden yapmış olduğunuz <strong><span>{order_name}</span></strong> referanslı siparişinizin iadesini işledik.]]></target>
-        <note>Context:
-File: modules/ps_emailgenerator/templates/core/refund.php:24</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="modules/ps_emailgenerator/templates/core/employee_password.php" source-language="en" target-language="tr" datatype="plaintext">
     <body>
       <trans-unit id="4785f7efb27f2905a05564903db18b23" approved="yes">
@@ -630,25 +608,25 @@ File: modules/ps_emailgenerator/templates/core/import.php:24</note>
         <source>In transit</source>
         <target xml:lang="tr">Taşıma sürecinde</target>
         <note>Context:
-File: modules/ps_emailgenerator/templates/core/in_transit.php:21</note>
+File: modules/ps_emailgenerator/templates/core/in_transit.php:46</note>
       </trans-unit>
       <trans-unit id="873a6c9ce4b0711161105e4a6d943bb6" approved="yes">
         <source><![CDATA[Your order with the reference <span><strong>{order_name}</strong></span> is currently in transit.]]></source>
         <target xml:lang="tr"><![CDATA[<span><strong>{order_name}</strong></span> referanslı siparişiniz şu anda taşıma aşamasında.]]></target>
         <note>Context:
-File: modules/ps_emailgenerator/templates/core/in_transit.php:24</note>
+File: modules/ps_emailgenerator/templates/core/in_transit.php:49</note>
       </trans-unit>
       <trans-unit id="34f49f671cedfb2d5f8080ec14120281" approved="yes">
         <source>You can track your package using the following link:</source>
         <target xml:lang="tr">Aşağıdaki bağlantıyı kullanarak paketinizi izleyebilirsiniz:</target>
         <note>Context:
-File: modules/ps_emailgenerator/templates/core/in_transit.php:25</note>
+File: modules/ps_emailgenerator/templates/core/in_transit.php:50</note>
       </trans-unit>
       <trans-unit id="1b0d1cd23421d9cea08507e950e87094" approved="yes">
         <source>{followup}</source>
         <target xml:lang="tr">{followup}</target>
         <note>Context:
-File: modules/ps_emailgenerator/templates/core/in_transit.php:25</note>
+File: modules/ps_emailgenerator/templates/core/in_transit.php:50</note>
       </trans-unit>
     </body>
   </file>
@@ -788,6 +766,28 @@ File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/new_order.php:1
       </trans-unit>
     </body>
   </file>
+  <file original="modules/ps_emailgenerator/templates/modules/ps_emailsubscription/newsletter_voucher.php" source-language="en" target-language="tr" datatype="plaintext">
+    <body>
+      <trans-unit id="bb372ddf88ad8fcc480f7a8599a92abc" approved="yes">
+        <source>Hi,</source>
+        <target xml:lang="tr">Selam,</target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/modules/ps_emailsubscription/newsletter_voucher.php:6</note>
+      </trans-unit>
+      <trans-unit id="7bf7f18afabb5122fa68fbab617e509b" approved="yes">
+        <source>Newsletter subscription</source>
+        <target xml:lang="tr">Haber bülteni aboneliği</target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/modules/ps_emailsubscription/newsletter_voucher.php:21</note>
+      </trans-unit>
+      <trans-unit id="289f1fb0b0a7ed1c03d1f1f597666f67" approved="yes">
+        <source>Regarding your newsletter subscription, we are pleased to offer you the following voucher:</source>
+        <target xml:lang="tr">Bülten aboneliği karşılığında, size aşağıdaki kuponu sunmaktan mutluluk duyuyoruz:</target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/modules/ps_emailsubscription/newsletter_voucher.php:24</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="modules/ps_emailgenerator/templates/core/order_customer_comment.php" source-language="en" target-language="tr" datatype="plaintext">
     <body>
       <trans-unit id="381fc38b470ed543424afbd43f224453" approved="yes">
@@ -924,6 +924,22 @@ File: modules/ps_emailgenerator/templates/core/preparation.php:24</note>
       </trans-unit>
     </body>
   </file>
+  <file original="modules/ps_emailgenerator/templates/core/refund.php" source-language="en" target-language="tr" datatype="plaintext">
+    <body>
+      <trans-unit id="9b45ae8a346e0587013cdb1494e113d8" approved="yes">
+        <source>Refund processed</source>
+        <target xml:lang="tr">İade işlendi</target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/core/refund.php:21</note>
+      </trans-unit>
+      <trans-unit id="b3e67c974cc0ca43712679a17bedf6db" approved="yes">
+        <source><![CDATA[We have processed your <strong><span>{shop_name}</span></strong> refund for order with the reference <strong><span>{order_name}</span></strong>.]]></source>
+        <target xml:lang="tr"><![CDATA[<strong><span>{shop_name}</span></strong> üzerinden yapmış olduğunuz <strong><span>{order_name}</span></strong> referanslı siparişinizin iadesini işledik.]]></target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/core/refund.php:24</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="modules/ps_emailgenerator/templates/core/reply_msg.php" source-language="en" target-language="tr" datatype="plaintext">
     <body>
       <trans-unit id="2ddbd3a9b06eadccdea8e1b372830d69" approved="yes">
@@ -953,6 +969,28 @@ File: modules/ps_emailgenerator/templates/core/test.php:5</note>
         <target xml:lang="tr"><![CDATA[Bu, mağazanızdan gönderilmiş bir <strong>test e-posta'dır</strong>.<br /><br /> Eğer bu mesajı okuyabiliyorsanız test başarılı demektir!]]></target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/core/test.php:14</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/ps_emailgenerator/templates/core/voucher.php" source-language="en" target-language="tr" datatype="plaintext">
+    <body>
+      <trans-unit id="6edfaaf163aab585fb50f909e6f2cadf" approved="yes">
+        <source>Voucher created</source>
+        <target xml:lang="tr">Kupon oluşturuldu</target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/core/voucher.php:21</note>
+      </trans-unit>
+      <trans-unit id="17ab9221f0e6cb342a02d31c56c79c2b" approved="yes">
+        <source><![CDATA[A voucher has been created in your name as a result of your order with the reference <span><strong>{order_name}</strong></span>.]]></source>
+        <target xml:lang="tr"><![CDATA[<span><strong>{order_name}</strong></span> referanslı siparişin sonucu olarak sizin adınıza bir kupon oluşturuldu.]]></target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/core/voucher.php:24</note>
+      </trans-unit>
+      <trans-unit id="25cecf399c0cd872952ced4a7d150e0d" approved="yes">
+        <source><![CDATA[<span><strong>Voucher code: {voucher_num}</strong></span> in the amount of <span><strong>{voucher_amount}</strong></span>]]></source>
+        <target xml:lang="tr"><![CDATA[<span><strong>Kupon Kodu: {voucher_num}</strong></span> <span>(<strong>{voucher_amount}</strong></span> tutarında)]]></target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/core/voucher.php:25</note>
       </trans-unit>
     </body>
   </file>
@@ -1041,28 +1079,6 @@ File: modules/ps_emailgenerator/templates/modules/followup/followup_3.php:22</no
         <target xml:lang="tr"><![CDATA[Sitemize olan bağlılığınızı takdir etmek için, size bir sonraki siparişiniz için geçerli olacak %<span><strong>{amount}</strong></span> tutarında bir indirim vermek istiyoruz. Bu teklif <span><strong>{days}</strong></span> gün geçerlidir, indirimi kaçırmamak için lütfen acele edin!]]></target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/modules/followup/followup_3.php:25</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="modules/ps_emailgenerator/templates/modules/ps_emailsubscription/newsletter_voucher.php" source-language="en" target-language="tr" datatype="plaintext">
-    <body>
-      <trans-unit id="bb372ddf88ad8fcc480f7a8599a92abc" approved="yes">
-        <source>Hi,</source>
-        <target xml:lang="tr">Selam,</target>
-        <note>Context:
-File: modules/ps_emailgenerator/templates/modules/ps_emailsubscription/newsletter_voucher.php:6</note>
-      </trans-unit>
-      <trans-unit id="7bf7f18afabb5122fa68fbab617e509b" approved="yes">
-        <source>Newsletter subscription</source>
-        <target xml:lang="tr">Haber bülteni aboneliği</target>
-        <note>Context:
-File: modules/ps_emailgenerator/templates/modules/ps_emailsubscription/newsletter_voucher.php:21</note>
-      </trans-unit>
-      <trans-unit id="289f1fb0b0a7ed1c03d1f1f597666f67" approved="yes">
-        <source>Regarding your newsletter subscription, we are pleased to offer you the following voucher:</source>
-        <target xml:lang="tr">Bülten aboneliği karşılığında, size aşağıdaki kuponu sunmaktan mutluluk duyuyoruz:</target>
-        <note>Context:
-File: modules/ps_emailgenerator/templates/modules/ps_emailsubscription/newsletter_voucher.php:24</note>
       </trans-unit>
     </body>
   </file>

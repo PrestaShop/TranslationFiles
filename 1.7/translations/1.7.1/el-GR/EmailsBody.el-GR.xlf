@@ -154,12 +154,6 @@ File: modules/ps_emailgenerator/templates/core/backoffice_order.php:24</note>
         <note>Context:
 File: modules/ps_emailgenerator/templates/core/shipped.php:26</note>
       </trans-unit>
-      <trans-unit id="fce4d5217e51f199cfbd10ae913cc5dd" approved="yes">
-        <source><![CDATA[You can review your order and download your invoice from the <a href="{history_url}">"Order history"</a> section of your customer account by clicking <a href="{my_account_url}">"My account"</a> on our shop.]]></source>
-        <target xml:lang="el"><![CDATA[Μπορείτε να ελέγξετε την παραγγελία σας και να κατεβάσετε το παραστατικό σας από το τμήμα <a href="{history_url}">"Ιστορικό Παραγγελιών"</a> στην περιοχή λογαριασμού πελάτη κάνοντας κλικ στο <a href="{my_account_url}">"Ο λογαριασμός μου"</a> στο κατάστημά μας.]]></target>
-        <note>Context:
-File: modules/ps_emailgenerator/templates/core/shipped.php:38</note>
-      </trans-unit>
       <trans-unit id="d0cc952b66ca292a2e4a1bc53453b287" approved="yes">
         <source>Your order has been shipped</source>
         <target xml:lang="el">Η παραγγελία σας αποστάλθηκε</target>
@@ -180,31 +174,25 @@ File: modules/ps_emailgenerator/templates/core/shipped.php:25</note>
       </trans-unit>
     </body>
   </file>
-  <file original="modules/ps_emailgenerator/templates/core/voucher.php" source-language="en" target-language="el" datatype="plaintext">
+  <file original="modules/ps_emailgenerator/templates/modules/ps_emailalerts/order_changed.php" source-language="en" target-language="el" datatype="plaintext">
     <body>
       <trans-unit id="008400d8db73946ba53b2d7f091eb845" approved="yes">
         <source>Order {order_name}</source>
         <target xml:lang="el">Παραγγελία {order_name}</target>
         <note>Context:
-File: modules/ps_emailgenerator/templates/core/voucher.php:21</note>
+File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/order_changed.php:21</note>
       </trans-unit>
-      <trans-unit id="6edfaaf163aab585fb50f909e6f2cadf" approved="yes">
-        <source>Voucher created</source>
-        <target xml:lang="el">Κουπόνι δημιουργήθηκε</target>
+      <trans-unit id="fce4d5217e51f199cfbd10ae913cc5dd" approved="yes">
+        <source><![CDATA[You can review your order and download your invoice from the <a href="{history_url}">"Order history"</a> section of your customer account by clicking <a href="{my_account_url}">"My account"</a> on our shop.]]></source>
+        <target xml:lang="el"><![CDATA[Μπορείτε να ελέγξετε την παραγγελία σας και να κατεβάσετε το παραστατικό σας από το τμήμα <a href="{history_url}">"Ιστορικό Παραγγελιών"</a> στην περιοχή λογαριασμού πελάτη κάνοντας κλικ στο <a href="{my_account_url}">"Ο λογαριασμός μου"</a> στο κατάστημά μας.]]></target>
         <note>Context:
-File: modules/ps_emailgenerator/templates/core/voucher.php:21</note>
+File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/order_changed.php:40</note>
       </trans-unit>
-      <trans-unit id="17ab9221f0e6cb342a02d31c56c79c2b" approved="yes">
-        <source><![CDATA[A voucher has been created in your name as a result of your order with the reference <span><strong>{order_name}</strong></span>.]]></source>
-        <target xml:lang="el"><![CDATA[Ένα κουπόνι έχει δημιουργηθεί στο όνομά σας ως αποτέλεσμα της παραγγελία σας με την αναφορά <span><strong>{order_name}</strong></span>.]]></target>
+      <trans-unit id="992ed3f1f7ce7be683fd4051138b693e" approved="yes">
+        <source><![CDATA[If you have a guest account, you can follow your order via the <a href="{guest_tracking_url}?id_order={order_name}">"Guest Tracking"</a> section on our shop.]]></source>
+        <target xml:lang="el"><![CDATA[Αν έχετε λογαριασμό επισκέπτη, μπορείτε να παρακολουθήσετε την παραγγελία από το τμήμα <a href="{guest_tracking_url}?id_order={order_name}">"Ανίχνευση Επισκέπτη"</a> στο κατάστημά μας.]]></target>
         <note>Context:
-File: modules/ps_emailgenerator/templates/core/voucher.php:24</note>
-      </trans-unit>
-      <trans-unit id="25cecf399c0cd872952ced4a7d150e0d" approved="yes">
-        <source><![CDATA[<span><strong>Voucher code: {voucher_num}</strong></span> in the amount of <span><strong>{voucher_amount}</strong></span>]]></source>
-        <target xml:lang="el"><![CDATA[<span><strong>Κωδικός κουπονιού: {voucher_num}</strong></span> στην ποσότητα των <span><strong>{voucher_amount}</strong></span>]]></target>
-        <note>Context:
-File: modules/ps_emailgenerator/templates/core/voucher.php:25</note>
+File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/order_changed.php:49</note>
       </trans-unit>
     </body>
   </file>
@@ -492,28 +480,6 @@ File: modules/ps_emailgenerator/templates/core/download_product.php:25</note>
       </trans-unit>
     </body>
   </file>
-  <file original="modules/ps_emailgenerator/templates/core/refund.php" source-language="en" target-language="el" datatype="plaintext">
-    <body>
-      <trans-unit id="992ed3f1f7ce7be683fd4051138b693e" approved="yes">
-        <source><![CDATA[If you have a guest account, you can follow your order via the <a href="{guest_tracking_url}?id_order={order_name}">"Guest Tracking"</a> section on our shop.]]></source>
-        <target xml:lang="el"><![CDATA[Αν έχετε λογαριασμό επισκέπτη, μπορείτε να παρακολουθήσετε την παραγγελία από το τμήμα <a href="{guest_tracking_url}?id_order={order_name}">"Ανίχνευση Επισκέπτη"</a> στο κατάστημά μας.]]></target>
-        <note>Context:
-File: modules/ps_emailgenerator/templates/core/refund.php:49</note>
-      </trans-unit>
-      <trans-unit id="9b45ae8a346e0587013cdb1494e113d8" approved="yes">
-        <source>Refund processed</source>
-        <target xml:lang="el">Επιστροφή χρημάτων επεξεργάστηκε</target>
-        <note>Context:
-File: modules/ps_emailgenerator/templates/core/refund.php:21</note>
-      </trans-unit>
-      <trans-unit id="b3e67c974cc0ca43712679a17bedf6db" approved="yes">
-        <source><![CDATA[We have processed your <strong><span>{shop_name}</span></strong> refund for order with the reference <strong><span>{order_name}</span></strong>.]]></source>
-        <target xml:lang="el"><![CDATA[Έχουμε επεξεργαστεί από <strong><span>{shop_name}</span></strong> επιστροφή χρημάτων για την παραγγελία με κωδικό <strong><span>{order_name}</span></strong>.]]></target>
-        <note>Context:
-File: modules/ps_emailgenerator/templates/core/refund.php:24</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="modules/ps_emailgenerator/templates/core/employee_password.php" source-language="en" target-language="el" datatype="plaintext">
     <body>
       <trans-unit id="4785f7efb27f2905a05564903db18b23" approved="yes">
@@ -630,25 +596,25 @@ File: modules/ps_emailgenerator/templates/core/import.php:24</note>
         <source>In transit</source>
         <target xml:lang="el">Σε μεταφορά</target>
         <note>Context:
-File: modules/ps_emailgenerator/templates/core/in_transit.php:21</note>
+File: modules/ps_emailgenerator/templates/core/in_transit.php:46</note>
       </trans-unit>
       <trans-unit id="873a6c9ce4b0711161105e4a6d943bb6" approved="yes">
         <source><![CDATA[Your order with the reference <span><strong>{order_name}</strong></span> is currently in transit.]]></source>
         <target xml:lang="el"><![CDATA[Η παραγγελία με τον κωδικό <span><strong>{order_name}</strong></span> βρίσκεται σε μεταφορά.]]></target>
         <note>Context:
-File: modules/ps_emailgenerator/templates/core/in_transit.php:24</note>
+File: modules/ps_emailgenerator/templates/core/in_transit.php:49</note>
       </trans-unit>
       <trans-unit id="34f49f671cedfb2d5f8080ec14120281" approved="yes">
         <source>You can track your package using the following link:</source>
         <target xml:lang="el">Μπορείτε να παρακολουθήσετε την πορεία του δέματός σας χρησιμοποιώντας τον ακόλουθο σύνδεσμο:</target>
         <note>Context:
-File: modules/ps_emailgenerator/templates/core/in_transit.php:25</note>
+File: modules/ps_emailgenerator/templates/core/in_transit.php:50</note>
       </trans-unit>
       <trans-unit id="1b0d1cd23421d9cea08507e950e87094" approved="yes">
         <source>{followup}</source>
         <target xml:lang="el">{followup}</target>
         <note>Context:
-File: modules/ps_emailgenerator/templates/core/in_transit.php:25</note>
+File: modules/ps_emailgenerator/templates/core/in_transit.php:50</note>
       </trans-unit>
     </body>
   </file>
@@ -788,6 +754,28 @@ File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/new_order.php:1
       </trans-unit>
     </body>
   </file>
+  <file original="modules/ps_emailgenerator/templates/modules/ps_emailsubscription/newsletter_voucher.php" source-language="en" target-language="el" datatype="plaintext">
+    <body>
+      <trans-unit id="bb372ddf88ad8fcc480f7a8599a92abc" approved="yes">
+        <source>Hi,</source>
+        <target xml:lang="el">Γεια,</target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/modules/ps_emailsubscription/newsletter_voucher.php:6</note>
+      </trans-unit>
+      <trans-unit id="7bf7f18afabb5122fa68fbab617e509b" approved="yes">
+        <source>Newsletter subscription</source>
+        <target xml:lang="el">Συνδρομή στο Newsletter</target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/modules/ps_emailsubscription/newsletter_voucher.php:21</note>
+      </trans-unit>
+      <trans-unit id="289f1fb0b0a7ed1c03d1f1f597666f67" approved="yes">
+        <source>Regarding your newsletter subscription, we are pleased to offer you the following voucher:</source>
+        <target xml:lang="el">Ανεξάρτητα με την εγγραφή σας στις ενημερώσεις, είμαστε στην ευχάριστη θέση να σας προσφέρουμε το παρακάτω εκπτωτικό κουπόνι:</target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/modules/ps_emailsubscription/newsletter_voucher.php:24</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="modules/ps_emailgenerator/templates/core/order_customer_comment.php" source-language="en" target-language="el" datatype="plaintext">
     <body>
       <trans-unit id="381fc38b470ed543424afbd43f224453" approved="yes">
@@ -924,6 +912,22 @@ File: modules/ps_emailgenerator/templates/core/preparation.php:24</note>
       </trans-unit>
     </body>
   </file>
+  <file original="modules/ps_emailgenerator/templates/core/refund.php" source-language="en" target-language="el" datatype="plaintext">
+    <body>
+      <trans-unit id="9b45ae8a346e0587013cdb1494e113d8" approved="yes">
+        <source>Refund processed</source>
+        <target xml:lang="el">Επιστροφή χρημάτων επεξεργάστηκε</target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/core/refund.php:21</note>
+      </trans-unit>
+      <trans-unit id="b3e67c974cc0ca43712679a17bedf6db" approved="yes">
+        <source><![CDATA[We have processed your <strong><span>{shop_name}</span></strong> refund for order with the reference <strong><span>{order_name}</span></strong>.]]></source>
+        <target xml:lang="el"><![CDATA[Έχουμε επεξεργαστεί από <strong><span>{shop_name}</span></strong> επιστροφή χρημάτων για την παραγγελία με κωδικό <strong><span>{order_name}</span></strong>.]]></target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/core/refund.php:24</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="modules/ps_emailgenerator/templates/core/reply_msg.php" source-language="en" target-language="el" datatype="plaintext">
     <body>
       <trans-unit id="2ddbd3a9b06eadccdea8e1b372830d69" approved="yes">
@@ -953,6 +957,28 @@ File: modules/ps_emailgenerator/templates/core/test.php:5</note>
         <target xml:lang="el"><![CDATA[Αυτό είναι ένα <strong>δοκιμαστικό email</strong> από το κατάστημά σας.<br /><br /> Αν μπορείτε να διαβάσετε αυτό, η δοκιμή είναι επιτυχής!]]></target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/core/test.php:14</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/ps_emailgenerator/templates/core/voucher.php" source-language="en" target-language="el" datatype="plaintext">
+    <body>
+      <trans-unit id="6edfaaf163aab585fb50f909e6f2cadf" approved="yes">
+        <source>Voucher created</source>
+        <target xml:lang="el">Κουπόνι δημιουργήθηκε</target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/core/voucher.php:21</note>
+      </trans-unit>
+      <trans-unit id="17ab9221f0e6cb342a02d31c56c79c2b" approved="yes">
+        <source><![CDATA[A voucher has been created in your name as a result of your order with the reference <span><strong>{order_name}</strong></span>.]]></source>
+        <target xml:lang="el"><![CDATA[Ένα κουπόνι έχει δημιουργηθεί στο όνομά σας ως αποτέλεσμα της παραγγελία σας με την αναφορά <span><strong>{order_name}</strong></span>.]]></target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/core/voucher.php:24</note>
+      </trans-unit>
+      <trans-unit id="25cecf399c0cd872952ced4a7d150e0d" approved="yes">
+        <source><![CDATA[<span><strong>Voucher code: {voucher_num}</strong></span> in the amount of <span><strong>{voucher_amount}</strong></span>]]></source>
+        <target xml:lang="el"><![CDATA[<span><strong>Κωδικός κουπονιού: {voucher_num}</strong></span> στην ποσότητα των <span><strong>{voucher_amount}</strong></span>]]></target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/core/voucher.php:25</note>
       </trans-unit>
     </body>
   </file>
@@ -1041,28 +1067,6 @@ File: modules/ps_emailgenerator/templates/modules/followup/followup_3.php:22</no
         <target xml:lang="el"><![CDATA[Σαν εκτίμηση για την εμπιστοσύνη σας, θέλουμε να σας δώσουμε μια έκπτωση των <span><strong>{amount}</strong></span>% έγκυρη στην επόμενη παραγγελία σας! Αυτή η προσφορά είναι έγκυρη για <span><strong>{days}</strong></span> μέρες, οπότε μη χάνετε χρόνο!]]></target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/modules/followup/followup_3.php:25</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="modules/ps_emailgenerator/templates/modules/ps_emailsubscription/newsletter_voucher.php" source-language="en" target-language="el" datatype="plaintext">
-    <body>
-      <trans-unit id="bb372ddf88ad8fcc480f7a8599a92abc" approved="yes">
-        <source>Hi,</source>
-        <target xml:lang="el">Γεια,</target>
-        <note>Context:
-File: modules/ps_emailgenerator/templates/modules/ps_emailsubscription/newsletter_voucher.php:6</note>
-      </trans-unit>
-      <trans-unit id="7bf7f18afabb5122fa68fbab617e509b" approved="yes">
-        <source>Newsletter subscription</source>
-        <target xml:lang="el">Συνδρομή στο Newsletter</target>
-        <note>Context:
-File: modules/ps_emailgenerator/templates/modules/ps_emailsubscription/newsletter_voucher.php:21</note>
-      </trans-unit>
-      <trans-unit id="289f1fb0b0a7ed1c03d1f1f597666f67" approved="yes">
-        <source>Regarding your newsletter subscription, we are pleased to offer you the following voucher:</source>
-        <target xml:lang="el">Ανεξάρτητα με την εγγραφή σας στις ενημερώσεις, είμαστε στην ευχάριστη θέση να σας προσφέρουμε το παρακάτω εκπτωτικό κουπόνι:</target>
-        <note>Context:
-File: modules/ps_emailgenerator/templates/modules/ps_emailsubscription/newsletter_voucher.php:24</note>
       </trans-unit>
     </body>
   </file>
