@@ -70,7 +70,7 @@ $_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></s
 $_LANGMAIL['You can track your package using the following link:'] = 'Vous pouvez suivre la progression de votre livraison à l\'adresse suivante:';
 $_LANGMAIL['{followup}'] = '{followup}';
 $_LANGMAIL['You have received a new log alert'] = 'Nouveau message d\'alerte enregistré';
-$_LANGMAIL['<span><strong>Warning:</strong></span> you have received a new log alert in your Back Office.'] = '<span><strong>Attention :</strong></span> vous avez reçu un nouveau message d\'alerte dans votre Back-Office.';
+$_LANGMAIL['<span><strong>Warning:</strong></span> you have received a new log alert in your Back Office.'] = '<span><strong>Attention :</strong></span> vous avez reçu un nouveau message d\'alerte dans votre back-office.';
 $_LANGMAIL['You can check for it in the <span><strong>"Tools" &gt; "Logs"</strong></span> section of your Back Office.'] = 'Vous pouvez voir ce message dans votre Panneau d\'administration dans <span><strong>Outils &gt; Log</strong></span>.';
 $_LANGMAIL['Order canceled'] = 'Commande annulée';
 $_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> from <span><strong>{shop_name}</strong></span> has been canceled.'] = 'Votre commande sur  <span><strong>{shop_name}</strong></span> ayant pour référence <span><strong>{order_name}</strong></span> a été annulée.';
