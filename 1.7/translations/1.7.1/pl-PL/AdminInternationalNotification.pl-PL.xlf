@@ -4,7 +4,7 @@
     <body>
       <trans-unit id="6cfb80c26b415f8f6467cf07b0c700dd" approved="yes">
         <source>The translation was successfully copied.</source>
-        <target xml:lang="pl">Pomyślnie skopiowano język</target>
+        <target xml:lang="pl">Tłumaczenie zostało pomyślnie skopiowane.</target>
         <note>Context:
 File: classes/controller/AdminController.php:461</note>
       </trans-unit>
@@ -20,13 +20,13 @@ File: classes/controller/AdminController.php:1471</note>
     <body>
       <trans-unit id="f22def68c5c456936078623b6dcd27ff" approved="yes">
         <source>The translations have been successfully added.</source>
-        <target xml:lang="pl">Pomyślnie dodano tłumaczenie</target>
+        <target xml:lang="pl">Tłumaczenia zostały pomyślnie dodane.</target>
         <note>Context:
 File: modules/autoupgrade/AdminSelfTab.php:182</note>
       </trans-unit>
       <trans-unit id="bb01c8c21884e974df8517110c92b22a" approved="yes">
         <source>The translation was added successfully, but the language has not been created.</source>
-        <target xml:lang="pl">Tłumaczenie dodane pomyślnie, ale język nie został utworzony</target>
+        <target xml:lang="pl">Tłumaczenie dodane pomyślnie, ale język nie został utworzony.</target>
         <note>Context:
 File: modules/autoupgrade/AdminSelfTab.php:184</note>
       </trans-unit>
@@ -88,6 +88,12 @@ File: classes/Language.php:1074</note>
         <note>Context:
 File: classes/LocalizationPack.php:55</note>
       </trans-unit>
+      <trans-unit id="5408a3468e366610d70dc31825b3ef3d" approved="yes">
+        <source>Cannot enable the associated country: %s</source>
+        <target xml:lang="pl">Nie można włączyć powiązanego kraju: %s</target>
+        <note>Context:
+File: classes/LocalizationPack.php:65</note>
+      </trans-unit>
       <trans-unit id="db3f419ede0b78fcf31491509e68db40" approved="yes">
         <source>Invalid Zone name.</source>
         <target xml:lang="pl">Nieprawidłowa nazwa strefy.</target>
@@ -96,13 +102,19 @@ File: classes/LocalizationPack.php:153</note>
       </trans-unit>
       <trans-unit id="be9fddade234ff9b16a1d92d62963b8e" approved="yes">
         <source>Invalid state properties.</source>
-        <target xml:lang="pl">Nieprawidłowe parametry stanu/regionu</target>
+        <target xml:lang="pl">Nieprawidłowe parametry stanu/regionu.</target>
         <note>Context:
 File: classes/LocalizationPack.php:163</note>
       </trans-unit>
+      <trans-unit id="b19f9ad94a42c56d4a2d89aaca63bafb" approved="yes">
+        <source>Cannot update the associated country: %s</source>
+        <target xml:lang="pl">Nie można zaktualizować powiązanego kraju: %s</target>
+        <note>Context:
+File: classes/LocalizationPack.php:171</note>
+      </trans-unit>
       <trans-unit id="e970d66f1c952edf7a4e5dfcf3e18958" approved="yes">
         <source>An error occurred while adding the state.</source>
-        <target xml:lang="pl">Wystąpił błąd podczas dodawania regionu</target>
+        <target xml:lang="pl">Wystąpił błąd podczas dodawania regionu.</target>
         <note>Context:
 File: classes/LocalizationPack.php:176</note>
       </trans-unit>
@@ -132,7 +144,7 @@ File: classes/LocalizationPack.php:242</note>
       </trans-unit>
       <trans-unit id="19f29a24f0ccb9b96b37182473b27d63" approved="yes">
         <source>Invalid currency properties.</source>
-        <target xml:lang="pl">Nieprawidłowy właściwości waluty.</target>
+        <target xml:lang="pl">Nieprawidłowa właściwość waluty.</target>
         <note>Context:
 File: classes/LocalizationPack.php:322</note>
       </trans-unit>
@@ -144,7 +156,7 @@ File: classes/LocalizationPack.php:327</note>
       </trans-unit>
       <trans-unit id="4a11be1a3905ec59ca2d35a068de6f2e" approved="yes">
         <source>Localization pack corrupted: wrong unit type.</source>
-        <target xml:lang="pl">Paczka uszkodzona: zły typ jednostki</target>
+        <target xml:lang="pl">Paczka uszkodzona: zły typ jednostki.</target>
         <note>Context:
 File: classes/LocalizationPack.php:394</note>
       </trans-unit>
@@ -171,6 +183,12 @@ File: classes/LocalizationPack.php:435</note>
         <target xml:lang="pl">Wystąpił błąd, ten moduł nie istnieje: %s</target>
         <note>Context:
 File: classes/LocalizationPack.php:441</note>
+      </trans-unit>
+      <trans-unit id="e7ae5e7fbebb7b087110d07b06bd2418" approved="yes">
+        <source>An error occurred during the configuration setup: %1$s</source>
+        <target xml:lang="pl">Wystąpił błąd podczas instalacji konfiguracji: %1$s</target>
+        <note>Context:
+File: classes/LocalizationPack.php:468</note>
       </trans-unit>
       <trans-unit id="b34f6454b80599ab92262b1da79a9edb" approved="yes">
         <source>An error occurred during the default group update</source>
@@ -214,16 +232,27 @@ File: classes/tax/TaxRulesGroup.php:151</note>
   </file>
   <file original="classes/Translate.php" source-language="en" target-language="pl" datatype="plaintext">
     <body>
-      
+      <trans-unit id="753200ddd6c25c2b4875afc70bb6d4fc" approved="yes">
+        <source>Invalid language ISO code (%s)</source>
+        <target xml:lang="pl">Nieprawidłowy kod ISO języka (%s)</target>
+        <note>Context:
+File: classes/Translate.php:289</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminCountriesController.php" source-language="en" target-language="pl" datatype="plaintext">
     <body>
       <trans-unit id="e07a23e507642ef04f449a7a78f59d38" approved="yes">
         <source>This ISO code already exists.You cannot create two countries with the same ISO code.</source>
-        <target xml:lang="pl">Kod ISO już istnieje, nie można utworzyć dwóch państw, z tym samym kodem ISO</target>
+        <target xml:lang="pl">Kod ISO już istnieje, nie można utworzyć dwóch państw, z tym samym kodem ISO.</target>
         <note>Context:
 File: controllers/admin/AdminCountriesController.php:409</note>
+      </trans-unit>
+      <trans-unit id="28064049c0d480c2fdeafd456977da8d" approved="yes">
+        <source>Invalid address layout %s</source>
+        <target xml:lang="pl">Nieprawidłowy układ adresu %s</target>
+        <note>Context:
+File: controllers/admin/AdminCountriesController.php:444</note>
       </trans-unit>
     </body>
   </file>
@@ -249,7 +278,7 @@ File: controllers/admin/AdminCurrenciesController.php:282</note>
       </trans-unit>
       <trans-unit id="1a93d2c04e8276471b3c198d1ad95098" approved="yes">
         <source>The currency conversion rate cannot be equal to 0.</source>
-        <target xml:lang="pl">Kurs przeliczeniowy waluty nie może być równa 0.</target>
+        <target xml:lang="pl">Kurs przeliczeniowy waluty nie może być równy 0.</target>
         <note>Context:
 File: controllers/admin/AdminCurrenciesController.php:285</note>
       </trans-unit>
@@ -259,13 +288,13 @@ File: controllers/admin/AdminCurrenciesController.php:285</note>
     <body>
       <trans-unit id="7e093dcb7a9f75c8124b2adc265c5302" approved="yes">
         <source>The geolocation database is unavailable.</source>
-        <target xml:lang="pl">Baza Geolokalizajci jest niedostępna</target>
+        <target xml:lang="pl">Baza geolokalizacji jest niedostępna.</target>
         <note>Context:
 File: controllers/admin/AdminGeolocationController.php:94</note>
       </trans-unit>
       <trans-unit id="493ce56d58c4880dc32df56f12585a23" approved="yes">
         <source>Country selection is invalid.</source>
-        <target xml:lang="pl">Wybór kraju jest nieprawidłowy</target>
+        <target xml:lang="pl">Wybór kraju jest nieprawidłowy.</target>
         <note>Context:
 File: controllers/admin/AdminGeolocationController.php:99</note>
       </trans-unit>
@@ -305,7 +334,7 @@ File: controllers/admin/AdminLanguagesController.php:336</note>
       </trans-unit>
       <trans-unit id="f25eedbf89efbd0cfce488fe01f9c4cb" approved="yes">
         <source>You cannot delete the language currently in use. Please select a different language.</source>
-        <target xml:lang="pl">Nie mozna usunąć języka który jest aktualnie w użyciu. Proszę zmienić język na inny i spróbować ponownie.</target>
+        <target xml:lang="pl">Nie można usunąć języka który jest aktualnie w użyciu. Proszę zmienić język na inny i spróbować ponownie.</target>
         <note>Context:
 File: controllers/admin/AdminLanguagesController.php:338</note>
       </trans-unit>
@@ -317,7 +346,7 @@ File: controllers/admin/AdminLanguagesController.php:359</note>
       </trans-unit>
       <trans-unit id="59382adebc7f0d65c42fe773d443e4c7" approved="yes">
         <source>This ISO code is already linked to another language.</source>
-        <target xml:lang="pl">Kod ISO odwołuje się już do innego języka</target>
+        <target xml:lang="pl">Kod ISO odwołuje się już do innego języka.</target>
         <note>Context:
 File: controllers/admin/AdminLanguagesController.php:399</note>
       </trans-unit>
@@ -353,7 +382,7 @@ File: controllers/admin/AdminLanguagesController.php:469</note>
       </trans-unit>
       <trans-unit id="2b9a5da945495f5101d57abbf2a7083c" approved="yes">
         <source>An error occurred while resizing "No picture" image to your category directory.</source>
-        <target xml:lang="pl">Wystąpił błąd podczas zmiany rozmiaru obrazu.</target>
+        <target xml:lang="pl">Wystąpił błąd podczas zmiany rozmiaru obrazu "Brak zdjęcia" do katalogu kategorii.</target>
         <note>Context:
 File: controllers/admin/AdminLanguagesController.php:472</note>
       </trans-unit>
@@ -411,13 +440,13 @@ File: controllers/admin/AdminLocalizationController.php:190</note>
       </trans-unit>
       <trans-unit id="ecb8838ce98cd126849fc083f0070bcd" approved="yes">
         <source>Please select at least one item to import.</source>
-        <target xml:lang="pl">Proszę wybrać co najmniej jeden.</target>
+        <target xml:lang="pl">Proszę wybrać co najmniej jeden element do zaimportowania.</target>
         <note>Context:
 File: controllers/admin/AdminLocalizationController.php:194</note>
       </trans-unit>
       <trans-unit id="e2e54c736346106b561a0795cbaec1b1" approved="yes">
         <source>%language% could not be loaded</source>
-        <target xml:lang="pl">Nie udało się załadować %language%</target>
+        <target xml:lang="pl">%language% nie mógł być załadowany</target>
         <note>Context:
 File: controllers/admin/AdminLocalizationController.php:264</note>
       </trans-unit>
@@ -459,7 +488,7 @@ File: controllers/admin/AdminTaxesController.php:176</note>
     <body>
       <trans-unit id="45f3b37902e09b041709484fd75cab22" approved="yes">
         <source>A tax rule already exists for this country/state with tax only behavior.</source>
-        <target xml:lang="pl">Istnieje już regułą podatku dla tego pa.</target>
+        <target xml:lang="pl">Istnieje już regułą podatku dla tego kraju/państwa z podatku tylko zachowanie.</target>
         <note>Context:
 File: controllers/admin/AdminTaxRulesGroupController.php:436</note>
       </trans-unit>
@@ -471,7 +500,7 @@ File: controllers/admin/AdminTaxRulesGroupController.php:463</note>
       </trans-unit>
       <trans-unit id="2ff5095fd8289ccdaeca9c5e7d379fd2" approved="yes">
         <source>An error has occurred: Cannot save the current tax rule.</source>
-        <target xml:lang="pl">Wystąpił błąd, nie można zapisać obecnej reguły podatkowej</target>
+        <target xml:lang="pl">Wystąpił błąd, nie można zapisać obecnej reguły podatkowej.</target>
         <note>Context:
 File: controllers/admin/AdminTaxRulesGroupController.php:489</note>
       </trans-unit>
@@ -487,19 +516,19 @@ File: controllers/admin/AdminTranslationsController.php:314</note>
       </trans-unit>
       <trans-unit id="102c75f83994f206179912d118b8bc3c" approved="yes">
         <source>You must select two languages in order to copy data from one to another.</source>
-        <target xml:lang="pl">Musisz wybrać 2 języki aby skopiować dane z jednego do drugiego</target>
+        <target xml:lang="pl">Musisz wybrać 2 języki aby skopiować dane z jednego do drugiego.</target>
         <note>Context:
 File: controllers/admin/AdminTranslationsController.php:409</note>
       </trans-unit>
       <trans-unit id="fc15f62c244c6d8035874d556e6a7f7b" approved="yes">
         <source>You must select two themes in order to copy data from one to another.</source>
-        <target xml:lang="pl">Musisz wybrać 2 szablony aby skopiować dane z jednego do drugiego</target>
+        <target xml:lang="pl">Musisz wybrać 2 szablony aby skopiować dane z jednego do drugiego.</target>
         <note>Context:
 File: controllers/admin/AdminTranslationsController.php:411</note>
       </trans-unit>
       <trans-unit id="c4e5aa158727e2041778d545424797da" approved="yes">
         <source>An error occurred while copying data.</source>
-        <target xml:lang="pl">Wystąpił błąd podczas kopiowania danych</target>
+        <target xml:lang="pl">Wystąpił błąd podczas kopiowania danych.</target>
         <note>Context:
 File: controllers/admin/AdminTranslationsController.php:413</note>
       </trans-unit>
@@ -589,7 +618,7 @@ File: controllers/admin/AdminTranslationsController.php:974</note>
       </trans-unit>
       <trans-unit id="1970e39c8995f0f6c227f94fc01e35dd" approved="yes">
         <source>Invalid theme "%s"</source>
-        <target xml:lang="pl">Błędny szablon \"%s\"</target>
+        <target xml:lang="pl">Błędny szablon "%s"</target>
         <note>Context:
 File: controllers/admin/AdminTranslationsController.php:1806</note>
       </trans-unit>
@@ -649,7 +678,7 @@ File: controllers/admin/AdminTranslationsController.php:2108</note>
       </trans-unit>
       <trans-unit id="616d8e7e6c0dc755a7e932c4db698317" approved="yes">
         <source>The module directory must be writable.</source>
-        <target xml:lang="pl">Ten katalog modułu musi mieć prawa do zapisu</target>
+        <target xml:lang="pl">Ten katalog modułu musi mieć prawa do zapisu.</target>
         <note>Context:
 File: controllers/admin/AdminTranslationsController.php:2170</note>
       </trans-unit>
@@ -673,7 +702,7 @@ File: controllers/admin/AdminTranslationsController.php:2493</note>
       </trans-unit>
       <trans-unit id="1126cc7046d573e5fd9f631ec792770f" approved="yes">
         <source>No Subject was found for %s in the database.</source>
-        <target xml:lang="pl">Nie znaleziono Tematu dla %s, lub temat zstał wygenerowany w bazie danych.</target>
+        <target xml:lang="pl">Nie znaleziono tematu %s w bazie danych.</target>
         <note>Context:
 File: controllers/admin/AdminTranslationsController.php:2509</note>
       </trans-unit>
@@ -691,7 +720,7 @@ File: controllers/admin/AdminTranslationsController.php:2547</note>
       </trans-unit>
       <trans-unit id="31370967686edafc2c4ae48d5870f47f" approved="yes">
         <source>Cannot write language file for email subjects. Path is: %s</source>
-        <target xml:lang="pl">Nie mozna zapisać pliku języka dla tematów e-maili, ścieżka to: %s</target>
+        <target xml:lang="pl">Nie można zapisać pliku języka dla tematów e-maili, ścieżka to: %s</target>
         <note>Context:
 File: controllers/admin/AdminTranslationsController.php:2933</note>
       </trans-unit>
