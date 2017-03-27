@@ -62,6 +62,12 @@ File: classes/CartRule.php:624</note>
         <note>Context:
 File: classes/CartRule.php:633</note>
       </trans-unit>
+      <trans-unit id="40869c38d826da9c21cc0359f905e5b3" approved="yes">
+        <source>You cannot use this voucher on products on sale</source>
+        <target xml:lang="pl">Nie możesz użyć tego bonu rabatowego na produkty w promocji</target>
+        <note>Context:
+File: classes/CartRule.php:647</note>
+      </trans-unit>
       <trans-unit id="3fb396b59440efc171f576e02ecfa88a" approved="yes">
         <source>Please log in first</source>
         <target xml:lang="pl">Proszę najpierw się zalogować</target>
@@ -79,6 +85,12 @@ File: classes/CartRule.php:706</note>
         <target xml:lang="pl">Bon jest już w koszyku</target>
         <note>Context:
 File: classes/CartRule.php:724</note>
+      </trans-unit>
+      <trans-unit id="4837d38bc896f38c39d6f7024e466967" approved="yes">
+        <source>This voucher is not combinable with an other voucher already in your cart: %s</source>
+        <target xml:lang="pl">Ten bon rabatowy nie może być łączony z innym kuponem znajdującym się już w Twoim koszyku: %s</target>
+        <note>Context:
+File: classes/CartRule.php:740</note>
       </trans-unit>
       <trans-unit id="e199546c0a1d80f1bf116b131ee02e22" approved="yes">
         <source>Cart is empty</source>
@@ -134,6 +146,12 @@ File: classes/form/CustomerForm.php:107</note>
         <note>Context:
 File: classes/stock/SupplyOrderDetail.php:305</note>
       </trans-unit>
+      <trans-unit id="1f597c6798d6a39dd2bde999d547331a" approved="yes">
+        <source>%s is required.</source>
+        <target xml:lang="pl">%s jest wymagane.</target>
+        <note>Context:
+File: classes/stock/SupplyOrderDetail.php:291</note>
+      </trans-unit>
       <trans-unit id="8ae0cb74f9724518e1ce68c503377002" approved="yes">
         <source>is invalid.</source>
         <target xml:lang="pl">jest nieprawidłowe.</target>
@@ -152,7 +170,7 @@ File: classes/form/CustomerLoginForm.php:71</note>
       </trans-unit>
       <trans-unit id="802b207b05fe5cea22e11b9db804b33d" approved="yes">
         <source>Authentication failed.</source>
-        <target xml:lang="pl">Błąd autentykacji</target>
+        <target xml:lang="pl">Uwierzytelnianie nie powiodło się.</target>
         <note>Context:
 File: classes/form/CustomerLoginForm.php:73</note>
       </trans-unit>
@@ -190,7 +208,7 @@ File: classes/form/CustomerPersister.php:155</note>
     <body>
       <trans-unit id="a3abb251955ac102dfda84c06e7e2e13" approved="yes">
         <source>The customer could not be found.</source>
-        <target xml:lang="pl">Nie znaleziono klienta</target>
+        <target xml:lang="pl">Nie można znaleźć klienta.</target>
         <note>Context:
 File: controllers/front/AddressesController.php:43</note>
       </trans-unit>
@@ -200,15 +218,21 @@ File: controllers/front/AddressesController.php:43</note>
     <body>
       <trans-unit id="897bbb78781eb767eee3a4ac3e820185" approved="yes">
         <source>You must enter a voucher code.</source>
-        <target xml:lang="pl">Musisz podać numer bonu rabatowego</target>
+        <target xml:lang="pl">Musisz podać kod kuponu.</target>
         <note>Context:
 File: controllers/front/CartController.php:185</note>
       </trans-unit>
       <trans-unit id="417d63b1effb110e438d4b4b9f0fbd95" approved="yes">
         <source>The voucher code is invalid.</source>
-        <target xml:lang="pl">Numer bonu rabatowego jest nieprawidłowy</target>
+        <target xml:lang="pl">Numer bonu rabatowego jest nieprawidłowy.</target>
         <note>Context:
 File: controllers/front/CartController.php:187</note>
+      </trans-unit>
+      <trans-unit id="d21c3bf7d25db04b73e7e269aef555fe" approved="yes">
+        <source>This voucher does not exist.</source>
+        <target xml:lang="pl">Taki bon rabatowy nie istnieje.</target>
+        <note>Context:
+File: controllers/front/CartController.php:196</note>
       </trans-unit>
       <trans-unit id="0d38c90d843c787c0be14f790998210c" approved="yes">
         <source>You must add %d minimum quantity</source>
@@ -218,7 +242,7 @@ File: controllers/front/CartController.php:352</note>
       </trans-unit>
       <trans-unit id="9730e222894d4568ed4cd2de30cb233a" approved="yes">
         <source>Null quantity.</source>
-        <target xml:lang="pl">Zerowa ilość</target>
+        <target xml:lang="pl">Zerowa ilość.</target>
         <note>Context:
 File: controllers/front/CartController.php:278</note>
       </trans-unit>
@@ -246,7 +270,7 @@ File: controllers/front/CartController.php:354</note>
     <body>
       <trans-unit id="91e6cde963af2000218553722fc7a093" approved="yes">
         <source>This product is no longer available.</source>
-        <target xml:lang="pl">Produkt nie jest już dostępny</target>
+        <target xml:lang="pl">Produkt nie jest już dostępny.</target>
         <note>Context:
 File: controllers/front/ProductController.php:145</note>
       </trans-unit>
@@ -264,7 +288,7 @@ File: controllers/front/ProductController.php:225</note>
       </trans-unit>
       <trans-unit id="7cc92687130ea12abb80556681538001" approved="yes">
         <source>An error occurred during the image upload process.</source>
-        <target xml:lang="pl">Błąd podczas uploadu zdjęcia</target>
+        <target xml:lang="pl">Wystąpił błąd podczas procesu przesyłania zdjęcia.</target>
         <note>Context:
 File: controllers/front/ProductController.php:781</note>
       </trans-unit>
@@ -320,7 +344,7 @@ File: controllers/front/GetFileController.php:322</note>
       </trans-unit>
       <trans-unit id="2d30f823fe8f59bbcbec1fec853e4549" approved="yes">
         <source>The product deadline is in the past.</source>
-        <target xml:lang="pl">Ostateczny termin produktu ustawiono na datę przeszłą</target>
+        <target xml:lang="pl">Termin realizacji produktu jest z datą przeszłą.</target>
         <note>Context:
 File: controllers/front/GetFileController.php:323</note>
       </trans-unit>
@@ -338,7 +362,7 @@ File: controllers/front/GetFileController.php:325</note>
       </trans-unit>
       <trans-unit id="98bc3b9df6852d17661209b9c969128b" approved="yes">
         <source>You have reached the maximum number of downloads allowed.</source>
-        <target xml:lang="pl">Wykorzystałeś dozwolony limit ilości pobrań</target>
+        <target xml:lang="pl">Wykorzystałeś dozwolony limit ilości pobrań.</target>
         <note>Context:
 File: controllers/front/GetFileController.php:326</note>
       </trans-unit>
@@ -390,7 +414,7 @@ File: controllers/front/listing/CategoryController.php:75</note>
     <body>
       <trans-unit id="56ca67fde405db4d75fb5fc3350db81b" approved="yes">
         <source>Sorry. We cannot renew your order.</source>
-        <target xml:lang="pl">Przepraszamy, nie możemy odnowić Twojego zamówienia</target>
+        <target xml:lang="pl">Przepraszamy, nie możemy odnowić Twojego zamówienia.</target>
         <note>Context:
 File: controllers/front/OrderController.php:55</note>
       </trans-unit>
@@ -406,15 +430,21 @@ File: controllers/front/OrderController.php:58</note>
     <body>
       <trans-unit id="ffabab221ec5c24fbdb4a70ad48bc985" approved="yes">
         <source>The order is no longer valid.</source>
-        <target xml:lang="pl">Zamówienie nie jest już ważne</target>
+        <target xml:lang="pl">Zamówienie nie jest już ważne.</target>
         <note>Context:
 File: controllers/front/OrderDetailController.php:58</note>
       </trans-unit>
       <trans-unit id="3dc245110e1f3601860c20299d97c01d" approved="yes">
         <source>The message cannot be blank.</source>
-        <target xml:lang="pl">Wiadomość nie może być pusta</target>
+        <target xml:lang="pl">Wiadomość nie może być pusta.</target>
         <note>Context:
 File: controllers/front/OrderDetailController.php:60</note>
+      </trans-unit>
+      <trans-unit id="15efe0f18ecffd8e75556c5c60cb1cb6" approved="yes">
+        <source>This message is invalid (HTML is not allowed).</source>
+        <target xml:lang="pl">Wiadomość nieprawidłowa (znaczniki HTML nie są dozwolone).</target>
+        <note>Context:
+File: controllers/front/OrderDetailController.php:62</note>
       </trans-unit>
       <trans-unit id="8a6034d3379499b66d730aa17e007683" approved="yes">
         <source>You do not have enough products to request an additional merchandise return.</source>
@@ -514,7 +544,7 @@ File: controllers/front/PasswordController.php:188</note>
     <body>
       <trans-unit id="e267e2be02cf3e29f4ba53b5d97cf78a" approved="yes">
         <source>Invalid email address.</source>
-        <target xml:lang="pl">Nieprawidłowy adres e-mail</target>
+        <target xml:lang="pl">Nieprawidłowy adres e-mail.</target>
         <note>Context:
 File: modules/ps_emailsubscription/ps_emailsubscription.php:335</note>
       </trans-unit>
@@ -530,13 +560,13 @@ File: controllers/front/PdfInvoiceController.php:44</note>
       </trans-unit>
       <trans-unit id="2ef90fa1b9369f1ad3ca66852ca464a2" approved="yes">
         <source>The invoice was not found.</source>
-        <target xml:lang="pl">Faktury nie znaleziono</target>
+        <target xml:lang="pl">Faktury nie znaleziono.</target>
         <note>Context:
 File: controllers/front/PdfInvoiceController.php:57</note>
       </trans-unit>
       <trans-unit id="8200c4097227159b14dd0669b8dfe22c" approved="yes">
         <source>No invoice is available.</source>
-        <target xml:lang="pl">Brak dostępnych faktur</target>
+        <target xml:lang="pl">Faktura nie jest dostępna.</target>
         <note>Context:
 File: controllers/front/PdfInvoiceController.php:61</note>
       </trans-unit>
@@ -546,7 +576,7 @@ File: controllers/front/PdfInvoiceController.php:61</note>
     <body>
       <trans-unit id="b430bfb9e8ec89ded934087889c2e845" approved="yes">
         <source>Order return not found.</source>
-        <target xml:lang="pl">Zamówienia nie znaleziono</target>
+        <target xml:lang="pl">Nie znaleziono zwrotu zamówienia.</target>
         <note>Context:
 File: controllers/front/PdfOrderSlipController.php:47</note>
       </trans-unit>
@@ -556,7 +586,7 @@ File: controllers/front/PdfOrderSlipController.php:47</note>
     <body>
       <trans-unit id="b55e152dc0683c3d315b6baabb98495d" approved="yes">
         <source>Order return not confirmed.</source>
-        <target xml:lang="pl">Zamówienie nie potwierdzone</target>
+        <target xml:lang="pl">Zwrot zamówienia nie został potwierdzony.</target>
         <note>Context:
 File: controllers/front/PdfOrderReturnController.php:49</note>
       </trans-unit>
@@ -574,6 +604,24 @@ File: controllers/front/StoresController.php:41</note>
   </file>
   <file original="modules/trackingfront/trackingfront.php" source-language="en" target-language="pl" datatype="plaintext">
     <body>
+      <trans-unit id="a3de4dbbfe3bac5d271a16fb8a6f942e" approved="yes">
+        <source>Login is required</source>
+        <target xml:lang="pl">Nazwa użytkownika jest wymagana</target>
+        <note>Context:
+File: modules/trackingfront/trackingfront.php:84</note>
+      </trans-unit>
+      <trans-unit id="a6f2a48726b0d36107e00e20795d3d37" approved="yes">
+        <source>Invalid login</source>
+        <target xml:lang="pl">Nieprawidłowy login</target>
+        <note>Context:
+File: modules/trackingfront/trackingfront.php:86</note>
+      </trans-unit>
+      <trans-unit id="cba0b206627d45fbf0ae707e20d4a38f" approved="yes">
+        <source>Invalid password</source>
+        <target xml:lang="pl">Nieprawidłowe hasło</target>
+        <note>Context:
+File: modules/trackingfront/trackingfront.php:90</note>
+      </trans-unit>
       <trans-unit id="d4e6d6c42bf3eb807b8778255a4ce415" approved="yes">
         <source>Authentication failed</source>
         <target xml:lang="pl">Autoryzacja nie powiodła się</target>
