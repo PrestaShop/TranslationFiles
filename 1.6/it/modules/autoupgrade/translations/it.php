@@ -230,6 +230,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_eac34868b4fb511702e53d1405c4
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_08ee54c048e1589f4072a351035db2ad'] = 'Database aggiornato. Ora sto aggiornando i tuoi moduli aggiuntivi...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ead14b0273e8d6cae7d146130d4be8f6'] = 'Il database è stato pulito.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0bebfc8987ec38d90350bf4ac3e7e391'] = 'Non dimenticare di pulire la tua cache (Parametri avanzati > Prestazioni> Pulisci cache)';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e0ab14f314654aac28f3a3227896079f'] = 'directory inesistente in archivio o directory';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_55c1713f90add7c448328323af0c1b9d'] = 'Non puoi aggiornare a questa versione.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3b8f044559a7568ea572776caf1d6526'] = 'Il file config/settings.inc.php non è stato trovato.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_22f18bac5d420d7ac5aca37b1afe30c9'] = 'Versione attuale: %1$s. Versione da installare: %2$s.';

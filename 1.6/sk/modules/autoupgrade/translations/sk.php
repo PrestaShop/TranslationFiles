@@ -229,6 +229,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_36d56d20b3894281531cd4108e2c
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_eac34868b4fb511702e53d1405c45454'] = 'Pri aktualizácii databázy došlo k chybe. Možno bude nutné spraviť jej obnovu zo zálohy.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_08ee54c048e1589f4072a351035db2ad'] = 'Databáza bola aktualizovaná. Teraz prebehne aktualizácia Vašich prídavných modulov...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ead14b0273e8d6cae7d146130d4be8f6'] = 'Databáza bola vyčistená.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_55c1713f90add7c448328323af0c1b9d'] = 'Nie je možné aktualizovať na túto verziu.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3b8f044559a7568ea572776caf1d6526'] = 'Súbor config/settings.ini.php nebol nájdený.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_22f18bac5d420d7ac5aca37b1afe30c9'] = 'Aktuálna verzia: %1$s. Verzia pre inštaláciu: %2$s.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_6b81346a0c9173213e0c32d0082dc073'] = 'Aktuálna verzia: %1$s. Verzia pre inštaláciu: %2$s';

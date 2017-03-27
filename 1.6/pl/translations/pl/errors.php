@@ -828,6 +828,7 @@ $_ERRORS['34bff86ac3ed2450ae5b4c562f353115'] = 'Nie ma przewoźników, którzy d
 $_ERRORS['d049e05d0babc4c1643c4b36397be24d'] = 'Nie ma przewoźników, którzy dostarczają pod adres wybrany przez Ciebie';
 $_ERRORS['6f268ac84ce6195ecf4e3dfe437e2aee'] = 'Błąd krytyczny: Brak klienta';
 $_ERRORS['ffabab221ec5c24fbdb4a70ad48bc985'] = 'Zamówienie nie jest już ważne';
+$_ERRORS['15efe0f18ecffd8e75556c5c60cb1cb6'] = 'Wiadomość nieprawidłowa (znaczniki HTML nie są dozwolone).';
 $_ERRORS['24909e87dc242b9dd539e10609b8b050'] = 'Zamówienia nie znaleziono';
 $_ERRORS['86eb7a8a11e8d60cc214c71970f11c11'] = 'Wymagane ID zamówienia';
 $_ERRORS['cb5a3bf919fec3770f6d6d500db5aae9'] = 'Nie można odnaleźć tego zamówienia.';
