@@ -180,7 +180,7 @@ $_LANGMAIL['We have created a voucher in your name for referring a friend.'] = '
 $_LANGMAIL[', with an amount of'] = ', d\'un montant total de';
 $_LANGMAIL['Hi {name},'] = 'Bonjour {name},';
 $_LANGMAIL['{customer} has sent you a link to a product that (s)he thinks may interest you.'] = '{customer} vous envoie un lien vers un produit qui pourrait vous int&eacute;resser.';
-$_LANGMAIL['Click here to view this item:'] = 'Il s&#039;agit de:';
+$_LANGMAIL['Click here to view this item:'] = 'Il s\'agit de :';
 $_LANGMAIL['Order edited'] = '';
 $_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = '';
 
