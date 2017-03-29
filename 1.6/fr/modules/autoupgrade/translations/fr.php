@@ -229,6 +229,9 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_36d56d20b3894281531cd4108e2c
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_eac34868b4fb511702e53d1405c45454'] = 'Erreur lors de la mise à jour de la base de données. Nous vous conseillons de restaurer votre base de données.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_08ee54c048e1589f4072a351035db2ad'] = 'Base de données mise à jour. Mise à jour de vos modules Addons...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ead14b0273e8d6cae7d146130d4be8f6'] = 'La base de données a été nettoyée.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0bebfc8987ec38d90350bf4ac3e7e391'] = 'N\'oubliez pas de vider votre cache (Paramètres avancés > Performance > Vider le cache)';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e0ab14f314654aac28f3a3227896079f'] = 'Le dossier est manquant dans l\'archive ou le répertoire.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_55c1713f90add7c448328323af0c1b9d'] = 'Vous ne pouvez pas migrer vers cette version.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3b8f044559a7568ea572776caf1d6526'] = 'Le fichier config/settings.inc.php n\'a pas été trouvé.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_22f18bac5d420d7ac5aca37b1afe30c9'] = 'Version actuelle : %1$s. Version à installer : %2$s.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_6b81346a0c9173213e0c32d0082dc073'] = 'Version actuelle : %1$s. Version à installer : %2$s';
@@ -485,9 +488,12 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f0afedd1444b8ac9f765b544cb5b
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_68e5fa63e9c51108b49d3d643ec36972'] = 'Veuillez s\'il vous plaît toujours faire une sauvegarde manuelle complète de vos fichiers et de votre base de données avant de commencer une mise à jour.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a1f24b1cec5482ed0d97bce1ba0570a4'] = 'Vérifiez bien l\'intégrité de votre sauvegarde des données et vérifiez que vous pouvez facilement restaurer votre boutique manuellement si nécessaire.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0a8276f35797dc24e6ccb5b5ff5cf102'] = 'Si vous ne savez pas comment procéder, demandez à votre hébergeur.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b4394573ea968922ac1d7323cb8f99ed'] = 'Veuillez consulter la liste des points à vérifier avant mise à jour.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_10ac3d04253ef7e1ddc73e6091c0cd55'] = 'Suivant';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_564b7c9d8683f1a94798e9f7449564e4'] = 'Options de mise à jour';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_017697f698d570dffed5f88a5a933d01'] = 'Options de sauvegarde';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d1cf02f3b502ad45947b846659c7774e'] = 'Mettre à jour vers PrestaShop %s';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_49c77c6b39fac5ce46832752e6612e9d'] = 'Mise à jour vers PrestaShop %s';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f15547fe5f9f307bd42b2c01657efbcb'] = 'Votre serveur ne peut télécharger le fichier. Merci de l\'envoyer par FTP dans votre dossier admin/autoupgrade';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f2a6c498fb90ee345d997f888fce3b18'] = 'Supprimer';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_48995d15304fe79fc0240bf6544f2395'] = 'Êtes-vous sûr de vouloir supprimer cette sauvegarde ?';

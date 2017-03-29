@@ -27,7 +27,7 @@ $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_7aaacf26dbf7d8929916618bb
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_24042b0e4b783724dac4178df4db5d68'] = 'В даний час на розгляді';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_7442e29d7d53e549b78d93c46b8cdcfc'] = 'Замовлення';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_247d96cbab5bfc79dff10eb2ce6d8897'] = 'Повернення/Обмін';
-$_MODULE['<{dashactivity}prestashop>dashboard_zone_one_54e85d70ea67acdcc86963b14d6223a8'] = 'Abandoned carts';
+$_MODULE['<{dashactivity}prestashop>dashboard_zone_one_54e85d70ea67acdcc86963b14d6223a8'] = 'Покинуті кошики';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_1c4407dd95b9ef941d30c2838208977e'] = 'Відсутні товари';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_a274f4d4670213a9045ce258c6c56b80'] = 'Нагадування';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_a644e8cd597f2b92aa52861632c0363d'] = 'Нові повідомлення';
