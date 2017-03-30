@@ -181,8 +181,8 @@ $_LANGMAIL[', with an amount of'] = ', med ett belopp av';
 $_LANGMAIL['Hi {name},'] = 'Hej {name},';
 $_LANGMAIL['{customer} has sent you a link to a product that (s)he thinks may interest you.'] = '{customer} har skickat en länk till en produkt som han/hon tror kan intressera dig.';
 $_LANGMAIL['Click here to view this item:'] = 'Klicka här för att visa produkten:';
-$_LANGMAIL['Order edited'] = '';
-$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = '';
+$_LANGMAIL['Order edited'] = 'Beställning redigerad';
+$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = 'Din beställning med referens <span><strong>{order_name}</strong></span> har ändrats.';
 
 
 return $_LANGMAIL;

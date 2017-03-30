@@ -70,8 +70,8 @@ $_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></s
 $_LANGMAIL['You can track your package using the following link:'] = 'Ви можете відслідковувати вашу посилку за цим посиланням:';
 $_LANGMAIL['{followup}'] = '{followup}';
 $_LANGMAIL['You have received a new log alert'] = 'Ви отримали нове повідомлення журналу попереджень';
-$_LANGMAIL['<span><strong>Warning:</strong></span> you have received a new log alert in your Back Office.'] = '<span><strong>Увага:</strong></span> Ви отримали нове повідомлення журналу Панелі керування.';
-$_LANGMAIL['You can check for it in the <span><strong>"Tools" &gt; "Logs"</strong></span> section of your Back Office.'] = 'Ви можете знайти їх у  розідлі <span><strong>"Інструменти" &gt; "Журнали"</strong></span> вашої Панелі керування.';
+$_LANGMAIL['<span><strong>Warning:</strong></span> you have received a new log alert in your Back Office.'] = '<span><strong>Увага:</strong></span> Ви отримали новий запис у журналі Панелі керування.';
+$_LANGMAIL['You can check for it in the <span><strong>"Tools" &gt; "Logs"</strong></span> section of your Back Office.'] = 'Ви можете знайти їх у розділі <span><strong>"Інструменти" &gt; "Журнали"</strong></span> вашої Панелі керування.';
 $_LANGMAIL['Order canceled'] = 'Замовлення скасовано';
 $_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> from <span><strong>{shop_name}</strong></span> has been canceled.'] = 'Ваше замовлення з артикулом <span><strong>{order_name}</strong></span> у <span><strong>{shop_name}</strong></span> було відмінено.';
 $_LANGMAIL['Order changed'] = 'Замовлення змінено';
@@ -181,8 +181,8 @@ $_LANGMAIL[', with an amount of'] = ', з кількстю';
 $_LANGMAIL['Hi {name},'] = 'Вітаємо, {name},';
 $_LANGMAIL['{customer} has sent you a link to a product that (s)he thinks may interest you.'] = '{customer} відправив вам посилання на товар(и) які можуть вас зацікавити.';
 $_LANGMAIL['Click here to view this item:'] = 'Натисніть тут щоб побачити цей товар:';
-$_LANGMAIL['Order edited'] = '';
-$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = '';
+$_LANGMAIL['Order edited'] = 'Замовлення змінене';
+$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = 'Ваше замовлення з артикулом <span><strong>{order_name}</strong></span> було змінене.';
 
 
 return $_LANGMAIL;

@@ -26,7 +26,7 @@ $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_6080ab31226b39af728c2
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_2debd734d0a150ccfd48e8d1e8e914b0'] = 'Відображати користувацький блок сторінок CMS';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_bfebda351190d4dbbd3499558175c7b9'] = 'Відображати вікно швидкого перегляду на домашній сторінці і на сторінці категорій';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_5e8fbd010bca773512f58a4dcd89ed13'] = 'Відображати категорії у вигляді списку товарів замість прийнятого за замовчуванням таблицею';
-$_MODULE['<{themeconfigurator}prestashop>themeconfigurator_4e15ce9f3df1555d6932a9938d34a2cc'] = 'Працює тільки для першого перегляду. Це налаштування змінюється у залежності з вибором користувача коли встановлюються куки.';
+$_MODULE['<{themeconfigurator}prestashop>themeconfigurator_4e15ce9f3df1555d6932a9938d34a2cc'] = 'Працює тільки для нових користувачів. Це налаштування змінюється за вибором користувача та зберігається в його реп\'яшок.';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_419e2c499b79ae49a7d50b510cddc28e'] = 'Відображати верхній банер';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_2393b3a8e21e442273b6ad9219f4786c'] = 'Показувати логотипи доступних методів оплати';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_905791e2e93ced2cb9b092985604cc55'] = 'Відображати "живий" конфігуратор ';

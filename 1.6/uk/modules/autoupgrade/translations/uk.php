@@ -15,11 +15,11 @@ $_MODULE['<{autoupgrade}prestashop>adminpreferences_daf835712085aaaf81818e7ebfeb
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_894cd7887e47ca0e836e31577664b1ea'] = 'IP адерси, яким дозволено доступ до сайту, навіть якщо магазин вимкнено. Використовуйте кому для переліку (наприклад: 42.24.4.2,127.0.0.1,99.98.97.96)';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_1656072e927c8d3acd24359cbb648bb5'] = 'Увімкнути SSL';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_8de64d6b49cebd2306af6ddbcd268700'] = 'Якщо Ваш хостинг-провайдер підтримує SSL, Ви можете активувати SSL шифрування (https://) для процесу ідентифікації клієнтів та оформлення замовлень';
-$_MODULE['<{autoupgrade}prestashop>adminpreferences_ed5454727fb14b9800ead242d0972184'] = 'Перевірити IP на куки';
-$_MODULE['<{autoupgrade}prestashop>adminpreferences_9cfc2e28ebe44b3e14f9d780d2150650'] = 'Перевіряє IP-адресу з куків, щоб уникнути крадіжки куків';
-$_MODULE['<{autoupgrade}prestashop>adminpreferences_c87330f475e4384552c0077927d26e1a'] = 'Тривалість використання куків на сайті';
+$_MODULE['<{autoupgrade}prestashop>adminpreferences_ed5454727fb14b9800ead242d0972184'] = 'Перевіряти IP реп\'яшка';
+$_MODULE['<{autoupgrade}prestashop>adminpreferences_9cfc2e28ebe44b3e14f9d780d2150650'] = 'Перевіряти IP-адресу встановлення реп\'яшка, для уникнення їх крадіжки';
+$_MODULE['<{autoupgrade}prestashop>adminpreferences_c87330f475e4384552c0077927d26e1a'] = 'Термін дії реп\'яшка у магазині';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_6d964e25aa6aa88c8353880e00202cf4'] = 'Вкажіть кількість годин';
-$_MODULE['<{autoupgrade}prestashop>adminpreferences_e673b146824251548feecf1f3929aceb'] = 'Тривалість використання куків в адмін-панелі';
+$_MODULE['<{autoupgrade}prestashop>adminpreferences_e673b146824251548feecf1f3929aceb'] = 'Термін дії реп\'яшка у Панелі керування';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_e12874163bcb256726ddfe643aa53a63'] = 'Покращити безпеку Фронт-Офісу';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_cce43372fe8624c0edf870f417557b84'] = 'Включити або виключити підвищену безпеку для сайту';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_16c390c0fd1efc4f493a6a861aa22d2f'] = 'Підказки в Бек-Офісі';
@@ -49,7 +49,7 @@ $_MODULE['<{autoupgrade}prestashop>adminpreferences_95be164e850e88c5282e84669f36
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_46f18d3960afc01e5a1a5a0e0e9d571b'] = 'Автоматично перевіряти оновлення модулів';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_686a2ac82a5a64eca870ba9a55b8a675'] = 'Нові модулі та їх оновлення відображатимуться у вкладці "Модулі"';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_a9fff6d50be898f47a507354626b8b8d'] = 'Приховати поради щодо оптимізації';
-$_MODULE['<{autoupgrade}prestashop>adminpreferences_e4e2107f99e82247d7e32ac7919c4416'] = 'Приховати поради щодо оптимізації на головній сторінці адмін-панелі';
+$_MODULE['<{autoupgrade}prestashop>adminpreferences_e4e2107f99e82247d7e32ac7919c4416'] = 'Приховати поради щодо оптимізації на головній сторінці Панелі керування';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_79a8435260e0c3b17e30ccb1c6dfc75c'] = 'Показати постачальників та виробників';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_4be87dc8773fa2fb95b7b8302cb47fa9'] = 'Відображати виробників та постачальників навіть якщо відповідні блоки відключені';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_9f47ef1ea6bca844b91ceb0322e6ae83'] = 'Використовувати Smarty 2 замість 3';
@@ -488,6 +488,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0a8276f35797dc24e6ccb5b5ff5c
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_10ac3d04253ef7e1ddc73e6091c0cd55'] = 'Далі';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_564b7c9d8683f1a94798e9f7449564e4'] = 'Оновити параметри';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_017697f698d570dffed5f88a5a933d01'] = 'Параметри резервної копії';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f93dc2c54e04a6b770f3e0fd1058a31f'] = 'Якщо я маю власне меню в Панелі керування, я більше не зможу його використовувати';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f15547fe5f9f307bd42b2c01657efbcb'] = 'Ваш сервер не може завантажити файл. Будь ласка, завантажте його спочатку через FTP  в папку admin/autoupgrade';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f2a6c498fb90ee345d997f888fce3b18'] = 'Видалити';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_48995d15304fe79fc0240bf6544f2395'] = 'Ви впевнені, що хочете видалити цю резервну копію?';
@@ -497,7 +498,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_98a399b35ec9e03ec985254acfe5
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e02d726a7e733ffb7737e53c89be5e4f'] = 'Оновлення закінчено';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c5e0a7b512fd616279924a1396bb0802'] = 'Оновлення закінчено!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f67d595b77c8c85da5434ddf41b840d4'] = 'Оновлення закінчено, але є попередження.';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a9cb4ff8ba5698ccdc9672435be31d24'] = 'Файли куків змінились, після оновлення сторінки вам потрібно увійти ще раз';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a9cb4ff8ba5698ccdc9672435be31d24'] = 'Реп\'яшки змінились, після оновлення сторінки вам потрібно буде увійти ще раз';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_546c6a7b5ca345af3880bfc74a339606'] = 'Javascript і CSS файли змінено, будь ласка, очистіть кеш вашого браузера за допомогою CTRL-F5';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_19ea4327ee1bad0ed94b42a77255f3c6'] = 'Будь ласка, переконайтеся, що ваша тема сайту є функціональна (спробуйте зареєструватися, оформити замовлення...)';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c12803674a35ccc28e5da00a50a84591'] = 'Зображення продукту не відображається на сайті? Спробуйте перегенерувати зображення в Налаштування > Зображення';
