@@ -51,6 +51,7 @@ $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_c48244f3d519c8c3260f2a400
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_521f7e76a7d4f9e50c50bb945559b942'] = 'Φιλτράρισμα πελατών ανά χώρα.';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_1b09c341aa487e26dac94d2467b7f7e3'] = 'Φιλτράρισμα πελατών οι οποίοι έχουν ή δεν έχουν εγγραφεί στο ενημερωτικό δελτίο, και που έχουν ή δεν έχουν λογαριασμό.';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_847b0223c73ac0fec0d9df6539c7cad6'] = 'Όλοι οι συνδρομητές';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_6395c19dc5a1cef9ca125b9736358dc7'] = 'Συνδρομητές με συγκατάθεση';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_498bed86a7c58dcf1125dd21f40a6482'] = 'Φιλτράρισμα των πελατών που έχουν δεχθεί να λαμβάνουν προσφορές από τους συνεργάτες σας ή όχι.';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_dbb392a2dc9b38722e69f6032faea73e'] = 'Εξαγωγή αρχείου .CSV';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_f6df4ad6dc4798f26d1f2460eef4f2e9'] = 'Αναζήτηση για διευθύνσεις';
