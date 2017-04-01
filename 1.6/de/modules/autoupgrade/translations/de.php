@@ -460,7 +460,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e58eae3d7ced672a49b5716587b1
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5784315a8bcebe79611d3353723e010d'] = 'Glückwunsch, Sie nutzen bereits die aktuellste Version!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_da3cd17bbbbd3ef7da8e817d3c4cdb46'] = 'Sie kommen wohl aus der Zukunft! Ihre Version ist aktueller als die zur Zeit verfügbare!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_762b3814b0c85540ac4be47c7815fc0c'] = 'Ihre aktuelle PrestaShop-Version';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_40cb0f190ec55b9721df3aed84b0b29b'] = 'Letzte offizielle Version im Kanal %1$s';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_40cb0f190ec55b9721df3aed84b0b29b'] = 'Neueste stabile %1$s-Version';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_382b0f5185773fa0f67a8ed8056c7759'] = 'k. A.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7926343e047e18778b6819beb8468086'] = 'Sie nutzen  aktuell Smarty 3';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a9bf52016ab038b62d072d35039a76b4'] = 'Smarty 2 wurde in Version 1.4 meist ignoriert und wird ab Version 1.5 nicht mehr unterstützt. Sie müssen entweder Ihr aktuelles Template upgraden oder ein neues verwenden.';

@@ -229,6 +229,8 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_36d56d20b3894281531cd4108e2c
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_eac34868b4fb511702e53d1405c45454'] = 'Pri aktualizácii databázy došlo k chybe. Možno bude nutné spraviť jej obnovu zo zálohy.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_08ee54c048e1589f4072a351035db2ad'] = 'Databáza bola aktualizovaná. Teraz prebehne aktualizácia Vašich prídavných modulov...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ead14b0273e8d6cae7d146130d4be8f6'] = 'Databáza bola vyčistená.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0bebfc8987ec38d90350bf4ac3e7e391'] = 'Nezabudnite vyprázdniť vyrovnávaciu pamäť (Pokročilé parametre> Výkon> Vyprázdniť vyrovnávaciu pamäť)';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e0ab14f314654aac28f3a3227896079f'] = 'adresár chýba v archíve alebo adresári';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_55c1713f90add7c448328323af0c1b9d'] = 'Nie je možné aktualizovať na túto verziu.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3b8f044559a7568ea572776caf1d6526'] = 'Súbor config/settings.ini.php nebol nájdený.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_22f18bac5d420d7ac5aca37b1afe30c9'] = 'Aktuálna verzia: %1$s. Verzia pre inštaláciu: %2$s.';
@@ -493,7 +495,10 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_017697f698d570dffed5f88a5a93
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d1cf02f3b502ad45947b846659c7774e'] = 'Aktualizovať na PrestaShop %s';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_49c77c6b39fac5ce46832752e6612e9d'] = 'Aktualizované na PrestaShop %s';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b3e205a87c7cf99915d86ffe496f1706'] = 'Migrácia z PrestaShop %s na PrestaShop verziu %s bude mať VEĽKÝ vplyv na váš obchod.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_14eb234037a8860589f68e1f34a55fd8'] = 'Nebudete môcť používať svoju aktuálnu šablónu, moduly a pokročilú správa skladu dovtedy, kým nebude váš obchod aktualizovaný na %s';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_14848bb4861807d41b2ef22f0288f90b'] = 'Skontrolujte, či váš server spĺňa minimálne požiadavky pre inštaláciu:';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ba4e6bdd93c2f0c0e133bb94c27623ad'] = 'Priečinok %s existuje';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_49ed9b3e9429a4ae5f4fc1374e38140d'] = 'Požadované systémové funkcie sú povolené (fopen, file_exists, chmod)';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9a92bff0f2bacca85a22045df0ff05a7'] = 'Funkcia %s je povolená';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_325be51f87717509d7c5b87d45456066'] = 'Rozšírenie %s je povolené';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5061608b21c002a371d190e7143c18c2'] = 'Vaša inštalácia postráda niektoré z minimálnych požiadaviek. Skontrolujte problém a skúste to znova.';
