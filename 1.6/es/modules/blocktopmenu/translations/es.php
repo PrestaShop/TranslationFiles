@@ -51,7 +51,7 @@ $_MODULE['<{blocktopmenu}prestashop>form_3ee3549ff0c93372a730749f784e9438'] = 'P
 $_MODULE['<{blocktopmenu}prestashop>form_e1b11c03820641dd1d1441bf68898d08'] = 'Cambiar posición';
 $_MODULE['<{blocktopmenu}prestashop>form_3713a99a6284e39061bd48069807aa52'] = 'Elementos seleccionados';
 $_MODULE['<{blocktopmenu}prestashop>form_8fb31b552d63ffef9df733646a195bc0'] = 'Artículos disponibles';
-$_MODULE['<{blocktopmenu}prestashop>form_1063e38cb53d94d386f21227fcd84717'] = 'Borrar';
+$_MODULE['<{blocktopmenu}prestashop>form_1063e38cb53d94d386f21227fcd84717'] = 'Eliminar';
 $_MODULE['<{blocktopmenu}prestashop>form_ec211f7c20af43e742bf2570c3cb84f9'] = 'Añadir';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_b61541208db7fa7dba42c85224405911'] = 'Menú';
 

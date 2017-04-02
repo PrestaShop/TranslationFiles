@@ -45,7 +45,7 @@ $_MODULE['<{blockcart}prestashop>crossselling_4351cfebe4b61d8aa5efa1d020710005']
 $_MODULE['<{blockcart}prestashop>crossselling_10ac3d04253ef7e1ddc73e6091c0cd55'] = 'Siguiente';
 $_MODULE['<{blockcart}prestashop>blockcart_03e9618cc6e69fe15a57c7377827a804'] = 'A determinar';
 $_MODULE['<{blockcart}prestashop>blockcart_98b3009e61879600839e1ee486bb3282'] = 'Cerrar Ventana';
-$_MODULE['<{blockcart}prestashop>blockcart_544c3bd0eac526113a9c66542be1e5bc'] = 'Producto añadido correctamente a su carrito de la compra';
+$_MODULE['<{blockcart}prestashop>blockcart_544c3bd0eac526113a9c66542be1e5bc'] = 'Producto añadido correctamente a su carrito de compra';
 $_MODULE['<{blockcart}prestashop>blockcart_694e8d1f2ee056f98ee488bdc4982d73'] = 'Cantidad';
 $_MODULE['<{blockcart}prestashop>blockcart_e5694b7726ceaf2f057e5f06cf86209e'] = 'Hay [1]%d[/1] artículos en su carrito.';
 $_MODULE['<{blockcart}prestashop>blockcart_fc86c43dbffcadc193832a310f7a444a'] = 'Hay 1 artículo en su carrito.';

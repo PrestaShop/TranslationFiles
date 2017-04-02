@@ -16,7 +16,7 @@ $_MODULE['<{sendtoafriend}prestashop>sendtoafriend-extra_bb6aa0be8236a10e6d3b315
 $_MODULE['<{sendtoafriend}prestashop>sendtoafriend-extra_099bc8914b5be9e522a29e48cb3c01c4'] = 'E-mail de tu amigo';
 $_MODULE['<{sendtoafriend}prestashop>sendtoafriend-extra_70397c4b252a5168c5ec003931cea215'] = 'Campos obligatorios';
 $_MODULE['<{sendtoafriend}prestashop>sendtoafriend-extra_ea4788705e6873b424c65e91c2846b19'] = 'Cancelar';
-$_MODULE['<{sendtoafriend}prestashop>sendtoafriend-extra_e81c4e4f2b7b93b481e13a8553c2ae1b'] = 'total';
+$_MODULE['<{sendtoafriend}prestashop>sendtoafriend-extra_e81c4e4f2b7b93b481e13a8553c2ae1b'] = 'o';
 $_MODULE['<{sendtoafriend}prestashop>sendtoafriend-extra_94966d90747b97d1f0f206c98a8b1ac3'] = 'Enviar';
 $_MODULE['<{sendtoafriend}prestashop>sendtoafriend_2107f6398c37b4b9ee1e1b5afb5d3b2a'] = 'Enviar a un amigo';
 $_MODULE['<{sendtoafriend}prestashop>sendtoafriend_20589174124c25654cac3736e737d2a3'] = 'Enviar esta página a un amigo al que podía interesarle este artículo.';

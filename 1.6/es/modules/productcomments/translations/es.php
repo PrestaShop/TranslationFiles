@@ -88,7 +88,7 @@ $_MODULE['<{productcomments}prestashop>productcomments_3421ad00975533fbbd5f17d2c
 $_MODULE['<{productcomments}prestashop>productcomments_221e705c06e231636fdbccfdd14f4d5c'] = 'Su nombre';
 $_MODULE['<{productcomments}prestashop>productcomments_70397c4b252a5168c5ec003931cea215'] = 'Campos obligatorios';
 $_MODULE['<{productcomments}prestashop>productcomments_94966d90747b97d1f0f206c98a8b1ac3'] = 'Enviar';
-$_MODULE['<{productcomments}prestashop>productcomments_e81c4e4f2b7b93b481e13a8553c2ae1b'] = 'total';
+$_MODULE['<{productcomments}prestashop>productcomments_e81c4e4f2b7b93b481e13a8553c2ae1b'] = 'o';
 $_MODULE['<{productcomments}prestashop>productcomments_ea4788705e6873b424c65e91c2846b19'] = 'Cancelar';
 $_MODULE['<{productcomments}prestashop>products-comparison_8413c683b4b27cc3f4dbd4c90329d8ba'] = 'Comentarios';
 $_MODULE['<{productcomments}prestashop>products-comparison_b1897515d548a960afe49ecf66a29021'] = 'regular';
