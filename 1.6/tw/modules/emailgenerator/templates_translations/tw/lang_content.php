@@ -182,7 +182,7 @@ $_LANGMAIL['Hi {name},'] = '{name} 您好,';
 $_LANGMAIL['{customer} has sent you a link to a product that (s)he thinks may interest you.'] = '{customer} 向您發送了一個他（她）認為您可能感興趣的商品鏈接。';
 $_LANGMAIL['Click here to view this item:'] = '點擊這裡查看資料：';
 $_LANGMAIL['Order edited'] = '';
-$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = '';
+$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = '您的訂單 <span><strong>{order_name}</strong></span> 已被修改。';
 
 
 return $_LANGMAIL;

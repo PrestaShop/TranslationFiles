@@ -28,7 +28,7 @@ $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_24042b0e4b783724dac4178df
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_7442e29d7d53e549b78d93c46b8cdcfc'] = 'Pedidos';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_247d96cbab5bfc79dff10eb2ce6d8897'] = 'Devueltos/ Intercambios';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_54e85d70ea67acdcc86963b14d6223a8'] = 'Carritos abandonados';
-$_MODULE['<{dashactivity}prestashop>dashboard_zone_one_1c4407dd95b9ef941d30c2838208977e'] = 'Productos agotados';
+$_MODULE['<{dashactivity}prestashop>dashboard_zone_one_1c4407dd95b9ef941d30c2838208977e'] = 'Productos sin existencias';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_a274f4d4670213a9045ce258c6c56b80'] = 'Notificaciones';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_a644e8cd597f2b92aa52861632c0363d'] = 'Nuevos mensajes';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_56d4e9a4c8e9f47549e8129393b3740f'] = 'Revisiones de producto';
