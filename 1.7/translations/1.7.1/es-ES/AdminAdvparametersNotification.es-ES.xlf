@@ -230,19 +230,19 @@ File: controllers/admin/AdminEmployeesController.php:557</note>
       </trans-unit>
       <trans-unit id="b31b8d1d5ad7a1565e1246ca6b3a3c0e" approved="yes">
         <source>Invalid theme</source>
-        <target xml:lang="es-ES">Plantilla inválida</target>
+        <target xml:lang="es-ES">Tema no válido</target>
         <note>Context:
 File: controllers/admin/AdminEmployeesController.php:571</note>
       </trans-unit>
       <trans-unit id="cfe45dd92c1b71a640ea19767578f38c" approved="yes">
         <source>The employee must be associated with at least one shop.</source>
-        <target xml:lang="es-ES">El empleado debe estar asociado con al menos una tienda =</target>
+        <target xml:lang="es-ES">El empleado debe estar asociado con al menos una tienda.</target>
         <note>Context:
 File: controllers/admin/AdminEmployeesController.php:582</note>
       </trans-unit>
       <trans-unit id="57f614f26c41edde41cd72bf5ea2cbd0" approved="yes">
         <source>The password must be at least %s characters long.</source>
-        <target xml:lang="es-ES">La contraseña tiene que tener al menos %s caracteres.</target>
+        <target xml:lang="es-ES">La contraseña debe tener al menos %s caracteres.</target>
         <note>Context:
 File: controllers/admin/AdminEmployeesController.php:598</note>
       </trans-unit>
@@ -306,7 +306,7 @@ File: controllers/admin/AdminImportController.php:718</note>
       </trans-unit>
       <trans-unit id="197f1953efd11637a634a7f9b269eac3" approved="yes">
         <source>To proceed, please upload a file first.</source>
-        <target xml:lang="es-ES">Para continuar, suba antes un archivo.</target>
+        <target xml:lang="es-ES">Para continuar, cargue primero un archivo.</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:4455</note>
       </trans-unit>
@@ -315,6 +315,12 @@ File: controllers/admin/AdminImportController.php:4455</note>
         <target xml:lang="es-ES">Hay una fila vacía en el archivo que no se importará.</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3651</note>
+      </trans-unit>
+      <trans-unit id="7a1bebdbf5770873f8172ecf27b2aa50" approved="yes">
+        <source>The category ID must be unique. It can't be the same as the one for the parent category (ID: %1$s).</source>
+        <target xml:lang="es-ES">El ID de categoría debe ser único. No puede ser el mismo que el de la categoría padre (ID: %1$s).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1295</note>
       </trans-unit>
       <trans-unit id="43bf950e043950e2da10f917b902c131" approved="yes">
         <source>%1$s (ID: %2$s) cannot be saved</source>
@@ -466,15 +472,39 @@ File: controllers/admin/AdminImportController.php:2688</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2701</note>
       </trans-unit>
+      <trans-unit id="9a19980e3db9fa010269bb72d31ee42a" approved="yes">
+        <source>Email address %1$s (ID: %2$s) cannot be saved.</source>
+        <target xml:lang="es-ES">No se puede guardar la dirección de correo electrónico %1$s (ID: %2$s).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3016</note>
+      </trans-unit>
+      <trans-unit id="14118fbc7d8c233f0ac36ffb31716605" approved="yes">
+        <source>%1$s does not exist in database %2$s (ID: %3$s), and therefore cannot be validated</source>
+        <target xml:lang="es-ES">%1$s no existe en la base de datos %2$s (ID: %3$s), y por lo tanto no puede ser validada</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3190</note>
+      </trans-unit>
+      <trans-unit id="597cf702e07f3b35431d2a499b00cefd" approved="yes">
+        <source>%1$s does not exist in database %2$s (ID: %3$s), and therefore cannot be saved</source>
+        <target xml:lang="es-ES">%1$s no existe en la base de datos %2$s (ID: %3$s), y por lo tanto no puede guardarse</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3200</note>
+      </trans-unit>
       <trans-unit id="355aea3f1c2b10f3f82819ef338ecc22" approved="yes">
         <source>"%s" is not a valid email address.</source>
         <target xml:lang="es-ES">"%s" no es una dirección de correo válida.</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3177</note>
       </trans-unit>
+      <trans-unit id="4a69d9da990728e003654d32a0b283a4" approved="yes">
+        <source>The customer ID #%d does not exist in the database, and therefore cannot be validated.</source>
+        <target xml:lang="es-ES">La ID de cliente #%d no existe en la base de datos y, por lo tanto, no se puede validar.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3213</note>
+      </trans-unit>
       <trans-unit id="608ec99cc3ef74d962769c1958a1fa62" approved="yes">
         <source>The customer ID #%d does not exist in the database, and therefore cannot be saved.</source>
-        <target xml:lang="es-ES">La ID nº%d de cliente no existe en la base de datos y, por tanto, no puede guardarse.</target>
+        <target xml:lang="es-ES">La ID de cliente #%d no existe en la base de datos y, por lo tanto, no puede guardarse.</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3221</note>
       </trans-unit>
@@ -498,37 +528,37 @@ File: controllers/admin/AdminImportController.php:3778</note>
       </trans-unit>
       <trans-unit id="6d5030fd40c1e08767b4b70d3786b0fb" approved="yes">
         <source>Supplier ID (%d) is not valid (at line %d).</source>
-        <target xml:lang="es-ES">ID de proveedor (%d) es inválido (línea %d).</target>
+        <target xml:lang="es-ES">La ID de proveedor (%d) no es válida (línea %d).</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3848</note>
       </trans-unit>
       <trans-unit id="0c8476c5f5cdedcf296f6b3c22e0dffb" approved="yes">
         <source>Lang ID (%d) is not valid (at line %d).</source>
-        <target xml:lang="es-ES">Lang ID (%d) es inválido (línea %d).</target>
+        <target xml:lang="es-ES">La ID del idioma (%d) no es válida (línea %d).</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3851</note>
       </trans-unit>
       <trans-unit id="95a6134288586bc854f6793506d00efd" approved="yes">
         <source>Warehouse ID (%d) is not valid (at line %d).</source>
-        <target xml:lang="es-ES">Almacén ID (%d) es inválido (línea %d).</target>
+        <target xml:lang="es-ES">La ID Almacén (%d) no es válida (línea %d).</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3854</note>
       </trans-unit>
       <trans-unit id="8fb2f7240d1cbeb86010e76827af5751" approved="yes">
         <source>Currency ID (%d) is not valid (at line %d).</source>
-        <target xml:lang="es-ES">Moneda (%d) es inválido (línea %d).</target>
+        <target xml:lang="es-ES">La ID Moneda (%d) no es válida (línea %d).</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3857</note>
       </trans-unit>
       <trans-unit id="2eca847eb03cb63596621d5480ca7c24" approved="yes">
         <source>Reference (%s) already exists (at line %d).</source>
-        <target xml:lang="es-ES">Referencia (%s) ya existe (línea %d).</target>
+        <target xml:lang="es-ES">La referencia (%s) ya existe (línea %d).</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3863</note>
       </trans-unit>
       <trans-unit id="f49f836c284f6cc5cc41737dfab70cc2" approved="yes">
         <source>Date format (%s) is not valid (at line %d). It should be: %s.</source>
-        <target xml:lang="es-ES">El formato de fecha (%s) es inválida (en la línea %d). Debe ser: %s.</target>
+        <target xml:lang="es-ES">El formato de fecha (%s) no es válido (en la línea %d). Debe ser: %s.</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3866</note>
       </trans-unit>
@@ -540,13 +570,13 @@ File: controllers/admin/AdminImportController.php:3868</note>
       </trans-unit>
       <trans-unit id="c8d9173d79c5d4c90be6f9daaec5f617" approved="yes">
         <source>Date (%s) cannot be in the past (at line %d). Format: %s.</source>
-        <target xml:lang="es-ES">Fecha (%s) no puede ser en el pasado (línea %d). Formato:%s.</target>
+        <target xml:lang="es-ES">Fecha (%s) no puede ser anterior a la fecha actual (línea %d). Formato:%s.</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3868</note>
       </trans-unit>
       <trans-unit id="8f7627c77b01dc968a9665c0156da405" approved="yes">
         <source>Discount rate (%d) is not valid (at line %d). %s.</source>
-        <target xml:lang="es-ES">Tasa de descuento (%d) no es válido (línea %d). %s.</target>
+        <target xml:lang="es-ES">Tasa de descuento (%d) no es válida (línea %d). %s.</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:4015</note>
       </trans-unit>
@@ -576,31 +606,31 @@ File: controllers/admin/AdminImportController.php:3971</note>
       </trans-unit>
       <trans-unit id="5e063c49ce8203f2ca7a496da24b819e" approved="yes">
         <source>Product/Attribute (%d/%d) cannot be added twice (at line %d).</source>
-        <target xml:lang="es-ES">El producto/atributo (%d/%d) no se puede añadir dos veces(en la línea %d)</target>
+        <target xml:lang="es-ES">El producto/atributo (%d/%d) no se puede añadir dos veces (en la línea %d).</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3989</note>
       </trans-unit>
       <trans-unit id="0a657a7416c29bdc5b134b61b863e7ee" approved="yes">
         <source>Product (%d/%d) is not available for this order (at line %d).</source>
-        <target xml:lang="es-ES">El producto (%d /%d) no está disponible para este pedido (línea %d).</target>
+        <target xml:lang="es-ES">El producto (%d/%d) no está disponible para este pedido (línea %d).</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:4001</note>
       </trans-unit>
       <trans-unit id="ca676c9ec4e1ae9fe9df3ac28910e6ef" approved="yes">
         <source>Unit Price (tax excl.) (%d) is not valid (at line %d).</source>
-        <target xml:lang="es-ES">Precio unitario (impuestos no incluidos) (%d) no es válido (en la línea %d).</target>
+        <target xml:lang="es-ES">Precio unitario (impuestos excluidos) (%d) no es válido (en la línea %d).</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:4008</note>
       </trans-unit>
       <trans-unit id="406eba9770c82a84cae2d6ee3e846a56" approved="yes">
         <source>Quantity Expected (%d) is not valid (at line %d).</source>
-        <target xml:lang="es-ES">Tasa de impuestos (%d) no es válido (en la línea %d). %s.</target>
+        <target xml:lang="es-ES">Tasa de impuestos (%d) no es válida (en la línea %d).</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:4023</note>
       </trans-unit>
       <trans-unit id="243c959202a4f6ce7f1ccba6bc19ff08" approved="yes">
         <source>Cannot read the .CSV file</source>
-        <target xml:lang="es-ES">No se puede leer el archivo csv</target>
+        <target xml:lang="es-ES">No se puede leer el archivo .CSV</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:4112</note>
       </trans-unit>
@@ -612,13 +642,13 @@ File: controllers/admin/AdminImportController.php:4367</note>
       </trans-unit>
       <trans-unit id="d165f0c742c272ed88dc27acc91e2642" approved="yes">
         <source>%s import</source>
-        <target xml:lang="es-ES">%s importar</target>
+        <target xml:lang="es-ES">importar %s</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:4443</note>
       </trans-unit>
       <trans-unit id="02b5205ddff3073efc5c8b5b9cc165ba" approved="yes">
         <source>(from %s to %s)</source>
-        <target xml:lang="es-ES">(de %s para %s)</target>
+        <target xml:lang="es-ES">(desde %s a %s)</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:4445</note>
       </trans-unit>
@@ -688,31 +718,31 @@ File: controllers/admin/AdminInformationController.php:117</note>
       </trans-unit>
       <trans-unit id="9c05ffb08aed8df408a9338efa0de1ce" approved="yes">
         <source>Set write permissions for the "sitemap.xml" file.</source>
-        <target xml:lang="es-ES">Establezca permisos de escritura para el archivo "sitemap.xml".</target>
+        <target xml:lang="es-ES">Establezca permisos de escritura al archivo "sitemap.xml".</target>
         <note>Context:
 File: controllers/admin/AdminInformationController.php:118</note>
       </trans-unit>
       <trans-unit id="515ba9f393d74cfb3a8551b171652f4d" approved="yes">
         <source>Set write permissions for the "img" folder and subfolders.</source>
-        <target xml:lang="es-ES">Active permisos de escritura para la carpeta  "img"  y sus subcarpetas</target>
+        <target xml:lang="es-ES">Establezca permisos de escritura a la carpeta "img" y sus subcarpetas.</target>
         <note>Context:
 File: controllers/admin/AdminInformationController.php:119</note>
       </trans-unit>
       <trans-unit id="5c482561c321c3f8b1ed436afdfab4aa" approved="yes">
         <source>Set write permissions for the "log" folder and subfolders.</source>
-        <target xml:lang="es-ES">Active permisos de escritura para la carpeta "log" y sus subcarpetas</target>
+        <target xml:lang="es-ES">Establezca permisos de escritura a la carpeta "log" y sus subcarpetas.</target>
         <note>Context:
 File: controllers/admin/AdminInformationController.php:120</note>
       </trans-unit>
       <trans-unit id="fea054b13666afb1d5d776afb925d288" approved="yes">
         <source>Set write permissions for the "mails" folder and subfolders.</source>
-        <target xml:lang="es-ES">Active  permisos de escritura para la carpeta  "mails" y sus subcarpetas</target>
+        <target xml:lang="es-ES">Establezca permisos de escritura a la carpeta "mails" y sus subcarpetas.</target>
         <note>Context:
 File: controllers/admin/AdminInformationController.php:121</note>
       </trans-unit>
       <trans-unit id="5a44bd60b36b50f3dafd07404ebce84d" approved="yes">
         <source>Set write permissions for the "modules" folder and subfolders.</source>
-        <target xml:lang="es-ES">Active permisos de escritura para la carpeta "modules" y sus subcarpetas</target>
+        <target xml:lang="es-ES">Establezca permisos de escritura a la carpeta "modules" y sus subcarpetas.</target>
         <note>Context:
 File: controllers/admin/AdminInformationController.php:122</note>
       </trans-unit>
@@ -824,13 +854,13 @@ File: controllers/admin/AdminPerformanceController.php:627</note>
       </trans-unit>
       <trans-unit id="9ad28fef1c6184adfe7397838891ba76" approved="yes">
         <source>The Memcached server cannot be added.</source>
-        <target xml:lang="es-ES">Imposible añadir un servidor Memcache</target>
+        <target xml:lang="es-ES">No se puede añadir el servidor Memcached.</target>
         <note>Context:
 File: controllers/admin/AdminPerformanceController.php:635</note>
       </trans-unit>
       <trans-unit id="bf4ddd37d9f82a3ad1f405891dfaa235" approved="yes">
         <source>There was an error when attempting to delete the Memcached server.</source>
-        <target xml:lang="es-ES">Error en la supresión del servidor Memcached</target>
+        <target xml:lang="es-ES">Se ha producido un error al intentar eliminar el servidor Memcached.</target>
         <note>Context:
 File: controllers/admin/AdminPerformanceController.php:648</note>
       </trans-unit>
@@ -839,6 +869,16 @@ File: controllers/admin/AdminPerformanceController.php:648</note>
         <target xml:lang="es-ES">Para usar la caché Smarty, debe otorgar permisos de escritura al directorio %directorypath%.</target>
         <note>Context:
 File: controllers/admin/AdminPerformanceController.php:704</note>
+      </trans-unit>
+      <trans-unit id="79b2a5e09f30660e30830ffc336ffb7c" approved="yes">
+        <source><![CDATA[Before being able to use this tool, you need to:
+                            <br />- Create a blank .htaccess in your root directory.
+                            <br />- Give it write permissions (CHMOD 666 on Unix system).]]></source>
+        <target xml:lang="es-ES"><![CDATA[Antes de poder utilizar esta herramienta, necesita:
+                            <br />- Crear un archivo .htaccess en blanco en el directorio raíz.                          
+                            <br />- Otorgarle permisos de escritura (CHMOD 666 en sistema Unix).]]></target>
+        <note>Context:
+File: controllers/admin/AdminPerformanceController.php:791</note>
       </trans-unit>
       <trans-unit id="ea030df6cb392bef66cde22c94578ae4" approved="yes">
         <source>Media server #1 is invalid</source>
@@ -976,13 +1016,13 @@ File: controllers/admin/AdminRequestSqlController.php:506</note>
       </trans-unit>
       <trans-unit id="7b4dd672e3b87269079894e693ce9b76" approved="yes">
         <source>When multiple tables are used, each attribute must refer back to a table.</source>
-        <target xml:lang="es-ES">Cuando las tablas se utilizan múltiples, cada atributo debe hacer referencia a una tabla.</target>
+        <target xml:lang="es-ES">Cuando se utilizan varias tablas, cada atributo debe hacer referencia a una tabla.</target>
         <note>Context:
 File: controllers/admin/AdminRequestSqlController.php:514</note>
       </trans-unit>
       <trans-unit id="7e5c57294aa1779581e33d6af9d85600" approved="yes">
         <source>Is an unauthorized keyword.</source>
-        <target xml:lang="es-ES">%s es una palabra clave autorizada.</target>
+        <target xml:lang="es-ES">Es una palabra reservada no autorizada para su utilización.</target>
         <note>Context:
 File: controllers/admin/AdminRequestSqlController.php:523</note>
       </trans-unit>
@@ -1050,6 +1090,12 @@ File: controllers/admin/AdminWebserviceController.php:252</note>
         <note>Context:
 File: controllers/admin/AdminWebserviceController.php:272</note>
       </trans-unit>
+      <trans-unit id="d6305f2f8c5c0f95a367e618a64bb458" approved="yes">
+        <source>Please activate the 'mod_auth_basic' Apache module to allow authentication of PrestaShop's webservice.</source>
+        <target xml:lang="es-ES">Por favor, active el módulo de Apache 'mod_auth_basic' para permitir la autenticación del webservice de Prestashop.</target>
+        <note>Context:
+File: controllers/admin/AdminWebserviceController.php:276</note>
+      </trans-unit>
       <trans-unit id="e11a22a5910f9f84a6630ee78e1a39f5" approved="yes">
         <source>Please activate the 'mod_rewrite' Apache module to allow the PrestaShop webservice.</source>
         <target xml:lang="es-ES">Por favor, active el módulo de Apache 'mod_rewrite' para permitir el webservice Prestashop.</target>
@@ -1070,7 +1116,7 @@ File: controllers/admin/AdminWebserviceController.php:286</note>
       </trans-unit>
       <trans-unit id="0508bbb36fb6b5db31edf2f45cd687ea" approved="yes">
         <source>It is preferable to use SSL (https:) for webservice calls, as it avoids the "man in the middle" type security issues.</source>
-        <target xml:lang="es-ES">Si es posible, es preferible utilizar SSL (https:) para las llamadas a servicios web, ya que se evitan los ataques "man in the middle".</target>
+        <target xml:lang="es-ES">Es preferible utilizar SSL (https:) para las llamadas al webservice, ya que evita los problemas de seguridad del tipo "man in the middle".</target>
         <note>Context:
 File: controllers/admin/AdminWebserviceController.php:289</note>
       </trans-unit>
