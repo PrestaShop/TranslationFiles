@@ -18,6 +18,16 @@ $_MODULE['<{ganalytics}prestashop>ganalytics_b9f5c797ebbf55adccdd8539a65a0241'] 
 $_MODULE['<{ganalytics}prestashop>ganalytics_612e1a524ec979815b12182c34e2daa0'] = 'Το ID του λογαριασμού σας, ενημερώθηκε επιτυχώς';
 $_MODULE['<{ganalytics}prestashop>ganalytics_8e7b67b44506b7ac6685da041a603044'] = 'Οι ρυθμίσεις για το ID χρήστη ενημερώθηκαν επιτυχώς';
 $_MODULE['<{ganalytics}prestashop>configuration_1f13d86a35be758509f9bdfcce5ec55d'] = 'Οι πελάτες πάνε παντού: δεν θα έπρεπε να πηγαίνουν και τα στατιστικά σας.';
+$_MODULE['<{ganalytics}prestashop>configuration_7063e771c3bb338ba74ac4e4716dbae1'] = 'Το Google Analytics σας δείχνει μια πλήρη εικόνα για τον πελάτη μέσα από διαφημίσεις και βίντεο, ιστοσελίδες και εργαλεία κοινωνικής δικτύωσης, tablets και smartphones. Έτσι εξυπηρετείτε τους πελάτες σας ευκολότερα και αποκτάτε καινούργιους.';
+$_MODULE['<{ganalytics}prestashop>configuration_df15c5cf264eb769b087f9d81aff029f'] = 'Με λειτουργικότητα ηλεκτρονικού εμπορίου στο Google Analytics έχετε μια καθαρή εικόνα για τις σημαντικές μετρήσεις που αφορούν τη συμπεριφορά και προσέλκυση αγοραστών, συμπεριλαμβανομένου:';
+$_MODULE['<{ganalytics}prestashop>configuration_613c191b4a1f82a454b72a840d96eefd'] = 'Προβολές αναλυτικής σελίδας προϊόντος';
+$_MODULE['<{ganalytics}prestashop>configuration_d88b192dfe623e2a628a919b99fc1a4b'] = 'Εσωτερική Επιτυχία διακίνησης εμπορεύματος';
+$_MODULE['<{ganalytics}prestashop>configuration_ade6a18bb6c147db87bc9463240e455a'] = 'Ενέργειες "Προσθήκη στο καλάθι"';
+$_MODULE['<{ganalytics}prestashop>configuration_c975b6b93d71b19da73114c4adcedbda'] = 'Η διαδικασία πληρωμής';
+$_MODULE['<{ganalytics}prestashop>configuration_33f50b54625790316b86485ff3e794c4'] = 'Αναζητήσεις εσωτερικής καμπάνιας';
+$_MODULE['<{ganalytics}prestashop>configuration_89c48ff165eedcc3cd1bd0007115669d'] = 'Και αγοράς';
+$_MODULE['<{ganalytics}prestashop>configuration_4632d86a96205013262bcfdd0279b39f'] = 'Οι έμποροι μπορούν να καταλάβουν για πόση διάρκεια οι χρήστες εμπλέκονται στη διαδικασία της αγοράς και ποια στιγμή εγκαταλείπουν.';
+$_MODULE['<{ganalytics}prestashop>configuration_16fafb5cce24f766bf2c8fcebecf76fc'] = 'Δημιουργήστε το λογαριασμό σας για να ξεκινήσετε.';
 $_MODULE['<{ganalytics}prestashop>form-ps14_c9cc8cce247e49bae79f15173ce97354'] = 'Αποθήκευση';
 
 

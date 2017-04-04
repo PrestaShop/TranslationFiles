@@ -26,6 +26,8 @@ $_LANGMAIL['Password query confirmation'] = 'Επιβεβαίωση ερωτήμ
 $_LANGMAIL['Newsletter voucher'] = 'Κουπόνι ενημερωτικού δελτίου';
 $_LANGMAIL['Newsletter confirmation'] = 'Επιβεβαίωση για το newsletter';
 $_LANGMAIL['Email verification'] = 'Επιβεβαίωση email';
+$_LANGMAIL['Your wishlist\'s link'] = 'Ο σύνδεσμος της λίστας επιθυμιών σας';
+$_LANGMAIL['Message from %1$s %2$s'] = 'Μήνυμα από %1$s %2$s';
 $_LANGMAIL['%1$s sent you a link to %2$s'] = 'Ο/Η %1$s σας έστειλε ένα σύνδεσμο για %2$s';
 
 

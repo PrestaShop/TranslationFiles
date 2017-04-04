@@ -215,7 +215,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_41deb3bc122b8e650d7a4758ea95
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b0f289346085535bae89eadc15991f24'] = 'Zostáva aktualizovať %1$s súborov.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_078a325fbcc1dbd50bd9f969ce954965'] = 'Zostáva aktualizovať %2$s súborov.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8994f47952b9b29743e45a72ed30707c'] = 'Nič nebolo rozbalené. Zdá sa, že krok rozbalenia bol preskočený.';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0530243ad5b9bd205a04b975d3ef8aaf'] = '%s moduly budú aktualizované.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0530243ad5b9bd205a04b975d3ef8aaf'] = '%s modulov bude aktualizovaných.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0f786a53b1674815c24679ed64770223'] = 'Krok upgradeModule neskončil úspešne.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_1baa2ea6cee198c6b7f19011431dcc73'] = 'listModules nie je pole. Žiadny modul nebol aktualizovaný.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d88a8630bd4e8fdbd61c550e53d62a94'] = 'Zostáva aktualizovať %s modulov.';
@@ -521,7 +521,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e02d726a7e733ffb7737e53c89be
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c5e0a7b512fd616279924a1396bb0802'] = 'Aktualizácia je kompletná!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f67d595b77c8c85da5434ddf41b840d4'] = 'Aktualizácia bola dokončená, ale boli zaznamenané upozornenia.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a9cb4ff8ba5698ccdc9672435be31d24'] = 'Cookies sa zmenili, po obnovení stránky sa budete musiet znovu prihlásiť';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_546c6a7b5ca345af3880bfc74a339606'] = 'Javascript a CSS súbory sa zmenili, vymažte prosím vyrovnávaciu pamäť prehliadača s CTRL-F5';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_546c6a7b5ca345af3880bfc74a339606'] = 'Javascript a CSS súbory sa zmenili, vymažte prosím vyrovnávaciu pamäť prehliadača s CTRL+F5';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_19ea4327ee1bad0ed94b42a77255f3c6'] = 'Overte prosím, že Vaša grafická šablóna obchodu stále funguje (skúste vytvoriť účet, objednávku...)';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c12803674a35ccc28e5da00a50a84591'] = 'Nezobrazujú sa Vám obrázky produktov? Skúste regenerovať náhľady v Nastavenia > Obrázky';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e27d0a2f9e5caa433fc14667a1a3a15a'] = 'Nezabudnite aktivovať Váš obchod potom, ako všetko skontrolujete!';

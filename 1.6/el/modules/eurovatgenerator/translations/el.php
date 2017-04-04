@@ -21,6 +21,18 @@ $_MODULE['<{eurovatgenerator}prestashop>configure_0f9f2ade08049f7b9300a6ef34949e
 $_MODULE['<{eurovatgenerator}prestashop>configure_29ed28e68b5c3365164aa2e0ccbe57bf'] = 'ΦΠΑ υπάρχει ήδη στο κατάστημά μου';
 $_MODULE['<{eurovatgenerator}prestashop>configure_b0fa79d5e3f6e671af3a8150f86ef60c'] = 'ΦΠΑ δεν υπάρχει - θα δημιουργηθεί';
 $_MODULE['<{eurovatgenerator}prestashop>configure_c9cc8cce247e49bae79f15173ce97354'] = 'Αποθήκευση';
+$_MODULE['<{eurovatgenerator}prestashop>done_bt_7915b6921acab12d7737ea1810379b67'] = 'Όλοι οι φόροι δημιουργήθηκαν. Ένας νέος φορολογικός κανόνας "Ευρωπαϊκός ΦΠΑ εικονικών προϊόντων" είναι πλέον διαθέσιμος.';
+$_MODULE['<{eurovatgenerator}prestashop>done_bt_540fca2a5a01d285cd7509b98646cb14'] = 'Τι πρέπει να κάνω τώρα;';
+$_MODULE['<{eurovatgenerator}prestashop>done_bt_892faeb6b5c1a83d8a8fa51562129449'] = 'Όλοι οι φόροι δημιουργήθηκαν και έχουν συγκεντρωθεί κάτω από το νέο φορολογικό κανόνα "Ευρωπαϊκός ΦΠΑ για εικονικά προϊόντα".';
+$_MODULE['<{eurovatgenerator}prestashop>done_bt_e745e205828c0cddc2616ac37d06f35c'] = 'Πρέπει να αναθέσετε το νέο φορολογικό κανόνα στα εικονικά προϊόντα που αφορά.';
+$_MODULE['<{eurovatgenerator}prestashop>done_bt_2ef23860578d16db7a13ba8131362bba'] = 'Μπορείτε να διαγράψετε το πρόσθετο με ασφάλεια.';
+$_MODULE['<{eurovatgenerator}prestashop>done_bt_05da7f6548358c48a37680f8c8845811'] = 'Πηγαίνετε στον Κατάλογο';
+$_MODULE['<{eurovatgenerator}prestashop>done_7915b6921acab12d7737ea1810379b67'] = 'Όλοι οι φόροι δημιουργήθηκαν. Ένας νέος φορολογικός κανόνας "Ευρωπαϊκός ΦΠΑ για εικονικά προϊόντα" είναι πλέον διαθέσιμος.';
+$_MODULE['<{eurovatgenerator}prestashop>done_540fca2a5a01d285cd7509b98646cb14'] = 'Τι πρέπει να κάνω τώρα;';
+$_MODULE['<{eurovatgenerator}prestashop>done_892faeb6b5c1a83d8a8fa51562129449'] = 'Όλοι οι φόροι έχουν δημιουργηθεί και συγκεντρώθηκαν κάτω από ένα νέο φορολογικό κανόνα "Ευρωπαϊκός ΦΠΑ εικονικών προϊόντων".';
+$_MODULE['<{eurovatgenerator}prestashop>done_e745e205828c0cddc2616ac37d06f35c'] = 'Πρέπει να αναθέσετε το νέο φορολογικό κανόνα στα εικονικά προϊόντα που αφορά.';
+$_MODULE['<{eurovatgenerator}prestashop>done_2ef23860578d16db7a13ba8131362bba'] = 'Μπορείτε να διαγράψετε το πρόσθετο με ασφάλεια.';
+$_MODULE['<{eurovatgenerator}prestashop>done_05da7f6548358c48a37680f8c8845811'] = 'Πηγαίνετε στον Κατάλογο';
 
 
 return $_MODULE;

@@ -17,6 +17,7 @@ $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_b51d73fb490ad12
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_67ebed7cf9667003ad2047609440513a'] = 'Εμφάνιση στην περιοχή πελατών';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_fc67768369eadd8d4fb1e7839f5eae69'] = 'Μήνυμα απορρήτου δεδομένων πελάτη για την περιοχή πελατών:';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_432d64c20d5d06378d96c247c3f358f4'] = 'Το μήνυμα προστασίας προσωπικών δεδομένων θα προβληθεί στην σελίδα "Προσωπικές πληροφορίες", στην περιοχή πελατών.';
+$_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_de1126ae0ac67eb4fda28cfad8429c79'] = 'Συμβουλή: Εάν το μήνυμα προσωπικών δεδομένων πελάτη είναι πολύ μεγάλο για να γραφτεί κατ\' ευθείαν στη φόρμα, μπορείτε να προσθέσετε ένα σύνδεσμο σε μια από τις σελίδες σας. Αυτό μπορεί να δημιουργηθεί εύκολα μέσω της σελίδας "CMS" στο μενού "Προτιμήσεις".';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_c9cc8cce247e49bae79f15173ce97354'] = 'Αποθήκευση';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_fb0440f9ca32a8b49eded51b09e70821'] = 'Προστασία προσωπικών δεδομένων πελατών';
 

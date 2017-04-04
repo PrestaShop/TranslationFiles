@@ -14,7 +14,7 @@ $_MODULE['<{dashtrends}prestashop>dashtrends_d7e637a6e9ff116de2fa89551240a94d'] 
 $_MODULE['<{dashtrends}prestashop>dashtrends_e4c3da18c66c0147144767efeb59198f'] = 'Τιμή Μετατροπής';
 $_MODULE['<{dashtrends}prestashop>dashtrends_43d729c7b81bfa5fc10e756660d877d1'] = 'Καθαρό Κέρδος';
 $_MODULE['<{dashtrends}prestashop>dashtrends_46418a037045b91e6715c4da91a2a269'] = '%s (προηγούμενη περίοδος)';
-$_MODULE['<{dashtrends}prestashop>dashboard_zone_two_2938c7f7e560ed972f8a4f68e80ff834'] = 'Πίνακας εργαλείων';
+$_MODULE['<{dashtrends}prestashop>dashboard_zone_two_2938c7f7e560ed972f8a4f68e80ff834'] = 'Επισκόπηση';
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_f1206f9fadc5ce41694f69129aecac26'] = 'Διαμόρφωση';
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_63a6a88c066880c5ac42394a22803ca6'] = 'Ανανέωση';
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_e537825dd409a90ef70d8c2eb56122a1'] = 'Το άθροισμα των εσόδων (χωρίς ΦΠΑ) που παράχθηκε στα ημερολογιακά όρια από παραγγελίες θεωρείται εγκεκριμένο.';
