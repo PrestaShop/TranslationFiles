@@ -16,7 +16,7 @@ $_MODULE['<{bankwire}prestashop>bankwire_5dd532f0a63d89c5af0243b74732f63c'] = 'D
 $_MODULE['<{bankwire}prestashop>bankwire_857216dd1b374de9bf54068fcd78a8f3'] = 'Propietario de la Cuenta';
 $_MODULE['<{bankwire}prestashop>bankwire_3ec365dd533ddb7ef3d1c111186ce872'] = 'Detalles';
 $_MODULE['<{bankwire}prestashop>bankwire_6b154cafbab54ba3a1e76a78c290c02a'] = 'Tal cÃ³mo: Sucursal Bancaria, cÃ³digo IBAN, BIC, etc..';
-$_MODULE['<{bankwire}prestashop>bankwire_f9a1a1bb716cbae0503d351ea2af4b34'] = 'DirecciÃ³n de la agencia bancaria';
+$_MODULE['<{bankwire}prestashop>bankwire_f9a1a1bb716cbae0503d351ea2af4b34'] = 'Dirección de la agencia bancaria';
 $_MODULE['<{bankwire}prestashop>bankwire_c9cc8cce247e49bae79f15173ce97354'] = 'Guardar';
 $_MODULE['<{bankwire}prestashop>validation_e2b7dec8fa4b498156dfee6e4c84b156'] = 'Esta forma de pago no está disponible.';
 $_MODULE['<{bankwire}prestashop>payment_execution_644818852b4dd8cf9da73543e30f045a'] = 'Volver al Pedido';
@@ -32,7 +32,7 @@ $_MODULE['<{bankwire}prestashop>payment_execution_1f87346a16cf80c372065de3c54c86
 $_MODULE['<{bankwire}prestashop>payment_execution_b28be4c423d93e02081f4e79fe2434e8'] = 'Aceptamos varias monedas por transferencia bancaria';
 $_MODULE['<{bankwire}prestashop>payment_execution_a7a08622ee5c8019b57354b99b7693b2'] = 'Elija una de las siguientes:';
 $_MODULE['<{bankwire}prestashop>payment_execution_a854d894458d66d92cabf0411c499ef4'] = 'Aceptamos las siguientes monedas para transferencia bancaria:';
-$_MODULE['<{bankwire}prestashop>payment_execution_3dd021316505c0204989f984246c6ff1'] = 'La informaciÃ³n para realizar la transferencia bancaria se mostrarÃ¡ en la siguiente pÃ¡gina.';
+$_MODULE['<{bankwire}prestashop>payment_execution_3dd021316505c0204989f984246c6ff1'] = 'La información para realizar la transferencia bancaria se mostrará en la siguiente página.';
 $_MODULE['<{bankwire}prestashop>payment_execution_edd87c9059d88fea45c0bd6384ce92b9'] = 'Por favor, confirme su pedido haciendo clic en "Confirmo mi pedido".';
 $_MODULE['<{bankwire}prestashop>payment_execution_46b9e3665f187c739c55983f757ccda0'] = 'Confirmo mi pedido';
 $_MODULE['<{bankwire}prestashop>payment_execution_569fd05bdafa1712c4f6be5b153b8418'] = 'Otros mÃ©todos de pago';
@@ -47,7 +47,7 @@ $_MODULE['<{bankwire}prestashop>payment_return_d717aa33e18263b8405ba00e94353cdc'
 $_MODULE['<{bankwire}prestashop>payment_return_984482eb9ff11e6310fef641d2268a2a'] = 'a este banco';
 $_MODULE['<{bankwire}prestashop>payment_return_bb4ec5aac6864a05fcc220cccd8e82f9'] = 'No olvide incluir su número de pedido #%d en el concepto de su transferencia bancaria.';
 $_MODULE['<{bankwire}prestashop>payment_return_1faa25b80a8d31e5ef25a78d3336606d'] = 'No olvide insertar su número de pedido %s en el comentario de su transferencia bancaria.';
-$_MODULE['<{bankwire}prestashop>payment_return_19c419a8a4f1cd621853376a930a2e24'] = 'Un email se le ha enviado con toda esta informaciÃ³n.';
+$_MODULE['<{bankwire}prestashop>payment_return_19c419a8a4f1cd621853376a930a2e24'] = 'Un email se le ha enviado con toda esta información.';
 $_MODULE['<{bankwire}prestashop>payment_return_b9a1cae09e5754424e33764777cfcaa0'] = 'Su pedido serÃ¡ enviado proximamente, en cuanto recibamos su pago.';
 $_MODULE['<{bankwire}prestashop>payment_return_ca7e41a658753c87973936d7ce2429a8'] = 'Para otras dudas, por favor contacte con nosotros';
 $_MODULE['<{bankwire}prestashop>payment_return_66fcf4c223bbf4c7c886d4784e1f62e4'] = 'equipo experto de soporte al vendedor';

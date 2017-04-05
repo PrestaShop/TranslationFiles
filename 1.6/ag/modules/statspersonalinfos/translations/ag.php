@@ -3,7 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_1b94af23fd8ea879910a6307460ebba4'] = 'InformaciÃ³n de clientes registrados';
+$_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_1b94af23fd8ea879910a6307460ebba4'] = 'Información de clientes registrados';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_b0cb4ea4e89c2107cb100be8417fd94e'] = 'Añade información acerca del registro de clientes (como género y edad) al panel de control de estadísticas.';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_6602bbeb2956c035fb4cb5e844a4861b'] = 'Guia';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_3ca26e413e485538a7f3e610c0324636'] = 'Seleccione su objetivo';

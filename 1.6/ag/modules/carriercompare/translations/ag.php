@@ -9,7 +9,7 @@ $_MODULE['<{carriercompare}prestashop>carriercompare_46a2a41cc6e552044816a2d0463
 $_MODULE['<{carriercompare}prestashop>carriercompare_c6e2a9b2d1979c244d18c7e9fbf9a86f'] = 'Zip/código postal';
 $_MODULE['<{carriercompare}prestashop>carriercompare_9207f4078f515ecc8256bae33fa1f497'] = 'Necesario para algunos transportistas.';
 $_MODULE['<{carriercompare}prestashop>carriercompare_914419aa32f04011357d3b604a86d7eb'] = 'Transporte';
-$_MODULE['<{carriercompare}prestashop>carriercompare_a82be0f551b8708bc08eb33cd9ded0cf'] = 'InformaciÃ³n';
+$_MODULE['<{carriercompare}prestashop>carriercompare_a82be0f551b8708bc08eb33cd9ded0cf'] = 'Información';
 $_MODULE['<{carriercompare}prestashop>carriercompare_3601146c4e948c32b6424d2c0a7f0118'] = 'Precio';
 $_MODULE['<{carriercompare}prestashop>carriercompare_568ee69520d3299f2f0ea64d501b6f50'] = 'Ningun transportista está disponible para esta selección.';
 $_MODULE['<{carriercompare}prestashop>carriercompare_1de0f9fcbe30b056483fe964aed55adc'] = 'Actualizar carrito';

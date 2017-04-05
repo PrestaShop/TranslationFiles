@@ -4,7 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{blockuserinfo}prestashop>blockuserinfo_a2e9cd952cda8ba167e62b25a496c6c1'] = 'Bloque informaciÃ³n personal';
-$_MODULE['<{blockuserinfo}prestashop>blockuserinfo_970a31aa19d205f92ccfd1913ca04dc0'] = 'AÃ±adir un bloque que muestra la informaciÃ³n acerca del cliente';
+$_MODULE['<{blockuserinfo}prestashop>blockuserinfo_970a31aa19d205f92ccfd1913ca04dc0'] = 'Añadir un bloque que muestra la información acerca del cliente.';
 $_MODULE['<{blockuserinfo}prestashop>blockuserinfo_0c3bf3014aafb90201805e45b5e62881'] = 'Ver mi carrito de compra';
 $_MODULE['<{blockuserinfo}prestashop>blockuserinfo_a85eba4c6c699122b2bb1387ea4813ad'] = 'Carrito:';
 $_MODULE['<{blockuserinfo}prestashop>blockuserinfo_deb10517653c255364175796ace3553f'] = 'producto';
