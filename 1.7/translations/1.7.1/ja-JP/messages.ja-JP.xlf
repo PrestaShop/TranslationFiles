@@ -200,7 +200,7 @@ File: classes/controller/AdminController.php:611</note>
       </trans-unit>
       <trans-unit id="ef61fb324d729c341ea8ab9901e23566" approved="yes">
         <source>Add new</source>
-        <target xml:lang="ja">新しく追加</target>
+        <target xml:lang="ja">新規注文作成</target>
         <note>Context:
 File: classes/controller/AdminController.php:1612</note>
       </trans-unit>
@@ -358,6 +358,12 @@ File: controllers/admin/AdminProductsController.php:2133</note>
         <note>Context:
 File: controllers/admin/AdminProductsController.php:2386
  Comment: Generate category selection tree</note>
+      </trans-unit>
+      <trans-unit id="32f5ab98d118dec22d70e3f3014d9fbd" approved="yes">
+        <source>Out of stock items</source>
+        <target xml:lang="ja">在庫切れ商品</target>
+        <note>Context:
+File: controllers/admin/AdminProductsController.php:2415</note>
       </trans-unit>
       <trans-unit id="93dbb4ffa741235309f52fe0b0901d44" approved="yes">
         <source>Your product will be saved as a draft.</source>
@@ -994,6 +1000,30 @@ File: admin-dev/themes/default/template/controllers/groups/helpers/view/view.tpl
         <note>Context:
 File: admin-dev/themes/default/template/controllers/groups/helpers/view/view.tpl:44</note>
       </trans-unit>
+      <trans-unit id="a1e7379abfdbc3b8e03506e5489c6110" approved="yes">
+        <source>Discount:</source>
+        <target xml:lang="ja">割引：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/groups/helpers/view/view.tpl:36</note>
+      </trans-unit>
+      <trans-unit id="734d291b0d07bae874a51370a032312e" approved="yes">
+        <source>Discount: %.2f%%</source>
+        <target xml:lang="ja">割引：%.2f%%</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/groups/helpers/view/view.tpl:71</note>
+      </trans-unit>
+      <trans-unit id="2dc9a383d693a2ded8b1ef832926ea93" approved="yes">
+        <source>Price display method:</source>
+        <target xml:lang="ja">価格の表示方法：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/groups/helpers/view/view.tpl:40</note>
+      </trans-unit>
+      <trans-unit id="02d29656d8379684796b01abfd2a9a13" approved="yes">
+        <source>Show prices:</source>
+        <target xml:lang="ja">価格を表示：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/groups/helpers/view/view.tpl:48</note>
+      </trans-unit>
       <trans-unit id="4845f30b0c12e9dd97246f5f443338ad" approved="yes">
         <source>Current category discount</source>
         <target xml:lang="ja">現在のカテゴリ割引：</target>
@@ -1005,6 +1035,18 @@ File: admin-dev/themes/default/template/controllers/groups/helpers/view/view.tpl
         <target xml:lang="ja">このお客様グループのメンバー</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/groups/helpers/view/view.tpl:82</note>
+      </trans-unit>
+      <trans-unit id="638dab2652b5c9fec7eeee0c8a12431b" approved="yes">
+        <source>Limited to the first 100 customers.</source>
+        <target xml:lang="ja">はじめの100名のメンバーしか表示しておりません。</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/groups/helpers/view/view.tpl:83</note>
+      </trans-unit>
+      <trans-unit id="3744cbfc625e57d0ac639f162dba21c1" approved="yes">
+        <source>Please use filters to narrow your search.</source>
+        <target xml:lang="ja">対象者を探す場合は検索条件をご利用ください。</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/groups/helpers/view/view.tpl:83</note>
       </trans-unit>
     </body>
   </file>
@@ -1604,9 +1646,21 @@ File: admin-dev/themes/default/template/controllers/orders/form.tpl:1461</note>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/form.tpl:1057</note>
       </trans-unit>
+      <trans-unit id="28a996f23ec7c4f6cf75da6bf30670bd" approved="yes">
+        <source>Search for an existing customer by typing the first letters of his/her name.</source>
+        <target xml:lang="ja">登録されている顧客を名前の前方一致で検索します。</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/form.tpl:1107</note>
+      </trans-unit>
+      <trans-unit id="eeddc7284795f5c71b12156c06e9e821" approved="yes">
+        <source>Search for a customer</source>
+        <target xml:lang="ja">既存顧客から検索</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/form.tpl:1108</note>
+      </trans-unit>
       <trans-unit id="257630448a4acd9cfc1ce6c7a5ce05f3" approved="yes">
         <source>Add new customer</source>
-        <target xml:lang="ja">新しいお客様を追加</target>
+        <target xml:lang="ja">新規顧客登録</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/form.tpl:1125</note>
       </trans-unit>
@@ -2177,7 +2231,7 @@ File: controllers/admin/AdminStockConfigurationController.php:631</note>
     <body>
       <trans-unit id="ec53a8c4f07baed5d8825072c89799be" approved="yes">
         <source>Status</source>
-        <target xml:lang="ja">ステータス</target>
+        <target xml:lang="ja">注文ステータス</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:1277</note>
       </trans-unit>
@@ -2195,7 +2249,7 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
       </trans-unit>
       <trans-unit id="b2f40690858b404ed10e62bdf422c704" approved="yes">
         <source>Amount</source>
-        <target xml:lang="ja">額</target>
+        <target xml:lang="ja">金額</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:1280</note>
       </trans-unit>
@@ -2210,6 +2264,12 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
         <target xml:lang="ja">商品</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:894</note>
+      </trans-unit>
+      <trans-unit id="96b0141273eabab320119c467cdcaf17" approved="yes">
+        <source>Total</source>
+        <target xml:lang="ja">合計金額</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:1115</note>
       </trans-unit>
       <trans-unit id="9d5bf15117441a1b52eb1f0808e4aad3" approved="yes">
         <source>Discounts</source>
@@ -2231,7 +2291,7 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
       </trans-unit>
       <trans-unit id="c453a4b8e8d98e82f35b67f433e3b4da" approved="yes">
         <source>Payment</source>
-        <target xml:lang="ja">お支払い</target>
+        <target xml:lang="ja">支払い</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:397</note>
       </trans-unit>
@@ -2279,7 +2339,7 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
       </trans-unit>
       <trans-unit id="f8a09f634b7b3ede2da34607da2aaebe" approved="yes">
         <source>Available quantity</source>
-        <target xml:lang="ja">使用可能な数量</target>
+        <target xml:lang="ja">有効在庫数</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:931</note>
       </trans-unit>
@@ -2297,7 +2357,7 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
       </trans-unit>
       <trans-unit id="ea9cf7e47ff33b2be14e6dd07cbcefc6" approved="yes">
         <source>Shipping</source>
-        <target xml:lang="ja">送料</target>
+        <target xml:lang="ja">配送</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:1092</note>
       </trans-unit>
@@ -2333,13 +2393,13 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
       </trans-unit>
       <trans-unit id="a240fa27925a635b08dc28c9e4f9216d" approved="yes">
         <source>Order</source>
-        <target xml:lang="ja">注文</target>
+        <target xml:lang="ja">注文概要</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:109</note>
       </trans-unit>
       <trans-unit id="01abfc750a0c942167651c40d088531d" approved="yes">
         <source>#</source>
-        <target xml:lang="ja">番号</target>
+        <target xml:lang="ja">番号：</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:584</note>
       </trans-unit>
@@ -2357,7 +2417,7 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
       </trans-unit>
       <trans-unit id="f8246f1c2cfd9a81a376223428bd09d7" approved="yes">
         <source>No invoice</source>
-        <target xml:lang="ja">請求書がありません</target>
+        <target xml:lang="ja">請求書はありません</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:138</note>
       </trans-unit>
@@ -2369,7 +2429,7 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
       </trans-unit>
       <trans-unit id="a6181ae0a3e0370de94efa64782a6e79" approved="yes">
         <source>No delivery slip</source>
-        <target xml:lang="ja">出荷伝票がありません</target>
+        <target xml:lang="ja">出荷伝票はありません</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:150</note>
       </trans-unit>
@@ -2397,21 +2457,15 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:1232</note>
       </trans-unit>
-      <trans-unit id="f28128b38efbc6134dc40751ee21fd29" approved="yes">
-        <source>Documents</source>
-        <target xml:lang="ja">ドキュメント</target>
-        <note>Context:
-File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:258</note>
-      </trans-unit>
       <trans-unit id="979640f579db842e61902ca061153965" approved="yes">
         <source>Merchandise Returns</source>
-        <target xml:lang="ja">商品返品</target>
+        <target xml:lang="ja">返品</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:324</note>
       </trans-unit>
       <trans-unit id="1a747e98fba823d6be62189cbac46dcb" approved="yes">
         <source>Recycled packaging</source>
-        <target xml:lang="ja">リサイクルパッケージ：</target>
+        <target xml:lang="ja">リサイクルパッケージ</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:311</note>
       </trans-unit>
@@ -2469,6 +2523,12 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:479</note>
       </trans-unit>
+      <trans-unit id="de78da3154b793d64d302db27e65baec" approved="yes">
+        <source>No payment methods are available</source>
+        <target xml:lang="ja">利用可能な支払い方法がありません</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:493</note>
+      </trans-unit>
       <trans-unit id="f9a5775d7def0b6c57393fc86bb7a730" approved="yes">
         <source>Do not forget to update your exchange rate before making this change.</source>
         <target xml:lang="ja">この変更を行う前に、為替レートの更新をしてください。</target>
@@ -2493,23 +2553,35 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:595</note>
       </trans-unit>
+      <trans-unit id="6a7bac4a86e299a2718b9d2c7c8aaea9" approved="yes">
+        <source>Account registered</source>
+        <target xml:lang="ja">顧客登録日時</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:606</note>
+      </trans-unit>
       <trans-unit id="d53b54a2bdbf970c70b7de7de4f6021f" approved="yes">
         <source>Valid orders placed</source>
-        <target xml:lang="ja">受け付けた有効な注文：</target>
+        <target xml:lang="ja">有効な注文件数：</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:608</note>
-      </trans-unit>
-      <trans-unit id="8a8ece2eaecf6b5771d66434212e060d" approved="yes">
-        <source>Total spent since registration</source>
-        <target xml:lang="ja">登録してからの支払い合計：</target>
-        <note>Context:
-File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:610</note>
       </trans-unit>
       <trans-unit id="85fb93a8ee9440499692da24a1621769" approved="yes">
         <source>APE</source>
         <target xml:lang="ja">APE：</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:615</note>
+      </trans-unit>
+      <trans-unit id="5d9fe8726be08b6e26a0c05319590b01" approved="yes">
+        <source>View full details...</source>
+        <target xml:lang="ja">顧客の詳細情報を表示...</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:624</note>
+      </trans-unit>
+      <trans-unit id="66dc0eb61ab4157d6170494e6841a77a" approved="yes">
+        <source>Private note</source>
+        <target xml:lang="ja">社内メモ</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:629</note>
       </trans-unit>
       <trans-unit id="601d8c4b9f72fc1862013c19b677a499" approved="yes">
         <source>Invoice address</source>
@@ -2531,7 +2603,7 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
       </trans-unit>
       <trans-unit id="2ab74fb771ac34b95b1657895282d5d9" approved="yes">
         <source>Choose a standard message</source>
-        <target xml:lang="ja">標準メッセージを選択</target>
+        <target xml:lang="ja">メッセージのテンプレートを選択</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:823</note>
       </trans-unit>
@@ -2541,11 +2613,23 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:825</note>
       </trans-unit>
+      <trans-unit id="a76e7775f5454953c7152f5160e75182" approved="yes">
+        <source>Configure predefined messages</source>
+        <target xml:lang="ja">メッセージテンプレートの編集</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:833</note>
+      </trans-unit>
       <trans-unit id="b7623e931f082f027293f27dbfe7a8ea" approved="yes">
         <source>Display to customer?</source>
         <target xml:lang="ja">お客様に表示しますか？</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:841</note>
+      </trans-unit>
+      <trans-unit id="747c6a3564774149c989884e0c581d53" approved="yes">
+        <source>Send message</source>
+        <target xml:lang="ja">メッセージ送信</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:869</note>
       </trans-unit>
       <trans-unit id="a2eda4e1c4dfc9bade7150b878c57a46" approved="yes">
         <source>Show all messages</source>
@@ -2633,7 +2717,7 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
       </trans-unit>
       <trans-unit id="ef5f330df17f8c955005c26466c2463c" approved="yes">
         <source>Merchandise returns are disabled</source>
-        <target xml:lang="ja">商品返品は無効</target>
+        <target xml:lang="ja">商品の返品は無効</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:999</note>
       </trans-unit>
@@ -3930,7 +4014,7 @@ File: admin-dev/themes/default/template/controllers/cart_rules/actions.tpl:201</
     <body>
       <trans-unit id="689202409e48743b914713f96d93947c" approved="yes">
         <source>Value</source>
-        <target xml:lang="ja">値</target>
+        <target xml:lang="ja">設定値</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/supply_orders/helpers/view/view.tpl:78</note>
       </trans-unit>
@@ -4482,7 +4566,7 @@ File: admin-dev/themes/default/template/helpers/list/list_footer.tpl:37</note>
       </trans-unit>
       <trans-unit id="237c7b6874386141a095e321c9fdfd38" approved="yes">
         <source>Unselect all</source>
-        <target xml:lang="ja">すべての選択解除</target>
+        <target xml:lang="ja">すべて選択解除</target>
         <note>Context:
 File: admin-dev/themes/default/template/helpers/list/list_footer.tpl:42</note>
       </trans-unit>
@@ -5739,15 +5823,9 @@ File: admin-dev/themes/default/template/controllers/orders/_customized_data.tpl:
     <body>
       <trans-unit id="adaaee4b22041c27198d410c68d952c9" approved="yes">
         <source>Percent</source>
-        <target xml:lang="ja">パーセント</target>
+        <target xml:lang="ja">パーセント指定</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/_discount_form.tpl:42</note>
-      </trans-unit>
-      <trans-unit id="4d734cc32a5cac86597621969696baa8" approved="yes">
-        <source>This value must include taxes.</source>
-        <target xml:lang="ja">この値は税が含まれている必要があります。</target>
-        <note>Context:
-File: admin-dev/themes/default/template/controllers/orders/_discount_form.tpl:62</note>
       </trans-unit>
       <trans-unit id="41953cbf836297b3c96b137a2b789ccb" approved="yes">
         <source>Apply on all invoices</source>
@@ -5767,13 +5845,13 @@ File: admin-dev/themes/default/template/controllers/orders/_discount_form.tpl:92
     <body>
       <trans-unit id="0945359809dad1fbf3dea1c95a0da951" approved="yes">
         <source>Document</source>
-        <target xml:lang="ja">ドキュメント</target>
+        <target xml:lang="ja">伝票</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/_documents.tpl:33</note>
       </trans-unit>
       <trans-unit id="b2ee912b91d69b435159c7c3f6df7f5f" approved="yes">
         <source>Number</source>
-        <target xml:lang="ja">数</target>
+        <target xml:lang="ja">伝票番号</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/_documents.tpl:36</note>
       </trans-unit>
@@ -5833,7 +5911,7 @@ File: admin-dev/themes/default/template/controllers/orders/_documents.tpl:141</n
       </trans-unit>
       <trans-unit id="80cb34a90bc2178e9219ccc4ab106867" approved="yes">
         <source>Generate invoice</source>
-        <target xml:lang="ja">請求書を生成</target>
+        <target xml:lang="ja">請求書を作成</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/_documents.tpl:170</note>
       </trans-unit>

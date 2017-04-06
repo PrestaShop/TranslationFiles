@@ -2,13 +2,20 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="classes/lang/ConfigurationLang.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="d1d2f5672327bcdef75062dc70e875df" approved="yes">
+        <source>#IN</source>
+        <target xml:lang="ja">PS#-</target>
+        <note>Context:
+File: classes/lang/ConfigurationLang.php:54
+ Comment: PS_INVOICE_PREFIX on configuration_lang table</note>
+      </trans-unit>
+      <trans-unit id="b13c095eb3e41264a7b64504fa8348be" approved="yes">
+        <source>#DE</source>
+        <target xml:lang="ja">RE#-</target>
+        <note>Context:
+File: classes/lang/ConfigurationLang.php:58
+ Comment: PS_DELIVERY_PREFIX on configuration_lang table</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/lang/ContactLang.php" source-language="en" target-language="ja" datatype="plaintext">
@@ -27,11 +34,17 @@
   </file>
   <file original="classes/lang/GroupLang.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      <trans-unit id="ce26601dac0dea138b7295f02b7620a7" approved="yes">
-        <source>Customer</source>
-        <target xml:lang="ja">お客様</target>
+      <trans-unit id="c9fb01bb38360f1f3f595b7ccf3d3abe" approved="yes">
+        <source>Visitor</source>
+        <target xml:lang="ja">ビジター</target>
         <note>Context:
-File: classes/lang/GroupLang.php:42</note>
+File: classes/lang/GroupLang.php:40</note>
+      </trans-unit>
+      <trans-unit id="adb831a7fdd83dd1e2a309ce7591dff8" approved="yes">
+        <source>Guest</source>
+        <target xml:lang="ja">ゲスト</target>
+        <note>Context:
+File: classes/lang/GroupLang.php:41</note>
       </trans-unit>
     </body>
   </file>
@@ -53,11 +66,23 @@ File: controllers/admin/AdminContactsController.php:86</note>
   </file>
   <file original="controllers/admin/AdminCustomerPreferencesController.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
+      <trans-unit id="a7ddcecde44eba59d425762fcdeec665" approved="yes">
+        <source>Re-display cart at login</source>
+        <target xml:lang="ja">ログイン時にカート情報を復元</target>
+        <note>Context:
+File: controllers/admin/AdminCustomerPreferencesController.php:46</note>
+      </trans-unit>
       <trans-unit id="fcae2ef516600f29ac9aa4b084981328" approved="yes">
         <source>Send an email after registration</source>
         <target xml:lang="ja">登録後、メールを送信</target>
         <note>Context:
 File: controllers/admin/AdminCustomerPreferencesController.php:53</note>
+      </trans-unit>
+      <trans-unit id="9ca2e29ab10b2046b32dea40f4e5c232" approved="yes">
+        <source>Password reset delay</source>
+        <target xml:lang="ja">パスワード再リセット間隔</target>
+        <note>Context:
+File: controllers/admin/AdminCustomerPreferencesController.php:60</note>
       </trans-unit>
       <trans-unit id="640fd0cc0ffa0316ae087652871f4486" approved="yes">
         <source>minutes</source>
@@ -67,14 +92,32 @@ File: controllers/admin/AdminCustomerPreferencesController.php:66</note>
       </trans-unit>
       <trans-unit id="c760118c537146713521758269a44bd3" approved="yes">
         <source>Enable B2B mode</source>
-        <target xml:lang="ja">B2Bモードを有効</target>
+        <target xml:lang="ja">B2B モードを有効にする</target>
         <note>Context:
 File: controllers/admin/AdminCustomerPreferencesController.php:69</note>
+      </trans-unit>
+      <trans-unit id="206eb58d11008493682f88ade130850a" approved="yes">
+        <source>Ask for birthdate</source>
+        <target xml:lang="ja">誕生日を要求</target>
+        <note>Context:
+File: controllers/admin/AdminCustomerPreferencesController.php:76</note>
+      </trans-unit>
+      <trans-unit id="a5e968e6a3689ca07bbdbecb6b0710ff" approved="yes">
+        <source>Enable partner offers</source>
+        <target xml:lang="ja">パートナー申請を有効にする</target>
+        <note>Context:
+File: controllers/admin/AdminCustomerPreferencesController.php:83</note>
       </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminGendersController.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
+      <trans-unit id="5e74f2daf4ae8030571ceee5b4837579" approved="yes">
+        <source>Social title</source>
+        <target xml:lang="ja">タイトル</target>
+        <note>Context:
+File: controllers/admin/AdminGendersController.php:70</note>
+      </trans-unit>
       <trans-unit id="e9bb5320b3890b6747c91b5a71ae5a01" approved="yes">
         <source>Neutral</source>
         <target xml:lang="ja">ナチュラル</target>
@@ -503,21 +546,39 @@ File: controllers/admin/AdminPPreferencesController.php:46</note>
       </trans-unit>
       <trans-unit id="bb98eaca8d91531f4ae177c9d395f1d4" approved="yes">
         <source>Catalog mode</source>
-        <target xml:lang="ja">カタログモード</target>
+        <target xml:lang="ja">カタログモード（商品表示のみ）</target>
         <note>Context:
 File: controllers/admin/AdminPPreferencesController.php:49</note>
       </trans-unit>
       <trans-unit id="eb1cef1202fdc4d7954899fbf9f1734b" approved="yes">
         <source>Number of days for which the product is considered 'new'</source>
-        <target xml:lang="ja">商品がNewと考慮される日数</target>
+        <target xml:lang="ja">新着商品の対象期間（日数）</target>
         <note>Context:
 File: controllers/admin/AdminPPreferencesController.php:57</note>
       </trans-unit>
+      <trans-unit id="9d980493b9016efc42443b1fdae49f33" approved="yes">
+        <source>Max size of product summary</source>
+        <target xml:lang="ja">商品概要の最大サイズ</target>
+        <note>Context:
+File: controllers/admin/AdminPPreferencesController.php:63</note>
+      </trans-unit>
       <trans-unit id="b5069c99813cffc6933c18ab71fd6cd9" approved="yes">
         <source>Quantity discounts based on</source>
-        <target xml:lang="ja">割引数量に基づいて</target>
+        <target xml:lang="ja">数量値引きの判定基準</target>
         <note>Context:
 File: controllers/admin/AdminPPreferencesController.php:71</note>
+      </trans-unit>
+      <trans-unit id="52be3e936f99d9746870ca7d356b3f21" approved="yes">
+        <source>Force update of friendly URL</source>
+        <target xml:lang="ja">フレンドリーURLの強制アップデート</target>
+        <note>Context:
+File: controllers/admin/AdminPPreferencesController.php:84</note>
+      </trans-unit>
+      <trans-unit id="8a93e785ac0d7204479e4697cbe8696c" approved="yes">
+        <source>Default activation status</source>
+        <target xml:lang="ja">デフォルトの商品ステータスを「有効」にする</target>
+        <note>Context:
+File: controllers/admin/AdminPPreferencesController.php:92</note>
       </trans-unit>
       <trans-unit id="cbb81506a7fe3ef03f7a89c76c52131a" approved="yes">
         <source>Pagination</source>
@@ -527,13 +588,13 @@ File: controllers/admin/AdminPPreferencesController.php:103</note>
       </trans-unit>
       <trans-unit id="7e1b4ee573c4ef023904fd90eb9ddea7" approved="yes">
         <source>Products per page</source>
-        <target xml:lang="ja">ページごとの商品</target>
+        <target xml:lang="ja">１ページに表示する商品数</target>
         <note>Context:
 File: controllers/admin/AdminPPreferencesController.php:106</note>
       </trans-unit>
       <trans-unit id="e29857ad6c4bbba99614831d7e3e5a3f" approved="yes">
         <source>Default order by</source>
-        <target xml:lang="ja">デフォルトの順序</target>
+        <target xml:lang="ja">デフォルトの表示順指定項目</target>
         <note>Context:
 File: controllers/admin/AdminPPreferencesController.php:113</note>
       </trans-unit>
@@ -575,7 +636,7 @@ File: controllers/admin/AdminPPreferencesController.php:124</note>
       </trans-unit>
       <trans-unit id="114a8ec626471fdc120f863a9fb25e4c" approved="yes">
         <source>Default order method</source>
-        <target xml:lang="ja">デフォルトの注文方法</target>
+        <target xml:lang="ja">デフォルトの順序</target>
         <note>Context:
 File: controllers/admin/AdminPPreferencesController.php:129</note>
       </trans-unit>
@@ -591,6 +652,12 @@ File: controllers/admin/AdminPPreferencesController.php:148</note>
         <note>Context:
 File: controllers/admin/AdminPPreferencesController.php:151</note>
       </trans-unit>
+      <trans-unit id="f8f1f78351c2864c334a80b706a303b2" approved="yes">
+        <source>Display remaining quantities when the quantity is lower than</source>
+        <target xml:lang="ja">在庫が少なくなった場合に、残り在庫数を表示するしきい値：</target>
+        <note>Context:
+File: controllers/admin/AdminPPreferencesController.php:158</note>
+      </trans-unit>
       <trans-unit id="a2ab7db4ee7104a693358c0c9d07c6ce" approved="yes">
         <source>Display unavailable product attributes on the product page</source>
         <target xml:lang="ja">商品ページに利用できない商品属性を表示</target>
@@ -599,9 +666,21 @@ File: controllers/admin/AdminPPreferencesController.php:166</note>
       </trans-unit>
       <trans-unit id="01dabe7ae47f9848c5e38f353a8f866f" approved="yes">
         <source>Display the "add to cart" button when a product has attributes</source>
-        <target xml:lang="ja">商品が属性を持っている場合に[カートに追加]ボタンを表示</target>
+        <target xml:lang="ja">商品にオプション選択がある場合でも「カートに追加」ボタンを表示</target>
         <note>Context:
 File: controllers/admin/AdminPPreferencesController.php:173</note>
+      </trans-unit>
+      <trans-unit id="0a91cf360875af4259f26bc7e2971132" approved="yes">
+        <source>Separator of attribute anchor on the product links</source>
+        <target xml:lang="ja">商品リンクでのオプションアンカーの区切り文字</target>
+        <note>Context:
+File: controllers/admin/AdminPPreferencesController.php:180</note>
+      </trans-unit>
+      <trans-unit id="f7699b3d1af7fe3cdb3a6ff301940fdf" approved="yes">
+        <source>Display discounted price</source>
+        <target xml:lang="ja">割引適用後の価格を表示</target>
+        <note>Context:
+File: controllers/admin/AdminPPreferencesController.php:189</note>
       </trans-unit>
       <trans-unit id="ff26a60315cd84533d5339ba26617988" approved="yes">
         <source>Products stock</source>
@@ -617,9 +696,21 @@ File: controllers/admin/AdminPPreferencesController.php:203</note>
       </trans-unit>
       <trans-unit id="69983ae81c0090a571d3f60aedbd0d46" approved="yes">
         <source>Enable stock management</source>
-        <target xml:lang="ja">在庫管理を有効</target>
+        <target xml:lang="ja">在庫管理を有効にする</target>
         <note>Context:
 File: controllers/admin/AdminPPreferencesController.php:211</note>
+      </trans-unit>
+      <trans-unit id="65055b5469b4ad0c6f799ad782d1ebe5" approved="yes">
+        <source>Default pack stock management</source>
+        <target xml:lang="ja">デフォルトの「セット組み商品」の在庫管理</target>
+        <note>Context:
+File: controllers/admin/AdminPPreferencesController.php:251</note>
+      </trans-unit>
+      <trans-unit id="175db77b6b3ecd9633e85b5efc28bbc1" approved="yes">
+        <source>Decrement pack only.</source>
+        <target xml:lang="ja">セット数のみ減らす</target>
+        <note>Context:
+File: controllers/admin/AdminPPreferencesController.php:257</note>
       </trans-unit>
     </body>
   </file>
