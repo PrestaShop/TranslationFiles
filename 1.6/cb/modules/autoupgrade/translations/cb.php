@@ -192,7 +192,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8d8e0207549d32c6f86424640303
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8ed8bd0ec34ae857cb99e4196d3154f4'] = 'Se han detectado %1$s modificaciones de documentos, incluyendo %2$s del modulo central y nativo:';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ca895e37bd5dfe413d7ffdd592580117'] = 'Empezando la actualización...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c96aad12b8ec23c5788682f0e5e0999d'] = 'Saltar los pasos de descarga y unziping, el proceso de actualización ya no elimina datos de muestra.';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b06a965d6f83ecc3c04eefe175482f1d'] = 'Tienda desactivada. Suprimiendo los archivos de muestra...';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b06a965d6f83ecc3c04eefe175482f1d'] = 'Tienda desactivada. Suprimiendo los archivos de ejemplo...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_12a183559f01986a8b177528124e1b4b'] = 'Saltar el paso de descarga, el proceso de actualización descomprimirá ahora el archivo local.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_1a74ca8250ceb3e4df43a70181064e03'] = 'Tienda desactivada. Extrayendo archivos...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a3e702f156f1b517ba98d2487f58bd91'] = 'Tienda desactivada. Descargando... (puede tardar un tiempo)';
@@ -201,8 +201,8 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_da652b8ece8ba2da84d5f5116f6e
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_654f7ceb787fd455c166d5d8744cbf90'] = '"/latest" directorio se ha vaciado';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7dce6149440985f89756b4c451d7dc03'] = 'Extracción de archivos completa. Eliminado archivos de ejemplo...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_89640d2ed666aab722d12be60a61938d'] = 'No es posible extraer el archivo %1$s en la carpeta %2$s ...';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_064a15c7711dd82e5026a17a453b3a3b'] = 'La carpeta donde extraer no tiene permisos de escritura.';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_01d9d38b1d4d8eff5b530eeecfd3ccd5'] = 'El directorio %s donde extraer no tiene permisos de escritura.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_064a15c7711dd82e5026a17a453b3a3b'] = 'El directorio de extracción no tiene permisos de escritura.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_01d9d38b1d4d8eff5b530eeecfd3ccd5'] = 'El directorio de extracción %s no tiene permisos de escritura.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_99f0e3a6d61b6d39da9213c647fd35ce'] = '[ERROR] %s no existe o no es un directorio.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d8316e26b7d1322f4445d3ffeec4bcfb'] = 'Nada se ha extraído. Parece que el paso de descomprimir unzip se ha omitido.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2de9cd00fdcc22adb43ea03f2a09dee5'] = '[ERROR] No es posible encontrar archivos para actualizar.';
@@ -223,10 +223,10 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7bb21f802330e2539d8342f05c0c
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f0d18de100ab33463602ea5b8165d842'] = 'Addons modules files have been upgraded.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_35687f9e2d83cd9e89860c47fb3a7bbd'] = 'Los archivos del módulo %s se han actualizado.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2743947c7353cf849fbff70085764d76'] = '[AVISO] Error cuando intentaba actualizar el módulo %s.';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0aebfe257803d2dc4f444fe079edd7ec'] = '[ERROR] Imposible escribir el archivo zip del móduloule %s en el directorio temporal.';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_36d56d20b3894281531cd4108e2c4cec'] = '[ERROR] no hay respuesta desde el servidor de complementos.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0aebfe257803d2dc4f444fe079edd7ec'] = '[ERROR] Imposible escribir el archivo zip del módulo %s en el directorio temporal.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_36d56d20b3894281531cd4108e2c4cec'] = '[ERROR] No hay respuesta desde el servidor de Addons.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_eac34868b4fb511702e53d1405c45454'] = 'Error durante la actualización de la base de datos. Puede que tenga que restaurar la base de datos.';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_08ee54c048e1589f4072a351035db2ad'] = 'Base de datos actualizada. Actualizando ahora sus módulos de complementos...';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_08ee54c048e1589f4072a351035db2ad'] = 'Base de datos actualizada. Actualizando ahora sus módulos de Addons...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ead14b0273e8d6cae7d146130d4be8f6'] = 'La base de datos ha sido limpiada.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3b8f044559a7568ea572776caf1d6526'] = 'No se encuentra el archivo config/settings.inc.php';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_22f18bac5d420d7ac5aca37b1afe30c9'] = 'Versión actual: %1$s. Versión a instalar: %2$s.';

@@ -11,7 +11,7 @@ $_MODULE['<{blockwishlist}prestashop>blockwishlist_c888438d14855d7d96a2724ee9c30
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_deb10517653c255364175796ace3553f'] = 'Producto';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_694e8d1f2ee056f98ee488bdc4982d73'] = 'Cantidad';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_502996d9790340c5fd7b86a5b93b1c9f'] = 'Prioridad';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist_655d20c1ca69519ca647684edbb2db35'] = 'Alta';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist_655d20c1ca69519ca647684edbb2db35'] = 'Alto';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_87f8a6ab85c9ced3702b4ea641ad4bb5'] = 'Media';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_28d0edd045e05cf5af64e35ae0c4c6ef'] = 'Baja';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_e0fd9b310aba555f96e76738ff192ac3'] = 'Lista de deseos';
@@ -38,7 +38,7 @@ $_MODULE['<{blockwishlist}prestashop>mywishlist_7098d49878bbd102b13038a748125e27
 $_MODULE['<{blockwishlist}prestashop>mywishlist_ce7510c007e56bccd6b16af6c40a03de'] = 'No ha iniciado sesión';
 $_MODULE['<{blockwishlist}prestashop>mywishlist_3c924eebbd7c3447336bbec3b325d3da'] = 'Error mientras se movía un producto a otra lista';
 $_MODULE['<{blockwishlist}prestashop>mywishlist_3540aa14bffcdfbbfc3aafbbcb028a1f'] = 'El producto se ha movido correctamente';
-$_MODULE['<{blockwishlist}prestashop>view_655d20c1ca69519ca647684edbb2db35'] = 'Alta';
+$_MODULE['<{blockwishlist}prestashop>view_655d20c1ca69519ca647684edbb2db35'] = 'Alto';
 $_MODULE['<{blockwishlist}prestashop>view_87f8a6ab85c9ced3702b4ea641ad4bb5'] = 'Media';
 $_MODULE['<{blockwishlist}prestashop>view_28d0edd045e05cf5af64e35ae0c4c6ef'] = 'Baja';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_a9839ad48cf107667f73bad1d651f2ca'] = 'No hay ninguna plantilla';
@@ -77,7 +77,7 @@ $_MODULE['<{blockwishlist}prestashop>managewishlist_f2a6c498fb90ee345d997f888fce
 $_MODULE['<{blockwishlist}prestashop>managewishlist_4b7d496eedb665d0b5f589f2f874e7cb'] = 'Detalle del producto';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_694e8d1f2ee056f98ee488bdc4982d73'] = 'Cantidad';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_502996d9790340c5fd7b86a5b93b1c9f'] = 'Prioridad';
-$_MODULE['<{blockwishlist}prestashop>managewishlist_655d20c1ca69519ca647684edbb2db35'] = 'Alta';
+$_MODULE['<{blockwishlist}prestashop>managewishlist_655d20c1ca69519ca647684edbb2db35'] = 'Alto';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_87f8a6ab85c9ced3702b4ea641ad4bb5'] = 'Media';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_28d0edd045e05cf5af64e35ae0c4c6ef'] = 'Baja';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_6bc362dbf494c61ea117fe3c71ca48a5'] = 'Mover';

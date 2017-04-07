@@ -1338,7 +1338,6 @@ $_LANGADM['AdminMeta73ca86c0d6a5d58e868c54c3a1524c6c'] = 'Antes de usar esta her
 $_LANGADM['AdminMeta636fc324804393cc1d3306a541cc871f'] = '1) Crear un archivo  .htaccess en blanco en el directorio raíz.';
 $_LANGADM['AdminMeta1a53c64bc79e181125e94976211eb401'] = '2) Habilitar los permisos de escritura (CHMOD 666 en un sistema Unix).';
 $_LANGADM['AdminMetae1431ff02441e4b73c63954a759c7137'] = 'El archivo robots.txt deberá ser almacenado únicamente en el directorio raíz de su sitio web (ej: http://www.tienda.com/robots.txt).';
-$_LANGADM['AdminMeta54a81582e2ea2a98cebaabab9c454957'] = 'Puede generar un nuevo archivo "robots.txt" haciendo clic en el  siguiente botón (esto sobrescribirá el archivo robots.txt actual)';
 $_LANGADM['AdminMeta7959e21ff0b83542251ca0b4e9a62eea'] = 'Generar el archivo robots.txt';
 $_LANGADM['AdminMetad999a32b68fd420ce389f774c231c637'] = '1) Crear un archivo robots.txt en blanco en el directorio raíz.';
 $_LANGADM['AdminMeta345d6249c20c6319bb09edaaf536744b'] = 'Generación de archivos Robots';
