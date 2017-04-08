@@ -3,6 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{dashactivity}prestashop>dashactivity_0369e7f54bf8a30b2766e6a9a708de0b'] = 'ダッシュボードアクティビティ';
 $_MODULE['<{dashactivity}prestashop>dashactivity_14542f5997c4a02d4276da364657f501'] = 'ダイレクトリンク';
 $_MODULE['<{dashactivity}prestashop>dashactivity_c9cc8cce247e49bae79f15173ce97354'] = '保存';
 $_MODULE['<{dashactivity}prestashop>dashactivity_ea4788705e6873b424c65e91c2846b19'] = 'キャンセル';

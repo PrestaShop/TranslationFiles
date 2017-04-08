@@ -107,6 +107,7 @@ $_LANG['category_2f4e54ec9bebe1122b5c23217e764828'] = 'このカテゴリーは�
 $_LANG['cms_0557fa923dcee4d0f86b1409f5c2167f'] = '戻る';
 $_LANG['cms_eecc2cef7e0fa128ecb0557b66486539'] = 'このページは存在しません。';
 $_LANG['contact-form_bbaff12800505b22a853e8b7f4eb6a22'] = 'お問合せ';
+$_LANG['contact-form_2273d1167a6212812d95dc8fadbae78e'] = 'カスタマーサービス';
 $_LANG['contact-form_d754a9e8cb640da12849a040f3ca8176'] = '返信';
 $_LANG['contact-form_02d4482d332e1aef3437cd61c9bcc624'] = 'お問合せ';
 $_LANG['contact-form_8cf04a9734132302f96da8e113e80ce5'] = 'ホーム';
