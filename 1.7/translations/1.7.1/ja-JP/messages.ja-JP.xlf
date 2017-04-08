@@ -200,7 +200,7 @@ File: classes/controller/AdminController.php:611</note>
       </trans-unit>
       <trans-unit id="ef61fb324d729c341ea8ab9901e23566" approved="yes">
         <source>Add new</source>
-        <target xml:lang="ja">新規注文作成</target>
+        <target xml:lang="ja">新規作成</target>
         <note>Context:
 File: classes/controller/AdminController.php:1612</note>
       </trans-unit>
@@ -604,6 +604,12 @@ File: admin-dev/themes/default/template/helpers/list/list_header.tpl:334</note>
         <target xml:lang="ja">ショップのグループ</target>
         <note>Context:
 File: admin-dev/themes/default/template/helpers/list/list_header.tpl:294</note>
+      </trans-unit>
+      <trans-unit id="e129ae480280e47ef82fc7702f8321ba" approved="yes">
+        <source>Refresh list</source>
+        <target xml:lang="ja">リストを更新</target>
+        <note>Context:
+File: admin-dev/themes/default/template/helpers/list/list_header.tpl:141</note>
       </trans-unit>
     </body>
   </file>
@@ -1122,9 +1128,21 @@ File: admin-dev/themes/default/template/controllers/referrers/form_settings.tpl:
         <note>Context:
 File: admin-dev/themes/default/template/controllers/referrers/form_settings.tpl:111</note>
       </trans-unit>
+      <trans-unit id="521d4edc7c22d5f63bc5912ff2afa61a" approved="yes">
+        <source>Indexing</source>
+        <target xml:lang="ja">インデックス化</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/referrers/form_settings.tpl:30</note>
+      </trans-unit>
+      <trans-unit id="ce162159505d90c37be3dd2b464c3360" approved="yes">
+        <source>There is a huge quantity of data, so each connection corresponding to a referrer is indexed. You can also refresh this index by clicking the "Refresh index" button. This process may take a while, and it's only needed if you modified or added a referrer, or if you want changes to be retroactive.</source>
+        <target xml:lang="ja">データが膨大な量であるため、リファラに対応する各接続をインデックス化します。『インデックスの更新』ボタンをクリックして、このインデックスを更新することもできます。このプロセスには大変時間がかかることがあり、リファラを変更または追加した場合や、全体を再構成しなおす場合にのみ必要なものです。</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/referrers/form_settings.tpl:32</note>
+      </trans-unit>
       <trans-unit id="97b22af4c50379be3da02a0b10f13ce3" approved="yes">
         <source>Refresh index</source>
-        <target xml:lang="ja">インデックスをリフレッシュ</target>
+        <target xml:lang="ja">インデックスを更新</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/referrers/form_settings.tpl:34</note>
       </trans-unit>
@@ -1136,21 +1154,39 @@ File: admin-dev/themes/default/template/controllers/referrers/form_settings.tpl:
       </trans-unit>
       <trans-unit id="1faa3e365bfe45ad8e3a6c97da5b94d1" approved="yes">
         <source>Refresh cache</source>
-        <target xml:lang="ja">キャッシュをリフレッシュ</target>
+        <target xml:lang="ja">キャッシュを更新</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/referrers/form_settings.tpl:47</note>
       </trans-unit>
       <trans-unit id="42bb6e7b5d150acfa5243c250d864cbc" approved="yes">
         <source>Direct traffic can be quite resource-intensive. You should consider enabling it only if you have a strong need for it.</source>
-        <target xml:lang="ja">ダイレクトトラフィックはかなりのリソースを大量に消費します。強力なデータベース・サーバとそれに対する強い要望がある場合にのみ検討することは有効です。</target>
+        <target xml:lang="ja">ダイレクトトラフィックの利用は、極めて大量のリソースを消費します。強力なデータベースとサーバを利用しており、よほどの理由がある場合にのみ検討すべきです。</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/referrers/form_settings.tpl:58</note>
       </trans-unit>
       <trans-unit id="7400a4d2e88ba7fe219b1e11d382f3a2" approved="yes">
         <source>Save direct traffic?</source>
-        <target xml:lang="ja">ダイレクトトラフィックを登録</target>
+        <target xml:lang="ja">ダイレクトトラフィックを保存しますか？</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/referrers/form_settings.tpl:60</note>
+      </trans-unit>
+      <trans-unit id="9e7ff803e9245919433265f5430333c9" approved="yes">
+        <source>Exclude taxes in sales total?</source>
+        <target xml:lang="ja">売上合計から税を除外しますか？</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/referrers/form_settings.tpl:80</note>
+      </trans-unit>
+      <trans-unit id="9cb43fe3704c7798a2564e0d9cd16d38" approved="yes">
+        <source>Exclude shipping in sales total?</source>
+        <target xml:lang="ja">売上合計から送料を除外しますか？</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/referrers/form_settings.tpl:100</note>
+      </trans-unit>
+      <trans-unit id="60496e92d8c44007e78f095a1cb6adc2" approved="yes">
+        <source>The module '%s' must be activated and configurated in order to have all the statistics</source>
+        <target xml:lang="ja">すべての統計情報を取得するには、'%s' モジュールを設定して有効にする必要があります</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/referrers/form_settings.tpl:133</note>
       </trans-unit>
     </body>
   </file>
@@ -1690,9 +1726,15 @@ File: admin-dev/themes/default/template/controllers/orders/form.tpl:1247</note>
       </trans-unit>
       <trans-unit id="453c92894f48764318534163c2bb2830" approved="yes">
         <source>The prices are without taxes.</source>
-        <target xml:lang="ja">価格は税なしです。</target>
+        <target xml:lang="ja">価格は税別表示です。</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/form.tpl:1277</note>
+      </trans-unit>
+      <trans-unit id="c89db248919294ef0291a6586f6e9a5b" approved="yes">
+        <source>Search for a voucher</source>
+        <target xml:lang="ja">クーポンを検索</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/form.tpl:1319</note>
       </trans-unit>
       <trans-unit id="11599f38f7ac080ae579f1bf32f08561" approved="yes">
         <source>Add new voucher</source>
@@ -2050,6 +2092,12 @@ File: admin-dev/themes/new-theme/template/components/layout/search_form.tpl:71</
         <target xml:lang="ja">モジュール名</target>
         <note>Context:
 File: admin-dev/themes/new-theme/template/components/layout/search_form.tpl:80</note>
+      </trans-unit>
+      <trans-unit id="f5945546981ef6e50e1fade1b386da04" approved="yes">
+        <source>Search (e.g.: product reference, customer name…)</source>
+        <target xml:lang="ja">検索 (例： 商品コード、顧客名...)</target>
+        <note>Context:
+File: admin-dev/themes/new-theme/template/components/layout/search_form.tpl:37</note>
       </trans-unit>
     </body>
   </file>
@@ -4382,7 +4430,7 @@ File: admin-dev/themes/default/template/controllers/cart_rules/informations.tpl:
     <body>
       <trans-unit id="b52b44c9d23e141b067d7e83b44bb556" approved="yes">
         <source>Products:</source>
-        <target xml:lang="ja">商品</target>
+        <target xml:lang="ja">商品：</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/tags/helpers/form/form.tpl:30</note>
       </trans-unit>
@@ -4612,7 +4660,7 @@ File: admin-dev/themes/default/template/controllers/countries/helpers/list/list_
     <body>
       <trans-unit id="6d88865acb8658a92b188e47ba03906d" approved="yes">
         <source>No new messages</source>
-        <target xml:lang="ja">新しいメッセージがありません</target>
+        <target xml:lang="ja">新しいメッセージはありません</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/customer_threads/helpers/list/list_header.tpl:51</note>
       </trans-unit>
@@ -4859,7 +4907,7 @@ File: admin-dev/themes/default/template/helpers/required_fields.tpl:30</note>
       </trans-unit>
       <trans-unit id="81f32b96f6626b8968e6a0f4a9bce62e" approved="yes">
         <source>Select the fields you would like to be required for this section.</source>
-        <target xml:lang="ja">このセクションのために必要したい項目を選択</target>
+        <target xml:lang="ja">このセクションで必須にしたい項目を選択してください。</target>
         <note>Context:
 File: admin-dev/themes/default/template/helpers/required_fields.tpl:33</note>
       </trans-unit>
@@ -5122,6 +5170,12 @@ File: admin-dev/themes/default/template/controllers/dashboard/helpers/view/view.
   </file>
   <file original="admin-dev/themes/default/template/controllers/groups/helpers/form/form.tpl" source-language="en" target-language="ja" datatype="plaintext">
     <body>
+      <trans-unit id="40382ca2b15ff499eb4e5c101424bc81" approved="yes">
+        <source>Authorized modules:</source>
+        <target xml:lang="ja">承認済モジュール：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/groups/helpers/form/form.tpl:31</note>
+      </trans-unit>
       <trans-unit id="32da1449064b7ef38d098e8061630883" approved="yes">
         <source>This category already exists for this group.</source>
         <target xml:lang="ja">このグループにこのカテゴリはすでに存在します</target>
@@ -5161,6 +5215,12 @@ File: admin-dev/themes/default/template/controllers/groups/helpers/form/form.tpl
         <target xml:lang="ja">％</target>
         <note>Context:
 File: admin-dev/themes/default/template/helpers/list/list_content.tpl:111</note>
+      </trans-unit>
+      <trans-unit id="087fb8756d4add87f2d162304ccd486b" approved="yes">
+        <source>No records found</source>
+        <target xml:lang="ja">一致する結果が見つかりませんでした</target>
+        <note>Context:
+File: admin-dev/themes/default/template/helpers/list/list_content.tpl:201</note>
       </trans-unit>
     </body>
   </file>
@@ -5400,6 +5460,42 @@ File: admin-dev/themes/default/template/controllers/information/helpers/view/vie
         <note>Context:
 File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:85</note>
       </trans-unit>
+      <trans-unit id="15ac02a8b5dba62592162905dd085241" approved="yes">
+        <source>Server information:</source>
+        <target xml:lang="ja">サーバ情報：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:89</note>
+      </trans-unit>
+      <trans-unit id="ad41419235c76297eaf568c7656da881" approved="yes">
+        <source>Server software version:</source>
+        <target xml:lang="ja">サーバソフトウェアのバージョン：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:93</note>
+      </trans-unit>
+      <trans-unit id="e2551ec433c9623fed56f27ca2b91a35" approved="yes">
+        <source>PHP version:</source>
+        <target xml:lang="ja">PHPバージョン：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:96</note>
+      </trans-unit>
+      <trans-unit id="94be595f109f75bfcced2d3bec366128" approved="yes">
+        <source>Memory limit:</source>
+        <target xml:lang="ja">メモリ制限：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:99</note>
+      </trans-unit>
+      <trans-unit id="f3bd61801b2a43ad234af6e6fc917583" approved="yes">
+        <source>Max execution time:</source>
+        <target xml:lang="ja">最大実行時間：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:102</note>
+      </trans-unit>
+      <trans-unit id="3d8a3c1f364b4767769b36eedbe66bb0" approved="yes">
+        <source>Upload Max File size:</source>
+        <target xml:lang="ja">アップロード最大ファイルサイズ：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:105</note>
+      </trans-unit>
       <trans-unit id="fc0eeb8415aed39a9d3624c7fc2fe47c" approved="yes">
         <source>PageSpeed module for Apache installed (mod_instaweb)</source>
         <target xml:lang="ja">インストールされたApacheのPageSpeedモジュール（mod_instaweb）</target>
@@ -5412,17 +5508,83 @@ File: admin-dev/themes/default/template/controllers/information/helpers/view/vie
         <note>Context:
 File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:114</note>
       </trans-unit>
+      <trans-unit id="52018f4304c11e4bd288a533b122ccf7" approved="yes">
+        <source>MySQL version:</source>
+        <target xml:lang="ja">MySQL バージョン：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:117</note>
+      </trans-unit>
+      <trans-unit id="dbaf046be46df36dab10f0a54e94b95e" approved="yes">
+        <source>MySQL server:</source>
+        <target xml:lang="ja">MySQL サーバ：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:120</note>
+      </trans-unit>
+      <trans-unit id="a720577895f55e35dd9ea15feeadc35e" approved="yes">
+        <source>MySQL name:</source>
+        <target xml:lang="ja">MySQL DB名：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:123</note>
+      </trans-unit>
+      <trans-unit id="6088e183841f22493e40f574376240cb" approved="yes">
+        <source>MySQL user:</source>
+        <target xml:lang="ja">MySQL ユーザ名：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:126</note>
+      </trans-unit>
+      <trans-unit id="fe453b675e37e3a3d2ca501d7ef3135e" approved="yes">
+        <source>Tables prefix:</source>
+        <target xml:lang="ja">DBテーブルプレフィックス：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:129</note>
+      </trans-unit>
+      <trans-unit id="b888bbc9841a225c7780b20f2c2db60c" approved="yes">
+        <source>MySQL engine:</source>
+        <target xml:lang="ja">MySQL エンジン：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:132</note>
+      </trans-unit>
+      <trans-unit id="9369ef07178c0e2be115d85fab6eb6cb" approved="yes">
+        <source>MySQL driver:</source>
+        <target xml:lang="ja">MySQL ドライバ：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:135</note>
+      </trans-unit>
       <trans-unit id="3aea774cdcd8f2c45549f10758a71323" approved="yes">
         <source>Store information</source>
-        <target xml:lang="ja">ストア情報</target>
+        <target xml:lang="ja">店舗情報</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:144</note>
+      </trans-unit>
+      <trans-unit id="59681d7f729ee8ffdfbc99b8c935c41b" approved="yes">
+        <source>PrestaShop version:</source>
+        <target xml:lang="ja">Prestashop のバージョン：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:147</note>
+      </trans-unit>
+      <trans-unit id="76c01eed328aa2411b18f007c77d2eeb" approved="yes">
+        <source>Shop URL:</source>
+        <target xml:lang="ja">ショップのURL：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:150</note>
+      </trans-unit>
+      <trans-unit id="b5b3eed3efd6cfebfea270066a1e1f9b" approved="yes">
+        <source>Current theme in use:</source>
+        <target xml:lang="ja">現在使用中のテーマ：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:153</note>
       </trans-unit>
       <trans-unit id="4e37aa2987c0876f7f7b2104927df1a1" approved="yes">
         <source>Mail configuration</source>
         <target xml:lang="ja">メール設定</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:159</note>
+      </trans-unit>
+      <trans-unit id="aee55e0ed7a06f68ed5e13f235a8bfd8" approved="yes">
+        <source>Mail method:</source>
+        <target xml:lang="ja">メール送信方法：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:162</note>
       </trans-unit>
       <trans-unit id="f882852afa750c241cdb951bc52539fd" approved="yes">
         <source>You are using the PHP mail() function.</source>
@@ -5460,17 +5622,35 @@ File: admin-dev/themes/default/template/controllers/information/helpers/view/vie
         <note>Context:
 File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:198</note>
       </trans-unit>
+      <trans-unit id="11eb3e792866d1433dd4ca9d7e49b5ac" approved="yes">
+        <source>Your web browser:</source>
+        <target xml:lang="ja">ウェブブラウザ：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:201</note>
+      </trans-unit>
       <trans-unit id="e91dd9bbca6e42bb85c0f2d94aaee995" approved="yes">
         <source>Check your configuration</source>
         <target xml:lang="ja">設定を確認</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:208</note>
       </trans-unit>
+      <trans-unit id="a3810ddb5a67e550cb3ca9c1cffce800" approved="yes">
+        <source>Required parameters:</source>
+        <target xml:lang="ja">必須パラメータ:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:211</note>
+      </trans-unit>
       <trans-unit id="2ad1ffcbe2184ed25baa66baece8908b" approved="yes">
         <source>Please fix the following error(s)</source>
         <target xml:lang="ja">次のエラーを解決してください</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:233</note>
+      </trans-unit>
+      <trans-unit id="0297eee5a43818dda6ad1e1b36f08965" approved="yes">
+        <source>Optional parameters:</source>
+        <target xml:lang="ja">オプションパラメータ</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:228</note>
       </trans-unit>
       <trans-unit id="d5c0bb5c1df152c6fe45bd07e303cb69" approved="yes">
         <source>List of changed files</source>
@@ -5620,15 +5800,12 @@ File: admin-dev/themes/default/template/controllers/modules/configure.tpl:101</n
   </file>
   <file original="admin-dev/themes/default/template/controllers/themes/helpers/form/form.tpl" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="3a2d5fe857d8f9541136a124c2edec6c" approved="yes">
+        <source>Or</source>
+        <target xml:lang="ja">または</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/themes/helpers/form/form.tpl:50</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/modules/content-legacy.tpl" source-language="en" target-language="ja" datatype="plaintext">
@@ -6085,6 +6262,12 @@ File: admin-dev/themes/default/template/controllers/stats/menu.tpl:35</note>
   </file>
   <file original="admin-dev/themes/default/template/controllers/stores/helpers/form/form.tpl" source-language="en" target-language="ja" datatype="plaintext">
     <body>
+      <trans-unit id="ad179a1071ebd8b00e0ff4718301dcea" approved="yes">
+        <source>Hours:</source>
+        <target xml:lang="ja">時間：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/stores/helpers/form/form.tpl:66</note>
+      </trans-unit>
       <trans-unit id="e734ed12d2c2026532f66e0ebeedfc8c" approved="yes">
         <source>e.g. 10:00AM - 9:30PM</source>
         <target xml:lang="ja">例　10:00 AM - 9:30 PM</target>

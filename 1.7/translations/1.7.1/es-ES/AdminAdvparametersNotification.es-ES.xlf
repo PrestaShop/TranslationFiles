@@ -316,11 +316,23 @@ File: controllers/admin/AdminImportController.php:4455</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3651</note>
       </trans-unit>
+      <trans-unit id="53d9fc1aa79e85c0f845139c6358daee" approved="yes">
+        <source>The category ID must be unique. It can't be the same as the one for Root or Home category.</source>
+        <target xml:lang="es-ES">El ID de categoría debe ser único. No puede ser el mismo que el de la categoría Raíz o Inicio.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1273</note>
+      </trans-unit>
       <trans-unit id="7a1bebdbf5770873f8172ecf27b2aa50" approved="yes">
         <source>The category ID must be unique. It can't be the same as the one for the parent category (ID: %1$s).</source>
         <target xml:lang="es-ES">El ID de categoría debe ser único. No puede ser el mismo que el de la categoría padre (ID: %1$s).</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:1295</note>
+      </trans-unit>
+      <trans-unit id="521531266ae042d0725d7a4aa22a49f4" approved="yes">
+        <source>A category can't be its own parent. You should rename it (current name: %1$s).</source>
+        <target xml:lang="es-ES">Una categoría no puede ser su propio padre. Debe renombrarla (nombre actual: %1$s).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1309</note>
       </trans-unit>
       <trans-unit id="43bf950e043950e2da10f917b902c131" approved="yes">
         <source>%1$s (ID: %2$s) cannot be saved</source>
@@ -358,9 +370,15 @@ File: controllers/admin/AdminImportController.php:1414</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3686</note>
       </trans-unit>
+      <trans-unit id="87098ca5171ae766269f50b24ef3189d" approved="yes">
+        <source>%1$s (ID: %2$s) cannot be %3$s</source>
+        <target xml:lang="es-ES">%1$s (ID: %2$s) no puede ser %3$s</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1437</note>
+      </trans-unit>
       <trans-unit id="2666baaca25feea0b2dc641cfab50d8a" approved="yes">
         <source>Unknown tax rule group ID. You need to create a group with this ID first.</source>
-        <target xml:lang="es-ES">ID de grupo de regla fiscal desconocido. Tiene que crear un grupo con este ID antes.</target>
+        <target xml:lang="es-ES">ID de grupo de tasa de impuestos desconocida. Debe crear un grupo con esta ID antes.</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:1669</note>
       </trans-unit>
@@ -372,13 +390,13 @@ File: controllers/admin/AdminImportController.php:1790</note>
       </trans-unit>
       <trans-unit id="32fa1d06b5d0a192c9991c4bf038b30c" approved="yes">
         <source>Shop is not valid</source>
-        <target xml:lang="es-ES">Tienda inválida</target>
+        <target xml:lang="es-ES">Tienda no válida</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:1943</note>
       </trans-unit>
       <trans-unit id="87aae49bd054f2cfa4b7b395dee5f2d3" approved="yes">
         <source>Discount is invalid</source>
-        <target xml:lang="es-ES">Este descuento no es válido</target>
+        <target xml:lang="es-ES">El descuento no es válido</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2018</note>
       </trans-unit>
@@ -402,7 +420,7 @@ File: controllers/admin/AdminImportController.php:2113</note>
       </trans-unit>
       <trans-unit id="72f371934700495cf4577d651d893062" approved="yes">
         <source>Advanced stock management has incorrect value. Not set for product %1$s </source>
-        <target xml:lang="es-ES">La administración avanzada de existencias tiene un valor incorrecto. No establecido para el producto %1$s </target>
+        <target xml:lang="es-ES">La gestión avanzada de stock tiene un valor incorrecto. No establecido para el producto %1$s </target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2157</note>
       </trans-unit>
@@ -444,7 +462,7 @@ File: controllers/admin/AdminImportController.php:3749</note>
       </trans-unit>
       <trans-unit id="5c8707f79dbdd3abb28a8aa09e34f02f" approved="yes">
         <source>No image was found for combination with id_product = %s and image position = %s.</source>
-        <target xml:lang="es-ES">Ninunga imagen encuentrada por la combinación con id_product = %s, y la posición de la imagen = %s.</target>
+        <target xml:lang="es-ES">No se encontró ninguna imagen para la combinación con id_product = %s y la posición de la imagen = %s.</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2457</note>
       </trans-unit>
@@ -471,6 +489,12 @@ File: controllers/admin/AdminImportController.php:2688</note>
         <target xml:lang="es-ES">La administración avanzada de existencias no está activada, almacén no establecido en producto con ID %d.</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2701</note>
+      </trans-unit>
+      <trans-unit id="fd6d9d3ba7d4aaacc49f53c2e8c082c0" approved="yes">
+        <source>Email address %1$s (ID: %2$s) cannot be validated.</source>
+        <target xml:lang="es-ES">La dirección de correo electrónico %1$s (ID: %2$s) no se puede validar.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3007</note>
       </trans-unit>
       <trans-unit id="9a19980e3db9fa010269bb72d31ee42a" approved="yes">
         <source>Email address %1$s (ID: %2$s) cannot be saved.</source>
@@ -522,7 +546,7 @@ File: controllers/admin/AdminImportController.php:3627</note>
       </trans-unit>
       <trans-unit id="52629716aa86c04b8d81bc7e9522463f" approved="yes">
         <source>Store is invalid</source>
-        <target xml:lang="es-ES">La tienda no es válida</target>
+        <target xml:lang="es-ES">Tienda no es válida</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3778</note>
       </trans-unit>
@@ -552,13 +576,13 @@ File: controllers/admin/AdminImportController.php:3857</note>
       </trans-unit>
       <trans-unit id="2eca847eb03cb63596621d5480ca7c24" approved="yes">
         <source>Reference (%s) already exists (at line %d).</source>
-        <target xml:lang="es-ES">La referencia (%s) ya existe (línea %d).</target>
+        <target xml:lang="es-ES">Referencia (%s) ya existe (línea %d).</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3863</note>
       </trans-unit>
       <trans-unit id="f49f836c284f6cc5cc41737dfab70cc2" approved="yes">
         <source>Date format (%s) is not valid (at line %d). It should be: %s.</source>
-        <target xml:lang="es-ES">El formato de fecha (%s) no es válido (en la línea %d). Debe ser: %s.</target>
+        <target xml:lang="es-ES">Formato de fecha (%s) no es válido (en la línea %d). Debe ser: %s.</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3866</note>
       </trans-unit>
@@ -636,7 +660,7 @@ File: controllers/admin/AdminImportController.php:4112</note>
       </trans-unit>
       <trans-unit id="931bbbb741d025e3ff25ee3c2e72f414" approved="yes">
         <source>Linking Accessories...</source>
-        <target xml:lang="es-ES">Enlazando accesorios...</target>
+        <target xml:lang="es-ES">Vinculando accesorios...</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:4367</note>
       </trans-unit>
@@ -784,13 +808,13 @@ File: controllers/admin/AdminInformationController.php:128</note>
       </trans-unit>
       <trans-unit id="0996c7cf8e7f49f54d15b68262a6b68d" approved="yes">
         <source>Some PrestaShop files are missing from your server.</source>
-        <target xml:lang="es-ES">Algunos archivos de PrestaShop han desaparecido de su servidor.</target>
+        <target xml:lang="es-ES">Faltan archivos de PrestaShop en su servidor.</target>
         <note>Context:
 File: controllers/admin/AdminInformationController.php:129</note>
       </trans-unit>
       <trans-unit id="95095fc4bbc8b42ec512cfb1cfa19d8a" approved="yes">
         <source>You are using PHP %s version. Soon, the latest PHP version supported by PrestaShop will be PHP 5.4. To make sure you’re ready for the future, we recommend you to upgrade to PHP 5.4 now!</source>
-        <target xml:lang="es-ES">Está usando la versión %s de PHP. Pronto la última versión de PHP soportada por PrestaShop será la 5.4. ¡Para garantizar que esté preparado para el futuro actualice a PHP 5.4 ahora!</target>
+        <target xml:lang="es-ES">Está utilizando la versión %s de PHP. Pronto la última versión de PHP soportada por PrestaShop será la 5.4. ¡Para garantizar que esté preparado para el futuro actualice a PHP 5.4 ahora!</target>
         <note>Context:
 File: controllers/admin/AdminInformationController.php:130</note>
       </trans-unit>
@@ -918,7 +942,7 @@ File: controllers/admin/AdminPerformanceController.php:833</note>
       </trans-unit>
       <trans-unit id="edf1f94126dbe21f81874c2f63a64d62" approved="yes">
         <source>To use APC cache, you must install the APC PECL extension on your server.</source>
-        <target xml:lang="es-ES">Para utilizar la caché de APC, es necesario instalar la extensión PECL de APC en su servidor. =</target>
+        <target xml:lang="es-ES">Para utilizar la caché APC, debe instalar la extensión APC PECL en su servidor.</target>
         <note>Context:
 File: controllers/admin/AdminPerformanceController.php:836</note>
       </trans-unit>
@@ -930,15 +954,33 @@ File: controllers/admin/AdminPerformanceController.php:839</note>
       </trans-unit>
       <trans-unit id="fd88b530d2e1c9cc6ecaf5f20aaafc6c" approved="yes">
         <source>To use Xcache, you must configure "xcache.var_size" for the Xcache extension (recommended value 16M to 64M).</source>
-        <target xml:lang="es-ES">Para usar Xcache, debe configurar "xcache.var_size" para la extensión Xcache (valores recomendados de 16M a 64M).</target>
+        <target xml:lang="es-ES">Para utilizar Xcache, debe configurar "xcache.var_size" para la extensión Xcache (valores recomendados de 16M a 64M).</target>
         <note>Context:
 File: controllers/admin/AdminPerformanceController.php:842</note>
       </trans-unit>
       <trans-unit id="6f6a61bc2bf0a0f7a104f8c526d86206" approved="yes">
         <source>The settings file cannot be overwritten.</source>
-        <target xml:lang="es-ES">No se pueden cambiar los archivos de configuración</target>
+        <target xml:lang="es-ES">El archivo de configuración no se puede sobrescribir.</target>
         <note>Context:
 File: controllers/admin/AdminPerformanceController.php:862</note>
+      </trans-unit>
+      <trans-unit id="d4fb191ef219af010cc664bf47393e97" approved="yes">
+        <source>Error: Could not find whether debug mode is enabled. Make sure that the correct permissions are set on the file %s</source>
+        <target xml:lang="es-ES">Error: No se puede determinar si el modo de depuración está activado. Asegúrese de que cuenta con los permisos adecuados en el archivo %s</target>
+        <note>Context:
+File: controllers/admin/AdminPerformanceController.php:896</note>
+      </trans-unit>
+      <trans-unit id="667685497be44ab0fc2d4334a512405b" approved="yes">
+        <source>Error: Could not write to file. Make sure that the correct permissions are set on the file %s</source>
+        <target xml:lang="es-ES">Error: no se pudo escribir el archivo. Asegúrese de que cuenta con los permisos adecuados en el archivo %s</target>
+        <note>Context:
+File: controllers/admin/AdminPerformanceController.php:902</note>
+      </trans-unit>
+      <trans-unit id="a22bb81de6e3b8e82ac5a09f2bb7e0b4" approved="yes">
+        <source>Error: Could not read file. Make sure that the correct permissions are set on the file %s</source>
+        <target xml:lang="es-ES">Error: No se puede leer el archivo. Asegúrese de que cuenta con los permisos necesarios en el archivo: %s</target>
+        <note>Context:
+File: controllers/admin/AdminPerformanceController.php:905</note>
       </trans-unit>
     </body>
   </file>

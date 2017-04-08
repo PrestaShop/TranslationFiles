@@ -20,7 +20,7 @@ File: classes/controller/FrontController.php:1499</note>
     <body>
       <trans-unit id="01f7ac959c1e6ebbb2e0ee706a7a5255" approved="yes">
         <source>Best sellers</source>
-        <target xml:lang="es-ES">Mejores ventas</target>
+        <target xml:lang="es-ES">Los más vendidos</target>
         <note>Context:
 File: controllers/front/SitemapController.php:136</note>
       </trans-unit>
@@ -74,7 +74,7 @@ File: controllers/front/listing/SupplierController.php:185</note>
       </trans-unit>
       <trans-unit id="8e7fb1213c4692b195ed6b7cf580d7f3" approved="yes">
         <source>%number% product</source>
-        <target xml:lang="es-ES">%number% producto</target>
+        <target xml:lang="es-ES">producto %number%</target>
         <note>Context:
 File: controllers/front/listing/SupplierController.php:186</note>
       </trans-unit>
@@ -110,6 +110,12 @@ File: themes/classic/modules/ps_newproducts/views/templates/hook/ps_newproducts.
         <note>Context:
 File: themes/classic/modules/ps_specials/views/templates/hook/ps_specials.tpl:28</note>
       </trans-unit>
+      <trans-unit id="f95ceb82c51c99dc9b9e5678b291c44b" approved="yes">
+        <source>All sale products</source>
+        <target xml:lang="es-ES">Todas los productos en venta</target>
+        <note>Context:
+File: themes/classic/modules/ps_specials/views/templates/hook/ps_specials.tpl:36</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/front/listing/SearchController.php" source-language="en" target-language="es-ES" datatype="plaintext">
@@ -142,7 +148,7 @@ File: controllers/front/ProductController.php:946</note>
       </trans-unit>
       <trans-unit id="7d74f3b92b19da5e606d737d339a9679" approved="yes">
         <source>Item</source>
-        <target xml:lang="es-ES">Elemento</target>
+        <target xml:lang="es-ES">Artículo</target>
         <note>Context:
 File: controllers/front/ProductController.php:946</note>
       </trans-unit>
@@ -212,7 +218,7 @@ File: src/Adapter/NewProducts/NewProductsProductSearchProvider.php:85</note>
       </trans-unit>
       <trans-unit id="c2718c816e7ebf8495e3c9ce20061317" approved="yes">
         <source>Date added, oldest to newest</source>
-        <target xml:lang="es-ES">Fecha de añadido, más antiguos a más recientes</target>
+        <target xml:lang="es-ES">Fecha de añadido, de más antiguos a más recientes</target>
         <note>Context:
 File: src/Adapter/NewProducts/NewProductsProductSearchProvider.php:88</note>
       </trans-unit>
@@ -310,12 +316,22 @@ File: themes/classic/modules/ps_bestsellers/views/templates/hook/ps_bestsellers.
   </file>
   <file original="themes/classic/modules/ps_brandlist/views/templates/_partials/brand_form.tpl" source-language="en" target-language="es-ES" datatype="plaintext">
     <body>
-      
+      <trans-unit id="e18a22d145b38e4fff582663b5b4ec1e" approved="yes">
+        <source>All brands</source>
+        <target xml:lang="es-ES">Todas las marcas</target>
+        <note>Context:
+File: themes/classic/modules/ps_brandlist/views/templates/_partials/brand_form.tpl:28</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/modules/ps_brandlist/views/templates/hook/ps_brandlist.tpl" source-language="en" target-language="es-ES" datatype="plaintext">
     <body>
-      
+      <trans-unit id="8e41eae149ff3fa38cc9c4fde945f2c3" approved="yes">
+        <source>No brand</source>
+        <target xml:lang="es-ES">Ninguna marca</target>
+        <note>Context:
+File: themes/classic/modules/ps_brandlist/views/templates/hook/ps_brandlist.tpl:37</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/modules/ps_categoryproducts/views/templates/hook/ps_categoryproducts.tpl" source-language="en" target-language="es-ES" datatype="plaintext">
@@ -328,7 +344,7 @@ File: themes/classic/modules/ps_categoryproducts/views/templates/hook/ps_categor
       </trans-unit>
       <trans-unit id="bebb44f38b03407098d48198c1d0aaa5" approved="yes">
         <source>%s other products in the same category:</source>
-        <target xml:lang="es-ES">%s productos más en la misma categoría:</target>
+        <target xml:lang="es-ES">%s otros productos de la misma categoría:</target>
         <note>Context:
 File: themes/classic/modules/ps_categoryproducts/views/templates/hook/ps_categoryproducts.tpl:30</note>
       </trans-unit>
@@ -372,10 +388,24 @@ File: themes/classic/modules/ps_featuredproducts/views/templates/hook/ps_feature
   </file>
   <file original="themes/classic/modules/ps_productinfo/views/templates/hook/ps_productinfo.tpl" source-language="en" target-language="es-ES" datatype="plaintext">
     <body>
-      
-      
-      
-      
+      <trans-unit id="035749e4c50392a661c0f1b220ae0516" approved="yes">
+        <source>1 person is currently watching this product.</source>
+        <target xml:lang="es-ES">1 persona está viendo este producto.</target>
+        <note>Context:
+File: themes/classic/modules/ps_productinfo/views/templates/hook/ps_productinfo.tpl:29</note>
+      </trans-unit>
+      <trans-unit id="c24cf2abae9286b8f69a8ccdf7ed8d5e" approved="yes">
+        <source>%nb_people% people are currently watching this product.</source>
+        <target xml:lang="es-ES">%nb_people% personas están viendo este producto ahora mismo.</target>
+        <note>Context:
+File: themes/classic/modules/ps_productinfo/views/templates/hook/ps_productinfo.tpl:31</note>
+      </trans-unit>
+      <trans-unit id="247f15e3dc0e7906ab9573685423899f" approved="yes">
+        <source>Last time this product was bought: %date_last_order%</source>
+        <target xml:lang="es-ES">Última vez que se compró este producto: %date_last_order%</target>
+        <note>Context:
+File: themes/classic/modules/ps_productinfo/views/templates/hook/ps_productinfo.tpl:37</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/modules/ps_rssfeed/views/templates/hook/ps_rssfeed.tpl" source-language="en" target-language="es-ES" datatype="plaintext">
@@ -392,7 +422,7 @@ File: themes/classic/modules/ps_rssfeed/views/templates/hook/ps_rssfeed.tpl:36</
     <body>
       <trans-unit id="5bdba1fc0fba1010d61ce253c2e57da8" approved="yes">
         <source>Search our catalog</source>
-        <target xml:lang="es-ES">Busque en nuestro catálogo</target>
+        <target xml:lang="es-ES">Búsqueda en catálogo</target>
         <note>Context:
 File: themes/classic/modules/ps_searchbar/ps_searchbar.tpl:29</note>
       </trans-unit>

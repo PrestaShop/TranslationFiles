@@ -8,6 +8,21 @@
         <note>Context:
 File: classes/lang/OrderMessageLang.php:40</note>
       </trans-unit>
+      <trans-unit id="2a442c1a811c488f4aad5d970f1047c5" approved="yes">
+        <source>Hi,
+
+Unfortunately, an item on your order is currently out of stock. This may cause a slight delay in delivery.
+Please accept our apologies and rest assured that we are working hard to rectify this.
+
+Best regards,</source>
+        <target xml:lang="ja">お客様へ
+
+残念ながら、ご注文いただいた商品に在庫切れ商品が含まれているため、お届けに通常以上に日数が必要になる場合がございます。出来る限りの対応を行なっておりますので何卒ご理解いただけますようよろしくお願いいたします。
+
+当店をご利用いただきまして、誠にありがとうございます。</target>
+        <note>Context:
+File: classes/lang/OrderMessageLang.php:44</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/lang/OrderReturnStateLang.php" source-language="en" target-language="ja" datatype="plaintext">
@@ -277,6 +292,12 @@ File: controllers/admin/AdminOrdersController.php:269</note>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:269</note>
       </trans-unit>
+      <trans-unit id="0f005bd8209a61e4fc96a69736eb9798" approved="yes">
+        <source>Order %reference% from %firstname% %lastname%</source>
+        <target xml:lang="ja">注文参照コード： %reference%　　ご注文者： %lastname% %firstname% 様</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:287</note>
+      </trans-unit>
       <trans-unit id="6a5efd211a422296eab4adc476c98f0e" approved="yes">
         <source>Return products</source>
         <target xml:lang="ja">返品商品</target>
@@ -329,7 +350,12 @@ File: controllers/admin/AdminOrdersController.php:1731</note>
   </file>
   <file original="admin-dev/themes/default/template/controllers/customers/helpers/view/view.tpl" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      
+      <trans-unit id="36358a9d4d77cc110761aec78f98c945" approved="yes">
+        <source>Partner offers</source>
+        <target xml:lang="ja">パートナーオファー</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/customers/helpers/view/view.tpl:133</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminCustomersController.php" source-language="en" target-language="ja" datatype="plaintext">
@@ -370,17 +396,41 @@ File: controllers/admin/AdminCustomersController.php:181</note>
         <note>Context:
 File: controllers/admin/AdminCustomersController.php:182</note>
       </trans-unit>
+      <trans-unit id="888d7e26fb1b4271a83269c91134ed67" approved="yes">
+        <source>Manage your Customers</source>
+        <target xml:lang="ja">顧客情報の管理</target>
+        <note>Context:
+File: controllers/admin/AdminCustomersController.php:246</note>
+      </trans-unit>
+      <trans-unit id="05e081ecd84fdd0ee85c8dfd0f215cdf" approved="yes">
+        <source>Editing customer %s</source>
+        <target xml:lang="ja">顧客： %s の登録情報を編集</target>
+        <note>Context:
+File: controllers/admin/AdminCustomersController.php:260</note>
+      </trans-unit>
       <trans-unit id="257630448a4acd9cfc1ce6c7a5ce05f3" approved="yes">
         <source>Add new customer</source>
         <target xml:lang="ja">新しいお客様を追加</target>
         <note>Context:
 File: controllers/admin/AdminCustomersController.php:278</note>
       </trans-unit>
+      <trans-unit id="aac772216aecbeca0e86d06671fe985a" approved="yes">
+        <source>Birthday</source>
+        <target xml:lang="ja">生年月日</target>
+        <note>Context:
+File: controllers/admin/AdminCustomersController.php:404</note>
+      </trans-unit>
       <trans-unit id="920bd1fb6d54c93fca528ce941464225" approved="yes">
         <source>Group access</source>
-        <target xml:lang="ja">グループのアクセス：</target>
+        <target xml:lang="ja">グループアクセス：</target>
         <note>Context:
 File: controllers/admin/AdminCustomersController.php:474</note>
+      </trans-unit>
+      <trans-unit id="a3858e268ef19d7ec44b4e849a189a69" approved="yes">
+        <source>Default customer group</source>
+        <target xml:lang="ja">デフォルト顧客グループ</target>
+        <note>Context:
+File: controllers/admin/AdminCustomersController.php:483</note>
       </trans-unit>
       <trans-unit id="4f68183551e5dbd7c341347ffe308682" approved="yes">
         <source>SIRET</source>
@@ -399,6 +449,24 @@ File: controllers/admin/AdminCustomersController.php:530</note>
         <target xml:lang="ja">ウェブサイト</target>
         <note>Context:
 File: controllers/admin/AdminCustomersController.php:535</note>
+      </trans-unit>
+      <trans-unit id="06b7d2fbf61e5118bb87d7f561d3fa01" approved="yes">
+        <source>Average Age</source>
+        <target xml:lang="ja">平均年齢</target>
+        <note>Context:
+File: controllers/admin/AdminCustomersController.php:633</note>
+      </trans-unit>
+      <trans-unit id="d8f847a1f651aee93ecb6a22207e77b2" approved="yes">
+        <source>Orders per Customer</source>
+        <target xml:lang="ja">顧客一人あたりの注文回数</target>
+        <note>Context:
+File: controllers/admin/AdminCustomersController.php:646</note>
+      </trans-unit>
+      <trans-unit id="d7eb752a5f38ab96a8dcf110aeb9f8b3" approved="yes">
+        <source>Newsletter Registrations</source>
+        <target xml:lang="ja">メールマガジン購読者</target>
+        <note>Context:
+File: controllers/admin/AdminCustomersController.php:659</note>
       </trans-unit>
     </body>
   </file>
@@ -551,6 +619,24 @@ File: controllers/admin/AdminOutstandingController.php:97</note>
         <target xml:lang="ja">商品返品オプション</target>
         <note>Context:
 File: controllers/admin/AdminReturnController.php:55</note>
+      </trans-unit>
+      <trans-unit id="f374280fc7cab62785714cfca79b85a1" approved="yes">
+        <source>Enable returns</source>
+        <target xml:lang="ja">返品を許可する</target>
+        <note>Context:
+File: controllers/admin/AdminReturnController.php:58</note>
+      </trans-unit>
+      <trans-unit id="587398fde24739a1b7ecdb632e6855dd" approved="yes">
+        <source>Time limit of validity</source>
+        <target xml:lang="ja">受付有効期限</target>
+        <note>Context:
+File: controllers/admin/AdminReturnController.php:62</note>
+      </trans-unit>
+      <trans-unit id="942fb8edc78a4c5be5b86cc4ad009538" approved="yes">
+        <source>Returns prefix</source>
+        <target xml:lang="ja">返品伝票のプリフィックス</target>
+        <note>Context:
+File: controllers/admin/AdminReturnController.php:68</note>
       </trans-unit>
       <trans-unit id="bfc23574a242be4531bcb29877ac1d8a" approved="yes">
         <source>Return Merchandise Authorization (RMA)</source>

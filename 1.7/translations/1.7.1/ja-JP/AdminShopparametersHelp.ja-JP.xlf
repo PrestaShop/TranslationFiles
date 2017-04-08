@@ -60,6 +60,24 @@ File: controllers/admin/AdminGendersController.php:169</note>
   </file>
   <file original="controllers/admin/AdminGroupsController.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
+      <trans-unit id="0822f76515fa1d9ce38504176cb23bae" approved="yes">
+        <source>The group defined for your un-identified visitors.</source>
+        <target xml:lang="ja">未確認の訪問者であると定義されたグループ</target>
+        <note>Context:
+File: controllers/admin/AdminGroupsController.php:111</note>
+      </trans-unit>
+      <trans-unit id="e3e0c764f81f1a3677d59aa238fddd14" approved="yes">
+        <source>The group defined for your identified guest customers (used in guest checkout).</source>
+        <target xml:lang="ja">ゲスト顧客であると定義されたグループ（ゲストでの注文をご利用）。</target>
+        <note>Context:
+File: controllers/admin/AdminGroupsController.php:119</note>
+      </trans-unit>
+      <trans-unit id="e820b12959b64dfff397100db68cd951" approved="yes">
+        <source>The group defined for your identified registered customers.</source>
+        <target xml:lang="ja">顧客であると定義されたグループ。</target>
+        <note>Context:
+File: controllers/admin/AdminGroupsController.php:127</note>
+      </trans-unit>
       <trans-unit id="a5fa9ffd3ddf89fe263675358032e7fb" approved="yes">
         <source>Automatically apply this value as a discount on all products for members of this customer group.</source>
         <target xml:lang="ja">自動的にこのお客様グループのメンバーのためのすべての商品割引などにこの値を適用します。</target>
@@ -102,7 +120,7 @@ File: controllers/admin/AdminGroupsController.php:584</note>
     <body>
       <trans-unit id="23d2e4d116d9d457eed9dd3a29f7ac51" approved="yes">
         <source>Activate or deactivate your shop (It is a good idea to deactivate your shop while you perform maintenance. Please note that the webservice will not be disabled).</source>
-        <target xml:lang="ja">ショップを有効化か無効化します。ショップのメンテナンス中の場合は、無効化することをおすすめします。Webサービスが無効化になっていないことに注意してください。</target>
+        <target xml:lang="ja">ショップの表示状況を設定します。（ショップをメンテナンス中の場合は、無効に設定することをおすすめします。Webサービスが無効になっていないことには注意してください）</target>
         <note>Context:
 File: controllers/admin/AdminMaintenanceController.php:46</note>
       </trans-unit>
@@ -190,11 +208,53 @@ File: controllers/admin/AdminPPreferencesController.php:190</note>
   </file>
   <file original="controllers/admin/AdminPreferencesController.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      <trans-unit id="a1202480ddcd8665114515ca380c0e5b" approved="yes">
-        <source>Enable or disable token in the Front Office to improve PrestaShop's security.</source>
-        <target xml:lang="ja">PrestaShopのセキュリティを向上させるため、フロントオフィスでトークンを有効または無効にする。</target>
+      <trans-unit id="d86a9baf93dba6b27dbbb04cef8d3aae" approved="yes">
+        <source>When enabled, all the pages of your shop will be SSL-secured.</source>
+        <target xml:lang="ja">有効にした場合、ショップの全てのページがSSL保護されます。</target>
         <note>Context:
-File: controllers/admin/AdminPreferencesController.php:121</note>
+File: controllers/admin/AdminPreferencesController.php:110</note>
+      </trans-unit>
+      <trans-unit id="4f70bd9998bb35643fa3dfc88d6a6373" approved="yes">
+        <source>Allow iframes on text fields like product description. We recommend that you leave this option disabled.</source>
+        <target xml:lang="ja">商品詳細などのフィールドで iframes の使用を許可する。このオプションは無効としておくことをお勧めします。</target>
+        <note>Context:
+File: controllers/admin/AdminPreferencesController.php:130</note>
+      </trans-unit>
+      <trans-unit id="7ba34b929c8241268ab5eac35a772ab1" approved="yes">
+        <source>Clean the HTML content on text fields. We recommend that you leave this option enabled.</source>
+        <target xml:lang="ja">テキストフィールドのHTMLをクリーニングする。このオプションは有効にすることをお奨めします。</target>
+        <note>Context:
+File: controllers/admin/AdminPreferencesController.php:138</note>
+      </trans-unit>
+      <trans-unit id="71958504714b867b7f6f00f43b9c9bd0" approved="yes">
+        <source>You can choose among 6 different ways of rounding prices. "Round up away from zero ..." is the recommended behavior.</source>
+        <target xml:lang="ja">端数の丸め処理に関して、6つの方法から選択できます。「四捨五入」がお奨めの設定です。</target>
+        <note>Context:
+File: controllers/admin/AdminPreferencesController.php:146</note>
+      </trans-unit>
+      <trans-unit id="2b116a3c74c816d853b7d86abf838ebb" approved="yes">
+        <source>You can choose when to round prices: either on each item, each line or the total (of an invoice, for example).</source>
+        <target xml:lang="ja">どこで端数を丸めるかを選択できます：商品毎、小計毎、合計（たとえば請求書などで）</target>
+        <note>Context:
+File: controllers/admin/AdminPreferencesController.php:155</note>
+      </trans-unit>
+      <trans-unit id="2d21e9a3fe59f46db5ffdc26448e3ab6" approved="yes">
+        <source>Choose how many decimals you want to display</source>
+        <target xml:lang="ja">少数点以下何桁まで表示するかを指定してください。</target>
+        <note>Context:
+File: controllers/admin/AdminPreferencesController.php:176</note>
+      </trans-unit>
+      <trans-unit id="b6d90c5c27a4d2d48ead626c17be303c" approved="yes">
+        <source>Enable brands and suppliers pages on your front office even when their respective modules are disabled.</source>
+        <target xml:lang="ja">それぞれのモジュールが無効になっている場合でも、ショップ上でブランドとサプライヤのページを有効にする。</target>
+        <note>Context:
+File: controllers/admin/AdminPreferencesController.php:184</note>
+      </trans-unit>
+      <trans-unit id="0678cf17f202cb7fd14d79054a2e628c" approved="yes">
+        <source>Enable best sellers page on your front office even when its respective module is disabled.</source>
+        <target xml:lang="ja">それぞれのモジュールが無効になっている場合でも、ショップ上でベストセラーページを有効にする。</target>
+        <note>Context:
+File: controllers/admin/AdminPreferencesController.php:191</note>
       </trans-unit>
       <trans-unit id="d8942e5679a9104ae58333b9b4778b71" approved="yes">
         <source>The multistore feature allows you to manage several e-shops with one Back Office. If this feature is enabled, a "Multistore" page will be available in the "Advanced Parameters" menu.</source>
@@ -222,6 +282,12 @@ File: controllers/admin/AdminReferrersController.php:272</note>
   </file>
   <file original="controllers/admin/AdminSearchConfController.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
+      <trans-unit id="12399d580627a1a5889cdc44e6e48b5a" approved="yes">
+        <source>Enable the automatic indexing of products. If you enable this feature, the products will be indexed in the search automatically when they are saved. If the feature is disabled, you will have to index products manually by using the links provided in the field set.</source>
+        <target xml:lang="ja">商品の自動インデックスを有効にする。この機能を有効にした場合は、商品を保存した際に自動的に検索用インデックスに追加されます。もしこの機能を無効にしている場合には、このフィールドセット内にあるリンクから、手動で商品を検索インデックスに追加する必要があります。</target>
+        <note>Context:
+File: controllers/admin/AdminSearchConfController.php:106</note>
+      </trans-unit>
       <trans-unit id="645115aba5ef431a04da95c746477544" approved="yes">
         <source>Only words this size or larger will be indexed.</source>
         <target xml:lang="ja">このサイズか大きい単語のみ索引化されます</target>
@@ -265,6 +331,18 @@ File: controllers/admin/AdminShopController.php:485</note>
         <target xml:lang="ja">無効な文字：　数字と</target>
         <note>Context:
 File: controllers/admin/AdminStatusesController.php:484</note>
+      </trans-unit>
+      <trans-unit id="f0fe1aebeace842330fb048126151e06" approved="yes">
+        <source>Only letters, numbers and underscores ("_") are allowed.</source>
+        <target xml:lang="ja">アルファベット、数字、アンダーバー（”_”）のみ使用可。</target>
+        <note>Context:
+File: controllers/admin/AdminStatusesController.php:408</note>
+      </trans-unit>
+      <trans-unit id="3d034f43e44ee495a11005507185a0a0" approved="yes">
+        <source>Email template for both .html and .txt.</source>
+        <target xml:lang="ja">.htmlと.ｔｘｔの両方のメールテンプレート</target>
+        <note>Context:
+File: controllers/admin/AdminStatusesController.php:409</note>
       </trans-unit>
     </body>
   </file>
