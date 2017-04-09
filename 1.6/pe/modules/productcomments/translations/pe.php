@@ -53,7 +53,7 @@ $_MODULE['<{productcomments}prestashop>productcomments_deb10517653c255364175796a
 $_MODULE['<{productcomments}prestashop>productcomments_0f46dacf1a6ecab8ce1cb97250bb8113'] = 'Fecha de la publicación';
 $_MODULE['<{productcomments}prestashop>productcomments_f3d8e91894baa7ee67e0649abcc092ff'] = 'Se restringirá los criterios a las siguientes categorías';
 $_MODULE['<{productcomments}prestashop>productcomments_d3dc571a8be516766c8124a636290fd9'] = 'Marca las casillas de las categorías a las que quieras aplicar este criterio.';
-$_MODULE['<{productcomments}prestashop>productcomments_91b442d385b54e1418d81adc34871053'] = 'seleccionadas';
+$_MODULE['<{productcomments}prestashop>productcomments_91b442d385b54e1418d81adc34871053'] = 'Seleccionado';
 $_MODULE['<{productcomments}prestashop>productcomments_b56c3bda503a8dc4be356edb0cc31793'] = 'Contraer todas';
 $_MODULE['<{productcomments}prestashop>productcomments_5ffd7a335dd836b3373f5ec570a58bdc'] = 'Desplegar todas';
 $_MODULE['<{productcomments}prestashop>productcomments_5e9df908eafa83cb51c0a3720e8348c7'] = 'Seleccionar todas';
