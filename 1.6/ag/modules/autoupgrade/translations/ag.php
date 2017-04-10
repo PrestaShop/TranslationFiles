@@ -488,6 +488,9 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0a8276f35797dc24e6ccb5b5ff5c
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_10ac3d04253ef7e1ddc73e6091c0cd55'] = 'Siguiente';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_564b7c9d8683f1a94798e9f7449564e4'] = 'Opciones de actualización';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_017697f698d570dffed5f88a5a933d01'] = 'Opciones de copia de seguridad';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d1cf02f3b502ad45947b846659c7774e'] = 'Actualizar a PrestaShop %s';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_49c77c6b39fac5ce46832752e6612e9d'] = 'Actualizando a PrestaShop %s';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9a92bff0f2bacca85a22045df0ff05a7'] = '%s función esta activada';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_325be51f87717509d7c5b87d45456066'] = 'La extensión %s no está activada';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f15547fe5f9f307bd42b2c01657efbcb'] = 'Su servidor no puede descargar el archivo. Por favor, sube por primera vez por ftp en eladmin / directorio AutoUpgrade';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f2a6c498fb90ee345d997f888fce3b18'] = 'Borrar';
