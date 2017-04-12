@@ -181,8 +181,8 @@ $_LANGMAIL[', with an amount of'] = ', на стойност от';
 $_LANGMAIL['Hi {name},'] = 'Здравейте {name},';
 $_LANGMAIL['{customer} has sent you a link to a product that (s)he thinks may interest you.'] = '{customer} Ви изпрати линк към продукт, който е вероятно да Ви интересува.';
 $_LANGMAIL['Click here to view this item:'] = 'Натиснете тук за да видите този артикул:';
-$_LANGMAIL['Order edited'] = '';
-$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = '';
+$_LANGMAIL['Order edited'] = 'Поръчката е променена';
+$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = 'Вашата поръчка с референция <span><strong>{order_name}</strong></span> беше променена.';
 
 
 return $_LANGMAIL;
