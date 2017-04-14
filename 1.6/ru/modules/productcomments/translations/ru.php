@@ -39,7 +39,6 @@ $_MODULE['<{productcomments}prestashop>productcomments_87f8a6ab85c9ced3702b4ea64
 $_MODULE['<{productcomments}prestashop>productcomments_28d0edd045e05cf5af64e35ae0c4c6ef'] = 'Низкий';
 $_MODULE['<{productcomments}prestashop>productcomments_eb7d6baeb8bbf339547da7e0d6c5e416'] = 'Сообщенные обзоры';
 $_MODULE['<{productcomments}prestashop>productcomments_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
-$_MODULE['<{productcomments}prestashop>productcomments_49ee3087348e8d44e1feda1917443987'] = 'Имя';
 $_MODULE['<{productcomments}prestashop>productcomments_a1fa27779242b4902f7ae3bdd5c6d508'] = 'Тип';
 $_MODULE['<{productcomments}prestashop>productcomments_ec53a8c4f07baed5d8825072c89799be'] = 'Статус';
 $_MODULE['<{productcomments}prestashop>productcomments_8726894930330c61dd2c24ba8265364b'] = 'Добавить критерий';
@@ -68,7 +67,7 @@ $_MODULE['<{productcomments}prestashop>productcomments_ecf74aa77715220b378ec668e
 $_MODULE['<{productcomments}prestashop>productcomments-extra_7c3b0e9898b88deee7ea75aafd2e37e2'] = 'Средняя оценка';
 $_MODULE['<{productcomments}prestashop>productcomments-extra_a71a0229e164fecdcde3c4e0f40473fa'] = 'Читать отзывы пользователей';
 $_MODULE['<{productcomments}prestashop>productcomments-extra_7966126831926ad29c528b239d69f855'] = 'Оставьте свой отзыв';
-$_MODULE['<{productcomments}prestashop>productcomments_reviews_e32b7983d3bf98a65e3e96c393867dfa'] = 'Обзоров: %s';
+$_MODULE['<{productcomments}prestashop>productcomments_reviews_e32b7983d3bf98a65e3e96c393867dfa'] = 'Отзывов: %s';
 $_MODULE['<{productcomments}prestashop>productcomments_ab51a81c76d95ddc762194d58ec5db63'] = 'Вы точно хотите пожаловаться на этот комментарий?';
 $_MODULE['<{productcomments}prestashop>productcomments_9a2ccd41653469a8bd94fbb84b271a14'] = 'Ваш комментарий добавлен!';
 $_MODULE['<{productcomments}prestashop>productcomments_b20968d9aecd2d075519992e9e2f1ffe'] = 'Комментарий отправлен и будет опубликован после одобрения модератором.';
@@ -98,7 +97,7 @@ $_MODULE['<{productcomments}prestashop>form_b9aefa40a54680bb258f9f9569290fae'] =
 $_MODULE['<{productcomments}prestashop>productcomments-extra_dda9c06f33071c9b6fc237ee164109d8'] = 'Рейтинг';
 $_MODULE['<{productcomments}prestashop>productcomments-extra_899139b5174d8d7a6e38a0360008a695'] = 'Читать отзывы';
 $_MODULE['<{productcomments}prestashop>productcomments-extra_c31732fda0c6f01c446db7163b214de4'] = 'Написать отзыв';
-$_MODULE['<{productcomments}prestashop>productcomments_reviews_d844ad9202d0de8442498775ba6ef819'] = 'Обзор(ы)';
+$_MODULE['<{productcomments}prestashop>productcomments_reviews_d844ad9202d0de8442498775ba6ef819'] = 'Отзыв(ов)';
 $_MODULE['<{productcomments}prestashop>productcomments_93cba07454f06a4a960172bbd6e2a435'] = 'Да';
 $_MODULE['<{productcomments}prestashop>productcomments_bafd7322c6e97d25b6299b5d6fe8920b'] = 'Нет';
 $_MODULE['<{productcomments}prestashop>productcomments_c565011debb8e2812ef12853eb6a38a9'] = 'Оставьте свой отзыв!';

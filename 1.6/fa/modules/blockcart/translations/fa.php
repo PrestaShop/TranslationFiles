@@ -53,7 +53,7 @@ $_MODULE['<{blockcart}prestashop>blockcart_db205f01b4fd580fb5daa9072d96849d'] = 
 $_MODULE['<{blockcart}prestashop>blockcart_21034ae6d01a83e702839a72ba8a77b0'] = '(بدون مالیات)';
 $_MODULE['<{blockcart}prestashop>blockcart_1f87346a16cf80c372065de3c54c86d9'] = '(با مالیات)';
 $_MODULE['<{blockcart}prestashop>blockcart_f4e8b53a114e5a17d051ab84d326cae5'] = 'جمع هزینه حمل';
-$_MODULE['<{blockcart}prestashop>blockcart_300225ee958b6350abc51805dab83c24'] = 'ادامه خرید';
+$_MODULE['<{blockcart}prestashop>blockcart_300225ee958b6350abc51805dab83c24'] = 'بازگشت به فروشگاه';
 $_MODULE['<{blockcart}prestashop>blockcart_7e0bf6d67701868aac3116ade8fea957'] = 'پرداخت نهایی';
 
 
