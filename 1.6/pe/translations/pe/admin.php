@@ -2982,7 +2982,6 @@ $_LANGADM['AdminThemesa33388a338ee2b199d66112369279558'] = 'URL del archivo';
 $_LANGADM['AdminThemesf545e8220cd6f37617c495e59695f7f3'] = 'Indique la URL completa del archivo Zip online que contiene su nuevo tema. Por ejemplo, "http://example.com/files/theme.zip".';
 $_LANGADM['AdminThemescd8d9cc19984ccf9d314eee5eebfc2cc'] = 'Importar desde el FTP';
 $_LANGADM['AdminThemesa5a23094873852f0c0a9e55be4f1cf1d'] = 'Seleccione el archivo';
-$_LANGADM['AdminThemesae814622830bb4495d1d092bac1ff350'] = 'La lista de selección muestra los archivos Zip que ha subido en la carpeta \'/themes\' .';
 $_LANGADM['AdminThemesacc8673e7974ae210b92c7ded420c81d'] = 'Crear un tema nuevo';
 $_LANGADM['AdminThemesb6666b31028006c5f1be07f00d2f4492'] = 'Módulos para instalar';
 $_LANGADM['AdminThemesfd8198ccce04206673bf50c4d69bbd7e'] = 'En ocasiones, los temas incluyen sus propios módulos para funcionar correctamente. Esta opción permite que pueda elegir qué módulos se activarán y cuales se desactivarán. Si no está seguro de que hacer a continuación, presione el botón "Guardar" y continue en el siguiente paso.';
