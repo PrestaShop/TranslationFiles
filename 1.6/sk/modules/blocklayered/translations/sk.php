@@ -20,7 +20,7 @@ $_MODULE['<{blocklayered}prestashop>blocklayered_3601146c4e948c32b6424d2c0a7f011
 $_MODULE['<{blocklayered}prestashop>blocklayered_8c489d0946f66d17d73f26366a4bf620'] = 'Hmotnosť';
 $_MODULE['<{blocklayered}prestashop>blocklayered_03c2e7e41ffc181a4e84080b4710e81e'] = 'Nové';
 $_MODULE['<{blocklayered}prestashop>blocklayered_019d1ca7d50cc54b995f60d456435e87'] = 'Použité';
-$_MODULE['<{blocklayered}prestashop>blocklayered_6da03a74721a0554b7143254225cc08a'] = 'Vynovené';
+$_MODULE['<{blocklayered}prestashop>blocklayered_6da03a74721a0554b7143254225cc08a'] = 'Repasované';
 $_MODULE['<{blocklayered}prestashop>blocklayered_9e2941b3c81256fac10392aaca4ccfde'] = 'Stav';
 $_MODULE['<{blocklayered}prestashop>blocklayered_2d25c72c1b18e562f6654fff8e11711e'] = 'Nedostupné';
 $_MODULE['<{blocklayered}prestashop>blocklayered_fcebe56087b9373f15514831184fa572'] = 'Na sklade';
