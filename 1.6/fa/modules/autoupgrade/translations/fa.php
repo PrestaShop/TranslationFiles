@@ -228,6 +228,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_36d56d20b3894281531cd4108e2c
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_eac34868b4fb511702e53d1405c45454'] = 'خطا در هنگام ارتقا پایگاه داده.ممکن است احتیاج به بازگردانی پایگاه داده خود داشته باشید.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_08ee54c048e1589f4072a351035db2ad'] = 'پایگاه داده ارتقا داده شد.در حال ارتقا ماژول های افزونه ها...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ead14b0273e8d6cae7d146130d4be8f6'] = 'پایگاه داده پاکسازی شد.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0bebfc8987ec38d90350bf4ac3e7e391'] = 'پاک کردن کش فراموش نشود (پارامترهای پیشرفته > کارایی > پاک کردن کش)';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3b8f044559a7568ea572776caf1d6526'] = 'فایل config/settings.inc.php یافت نشد.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_22f18bac5d420d7ac5aca37b1afe30c9'] = 'نسخه فعلی:%1$s. نسخه برای نصب:%2$s.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_6b81346a0c9173213e0c32d0082dc073'] = 'نسخه فعلی:%1$s. نسخه برای نصب:%2$s';
