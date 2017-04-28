@@ -16,7 +16,7 @@ $_MODULE['<{homefeatured}prestashop>homefeatured_1b73f6b70a0fcd38bbc6a6e4b67e301
 $_MODULE['<{homefeatured}prestashop>homefeatured_b773a38d8c456f7b24506c0e3cd67889'] = 'Kategória, z ktorej budú vybrané produkty pre zobrazenie';
 $_MODULE['<{homefeatured}prestashop>homefeatured_0db2d53545e2ee088cfb3f45e618ba68'] = 'Zadajte ID kategórie produktov, ktorú si prajete zobraziť na hlavnej stránke. (Predvolené: 2 pre "Home")';
 $_MODULE['<{homefeatured}prestashop>homefeatured_49417670345173e7b95018b7bf976fc7'] = 'Zobrazovať náhodne doporučené produkty';
-$_MODULE['<{homefeatured}prestashop>homefeatured_3c12c1068fb0e02fe65a6c4fc40bc29a'] = 'Zapnite, ak chete, aby sa produkty zobrazovali náhodne. (Predvolené: Vypnuté)';
+$_MODULE['<{homefeatured}prestashop>homefeatured_3c12c1068fb0e02fe65a6c4fc40bc29a'] = 'Zapnite, ak chcete, aby sa produkty zobrazovali náhodne. (Predvolené: Vypnuté)';
 $_MODULE['<{homefeatured}prestashop>homefeatured_93cba07454f06a4a960172bbd6e2a435'] = 'Áno';
 $_MODULE['<{homefeatured}prestashop>homefeatured_bafd7322c6e97d25b6299b5d6fe8920b'] = 'Nie';
 $_MODULE['<{homefeatured}prestashop>homefeatured_c9cc8cce247e49bae79f15173ce97354'] = 'Uložiť';
