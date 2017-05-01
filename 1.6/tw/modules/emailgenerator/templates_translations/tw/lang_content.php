@@ -17,7 +17,7 @@ $_LANGMAIL['Should you suspect someone is using your account illegally, please n
 $_LANGMAIL['You can now place orders on our shop:'] = '您現在可以開始在我們的商店盡情購物了：';
 $_LANGMAIL['A new order has been generated on your behalf.'] = '已經以您的名義產生一筆新訂單。';
 $_LANGMAIL['Please go on <a href="{order_link}">{order_link}</a> to finalize the payment.'] = '請到<a href="{order_link}">{order_link}</a> 完成付款動作。';
-$_LANGMAIL['Thank you for shopping with {shop_name}!'] = '多謝惠顧 {shop_name}!';
+$_LANGMAIL['Thank you for shopping with {shop_name}!'] = '{shop_name} 感謝您的惠顧。';
 $_LANGMAIL['Order {order_name}'] = '訂單編號 {order_name}';
 $_LANGMAIL['Awaiting wire payment'] = '等待電匯付款';
 $_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been placed successfully and will be <strong>shipped as soon as we receive your payment</strong>.'] = '我們已收到編號 <span><strong>{order_name}</strong></span> 的訂單，我們將在<strong>收到您的款項後馬上發貨</strong> 。';
