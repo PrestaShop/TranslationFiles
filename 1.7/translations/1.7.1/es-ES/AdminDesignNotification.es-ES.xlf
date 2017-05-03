@@ -52,7 +52,7 @@ File: controllers/admin/AdminImagesController.php:364</note>
       </trans-unit>
       <trans-unit id="e8be55bf3a30501aef09d2e74de97976" approved="yes">
         <source>This name already exists.</source>
-        <target xml:lang="es-ES">este nombre ya existe</target>
+        <target xml:lang="es-ES">Este nombre ya existe.</target>
         <note>Context:
 File: controllers/admin/AdminImagesController.php:389</note>
       </trans-unit>
@@ -76,7 +76,7 @@ File: controllers/admin/AdminImagesController.php:507</note>
       </trans-unit>
       <trans-unit id="103d86044b78fa59e02ff8480a3a2f46" approved="yes">
         <source>Original image is corrupt (%filename%) for product ID %id% or bad permission on folder.</source>
-        <target xml:lang="es-ES">La imagen original está corrupta (%filename%) para el ID de producto %id% o los permisos de la carpeta están mal.</target>
+        <target xml:lang="es-ES">La imagen original está corrupta (%filename%) para el ID de producto %id%, o los permisos de la carpeta son erróneos.</target>
         <note>Context:
 File: controllers/admin/AdminImagesController.php:539</note>
       </trans-unit>
@@ -86,39 +86,51 @@ File: controllers/admin/AdminImagesController.php:539</note>
         <note>Context:
 File: controllers/admin/AdminImagesController.php:552</note>
       </trans-unit>
+      <trans-unit id="8b772dad7cc4ed15eaf0c433f861e55c" approved="yes">
+        <source>Cannot write images for this type: %1$s. Please check the %2$s folder's writing permissions.</source>
+        <target xml:lang="es-ES">No se pueden escribir imágenes para este tipo: %1$s. Compruebe los permisos de escritura de la carpeta %2$s.</target>
+        <note>Context:
+File: controllers/admin/AdminImagesController.php:672</note>
+      </trans-unit>
       <trans-unit id="d4f225ec09e4b0eba6558753f4bd8edd" approved="yes">
         <source>Only part of the images have been regenerated. The server timed out before finishing.</source>
-        <target xml:lang="es-ES">Solamente una parte de las imágenes se ha regenerado, la conexión con el servidor ha expirado antes del final.</target>
+        <target xml:lang="es-ES">Solamente una parte de las imágenes han sido regeneradas. La conexión con el servidor se interrumpió antes de finalizar.</target>
         <note>Context:
 File: controllers/admin/AdminImagesController.php:675</note>
       </trans-unit>
       <trans-unit id="f2febdafe25d3517afc3c6dd3d815562" approved="yes">
         <source>Server timed out. The watermark may not have been applied to all images.</source>
-        <target xml:lang="es-ES">La conexión al servidor expiró, la filigrana no se ha podido aplicar a todas las imígenes.</target>
+        <target xml:lang="es-ES">Tiempo de espera agotado. Es posible que la marca de agua no se haya aplicado a todas las imágenes.</target>
         <note>Context:
 File: controllers/admin/AdminImagesController.php:679</note>
       </trans-unit>
+      <trans-unit id="606495559093a136ed6f2c9daee2645f" approved="yes">
+        <source>Cannot write "No picture" image to %s images folder. Please check the folder's writing permissions.</source>
+        <target xml:lang="es-ES">No se puede escribir la imagen "Sin imagen" en la carpeta de imágenes %s. Por favor, compruebe los permisos de la carpeta.</target>
+        <note>Context:
+File: controllers/admin/AdminImagesController.php:684</note>
+      </trans-unit>
       <trans-unit id="4004c7590c68a8cbbe499736c56bc33c" approved="yes">
         <source>Error: Your server configuration is not compatible with the new image system. No images were moved.</source>
-        <target xml:lang="es-ES">Error: la configuración del servidor no es compatible con el sistema de la nueva imagen. No se movieron las imágenes</target>
+        <target xml:lang="es-ES">Error: La configuración del servidor no es compatible con el nuevo sistema de imagen. No se movieron las imágenes.</target>
         <note>Context:
 File: controllers/admin/AdminImagesController.php:711</note>
       </trans-unit>
       <trans-unit id="4c9f49243d6dc02028801d9767abe3c1" approved="yes">
         <source>Not all images have been moved. The server timed out before finishing. Click on "Move images" again to resume the moving process.</source>
-        <target xml:lang="es-ES">No todas las imágenes se han movido, el servidor no ha terminado el proceso. Haga clic de nuevo en "Mover las imágenes" para reanudar la carga de las imágenes"</target>
+        <target xml:lang="es-ES">No todas las imágenes fueron movidas. Se agotó el tiempo de espera de la conexión con el servidor, antes de finalizar el proceso. Haga clic de nuevo en "Mover las imágenes" para reanudar el proceso de movimiento de imágenes.</target>
         <note>Context:
 File: controllers/admin/AdminImagesController.php:717</note>
       </trans-unit>
       <trans-unit id="95871efade00fbd0243355ce7937c40a" approved="yes">
         <source>Error: Some -- or all -- images cannot be moved.</source>
-        <target xml:lang="es-ES">Error: Algunas (o todas) fotos no pueden moverse.</target>
+        <target xml:lang="es-ES">Error: Algunas -- o todas -- imágenes no pudieron moverse.</target>
         <note>Context:
 File: controllers/admin/AdminImagesController.php:719</note>
       </trans-unit>
       <trans-unit id="cb2f901ceed5c3365d056794a1b5047f" approved="yes">
         <source>After modification, do not forget to regenerate thumbnails</source>
-        <target xml:lang="es-ES">Después de las modificaciones, no olvide regenerar las miniaturas</target>
+        <target xml:lang="es-ES">Después de la modificación, no olvide regenerar las miniaturas</target>
         <note>Context:
 File: controllers/admin/AdminImagesController.php:737</note>
       </trans-unit>
@@ -131,6 +143,12 @@ File: controllers/admin/AdminImagesController.php:737</note>
         <target xml:lang="es-ES">El archivo subido es demasiado grande.</target>
         <note>Context:
 File: controllers/admin/AdminThemesController.php:401</note>
+      </trans-unit>
+      <trans-unit id="9ccfef29efe298e9a48295a69436e11f" approved="yes">
+        <source><![CDATA[Your theme has been correctly reset to its default settings. You may want to regenerate your images. See the Improve > Design > Images Settings screen for the 'Regenerate thumbnails' button.]]></source>
+        <target xml:lang="es-ES"><![CDATA[El tema se ha restablecido a su configuración predeterminada. Si desea regenerar sus imágenes, diríjase a Mejoras > Diseño > Ajustes de imágenes, y haga clic al botón 'Regenerar miniaturas'.]]></target>
+        <note>Context:
+File: controllers/admin/AdminThemesController.php:339</note>
       </trans-unit>
       <trans-unit id="1ecb89bb5b6dce906edaf8e12968c167" approved="yes">
         <source>Invalid file format.</source>
@@ -146,7 +164,7 @@ File: controllers/admin/AdminThemesController.php:449</note>
       </trans-unit>
       <trans-unit id="3cb5c48f468125102a98fe83a277029d" approved="yes">
         <source>Warning: if no email logo is available, the main logo will be used instead.</source>
-        <target xml:lang="es-ES">Advertencia: si no hay un logo para el correo electrónico, se utilizará en su lugar el logotipo principal.</target>
+        <target xml:lang="es-ES">Advertencia: si no hay logotipo de correo electrónico disponible, se utilizará el logotipo principal.</target>
         <note>Context:
 File: controllers/admin/AdminThemesController.php:495</note>
       </trans-unit>

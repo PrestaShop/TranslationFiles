@@ -72,11 +72,35 @@ File: modules/ps_facetedsearch/ps_facetedsearch.php:2615</note>
   </file>
   <file original="modules/ps_facetedsearch/views/templates/admin/add.tpl" source-language="en" target-language="ja" datatype="plaintext">
     <body>
+      <trans-unit id="4284fda63513b7da70b5d8f032900580" approved="yes">
+        <source>Only as a reminder</source>
+        <target xml:lang="ja">管理画面内での表示のみ。後で内容が判るような名前をつけてください。</target>
+        <note>Context:
+File: modules/ps_facetedsearch/views/templates/admin/add.tpl:10</note>
+      </trans-unit>
+      <trans-unit id="5d9632c49fb1586eed7123afe2bd806f" approved="yes">
+        <source>Categories used for this template:</source>
+        <target xml:lang="ja">この検索条件を適用するカテゴリ：</target>
+        <note>Context:
+File: modules/ps_facetedsearch/views/templates/admin/add.tpl:14</note>
+      </trans-unit>
       <trans-unit id="c2d0bf5ad42279c519cdcb4a94eb46b6" approved="yes">
         <source>Choose shop association:</source>
         <target xml:lang="ja">関連するショップを選択：</target>
         <note>Context:
 File: modules/ps_facetedsearch/views/templates/admin/add.tpl:27</note>
+      </trans-unit>
+      <trans-unit id="88ec58dbbe7a8b727200696cfca4df3d" approved="yes">
+        <source>You can drag and drop filters to adjust position</source>
+        <target xml:lang="ja">表示順を変更する場合、フィルタをドラッグアンドドロップで移動できます</target>
+        <note>Context:
+File: modules/ps_facetedsearch/views/templates/admin/add.tpl:34</note>
+      </trans-unit>
+      <trans-unit id="60266302eeda2ac9775c3a2036ae25ca" approved="yes">
+        <source>Filters:</source>
+        <target xml:lang="ja">検索フィルター：</target>
+        <note>Context:
+File: modules/ps_facetedsearch/views/templates/admin/add.tpl:34</note>
       </trans-unit>
       <trans-unit id="cfbc982f8fb7a0cc3abb3c85c795ab41" approved="yes">
         <source>Sub-categories filter</source>
@@ -98,21 +122,15 @@ File: modules/ps_facetedsearch/views/templates/admin/add.tpl:384</note>
       </trans-unit>
       <trans-unit id="cd50ff1c5332f9920acf8173c4aab425" approved="yes">
         <source>Product stock filter</source>
-        <target xml:lang="ja">商品の在庫フィルター</target>
+        <target xml:lang="ja">商品在庫のフィルター</target>
         <note>Context:
 File: modules/ps_facetedsearch/views/templates/admin/add.tpl:98</note>
       </trans-unit>
       <trans-unit id="048c1728a0a6cf36f56c9dcdd23d8a14" approved="yes">
         <source>Product condition filter</source>
-        <target xml:lang="ja">商品の条件フィルター</target>
+        <target xml:lang="ja">商品コンディションのフィルター</target>
         <note>Context:
 File: modules/ps_facetedsearch/views/templates/admin/add.tpl:135</note>
-      </trans-unit>
-      <trans-unit id="cc72ed9534a489b5d2e5882735bf1364" approved="yes">
-        <source>Product weight filter (slider)</source>
-        <target xml:lang="ja">商品の重量フィルター（スライダー）</target>
-        <note>Context:
-File: modules/ps_facetedsearch/views/templates/admin/add.tpl:209</note>
       </trans-unit>
       <trans-unit id="0649bb392812f99ff6b0e2ba160675fa" approved="yes">
         <source>Product price filter (slider)</source>
@@ -120,11 +138,23 @@ File: modules/ps_facetedsearch/views/templates/admin/add.tpl:209</note>
         <note>Context:
 File: modules/ps_facetedsearch/views/templates/admin/add.tpl:243</note>
       </trans-unit>
+      <trans-unit id="db6b86d05039c4f657a28647f8eb5140" approved="yes">
+        <source>Attribute group: %name% (%count% attributes)</source>
+        <target xml:lang="ja">オプショングループ：%name% (%count% 種類)</target>
+        <note>Context:
+File: modules/ps_facetedsearch/views/templates/admin/add.tpl:281</note>
+      </trans-unit>
       <trans-unit id="ee59f74265cd7f85d0ad30206a1a89b0" approved="yes">
         <source>This group will allow user to select a color</source>
         <target xml:lang="ja">このグループはユーザが色を選択できるようになります</target>
         <note>Context:
 File: modules/ps_facetedsearch/views/templates/admin/add.tpl:300</note>
+      </trans-unit>
+      <trans-unit id="4127fb33c1db9597f3c881ae057f1370" approved="yes">
+        <source>Feature: %name% (%count% values)</source>
+        <target xml:lang="ja">商品データ項目：%name% (%count% 種類)</target>
+        <note>Context:
+File: modules/ps_facetedsearch/views/templates/admin/add.tpl:346</note>
       </trans-unit>
     </body>
   </file>
@@ -156,7 +186,7 @@ File: modules/ps_facetedsearch/views/templates/admin/view.tpl:18</note>
       </trans-unit>
       <trans-unit id="df2bbc994d10995dcffdf96dbb7acbb1" approved="yes">
         <source>Indexes and caches</source>
-        <target xml:lang="ja">索引とキャッシュ</target>
+        <target xml:lang="ja">インデックスとキャッシュ</target>
         <note>Context:
 File: modules/ps_facetedsearch/views/templates/admin/view.tpl:25</note>
       </trans-unit>
@@ -168,39 +198,51 @@ File: modules/ps_facetedsearch/views/templates/admin/view.tpl:27</note>
       </trans-unit>
       <trans-unit id="5e2420d2318025812dc3e231ddb66b0b" approved="yes">
         <source>Index all missing prices</source>
-        <target xml:lang="ja">すべての不足している価格を索引</target>
+        <target xml:lang="ja">不足している価格情報をインデックスする</target>
         <note>Context:
 File: modules/ps_facetedsearch/views/templates/admin/view.tpl:31</note>
       </trans-unit>
       <trans-unit id="9612e005e96ad32b8830be4d0377e7e6" approved="yes">
         <source>Rebuild entire price index</source>
-        <target xml:lang="ja">全体の価格インデックスを再構築します</target>
+        <target xml:lang="ja">すべての価格インデックスを再構築します</target>
         <note>Context:
 File: modules/ps_facetedsearch/views/templates/admin/view.tpl:32</note>
       </trans-unit>
       <trans-unit id="d47f700b6db025d98cae0b340ed847e9" approved="yes">
         <source>Build attribute index</source>
-        <target xml:lang="ja">属性索引を構築</target>
+        <target xml:lang="ja">オプション情報インデックスを構築</target>
         <note>Context:
 File: modules/ps_facetedsearch/views/templates/admin/view.tpl:33</note>
       </trans-unit>
       <trans-unit id="53795c3624ae2361363780589aa2aa42" approved="yes">
         <source>You can set a cron job that will rebuild price index using the following URL:</source>
-        <target xml:lang="ja">次のURLを使用して、価格の索引を再構築するcronジョブを設定することができます：</target>
+        <target xml:lang="ja">次のURLを利用して、価格インデックスを再構築するための CRON ジョブを設定することができます：</target>
         <note>Context:
 File: modules/ps_facetedsearch/views/templates/admin/view.tpl:38</note>
       </trans-unit>
       <trans-unit id="e43b32b88c77e49f06144cd1ffaeba96" approved="yes">
         <source>You can set a cron job that will rebuild attribute index using the following URL:</source>
-        <target xml:lang="ja">次のURLを使用して、属性の索引を再構築するcronジョブを設定することができます：</target>
+        <target xml:lang="ja">次のURLを利用して、オプション情報インデックスを再構築するための CRON ジョブを設定することができます：</target>
         <note>Context:
 File: modules/ps_facetedsearch/views/templates/admin/view.tpl:43</note>
       </trans-unit>
       <trans-unit id="16349835364cf839e6670b0de7da6362" approved="yes">
         <source>A nightly rebuild is recommended.</source>
-        <target xml:lang="ja">毎晩再構築することをおすすめします。</target>
+        <target xml:lang="ja">毎日深夜にインデックスの再構築を行なう事をおすすめします。</target>
         <note>Context:
 File: modules/ps_facetedsearch/views/templates/admin/view.tpl:49</note>
+      </trans-unit>
+      <trans-unit id="dc83eb2d8601743d8111c5150b93fc71" approved="yes">
+        <source>Filters templates</source>
+        <target xml:lang="ja">検索条件テンプレート</target>
+        <note>Context:
+File: modules/ps_facetedsearch/views/templates/admin/view.tpl:53</note>
+      </trans-unit>
+      <trans-unit id="f7f19392da30e81c3abf433ce7b8ca38" approved="yes">
+        <source>Created on</source>
+        <target xml:lang="ja">作成日時</target>
+        <note>Context:
+File: modules/ps_facetedsearch/views/templates/admin/view.tpl:62</note>
       </trans-unit>
       <trans-unit id="06df33001c1d7187fdd81ea1f5b277aa" approved="yes">
         <source>Actions</source>
@@ -228,7 +270,7 @@ File: modules/ps_facetedsearch/views/templates/admin/view.tpl:114</note>
       </trans-unit>
       <trans-unit id="ee61c015043c79c1370fc14980dd27b9" approved="yes">
         <source>Show products from subcategories</source>
-        <target xml:lang="ja">購読者からの商品を表示</target>
+        <target xml:lang="ja">サブカテゴリの商品を表示</target>
         <note>Context:
 File: modules/ps_facetedsearch/views/templates/admin/view.tpl:130</note>
       </trans-unit>
@@ -240,9 +282,15 @@ File: modules/ps_facetedsearch/views/templates/admin/view.tpl:146</note>
       </trans-unit>
       <trans-unit id="3e652bd299bb3ee3d458c0dcc7fd706e" approved="yes">
         <source>Use tax to filter price</source>
-        <target xml:lang="ja">価格をフィルターするのに税を使用</target>
+        <target xml:lang="ja">価格条件に税を含める</target>
         <note>Context:
 File: modules/ps_facetedsearch/views/templates/admin/view.tpl:152</note>
+      </trans-unit>
+      <trans-unit id="30b1f6f4369e3d0f7a0d50b5cb96aabd" approved="yes">
+        <source>Use rounding to filter price</source>
+        <target xml:lang="ja">価格条件で少数点を丸める</target>
+        <note>Context:
+File: modules/ps_facetedsearch/views/templates/admin/view.tpl:168</note>
       </trans-unit>
       <trans-unit id="7cf7d150dd287df0a8e17eeb4cf2161d" approved="yes">
         <source>(in progress, %s products price to index)</source>
