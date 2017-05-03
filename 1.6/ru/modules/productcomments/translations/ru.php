@@ -37,7 +37,7 @@ $_MODULE['<{productcomments}prestashop>productcomments_2ec265696a51530949d345239
 $_MODULE['<{productcomments}prestashop>productcomments_655d20c1ca69519ca647684edbb2db35'] = 'Высокая';
 $_MODULE['<{productcomments}prestashop>productcomments_87f8a6ab85c9ced3702b4ea641ad4bb5'] = 'Средняя';
 $_MODULE['<{productcomments}prestashop>productcomments_28d0edd045e05cf5af64e35ae0c4c6ef'] = 'Низкий';
-$_MODULE['<{productcomments}prestashop>productcomments_eb7d6baeb8bbf339547da7e0d6c5e416'] = 'Отзывы с жалобами на них';
+$_MODULE['<{productcomments}prestashop>productcomments_eb7d6baeb8bbf339547da7e0d6c5e416'] = 'Жалобы на отзывы';
 $_MODULE['<{productcomments}prestashop>productcomments_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
 $_MODULE['<{productcomments}prestashop>productcomments_49ee3087348e8d44e1feda1917443987'] = 'Название';
 $_MODULE['<{productcomments}prestashop>productcomments_a1fa27779242b4902f7ae3bdd5c6d508'] = 'Тип';
