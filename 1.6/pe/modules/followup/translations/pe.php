@@ -30,7 +30,6 @@ $_MODULE['<{followup}prestashop>followup_895858cf10b8a1750a42875cb9c69092'] = 'P
 $_MODULE['<{followup}prestashop>followup_f120254f109d626d73ddddeb9cda26e5'] = 'El próximo envío transmmitirá: %d emails';
 $_MODULE['<{followup}prestashop>followup_8b83489bd116cb60e2f348e9c63cd7f6'] = 'Mejores clientes';
 $_MODULE['<{followup}prestashop>followup_a46ad892f7f00e051cc90050ff2e1ddf'] = 'Para cada cliente cuyo pedido total alcanza cierto importe en un plazo de tiempo concreto, genera un vale de compra y se lo envía';
-$_MODULE['<{followup}prestashop>followup_2a63f555989152ba866b43a1faacd680'] = 'Importe';
 $_MODULE['<{followup}prestashop>followup_7d75b7b0f976b3091f490864c6ffbf97'] = 'Malos clientes';
 $_MODULE['<{followup}prestashop>followup_346f38f5b951daec00dcca38364f8359'] = 'Para cada cliente que ya ha efectuado al menos un pedido y no ha vuelto a pedir durante un tiempo determinado, generar un descuento y lo envía al cliente.';
 $_MODULE['<{followup}prestashop>followup_d82843c16839bfb05827d1912d89c917'] = 'Desde X días';

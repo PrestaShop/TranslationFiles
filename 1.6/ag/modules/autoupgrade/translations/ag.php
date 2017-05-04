@@ -229,6 +229,9 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_36d56d20b3894281531cd4108e2c
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_eac34868b4fb511702e53d1405c45454'] = 'Error durante la actualización de la base de datos. Puede que tenga que restaurar la base de datos.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_08ee54c048e1589f4072a351035db2ad'] = 'Base de datos actualizada. Actualizando ahora sus módulos de Addons...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ead14b0273e8d6cae7d146130d4be8f6'] = 'La base de datos ha sido limpiada.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0bebfc8987ec38d90350bf4ac3e7e391'] = 'No olvide limpiar la caché (Parámetros avanzados > Rendimiento > Limpiar caché)';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e0ab14f314654aac28f3a3227896079f'] = 'el directorio no existe en el archivo o directorio';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_55c1713f90add7c448328323af0c1b9d'] = 'No puede actualizar a esta versión.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3b8f044559a7568ea572776caf1d6526'] = 'No se encuentra el archivo config/settings.inc.php';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_22f18bac5d420d7ac5aca37b1afe30c9'] = 'Versión actual: %1$s. Versión a instalar: %2$s.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_6b81346a0c9173213e0c32d0082dc073'] = 'Versión actual: %1$s. Versión a instalar: %2$s';
@@ -490,6 +493,8 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_564b7c9d8683f1a94798e9f74495
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_017697f698d570dffed5f88a5a933d01'] = 'Opciones de copia de seguridad';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d1cf02f3b502ad45947b846659c7774e'] = 'Actualizar a PrestaShop %s';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_49c77c6b39fac5ce46832752e6612e9d'] = 'Actualizando a PrestaShop %s';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b3e205a87c7cf99915d86ffe496f1706'] = 'Migrar desde PrestaShop %s a la versión PrestaShop %s tendrá un GRAN impacto en su tienda.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ba4e6bdd93c2f0c0e133bb94c27623ad'] = 'La carpeta %s ya existe';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9a92bff0f2bacca85a22045df0ff05a7'] = '%s función esta activada';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_325be51f87717509d7c5b87d45456066'] = 'La extensión %s no está activada';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f15547fe5f9f307bd42b2c01657efbcb'] = 'Su servidor no puede descargar el archivo. Por favor, sube por primera vez por ftp en eladmin / directorio AutoUpgrade';
