@@ -11,6 +11,7 @@ $_TABS['AdminTools'] = 'Parámetros Avanzados';
 $_TABS['AdminCms'] = 'Páginas CMS';
 $_TABS['AdminCmsCategories'] = 'Categorías CMS';
 $_TABS['AdminAttributeGenerator'] = 'Generador de Combinaciones';
+$_TABS['AdminSearch'] = 'Buscar';
 $_TABS['AdminLogin'] = 'Iniciar sesión';
 $_TABS['AdminShopUrl'] = 'URLs de la tienda';
 $_TABS['AdminBlockCategories'] = 'Bloque Categorías';
