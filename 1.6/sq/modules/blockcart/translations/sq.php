@@ -26,7 +26,6 @@ $_MODULE['<{blockcart}prestashop>blockcart_f2a6c498fb90ee345d997f888fce3b18'] = 
 $_MODULE['<{blockcart}prestashop>blockcart_0c3bf3014aafb90201805e45b5e62881'] = 'Shfaq shportën time';
 $_MODULE['<{blockcart}prestashop>blockcart_a85eba4c6c699122b2bb1387ea4813ad'] = 'Shporta';
 $_MODULE['<{blockcart}prestashop>blockcart_068f80c7519d0528fb08e82137a72131'] = 'Produkte';
-$_MODULE['<{blockcart}prestashop>blockcart_deb10517653c255364175796ace3553f'] = 'Produkt';
 $_MODULE['<{blockcart}prestashop>blockcart_9e65b51e82f2a9b9f72ebe3e083582bb'] = '(zbrazët)';
 $_MODULE['<{blockcart}prestashop>blockcart_0da4d96cad73748e2f608d31cfb3247c'] = 'Luteni ta largoni këtë produkt nga shporta.';
 $_MODULE['<{blockcart}prestashop>blockcart_4b7d496eedb665d0b5f589f2f874e7cb'] = 'Detajet';

@@ -8,7 +8,6 @@ $_MODULE['<{dashproducts}prestashop>dashproducts_96b0141273eabab320119c467cdcaf1
 $_MODULE['<{dashproducts}prestashop>dashproducts_44749712dbec183e983dcd78a7736c41'] = 'Data';
 $_MODULE['<{dashproducts}prestashop>dashproducts_ec53a8c4f07baed5d8825072c89799be'] = 'Statusi';
 $_MODULE['<{dashproducts}prestashop>dashproducts_3ec365dd533ddb7ef3d1c111186ce872'] = 'Detajet:';
-$_MODULE['<{dashproducts}prestashop>dashproducts_deb10517653c255364175796ace3553f'] = 'Produkt';
 $_MODULE['<{dashproducts}prestashop>dashproducts_3adbdb3ac060038aa0e6e6c138ef9873'] = 'Kategoria';
 $_MODULE['<{dashproducts}prestashop>dashproducts_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'Shitjet';
 $_MODULE['<{dashproducts}prestashop>dashproducts_13348442cc6a27032d2b4aa28b75a5d3'] = 'Kërko';

@@ -3,7 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{blockviewed}prestashop>blockviewed_859e85774d372c6084d62d02324a1cc3'] = 'Block Angesehene Produkte';
+$_MODULE['<{blockviewed}prestashop>blockviewed_859e85774d372c6084d62d02324a1cc3'] = 'Block Angesehene Artikel';
 $_MODULE['<{blockviewed}prestashop>blockviewed_eaa362292272519b786c2046ab4b68d2'] = 'Fügt einen Block hinzu, der die zuletzt angesehenen Artikel anzeigt';
 $_MODULE['<{blockviewed}prestashop>blockviewed_2e57399079951d84b435700493b8a8c1'] = 'Sie müssen das Feld "Anzuzeigende Artikel" ausfüllen.';
 $_MODULE['<{blockviewed}prestashop>blockviewed_73293a024e644165e9bf48f270af63a0'] = 'Ungültige Anzahl';

@@ -12,7 +12,6 @@ $_MODULE['<{productcomments}prestashop>productcomments_87f8a6ab85c9ced3702b4ea64
 $_MODULE['<{productcomments}prestashop>productcomments_28d0edd045e05cf5af64e35ae0c4c6ef'] = 'I ulët';
 $_MODULE['<{productcomments}prestashop>productcomments_49ee3087348e8d44e1feda1917443987'] = 'Emri';
 $_MODULE['<{productcomments}prestashop>productcomments_ec53a8c4f07baed5d8825072c89799be'] = 'Statusi';
-$_MODULE['<{productcomments}prestashop>productcomments_deb10517653c255364175796ace3553f'] = 'Produkt';
 $_MODULE['<{productcomments}prestashop>productcomments_91b442d385b54e1418d81adc34871053'] = 'selected';
 $_MODULE['<{productcomments}prestashop>productcomments_4d3d769b812b6faa6b76e1a8abaece2d'] = 'Aktive';
 $_MODULE['<{productcomments}prestashop>productcomments_e0aa021e21dddbd6d8cecec71e9cf564'] = 'Në rregull';

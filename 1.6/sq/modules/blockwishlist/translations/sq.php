@@ -4,7 +4,6 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_c888438d14855d7d96a2724ee9c306bd'] = 'Parametrat u përditësuan';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist_deb10517653c255364175796ace3553f'] = 'Produkt';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_694e8d1f2ee056f98ee488bdc4982d73'] = 'Sasia';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_502996d9790340c5fd7b86a5b93b1c9f'] = 'Prioriteti';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_655d20c1ca69519ca647684edbb2db35'] = 'I lartë';
@@ -44,7 +43,6 @@ $_MODULE['<{blockwishlist}prestashop>managewishlist_28d0edd045e05cf5af64e35ae0c4
 $_MODULE['<{blockwishlist}prestashop>managewishlist_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'Emaili';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_94966d90747b97d1f0f206c98a8b1ac3'] = 'Dërgojeni';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_19f823c6453c2b1ffd09cb715214813d'] = 'Fushë e detyrueshme';
-$_MODULE['<{blockwishlist}prestashop>managewishlist_deb10517653c255364175796ace3553f'] = 'Produkt';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_3384622e86410fd01fa318fedc6a98ce'] = 'Ofruar nga';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_44749712dbec183e983dcd78a7736c41'] = 'Data';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_09dc02ecbb078868a3a86dded030076d'] = 'Aktualisht nuk ka asnjë libër';
