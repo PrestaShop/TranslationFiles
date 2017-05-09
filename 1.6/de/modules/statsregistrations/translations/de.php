@@ -4,7 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{statsregistrations}prestashop>statsregistrations_8b15fc6468c919d299f9a601b61b95fc'] = 'Kundenkonten';
-$_MODULE['<{statsregistrations}prestashop>statsregistrations_f14056d6fef225c8aafd5a99d4c70fa8'] = 'Fügt der Statistik-Übersichteinen Tab zur Entwicklung der Anmeldezahlen hinzu';
+$_MODULE['<{statsregistrations}prestashop>statsregistrations_f14056d6fef225c8aafd5a99d4c70fa8'] = 'Fügt der Statistik-Übersicht einen Tab zur Entwicklung der Anmeldezahlen hinzu';
 $_MODULE['<{statsregistrations}prestashop>statsregistrations_247b3bdef50a59d5a83f23c4f1c8fa47'] = 'Besucher, die sich nicht registrieren wollten:';
 $_MODULE['<{statsregistrations}prestashop>statsregistrations_479c1246d97709e234574e1d2921994d'] = 'Besucher, die direkt nach der Anmeldung eine Bestellung vorgenommen haben:';
 $_MODULE['<{statsregistrations}prestashop>statsregistrations_a751e9cc4ed4c7585ecc0d97781cb48a'] = 'Kundenkonten insgesamt:';
