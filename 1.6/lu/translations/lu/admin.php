@@ -3713,6 +3713,7 @@ $_LANGADM['AdminImport0450d266974d92724ff4bacc3a51952e'] = 'Vorhandene';
 $_LANGADM['AdminImportb0b5ccb4a195a07fd3eed14affb8695f'] = 'Tabelle';
 $_LANGADM['AdminImportcc22e6615c9f93cbf2ecaf30b5b7f191'] = 'vor dem Import löschen';
 $_LANGADM['AdminImportd4e6366ee8fdf9db02673c615217f9ae'] = 'Falls aktiviert, MUSS die Artikelnummer eindeutig sein!';
+$_LANGADM['AdminImportfeae9fd88b4d107b4de593e8b5a494d8'] = 'Artikelnummer als Schlüssel nutzen';
 $_LANGADM['AdminImportff4ba5e49465c8bc4fb9ac41e57ae73d'] = 'Regenerierung der Vorschaubilder überspringen';
 $_LANGADM['AdminImport42502ad83fe310430e6c5bf94883fcf1'] = 'Unbedingt anklicken, wenn Prestashop KEINE neuen IDs generieren soll. Andernfalls würde Prestashop automatisch neu hochzählen und die in der Importdatei enthaltenen IDs ignorieren.';
 $_LANGADM['AdminImport0cbac2aa7274da1457a7c645202fcfbc'] = 'IDs der Importdatei beibehalten?
