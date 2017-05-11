@@ -13,6 +13,7 @@ $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_1d0a2e1f62ccf460d604ccb
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_3cb29f0ccc5fd220a97df89dafe46290'] = 'トップセールス';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_eae99cd6a931f3553123420b16383812'] = 'すべてのベストセラー';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_f7be84d6809317a6eb0ff3823a936800'] = 'この時間のトップセールスがありません';
+$_MODULE['<{blockbestsellers}prestashop>tab_d7b2933ba512ada478c97fa43dd7ebe6'] = 'ベストセラー';
 
 
 return $_MODULE;

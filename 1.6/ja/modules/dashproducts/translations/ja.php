@@ -20,6 +20,7 @@ $_MODULE['<{dashproducts}prestashop>dashproducts_38fb7d24e0d60a048f540ecb18e1337
 $_MODULE['<{dashproducts}prestashop>dashproducts_ea4788705e6873b424c65e91c2846b19'] = 'キャンセル';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_f1206f9fadc5ce41694f69129aecac26'] = '設定';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_254f642527b45bc260048e30704edb39'] = '設定';
+$_MODULE['<{dashproducts}prestashop>dashboard_zone_two_d7b2933ba512ada478c97fa43dd7ebe6'] = 'ベストセラー';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_5da618e8e4b89c66fe86e32cdafde142'] = '開始';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_01b6e20344b68835c5ed1ddedf20d531'] = '終了';
 

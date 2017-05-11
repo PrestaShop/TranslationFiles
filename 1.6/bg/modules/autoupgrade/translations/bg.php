@@ -495,6 +495,8 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_017697f698d570dffed5f88a5a93
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d1cf02f3b502ad45947b846659c7774e'] = 'Обновяване към PrestaShop %s';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_49c77c6b39fac5ce46832752e6612e9d'] = 'Обновяване до PrestaShop %s';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b3e205a87c7cf99915d86ffe496f1706'] = 'Обновяването от PrestaShop %s до PrestaShop %s ще има ОГРОМНО влияние върху вашия магазин.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_14eb234037a8860589f68e1f34a55fd8'] = 'Няма да може да ползвате текущата тема и разширените данни за записите, след като магазина се обнови до версия %s';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_14848bb4861807d41b2ef22f0288f90b'] = 'Моля, уверете се, че настройката на сървъра ви съответства на минималните изисквания:';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ba4e6bdd93c2f0c0e133bb94c27623ad'] = 'Папка %s вече съществува';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_49ed9b3e9429a4ae5f4fc1374e38140d'] = 'Необходимите системни функции са включени (fopen, file_exists, chmod)';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9a92bff0f2bacca85a22045df0ff05a7'] = 'Функция %s е включена';
@@ -502,7 +504,11 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_325be51f87717509d7c5b87d4545
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5061608b21c002a371d190e7143c18c2'] = 'Вашата система не покрива минималните изисквания. Моля, вижте ги и опитайте отново.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c8d34e1c03a7c711ce6e83ea9b009219'] = 'Контролния списък в наред';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_95245f604c0c0d24367f7ecac6124eb7'] = 'Файловете ми и базите ми от данни за архивирани';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_895c15664c5de8fdbcb6d41d80ead6c1'] = 'Разбирам, че текущият ми шаблон няма да работи на магазин %s';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5eb0aaf0b783306cb2ea57335b0210a9'] = 'Знам, че по-голямата част от модулите ми няма да са съвместими с магазин %s';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_915151576a249f2ff2662d5fc79859ad'] = 'Разбирам, че ще бъдат изтрити всички данни и настройки за разширеното управление на наличностите';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a5d2d90f3698f0f7acab269070d0a232'] = 'Ще трябва да настроя правата си за достъп';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f93dc2c54e04a6b770f3e0fd1058a31f'] = 'Ако имам ръчно създадено меню в Административния панел, повече няма да мога да го ползвам';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8f5f497d082e9f08ec8102a1d436a75b'] = 'Преминете към %s!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f15547fe5f9f307bd42b2c01657efbcb'] = 'Вашият сървър не може да изтегли файла. Моля, първо го качете чрез FTP в папка admin/autoupgrade';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f0c0004ed469d436fae1c0c84a5c7687'] = 'Трябва да изберете всички условия';
