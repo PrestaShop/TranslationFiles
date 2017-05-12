@@ -196,6 +196,7 @@ $_LANG['manufacturer_d3da97e2d9aee5c8fbe03156ad051c99'] = 'もっと';
 $_LANG['my-account_d95cf4ab2cbf1dfb63f066b50558b07d'] = 'マイアカウント';
 $_LANG['my-account_4b0afa9e8d3cdefd4fb21faebe22ef5f'] = 'アカウントは作成されました';
 $_LANG['my-account_7442e29d7d53e549b78d93c46b8cdcfc'] = '注文';
+$_LANG['my-account_e06d7593c1cd6dabef450be6c3da7091'] = '返品';
 $_LANG['my-account_89080f0eedbd5491a93157930f1e45fc'] = '商品返品';
 $_LANG['my-account_d1a365ea7809ae5831c6d9f86886630c'] = 'クレジット伝票';
 $_LANG['my-account_9132bc7bac91dd4e1c453d4e96edf219'] = 'クレジット伝票';

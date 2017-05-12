@@ -3,6 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{blockcms}prestashop>blockcms_ca3e06233b736d289df9f4580a4ab19a'] = 'CMSブロック';
 $_MODULE['<{blockcms}prestashop>blockcms_cdca12007979fc49008fd125cdb775fc'] = 'いくつかのCMSリンクのブロックを追加';
 $_MODULE['<{blockcms}prestashop>blockcms_a82be0f551b8708bc08eb33cd9ded0cf'] = '情報';
 $_MODULE['<{blockcms}prestashop>blockcms_ea4788705e6873b424c65e91c2846b19'] = 'キャンセル';
