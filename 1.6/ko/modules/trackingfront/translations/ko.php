@@ -19,7 +19,6 @@ $_MODULE['<{trackingfront}prestashop>account_c87aacf5673fada1108c9f809d354311'] 
 $_MODULE['<{trackingfront}prestashop>account_1dd1c5fb7f25cd41b291d43a89e3aefd'] = '오늘';
 $_MODULE['<{trackingfront}prestashop>account_7cbb885aa1164b390a0bc050a64e1812'] = '월';
 $_MODULE['<{trackingfront}prestashop>account_537c66b24ef5c83b7382cdc3f34885f2'] = '년';
-$_MODULE['<{trackingfront}prestashop>account_1e6d57e813355689e9c77e947d73ad8f'] = 'Expéditeur';
 $_MODULE['<{trackingfront}prestashop>account_33caa076f23f453dd4061726f3706325'] = '까지';
 $_MODULE['<{trackingfront}prestashop>account_49ee3087348e8d44e1feda1917443987'] = '이름';
 $_MODULE['<{trackingfront}prestashop>account_ae5d01b6efa819cc7a7c05a8c57fcc2c'] = '방문자';

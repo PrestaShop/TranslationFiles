@@ -15,7 +15,6 @@ $_MODULE['<{dashproducts}prestashop>dashproducts_fd69c5cf902969e6fb71d043085ddee
 $_MODULE['<{dashproducts}prestashop>dashproducts_38fb7d24e0d60a048f540ecb18e13376'] = '저장';
 $_MODULE['<{dashproducts}prestashop>dashproducts_ea4788705e6873b424c65e91c2846b19'] = '취소';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_f1206f9fadc5ce41694f69129aecac26'] = '구성';
-$_MODULE['<{dashproducts}prestashop>dashboard_zone_two_5da618e8e4b89c66fe86e32cdafde142'] = 'Expéditeur';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_01b6e20344b68835c5ed1ddedf20d531'] = '까지';
 
 

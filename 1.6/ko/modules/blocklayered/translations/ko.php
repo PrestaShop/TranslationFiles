@@ -11,7 +11,6 @@ $_MODULE['<{blocklayered}prestashop>blocklayered_fcebe56087b9373f15514831184fa57
 $_MODULE['<{blocklayered}prestashop>blocklayered_c0bd7654d5b278e65f21cf4e9153fdb4'] = '공급자';
 $_MODULE['<{blocklayered}prestashop>blocklayered-no-products_5c9838becf9bbce28ba90a7426daf171'] = '상품이 없습니다.';
 $_MODULE['<{blocklayered}prestashop>blocklayered_ea4788705e6873b424c65e91c2846b19'] = '취소';
-$_MODULE['<{blocklayered}prestashop>blocklayered_5da618e8e4b89c66fe86e32cdafde142'] = 'Expéditeur';
 $_MODULE['<{blocklayered}prestashop>blocklayered_01b6e20344b68835c5ed1ddedf20d531'] = '까지';
 $_MODULE['<{blocklayered}prestashop>add_1.6_93cba07454f06a4a960172bbd6e2a435'] = '네';
 $_MODULE['<{blocklayered}prestashop>add_1.6_bafd7322c6e97d25b6299b5d6fe8920b'] = '아니오';

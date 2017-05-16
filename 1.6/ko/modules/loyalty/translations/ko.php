@@ -19,7 +19,6 @@ $_MODULE['<{loyalty}prestashop>loyalty_3ec365dd533ddb7ef3d1c111186ce872'] = '계
 $_MODULE['<{loyalty}prestashop>loyalty_29aa46cc3d2677c7e0f216910df600ff'] = '무료배송';
 $_MODULE['<{loyalty}prestashop>loyalty_019d1ca7d50cc54b995f60d456435e87'] = '사용됨';
 $_MODULE['<{loyalty}prestashop>loyalty_0b3db27bc15f682e92ff250ebb167d4b'] = '내 계정으로 돌아가기';
-$_MODULE['<{loyalty}prestashop>loyalty_8cf04a9734132302f96da8e113e80ce5'] = 'Tuisblad';
 
 
 return $_MODULE;
