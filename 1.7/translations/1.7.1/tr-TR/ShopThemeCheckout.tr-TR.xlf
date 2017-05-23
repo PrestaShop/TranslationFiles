@@ -30,9 +30,9 @@ File: themes/classic/templates/checkout/_partials/order-final-summary.tpl:44</no
   </file>
   <file original="classes/checkout/CheckoutDeliveryStep.php" source-language="en" target-language="tr" datatype="plaintext">
     <body>
-      <trans-unit id="d62106dfcdba5cacd1a5f5efe9cefc79">
+      <trans-unit id="d62106dfcdba5cacd1a5f5efe9cefc79" approved="yes">
         <source> (additional cost of %giftcost% %taxlabel%)</source>
-        <target xml:lang="tr" state="needs-translation"> </target>
+        <target xml:lang="tr"> (%giftcost% %taxlabel% ek maliyeti)</target>
         <note>Context:
 File: classes/checkout/CheckoutDeliveryStep.php:114</note>
       </trans-unit>
@@ -214,11 +214,29 @@ File: controllers/front/GuestTrackingController.php:151</note>
   </file>
   <file original="src/Adapter/Cart/CartPresenter.php" source-language="en" target-language="tr" datatype="plaintext">
     <body>
+      <trans-unit id="ea9cf7e47ff33b2be14e6dd07cbcefc6" approved="yes">
+        <source>Shipping</source>
+        <target xml:lang="tr">Nakliye</target>
+        <note>Context:
+File: src/Adapter/Cart/CartPresenter.php:331</note>
+      </trans-unit>
+      <trans-unit id="3b5a05f2c4a0373c7a6e8d1cfec7020f" approved="yes">
+        <source>Included taxes</source>
+        <target xml:lang="tr">Vergiler dahil</target>
+        <note>Context:
+File: src/Adapter/Cart/CartPresenter.php:344</note>
+      </trans-unit>
       <trans-unit id="719fec04166d6fa75f89cd29ad61fa8c" approved="yes">
         <source>Taxes</source>
         <target xml:lang="tr">Vergiler</target>
         <note>Context:
 File: src/Adapter/Cart/CartPresenter.php:345</note>
+      </trans-unit>
+      <trans-unit id="7e0eb131cbb6280fe2b38edf92a3bcc5" approved="yes">
+        <source>1 item</source>
+        <target xml:lang="tr">1 öğe</target>
+        <note>Context:
+File: src/Adapter/Cart/CartPresenter.php:367</note>
       </trans-unit>
       <trans-unit id="cf1e3d72714f82f85aa7f326af340459" approved="yes">
         <source>%d items</source>
@@ -269,6 +287,24 @@ File: themes/classic/modules/ps_shoppingcart/modal.tpl:31</note>
         <target xml:lang="tr">Sepetinizde %product_count% ürün var.</target>
         <note>Context:
 File: themes/classic/modules/ps_shoppingcart/modal.tpl:33</note>
+      </trans-unit>
+      <trans-unit id="543ae6adeb524f98cc7d3c816a1ec1e3" approved="yes">
+        <source>Total products:</source>
+        <target xml:lang="tr">Toplam ürünler:</target>
+        <note>Context:
+File: themes/classic/modules/ps_shoppingcart/modal.tpl:35</note>
+      </trans-unit>
+      <trans-unit id="691b338fa68b3c177c6ebbc745624c6a" approved="yes">
+        <source>Total shipping:</source>
+        <target xml:lang="tr">Toplam kargo:</target>
+        <note>Context:
+File: themes/classic/modules/ps_shoppingcart/modal.tpl:36</note>
+      </trans-unit>
+      <trans-unit id="66c4c5112f455a19afde47829df363fa" approved="yes">
+        <source>Total:</source>
+        <target xml:lang="tr">Toplam:</target>
+        <note>Context:
+File: themes/classic/modules/ps_shoppingcart/modal.tpl:40</note>
       </trans-unit>
     </body>
   </file>
@@ -426,7 +462,12 @@ File: themes/starterTheme/templates/checkout/_partials/steps/addresses.tpl:17</n
   </file>
   <file original="themes/classic/templates/checkout/_partials/steps/addresses.tpl" source-language="en" target-language="tr" datatype="plaintext">
     <body>
-      
+      <trans-unit id="56d0ed7cd789dd772be59aa6b1e437de" approved="yes">
+        <source>The selected address will be used both as your personal address (for invoice) and as your delivery address.</source>
+        <target xml:lang="tr">Seçili adres, hem kişisel adresiniz(fatura için) hem de teslimat adresiniz olarak kullanılacak.</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/steps/addresses.tpl:41</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/starterTheme/templates/checkout/_partials/steps/payment.tpl" source-language="en" target-language="tr" datatype="plaintext">
@@ -459,7 +500,12 @@ File: themes/starterTheme/templates/checkout/_partials/steps/payment.tpl:100</no
   </file>
   <file original="themes/classic/templates/checkout/_partials/steps/payment.tpl" source-language="en" target-language="tr" datatype="plaintext">
     <body>
-      
+      <trans-unit id="5486191906ec27c1c4bb5bd3e46b3442" approved="yes">
+        <source>Order with an obligation to pay</source>
+        <target xml:lang="tr">Ödeme yükümlülüğü İle sipariş</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/steps/payment.tpl:138</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/starterTheme/templates/checkout/_partials/steps/personal-information.tpl" source-language="en" target-language="tr" datatype="plaintext">
