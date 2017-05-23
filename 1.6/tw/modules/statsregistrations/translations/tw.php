@@ -14,6 +14,7 @@ $_MODULE['<{statsregistrations}prestashop>statsregistrations_57a6f41a27c9baa5b40
 $_MODULE['<{statsregistrations}prestashop>statsregistrations_bcabec23c8f36cecde037bd35ca4c709'] = '客戶註冊數量有顯著的增加或減少顯示商店應該有了改變，建議您找出它的原因，修正錯誤後讓業務恢復正常。';
 $_MODULE['<{statsregistrations}prestashop>statsregistrations_ded9c8756dc14fd26e3150c4718cd9d0'] = '這裡的摘要顯示影響客戶帳號建立的因素：';
 $_MODULE['<{statsregistrations}prestashop>statsregistrations_87c365f80449f43460a0567d3b24f29f'] = '一個廣告活動可以吸引商店的訪客數量，同時會基於客戶品質增加客戶帳號、邊際利益，目標正確的廣告通常會比大規模的廣告有效益，當然也會比較便宜！';
+$_MODULE['<{statsregistrations}prestashop>statsregistrations_aa09be43df78c214e64ac3c3b255708e'] = '特價、促銷與競賽都是為了吸引消費者的注意，提供這些活動不只讓業績活絡，也會帶來流量、建立客戶忠誠與改變你對電子商務的看法。';
 $_MODULE['<{statsregistrations}prestashop>statsregistrations_8cb5605d77d1d2f9eab6191c0e027747'] = '在線上銷售的領域，設計感與友善的介面比過去要來的重要，選錯了或選擇了比較差的佈景都會讓消費者怯步。意思是說，您應該在網路商店的功能性與美觀之間找到一個適合的平衡點。';
 $_MODULE['<{statsregistrations}prestashop>statsregistrations_998e4c5c80f27dec552e99dfed34889a'] = 'CSV輸出';
 

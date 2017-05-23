@@ -6,6 +6,7 @@ $_MODULE = array();
 $_MODULE['<{statsorigin}prestashop>statsorigin_f0b1507c6bdcdefb60a0e6f9b89d4ae8'] = '訪客來源';
 $_MODULE['<{statsorigin}prestashop>statsorigin_14542f5997c4a02d4276da364657f501'] = '直接連結';
 $_MODULE['<{statsorigin}prestashop>statsorigin_3edf8ca26a1ec14dd6e91dd277ae1de6'] = '來源';
+$_MODULE['<{statsorigin}prestashop>statsorigin_4b69c1f7f555aa19fd90ee01e4aa63cd'] = '這裡列出了 10 個引導客戶到您商店的熱門來源網站。';
 $_MODULE['<{statsorigin}prestashop>statsorigin_6602bbeb2956c035fb4cb5e844a4861b'] = '導引';
 $_MODULE['<{statsorigin}prestashop>statsorigin_cec998cc46cd200fa97490137de2cc7f'] = '什麼是來源網站？';
 $_MODULE['<{statsorigin}prestashop>statsorigin_af19c8da1c414055c960a73d86471119'] = '轉介合作夥伴可以是：';

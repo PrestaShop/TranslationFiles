@@ -6,6 +6,7 @@ $_MODULE = array();
 $_MODULE['<{onboarding}prestashop>onboarding_403078410560ac74cd18391f1fbf55fa'] = '在職培訓';
 $_MODULE['<{onboarding}prestashop>backoffice_top_82269147f55aa394633d8ffab65a8524'] = '我們開始吧！';
 $_MODULE['<{onboarding}prestashop>backoffice_top_28e28cc9b29cb7be024359a92ed55282'] = '新增您首個商品';
+$_MODULE['<{onboarding}prestashop>backoffice_top_7eeabe2ad5cb52ab41a2760232e5589e'] = '讓我們來創建你的第一個商品';
 $_MODULE['<{onboarding}prestashop>backoffice_top_c88d196f22ac2187d88469d9faaad8fd'] = '選擇運送方式';
 $_MODULE['<{onboarding}prestashop>backoffice_top_186ec838194777c517b25acc5728ffad'] = '太好了！';
 $_MODULE['<{onboarding}prestashop>backoffice_top_8ace2d742ee0c597260b3d0acbfb37f0'] = '1/4 完成';

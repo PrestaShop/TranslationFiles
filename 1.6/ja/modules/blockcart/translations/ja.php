@@ -23,6 +23,7 @@ $_MODULE['<{blockcart}prestashop>blockcart_4b7d496eedb665d0b5f589f2f874e7cb'] = 
 $_MODULE['<{blockcart}prestashop>blockcart_09dc02ecbb078868a3a86dded030076d'] = '商品がありません';
 $_MODULE['<{blockcart}prestashop>blockcart_ea9cf7e47ff33b2be14e6dd07cbcefc6'] = '送料';
 $_MODULE['<{blockcart}prestashop>blockcart_4b78ac8eb158840e9638a3aeb26c4a9d'] = '税';
+$_MODULE['<{blockcart}prestashop>crossselling_dd1f775e443ff3b9a89270713580a51b'] = '前へ';
 $_MODULE['<{blockcart}prestashop>crossselling_4351cfebe4b61d8aa5efa1d020710005'] = '参照';
 $_MODULE['<{blockcart}prestashop>crossselling_10ac3d04253ef7e1ddc73e6091c0cd55'] = '次';
 $_MODULE['<{blockcart}prestashop>blockcart_694e8d1f2ee056f98ee488bdc4982d73'] = '数量';

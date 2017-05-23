@@ -343,6 +343,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_4f2e28904946a09d8c7f36dd3ee7
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e5110300599f995b9d8cfbe930fba83e'] = '此電郵地址有錯誤!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2e170dfd78c2171a25605ececc0950a4'] = '不能發送電郵！';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e930e2474c664a3a7e89ecfb8793694b'] = '不能上載檔案！';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_17a90b480e6f6b8d1214df46c8678015'] = '無法存取 MySQL 檔案。';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3d5c8f1d29b1a1dc4ea0673122e0d277'] = '將數據添加到數據庫時出錯：';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_17e1581d01152347bfaacd153b961379'] = '無效的密碼 (密碼長度至少為 8 個字元)。';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_26b66034d6aa1380df1d30fe33e2e0f6'] = '有一個 PrestaShop 資料庫已存在，請刪除它或是變更前綴字元。';
@@ -437,6 +438,10 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0a8276f35797dc24e6ccb5b5ff5c
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_10ac3d04253ef7e1ddc73e6091c0cd55'] = '下一步';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_564b7c9d8683f1a94798e9f7449564e4'] = '升級選項';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_017697f698d570dffed5f88a5a933d01'] = '備份選項';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d1cf02f3b502ad45947b846659c7774e'] = '升級PrestaShop至 %s';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_49c77c6b39fac5ce46832752e6612e9d'] = 'PrestaShop %s 更新中';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ba4e6bdd93c2f0c0e133bb94c27623ad'] = '%s 文件夾存在';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_325be51f87717509d7c5b87d45456066'] = '%s外掛已啟用';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f15547fe5f9f307bd42b2c01657efbcb'] = '您的伺服器無法下載該文件。請把它上傳至您的FTP伺服器 /[admin]/autoupgrade 目錄內。';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f2a6c498fb90ee345d997f888fce3b18'] = '刪除';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_48995d15304fe79fc0240bf6544f2395'] = '你確定要刪除此備份?';

@@ -12,6 +12,7 @@ $_MODULE['<{loyalty}prestashop>loyalty_1026e44f047fb9da36a62c0a8846baac'] = 'ポ
 $_MODULE['<{loyalty}prestashop>loyalty_66c2c90ea9f6f4a12854195085781d7f'] = '利用可能ポイント合計：';
 $_MODULE['<{loyalty}prestashop>loyalty_01abfc750a0c942167651c40d088531d'] = '番号';
 $_MODULE['<{loyalty}prestashop>loyalty_5acc2ceeb883ba07cef2d02ea382f242'] = 'どんな注文も登録されていません';
+$_MODULE['<{loyalty}prestashop>loyalty_dd1f775e443ff3b9a89270713580a51b'] = '前へ';
 $_MODULE['<{loyalty}prestashop>loyalty_10ac3d04253ef7e1ddc73e6091c0cd55'] = '次';
 $_MODULE['<{loyalty}prestashop>loyalty_6c583afb157e33bfb5b7c3d4114c4dd5'] = 'アイテム：';
 $_MODULE['<{loyalty}prestashop>loyalty_c48105520852bbd0fa692e4c9fd61628'] = 'ここで生成されたクーポンは、次のカテゴリで使用可能です：';

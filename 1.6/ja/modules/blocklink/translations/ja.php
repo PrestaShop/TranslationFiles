@@ -22,7 +22,6 @@ $_MODULE['<{blocklink}prestashop>blocklink_58e9b25bb2e2699986a3abe2c92fc82e'] = 
 $_MODULE['<{blocklink}prestashop>blocklink_00d23a76e43b46dae9ec7aa9dcbebb32'] = '有効';
 $_MODULE['<{blocklink}prestashop>blocklink_b9f5c797ebbf55adccdd8539a65a0241'] = '無効';
 $_MODULE['<{blocklink}prestashop>blocklink_c9cc8cce247e49bae79f15173ce97354'] = '保存';
-$_MODULE['<{blocklink}prestashop>blocklink_9d55fc80bbb875322aa67fd22fc98469'] = '店舗関連';
 $_MODULE['<{blocklink}prestashop>blocklink_b22c8f9ad7db023c548c3b8e846cb169'] = 'タイトルブロック';
 
 
