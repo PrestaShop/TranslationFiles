@@ -4,9 +4,6 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{statsproduct}prestashop>statsproduct_78e454064a7d3a7755a011a3b79f31a7'] = '등록된 상품 세부 정보(재고등)';
-$_MODULE['<{statsproduct}prestashop>statsproduct_6602bbeb2956c035fb4cb5e844a4861b'] = '안내서';
-$_MODULE['<{statsproduct}prestashop>statsproduct_3ec365dd533ddb7ef3d1c111186ce872'] = '계좌정보';
-$_MODULE['<{statsproduct}prestashop>statsproduct_998e4c5c80f27dec552e99dfed34889a'] = 'csv로 내보내기';
 $_MODULE['<{statsproduct}prestashop>statsproduct_c90b9dca2d3f5bb6e0d0bdceac8a631d'] = '판매 매출 속성';
 $_MODULE['<{statsproduct}prestashop>statsproduct_11ff9f68afb6b8b5b8eda218d7c83a65'] = '판매';
 $_MODULE['<{statsproduct}prestashop>statsproduct_44749712dbec183e983dcd78a7736c41'] = '날짜';
@@ -20,8 +17,6 @@ $_MODULE['<{statsproduct}prestashop>statsproduct_df644ae155e79abf54175bd15d75f36
 $_MODULE['<{statsproduct}prestashop>statsproduct_2a0440eec72540c5b30d9199c01f348c'] = '판매수량';
 $_MODULE['<{statsproduct}prestashop>statsproduct_844c29394eea07066bb2efefc35784ec'] = '평균 가격';
 $_MODULE['<{statsproduct}prestashop>statsproduct_818f7defe18dbc97da82d054831df2ad'] = '클릭하여 자사 제품에 대한 통계에 액세스합니다.';
-$_MODULE['<{statsproduct}prestashop>statsproduct_0173374ac20f5843d58b553d5b226ef6'] = '카테고리 선택';
-$_MODULE['<{statsproduct}prestashop>statsproduct_b1c94ca2fbc3e78fc30069c8d0f01680'] = '모두';
 $_MODULE['<{statsproduct}prestashop>statsproduct_6ccf03bc05e4b749b74b5d577c7e7d3a'] = '상품 구매';
 $_MODULE['<{statsproduct}prestashop>statsproduct_63d5049791d9d79d86e9a108b0a999ca'] = '참고';
 $_MODULE['<{statsproduct}prestashop>statsproduct_49ee3087348e8d44e1feda1917443987'] = '이름';
