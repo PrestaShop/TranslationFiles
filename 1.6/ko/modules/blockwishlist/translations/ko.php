@@ -14,7 +14,7 @@ $_MODULE['<{blockwishlist}prestashop>managewishlist_f2a6c498fb90ee345d997f888fce
 $_MODULE['<{blockwishlist}prestashop>managewishlist_694e8d1f2ee056f98ee488bdc4982d73'] = '수량';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_502996d9790340c5fd7b86a5b93b1c9f'] = '운선순위';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_c9cc8cce247e49bae79f15173ce97354'] = '저장';
-$_MODULE['<{blockwishlist}prestashop>managewishlist_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'Epos';
+$_MODULE['<{blockwishlist}prestashop>managewishlist_ce8ae9da5b7cd6c3df2929543a9af92d'] = '이메일';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_94966d90747b97d1f0f206c98a8b1ac3'] = 'Stuur';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_19f823c6453c2b1ffd09cb715214813d'] = '필수항목';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_44749712dbec183e983dcd78a7736c41'] = '날짜';

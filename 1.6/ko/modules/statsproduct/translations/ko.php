@@ -14,7 +14,7 @@ $_MODULE['<{statsproduct}prestashop>statsproduct_694e8d1f2ee056f98ee488bdc4982d7
 $_MODULE['<{statsproduct}prestashop>statsproduct_3601146c4e948c32b6424d2c0a7f0118'] = '가격';
 $_MODULE['<{statsproduct}prestashop>statsproduct_87017c9259838bb0918a2ab4f96016c0'] = '교차판매';
 $_MODULE['<{statsproduct}prestashop>statsproduct_df644ae155e79abf54175bd15d75f363'] = '상품명';
-$_MODULE['<{statsproduct}prestashop>statsproduct_2a0440eec72540c5b30d9199c01f348c'] = '판매수량';
+$_MODULE['<{statsproduct}prestashop>statsproduct_2a0440eec72540c5b30d9199c01f348c'] = '판매 수량';
 $_MODULE['<{statsproduct}prestashop>statsproduct_844c29394eea07066bb2efefc35784ec'] = '평균 가격';
 $_MODULE['<{statsproduct}prestashop>statsproduct_818f7defe18dbc97da82d054831df2ad'] = '클릭하여 자사 제품에 대한 통계에 액세스합니다.';
 $_MODULE['<{statsproduct}prestashop>statsproduct_6ccf03bc05e4b749b74b5d577c7e7d3a'] = '상품 구매';

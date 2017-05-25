@@ -3,10 +3,10 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_4f29d8c727dcf2022ac241cb96c31083'] = '빈 레코드를 반환';
+$_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_4f29d8c727dcf2022ac241cb96c31083'] = '빈 결과집합이 반환됨';
 $_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_77587239bf4c54ea493c7033e1dbf636'] = 'Familie naam';
 $_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_bc910f8bdf70f29374f496f05be0330c'] = 'Voornaam';
-$_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'Epos';
+$_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_ce8ae9da5b7cd6c3df2929543a9af92d'] = '이메일';
 $_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_d7e637a6e9ff116de2fa89551240a94d'] = '방문';
 $_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_8b83489bd116cb60e2f348e9c63cd7f6'] = '베스트 고객';
 $_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_6602bbeb2956c035fb4cb5e844a4861b'] = '안내서';

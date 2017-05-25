@@ -8,7 +8,7 @@ $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_ba457fab18d697d978befb95e
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_396c88991101b5ca362932952293d291'] = '당신은 모든 연락처를 삭제하시겠습니까?';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_7e3a51a56ddd2846e21c33f05e0aea6f'] = '모든 고객';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_c888438d14855d7d96a2724ee9c306bd'] = '설정 수정';
-$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'Epos';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_ce8ae9da5b7cd6c3df2929543a9af92d'] = '이메일';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_4351cfebe4b61d8aa5efa1d020710005'] = '보기';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_e267e2be02cf3e29f4ba53b5d97cf78a'] = '잘못된 전자메일 주소';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_1c623b291d95f4f1b1d0c03d0dc0ffa1'] = '전자메일 주소가 등록되지 않았습니다.';
