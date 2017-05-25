@@ -3850,9 +3850,15 @@ File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_hea
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/helpers/view/view.tpl:32</note>
       </trans-unit>
+      <trans-unit id="6a278621d6f2e7dbd56c7beca4081e2d" approved="yes">
+        <source>Backup files should automatically start downloading.</source>
+        <target xml:lang="ja">自動的にバックアップファイルのダウンロードが開始します。</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/view/view.tpl:33</note>
+      </trans-unit>
       <trans-unit id="b828e7a94de289536d535e8c141868b9" approved="yes">
         <source>If not,</source>
-        <target xml:lang="ja">そうでない場合は、</target>
+        <target xml:lang="ja">自動で開始されない場合には、</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/helpers/view/view.tpl:34</note>
       </trans-unit>
@@ -5442,11 +5448,23 @@ File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:52</note>
       </trans-unit>
+      <trans-unit id="418dde4b22e22a725e75b2819c0373b2" approved="yes">
+        <source>Note that the Category import does not support having two categories with the same name.</source>
+        <target xml:lang="ja">カテゴリのインポートにおいて、同じ名前のカテゴリが存在すると正常に処理を行なう事が出来ません。</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:65</note>
+      </trans-unit>
       <trans-unit id="b990d5cecd822de3b6922abcf71549b4" approved="yes">
         <source>Note that you can have several products with the same reference.</source>
         <target xml:lang="ja">同じ基準でいくつかの商品をもっていることに注意してください。</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:66</note>
+      </trans-unit>
+      <trans-unit id="14020ff11547c4c18da91394d1cae2a6" approved="yes">
+        <source>Select a file to import</source>
+        <target xml:lang="ja">インポートするファイルを選択してください</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:74</note>
       </trans-unit>
       <trans-unit id="91412465ea9169dfd901dd5e7c96dd99" approved="yes">
         <source>Upload</source>
@@ -5480,19 +5498,19 @@ File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl
       </trans-unit>
       <trans-unit id="e4cdcd51e6cf787d4ecc7d813f0c23cb" approved="yes">
         <source>The locale must be installed</source>
-        <target xml:lang="ja">ロケールをインストールする必要があります</target>
+        <target xml:lang="ja">ロケールがインストールされている必要があります。</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:188</note>
       </trans-unit>
       <trans-unit id="2a1a026f56b4c51cc839e513370379fd" approved="yes">
         <source>Language of the file</source>
-        <target xml:lang="ja">言語のファイル</target>
+        <target xml:lang="ja">ファイルの言語</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:189</note>
       </trans-unit>
       <trans-unit id="35ebd0ba1ead54eee9c5684437aa519b" approved="yes">
         <source>Field separator</source>
-        <target xml:lang="ja">項目セパレータ</target>
+        <target xml:lang="ja">フィールドの区切り文字</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:202</note>
       </trans-unit>
@@ -5504,7 +5522,7 @@ File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl
       </trans-unit>
       <trans-unit id="e08caeac3f80ffa7889cdf1c8f30111f" approved="yes">
         <source>Multiple value separator</source>
-        <target xml:lang="ja">複数の値のセパレーター</target>
+        <target xml:lang="ja">値の区切り文字</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:208</note>
       </trans-unit>
@@ -5522,9 +5540,15 @@ File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl
       </trans-unit>
       <trans-unit id="cc22e6615c9f93cbf2ecaf30b5b7f191" approved="yes">
         <source>before import</source>
-        <target xml:lang="ja">インポート前に削除</target>
+        <target xml:lang="ja">をインポート前に削除</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:218</note>
+      </trans-unit>
+      <trans-unit id="ff4ba5e49465c8bc4fb9ac41e57ae73d" approved="yes">
+        <source>Skip thumbnails regeneration</source>
+        <target xml:lang="ja">サムネイルの再生成をスキップする</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:248</note>
       </trans-unit>
       <trans-unit id="423347880e13d3bf4a0e37ef28ace1b8" approved="yes">
         <source>If you enable this option, your imported items' ID number will be used as-is. If you do not enable this option, the imported ID numbers will be ignored, and PrestaShop will instead create auto-incremented ID numbers for all the imported items.</source>
@@ -5571,13 +5595,13 @@ File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl
       </trans-unit>
       <trans-unit id="2a08996307b8694521492f3ca7b5df40" approved="yes">
         <source>Sample Combinations file</source>
-        <target xml:lang="ja">組み合わせファイルのサンプル</target>
+        <target xml:lang="ja">商品オプション構成ファイルのサンプル</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:327</note>
       </trans-unit>
       <trans-unit id="b12be4b8c3871a251b314b36da7b847e" approved="yes">
         <source>Sample Customers file</source>
-        <target xml:lang="ja">お客様ファイルのサンプル</target>
+        <target xml:lang="ja">顧客ファイルのサンプル</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:330</note>
       </trans-unit>
@@ -5626,6 +5650,12 @@ File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl
         <target xml:lang="ja">ロード</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/view/view.tpl:76</note>
+      </trans-unit>
+      <trans-unit id="225ba2bdb1c56af16651110411fc21b1" approved="yes">
+        <source>Indicate how many of the first rows of your file should be skipped when importing the data. For instance set it to 1 if the first row of your file contains headers.</source>
+        <target xml:lang="ja">データを読み込む際に、ファイルの最初の行をスキップするかどうかを指定します。 例えばファイルの一行目に項目名などがヘッダーとして含まれている場合は "1" に設定します。</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/view/view.tpl:117</note>
       </trans-unit>
     </body>
   </file>
