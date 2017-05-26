@@ -16,7 +16,7 @@ File: classes/controller/AdminController.php:2206</note>
       </trans-unit>
       <trans-unit id="ce7d2844bfe39db351171add1d7348cd" approved="yes">
         <source>Error found : %1$s in must_have_module_list.xml file.</source>
-        <target xml:lang="es-PE">Error encontrado: %1$s en archivo must_have_module_list.xml.</target>
+        <target xml:lang="es-PE">Error encontrado: %1$s en el archivo must_have_module_list.xml.</target>
         <note>Context:
 File: classes/controller/AdminController.php:2223</note>
       </trans-unit>
@@ -29,6 +29,18 @@ File: classes/controller/AdminController.php:2223</note>
         <target xml:lang="es-PE">Módulo(s) instalado(s) correctamente.</target>
         <note>Context:
 File: modules/autoupgrade/AdminSelfTab.php:180</note>
+      </trans-unit>
+      <trans-unit id="0be078b247fde4986e320cd2684e7ab9" approved="yes">
+        <source>Module(s) uninstalled successfully.</source>
+        <target xml:lang="es-PE">Módulo(s) desinstalado(s) correctamente.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfTab.php:181</note>
+      </trans-unit>
+      <trans-unit id="980b6caee06822f8c5df45eb7db277be" approved="yes">
+        <source>The module transplanted successfully to the hook.</source>
+        <target xml:lang="es-PE">El módulo fue copiado correctamente en el hook.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfTab.php:182</note>
       </trans-unit>
       <trans-unit id="80e868e8d753c3ec4066aab283e66cbc" approved="yes">
         <source>The module was successfully removed from the hook.</source>
@@ -63,6 +75,12 @@ File: classes/module/Module.php:321</note>
         <target xml:lang="es-PE">La versión de tu módulo no es compatible con tu versión de PrestaShop.</target>
         <note>Context:
 File: classes/module/Module.php:327</note>
+      </trans-unit>
+      <trans-unit id="bdc79db372bbf5800052e41b5dbab04c" approved="yes">
+        <source>Before installing this module, you have to install this/these module(s) first:</source>
+        <target xml:lang="es-PE">Antes de instalar este módulo, debes instalar este/estos módulo(s) primero:</target>
+        <note>Context:
+File: classes/module/Module.php:335</note>
       </trans-unit>
       <trans-unit id="7ae364c250c9b28880e13e2c4edae218" approved="yes">
         <source>This module has already been installed.</source>
@@ -290,6 +308,12 @@ File: controllers/admin/AdminModulesController.php:604</note>
         <note>Context:
 File: controllers/admin/AdminModulesController.php:428</note>
       </trans-unit>
+      <trans-unit id="2d2c4b710382f05c8cb697187f381f7c" approved="yes">
+        <source>The module %1$s that you uploaded is not a valid module.</source>
+        <target xml:lang="es-PE">El módulo %1$s que has subido no es un módulo válido.</target>
+        <note>Context:
+File: controllers/admin/AdminModulesController.php:433</note>
+      </trans-unit>
       <trans-unit id="c09b8da183ec54308a4c59ab1f1ab792" approved="yes">
         <source>You do not have the permission to use this module.</source>
         <target xml:lang="es-PE">Usted no tiene permiso para usar este módulo...</target>
@@ -432,6 +456,12 @@ File: controllers/admin/AdminModulesController.php:1624</note>
         <note>Context:
 File: controllers/admin/AdminModulesPositionsController.php:213</note>
       </trans-unit>
+      <trans-unit id="0c01b89a049f95e9eb10cfeb2a2901f0" approved="yes">
+        <source>Hook cannot be loaded.</source>
+        <target xml:lang="es-PE">El hook no puede cargarse.</target>
+        <note>Context:
+File: controllers/admin/AdminModulesPositionsController.php:215</note>
+      </trans-unit>
       <trans-unit id="9ce4606635f2118f9d10d1f323f73fe2" approved="yes">
         <source>This module cannot be transplanted to this hook.</source>
         <target xml:lang="es-PE">Este módulo no puede ser trasplantado a este hook.</target>
@@ -472,7 +502,7 @@ File: src/Adapter/Module/ModuleDataProvider.php:183</note>
     <body>
       <trans-unit id="848578a1a363f2c2443b3989154bf646" approved="yes">
         <source>Cannot extract module in %path% to get its name. %error%</source>
-        <target xml:lang="es-PE">No se puede extraer el módulo de %path% para obtener su nombre. %error%</target>
+        <target xml:lang="es-PE">No se puede extraer el módulo en %path% para obtener su nombre. %error%</target>
         <note>Context:
 File: src/Adapter/Module/ModuleZipManager.php:92</note>
       </trans-unit>
@@ -640,6 +670,18 @@ File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_addons_co
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm.html.twig:50</note>
       </trans-unit>
+      <trans-unit id="c5209889e18199fb2a2c50958d3212b8" approved="yes">
+        <source>Your current settings will be saved, but the module will no longer be active.</source>
+        <target xml:lang="es-PE">Tu configuración actual se guardará, pero el módulo dejará de estar activo.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm.html.twig:53</note>
+      </trans-unit>
+      <trans-unit id="eb641425b425f906c54cb55319ec3e25" approved="yes">
+        <source>You are about to uninstall %moduleName% module.</source>
+        <target xml:lang="es-PE">Estás a punto de desinstalar el módulo %moduleName%.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm.html.twig:56</note>
+      </trans-unit>
       <trans-unit id="db0769970bbd476188bfc1c5d9d6a2bd" approved="yes">
         <source>This will disable the module and delete all its files. For good.</source>
         <target xml:lang="es-PE">Esto deshabilitará el módulo y eliminará todos sus archivos. Para siempre.</target>
@@ -688,6 +730,18 @@ File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_import.ht
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_read_more_content.html.twig" source-language="en" target-language="es-PE" datatype="plaintext">
     <body>
+      <trans-unit id="a76e4258e8695991d6f5f62efdba70d6" approved="yes">
+        <source>No additional description provided for this module :(</source>
+        <target xml:lang="es-PE">No se ha proporcionado una descripción adicional para este módulo :(</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_read_more_content.html.twig:130</note>
+      </trans-unit>
+      <trans-unit id="1ed02f805424aac96756b590d51e2038" approved="yes">
+        <source>No feature list provided for this module :(</source>
+        <target xml:lang="es-PE">No se ha proporcionado un listado de características para este módulo :(</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_read_more_content.html.twig:140</note>
+      </trans-unit>
       <trans-unit id="f2a854a84903f5f29c0b7a40ccbf4ee5" approved="yes">
         <source>No customer benefits notes found for this module :(</source>
         <target xml:lang="es-PE">No se ha encontrado ninguna nota de beneficios de cliente para este módulo :(</target>
