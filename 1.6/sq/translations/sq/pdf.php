@@ -4,7 +4,7 @@ global $_LANGPDF;
 $_LANGPDF = array();
 
 $_LANGPDF['PDFab870751fa907b26253a0b6ffbf99d04'] = '%1$s%2$06d';
-$_LANGPDF['PDF065ab3a28ca4f16f55f103adc7d0226f'] = 'Postimi';
+$_LANGPDF['PDF065ab3a28ca4f16f55f103adc7d0226f'] = 'Livrimi';
 $_LANGPDF['PDF466eadd40b3c10580e3ab4e8061161ce'] = 'Fatura';
 $_LANGPDF['PDFcc894fffb019b528d12951b74d6d2b6e'] = 'Kthimi i porosisë';
 $_LANGPDF['PDFcf3bae95c5f6023d5a10fe415b205a45'] = 'Nota e kreditit';
@@ -17,6 +17,7 @@ $_LANGPDF['PDFe2f324b87eac820c81e4d4a1105dcddf'] = 'Adresa e faturimit dhe e liv
 $_LANGPDF['PDF707436a5aa13b82a4d777f64c717a625'] = 'Mënyra e pagesës';
 $_LANGPDF['PDFe40007b408ac5f66d2c2e6c54f787c99'] = 'Nuk ka pagesë';
 $_LANGPDF['PDF63d5049791d9d79d86e9a108b0a999ca'] = 'Referenca';
+$_LANGPDF['PDFdeb10517653c255364175796ace3553f'] = 'Produkti';
 $_LANGPDF['PDF03ab340b3f99e03cff9e84314ead38c0'] = 'Sasia';
 $_LANGPDF['PDF1ac6ee29e9e68fb71bad91c1d34348cc'] = '%s:';
 $_LANGPDF['PDF1be15dd275084ad2cae8f2aaa604c110'] = 'imazh(e):';

@@ -89,7 +89,6 @@ $_MODULE['<{advancedeucompliance}prestashop>legal_cms_manager_form_baabc807d3396
 $_MODULE['<{advancedeucompliance}prestashop>legal_cms_manager_form_c23a3bdb62aa5bd2a4ee872c0058acaf'] = 'Para cada uno de los temas siguientes, indique cuál de sus páginas CMS contiene la información requerida:';
 $_MODULE['<{advancedeucompliance}prestashop>legal_cms_manager_form_c9cc8cce247e49bae79f15173ce97354'] = 'Guardar';
 $_MODULE['<{advancedeucompliance}prestashop>legal_cms_manager_form_bc6cae5795433bf5d5052485128f080c'] = 'Añadir una nueva página CMS';
-$_MODULE['<{advancedeucompliance}prestashop>hookoverridetosdisplay_97abaa921b2270031573362f57aad4a4'] = 'Términos y Condiciones';
 $_MODULE['<{advancedeucompliance}prestashop>hookoverridetosdisplay_5594dc635672facca12fc9181139eb2a'] = 'Acepto los [1] Términos de servicio [/1] y los [2] términos de revocación [/2] y los aceptaré incondicionalmente.';
 $_MODULE['<{advancedeucompliance}prestashop>hookoverridetosdisplay_8dcb551200cf41821db4d82a9487f5f1'] = 'Estoy de acuerdo con los términos del servicio y de las condiciones de revocación y los aceptaré incondicionalmente';
 $_MODULE['<{advancedeucompliance}prestashop>hookoverridetosdisplay_34f1e293041593ba9867658178b3ec19'] = 'Estoy de acuerdo con los términos del servicio y los aceptaré incondicionalmente. [1] (Leer los Términos de Servicio) [/1].';

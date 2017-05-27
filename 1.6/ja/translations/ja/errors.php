@@ -319,7 +319,6 @@ $_ERRORS['63ae8982fa76c668cbfc774ccf083d26'] = 'メディアサーバ No3は無�
 $_ERRORS['6f6a61bc2bf0a0f7a104f8c526d86206'] = '設定ファイルの上書きができません';
 $_ERRORS['026324b2ba696031a2bbc518bd6e3a35'] = 'キャッシュシステムが欠落しています';
 $_ERRORS['32a2e7694628335252aceb0552a6f6ba'] = 'Memcachedを使用するには、サーバ上でMemcachePECLエクステンションをインストールする必要があります。';
-$_ERRORS['edf1f94126dbe21f81874c2f63a64d62'] = 'APCキャッシュを使用するには、サーバ上のAPCのPECLエクステンションをインストールする必要があります。';
 $_ERRORS['aadb27e7677e4c4c85e4aa747ef7626e'] = 'Xcacheを使用するには、サーバ上にXcacheエクステンションをインストールしなければなりません。';
 $_ERRORS['fd88b530d2e1c9cc6ecaf5f20aaafc6c'] = 'Xcacheを使用するには、Xcacheエクステンションのため"xcache.var_size"を設定しなければなりません。';
 $_ERRORS['50dc6de09596e60a8684c7672f09cf0a'] = 'CacheFSを使用するには、ディレクトリ %s は書き込み可能でなければなりません。';
