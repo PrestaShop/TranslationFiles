@@ -70,7 +70,7 @@ $_MODULE['<{autoupgrade}prestashop>adminpreferences_38fb7d24e0d60a048f540ecb18e1
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_19f823c6453c2b1ffd09cb715214813d'] = 'Campo requerido';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_87a2663d841b78f01c27c0edb4f50b76'] = 'El elemento ha sido eliminado exitosamente';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_a7df4df5ba87b5e752c81b276959e797'] = 'La selección ha sido suprimida correctamente';
-$_MODULE['<{autoupgrade}prestashop>adminselftab_84b4d8c8cdd02488c0f868e97b22a3c2'] = 'Creación exitosa';
+$_MODULE['<{autoupgrade}prestashop>adminselftab_84b4d8c8cdd02488c0f868e97b22a3c2'] = 'Creación correcta';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_151648106e4bf98297882ea2ea1c4b0e'] = 'Actualización exitosa';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_23b865d0b880b74fa330741e1cb25b73'] = 'La comprobación de nueva versión se ha completado con éxito';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_def73ea130852d9e7813ee61eefa24e7'] = 'Ajustes puestos al día con éxito';
