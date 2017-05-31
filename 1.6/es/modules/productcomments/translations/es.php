@@ -35,7 +35,7 @@ $_MODULE['<{productcomments}prestashop>productcomments_9dc1140983196141368ceda75
 $_MODULE['<{productcomments}prestashop>productcomments_c9cc8cce247e49bae79f15173ce97354'] = 'Guardar';
 $_MODULE['<{productcomments}prestashop>productcomments_2ec265696a51530949d345239069f0d4'] = 'Comentarios esperando aprobación';
 $_MODULE['<{productcomments}prestashop>productcomments_655d20c1ca69519ca647684edbb2db35'] = 'Alto';
-$_MODULE['<{productcomments}prestashop>productcomments_87f8a6ab85c9ced3702b4ea641ad4bb5'] = 'Media';
+$_MODULE['<{productcomments}prestashop>productcomments_87f8a6ab85c9ced3702b4ea641ad4bb5'] = 'Medio';
 $_MODULE['<{productcomments}prestashop>productcomments_28d0edd045e05cf5af64e35ae0c4c6ef'] = 'Baja';
 $_MODULE['<{productcomments}prestashop>productcomments_eb7d6baeb8bbf339547da7e0d6c5e416'] = 'Comentarios enviados';
 $_MODULE['<{productcomments}prestashop>productcomments_b718adec73e04ce3ec720dd11a06a308'] = 'ID';

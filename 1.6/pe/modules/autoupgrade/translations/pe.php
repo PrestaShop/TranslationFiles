@@ -91,7 +91,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselftab_4402aa7e384266cd7d0350c1cc9a0123
 $_MODULE['<{autoupgrade}prestashop>adminselftab_2aa80a00e1c76b0c14ef567e0e322a0e'] = 'Módulo reinicializado con éxito';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_40606a2d55f7c33c732f1d3c1b5b1e66'] = 'El módulo se ha borrado con éxito';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_0c6992101fe78e4f1ae3f391c485de29'] = 'Devolución realizada con éxito';
-$_MODULE['<{autoupgrade}prestashop>adminselftab_d4fecde5ac83b59cc690fd4d26d79abe'] = 'Devolución realizada con éxito';
+$_MODULE['<{autoupgrade}prestashop>adminselftab_d4fecde5ac83b59cc690fd4d26d79abe'] = 'Devolución realizada correctamente';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_795aa39f13629841edad6c04d3aca405'] = 'Imagenes movido con éxito';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_93cba07454f06a4a960172bbd6e2a435'] = 'Sí';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_bafd7322c6e97d25b6299b5d6fe8920b'] = 'No';
@@ -147,7 +147,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5243e62512552a2cd6369e446bbf
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a94e6f7e27ad55c963170658ee6a9e28'] = 'A menos que utilice un servidor dedicado, seleccione "Baja".';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9e435ab00f5e0606f46337fdc73164ff'] = 'Un valor alto puede causar error en la actualización si su servidor no es lo suficientemente rápido como para procesar las tareas de actualización en un corto período de tiempo.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_73ae0e1bfd470f9e26dac64d270cda9d'] = 'Bajo (recomendado)';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_87f8a6ab85c9ced3702b4ea641ad4bb5'] = 'Media';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_87f8a6ab85c9ced3702b4ea641ad4bb5'] = 'Medio';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_655d20c1ca69519ca647684edbb2db35'] = 'Alto';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_26f07ad840fb1c17d29f5be0f428f015'] = 'Desactivar módulos no nativos';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_70c06c37194d755dd9aef11cf0469981'] = 'Como algunos modulos no nativos puede experimentar algun problema de compatibilidad, se recomienda desactivarlos de forma predeterminada.';
@@ -188,7 +188,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_02a400be38a385b3aa5a07df9a39
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c6fd96a9aed05923b617fdc8d98d1181'] = 'No se encuentran documentos diff.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_335b4c111b193a855539368676837af4'] = 'No se puede comprobar los archivos para la versión instalada de PrestaShop.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_4ad974c7f06be7aa3ce318299d3b5dbb'] = 'No se pueden verificar los archivos';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8d8e0207549d32c6f864246403034279'] = 'Archivos del núcleo están OK';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8d8e0207549d32c6f864246403034279'] = 'Los archivos del núcleo están OK';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8ed8bd0ec34ae857cb99e4196d3154f4'] = 'Se han detectado %1$s modificaciones de documentos, incluyendo %2$s del modulo central y nativo:';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ca895e37bd5dfe413d7ffdd592580117'] = 'Empezando la actualización...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c96aad12b8ec23c5788682f0e5e0999d'] = 'Saltar los pasos de descarga y unziping, el proceso de actualización ya no elimina datos de muestra.';
