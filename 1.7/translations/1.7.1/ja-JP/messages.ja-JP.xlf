@@ -16,7 +16,7 @@ File: admin-dev/themes/default/template/controllers/customers/helpers/view/view.
       </trans-unit>
       <trans-unit id="06df33001c1d7187fdd81ea1f5b277aa" approved="yes">
         <source>Actions</source>
-        <target xml:lang="ja">実行</target>
+        <target xml:lang="ja">処理内容</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/customers/helpers/view/view.tpl:424</note>
       </trans-unit>
@@ -309,6 +309,12 @@ File: controllers/admin/AdminProductsController.php:1713</note>
         <target xml:lang="ja">削除</target>
         <note>Context:
 File: controllers/admin/AdminProductsController.php:2634</note>
+      </trans-unit>
+      <trans-unit id="1f66f9472666b18b19c22fd0f1a6a07b" approved="yes">
+        <source>The file is too large. Maximum size allowed is: %1$d kB. The file you are trying to upload is %2$d kB.</source>
+        <target xml:lang="ja">ファイルサイズが大きすぎます。許可されている最大サイズ：%1$d kB　アップロードしたファイルサイズ：%2$d kB</target>
+        <note>Context:
+File: controllers/admin/AdminProductsController.php:441</note>
       </trans-unit>
       <trans-unit id="aad781b9842958b4552b8edebb83c346" approved="yes">
         <source>File copy failed</source>
@@ -1000,9 +1006,15 @@ File: admin-dev/themes/default/template/controllers/stats/stats.tpl:34</note>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/groups/helpers/view/view.tpl:58</note>
       </trans-unit>
+      <trans-unit id="befcac0f9644a7abee43e69f49252ac4" approved="yes">
+        <source>Tax excluded</source>
+        <target xml:lang="ja">税を含めない</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/groups/helpers/view/view.tpl:42</note>
+      </trans-unit>
       <trans-unit id="f4a0d7cb0cd45214c8ca5912c970de13" approved="yes">
         <source>Tax included</source>
-        <target xml:lang="ja">税込</target>
+        <target xml:lang="ja">税を含める</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/groups/helpers/view/view.tpl:44</note>
       </trans-unit>
@@ -2267,7 +2279,7 @@ File: controllers/admin/AdminStockConfigurationController.php:631</note>
     <body>
       <trans-unit id="ec53a8c4f07baed5d8825072c89799be" approved="yes">
         <source>Status</source>
-        <target xml:lang="ja">注文ステータス</target>
+        <target xml:lang="ja">有効ステータス</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:1277</note>
       </trans-unit>
@@ -4120,7 +4132,7 @@ File: admin-dev/themes/default/template/controllers/carriers/helpers/list/list_h
     <body>
       <trans-unit id="fc6341fa76fe93b837d748563e0a60c1" approved="yes">
         <source>Apply a discount</source>
-        <target xml:lang="ja">割引を適用</target>
+        <target xml:lang="ja">割引適用</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/cart_rules/actions.tpl:43</note>
       </trans-unit>
@@ -4165,6 +4177,12 @@ File: admin-dev/themes/default/template/controllers/cart_rules/actions.tpl:119</
         <target xml:lang="ja">選択された商品</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/cart_rules/actions.tpl:125</note>
+      </trans-unit>
+      <trans-unit id="3b3924db361bf202158d5a23ec10ea80" approved="yes">
+        <source>Exclude discounted products</source>
+        <target xml:lang="ja">割引商品を除外</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/cart_rules/actions.tpl:146</note>
       </trans-unit>
       <trans-unit id="2f73d13f0a878086ce1f9933aed3ac80" approved="yes">
         <source>Send a free gift</source>
@@ -4266,43 +4284,37 @@ File: admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl:28
       </trans-unit>
       <trans-unit id="8f36b08eb9ebba13ef930c9dd719ff7c" approved="yes">
         <source>Limit to a single customer</source>
-        <target xml:lang="ja">単一のお客様に制限</target>
+        <target xml:lang="ja">特定のお客様にだけ適用</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl:29</note>
       </trans-unit>
-      <trans-unit id="fc36a619a1f71bfe01203191c5c95675" approved="yes">
-        <source>The default period is one month.</source>
-        <target xml:lang="ja">デフォルトの期間は１ヶ月です</target>
-        <note>Context:
-File: admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl:45</note>
-      </trans-unit>
       <trans-unit id="3ac705f2acd51a4613f9188c05c91d0d" approved="yes">
         <source>Valid</source>
-        <target xml:lang="ja">有効</target>
+        <target xml:lang="ja">有効期間</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl:46</note>
       </trans-unit>
       <trans-unit id="5b41d7dc2da5ea15baf3e2d62d820ac2" approved="yes">
         <source>You can choose a minimum amount for the cart either with or without the taxes and shipping.</source>
-        <target xml:lang="ja">税のありやなし、出荷のありやなしのどれかからカートの最小金額を選択することができます。</target>
+        <target xml:lang="ja">税や送料を含めるかどうかと共に、カートの最低金額を指定することが出来ます。</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl:74</note>
       </trans-unit>
       <trans-unit id="9f6e99bdd4184b83dc478d0ab1b4cbf7" approved="yes">
         <source>Minimum amount</source>
-        <target xml:lang="ja">最小の金額</target>
+        <target xml:lang="ja">最低金額</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl:75</note>
       </trans-unit>
       <trans-unit id="89bea8045e50a337d8ce9849a4e1633c" approved="yes">
         <source>Shipping excluded</source>
-        <target xml:lang="ja">除外された出荷</target>
+        <target xml:lang="ja">送料を含めない</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl:105</note>
       </trans-unit>
       <trans-unit id="f7b8d9d5bbba937644a29be14e2654ed" approved="yes">
         <source>Shipping included</source>
-        <target xml:lang="ja">含まれる出荷</target>
+        <target xml:lang="ja">送料を含める</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl:106</note>
       </trans-unit>
@@ -4314,7 +4326,7 @@ File: admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl:11
       </trans-unit>
       <trans-unit id="7d058d4cdbc3a0f480bd472b62a0bf53" approved="yes">
         <source>Total available</source>
-        <target xml:lang="ja">利用可能合計</target>
+        <target xml:lang="ja">利用可能合計回数</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl:117</note>
       </trans-unit>
@@ -4326,19 +4338,25 @@ File: admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl:12
       </trans-unit>
       <trans-unit id="9379f6f6c128b182600047d1b3090bc9" approved="yes">
         <source>Total available for each user</source>
-        <target xml:lang="ja">ユーザ毎の利用合計</target>
+        <target xml:lang="ja">ユーザ毎の利用可能回数</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl:129</note>
       </trans-unit>
+      <trans-unit id="e3e16bb73c0250a6a229fb457b4f957e" approved="yes">
+        <source>Restrictions</source>
+        <target xml:lang="ja">利用制限</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl:141</note>
+      </trans-unit>
       <trans-unit id="cd8e66c655070f24cbece45141a505c3" approved="yes">
         <source>Country selection</source>
-        <target xml:lang="ja">選択されている国</target>
+        <target xml:lang="ja">国を選択</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl:148</note>
       </trans-unit>
       <trans-unit id="ced8a99398578936b21103cba545cd66" approved="yes">
         <source>This restriction applies to the country of delivery.</source>
-        <target xml:lang="ja">配送先の国で適応される制限。</target>
+        <target xml:lang="ja">配送先の国を基準に制限が適用されます。</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl:151</note>
       </trans-unit>
@@ -4356,7 +4374,7 @@ File: admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl:16
       </trans-unit>
       <trans-unit id="46b00dccbc9e441b3fcf567d39975f86" approved="yes">
         <source>Carrier selection</source>
-        <target xml:lang="ja">配送方法の選択</target>
+        <target xml:lang="ja">配送方法を選択</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl:183</note>
       </trans-unit>
@@ -4410,7 +4428,7 @@ File: admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl:26
       </trans-unit>
       <trans-unit id="7f36b7eac5872d757b315ed431c4ad92" approved="yes">
         <source>Product selection</source>
-        <target xml:lang="ja">選択されている商品</target>
+        <target xml:lang="ja">商品を選択</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl:293</note>
       </trans-unit>
@@ -4506,7 +4524,7 @@ File: admin-dev/themes/default/template/controllers/cart_rules/informations.tpl:
       </trans-unit>
       <trans-unit id="7560e0cd0768c203f178a95dbb586297" approved="yes">
         <source>For your eyes only. This will never be displayed to the customer.</source>
-        <target xml:lang="ja">あなたのためだけ、お客様に表示されることはありません。</target>
+        <target xml:lang="ja">管理用の項目です。お客様に表示されることはありません。</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/cart_rules/informations.tpl:63</note>
       </trans-unit>
@@ -4516,39 +4534,45 @@ File: admin-dev/themes/default/template/controllers/cart_rules/informations.tpl:
         <note>Context:
 File: admin-dev/themes/default/template/controllers/cart_rules/informations.tpl:83</note>
       </trans-unit>
+      <trans-unit id="b9fe1289d4d385c85d61f262aea8de40" approved="yes">
+        <source>Caution! If you leave this field blank, the rule will automatically be applied to benefiting customers.</source>
+        <target xml:lang="ja">注意！この項目を空欄にした場合、注文に対して自動的にこのルールが適用されるようになります。</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/cart_rules/informations.tpl:86</note>
+      </trans-unit>
       <trans-unit id="9c0cc5911e6caceaa3f19e4bcf264ab0" approved="yes">
         <source>If the voucher is not yet in the cart, it will be displayed in the cart summary.</source>
-        <target xml:lang="ja">まだカート内にクーポンが入っていない場合、カート内容に表示されます。</target>
+        <target xml:lang="ja">カートにクーポンが適用されていない場合、カート画面にお知らせ表示されます。</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/cart_rules/informations.tpl:93</note>
       </trans-unit>
       <trans-unit id="0b90582f4589d84be89f5b847d4d1ed1" approved="yes">
         <source>Highlight</source>
-        <target xml:lang="ja">ハイライト</target>
+        <target xml:lang="ja">強調表示</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/cart_rules/informations.tpl:94</note>
       </trans-unit>
       <trans-unit id="b51a203cee37965537db75688feaef75" approved="yes">
         <source>Only applicable if the voucher value is greater than the cart total.</source>
-        <target xml:lang="ja">クーポンの値はカートの合計よりも大きい場合にのみ適用されます。</target>
+        <target xml:lang="ja">クーポンの値が、カートの合計金額よりも大きい場合にのみ適用されます。</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/cart_rules/informations.tpl:111</note>
       </trans-unit>
       <trans-unit id="45ec8a24a8f55af16fad097e8a4fb9fe" approved="yes">
         <source>If you do not allow partial use, the voucher value will be lowered to the total order amount. If you allow partial use, however, a new voucher will be created with the remainder.</source>
-        <target xml:lang="ja">部分的な使用を許可しない場合は、クーポンの値が合計注文金額に下げられます、もしそうしたいなら、新しいクーポンは残高で作成されます。</target>
+        <target xml:lang="ja">分割利用を許可していない場合は、クーポンは注文合計金額が上限として引き下げられます。もし分割利用を許可した場合は、残高分の新しいクーポンが自動生成されます。</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/cart_rules/informations.tpl:112</note>
       </trans-unit>
       <trans-unit id="f507c7574b6368f942ea9a2b959d8ec9" approved="yes">
         <source>Partial use</source>
-        <target xml:lang="ja">部分使用</target>
+        <target xml:lang="ja">分割利用の許可</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/cart_rules/informations.tpl:113</note>
       </trans-unit>
       <trans-unit id="0fcc630f536dae07ee7c1ac612654c1d" approved="yes">
         <source>Cart rules are applied by priority. A cart rule with a priority of "1" will be processed before a cart rule with a priority of "2".</source>
-        <target xml:lang="ja">カートルールは優先順位によってショッピングカートに適用されます。優先度が1のカートルールは優先度2のカートルールより前に処理されます。</target>
+        <target xml:lang="ja">カートルールは優先順位に従ってショッピングカートに適用されます。優先順位が "1"の カートルールは、優先度 "2" のカートルールより前に処理されます。</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/cart_rules/informations.tpl:130</note>
       </trans-unit>
