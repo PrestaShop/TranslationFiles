@@ -27,7 +27,7 @@ $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_cca40d516b6d8c0
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_169f26196195b1ba3e10dd34fda1e110'] = 'Las etiquetas de gastos de envío no se pueden activar a menos que usted asocie el rol "%s" con una página CMS';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_dce8bc104eff9adc2d0e580b008721ec'] = 'No es posible activar la "Página Pasar por caja avanzada" por que su tema no es compatible con esta opción.';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_23e162ba6bf36c7560ebbc868d9e2552'] = 'Aviso legal';
-$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_98664ee75f74254b622a52d86a798ae3'] = 'Términos del Servicio (ToS)';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_98664ee75f74254b622a52d86a798ae3'] = 'Condiciones del Servicio (CdS)';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_93fb7e4d4616f108db46461360b7a6ae'] = 'Téminos de cancelación';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_01ed64f3ede93b663b4d78d2a0693f0a'] = 'Formulario de cancelación';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_c5f29bb36f9158d2e00f5d4dc213a0ff'] = 'Privacidad';

@@ -14,6 +14,7 @@ $_MODULE['<{trackingfront}prestashop>trackingfront_ae5d01b6efa819cc7a7c05a8c57fc
 $_MODULE['<{trackingfront}prestashop>trackingfront_d7e637a6e9ff116de2fa89551240a94d'] = '訪問';
 $_MODULE['<{trackingfront}prestashop>trackingfront_d3139f39f1ad6324c80a9ddd50cc7867'] = '参照されたページ';
 $_MODULE['<{trackingfront}prestashop>trackingfront_a28735af01fbb1e35371cb120985ac47'] = '登録';
+$_MODULE['<{trackingfront}prestashop>trackingfront_7442e29d7d53e549b78d93c46b8cdcfc'] = '注文';
 $_MODULE['<{trackingfront}prestashop>trackingfront_2e27c4006a026eacfc1f85b41bf9bc4c'] = 'ベースの手数料：';
 $_MODULE['<{trackingfront}prestashop>trackingfront_86190054fc32554662ffbb12b717e8d0'] = '手数料率：';
 $_MODULE['<{trackingfront}prestashop>trackingfront_51d53cd2ecdae6b5dd3397875197e898'] = '料金をクリック：';

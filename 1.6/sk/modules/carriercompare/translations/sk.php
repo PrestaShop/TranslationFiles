@@ -4,7 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{carriercompare}prestashop>carriercompare_533bf2149f935df1f934e5ee55f68d20'] = 'Odhad nákladov na prepravu a poplatky.';
-$_MODULE['<{carriercompare}prestashop>carriercompare_59716c97497eb9694541f7c3d37b1a4d'] = 'Štát';
+$_MODULE['<{carriercompare}prestashop>carriercompare_59716c97497eb9694541f7c3d37b1a4d'] = 'Krajina';
 $_MODULE['<{carriercompare}prestashop>carriercompare_46a2a41cc6e552044816a2d04634545d'] = 'Štát (provincia)';
 $_MODULE['<{carriercompare}prestashop>carriercompare_c6e2a9b2d1979c244d18c7e9fbf9a86f'] = 'PSČ';
 $_MODULE['<{carriercompare}prestashop>carriercompare_9207f4078f515ecc8256bae33fa1f497'] = 'Potrebné pre určitých prepravcov.';

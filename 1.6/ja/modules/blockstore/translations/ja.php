@@ -5,6 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{blockstore}prestashop>blockstore_68e9ecb0ab69b1121fe06177868b8ade'] = 'ストアブロック';
 $_MODULE['<{blockstore}prestashop>blockstore_df7859ac16e724c9b1fba0a364503d72'] = 'ファイルアップロード中にエラーが発生しました。';
+$_MODULE['<{blockstore}prestashop>blockstore_efc226b17e0532afff43be870bff0de7'] = '設定を更新しました。';
 $_MODULE['<{blockstore}prestashop>blockstore_f4f70727dc34561dfde1a3c529b6205c'] = '設定';
 $_MODULE['<{blockstore}prestashop>blockstore_c9cc8cce247e49bae79f15173ce97354'] = '保存';
 $_MODULE['<{blockstore}prestashop>blockstore_8c0caec5616160618b362bcd4427d97b'] = 'ストア';

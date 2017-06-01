@@ -12,6 +12,7 @@ $_MODULE['<{statsforecast}prestashop>statsforecast_3bb1503332637805beddb73a2dd1f
 $_MODULE['<{statsforecast}prestashop>statsforecast_ae5d01b6efa819cc7a7c05a8c57fcc2c'] = '訪問者';
 $_MODULE['<{statsforecast}prestashop>statsforecast_9b945efebb006547a94415eadaa12921'] = 'アカウント';
 $_MODULE['<{statsforecast}prestashop>statsforecast_87cac5a0b60008003ccf46dc1d49e0c3'] = '完全なカート';
+$_MODULE['<{statsforecast}prestashop>statsforecast_7442e29d7d53e549b78d93c46b8cdcfc'] = '注文';
 $_MODULE['<{statsforecast}prestashop>statsforecast_5a9e532b24379dca2ab0e973172a78e1'] = '登録済みの訪問者';
 $_MODULE['<{statsforecast}prestashop>statsforecast_fc26e55e0993a75e892175deb02aae15'] = 'カート';
 $_MODULE['<{statsforecast}prestashop>statsforecast_3fa6443ce3f838b6901b70cd812abf0d'] = '支払い範囲';
