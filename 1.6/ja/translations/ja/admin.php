@@ -540,6 +540,7 @@ $_LANGADM['AdminGenders63889cfb9d3cbe05d1bd2be5cc9953fd'] = '男性';
 $_LANGADM['AdminGendersb719ce180ec7bd9641fece2f920f4817'] = '女性';
 $_LANGADM['AdminGenderse9bb5320b3890b6747c91b5a71ae5a01'] = 'ナチュラル';
 $_LANGADM['AdminGendersbe53a0541a6d36f6ecb879fa2c584b08'] = '画像';
+$_LANGADM['AdminGendersd583f5e653e36be901f9baafc9d975b3'] = 'タイトル';
 $_LANGADM['AdminGenders6252c0f2c2ed83b7b06dfca86d4650bb'] = '無効な文字：';
 $_LANGADM['AdminGenders6fed80a8c8ded2f5e14a687e4a443abc'] = '画像の幅：';
 $_LANGADM['AdminGenders62c7ceb6de5c4d39e49c9762af6ddb4d'] = '画像の幅はピクセル単位。元のサイズを使用する場合は0を入力';
