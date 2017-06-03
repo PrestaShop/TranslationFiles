@@ -599,6 +599,7 @@ $_LANG['product_10ac3d04253ef7e1ddc73e6091c0cd55'] = 'Suivant';
 $_LANG['product_02ea084dc2ef3e9965dbba4ec87d2f9b'] = '모든 사진을 표시';
 $_LANG['product_03de921a8ea82897e13d33d66c28b4db'] = '온라인전용';
 $_LANG['product_3dd42bfc8345e82c43b4a40a3426ec49'] = '참조';
+$_LANG['product_656c3be690ee43df4b845bd2a2ebe587'] = '신상품';
 $_LANG['product_019d1ca7d50cc54b995f60d456435e87'] = '사용됨';
 $_LANG['product_2b56b60f878922093facd42284848a0c'] = '상세정보 >>';
 $_LANG['product_e54a973d0c3342dac6ee7d9e145c6f83'] = '패키지 내용';

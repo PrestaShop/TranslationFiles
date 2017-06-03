@@ -16,6 +16,7 @@ $_LANGADM['AdminModules10ac3d04253ef7e1ddc73e6091c0cd55'] = 'Suivant';
 $_LANGADM['AdminModulesb24ce0cd392a5b0b8dedc66c25213594'] = 'Gratuit !';
 $_LANGADM['AdminProducts1f87346a16cf80c372065de3c54c86d9'] = '(부가세 포함)';
 $_LANGADM['AdminProducts06933067aafd48425d67bcb01bba5cb6'] = '업데이트';
+$_LANGADM['AdminControllere6a7f8a2f42cc35979973da8dfb10720'] = '포럼';
 
 
 return $_LANGADM;
