@@ -121,7 +121,7 @@ $_MODULE['<{blocklayered}prestashop>view_1.6_308c1cf98be9973142833c9a9dbbc2ef'] 
 $_MODULE['<{blocklayered}prestashop>view_1.6_5ad040870ae5ccaeb2d57e4d052163a4'] = '¡Advertencia! La configuración de PHP limita el número máximo de campos para enviar en un formulario';
 $_MODULE['<{blocklayered}prestashop>view_1.6_5607dc45ebdfc0baaab64d944aa88f47'] = '= max_input_vars.';
 $_MODULE['<{blocklayered}prestashop>view_1.6_6e709babf4b5a0ed4194ad5240e1be2c'] = 'Por favor, solicite a su proveedor de alojamiento que aumente este límite a';
-$_MODULE['<{blocklayered}prestashop>view_1.6_5d27fef01a54790de11db21f1ed47892'] = '%s por lo menos, o usted tendrá que editar los archivos de traducción de forma manual.';
+$_MODULE['<{blocklayered}prestashop>view_1.6_5d27fef01a54790de11db21f1ed47892'] = '%s al menos, para que no tenga que editar manualmente los archivos de traducción.';
 $_MODULE['<{blocklayered}prestashop>view_1.6_df2bbc994d10995dcffdf96dbb7acbb1'] = 'Índices y cachés';
 $_MODULE['<{blocklayered}prestashop>view_1.6_ad3e7eb269d8ba0ac388267627f45b5a'] = 'Indexación en proceso. Por favor, no abandone esta página';
 $_MODULE['<{blocklayered}prestashop>view_1.6_5e2420d2318025812dc3e231ddb66b0b'] = 'Índice de todos los precios faltantes';
@@ -175,7 +175,7 @@ $_MODULE['<{blocklayered}prestashop>view_308c1cf98be9973142833c9a9dbbc2ef'] = 'P
 $_MODULE['<{blocklayered}prestashop>view_5ad040870ae5ccaeb2d57e4d052163a4'] = '¡Advertencia! La configuración de PHP limita el número máximo de campos para enviar en un formulario';
 $_MODULE['<{blocklayered}prestashop>view_5607dc45ebdfc0baaab64d944aa88f47'] = '= max_input_vars.';
 $_MODULE['<{blocklayered}prestashop>view_6e709babf4b5a0ed4194ad5240e1be2c'] = 'Por favor, solicite a su proveedor de alojamiento que aumente este límite a';
-$_MODULE['<{blocklayered}prestashop>view_5d27fef01a54790de11db21f1ed47892'] = '%s por lo menos, o usted tendrá que editar los archivos de traducción de forma manual.';
+$_MODULE['<{blocklayered}prestashop>view_5d27fef01a54790de11db21f1ed47892'] = '%s al menos, para que no tenga que editar manualmente los archivos de traducción.';
 $_MODULE['<{blocklayered}prestashop>view_df2bbc994d10995dcffdf96dbb7acbb1'] = 'Índices y cachés';
 $_MODULE['<{blocklayered}prestashop>view_ad3e7eb269d8ba0ac388267627f45b5a'] = 'Indexación en proceso. Por favor, no abandone esta página';
 $_MODULE['<{blocklayered}prestashop>view_5e2420d2318025812dc3e231ddb66b0b'] = 'Índice de todos los precios faltantes';
