@@ -86,7 +86,7 @@
 				<td style="padding:7px 0">
 					<font size="2" face="Open-sans, sans-serif" color="#555454">
 						<p data-html-only="1" style="border-bottom:1px solid #D6D4D4;margin:3px 0 7px;text-transform:uppercase;font-weight:500;font-size:18px;padding-bottom:10px">
-							注文コード： {order_name}&nbsp;-&nbsp;Awaiting check payment						</p>
+							注文コード： {order_name}&nbsp;-&nbsp;小切手支払い待ち						</p>
 						<span style="color:#777">
 							お客様よりいただいたご注文は、注文コード：<span style="color:#333"><strong>{order_name}</strong></span>  にて承りました。<strong>ご入金の確認が取れ次第</strong>配送致します。						</span>
 					</font>
@@ -107,12 +107,12 @@
 				<td style="padding:7px 0">
 					<font size="2" face="Open-sans, sans-serif" color="#555454">
 						<p style="border-bottom:1px solid #D6D4D4;margin:3px 0 7px;text-transform:uppercase;font-weight:500;font-size:18px;padding-bottom:10px">
-							You have selected to pay by check.						</p>
+							小切手での支払お選びいただいております。						</p>
 						<span style="color:#777">
-							Here are the bank details for your check:<br />
+							小切手支払用銀行の詳細は以下のとおりです：<br />
 							<span style="color:#333"><strong>金額：</strong></span> {total_paid}<br />
-							<span style="color:#333"><strong>Payable to the order of:</strong></span> {check_name}<br />
-							<span style="color:#333"><strong>Please mail your check to:</strong></span> {check_address_html} 
+							<span style="color:#333"><strong>こちらの注文へのお支払いが可能です：</strong></span> {check_name}<br />
+							<span style="color:#333"><strong>小切手送付先：</strong></span> {check_address_html} 
 						</span>
 					</font>
 				</td>
@@ -128,7 +128,7 @@
 	<td class="linkbelow" style="padding:7px 0">
 		<font size="2" face="Open-sans, sans-serif" color="#555454">
 			<span>
-				You can review your order and download your invoice from the <a href="{history_url}" style="color:#337ff1">"Order history"</a> section of your customer account by clicking <a href="{my_account_url}" style="color:#337ff1">"My account"</a> on our shop.			</span>
+				当ショップの<a href="{my_account_url}" style="color:#337ff1">「マイアカウント」</a>をクリックして、お客様アカウントのページにある <a href="{history_url}" style="color:#337ff1">「注文履歴」</a>よりご注文内容の確認や請求書のダウンロードが可能です。			</span>
 		</font>
 	</td>
 </tr>
@@ -136,7 +136,7 @@
 	<td class="linkbelow" style="padding:7px 0">
 		<font size="2" face="Open-sans, sans-serif" color="#555454">
 			<span>
-				If you have a guest account, you can follow your order via the <a href="{guest_tracking_url}" style="color:#337ff1">"Guest Tracking"</a> section on our shop.			</span>
+				ゲストアカウントでご注文いただいた場合は、 <a href="{guest_tracking_url}" style="color:#337ff1">「ゲストトラッキング」</a>セクションより、ご注文内容をご確認いただけます。			</span>
 		</font>
 	</td>
 </tr>

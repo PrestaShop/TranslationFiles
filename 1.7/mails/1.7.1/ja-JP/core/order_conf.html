@@ -90,7 +90,7 @@
 						<p data-html-only="1" style="border-bottom:1px solid #D6D4D4;margin:3px 0 7px;text-transform:uppercase;font-weight:500;font-size:18px;padding-bottom:10px">
 							注文詳細						</p>
 						<span style="color:#777">
-							<span style="color:#333"><strong>注文：</strong></span> {order_name} Placed on {date}<br /><br />
+							<span style="color:#333"><strong>注文：</strong></span> {order_name} 作成日時 {date}<br /><br />
 							<span style="color:#333"><strong>支払い：</strong></span> {payment}
 						</span>
 					</font>
@@ -105,7 +105,7 @@
 		<font size="2" face="Open-sans, sans-serif" color="#555454">
 			<table class="table table-recap" bgcolor="#ffffff" style="width:100%;border-collapse:collapse"><!-- Title -->
 				<tr>
-					<th bgcolor="#f8f8f8" style="border:1px solid #D6D4D4;background-color: #fbfbfb;color: #333;font-family: Arial;font-size: 13px;padding: 10px;">リファレンス</th>
+					<th bgcolor="#f8f8f8" style="border:1px solid #D6D4D4;background-color: #fbfbfb;color: #333;font-family: Arial;font-size: 13px;padding: 10px;">参照コード</th>
 					<th bgcolor="#f8f8f8" style="border:1px solid #D6D4D4;background-color: #fbfbfb;color: #333;font-family: Arial;font-size: 13px;padding: 10px;">商品</th>
 					<th bgcolor="#f8f8f8" style="border:1px solid #D6D4D4;background-color: #fbfbfb;color: #333;font-family: Arial;font-size: 13px;padding: 10px;" width="17%">単価</th>
 					<th bgcolor="#f8f8f8" style="border:1px solid #D6D4D4;background-color: #fbfbfb;color: #333;font-family: Arial;font-size: 13px;padding: 10px;">数量</th>
@@ -184,7 +184,7 @@
 								<td width="10" style="color:#333;padding:0">&nbsp;</td>
 								<td align="right" style="color:#333;padding:0">
 									<font size="2" face="Open-sans, sans-serif" color="#555454">
-										<strong>Gift-wrapping</strong>
+										<strong>ギフトラッピング</strong>
 									</font>
 								</td>
 								<td width="10" style="color:#333;padding:0">&nbsp;</td>
@@ -240,7 +240,7 @@
 								<td width="10" style="color:#333;padding:0">&nbsp;</td>
 								<td align="right" style="color:#333;padding:0">
 									<font size="2" face="Open-sans, sans-serif" color="#555454">
-										<strong>Total Tax paid</strong>
+										<strong>支払い税金合計</strong>
 									</font>
 								</td>
 								<td width="10" style="color:#333;padding:0">&nbsp;</td>
@@ -304,7 +304,7 @@
 						<p data-html-only="1" style="border-bottom:1px solid #D6D4D4;margin:3px 0 7px;text-transform:uppercase;font-weight:500;font-size:18px;padding-bottom:10px">
 							送料						</p>
 						<span style="color:#777">
-							<span style="color:#333"><strong>配送：</strong></span> {carrier}<br /><br />
+							<span style="color:#333"><strong>配送方法：</strong></span> {carrier}<br /><br />
 							<span style="color:#333"><strong>支払い：</strong></span> {payment}
 						</span>
 					</font>
@@ -347,7 +347,7 @@
 							<td style="padding:7px 0">
 								<font size="2" face="Open-sans, sans-serif" color="#555454">
 									<p data-html-only="1" style="border-bottom:1px solid #D6D4D4;margin:3px 0 7px;text-transform:uppercase;font-weight:500;font-size:18px;padding-bottom:10px">
-										Billing address									</p>
+										請求先住所									</p>
 									<span data-html-only="1" style="color:#777">
 										{invoice_block_html}
 									</span>
@@ -369,7 +369,7 @@
 	<td class="linkbelow" style="padding:7px 0">
 		<font size="2" face="Open-sans, sans-serif" color="#555454">
 			<span>
-				You can review your order and download your invoice from the <a href="{history_url}" style="color:#337ff1">"Order history"</a> section of your customer account by clicking <a href="{my_account_url}" style="color:#337ff1">"My account"</a> on our shop.			</span>
+				当ショップの<a href="{my_account_url}" style="color:#337ff1">「マイアカウント」</a>をクリックして、お客様アカウントのページにある <a href="{history_url}" style="color:#337ff1">「注文履歴」</a>よりご注文内容の確認や請求書のダウンロードが可能です。			</span>
 		</font>
 	</td>
 </tr>
@@ -377,7 +377,7 @@
 	<td class="linkbelow" style="padding:7px 0">
 		<font size="2" face="Open-sans, sans-serif" color="#555454">
 			<span>
-				If you have a guest account, you can follow your order via the <a href="{guest_tracking_url}?id_order={order_name}" style="color:#337ff1">"Guest Tracking"</a> section on our shop.			</span>
+				ゲストアカウントでご注文いただいた場合は、<a href="{guest_tracking_url}?id_order={order_name}" style="color:#337ff1">「ゲストトラッキング」</a>セクションより、ご注文内容をご確認いただけます。			</span>
 		</font>
 	</td>
 </tr>
