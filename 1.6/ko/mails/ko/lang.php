@@ -3,6 +3,8 @@
 global $_LANGMAIL;
 $_LANGMAIL = array();
 
+$_LANGMAIL['The virtual product that you bought is available for download'] = '구매한 가상 상품의 다운로드가 가능합니다';
+$_LANGMAIL['New voucher for your order %s'] = '주문 %s에 대한 새 할인 쿠폰';
 $_LANGMAIL['Order confirmation'] = '주문 확인';
 $_LANGMAIL['Log: You have a new alert from your shop'] = '새로운 로그 경고입니다.';
 $_LANGMAIL['Fwd: Customer message'] = '전달:고객의 메세지';
@@ -11,7 +13,9 @@ $_LANGMAIL['Your new password'] = '고객님의 새로운 비밀번호 입니다
 $_LANGMAIL['Package in transit'] = '주문이 완료 되었습니다.';
 $_LANGMAIL['New message regarding your order'] = '주문에 대한 새로운 메세지 입니다.';
 $_LANGMAIL['New credit slip regarding your order'] = '당신의 주문에 대한 새로운 신용전표';
+$_LANGMAIL['New voucher for your order #%s'] = '주문 #%s에 대한 새 할인 쿠폰';
 $_LANGMAIL['Process the payment of your order'] = '주문하신 상품의 결제';
+$_LANGMAIL['Your order return status has changed'] = '당신의 주문 반품 상태가 변경됨';
 $_LANGMAIL['Welcome!'] = '환영합니다!';
 $_LANGMAIL['Your message has been correctly sent'] = '메시지가 올바르게 고객 서비스로 전송되었습니다.';
 $_LANGMAIL['Message from contact form'] = '고객님의 문의 내용을 접수하였습니다.';
