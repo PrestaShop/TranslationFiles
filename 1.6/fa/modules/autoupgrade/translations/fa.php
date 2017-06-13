@@ -201,6 +201,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_da652b8ece8ba2da84d5f5116f6e
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_654f7ceb787fd455c166d5d8744cbf90'] = 'پوشه "latest/" تخلیه شد';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7dce6149440985f89756b4c451d7dc03'] = 'استخراج فایل انجام شد.در حال حذف فایل های نمونه...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_89640d2ed666aab722d12be60a61938d'] = 'عدم توانایی در استخراج فایل %1$s در پوشه %2$s...';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_115437a77cd81057e681ff2e12b14192'] = 'آرشیو %s برای ارتقاء معتبر نیست...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_064a15c7711dd82e5026a17a453b3a3b'] = 'پوشه استخراج قابل نوشتن نیست.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_01d9d38b1d4d8eff5b530eeecfd3ccd5'] = 'پوشه استخراج %s قابل نوشتن نیست.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_99f0e3a6d61b6d39da9213c647fd35ce'] = '[خطا] %s وجود ندارد یا یک پوشه نیست.';
