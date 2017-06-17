@@ -36,7 +36,7 @@ $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_5fb4f05f62f9967
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_3ad6cb6100190c8f81e99fd52debf7ef'] = 'Etiketter';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_7329102f476b0501e39cd50c8a315e63'] = 'Forvent leverings tid (for modtagelse af vare)';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_ff080adc004c17d79d36a0734ae7a79e'] = 'Angiv den anslåede leveringstid for dine på-lager varer. Lad boksen stå tom for at deaktivere.';
-$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_90c14df48f5356a782eae1d39c06a364'] = 'Forventet leverings tidspunkt (for varer som ikke er på lager)';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_90c14df48f5356a782eae1d39c06a364'] = 'Forventet levering (udsolgte varer)';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_e41b0b5a9329a0959e8ca1a792b8f2c4'] = 'Angiv den anslåede leveringstid for dine varer som er på lager. Lad boksen stå tom for at deaktivere.';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_714157963f7f7548cd9cc3046a31d2de'] = '\'Før\' basispris etiket';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_5400b516956ae7625857f5c569316fba'] = 'Når en vare er til salg, vises basisprisen med \'Før\' foran.';

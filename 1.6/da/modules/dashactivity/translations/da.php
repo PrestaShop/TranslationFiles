@@ -22,13 +22,13 @@ $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_f1206f9fadc5ce41694f69129
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_63a6a88c066880c5ac42394a22803ca6'] = 'Opdatér';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_254f642527b45bc260048e30704edb39'] = 'Konfiguration';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_edfc5fccc0439856b5bd432522ef47aa'] = 'Gæster online';
-$_MODULE['<{dashactivity}prestashop>dashboard_zone_one_962b7da7912bc637b03626e23b5832b5'] = 'I de sidste %d minutter';
+$_MODULE['<{dashactivity}prestashop>dashboard_zone_one_962b7da7912bc637b03626e23b5832b5'] = 'Seneste %d minutter';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_7aaacf26dbf7d8929916618bb57d81f8'] = 'Aktive kurve';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_24042b0e4b783724dac4178df4db5d68'] = 'Under behandling';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_7442e29d7d53e549b78d93c46b8cdcfc'] = 'Ordrer';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_247d96cbab5bfc79dff10eb2ce6d8897'] = 'Retur / byttepenge';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_54e85d70ea67acdcc86963b14d6223a8'] = 'Efterladte kurve';
-$_MODULE['<{dashactivity}prestashop>dashboard_zone_one_1c4407dd95b9ef941d30c2838208977e'] = 'Varer som ikke er på lager';
+$_MODULE['<{dashactivity}prestashop>dashboard_zone_one_1c4407dd95b9ef941d30c2838208977e'] = 'Udsolgte varer';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_a274f4d4670213a9045ce258c6c56b80'] = 'Meddelelser';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_a644e8cd597f2b92aa52861632c0363d'] = 'Ny besked';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_56d4e9a4c8e9f47549e8129393b3740f'] = 'Produkt anmeldelser';
