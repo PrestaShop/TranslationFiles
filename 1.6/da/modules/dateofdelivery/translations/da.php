@@ -10,13 +10,13 @@ $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_0ea55758c7a68c0309b915e4b71
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_7ccf58c950043c9fbfed668df13ce608'] = 'Indstillinger er opdateret';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_ecfe3ba0ff66a97029088e8e90a3f051'] = 'Minimumstid er ugyldig';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_0245cd1cce5ecea8eb23b043be00d80a'] = 'Maksimal tid er ugyldig';
-$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_e6843321c8b0edea8cf333519316ed7b'] = 'Forsendelsesfirma er ugyldig';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_e6843321c8b0edea8cf333519316ed7b'] = 'Leveringsfirma er ugyldigt';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_3499ed6a79c0b8cd01157de23fc1cfe6'] = 'Denne regel er allerede defineret for dette fragtfirma.';
-$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_50e1f1030812a9a8fd66dfff17099fcd'] = 'Der opstod en fejl ved tilføjelse af regel for forsendelsesfirma.';
-$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_240276f48ff2e0e5fe620ff311e677b5'] = 'Der opstod en fejl ved opdatering af regel for forsendelsesfirma.';
-$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_b9e3eda70ccb175c96a56bd79b89bd8b'] = 'Regel for forsendelsesfirma slettet succesfuldt';
-$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_25e775663057cfc945da15827d972699'] = 'Regel for forsendelsesfirma tilføjet succesfuldt';
-$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_c20585756aa4f1b448a11ce77a054e32'] = 'Regel for forsendelsesfirma opdateret succesfuldt';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_50e1f1030812a9a8fd66dfff17099fcd'] = 'Der opstod en fejl ved tilføjelse af regel for leveringsfirma.';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_240276f48ff2e0e5fe620ff311e677b5'] = 'Der opstod en fejl ved opdatering af regel for leveringsfirma.';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_b9e3eda70ccb175c96a56bd79b89bd8b'] = 'Regel for leveringsfirma blev slettet';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_25e775663057cfc945da15827d972699'] = 'Regel for leveringsfirma blev tilføjet';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_c20585756aa4f1b448a11ce77a054e32'] = 'Regel for leveringsfirma blev opdateret';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_9d1a0949c39e66a0cd65240bc0ac9177'] = 'søndag';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_6f8522e0610541f1ef215a22ffa66ff6'] = 'mandag';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_5792315f09a5d54fb7e3d066672b507f'] = 'tirsdag';
@@ -46,23 +46,23 @@ $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_9685cbc6ac9090137fb087d4f48
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_104f1a7d59077b514d4105fcee0e42ff'] = 'Datoformat:';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_f19cb36e3ae263c8c3617a453a0ff521'] = 'Du kan se alle disponible parametre på:';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_c9cc8cce247e49bae79f15173ce97354'] = 'Gem';
-$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_85140afa1c99d6b4dc10179e2c5b4151'] = 'Forsendelsesfirma:';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_85140afa1c99d6b4dc10179e2c5b4151'] = 'Leveringsfirma:';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_1b9f5204ddf0881dc9f3a7bf65d4ac15'] = 'Levering mellem';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_19dfe063714422004b75043eaf74c9b8'] = 'Leveringsmulighed';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_fe635ae5e30a73b4390c6d2e1a41e5be'] = 'Levering om lørdagen';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_8d57b36293565ad925dc7dc4a9d3e724'] = 'Levering om søndagen';
-$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_aeae9747bcdc4f7c25aa95c2a6765952'] = 'Navn på forsendelsesfirma';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_aeae9747bcdc4f7c25aa95c2a6765952'] = 'Navn på leveringsfirma';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_52f253c711cff509bd5e4df2b18b697a'] = 'Lørdagsudbringning';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_fcddbca356dee064438a399fc0c4c84e'] = 'Søndagsudbringning';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_b5813d499e8a122485995dd7851c1fb2'] = '%1$d dag(e) og %2$d dag(e)';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_387a8014f530f080bf2f3be723f8c164'] = 'Link oversigt';
-$_MODULE['<{dateofdelivery}prestashop>beforecarrier_75261aaef97717dda0ca98743b24f8f3'] = 'Anslået leveringsdato med dette forsendelsesfirma er mellem';
+$_MODULE['<{dateofdelivery}prestashop>beforecarrier_75261aaef97717dda0ca98743b24f8f3'] = 'Anslået leveringsdato med dette leveringsfirma er mellem';
 $_MODULE['<{dateofdelivery}prestashop>beforecarrier_c31e7bcb78c69bd37e6e77be0183567f'] = 'Der er %s pakker, der vil blive tilnærmelsesvist leveret med den leveringsmåde du har udvalgt';
 $_MODULE['<{dateofdelivery}prestashop>beforecarrier_be5d5d37542d75f93a87094459f76678'] = 'og';
 $_MODULE['<{dateofdelivery}prestashop>beforecarrier_c9ed8c0b07828727ca6653924b0498d3'] = 'med direkte betalingsmåder (f.eks. kreditkort)';
 $_MODULE['<{dateofdelivery}prestashop>orderdetail_32dfb655a7b12a2c5662516e82f5d79b'] = 'Anslået leveringsdato er mellen %1$s og %2$s';
 $_MODULE['<{dateofdelivery}prestashop>orderdetail_c9ed8c0b07828727ca6653924b0498d3'] = 'med direkte betalingsmåder (f.eks. kreditkort)';
-$_MODULE['<{dateofdelivery}prestashop>button_e6ff622b31d0cd1c32c775d1e1f20831'] = 'Tilføj en ny regel for forsendelsesfirma';
+$_MODULE['<{dateofdelivery}prestashop>button_e6ff622b31d0cd1c32c775d1e1f20831'] = 'Tilføj en ny regel for leveringsfirma';
 
 
 return $_MODULE;

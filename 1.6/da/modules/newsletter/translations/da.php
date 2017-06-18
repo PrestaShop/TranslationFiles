@@ -4,7 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{newsletter}prestashop>newsletter_ffb7e666a70151215b4c55c6268d7d72'] = 'Nyhedsbrev';
-$_MODULE['<{newsletter}prestashop>newsletter_804a924e464fd21ed92f820224c4091d'] = 'Opretter en .CSV fil til masseforsendelser';
+$_MODULE['<{newsletter}prestashop>newsletter_804a924e464fd21ed92f820224c4091d'] = 'Opretter en .CSV fil til masseleverancer';
 $_MODULE['<{newsletter}prestashop>newsletter_c3987e4cac14a8456515f0d200da04ee'] = 'Alle lande';
 $_MODULE['<{newsletter}prestashop>newsletter_fa01fd956e87307bce4c90a0de9b0437'] = 'Kundernes lande';
 $_MODULE['<{newsletter}prestashop>newsletter_7599b57d77ef1608b2f6da579794cc5b'] = 'Filtrer kunders land.';

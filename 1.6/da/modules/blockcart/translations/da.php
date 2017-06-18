@@ -32,7 +32,7 @@ $_MODULE['<{blockcart}prestashop>blockcart_0da4d96cad73748e2f608d31cfb3247c'] = 
 $_MODULE['<{blockcart}prestashop>blockcart_4b7d496eedb665d0b5f589f2f874e7cb'] = 'Vareinformation';
 $_MODULE['<{blockcart}prestashop>blockcart_3d9e3bae9905a12dae384918ed117a26'] = 'Tilpasning #%d:';
 $_MODULE['<{blockcart}prestashop>blockcart_09dc02ecbb078868a3a86dded030076d'] = 'Ingen varer';
-$_MODULE['<{blockcart}prestashop>blockcart_ea9cf7e47ff33b2be14e6dd07cbcefc6'] = 'Forsendelse';
+$_MODULE['<{blockcart}prestashop>blockcart_ea9cf7e47ff33b2be14e6dd07cbcefc6'] = 'Levering';
 $_MODULE['<{blockcart}prestashop>blockcart_ba794350deb07c0c96fe73bd12239059'] = 'Indpakning';
 $_MODULE['<{blockcart}prestashop>blockcart_4b78ac8eb158840e9638a3aeb26c4a9d'] = 'Moms';
 $_MODULE['<{blockcart}prestashop>blockcart_96b0141273eabab320119c467cdcaf17'] = 'I alt';
@@ -52,7 +52,7 @@ $_MODULE['<{blockcart}prestashop>blockcart_fc86c43dbffcadc193832a310f7a444a'] = 
 $_MODULE['<{blockcart}prestashop>blockcart_db205f01b4fd580fb5daa9072d96849d'] = 'Varer i alt';
 $_MODULE['<{blockcart}prestashop>blockcart_21034ae6d01a83e702839a72ba8a77b0'] = '(ekskl. moms)';
 $_MODULE['<{blockcart}prestashop>blockcart_1f87346a16cf80c372065de3c54c86d9'] = '(inkl. moms)';
-$_MODULE['<{blockcart}prestashop>blockcart_f4e8b53a114e5a17d051ab84d326cae5'] = 'Forsendelse i alt';
+$_MODULE['<{blockcart}prestashop>blockcart_f4e8b53a114e5a17d051ab84d326cae5'] = 'Levering i alt';
 $_MODULE['<{blockcart}prestashop>blockcart_300225ee958b6350abc51805dab83c24'] = 'Fortsæt indkøb';
 $_MODULE['<{blockcart}prestashop>blockcart_7e0bf6d67701868aac3116ade8fea957'] = 'Fortsæt til betaling';
 
