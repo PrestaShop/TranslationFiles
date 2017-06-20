@@ -302,6 +302,7 @@ $_LANG['order-carrier_d53afd7ef9af5405df040482add9b153'] = '（利用規約を�
 $_LANG['order-carrier_dd1f775e443ff3b9a89270713580a51b'] = '前へ';
 $_LANG['order-carrier_deb10517653c255364175796ace3553f'] = '商品';
 $_LANG['order-carrier_068f80c7519d0528fb08e82137a72131'] = '商品';
+$_LANG['order-confirmation_fb077ecba55e5552916bde26d8b9e794'] = 'ご注文確認';
 $_LANG['order-confirmation_4082ea29b4f196c4f60533500139725a'] = '注文を確認';
 $_LANG['order-confirmation_f5f73bed0ea882264f4da4e924736859'] = '注文履歴ページヘ';
 $_LANG['order-confirmation_241cc604e9c62701f4bc4a2e1848ec13'] = '注文履歴を参照';

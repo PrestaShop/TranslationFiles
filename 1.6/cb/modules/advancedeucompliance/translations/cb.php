@@ -5,7 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_d602cd3160dcb3b836420a2e5683cb0f'] = 'Cumplimiento avanzado en UE';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_a0445c0b106a1b48b719fc6fd5a734e9'] = 'Este módulo ayuda a los comerciante europeos a cumplir con las leyes del comercio electrónico aplicables.';
-$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_bb8956c67b82c7444a80c6b2433dd8b4'] = '¿Está seguro que quiere desinstalar este módulo?';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_bb8956c67b82c7444a80c6b2433dd8b4'] = '¿Estás seguro que quieres desinstalar este módulo?';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_3b528a3fe35bcd29ad2ab0e77fe01d4d'] = 'No se puede instalar en un nuevo hook';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_cac77d4c7de337f13ad1e89a8cecbc7f'] = 'Envío: 1 a 3 semanas';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_eeb992239a8454067cd7a47bbf0df359'] = 'Envío: 3 a 6 semanas';
