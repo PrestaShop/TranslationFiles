@@ -25,6 +25,7 @@ $_TABS['AdminSearchConf'] = '검색';
 $_TABS['AdminInformation'] = '구성 정보';
 $_TABS['AdminStockManagement'] = '재고 관리';
 $_TABS['AdminStockInstantState'] = '현 재고 상태';
+$_TABS['AdminStockConfiguration'] = '설정';
 
 
 return $_TABS;

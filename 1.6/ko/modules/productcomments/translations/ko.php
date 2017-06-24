@@ -5,6 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{productcomments}prestashop>default_dfbe69c6d9568ecb0e65e7b32ed92a3a'] = '상품을 찾지 못했습니다.';
 $_MODULE['<{productcomments}prestashop>productcomments_c888438d14855d7d96a2724ee9c306bd'] = '설정 수정';
+$_MODULE['<{productcomments}prestashop>productcomments_254f642527b45bc260048e30704edb39'] = '설정';
 $_MODULE['<{productcomments}prestashop>productcomments_00d23a76e43b46dae9ec7aa9dcbebb32'] = '사용';
 $_MODULE['<{productcomments}prestashop>productcomments_b9f5c797ebbf55adccdd8539a65a0241'] = '사용안함';
 $_MODULE['<{productcomments}prestashop>productcomments_c9cc8cce247e49bae79f15173ce97354'] = '저장';
