@@ -181,8 +181,8 @@ $_LANGMAIL[', with an amount of'] = '، به مقدار';
 $_LANGMAIL['Hi {name},'] = 'سلام {name}،';
 $_LANGMAIL['{customer} has sent you a link to a product that (s)he thinks may interest you.'] = '{customer} یک لینک به یک محصول برای شما ارسال کرده که فکر می کند برای شما جالب است.';
 $_LANGMAIL['Click here to view this item:'] = 'برای نمایش این آیتم اینجا کلیک کنید :';
-$_LANGMAIL['Order edited'] = '';
-$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = '';
+$_LANGMAIL['Order edited'] = 'سفارش ویرایش شد';
+$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = 'سفارش شما با کد مرجع <span><strong>{order_name}</strong></span> تغییر داده شده است.';
 
 
 return $_LANGMAIL;
