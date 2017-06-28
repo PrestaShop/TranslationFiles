@@ -629,7 +629,6 @@ $_LANG['product_e5a75e83f9fd2f5fdff337a46227b3c3'] = '허용하는 이미지 파
 $_LANG['product_b11ddc7e1671c0bd22dc89dd757508d4'] = '이미지 파일';
 $_LANG['product_f2a6c498fb90ee345d997f888fce3b18'] = '삭제';
 $_LANG['product_fd26de1a9f14da358bed04e29b04a89d'] = 'Sélectionnez une image sur votre ordinateur';
-$_LANG['product_9dffbf69ffba8bc38bc4e01abf4b1675'] = '본문';
 $_LANG['product_c9cc8cce247e49bae79f15173ce97354'] = '저장';
 $_LANG['product_7f8c1eb3bfb1d0f94b20515f3cc5a211'] = '필수항목';
 $_LANG['product_fa3638ce880fddddb872f53943933487'] = 'avec ces options mais reste disponible avec d\'autres options';
