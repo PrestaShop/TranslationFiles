@@ -36,6 +36,12 @@ File: admin-dev/backup.php:105</note>
   </file>
   <file original="classes/Mail.php" source-language="en" target-language="ro" datatype="plaintext">
     <body>
+      <trans-unit id="e4a6b1931fbfc9ef4531cab37c84c39f" approved="yes">
+        <source>Error: parameter "to" is corrupted</source>
+        <target xml:lang="ro">Eroare: parametrul "catre" este corupt</target>
+        <note>Context:
+File: classes/Mail.php:203</note>
+      </trans-unit>
       <trans-unit id="99806fb2aff84eaa304cb249fa190339" approved="yes">
         <source>Error: parameter "bcc" is corrupted</source>
         <target xml:lang="ro">Eroare: parametrul „bcc” este corupt</target>
@@ -66,10 +72,22 @@ File: classes/Mail.php:267</note>
         <note>Context:
 File: classes/Mail.php:280</note>
       </trans-unit>
+      <trans-unit id="3ed07fe73e25bba69e3e5dac234b1941" approved="yes">
+        <source>Error - The following e-mail template is missing: %s</source>
+        <target xml:lang="ro">Eroare - urmatorul sablon de email lipseste: %s</target>
+        <note>Context:
+File: classes/Mail.php:331</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/PrestaShopBackup.php" source-language="en" target-language="ro" datatype="plaintext">
     <body>
+      <trans-unit id="47218fe85410a7029c216ef926cef044" approved="yes">
+        <source>"Backup" directory does not exist.</source>
+        <target xml:lang="ro">Nu exista directorul "backup".</target>
+        <note>Context:
+File: classes/PrestaShopBackup.php:143</note>
+      </trans-unit>
       <trans-unit id="4e0ac45de6bd848503ffa98ff6247f2f" approved="yes">
         <source>Error deleting</source>
         <target xml:lang="ro">Eroare la stergere</target>
@@ -104,14 +122,19 @@ File: classes/PrestaShopBackup.php:317</note>
   </file>
   <file original="controllers/admin/AdminAdminPreferencesController.php" source-language="en" target-language="ro" datatype="plaintext">
     <body>
-      
+      <trans-unit id="c3ecc0e8b4dc11a1d2c66d81439b4a42" approved="yes">
+        <source>The limit chosen is larger than the server's maximum upload limit. Please increase the limits of your server.</source>
+        <target xml:lang="ro">Limita aleasa este mai mare decat limita de upload a serverului. Mareste aceasta valoare pe server.</target>
+        <note>Context:
+File: controllers/admin/AdminAdminPreferencesController.php:164</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminBackupController.php" source-language="en" target-language="ro" datatype="plaintext">
     <body>
       <trans-unit id="fe7ff4ed0a66abe86361ba0f8d6e919a" approved="yes">
         <source>The backup file does not exist</source>
-        <target xml:lang="ro">Fisierul copie de siguranta nu exista</target>
+        <target xml:lang="ro">Fisierul de backup nu exista</target>
         <note>Context:
 File: controllers/admin/AdminBackupController.php:158</note>
       </trans-unit>
@@ -227,6 +250,12 @@ File: controllers/admin/AdminEmployeesController.php:598</note>
   </file>
   <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="ro" datatype="plaintext">
     <body>
+      <trans-unit id="af395851b27882221a6df82c727bca3e" approved="yes">
+        <source>The import directory doesn't exist. Please check your file path.</source>
+        <target xml:lang="ro">Directorul de import nu exista. Te rugam sa verifici calea spre fisier.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:591</note>
+      </trans-unit>
       <trans-unit id="c775530fad852632f78395a11820ba23" approved="yes">
         <source>The import directory must be writable (CHMOD 755 / 777).</source>
         <target xml:lang="ro">Registrul de date pentru import trebuie sa fie inscriptibil (CHMOD 755 / 777).</target>
@@ -287,6 +316,24 @@ File: controllers/admin/AdminImportController.php:4455</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3651</note>
       </trans-unit>
+      <trans-unit id="53d9fc1aa79e85c0f845139c6358daee" approved="yes">
+        <source>The category ID must be unique. It can't be the same as the one for Root or Home category.</source>
+        <target xml:lang="ro">Categoria trebuie sa aiba ID unic. Acesta nu poate fi acelasi cu cel al categoriei radacina sau al categoriei principale.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1273</note>
+      </trans-unit>
+      <trans-unit id="7a1bebdbf5770873f8172ecf27b2aa50" approved="yes">
+        <source>The category ID must be unique. It can't be the same as the one for the parent category (ID: %1$s).</source>
+        <target xml:lang="ro">Categoria trebuie sa aiba ID unic. Acesta nu poate corespunde cu cel al categoriei părinte (ID: %1$s).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1295</note>
+      </trans-unit>
+      <trans-unit id="521531266ae042d0725d7a4aa22a49f4" approved="yes">
+        <source>A category can't be its own parent. You should rename it (current name: %1$s).</source>
+        <target xml:lang="ro">O categorie nu poate fi propriul parinte. Trebuie redenumita (nume actual: %1$s).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1309</note>
+      </trans-unit>
       <trans-unit id="43bf950e043950e2da10f917b902c131" approved="yes">
         <source>%1$s (ID: %2$s) cannot be saved</source>
         <target xml:lang="ro">%1$s (ID: %2$s) nu poate fi salvat</target>
@@ -322,6 +369,12 @@ File: controllers/admin/AdminImportController.php:1414</note>
         <target xml:lang="ro">nu poate fi copiata</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3686</note>
+      </trans-unit>
+      <trans-unit id="87098ca5171ae766269f50b24ef3189d" approved="yes">
+        <source>%1$s (ID: %2$s) cannot be %3$s</source>
+        <target xml:lang="ro">%1$s (ID: %2$s) nu poate fi %3$s</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1437</note>
       </trans-unit>
       <trans-unit id="2666baaca25feea0b2dc641cfab50d8a" approved="yes">
         <source>Unknown tax rule group ID. You need to create a group with this ID first.</source>
@@ -389,9 +442,9 @@ File: controllers/admin/AdminImportController.php:2172</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2717</note>
       </trans-unit>
-      <trans-unit id="05a4ef007052620ef82d7f310722c5c8">
+      <trans-unit id="05a4ef007052620ef82d7f310722c5c8" approved="yes">
         <source>Incorrect value for "Depends on stock" for product %1$s </source>
-        <target xml:lang="ro" state="needs-translation"> </target>
+        <target xml:lang="ro">Valoare incorecta a optiunii "Depinde de stoc" pentru produsul %1$s </target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2200</note>
       </trans-unit>
@@ -437,11 +490,41 @@ File: controllers/admin/AdminImportController.php:2688</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2701</note>
       </trans-unit>
+      <trans-unit id="fd6d9d3ba7d4aaacc49f53c2e8c082c0" approved="yes">
+        <source>Email address %1$s (ID: %2$s) cannot be validated.</source>
+        <target xml:lang="ro">Adresa de email %1$s (ID: %2$s) nu poate fi validata.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3007</note>
+      </trans-unit>
+      <trans-unit id="9a19980e3db9fa010269bb72d31ee42a" approved="yes">
+        <source>Email address %1$s (ID: %2$s) cannot be saved.</source>
+        <target xml:lang="ro">Adresa de email %1$s (ID: %2$s) nu poate fi salvata.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3016</note>
+      </trans-unit>
+      <trans-unit id="14118fbc7d8c233f0ac36ffb31716605" approved="yes">
+        <source>%1$s does not exist in database %2$s (ID: %3$s), and therefore cannot be validated</source>
+        <target xml:lang="ro">%1$s nu exista in baza de date %2$s (ID: %3$s) si, prin urmare, salvarea nu a fost validata</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3190</note>
+      </trans-unit>
+      <trans-unit id="597cf702e07f3b35431d2a499b00cefd" approved="yes">
+        <source>%1$s does not exist in database %2$s (ID: %3$s), and therefore cannot be saved</source>
+        <target xml:lang="ro">%1$s nu există în baza de date %2$s (ID: %3$s) și, prin urmare, salvarea nu a fost finalizata</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3200</note>
+      </trans-unit>
       <trans-unit id="355aea3f1c2b10f3f82819ef338ecc22" approved="yes">
         <source>"%s" is not a valid email address.</source>
         <target xml:lang="ro">"%s" nu este o adresa de email valida.</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3177</note>
+      </trans-unit>
+      <trans-unit id="4a69d9da990728e003654d32a0b283a4" approved="yes">
+        <source>The customer ID #%d does not exist in the database, and therefore cannot be validated.</source>
+        <target xml:lang="ro">Identificatorul clientului #%d nu exista in baza de date si, prin urmare, nu poate fi validat.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3213</note>
       </trans-unit>
       <trans-unit id="608ec99cc3ef74d962769c1958a1fa62" approved="yes">
         <source>The customer ID #%d does not exist in the database, and therefore cannot be saved.</source>
@@ -605,6 +688,12 @@ File: controllers/admin/AdminImportController.php:4448</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:4576</note>
       </trans-unit>
+      <trans-unit id="fa072aec56f675fa4e267c90bac014a6" approved="yes">
+        <source>Importing...</source>
+        <target xml:lang="ro">Se importa...</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:4590</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminInformationController.php" source-language="en" target-language="ro" datatype="plaintext">
@@ -729,6 +818,12 @@ File: controllers/admin/AdminInformationController.php:129</note>
         <note>Context:
 File: controllers/admin/AdminInformationController.php:130</note>
       </trans-unit>
+      <trans-unit id="0b9193ca4af6867c1f50a07097254b62" approved="yes">
+        <source>Enable the Apache mod_rewrite module</source>
+        <target xml:lang="ro">Activeaza modulul mod_rewrite de Apache</target>
+        <note>Context:
+File: controllers/admin/AdminInformationController.php:131</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminPerformanceController.php" source-language="en" target-language="ro" datatype="plaintext">
@@ -799,6 +894,16 @@ File: controllers/admin/AdminPerformanceController.php:648</note>
         <note>Context:
 File: controllers/admin/AdminPerformanceController.php:704</note>
       </trans-unit>
+      <trans-unit id="79b2a5e09f30660e30830ffc336ffb7c" approved="yes">
+        <source><![CDATA[Before being able to use this tool, you need to:
+                            <br />- Create a blank .htaccess in your root directory.
+                            <br />- Give it write permissions (CHMOD 666 on Unix system).]]></source>
+        <target xml:lang="ro"><![CDATA[Inainte de utilizarea acestui instrument, trebuie sa:
+<br />- Creezi un fisier gol .htaccess in directorul radacina.
+<br />- Permiti scrierea in acest fisier (CHMOD 666 pe sistemul Unix).]]></target>
+        <note>Context:
+File: controllers/admin/AdminPerformanceController.php:791</note>
+      </trans-unit>
       <trans-unit id="ea030df6cb392bef66cde22c94578ae4" approved="yes">
         <source>Media server #1 is invalid</source>
         <target xml:lang="ro">Servarul media #1 este incorect</target>
@@ -859,6 +964,24 @@ File: controllers/admin/AdminPerformanceController.php:842</note>
         <note>Context:
 File: controllers/admin/AdminPerformanceController.php:862</note>
       </trans-unit>
+      <trans-unit id="d4fb191ef219af010cc664bf47393e97" approved="yes">
+        <source>Error: Could not find whether debug mode is enabled. Make sure that the correct permissions are set on the file %s</source>
+        <target xml:lang="ro">Eroare: nu se poate determina daca modul depanare este activ. Asigura-te ca fisierul %s are permisiunile corecte</target>
+        <note>Context:
+File: controllers/admin/AdminPerformanceController.php:896</note>
+      </trans-unit>
+      <trans-unit id="667685497be44ab0fc2d4334a512405b" approved="yes">
+        <source>Error: Could not write to file. Make sure that the correct permissions are set on the file %s</source>
+        <target xml:lang="ro">Eroare: nu se poate scrie in fisier. Asigura-te ca fisierul %s are permisiunile corecte</target>
+        <note>Context:
+File: controllers/admin/AdminPerformanceController.php:902</note>
+      </trans-unit>
+      <trans-unit id="a22bb81de6e3b8e82ac5a09f2bb7e0b4" approved="yes">
+        <source>Error: Could not read file. Make sure that the correct permissions are set on the file %s</source>
+        <target xml:lang="ro">Eroare: fisierul nu poate fi citit. Asigura-te ca fisierul %s are permisiunile corecte</target>
+        <note>Context:
+File: controllers/admin/AdminPerformanceController.php:905</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminProfilesController.php" source-language="en" target-language="ro" datatype="plaintext">
@@ -896,6 +1019,12 @@ File: controllers/admin/AdminRequestSqlController.php:401</note>
         <target xml:lang="ro">Atributul "%attribute%" nu exista in tabelul "%table%".</target>
         <note>Context:
 File: controllers/admin/AdminRequestSqlController.php:487</note>
+      </trans-unit>
+      <trans-unit id="b162612cdcbf01c01421bad2e8b39432" approved="yes">
+        <source>Undefined "%s" error</source>
+        <target xml:lang="ro">Eroare "%s" nedefinita</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:495</note>
       </trans-unit>
       <trans-unit id="dbea0ef67609a60a1f71f8d19e132d1e" approved="yes">
         <source>The "*" operator cannot be used in a nested query.</source>
@@ -975,9 +1104,9 @@ File: controllers/admin/AdminStoresController.php:333</note>
   </file>
   <file original="controllers/admin/AdminTabsController.php" source-language="en" target-language="ro" datatype="plaintext">
     <body>
-      <trans-unit id="5bb701014490e33a37ecdc43ce578404">
+      <trans-unit id="5bb701014490e33a37ecdc43ce578404" approved="yes">
         <source>You can't put this menu inside itself. </source>
-        <target xml:lang="ro" state="needs-translation"> </target>
+        <target xml:lang="ro">Nu poti pune acest meniu in el insusi. </target>
         <note>Context:
 File: controllers/admin/AdminTabsController.php:293</note>
       </trans-unit>
@@ -1037,7 +1166,12 @@ File: controllers/admin/AdminWebserviceController.php:289</note>
   </file>
   <file original="admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl" source-language="en" target-language="ro" datatype="plaintext">
     <body>
-      
+      <trans-unit id="650e0b1fd707ad8ad3a94e2eb494de3d" approved="yes">
+        <source>Ignore warnings and continue?</source>
+        <target xml:lang="ro">Ignori avertizarile si continui?</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:88</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
