@@ -5,8 +5,6 @@ $_MODULE = array();
 
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_07b8c09e490f7afbdcfa9cd5bfcfd4a9'] = '이미지를 업로드하는 중 오류가 발생했습니다.';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_f1206f9fadc5ce41694f69129aecac26'] = '구성';
-$_MODULE['<{themeconfigurator}prestashop>themeconfigurator_00d23a76e43b46dae9ec7aa9dcbebb32'] = '사용';
-$_MODULE['<{themeconfigurator}prestashop>themeconfigurator_b9f5c797ebbf55adccdd8539a65a0241'] = '사용안함';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_f4f70727dc34561dfde1a3c529b6205c'] = '설정';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_c9cc8cce247e49bae79f15173ce97354'] = '저장';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_4351cfebe4b61d8aa5efa1d020710005'] = '보기';

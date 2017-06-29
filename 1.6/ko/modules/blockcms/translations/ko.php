@@ -9,6 +9,7 @@ $_MODULE['<{blockcms}prestashop>blockcms_ef61fb324d729c341ea8ab9901e23566'] = '�
 $_MODULE['<{blockcms}prestashop>blockcms_c9cc8cce247e49bae79f15173ce97354'] = '저장';
 $_MODULE['<{blockcms}prestashop>blockcms_93cba07454f06a4a960172bbd6e2a435'] = '네';
 $_MODULE['<{blockcms}prestashop>blockcms_bafd7322c6e97d25b6299b5d6fe8920b'] = '아니오';
+$_MODULE['<{blockcms}prestashop>blockcms_34c869c542dee932ef8cd96d2f91cae6'] = '우리 상점들';
 $_MODULE['<{blockcms}prestashop>blockcms_d1aa22a3126f04664e0fe3f598994014'] = '특가상품';
 $_MODULE['<{blockcms}prestashop>blockcms_9ff0635f5737513b1a6f559ac2bff745'] = '신상품';
 $_MODULE['<{blockcms}prestashop>blockcms_01f7ac959c1e6ebbb2e0ee706a7a5255'] = 'Meilleures ventes';
