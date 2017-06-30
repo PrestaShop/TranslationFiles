@@ -13,6 +13,7 @@ $_MODULE['<{blockcart}prestashop>blockcart_e7a6ca4e744870d455a57b644f696457'] = 
 $_MODULE['<{blockcart}prestashop>blockcart_f2a6c498fb90ee345d997f888fce3b18'] = '삭제';
 $_MODULE['<{blockcart}prestashop>blockcart_0c3bf3014aafb90201805e45b5e62881'] = '내 장바구니 보기';
 $_MODULE['<{blockcart}prestashop>blockcart_a85eba4c6c699122b2bb1387ea4813ad'] = '장바구니';
+$_MODULE['<{blockcart}prestashop>blockcart_deb10517653c255364175796ace3553f'] = '상품';
 $_MODULE['<{blockcart}prestashop>blockcart_ea9cf7e47ff33b2be14e6dd07cbcefc6'] = '배송';
 $_MODULE['<{blockcart}prestashop>blockcart_ba794350deb07c0c96fe73bd12239059'] = '포장';
 $_MODULE['<{blockcart}prestashop>blockcart_96b0141273eabab320119c467cdcaf17'] = '합계';

@@ -16,6 +16,7 @@ $_MODULE['<{statscheckup}prestashop>statscheckup_f4abc77d498c89880f6733160940677
 $_MODULE['<{statscheckup}prestashop>statscheckup_ad647e4ae904c7ed54ee93040d8298c7'] = '보다 낮은';
 $_MODULE['<{statscheckup}prestashop>statscheckup_05824b7be006782aaefd1fdb97c71e06'] = '보다 큰';
 $_MODULE['<{statscheckup}prestashop>statscheckup_c9cc8cce247e49bae79f15173ce97354'] = '저장';
+$_MODULE['<{statscheckup}prestashop>statscheckup_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
 $_MODULE['<{statscheckup}prestashop>statscheckup_49ee3087348e8d44e1feda1917443987'] = '이름';
 $_MODULE['<{statscheckup}prestashop>statscheckup_7d74f3b92b19da5e606d737d339a9679'] = '항목';
 $_MODULE['<{statscheckup}prestashop>statscheckup_3f74e68055b1123e5d7deb32cd8b0b1b'] = '내림차순';

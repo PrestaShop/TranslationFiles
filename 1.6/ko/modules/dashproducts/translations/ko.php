@@ -8,6 +8,7 @@ $_MODULE['<{dashproducts}prestashop>dashproducts_44749712dbec183e983dcd78a7736c4
 $_MODULE['<{dashproducts}prestashop>dashproducts_ec53a8c4f07baed5d8825072c89799be'] = 'Statut';
 $_MODULE['<{dashproducts}prestashop>dashproducts_3ec365dd533ddb7ef3d1c111186ce872'] = '계좌정보';
 $_MODULE['<{dashproducts}prestashop>dashproducts_be53a0541a6d36f6ecb879fa2c584b08'] = '이미지';
+$_MODULE['<{dashproducts}prestashop>dashproducts_deb10517653c255364175796ace3553f'] = '상품';
 $_MODULE['<{dashproducts}prestashop>dashproducts_3adbdb3ac060038aa0e6e6c138ef9873'] = '카테고리';
 $_MODULE['<{dashproducts}prestashop>dashproducts_11ff9f68afb6b8b5b8eda218d7c83a65'] = '판매';
 $_MODULE['<{dashproducts}prestashop>dashproducts_13348442cc6a27032d2b4aa28b75a5d3'] = '검색';
