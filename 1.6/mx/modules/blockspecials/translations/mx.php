@@ -13,7 +13,7 @@ $_MODULE['<{blockspecials}prestashop>blockspecials_00d23a76e43b46dae9ec7aa9dcbeb
 $_MODULE['<{blockspecials}prestashop>blockspecials_b9f5c797ebbf55adccdd8539a65a0241'] = 'Desactivado';
 $_MODULE['<{blockspecials}prestashop>blockspecials_61465481ac2491b37e4517960bbd4a14'] = 'Número de archivos almacenados en caché';
 $_MODULE['<{blockspecials}prestashop>blockspecials_e80a11f1704b88ad50f8fc6ce0f43525'] = 'Las ofertas serán mostradas aleatoriamente en la parte pública, pero si tiene bastantes recursos, es recomendable almacenar los resultados en la caché. La caché será borrada todos los días. 0 deshabilita la caché.';
-$_MODULE['<{blockspecials}prestashop>blockspecials_26986c3388870d4148b1b5375368a83d'] = 'Productos para mostrar';
+$_MODULE['<{blockspecials}prestashop>blockspecials_26986c3388870d4148b1b5375368a83d'] = 'Productos a mostrar';
 $_MODULE['<{blockspecials}prestashop>blockspecials_63c150b9c1204c4825ce5914aed20717'] = 'Define el número de productos que se mostrarán en este bloque en la página principal.';
 $_MODULE['<{blockspecials}prestashop>blockspecials_c9cc8cce247e49bae79f15173ce97354'] = 'Guardar';
 $_MODULE['<{blockspecials}prestashop>blockspecials-home_e420850bc0f6c94eff7edb2041b206bd'] = 'No hay productos especiales en este momento.';

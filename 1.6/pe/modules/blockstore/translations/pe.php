@@ -7,7 +7,7 @@ $_MODULE['<{blockstore}prestashop>blockstore_68e9ecb0ab69b1121fe06177868b8ade'] 
 $_MODULE['<{blockstore}prestashop>blockstore_c1104fe0bdaceb2e1c6f77b04977b64b'] = 'Muestra un enlace a la imagen característica de localización de tiendas de PrestaShop.';
 $_MODULE['<{blockstore}prestashop>blockstore_b786bfc116ecf9a6d47ce1114ca6abb7'] = 'Este módulo requiere estar enganchado a una columna y su tema no tiene implementada ninguna.';
 $_MODULE['<{blockstore}prestashop>blockstore_7107f6f679c8d8b21ef6fce56fef4b93'] = 'imagen no válida.';
-$_MODULE['<{blockstore}prestashop>blockstore_df7859ac16e724c9b1fba0a364503d72'] = 'Se ha producido un error durante el envío.';
+$_MODULE['<{blockstore}prestashop>blockstore_df7859ac16e724c9b1fba0a364503d72'] = 'Se ha producido un error durante la subida del archivo.';
 $_MODULE['<{blockstore}prestashop>blockstore_efc226b17e0532afff43be870bff0de7'] = 'La configuración ha sido actualizada.';
 $_MODULE['<{blockstore}prestashop>blockstore_f4f70727dc34561dfde1a3c529b6205c'] = 'Ajustes';
 $_MODULE['<{blockstore}prestashop>blockstore_4d100d8b1b9bcb5a376f78365340cdbe'] = 'Imagen para el bloque Localizacion de la Tienda';

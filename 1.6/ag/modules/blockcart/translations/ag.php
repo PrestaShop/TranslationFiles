@@ -5,17 +5,17 @@ $_MODULE = array();
 
 $_MODULE['<{blockcart}prestashop>blockcart_c2e1362a9710a3dd86f937c2ea1f336d'] = 'Carrito';
 $_MODULE['<{blockcart}prestashop>blockcart_e03093a5753b436ee1de63b6e3e1bd02'] = 'Añadir un bloque que contenga el carrito de la compra del cliente.';
-$_MODULE['<{blockcart}prestashop>blockcart_a21e5718d2a196280b729438933501c7'] = 'Ajax: opción incorrecta.';
-$_MODULE['<{blockcart}prestashop>blockcart_02c793e3df4632db20e4d6e146095d62'] = 'Debe rellenar el campo "productos mostrados".';
+$_MODULE['<{blockcart}prestashop>blockcart_a21e5718d2a196280b729438933501c7'] = 'Ajax: elección no válida.';
+$_MODULE['<{blockcart}prestashop>blockcart_02c793e3df4632db20e4d6e146095d62'] = 'Por favor, complete el campo "Productos a mostrar".';
 $_MODULE['<{blockcart}prestashop>blockcart_c888438d14855d7d96a2724ee9c306bd'] = 'ConfiguraciÃ³n Actualizada';
 $_MODULE['<{blockcart}prestashop>blockcart_f4f70727dc34561dfde1a3c529b6205c'] = 'Ajustes';
 $_MODULE['<{blockcart}prestashop>blockcart_614a8820aa4ac08ce2ee398a41b10778'] = 'Carrito con Ajax';
-$_MODULE['<{blockcart}prestashop>blockcart_eefd19ecf1f6d94a308dcfc95981bbf9'] = 'Activar el modo Ajax para la cesta (compatible con el tema por defecto).';
+$_MODULE['<{blockcart}prestashop>blockcart_eefd19ecf1f6d94a308dcfc95981bbf9'] = 'Activar el modo Ajax para el carrito (compatible con el tema predeterminado).';
 $_MODULE['<{blockcart}prestashop>blockcart_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Activado';
 $_MODULE['<{blockcart}prestashop>blockcart_b9f5c797ebbf55adccdd8539a65a0241'] = 'Desactivado';
 $_MODULE['<{blockcart}prestashop>blockcart_a87a2d4a45b5a7e682089167c1d5232a'] = 'Mostrar ventas cruzadas';
 $_MODULE['<{blockcart}prestashop>blockcart_89e535251f4749df29ad3a288deaa017'] = 'Activar la vista de ventas cruzadas para el carrito.';
-$_MODULE['<{blockcart}prestashop>blockcart_ce8bd2479bb85218eb304a9a2903a157'] = 'Productos para mostrar en ventas cruzadas';
+$_MODULE['<{blockcart}prestashop>blockcart_ce8bd2479bb85218eb304a9a2903a157'] = 'Productos a mostrar en ventas cruzadas';
 $_MODULE['<{blockcart}prestashop>blockcart_5f2effb52d25d197793288dfa94c27ce'] = 'Define el número de productos que se mostrarán en el bloque de ventas cruzadas.';
 $_MODULE['<{blockcart}prestashop>blockcart_c9cc8cce247e49bae79f15173ce97354'] = 'Guardar';
 $_MODULE['<{blockcart}prestashop>blockcart_20351b3328c35ab617549920f5cb4939'] = 'PersonalizaciÃ³n nÂº';
@@ -54,7 +54,7 @@ $_MODULE['<{blockcart}prestashop>blockcart_21034ae6d01a83e702839a72ba8a77b0'] = 
 $_MODULE['<{blockcart}prestashop>blockcart_1f87346a16cf80c372065de3c54c86d9'] = '(IVA incl.)';
 $_MODULE['<{blockcart}prestashop>blockcart_f4e8b53a114e5a17d051ab84d326cae5'] = 'Total EnvÃ­o';
 $_MODULE['<{blockcart}prestashop>blockcart_300225ee958b6350abc51805dab83c24'] = 'Continuar Comprando';
-$_MODULE['<{blockcart}prestashop>blockcart_7e0bf6d67701868aac3116ade8fea957'] = 'Ir a la caja';
+$_MODULE['<{blockcart}prestashop>blockcart_7e0bf6d67701868aac3116ade8fea957'] = 'Pasar por caja';
 
 
 return $_MODULE;

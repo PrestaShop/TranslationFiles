@@ -53,7 +53,7 @@ $_MODULE['<{homeslider}prestashop>homeslider_298b615220606d42b6ac60269df0d321'] 
 $_MODULE['<{homeslider}prestashop>homeslider_aef3662e6419ddaaa0a31df70e3b6557'] = 'Las modificaciones se aplicarán a este grupo: %s';
 $_MODULE['<{homeslider}prestashop>homeslider_71063fd397d237e563089c22dd8b69e8'] = 'Las modificaciones se aplicacarán sobre todas las tiendas y grupos de tiendas';
 $_MODULE['<{homeslider}prestashop>homeslider_6a5aa2542c21debccd82b2e0038c3d1a'] = '¡Esta dispositiva está compartida con otras tiendas! Todas las tiendas asociadas a esta diapositiva aplicarán las modificaciones hechas aquí';
-$_MODULE['<{homeslider}prestashop>form_92fbf0e5d97b8afd7e73126b52bdc4bb'] = 'Elegir un fichero';
+$_MODULE['<{homeslider}prestashop>form_92fbf0e5d97b8afd7e73126b52bdc4bb'] = 'Selecciona un archivo';
 $_MODULE['<{homeslider}prestashop>list_c82324ebbcea34f55627a897b37190e3'] = 'Lista de diapositivas';
 $_MODULE['<{homeslider}prestashop>list_ef61fb324d729c341ea8ab9901e23566'] = 'Agregar nuevo';
 $_MODULE['<{homeslider}prestashop>list_379a88861412d686cfaf475c84a24920'] = 'Compartir diapositiva';

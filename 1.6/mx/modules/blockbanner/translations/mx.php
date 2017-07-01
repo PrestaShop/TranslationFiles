@@ -9,9 +9,9 @@ $_MODULE['<{blockbanner}prestashop>blockbanner_df7859ac16e724c9b1fba0a364503d72'
 $_MODULE['<{blockbanner}prestashop>blockbanner_efc226b17e0532afff43be870bff0de7'] = 'Ajustes actualizados';
 $_MODULE['<{blockbanner}prestashop>blockbanner_f4f70727dc34561dfde1a3c529b6205c'] = 'Configuración';
 $_MODULE['<{blockbanner}prestashop>blockbanner_9edcdbdff24876b0dac92f97397ae497'] = 'Imagen del Banner Superior';
-$_MODULE['<{blockbanner}prestashop>blockbanner_e90797453e35e4017b82e54e2b216290'] = 'Cargar una imagen para su banner superior. Las dimensiones recomendadas son 1170 x 65px si está utilizando el tema por defecto.';
+$_MODULE['<{blockbanner}prestashop>blockbanner_e90797453e35e4017b82e54e2b216290'] = 'Subir una imagen para el banner superior. Si estás utilizando el tema predeterminado, las dimensiones recomendadas son 1170 x 65px.';
 $_MODULE['<{blockbanner}prestashop>blockbanner_46fae48f998058600248a16100acfb7e'] = 'Enlace del Banner';
-$_MODULE['<{blockbanner}prestashop>blockbanner_084fa1da897dfe3717efa184616ff91c'] = 'Introduzca el enlace asociado a su banner. Al hacer clic sobre el banner, se abre en la misma ventana el enlace. Si no introduce ningún enlace, redirige a la página de inicio.';
+$_MODULE['<{blockbanner}prestashop>blockbanner_084fa1da897dfe3717efa184616ff91c'] = 'Introduce el enlace asociado al banner. Al hacer clic en el banner, el enlace se abre en la misma ventana. Si no se introduce ningún enlace, éste redirecciona a la página de inicio.';
 $_MODULE['<{blockbanner}prestashop>blockbanner_ff09729bee8a82c374f6b61e14a4af76'] = 'Descripción del banner';
 $_MODULE['<{blockbanner}prestashop>blockbanner_112f6f9a1026d85f440e5ca68d8e2ec5'] = 'Por favor, introduzca una descripción breve pero significativa para el banner.';
 $_MODULE['<{blockbanner}prestashop>blockbanner_c9cc8cce247e49bae79f15173ce97354'] = 'Guardar';

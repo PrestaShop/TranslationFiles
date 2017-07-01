@@ -9,10 +9,10 @@ $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_1cd777247f2a6ed79534d4a
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_73293a024e644165e9bf48f270af63a0'] = 'NÃºmero InvÃ¡lido.';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_c888438d14855d7d96a2724ee9c306bd'] = 'ConfiguraciÃ³n Actualizada';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_f4f70727dc34561dfde1a3c529b6205c'] = 'Ajustes';
-$_MODULE['<{blocknewproducts}prestashop>blocknewproducts_26986c3388870d4148b1b5375368a83d'] = 'Productos para mostrar';
+$_MODULE['<{blocknewproducts}prestashop>blocknewproducts_26986c3388870d4148b1b5375368a83d'] = 'Productos a mostrar';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_3ea7689283770958661c27c37275b89c'] = 'Seleccione el nÃºmero de productos a mostrar en este bloque';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_85dd6b2059e1ff8fbefcc9cf6e240933'] = 'Número de días en los que el producto es considerado \"nuevo\"';
-$_MODULE['<{blocknewproducts}prestashop>blocknewproducts_24ff4e4d39bb7811f6bdf0c189462272'] = 'Mostrar siempre este bloque';
+$_MODULE['<{blocknewproducts}prestashop>blocknewproducts_24ff4e4d39bb7811f6bdf0c189462272'] = 'Mostrar este bloque siempre';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_d68e7b860a7dba819fa1c75225c284b5'] = 'Mostrar este bloque, incluso aunque no existan nuevos productos disponibles.';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Activado';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_b9f5c797ebbf55adccdd8539a65a0241'] = 'Desactivado';

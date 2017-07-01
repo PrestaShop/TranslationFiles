@@ -11,7 +11,7 @@ $_MODULE['<{dashproducts}prestashop>dashproducts_96b0141273eabab320119c467cdcaf1
 $_MODULE['<{dashproducts}prestashop>dashproducts_58ef6750a23ba432fc1377b7de085d9f'] = 'Imp. excl.';
 $_MODULE['<{dashproducts}prestashop>dashproducts_44749712dbec183e983dcd78a7736c41'] = 'Fecha';
 $_MODULE['<{dashproducts}prestashop>dashproducts_ec53a8c4f07baed5d8825072c89799be'] = 'Estado';
-$_MODULE['<{dashproducts}prestashop>dashproducts_3ec365dd533ddb7ef3d1c111186ce872'] = 'Detalles';
+$_MODULE['<{dashproducts}prestashop>dashproducts_3ec365dd533ddb7ef3d1c111186ce872'] = 'Datos';
 $_MODULE['<{dashproducts}prestashop>dashproducts_be53a0541a6d36f6ecb879fa2c584b08'] = 'Imagen';
 $_MODULE['<{dashproducts}prestashop>dashproducts_deb10517653c255364175796ace3553f'] = 'Producto';
 $_MODULE['<{dashproducts}prestashop>dashproducts_3adbdb3ac060038aa0e6e6c138ef9873'] = 'Categoría';
