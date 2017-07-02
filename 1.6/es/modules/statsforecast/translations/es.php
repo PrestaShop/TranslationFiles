@@ -53,7 +53,7 @@ $_MODULE['<{statsforecast}prestashop>statsforecast_699aed86dada6ca01ef74013a4464
 $_MODULE['<{statsforecast}prestashop>statsforecast_07aa83862ec591697b4325b66d36a78b'] = 'Repartición por zonas';
 $_MODULE['<{statsforecast}prestashop>statsforecast_ec0fc0100c4fc1ce4eea230c3dc10360'] = 'Indefinido';
 $_MODULE['<{statsforecast}prestashop>statsforecast_28e81c8343702f6c813cc31a7f90616a'] = 'Repartición por divisas';
-$_MODULE['<{statsforecast}prestashop>statsforecast_386c339d37e737a436499d423a77df0c'] = 'Divisa';
+$_MODULE['<{statsforecast}prestashop>statsforecast_386c339d37e737a436499d423a77df0c'] = 'Moneda';
 $_MODULE['<{statsforecast}prestashop>statsforecast_61569923d8075889a162c4e603258e6e'] = 'Volumen de ventas (convertido)';
 $_MODULE['<{statsforecast}prestashop>statsforecast_8471eed257db7258f935588a664ba4f3'] = 'Repartición de las ventas por atributos';
 $_MODULE['<{statsforecast}prestashop>statsforecast_03937134cedab9078be39a77ee3a48a0'] = 'Grupo';

@@ -23,7 +23,7 @@ $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_9f82518d468b9fee614fcc92f
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_019ec3132cdf8ee0f2e2a75cf5d3e459'] = 'Género';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_dff4bf10409100d989495c6d5486035e'] = 'Apellidos';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_04176f095283bc729f1e3926967e7034'] = 'Nombre';
-$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'Correo electrónico';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'Dirección de correo electrónico';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_808c7457c768423c5651cbf676d9f6d7'] = 'Suscrito';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_ec59738d441f28011a81e62bdcea6200'] = 'Suscrito a';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_3a1205098d0a13a9c41a8d538fd6a34a'] = 'Registros de la newsletter';

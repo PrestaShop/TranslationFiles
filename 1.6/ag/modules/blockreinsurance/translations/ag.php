@@ -5,7 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{blockreinsurance}prestashop>blockreinsurance_873330fc1881555fffe2bc471d04bf5d'] = 'Bloque de reaseguros';
 $_MODULE['<{blockreinsurance}prestashop>blockreinsurance_7e7f70db3c75e428db8e2d0a1765c4e9'] = 'Añadir un bloque para ver más informaciones para tranquilizar a sus clientes';
-$_MODULE['<{blockreinsurance}prestashop>blockreinsurance_d52eaeff31af37a4a7e0550008aff5df'] = 'Se produjo un error durante el proceso de guardado.';
+$_MODULE['<{blockreinsurance}prestashop>blockreinsurance_d52eaeff31af37a4a7e0550008aff5df'] = 'Se ha producido un error durante el proceso de guardado.';
 $_MODULE['<{blockreinsurance}prestashop>blockreinsurance_0366c7b2ea1bb228cd44aec7e3e26a3e'] = 'Configuración actualizada.';
 $_MODULE['<{blockreinsurance}prestashop>blockreinsurance_8363eee01f4da190a4cef9d26a36750c'] = 'Nuevo bloque de reaseguro';
 $_MODULE['<{blockreinsurance}prestashop>blockreinsurance_be53a0541a6d36f6ecb879fa2c584b08'] = 'Imagen';

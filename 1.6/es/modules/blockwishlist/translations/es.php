@@ -83,7 +83,7 @@ $_MODULE['<{blockwishlist}prestashop>managewishlist_28d0edd045e05cf5af64e35ae0c4
 $_MODULE['<{blockwishlist}prestashop>managewishlist_6bc362dbf494c61ea117fe3c71ca48a5'] = 'Mover';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_e68ee0c6758ab5b0eea4e105d694f5c4'] = 'Mover a %s';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_c9cc8cce247e49bae79f15173ce97354'] = 'Guardar';
-$_MODULE['<{blockwishlist}prestashop>managewishlist_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'Correo electrónico';
+$_MODULE['<{blockwishlist}prestashop>managewishlist_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'Dirección de correo electrónico';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_94966d90747b97d1f0f206c98a8b1ac3'] = 'Enviar';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_19f823c6453c2b1ffd09cb715214813d'] = 'Campo requerido';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_deb10517653c255364175796ace3553f'] = 'Producto';
