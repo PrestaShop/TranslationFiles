@@ -22,7 +22,7 @@ $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_9ff0635f5737513b1a6f559
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_43340e6cc4e88197d57f8d6d5ea50a46'] = 'Leer más';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_60efcc704ef1456678f77eb9ee20847b'] = 'Todos los productos nuevos';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_18cc24fb12f89c839ab890f8188febe8'] = 'no hay nuevos productos en este momento';
-$_MODULE['<{blocknewproducts}prestashop>tab_a0d0ebc37673b9ea77dd7c1a02160e2d'] = 'Nuevos';
+$_MODULE['<{blocknewproducts}prestashop>tab_a0d0ebc37673b9ea77dd7c1a02160e2d'] = 'Novedades';
 
 
 return $_MODULE;

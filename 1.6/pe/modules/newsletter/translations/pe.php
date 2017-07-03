@@ -25,7 +25,7 @@ $_MODULE['<{newsletter}prestashop>newsletter_73059f9530a1a37563150df4dea4bb70'] 
 $_MODULE['<{newsletter}prestashop>newsletter_a307579714b75082f3f8734971b125cd'] = 'Suscriptores con cuenta';
 $_MODULE['<{newsletter}prestashop>newsletter_d0da5609e4aebc5d532de97511a5a34a'] = 'Suscriptores sin cuenta';
 $_MODULE['<{newsletter}prestashop>newsletter_4713ef5f2d6fc1e8f088c850e696a04b'] = 'Exportar clientes';
-$_MODULE['<{newsletter}prestashop>newsletter_dbb392a2dc9b38722e69f6032faea73e'] = 'Exportar un fichero .CSV';
+$_MODULE['<{newsletter}prestashop>newsletter_dbb392a2dc9b38722e69f6032faea73e'] = 'Exportar archivo .CSV';
 
 
 return $_MODULE;

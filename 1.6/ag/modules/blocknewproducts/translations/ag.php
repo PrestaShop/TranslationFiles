@@ -5,7 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_f7c34fc4a48bc683445c1e7bbc245508'] = 'Bloque de Novedades';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_d3ee346c7f6560faa13622b6fef26f96'] = 'Mostrar con los nuevos productos aÃ±adidos';
-$_MODULE['<{blocknewproducts}prestashop>blocknewproducts_1cd777247f2a6ed79534d4ace72d78ce'] = 'Por favor, rellene el campo "productos a mostrar".';
+$_MODULE['<{blocknewproducts}prestashop>blocknewproducts_1cd777247f2a6ed79534d4ace72d78ce'] = 'Por favor, rellena el campo "productos a mostrar".';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_73293a024e644165e9bf48f270af63a0'] = 'NÃºmero InvÃ¡lido.';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_c888438d14855d7d96a2724ee9c306bd'] = 'ConfiguraciÃ³n Actualizada';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_f4f70727dc34561dfde1a3c529b6205c'] = 'Ajustes';
@@ -22,7 +22,7 @@ $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_9ff0635f5737513b1a6f559
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_43340e6cc4e88197d57f8d6d5ea50a46'] = 'Leer más';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_60efcc704ef1456678f77eb9ee20847b'] = 'Todas las novedades';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_18cc24fb12f89c839ab890f8188febe8'] = 'No permitir nuevos productos en este momento.';
-$_MODULE['<{blocknewproducts}prestashop>tab_a0d0ebc37673b9ea77dd7c1a02160e2d'] = 'Nuevos';
+$_MODULE['<{blocknewproducts}prestashop>tab_a0d0ebc37673b9ea77dd7c1a02160e2d'] = 'Novedades';
 
 
 return $_MODULE;

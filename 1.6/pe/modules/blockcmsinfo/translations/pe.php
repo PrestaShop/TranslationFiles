@@ -5,7 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{blockcmsinfo}prestashop>blockcmsinfo_988659f6c5d3210a3f085ecfecccf5d3'] = 'Bloque de información CMS personalizado';
 $_MODULE['<{blockcmsinfo}prestashop>blockcmsinfo_cd4abd29bdc076fb8fabef674039cd6e'] = 'Añade bloques de información personalizados en tu tienda.';
-$_MODULE['<{blockcmsinfo}prestashop>blockcmsinfo_666f6333e43c215212b916fef3d94af0'] = 'Debe rellenar todos los campos.';
+$_MODULE['<{blockcmsinfo}prestashop>blockcmsinfo_666f6333e43c215212b916fef3d94af0'] = 'Debes rellenar todos los campos.';
 $_MODULE['<{blockcmsinfo}prestashop>blockcmsinfo_86432715902fbaf53de469fed3fa6c53'] = 'Tienes que seleccionar al menos una tienda.';
 $_MODULE['<{blockcmsinfo}prestashop>blockcmsinfo_d52eaeff31af37a4a7e0550008aff5df'] = 'Se ha producido un error durante el proceso de guardado.';
 $_MODULE['<{blockcmsinfo}prestashop>blockcmsinfo_6f16c729fadd8aa164c6c47853983dd2'] = 'Nueva bloque CMS personalizado';

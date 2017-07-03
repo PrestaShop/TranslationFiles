@@ -42,7 +42,7 @@ $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_12a521af593422cd508f7707662c9eb
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_068f80c7519d0528fb08e82137a72131'] = 'Productos';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_778118c7dd993db08f704e15efa4a7fa'] = 'Seleccione ID de producto';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_56e8bf6c54f1638e7bce5a2fcd5b20fe'] = 'Menú de Enlaces superiores';
-$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_449f6d82cde894eafd3c85b6fa918f89'] = 'Link ID';
+$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_449f6d82cde894eafd3c85b6fa918f89'] = 'ID del enlace';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e93c33bd1341ab74195430daeb63db13'] = 'Nombre de la Tienda';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_387a8014f530f080bf2f3be723f8c164'] = 'Lista de enlaces';
 $_MODULE['<{blocktopmenu}prestashop>form_17a1352d3f69a733fd472fce0238a07d'] = 'Indica el número ID del producto';

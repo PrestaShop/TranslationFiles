@@ -4,7 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{blockpermanentlinks}prestashop>blockpermanentlinks_39355c36cfd8f1d048a1f84803963534'] = 'Bloque de Enlaces permanentes';
-$_MODULE['<{blockpermanentlinks}prestashop>blockpermanentlinks_6c5b993889148d10481569e55f8f7c6d'] = 'Añadir un bloque que muestre los enlaces permanentes como mapa del sitio, contacto, etc.';
+$_MODULE['<{blockpermanentlinks}prestashop>blockpermanentlinks_6c5b993889148d10481569e55f8f7c6d'] = 'Añade un bloque que muestra los enlaces permanentes, como el mapa del sitio, contacto, etc.';
 $_MODULE['<{blockpermanentlinks}prestashop>blockpermanentlinks-footer_5813ce0ec7196c492c97596718f71969'] = 'Mapa del Sitio';
 $_MODULE['<{blockpermanentlinks}prestashop>blockpermanentlinks-footer_bbaff12800505b22a853e8b7f4eb6a22'] = 'Contacto';
 $_MODULE['<{blockpermanentlinks}prestashop>blockpermanentlinks-footer_714814d37531916c293a8a4007e8418c'] = 'Agregue a favoritos esta página';
