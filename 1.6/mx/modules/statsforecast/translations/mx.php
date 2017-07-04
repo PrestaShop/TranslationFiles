@@ -37,7 +37,7 @@ $_MODULE['<{statsforecast}prestashop>statsforecast_e6e42855066e7a3ae050b2c698021
 $_MODULE['<{statsforecast}prestashop>statsforecast_5ed26836c96d7dcae8a40307e8e250c3'] = '-- No hay filtro --';
 $_MODULE['<{statsforecast}prestashop>statsforecast_e55f75a29310d7b60f7ac1d390c8ae42'] = 'Módulo';
 $_MODULE['<{statsforecast}prestashop>statsforecast_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'Ventas';
-$_MODULE['<{statsforecast}prestashop>statsforecast_71241798130f714cbd2786df3da2cf0b'] = 'Valor medio del carrito';
+$_MODULE['<{statsforecast}prestashop>statsforecast_71241798130f714cbd2786df3da2cf0b'] = 'Valor promedio del carrito';
 $_MODULE['<{statsforecast}prestashop>statsforecast_f13877f6ad53ce91fcb20fb8b7969698'] = 'Distribución de categorías';
 $_MODULE['<{statsforecast}prestashop>statsforecast_b3ff996fe5c77610359114835baf9b38'] = 'Zona';
 $_MODULE['<{statsforecast}prestashop>statsforecast_3adbdb3ac060038aa0e6e6c138ef9873'] = 'Categoría';

@@ -16,12 +16,12 @@ $_MODULE['<{blockspecials}prestashop>blockspecials_e80a11f1704b88ad50f8fc6ce0f43
 $_MODULE['<{blockspecials}prestashop>blockspecials_26986c3388870d4148b1b5375368a83d'] = 'Productos a mostrar';
 $_MODULE['<{blockspecials}prestashop>blockspecials_63c150b9c1204c4825ce5914aed20717'] = 'Define el número de productos que se mostrarán en este bloque en la página principal.';
 $_MODULE['<{blockspecials}prestashop>blockspecials_c9cc8cce247e49bae79f15173ce97354'] = 'Guardar';
-$_MODULE['<{blockspecials}prestashop>blockspecials-home_e420850bc0f6c94eff7edb2041b206bd'] = 'No hay productos especiales en este momento.';
+$_MODULE['<{blockspecials}prestashop>blockspecials-home_e420850bc0f6c94eff7edb2041b206bd'] = 'No hay productos en oferta en este momento.';
 $_MODULE['<{blockspecials}prestashop>blockspecials_d1aa22a3126f04664e0fe3f598994014'] = 'Promociones';
 $_MODULE['<{blockspecials}prestashop>blockspecials_b4f95c1ea534936cc60c6368c225f480'] = 'Todas las ofertas';
 $_MODULE['<{blockspecials}prestashop>blockspecials_3c9f5a6dc6585f75042bd4242c020081'] = 'No hay promociones en este momento.';
 $_MODULE['<{blockspecials}prestashop>tab_d1aa22a3126f04664e0fe3f598994014'] = 'Promociones';
-$_MODULE['<{blockspecials}prestashop>blockspecials_e420850bc0f6c94eff7edb2041b206bd'] = 'No hay productos especiales en este momento.';
+$_MODULE['<{blockspecials}prestashop>blockspecials_e420850bc0f6c94eff7edb2041b206bd'] = 'No hay productos en oferta en este momento.';
 
 
 return $_MODULE;

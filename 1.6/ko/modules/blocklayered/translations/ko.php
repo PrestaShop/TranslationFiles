@@ -8,7 +8,7 @@ $_MODULE['<{blocklayered}prestashop>blocklayered_8c489d0946f66d17d73f26366a4bf62
 $_MODULE['<{blocklayered}prestashop>blocklayered_03c2e7e41ffc181a4e84080b4710e81e'] = '신상품';
 $_MODULE['<{blocklayered}prestashop>blocklayered_019d1ca7d50cc54b995f60d456435e87'] = '사용됨';
 $_MODULE['<{blocklayered}prestashop>blocklayered_fcebe56087b9373f15514831184fa572'] = '재고물품순으로';
-$_MODULE['<{blocklayered}prestashop>blocklayered_c0bd7654d5b278e65f21cf4e9153fdb4'] = '공급자';
+$_MODULE['<{blocklayered}prestashop>blocklayered_c0bd7654d5b278e65f21cf4e9153fdb4'] = '제조사';
 $_MODULE['<{blocklayered}prestashop>blocklayered_af1b98adf7f686b84cd0b443e022b7a0'] = '목록';
 $_MODULE['<{blocklayered}prestashop>blocklayered-no-products_5c9838becf9bbce28ba90a7426daf171'] = '상품이 없습니다.';
 $_MODULE['<{blocklayered}prestashop>blocklayered_ea4788705e6873b424c65e91c2846b19'] = '취소';

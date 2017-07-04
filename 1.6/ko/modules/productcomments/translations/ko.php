@@ -11,6 +11,7 @@ $_MODULE['<{productcomments}prestashop>productcomments_b9f5c797ebbf55adccdd8539a
 $_MODULE['<{productcomments}prestashop>productcomments_c9cc8cce247e49bae79f15173ce97354'] = '저장';
 $_MODULE['<{productcomments}prestashop>productcomments_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
 $_MODULE['<{productcomments}prestashop>productcomments_49ee3087348e8d44e1feda1917443987'] = '이름';
+$_MODULE['<{productcomments}prestashop>productcomments_a1fa27779242b4902f7ae3bdd5c6d508'] = '유형';
 $_MODULE['<{productcomments}prestashop>productcomments_ec53a8c4f07baed5d8825072c89799be'] = 'Statut';
 $_MODULE['<{productcomments}prestashop>productcomments_deb10517653c255364175796ace3553f'] = '상품';
 $_MODULE['<{productcomments}prestashop>productcomments_4d3d769b812b6faa6b76e1a8abaece2d'] = '활성화 합니다';

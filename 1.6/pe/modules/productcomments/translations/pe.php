@@ -62,7 +62,7 @@ $_MODULE['<{productcomments}prestashop>productcomments_38fc05fb7f02497ea56b77fe0
 $_MODULE['<{productcomments}prestashop>productcomments_92a497b6a43b59cce82c604a4c834bb0'] = 'Nombre del criterio';
 $_MODULE['<{productcomments}prestashop>productcomments_bbda28827cde1064b0320cbf6b1890a2'] = 'Ámbito de aplicación del criterio';
 $_MODULE['<{productcomments}prestashop>productcomments_20089c27bf83463fe32e7d30ed9d8f81'] = 'Se restringirá los criterios a los siguientes productos';
-$_MODULE['<{productcomments}prestashop>productcomments_4d3d769b812b6faa6b76e1a8abaece2d'] = 'Activar';
+$_MODULE['<{productcomments}prestashop>productcomments_4d3d769b812b6faa6b76e1a8abaece2d'] = 'Activo';
 $_MODULE['<{productcomments}prestashop>productcomments_6f7351657f795bc1357a53142b1184cc'] = 'Aprobar';
 $_MODULE['<{productcomments}prestashop>productcomments_ecf74aa77715220b378ec668e75655a8'] = 'No abusivo';
 $_MODULE['<{productcomments}prestashop>productcomments-extra_7c3b0e9898b88deee7ea75aafd2e37e2'] = 'Nota media';

@@ -4,7 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{dashproducts}prestashop>dashproducts_6655df4af87b2038afd507a33545a56d'] = 'Panel de Productos';
-$_MODULE['<{dashproducts}prestashop>dashproducts_4a528e24be5aca96e8a15b256efe1f31'] = 'Agrega un bloque con una tabla de sus últimos pedidos y una clasificación de sus productos';
+$_MODULE['<{dashproducts}prestashop>dashproducts_4a528e24be5aca96e8a15b256efe1f31'] = 'Añade un bloque presentando en una tabla los últimos pedidos producidos en tu tienda y una clasificación de tus productos';
 $_MODULE['<{dashproducts}prestashop>dashproducts_2ea989f83006e233627987293f4bde0a'] = 'Nombre del Cliente';
 $_MODULE['<{dashproducts}prestashop>dashproducts_068f80c7519d0528fb08e82137a72131'] = 'Productos';
 $_MODULE['<{dashproducts}prestashop>dashproducts_96b0141273eabab320119c467cdcaf17'] = 'Total';
@@ -34,7 +34,7 @@ $_MODULE['<{dashproducts}prestashop>dashproducts_14d24dddc4c67abf8364b980b2ccd5a
 $_MODULE['<{dashproducts}prestashop>dashproducts_f1ee1eaab342241138d45f35f4d8466a'] = 'Número de "Más Buscados" para mostrar';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_3e361ce73ecabd6524af286d55809ed7'] = 'Productos y Ventas';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_f1206f9fadc5ce41694f69129aecac26'] = 'Configure';
-$_MODULE['<{dashproducts}prestashop>dashboard_zone_two_63a6a88c066880c5ac42394a22803ca6'] = 'Refrescar';
+$_MODULE['<{dashproducts}prestashop>dashboard_zone_two_63a6a88c066880c5ac42394a22803ca6'] = 'Actualizar';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_254f642527b45bc260048e30704edb39'] = 'Configuración';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_fd3458547ef9c3a8bd0e1e1b4ef2b4dd'] = 'Pedidos Recientes';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_d7b2933ba512ada478c97fa43dd7ebe6'] = 'Más vendidos';

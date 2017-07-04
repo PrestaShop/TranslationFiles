@@ -11,7 +11,7 @@ $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_7ccf58c950043c9fbfed668df13
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_ecfe3ba0ff66a97029088e8e90a3f051'] = 'Tiempo mínimo no es válido';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_0245cd1cce5ecea8eb23b043be00d80a'] = 'Tiempo máximo no es válido';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_e6843321c8b0edea8cf333519316ed7b'] = 'Transportadora no es válida';
-$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_3499ed6a79c0b8cd01157de23fc1cfe6'] = 'Esta regla ya se ha definido para este transportista.';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_3499ed6a79c0b8cd01157de23fc1cfe6'] = 'Esta regla ya ha sido definida para este transportista.';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_50e1f1030812a9a8fd66dfff17099fcd'] = 'Se ha producido un error al añadir la regla de la transportadora.';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_240276f48ff2e0e5fe620ff311e677b5'] = 'Se ha producido un error al actualizar la regla de la transportadora.';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_b9e3eda70ccb175c96a56bd79b89bd8b'] = 'La regla de la transportadora ha sido eliminada correctamente';

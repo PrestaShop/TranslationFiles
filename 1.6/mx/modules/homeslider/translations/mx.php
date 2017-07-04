@@ -50,7 +50,7 @@ $_MODULE['<{homeslider}prestashop>homeslider_432ed99c2e808d79c96f892807d33325'] 
 $_MODULE['<{homeslider}prestashop>homeslider_6a1ae4ad1018e00dddb16a2ce30a24f6'] = 'Usted no puede agregar diapositivas desde el contexto "Todas las tiendas" o  "Grupo de Tiendas"';
 $_MODULE['<{homeslider}prestashop>homeslider_7a5c11dddbb2118d08611a1f0678bb91'] = 'Imposible obtener información de asociación de la tienda de la diapositiva  (id_slide: %d)';
 $_MODULE['<{homeslider}prestashop>homeslider_298b615220606d42b6ac60269df0d321'] = 'Las modificaciones se aplicarán a la tienda: %s';
-$_MODULE['<{homeslider}prestashop>homeslider_aef3662e6419ddaaa0a31df70e3b6557'] = 'Las modificaciones se aplicarán a este grupo: %s';
+$_MODULE['<{homeslider}prestashop>homeslider_aef3662e6419ddaaa0a31df70e3b6557'] = 'Las modificaciones serán aplicadas a este grupo: %s';
 $_MODULE['<{homeslider}prestashop>homeslider_71063fd397d237e563089c22dd8b69e8'] = 'Las modificaciones se aplicacarán sobre todas las tiendas y grupos de tiendas';
 $_MODULE['<{homeslider}prestashop>homeslider_6a5aa2542c21debccd82b2e0038c3d1a'] = '¡Esta dispositiva está compartida con otras tiendas! Todas las tiendas asociadas a esta diapositiva aplicarán las modificaciones hechas aquí';
 $_MODULE['<{homeslider}prestashop>form_92fbf0e5d97b8afd7e73126b52bdc4bb'] = 'Elegir un archivo';

@@ -19,7 +19,7 @@ $_MODULE['<{dashactivity}prestashop>dashactivity_a5493eb7cba36f452249d093e7757ad
 $_MODULE['<{dashactivity}prestashop>dashactivity_45e9c82415a3bee4413485c6bcb4347f'] = 'Tiempo (en horas) después de la última acción para que un carrito ya no sea considerado como abandonado (defecto: 24 h).';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_91b1b529580f2bb429493a51a1af932b'] = 'Resumen de actividades';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_f1206f9fadc5ce41694f69129aecac26'] = 'Configure';
-$_MODULE['<{dashactivity}prestashop>dashboard_zone_one_63a6a88c066880c5ac42394a22803ca6'] = 'Refrescar';
+$_MODULE['<{dashactivity}prestashop>dashboard_zone_one_63a6a88c066880c5ac42394a22803ca6'] = 'Actualizar';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_254f642527b45bc260048e30704edb39'] = 'Configuración';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_edfc5fccc0439856b5bd432522ef47aa'] = 'Visitantes en línea';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_962b7da7912bc637b03626e23b5832b5'] = 'en los últimos %d minutos';

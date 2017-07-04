@@ -3,10 +3,10 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{cheque}prestashop>cheque_7b4cc4f79be9aae43efd53b4ae5cba4d'] = 'Cheque';
-$_MODULE['<{cheque}prestashop>cheque_14e41f4cfd99b10766cc15676d8cda66'] = 'Este módulo le permite aceptar pagos por cheque';
+$_MODULE['<{cheque}prestashop>cheque_7b4cc4f79be9aae43efd53b4ae5cba4d'] = 'Pagos por cheque';
+$_MODULE['<{cheque}prestashop>cheque_14e41f4cfd99b10766cc15676d8cda66'] = 'Este módulo te permite aceptar pagos por cheque.';
 $_MODULE['<{cheque}prestashop>cheque_e09484ba6c16bc20236b63cc0d87ee95'] = 'Esta seguro de querer eliminar todos sus datos?';
-$_MODULE['<{cheque}prestashop>cheque_32776feb26ff6f9648054e796aa0e423'] = 'Los campos "Páguese a la orden de" y "Dirección" deben configurarse antes de utilizar este módulo.';
+$_MODULE['<{cheque}prestashop>cheque_32776feb26ff6f9648054e796aa0e423'] = 'Los campos "Páguese a la orden de" y "Dirección" deben ser configurados antes de utilizar este módulo.';
 $_MODULE['<{cheque}prestashop>cheque_a02758d758e8bec77a33d7f392eb3f8a'] = 'No hay moneda asignada para este mÃ³dulo';
 $_MODULE['<{cheque}prestashop>cheque_81c6c3ba23ca2657a8eedc561f865ddb'] = 'Debe rellenar el campo "Páguese a la orden de".';
 $_MODULE['<{cheque}prestashop>cheque_00a369029140cfd18857425d49b472f8'] = 'Debe rellenar el campo "Dirección".';
@@ -35,16 +35,16 @@ $_MODULE['<{cheque}prestashop>payment_execution_7135ff14c7931e1c8e9d33aff3dfc7f7
 $_MODULE['<{cheque}prestashop>payment_execution_52f64bc0164b0e79deaeaaaa7e93f98f'] = 'Por favor, confirme su pedido haciendo clic en "Confirmo mi pedido".';
 $_MODULE['<{cheque}prestashop>payment_execution_46b9e3665f187c739c55983f757ccda0'] = 'Confirmo mi pedido';
 $_MODULE['<{cheque}prestashop>payment_execution_569fd05bdafa1712c4f6be5b153b8418'] = 'Otros mÃ©todos de pago';
-$_MODULE['<{cheque}prestashop>infos_14e41f4cfd99b10766cc15676d8cda66'] = 'Este módulo le permite aceptar pagos por cheque';
-$_MODULE['<{cheque}prestashop>infos_e444fe40d43bccfad255cf62ddc8d18f'] = 'Si el cliente opta por esta forma de pago, el estado del pedido cambiará a \'Pago en espera. "';
-$_MODULE['<{cheque}prestashop>infos_8c88bbf5712292b26e2a6bbeb0a7b5c4'] = 'Por lo tanto, debe validar manualmente el pedido a la recepción del cheque';
+$_MODULE['<{cheque}prestashop>infos_14e41f4cfd99b10766cc15676d8cda66'] = 'Este módulo te permite aceptar pagos por cheque.';
+$_MODULE['<{cheque}prestashop>infos_e444fe40d43bccfad255cf62ddc8d18f'] = 'Si el cliente opta por esta forma de pago, el estado del pedido cambiará a "En espera del pago."';
+$_MODULE['<{cheque}prestashop>infos_8c88bbf5712292b26e2a6bbeb0a7b5c4'] = 'Por lo tanto, deberás validar manualmente el pedido tras la recepción del cheque.';
 $_MODULE['<{cheque}prestashop>payment_return_88526efe38fd18179a127024aba8c1d7'] = 'Su pedido está %s completo.';
 $_MODULE['<{cheque}prestashop>payment_return_61da27a5dd1f8ced46c77b0feaa9e159'] = 'Por favor, envienos un cheque con:';
 $_MODULE['<{cheque}prestashop>payment_return_621455d95c5de701e05900a98aaa9c66'] = 'Importe del pago.';
 $_MODULE['<{cheque}prestashop>payment_return_9b8f932b1412d130ece5045ecafd1b42'] = 'pagarse a la orden de';
 $_MODULE['<{cheque}prestashop>payment_return_9a94f1d749a3de5d299674d6c685e416'] = 'mail para';
-$_MODULE['<{cheque}prestashop>payment_return_e1c54fdba2544646684f41ace03b5fda'] = 'No te olvides de insertar su número de pedido #%d.';
-$_MODULE['<{cheque}prestashop>payment_return_4761b03b53bc2b3bd948bb7443a26f31'] = 'No te olvides de insertar tu número de pedido %s.';
+$_MODULE['<{cheque}prestashop>payment_return_e1c54fdba2544646684f41ace03b5fda'] = 'No olvide incluir su número de pedido #%d.';
+$_MODULE['<{cheque}prestashop>payment_return_4761b03b53bc2b3bd948bb7443a26f31'] = 'No olvide incluir la referencia de su pedido %s.';
 $_MODULE['<{cheque}prestashop>payment_return_610abe74e72f00210e3dcb91a0a3f717'] = 'Un email se le ha sido enviado con esta información.';
 $_MODULE['<{cheque}prestashop>payment_return_ffd2478830ca2f519f7fe7ee259d4b96'] = 'Su pedido serÃ¡ enviado en cuanto recibamos su pago.';
 $_MODULE['<{cheque}prestashop>payment_return_0db71da7150c27142eef9d22b843b4a9'] = 'Para otras dudas, por favor contacte con nosotros';

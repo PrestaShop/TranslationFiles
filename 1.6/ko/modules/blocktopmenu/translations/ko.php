@@ -17,7 +17,7 @@ $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_ec211f7c20af43e742bf2570c3cb84f
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_06933067aafd48425d67bcb01bba5cb6'] = '업데이트';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_c7da501f54544eba6787960200d9efdb'] = '페이지관리';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_ec136b444eede3bc85639fac0dd06229'] = '제조사';
-$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_c0bd7654d5b278e65f21cf4e9153fdb4'] = '공급자';
+$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_c0bd7654d5b278e65f21cf4e9153fdb4'] = '제조사';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_af1b98adf7f686b84cd0b443e022b7a0'] = '목록';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_12a521af593422cd508f7707662c9eb2'] = 'Boutiques';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_778118c7dd993db08f704e15efa4a7fa'] = '제품 ID를 선택';

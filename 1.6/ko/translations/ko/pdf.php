@@ -3,6 +3,7 @@
 global $_LANGPDF;
 $_LANGPDF = array();
 
+$_LANGPDF['PDF065ab3a28ca4f16f55f103adc7d0226f'] = '배송';
 $_LANGPDF['PDF466eadd40b3c10580e3ab4e8061161ce'] = '청구서';
 $_LANGPDF['PDFcc894fffb019b528d12951b74d6d2b6e'] = '주문 반환';
 $_LANGPDF['PDFcf3bae95c5f6023d5a10fe415b205a45'] = '신용전표';

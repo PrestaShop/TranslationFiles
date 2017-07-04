@@ -3,8 +3,8 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{dashgoals}prestashop>dashgoals_50698c5b8ffaf2b7dd089898a244a668'] = 'Panel de Metas';
-$_MODULE['<{dashgoals}prestashop>dashgoals_14089da5dd6132b674d9829b136efff9'] = 'Agregue un bloque con el pronóstico de su tienda.';
+$_MODULE['<{dashgoals}prestashop>dashgoals_50698c5b8ffaf2b7dd089898a244a668'] = 'Panel de Objetivos';
+$_MODULE['<{dashgoals}prestashop>dashgoals_14089da5dd6132b674d9829b136efff9'] = 'Añade un bloque con las previsiones de tu tienda.';
 $_MODULE['<{dashgoals}prestashop>dashgoals_86f5978d9b80124f509bdb71786e929e'] = 'Enero';
 $_MODULE['<{dashgoals}prestashop>dashgoals_659e59f062c75f81259d22786d6c44aa'] = 'Febrero';
 $_MODULE['<{dashgoals}prestashop>dashgoals_fa3e5edac607a88d8fd7ecb9d6d67424'] = 'Marzo';
@@ -20,23 +20,23 @@ $_MODULE['<{dashgoals}prestashop>dashgoals_82331503174acbae012b2004f6431fa5'] = 
 $_MODULE['<{dashgoals}prestashop>dashgoals_e7935ae6c516d89405ec532359d2d75a'] = 'Tráfico';
 $_MODULE['<{dashgoals}prestashop>dashgoals_233d48e63da77b092da350559d2f8382'] = 'visitas';
 $_MODULE['<{dashgoals}prestashop>dashgoals_3bb1503332637805beddb73a2dd1fe1b'] = 'Conversión';
-$_MODULE['<{dashgoals}prestashop>dashgoals_71241798130f714cbd2786df3da2cf0b'] = 'Valor medio del carrito';
+$_MODULE['<{dashgoals}prestashop>dashgoals_71241798130f714cbd2786df3da2cf0b'] = 'Valor promedio del carrito';
 $_MODULE['<{dashgoals}prestashop>dashgoals_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'Ventas';
 $_MODULE['<{dashgoals}prestashop>dashgoals_9ac642c5ef334ea05256563f921bb304'] = 'Objetivo superado';
 $_MODULE['<{dashgoals}prestashop>dashgoals_7c103c9bbbaecee07ca898ed65667cbf'] = 'Objetivo no alcanzado';
-$_MODULE['<{dashgoals}prestashop>dashgoals_eb233580dc419f03df5905f175606e4d'] = 'Objetivo fijado:';
+$_MODULE['<{dashgoals}prestashop>dashgoals_eb233580dc419f03df5905f175606e4d'] = 'Objetivo establecido:';
 $_MODULE['<{dashgoals}prestashop>config_254f642527b45bc260048e30704edb39'] = 'Configuración';
 $_MODULE['<{dashgoals}prestashop>config_e7935ae6c516d89405ec532359d2d75a'] = 'Tráfico';
-$_MODULE['<{dashgoals}prestashop>config_e4c3da18c66c0147144767efeb59198f'] = 'Ratio de conversión';
-$_MODULE['<{dashgoals}prestashop>config_8c804960da61b637c548c951652b0cac'] = 'Valor del carrito medio';
+$_MODULE['<{dashgoals}prestashop>config_e4c3da18c66c0147144767efeb59198f'] = 'Tasa de conversión';
+$_MODULE['<{dashgoals}prestashop>config_8c804960da61b637c548c951652b0cac'] = 'Valor promedio del carrito';
 $_MODULE['<{dashgoals}prestashop>config_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'Ventas';
 $_MODULE['<{dashgoals}prestashop>config_c9cc8cce247e49bae79f15173ce97354'] = 'Guardar';
 $_MODULE['<{dashgoals}prestashop>dashboard_zone_two_89c1265be62d3ba835a3d963db5956b0'] = 'Previsiones';
 $_MODULE['<{dashgoals}prestashop>dashboard_zone_two_f1206f9fadc5ce41694f69129aecac26'] = 'Configurar';
-$_MODULE['<{dashgoals}prestashop>dashboard_zone_two_63a6a88c066880c5ac42394a22803ca6'] = 'Refrescar';
+$_MODULE['<{dashgoals}prestashop>dashboard_zone_two_63a6a88c066880c5ac42394a22803ca6'] = 'Actualizar';
 $_MODULE['<{dashgoals}prestashop>dashboard_zone_two_e7935ae6c516d89405ec532359d2d75a'] = 'Tráfico';
 $_MODULE['<{dashgoals}prestashop>dashboard_zone_two_3bb1503332637805beddb73a2dd1fe1b'] = 'Conversión';
-$_MODULE['<{dashgoals}prestashop>dashboard_zone_two_8c804960da61b637c548c951652b0cac'] = 'Valor del carrito medio';
+$_MODULE['<{dashgoals}prestashop>dashboard_zone_two_8c804960da61b637c548c951652b0cac'] = 'Valor promedio del carrito';
 $_MODULE['<{dashgoals}prestashop>dashboard_zone_two_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'Ventas';
 
 

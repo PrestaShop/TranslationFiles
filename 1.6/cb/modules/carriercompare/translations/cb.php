@@ -18,7 +18,7 @@ $_MODULE['<{carriercompare}prestashop>carriercompare_2833e625c13a70c7b84ad98c979
 $_MODULE['<{carriercompare}prestashop>carriercompare_b49f15ff6f8530a76ed954676abbc4d6'] = 'Comprobando departamentos disponibles...';
 $_MODULE['<{carriercompare}prestashop>carriercompare_ed22df3e47c667a95dd43e59f2f38522'] = 'Recuperando la información...';
 $_MODULE['<{carriercompare}prestashop>carriercompare_e7a6ca4e744870d455a57b644f696457'] = '¡Sin costo!';
-$_MODULE['<{carriercompare}prestashop>configuration_152c9745ad3e3720a15b058df5d16116'] = 'Ha ocurrido un error durante la validación del formulario.';
+$_MODULE['<{carriercompare}prestashop>configuration_152c9745ad3e3720a15b058df5d16116'] = 'Se ha producido un error durante la validación del formulario.';
 $_MODULE['<{carriercompare}prestashop>configuration_20015706a8cbd457cbb6ea3e7d5dc9b3'] = 'Configuración actualizada';
 $_MODULE['<{carriercompare}prestashop>configuration_242c88eb5c5a76cab7c30fef4cd89471'] = 'Este modulo sólo está disponible durante el proceso estándar de compra en cinco pasos. La lista de transportistas ya está definida en la compra en un paso.';
 $_MODULE['<{carriercompare}prestashop>configuration_6408d076fa6417e7bc8ddc3cdf9a0644'] = 'Configuración global';

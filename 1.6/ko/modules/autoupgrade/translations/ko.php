@@ -4,6 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_6adf97f83acf6453d4a6a4b1070f3754'] = '없음';
+$_MODULE['<{autoupgrade}prestashop>adminpreferences_1656072e927c8d3acd24359cbb648bb5'] = 'SSL 활성화';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_e4045598261988d9988c594243a9434d'] = '서비스 약관';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_46f18d3960afc01e5a1a5a0e0e9d571b'] = '자동으로 모듈 업데이트를 확인';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_0db377921f4ce762c62526131097968f'] = 'Général';
@@ -27,7 +28,6 @@ $_MODULE['<{autoupgrade}prestashop>adminselftab_b9f5c797ebbf55adccdd8539a65a0241
 $_MODULE['<{autoupgrade}prestashop>adminselftab_4351cfebe4b61d8aa5efa1d020710005'] = '보기';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_7dce122004969d56ae2e0245cb754d35'] = '수정';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_f2a6c498fb90ee345d997f888fce3b18'] = '삭제';
-$_MODULE['<{autoupgrade}prestashop>adminselftab_e25f0ecd41211b01c83e5fec41df4fe7'] = '선택한 아이템을 삭제 하시겠습니까?';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_93cba07454f06a4a960172bbd6e2a435'] = '네';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_bafd7322c6e97d25b6299b5d6fe8920b'] = '아니오';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_38fb7d24e0d60a048f540ecb18e13376'] = '저장';
