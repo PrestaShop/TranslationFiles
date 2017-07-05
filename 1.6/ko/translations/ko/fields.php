@@ -13,10 +13,10 @@ $_FIELDS['Customer_01b0fd027f8764f9c069506b8de8bf2e'] = '사업자 등록번호'
 $_FIELDS['Warehouse_b8af13ea9c8fe890c9979a1fa8dbde22'] = '참고';
 $_FIELDS['Warehouse_b068931cc450442b63f5b3d276ea4297'] = '이름';
 $_FIELDS['Warehouse_23c3b4d168a45ef94635494ce42eb658'] = 'management_type';
-$_FIELDS['Country_213ecf1210f43736b6d4997fcfa27954'] = 'iso_코드';
+$_FIELDS['Country_213ecf1210f43736b6d4997fcfa27954'] = 'iso_code';
 $_FIELDS['Country_b068931cc450442b63f5b3d276ea4297'] = '이름';
-$_FIELDS['Country_37f577d6d447ff0743d74245446223b3'] = '우편번호_형식';
-$_FIELDS['State_213ecf1210f43736b6d4997fcfa27954'] = 'iso_코드';
+$_FIELDS['Country_37f577d6d447ff0743d74245446223b3'] = 'zip_code_format';
+$_FIELDS['State_213ecf1210f43736b6d4997fcfa27954'] = 'iso_code';
 $_FIELDS['State_b068931cc450442b63f5b3d276ea4297'] = '이름';
 $_FIELDS['Address_93c731f1c3a84ef05cd54d044c379eaa'] = '회사';
 $_FIELDS['Address_8ad75c5a8821cc294f189181722acb56'] = '성';
@@ -28,7 +28,7 @@ $_FIELDS['Address_4ed5d2eaed1a1fadcc41ad1d58ed603e'] = '도시';
 $_FIELDS['Address_795f3202b17cb6bc3d4b771d8c6c9eaf'] = '기타';
 $_FIELDS['Address_f7a42fe7211f98ac7a60a285ac3a9e87'] = '전화번호';
 $_FIELDS['Address_2df2ca5cf808744c2977e4073f6b59c8'] = '휴대전화';
-$_FIELDS['Address_eec0a9661213354fa7a52519eea3f827'] = 'vat_번호';
+$_FIELDS['Address_eec0a9661213354fa7a52519eea3f827'] = 'vat_number';
 
 
 return $_FIELDS;
