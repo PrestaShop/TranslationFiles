@@ -65,7 +65,7 @@ $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_4729572eaf20960
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_492c147d1a4919a2db1c1753516ca621'] = 'Texto bajo el carrito de compra';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_308849b73a4e55db002c9d56f046911c'] = 'Añadir un texto personalizado en la parte inferior del resumen del carrito de compras.';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_c9cc8cce247e49bae79f15173ce97354'] = 'Guardar';
-$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_98f770b0af18ca763421bac22b4b6805'] = 'Funcionalidades';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_98f770b0af18ca763421bac22b4b6805'] = 'Características';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_307676a395a3e913b32733a2ddcf1449'] = 'Activar la característica \'Recomendar a un amigo\'';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_c57fc80fe284ea2b7fe0e32ee9f56a65'] = 'Asegúrate de que cumples con la legislación de tu localidad antes de activarla: los mensajes de correo electrónico enviados por esta característica pueden ser considerados como correos electrónicos comerciales no solicitados.';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_01fcd16be34de91e8b570c662396e617'] = 'Si está activado, el módulo \'Enviar a un amigo\' permite a los clientes enviar a un amigo un correo electrónico con un enlace a la página de un producto.';

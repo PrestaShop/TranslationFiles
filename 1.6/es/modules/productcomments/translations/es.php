@@ -73,7 +73,7 @@ $_MODULE['<{productcomments}prestashop>productcomments_ab51a81c76d95ddc762194d58
 $_MODULE['<{productcomments}prestashop>productcomments_9a2ccd41653469a8bd94fbb84b271a14'] = '¡Tu comentario ha sido añadido!';
 $_MODULE['<{productcomments}prestashop>productcomments_b20968d9aecd2d075519992e9e2f1ffe'] = 'Tu comentario ha sido añadido y estará disponible una vez lo apruebe un moderador.';
 $_MODULE['<{productcomments}prestashop>productcomments_186c30cab59f6b64a453778330d4bbf0'] = 'Nuevo comentario';
-$_MODULE['<{productcomments}prestashop>productcomments_e0aa021e21dddbd6d8cecec71e9cf564'] = 'ok';
+$_MODULE['<{productcomments}prestashop>productcomments_e0aa021e21dddbd6d8cecec71e9cf564'] = 'OK';
 $_MODULE['<{productcomments}prestashop>productcomments_4b3b9db8c9784468094acde0f8bf7071'] = 'grado';
 $_MODULE['<{productcomments}prestashop>productcomments_b5c82723bd85856358f9a376bc613998'] = '%1$d de %2$d personas encontraron esta crítica útil.';
 $_MODULE['<{productcomments}prestashop>productcomments_39630ad6ee79b8653ea89194cdb45bec'] = 'Fue este comentario útil para usted?';

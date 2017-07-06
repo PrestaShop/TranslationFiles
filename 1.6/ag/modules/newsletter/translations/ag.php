@@ -4,12 +4,12 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{newsletter}prestashop>newsletter_ffb7e666a70151215b4c55c6268d7d72'] = 'BoletÃ­n de Noticias';
-$_MODULE['<{newsletter}prestashop>newsletter_804a924e464fd21ed92f820224c4091d'] = 'Genere un fichero .CSV para mailing masivo';
+$_MODULE['<{newsletter}prestashop>newsletter_804a924e464fd21ed92f820224c4091d'] = 'Genera un archivo .CSV para mailing masivo';
 $_MODULE['<{newsletter}prestashop>newsletter_c3987e4cac14a8456515f0d200da04ee'] = 'Todos los paises';
 $_MODULE['<{newsletter}prestashop>newsletter_fa01fd956e87307bce4c90a0de9b0437'] = 'País del cliente';
 $_MODULE['<{newsletter}prestashop>newsletter_7599b57d77ef1608b2f6da579794cc5b'] = 'Filtrar por país del cliente.';
-$_MODULE['<{newsletter}prestashop>newsletter_2198f293f5e1e95dddeff819fbca0975'] = 'Suscritos a la newsletter';
-$_MODULE['<{newsletter}prestashop>newsletter_99006a61d48499231e1be92241cf772a'] = 'Filtro de suscriptores a la newsletter.';
+$_MODULE['<{newsletter}prestashop>newsletter_2198f293f5e1e95dddeff819fbca0975'] = 'Suscritos al boletín de noticias';
+$_MODULE['<{newsletter}prestashop>newsletter_99006a61d48499231e1be92241cf772a'] = 'Filtro de suscritos al boletín de noticias.';
 $_MODULE['<{newsletter}prestashop>newsletter_7e3a51a56ddd2846e21c33f05e0aea6f'] = 'Todos los clientes';
 $_MODULE['<{newsletter}prestashop>newsletter_39f7a3e2b56e9bfd753ba6325533a127'] = 'suscritos';
 $_MODULE['<{newsletter}prestashop>newsletter_011d8c5d94f729f013963d856cd78745'] = 'no suscritos';

@@ -47,7 +47,7 @@ $_MODULE['<{followup}prestashop>stats_c336ea796ae42ed04ed1ac310a678823'] = 'Pedi
 $_MODULE['<{followup}prestashop>stats_8b83489bd116cb60e2f348e9c63cd7f6'] = 'Mejores clientes';
 $_MODULE['<{followup}prestashop>stats_7d75b7b0f976b3091f490864c6ffbf97'] = 'Malos clientes';
 $_MODULE['<{followup}prestashop>stats_7f8c0283f16925caed8e632086b81b9c'] = 'Enviados';
-$_MODULE['<{followup}prestashop>stats_019d1ca7d50cc54b995f60d456435e87'] = 'Usado';
+$_MODULE['<{followup}prestashop>stats_019d1ca7d50cc54b995f60d456435e87'] = 'Utilizado';
 $_MODULE['<{followup}prestashop>stats_476d1393bbe84d62f25e2ce2ec3cd61c'] = 'Conversión (%)';
 $_MODULE['<{followup}prestashop>stats_85b6769250887ba6c16099596c75164d'] = 'Ningún dato registrado por el momento';
 

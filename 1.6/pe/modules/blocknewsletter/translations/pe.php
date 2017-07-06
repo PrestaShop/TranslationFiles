@@ -9,11 +9,11 @@ $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_396c88991101b5ca362932952
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_c3987e4cac14a8456515f0d200da04ee'] = 'Todos los países';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_fa01fd956e87307bce4c90a0de9b0437'] = 'País del cliente';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_7599b57d77ef1608b2f6da579794cc5b'] = 'Filtrar por país del cliente.';
-$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_2198f293f5e1e95dddeff819fbca0975'] = 'Suscritos a la newsletter';
-$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_99006a61d48499231e1be92241cf772a'] = 'Filtro de suscriptores a la newsletter.';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_2198f293f5e1e95dddeff819fbca0975'] = 'Suscritos al boletín de noticias';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_99006a61d48499231e1be92241cf772a'] = 'Filtro de suscritos al boletín de noticias.';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_7e3a51a56ddd2846e21c33f05e0aea6f'] = 'Todos los clientes';
-$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_39f7a3e2b56e9bfd753ba6325533a127'] = 'suscritos';
-$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_011d8c5d94f729f013963d856cd78745'] = 'no suscritos';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_39f7a3e2b56e9bfd753ba6325533a127'] = 'Suscritos';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_011d8c5d94f729f013963d856cd78745'] = 'No suscritos';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_793ee192a9124cd6f529460eef17d3e5'] = 'Inscritos a publicidades';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_7b15c043d66fecc45c8752592aa38e38'] = 'Filtro de suscriptores que aceptan publicidad.';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_417d63b1effb110e438d4b4b9f0fbd95'] = 'El código del cupón de descuento no es válido.';
