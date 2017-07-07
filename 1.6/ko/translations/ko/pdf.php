@@ -3,10 +3,12 @@
 global $_LANGPDF;
 $_LANGPDF = array();
 
+$_LANGPDF['PDFab870751fa907b26253a0b6ffbf99d04'] = '%1$s%2$06d';
 $_LANGPDF['PDF065ab3a28ca4f16f55f103adc7d0226f'] = '배송';
 $_LANGPDF['PDF466eadd40b3c10580e3ab4e8061161ce'] = '청구서';
 $_LANGPDF['PDFcc894fffb019b528d12951b74d6d2b6e'] = '주문 반환';
 $_LANGPDF['PDFcf3bae95c5f6023d5a10fe415b205a45'] = '신용전표';
+$_LANGPDF['PDFf771e4a4df40bf061607fdb8e3f140dc'] = '공급 주문서';
 $_LANGPDF['PDF63d5049791d9d79d86e9a108b0a999ca'] = '참고';
 $_LANGPDF['PDFdeb10517653c255364175796ace3553f'] = '상품';
 $_LANGPDF['PDF03ab340b3f99e03cff9e84314ead38c0'] = '수량';
