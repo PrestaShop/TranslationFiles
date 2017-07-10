@@ -18,11 +18,11 @@ $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_b9f5c797ebbf55adccdd8
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_f4f70727dc34561dfde1a3c529b6205c'] = 'Setari';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_c9cc8cce247e49bae79f15173ce97354'] = 'Salveaza';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_4351cfebe4b61d8aa5efa1d020710005'] = 'Vizualizeaza';
-$_MODULE['<{themeconfigurator}prestashop>themeconfigurator_3b41baf5b2f335fc796a083a1945116b'] = 'Numai dumneavoastra poti vedea aceasta unealta in paginile site-ului - vizitatorii nu o pot vedea.';
+$_MODULE['<{themeconfigurator}prestashop>themeconfigurator_3b41baf5b2f335fc796a083a1945116b'] = 'Numai tu poti vedea aceasta unealta in paginile site-ului - vizitatorii nu o pot vedea.';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_6e3670bb5e3826106c5243b242cc52d9'] = 'Afiseaza link-uri catre conturile de socializare ale magazinului tau (Twitter, Facebook, etc.)';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_1334ff714a38e8004e9cdc755baa5afb'] = 'Afiseaza informatiile tale de contact';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_2f4fe84a25dc0024c9e80b4efd1d68f6'] = 'Afiseaza butoanele de partajare sociala pe pagina de produse';
-$_MODULE['<{themeconfigurator}prestashop>themeconfigurator_6080ab31226b39af728c2d40fd57f0d0'] = 'Afisarea blocul Facebook pe pagina de start';
+$_MODULE['<{themeconfigurator}prestashop>themeconfigurator_6080ab31226b39af728c2d40fd57f0d0'] = 'Afiseaza blocul Facebook pe pagina de start';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_2debd734d0a150ccfd48e8d1e8e914b0'] = 'Afiseaza blocul CMS cu informatii personalizate';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_bfebda351190d4dbbd3499558175c7b9'] = 'Afiseaza fereastra de vizualizare rapida pe prima pagina si in paginile categoriilor';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_5e8fbd010bca773512f58a4dcd89ed13'] = 'Afiseaza categoriile ca liste de produse in loc de afisarea implicita de tip grila';
@@ -65,7 +65,7 @@ $_MODULE['<{themeconfigurator}prestashop>new_4c4ad5fca2e7a3f74dbb1ced00381aa4'] 
 $_MODULE['<{themeconfigurator}prestashop>new_ea4788705e6873b424c65e91c2846b19'] = 'Anuleaza';
 $_MODULE['<{themeconfigurator}prestashop>new_c9cc8cce247e49bae79f15173ce97354'] = 'Salveaza';
 $_MODULE['<{themeconfigurator}prestashop>live_configurator_f5a35b8e88be7f51ad3a3714a83df3a1'] = 'Instrumentul de personalizare iti permite sa efectuezi modificari de culori si fonturi in tema ta.';
-$_MODULE['<{themeconfigurator}prestashop>live_configurator_c71534403c6e05ffbb8684ae96aac550'] = 'Numai dumneavoastra poti vedea aceasta unealta, pentru ca esti conectat ca administrator; vizitatorii tai nu o pot vedea.';
+$_MODULE['<{themeconfigurator}prestashop>live_configurator_c71534403c6e05ffbb8684ae96aac550'] = 'Numai tu poti vedea aceasta unealta, pentru ca esti conectat ca administrator; vizitatorii tai nu o pot vedea.';
 $_MODULE['<{themeconfigurator}prestashop>live_configurator_45e035baf33a8e403766a606457f8b10'] = 'Culoarea temei';
 $_MODULE['<{themeconfigurator}prestashop>live_configurator_194f5394ae2e9c74dc3c441b92862d1d'] = 'Font';
 $_MODULE['<{themeconfigurator}prestashop>live_configurator_9a2c00f5f6df185a8d7d421ee70ccddf'] = 'Fontul titlului';

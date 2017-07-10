@@ -11,7 +11,7 @@ $_MODULE['<{statsbestcategories}prestashop>statsbestcategories_f3547ae5e06426d87
 $_MODULE['<{statsbestcategories}prestashop>statsbestcategories_89a4e26859399438513f41c4971795b5'] = 'Margen total';
 $_MODULE['<{statsbestcategories}prestashop>statsbestcategories_c13329e42ec01a10f84c0f950274b404'] = 'Total visto';
 $_MODULE['<{statsbestcategories}prestashop>statsbestcategories_6e3b3150807da868ebd33ad2c991b8d7'] = 'Mejores categorías';
-$_MODULE['<{statsbestcategories}prestashop>statsbestcategories_e5510869e31bbf721ca15dff21cf1169'] = 'Añade un listado de las mejores categorías al panel de control de Estadísticas.';
+$_MODULE['<{statsbestcategories}prestashop>statsbestcategories_e5510869e31bbf721ca15dff21cf1169'] = 'Añade un listado de las mejores categorías al Panel de control de Estadísticas.';
 $_MODULE['<{statsbestcategories}prestashop>statsbestcategories_998e4c5c80f27dec552e99dfed34889a'] = 'Exportación CSV';
 $_MODULE['<{statsbestcategories}prestashop>statsbestcategories_26f1502c886f4daa37c43d27bb58d40d'] = 'Mostrar solo el nivel final de categorías (si no tiene categorías hijo)';
 

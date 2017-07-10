@@ -45,7 +45,7 @@ $_MODULE['<{homeslider}prestashop>homeslider_105b296a83f9c105355403f3332af50f'] 
 $_MODULE['<{homeslider}prestashop>homeslider_44f0ca4d7ea17bb667e8d5e31311d959'] = 'Timpul de afisare al unui cadru.';
 $_MODULE['<{homeslider}prestashop>homeslider_1e6a508c037fc42ef6155eeadbb80331'] = 'Redare automata';
 $_MODULE['<{homeslider}prestashop>homeslider_5a3489cc067f89b268b6958bffb98ebf'] = 'Deoarece sunt active mai multe limbi pentru magazinul tau, asigura-te ca incarci imaginea pentru fiecare din ele';
-$_MODULE['<{homeslider}prestashop>homeslider_c8a1ed10db4201b3ae06ea0aa912028d'] = 'Diapozitivele nu pot fi administrate in contextul "Toate magazinele" sau "Grup de magazine", este necesar sa alegi magazinul concret unde doresti sa aduceti modificari';
+$_MODULE['<{homeslider}prestashop>homeslider_c8a1ed10db4201b3ae06ea0aa912028d'] = 'Diapozitivele nu pot fi administrate in contextul "Toate magazinele" sau "Grup de magazine", este necesar sa alegi magazinul concret unde doresti sa modifici';
 $_MODULE['<{homeslider}prestashop>homeslider_432ed99c2e808d79c96f892807d33325'] = 'Acest cadru se poate edita numai din contextul magazinului (magazinelor): %s';
 $_MODULE['<{homeslider}prestashop>homeslider_6a1ae4ad1018e00dddb16a2ce30a24f6'] = 'Nu poti adauga diapozitive dintr-un context "Toate magazinele" sau "Grup de magazine"';
 $_MODULE['<{homeslider}prestashop>homeslider_7a5c11dddbb2118d08611a1f0678bb91'] = 'Nu se pot obtine informatii despre asocierea diapozitivului cu magazinul (id_slide: %d)';

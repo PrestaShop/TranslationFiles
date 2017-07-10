@@ -8,8 +8,8 @@ $_MODULE['<{statsproduct}prestashop>statsproduct_15944ce3356cfd0513cbc76e7df9d23
 $_MODULE['<{statsproduct}prestashop>statsproduct_6602bbeb2956c035fb4cb5e844a4861b'] = 'Ghid';
 $_MODULE['<{statsproduct}prestashop>statsproduct_f083d0403991f2b0ae72ea8782518f36'] = 'Numarul de cumparaturi comparat cu numarul de vizionari';
 $_MODULE['<{statsproduct}prestashop>statsproduct_6e13e61b8535a66feb27d285f5c42855'] = 'Dupa alegerea unei categorii si selectarea unui produs, graficele informative vor aparea.';
-$_MODULE['<{statsproduct}prestashop>statsproduct_6734b1d16e064d64d9ea4affaed74cc7'] = 'Daca descoperiti ca un produs este cumparat des, dar vizionat sporadic, ar trebui sa il afisi mai vizibil in Front Office.';
-$_MODULE['<{statsproduct}prestashop>statsproduct_f3a492ed300e8565dcdbbc1da340d226'] = 'Pe de alta parte, in cazul in care un produs are multe vizualizari dar nu este achizitionat prea des, va sfatuim sa verifici sau sa modifici informatiile despre produs, descriere si fotografia din nou,  vedeti daca poti gasi ceva mai bun.';
+$_MODULE['<{statsproduct}prestashop>statsproduct_6734b1d16e064d64d9ea4affaed74cc7'] = 'Daca descopera ca un produs este cumparat des, dar vizionat sporadic, ar trebui sa il afisi mai vizibil in Front Office.';
+$_MODULE['<{statsproduct}prestashop>statsproduct_f3a492ed300e8565dcdbbc1da340d226'] = 'Pe de alta parte, in cazul in care un produs are multe vizualizari dar nu este achizitionat prea des, va sfatuim sa verifici sau sa modifici informatiile despre produs, descriere si fotografia din nou,  vezi daca poti gasi ceva mai bun.';
 $_MODULE['<{statsproduct}prestashop>statsproduct_3ec365dd533ddb7ef3d1c111186ce872'] = 'Detalii';
 $_MODULE['<{statsproduct}prestashop>statsproduct_290b169159edc205e3a46902d4554d52'] = 'Cumparaturi totale';
 $_MODULE['<{statsproduct}prestashop>statsproduct_155d5c362e6887660600763fc0d55f02'] = 'Vanzari (taxe excluse)';

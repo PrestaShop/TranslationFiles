@@ -17,7 +17,7 @@ $_MODULE['<{blockwishlist}prestashop>blockwishlist_28d0edd045e05cf5af64e35ae0c4c
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_e0fd9b310aba555f96e76738ff192ac3'] = 'Liste cu dorinte';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_862af8838fba380d3b30e63546a394e5'] = 'Nicio lista de dorinte.';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_641254d77e7a473aa5910574f3f9453c'] = 'Lista de dorinte';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist_88b589bbf6282a2e02f50ebe90aae6f1'] = 'Trebuie sa te autentifici pentru a va gestiona listele de dorinte.';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist_88b589bbf6282a2e02f50ebe90aae6f1'] = 'Trebuie sa te autentifici pentru a iti gestiona listele de dorinte.';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_56ee3495a32081ccb6d2376eab391bfa'] = 'Selectarea listei de afisat';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_6bee4060e5e05246d4bcbb720736417c'] = 'Clienti :';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_c515b215b9c6be251c924cc6d1324c41'] = 'Alege un client';
@@ -30,7 +30,7 @@ $_MODULE['<{blockwishlist}prestashop>buywishlistproduct_607e1d854783c8229998ac2b
 $_MODULE['<{blockwishlist}prestashop>buywishlistproduct_b0ffc4925401f6f4edb038f5ca954937'] = 'Trebuie sa te autentifici';
 $_MODULE['<{blockwishlist}prestashop>cart_607e1d854783c8229998ac2b5b6923d3'] = 'Jeton incorect';
 $_MODULE['<{blockwishlist}prestashop>cart_a9839ad48cf107667f73bad1d651f2ca'] = 'Niciun model gasit';
-$_MODULE['<{blockwishlist}prestashop>cart_16a23698e7cf5188ce1c07df74298076'] = 'Trebuie sa te autentifici pentru a va gestiona lista de dorinte.';
+$_MODULE['<{blockwishlist}prestashop>cart_16a23698e7cf5188ce1c07df74298076'] = 'Trebuie sa te autentifici pentru a iti gestiona lista de dorinte.';
 $_MODULE['<{blockwishlist}prestashop>mywishlist_607e1d854783c8229998ac2b5b6923d3'] = 'Jeton incorect';
 $_MODULE['<{blockwishlist}prestashop>mywishlist_b30545c7b2d429352b9afdd85be810c7'] = 'Trebuie sa specifici un nume.';
 $_MODULE['<{blockwishlist}prestashop>mywishlist_b74c118d823d908d653cfbf1c877ae55'] = 'Acest nume este folosit deja pentru o alta lista de dorinte.';
@@ -58,7 +58,7 @@ $_MODULE['<{blockwishlist}prestashop>blockwishlist_button_6a5373df703ab2827a4ba7
 $_MODULE['<{blockwishlist}prestashop>blockwishlist-extra_2d96bb66d8541a89620d3c158ceef42b'] = 'Adauga la lista dorintelor';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist-extra_ec211f7c20af43e742bf2570c3cb84f9'] = 'Adauga';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist-extra_15b94c64c4d5a4f7172e5347a36b94fd'] = 'Adauga la lista de dorinte';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist_top_16a23698e7cf5188ce1c07df74298076'] = 'Trebuie sa te autentifici pentru a va gestiona lista de dorinte.';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist_top_16a23698e7cf5188ce1c07df74298076'] = 'Trebuie sa te autentifici pentru a iti gestiona lista de dorinte.';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_top_8a6830ac12924a940aa0a83d5e7c76ff'] = 'Produsul a fost adaugat in lista ta de produse dorite.';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_7ec9cceb94985909c6994e95c31c1aa8'] = 'Listele mele de dorinte';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_4a84e5921e203aede886d04fc41a414b'] = 'scoate produsul din lista produselor dorite';

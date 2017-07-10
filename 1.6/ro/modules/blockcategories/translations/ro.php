@@ -15,7 +15,7 @@ $_MODULE['<{blockcategories}prestashop>blockcategories_62381fc27e62649a16182a616
 $_MODULE['<{blockcategories}prestashop>blockcategories_52b68aaa602d202c340d9e4e9157f276'] = 'Categoria parinte';
 $_MODULE['<{blockcategories}prestashop>blockcategories_f225631c1a6f71e99cc779f6bbf06dd4'] = 'Categoria curenta, in afara cazului in care nu are subcategorii, in care caz este utilizata categoria parinte a categoriei curente';
 $_MODULE['<{blockcategories}prestashop>blockcategories_19561e33450d1d3dfe6af08df5710dd0'] = 'Adancime maxima';
-$_MODULE['<{blockcategories}prestashop>blockcategories_584d4e251b6f778eda9cfc2fc756b0b0'] = 'Stabiliti adancimea maxima a subnivelurilor afisate in acest bloc (0 = infinit).';
+$_MODULE['<{blockcategories}prestashop>blockcategories_584d4e251b6f778eda9cfc2fc756b0b0'] = 'Stabilesti adancimea maxima a subnivelurilor afisate in acest bloc (0 = infinit).';
 $_MODULE['<{blockcategories}prestashop>blockcategories_971fd8cc345d8bd9f92e9f7d88fdf20c'] = 'Dinamic';
 $_MODULE['<{blockcategories}prestashop>blockcategories_c10efcaa2a8ff4eedaa3538fff78eb53'] = 'Activeaza modul dinamic (animat) pentru subniveluri.';
 $_MODULE['<{blockcategories}prestashop>blockcategories_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Activ';

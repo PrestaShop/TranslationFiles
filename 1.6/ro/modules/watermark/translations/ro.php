@@ -5,7 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{watermark}prestashop>watermark_ee20bb60493f049175fc10c35acd2272'] = 'Protectia imaginilor';
 $_MODULE['<{watermark}prestashop>watermark_8d7c07bcea7e80d072308e4bd4cc37b0'] = 'Protejeaza-ti imaginile prin suprapunerea unei imagini de protectie.';
-$_MODULE['<{watermark}prestashop>watermark_69a1a3ad8dd5da6db3c4da838a0cf9c7'] = 'Sigur doresti sa va stergeti detaliile?';
+$_MODULE['<{watermark}prestashop>watermark_69a1a3ad8dd5da6db3c4da838a0cf9c7'] = 'Sigur doresti sa va stergi detaliile?';
 $_MODULE['<{watermark}prestashop>watermark_2d38fba67823b23e2d5c93b5b8a5d707'] = 'Pentru ca acest modul sa functioneze corect, trebuie incarcata o imagine de protectie.';
 $_MODULE['<{watermark}prestashop>watermark_842262778d363362c95aa210c9752c25'] = 'Valoarea opacitatii este necesara.';
 $_MODULE['<{watermark}prestashop>watermark_9d1e7d4f41c6bcac92fa25f7f615c43e'] = 'Opacitatea nu este in marja permisa.';
@@ -30,7 +30,7 @@ $_MODULE['<{watermark}prestashop>watermark_7c60ca861e403259d8a41b5e6577788c'] = 
 $_MODULE['<{watermark}prestashop>watermark_b28354b543375bfa94dabaeda722927f'] = 'sus';
 $_MODULE['<{watermark}prestashop>watermark_71f262d796bed1ab30e8a2d5a8ddee6f'] = 'jos';
 $_MODULE['<{watermark}prestashop>watermark_27bd5f34e4375356363346e90dbbe2ca'] = 'Alege tipurile de imagini pentru protectia prin suprascriere cu imagine:';
-$_MODULE['<{watermark}prestashop>watermark_b48748047a9eed520aa26ae2a8b62905'] = 'Clientii conectati vad imaginile fara watermark';
+$_MODULE['<{watermark}prestashop>watermark_b48748047a9eed520aa26ae2a8b62905'] = 'Clientii conecteaza vad imaginile fara watermark';
 $_MODULE['<{watermark}prestashop>watermark_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Activ';
 $_MODULE['<{watermark}prestashop>watermark_b9f5c797ebbf55adccdd8539a65a0241'] = 'Dezactivat';
 $_MODULE['<{watermark}prestashop>watermark_c9cc8cce247e49bae79f15173ce97354'] = 'Salveaza';

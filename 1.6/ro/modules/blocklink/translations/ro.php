@@ -5,7 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{blocklink}prestashop>blocklink_fc738410141e4ec0c0319a81255a1431'] = 'Bloc: Linkuri';
 $_MODULE['<{blocklink}prestashop>blocklink_baa2ae9622a47c3217d725d1537e5187'] = 'Adauga un bloc cu linkuri aditionale.';
-$_MODULE['<{blocklink}prestashop>blocklink_8d85948ef8fda09c2100de886e8663e5'] = 'Sunteti sigur ca vreti sa stergi toate linkurile?';
+$_MODULE['<{blocklink}prestashop>blocklink_8d85948ef8fda09c2100de886e8663e5'] = 'Esti sigur ca vrei sa stergi toate linkurile?';
 $_MODULE['<{blocklink}prestashop>blocklink_33476c93475bba83cdcaac18e09b95ec'] = 'Acest modul trebuie fixat intr-o coloana, dar tema ta nu implementeaza niciuna';
 $_MODULE['<{blocklink}prestashop>blocklink_666f6333e43c215212b916fef3d94af0'] = 'Trebuie completate toate campurile';
 $_MODULE['<{blocklink}prestashop>blocklink_9394bb34611399534ffac4f0ece96b7f'] = 'Adresa URL nevalida';
@@ -24,7 +24,7 @@ $_MODULE['<{blocklink}prestashop>blocklink_63a11faa3a692d4e00fa8e03bbe8a0d6'] = 
 $_MODULE['<{blocklink}prestashop>blocklink_e6b391a8d2c4d45902a23a8b6585703d'] = 'URL';
 $_MODULE['<{blocklink}prestashop>blocklink_387a8014f530f080bf2f3be723f8c164'] = 'Lista legaturilor';
 $_MODULE['<{blocklink}prestashop>blocklink_58e9b25bb2e2699986a3abe2c92fc82e'] = 'Adauga o legatura noua';
-$_MODULE['<{blocklink}prestashop>blocklink_e124f0a8a383171357b9614a45349fb5'] = 'Deschideti in o noua fereastra';
+$_MODULE['<{blocklink}prestashop>blocklink_e124f0a8a383171357b9614a45349fb5'] = 'Deschide in fereastra noua';
 $_MODULE['<{blocklink}prestashop>blocklink_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Activ';
 $_MODULE['<{blocklink}prestashop>blocklink_b9f5c797ebbf55adccdd8539a65a0241'] = 'Dezactivat';
 $_MODULE['<{blocklink}prestashop>blocklink_c9cc8cce247e49bae79f15173ce97354'] = 'Salveaza';

@@ -18,7 +18,7 @@ $_MODULE['<{newsletter}prestashop>newsletter_3136b84457870341f29f741f7a07d325'] 
 $_MODULE['<{newsletter}prestashop>newsletter_82e5e0bc0f9c776c98253d569c111c0f'] = 'Nu exista clienti conform criteriilor alese!';
 $_MODULE['<{newsletter}prestashop>newsletter_644ecc2486a059ca16b001a77909bf40'] = 'Fisierul .CSV a fost exportat cu succes: %d clienti gasiti.';
 $_MODULE['<{newsletter}prestashop>newsletter_48e3d5f66961b621c78f709afcd7d437'] = 'Descarca fisierul';
-$_MODULE['<{newsletter}prestashop>newsletter_dca37b874cf34bd5ebcf1c2fdc59a8b4'] = 'ATENTIE: La deschiderea fisierului .csv cu Excel, alegeti codificarea UTF-8 pentru a evita caractere ciudate.';
+$_MODULE['<{newsletter}prestashop>newsletter_dca37b874cf34bd5ebcf1c2fdc59a8b4'] = 'ATENTIE: La deschiderea fisierului .csv cu Excel, alege codificarea UTF-8 pentru a evita caractere ciudate.';
 $_MODULE['<{newsletter}prestashop>newsletter_b40866b115d74009183e06fc86b5c014'] = 'Eroare: Acces limitat la scriere';
 $_MODULE['<{newsletter}prestashop>newsletter_81573e0ea79138f02fd2cee94786d7e9'] = 'Eroare: nu se poate scrie';
 $_MODULE['<{newsletter}prestashop>newsletter_73059f9530a1a37563150df4dea4bb70'] = 'Toti abonatii';

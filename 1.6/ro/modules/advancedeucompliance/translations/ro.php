@@ -5,7 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_d602cd3160dcb3b836420a2e5683cb0f'] = 'Conformitate avansata cu prevederile UE';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_a0445c0b106a1b48b719fc6fd5a734e9'] = 'Acest modul ajuta comerciantii sa se conformeze legislatiei europene a comertului online.';
-$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_bb8956c67b82c7444a80c6b2433dd8b4'] = 'Sigur doriti dezinstalarea acestui modul?';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_bb8956c67b82c7444a80c6b2433dd8b4'] = 'Sigur doresti dezinstalarea acestui modul?';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_3b528a3fe35bcd29ad2ab0e77fe01d4d'] = 'Nu a putut fi instalat noul carlig';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_cac77d4c7de337f13ad1e89a8cecbc7f'] = 'Termen de livrare: 1-3 saptamani';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_eeb992239a8454067cd7a47bbf0df359'] = 'Termen de livrare: 3-6 saptamani';
@@ -80,8 +80,8 @@ $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_a2bfc699a0a4b72
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_fcc61e05767ec3f1864c2f78086a596c'] = '-- Alege pagina CMS asociata --';
 $_MODULE['<{advancedeucompliance}prestashop>adminaeuccontroller_d602cd3160dcb3b836420a2e5683cb0f'] = 'Conformitate avansata cu prevederile UE';
 $_MODULE['<{advancedeucompliance}prestashop>email_attachments_form_c49b8914d58716ebb70e35e5a08db6dd'] = 'Includere in continutul de e-mail';
-$_MODULE['<{advancedeucompliance}prestashop>email_attachments_form_72c086dfe3fe34e1cda54e47b83a635c'] = 'Aceasta sectiune iti permite sa includeti informatii din sectiunea "Administrare de Continut Legal" de mai sus la sfarsitul e-mail-urilor trimise de magazinul tau.';
-$_MODULE['<{advancedeucompliance}prestashop>email_attachments_form_96103eb82bd7f00ef55fac85c2f0a410'] = 'Pentru fiecare tip de e-mail poti defini ce continut doresti sa includeti.';
+$_MODULE['<{advancedeucompliance}prestashop>email_attachments_form_72c086dfe3fe34e1cda54e47b83a635c'] = 'Aceasta sectiune iti permite sa incluzi informatii din sectiunea "Administrare de Continut Legal" de mai sus la sfarsitul e-mail-urilor trimise de magazinul tau.';
+$_MODULE['<{advancedeucompliance}prestashop>email_attachments_form_96103eb82bd7f00ef55fac85c2f0a410'] = 'Pentru fiecare tip de e-mail poti defini ce continut doresti sa incluzi.';
 $_MODULE['<{advancedeucompliance}prestashop>email_attachments_form_e29252902fd4eaee6279ea5b60bc9092'] = 'Sabloane de e-mail';
 $_MODULE['<{advancedeucompliance}prestashop>email_attachments_form_c9cc8cce247e49bae79f15173ce97354'] = 'Salveaza';
 $_MODULE['<{advancedeucompliance}prestashop>legal_cms_manager_form_c47ab33401eaded8f1cb361a05f20e14'] = 'Administrare de continut legal';

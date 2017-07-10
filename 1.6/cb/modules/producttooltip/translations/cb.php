@@ -14,7 +14,7 @@ $_MODULE['<{producttooltip}prestashop>producttooltip_00d23a76e43b46dae9ec7aa9dcb
 $_MODULE['<{producttooltip}prestashop>producttooltip_b9f5c797ebbf55adccdd8539a65a0241'] = 'Desactivado';
 $_MODULE['<{producttooltip}prestashop>producttooltip_18522b8438c82ae472267ff57e8db76f'] = 'Duración del periodo';
 $_MODULE['<{producttooltip}prestashop>producttooltip_3367d7aeafaae0cfdb8334d6e442a58f'] = 'Establezca la duración del periodo de referencia.';
-$_MODULE['<{producttooltip}prestashop>producttooltip_946e06ba50194b981f04263795ed1433'] = 'Por ejemplo, si pones 30 minutos, el módulo mostrará el número de visitantes en los últimos 30 minutos.';
+$_MODULE['<{producttooltip}prestashop>producttooltip_946e06ba50194b981f04263795ed1433'] = 'Por ejemplo, si lo estableces a 30 minutos, el módulo mostrará el número de visitantes en los últimos 30 minutos.';
 $_MODULE['<{producttooltip}prestashop>producttooltip_640fd0cc0ffa0316ae087652871f4486'] = 'minutos';
 $_MODULE['<{producttooltip}prestashop>producttooltip_788b212e2524ec85463d68861342693c'] = 'Fecha del último pedido';
 $_MODULE['<{producttooltip}prestashop>producttooltip_43e5b083da426132daf3a9fe05362da3'] = 'Mostrar la última vez que se compró este producto.';
@@ -23,9 +23,9 @@ $_MODULE['<{producttooltip}prestashop>producttooltip_3829b2b4ac783c8e53a25f5cd00
 $_MODULE['<{producttooltip}prestashop>producttooltip_7f2a0ec5efa8b7aaa2d814df0d18b722'] = 'No mostrar los eventos mayores a';
 $_MODULE['<{producttooltip}prestashop>producttooltip_44fdec47036f482b68b748f9d786801b'] = 'días';
 $_MODULE['<{producttooltip}prestashop>producttooltip_c9cc8cce247e49bae79f15173ce97354'] = 'Guardar';
-$_MODULE['<{producttooltip}prestashop>producttooltip_265e0fd0901e35cae9978e2319b6c32e'] = '%d persona está actualmente viendo este producto.';
+$_MODULE['<{producttooltip}prestashop>producttooltip_265e0fd0901e35cae9978e2319b6c32e'] = '%d persona está viendo este producto.';
 $_MODULE['<{producttooltip}prestashop>producttooltip_858d0bcd440ff0d1cc1e6bd53d4fe9f6'] = '%d personas están viendo este producto.';
-$_MODULE['<{producttooltip}prestashop>producttooltip_b2ccdeedefb87a6f4c52b0926b030d65'] = 'Última vez que fue comprado este producto: ';
+$_MODULE['<{producttooltip}prestashop>producttooltip_b2ccdeedefb87a6f4c52b0926b030d65'] = 'Última vez que se compró este producto: ';
 $_MODULE['<{producttooltip}prestashop>producttooltip_f934c297c7d902f5871edb4a12acbb84'] = 'Última vez que se añadió este producto al carrito: ';
 
 

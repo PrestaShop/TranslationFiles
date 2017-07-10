@@ -7,7 +7,7 @@ $_MODULE['<{cronjobs}prestashop>cronjobsforms_c9cc8cce247e49bae79f15173ce97354']
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_d4169d52732e9ae8df56d2cbcad81a94'] = 'Descrierea sarcinii';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_70d4968bea9a6e76c0333904b9d385e4'] = 'Actualizeaza ratele de schimb valutar';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_0eff773cf33456a033e913f6ed18045c'] = 'Tinta linkului';
-$_MODULE['<{cronjobs}prestashop>cronjobsforms_07045abc579615634804f42bc0b2b4bb'] = 'Introduceti o descriere pentru aceasta sarcina.';
+$_MODULE['<{cronjobs}prestashop>cronjobsforms_07045abc579615634804f42bc0b2b4bb'] = 'Introduci o descriere pentru aceasta sarcina.';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_43773e69610c99be6c15daa4a2036443'] = 'Definiti linkul pentru sarcina de cron.';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_3a21e2309e8e6aa3759e466154508f2c'] = 'Noteaza ca modulul accepta numai adrese URL absolute! In acelasi timp, linkul trebuie sa fie pe acelasi domeniu cu magazinul.';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_be938fb8c5582085599dfa95368fb489'] = 'Frecventa sarcinii';
@@ -18,7 +18,7 @@ $_MODULE['<{cronjobs}prestashop>cronjobsforms_65f768d204a3118f426c756056bef1e1']
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_f4f70727dc34561dfde1a3c529b6205c'] = 'Setari';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_b3419e63398ccc41c062f36631bebd9a'] = 'Modul de administrare a sarcinilor';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_972e73b7a882d0802a4e3a16946a2f94'] = 'Standard';
-$_MODULE['<{cronjobs}prestashop>cronjobsforms_eaf1dc6d93a18adb2619233d8e99c197'] = 'Folositi serviciul web de sarcini de cron din Prestashop pentru a va executa sarcinile.';
+$_MODULE['<{cronjobs}prestashop>cronjobsforms_eaf1dc6d93a18adb2619233d8e99c197'] = 'Foloseste serviciul web de sarcini de cron din Prestashop pentru a executa sarcinile.';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_9b6545e4cea9b4ad4979d41bb9170e2b'] = 'Inainteaza';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_b6610b26530c9ee3d7bc4a478cf35299'] = 'Numai pentru utilizatori avansati: folosesti propriul tau administrator pentru crontab in loc de serviciul de sarcini de cron din Prestashop.';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_2257d36bcb68362b24cf74f626bac599'] = 'Modul Avansat va permte sa folosesti propriul tau administrator pentru crontab in loc de serviciul web de sarcini de cron din Prestashop.';

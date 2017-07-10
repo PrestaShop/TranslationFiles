@@ -7,7 +7,7 @@ $_MODULE['<{referralprogram}prestashop>program_36c94bd456cf8796723ad09eac258aef'
 $_MODULE['<{referralprogram}prestashop>program_d95cf4ab2cbf1dfb63f066b50558b07d'] = 'Contul meu';
 $_MODULE['<{referralprogram}prestashop>program_6540b502e953f4c05abeb8f234cd50bf'] = 'Program de Recomandare';
 $_MODULE['<{referralprogram}prestashop>program_6b31baf25848e7a6563ecc3946626c80'] = 'Program de recomandare';
-$_MODULE['<{referralprogram}prestashop>program_dbc65cd60abde51277c2881ce915a225'] = 'Trebui sa fiti de acord cu conditiile programului de recomandare!';
+$_MODULE['<{referralprogram}prestashop>program_dbc65cd60abde51277c2881ce915a225'] = 'Trebui sa fii de acord cu conditiile programului de recomandare!';
 $_MODULE['<{referralprogram}prestashop>program_83fc792f687bc45d75ac35c84c721a26'] = 'Cel putin o adresa de e-mail nu este valida!';
 $_MODULE['<{referralprogram}prestashop>program_1019072b9e450c8652590cda2db45e49'] = 'Cel putin un nume sau un prenume nu sunt valide!';
 $_MODULE['<{referralprogram}prestashop>program_ff2d2e45b90b4426c3bb14bd56b95a2d'] = 'O persoana cu aceasta adresa de e-mail a mai fost deja sponzorizata de un prieten!';
@@ -26,7 +26,7 @@ $_MODULE['<{referralprogram}prestashop>program_a44fa3fcad7f0f3ef4b6d77b74ca66f2'
 $_MODULE['<{referralprogram}prestashop>program_8d3ae82bfa996855cdf841dd9e15a7e3'] = 'Este usor si rapid. Doar completeaza numele de familie, prenumele si adresele de e-mail ale prietenilor in campurile de mai jos.';
 $_MODULE['<{referralprogram}prestashop>program_666149e67589bd65ed1e787932cd74f5'] = 'Cand unul dintre ei da cel putin %d comenzi, ';
 $_MODULE['<{referralprogram}prestashop>program_def1ac1f353beef52f7e86a30cae01c4'] = 'Cand unul dintre ei da cel putin %d comanda, ';
-$_MODULE['<{referralprogram}prestashop>program_8d122aed0fe2c5076e4941bfbd53fe04'] = 'el sau ea va primi un cupon de %1$s, iar dumneavoastra veti primi propriul cupon in valoare de %1$s.';
+$_MODULE['<{referralprogram}prestashop>program_8d122aed0fe2c5076e4941bfbd53fe04'] = 'el sau ea va primi un cupon de %1$s, iar tu vei primi propriul cupon in valoare de %1$s.';
 $_MODULE['<{referralprogram}prestashop>program_8d3f5eff9c40ee315d452392bed5309b'] = 'Nume de familie';
 $_MODULE['<{referralprogram}prestashop>program_20db0bfeecd8fe60533206a2b5e9891a'] = 'Prenume';
 $_MODULE['<{referralprogram}prestashop>program_1e884e3078d9978e216a027ecd57fb34'] = 'Email';
@@ -47,7 +47,7 @@ $_MODULE['<{referralprogram}prestashop>program_3e717a04ff77cd5fa068d8ad9d3facc8'
 $_MODULE['<{referralprogram}prestashop>program_9c9d4ed270f02c72124702edb192ff19'] = 'Reaminteste prietenilor';
 $_MODULE['<{referralprogram}prestashop>program_161133b6c2d0f520d9221ec8180c16e2'] = 'Nu ai invitatii neonorate.';
 $_MODULE['<{referralprogram}prestashop>program_26ef5cd4989dd9b7a6e81a22312b06fd'] = 'Nu ai sponsorizat niciun prieten, inca.';
-$_MODULE['<{referralprogram}prestashop>program_193f3d8bbaceba40499cab1a3545e9e8'] = 'Aici ai lista prietenilor sponsorizati care au acceptat invatitatia:';
+$_MODULE['<{referralprogram}prestashop>program_193f3d8bbaceba40499cab1a3545e9e8'] = 'Aici ai lista prietenilor sponsorizati care au acceptat invitatia:';
 $_MODULE['<{referralprogram}prestashop>program_3c648ba41cfb45f13b083a9cbbacdfdf'] = 'Data inscrierii';
 $_MODULE['<{referralprogram}prestashop>program_8d4e5c2bc4c3cf67d2b59b263a707cb6'] = 'Niciunul din prietenii sponsorizati nu a acceptat inca invitatia.';
 $_MODULE['<{referralprogram}prestashop>program_0b3db27bc15f682e92ff250ebb167d4b'] = 'Inapoi la contul tau';

@@ -8,7 +8,7 @@ $_MODULE['<{sekeywords}prestashop>sekeywords_8effa630c1740a748801b881acb90fa6'] 
 $_MODULE['<{sekeywords}prestashop>sekeywords_6602bbeb2956c035fb4cb5e844a4861b'] = 'Ghid';
 $_MODULE['<{sekeywords}prestashop>sekeywords_9ed50bd6876a9273f2192c224b87657b'] = 'Identifica cuvinte cheie externe ale motorului de cautare';
 $_MODULE['<{sekeywords}prestashop>sekeywords_7acbda50735929f05f6f463e05bc7ead'] = 'Aceasta este una dintre cele mai comune modalitati de a gasi un site web prin intermediul unui motor de cautare.';
-$_MODULE['<{sekeywords}prestashop>sekeywords_4ad084c0b816ff9278765a00720caf32'] = 'Identificarea celor mai populare cuvinte cheie introduse de noii vizitatorii iti permite sa vedeti produsele ce ar trebui sa puse in fata, daca doresti sa obtineti o mai buna vizibilitate in motoarele de cautare.';
+$_MODULE['<{sekeywords}prestashop>sekeywords_4ad084c0b816ff9278765a00720caf32'] = 'Identificarea celor mai populare cuvinte cheie introduse de noii vizitatorii iti permite sa vezi produsele ce ar trebui sa puse in fata, daca doresti sa obtii o mai buna vizibilitate in motoarele de cautare.';
 $_MODULE['<{sekeywords}prestashop>sekeywords_359f9e79e746fa9f684e5cda9e60ca2e'] = 'Cum functioneaza?';
 $_MODULE['<{sekeywords}prestashop>sekeywords_ec2184245585ba979912af9e34d738c6'] = 'Atunci cand un vizitator intra pe website-ul tau, serverul web noteaza URL-ul site-ului de unde a venit el/ea. Acest modul analizeaza apoi URL-ul, si daca gaseste o trimitere la un motor de cautare cunoscut, gaseste cuvintele cheie in el.';
 $_MODULE['<{sekeywords}prestashop>sekeywords_ef79a74a2fd296e19e8cc58cdae91d43'] = 'Acest modul poate recunoaste toate motoarele de cautare mentionate in statisticile PrestaShop/ pagina motorului de cautare  - si poti adauga mai mult!';

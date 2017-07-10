@@ -15,7 +15,7 @@ $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_022bb0995e3256abeeac1788a5e2c5b
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e24e88b590807c2816be15abd7c7dbbc'] = 'Legatura a fost eliminata.';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e418ee8626f7941239c5b7a0880691ae'] = 'Nu s-a putut sterge legatura pentru urmatoarele magazine: %s';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_beb4f951c292ec9218473ffe5f59849d'] = 'Legatura a fost modificata.';
-$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_b1a23c1a76918c10acc27bfa60798c42'] = 'Elementele meniului nu pot fi administrate in contextul "Toate magazinele" sau "Grup de magazine", este necesar sa alegi magazinul concret unde doresti sa aduceti modificari';
+$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_b1a23c1a76918c10acc27bfa60798c42'] = 'Elementele meniului nu pot fi administrate in contextul "Toate magazinele" sau "Grup de magazine", este necesar sa alegi magazinul concret unde doresti sa modifici';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_298b615220606d42b6ac60269df0d321'] = 'Modificarile vor fi aplicate magazinului: %s';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_aef3662e6419ddaaa0a31df70e3b6557'] = 'Modificarile vor fi aplicate acestui grup: %s';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_dd25f68471362f6f5f183d6158d67854'] = 'Modificarile vor fi aplicate tuturor magazinelor';

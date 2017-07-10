@@ -14,8 +14,8 @@ $_MODULE['<{statsbestproducts}prestashop>statsbestproducts_25f4b31e8f3baec8b2f26
 $_MODULE['<{statsbestproducts}prestashop>statsbestproducts_7664a37e0cc56aaf39aebf2edbd3f98e'] = 'Páginas vistas';
 $_MODULE['<{statsbestproducts}prestashop>statsbestproducts_7bd5825a187064017975513b95d7f7de'] = 'Cantidad disponible para la venta';
 $_MODULE['<{statsbestproducts}prestashop>statsbestproducts_4d3d769b812b6faa6b76e1a8abaece2d'] = 'Activo';
-$_MODULE['<{statsbestproducts}prestashop>statsbestproducts_950cf49f8ca529be64c924f16fcb5404'] = 'Mejores productos';
-$_MODULE['<{statsbestproducts}prestashop>statsbestproducts_15429f69e40860368f6e113e4cba5601'] = 'Añade una lista de los productos más vendidos al panel de control de estadísticas.';
+$_MODULE['<{statsbestproducts}prestashop>statsbestproducts_950cf49f8ca529be64c924f16fcb5404'] = 'Productos más vendidos';
+$_MODULE['<{statsbestproducts}prestashop>statsbestproducts_15429f69e40860368f6e113e4cba5601'] = 'Añade una lista de los productos más vendidos al Panel de control de Estadísticas.';
 $_MODULE['<{statsbestproducts}prestashop>statsbestproducts_998e4c5c80f27dec552e99dfed34889a'] = 'Exportar CSV';
 
 

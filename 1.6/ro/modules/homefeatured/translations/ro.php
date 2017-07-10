@@ -16,7 +16,7 @@ $_MODULE['<{homefeatured}prestashop>homefeatured_1b73f6b70a0fcd38bbc6a6e4b67e301
 $_MODULE['<{homefeatured}prestashop>homefeatured_b773a38d8c456f7b24506c0e3cd67889'] = 'Categoria din care sa fie alese produse pentru a fi afisate';
 $_MODULE['<{homefeatured}prestashop>homefeatured_0db2d53545e2ee088cfb3f45e618ba68'] = 'Alege ID-ul categoriei de produse pe care doresti sa le afisezi pe homepage (implicit: 2 pentru "Home").';
 $_MODULE['<{homefeatured}prestashop>homefeatured_49417670345173e7b95018b7bf976fc7'] = 'Afiseaza aleator produsele recomandate';
-$_MODULE['<{homefeatured}prestashop>homefeatured_3c12c1068fb0e02fe65a6c4fc40bc29a'] = 'Activeaza daca doriti afisarea aleatorie a produselor (implicit: nu).';
+$_MODULE['<{homefeatured}prestashop>homefeatured_3c12c1068fb0e02fe65a6c4fc40bc29a'] = 'Activeaza daca doresti afisarea aleatorie a produselor (implicit: nu).';
 $_MODULE['<{homefeatured}prestashop>homefeatured_93cba07454f06a4a960172bbd6e2a435'] = 'Da';
 $_MODULE['<{homefeatured}prestashop>homefeatured_bafd7322c6e97d25b6299b5d6fe8920b'] = 'Nu';
 $_MODULE['<{homefeatured}prestashop>homefeatured_c9cc8cce247e49bae79f15173ce97354'] = 'Salveaza';

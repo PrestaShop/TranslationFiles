@@ -15,7 +15,7 @@ $_MODULE['<{statssales}prestashop>statssales_5cc6f5194e3ef633bcab4869d79eeefa'] 
 $_MODULE['<{statssales}prestashop>statssales_c3987e4cac14a8456515f0d200da04ee'] = 'Todos los países';
 $_MODULE['<{statssales}prestashop>statssales_d7778d0c64b6ba21494c97f77a66885a'] = 'Filtrar';
 $_MODULE['<{statssales}prestashop>statssales_9ccb8353e945f1389a9585e7f21b5a0d'] = 'Pedidos realizados:';
-$_MODULE['<{statssales}prestashop>statssales_156e5c5872c9af24a5c982da07a883c2'] = 'Productos pedidos:';
+$_MODULE['<{statssales}prestashop>statssales_156e5c5872c9af24a5c982da07a883c2'] = 'Productos comprados:';
 $_MODULE['<{statssales}prestashop>statssales_998e4c5c80f27dec552e99dfed34889a'] = 'Exportar CSV';
 $_MODULE['<{statssales}prestashop>statssales_ec3e48bb9aa902ba2ad608547fdcbfdc'] = 'Ventas:';
 $_MODULE['<{statssales}prestashop>statssales_f6825178a5fef0a97dacf963409829f0'] = 'Puedes ver la distribución de estados de compra a continuación.';

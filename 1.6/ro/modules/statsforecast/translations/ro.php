@@ -30,7 +30,7 @@ $_MODULE['<{statsforecast}prestashop>statsforecast_5a9e532b24379dca2ab0e973172a7
 $_MODULE['<{statsforecast}prestashop>statsforecast_fc26e55e0993a75e892175deb02aae15'] = 'Cosuri';
 $_MODULE['<{statsforecast}prestashop>statsforecast_a34f9feb654595d53807df17b041d804'] = 'Un calcul statistic simplu care estimeaza valoarea monetara a vizitatorilor tai:';
 $_MODULE['<{statsforecast}prestashop>statsforecast_42de3b7ec2450ded7d6c600b359def52'] = 'Vizitatorii tai au dat comenzi cu o valoare medie de :';
-$_MODULE['<{statsforecast}prestashop>statsforecast_c06cbe5e69067225dbcab04fb85200fa'] = 'Clientii inregistrati au dat comenzi cu o valoare medie de :';
+$_MODULE['<{statsforecast}prestashop>statsforecast_c06cbe5e69067225dbcab04fb85200fa'] = 'Clientii inregistrati au dat comenzi cu o valoare medie de:';
 $_MODULE['<{statsforecast}prestashop>statsforecast_3fa6443ce3f838b6901b70cd812abf0d'] = 'Distributie plata';
 $_MODULE['<{statsforecast}prestashop>statsforecast_cbb3a9a8d0b10c0618904ce4ecb08716'] = 'Valorile includ taxele, astfel incat sa poti obtine o estimare a comisionului aferent metodei de plata.';
 $_MODULE['<{statsforecast}prestashop>statsforecast_e6e42855066e7a3ae050b2c698021b14'] = 'Zona:';

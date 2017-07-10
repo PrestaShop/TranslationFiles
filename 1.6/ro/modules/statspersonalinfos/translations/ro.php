@@ -4,13 +4,13 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_1b94af23fd8ea879910a6307460ebba4'] = 'Informatii ale clientilor inregistrati';
-$_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_b0cb4ea4e89c2107cb100be8417fd94e'] = 'Adauga informatii despre clientii inregistrati (cum ar fi sexul si varsta) la tabloul de bord al Statisticilor.';
+$_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_b0cb4ea4e89c2107cb100be8417fd94e'] = 'Adauga informatii despre clientii inregistrati (cum ar fi sexul si varsta) pe tabloul de bord in Statistici.';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_6602bbeb2956c035fb4cb5e844a4861b'] = 'Ghid';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_3ca26e413e485538a7f3e610c0324636'] = 'Tinteste-ti audienta';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_74036f0101d2f3f9b082b8de981c18dc'] = 'Pentru ca fiecare mesaj sa aiba un impact trebuie sa stii cui ii este adresat';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_daa0ad6a8b07a64f18b26e0f5e1255bd'] = 'Definirea audientei tinta este esentiala pentru alegerea uneltelor potrivite pentru castigarea ei.';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_8044a3d0d61282c4c425cd0da5432f11'] = 'Este recomandat sa limitezi actiunea la un grup -- sau la grupuri -- de clienti.';
-$_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_05f074d112460c990203ff2f17a7d46d'] = 'Stocarea informatiilor despre clientii inregistrati iti permite sa definiti cu exactitate profilul clientului astfel incat sa va poti adapta ofertele speciale si promotiile.';
+$_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_05f074d112460c990203ff2f17a7d46d'] = 'Stocarea informatiilor despre clientii inregistrati iti permite sa definesti cu exactitate profilul clientului astfel incat sa iti poti adapta ofertele speciale si promotiile.';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_9dc739320e2523183e8b31f395e1e489'] = 'Va poti creste vanzarile prin:';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_2f619981f1abd95da0907766cc409be9'] = 'Lansarea de campanii tinta de publicitate.';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_428dc481e13dad2818d8088da7362dd2'] = 'Contacteaza-ti un grup de clienti via e-mail sau noutati.';

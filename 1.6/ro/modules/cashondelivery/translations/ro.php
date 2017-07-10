@@ -15,7 +15,7 @@ $_MODULE['<{cashondelivery}prestashop>validation_46b9e3665f187c739c55983f757ccda
 $_MODULE['<{cashondelivery}prestashop>confirmation_2e2117b7c81aa9ea6931641ea2c6499f'] = 'Comanda ta din';
 $_MODULE['<{cashondelivery}prestashop>confirmation_75fbf512d744977d62599cc3f0ae2bb4'] = 'este completa.';
 $_MODULE['<{cashondelivery}prestashop>confirmation_8861c5d3fa54b330d1f60ba50fcc4aab'] = 'Ai ales sa platesti in sistem ramburs.';
-$_MODULE['<{cashondelivery}prestashop>confirmation_e6dc7945b557a1cd949bea92dd58963e'] = 'Comanda ta va va fi trimisa in cel mai scurt timp.';
+$_MODULE['<{cashondelivery}prestashop>confirmation_e6dc7945b557a1cd949bea92dd58963e'] = 'Comanda ta te va fi trimisa in cel mai scurt timp.';
 $_MODULE['<{cashondelivery}prestashop>confirmation_0db71da7150c27142eef9d22b843b4a9'] = 'Pentru orice intrebari sau informatii suplimentare, ia legatura cu';
 $_MODULE['<{cashondelivery}prestashop>confirmation_64430ad2835be8ad60c59e7d44e4b0b1'] = 'serviciul de relatii cu clientii';
 $_MODULE['<{cashondelivery}prestashop>payment_b7ada96a0da7ee7fb5371cca0b036d5c'] = 'Plateste in sistem ramburs';

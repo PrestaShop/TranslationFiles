@@ -4,12 +4,12 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{statscheckup}prestashop>statscheckup_e7a908d79d3758c911692ba791da9c70'] = 'Evaluación del catálogo';
-$_MODULE['<{statscheckup}prestashop>statscheckup_11c7290f636a816cbcffb9059958b5c0'] = 'Añade una evaluación rápida de la calidad de tu catálogo al panel de control de estadísticas.';
+$_MODULE['<{statscheckup}prestashop>statscheckup_11c7290f636a816cbcffb9059958b5c0'] = 'Añade una evaluación rápida de la calidad del catálogo de tu tienda al Panel de Control de Estadísticas.';
 $_MODULE['<{statscheckup}prestashop>statscheckup_20015706a8cbd457cbb6ea3e7d5dc9b3'] = 'Configuración actualizada.';
 $_MODULE['<{statscheckup}prestashop>statscheckup_7ff3e75ce6aca348bc513ed3d5882946'] = 'malo';
 $_MODULE['<{statscheckup}prestashop>statscheckup_b1897515d548a960afe49ecf66a29021'] = 'Promedio';
 $_MODULE['<{statscheckup}prestashop>statscheckup_0c6ad70beb3a7e76c3fc7adab7c46acc'] = 'bueno';
-$_MODULE['<{statscheckup}prestashop>statscheckup_619a1efbedc7855aa27c0a50579c104e'] = 'Ningún producto encontrado';
+$_MODULE['<{statscheckup}prestashop>statscheckup_619a1efbedc7855aa27c0a50579c104e'] = 'No se ha encontrado ningún producto.';
 $_MODULE['<{statscheckup}prestashop>statscheckup_8bc84316c4078bf66723fd019616d920'] = 'Descripciones';
 $_MODULE['<{statscheckup}prestashop>statscheckup_5cd1930570823694abdd596f29c8943d'] = 'caracteres (sin HTML)';
 $_MODULE['<{statscheckup}prestashop>statscheckup_fff0d600f8a0b5e19e88bfb821dd1157'] = 'Imágenes';

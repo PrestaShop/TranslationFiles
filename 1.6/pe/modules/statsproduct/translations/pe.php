@@ -27,9 +27,9 @@ $_MODULE['<{statsproduct}prestashop>statsproduct_3601146c4e948c32b6424d2c0a7f011
 $_MODULE['<{statsproduct}prestashop>statsproduct_87017c9259838bb0918a2ab4f96016c0'] = 'Ventas cruzadas';
 $_MODULE['<{statsproduct}prestashop>statsproduct_df644ae155e79abf54175bd15d75f363'] = 'Artículo';
 $_MODULE['<{statsproduct}prestashop>statsproduct_2a0440eec72540c5b30d9199c01f348c'] = 'Cantidad vendida';
-$_MODULE['<{statsproduct}prestashop>statsproduct_844c29394eea07066bb2efefc35784ec'] = 'Precio medio';
+$_MODULE['<{statsproduct}prestashop>statsproduct_844c29394eea07066bb2efefc35784ec'] = 'Precio promedio';
 $_MODULE['<{statsproduct}prestashop>statsproduct_818f7defe18dbc97da82d054831df2ad'] = 'Haga clic en un producto para acceder a sus estadísticas.';
-$_MODULE['<{statsproduct}prestashop>statsproduct_0173374ac20f5843d58b553d5b226ef6'] = 'Elija una categoría';
+$_MODULE['<{statsproduct}prestashop>statsproduct_0173374ac20f5843d58b553d5b226ef6'] = 'Elige una categoría';
 $_MODULE['<{statsproduct}prestashop>statsproduct_b1c94ca2fbc3e78fc30069c8d0f01680'] = 'Todas';
 $_MODULE['<{statsproduct}prestashop>statsproduct_6ccf03bc05e4b749b74b5d577c7e7d3a'] = 'Disponibilidad de los productos';
 $_MODULE['<{statsproduct}prestashop>statsproduct_63d5049791d9d79d86e9a108b0a999ca'] = 'Referencia';
