@@ -5,7 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_e0de5a06213f21c55ca3283c009e0907'] = 'Bloc: Confidentialitatea datelor clientilor';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_f192f208f0bc97af4c5213eee3e78793'] = 'Adauga un bloc care afiseaza un mesaj despre politica de confidentialitate a datelor clientului.';
-$_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_20015706a8cbd457cbb6ea3e7d5dc9b3'] = 'Configureazaa a fost actualizata';
+$_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_20015706a8cbd457cbb6ea3e7d5dc9b3'] = 'Configurarea a fost actualizata';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_fb32badede7c8613fddb8502d847c18b'] = 'Daca esti de acord cu termenii din mesajul de confidentialitate date client, te rugam sa bifezi casuta de mai jos.';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_f4f70727dc34561dfde1a3c529b6205c'] = 'Setari';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_9a730b88a32c2932d18b8b6043cc4fb7'] = 'Afiseaza la formularul de creare a contului';

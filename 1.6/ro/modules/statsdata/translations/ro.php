@@ -5,7 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{statsdata}prestashop>statsdata_a51950bf91ba55cd93a33ce3f8d448c2'] = 'Data mining pentru statistici';
 $_MODULE['<{statsdata}prestashop>statsdata_c77dfd683d0d76940e5e04cb24e8bce1'] = 'Acest modul trebuie sa fie activat pentru a folosi statisticile.';
-$_MODULE['<{statsdata}prestashop>statsdata_20015706a8cbd457cbb6ea3e7d5dc9b3'] = 'Configureazaa a fost actualizata';
+$_MODULE['<{statsdata}prestashop>statsdata_20015706a8cbd457cbb6ea3e7d5dc9b3'] = 'Configurarea a fost actualizata';
 $_MODULE['<{statsdata}prestashop>statsdata_f4f70727dc34561dfde1a3c529b6205c'] = 'Setari';
 $_MODULE['<{statsdata}prestashop>statsdata_1a5b75c4be3c0100c99764b21e844cc8'] = 'Salveaza vizualizarile de pagini pentru fiecare client';
 $_MODULE['<{statsdata}prestashop>statsdata_73d55f0a158656cbfabab45a3e151d73'] = 'Stocarea vizualizarilor de pagina a clientilor foloseste o multime de resurse CPU si spatiu in baza de date. Activeaza numai in cazul in care server-ul tau este capabil.';

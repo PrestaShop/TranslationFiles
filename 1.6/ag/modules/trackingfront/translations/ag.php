@@ -4,12 +4,12 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{trackingfront}prestashop>trackingfront_e8a827db4eca37d2c6cdef8e406f6fa9'] = 'Tracking-Front office';
-$_MODULE['<{trackingfront}prestashop>trackingfront_d565f36c06949442a4eb998354376c5b'] = 'Activa tus afiliados para acceder a tus propias estadísticas. Véase Estadísticas/Referidos.';
-$_MODULE['<{trackingfront}prestashop>trackingfront_8f5ac7793b2547cd025a7335f4934d26'] = 'El login es necesario';
+$_MODULE['<{trackingfront}prestashop>trackingfront_d565f36c06949442a4eb998354376c5b'] = 'Permite a tus afiliados acceder a tus propias estadísticas. Véase Estadísticas/Referidos.';
+$_MODULE['<{trackingfront}prestashop>trackingfront_8f5ac7793b2547cd025a7335f4934d26'] = 'es necesario iniciar sesión';
 $_MODULE['<{trackingfront}prestashop>trackingfront_6f658a5bbec855ca5ae4ef4c94eb5d43'] = 'login no válido';
-$_MODULE['<{trackingfront}prestashop>trackingfront_962c91be4b1056412febf0c272760814'] = 'se necesita una contraseña';
+$_MODULE['<{trackingfront}prestashop>trackingfront_962c91be4b1056412febf0c272760814'] = 'la contraseña es requerida';
 $_MODULE['<{trackingfront}prestashop>trackingfront_703c2b69e5d9f7072b7db5338214448b'] = 'contraseña no válida';
-$_MODULE['<{trackingfront}prestashop>trackingfront_c41c77e4dddc04b1e0752a6050ae5656'] = 'autentificación errónea';
+$_MODULE['<{trackingfront}prestashop>trackingfront_c41c77e4dddc04b1e0752a6050ae5656'] = 'error de autenticación';
 $_MODULE['<{trackingfront}prestashop>trackingfront_10965b2740f42ad4887932c35cee26ab'] = 'Visitantes únicos';
 $_MODULE['<{trackingfront}prestashop>trackingfront_ae5d01b6efa819cc7a7c05a8c57fcc2c'] = 'Visitantes';
 $_MODULE['<{trackingfront}prestashop>trackingfront_d7e637a6e9ff116de2fa89551240a94d'] = 'visitas';
@@ -21,7 +21,7 @@ $_MODULE['<{trackingfront}prestashop>trackingfront_86190054fc32554662ffbb12b717e
 $_MODULE['<{trackingfront}prestashop>trackingfront_51d53cd2ecdae6b5dd3397875197e898'] = 'Tarifa por clic';
 $_MODULE['<{trackingfront}prestashop>trackingfront_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'Ventas';
 $_MODULE['<{trackingfront}prestashop>trackingfront_da9cb586c6689202ca65cd77fd9b84ef'] = 'Carrito medio';
-$_MODULE['<{trackingfront}prestashop>trackingfront_200f5c9c419f0a53d5d361eff7b33abc'] = '% de registros';
+$_MODULE['<{trackingfront}prestashop>trackingfront_200f5c9c419f0a53d5d361eff7b33abc'] = 'Tasa de registros';
 $_MODULE['<{trackingfront}prestashop>trackingfront_89741aae300253f498b0993fa678fa18'] = '% de pedidos';
 $_MODULE['<{trackingfront}prestashop>account_8954e140059f7b2544469f40161ba507'] = 'Espacio afiliación';
 $_MODULE['<{trackingfront}prestashop>account_c87aacf5673fada1108c9f809d354311'] = 'Cerrar sesión';

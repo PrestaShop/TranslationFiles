@@ -5,7 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{statscheckup}prestashop>statscheckup_e7a908d79d3758c911692ba791da9c70'] = 'Evaluarea catalogului';
 $_MODULE['<{statscheckup}prestashop>statscheckup_11c7290f636a816cbcffb9059958b5c0'] = 'Adauga o evaluare rapida a calitatii catalogului tau la tabloul de bord Statistici.';
-$_MODULE['<{statscheckup}prestashop>statscheckup_20015706a8cbd457cbb6ea3e7d5dc9b3'] = 'Configureazaa a fost actualizata';
+$_MODULE['<{statscheckup}prestashop>statscheckup_20015706a8cbd457cbb6ea3e7d5dc9b3'] = 'Configurarea a fost actualizata';
 $_MODULE['<{statscheckup}prestashop>statscheckup_7ff3e75ce6aca348bc513ed3d5882946'] = 'Proasta';
 $_MODULE['<{statscheckup}prestashop>statscheckup_b1897515d548a960afe49ecf66a29021'] = 'Medie';
 $_MODULE['<{statscheckup}prestashop>statscheckup_0c6ad70beb3a7e76c3fc7adab7c46acc'] = 'Buna';

@@ -3,7 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{vatnumber}prestashop>vatnumber_b0b9a606a1c251323825ca45d40964dc'] = 'No hay país predeterminado establecido.';
+$_MODULE['<{vatnumber}prestashop>vatnumber_b0b9a606a1c251323825ca45d40964dc'] = 'No hay ningún país predeterminado establecido.';
 $_MODULE['<{vatnumber}prestashop>vatnumber_cee549912e318726d2c4989bb507665f'] = 'Número de IVA europeo';
 $_MODULE['<{vatnumber}prestashop>vatnumber_9fa70ad6139f2a83269df74eb6747816'] = 'Permite introducir el número de IVA intracomunitario al crear la dirección. Debe rellenar el campo empresa para introducir el número de IVA.';
 $_MODULE['<{vatnumber}prestashop>vatnumber_162b29cf61678af2aaac37f440265c28'] = 'Su país ha sido actualizado.';

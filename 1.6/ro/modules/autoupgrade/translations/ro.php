@@ -178,7 +178,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_93cba07454f06a4a960172bbd6e2
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_bafd7322c6e97d25b6299b5d6fe8920b'] = 'Nu';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_38fb7d24e0d60a048f540ecb18e13376'] = ' Salveaza ';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_19f823c6453c2b1ffd09cb715214813d'] = 'Camp obligatoriu';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f2ff9d001d0a553c78da73443e7fcd97'] = 'Configureazaa a fost actualizata.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f2ff9d001d0a553c78da73443e7fcd97'] = 'Configurarea a fost actualizata.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_40b980e89ae332507380470cd26cdf4d'] = 'Aceasta pagina se va reincarca acum si modulul va verifica daca exista o versiune mai noua.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_1d1a5763d2901dbd435b378358a149b4'] = 'Fisierul %s nu exista. Nu se poate alege acest canal.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c944c279a9e87437e100f65b8c87c391'] = 'Numarul de versiune lipseste. Nu se poate alege acest canal.';
@@ -237,7 +237,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_22f18bac5d420d7ac5aca37b1afe
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_6b81346a0c9173213e0c32d0082dc073'] = 'Versiunea curenta: %1$s. Versiunea de instalat: %2$s';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f8498f0014f0b834b635ad879ae1b3fd'] = '[ERROR] Versiunea de instalat este prea veche.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_89928a14f2090aec4fd7aff9ea983f95'] = 'Nu exista versiune mai veche. Ai sters sau modificat fisierul config/settings.inc.php ?';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b3884f9e8ed49a8d7165787d3adec342'] = 'Configureazaa bazei de date nu este valida';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b3884f9e8ed49a8d7165787d3adec342'] = 'Configurarea bazei de date nu este valida';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f25792b5b08a78dd01810297d219c10c'] = 'Directorul pentru actualizare nu poate fi gasit in calea instalarii.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8abd985d095a1282f6f01b98c121b41b'] = 'Fisierele SQL de actualizare nu pot fi gasite. Te rugam sa verifici daca dosarul %s contine ceva.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_bf3abb5f80807c7453c246193372e1ae'] = '%s nu este un numar valid de versiune.';
@@ -530,7 +530,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_bdec5eb7ca6ae2b5646bb9524df5
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a8192fd08a431bf547ebf9a3eaa9b6bb'] = 'A fost detectata o eroare Javascript (parseJSON) la actiunea ';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ecb2935cd99ace66750ffdee7954f126'] = 'Incepe restaurarea...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e47b67bdaa4f2c695e46ce1e5231aa9f'] = 'Eroare detectata in timpul';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_4e265d12ee7ee679a4f40a4c4fde1208'] = 'Cererea a depasit max_time_limit. Te rugam sa modifici configureazaa serverului.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_4e265d12ee7ee679a4f40a4c4fde1208'] = 'Cererea a depasit max_time_limit. Te rugam sa modifici configurarea serverului.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c050dd9e80b7658fbf59103b2b982c5d'] = 'Clicheaza pe butonul %s';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_67dab01827a619fdbcb137f18a83feb5'] = 'Sfarsitul procesului';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3b388ab38f6539009cf82a0577205cd8'] = 'Operatie anulata. Se verifica restaurarea...';

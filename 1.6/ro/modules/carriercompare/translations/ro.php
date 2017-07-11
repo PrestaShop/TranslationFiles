@@ -19,7 +19,7 @@ $_MODULE['<{carriercompare}prestashop>carriercompare_b49f15ff6f8530a76ed954676ab
 $_MODULE['<{carriercompare}prestashop>carriercompare_ed22df3e47c667a95dd43e59f2f38522'] = 'Se pregateste informatia...';
 $_MODULE['<{carriercompare}prestashop>carriercompare_e7a6ca4e744870d455a57b644f696457'] = 'Gratis!';
 $_MODULE['<{carriercompare}prestashop>configuration_152c9745ad3e3720a15b058df5d16116'] = 'A aparut o eroare in timpul validarii formularului.';
-$_MODULE['<{carriercompare}prestashop>configuration_20015706a8cbd457cbb6ea3e7d5dc9b3'] = 'Configureazaa a fost actualizata';
+$_MODULE['<{carriercompare}prestashop>configuration_20015706a8cbd457cbb6ea3e7d5dc9b3'] = 'Configurarea a fost actualizata';
 $_MODULE['<{carriercompare}prestashop>configuration_242c88eb5c5a76cab7c30fef4cd89471'] = 'Acest modul este disponibil numai in cazul procesului standard de finalizare a cumparaturilor in 5 pasi. Lista curierilor a fost deja definita pentru finalizarea cumparaturilor intr-o singura pagina.';
 $_MODULE['<{carriercompare}prestashop>configuration_6408d076fa6417e7bc8ddc3cdf9a0644'] = 'Configurare globala';
 $_MODULE['<{carriercompare}prestashop>configuration_4c1f76824b0d7333652d5f64a3e07ef5'] = 'Oricand';

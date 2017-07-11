@@ -20,8 +20,8 @@ $_MODULE['<{homeslider}prestashop>homeslider_349097dadf7e6b01dd2af601d54fd59a'] 
 $_MODULE['<{homeslider}prestashop>homeslider_a9af2809b02444b9470f97dc66ba57a2'] = 'Legenda nu este configurata.';
 $_MODULE['<{homeslider}prestashop>homeslider_0f059227d0a750ce652337d911879671'] = 'Adresa URL nu este definita.';
 $_MODULE['<{homeslider}prestashop>homeslider_8cf45ba354f4725ec8a0d31164910895'] = 'Imaginea nu este stabilita.';
-$_MODULE['<{homeslider}prestashop>homeslider_7f82c65d548588c8d5412463c182e450'] = 'Configureazaa nu a putut fi actualizata.';
-$_MODULE['<{homeslider}prestashop>homeslider_20015706a8cbd457cbb6ea3e7d5dc9b3'] = 'Configureazaa a fost actualizata';
+$_MODULE['<{homeslider}prestashop>homeslider_7f82c65d548588c8d5412463c182e450'] = 'Configurarea nu a putut fi actualizata.';
+$_MODULE['<{homeslider}prestashop>homeslider_20015706a8cbd457cbb6ea3e7d5dc9b3'] = 'Configurarea a fost actualizata';
 $_MODULE['<{homeslider}prestashop>homeslider_7cc92687130ea12abb80556681538001'] = 'A aparut o eroare la incarcarea imaginii.';
 $_MODULE['<{homeslider}prestashop>homeslider_cdf841e01e10cae6355f72e6838808eb'] = 'Cadrul nu a putut fi adaugat.';
 $_MODULE['<{homeslider}prestashop>homeslider_eb28485b92fbf9201918698245ec6430'] = 'Cadrul nu a putut fi actualizat.';

@@ -4,7 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{trackingfront}prestashop>trackingfront_e8a827db4eca37d2c6cdef8e406f6fa9'] = 'Tracking-Front office';
-$_MODULE['<{trackingfront}prestashop>trackingfront_d565f36c06949442a4eb998354376c5b'] = 'Activa tus afiliados para acceder a tus propias estadísticas. Véase Estadísticas/Referidos.';
+$_MODULE['<{trackingfront}prestashop>trackingfront_d565f36c06949442a4eb998354376c5b'] = 'Permite a tus afiliados acceder a tus propias estadísticas. Véase Estadísticas/Referidos.';
 $_MODULE['<{trackingfront}prestashop>trackingfront_8f5ac7793b2547cd025a7335f4934d26'] = 'El login es necesario';
 $_MODULE['<{trackingfront}prestashop>trackingfront_6f658a5bbec855ca5ae4ef4c94eb5d43'] = 'Login no válido';
 $_MODULE['<{trackingfront}prestashop>trackingfront_962c91be4b1056412febf0c272760814'] = 'Se necesita una contraseña';

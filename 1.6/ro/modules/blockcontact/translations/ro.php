@@ -5,7 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{blockcontact}prestashop>blockcontact_df8f3e2cd8d1acbb2d1aa46a45045ec5'] = 'Bloc: Informatii de contact (bloc fara container)';
 $_MODULE['<{blockcontact}prestashop>blockcontact_318ed85b9852475f24127167815e85d9'] = 'Permite adaugarea de informatii suplimentare despre serviciul clienti al magazinului tau.';
-$_MODULE['<{blockcontact}prestashop>blockcontact_20015706a8cbd457cbb6ea3e7d5dc9b3'] = 'Configureazaa a fost actualizata';
+$_MODULE['<{blockcontact}prestashop>blockcontact_20015706a8cbd457cbb6ea3e7d5dc9b3'] = 'Configurarea a fost actualizata';
 $_MODULE['<{blockcontact}prestashop>blockcontact_f4f70727dc34561dfde1a3c529b6205c'] = 'Setari';
 $_MODULE['<{blockcontact}prestashop>blockcontact_90a613a116f4bd9390ff7379a114f8d7'] = 'Acest bloc afiseaza in partea de sus a primei pagini numarul tau de telefon (‘Sunati-ne‘) si o legatura catre pagina ‘Contact‘.';
 $_MODULE['<{blockcontact}prestashop>blockcontact_5f6e75192756d3ad45cff4a1ee0a45ba'] = 'Pentru a edita adresa de email pentru pagina \'Contact\': alege optiunea \'Asistenta pentru clienti\' din meniul \'Clienti\'.';
