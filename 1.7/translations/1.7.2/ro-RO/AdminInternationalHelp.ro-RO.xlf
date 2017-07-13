@@ -28,7 +28,7 @@ File: controllers/admin/AdminCountriesController.php:245</note>
       </trans-unit>
       <trans-unit id="98ae2fd635525d30d2b0e8b643f9a23c" approved="yes">
         <source>Indicate the format of the postal code: use L for a letter, N for a number, and C for the country's ISO 3166-1 alpha-2 code. For example, NNNNN for the United States, France, Poland and many other; LNNNNLLL for Argentina, etc. If you do not want PrestaShop to verify the postal code for this country, leave it blank.</source>
-        <target xml:lang="ro">Definiti formatul pe care trebuie sa il aiba codul postal: folosesti L pentru o litera, N pentru un numar si C pentru codul ISO 3166-1 alpha-2 al tarii. De exemplu: NNNNN pentru SUA, Franta, Polonia, Romania si multe altele, LNNNNLLL pentru Argentina, etc. Daca nu doriti ca PrestaShop sa impuna formatul codului postal pentru aceasta tara, lasa casuta goala.</target>
+        <target xml:lang="ro">Definiti formatul pe care trebuie sa il aiba codul postal: folosesti L pentru o litera, N pentru un numar si C pentru codul ISO 3166-1 alpha-2 al tarii. De exemplu: NNNNN pentru SUA, Franta, Polonia, Romania si multe altele, LNNNNLLL pentru Argentina, etc. Daca nu doresti ca PrestaShop sa impuna formatul codului postal pentru aceasta tara, lasa casuta goala.</target>
         <note>Context:
 File: controllers/admin/AdminCountriesController.php:271</note>
       </trans-unit>
@@ -47,6 +47,12 @@ File: controllers/admin/AdminCountriesController.php:300</note>
         <target xml:lang="ro">Cod ISO (de ex. USD pentru dolar, EUR pentru euro, etc.).</target>
         <note>Context:
 File: controllers/admin/AdminCurrenciesController.php:104</note>
+      </trans-unit>
+      <trans-unit id="0ab7db7a10b7efc8270dd215c2a4ada7" approved="yes">
+        <source><![CDATA[Exchange rates are calculated from one unit of your shop's default currency. For example, if the default currency is euros and your chosen currency is dollars, type "1.20" (1€ = $1.20).]]></source>
+        <target xml:lang="ro"><![CDATA[Ratele de schimb sunt calculate pornind de la o unitate a monedei implicite a magazinului. De exemplu, cada moneda implicita este euro si moneda aleasa este dolarul, se introduce "1.20" (1€ = $1.20).]]></target>
+        <note>Context:
+File: controllers/admin/AdminCurrenciesController.php:119</note>
       </trans-unit>
     </body>
   </file>
@@ -140,7 +146,7 @@ File: controllers/admin/AdminLocalizationController.php:56</note>
       </trans-unit>
       <trans-unit id="2d84287b4a1226bb820aac87116f401a" approved="yes">
         <source>Set country corresponding to browser language</source>
-        <target xml:lang="ro">Configurează tara corespunzătoare limbii din browser</target>
+        <target xml:lang="ro">Configureaza tara corespunzatoare limbii din browser</target>
         <note>Context:
 File: controllers/admin/AdminLocalizationController.php:65</note>
       </trans-unit>
@@ -294,9 +300,15 @@ File: controllers/admin/AdminTaxesController.php:211</note>
         <note>Context:
 File: controllers/admin/AdminTaxRulesGroupController.php:288</note>
       </trans-unit>
+      <trans-unit id="ce9c5fc1032ac5aa03a3d248022773df" approved="yes">
+        <source>You must define the behavior if an address matches multiple rules:</source>
+        <target xml:lang="ro">Trebuie sa definesti regulile pentru cazul in care o adresa corespunde mai multor reguli:</target>
+        <note>Context:
+File: controllers/admin/AdminTaxRulesGroupController.php:314</note>
+      </trans-unit>
       <trans-unit id="439fa6ce423495b01ffd31ea56b33335" approved="yes">
         <source>- This tax only: Will apply only this tax</source>
-        <target xml:lang="ro">- Doar această taxa: se va aplica doar această taxa</target>
+        <target xml:lang="ro">- Doar aceasta taxa: se va aplica doar aceasta taxa</target>
         <note>Context:
 File: controllers/admin/AdminTaxRulesGroupController.php:315</note>
       </trans-unit>
@@ -305,6 +317,12 @@ File: controllers/admin/AdminTaxRulesGroupController.php:315</note>
         <target xml:lang="ro">- Combinare: combina taxele (de ex. 10% + 5% = 15%)</target>
         <note>Context:
 File: controllers/admin/AdminTaxRulesGroupController.php:316</note>
+      </trans-unit>
+      <trans-unit id="dabf677c95d59c749ea5d6d6d22012c4" approved="yes">
+        <source><![CDATA[- One after another: Apply taxes one after another (e.g.: 100 + 10% => 110 + 5% = 115.5)]]></source>
+        <target xml:lang="ro"><![CDATA[- Una dupa cealalta: Aplica taxele una dupa cealalta (de ex.: 100 + 10% => 110 + 5% = 115.5)]]></target>
+        <note>Context:
+File: controllers/admin/AdminTaxRulesGroupController.php:317</note>
       </trans-unit>
       <trans-unit id="7475ec0d41372a307c497acb7eeea8c4" approved="yes">
         <source>No Tax</source>
@@ -324,7 +342,7 @@ File: controllers/admin/AdminTaxRulesGroupController.php:334</note>
     <body>
       <trans-unit id="f3211eeee6d9a3f9208dbf61903eaafa" approved="yes">
         <source>Zone name (e.g. Africa, West Coast, Neighboring Countries).</source>
-        <target xml:lang="ro">Numele zonei (de ex. Africa, Coasta de vest, Tarile învecinate).</target>
+        <target xml:lang="ro">Numele zonei (de ex. Africa, Coasta de vest, Tarile invecinate).</target>
         <note>Context:
 File: controllers/admin/AdminZonesController.php:104</note>
       </trans-unit>
@@ -338,7 +356,12 @@ File: controllers/admin/AdminZonesController.php:124</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Translations/list.html.twig" source-language="en" target-language="ro" datatype="plaintext">
     <body>
-      
+      <trans-unit id="15ba451caecdf6917bcd4d150f33fb7c" approved="yes">
+        <source>Search a word or expression, e.g.: "Order confirmation"</source>
+        <target xml:lang="ro">Cauta un cuvant sau expresie, de exemplu: „Confirmare comanda”</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Translations/list.html.twig:42</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

@@ -120,7 +120,7 @@ File: controllers/admin/AdminLocalizationController.php:39</note>
       </trans-unit>
       <trans-unit id="65a9e6dae82101cecd43f16583f8cd37" approved="yes">
         <source>Set language from browser</source>
-        <target xml:lang="ro">Configurează limba din browser</target>
+        <target xml:lang="ro">Configureaza limba din browser</target>
         <note>Context:
 File: controllers/admin/AdminLocalizationController.php:47</note>
       </trans-unit>
@@ -196,6 +196,12 @@ File: controllers/admin/AdminLocalizationController.php:267</note>
         <note>Context:
 File: controllers/admin/AdminLocalizationController.php:299</note>
       </trans-unit>
+      <trans-unit id="41661d8cebe0d3d2211676fd8aaf73f7" approved="yes">
+        <source>Change the behavior of the price display for groups</source>
+        <target xml:lang="ro">Modifica comportamentul preturilor afisate pentru grupuri</target>
+        <note>Context:
+File: controllers/admin/AdminLocalizationController.php:304</note>
+      </trans-unit>
       <trans-unit id="1240d2eed41a0fd4e898e6aab64c6732" approved="yes">
         <source>Import a localization pack</source>
         <target xml:lang="ro">Import de pachete de localizare</target>
@@ -204,7 +210,7 @@ File: controllers/admin/AdminLocalizationController.php:311</note>
       </trans-unit>
       <trans-unit id="75f9936f4fef50cf05561217a24f058c" approved="yes">
         <source>Localization pack you want to import</source>
-        <target xml:lang="ro">Pachetul de localizare pe care vreti sa il importati</target>
+        <target xml:lang="ro">Pachetul de localizare pe care vrei sa il importi</target>
         <note>Context:
 File: controllers/admin/AdminLocalizationController.php:318</note>
       </trans-unit>
@@ -241,6 +247,12 @@ File: controllers/admin/AdminCurrenciesController.php:114</note>
         <target xml:lang="ro">Adauga o moneda noua</target>
         <note>Context:
 File: controllers/admin/AdminCurrenciesController.php:295</note>
+      </trans-unit>
+      <trans-unit id="718d5d14c35955acb6e5c56817f92cf5" approved="yes">
+        <source>Live exchange Rate for %s</source>
+        <target xml:lang="ro">Curs de schimb in timp real pentru %s</target>
+        <note>Context:
+File: controllers/admin/AdminCurrenciesController.php:326</note>
       </trans-unit>
     </body>
   </file>
@@ -305,6 +317,12 @@ File: controllers/admin/AdminGeolocationController.php:77</note>
         <target xml:lang="ro">Selecteaza tarile din care se poate accesa magazinul tau</target>
         <note>Context:
 File: controllers/admin/AdminGeolocationController.php:126</note>
+      </trans-unit>
+      <trans-unit id="d1e4ac2093276d0228ca8470e7ecbf98" approved="yes">
+        <source>In order to use Geolocation, please download [1]this file[/1] and extract it (using Winrar or Gzip) into the /app/Resources/geoip/ directory.</source>
+        <target xml:lang="ro">Pentru a utiliza geolocatia, descarca [1]acest fisier[/1] si extrage-l (folosind Winrar sau Gzip) in directorul /app/Resources/geoip/.</target>
+        <note>Context:
+File: controllers/admin/AdminGeolocationController.php:142</note>
       </trans-unit>
     </body>
   </file>
@@ -422,7 +440,7 @@ File: controllers/admin/AdminTaxesController.php:68</note>
       </trans-unit>
       <trans-unit id="9686d924d9453d29fabc55346fc57808" approved="yes">
         <source>Display tax in the shopping cart</source>
-        <target xml:lang="ro">Afisare taxa in cos</target>
+        <target xml:lang="ro">Afiseaza taxa in cos</target>
         <note>Context:
 File: controllers/admin/AdminTaxesController.php:72</note>
       </trans-unit>
@@ -446,7 +464,7 @@ File: controllers/admin/AdminTaxesController.php:86</note>
       </trans-unit>
       <trans-unit id="8e4157c726a8c5cf64361e2d751bc945" approved="yes">
         <source>Use ecotax</source>
-        <target xml:lang="ro">Folositi taxa eco</target>
+        <target xml:lang="ro">Foloseste taxa eco</target>
         <note>Context:
 File: controllers/admin/AdminTaxesController.php:92</note>
       </trans-unit>
@@ -549,11 +567,29 @@ File: controllers/admin/AdminTranslationsController.php:173</note>
         <note>Context:
 File: controllers/admin/AdminTranslationsController.php:1333</note>
       </trans-unit>
+      <trans-unit id="445518ee6de9f01f5203fa05e5b83236" approved="yes">
+        <source>Themes translations</source>
+        <target xml:lang="ro">Traduceri tema</target>
+        <note>Context:
+File: controllers/admin/AdminTranslationsController.php:1341</note>
+      </trans-unit>
       <trans-unit id="3d966df0f234e9180aac80223c2a7e85" approved="yes">
         <source>Installed modules translations</source>
         <target xml:lang="ro">Traduceri pentru modulele instalate</target>
         <note>Context:
 File: controllers/admin/AdminTranslationsController.php:1349</note>
+      </trans-unit>
+      <trans-unit id="6df6a1378a5ddcdef978aadf494cef5d" approved="yes">
+        <source>Email translations</source>
+        <target xml:lang="ro">Traduceri e-mail</target>
+        <note>Context:
+File: controllers/admin/AdminTranslationsController.php:1357</note>
+      </trans-unit>
+      <trans-unit id="5d1eb86e15320f5677c9502df9c97dd3" approved="yes">
+        <source>Other translations</source>
+        <target xml:lang="ro">Alte traduceri</target>
+        <note>Context:
+File: controllers/admin/AdminTranslationsController.php:1365</note>
       </trans-unit>
       <trans-unit id="8ed78ce61d50323c845e812aaccf247a" approved="yes">
         <source>Enabled Languages</source>
@@ -619,23 +655,68 @@ File: controllers/admin/AdminTranslationsController.php:2793</note>
   </file>
   <file original="src/PrestaShopBundle/Twig/TranslationsExtension.php" source-language="en" target-language="ro" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
+      <trans-unit id="f5123d6dff8361ad9310560e87c220ef" approved="yes">
+        <source>%nb_translations% missing</source>
+        <target xml:lang="ro">%nb_translations% lipsa</target>
+        <note>Context:
+File: src/PrestaShopBundle/Twig/TranslationsExtension.php:456</note>
+      </trans-unit>
+      <trans-unit id="c949bd6d096b356fc06f55ec5205e3b6" approved="yes">
+        <source>%d missing</source>
+        <target xml:lang="ro">%d lipsa</target>
+        <note>Context:
+File: src/PrestaShopBundle/Twig/TranslationsExtension.php:347</note>
+      </trans-unit>
+      <trans-unit id="740b879fdd48f184f798b8018134f630" approved="yes">
+        <source>Show messages</source>
+        <target xml:lang="ro">Arata mesaje</target>
+        <note>Context:
+File: src/PrestaShopBundle/Twig/TranslationsExtension.php:358</note>
+      </trans-unit>
+      <trans-unit id="67b6092e7137b245b034286819367669" approved="yes">
+        <source>Hide messages</source>
+        <target xml:lang="ro">Ascunde mesaje</target>
+        <note>Context:
+File: src/PrestaShopBundle/Twig/TranslationsExtension.php:359</note>
+      </trans-unit>
+      <trans-unit id="3a8b99657fcabfc65f45cd1be2b34de9" approved="yes">
+        <source>%nb_translations% expressions</source>
+        <target xml:lang="ro">expresii %nb_translations%</target>
+        <note>Context:
+File: src/PrestaShopBundle/Twig/TranslationsExtension.php:414</note>
+      </trans-unit>
+      <trans-unit id="f0780b397b7190b7894af3d8d7d91a83" approved="yes">
+        <source>%nb_translations% translations are missing in %domain%</source>
+        <target xml:lang="ro">Traducerile %nb_translations% lipsesc din %domain%</target>
+        <note>Context:
+File: src/PrestaShopBundle/Twig/TranslationsExtension.php:465</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/TranslationsController.php" source-language="en" target-language="ro" datatype="plaintext">
     <body>
-      
+      <trans-unit id="13f986b0de55e212cccea28677d1ac7d" approved="yes">
+        <source>%d expressions</source>
+        <target xml:lang="ro">%d expresii</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/TranslationsController.php:147</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Translations/list.html.twig" source-language="en" target-language="ro" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="e3ee9f9a340e253eb5196ce7d53ae2d8" approved="yes">
+        <source>Search translations</source>
+        <target xml:lang="ro">Cauta traduceri</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Translations/list.html.twig:30</note>
+      </trans-unit>
+      <trans-unit id="f10b7da819e1b866a655a25d6e7469bb" approved="yes">
+        <source>(2 characters at least)</source>
+        <target xml:lang="ro">(cel putin 2 caractere)</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Translations/list.html.twig:39</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

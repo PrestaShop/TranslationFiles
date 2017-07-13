@@ -28,6 +28,12 @@ File: classes/Customer.php:504</note>
   </file>
   <file original="classes/order/OrderHistory.php" source-language="en" target-language="ro" datatype="plaintext">
     <body>
+      <trans-unit id="f22b1baf8dcfb014646921be9841cb41" approved="yes">
+        <source>expires on %s.</source>
+        <target xml:lang="ro">expira la %s.</target>
+        <note>Context:
+File: classes/order/OrderHistory.php:140</note>
+      </trans-unit>
       <trans-unit id="0db24e725e6876d0fc7467554e8b6c03" approved="yes">
         <source>downloadable %d time(s)</source>
         <target xml:lang="ro">descarcabil de %d ori</target>
@@ -58,7 +64,7 @@ File: controllers/admin/AdminAddressesController.php:357</note>
       </trans-unit>
       <trans-unit id="02c1c5ece60602356e41d407a81cb1fe" approved="yes">
         <source>This email address is not valid. Please use an address like bob@example.com.</source>
-        <target xml:lang="ro">Aceasta adresa de email nu este valida. Utilizeaza o adresa precum bob@exemplu.com.</target>
+        <target xml:lang="ro">Aceasta adresa de e-mail nu este valida. Utilizeaza o adresa precum bob@exemplu.com.</target>
         <note>Context:
 File: controllers/admin/AdminAddressesController.php:360</note>
       </trans-unit>
@@ -130,6 +136,12 @@ File: controllers/admin/AdminCustomersController.php:726</note>
         <note>Context:
 File: controllers/admin/AdminCustomersController.php:867</note>
       </trans-unit>
+      <trans-unit id="7298a088a582ffc05f2c777afb3115cb" approved="yes">
+        <source>Password cannot be empty.</source>
+        <target xml:lang="ro">Parola nu poate fi lasata necompletata.</target>
+        <note>Context:
+File: controllers/admin/AdminCustomersController.php:895</note>
+      </trans-unit>
       <trans-unit id="0a53e9e61f2a9bf59e9028b42fbd8166" approved="yes">
         <source>An error occurred while loading the object.</source>
         <target xml:lang="ro">A aparut o eroare la incarcarea obiectului.</target>
@@ -195,6 +207,30 @@ File: controllers/admin/AdminEmployeesController.php:433</note>
         <target xml:lang="ro">A aparut o eroare, mesajul nu a fost trimis. Ia legatura cu administratorul sistemului.</target>
         <note>Context:
 File: controllers/admin/AdminCustomerThreadsController.php:482</note>
+      </trans-unit>
+      <trans-unit id="d9c93c77e4f2eb90e8457f586e0c5cb3" approved="yes">
+        <source>Cannot create message in a new thread.</source>
+        <target xml:lang="ro">Nu se poate crea mesajul intr-o discutie noua.</target>
+        <note>Context:
+File: controllers/admin/AdminCustomerThreadsController.php:1079</note>
+      </trans-unit>
+      <trans-unit id="142c7111dc9e81f5cf273851ccce9fcc" approved="yes">
+        <source>The message body is empty, cannot import it.</source>
+        <target xml:lang="ro">Corpul mesajului este gol, importul nu este posibil.</target>
+        <note>Context:
+File: controllers/admin/AdminCustomerThreadsController.php:1144</note>
+      </trans-unit>
+      <trans-unit id="5d1cbbd2b78574a8cfac676d8bdb9ea4" approved="yes">
+        <source>Invalid message content for subject: %s</source>
+        <target xml:lang="ro">Continut nevalid al mesajului pentru subiectul: %s</target>
+        <note>Context:
+File: controllers/admin/AdminCustomerThreadsController.php:1151</note>
+      </trans-unit>
+      <trans-unit id="f70f856f6d471d374aaf5080afeb1e53" approved="yes">
+        <source>The message content is not valid, cannot import it.</source>
+        <target xml:lang="ro">Continutul mesajului nu este valid, importul acestuia este imposibil.</target>
+        <note>Context:
+File: controllers/admin/AdminCustomerThreadsController.php:1157</note>
       </trans-unit>
     </body>
   </file>
@@ -289,6 +325,18 @@ File: controllers/admin/AdminOrdersController.php:389</note>
         <target xml:lang="ro">Comanda #%d nu poate fi incarcata</target>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:394</note>
+      </trans-unit>
+      <trans-unit id="409f3dfd9f910287f86fd6c25c94c4d8" approved="yes">
+        <source>Order #%d has already been assigned this status.</source>
+        <target xml:lang="ro">Comanda #%d are deja atribuit acest stadiu.</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:398</note>
+      </trans-unit>
+      <trans-unit id="bab6ef9eb0693880455b7ace25996b1e" approved="yes">
+        <source>An error occurred while changing order status #%d, or we were unable to send an email to the customer.</source>
+        <target xml:lang="ro">A aparut o eroare la modificarea stadiului comenzii #%d, sau nu s-a putut trimite e-mailul catre client.</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:422</note>
       </trans-unit>
       <trans-unit id="45d4b3afac71a54470a6cbf828e8cb0d" approved="yes">
         <source>The order carrier ID is invalid.</source>
@@ -416,6 +464,12 @@ File: controllers/admin/AdminOrdersController.php:980</note>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:1002</note>
       </trans-unit>
+      <trans-unit id="edeff0d68d3d20ce1f6189f6070cb2ba" approved="yes">
+        <source>A credit slip cannot be generated.</source>
+        <target xml:lang="ro">Nu se poate genera nota de credit.</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:1040</note>
+      </trans-unit>
       <trans-unit id="b81f0a0540938a2e7daa684f02866696" approved="yes">
         <source>No product or quantity has been selected.</source>
         <target xml:lang="ro">Nu a fost selectat produsul sau cantitatea.</target>
@@ -475,6 +529,12 @@ File: controllers/admin/AdminOrdersController.php:1189</note>
         <target xml:lang="ro">Nu s-a putut salva nota pentru factura.</target>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:1206</note>
+      </trans-unit>
+      <trans-unit id="7f5a75ac350db917dc60cfbd8299da5b" approved="yes">
+        <source>Failed to upload the invoice and edit its note.</source>
+        <target xml:lang="ro">Nu a reusit incarcarea facturii si editarea notei acesteia.</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:1212</note>
       </trans-unit>
       <trans-unit id="68b7afe49451dbdab7cbeff4f66be369" approved="yes">
         <source>This delivery address country is not active.</source>
@@ -566,9 +626,9 @@ File: controllers/admin/AdminOrdersController.php:1588</note>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:1601</note>
       </trans-unit>
-      <trans-unit id="aeddc664f1e95691c69ea44a5c1c18f5">
+      <trans-unit id="aeddc664f1e95691c69ea44a5c1c18f5" approved="yes">
         <source>This product is out of stock: </source>
-        <target xml:lang="ro" state="needs-translation"> </target>
+        <target xml:lang="ro">Acest produs are stocul epuizat: </target>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:1792</note>
       </trans-unit>
@@ -589,6 +649,12 @@ File: controllers/admin/AdminOrdersController.php:2040</note>
         <target xml:lang="ro">Nu se poate incarca obiectul Order.</target>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:2786</note>
+      </trans-unit>
+      <trans-unit id="7152cf69405fd47a8bd2f7b625ce324e" approved="yes">
+        <source>You cannot add products to delivered orders.</source>
+        <target xml:lang="ro">Nu poti adauga produse la comenzile livrate.</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:2060</note>
       </trans-unit>
       <trans-unit id="9b7508b5ee1050d5c5efb9b1cf76fd36" approved="yes">
         <source>The product object cannot be loaded.</source>
@@ -820,7 +886,12 @@ File: controllers/admin/AdminStatusesController.php:575</note>
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/_shipping.tpl" source-language="en" target-language="ro" datatype="plaintext">
     <body>
-      
+      <trans-unit id="2e66149518ba8dc45a9e51c4f153cebf" approved="yes">
+        <source><![CDATA[Please note that carrier change will not recalculate your shipping costs, if you want to change this please visit Shop Parameters > Order Settings]]></source>
+        <target xml:lang="ro"><![CDATA[Te rugam sa retii ca schimbarea transportatorului nu va recalcula costurile de expediere, daca doresti sa modifici acest lucru te rugam sa accesezi Parametri magazin > Setari comanda]]></target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/_shipping.tpl:101</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl" source-language="en" target-language="ro" datatype="plaintext">
@@ -830,6 +901,12 @@ File: controllers/admin/AdminStatusesController.php:575</note>
         <target xml:lang="ro">Exista deja un cont inregistrat de client cu aceasta adresa de e-mail</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:599</note>
+      </trans-unit>
+      <trans-unit id="49641a1085f245fe45d45881544d1cec" approved="yes">
+        <source>For this customer group, prices are displayed as: [1]%tax_method%[/1]</source>
+        <target xml:lang="ro">Pentru acest grup de clienti, preturile sunt afisate ca: [1]%tax_method%[/1]</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:989</note>
       </trans-unit>
     </body>
   </file>
