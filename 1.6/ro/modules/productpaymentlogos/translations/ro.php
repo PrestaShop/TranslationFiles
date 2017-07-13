@@ -12,7 +12,7 @@ $_MODULE['<{productpaymentlogos}prestashop>productpaymentlogos_223795d3a336ef80c
 $_MODULE['<{productpaymentlogos}prestashop>productpaymentlogos_c7dd01cfb61ff8c984c0aff44f6540e3'] = 'Poti alege sa adaugi un antet deasupra logo-urilor.';
 $_MODULE['<{productpaymentlogos}prestashop>productpaymentlogos_89ca5c48bbc6b7a648a5c1996767484c'] = 'Imaginea blocului';
 $_MODULE['<{productpaymentlogos}prestashop>productpaymentlogos_9ce38727cff004a058021a6c7351a74a'] = 'Legatura imaginii';
-$_MODULE['<{productpaymentlogos}prestashop>productpaymentlogos_826eeee52fe142372c3a2bc195eff911'] = 'Altfel poti incarca propria ta imagine folosind formularul de mai sus, sau link-ul catre optiunea "link-ul Image".';
+$_MODULE['<{productpaymentlogos}prestashop>productpaymentlogos_826eeee52fe142372c3a2bc195eff911'] = 'Altfel poti incarca propria ta imagine folosind formularul de mai sus, sau link-ul catre optiunea "linkul Image".';
 $_MODULE['<{productpaymentlogos}prestashop>productpaymentlogos_c9cc8cce247e49bae79f15173ce97354'] = 'Salveaza';
 
 

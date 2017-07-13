@@ -132,7 +132,7 @@ $_LANGMAIL['A voucher has been created in your name as a result of your order wi
 $_LANGMAIL['<span><strong>Voucher code: {voucher_num}</strong></span> in the amount of <span><strong>{voucher_amount}</strong></span>'] = '<span><strong>Codul voucher-ului:{voucher_num}</strong></span> in valoare de <span><strong>{voucher_amount}</strong></span>';
 $_LANGMAIL['Hi,'] = 'Buna,';
 $_LANGMAIL['Thank you for subscribing to our newsletter.'] = 'Iti multumim pentru abonarea ta la acest buletin informativ.';
-$_LANGMAIL['Thank you for subscribing to our newsletter, please confirm your request by clicking the link below :'] = 'Va multumim pentru abonarea ta, la newsletter.Te rugam sa confirmi cererea ta dand clic pe link-ul de mai jos:';
+$_LANGMAIL['Thank you for subscribing to our newsletter, please confirm your request by clicking the link below :'] = 'Va multumim pentru abonarea ta, la newsletter.Te rugam sa confirmi cererea ta dand clic pe linkul de mai jos:';
 $_LANGMAIL['Newsletter subscription'] = 'Abonare la buletinul informativ';
 $_LANGMAIL['Regarding your newsletter subscription, we are pleased to offer you the following voucher:'] = 'Cu privire la abonarea ta pentru buletinul informativ, suntem incantati sa iti oferim urmatorul cupon:';
 $_LANGMAIL['<span><strong>{shop_name}</strong></span> invites you to send this link to your friends, so they can see your wishlist:'] = '<span><strong>{shop_name}</strong></span> te invita sa trimiti acest link prietenilor tai, pentru a iti vedea lista de dorinte:';
@@ -155,7 +155,7 @@ $_LANGMAIL['This item is once again in-stock.'] = 'Acest articol este din nou in
 $_LANGMAIL['You can access the product page by clicking on the link:'] = 'Poti accesa pagina produsului mergand la urmatorul link:';
 $_LANGMAIL['You can order it right now from our online shop.'] = 'Il poti comanda acum din magazinul nostru online.';
 $_LANGMAIL['Congratulations!'] = 'Felicitari!';
-$_LANGMAIL['A new order was placed on {shop_name} by the following customer: {firstname} {lastname} ({email})'] = 'A fost plasata o comanda noua pe {shop_name} de la urmatorul client: {firstname} {lastname} ({email})';
+$_LANGMAIL['A new order was placed on {shop_name} by the following customer: {firstname} {lastname} ({email})'] = 'A fost plasata o comanda noua pe {shop_name} de la urmatorul client: {firstname} {lastname} ({e-mail})';
 $_LANGMAIL['{product} is almost out of stock.'] = '{product} ramane fara stoc.';
 $_LANGMAIL['The stock cover is now less than the specified minimum of:'] = 'Acoperirea de stoc este mai mica decat minimul specificat de:';
 $_LANGMAIL['Current stock cover:'] = 'Acoperirea curenta de stoc:';
@@ -174,15 +174,15 @@ $_LANGMAIL['Your friend <span><strong>{firstname} {lastname}</strong></span> wan
 $_LANGMAIL['We are pleased to offer you a voucher worth <span><strong>{discount}</strong></span> that you can use on your next order.'] = 'Suntem incantati sa iti oferim un cupon in valoare de <span><strong>{discount}</strong></span> pe care il poti folosi la urmatoarea ta comanda.';
 $_LANGMAIL['Get referred and earn a discount voucher of <span><strong>{discount}!</strong></span>'] = 'Indruma si castiga un voucher dicount de <span><strong>{discount}</strong></span>';
 $_LANGMAIL['It&#039;s very easy to sign up. Just click here!'] = 'Este foarte simplu sa va inscrieti. Da-ti doar un clic aici &#039;!';
-$_LANGMAIL['When signing up, don&#039;t forget to provide the e-mail address of your referring friend:'] = 'La autentificare, nu uita sa furnizezi adresa de email a prietenului referent:';
+$_LANGMAIL['When signing up, don&#039;t forget to provide the e-mail address of your referring friend:'] = 'La autentificare, nu uita sa furnizezi adresa de e-mail a prietenului referent:';
 $_LANGMAIL['Referral Program'] = 'Program de Recomandare';
 $_LANGMAIL['We have created a voucher in your name for referring a friend.'] = 'Am creat un voucher pe numele tau pentru faptul ca ne-ai recomandat unui prieten.';
 $_LANGMAIL[', with an amount of'] = ', cu o valoare de';
 $_LANGMAIL['Hi {name},'] = 'Buna {name},';
 $_LANGMAIL['{customer} has sent you a link to a product that (s)he thinks may interest you.'] = '{customer} va trimis un link la un produs pe care el (ea) crede ca v-ar interesa.';
 $_LANGMAIL['Click here to view this item:'] = 'Clic aici pentru a vizualiza acest articol:';
-$_LANGMAIL['Order edited'] = '';
-$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = '';
+$_LANGMAIL['Order edited'] = 'Editare comanda';
+$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = 'Comanda ta cu referinta <span><strong>{order_name}</strong></span> a fost modificata.';
 
 
 return $_LANGMAIL;

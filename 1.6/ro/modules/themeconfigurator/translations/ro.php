@@ -19,7 +19,7 @@ $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_f4f70727dc34561dfde1a
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_c9cc8cce247e49bae79f15173ce97354'] = 'Salveaza';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_4351cfebe4b61d8aa5efa1d020710005'] = 'Vizualizeaza';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_3b41baf5b2f335fc796a083a1945116b'] = 'Numai tu poti vedea aceasta unealta in paginile site-ului - vizitatorii nu o pot vedea.';
-$_MODULE['<{themeconfigurator}prestashop>themeconfigurator_6e3670bb5e3826106c5243b242cc52d9'] = 'Afiseaza link-uri catre conturile de socializare ale magazinului tau (Twitter, Facebook, etc.)';
+$_MODULE['<{themeconfigurator}prestashop>themeconfigurator_6e3670bb5e3826106c5243b242cc52d9'] = 'Afiseaza linkuri catre conturile de socializare ale magazinului tau (Twitter, Facebook, etc.)';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_1334ff714a38e8004e9cdc755baa5afb'] = 'Afiseaza informatiile tale de contact';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_2f4fe84a25dc0024c9e80b4efd1d68f6'] = 'Afiseaza butoanele de partajare sociala pe pagina de produse';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_6080ab31226b39af728c2d40fd57f0d0'] = 'Afiseaza blocul Facebook pe pagina de start';

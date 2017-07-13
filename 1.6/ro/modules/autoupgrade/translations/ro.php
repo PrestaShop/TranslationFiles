@@ -344,7 +344,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3bb38e7d0bfd5a02f7c06cae446f
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b4302e98d94591ee9afa09e769b2ee63'] = 'actiunea "%1$s" nu a fost gasita';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_760c4026bc5a0bd5378e6efc3f1370b4'] = 'Prea lung!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_4f2e28904946a09d8c7f36dd3ee72457'] = 'Campurile sunt diferite!';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e5110300599f995b9d8cfbe930fba83e'] = 'Adresa de email este gresita!';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e5110300599f995b9d8cfbe930fba83e'] = 'Adresa de e-mail este gresita!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2e170dfd78c2171a25605ececc0950a4'] = 'Nu se poate trimite mesajul de e-mail!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_015463558b0e4910ecff6b418977c872'] = 'Fisierul de setari nu poate fi creat. Daca fisierul /config/settings.inc.php exista, te rugam sa ii acorzi permisiuni de scriere. Daca nu exista, te rugam sa-l creezi.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_128a6722ff88445b488e4eb3319fa5b7'] = 'Nu se poate scrie in fisierul de setari, te rugam sa creezi fisierul settings.inc.php in directorul "config".';
@@ -413,7 +413,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2b1af926a233d2fd8826d281e03a
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0c3d04ce8fc363ea466bc20e377367e6'] = 'Optiunea de PHP max_execution_time are o valoare mare sau este complet dezactivata (valoarea actuala: %s)';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_958f470d0b1c8fb2b9e62b48e8903299'] = 'nelimitat';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8641eaacafab9d58e7e93a92ff318714'] = '%s secunde';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_aa9b0228ac4e3e44b836f79eebf5e481'] = 'Te rugam sa fii sigur ca realizezi si un backup manual complet al fisierelor si al bazei dumneavoastre de date.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_aa9b0228ac4e3e44b836f79eebf5e481'] = 'Te rugam sa fii sigur ca realizezi si un backup manual complet al fisierelor si al bazei tale de date.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_4e140ba723a03baa6948340bf90e2ef6'] = 'Nume:';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_987023af1c4e507ea04eb5069578f7f0'] = 'Versiune:';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3b3d06023f6353f8fd05f859b298573e'] = 'URL:';
@@ -545,7 +545,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_6a103ec34561f1daa9e3028e78bf
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7f034b1e149cf228e8dfc51dcab6cb96'] = 'Aceste fisiere vor fi sterse';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_22f1a4b9e524d8fabb6f058bf3bb5a9f'] = 'Aceste fisiere vor fi modificate';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8c4e88bd9187e21ab076fb9a92343e8b'] = 'Mai putine optiuni';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e3da2aa16a78084597288574550e7f39'] = 'Link-ul si codul MD5 nu pot fi goale';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e3da2aa16a78084597288574550e7f39'] = 'Linkul si codul MD5 nu pot fi goale';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0fdb05748bf1f267f54c2353b9fa5fbb'] = 'Trebuie sa introduci numarul versiunii asociate cu aceasta arhiva.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_4f926e733c4f9087633a1be8c59cbd5e'] = 'Nicio arhiva nu a fost selectata.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_69baf56a7bdc48c0637f98298742332d'] = 'Trebuie sa introduci numarul versiunii asociate cu directorul.';

@@ -10,7 +10,7 @@ $_MODULE['<{statsorigin}prestashop>statsorigin_3edf8ca26a1ec14dd6e91dd277ae1de6'
 $_MODULE['<{statsorigin}prestashop>statsorigin_4b69c1f7f555aa19fd90ee01e4aa63cd'] = 'In tab, am descompus cele mai populare 10 site-urile recomandate, care aduc clienti magazinului tau online.';
 $_MODULE['<{statsorigin}prestashop>statsorigin_6602bbeb2956c035fb4cb5e844a4861b'] = 'Ghid';
 $_MODULE['<{statsorigin}prestashop>statsorigin_cec998cc46cd200fa97490137de2cc7f'] = 'Ce este un sit de referinta?';
-$_MODULE['<{statsorigin}prestashop>statsorigin_54f00c2c9a36e2b300b5bacc1bb7912c'] = 'Referentul este adresa URL a paginii Web anterioare prin link-ul care a fost urmat de vizitator.';
+$_MODULE['<{statsorigin}prestashop>statsorigin_54f00c2c9a36e2b300b5bacc1bb7912c'] = 'Referentul este adresa URL a paginii Web anterioare prin linkul care a fost urmat de vizitator.';
 $_MODULE['<{statsorigin}prestashop>statsorigin_7231fe46fc79eb2b3a269f790b79e01f'] = 'Un referent, de asemenea, iti permite sa stii ce cuvinte cheie  folosesc vizitatorii in motoarele de cautare atunci cand navigheaza catre magazinul tau online.';
 $_MODULE['<{statsorigin}prestashop>statsorigin_af19c8da1c414055c960a73d86471119'] = 'O referinta poate fi:';
 $_MODULE['<{statsorigin}prestashop>statsorigin_c227be237c874ba6b2f8771d7b66b90e'] = 'Cineva care posteaza o legatura catre magazinul tau.';

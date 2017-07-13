@@ -56,7 +56,7 @@ $_MODULE['<{referralprogram}prestashop>program_d3d2e617335f08df83599665eef8a418'
 $_MODULE['<{referralprogram}prestashop>program_7a81aa9275331bb0f5e6adb5e8650a03'] = 'sau tasta ESC';
 $_MODULE['<{referralprogram}prestashop>rules_01705c0177ebf5fbcbf4e882bc454405'] = 'Reguli ale programului de recomandare';
 $_MODULE['<{referralprogram}prestashop>authentication_6b31baf25848e7a6563ecc3946626c80'] = 'Program de recomandare';
-$_MODULE['<{referralprogram}prestashop>authentication_8fdb2298a0db461ac64e71192a562ca1'] = 'Adresa de email a sponsorului';
+$_MODULE['<{referralprogram}prestashop>authentication_8fdb2298a0db461ac64e71192a562ca1'] = 'Adresa de e-mail a sponsorului';
 $_MODULE['<{referralprogram}prestashop>my-account_6b31baf25848e7a6563ecc3946626c80'] = 'Program de recomandare';
 $_MODULE['<{referralprogram}prestashop>order-confirmation_f2ef523efa8d23f8afc29e195592fc58'] = 'Multumita comenzii, sponsorul tau %1$s %2$s va castiga un cupon in valoare de %3$d reducere la confirmarea acestei comenzi.';
 $_MODULE['<{referralprogram}prestashop>shopping-cart_b76b807810393d9fce7f154d82aef1d1'] = 'Ai castigat un cupon in valoare de %s multumita sponsorului tau!';
