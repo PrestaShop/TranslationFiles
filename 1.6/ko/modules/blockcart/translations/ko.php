@@ -23,7 +23,7 @@ $_MODULE['<{blockcart}prestashop>crossselling_dd1f775e443ff3b9a89270713580a51b']
 $_MODULE['<{blockcart}prestashop>crossselling_4351cfebe4b61d8aa5efa1d020710005'] = '보기';
 $_MODULE['<{blockcart}prestashop>blockcart_694e8d1f2ee056f98ee488bdc4982d73'] = '수량';
 $_MODULE['<{blockcart}prestashop>blockcart_21034ae6d01a83e702839a72ba8a77b0'] = '(세금별도)';
-$_MODULE['<{blockcart}prestashop>blockcart_1f87346a16cf80c372065de3c54c86d9'] = '(부가세 포함)';
+$_MODULE['<{blockcart}prestashop>blockcart_1f87346a16cf80c372065de3c54c86d9'] = '(세금 포함)';
 
 
 return $_MODULE;

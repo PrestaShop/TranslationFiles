@@ -31,7 +31,7 @@ $_MODULE['<{gapi}prestashop>gapi_76525f0f34b48475e5ca33f71d296f3b'] = 'شناس�
 $_MODULE['<{gapi}prestashop>gapi_734082edf44417dd19cc65943aa65c36'] = 'کلید امن مشتری';
 $_MODULE['<{gapi}prestashop>gapi_cce99c598cfdb9773ab041d54c3d973a'] = 'پروفایل';
 $_MODULE['<{gapi}prestashop>gapi_b1a026d322c634ca9e88525070e012fd'] = 'ذخیره و بررسی';
-$_MODULE['<{gapi}prestashop>gapi_d4e6d6c42bf3eb807b8778255a4ce415'] = 'سند رد شد';
+$_MODULE['<{gapi}prestashop>gapi_d4e6d6c42bf3eb807b8778255a4ce415'] = 'اعتبارسنجی ناموفق بود';
 $_MODULE['<{gapi}prestashop>gapi_a670b4cdb42644e4b46fa857d3f73d9e'] = 'API آمار گوگل نسخه 1.3';
 $_MODULE['<{gapi}prestashop>gapi_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'ایمیل';
 $_MODULE['<{gapi}prestashop>gapi_dc647eb65e6711e155375218212b3964'] = 'کلمه‌ی عبور';

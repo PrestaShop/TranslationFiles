@@ -19,7 +19,7 @@ $_MODULE['<{cheque}prestashop>payment_execution_060bf2d587991d8f090a1309b285291c
 $_MODULE['<{cheque}prestashop>payment_execution_76ca011e4772bfcce26aecd42c598510'] = '고객님은 수표로 지불을 선택했습니다.';
 $_MODULE['<{cheque}prestashop>payment_execution_c884ed19483d45970c5bf23a681e2dd2'] = '주문 요약 정보:';
 $_MODULE['<{cheque}prestashop>payment_execution_3b3b41f131194e747489ef93e778ed0d'] = '주문 총액 입니다';
-$_MODULE['<{cheque}prestashop>payment_execution_1f87346a16cf80c372065de3c54c86d9'] = '(부가세 포함)';
+$_MODULE['<{cheque}prestashop>payment_execution_1f87346a16cf80c372065de3c54c86d9'] = '(세금 포함)';
 $_MODULE['<{cheque}prestashop>payment_execution_7b1c6e78d93817f61f2b1bbc2108a803'] = '여러가지 통화를 수표로 인정합니다.';
 $_MODULE['<{cheque}prestashop>payment_execution_a7a08622ee5c8019b57354b99b7693b2'] = '결제 화폐를 선택해 주십시오. :';
 $_MODULE['<{cheque}prestashop>payment_execution_f73ad0f08052884ff465749bf48b55ce'] = '위 주문 총 금액을 결제할 수 있는 통화:';
@@ -31,7 +31,7 @@ $_MODULE['<{cheque}prestashop>payment_return_9b8f932b1412d130ece5045ecafd1b42'] 
 $_MODULE['<{cheque}prestashop>payment_return_9a94f1d749a3de5d299674d6c685e416'] = '전자메일';
 $_MODULE['<{cheque}prestashop>payment_return_610abe74e72f00210e3dcb91a0a3f717'] = '다음 정보로 고객님께 전자 메일을 보내 드렸습니다';
 $_MODULE['<{cheque}prestashop>payment_return_ffd2478830ca2f519f7fe7ee259d4b96'] = '고객님이 지불 하시는 대로 고객님의 주문 상품을 발송 합니다';
-$_MODULE['<{cheque}prestashop>payment_return_0db71da7150c27142eef9d22b843b4a9'] = '배송, 결제, 상품에 대한 궁금하신 점이 있으시면 언제든지 문의 주시기 바랍니다.';
+$_MODULE['<{cheque}prestashop>payment_return_0db71da7150c27142eef9d22b843b4a9'] = '다른 질문이나 더 많은 정보가 필요하다면, 연락 주세요';
 $_MODULE['<{cheque}prestashop>payment_return_decce112a9e64363c997b04aa71b7cb8'] = '고객지원';
 $_MODULE['<{cheque}prestashop>payment_return_9bdf695c5a30784327137011da6ef568'] = '고객님의 주문에문제가 있어 통지를 헀습니다. 만약 고객님이 이 통지가 잘못된거라 생각하신다면, 저의에게 연락을 주십시오';
 $_MODULE['<{cheque}prestashop>payment_4b80fae2153218ed763bdadc418e8589'] = '수표로 지불';

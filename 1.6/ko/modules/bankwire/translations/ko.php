@@ -28,7 +28,7 @@ $_MODULE['<{bankwire}prestashop>payment_execution_05adcee99142c1a60fb38bb1330bbb
 $_MODULE['<{bankwire}prestashop>payment_execution_afda466128ee0594745d9f8152699b74'] = '은행 무통장 송금 결제 (무통장입금 또는 인터넷뱅킹)를 선택하셨습니다.';
 $_MODULE['<{bankwire}prestashop>payment_execution_c884ed19483d45970c5bf23a681e2dd2'] = '주문 요약 정보:';
 $_MODULE['<{bankwire}prestashop>payment_execution_e2867a925cba382f1436d1834bb52a1c'] = '주문하신 상품의 총 금액은:';
-$_MODULE['<{bankwire}prestashop>payment_execution_1f87346a16cf80c372065de3c54c86d9'] = '(부가세 포함)';
+$_MODULE['<{bankwire}prestashop>payment_execution_1f87346a16cf80c372065de3c54c86d9'] = '(세금 포함)';
 $_MODULE['<{bankwire}prestashop>payment_execution_b28be4c423d93e02081f4e79fe2434e8'] = '결제할 화폐를 선택하실 수 있습니다.';
 $_MODULE['<{bankwire}prestashop>payment_execution_a7a08622ee5c8019b57354b99b7693b2'] = '결제 화폐를 선택해 주십시오. :';
 $_MODULE['<{bankwire}prestashop>payment_execution_a854d894458d66d92cabf0411c499ef4'] = '다음과 같은 화폐로 송금하실 수 있습니다.';
