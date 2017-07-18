@@ -98,7 +98,7 @@ $_LANGPDF['PDF3a6a6d37bea2c7567f8599ea88b47930'] = 'Total de TE';
 $_LANGPDF['PDF7521172dd37ba56442ea866ac18eb49d'] = 'Antes de descuento';
 $_LANGPDF['PDF6703aa9936582b4381418f7d523370b4'] = 'Tasa de descuento';
 $_LANGPDF['PDFa61109b693023aed557445989c517982'] = 'Después del descuento';
-$_LANGPDF['PDF20a34c4e30c5bbe1d3f870ac55f0d831'] = 'Grado de tasa';
+$_LANGPDF['PDF20a34c4e30c5bbe1d3f870ac55f0d831'] = 'Tasa de impuesto';
 $_LANGPDF['PDFfa2ce544158555e8f06c69dd9e681832'] = 'Total TI';
 $_LANGPDF['PDF716be2c7de31f063369ca297a9928403'] = 'Impuestos';
 $_LANGPDF['PDFf4a232c48df10124ee867767a4e7280e'] = 'Base TE';
@@ -107,7 +107,7 @@ $_LANGPDF['PDF1300f86974cafc2d65eb1f082a26bdf1'] = 'Sumario';
 $_LANGPDF['PDFd1f223eb051fae871c3c29a0777e95aa'] = '(Antes de descuento)';
 $_LANGPDF['PDF6b9e9f2472786ed1e76005bfc37bc8af'] = 'Orden de Descuento';
 $_LANGPDF['PDF99d48dba6b2b30a09c4a84a2912a5e5d'] = '(Después de descuento)';
-$_LANGPDF['PDF699e6bd4690ed3bd5f658052e12aba04'] = 'Valor de tasa';
+$_LANGPDF['PDF699e6bd4690ed3bd5f658052e12aba04'] = 'Valor del impuesto';
 $_LANGPDF['PDF8cc072b14a8fda0c4f9aa0c166471cc9'] = 'Total a pagar';
 
 
