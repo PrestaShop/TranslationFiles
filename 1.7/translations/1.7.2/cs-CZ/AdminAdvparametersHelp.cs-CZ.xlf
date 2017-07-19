@@ -1,5 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="controllers/admin/AdminShopGroupController.php" source-language="en" target-language="cs" datatype="plaintext">
+    <body>
+      <trans-unit id="0c2afe3d3eb02183ee182aa447608bc4" approved="yes">
+        <source>Warning: Enabling the "share customers" and "share orders" options is not recommended. Once activated and orders are created, you will not be able to disable these options. If you need these options, we recommend using several categories rather than several shops.</source>
+        <target xml:lang="cs">Upozornění: není doporučeno povolit "sdílení zákazníků" a "sdílení objednávek", protože jakmile jsou tyto možnosti aktivovány a jsou vytvořeny zákazníci nebo objednávky, nebudete moci zakázat toto nastavení. Pokud potřebujete povolit tyto možnosti, zkuste nejdříve zvážit použití sdílení v několika kategoriích místo v několika obchodech.</target>
+        <note>Context:
+File: controllers/admin/AdminShopGroupController.php:180</note>
+      </trans-unit>
+      <trans-unit id="ee5d0efc6b5d41f7ee2ac5ea831f2a7f" approved="yes">
+        <source>Once this option is enabled, the shops in this group will share customers. If a customer registers in any one of these shops, the account will automatically be available in the others shops of this group.</source>
+        <target xml:lang="cs">Pokud je tato možnost povolena, obchody budou sdíleny vašim zákazníkům. Jakmile se zákazník zaregistruje na jednom z těchto eshopu, jeho účet bude automaticky dostupný ve všech obchodech ze skupiny.</target>
+        <note>Context:
+File: controllers/admin/AdminShopGroupController.php:206</note>
+      </trans-unit>
+      <trans-unit id="dace58c348a19d7bddb7a3fe4fd3ebfa" approved="yes">
+        <source>Warning: you will not be able to disable this option once you have registered customers.</source>
+        <target xml:lang="cs">Varování: nemůžete vypnout tuto funkci, pokud už máte zaregistrované zákazníky.</target>
+        <note>Context:
+File: controllers/admin/AdminShopGroupController.php:206</note>
+      </trans-unit>
+      <trans-unit id="059a6f0b1a0a28d15ee51fe80670f6f2" approved="yes">
+        <source>Once this option is enabled (which is only possible if customers and available quantities are shared among shops), the customer's cart will be shared by all shops in this group. This way, any purchase started in one shop will be able to be completed in another shop from the same group.</source>
+        <target xml:lang="cs">Jakmile bude tato možnost povolena (což je možné pouze pokud obchody sdílí zákazníky a dostupné množství), zákazníkův košík bude sdílen ve všech obchodech ze skupiny. Pokud tedy zákazník začne nakupovat v jednom obchodě, bude moci nákup dokončit v jakémkoliv obchodě ze stejné skupiny.</target>
+        <note>Context:
+File: controllers/admin/AdminShopGroupController.php:245</note>
+      </trans-unit>
+      <trans-unit id="697ce708715d1f771177623968e8c6a4" approved="yes">
+        <source>Warning: You will not be able to disable this option once you've started to accept orders.</source>
+        <target xml:lang="cs">Varování: nemůžete vypnout tuto funkci, pokud už máte nějaké objednávky.</target>
+        <note>Context:
+File: controllers/admin/AdminShopGroupController.php:245</note>
+      </trans-unit>
+      <trans-unit id="e667b16af30e0820218ad32242e284dc" approved="yes">
+        <source>Enable or disable this shop group?</source>
+        <target xml:lang="cs">Povolit nebo zakázat tuto skupinu obchodů?</target>
+        <note>Context:
+File: controllers/admin/AdminShopGroupController.php:264</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="controllers/admin/AdminAdminPreferencesController.php" source-language="en" target-language="cs" datatype="plaintext">
     <body>
       <trans-unit id="99059a2047f475cdc6428076e3360134" approved="yes">
@@ -120,100 +160,55 @@ File: controllers/admin/AdminEmailsController.php:165</note>
       </trans-unit>
     </body>
   </file>
-  <file original="controllers/admin/AdminEmployeesController.php" source-language="en" target-language="cs" datatype="plaintext">
+  <file original="controllers/admin/AdminShopUrlController.php" source-language="en" target-language="cs" datatype="plaintext">
     <body>
-      <trans-unit id="0b2827832fff3d973ee0ed2e6c7d4b23" approved="yes">
-        <source>PrestaShop can provide you with guidance on a regular basis by sending you tips on how to optimize the management of your store which will help you grow your business. If you do not wish to receive these tips, you can disable this option.</source>
-        <target xml:lang="cs">PrestaShop vám může pomoci s vedením eshopu a pevným budováním obchodu pomocí tipů a triků jak optimalizovat váš obchod. Pokud si nepřejete přijímat tyto emaily, prosíme, odškrtněte tuto možnost.</target>
+      <trans-unit id="c688fbbc9468ea3473172ca924290860" approved="yes">
+        <source>If you want to add a virtual URL, you need to activate URL rewriting on your web server and enable Friendly URL option.</source>
+        <target xml:lang="cs">Chcete-li přidat virtuální adresu URL, musíte aktivovat přepisování URL na vašem webovém serveru a umožnit volbu Friendly URL (přátelské URL).</target>
         <note>Context:
-File: controllers/admin/AdminEmployeesController.php:326</note>
+File: controllers/admin/AdminShopUrlController.php:122</note>
       </trans-unit>
-      <trans-unit id="c4e326fcaa83c6b1ca3856175bb86d2e" approved="yes">
-        <source>This page will be displayed just after login.</source>
-        <target xml:lang="cs">Tato stránka se zobrazí pouze po přihlášení.</target>
+      <trans-unit id="05f8f0fab3ff5d86e0de9db902da7045" approved="yes">
+        <source>You can use this option if you want to create a store with a URL that doesn't exist on your server (e.g. if you want your store to be available with the URL www.example.com/my-store/shoes/, you have to set shoes/ in this field, assuming that my-store/ is your Physical URL).</source>
+        <target xml:lang="cs">Tuto volbu lze použít v případě, že potřebujete vytvořit obchod s adresou URL, která na Vašem serveru neexistuje (např. pokud chcete, aby byl Váš obchod dostupný na adrese URL www.priklad.cz/boty/, zadejte do tohoto pole "boty/" - za předpokladu, že fyzická adresa URL obchodu je www.priklad.cz).</target>
         <note>Context:
-File: controllers/admin/AdminEmployeesController.php:332</note>
+File: controllers/admin/AdminShopUrlController.php:126</note>
       </trans-unit>
-      <trans-unit id="d970370797ba19bba5524b480d3526fb" approved="yes">
-        <source>Allow or disallow this employee to log in to the Admin panel.</source>
-        <target xml:lang="cs">Povolte nebo nepovolte tomuto zaměstnanci přihlásit se do panelu Administrace.</target>
+      <trans-unit id="f6e7829277b67d5a8805d6728a810362" approved="yes">
+        <source>URL rewriting must be activated on your server to use this feature.</source>
+        <target xml:lang="cs">Přepisování URL musí být aktivováno na vašem serveru, když chcete využívat tuto funkci.</target>
         <note>Context:
-File: controllers/admin/AdminEmployeesController.php:367</note>
+File: controllers/admin/AdminShopUrlController.php:127</note>
       </trans-unit>
-      <trans-unit id="7bc873cba11f035df692c3549366c722" approved="yes">
-        <source>-- Choose --</source>
-        <target xml:lang="cs">– Vyberte –</target>
+      <trans-unit id="a2e8a639b5fd3e34ab4def1e7aac3383" approved="yes">
+        <source>If you set this URL as the Main URL for the selected shop, all URLs set to this shop will be redirected to this URL (you can only have one Main URL per shop).</source>
+        <target xml:lang="cs">Nastavíte-li tuto adresu jako hlavní URL pro vybraný obchod, budou všechny URL adresy obchodu přesměrovány na toto URL (můžete mít pouze jednu hlavní adresu URL pro obchod).</target>
         <note>Context:
-File: controllers/admin/AdminEmployeesController.php:390</note>
+File: controllers/admin/AdminShopUrlController.php:172</note>
       </trans-unit>
-      <trans-unit id="1a7f0b984884e66e95a86b9b5d857b5b" approved="yes">
-        <source>Select the shops the employee is allowed to access.</source>
-        <target xml:lang="cs">Vyberte obchody, ke kterým má zaměstnanec možnost přístupu.</target>
+      <trans-unit id="819e18d335155ef4a9cdfe926ac8a3de" approved="yes">
+        <source>Since the selected shop has no main URL, you have to set this URL as the Main URL.</source>
+        <target xml:lang="cs">Vzhledem k tomu, že vybraný obchod nemá hlavní adresu URL, budete muset nastavit toto URL jako hlavní</target>
         <note>Context:
-File: controllers/admin/AdminEmployeesController.php:400</note>
+File: controllers/admin/AdminShopUrlController.php:174</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="cs" datatype="plaintext">
-    <body>
-      <trans-unit id="11cd708df7411da4546d8580356e711a" approved="yes">
-        <source>Ignore this field if you don't use the Multistore tool. If you leave this field empty, the default shop will be used.</source>
-        <target xml:lang="cs">Ignorujte toto pole, pokud nechcete použít nástroj Multistore. Necháte-li toto pole prázdné, bude použit výchozí obchod</target>
+      <trans-unit id="fe42e7cf02611b9719a6db6513de19eb" approved="yes">
+        <source>The selected shop already has a Main URL. Therefore, if you set this one as the Main URL, the older Main URL will be set as a regular URL.</source>
+        <target xml:lang="cs">Zvolený obchod již hlavní adresu URL má. Pokud nastavíte tuto adresu jako hlavní, bude stará adresa nastavena jako běžná adresa URL.</target>
         <note>Context:
-File: controllers/admin/AdminImportController.php:493</note>
+File: controllers/admin/AdminShopUrlController.php:178</note>
       </trans-unit>
-      <trans-unit id="5702db29cfdd93934ed330edb201ecf3" approved="yes">
-        <source>Enable Advanced Stock Management on product (0 = No, 1 = Yes)</source>
-        <target xml:lang="cs">Aktivovat pokročilé řízení zásob (0=Ne, 1=Ano)</target>
+      <trans-unit id="7e7b350e5cee624789b1e263ec59db26" approved="yes">
+        <source>This is the physical folder for your store on the web server. Leave this field empty if your store is installed on the root path. For instance, if your store is available at www.example.com/my-store/, you must input my-store/ in this field.</source>
+        <target xml:lang="cs">Toto je fyzická složka na serveru, ve které je umístěn Váš obchod. Pokud je Vás obchod nainstalován v kořenové složce, ponechte toto pole prázdné. Např. pokud je Váš obchod dostupný na adrese www.priklad.cz/obchod, bude v tomto poli hodnota "obchod/".</target>
         <note>Context:
-File: controllers/admin/AdminImportController.php:153</note>
+File: controllers/admin/AdminShopUrlController.php:241</note>
       </trans-unit>
-      <trans-unit id="2d743ae4c74db2a22d79e1e950e719e5" approved="yes">
-        <source>0 = Use quantity set in product, 1 = Use quantity from warehouse.</source>
-        <target xml:lang="cs">0 = použít množství u produktu, 1 = použít množství ze řízení skladových zásob.</target>
+      <trans-unit id="29f3eb1bea3049b52600a18ad4d0b96c" approved="yes">
+        <source>Warning: URL rewriting (e.g. mod_rewrite for Apache) seems to be disabled. If your Virtual URL doesn't work, please check with your hosting provider on how to activate URL rewriting.</source>
+        <target xml:lang="cs">Upozornění: přepisování URL (např. mod_rewrite pro Apache), je pravděpodobně zakázáno. Pokud vaše URL nefungují, poraďte se se svým poskytovatelem hostingu jak aktivovat přepisování URL.</target>
         <note>Context:
-File: controllers/admin/AdminImportController.php:297</note>
-      </trans-unit>
-      <trans-unit id="aaf88088b0ac3f2992888fdfe00b5d76" approved="yes">
-        <source>ID of the warehouse to set as storage.</source>
-        <target xml:lang="cs">ID skladu pro úložiště.</target>
-        <note>Context:
-File: controllers/admin/AdminImportController.php:301</note>
-      </trans-unit>
-      <trans-unit id="4bc14a0f722453ba235bc3fb52d95ffb" approved="yes">
-        <source>A category root is where a category tree can begin. This is used with multistore.</source>
-        <target xml:lang="cs">Hlavní kategorií je místo, kde začíná strom kategorií. Používá se v Multistore</target>
-        <note>Context:
-File: controllers/admin/AdminImportController.php:192</note>
-      </trans-unit>
-      <trans-unit id="7506b41cf1aa65b2663b038e465c0d6d" approved="yes">
-        <source>Enable Advanced Stock Management on product (0 = No, 1 = Yes).</source>
-        <target xml:lang="cs">Aktivovat pokročilé řízení zásob (0=Ne, 1=Ano).</target>
-        <note>Context:
-File: controllers/admin/AdminImportController.php:293</note>
-      </trans-unit>
-      <trans-unit id="e81c4e4f2b7b93b481e13a8553c2ae1b" approved="yes">
-        <source>or</source>
-        <target xml:lang="cs">nebo</target>
-        <note>Context:
-File: controllers/admin/AdminImportController.php:972
- Comment: Special case for Product : either one or the other. Not both.</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="controllers/admin/AdminLogsController.php" source-language="en" target-language="cs" datatype="plaintext">
-    <body>
-      <trans-unit id="25047dda7ccdbdb758df436ada087c4e" approved="yes">
-        <source>Enter "5" if you do not want to receive any emails.</source>
-        <target xml:lang="cs">Zadejte "5", pokud nechcete dostávat žádné e-maily.</target>
-        <note>Context:
-File: controllers/admin/AdminLogsController.php:92</note>
-      </trans-unit>
-      <trans-unit id="0250518090d13c807ece595694bffa98" approved="yes">
-        <source>Emails will be sent to the shop owner.</source>
-        <target xml:lang="cs">E-maily budou zasílány majiteli obchodu.</target>
-        <note>Context:
-File: controllers/admin/AdminLogsController.php:94</note>
+File: controllers/admin/AdminShopUrlController.php:256</note>
       </trans-unit>
     </body>
   </file>
@@ -311,157 +306,53 @@ File: controllers/admin/AdminPerformanceController.php:448</note>
       </trans-unit>
     </body>
   </file>
-  <file original="controllers/admin/AdminRequestSqlController.php" source-language="en" target-language="cs" datatype="plaintext">
+  <file original="controllers/admin/AdminLogsController.php" source-language="en" target-language="cs" datatype="plaintext">
     <body>
-      <trans-unit id="68db67219aa1fd6e5f8820e20fd78b25" approved="yes">
-        <source>How do I create a new SQL query?</source>
-        <target xml:lang="cs">Jak vytvořit nový SQL dotaz?</target>
+      <trans-unit id="25047dda7ccdbdb758df436ada087c4e" approved="yes">
+        <source>Enter "5" if you do not want to receive any emails.</source>
+        <target xml:lang="cs">Zadejte "5", pokud nechcete dostávat žádné e-maily.</target>
         <note>Context:
-File: controllers/admin/AdminRequestSqlController.php:117</note>
+File: controllers/admin/AdminLogsController.php:92</note>
       </trans-unit>
-      <trans-unit id="555f1c93c6aa30a9b28e5cb37eaade53" approved="yes">
-        <source>Click "Add New".</source>
-        <target xml:lang="cs">Klikněte na tlačítko \"Přidat nový záznam\".</target>
+      <trans-unit id="0250518090d13c807ece595694bffa98" approved="yes">
+        <source>Emails will be sent to the shop owner.</source>
+        <target xml:lang="cs">E-maily budou zasílány majiteli obchodu.</target>
         <note>Context:
-File: controllers/admin/AdminRequestSqlController.php:119</note>
-      </trans-unit>
-      <trans-unit id="b7ccdf6ab58f5514acc520721ddc9f08" approved="yes">
-        <source>Fill in the fields and click "Save".</source>
-        <target xml:lang="cs">Vyplňte pole a klikněte na tlačítko "Uložit".</target>
-        <note>Context:
-File: controllers/admin/AdminRequestSqlController.php:120</note>
-      </trans-unit>
-      <trans-unit id="64427cd6d9efe12b779a1e3bb2fafc06" approved="yes">
-        <source>You can then view the query results by clicking on the Edit action in the dropdown menu</source>
-        <target xml:lang="cs">Poté můžete vidět výsledek SQL dotazu, jakmile kliknete na tuto ikonu v rolovacím menu</target>
-        <note>Context:
-File: controllers/admin/AdminRequestSqlController.php:121</note>
-      </trans-unit>
-      <trans-unit id="29147406190a86209d5f4b3080cc7fa9" approved="yes">
-        <source>You can also export the query results as a CSV file by clicking on the Export button</source>
-        <target xml:lang="cs">Kliknutím na tlačítko Exportovat můžete výsledek dotazu uložit do souboru ve formátu CSV</target>
-        <note>Context:
-File: controllers/admin/AdminRequestSqlController.php:122</note>
+File: controllers/admin/AdminLogsController.php:94</note>
       </trans-unit>
     </body>
   </file>
-  <file original="controllers/admin/AdminShopController.php" source-language="en" target-language="cs" datatype="plaintext">
+  <file original="controllers/admin/AdminEmployeesController.php" source-language="en" target-language="cs" datatype="plaintext">
     <body>
-      <trans-unit id="c127560c7252928dc38d9a0ebf312ba4" approved="yes">
-        <source>Use this option to associate data (products, modules, etc.) the same way for each selected shop.</source>
-        <target xml:lang="cs">Použít ke spojení dat (výrobky, moduly, atd.) stejným způsobem u vybrané prodejny</target>
+      <trans-unit id="0b2827832fff3d973ee0ed2e6c7d4b23" approved="yes">
+        <source>PrestaShop can provide you with guidance on a regular basis by sending you tips on how to optimize the management of your store which will help you grow your business. If you do not wish to receive these tips, you can disable this option.</source>
+        <target xml:lang="cs">PrestaShop vám může pomoci s vedením eshopu a pevným budováním obchodu pomocí tipů a triků jak optimalizovat váš obchod. Pokud si nepřejete přijímat tyto emaily, prosíme, odškrtněte tuto možnost.</target>
         <note>Context:
-File: controllers/admin/AdminShopController.php:589</note>
+File: controllers/admin/AdminEmployeesController.php:326</note>
       </trans-unit>
-      <trans-unit id="ff679f8027304451c9561c09dafdb57e" approved="yes">
-        <source>Click here to display the shops in the %s shop group</source>
-        <target xml:lang="cs">Kliknutím sem zobrazíte obchody ve skupině obchodů %s</target>
+      <trans-unit id="c4e326fcaa83c6b1ca3856175bb86d2e" approved="yes">
+        <source>This page will be displayed just after login.</source>
+        <target xml:lang="cs">Tato stránka se zobrazí pouze po přihlášení.</target>
         <note>Context:
-File: controllers/admin/AdminShopController.php:766</note>
+File: controllers/admin/AdminEmployeesController.php:332</note>
       </trans-unit>
-      <trans-unit id="7dd4fd272f9f2a1d6425cae183777579" approved="yes">
-        <source>Click here to display the URLs of the %s shop</source>
-        <target xml:lang="cs">Kliknutím sem zobrazíte adresy URL obchodu %s</target>
+      <trans-unit id="d970370797ba19bba5524b480d3526fb" approved="yes">
+        <source>Allow or disallow this employee to log in to the Admin panel.</source>
+        <target xml:lang="cs">Povolte nebo nepovolte tomuto zaměstnanci přihlásit se do panelu Administrace.</target>
         <note>Context:
-File: controllers/admin/AdminShopController.php:788</note>
+File: controllers/admin/AdminEmployeesController.php:367</note>
       </trans-unit>
-      <trans-unit id="01af4d9c4808ce3ccd662c0e5ef7f203" approved="yes">
-        <source>Click here to display the list of shop groups</source>
-        <target xml:lang="cs">Kliknutím sem zobrazíte seznam skupin obchodů</target>
+      <trans-unit id="7bc873cba11f035df692c3549366c722" approved="yes">
+        <source>-- Choose --</source>
+        <target xml:lang="cs">– Vyberte –</target>
         <note>Context:
-File: controllers/admin/AdminShopController.php:840</note>
+File: controllers/admin/AdminEmployeesController.php:390</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="controllers/admin/AdminShopGroupController.php" source-language="en" target-language="cs" datatype="plaintext">
-    <body>
-      <trans-unit id="0c2afe3d3eb02183ee182aa447608bc4" approved="yes">
-        <source>Warning: Enabling the "share customers" and "share orders" options is not recommended. Once activated and orders are created, you will not be able to disable these options. If you need these options, we recommend using several categories rather than several shops.</source>
-        <target xml:lang="cs">Upozornění: není doporučeno povolit "sdílení zákazníků" a "sdílení objednávek", protože jakmile jsou tyto možnosti aktivovány a jsou vytvořeny zákazníci nebo objednávky, nebudete moci zakázat toto nastavení. Pokud potřebujete povolit tyto možnosti, zkuste nejdříve zvážit použití sdílení v několika kategoriích místo v několika obchodech.</target>
+      <trans-unit id="1a7f0b984884e66e95a86b9b5d857b5b" approved="yes">
+        <source>Select the shops the employee is allowed to access.</source>
+        <target xml:lang="cs">Vyberte obchody, ke kterým má zaměstnanec možnost přístupu.</target>
         <note>Context:
-File: controllers/admin/AdminShopGroupController.php:180</note>
-      </trans-unit>
-      <trans-unit id="ee5d0efc6b5d41f7ee2ac5ea831f2a7f" approved="yes">
-        <source>Once this option is enabled, the shops in this group will share customers. If a customer registers in any one of these shops, the account will automatically be available in the others shops of this group.</source>
-        <target xml:lang="cs">Pokud je tato možnost povolena, obchody budou sdíleny vašim zákazníkům. Jakmile se zákazník zaregistruje na jednom z těchto eshopu, jeho účet bude automaticky dostupný ve všech obchodech ze skupiny.</target>
-        <note>Context:
-File: controllers/admin/AdminShopGroupController.php:206</note>
-      </trans-unit>
-      <trans-unit id="dace58c348a19d7bddb7a3fe4fd3ebfa" approved="yes">
-        <source>Warning: you will not be able to disable this option once you have registered customers.</source>
-        <target xml:lang="cs">Varování: nemůžete vypnout tuto funkci, pokud už máte zaregistrované zákazníky.</target>
-        <note>Context:
-File: controllers/admin/AdminShopGroupController.php:206</note>
-      </trans-unit>
-      <trans-unit id="059a6f0b1a0a28d15ee51fe80670f6f2" approved="yes">
-        <source>Once this option is enabled (which is only possible if customers and available quantities are shared among shops), the customer's cart will be shared by all shops in this group. This way, any purchase started in one shop will be able to be completed in another shop from the same group.</source>
-        <target xml:lang="cs">Jakmile bude tato možnost povolena (což je možné pouze pokud obchody sdílí zákazníky a dostupné množství), zákazníkův košík bude sdílen ve všech obchodech ze skupiny. Pokud tedy zákazník začne nakupovat v jednom obchodě, bude moci nákup dokončit v jakémkoliv obchodě ze stejné skupiny.</target>
-        <note>Context:
-File: controllers/admin/AdminShopGroupController.php:245</note>
-      </trans-unit>
-      <trans-unit id="697ce708715d1f771177623968e8c6a4" approved="yes">
-        <source>Warning: You will not be able to disable this option once you've started to accept orders.</source>
-        <target xml:lang="cs">Varování: nemůžete vypnout tuto funkci, pokud už máte nějaké objednávky.</target>
-        <note>Context:
-File: controllers/admin/AdminShopGroupController.php:245</note>
-      </trans-unit>
-      <trans-unit id="e667b16af30e0820218ad32242e284dc" approved="yes">
-        <source>Enable or disable this shop group?</source>
-        <target xml:lang="cs">Povolit nebo zakázat tuto skupinu obchodů?</target>
-        <note>Context:
-File: controllers/admin/AdminShopGroupController.php:264</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="controllers/admin/AdminShopUrlController.php" source-language="en" target-language="cs" datatype="plaintext">
-    <body>
-      <trans-unit id="c688fbbc9468ea3473172ca924290860" approved="yes">
-        <source>If you want to add a virtual URL, you need to activate URL rewriting on your web server and enable Friendly URL option.</source>
-        <target xml:lang="cs">Chcete-li přidat virtuální adresu URL, musíte aktivovat přepisování URL na vašem webovém serveru a umožnit volbu Friendly URL (přátelské URL).</target>
-        <note>Context:
-File: controllers/admin/AdminShopUrlController.php:122</note>
-      </trans-unit>
-      <trans-unit id="05f8f0fab3ff5d86e0de9db902da7045" approved="yes">
-        <source>You can use this option if you want to create a store with a URL that doesn't exist on your server (e.g. if you want your store to be available with the URL www.example.com/my-store/shoes/, you have to set shoes/ in this field, assuming that my-store/ is your Physical URL).</source>
-        <target xml:lang="cs">Tuto volbu lze použít v případě, že potřebujete vytvořit obchod s adresou URL, která na Vašem serveru neexistuje (např. pokud chcete, aby byl Váš obchod dostupný na adrese URL www.priklad.cz/boty/, zadejte do tohoto pole "boty/" - za předpokladu, že fyzická adresa URL obchodu je www.priklad.cz).</target>
-        <note>Context:
-File: controllers/admin/AdminShopUrlController.php:126</note>
-      </trans-unit>
-      <trans-unit id="f6e7829277b67d5a8805d6728a810362" approved="yes">
-        <source>URL rewriting must be activated on your server to use this feature.</source>
-        <target xml:lang="cs">Přepisování URL musí být aktivováno na vašem serveru, když chcete využívat tuto funkci.</target>
-        <note>Context:
-File: controllers/admin/AdminShopUrlController.php:127</note>
-      </trans-unit>
-      <trans-unit id="a2e8a639b5fd3e34ab4def1e7aac3383" approved="yes">
-        <source>If you set this URL as the Main URL for the selected shop, all URLs set to this shop will be redirected to this URL (you can only have one Main URL per shop).</source>
-        <target xml:lang="cs">Nastavíte-li tuto adresu jako hlavní URL pro vybraný obchod, budou všechny URL adresy obchodu přesměrovány na toto URL (můžete mít pouze jednu hlavní adresu URL pro obchod).</target>
-        <note>Context:
-File: controllers/admin/AdminShopUrlController.php:172</note>
-      </trans-unit>
-      <trans-unit id="819e18d335155ef4a9cdfe926ac8a3de" approved="yes">
-        <source>Since the selected shop has no main URL, you have to set this URL as the Main URL.</source>
-        <target xml:lang="cs">Vzhledem k tomu, že vybraný obchod nemá hlavní adresu URL, budete muset nastavit toto URL jako hlavní</target>
-        <note>Context:
-File: controllers/admin/AdminShopUrlController.php:174</note>
-      </trans-unit>
-      <trans-unit id="fe42e7cf02611b9719a6db6513de19eb" approved="yes">
-        <source>The selected shop already has a Main URL. Therefore, if you set this one as the Main URL, the older Main URL will be set as a regular URL.</source>
-        <target xml:lang="cs">Zvolený obchod již hlavní adresu URL má. Pokud nastavíte tuto adresu jako hlavní, bude stará adresa nastavena jako běžná adresa URL.</target>
-        <note>Context:
-File: controllers/admin/AdminShopUrlController.php:178</note>
-      </trans-unit>
-      <trans-unit id="7e7b350e5cee624789b1e263ec59db26" approved="yes">
-        <source>This is the physical folder for your store on the web server. Leave this field empty if your store is installed on the root path. For instance, if your store is available at www.example.com/my-store/, you must input my-store/ in this field.</source>
-        <target xml:lang="cs">Toto je fyzická složka na serveru, ve které je umístěn Váš obchod. Pokud je Vás obchod nainstalován v kořenové složce, ponechte toto pole prázdné. Např. pokud je Váš obchod dostupný na adrese www.priklad.cz/obchod, bude v tomto poli hodnota "obchod/".</target>
-        <note>Context:
-File: controllers/admin/AdminShopUrlController.php:241</note>
-      </trans-unit>
-      <trans-unit id="29f3eb1bea3049b52600a18ad4d0b96c" approved="yes">
-        <source>Warning: URL rewriting (e.g. mod_rewrite for Apache) seems to be disabled. If your Virtual URL doesn't work, please check with your hosting provider on how to activate URL rewriting.</source>
-        <target xml:lang="cs">Upozornění: přepisování URL (např. mod_rewrite pro Apache), je pravděpodobně zakázáno. Pokud vaše URL nefungují, poraďte se se svým poskytovatelem hostingu jak aktivovat přepisování URL.</target>
-        <note>Context:
-File: controllers/admin/AdminShopUrlController.php:256</note>
+File: controllers/admin/AdminEmployeesController.php:400</note>
       </trans-unit>
     </body>
   </file>
@@ -496,6 +387,287 @@ File: controllers/admin/AdminWebserviceController.php:96</note>
         <target xml:lang="cs">Rychlé vysvětlení klíče: na co je, jaká má oprávnění, atd.</target>
         <note>Context:
 File: controllers/admin/AdminWebserviceController.php:151</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminShopController.php" source-language="en" target-language="cs" datatype="plaintext">
+    <body>
+      <trans-unit id="c127560c7252928dc38d9a0ebf312ba4" approved="yes">
+        <source>Use this option to associate data (products, modules, etc.) the same way for each selected shop.</source>
+        <target xml:lang="cs">Použít ke spojení dat (výrobky, moduly, atd.) stejným způsobem u vybrané prodejny</target>
+        <note>Context:
+File: controllers/admin/AdminShopController.php:589</note>
+      </trans-unit>
+      <trans-unit id="ff679f8027304451c9561c09dafdb57e" approved="yes">
+        <source>Click here to display the shops in the %s shop group</source>
+        <target xml:lang="cs">Kliknutím sem zobrazíte obchody ve skupině obchodů %s</target>
+        <note>Context:
+File: controllers/admin/AdminShopController.php:766</note>
+      </trans-unit>
+      <trans-unit id="7dd4fd272f9f2a1d6425cae183777579" approved="yes">
+        <source>Click here to display the URLs of the %s shop</source>
+        <target xml:lang="cs">Kliknutím sem zobrazíte adresy URL obchodu %s</target>
+        <note>Context:
+File: controllers/admin/AdminShopController.php:788</note>
+      </trans-unit>
+      <trans-unit id="01af4d9c4808ce3ccd662c0e5ef7f203" approved="yes">
+        <source>Click here to display the list of shop groups</source>
+        <target xml:lang="cs">Kliknutím sem zobrazíte seznam skupin obchodů</target>
+        <note>Context:
+File: controllers/admin/AdminShopController.php:840</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminRequestSqlController.php" source-language="en" target-language="cs" datatype="plaintext">
+    <body>
+      <trans-unit id="68db67219aa1fd6e5f8820e20fd78b25" approved="yes">
+        <source>How do I create a new SQL query?</source>
+        <target xml:lang="cs">Jak vytvořit nový SQL dotaz?</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:117</note>
+      </trans-unit>
+      <trans-unit id="555f1c93c6aa30a9b28e5cb37eaade53" approved="yes">
+        <source>Click "Add New".</source>
+        <target xml:lang="cs">Klikněte na tlačítko \"Přidat nový záznam\".</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:119</note>
+      </trans-unit>
+      <trans-unit id="b7ccdf6ab58f5514acc520721ddc9f08" approved="yes">
+        <source>Fill in the fields and click "Save".</source>
+        <target xml:lang="cs">Vyplňte pole a klikněte na tlačítko "Uložit".</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:120</note>
+      </trans-unit>
+      <trans-unit id="64427cd6d9efe12b779a1e3bb2fafc06" approved="yes">
+        <source>You can then view the query results by clicking on the Edit action in the dropdown menu</source>
+        <target xml:lang="cs">Poté můžete vidět výsledek SQL dotazu, jakmile kliknete na tuto ikonu v rolovacím menu</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:121</note>
+      </trans-unit>
+      <trans-unit id="29147406190a86209d5f4b3080cc7fa9" approved="yes">
+        <source>You can also export the query results as a CSV file by clicking on the Export button</source>
+        <target xml:lang="cs">Kliknutím na tlačítko Exportovat můžete výsledek dotazu uložit do souboru ve formátu CSV</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:122</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="cs" datatype="plaintext">
+    <body>
+      <trans-unit id="11cd708df7411da4546d8580356e711a" approved="yes">
+        <source>Ignore this field if you don't use the Multistore tool. If you leave this field empty, the default shop will be used.</source>
+        <target xml:lang="cs">Ignorujte toto pole, pokud nechcete použít nástroj Multistore. Necháte-li toto pole prázdné, bude použit výchozí obchod</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:493</note>
+      </trans-unit>
+      <trans-unit id="5702db29cfdd93934ed330edb201ecf3" approved="yes">
+        <source>Enable Advanced Stock Management on product (0 = No, 1 = Yes)</source>
+        <target xml:lang="cs">Aktivovat pokročilé řízení zásob (0=Ne, 1=Ano)</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:153</note>
+      </trans-unit>
+      <trans-unit id="2d743ae4c74db2a22d79e1e950e719e5" approved="yes">
+        <source>0 = Use quantity set in product, 1 = Use quantity from warehouse.</source>
+        <target xml:lang="cs">0 = použít množství u produktu, 1 = použít množství ze řízení skladových zásob.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:297</note>
+      </trans-unit>
+      <trans-unit id="aaf88088b0ac3f2992888fdfe00b5d76" approved="yes">
+        <source>ID of the warehouse to set as storage.</source>
+        <target xml:lang="cs">ID skladu pro úložiště.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:301</note>
+      </trans-unit>
+      <trans-unit id="4bc14a0f722453ba235bc3fb52d95ffb" approved="yes">
+        <source>A category root is where a category tree can begin. This is used with multistore.</source>
+        <target xml:lang="cs">Hlavní kategorií je místo, kde začíná strom kategorií. Používá se v Multistore</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:192</note>
+      </trans-unit>
+      <trans-unit id="7506b41cf1aa65b2663b038e465c0d6d" approved="yes">
+        <source>Enable Advanced Stock Management on product (0 = No, 1 = Yes).</source>
+        <target xml:lang="cs">Aktivovat pokročilé řízení zásob (0=Ne, 1=Ano).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:293</note>
+      </trans-unit>
+      <trans-unit id="e81c4e4f2b7b93b481e13a8553c2ae1b" approved="yes">
+        <source>or</source>
+        <target xml:lang="cs">nebo</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:972
+ Comment: Special case for Product : either one or the other. Not both.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl" source-language="en" target-language="cs" datatype="plaintext">
+    <body>
+      <trans-unit id="20fbc8f64351875f498d7d6f8c91810b" approved="yes">
+        <source>How to restore a database backup in 10 easy steps</source>
+        <target xml:lang="cs">Jak obnovit zálohu databáze v 10 jednoduchých krocích</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:82</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="admin-dev/themes/default/template/controllers/backup/download/view.tpl" source-language="en" target-language="cs" datatype="plaintext">
+    <body>
+      <trans-unit id="7bf215c957e661c3bd8ad7f6221675c9" approved="yes">
+        <source>Set "Enable Shop" to "No" in the "Maintenance" page under the "Preferences" menu.</source>
+        <target xml:lang="cs">Nastavte "Povolit obchod" na "Ne" na stránce "Údržba obchodu" pod nabídkou "Konfigurace".</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:71</note>
+      </trans-unit>
+      <trans-unit id="2dc09c116021fe75dd928d368a35e9d7" approved="yes">
+        <source>Download the backup from the list below or from your FTP server (in the folder "admin/backups").</source>
+        <target xml:lang="cs">Stáhněte si zálohu ze seznamu níže nebo přes FTP (z adresáře "admin/backups").</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:72</note>
+      </trans-unit>
+      <trans-unit id="3a86c87939c6bbaba4cb2e44e4734146" approved="yes">
+        <source>Check the backup integrity: Look for errors, incomplete file, etc... Be sure to verify all of your data.</source>
+        <target xml:lang="cs">Kontrola integrity zálohy: hledání chyb, neúplných souborů atd. Ověřte všechna vaše data.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:73</note>
+      </trans-unit>
+      <trans-unit id="0ba394816eab81959ea7c442801b0819" approved="yes">
+        <source>Please ask your hosting provider for "phpMyAdmin" access to your database.</source>
+        <target xml:lang="cs">Požádejte svého poskytovatele hostingu o přístup k databázi přes "phpMyAdmin".</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:74</note>
+      </trans-unit>
+      <trans-unit id="04abc58df1575dd465a28c86d859d302" approved="yes">
+        <source>Connect to "phpMyAdmin" and select your current database.</source>
+        <target xml:lang="cs">Připojte se do "phpMyAdmin" a vyberte si svou aktuální databázi.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:75</note>
+      </trans-unit>
+      <trans-unit id="197ebd1d022def92dd1c64aae3320d6a" approved="yes">
+        <source>Unless you enabled the "Drop existing tables" option, you must delete all tables from your current database.</source>
+        <target xml:lang="cs">Pokud jste nepovolili volbu "Odstranit existující tabulky" musíte vymazat všechny tabulky z Vaší databáze.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:76</note>
+      </trans-unit>
+      <trans-unit id="7d6044f9c5ec3bb7b89ac9328a871b2f" approved="yes">
+        <source>At the top of the screen, please select the "Import" tab</source>
+        <target xml:lang="cs">V horní části stránky vyberte záložku "Import"</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:77</note>
+      </trans-unit>
+      <trans-unit id="6463499cc4522ee5cef415d727f543a3" approved="yes">
+        <source>Click on the "Browse" button and select the backup file from your hard drive.</source>
+        <target xml:lang="cs">Klikněte na tlačítko "Procházet" a vyberte záložní soubor ze svého pevného disku.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:78</note>
+      </trans-unit>
+      <trans-unit id="d24e59c4885823395588f1b480876da5" approved="yes">
+        <source>If your backup file exceeds this limit, contact your hosting provider for assistance. </source>
+        <target xml:lang="cs">Pokud váš záložní soubor překročí tento limit, obraťte se na svého poskytovatele hostingu.  </target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:79</note>
+      </trans-unit>
+      <trans-unit id="44b2f277fe0d0365bbc168e617387c73" approved="yes">
+        <source>Click on the "Go" button and please wait patiently for the import process to conclude. This may take several minutes.</source>
+        <target xml:lang="cs">Klikněte na tlačítko "Provést" a počkejte na dokončení importu. Tento proces může trvat několik minut.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:80</note>
+      </trans-unit>
+      <trans-unit id="0869c85782ee2481b83a9f580a09e963" approved="yes">
+        <source>PrestaShop is not responsible for your database, its backups and/or recovery.</source>
+        <target xml:lang="cs">PrestaShop není odpovědný za databázi, zálohování a obnovu dat.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:48</note>
+      </trans-unit>
+      <trans-unit id="35fc59a69cdc61281d4ac5780212911d" approved="yes">
+        <source>How to restore a database backup in 10 easy steps:</source>
+        <target xml:lang="cs">Jak obnovit zálohu databáze v 10 jednoduchých krocích:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:69</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl" source-language="en" target-language="cs" datatype="plaintext">
+    <body>
+      <trans-unit id="084ad8abffc138f8d43f0a77824396b9" approved="yes">
+        <source>You can read information on import at:</source>
+        <target xml:lang="cs">Informace o importu si můžete přečíst na adrese:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:41</note>
+      </trans-unit>
+      <trans-unit id="a27780d9bb7b3595998465aadcaaeed7" approved="yes">
+        <source>Allowed formats: .csv, .xls, .xlsx, .xlst, .ods, .ots</source>
+        <target xml:lang="cs">Povolené formáty: .csv, .xls, .xlsx, .xlst, .ods, .ots</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:87</note>
+      </trans-unit>
+      <trans-unit id="c9f7248e8f5712f5438def77389e1c46" approved="yes">
+        <source>Only UTF-8 and ISO 8859-1 encodings are allowed</source>
+        <target xml:lang="cs">Je povoleno pouze kódování UTF-8 nebo ISO-8859-1</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:88</note>
+      </trans-unit>
+      <trans-unit id="6578c8c9a3dbadb0a3672c3ca6c0b513" approved="yes">
+        <source>You can also upload your file via FTP to the following directory: %s .</source>
+        <target xml:lang="cs">Můžete také odeslat soubor přes FTP do následujícího adresáře: %s .</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:89</note>
+      </trans-unit>
+      <trans-unit id="b070d64c5a2f10b4b8eb361ba4f61833" approved="yes">
+        <source>e.g. </source>
+        <target xml:lang="cs">např. </target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:211</note>
+      </trans-unit>
+      <trans-unit id="1d3be023802846145f9b75fc90b4cf21" approved="yes">
+        <source>If enabled, the product's reference number MUST be unique!</source>
+        <target xml:lang="cs">Pokud je povoleno, MUSÍ BÝT kód zboží unikátní!</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:236</note>
+      </trans-unit>
+      <trans-unit id="423347880e13d3bf4a0e37ef28ace1b8" approved="yes">
+        <source>If you enable this option, your imported items' ID number will be used as-is. If you do not enable this option, the imported ID numbers will be ignored, and PrestaShop will instead create auto-incremented ID numbers for all the imported items.</source>
+        <target xml:lang="cs">Pokud povolíte tuto volbu, ID čísla vašich importovaných položek budou použity v původních tvarech. Pokud tuto volbu nepovolíte, importované ID čísla se budou ignorovat a místo nich PrestaShop vytvoří pro všechny importované položky vlastní, automaticky se zvyšující ID čísla.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:266</note>
+      </trans-unit>
+      <trans-unit id="04d39f4c0f667d58c8c5540514ebf0eb" approved="yes">
+        <source>Sends an email to let you know your import is complete. It can be useful when handling large files, as the import may take some time.</source>
+        <target xml:lang="cs">Odešle informační e-mail o dokončení importu. Při práci s většími soubory to může být užitečné, protože import bývá časově náročný.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:283</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="admin-dev/themes/default/template/controllers/logs/helpers/list/list_header.tpl" source-language="en" target-language="cs" datatype="plaintext">
+    <body>
+      <trans-unit id="3979bb684920e9e9dc86e266f93d8c87" approved="yes">
+        <source>Severity levels</source>
+        <target xml:lang="cs">Stupně důležitosti</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/logs/helpers/list/list_header.tpl:33</note>
+      </trans-unit>
+      <trans-unit id="b80c52e7f679fba3c2837b42705fe779" approved="yes">
+        <source>Informative only</source>
+        <target xml:lang="cs">Pouze informativní</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/logs/helpers/list/list_header.tpl:37</note>
+      </trans-unit>
+      <trans-unit id="0eaadb4fcb48a0a0ed7bc9868be9fbaa" approved="yes">
+        <source>Warning</source>
+        <target xml:lang="cs">Varování</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/logs/helpers/list/list_header.tpl:38</note>
+      </trans-unit>
+      <trans-unit id="902b0d55fddef6f8d651fe1035b7d4bd" approved="yes">
+        <source>Error</source>
+        <target xml:lang="cs">Chyba</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/logs/helpers/list/list_header.tpl:39</note>
+      </trans-unit>
+      <trans-unit id="4a378407770df6a42474ec5db9f54740" approved="yes">
+        <source>Major issue (crash)!</source>
+        <target xml:lang="cs">Závažné problémy (pád)!</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/logs/helpers/list/list_header.tpl:40</note>
       </trans-unit>
     </body>
   </file>

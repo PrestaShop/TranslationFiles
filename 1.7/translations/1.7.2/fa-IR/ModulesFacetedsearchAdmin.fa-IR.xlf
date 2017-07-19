@@ -322,6 +322,42 @@ File: modules/ps_facetedsearch/views/templates/admin/view.tpl:21</note>
         <note>Context:
 File: modules/ps_facetedsearch/views/templates/admin/view.tpl:25</note>
       </trans-unit>
+      <trans-unit id="ad3e7eb269d8ba0ac388267627f45b5a" approved="yes">
+        <source>Indexing is in progress. Please do not leave this page</source>
+        <target xml:lang="fa">ایندکس کردن در حال انجام است. لطفا این صفحه را ترک نکنید</target>
+        <note>Context:
+File: modules/ps_facetedsearch/views/templates/admin/view.tpl:27</note>
+      </trans-unit>
+      <trans-unit id="5e2420d2318025812dc3e231ddb66b0b" approved="yes">
+        <source>Index all missing prices</source>
+        <target xml:lang="fa">ایندکس کردن تمام قیمت های از دست رفته</target>
+        <note>Context:
+File: modules/ps_facetedsearch/views/templates/admin/view.tpl:31</note>
+      </trans-unit>
+      <trans-unit id="9612e005e96ad32b8830be4d0377e7e6" approved="yes">
+        <source>Rebuild entire price index</source>
+        <target xml:lang="fa">بازسازی ایندکس کل قیمت ها</target>
+        <note>Context:
+File: modules/ps_facetedsearch/views/templates/admin/view.tpl:32</note>
+      </trans-unit>
+      <trans-unit id="d47f700b6db025d98cae0b340ed847e9" approved="yes">
+        <source>Build attribute index</source>
+        <target xml:lang="fa">ساخت خاصیت ایندکس</target>
+        <note>Context:
+File: modules/ps_facetedsearch/views/templates/admin/view.tpl:33</note>
+      </trans-unit>
+      <trans-unit id="53795c3624ae2361363780589aa2aa42" approved="yes">
+        <source>You can set a cron job that will rebuild price index using the following URL:</source>
+        <target xml:lang="fa">شما می توانید یک cron-job را از طریق لینک زیر برای بازسازی ایندکس قیمت تنظیم کنید:</target>
+        <note>Context:
+File: modules/ps_facetedsearch/views/templates/admin/view.tpl:38</note>
+      </trans-unit>
+      <trans-unit id="e43b32b88c77e49f06144cd1ffaeba96" approved="yes">
+        <source>You can set a cron job that will rebuild attribute index using the following URL:</source>
+        <target xml:lang="fa">شما می توانید یک cron-job را از طریق لینک زیر برای بازسازی ایندکس خاصیت تنظیم کنید:</target>
+        <note>Context:
+File: modules/ps_facetedsearch/views/templates/admin/view.tpl:43</note>
+      </trans-unit>
       <trans-unit id="16349835364cf839e6670b0de7da6362" approved="yes">
         <source>A nightly rebuild is recommended.</source>
         <target xml:lang="fa">یک بازسازی شبانه مورد نیاز است</target>
@@ -406,11 +442,23 @@ File: modules/ps_facetedsearch/views/templates/admin/view.tpl:196</note>
         <note>Context:
 File: modules/ps_facetedsearch/views/templates/admin/view.tpl:197</note>
       </trans-unit>
+      <trans-unit id="49afa0d9ad5c1f8bf5413b9dc8a252c9" approved="yes">
+        <source>Attribute indexing finished</source>
+        <target xml:lang="fa">فهرست سازی ویژگی به پایان رسید</target>
+        <note>Context:
+File: modules/ps_facetedsearch/views/templates/admin/view.tpl:198</note>
+      </trans-unit>
       <trans-unit id="9ea5bab5df9a3f3abaa64951daf07e9b" approved="yes">
         <source>URL indexing failed</source>
         <target xml:lang="fa">فهرست سازی URL با خطا مواجه شد</target>
         <note>Context:
 File: modules/ps_facetedsearch/views/templates/admin/view.tpl:199</note>
+      </trans-unit>
+      <trans-unit id="414301b329318b3e916c5b91b0ca9126" approved="yes">
+        <source>Attribute indexing failed</source>
+        <target xml:lang="fa">فهرست سازی ویژگی با خطا مواجه شد</target>
+        <note>Context:
+File: modules/ps_facetedsearch/views/templates/admin/view.tpl:200</note>
       </trans-unit>
       <trans-unit id="fa059e7a64ab37fe21b01a220b6c073f" approved="yes">
         <source>Price indexing finished</source>
@@ -423,6 +471,12 @@ File: modules/ps_facetedsearch/views/templates/admin/view.tpl:201</note>
         <target xml:lang="fa">فهرست سازی قیمت با خطا مواجه شد</target>
         <note>Context:
 File: modules/ps_facetedsearch/views/templates/admin/view.tpl:202</note>
+      </trans-unit>
+      <trans-unit id="7cf7d150dd287df0a8e17eeb4cf2161d" approved="yes">
+        <source>(in progress, %s products price to index)</source>
+        <target xml:lang="fa">(در حال انجام, %s قیمت محصولات به ایندکس)</target>
+        <note>Context:
+File: modules/ps_facetedsearch/views/templates/admin/view.tpl:203</note>
       </trans-unit>
       <trans-unit id="8524de963f07201e5c086830d370797f" approved="yes">
         <source>Loading...</source>
@@ -480,22 +534,22 @@ File: modules/ps_facetedsearch/views/templates/hook/attribute_group_form.tpl:50<
         <note>Context:
 File: modules/ps_facetedsearch/views/templates/hook/attribute_group_form.tpl:78</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="modules/ps_facetedsearch/views/templates/hook/feature_form.tpl" source-language="en" target-language="fa" datatype="plaintext">
-    <body>
       <trans-unit id="0bcff42b5aed2b0e4501ed178e4f2510" approved="yes">
         <source>Indexable</source>
-        <target xml:lang="fa">قابل فهرست شدن</target>
+        <target xml:lang="fa">قابل ایندکس</target>
         <note>Context:
-File: modules/ps_facetedsearch/views/templates/hook/feature_form.tpl:84</note>
+File: modules/ps_facetedsearch/views/templates/hook/attribute_group_form.tpl:84</note>
       </trans-unit>
       <trans-unit id="4e495bf87859dbd3914919cccea139e2" approved="yes">
         <source>Use this attribute in URL generated by the Faceted Search module.</source>
         <target xml:lang="fa">از این مشخصه در URL تولید‌شده توسط ماژول جستجوی لایه‌ای استفاده کن.</target>
         <note>Context:
-File: modules/ps_facetedsearch/views/templates/hook/feature_form.tpl:99</note>
+File: modules/ps_facetedsearch/views/templates/hook/attribute_group_form.tpl:99</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="modules/ps_facetedsearch/views/templates/hook/feature_form.tpl" source-language="en" target-language="fa" datatype="plaintext">
+    <body>
       <trans-unit id="81e6451dad5734120899da86f7da4e4e" approved="yes">
         <source>When the Faceted Search module is enabled, you can get more detailed URLs by choosing the word that best represent this feature. By default, PrestaShop uses the feature's name, but you can change that setting using this field.</source>
         <target xml:lang="fa">هنگامی که ماژول جستجوی لایه‌ای فعال باشد، شما می‌توانید با انتخاب بهترین کلمه‌ای که بیانگر این ویژگی است، URL‌هایی با جزئیات بیشتر را دریافت کنید. به صورت پیش فرض، پرستاشاپ از نام ویژگی استفاده می‌کند اما با استفاده از این کادر، می‌توانید آن تنظیمات را تغییر دهید.</target>

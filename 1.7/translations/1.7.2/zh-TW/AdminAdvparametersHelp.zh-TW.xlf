@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="controllers/admin/AdminShopGroupController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
+    <body>
+      <trans-unit id="0c2afe3d3eb02183ee182aa447608bc4" approved="yes">
+        <source>Warning: Enabling the "share customers" and "share orders" options is not recommended. Once activated and orders are created, you will not be able to disable these options. If you need these options, we recommend using several categories rather than several shops.</source>
+        <target xml:lang="zh-TW">警告：不建議啟用 "共用客戶" 與 "共用訂單" 選項，啟用且有訂單建立後就無法將它停用，如果確實有這樣的需求，建議用多個分類取代多個商店的結構</target>
+        <note>Context:
+File: controllers/admin/AdminShopGroupController.php:180</note>
+      </trans-unit>
+      <trans-unit id="dace58c348a19d7bddb7a3fe4fd3ebfa" approved="yes">
+        <source>Warning: you will not be able to disable this option once you have registered customers.</source>
+        <target xml:lang="zh-TW">警告: 你註冊成為客戶前不能倒用此選項</target>
+        <note>Context:
+File: controllers/admin/AdminShopGroupController.php:206</note>
+      </trans-unit>
+      <trans-unit id="059a6f0b1a0a28d15ee51fe80670f6f2" approved="yes">
+        <source>Once this option is enabled (which is only possible if customers and available quantities are shared among shops), the customer's cart will be shared by all shops in this group. This way, any purchase started in one shop will be able to be completed in another shop from the same group.</source>
+        <target xml:lang="zh-TW">一旦啟用這個選項（只有在客戶與可用數量在多個商店共用時），客戶的購物車在這個群組的商店也會共用。透過這個方式，任何在一個商店開始的採購都可以在同群組的商店結帳。警告：一旦開始有訂單建立就無法停用這個選項。</target>
+        <note>Context:
+File: controllers/admin/AdminShopGroupController.php:245</note>
+      </trans-unit>
+      <trans-unit id="697ce708715d1f771177623968e8c6a4" approved="yes">
+        <source>Warning: You will not be able to disable this option once you've started to accept orders.</source>
+        <target xml:lang="zh-TW">警告：一旦您已經開始接受訂單，您將無法停用此選項。</target>
+        <note>Context:
+File: controllers/admin/AdminShopGroupController.php:245</note>
+      </trans-unit>
+      <trans-unit id="e667b16af30e0820218ad32242e284dc" approved="yes">
+        <source>Enable or disable this shop group?</source>
+        <target xml:lang="zh-TW">啟動或關閉此店鋪群組？</target>
+        <note>Context:
+File: controllers/admin/AdminShopGroupController.php:264</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="controllers/admin/AdminAdminPreferencesController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
       <trans-unit id="99059a2047f475cdc6428076e3360134" approved="yes">
@@ -88,12 +122,6 @@ File: controllers/admin/AdminBackupController.php:72</note>
   </file>
   <file original="controllers/admin/AdminEmailsController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      <trans-unit id="e6f52e23510fd010aa5460c96fd67142" approved="yes">
-        <source>Where customers send messages from the order page.</source>
-        <target xml:lang="zh-TW">客戶從訂單頁發送訊息的位置</target>
-        <note>Context:
-File: controllers/admin/AdminEmailsController.php:97</note>
-      </trans-unit>
       <trans-unit id="a60bc065c0296646c5a07e55c0cfff6e" approved="yes">
         <source>Fully qualified domain name (keep this field empty if you don't know).</source>
         <target xml:lang="zh-TW">完整的網域名稱（如果不清楚就保留空白）。</target>
@@ -120,106 +148,55 @@ File: controllers/admin/AdminEmailsController.php:165</note>
       </trans-unit>
     </body>
   </file>
-  <file original="controllers/admin/AdminEmployeesController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
+  <file original="controllers/admin/AdminShopUrlController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      <trans-unit id="d222c4d0463bd3f146536ac89c0d7c77" approved="yes">
-        <source>Password should be at least %num% characters long.</source>
-        <target xml:lang="zh-TW">密碼字符長度不能短於%num%。</target>
+      <trans-unit id="c688fbbc9468ea3473172ca924290860" approved="yes">
+        <source>If you want to add a virtual URL, you need to activate URL rewriting on your web server and enable Friendly URL option.</source>
+        <target xml:lang="zh-TW">如果您想要新增一個虛擬URL，您必須在伺服器上啟動URL覆寫，並啟用Friendly URL選項。</target>
         <note>Context:
-File: controllers/admin/AdminEmployeesController.php:302</note>
+File: controllers/admin/AdminShopUrlController.php:122</note>
       </trans-unit>
-      <trans-unit id="0b2827832fff3d973ee0ed2e6c7d4b23" approved="yes">
-        <source>PrestaShop can provide you with guidance on a regular basis by sending you tips on how to optimize the management of your store which will help you grow your business. If you do not wish to receive these tips, you can disable this option.</source>
-        <target xml:lang="zh-TW">PrestaShop 可以定期提供您建議，協助您優化商店的管理，藉此提昇業績。如果您不想收到這些建議，請取消勾選。</target>
+      <trans-unit id="05f8f0fab3ff5d86e0de9db902da7045" approved="yes">
+        <source>You can use this option if you want to create a store with a URL that doesn't exist on your server (e.g. if you want your store to be available with the URL www.example.com/my-store/shoes/, you have to set shoes/ in this field, assuming that my-store/ is your Physical URL).</source>
+        <target xml:lang="zh-TW">如果您希望用一個伺服器上不存在的網址建立商店就使用這個選項 （例如您希望商店網址為 www.my-prestashop.com/my-store/shoes/ ，這裡就輸入 shoes/ ，不過這是假設 my-store/ 是實體網址）</target>
         <note>Context:
-File: controllers/admin/AdminEmployeesController.php:326</note>
+File: controllers/admin/AdminShopUrlController.php:126</note>
       </trans-unit>
-      <trans-unit id="c4e326fcaa83c6b1ca3856175bb86d2e" approved="yes">
-        <source>This page will be displayed just after login.</source>
-        <target xml:lang="zh-TW">此頁面會在登入後顯示。</target>
+      <trans-unit id="f6e7829277b67d5a8805d6728a810362" approved="yes">
+        <source>URL rewriting must be activated on your server to use this feature.</source>
+        <target xml:lang="zh-TW">這個功能需要您的主機啟用網址結構重寫功能(URL Rewriting)</target>
         <note>Context:
-File: controllers/admin/AdminEmployeesController.php:332</note>
+File: controllers/admin/AdminShopUrlController.php:127</note>
       </trans-unit>
-      <trans-unit id="d970370797ba19bba5524b480d3526fb" approved="yes">
-        <source>Allow or disallow this employee to log in to the Admin panel.</source>
-        <target xml:lang="zh-TW">是否允許這個員工登入管理介面。</target>
+      <trans-unit id="a2e8a639b5fd3e34ab4def1e7aac3383" approved="yes">
+        <source>If you set this URL as the Main URL for the selected shop, all URLs set to this shop will be redirected to this URL (you can only have one Main URL per shop).</source>
+        <target xml:lang="zh-TW">如果您將這個網址設定為指定商店的主要網址，所有設定到這個商店的網址都會轉往這個網址（每個商店只能夠有一個主要網址）</target>
         <note>Context:
-File: controllers/admin/AdminEmployeesController.php:367</note>
+File: controllers/admin/AdminShopUrlController.php:172</note>
       </trans-unit>
-      <trans-unit id="7bc873cba11f035df692c3549366c722" approved="yes">
-        <source>-- Choose --</source>
-        <target xml:lang="zh-TW">--選擇--</target>
+      <trans-unit id="819e18d335155ef4a9cdfe926ac8a3de" approved="yes">
+        <source>Since the selected shop has no main URL, you have to set this URL as the Main URL.</source>
+        <target xml:lang="zh-TW">因為選擇的商店沒有主要網址，您必須將這個網址設定為主要</target>
         <note>Context:
-File: controllers/admin/AdminEmployeesController.php:390</note>
+File: controllers/admin/AdminShopUrlController.php:174</note>
       </trans-unit>
-      <trans-unit id="1a7f0b984884e66e95a86b9b5d857b5b" approved="yes">
-        <source>Select the shops the employee is allowed to access.</source>
-        <target xml:lang="zh-TW">選擇這個員工能夠操作的商店</target>
+      <trans-unit id="fe42e7cf02611b9719a6db6513de19eb" approved="yes">
+        <source>The selected shop already has a Main URL. Therefore, if you set this one as the Main URL, the older Main URL will be set as a regular URL.</source>
+        <target xml:lang="zh-TW">選擇的商店已經有主要網址，如果將這個網址設為主要，其他的就會設定為一般網址。</target>
         <note>Context:
-File: controllers/admin/AdminEmployeesController.php:400</note>
+File: controllers/admin/AdminShopUrlController.php:178</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
-    <body>
-      <trans-unit id="11cd708df7411da4546d8580356e711a" approved="yes">
-        <source>Ignore this field if you don't use the Multistore tool. If you leave this field empty, the default shop will be used.</source>
-        <target xml:lang="zh-TW">如果沒有使用多商店工具請忽略這個欄位，空白表示使用預設商店</target>
+      <trans-unit id="7e7b350e5cee624789b1e263ec59db26" approved="yes">
+        <source>This is the physical folder for your store on the web server. Leave this field empty if your store is installed on the root path. For instance, if your store is available at www.example.com/my-store/, you must input my-store/ in this field.</source>
+        <target xml:lang="zh-TW">這是商店在伺服器上的實體路徑，如果商店安裝在網頁根目錄就保持空白即可（例如您的商店網址為 www.example.com/my-store/ ，這裡就需要輸入 my-store/ ）</target>
         <note>Context:
-File: controllers/admin/AdminImportController.php:493</note>
+File: controllers/admin/AdminShopUrlController.php:241</note>
       </trans-unit>
-      <trans-unit id="5702db29cfdd93934ed330edb201ecf3" approved="yes">
-        <source>Enable Advanced Stock Management on product (0 = No, 1 = Yes)</source>
-        <target xml:lang="zh-TW">啟用此商品的進階庫存管理(0=否，1=是)</target>
+      <trans-unit id="29f3eb1bea3049b52600a18ad4d0b96c" approved="yes">
+        <source>Warning: URL rewriting (e.g. mod_rewrite for Apache) seems to be disabled. If your Virtual URL doesn't work, please check with your hosting provider on how to activate URL rewriting.</source>
+        <target xml:lang="zh-TW">警告：網址重寫（例如 Apache 的 mod_rewrite）停用中，如果網址無法運作，請洽尋主機提供者來啟用網址重寫功能。</target>
         <note>Context:
-File: controllers/admin/AdminImportController.php:153</note>
-      </trans-unit>
-      <trans-unit id="2d743ae4c74db2a22d79e1e950e719e5" approved="yes">
-        <source>0 = Use quantity set in product, 1 = Use quantity from warehouse.</source>
-        <target xml:lang="zh-TW">0=使用此商品數量設定，1=使用倉庫定義的商品數量</target>
-        <note>Context:
-File: controllers/admin/AdminImportController.php:297</note>
-      </trans-unit>
-      <trans-unit id="aaf88088b0ac3f2992888fdfe00b5d76" approved="yes">
-        <source>ID of the warehouse to set as storage.</source>
-        <target xml:lang="zh-TW">此商品的倉庫ID</target>
-        <note>Context:
-File: controllers/admin/AdminImportController.php:301</note>
-      </trans-unit>
-      <trans-unit id="4bc14a0f722453ba235bc3fb52d95ffb" approved="yes">
-        <source>A category root is where a category tree can begin. This is used with multistore.</source>
-        <target xml:lang="zh-TW">一個根分類表示一個分類樹的開始，通常用在多商店功能</target>
-        <note>Context:
-File: controllers/admin/AdminImportController.php:192</note>
-      </trans-unit>
-      <trans-unit id="7506b41cf1aa65b2663b038e465c0d6d" approved="yes">
-        <source>Enable Advanced Stock Management on product (0 = No, 1 = Yes).</source>
-        <target xml:lang="zh-TW">啟用進階庫存管理(0=否，1=是)</target>
-        <note>Context:
-File: controllers/admin/AdminImportController.php:293</note>
-      </trans-unit>
-      <trans-unit id="e81c4e4f2b7b93b481e13a8553c2ae1b" approved="yes">
-        <source>or</source>
-        <target xml:lang="zh-TW">或</target>
-        <note>Context:
-File: controllers/admin/AdminImportController.php:972
- Comment: Special case for Product : either one or the other. Not both.</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="controllers/admin/AdminLogsController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
-    <body>
-      <trans-unit id="25047dda7ccdbdb758df436ada087c4e" approved="yes">
-        <source>Enter "5" if you do not want to receive any emails.</source>
-        <target xml:lang="zh-TW">如果您不希望收到任何信件請輸入 "5"</target>
-        <note>Context:
-File: controllers/admin/AdminLogsController.php:92</note>
-      </trans-unit>
-      <trans-unit id="0250518090d13c807ece595694bffa98" approved="yes">
-        <source>Emails will be sent to the shop owner.</source>
-        <target xml:lang="zh-TW">電子郵件會寄給商店負責人</target>
-        <note>Context:
-File: controllers/admin/AdminLogsController.php:94</note>
+File: controllers/admin/AdminShopUrlController.php:256</note>
       </trans-unit>
     </body>
   </file>
@@ -311,31 +288,81 @@ File: controllers/admin/AdminPerformanceController.php:448</note>
       </trans-unit>
     </body>
   </file>
-  <file original="controllers/admin/AdminRequestSqlController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
+  <file original="controllers/admin/AdminLogsController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      <trans-unit id="68db67219aa1fd6e5f8820e20fd78b25" approved="yes">
-        <source>How do I create a new SQL query?</source>
-        <target xml:lang="zh-TW">如何新增一個SQL查詢?</target>
+      <trans-unit id="25047dda7ccdbdb758df436ada087c4e" approved="yes">
+        <source>Enter "5" if you do not want to receive any emails.</source>
+        <target xml:lang="zh-TW">如果您不希望收到任何信件請輸入 "5"</target>
         <note>Context:
-File: controllers/admin/AdminRequestSqlController.php:117</note>
+File: controllers/admin/AdminLogsController.php:92</note>
       </trans-unit>
-      <trans-unit id="555f1c93c6aa30a9b28e5cb37eaade53" approved="yes">
-        <source>Click "Add New".</source>
-        <target xml:lang="zh-TW">點擊\"Add New\"</target>
+      <trans-unit id="0250518090d13c807ece595694bffa98" approved="yes">
+        <source>Emails will be sent to the shop owner.</source>
+        <target xml:lang="zh-TW">電子郵件會寄給商店負責人</target>
         <note>Context:
-File: controllers/admin/AdminRequestSqlController.php:119</note>
+File: controllers/admin/AdminLogsController.php:94</note>
       </trans-unit>
-      <trans-unit id="b7ccdf6ab58f5514acc520721ddc9f08" approved="yes">
-        <source>Fill in the fields and click "Save".</source>
-        <target xml:lang="zh-TW">欄位內填寫內容後點選"儲存"</target>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminEmployeesController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
+    <body>
+      <trans-unit id="d222c4d0463bd3f146536ac89c0d7c77" approved="yes">
+        <source>Password should be at least %num% characters long.</source>
+        <target xml:lang="zh-TW">密碼字符長度不能短於%num%。</target>
         <note>Context:
-File: controllers/admin/AdminRequestSqlController.php:120</note>
+File: controllers/admin/AdminEmployeesController.php:302</note>
       </trans-unit>
-      <trans-unit id="29147406190a86209d5f4b3080cc7fa9" approved="yes">
-        <source>You can also export the query results as a CSV file by clicking on the Export button</source>
-        <target xml:lang="zh-TW">您也可以點選 匯出 按鈕來匯出搜尋結果為 CSV 檔案</target>
+      <trans-unit id="0b2827832fff3d973ee0ed2e6c7d4b23" approved="yes">
+        <source>PrestaShop can provide you with guidance on a regular basis by sending you tips on how to optimize the management of your store which will help you grow your business. If you do not wish to receive these tips, you can disable this option.</source>
+        <target xml:lang="zh-TW">PrestaShop 可以定期提供您建議，協助您優化商店的管理，藉此提昇業績。如果您不想收到這些建議，請取消勾選。</target>
         <note>Context:
-File: controllers/admin/AdminRequestSqlController.php:122</note>
+File: controllers/admin/AdminEmployeesController.php:326</note>
+      </trans-unit>
+      <trans-unit id="c4e326fcaa83c6b1ca3856175bb86d2e" approved="yes">
+        <source>This page will be displayed just after login.</source>
+        <target xml:lang="zh-TW">此頁面會在登入後顯示。</target>
+        <note>Context:
+File: controllers/admin/AdminEmployeesController.php:332</note>
+      </trans-unit>
+      <trans-unit id="d970370797ba19bba5524b480d3526fb" approved="yes">
+        <source>Allow or disallow this employee to log in to the Admin panel.</source>
+        <target xml:lang="zh-TW">是否允許這個員工登入管理介面。</target>
+        <note>Context:
+File: controllers/admin/AdminEmployeesController.php:367</note>
+      </trans-unit>
+      <trans-unit id="7bc873cba11f035df692c3549366c722" approved="yes">
+        <source>-- Choose --</source>
+        <target xml:lang="zh-TW">--選擇--</target>
+        <note>Context:
+File: controllers/admin/AdminEmployeesController.php:390</note>
+      </trans-unit>
+      <trans-unit id="1a7f0b984884e66e95a86b9b5d857b5b" approved="yes">
+        <source>Select the shops the employee is allowed to access.</source>
+        <target xml:lang="zh-TW">選擇這個員工能夠操作的商店</target>
+        <note>Context:
+File: controllers/admin/AdminEmployeesController.php:400</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminWebserviceController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
+    <body>
+      <trans-unit id="e8602bda90ef985a71054950e6f1981e" approved="yes">
+        <source>Before activating the webservice, you must be sure to: </source>
+        <target xml:lang="zh-TW">啟用網路服務前，您需要確定的是： </target>
+        <note>Context:
+File: controllers/admin/AdminWebserviceController.php:81</note>
+      </trans-unit>
+      <trans-unit id="45d7b1d28cb1afbb45fdb620db725c10" approved="yes">
+        <source>Check that URL rewriting is available on this server.</source>
+        <target xml:lang="zh-TW">請檢查伺服器是否支援網址改寫功能。</target>
+        <note>Context:
+File: controllers/admin/AdminWebserviceController.php:83</note>
+      </trans-unit>
+      <trans-unit id="60da463f081084680c973ec554a995bb" approved="yes">
+        <source>Check that the five methods GET, POST, PUT, DELETE and HEAD are supported by this server.</source>
+        <target xml:lang="zh-TW">主機需支援 GET, POST, PUT, DELETE, 和 HEAD</target>
+        <note>Context:
+File: controllers/admin/AdminWebserviceController.php:84</note>
       </trans-unit>
     </body>
   </file>
@@ -367,117 +394,232 @@ File: controllers/admin/AdminShopController.php:840</note>
       </trans-unit>
     </body>
   </file>
-  <file original="controllers/admin/AdminShopGroupController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
+  <file original="controllers/admin/AdminRequestSqlController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      <trans-unit id="0c2afe3d3eb02183ee182aa447608bc4" approved="yes">
-        <source>Warning: Enabling the "share customers" and "share orders" options is not recommended. Once activated and orders are created, you will not be able to disable these options. If you need these options, we recommend using several categories rather than several shops.</source>
-        <target xml:lang="zh-TW">警告：不建議啟用 "共用客戶" 與 "共用訂單" 選項，啟用且有訂單建立後就無法將它停用，如果確實有這樣的需求，建議用多個分類取代多個商店的結構</target>
+      <trans-unit id="68db67219aa1fd6e5f8820e20fd78b25" approved="yes">
+        <source>How do I create a new SQL query?</source>
+        <target xml:lang="zh-TW">如何新增一個SQL查詢?</target>
         <note>Context:
-File: controllers/admin/AdminShopGroupController.php:180</note>
+File: controllers/admin/AdminRequestSqlController.php:117</note>
       </trans-unit>
-      <trans-unit id="ee5d0efc6b5d41f7ee2ac5ea831f2a7f" approved="yes">
-        <source>Once this option is enabled, the shops in this group will share customers. If a customer registers in any one of these shops, the account will automatically be available in the others shops of this group.</source>
-        <target xml:lang="zh-TW">一旦啟用這個項目，在這個群組中的商店將會共用客戶。客戶在任一家商店註冊，他的帳戶將適用於這個群組中的所有商店。</target>
+      <trans-unit id="555f1c93c6aa30a9b28e5cb37eaade53" approved="yes">
+        <source>Click "Add New".</source>
+        <target xml:lang="zh-TW">點擊\"Add New\"</target>
         <note>Context:
-File: controllers/admin/AdminShopGroupController.php:206</note>
+File: controllers/admin/AdminRequestSqlController.php:119</note>
       </trans-unit>
-      <trans-unit id="dace58c348a19d7bddb7a3fe4fd3ebfa" approved="yes">
-        <source>Warning: you will not be able to disable this option once you have registered customers.</source>
-        <target xml:lang="zh-TW">警告：有客戶在您的商店註冊後，您就無法停用這個選項。</target>
+      <trans-unit id="b7ccdf6ab58f5514acc520721ddc9f08" approved="yes">
+        <source>Fill in the fields and click "Save".</source>
+        <target xml:lang="zh-TW">欄位內填寫內容後點選"儲存"</target>
         <note>Context:
-File: controllers/admin/AdminShopGroupController.php:206</note>
+File: controllers/admin/AdminRequestSqlController.php:120</note>
       </trans-unit>
-      <trans-unit id="059a6f0b1a0a28d15ee51fe80670f6f2" approved="yes">
-        <source>Once this option is enabled (which is only possible if customers and available quantities are shared among shops), the customer's cart will be shared by all shops in this group. This way, any purchase started in one shop will be able to be completed in another shop from the same group.</source>
-        <target xml:lang="zh-TW">一旦啟用這個選項（只有在客戶與可用數量在多個商店共用時），客戶的購物車在這個群組的商店也會共用。透過這個方式，任何在一個商店開始的採購都可以在同群組的商店結帳。警告：一旦開始有訂單建立就無法停用這個選項。</target>
+      <trans-unit id="29147406190a86209d5f4b3080cc7fa9" approved="yes">
+        <source>You can also export the query results as a CSV file by clicking on the Export button</source>
+        <target xml:lang="zh-TW">您也可以點選 匯出 按鈕來匯出搜尋結果為 CSV 檔案</target>
         <note>Context:
-File: controllers/admin/AdminShopGroupController.php:245</note>
-      </trans-unit>
-      <trans-unit id="697ce708715d1f771177623968e8c6a4" approved="yes">
-        <source>Warning: You will not be able to disable this option once you've started to accept orders.</source>
-        <target xml:lang="zh-TW">警告：一旦您已經開始接受訂單，您將無法停用此選項。</target>
-        <note>Context:
-File: controllers/admin/AdminShopGroupController.php:245</note>
-      </trans-unit>
-      <trans-unit id="e667b16af30e0820218ad32242e284dc" approved="yes">
-        <source>Enable or disable this shop group?</source>
-        <target xml:lang="zh-TW">啟動或關閉此店鋪群組？</target>
-        <note>Context:
-File: controllers/admin/AdminShopGroupController.php:264</note>
+File: controllers/admin/AdminRequestSqlController.php:122</note>
       </trans-unit>
     </body>
   </file>
-  <file original="controllers/admin/AdminShopUrlController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
+  <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      <trans-unit id="c688fbbc9468ea3473172ca924290860" approved="yes">
-        <source>If you want to add a virtual URL, you need to activate URL rewriting on your web server and enable Friendly URL option.</source>
-        <target xml:lang="zh-TW">如果您想要新增一個虛擬URL，您必須在伺服器上啟動URL覆寫，並啟用Friendly URL選項。</target>
+      <trans-unit id="11cd708df7411da4546d8580356e711a" approved="yes">
+        <source>Ignore this field if you don't use the Multistore tool. If you leave this field empty, the default shop will be used.</source>
+        <target xml:lang="zh-TW">如果沒有使用多商店工具請忽略這個欄位，空白表示使用預設商店</target>
         <note>Context:
-File: controllers/admin/AdminShopUrlController.php:122</note>
+File: controllers/admin/AdminImportController.php:493</note>
       </trans-unit>
-      <trans-unit id="05f8f0fab3ff5d86e0de9db902da7045" approved="yes">
-        <source>You can use this option if you want to create a store with a URL that doesn't exist on your server (e.g. if you want your store to be available with the URL www.example.com/my-store/shoes/, you have to set shoes/ in this field, assuming that my-store/ is your Physical URL).</source>
-        <target xml:lang="zh-TW">如果您希望用一個伺服器上不存在的網址建立商店就使用這個選項 （例如您希望商店網址為 www.my-prestashop.com/my-store/shoes/ ，這裡就輸入 shoes/ ，不過這是假設 my-store/ 是實體網址）</target>
+      <trans-unit id="5702db29cfdd93934ed330edb201ecf3" approved="yes">
+        <source>Enable Advanced Stock Management on product (0 = No, 1 = Yes)</source>
+        <target xml:lang="zh-TW">啟用此商品的進階庫存管理(0=否，1=是)</target>
         <note>Context:
-File: controllers/admin/AdminShopUrlController.php:126</note>
+File: controllers/admin/AdminImportController.php:153</note>
       </trans-unit>
-      <trans-unit id="f6e7829277b67d5a8805d6728a810362" approved="yes">
-        <source>URL rewriting must be activated on your server to use this feature.</source>
-        <target xml:lang="zh-TW">這個功能需要您的主機啟用網址結構重寫功能(URL Rewriting)</target>
+      <trans-unit id="2d743ae4c74db2a22d79e1e950e719e5" approved="yes">
+        <source>0 = Use quantity set in product, 1 = Use quantity from warehouse.</source>
+        <target xml:lang="zh-TW">0=使用此商品數量設定，1=使用倉庫定義的商品數量</target>
         <note>Context:
-File: controllers/admin/AdminShopUrlController.php:127</note>
+File: controllers/admin/AdminImportController.php:297</note>
       </trans-unit>
-      <trans-unit id="a2e8a639b5fd3e34ab4def1e7aac3383" approved="yes">
-        <source>If you set this URL as the Main URL for the selected shop, all URLs set to this shop will be redirected to this URL (you can only have one Main URL per shop).</source>
-        <target xml:lang="zh-TW">如果您將這個網址設定為指定商店的主要網址，所有設定到這個商店的網址都會轉往這個網址（每個商店只能夠有一個主要網址）</target>
+      <trans-unit id="aaf88088b0ac3f2992888fdfe00b5d76" approved="yes">
+        <source>ID of the warehouse to set as storage.</source>
+        <target xml:lang="zh-TW">此商品的倉庫ID</target>
         <note>Context:
-File: controllers/admin/AdminShopUrlController.php:172</note>
+File: controllers/admin/AdminImportController.php:301</note>
       </trans-unit>
-      <trans-unit id="819e18d335155ef4a9cdfe926ac8a3de" approved="yes">
-        <source>Since the selected shop has no main URL, you have to set this URL as the Main URL.</source>
-        <target xml:lang="zh-TW">因為選擇的商店沒有主要網址，您必須將這個網址設定為主要</target>
+      <trans-unit id="4bc14a0f722453ba235bc3fb52d95ffb" approved="yes">
+        <source>A category root is where a category tree can begin. This is used with multistore.</source>
+        <target xml:lang="zh-TW">一個根分類表示一個分類樹的開始，通常用在多商店功能</target>
         <note>Context:
-File: controllers/admin/AdminShopUrlController.php:174</note>
+File: controllers/admin/AdminImportController.php:192</note>
       </trans-unit>
-      <trans-unit id="fe42e7cf02611b9719a6db6513de19eb" approved="yes">
-        <source>The selected shop already has a Main URL. Therefore, if you set this one as the Main URL, the older Main URL will be set as a regular URL.</source>
-        <target xml:lang="zh-TW">選擇的商店已經有主要網址，如果將這個網址設為主要，其他的就會設定為一般網址。</target>
+      <trans-unit id="7506b41cf1aa65b2663b038e465c0d6d" approved="yes">
+        <source>Enable Advanced Stock Management on product (0 = No, 1 = Yes).</source>
+        <target xml:lang="zh-TW">啟用進階庫存管理(0=否，1=是)</target>
         <note>Context:
-File: controllers/admin/AdminShopUrlController.php:178</note>
+File: controllers/admin/AdminImportController.php:293</note>
       </trans-unit>
-      <trans-unit id="7e7b350e5cee624789b1e263ec59db26" approved="yes">
-        <source>This is the physical folder for your store on the web server. Leave this field empty if your store is installed on the root path. For instance, if your store is available at www.example.com/my-store/, you must input my-store/ in this field.</source>
-        <target xml:lang="zh-TW">這是商店在伺服器上的實體路徑，如果商店安裝在網頁根目錄就保持空白即可（例如您的商店網址為 www.example.com/my-store/ ，這裡就需要輸入 my-store/ ）</target>
+      <trans-unit id="e81c4e4f2b7b93b481e13a8553c2ae1b" approved="yes">
+        <source>or</source>
+        <target xml:lang="zh-TW">或</target>
         <note>Context:
-File: controllers/admin/AdminShopUrlController.php:241</note>
-      </trans-unit>
-      <trans-unit id="29f3eb1bea3049b52600a18ad4d0b96c" approved="yes">
-        <source>Warning: URL rewriting (e.g. mod_rewrite for Apache) seems to be disabled. If your Virtual URL doesn't work, please check with your hosting provider on how to activate URL rewriting.</source>
-        <target xml:lang="zh-TW">警告：網址重寫（例如 Apache 的 mod_rewrite）停用中，如果網址無法運作，請洽尋主機提供者來啟用網址重寫功能。</target>
-        <note>Context:
-File: controllers/admin/AdminShopUrlController.php:256</note>
+File: controllers/admin/AdminImportController.php:972
+ Comment: Special case for Product : either one or the other. Not both.</note>
       </trans-unit>
     </body>
   </file>
-  <file original="controllers/admin/AdminWebserviceController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
+  <file original="admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      <trans-unit id="e8602bda90ef985a71054950e6f1981e" approved="yes">
-        <source>Before activating the webservice, you must be sure to: </source>
-        <target xml:lang="zh-TW">啟用網路服務前，您需要確定的是： </target>
+      <trans-unit id="20fbc8f64351875f498d7d6f8c91810b" approved="yes">
+        <source>How to restore a database backup in 10 easy steps</source>
+        <target xml:lang="zh-TW">如何通過簡單的10步來恢復數據庫備份</target>
         <note>Context:
-File: controllers/admin/AdminWebserviceController.php:81</note>
+File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:82</note>
       </trans-unit>
-      <trans-unit id="45d7b1d28cb1afbb45fdb620db725c10" approved="yes">
-        <source>Check that URL rewriting is available on this server.</source>
-        <target xml:lang="zh-TW">請檢查伺服器是否支援網址改寫功能。</target>
+    </body>
+  </file>
+  <file original="admin-dev/themes/default/template/controllers/backup/download/view.tpl" source-language="en" target-language="zh-TW" datatype="plaintext">
+    <body>
+      <trans-unit id="7bf215c957e661c3bd8ad7f6221675c9" approved="yes">
+        <source>Set "Enable Shop" to "No" in the "Maintenance" page under the "Preferences" menu.</source>
+        <target xml:lang="zh-TW">在偏好設定選單的維護，將 "啟用商店" 設定為 "否"</target>
         <note>Context:
-File: controllers/admin/AdminWebserviceController.php:83</note>
+File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:71</note>
       </trans-unit>
-      <trans-unit id="60da463f081084680c973ec554a995bb" approved="yes">
-        <source>Check that the five methods GET, POST, PUT, DELETE and HEAD are supported by this server.</source>
-        <target xml:lang="zh-TW">主機需支援 GET, POST, PUT, DELETE, 和 HEAD</target>
+      <trans-unit id="2dc09c116021fe75dd928d368a35e9d7" approved="yes">
+        <source>Download the backup from the list below or from your FTP server (in the folder "admin/backups").</source>
+        <target xml:lang="zh-TW">從下面列表或是進入 FTP 下載備份（在資料夾 "admin/backups"）</target>
         <note>Context:
-File: controllers/admin/AdminWebserviceController.php:84</note>
+File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:72</note>
+      </trans-unit>
+      <trans-unit id="3a86c87939c6bbaba4cb2e44e4734146" approved="yes">
+        <source>Check the backup integrity: Look for errors, incomplete file, etc... Be sure to verify all of your data.</source>
+        <target xml:lang="zh-TW">檢查備份檔案正確性, 找尋錯誤或是不完整的檔案, 以確認所有資料</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:73</note>
+      </trans-unit>
+      <trans-unit id="0ba394816eab81959ea7c442801b0819" approved="yes">
+        <source>Please ask your hosting provider for "phpMyAdmin" access to your database.</source>
+        <target xml:lang="zh-TW">要求您的網站代管廠商提供 phpmyadmin工具來存取您的資料庫</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:74</note>
+      </trans-unit>
+      <trans-unit id="04abc58df1575dd465a28c86d859d302" approved="yes">
+        <source>Connect to "phpMyAdmin" and select your current database.</source>
+        <target xml:lang="zh-TW">使用 phpmyadmin 來選擇您現在的資料庫</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:75</note>
+      </trans-unit>
+      <trans-unit id="197ebd1d022def92dd1c64aae3320d6a" approved="yes">
+        <source>Unless you enabled the "Drop existing tables" option, you must delete all tables from your current database.</source>
+        <target xml:lang="zh-TW">除非您開啟了 "移除現有資料表" 選項，否則您只能手動從資料庫刪除所有資料表</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:76</note>
+      </trans-unit>
+      <trans-unit id="7d6044f9c5ec3bb7b89ac9328a871b2f" approved="yes">
+        <source>At the top of the screen, please select the "Import" tab</source>
+        <target xml:lang="zh-TW">在畫面上方，請選擇 "導入" 頁籤</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:77</note>
+      </trans-unit>
+      <trans-unit id="6463499cc4522ee5cef415d727f543a3" approved="yes">
+        <source>Click on the "Browse" button and select the backup file from your hard drive.</source>
+        <target xml:lang="zh-TW">點擊 "Browse..."按鈕並由您的電腦選擇備份檔案</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:78</note>
+      </trans-unit>
+      <trans-unit id="d24e59c4885823395588f1b480876da5" approved="yes">
+        <source>If your backup file exceeds this limit, contact your hosting provider for assistance. </source>
+        <target xml:lang="zh-TW">如果您的備份檔案超過上限, 請聯絡您的網路服務商。 </target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:79</note>
+      </trans-unit>
+      <trans-unit id="44b2f277fe0d0365bbc168e617387c73" approved="yes">
+        <source>Click on the "Go" button and please wait patiently for the import process to conclude. This may take several minutes.</source>
+        <target xml:lang="zh-TW">點擊“Go”按鈕，請耐心等待導入過程結束。 這可能會需要幾分鐘。</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:80</note>
+      </trans-unit>
+      <trans-unit id="0869c85782ee2481b83a9f580a09e963" approved="yes">
+        <source>PrestaShop is not responsible for your database, its backups and/or recovery.</source>
+        <target xml:lang="zh-TW">PrestaShop不對您的資料庫, 備份以及資料負責</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:48</note>
+      </trans-unit>
+      <trans-unit id="35fc59a69cdc61281d4ac5780212911d" approved="yes">
+        <source>How to restore a database backup in 10 easy steps:</source>
+        <target xml:lang="zh-TW">透過十個簡單步驟還原一個資料庫備份：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:69</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl" source-language="en" target-language="zh-TW" datatype="plaintext">
+    <body>
+      <trans-unit id="084ad8abffc138f8d43f0a77824396b9" approved="yes">
+        <source>You can read information on import at:</source>
+        <target xml:lang="zh-TW">您可以閱讀更多關於匯入的資訊：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:41</note>
+      </trans-unit>
+      <trans-unit id="4e7357d876d6d15fe084be41934e6555" approved="yes">
+        <source>http://doc.prestashop.com/display/PS17/Import</source>
+        <target xml:lang="zh-TW">http://doc.prestashop.com/display/PS17/Import</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:42</note>
+      </trans-unit>
+      <trans-unit id="18b28335d15dcd62f8af153c4c137af5" approved="yes">
+        <source>http://en.wikipedia.org/wiki/Comma-separated_values</source>
+        <target xml:lang="zh-TW">http://en.wikipedia.org/wiki/Comma-separated_values</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:45</note>
+      </trans-unit>
+      <trans-unit id="a27780d9bb7b3595998465aadcaaeed7" approved="yes">
+        <source>Allowed formats: .csv, .xls, .xlsx, .xlst, .ods, .ots</source>
+        <target xml:lang="zh-TW">允許的檔案格式：.csv, .xls, .xlsx, .xlst, .ods, .ots</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:87</note>
+      </trans-unit>
+      <trans-unit id="b070d64c5a2f10b4b8eb361ba4f61833" approved="yes">
+        <source>e.g. </source>
+        <target xml:lang="zh-TW">例如 </target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:211</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="admin-dev/themes/default/template/controllers/logs/helpers/list/list_header.tpl" source-language="en" target-language="zh-TW" datatype="plaintext">
+    <body>
+      <trans-unit id="3979bb684920e9e9dc86e266f93d8c87" approved="yes">
+        <source>Severity levels</source>
+        <target xml:lang="zh-TW">嚴重程錄</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/logs/helpers/list/list_header.tpl:33</note>
+      </trans-unit>
+      <trans-unit id="b80c52e7f679fba3c2837b42705fe779" approved="yes">
+        <source>Informative only</source>
+        <target xml:lang="zh-TW">僅有益的</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/logs/helpers/list/list_header.tpl:37</note>
+      </trans-unit>
+      <trans-unit id="0eaadb4fcb48a0a0ed7bc9868be9fbaa" approved="yes">
+        <source>Warning</source>
+        <target xml:lang="zh-TW">警告</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/logs/helpers/list/list_header.tpl:38</note>
+      </trans-unit>
+      <trans-unit id="902b0d55fddef6f8d651fe1035b7d4bd" approved="yes">
+        <source>Error</source>
+        <target xml:lang="zh-TW">錯誤</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/logs/helpers/list/list_header.tpl:39</note>
+      </trans-unit>
+      <trans-unit id="4a378407770df6a42474ec5db9f54740" approved="yes">
+        <source>Major issue (crash)!</source>
+        <target xml:lang="zh-TW">重要問題(損毀)</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/logs/helpers/list/list_header.tpl:40</note>
       </trans-unit>
     </body>
   </file>
