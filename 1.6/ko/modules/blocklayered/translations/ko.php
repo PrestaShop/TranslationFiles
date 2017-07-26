@@ -9,7 +9,7 @@ $_MODULE['<{blocklayered}prestashop>blocklayered_03c2e7e41ffc181a4e84080b4710e81
 $_MODULE['<{blocklayered}prestashop>blocklayered_019d1ca7d50cc54b995f60d456435e87'] = '사용됨';
 $_MODULE['<{blocklayered}prestashop>blocklayered_fcebe56087b9373f15514831184fa572'] = '재고물품순으로';
 $_MODULE['<{blocklayered}prestashop>blocklayered_c0bd7654d5b278e65f21cf4e9153fdb4'] = '제조사';
-$_MODULE['<{blocklayered}prestashop>blocklayered_af1b98adf7f686b84cd0b443e022b7a0'] = '목록';
+$_MODULE['<{blocklayered}prestashop>blocklayered_af1b98adf7f686b84cd0b443e022b7a0'] = '분류';
 $_MODULE['<{blocklayered}prestashop>blocklayered-no-products_5c9838becf9bbce28ba90a7426daf171'] = '상품이 없습니다.';
 $_MODULE['<{blocklayered}prestashop>blocklayered_ea4788705e6873b424c65e91c2846b19'] = '취소';
 $_MODULE['<{blocklayered}prestashop>blocklayered_01b6e20344b68835c5ed1ddedf20d531'] = '까지';
@@ -22,7 +22,7 @@ $_MODULE['<{blocklayered}prestashop>add_c9cc8cce247e49bae79f15173ce97354'] = '�
 $_MODULE['<{blocklayered}prestashop>add_ea4788705e6873b424c65e91c2846b19'] = '취소';
 $_MODULE['<{blocklayered}prestashop>view_1.6_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
 $_MODULE['<{blocklayered}prestashop>view_1.6_49ee3087348e8d44e1feda1917443987'] = '이름';
-$_MODULE['<{blocklayered}prestashop>view_1.6_af1b98adf7f686b84cd0b443e022b7a0'] = '목록';
+$_MODULE['<{blocklayered}prestashop>view_1.6_af1b98adf7f686b84cd0b443e022b7a0'] = '분류';
 $_MODULE['<{blocklayered}prestashop>view_1.6_06df33001c1d7187fdd81ea1f5b277aa'] = '동작';
 $_MODULE['<{blocklayered}prestashop>view_1.6_7dce122004969d56ae2e0245cb754d35'] = '수정';
 $_MODULE['<{blocklayered}prestashop>view_1.6_f2a6c498fb90ee345d997f888fce3b18'] = '삭제';
@@ -32,7 +32,7 @@ $_MODULE['<{blocklayered}prestashop>view_1.6_bafd7322c6e97d25b6299b5d6fe8920b'] 
 $_MODULE['<{blocklayered}prestashop>view_1.6_c9cc8cce247e49bae79f15173ce97354'] = '저장';
 $_MODULE['<{blocklayered}prestashop>view_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
 $_MODULE['<{blocklayered}prestashop>view_49ee3087348e8d44e1feda1917443987'] = '이름';
-$_MODULE['<{blocklayered}prestashop>view_af1b98adf7f686b84cd0b443e022b7a0'] = '목록';
+$_MODULE['<{blocklayered}prestashop>view_af1b98adf7f686b84cd0b443e022b7a0'] = '분류';
 $_MODULE['<{blocklayered}prestashop>view_06df33001c1d7187fdd81ea1f5b277aa'] = '동작';
 $_MODULE['<{blocklayered}prestashop>view_7dce122004969d56ae2e0245cb754d35'] = '수정';
 $_MODULE['<{blocklayered}prestashop>view_f2a6c498fb90ee345d997f888fce3b18'] = '삭제';
