@@ -44,7 +44,7 @@ $_LANGMAIL['We will answer as soon as possible.'] = 'Postaramy się odpowiedzie�
 $_LANGMAIL['Message from a {shop_name} customer'] = 'Wiadomość od klienta {shop_name}';
 $_LANGMAIL['Customer e-mail address:'] = 'Adres e-mail klienta:';
 $_LANGMAIL['Customer message:'] = 'Wiadomość klienta:';
-$_LANGMAIL['Credit slip created'] = 'Druk kredytowy utworzony';
+$_LANGMAIL['Credit slip created'] = 'Utworzono potwierdzenie zwrotu';
 $_LANGMAIL['We have generated a credit slip in your name for order with the reference <span><strong>{order_name}</strong></span>.'] = 'Wygenerowaliśmy pokwitowanie z Twoimi danymi dla zamówienia o numerze <span><strong>{order_name}</strong></span>.';
 $_LANGMAIL['You can review this credit slip and download your invoice from the <a href="{history_url}">"My credit slips"</a> section of your account by clicking <a href="{my_account_url}">"My account"</a> on our shop.'] = 'Możesz przejrzeć tę notę kredytową oraz pobrać fakturę z sekcji <a href="{history_url}">"Moje noty kredytowe"</a> na Twoim koncie klikając <a href="{my_account_url}">"Moje konto"</a> w naszym sklepie.';
 $_LANGMAIL['Thank you for your order with the reference {order_name} from <strong>{shop_name}</strong>'] = 'Dziękujemy za złożenie zamówienia numer {order_name} w sklepie <strong>{shop_name}</strong>';

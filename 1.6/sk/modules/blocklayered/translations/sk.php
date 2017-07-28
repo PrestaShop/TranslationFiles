@@ -18,7 +18,7 @@ $_MODULE['<{blocklayered}prestashop>blocklayered_fa03eb688ad8aa1db593d33dabd89ba
 $_MODULE['<{blocklayered}prestashop>blocklayered_a3868119dc6858db57127fd26e6f9656'] = 'Moja šablóna - %s';
 $_MODULE['<{blocklayered}prestashop>blocklayered_3601146c4e948c32b6424d2c0a7f0118'] = 'Cena';
 $_MODULE['<{blocklayered}prestashop>blocklayered_8c489d0946f66d17d73f26366a4bf620'] = 'Hmotnosť';
-$_MODULE['<{blocklayered}prestashop>blocklayered_03c2e7e41ffc181a4e84080b4710e81e'] = 'Nové';
+$_MODULE['<{blocklayered}prestashop>blocklayered_03c2e7e41ffc181a4e84080b4710e81e'] = 'Novinka';
 $_MODULE['<{blocklayered}prestashop>blocklayered_019d1ca7d50cc54b995f60d456435e87'] = 'Použité';
 $_MODULE['<{blocklayered}prestashop>blocklayered_6da03a74721a0554b7143254225cc08a'] = 'Repasované';
 $_MODULE['<{blocklayered}prestashop>blocklayered_9e2941b3c81256fac10392aaca4ccfde'] = 'Stav';
@@ -279,7 +279,7 @@ $_MODULE['<{blocklayered}prestashop>feature_value_form_a6c8c88e5e16cba7b9d65ca76
 $_MODULE['<{blocklayered}prestashop>feature_value_form_28034a200e932f22b324a4dda1bb9f64'] = 'Nepovolené znaky: <>;=#{}_';
 $_MODULE['<{blocklayered}prestashop>feature_value_form_9e11e4b371570340ca07913bc4783a7a'] = 'Meta názov';
 $_MODULE['<{blocklayered}prestashop>feature_value_form_26029c4864b0b6843acfe55ee14ba807'] = 'Ak je povolený modul "Blok rozšírená navigácia", môžete získať podrobnejšie URL odkazy výberom slova, ktoré najlepšie vystihuje tento atribút. V predvolenom nastavení PrestaShop používa názov hodnôt, ale toto nastavenie môžete pomocou tohto poľa zmeniť.';
-$_MODULE['<{blocklayered}prestashop>blocklayered_c32516babc5b6c47eb8ce1bfc223253c'] = 'Filter';
+$_MODULE['<{blocklayered}prestashop>blocklayered_c32516babc5b6c47eb8ce1bfc223253c'] = 'Katalóg';
 
 
 return $_MODULE;
