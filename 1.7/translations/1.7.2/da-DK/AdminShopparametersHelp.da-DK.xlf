@@ -466,6 +466,12 @@ File: controllers/admin/AdminCustomerPreferencesController.php:61</note>
         <note>Context:
 File: controllers/admin/AdminCustomerPreferencesController.php:70</note>
       </trans-unit>
+      <trans-unit id="69b3bcd0dba13c9f1188ab86480afca4" approved="yes">
+        <source>Display or not the birth date field.</source>
+        <target xml:lang="da">Vis eller vis ikke feltet Fødselsdato.</target>
+        <note>Context:
+File: controllers/admin/AdminCustomerPreferencesController.php:77</note>
+      </trans-unit>
       <trans-unit id="3bc07e4ecf0660962221cf030b935d9d" approved="yes">
         <source>Display or not the partner offers tick box, to receive offers from the store's partners.</source>
         <target xml:lang="da">Vis eller vis ikke afkrydningsfeltet til partnertilbud for at modtage tilbud fra butikkens partnere.</target>
@@ -752,6 +758,12 @@ File: admin-dev/themes/default/template/controllers/referrers/helpers/form/form.
         <note>Context:
 File: admin-dev/themes/default/template/controllers/referrers/helpers/form/form.tpl:35</note>
       </trans-unit>
+      <trans-unit id="b0194c3357e1b561284a08ba9c8625c7" approved="yes">
+        <source>The "http_referer" field is the website from which your customers arrive.</source>
+        <target xml:lang="da">Feltet "http_referer" er det websted, hvor dine kunder kommer fra.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/referrers/helpers/form/form.tpl:38</note>
+      </trans-unit>
       <trans-unit id="e1bc4efa13a13333c86fdf2eb70a0c38" approved="yes">
         <source>For example, visitors coming from Google will have an "http_referer" value like this one: "http://www.google.com/search?q=prestashop".</source>
         <target xml:lang="da">F.eks. vil kunder, der kommer fra Google have en "http_referer" som denne: "http://www.google.com/search?q=prestashop".</target>
@@ -770,11 +782,35 @@ File: admin-dev/themes/default/template/controllers/referrers/helpers/form/form.
         <note>Context:
 File: admin-dev/themes/default/template/controllers/referrers/helpers/form/form.tpl:41</note>
       </trans-unit>
+      <trans-unit id="41b06c521ee2d1075f9bd3b12e8758a5" approved="yes">
+        <source>The "request_uri" field is the URL from which the customers come to your website.</source>
+        <target xml:lang="da">Feltet "request_uri" er den URL-adresse, som kunderne kommer fra til dit websted.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/referrers/helpers/form/form.tpl:45</note>
+      </trans-unit>
+      <trans-unit id="aa9eb9d62ab328d8da04b77469fbb6c8" approved="yes">
+        <source>For example, if the visitor accesses a product page, the URL will be like this one: "%smusic-ipods/1-ipod-nano.html".</source>
+        <target xml:lang="da">Hvis den besøgende for eksempel åbner en vareside, vil URL-adressen se sådan ud: "%smusic-ipods/1-ipod-nano.html".</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/referrers/helpers/form/form.tpl:46</note>
+      </trans-unit>
       <trans-unit id="4451a0228098136036ced8d9b7478ed9" approved="yes">
         <source>This is helpful because you can add tags or tokens in the links pointing to your website.</source>
         <target xml:lang="da">Det er interessant, fordi du kan tilføje nogle tags eller tokens i linkene, der peger på din webshop.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/referrers/helpers/form/form.tpl:47</note>
+      </trans-unit>
+      <trans-unit id="6ca25929481cee3aef9cda0f7d309f9d" approved="yes">
+        <source>For example, you can post a link (such as "%sindex.php?myuniquekeyword" -- note that you added "?myuniquekeyword" at the end of the URL) in an online forum or as a blog comment, and get visitors statistics for that unique link by entering "%%myuniquekeyword" in the "request_uri" field.</source>
+        <target xml:lang="da">Du kan for eksempel opslå et link (såsom "%sindex.php?myuniquekeyword". Bemærk, at du tilføjede "?myuniquekeyword" til sidst i URL-adressen) i et onlineforum eller som en blogkommentar og få statistikker over besøgende for det entydige link ved at indtaste "%%myuniquekeyword" i feltet "request_uri".</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/referrers/helpers/form/form.tpl:48</note>
+      </trans-unit>
+      <trans-unit id="07d199fdf852bd9dc4d899b6cd2a16e7" approved="yes">
+        <source>This method is more reliable than the "http_referer" one, but there is one disadvantage: if a search engine references a page with your link, then it will be displayed in the search results and you will not only indicate visitors from the places where you posted the link, but also those from the search engines that picked up that link.</source>
+        <target xml:lang="da">Denne metode er mere pålidelig end den med "http_referer", men der er en ulempe. Hvis en søgemaskine henviser til en side med dit link, så bliver det vist i søgeresultaterne, og du vil ikke alene angive besøgende fra de steder, hvor du opslog linket, men også dem fra søgemaskinerne, der registrerede det link.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/referrers/helpers/form/form.tpl:49</note>
       </trans-unit>
       <trans-unit id="2a7510ee054a824a06c67cb30a9dc85f" approved="yes">
         <source>The "Include" fields indicate what has to be included in the URL.</source>
@@ -806,6 +842,18 @@ File: admin-dev/themes/default/template/controllers/referrers/helpers/form/form.
         <note>Context:
 File: admin-dev/themes/default/template/controllers/referrers/helpers/form/form.tpl:64</note>
       </trans-unit>
+      <trans-unit id="5d23fb29ee98e1f050bc9dabbcca667d" approved="yes">
+        <source>The Simple mode uses the MySQL "LIKE" pattern matching, but for a higher potency you can use MySQL's regular expressions in the Expert mode.</source>
+        <target xml:lang="da">Metoden Simple benytter MySQLs "LIKE" mønstermatching. En mere slagkraftig løsning kan opnås ved at benytte MySQLs regulære udtryk i eksperttilstand.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/referrers/helpers/form/form.tpl:69</note>
+      </trans-unit>
+      <trans-unit id="88b3441035077ae06f817c3b4afb8d2a" approved="yes">
+        <source>Take a look at MySQL's documentation for more details.</source>
+        <target xml:lang="da">Læs mere om MySQL i dokumentationen.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/referrers/helpers/form/form.tpl:70</note>
+      </trans-unit>
       <trans-unit id="2d0c2b736fa1ab8ce149d26fc36e453a" approved="yes">
         <source>Get help!</source>
         <target xml:lang="da">Få hjælp!</target>
@@ -821,6 +869,12 @@ File: admin-dev/themes/default/template/controllers/referrers/helpers/form/form.
         <target xml:lang="da">Der er en enorm mængde af data, så hver forbindelse, der svarer til en henvisning, bliver indekseret. Du kan opdatere dette indeks ved at klikke på knappen nedenfor. Vær opmærksom på, at det kan tage lang tid, og det kun er nødvendigt, hvis du enten ændrer eller tilføjer en henvisning, eller ønsker dine ændringer med tilbagevirkende kraft.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/referrers/form_settings.tpl:32</note>
+      </trans-unit>
+      <trans-unit id="6c4defc21d9e7428d7fe81a81f8eb05d" approved="yes">
+        <source>Your data is cached in order to sort it and filter it. You can refresh the cache by clicking on the "Refresh cache" button.</source>
+        <target xml:lang="da">Dine data bliver cachelagret for at sortere og filtrere dem. Du kan opdatere cachelageret ved at klikke på knappen "Opdater cachelager".</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/referrers/form_settings.tpl:45</note>
       </trans-unit>
       <trans-unit id="42bb6e7b5d150acfa5243c250d864cbc" approved="yes">
         <source>Direct traffic can be quite resource-intensive. You should consider enabling it only if you have a strong need for it.</source>

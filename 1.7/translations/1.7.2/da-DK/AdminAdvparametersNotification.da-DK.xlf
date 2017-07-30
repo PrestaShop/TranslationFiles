@@ -222,6 +222,12 @@ File: controllers/admin/AdminPerformanceController.php:648</note>
         <note>Context:
 File: controllers/admin/AdminPerformanceController.php:704</note>
       </trans-unit>
+      <trans-unit id="91e3dffab90db947ea156087dadaa9c0" approved="yes">
+        <source>Before being able to use this tool, you need to:[1][2]Create a blank .htaccess in your root directory.[/2][2]Give it write permissions (CHMOD 666 on Unix system).[/2][/1]</source>
+        <target xml:lang="da">Før du kan benytte dette værktøj, skal du: [1][2]Oprette en tom .htaccess i rodmappen.[/2][2]Tildele den skrivetilladelse (CHMOD 666 på Unix-system).[/2][/1]</target>
+        <note>Context:
+File: controllers/admin/AdminPerformanceController.php:737</note>
+      </trans-unit>
       <trans-unit id="ea030df6cb392bef66cde22c94578ae4" approved="yes">
         <source>Media server #1 is invalid</source>
         <target xml:lang="da">Medieserver #1 er ugyldig</target>
@@ -402,11 +408,29 @@ File: controllers/admin/AdminWebserviceController.php:252</note>
         <note>Context:
 File: controllers/admin/AdminWebserviceController.php:272</note>
       </trans-unit>
+      <trans-unit id="d6305f2f8c5c0f95a367e618a64bb458" approved="yes">
+        <source>Please activate the 'mod_auth_basic' Apache module to allow authentication of PrestaShop's webservice.</source>
+        <target xml:lang="da">Aktivér Apache-modulet "mod_auth_basic", så PrestaShops webservice kan blive godkendt.</target>
+        <note>Context:
+File: controllers/admin/AdminWebserviceController.php:276</note>
+      </trans-unit>
+      <trans-unit id="e11a22a5910f9f84a6630ee78e1a39f5" approved="yes">
+        <source>Please activate the 'mod_rewrite' Apache module to allow the PrestaShop webservice.</source>
+        <target xml:lang="da">Aktivér Apache-modulet "mod_rewrite" for at tillade PrestaShops webservice.</target>
+        <note>Context:
+File: controllers/admin/AdminWebserviceController.php:279</note>
+      </trans-unit>
       <trans-unit id="2c19e4b707a422ddbbc4d1c32966661d" approved="yes">
         <source>We could not check to see if basic authentication and rewrite extensions have been activated. Please manually check if they've been activated in order to use the PrestaShop webservice.</source>
         <target xml:lang="da">Vi kunne ikke kontrollere, om basis authentication og omskrivningsudvidelserne er aktiveret. Kontroller venligst manuelt, om de er aktiveret for at benytte PrestaShop WebService.</target>
         <note>Context:
 File: controllers/admin/AdminWebserviceController.php:282</note>
+      </trans-unit>
+      <trans-unit id="ab60321a106f1e1ab65b76c1ca15dd7c" approved="yes">
+        <source>Please activate the 'SimpleXML' PHP extension to allow testing of PrestaShop's webservice.</source>
+        <target xml:lang="da">Aktivér venligst PHP-filtypen "SimpleXML" for at tillade test af PrestaShops webservice.</target>
+        <note>Context:
+File: controllers/admin/AdminWebserviceController.php:286</note>
       </trans-unit>
       <trans-unit id="0508bbb36fb6b5db31edf2f45cd687ea" approved="yes">
         <source>It is preferable to use SSL (https:) for webservice calls, as it avoids the "man in the middle" type security issues.</source>
@@ -646,6 +670,12 @@ File: controllers/admin/AdminRequestSqlController.php:506</note>
         <note>Context:
 File: controllers/admin/AdminRequestSqlController.php:514</note>
       </trans-unit>
+      <trans-unit id="890f261dbde9c8c5ac0a40c74b1a3a2c" approved="yes">
+        <source>"%s" is an unauthorized keyword.</source>
+        <target xml:lang="da">"%s" er et uautoriseret søgeord.</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:523</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="da" datatype="plaintext">
@@ -853,6 +883,12 @@ File: controllers/admin/AdminImportController.php:2206</note>
         <target xml:lang="da">Avanceret lagerstyring er ikke aktiveret, "Afhænger af lagerbeholdningen" kan ikke indstilles for produktet %1$s </target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2734</note>
+      </trans-unit>
+      <trans-unit id="994e8f1b72a9fe7a9e8949343be6bde7" approved="yes">
+        <source>%data% cannot be saved</source>
+        <target xml:lang="da">%data% kan ikke gemmes</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3114</note>
       </trans-unit>
       <trans-unit id="5c8707f79dbdd3abb28a8aa09e34f02f" approved="yes">
         <source>No image was found for combination with id_product = %s and image position = %s.</source>
@@ -1086,6 +1122,84 @@ File: controllers/admin/AdminImportController.php:4601</note>
   </file>
   <file original="admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl" source-language="en" target-language="da" datatype="plaintext">
     <body>
+      <trans-unit id="d85366190ecd2aebf8363980ad9d6740" approved="yes">
+        <source>Importing your data...</source>
+        <target xml:lang="da">Importerer data...</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:76</note>
+      </trans-unit>
+      <trans-unit id="8a1d14318cfc965da76c0b9d0a53bb93" approved="yes">
+        <source>Aborting, please wait...</source>
+        <target xml:lang="da">Handlingen afbrydes. Vent venligst...</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:27</note>
+      </trans-unit>
+      <trans-unit id="e130ff31fe5f7a054a2db876a7acc94d" approved="yes">
+        <source>Data imported!</source>
+        <target xml:lang="da">Dataene er importeret!</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:33</note>
+      </trans-unit>
+      <trans-unit id="118f9dbc8442c6be19dfc0b70d965929" approved="yes">
+        <source>Look at your listings to make sure it's all there as you wished.</source>
+        <target xml:lang="da">Se på listerne, om alt er i orden.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:35</note>
+      </trans-unit>
+      <trans-unit id="4959a069997257077022c1b96b3b8001" approved="yes">
+        <source>Errors occurred:</source>
+        <target xml:lang="da">Der opstod fejl:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:39</note>
+      </trans-unit>
+      <trans-unit id="0ccb924c3db6a900cff26de895f756b8" approved="yes">
+        <source>Warning, the current import may require a PHP setting update, to allow more data to be transferred. If the current import stops before the end, you should increase your PHP "post_max_size" setting to [1]%size%[/1]MB at least, and try again.</source>
+        <target xml:lang="da">Advarsel: den aktuelle import kan kræve opdatering af PHP-opsætningen, så flere data kan overføres. Hvis den aktuelle import stopper inden slutningen, skal du vælge en PHP-indstilling for "post_max_size" på mindst [1]%size%[/1] MB og prøve igen.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:42</note>
+      </trans-unit>
+      <trans-unit id="841e4579e55a01ab8f0c565995ba7cfc" approved="yes">
+        <source>Some errors were detected. Please check the details:</source>
+        <target xml:lang="da">Der blev fundet nogle fejl. Se oplysningerne:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:49</note>
+      </trans-unit>
+      <trans-unit id="3df311b82f78fa4059e9a78a26e77b06" approved="yes">
+        <source>We made the following adjustments:</source>
+        <target xml:lang="da">Vi har foretaget følgende justeringer:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:52</note>
+      </trans-unit>
+      <trans-unit id="6e17621d481059924339f91ed431a116" approved="yes">
+        <source>Validating data...</source>
+        <target xml:lang="da">Dataene valideres...</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:57</note>
+      </trans-unit>
+      <trans-unit id="95fdb0ead4798ff27cce78fac3fd3c11" approved="yes">
+        <source>[1]%percentage%[/1]% validated</source>
+        <target xml:lang="da">[1]%percentage%[/1] % valideret</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:62</note>
+      </trans-unit>
+      <trans-unit id="fd2f43e6f9f4de5be1b08cdac13d7749" approved="yes">
+        <source>Processing next page...</source>
+        <target xml:lang="da">Næste side behandles...</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:92</note>
+      </trans-unit>
+      <trans-unit id="f438c83e3ff4dd40a3fc1bf4bb3e79f5" approved="yes">
+        <source>Linking accessories...</source>
+        <target xml:lang="da">Tilknytter tilbehør...</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:81</note>
+      </trans-unit>
+      <trans-unit id="2a44b5ac9f88c57f584bf083730a93f7" approved="yes">
+        <source>[1]%size%[/1]% imported</source>
+        <target xml:lang="da">[1]%size%[/1]% importeret</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:84</note>
+      </trans-unit>
       <trans-unit id="650e0b1fd707ad8ad3a94e2eb494de3d" approved="yes">
         <source>Ignore warnings and continue?</source>
         <target xml:lang="da">Vil du ignorere advarslerne og fortsætte?</target>
@@ -1232,11 +1346,29 @@ File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_hea
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:70</note>
       </trans-unit>
+      <trans-unit id="bcb4db2b36ea3b1e20e5ee4aa9a68665" approved="yes">
+        <source>If you need to restore a database backup, we invite you to subscribe to a [1][2]technical support plan[/2][/1].</source>
+        <target xml:lang="da">Hvis du skal gendanne en sikkerhedskopi af databasen, opfordrer vi dig til at tegne et [1][2]abonnement på teknisk support[/2][/1].</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:71</note>
+      </trans-unit>
+      <trans-unit id="0929b3759c8eef31c299400f513072dd" approved="yes">
+        <source>Our team will take care of restoring your database safely.</source>
+        <target xml:lang="da">Gendannelsen af din database vil være i sikre hænder hos vores team.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:73</note>
+      </trans-unit>
       <trans-unit id="c4b6a12f5f4cbbeb2353a718ee9a8a9a" approved="yes">
         <source>Why can't I restore it by myself?</source>
         <target xml:lang="da">Hvorfor kan jeg ikke gendanne det selv?</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:76</note>
+      </trans-unit>
+      <trans-unit id="d4ef96663955ee203ce986ef40945199" approved="yes">
+        <source>Your shop is hosted by PrestaShop. Although you can create backup files here below, there are core settings you cannot access for security reasons, like the database management. Thus, only our team can proceed to a restoration.</source>
+        <target xml:lang="da">Din butik bliver hostet af PrestaShop. Selvom du kan oprette sikkerhedskopier nedenfor, er der kerneindstillinger, som du af sikkerhedsmæssige årsager ikke kan tilgå, såsom databaseadministration. Derfor er det kun vores team, der kan foretage en gendannelse.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:78</note>
       </trans-unit>
     </body>
   </file>
@@ -1247,6 +1379,18 @@ File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_hea
         <target xml:lang="da">Starter download ...</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/helpers/view/view.tpl:32</note>
+      </trans-unit>
+      <trans-unit id="6a278621d6f2e7dbd56c7beca4081e2d" approved="yes">
+        <source>Backup files should automatically start downloading.</source>
+        <target xml:lang="da">Sikkerhedskopier skal automatisk begynde at downloade.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/view/view.tpl:33</note>
+      </trans-unit>
+      <trans-unit id="da61b0c3311560af7fa1d9a515b309f6" approved="yes">
+        <source>If not,[1][2] please click here[/1]!</source>
+        <target xml:lang="da">Eller[1][2] klik her[/1]!</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/view/view.tpl:34</note>
       </trans-unit>
     </body>
   </file>
@@ -1288,11 +1432,23 @@ File: admin-dev/themes/default/template/controllers/request_sql/helpers/view/vie
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:28</note>
       </trans-unit>
+      <trans-unit id="418dde4b22e22a725e75b2819c0373b2" approved="yes">
+        <source>Note that the Category import does not support having two categories with the same name.</source>
+        <target xml:lang="da">Bemærk, at import af kategori ikke understøtter to kategorier med samme navn.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:65</note>
+      </trans-unit>
       <trans-unit id="b990d5cecd822de3b6922abcf71549b4" approved="yes">
         <source>Note that you can have several products with the same reference.</source>
         <target xml:lang="da">Bemærk, at du kan have flere varer med den samme reference.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:66</note>
+      </trans-unit>
+      <trans-unit id="7ec8e6a8a53cd81e13594780931cfce5" approved="yes">
+        <source>Importing Supply Order Details will reset your history of ordered products, if there are any.</source>
+        <target xml:lang="da">Import af forsyningsordreoplysninger nulstiller din historik over bestilte varer, hvis der er nogen.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:70</note>
       </trans-unit>
       <trans-unit id="df6e9862566912e908ef785e860f9c71" approved="yes">
         <source>Are you sure that you would like to delete this entity: </source>

@@ -284,6 +284,12 @@ File: controllers/admin/AdminOrdersController.php:396</note>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:400</note>
       </trans-unit>
+      <trans-unit id="18893a82469e2cd9492fc8d46fa8ac01" approved="yes">
+        <source>An error occurred while changing the status for order #%d, or we were unable to send an email to the customer.</source>
+        <target xml:lang="da">Der opstod en fejl under ændring af status for odren #%d, eller der kunne ikke sendes en e-mail til kunden.</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:425</note>
+      </trans-unit>
       <trans-unit id="45d4b3afac71a54470a6cbf828e8cb0d" approved="yes">
         <source>The order carrier ID is invalid.</source>
         <target xml:lang="da">Ordre ID for leveringsfirmaet er ugyldigt.</target>
@@ -988,7 +994,12 @@ File: admin-dev/themes/default/template/controllers/orders/_shipping.tpl:101</no
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/_product_line.tpl" source-language="en" target-language="da" datatype="plaintext">
     <body>
-      
+      <trans-unit id="65247263c6ea1d91027b28a41db8cb4b" approved="yes">
+        <source>Editing this product line will remove the reduction and base price.</source>
+        <target xml:lang="da">Redigering af denne varelinje vil fjerne rabatten og basisprisen.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/_product_line.tpl:47</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/form.tpl" source-language="en" target-language="da" datatype="plaintext">
@@ -1053,11 +1064,29 @@ File: admin-dev/themes/default/template/controllers/orders/_documents.tpl:165</n
   </file>
   <file original="admin-dev/themes/default/template/controllers/customers/helpers/list/list_header.tpl" source-language="en" target-language="da" datatype="plaintext">
     <body>
+      <trans-unit id="a37bf274ad160c76e7d17b9178bc1f57" approved="yes">
+        <source>How do you want to delete the selected customers?</source>
+        <target xml:lang="da">Hvordan vil du slette de valgte kunder?</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/customers/helpers/list/list_header.tpl:40</note>
+      </trans-unit>
       <trans-unit id="6513e5e8645f98d950d6174b30c151b8" approved="yes">
         <source>There are two ways of deleting a customer. Please choose your preferred method.</source>
         <target xml:lang="da">Du kan slette kunder på to måder. Vælg venligst din foretrukne metode.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/customers/helpers/list/list_header.tpl:41</note>
+      </trans-unit>
+      <trans-unit id="ecace08642e28fc9c2704b5f73605b6d" approved="yes">
+        <source>I want my customers to be able to register again with the same email address. All data will be removed from the database.</source>
+        <target xml:lang="da">Mine kunder skal kunne tilmelde sig igen med samme e-mailadresse. Alle data bliver fjernet fra databasen.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/customers/helpers/list/list_header.tpl:47</note>
+      </trans-unit>
+      <trans-unit id="fd5b3faeaab816c19b1337785c0b531b" approved="yes">
+        <source>I do not want my customer(s) to register again with the same email address. All selected customer(s) will be removed from this list but their corresponding data will be kept in the database.</source>
+        <target xml:lang="da">Min(e) kunde(r) skal ikke kunne tilmelde sig igen med samme e-mailadresse. Alle valgte kunder bliver fjernet fra denne liste, men deres oplysninger gemmes i databasen.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/customers/helpers/list/list_header.tpl:53</note>
       </trans-unit>
     </body>
   </file>
