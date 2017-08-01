@@ -3982,7 +3982,6 @@ $_LANGADM['AdminModulesPositions0a4dbce7e33277b97c5f5667715e0b46'] = 'Pasirinkit
 $_LANGADM['AdminModulesPositions97e34811d05eb0ee902aa3e190ea5efd'] = 'Perkelti į';
 $_LANGADM['AdminModulesPositions0b08e9b451b556f1bdd62b285ee2a9df'] = 'Aukščiau pasirinkite modulį, prieš pasirinkdami galimus hukus';
 $_LANGADM['AdminModulesPositionsd5f1381c5f97f928df4ef8d18c2a27c0'] = 'Išimtys';
-$_LANGADM['AdminModulesPositions74cd700f9b419dd789dc7d8d1cbf49ef'] = 'Nurodykite failus, kuriuos nenorite, kad modulis nerodytų.';
 $_LANGADM['AdminModulesPositions07b7dbb810d745fc3891d68448f3f213'] = 'Įveskite kiekvieną failo pavadinimą, atskirtą kableliu (",").';
 $_LANGADM['AdminModulesPositions804a997021a16e79a9e6ef9a2bf39e3d'] = 'Jūs taip pat galite paspausti ant failo pavadinimo, esančio žemiau sąraše, arba pasirinkti kelis vienu metu, laikant Ctrl klavišą ir spaudžiant pele, arba intervalą - spaudžiant pele, kol laikomas Shift klavišas.';
 $_LANGADM['AdminModulesPositionsc9cc8cce247e49bae79f15173ce97354'] = 'Išsaugoti';
