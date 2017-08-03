@@ -9,7 +9,7 @@ $_MODULE['<{productcomments}prestashop>default_ddbd56de5feb78ef1aaf60401f8c472b'
 $_MODULE['<{productcomments}prestashop>default_1b1030b6294e9096a7d7c40d83d61872'] = 'El nombre del cliente es incorrecto';
 $_MODULE['<{productcomments}prestashop>default_26510b8eb6e6053f5e91d51171967ca9'] = 'Debe de estar conectado para poder enviar un comentario';
 $_MODULE['<{productcomments}prestashop>default_a201fbadca94d310a1b62407cdc775d5'] = 'Debe otorgar una valoración';
-$_MODULE['<{productcomments}prestashop>default_dfbe69c6d9568ecb0e65e7b32ed92a3a'] = 'No encontrado';
+$_MODULE['<{productcomments}prestashop>default_dfbe69c6d9568ecb0e65e7b32ed92a3a'] = 'Producto no encontrado';
 $_MODULE['<{productcomments}prestashop>default_6d10b2f471e8894d59ae18e01537ece5'] = 'Por favor, espere antes de enviar otro comentario';
 $_MODULE['<{productcomments}prestashop>default_ba8d7ae5dcadfba739f28a777378f208'] = 'segundos antes de postear un nuevo comentario';
 $_MODULE['<{productcomments}prestashop>productcommentcriterion_a09ed6c60eb3213939cecb4c580813cd'] = 'Válido para la totalidad del catálogo';
