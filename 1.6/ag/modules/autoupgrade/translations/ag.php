@@ -375,7 +375,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f5985b2c059d5cc36968baab7585
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9e54dfe54e03b0010c1fe70bd65cd5e6'] = 'La subida de archivos se detuvo por extensión incorrecta';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_32af3a59b50e98d254d6c03c5b320a94'] = 'No se pueden convertir los datos de tu base de datos a utf-8.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_989a45a4ca01ee222f4370172bf8850d'] = 'Nombre de tienda no válido';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_68499acecfba9d3bf0ca8711f300d3ed'] = 'Sunombre de pila contiene caracteres no válidos';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_68499acecfba9d3bf0ca8711f300d3ed'] = 'Su nombre contiene caracteres no válidos';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2399cf4ca7b49f2706f6e147a32efa78'] = 'Su apellido contiene caracteres no válidos';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7d72600fcff52fb3a2d2f73572117311'] = 'La base de datos especificada no es compatible con el juego de caracteres utf-8.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7186f703d20b263cfb91161418996e43'] = 'Tu servidor MySQL no es compatible con este motor, por favor, utiliza otro como MyISAM';
@@ -458,7 +458,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_1f966606f0a941f655a4e9b7791a
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_21739f79b8e95f4187fce4fefb12af28'] = 'Analizando la situación...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5ef0c737746fae2ca90e66c39333f8f6'] = 'Errores';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_dc3fd488f03d423a04da27ce66274c1b'] = '¡Atención!';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_95095fc4bbc8b42ec512cfb1cfa19d8a'] = 'Está usando la versión %s de PHP. Pronto la última versión de PHP soportada por PrestaShop será la 5.4. ¡Para garantizar que esté preparado para el futuro actualice a PHP 5.4 ahora!';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_95095fc4bbc8b42ec512cfb1cfa19d8a'] = 'Estás utilizando la versión %s de PHP. Pronto la última versión de PHP soportada por PrestaShop será la 5.4. ¡Para garantizar que estás preparado para el futuro actualiza a PHP 5.4 ahora!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e58eae3d7ced672a49b5716587b15f89'] = 'Comenzar actualización';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5784315a8bcebe79611d3353723e010d'] = 'Enhorabuena, ¡ya estás usando la última versión disponible!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_da3cd17bbbbd3ef7da8e817d3c4cdb46'] = '¡Vienes del futuro! ¡Estás utilizando una versión más reciente que la última disponible!';

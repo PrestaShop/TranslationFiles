@@ -401,7 +401,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_03f945bba76ea63369d50a340e5b
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_1b631ee6d890a5d6f2ede2f386f5aa3d'] = 'Antes de iniciar el proceso de actualización, por favor, asegúrate de que el listado de verificación se encuentra en color verde.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0058c0de9990c3b6a816affc3ffac3ef'] = 'El módulo de actualización en 1-clic está actualizado (la versión actual es v%s)';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_06933067aafd48425d67bcb01bba5cb6'] = 'Actualizar';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_801ab24683a4a8c433c6eb40c48bcd9d'] = 'Descargar';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_801ab24683a4a8c433c6eb40c48bcd9d'] = 'Descargas';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a1b48c4a544d688c34c20950c74e474a'] = 'El directorio raíz de tu tienda tiene permisos de escritura (con permisos CHMOD apropiados)';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b398e46a283dd457aa7dc0302004208c'] = 'El directorio "/admin/autoupgrade" tiene permisos de escritura (permisos CHMOD apropiados)';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_6509fb64b7a0331814629513e36d1402'] = 'La opción de PHP "safe_mode" (Modo seguro a prueba de errores) está desactivada';
