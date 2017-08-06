@@ -4,7 +4,7 @@ global $_LANGPDF;
 $_LANGPDF = array();
 
 $_LANGPDF['PDFab870751fa907b26253a0b6ffbf99d04'] = '%1$s%2$06d';
-$_LANGPDF['PDFcf3bae95c5f6023d5a10fe415b205a45'] = 'Vale';
+$_LANGPDF['PDFcf3bae95c5f6023d5a10fe415b205a45'] = 'Factura por abono';
 $_LANGPDF['PDFf771e4a4df40bf061607fdb8e3f140dc'] = 'Formulario de pedido de suministros';
 $_LANGPDF['PDF37bd15f0a465c1b6e96e516cdeee41fa'] = 'IE: Impuestos excluidos';
 $_LANGPDF['PDF8bcc82aa54d3755fffa1f1d4cbd8e95d'] = 'II: Impuestos incluidos';
