@@ -27,7 +27,7 @@ $_MODULE['<{referralprogram}prestashop>program_8d3ae82bfa996855cdf841dd9e15a7e3'
 $_MODULE['<{referralprogram}prestashop>program_666149e67589bd65ed1e787932cd74f5'] = 'Cuando al menos uno de ellos realice %d pedidos, ';
 $_MODULE['<{referralprogram}prestashop>program_def1ac1f353beef52f7e86a30cae01c4'] = 'Cuando al menos uno de ellos realice %d pedido, ';
 $_MODULE['<{referralprogram}prestashop>program_8d122aed0fe2c5076e4941bfbd53fe04'] = 'usted y su amigo recibirán %1$s cupón(es) de descuento, valorado en %1$s.';
-$_MODULE['<{referralprogram}prestashop>program_8d3f5eff9c40ee315d452392bed5309b'] = 'Apellido';
+$_MODULE['<{referralprogram}prestashop>program_8d3f5eff9c40ee315d452392bed5309b'] = 'Apellidos';
 $_MODULE['<{referralprogram}prestashop>program_20db0bfeecd8fe60533206a2b5e9891a'] = 'Nombre';
 $_MODULE['<{referralprogram}prestashop>program_1e884e3078d9978e216a027ecd57fb34'] = 'Dirección de correo electrónico';
 $_MODULE['<{referralprogram}prestashop>program_9386de858384e7f790a28beecdb986dd'] = 'Importante: Las direcciones de correo electrónico de sus amigos sólo se utilizarán para el programa de patrocinio. Nunca serán utilizados para otros propósitos.';

@@ -375,8 +375,8 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f5985b2c059d5cc36968baab7585
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9e54dfe54e03b0010c1fe70bd65cd5e6'] = 'La subida de archivos se detuvo por extensión incorrecta';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_32af3a59b50e98d254d6c03c5b320a94'] = 'No se pueden convertir los datos de tu base de datos a utf-8.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_989a45a4ca01ee222f4370172bf8850d'] = 'Nombre de tienda no válido';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_68499acecfba9d3bf0ca8711f300d3ed'] = 'Su nombre contiene caracteres no válidos';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2399cf4ca7b49f2706f6e147a32efa78'] = 'Su apellido contiene caracteres no válidos';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_68499acecfba9d3bf0ca8711f300d3ed'] = 'Tu nombre contiene caracteres no válidos';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2399cf4ca7b49f2706f6e147a32efa78'] = 'Tu apellido contiene caracteres no válidos';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7d72600fcff52fb3a2d2f73572117311'] = 'La base de datos especificada no es compatible con el juego de caracteres utf-8.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7186f703d20b263cfb91161418996e43'] = 'Tu servidor MySQL no es compatible con este motor, por favor, utiliza otro como MyISAM';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_24b481455c1b72b0c2539e7d516b9582'] = 'El archivo /img/logo.jpg no se puede escribir, por favor, otorga permisos CHMOD 755 o CHMOD 777 a este archivo';
