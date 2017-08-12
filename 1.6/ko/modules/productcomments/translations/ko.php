@@ -20,7 +20,7 @@ $_MODULE['<{productcomments}prestashop>productcomments_94966d90747b97d1f0f206c98
 $_MODULE['<{productcomments}prestashop>productcomments_e81c4e4f2b7b93b481e13a8553c2ae1b'] = '또는';
 $_MODULE['<{productcomments}prestashop>productcomments_ea4788705e6873b424c65e91c2846b19'] = '취소';
 $_MODULE['<{productcomments}prestashop>products-comparison_b1897515d548a960afe49ecf66a29021'] = '평균';
-$_MODULE['<{productcomments}prestashop>productcomments_93cba07454f06a4a960172bbd6e2a435'] = '네';
+$_MODULE['<{productcomments}prestashop>productcomments_93cba07454f06a4a960172bbd6e2a435'] = '예';
 $_MODULE['<{productcomments}prestashop>productcomments_bafd7322c6e97d25b6299b5d6fe8920b'] = '아니오';
 $_MODULE['<{productcomments}prestashop>productcomments_a4d3b161ce1309df1c4e25df28694b7b'] = '제출';
 
