@@ -4,7 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{blocksocial}prestashop>blocksocial_3c3fcc2aa9705117ce4b589ed5a72853'] = 'بلوک شبکه های اجتماعی';
-$_MODULE['<{blocksocial}prestashop>blocksocial_094d3ac865853e0be9ba42e80f0f7ee7'] = 'به شما اجازه میدهد تا اطلاعات حساب های شبکه اجتماعی برند خود را اضافه نمایید.';
+$_MODULE['<{blocksocial}prestashop>blocksocial_094d3ac865853e0be9ba42e80f0f7ee7'] = 'به شما اجازه می‌دهد تا اطلاعات مربوط به حساب‌های شبکه اجتماعی برند خود را اضافه نمایید.';
 $_MODULE['<{blocksocial}prestashop>blocksocial_f4f70727dc34561dfde1a3c529b6205c'] = 'تنظیمات';
 $_MODULE['<{blocksocial}prestashop>blocksocial_76f8961bb8f4bb2b95c07650f30a7e7b'] = 'آدرس صفحه فیس‌بوک';
 $_MODULE['<{blocksocial}prestashop>blocksocial_c162369096f0fe5784f05052ceee6b47'] = 'صفحه‌ی رسمی شما در فیس‌بوک.';

@@ -4,7 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{blockmanufacturer}prestashop>blockmanufacturer_bc3e73cfa718a3237fb1d7e1da491395'] = 'بخش تولیدکننده ها';
-$_MODULE['<{blockmanufacturer}prestashop>blockmanufacturer_71087c7035e626bd33c72ae9a7f042af'] = 'نمایش لیستی از تولیدکننده ها/شرکتها';
+$_MODULE['<{blockmanufacturer}prestashop>blockmanufacturer_71087c7035e626bd33c72ae9a7f042af'] = 'یک بلوک شامل لیستی از تولیدکننده‌ها و/یا برندها را نمایش می‌دهد.';
 $_MODULE['<{blockmanufacturer}prestashop>blockmanufacturer_f8c922e47935b3b76a749334045d61cf'] = 'تعداد عناصر معتبر نمی باشد.';
 $_MODULE['<{blockmanufacturer}prestashop>blockmanufacturer_5b2e13ff6fa0da895d14bd56f2cb2d2d'] = 'لطفا حداقل یک سیستم فهرست را فعال کنید.';
 $_MODULE['<{blockmanufacturer}prestashop>blockmanufacturer_f38f5974cdc23279ffe6d203641a8bdf'] = 'تنظیمات به روز رسانی شدند';

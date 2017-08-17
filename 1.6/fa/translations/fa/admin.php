@@ -4145,7 +4145,6 @@ $_LANGADM['AdminOrdersf0aaaae189e9c7711931a65ffcd22543'] = 'روش پرداخت'
 $_LANGADM['AdminOrders88427ec035734b45aae9f7d8859a5008'] = 'شماره تراکنش';
 $_LANGADM['AdminOrders931d3a3ad177dd96a28c9642fec11b01'] = 'شماره کارت';
 $_LANGADM['AdminOrdersf8b1369a8e9d90da0cae0b11049309af'] = 'معین نشده';
-$_LANGADM['AdminOrders2ef876508663171dedb532b4ecdb19a1'] = 'نام تجاری کارت';
 $_LANGADM['AdminOrders52aeead61e400c8faeb3c1dcb355e7a5'] = '(تاریخ) انقضای کارت';
 $_LANGADM['AdminOrdersc20497ad97022701fa9b5d3c34c0c474'] = 'صاحب (دارنده) کارت';
 $_LANGADM['AdminOrdersde78da3154b793d64d302db27e65baec'] = 'هیچگونه روش پرداختی در دسترس نیست';

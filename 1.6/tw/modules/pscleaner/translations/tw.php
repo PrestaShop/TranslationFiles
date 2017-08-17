@@ -4,6 +4,8 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{pscleaner}prestashop>pscleaner_e5a8af934462c05509c7de5f2f2c18a3'] = 'PrestaShop 清潔器';
+$_MODULE['<{pscleaner}prestashop>pscleaner_752369f18aebeed9ae8384d8f1b5dc5e'] = '請小心使用此工具 - 沒有回退！';
+$_MODULE['<{pscleaner}prestashop>pscleaner_550b877b1a255ba717cfad4b82057731'] = '以下查詢成功修復斷開的數據：';
 $_MODULE['<{pscleaner}prestashop>pscleaner_14a7ab23d566b4505d0c711338c19a08'] = '%d 行';
 $_MODULE['<{pscleaner}prestashop>pscleaner_d1ff3c9d57acd4283d2793a36737479e'] = '無需修復';
 $_MODULE['<{pscleaner}prestashop>pscleaner_53d097f11855337bb74f1444d6c47c99'] = '以下SQL指令成功清除了數據庫：';

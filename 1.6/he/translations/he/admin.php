@@ -1331,6 +1331,7 @@ $_LANGADM['AdminModules5dc6d69e21ca0f5779b9cfeae1154f05'] = 'ניהול תוכן
 $_LANGADM['AdminModulesd8b5985b4baa0bfe0ce6734f99b22e6e'] = 'חוות דעת של לקוחות';
 $_LANGADM['AdminModules0095a9fa74d1713e43e370a7d7846224'] = 'ייצא';
 $_LANGADM['AdminModulesefc8a7596230dcab9239c327f304fec4'] = 'שליחת דואר אלקטרוני';
+$_LANGADM['AdminModulese00dfb7a37c4f39c748f459e69fadb96'] = 'מאפייני חנות (ממשק הלקוח)';
 $_LANGADM['AdminModulesa8cf512208bee5db82f968d2dc247c5f'] = 'בינלאומי ולוקליזציה';
 $_LANGADM['AdminModules825896e7e83eff50879ed00cba2f9414'] = 'מוצרים שיווקים (נועדו לפרסם את האתר שלך ולקדם מכירות).';
 $_LANGADM['AdminModules5b985caa89b2ca61bbeee91a896c610d'] = 'כלי יבוא-יצוא';
