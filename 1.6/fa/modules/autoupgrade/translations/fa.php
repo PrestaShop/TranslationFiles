@@ -231,6 +231,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_08ee54c048e1589f4072a351035d
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ead14b0273e8d6cae7d146130d4be8f6'] = 'پایگاه داده پاکسازی شد.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0bebfc8987ec38d90350bf4ac3e7e391'] = 'پاک کردن کش فراموش نشود (پارامترهای پیشرفته > کارایی > پاک کردن کش)';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e0ab14f314654aac28f3a3227896079f'] = 'پوشه گم شده است (در فایل آرشیو یا در دایرکتوری، وجود ندارد)';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_55c1713f90add7c448328323af0c1b9d'] = 'شما نمی‌توانید به این نسخه به‌روز‌ رسانی کنید.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3b8f044559a7568ea572776caf1d6526'] = 'فایل config/settings.inc.php یافت نشد.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_22f18bac5d420d7ac5aca37b1afe30c9'] = 'نسخه فعلی:%1$s. نسخه برای نصب:%2$s.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_6b81346a0c9173213e0c32d0082dc073'] = 'نسخه فعلی:%1$s. نسخه برای نصب:%2$s';
@@ -487,10 +488,18 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f0afedd1444b8ac9f765b544cb5b
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_68e5fa63e9c51108b49d3d643ec36972'] = 'لطفا قبل از هرگونه ارتقا به صورت دستی از فایل ها و پایگاه داده خود پشتیبان تهیه کنید.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a1f24b1cec5482ed0d97bce1ba0570a4'] = 'از صحت پشتیبان خود و ساده بود قابلیت بازگردانی آن به صورت کامل اطمینان حاصل کنید.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0a8276f35797dc24e6ccb5b5ff5cf102'] = 'اگر نمی دانید چطور این کار را انجام دهید، از سرویس دهنده هاست خود سوال کنید.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b4394573ea968922ac1d7323cb8f99ed'] = 'لطفا مراحل قبل از به‌روز رسانی را بررسی کنید.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_10ac3d04253ef7e1ddc73e6091c0cd55'] = 'بعدی';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_564b7c9d8683f1a94798e9f7449564e4'] = 'گزینه های ارتقا دادن';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_017697f698d570dffed5f88a5a933d01'] = 'گزینه‌‌‌‌‌‌های پشتیبان گیری';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d1cf02f3b502ad45947b846659c7774e'] = 'به پرستاشاپ %s به‌روز رسانی کنید';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_49c77c6b39fac5ce46832752e6612e9d'] = 'در حال به‌روز رسانی به پرستاشاپ %s';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b3e205a87c7cf99915d86ffe496f1706'] = 'مهاجرت از پرستاشاپ نسخه %s به پرستاشاپ نسخه %s تاثیرات بسیار زیادی در فروشگاه شما ایجاد می‌کند.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_14eb234037a8860589f68e1f34a55fd8'] = 'بعد از به‌روز رسانی به %s دیگر امکان استفاده از قالب، ماژول‌ها و اطلاعات موجودی پیشرفته فعلی وجود نخواهد داشت';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_14848bb4861807d41b2ef22f0288f90b'] = 'لطفاً اطمینان حاصل کنید که مشخصات سرور شما دارای حداقل‌های مورد نیاز باشد:';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ba4e6bdd93c2f0c0e133bb94c27623ad'] = 'فولدر %s وجود دارد';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_49ed9b3e9429a4ae5f4fc1374e38140d'] = 'توابع سیستمی مورد نیاز فعال هستند (fopen, file_exists, chmod)';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9a92bff0f2bacca85a22045df0ff05a7'] = 'تابع %s فعال است';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_325be51f87717509d7c5b87d45456066'] = 'افزونه‌ی %s فعال است';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5061608b21c002a371d190e7143c18c2'] = 'نصب شما فاقد برخی از حداقل‌های مورد نیاز است. لطفاً بررسی کرده و دوباره تلاش کنید.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c8d34e1c03a7c711ce6e83ea9b009219'] = 'همه‌ی موارد پیش از ارتقاء من خوب هستند';
@@ -500,7 +509,9 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5eb0aaf0b783306cb2ea57335b02
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_915151576a249f2ff2662d5fc79859ad'] = 'من متوجه هستم که داده‌ها و پیکربندی مدیریت پیشرفته‌ی موجودی را دیگر نخواهم داشت';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a5d2d90f3698f0f7acab269070d0a232'] = 'من مجبور به پیکربندی دوباره‌ی سطوح دسترسی‌ام خواهم شد';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f93dc2c54e04a6b770f3e0fd1058a31f'] = 'در صورتی که یک منوی سفارشی در بخش مدیریت فروشگاه داشته باشم، دیگر قادر به استفاده از آن نخواهم بود';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8f5f497d082e9f08ec8102a1d436a75b'] = 'بهتر است به %s تغییر دهید!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f15547fe5f9f307bd42b2c01657efbcb'] = 'سرور شما نمیتواند فایل را دانلود کند. لطفا ابتدا آن را در دایرکتوری admin/autoupgrade توسط ftp آپلود کنید';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f0c0004ed469d436fae1c0c84a5c7687'] = 'شما باید همه شرایط را بررسی کنید';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f2a6c498fb90ee345d997f888fce3b18'] = 'حذف';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_48995d15304fe79fc0240bf6544f2395'] = 'آیا مطمئن هستید که می‌خواهید فایل پشتیان را حذف نمایید?';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f1a1fb67c8350e8881bc59f09e42d5ab'] = 'برای بازبینی صفحه کلیک کنید و از پیکربندی جدید استفاده کنید';
