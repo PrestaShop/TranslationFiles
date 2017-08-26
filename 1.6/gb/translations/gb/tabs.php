@@ -26,6 +26,7 @@ $_TABS['AdminShopUrl'] = 'Shop URLs';
 $_TABS['AdminBlockCategories'] = 'BlockCategories';
 $_TABS['AdminDashgoals'] = 'Dashgoals';
 $_TABS['AdminThemeConfigurator'] = 'Theme Configurator';
+$_TABS['AdminCronJobs'] = 'Cron Jobs';
 $_TABS['AdminProducts'] = 'Products';
 $_TABS['AdminCategories'] = 'Categories';
 $_TABS['AdminTracking'] = 'Monitoring';

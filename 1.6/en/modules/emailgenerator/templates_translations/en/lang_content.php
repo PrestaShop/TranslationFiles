@@ -164,8 +164,8 @@ $_LANGMAIL['The remaining stock is now less than the specified minimum of'] = 'T
 $_LANGMAIL['Remaining stock:'] = 'Remaining stock:';
 $_LANGMAIL['You are advised to open the product&#039;s admin Product Page in order to replenish your inventory.'] = 'You are advised to open the product&#039;s admin Product Page in order to replenish your inventory.';
 $_LANGMAIL['You have received a new return request for {shop_name}.'] = 'You have received a new return request for {shop_name}.';
-$_LANGMAIL['Return details'] = '';
-$_LANGMAIL['{order_name} Placed on {date}'] = '';
+$_LANGMAIL['Return details'] = 'Return Details';
+$_LANGMAIL['{order_name} Placed on {date}'] = '{order_name} placed on {date}';
 $_LANGMAIL['Your referred friend <span><strong>{sponsored_firstname} {sponsored_lastname}</strong></span> has placed his or her first order on <a href="{shop_url}">{shop_name}</a>!'] = 'Your referred friend <span><strong>{sponsored_firstname} {sponsored_lastname}</strong></span> has placed his or her first order on <a href="{shop_url}">{shop_name}</a>!';
 $_LANGMAIL['We are pleased to offer you a voucher worth <span><strong>{discount_display} (voucher # {discount_name})</strong></span> that you can use on your next order.'] = 'We are pleased to offer you a voucher worth <span><strong>{discount_display} (voucher # {discount_name})</strong></span> that you can use on your next order.';
 $_LANGMAIL['Best regards,'] = 'Best regards,';
@@ -182,7 +182,7 @@ $_LANGMAIL['Hi {name},'] = 'Hi {name},';
 $_LANGMAIL['{customer} has sent you a link to a product that (s)he thinks may interest you.'] = '{customer} has sent you a link to a product that (s)he thinks may interest you.';
 $_LANGMAIL['Click here to view this item:'] = 'Click here to view this item:';
 $_LANGMAIL['Order edited'] = 'Order edited';
-$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = '';
+$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = 'Your order with the reference <span><strong>{order_name}</strong></span> has been modified.';
 
 
 return $_LANGMAIL;

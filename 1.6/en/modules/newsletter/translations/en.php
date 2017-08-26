@@ -19,6 +19,7 @@ $_MODULE['<{newsletter}prestashop>newsletter_82e5e0bc0f9c776c98253d569c111c0f'] 
 $_MODULE['<{newsletter}prestashop>newsletter_644ecc2486a059ca16b001a77909bf40'] = 'The .CSV file has been successfully exported: %d customers found.';
 $_MODULE['<{newsletter}prestashop>newsletter_48e3d5f66961b621c78f709afcd7d437'] = 'Download the file';
 $_MODULE['<{newsletter}prestashop>newsletter_dca37b874cf34bd5ebcf1c2fdc59a8b4'] = 'WARNING: When opening this .csv file with Excel, choose UTF-8 encoding to avoid strange characters.';
+$_MODULE['<{newsletter}prestashop>newsletter_b40866b115d74009183e06fc86b5c014'] = 'Error: Write access limited';
 $_MODULE['<{newsletter}prestashop>newsletter_81573e0ea79138f02fd2cee94786d7e9'] = 'Error: cannot write';
 $_MODULE['<{newsletter}prestashop>newsletter_73059f9530a1a37563150df4dea4bb70'] = 'All Subscribers';
 $_MODULE['<{newsletter}prestashop>newsletter_a307579714b75082f3f8734971b125cd'] = 'Subscribers with account';
