@@ -181,8 +181,8 @@ $_LANGMAIL[', with an amount of'] = ', su suma';
 $_LANGMAIL['Hi {name},'] = 'Sveiki, {name},';
 $_LANGMAIL['{customer} has sent you a link to a product that (s)he thinks may interest you.'] = '{customer} atsiuntė jums nuorodą į prekę, kuri galbūt bus jums įdomi.';
 $_LANGMAIL['Click here to view this item:'] = 'Norėdami peržiūrėti paspauskite čia:';
-$_LANGMAIL['Order edited'] = '';
-$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = '';
+$_LANGMAIL['Order edited'] = 'Užsakymas redaguotas';
+$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = 'Jūsų užsakymas <span><strong>{order_name}</strong></span> buvo redaguotas.';
 
 
 return $_LANGMAIL;

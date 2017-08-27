@@ -4,6 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{blockreinsurance}prestashop>blockreinsurance_873330fc1881555fffe2bc471d04bf5d'] = 'Kliento patikinimo blokas';
+$_MODULE['<{blockreinsurance}prestashop>blockreinsurance_7e7f70db3c75e428db8e2d0a1765c4e9'] = 'Prideda informacinį bloką kurio tikslas - pateikti klientui naudingos informacijos, kad šie įgautų daugiau pasitikėjimo Jūsų el. parduotuve.';
 $_MODULE['<{blockreinsurance}prestashop>blockreinsurance_d52eaeff31af37a4a7e0550008aff5df'] = 'Bandant išsaugoti įvyko klaida.';
 $_MODULE['<{blockreinsurance}prestashop>blockreinsurance_0366c7b2ea1bb228cd44aec7e3e26a3e'] = 'Bloko konfigūracija buvo atnaujinta.';
 $_MODULE['<{blockreinsurance}prestashop>blockreinsurance_8363eee01f4da190a4cef9d26a36750c'] = 'Naujas patikinimo blokas';

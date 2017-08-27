@@ -12,6 +12,7 @@ $_MODULE['<{blockcategories}prestashop>blockcategories_1379a6b19242372c1f23cc9ad
 $_MODULE['<{blockcategories}prestashop>blockcategories_c6d333d07d30f7b4c31a94bbd510bf88'] = 'Pasirinkite, kuri kategorija bus rodoma bloke. Dabartinė kategorija yra ta, kurią lankytojai šiuo metu naršo.';
 $_MODULE['<{blockcategories}prestashop>blockcategories_89b278a71f2be5f620307502326587a0'] = 'Pagrindinė kategorija';
 $_MODULE['<{blockcategories}prestashop>blockcategories_62381fc27e62649a16182a616de3f7ea'] = 'Dabartinė kategorija';
+$_MODULE['<{blockcategories}prestashop>blockcategories_52b68aaa602d202c340d9e4e9157f276'] = 'Tėvinė kategorija';
 $_MODULE['<{blockcategories}prestashop>blockcategories_f225631c1a6f71e99cc779f6bbf06dd4'] = 'Dabartinė kategorija, jei ji neturi subkategorijų, tokiu atveju naudojama dabartinės kategorijos aukštesnioji kategorija';
 $_MODULE['<{blockcategories}prestashop>blockcategories_19561e33450d1d3dfe6af08df5710dd0'] = 'Didžiausias gylis';
 $_MODULE['<{blockcategories}prestashop>blockcategories_584d4e251b6f778eda9cfc2fc756b0b0'] = 'Nustatomas didžiausias leistinas kategorijos gylis rodomas bloke (0 = neribojamas).';
