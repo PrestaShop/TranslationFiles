@@ -118,6 +118,12 @@ File: src/PrestaShopBundle/Controller/Admin/ModuleController.php:612</note>
         <note>Context:
 File: src/PrestaShopBundle/Controller/Admin/ModuleController.php:618</note>
       </trans-unit>
+      <trans-unit id="f52c6f7b6fcbd586aee22044aeb6c897" approved="yes">
+        <source>Installation of module %module% failed. %error%</source>
+        <target xml:lang="en">Installation of module %module% failed. %error%</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/ModuleController.php:626</note>
+      </trans-unit>
       <trans-unit id="fc7da9518fbe20ebcaccbf5f8fd0e7df" approved="yes">
         <source>Synchronized with Addons marketplace!</source>
         <target xml:lang="en">Synchronized with Addons marketplace!</target>
@@ -191,6 +197,60 @@ File: src/Core/Addon/Module/ModuleManager.php:326</note>
         <target xml:lang="en">Error when disabling module %module%. %error_details%.</target>
         <note>Context:
 File: src/Core/Addon/Module/ModuleManager.php:339</note>
+      </trans-unit>
+      <trans-unit id="a2825f14a9e0bf0b004b2a255317d6dd" approved="yes">
+        <source>You are not allowed to enable this module.</source>
+        <target xml:lang="en">You are not allowed to enable this module.</target>
+        <note>Context:
+File: src/Core/Addon/Module/ModuleManager.php:363</note>
+      </trans-unit>
+      <trans-unit id="fbaf1c9434442c780f3eddff4406603c" approved="yes">
+        <source>Error when enabling module %module%. %error_details%.</source>
+        <target xml:lang="en">Error when enabling module %module%. %error_details%.</target>
+        <note>Context:
+File: src/Core/Addon/Module/ModuleManager.php:376</note>
+      </trans-unit>
+      <trans-unit id="974a1527e3b406ebb7c772ddd2a7aa41" approved="yes">
+        <source>You are not allowed to disable this module on mobile.</source>
+        <target xml:lang="en">You are not allowed to disable this module on mobile.</target>
+        <note>Context:
+File: src/Core/Addon/Module/ModuleManager.php:399</note>
+      </trans-unit>
+      <trans-unit id="976dc5c6fc2fe73b2c43c7776847e593" approved="yes">
+        <source>Error when disabling module %module% on mobile. %error_details%</source>
+        <target xml:lang="en">Error when disabling module %module% on mobile. %error_details%</target>
+        <note>Context:
+File: src/Core/Addon/Module/ModuleManager.php:412</note>
+      </trans-unit>
+      <trans-unit id="8459337c91608e117589881cc560b0e6" approved="yes">
+        <source>You are not allowed to enable this module on mobile.</source>
+        <target xml:lang="en">You are not allowed to enable this module on mobile.</target>
+        <note>Context:
+File: src/Core/Addon/Module/ModuleManager.php:434</note>
+      </trans-unit>
+      <trans-unit id="416bc5074d9b9944a51797b081492442" approved="yes">
+        <source>Error when enabling module %module% on mobile. %error_details%</source>
+        <target xml:lang="en">Error when enabling module %module% on mobile. %error_details%</target>
+        <note>Context:
+File: src/Core/Addon/Module/ModuleManager.php:447</note>
+      </trans-unit>
+      <trans-unit id="a608a854a4091bd1f92cff310ba09b25" approved="yes">
+        <source>You are not allowed to reset this module.</source>
+        <target xml:lang="en">You are not allowed to reset this module.</target>
+        <note>Context:
+File: src/Core/Addon/Module/ModuleManager.php:466</note>
+      </trans-unit>
+      <trans-unit id="387aeee114093679248f936ba36ee416" approved="yes">
+        <source>Error when resetting module %module%. %error_details%</source>
+        <target xml:lang="en">Error when resetting module %module%. %error_details%</target>
+        <note>Context:
+File: src/Core/Addon/Module/ModuleManager.php:485</note>
+      </trans-unit>
+      <trans-unit id="c913de38eb118ce08ddae76f27063126" approved="yes">
+        <source>Unfortunately, the module did not return additional details.</source>
+        <target xml:lang="en">Unfortunately, the module did not return additional details.</target>
+        <note>Context:
+File: src/Core/Addon/Module/ModuleManager.php:545</note>
       </trans-unit>
       <trans-unit id="83a812de8784135990c57d25d0f9b34b" approved="yes">
         <source>The module %module% must be installed first</source>
@@ -550,11 +610,23 @@ File: classes/module/Module.php:655</note>
         <note>Context:
 File: classes/module/Module.php:766</note>
       </trans-unit>
+      <trans-unit id="e8f98f4457c87a8aad1d4d625ad1a9f3" approved="yes">
+        <source>%1$s is not a valid module name.</source>
+        <target xml:lang="en">%1$s is not a valid module name.</target>
+        <note>Context:
+File: classes/module/Module.php:1057</note>
+      </trans-unit>
       <trans-unit id="8f62a26bf441ad698c2c562ec10448c4" approved="yes">
         <source>All modules cannot be loaded due to memory limit restrictions, please increase your memory_limit value on your server configuration</source>
         <target xml:lang="en">All modules cannot be loaded due to memory limit restrictions, please increase your memory_limit value on your server configuration</target>
         <note>Context:
 File: classes/module/Module.php:1397</note>
+      </trans-unit>
+      <trans-unit id="2cff6a926907204ad5c1916ba96ed815" approved="yes">
+        <source>%s could not be loaded.</source>
+        <target xml:lang="en">%s could not be loaded.</target>
+        <note>Context:
+File: classes/module/Module.php:1235</note>
       </trans-unit>
       <trans-unit id="db0275528fda19c75f79d296ded0c6e7" approved="yes">
         <source>Error found in config file:</source>
@@ -714,6 +786,18 @@ File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm.h
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm.html.twig:78</note>
       </trans-unit>
+      <trans-unit id="634b5d0d5ec8e481321b1d776f312388" approved="yes">
+        <source>You're about to reset %moduleName% module.</source>
+        <target xml:lang="en">You're about to reset %moduleName% module.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm.html.twig:72</note>
+      </trans-unit>
+      <trans-unit id="58ce7123c3789e3c51cb3ffd42883df1" approved="yes">
+        <source>This will restore the defaults settings.</source>
+        <target xml:lang="en">This will restore the defaults settings.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm.html.twig:75</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_import.html.twig" source-language="en" target-language="en" datatype="plaintext">
@@ -785,6 +869,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_read_more
         <target xml:lang="en">No demonstration video found for this module :(</target>
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_read_more_content.html.twig:160</note>
+      </trans-unit>
+      <trans-unit id="3072d199d2a0269893376e8c7d0049d6" approved="yes">
+        <source>No changelog provided for this module :(</source>
+        <target xml:lang="en">No changelog provided for this module :(</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_read_more_content.html.twig:178</note>
       </trans-unit>
     </body>
   </file>
