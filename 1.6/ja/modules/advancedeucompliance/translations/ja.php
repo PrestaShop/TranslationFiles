@@ -4,6 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_f4a0d7cb0cd45214c8ca5912c970de13'] = '税を含める';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_befcac0f9644a7abee43e69f49252ac4'] = '税を含めない';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_5da618e8e4b89c66fe86e32cdafde142'] = '開始';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_89bea8045e50a337d8ce9849a4e1633c'] = '送料を含めない';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_ea21841da70e6405af19fabc4ff8bdd9'] = '不足';

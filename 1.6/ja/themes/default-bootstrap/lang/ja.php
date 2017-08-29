@@ -130,6 +130,7 @@ $_LANG['discount_689202409e48743b914713f96d93947c'] = '値';
 $_LANG['discount_eb2527806a7e1ef48009eaaa785368fe'] = '累積';
 $_LANG['discount_8c1279db4db86553e4b9682f78cf500e'] = '有効期限';
 $_LANG['discount_f4a0d7cb0cd45214c8ca5912c970de13'] = '税を含める';
+$_LANG['discount_befcac0f9644a7abee43e69f49252ac4'] = '税を含めない';
 $_LANG['discount_29aa46cc3d2677c7e0f216910df600ff'] = '送料無料';
 $_LANG['discount_6adf97f83acf6453d4a6a4b1070f3754'] = 'なし';
 $_LANG['discount_93cba07454f06a4a960172bbd6e2a435'] = 'はい';
