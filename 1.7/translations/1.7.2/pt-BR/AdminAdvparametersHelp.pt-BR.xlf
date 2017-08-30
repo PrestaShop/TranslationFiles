@@ -4,7 +4,7 @@
     <body>
       <trans-unit id="0c2afe3d3eb02183ee182aa447608bc4" approved="yes">
         <source>Warning: Enabling the "share customers" and "share orders" options is not recommended. Once activated and orders are created, you will not be able to disable these options. If you need these options, we recommend using several categories rather than several shops.</source>
-        <target xml:lang="pt-BR">Aviso: Ativar as opções "Compartilhar clientes" e "Compartilhar pedidos" não é recomendado. Uma vez que elas são ativadas e os clientes ou pedidos são criados, você não será capaz de desativar essas opções. Se você precisar destas opções, tente primeiro considerar o uso de várias categorias, em vez de várias lojas.</target>
+        <target xml:lang="pt-BR">Aviso: Ativar as opções "Compartilhar clientes" e "Compartilhar pedidos" não é recomendado. Uma vez que elas são ativadas e os clientes ou pedidos são criados, você não será capaz de desativar essas opções. Se você precisar destas opções, considerar utilizar várias categorias, em vez de várias lojas.</target>
         <note>Context:
 File: controllers/admin/AdminShopGroupController.php:180</note>
       </trans-unit>
@@ -16,7 +16,7 @@ File: controllers/admin/AdminShopGroupController.php:206</note>
       </trans-unit>
       <trans-unit id="dace58c348a19d7bddb7a3fe4fd3ebfa" approved="yes">
         <source>Warning: you will not be able to disable this option once you have registered customers.</source>
-        <target xml:lang="pt-BR">Atenção: Você não poderá desabilitar essa opção depois de ter clientes cadastrados.</target>
+        <target xml:lang="pt-BR">Atenção: você não poderá desabilitar essa opção depois que tiver clientes cadastrados.</target>
         <note>Context:
 File: controllers/admin/AdminShopGroupController.php:206</note>
       </trans-unit>
@@ -114,13 +114,13 @@ File: controllers/admin/AdminBackupController.php:62</note>
       </trans-unit>
       <trans-unit id="b07ccf1ffff29007509d45dbcc13f923" approved="yes">
         <source>If enabled, the backup script will drop your tables prior to restoring data.</source>
-        <target xml:lang="pt-BR">Selecione esta opção para instruir o arquivo de backup para apagar as tabelas antes de restaurar o backup dos dados</target>
+        <target xml:lang="pt-BR">Se ativada, esta opção orienta o script de backup a apagar as tabelas antes de restaurar os dados.</target>
         <note>Context:
 File: controllers/admin/AdminBackupController.php:71</note>
       </trans-unit>
       <trans-unit id="2e25562aa49c13b17e979d826fecc25f" approved="yes">
         <source>(ie. "DROP TABLE IF EXISTS")</source>
-        <target xml:lang="pt-BR">(ex: \"DROP TABLE IF EXISTS\")</target>
+        <target xml:lang="pt-BR">(ex: "DROP TABLE IF EXISTS")</target>
         <note>Context:
 File: controllers/admin/AdminBackupController.php:72</note>
       </trans-unit>
@@ -136,7 +136,7 @@ File: controllers/admin/AdminEmailsController.php:97</note>
       </trans-unit>
       <trans-unit id="a60bc065c0296646c5a07e55c0cfff6e" approved="yes">
         <source>Fully qualified domain name (keep this field empty if you don't know).</source>
-        <target xml:lang="pt-BR">Nome de domínio completamente qualificado (manter vazio se você não sabe)</target>
+        <target xml:lang="pt-BR">Nome de domínio completamente qualificado (manter vazio se você não souber).</target>
         <note>Context:
 File: controllers/admin/AdminEmailsController.php:139</note>
       </trans-unit>
@@ -216,13 +216,13 @@ File: controllers/admin/AdminShopUrlController.php:256</note>
     <body>
       <trans-unit id="46ff0a5d9d334079e1dcbded5e6a3efd" approved="yes">
         <source>This option should be used in a production environment.</source>
-        <target xml:lang="pt-BR">Modelos nunca são recompilados, o desempenho é melhor e esta opção deve ser usado em ambiente de produção</target>
+        <target xml:lang="pt-BR">Esta opção deve ser usada em ambiente de produção.</target>
         <note>Context:
 File: controllers/admin/AdminPerformanceController.php:72</note>
       </trans-unit>
       <trans-unit id="7ada791b1c737a0403d84bdb7a531a53" approved="yes">
         <source>Templates are recompiled when they are updated. If you experience compilation troubles when you update your template files, you should use Force Compile instead of this option. It should never be used in a production environment.</source>
-        <target xml:lang="pt-BR">Os templates são recompilados quando eles são atualizados. Se você tiver problemas de compilação quando atualizar seus arquivos de template, você deve usar a opção "Forçar Compilação" ao invés desta. Compilação forçada não deve nunca ser usada num ambiente de produção.</target>
+        <target xml:lang="pt-BR">Os templates são recompilados quando eles forem atualizados. Se você tiver problemas de compilação quando atualizar seus arquivos de template, você deve usar a opção "Forçar Compilação" ao invés desta. A compilação forçada nunca deve ser usada em ambiente de produção.</target>
         <note>Context:
 File: controllers/admin/AdminPerformanceController.php:78</note>
       </trans-unit>
@@ -310,7 +310,7 @@ File: controllers/admin/AdminPerformanceController.php:448</note>
     <body>
       <trans-unit id="25047dda7ccdbdb758df436ada087c4e" approved="yes">
         <source>Enter "5" if you do not want to receive any emails.</source>
-        <target xml:lang="pt-BR">Digite "5" se você não quiser receber nenhum e-mails</target>
+        <target xml:lang="pt-BR">Digite "5" se você não quiser receber nenhum e-mail.</target>
         <note>Context:
 File: controllers/admin/AdminLogsController.php:92</note>
       </trans-unit>
@@ -324,21 +324,33 @@ File: controllers/admin/AdminLogsController.php:94</note>
   </file>
   <file original="controllers/admin/AdminEmployeesController.php" source-language="en" target-language="pt-BR" datatype="plaintext">
     <body>
+      <trans-unit id="14a966a005ea5262cd09332f4e50b7b1" approved="yes">
+        <source>Your avatar in PrestaShop 1.7.x is your profile picture on %url%. To change your avatar, log in to PrestaShop.com with your email %email% and follow the on-screen instructions.</source>
+        <target xml:lang="pt-BR">Seu avatar no PrestaShop 1.7.x é sua foto do perfil em %url%. Para alterar seu avatar, acesse o PrestaShop.com com seu e-mail %email% e siga as instruções.</target>
+        <note>Context:
+File: controllers/admin/AdminEmployeesController.php:263</note>
+      </trans-unit>
+      <trans-unit id="d222c4d0463bd3f146536ac89c0d7c77" approved="yes">
+        <source>Password should be at least %num% characters long.</source>
+        <target xml:lang="pt-BR">A senha deve ter de pelo menos %num% caracteres.</target>
+        <note>Context:
+File: controllers/admin/AdminEmployeesController.php:302</note>
+      </trans-unit>
       <trans-unit id="0b2827832fff3d973ee0ed2e6c7d4b23" approved="yes">
         <source>PrestaShop can provide you with guidance on a regular basis by sending you tips on how to optimize the management of your store which will help you grow your business. If you do not wish to receive these tips, you can disable this option.</source>
-        <target xml:lang="pt-BR">O PrestaShop pode oferecer orientações a você diariamente, enviando dicas de como otimizar o gerenciamento da sua loja, o que vai lhe ajudar a melhorar seu negócio. Se você não deseja receber essas dicas, por favor desmarque esta opção.</target>
+        <target xml:lang="pt-BR">O PrestaShop pode lhe fornecer orientações regulares, enviando dicas de como otimizar o gerenciamento da sua loja, o que vai lhe ajudar a melhorar seu negócio. Se você não deseja receber essas dicas, por favor desmarque esta opção.</target>
         <note>Context:
 File: controllers/admin/AdminEmployeesController.php:326</note>
       </trans-unit>
       <trans-unit id="c4e326fcaa83c6b1ca3856175bb86d2e" approved="yes">
         <source>This page will be displayed just after login.</source>
-        <target xml:lang="pt-BR">Esta página será mostrada logo apos o login.</target>
+        <target xml:lang="pt-BR">Esta página será mostrada logo após o login.</target>
         <note>Context:
 File: controllers/admin/AdminEmployeesController.php:332</note>
       </trans-unit>
       <trans-unit id="d970370797ba19bba5524b480d3526fb" approved="yes">
         <source>Allow or disallow this employee to log in to the Admin panel.</source>
-        <target xml:lang="pt-BR">Permitir ou não que este empregado inicie sessão no painel de administração.</target>
+        <target xml:lang="pt-BR">Permitir ou não que esse funcionário acesse o painel de administração.</target>
         <note>Context:
 File: controllers/admin/AdminEmployeesController.php:367</note>
       </trans-unit>
@@ -360,7 +372,7 @@ File: controllers/admin/AdminEmployeesController.php:400</note>
     <body>
       <trans-unit id="e8602bda90ef985a71054950e6f1981e" approved="yes">
         <source>Before activating the webservice, you must be sure to: </source>
-        <target xml:lang="pt-BR">Antes de ativar o webservice, tem de ter a certeza do seguinte: </target>
+        <target xml:lang="pt-BR">Antes de ativar o WebService, certifique-se de: </target>
         <note>Context:
 File: controllers/admin/AdminWebserviceController.php:81</note>
       </trans-unit>
@@ -372,13 +384,13 @@ File: controllers/admin/AdminWebserviceController.php:83</note>
       </trans-unit>
       <trans-unit id="60da463f081084680c973ec554a995bb" approved="yes">
         <source>Check that the five methods GET, POST, PUT, DELETE and HEAD are supported by this server.</source>
-        <target xml:lang="pt-BR">que os 5 métodos GET, POST, PUT, DELETE e HEAD são suportados pelo servidor</target>
+        <target xml:lang="pt-BR">Verifique se os 5 métodos GET, POST, PUT, DELETE e HEAD são suportados pelo servidor.</target>
         <note>Context:
 File: controllers/admin/AdminWebserviceController.php:84</note>
       </trans-unit>
       <trans-unit id="c03f07bc287e77654a26af409b4d93fa" approved="yes">
         <source>Before choosing "Yes", check that PHP is not configured as an Apache module on your server.</source>
-        <target xml:lang="pt-BR">Antes de escolher \"Sim\", verifique se o PHP não esta configurado como um módulo do Apache no servidor.</target>
+        <target xml:lang="pt-BR">Antes de escolher "Sim", verifique se o PHP não esta configurado como um módulo do Apache no seu servidor.</target>
         <note>Context:
 File: controllers/admin/AdminWebserviceController.php:96</note>
       </trans-unit>
@@ -394,7 +406,7 @@ File: controllers/admin/AdminWebserviceController.php:151</note>
     <body>
       <trans-unit id="c127560c7252928dc38d9a0ebf312ba4" approved="yes">
         <source>Use this option to associate data (products, modules, etc.) the same way for each selected shop.</source>
-        <target xml:lang="pt-BR">Use esta opção para associar dados (produtos, módulos, etc) da mesma forma para a loja selecionada</target>
+        <target xml:lang="pt-BR">Use esta opção para associar dados (produtos, módulos, etc) da mesma forma para cada loja selecionada.</target>
         <note>Context:
 File: controllers/admin/AdminShopController.php:589</note>
       </trans-unit>
@@ -428,7 +440,7 @@ File: controllers/admin/AdminRequestSqlController.php:117</note>
       </trans-unit>
       <trans-unit id="555f1c93c6aa30a9b28e5cb37eaade53" approved="yes">
         <source>Click "Add New".</source>
-        <target xml:lang="pt-BR">Clique em \"Adicionar novo\"</target>
+        <target xml:lang="pt-BR">Clique em "Adicionar novo".</target>
         <note>Context:
 File: controllers/admin/AdminRequestSqlController.php:119</note>
       </trans-unit>
@@ -456,7 +468,7 @@ File: controllers/admin/AdminRequestSqlController.php:122</note>
     <body>
       <trans-unit id="11cd708df7411da4546d8580356e711a" approved="yes">
         <source>Ignore this field if you don't use the Multistore tool. If you leave this field empty, the default shop will be used.</source>
-        <target xml:lang="pt-BR">Ignorar este campo se você não usar a ferramenta MultiStore. Se você deixar este campo em branco, loja padrão será utilizado</target>
+        <target xml:lang="pt-BR">Ignore este campo se você não usa MultiLoja. Se você deixar este campo em branco, a loja padrão será utilizada.</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:493</note>
       </trans-unit>
@@ -561,7 +573,7 @@ File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:78<
       </trans-unit>
       <trans-unit id="d24e59c4885823395588f1b480876da5" approved="yes">
         <source>If your backup file exceeds this limit, contact your hosting provider for assistance. </source>
-        <target xml:lang="pt-BR">Se a sua cópia de segurança exceder este limite, contacte o seu fornecedor de alojamento para obter ajuda. </target>
+        <target xml:lang="pt-BR">Se o arquivo de backup exceder esse limite, contate o seu provedor de hospedagem. </target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:79</note>
       </trans-unit>
@@ -579,7 +591,7 @@ File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:48<
       </trans-unit>
       <trans-unit id="35fc59a69cdc61281d4ac5780212911d" approved="yes">
         <source>How to restore a database backup in 10 easy steps:</source>
-        <target xml:lang="pt-BR">Como recuperar uma cópia de segurança da base de dados em 10 simples passos:</target>
+        <target xml:lang="pt-BR">Como restaurar um backup do banco de dados em 10 passos simples:</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:69</note>
       </trans-unit>
@@ -589,9 +601,21 @@ File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:69<
     <body>
       <trans-unit id="084ad8abffc138f8d43f0a77824396b9" approved="yes">
         <source>You can read information on import at:</source>
-        <target xml:lang="pt-BR">Pode ler informações sobre importação em:</target>
+        <target xml:lang="pt-BR">Você pode ler informações sobre importação em:</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:41</note>
+      </trans-unit>
+      <trans-unit id="4e7357d876d6d15fe084be41934e6555" approved="yes">
+        <source>http://doc.prestashop.com/display/PS17/Import</source>
+        <target xml:lang="pt-BR">http://doc.prestashop.com/display/PS17/Import</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:42</note>
+      </trans-unit>
+      <trans-unit id="18b28335d15dcd62f8af153c4c137af5" approved="yes">
+        <source>http://en.wikipedia.org/wiki/Comma-separated_values</source>
+        <target xml:lang="pt-BR">https://pt.m.wikipedia.org/wiki/Comma-separated_values</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:45</note>
       </trans-unit>
       <trans-unit id="a27780d9bb7b3595998465aadcaaeed7" approved="yes">
         <source>Allowed formats: .csv, .xls, .xlsx, .xlst, .ods, .ots</source>
@@ -613,7 +637,7 @@ File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl
       </trans-unit>
       <trans-unit id="b070d64c5a2f10b4b8eb361ba4f61833" approved="yes">
         <source>e.g. </source>
-        <target xml:lang="pt-BR">por ex.  </target>
+        <target xml:lang="pt-BR">por ex. </target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:211</note>
       </trans-unit>
@@ -625,13 +649,13 @@ File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl
       </trans-unit>
       <trans-unit id="423347880e13d3bf4a0e37ef28ace1b8" approved="yes">
         <source>If you enable this option, your imported items' ID number will be used as-is. If you do not enable this option, the imported ID numbers will be ignored, and PrestaShop will instead create auto-incremented ID numbers for all the imported items.</source>
-        <target xml:lang="pt-BR">Se ativar esta opção, os números de identificação dos artigos importados serão utilizados como estão. Se não ativar esta opção, os números de identificação dos artigos importados serão ignorados e o PrestaShop criará automaticamente números de identificação auto-incrementados para todos os artigos importados.</target>
+        <target xml:lang="pt-BR">Se ativar esta opção, os IDs dos itens importados serão utilizados como estão. Se não ativar esta opção, os IDs dos itens importados serão ignorados e o PrestaShop criará automaticamente IDs auto-incrementados para todos os artigos importados.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:266</note>
       </trans-unit>
       <trans-unit id="04d39f4c0f667d58c8c5540514ebf0eb" approved="yes">
         <source>Sends an email to let you know your import is complete. It can be useful when handling large files, as the import may take some time.</source>
-        <target xml:lang="pt-BR">Envia um e-mail para o informar de que a sua importação foi concluída. Pode ser útil quando trata ficheiros grandes, pois a importação pode demorar.</target>
+        <target xml:lang="pt-BR">Envia um e-mail para o informar que a importação foi concluída. Pode ser útil quando se trata arquivos grandes, pois a importação pode demorar.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:283</note>
       </trans-unit>
