@@ -86,6 +86,12 @@ File: controllers/admin/AdminGeolocationController.php:75</note>
         <note>Context:
 File: controllers/admin/AdminStatesController.php:158</note>
       </trans-unit>
+      <trans-unit id="d44080730b4d80fb65b9018d57c058b3" approved="yes">
+        <source>You can prefix it with the country ISO code if needed.</source>
+        <target xml:lang="fi">Voit asettaa etuliitteksi maan ISO-koodin, jos haluat.</target>
+        <note>Context:
+File: controllers/admin/AdminStatesController.php:158</note>
+      </trans-unit>
       <trans-unit id="0f6ca10753a64573af4ae286c7421e62" approved="yes">
         <source>Country where the state is located.</source>
         <target xml:lang="fi">Maa, jossa osavaltio sijaitsee.</target>
@@ -114,11 +120,23 @@ File: controllers/admin/AdminStatesController.php:185</note>
   </file>
   <file original="controllers/admin/AdminTaxesController.php" source-language="en" target-language="fi" datatype="plaintext">
     <body>
+      <trans-unit id="9065c9561edb357b57b213c15813cb32" approved="yes">
+        <source>If you disable the ecotax, the ecotax for all your products will be set to 0.</source>
+        <target xml:lang="fi">Jos poistat ekoveron käytöstä, kaikkien tuotteidesi ekoveron arvoksi asetetaan 0.</target>
+        <note>Context:
+File: controllers/admin/AdminTaxesController.php:60</note>
+      </trans-unit>
       <trans-unit id="fc6d7eca192247f8406fc4fc8ff896ef" approved="yes">
         <source>Select whether or not to include tax on purchases.</source>
         <target xml:lang="fi">Valitse, lisätäänkö verot ostoksiin.</target>
         <note>Context:
 File: controllers/admin/AdminTaxesController.php:69</note>
+      </trans-unit>
+      <trans-unit id="ea9d4f5bdfaaa411eb8c74355aec4553" approved="yes">
+        <source>Select whether or not to display tax on a distinct line in the cart.</source>
+        <target xml:lang="fi">Valitse, näytetäänkö vero korin erillisellä rivillä.</target>
+        <note>Context:
+File: controllers/admin/AdminTaxesController.php:73</note>
       </trans-unit>
       <trans-unit id="e17a0f166831874c90c9a13934c45cf7" approved="yes">
         <source>Define the ecotax (e.g. French ecotax: 19.6%).</source>
@@ -174,11 +192,23 @@ File: controllers/admin/AdminCurrenciesController.php:119</note>
   </file>
   <file original="controllers/admin/AdminTaxRulesGroupController.php" source-language="en" target-language="fi" datatype="plaintext">
     <body>
+      <trans-unit id="8bd279ebcd912dc792663bc65a1fb499" approved="yes">
+        <source>You can define a range of Zip/postal codes (e.g., 75000-75015) or simply use one Zip/postal code.</source>
+        <target xml:lang="fi">Voit määrittää postinumeroalueen (esim. 75000-75015) tai käyttää vain yhtä postinumeroa.</target>
+        <note>Context:
+File: controllers/admin/AdminTaxRulesGroupController.php:288</note>
+      </trans-unit>
       <trans-unit id="ce9c5fc1032ac5aa03a3d248022773df" approved="yes">
         <source>You must define the behavior if an address matches multiple rules:</source>
         <target xml:lang="fi">Sinun on määritettävä tapahtuma, jos osoite sopii useaan sääntöön:</target>
         <note>Context:
 File: controllers/admin/AdminTaxRulesGroupController.php:314</note>
+      </trans-unit>
+      <trans-unit id="439fa6ce423495b01ffd31ea56b33335" approved="yes">
+        <source>- This tax only: Will apply only this tax</source>
+        <target xml:lang="fi">- Vain tämä vero: Koskee vain tätä veroa</target>
+        <note>Context:
+File: controllers/admin/AdminTaxRulesGroupController.php:315</note>
       </trans-unit>
       <trans-unit id="4019ba4535164cd55c61ac20379a8aa9" approved="yes">
         <source>- Combine: Combine taxes (e.g.: 10% + 5% = 15%)</source>
@@ -324,6 +354,24 @@ File: controllers/admin/AdminCountriesController.php:300</note>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/countries/helpers/form/form.tpl:41</note>
       </trans-unit>
+      <trans-unit id="a551db18a168f7b7af97f05f654f6ebd" approved="yes">
+        <source>This will restore the default address format for this country.</source>
+        <target xml:lang="fi">Tämä palauttaa tämän maan oletusosoitemuodon.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/countries/helpers/form/form.tpl:43</note>
+      </trans-unit>
+      <trans-unit id="15103dc2a4e70c7865d2b2ed5542f7ee" approved="yes">
+        <source>This will restore your current address format.</source>
+        <target xml:lang="fi">Tämä palauttaa nykyisen osoitemuotosi.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/countries/helpers/form/form.tpl:45</note>
+      </trans-unit>
+      <trans-unit id="658983835e342b548674ebb6d169333f" approved="yes">
+        <source>This will delete the current address format</source>
+        <target xml:lang="fi">Tämä poistaa nykyisen osoitemuodon</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/countries/helpers/form/form.tpl:47</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_modules.tpl" source-language="en" target-language="fi" datatype="plaintext">
@@ -352,11 +400,23 @@ File: admin-dev/themes/default/template/controllers/translations/helpers/view/tr
         <note>Context:
 File: admin-dev/themes/default/template/controllers/translations/helpers/view/translation_modules.tpl:76</note>
       </trans-unit>
+      <trans-unit id="031775df42ef41141d4b4c7d4db89d65" approved="yes">
+        <source>The numbers enable you to reorder the variables when necessary.</source>
+        <target xml:lang="fi">Numerot sallivat muuttujien uudelleen järjestämisen tarpeen vaatiessa.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/translation_modules.tpl:76</note>
+      </trans-unit>
       <trans-unit id="f324bbd9de83d61ccb5f7d5593aec5b3" approved="yes">
         <source>You MUST use this syntax in your translations. Here are several examples:</source>
         <target xml:lang="fi">Sinun ON käytettävä tätä syntaksia käännöksissäsi. Tässä on muutamia esimerkkejä:</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/translations/helpers/view/translation_modules.tpl:71</note>
+      </trans-unit>
+      <trans-unit id="013afdec32d184dc61040022a45409ca" approved="yes">
+        <source>Click on the title of a section to open its fieldsets.</source>
+        <target xml:lang="fi">Klikkaa osion otsikkoa avataksesi sen kentät.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/translation_modules.tpl:52</note>
       </trans-unit>
       <trans-unit id="b3f4e400fe40a25d1c2b0c59e63668cf" approved="yes">
         <source>Here you can modify translations for all installed module.</source>
@@ -396,11 +456,23 @@ File: admin-dev/themes/default/template/controllers/translations/helpers/view/tr
         <note>Context:
 File: admin-dev/themes/default/template/controllers/translations/helpers/view/main.tpl:171</note>
       </trans-unit>
+      <trans-unit id="00fd55ca2b1b20cca50d295393b32440" approved="yes">
+        <source>First, select a type of translation (such as "Back office" or "Installed modules"), and then select the language you want to translate strings in.</source>
+        <target xml:lang="fi">Valitse ensin käännöksen tyyppi (kuten "Back office" tai "Asennetut moduulit"), ja valitse sitten kieli, jolle haluat kääntää merkit.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/main.tpl:172</note>
+      </trans-unit>
       <trans-unit id="9deac468eeaf8b5b0d2c4bee2857841a" approved="yes">
         <source>You can add or update a language directly from the PrestaShop website here.</source>
         <target xml:lang="fi">Täällä voit lisätä tai päivittää kielen suoraan PrestaShopin verkkosivuilta.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/translations/helpers/view/main.tpl:244</note>
+      </trans-unit>
+      <trans-unit id="1cd65045771c89cf574749f6dbd01702" approved="yes">
+        <source>If the language file format is ISO_code.gzip (e.g. "us.gzip"), and the language corresponding to this package does not exist, it will automatically be created.</source>
+        <target xml:lang="fi">Jos kielitiedostomuoto on ISO_code.gzip (esim. "us.gzip") ja tätä pakettia vastaavaa kieltä ei ole olemassa, se luodaan automaattisesti.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/main.tpl:285</note>
       </trans-unit>
       <trans-unit id="3cd0f0cce3990de970f803ffc19f68e1" approved="yes">
         <source>Warning: This will replace all of the existing data inside the destination language.</source>
@@ -413,6 +485,12 @@ File: admin-dev/themes/default/template/controllers/translations/helpers/view/ma
         <target xml:lang="fi">Vie käännökset kielestä tiedostoksi (kielipaketti).</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/translations/helpers/view/main.tpl:329</note>
+      </trans-unit>
+      <trans-unit id="234350fd7a2ea83720f91f40eb2985a9" approved="yes">
+        <source>Select which theme you would like to export your translations to.</source>
+        <target xml:lang="fi">Valitse, mihin teemaan haluat viedä käännöksesi.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/main.tpl:330</note>
       </trans-unit>
       <trans-unit id="d4e007a94451a69f593c3ce0e06e08f2" approved="yes">
         <source>Copies data from one language to another.</source>

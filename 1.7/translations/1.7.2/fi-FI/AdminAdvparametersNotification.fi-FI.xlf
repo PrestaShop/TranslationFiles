@@ -362,6 +362,42 @@ File: controllers/admin/AdminWebserviceController.php:249</note>
         <note>Context:
 File: controllers/admin/AdminWebserviceController.php:252</note>
       </trans-unit>
+      <trans-unit id="3a1d42e50ada009f2ef187fbf6dc8a3f" approved="yes">
+        <source>To avoid operating problems, please use an Apache server.</source>
+        <target xml:lang="fi">Käytä Apache-palvelinta välttyäksesi käyttöongelmilta.</target>
+        <note>Context:
+File: controllers/admin/AdminWebserviceController.php:272</note>
+      </trans-unit>
+      <trans-unit id="d6305f2f8c5c0f95a367e618a64bb458" approved="yes">
+        <source>Please activate the 'mod_auth_basic' Apache module to allow authentication of PrestaShop's webservice.</source>
+        <target xml:lang="fi">Aktivoi "mod_auth_basic" Apache-moduuli salliaksesi PrestaShopin www-palvelun todentamisen.</target>
+        <note>Context:
+File: controllers/admin/AdminWebserviceController.php:276</note>
+      </trans-unit>
+      <trans-unit id="e11a22a5910f9f84a6630ee78e1a39f5" approved="yes">
+        <source>Please activate the 'mod_rewrite' Apache module to allow the PrestaShop webservice.</source>
+        <target xml:lang="fi">Aktivoi "mod_rewrite" Apache-moduuli salliaksesi PrestaShopin www-palvelun.</target>
+        <note>Context:
+File: controllers/admin/AdminWebserviceController.php:279</note>
+      </trans-unit>
+      <trans-unit id="2c19e4b707a422ddbbc4d1c32966661d" approved="yes">
+        <source>We could not check to see if basic authentication and rewrite extensions have been activated. Please manually check if they've been activated in order to use the PrestaShop webservice.</source>
+        <target xml:lang="fi">Emme voineet tarkistaa, onko perustodennus- ja uudelleenkirjoituslaajennukset aktivoitu. Tarkista manuaalisesti, onko ne aktivoitu käyttääksesi PrestaShopin www-palvelua.</target>
+        <note>Context:
+File: controllers/admin/AdminWebserviceController.php:282</note>
+      </trans-unit>
+      <trans-unit id="ab60321a106f1e1ab65b76c1ca15dd7c" approved="yes">
+        <source>Please activate the 'SimpleXML' PHP extension to allow testing of PrestaShop's webservice.</source>
+        <target xml:lang="fi">Aktivoi "SimpleXML" PHP-laajennus salliaksesi PrestaShopin www-palvelun testaus.</target>
+        <note>Context:
+File: controllers/admin/AdminWebserviceController.php:286</note>
+      </trans-unit>
+      <trans-unit id="0508bbb36fb6b5db31edf2f45cd687ea" approved="yes">
+        <source>It is preferable to use SSL (https:) for webservice calls, as it avoids the "man in the middle" type security issues.</source>
+        <target xml:lang="fi">On suositeltavaa käyttää SSL-suojausta (https:) verkkopuheluihin, koska se estää "välistävetohyökkäyksen" tapaiset tietoturvaongelmat.</target>
+        <note>Context:
+File: controllers/admin/AdminWebserviceController.php:289</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminInformationController.php" source-language="en" target-language="fi" datatype="plaintext">
@@ -528,6 +564,12 @@ File: controllers/admin/AdminShopController.php:637</note>
   </file>
   <file original="controllers/admin/AdminRequestSqlController.php" source-language="en" target-language="fi" datatype="plaintext">
     <body>
+      <trans-unit id="0ee028bcc2a0101d4d65745086eefc03" approved="yes">
+        <source>When saving the query, only the "SELECT" SQL statement is allowed.</source>
+        <target xml:lang="fi">Tallentaessasi kyselyä vain "VALITSE" SQL-lause on sallittu.</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:115</note>
+      </trans-unit>
       <trans-unit id="c232ec1eb797989616b3ab59a5777b69" approved="yes">
         <source>The file is too large and cannot be downloaded. Please use the LIMIT clause in this query.</source>
         <target xml:lang="fi">Tiedosto on liian suuri ladattavaksi. Käytä tämän kyselyn LIMIT-lauseketta.</target>
@@ -1102,11 +1144,29 @@ File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_hea
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:70</note>
       </trans-unit>
+      <trans-unit id="bcb4db2b36ea3b1e20e5ee4aa9a68665" approved="yes">
+        <source>If you need to restore a database backup, we invite you to subscribe to a [1][2]technical support plan[/2][/1].</source>
+        <target xml:lang="fi">Jos sinun on palautettava tietokannan varmuuskopio, kehotamme sinua tilaamaan [1][2]teknisen tuen suunnitelman[/2][/1].</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:71</note>
+      </trans-unit>
+      <trans-unit id="0929b3759c8eef31c299400f513072dd" approved="yes">
+        <source>Our team will take care of restoring your database safely.</source>
+        <target xml:lang="fi">Tiimimme huolehtii tietokantasi turvallisesta palauttamisesta.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:73</note>
+      </trans-unit>
       <trans-unit id="c4b6a12f5f4cbbeb2353a718ee9a8a9a" approved="yes">
         <source>Why can't I restore it by myself?</source>
         <target xml:lang="fi">Miksi en voi palauttaa sitä itse?</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:76</note>
+      </trans-unit>
+      <trans-unit id="d4ef96663955ee203ce986ef40945199" approved="yes">
+        <source>Your shop is hosted by PrestaShop. Although you can create backup files here below, there are core settings you cannot access for security reasons, like the database management. Thus, only our team can proceed to a restoration.</source>
+        <target xml:lang="fi">Myymälääsi ylläpitää PrestaShop. Vaikka voit luoda varmuuskopiotiedostoja alta, et voi päästä käsiksi joihinkin ydinasetuksiin, kuten tietokannan hallintaan, turvallisuussyistä. Näin ollen vain tiimimme voi suorittaa palautuksen.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:78</note>
       </trans-unit>
     </body>
   </file>
@@ -1164,11 +1224,35 @@ File: admin-dev/themes/default/template/controllers/request_sql/helpers/view/vie
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:28</note>
       </trans-unit>
+      <trans-unit id="418dde4b22e22a725e75b2819c0373b2" approved="yes">
+        <source>Note that the Category import does not support having two categories with the same name.</source>
+        <target xml:lang="fi">Huomaa, että tuoteryhmän tuonti ei tue kahta samannimistä tuoteryhmää.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:65</note>
+      </trans-unit>
+      <trans-unit id="b990d5cecd822de3b6922abcf71549b4" approved="yes">
+        <source>Note that you can have several products with the same reference.</source>
+        <target xml:lang="fi">Huomaa, että sinulla voi olla useita tuotteita, joilla on sama viite.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:66</note>
+      </trans-unit>
+      <trans-unit id="7ec8e6a8a53cd81e13594780931cfce5" approved="yes">
+        <source>Importing Supply Order Details will reset your history of ordered products, if there are any.</source>
+        <target xml:lang="fi">Toimitusmääräyksen tietojen tuonti nollaa tilattujen tuotteidesi historian, jos niitä on.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:70</note>
+      </trans-unit>
       <trans-unit id="df6e9862566912e908ef785e860f9c71" approved="yes">
         <source>Are you sure that you would like to delete this entity: </source>
         <target xml:lang="fi">Haluatko varmasti poistaa tämän kohteen: </target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:493</note>
+      </trans-unit>
+      <trans-unit id="83a1698a445036a9a65686ac61879794" approved="yes">
+        <source>You do not have permission to delete this. When the MultiStore mode is enabled, only a SuperAdmin can delete all items before an import.</source>
+        <target xml:lang="fi">Sinulla ei ole oikeutta poistaa tätä. Kun MultiStore-tila on käytössä, vain SuperAdmin voi poistaa kaikki kohteet ennen tuontia.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:497</note>
       </trans-unit>
     </body>
   </file>
@@ -1191,6 +1275,12 @@ File: admin-dev/themes/default/template/controllers/information/helpers/view/vie
         <target xml:lang="fi">Muutettuja/puuttuvia tiedostoja on löydetty.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:49</note>
+      </trans-unit>
+      <trans-unit id="4757718002cbae6feee5c372b66b6a29" approved="yes">
+        <source>No change has been detected in your files.</source>
+        <target xml:lang="fi">Tiedostoissasi ei löydetty muutoksia.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:51</note>
       </trans-unit>
       <trans-unit id="e0aa021e21dddbd6d8cecec71e9cf564" approved="yes">
         <source>OK</source>
