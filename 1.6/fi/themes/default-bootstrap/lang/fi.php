@@ -824,6 +824,7 @@ $_LANG['product_6da03a74721a0554b7143254225cc08a'] = 'Kunnostettu';
 $_LANG['product_2b56b60f878922093facd42284848a0c'] = 'Tiedot';
 $_LANG['product_e54a973d0c3342dac6ee7d9e145c6f83'] = 'Paketin sisältö';
 $_LANG['product_7d74f3b92b19da5e606d737d339a9679'] = 'Tuote';
+$_LANG['product_9dea4016dbcc290b773ab2fae678aaa8'] = 'varastossa';
 $_LANG['product_8c751c4aab0db0b811cdfbddf0b4ea56'] = 'Saatavuus:';
 $_LANG['product_bc0f7082192ef02e934a036cf4991789'] = 'Tuotetta ei ole varastossa';
 $_LANG['product_0d83f0026f6d2923b2aa3a208156918c'] = 'Huom: Viimeinen tuote varastossa!';

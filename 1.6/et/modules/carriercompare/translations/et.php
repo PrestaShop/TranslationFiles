@@ -20,6 +20,7 @@ $_MODULE['<{carriercompare}prestashop>carriercompare_ed22df3e47c667a95dd43e59f2f
 $_MODULE['<{carriercompare}prestashop>carriercompare_e7a6ca4e744870d455a57b644f696457'] = 'Tasuta!';
 $_MODULE['<{carriercompare}prestashop>configuration_152c9745ad3e3720a15b058df5d16116'] = 'Tekkis tõrge kinnitamisel.';
 $_MODULE['<{carriercompare}prestashop>configuration_20015706a8cbd457cbb6ea3e7d5dc9b3'] = 'Seaded uuendatud';
+$_MODULE['<{carriercompare}prestashop>configuration_242c88eb5c5a76cab7c30fef4cd89471'] = 'See moodul on saadaval ainult standardse viiesammulise ostu vormistamise korral. Kullerite nimekiri on juba üheleheküljelise ostu vormistamise jaoks määratud.';
 $_MODULE['<{carriercompare}prestashop>configuration_6408d076fa6417e7bc8ddc3cdf9a0644'] = 'Üldised seadistused';
 $_MODULE['<{carriercompare}prestashop>configuration_4c1f76824b0d7333652d5f64a3e07ef5'] = 'Igakell';
 $_MODULE['<{carriercompare}prestashop>configuration_31efb362f3723b55bfa28f3551a672f7'] = 'Kogu info on nõutud';

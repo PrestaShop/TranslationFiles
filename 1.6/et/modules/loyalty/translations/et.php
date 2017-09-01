@@ -50,6 +50,7 @@ $_MODULE['<{loyalty}prestashop>product_b9cb3a85529dd593c14c838e22976cff'] = 'Tei
 $_MODULE['<{loyalty}prestashop>product_443c3e03e194c2a4cdb107808b051615'] = 'mis on võimalik konverteerida kupongiks, väärtusega';
 $_MODULE['<{loyalty}prestashop>product_054a9c66cc92b7f1bfcacee3b7c7ad54'] = 'Boonuspunkte antud tootega ei saa, sest antud toode on juba soodushinnaga.';
 $_MODULE['<{loyalty}prestashop>product_e94d481804904a48c1a8093e7a069570'] = 'Antud toode boonuspunkte ei anna';
+$_MODULE['<{loyalty}prestashop>shopping-cart_562b7108857d8394e83861d0529cc7dd'] = 'Selle ostukorvi eest tasumisel kogute kuni';
 $_MODULE['<{loyalty}prestashop>shopping-cart_1340ddee36660d8e1d5f6918dee0ba4e'] = '%d buunuspunkti';
 $_MODULE['<{loyalty}prestashop>shopping-cart_e7e421ccebbe3fafffe0f67dbd595d5b'] = '%d boonuspunkt';
 $_MODULE['<{loyalty}prestashop>shopping-cart_443c3e03e194c2a4cdb107808b051615'] = 'mis on võimalik konverteerida kupongiks, väärtusega';

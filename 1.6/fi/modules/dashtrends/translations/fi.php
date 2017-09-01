@@ -14,6 +14,7 @@ $_MODULE['<{dashtrends}prestashop>dashtrends_d7e637a6e9ff116de2fa89551240a94d'] 
 $_MODULE['<{dashtrends}prestashop>dashtrends_e4c3da18c66c0147144767efeb59198f'] = 'Konversiosuhde';
 $_MODULE['<{dashtrends}prestashop>dashtrends_43d729c7b81bfa5fc10e756660d877d1'] = 'Nettotuotto';
 $_MODULE['<{dashtrends}prestashop>dashtrends_46418a037045b91e6715c4da91a2a269'] = '%s (edellinen jakso)';
+$_MODULE['<{dashtrends}prestashop>dashboard_zone_two_2938c7f7e560ed972f8a4f68e80ff834'] = 'Ohjausnäkymä';
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_f1206f9fadc5ce41694f69129aecac26'] = 'Muuta asetuksia';
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_63a6a88c066880c5ac42394a22803ca6'] = 'Päivitä';
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_e537825dd409a90ef70d8c2eb56122a1'] = 'Liikevaihto (ilman alvia) valitulta ajanjaksolta hyväksyttyjen tilausten mukaan.';

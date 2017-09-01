@@ -3,6 +3,7 @@
 global $_TABS;
 $_TABS = array();
 
+$_TABS['AdminDashboard'] = 'Ohjausnäkymä';
 $_TABS['AdminCatalog'] = 'Katalogi';
 $_TABS['AdminParentOrders'] = 'Tilaukset';
 $_TABS['AdminParentCustomer'] = 'Asiakkaat';
@@ -84,6 +85,7 @@ $_TABS['AdminGeolocation'] = 'Paikkatieto';
 $_TABS['AdminInformation'] = 'Asetustiedot';
 $_TABS['AdminPerformance'] = 'Suorituskyky';
 $_TABS['AdminEmails'] = 'Sähköposti';
+$_TABS['AdminShopGroup'] = 'Monta kauppaa (Multistore)';
 $_TABS['AdminImport'] = 'CSV-tuonti';
 $_TABS['AdminBackup'] = 'Tietokannan varmuuskopiointi';
 $_TABS['AdminRequestSql'] = 'SQL-hallinta';

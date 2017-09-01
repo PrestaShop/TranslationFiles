@@ -94,13 +94,22 @@ $_MODULE['<{productcomments}prestashop>products-comparison_8413c683b4b27cc3f4dbd
 $_MODULE['<{productcomments}prestashop>products-comparison_b1897515d548a960afe49ecf66a29021'] = 'keskmine';
 $_MODULE['<{productcomments}prestashop>products-comparison_bc976f6c3405523cde61f63a7cbe224b'] = 'Vaata kommentaare';
 $_MODULE['<{productcomments}prestashop>tab_8413c683b4b27cc3f4dbd4c90329d8ba'] = 'Kommentaarid';
+$_MODULE['<{productcomments}prestashop>form_b9aefa40a54680bb258f9f9569290fae'] = 'Toote nimi';
+$_MODULE['<{productcomments}prestashop>productcomments-extra_dda9c06f33071c9b6fc237ee164109d8'] = 'Hinnang';
 $_MODULE['<{productcomments}prestashop>productcomments-extra_899139b5174d8d7a6e38a0360008a695'] = 'Loe kasutajate ülevaateid';
 $_MODULE['<{productcomments}prestashop>productcomments-extra_c31732fda0c6f01c446db7163b214de4'] = 'Kirjutage oma ülevaade';
+$_MODULE['<{productcomments}prestashop>productcomments_reviews_d844ad9202d0de8442498775ba6ef819'] = 'Arvustus(ed)';
 $_MODULE['<{productcomments}prestashop>productcomments_93cba07454f06a4a960172bbd6e2a435'] = 'Jah';
 $_MODULE['<{productcomments}prestashop>productcomments_bafd7322c6e97d25b6299b5d6fe8920b'] = 'Ei';
+$_MODULE['<{productcomments}prestashop>productcomments_c565011debb8e2812ef12853eb6a38a9'] = 'Kirjutage arvutus!';
+$_MODULE['<{productcomments}prestashop>productcomments_f444678e4f3575d59b32a858630741fd'] = 'Olge esimene, kes arvustuse kirjutab!';
 $_MODULE['<{productcomments}prestashop>productcomments_c31732fda0c6f01c446db7163b214de4'] = 'Kirjutage oma ülevaade';
+$_MODULE['<{productcomments}prestashop>productcomments_51ec9bf4aaeab1b25bb57f9f8d4de557'] = 'Pealkiri:';
 $_MODULE['<{productcomments}prestashop>productcomments_240f3031f25601fa128bd4e15f0a37de'] = 'Kommentaar:';
+$_MODULE['<{productcomments}prestashop>productcomments_a2ed44743411cf8b80e397448fce104c'] = 'Teie nimi:';
 $_MODULE['<{productcomments}prestashop>productcomments_a4d3b161ce1309df1c4e25df28694b7b'] = 'Sisesta';
+$_MODULE['<{productcomments}prestashop>productcomments_4e3ee0f5bd8f527715fb0776741b9754'] = 'Teie kommentaar on lisatud ja ilmub pärast ülevaatamist.';
+$_MODULE['<{productcomments}prestashop>products-comparison_5d9acecbb0b55a71dea7403896356001'] = 'Kuva kommentaarid';
 $_MODULE['<{productcomments}prestashop>tab_34e80a799d144cfe4af46815e103f017'] = 'Kommentaarid';
 
 
