@@ -74,17 +74,23 @@ File: classes/Mail.php:267</note>
       </trans-unit>
       <trans-unit id="1769b5ab48b8e2ce733fb38663ec853a" approved="yes">
         <source>Error: invalid SMTP server or SMTP port</source>
-        <target xml:lang="pt-BR">Erro: O servidor SMTP inválido ou porta SMTP</target>
+        <target xml:lang="pt-BR">Erro: servidor SMTP ou porta SMTP inválidos</target>
         <note>Context:
 File: classes/Mail.php:280</note>
+      </trans-unit>
+      <trans-unit id="3ed07fe73e25bba69e3e5dac234b1941" approved="yes">
+        <source>Error - The following e-mail template is missing: %s</source>
+        <target xml:lang="pt-BR">Erro - O seguinte template de e-mail está faltando: %s</target>
+        <note>Context:
+File: classes/Mail.php:331</note>
       </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminTabsController.php" source-language="en" target-language="pt-BR" datatype="plaintext">
     <body>
-      <trans-unit id="5bb701014490e33a37ecdc43ce578404">
+      <trans-unit id="5bb701014490e33a37ecdc43ce578404" approved="yes">
         <source>You can't put this menu inside itself. </source>
-        <target xml:lang="pt-BR" state="needs-translation"> </target>
+        <target xml:lang="pt-BR">Você não pode inserir este menu dentro dele mesmo. </target>
         <note>Context:
 File: controllers/admin/AdminTabsController.php:293</note>
       </trans-unit>
@@ -142,7 +148,7 @@ File: controllers/admin/AdminEmailsController.php:166</note>
     <body>
       <trans-unit id="6e61f7cd17315db8599a202172a096d5" approved="yes">
         <source>You've selected a state for a country that does not contain states.</source>
-        <target xml:lang="pt-BR">Você já selecionou o estado de um país que não contém estados.</target>
+        <target xml:lang="pt-BR">Você selecionou um estado para um país que não contém estados.</target>
         <note>Context:
 File: controllers/admin/AdminStoresController.php:333</note>
       </trans-unit>
@@ -182,7 +188,7 @@ File: controllers/admin/AdminPerformanceController.php:490</note>
       </trans-unit>
       <trans-unit id="0c34331bf9aad4193a8ba2cc52502dff" approved="yes">
         <source>The Memcached IP is missing.</source>
-        <target xml:lang="pt-BR">Memcached IP está faltando</target>
+        <target xml:lang="pt-BR">O IP do Memcached está faltando.</target>
         <note>Context:
 File: controllers/admin/AdminPerformanceController.php:621</note>
       </trans-unit>
@@ -215,6 +221,12 @@ File: controllers/admin/AdminPerformanceController.php:648</note>
         <target xml:lang="pt-BR">Para utilizar o Cache Smarty, a pasta %directorypath% deve ter permissões de escrita.</target>
         <note>Context:
 File: controllers/admin/AdminPerformanceController.php:704</note>
+      </trans-unit>
+      <trans-unit id="91e3dffab90db947ea156087dadaa9c0" approved="yes">
+        <source>Before being able to use this tool, you need to:[1][2]Create a blank .htaccess in your root directory.[/2][2]Give it write permissions (CHMOD 666 on Unix system).[/2][/1]</source>
+        <target xml:lang="pt-BR">Antes de poder usar esta ferramenta, você precisa: [1][2]Criar um .htaccess vazio no seu diretório raiz.[/2][2]Atribuir permissões de escrita (CHMOD 666 em sistemas Unix).[/2][/1]</target>
+        <note>Context:
+File: controllers/admin/AdminPerformanceController.php:737</note>
       </trans-unit>
       <trans-unit id="ea030df6cb392bef66cde22c94578ae4" approved="yes">
         <source>Media server #1 is invalid</source>
@@ -276,13 +288,31 @@ File: controllers/admin/AdminPerformanceController.php:846</note>
         <note>Context:
 File: controllers/admin/AdminPerformanceController.php:866</note>
       </trans-unit>
+      <trans-unit id="d4fb191ef219af010cc664bf47393e97" approved="yes">
+        <source>Error: Could not find whether debug mode is enabled. Make sure that the correct permissions are set on the file %s</source>
+        <target xml:lang="pt-BR">Erro: não foi possível saber se o modo de depuração está ativado. Certifique-se de que as permissões corretas estão definidas no arquivo %s</target>
+        <note>Context:
+File: controllers/admin/AdminPerformanceController.php:900</note>
+      </trans-unit>
+      <trans-unit id="667685497be44ab0fc2d4334a512405b" approved="yes">
+        <source>Error: Could not write to file. Make sure that the correct permissions are set on the file %s</source>
+        <target xml:lang="pt-BR">Erro: não foi possível escrever no arquivo. Certifique-se de que as permissões corretas estão definidas no arquivo %s</target>
+        <note>Context:
+File: controllers/admin/AdminPerformanceController.php:906</note>
+      </trans-unit>
+      <trans-unit id="a22bb81de6e3b8e82ac5a09f2bb7e0b4" approved="yes">
+        <source>Error: Could not read file. Make sure that the correct permissions are set on the file %s</source>
+        <target xml:lang="pt-BR">Erro: não é possível ler o arquivo. Certifique-se de que as permissões corretas estão definidas no arquivo %s</target>
+        <note>Context:
+File: controllers/admin/AdminPerformanceController.php:909</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminEmployeesController.php" source-language="en" target-language="pt-BR" datatype="plaintext">
     <body>
       <trans-unit id="a375d9230fd61b4a70ac109ab7b11082" approved="yes">
         <source>You cannot edit the SuperAdmin profile.</source>
-        <target xml:lang="pt-BR">Você não pode editar perfil SuperAdmin.</target>
+        <target xml:lang="pt-BR">Você não pode editar o perfil SuperAdmin.</target>
         <note>Context:
 File: controllers/admin/AdminEmployeesController.php:234</note>
       </trans-unit>
@@ -300,7 +330,7 @@ File: controllers/admin/AdminEmployeesController.php:472</note>
       </trans-unit>
       <trans-unit id="2450228823b8e17792cf687b8543b59d" approved="yes">
         <source>You cannot disable or delete the administrator account.</source>
-        <target xml:lang="pt-BR">Você não pode desativar ou excluir a última conta de administrador.</target>
+        <target xml:lang="pt-BR">Você não pode desativar ou excluir a conta de administrador.</target>
         <note>Context:
 File: controllers/admin/AdminEmployeesController.php:562</note>
       </trans-unit>
@@ -352,7 +382,7 @@ File: controllers/admin/AdminEmployeesController.php:598</note>
     <body>
       <trans-unit id="155657899b93f70358eed115631fdb04" approved="yes">
         <source>Key length must be 32 character long.</source>
-        <target xml:lang="pt-BR">o tamanho da chave deve ser de 32 caracteres</target>
+        <target xml:lang="pt-BR">O tamanho da chave deve ser de 32 caracteres.</target>
         <note>Context:
 File: controllers/admin/AdminWebserviceController.php:249</note>
       </trans-unit>
@@ -364,13 +394,13 @@ File: controllers/admin/AdminWebserviceController.php:252</note>
       </trans-unit>
       <trans-unit id="3a1d42e50ada009f2ef187fbf6dc8a3f" approved="yes">
         <source>To avoid operating problems, please use an Apache server.</source>
-        <target xml:lang="pt-BR">Para evitar problemas operacionais, utilize um servidor Apache</target>
+        <target xml:lang="pt-BR">Para evitar problemas operacionais, por favor utilize um servidor Apache.</target>
         <note>Context:
 File: controllers/admin/AdminWebserviceController.php:272</note>
       </trans-unit>
       <trans-unit id="d6305f2f8c5c0f95a367e618a64bb458" approved="yes">
         <source>Please activate the 'mod_auth_basic' Apache module to allow authentication of PrestaShop's webservice.</source>
-        <target xml:lang="pt-BR">Por favor, ative o módulo Apache 'mod_auth_basic' para permitir a autenticação no WebService do PrestaShop</target>
+        <target xml:lang="pt-BR">Por favor, ative o módulo Apache 'mod_auth_basic' para permitir a autenticação no WebService do PrestaShop.</target>
         <note>Context:
 File: controllers/admin/AdminWebserviceController.php:276</note>
       </trans-unit>
@@ -382,7 +412,7 @@ File: controllers/admin/AdminWebserviceController.php:279</note>
       </trans-unit>
       <trans-unit id="2c19e4b707a422ddbbc4d1c32966661d" approved="yes">
         <source>We could not check to see if basic authentication and rewrite extensions have been activated. Please manually check if they've been activated in order to use the PrestaShop webservice.</source>
-        <target xml:lang="pt-BR">Não foi possível checar se as extensões 'mod_auth_basic' e 'mod_rewrite' estão ativas. Por favor, cheque manualmente se estão ativas, para que possa utilizar o PrestaShop WebService.</target>
+        <target xml:lang="pt-BR">Não foi possível verificar se as extensões 'mod_auth_basic' e 'mod_rewrite' estão ativas. Por favor, verifique manualmente se elas estão ativas, para que possa utilizar o WebService do PrestaShop.</target>
         <note>Context:
 File: controllers/admin/AdminWebserviceController.php:282</note>
       </trans-unit>
@@ -416,13 +446,13 @@ File: controllers/admin/AdminInformationController.php:112</note>
       </trans-unit>
       <trans-unit id="ba29b5ac8580aaa26d3166f32da8ac10" approved="yes">
         <source>Configure your server to allow the creation of directories and files with write permissions.</source>
-        <target xml:lang="pt-BR">Configure seu servidor para permitir criação de pastas e permissões de escrita</target>
+        <target xml:lang="pt-BR">Configure seu servidor para permitir criação de pastas e arquivos com permissões de escrita.</target>
         <note>Context:
 File: controllers/admin/AdminInformationController.php:113</note>
       </trans-unit>
       <trans-unit id="b5f353847bbb01ca0feda2a3b0e5b1a9" approved="yes">
         <source>Enable the GD library on your server.</source>
-        <target xml:lang="pt-BR">Habilitar a biblioteca GD no seu servidor</target>
+        <target xml:lang="pt-BR">Habilitar a biblioteca GD no seu servidor.</target>
         <note>Context:
 File: controllers/admin/AdminInformationController.php:114</note>
       </trans-unit>
@@ -434,7 +464,7 @@ File: controllers/admin/AdminInformationController.php:115</note>
       </trans-unit>
       <trans-unit id="fbc80a46761028390cb9f217affc1ad4" approved="yes">
         <source>Set write permissions for the "config" folder.</source>
-        <target xml:lang="pt-BR">Definir permissões de escrita na pasta 'config'</target>
+        <target xml:lang="pt-BR">Definir permissões de escrita na pasta 'config'.</target>
         <note>Context:
 File: controllers/admin/AdminInformationController.php:116</note>
       </trans-unit>
@@ -524,7 +554,7 @@ File: controllers/admin/AdminInformationController.php:130</note>
       </trans-unit>
       <trans-unit id="0b9193ca4af6867c1f50a07097254b62" approved="yes">
         <source>Enable the Apache mod_rewrite module</source>
-        <target xml:lang="pt-BR">Ativar o módulo mod_rewrite do Apache</target>
+        <target xml:lang="pt-BR">Habilite o módulo mod_rewrite do Apache</target>
         <note>Context:
 File: controllers/admin/AdminInformationController.php:131</note>
       </trans-unit>
@@ -544,7 +574,7 @@ File: controllers/admin/AdminProfilesController.php:100</note>
     <body>
       <trans-unit id="3235afa1d3eec16220f80e4acd0dd8da" approved="yes">
         <source>You cannot have two shops with the same name in the same group.</source>
-        <target xml:lang="pt-BR">Você não pode ter duas lojas com o mesmo nome no mesmo grupo</target>
+        <target xml:lang="pt-BR">Você não pode ter duas lojas com o mesmo nome no mesmo grupo.</target>
         <note>Context:
 File: controllers/admin/AdminShopController.php:241</note>
       </trans-unit>
@@ -588,9 +618,15 @@ File: controllers/admin/AdminRequestSqlController.php:401</note>
         <note>Context:
 File: controllers/admin/AdminRequestSqlController.php:487</note>
       </trans-unit>
+      <trans-unit id="b162612cdcbf01c01421bad2e8b39432" approved="yes">
+        <source>Undefined "%s" error</source>
+        <target xml:lang="pt-BR">Erro "%s" indefinido</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:495</note>
+      </trans-unit>
       <trans-unit id="dbea0ef67609a60a1f71f8d19e132d1e" approved="yes">
         <source>The "*" operator cannot be used in a nested query.</source>
-        <target xml:lang="pt-BR">O operador * não pode ser utilizado em uma consulta combinada.</target>
+        <target xml:lang="pt-BR">O operador "*" não pode ser utilizado em uma consulta combinada.</target>
         <note>Context:
 File: controllers/admin/AdminRequestSqlController.php:417</note>
       </trans-unit>
@@ -624,10 +660,22 @@ File: controllers/admin/AdminRequestSqlController.php:506</note>
         <note>Context:
 File: controllers/admin/AdminRequestSqlController.php:514</note>
       </trans-unit>
+      <trans-unit id="890f261dbde9c8c5ac0a40c74b1a3a2c" approved="yes">
+        <source>"%s" is an unauthorized keyword.</source>
+        <target xml:lang="pt-BR">%s% é uma palavra-chave não autorizada.</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:523</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="pt-BR" datatype="plaintext">
     <body>
+      <trans-unit id="af395851b27882221a6df82c727bca3e" approved="yes">
+        <source>The import directory doesn't exist. Please check your file path.</source>
+        <target xml:lang="pt-BR">A pasta de importação não existe. Por favor verifique o caminho do arquivo.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:591</note>
+      </trans-unit>
       <trans-unit id="c775530fad852632f78395a11820ba23" approved="yes">
         <source>The import directory must be writable (CHMOD 755 / 777).</source>
         <target xml:lang="pt-BR">A pasta de importação deve ter permissões de escrita (CHMOD 755/777)</target>
@@ -636,7 +684,7 @@ File: controllers/admin/AdminImportController.php:595</note>
       </trans-unit>
       <trans-unit id="68e8d36b17584f88614fb3201925a7ac" approved="yes">
         <source>The uploaded file exceeds the upload_max_filesize directive in php.ini. If your server configuration allows it, you may add a directive in your .htaccess.</source>
-        <target xml:lang="pt-BR">O arquivo ultrapassa a directiva upload_max_filesize no php.ini. Se a configuração do servidor permitir, você pode adicionar uma diretiva no seu arquivo. Htaccess.</target>
+        <target xml:lang="pt-BR">O arquivo excede o parâmetro upload_max_filesize no php.ini. Se a configuração do servidor permitir, você pode adicionar esse parâmetro no seu arquivo .htaccess.</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:696</note>
       </trans-unit>
@@ -648,7 +696,7 @@ File: controllers/admin/AdminImportController.php:699</note>
       </trans-unit>
       <trans-unit id="5b8f192b08644fdc9fd1fd86bcbbc57b" approved="yes">
         <source>(click to open "Generators" page)</source>
-        <target xml:lang="pt-BR">(clique para abrir "Geradores" página)</target>
+        <target xml:lang="pt-BR">(clique para abrir a página "Geradores")</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:702</note>
       </trans-unit>
@@ -688,6 +736,24 @@ File: controllers/admin/AdminImportController.php:4480</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3670</note>
       </trans-unit>
+      <trans-unit id="53d9fc1aa79e85c0f845139c6358daee" approved="yes">
+        <source>The category ID must be unique. It can't be the same as the one for Root or Home category.</source>
+        <target xml:lang="pt-BR">O ID da categoria deve ser único. Não pode ser o mesmo da categoria Raiz ou Início.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1273</note>
+      </trans-unit>
+      <trans-unit id="7a1bebdbf5770873f8172ecf27b2aa50" approved="yes">
+        <source>The category ID must be unique. It can't be the same as the one for the parent category (ID: %1$s).</source>
+        <target xml:lang="pt-BR">O ID da categoria deve ser único. Não pode ser o mesmo da categoria pai (ID: %1$s).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1295</note>
+      </trans-unit>
+      <trans-unit id="521531266ae042d0725d7a4aa22a49f4" approved="yes">
+        <source>A category can't be its own parent. You should rename it (current name: %1$s).</source>
+        <target xml:lang="pt-BR">Uma categoria não pode sua própria categoria superior. Você deve renomeá-la (nome atual: %1$s).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1309</note>
+      </trans-unit>
       <trans-unit id="43bf950e043950e2da10f917b902c131" approved="yes">
         <source>%1$s (ID: %2$s) cannot be saved</source>
         <target xml:lang="pt-BR">%1$s (ID: %2$s) não pode ser salvo</target>
@@ -723,6 +789,12 @@ File: controllers/admin/AdminImportController.php:1414</note>
         <target xml:lang="pt-BR">Não pode ser copiado</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3707</note>
+      </trans-unit>
+      <trans-unit id="87098ca5171ae766269f50b24ef3189d" approved="yes">
+        <source>%1$s (ID: %2$s) cannot be %3$s</source>
+        <target xml:lang="pt-BR">%1$s (ID: %2$s) não pode ser %3$s</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1437</note>
       </trans-unit>
       <trans-unit id="2666baaca25feea0b2dc641cfab50d8a" approved="yes">
         <source>Unknown tax rule group ID. You need to create a group with this ID first.</source>
@@ -802,6 +874,12 @@ File: controllers/admin/AdminImportController.php:2206</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2734</note>
       </trans-unit>
+      <trans-unit id="994e8f1b72a9fe7a9e8949343be6bde7" approved="yes">
+        <source>%data% cannot be saved</source>
+        <target xml:lang="pt-BR">%data% não pode ser salva</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3114</note>
+      </trans-unit>
       <trans-unit id="5c8707f79dbdd3abb28a8aa09e34f02f" approved="yes">
         <source>No image was found for combination with id_product = %s and image position = %s.</source>
         <target xml:lang="pt-BR">Nenhuma imagem encontrada para combinação com id_product = %s e posição da imagem = %s.</target>
@@ -832,11 +910,41 @@ File: controllers/admin/AdminImportController.php:2695</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2708</note>
       </trans-unit>
+      <trans-unit id="fd6d9d3ba7d4aaacc49f53c2e8c082c0" approved="yes">
+        <source>Email address %1$s (ID: %2$s) cannot be validated.</source>
+        <target xml:lang="pt-BR">E-mail %1$s (ID: %2$s) não pode ser validado.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3014</note>
+      </trans-unit>
+      <trans-unit id="9a19980e3db9fa010269bb72d31ee42a" approved="yes">
+        <source>Email address %1$s (ID: %2$s) cannot be saved.</source>
+        <target xml:lang="pt-BR">E-mail %1$s (ID: %2$s) não pode ser salvo.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3023</note>
+      </trans-unit>
+      <trans-unit id="14118fbc7d8c233f0ac36ffb31716605" approved="yes">
+        <source>%1$s does not exist in database %2$s (ID: %3$s), and therefore cannot be validated</source>
+        <target xml:lang="pt-BR">%1$s não existe no banco de dados %2$s (ID: %3$s), e portanto não pode ser validado</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3209</note>
+      </trans-unit>
+      <trans-unit id="597cf702e07f3b35431d2a499b00cefd" approved="yes">
+        <source>%1$s does not exist in database %2$s (ID: %3$s), and therefore cannot be saved</source>
+        <target xml:lang="pt-BR">%1$s não existe no banco de dados %2$s (ID: %3$s), e, portanto, não pode ser salvo</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3219</note>
+      </trans-unit>
       <trans-unit id="355aea3f1c2b10f3f82819ef338ecc22" approved="yes">
         <source>"%s" is not a valid email address.</source>
         <target xml:lang="pt-BR">"%s" não é um endereço de e-mail válido.</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3196</note>
+      </trans-unit>
+      <trans-unit id="4a69d9da990728e003654d32a0b283a4" approved="yes">
+        <source>The customer ID #%d does not exist in the database, and therefore cannot be validated.</source>
+        <target xml:lang="pt-BR">O usuário ID Nº%d não existe no banco de dados, portanto não pode ser validado.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3232</note>
       </trans-unit>
       <trans-unit id="608ec99cc3ef74d962769c1958a1fa62" approved="yes">
         <source>The customer ID #%d does not exist in the database, and therefore cannot be saved.</source>
@@ -1004,21 +1112,96 @@ File: controllers/admin/AdminImportController.php:4601</note>
   </file>
   <file original="admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl" source-language="en" target-language="pt-BR" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="d85366190ecd2aebf8363980ad9d6740" approved="yes">
+        <source>Importing your data...</source>
+        <target xml:lang="pt-BR">Importando seus dados...</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:76</note>
+      </trans-unit>
+      <trans-unit id="8a1d14318cfc965da76c0b9d0a53bb93" approved="yes">
+        <source>Aborting, please wait...</source>
+        <target xml:lang="pt-BR">Abortando, por favor aguarde...</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:27</note>
+      </trans-unit>
+      <trans-unit id="e130ff31fe5f7a054a2db876a7acc94d" approved="yes">
+        <source>Data imported!</source>
+        <target xml:lang="pt-BR">Dados importados!</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:33</note>
+      </trans-unit>
+      <trans-unit id="118f9dbc8442c6be19dfc0b70d965929" approved="yes">
+        <source>Look at your listings to make sure it's all there as you wished.</source>
+        <target xml:lang="pt-BR">Confira suas listas para assegurar-se que tudo está lá como você deseja.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:35</note>
+      </trans-unit>
+      <trans-unit id="4959a069997257077022c1b96b3b8001" approved="yes">
+        <source>Errors occurred:</source>
+        <target xml:lang="pt-BR">Erros ocorridos:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:39</note>
+      </trans-unit>
+      <trans-unit id="0ccb924c3db6a900cff26de895f756b8" approved="yes">
+        <source>Warning, the current import may require a PHP setting update, to allow more data to be transferred. If the current import stops before the end, you should increase your PHP "post_max_size" setting to [1]%size%[/1]MB at least, and try again.</source>
+        <target xml:lang="pt-BR">Aviso, a importação atual pode exigir uma atualização da configuração do PHP, para permitir que mais dados sejam transferidos. Se a importação atual parar antes do fim, você deverá aumentar a configuração "post_max_size" do seu PHP para [1]%size%[/1]MB pelo menos, e tentar novamente.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:42</note>
+      </trans-unit>
+      <trans-unit id="841e4579e55a01ab8f0c565995ba7cfc" approved="yes">
+        <source>Some errors were detected. Please check the details:</source>
+        <target xml:lang="pt-BR">Alguns erros foram detectados. Por favor confira os detalhes:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:49</note>
+      </trans-unit>
+      <trans-unit id="3df311b82f78fa4059e9a78a26e77b06" approved="yes">
+        <source>We made the following adjustments:</source>
+        <target xml:lang="pt-BR">Nós fizemos os seguintes ajustes:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:52</note>
+      </trans-unit>
+      <trans-unit id="6e17621d481059924339f91ed431a116" approved="yes">
+        <source>Validating data...</source>
+        <target xml:lang="pt-BR">Validando dados...</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:57</note>
+      </trans-unit>
+      <trans-unit id="95fdb0ead4798ff27cce78fac3fd3c11" approved="yes">
+        <source>[1]%percentage%[/1]% validated</source>
+        <target xml:lang="pt-BR">[1]%percentage%[/1]% validada</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:62</note>
+      </trans-unit>
+      <trans-unit id="fd2f43e6f9f4de5be1b08cdac13d7749" approved="yes">
+        <source>Processing next page...</source>
+        <target xml:lang="pt-BR">Processando a próxima página...</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:92</note>
+      </trans-unit>
+      <trans-unit id="f438c83e3ff4dd40a3fc1bf4bb3e79f5" approved="yes">
+        <source>Linking accessories...</source>
+        <target xml:lang="pt-BR">Relacionando acessórios...</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:81</note>
+      </trans-unit>
+      <trans-unit id="2a44b5ac9f88c57f584bf083730a93f7" approved="yes">
+        <source>[1]%size%[/1]% imported</source>
+        <target xml:lang="pt-BR">[1]%size%[/1]% importado</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:84</note>
+      </trans-unit>
+      <trans-unit id="650e0b1fd707ad8ad3a94e2eb494de3d" approved="yes">
+        <source>Ignore warnings and continue?</source>
+        <target xml:lang="pt-BR">Ignorar avisos e continuar?</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:100</note>
+      </trans-unit>
+      <trans-unit id="b8388ec68dcac2402d944fbb3382b0f1" approved="yes">
+        <source>Abort import</source>
+        <target xml:lang="pt-BR">Interromper importação</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:104</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminCartsController.php" source-language="en" target-language="pt-BR" datatype="plaintext">
@@ -1047,19 +1230,19 @@ File: admin-dev/backup.php:53</note>
       </trans-unit>
       <trans-unit id="8a5a71bcb5b4e12673c79e3d8b1deb56" approved="yes">
         <source>No file has been specified.</source>
-        <target xml:lang="pt-BR">Nenhum arquivo especificado</target>
+        <target xml:lang="pt-BR">Nenhum arquivo foi especificado.</target>
         <note>Context:
 File: admin-dev/backup.php:61</note>
       </trans-unit>
       <trans-unit id="db5aa3efeee3f75954f4a6de541f7fd2" approved="yes">
         <source>Unable to open backup file(s).</source>
-        <target xml:lang="pt-BR">Não é possível abrir o arquivo de backup</target>
+        <target xml:lang="pt-BR">Não é possível abrir o(s) arquivo(s) de backup.</target>
         <note>Context:
 File: admin-dev/backup.php:85</note>
       </trans-unit>
       <trans-unit id="089426c3b86f7f52cc14c3ebf5ca5b8f" approved="yes">
         <source>Unable to display backup file(s).</source>
-        <target xml:lang="pt-BR">Não é posspivel exibir o arquivo de backup</target>
+        <target xml:lang="pt-BR">Não é possível exibir o(s) arquivo(s) de backup.</target>
         <note>Context:
 File: admin-dev/backup.php:105</note>
       </trans-unit>
@@ -1091,25 +1274,25 @@ File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:49<
       </trans-unit>
       <trans-unit id="99c8acd81f347dd6268fda9bf9e61b97" approved="yes">
         <source>You should back up your data on a regular basis (both files and database).</source>
-        <target xml:lang="pt-BR">Deve fazer backup dos seus dados regularmente (arquivos e banco de dados).</target>
+        <target xml:lang="pt-BR">Você deve fazer o backup dos seus dados regularmente (arquivos e banco de dados).</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:50</note>
       </trans-unit>
       <trans-unit id="4d247cbe2dbd06ce20b9affd635e7982" approved="yes">
         <source>This function only backs up your database, not your files.</source>
-        <target xml:lang="pt-BR">Esta função só faz o backup de seu banco de dados, e não os arquivos.</target>
+        <target xml:lang="pt-BR">Esta função só faz o backup de seu banco de dados, não dos arquivos.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:51</note>
       </trans-unit>
       <trans-unit id="b2a110974050263fde4c0c7cf15013b3" approved="yes">
         <source>By default, your existing database tables will be dropped during the backup recovery (see "Backup options" below).</source>
-        <target xml:lang="pt-BR">Por padrão, as tabelas do banco de dados existente será excluída durante o backup de restauração (ver opções).</target>
+        <target xml:lang="pt-BR">Por padrão, as tabelas do banco de dados existente serão excluídas durante a restauração do backup (veja as "Opções de backup" abaixo).</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:52</note>
       </trans-unit>
       <trans-unit id="dba49284eb0830e849635506a961aa7c" approved="yes">
         <source>Always verify the quality and integrity of your backup files!</source>
-        <target xml:lang="pt-BR">Sempre verifique a qualidade e a integridade de seus arquivos de backups.</target>
+        <target xml:lang="pt-BR">Sempre verifique a qualidade e a integridade de seus arquivos de backups!</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:53</note>
       </trans-unit>
@@ -1193,6 +1376,12 @@ File: admin-dev/themes/default/template/controllers/backup/helpers/view/view.tpl
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/helpers/view/view.tpl:33</note>
       </trans-unit>
+      <trans-unit id="da61b0c3311560af7fa1d9a515b309f6" approved="yes">
+        <source>If not,[1][2] please click here[/1]!</source>
+        <target xml:lang="pt-BR">Se não,[1][2] por favor clique aqui[/1]!</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/view/view.tpl:34</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/performance/helpers/form/form.tpl" source-language="en" target-language="pt-BR" datatype="plaintext">
@@ -1229,7 +1418,7 @@ File: admin-dev/themes/default/template/controllers/request_sql/helpers/view/vie
     <body>
       <trans-unit id="613260718349db00d0b7b9c1eb77c76c" approved="yes">
         <source>Your file has been successfully imported into your shop. Don't forget to re-build the products' search index.</source>
-        <target xml:lang="pt-BR">O seu ficheiro foi importado com sucesso para a sua loja. Não se esqueça de recriar o índice de pesquisa de produtos.</target>
+        <target xml:lang="pt-BR">O seu arquivo foi importado com sucesso na sua loja. Não se esqueça de re-criar o índice de pesquisa de produtos.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:28</note>
       </trans-unit>
@@ -1247,13 +1436,13 @@ File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl
       </trans-unit>
       <trans-unit id="7ec8e6a8a53cd81e13594780931cfce5" approved="yes">
         <source>Importing Supply Order Details will reset your history of ordered products, if there are any.</source>
-        <target xml:lang="pt-BR">A importação de Detalhes de Encomendas a Fornecedores irá apagar o seu histórico de encomendas de produtos, caso exista.</target>
+        <target xml:lang="pt-BR">A importação de Detalhes de Pedidos de Fornecedores vai zerar o seu histórico de produtos solicitados, caso exista.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:70</note>
       </trans-unit>
       <trans-unit id="df6e9862566912e908ef785e860f9c71" approved="yes">
         <source>Are you sure that you would like to delete this entity: </source>
-        <target xml:lang="pt-BR">Tem a certeza de que pretende eliminar esta entidade? </target>
+        <target xml:lang="pt-BR">Tem certeza que deseja apagar esta entidade: </target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:493</note>
       </trans-unit>
@@ -1281,7 +1470,7 @@ File: admin-dev/themes/default/template/controllers/information/helpers/view/vie
       </trans-unit>
       <trans-unit id="c49d6d58d1c98f34a15bbd169f82961a" approved="yes">
         <source>Changed/missing files have been detected.</source>
-        <target xml:lang="pt-BR">Foram detectados arquivos ausentes ou alterados</target>
+        <target xml:lang="pt-BR">Foram detectados arquivos ausentes ou alterados.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:49</note>
       </trans-unit>
@@ -1299,7 +1488,7 @@ File: admin-dev/themes/default/template/controllers/information/helpers/view/vie
       </trans-unit>
       <trans-unit id="2ad1ffcbe2184ed25baa66baece8908b" approved="yes">
         <source>Please fix the following error(s)</source>
-        <target xml:lang="pt-BR">Por favor, consulte os seguintes erros</target>
+        <target xml:lang="pt-BR">Por favor, corrija o(s) seguinte(s) erro(s)</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:233</note>
       </trans-unit>
