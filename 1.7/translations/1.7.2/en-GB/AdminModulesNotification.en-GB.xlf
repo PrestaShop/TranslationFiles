@@ -2,12 +2,22 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="src/Adapter/Module/Tab/ModuleTabRegister.php" source-language="en" target-language="en-GB" datatype="plaintext">
     <body>
-      
+      <trans-unit id="ee34aeaa570c9f1c206b8401d6eaa58d" approved="yes">
+        <source>Failed to install admin tab "%name%".</source>
+        <target xml:lang="en-GB">Failed to install admin tab "%name%".</target>
+        <note>Context:
+File: src/Adapter/Module/Tab/ModuleTabRegister.php:265</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Module/Tab/ModuleTabUnregister.php" source-language="en" target-language="en-GB" datatype="plaintext">
     <body>
-      
+      <trans-unit id="e85403d2e654955b45105b9929924c89" approved="yes">
+        <source>Failed to uninstall admin tab "%name%".</source>
+        <target xml:lang="en-GB">Failed to uninstall admin tab "%name%".</target>
+        <note>Context:
+File: src/Adapter/Module/Tab/ModuleTabUnregister.php:99</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Module/ModuleDataProvider.php" source-language="en" target-language="en-GB" datatype="plaintext">
@@ -33,6 +43,12 @@ File: src/Adapter/Module/ModuleDataProvider.php:212</note>
         <target xml:lang="en-GB">Unable to find uploaded module at the specified path: %file%</target>
         <note>Context:
 File: src/Adapter/Module/ModuleZipManager.php:78</note>
+      </trans-unit>
+      <trans-unit id="848578a1a363f2c2443b3989154bf646" approved="yes">
+        <source>Cannot extract module in %path% to get its name. %error%</source>
+        <target xml:lang="en-GB">Cannot extract module in %path% to get its name. %error%</target>
+        <note>Context:
+File: src/Adapter/Module/ModuleZipManager.php:88</note>
       </trans-unit>
       <trans-unit id="a85499f3d020141df9b6203b7585a9bf" approved="yes">
         <source>This file does not seem to be a valid module zip</source>
@@ -66,11 +82,47 @@ File: src/PrestaShopBundle/Command/ModuleCommand.php:141</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/ModuleController.php" source-language="en" target-language="en-GB" datatype="plaintext">
     <body>
+      <trans-unit id="9dca2e42fe7a0db763b8737e9a8f9133" approved="yes">
+        <source>%action% action on module %module% succeeded.</source>
+        <target xml:lang="en-GB">%action% action on module %module% succeeded.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/ModuleController.php:324</note>
+      </trans-unit>
+      <trans-unit id="1ff626f78b7506f340c7b2ce3398367a" approved="yes">
+        <source>Cannot %action% module %module%. %error_details%</source>
+        <target xml:lang="en-GB">Cannot %action% module %module%. %error_details%</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/ModuleController.php:315</note>
+      </trans-unit>
+      <trans-unit id="71d827dd0d049981403f27fb7af0991c" approved="yes">
+        <source>%module% did not return a valid response on %action% action.</source>
+        <target xml:lang="en-GB">%module% did not return a valid response on %action% action.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/ModuleController.php:306</note>
+      </trans-unit>
+      <trans-unit id="bf0edb2da5a51620141bff55d3060a63" approved="yes">
+        <source>Exception thrown by module %module% on %action%. %error_details%</source>
+        <target xml:lang="en-GB">Exception thrown by module %module% on %action%. %error_details%</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/ModuleController.php:334</note>
+      </trans-unit>
       <trans-unit id="89d371deca1b2b50a933fabc8005ccfb" approved="yes">
         <source>%module% did not return a valid response on installation.</source>
         <target xml:lang="en-GB">%module% did not return a valid response on installation.</target>
         <note>Context:
 File: src/PrestaShopBundle/Controller/Admin/ModuleController.php:612</note>
+      </trans-unit>
+      <trans-unit id="35e839bc1864dd50a75500028c3ebb33" approved="yes">
+        <source>Installation of module %module% was successful.</source>
+        <target xml:lang="en-GB">Installation of module %module% was successful.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/ModuleController.php:618</note>
+      </trans-unit>
+      <trans-unit id="f52c6f7b6fcbd586aee22044aeb6c897" approved="yes">
+        <source>Installation of module %module% failed. %error%</source>
+        <target xml:lang="en-GB">Installation of module %module% failed. %error%</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/ModuleController.php:626</note>
       </trans-unit>
       <trans-unit id="fc7da9518fbe20ebcaccbf5f8fd0e7df" approved="yes">
         <source>Synchronized with Addons marketplace!</source>
@@ -139,6 +191,66 @@ File: src/Core/Addon/Module/ModuleManager.php:288</note>
         <target xml:lang="en-GB">You are not allowed to disable this module.</target>
         <note>Context:
 File: src/Core/Addon/Module/ModuleManager.php:326</note>
+      </trans-unit>
+      <trans-unit id="b58f4b4f4f870b40e52c42c161df0d60" approved="yes">
+        <source>Error when disabling module %module%. %error_details%.</source>
+        <target xml:lang="en-GB">Error when disabling module %module%. %error_details%.</target>
+        <note>Context:
+File: src/Core/Addon/Module/ModuleManager.php:339</note>
+      </trans-unit>
+      <trans-unit id="a2825f14a9e0bf0b004b2a255317d6dd" approved="yes">
+        <source>You are not allowed to enable this module.</source>
+        <target xml:lang="en-GB">You are not allowed to enable this module.</target>
+        <note>Context:
+File: src/Core/Addon/Module/ModuleManager.php:363</note>
+      </trans-unit>
+      <trans-unit id="fbaf1c9434442c780f3eddff4406603c" approved="yes">
+        <source>Error when enabling module %module%. %error_details%.</source>
+        <target xml:lang="en-GB">Error when enabling module %module%. %error_details%.</target>
+        <note>Context:
+File: src/Core/Addon/Module/ModuleManager.php:376</note>
+      </trans-unit>
+      <trans-unit id="974a1527e3b406ebb7c772ddd2a7aa41" approved="yes">
+        <source>You are not allowed to disable this module on mobile.</source>
+        <target xml:lang="en-GB">You are not allowed to disable this module on mobile.</target>
+        <note>Context:
+File: src/Core/Addon/Module/ModuleManager.php:399</note>
+      </trans-unit>
+      <trans-unit id="976dc5c6fc2fe73b2c43c7776847e593" approved="yes">
+        <source>Error when disabling module %module% on mobile. %error_details%</source>
+        <target xml:lang="en-GB">Error when disabling module %module% on mobile. %error_details%</target>
+        <note>Context:
+File: src/Core/Addon/Module/ModuleManager.php:412</note>
+      </trans-unit>
+      <trans-unit id="8459337c91608e117589881cc560b0e6" approved="yes">
+        <source>You are not allowed to enable this module on mobile.</source>
+        <target xml:lang="en-GB">You are not allowed to enable this module on mobile.</target>
+        <note>Context:
+File: src/Core/Addon/Module/ModuleManager.php:434</note>
+      </trans-unit>
+      <trans-unit id="416bc5074d9b9944a51797b081492442" approved="yes">
+        <source>Error when enabling module %module% on mobile. %error_details%</source>
+        <target xml:lang="en-GB">Error when enabling module %module% on mobile. %error_details%</target>
+        <note>Context:
+File: src/Core/Addon/Module/ModuleManager.php:447</note>
+      </trans-unit>
+      <trans-unit id="a608a854a4091bd1f92cff310ba09b25" approved="yes">
+        <source>You are not allowed to reset this module.</source>
+        <target xml:lang="en-GB">You are not allowed to reset this module.</target>
+        <note>Context:
+File: src/Core/Addon/Module/ModuleManager.php:466</note>
+      </trans-unit>
+      <trans-unit id="387aeee114093679248f936ba36ee416" approved="yes">
+        <source>Error when resetting module %module%. %error_details%</source>
+        <target xml:lang="en-GB">Error when resetting module %module%. %error_details%</target>
+        <note>Context:
+File: src/Core/Addon/Module/ModuleManager.php:485</note>
+      </trans-unit>
+      <trans-unit id="c913de38eb118ce08ddae76f27063126" approved="yes">
+        <source>Unfortunately, the module did not return additional details.</source>
+        <target xml:lang="en-GB">Unfortunately, the module did not return additional details.</target>
+        <note>Context:
+File: src/Core/Addon/Module/ModuleManager.php:545</note>
       </trans-unit>
       <trans-unit id="83a812de8784135990c57d25d0f9b34b" approved="yes">
         <source>The module %module% must be installed first</source>
@@ -314,6 +426,24 @@ File: controllers/admin/AdminModulesController.php:1038</note>
         <note>Context:
 File: classes/controller/AdminController.php:461</note>
       </trans-unit>
+      <trans-unit id="35a596598c0477aea67abfa33b053697" approved="yes">
+        <source>Successfully signed in to PrestaShop Addons.</source>
+        <target xml:lang="en-GB">Successfully signed in to PrestaShop Addons.</target>
+        <note>Context:
+File: classes/controller/AdminController.php:485</note>
+      </trans-unit>
+      <trans-unit id="cf28eac3f0fdd7e3d2d705282948f2b9" approved="yes">
+        <source>Error found : %1$s in country_module_list.xml file.</source>
+        <target xml:lang="en-GB">Error found : %1$s in country_module_list.xml file.</target>
+        <note>Context:
+File: classes/controller/AdminController.php:2225</note>
+      </trans-unit>
+      <trans-unit id="ce7d2844bfe39db351171add1d7348cd" approved="yes">
+        <source>Error found : %1$s in must_have_module_list.xml file.</source>
+        <target xml:lang="en-GB">Error found : %1$s in must_have_module_list.xml file.</target>
+        <note>Context:
+File: classes/controller/AdminController.php:2242</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/AdminSelfTab.php" source-language="en" target-language="en-GB" datatype="plaintext">
@@ -414,6 +544,12 @@ File: classes/module/Module.php:344</note>
         <note>Context:
 File: classes/module/Module.php:357</note>
       </trans-unit>
+      <trans-unit id="4c15c8d9982596e224487cab7b4d51f5" approved="yes">
+        <source>Could not install module controllers.</source>
+        <target xml:lang="en-GB">Could not install module controllers.</target>
+        <note>Context:
+File: classes/module/Module.php:362</note>
+      </trans-unit>
       <trans-unit id="5bd632bbdcdfb6aece20bdf1ae8fea52" approved="yes">
         <source>Technical error: PrestaShop could not install this module.</source>
         <target xml:lang="en-GB">Technical error: PrestaShop could not install this module.</target>
@@ -474,11 +610,23 @@ File: classes/module/Module.php:655</note>
         <note>Context:
 File: classes/module/Module.php:766</note>
       </trans-unit>
+      <trans-unit id="e8f98f4457c87a8aad1d4d625ad1a9f3" approved="yes">
+        <source>%1$s is not a valid module name.</source>
+        <target xml:lang="en-GB">%1$s is not a valid module name.</target>
+        <note>Context:
+File: classes/module/Module.php:1057</note>
+      </trans-unit>
       <trans-unit id="8f62a26bf441ad698c2c562ec10448c4" approved="yes">
         <source>All modules cannot be loaded due to memory limit restrictions, please increase your memory_limit value on your server configuration</source>
         <target xml:lang="en-GB">All modules cannot be loaded due to memory limit restrictions, please increase your memory_limit value on your server configuration</target>
         <note>Context:
 File: classes/module/Module.php:1397</note>
+      </trans-unit>
+      <trans-unit id="2cff6a926907204ad5c1916ba96ed815" approved="yes">
+        <source>%s could not be loaded.</source>
+        <target xml:lang="en-GB">%s could not be loaded.</target>
+        <note>Context:
+File: classes/module/Module.php:1235</note>
       </trans-unit>
       <trans-unit id="db0275528fda19c75f79d296ded0c6e7" approved="yes">
         <source>Error found in config file:</source>
@@ -608,11 +756,23 @@ File: controllers/admin/AdminModulesPositionsController.php:217</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm.html.twig" source-language="en" target-language="en-GB" datatype="plaintext">
     <body>
+      <trans-unit id="b8e063d2ad26dfc0a659410294caf74b" approved="yes">
+        <source>You are about to disable %moduleName% module.</source>
+        <target xml:lang="en-GB">You are about to disable %moduleName% module.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm.html.twig:50</note>
+      </trans-unit>
       <trans-unit id="c5209889e18199fb2a2c50958d3212b8" approved="yes">
         <source>Your current settings will be saved, but the module will no longer be active.</source>
         <target xml:lang="en-GB">Your current settings will be saved, but the module will no longer be active.</target>
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm.html.twig:53</note>
+      </trans-unit>
+      <trans-unit id="eb641425b425f906c54cb55319ec3e25" approved="yes">
+        <source>You are about to uninstall %moduleName% module.</source>
+        <target xml:lang="en-GB">You are about to uninstall %moduleName% module.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm.html.twig:56</note>
       </trans-unit>
       <trans-unit id="db0769970bbd476188bfc1c5d9d6a2bd" approved="yes">
         <source>This will disable the module and delete all its files. For good.</source>
@@ -625,6 +785,18 @@ File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm.h
         <target xml:lang="en-GB">This action cannot be undone.</target>
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm.html.twig:78</note>
+      </trans-unit>
+      <trans-unit id="634b5d0d5ec8e481321b1d776f312388" approved="yes">
+        <source>You're about to reset %moduleName% module.</source>
+        <target xml:lang="en-GB">You're about to reset %moduleName% module.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm.html.twig:72</note>
+      </trans-unit>
+      <trans-unit id="58ce7123c3789e3c51cb3ffd42883df1" approved="yes">
+        <source>This will restore the defaults settings.</source>
+        <target xml:lang="en-GB">This will restore the defaults settings.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm.html.twig:75</note>
       </trans-unit>
     </body>
   </file>
@@ -658,7 +830,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_import.ht
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm_bulk_action.html.twig" source-language="en" target-language="en-GB" datatype="plaintext">
     <body>
-      
+      <trans-unit id="a7f0cf21776c1a6ed951c58620b4507a" approved="yes">
+        <source>You are about to [1] the following modules:</source>
+        <target xml:lang="en-GB">You are about to [1] the following modules:</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm_bulk_action.html.twig:37</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_read_more_content.html.twig" source-language="en" target-language="en-GB" datatype="plaintext">
@@ -668,6 +845,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_import.ht
         <target xml:lang="en-GB">No detailed informations available for this module :(</target>
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_read_more_content.html.twig:120</note>
+      </trans-unit>
+      <trans-unit id="a76e4258e8695991d6f5f62efdba70d6" approved="yes">
+        <source>No additional description provided for this module :(</source>
+        <target xml:lang="en-GB">No additional description provided for this module :(</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_read_more_content.html.twig:130</note>
       </trans-unit>
       <trans-unit id="1ed02f805424aac96756b590d51e2038" approved="yes">
         <source>No feature list provided for this module :(</source>
@@ -687,6 +870,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_read_more
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_read_more_content.html.twig:160</note>
       </trans-unit>
+      <trans-unit id="3072d199d2a0269893376e8c7d0049d6" approved="yes">
+        <source>No changelog provided for this module :(</source>
+        <target xml:lang="en-GB">No changelog provided for this module :(</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_read_more_content.html.twig:178</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Module/Includes/card_notification_update.html.twig" source-language="en" target-language="en-GB" datatype="plaintext">
@@ -701,14 +890,34 @@ File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/card_notificati
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_addons_connect.html.twig" source-language="en" target-language="en-GB" datatype="plaintext">
     <body>
-      
+      <trans-unit id="df776a9024ce6c10ec1d1d763cee0301" approved="yes">
+        <source>You are about to log out your Addons account. You might miss important updates of Addons you've bought.</source>
+        <target xml:lang="en-GB">You are about to log out your Addons account. You might miss important updates of Addons you've bought.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_addons_connect.html.twig:90</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Module/manage.html.twig" source-language="en" target-language="en-GB" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="634ec4fb81df959627996a95fa0e799c" approved="yes">
+        <source>You need to select at least one module to use the bulk action.</source>
+        <target xml:lang="en-GB">You need to select at least one module to use the bulk action.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/manage.html.twig:116</note>
+      </trans-unit>
+      <trans-unit id="09f9472ec012d502e9cc3ab0e31c24e8" approved="yes">
+        <source>The action "[1]" is not available, impossible to perform your request.</source>
+        <target xml:lang="en-GB">The action "[1]" is not available, impossible to perform your request.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/manage.html.twig:117</note>
+      </trans-unit>
+      <trans-unit id="6e37e943fed80ec5f0629bbea4c81e1a" approved="yes">
+        <source>The action [1] is not available for module [2]. Skipped.</source>
+        <target xml:lang="en-GB">The action [1] is not available for module [2]. Skipped.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/manage.html.twig:118</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/modules/configuration_bar.tpl" source-language="en" target-language="en-GB" datatype="plaintext">
