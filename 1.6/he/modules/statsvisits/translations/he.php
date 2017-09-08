@@ -14,7 +14,7 @@ $_MODULE['<{statsvisits}prestashop>statsvisits_9bf5a493522a65d550f096505874873b'
 $_MODULE['<{statsvisits}prestashop>statsvisits_b8901fb7bbfaf9b0c4724343c7cd1f90'] = 'ביקור מתאר משתמש אינטרנט המגיע לחנות שלך. עד סוף המפגש שלהם, רק ביקור אחד נספר.';
 $_MODULE['<{statsvisits}prestashop>statsvisits_f43a4cf6dcc4ec617d2296d03d26c90f'] = 'מבקר הוא אדם לא ידוע, שלא רשום או מחובר לאתר, הגולש בחנות שלך. מבקר יכול לבקר בחנות שלך פעמים רבות.';
 $_MODULE['<{statsvisits}prestashop>statsvisits_54067074d24489ddb5654bf46642cb85'] = 'סך כל הביקורים:';
-$_MODULE['<{statsvisits}prestashop>statsvisits_23e640d55e56db79971918936e95bf9d'] = 'סה\"כ מבקרים:';
+$_MODULE['<{statsvisits}prestashop>statsvisits_23e640d55e56db79971918936e95bf9d'] = 'סה"כ מבקרים:';
 $_MODULE['<{statsvisits}prestashop>statsvisits_998e4c5c80f27dec552e99dfed34889a'] = 'CSV יצוא';
 $_MODULE['<{statsvisits}prestashop>statsvisits_39b960b0a5e2ebaaa638d946f1892050'] = 'מספר ביקורים ומבקרים ייחודיים';
 $_MODULE['<{statsvisits}prestashop>statsvisits_d7e637a6e9ff116de2fa89551240a94d'] = 'ביקורים';

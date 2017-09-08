@@ -51,7 +51,7 @@ $_MODULE['<{cheque}prestashop>payment_return_decce112a9e64363c997b04aa71b7cb8'] 
 $_MODULE['<{cheque}prestashop>payment_return_9bdf695c5a30784327137011da6ef568'] = 'אנו מזהים בעיה בהזמנה שלך, אם אתה חושב שזו טעות צור קשר עם';
 $_MODULE['<{cheque}prestashop>payment_4b80fae2153218ed763bdadc418e8589'] = 'שלם בהמחאה';
 $_MODULE['<{cheque}prestashop>payment_4e1fb9f4b46556d64db55d50629ee301'] = '(תהליך ההזמנה יארך יותר זמן מהרגיל)';
-$_MODULE['<{cheque}prestashop>payment_execution_0881a11f7af33bc1b43e437391129d66'] = 'נא אשר הזמנתך ע\"י לחיצה על \"אני מאשר את ההזמנה\"';
+$_MODULE['<{cheque}prestashop>payment_execution_0881a11f7af33bc1b43e437391129d66'] = 'נא אשר הזמנתך ע"י לחיצה על "אני מאשר את ההזמנה"';
 $_MODULE['<{cheque}prestashop>payment_return_d15feee53d81ea16269e54d4784fa123'] = 'אנו מזהים בעיה בהזמנה שלך, אם אתה חושב שזו טעות צור קשר איתנו.';
 $_MODULE['<{cheque}prestashop>payment_f05fd8637f8a6281466a507fcb56baec'] = 'שלם בהמחאה';
 
