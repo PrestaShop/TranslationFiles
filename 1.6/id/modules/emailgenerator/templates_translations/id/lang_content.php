@@ -181,8 +181,8 @@ $_LANGMAIL[', with an amount of'] = ', sejumlah';
 $_LANGMAIL['Hi {name},'] = 'Halo {name},';
 $_LANGMAIL['{customer} has sent you a link to a product that (s)he thinks may interest you.'] = '{customer} mengirim link produk yang mungkin Anda sukai.';
 $_LANGMAIL['Click here to view this item:'] = 'Klik disini untuk melihat item berikut:';
-$_LANGMAIL['Order edited'] = '';
-$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = '';
+$_LANGMAIL['Order edited'] = 'Pesanan diedit';
+$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = 'Pesanan Anda dengan referensi <span><strong>{order_name}</strong></span> telah dimodifikasi.';
 
 
 return $_LANGMAIL;
