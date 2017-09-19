@@ -488,7 +488,9 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0a8276f35797dc24e6ccb5b5ff5c
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_10ac3d04253ef7e1ddc73e6091c0cd55'] = 'Berikutnya';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_564b7c9d8683f1a94798e9f7449564e4'] = 'Pilihan Upgrade';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_017697f698d570dffed5f88a5a933d01'] = 'Pilihan backup';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d1cf02f3b502ad45947b846659c7774e'] = 'Tingkatkan ke PrestaShop %s';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_49c77c6b39fac5ce46832752e6612e9d'] = 'Meningkatkan PrestaShop ke %s';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b3e205a87c7cf99915d86ffe496f1706'] = 'Migrasi dari PrestaShop bersi %s ke PrestaShop %s akan membawa dampak yang BESAR ke toko Anda.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f15547fe5f9f307bd42b2c01657efbcb'] = 'Server Anda tidak dapat mengunduh file. Silahkan upload melalui ftp ke direktori admin/autoupgrade';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f2a6c498fb90ee345d997f888fce3b18'] = 'Hapus';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_48995d15304fe79fc0240bf6544f2395'] = 'Yakin akan menghapus data backup ini?';
