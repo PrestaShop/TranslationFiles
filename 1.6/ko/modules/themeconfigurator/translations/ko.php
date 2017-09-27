@@ -10,6 +10,7 @@ $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_c9cc8cce247e49bae79f1
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_4351cfebe4b61d8aa5efa1d020710005'] = '보기';
 $_MODULE['<{themeconfigurator}prestashop>items_7dce122004969d56ae2e0245cb754d35'] = '수정';
 $_MODULE['<{themeconfigurator}prestashop>items_d3d2e617335f08df83599665eef8a418'] = '닫기';
+$_MODULE['<{themeconfigurator}prestashop>items_d399848208da8b80a306af0fd62bb03f'] = '픽셀';
 $_MODULE['<{themeconfigurator}prestashop>items_ea4788705e6873b424c65e91c2846b19'] = '취소';
 $_MODULE['<{themeconfigurator}prestashop>items_c9cc8cce247e49bae79f15173ce97354'] = '저장';
 $_MODULE['<{themeconfigurator}prestashop>new_4994a8ffeba4ac3140beb89e8d41f174'] = '언어';
