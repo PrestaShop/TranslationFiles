@@ -28,8 +28,11 @@ $_MODULE['<{trackingfront}prestashop>account_453aceb005ceaf54a47da15fee8b2a26'] 
 $_MODULE['<{trackingfront}prestashop>account_591411cc8927851db2002208676d8330'] = '등록';
 $_MODULE['<{trackingfront}prestashop>account_a9841e29f2c8180709b16cd2a13c55fe'] = '주문';
 $_MODULE['<{trackingfront}prestashop>account_11ff9f68afb6b8b5b8eda218d7c83a65'] = '판매';
+$_MODULE['<{trackingfront}prestashop>account_a85eba4c6c699122b2bb1387ea4813ad'] = '장바구니';
 $_MODULE['<{trackingfront}prestashop>account_43005b13d452a4ad6f2d8e29b499c55a'] = '등록 비율';
 $_MODULE['<{trackingfront}prestashop>account_316853cc3718335f11c048e33b9be98a'] = '클릭';
+$_MODULE['<{trackingfront}prestashop>account_b450fdef2453e92c31263a70f14fbd7b'] = '¤';
+$_MODULE['<{trackingfront}prestashop>account_0bcef9c45bd8a48eda1b26eb0c61c869'] = '%';
 
 
 return $_MODULE;

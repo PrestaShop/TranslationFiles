@@ -16,14 +16,16 @@ $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_b021df6aac4654c454f46c77646e745
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_97e7c9a7d06eac006a28bf05467fcc8b'] = '링크';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_ec211f7c20af43e742bf2570c3cb84f9'] = '추가';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_06933067aafd48425d67bcb01bba5cb6'] = '업데이트';
-$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_c7da501f54544eba6787960200d9efdb'] = '페이지관리';
+$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_c7da501f54544eba6787960200d9efdb'] = 'CMS';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_ec136b444eede3bc85639fac0dd06229'] = '제조사';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_c0bd7654d5b278e65f21cf4e9153fdb4'] = '제조사';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_af1b98adf7f686b84cd0b443e022b7a0'] = '분류';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_12a521af593422cd508f7707662c9eb2'] = 'Boutiques';
+$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_068f80c7519d0528fb08e82137a72131'] = '상품';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_778118c7dd993db08f704e15efa4a7fa'] = '제품 ID를 선택';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_56e8bf6c54f1638e7bce5a2fcd5b20fe'] = '상단 메뉴 링크';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_449f6d82cde894eafd3c85b6fa918f89'] = '링크 ID';
+$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e93c33bd1341ab74195430daeb63db13'] = '상점명';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_387a8014f530f080bf2f3be723f8c164'] = '링크 목록';
 $_MODULE['<{blocktopmenu}prestashop>form_1063e38cb53d94d386f21227fcd84717'] = '제거';
 $_MODULE['<{blocktopmenu}prestashop>form_ec211f7c20af43e742bf2570c3cb84f9'] = '추가';

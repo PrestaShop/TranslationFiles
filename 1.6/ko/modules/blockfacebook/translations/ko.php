@@ -3,9 +3,15 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{blockfacebook}prestashop>blockfacebook_43d541d80b37ddb75cde3906b1ded452'] = '페이스북 좋아요 버튼 블럭';
+$_MODULE['<{blockfacebook}prestashop>blockfacebook_e2887a32ddafab9926516d8cb29aab76'] = '당신의 페이스북 페이지에 게시하기 블럭 표시';
+$_MODULE['<{blockfacebook}prestashop>blockfacebook_20015706a8cbd457cbb6ea3e7d5dc9b3'] = '구성 수정됨';
 $_MODULE['<{blockfacebook}prestashop>blockfacebook_f4f70727dc34561dfde1a3c529b6205c'] = '설정';
+$_MODULE['<{blockfacebook}prestashop>blockfacebook_c98cf18081245e342d7929c117066f0b'] = '페이스북 링크 (전체 URL 필수)';
 $_MODULE['<{blockfacebook}prestashop>blockfacebook_c9cc8cce247e49bae79f15173ce97354'] = '저장';
+$_MODULE['<{blockfacebook}prestashop>blockfacebook_374fe11018588d3d27e630b2dffb7909'] = 'Facebook에서 팔로우하기';
 $_MODULE['<{blockfacebook}prestashop>preview_31fde7b05ac8952dacf4af8a704074ec'] = '미리보기';
+$_MODULE['<{blockfacebook}prestashop>preview_374fe11018588d3d27e630b2dffb7909'] = 'Facebook에서 팔로우하기';
 
 
 return $_MODULE;

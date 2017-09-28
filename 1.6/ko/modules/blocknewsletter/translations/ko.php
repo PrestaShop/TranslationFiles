@@ -16,9 +16,10 @@ $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_39f7a3e2b56e9bfd753ba6325
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_011d8c5d94f729f013963d856cd78745'] = '비-구독자';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_c888438d14855d7d96a2724ee9c306bd'] = '설정 수정';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_9f82518d468b9fee614fcc92f76bb163'] = '상점';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_ce8ae9da5b7cd6c3df2929543a9af92d'] = '이메일';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_4351cfebe4b61d8aa5efa1d020710005'] = '보기';
-$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_e267e2be02cf3e29f4ba53b5d97cf78a'] = '잘못된 전자메일 주소';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_e267e2be02cf3e29f4ba53b5d97cf78a'] = '유효하지 않은 이메일 주소.';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_1c623b291d95f4f1b1d0c03d0dc0ffa1'] = '전자메일 주소가 등록되지 않았습니다.';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_3b1f17a6fd92e35bc744e986b8e7a61c'] = '퇴하는 동안 오류가 발생했습니다.';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_f6618fce0acbfca15e1f2b0991ddbcd0'] = '전자메일 주소가 이미 등록되어 있습니다.';
@@ -42,6 +43,7 @@ $_MODULE['<{blocknewsletter}prestashop>list_action_enable_00d23a76e43b46dae9ec7a
 $_MODULE['<{blocknewsletter}prestashop>list_action_enable_b9f5c797ebbf55adccdd8539a65a0241'] = '사용안함';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_ffb7e666a70151215b4c55c6268d7d72'] = '뉴스레터';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_416f61a2ce16586f8289d41117a2554e'] = '메일주소';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_a60852f204ed8028c1c58808b746d115'] = '확인';
 
 
 return $_MODULE;

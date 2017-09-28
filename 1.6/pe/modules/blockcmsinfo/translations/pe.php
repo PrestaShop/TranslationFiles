@@ -8,7 +8,7 @@ $_MODULE['<{blockcmsinfo}prestashop>blockcmsinfo_cd4abd29bdc076fb8fabef674039cd6
 $_MODULE['<{blockcmsinfo}prestashop>blockcmsinfo_666f6333e43c215212b916fef3d94af0'] = 'Debes rellenar todos los campos.';
 $_MODULE['<{blockcmsinfo}prestashop>blockcmsinfo_86432715902fbaf53de469fed3fa6c53'] = 'Tienes que seleccionar al menos una tienda.';
 $_MODULE['<{blockcmsinfo}prestashop>blockcmsinfo_d52eaeff31af37a4a7e0550008aff5df'] = 'Se ha producido un error durante el proceso de guardado.';
-$_MODULE['<{blockcmsinfo}prestashop>blockcmsinfo_6f16c729fadd8aa164c6c47853983dd2'] = 'Nueva bloque CMS personalizado';
+$_MODULE['<{blockcmsinfo}prestashop>blockcmsinfo_6f16c729fadd8aa164c6c47853983dd2'] = 'Nuevo bloque CMS personalizado';
 $_MODULE['<{blockcmsinfo}prestashop>blockcmsinfo_9dffbf69ffba8bc38bc4e01abf4b1675'] = 'Texto';
 $_MODULE['<{blockcmsinfo}prestashop>blockcmsinfo_c9cc8cce247e49bae79f15173ce97354'] = 'Guardar';
 $_MODULE['<{blockcmsinfo}prestashop>blockcmsinfo_630f6dc397fe74e52d5189e2c80f282b'] = 'Regresar';

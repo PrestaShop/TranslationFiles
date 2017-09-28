@@ -32,7 +32,7 @@ $_MODULE['<{blocklayered}prestashop>blocklayered_7edabf994b76a00cbc60c95af337db8
 $_MODULE['<{blocklayered}prestashop>blocklayered_32d2e6cd4bb1719c572ef470a3a525b6'] = 'Modelul meu %s';
 $_MODULE['<{blocklayered}prestashop>blocklayered-no-products_5c9838becf9bbce28ba90a7426daf171'] = 'Nu sunt produse disponibile.';
 $_MODULE['<{blocklayered}prestashop>blocklayered_cbf5a69c8bd9ebe818d07c6da7f9e48a'] = 'Filtrare';
-$_MODULE['<{blocklayered}prestashop>blocklayered_1262d1b9fbffb3a8e85ac9e4b449e989'] = 'Activeaza filtre:';
+$_MODULE['<{blocklayered}prestashop>blocklayered_1262d1b9fbffb3a8e85ac9e4b449e989'] = 'Filtre active:';
 $_MODULE['<{blocklayered}prestashop>blocklayered_ea4788705e6873b424c65e91c2846b19'] = 'Anuleaza';
 $_MODULE['<{blocklayered}prestashop>blocklayered_9b569fa0e7896f0e96164b954265eac5'] = '%1$s: %2$s - %3$s';
 $_MODULE['<{blocklayered}prestashop>blocklayered_cf4c997f944b08d0eff346a32272998c'] = '%1$s: %2$s %4$s - %3$s %4$s';

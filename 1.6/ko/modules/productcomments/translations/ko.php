@@ -15,6 +15,7 @@ $_MODULE['<{productcomments}prestashop>productcomments_a1fa27779242b4902f7ae3bdd
 $_MODULE['<{productcomments}prestashop>productcomments_ec53a8c4f07baed5d8825072c89799be'] = 'Statut';
 $_MODULE['<{productcomments}prestashop>productcomments_deb10517653c255364175796ace3553f'] = '상품';
 $_MODULE['<{productcomments}prestashop>productcomments_4d3d769b812b6faa6b76e1a8abaece2d'] = '활성화 합니다';
+$_MODULE['<{productcomments}prestashop>productcomments_e0aa021e21dddbd6d8cecec71e9cf564'] = '확인';
 $_MODULE['<{productcomments}prestashop>productcomments_70397c4b252a5168c5ec003931cea215'] = '필수입력';
 $_MODULE['<{productcomments}prestashop>productcomments_94966d90747b97d1f0f206c98a8b1ac3'] = 'Stuur';
 $_MODULE['<{productcomments}prestashop>productcomments_e81c4e4f2b7b93b481e13a8553c2ae1b'] = '또는';

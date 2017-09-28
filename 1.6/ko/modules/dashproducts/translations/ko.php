@@ -3,6 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{dashproducts}prestashop>dashproducts_068f80c7519d0528fb08e82137a72131'] = '상품';
 $_MODULE['<{dashproducts}prestashop>dashproducts_96b0141273eabab320119c467cdcaf17'] = '합계';
 $_MODULE['<{dashproducts}prestashop>dashproducts_44749712dbec183e983dcd78a7736c41'] = '날짜';
 $_MODULE['<{dashproducts}prestashop>dashproducts_ec53a8c4f07baed5d8825072c89799be'] = 'Statut';
@@ -17,6 +18,7 @@ $_MODULE['<{dashproducts}prestashop>dashproducts_38fb7d24e0d60a048f540ecb18e1337
 $_MODULE['<{dashproducts}prestashop>dashproducts_ea4788705e6873b424c65e91c2846b19'] = '취소';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_f1206f9fadc5ce41694f69129aecac26'] = '구성';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_254f642527b45bc260048e30704edb39'] = '설정';
+$_MODULE['<{dashproducts}prestashop>dashboard_zone_two_d7b2933ba512ada478c97fa43dd7ebe6'] = '최고 판매자';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_01b6e20344b68835c5ed1ddedf20d531'] = '까지';
 
 
