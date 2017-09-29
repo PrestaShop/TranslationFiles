@@ -71,11 +71,24 @@ File: classes/Validate.php:71</note>
   </file>
   <file original="classes/controller/AdminController.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
+      <trans-unit id="2a0c56d5a5183a9b65b8e2817f75ded2" approved="yes">
+        <source>You cannot delete this item.</source>
+        <target xml:lang="th">คุณไม่สามารถลบข้อมูลนี้ได้</target>
+        <note>Context:
+File: classes/controller/AdminController.php:1077
+ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
+      </trans-unit>
       <trans-unit id="204c3558e41366f3d558ce8e01426a22" approved="yes">
         <source>field %s is required.</source>
         <target xml:lang="th">ช่องข้อมูล %s จำเป็นต้องกรอก</target>
         <note>Context:
 File: classes/controller/AdminController.php:1429</note>
+      </trans-unit>
+      <trans-unit id="b55154d2b0151501b0c0b1e9386168b5" approved="yes">
+        <source>The field %1$s is required at least in %2$s.</source>
+        <target xml:lang="th">ข้อมูล %1$s ต้องการอย่างน้อย %2$s</target>
+        <note>Context:
+File: classes/controller/AdminController.php:3679</note>
       </trans-unit>
     </body>
   </file>
@@ -258,6 +271,12 @@ File: classes/AddressFormat.php:149</note>
         <note>Context:
 File: classes/AddressFormat.php:192</note>
       </trans-unit>
+      <trans-unit id="6b6a27e705469286cb83d20ec8e1b885" approved="yes">
+        <source>Syntax error with this pattern.</source>
+        <target xml:lang="th">รูปแบบข้อมูลไม่ตรงรูปแบบที่กำหนดไว้</target>
+        <note>Context:
+File: classes/AddressFormat.php:186</note>
+      </trans-unit>
       <trans-unit id="a3084b5f93d22e573824af3ca8f58b73" approved="yes">
         <source>This key has already been used.</source>
         <target xml:lang="th">คีย์นี้จะใช้เวลามากเกินไป (อนุญาตครั้งเดียว)</target>
@@ -358,6 +377,12 @@ File: classes/ImageManager.php:474</note>
         <target xml:lang="th">ต้องการ</target>
         <note>Context:
 File: classes/ObjectModel.php:1171</note>
+      </trans-unit>
+      <trans-unit id="2deae2efe4b65df80c188a31fed3cc17" approved="yes">
+        <source>The field %s is required.</source>
+        <target xml:lang="th">ต้องการข้อมูล %s</target>
+        <note>Context:
+File: classes/ObjectModel.php:1386</note>
       </trans-unit>
     </body>
   </file>
@@ -480,6 +505,18 @@ File: controllers/admin/AdminCarrierWizardController.php:893</note>
         <note>Context:
 File: controllers/admin/AdminStoresController.php:351</note>
       </trans-unit>
+      <trans-unit id="d57c64abf56d22df05f34e473b3879ad" approved="yes">
+        <source>A Zip/postal code is required.</source>
+        <target xml:lang="th">จำเป็นต้องกรอกรหัสไปรษณีย์.</target>
+        <note>Context:
+File: controllers/admin/AdminStoresController.php:353</note>
+      </trans-unit>
+      <trans-unit id="5b0e7a50bbe35d2e59dc92c7ba9b369a" approved="yes">
+        <source>The Zip/postal code is invalid.</source>
+        <target xml:lang="th">รหัสไปรษณีย์ไม่ถูกต้อง.</target>
+        <note>Context:
+File: controllers/admin/AdminStoresController.php:355</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminBackupController.php" source-language="en" target-language="th" datatype="plaintext">
@@ -549,6 +586,12 @@ File: controllers/admin/AdminEmployeesController.php:79</note>
   </file>
   <file original="controllers/admin/AdminLoginController.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
+      <trans-unit id="d3338ce970be43e586e64e0a41dc01e2" approved="yes">
+        <source>There is one error.</source>
+        <target xml:lang="th">พบข้อผิดพลาดหนึ่งรายการ.</target>
+        <note>Context:
+File: controllers/admin/AdminLoginController.php:56</note>
+      </trans-unit>
       <trans-unit id="e267e2be02cf3e29f4ba53b5d97cf78a" approved="yes">
         <source>Invalid email address.</source>
         <target xml:lang="th">ที่อยู่อีเมลไม่ถูกต้อง</target>
@@ -612,7 +655,12 @@ File: controllers/admin/AdminLocalizationController.php:198</note>
   </file>
   <file original="controllers/admin/AdminCountriesController.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
-      
+      <trans-unit id="01e93e9457d86c646965decd586dc5ea" approved="yes">
+        <source>Address format invalid</source>
+        <target xml:lang="th">ที่อยู่ไม่ถูกต้อง</target>
+        <note>Context:
+File: controllers/admin/AdminCountriesController.php:433</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/access/helpers/form/form.tpl" source-language="en" target-language="th" datatype="plaintext">

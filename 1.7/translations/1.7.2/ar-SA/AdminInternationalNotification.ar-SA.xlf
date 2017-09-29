@@ -40,12 +40,30 @@ File: modules/autoupgrade/AdminSelfTab.php:186</note>
   </file>
   <file original="classes/Language.php" source-language="en" target-language="ar" datatype="plaintext">
     <body>
+      <trans-unit id="52326ecbfcdff77b4bc9dcf7f055c2eb" approved="yes">
+        <source>Fatal error: ISO code is not correct</source>
+        <target xml:lang="ar">خطأ حادّ: كود آيزو غير صحيح</target>
+        <note>Context:
+File: classes/Language.php:722</note>
+      </trans-unit>
+      <trans-unit id="87c6e26b4d5c8e6c145691758c25b769" approved="yes">
+        <source>Fatal error: IETF code %s is not correct</source>
+        <target xml:lang="ar">خطأ حاد: رمز IETF %s غير صحيح</target>
+        <note>Context:
+File: classes/Language.php:731</note>
+      </trans-unit>
       <trans-unit id="edeb9e20655b946e4bee4ac44a6c0a7f" approved="yes">
         <source>Server does not have permissions for writing.</source>
         <target xml:lang="ar">الملقم لا يكون لديك أذونات للكتابة.</target>
         <note>Context:
 File: classes/Language.php:1022
  Comment: @todo Throw exception</note>
+      </trans-unit>
+      <trans-unit id="2e3dec4700000b6db379437f7d8d9fac" approved="yes">
+        <source>An error occurred while creating the language: %s</source>
+        <target xml:lang="ar">حدث خطأ أثناء إنشاء اللغة: %s</target>
+        <note>Context:
+File: classes/Language.php:1095</note>
       </trans-unit>
     </body>
   </file>
@@ -102,6 +120,12 @@ File: classes/LocalizationPack.php:182</note>
         <note>Context:
 File: classes/LocalizationPack.php:214</note>
       </trans-unit>
+      <trans-unit id="36f9983aadfde9d77db0d357abe6e85e" approved="yes">
+        <source>This tax rule cannot be saved.</source>
+        <target xml:lang="ar">الشرط الضريبي هذا لا يُمكن حفظه.</target>
+        <note>Context:
+File: classes/LocalizationPack.php:242</note>
+      </trans-unit>
       <trans-unit id="19f29a24f0ccb9b96b37182473b27d63" approved="yes">
         <source>Invalid currency properties.</source>
         <target xml:lang="ar">عملة غير صحيحة</target>
@@ -119,6 +143,18 @@ File: classes/LocalizationPack.php:394</note>
         <target xml:lang="ar">حدث خطأ أثناء إعداد الوحدات.</target>
         <note>Context:
 File: classes/LocalizationPack.php:398</note>
+      </trans-unit>
+      <trans-unit id="b34f6454b80599ab92262b1da79a9edb" approved="yes">
+        <source>An error occurred during the default group update</source>
+        <target xml:lang="ar">حدث خطأ اثناء تحديث المجموعة الإفتراضية</target>
+        <note>Context:
+File: classes/LocalizationPack.php:504</note>
+      </trans-unit>
+      <trans-unit id="09a0fad4c9a9702b2db457f6bff88f3d" approved="yes">
+        <source>An error has occurred during the default group update</source>
+        <target xml:lang="ar">حدث خطأ اثناء تحديث المجموعة الإفتراضية</target>
+        <note>Context:
+File: classes/LocalizationPack.php:508</note>
       </trans-unit>
     </body>
   </file>
@@ -310,16 +346,36 @@ File: controllers/admin/AdminTranslationsController.php:2559</note>
   </file>
   <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_modules.tpl" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="1f0f8b59397f34d499b181297714713a" approved="yes">
+        <source>Warning! Your hosting provider is using the Suhosin patch for PHP, which limits the maximum number of fields allowed in a form:</source>
+        <target xml:lang="ar">تحذير! مزود الإستضافة يستخدم التصحيح suhosin من أجل PHP ، الأمر الذي يحد من الحد الأقصى لعدد الحقول المسموح بها في شكل:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/translation_modules.tpl:37</note>
+      </trans-unit>
+      <trans-unit id="308c1cf98be9973142833c9a9dbbc2ef" approved="yes">
+        <source>Please ask your hosting provider to increase the Suhosin limit to</source>
+        <target xml:lang="ar">يرجى طلب مزود الإستضافة رفع حد Suhosin الى</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/translation_modules.tpl:41</note>
+      </trans-unit>
+      <trans-unit id="5ad040870ae5ccaeb2d57e4d052163a4" approved="yes">
+        <source>Warning! Your PHP configuration limits the maximum number of fields allowed in a form:</source>
+        <target xml:lang="ar">تحذير! إن إعدادات الPHP الخاصة بك تحد من عدد الحقول الأقصى المسموح به في النموذج الواحد:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/translation_modules.tpl:43</note>
+      </trans-unit>
+      <trans-unit id="5607dc45ebdfc0baaab64d944aa88f47" approved="yes">
+        <source>for max_input_vars.</source>
+        <target xml:lang="ar">من اجل max_input_vars.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/translation_modules.tpl:44</note>
+      </trans-unit>
+      <trans-unit id="6e709babf4b5a0ed4194ad5240e1be2c" approved="yes">
+        <source>Please ask your hosting provider to increase this limit to</source>
+        <target xml:lang="ar">يرجى طلب زيادة هذا الحد من مزود خدمة الإستضافة إلى</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/translation_modules.tpl:45</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminCurrenciesController.php" source-language="en" target-language="ar" datatype="plaintext">
@@ -335,6 +391,12 @@ File: controllers/admin/AdminCurrenciesController.php:179</note>
         <target xml:lang="ar">لا يمكنك تعطيل العملة الافتراضية</target>
         <note>Context:
 File: controllers/admin/AdminCurrenciesController.php:195</note>
+      </trans-unit>
+      <trans-unit id="9289665482a13fc74be054caef49b63e" approved="yes">
+        <source>This currency already exists.</source>
+        <target xml:lang="ar">هذه العملة موجودة.</target>
+        <note>Context:
+File: controllers/admin/AdminCurrenciesController.php:282</note>
       </trans-unit>
     </body>
   </file>
@@ -379,7 +441,12 @@ File: admin-dev/themes/default/template/controllers/countries/helpers/form/form.
   </file>
   <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_errors.tpl" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      
+      <trans-unit id="5d27fef01a54790de11db21f1ed47892" approved="yes">
+        <source>%s at least, or you will have to edit the translation files manually.</source>
+        <target xml:lang="ar">%s على الأقل، أو سيتحتم عليك تحرير ملفات الترجمة يدوياً.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/translation_errors.tpl:47</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/main.tpl" source-language="en" target-language="ar" datatype="plaintext">

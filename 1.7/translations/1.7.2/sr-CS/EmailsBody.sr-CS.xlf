@@ -8,6 +8,12 @@
         <note>Context:
 File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/order_changed.php:6</note>
       </trans-unit>
+      <trans-unit id="fce4d5217e51f199cfbd10ae913cc5dd" approved="yes">
+        <source><![CDATA[You can review your order and download your invoice from the <a href="{history_url}">"Order history"</a> section of your customer account by clicking <a href="{my_account_url}">"My account"</a> on our shop.]]></source>
+        <target xml:lang="sr-CS"><![CDATA[Možete napisati utiske o narudžbini i preuzeti vaš račun iz sekcije <a href="{history_url}">"Istorija narudžbi"</a> na vašem nalogu, klikom na <a href="{my_account_url}">"Moj nalog"</a> u našoj prodavnici.]]></target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/order_changed.php:40</note>
+      </trans-unit>
       <trans-unit id="992ed3f1f7ce7be683fd4051138b693e" approved="yes">
         <source><![CDATA[If you have a guest account, you can follow your order via the <a href="{guest_tracking_url}?id_order={order_name}">"Guest Tracking"</a> section on our shop.]]></source>
         <target xml:lang="sr-CS"><![CDATA[Ako imate gostujući nalog, možete pratiti vašu narudžbinu putem sekcije <a href="{guest_tracking_url}?id_order={order_name}">"Praćenje gosta"</a> u našoj radnji.]]></target>
@@ -24,6 +30,12 @@ File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/order_changed.p
   </file>
   <file original="modules/ps_emailgenerator/templates/core/cheque.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
+      <trans-unit id="b4556791acee238c77be9ed338a29e80" approved="yes">
+        <source>Thank you for shopping with {shop_name}!</source>
+        <target xml:lang="sr-CS">Hvala vam što kupujete u {shop_name} online prodavnici!</target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/core/cheque.php:7</note>
+      </trans-unit>
       <trans-unit id="3f8b7a7948f4fd5d9bb34d63746dfd23" approved="yes">
         <source><![CDATA[Your order with the reference <span><strong>{order_name}</strong></span> has been placed successfully and will be <strong>shipped as soon as we receive your payment</strong>.]]></source>
         <target xml:lang="sr-CS"><![CDATA[Vaša narudžbina sa referencom <span><strong>{order_name}</strong></span> je uspešno postavljena, a biće <strong>isporučena čim dobijemo vašu uplatu</strong>.]]></target>
@@ -195,6 +207,12 @@ File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/new_order.php:3
         <target xml:lang="sr-CS">Čestitamo!</target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/new_order.php:6</note>
+      </trans-unit>
+      <trans-unit id="6881c1c321e65a31d35137f960022cf7" approved="yes">
+        <source>A new order was placed on {shop_name} by the following customer: {firstname} {lastname} ({email})</source>
+        <target xml:lang="sr-CS">Nova porudžbina je postavljena na {shop_name} od sledećeg kupca: {firstname} {lastname} ({email})</target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/new_order.php:13</note>
       </trans-unit>
     </body>
   </file>
@@ -695,8 +713,18 @@ File: modules/ps_emailgenerator/templates/core/outofstock.php:25</note>
   </file>
   <file original="modules/ps_emailgenerator/templates/core/order_canceled.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="3baf03ed2980c9f339731f052c12b37d" approved="yes">
+        <source>Order canceled</source>
+        <target xml:lang="sr-CS">Porudžbina otkazana</target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/core/order_canceled.php:21</note>
+      </trans-unit>
+      <trans-unit id="50651089ed12eb33b55394a0a17618de" approved="yes">
+        <source><![CDATA[Your order with the reference <span><strong>{order_name}</strong></span> from <span><strong>{shop_name}</strong></span> has been canceled.]]></source>
+        <target xml:lang="sr-CS"><![CDATA[Vaša porudžbina sa napomenom <span><strong>{order_name}</strong></span> from <span><strong>{shop_name}</strong></span> je otkazana.]]></target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/core/order_canceled.php:24</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/ps_emailgenerator/templates/core/credit_slip.php" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -809,6 +837,12 @@ File: modules/ps_emailgenerator/templates/core/backoffice_order.php:24</note>
   </file>
   <file original="modules/ps_emailgenerator/templates/core/shipped.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
+      <trans-unit id="d0cc952b66ca292a2e4a1bc53453b287" approved="yes">
+        <source>Your order has been shipped</source>
+        <target xml:lang="sr-CS">Vaša porudžbina je isporučena</target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/core/shipped.php:7</note>
+      </trans-unit>
       <trans-unit id="747cf5c8587184b9e489ff897d97c20d" approved="yes">
         <source>Shipped</source>
         <target xml:lang="sr-CS">Isporučeno</target>
@@ -863,8 +897,18 @@ File: modules/ps_emailgenerator/templates/core/payment_error.php:25</note>
   </file>
   <file original="modules/ps_emailgenerator/templates/core/reply_msg.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="2ddbd3a9b06eadccdea8e1b372830d69" approved="yes">
+        <source>Please do not reply directly to this email, we will not receive it.</source>
+        <target xml:lang="sr-CS">Molimo vas da ne odgovarate direktno na ovaj email, nećemo ga primiti.</target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/core/reply_msg.php:22</note>
+      </trans-unit>
+      <trans-unit id="95d1732a1f5200c8e176bea0a5562804" approved="yes">
+        <source><![CDATA[In order to reply, please use the following link: <a href="{link}">{link}</a>]]></source>
+        <target xml:lang="sr-CS"><![CDATA[Kako bi odgovorili, molimo vas da koristite sledeći link: <a href="{link}">{link}</a>]]></target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/core/reply_msg.php:24</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/ps_emailgenerator/templates/modules/ps_emailalerts/productoutofstock.php" source-language="en" target-language="sr-CS" datatype="plaintext">

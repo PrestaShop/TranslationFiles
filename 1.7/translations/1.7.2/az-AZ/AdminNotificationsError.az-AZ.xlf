@@ -59,23 +59,35 @@ File: classes/Validate.php:71</note>
   </file>
   <file original="classes/controller/AdminController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="2a0c56d5a5183a9b65b8e2817f75ded2" approved="yes">
+        <source>You cannot delete this item.</source>
+        <target xml:lang="az">Bunu silməyə icazəniz yoxdur.</target>
+        <note>Context:
+File: classes/controller/AdminController.php:1077
+ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
+      </trans-unit>
+      <trans-unit id="9bc4cb281e01dc945f3d0ab0710a898a" approved="yes">
+        <source>Can't delete #%d</source>
+        <target xml:lang="az">#%d silinmədi</target>
+        <note>Context:
+File: classes/controller/AdminController.php:4041</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminProductsController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
+      <trans-unit id="ec5f6f7f65190788d12ef16ab6135009" approved="yes">
+        <source>You cannot delete all of the items.</source>
+        <target xml:lang="az">Hamısını silə bilməzsiniz.</target>
+        <note>Context:
+File: controllers/admin/AdminProductsController.php:633</note>
+      </trans-unit>
+      <trans-unit id="bc33aa1314e7dcd3472db72472b909b2" approved="yes">
+        <source>An error occurred during deletion.</source>
+        <target xml:lang="az">Silmə zamanı xəta baş verdi.</target>
+        <note>Context:
+File: controllers/admin/AdminProductsController.php:580</note>
+      </trans-unit>
       <trans-unit id="723b4a80bd8ae233c9fcde1e5bd55436">
         <source>The object cannot be loaded. </source>
         <target xml:lang="az" state="needs-translation"> </target>
@@ -95,6 +107,12 @@ File: controllers/admin/AdminProductsController.php:1957</note>
   </file>
   <file original="controllers/admin/AdminCategoriesController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
+      <trans-unit id="77ae44aa6c998166fcf1a87496278ad5" approved="yes">
+        <source>(cannot load object)</source>
+        <target xml:lang="az">(əşya yüklənmir)</target>
+        <note>Context:
+File: controllers/admin/AdminCategoriesController.php:899</note>
+      </trans-unit>
       <trans-unit id="3452da55a90ccedd184c7ba264b2afd5">
         <source>Due to memory limit restrictions, this image cannot be loaded. Please increase your memory_limit value via your server's configuration settings. </source>
         <target xml:lang="az" state="needs-translation"> </target>
@@ -117,7 +135,12 @@ File: controllers/admin/AdminCategoriesController.php:1057</note>
   </file>
   <file original="controllers/admin/AdminPdfController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      
+      <trans-unit id="b42cd3af71fc00ef268910709255320a" approved="yes">
+        <source>You do not have permission to view this.</source>
+        <target xml:lang="az">Bura daxil olmağa icazəniz yoxdur.</target>
+        <note>Context:
+File: controllers/admin/AdminPdfController.php:45</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/controller/Controller.php" source-language="en" target-language="az" datatype="plaintext">
@@ -132,7 +155,12 @@ File: classes/controller/Controller.php:207</note>
   </file>
   <file original="classes/Configuration.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      
+      <trans-unit id="05c210d25ce1e9ad49a27d570f82b090" approved="yes">
+        <source>[%s] is not a valid configuration key</source>
+        <target xml:lang="az">%s keçərli konfiqurasiya kodu deyil</target>
+        <note>Context:
+File: classes/Configuration.php:425</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/AddressFormat.php" source-language="en" target-language="az" datatype="plaintext">
@@ -148,6 +176,24 @@ File: classes/AddressFormat.php:132</note>
         <target xml:lang="az">Bu xususiyyət sinifdə yoxdur və ya gizlidir.</target>
         <note>Context:
 File: classes/AddressFormat.php:149</note>
+      </trans-unit>
+      <trans-unit id="46e6c4977ebd38ff176e68481ab04275" approved="yes">
+        <source>This name is not allowed.</source>
+        <target xml:lang="az">Bu ada icazə verilmədi.</target>
+        <note>Context:
+File: classes/AddressFormat.php:192</note>
+      </trans-unit>
+      <trans-unit id="6b6a27e705469286cb83d20ec8e1b885" approved="yes">
+        <source>Syntax error with this pattern.</source>
+        <target xml:lang="az">Bu modellə bağlı sintaksis səhvi var.</target>
+        <note>Context:
+File: classes/AddressFormat.php:186</note>
+      </trans-unit>
+      <trans-unit id="a3084b5f93d22e573824af3ca8f58b73" approved="yes">
+        <source>This key has already been used.</source>
+        <target xml:lang="az">Bu kod artıq istifadə olunub.</target>
+        <note>Context:
+File: classes/AddressFormat.php:228</note>
       </trans-unit>
     </body>
   </file>
@@ -185,16 +231,12 @@ File: controllers/admin/AdminCartsController.php:401</note>
   </file>
   <file original="classes/Uploader.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="a5a6e6da29a779cece21518a4ba337e2" approved="yes">
+        <source>The uploaded file exceeds the post_max_size directive in php.ini</source>
+        <target xml:lang="az">Yükləməyə çalışdığınız fayl php.ini-dəki post_max_size ölçüsündən böyükdür</target>
+        <note>Context:
+File: classes/Uploader.php:334</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/helper/HelperImageUploader.php" source-language="en" target-language="az" datatype="plaintext">
@@ -235,11 +277,12 @@ File: classes/ObjectModel.php:1386</note>
   </file>
   <file original="classes/FileUploader.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
+      <trans-unit id="20c6125376d8de28149d655c7cc25e32" approved="yes">
+        <source>No files were uploaded.</source>
+        <target xml:lang="az">Fayllar yüklənmədi.</target>
+        <note>Context:
+File: classes/FileUploader.php:69</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/Meta.php" source-language="en" target-language="az" datatype="plaintext">
@@ -426,7 +469,12 @@ File: controllers/admin/AdminCustomerThreadsController.php:414</note>
   </file>
   <file original="controllers/admin/AdminAttachmentsController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      
+      <trans-unit id="1f66f9472666b18b19c22fd0f1a6a07b" approved="yes">
+        <source>The file is too large. Maximum size allowed is: %1$d kB. The file you are trying to upload is %2$d kB.</source>
+        <target xml:lang="az">Bu fayl cox böyükdür. Maksimum yükləyə biləcəyiniz ölçü: %1$d KB. Sizin faylınızın ölçüsü isə %2$d - dir.</target>
+        <note>Context:
+File: controllers/admin/AdminAttachmentsController.php:218</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminLocalizationController.php" source-language="en" target-language="az" datatype="plaintext">

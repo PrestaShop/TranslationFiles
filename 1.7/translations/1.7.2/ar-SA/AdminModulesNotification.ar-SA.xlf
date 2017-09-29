@@ -94,6 +94,18 @@ File: controllers/admin/AdminModulesController.php:603</note>
         <note>Context:
 File: controllers/admin/AdminModulesController.php:427</note>
       </trans-unit>
+      <trans-unit id="c09b8da183ec54308a4c59ab1f1ab792" approved="yes">
+        <source>You do not have the permission to use this module.</source>
+        <target xml:lang="ar">ليس لديك إذن لإستخدام هذه الوحدة البرمجية.</target>
+        <note>Context:
+File: controllers/admin/AdminModulesController.php:687</note>
+      </trans-unit>
+      <trans-unit id="7cbb3ce25a6d0abd528dbd744da03e7f" approved="yes">
+        <source>Cannot reset this module.</source>
+        <target xml:lang="ar">لا يمكن اعادة ضبط هذه الوحدة البرمجية.</target>
+        <note>Context:
+File: controllers/admin/AdminModulesController.php:539</note>
+      </trans-unit>
       <trans-unit id="d765d45adba914dc9006cc7ec0b2faf5" approved="yes">
         <source>Cannot install this module.</source>
         <target xml:lang="ar">لا يمكن تثبيت وحدة</target>
@@ -111,6 +123,42 @@ File: controllers/admin/AdminModulesController.php:549</note>
         <target xml:lang="ar">لا يمكن تحميل الوحدة النمطية كائن</target>
         <note>Context:
 File: controllers/admin/AdminModulesController.php:668</note>
+      </trans-unit>
+      <trans-unit id="8969f3823d6bbf4cff9ea8118d8b3ecb" approved="yes">
+        <source>An error occurred while copying the archive to the module directory.</source>
+        <target xml:lang="ar">حدث خطأ أثناء نسخ الأرشيف إلى دليل الوحدة البرمجية.</target>
+        <note>Context:
+File: controllers/admin/AdminModulesController.php:605</note>
+      </trans-unit>
+      <trans-unit id="811c568a06f4f5f038609a98512e9416" approved="yes">
+        <source>You do not have permission to access this module.</source>
+        <target xml:lang="ar">ليس لديك إذن للوصول إلى هذه الوحدة البرمجية.</target>
+        <note>Context:
+File: controllers/admin/AdminModulesController.php:861</note>
+      </trans-unit>
+      <trans-unit id="81d2521b93f4b3abdc3877f76e04005a" approved="yes">
+        <source>You do not have permission to install this module.</source>
+        <target xml:lang="ar">ليس لديك إذن لتثبيت هذه الوحدة البرمجية.</target>
+        <note>Context:
+File: controllers/admin/AdminModulesController.php:865</note>
+      </trans-unit>
+      <trans-unit id="d7569980257d11fbd66deb501f5efab8" approved="yes">
+        <source>You do not have permission to delete this module.</source>
+        <target xml:lang="ar">ليس لديك إذن في حذف هذه الوحدة البرمجية.</target>
+        <note>Context:
+File: controllers/admin/AdminModulesController.php:867</note>
+      </trans-unit>
+      <trans-unit id="5a69d1cb0ef4096b272b3b441555d737" approved="yes">
+        <source>You do not have permission to configure this module.</source>
+        <target xml:lang="ar">ليس لديك إذن في تعديل تكوين هذه الوحدة البرمجية.</target>
+        <note>Context:
+File: controllers/admin/AdminModulesController.php:869</note>
+      </trans-unit>
+      <trans-unit id="2c465b2a1769653563dcacfc83ab61d0" approved="yes">
+        <source>This module is already installed: %s.</source>
+        <target xml:lang="ar">هذه الوحدة البرمجية مثبتة مسبقاً: %s.</target>
+        <note>Context:
+File: controllers/admin/AdminModulesController.php:871</note>
       </trans-unit>
     </body>
   </file>
@@ -190,17 +238,53 @@ File: classes/module/ModuleGrid.php:106</note>
   </file>
   <file original="classes/module/Module.php" source-language="en" target-language="ar" datatype="plaintext">
     <body>
+      <trans-unit id="c909cdf836f5769c5ab8b709220c1488" approved="yes">
+        <source>No upgrade has been applied</source>
+        <target xml:lang="ar">لم يتم تطبيق أي ترقية</target>
+        <note>Context:
+File: classes/module/Module.php:444</note>
+      </trans-unit>
+      <trans-unit id="7a4a33538734a49e1136547dea5792df" approved="yes">
+        <source>%d upgrade left</source>
+        <target xml:lang="ar">%d تحديث متبقي</target>
+        <note>Context:
+File: classes/module/Module.php:447</note>
+      </trans-unit>
       <trans-unit id="a448cf0c04e337b9ca99cf83c5afb183" approved="yes">
         <source>Module %s cannot be upgraded this time: please refresh this page to update it.</source>
         <target xml:lang="ar">لا يمكن ترقية الإضافة %s في الوقت الحالي: الرجاء تحديث الصفحة لتحديثها.</target>
         <note>Context:
 File: classes/module/Module.php:451</note>
       </trans-unit>
+      <trans-unit id="f79dcf8179bb9d8fa72d169f71702b44" approved="yes">
+        <source>To prevent any problem, this module has been turned off</source>
+        <target xml:lang="ar">لكي تمنع المشاكل، تم ايقاف تشغيل هذه الوحدة البرمجية</target>
+        <note>Context:
+File: classes/module/Module.php:453</note>
+      </trans-unit>
+      <trans-unit id="4762b130ddcc0e4d2eacf0c59a8b17a2" approved="yes">
+        <source>The module is not installed.</source>
+        <target xml:lang="ar">لم يتم تثبيت الوحدة البرمجية.</target>
+        <note>Context:
+File: classes/module/Module.php:655</note>
+      </trans-unit>
+      <trans-unit id="8f62a26bf441ad698c2c562ec10448c4" approved="yes">
+        <source>All modules cannot be loaded due to memory limit restrictions, please increase your memory_limit value on your server configuration</source>
+        <target xml:lang="ar">لا يمكن تحميل كل الوحدات البرمجية بسبب قيود الذاكرة، الرجاء رفع حد قيمة الذاكرة من memory_limit على اعدادات الخادم</target>
+        <note>Context:
+File: classes/module/Module.php:1397</note>
+      </trans-unit>
       <trans-unit id="db0275528fda19c75f79d296ded0c6e7" approved="yes">
         <source>Error found in config file:</source>
         <target xml:lang="ar">العثور على خطأ في ملف الـ config:</target>
         <note>Context:
 File: classes/module/Module.php:1242</note>
+      </trans-unit>
+      <trans-unit id="a0b8a508d6ca8113e6439f623e7bf7cf" approved="yes">
+        <source>The following module(s) could not be loaded</source>
+        <target xml:lang="ar">تعذر تحميل هذه الوحدات البرمجية</target>
+        <note>Context:
+File: classes/module/Module.php:1507</note>
       </trans-unit>
       <trans-unit id="eddeabd79f8ca673d888fa2ffe9cf69a" approved="yes">
         <source>No template found for module</source>

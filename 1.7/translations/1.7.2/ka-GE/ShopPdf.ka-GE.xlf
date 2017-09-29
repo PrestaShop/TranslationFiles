@@ -51,7 +51,7 @@ File: classes/pdf/HTMLTemplateOrderReturn.php:119</note>
     <body>
       <trans-unit id="716be2c7de31f063369ca297a9928403" approved="yes">
         <source>Taxes:</source>
-        <target xml:lang="ka">Налоги</target>
+        <target xml:lang="ka">საშემოსავლოები</target>
         <note>Context:
 File: pdf/supply-order.tax-tab.tpl:25</note>
       </trans-unit>
@@ -61,7 +61,7 @@ File: pdf/supply-order.tax-tab.tpl:25</note>
     <body>
       <trans-unit id="ad0d28cdd9113d3ce911bc064b137cde" approved="yes">
         <source>Base price</source>
-        <target xml:lang="ka">Базовая цена</target>
+        <target xml:lang="ka">ჩვეულებრივი ფასი</target>
         <note>Context:
 File: pdf/invoice.product-tab.tpl:34</note>
       </trans-unit>
@@ -71,11 +71,29 @@ File: pdf/invoice.product-tab.tpl:34</note>
         <note>Context:
 File: pdf/invoice.product-tab.tpl:30</note>
       </trans-unit>
+      <trans-unit id="1ac6ee29e9e68fb71bad91c1d34348cc" approved="yes">
+        <source>%s:</source>
+        <target xml:lang="ka">%s:</target>
+        <note>Context:
+File: pdf/invoice.product-tab.tpl:113</note>
+      </trans-unit>
+      <trans-unit id="9fec2102dd0b5b29d6cdf9d5614fabf7" approved="yes">
+        <source>(Tax excl.)</source>
+        <target xml:lang="ka">(ბაჟის გარეშე)</target>
+        <note>Context:
+File: pdf/invoice.product-tab.tpl:39</note>
+      </trans-unit>
       <trans-unit id="197101c4a1b1fc503dcd6ebee127aa10" approved="yes">
         <source>Unit Price</source>
         <target xml:lang="ka">ერთ. ფასი</target>
         <note>Context:
 File: pdf/invoice.product-tab.tpl:37</note>
+      </trans-unit>
+      <trans-unit id="49005859f978fcb0dfddcf676e841245" approved="yes">
+        <source>ecotax: %s</source>
+        <target xml:lang="ka">ეკო-გადასახადი: %s</target>
+        <note>Context:
+File: pdf/invoice.product-tab.tpl:91</note>
       </trans-unit>
       <trans-unit id="9d5bf15117441a1b52eb1f0808e4aad3" approved="yes">
         <source>Discounts</source>
@@ -107,7 +125,7 @@ File: pdf/invoice.tax-tab.tpl:60</note>
       </trans-unit>
       <trans-unit id="e92cfa244b5eb9025d07522080468445" approved="yes">
         <source>Ecotax</source>
-        <target xml:lang="ka">экологический налог</target>
+        <target xml:lang="ka">ეკოლოგიური საშემოსავლო</target>
         <note>Context:
 File: pdf/invoice.tax-tab.tpl:62</note>
       </trans-unit>
@@ -169,17 +187,17 @@ File: pdf/order-return.conditions-tab.tpl:35</note>
   </file>
   <file original="pdf/supply-order.product-tab.tpl" source-language="en" target-language="ka" datatype="plaintext">
     <body>
-      <trans-unit id="63d5049791d9d79d86e9a108b0a999ca" approved="yes">
-        <source>Reference</source>
-        <target xml:lang="ka">Код товара</target>
-        <note>Context:
-File: pdf/supply-order.product-tab.tpl:31</note>
-      </trans-unit>
       <trans-unit id="03ab340b3f99e03cff9e84314ead38c0" approved="yes">
         <source>Qty</source>
         <target xml:lang="ka">რაოდ-ბა</target>
         <note>Context:
 File: pdf/supply-order.product-tab.tpl:33</note>
+      </trans-unit>
+      <trans-unit id="7521172dd37ba56442ea866ac18eb49d" approved="yes">
+        <source>Before discount</source>
+        <target xml:lang="ka">ფასდაკლებამდე</target>
+        <note>Context:
+File: pdf/supply-order.product-tab.tpl:35</note>
       </trans-unit>
       <trans-unit id="20a34c4e30c5bbe1d3f870ac55f0d831" approved="yes">
         <source>Tax rate</source>
@@ -209,9 +227,12 @@ File: pdf/supply-order.total-tab.tpl:25</note>
   </file>
   <file original="pdf/order-slip.summary-tab.tpl" source-language="en" target-language="ka" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="c462960a6bd53db34f778d0562703ad3" approved="yes">
+        <source>VAT Number</source>
+        <target xml:lang="ka">დღგ. ნომერი</target>
+        <note>Context:
+File: pdf/order-slip.summary-tab.tpl:30</note>
+      </trans-unit>
     </body>
   </file>
   <file original="pdf/invoice.shipping-tab.tpl" source-language="en" target-language="ka" datatype="plaintext">
@@ -271,9 +292,15 @@ File: pdf/order-slip.product-tab.tpl:33</note>
     <body>
       <trans-unit id="4e065ba1bec1d62b2d5450256612fa96" approved="yes">
         <source>Invoice Number</source>
-        <target xml:lang="ka">Номер счет-фактуры</target>
+        <target xml:lang="ka">ანგარიშ-ფაქტურის ნომერი</target>
         <note>Context:
 File: pdf/invoice.summary-tab.tpl:27</note>
+      </trans-unit>
+      <trans-unit id="440ac606343b8a66acad0d2978786d2a" approved="yes">
+        <source>Invoice Date</source>
+        <target xml:lang="ka">ინვოისის თარიღი</target>
+        <note>Context:
+File: pdf/invoice.summary-tab.tpl:28</note>
       </trans-unit>
     </body>
   </file>
@@ -295,6 +322,18 @@ File: pdf/invoice.summary-tab.tpl:27</note>
         <target xml:lang="ka">ჩვენ დავარეგისტრირეთ თქვენი თხოვნა დაბრუნებაზე</target>
         <note>Context:
 File: pdf/order-return.summary-tab.tpl:25</note>
+      </trans-unit>
+      <trans-unit id="dd0b8feb4eb6c389c284518f5683017c" approved="yes">
+        <source>Your package must be returned to us within</source>
+        <target xml:lang="ka">თქვენი შეკვეთა უნდა იყოს დაბრუნებული ჩვენთან.</target>
+        <note>Context:
+File: pdf/order-return.summary-tab.tpl:26</note>
+      </trans-unit>
+      <trans-unit id="ea62a2e28a800c367509773730120a67" approved="yes">
+        <source>days of receiving your order.</source>
+        <target xml:lang="ka">რამდენი დღეა რაც მიიღეთ ნივთი</target>
+        <note>Context:
+File: pdf/order-return.summary-tab.tpl:26</note>
       </trans-unit>
       <trans-unit id="44749712dbec183e983dcd78a7736c41" approved="yes">
         <source>Date</source>
