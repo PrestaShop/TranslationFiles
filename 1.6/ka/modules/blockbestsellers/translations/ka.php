@@ -12,7 +12,7 @@ $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_24ff4e4d39bb7811f6bdf0c
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_84b0c5fdef19ab8ef61cd809f9250d85'] = 'ბესტსელერების არარსებობის შემთხვევაშიც ჩანდეს ბლოკი.';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'ნებადართული';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_b9f5c797ebbf55adccdd8539a65a0241'] = 'აკრძალული';
-$_MODULE['<{blockbestsellers}prestashop>blockbestsellers_c9cc8cce247e49bae79f15173ce97354'] = 'Сохранить';
+$_MODULE['<{blockbestsellers}prestashop>blockbestsellers_c9cc8cce247e49bae79f15173ce97354'] = 'შენახვა';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_3cb29f0ccc5fd220a97df89dafe46290'] = 'ბესთსელერები';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_eae99cd6a931f3553123420b16383812'] = 'სრული სია';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_f7be84d6809317a6eb0ff3823a936800'] = 'ამ მომენტისათვის ბესთსელერი არ არის';

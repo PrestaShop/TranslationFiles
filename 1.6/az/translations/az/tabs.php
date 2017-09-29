@@ -3,6 +3,7 @@
 global $_TABS;
 $_TABS = array();
 
+$_TABS['AdminDashboard'] = 'İdarə Paneli';
 $_TABS['AdminCatalog'] = 'Kataloq';
 $_TABS['AdminParentOrders'] = 'Sifarişlər';
 $_TABS['AdminParentCustomer'] = 'Müştərilər';

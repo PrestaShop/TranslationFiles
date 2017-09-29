@@ -17,11 +17,17 @@ $_MODULE['<{dashtrends}prestashop>dashtrends_46418a037045b91e6715c4da91a2a269'] 
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_2938c7f7e560ed972f8a4f68e80ff834'] = 'Vezérlőpult';
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_f1206f9fadc5ce41694f69129aecac26'] = 'Konfigurálás';
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_63a6a88c066880c5ac42394a22803ca6'] = 'Frissítés';
+$_MODULE['<{dashtrends}prestashop>dashboard_zone_two_e537825dd409a90ef70d8c2eb56122a1'] = 'A teljes forgalom (nettó) dátum távú összesítése az érvényesnek tekintett rendelések alapján generált.';
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'Eladások';
+$_MODULE['<{dashtrends}prestashop>dashboard_zone_two_8bc1c5ca521b99b87908db0bcd33ec76'] = 'A dátum távban érvényesnek tekintett összes rendelések száma.';
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_7442e29d7d53e549b78d93c46b8cdcfc'] = 'Rendelések';
+$_MODULE['<{dashtrends}prestashop>dashboard_zone_two_f15f2a2bf99d3dcad2cba1a2c615b9dc'] = 'Az Átlagos kosárérték egy olyan reprezentatív mértékegység, mely megmutatja az adott dátum táv átlagos rendeléseinek értékét. Számítása az Eladások osztva Rendelések alapján történik.';
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_791d6355d34dfaf60d68ef04d1ee5767'] = 'Kosár értéke';
+$_MODULE['<{dashtrends}prestashop>dashboard_zone_two_4f631447981c5fa240006a5ae2c4b267'] = 'Látogatások teljes száma a dátum távon belül. A látogatás egy időszak, amit a felhasználó aktívan tölt el weboldaladon.';
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_d7e637a6e9ff116de2fa89551240a94d'] = 'Látogatások';
+$_MODULE['<{dashtrends}prestashop>dashboard_zone_two_7a6e858f8c7c0b78fb4d43cefcb8c017'] = 'Az E-kereskedelmi árfolyam az olyan látogatások százaléka, melyekből érvényes rendelés eredmény is lett.';
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_e4c3da18c66c0147144767efeb59198f'] = 'Árfolyam';
+$_MODULE['<{dashtrends}prestashop>dashboard_zone_two_8dedc1b3ee3a92212fb5b5acad7f207f'] = 'A nettó nyereség az összes E-kereskedelmi kiadással való számítás után megkapott profitkockázati mérték. Ezeket a költségeket a fenti konfigurációs ikonra kattintva tudod megadni.';
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_43d729c7b81bfa5fc10e756660d877d1'] = 'Nettó nyereség';
 
 

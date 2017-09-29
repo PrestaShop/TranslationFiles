@@ -66,6 +66,7 @@ $_TABS['AdminCurrencies'] = 'Monedes';
 $_TABS['AdminTaxes'] = 'Impostos';
 $_TABS['AdminTaxRulesGroup'] = 'Regles d\'impostos';
 $_TABS['AdminTranslations'] = 'Traduccions';
+$_TABS['AdminModules'] = 'Mòduls i Serveis';
 $_TABS['AdminAddonsCatalog'] = 'Catàleg de Mòduls i Temes';
 $_TABS['AdminModulesPositions'] = 'Posicions';
 $_TABS['AdminPayment'] = 'Pagament:';
@@ -107,6 +108,7 @@ $_TABS['AdminStockInstantState'] = 'Estat d\'estoc instantani';
 $_TABS['AdminStockCover'] = 'Cobertura d\'estoc';
 $_TABS['AdminSupplyOrders'] = 'Comandes de subministraments';
 $_TABS['AdminStockConfiguration'] = 'Configuració';
+$_TABS['AdminOnboarding'] = 'A bord';
 
 
 return $_TABS;

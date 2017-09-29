@@ -9,8 +9,8 @@ $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_bb8956c67b82c74
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_3b528a3fe35bcd29ad2ab0e77fe01d4d'] = 'Could not install new hook';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_cac77d4c7de337f13ad1e89a8cecbc7f'] = 'Delivery: 1 to 3 weeks';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_eeb992239a8454067cd7a47bbf0df359'] = 'Delivery: 3 to 6 weeks';
-$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_f4a0d7cb0cd45214c8ca5912c970de13'] = 'Tax included';
-$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_befcac0f9644a7abee43e69f49252ac4'] = 'Tax excluded';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_f4a0d7cb0cd45214c8ca5912c970de13'] = 'VAT included';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_befcac0f9644a7abee43e69f49252ac4'] = 'VAT excluded';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_272c87c1b60ba25f293fab358ba94a39'] = 'You must agree to our Terms of Service before going any further!';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_2223d375913a9a3b4619a1ada82f8de7'] = 'Something went wrong. If the problem persists, please contact us.';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_7219074549f88adb580bf5a6fe57c459'] = 'Select a payment option first.';

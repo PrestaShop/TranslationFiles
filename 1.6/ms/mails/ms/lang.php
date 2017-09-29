@@ -3,6 +3,9 @@
 global $_LANGMAIL;
 $_LANGMAIL = array();
 
+$_LANGMAIL['Your guest account has been transformed into a customer account'] = 'Akaun tetamu anda telah dinaiktaraf ke akaun pelanggan';
+$_LANGMAIL['The virtual product that you bought is available for download'] = 'Produk maya yang anda telah beli sedia untuk dimuat turun';
+$_LANGMAIL['New voucher for your order %s'] = 'Baucar baru untuk pesanan %s anda';
 $_LANGMAIL['Order confirmation'] = 'Pengesahan tempahan';
 $_LANGMAIL['Log: You have a new alert from your shop'] = 'Log: Anda telah menerima log alert daripada kedai anda';
 $_LANGMAIL['Fwd: Customer message'] = 'Fwd: Mesej pelanggan';
@@ -11,6 +14,7 @@ $_LANGMAIL['Your new password'] = 'Katalaluan baru anda';
 $_LANGMAIL['Package in transit'] = 'Pakej dalam perjalanan transit';
 $_LANGMAIL['New message regarding your order'] = 'Mesej baru berkenaan tempahan anda';
 $_LANGMAIL['New credit slip regarding your order'] = 'Slip kredit baru berkenaan tempahan anda';
+$_LANGMAIL['New voucher for your order #%s'] = 'Baucar baru untuk pesanan #%s anda';
 $_LANGMAIL['Process the payment of your order'] = 'Pembayaran tempahan sedang diproses';
 $_LANGMAIL['Your order return status has changed'] = 'Status pulangan tempahan anda telah berubah';
 $_LANGMAIL['Welcome!'] = 'Selamat Datang!';

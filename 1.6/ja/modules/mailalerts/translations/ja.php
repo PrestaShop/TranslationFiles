@@ -3,6 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{mailalerts}prestashop>mailalerts-account_36c94bd456cf8796723ad09eac258aef'] = 'アカウント管理';
 $_MODULE['<{mailalerts}prestashop>mailalerts-account_d95cf4ab2cbf1dfb63f066b50558b07d'] = 'マイアカウント';
 $_MODULE['<{mailalerts}prestashop>mailalerts-account_4edfd10d0bb5f51e0fd2327df608b5a8'] = 'アラート';
 $_MODULE['<{mailalerts}prestashop>mailalerts-account_8bb23c2ae698681ebb650f43acb54dab'] = 'まだアラートメールがありません';

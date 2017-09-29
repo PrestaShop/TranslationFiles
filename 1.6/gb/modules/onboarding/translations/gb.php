@@ -6,7 +6,7 @@ $_MODULE = array();
 $_MODULE['<{onboarding}prestashop>onboarding_403078410560ac74cd18391f1fbf55fa'] = 'OnBoarding';
 $_MODULE['<{onboarding}prestashop>onboarding_76ddbb9f8bbe2624552fd553d0f9d040'] = 'The OnBoarding module greets first-time users to their PrestaShop back office: through a small playful	interface, it shows the user how to launch his/her shop in several easy steps.';
 $_MODULE['<{onboarding}prestashop>backoffice_top_c50e83d3857e41ea59189e385d4ed024'] = 'Hey %s, welcome on your own online shop.[1]Follow the guide and take the first steps with your online shop!';
-$_MODULE['<{onboarding}prestashop>backoffice_top_79b0fcd70b51a3065ebbfe7e953eae38'] = 'Check out our catalog to get a new theme or customize the current default theme.[1]Add your logo, play on fonts and colors... Give this special look to your shop!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_79b0fcd70b51a3065ebbfe7e953eae38'] = 'Check out our catalog to get a new theme or customise the current default theme.[1]Add your logo, play on fonts and colours... Give this special look to your shop!';
 $_MODULE['<{onboarding}prestashop>backoffice_top_9a12f893e37f0f1fb9fb04bf16a7d78d'] = 'Start your product catalog with a first product.[1]Make sure you cover the basics by setting its price, having a nice description and uploading a catchy image![1]If you already have your product base in a .CSV file, save time and make an import!';
 $_MODULE['<{onboarding}prestashop>backoffice_top_4cf1a5e51827d65ded27c32d4213b12e'] = 'Your shop runs with PrestaShop Payments by HiPay, so that you can accept payments by card right now. Other payment methods are available too, make sure you set everything up!';
 $_MODULE['<{onboarding}prestashop>backoffice_top_0429b4766bfd2e6540dc3cb5537387ff'] = 'Select which payment methods you want to offer to customers on your shop, and manage the various restrictions you can apply (per currency, country or group of customers).';
@@ -16,7 +16,7 @@ $_MODULE['<{onboarding}prestashop>backoffice_top_82269147f55aa394633d8ffab65a852
 $_MODULE['<{onboarding}prestashop>backoffice_top_d51786a260fac2376360796f7c79b076'] = 'I\'m all good, let\'s launch!';
 $_MODULE['<{onboarding}prestashop>backoffice_top_3eb86a3e1dc693b55502d7391aae5cbf'] = 'I\'m done, take me to next step';
 $_MODULE['<{onboarding}prestashop>backoffice_top_d592a24b3a6f07d1731cc5e82247ea89'] = 'Take a tour: get started with PrestaShop';
-$_MODULE['<{onboarding}prestashop>backoffice_top_de01a1b72dcfe775cd72a5ff7af650a9'] = 'Customize your shop\'s look and feel';
+$_MODULE['<{onboarding}prestashop>backoffice_top_de01a1b72dcfe775cd72a5ff7af650a9'] = 'Customise your shop\'s look and feel';
 $_MODULE['<{onboarding}prestashop>backoffice_top_28e28cc9b29cb7be024359a92ed55282'] = 'Add your first products';
 $_MODULE['<{onboarding}prestashop>backoffice_top_9067f937e50eccdb6e7aeaf92cd054e1'] = 'Get your shop ready for payments';
 $_MODULE['<{onboarding}prestashop>backoffice_top_e2a122121719451136536f8a97406f8a'] = 'You are now ready to launch your shop.';
@@ -29,7 +29,7 @@ $_MODULE['<{onboarding}prestashop>backoffice_top_07401b0a5880897a0aaddf3f02840d4
 $_MODULE['<{onboarding}prestashop>backoffice_top_8fe45aff43af351538b5a09436642467'] = '3/4 complete';
 $_MODULE['<{onboarding}prestashop>backoffice_top_b361b43eb8b02ed09668ee20a0c5dfc7'] = '4/4 complete';
 $_MODULE['<{onboarding}prestashop>backoffice_top_863d165c22d70b710d8340b386476059'] = 'Getting Started with PrestaShop';
-$_MODULE['<{onboarding}prestashop>backoffice_top_8537edc13c831abe2ab38ce7f57edb5e'] = 'Customize your shop';
+$_MODULE['<{onboarding}prestashop>backoffice_top_8537edc13c831abe2ab38ce7f57edb5e'] = 'Customise your shop';
 $_MODULE['<{onboarding}prestashop>backoffice_top_ea6fc12147e71d57bdd78ca17ca734ce'] = 'Add products';
 $_MODULE['<{onboarding}prestashop>backoffice_top_e8907cbf554073d2b2edca1196a32533'] = 'Configure payments';
 $_MODULE['<{onboarding}prestashop>backoffice_top_3ebc767d6b3a2251fcef53c51c253827'] = 'No thanks!';

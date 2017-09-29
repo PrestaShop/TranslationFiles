@@ -20,6 +20,7 @@ $_MODULE['<{blocklink}prestashop>blocklink_9bbcafcc85be214aaff76dffb8b72ce9'] = 
 $_MODULE['<{blocklink}prestashop>blocklink_7e5748d8c44f33c9cde08ac2805e5621'] = 'Turutan pesanan telah dikemaskini';
 $_MODULE['<{blocklink}prestashop>blocklink_46cff2568b00bc09d66844849d0b1309'] = 'Ralat berlaku ketika menyediakan susunan isihan.';
 $_MODULE['<{blocklink}prestashop>blocklink_449f6d82cde894eafd3c85b6fa918f89'] = 'ID Pautan';
+$_MODULE['<{blocklink}prestashop>blocklink_63a11faa3a692d4e00fa8e03bbe8a0d6'] = 'Teks pautan';
 $_MODULE['<{blocklink}prestashop>blocklink_e6b391a8d2c4d45902a23a8b6585703d'] = 'URL';
 $_MODULE['<{blocklink}prestashop>blocklink_387a8014f530f080bf2f3be723f8c164'] = 'Senarai pautan';
 $_MODULE['<{blocklink}prestashop>blocklink_58e9b25bb2e2699986a3abe2c92fc82e'] = 'Tambah pautan baru';
@@ -28,7 +29,13 @@ $_MODULE['<{blocklink}prestashop>blocklink_00d23a76e43b46dae9ec7aa9dcbebb32'] = 
 $_MODULE['<{blocklink}prestashop>blocklink_b9f5c797ebbf55adccdd8539a65a0241'] = 'Tidak-aktif';
 $_MODULE['<{blocklink}prestashop>blocklink_c9cc8cce247e49bae79f15173ce97354'] = 'Simpan';
 $_MODULE['<{blocklink}prestashop>blocklink_9d55fc80bbb875322aa67fd22fc98469'] = 'Kesatuan kedai';
+$_MODULE['<{blocklink}prestashop>blocklink_d4bc72be9854ed72e4a1da1509021bf4'] = 'Tetapan blok';
 $_MODULE['<{blocklink}prestashop>blocklink_b22c8f9ad7db023c548c3b8e846cb169'] = 'Tajuk Blok';
+$_MODULE['<{blocklink}prestashop>blocklink_85c75f5424ba98bfc9dfc05ea8c08415'] = 'URL bagi tajuk blok ini';
+$_MODULE['<{blocklink}prestashop>blocklink_b408f3291aaca11c030e806d8b66ee6d'] = 'Tetapan paparan pautan';
+$_MODULE['<{blocklink}prestashop>blocklink_3c2c4126af13baa9c6949bc7bcbb0664'] = 'Susunan senarai';
+$_MODULE['<{blocklink}prestashop>blocklink_c07fa9efcc1618d6ef1a12d4f1107dea'] = 'pautan yang paling terbaru dahulu';
+$_MODULE['<{blocklink}prestashop>blocklink_e83cb6a9bccb5b3fbed4bbeae17b2d12'] = 'pautan yang paling lama dahulu';
 
 
 return $_MODULE;

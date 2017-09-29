@@ -18,6 +18,7 @@ $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_b9f5c797ebbf55adccdd8
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_f4f70727dc34561dfde1a3c529b6205c'] = 'Configuració';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_c9cc8cce247e49bae79f15173ce97354'] = 'Desar';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_4351cfebe4b61d8aa5efa1d020710005'] = 'Veure';
+$_MODULE['<{themeconfigurator}prestashop>themeconfigurator_3b41baf5b2f335fc796a083a1945116b'] = 'Només vostè pot veure això a la seva botiga - els visitants no poden veure aquesta eina.';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_6e3670bb5e3826106c5243b242cc52d9'] = 'Mostrar enllaços cap als vostres comptes socials (Twitter, Facebook, etc.)';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_1334ff714a38e8004e9cdc755baa5afb'] = 'Mostrar la vostra informació de contacte';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_2f4fe84a25dc0024c9e80b4efd1d68f6'] = 'Mostrar botons de compartició social a la pàgina de producte';

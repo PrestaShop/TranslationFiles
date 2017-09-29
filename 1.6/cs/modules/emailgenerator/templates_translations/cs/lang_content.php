@@ -181,8 +181,8 @@ $_LANGMAIL[', with an amount of'] = ', v hodnotě';
 $_LANGMAIL['Hi {name},'] = 'Dobrý den {name},';
 $_LANGMAIL['{customer} has sent you a link to a product that (s)he thinks may interest you.'] = '{customer} Vám poslal odkaz na produkt, který by Vás mohl zajímat.';
 $_LANGMAIL['Click here to view this item:'] = 'Po kliknutí zde zobrazíte tyto položky:';
-$_LANGMAIL['Order edited'] = '';
-$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = '';
+$_LANGMAIL['Order edited'] = 'Objednávka opravena';
+$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = 'Vaše objednávka s poznámky <span><strong>{order_name}</strong></span> byla upravena.';
 
 
 return $_LANGMAIL;

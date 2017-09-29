@@ -3,6 +3,8 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{blockwishlist}prestashop>blockwishlist_2715a65604e1af3d6933b61704865daf'] = '愿望清单区块';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist_9ae79c1fccd231ac7fbbf3235dbf6326'] = '我的愿望清单';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_c888438d14855d7d96a2724ee9c306bd'] = '设置已更新';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_deb10517653c255364175796ace3553f'] = '产品';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_694e8d1f2ee056f98ee488bdc4982d73'] = '数量';
@@ -23,8 +25,10 @@ $_MODULE['<{blockwishlist}prestashop>blockwishlist-ajax_4b7d496eedb665d0b5f589f2
 $_MODULE['<{blockwishlist}prestashop>blockwishlist-ajax_d037160cfb1fa5520563302d3a32630a'] = '在添加货品之前必须创建愿望清单';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist-ajax_09dc02ecbb078868a3a86dded030076d'] = '暂无产品';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_button_641254d77e7a473aa5910574f3f9453c'] = '愿望清单';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist_button_2d96bb66d8541a89620d3c158ceef42b'] = '添加至愿望清单';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_button_15b94c64c4d5a4f7172e5347a36b94fd'] = '添加至我的愿望清单';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_button_6a5373df703ab2827a4ba7facdfcf779'] = '加入愿望清单';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist-extra_2d96bb66d8541a89620d3c158ceef42b'] = '添加至愿望清单';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist-extra_ec211f7c20af43e742bf2570c3cb84f9'] = '添加';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist-extra_15b94c64c4d5a4f7172e5347a36b94fd'] = '添加至我的愿望清单';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_top_16a23698e7cf5188ce1c07df74298076'] = '您必须登录来管理您的心愿清单。';
@@ -34,8 +38,11 @@ $_MODULE['<{blockwishlist}prestashop>blockwishlist_f2a6c498fb90ee345d997f888fce3
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_4b7d496eedb665d0b5f589f2f874e7cb'] = '产品详情';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_09dc02ecbb078868a3a86dded030076d'] = '暂无产品';
 $_MODULE['<{blockwishlist}prestashop>my-account_7ec9cceb94985909c6994e95c31c1aa8'] = '我的愿望清单';
+$_MODULE['<{blockwishlist}prestashop>managewishlist_f78674b9c6b19504756230c57f6aec38'] = '关闭此愿望清单';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_0ac1aeb2429db494dd42ad2dc219ca7e'] = '隐藏';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_0de9d09a36e820f9da7e87ab3678dd12'] = '显示';
+$_MODULE['<{blockwishlist}prestashop>managewishlist_e0977812a2d99e320fcaac92ff096b43'] = '隐藏已购买商品的信息';
+$_MODULE['<{blockwishlist}prestashop>managewishlist_b1cf536563bc3b97ee404dab65db3a27'] = '显示已购买产品的信息';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_8725214cdd9f9af24e914b5da135793d'] = '固定链接';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_30820a1bf6a285e45cda2beda3d7738d'] = '发送此愿望清单';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_f2a6c498fb90ee345d997f888fce3b18'] = '删除';
@@ -45,6 +52,8 @@ $_MODULE['<{blockwishlist}prestashop>managewishlist_502996d9790340c5fd7b86a5b93b
 $_MODULE['<{blockwishlist}prestashop>managewishlist_655d20c1ca69519ca647684edbb2db35'] = '高';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_87f8a6ab85c9ced3702b4ea641ad4bb5'] = '中';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_28d0edd045e05cf5af64e35ae0c4c6ef'] = '低';
+$_MODULE['<{blockwishlist}prestashop>managewishlist_6bc362dbf494c61ea117fe3c71ca48a5'] = '移动';
+$_MODULE['<{blockwishlist}prestashop>managewishlist_e68ee0c6758ab5b0eea4e105d694f5c4'] = '移到 %s';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_c9cc8cce247e49bae79f15173ce97354'] = '保存';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'E-mail';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_94966d90747b97d1f0f206c98a8b1ac3'] = '发送';

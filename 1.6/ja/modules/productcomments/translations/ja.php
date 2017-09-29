@@ -3,6 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{productcomments}prestashop>default_da3e413ae5dde1a6b986203857fb1a59'] = '商品IDが間違っています';
 $_MODULE['<{productcomments}prestashop>default_dfbe69c6d9568ecb0e65e7b32ed92a3a'] = '商品が見つかりませんでした';
 $_MODULE['<{productcomments}prestashop>productcomments_c888438d14855d7d96a2724ee9c306bd'] = '設定は更新されました';
 $_MODULE['<{productcomments}prestashop>productcomments_254f642527b45bc260048e30704edb39'] = '設定';

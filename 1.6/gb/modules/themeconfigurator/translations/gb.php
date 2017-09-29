@@ -30,7 +30,7 @@ $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_4e15ce9f3df1555d6932a
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_419e2c499b79ae49a7d50b510cddc28e'] = 'Display top banner';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_2393b3a8e21e442273b6ad9219f4786c'] = 'Display logos of available payment methods';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_905791e2e93ced2cb9b092985604cc55'] = 'Display Live Configurator';
-$_MODULE['<{themeconfigurator}prestashop>themeconfigurator_2e4a0101b1ea2b15782a07dd34067447'] = 'This customization tool allows you to make color and font changes in your theme.';
+$_MODULE['<{themeconfigurator}prestashop>themeconfigurator_2e4a0101b1ea2b15782a07dd34067447'] = 'This customisation tool allows you to make colour and font changes in your theme.';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_638c5a51a25a56ae4b8d6fa975be0d59'] = 'Display subcategories';
 $_MODULE['<{themeconfigurator}prestashop>items_b9b371458ab7c314f88b81c553f6ce51'] = 'Hook';
 $_MODULE['<{themeconfigurator}prestashop>items_7dce122004969d56ae2e0245cb754d35'] = 'Edit';
@@ -64,9 +64,9 @@ $_MODULE['<{themeconfigurator}prestashop>new_4c87eb073eb09f42281d7e67aeacb223'] 
 $_MODULE['<{themeconfigurator}prestashop>new_4c4ad5fca2e7a3f74dbb1ced00381aa4'] = 'HTML';
 $_MODULE['<{themeconfigurator}prestashop>new_ea4788705e6873b424c65e91c2846b19'] = 'Cancel';
 $_MODULE['<{themeconfigurator}prestashop>new_c9cc8cce247e49bae79f15173ce97354'] = 'Save';
-$_MODULE['<{themeconfigurator}prestashop>live_configurator_f5a35b8e88be7f51ad3a3714a83df3a1'] = 'The customization tool allows you to make color and font changes in your theme.';
+$_MODULE['<{themeconfigurator}prestashop>live_configurator_f5a35b8e88be7f51ad3a3714a83df3a1'] = 'The customisation tool allows you to make colour and font changes in your theme.';
 $_MODULE['<{themeconfigurator}prestashop>live_configurator_c71534403c6e05ffbb8684ae96aac550'] = 'Only you can see this tool, because as you are currently connected to your back-office as an admin; your visitors will not see it.';
-$_MODULE['<{themeconfigurator}prestashop>live_configurator_45e035baf33a8e403766a606457f8b10'] = 'Theme color';
+$_MODULE['<{themeconfigurator}prestashop>live_configurator_45e035baf33a8e403766a606457f8b10'] = 'Theme colour';
 $_MODULE['<{themeconfigurator}prestashop>live_configurator_194f5394ae2e9c74dc3c441b92862d1d'] = 'Font';
 $_MODULE['<{themeconfigurator}prestashop>live_configurator_9a2c00f5f6df185a8d7d421ee70ccddf'] = 'Title font';
 $_MODULE['<{themeconfigurator}prestashop>live_configurator_ea3aba27f515989b46d990e95a097818'] = 'Choose a font';

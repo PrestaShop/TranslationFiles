@@ -3,6 +3,10 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{productcomments}prestashop>default_da3e413ae5dde1a6b986203857fb1a59'] = '商品ID不正确';
+$_MODULE['<{productcomments}prestashop>default_7b0bf23ae4079e07a3a4cb4d07e2caef'] = '标题无效';
+$_MODULE['<{productcomments}prestashop>default_ddbd56de5feb78ef1aaf60401f8c472b'] = '评论错误';
+$_MODULE['<{productcomments}prestashop>default_a201fbadca94d310a1b62407cdc775d5'] = '您必须给出一个评分';
 $_MODULE['<{productcomments}prestashop>default_dfbe69c6d9568ecb0e65e7b32ed92a3a'] = '没有找到商品';
 $_MODULE['<{productcomments}prestashop>productcomments_c888438d14855d7d96a2724ee9c306bd'] = '设置已更新';
 $_MODULE['<{productcomments}prestashop>productcomments_254f642527b45bc260048e30704edb39'] = '配置';
@@ -16,6 +20,7 @@ $_MODULE['<{productcomments}prestashop>productcomments_b718adec73e04ce3ec720dd11
 $_MODULE['<{productcomments}prestashop>productcomments_49ee3087348e8d44e1feda1917443987'] = '名称';
 $_MODULE['<{productcomments}prestashop>productcomments_a1fa27779242b4902f7ae3bdd5c6d508'] = '类型';
 $_MODULE['<{productcomments}prestashop>productcomments_ec53a8c4f07baed5d8825072c89799be'] = '状态';
+$_MODULE['<{productcomments}prestashop>productcomments_dda9c06f33071c9b6fc237ee164109d8'] = '等级';
 $_MODULE['<{productcomments}prestashop>productcomments_a517747c3d12f99244ae598910d979c5'] = '作者';
 $_MODULE['<{productcomments}prestashop>productcomments_deb10517653c255364175796ace3553f'] = '产品';
 $_MODULE['<{productcomments}prestashop>productcomments_91b442d385b54e1418d81adc34871053'] = '已选择';
@@ -24,12 +29,17 @@ $_MODULE['<{productcomments}prestashop>productcomments_5ffd7a335dd836b3373f5ec57
 $_MODULE['<{productcomments}prestashop>productcomments_5e9df908eafa83cb51c0a3720e8348c7'] = '检查所有';
 $_MODULE['<{productcomments}prestashop>productcomments_9747d23c8cc358c5ef78c51e59cd6817'] = '不检查所有';
 $_MODULE['<{productcomments}prestashop>productcomments_4d3d769b812b6faa6b76e1a8abaece2d'] = '在售';
+$_MODULE['<{productcomments}prestashop>productcomments_ab51a81c76d95ddc762194d58ec5db63'] = '您确定要举报此评论吗?';
 $_MODULE['<{productcomments}prestashop>productcomments_9a2ccd41653469a8bd94fbb84b271a14'] = '您的评论已经被加入!';
 $_MODULE['<{productcomments}prestashop>productcomments_186c30cab59f6b64a453778330d4bbf0'] = '新评论';
 $_MODULE['<{productcomments}prestashop>productcomments_e0aa021e21dddbd6d8cecec71e9cf564'] = '确定';
 $_MODULE['<{productcomments}prestashop>productcomments_4b3b9db8c9784468094acde0f8bf7071'] = '按评分排列';
+$_MODULE['<{productcomments}prestashop>productcomments_b5c82723bd85856358f9a376bc613998'] = '%2$d 中 %1$d人觉得此评论有用。';
+$_MODULE['<{productcomments}prestashop>productcomments_39630ad6ee79b8653ea89194cdb45bec'] = '这则评论对您有用吗?';
 $_MODULE['<{productcomments}prestashop>productcomments_a6105c0a611b41b08f1209506350279e'] = '是';
 $_MODULE['<{productcomments}prestashop>productcomments_7fa3b767c460b54a2be4d49030b349c7'] = '否';
+$_MODULE['<{productcomments}prestashop>productcomments_28b3b1e564a00f572c5d4e21da986d49'] = '举报滥用';
+$_MODULE['<{productcomments}prestashop>productcomments_08c7d6f84301ee7d0aab0a5f67edc419'] = '暂无评论。';
 $_MODULE['<{productcomments}prestashop>productcomments_70397c4b252a5168c5ec003931cea215'] = '必填项';
 $_MODULE['<{productcomments}prestashop>productcomments_94966d90747b97d1f0f206c98a8b1ac3'] = '发送';
 $_MODULE['<{productcomments}prestashop>productcomments_e81c4e4f2b7b93b481e13a8553c2ae1b'] = '或';
@@ -37,11 +47,21 @@ $_MODULE['<{productcomments}prestashop>productcomments_ea4788705e6873b424c65e91c
 $_MODULE['<{productcomments}prestashop>products-comparison_8413c683b4b27cc3f4dbd4c90329d8ba'] = '评论';
 $_MODULE['<{productcomments}prestashop>products-comparison_b1897515d548a960afe49ecf66a29021'] = '平均';
 $_MODULE['<{productcomments}prestashop>tab_8413c683b4b27cc3f4dbd4c90329d8ba'] = '评论';
+$_MODULE['<{productcomments}prestashop>productcomments-extra_dda9c06f33071c9b6fc237ee164109d8'] = '等级';
+$_MODULE['<{productcomments}prestashop>productcomments-extra_899139b5174d8d7a6e38a0360008a695'] = '读评论';
 $_MODULE['<{productcomments}prestashop>productcomments-extra_c31732fda0c6f01c446db7163b214de4'] = '写评论';
+$_MODULE['<{productcomments}prestashop>productcomments_reviews_d844ad9202d0de8442498775ba6ef819'] = '评论';
 $_MODULE['<{productcomments}prestashop>productcomments_93cba07454f06a4a960172bbd6e2a435'] = '是';
 $_MODULE['<{productcomments}prestashop>productcomments_bafd7322c6e97d25b6299b5d6fe8920b'] = '否';
+$_MODULE['<{productcomments}prestashop>productcomments_c565011debb8e2812ef12853eb6a38a9'] = '写下您的评论';
+$_MODULE['<{productcomments}prestashop>productcomments_f444678e4f3575d59b32a858630741fd'] = '抢沙发';
 $_MODULE['<{productcomments}prestashop>productcomments_c31732fda0c6f01c446db7163b214de4'] = '写评论';
+$_MODULE['<{productcomments}prestashop>productcomments_51ec9bf4aaeab1b25bb57f9f8d4de557'] = '标题：';
+$_MODULE['<{productcomments}prestashop>productcomments_240f3031f25601fa128bd4e15f0a37de'] = '评论：';
+$_MODULE['<{productcomments}prestashop>productcomments_a2ed44743411cf8b80e397448fce104c'] = '您的名字：';
 $_MODULE['<{productcomments}prestashop>productcomments_a4d3b161ce1309df1c4e25df28694b7b'] = '递交';
+$_MODULE['<{productcomments}prestashop>productcomments_4e3ee0f5bd8f527715fb0776741b9754'] = '您的评论已经加入，通过审批后将被显示。';
+$_MODULE['<{productcomments}prestashop>products-comparison_5d9acecbb0b55a71dea7403896356001'] = '读评论';
 $_MODULE['<{productcomments}prestashop>tab_34e80a799d144cfe4af46815e103f017'] = '评论';
 
 

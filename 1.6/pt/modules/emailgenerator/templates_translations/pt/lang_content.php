@@ -163,9 +163,9 @@ $_LANGMAIL['{product} is nearly out of stock.'] = 'O produto {product} está qua
 $_LANGMAIL['The remaining stock is now less than the specified minimum of'] = 'O stock actual é menos do que o mínimo especificado de';
 $_LANGMAIL['Remaining stock:'] = 'Quantidade restante:';
 $_LANGMAIL['You are advised to open the product&#039;s admin Product Page in order to replenish your inventory.'] = 'Deve abrir a página da gestão de produtos, na área de administração, de forma a repor o inventário.';
-$_LANGMAIL['You have received a new return request for {shop_name}.'] = '';
-$_LANGMAIL['Return details'] = '';
-$_LANGMAIL['{order_name} Placed on {date}'] = '';
+$_LANGMAIL['You have received a new return request for {shop_name}.'] = 'Recebeu um novo pedido de devolução para {shop_name}.';
+$_LANGMAIL['Return details'] = 'Dados da devolução';
+$_LANGMAIL['{order_name} Placed on {date}'] = '{order_name} Efetuada em {date}';
 $_LANGMAIL['Your referred friend <span><strong>{sponsored_firstname} {sponsored_lastname}</strong></span> has placed his or her first order on <a href="{shop_url}">{shop_name}</a>!'] = 'O seu amigo <span><strong>{sponsored_firstname} {sponsored_lastname}</strong></span> fez a primeira encomenda em <a href="{shop_url}">{shop_name}</a>!';
 $_LANGMAIL['We are pleased to offer you a voucher worth <span><strong>{discount_display} (voucher # {discount_name})</strong></span> that you can use on your next order.'] = 'Temos o prazer de lhe oferecer um Vale de Desconto no valor de <span><strong>{discount_display} (vale nº {discount_name})</strong></span> que pode ser usado na sua próxima encomenda.';
 $_LANGMAIL['Best regards,'] = 'Com os melhores cumprimentos,';
@@ -181,8 +181,8 @@ $_LANGMAIL[', with an amount of'] = ', no valor de';
 $_LANGMAIL['Hi {name},'] = 'Olá {name},';
 $_LANGMAIL['{customer} has sent you a link to a product that (s)he thinks may interest you.'] = '{customer} enviou-lhe uma página de um produto que talvez possa interessar-lhe.';
 $_LANGMAIL['Click here to view this item:'] = 'Clique aqui para ver o produto:';
-$_LANGMAIL['Order edited'] = '';
-$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = '';
+$_LANGMAIL['Order edited'] = 'Encomenda editada';
+$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = 'A sua encomenda com a referência <span><strong>{order_name}</strong></span> foi modificada.';
 
 
 return $_LANGMAIL;

@@ -201,6 +201,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_da652b8ece8ba2da84d5f5116f6e
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_654f7ceb787fd455c166d5d8744cbf90'] = 'poslední adresář byl vyprázdněn';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7dce6149440985f89756b4c451d7dc03'] = 'Rozbalování souboru dokončeno. Probíhá odstranění vzorových dat...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_89640d2ed666aab722d12be60a61938d'] = 'Nebylo možné rozbalit soubor %1$s do složky %2$s...';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_115437a77cd81057e681ff2e12b14192'] = 'Archiv upgradu %s není platný...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_064a15c7711dd82e5026a17a453b3a3b'] = 'Adresář pro rozbalení souborů není zapisovatelný.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_01d9d38b1d4d8eff5b530eeecfd3ccd5'] = 'Adresář pro rozbalení souborů %s není zapisovatelný.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_99f0e3a6d61b6d39da9213c647fd35ce'] = '[ERROR] %s neexistuje, nebo se nejedná o složku.';
@@ -228,6 +229,9 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_36d56d20b3894281531cd4108e2c
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_eac34868b4fb511702e53d1405c45454'] = 'Došlo k chybě při aktualizaci databáze. Možná bude nutné provést její obnovu ze zálohy.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_08ee54c048e1589f4072a351035db2ad'] = 'Databáze byla aktualizována. Nyní probíhá aktualizace modulů...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ead14b0273e8d6cae7d146130d4be8f6'] = 'Databáze byla vyčištěna.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0bebfc8987ec38d90350bf4ac3e7e391'] = 'Nezapomeňte smazat svou cache paměť (Pokročilé parametry > Výkon > Vyčistit mezipaměť)';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e0ab14f314654aac28f3a3227896079f'] = 'adresář v archivu nebo v adresáři chybí';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_55c1713f90add7c448328323af0c1b9d'] = 'Na tuto verzi nelze upgradovat.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3b8f044559a7568ea572776caf1d6526'] = 'Soubor config/settings.inc.php nebyl nalezen.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_22f18bac5d420d7ac5aca37b1afe30c9'] = 'Aktuální verze: %1$s. Verze k instalaci: %2$s.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_6b81346a0c9173213e0c32d0082dc073'] = 'Aktuální verze: %1$s. Verze k instalaci: %2$s';
@@ -484,9 +488,12 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f0afedd1444b8ac9f765b544cb5b
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_68e5fa63e9c51108b49d3d643ec36972'] = 'Před zahájením jakékoli aktualizace, prosím, vždy proveďte kompletní ruční zálohu souborů a databáze.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a1f24b1cec5482ed0d97bce1ba0570a4'] = 'Dvakrát zkontrolujte integritu zálohy, pak ji v případě potřeby můžete snadno ručně vrátit zpět.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0a8276f35797dc24e6ccb5b5ff5cf102'] = 'Pokud nevíte, jak postupovat, zeptejte se svého poskytovatele hostingu.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b4394573ea968922ac1d7323cb8f99ed'] = 'Zkontrolujte, prosím, svůj kontrolní seznam před upgradem.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_10ac3d04253ef7e1ddc73e6091c0cd55'] = 'Další';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_564b7c9d8683f1a94798e9f7449564e4'] = 'Možnosti aktualizace';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_017697f698d570dffed5f88a5a933d01'] = 'Možnosti zálohování';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d1cf02f3b502ad45947b846659c7774e'] = 'Aktualizovat na PrestaShop %s';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_49c77c6b39fac5ce46832752e6612e9d'] = 'Aktualizace na PrestaShop %s';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f15547fe5f9f307bd42b2c01657efbcb'] = 'Váš server nemůže stáhnout soubor. Nahrajte jej přes FTP do vašeho adresáře admin/autoupgrade';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f2a6c498fb90ee345d997f888fce3b18'] = 'Odstránit';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_48995d15304fe79fc0240bf6544f2395'] = 'Jste si jisti, že chcete smazat tuto zálohu?';

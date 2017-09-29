@@ -18,7 +18,9 @@ $_MODULE['<{carriercompare}prestashop>carriercompare_2833e625c13a70c7b84ad98c979
 $_MODULE['<{carriercompare}prestashop>carriercompare_b49f15ff6f8530a76ed954676abbc4d6'] = 'Menyemak negeri yang ada...';
 $_MODULE['<{carriercompare}prestashop>carriercompare_ed22df3e47c667a95dd43e59f2f38522'] = 'Mendapatkan maklumat...';
 $_MODULE['<{carriercompare}prestashop>carriercompare_e7a6ca4e744870d455a57b644f696457'] = 'Percuma!';
+$_MODULE['<{carriercompare}prestashop>configuration_152c9745ad3e3720a15b058df5d16116'] = 'Ralat berlaku ketika pengesahan borang.';
 $_MODULE['<{carriercompare}prestashop>configuration_20015706a8cbd457cbb6ea3e7d5dc9b3'] = 'Tatarajah yang baru';
+$_MODULE['<{carriercompare}prestashop>configuration_242c88eb5c5a76cab7c30fef4cd89471'] = 'Modul ini hanya ada sewaktu proses pembayaran keluar lima-langkah. Senarai kurier telah sedia ditentukan untuk pembayaran keluar satu-langkah.';
 $_MODULE['<{carriercompare}prestashop>configuration_6408d076fa6417e7bc8ddc3cdf9a0644'] = 'Konfigurasi Global';
 $_MODULE['<{carriercompare}prestashop>configuration_4c1f76824b0d7333652d5f64a3e07ef5'] = 'Bila-bila masa';
 $_MODULE['<{carriercompare}prestashop>configuration_31efb362f3723b55bfa28f3551a672f7'] = 'Maklumat wajib telah ditetapkan.';

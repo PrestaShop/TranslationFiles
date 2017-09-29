@@ -3,6 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{statsvisits}prestashop>statsvisits_504c16c26a96283f91fb46a69b7c8153'] = 'الزيارات والزوار';
 $_MODULE['<{statsvisits}prestashop>statsvisits_6602bbeb2956c035fb4cb5e844a4861b'] = 'المعالج';
 $_MODULE['<{statsvisits}prestashop>statsvisits_e9849ece0b2ecf1eea74d92d492a47f2'] = 'إذا كان هذا هو الحال ، التهاني ، ومن المقرر كذلك موقع الويب الخاص بك والسرور.';
 $_MODULE['<{statsvisits}prestashop>statsvisits_9bf5a493522a65d550f096505874873b'] = 'هذه المعلومات النوعية في الغالب : لديك لتحديد الفائدة من زيارة مفككة.';

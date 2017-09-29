@@ -23,6 +23,7 @@ $_MODULE['<{cheque}prestashop>payment_execution_46b9e3665f187c739c55983f757ccda0
 $_MODULE['<{cheque}prestashop>payment_execution_569fd05bdafa1712c4f6be5b153b8418'] = 'Digər ödəmə üsulları';
 $_MODULE['<{cheque}prestashop>payment_return_88526efe38fd18179a127024aba8c1d7'] = '%s - dakı sifariş tamamlandı.';
 $_MODULE['<{cheque}prestashop>payment_return_9a94f1d749a3de5d299674d6c685e416'] = 'E-poçt ';
+$_MODULE['<{cheque}prestashop>payment_return_ffd2478830ca2f519f7fe7ee259d4b96'] = 'Votre commande vous sera envoyée dès réception du paiement.';
 $_MODULE['<{cheque}prestashop>payment_return_0db71da7150c27142eef9d22b843b4a9'] = 'Suallarınız və ya əlavə məlumat üçün bizimlə əlaqə saxlayın';
 $_MODULE['<{cheque}prestashop>payment_return_decce112a9e64363c997b04aa71b7cb8'] = 'Müştəri servisi şöbəsi.';
 $_MODULE['<{cheque}prestashop>payment_4b80fae2153218ed763bdadc418e8589'] = 'Qəbzlə ödə';

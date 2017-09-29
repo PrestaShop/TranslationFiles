@@ -12,9 +12,12 @@ $_MODULE['<{newsletter}prestashop>newsletter_99006a61d48499231e1be92241cf772a'] 
 $_MODULE['<{newsletter}prestashop>newsletter_7e3a51a56ddd2846e21c33f05e0aea6f'] = 'Semua pelanggan';
 $_MODULE['<{newsletter}prestashop>newsletter_39f7a3e2b56e9bfd753ba6325533a127'] = 'Pelanggan';
 $_MODULE['<{newsletter}prestashop>newsletter_011d8c5d94f729f013963d856cd78745'] = 'Bukan pelanggan';
+$_MODULE['<{newsletter}prestashop>newsletter_6395c19dc5a1cef9ca125b9736358dc7'] = 'Pelanggan memilih masuk';
 $_MODULE['<{newsletter}prestashop>newsletter_82e5e0bc0f9c776c98253d569c111c0f'] = 'Tiada pelanggan dijumpai menggunakan tapisan ini!';
+$_MODULE['<{newsletter}prestashop>newsletter_644ecc2486a059ca16b001a77909bf40'] = 'Fail .CSV telah berjaya dieksport. (%d pelanggan ditemui).';
 $_MODULE['<{newsletter}prestashop>newsletter_48e3d5f66961b621c78f709afcd7d437'] = 'Muat turun fail';
 $_MODULE['<{newsletter}prestashop>newsletter_81573e0ea79138f02fd2cee94786d7e9'] = 'Ralat: tidak dapat tulis';
+$_MODULE['<{newsletter}prestashop>newsletter_73059f9530a1a37563150df4dea4bb70'] = 'Semua pelanggan';
 $_MODULE['<{newsletter}prestashop>newsletter_4713ef5f2d6fc1e8f088c850e696a04b'] = 'Eksport pelanggan';
 $_MODULE['<{newsletter}prestashop>newsletter_dbb392a2dc9b38722e69f6032faea73e'] = 'Eksport fail .CSV';
 

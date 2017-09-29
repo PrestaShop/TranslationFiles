@@ -49,6 +49,7 @@ $_MODULE['<{blockcms}prestashop>blockcms_2d81a9da91ff3f073e6aecbe42c33e69'] = 'P
 $_MODULE['<{blockcms}prestashop>blockcms_af979c5a556c7a2c5340a06273046b0d'] = 'Ativação do rodapé inválida.';
 $_MODULE['<{blockcms}prestashop>blockcms_dc08eb6c896a19dd0f0585ab7205ed17'] = 'Impossível criar um bloco!';
 $_MODULE['<{blockcms}prestashop>blockcms_f3d25e325923cd522fd610bd869d736c'] = 'Erro: Está a tentar apagar um bloco CMS que não existe.';
+$_MODULE['<{blockcms}prestashop>blockcms_e47b20fa6a26735c78d2f3b0f6bd2d7e'] = 'A sua informação do rodapé foi atualizada.';
 $_MODULE['<{blockcms}prestashop>blockcms_c28716416d2fd75a37b4496586755853'] = 'Bloco CMS adicionado.';
 $_MODULE['<{blockcms}prestashop>blockcms_a94db349ae0c662fd55c9d402481165b'] = 'Bloco CMS alterado.';
 $_MODULE['<{blockcms}prestashop>blockcms_64e1a7a1be29d5937f2eaa90a3d32ad0'] = 'Eliminação bem sucedida.';
@@ -70,6 +71,7 @@ $_MODULE['<{blockcms}prestashop>form_f2a6c498fb90ee345d997f888fce3b18'] = 'Elimi
 $_MODULE['<{blockcms}prestashop>form_49ee3087348e8d44e1feda1917443987'] = 'Nome';
 $_MODULE['<{blockcms}prestashop>form_f7c68d40f8727c658e821c6e6d56af07'] = 'Não foram criadas nenhumas páginas.';
 $_MODULE['<{blockcms}prestashop>blockcms_3cb29f0ccc5fd220a97df89dafe46290'] = 'Mais Vendidos';
+$_MODULE['<{blockcms}prestashop>blockcms_8be39233fce812574e94aa277f5a2e32'] = '[1] %3$s %2$s - Software de comércio eletrónico por %1$s [/1]';
 
 
 return $_MODULE;

@@ -86,10 +86,10 @@
 				<td style="padding:7px 0">
 					<font size="2" face="Open-sans, sans-serif" color="#555454">
 						<p data-html-only="1" style="border-bottom:1px solid #D6D4D4;margin:3px 0 7px;text-transform:uppercase;font-weight:500;font-size:18px;padding-bottom:10px">
-							Order {order_name}&nbsp;-&nbsp;Awaiting wire payment 
+							注文ID: {order_name}&nbsp;-&nbsp;銀行振り込みを待ち受け中 
 						</p>
 						<span style="color:#777">
-							Your order with the reference <span style="color:#333"><strong>{order_name}</strong></span> has been placed successfully and will be <strong>shipped as soon as we receive your payment</strong>.						</span>
+							 <span style="color:#333"><strong>{order_name}</strong></span> の注文を承りました。入金の確認が取れ次第すぐに配送致します。						</span>
 					</font>
 				</td>
 				<td width="10" style="padding:7px 0">&nbsp;</td>
@@ -108,13 +108,13 @@
 				<td style="padding:7px 0">
 					<font size="2" face="Open-sans, sans-serif" color="#555454">
 						<p style="border-bottom:1px solid #D6D4D4;margin:3px 0 7px;text-transform:uppercase;font-weight:500;font-size:18px;padding-bottom:10px"> 
-							You have selected to pay by wire transfer.						</p>
+							振り込みでのお支払いを選択しました。						</p>
 						<span style="color:#777">
-							Here are the bank details for your transfer:<br /> 
-							<span style="color:#333"><strong>Amount:</strong></span> {total_paid}<br />
-							<span style="color:#333"><strong>Account owner:</strong></span> {bankwire_owner}<br />
-							<span style="color:#333"><strong>Account details:</strong></span> {bankwire_details}<br />
-							<span style="color:#333"><strong>Bank address:</strong></span> {bankwire_address}
+							振込についての銀行の詳細は以下のとおりです:<br /> 
+							<span style="color:#333"><strong>金額:</strong></span> {total_paid}<br />
+							<span style="color:#333"><strong>口座所有者:</strong></span> {bankwire_owner}<br />
+							<span style="color:#333"><strong>口座詳細:</strong></span> {bankwire_details}<br />
+							<span style="color:#333"><strong>銀行住所:</strong></span> {bankwire_address}
 						</span>
 					</font>
 				</td>
@@ -130,7 +130,7 @@
 	<td class="linkbelow" style="padding:7px 0">
 		<font size="2" face="Open-sans, sans-serif" color="#555454">
 			<span>
-				You can review your order and download your invoice from the <a href="{history_url}" style="color:#337ff1">"Order history"</a> section of your customer account by clicking <a href="{my_account_url}" style="color:#337ff1">"My account"</a> on our shop.			</span>
+				<a href="{my_account_url}" style="color:#337ff1">"マイアカウント"</a>内、 <a href="{history_url}" style="color:#337ff1">"注文履歴"</a>から注文履歴や請求書の確認が出来ます。			</span>
 		</font>
 	</td>
 </tr>
@@ -138,7 +138,7 @@
 	<td class="linkbelow" style="padding:7px 0">
 		<font size="2" face="Open-sans, sans-serif" color="#555454">
 			<span>
-				If you have a guest account, you can follow your order via the <a href="{guest_tracking_url}" style="color:#337ff1">"Guest Tracking"</a> section on our shop.			</span>
+				ゲストアカウントを持っている場合、 <a href="{guest_tracking_url}" style="color:#337ff1">"ゲストトラッキングページ"</a>より、注文の確認ができます。			</span>
 		</font>
 	</td>
 </tr>

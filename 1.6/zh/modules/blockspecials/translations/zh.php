@@ -15,10 +15,12 @@ $_MODULE['<{blockspecials}prestashop>blockspecials_61465481ac2491b37e4517960bbd4
 $_MODULE['<{blockspecials}prestashop>blockspecials_e80a11f1704b88ad50f8fc6ce0f43525'] = '"特价商品"随机显示在前端，但由于它需要很多资源的整合，它是更好的缓存效果。缓存每日复位。 0将禁用缓存。';
 $_MODULE['<{blockspecials}prestashop>blockspecials_26986c3388870d4148b1b5375368a83d'] = '产品展示';
 $_MODULE['<{blockspecials}prestashop>blockspecials_c9cc8cce247e49bae79f15173ce97354'] = '保存';
+$_MODULE['<{blockspecials}prestashop>blockspecials-home_e420850bc0f6c94eff7edb2041b206bd'] = '目前没有特价商品。';
 $_MODULE['<{blockspecials}prestashop>blockspecials_d1aa22a3126f04664e0fe3f598994014'] = '特价商品';
 $_MODULE['<{blockspecials}prestashop>blockspecials_b4f95c1ea534936cc60c6368c225f480'] = '所有特价商品';
 $_MODULE['<{blockspecials}prestashop>blockspecials_3c9f5a6dc6585f75042bd4242c020081'] = '没有特价商品';
 $_MODULE['<{blockspecials}prestashop>tab_d1aa22a3126f04664e0fe3f598994014'] = '特价商品';
+$_MODULE['<{blockspecials}prestashop>blockspecials_e420850bc0f6c94eff7edb2041b206bd'] = '目前没有特价商品。';
 
 
 return $_MODULE;

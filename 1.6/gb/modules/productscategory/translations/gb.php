@@ -16,7 +16,7 @@ $_MODULE['<{productscategory}prestashop>productscategory_f55e0a28b86c2ab66ac632a
 $_MODULE['<{productscategory}prestashop>productscategory_bebb44f38b03407098d48198c1d0aaa5'] = '%s other products in the same category:';
 $_MODULE['<{productscategory}prestashop>productscategory_dd1f775e443ff3b9a89270713580a51b'] = 'Previous';
 $_MODULE['<{productscategory}prestashop>productscategory_10ac3d04253ef7e1ddc73e6091c0cd55'] = 'Next';
-$_MODULE['<{productscategory}prestashop>productscategory_2d0f6b8300be19cf35e89e66f0677f95'] = 'Add to cart';
+$_MODULE['<{productscategory}prestashop>productscategory_2d0f6b8300be19cf35e89e66f0677f95'] = 'Add to basket';
 
 
 return $_MODULE;

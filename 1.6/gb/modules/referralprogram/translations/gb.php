@@ -40,7 +40,7 @@ $_MODULE['<{referralprogram}prestashop>program_a86073a0c3b0bebf11bd807caf8e505a'
 $_MODULE['<{referralprogram}prestashop>program_7532696b81dfc0b94a37e876677152c5'] = 'that will be sent to your friend(s).';
 $_MODULE['<{referralprogram}prestashop>program_ad3d06d03d94223fa652babc913de686'] = 'Validate';
 $_MODULE['<{referralprogram}prestashop>program_59352cd5314a67c0fb10c964831920f3'] = 'To become a sponsor, you need to have completed at least';
-$_MODULE['<{referralprogram}prestashop>program_12c500ed0b7879105fb46af0f246be87'] = 'orders';
+$_MODULE['<{referralprogram}prestashop>program_12c500ed0b7879105fb46af0f246be87'] = 'Orders';
 $_MODULE['<{referralprogram}prestashop>program_70a17ffa722a3985b86d30b034ad06d7'] = 'order';
 $_MODULE['<{referralprogram}prestashop>program_ec7342814444c667ab93181b30b28e38'] = 'These friends have not yet placed an order on this Website since you sponsored them, but you can try again! To do so, mark the checkboxes of the friend(s) you want to remind, then click on the button "Remind my friend(s)"';
 $_MODULE['<{referralprogram}prestashop>program_3e717a04ff77cd5fa068d8ad9d3facc8'] = 'Last invitation';

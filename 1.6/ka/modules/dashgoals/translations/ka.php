@@ -15,11 +15,12 @@ $_MODULE['<{dashgoals}prestashop>dashgoals_cc5d90569e1c8313c2b1c2aab1401174'] = 
 $_MODULE['<{dashgoals}prestashop>dashgoals_eca60ae8611369fe28a02e2ab8c5d12e'] = 'ოქტომბერი';
 $_MODULE['<{dashgoals}prestashop>dashgoals_7e823b37564da492ca1629b4732289a8'] = 'ნოემბერი';
 $_MODULE['<{dashgoals}prestashop>dashgoals_82331503174acbae012b2004f6431fa5'] = 'დეკემბერი';
-$_MODULE['<{dashgoals}prestashop>dashgoals_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'Продаж';
-$_MODULE['<{dashgoals}prestashop>config_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'Продаж';
-$_MODULE['<{dashgoals}prestashop>config_c9cc8cce247e49bae79f15173ce97354'] = 'Сохранить';
+$_MODULE['<{dashgoals}prestashop>dashgoals_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'გაყიდვები';
+$_MODULE['<{dashgoals}prestashop>config_254f642527b45bc260048e30704edb39'] = 'კონფიგურაცია';
+$_MODULE['<{dashgoals}prestashop>config_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'გაყიდვები';
+$_MODULE['<{dashgoals}prestashop>config_c9cc8cce247e49bae79f15173ce97354'] = 'შენახვა';
 $_MODULE['<{dashgoals}prestashop>dashboard_zone_two_f1206f9fadc5ce41694f69129aecac26'] = 'კონფიგურაცია';
-$_MODULE['<{dashgoals}prestashop>dashboard_zone_two_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'Продаж';
+$_MODULE['<{dashgoals}prestashop>dashboard_zone_two_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'გაყიდვები';
 
 
 return $_MODULE;

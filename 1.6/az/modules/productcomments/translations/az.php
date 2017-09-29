@@ -28,6 +28,7 @@ $_MODULE['<{productcomments}prestashop>productcomments_e81c4e4f2b7b93b481e13a855
 $_MODULE['<{productcomments}prestashop>productcomments_ea4788705e6873b424c65e91c2846b19'] = 'Ləğv et';
 $_MODULE['<{productcomments}prestashop>productcomments_93cba07454f06a4a960172bbd6e2a435'] = 'Bəli';
 $_MODULE['<{productcomments}prestashop>productcomments_bafd7322c6e97d25b6299b5d6fe8920b'] = 'Xeyir';
+$_MODULE['<{productcomments}prestashop>productcomments_a4d3b161ce1309df1c4e25df28694b7b'] = 'Göndər';
 
 
 return $_MODULE;

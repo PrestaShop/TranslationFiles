@@ -11,7 +11,7 @@ $_MODULE['<{statsnewsletter}prestashop>statsnewsletter_64342cd480b27dfeefb08bace
 $_MODULE['<{statsnewsletter}prestashop>statsnewsletter_998e4c5c80f27dec552e99dfed34889a'] = 'CSV Export';
 $_MODULE['<{statsnewsletter}prestashop>statsnewsletter_c01fb34ae495b6157666197caabdc303'] = 'The "Newsletter block" module must be installed.';
 $_MODULE['<{statsnewsletter}prestashop>statsnewsletter_cf74c2815ab62be1efa55a4a5d3f46a4'] = 'Newsletter statistics';
-$_MODULE['<{statsnewsletter}prestashop>statsnewsletter_4b6f7d34a58ba399f077685951d06738'] = 'customers';
+$_MODULE['<{statsnewsletter}prestashop>statsnewsletter_4b6f7d34a58ba399f077685951d06738'] = 'Customers';
 $_MODULE['<{statsnewsletter}prestashop>statsnewsletter_ae5d01b6efa819cc7a7c05a8c57fcc2c'] = 'Visitors';
 $_MODULE['<{statsnewsletter}prestashop>statsnewsletter_130c5b3473c57faa76e2a1c54e26f88e'] = 'Both';
 

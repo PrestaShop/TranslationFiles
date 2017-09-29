@@ -27,6 +27,7 @@ $_LANGMAIL['Newsletter voucher'] = 'Newsletter de cupons';
 $_LANGMAIL['Newsletter confirmation'] = 'Confirmació de subscripció';
 $_LANGMAIL['Email verification'] = 'Verificació d\'adreça electrònica';
 $_LANGMAIL['Your wishlist\'s link'] = 'Enllaç a la vostra llista de desitjos';
+$_LANGMAIL['Message from %1$s %2$s'] = 'Missatge de %1$s %2$s';
 $_LANGMAIL['%1$s sent you a link to %2$s'] = '%1$s us ha enviat un enllaç a %2$s ';
 
 

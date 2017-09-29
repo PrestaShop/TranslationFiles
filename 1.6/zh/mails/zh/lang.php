@@ -3,6 +3,9 @@
 global $_LANGMAIL;
 $_LANGMAIL = array();
 
+$_LANGMAIL['Your guest account has been transformed into a customer account'] = '您的游客帐户已经转换到客户账户';
+$_LANGMAIL['The virtual product that you bought is available for download'] = '购买的虚拟商品可以下载了。';
+$_LANGMAIL['New voucher for your order %s'] = '为订单%s新开发票';
 $_LANGMAIL['Order confirmation'] = '订单确认';
 $_LANGMAIL['Log: You have a new alert from your shop'] = 'Log：您的店铺有一个新提示';
 $_LANGMAIL['Fwd: Customer message'] = '转发：客户留言';
@@ -11,6 +14,7 @@ $_LANGMAIL['Your new password'] = '您的新密碼';
 $_LANGMAIL['Package in transit'] = '在运输过程中包装';
 $_LANGMAIL['New message regarding your order'] = '关于您订单的新留言';
 $_LANGMAIL['New credit slip regarding your order'] = '关于您订单的新收据';
+$_LANGMAIL['New voucher for your order #%s'] = '为订单#%s新开发票';
 $_LANGMAIL['Process the payment of your order'] = '处理您的订单付款';
 $_LANGMAIL['Your order return status has changed'] = '您的订单退货状态已经改变';
 $_LANGMAIL['Welcome!'] = '歡迎您！';

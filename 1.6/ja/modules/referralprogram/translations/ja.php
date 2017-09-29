@@ -3,6 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{referralprogram}prestashop>program_36c94bd456cf8796723ad09eac258aef'] = 'アカウント管理';
 $_MODULE['<{referralprogram}prestashop>program_d95cf4ab2cbf1dfb63f066b50558b07d'] = 'マイアカウント';
 $_MODULE['<{referralprogram}prestashop>program_6540b502e953f4c05abeb8f234cd50bf'] = '紹介プログラム';
 $_MODULE['<{referralprogram}prestashop>program_6b31baf25848e7a6563ecc3946626c80'] = '紹介プログラム';

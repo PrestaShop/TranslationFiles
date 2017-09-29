@@ -4,11 +4,11 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{watermark}prestashop>watermark_ee20bb60493f049175fc10c35acd2272'] = 'Marca de agua';
-$_MODULE['<{watermark}prestashop>watermark_8d7c07bcea7e80d072308e4bd4cc37b0'] = 'Protege tus imagenes con una marca de agua.';
-$_MODULE['<{watermark}prestashop>watermark_69a1a3ad8dd5da6db3c4da838a0cf9c7'] = '¿Estás seguro de que quieres eliminar tus datos?';
-$_MODULE['<{watermark}prestashop>watermark_2d38fba67823b23e2d5c93b5b8a5d707'] = 'Para que este módulo funcione correctamente, tienes que subir una imagen para utilizar como marca de agua.';
-$_MODULE['<{watermark}prestashop>watermark_842262778d363362c95aa210c9752c25'] = 'La opacidad es requerida.';
-$_MODULE['<{watermark}prestashop>watermark_9d1e7d4f41c6bcac92fa25f7f615c43e'] = 'La opacidad no está dentro del rango permitido.';
+$_MODULE['<{watermark}prestashop>watermark_8d7c07bcea7e80d072308e4bd4cc37b0'] = 'Proteja la imagen con una marca de agua.';
+$_MODULE['<{watermark}prestashop>watermark_69a1a3ad8dd5da6db3c4da838a0cf9c7'] = '¿Está seguro de querer eliminar sus detalles?';
+$_MODULE['<{watermark}prestashop>watermark_2d38fba67823b23e2d5c93b5b8a5d707'] = 'La imagen de la Marca de agua tiene que ser cargada para que este módulo funcione correctamente.';
+$_MODULE['<{watermark}prestashop>watermark_842262778d363362c95aa210c9752c25'] = 'Opacidad requerida.';
+$_MODULE['<{watermark}prestashop>watermark_9d1e7d4f41c6bcac92fa25f7f615c43e'] = 'La opacidad no está en el rango permitido.';
 $_MODULE['<{watermark}prestashop>watermark_d31c2d99614d8e16430d2d8c99c1f2b0'] = 'La alineación Y es requerida.';
 $_MODULE['<{watermark}prestashop>watermark_8fe9c39f4bf87082caabcf3650970c71'] = 'La alineación Y no está dentro del rango permitido.';
 $_MODULE['<{watermark}prestashop>watermark_c2cf8e33c907a4cc689881dc8fa571c2'] = 'La alineación X es requerida.';

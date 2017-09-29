@@ -29,6 +29,7 @@ $_MODULE['<{productcomments}prestashop>productcomments_4b3b9db8c9784468094acde0f
 $_MODULE['<{productcomments}prestashop>productcomments_39630ad6ee79b8653ea89194cdb45bec'] = 'ความคิดเห็นนี้เป็นประโยชน์หรือไม่?';
 $_MODULE['<{productcomments}prestashop>productcomments_a6105c0a611b41b08f1209506350279e'] = 'ใช่';
 $_MODULE['<{productcomments}prestashop>productcomments_7fa3b767c460b54a2be4d49030b349c7'] = 'ไม่';
+$_MODULE['<{productcomments}prestashop>productcomments_08c7d6f84301ee7d0aab0a5f67edc419'] = 'ยังไม่มีคำวิจารณ์ใดๆ';
 $_MODULE['<{productcomments}prestashop>productcomments_70397c4b252a5168c5ec003931cea215'] = 'ฟิลด์ที่จำเป็น';
 $_MODULE['<{productcomments}prestashop>productcomments_94966d90747b97d1f0f206c98a8b1ac3'] = 'ส่ง';
 $_MODULE['<{productcomments}prestashop>productcomments_e81c4e4f2b7b93b481e13a8553c2ae1b'] = 'หรือ';
@@ -39,7 +40,11 @@ $_MODULE['<{productcomments}prestashop>tab_8413c683b4b27cc3f4dbd4c90329d8ba'] = 
 $_MODULE['<{productcomments}prestashop>productcomments-extra_899139b5174d8d7a6e38a0360008a695'] = 'อ่านความคิดเห็นของผู้ใช้งาน';
 $_MODULE['<{productcomments}prestashop>productcomments_93cba07454f06a4a960172bbd6e2a435'] = 'ใช่';
 $_MODULE['<{productcomments}prestashop>productcomments_bafd7322c6e97d25b6299b5d6fe8920b'] = 'ไม่';
+$_MODULE['<{productcomments}prestashop>productcomments_f444678e4f3575d59b32a858630741fd'] = 'เป็นคนแรกที่เขียนคำวิจารณ์ของคุณ';
+$_MODULE['<{productcomments}prestashop>productcomments_51ec9bf4aaeab1b25bb57f9f8d4de557'] = 'หัวเรื่อง';
+$_MODULE['<{productcomments}prestashop>productcomments_240f3031f25601fa128bd4e15f0a37de'] = 'ความคิดเห็น';
 $_MODULE['<{productcomments}prestashop>productcomments_a4d3b161ce1309df1c4e25df28694b7b'] = 'ส่ง';
+$_MODULE['<{productcomments}prestashop>tab_34e80a799d144cfe4af46815e103f017'] = 'บทวิจารณ์';
 
 
 return $_MODULE;

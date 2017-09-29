@@ -15,6 +15,7 @@ $_MODULE['<{blockcontactinfos}prestashop>blockcontactinfos_c9cc8cce247e49bae79f1
 $_MODULE['<{blockcontactinfos}prestashop>blockcontactinfos_02d4482d332e1aef3437cd61c9bcc624'] = 'お問合せ';
 $_MODULE['<{blockcontactinfos}prestashop>blockcontactinfos_2e006b735fbd916d8ab26978ae6714d4'] = '電話：';
 $_MODULE['<{blockcontactinfos}prestashop>blockcontactinfos_6a1e265f92087bb6dd18194833fe946b'] = 'メール：';
+$_MODULE['<{blockcontactinfos}prestashop>blockcontactinfos_80a11d2a54a677f6fadd9c041c0d6b98'] = '当社情報';
 
 
 return $_MODULE;

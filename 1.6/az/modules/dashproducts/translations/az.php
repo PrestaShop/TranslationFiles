@@ -5,6 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{dashproducts}prestashop>dashproducts_068f80c7519d0528fb08e82137a72131'] = 'Məhsullar';
 $_MODULE['<{dashproducts}prestashop>dashproducts_96b0141273eabab320119c467cdcaf17'] = 'Yekun';
+$_MODULE['<{dashproducts}prestashop>dashproducts_58ef6750a23ba432fc1377b7de085d9f'] = 'vergi xaric';
 $_MODULE['<{dashproducts}prestashop>dashproducts_44749712dbec183e983dcd78a7736c41'] = 'Tarix';
 $_MODULE['<{dashproducts}prestashop>dashproducts_ec53a8c4f07baed5d8825072c89799be'] = 'Görtərilir';
 $_MODULE['<{dashproducts}prestashop>dashproducts_3ec365dd533ddb7ef3d1c111186ce872'] = 'Ətraflı';
@@ -13,6 +14,7 @@ $_MODULE['<{dashproducts}prestashop>dashproducts_deb10517653c255364175796ace3553
 $_MODULE['<{dashproducts}prestashop>dashproducts_3adbdb3ac060038aa0e6e6c138ef9873'] = 'Kateqoriya';
 $_MODULE['<{dashproducts}prestashop>dashproducts_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'Endirimlər';
 $_MODULE['<{dashproducts}prestashop>dashproducts_13348442cc6a27032d2b4aa28b75a5d3'] = 'Axtar';
+$_MODULE['<{dashproducts}prestashop>dashproducts_fd69c5cf902969e6fb71d043085ddee6'] = 'Nəticələr';
 $_MODULE['<{dashproducts}prestashop>dashproducts_38fb7d24e0d60a048f540ecb18e13376'] = 'Yadda Saxla  ';
 $_MODULE['<{dashproducts}prestashop>dashproducts_ea4788705e6873b424c65e91c2846b19'] = 'Ləğv et';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_254f642527b45bc260048e30704edb39'] = 'Quraşdırma';

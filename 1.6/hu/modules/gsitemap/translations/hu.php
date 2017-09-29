@@ -13,8 +13,11 @@ $_MODULE['<{gsitemap}prestashop>configuration_aa17b80751f4ae53ab8e3ed2fe99e94d']
 $_MODULE['<{gsitemap}prestashop>configuration_a0bfb8e59e6c13fc8d990781f77694fe'] = 'Folytatás';
 $_MODULE['<{gsitemap}prestashop>configuration_9ab08b9ceeef857df07ad10e1de9301e'] = 'Állítsd be a következő Oldaltérkép URL -t a Google Webmester fiókodban:';
 $_MODULE['<{gsitemap}prestashop>configuration_6d37779958434303f8397436a1484ed8'] = 'A megfelelő működés érdekében ellenőrízd';
+$_MODULE['<{gsitemap}prestashop>configuration_6a3282611e5ffb8539ce434133073f15'] = 'minimum 128MB memory_limit értéket.';
+$_MODULE['<{gsitemap}prestashop>configuration_f891951357d4892887f0e416c54f972d'] = 'minimum 30 mp. max_execution_time értéket.';
 $_MODULE['<{gsitemap}prestashop>configuration_8156303464de0fba7cb8306cc768e998'] = 'Ezeket a korlátozásokat a php.ini fájlodban tudod szerkeszteni. További részletekhez vedd fel a kapcsolatot a szolgáltatóddal!';
 $_MODULE['<{gsitemap}prestashop>configuration_0b9b4b91e0a8f59e264202a23d9c57a6'] = 'Oldaltérkép beállításai';
+$_MODULE['<{gsitemap}prestashop>configuration_fe242b3dd3f455778072dc7042637a5e'] = 'A szerver beállításától és a katalógusban aktivált termékek számától függően generálódni fog több oldaltérkép is.';
 $_MODULE['<{gsitemap}prestashop>configuration_7f751d19f85d49a411d5691f5bb0b5f2'] = 'Milyen gyakran frissíted az áruházat?';
 $_MODULE['<{gsitemap}prestashop>configuration_f9f90eeaf400d228facde6bc48da5cfb'] = 'mindig';
 $_MODULE['<{gsitemap}prestashop>configuration_745fd0ea7f576f350a0eed4b8c48a8e2'] = 'óránkénti';

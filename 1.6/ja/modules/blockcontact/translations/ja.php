@@ -3,6 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{blockcontact}prestashop>blockcontact_df8f3e2cd8d1acbb2d1aa46a45045ec5'] = 'お問い合せブロック';
 $_MODULE['<{blockcontact}prestashop>blockcontact_318ed85b9852475f24127167815e85d9'] = 'お客様サービスについての特別な情報を追加することを許可';
 $_MODULE['<{blockcontact}prestashop>blockcontact_20015706a8cbd457cbb6ea3e7d5dc9b3'] = '設定を更新しました';
 $_MODULE['<{blockcontact}prestashop>blockcontact_f4f70727dc34561dfde1a3c529b6205c'] = '設定';

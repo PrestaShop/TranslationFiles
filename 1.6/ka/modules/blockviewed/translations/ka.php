@@ -11,7 +11,7 @@ $_MODULE['<{blockviewed}prestashop>blockviewed_f38f5974cdc23279ffe6d203641a8bdf'
 $_MODULE['<{blockviewed}prestashop>blockviewed_f4f70727dc34561dfde1a3c529b6205c'] = 'პარამეტრები';
 $_MODULE['<{blockviewed}prestashop>blockviewed_26986c3388870d4148b1b5375368a83d'] = 'პროდუქცია რომელიც გამოჩნდება';
 $_MODULE['<{blockviewed}prestashop>blockviewed_d36bbb6066e3744039d38e580f17a2cc'] = 'მიუთითეთ პრტოდუქტების რაოდენობა, რომელიც ნაჩვენები იქნება ბლოკში';
-$_MODULE['<{blockviewed}prestashop>blockviewed_c9cc8cce247e49bae79f15173ce97354'] = 'Сохранить';
+$_MODULE['<{blockviewed}prestashop>blockviewed_c9cc8cce247e49bae79f15173ce97354'] = 'შენახვა';
 $_MODULE['<{blockviewed}prestashop>blockviewed_43560641f91e63dc83682bc598892fa1'] = 'ნანახი პროდუქცია';
 $_MODULE['<{blockviewed}prestashop>blockviewed_8f7f4c1ce7a4f933663d10543562b096'] = 'დაწვრილებით';
 

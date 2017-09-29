@@ -4,9 +4,12 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{sekeywords}prestashop>sekeywords_65b0b42febc8ea16db4652eab6f420a4'] = 'الكلمات الرئيسية محرك البحث';
+$_MODULE['<{sekeywords}prestashop>sekeywords_8effa630c1740a748801b881acb90fa6'] = 'عرض الكلمات الرئيسية التي قادت الزوار إلى موقعك.';
 $_MODULE['<{sekeywords}prestashop>sekeywords_6602bbeb2956c035fb4cb5e844a4861b'] = 'المعالج';
 $_MODULE['<{sekeywords}prestashop>sekeywords_9ed50bd6876a9273f2192c224b87657b'] = 'تحديد الكلمات الرئيسية محركات البحث الخارجية \'';
+$_MODULE['<{sekeywords}prestashop>sekeywords_7acbda50735929f05f6f463e05bc7ead'] = 'هذه أحد أشهر الطرق لإيجاد موقع في محرك بحث.';
 $_MODULE['<{sekeywords}prestashop>sekeywords_359f9e79e746fa9f684e5cda9e60ca2e'] = 'كيف تعمل هذه ؟';
+$_MODULE['<{sekeywords}prestashop>sekeywords_0849140171616600e8f2c35f0a225212'] = 'تصفية حسب الكلمة الرئيسية';
 $_MODULE['<{sekeywords}prestashop>sekeywords_9639e32cab248434a17ab32237cb3b71'] = 'تطبيق';
 $_MODULE['<{sekeywords}prestashop>sekeywords_867343577fa1f33caa632a19543bd252'] = 'الكلمات المفتاحية';
 $_MODULE['<{sekeywords}prestashop>sekeywords_e52e6aa1a43a0187e44f048f658db5f9'] = 'الحوادث';

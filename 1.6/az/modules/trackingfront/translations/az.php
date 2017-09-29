@@ -29,6 +29,7 @@ $_MODULE['<{trackingfront}prestashop>account_453aceb005ceaf54a47da15fee8b2a26'] 
 $_MODULE['<{trackingfront}prestashop>account_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'Endirimlər';
 $_MODULE['<{trackingfront}prestashop>account_a85eba4c6c699122b2bb1387ea4813ad'] = 'Səbət:';
 $_MODULE['<{trackingfront}prestashop>account_316853cc3718335f11c048e33b9be98a'] = 'Kliklə';
+$_MODULE['<{trackingfront}prestashop>login_b6d4223e60986fa4c9af77ee5f7149c5'] = 'Daxil Ol';
 $_MODULE['<{trackingfront}prestashop>login_dc647eb65e6711e155375218212b3964'] = 'Şifrə';
 
 

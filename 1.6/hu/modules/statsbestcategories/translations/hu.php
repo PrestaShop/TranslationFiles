@@ -13,6 +13,7 @@ $_MODULE['<{statsbestcategories}prestashop>statsbestcategories_c13329e42ec01a10f
 $_MODULE['<{statsbestcategories}prestashop>statsbestcategories_6e3b3150807da868ebd33ad2c991b8d7'] = 'Legjobb kategóriák';
 $_MODULE['<{statsbestcategories}prestashop>statsbestcategories_e5510869e31bbf721ca15dff21cf1169'] = 'Hozzáad egy legjobb kategóriák listát a vezérlőpult Statisztika-ja alá.';
 $_MODULE['<{statsbestcategories}prestashop>statsbestcategories_998e4c5c80f27dec552e99dfed34889a'] = 'CSV exportálás';
+$_MODULE['<{statsbestcategories}prestashop>statsbestcategories_26f1502c886f4daa37c43d27bb58d40d'] = 'Csak az utolsó szintű kategóriákat jeleníti meg (az alkategóriákat nem)';
 
 
 return $_MODULE;

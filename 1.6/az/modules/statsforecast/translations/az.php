@@ -16,6 +16,7 @@ $_MODULE['<{statsforecast}prestashop>statsforecast_11ff9f68afb6b8b5b8eda218d7c83
 $_MODULE['<{statsforecast}prestashop>statsforecast_b3ff996fe5c77610359114835baf9b38'] = 'Zona';
 $_MODULE['<{statsforecast}prestashop>statsforecast_3adbdb3ac060038aa0e6e6c138ef9873'] = 'Kateqoriya';
 $_MODULE['<{statsforecast}prestashop>statsforecast_88183b946cc5f0e8c96b2e66e1c74a7e'] = 'Naməlum';
+$_MODULE['<{statsforecast}prestashop>statsforecast_f1dd68fb6a00d3e4d7f751deacde995d'] = 'Dil paylanımı';
 $_MODULE['<{statsforecast}prestashop>statsforecast_4994a8ffeba4ac3140beb89e8d41f174'] = 'Dil';
 $_MODULE['<{statsforecast}prestashop>statsforecast_28e81c8343702f6c813cc31a7f90616a'] = 'Valyuta paylanımı';
 $_MODULE['<{statsforecast}prestashop>statsforecast_386c339d37e737a436499d423a77df0c'] = 'Valyuta';

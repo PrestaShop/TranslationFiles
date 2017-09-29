@@ -3,6 +3,8 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{blockpermanentlinks}prestashop>blockpermanentlinks_39355c36cfd8f1d048a1f84803963534'] = 'كتلة الروابط الدائمه';
+$_MODULE['<{blockpermanentlinks}prestashop>blockpermanentlinks_6c5b993889148d10481569e55f8f7c6d'] = 'اضافة النافذة التي تعرض الروابط الاساسية مثل خريطة الموقع, جهات الاتصال, الخ.';
 $_MODULE['<{blockpermanentlinks}prestashop>blockpermanentlinks-footer_5813ce0ec7196c492c97596718f71969'] = 'خريطة الموقع';
 $_MODULE['<{blockpermanentlinks}prestashop>blockpermanentlinks-footer_bbaff12800505b22a853e8b7f4eb6a22'] = 'اتصل بنا';
 $_MODULE['<{blockpermanentlinks}prestashop>blockpermanentlinks-footer_714814d37531916c293a8a4007e8418c'] = 'مرجعية هذه الصفحة';

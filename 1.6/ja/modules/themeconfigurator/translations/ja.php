@@ -3,6 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{themeconfigurator}prestashop>themeconfigurator_e92dabb4907f1957cabc469cca4deefc'] = 'テーマコンフィギュレータ';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_07b8c09e490f7afbdcfa9cd5bfcfd4a9'] = '画像取得中にエラーが発生';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_f1206f9fadc5ce41694f69129aecac26'] = '設定';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_00d23a76e43b46dae9ec7aa9dcbebb32'] = '有効';

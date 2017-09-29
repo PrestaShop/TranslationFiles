@@ -5,7 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{carriercompare}prestashop>carriercompare_533bf2149f935df1f934e5ee55f68d20'] = 'Estimate the cost of shipping & taxes.';
 $_MODULE['<{carriercompare}prestashop>carriercompare_59716c97497eb9694541f7c3d37b1a4d'] = 'Country';
-$_MODULE['<{carriercompare}prestashop>carriercompare_46a2a41cc6e552044816a2d04634545d'] = 'State';
+$_MODULE['<{carriercompare}prestashop>carriercompare_46a2a41cc6e552044816a2d04634545d'] = 'County';
 $_MODULE['<{carriercompare}prestashop>carriercompare_c6e2a9b2d1979c244d18c7e9fbf9a86f'] = 'Zip/postal code';
 $_MODULE['<{carriercompare}prestashop>carriercompare_9207f4078f515ecc8256bae33fa1f497'] = 'Needed for certain carriers.';
 $_MODULE['<{carriercompare}prestashop>carriercompare_914419aa32f04011357d3b604a86d7eb'] = 'Carrier';

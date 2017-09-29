@@ -3,6 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{statsbestvouchers}prestashop>statsbestvouchers_58ef962a87e6fbbea6027c17a954a18d'] = 'Devolvido um conjunto de registos vazio.';
 $_MODULE['<{statsbestvouchers}prestashop>statsbestvouchers_f5c493141bb4b2508c5938fd9353291a'] = 'A mostrar %1$s de %2$s';
 $_MODULE['<{statsbestvouchers}prestashop>statsbestvouchers_ca0dbad92a874b2f69b549293387925e'] = 'Código';
 $_MODULE['<{statsbestvouchers}prestashop>statsbestvouchers_49ee3087348e8d44e1feda1917443987'] = 'Nome';

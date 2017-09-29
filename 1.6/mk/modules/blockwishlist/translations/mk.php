@@ -37,6 +37,9 @@ $_MODULE['<{blockwishlist}prestashop>my-account_7ec9cceb94985909c6994e95c31c1aa8
 $_MODULE['<{blockwishlist}prestashop>managewishlist_f78674b9c6b19504756230c57f6aec38'] = 'затвори ја листата на желби';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_0ac1aeb2429db494dd42ad2dc219ca7e'] = 'скриј артикли';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_0de9d09a36e820f9da7e87ab3678dd12'] = 'покажи артикли';
+$_MODULE['<{blockwishlist}prestashop>managewishlist_e0977812a2d99e320fcaac92ff096b43'] = 'Сокриј купени продукти';
+$_MODULE['<{blockwishlist}prestashop>managewishlist_b1cf536563bc3b97ee404dab65db3a27'] = 'Прикажи купени продукти';
+$_MODULE['<{blockwishlist}prestashop>managewishlist_8725214cdd9f9af24e914b5da135793d'] = 'Трајна врска';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_30820a1bf6a285e45cda2beda3d7738d'] = 'испрати ја листата на желби';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_f2a6c498fb90ee345d997f888fce3b18'] = 'Избриши';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_4b7d496eedb665d0b5f589f2f874e7cb'] = 'Детали за насловот';
@@ -45,6 +48,8 @@ $_MODULE['<{blockwishlist}prestashop>managewishlist_502996d9790340c5fd7b86a5b93b
 $_MODULE['<{blockwishlist}prestashop>managewishlist_655d20c1ca69519ca647684edbb2db35'] = 'Висок';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_87f8a6ab85c9ced3702b4ea641ad4bb5'] = 'Среден';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_28d0edd045e05cf5af64e35ae0c4c6ef'] = 'Низок';
+$_MODULE['<{blockwishlist}prestashop>managewishlist_6bc362dbf494c61ea117fe3c71ca48a5'] = 'Премести';
+$_MODULE['<{blockwishlist}prestashop>managewishlist_e68ee0c6758ab5b0eea4e105d694f5c4'] = 'Премести во %s';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_c9cc8cce247e49bae79f15173ce97354'] = 'Сними';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'Е-пошта';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_94966d90747b97d1f0f206c98a8b1ac3'] = 'Испрати';

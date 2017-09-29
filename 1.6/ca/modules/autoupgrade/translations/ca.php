@@ -155,6 +155,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_469ab377c49ea68b2ecdfe76d628
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_fa2508196ef3391139d01d8d38b2c1bb'] = 'Actualitzar el tema predeterminat';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_837f859cdd8b16024d72169ed315e9b5'] = 'Si heu personalitzat el tema predeterminat de PrestaShop en aquesta carpeta (carpeta anomenada "pretashop" a la 1.4, "default" a la 1.5, "bootstrap-default" a la 1.6), activant aquesta opció perdreu les vostres modificacions.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_97a989a73b46233ae4330fb7682a70a2'] = 'Si utilitzeu el seu propi tema, el que permet aquesta opció simplement actualitzar els arxius del tema per defecte, i el seu propi tema estarà fora de perill.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_92991497ed914de6bb7795b701b4c6e4'] = 'Canviar al tema per defecte';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c7ae0af8d5653beb68b344415aca135d'] = 'Això canviarà el vostre tema: la vostra botiga utilitzarà el tema predeterminat de la versió de PrestaShop a la que actualitzeu.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5a6925648fc1286cae7924e80690d3a7'] = 'Actualitzar els missatges de correu predeterminats';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9770c64dad08073b1291334767e0f99c'] = 'Això actualitzarà els missatges de correu de PrestaShop.';
@@ -453,6 +454,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_1f966606f0a941f655a4e9b7791a
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_21739f79b8e95f4187fce4fefb12af28'] = 'Analitzant la situació...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5ef0c737746fae2ca90e66c39333f8f6'] = 'Errors';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_dc3fd488f03d423a04da27ce66274c1b'] = 'Atenció!';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_95095fc4bbc8b42ec512cfb1cfa19d8a'] = 'Estàs utilitzant la versió de PHP %s. Aviat, la darrera versió de PHP suportada per PrestaShop serà PHP 5.4. Per assegurar-te de que estàs preparat per al futur, et recomanem d\'actualitzar-te a PHP 5.4. ara!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e58eae3d7ced672a49b5716587b15f89'] = 'Inicieu l\'actualització';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5784315a8bcebe79611d3353723e010d'] = 'Felicitacions, ara utilitzeu la darrera versió disponible!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_da3cd17bbbbd3ef7da8e817d3c4cdb46'] = 'Veniu del futur! Esteu utilitzant una versió més avançada que la darrera disponible!';

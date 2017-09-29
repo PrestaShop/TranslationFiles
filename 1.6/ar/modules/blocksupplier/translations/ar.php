@@ -3,8 +3,14 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{blocksupplier}prestashop>blocksupplier_9ae42413e3cb9596efe3857f75bad3df'] = 'كتلة الموردين';
+$_MODULE['<{blocksupplier}prestashop>blocksupplier_e72b2501ba75e9ab754d3294d43c2590'] = 'أضف مساحة لإظهار الموردين.';
+$_MODULE['<{blocksupplier}prestashop>blocksupplier_85ab0c0d250e58397e95c96277a3f8e3'] = 'عدد عناصر غير صالح.';
+$_MODULE['<{blocksupplier}prestashop>blocksupplier_914b0cd4e4aa7cba84a3fd47b880fd2a'] = 'يرجى تفعيل نوع واحد من القوائم على الأقل.';
+$_MODULE['<{blocksupplier}prestashop>blocksupplier_f38f5974cdc23279ffe6d203641a8bdf'] = 'تم تحديث الإعدادات.';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_f4f70727dc34561dfde1a3c529b6205c'] = 'الإعدادات';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_bfdff752293014f11f17122c92909ad5'] = 'استخدام قائمة النص العادي';
+$_MODULE['<{blocksupplier}prestashop>blocksupplier_78b2098aa1d513b5e1852b3140c7ee26'] = 'عرض الموردين في قائمة نصية.';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'مفعل';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_b9f5c797ebbf55adccdd8539a65a0241'] = 'غير مفعل';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_2eef734f174a02ae3d7aaafefeeedb42'] = 'عدد العناصر المعروضة';

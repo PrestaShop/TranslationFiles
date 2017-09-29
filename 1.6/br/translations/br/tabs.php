@@ -26,6 +26,7 @@ $_TABS['AdminShopUrl'] = 'URLs da Loja';
 $_TABS['AdminBlockCategories'] = 'Bloco de categorias';
 $_TABS['AdminDashgoals'] = 'Metas do painel';
 $_TABS['AdminThemeConfigurator'] = 'Configurador do tema';
+$_TABS['AdminCronJobs'] = 'Tarefas Cron';
 $_TABS['AdminProducts'] = 'Produtos';
 $_TABS['AdminCategories'] = 'Categorias';
 $_TABS['AdminTracking'] = 'Monitoramento';
@@ -107,6 +108,7 @@ $_TABS['AdminStockInstantState'] = 'Status atual do estoque';
 $_TABS['AdminStockCover'] = 'Cobertura do Estoque';
 $_TABS['AdminSupplyOrders'] = 'Pedidos de fornecimento';
 $_TABS['AdminStockConfiguration'] = 'Configuração';
+$_TABS['AdminOnboarding'] = 'Integração';
 
 
 return $_TABS;

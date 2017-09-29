@@ -7,6 +7,7 @@ $_MODULE['<{blocklayered}prestashop>blocklayered_84241e458cdd5162745500a59a3680f
 $_MODULE['<{blocklayered}prestashop>blocklayered_2d08fa8e157fe3f1875402cbd98aee1b'] = 'Prikazuje blok slojevitom navigacionim filterima.';
 $_MODULE['<{blocklayered}prestashop>blocklayered_b3786b970611c1a3809dd51b630812a7'] = '"%s" je nevažeći link';
 $_MODULE['<{blocklayered}prestashop>blocklayered_ccc12c5568381293a27db0232877937b'] = 'Filtriranje naziva šablona je obavezno (ne može biti prazno)';
+$_MODULE['<{blocklayered}prestashop>blocklayered_8c97e587c1b4e519bec26f3903561da3'] = 'Morate odabrati barem jednu kategoriju.';
 $_MODULE['<{blocklayered}prestashop>blocklayered_817c37b9c1f5cd4a450dad384e63e6c7'] = 'Vaš filter';
 $_MODULE['<{blocklayered}prestashop>blocklayered_3185cefd67b575e582063148e4f15860'] = 'je nadograđeno uspešno.';
 $_MODULE['<{blocklayered}prestashop>blocklayered_7ccab4d8de5d6b9bb61e99c7bba343ab'] = 'je dodato uspešno.';

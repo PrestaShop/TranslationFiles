@@ -14,6 +14,7 @@ $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_86f5978d9b80124f509bdb71786
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_659e59f062c75f81259d22786d6c44aa'] = 'Fevral';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_fa3e5edac607a88d8fd7ecb9d6d67424'] = 'Mart';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_3fcf026bbfffb63fb24b8de9d0446949'] = 'Aprel';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_195fbb57ffe7449796d23466085ce6d8'] = 'May';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_688937ccaf2a2b0c45a1c9bbba09698d'] = 'İyun';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_1b539f6f34e8503c97f6d3421346b63c'] = 'İyul';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_41ba70891fb6f39327d8ccb9b1dafb84'] = 'Avqust';
@@ -22,6 +23,7 @@ $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_eca60ae8611369fe28a02e2ab8c
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_7e823b37564da492ca1629b4732289a8'] = 'Noyabr';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_82331503174acbae012b2004f6431fa5'] = 'Dekabr';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_f4f70727dc34561dfde1a3c529b6205c'] = 'Nizamlamalar';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_225e75c29d32392d311f5dc94c792384'] = 'gün(lər)';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_387a8014f530f080bf2f3be723f8c164'] = 'Keçid listi';
 
 

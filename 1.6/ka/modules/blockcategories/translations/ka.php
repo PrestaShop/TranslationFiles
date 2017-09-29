@@ -15,7 +15,7 @@ $_MODULE['<{blockcategories}prestashop>blockcategories_971fd8cc345d8bd9f92e9f7d8
 $_MODULE['<{blockcategories}prestashop>blockcategories_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'ნებადართული';
 $_MODULE['<{blockcategories}prestashop>blockcategories_b9f5c797ebbf55adccdd8539a65a0241'] = 'აკრძალული';
 $_MODULE['<{blockcategories}prestashop>blockcategories_cf3fb1ff52ea1eed3347ac5401ee7f0c'] = 'ზრდის მიხედვით';
-$_MODULE['<{blockcategories}prestashop>blockcategories_c9cc8cce247e49bae79f15173ce97354'] = 'Сохранить';
+$_MODULE['<{blockcategories}prestashop>blockcategories_c9cc8cce247e49bae79f15173ce97354'] = 'შენახვა';
 $_MODULE['<{blockcategories}prestashop>blockcategories_footer_af1b98adf7f686b84cd0b443e022b7a0'] = 'კატეგორიები';
 $_MODULE['<{blockcategories}prestashop>blockcategories_af1b98adf7f686b84cd0b443e022b7a0'] = 'კატეგორიები';
 

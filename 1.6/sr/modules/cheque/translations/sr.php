@@ -30,6 +30,7 @@ $_MODULE['<{cheque}prestashop>payment_execution_7b1c6e78d93817f61f2b1bbc2108a803
 $_MODULE['<{cheque}prestashop>payment_execution_a7a08622ee5c8019b57354b99b7693b2'] = 'Izaberite jednu od ponuđenih:';
 $_MODULE['<{cheque}prestashop>payment_execution_f73ad0f08052884ff465749bf48b55ce'] = 'Prihvatamo sledeće valute:';
 $_MODULE['<{cheque}prestashop>payment_execution_7135ff14c7931e1c8e9d33aff3dfc7f7'] = 'Vlasnik čeka i adresa će biti prikazani na sledećoj stranici.';
+$_MODULE['<{cheque}prestashop>payment_execution_52f64bc0164b0e79deaeaaaa7e93f98f'] = 'Molimo Vas da potvrdite svoju narudžbinu klikom na  \'Potvrđujem moju narudžbinu\'.';
 $_MODULE['<{cheque}prestashop>payment_execution_46b9e3665f187c739c55983f757ccda0'] = 'Potvrđujem moju porudžbinu';
 $_MODULE['<{cheque}prestashop>payment_execution_569fd05bdafa1712c4f6be5b153b8418'] = 'Drugi metodi plaćanja';
 $_MODULE['<{cheque}prestashop>infos_14e41f4cfd99b10766cc15676d8cda66'] = 'Ovaj modul Vam omogućava prihvatanje plaćanja čekom.';

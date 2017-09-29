@@ -4,8 +4,8 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{ganalytics}prestashop>ganalytics_d86cf69a8b82547a94ca3f6a307cf9a6'] = 'Google Analytics';
-$_MODULE['<{ganalytics}prestashop>ganalytics_135d2522825fa02688ab25a2e1c88c73'] = 'Utilizando Google Analytics obtendrás importantes métricas relacionadas con tus clientes';
-$_MODULE['<{ganalytics}prestashop>ganalytics_7ed5c154078e30b30b2f214299c5e9f5'] = '¿Estás seguro de que quieres desinstalar Google Analytics?. Perderás todos los datos relacionados con este módulo.';
+$_MODULE['<{ganalytics}prestashop>ganalytics_135d2522825fa02688ab25a2e1c88c73'] = 'Adquiera conocimientos claros de los datos importantes sobre sus clientes, a través de Google Analytics';
+$_MODULE['<{ganalytics}prestashop>ganalytics_7ed5c154078e30b30b2f214299c5e9f5'] = '¿Está seguro que quiere desinstalar Google Analytics? perderá todos los datos relacionados con este módulo.';
 $_MODULE['<{ganalytics}prestashop>ganalytics_c9cc8cce247e49bae79f15173ce97354'] = 'Guardar';
 $_MODULE['<{ganalytics}prestashop>ganalytics_630f6dc397fe74e52d5189e2c80f282b'] = 'Volver a la lista';
 $_MODULE['<{ganalytics}prestashop>ganalytics_f4f70727dc34561dfde1a3c529b6205c'] = 'Configuración';

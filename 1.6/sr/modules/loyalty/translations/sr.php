@@ -21,6 +21,7 @@ $_MODULE['<{loyalty}prestashop>loyalty_c48105520852bbd0fa692e4c9fd61628'] = 'Vau
 $_MODULE['<{loyalty}prestashop>loyalty_b1c94ca2fbc3e78fc30069c8d0f01680'] = 'Svim';
 $_MODULE['<{loyalty}prestashop>loyalty_5b7d558a20e8bcb6d9355a012becb1eb'] = 'Da li ste sigurni da želite da prebacite svoje poene u vaučere?';
 $_MODULE['<{loyalty}prestashop>loyalty_4db04271e368fe3d4e1aa7332a18fa9d'] = 'Pretvorite moje poene u vaučer od';
+$_MODULE['<{loyalty}prestashop>loyalty_b39cba8836db01a04888aef6ba386420'] = 'Moji vaučer bodovi za vernost';
 $_MODULE['<{loyalty}prestashop>loyalty_0eceeb45861f9585dd7a97a3e36f85c6'] = 'Napravljeno';
 $_MODULE['<{loyalty}prestashop>loyalty_689202409e48743b914713f96d93947c'] = 'Vrednost';
 $_MODULE['<{loyalty}prestashop>loyalty_ca0dbad92a874b2f69b549293387925e'] = 'Kod';

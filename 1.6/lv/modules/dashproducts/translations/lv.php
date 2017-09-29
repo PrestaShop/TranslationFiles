@@ -25,6 +25,8 @@ $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_f1206f9fadc5ce41694f69129
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_63a6a88c066880c5ac42394a22803ca6'] = 'Atsvaidzināt';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_254f642527b45bc260048e30704edb39'] = 'Konfigurācija';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_d7b2933ba512ada478c97fa43dd7ebe6'] = 'Visvairāk pārdotie produkti';
+$_MODULE['<{dashproducts}prestashop>dashboard_zone_two_3d23ac9ab254a9f1014c3a859b01bcfc'] = 'Pēdējie %d pasūtījumi';
+$_MODULE['<{dashproducts}prestashop>dashboard_zone_two_82f0f8d535196ce2a6ea16652d981f94'] = 'Top %d produkti';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_5da618e8e4b89c66fe86e32cdafde142'] = 'No';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_01b6e20344b68835c5ed1ddedf20d531'] = 'līdz';
 

@@ -6,6 +6,7 @@ $_MODULE = array();
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e5b7525b4214a759876af4448bd6b87d'] = '顶部水平菜单';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_f7979d86fe0b2cd11f44747ed4ff1100'] = '增添新水平菜单到您的网店顶部。';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_efc226b17e0532afff43be870bff0de7'] = '设置已经更新';
+$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_d9a776c185f73d018b2915f4d5e7cc05'] = '以下店铺无法更新设置：%s';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_f32880ae5183a02c0a743bfd37a42cbc'] = '请填写链接栏';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_cf8d684bd5f89d30da67c95363a48ab9'] = '请添加标签';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e8d6809226ab177013e0a26bd2d8b60d'] = '请为你的默认语言添加标签';
@@ -37,6 +38,8 @@ $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_56e8bf6c54f1638e7bce5a2fcd5b20f
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_449f6d82cde894eafd3c85b6fa918f89'] = '链接ID';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e93c33bd1341ab74195430daeb63db13'] = '商店名称：';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_387a8014f530f080bf2f3be723f8c164'] = '链接列表';
+$_MODULE['<{blocktopmenu}prestashop>form_17a1352d3f69a733fd472fce0238a07d'] = '标明商品 ID 号码';
+$_MODULE['<{blocktopmenu}prestashop>form_6bb999afde6fca60d70edce79d20b370'] = '商品 ID#';
 $_MODULE['<{blocktopmenu}prestashop>form_3ee3549ff0c93372a730749f784e9438'] = '请只选择一项商品';
 $_MODULE['<{blocktopmenu}prestashop>form_e1b11c03820641dd1d1441bf68898d08'] = '改变位置';
 $_MODULE['<{blocktopmenu}prestashop>form_3713a99a6284e39061bd48069807aa52'] = '选择商品';

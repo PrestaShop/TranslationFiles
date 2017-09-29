@@ -19,7 +19,7 @@ $_MODULE['<{crossselling}prestashop>crossselling_dd1f775e443ff3b9a89270713580a51
 $_MODULE['<{crossselling}prestashop>crossselling_4351cfebe4b61d8aa5efa1d020710005'] = 'View';
 $_MODULE['<{crossselling}prestashop>crossselling_10ac3d04253ef7e1ddc73e6091c0cd55'] = 'Next';
 $_MODULE['<{crossselling}prestashop>crossselling_0f169d3dc0db47a4074489a89cb034b5'] = 'We recommend';
-$_MODULE['<{crossselling}prestashop>crossselling_2d0f6b8300be19cf35e89e66f0677f95'] = 'Add to cart';
+$_MODULE['<{crossselling}prestashop>crossselling_2d0f6b8300be19cf35e89e66f0677f95'] = 'Add to basket';
 
 
 return $_MODULE;

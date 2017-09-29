@@ -29,6 +29,7 @@ $_MODULE['<{homeslider}prestashop>homeslider_b9f5c797ebbf55adccdd8539a65a0241'] 
 $_MODULE['<{homeslider}prestashop>homeslider_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Activat';
 $_MODULE['<{homeslider}prestashop>homeslider_ced7338587c502f76917b5a693f848c5'] = 'Informacions de la diapositiva';
 $_MODULE['<{homeslider}prestashop>homeslider_792744786ed30c5623dd1cf0c16f4ffe'] = 'Seleccioneu un fitxer';
+$_MODULE['<{homeslider}prestashop>homeslider_b112d8dc41120e6d28639b7eb825f491'] = 'Dimensions màximes d\'imatge: %s.';
 $_MODULE['<{homeslider}prestashop>homeslider_61c1727eb4c54b859e250c2a76bb40c0'] = 'Títol de la diapositiva';
 $_MODULE['<{homeslider}prestashop>homeslider_e64df1d7c22b9638f084ce8a4aff3ff3'] = 'URL de destí';
 $_MODULE['<{homeslider}prestashop>homeslider_272ba7d164aa836995be6319a698be84'] = 'Llegenda';
@@ -51,6 +52,7 @@ $_MODULE['<{homeslider}prestashop>homeslider_7a5c11dddbb2118d08611a1f0678bb91'] 
 $_MODULE['<{homeslider}prestashop>homeslider_298b615220606d42b6ac60269df0d321'] = 'Les modificacions seran aplicades a la botiga: %s';
 $_MODULE['<{homeslider}prestashop>homeslider_aef3662e6419ddaaa0a31df70e3b6557'] = 'Les modificacions seran aplicades a aquest grup: %s';
 $_MODULE['<{homeslider}prestashop>homeslider_71063fd397d237e563089c22dd8b69e8'] = 'Les modificacions seran aplicades a totes les botigues i grups de botigues';
+$_MODULE['<{homeslider}prestashop>homeslider_6a5aa2542c21debccd82b2e0038c3d1a'] = 'En aquesta diapositiva es comparteix amb altres botigues! Totes les botigues associades a aquesta diapositiva s\'aplicaran les modificacions realitzades aquí';
 $_MODULE['<{homeslider}prestashop>form_92fbf0e5d97b8afd7e73126b52bdc4bb'] = 'Trieu un fitxer';
 $_MODULE['<{homeslider}prestashop>list_c82324ebbcea34f55627a897b37190e3'] = 'Llista de diapositives';
 $_MODULE['<{homeslider}prestashop>list_ef61fb324d729c341ea8ab9901e23566'] = 'Afegir nou';

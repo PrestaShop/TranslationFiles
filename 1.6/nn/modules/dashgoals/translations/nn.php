@@ -3,7 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{dashgoals}prestashop>dashgoals_50698c5b8ffaf2b7dd089898a244a668'] = 'Instrumentpanelmål';
+$_MODULE['<{dashgoals}prestashop>dashgoals_50698c5b8ffaf2b7dd089898a244a668'] = 'Overordna målsetjingar';
 $_MODULE['<{dashgoals}prestashop>dashgoals_14089da5dd6132b674d9829b136efff9'] = 'Legger til en blokk med prognosene til butikken.';
 $_MODULE['<{dashgoals}prestashop>dashgoals_86f5978d9b80124f509bdb71786e929e'] = 'januar';
 $_MODULE['<{dashgoals}prestashop>dashgoals_659e59f062c75f81259d22786d6c44aa'] = 'februar';
@@ -31,7 +31,7 @@ $_MODULE['<{dashgoals}prestashop>config_e4c3da18c66c0147144767efeb59198f'] = 'Ko
 $_MODULE['<{dashgoals}prestashop>config_8c804960da61b637c548c951652b0cac'] = 'Gjennomsnittleg korgverdi';
 $_MODULE['<{dashgoals}prestashop>config_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'Sal';
 $_MODULE['<{dashgoals}prestashop>config_c9cc8cce247e49bae79f15173ce97354'] = 'Lagre';
-$_MODULE['<{dashgoals}prestashop>dashboard_zone_two_89c1265be62d3ba835a3d963db5956b0'] = 'Prognose';
+$_MODULE['<{dashgoals}prestashop>dashboard_zone_two_89c1265be62d3ba835a3d963db5956b0'] = 'Forventa utvikling';
 $_MODULE['<{dashgoals}prestashop>dashboard_zone_two_f1206f9fadc5ce41694f69129aecac26'] = 'Konfigurer';
 $_MODULE['<{dashgoals}prestashop>dashboard_zone_two_63a6a88c066880c5ac42394a22803ca6'] = 'Oppdater';
 $_MODULE['<{dashgoals}prestashop>dashboard_zone_two_e7935ae6c516d89405ec532359d2d75a'] = 'Trafikk';

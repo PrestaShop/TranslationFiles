@@ -16,6 +16,7 @@ $_MODULE['<{followup}prestashop>followup_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'A
 $_MODULE['<{followup}prestashop>followup_b9f5c797ebbf55adccdd8539a65a0241'] = 'Passiv';
 $_MODULE['<{followup}prestashop>followup_b30690be173bcd4a83df0cd68f89a385'] = 'Endirim məbləği';
 $_MODULE['<{followup}prestashop>followup_2018945d252b94aeb99b0909f288717c'] = 'Endirim müddəti';
+$_MODULE['<{followup}prestashop>followup_225e75c29d32392d311f5dc94c792384'] = 'gün(lər)';
 $_MODULE['<{followup}prestashop>followup_a8b8dbd070a92fb8b17baab71d8d633f'] = 'Yenidən sifariş';
 $_MODULE['<{followup}prestashop>followup_f120254f109d626d73ddddeb9cda26e5'] = 'Növbəti proses %d poçtuna göndəriləcək';
 $_MODULE['<{followup}prestashop>followup_8b83489bd116cb60e2f348e9c63cd7f6'] = 'Ən yaxşı müştərilər';

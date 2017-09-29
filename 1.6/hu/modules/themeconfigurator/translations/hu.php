@@ -18,16 +18,19 @@ $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_b9f5c797ebbf55adccdd8
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_f4f70727dc34561dfde1a3c529b6205c'] = 'Beállítások';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_c9cc8cce247e49bae79f15173ce97354'] = 'Mentés';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_4351cfebe4b61d8aa5efa1d020710005'] = 'Megtekintés';
+$_MODULE['<{themeconfigurator}prestashop>themeconfigurator_3b41baf5b2f335fc796a083a1945116b'] = 'Ezt csak te láthatod az Arculati irodánál - a látogatók nem látják ezt az eszközt.';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_6e3670bb5e3826106c5243b242cc52d9'] = 'Hivatkozások megjelenítése boltod szociális fiókjaihoz (Twitter, Facebook stb.)';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_1334ff714a38e8004e9cdc755baa5afb'] = 'Kapcsolati információid megjelenítése';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_2f4fe84a25dc0024c9e80b4efd1d68f6'] = 'Jelenítse meg a szociális hálók megosztási hivatkozásait a termékoldalon';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_6080ab31226b39af728c2d40fd57f0d0'] = 'Facebook blokk megjelenítése a címlapon';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_2debd734d0a150ccfd48e8d1e8e914b0'] = 'Az egyedi CMS információs blokk megjelenítése';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_bfebda351190d4dbbd3499558175c7b9'] = 'Gyors nézet ablak megjelenítése a kezdőlapon és a kategóriaoldalakon';
+$_MODULE['<{themeconfigurator}prestashop>themeconfigurator_5e8fbd010bca773512f58a4dcd89ed13'] = 'Alapértelmezett kategóriák megjelenítése helyett rács-alapú megjelenítés lesz beállítve, hasonlóan a termékek megjelenéséhez';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_419e2c499b79ae49a7d50b510cddc28e'] = 'Felső transzparens megjelenítése';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_2393b3a8e21e442273b6ad9219f4786c'] = 'Elérhető fizetési módok logóinak megjelenítése';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_905791e2e93ced2cb9b092985604cc55'] = 'Élő Szerkesztő megjelenítése';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_2e4a0101b1ea2b15782a07dd34067447'] = 'Ezzel a testreszabás eszközzel módosíthatóak a sablon színei és a betűi.';
+$_MODULE['<{themeconfigurator}prestashop>themeconfigurator_638c5a51a25a56ae4b8d6fa975be0d59'] = 'Alkategóriák megjelenítése';
 $_MODULE['<{themeconfigurator}prestashop>items_b9b371458ab7c314f88b81c553f6ce51'] = 'Horog';
 $_MODULE['<{themeconfigurator}prestashop>items_7dce122004969d56ae2e0245cb754d35'] = 'Szerkesztés';
 $_MODULE['<{themeconfigurator}prestashop>items_d3d2e617335f08df83599665eef8a418'] = 'Bezár';
@@ -53,6 +56,7 @@ $_MODULE['<{themeconfigurator}prestashop>new_2c92d496fa8efe3d5b2b38c185f9b7f7'] 
 $_MODULE['<{themeconfigurator}prestashop>new_b9b371458ab7c314f88b81c553f6ce51'] = 'Horog';
 $_MODULE['<{themeconfigurator}prestashop>new_be53a0541a6d36f6ecb879fa2c584b08'] = 'Kép';
 $_MODULE['<{themeconfigurator}prestashop>new_6fed80a8c8ded2f5e14a687e4a443abc'] = 'Képszélesség';
+$_MODULE['<{themeconfigurator}prestashop>new_21de26caa6bcfc936378c4e45d235bd9'] = 'px';
 $_MODULE['<{themeconfigurator}prestashop>new_2aa3aa9d021c7cfffb5afa08f52fbc51'] = 'Képmagasság';
 $_MODULE['<{themeconfigurator}prestashop>new_e6b391a8d2c4d45902a23a8b6585703d'] = 'URL';
 $_MODULE['<{themeconfigurator}prestashop>new_4c87eb073eb09f42281d7e67aeacb223'] = 'Üres cél';

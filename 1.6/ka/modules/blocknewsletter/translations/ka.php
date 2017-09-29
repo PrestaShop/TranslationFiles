@@ -22,7 +22,7 @@ $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_77c576a354d5d6f5e2c1ba501
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_f4f70727dc34561dfde1a3c529b6205c'] = 'პარამეტრები';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_93cba07454f06a4a960172bbd6e2a435'] = 'დიახ';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_bafd7322c6e97d25b6299b5d6fe8920b'] = 'არა';
-$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_c9cc8cce247e49bae79f15173ce97354'] = 'Сохранить';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_c9cc8cce247e49bae79f15173ce97354'] = 'შენახვა';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_13348442cc6a27032d2b4aa28b75a5d3'] = 'ძებნა';
 $_MODULE['<{blocknewsletter}prestashop>list_action_enable_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'ნებადართული';
 $_MODULE['<{blocknewsletter}prestashop>list_action_enable_b9f5c797ebbf55adccdd8539a65a0241'] = 'აკრძალული';

@@ -14,6 +14,7 @@ $_MODULE['<{blockmyaccountfooter}prestashop>blockmyaccountfooter_9132bc7bac91dd4
 $_MODULE['<{blockmyaccountfooter}prestashop>blockmyaccountfooter_e45be0a0d4a0b62b15694c1a631e6e62'] = 'Moje adrese';
 $_MODULE['<{blockmyaccountfooter}prestashop>blockmyaccountfooter_b4b80a59559e84e8497f746aac634674'] = 'Ažuriraj moje lične informacije';
 $_MODULE['<{blockmyaccountfooter}prestashop>blockmyaccountfooter_63b1ba91576576e6cf2da6fab7617e58'] = 'Moji lični podaci';
+$_MODULE['<{blockmyaccountfooter}prestashop>blockmyaccountfooter_95d2137c196c7f84df5753ed78f18332'] = 'Moji vaučeri';
 $_MODULE['<{blockmyaccountfooter}prestashop>blockmyaccountfooter_c87aacf5673fada1108c9f809d354311'] = 'Odjavi se';
 
 

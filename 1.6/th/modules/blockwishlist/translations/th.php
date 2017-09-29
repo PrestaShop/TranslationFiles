@@ -20,7 +20,10 @@ $_MODULE['<{blockwishlist}prestashop>blockwishlist-ajax_f2a6c498fb90ee345d997f88
 $_MODULE['<{blockwishlist}prestashop>blockwishlist-ajax_4b7d496eedb665d0b5f589f2f874e7cb'] = 'รายละเอียดสินค้า';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist-ajax_d037160cfb1fa5520563302d3a32630a'] = 'คุณต้องสร้าง wishlist ก่อนที่จะเพิ่มสินค้า';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist-ajax_09dc02ecbb078868a3a86dded030076d'] = 'ไม่มีสินค้า';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist_button_2d96bb66d8541a89620d3c158ceef42b'] = 'เพิ่มไปยังรายการสินค้าที่ต้องการ';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_button_15b94c64c4d5a4f7172e5347a36b94fd'] = 'เพิ่มไปยัง Wishlist ของฉัน';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist_button_6a5373df703ab2827a4ba7facdfcf779'] = 'เพิ่มไปยังรายการสินค้าที่ต้องการ';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist-extra_2d96bb66d8541a89620d3c158ceef42b'] = 'เพิ่มไปยังรายการสินค้าที่ต้องการ';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist-extra_ec211f7c20af43e742bf2570c3cb84f9'] = 'เพิ่ม';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist-extra_15b94c64c4d5a4f7172e5347a36b94fd'] = 'เพิ่มไปยัง Wishlist ของฉัน';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_top_16a23698e7cf5188ce1c07df74298076'] = 'คุณต้องล็อกอินในการจัดการสิ่งที่ปรารถนาของคุณ';

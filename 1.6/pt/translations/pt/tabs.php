@@ -3,6 +3,7 @@
 global $_TABS;
 $_TABS = array();
 
+$_TABS['AdminDashboard'] = 'Painel de Controlo';
 $_TABS['AdminCatalog'] = 'Catálogo';
 $_TABS['AdminParentOrders'] = 'Encomendas';
 $_TABS['AdminParentCustomer'] = 'Clientes';
@@ -25,6 +26,7 @@ $_TABS['AdminShopUrl'] = 'URLs da Loja';
 $_TABS['AdminBlockCategories'] = 'Bloco de Categorias';
 $_TABS['AdminDashgoals'] = 'Painel de objetivos';
 $_TABS['AdminThemeConfigurator'] = 'Configurador de tema';
+$_TABS['AdminCronJobs'] = 'Tarefas Cron';
 $_TABS['AdminProducts'] = 'Produtos';
 $_TABS['AdminCategories'] = 'Categorias';
 $_TABS['AdminTracking'] = 'Monitorização';
@@ -106,6 +108,7 @@ $_TABS['AdminStockInstantState'] = 'Estado Instantâneo do Inventário';
 $_TABS['AdminStockCover'] = 'Cobertura do Inventário';
 $_TABS['AdminSupplyOrders'] = 'Encomendas a Fornecedores';
 $_TABS['AdminStockConfiguration'] = 'Configuração';
+$_TABS['AdminOnboarding'] = 'Guia Primeiros Passos';
 
 
 return $_TABS;

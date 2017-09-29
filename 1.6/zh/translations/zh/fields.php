@@ -10,6 +10,7 @@ $_FIELDS['Customer_0c83f57c786a0b4a39efab23731c7ebc'] = 'email';
 $_FIELDS['Customer_d1befa03c79ca0b84ecc488dea96bc68'] = '网站';
 $_FIELDS['Customer_93c731f1c3a84ef05cd54d044c379eaa'] = '公司';
 $_FIELDS['Customer_01b0fd027f8764f9c069506b8de8bf2e'] = '公司SIRET';
+$_FIELDS['Warehouse_b8af13ea9c8fe890c9979a1fa8dbde22'] = '参考';
 $_FIELDS['Warehouse_b068931cc450442b63f5b3d276ea4297'] = '名称';
 $_FIELDS['Warehouse_23c3b4d168a45ef94635494ce42eb658'] = '管理类型';
 $_FIELDS['Country_213ecf1210f43736b6d4997fcfa27954'] = 'ISO代码';
@@ -28,6 +29,7 @@ $_FIELDS['Address_795f3202b17cb6bc3d4b771d8c6c9eaf'] = '其他';
 $_FIELDS['Address_f7a42fe7211f98ac7a60a285ac3a9e87'] = '电话';
 $_FIELDS['Address_2df2ca5cf808744c2977e4073f6b59c8'] = '手机';
 $_FIELDS['Address_eec0a9661213354fa7a52519eea3f827'] = '增值税号码';
+$_FIELDS['Address_d56f5e97524d5d1ad77ec197ae11dad0'] = 'dni';
 
 
 return $_FIELDS;

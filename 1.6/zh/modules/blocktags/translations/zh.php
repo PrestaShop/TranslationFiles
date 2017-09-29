@@ -7,6 +7,7 @@ $_MODULE['<{blocktags}prestashop>blocktags_f2568a62d4ac8d1d5b532556379772ba'] = 
 $_MODULE['<{blocktags}prestashop>blocktags_b2de1a21b938fcae9955206a4ca11a12'] = '添加一个您的商品标签模块。';
 $_MODULE['<{blocktags}prestashop>blocktags_8d731d453cacf8cff061df22a269b82b'] = '请填写“显示标签”字段。';
 $_MODULE['<{blocktags}prestashop>blocktags_73293a024e644165e9bf48f270af63a0'] = '无效号码.';
+$_MODULE['<{blocktags}prestashop>blocktags_08d5df9c340804cbdd62c0afc6afa784'] = '请填写“随机”栏。';
 $_MODULE['<{blocktags}prestashop>blocktags_c888438d14855d7d96a2724ee9c306bd'] = '设置已更新';
 $_MODULE['<{blocktags}prestashop>blocktags_f4f70727dc34561dfde1a3c529b6205c'] = '设置';
 $_MODULE['<{blocktags}prestashop>blocktags_726cefc6088fc537bc5b18f333357724'] = '显示的标签';

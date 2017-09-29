@@ -8,6 +8,7 @@ $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_ba457fab18d697d978befb95e
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_396c88991101b5ca362932952293d291'] = '您确认要删除所有的联系方式？';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_c3987e4cac14a8456515f0d200da04ee'] = '所有国家';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_fa01fd956e87307bce4c90a0de9b0437'] = '客户的国家';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_2198f293f5e1e95dddeff819fbca0975'] = '电子期刊订阅者';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_99006a61d48499231e1be92241cf772a'] = '筛选新闻简报的用户';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_7e3a51a56ddd2846e21c33f05e0aea6f'] = '所有客户';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_39f7a3e2b56e9bfd753ba6325533a127'] = '用户';
@@ -18,8 +19,15 @@ $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_417d63b1effb110e438d4b4b9
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_c888438d14855d7d96a2724ee9c306bd'] = '设置已更新';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_b718adec73e04ce3ec720dd11a06a308'] = '编号';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_9f82518d468b9fee614fcc92f76bb163'] = '店铺';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_019ec3132cdf8ee0f2e2a75cf5d3e459'] = '性别';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_dff4bf10409100d989495c6d5486035e'] = '姓';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_04176f095283bc729f1e3926967e7034'] = '名字';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'E-mail';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_808c7457c768423c5651cbf676d9f6d7'] = '订阅';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_ec59738d441f28011a81e62bdcea6200'] = '订阅于';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_3a1205098d0a13a9c41a8d538fd6a34a'] = '时事通讯注册';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_4351cfebe4b61d8aa5efa1d020710005'] = '查看';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_4182c8f19d40c7ca236a5f4f83faeb6b'] = '取消订阅';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_e267e2be02cf3e29f4ba53b5d97cf78a'] = '无效的电邮地址';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_1c623b291d95f4f1b1d0c03d0dc0ffa1'] = '电邮地址未注册';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_3b1f17a6fd92e35bc744e986b8e7a61c'] = '退订失败';

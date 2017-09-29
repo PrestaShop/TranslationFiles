@@ -175,6 +175,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3d9f514d46849760ef1b1412e314
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a10ef376d9f4c877ac86d8e4350116bf'] = 'Brīdinājums: Augšupielādētais fails pārsniedz MAX_FILE_SIZE direktīvu, kas tika norādīta formā HTML';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f8fe8cba1625eaf8e5c253b041d57dbd'] = 'Fails tika augšupielādēts tikai daļēji';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8c9067e52e4440d8a20e74fdc745b0c6'] = 'Neviens fails nav augšupielādēts';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_989a45a4ca01ee222f4370172bf8850d'] = 'Nederīgs veikala nosaukums';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_06933067aafd48425d67bcb01bba5cb6'] = 'Atjaunot';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_801ab24683a4a8c433c6eb40c48bcd9d'] = 'Lejupielādēt';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8641eaacafab9d58e7e93a92ff318714'] = '%s sekundes';

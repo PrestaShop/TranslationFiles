@@ -12,6 +12,9 @@ $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_9a730b88a32c293
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Bekapcsolt';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_b9f5c797ebbf55adccdd8539a65a0241'] = 'Kikapcsolt';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_03e1a999dcdb904300ee1b1e767c83c9'] = 'Üzenet, amely meg fog jelenni a fiók létrehozási adatlapon';
+$_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_b51d73fb490ad1245fa9b87042bbbbb7'] = 'Tipp: Ha a vásárlói adatvédelmi tájékoztató túl hosszú ahhoz, hogy közvetlenül beírd az adatlapra, hozzáadhatsz egy linket az egyik oldaladhoz. Ezt az oldalt könnyen létrehozhatod a "Tulajdonságok" menüpontban található "CMS" oldalon.';
+$_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_67ebed7cf9667003ad2047609440513a'] = 'Megjelenítés a vevő számára?';
+$_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_de1126ae0ac67eb4fda28cfad8429c79'] = 'Tipp: Ha a vásárlói adatvédelmi tájékoztató túl hosszú ahhoz, hogy közvetlenül beírd az adatlapra, hozzáadhatsz egy linket az egyik oldaladhoz. Ezt az oldalt könnyen létrehozhatod a "Tulajdonságok" menüpontban található "CMS" oldalon.';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_c9cc8cce247e49bae79f15173ce97354'] = 'Mentés';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_fb0440f9ca32a8b49eded51b09e70821'] = 'Ügyfél adatok titkosítása';
 

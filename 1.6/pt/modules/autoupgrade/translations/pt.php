@@ -152,7 +152,10 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_655d20c1ca69519ca647684edbb2
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_26f07ad840fb1c17d29f5be0f428f015'] = 'Desativar módulos não-nativos';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_70c06c37194d755dd9aef11cf0469981'] = 'Uma vez que os módulos não-nativos podem causar problemas de compatibilidade, recomendamos que estejam desativados por omissão.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_469ab377c49ea68b2ecdfe76d628a53b'] = 'Mantê-los ativados poderá impedir que veja a página "Módulos" de forma apropriada após a atualização.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_fa2508196ef3391139d01d8d38b2c1bb'] = 'Atualizar o tema gráfico predefinido';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_837f859cdd8b16024d72169ed315e9b5'] = 'Se personalizou o tema gráfico padrão do PrestaShop na pasta deste ("prestashop" na versão 1.4, "default" na versão 1.5, "bootstrap-default" na versão 1.6), ativar esta opção irá reverter todas as suas alterações.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_97a989a73b46233ae4330fb7682a70a2'] = 'Se está a utilizar o seu próprio tema gráfico, ao ativar esta opção serão atualizados apenas os ficheiros do tema gráfico padrão, mas o seu tema gráfico será mantido intacto.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_92991497ed914de6bb7795b701b4c6e4'] = 'Alterar para o tema gráfico predefinido';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c7ae0af8d5653beb68b344415aca135d'] = 'Irá alterar o seu tema gráfico: a sua loja irá o usar o tema padrão da versão PrestaShop para a qual está a atualizar.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5a6925648fc1286cae7924e80690d3a7'] = 'Atualizar os emails padrão';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9770c64dad08073b1291334767e0f99c'] = 'Isto irá atualizar os emails padrão do PrestaShop.';
@@ -198,6 +201,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_da652b8ece8ba2da84d5f5116f6e
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_654f7ceb787fd455c166d5d8744cbf90'] = 'A pasta "latest" foi esvaziada';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7dce6149440985f89756b4c451d7dc03'] = 'Descompactação dos ficheiros está completa. A eliminar os dados de exemplos...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_89640d2ed666aab722d12be60a61938d'] = 'Impossível descompactar o ficheiro %1$s para a pasta %2$s...';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_115437a77cd81057e681ff2e12b14192'] = 'Não é um ficheiro de atualização %s válido...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_064a15c7711dd82e5026a17a453b3a3b'] = 'A pasta de descompactação não tem permissões de escrita.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_01d9d38b1d4d8eff5b530eeecfd3ccd5'] = 'A pasta de descompactação %s não tem permissões de escrita.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_99f0e3a6d61b6d39da9213c647fd35ce'] = '[ERROR] %s não existe ou não é uma pasta.';

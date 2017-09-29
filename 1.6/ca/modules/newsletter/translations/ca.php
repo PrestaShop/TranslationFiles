@@ -19,8 +19,11 @@ $_MODULE['<{newsletter}prestashop>newsletter_82e5e0bc0f9c776c98253d569c111c0f'] 
 $_MODULE['<{newsletter}prestashop>newsletter_644ecc2486a059ca16b001a77909bf40'] = 'El fitxer .CSV ha estat exportat: s\'han trobat %d clients.';
 $_MODULE['<{newsletter}prestashop>newsletter_48e3d5f66961b621c78f709afcd7d437'] = 'Descarregui el fitxer';
 $_MODULE['<{newsletter}prestashop>newsletter_dca37b874cf34bd5ebcf1c2fdc59a8b4'] = 'ADVERTÈNCIA: En obrir aquest fitxer .csv amb Excel, trieu codificació UTF-8 per evitar caràcters estranys.';
+$_MODULE['<{newsletter}prestashop>newsletter_b40866b115d74009183e06fc86b5c014'] = 'Error: Accés d\'escriptura limitat';
 $_MODULE['<{newsletter}prestashop>newsletter_81573e0ea79138f02fd2cee94786d7e9'] = 'Error: No es pot escriure';
 $_MODULE['<{newsletter}prestashop>newsletter_73059f9530a1a37563150df4dea4bb70'] = 'Tots els subscriptors';
+$_MODULE['<{newsletter}prestashop>newsletter_a307579714b75082f3f8734971b125cd'] = 'Subscriptors amb un compte';
+$_MODULE['<{newsletter}prestashop>newsletter_d0da5609e4aebc5d532de97511a5a34a'] = 'Suscriptors sense compte';
 $_MODULE['<{newsletter}prestashop>newsletter_4713ef5f2d6fc1e8f088c850e696a04b'] = 'Exportar clients';
 $_MODULE['<{newsletter}prestashop>newsletter_dbb392a2dc9b38722e69f6032faea73e'] = 'Exportar en fitxer .CSV';
 

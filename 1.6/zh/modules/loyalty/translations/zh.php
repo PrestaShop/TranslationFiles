@@ -3,6 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{loyalty}prestashop>loyalty_36c94bd456cf8796723ad09eac258aef'] = '账号管理';
 $_MODULE['<{loyalty}prestashop>loyalty_d95cf4ab2cbf1dfb63f066b50558b07d'] = '我的帐户';
 $_MODULE['<{loyalty}prestashop>loyalty_c540093e64d84440025b2d8201f04336'] = '我的忠诚点数';
 $_MODULE['<{loyalty}prestashop>loyalty_a240fa27925a635b08dc28c9e4f9216d'] = '购买';

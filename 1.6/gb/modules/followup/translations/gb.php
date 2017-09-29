@@ -4,7 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{followup}prestashop>followup_9c34e90380dac7b56fdd19192a99d531'] = 'Customer follow-up';
-$_MODULE['<{followup}prestashop>followup_57476355fcd04050bff196ae9aa4673c'] = 'Follow-up with your customers with daily customized e-mails.';
+$_MODULE['<{followup}prestashop>followup_57476355fcd04050bff196ae9aa4673c'] = 'Follow-up with your customers with daily customised e-mails.';
 $_MODULE['<{followup}prestashop>followup_f71a41841c80c2ef0ec02a6ad5449c65'] = 'Are you sure you want to delete all settings and your logs?';
 $_MODULE['<{followup}prestashop>followup_e316b4398212d473f7f53c7728fe1c37'] = 'Settings updated succesfully';
 $_MODULE['<{followup}prestashop>followup_003b06dcfe67596f17e3de26e6a436c8'] = 'Error occurred during settings update';
@@ -42,7 +42,7 @@ $_MODULE['<{followup}prestashop>stats_d41455f28486975bfab163b66a473502'] = 'Sent
 $_MODULE['<{followup}prestashop>stats_4b416f06e3eea5059973acaa8325c8fa'] = 'Used = Number of discounts used (valid orders only)';
 $_MODULE['<{followup}prestashop>stats_3c4d61c4fbde6177beb0f337711bde6c'] = 'Conversion % = Conversion rate';
 $_MODULE['<{followup}prestashop>stats_44749712dbec183e983dcd78a7736c41'] = 'Date';
-$_MODULE['<{followup}prestashop>stats_4a43635068b63d16d845f9feb6bcc125'] = 'Canceled carts';
+$_MODULE['<{followup}prestashop>stats_4a43635068b63d16d845f9feb6bcc125'] = 'Cancelled carts';
 $_MODULE['<{followup}prestashop>stats_c336ea796ae42ed04ed1ac310a678823'] = 'Re-orders';
 $_MODULE['<{followup}prestashop>stats_8b83489bd116cb60e2f348e9c63cd7f6'] = 'Best customers';
 $_MODULE['<{followup}prestashop>stats_7d75b7b0f976b3091f490864c6ffbf97'] = 'Bad customers';

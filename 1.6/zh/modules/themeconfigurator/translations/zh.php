@@ -5,6 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_e92dabb4907f1957cabc469cca4deefc'] = '主题配置器';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_cf8fdaf6e745133c90516eb9b74e31c3'] = '配置主题的主要内容。';
+$_MODULE['<{themeconfigurator}prestashop>themeconfigurator_3ee0c881516fce384747e3107dbfc538'] = '内容无效';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_07b8c09e490f7afbdcfa9cd5bfcfd4a9'] = '上传图像时发生错误。';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_f1206f9fadc5ce41694f69129aecac26'] = '配置';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_00d23a76e43b46dae9ec7aa9dcbebb32'] = '启用';
@@ -16,6 +17,7 @@ $_MODULE['<{themeconfigurator}prestashop>items_7dce122004969d56ae2e0245cb754d35'
 $_MODULE['<{themeconfigurator}prestashop>items_d3d2e617335f08df83599665eef8a418'] = '关闭';
 $_MODULE['<{themeconfigurator}prestashop>items_2faec1f9f8cc7f8f40d521c4dd574f49'] = '激活';
 $_MODULE['<{themeconfigurator}prestashop>items_6fed80a8c8ded2f5e14a687e4a443abc'] = '图片宽度';
+$_MODULE['<{themeconfigurator}prestashop>items_0eff773cf33456a033e913f6ed18045c'] = '目标链接';
 $_MODULE['<{themeconfigurator}prestashop>items_ea4788705e6873b424c65e91c2846b19'] = '取消';
 $_MODULE['<{themeconfigurator}prestashop>items_c9cc8cce247e49bae79f15173ce97354'] = '保存';
 $_MODULE['<{themeconfigurator}prestashop>new_4994a8ffeba4ac3140beb89e8d41f174'] = '语言：';

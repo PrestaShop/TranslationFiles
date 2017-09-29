@@ -20,7 +20,7 @@ $_MODULE['<{statsforecast}prestashop>statsforecast_688cb5b32405309351ee01da0ff3c
 $_MODULE['<{statsforecast}prestashop>statsforecast_54358a914f51e1af19df8520159fe607'] = 'Inntekter';
 $_MODULE['<{statsforecast}prestashop>statsforecast_96b0141273eabab320119c467cdcaf17'] = 'Total';
 $_MODULE['<{statsforecast}prestashop>statsforecast_b1897515d548a960afe49ecf66a29021'] = 'gjennomsnittlig';
-$_MODULE['<{statsforecast}prestashop>statsforecast_89c1265be62d3ba835a3d963db5956b0'] = 'Prognose';
+$_MODULE['<{statsforecast}prestashop>statsforecast_89c1265be62d3ba835a3d963db5956b0'] = 'Forventa utvikling';
 $_MODULE['<{statsforecast}prestashop>statsforecast_3bb1503332637805beddb73a2dd1fe1b'] = 'Konvertering';
 $_MODULE['<{statsforecast}prestashop>statsforecast_ae5d01b6efa819cc7a7c05a8c57fcc2c'] = 'Besøkjande';
 $_MODULE['<{statsforecast}prestashop>statsforecast_9b945efebb006547a94415eadaa12921'] = 'Kontoer';

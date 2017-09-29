@@ -12,7 +12,9 @@ $_MODULE['<{gsitemap}prestashop>configuration_1c95b77d135b55c84429588c11697ea4']
 $_MODULE['<{gsitemap}prestashop>configuration_aa17b80751f4ae53ab8e3ed2fe99e94d'] = 'Peta laman memang sudah ada.';
 $_MODULE['<{gsitemap}prestashop>configuration_a0bfb8e59e6c13fc8d990781f77694fe'] = 'Sambung';
 $_MODULE['<{gsitemap}prestashop>configuration_9ab08b9ceeef857df07ad10e1de9301e'] = 'Sila letakkan URL Peta Laman berikut di dalam akaun Google Webmaster:';
+$_MODULE['<{gsitemap}prestashop>configuration_0dbf904a2b27f036cf06741aad221ecc'] = 'Kemaskini anda yang terakhir telah dibuat pada tarikh ini:';
 $_MODULE['<{gsitemap}prestashop>configuration_6d37779958434303f8397436a1484ed8'] = 'Untuk penggunaan lebih baik bagi modul ini, sila pastikan yang anda mempunyai';
+$_MODULE['<{gsitemap}prestashop>configuration_6a3282611e5ffb8539ce434133073f15'] = 'nilai minimum memory_limit daripada 128MB.';
 $_MODULE['<{gsitemap}prestashop>configuration_8156303464de0fba7cb8306cc768e998'] = 'Anda boleh menyunting had ini pada php.ini. Untuk keterangan lebih lanjut, sila hubungi penyedia hos laman anda.';
 $_MODULE['<{gsitemap}prestashop>configuration_0b9b4b91e0a8f59e264202a23d9c57a6'] = 'Konfigurasi Peta Laman anda';
 $_MODULE['<{gsitemap}prestashop>configuration_7f751d19f85d49a411d5691f5bb0b5f2'] = 'Berapa kerapkah anda mengemaskini kedai anda?';

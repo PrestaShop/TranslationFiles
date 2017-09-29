@@ -5,6 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{followup}prestashop>followup_e316b4398212d473f7f53c7728fe1c37'] = 'Iestatījumi atjaunoti';
 $_MODULE['<{followup}prestashop>followup_a053fc9952a7dfc79282eba56ab8ad3a'] = 'Paldies par pirkumu.';
+$_MODULE['<{followup}prestashop>followup_c2ab23672d4bb31c7664bf8e854a10f7'] = 'Mums Tevis pietrūkst!';
 $_MODULE['<{followup}prestashop>followup_a82be0f551b8708bc08eb33cd9ded0cf'] = 'Informācija';
 $_MODULE['<{followup}prestashop>followup_2faec1f9f8cc7f8f40d521c4dd574f49'] = 'Aktivizēt';
 $_MODULE['<{followup}prestashop>followup_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Ieslēgts';

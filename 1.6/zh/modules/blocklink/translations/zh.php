@@ -6,6 +6,7 @@ $_MODULE = array();
 $_MODULE['<{blocklink}prestashop>blocklink_fc738410141e4ec0c0319a81255a1431'] = '链接区域';
 $_MODULE['<{blocklink}prestashop>blocklink_baa2ae9622a47c3217d725d1537e5187'] = '添加额外的链接版块。';
 $_MODULE['<{blocklink}prestashop>blocklink_8d85948ef8fda09c2100de886e8663e5'] = '您确定要删除所有链接？';
+$_MODULE['<{blocklink}prestashop>blocklink_33476c93475bba83cdcaac18e09b95ec'] = '该模块需要挂接到一列，但你的主题没有实现';
 $_MODULE['<{blocklink}prestashop>blocklink_666f6333e43c215212b916fef3d94af0'] = '所有字段为必填';
 $_MODULE['<{blocklink}prestashop>blocklink_9394bb34611399534ffac4f0ece96b7f'] = '链接有误';
 $_MODULE['<{blocklink}prestashop>blocklink_3da9d5745155a430aac6d7de3b6de0c8'] = '链接添加成功';

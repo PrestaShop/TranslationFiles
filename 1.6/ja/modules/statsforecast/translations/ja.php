@@ -6,6 +6,7 @@ $_MODULE = array();
 $_MODULE['<{statsforecast}prestashop>statsforecast_240c994d8b61c7bd68ac1c5182bbdb2e'] = '統計ダッシュボード';
 $_MODULE['<{statsforecast}prestashop>statsforecast_d7e637a6e9ff116de2fa89551240a94d'] = '訪問';
 $_MODULE['<{statsforecast}prestashop>statsforecast_a28735af01fbb1e35371cb120985ac47'] = '登録';
+$_MODULE['<{statsforecast}prestashop>statsforecast_96b0141273eabab320119c467cdcaf17'] = '合計';
 $_MODULE['<{statsforecast}prestashop>statsforecast_b1897515d548a960afe49ecf66a29021'] = '平均';
 $_MODULE['<{statsforecast}prestashop>statsforecast_89c1265be62d3ba835a3d963db5956b0'] = '予想';
 $_MODULE['<{statsforecast}prestashop>statsforecast_3bb1503332637805beddb73a2dd1fe1b'] = 'コンバージョン';

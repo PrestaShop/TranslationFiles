@@ -6,6 +6,7 @@ $_MODULE = array();
 $_MODULE['<{dashproducts}prestashop>dashproducts_6655df4af87b2038afd507a33545a56d'] = 'ダッシュボードの商品';
 $_MODULE['<{dashproducts}prestashop>dashproducts_2ea989f83006e233627987293f4bde0a'] = 'お客様名';
 $_MODULE['<{dashproducts}prestashop>dashproducts_068f80c7519d0528fb08e82137a72131'] = '商品';
+$_MODULE['<{dashproducts}prestashop>dashproducts_96b0141273eabab320119c467cdcaf17'] = '合計';
 $_MODULE['<{dashproducts}prestashop>dashproducts_44749712dbec183e983dcd78a7736c41'] = '日付';
 $_MODULE['<{dashproducts}prestashop>dashproducts_ec53a8c4f07baed5d8825072c89799be'] = 'ステータス';
 $_MODULE['<{dashproducts}prestashop>dashproducts_3ec365dd533ddb7ef3d1c111186ce872'] = '詳細';

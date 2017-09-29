@@ -16,7 +16,7 @@ $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_eca60ae8611369fe28a02e2ab8c
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_7e823b37564da492ca1629b4732289a8'] = 'ნოემბერი';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_82331503174acbae012b2004f6431fa5'] = 'დეკემბერი';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_f4f70727dc34561dfde1a3c529b6205c'] = 'პარამეტრები';
-$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_c9cc8cce247e49bae79f15173ce97354'] = 'Сохранить';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_c9cc8cce247e49bae79f15173ce97354'] = 'შენახვა';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_387a8014f530f080bf2f3be723f8c164'] = 'ლინკების სია';
 
 

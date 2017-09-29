@@ -49,6 +49,8 @@ $_MODULE['<{autoupgrade}prestashop>adminpreferences_95be164e850e88c5282e84669f36
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_46f18d3960afc01e5a1a5a0e0e9d571b'] = 'Modul yenilikləri üçün avomatik yoxlama';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_686a2ac82a5a64eca870ba9a55b8a675'] = 'Yeni modullar və yeniliklər modullar səhifəsində göstərilir';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_a9fff6d50be898f47a507354626b8b8d'] = 'Optimizasiya yardımlarını gizlə';
+$_MODULE['<{autoupgrade}prestashop>adminpreferences_e4e2107f99e82247d7e32ac7919c4416'] = 'Optimizasiya təkliflərini arxa ofisdə gizlət';
+$_MODULE['<{autoupgrade}prestashop>adminpreferences_79a8435260e0c3b17e30ccb1c6dfc75c'] = 'Təchizatçı və İstehsalçıları göstər';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_4be87dc8773fa2fb95b7b8302cb47fa9'] = 'istehsalçı və satıcıları müvafiq bölmələr deaktiv olsa belə göstər';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_9f47ef1ea6bca844b91ceb0322e6ae83'] = 'Smarty 2 yerinə 3 istifadə et';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_d5bc5fd307b108537039b6b6f98889d5'] = 'Vaxt zonası:';

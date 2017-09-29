@@ -14,7 +14,7 @@ $_MODULE['<{blockcart}prestashop>blockcart_eefd19ecf1f6d94a308dcfc95981bbf9'] = 
 $_MODULE['<{blockcart}prestashop>blockcart_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Activado';
 $_MODULE['<{blockcart}prestashop>blockcart_b9f5c797ebbf55adccdd8539a65a0241'] = 'Desactivado';
 $_MODULE['<{blockcart}prestashop>blockcart_a87a2d4a45b5a7e682089167c1d5232a'] = 'Mostrar ventas cruzadas';
-$_MODULE['<{blockcart}prestashop>blockcart_89e535251f4749df29ad3a288deaa017'] = 'Activar la vista de ventas cruzadas para el carrito.';
+$_MODULE['<{blockcart}prestashop>blockcart_89e535251f4749df29ad3a288deaa017'] = 'Activar visualización de ventas cruzadas para el carrito.';
 $_MODULE['<{blockcart}prestashop>blockcart_ce8bd2479bb85218eb304a9a2903a157'] = 'Productos para mostrar en ventas cruzadas';
 $_MODULE['<{blockcart}prestashop>blockcart_5f2effb52d25d197793288dfa94c27ce'] = 'Definir el número de productos que se mostrarán en el bloque de ventas cruzadas.';
 $_MODULE['<{blockcart}prestashop>blockcart_c9cc8cce247e49bae79f15173ce97354'] = 'Guardar';
@@ -43,7 +43,7 @@ $_MODULE['<{blockcart}prestashop>crossselling_ef2b66b0b65479e08ff0cce29e19d006']
 $_MODULE['<{blockcart}prestashop>crossselling_dd1f775e443ff3b9a89270713580a51b'] = 'Anterior';
 $_MODULE['<{blockcart}prestashop>crossselling_4351cfebe4b61d8aa5efa1d020710005'] = 'Ver';
 $_MODULE['<{blockcart}prestashop>crossselling_10ac3d04253ef7e1ddc73e6091c0cd55'] = 'Siguiente';
-$_MODULE['<{blockcart}prestashop>blockcart_03e9618cc6e69fe15a57c7377827a804'] = 'A determinar';
+$_MODULE['<{blockcart}prestashop>blockcart_03e9618cc6e69fe15a57c7377827a804'] = 'Pendiente de definir';
 $_MODULE['<{blockcart}prestashop>blockcart_98b3009e61879600839e1ee486bb3282'] = 'Cerrar Ventana';
 $_MODULE['<{blockcart}prestashop>blockcart_544c3bd0eac526113a9c66542be1e5bc'] = 'Producto añadido correctamente a su carrito de compras';
 $_MODULE['<{blockcart}prestashop>blockcart_694e8d1f2ee056f98ee488bdc4982d73'] = 'Cantidad';

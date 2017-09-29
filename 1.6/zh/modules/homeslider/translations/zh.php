@@ -5,6 +5,9 @@ $_MODULE = array();
 
 $_MODULE['<{homeslider}prestashop>homeslider_693b83f5eca43e2bb1675287c37ce9e2'] = '您的主页幻灯片';
 $_MODULE['<{homeslider}prestashop>homeslider_c17aed434289cedd02618451e12c8da6'] = '在主页添加幻灯片。';
+$_MODULE['<{homeslider}prestashop>homeslider_3f80dc2cdd06939d4f5514362067cd86'] = '无效值';
+$_MODULE['<{homeslider}prestashop>homeslider_9f79795e050649dc6b8bd0cdc874cbdc'] = '无效的幻灯片位置';
+$_MODULE['<{homeslider}prestashop>homeslider_5c8bedc4c0c9f42d9b0f14340bbe53da'] = '无效的幻灯片ID';
 $_MODULE['<{homeslider}prestashop>homeslider_20015706a8cbd457cbb6ea3e7d5dc9b3'] = '配置更新';
 $_MODULE['<{homeslider}prestashop>homeslider_7cc92687130ea12abb80556681538001'] = '图片上传错误';
 $_MODULE['<{homeslider}prestashop>homeslider_b9f5c797ebbf55adccdd8539a65a0241'] = '禁用';

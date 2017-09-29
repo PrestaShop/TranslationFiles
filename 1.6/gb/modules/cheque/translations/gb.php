@@ -22,12 +22,12 @@ $_MODULE['<{cheque}prestashop>payment_execution_644818852b4dd8cf9da73543e30f045a
 $_MODULE['<{cheque}prestashop>payment_execution_6ff063fbc860a79759a7369ac32cee22'] = 'Checkout';
 $_MODULE['<{cheque}prestashop>payment_execution_8520b283b0884394b13b80d5689628b3'] = 'Check payment';
 $_MODULE['<{cheque}prestashop>payment_execution_f1d3b424cd68795ecaa552883759aceb'] = 'Order summary';
-$_MODULE['<{cheque}prestashop>payment_execution_879f6b8877752685a966564d072f498f'] = 'Your shopping cart is empty.';
+$_MODULE['<{cheque}prestashop>payment_execution_879f6b8877752685a966564d072f498f'] = 'Your shopping basket is empty.';
 $_MODULE['<{cheque}prestashop>payment_execution_060bf2d587991d8f090a1309b285291c'] = 'Check';
 $_MODULE['<{cheque}prestashop>payment_execution_76ca011e4772bfcce26aecd42c598510'] = 'You have chosen to pay by check.';
 $_MODULE['<{cheque}prestashop>payment_execution_c884ed19483d45970c5bf23a681e2dd2'] = 'Here is a short summary of your order:';
 $_MODULE['<{cheque}prestashop>payment_execution_3b3b41f131194e747489ef93e778ed0d'] = 'The total amount of your order comes to:';
-$_MODULE['<{cheque}prestashop>payment_execution_1f87346a16cf80c372065de3c54c86d9'] = '(tax incl.)';
+$_MODULE['<{cheque}prestashop>payment_execution_1f87346a16cf80c372065de3c54c86d9'] = '(VAT incl.)';
 $_MODULE['<{cheque}prestashop>payment_execution_7b1c6e78d93817f61f2b1bbc2108a803'] = 'We accept several currencies to receive payments by check.';
 $_MODULE['<{cheque}prestashop>payment_execution_a7a08622ee5c8019b57354b99b7693b2'] = 'Choose one of the following:';
 $_MODULE['<{cheque}prestashop>payment_execution_f73ad0f08052884ff465749bf48b55ce'] = 'We allow the following currencies to be sent by check:';

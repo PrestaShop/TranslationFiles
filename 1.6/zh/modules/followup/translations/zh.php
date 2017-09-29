@@ -3,8 +3,10 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{followup}prestashop>followup_9c34e90380dac7b56fdd19192a99d531'] = '客户跟进';
 $_MODULE['<{followup}prestashop>followup_f71a41841c80c2ef0ec02a6ad5449c65'] = '您确定要删除所有的设置和您的记录？';
 $_MODULE['<{followup}prestashop>followup_edf9feeab43a7623f6afc152d1ede515'] = '为您取消购物车而发出的折扣';
+$_MODULE['<{followup}prestashop>followup_a053fc9952a7dfc79282eba56ab8ad3a'] = '感谢您的下单。';
 $_MODULE['<{followup}prestashop>followup_a82be0f551b8708bc08eb33cd9ded0cf'] = '信息';
 $_MODULE['<{followup}prestashop>followup_b547c073d144a57761d1d00d0b9d9f27'] = '取消购物车';
 $_MODULE['<{followup}prestashop>followup_2faec1f9f8cc7f8f40d521c4dd574f49'] = '激活';

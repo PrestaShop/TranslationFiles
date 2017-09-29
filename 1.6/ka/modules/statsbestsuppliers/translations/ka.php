@@ -3,8 +3,8 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{statsbestsuppliers}prestashop>statsbestsuppliers_49ee3087348e8d44e1feda1917443987'] = 'Наименование';
-$_MODULE['<{statsbestsuppliers}prestashop>statsbestsuppliers_ea067eb37801c5aab1a1c685eb97d601'] = 'итого к оплате';
+$_MODULE['<{statsbestsuppliers}prestashop>statsbestsuppliers_49ee3087348e8d44e1feda1917443987'] = 'სახელი';
+$_MODULE['<{statsbestsuppliers}prestashop>statsbestsuppliers_ea067eb37801c5aab1a1c685eb97d601'] = 'სულ გადახდილი';
 
 
 return $_MODULE;

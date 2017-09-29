@@ -3,6 +3,11 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{trackingfront}prestashop>trackingfront_e8a827db4eca37d2c6cdef8e406f6fa9'] = 'التتبع - واجهة الموقع';
+$_MODULE['<{trackingfront}prestashop>trackingfront_8f5ac7793b2547cd025a7335f4934d26'] = 'تسجيل الدخول مطلوب';
+$_MODULE['<{trackingfront}prestashop>trackingfront_6f658a5bbec855ca5ae4ef4c94eb5d43'] = 'تسجيل الدخول غير صالح';
+$_MODULE['<{trackingfront}prestashop>trackingfront_962c91be4b1056412febf0c272760814'] = 'كلمة السر مطلوبة';
+$_MODULE['<{trackingfront}prestashop>trackingfront_703c2b69e5d9f7072b7db5338214448b'] = 'كلمة المرور غير صحيحة';
 $_MODULE['<{trackingfront}prestashop>trackingfront_c41c77e4dddc04b1e0752a6050ae5656'] = 'البريد الإلكتروني أو كلمة المرور غير صحيحة';
 $_MODULE['<{trackingfront}prestashop>trackingfront_10965b2740f42ad4887932c35cee26ab'] = 'فريدة الزوار';
 $_MODULE['<{trackingfront}prestashop>trackingfront_ae5d01b6efa819cc7a7c05a8c57fcc2c'] = 'الزوار';
@@ -14,6 +19,7 @@ $_MODULE['<{trackingfront}prestashop>trackingfront_2e27c4006a026eacfc1f85b41bf9b
 $_MODULE['<{trackingfront}prestashop>trackingfront_86190054fc32554662ffbb12b717e8d0'] = 'الرسم في المئة';
 $_MODULE['<{trackingfront}prestashop>trackingfront_51d53cd2ecdae6b5dd3397875197e898'] = 'فوق الرسم';
 $_MODULE['<{trackingfront}prestashop>trackingfront_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'المبيعات';
+$_MODULE['<{trackingfront}prestashop>trackingfront_da9cb586c6689202ca65cd77fd9b84ef'] = 'متوسط سلة التسوق';
 $_MODULE['<{trackingfront}prestashop>trackingfront_200f5c9c419f0a53d5d361eff7b33abc'] = 'تسجيل معدل';
 $_MODULE['<{trackingfront}prestashop>trackingfront_89741aae300253f498b0993fa678fa18'] = 'معدل طلب الشراء';
 $_MODULE['<{trackingfront}prestashop>account_c87aacf5673fada1108c9f809d354311'] = 'تسجيل خروج';
@@ -22,6 +28,7 @@ $_MODULE['<{trackingfront}prestashop>account_7cbb885aa1164b390a0bc050a64e1812'] 
 $_MODULE['<{trackingfront}prestashop>account_537c66b24ef5c83b7382cdc3f34885f2'] = 'السنة';
 $_MODULE['<{trackingfront}prestashop>account_1e6d57e813355689e9c77e947d73ad8f'] = 'من';
 $_MODULE['<{trackingfront}prestashop>account_33caa076f23f453dd4061726f3706325'] = 'إلى:';
+$_MODULE['<{trackingfront}prestashop>account_5fa8aff419bb8e614b178cf1563ac13a'] = 'أظهر تفاصيل منتجاتك';
 $_MODULE['<{trackingfront}prestashop>account_b718adec73e04ce3ec720dd11a06a308'] = 'الرقم التعريفي';
 $_MODULE['<{trackingfront}prestashop>account_49ee3087348e8d44e1feda1917443987'] = 'الاسم';
 $_MODULE['<{trackingfront}prestashop>account_ae5d01b6efa819cc7a7c05a8c57fcc2c'] = 'الزوار';
@@ -32,7 +39,9 @@ $_MODULE['<{trackingfront}prestashop>account_a9841e29f2c8180709b16cd2a13c55fe'] 
 $_MODULE['<{trackingfront}prestashop>account_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'المبيعات';
 $_MODULE['<{trackingfront}prestashop>account_a85eba4c6c699122b2bb1387ea4813ad'] = 'سلة الشراء';
 $_MODULE['<{trackingfront}prestashop>account_43005b13d452a4ad6f2d8e29b499c55a'] = 'ليموزين. معدل';
+$_MODULE['<{trackingfront}prestashop>account_e14c8640d236365d11a060832b219a11'] = 'نسبة الطلبات';
 $_MODULE['<{trackingfront}prestashop>account_316853cc3718335f11c048e33b9be98a'] = 'فوق';
+$_MODULE['<{trackingfront}prestashop>account_b450fdef2453e92c31263a70f14fbd7b'] = '¤';
 $_MODULE['<{trackingfront}prestashop>account_0bcef9c45bd8a48eda1b26eb0c61c869'] = '٪';
 $_MODULE['<{trackingfront}prestashop>login_b6d4223e60986fa4c9af77ee5f7149c5'] = 'تسجيل الدخول';
 $_MODULE['<{trackingfront}prestashop>login_dc647eb65e6711e155375218212b3964'] = 'كلمة المرور';

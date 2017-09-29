@@ -10,8 +10,10 @@ $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_c3987e4cac14a8456515f0d20
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_fa01fd956e87307bce4c90a0de9b0437'] = 'Klienta valsts';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_7599b57d77ef1608b2f6da579794cc5b'] = 'Filtrēt klienta valsti.';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_2198f293f5e1e95dddeff819fbca0975'] = 'Jaunumu Abonenti';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_99006a61d48499231e1be92241cf772a'] = 'Filtrēt parakstīšanas ziņas.';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_7e3a51a56ddd2846e21c33f05e0aea6f'] = 'Visi klienti';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_39f7a3e2b56e9bfd753ba6325533a127'] = 'Abonenti';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_011d8c5d94f729f013963d856cd78745'] = 'Nav parakstīto.';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_417d63b1effb110e438d4b4b9f0fbd95'] = 'Kupona kods ir nederīgs.';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_c888438d14855d7d96a2724ee9c306bd'] = 'Iestatījumi atjaunoti';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
@@ -48,6 +50,8 @@ $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_f6df4ad6dc4798f26d1f2460e
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_375afa60efcc1d48300bd339cb8154b0'] = 'E-pasta adreses meklēšanai';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_e347582d22a4ba3c822de504b23d4704'] = 'Piemērs: contact@prestashop.com vai @prestashop.com';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_13348442cc6a27032d2b4aa28b75a5d3'] = 'Meklēt';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_48e3d5f66961b621c78f709afcd7d437'] = 'Lejupielādēt failu';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_b40866b115d74009183e06fc86b5c014'] = 'Kļūda: Rakstīšanas tiesības ir ierobežotas';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_87b0ca57db642f4e7780174a6abdc37d'] = 'Nekas netika atrasts!';
 $_MODULE['<{blocknewsletter}prestashop>list_action_enable_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Ieslēgts';
 $_MODULE['<{blocknewsletter}prestashop>list_action_enable_b9f5c797ebbf55adccdd8539a65a0241'] = 'Izslēgts';

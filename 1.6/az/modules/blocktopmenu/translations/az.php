@@ -16,6 +16,7 @@ $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e5dc8e5afea0a065948622039358de3
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_ec211f7c20af43e742bf2570c3cb84f9'] = 'Əlavə ET';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_06933067aafd48425d67bcb01bba5cb6'] = 'Yenilə';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_c7da501f54544eba6787960200d9efdb'] = 'Səhifə';
+$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_ec136b444eede3bc85639fac0dd06229'] = 'əlavə edənlər var';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_c0bd7654d5b278e65f21cf4e9153fdb4'] = 'İstehsalçı';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_af1b98adf7f686b84cd0b443e022b7a0'] = 'Kateqoriyalar';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_12a521af593422cd508f7707662c9eb2'] = 'Mağazalar';

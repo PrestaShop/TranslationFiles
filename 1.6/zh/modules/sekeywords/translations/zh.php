@@ -13,6 +13,7 @@ $_MODULE['<{sekeywords}prestashop>sekeywords_359f9e79e746fa9f684e5cda9e60ca2e'] 
 $_MODULE['<{sekeywords}prestashop>sekeywords_ec2184245585ba979912af9e34d738c6'] = '当访问者来到您的网站，Web服务器会注意到他/她来自的网站链接。然后由该模块解析此链接，如果它发现这里引用到一个已知的搜索引擎，它会在里面找到关键字。';
 $_MODULE['<{sekeywords}prestashop>sekeywords_ef79a74a2fd296e19e8cc58cdae91d43'] = '该模块可以识别的Prestashop的统计/搜索引擎页面中列出所有的搜索引擎 - 您可以添加更多！';
 $_MODULE['<{sekeywords}prestashop>sekeywords_dcbcf5d190af87351a16edd5f132c657'] = '重要提示：在2013年9月，谷歌选择了使用SSL来加密其搜索查询。这意味着所有在世界上引用者为基础的工具（包括本网站）不能识别谷歌的关键字了。';
+$_MODULE['<{sekeywords}prestashop>sekeywords_16d5f8dc3bc4411c85848ae9cf6a947a'] = '%d 关键字符合您查询。';
 $_MODULE['<{sekeywords}prestashop>sekeywords_5029f8eef402bb8ddd6191dffb5e7c19'] = '%d 关键字符合您查询。';
 $_MODULE['<{sekeywords}prestashop>sekeywords_0849140171616600e8f2c35f0a225212'] = '按关键字筛选';
 $_MODULE['<{sekeywords}prestashop>sekeywords_6e632566b6e16dbd2273e83d7c53182b'] = '出现';

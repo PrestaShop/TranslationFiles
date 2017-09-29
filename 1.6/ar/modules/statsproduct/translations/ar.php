@@ -3,8 +3,14 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{statsproduct}prestashop>statsproduct_78e454064a7d3a7755a011a3b79f31a7'] = 'تفاصيل المنتج';
 $_MODULE['<{statsproduct}prestashop>statsproduct_6602bbeb2956c035fb4cb5e844a4861b'] = 'المعالج';
+$_MODULE['<{statsproduct}prestashop>statsproduct_f083d0403991f2b0ae72ea8782518f36'] = 'كمية المشتريات مقارنة بعدد المشاهدات';
 $_MODULE['<{statsproduct}prestashop>statsproduct_3ec365dd533ddb7ef3d1c111186ce872'] = 'النفاصيل';
+$_MODULE['<{statsproduct}prestashop>statsproduct_290b169159edc205e3a46902d4554d52'] = 'إجمالي ما تم شراؤه';
+$_MODULE['<{statsproduct}prestashop>statsproduct_155d5c362e6887660600763fc0d55f02'] = 'المبيعات (شاملة الضريبة)';
+$_MODULE['<{statsproduct}prestashop>statsproduct_8041d874fe39d54c6e78156c27341c85'] = 'إجمالي ما تم مشاهدته';
+$_MODULE['<{statsproduct}prestashop>statsproduct_d311128c6b9f34f85e6b0e29bcbcd165'] = 'نسبة التحويل';
 $_MODULE['<{statsproduct}prestashop>statsproduct_998e4c5c80f27dec552e99dfed34889a'] = 'إستيراد ملف إعدادات';
 $_MODULE['<{statsproduct}prestashop>statsproduct_c90b9dca2d3f5bb6e0d0bdceac8a631d'] = 'السمة مبيعات التوزيع';
 $_MODULE['<{statsproduct}prestashop>statsproduct_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'المبيعات';
@@ -23,6 +29,7 @@ $_MODULE['<{statsproduct}prestashop>statsproduct_b1c94ca2fbc3e78fc30069c8d0f0168
 $_MODULE['<{statsproduct}prestashop>statsproduct_6ccf03bc05e4b749b74b5d577c7e7d3a'] = 'المنتجات المتاحة';
 $_MODULE['<{statsproduct}prestashop>statsproduct_63d5049791d9d79d86e9a108b0a999ca'] = 'المرجع';
 $_MODULE['<{statsproduct}prestashop>statsproduct_49ee3087348e8d44e1feda1917443987'] = 'الاسم';
+$_MODULE['<{statsproduct}prestashop>statsproduct_7bd5825a187064017975513b95d7f7de'] = 'الكمية المتاحة للبيع';
 $_MODULE['<{statsproduct}prestashop>statsproduct_e22269bb51f9f2394e148716babbafbb'] = 'الشعبية';
 $_MODULE['<{statsproduct}prestashop>statsproduct_5e9613e58f3bdbc89b1fef07274c0877'] = 'الزيارات (X100)';
 $_MODULE['<{statsproduct}prestashop>statsproduct_287234a1ff35a314b5b6bc4e5828e745'] = 'الخصائص';

@@ -44,7 +44,7 @@ $_MODULE['<{themeconfigurator}prestashop>items_100eb3bd7b79830fe86288a63e13d485'
 $_MODULE['<{themeconfigurator}prestashop>items_6fed80a8c8ded2f5e14a687e4a443abc'] = 'Ancho de la imagen';
 $_MODULE['<{themeconfigurator}prestashop>items_d399848208da8b80a306af0fd62bb03f'] = 'píxeles';
 $_MODULE['<{themeconfigurator}prestashop>items_2aa3aa9d021c7cfffb5afa08f52fbc51'] = 'Altura de la imagen';
-$_MODULE['<{themeconfigurator}prestashop>items_0eff773cf33456a033e913f6ed18045c'] = 'Enlace de destino';
+$_MODULE['<{themeconfigurator}prestashop>items_0eff773cf33456a033e913f6ed18045c'] = 'Destino del enlace';
 $_MODULE['<{themeconfigurator}prestashop>items_78698b9b0fa4eaac0876da3a900d5024'] = 'Abrir el enlace en una nueva pestaña/página';
 $_MODULE['<{themeconfigurator}prestashop>items_9e728651dbd9d313504d86294e193249'] = 'Código HTML opcional';
 $_MODULE['<{themeconfigurator}prestashop>items_ea4788705e6873b424c65e91c2846b19'] = 'Cancelar';

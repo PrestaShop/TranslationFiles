@@ -29,6 +29,7 @@ $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e93c33bd1341ab74195430daeb63db1
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_387a8014f530f080bf2f3be723f8c164'] = 'รายการลิ้งค์';
 $_MODULE['<{blocktopmenu}prestashop>form_1063e38cb53d94d386f21227fcd84717'] = 'ลบออก';
 $_MODULE['<{blocktopmenu}prestashop>form_ec211f7c20af43e742bf2570c3cb84f9'] = 'เพิ่ม';
+$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_b61541208db7fa7dba42c85224405911'] = 'เมนู';
 
 
 return $_MODULE;

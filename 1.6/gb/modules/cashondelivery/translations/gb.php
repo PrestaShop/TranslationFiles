@@ -8,7 +8,7 @@ $_MODULE['<{cashondelivery}prestashop>validation_f1d3b424cd68795ecaa552883759ace
 $_MODULE['<{cashondelivery}prestashop>validation_d538c5b86e9a71455ba27412f4e9ab51'] = 'Cash on delivery (COD) payment';
 $_MODULE['<{cashondelivery}prestashop>validation_ad2f6328c24caa7d25dd34bfc3e7e25a'] = 'You have chosen the Cash on Delivery method.';
 $_MODULE['<{cashondelivery}prestashop>validation_e2867a925cba382f1436d1834bb52a1c'] = 'The total amount of your order is';
-$_MODULE['<{cashondelivery}prestashop>validation_1f87346a16cf80c372065de3c54c86d9'] = '(tax incl.)';
+$_MODULE['<{cashondelivery}prestashop>validation_1f87346a16cf80c372065de3c54c86d9'] = '(VAT incl.)';
 $_MODULE['<{cashondelivery}prestashop>validation_52f64bc0164b0e79deaeaaaa7e93f98f'] = 'Please confirm your order by clicking \'I confirm my order\'.';
 $_MODULE['<{cashondelivery}prestashop>validation_569fd05bdafa1712c4f6be5b153b8418'] = 'Other payment methods';
 $_MODULE['<{cashondelivery}prestashop>validation_46b9e3665f187c739c55983f757ccda0'] = 'I confirm my order';

@@ -7,6 +7,7 @@ $_MODULE['<{dashgoals}prestashop>dashgoals_86f5978d9b80124f509bdb71786e929e'] = 
 $_MODULE['<{dashgoals}prestashop>dashgoals_659e59f062c75f81259d22786d6c44aa'] = 'Fevral';
 $_MODULE['<{dashgoals}prestashop>dashgoals_fa3e5edac607a88d8fd7ecb9d6d67424'] = 'Mart';
 $_MODULE['<{dashgoals}prestashop>dashgoals_3fcf026bbfffb63fb24b8de9d0446949'] = 'Aprel';
+$_MODULE['<{dashgoals}prestashop>dashgoals_195fbb57ffe7449796d23466085ce6d8'] = 'May';
 $_MODULE['<{dashgoals}prestashop>dashgoals_688937ccaf2a2b0c45a1c9bbba09698d'] = 'İyun';
 $_MODULE['<{dashgoals}prestashop>dashgoals_1b539f6f34e8503c97f6d3421346b63c'] = 'İyul';
 $_MODULE['<{dashgoals}prestashop>dashgoals_41ba70891fb6f39327d8ccb9b1dafb84'] = 'Avqust';

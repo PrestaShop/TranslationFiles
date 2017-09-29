@@ -26,6 +26,8 @@ $_LANGMAIL['Password query confirmation'] = 'Confirmação de solicitação de s
 $_LANGMAIL['Newsletter voucher'] = 'Newsletter - cupom de desconto';
 $_LANGMAIL['Newsletter confirmation'] = 'Confirmação da Newsletter';
 $_LANGMAIL['Email verification'] = 'Verificação de e-mail';
+$_LANGMAIL['Your wishlist\'s link'] = 'Link da sua lista de desejos';
+$_LANGMAIL['Message from %1$s %2$s'] = 'Mensagem de %1$s %2$s';
 $_LANGMAIL['%1$s sent you a link to %2$s'] = '%1$s lhe enviou um link para %2$s';
 
 

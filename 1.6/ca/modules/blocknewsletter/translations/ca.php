@@ -49,7 +49,11 @@ $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_1d612b943b8f4792bff603384
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_c9cc8cce247e49bae79f15173ce97354'] = 'Desar';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_c48244f3d519c8c3260f2a40022f8d27'] = 'Exporta les adreces dels clients';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_521f7e76a7d4f9e50c50bb945559b942'] = 'Filtra els clients per estat.';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_1b09c341aa487e26dac94d2467b7f7e3'] = 'Filtrar els clients que s\'han subscrit a la newsletter o no, i que tenen un compte o no.';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_e8be50a6977f278040458abdb2b18229'] = 'Els clients poden subscriure al seu butlletí de notícies al registrar, o introduint el seu correu electrònic en forma de notícies.';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_847b0223c73ac0fec0d9df6539c7cad6'] = 'Tots els subscriptors';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_a307579714b75082f3f8734971b125cd'] = 'Subscriptors amb un compte';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_d0da5609e4aebc5d532de97511a5a34a'] = 'Suscriptors sense compte';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_498bed86a7c58dcf1125dd21f40a6482'] = 'Filtrar els clients que han accedit a rebre ofertes o no dels seus socis.';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_dbb392a2dc9b38722e69f6032faea73e'] = 'Exportar en fitxer .CSV';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_f6df4ad6dc4798f26d1f2460eef4f2e9'] = 'Cercar per adreces';
@@ -60,6 +64,8 @@ $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_82e5e0bc0f9c776c98253d569
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_644ecc2486a059ca16b001a77909bf40'] = 'El fitxer .CSV ha estat exportat: s\'han trobat %d clients.';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_48e3d5f66961b621c78f709afcd7d437'] = 'Descarregui el fitxer';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_dca37b874cf34bd5ebcf1c2fdc59a8b4'] = 'ADVERTÈNCIA: En obrir aquest fitxer .csv amb Excel, trieu codificació UTF-8 per evitar caràcters estranys.';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_b40866b115d74009183e06fc86b5c014'] = 'Error: Accés d\'escriptura limitat';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_87b0ca57db642f4e7780174a6abdc37d'] = 'No s\'han trobat resultats!';
 $_MODULE['<{blocknewsletter}prestashop>list_action_enable_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Activat';
 $_MODULE['<{blocknewsletter}prestashop>list_action_enable_b9f5c797ebbf55adccdd8539a65a0241'] = 'Desactivat';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_ffb7e666a70151215b4c55c6268d7d72'] = 'Butlletí de notícies (newsletter)';

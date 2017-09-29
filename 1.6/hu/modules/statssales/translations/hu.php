@@ -9,13 +9,22 @@ $_MODULE['<{statssales}prestashop>statssales_6602bbeb2956c035fb4cb5e844a4861b'] 
 $_MODULE['<{statssales}prestashop>statssales_bdaa0cab56c2880f8f60e6a2cef40e63'] = 'Rendelési állapotokról';
 $_MODULE['<{statssales}prestashop>statssales_fdfa8599f3887bef99e9572f3611260f'] = 'A Háttérirodánál a következő rendelési állapotokat módosíthatod: Csekk befizetésre vár, Fizetés elfogadva, Előkészítés folyamatban, Szállítás, Kézbesítve, Törölve, Visszatérítés, Fizetési hiba, Készlethiány és Átutalásra vár.';
 $_MODULE['<{statssales}prestashop>statssales_4b75384caa4e6830c22f15e06e0bfac0'] = 'Ezek a rendelési állapotok nem távolíthatóak el a Háttérirodából, mindazonáltal, lehetőséged van több hozzáadására.';
+$_MODULE['<{statssales}prestashop>statssales_ddb21e1caa84c463bc744c412a7b05f5'] = 'A következő grafikonok egy kiválasztott időszakra megjelenítik a webáruházad rendeléseinek és eladásainak alakulását.';
+$_MODULE['<{statssales}prestashop>statssales_ef9c3c65723819a9c183d857a39ff403'] = 'Ezt a képernyőt gyakran érdemes felkeresned, mivel segítségével gyorsan megfigyelheted a webáruházad életképességét, továbbá lehetővé teszi több időszak megfigyelését is.';
+$_MODULE['<{statssales}prestashop>statssales_5cc6f5194e3ef633bcab4869d79eeefa'] = 'Csak érvényes rendelések vannak grafikusan megjelenítve.';
 $_MODULE['<{statssales}prestashop>statssales_c3987e4cac14a8456515f0d200da04ee'] = 'Minden ország';
 $_MODULE['<{statssales}prestashop>statssales_d7778d0c64b6ba21494c97f77a66885a'] = 'Szűrő';
 $_MODULE['<{statssales}prestashop>statssales_9ccb8353e945f1389a9585e7f21b5a0d'] = 'Leadott rendelések:';
 $_MODULE['<{statssales}prestashop>statssales_156e5c5872c9af24a5c982da07a883c2'] = 'Vásárolt termékek:';
 $_MODULE['<{statssales}prestashop>statssales_998e4c5c80f27dec552e99dfed34889a'] = 'CSV exportálás';
+$_MODULE['<{statssales}prestashop>statssales_ec3e48bb9aa902ba2ad608547fdcbfdc'] = 'Eladások:';
+$_MODULE['<{statssales}prestashop>statssales_f6825178a5fef0a97dacf963409829f0'] = 'Alább láthatod a rendelési állapotok megoszlását.';
 $_MODULE['<{statssales}prestashop>statssales_da80af4de99df74dd59e665adf1fac8f'] = 'Nincs megrendelés ebben az időszakban.';
+$_MODULE['<{statssales}prestashop>statssales_c58114720bcd52bfe96fd801cee77e93'] = 'Leadott rendelések';
+$_MODULE['<{statssales}prestashop>statssales_c8be451a5698956a0e78b5c2caab4821'] = 'Vásárolt termékek';
 $_MODULE['<{statssales}prestashop>statssales_b52b44c9d23e141b067d7e83b44bb556'] = 'Termékek:';
+$_MODULE['<{statssales}prestashop>statssales_497a2a4cf0a780ff5b60a7a6e43ea533'] = 'Eladás pénzneme: %s';
+$_MODULE['<{statssales}prestashop>statssales_17833fb3783b26e0a9bc8b21ee85302a'] = 'Rendelések százalékos aránya állapotonként.';
 
 
 return $_MODULE;

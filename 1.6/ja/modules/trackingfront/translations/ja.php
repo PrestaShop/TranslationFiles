@@ -45,6 +45,7 @@ $_MODULE['<{trackingfront}prestashop>account_0bcef9c45bd8a48eda1b26eb0c61c869'] 
 $_MODULE['<{trackingfront}prestashop>header_bf15e68d25d8a2b7664950ba7385ed0a'] = 'アフィリエイト';
 $_MODULE['<{trackingfront}prestashop>login_bf15e68d25d8a2b7664950ba7385ed0a'] = 'アフィリエイト';
 $_MODULE['<{trackingfront}prestashop>login_8954e140059f7b2544469f40161ba507'] = 'アフィリエイトのスペース';
+$_MODULE['<{trackingfront}prestashop>login_b6d4223e60986fa4c9af77ee5f7149c5'] = 'サインイン';
 $_MODULE['<{trackingfront}prestashop>login_dc647eb65e6711e155375218212b3964'] = 'パスワード';
 
 

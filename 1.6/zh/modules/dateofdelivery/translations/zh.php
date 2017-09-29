@@ -5,7 +5,18 @@ $_MODULE = array();
 
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_b0f76e26cffaf27784d901a64f39593e'] = '发货日期';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_98110868b266d63c3bacdac4430169cf'] = '显示发货的大致日期';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_32dfb655a7b12a2c5662516e82f5d79b'] = '配送日期大约是 %1$s 与 %2$s 之间';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_0ea55758c7a68c0309b915e4b718d6b8'] = '日期格式无效';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_7ccf58c950043c9fbfed668df13ce608'] = '设置已更更新';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_ecfe3ba0ff66a97029088e8e90a3f051'] = '最短时间无效';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_0245cd1cce5ecea8eb23b043be00d80a'] = '最长时间无效';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_e6843321c8b0edea8cf333519316ed7b'] = '运货商无效';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_3499ed6a79c0b8cd01157de23fc1cfe6'] = '此规则已为此运货商定义。';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_50e1f1030812a9a8fd66dfff17099fcd'] = '添加运货商规则时发生错误。';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_240276f48ff2e0e5fe620ff311e677b5'] = '更新运货商规则时发生错误。';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_b9e3eda70ccb175c96a56bd79b89bd8b'] = '运货商规则删除成功';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_25e775663057cfc945da15827d972699'] = '运货商规则添加成功';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_c20585756aa4f1b448a11ce77a054e32'] = '运货商规则更新成功';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_9d1a0949c39e66a0cd65240bc0ac9177'] = '星期日';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_6f8522e0610541f1ef215a22ffa66ff6'] = '星期一';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_5792315f09a5d54fb7e3d066672b507f'] = '星期二';
@@ -26,14 +37,26 @@ $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_eca60ae8611369fe28a02e2ab8c
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_7e823b37564da492ca1629b4732289a8'] = '十一月';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_82331503174acbae012b2004f6431fa5'] = '十二月';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_f4f70727dc34561dfde1a3c529b6205c'] = '设置';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_0008e84621e5c9f21f8a55387a28692f'] = '无存货时的额外时间';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_225e75c29d32392d311f5dc94c792384'] = '天';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_521d02cf307201053a46e0b9c5b5170c'] = '准备订单的额外时间';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_cec31ec82e3bdee482baaa9f5b11eeed'] = '准备选项';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_15b4020fafe2bcadf41fbdb2e7fa137a'] = '星期六准备';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_9685cbc6ac9090137fb087d4f48d0561'] = '星期天准备';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_104f1a7d59077b514d4105fcee0e42ff'] = '日期格式：';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_c9cc8cce247e49bae79f15173ce97354'] = '保存';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_85140afa1c99d6b4dc10179e2c5b4151'] = '运送商:';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_1b9f5204ddf0881dc9f3a7bf65d4ac15'] = '运送于';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_19dfe063714422004b75043eaf74c9b8'] = '送货选项';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_52f253c711cff509bd5e4df2b18b697a'] = '周六运送';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_fcddbca356dee064438a399fc0c4c84e'] = '周日运送';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_387a8014f530f080bf2f3be723f8c164'] = '链接列表';
+$_MODULE['<{dateofdelivery}prestashop>beforecarrier_75261aaef97717dda0ca98743b24f8f3'] = '此运货商的配送日期大约是';
+$_MODULE['<{dateofdelivery}prestashop>beforecarrier_c31e7bcb78c69bd37e6e77be0183567f'] = '有 %s 个包裹会依据您选择的配送选项大约发送于';
 $_MODULE['<{dateofdelivery}prestashop>beforecarrier_be5d5d37542d75f93a87094459f76678'] = '和';
+$_MODULE['<{dateofdelivery}prestashop>beforecarrier_c9ed8c0b07828727ca6653924b0498d3'] = '直接付款方式 (如: 信用卡)';
+$_MODULE['<{dateofdelivery}prestashop>orderdetail_32dfb655a7b12a2c5662516e82f5d79b'] = '配送日期大约是 %1$s 与 %2$s 之间';
+$_MODULE['<{dateofdelivery}prestashop>orderdetail_c9ed8c0b07828727ca6653924b0498d3'] = '直接付款方式 (如: 信用卡)';
 
 
 return $_MODULE;

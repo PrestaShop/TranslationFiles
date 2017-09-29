@@ -32,13 +32,24 @@ $_LANGADM['AdminAddresses41c2fff4867cc204120f001e7af20f7a'] = 'رقم الجوا
 $_LANGADM['AdminAdminPreferences0db377921f4ce762c62526131097968f'] = 'عام';
 $_LANGADM['AdminAdminPreferences46f18d3960afc01e5a1a5a0e0e9d571b'] = 'فحص آلى لتحديثات الإضافه';
 $_LANGADM['AdminAdminPreferences99059a2047f475cdc6428076e3360134'] = 'الإضافات و التحديثات الجديده تظهر فى صفحة الإضافات';
+$_LANGADM['AdminAdminPreferencese0c9f1de766b906e5660ea07af8a02ec'] = 'تحقق من عنوان الأي بي المسجل في الـكوكيز';
 $_LANGADM['AdminAdminPreferences0f81567617bb8ebc23f48e74d8ae8acf'] = 'التحقق من الأى بى فى الكويكز لزيادة الحمايه حتى لا تتعرض الكويكز للسرقه';
+$_LANGADM['AdminAdminPreferencesdcfba1534995899d2ca36cda978da215'] = 'العمر الكلي لكوكيز واجهة المتجر';
+$_LANGADM['AdminAdminPreferences20d6b6498eab9f749d55c9b53151e00a'] = 'حدد عدد الساعات التي ستنتهي صلاحية الكوكيز عندها. بعد انقضاء المدة، سيحتاج العميل الى اعادة تسجيل الدخول.';
 $_LANGADM['AdminAdminPreferences73cdddd7730abfc13a55efb9f5685a3b'] = 'ساعات';
+$_LANGADM['AdminAdminPreferencese62d77475fe6318731b4411ba1181dca'] = 'عمر ملفات تعريف الارتباط للمكتب الخلفي';
+$_LANGADM['AdminAdminPreferencesa676520f8296be0319ad6268657471ea'] = 'حدد عدد الساعات التي ستنتهي صلاحية الكوكيز عندها. بعد انقضاء المدة، سيحتاج مستخدم بريستاشوب الى اعادة تسجيل الدخول.';
 $_LANGADM['AdminAdminPreferencesc9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
 $_LANGADM['AdminAdminPreferencesade28d54bcdbc7c4cfd45d84ad517f7b'] = 'تحديد حجم الرفع';
 $_LANGADM['AdminAdminPreferencese7fe6b70f4558e23f0254d80f52ae6d8'] = 'الحد الأقصى لحجم للمرفقات';
+$_LANGADM['AdminAdminPreferencese78f32f514dbd49e570066db36343d13'] = 'حدد الحجم الأقصى المسموح به للملفات المرفقة (بالميغابايت). يجب أن تكون هذه القيمة أقل من أو مساوية لحجم الرفع الأقصى المحدد لخادم الوب (والذي هو حاليا %s ميغابايت).';
 $_LANGADM['AdminAdminPreferences2c111a587b8e6a65856ac7933d76bdce'] = 'ميجابيت';
+$_LANGADM['AdminAdminPreferences4ae386b852a3ee22324e8922e50c9aec'] = 'الحد الأقصى لحجم التحميل لمنتج';
+$_LANGADM['AdminAdminPreferencescabcb35221054c8ad296eb4e406e2cd7'] = 'عرّف حد الرفع للمنتجات القابلة للتحميل (بالميغابايت). هذه القيمه لابد ان تكون تساوي او اقل من الحد الاقصى لرفع الملفات المحدد على السيرفر (حالياً: %s ميغابايت).';
+$_LANGADM['AdminAdminPreferencesb48de7251c23e4b0eb0975b1c7bf9bc5'] = 'أكبر قياس لصورة المنتج';
+$_LANGADM['AdminAdminPreferences694c63d4a2b60499f7ba524fb639811f'] = 'عرّف حد الرفع للصور (بالميغابايت). هذه القيمه لابد ان تكون تساوي او اقل من الحد الاقصى لرفع الملفات المحدد على السيرفر (حالياً: %s ميغابايت).';
 $_LANGADM['AdminAdminPreferencesa274f4d4670213a9045ce258c6c56b80'] = 'الإشعارات';
+$_LANGADM['AdminAdminPreferencesb32a8e98434105bcfe4f234aa4c7b28b'] = 'التنبيهات هي فقاعات مرقّمه تُعرض في اعلى الصفحه في واجهة الادارة، بجوار اسم المتجر. الفقاعات تعرض ارقام الوحدات الجديده منذ اخر مره قمت بالنقر عليهم.';
 $_LANGADM['AdminAdminPreferences1b1befcb86d487715da458117710dfeb'] = 'عرض التنبيهات بوجود طلبات شراء جديدة';
 $_LANGADM['AdminAdminPreferencese0853b619fbd24fdabc3ae78beb81193'] = 'ستقوم هذه بعرض الإشعارات بوجود طلبات جديده فى متجرك';
 $_LANGADM['AdminAdminPreferences8004e61ca76ff500d1e6ee92f7cb7f93'] = 'عرض التنبيهات عند تسجيل عملاء جدد';
@@ -50,16 +61,24 @@ $_LANGADM['AdminAttachments49ee3087348e8d44e1feda1917443987'] = 'الاسم';
 $_LANGADM['AdminAttachments0b27918290ff5323bea1e3b78a9cf04e'] = 'الملف:';
 $_LANGADM['AdminAttachments6f6cb72d544962fa333e2e34ce64f719'] = 'الحجم';
 $_LANGADM['AdminAttachmentsbdf4f1da184f2dc052c75ad7e1afbd4a'] = 'مرتبط بـ';
+$_LANGADM['AdminAttachmentsfc1ff5390ecc7efd695f697f3d6b7e4b'] = 'المنتج(ـات)';
 $_LANGADM['AdminAttachmentsd3b206d196cd6be3a2764c1fb90b200f'] = 'حذف المحدد';
 $_LANGADM['AdminAttachmentse25f0ecd41211b01c83e5fec41df4fe7'] = 'حذف العناصر المحدده ؟';
+$_LANGADM['AdminAttachmentseefad10f0e06ebfb6a27344408e54660'] = 'هذا المُرفع مرتبط بالمنتجات التالية، فهل أنت متأكد أنك تريد حذفه؟';
+$_LANGADM['AdminAttachments8ecfb7c46cc91aaa98cc88b3f43cfffc'] = 'إضافة مرفق جديد';
+$_LANGADM['AdminAttachments5251010ec9e364492c236bf8b9983928'] = 'الملف غير موجود';
 $_LANGADM['AdminAttachmentse9cb217697088a98b1937d111d936281'] = 'ملف مرفق';
 $_LANGADM['AdminAttachments1351017ac6423911223bc19a8cb7c653'] = 'اسم الملف:';
 $_LANGADM['AdminAttachmentsb5a7adde1af5c87d7fd797b6245c2a39'] = 'الوصف';
 $_LANGADM['AdminAttachmentsc9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
+$_LANGADM['AdminAttachments1f66f9472666b18b19c22fd0f1a6a07b'] = 'حجم الملف كبير جداً. الحجم الأقصى المسموح به هو: %1$d كيلوبايت. الملف الذي تحاول رفعه حجمه %2$d كيلوبايت.';
 $_LANGADM['AdminAttachments8a23b9ee3a4502a0de3fc32c5ba7aa65'] = 'فشل فى نسخ الملف';
+$_LANGADM['AdminAttachments0c6c7ccc80b3bfb8fcb57dc63405f599'] = 'حجم الملف %1$s أكبر من الحجم الذي يسمح به الخادم. الحجم الأقصى هو %2$d ميغابايت.';
+$_LANGADM['AdminAttachmentsd647666a6c4cef994b4fa1a540ba4481'] = 'تعذرت عملية الرفع. الرجاء التحقق من الحجم الأقصى المحدد للرفع.';
 $_LANGADM['AdminAttributeGenerator81315cfd898aada1e99e0034b4b078c3'] = 'مولد سمات';
 $_LANGADM['AdminAttributeGenerator402784f5f14c30e7309a135ba6be531f'] = 'العوده لصفحة المنتج';
 $_LANGADM['AdminAttributeGenerator9446a98ad14416153cc4d45ab8b531bf'] = 'الخصائص';
+$_LANGADM['AdminAttributeGeneratorced303d99586792bb560b5e1d35ea220'] = 'هذه الميزة مُعطّلة. يمكنك تفعيلها هنا: %s.';
 $_LANGADM['AdminAttributesGroupsb718adec73e04ce3ec720dd11a06a308'] = 'الرقم التعريفي';
 $_LANGADM['AdminAttributesGroups49ee3087348e8d44e1feda1917443987'] = 'الاسم';
 $_LANGADM['AdminAttributesGroups170269305ed04c49b26b2d5dbe053dc6'] = 'عد القيم';
@@ -69,21 +88,37 @@ $_LANGADM['AdminAttributesGroupse25f0ecd41211b01c83e5fec41df4fe7'] = 'حذف ا�
 $_LANGADM['AdminAttributesGroups689202409e48743b914713f96d93947c'] = 'القيمة';
 $_LANGADM['AdminAttributesGroupscb5feb1b7314637725a2e73bdc9f7295'] = 'اللون:';
 $_LANGADM['AdminAttributesGroups5204077231fc7164e2269e96b584dd95'] = 'قائمه منسدله';
+$_LANGADM['AdminAttributesGroups8bd90a6d76a77fe0b160e8abd85c8590'] = 'أزرار اختيار';
+$_LANGADM['AdminAttributesGroupsf68b27443f6e6f685cce3f9f422a2b84'] = 'اللون أو النسيج';
 $_LANGADM['AdminAttributesGroups287234a1ff35a314b5b6bc4e5828e745'] = 'الخصائص';
+$_LANGADM['AdminAttributesGroupsf2d1c5443636295e9720caac90ea8d93'] = 'الإسم الداخلي لهذه الخاصية.';
 $_LANGADM['AdminAttributesGroups6252c0f2c2ed83b7b06dfca86d4650bb'] = 'رموز غير صحيحة:';
+$_LANGADM['AdminAttributesGroupsd274013ea65428454962a59b7b373a41'] = 'الأسم العلني';
+$_LANGADM['AdminAttributesGroupsb5e6921c2d093fbcb0088c9466ee9983'] = 'الإسم العلني لهذه الخاصية، يُعرض للعملاء.';
+$_LANGADM['AdminAttributesGroups17af8baa9b3f90e936589069e4223280'] = 'نوع الخاصية';
+$_LANGADM['AdminAttributesGroups1736c2a3dfbe74f884bf5c9750bd4606'] = 'طريقة العرض لهذه الخاصية سوف تُعرض للعملاء على صفحة المنتج.';
 $_LANGADM['AdminAttributesGroups9d55fc80bbb875322aa67fd22fc98469'] = 'ترابط المتاجر:';
 $_LANGADM['AdminAttributesGroupsc9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
 $_LANGADM['AdminAttributesGroupsc82a6100dace2b41087ba6cf99a5976a'] = 'القيم';
+$_LANGADM['AdminAttributesGroups0e010c6b3fb88bf4277c880d1657787a'] = 'مجموعة الخاصية';
+$_LANGADM['AdminAttributesGroups71c476c94d0a0e3dfc0826afd03d2dda'] = 'اختر مجموعة خواص لهذه القيمة.';
+$_LANGADM['AdminAttributesGroups22cbf85c41427960736dc10cfec5faf4'] = 'اختار لون من منتقي الألوان, او ادخال اللون بصيغة HTML (مثال "lightblue", "#CC6600").';
 $_LANGADM['AdminAttributesGroupsa3e8ae43188ae76d38f414b2bdb0077b'] = 'نسيج';
+$_LANGADM['AdminAttributesGroupsdd24a1142c1070a0efbdf43b4f0167cc'] = 'ارفع صورة تحتوي على بُنية اللون من كمبيوترك.';
 $_LANGADM['AdminAttributesGroupsba353198430b2004efeb1ac6d1f410d0'] = 'سوف يتم تجاوز لون الـ HTML!';
+$_LANGADM['AdminAttributesGroups561f47d9c8a6153b011def4fd72386d5'] = 'البُنية الحالية';
 $_LANGADM['AdminAttributesGroups7d5672f569de406c85249db6f1c99ec0'] = 'احفظ ثم اضف قيمة اخرى';
 $_LANGADM['AdminAttributesGroups9446a98ad14416153cc4d45ab8b531bf'] = 'الخصائص';
+$_LANGADM['AdminAttributesGroupsced303d99586792bb560b5e1d35ea220'] = 'هذه الميزة مُعطّلة. يمكنك تفعيلها هنا: %s.';
+$_LANGADM['AdminAttributesGroups00039b674d8ced58313546dcab88a032'] = 'إضافة خاصيه جديده';
 $_LANGADM['AdminAttributesGroups2dce4461e5743f3b01acd4599a38d646'] = 'اضف قيمة جديدة';
 $_LANGADM['AdminAttributesGroups630f6dc397fe74e52d5189e2c80f282b'] = 'رجوع الى القائمة';
 $_LANGADM['AdminAttributesGroups71e8f8a090925f75719dfa0a5eae059e'] = 'اضف قيمة جديدة';
 $_LANGADM['AdminAttributesGroups52729803b243ea9693a892161d5b8e38'] = 'إضافة خاصيه جديده';
 $_LANGADM['AdminAttributesGroups72d6d7a1885885bb55a565fd1070581a'] = 'استيراد';
 $_LANGADM['AdminAttributesGroups1f40023e11d8401b0bffadc419135247'] = 'تحرير سمة جديدة ';
+$_LANGADM['AdminAttributesGroups713271e705e5269fc82684445cd063a8'] = 'إضافة خاصيه جديده';
+$_LANGADM['AdminAttributesGroupsf7931413dee107ddf5289c8886baf7ec'] = 'تحرير: %s';
 $_LANGADM['AdminAttributesGroups577cf2cf1be74419ac04093a2b4cd64d'] = 'تحرير قيمة';
 $_LANGADM['AdminAttributesGroupsfce2e84f3cce0e5351e85e9f0cb20107'] = 'اضف قيمة جديدة';
 $_LANGADM['AdminBackup44749712dbec183e983dcd78a7736c41'] = 'التاريخ';
@@ -94,10 +129,12 @@ $_LANGADM['AdminBackupd3b206d196cd6be3a2764c1fb90b200f'] = 'حذف المحدد'
 $_LANGADM['AdminBackupe25f0ecd41211b01c83e5fec41df4fe7'] = 'حذف العناصر المحدده ؟';
 $_LANGADM['AdminBackup30c210e0173f2ff607cc84dc01ffc1f0'] = 'خيارات النسخ الإحتياطى';
 $_LANGADM['AdminBackup6afc2b40f9acff2a4d1e67f2dfcd8a30'] = 'تجاهل جداول الإحصائيات';
+$_LANGADM['AdminBackup1589ac76f2f88749f51028f09b23f9d4'] = 'إسقاط الجداول الموجودة أثناء الاستيراد.';
 $_LANGADM['AdminBackup8859ec81a77f2f2b165bf5ea9858ecfc'] = 'إسقاط الجداول الموجودة أثناء الاستيراد';
 $_LANGADM['AdminBackupb07ccf1ffff29007509d45dbcc13f923'] = 'حدد هذا الخيار لإرشاد ملف النسخة الاحتياطية لإسقاط الجداول قبل استعادة البيانات احتياطيا';
 $_LANGADM['AdminBackupc9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
 $_LANGADM['AdminBackupea4788705e6873b424c65e91c2846b19'] = 'إلغاء';
+$_LANGADM['AdminBackupf36c9a20c2ce51f491c944e41fde5ace'] = 'يبدو أن عملية النسخ الاحتياطي قد تمت بنجاح. مع ذلك يجب التحقق بعناية من ملف النسخ الاحتياطي وتحميله قبل المتابعة.';
 $_LANGADM['AdminBackupb55e509c697e4cca0e1d160a7806698f'] = 'ساعة';
 $_LANGADM['AdminBackup6a7e73161603d87b26a8eac49dab0a9c'] = 'ساعات';
 $_LANGADM['AdminBackup03727ac48595a24daed975559c944a44'] = 'اليوم';
@@ -112,28 +149,39 @@ $_LANGADM['AdminCarriersec53a8c4f07baed5d8825072c89799be'] = 'الحالة';
 $_LANGADM['AdminCarriersb00b85425e74ed2c85dc3119b78ff2c3'] = 'شحن مجاني';
 $_LANGADM['AdminCarriers52f5e0bc3859bc5f5e25130b6c7e8881'] = 'ترتيب العرض';
 $_LANGADM['AdminCarriers1d6af794b2599c1407a83029a09d1ecf'] = 'جهات الشحن:';
+$_LANGADM['AdminCarriersc26732c157d7b353c1be9f7ba8962e57'] = 'إضافة ناقل جديد';
 $_LANGADM['AdminCarriers1c76cbfe21c6f44c1d1e59d54f3e4420'] = 'الشركة';
 $_LANGADM['AdminCarriers3194ebe40c7a8c29c78ea79066b6e05c'] = 'اسم جهة الشحن أثناء اتمام الطلب';
 $_LANGADM['AdminCarriersa788f81b3aa0ef9c9efcb1fb67708d82'] = 'مع قيمة 0 ، سيتم استبدال اسم الناقل حسب اسم المحل';
 $_LANGADM['AdminCarriers9e93aab109e30d26aa231a49385c99db'] = 'رفع شعار من جهازك';
 $_LANGADM['AdminCarrierse81c4e4f2b7b93b481e13a8553c2ae1b'] = 'أو';
+$_LANGADM['AdminCarriersdde695268ea519ababd83f0ca3d274fc'] = 'مدة العبور';
 $_LANGADM['AdminCarrierscdaa245d6e50b5647bfd9fcb77ac9a21'] = 'عرض الوقت المتوقع للتسليم أثناء اتمام الطلب.';
 $_LANGADM['AdminCarrierse6b391a8d2c4d45902a23a8b6585703d'] = 'الرابط';
 $_LANGADM['AdminCarriersb3ff996fe5c77610359114835baf9b38'] = 'النطاق الجغرافي';
+$_LANGADM['AdminCarriersf8af50e8f2eb39dc8581b4943d6ec59f'] = 'النطاق الجغرافي التي سيستخدم فيها جهة الشحن.';
 $_LANGADM['AdminCarriers920bd1fb6d54c93fca528ce941464225'] = 'أذونات مجموعة المستخدمين:';
 $_LANGADM['AdminCarriers00d23a76e43b46dae9ec7aa9dcbebb32'] = 'مفعل';
 $_LANGADM['AdminCarriersb9f5c797ebbf55adccdd8539a65a0241'] = 'غير مفعل';
+$_LANGADM['AdminCarriers1c0e287237d8c352c6ead633b019c047'] = 'تطبيق تكلفة الشحن';
 $_LANGADM['AdminCarriers93cba07454f06a4a960172bbd6e2a435'] = 'نعم';
 $_LANGADM['AdminCarriersbafd7322c6e97d25b6299b5d6fe8920b'] = 'لا';
 $_LANGADM['AdminCarriers8a52ca34a90eb8486886815e62958ac1'] = 'تنطبق تكاليف الشحن وتكاليف الشحن الإضافية في أسعار المنتجات الناقل';
 $_LANGADM['AdminCarriers4b78ac8eb158840e9638a3aeb26c4a9d'] = 'الضريبة';
 $_LANGADM['AdminCarriers7475ec0d41372a307c497acb7eeea8c4'] = 'لا توجد ضريبة';
+$_LANGADM['AdminCarriers7589dfa9a5a899e9701335164c9ab520'] = 'الشحن والتسليم';
 $_LANGADM['AdminCarriers91aa2e3b1cd071ba7031bf4263e11821'] = 'وتشمل تكاليف الشحن والمناولة في سعر الناقل';
+$_LANGADM['AdminCarriers780c462e85ba4399a5d42e88f69a15ca'] = 'الفواتير';
 $_LANGADM['AdminCarriers590f6d9a5885f042982c9a911f76abda'] = 'السلوك الافتراضي';
 $_LANGADM['AdminCarrierse3d29a6f3d7588301aa04429e686b260'] = 'وفقا لسعر الاجمالي';
 $_LANGADM['AdminCarriers49fec5c86a3b43821fdf0d9aa7bbd935'] = 'وفقا للوزن الاجمالي';
+$_LANGADM['AdminCarriers082ebbb29b5ba59c293a00a55581679b'] = 'سلوك خارج النطاق';
 $_LANGADM['AdminCarriers482836cce404046ca7dc34fb0a6fc526'] = 'تطبيق اعلى سعر';
 $_LANGADM['AdminCarriers4f890cf6a72112cad95093baecf39831'] = 'تعطيل جهة الشحن';
+$_LANGADM['AdminCarriers324029d06c6bfe85489099f6e69b7637'] = 'الارتفاع الأقصى للحزمة';
+$_LANGADM['AdminCarriers3e86ececa46af50900510892f94c4ed6'] = 'العرض الأقصى للحزمة';
+$_LANGADM['AdminCarriers1935671a637346f67b485596b9fcba2c'] = 'العمق الأقصى للحزمة';
+$_LANGADM['AdminCarriers0cce6348a3d85f52a44d053f542afcbc'] = 'الوزن الأقصى للحزمة';
 $_LANGADM['AdminCarriers9d55fc80bbb875322aa67fd22fc98469'] = 'ترابط المتاجر:';
 $_LANGADM['AdminCarriersc9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
 $_LANGADM['AdminCarriers6e6fbb3d274ac15210f6b7892c7d24c1'] = 'الرجاء تعيين ناقل آخر كافتراضي قبل حذف';
@@ -147,20 +195,34 @@ $_LANGADM['AdminCarrierWizard290612199861c31d1036b185b4e69b75'] = 'ملخص';
 $_LANGADM['AdminCarrierWizard1778e0e8555dc044231c1d615b41ddea'] = 'المتاجر المتعددة';
 $_LANGADM['AdminCarrierWizard10ac3d04253ef7e1ddc73e6091c0cd55'] = 'التالي';
 $_LANGADM['AdminCarrierWizarddd1f775e443ff3b9a89270713580a51b'] = 'السابق';
+$_LANGADM['AdminCarrierWizarda20ddccbb6f808ec42cd66323e6c6061'] = 'أنهي';
 $_LANGADM['AdminCarrierWizardea4788705e6873b424c65e91c2846b19'] = 'إلغاء';
 $_LANGADM['AdminCarrierWizardc91e596246bbf8fdff9dae7b349d71d9'] = 'اسم جهة الشحن:';
 $_LANGADM['AdminCarrierWizarda788f81b3aa0ef9c9efcb1fb67708d82'] = 'مع قيمة 0 ، سيتم استبدال اسم الناقل حسب اسم المحل';
+$_LANGADM['AdminCarrierWizarddde695268ea519ababd83f0ca3d274fc'] = 'مدة العبور';
+$_LANGADM['AdminCarrierWizarde0c892f1ca1fb503987c2db8fd250a43'] = 'عرض الوقت المتوقع للتسليم أثناء اتمام الطلب.';
 $_LANGADM['AdminCarrierWizard8c2857a9ad1d8f31659e35e904e20fa6'] = 'الشعار';
+$_LANGADM['AdminCarrierWizard0979779c4569141b98591d326d343ec2'] = 'رابط التتبع';
 $_LANGADM['AdminCarrierWizard9d55fc80bbb875322aa67fd22fc98469'] = 'ترابط المتاجر:';
+$_LANGADM['AdminCarrierWizard829c7cc5ed48e11df7ac9b05e236a12c'] = 'إضافة رسوم مناولة';
 $_LANGADM['AdminCarrierWizard00d23a76e43b46dae9ec7aa9dcbebb32'] = 'مفعل';
 $_LANGADM['AdminCarrierWizardb9f5c797ebbf55adccdd8539a65a0241'] = 'غير مفعل';
 $_LANGADM['AdminCarrierWizard29aa46cc3d2677c7e0f216910df600ff'] = 'شحن مجاني';
 $_LANGADM['AdminCarrierWizardbafd7322c6e97d25b6299b5d6fe8920b'] = 'لا';
 $_LANGADM['AdminCarrierWizard93cba07454f06a4a960172bbd6e2a435'] = 'نعم';
+$_LANGADM['AdminCarrierWizard780c462e85ba4399a5d42e88f69a15ca'] = 'الفواتير';
+$_LANGADM['AdminCarrierWizard0f696253cf9dacf6079bf5060e60da06'] = 'وفقا للسعر الإجمالي.';
+$_LANGADM['AdminCarrierWizarda083cb6637472c81ec701d3342320adf'] = 'وفقا للوزن الاجمالي.';
 $_LANGADM['AdminCarrierWizard4b78ac8eb158840e9638a3aeb26c4a9d'] = 'الضريبة';
 $_LANGADM['AdminCarrierWizard6f3455d187a23443796efdcbe044096b'] = 'لا توجد ضريبة';
+$_LANGADM['AdminCarrierWizard082ebbb29b5ba59c293a00a55581679b'] = 'سلوك خارج النطاق';
 $_LANGADM['AdminCarrierWizard482836cce404046ca7dc34fb0a6fc526'] = 'تطبيق اعلى سعر';
 $_LANGADM['AdminCarrierWizard4f890cf6a72112cad95093baecf39831'] = 'تعطيل جهة الشحن';
+$_LANGADM['AdminCarrierWizard9c3448f86be5ee19015f4ecce4bbd6fe'] = 'العرض الأقصى للحزمة (%s)';
+$_LANGADM['AdminCarrierWizard497876c111e98a20564817545518f829'] = 'يجب أن تكون القيمة عددا صحيحا.';
+$_LANGADM['AdminCarrierWizard65a0cd2bca5d0a980a5582a548d79900'] = 'الارتفاع الأقصى للحزمة (%s)';
+$_LANGADM['AdminCarrierWizard8317f5bb182c1e92c11221955592b518'] = 'العمق الأقصى للحزمة (%s)';
+$_LANGADM['AdminCarrierWizardda5c987cbda47de7a6b09406b0840ec4'] = 'الوزن الأقصى للحزمة (%s)';
 $_LANGADM['AdminCarrierWizard920bd1fb6d54c93fca528ce941464225'] = 'أذونات مجموعة المستخدمين:';
 $_LANGADM['AdminCartRulesd3b206d196cd6be3a2764c1fb90b200f'] = 'حذف المحدد';
 $_LANGADM['AdminCartRulese25f0ecd41211b01c83e5fec41df4fe7'] = 'حذف العناصر المحدده ؟';
@@ -174,16 +236,22 @@ $_LANGADM['AdminCartRulesec53a8c4f07baed5d8825072c89799be'] = 'الحالة';
 $_LANGADM['AdminCartRulesf7de1b71605a10ef04416effa4c6e09e'] = 'حفظ و البقاء بنفس الصفحه';
 $_LANGADM['AdminCartRulesbd0e34e5be6447844e6f262d51f1a9dc'] = 'الدفع';
 $_LANGADM['AdminCartRules65b7eaeb9ba4e9903f82297face9f7cd'] = 'قواعد سلة الشراء';
+$_LANGADM['AdminCarts121401ccf0e3e23bcefe6a454f0f0601'] = 'سلات تسوق متروكة';
 $_LANGADM['AdminCartsb718adec73e04ce3ec720dd11a06a308'] = 'الرقم التعريفي';
 $_LANGADM['AdminCartsd79cf3f429596f77db95c65074663a54'] = 'رقم تعريف طلب الشراء';
 $_LANGADM['AdminCartsce26601dac0dea138b7295f02b7620a7'] = 'العميل';
+$_LANGADM['AdminCarts96b0141273eabab320119c467cdcaf17'] = 'الإجمالي';
 $_LANGADM['AdminCarts914419aa32f04011357d3b604a86d7eb'] = 'جهة الشحن';
 $_LANGADM['AdminCarts44749712dbec183e983dcd78a7736c41'] = 'التاريخ';
 $_LANGADM['AdminCarts54f664c70c22054ea0d8d26fc3997ce7'] = 'متصل';
 $_LANGADM['AdminCartsd3b206d196cd6be3a2764c1fb90b200f'] = 'حذف المحدد';
 $_LANGADM['AdminCartse25f0ecd41211b01c83e5fec41df4fe7'] = 'حذف العناصر المحدده ؟';
+$_LANGADM['AdminCartsf9b01554c32cc580b7380302f22613de'] = 'تصدير السلة';
+$_LANGADM['AdminCartse4c3da18c66c0147144767efeb59198f'] = 'معدل التحويل';
 $_LANGADM['AdminCarts947d8520f04473da621f2718138f3bc6'] = '30 يوم';
 $_LANGADM['AdminCarts54e85d70ea67acdcc86963b14d6223a8'] = 'التخلي عن عربات';
+$_LANGADM['AdminCarts915000b6f3e7bb451a6ed4ffc2839ab6'] = 'من %s إلى %s';
+$_LANGADM['AdminCarts0b91ef9198a761459c595de4b12ca109'] = 'إجمالي سلة التسوق';
 $_LANGADM['AdminCartsb00b85425e74ed2c85dc3119b78ff2c3'] = 'شحن مجاني';
 $_LANGADM['AdminCartsee77ea46b0c548ed60eadf31bdd68613'] = 'إيتعلام قواعد البيانات خاطئ';
 $_LANGADM['AdminCategoriesb718adec73e04ce3ec720dd11a06a308'] = 'الرقم التعريفي';
@@ -193,10 +261,15 @@ $_LANGADM['AdminCategories52f5e0bc3859bc5f5e25130b6c7e8881'] = 'ترتيب ال�
 $_LANGADM['AdminCategories86754577897acfb25deb69039d49d9a7'] = 'المعروض:';
 $_LANGADM['AdminCategoriesd3b206d196cd6be3a2764c1fb90b200f'] = 'حذف المحدد';
 $_LANGADM['AdminCategoriese25f0ecd41211b01c83e5fec41df4fe7'] = 'حذف العناصر المحدده ؟';
+$_LANGADM['AdminCategoriesd0d4e3688fdaee5afa292083b855e143'] = 'إضافة قسم جديد';
 $_LANGADM['AdminCategoriesde9ced9bf5e9829de4a93ad8c9d7a170'] = 'إضافة';
 $_LANGADM['AdminCategories72d6d7a1885885bb55a565fd1070581a'] = 'استيراد';
 $_LANGADM['AdminCategories7dce122004969d56ae2e0245cb754d35'] = 'تعديل';
 $_LANGADM['AdminCategories630f6dc397fe74e52d5189e2c80f282b'] = 'رجوع الى القائمة';
+$_LANGADM['AdminCategories42c9e94e8e5c29861de422525262ff17'] = 'تعطيل الأقسام';
+$_LANGADM['AdminCategories850da4810ae3771d696d504d7346caa6'] = 'أقسام فارغة';
+$_LANGADM['AdminCategories947d8520f04473da621f2718138f3bc6'] = '30 يوم';
+$_LANGADM['AdminCategories3adbdb3ac060038aa0e6e6c138ef9873'] = 'تصنيف';
 $_LANGADM['AdminCategories6252c0f2c2ed83b7b06dfca86d4650bb'] = 'رموز غير صحيحة:';
 $_LANGADM['AdminCategories00d23a76e43b46dae9ec7aa9dcbebb32'] = 'مفعل';
 $_LANGADM['AdminCategoriesb9f5c797ebbf55adccdd8539a65a0241'] = 'غير مفعل';
@@ -205,11 +278,14 @@ $_LANGADM['AdminCategories9e11e4b371570340ca07913bc4783a7a'] = 'Meta title:';
 $_LANGADM['AdminCategories3e053943605d9e4bf7dd7588ea19e9d2'] = 'أحرف ممنوعة';
 $_LANGADM['AdminCategories3f64b2beede1082fd32ddb0bf11a641f'] = 'وصف الميتا';
 $_LANGADM['AdminCategories7d7559ccac6bc30a4d985db11cb34a3a'] = 'Meta keywords:';
+$_LANGADM['AdminCategories1dec4f55522b828fe5dacf8478021a9e'] = 'رابط سهل';
 $_LANGADM['AdminCategories920bd1fb6d54c93fca528ce941464225'] = 'أذونات مجموعة المستخدمين:';
 $_LANGADM['AdminCategoriesc9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
+$_LANGADM['AdminCategories154b6e494bf56cc4c787bfee6deac113'] = 'جذر الاقسام';
 $_LANGADM['AdminCategories93cba07454f06a4a960172bbd6e2a435'] = 'نعم';
 $_LANGADM['AdminCategoriesbafd7322c6e97d25b6299b5d6fe8920b'] = 'لا';
 $_LANGADM['AdminCategories9d55fc80bbb875322aa67fd22fc98469'] = 'ترابط المتاجر:';
+$_LANGADM['AdminCategoriesde360c8b5dd9a9fdd592b1c08b3b4a62'] = 'تم تعديل الحالة بنجاح';
 $_LANGADM['AdminCmsCategoriesd3b206d196cd6be3a2764c1fb90b200f'] = 'حذف المحدد';
 $_LANGADM['AdminCmsCategoriese25f0ecd41211b01c83e5fec41df4fe7'] = 'حذف العناصر المحدده ؟';
 $_LANGADM['AdminCmsCategoriesaf1b98adf7f686b84cd0b443e022b7a0'] = 'التصنيفات';
@@ -225,12 +301,14 @@ $_LANGADM['AdminCmsCategoriesb9f5c797ebbf55adccdd8539a65a0241'] = 'غير مفع
 $_LANGADM['AdminCmsCategories9e11e4b371570340ca07913bc4783a7a'] = 'Meta title:';
 $_LANGADM['AdminCmsCategories3f64b2beede1082fd32ddb0bf11a641f'] = 'وصف الميتا';
 $_LANGADM['AdminCmsCategories7d7559ccac6bc30a4d985db11cb34a3a'] = 'Meta keywords:';
+$_LANGADM['AdminCmsCategories1dec4f55522b828fe5dacf8478021a9e'] = 'رابط سهل';
 $_LANGADM['AdminCmsCategoriesbed3b3133d292db46a0d28c5d91811b9'] = 'مسموح بالحروف وعلامة الطرح(-)فقط';
 $_LANGADM['AdminCmsCategoriesc9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
 $_LANGADM['AdminCmsCategories9d55fc80bbb875322aa67fd22fc98469'] = 'ترابط المتاجر:';
 $_LANGADM['AdminCmsContentd3b206d196cd6be3a2764c1fb90b200f'] = 'حذف المحدد';
 $_LANGADM['AdminCmsContente25f0ecd41211b01c83e5fec41df4fe7'] = 'حذف العناصر المحدده ؟';
 $_LANGADM['AdminCmsContentef61fb324d729c341ea8ab9901e23566'] = 'إضافة';
+$_LANGADM['AdminCmsContentf7931413dee107ddf5289c8886baf7ec'] = 'تحرير: %s';
 $_LANGADM['AdminCmsContentc7da501f54544eba6787960200d9efdb'] = 'إدارة الصفحات';
 $_LANGADM['AdminCmsd3b206d196cd6be3a2764c1fb90b200f'] = 'حذف المحدد';
 $_LANGADM['AdminCmse25f0ecd41211b01c83e5fec41df4fe7'] = 'حذف العناصر المحدده ؟';
@@ -247,6 +325,7 @@ $_LANGADM['AdminCms9e11e4b371570340ca07913bc4783a7a'] = 'Meta title:';
 $_LANGADM['AdminCms6252c0f2c2ed83b7b06dfca86d4650bb'] = 'رموز غير صحيحة:';
 $_LANGADM['AdminCms3f64b2beede1082fd32ddb0bf11a641f'] = 'وصف الميتا';
 $_LANGADM['AdminCms7d7559ccac6bc30a4d985db11cb34a3a'] = 'Meta keywords:';
+$_LANGADM['AdminCms1dec4f55522b828fe5dacf8478021a9e'] = 'رابط سهل';
 $_LANGADM['AdminCms45b1bce0ceb1e155fc99d59a21761b9e'] = 'محتوى الصفحة';
 $_LANGADM['AdminCms00d23a76e43b46dae9ec7aa9dcbebb32'] = 'مفعل';
 $_LANGADM['AdminCmsb9f5c797ebbf55adccdd8539a65a0241'] = 'غير مفعل';
@@ -262,10 +341,13 @@ $_LANGADM['AdminContactsb78a3223503896721cca1303f776159b'] = 'المسميات';
 $_LANGADM['AdminContactsb357b524e740bc85b9790a0712d84a30'] = 'البريد الإلكتروني';
 $_LANGADM['AdminContactsb5a7adde1af5c87d7fd797b6245c2a39'] = 'الوصف';
 $_LANGADM['AdminContacts9aa698f602b1e5694855cee73a683488'] = 'جهات الاتصال';
+$_LANGADM['AdminContactsa4cd3191fdeea29906a113c78d4c0e26'] = 'حفظ الرسائل؟';
 $_LANGADM['AdminContacts00d23a76e43b46dae9ec7aa9dcbebb32'] = 'مفعل';
 $_LANGADM['AdminContactsb9f5c797ebbf55adccdd8539a65a0241'] = 'غير مفعل';
+$_LANGADM['AdminContactsa2b086325f59e6c2fbd410511f4fdfb3'] = 'معلومات إضافية حول جهة الاتصال هذه.';
 $_LANGADM['AdminContactsc9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
 $_LANGADM['AdminContacts9d55fc80bbb875322aa67fd22fc98469'] = 'ترابط المتاجر:';
+$_LANGADM['AdminContactsc41f67055a184ed2e895681336572761'] = 'إضافة جهة اتصال جديدة';
 $_LANGADM['AdminCountriesd3b206d196cd6be3a2764c1fb90b200f'] = 'حذف المحدد';
 $_LANGADM['AdminCountriese25f0ecd41211b01c83e5fec41df4fe7'] = 'حذف العناصر المحدده ؟';
 $_LANGADM['AdminCountries10d30c6319cf61386c878e4d9a3e09a2'] = 'ربط بنطاق جغرافي جديد';
@@ -286,6 +368,7 @@ $_LANGADM['AdminCountries94d7422ba3c5b0f2a35f50b048e51c6d'] = 'العملة ال
 $_LANGADM['AdminCountriesa4f164d8b1b72c87b8ce558827bcd423'] = 'عملة المتجر الافتراضية';
 $_LANGADM['AdminCountries93cba07454f06a4a960172bbd6e2a435'] = 'نعم';
 $_LANGADM['AdminCountriesbafd7322c6e97d25b6299b5d6fe8920b'] = 'لا';
+$_LANGADM['AdminCountries665e1ad1c6657791cecb5b68008c7c00'] = 'شكل العنوان';
 $_LANGADM['AdminCountries4d3d769b812b6faa6b76e1a8abaece2d'] = 'نشط';
 $_LANGADM['AdminCountriesb9f5c797ebbf55adccdd8539a65a0241'] = 'غير مفعل';
 $_LANGADM['AdminCountries0c750dacc725ba4047374d2efc56ce3a'] = 'الحاجة الضرائب رقم الهوية؟';
@@ -306,6 +389,8 @@ $_LANGADM['AdminCurrencies77428b04a1847555eb9bc52422a377b0'] = 'أسعار ال�
 $_LANGADM['AdminCurrencies876ca43ba50351d4e492970f40632661'] = 'تحديث أسعار العملات';
 $_LANGADM['AdminCurrenciesdfcfc43722eef1eab1e4a12e50a068b1'] = 'العملات:';
 $_LANGADM['AdminCurrencies5f41116581201a5ef32656b7d4a51e88'] = 'يسمح باستخدام الحروف فقط ، والحرف ناقص';
+$_LANGADM['AdminCurrencies2b417805040de3a3df31c8fd3626b57c'] = 'العشرية';
+$_LANGADM['AdminCurrencies9b9e87b59be497e92da8d2208f9914a0'] = 'عرض الكسور العشرية في الأسعار.';
 $_LANGADM['AdminCurrenciesb9f5c797ebbf55adccdd8539a65a0241'] = 'غير مفعل';
 $_LANGADM['AdminCurrencies2faec1f9f8cc7f8f40d521c4dd574f49'] = 'متاح:';
 $_LANGADM['AdminCurrencies9d55fc80bbb875322aa67fd22fc98469'] = 'ترابط المتاجر:';
@@ -340,14 +425,22 @@ $_LANGADM['AdminCustomers257630448a4acd9cfc1ce6c7a5ce05f3'] = 'إضافة عمي
 $_LANGADM['AdminCustomersce26601dac0dea138b7295f02b7620a7'] = 'العميل';
 $_LANGADM['AdminCustomers6252c0f2c2ed83b7b06dfca86d4650bb'] = 'رموز غير صحيحة:';
 $_LANGADM['AdminCustomersdc647eb65e6711e155375218212b3964'] = 'كلمة المرور';
+$_LANGADM['AdminCustomersaac772216aecbeca0e86d06671fe985a'] = 'تاريخ الميلاد';
 $_LANGADM['AdminCustomersb9f5c797ebbf55adccdd8539a65a0241'] = 'غير مفعل';
+$_LANGADM['AdminCustomers6010127763b917fdc47eb0c50a86a6f6'] = 'التصريح أو عدم التصريح للعميل بالدخول.';
+$_LANGADM['AdminCustomers8c7a8f24423b8519d38fb3ff380e020f'] = 'سيستلم هذا العميل إعلاناتك عبر البريد الإلكترونى.';
 $_LANGADM['AdminCustomers920bd1fb6d54c93fca528ce941464225'] = 'أذونات مجموعة المستخدمين:';
+$_LANGADM['AdminCustomersa3858e268ef19d7ec44b4e849a189a69'] = 'المجموعة الافتراضية للعميل';
 $_LANGADM['AdminCustomers4f68183551e5dbd7c341347ffe308682'] = 'السجل التجاري:';
 $_LANGADM['AdminCustomers85fb93a8ee9440499692da24a1621769'] = 'نوع النشاط:';
 $_LANGADM['AdminCustomers15bbb9d0bbf25e8d2978de1168c749dc'] = 'الموقع الإلكتروني';
 $_LANGADM['AdminCustomers75bf7b6b951d3183f7c8f96bdb4fa74c'] = 'رموز مسموح بها:';
 $_LANGADM['AdminCustomersc9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
 $_LANGADM['AdminCustomerse6d0e1c8fc6a4fcf47869df87e04cd88'] = 'العملاء';
+$_LANGADM['AdminCustomers85fb1a46f605ba9e7738df38315e6513'] = 'جميع الأوقات';
+$_LANGADM['AdminCustomers06b7d2fbf61e5118bb87d7f561d3fa01'] = 'متوسط العمر';
+$_LANGADM['AdminCustomersd8f847a1f651aee93ecb6a22207e77b2'] = 'الطلبات لكل عميل';
+$_LANGADM['AdminCustomersd7eb752a5f38ab96a8dcf110aeb9f8b3'] = 'إشتراكات النشرة البريدية';
 $_LANGADM['AdminCustomers14542f5997c4a02d4276da364657f501'] = 'رابط مباشر';
 $_LANGADM['AdminCustomers4e140ba723a03baa6948340bf90e2ef6'] = 'الاسم';
 $_LANGADM['AdminCustomersb3ebc4fbc081856600b6b9ecbb0a99fb'] = 'حذف العنصر المحدد ؟';
@@ -373,6 +466,7 @@ $_LANGADM['AdminCustomerThreadse25f0ecd41211b01c83e5fec41df4fe7'] = 'حذف ال
 $_LANGADM['AdminCustomerThreads8058aef8e4c03453b1b088795677726a'] = 'خيارات جهات الاتصال';
 $_LANGADM['AdminCustomerThreads42d99bbf0d1cd9ffe4a5ff746d177aba'] = 'السماح بتحميل الملف';
 $_LANGADM['AdminCustomerThreads7db5022f86dda7b39e31e754afd5c6a0'] = 'تتيح للعملاء لتحميل الملف باستخدام صفحة الاتصال';
+$_LANGADM['AdminCustomerThreads2da2fc7f382fa2e5b9d0e433fa71a475'] = 'الرسالة الإفتراضية';
 $_LANGADM['AdminCustomerThreads1f2b974152999d549b89994879e452a3'] = 'يرجى ملء الرسالة التي تظهر افتراضيا عند الإجابة على بعض الصفحات على صفحة خدمة العملاء';
 $_LANGADM['AdminCustomerThreadsc9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
 $_LANGADM['AdminCustomerThreads0e9470c5e6bfee40004f22f543b8b2a6'] = 'خيارات خدمة العملاء';
@@ -384,11 +478,17 @@ $_LANGADM['AdminCustomerThreadsda2f2f1035487e79b7f5bfd9c5c3eeab'] = 'الموا�
 $_LANGADM['AdminCustomerThreads939315783ef4f2eb1cbdac37f3fd1e6b'] = 'المواضيع المغلقة';
 $_LANGADM['AdminCustomerThreadsd21b5a78517318e6d35414d4217950ce'] = 'توجيه رسالة إلى';
 $_LANGADM['AdminCustomerThreads240f3031f25601fa128bd4e15f0a37de'] = 'التعليق:';
+$_LANGADM['AdminCustomerThreadsc61b4a4520f875b20f7ff3e6ff502ebe'] = 'معدل وقت الإستجابة';
 $_LANGADM['AdminCustomerThreads947d8520f04473da621f2718138f3bc6'] = '30 يوم';
+$_LANGADM['AdminCustomerThreads003bf65ada43328a6164e2c681516a0e'] = '30 يوم';
+$_LANGADM['AdminCustomerThreadsea907b9c1af0f060fa2c21beed25880e'] = 'إعادة فتح';
+$_LANGADM['AdminCustomerThreads119ce51409ff0ec366e67df0c852ede7'] = 'رسالة إلى';
 $_LANGADM['AdminCustomerThreadsed96f783e467cc984e4945063760e2c4'] = 'منتج';
 $_LANGADM['AdminCustomerThreadsa240fa27925a635b08dc28c9e4f9216d'] = 'طلب شراء';
 $_LANGADM['AdminCustomerThreads24a23d787190f2c4812ff9ab11847a72'] = 'الحالة';
 $_LANGADM['AdminDashboard2938c7f7e560ed972f8a4f68e80ff834'] = 'لوحة التحكم';
+$_LANGADM['AdminDashboard948a2986c50ad6bb8c90b4d93ae5c04d'] = 'الوضع التجريبي';
+$_LANGADM['AdminDashboardcb3c93351f1f20809fdd6e938a4319c7'] = 'إعدادات أخرى';
 $_LANGADM['AdminDashboardc9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
 $_LANGADM['AdminDashboard8ff922bbcd8ad41cdfc48d3c5163b2ab'] = 'التقويم';
 $_LANGADM['AdminDashboard03727ac48595a24daed975559c944a44'] = 'اليوم';
@@ -397,7 +497,9 @@ $_LANGADM['AdminDashboard537c66b24ef5c83b7382cdc3f34885f2'] = 'السنة';
 $_LANGADM['AdminDashboard1e6d57e813355689e9c77e947d73ad8f'] = 'من';
 $_LANGADM['AdminDashboard33caa076f23f453dd4061726f3706325'] = 'إلى';
 $_LANGADM['AdminDeliverySlip947c66d55a8038fd0c16fef605186573'] = 'تسليم قسائم الخيارات';
+$_LANGADM['AdminDeliverySlip19f2f692c96d2aff892bad71b80521e9'] = 'رقم التوصيل';
 $_LANGADM['AdminDeliverySlip6998acbd3739a7200586b4421d0ca508'] = 'سيتم تسليم زلة المقبل تبدأ مع هذا العدد ، ومن ثم زيادة مع كل قسيمة إضافية';
+$_LANGADM['AdminDeliverySlip133e649a7f103383bd0c9c35c40f8ce0'] = 'فعّل صورة المنتج';
 $_LANGADM['AdminDeliverySlipc9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
 $_LANGADM['AdminDeliverySlip4bc8978f084bf1726cb133a3dc8cc379'] = 'طباعة قسائم التسليم PDF';
 $_LANGADM['AdminDeliverySlip5da618e8e4b89c66fe86e32cdafde142'] = 'من';
@@ -406,9 +508,11 @@ $_LANGADM['AdminDeliverySlip067af5895a7ced3197520b591f9a41eb'] = 'توليد م�
 $_LANGADM['AdminEmailsd3b206d196cd6be3a2764c1fb90b200f'] = 'حذف المحدد';
 $_LANGADM['AdminEmailse25f0ecd41211b01c83e5fec41df4fe7'] = 'حذف العناصر المحدده ؟';
 $_LANGADM['AdminEmailsb718adec73e04ce3ec720dd11a06a308'] = 'الرقم التعريفي';
+$_LANGADM['AdminEmails5d6103b662f41b07e10687f03aca8fdc'] = 'المستلم';
 $_LANGADM['AdminEmails278c491bdd8a53618c149c4ac790da34'] = 'قالب';
 $_LANGADM['AdminEmails4994a8ffeba4ac3140beb89e8d41f174'] = 'اللغه';
 $_LANGADM['AdminEmailsc7892ebbb139886662c6f2fc8c450710'] = 'الموضوع:';
+$_LANGADM['AdminEmails7f8c0283f16925caed8e632086b81b9c'] = 'أرسلت';
 $_LANGADM['AdminEmailsce8ae9da5b7cd6c3df2929543a9af92d'] = 'عنوان البريد';
 $_LANGADM['AdminEmails6ccca513d06efaa8d8695d7d8e3813fe'] = 'إرسال بريد إلكتروني إلى';
 $_LANGADM['AdminEmails9f1b874f3886d361d6eb6b079639c385'] = 'إرسال البريد الإلكتروني كنص';
@@ -419,14 +523,17 @@ $_LANGADM['AdminEmailsa5d35e0a66d41c7d12c0df6e643fa0ff'] = 'ترك فارغا إ
 $_LANGADM['AdminEmailsd7f2615c71a1567cc13cf3a7f7de0aea'] = 'التشفير';
 $_LANGADM['AdminEmailsd8f5b3c4ad206980b27a9d88a217a0d5'] = 'استخدام بروتوكول تشفير';
 $_LANGADM['AdminEmails6adf97f83acf6453d4a6a4b1070f3754'] = 'لايوجد';
+$_LANGADM['AdminEmailsea52c36203c5f99c3ce2442d531b1a22'] = 'SSL';
 $_LANGADM['AdminEmails60aaf44d4b562252c04db7f98497e9aa'] = 'المنفذ';
 $_LANGADM['AdminEmailsa8a9e7c120e7020435d955d3a0c96471'] = 'اختبار البريد الإلكتروني الخاص بك ';
 $_LANGADM['AdminEmails5f23f9739fa16efc7ddd06bb03096998'] = 'ارسال رسالة اختبار إلى';
+$_LANGADM['AdminEmails16186ead9220c2a4646402c69109cfa0'] = 'ارسال رسالة اختبار';
 $_LANGADM['AdminEmails94fc5d3be31c72a400c50aae395f1f1f'] = 'هذه هي رسالة اختبار ، والخادم متاحة الآن لارسال البريد الالكتروني';
 $_LANGADM['AdminEmailse379446940f88886aba80367a10fa4cc'] = 'رسالة اختبار -- Prestashop';
 $_LANGADM['AdminEmails0bb7ea7550d2e7caf5e32329bc7423cd'] = 'يتم إرسال البريد';
 $_LANGADM['AdminEmails4e6ebf3087084e1fda3554d154851ef0'] = 'خطأ : الرجاء التحقق من التكوين الخاص بك';
 $_LANGADM['AdminEmails678e00213ce73b9bbdefd0979507436c'] = ' البريد الإلكتروني خطأ!';
+$_LANGADM['AdminEmailsdcc459e0cef1e36a18a356fbc5789b16'] = 'محو الكل';
 $_LANGADM['AdminEmails729a51874fe901b092899e9e8b31c97a'] = 'هل أنت متأكد؟';
 $_LANGADM['AdminEmployeesd3b206d196cd6be3a2764c1fb90b200f'] = 'حذف المحدد';
 $_LANGADM['AdminEmployeese25f0ecd41211b01c83e5fec41df4fe7'] = 'حذف العناصر المحدده ؟';
@@ -446,10 +553,15 @@ $_LANGADM['AdminEmployeesbafd7322c6e97d25b6299b5d6fe8920b'] = 'لا';
 $_LANGADM['AdminEmployees93cba07454f06a4a960172bbd6e2a435'] = 'نعم';
 $_LANGADM['AdminEmployeesc9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
 $_LANGADM['AdminEmployees7a1920d61156abc05a60135aefe8bc67'] = 'الافتراضي:';
+$_LANGADM['AdminEmployees485263210a4a12e35e3426045e3301b1'] = 'أضف موظف جديد';
+$_LANGADM['AdminEmployees69041353e07f2d5faa09e0cc1f8967a9'] = 'عدّل: %1$s%2$s';
 $_LANGADM['AdminEmployeeseb626c94531ec554f93b2b78a77c8b1b'] = 'الموظفين';
 $_LANGADM['AdminEmployeesdc647eb65e6711e155375218212b3964'] = 'كلمة المرور';
+$_LANGADM['AdminEmployeesf44c07e8b6e19d8ea1e551d181993898'] = 'كلمة المرور يجب أن تكون %s رموز على الأقل.';
+$_LANGADM['AdminEmployees435a2d71a0c6c33cd2c917b00b8e0da1'] = 'الصفحة الافتراضية';
 $_LANGADM['AdminEmployees4994a8ffeba4ac3140beb89e8d41f174'] = 'اللغه';
 $_LANGADM['AdminEmployeesd721757161f7f70c5b0949fdb6ec2c30'] = 'الموضوع';
+$_LANGADM['AdminEmployeesa4ffdcf0dc1f31b9acaf295d75b51d00'] = 'الأعلى';
 $_LANGADM['AdminEmployees945d5e233cf7d6240f6b783b36a374ff'] = 'اليسار';
 $_LANGADM['AdminEmployees00d23a76e43b46dae9ec7aa9dcbebb32'] = 'مفعل';
 $_LANGADM['AdminEmployeesb9f5c797ebbf55adccdd8539a65a0241'] = 'غير مفعل';
@@ -467,12 +579,16 @@ $_LANGADM['AdminFeatures21021ea0e52be8e9c599f4dff41e5be0'] = 'ميزة';
 $_LANGADM['AdminFeatures6252c0f2c2ed83b7b06dfca86d4650bb'] = 'رموز غير صحيحة:';
 $_LANGADM['AdminFeatures9d55fc80bbb875322aa67fd22fc98469'] = 'ترابط المتاجر:';
 $_LANGADM['AdminFeaturesc9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
+$_LANGADM['AdminFeatures5f46be79c24b6cde1ff2176a2ce917e9'] = 'إضافة ميزة جديدة';
 $_LANGADM['AdminFeatures07fc7dc79c8046bb36d97b4332dab1ca'] = 'رجوع الى القائمة';
+$_LANGADM['AdminFeaturesdd261387b1ad7605716e5edbc0164028'] = 'إضافة ميزة جديدة';
+$_LANGADM['AdminFeaturesf7931413dee107ddf5289c8886baf7ec'] = 'تحرير: %s';
 $_LANGADM['AdminFeatures577cf2cf1be74419ac04093a2b4cd64d'] = 'تحرير قيمة';
 $_LANGADM['AdminFeaturesfce2e84f3cce0e5351e85e9f0cb20107'] = 'اضف قيمة جديدة';
 $_LANGADM['AdminFeatures7d5672f569de406c85249db6f1c99ec0'] = 'احفظ ثم اضف قيمة اخرى';
 $_LANGADM['AdminFeatures0c8a987e64c2d46886bf92e29c736bdc'] = 'إضافة قيمة الميزة الجديدة';
 $_LANGADM['AdminFeatures9446a98ad14416153cc4d45ab8b531bf'] = 'الخصائص';
+$_LANGADM['AdminFeaturesced303d99586792bb560b5e1d35ea220'] = 'هذه الميزة مُعطّلة. يمكنك تفعيلها هنا: %s.';
 $_LANGADM['AdminGendersd3b206d196cd6be3a2764c1fb90b200f'] = 'حذف المحدد';
 $_LANGADM['AdminGenderse25f0ecd41211b01c83e5fec41df4fe7'] = 'حذف العناصر المحدده ؟';
 $_LANGADM['AdminGendersb718adec73e04ce3ec720dd11a06a308'] = 'الرقم التعريفي';
@@ -480,6 +596,7 @@ $_LANGADM['AdminGenders5e74f2daf4ae8030571ceee5b4837579'] = 'المسميات';
 $_LANGADM['AdminGenders019ec3132cdf8ee0f2e2a75cf5d3e459'] = 'الجنس';
 $_LANGADM['AdminGenders63889cfb9d3cbe05d1bd2be5cc9953fd'] = 'رجل';
 $_LANGADM['AdminGendersb719ce180ec7bd9641fece2f920f4817'] = 'سيده';
+$_LANGADM['AdminGenderse9bb5320b3890b6747c91b5a71ae5a01'] = 'مُحايد';
 $_LANGADM['AdminGendersbe53a0541a6d36f6ecb879fa2c584b08'] = 'الصورة';
 $_LANGADM['AdminGendersd583f5e653e36be901f9baafc9d975b3'] = 'المسميات';
 $_LANGADM['AdminGenders6252c0f2c2ed83b7b06dfca86d4650bb'] = 'رموز غير صحيحة:';
@@ -509,6 +626,9 @@ $_LANGADM['AdminGroups9ba58ad734a38b533febf81361bd1a4f'] = 'الخصم (%):';
 $_LANGADM['AdminGroupsef53538ae41a651c7f72ab6cb1135d8c'] = 'أعضاء';
 $_LANGADM['AdminGroupsf870b8a1af52a144a646db03f6f63f7d'] = 'عرض الأسعار:';
 $_LANGADM['AdminGroups3112209b2dd9b55cf5dbc4865dd15afd'] = 'تاريخ إنشاء';
+$_LANGADM['AdminGroupsfcd4748df327d0e328d0aef8c1d8e756'] = 'مجموعة الزوار';
+$_LANGADM['AdminGroups312541921a98c69b0f3ac8f5de1b6bb3'] = 'مجموعة الضيوف';
+$_LANGADM['AdminGroups115041dc1655b3d837ac409e16c87f85'] = 'مجموعة العملاء';
 $_LANGADM['AdminGroupsc9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
 $_LANGADM['AdminGroups5e74f2daf4ae8030571ceee5b4837579'] = 'المسميات';
 $_LANGADM['AdminGroups20db0bfeecd8fe60533206a2b5e9891a'] = 'الاسم الأول';
@@ -542,6 +662,8 @@ $_LANGADM['AdminImagesbb34f602e45a9fbcb2cdfee7a48673fc'] = 'المظاهر';
 $_LANGADM['AdminImages48658689e18e12e430668e1f2419b0d0'] = 'صور JPEG يكون حجم ملف صغير وجودة قياسية. صور PNG يكون حجم ملف أكبر ، وهي أعلى جودة وشفافية الدعم. علما أنه في جميع الحالات ملفات الصور وسوف يكون هذا التمديد. JPG.';
 $_LANGADM['AdminImages6178649941eae11401f8bd95d32ad690'] = 'استخدام PNG فقط إذا كانت الصورة هي الأساس في تنسيق PNG';
 $_LANGADM['AdminImages576d1a59cae85fc41c31d27433e17d37'] = 'تتراوح بين 0 (أسوأ نوعية ، أصغر ملف) إلى 100 (أفضل نوعية ، وأكبر ملف)';
+$_LANGADM['AdminImages4b3a6218bb3e3a7303e8a171a60fcf92'] = '‮بايتات';
+$_LANGADM['AdminImagesd399848208da8b80a306af0fd62bb03f'] = 'بكسلات';
 $_LANGADM['AdminImagesc9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
 $_LANGADM['AdminImagesb08ea6a4f29e76c9d843856917642409'] = 'استخدام نظام ملفات الصور القديمة';
 $_LANGADM['AdminImages00d23a76e43b46dae9ec7aa9dcbebb32'] = 'مفعل';
@@ -560,6 +682,7 @@ $_LANGADM['AdminImporteffdb9ce6c5d44df31b89d7069c8e0fb'] = 'اسم المستخ�
 $_LANGADM['AdminImport0440efe0a9a9bc643eaec7dbdade39df'] = 'طلبات التوريد';
 $_LANGADM['AdminImportb8495b50f5c172ebad1cc5c615548afa'] = 'تجاهل هذا العمود';
 $_LANGADM['AdminImport97f08a40f22a625d0cbfe03db3349108'] = 'رقم تعريف المنتج';
+$_LANGADM['AdminImportfa4ecc0168c2a9e448f469e3835d2a68'] = 'مرجعية المنتج';
 $_LANGADM['AdminImport8284ae5df53e6e7ffc1f2cc67ae68765'] = 'مرجع المورد';
 $_LANGADM['AdminImport63d5049791d9d79d86e9a108b0a999ca'] = 'المرجع';
 $_LANGADM['AdminImport52eb5928a34db3e3da7ba52b0644273b'] = 'EAN13:';
@@ -570,8 +693,10 @@ $_LANGADM['AdminImporte92cfa244b5eb9025d07522080468445'] = 'الضريبة ال�
 $_LANGADM['AdminImport694e8d1f2ee056f98ee488bdc4982d73'] = 'الكمية';
 $_LANGADM['AdminImportac0b7d0703609cbbfa09b53f8d793d29'] = 'الحد الأدنى من الكمية';
 $_LANGADM['AdminImport3c1a34587e45bd9e9ae2efd9a6ecbb92'] = 'الأثر على وزن';
+$_LANGADM['AdminImport5db5f3f0c5f233fbc13f08c052e98281'] = 'الإفتراضي (0 = لا، 1 = نعم)';
 $_LANGADM['AdminImport4d2589e1bcd4263cb99927b59f0f88d2'] = 'روابط الصور (س ، ص ، ض..)';
 $_LANGADM['AdminImportf8a0fa3674c3336359b77bbe8e942a2c'] = 'رقم تعريف / اسم المتجر';
+$_LANGADM['AdminImport53acc0172842523c8a52f50894c6df15'] = 'يعتمد على المخزون';
 $_LANGADM['AdminImport6416e8cb5fc0a208d94fa7f5a300dbc4'] = 'المستودع';
 $_LANGADM['AdminImportb718adec73e04ce3ec720dd11a06a308'] = 'الرقم التعريفي';
 $_LANGADM['AdminImportfd0dcc6233b026d257763713c133cf72'] = 'النشطة (0 / 1)';
@@ -598,6 +723,7 @@ $_LANGADM['AdminImportec136b444eede3bc85639fac0dd06229'] = 'المورد';
 $_LANGADM['AdminImportc0bd7654d5b278e65f21cf4e9153fdb4'] = 'الماركة';
 $_LANGADM['AdminImport32954654ac8fe66a1d09be19001de2d4'] = 'العرض';
 $_LANGADM['AdminImporteec6c4bdbd339edf8cbea68becb85244'] = 'الطول';
+$_LANGADM['AdminImport675056ad1441b6375b2c5abd48c27ef1'] = 'العمق';
 $_LANGADM['AdminImport8c489d0946f66d17d73f26366a4bf620'] = 'الوزن';
 $_LANGADM['AdminImport1729a56cfc89021478498fe0c89a843a'] = 'الظهور:';
 $_LANGADM['AdminImport6c957f72dc8cdacc75762f2cbdcdfaf2'] = 'سعر الوحدة';
@@ -606,6 +732,7 @@ $_LANGADM['AdminImportbede52f418b34b1ab0db65f9450bdfc3'] = 'الوسوم (أ, ب
 $_LANGADM['AdminImport3613358eb490e62266eafaf2a9eede68'] = 'عندما نص في المخزن';
 $_LANGADM['AdminImport21d39d4b7191de15242c3d75ae9170ce'] = 'النص إذا ظهر أمر مسموح';
 $_LANGADM['AdminImport21f7b5b011f253b35340528b7f190282'] = 'تاريخ إضافة المنتج';
+$_LANGADM['AdminImport76aeea9f48196068e6b47d46d41e7618'] = 'أظهر السعر (0 = لا، 1 = نعم)';
 $_LANGADM['AdminImport4f5dc004cdd01ec9cf7fbbcf9f812aa7'] = 'حذف الصور الموجودة (0 = لا ، 1 = نعم)';
 $_LANGADM['AdminImport9e2941b3c81256fac10392aaca4ccfde'] = 'الشرط';
 $_LANGADM['AdminImporta10d0bff85112a2b35f885a38088cd20'] = 'النشطة (0 / 1)';
@@ -654,6 +781,7 @@ $_LANGADM['AdminImport6d5030fd40c1e08767b4b70d3786b0fb'] = 'رقم تعريف ا
 $_LANGADM['AdminImport0c8476c5f5cdedcf296f6b3c22e0dffb'] = 'رقم تعريف اللغة (%d) غير صحيح (في السطر %d).';
 $_LANGADM['AdminImport95a6134288586bc854f6793506d00efd'] = 'رقم تعريف المستودع (%d) غير صحيح (في السطر %d).';
 $_LANGADM['AdminImport8fb2f7240d1cbeb86010e76827af5751'] = 'رقم تعريف العملة (%d) غير صحيح (في السطر %d).';
+$_LANGADM['AdminImport70e7a6fcceb39a1e3ea3925182b85d18'] = 'أيام-شهور-سنين';
 $_LANGADM['AdminImportef1a78ea7433cfc92f358d6dbf4fcd48'] = 'التنسيق: بين 0 و 100';
 $_LANGADM['AdminInformationba29b5ac8580aaa26d3166f32da8ac10'] = 'تكوين الملقم للسماح بإنشاء الدلائل والكتابة إلى الملفات';
 $_LANGADM['AdminInformationb5f353847bbb01ca0feda2a3b0e5b1a9'] = 'تمكين المكتبة GD على الخادم الخاص بك';
@@ -668,12 +796,16 @@ $_LANGADM['AdminInformationfed1803fba6b27ae43103e333a5600eb'] = 'تعيين أذ
 $_LANGADM['AdminInformation94f3a2dc6474b8b097c257fa1da2c9e1'] = 'تعيين أذونات الكتابة للمجلد تحميل والفرعية / متكرر';
 $_LANGADM['AdminInformationdbbb85913376aec586b97adc72268a5c'] = 'تعيين أذونات الكتابة للمجلد والمجلدات الفرعية تنزيل / متكرر';
 $_LANGADM['AdminInformation4a344651fb10eb9e339838fab7bb97ae'] = 'تمكين GZIP ضغط على الخادم الخاص بك';
+$_LANGADM['AdminInformation95095fc4bbc8b42ec512cfb1cfa19d8a'] = 'أنت تستخدم الإصدار PHP %s. قريبا، أحدث إصدار PHP بدعم من بريستاشوب سوف يكون PHP 5.4. للتأكد من أنك على استعداد للمستقبل، نحن ننصح بالترقية إلى PHP 5.4 الآن!';
 $_LANGADM['AdminInvoices1b107c8f50c81b4b3497765849934a1c'] = 'فاتورة خيارات';
+$_LANGADM['AdminInvoices916e303456985cc95e3f551665b0314f'] = 'فعّل الفواتير';
+$_LANGADM['AdminInvoices8ae4286d38bb2235def98fd68d7420d2'] = 'رقم الفاتورة';
 $_LANGADM['AdminInvoicesc9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
 $_LANGADM['AdminInvoices9a0a4f0869ab12a21407047290750e7a'] = 'حسب التاريخ';
 $_LANGADM['AdminInvoices5da618e8e4b89c66fe86e32cdafde142'] = 'من';
 $_LANGADM['AdminInvoicese12167aa0a7698e6ebc92b4ce3909b53'] = 'إلى';
 $_LANGADM['AdminInvoicesc491f71acb93db711c341417e8c6be9e'] = 'PDF طباعة الفواتير';
+$_LANGADM['AdminInvoices33af8066d3c83110d4bd897f687cedd2'] = 'حالات الطلب';
 $_LANGADM['AdminInvoicesfef8859b22e06e4d4918f091612bf958'] = 'يمكنك أيضا تصدير الأوامر التي لم توجه إليهم تهم حتى الآن.';
 $_LANGADM['AdminInvoices9178a1a9fc82617864593a784163d86a'] = 'تاريخ البداية غير صحيح';
 $_LANGADM['AdminInvoices915bd2c5cf6e420095a64d309e443849'] = 'صالح تاريخ انتهاء';
@@ -691,6 +823,7 @@ $_LANGADM['AdminLanguages00d23a76e43b46dae9ec7aa9dcbebb32'] = 'مفعل';
 $_LANGADM['AdminLanguagesd3b206d196cd6be3a2764c1fb90b200f'] = 'حذف المحدد';
 $_LANGADM['AdminLanguagese25f0ecd41211b01c83e5fec41df4fe7'] = 'حذف العناصر المحدده ؟';
 $_LANGADM['AdminLanguages4749a02e87a1b69cc421bf97c5353956'] = 'عند حذف لغة ، سيتم حذف كل الترجمات ذات الصلة في قاعدة البيانات ، هل أنت متأكد أنك تريد حذف هذه اللغة؟';
+$_LANGADM['AdminLanguagesf53b6aa000ea3aa0114e70c1f8737608'] = 'إضافة لغة جديدة';
 $_LANGADM['AdminLanguagescc83a240095b0a0b6e1840bb7d43830c'] = 'عند حذف لغة ، سيتم حذف كل الترجمات ذات الصلة في قاعدة البيانات.';
 $_LANGADM['AdminLanguages3a08e2e340ab29fd9263af48193cbf8e'] = 'لغات';
 $_LANGADM['AdminLanguagescea65bde8363e4e1abdf2864f93e99c5'] = 'تنسيق محتصر للتاريخ (مثال: %s)';
@@ -701,12 +834,20 @@ $_LANGADM['AdminLanguagesa4bc4ae2cbf8be348ecfc863538998bf'] = 'تحقق مما �
 $_LANGADM['AdminLanguages9d55fc80bbb875322aa67fd22fc98469'] = 'ترابط المتاجر:';
 $_LANGADM['AdminLanguagesc9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
 $_LANGADM['AdminLanguages0eaadb4fcb48a0a0ed7bc9868be9fbaa'] = 'تحذير';
+$_LANGADM['AdminLanguages37f3a51de63012d9060d5ff8ccab2b0f'] = 'ملفات البريد';
 $_LANGADM['AdminLanguages8bd94436fa6738863292fb9823368694'] = 'لا يمكنك حذف اللغة الافتراضية';
 $_LANGADM['AdminLanguagesf25eedbf89efbd0cfce488fe01f9c4cb'] = 'لا يمكنك حذف اللغة قيد الاستخدام حاليا. الرجاء تغيير اللغات قبل حذفها.';
 $_LANGADM['AdminLocalization254f642527b45bc260048e30704edb39'] = 'الإعدادات';
 $_LANGADM['AdminLocalization94d7422ba3c5b0f2a35f50b048e51c6d'] = 'العملة الافتراضية:';
 $_LANGADM['AdminLocalizationc9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
+$_LANGADM['AdminLocalization216845c195c351faf05ff91c6411bfea'] = 'الوحدات المحلية';
+$_LANGADM['AdminLocalizationf489118ea95c746d648d36bb50c226f0'] = 'وحدة الوزن';
+$_LANGADM['AdminLocalizationfff9ff80cc72d571e3d5115b421a27c3'] = 'وحدة المسافة';
+$_LANGADM['AdminLocalizationbac94fdafa0ab5ce874f63b75d6d28da'] = 'وحدة الحجم';
+$_LANGADM['AdminLocalizationcc13d156306185fd42a860da3049567c'] = 'وحدة الأبعاد';
 $_LANGADM['AdminLocalization9b6545e4cea9b4ad4979d41bb9170e2b'] = 'متقدم';
+$_LANGADM['AdminLocalization72388067f972c9a43b1ded59297f5b6e'] = 'مُعرف اللغة';
+$_LANGADM['AdminLocalizationa86844187775f3d99ab7bad450a61d78'] = 'مُعرف الدولة';
 $_LANGADM['AdminLocalizationb8464cdd84b5f068ad72bf5c4f32163d'] = 'المناطق';
 $_LANGADM['AdminLocalization719fec04166d6fa75f89cd29ad61fa8c'] = 'الضرائب';
 $_LANGADM['AdminLocalizationdfcfc43722eef1eab1e4a12e50a068b1'] = 'العملات:';
@@ -729,6 +870,7 @@ $_LANGADM['AdminLogs44749712dbec183e983dcd78a7736c41'] = 'التاريخ';
 $_LANGADM['AdminLogs5d1f62be1608c8c55ca77098efe5f053'] = 'سجلات عن طريق البريد الالكتروني';
 $_LANGADM['AdminLogsdaf5a89c7110f00485d0737ff765e830'] = 'الحد الأدنى من مستوى الخطورة';
 $_LANGADM['AdminLogsc9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
+$_LANGADM['AdminLogsdcc459e0cef1e36a18a356fbc5789b16'] = 'محو الكل';
 $_LANGADM['AdminLogs729a51874fe901b092899e9e8b31c97a'] = 'هل أنت متأكد؟';
 $_LANGADM['AdminMaintenance0db377921f4ce762c62526131097968f'] = 'عام';
 $_LANGADM['AdminMaintenance7fe15a347d66e291d7a1375273226205'] = 'تفعيل المتجر';
@@ -769,20 +911,26 @@ $_LANGADM['AdminManufacturersc9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
 $_LANGADM['AdminManufacturers1c76cbfe21c6f44c1d1e59d54f3e4420'] = 'الشركة';
 $_LANGADM['AdminManufacturersdd7bf230fde8d4836917806aff6a6b27'] = 'العنوان';
 $_LANGADM['AdminManufacturers783cb853aae6984e51583b3bb80c09d2'] = 'العنوان (2).';
+$_LANGADM['AdminManufacturersc6e2a9b2d1979c244d18c7e9fbf9a86f'] = 'اﻟﺮﻣﺰ اﻟﺒﺮﻳﺪﻱ';
 $_LANGADM['AdminManufacturers46a2a41cc6e552044816a2d04634545d'] = 'المنطقة';
 $_LANGADM['AdminManufacturersfe66abce284ec8589e7d791185b5c442'] = 'رقم هاتف المنزل';
 $_LANGADM['AdminManufacturers41c2fff4867cc204120f001e7af20f7a'] = 'رقم الجوال';
 $_LANGADM['AdminManufacturers6311ae17c1ee52b36e68aaf4ad066387'] = 'أخرى';
+$_LANGADM['AdminManufacturers804f1e6cd9e6d68208f39932da191f61'] = 'تعديل العناوين';
 $_LANGADM['AdminManufacturers72d6d7a1885885bb55a565fd1070581a'] = 'استيراد';
+$_LANGADM['AdminManufacturers6bc011e375bcee14786bb43acdf00a8a'] = 'إضافة عنوان';
 $_LANGADM['AdminMetad3b206d196cd6be3a2764c1fb90b200f'] = 'حذف المحدد';
 $_LANGADM['AdminMetae25f0ecd41211b01c83e5fec41df4fe7'] = 'حذف العناصر المحدده ؟';
 $_LANGADM['AdminMetab718adec73e04ce3ec720dd11a06a308'] = 'الرقم التعريفي';
 $_LANGADM['AdminMeta193cfc9be3b995831c6af2fea6650e60'] = 'الصفحة';
+$_LANGADM['AdminMeta12cb401e3a068898222575c6a5ef5ece'] = 'عنوان الصفحة';
+$_LANGADM['AdminMeta1dec4f55522b828fe5dacf8478021a9e'] = 'رابط سهل';
 $_LANGADM['AdminMeta7959e21ff0b83542251ca0b4e9a62eea'] = 'توليد ملف robots.txt';
 $_LANGADM['AdminMeta345d6249c20c6319bb09edaaf536744b'] = 'جيل الروبوتات الملف';
 $_LANGADM['AdminMetadb309cb65c4220d02c0fd13927d315ae'] = 'نطاق المتجر';
 $_LANGADM['AdminMetac9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
 $_LANGADM['AdminMeta3cb0403ba2ec65e9030c1013b5edb42d'] = 'عناوين الإعداد';
+$_LANGADM['AdminMetae1622ba9f41f5b695bddc69e3ceaa204'] = 'إضافة صفحة جديدة';
 $_LANGADM['AdminMeta532a7bf10fd5a4315e0dfefe7a110d43'] = 'الصفحات الافتراضية';
 $_LANGADM['AdminMetad7d6df2bf29a7c786936c13dade04d8c'] = 'صفحات الإضافات';
 $_LANGADM['AdminMetae1a7478962f9872f0765922496b26851'] = 'لا يوجد الصفحات المتاحة!';
@@ -812,6 +960,7 @@ $_LANGADM['AdminModules5569135c321c16866b524ec82dcd2b2a'] = 'لا يوجد مل�
 $_LANGADM['AdminModules8290fb626ffacf21450997f25967efeb'] = 'لا يوجد أي إضافة';
 $_LANGADM['AdminModulesd9e87fc7a13ba398295447791c67b586'] = 'تركيب وحدات';
 $_LANGADM['AdminModulesa0f454ebaee933c7791ffcdda76944b3'] = 'تعطيل وحدات';
+$_LANGADM['AdminModules6c03a470e52036813f268bbfa0873529'] = '%1$s: %2$s';
 $_LANGADM['AdminModulesPositions51a8b3a61ad63d4e5df2ce86870e39b8'] = 'زرع الإضافة';
 $_LANGADM['AdminOrderMessaged3b206d196cd6be3a2764c1fb90b200f'] = 'حذف المحدد';
 $_LANGADM['AdminOrderMessagee25f0ecd41211b01c83e5fec41df4fe7'] = 'حذف العناصر المحدده ؟';
@@ -830,15 +979,20 @@ $_LANGADM['AdminOrderPreferencesc6ca929dc4c8193ad6cd154e9e075ac9'] = 'الحد �
 $_LANGADM['AdminOrderPreferencese4045598261988d9988c594243a9434d'] = 'شروط الخدمة';
 $_LANGADM['AdminOrderPreferencesfff92cdf417b8a468af180474057a575'] = 'تتطلب من العملاء لقبول أو رفض شروط الخدمة قبل معالجة النظام';
 $_LANGADM['AdminOrderPreferencesc9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
+$_LANGADM['AdminOrderPreferencesbf3b3ed0e4fd43efff9c26b3d35c6c2f'] = 'خيارات الهدية';
 $_LANGADM['AdminOrderPreferencesd2c8471bccf2bbf30151cf50a96c3877'] = 'نقدم هدية التفاف';
 $_LANGADM['AdminOrderPreferences8be74244c8fe462cb6d967a5ebdc57cb'] = 'اقتراح هدية التفاف على العملاء وإمكانية ترك رسالة';
 $_LANGADM['AdminOrderPreferences2a0677dae563d574fb1c50badaa4eabf'] = 'هدية التفاف السعر';
+$_LANGADM['AdminOrderPreferencesf2e28db133063334eb23fad936947493'] = 'تحديد سعر لتغليف الهدية.';
 $_LANGADM['AdminOrderPreferences0d8bdbe98feb696dd76760ee1374a740'] = 'هدية التفاف الضرائب';
+$_LANGADM['AdminOrderPreferences3993942430a9f4e82e50b2c39048d6b6'] = 'تعيين ضريبة لتغليف الهدية.';
 $_LANGADM['AdminOrderPreferencesb667478ccafce4bff6d427a6bca06269'] = 'عرض التغليف المعاد تدويرها';
 $_LANGADM['AdminOrdersb718adec73e04ce3ec720dd11a06a308'] = 'الرقم التعريفي';
 $_LANGADM['AdminOrders63d5049791d9d79d86e9a108b0a999ca'] = 'المرجع';
+$_LANGADM['AdminOrders94003250a2187a9f51b227b490e5ab6b'] = 'عميل جديد';
 $_LANGADM['AdminOrdersce26601dac0dea138b7295f02b7620a7'] = 'العميل';
 $_LANGADM['AdminOrders1c76cbfe21c6f44c1d1e59d54f3e4420'] = 'الشركة';
+$_LANGADM['AdminOrders96b0141273eabab320119c467cdcaf17'] = 'الإجمالي';
 $_LANGADM['AdminOrdersc453a4b8e8d98e82f35b67f433e3b4da'] = 'الدفع';
 $_LANGADM['AdminOrdersec53a8c4f07baed5d8825072c89799be'] = 'الحالة';
 $_LANGADM['AdminOrders44749712dbec183e983dcd78a7736c41'] = 'التاريخ';
@@ -852,6 +1006,7 @@ $_LANGADM['AdminOrders4b8def9be8f45a8d6baea36b26868965'] = 'إلغاء المن�
 $_LANGADM['AdminOrders4b6c6cda10a23d1bdc920f2e47e5f46f'] = 'أضف منتج جديد';
 $_LANGADM['AdminOrders93cba07454f06a4a960172bbd6e2a435'] = 'نعم';
 $_LANGADM['AdminOrdersbafd7322c6e97d25b6299b5d6fe8920b'] = 'لا';
+$_LANGADM['AdminOrderse4c3da18c66c0147144767efeb59198f'] = 'قيمة التحويل';
 $_LANGADM['AdminOrders947d8520f04473da621f2718138f3bc6'] = '30 يوم';
 $_LANGADM['AdminOrders54e85d70ea67acdcc86963b14d6223a8'] = 'التخلي عن عربات';
 $_LANGADM['AdminOrders1dd1c5fb7f25cd41b291d43a89e3aefd'] = 'اليوم';
@@ -905,6 +1060,8 @@ $_LANGADM['AdminPerformanceaa7ef82bc75491903bfc4838957265be'] = 'التخزين 
 $_LANGADM['AdminPerformanceacc4331e6cbf7b4c310329f09f8d375c'] = 'عمق المجلد';
 $_LANGADM['AdminPerformanceb8a27e47e64caa3e36c8894c3745357b'] = 'قبل أن تتمكن من استخدام هذه الأداة، تحتاج إلى:';
 $_LANGADM['AdminPPreferencesbb98eaca8d91531f4ae177c9d395f1d4'] = 'كتالوج الوضع';
+$_LANGADM['AdminPPreferences368140d2caf6b43106964fd615756d1b'] = 'مقارنة المنتجات';
+$_LANGADM['AdminPPreferences85dd6b2059e1ff8fbefcc9cf6e240933'] = 'عدد الأيام التي تعتبر المنتج \'جديد\'';
 $_LANGADM['AdminPPreferences514b442f50710a82aab7c4929f43c24e'] = 'لا يهم إلا النسخة غير اجاكس من العربة';
 $_LANGADM['AdminPPreferences16ded2dc32322d80ce2362a47f4d7ef4'] = 'الصفحة السابقة';
 $_LANGADM['AdminPPreferences6f16ab6ec0a6064d0c8961257a3eb1f5'] = 'ملخص السلة';
@@ -932,7 +1089,25 @@ $_LANGADM['AdminPPreferences265b491d10a9a79c9b43655659826614'] = 'عرض أو إ
 $_LANGADM['AdminPPreferencesbe6be43cab36ddf8024d237c4a2414f7'] = 'طلب السماح من خارج المخزون المنتج';
 $_LANGADM['AdminPPreferences69983ae81c0090a571d3f60aedbd0d46'] = 'تمكين إدارة المخزون';
 $_LANGADM['AdminPreferences4d0a6a9777a818ecc3b59b9a8ecd0c43'] = '-- الرجاء قم بتحديد نشاطك --';
+$_LANGADM['AdminPreferences0fe4ca3df29658482098bb33a2ff66e5'] = 'الحيوانات والحيوانات الأليفة';
+$_LANGADM['AdminPreferences9e4359f35054190eba36e09466e39d01'] = 'الفن والثقافة';
+$_LANGADM['AdminPreferences066cd752c82ddc6231a9723b5822a945'] = 'أطفال';
+$_LANGADM['AdminPreferences41a081c3f3042ac40117cf295350870d'] = 'الجمال والعناية الشخصية';
+$_LANGADM['AdminPreferencesf2b545a8abb14f8706f808a79277c061'] = 'سيارات';
+$_LANGADM['AdminPreferences39bb2fdc532f8984d8348863c86ebfca'] = 'الكمبيوترات و قطع الغيار و البرمجيات';
 $_LANGADM['AdminPreferences801ab24683a4a8c433c6eb40c48bcd9d'] = 'تحميل';
+$_LANGADM['AdminPreferences8bdd8b2357d516da5b81eb16746ba9a9'] = 'الأزياء والاكسسوارات';
+$_LANGADM['AdminPreferences33cb31c5505618a808d3bcd7490a793c'] = 'الزهور والهدايا والحرف';
+$_LANGADM['AdminPreferences0570b6d9de5c37a026e69c6987fc27f6'] = 'المواد الغذائية والمشروبات';
+$_LANGADM['AdminPreferences4b73b8913afcdf06d9f49c176306d950'] = 'هاي فاي، صور وفيديو';
+$_LANGADM['AdminPreferences2e9d6500d9b2a65985a621f0f0afdeb3'] = 'المنزل والحديقة';
+$_LANGADM['AdminPreferences83dd3493957bcd92a37bc39111f670b8'] = 'الأجهزة المنزلية';
+$_LANGADM['AdminPreferences565631402af79df42f22a117b0d6f1a5'] = 'المجوهرات';
+$_LANGADM['AdminPreferences21084da7c0a49b229bd7f905e93d4aaa'] = 'الملابس الداخلية والكبار';
+$_LANGADM['AdminPreferences18848d605251b3627014c6a58c14c449'] = 'الجوال والاتصالات';
+$_LANGADM['AdminPreferences992a0f0542384f1ee5ef51b7cf4ae6c4'] = 'الخدمات';
+$_LANGADM['AdminPreferences4ef7205b13f6821177d0dbc2fb90f79e'] = 'الأحذية والاكسسوارات';
+$_LANGADM['AdminPreferences1fb0f99b55e6c2be35aed72ebe38c245'] = 'السفر';
 $_LANGADM['AdminPreferences1656072e927c8d3acd24359cbb648bb5'] = 'تمكين SSL';
 $_LANGADM['AdminPreferencesed1066918f19349bdea53341c06d7e53'] = 'تمكين أو تعطيل رمزية على مكتب الجبهة من أجل تحسين الأمن PrestaShop';
 $_LANGADM['AdminPreferencesac2021d3c67ee796d7ab20a466ebd583'] = 'وضع الجولة';
@@ -958,11 +1133,13 @@ $_LANGADM['AdminProductsb718adec73e04ce3ec720dd11a06a308'] = 'الرقم الت�
 $_LANGADM['AdminProductsbe53a0541a6d36f6ecb879fa2c584b08'] = 'الصورة';
 $_LANGADM['AdminProducts49ee3087348e8d44e1feda1917443987'] = 'الاسم';
 $_LANGADM['AdminProducts63d5049791d9d79d86e9a108b0a999ca'] = 'المرجع';
+$_LANGADM['AdminProducts3adbdb3ac060038aa0e6e6c138ef9873'] = 'تصنيف';
 $_LANGADM['AdminProductsad0d28cdd9113d3ce911bc064b137cde'] = 'السعر الابتدائى';
 $_LANGADM['AdminProductsed26f5ba7a0f0f6ca8b16c3886eb68ad'] = 'السعر النهائي';
 $_LANGADM['AdminProducts694e8d1f2ee056f98ee488bdc4982d73'] = 'الكمية';
 $_LANGADM['AdminProductsec53a8c4f07baed5d8825072c89799be'] = 'الحالة';
 $_LANGADM['AdminProducts52f5e0bc3859bc5f5e25130b6c7e8881'] = 'ترتيب العرض';
+$_LANGADM['AdminProducts1f66f9472666b18b19c22fd0f1a6a07b'] = 'حجم الملف كبير جداً. الحجم الأقصى المسموح به هو: %1$d كيلوبايت. الملف الذي تحاول رفعه حجمه %2$d كيلوبايت.';
 $_LANGADM['AdminProductsaad781b9842958b4552b8edebb83c346'] = 'فشل فى نسخ الملف';
 $_LANGADM['AdminProducts151648106e4bf98297882ea2ea1c4b0e'] = 'تم التحديث بنجاح';
 $_LANGADM['AdminProducts160f1ab34ecfb437b1767602d5ee093f'] = 'لا يمكن حذف السمة';
@@ -1169,6 +1346,7 @@ $_LANGADM['AdminSearchConf84b4d8c8cdd02488c0f868e97b22a3c2'] = 'تم الاضا�
 $_LANGADM['AdminSearch63d5049791d9d79d86e9a108b0a999ca'] = 'المرجع';
 $_LANGADM['AdminSearchb718adec73e04ce3ec720dd11a06a308'] = 'الرقم التعريفي';
 $_LANGADM['AdminSearchce26601dac0dea138b7295f02b7620a7'] = 'العميل';
+$_LANGADM['AdminSearch96b0141273eabab320119c467cdcaf17'] = 'الإجمالي';
 $_LANGADM['AdminSearchc453a4b8e8d98e82f35b67f433e3b4da'] = 'الدفع';
 $_LANGADM['AdminSearchec53a8c4f07baed5d8825072c89799be'] = 'الحالة';
 $_LANGADM['AdminSearch44749712dbec183e983dcd78a7736c41'] = 'التاريخ';
@@ -1214,6 +1392,7 @@ $_LANGADM['AdminShop4493e821e06072415518bd7ae4077996'] = 'مجموعة المت�
 $_LANGADM['AdminShop00d23a76e43b46dae9ec7aa9dcbebb32'] = 'مفعل';
 $_LANGADM['AdminShop652342e19bf26f8d1b350e60aad3e3bf'] = 'إضافة متجر جديد';
 $_LANGADM['AdminShop9f82518d468b9fee614fcc92f76bb163'] = 'المتجر';
+$_LANGADM['AdminShop1379a6b19242372c1f23cc9adedfcdd6'] = 'جذر الأقسام';
 $_LANGADM['AdminShopd721757161f7f70c5b0949fdb6ec2c30'] = 'الموضوع';
 $_LANGADM['AdminShopc9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
 $_LANGADM['AdminShop1d6af794b2599c1407a83029a09d1ecf'] = 'جهات الشحن:';
@@ -1269,6 +1448,7 @@ $_LANGADM['AdminSlipe12167aa0a7698e6ebc92b4ce3909b53'] = 'إلى';
 $_LANGADM['AdminSlip067af5895a7ced3197520b591f9a41eb'] = 'توليد ملف PDF';
 $_LANGADM['AdminSlip9178a1a9fc82617864593a784163d86a'] = 'تاريخ البداية غير صحيح';
 $_LANGADM['AdminSlip915bd2c5cf6e420095a64d309e443849'] = 'صالح تاريخ انتهاء';
+$_LANGADM['AdminSpecificPriceRule37be07209f53a5d636d5c904ca9ae64c'] = 'النسبة المئوية';
 $_LANGADM['AdminSpecificPriceRuleb2f40690858b404ed10e62bdf422c704'] = 'الكمية';
 $_LANGADM['AdminSpecificPriceRuled3b206d196cd6be3a2764c1fb90b200f'] = 'حذف المحدد';
 $_LANGADM['AdminSpecificPriceRulee25f0ecd41211b01c83e5fec41df4fe7'] = 'حذف العناصر المحدده ؟';
@@ -1332,6 +1512,7 @@ $_LANGADM['AdminStatusesc9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
 $_LANGADM['AdminStatuses510f6a8fda6eb21f9ff01954e034a29a'] = 'لأسباب أمنية ، لا يمكنك حذف أوضاع النظام الافتراضي.';
 $_LANGADM['AdminStatuses79f062391903591d68e514a400e136cf'] = 'تم تعديل الحالة بنحاج';
 $_LANGADM['AdminStockConfigurationb718adec73e04ce3ec720dd11a06a308'] = 'الرقم التعريفي';
+$_LANGADM['AdminStockConfiguration004bf6c9a40003140292e97330236c53'] = 'فعل';
 $_LANGADM['AdminStockConfigurationaac247ca22789872bad95dc8f6c45d37'] = 'زيادة';
 $_LANGADM['AdminStockConfiguration49ee3087348e8d44e1feda1917443987'] = 'الاسم';
 $_LANGADM['AdminStockConfigurationdae8ace18bdcbcc6ae5aece263e14fe8'] = 'خيارات';
@@ -1426,6 +1607,7 @@ $_LANGADM['AdminStoresb718adec73e04ce3ec720dd11a06a308'] = 'الرقم التع�
 $_LANGADM['AdminStores49ee3087348e8d44e1feda1917443987'] = 'الاسم';
 $_LANGADM['AdminStoresdd7bf230fde8d4836917806aff6a6b27'] = 'العنوان';
 $_LANGADM['AdminStores57d056ed0984166336b7879c2af3657f'] = 'المدينة';
+$_LANGADM['AdminStoresc6e2a9b2d1979c244d18c7e9fbf9a86f'] = 'اﻟﺮﻣﺰ اﻟﺒﺮﻳﺪﻱ';
 $_LANGADM['AdminStores46a2a41cc6e552044816a2d04634545d'] = 'المنطقة';
 $_LANGADM['AdminStores59716c97497eb9694541f7c3d37b1a4d'] = 'الدولة';
 $_LANGADM['AdminStoresbcc254b55c4a1babdf1dcb82c207506b'] = 'رقم الهاتف';
@@ -1476,6 +1658,7 @@ $_LANGADM['AdminSuppliersbcc254b55c4a1babdf1dcb82c207506b'] = 'رقم الهات
 $_LANGADM['AdminSuppliersb51bea4eee9d9ef6bd9a6849337013d5'] = 'رقم هاتف المزود';
 $_LANGADM['AdminSuppliers41c2fff4867cc204120f001e7af20f7a'] = 'رقم الجوال';
 $_LANGADM['AdminSuppliersdd7bf230fde8d4836917806aff6a6b27'] = 'العنوان';
+$_LANGADM['AdminSuppliersc6e2a9b2d1979c244d18c7e9fbf9a86f'] = 'اﻟﺮﻣﺰ اﻟﺒﺮﻳﺪﻱ';
 $_LANGADM['AdminSuppliers57d056ed0984166336b7879c2af3657f'] = 'المدينة';
 $_LANGADM['AdminSuppliers59716c97497eb9694541f7c3d37b1a4d'] = 'الدولة';
 $_LANGADM['AdminSuppliers46a2a41cc6e552044816a2d04634545d'] = 'المنطقة';
@@ -1621,10 +1804,13 @@ $_LANGADM['AdminThemes6252c0f2c2ed83b7b06dfca86d4650bb'] = 'رموز غير صح
 $_LANGADM['AdminThemes93cba07454f06a4a960172bbd6e2a435'] = 'نعم';
 $_LANGADM['AdminThemesbafd7322c6e97d25b6299b5d6fe8920b'] = 'لا';
 $_LANGADM['AdminThemese73cda510e8bb947f7e61089e5581494'] = 'قسم';
+$_LANGADM['AdminThemesf9e4884c7654daa6581b42ed90aeaba4'] = 'العمود الأيسر';
+$_LANGADM['AdminThemesfeb6cc332459769fe15570bf332a6b50'] = 'العمود الأيمن';
 $_LANGADM['AdminThemes49ee3087348e8d44e1feda1917443987'] = 'الاسم';
 $_LANGADM['AdminThemesce8ae9da5b7cd6c3df2929543a9af92d'] = 'عنوان البريد';
 $_LANGADM['AdminThemes15bbb9d0bbf25e8d2978de1168c749dc'] = 'الموقع الإلكتروني';
 $_LANGADM['AdminThemesb5a7adde1af5c87d7fd797b6245c2a39'] = 'الوصف';
+$_LANGADM['AdminThemes5b6cf869265c13af8566f192b4ab3d2a'] = 'الوثائق';
 $_LANGADM['AdminThemes0095a9fa74d1713e43e370a7d7846224'] = 'تصدير';
 $_LANGADM['AdminThemes9d55fc80bbb875322aa67fd22fc98469'] = 'ترابط المتاجر:';
 $_LANGADM['AdminThemes498f79c4c5bbde77f1bceb6c86fd0f6d'] = 'أعرض';
@@ -1667,6 +1853,7 @@ $_LANGADM['AdminWarehouses6252c0f2c2ed83b7b06dfca86d4650bb'] = 'رموز غير 
 $_LANGADM['AdminWarehousesbcc254b55c4a1babdf1dcb82c207506b'] = 'رقم الهاتف';
 $_LANGADM['AdminWarehouses41c2fff4867cc204120f001e7af20f7a'] = 'رقم الجوال';
 $_LANGADM['AdminWarehousesdd7bf230fde8d4836917806aff6a6b27'] = 'العنوان';
+$_LANGADM['AdminWarehousesc6e2a9b2d1979c244d18c7e9fbf9a86f'] = 'اﻟﺮﻣﺰ اﻟﺒﺮﻳﺪﻱ';
 $_LANGADM['AdminWarehouses57d056ed0984166336b7879c2af3657f'] = 'المدينة';
 $_LANGADM['AdminWarehouses59716c97497eb9694541f7c3d37b1a4d'] = 'الدولة';
 $_LANGADM['AdminWarehouses46a2a41cc6e552044816a2d04634545d'] = 'المنطقة';
@@ -1741,6 +1928,7 @@ $_LANGADM['AdminController4351cfebe4b61d8aa5efa1d020710005'] = 'عرض';
 $_LANGADM['AdminControllera6105c0a611b41b08f1209506350279e'] = 'نعم';
 $_LANGADM['AdminController7fa3b767c460b54a2be4d49030b349c7'] = 'لا';
 $_LANGADM['AdminController630f6dc397fe74e52d5189e2c80f282b'] = 'رجوع الى القائمة';
+$_LANGADM['AdminControllerf7931413dee107ddf5289c8886baf7ec'] = 'تحرير: %s';
 $_LANGADM['AdminControllerc9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
 $_LANGADM['AdminControllerea4788705e6873b424c65e91c2846b19'] = 'إلغاء';
 $_LANGADM['AdminController0095a9fa74d1713e43e370a7d7846224'] = 'تصدير';
@@ -1811,8 +1999,10 @@ $_LANGADM['AdminBackup85614411a0c7c3eb8c7c7a81be9fb918'] = 'تحقق أقصى ا
 $_LANGADM['AdminBackupcd7fa1b4a137bf4da20f84bed6624fa5'] = 'جارى تحميل الملف';
 $_LANGADM['AdminBackupb828e7a94de289536d535e8c141868b9'] = 'إذا لم يكن قد حدث ذلك';
 $_LANGADM['AdminBackupd1c6b1687ebbc336f9bd13beba87b0cf'] = 'فضلا قم بالضغط هنا';
+$_LANGADM['AdminCarriersb3a8c7a70270e444c6e9645313f97393'] = 'إضافة ناقل جديد';
 $_LANGADM['AdminCarrierWizardf2a6c498fb90ee345d997f888fce3b18'] = 'حذف';
 $_LANGADM['AdminCarrierWizarde23375136c63fb5936352717f495bc82'] = 'النطاقات ليست مرتبة بشكل صحيح:';
+$_LANGADM['AdminCarrierWizard92fbf0e5d97b8afd7e73126b52bdc4bb'] = 'إختيار ملف';
 $_LANGADM['AdminCarrierWizardfb2ea703b13d059f6b7ea5da806021df'] = 'التنسيق:';
 $_LANGADM['AdminCarrierWizardb908c2f34052b5276e0bf50f0e042211'] = 'حجم الملف:';
 $_LANGADM['AdminCarrierWizardc32587b909ccc2187659ca665dbb06be'] = 'الحجم الحالي:';
@@ -1900,12 +2090,14 @@ $_LANGADM['AdminCarts0bf157acdf9fe272c1379ff0b5442372'] = 'إجمالي المن
 $_LANGADM['AdminCarts3e69f668660d41b577a8da0fb53f6fa8'] = 'إجمالي الخصومات:';
 $_LANGADM['AdminCarts79e21b5609402cd57d1dec7496771df8'] = 'إجمالي الهدايا المغلّفة:';
 $_LANGADM['AdminCartsef73a8d7f1584e95243111f8e468e05f'] = 'إجمالي الشحن:';
+$_LANGADM['AdminCarts66c4c5112f455a19afde47829df363fa'] = 'الإجمالي';
 $_LANGADM['AdminCarts9d5bf15117441a1b52eb1f0808e4aad3'] = 'خصومات';
 $_LANGADM['AdminCartsf14b582c1b0eab88ed5904fb781568c0'] = 'اسم الخصم';
 $_LANGADM['AdminCarts689202409e48743b914713f96d93947c'] = 'القيمة';
 $_LANGADM['AdminCarts29aa46cc3d2677c7e0f216910df600ff'] = 'شحن مجاني';
 $_LANGADM['AdminCartsbefcac0f9644a7abee43e69f49252ac4'] = 'بدون الضريبة';
 $_LANGADM['AdminCartsf4a0d7cb0cd45214c8ca5912c970de13'] = 'شامل للضريبة';
+$_LANGADM['AdminCategories5bc1667deb2b522c0cac00de5f15ffbc'] = 'الأبعاد المقترحة (للنسق الافتراضي): %1sبيكسل x %2sبيكسل';
 $_LANGADM['AdminCategoriesea4788705e6873b424c65e91c2846b19'] = 'إلغاء';
 $_LANGADM['AdminCategoriesf2a6c498fb90ee345d997f888fce3b18'] = 'حذف';
 $_LANGADM['AdminCms084af17ae8dce6465e3acd94a3d995c1'] = 'سيتم حفظ نسخة من الصفحة';
@@ -1919,6 +2111,7 @@ $_LANGADM['AdminCountries9639e32cab248434a17ab32237cb3b71'] = 'تطبيق';
 $_LANGADM['AdminCountriesb9987a246a537f4fe86f1f2e3d10dbdb'] = 'مشاهده';
 $_LANGADM['AdminCountriesdd8921b41e0279a02c6a26a509241700'] = 'النتائج';
 $_LANGADM['AdminCustomers6513e5e8645f98d950d6174b30c151b8'] = 'لديك طريقتان لحذف العملاء ، يرجى اختيار ما تريد القيام به.';
+$_LANGADM['AdminCustomers0470d45929f27e1161330164c423b415'] = 'تعيين الحقول المطلوبة لهذا القسم';
 $_LANGADM['AdminCustomerse54b38290c8bdd95e8bc10412c9cc096'] = 'حقول مطلوبة';
 $_LANGADM['AdminCustomers81f32b96f6626b8968e6a0f4a9bce62e'] = 'حدد الحقول التي ترغب في أن تكون المطلوبة لهذا القسم.';
 $_LANGADM['AdminCustomersee9b2f3cf31c23c944b15fb0b33d6a77'] = 'اسم الخانة';
@@ -1942,6 +2135,7 @@ $_LANGADM['AdminCustomers25326db0dcb2cf342b3477fbdad373dc'] = 'إجمالي ال
 $_LANGADM['AdminCustomers4351cfebe4b61d8aa5efa1d020710005'] = 'عرض';
 $_LANGADM['AdminCustomersfc26e55e0993a75e892175deb02aae15'] = 'عربات الشراء';
 $_LANGADM['AdminCustomers914419aa32f04011357d3b604a86d7eb'] = 'جهة الشحن';
+$_LANGADM['AdminCustomers96b0141273eabab320119c467cdcaf17'] = 'الإجمالي';
 $_LANGADM['AdminCustomers1c28cbdd010068123432a5885ebfdb65'] = 'لا توجد سلة شراء متاحة';
 $_LANGADM['AdminCustomers49ee3087348e8d44e1feda1917443987'] = 'الاسم';
 $_LANGADM['AdminCustomers694e8d1f2ee056f98ee488bdc4982d73'] = 'الكمية';
@@ -2019,6 +2213,7 @@ $_LANGADM['AdminGroups2dc9a383d693a2ded8b1ef832926ea93'] = 'سعر العرض ا
 $_LANGADM['AdminGroups02d29656d8379684796b01abfd2a9a13'] = 'عرض الأسعار:';
 $_LANGADM['AdminGroups4845f30b0c12e9dd97246f5f443338ad'] = 'الفئة الخصم الحالي';
 $_LANGADM['AdminGroups6adf97f83acf6453d4a6a4b1070f3754'] = 'لايوجد';
+$_LANGADM['AdminGroups3adbdb3ac060038aa0e6e6c138ef9873'] = 'تصنيف';
 $_LANGADM['AdminGroups42ba7a29aa37fc2cb42f5381e71afb9f'] = 'أعضاء هذه المجموعة من العملاء';
 $_LANGADM['AdminImages874d3deed67e503cac1d8bc00417794a'] = 'نقل الصور';
 $_LANGADM['AdminImagesf7d23ffed6cbca9220bdf2f4e5743643'] = 'يمكنك اختيار للحفاظ على الصور المخزنة في النظام السابق -- لا حرج في ذلك.';
@@ -2064,6 +2259,7 @@ $_LANGADM['AdminInformationfc0eeb8415aed39a9d3624c7fc2fe47c'] = 'PageSpeed ​�
 $_LANGADM['AdminInformation52018f4304c11e4bd288a533b122ccf7'] = 'MySQL الإصدار';
 $_LANGADM['AdminInformationfe453b675e37e3a3d2ca501d7ef3135e'] = 'بادئة الجداول';
 $_LANGADM['AdminInformationb888bbc9841a225c7780b20f2c2db60c'] = 'محرك الخلية';
+$_LANGADM['AdminInformation3aea774cdcd8f2c45549f10758a71323'] = 'معلومات المتجر';
 $_LANGADM['AdminInformation59681d7f729ee8ffdfbc99b8c935c41b'] = 'النسخة Prestashop';
 $_LANGADM['AdminInformation76c01eed328aa2411b18f007c77d2eeb'] = 'رابط المتجر';
 $_LANGADM['AdminInformationb5b3eed3efd6cfebfea270066a1e1f9b'] = 'اسم السمة المستخدمة';
@@ -2139,6 +2335,7 @@ $_LANGADM['AdminModulesc3987e4cac14a8456515f0d200da04ee'] = 'كافة الدول
 $_LANGADM['AdminModulesd188407e1d066cd41925efebe2dab3da'] = 'الدولة الحالية:';
 $_LANGADM['AdminModulesd7778d0c64b6ba21494c97f77a66885a'] = 'فلتر';
 $_LANGADM['AdminModulesdf3f079de6961496f0460dcfdbf9bca3'] = 'بواسطة';
+$_LANGADM['AdminModules2cc1943d4c0b46bfcf503a75c44f988b'] = 'الاكثر شعبية';
 $_LANGADM['AdminModules43340e6cc4e88197d57f8d6d5ea50a46'] = 'مشاهدة المزيد';
 $_LANGADM['AdminModulesb24ce0cd392a5b0b8dedc66c25213594'] = 'مجاناً!';
 $_LANGADM['AdminModules349838fb1d851d3e2014b9fe39203275'] = 'تثبيت';
@@ -2151,6 +2348,7 @@ $_LANGADM['AdminModules28080c3603fb7e10f228381b181cae2c'] = 'قائمة الإض
 $_LANGADM['AdminModules6a26f548831e6a8c26bfbbd9f6ec61e0'] = 'المساعده';
 $_LANGADM['AdminModules6779ef184c16fbd18a0bc13ebda839c5'] = 'تحميل وحدة من جهاز الكمبيوتر الخاص بك.';
 $_LANGADM['AdminModules5b48d0f5735d2f9b73a8f3ec7c4858ba'] = 'ملف الإضاقة';
+$_LANGADM['AdminModules92fbf0e5d97b8afd7e73126b52bdc4bb'] = 'إختيار ملف';
 $_LANGADM['AdminModules8634e049945e0e8562673698a1abb485'] = 'تحميل هذه الإضافة';
 $_LANGADM['AdminModules13348442cc6a27032d2b4aa28b75a5d3'] = 'بحث';
 $_LANGADM['AdminModulesb1c94ca2fbc3e78fc30069c8d0f01680'] = 'الكل';
@@ -2220,6 +2418,7 @@ $_LANGADM['AdminOrdersa82868319826fb092b73968e661b5b38'] = 'القسائم';
 $_LANGADM['AdminOrders284b47b0bb63ae2df3b29f0e691d6fcf'] = 'العناوين';
 $_LANGADM['AdminOrdersb15e1100a6196acba01ef7aaa5b2a9e5'] = 'اضف';
 $_LANGADM['AdminOrdersea9cf7e47ff33b2be14e6dd07cbcefc6'] = 'الشحن';
+$_LANGADM['AdminOrders19dfe063714422004b75043eaf74c9b8'] = 'خيار التوصيل';
 $_LANGADM['AdminOrdersa6105c0a611b41b08f1209506350279e'] = 'نعم';
 $_LANGADM['AdminOrders107ca6f108ab1c0c66015df0f61845a9'] = 'تدويرها الحزمة';
 $_LANGADM['AdminOrders0fe067d5d05655a4c80602c1d6e7d0c5'] = 'رسالة هدية';
@@ -2366,6 +2565,7 @@ $_LANGADM['AdminProducts1908624a0bca678cd26b99bfd405324e'] = 'حجم الملف'
 $_LANGADM['AdminProductsfb2ea703b13d059f6b7ea5da806021df'] = 'التنسيق:';
 $_LANGADM['AdminProductsb908c2f34052b5276e0bf50f0e042211'] = 'حجم الملف:';
 $_LANGADM['AdminProducts8bf615c78d82dede20bca75a5c73615c'] = 'إضافة صورة جديدة لهذا المنتج';
+$_LANGADM['AdminProducts272ba7d164aa836995be6319a698be84'] = 'عنوان الصورة';
 $_LANGADM['AdminProducts06933067aafd48425d67bcb01bba5cb6'] = 'تعديل';
 $_LANGADM['AdminProductsc795dfff10a7c952f4c5438951e9ece9'] = 'الصورة الرئيسية';
 $_LANGADM['AdminProducts7be66046997731ac05844f11ee4f6a76'] = 'حذف هذه الصورة';
@@ -2422,7 +2622,9 @@ $_LANGADM['AdminProducts47ac923d219501859fb68fed8c8db77b'] = 'المواصفات
 $_LANGADM['AdminProducts21f59b54f62b5b8b4bc0f63f0f617fc1'] = 'تأثير';
 $_LANGADM['AdminProducts1901606ea069a83dc7beea17881ef95a'] = 'الفترة';
 $_LANGADM['AdminProducts3c6c11039b6caf151f6e3e99237f2f3b'] = 'من (الكمية)';
+$_LANGADM['AdminProducts004bf6c9a40003140292e97330236c53'] = 'فعل';
 $_LANGADM['AdminProductsd74838fbbeb384c01d7294db33c36ec3'] = 'تم تعطيل إدارة المخزون';
+$_LANGADM['AdminProducts96ca47f429c269b85e31be9fb17df6d4'] = 'الكميات المتوفرة';
 $_LANGADM['AdminProductsf072da215c080d985d44361e96a3cf60'] = 'إلغاء طلبات الشراء';
 $_LANGADM['AdminProducts119a7c88cf8f1c685c57981abff26f43'] = 'السماح بطلبات الشراء';
 $_LANGADM['AdminProductsb287d004082f0d743a49dc7360d4fbbe'] = 'كمية الحد الأدنى لشراء هذا المنتج ';
@@ -2430,6 +2632,7 @@ $_LANGADM['AdminProducts3e053943605d9e4bf7dd7588ea19e9d2'] = 'أحرف ممنو�
 $_LANGADM['AdminProducts9e11e4b371570340ca07913bc4783a7a'] = 'Meta title:';
 $_LANGADM['AdminProducts3f64b2beede1082fd32ddb0bf11a641f'] = 'وصف الميتا';
 $_LANGADM['AdminProducts7d7559ccac6bc30a4d985db11cb34a3a'] = 'Meta keywords:';
+$_LANGADM['AdminProducts02fa003c38fefcda498b876f67f4cac7'] = 'رابط سهل';
 $_LANGADM['AdminProducts32b919d18cfaca89383f6000dcc9c031'] = 'توليد';
 $_LANGADM['AdminProductsda6c600fb054b240110126587b64e417'] = 'سيظهر الرابط بهذا الشكل';
 $_LANGADM['AdminProducts1d6af794b2599c1407a83029a09d1ecf'] = 'جهات الشحن:';
@@ -2470,6 +2673,7 @@ $_LANGADM['AdminReferrersb1c94ca2fbc3e78fc30069c8d0f01680'] = 'الكل';
 $_LANGADM['AdminReferrers13348442cc6a27032d2b4aa28b75a5d3'] = 'بحث';
 $_LANGADM['AdminRequestSqlf2bbdf9f72c085adc4d0404e370f0f4c'] = 'السمة';
 $_LANGADM['AdminRequestSqla1fa27779242b4902f7ae3bdd5c6d508'] = 'النوع';
+$_LANGADM['AdminRequestSql004bf6c9a40003140292e97330236c53'] = 'فعل';
 $_LANGADM['AdminRequestSql1ee79b4b20638d135b8ae8122f7770b9'] = 'فضلا قم بإختيار جدول';
 $_LANGADM['AdminReturnd17f6ab68839ef4a39ead0638cae47a2'] = 'مزيد من التفاصيل في صفحة العملاء';
 $_LANGADM['AdminReturna901cc409fe745be1a29a311b57880ce'] = 'مشاهدة التفاصيل فى صفحة الطلب';
@@ -2477,6 +2681,7 @@ $_LANGADM['AdminReturndaf51d7d9e10e6a469434ae548d9a173'] = 'طباعة';
 $_LANGADM['AdminReturn63d5049791d9d79d86e9a108b0a999ca'] = 'المرجع';
 $_LANGADM['AdminReturndf644ae155e79abf54175bd15d75f363'] = 'اسم المنتج';
 $_LANGADM['AdminReturn694e8d1f2ee056f98ee488bdc4982d73'] = 'الكمية';
+$_LANGADM['AdminReturn004bf6c9a40003140292e97330236c53'] = 'فعل';
 $_LANGADM['AdminReturnf2a6c498fb90ee345d997f888fce3b18'] = 'حذف';
 $_LANGADM['AdminReturne9cb217697088a98b1937d111d936281'] = 'ملف مرفق';
 $_LANGADM['AdminSearch864c665aea5e824772fda0e678c3ac4d'] = '%d منتجات';
@@ -2485,6 +2690,7 @@ $_LANGADM['AdminShop93cba07454f06a4a960172bbd6e2a435'] = 'نعم';
 $_LANGADM['AdminShopbafd7322c6e97d25b6299b5d6fe8920b'] = 'لا';
 $_LANGADM['AdminShopea4788705e6873b424c65e91c2846b19'] = 'إلغاء';
 $_LANGADM['AdminSpecificPriceRule229eb04083e06f419f9ac494329f957d'] = 'الشروط';
+$_LANGADM['AdminSpecificPriceRule3adbdb3ac060038aa0e6e6c138ef9873'] = 'تصنيف';
 $_LANGADM['AdminSpecificPriceRulec0bd7654d5b278e65f21cf4e9153fdb4'] = 'الماركة';
 $_LANGADM['AdminSpecificPriceRuleec136b444eede3bc85639fac0dd06229'] = 'المورد';
 $_LANGADM['AdminSpecificPriceRule287234a1ff35a314b5b6bc4e5828e745'] = 'الخصائص';
@@ -2564,6 +2770,7 @@ $_LANGADM['AdminTaxRules526d688f37a86d3c3f27d0c5016eb71d'] = 'إعادة ضبط'
 $_LANGADM['AdminThemesea4788705e6873b424c65e91c2846b19'] = 'إلغاء';
 $_LANGADM['AdminThemes10ac3d04253ef7e1ddc73e6091c0cd55'] = 'التالي';
 $_LANGADM['AdminThemesbbb572a770006c9e0e57c9e5d4bcda90'] = 'على الهواء مباشرة من ماكسثون PrestaShop!';
+$_LANGADM['AdminThemesa20ddccbb6f808ec42cd66323e6c6061'] = 'أنهي';
 $_LANGADM['AdminTranslations2303c057afcbe798a5d9811d36e88050'] = 'تعديل الترجمات';
 $_LANGADM['AdminTranslations4994a8ffeba4ac3140beb89e8d41f174'] = 'اللغه';
 $_LANGADM['AdminTranslations763d71969e7ee9bff4e5dc8976501f33'] = 'إضافة / تحديث لغة';
@@ -2583,7 +2790,12 @@ $_LANGADM['AdminTranslationsc55cb507e1107a57a37791ec42635ca4'] = 'إذا لزم 
 $_LANGADM['AdminTranslations9c400e72aa4774a3086d35327bc49924'] = 'أولا إنشاء لغة جديدة';
 $_LANGADM['AdminTranslations5da618e8e4b89c66fe86e32cdafde142'] = 'من';
 $_LANGADM['AdminTranslationse12167aa0a7698e6ebc92b4ce3909b53'] = 'إلى';
+$_LANGADM['AdminTranslations9df9f71b2fc62b0ce48cbb8cb5671ee6'] = 'من اجل suhosin.post.max_vars.';
 $_LANGADM['AdminTranslations961e2bc7e3f570a3209546330de84a00'] = 'لsuhosin.request.max_vars.';
+$_LANGADM['AdminTranslations308c1cf98be9973142833c9a9dbbc2ef'] = 'يرجى طلب مزود الإستضافة رفع حد Suhosin الى';
+$_LANGADM['AdminTranslations5607dc45ebdfc0baaab64d944aa88f47'] = 'من اجل max_input_vars.';
+$_LANGADM['AdminTranslations6e709babf4b5a0ed4194ad5240e1be2c'] = 'يرجى طلب زيادة هذا الحد من مزود خدمة الإستضافة إلى';
+$_LANGADM['AdminTranslations5d27fef01a54790de11db21f1ed47892'] = '%s على الأقل، أو سيتحتم عليك تحرير ملفات الترجمة يدوياً.';
 $_LANGADM['AdminTranslationsc9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
 $_LANGADM['AdminTranslations1476dfb963d54c697399a79fafa90151'] = 'التعبيرات';
 $_LANGADM['AdminTranslationsa9e4402481bd9b8e36752bf731f67eb6'] = 'الموضوع';
@@ -2596,6 +2808,7 @@ $_LANGADM['AdminWarehouses382b0f5185773fa0f67a8ed8056c7759'] = 'غير متاح'
 $_LANGADM['AdminWarehouses673ae02fffb72f0fe68a66f096a01347'] = 'رقم الهاتف';
 $_LANGADM['AdminWarehouses12a521af593422cd508f7707662c9eb2'] = 'المتاجر:';
 $_LANGADM['AdminWarehouses27ce7f8b5623b2e2df568d64cf051607'] = 'الاسهم';
+$_LANGADM['AdminWarehouses0dae3cf1019a2a690797e6dbc3b99f2b'] = 'أنظر تفاصيل المنتجات';
 $_LANGADM['AdminWebservice51ba9470e0c6fcc53b976a6854b0f2e0'] = 'تعيين أذونات الموارد لهذا المفتاح';
 $_LANGADM['AdminWebservicebe8545ae7ab0276e15898aae7acfbd7a'] = 'مورد';
 $_LANGADM['AdminWebserviceb1c94ca2fbc3e78fc30069c8d0f01680'] = 'الكل';
@@ -2606,7 +2819,9 @@ $_LANGADM['AdminWebservice6c0c2b9ec9a4188db4cfd4f8a0fee415'] = 'حذف (DELETE)'
 $_LANGADM['AdminWebservice028f42454a71f86007a79664b2a35882'] = 'عرض سريع (HEAD)';
 $_LANGADM['AdminController3dd9c50a1e72020b9cc83e92aa7d07b9'] = 'وقت التحميل';
 $_LANGADM['AdminControllerbbaff12800505b22a853e8b7f4eb6a22'] = 'اتصل بنا';
+$_LANGADM['AdminControllere6a7f8a2f42cc35979973da8dfb10720'] = 'منتدى';
 $_LANGADM['AdminController1e6d57e813355689e9c77e947d73ad8f'] = 'من';
+$_LANGADM['AdminController66c4c5112f455a19afde47829df363fa'] = 'الإجمالي';
 $_LANGADM['AdminControllerc112bd7d596888979be02bd780e6a94f'] = 'عرض طلب الشراء';
 $_LANGADM['AdminControllera8d69cdfad4c19ed22bf693b8871064e'] = 'اختر اللغة';
 $_LANGADM['AdminController151648106e4bf98297882ea2ea1c4b0e'] = 'تم التحديث بنجاح';
@@ -2629,6 +2844,11 @@ $_LANGADM['Helper796c163589f295373e171842f37265d5'] = 'الأربعاء';
 $_LANGADM['Helper78ae6f0cd191d25147e252dc54768238'] = 'الخميس';
 $_LANGADM['Helperc33b138a163847cdb6caeeb7c9a126b4'] = 'الجمعة';
 $_LANGADM['Helper8b7051187b9191cdcdae6ed5a10e5adc'] = 'السبت';
+$_LANGADM['Helperef6572e4cd58bb39a3f4e82fc64fe9f0'] = 'أحد';
+$_LANGADM['Helper2ddecde85408faf230652444db78cb72'] = 'ثلاثاء';
+$_LANGADM['Helpered5e8353dfc585f4c6b3a55d1a9fc01d'] = 'خميس';
+$_LANGADM['Helperac616f844b9a5ea5a827bf7fb99b1ad5'] = 'جمعة';
+$_LANGADM['Helper13c7d2d737f81f7bf89aed9fbcd0ad55'] = 'سبت';
 $_LANGADM['Helper86f5978d9b80124f509bdb71786e929e'] = 'يناير';
 $_LANGADM['Helper659e59f062c75f81259d22786d6c44aa'] = 'فبراير';
 $_LANGADM['Helperfa3e5edac607a88d8fd7ecb9d6d67424'] = 'مارس';
@@ -2641,9 +2861,12 @@ $_LANGADM['Helpercc5d90569e1c8313c2b1c2aab1401174'] = 'سبتمبر';
 $_LANGADM['Helpereca60ae8611369fe28a02e2ab8c5d12e'] = 'اوكتوبر';
 $_LANGADM['Helper7e823b37564da492ca1629b4732289a8'] = 'نوفمبر';
 $_LANGADM['Helper82331503174acbae012b2004f6431fa5'] = 'ديسمبر';
+$_LANGADM['Helpere7f8f5c51fe3a6d48a79c6ede9112b7a'] = 'أيار/ مايو ';
 $_LANGADM['Helpere6d0e1c8fc6a4fcf47869df87e04cd88'] = 'العملاء';
 $_LANGADM['Helper7442e29d7d53e549b78d93c46b8cdcfc'] = 'الطلبات';
 $_LANGADM['Helper4c2a8fe7eaf24721cc7a9f0175115bd4'] = 'الرسالة';
+$_LANGADM['Helpere7935ae6c516d89405ec532359d2d75a'] = 'حركة البيانات';
+$_LANGADM['Helper3bb1503332637805beddb73a2dd1fe1b'] = 'التحويل';
 $_LANGADM['Helper9f82518d468b9fee614fcc92f76bb163'] = 'المتجر';
 $_LANGADM['Helper804ccd6219996d12eda865d1c0707423'] = 'كافة المتاجر';
 $_LANGADM['Helper1aa4c641d6920ddb97a2562f8ec53853'] = 'مجموعة المستخدمين';
@@ -2655,6 +2878,7 @@ $_LANGADM['Helperec211f7c20af43e742bf2570c3cb84f9'] = 'إضافة';
 $_LANGADM['Helper1063e38cb53d94d386f21227fcd84717'] = 'إزالة';
 $_LANGADM['Helper93cba07454f06a4a960172bbd6e2a435'] = 'نعم';
 $_LANGADM['Helperbafd7322c6e97d25b6299b5d6fe8920b'] = 'لا';
+$_LANGADM['Helper0c6ad70beb3a7e76c3fc7adab7c46acc'] = 'جيد';
 $_LANGADM['Helperf92965e2c8a7afb3c1b9a5c09a263636'] = 'انتهى';
 $_LANGADM['Helpera76d4ef5f3f6a672bbfab2865563e530'] = 'الوقت';
 $_LANGADM['Helperb55e509c697e4cca0e1d160a7806698f'] = 'ساعة';
@@ -2674,6 +2898,7 @@ $_LANGADM['Helper6afd80bf62a1b8bdfe729af8a0159fee'] = 'قائمة الإضافا
 $_LANGADM['Helper2c422a499f038293ed0c5a1e085cd827'] = 'لا توجد إضافات متاحة فى هذا القسم.';
 $_LANGADM['Helperdae8ace18bdcbcc6ae5aece263e14fe8'] = 'خيارات';
 $_LANGADM['Helperc103bafd6451f1f08200bebff539606f'] = 'المتجر المتعدد';
+$_LANGADM['Helper0470d45929f27e1161330164c423b415'] = 'تعيين الحقول المطلوبة لهذا القسم';
 $_LANGADM['Helpere54b38290c8bdd95e8bc10412c9cc096'] = 'حقول مطلوبة';
 $_LANGADM['Helper81f32b96f6626b8968e6a0f4a9bce62e'] = 'حدد الحقول التي ترغب في أن تكون المطلوبة لهذا القسم.';
 $_LANGADM['Helperee9b2f3cf31c23c944b15fb0b33d6a77'] = 'اسم الخانة';

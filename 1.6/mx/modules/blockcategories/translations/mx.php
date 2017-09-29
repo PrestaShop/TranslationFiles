@@ -9,7 +9,7 @@ $_MODULE['<{blockcategories}prestashop>blockcategories_23e0d4ecc25de9b2777fdaca3
 $_MODULE['<{blockcategories}prestashop>blockcategories_0cf328636f0d607ac24a5c435866b94b'] = 'HTML dinámico: opción no válida';
 $_MODULE['<{blockcategories}prestashop>blockcategories_f4f70727dc34561dfde1a3c529b6205c'] = 'Configuración';
 $_MODULE['<{blockcategories}prestashop>blockcategories_1379a6b19242372c1f23cc9adedfcdd6'] = 'Categoría raíz';
-$_MODULE['<{blockcategories}prestashop>blockcategories_c6d333d07d30f7b4c31a94bbd510bf88'] = 'Selecciona la categoría a mostrar en el bloque. La categoría actual es por la que el visitante se encuentra navegando.';
+$_MODULE['<{blockcategories}prestashop>blockcategories_c6d333d07d30f7b4c31a94bbd510bf88'] = 'Seleccione la categoría a mostrar en el bloque. La categoría actual es la que el visitante se encuentra navegando.';
 $_MODULE['<{blockcategories}prestashop>blockcategories_89b278a71f2be5f620307502326587a0'] = 'Categoría de inicio';
 $_MODULE['<{blockcategories}prestashop>blockcategories_62381fc27e62649a16182a616de3f7ea'] = 'Categoría actual';
 $_MODULE['<{blockcategories}prestashop>blockcategories_52b68aaa602d202c340d9e4e9157f276'] = 'Categoría padre';
@@ -31,7 +31,7 @@ $_MODULE['<{blockcategories}prestashop>blockcategories_c9cc8cce247e49bae79f15173
 $_MODULE['<{blockcategories}prestashop>blockcategories_footer_af1b98adf7f686b84cd0b443e022b7a0'] = 'Categorías';
 $_MODULE['<{blockcategories}prestashop>blockcategories_af1b98adf7f686b84cd0b443e022b7a0'] = 'Categorías';
 $_MODULE['<{blockcategories}prestashop>blockcategories_admin_63239117f39d923b2e407620fc1fa5b5'] = 'En el tema predeterminado, estas imágenes se mostrarán en el menú horizontal superior; pero solo si la categoría está en el primer nivel (ver módulo Menú horizontal superior para más información).';
-$_MODULE['<{blockcategories}prestashop>blockcategories_admin_eea317348d82718d49f9a79189dc0f93'] = 'Miniaturas del Menú';
+$_MODULE['<{blockcategories}prestashop>blockcategories_admin_eea317348d82718d49f9a79189dc0f93'] = 'Miniaturas del menú';
 $_MODULE['<{blockcategories}prestashop>blockcategories_admin_5bc1667deb2b522c0cac00de5f15ffbc'] = 'Dimensiones recomendadas (para el tema predeterminado): %1spx x %2spx';
 
 

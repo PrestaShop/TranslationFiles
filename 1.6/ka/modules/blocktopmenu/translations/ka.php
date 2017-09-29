@@ -15,7 +15,7 @@ $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_ecf253735ac0cba84a9d2eeff1f1b87
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_eacd852cc1f621763dccbda3f3c15081'] = 'საძიებო ველი';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'ნებადართული';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_b9f5c797ebbf55adccdd8539a65a0241'] = 'აკრძალული';
-$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_c9cc8cce247e49bae79f15173ce97354'] = 'Сохранить';
+$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_c9cc8cce247e49bae79f15173ce97354'] = 'შენახვა';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_1a6191a2dc928ff8fb8c02c050975ea7'] = 'ლინკის განახლება';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_58e9b25bb2e2699986a3abe2c92fc82e'] = 'ახალი ლინკის დამატება';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_97e7c9a7d06eac006a28bf05467fcc8b'] = 'ლინკი';

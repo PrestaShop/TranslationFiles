@@ -3,6 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_e0de5a06213f21c55ca3283c009e0907'] = 'お客様のプライバシデータブロック';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_20015706a8cbd457cbb6ea3e7d5dc9b3'] = '設定を更新しました';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_fb32badede7c8613fddb8502d847c18b'] = '下のチェックボックスにチェックを入れてお客様データのプライバシーに同意してください';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_f4f70727dc34561dfde1a3c529b6205c'] = '設定';

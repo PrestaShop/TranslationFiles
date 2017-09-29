@@ -3,6 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{blockbestsellers}prestashop>blockbestsellers_9862f1949f776f69155b6e6b330c7ee1'] = '上位販売者ブロック';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_c888438d14855d7d96a2724ee9c306bd'] = '設定は更新されました';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_f4f70727dc34561dfde1a3c529b6205c'] = '設定';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_24ff4e4d39bb7811f6bdf0c189462272'] = '常にブロックを表示';

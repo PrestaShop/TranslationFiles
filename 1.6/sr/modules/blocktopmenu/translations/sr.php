@@ -37,6 +37,8 @@ $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_56e8bf6c54f1638e7bce5a2fcd5b20f
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_449f6d82cde894eafd3c85b6fa918f89'] = 'ID linka';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e93c33bd1341ab74195430daeb63db13'] = 'Ime prodavnice';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_387a8014f530f080bf2f3be723f8c164'] = 'Lista linkova';
+$_MODULE['<{blocktopmenu}prestashop>form_17a1352d3f69a733fd472fce0238a07d'] = 'Proveri ID broj za proizvod';
+$_MODULE['<{blocktopmenu}prestashop>form_6bb999afde6fca60d70edce79d20b370'] = 'ID broj broizvoda';
 $_MODULE['<{blocktopmenu}prestashop>form_3ee3549ff0c93372a730749f784e9438'] = 'Molimo izaberite bar jednu stavku';
 $_MODULE['<{blocktopmenu}prestashop>form_e1b11c03820641dd1d1441bf68898d08'] = 'Promenite poziciju';
 $_MODULE['<{blocktopmenu}prestashop>form_3713a99a6284e39061bd48069807aa52'] = 'Odabrane stavke';

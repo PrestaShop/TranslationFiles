@@ -19,6 +19,7 @@ $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_9ff0635f5737513b1a6f559
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_43340e6cc4e88197d57f8d6d5ea50a46'] = '続きを読む';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_60efcc704ef1456678f77eb9ee20847b'] = 'すべての新商品';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_18cc24fb12f89c839ab890f8188febe8'] = 'この時間の新しい商品がありません';
+$_MODULE['<{blocknewproducts}prestashop>tab_a0d0ebc37673b9ea77dd7c1a02160e2d'] = '新発売';
 
 
 return $_MODULE;

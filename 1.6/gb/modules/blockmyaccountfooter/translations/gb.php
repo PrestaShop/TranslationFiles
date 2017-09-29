@@ -10,7 +10,7 @@ $_MODULE['<{blockmyaccountfooter}prestashop>blockmyaccountfooter_d95cf4ab2cbf1df
 $_MODULE['<{blockmyaccountfooter}prestashop>blockmyaccountfooter_74ecd9234b2a42ca13e775193f391833'] = 'My orders';
 $_MODULE['<{blockmyaccountfooter}prestashop>blockmyaccountfooter_5973e925605a501b18e48280f04f0347'] = 'My returns';
 $_MODULE['<{blockmyaccountfooter}prestashop>blockmyaccountfooter_89080f0eedbd5491a93157930f1e45fc'] = 'My merchandise returns';
-$_MODULE['<{blockmyaccountfooter}prestashop>blockmyaccountfooter_9132bc7bac91dd4e1c453d4e96edf219'] = 'My credit slips';
+$_MODULE['<{blockmyaccountfooter}prestashop>blockmyaccountfooter_9132bc7bac91dd4e1c453d4e96edf219'] = 'My credits notes';
 $_MODULE['<{blockmyaccountfooter}prestashop>blockmyaccountfooter_e45be0a0d4a0b62b15694c1a631e6e62'] = 'My addresses';
 $_MODULE['<{blockmyaccountfooter}prestashop>blockmyaccountfooter_b4b80a59559e84e8497f746aac634674'] = 'Manage my personal information';
 $_MODULE['<{blockmyaccountfooter}prestashop>blockmyaccountfooter_63b1ba91576576e6cf2da6fab7617e58'] = 'My personal info';

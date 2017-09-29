@@ -4,6 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{pagesnotfound}prestashop>pagesnotfound_251295238bdf7693252f2804c8d3707e'] = '找不到此页';
+$_MODULE['<{pagesnotfound}prestashop>pagesnotfound_607cc8b8993662a37cac86032fb071d2'] = '在仪表盘统计中增加一个选项卡，显示没有发现被访问者请求的页面。';
 $_MODULE['<{pagesnotfound}prestashop>pagesnotfound_6602bbeb2956c035fb4cb5e844a4861b'] = '向导';
 $_MODULE['<{pagesnotfound}prestashop>pagesnotfound_3604249130acf7fda296e16edc996e5b'] = '404错误';
 $_MODULE['<{pagesnotfound}prestashop>pagesnotfound_a90083861c168ef985bf70763980aa60'] = '如何察觉这些错误？';

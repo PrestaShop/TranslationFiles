@@ -3,6 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{blockwishlist}prestashop>blockwishlist_2715a65604e1af3d6933b61704865daf'] = '欲しいものリストブロック';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_c888438d14855d7d96a2724ee9c306bd'] = '設定は更新されました';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_deb10517653c255364175796ace3553f'] = '商品';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_694e8d1f2ee056f98ee488bdc4982d73'] = '数量';

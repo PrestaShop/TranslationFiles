@@ -3,17 +3,17 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_d602cd3160dcb3b836420a2e5683cb0f'] = 'Cumplimiento normativo legal avanzado de la UE';
-$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_a0445c0b106a1b48b719fc6fd5a734e9'] = 'Este módulo ayuda a los comerciante europeos a cumplir con las leyes del comercio electrónico aplicables.';
-$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_bb8956c67b82c7444a80c6b2433dd8b4'] = '¿Estás seguro que quieres desinstalar este módulo?';
-$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_3b528a3fe35bcd29ad2ab0e77fe01d4d'] = 'No se puede instalar en un nuevo hook';
-$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_cac77d4c7de337f13ad1e89a8cecbc7f'] = 'Entrega: 1 a 3 semanas';
-$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_eeb992239a8454067cd7a47bbf0df359'] = 'Entrega: 3 a 6 semanas';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_d602cd3160dcb3b836420a2e5683cb0f'] = 'Cumplimiento avanzado en UE';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_a0445c0b106a1b48b719fc6fd5a734e9'] = 'Este módulo ayuda a los comerciantes europeos a cumplir con las leyes aplicables al comercio electrónico.';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_bb8956c67b82c7444a80c6b2433dd8b4'] = '¿Está seguro que quiere desinstalar este módulo?';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_3b528a3fe35bcd29ad2ab0e77fe01d4d'] = 'No se puede instalar en un nuevo "hook"';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_cac77d4c7de337f13ad1e89a8cecbc7f'] = 'Envío: 1 a 3 semanas';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_eeb992239a8454067cd7a47bbf0df359'] = 'Envío: 3 a 6 semanas';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_f4a0d7cb0cd45214c8ca5912c970de13'] = 'IVA incluído';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_befcac0f9644a7abee43e69f49252ac4'] = 'IVA excluído';
-$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_272c87c1b60ba25f293fab358ba94a39'] = '¡Debe aceptar los Términos del Servicio antes de continuar!';
-$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_2223d375913a9a3b4619a1ada82f8de7'] = 'Algo salió mal. Si el problema persiste, póngase en contacto con nosotros.';
-$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_7219074549f88adb580bf5a6fe57c459'] = 'Seleccione en primer lugar, una opción de pago.';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_272c87c1b60ba25f293fab358ba94a39'] = '¡Debe aceptar los Términos del Servicio antes de seguir!';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_2223d375913a9a3b4619a1ada82f8de7'] = 'Algo salió mal. Si el problema persiste, por favor contáctenos.';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_7219074549f88adb580bf5a6fe57c459'] = 'Seleccione una opción de pago primero.';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_c0bf28c9c2b9c95f01ff4fddfed71432'] = 'Por favor, ¡marque en primer lugar la casilla "Revocación de productos virtuales"!';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_5da618e8e4b89c66fe86e32cdafde142'] = 'Desde';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_9060587edeb01a63e3d3edc959678d1e'] = 'Antes';
@@ -78,7 +78,7 @@ $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_dd38733b6122682
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_cadebe42ec37a2654161a876bc11d52c'] = 'Impuesto proporcional para el envío y embalaje';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_a2bfc699a0a4b724be41740c97c6b27b'] = 'Cuando está activado, el impuesto para los gastos de envío y embalaje se calculará proporcional a los impuestos que se aplican a los productos en el carrito.';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_fcc61e05767ec3f1864c2f78086a596c'] = '-- Seleccione la página CMS asociada --';
-$_MODULE['<{advancedeucompliance}prestashop>adminaeuccontroller_d602cd3160dcb3b836420a2e5683cb0f'] = 'Cumplimiento normativo legal avanzado de la UE';
+$_MODULE['<{advancedeucompliance}prestashop>adminaeuccontroller_d602cd3160dcb3b836420a2e5683cb0f'] = 'Cumplimiento avanzado en UE';
 $_MODULE['<{advancedeucompliance}prestashop>email_attachments_form_c49b8914d58716ebb70e35e5a08db6dd'] = 'Inclusión de contenido de correo electrónico';
 $_MODULE['<{advancedeucompliance}prestashop>email_attachments_form_72c086dfe3fe34e1cda54e47b83a635c'] = 'Esta sección te permite incluir información de la sección "Gestión de Contenidos legales" por encima de la parte inferior de los correos electrónicos de tu tienda.';
 $_MODULE['<{advancedeucompliance}prestashop>email_attachments_form_96103eb82bd7f00ef55fac85c2f0a410'] = 'Para cada tipo de correo electrónico, puedes definir el contenido que deseas incluir.';

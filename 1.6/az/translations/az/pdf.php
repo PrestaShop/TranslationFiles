@@ -3,6 +3,7 @@
 global $_LANGPDF;
 $_LANGPDF = array();
 
+$_LANGPDF['PDF065ab3a28ca4f16f55f103adc7d0226f'] = 'Göndərilmə';
 $_LANGPDF['PDF466eadd40b3c10580e3ab4e8061161ce'] = 'faktura';
 $_LANGPDF['PDFcc894fffb019b528d12951b74d6d2b6e'] = 'Sifraişi qaytarılması';
 $_LANGPDF['PDFcf3bae95c5f6023d5a10fe415b205a45'] = 'Kredit';
@@ -44,6 +45,7 @@ $_LANGPDF['PDF29103375229a5c363403ec4afb5c3e8f'] = '(vergi daxil)';
 $_LANGPDF['PDF3601146c4e948c32b6424d2c0a7f0118'] = 'Prix payé HT';
 $_LANGPDF['PDF1d744a9ad1dac20645cfc4a36b77323b'] = 'sekil';
 $_LANGPDF['PDF7521172dd37ba56442ea866ac18eb49d'] = 'Endirimdən əvvəl';
+$_LANGPDF['PDF6703aa9936582b4381418f7d523370b4'] = 'Endirim faizi';
 $_LANGPDF['PDFa61109b693023aed557445989c517982'] = 'Endirimdən sonra';
 $_LANGPDF['PDF20a34c4e30c5bbe1d3f870ac55f0d831'] = 'Tax Rate';
 $_LANGPDF['PDF716be2c7de31f063369ca297a9928403'] = 'Vergilər:';
