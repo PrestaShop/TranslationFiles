@@ -402,6 +402,7 @@ $_LANGADM['AdminModules10ac3d04253ef7e1ddc73e6091c0cd55'] = 'Suivant';
 $_LANGADM['AdminModulesaf1b98adf7f686b84cd0b443e022b7a0'] = '분류';
 $_LANGADM['AdminModules93cba07454f06a4a960172bbd6e2a435'] = '예';
 $_LANGADM['AdminModulesc3987e4cac14a8456515f0d200da04ee'] = '모든 국가';
+$_LANGADM['AdminModules2cc1943d4c0b46bfcf503a75c44f988b'] = '인기 항목';
 $_LANGADM['AdminModulesb24ce0cd392a5b0b8dedc66c25213594'] = '무료';
 $_LANGADM['AdminModulesb05d72142020283dc6812fd3a9bc691c'] = '비밀번호를 잊어버렸어요';
 $_LANGADM['AdminModulesPositions498f79c4c5bbde77f1bceb6c86fd0f6d'] = '보이기';
