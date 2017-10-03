@@ -556,6 +556,7 @@ $_LANGADM['AdminCustomersa3858e268ef19d7ec44b4e849a189a69'] = 'Varsayılan müş
 $_LANGADM['AdminCustomers9106aeb144a5531bfe3e8119cdd4e124'] = 'Bu grup bir varsayılan kullanıcı grubu olacaktır.';
 $_LANGADM['AdminCustomers8b7fc06b213f4fb343c72af878e5c64b'] = 'Bu müşteriye sadece seçilen grupa ait indirim uygulanacak.';
 $_LANGADM['AdminCustomers4f68183551e5dbd7c341347ffe308682'] = 'SIRET';
+$_LANGADM['AdminCustomers85fb93a8ee9440499692da24a1621769'] = 'Faaliyet kodu (Nace)';
 $_LANGADM['AdminCustomers15bbb9d0bbf25e8d2978de1168c749dc'] = 'Web sitesi';
 $_LANGADM['AdminCustomers6e55ad8db6699476d8901b3d439963cb'] = 'İzin verilen borçlanma miktarı';
 $_LANGADM['AdminCustomers75bf7b6b951d3183f7c8f96bdb4fa74c'] = 'Geçerli karakterler';
