@@ -38,6 +38,12 @@ File: src/PrestaShopBundle/Install/Database.php:74</note>
         <note>Context:
 File: src/PrestaShopBundle/Install/Database.php:82</note>
       </trans-unit>
+      <trans-unit id="2c3fc7088c5715d31d1f0a33d1e7c79c" approved="yes">
+        <source>Your database login does not have the privileges to create table on the database "%s". Ask your hosting provider:</source>
+        <target xml:lang="zh-TW">您沒有在數據庫“%s”中創建數據庫表的權限。 請向您的網站託管服務提供商了解：</target>
+        <note>Context:
+File: src/PrestaShopBundle/Install/Database.php:85</note>
+      </trans-unit>
       <trans-unit id="ce799e40a5e7b523d011b80868fe4ca4" approved="yes">
         <source>Database Server is not found. Please verify the login, password and server fields</source>
         <target xml:lang="zh-TW">數據庫伺服器沒有找到。請檢查登錄名，密碼和伺服器欄位</target>
@@ -75,6 +81,48 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:4088</note>
         <target xml:lang="zh-TW">數據庫升級完成。</target>
         <note>Context:
 File: src/PrestaShopBundle/Install/Upgrade.php:862</note>
+      </trans-unit>
+      <trans-unit id="4598df2738b72a48a5d92debdf6b2648" approved="yes">
+        <source>Enabling modules now...</source>
+        <target xml:lang="zh-TW">現在啟用模塊...</target>
+        <note>Context:
+File: src/PrestaShopBundle/Install/Upgrade.php:880</note>
+      </trans-unit>
+      <trans-unit id="41cf6d7c774a6f0e0e131c556272bd23" approved="yes">
+        <source>Modules successfully enabled.</source>
+        <target xml:lang="zh-TW">模塊已成功啟用。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Install/Upgrade.php:892</note>
+      </trans-unit>
+      <trans-unit id="adc432de81c16df1d52bcdb0ae27888b" approved="yes">
+        <source>Upgrading images now...</source>
+        <target xml:lang="zh-TW">圖像升級中...</target>
+        <note>Context:
+File: src/PrestaShopBundle/Install/Upgrade.php:893</note>
+      </trans-unit>
+      <trans-unit id="5050f74dbf781812e2de8d9c89bcefb9" approved="yes">
+        <source>Images successfully upgraded.</source>
+        <target xml:lang="zh-TW">圖片升級成功。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Install/Upgrade.php:911</note>
+      </trans-unit>
+      <trans-unit id="66beff6fe8199b7e380b9b86a1cfd62c" approved="yes">
+        <source>Upgrading languages now...</source>
+        <target xml:lang="zh-TW">語言升級中...</target>
+        <note>Context:
+File: src/PrestaShopBundle/Install/Upgrade.php:912</note>
+      </trans-unit>
+      <trans-unit id="92cbcfa88b4123c79ff4ecc503d1f4d6" approved="yes">
+        <source>Upgrading theme now...</source>
+        <target xml:lang="zh-TW">主題升級中...</target>
+        <note>Context:
+File: src/PrestaShopBundle/Install/Upgrade.php:926</note>
+      </trans-unit>
+      <trans-unit id="6fef8a125435e82e3b1f4d6c0de64e18" approved="yes">
+        <source>Theme successfully upgraded.</source>
+        <target xml:lang="zh-TW">主題升級成功。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Install/Upgrade.php:940</note>
       </trans-unit>
       <trans-unit id="9c7e0ba2c6ecb11af7f39843bbc18ff8" approved="yes">
         <source>Warning detected during upgrade.</source>
@@ -121,6 +169,24 @@ File: src/PrestaShopBundle/Install/Install.php:431</note>
         <target xml:lang="zh-TW">無法建立商店網址</target>
         <note>Context:
 File: src/PrestaShopBundle/Install/Install.php:445</note>
+      </trans-unit>
+      <trans-unit id="53d7a51998faa87f513eb974a2a596f2" approved="yes">
+        <source>File "language.xml" not found for language iso "%iso%"</source>
+        <target xml:lang="zh-TW">找不到語言代碼 "%iso%" 的 "language.xml"</target>
+        <note>Context:
+File: src/PrestaShopBundle/Install/Install.php:474</note>
+      </trans-unit>
+      <trans-unit id="9972ad1ade2906747dbb39490a96b191" approved="yes">
+        <source>File "language.xml" not valid for language iso "%iso%"</source>
+        <target xml:lang="zh-TW">語言代碼 "%iso%" 的 "language.xml" 有誤</target>
+        <note>Context:
+File: src/PrestaShopBundle/Install/Install.php:478</note>
+      </trans-unit>
+      <trans-unit id="54c23cef7fbebba7ee1267cc0cf97b2a" approved="yes">
+        <source>Cannot download language pack "%iso%"</source>
+        <target xml:lang="zh-TW">無法下載語言包 "%iso%"</target>
+        <note>Context:
+File: src/PrestaShopBundle/Install/Install.php:496</note>
       </trans-unit>
       <trans-unit id="258057c839ab36aa9e3bb60550348c5e" approved="yes">
         <source>Cannot copy flag language "%flag%"</source>
@@ -1091,6 +1157,13 @@ File: install-dev/controllers/http/database.php:131</note>
   </file>
   <file original="install-dev/controllers/http/process.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="cdc5a0619e8dadc368c1d5feb2d83986" approved="yes">
+        <source>Create file parameters</source>
+        <target xml:lang="zh-TW">建立參數</target>
+        <note>Context:
+File: install-dev/controllers/http/process.php:318
+ Comment: We fill the process step used for Ajax queries</note>
+      </trans-unit>
       <trans-unit id="0b1b557a66c34f8467d364c5f6ac36a5" approved="yes">
         <source>Create database tables</source>
         <target xml:lang="zh-TW">創建數據庫表</target>
