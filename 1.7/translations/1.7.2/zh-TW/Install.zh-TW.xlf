@@ -50,6 +50,12 @@ File: src/PrestaShopBundle/Install/Database.php:85</note>
         <note>Context:
 File: src/PrestaShopBundle/Install/Database.php:93</note>
       </trans-unit>
+      <trans-unit id="9a0b7b3a849553ab760177a12f4ebc7f" approved="yes">
+        <source>Connection to MySQL server succeeded, but database "%database%" not found</source>
+        <target xml:lang="zh-TW">成功連線伺服器，不過找不到數據庫 "%database%"</target>
+        <note>Context:
+File: src/PrestaShopBundle/Install/Database.php:97</note>
+      </trans-unit>
       <trans-unit id="0462e75865c8794c7785f7c6952ae7a3" approved="yes">
         <source>Attempt to create the database automatically</source>
         <target xml:lang="zh-TW">嘗試自動建立數據庫</target>
@@ -82,6 +88,12 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:4088</note>
         <note>Context:
 File: src/PrestaShopBundle/Install/Upgrade.php:862</note>
       </trans-unit>
+      <trans-unit id="1946a60a931f7c67013eae819b42751b" approved="yes">
+        <source>Modules successfully disabled.</source>
+        <target xml:lang="zh-TW">模塊已成功停用。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Install/Upgrade.php:879</note>
+      </trans-unit>
       <trans-unit id="4598df2738b72a48a5d92debdf6b2648" approved="yes">
         <source>Enabling modules now...</source>
         <target xml:lang="zh-TW">現在啟用模塊...</target>
@@ -112,6 +124,12 @@ File: src/PrestaShopBundle/Install/Upgrade.php:911</note>
         <note>Context:
 File: src/PrestaShopBundle/Install/Upgrade.php:912</note>
       </trans-unit>
+      <trans-unit id="95427ea0db7f28827968539ce09bc8ad" approved="yes">
+        <source>Languages successfully upgraded.</source>
+        <target xml:lang="zh-TW">語言升級成功。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Install/Upgrade.php:925</note>
+      </trans-unit>
       <trans-unit id="92cbcfa88b4123c79ff4ecc503d1f4d6" approved="yes">
         <source>Upgrading theme now...</source>
         <target xml:lang="zh-TW">主題升級中...</target>
@@ -129,6 +147,12 @@ File: src/PrestaShopBundle/Install/Upgrade.php:940</note>
         <target xml:lang="zh-TW">升級過程中偵測到錯誤。</target>
         <note>Context:
 File: src/PrestaShopBundle/Install/Upgrade.php:987</note>
+      </trans-unit>
+      <trans-unit id="bd077be8e2cdf937e5b77300a0131f9a" approved="yes">
+        <source>Error detected during upgrade.</source>
+        <target xml:lang="zh-TW">升級過程中偵測到錯誤。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Install/Upgrade.php:1016</note>
       </trans-unit>
     </body>
   </file>
@@ -188,6 +212,12 @@ File: src/PrestaShopBundle/Install/Install.php:478</note>
         <note>Context:
 File: src/PrestaShopBundle/Install/Install.php:496</note>
       </trans-unit>
+      <trans-unit id="9d321a378efc308c33c5f345f623dd90" approved="yes">
+        <source>Cannot install language "%iso%"</source>
+        <target xml:lang="zh-TW">無法安裝語言 "%iso%"</target>
+        <note>Context:
+File: src/PrestaShopBundle/Install/Install.php:509</note>
+      </trans-unit>
       <trans-unit id="258057c839ab36aa9e3bb60550348c5e" approved="yes">
         <source>Cannot copy flag language "%flag%"</source>
         <target xml:lang="zh-TW">無法複製語言圖示 "%flag%"</target>
@@ -200,10 +230,28 @@ File: src/PrestaShopBundle/Install/Install.php:517</note>
         <note>Context:
 File: src/PrestaShopBundle/Install/Install.php:707</note>
       </trans-unit>
+      <trans-unit id="26b901ba3ecdcb91823f05ce15a70ce4" approved="yes">
+        <source>Cannot install module "%module%"</source>
+        <target xml:lang="zh-TW">無法安裝模組 "%module%"</target>
+        <note>Context:
+File: src/PrestaShopBundle/Install/Install.php:913</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Install/XmlLoader.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="6c16e88afa7f92cfe15e74a1fbe9c250" approved="yes">
+        <source><![CDATA[SQL error on query <i>%query%</i>]]></source>
+        <target xml:lang="zh-TW"><![CDATA[SQL查詢錯誤 <i>%query%</i>]]></target>
+        <note>Context:
+File: src/PrestaShopBundle/Install/XmlLoader.php:1118</note>
+      </trans-unit>
+      <trans-unit id="25b42d449f5ebcdb85fb6cae0663c40f" approved="yes">
+        <source>Cannot create image "%identifier%"</source>
+        <target xml:lang="zh-TW">無法建立圖像 "%identifier%"</target>
+        <note>Context:
+File: src/PrestaShopBundle/Install/XmlLoader.php:665</note>
+      </trans-unit>
       <trans-unit id="44a700a0c9496b4436c16c5e46351707" approved="yes">
         <source>Cannot create image "%1$s" for entity "%2$s"</source>
         <target xml:lang="zh-TW">無法建立圖片 "%s"，於 "%2$s"</target>
@@ -214,6 +262,12 @@ File: src/PrestaShopBundle/Install/XmlLoader.php:725</note>
   </file>
   <file original="install-dev/controllers/http/configure.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="89605cda87edd2daeebbe3534b7beb0d" approved="yes">
+        <source>The password is incorrect (must be alphanumeric string with at least 8 characters)</source>
+        <target xml:lang="zh-TW">密碼有誤（只接受英文字母與數字，且至少 8 個字）</target>
+        <note>Context:
+File: install-dev/controllers/http/configure.php:112</note>
+      </trans-unit>
       <trans-unit id="68499acecfba9d3bf0ca8711f300d3ed" approved="yes">
         <source>Your firstname contains some invalid characters</source>
         <target xml:lang="zh-TW">您的姓名包含錯誤字元</target>
@@ -352,6 +406,12 @@ File: install-dev/controllers/http/configure.php:85</note>
         <note>Context:
 File: install-dev/controllers/http/configure.php:93</note>
       </trans-unit>
+      <trans-unit id="96f52200c7a597ff32a0bb66f794d183" approved="yes">
+        <source>The field %field% is limited to %limit% characters</source>
+        <target xml:lang="zh-TW">欄位 %field% 限制長度為 %limit% 字元</target>
+        <note>Context:
+File: install-dev/controllers/http/configure.php:106</note>
+      </trans-unit>
       <trans-unit id="342f5c77ed008542e78094607ce1f7f3" approved="yes">
         <source>firstname</source>
         <target xml:lang="zh-TW">名</target>
@@ -369,6 +429,12 @@ File: install-dev/controllers/http/configure.php:104</note>
         <target xml:lang="zh-TW">姓</target>
         <note>Context:
 File: install-dev/controllers/http/configure.php:106</note>
+      </trans-unit>
+      <trans-unit id="74d36cb95a84f88728b3d69678aba185" approved="yes">
+        <source>The password and its confirmation are different</source>
+        <target xml:lang="zh-TW">密碼與確認不同</target>
+        <note>Context:
+File: install-dev/controllers/http/configure.php:114</note>
       </trans-unit>
       <trans-unit id="3d282d50434c9dee33c39a09d5283406" approved="yes">
         <source>This e-mail address is invalid</source>
@@ -455,6 +521,13 @@ File: install-dev/classes/controllerHttp.php:118</note>
         <target xml:lang="zh-TW">商店安裝</target>
         <note>Context:
 File: install-dev/classes/controllerHttp.php:123</note>
+      </trans-unit>
+      <trans-unit id="9fca14e649c0c0615185b971b85b4348" approved="yes">
+        <source>http://doc.prestashop.com/display/PS17/Installing+PrestaShop</source>
+        <target xml:lang="zh-TW">http://doc.prestashop.com/display/PS17/Installing+PrestaShop</target>
+        <note>Context:
+File: install-dev/classes/controllerHttp.php:367
+ Comment: Link to translated documentation (if available)</note>
       </trans-unit>
       <trans-unit id="7b5993743a96bf7b6d8a9c0802e7d6b0" approved="yes">
         <source>https://www.youtube.com/watch?v=psz4aIPZZuk</source>
@@ -779,11 +852,23 @@ File: install-dev/theme/views/welcome.php:29</note>
         <note>Context:
 File: install-dev/theme/views/welcome.php:41</note>
       </trans-unit>
+      <trans-unit id="d9b205f1e80dee567296d14611add4a2" approved="yes">
+        <source><![CDATA[If you need help, do not hesitate to <a href="%tutoriellink%" target="_blank">watch this short tutorial</a>, or check <a href="%linkdoc%" target="_blank">our documentation</a>.]]></source>
+        <target xml:lang="zh-TW"><![CDATA[如果你需要幫助，不要遲疑，立刻前往<a href="%tutoriellink%" target="_blank">觀看簡易導覽</a>，或是瞧瞧<a href="%linkdoc%" target="_blank">我們的文件</a>。]]></target>
+        <note>Context:
+File: install-dev/theme/views/welcome.php:42</note>
+      </trans-unit>
       <trans-unit id="edbaa44341f3064baa5a5676aabc91e5" approved="yes">
         <source>Continue the installation in:</source>
         <target xml:lang="zh-TW">繼續安裝：</target>
         <note>Context:
 File: install-dev/theme/views/welcome.php:46</note>
+      </trans-unit>
+      <trans-unit id="239e971a06ff313e2b8aafa9b51286c9" approved="yes">
+        <source>The language selection above only applies to the Installation Assistant. Once your store is installed, you can choose the language of your store from over %d% translations, all for free!</source>
+        <target xml:lang="zh-TW">上面選擇的語言只用在安裝過程，一旦完成安裝，您可以為商店加入超過 %d% 種翻譯，而且都是免費的！</target>
+        <note>Context:
+File: install-dev/theme/views/welcome.php:56</note>
       </trans-unit>
     </body>
   </file>
@@ -953,6 +1038,12 @@ File: install-dev/theme/views/process.php:79</note>
         <note>Context:
 File: install-dev/theme/views/process.php:86</note>
       </trans-unit>
+      <trans-unit id="c9cb297f6c4491751bc2849409e37535" approved="yes">
+        <source>http://doc.prestashop.com/display/PS17/Installing+PrestaShop#InstallingPrestaShop-Completingtheinstallation</source>
+        <target xml:lang="zh-TW">http://doc.prestashop.com/display/PS17/Installing+PrestaShop#InstallingPrestaShop-Completingtheinstallation</target>
+        <note>Context:
+File: install-dev/theme/views/process.php:87</note>
+      </trans-unit>
       <trans-unit id="eed2839c1e3e5f7069ed03b2f6d4c6dd" approved="yes">
         <source>Back Office</source>
         <target xml:lang="zh-TW">後台</target>
@@ -1071,17 +1162,53 @@ File: install-dev/controllers/http/system.php:96</note>
         <note>Context:
 File: install-dev/controllers/http/system.php:97</note>
       </trans-unit>
+      <trans-unit id="8edddbd91415fa92ce68a7601116e39d" approved="yes">
+        <source>cURL extension is not enabled</source>
+        <target xml:lang="zh-TW">沒有啟用 cURL 外掛</target>
+        <note>Context:
+File: install-dev/controllers/http/system.php:98</note>
+      </trans-unit>
       <trans-unit id="d482b958dcd96bf9219f5039afae2dde" approved="yes">
         <source>GD library is not installed</source>
         <target xml:lang="zh-TW">沒有安裝 GD 庫</target>
         <note>Context:
 File: install-dev/controllers/http/system.php:99</note>
       </trans-unit>
+      <trans-unit id="53451c05d2a863bad2f972f2a423ca78" approved="yes">
+        <source>JSON extension is not loaded</source>
+        <target xml:lang="zh-TW">沒有載入 JSON 外掛</target>
+        <note>Context:
+File: install-dev/controllers/http/system.php:100</note>
+      </trans-unit>
+      <trans-unit id="8e36201b3398a5af1e571037b16cb7cc" approved="yes">
+        <source>PHP OpenSSL extension is not loaded</source>
+        <target xml:lang="zh-TW">沒有載入 PHP OpenSSL 外掛</target>
+        <note>Context:
+File: install-dev/controllers/http/system.php:101</note>
+      </trans-unit>
       <trans-unit id="0e359a480284508d7d9c7a90a9c94b57" approved="yes">
         <source>PDO MySQL extension is not loaded</source>
         <target xml:lang="zh-TW">沒有載入 PDO MySQL 外掛</target>
         <note>Context:
 File: install-dev/controllers/http/system.php:102</note>
+      </trans-unit>
+      <trans-unit id="f37d70acdd46c99aa2738a9b9c6a4484" approved="yes">
+        <source>SimpleXML extension is not loaded</source>
+        <target xml:lang="zh-TW">沒有載入 SimpleXML 外掛</target>
+        <note>Context:
+File: install-dev/controllers/http/system.php:103</note>
+      </trans-unit>
+      <trans-unit id="88ab0c1cce0f8be93e9cef2d42d47f97" approved="yes">
+        <source>ZIP extension is not enabled</source>
+        <target xml:lang="zh-TW">沒有啟用 ZIP 外掛</target>
+        <note>Context:
+File: install-dev/controllers/http/system.php:104</note>
+      </trans-unit>
+      <trans-unit id="110b26012a01ad5604e5b9ac39b585ba" approved="yes">
+        <source>Fileinfo extension is not enabled</source>
+        <target xml:lang="zh-TW">沒有啟用 Fileinfo 外掛</target>
+        <note>Context:
+File: install-dev/controllers/http/system.php:105</note>
       </trans-unit>
       <trans-unit id="0b9193ca4af6867c1f50a07097254b62" approved="yes">
         <source>Enable the Apache mod_rewrite module</source>
