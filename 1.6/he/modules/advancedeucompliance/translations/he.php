@@ -13,6 +13,7 @@ $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_ea21841da70e640
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_1045f54e17e9e40c46a304888134f958'] = 'הסתר את זה, אני יודע מה אני עושה.';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_fc724a540ce30b0b634163c922d60bed'] = 'ההגדרות נשמרו בהצלחה !';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_23e162ba6bf36c7560ebbc868d9e2552'] = 'הודעות משפטיות';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_93fb7e4d4616f108db46461360b7a6ae'] = 'תנאי ביטול';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_5fb4f05f62f9967052977077d783fc2d'] = 'משלוח ותשלום';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'מופעל';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_b9f5c797ebbf55adccdd8539a65a0241'] = 'מנוטרל';

@@ -875,6 +875,7 @@ $_LANGADM['AdminImages273ad45c9ec7fbd15b705f1d8b272bdb'] = 'רוחב של תמו
 $_LANGADM['AdminImagesd399848208da8b80a306af0fd62bb03f'] = 'פיקסלים';
 $_LANGADM['AdminImages5891a406596216c63f7a1f8f7c6a81a8'] = 'גובה תמונת המוצר';
 $_LANGADM['AdminImagesfd70ea0d8dbbe0a675d717812b3253fe'] = 'גובה של תמונות התאמה אישית של מוצר שהלקוחות יכולים להעלות (בפיקסלים).';
+$_LANGADM['AdminImagesace52125644d273380446071bcd6d5fb'] = 'צור תמונות ברזולוציה גבוהה';
 $_LANGADM['AdminImagesd869df123081c24a3d5f5145cb5368ea'] = 'מאפשר התאמת תצוגת התמונות למסכים בעלי חדות גבוהה.';
 $_LANGADM['AdminImagesc9cc8cce247e49bae79f15173ce97354'] = 'שמור';
 $_LANGADM['AdminImagesb08ea6a4f29e76c9d843856917642409'] = 'השתמש במערכת ניהול התמונות הישנה';

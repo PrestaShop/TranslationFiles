@@ -152,7 +152,10 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_655d20c1ca69519ca647684edbb2
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_26f07ad840fb1c17d29f5be0f428f015'] = 'העבר מודולים חיצונים למצב לא פעיל';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_70c06c37194d755dd9aef11cf0469981'] = 'מודולים חיצוניים יכולים לגרום כמה בעיות תאימות, אנו ממליצים לבטל אותם כברירת מחדל.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_469ab377c49ea68b2ecdfe76d628a53b'] = 'להשאיר אותם פעילים עלול למנוע ממך לטעון את דף "מודולים" כראוי לאחר השדרוג.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_fa2508196ef3391139d01d8d38b2c1bb'] = 'משדרג תבנית ברירת מחדל';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_837f859cdd8b16024d72169ed315e9b5'] = 'אם שינית את ערכת עיצוב ברירת המחדל של תיקייה המקורית PrestaShop (המכונה "PrestaShop" בגרסת 1.4 , ובגרסת 1.5  "default",  ובגרסת 1.6  "bootstrap-default" ) ,  הפעלת אפשרות זו תאבד את השינויים שביצעת.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_97a989a73b46233ae4330fb7682a70a2'] = 'אם אתה משתמש בתבנית משלך, הפעלת אפשרות זו פשוט מעדכנת את קבצי תבנית ברירת המחדל, והתבנית שלך נשארת בטוחה.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_92991497ed914de6bb7795b701b4c6e4'] = 'שנה לתבנית ברירת מחדל';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c7ae0af8d5653beb68b344415aca135d'] = 'זה ישנה את ערכת העיצוב שלך: החנות שלך תשתמש בערכת העיצוב ברירת המחדל של גרסת PrestaShop  אליה אתה משדרג.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5a6925648fc1286cae7924e80690d3a7'] = 'שדרג את תבניות המיילים של ברירת המחדל';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9770c64dad08073b1291334767e0f99c'] = 'זה יעדכן את המיילים ברירת המחדל של PrestaShop.';
@@ -169,6 +172,8 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_56195ded2802813800f43e3be1ba
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a520e5cbdc465c7b7d39c98f78fe2506'] = 'תהליך השחזור הסתיים. ברכותינו! ניתן להוציא את החנות ממצב תחזוקה כעת.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2a7e17be5dc799b0c478ec5f576f0713'] = 'תהליך השדרוג הסתיים. ברכותינו! ניתן להוציא את החנות ממצב תחזוקה כעת.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7a32329d6776ff98d77f7344caf7e00b'] = 'תהליך השדרוג הסתיים, אולם נמצאו מספר שגיאות.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d2b9f1e39aa8e96bb61f3a4bfe133f58'] = '%s הוסרו';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_75802ba44ba3369defd92ef897bf2f21'] = 'נא להסיר %s על ידי FTP';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_93cba07454f06a4a960172bbd6e2a435'] = 'כן';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_bafd7322c6e97d25b6299b5d6fe8920b'] = 'לא';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_38fb7d24e0d60a048f540ecb18e13376'] = '   שמור   ';

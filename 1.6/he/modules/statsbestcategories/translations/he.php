@@ -8,6 +8,7 @@ $_MODULE['<{statsbestcategories}prestashop>statsbestcategories_f5c493141bb4b2508
 $_MODULE['<{statsbestcategories}prestashop>statsbestcategories_49ee3087348e8d44e1feda1917443987'] = 'שם';
 $_MODULE['<{statsbestcategories}prestashop>statsbestcategories_eebfd2d9a7ea25b9e61e8260bcd4849c'] = 'סך כמות שנמכרה';
 $_MODULE['<{statsbestcategories}prestashop>statsbestcategories_f3547ae5e06426d87312eff7dda775aa'] = 'סך המחיר שנמכר';
+$_MODULE['<{statsbestcategories}prestashop>statsbestcategories_89a4e26859399438513f41c4971795b5'] = 'סך הכל מרווח שוליים';
 $_MODULE['<{statsbestcategories}prestashop>statsbestcategories_c13329e42ec01a10f84c0f950274b404'] = 'סך הכל צפיות';
 $_MODULE['<{statsbestcategories}prestashop>statsbestcategories_6e3b3150807da868ebd33ad2c991b8d7'] = 'הקטגוריות הטובות ביותר';
 $_MODULE['<{statsbestcategories}prestashop>statsbestcategories_e5510869e31bbf721ca15dff21cf1169'] = 'מוסיף לסטטיסטיקות בלוח המחוונים רשימה של הקטגוריות הטובות ביותר.';

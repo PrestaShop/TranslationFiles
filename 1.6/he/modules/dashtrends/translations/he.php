@@ -4,6 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{dashtrends}prestashop>dashtrends_ee653ade5f520037ef95e9dc2a42364c'] = 'מגמות לוח בקרה';
+$_MODULE['<{dashtrends}prestashop>dashtrends_f2d0efa68eb71bfd5209abeb9f4b0943'] = 'הוספת בלוק עם ייצוג גרפי של התפתחות החנות שלך מבוסס על נתוני מפתח שנבחרו.';
 $_MODULE['<{dashtrends}prestashop>dashtrends_2d125dc25b158f28a1960bd96a9fa8d1'] = '%s נקודות';
 $_MODULE['<{dashtrends}prestashop>dashtrends_887ee91702c962a70b87cbef07bbcaec'] = 'לא כולל מיסים';
 $_MODULE['<{dashtrends}prestashop>dashtrends_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'מכירות';
@@ -18,6 +19,7 @@ $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_f1206f9fadc5ce41694f69129ae
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_63a6a88c066880c5ac42394a22803ca6'] = 'רענן';
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_e537825dd409a90ef70d8c2eb56122a1'] = 'הסכום של הכנסות (לפני מע"מ) שנוצר בתוך טווח התאריכים מהזמנות הנחשבות כמאומתות.';
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'מכירות';
+$_MODULE['<{dashtrends}prestashop>dashboard_zone_two_8bc1c5ca521b99b87908db0bcd33ec76'] = 'המספר הכולל של הזמנות הנחשבות למאומתות, שנלקחו במסגרת טווח התאריכים.';
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_7442e29d7d53e549b78d93c46b8cdcfc'] = 'הזמנות';
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_f15f2a2bf99d3dcad2cba1a2c615b9dc'] = 'ערך הסל הממוצע הוא מדד המייצג את הערך של הזמנה ממוצעת בתוך טווח התאריכים. זה מחושב על ידי חלוקת מכירות לפי הזמנות.';
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_791d6355d34dfaf60d68ef04d1ee5767'] = 'שווי עגלה';

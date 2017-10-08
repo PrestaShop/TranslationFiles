@@ -45,7 +45,7 @@ $_MODULE['<{blockcart}prestashop>crossselling_4351cfebe4b61d8aa5efa1d020710005']
 $_MODULE['<{blockcart}prestashop>crossselling_10ac3d04253ef7e1ddc73e6091c0cd55'] = 'Næste';
 $_MODULE['<{blockcart}prestashop>blockcart_03e9618cc6e69fe15a57c7377827a804'] = 'Fastlægges senere';
 $_MODULE['<{blockcart}prestashop>blockcart_98b3009e61879600839e1ee486bb3282'] = 'Luk vindue';
-$_MODULE['<{blockcart}prestashop>blockcart_544c3bd0eac526113a9c66542be1e5bc'] = 'Varen er nu lagt i din kurv';
+$_MODULE['<{blockcart}prestashop>blockcart_544c3bd0eac526113a9c66542be1e5bc'] = 'Varen er lagt i kurven';
 $_MODULE['<{blockcart}prestashop>blockcart_694e8d1f2ee056f98ee488bdc4982d73'] = 'Antal';
 $_MODULE['<{blockcart}prestashop>blockcart_e5694b7726ceaf2f057e5f06cf86209e'] = 'Der er [1]%d[/1] varer i din kurv';
 $_MODULE['<{blockcart}prestashop>blockcart_fc86c43dbffcadc193832a310f7a444a'] = 'Der er 1 vare i din kurv';
