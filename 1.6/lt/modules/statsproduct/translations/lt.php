@@ -31,7 +31,7 @@ $_MODULE['<{statsproduct}prestashop>statsproduct_844c29394eea07066bb2efefc35784e
 $_MODULE['<{statsproduct}prestashop>statsproduct_818f7defe18dbc97da82d054831df2ad'] = 'Paspauskite ant prekės statistikai pamatyti.';
 $_MODULE['<{statsproduct}prestashop>statsproduct_0173374ac20f5843d58b553d5b226ef6'] = 'Pasirinkite kategoriją';
 $_MODULE['<{statsproduct}prestashop>statsproduct_b1c94ca2fbc3e78fc30069c8d0f01680'] = 'Visi';
-$_MODULE['<{statsproduct}prestashop>statsproduct_6ccf03bc05e4b749b74b5d577c7e7d3a'] = 'Turimo prekės';
+$_MODULE['<{statsproduct}prestashop>statsproduct_6ccf03bc05e4b749b74b5d577c7e7d3a'] = 'Turimos prekės';
 $_MODULE['<{statsproduct}prestashop>statsproduct_63d5049791d9d79d86e9a108b0a999ca'] = 'Kodas';
 $_MODULE['<{statsproduct}prestashop>statsproduct_49ee3087348e8d44e1feda1917443987'] = 'Pavadinimas';
 $_MODULE['<{statsproduct}prestashop>statsproduct_7bd5825a187064017975513b95d7f7de'] = 'Turimas kiekis pardavimui';
