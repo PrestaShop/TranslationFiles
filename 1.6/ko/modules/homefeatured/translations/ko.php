@@ -12,6 +12,7 @@ $_MODULE['<{homefeatured}prestashop>homefeatured_6af91e35dff67a43ace060d1d57d5d1
 $_MODULE['<{homefeatured}prestashop>homefeatured_f4f70727dc34561dfde1a3c529b6205c'] = '설정';
 $_MODULE['<{homefeatured}prestashop>homefeatured_abc877135a96e04fc076becb9ce6fdfa'] = '홈페이지에 상품을 추가하려면, 간단히 해당 상품 분류 (기본값: "첫화면") 에 상품을 추가하면 됩니다.';
 $_MODULE['<{homefeatured}prestashop>homefeatured_d44168e17d91bac89aab3f38d8a4da8e'] = '표시할 상품 수';
+$_MODULE['<{homefeatured}prestashop>homefeatured_1b73f6b70a0fcd38bbc6a6e4b67e3010'] = '홈페이지에 표시하고 싶은 상품 수를 설정합니다(기본값: 8).';
 $_MODULE['<{homefeatured}prestashop>homefeatured_b773a38d8c456f7b24506c0e3cd67889'] = '표시할 상품을 가져올 분류';
 $_MODULE['<{homefeatured}prestashop>homefeatured_0db2d53545e2ee088cfb3f45e618ba68'] = '홈페이지에 보여주고 싶은 상품의 분류 ID를 선택해 주세요 (기본값: "첫화면" 2)';
 $_MODULE['<{homefeatured}prestashop>homefeatured_49417670345173e7b95018b7bf976fc7'] = '추천 상품 무작위로 표시';

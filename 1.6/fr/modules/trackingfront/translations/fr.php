@@ -35,7 +35,7 @@ $_MODULE['<{trackingfront}prestashop>account_b718adec73e04ce3ec720dd11a06a308'] 
 $_MODULE['<{trackingfront}prestashop>account_49ee3087348e8d44e1feda1917443987'] = 'Nom';
 $_MODULE['<{trackingfront}prestashop>account_ae5d01b6efa819cc7a7c05a8c57fcc2c'] = 'Visiteurs';
 $_MODULE['<{trackingfront}prestashop>account_d7e637a6e9ff116de2fa89551240a94d'] = 'Visites';
-$_MODULE['<{trackingfront}prestashop>account_453aceb005ceaf54a47da15fee8b2a26'] = 'Pages vues';
+$_MODULE['<{trackingfront}prestashop>account_453aceb005ceaf54a47da15fee8b2a26'] = 'Pages';
 $_MODULE['<{trackingfront}prestashop>account_591411cc8927851db2002208676d8330'] = 'Inscriptions';
 $_MODULE['<{trackingfront}prestashop>account_a9841e29f2c8180709b16cd2a13c55fe'] = 'Com.';
 $_MODULE['<{trackingfront}prestashop>account_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'Ventes';

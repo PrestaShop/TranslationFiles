@@ -281,6 +281,7 @@ $_LANGADM['AdminShopUrl00d23a76e43b46dae9ec7aa9dcbebb32'] = '활성화됨';
 $_LANGADM['AdminShopUrl9f82518d468b9fee614fcc92f76bb163'] = '상점';
 $_LANGADM['AdminSlipb718adec73e04ce3ec720dd11a06a308'] = 'ID';
 $_LANGADM['AdminSlipbcd1b68617759b1dfcff0403a6b5a8d1'] = 'PDF';
+$_LANGADM['AdminSpecificPriceRule37be07209f53a5d636d5c904ca9ae64c'] = '비율';
 $_LANGADM['AdminSpecificPriceRuled3b206d196cd6be3a2764c1fb90b200f'] = '선택 삭제';
 $_LANGADM['AdminSpecificPriceRuleb718adec73e04ce3ec720dd11a06a308'] = 'ID';
 $_LANGADM['AdminSpecificPriceRule9f82518d468b9fee614fcc92f76bb163'] = '상점';
