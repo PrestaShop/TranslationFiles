@@ -4,7 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{blockmyaccountfooter}prestashop>blockmyaccountfooter_b97d23f7cde011d190f39468e146425e'] = '웹사이트 바닥글에 쓰일 나의 계정 블럭';
-$_MODULE['<{blockmyaccountfooter}prestashop>blockmyaccountfooter_abdb95361b4c92488add0a5a37afabcb'] = '사용자 계정가 관련있는 링크 블럭을 표시합니다.';
+$_MODULE['<{blockmyaccountfooter}prestashop>blockmyaccountfooter_abdb95361b4c92488add0a5a37afabcb'] = '사용자 계정과 관련있는 링크 블럭을 표시합니다.';
 $_MODULE['<{blockmyaccountfooter}prestashop>blockmyaccountfooter_ae9ec80afffec5a455fbf2361a06168a'] = '내 고객 계정 관리';
 $_MODULE['<{blockmyaccountfooter}prestashop>blockmyaccountfooter_d95cf4ab2cbf1dfb63f066b50558b07d'] = '내 계정';
 $_MODULE['<{blockmyaccountfooter}prestashop>blockmyaccountfooter_74ecd9234b2a42ca13e775193f391833'] = '내 주문';

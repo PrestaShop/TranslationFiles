@@ -4,10 +4,10 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{blocklayered}prestashop>blocklayered_3601146c4e948c32b6424d2c0a7f0118'] = '가격';
-$_MODULE['<{blocklayered}prestashop>blocklayered_8c489d0946f66d17d73f26366a4bf620'] = '중량';
+$_MODULE['<{blocklayered}prestashop>blocklayered_8c489d0946f66d17d73f26366a4bf620'] = '무게';
 $_MODULE['<{blocklayered}prestashop>blocklayered_03c2e7e41ffc181a4e84080b4710e81e'] = '신규';
 $_MODULE['<{blocklayered}prestashop>blocklayered_019d1ca7d50cc54b995f60d456435e87'] = '사용됨';
-$_MODULE['<{blocklayered}prestashop>blocklayered_fcebe56087b9373f15514831184fa572'] = '재고물품순으로';
+$_MODULE['<{blocklayered}prestashop>blocklayered_fcebe56087b9373f15514831184fa572'] = '재고있음';
 $_MODULE['<{blocklayered}prestashop>blocklayered_c0bd7654d5b278e65f21cf4e9153fdb4'] = '제조사';
 $_MODULE['<{blocklayered}prestashop>blocklayered_af1b98adf7f686b84cd0b443e022b7a0'] = '분류';
 $_MODULE['<{blocklayered}prestashop>blocklayered-no-products_5c9838becf9bbce28ba90a7426daf171'] = '상품이 없습니다.';
@@ -63,7 +63,7 @@ $_MODULE['<{blocklayered}prestashop>feature_value_form_1.6_e6b391a8d2c4d45902a23
 $_MODULE['<{blocklayered}prestashop>feature_value_form_1.6_9e11e4b371570340ca07913bc4783a7a'] = '메타 제목';
 $_MODULE['<{blocklayered}prestashop>feature_value_form_e6b391a8d2c4d45902a23a8b6585703d'] = 'URL';
 $_MODULE['<{blocklayered}prestashop>feature_value_form_9e11e4b371570340ca07913bc4783a7a'] = '메타 제목';
-$_MODULE['<{blocklayered}prestashop>blocklayered_c32516babc5b6c47eb8ce1bfc223253c'] = '카탈로그';
+$_MODULE['<{blocklayered}prestashop>blocklayered_c32516babc5b6c47eb8ce1bfc223253c'] = '목록';
 
 
 return $_MODULE;

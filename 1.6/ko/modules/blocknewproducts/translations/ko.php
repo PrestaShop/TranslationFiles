@@ -4,7 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_f7c34fc4a48bc683445c1e7bbc245508'] = '신상품 블럭';
-$_MODULE['<{blocknewproducts}prestashop>blocknewproducts_d3ee346c7f6560faa13622b6fef26f96'] = '상점의 최근 상품을 나타낼 블럭을 표시합니다.';
+$_MODULE['<{blocknewproducts}prestashop>blocknewproducts_d3ee346c7f6560faa13622b6fef26f96'] = '상점의 신규 상품을 나타낼 블럭을 표시합니다.';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_1cd777247f2a6ed79534d4ace72d78ce'] = '"표시할 상품" 항목을 모두 작성해 주세요.';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_73293a024e644165e9bf48f270af63a0'] = '잘못된 번호.';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_c888438d14855d7d96a2724ee9c306bd'] = '설정 수정됨';

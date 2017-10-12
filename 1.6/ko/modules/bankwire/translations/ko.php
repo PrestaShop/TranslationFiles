@@ -30,18 +30,18 @@ $_MODULE['<{bankwire}prestashop>payment_execution_c884ed19483d45970c5bf23a681e2d
 $_MODULE['<{bankwire}prestashop>payment_execution_e2867a925cba382f1436d1834bb52a1c'] = '주문하신 상품의 총 금액은:';
 $_MODULE['<{bankwire}prestashop>payment_execution_1f87346a16cf80c372065de3c54c86d9'] = '(세금 포함)';
 $_MODULE['<{bankwire}prestashop>payment_execution_b28be4c423d93e02081f4e79fe2434e8'] = '결제할 화폐를 선택하실 수 있습니다.';
-$_MODULE['<{bankwire}prestashop>payment_execution_a7a08622ee5c8019b57354b99b7693b2'] = '결제 화폐를 선택해 주십시오. :';
+$_MODULE['<{bankwire}prestashop>payment_execution_a7a08622ee5c8019b57354b99b7693b2'] = '다음 중 하나를 선택:';
 $_MODULE['<{bankwire}prestashop>payment_execution_a854d894458d66d92cabf0411c499ef4'] = '다음과 같은 화폐로 송금하실 수 있습니다.';
 $_MODULE['<{bankwire}prestashop>payment_execution_3dd021316505c0204989f984246c6ff1'] = '송금하실 은행정보는 다음 페이지에 표시됩니다.';
 $_MODULE['<{bankwire}prestashop>payment_execution_edd87c9059d88fea45c0bd6384ce92b9'] = '"내 주문내역"을 통해 주문정보를 확인하세요.';
 $_MODULE['<{bankwire}prestashop>payment_execution_46b9e3665f187c739c55983f757ccda0'] = '"내 주문내역"';
 $_MODULE['<{bankwire}prestashop>payment_execution_569fd05bdafa1712c4f6be5b153b8418'] = '다른 결제방법';
-$_MODULE['<{bankwire}prestashop>infos_c1be305030739396775edaca9813f77d'] = '이 모듈은 고객님이 무통장 입금(계좌이체)를 허용하고 있습니다.';
+$_MODULE['<{bankwire}prestashop>infos_c1be305030739396775edaca9813f77d'] = '이 모듈을 사용하면 은행 송금으로 안전하게 지불 할 수 있습니다.';
 $_MODULE['<{bankwire}prestashop>infos_60742d06006fde3043c77e6549d71a99'] = '만약 고객이 은행송금 방법을 선택시 "결제 대기"로 변경됩니다.';
 $_MODULE['<{bankwire}prestashop>infos_5fb4bbf993c23848433caf58e6b2816d'] = '즉, 입금내역을 계좌를 통해 수시로 확인해야 합니다.';
 $_MODULE['<{bankwire}prestashop>payment_return_1f8cdc30326f1f930b0c87b25fdac965'] = '입금하실 금액과 은행정보는 아래와 같습니다.';
 $_MODULE['<{bankwire}prestashop>payment_return_b2f40690858b404ed10e62bdf422c704'] = '입금하실 금액';
-$_MODULE['<{bankwire}prestashop>payment_return_5ca0b1b910f393ed1f9f6fa99e414255'] = '예금주:';
+$_MODULE['<{bankwire}prestashop>payment_return_5ca0b1b910f393ed1f9f6fa99e414255'] = '예금주 이름';
 $_MODULE['<{bankwire}prestashop>payment_return_d717aa33e18263b8405ba00e94353cdc'] = '계좌정보';
 $_MODULE['<{bankwire}prestashop>payment_return_984482eb9ff11e6310fef641d2268a2a'] = '은행명
 ';
@@ -51,9 +51,9 @@ $_MODULE['<{bankwire}prestashop>payment_return_b9a1cae09e5754424e33764777cfcaa0'
 $_MODULE['<{bankwire}prestashop>payment_return_ca7e41a658753c87973936d7ce2429a8'] = '다른 문의사항이 있으시면 고객지원센터를 통해 연락주시길 바랍니다.';
 $_MODULE['<{bankwire}prestashop>payment_return_66fcf4c223bbf4c7c886d4784e1f62e4'] = '고객지원센터 문의하기';
 $_MODULE['<{bankwire}prestashop>payment_return_d15feee53d81ea16269e54d4784fa123'] = '주문에 알 수 없는 문제가 발생하였습니다. 계속적인 문제가 발생시 고객지원센터로 연락주시길 바랍니다.';
-$_MODULE['<{bankwire}prestashop>payment_5e1695822fc5af98f6b749ea3cbc9b4c'] = '은행 무통장 송금';
+$_MODULE['<{bankwire}prestashop>payment_5e1695822fc5af98f6b749ea3cbc9b4c'] = '무통장 송금 결제';
 $_MODULE['<{bankwire}prestashop>payment_4e1fb9f4b46556d64db55d50629ee301'] = '(입금확인으로 인한 주문 처리가 지연될 수 있습니다.)';
-$_MODULE['<{bankwire}prestashop>payment_return_decce112a9e64363c997b04aa71b7cb8'] = '고객지원';
+$_MODULE['<{bankwire}prestashop>payment_return_decce112a9e64363c997b04aa71b7cb8'] = '고객 서비스 부서.';
 
 
 return $_MODULE;

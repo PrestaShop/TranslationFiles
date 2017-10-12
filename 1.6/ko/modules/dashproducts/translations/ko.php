@@ -10,11 +10,11 @@ $_MODULE['<{dashproducts}prestashop>dashproducts_068f80c7519d0528fb08e82137a7213
 $_MODULE['<{dashproducts}prestashop>dashproducts_96b0141273eabab320119c467cdcaf17'] = '합계';
 $_MODULE['<{dashproducts}prestashop>dashproducts_58ef6750a23ba432fc1377b7de085d9f'] = '세금 별도.';
 $_MODULE['<{dashproducts}prestashop>dashproducts_44749712dbec183e983dcd78a7736c41'] = '날짜';
-$_MODULE['<{dashproducts}prestashop>dashproducts_ec53a8c4f07baed5d8825072c89799be'] = 'Statut';
+$_MODULE['<{dashproducts}prestashop>dashproducts_ec53a8c4f07baed5d8825072c89799be'] = '상태';
 $_MODULE['<{dashproducts}prestashop>dashproducts_3ec365dd533ddb7ef3d1c111186ce872'] = '계좌정보';
 $_MODULE['<{dashproducts}prestashop>dashproducts_be53a0541a6d36f6ecb879fa2c584b08'] = '이미지';
 $_MODULE['<{dashproducts}prestashop>dashproducts_deb10517653c255364175796ace3553f'] = '상품';
-$_MODULE['<{dashproducts}prestashop>dashproducts_3adbdb3ac060038aa0e6e6c138ef9873'] = '카테고리';
+$_MODULE['<{dashproducts}prestashop>dashproducts_3adbdb3ac060038aa0e6e6c138ef9873'] = '분류';
 $_MODULE['<{dashproducts}prestashop>dashproducts_2aed3d711270a6ed67d21ec2d7cd4af8'] = '총 판매량';
 $_MODULE['<{dashproducts}prestashop>dashproducts_11ff9f68afb6b8b5b8eda218d7c83a65'] = '판매';
 $_MODULE['<{dashproducts}prestashop>dashproducts_9e79098315622e58529d664b9a8b3cf8'] = '순 이익';

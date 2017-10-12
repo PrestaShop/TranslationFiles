@@ -17,7 +17,7 @@ $_MODULE['<{trackingfront}prestashop>trackingfront_d3139f39f1ad6324c80a9ddd50cc7
 $_MODULE['<{trackingfront}prestashop>trackingfront_a28735af01fbb1e35371cb120985ac47'] = '등록';
 $_MODULE['<{trackingfront}prestashop>trackingfront_7442e29d7d53e549b78d93c46b8cdcfc'] = '주문';
 $_MODULE['<{trackingfront}prestashop>trackingfront_2e27c4006a026eacfc1f85b41bf9bc4c'] = '기본 수수료';
-$_MODULE['<{trackingfront}prestashop>trackingfront_86190054fc32554662ffbb12b717e8d0'] = '백분률 수수료';
+$_MODULE['<{trackingfront}prestashop>trackingfront_86190054fc32554662ffbb12b717e8d0'] = '비율 수수료';
 $_MODULE['<{trackingfront}prestashop>trackingfront_51d53cd2ecdae6b5dd3397875197e898'] = '클릭 수수료';
 $_MODULE['<{trackingfront}prestashop>trackingfront_11ff9f68afb6b8b5b8eda218d7c83a65'] = '판매';
 $_MODULE['<{trackingfront}prestashop>trackingfront_da9cb586c6689202ca65cd77fd9b84ef'] = '평균 장바구니';
