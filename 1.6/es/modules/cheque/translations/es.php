@@ -3,6 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{cheque}prestashop>cheque_7b4cc4f79be9aae43efd53b4ae5cba4d'] = 'Pagos por cheque';
 $_MODULE['<{cheque}prestashop>cheque_14e41f4cfd99b10766cc15676d8cda66'] = 'Este módulo te permite aceptar pagos por cheque.';
 $_MODULE['<{cheque}prestashop>cheque_e09484ba6c16bc20236b63cc0d87ee95'] = '¿Estás seguro de querer eliminar estos datos?';
 $_MODULE['<{cheque}prestashop>cheque_32776feb26ff6f9648054e796aa0e423'] = 'Los campos "Páguese a la orden de" y "Dirección" deben ser configurados antes de utilizar este módulo.';
