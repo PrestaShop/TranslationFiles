@@ -9,6 +9,7 @@ $_MODULE['<{blockviewed}prestashop>blockviewed_2e57399079951d84b435700493b8a8c1'
 $_MODULE['<{blockviewed}prestashop>blockviewed_73293a024e644165e9bf48f270af63a0'] = '잘못된 번호.';
 $_MODULE['<{blockviewed}prestashop>blockviewed_f38f5974cdc23279ffe6d203641a8bdf'] = '설정 수정됨.';
 $_MODULE['<{blockviewed}prestashop>blockviewed_f4f70727dc34561dfde1a3c529b6205c'] = '설정';
+$_MODULE['<{blockviewed}prestashop>blockviewed_26986c3388870d4148b1b5375368a83d'] = '보여질 상품들';
 $_MODULE['<{blockviewed}prestashop>blockviewed_d36bbb6066e3744039d38e580f17a2cc'] = '이 블럭에 표시될 상품의 수를 정의합니다.';
 $_MODULE['<{blockviewed}prestashop>blockviewed_c9cc8cce247e49bae79f15173ce97354'] = '저장';
 $_MODULE['<{blockviewed}prestashop>blockviewed_43560641f91e63dc83682bc598892fa1'] = '조회한 상품';

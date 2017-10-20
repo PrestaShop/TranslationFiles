@@ -24,6 +24,7 @@ $_MODULE['<{statsforecast}prestashop>statsforecast_88183b946cc5f0e8c96b2e66e1c74
 $_MODULE['<{statsforecast}prestashop>statsforecast_4994a8ffeba4ac3140beb89e8d41f174'] = '언어';
 $_MODULE['<{statsforecast}prestashop>statsforecast_03937134cedab9078be39a77ee3a48a0'] = '그룹';
 $_MODULE['<{statsforecast}prestashop>statsforecast_f2bbdf9f72c085adc4d0404e370f0f4c'] = '속성';
+$_MODULE['<{statsforecast}prestashop>statsforecast_9b95278ceb25bd5ddfcd7b22be6e4000'] = '판매된 상품 수량';
 
 
 return $_MODULE;

@@ -11,6 +11,8 @@ $_MODULE['<{homeslider}prestashop>homeslider_93cba07454f06a4a960172bbd6e2a435'] 
 $_MODULE['<{homeslider}prestashop>homeslider_bafd7322c6e97d25b6299b5d6fe8920b'] = '아니오';
 $_MODULE['<{homeslider}prestashop>homeslider_c9cc8cce247e49bae79f15173ce97354'] = '저장';
 $_MODULE['<{homeslider}prestashop>homeslider_f4f70727dc34561dfde1a3c529b6205c'] = '설정';
+$_MODULE['<{homeslider}prestashop>homeslider_298b615220606d42b6ac60269df0d321'] = '수정 사항이 상점에 적용됩니다: %s';
+$_MODULE['<{homeslider}prestashop>homeslider_aef3662e6419ddaaa0a31df70e3b6557'] = '수정 사항이 이 그룹에 적용됩니다: %s';
 $_MODULE['<{homeslider}prestashop>form_92fbf0e5d97b8afd7e73126b52bdc4bb'] = '파일 선택';
 $_MODULE['<{homeslider}prestashop>list_ef61fb324d729c341ea8ab9901e23566'] = '새로 추가';
 $_MODULE['<{homeslider}prestashop>list_7dce122004969d56ae2e0245cb754d35'] = '수정';

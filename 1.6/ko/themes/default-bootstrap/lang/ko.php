@@ -636,6 +636,7 @@ $_LANG['order-payment-advanced_068f80c7519d0528fb08e82137a72131'] = '상품';
 $_LANG['order-payment-advanced_a40cab5994f36d4c48103a22ca082e8f'] = '장바구니';
 $_LANG['order-payment-advanced_879f6b8877752685a966564d072f498f'] = '장바구니가 비어있습니다.';
 $_LANG['order-payment-advanced_5af5f631f774a71445e3028253874394'] = '주문을 하실 수 없습니다';
+$_LANG['order-payment-advanced_c43df96b54c29ae01f3bd6fdb3494dc6'] = '당신의 장바구니에 대한 사용가능한 결제 옵션을 찾을 수 없습니다. 문제가 지속되면 고객센터에 문의하여 주십시오.';
 $_LANG['order-payment-advanced_ad88a6c9e8c880f23639321d78ec859d'] = '이용약관을 읽었으며 동의합니다.';
 $_LANG['order-payment-advanced_d53afd7ef9af5405df040482add9b153'] = '(서비스 약관을 읽으세요)';
 $_LANG['order-payment-classic_deb10517653c255364175796ace3553f'] = '상품';
