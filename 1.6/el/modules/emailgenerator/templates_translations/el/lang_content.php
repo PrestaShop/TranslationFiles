@@ -151,7 +151,7 @@ $_LANGMAIL['As appreciation for your loyalty, we want to give you a discount of 
 $_LANGMAIL['You are one of our best customers, however you have not placed an order in {days_threshold} days.'] = 'Είστε ένας από τους καλύτερους πελάτες μας, ωστόσο δεν έχετε παραγγείλει τίποτα για {days_threshold} μέρες.';
 $_LANGMAIL['We wish to thank you for the trust you have placed in us and want to give you a discount of {amount}% valid on your next order! This offer is valid for <span><strong>{days}</strong></span> days, so do not waste a moment!'] = 'Θα θέλαμε να σας ευχαριστήσουμε για την εμπιστοσύνη με την οποία μας περιβάλλεται και θα θέλαμε να σας δώσουμε μια έκπτωση {amount}% στην επόμενη παραγγελία σας! Αυτή η προσφορά ισχύει για <span><strong>{days}</strong></span> ημέρες, οπότε μην χάνετε στιγμή!';
 $_LANGMAIL['{product} is now available.'] = 'Το {product} είναι πλέον διαθέσιμο.';
-$_LANGMAIL['This item is once again in-stock.'] = 'Αυτό το αντικείμενο είναι για μια ακόμη φορά διαθέσιμο.';
+$_LANGMAIL['This item is once again in-stock.'] = 'Αυτό το είδος είναι και πάλι διαθέσιμο.';
 $_LANGMAIL['You can access the product page by clicking on the link:'] = 'Μπορείτε να δείτε την σελίδα του είδους κάνοντας κλικ στο σύνδεσμο:';
 $_LANGMAIL['You can order it right now from our online shop.'] = 'Μπορείτε να το παραγγείλετε αμέσως από το ηλεκτρονικό μας κατάστημα.';
 $_LANGMAIL['Congratulations!'] = 'Συγχαρητήρια!';
