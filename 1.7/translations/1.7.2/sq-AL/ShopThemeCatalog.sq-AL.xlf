@@ -22,7 +22,7 @@ File: modules/ps_facetedsearch/src/Ps_FacetedsearchProductSearchProvider.php:130
       </trans-unit>
       <trans-unit id="0ee81913615b71aba7dc8bbf1f144672" approved="yes">
         <source>Price, high to low</source>
-        <target xml:lang="sq">Çmimi, nga më i larti tek mëi ulti</target>
+        <target xml:lang="sq">Çmimi, më i larti tek më i ulëti</target>
         <note>Context:
 File: modules/ps_facetedsearch/src/Ps_FacetedsearchProductSearchProvider.php:133</note>
       </trans-unit>
@@ -32,13 +32,13 @@ File: modules/ps_facetedsearch/src/Ps_FacetedsearchProductSearchProvider.php:133
     <body>
       <trans-unit id="900a70008b0ed52ee5f6907f7b61f0e8" approved="yes">
         <source>Date added, newest to oldest</source>
-        <target xml:lang="sq">Data e shtimit, nga më e reja te më e vjetra</target>
+        <target xml:lang="sq">Data e shtimit, më të rejat tek më e vjetrat</target>
         <note>Context:
 File: src/Adapter/NewProducts/NewProductsProductSearchProvider.php:85</note>
       </trans-unit>
       <trans-unit id="c2718c816e7ebf8495e3c9ce20061317" approved="yes">
         <source>Date added, oldest to newest</source>
-        <target xml:lang="sq">Data e shtimit, më e vjetra te më e reja</target>
+        <target xml:lang="sq">Data e shtimit, më e vjetra tek më e reja</target>
         <note>Context:
 File: src/Adapter/NewProducts/NewProductsProductSearchProvider.php:88</note>
       </trans-unit>
@@ -76,6 +76,12 @@ File: src/Core/Product/ProductPresenter.php:310</note>
         <note>Context:
 File: src/Core/Product/ProductPresenter.php:317</note>
       </trans-unit>
+      <trans-unit id="63b539babcf7978229d66ba4052ca71f" approved="yes">
+        <source>Reduced price</source>
+        <target xml:lang="sq">Çmim i zbritur</target>
+        <note>Context:
+File: src/Core/Product/ProductPresenter.php:324</note>
+      </trans-unit>
       <trans-unit id="4492081ca02b059f9e8af4ddaf0f7292" approved="yes">
         <source>Pack</source>
         <target xml:lang="sq">Paketa</target>
@@ -99,6 +105,30 @@ File: src/Core/Product/ProductPresenter.php:439</note>
         <target xml:lang="sq">Ka mbaruar</target>
         <note>Context:
 File: src/Core/Product/ProductPresenter.php:447</note>
+      </trans-unit>
+      <trans-unit id="348325afced7f3da215310efbe21f1c1" approved="yes">
+        <source>Last items in stock</source>
+        <target xml:lang="sq">Artikujt e fundit në stok</target>
+        <note>Context:
+File: src/Core/Product/ProductPresenter.php:478</note>
+      </trans-unit>
+      <trans-unit id="a3b6a4d0897451813950029a3066f219" approved="yes">
+        <source>ean13</source>
+        <target xml:lang="sq">ean13</target>
+        <note>Context:
+File: src/Core/Product/ProductPresenter.php:656</note>
+      </trans-unit>
+      <trans-unit id="6496117322fd76fa12ac1b87d8a4db6c" approved="yes">
+        <source>isbn</source>
+        <target xml:lang="sq">isbn</target>
+        <note>Context:
+File: src/Core/Product/ProductPresenter.php:658</note>
+      </trans-unit>
+      <trans-unit id="2f9e567efb6a38663162f65eaac2d73b" approved="yes">
+        <source>upc</source>
+        <target xml:lang="sq">upc</target>
+        <note>Context:
+File: src/Core/Product/ProductPresenter.php:660</note>
       </trans-unit>
     </body>
   </file>
@@ -196,7 +226,7 @@ File: controllers/front/SitemapController.php:162</note>
     <body>
       <trans-unit id="4c5c40c99a89125e22218cb62335c60a" approved="yes">
         <source>List of products by supplier %s</source>
-        <target xml:lang="sq">Lista e produkteve sipas furnitorit %s</target>
+        <target xml:lang="sq">Lista e produkteve të furnitorit %s</target>
         <note>Context:
 File: themes/classic/templates/catalog/listing/supplier.tpl:28</note>
       </trans-unit>
@@ -264,7 +294,7 @@ File: controllers/front/listing/CategoryController.php:212</note>
     <body>
       <trans-unit id="d0679d37c204278465192d34b1917c01" approved="yes">
         <source>List of products by brand %brand_name%</source>
-        <target xml:lang="sq">Lista e produkteve sipas markës %brand_name%</target>
+        <target xml:lang="sq">Lista e produkteve të markës %brand_name%</target>
         <note>Context:
 File: themes/StarterTheme/templates/catalog/listing/manufacturer.tpl:29</note>
       </trans-unit>
@@ -398,7 +428,7 @@ File: themes/StarterTheme/templates/catalog/_partials/product-customization.tpl:
       </trans-unit>
       <trans-unit id="5d1190edfb16f1dcaaecc56570c864be" approved="yes">
         <source>Your customization:</source>
-        <target xml:lang="sq">Personalizimi i juaj:</target>
+        <target xml:lang="sq">Personalizimi yt:</target>
         <note>Context:
 File: themes/StarterTheme/templates/catalog/_partials/product-customization.tpl:40</note>
       </trans-unit>
@@ -408,7 +438,7 @@ File: themes/StarterTheme/templates/catalog/_partials/product-customization.tpl:
     <body>
       <trans-unit id="fb526aaa0add86e4e124263db50438c8" approved="yes">
         <source>Showing %from%-%to% of %total% item(s)</source>
-        <target xml:lang="sq">Jeni duke parë %from% - %to% nga %total% artikull(j)</target>
+        <target xml:lang="sq">Je duke parë %from% - %to% nga %total% artikull(j)</target>
         <note>Context:
 File: themes/StarterTheme/templates/catalog/_partials/products-top.tpl:37</note>
       </trans-unit>
@@ -457,6 +487,12 @@ File: themes/StarterTheme/templates/catalog/_partials/product-prices.tpl:57</not
         <target xml:lang="sq">Në vend të %price%</target>
         <note>Context:
 File: themes/StarterTheme/templates/catalog/_partials/product-prices.tpl:63</note>
+      </trans-unit>
+      <trans-unit id="98508b5a9b590896cc627beb46d86b96" approved="yes">
+        <source>Including %amount% for ecotax</source>
+        <target xml:lang="sq">Përfshirë %amount% për ekotaksë</target>
+        <note>Context:
+File: themes/StarterTheme/templates/catalog/_partials/product-prices.tpl:69</note>
       </trans-unit>
       <trans-unit id="a134618182b99ff9151d7e0b6b92410a" approved="yes">
         <source>(not impacted by the discount)</source>
@@ -550,6 +586,12 @@ File: themes/classic/templates/catalog/product.tpl:168</note>
         <note>Context:
 File: themes/classic/templates/catalog/product.tpl:177</note>
       </trans-unit>
+      <trans-unit id="3767d4f3efe17bd95a1bc7cf4194bb93" approved="yes">
+        <source>You might also like</source>
+        <target xml:lang="sq">Ndoshta mund të pëlqejë edhe</target>
+        <note>Context:
+File: themes/classic/templates/catalog/product.tpl:237</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/modules/ps_searchbar/ps_searchbar.tpl" source-language="en" target-language="sq" datatype="plaintext">
@@ -586,7 +628,12 @@ File: themes/classic/modules/ps_featuredproducts/views/templates/hook/ps_feature
   </file>
   <file original="themes/classic/modules/ps_rssfeed/views/templates/hook/ps_rssfeed.tpl" source-language="en" target-language="sq" datatype="plaintext">
     <body>
-      
+      <trans-unit id="10fd25dcd3353c0ba3731d4a23657f2e" approved="yes">
+        <source>No RSS feed added</source>
+        <target xml:lang="sq">Nuk ka të shtuar RSS feed</target>
+        <note>Context:
+File: themes/classic/modules/ps_rssfeed/views/templates/hook/ps_rssfeed.tpl:36</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/modules/ps_emailalerts/views/templates/hook/my-account.tpl" source-language="en" target-language="sq" datatype="plaintext">
@@ -611,10 +658,30 @@ File: themes/classic/modules/ps_viewedproduct/views/template/hook/ps_viewedprodu
   </file>
   <file original="modules/ps_productinfo/views/templates/hook/ps_productinfo.tpl" source-language="en" target-language="sq" datatype="plaintext">
     <body>
-      
-      
-      
-      
+      <trans-unit id="035749e4c50392a661c0f1b220ae0516" approved="yes">
+        <source>1 person is currently watching this product.</source>
+        <target xml:lang="sq">1 person është duke e shikuar tani këtë produkt.</target>
+        <note>Context:
+File: modules/ps_productinfo/views/templates/hook/ps_productinfo.tpl:29</note>
+      </trans-unit>
+      <trans-unit id="c24cf2abae9286b8f69a8ccdf7ed8d5e" approved="yes">
+        <source>%nb_people% people are currently watching this product.</source>
+        <target xml:lang="sq">%nb_people% njerëz janë duke e shikuar tani këtë produkt.</target>
+        <note>Context:
+File: modules/ps_productinfo/views/templates/hook/ps_productinfo.tpl:31</note>
+      </trans-unit>
+      <trans-unit id="247f15e3dc0e7906ab9573685423899f" approved="yes">
+        <source>Last time this product was bought: %date_last_order%</source>
+        <target xml:lang="sq">Ky artikull sëfundmi është blerë më: %date_last_order%</target>
+        <note>Context:
+File: modules/ps_productinfo/views/templates/hook/ps_productinfo.tpl:37</note>
+      </trans-unit>
+      <trans-unit id="160b4798999cb85c815beeb40ac268cc" approved="yes">
+        <source>Last time this product was added to a cart: %date_last_cart%</source>
+        <target xml:lang="sq">Ky artikull sëfundmi është shtuar në shportë më: %date_last_cart%</target>
+        <note>Context:
+File: modules/ps_productinfo/views/templates/hook/ps_productinfo.tpl:41</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/modules/ps_supplierlist/views/templates/_partials/supplier_form.tpl" source-language="en" target-language="sq" datatype="plaintext">
@@ -667,7 +734,7 @@ File: themes/classic/modules/ps_brandlist/views/templates/_partials/brand_form.t
     <body>
       <trans-unit id="8e41eae149ff3fa38cc9c4fde945f2c3" approved="yes">
         <source>No brand</source>
-        <target xml:lang="sq">Nu ka marka</target>
+        <target xml:lang="sq">Nuk ka marka</target>
         <note>Context:
 File: themes/classic/modules/ps_brandlist/views/templates/hook/ps_brandlist.tpl:37</note>
       </trans-unit>
@@ -675,8 +742,18 @@ File: themes/classic/modules/ps_brandlist/views/templates/hook/ps_brandlist.tpl:
   </file>
   <file original="themes/classic/modules/ps_categoryproducts/views/templates/hook/ps_categoryproducts.tpl" source-language="en" target-language="sq" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="f55e0a28b86c2ab66ac632ab9ddf1833" approved="yes">
+        <source>%s other product in the same category:</source>
+        <target xml:lang="sq">%s produkt tjetër në të njëjtën kategori:</target>
+        <note>Context:
+File: themes/classic/modules/ps_categoryproducts/views/templates/hook/ps_categoryproducts.tpl:28</note>
+      </trans-unit>
+      <trans-unit id="bebb44f38b03407098d48198c1d0aaa5" approved="yes">
+        <source>%s other products in the same category:</source>
+        <target xml:lang="sq">%s produkte të tjera në të njëjtën kategori:</target>
+        <note>Context:
+File: themes/classic/modules/ps_categoryproducts/views/templates/hook/ps_categoryproducts.tpl:30</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/modules/ps_crossselling/views/templates/hook/ps_crossselling.tpl" source-language="en" target-language="sq" datatype="plaintext">
@@ -691,12 +768,22 @@ File: themes/classic/modules/ps_crossselling/views/templates/hook/ps_crosssellin
   </file>
   <file original="themes/StarterTheme/templates/catalog/_partials/active_filters.tpl" source-language="en" target-language="sq" datatype="plaintext">
     <body>
-      
+      <trans-unit id="53cea05976132fada38935bdc05ad156" approved="yes">
+        <source>%facet_label%: %facet_value%</source>
+        <target xml:lang="sq">%facet_label%: %facet_value%</target>
+        <note>Context:
+File: themes/StarterTheme/templates/catalog/_partials/active_filters.tpl:30</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/StarterTheme/templates/catalog/listing/supplier.tpl" source-language="en" target-language="sq" datatype="plaintext">
     <body>
-      
+      <trans-unit id="bcdf044a723993079e77ec66e4d6cbf2" approved="yes">
+        <source>List of products by supplier %supplier_name%</source>
+        <target xml:lang="sq">Lista e produkteve të furnitorit %supplier_name%</target>
+        <note>Context:
+File: themes/StarterTheme/templates/catalog/listing/supplier.tpl:9</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

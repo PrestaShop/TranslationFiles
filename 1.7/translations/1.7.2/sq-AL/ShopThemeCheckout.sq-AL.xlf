@@ -58,12 +58,6 @@ File: modules/ps_carriercomparison/ps_carriercomparison.php:170</note>
   </file>
   <file original="src/Adapter/Cart/CartPresenter.php" source-language="en" target-language="sq" datatype="plaintext">
     <body>
-      <trans-unit id="ea9cf7e47ff33b2be14e6dd07cbcefc6" approved="yes">
-        <source>Shipping</source>
-        <target xml:lang="sq">Posta</target>
-        <note>Context:
-File: src/Adapter/Cart/CartPresenter.php:340</note>
-      </trans-unit>
       <trans-unit id="3b5a05f2c4a0373c7a6e8d1cfec7020f" approved="yes">
         <source>Included taxes</source>
         <target xml:lang="sq">Me TVSH</target>
@@ -100,6 +94,12 @@ File: src/Adapter/Cart/CartPresenter.php:388</note>
         <note>Context:
 File: src/Adapter/Cart/CartPresenter.php:389</note>
       </trans-unit>
+      <trans-unit id="2bd544f123f671c597c4b330ef05b5da" approved="yes">
+        <source>A minimum shopping cart total of %amount% (tax excl.) is required to validate your order. Current cart total is %total% (tax excl.).</source>
+        <target xml:lang="sq">Një blerje totale prej të paktën %amount% (pa TVSH) është e nevojshme për ta vërtetuar porosinë tënde. Vlera totale e tanishme është %total% (pa TVSH).</target>
+        <note>Context:
+File: src/Adapter/Cart/CartPresenter.php:438</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/form/CustomerAddressForm.php" source-language="en" target-language="sq" datatype="plaintext">
@@ -126,9 +126,15 @@ File: themes/classic/templates/checkout/_partials/order-final-summary.tpl:35</no
         <note>Context:
 File: themes/classic/templates/checkout/_partials/order-final-summary.tpl:62</note>
       </trans-unit>
+      <trans-unit id="7ce3a11073ffba68bd1e83e243aaabf7" approved="yes">
+        <source>Please check your order before payment</source>
+        <target xml:lang="sq">Të lutem kontrollo porosinë tënda para se të paguash</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/order-final-summary.tpl:28</note>
+      </trans-unit>
       <trans-unit id="f2a5a4ccf14820292a27cca1c8cab12e" approved="yes">
         <source>Your Delivery Address</source>
-        <target xml:lang="sq">Adresa juaj e livrimit</target>
+        <target xml:lang="sq">Adresa jote e livrimit</target>
         <note>Context:
 File: themes/classic/templates/checkout/_partials/order-final-summary.tpl:44</note>
       </trans-unit>
@@ -138,7 +144,7 @@ File: themes/classic/templates/checkout/_partials/order-final-summary.tpl:44</no
     <body>
       <trans-unit id="823e713a0e72b5dc3d75a71a7bbc6274" approved="yes">
         <source>I agree to the [terms of service] and will adhere to them unconditionally.</source>
-        <target xml:lang="sq">Unë pajtohem me kushtet e shërbimit dhe do t'i përmbahen atyre pa kushte.</target>
+        <target xml:lang="sq">Pajtohem me [kushtet e shërbimit] dhe do t'u përmbahem atyre pa kushte.</target>
         <note>Context:
 File: classes/checkout/ConditionsToApproveFinder.php:52</note>
       </trans-unit>
@@ -204,7 +210,7 @@ File: classes/checkout/CheckoutDeliveryStep.php:114</note>
       </trans-unit>
       <trans-unit id="882ed1e831a6175e4a3dd2c09faa225c" approved="yes">
         <source>I would like my order to be gift wrapped %cost%</source>
-        <target xml:lang="sq">Unë do të doja që porosia ime të jetë e mbështjllur me mbështjesllës dhurate %cost%</target>
+        <target xml:lang="sq">Unë do të doja që porosia ime të mbështjellet me mbështjesllës dhuratash %cost%</target>
         <note>Context:
 File: classes/checkout/CheckoutDeliveryStep.php:182</note>
       </trans-unit>
@@ -272,6 +278,12 @@ File: themes/StarterTheme/templates/catalog/_partials/product-discounts.tpl:33</
         <note>Context:
 File: themes/StarterTheme/templates/catalog/_partials/product-discounts.tpl:35</note>
       </trans-unit>
+      <trans-unit id="bb4c039b2cfaf344b1f599149086dba6" approved="yes">
+        <source>Up to %amount_saved%</source>
+        <target xml:lang="sq">Deri në %amount_saved%</target>
+        <note>Context:
+File: themes/StarterTheme/templates/catalog/_partials/product-discounts.tpl:48</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/StarterTheme/templates/customer/order-detail.tpl" source-language="en" target-language="sq" datatype="plaintext">
@@ -287,6 +299,12 @@ File: themes/StarterTheme/templates/customer/order-detail.tpl:131</note>
         <target xml:lang="sq">Mënyra e pagesës</target>
         <note>Context:
 File: themes/StarterTheme/templates/customer/order-detail.tpl:47</note>
+      </trans-unit>
+      <trans-unit id="d350478ea9dc7f1f8ae3c78a41630f1d" approved="yes">
+        <source>Delivery address %alias%</source>
+        <target xml:lang="sq">Adresa e livrimit %alias%</target>
+        <note>Context:
+File: themes/StarterTheme/templates/customer/order-detail.tpl:97</note>
       </trans-unit>
       <trans-unit id="7d0244dc42acadee967bf9d8e612bffb" approved="yes">
         <source>Invoice address %alias%</source>
@@ -358,7 +376,7 @@ File: themes/StarterTheme/templates/customer/discount.tpl:43</note>
     <body>
       <trans-unit id="5c74d926c4b89517ad64133990d04413" approved="yes">
         <source>Use this address for invoice too</source>
-        <target xml:lang="sq">Përdorni këtë adresë edhe për faturën</target>
+        <target xml:lang="sq">Përdor këtë adresë gjithashtu edhe për faturë</target>
         <note>Context:
 File: themes/StarterTheme/templates/checkout/_partials/address-form.tpl:29</note>
       </trans-unit>
@@ -368,7 +386,7 @@ File: themes/StarterTheme/templates/checkout/_partials/address-form.tpl:29</note
     <body>
       <trans-unit id="3111382b0f345f39639de6e580a94933" approved="yes">
         <source>Have a promo code?</source>
-        <target xml:lang="sq">Keni një kod promocional?</target>
+        <target xml:lang="sq">Ke kod promocional?</target>
         <note>Context:
 File: themes/classic/templates/checkout/_partials/cart-voucher.tpl:47</note>
       </trans-unit>
@@ -388,7 +406,7 @@ File: themes/StarterTheme/templates/checkout/_partials/cart-voucher.tpl:43</note
     <body>
       <trans-unit id="2f0dca8966242e58b83e0afc012b178b" approved="yes">
         <source>There are no more items in your cart</source>
-        <target xml:lang="sq">Në shportën tuaj nuk ka më artikuj</target>
+        <target xml:lang="sq">Në shportën tënde nuk ka më artikuj</target>
         <note>Context:
 File: themes/classic/templates/checkout/_partials/cart-detailed.tpl:39</note>
       </trans-unit>
@@ -418,6 +436,24 @@ File: themes/StarterTheme/templates/checkout/_partials/steps/addresses.tpl:83</n
         <note>Context:
 File: themes/StarterTheme/templates/checkout/_partials/steps/addresses.tpl:36</note>
       </trans-unit>
+      <trans-unit id="dc024b376ebf01abd90cf4d5e4dca1c7" approved="yes">
+        <source>The selected address will be used as your personal address (for invoice).</source>
+        <target xml:lang="sq">Adresa e zgjedhur do të përdoret si adresë e jote personale (për faturë).</target>
+        <note>Context:
+File: themes/StarterTheme/templates/checkout/_partials/steps/addresses.tpl:45</note>
+      </trans-unit>
+      <trans-unit id="313d7cbfa2b3c25f09d69ad7e40974a7" approved="yes">
+        <source>Billing address differs from shipping address</source>
+        <target xml:lang="sq">Adresa e faturimit ndryshon nga ajo e livrimit</target>
+        <note>Context:
+File: themes/StarterTheme/templates/checkout/_partials/steps/addresses.tpl:74</note>
+      </trans-unit>
+      <trans-unit id="59123a64986f5a831723020061400054" approved="yes">
+        <source>The selected address will be used both as your personal address (for invoice) and as your shipping address.</source>
+        <target xml:lang="sq">Adresa e zgjedhur do të përdoret si adresë e jote personale (për faturë) dhe si adresë e livrimit.</target>
+        <note>Context:
+File: themes/StarterTheme/templates/checkout/_partials/steps/addresses.tpl:41</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/checkout/_partials/customer-form.tpl" source-language="en" target-language="sq" datatype="plaintext">
@@ -434,19 +470,25 @@ File: themes/classic/templates/checkout/_partials/customer-form.tpl:30</note>
         <note>Context:
 File: themes/classic/templates/checkout/_partials/customer-form.tpl:30</note>
       </trans-unit>
+      <trans-unit id="c8334d474f091b12e87cf4f8632269f3" approved="yes">
+        <source>And save time on your next order!</source>
+        <target xml:lang="sq">Dhe kurse kohë në porosinë tënde të radhës!</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/customer-form.tpl:32</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/checkout/_partials/order-final-summary-table.tpl" source-language="en" target-language="sq" datatype="plaintext">
     <body>
       <trans-unit id="e3e83a01990288b492a11a955723343d" approved="yes">
         <source>%product_count% item in your cart</source>
-        <target xml:lang="sq">%product_count% artikull në shportën tuaj</target>
+        <target xml:lang="sq">%product_count% artikull në shportën tënde</target>
         <note>Context:
 File: themes/classic/templates/checkout/_partials/order-final-summary-table.tpl:31</note>
       </trans-unit>
       <trans-unit id="3f5cb84c95c577127e3f9e96d405d21b" approved="yes">
         <source>%products_count% items in your cart</source>
-        <target xml:lang="sq">%products_count% artikuj në shportën tuaj</target>
+        <target xml:lang="sq">%products_count% artikuj në shportën tënde</target>
         <note>Context:
 File: themes/classic/templates/checkout/_partials/order-final-summary-table.tpl:33</note>
       </trans-unit>
@@ -466,7 +508,7 @@ File: themes/StarterTheme/templates/checkout/_partials/order-confirmation-table.
     <body>
       <trans-unit id="3e0b39c8cd14dd15fff36eecf9c19861" approved="yes">
         <source>If you sign out now, your cart will be emptied.</source>
-        <target xml:lang="sq">Nëse çidentifikoheni tani, shporta e juaj do të zbrazet.</target>
+        <target xml:lang="sq">Nëse çidentifikohesh tani, shporta jote do të zbrazet.</target>
         <note>Context:
 File: themes/StarterTheme/templates/checkout/_partials/steps/personal-information.tpl:19</note>
       </trans-unit>
@@ -506,13 +548,19 @@ File: themes/StarterTheme/templates/checkout/_partials/steps/shipping.tpl:62</no
         <note>Context:
 File: themes/StarterTheme/templates/checkout/_partials/steps/shipping.tpl:70</note>
       </trans-unit>
+      <trans-unit id="9a605fc0e1667ebdbd0ac37cf9f90789" approved="yes">
+        <source>Unfortunately, there are no carriers available for your delivery address.</source>
+        <target xml:lang="sq">Për fat të keq, nuk ka transportues të disponueshëm për adresën tënde të livrimit.</target>
+        <note>Context:
+File: themes/StarterTheme/templates/checkout/_partials/steps/shipping.tpl:80</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/checkout/_partials/steps/addresses.tpl" source-language="en" target-language="sq" datatype="plaintext">
     <body>
       <trans-unit id="56d0ed7cd789dd772be59aa6b1e437de" approved="yes">
         <source>The selected address will be used both as your personal address (for invoice) and as your delivery address.</source>
-        <target xml:lang="sq">Adresa e zgjedhur do të përdoret si adresë e juaj personale (për faturë) dhe si adresë e juaj e livrimit.</target>
+        <target xml:lang="sq">Adresa e zgjedhur do të përdoret si adresë e jote personale (për faturë) dhe si adresë e jote e livrimit.</target>
         <note>Context:
 File: themes/classic/templates/checkout/_partials/steps/addresses.tpl:41</note>
       </trans-unit>
@@ -522,13 +570,13 @@ File: themes/classic/templates/checkout/_partials/steps/addresses.tpl:41</note>
     <body>
       <trans-unit id="dde6c860ae1ac6573875352abf1822ef" approved="yes">
         <source>No payment needed for this order</source>
-        <target xml:lang="sq">Kjo porosi nuk ka nevojë për postierNuk ka nevojë për pagesë për këtë porosi</target>
+        <target xml:lang="sq">Nuk ka nevojë pagese për këtë porosi</target>
         <note>Context:
 File: themes/classic/templates/checkout/_partials/steps/payment.tpl:8</note>
       </trans-unit>
       <trans-unit id="5486191906ec27c1c4bb5bd3e46b3442" approved="yes">
         <source>Order with an obligation to pay</source>
-        <target xml:lang="sq">Porosi me detyrimin për të paguar</target>
+        <target xml:lang="sq">Porosi me detyrim pagese</target>
         <note>Context:
 File: themes/classic/templates/checkout/_partials/steps/payment.tpl:141</note>
       </trans-unit>
@@ -548,21 +596,39 @@ File: themes/StarterTheme/templates/checkout/_partials/steps/payment.tpl:45</not
         <note>Context:
 File: themes/StarterTheme/templates/checkout/_partials/steps/payment.tpl:89</note>
       </trans-unit>
+      <trans-unit id="9ea465e939c30ceba6e0d46810913142" approved="yes">
+        <source>By confirming the order, you certify that you have read and agree with all of the conditions below:</source>
+        <target xml:lang="sq">Me konfirmimin e porosisë, ti vërteton se i ke lexuar dhe je dakord me të gjitha kushtet e mëposhtme:</target>
+        <note>Context:
+File: themes/StarterTheme/templates/checkout/_partials/steps/payment.tpl:11</note>
+      </trans-unit>
+      <trans-unit id="3a31d70f8c2eb35a29f6c58e9664cd7f" approved="yes">
+        <source>Please make sure you've chosen a [1]payment method[/1] and accepted the [2]terms and conditions[/2].</source>
+        <target xml:lang="sq">Të lutem sigurohu që ke zgjedhur një [1]metodë pagese[/1] dhe keni pranuar [2]termat dhe kushtet[/2].</target>
+        <note>Context:
+File: themes/StarterTheme/templates/checkout/_partials/steps/payment.tpl:100</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/StarterTheme/templates/checkout/order-confirmation.tpl" source-language="en" target-language="sq" datatype="plaintext">
     <body>
       <trans-unit id="7f21696f11929f5ed55ca5bcb15d2fc1" approved="yes">
         <source>Your order is confirmed</source>
-        <target xml:lang="sq">Urdhërblerja e juaj është konfirmuar</target>
+        <target xml:lang="sq">Porosia e jote është konfirmuar</target>
         <note>Context:
 File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:19</note>
       </trans-unit>
       <trans-unit id="b8627ccd34529880156129d02a9ca37d" approved="yes">
         <source>An email has been sent to your mail address %email%.</source>
-        <target xml:lang="sq">Një email është dërguar në adresën tuaj të emailit %email%.</target>
+        <target xml:lang="sq">Një email është dërguar në adresën tënde të emailit %email%.</target>
         <note>Context:
 File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:21</note>
+      </trans-unit>
+      <trans-unit id="186f9a937f0afc4cce2bbc4087dfd3fa" approved="yes">
+        <source>You can also [1]download your invoice[/1]</source>
+        <target xml:lang="sq">Ti mundesh gjithashtu të [1]shkarkosh faturën tënde[/1]</target>
+        <note>Context:
+File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:27</note>
       </trans-unit>
       <trans-unit id="f5d74ea75357b5e139854c14f8e24fe3" approved="yes">
         <source>Order details</source>
@@ -570,11 +636,35 @@ File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:21</note>
         <note>Context:
 File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:57</note>
       </trans-unit>
+      <trans-unit id="cc6f3e2192d71f54d7b181d91f04d165" approved="yes">
+        <source>Save time on your next order, sign up now</source>
+        <target xml:lang="sq">Kurse kohë në porosinë tënde të radhës, regjistrohu tani</target>
+        <note>Context:
+File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:71</note>
+      </trans-unit>
       <trans-unit id="fb077ecba55e5552916bde26d8b9e794" approved="yes">
         <source>Order confirmation</source>
         <target xml:lang="sq">Konfirmimi i porosisë</target>
         <note>Context:
 File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:4</note>
+      </trans-unit>
+      <trans-unit id="ded7f0d0397bb3138bfe1e40dcdb560a" approved="yes">
+        <source>Order reference %reference%</source>
+        <target xml:lang="sq">Referenca e porosisë: %reference%</target>
+        <note>Context:
+File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:59</note>
+      </trans-unit>
+      <trans-unit id="c955ed92e576b55e052cc5a88d92c93e" approved="yes">
+        <source>Payment method %method_name%</source>
+        <target xml:lang="sq">Metoda e pagesës: %method_name%</target>
+        <note>Context:
+File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:60</note>
+      </trans-unit>
+      <trans-unit id="286b82fc158785899ecbe309809b7057" approved="yes">
+        <source>Shipping method %method_name%</source>
+        <target xml:lang="sq">Metoda e livrimit: %method_name%</target>
+        <note>Context:
+File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:62</note>
       </trans-unit>
     </body>
   </file>
@@ -591,6 +681,12 @@ File: themes/classic/templates/checkout/order-confirmation.tpl:60</note>
         <target xml:lang="sq">Metoda e pagesës: %method%</target>
         <note>Context:
 File: themes/classic/templates/checkout/order-confirmation.tpl:61</note>
+      </trans-unit>
+      <trans-unit id="080753487a8bc0bb9a5275bcb9951516" approved="yes">
+        <source>Shipping method: %method%</source>
+        <target xml:lang="sq">Metoda e livrimit: %method%</target>
+        <note>Context:
+File: themes/classic/templates/checkout/order-confirmation.tpl:64</note>
       </trans-unit>
     </body>
   </file>
@@ -638,6 +734,30 @@ File: themes/classic/modules/ps_shoppingcart/modal.tpl:32</note>
         <note>Context:
 File: themes/classic/modules/ps_shoppingcart/modal.tpl:48</note>
       </trans-unit>
+      <trans-unit id="5a0d620c4938bda6d4be4a2869cc3ee7" approved="yes">
+        <source>There are %products_count% items in your cart.</source>
+        <target xml:lang="sq">Në shportën tënde janë %products_count% artikuj.</target>
+        <note>Context:
+File: themes/classic/modules/ps_shoppingcart/modal.tpl:55</note>
+      </trans-unit>
+      <trans-unit id="e8a8612fb6fa9f657318f158780f0eeb" approved="yes">
+        <source>There is %product_count% item in your cart.</source>
+        <target xml:lang="sq">Në shportën tënde është %product_count% artikull.</target>
+        <note>Context:
+File: themes/classic/modules/ps_shoppingcart/modal.tpl:57</note>
+      </trans-unit>
+      <trans-unit id="543ae6adeb524f98cc7d3c816a1ec1e3" approved="yes">
+        <source>Total products:</source>
+        <target xml:lang="sq">Gjithsej produkte:</target>
+        <note>Context:
+File: themes/classic/modules/ps_shoppingcart/modal.tpl:59</note>
+      </trans-unit>
+      <trans-unit id="691b338fa68b3c177c6ebbc745624c6a" approved="yes">
+        <source>Total shipping:</source>
+        <target xml:lang="sq">Gjithsej transporti:</target>
+        <note>Context:
+File: themes/classic/modules/ps_shoppingcart/modal.tpl:60</note>
+      </trans-unit>
       <trans-unit id="66c4c5112f455a19afde47829df363fa" approved="yes">
         <source>Total:</source>
         <target xml:lang="sq">Totali i porosisë:</target>
@@ -650,7 +770,7 @@ File: themes/classic/modules/ps_shoppingcart/modal.tpl:64</note>
     <body>
       <trans-unit id="4d26a4e106aa8a35f25d97fd14055981" approved="yes">
         <source>Choose a password to create an account and save time on your next order (optional)</source>
-        <target xml:lang="sq">Zgjidhni një fjalëkalim për të krijuar një llogari dhe për të kursyer kohë për porosinë tuaj të radhës (opsionale)</target>
+        <target xml:lang="sq">Zgjidh një fjalëkalim për të krijuar një llogari dhe për të kursyer kohë për porosinë tënde të radhës (opsionale)</target>
         <note>Context:
 File: themes/StarterTheme/templates/checkout/_partials/customer-form.tpl:30</note>
       </trans-unit>
@@ -660,7 +780,7 @@ File: themes/StarterTheme/templates/checkout/_partials/customer-form.tpl:30</not
     <body>
       <trans-unit id="e2121483e5e6c879ecef260a7f72e959" approved="yes">
         <source>Product Successfully Added to Your Shopping Cart</source>
-        <target xml:lang="sq">Produkti u shtua me sukses në shportën tuaj të blerjes</target>
+        <target xml:lang="sq">Produkti u shtua me sukses në shportën tënde të blerjes</target>
         <note>Context:
 File: modules/ps_shoppingcart/modal.tpl:4</note>
       </trans-unit>

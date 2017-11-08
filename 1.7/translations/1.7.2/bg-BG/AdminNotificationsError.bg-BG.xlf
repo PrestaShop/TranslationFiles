@@ -133,6 +133,12 @@ File: classes/controller/AdminController.php:1278</note>
         <note>Context:
 File: classes/controller/AdminController.php:1429</note>
       </trans-unit>
+      <trans-unit id="c2c0e06097c62422199e29a5574e9fc4" approved="yes">
+        <source>Cannot add configuration %s</source>
+        <target xml:lang="bg">Неуспех при добавяне на конфигурация %s</target>
+        <note>Context:
+File: classes/controller/AdminController.php:1491</note>
+      </trans-unit>
       <trans-unit id="fa4611fb85bb8f118f562d107ab790d4" approved="yes">
         <source>The object cannot be loaded (or found)</source>
         <target xml:lang="bg">Обектът не може да бъде зареден (или намерен)</target>
@@ -151,6 +157,12 @@ File: classes/controller/AdminController.php:1663</note>
         <target xml:lang="bg">Полето %1$s е задължително поне в %2$s. </target>
         <note>Context:
 File: classes/controller/AdminController.php:3679</note>
+      </trans-unit>
+      <trans-unit id="b4186b9ed7c957a1cd9f4e7ce916e603" approved="yes">
+        <source>%s: Incorrect value</source>
+        <target xml:lang="bg">%s: Некоректна стойност</target>
+        <note>Context:
+File: classes/controller/AdminController.php:3910</note>
       </trans-unit>
       <trans-unit id="9bc4cb281e01dc945f3d0ab0710a898a" approved="yes">
         <source>Can't delete #%d</source>
@@ -227,6 +239,12 @@ File: controllers/admin/AdminProductsController.php:2824</note>
         <target xml:lang="bg">Възникна грешка при копиране на изображението.</target>
         <note>Context:
 File: controllers/admin/AdminProductsController.php:1659</note>
+      </trans-unit>
+      <trans-unit id="6c3609de8769a4456305ec22e764573d" approved="yes">
+        <source>An error occurred while copying this image: %s</source>
+        <target xml:lang="bg">Грешка при копиране на изображение: %s</target>
+        <note>Context:
+File: controllers/admin/AdminProductsController.php:1664</note>
       </trans-unit>
       <trans-unit id="211ff814e7bf91c4548a61ba1c427c15" approved="yes">
         <source>Error while updating the status.</source>
@@ -305,6 +323,12 @@ File: controllers/admin/AdminProductsController.php:950</note>
         <target xml:lang="bg">Възникна грешка при актуализацията на изображението.</target>
         <note>Context:
 File: controllers/admin/AdminProductsController.php:1616</note>
+      </trans-unit>
+      <trans-unit id="46d431810202adee8bca6b13a5ebd0d9" approved="yes">
+        <source>An error occurred while linking the object %table_name% to categories.</source>
+        <target xml:lang="bg">Грешка при свързване на обект %table_name% към категории.</target>
+        <note>Context:
+File: controllers/admin/AdminProductsController.php:1909</note>
       </trans-unit>
       <trans-unit id="723b4a80bd8ae233c9fcde1e5bd55436" approved="yes">
         <source>The object cannot be loaded. </source>
@@ -536,7 +560,12 @@ File: classes/Currency.php:533</note>
   </file>
   <file original="classes/Customization.php" source-language="en" target-language="bg" datatype="plaintext">
     <body>
-      
+      <trans-unit id="95013b94140e1438329efc8a39352f4b" approved="yes">
+        <source>Could not load cart id=%s</source>
+        <target xml:lang="bg">Количка %s не може да бъде заредена</target>
+        <note>Context:
+File: classes/Customization.php:376</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminCartsController.php" source-language="en" target-language="bg" datatype="plaintext">
@@ -568,6 +597,12 @@ File: controllers/admin/AdminCartsController.php:401</note>
         <target xml:lang="bg">Каченият файл е по-голям от описаното в  post_max_size директивата в php.ini</target>
         <note>Context:
 File: classes/Uploader.php:334</note>
+      </trans-unit>
+      <trans-unit id="0bff5a3a7cc19937dd97b8a995915222" approved="yes">
+        <source>File is too big. Current size is %1s, maximum size is %2s.</source>
+        <target xml:lang="bg">Файлът е твърде голям. Размера му е %1s, а максимума - %2s.</target>
+        <note>Context:
+File: classes/Uploader.php:354</note>
       </trans-unit>
       <trans-unit id="fb0e0badcf5ac5c98f791447646f5ac8" approved="yes">
         <source>Server file size is different from local file size</source>
@@ -665,6 +700,42 @@ File: classes/ImageManager.php:474</note>
   </file>
   <file original="classes/ObjectModel.php" source-language="en" target-language="bg" datatype="plaintext">
     <body>
+      <trans-unit id="fed3c8d832129d27b64c34fe410e7346" approved="yes">
+        <source>Property %s is empty.</source>
+        <target xml:lang="bg">Свойство %s е празно.</target>
+        <note>Context:
+File: classes/ObjectModel.php:1040</note>
+      </trans-unit>
+      <trans-unit id="872d428c40b36bba9fc5fafaa76c6f22" approved="yes">
+        <source>Property %1$s has a bad value (allowed values are: %2$s).</source>
+        <target xml:lang="bg">Свойство %1$s има неправилна стойност (позволените стойности са: %2$s).</target>
+        <note>Context:
+File: classes/ObjectModel.php:1054</note>
+      </trans-unit>
+      <trans-unit id="9599d22695068a773c0f10ea1fd26a74" approved="yes">
+        <source>Your entry in field %1$s (language %2$s) exceeds max length %3$d chars (incl. html tags).</source>
+        <target xml:lang="bg">Въведеното в поле %1$s (език %2$s) надвишава максимално позволената дължина от %3$d символа (вкл. html тагове).</target>
+        <note>Context:
+File: classes/ObjectModel.php:1069</note>
+      </trans-unit>
+      <trans-unit id="2674ff1d6f5ff826dae13cd4db1ca9b0" approved="yes">
+        <source>The length of property %1$s is currently %2$d chars. It must be between %3$d and %4$d chars.</source>
+        <target xml:lang="bg">Дължината на свойство %1$s е %2$d символа. Тя трябва да бъде между %3$d и %4$d символа.</target>
+        <note>Context:
+File: classes/ObjectModel.php:1074</note>
+      </trans-unit>
+      <trans-unit id="1448270fc6dbabe70584c87fa27cc96f" approved="yes">
+        <source>Validation function not found: %s.</source>
+        <target xml:lang="bg">Липсва валидираща функция: %s.</target>
+        <note>Context:
+File: classes/ObjectModel.php:1092</note>
+      </trans-unit>
+      <trans-unit id="6938fc7c0e5b0b07a6ba370bcb84bbd3" approved="yes">
+        <source>Property %s is not valid</source>
+        <target xml:lang="bg">Свойство %s е невалидно</target>
+        <note>Context:
+File: classes/ObjectModel.php:1114</note>
+      </trans-unit>
       <trans-unit id="ee66f9c9930cb33d2a5dde9b240d3f7e" approved="yes">
         <source>is required.</source>
         <target xml:lang="bg">е задължително.</target>
@@ -676,6 +747,12 @@ File: classes/ObjectModel.php:1171</note>
         <target xml:lang="bg">%1$s е прекалено дълго. Макс. дължина: %2$d </target>
         <note>Context:
 File: classes/ObjectModel.php:1178</note>
+      </trans-unit>
+      <trans-unit id="87ecb83d305a6af0e0438a0587e31de8" approved="yes">
+        <source>%s is invalid.</source>
+        <target xml:lang="bg">%s е невалидно.</target>
+        <note>Context:
+File: classes/ObjectModel.php:1189</note>
       </trans-unit>
       <trans-unit id="2deae2efe4b65df80c188a31fed3cc17" approved="yes">
         <source>The field %s is required.</source>
@@ -748,6 +825,12 @@ File: classes/Meta.php:71</note>
         <target xml:lang="bg">Директорията на препокриванията не може да бъде прочетена</target>
         <note>Context:
 File: classes/Meta.php:75</note>
+      </trans-unit>
+      <trans-unit id="b1ea648f9b7634752699f28ec9897b1a" approved="yes">
+        <source>File %2$s (in directory %1$s)</source>
+        <target xml:lang="bg">Файл %2$s (в директория %1$s)</target>
+        <note>Context:
+File: classes/Meta.php:103</note>
       </trans-unit>
     </body>
   </file>
@@ -988,6 +1071,12 @@ File: controllers/admin/AdminShopUrlController.php:458</note>
         <target xml:lang="bg">Непозната грешка.</target>
         <note>Context:
 File: controllers/admin/AdminThemesController.php:403</note>
+      </trans-unit>
+      <trans-unit id="9f4c1b4b9bcf088c9d32e74b7f542a77" approved="yes">
+        <source>You do not have permission to upload this.</source>
+        <target xml:lang="bg">Нямате права да качите това.</target>
+        <note>Context:
+File: controllers/admin/AdminThemesController.php:391</note>
       </trans-unit>
     </body>
   </file>
