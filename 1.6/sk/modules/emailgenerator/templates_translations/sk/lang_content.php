@@ -163,7 +163,7 @@ $_LANGMAIL['{product} is nearly out of stock.'] = '{product} je takmer vypredan�
 $_LANGMAIL['The remaining stock is now less than the specified minimum of'] = 'Množstvo na sklade je momentálne menšie ako špecifikované minimum';
 $_LANGMAIL['Remaining stock:'] = 'Na sklade zostáva:';
 $_LANGMAIL['You are advised to open the product&#039;s admin Product Page in order to replenish your inventory.'] = 'Odporúčame otvoriť stránku produktu v administrácii a doplniť inventár.';
-$_LANGMAIL['You have received a new return request for {shop_name}.'] = 'Obdržali ste nový požiadavok na vrátenie tovaru v obchode {shop_name}.';
+$_LANGMAIL['You have received a new return request for {shop_name}.'] = 'Obdržali ste novú žiadosť o vrátenie tovaru v obchode {shop_name}.';
 $_LANGMAIL['Return details'] = 'Detaily k vráteniu tovaru';
 $_LANGMAIL['{order_name} Placed on {date}'] = '{order_name} vytvorená dňa {date}';
 $_LANGMAIL['Your referred friend <span><strong>{sponsored_firstname} {sponsored_lastname}</strong></span> has placed his or her first order on <a href="{shop_url}">{shop_name}</a>!'] = '<span><strong>{sponsored_firstname} {sponsored_lastname}</strong></span>, ktorému ste odporučili náš obchod, vytvoril prvú objednávku v obchode <a href="{shop_url}">{shop_name}</a>!';

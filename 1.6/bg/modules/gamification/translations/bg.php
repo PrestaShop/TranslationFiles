@@ -8,7 +8,7 @@ $_MODULE['<{gamification}prestashop>admingamificationcontroller_7258e7251413465e
 $_MODULE['<{gamification}prestashop>admingamificationcontroller_3d4aafb2eedeba2fbf92e852f0af745a'] = 'Експертност на търговеца';
 $_MODULE['<{gamification}prestashop>admingamificationcontroller_98f770b0af18ca763421bac22b4b6805'] = 'Характеристики';
 $_MODULE['<{gamification}prestashop>admingamificationcontroller_f5c7922da355fd289ec1d6469e0583a7'] = 'Постижения';
-$_MODULE['<{gamification}prestashop>admingamificationcontroller_8189ecf686157db0c0274c1f49373318'] = 'Международни';
+$_MODULE['<{gamification}prestashop>admingamificationcontroller_8189ecf686157db0c0274c1f49373318'] = 'Интернационализация';
 $_MODULE['<{gamification}prestashop>admingamificationcontroller_851f12a0c936baace7f0e734d5c624e7'] = '1. Начинаещ';
 $_MODULE['<{gamification}prestashop>admingamificationcontroller_583981a16ea761fe852b64094d8a887e'] = '2. Професионалист';
 $_MODULE['<{gamification}prestashop>admingamificationcontroller_38f7af7416ffcd1524d8a4acda756cbf'] = '3. Експерт';

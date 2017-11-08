@@ -54,6 +54,11 @@ $_MODULE['<{onboarding}prestashop>backoffice_top_c78edf2d54662ed96f41752e05a981b
 $_MODULE['<{onboarding}prestashop>backoffice_top_9506f0fd0f7f1b07960b15b4c9e68d1a'] = '시작';
 $_MODULE['<{onboarding}prestashop>backoffice_top_b70150e16be1e1fdc7bc9f706bfe5f2c'] = '지침서 건너뛰기';
 $_MODULE['<{onboarding}prestashop>backoffice_top_d03e44872879b8a258b6b65973aceb88'] = '시작 전 마지막 단계!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_26ef476ae1184dd26c0f68c3891bdbe7'] = '모든 준비가 끝났습니다!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_48fac01462229af90e4a4af28d671d13'] = '시작까지 %s 단계 남았습니다!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_c1230cc7fd7b733996ff1342c852de26'] = '이제 당신의 상점을 시작할 준비가 됐습니다. 정보가 더 필요하다고 여겨지면, PrestaShop 문서를 더 들여다 볼 수 있습니다:';
+$_MODULE['<{onboarding}prestashop>backoffice_top_74d6651537f0fcd4184b612ee5950343'] = '관리자 사이트의 상단 오른쪽 구석의 "도움말"을 클릭하세요!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_01793ff8582acbe351310a6bf5d070a1'] = '방금 @PrestaShop으로 온라인 상점을 시작했습니다. 확인해 보세요!';
 
 
 return $_MODULE;

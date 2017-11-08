@@ -137,7 +137,6 @@ $_ERRORS['b2b0bd0f32c2dcb52c3e2feb24f33a31'] = 'Një ekstension i PHP ndaloj nga
 $_ERRORS['be694d5db9d32c43014995441a5939c4'] = 'Emri i skedarit është i pavlefshëm';
 $_ERRORS['85fb1cf47b9543043438ba7ed901b626'] = 'Tipi i skedarit nuk lejohet';
 $_ERRORS['a7eca295291f53a23ab7ba0a9c7fd9de'] = 'Ky funksionalitet është deaktivizuar.';
-$_ERRORS['1c623b291d95f4f1b1d0c03d0dc0ffa1'] = 'Adresa juaj nuk u regjistrua';
 $_ERRORS['f9f47dee59a41f69369745b42136b14e'] = 'Kodi i juaj postar nuk është korrekt.';
 $_ERRORS['eeabead01c6c6f25f22bf0b041df58a9'] = 'Duhet të regjistroni të paktën një numër telefoni.';
 $_ERRORS['fe7ff4ed0a66abe86361ba0f8d6e919a'] = 'Skedari i sigurimit nuk ekziston';

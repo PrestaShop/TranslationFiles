@@ -45,7 +45,7 @@ $_MODULE['<{cheque}prestashop>payment_return_9b8f932b1412d130ece5045ecafd1b42'] 
 $_MODULE['<{cheque}prestashop>payment_return_9a94f1d749a3de5d299674d6c685e416'] = 'ارسال نامه الکترونیکی به';
 $_MODULE['<{cheque}prestashop>payment_return_e1c54fdba2544646684f41ace03b5fda'] = 'درج سفارش شماره %d خود را فراموش نكنيد';
 $_MODULE['<{cheque}prestashop>payment_return_4761b03b53bc2b3bd948bb7443a26f31'] = 'درج مرجع سفارش %s خود را فراموش نكنيد';
-$_MODULE['<{cheque}prestashop>payment_return_610abe74e72f00210e3dcb91a0a3f717'] = 'یک نامه ی الکترونیکی با این اطلاعات به شما فرستاده شده است.';
+$_MODULE['<{cheque}prestashop>payment_return_610abe74e72f00210e3dcb91a0a3f717'] = 'یک ایمیل با این اطلاعات برای شما ارسال شده است.';
 $_MODULE['<{cheque}prestashop>payment_return_ffd2478830ca2f519f7fe7ee259d4b96'] = 'سفارش شما بمحض اينکه ما پرداخت شما را دریافت کنیم فرستاده می شود.';
 $_MODULE['<{cheque}prestashop>payment_return_0db71da7150c27142eef9d22b843b4a9'] = 'جهت طرح هرگونه سؤال یا اطلاعات بیشتر، لطفاً تماس بگیرید با';
 $_MODULE['<{cheque}prestashop>payment_return_decce112a9e64363c997b04aa71b7cb8'] = 'پشتیبانی مشتریان';

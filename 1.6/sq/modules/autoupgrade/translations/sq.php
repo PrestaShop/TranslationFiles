@@ -72,7 +72,6 @@ $_MODULE['<{autoupgrade}prestashop>adminselftab_87a2663d841b78f01c27c0edb4f50b76
 $_MODULE['<{autoupgrade}prestashop>adminselftab_a7df4df5ba87b5e752c81b276959e797'] = 'Fshirja e të zgjedhurës e sukseshme';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_84b4d8c8cdd02488c0f868e97b22a3c2'] = 'Krijimi i suksesshëm';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_151648106e4bf98297882ea2ea1c4b0e'] = 'Përditsimi i suksesshëm';
-$_MODULE['<{autoupgrade}prestashop>adminselftab_23b865d0b880b74fa330741e1cb25b73'] = 'Kontrollimi i versionit të ri ka përfunduar me sukses';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_def73ea130852d9e7813ee61eefa24e7'] = 'Parametrat u përdotësuan me sukses';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_ee05efe0548fdafc9e85cb4c34fbe845'] = 'Imazhi u fshi me sukses';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_7cfc3f369b8123e1c2d22a37b31a49a7'] = 'Moduli u shkarkua me suskes';
@@ -274,8 +273,8 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e930e2474c664a3a7e89ecfb8793
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_774fc7a0f56391abc5d8856f2436ca07'] = 'Integriteti i të dhënave nuk është provuar. Tentativë hakimi?';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8fd007bf08e0717537825a3e91cb4fcc'] = 'Leximi i përmbajtjes së një skedari MySQL është i pamundur.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_989a45a4ca01ee222f4370172bf8850d'] = 'Emri i dyqanit i pavlefshëm';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_68499acecfba9d3bf0ca8711f300d3ed'] = 'Emri juaj përmban karaktere të pavlefshme';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2399cf4ca7b49f2706f6e147a32efa78'] = 'Mbiemri juaj përmban karaktere të pavlefshme';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_68499acecfba9d3bf0ca8711f300d3ed'] = 'Emri yt përmban karaktere të pavlefshme';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2399cf4ca7b49f2706f6e147a32efa78'] = 'Mbiemri yt përmban karaktere të pavlefshme';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_801ab24683a4a8c433c6eb40c48bcd9d'] = 'Shkarkime';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3b3d06023f6353f8fd05f859b298573e'] = 'URL-ja:';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_95095fc4bbc8b42ec512cfb1cfa19d8a'] = 'Ju jeni duke përdorur versionin PHP %s. Së shpejti, versioni i fundit i mbështetur nga PHP Prestashop do të jetë në PHP 5.4. Për të qenë të sigurt që ju jeni gati për të ardhmen, ne ju rekomandojmë që ta përmirësoni tani në versionin PHP 5.4!';

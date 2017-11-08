@@ -478,6 +478,7 @@ $_LANGADM['AdminOrders1c481aa99d081c32182011a758f73d33'] = '%s';
 $_LANGADM['AdminOrders3a2d5fe857d8f9541136a124c2edec6c'] = '또는';
 $_LANGADM['AdminOrders068f80c7519d0528fb08e82137a72131'] = '상품';
 $_LANGADM['AdminOrdersb15e1100a6196acba01ef7aaa5b2a9e5'] = '새 주소 추가';
+$_LANGADM['AdminOrders19dfe063714422004b75043eaf74c9b8'] = '배송 옵션';
 $_LANGADM['AdminOrders290612199861c31d1036b185b4e69b75'] = '요약';
 $_LANGADM['AdminOrdersdb205f01b4fd580fb5daa9072d96849d'] = '총 상품';
 $_LANGADM['AdminOrders729a51874fe901b092899e9e8b31c97a'] = '확실합니까?';

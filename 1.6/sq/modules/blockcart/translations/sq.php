@@ -31,7 +31,6 @@ $_MODULE['<{blockcart}prestashop>blockcart_0da4d96cad73748e2f608d31cfb3247c'] = 
 $_MODULE['<{blockcart}prestashop>blockcart_4b7d496eedb665d0b5f589f2f874e7cb'] = 'Detajet';
 $_MODULE['<{blockcart}prestashop>blockcart_3d9e3bae9905a12dae384918ed117a26'] = 'Përshtatja #%d:';
 $_MODULE['<{blockcart}prestashop>blockcart_09dc02ecbb078868a3a86dded030076d'] = 'Aktualisht nuk ka asnjë libër';
-$_MODULE['<{blockcart}prestashop>blockcart_ea9cf7e47ff33b2be14e6dd07cbcefc6'] = 'Posta';
 $_MODULE['<{blockcart}prestashop>blockcart_ba794350deb07c0c96fe73bd12239059'] = 'Paketimi';
 $_MODULE['<{blockcart}prestashop>blockcart_4b78ac8eb158840e9638a3aeb26c4a9d'] = 'TVSH';
 $_MODULE['<{blockcart}prestashop>blockcart_96b0141273eabab320119c467cdcaf17'] = 'Gjithsej';

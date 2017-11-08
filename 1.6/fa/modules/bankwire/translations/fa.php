@@ -47,7 +47,7 @@ $_MODULE['<{bankwire}prestashop>payment_return_d717aa33e18263b8405ba00e94353cdc'
 $_MODULE['<{bankwire}prestashop>payment_return_984482eb9ff11e6310fef641d2268a2a'] = 'به این بانک';
 $_MODULE['<{bankwire}prestashop>payment_return_bb4ec5aac6864a05fcc220cccd8e82f9'] = 'فراموش نکنید که شماره سفارش %d# خود را در عنوان فیش بانکی درج کنید.';
 $_MODULE['<{bankwire}prestashop>payment_return_1faa25b80a8d31e5ef25a78d3336606d'] = 'فراموش نكنيد مرجع سفارش %s خود را بر روي موضوع مخابره بانكي خود درج نماييد';
-$_MODULE['<{bankwire}prestashop>payment_return_19c419a8a4f1cd621853376a930a2e24'] = 'سفارش شما به محض دریافت اطلاعات پرداخت، تکمیل خواهد شد.';
+$_MODULE['<{bankwire}prestashop>payment_return_19c419a8a4f1cd621853376a930a2e24'] = 'یک ایمیل با این اطلاعات برای شما ارسال شده است.';
 $_MODULE['<{bankwire}prestashop>payment_return_b9a1cae09e5754424e33764777cfcaa0'] = 'سفارش شما به محض دریافت اطلاعات پرداخت، تکمیل خواهد شد.';
 $_MODULE['<{bankwire}prestashop>payment_return_ca7e41a658753c87973936d7ce2429a8'] = 'جهت طرح هرگونه سؤال یا اطلاعات بیشتر، لطفاً تماس بگیرید با';
 $_MODULE['<{bankwire}prestashop>payment_return_66fcf4c223bbf4c7c886d4784e1f62e4'] = 'کارشناس گروه پشتیبانی از مشتریان';

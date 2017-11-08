@@ -62,7 +62,6 @@ $_LANGPDF['PDFc462960a6bd53db34f778d0562703ad3'] = 'Nr. TVSH';
 $_LANGPDF['PDF8a2d7d9c237b2af40f2659aa76f0bd84'] = 'Përjashtuar nga TVSH sipas nenit 259B të Kodit të Përgjithshëm të Tatimeve.';
 $_LANGPDF['PDF023f66b09075fa1cc29e74bed9f5ac40'] = 'Detaje mbi taksën';
 $_LANGPDF['PDF068f80c7519d0528fb08e82137a72131'] = 'Produkte';
-$_LANGPDF['PDFea9cf7e47ff33b2be14e6dd07cbcefc6'] = 'Posta';
 $_LANGPDF['PDFe92cfa244b5eb9025d07522080468445'] = 'Ekotaksa';
 $_LANGPDF['PDFba794350deb07c0c96fe73bd12239059'] = 'Paketimi';
 $_LANGPDF['PDFbaf5d10866a7a240830dcf34f29d2d11'] = 'Pa taksa';
