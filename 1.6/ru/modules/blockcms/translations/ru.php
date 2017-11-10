@@ -57,7 +57,7 @@ $_MODULE['<{blockcms}prestashop>blockcms_34c869c542dee932ef8cd96d2f91cae6'] = '�
 $_MODULE['<{blockcms}prestashop>blockcms_d1aa22a3126f04664e0fe3f598994014'] = 'Скидки';
 $_MODULE['<{blockcms}prestashop>blockcms_9ff0635f5737513b1a6f559ac2bff745'] = 'Новые товары';
 $_MODULE['<{blockcms}prestashop>blockcms_01f7ac959c1e6ebbb2e0ee706a7a5255'] = 'Лидеры продаж';
-$_MODULE['<{blockcms}prestashop>blockcms_02d4482d332e1aef3437cd61c9bcc624'] = 'Свяжитесь с нами';
+$_MODULE['<{blockcms}prestashop>blockcms_02d4482d332e1aef3437cd61c9bcc624'] = 'Связаться с нами';
 $_MODULE['<{blockcms}prestashop>blockcms_5813ce0ec7196c492c97596718f71969'] = 'Карта сайта';
 $_MODULE['<{blockcms}prestashop>blockcms_650f3a4b9d4a9f149c69327fb8239121'] = '[1]Сделано в %s[/1]';
 $_MODULE['<{blockcms}prestashop>form_4dabfa54822012dfc78d6ef40f224173'] = 'Блоки слева';
@@ -70,7 +70,7 @@ $_MODULE['<{blockcms}prestashop>form_7dce122004969d56ae2e0245cb754d35'] = 'Пр�
 $_MODULE['<{blockcms}prestashop>form_f2a6c498fb90ee345d997f888fce3b18'] = 'Удалить';
 $_MODULE['<{blockcms}prestashop>form_49ee3087348e8d44e1feda1917443987'] = 'Имя';
 $_MODULE['<{blockcms}prestashop>form_f7c68d40f8727c658e821c6e6d56af07'] = 'Страницы не созданы';
-$_MODULE['<{blockcms}prestashop>blockcms_3cb29f0ccc5fd220a97df89dafe46290'] = 'Популярные товары';
+$_MODULE['<{blockcms}prestashop>blockcms_3cb29f0ccc5fd220a97df89dafe46290'] = 'Лидеры продаж';
 $_MODULE['<{blockcms}prestashop>blockcms_8be39233fce812574e94aa277f5a2e32'] = '[1] %3$s %2$s - Интернет магазин разработан %1$s [/1]';
 
 

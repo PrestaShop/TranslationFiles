@@ -54,7 +54,6 @@ $_MODULE['<{productcomments}prestashop>productcomments_0f46dacf1a6ecab8ce1cb9725
 $_MODULE['<{productcomments}prestashop>productcomments_f3d8e91894baa7ee67e0649abcc092ff'] = 'Il criterio sarà ristretto alle categorie seguenti';
 $_MODULE['<{productcomments}prestashop>productcomments_d3dc571a8be516766c8124a636290fd9'] = 'Spunta le caselle delle categorie a cui vuoi applicare questo criterio.';
 $_MODULE['<{productcomments}prestashop>productcomments_91b442d385b54e1418d81adc34871053'] = 'Selezionati';
-$_MODULE['<{productcomments}prestashop>productcomments_b56c3bda503a8dc4be356edb0cc31793'] = 'Riduci tutto';
 $_MODULE['<{productcomments}prestashop>productcomments_5ffd7a335dd836b3373f5ec570a58bdc'] = 'Espandi tutto';
 $_MODULE['<{productcomments}prestashop>productcomments_5e9df908eafa83cb51c0a3720e8348c7'] = 'Seleziona tutti';
 $_MODULE['<{productcomments}prestashop>productcomments_9747d23c8cc358c5ef78c51e59cd6817'] = 'Deseleziona tutti';

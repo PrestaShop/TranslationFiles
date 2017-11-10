@@ -20,8 +20,6 @@ $_MODULE['<{autoupgrade}prestashop>adminpreferences_46f18d3960afc01e5a1a5a0e0e9d
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_686a2ac82a5a64eca870ba9a55b8a675'] = '새로운 모듈과 업데이트는 모듈 페이지에 표시됩니다';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_d5bc5fd307b108537039b6b6f98889d5'] = '표준 시간대:';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_0db377921f4ce762c62526131097968f'] = '일반';
-$_MODULE['<{autoupgrade}prestashop>adminpreferences_93cba07454f06a4a960172bbd6e2a435'] = '예';
-$_MODULE['<{autoupgrade}prestashop>adminpreferences_bafd7322c6e97d25b6299b5d6fe8920b'] = '아니오';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_2b5bde814a5f94ea73f447cdbcfb49fd'] = '테마 설치기';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_21034ae6d01a83e702839a72ba8a77b0'] = '(세금 별도)';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_c770d8e0d1d1943ce239c64dbd6acc20'] = '내 IP 추가';
@@ -31,8 +29,6 @@ $_MODULE['<{autoupgrade}prestashop>adminselftab_87a2663d841b78f01c27c0edb4f50b76
 $_MODULE['<{autoupgrade}prestashop>adminselftab_151648106e4bf98297882ea2ea1c4b0e'] = '수정 성공';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_def73ea130852d9e7813ee61eefa24e7'] = '설정이 수정되었습니다';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_ee05efe0548fdafc9e85cb4c34fbe845'] = '이미지가 삭제됨';
-$_MODULE['<{autoupgrade}prestashop>adminselftab_93cba07454f06a4a960172bbd6e2a435'] = '예';
-$_MODULE['<{autoupgrade}prestashop>adminselftab_bafd7322c6e97d25b6299b5d6fe8920b'] = '아니오';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_2b5bde814a5f94ea73f447cdbcfb49fd'] = '테마 설치기';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_21034ae6d01a83e702839a72ba8a77b0'] = '(세금 별도)';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_c770d8e0d1d1943ce239c64dbd6acc20'] = '내 IP 추가';

@@ -97,12 +97,12 @@ $_MODULE['<{autoupgrade}prestashop>adminselftab_93cba07454f06a4a960172bbd6e2a435
 $_MODULE['<{autoupgrade}prestashop>adminselftab_bafd7322c6e97d25b6299b5d6fe8920b'] = 'Нет';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_c6e98a4b0af7d0f66842f744d999e436'] = 'Чтобы использовать новый шаблон, пожалуйста следуйте этим шагам:';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_432eb00cc8aace97c632fea212575b51'] = 'Загрузите шаблон с помощью этого модуля:';
-$_MODULE['<{autoupgrade}prestashop>adminselftab_2b5bde814a5f94ea73f447cdbcfb49fd'] = 'Установщик тем';
-$_MODULE['<{autoupgrade}prestashop>adminselftab_64915993f11c4fbd47d8a6465f44125c'] = 'Когда ваш шаблон будет импортирован, пожалуйста выберите его на этой странице.';
+$_MODULE['<{autoupgrade}prestashop>adminselftab_2b5bde814a5f94ea73f447cdbcfb49fd'] = 'Установщик шаблонов';
+$_MODULE['<{autoupgrade}prestashop>adminselftab_64915993f11c4fbd47d8a6465f44125c'] = 'После импорта шаблона выберите его на этой странице';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_21034ae6d01a83e702839a72ba8a77b0'] = '(без НДС)';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_c770d8e0d1d1943ce239c64dbd6acc20'] = 'Добавить мой IP';
-$_MODULE['<{autoupgrade}prestashop>adminselftab_6a7a397c4d4b5842440eb4eab1f7af8c'] = 'Чтобы изменить шаблон, файл settings.inc.php должен быть записываемым (CHMOD 755 / 777)';
-$_MODULE['<{autoupgrade}prestashop>adminselftab_38fb7d24e0d60a048f540ecb18e13376'] = 'Сохранить';
+$_MODULE['<{autoupgrade}prestashop>adminselftab_6a7a397c4d4b5842440eb4eab1f7af8c'] = 'для изменения шаблона файл settings.inc.php должен иметь разрешения на запись (CHMOD 755 / 777)';
+$_MODULE['<{autoupgrade}prestashop>adminselftab_38fb7d24e0d60a048f540ecb18e13376'] = '   Сохранить   ';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_19f823c6453c2b1ffd09cb715214813d'] = 'Обязательное поле';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_0557fa923dcee4d0f86b1409f5c2167f'] = 'Назад';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_630f6dc397fe74e52d5189e2c80f282b'] = 'Вернуться к списку';
@@ -176,7 +176,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d2b9f1e39aa8e96bb61f3a4bfe13
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_75802ba44ba3369defd92ef897bf2f21'] = 'Удалите %s на FTP';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_93cba07454f06a4a960172bbd6e2a435'] = 'Да';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_bafd7322c6e97d25b6299b5d6fe8920b'] = 'Нет';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_38fb7d24e0d60a048f540ecb18e13376'] = 'Сохранить';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_38fb7d24e0d60a048f540ecb18e13376'] = '   Сохранить   ';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_19f823c6453c2b1ffd09cb715214813d'] = 'Обязательное поле';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f2ff9d001d0a553c78da73443e7fcd97'] = 'Конфигурация обновлена.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_40b980e89ae332507380470cd26cdf4d'] = 'Сейчас страница перезагрузится и модуль проверит наличие новой версии.';
@@ -375,7 +375,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2384d693d9af53b4727c092af757
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f5985b2c059d5cc36968baab7585baba'] = 'Ошибка записи на диск';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9e54dfe54e03b0010c1fe70bd65cd5e6'] = 'Загрузка файла остановлена расширением';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_32af3a59b50e98d254d6c03c5b320a94'] = 'Не возможно сконвертировать вашу базу данных в кодировку utf-8.';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_989a45a4ca01ee222f4370172bf8850d'] = 'Неправильное название магазина';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_989a45a4ca01ee222f4370172bf8850d'] = 'Недопустимое название магазина';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_68499acecfba9d3bf0ca8711f300d3ed'] = 'В вашем имени указаны недопустимые символы';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2399cf4ca7b49f2706f6e147a32efa78'] = 'В вашей фамилии указаны недопустимые символы';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7d72600fcff52fb3a2d2f73572117311'] = 'Ваш сервер баз данных не поддерживает кодировку utf-8.';
@@ -490,7 +490,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_68e5fa63e9c51108b49d3d643ec3
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a1f24b1cec5482ed0d97bce1ba0570a4'] = 'Обязательно убедитесь в целостности вашей резервной копии и в том, что вы сможете ее восстановить в ручном режиме при необходимости.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0a8276f35797dc24e6ccb5b5ff5cf102'] = 'Если вы не знаете что делать дальше, спросите своего хостинг провайдера.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b4394573ea968922ac1d7323cb8f99ed'] = 'Пожалуйста, проверьте контрольный список перед обновлением.';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_10ac3d04253ef7e1ddc73e6091c0cd55'] = 'Вперед';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_10ac3d04253ef7e1ddc73e6091c0cd55'] = 'Далее';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_564b7c9d8683f1a94798e9f7449564e4'] = 'Опции обновления';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_017697f698d570dffed5f88a5a933d01'] = 'Опции резервного копирования';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d1cf02f3b502ad45947b846659c7774e'] = 'Обновление до Prestashop %s';
