@@ -6,7 +6,7 @@
         <source>A partial refund was successfully created.</source>
         <target xml:lang="zh-CN">部分退款已成功创建。</target>
         <note>Context:
-File: classes/controller/AdminController.php:483</note>
+File: classes/controller/AdminController.php:485</note>
       </trans-unit>
     </body>
   </file>
@@ -72,13 +72,181 @@ File: controllers/admin/AdminCustomersController.php:959</note>
       </trans-unit>
     </body>
   </file>
-  <file original="controllers/admin/AdminEmployeesController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+  <file original="controllers/admin/AdminReturnController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      <trans-unit id="9e2dcf2660b82a0204f668565417010a" approved="yes">
-        <source>An account already exists for this email address:</source>
-        <target xml:lang="zh-CN">该邮箱地址已存在一个账号：</target>
+      <trans-unit id="d4430672c8b3c123ae5f4c2f4b5b458d" approved="yes">
+        <source>You need at least one product.</source>
+        <target xml:lang="zh-CN">您需要至少一个商品。</target>
         <note>Context:
-File: controllers/admin/AdminEmployeesController.php:433</note>
+File: controllers/admin/AdminReturnController.php:227</note>
+      </trans-unit>
+      <trans-unit id="e7a58e52e848f513c3e9185d34d61a50" approved="yes">
+        <source>The order return is invalid.</source>
+        <target xml:lang="zh-CN">订单回执无效。</target>
+        <note>Context:
+File: controllers/admin/AdminReturnController.php:230</note>
+      </trans-unit>
+      <trans-unit id="16f2adf6c4fd1317acba5871267a60f2" approved="yes">
+        <source>No order return ID has been specified.</source>
+        <target xml:lang="zh-CN">没有订单回执的ID。</target>
+        <note>Context:
+File: controllers/admin/AdminReturnController.php:281</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminOrdersController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+    <body>
+      <trans-unit id="aea807cc550550acd7b8d9a7bc469f6a" approved="yes">
+        <source>You have to select a shop before creating new orders.</source>
+        <target xml:lang="zh-CN">您在创建新订单之前必须选择一个店铺。</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:219</note>
+      </trans-unit>
+      <trans-unit id="accfc34fe6c65228a926b524870161ab" approved="yes">
+        <source>This cart does not exists</source>
+        <target xml:lang="zh-CN">该购物车不存在</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:225</note>
+      </trans-unit>
+      <trans-unit id="3d4d2d9627d3f1b1c0d22b9e85c687d1" approved="yes">
+        <source>The cart must have a customer</source>
+        <target xml:lang="zh-CN">该购物车必须有个客户</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:228</note>
+      </trans-unit>
+      <trans-unit id="c2572d1fee836c06c88e0bdc9fa7ffa1" approved="yes">
+        <source>The new order status is invalid.</source>
+        <target xml:lang="zh-CN">无效的新订单状态</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:522</note>
+      </trans-unit>
+      <trans-unit id="4f51deabdeba4ee61b998d3b0cf188b4" approved="yes">
+        <source>An error occurred while changing order status, or we were unable to send an email to the customer.</source>
+        <target xml:lang="zh-CN">改变状态的时候发生了错误或无法发送邮件给客户。</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:556</note>
+      </trans-unit>
+      <trans-unit id="3dc245110e1f3601860c20299d97c01d" approved="yes">
+        <source>The message cannot be blank.</source>
+        <target xml:lang="zh-CN">信息不能为空白</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:571</note>
+      </trans-unit>
+      <trans-unit id="204c3558e41366f3d558ce8e01426a22" approved="yes">
+        <source>field %s is required.</source>
+        <target xml:lang="zh-CN">字段 ％s 需要被填写。</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:578</note>
+      </trans-unit>
+      <trans-unit id="b1db8cec4ec0de83c3934a22bc758a3b" approved="yes">
+        <source>You cannot generate a voucher.</source>
+        <target xml:lang="zh-CN">无法生成收据</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:1109</note>
+      </trans-unit>
+      <trans-unit id="8001500c3284edd9c4dd07ae508e5a95" approved="yes">
+        <source>No quantity has been selected for this product.</source>
+        <target xml:lang="zh-CN">选择的商品无数量</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:949</note>
+      </trans-unit>
+      <trans-unit id="38eaecfc1ef14b98b5d6e4eb77494369" approved="yes">
+        <source>An invalid quantity was selected for this product.</source>
+        <target xml:lang="zh-CN">无效的商品选择数量</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:953</note>
+      </trans-unit>
+      <trans-unit id="bf772d53e730d2e0169ed2f746044606" approved="yes">
+        <source>An error occurred while attempting to delete the product.</source>
+        <target xml:lang="zh-CN">在删除产品的时候发生了错误。</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:970</note>
+      </trans-unit>
+      <trans-unit id="77d97f5686dfef72ee577e779d5bb74f" approved="yes">
+        <source>An error occurred while attempting to delete product customization.</source>
+        <target xml:lang="zh-CN">在删除产品模式之前发生了错误。</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:992</note>
+      </trans-unit>
+      <trans-unit id="b81f0a0540938a2e7daa684f02866696" approved="yes">
+        <source>No product or quantity has been selected.</source>
+        <target xml:lang="zh-CN">没有商品或者数量选中</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:1139</note>
+      </trans-unit>
+      <trans-unit id="aeddc664f1e95691c69ea44a5c1c18f5">
+        <source>This product is out of stock: </source>
+        <target xml:lang="zh-CN" state="needs-translation"> </target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:1782</note>
+      </trans-unit>
+      <trans-unit id="4174f012bc63b679f092acd1a933bf5c" approved="yes">
+        <source>The email was sent to your customer.</source>
+        <target xml:lang="zh-CN">邮件已发送给客户</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:2026</note>
+      </trans-unit>
+      <trans-unit id="773b660773e6106c248814fa87b480f7" approved="yes">
+        <source>Error in sending the email to your customer.</source>
+        <target xml:lang="zh-CN">发送邮件给客户时出错误。</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:2030</note>
+      </trans-unit>
+      <trans-unit id="de10fc28511b894f704c1a67fcff7b4f" approved="yes">
+        <source>You already have the maximum quantity available for this product.</source>
+        <target xml:lang="zh-CN">您已经购买了该商品最大的可买数量。</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:2140</note>
+      </trans-unit>
+      <trans-unit id="6a94d8492279c2bfd3e81f3158658980" approved="yes">
+        <source>[Generated] CartRule for Free Shipping</source>
+        <target xml:lang="zh-CN">[已产生] 免运费购物车规则</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:2155</note>
+      </trans-unit>
+      <trans-unit id="01816dd287bcb3b88ad3f63970ce045f" approved="yes">
+        <source>Invalid quantity</source>
+        <target xml:lang="zh-CN">无效的数量</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:2756</note>
+      </trans-unit>
+      <trans-unit id="671cd4e79283dd9931f0452000bf2744" approved="yes">
+        <source>This product cannot be re-stocked.</source>
+        <target xml:lang="zh-CN">此产品不能返回仓库</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:2926</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminPdfController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+    <body>
+      <trans-unit id="1244f34e7f971d0b80cd2fd7cbbfb22c" approved="yes">
+        <source>The order cannot be found within your database.</source>
+        <target xml:lang="zh-CN">无法找到数据库中的订单</target>
+        <note>Context:
+File: controllers/admin/AdminPdfController.php:188</note>
+      </trans-unit>
+      <trans-unit id="48607ff5af8c52b5efbc057b852a37ee" approved="yes">
+        <source>No invoice was found.</source>
+        <target xml:lang="zh-CN">未找到发票</target>
+        <note>Context:
+File: controllers/admin/AdminPdfController.php:141</note>
+      </trans-unit>
+      <trans-unit id="57bf4b0dd7dd3e5af10533785a343f88" approved="yes">
+        <source>No order slips were found.</source>
+        <target xml:lang="zh-CN">没有找到订单条</target>
+        <note>Context:
+File: controllers/admin/AdminPdfController.php:125</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminDeliverySlipController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+    <body>
+      <trans-unit id="3ffd1b6c5e4ab9c98104475480477307" approved="yes">
+        <source>No delivery slip was found for this period.</source>
+        <target xml:lang="zh-CN">此期间没有送货单</target>
+        <note>Context:
+File: controllers/admin/AdminDeliverySlipController.php:116</note>
       </trans-unit>
     </body>
   </file>
@@ -128,30 +296,20 @@ File: controllers/admin/AdminAddressesController.php:416</note>
       </trans-unit>
     </body>
   </file>
+  <file original="controllers/admin/AdminEmployeesController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+    <body>
+      <trans-unit id="9e2dcf2660b82a0204f668565417010a" approved="yes">
+        <source>An account already exists for this email address:</source>
+        <target xml:lang="zh-CN">该邮箱地址已存在一个账号：</target>
+        <note>Context:
+File: controllers/admin/AdminEmployeesController.php:433</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="controllers/admin/AdminStatusesController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
       
       
-    </body>
-  </file>
-  <file original="controllers/admin/AdminDeliverySlipController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      <trans-unit id="3ffd1b6c5e4ab9c98104475480477307" approved="yes">
-        <source>No delivery slip was found for this period.</source>
-        <target xml:lang="zh-CN">此期间没有送货单</target>
-        <note>Context:
-File: controllers/admin/AdminDeliverySlipController.php:116</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="controllers/admin/AdminCustomerThreadsController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      <trans-unit id="b3d571edf77b87b3be5cb3db48d88aa6" approved="yes">
-        <source>An error occurred. Your message was not sent. Please contact your system administrator.</source>
-        <target xml:lang="zh-CN">错误发生了，您的信息没有被发送。</target>
-        <note>Context:
-File: controllers/admin/AdminCustomerThreadsController.php:482</note>
-      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminSearchController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -176,171 +334,13 @@ File: controllers/admin/AdminSearchController.php:142</note>
       </trans-unit>
     </body>
   </file>
-  <file original="controllers/admin/AdminOrdersController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+  <file original="controllers/admin/AdminCustomerThreadsController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      <trans-unit id="aea807cc550550acd7b8d9a7bc469f6a" approved="yes">
-        <source>You have to select a shop before creating new orders.</source>
-        <target xml:lang="zh-CN">您在创建新订单之前必须选择一个店铺。</target>
+      <trans-unit id="b3d571edf77b87b3be5cb3db48d88aa6" approved="yes">
+        <source>An error occurred. Your message was not sent. Please contact your system administrator.</source>
+        <target xml:lang="zh-CN">错误发生了，您的信息没有被发送。</target>
         <note>Context:
-File: controllers/admin/AdminOrdersController.php:230</note>
-      </trans-unit>
-      <trans-unit id="accfc34fe6c65228a926b524870161ab" approved="yes">
-        <source>This cart does not exists</source>
-        <target xml:lang="zh-CN">该购物车不存在</target>
-        <note>Context:
-File: controllers/admin/AdminOrdersController.php:236</note>
-      </trans-unit>
-      <trans-unit id="3d4d2d9627d3f1b1c0d22b9e85c687d1" approved="yes">
-        <source>The cart must have a customer</source>
-        <target xml:lang="zh-CN">该购物车必须有个客户</target>
-        <note>Context:
-File: controllers/admin/AdminOrdersController.php:239</note>
-      </trans-unit>
-      <trans-unit id="c2572d1fee836c06c88e0bdc9fa7ffa1" approved="yes">
-        <source>The new order status is invalid.</source>
-        <target xml:lang="zh-CN">无效的新订单状态</target>
-        <note>Context:
-File: controllers/admin/AdminOrdersController.php:534</note>
-      </trans-unit>
-      <trans-unit id="4f51deabdeba4ee61b998d3b0cf188b4" approved="yes">
-        <source>An error occurred while changing order status, or we were unable to send an email to the customer.</source>
-        <target xml:lang="zh-CN">改变状态的时候发生了错误或无法发送邮件给客户。</target>
-        <note>Context:
-File: controllers/admin/AdminOrdersController.php:568</note>
-      </trans-unit>
-      <trans-unit id="3dc245110e1f3601860c20299d97c01d" approved="yes">
-        <source>The message cannot be blank.</source>
-        <target xml:lang="zh-CN">信息不能为空白</target>
-        <note>Context:
-File: controllers/admin/AdminOrdersController.php:585</note>
-      </trans-unit>
-      <trans-unit id="204c3558e41366f3d558ce8e01426a22" approved="yes">
-        <source>field %s is required.</source>
-        <target xml:lang="zh-CN">字段 ％s 需要被填写。</target>
-        <note>Context:
-File: controllers/admin/AdminOrdersController.php:592</note>
-      </trans-unit>
-      <trans-unit id="b1db8cec4ec0de83c3934a22bc758a3b" approved="yes">
-        <source>You cannot generate a voucher.</source>
-        <target xml:lang="zh-CN">无法生成收据</target>
-        <note>Context:
-File: controllers/admin/AdminOrdersController.php:1127</note>
-      </trans-unit>
-      <trans-unit id="8001500c3284edd9c4dd07ae508e5a95" approved="yes">
-        <source>No quantity has been selected for this product.</source>
-        <target xml:lang="zh-CN">选择的商品无数量</target>
-        <note>Context:
-File: controllers/admin/AdminOrdersController.php:967</note>
-      </trans-unit>
-      <trans-unit id="38eaecfc1ef14b98b5d6e4eb77494369" approved="yes">
-        <source>An invalid quantity was selected for this product.</source>
-        <target xml:lang="zh-CN">无效的商品选择数量</target>
-        <note>Context:
-File: controllers/admin/AdminOrdersController.php:971</note>
-      </trans-unit>
-      <trans-unit id="bf772d53e730d2e0169ed2f746044606" approved="yes">
-        <source>An error occurred while attempting to delete the product.</source>
-        <target xml:lang="zh-CN">在删除产品的时候发生了错误。</target>
-        <note>Context:
-File: controllers/admin/AdminOrdersController.php:988</note>
-      </trans-unit>
-      <trans-unit id="77d97f5686dfef72ee577e779d5bb74f" approved="yes">
-        <source>An error occurred while attempting to delete product customization.</source>
-        <target xml:lang="zh-CN">在删除产品模式之前发生了错误。</target>
-        <note>Context:
-File: controllers/admin/AdminOrdersController.php:1010</note>
-      </trans-unit>
-      <trans-unit id="b81f0a0540938a2e7daa684f02866696" approved="yes">
-        <source>No product or quantity has been selected.</source>
-        <target xml:lang="zh-CN">没有商品或者数量选中</target>
-        <note>Context:
-File: controllers/admin/AdminOrdersController.php:1157</note>
-      </trans-unit>
-      <trans-unit id="aeddc664f1e95691c69ea44a5c1c18f5">
-        <source>This product is out of stock: </source>
-        <target xml:lang="zh-CN" state="needs-translation"> </target>
-        <note>Context:
-File: controllers/admin/AdminOrdersController.php:1800</note>
-      </trans-unit>
-      <trans-unit id="4174f012bc63b679f092acd1a933bf5c" approved="yes">
-        <source>The email was sent to your customer.</source>
-        <target xml:lang="zh-CN">邮件已发送给客户</target>
-        <note>Context:
-File: controllers/admin/AdminOrdersController.php:2044</note>
-      </trans-unit>
-      <trans-unit id="773b660773e6106c248814fa87b480f7" approved="yes">
-        <source>Error in sending the email to your customer.</source>
-        <target xml:lang="zh-CN">发送邮件给客户时出错误。</target>
-        <note>Context:
-File: controllers/admin/AdminOrdersController.php:2048</note>
-      </trans-unit>
-      <trans-unit id="de10fc28511b894f704c1a67fcff7b4f" approved="yes">
-        <source>You already have the maximum quantity available for this product.</source>
-        <target xml:lang="zh-CN">您已经购买了该商品最大的可买数量。</target>
-        <note>Context:
-File: controllers/admin/AdminOrdersController.php:2158</note>
-      </trans-unit>
-      <trans-unit id="6a94d8492279c2bfd3e81f3158658980" approved="yes">
-        <source>[Generated] CartRule for Free Shipping</source>
-        <target xml:lang="zh-CN">[已产生] 免运费购物车规则</target>
-        <note>Context:
-File: controllers/admin/AdminOrdersController.php:2173</note>
-      </trans-unit>
-      <trans-unit id="01816dd287bcb3b88ad3f63970ce045f" approved="yes">
-        <source>Invalid quantity</source>
-        <target xml:lang="zh-CN">无效的数量</target>
-        <note>Context:
-File: controllers/admin/AdminOrdersController.php:2775</note>
-      </trans-unit>
-      <trans-unit id="671cd4e79283dd9931f0452000bf2744" approved="yes">
-        <source>This product cannot be re-stocked.</source>
-        <target xml:lang="zh-CN">此产品不能返回仓库</target>
-        <note>Context:
-File: controllers/admin/AdminOrdersController.php:2943</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="controllers/admin/AdminPdfController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      <trans-unit id="1244f34e7f971d0b80cd2fd7cbbfb22c" approved="yes">
-        <source>The order cannot be found within your database.</source>
-        <target xml:lang="zh-CN">无法找到数据库中的订单</target>
-        <note>Context:
-File: controllers/admin/AdminPdfController.php:188</note>
-      </trans-unit>
-      <trans-unit id="48607ff5af8c52b5efbc057b852a37ee" approved="yes">
-        <source>No invoice was found.</source>
-        <target xml:lang="zh-CN">未找到发票</target>
-        <note>Context:
-File: controllers/admin/AdminPdfController.php:141</note>
-      </trans-unit>
-      <trans-unit id="57bf4b0dd7dd3e5af10533785a343f88" approved="yes">
-        <source>No order slips were found.</source>
-        <target xml:lang="zh-CN">没有找到订单条</target>
-        <note>Context:
-File: controllers/admin/AdminPdfController.php:125</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="controllers/admin/AdminReturnController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      <trans-unit id="d4430672c8b3c123ae5f4c2f4b5b458d" approved="yes">
-        <source>You need at least one product.</source>
-        <target xml:lang="zh-CN">您需要至少一个商品。</target>
-        <note>Context:
-File: controllers/admin/AdminReturnController.php:227</note>
-      </trans-unit>
-      <trans-unit id="e7a58e52e848f513c3e9185d34d61a50" approved="yes">
-        <source>The order return is invalid.</source>
-        <target xml:lang="zh-CN">订单回执无效。</target>
-        <note>Context:
-File: controllers/admin/AdminReturnController.php:230</note>
-      </trans-unit>
-      <trans-unit id="16f2adf6c4fd1317acba5871267a60f2" approved="yes">
-        <source>No order return ID has been specified.</source>
-        <target xml:lang="zh-CN">没有订单回执的ID。</target>
-        <note>Context:
-File: controllers/admin/AdminReturnController.php:281</note>
+File: controllers/admin/AdminCustomerThreadsController.php:482</note>
       </trans-unit>
     </body>
   </file>
@@ -504,14 +504,14 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
       </trans-unit>
     </body>
   </file>
-  <file original="admin-dev/themes/default/template/controllers/orders/_shipping.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
+  <file original="admin-dev/themes/default/template/controllers/orders/_discount_form.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
-    </body>
-  </file>
-  <file original="admin-dev/themes/default/template/controllers/orders/_product_line.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      
+      <trans-unit id="4d734cc32a5cac86597621969696baa8" approved="yes">
+        <source>This value must include taxes.</source>
+        <target xml:lang="zh-CN">该值必须包含税。</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/_discount_form.tpl:62</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/form.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -554,17 +554,17 @@ File: admin-dev/themes/default/template/controllers/orders/form.tpl:1277</note>
       </trans-unit>
     </body>
   </file>
-  <file original="admin-dev/themes/default/template/controllers/orders/_discount_form.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
+  <file original="admin-dev/themes/default/template/controllers/orders/_documents.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      <trans-unit id="4d734cc32a5cac86597621969696baa8" approved="yes">
-        <source>This value must include taxes.</source>
-        <target xml:lang="zh-CN">该值必须包含税。</target>
-        <note>Context:
-File: admin-dev/themes/default/template/controllers/orders/_discount_form.tpl:62</note>
-      </trans-unit>
+      
     </body>
   </file>
-  <file original="admin-dev/themes/default/template/controllers/orders/_documents.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
+  <file original="admin-dev/themes/default/template/controllers/orders/_product_line.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
+  <file original="admin-dev/themes/default/template/controllers/orders/_shipping.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
       
     </body>
