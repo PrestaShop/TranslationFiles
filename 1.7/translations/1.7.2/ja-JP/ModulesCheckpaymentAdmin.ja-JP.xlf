@@ -4,7 +4,7 @@
     <body>
       <trans-unit id="7b4cc4f79be9aae43efd53b4ae5cba4d" approved="yes">
         <source>Payments by check</source>
-        <target xml:lang="ja">チェック</target>
+        <target xml:lang="ja">小切手での支払い</target>
         <note>Context:
 File: modules/ps_checkpayment/ps_checkpayment.php:64</note>
       </trans-unit>
@@ -22,7 +22,7 @@ File: modules/ps_checkpayment/ps_checkpayment.php:70</note>
       </trans-unit>
       <trans-unit id="a02758d758e8bec77a33d7f392eb3f8a" approved="yes">
         <source>No currency has been set for this module.</source>
-        <target xml:lang="ja">このモジュールの通貨の設定がありません</target>
+        <target xml:lang="ja">このモジュールに対する通貨の設定がありません。</target>
         <note>Context:
 File: modules/ps_checkpayment/ps_checkpayment.php:73</note>
       </trans-unit>
@@ -31,6 +31,18 @@ File: modules/ps_checkpayment/ps_checkpayment.php:73</note>
         <target xml:lang="ja">「受取人」フィールドは必須です。</target>
         <note>Context:
 File: modules/ps_checkpayment/ps_checkpayment.php:103</note>
+      </trans-unit>
+      <trans-unit id="00a369029140cfd18857425d49b472f8" approved="yes">
+        <source>The "Address" field is required.</source>
+        <target xml:lang="ja">「住所」フィールドは必須です。</target>
+        <note>Context:
+File: modules/ps_checkpayment/ps_checkpayment.php:105</note>
+      </trans-unit>
+      <trans-unit id="a60468657881aa431a0a5fccc76258e2" approved="yes">
+        <source>Pay by Check</source>
+        <target xml:lang="ja">小切手での支払い</target>
+        <note>Context:
+File: modules/ps_checkpayment/ps_checkpayment.php:160</note>
       </trans-unit>
       <trans-unit id="5dd532f0a63d89c5af0243b74732f63c" approved="yes">
         <source>Contact details</source>
@@ -50,6 +62,12 @@ File: modules/ps_checkpayment/ps_checkpayment.php:222</note>
         <note>Context:
 File: modules/ps_checkpayment/ps_checkpayment.php:228</note>
       </trans-unit>
+      <trans-unit id="0fe62049ad5246bc188ec1bae347269e" approved="yes">
+        <source>Address where the check should be sent to.</source>
+        <target xml:lang="ja">小切手の送付先住所。</target>
+        <note>Context:
+File: modules/ps_checkpayment/ps_checkpayment.php:229</note>
+      </trans-unit>
       <trans-unit id="bb56f3a51352fe2ddce129260770c440" approved="yes">
         <source>%amount% (tax incl.)</source>
         <target xml:lang="ja">%amount% （税込）</target>
@@ -62,7 +80,7 @@ File: modules/ps_checkpayment/ps_checkpayment.php:268</note>
     <body>
       <trans-unit id="14e41f4cfd99b10766cc15676d8cda66" approved="yes">
         <source>This module allows you to accept payments by check.</source>
-        <target xml:lang="ja">このモジュールでは、小切手により支払いを受け入れることができます。</target>
+        <target xml:lang="ja">このモジュールは、小切手での支払いを受け付けるためのものです。</target>
         <note>Context:
 File: modules/ps_checkpayment/views/templates/hook/infos.tpl:28</note>
       </trans-unit>
@@ -74,7 +92,7 @@ File: modules/ps_checkpayment/views/templates/hook/infos.tpl:29</note>
       </trans-unit>
       <trans-unit id="8c88bbf5712292b26e2a6bbeb0a7b5c4" approved="yes">
         <source>You will need to manually confirm the order as soon as you receive a check.</source>
-        <target xml:lang="ja">したがって、木々ってを受け取るように手動で注文を確認する必要があります。</target>
+        <target xml:lang="ja">小切手を受け取り次第、別途手動で注文確定処理を行なう必要があります。</target>
         <note>Context:
 File: modules/ps_checkpayment/views/templates/hook/infos.tpl:30</note>
       </trans-unit>

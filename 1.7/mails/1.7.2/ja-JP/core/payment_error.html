@@ -85,9 +85,9 @@
 				<td style="padding:7px 0">
 					<font size="2" face="Open-sans, sans-serif" color="#555454">
 						<p data-html-only="1" style="border-bottom:1px solid #D6D4D4;margin:3px 0 7px;text-transform:uppercase;font-weight:500;font-size:18px;padding-bottom:10px">
-							注文ID: {order_name}&nbsp;-&nbsp;支払い処理エラー						</p>
+							注文コード： {order_name}&nbsp;-&nbsp;支払い処理エラー						</p>
 						<span style="color:#777">
-							There is a problem with your payment for <strong><span style="color:#333">{shop_name}</span></strong> order with the reference <strong><span style="color:#333">{order_name}</span></strong>. Please contact us at your earliest convenience.<br/>
+							<strong><span style="color:#333">{shop_name}</span></strong> いただいた、注文ID：<strong><span style="color:#333">{order_name}</span></strong> へのお支払い手続きで問題が発生いたしました。出来だけ早い対応のため、ショップにご連絡いただけますようお願いいたいます。<br/>
 							<strong><span style="color:#333">お支払いを確認後、ご注文商品を出荷いたします。</span></strong>
 						</span>
 					</font>
@@ -104,7 +104,7 @@
 	<td class="linkbelow" style="padding:7px 0">
 		<font size="2" face="Open-sans, sans-serif" color="#555454">
 			<span>
-				<a href="{my_account_url}" style="color:#337ff1">"マイアカウント"</a>内、 <a href="{history_url}" style="color:#337ff1">"注文履歴"</a>から注文履歴や請求書の確認が出来ます。			</span>
+				当ショップの<a href="{my_account_url}" style="color:#337ff1">「マイアカウント」</a>をクリックして、お客様アカウントのページにある <a href="{history_url}" style="color:#337ff1">「注文履歴」</a>よりご注文内容の確認や請求書のダウンロードが可能です。			</span>
 		</font>
 	</td>
 </tr>
@@ -112,7 +112,7 @@
 	<td class="linkbelow" style="padding:7px 0">
 		<font size="2" face="Open-sans, sans-serif" color="#555454">
 			<span>
-				ゲストアカウントをお持ちの場合、ショップの <a href="{guest_tracking_url}?id_order={order_name}" style="color:#337ff1">"ゲストでのご注文"</a> コーナーよりご注文内容を確認いただけます。			</span>
+				ゲストアカウントでご注文いただいた場合は、<a href="{guest_tracking_url}?id_order={order_name}" style="color:#337ff1">「ゲストトラッキング」</a>セクションより、ご注文内容をご確認いただけます。			</span>
 		</font>
 	</td>
 </tr>
