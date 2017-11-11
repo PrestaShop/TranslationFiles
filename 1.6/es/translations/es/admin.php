@@ -3419,7 +3419,6 @@ $_LANGADM['AdminCartRulese2bcac3dc51781abbc2938e16a0b0e72'] = 'Selección de tie
 $_LANGADM['AdminCartRules5e3f76cc2d68012faa5ce54aadf6cf84'] = 'Tiendas no seleccionadas';
 $_LANGADM['AdminCartRulesa5a08c71d0992427cfd8815ebc8f6152'] = 'Tiendas seleccionadas';
 $_LANGADM['AdminCartRules48bc4d0ad8c02bb7d116b43d907570e2'] = 'Regla del carrito';
-$_LANGADM['AdminCartRulesa82be0f551b8708bc08eb33cd9ded0cf'] = 'Información';
 $_LANGADM['AdminCartRules229eb04083e06f419f9ac494329f957d'] = 'Condiciones';
 $_LANGADM['AdminCartRules06df33001c1d7187fdd81ea1f5b277aa'] = 'Acciones';
 $_LANGADM['AdminCartRulesc9cc8cce247e49bae79f15173ce97354'] = 'Guardar';

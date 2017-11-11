@@ -3159,6 +3159,7 @@ $_LANGADM['Helper387baf0199e7c9cc944fae94e96448fa'] = 'Varie';
 $_LANGADM['Helperc770d8e0d1d1943ce239c64dbd6acc20'] = 'Aggiungi il mio IP';
 $_LANGADM['Helper21034ae6d01a83e702839a72ba8a77b0'] = '(Tasse escluse)';
 $_LANGADM['Helper91b442d385b54e1418d81adc34871053'] = 'Selezionati';
+$_LANGADM['Helperb56c3bda503a8dc4be356edb0cc31793'] = 'Comprimi tutto';
 $_LANGADM['Helper5ffd7a335dd836b3373f5ec570a58bdc'] = 'Espandi tutto';
 $_LANGADM['Helper5e9df908eafa83cb51c0a3720e8348c7'] = 'Seleziona tutti';
 $_LANGADM['Helper9747d23c8cc358c5ef78c51e59cd6817'] = 'Deseleziona tutti';
