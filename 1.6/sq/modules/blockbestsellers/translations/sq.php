@@ -17,7 +17,6 @@ $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_c9cc8cce247e49bae79f151
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers-home_09a5fe24fe0fc9ce90efc4aa507c66e7'] = 'Aktualisht nuk ka artikuj më të shitur.';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_1d0a2e1f62ccf460d604ccbc9e09da95'] = 'Të shfaqen artikujt më të shitur?';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_3cb29f0ccc5fd220a97df89dafe46290'] = 'Më të shiturit';
-$_MODULE['<{blockbestsellers}prestashop>blockbestsellers_eae99cd6a931f3553123420b16383812'] = 'Gjithë më të shiturit';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_f7be84d6809317a6eb0ff3823a936800'] = 'Aktualisht nuk ka produkte më të shitura';
 $_MODULE['<{blockbestsellers}prestashop>tab_d7b2933ba512ada478c97fa43dd7ebe6'] = 'Produktet më të shitura';
 

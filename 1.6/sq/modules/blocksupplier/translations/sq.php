@@ -12,7 +12,6 @@ $_MODULE['<{blocksupplier}prestashop>blocksupplier_b9f5c797ebbf55adccdd8539a65a0
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_2eef734f174a02ae3d7aaafefeeedb42'] = 'Numri i elementeve për tu shfaqur';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_b0fa976774d2acf72f9c62e9ab73de38'] = 'Përdorni një listë rënëse (drop-down)';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_49fa2426b7903b3d4c89e2c1874d9346'] = 'Më gjerësisht mbi';
-$_MODULE['<{blocksupplier}prestashop>blocksupplier_ecf253735ac0cba84a9d2eeff1f1b87c'] = 'Të gjithë furnizuesit';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_496689fbd342f80d30f1f266d060415a'] = 'Nuk ka asnjë furnizues';
 
 
