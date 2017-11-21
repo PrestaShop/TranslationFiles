@@ -2,7 +2,12 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="classes/controller/FrontController.php" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
+      <trans-unit id="c402321a8e5818b776007e8a2d00474a" approved="yes">
+        <source>Current theme is unavailable. Please check your theme's directory name ("%s") and permissions.</source>
+        <target xml:lang="pt-PT">O tema gráfico atual não está disponível. Verifique o nome da pasta do tema gráfico ("%s") e as permissões.</target>
+        <note>Context:
+File: classes/controller/FrontController.php:322</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminThemesController.php" source-language="en" target-language="pt-PT" datatype="plaintext">
@@ -12,6 +17,12 @@
         <target xml:lang="pt-PT">O ficheiro enviado é muito grande.</target>
         <note>Context:
 File: controllers/admin/AdminThemesController.php:406</note>
+      </trans-unit>
+      <trans-unit id="9ccfef29efe298e9a48295a69436e11f" approved="yes">
+        <source><![CDATA[Your theme has been correctly reset to its default settings. You may want to regenerate your images. See the Improve > Design > Images Settings screen for the 'Regenerate thumbnails' button.]]></source>
+        <target xml:lang="pt-PT"><![CDATA[O seu tema foi reinicializado corretamente para as suas predefinições. Pode recriar as suas imagens. Ver o ecrã Melhorar > Design > Definições de imagens para o botão "Recriar ícones".]]></target>
+        <note>Context:
+File: controllers/admin/AdminThemesController.php:346</note>
       </trans-unit>
       <trans-unit id="1ecb89bb5b6dce906edaf8e12968c167" approved="yes">
         <source>Invalid file format.</source>
@@ -103,6 +114,12 @@ File: controllers/admin/AdminImagesController.php:539</note>
         <note>Context:
 File: controllers/admin/AdminImagesController.php:552</note>
       </trans-unit>
+      <trans-unit id="8b772dad7cc4ed15eaf0c433f861e55c" approved="yes">
+        <source>Cannot write images for this type: %1$s. Please check the %2$s folder's writing permissions.</source>
+        <target xml:lang="pt-PT">Não é possível escrever imagens deste tipo: %1$s. Verifique as permissões de escrita da pasta%2$s.</target>
+        <note>Context:
+File: controllers/admin/AdminImagesController.php:672</note>
+      </trans-unit>
       <trans-unit id="d4f225ec09e4b0eba6558753f4bd8edd" approved="yes">
         <source>Only part of the images have been regenerated. The server timed out before finishing.</source>
         <target xml:lang="pt-PT">Apenas parte das imagens foram recriadas. O tempo de ligação ao servidor expirou antes de acabar.</target>
@@ -114,6 +131,12 @@ File: controllers/admin/AdminImagesController.php:675</note>
         <target xml:lang="pt-PT">O tempo de ligação ao servidor expirou. A marca d'água pode não ter sido aplicada a todas as imagens.</target>
         <note>Context:
 File: controllers/admin/AdminImagesController.php:679</note>
+      </trans-unit>
+      <trans-unit id="606495559093a136ed6f2c9daee2645f" approved="yes">
+        <source>Cannot write "No picture" image to %s images folder. Please check the folder's writing permissions.</source>
+        <target xml:lang="pt-PT">Não é possível escrever a imagem "Sem imagem" na pasta de imagens (%s). Verifique as permissões de escrita na pasta.</target>
+        <note>Context:
+File: controllers/admin/AdminImagesController.php:684</note>
       </trans-unit>
       <trans-unit id="4004c7590c68a8cbbe499736c56bc33c" approved="yes">
         <source>Error: Your server configuration is not compatible with the new image system. No images were moved.</source>
@@ -169,12 +192,22 @@ File: src/Core/Addon/Theme/ThemeValidator.php:116</note>
   </file>
   <file original="src/Core/Addon/Theme/ThemeManager.php" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
+      <trans-unit id="412b4a82ba6153e19f17f490b5f1aa88" approved="yes">
+        <source>This theme is not valid for PrestaShop 1.7</source>
+        <target xml:lang="pt-PT">Este tema não é válido para o PrestaShop 1.7</target>
+        <note>Context:
+File: src/Core/Addon/Theme/ThemeManager.php:346</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Command/ExportThemeCommand.php" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
+      <trans-unit id="ebc7584c0a97bc4aa867c11fc4760b3f" approved="yes">
+        <source>Your theme has been correctly exported: %path%</source>
+        <target xml:lang="pt-PT">O seu tema foi exportado corretamente: %path%</target>
+        <note>Context:
+File: src/PrestaShopBundle/Command/ExportThemeCommand.php:59</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/modules_positions/list_modules.tpl" source-language="en" target-language="pt-PT" datatype="plaintext">
@@ -185,23 +218,16 @@ File: src/Core/Addon/Theme/ThemeValidator.php:116</note>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/modules_positions/list_modules.tpl:34</note>
       </trans-unit>
-      <trans-unit id="12bf9c0c5d7e214fc1a0ec4784ed751b" approved="yes">
-        <source>You have to select a shop to use Live Edit</source>
-        <target xml:lang="pt-PT">É necessário selecionar uma loja para utilizar a Edição em Tempo Real</target>
-        <note>Context:
-File: admin-dev/themes/default/template/controllers/modules_positions/list_modules.tpl:175</note>
-      </trans-unit>
-      <trans-unit id="db585f2b876aa7212aa4b1d3e70fae16" approved="yes">
-        <source>Click here to be redirected to the front office of your shop where you can move and delete modules directly.</source>
-        <target xml:lang="pt-PT">Clique aqui para ser redirecionado para a Área Pública da sua loja onde poderá mover e eliminar diretamente os módulos.</target>
-        <note>Context:
-File: admin-dev/themes/default/template/controllers/modules_positions/list_modules.tpl:177</note>
-      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/cms/helpers/form/form.tpl" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
+      <trans-unit id="feede4b4294c44c907966ddd76e23614" approved="yes">
+        <source>Your page will be saved as a draft</source>
+        <target xml:lang="pt-PT">A sua página será guardada como um rascunho</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/cms/helpers/form/form.tpl:55</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/images/content.tpl" source-language="en" target-language="pt-PT" datatype="plaintext">

@@ -162,6 +162,12 @@ File: controllers/admin/AdminOrdersController.php:225</note>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:228</note>
       </trans-unit>
+      <trans-unit id="a42a075994b3ee0f6fe5956110d85889" approved="yes">
+        <source>Order status #%id% cannot be loaded</source>
+        <target xml:lang="fa">وضعیت سفارش #%id% را نمی‎توان بارگذاری کرد</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:380</note>
+      </trans-unit>
       <trans-unit id="4fe1644600a7dad640143da346a9211b" approved="yes">
         <source>Order #%d cannot be loaded</source>
         <target xml:lang="fa">سفارش #%d را نمی‎توان بارگذاری کرد.</target>
@@ -173,6 +179,12 @@ File: controllers/admin/AdminOrdersController.php:385</note>
         <target xml:lang="fa">سفارش #%d در حال حاضر در این وضعیت قرار دارد.</target>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:389</note>
+      </trans-unit>
+      <trans-unit id="18893a82469e2cd9492fc8d46fa8ac01" approved="yes">
+        <source>An error occurred while changing the status for order #%d, or we were unable to send an email to the customer.</source>
+        <target xml:lang="fa">هنگام تغییر وضعیت برای سفارش #%d خطایی رخ داد، یا ما نتوانستیم ایمیلی به مشتری ارسال کنیم.</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:414</note>
       </trans-unit>
       <trans-unit id="45d4b3afac71a54470a6cbf828e8cb0d" approved="yes">
         <source>The order carrier ID is invalid.</source>
@@ -908,11 +920,17 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:403</note>
       </trans-unit>
-      <trans-unit id="7137dec9b59978006f8b0ec036099346">
+      <trans-unit id="7137dec9b59978006f8b0ec036099346" approved="yes">
         <source>This warning also concerns order </source>
-        <target xml:lang="fa" state="needs-translation"> </target>
+        <target xml:lang="fa">این هشدار مربوط به سفارش نیز هست </target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:408</note>
+      </trans-unit>
+      <trans-unit id="f38c718d5cc5ea7331d8acf533f9bf0d" approved="yes">
+        <source>This warning also concerns the next orders:</source>
+        <target xml:lang="fa">این هشدار مربوط به سفارشات بعدی نیز هست:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:410</note>
       </trans-unit>
       <trans-unit id="de78da3154b793d64d302db27e65baec" approved="yes">
         <source>No payment methods are available</source>
@@ -1074,9 +1092,9 @@ File: admin-dev/themes/default/template/controllers/customers/helpers/list/list_
   </file>
   <file original="admin-dev/themes/default/template/controllers/customers/helpers/view/view.tpl" source-language="en" target-language="fa" datatype="plaintext">
     <body>
-      <trans-unit id="c7b085efe30557dbc76c2ba487506049">
+      <trans-unit id="c7b085efe30557dbc76c2ba487506049" approved="yes">
         <source>A registered customer account using the defined email address already exists. </source>
-        <target xml:lang="fa" state="needs-translation"> </target>
+        <target xml:lang="fa">یک مشتری با ایمیل مشخص شده، قبلا ثبت نام کرده است. </target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/customers/helpers/view/view.tpl:176</note>
       </trans-unit>
@@ -1090,7 +1108,12 @@ File: admin-dev/themes/default/template/controllers/customers/helpers/view/view.
   </file>
   <file original="admin-dev/themes/default/template/controllers/carts/helpers/view/view.tpl" source-language="en" target-language="fa" datatype="plaintext">
     <body>
-      
+      <trans-unit id="764368526633c5baf14291ba7fbb9e05" approved="yes">
+        <source>For this particular customer group, prices are displayed as:</source>
+        <target xml:lang="fa">برای این گروه خاص مشتریان، قیمت‌ها نمایش داده شوند به صورت:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/carts/helpers/view/view.tpl:221</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
