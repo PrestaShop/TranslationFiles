@@ -4075,7 +4075,6 @@ $_LANGADM['AdminOrders257630448a4acd9cfc1ce6c7a5ce05f3'] = 'Voeg een nieuwe klan
 $_LANGADM['AdminOrdersfc26e55e0993a75e892175deb02aae15'] = 'Winkelwagens';
 $_LANGADM['AdminOrders068f80c7519d0528fb08e82137a72131'] = 'Producten';
 $_LANGADM['AdminOrdersea067eb37801c5aab1a1c685eb97d601'] = 'Totaal betaald';
-$_LANGADM['AdminOrdersa85eba4c6c699122b2bb1387ea4813ad'] = 'Winkelwagen';
 $_LANGADM['AdminOrdersc78ba40a94a132dc170cba2f8c66f310'] = 'Zoek naar een bestaand product door de eerste letters van zijn/haar naam in te geven.';
 $_LANGADM['AdminOrders7bb36e0f484d91aeba5d83fe2af63d28'] = 'Zoek een product';
 $_LANGADM['AdminOrders694e8d1f2ee056f98ee488bdc4982d73'] = 'Aantal';

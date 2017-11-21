@@ -181,8 +181,8 @@ $_LANGMAIL[', with an amount of'] = ', với tổng số là';
 $_LANGMAIL['Hi {name},'] = 'Gửi {name},';
 $_LANGMAIL['{customer} has sent you a link to a product that (s)he thinks may interest you.'] = '{customer} đã gửi cho bạn sản phẩm này, rất có thể bạn cũng quan tâm.';
 $_LANGMAIL['Click here to view this item:'] = 'Nhấn vào đây để xem chi tiết:';
-$_LANGMAIL['Order edited'] = '';
-$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = '';
+$_LANGMAIL['Order edited'] = 'Đã chỉnh sửa đơn hàng';
+$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = 'Đơn hàng của bạn tham chiếu <span><strong>{order_name}</strong></span> đã được chỉnh sửa.';
 
 
 return $_LANGMAIL;

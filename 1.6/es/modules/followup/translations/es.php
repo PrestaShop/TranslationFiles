@@ -13,6 +13,7 @@ $_MODULE['<{followup}prestashop>followup_a053fc9952a7dfc79282eba56ab8ad3a'] = 'G
 $_MODULE['<{followup}prestashop>followup_7fcd592dd47028c7c1f2d0ce9168a303'] = '¡Usted es uno de nuestros mejores clientes!';
 $_MODULE['<{followup}prestashop>followup_c2ab23672d4bb31c7664bf8e854a10f7'] = '¡Le echamos de menos!';
 $_MODULE['<{followup}prestashop>followup_fba6524bb4f34a4c7d8e84b082fc4ce1'] = 'Define la configuración y pega la siguiente URL en el gestor de tareas cron, o realice una llamada a ésta diariamente de forma manual:';
+$_MODULE['<{followup}prestashop>followup_a82be0f551b8708bc08eb33cd9ded0cf'] = 'Información';
 $_MODULE['<{followup}prestashop>followup_87b1e57b5e8cd700618b6ae4938a4023'] = '¡Cuatro tipos de alertas por correo electrónico están disponibles para mantenerte en contacto con tus clientes!';
 $_MODULE['<{followup}prestashop>followup_b547c073d144a57761d1d00d0b9d9f27'] = 'Carritos anulados';
 $_MODULE['<{followup}prestashop>followup_ea9dc62a0ddf4640f019f04a22ab9835'] = 'Para cada carrito abandonado (sin pedido), generar un descuento y enviarlo al cliente.';

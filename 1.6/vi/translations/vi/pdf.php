@@ -5,7 +5,7 @@ $_LANGPDF = array();
 
 $_LANGPDF['PDFab870751fa907b26253a0b6ffbf99d04'] = '%1$s%2$06d';
 $_LANGPDF['PDF065ab3a28ca4f16f55f103adc7d0226f'] = 'Giao hàng';
-$_LANGPDF['PDF466eadd40b3c10580e3ab4e8061161ce'] = 'invoice availability';
+$_LANGPDF['PDF466eadd40b3c10580e3ab4e8061161ce'] = 'Hóa đơn';
 $_LANGPDF['PDFcc894fffb019b528d12951b74d6d2b6e'] = 'Trả lại đơn hàng';
 $_LANGPDF['PDFcf3bae95c5f6023d5a10fe415b205a45'] = 'Phiếu tín dụng';
 $_LANGPDF['PDFf771e4a4df40bf061607fdb8e3f140dc'] = 'Form đơn hàng nhà cung cấp';
@@ -39,7 +39,7 @@ $_LANGPDF['PDFbe53a0541a6d36f6ecb879fa2c584b08'] = 'Hình ảnh';
 $_LANGPDF['PDF1a22913fb1b16ada25c2637af9d44013'] = 'Sản phẩm / Tham chiếu';
 $_LANGPDF['PDF197101c4a1b1fc503dcd6ebee127aa10'] = 'Đơn giá:';
 $_LANGPDF['PDF078ac079d154d21533c57bced9fcb10f'] = '(chưa bao gồm thuế)';
-$_LANGPDF['PDF104d9898c04874d0fbac36e125fa1369'] = 'giảm giá';
+$_LANGPDF['PDF104d9898c04874d0fbac36e125fa1369'] = 'Giảm giá';
 $_LANGPDF['PDF96b0141273eabab320119c467cdcaf17'] = 'Tổng cộng:';
 $_LANGPDF['PDF3dd42bfc8345e82c43b4a40a3426ec49'] = 'Hình tham chiếu';
 $_LANGPDF['PDF7926243ab60a08b15932021bf108c578'] = 'Tổng sản phẩm (Chưa có thuế)';
