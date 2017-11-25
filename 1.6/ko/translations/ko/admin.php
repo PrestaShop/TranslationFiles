@@ -496,6 +496,7 @@ $_LANGADM['AdminPerformanceb718adec73e04ce3ec720dd11a06a308'] = 'ID';
 $_LANGADM['AdminProductsc0bd7654d5b278e65f21cf4e9153fdb4'] = '제조사';
 $_LANGADM['AdminProducts21034ae6d01a83e702839a72ba8a77b0'] = '(세금 별도)';
 $_LANGADM['AdminProducts1f87346a16cf80c372065de3c54c86d9'] = '(세금 포함)';
+$_LANGADM['AdminProducts272ba7d164aa836995be6319a698be84'] = '캡션';
 $_LANGADM['AdminProducts06933067aafd48425d67bcb01bba5cb6'] = '수정';
 $_LANGADM['AdminProducts729a51874fe901b092899e9e8b31c97a'] = '확실합니까?';
 $_LANGADM['AdminProductsa1fa27779242b4902f7ae3bdd5c6d508'] = '유형';
