@@ -48,7 +48,6 @@ $_LANGADM['AdminAdminPreferences4ae386b852a3ee22324e8922e50c9aec'] = 'Kufiri mak
 $_LANGADM['AdminAdminPreferencescabcb35221054c8ad296eb4e406e2cd7'] = 'Përcakto kufirin e ngarkimit për një produkt të shkarkueshëm (në MB). Kjo vlerë duhet të jetë më e ulët ose e barabartë me kufirin maksimal të skedarit, të caktuar nga serveri i juaj (aktualisht: %s MB).';
 $_LANGADM['AdminAdminPreferencesb48de7251c23e4b0eb0975b1c7bf9bc5'] = 'Kufiri maksimal për një imazh produkti';
 $_LANGADM['AdminAdminPreferences694c63d4a2b60499f7ba524fb639811f'] = 'Përcakto kufirin e ngarkimit për një imazh  (në MB). Kjo vlerë duhet të jetë më e ulët ose e barabartë me kufirin maksimal të skedarit, të caktuar nga serveri i juaj (aktualisht: %s MB).';
-$_LANGADM['AdminAdminPreferencesa274f4d4670213a9045ce258c6c56b80'] = 'Lajmërime';
 $_LANGADM['AdminAdminPreferencesb32a8e98434105bcfe4f234aa4c7b28b'] = 'Njoftimet janë fluska të numëruara të shfaqura në krye të Back Office tuaj, djathas afër emrit të dyqanit tuaj. Ato shfaqin numrin e artikujve të rinj që nga klikimi i juaj i fundit mbi to.';
 $_LANGADM['AdminAdminPreferences1b1befcb86d487715da458117710dfeb'] = 'Shfaq njoftimet për urdhërblerjet e reja';
 $_LANGADM['AdminAdminPreferencese0853b619fbd24fdabc3ae78beb81193'] = 'Kjo do të shfaqë njoftimet kur plasohen urdhërblerje të reja në dyqanin tuaj.';
