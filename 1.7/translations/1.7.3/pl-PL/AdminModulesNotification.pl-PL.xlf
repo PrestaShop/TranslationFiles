@@ -146,7 +146,7 @@ File: classes/module/Module.php:1368</note>
       </trans-unit>
       <trans-unit id="a0b8a508d6ca8113e6439f623e7bf7cf" approved="yes">
         <source>The following module(s) could not be loaded</source>
-        <target xml:lang="pl">Następujący(e) moduł(y) nie został(y) załadowane</target>
+        <target xml:lang="pl">Następujące moduły nie zostały załadowane</target>
         <note>Context:
 File: classes/module/Module.php:1512</note>
       </trans-unit>
@@ -236,7 +236,7 @@ File: classes/Validate.php:63</note>
     <body>
       <trans-unit id="8095c31813f8e77d292bf6bec964169b" approved="yes">
         <source>Unknown archive type.</source>
-        <target xml:lang="pl">Nieznany typ archiwum</target>
+        <target xml:lang="pl">Nieznany typ archiwum.</target>
         <note>Context:
 File: controllers/admin/AdminModulesController.php:603</note>
       </trans-unit>
@@ -254,7 +254,7 @@ File: controllers/admin/AdminModulesController.php:432</note>
       </trans-unit>
       <trans-unit id="c09b8da183ec54308a4c59ab1f1ab792" approved="yes">
         <source>You do not have the permission to use this module.</source>
-        <target xml:lang="pl">Nie Masz uprawnień do używania tego modułu</target>
+        <target xml:lang="pl">Nie masz uprawnień do korzystania z tego modułu.</target>
         <note>Context:
 File: controllers/admin/AdminModulesController.php:687</note>
       </trans-unit>
@@ -272,13 +272,13 @@ File: controllers/admin/AdminModulesController.php:546</note>
       </trans-unit>
       <trans-unit id="f973e6a744c0c50d212b7fd1430153f7" approved="yes">
         <source>Cannot uninstall this module.</source>
-        <target xml:lang="pl">Nie można odinstalować moduł</target>
+        <target xml:lang="pl">Nie można odinstalować tego modułu.</target>
         <note>Context:
 File: controllers/admin/AdminModulesController.php:549</note>
       </trans-unit>
       <trans-unit id="08da26423466f4cadc0fd6e201711dcd" approved="yes">
         <source>Cannot load the module's object.</source>
-        <target xml:lang="pl">Nie można załadować obiektu modułu</target>
+        <target xml:lang="pl">Nie można załadować obiektu modułu.</target>
         <note>Context:
 File: controllers/admin/AdminModulesController.php:668</note>
       </trans-unit>
@@ -326,19 +326,19 @@ File: controllers/admin/AdminModulesController.php:861</note>
       </trans-unit>
       <trans-unit id="81d2521b93f4b3abdc3877f76e04005a" approved="yes">
         <source>You do not have permission to install this module.</source>
-        <target xml:lang="pl">Nie Masz uprawnień do instalowania modułów</target>
+        <target xml:lang="pl">Nie masz uprawnień do zainstalowania tego modułu.</target>
         <note>Context:
 File: controllers/admin/AdminModulesController.php:865</note>
       </trans-unit>
       <trans-unit id="d7569980257d11fbd66deb501f5efab8" approved="yes">
         <source>You do not have permission to delete this module.</source>
-        <target xml:lang="pl">Nie Masz uprawnień do usunięcia tego modułu</target>
+        <target xml:lang="pl">Nie masz uprawnień do usunięcia tego modułu.</target>
         <note>Context:
 File: controllers/admin/AdminModulesController.php:867</note>
       </trans-unit>
       <trans-unit id="5a69d1cb0ef4096b272b3b441555d737" approved="yes">
         <source>You do not have permission to configure this module.</source>
-        <target xml:lang="pl">Nie masz uprawnień do konfiguracji tego modułu</target>
+        <target xml:lang="pl">Nie masz uprawnień do konfiguracji tego modułu.</target>
         <note>Context:
 File: controllers/admin/AdminModulesController.php:869</note>
       </trans-unit>
@@ -412,13 +412,13 @@ File: classes/controller/AdminController.php:2243</note>
     <body>
       <trans-unit id="6832d3339f3238558d9e290f4ff36bb8" approved="yes">
         <source>Module(s) installed successfully.</source>
-        <target xml:lang="pl">Moduł(y) zainstalowane poprawnie</target>
+        <target xml:lang="pl">Moduł(y) zainstalowane poprawnie.</target>
         <note>Context:
 File: modules/autoupgrade/AdminSelfTab.php:180</note>
       </trans-unit>
       <trans-unit id="0be078b247fde4986e320cd2684e7ab9" approved="yes">
         <source>Module(s) uninstalled successfully.</source>
-        <target xml:lang="pl">Moduł(y) odinstalowane poprawnie</target>
+        <target xml:lang="pl">Moduł(y) odinstalowane poprawnie.</target>
         <note>Context:
 File: modules/autoupgrade/AdminSelfTab.php:181</note>
       </trans-unit>
@@ -436,7 +436,7 @@ File: modules/autoupgrade/AdminSelfTab.php:183</note>
       </trans-unit>
       <trans-unit id="7f31b58c32d9112f9bb160a481f6a911" approved="yes">
         <source>Module reset successfully.</source>
-        <target xml:lang="pl">Moduł zresetowane</target>
+        <target xml:lang="pl">Moduł pomyślnie zresetowany.</target>
         <note>Context:
 File: modules/autoupgrade/AdminSelfTab.php:185</note>
       </trans-unit>
@@ -624,11 +624,23 @@ File: src/Core/Addon/Module/ModuleRepository.php:562</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/ModuleController.php" source-language="en" target-language="pl" datatype="plaintext">
     <body>
+      <trans-unit id="385b04e1b2442530341b51c2d3b216a3" approved="yes">
+        <source>Cannot get catalog data, please try again later. Reason: %error_details%</source>
+        <target xml:lang="pl">Nie można uzyskać danych katalogowych, spróbuj ponownie później. Powód: %error_details%</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/ModuleController.php:133</note>
+      </trans-unit>
       <trans-unit id="71d827dd0d049981403f27fb7af0991c" approved="yes">
         <source>%module% did not return a valid response on %action% action.</source>
         <target xml:lang="pl">%module% nie zwrócił poprawnej odpowiedzi na działanie %action%.</target>
         <note>Context:
 File: src/PrestaShopBundle/Controller/Admin/ModuleController.php:316</note>
+      </trans-unit>
+      <trans-unit id="8e7e1a7e5fa9edcd7139f569d07fc5b9" approved="yes">
+        <source>Confirmation needed by module %module% on %action% (%subject%).</source>
+        <target xml:lang="pl">Potwierdzenie wymagane przez moduł %module% na %action% (%subject%).</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/ModuleController.php:655</note>
       </trans-unit>
       <trans-unit id="bf0edb2da5a51620141bff55d3060a63" approved="yes">
         <source>Exception thrown by module %module% on %action%. %error_details%</source>

@@ -26,7 +26,7 @@ File: classes/lang/ContactLang.php:40</note>
       </trans-unit>
       <trans-unit id="2273d1167a6212812d95dc8fadbae78e" approved="yes">
         <source>Customer service</source>
-        <target xml:lang="pl">Biuro Obsługi Klienta</target>
+        <target xml:lang="pl">Obsługa klienta</target>
         <note>Context:
 File: classes/lang/ContactLang.php:41</note>
       </trans-unit>
@@ -112,6 +112,18 @@ File: classes/lang/ConfigurationLang.php:70
         <target xml:lang="pl">W magazynie</target>
         <note>Context:
 File: install-dev/upgrade/php/ps_1730_move_some_aeuc_configuration_to_core.php:38</note>
+      </trans-unit>
+      <trans-unit id="43f098d58ceefef56f05ded453751319" approved="yes">
+        <source>Product available for orders</source>
+        <target xml:lang="pl">Produkt dostępny na zamówienie</target>
+        <note>Context:
+File: install-dev/upgrade/php/ps_1730_move_some_aeuc_configuration_to_core.php:39</note>
+      </trans-unit>
+      <trans-unit id="2ef464d50f6acd767fb3424910995218" approved="yes">
+        <source>Out-of-Stock</source>
+        <target xml:lang="pl">Obecnie brak na stanie</target>
+        <note>Context:
+File: install-dev/upgrade/php/ps_1730_move_some_aeuc_configuration_to_core.php:40</note>
       </trans-unit>
     </body>
   </file>
@@ -285,7 +297,7 @@ File: controllers/admin/AdminReferrersController.php:345</note>
       </trans-unit>
       <trans-unit id="10965b2740f42ad4887932c35cee26ab" approved="yes">
         <source>Unique visitors</source>
-        <target xml:lang="pl">Unikatowa liczba odwiedzających</target>
+        <target xml:lang="pl">Unikalni Odwiedzający</target>
         <note>Context:
 File: controllers/admin/AdminReferrersController.php:499</note>
       </trans-unit>
@@ -397,7 +409,7 @@ File: controllers/admin/AdminShopController.php:127</note>
       </trans-unit>
       <trans-unit id="224154fa6f3601b7de4690ba6a9ad8b4" approved="yes">
         <source>Multistore tree</source>
-        <target xml:lang="pl">Struktura Multi sklepu</target>
+        <target xml:lang="pl">Struktura Multisklepu</target>
         <note>Context:
 File: controllers/admin/AdminShopController.php:158</note>
       </trans-unit>
@@ -431,7 +443,7 @@ File: controllers/admin/AdminPPreferencesController.php:49</note>
       </trans-unit>
       <trans-unit id="eb1cef1202fdc4d7954899fbf9f1734b" approved="yes">
         <source>Number of days for which the product is considered 'new'</source>
-        <target xml:lang="pl">Ilość dni przez które produkt jest oznaczony jako "nowy"</target>
+        <target xml:lang="pl">Ilość dni przez które produkt jest oznaczony jako "NOWY"</target>
         <note>Context:
 File: controllers/admin/AdminPPreferencesController.php:57</note>
       </trans-unit>
@@ -579,11 +591,41 @@ File: controllers/admin/AdminPPreferencesController.php:203</note>
         <note>Context:
 File: controllers/admin/AdminPPreferencesController.php:211</note>
       </trans-unit>
+      <trans-unit id="966c11f36eeb298187639eea581a7522" approved="yes">
+        <source>Label of in-stock products</source>
+        <target xml:lang="pl">Etykieta produktów dostępnych w magazynie</target>
+        <note>Context:
+File: controllers/admin/AdminPPreferencesController.php:222</note>
+      </trans-unit>
+      <trans-unit id="3385e522bc49e8f8fcb008788bc1762d" approved="yes">
+        <source>Label of out-of-stock products with allowed backorders</source>
+        <target xml:lang="pl">Etykieta produktów wyprzedanych z zaległych zamówień</target>
+        <note>Context:
+File: controllers/admin/AdminPPreferencesController.php:227</note>
+      </trans-unit>
+      <trans-unit id="d79daa535ef1e90b7b1230b501b7b6c6" approved="yes">
+        <source>Label of out-of-stock products with denied backorders</source>
+        <target xml:lang="pl">Etykieta produktów niedostępnych na stanie z odmową realizacji zamówień</target>
+        <note>Context:
+File: controllers/admin/AdminPPreferencesController.php:232</note>
+      </trans-unit>
+      <trans-unit id="480cb944a0974a27ec0f964de23a18f4" approved="yes">
+        <source>Delivery time of in-stock products</source>
+        <target xml:lang="pl">Czas dostawy produktów dostępnych w magazynie</target>
+        <note>Context:
+File: controllers/admin/AdminPPreferencesController.php:237</note>
+      </trans-unit>
       <trans-unit id="16a5534d559007de7e8f5b4f17112203" approved="yes">
         <source>Leave empty to disable</source>
         <target xml:lang="pl">Pozostaw puste, aby wyłączyć</target>
         <note>Context:
 File: controllers/admin/AdminPPreferencesController.php:247</note>
+      </trans-unit>
+      <trans-unit id="d8b9fadcb2c1164975877a18731b1f4a" approved="yes">
+        <source>Delivery time of out-of-stock products with allowed backorders</source>
+        <target xml:lang="pl">Czas dostawy wyprzedanych produktów z zaległych zamówień</target>
+        <note>Context:
+File: controllers/admin/AdminPPreferencesController.php:244</note>
       </trans-unit>
       <trans-unit id="65055b5469b4ad0c6f799ad782d1ebe5" approved="yes">
         <source>Default pack stock management</source>
@@ -667,7 +709,7 @@ File: controllers/admin/AdminGendersController.php:166</note>
     <body>
       <trans-unit id="b6f05e5ddde1ec63d992d61144452dfa" approved="yes">
         <source>Referrer</source>
-        <target xml:lang="pl">Odwołujący (Referrer)</target>
+        <target xml:lang="pl">Odwołujący (Pochodzenie)</target>
         <note>Context:
 File: controllers/admin/AdminSearchEnginesController.php:64</note>
       </trans-unit>
@@ -753,13 +795,13 @@ File: controllers/admin/AdminMetaController.php:98</note>
       </trans-unit>
       <trans-unit id="35df89560d52bdb19ba653e994fbb178" approved="yes">
         <source>302 Moved Temporarily (recommended while setting up your store)</source>
-        <target xml:lang="pl">302 Tymczasowo Przeniesione (polecane podczas tworzenia Twojego sklepu)</target>
+        <target xml:lang="pl">302 przekierowanie tymczasowe (polecane podczas tworzenia Twojego sklepu)</target>
         <note>Context:
 File: controllers/admin/AdminMetaController.php:99</note>
       </trans-unit>
       <trans-unit id="317a1a7df329b3d6e9d7e36915ebde8c" approved="yes">
         <source>301 Moved Permanently (recommended once you have gone live)</source>
-        <target xml:lang="pl">301 Przeniesione Na Stałe (zalecane kiedy już uruchomisz sprzedaż)</target>
+        <target xml:lang="pl">301 przekierowanie na stałe (zalecane kiedy już uruchomisz sprzedaż)</target>
         <note>Context:
 File: controllers/admin/AdminMetaController.php:100</note>
       </trans-unit>
@@ -841,6 +883,12 @@ File: controllers/admin/AdminMetaController.php:221</note>
         <note>Context:
 File: controllers/admin/AdminMetaController.php:234</note>
       </trans-unit>
+      <trans-unit id="86d314b39d91d9c8f4578c938e4401d6" approved="yes">
+        <source>Keywords: %keywords%</source>
+        <target xml:lang="pl">Słowa kluczowe: %keywords%</target>
+        <note>Context:
+File: controllers/admin/AdminMetaController.php:267</note>
+      </trans-unit>
       <trans-unit id="532a7bf10fd5a4315e0dfefe7a110d43" approved="yes">
         <source>Default pages</source>
         <target xml:lang="pl">Domyślne strony</target>
@@ -855,7 +903,7 @@ File: controllers/admin/AdminMetaController.php:294</note>
       </trans-unit>
       <trans-unit id="b49c4d1248da006daf31db2577b7be4a" approved="yes">
         <source>Meta tags</source>
-        <target xml:lang="pl">Meta-Tagi</target>
+        <target xml:lang="pl">Meta tagi</target>
         <note>Context:
 File: controllers/admin/AdminMetaController.php:309</note>
       </trans-unit>
@@ -931,13 +979,13 @@ File: controllers/admin/AdminSearchConfController.php:78</note>
       </trans-unit>
       <trans-unit id="b9a7c2c18f61b96ff75de6468d1c7519" approved="yes">
         <source>Indexed products</source>
-        <target xml:lang="pl">Indeksowane produkty</target>
+        <target xml:lang="pl">Zaindeksowane produkty</target>
         <note>Context:
 File: controllers/admin/AdminSearchConfController.php:79</note>
       </trans-unit>
       <trans-unit id="a1f25953ca9e49615b12a626584680c5" approved="yes">
         <source>Building the product index may take a few minutes.</source>
-        <target xml:lang="pl">Budowanie indeksu produktów może zająć kilka lub więcej minut.</target>
+        <target xml:lang="pl">Budowanie indeksu produktów może zająć kilka minut.</target>
         <note>Context:
 File: controllers/admin/AdminSearchConfController.php:82</note>
       </trans-unit>
@@ -1149,7 +1197,7 @@ File: controllers/admin/AdminStoresController.php:153</note>
       </trans-unit>
       <trans-unit id="cb6fd19e08242c75f1af9f4d15be875d" approved="yes">
         <source>Store name (e.g. City Center Mall Store).</source>
-        <target xml:lang="pl">Nazwa sklepu (np Prestashop).</target>
+        <target xml:lang="pl">Nazwa sklepu (np. Prestashop).</target>
         <note>Context:
 File: controllers/admin/AdminStoresController.php:164</note>
       </trans-unit>
@@ -1465,7 +1513,7 @@ File: controllers/admin/AdminStatusesController.php:235</note>
       </trans-unit>
       <trans-unit id="69a31da4cb502aa192d07ae4a8f48613" approved="yes">
         <source>Status name</source>
-        <target xml:lang="pl">Nazwa Statusu</target>
+        <target xml:lang="pl">Nazwa statusu</target>
         <note>Context:
 File: controllers/admin/AdminStatusesController.php:478</note>
       </trans-unit>
@@ -1477,7 +1525,7 @@ File: controllers/admin/AdminStatusesController.php:489</note>
       </trans-unit>
       <trans-unit id="192b587e5fc71cd5f25a6089c03bff87" approved="yes">
         <source>Consider the associated order as validated.</source>
-        <target xml:lang="pl">Zauważ czy zamówienie jest poprawne</target>
+        <target xml:lang="pl">Sprawdź czy zamówienie jest poprawne.</target>
         <note>Context:
 File: controllers/admin/AdminStatusesController.php:302</note>
       </trans-unit>
@@ -1489,13 +1537,13 @@ File: controllers/admin/AdminStatusesController.php:313</note>
       </trans-unit>
       <trans-unit id="9529bbf156fbe6c23b5fbd8b32900f68" approved="yes">
         <source>Hide this status in all customer orders.</source>
-        <target xml:lang="pl">Ukryj ten status zamówienia dla klienta.</target>
+        <target xml:lang="pl">Ukryj ten status we wszystkich zamówieniach klienta.</target>
         <note>Context:
 File: controllers/admin/AdminStatusesController.php:324</note>
       </trans-unit>
       <trans-unit id="a8f92721e361eceb4489636d29f56c21" approved="yes">
         <source>Send an email to the customer when his/her order status has changed.</source>
-        <target xml:lang="pl">Wyślij e-mail do klienta, kiedy zmieni się status zamówienia</target>
+        <target xml:lang="pl">Wyślij e-mail do klienta, kiedy zmieni się status zamówienia.</target>
         <note>Context:
 File: controllers/admin/AdminStatusesController.php:335</note>
       </trans-unit>
@@ -1873,7 +1921,7 @@ File: admin-dev/themes/default/template/controllers/groups/helpers/form/form.tpl
       </trans-unit>
       <trans-unit id="32da1449064b7ef38d098e8061630883" approved="yes">
         <source>This category already exists for this group.</source>
-        <target xml:lang="pl">Ta kategoria już istnieje dla tej grupy</target>
+        <target xml:lang="pl">Ta kategoria już istnieje dla tej grupy.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/groups/helpers/form/form.tpl:75</note>
       </trans-unit>

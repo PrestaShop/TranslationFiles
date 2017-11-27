@@ -48,7 +48,7 @@ File: classes/lang/OrderReturnStateLang.php:44</note>
     <body>
       <trans-unit id="d698e777b19f6f487ae0490950174fde" approved="yes">
         <source>Awaiting check payment</source>
-        <target xml:lang="pl">Oczekiwanie na płatność</target>
+        <target xml:lang="pl">Oczekiwanie na płatność czekiem</target>
         <note>Context:
 File: classes/lang/OrderStateLang.php:41</note>
       </trans-unit>
@@ -84,7 +84,7 @@ File: classes/lang/OrderStateLang.php:56</note>
       </trans-unit>
       <trans-unit id="cc61945cbbf46721a053467c395c666f" approved="yes">
         <source>Refunded</source>
-        <target xml:lang="pl">Zwróconych pieniędzy</target>
+        <target xml:lang="pl">Zwrot</target>
         <note>Context:
 File: classes/lang/OrderStateLang.php:59</note>
       </trans-unit>
@@ -130,7 +130,7 @@ File: classes/lang/OrderStateLang.php:77</note>
     <body>
       <trans-unit id="8f497c1a3d15af9e0c215019f26b887d" approved="yes">
         <source>Delay</source>
-        <target xml:lang="pl">Czas przesyłki</target>
+        <target xml:lang="pl">Opóźnienie</target>
         <note>Context:
 File: classes/lang/OrderMessageLang.php:40</note>
       </trans-unit>
@@ -318,13 +318,13 @@ File: controllers/admin/AdminSlipController.php:72</note>
       </trans-unit>
       <trans-unit id="44180a771d7f3bf534550199c3293441" approved="yes">
         <source>Credit slip options</source>
-        <target xml:lang="pl">Opcje paragonu</target>
+        <target xml:lang="pl">Opcje potwierdzenia zwrotu</target>
         <note>Context:
 File: controllers/admin/AdminSlipController.php:76</note>
       </trans-unit>
       <trans-unit id="d3174688da67b4530a7c8e774a7f31d5" approved="yes">
         <source>Credit slip prefix</source>
-        <target xml:lang="pl">Prefiks paragonów</target>
+        <target xml:lang="pl">Prefiks potwierdzenia zwrotu</target>
         <note>Context:
 File: controllers/admin/AdminSlipController.php:79</note>
       </trans-unit>
@@ -442,7 +442,7 @@ File: controllers/admin/AdminOrdersController.php:260</note>
       </trans-unit>
       <trans-unit id="0262a3dc4fae9adc8cb46e788806ccbf" approved="yes">
         <source>Create order</source>
-        <target xml:lang="pl">stwórz zamówienie</target>
+        <target xml:lang="pl">Utwórz zamówienie</target>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:260</note>
       </trans-unit>
@@ -454,13 +454,13 @@ File: controllers/admin/AdminOrdersController.php:278</note>
       </trans-unit>
       <trans-unit id="d201284604b35aa9392cb9c1acc434a6" approved="yes">
         <source>Credit slip for order #%d</source>
-        <target xml:lang="pl">Nota kredytowa do zamówienia #%d</target>
+        <target xml:lang="pl">Potwierdzenie zwrotu do zamówienia #%d</target>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:792</note>
       </trans-unit>
       <trans-unit id="bbee72681d2c075d95355d3d9ccefb4e" approved="yes">
         <source>Credit card slip for order #%d</source>
-        <target xml:lang="pl">Nota kredytowa do zamówienia #%d</target>
+        <target xml:lang="pl">Potwierdzenie zwrotu do zamówienia #%d</target>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:1061</note>
       </trans-unit>
@@ -487,6 +487,12 @@ File: controllers/admin/AdminOrdersController.php:1658</note>
         <target xml:lang="pl">Zamówienie #%id% (%ref%) - %firstname% %lastname%</target>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:1710</note>
+      </trans-unit>
+      <trans-unit id="95abd3be6297996994738f735a369d4a" approved="yes">
+        <source>Shop: %shop_name%</source>
+        <target xml:lang="pl">Sklep: %shop_name%</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:1721</note>
       </trans-unit>
     </body>
   </file>
@@ -752,7 +758,7 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
       </trans-unit>
       <trans-unit id="76f0ed934de85cc7131910b32ede7714" approved="yes">
         <source>Refund</source>
-        <target xml:lang="pl">Zwrot pieniędzy</target>
+        <target xml:lang="pl">Zwrot</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:943</note>
       </trans-unit>
@@ -806,7 +812,7 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
       </trans-unit>
       <trans-unit id="1067f7778added234b6064bc8aa0765d" approved="yes">
         <source>Re-stock products</source>
-        <target xml:lang="pl">Dostarczone produkty</target>
+        <target xml:lang="pl">Przywróć produkty do ponownej sprzedaży</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:1199</note>
       </trans-unit>
@@ -1270,7 +1276,7 @@ File: admin-dev/themes/default/template/controllers/customers/helpers/view/view.
       </trans-unit>
       <trans-unit id="3edf8ca26a1ec14dd6e91dd277ae1de6" approved="yes">
         <source>Origin</source>
-        <target xml:lang="pl">źródło/pochodzenie</target>
+        <target xml:lang="pl">Źródło/Pochodzenie</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/customers/helpers/view/view.tpl:500</note>
       </trans-unit>
@@ -1313,6 +1319,18 @@ File: controllers/admin/AdminCustomersController.php:148</note>
         <target xml:lang="pl">Zarządzanie Klientami</target>
         <note>Context:
 File: controllers/admin/AdminCustomersController.php:246</note>
+      </trans-unit>
+      <trans-unit id="cd338983b119cf1b564b00a655751e36" approved="yes">
+        <source>Information about customer %name%</source>
+        <target xml:lang="pl">Informacje na temat klienta: %name%</target>
+        <note>Context:
+File: controllers/admin/AdminCustomersController.php:252</note>
+      </trans-unit>
+      <trans-unit id="69ebc35efeb4f755ec3e9c44b4da635c" approved="yes">
+        <source>Editing customer %name%</source>
+        <target xml:lang="pl">Edycja klienta: %name%</target>
+        <note>Context:
+File: controllers/admin/AdminCustomersController.php:260</note>
       </trans-unit>
       <trans-unit id="601bcb96f0fb98dadc4dda90d98ef24d" approved="yes">
         <source>Creating a new Customer</source>
@@ -1914,7 +1932,7 @@ File: admin-dev/themes/default/template/controllers/orders/_documents.tpl:61</no
       </trans-unit>
       <trans-unit id="f53e8d0e97c47ce70ca9c5eaa08a00d0" approved="yes">
         <source>Credit Slip</source>
-        <target xml:lang="pl">Nota kredytowa</target>
+        <target xml:lang="pl">Potwierdzenie zwrotu</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/_documents.tpl:66</note>
       </trans-unit>
@@ -2020,7 +2038,7 @@ File: admin-dev/themes/default/template/controllers/carts/helpers/view/view.tpl:
       </trans-unit>
       <trans-unit id="4f36361240acdff526598021f5459a87" approved="yes">
         <source>Create an order from this cart.</source>
-        <target xml:lang="pl">Złóż zamówienie z koszyka</target>
+        <target xml:lang="pl">Złóż zamówienie z koszyka.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/carts/helpers/view/view.tpl:75</note>
       </trans-unit>
@@ -2232,7 +2250,7 @@ File: admin-dev/themes/default/template/controllers/customers/helpers/required_f
     <body>
       <trans-unit id="a4c0c09247c3e56ff08971ff5558c596" approved="yes">
         <source>Download credit slip</source>
-        <target xml:lang="pl">Pobierz paragon</target>
+        <target xml:lang="pl">Pobierz potwierdzenie zwrotu</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/slip/_print_pdf_icon.tpl:30</note>
       </trans-unit>

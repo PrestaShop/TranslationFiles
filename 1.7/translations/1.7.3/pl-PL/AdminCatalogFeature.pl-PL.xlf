@@ -786,6 +786,12 @@ File: controllers/admin/AdminCategoriesController.php:654</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:195</note>
       </trans-unit>
+      <trans-unit id="9aa4e1b6c10cf1bc2a8145dcc8476b0f" approved="yes">
+        <source>Send me an email when the quantity is under this level</source>
+        <target xml:lang="pl">Wyślij do mnie e-mail, gdy ilość jest poniżej tego poziomu</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:268</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/form.html.twig" source-language="en" target-language="pl" datatype="plaintext">
@@ -1180,11 +1186,23 @@ File: src/PrestaShopBundle/Form/Admin/Product/ProductCombination.php:192</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Product/ProductCombinationBulk.php" source-language="en" target-language="pl" datatype="plaintext">
     <body>
+      <trans-unit id="78167a214fe755d9a2f5a7f2bc62cecf" approved="yes">
+        <source>Low stock level</source>
+        <target xml:lang="pl">Niski poziom produktów w magazynie</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductCombinationBulk.php:100</note>
+      </trans-unit>
       <trans-unit id="3c1a34587e45bd9e9ae2efd9a6ecbb92" approved="yes">
         <source>Impact on weight</source>
         <target xml:lang="pl">Wpływ na wagę</target>
         <note>Context:
 File: src/PrestaShopBundle/Form/Admin/Product/ProductCombinationBulk.php:72</note>
+      </trans-unit>
+      <trans-unit id="0826c628f8c5f6895c8a1e27e99457fb" approved="yes">
+        <source>Send me an email when the quantity is below or equals this level</source>
+        <target xml:lang="pl">Wyślij do mnie wiadomość e-mail, gdy ilość jest niższa lub równa temu poziomowi</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductCombinationBulk.php:104</note>
       </trans-unit>
       <trans-unit id="8ef6e226754a31bf67ebf50047c142b9" approved="yes">
         <source>Impact on price (tax excl.)</source>
@@ -1220,6 +1238,12 @@ File: src/PrestaShopBundle/Form/Admin/Product/ProductCombinationBulk.php:96</not
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Product/ProductShipping.php" source-language="en" target-language="pl" datatype="plaintext">
     <body>
+      <trans-unit id="7e34f33e1a881aff98acbf2b766ac883" approved="yes">
+        <source>Delivery time of in-stock products:</source>
+        <target xml:lang="pl">Czas dostawy produktów dostępnych w magazynie:</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductShipping.php:160</note>
+      </trans-unit>
       <trans-unit id="6adf97f83acf6453d4a6a4b1070f3754" approved="yes">
         <source>None</source>
         <target xml:lang="pl">Żaden</target>
@@ -1268,6 +1292,12 @@ File: src/PrestaShopBundle/Form/Admin/Product/ProductShipping.php:119</note>
         <note>Context:
 File: src/PrestaShopBundle/Form/Admin/Product/ProductShipping.php:124</note>
       </trans-unit>
+      <trans-unit id="16599dbd0bf238cbae4090fe1db04145" approved="yes">
+        <source>Specific delivery time to this product</source>
+        <target xml:lang="pl">Określony czas dostawy do tego produktu</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductShipping.php:125</note>
+      </trans-unit>
       <trans-unit id="205b01b3197cf06688f6ed574faf5664" approved="yes">
         <source>Delivery Time</source>
         <target xml:lang="pl">Czas dostawy</target>
@@ -1285,6 +1315,12 @@ File: src/PrestaShopBundle/Form/Admin/Product/ProductShipping.php:138</note>
         <target xml:lang="pl">Czas dostawy wyprzedanych produktów z możliwością rezerwacji:</target>
         <note>Context:
 File: src/PrestaShopBundle/Form/Admin/Product/ProductShipping.php:145</note>
+      </trans-unit>
+      <trans-unit id="777ca35e6f4ddd56c7b8c16d8f74ad13" approved="yes">
+        <source>Delivered within 3-4 days</source>
+        <target xml:lang="pl">Dostawa w ciągu 3-4 dni</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductShipping.php:154</note>
       </trans-unit>
     </body>
   </file>
@@ -1879,6 +1915,12 @@ File: admin-dev/themes/default/template/controllers/return/helpers/form/form.tpl
   </file>
   <file original="src/PrestaShopBundle/Controller/Api/StockController.php" source-language="en" target-language="pl" datatype="plaintext">
     <body>
+      <trans-unit id="5321a616e36742f66aa933956e839217" approved="yes">
+        <source>Combination name</source>
+        <target xml:lang="pl">Nazwa kombinacji</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Api/StockController.php:158</note>
+      </trans-unit>
       <trans-unit id="a094699b1837834e13875a06773bcf28" approved="yes">
         <source>Physical quantity</source>
         <target xml:lang="pl">Fizyczny stan magazynu</target>
@@ -2070,6 +2112,24 @@ File: src/PrestaShopBundle/Translation/Api/StockApi.php:63</note>
         <note>Context:
 File: src/PrestaShopBundle/Translation/Api/StockApi.php:67</note>
       </trans-unit>
+      <trans-unit id="0e1f77838d33f77fef1c66958da371e6" approved="yes">
+        <source>This product is below the low stock level you have defined.</source>
+        <target xml:lang="pl">Ten produkt znajduje się poniżej zdefiniowanego niskiego poziomu zapasów.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Translation/Api/StockApi.php:68</note>
+      </trans-unit>
+      <trans-unit id="5896dcc83ab833241ff671debffff23b" approved="yes">
+        <source>Low stock level:</source>
+        <target xml:lang="pl">Niski poziom produktów w magazynie:</target>
+        <note>Context:
+File: src/PrestaShopBundle/Translation/Api/StockApi.php:69</note>
+      </trans-unit>
+      <trans-unit id="82bbaa81a9926aed70bfc811302bddaf" approved="yes">
+        <source>Low stock alert:</source>
+        <target xml:lang="pl">Alert niskiego poziom produktów w magazynie:</target>
+        <note>Context:
+File: src/PrestaShopBundle/Translation/Api/StockApi.php:70</note>
+      </trans-unit>
       <trans-unit id="60ca6b20f2ef2afc178d7e5d7224b5c8" approved="yes">
         <source>Bulk edit quantity</source>
         <target xml:lang="pl">Zbiorcza edycja ilości</target>
@@ -2093,6 +2153,12 @@ File: src/PrestaShopBundle/Translation/Api/StockApi.php:74</note>
         <target xml:lang="pl">Przejdź do systemu importu</target>
         <note>Context:
 File: src/PrestaShopBundle/Translation/Api/StockApi.php:76</note>
+      </trans-unit>
+      <trans-unit id="8273cff9da36d1ddc5ee3f19b1283f0c" approved="yes">
+        <source>Export data into CSV</source>
+        <target xml:lang="pl">Eksportuj dane do pliku CSV</target>
+        <note>Context:
+File: src/PrestaShopBundle/Translation/Api/StockApi.php:77</note>
       </trans-unit>
       <trans-unit id="ce898d62ed9ca7653a01fe0c781e97e9" approved="yes">
         <source>Physical</source>
@@ -2316,6 +2382,12 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/Include/form_combination.html.twig" source-language="en" target-language="pl" datatype="plaintext">
     <body>
+      <trans-unit id="afe8600392b1a8be6256bbc64622a58d" approved="yes">
+        <source>Stock alerts</source>
+        <target xml:lang="pl">Alerty stanów magazynowych</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/Include/form_combination.html.twig:104</note>
+      </trans-unit>
       <trans-unit id="1374a796a4d88166ce5107eb6aec41ff" approved="yes">
         <source>Prev. combination</source>
         <target xml:lang="pl">Poprzednia kombinacja</target>
@@ -2374,6 +2446,18 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/Include/form_combinatio
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/form_combinations_bulk.html.twig" source-language="en" target-language="pl" datatype="plaintext">
     <body>
+      <trans-unit id="1ea5630be8a472f075b184deb7256e3d" approved="yes">
+        <source>You can increase or decrease low stock levels in bulk. You cannot disable them in bulk: you have to do it on a per-combination basis.</source>
+        <target xml:lang="pl">Możesz zwiększyć lub zmniejszyć niski poziom zbiorczo. Nie możesz ich wyłączyć zbiorczo: musisz to zrobić dla każdej kombinacji.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/form_combinations_bulk.html.twig:78</note>
+      </trans-unit>
+      <trans-unit id="b470c441370492fc31529bb9b76eedb3" approved="yes">
+        <source><![CDATA[The email will be sent to all the users who have the right to run the stock page. To modify the permissions, go to Advanced Parameters > Team]]></source>
+        <target xml:lang="pl"><![CDATA[Ten e-mail będzie wysłany do wszystkich użytkowników mających dostęp do strony z towarem. Aby zmodyfikować uprawnienia, przejdź do "Zaawansowane parametry > Zespół]]></target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/form_combinations_bulk.html.twig:88</note>
+      </trans-unit>
       <trans-unit id="c24933abc09a6487f63ea8ddce98bfd4" approved="yes">
         <source>Delete combinations</source>
         <target xml:lang="pl">Usuń kombinacje</target>
