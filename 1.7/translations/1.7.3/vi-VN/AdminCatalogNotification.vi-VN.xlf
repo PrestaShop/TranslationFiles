@@ -88,9 +88,9 @@ File: controllers/admin/AdminProductsController.php:586</note>
         <note>Context:
 File: controllers/admin/AdminProductsController.php:624</note>
       </trans-unit>
-      <trans-unit id="b351af3dd276d0cac6594897a392e676">
+      <trans-unit id="b351af3dd276d0cac6594897a392e676" approved="yes">
         <source>The image could not be found. </source>
-        <target xml:lang="vi" state="needs-translation"> </target>
+        <target xml:lang="vi">Hình ảnh không được tìm thấy. </target>
         <note>Context:
 File: controllers/admin/AdminProductsController.php:637</note>
       </trans-unit>
@@ -178,9 +178,9 @@ File: controllers/admin/AdminProductsController.php:1092</note>
         <note>Context:
 File: controllers/admin/AdminProductsController.php:1223</note>
       </trans-unit>
-      <trans-unit id="ed6c7c35c51ba299b38e3af151a5ec0f">
+      <trans-unit id="ed6c7c35c51ba299b38e3af151a5ec0f" approved="yes">
         <source>An error occurred while attempting to associate this image with your shop. </source>
-        <target xml:lang="vi" state="needs-translation"> </target>
+        <target xml:lang="vi">Đã xảy ra lỗi trong khi cố gắng kết hợp các hình ảnh này với cửa hàng của bạn. </target>
         <note>Context:
 File: controllers/admin/AdminProductsController.php:1465</note>
       </trans-unit>
@@ -342,6 +342,12 @@ File: classes/QqUploadedFileForm.php:48</note>
         <note>Context:
 File: classes/controller/AdminController.php:486</note>
       </trans-unit>
+      <trans-unit id="801982917ddd7afd63f9e103ba4699bd" approved="yes">
+        <source>The root category of the shop %shop% is not associated with the current shop. You can't access this page. Please change the root category of the shop.</source>
+        <target xml:lang="vi">Danh mục gốc của cửa hàng %shop% không liên quan đến cửa hàng hiện tại. Bạn không thể truy cập vào trang này. Vui lòng thay đổi danh mục gốc của cửa hàng.</target>
+        <note>Context:
+File: classes/controller/AdminController.php:492</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/AdminSelfTab.php" source-language="en" target-language="vi" datatype="plaintext">
@@ -377,6 +383,12 @@ File: classes/Product.php:5812</note>
         <target xml:lang="vi">Lỗi xảy ra khi cập nhật trạng thái của đối tượng.</target>
         <note>Context:
 File: controllers/admin/AdminAttributesGroupsController.php:116</note>
+      </trans-unit>
+      <trans-unit id="de2a79b3b161c486acb8f80861cd107c" approved="yes">
+        <source>This feature has been disabled. You can activate it here: %link%.</source>
+        <target xml:lang="vi">Tính năng này đã bị vô hiệu. Bạn có thể kích hoạt nó tại đây: %link%.</target>
+        <note>Context:
+File: controllers/admin/AdminAttributesGroupsController.php:495</note>
       </trans-unit>
       <trans-unit id="77ae44aa6c998166fcf1a87496278ad5" approved="yes">
         <source>(cannot load object)</source>
@@ -488,7 +500,12 @@ File: controllers/admin/AdminDeliverySlipController.php:110</note>
   </file>
   <file original="controllers/admin/AdminFeaturesController.php" source-language="en" target-language="vi" datatype="plaintext">
     <body>
-      
+      <trans-unit id="8be9030c26dd464a739bd131dff74336" approved="yes">
+        <source>This feature has been disabled. You can activate it here: %url%.</source>
+        <target xml:lang="vi">Tính năng này đã bị vô hiệu. Bạn có thể kích hoạt nó tại đây: %url%.</target>
+        <note>Context:
+File: controllers/admin/AdminFeaturesController.php:435</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminAttachmentsController.php" source-language="en" target-language="vi" datatype="plaintext">
@@ -511,6 +528,12 @@ File: controllers/admin/AdminAttachmentsController.php:118</note>
         <note>Context:
 File: controllers/admin/AdminAttachmentsController.php:230</note>
       </trans-unit>
+      <trans-unit id="8cb9da8e2fc65153510e4a067af0b32c" approved="yes">
+        <source>The file %file% exceeds the size allowed by the server. The limit is set to %size% MB.</source>
+        <target xml:lang="vi">Dung lượng tập tin %file% lớn hơn giới hạn máy chủ cho phép. Giới hạn thiết lập %size% MB.</target>
+        <note>Context:
+File: controllers/admin/AdminAttachmentsController.php:244</note>
+      </trans-unit>
       <trans-unit id="d647666a6c4cef994b4fa1a540ba4481" approved="yes">
         <source>Upload error. Please check your server configurations for the maximum upload size allowed.</source>
         <target xml:lang="vi">Tải lên lỗi. Hãy kiểm tra cấu hình máy chủ cho cỡ tập tin tải lên tối đa.</target>
@@ -532,6 +555,12 @@ File: controllers/admin/AdminCategoriesController.php:798</note>
         <target xml:lang="vi">Dạnh mục sản phẩm không thể là mục cha của chính nó.</target>
         <note>Context:
 File: controllers/admin/AdminCategoriesController.php:801</note>
+      </trans-unit>
+      <trans-unit id="23be63a3d78c7375e59f5965f6ef9efd" approved="yes">
+        <source>Unknown delete mode: %s</source>
+        <target xml:lang="vi">Chế độ xóa không rõ ràng: %s</target>
+        <note>Context:
+File: controllers/admin/AdminCategoriesController.php:821</note>
       </trans-unit>
       <trans-unit id="b50f440e3c9f14988bd0086683e77095" approved="yes">
         <source>You cannot remove this category because one of your shops uses it as a root category.</source>
@@ -749,8 +778,18 @@ File: src/PrestaShopBundle/Controller/Admin/ProductController.php:854</note>
   </file>
   <file original="src/PrestaShopBundle/Translation/Api/StockApi.php" source-language="en" target-language="vi" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="5566045e38ed5e7bb072b8d55f3ceb2f" approved="yes">
+        <source>No product matches your search. Try changing search terms.</source>
+        <target xml:lang="vi">Không có sản phẩm nào phù hợp với tìm kiếm của bạn. Hãy thử thay đổi cụm từ tìm kiếm.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Translation/Api/StockApi.php:64</note>
+      </trans-unit>
+      <trans-unit id="96d17a8fdea016168a9d506b0da23c07" approved="yes">
+        <source>Stock successfully updated</source>
+        <target xml:lang="vi">Sản phẩm đã được cập nhật thành công</target>
+        <note>Context:
+File: src/PrestaShopBundle/Translation/Api/StockApi.php:66</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Validator/Constraints/TinyMceMaxLengthValidator.php" source-language="en" target-language="vi" datatype="plaintext">
@@ -813,7 +852,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/TwigTemplateForm/bootstrap_3_la
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Stock/overview.html.twig" source-language="en" target-language="vi" datatype="plaintext">
     <body>
-      
+      <trans-unit id="8597e9c43b2587a888fee6b31dad5335" approved="yes">
+        <source>You can't manage your stock in this shop context: select a shop instead of a group of shops.</source>
+        <target xml:lang="vi">Bạn không thể thêm hay sửa một sản phẩm trong bối cảnh cửa hàng này: chọn một cửa hàng thay vì một nhóm cửa hàng.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Stock/overview.html.twig:35</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/formDisable.html.twig" source-language="en" target-language="vi" datatype="plaintext">
@@ -1005,6 +1049,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/Include/form_seo.html.t
         <target xml:lang="vi">URL thân thiện đang được bật.</target>
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Product/Include/form_seo.html.twig:74</note>
+      </trans-unit>
+      <trans-unit id="2d1df068fb2a9a3c4d9e3c361795c59c" approved="yes">
+        <source>To disable it, go to [1]SEO and URLs[/1]</source>
+        <target xml:lang="vi">Để tắt, vào [1]SEO và URL[/1]</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/Include/form_seo.html.twig:75</note>
       </trans-unit>
       <trans-unit id="d7e9bf98e857f83943b3b75fce04cea9" approved="yes">
         <source>The "Force update of friendly URL" option is currently enabled.</source>
