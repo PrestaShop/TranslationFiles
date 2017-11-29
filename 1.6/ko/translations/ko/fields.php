@@ -29,6 +29,7 @@ $_FIELDS['Address_795f3202b17cb6bc3d4b771d8c6c9eaf'] = '기타';
 $_FIELDS['Address_f7a42fe7211f98ac7a60a285ac3a9e87'] = '전화번호';
 $_FIELDS['Address_2df2ca5cf808744c2977e4073f6b59c8'] = '휴대전화';
 $_FIELDS['Address_eec0a9661213354fa7a52519eea3f827'] = 'vat_number';
+$_FIELDS['Address_d56f5e97524d5d1ad77ec197ae11dad0'] = 'dni';
 
 
 return $_FIELDS;
