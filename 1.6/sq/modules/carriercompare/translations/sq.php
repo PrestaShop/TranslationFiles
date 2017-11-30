@@ -7,6 +7,7 @@ $_MODULE['<{carriercompare}prestashop>carriercompare_533bf2149f935df1f934e5ee55f
 $_MODULE['<{carriercompare}prestashop>carriercompare_59716c97497eb9694541f7c3d37b1a4d'] = 'Vendi';
 $_MODULE['<{carriercompare}prestashop>carriercompare_9207f4078f515ecc8256bae33fa1f497'] = 'I nevojshëm për transportuesit e caktuar.';
 $_MODULE['<{carriercompare}prestashop>carriercompare_914419aa32f04011357d3b604a86d7eb'] = 'Postieri';
+$_MODULE['<{carriercompare}prestashop>carriercompare_a82be0f551b8708bc08eb33cd9ded0cf'] = 'Informacion';
 $_MODULE['<{carriercompare}prestashop>carriercompare_3601146c4e948c32b6424d2c0a7f0118'] = 'Çmimi';
 $_MODULE['<{carriercompare}prestashop>carriercompare_1de0f9fcbe30b056483fe964aed55adc'] = 'Përditëso shportën';
 $_MODULE['<{carriercompare}prestashop>carriercompare_653e78154f5596fc293bf9db65110bbd'] = 'Përditëso listën e transportuesve';

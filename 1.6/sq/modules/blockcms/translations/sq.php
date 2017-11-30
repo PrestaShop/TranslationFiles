@@ -5,6 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{blockcms}prestashop>blockcms_ca3e06233b736d289df9f4580a4ab19a'] = 'Blloku CMS';
 $_MODULE['<{blockcms}prestashop>blockcms_cdca12007979fc49008fd125cdb775fc'] = 'Shton një bllok me disa CMS hiperlidhje .';
+$_MODULE['<{blockcms}prestashop>blockcms_a82be0f551b8708bc08eb33cd9ded0cf'] = 'Informacion';
 $_MODULE['<{blockcms}prestashop>blockcms_ea4788705e6873b424c65e91c2846b19'] = 'Anulo';
 $_MODULE['<{blockcms}prestashop>blockcms_ef61fb324d729c341ea8ab9901e23566'] = 'Shto të ri';
 $_MODULE['<{blockcms}prestashop>blockcms_97390dd0b5ba7867120aee2ff22bfa38'] = 'Konfigurimi i bllokut CMS';
