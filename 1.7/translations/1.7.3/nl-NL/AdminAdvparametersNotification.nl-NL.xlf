@@ -10,7 +10,7 @@ File: classes/PrestaShopBackup.php:143</note>
       </trans-unit>
       <trans-unit id="4e0ac45de6bd848503ffa98ff6247f2f" approved="yes">
         <source>Error deleting</source>
-        <target xml:lang="nl">Verwijder fout</target>
+        <target xml:lang="nl">Fout bij verwijderen</target>
         <note>Context:
 File: classes/PrestaShopBackup.php:166</note>
       </trans-unit>
@@ -44,7 +44,7 @@ File: classes/PrestaShopBackup.php:317</note>
     <body>
       <trans-unit id="e4a6b1931fbfc9ef4531cab37c84c39f" approved="yes">
         <source>Error: parameter "to" is corrupted</source>
-        <target xml:lang="nl">Fout: parameter "naar" is onjuist</target>
+        <target xml:lang="nl">Fout: parameter "to" is onjuist</target>
         <note>Context:
 File: classes/Mail.php:203</note>
       </trans-unit>
@@ -78,6 +78,12 @@ File: classes/Mail.php:267</note>
         <note>Context:
 File: classes/Mail.php:280</note>
       </trans-unit>
+      <trans-unit id="3ed07fe73e25bba69e3e5dac234b1941" approved="yes">
+        <source>Error - The following e-mail template is missing: %s</source>
+        <target xml:lang="nl">Fout - Het volgende e-mailsjabloon ontbreekt: %s</target>
+        <note>Context:
+File: classes/Mail.php:331</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminWebserviceController.php" source-language="en" target-language="nl" datatype="plaintext">
@@ -96,7 +102,7 @@ File: controllers/admin/AdminWebserviceController.php:252</note>
       </trans-unit>
       <trans-unit id="3a1d42e50ada009f2ef187fbf6dc8a3f" approved="yes">
         <source>To avoid operating problems, please use an Apache server.</source>
-        <target xml:lang="nl">Om problemen te voorkomen kunt u het beste een Apache-server gebruiken.</target>
+        <target xml:lang="nl">Om problemen te voorkomen kunt u het beste een Apache server gebruiken.</target>
         <note>Context:
 File: controllers/admin/AdminWebserviceController.php:272</note>
       </trans-unit>
@@ -146,7 +152,7 @@ File: controllers/admin/AdminStoresController.php:350</note>
     <body>
       <trans-unit id="0ee028bcc2a0101d4d65745086eefc03" approved="yes">
         <source>When saving the query, only the "SELECT" SQL statement is allowed.</source>
-        <target xml:lang="nl">Bij het opslaan van de query wordt alleen de "SELECT" SQL-instructie toegestaan.</target>
+        <target xml:lang="nl">Bij het opslaan van de query wordt alleen de "SELECT" SQL instructie toegestaan.</target>
         <note>Context:
 File: controllers/admin/AdminRequestSqlController.php:115</note>
       </trans-unit>
@@ -167,6 +173,12 @@ File: controllers/admin/AdminRequestSqlController.php:401</note>
         <target xml:lang="nl">De "%attribute%" attribuut bestaat niet in de "%table%" tabel.</target>
         <note>Context:
 File: controllers/admin/AdminRequestSqlController.php:487</note>
+      </trans-unit>
+      <trans-unit id="b162612cdcbf01c01421bad2e8b39432" approved="yes">
+        <source>Undefined "%s" error</source>
+        <target xml:lang="nl">Ongedefinieerde '%s' fout</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:495</note>
       </trans-unit>
       <trans-unit id="dbea0ef67609a60a1f71f8d19e132d1e" approved="yes">
         <source>The "*" operator cannot be used in a nested query.</source>
@@ -204,13 +216,19 @@ File: controllers/admin/AdminRequestSqlController.php:506</note>
         <note>Context:
 File: controllers/admin/AdminRequestSqlController.php:514</note>
       </trans-unit>
+      <trans-unit id="8ff8844bb02822975904934598298987" approved="yes">
+        <source>"%key%" is an unauthorized keyword.</source>
+        <target xml:lang="nl">'%key%' is een niet toegestaan sleutelwoord.</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:523</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminTabsController.php" source-language="en" target-language="nl" datatype="plaintext">
     <body>
-      <trans-unit id="5bb701014490e33a37ecdc43ce578404">
+      <trans-unit id="5bb701014490e33a37ecdc43ce578404" approved="yes">
         <source>You can't put this menu inside itself. </source>
-        <target xml:lang="nl" state="needs-translation"> </target>
+        <target xml:lang="nl">U kunt dit menu niet binnen zichzelf plaatsen. </target>
         <note>Context:
 File: controllers/admin/AdminTabsController.php:293</note>
       </trans-unit>
@@ -278,10 +296,22 @@ File: controllers/admin/AdminEmployeesController.php:571</note>
         <note>Context:
 File: controllers/admin/AdminEmployeesController.php:582</note>
       </trans-unit>
+      <trans-unit id="46cf0d0972e77638e099815140a0d302" approved="yes">
+        <source>The password must be at least %length% characters long.</source>
+        <target xml:lang="nl">Het wachtwoord moet ten minste %length% karakters lang zijn.</target>
+        <note>Context:
+File: controllers/admin/AdminEmployeesController.php:598</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="nl" datatype="plaintext">
     <body>
+      <trans-unit id="af395851b27882221a6df82c727bca3e" approved="yes">
+        <source>The import directory doesn't exist. Please check your file path.</source>
+        <target xml:lang="nl">De import directory bestaat niet. Controleer de locatie van uw bestand.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:615</note>
+      </trans-unit>
       <trans-unit id="c775530fad852632f78395a11820ba23" approved="yes">
         <source>The import directory must be writable (CHMOD 755 / 777).</source>
         <target xml:lang="nl">De importmap moet beschrijfbaar zijn (CHMOD 755 / 777).</target>
@@ -290,7 +320,7 @@ File: controllers/admin/AdminImportController.php:619</note>
       </trans-unit>
       <trans-unit id="68e8d36b17584f88614fb3201925a7ac" approved="yes">
         <source>The uploaded file exceeds the upload_max_filesize directive in php.ini. If your server configuration allows it, you may add a directive in your .htaccess.</source>
-        <target xml:lang="nl">Het geüploade bestand is groter dan upload_max_filesize richtlijn in php.ini. Als uw server configuratie het toestaat kan je een richtlijn toeveogen in uw .htaccess.</target>
+        <target xml:lang="nl">Het geüploade bestand is groter dan upload_max_filesize richtlijn in php.ini. Als uw server configuratie het toestaat kunt u een wijziging toevoegen in uw .htaccess.</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:720</note>
       </trans-unit>
@@ -342,6 +372,36 @@ File: controllers/admin/AdminImportController.php:4526</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3703</note>
       </trans-unit>
+      <trans-unit id="53d9fc1aa79e85c0f845139c6358daee" approved="yes">
+        <source>The category ID must be unique. It can't be the same as the one for Root or Home category.</source>
+        <target xml:lang="nl">Het categorie nummer moet uniek zijn. Dit kan niet hetzelfde zijn als het nummer voor de categorie Root of Home.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1297</note>
+      </trans-unit>
+      <trans-unit id="7a1bebdbf5770873f8172ecf27b2aa50" approved="yes">
+        <source>The category ID must be unique. It can't be the same as the one for the parent category (ID: %1$s).</source>
+        <target xml:lang="nl">Het categorie nummer moet uniek zijn. Dit kan niet hetzelfde zijn als het nummer van de bovenliggende categorie (nummer: %1$s).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1319</note>
+      </trans-unit>
+      <trans-unit id="521531266ae042d0725d7a4aa22a49f4" approved="yes">
+        <source>A category can't be its own parent. You should rename it (current name: %1$s).</source>
+        <target xml:lang="nl">Een categorie kan niet zijn eigen bovenliggende categorie zijn. U dient de naam te wijzigen (huidige naam: %1$s).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1333</note>
+      </trans-unit>
+      <trans-unit id="1123af3eab25b7475419fcaecc6c3beb" approved="yes">
+        <source>%category_name% (ID: %id%) cannot be saved</source>
+        <target xml:lang="nl">%category_name% (ID: %id%) kan niet worden opgeslagen</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1358</note>
+      </trans-unit>
+      <trans-unit id="6c1e9fe2a61808296a44cee372124bcb" approved="yes">
+        <source>URL rewriting failed to auto-generate a friendly URL for: %category_name%</source>
+        <target xml:lang="nl">URL herschrijven om een vriendelijke URL te genereren is mislukt voor: %category_name%</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1386</note>
+      </trans-unit>
       <trans-unit id="4798b868d51d8e259321deff0452c0f9" approved="yes">
         <source>Rewrite link for %1$s (ID %2$s): re-written as %3$s.</source>
         <target xml:lang="nl">Herschreven link voor %1$s (ID %2$s): is herschreven als %3$s.</target>
@@ -366,6 +426,12 @@ File: controllers/admin/AdminImportController.php:1436</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3740</note>
       </trans-unit>
+      <trans-unit id="87098ca5171ae766269f50b24ef3189d" approved="yes">
+        <source>%1$s (ID: %2$s) cannot be %3$s</source>
+        <target xml:lang="nl">%1$s (ID: %2$s) kan niet %3$s zijn</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1459</note>
+      </trans-unit>
       <trans-unit id="2666baaca25feea0b2dc641cfab50d8a" approved="yes">
         <source>Unknown tax rule group ID. You need to create a group with this ID first.</source>
         <target xml:lang="nl">Ongeldige belastinggroep, u hebt eerst een groep met dit nummer nodig.</target>
@@ -377,6 +443,12 @@ File: controllers/admin/AdminImportController.php:1693</note>
         <target xml:lang="nl">%1$s (Nummer: %2$s) kan niet opgeslagen worden</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3841</note>
+      </trans-unit>
+      <trans-unit id="994e8f1b72a9fe7a9e8949343be6bde7" approved="yes">
+        <source>%data% cannot be saved</source>
+        <target xml:lang="nl">%data% kan niet worden opgeslagen</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3814</note>
       </trans-unit>
       <trans-unit id="32fa1d06b5d0a192c9991c4bf038b30c" approved="yes">
         <source>Shop is not valid</source>
@@ -396,21 +468,33 @@ File: controllers/admin/AdminImportController.php:2048</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2078</note>
       </trans-unit>
-      <trans-unit id="c2758df7a8c70260e3b55e26c51b65fd">
+      <trans-unit id="6170902c7935d644e280e440a28d5975" approved="yes">
+        <source>Error copying image: %url%</source>
+        <target xml:lang="nl">Fout tijdens kopiëren afbeelding: %url%</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:2450</note>
+      </trans-unit>
+      <trans-unit id="61e49f62654858f3cd3d9b23bee90d06" approved="yes">
+        <source>Product #%id%: the picture (%url%) cannot be saved.</source>
+        <target xml:lang="nl">Product #%id%: de afbeelding (%url%) kan niet worden opgeslagen.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:2143</note>
+      </trans-unit>
+      <trans-unit id="c2758df7a8c70260e3b55e26c51b65fd" approved="yes">
         <source>Advanced stock management has incorrect value. Not set for product %name% </source>
-        <target xml:lang="nl" state="needs-translation"> </target>
+        <target xml:lang="nl">Geavanceerd voorraadbeheer heeft een onjuiste waarde. Niet ingesteld voor product %name% </target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2187</note>
       </trans-unit>
-      <trans-unit id="bb80841517f78647c5bee69710820c8d">
+      <trans-unit id="bb80841517f78647c5bee69710820c8d" approved="yes">
         <source>Advanced stock management is not enabled, cannot enable on product %name% </source>
-        <target xml:lang="nl" state="needs-translation"> </target>
+        <target xml:lang="nl">Geavanceerd voorraadbeheer is niet ingeschakeld, inschakelen onmogelijk voor product %name% </target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2189</note>
       </trans-unit>
-      <trans-unit id="651e202913d9229ff615d5afd6a6a168">
+      <trans-unit id="651e202913d9229ff615d5afd6a6a168" approved="yes">
         <source>Advanced stock management is not enabled, warehouse not set on product %name% </source>
-        <target xml:lang="nl" state="needs-translation"> </target>
+        <target xml:lang="nl">Geavanceerd voorraadbeheer is niet ingeschakeld, magazijn niet ingesteld voor product %name% </target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2202</note>
       </trans-unit>
@@ -420,15 +504,15 @@ File: controllers/admin/AdminImportController.php:2202</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2222</note>
       </trans-unit>
-      <trans-unit id="3d52f8b2b1a67aa8740b72b3752d54f3">
+      <trans-unit id="3d52f8b2b1a67aa8740b72b3752d54f3" approved="yes">
         <source>Incorrect value for "Depends on stock" for product %name% </source>
-        <target xml:lang="nl" state="needs-translation"> </target>
+        <target xml:lang="nl">Foutieve waarde voor "afhankelijk van voorraad" voor product %name% </target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2230</note>
       </trans-unit>
-      <trans-unit id="65167d7a989d3a25c4f81a7140b07b8f">
+      <trans-unit id="65167d7a989d3a25c4f81a7140b07b8f" approved="yes">
         <source>Advanced stock management is not enabled, cannot set "Depends on stock" for product %name% </source>
-        <target xml:lang="nl" state="needs-translation"> </target>
+        <target xml:lang="nl">Geavanceerd voorraadbeheer is niet ingeschakeld, 'Afhankelijk van voorraad' instellen is onmogelijk voor product %name% </target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2767</note>
       </trans-unit>
@@ -437,6 +521,72 @@ File: controllers/admin/AdminImportController.php:2767</note>
         <target xml:lang="nl">Geen afbeelding gevonden voor de combinatie met id_product = %s en afbeeldingspositie = %s.</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2489</note>
+      </trans-unit>
+      <trans-unit id="b672cb1c6a798cfb9f54de7dd897abd8" approved="yes">
+        <source>EAN13 "%ean13%" has incorrect value for product with id %id%.</source>
+        <target xml:lang="nl">EAN13 "%ean13%" heeft een onjuiste waarde voor product met id %id%.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:2609</note>
+      </trans-unit>
+      <trans-unit id="85b637ec0128d136bf3794c79f2e7295" approved="yes">
+        <source>Advanced stock management has incorrect value. Not set for product with id %id%.</source>
+        <target xml:lang="nl">Geavanceerd voorraadbeheer heeft een onjuiste waarde. Niet ingesteld voor product met id %id%.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:2726</note>
+      </trans-unit>
+      <trans-unit id="934b46cf9eb8a8595ca517b87de6bfb4" approved="yes">
+        <source>Advanced stock management is not enabled, cannot enable on product with id %id%.</source>
+        <target xml:lang="nl">Geavanceerd voorraadbeheer is niet ingeschakeld, inschakelen onmogelijk voor product met id %id%.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:2728</note>
+      </trans-unit>
+      <trans-unit id="0081b2a315ed28289036fa6cc02a3819" approved="yes">
+        <source>Advanced stock management is not enabled, warehouse is not set on product with id %id%.</source>
+        <target xml:lang="nl">Geavanceerd voorraadbeheer is niet ingeschakeld, magazijn is niet ingesteld voor product met id %id%.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:2741</note>
+      </trans-unit>
+      <trans-unit id="c24928943071d3366164238b9413a211" approved="yes">
+        <source>Warehouse did not exist, cannot set on product %name%.</source>
+        <target xml:lang="nl">Magazijn bestaat niet, instellen onmogelijk voor product %name%.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:2757</note>
+      </trans-unit>
+      <trans-unit id="fd6d9d3ba7d4aaacc49f53c2e8c082c0" approved="yes">
+        <source>Email address %1$s (ID: %2$s) cannot be validated.</source>
+        <target xml:lang="nl">E-mailadres %1$s (ID: %2$s) kan niet gevalideerd worden.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3047</note>
+      </trans-unit>
+      <trans-unit id="9a19980e3db9fa010269bb72d31ee42a" approved="yes">
+        <source>Email address %1$s (ID: %2$s) cannot be saved.</source>
+        <target xml:lang="nl">E-mailadres %1$s (ID: %2$s) kan niet opgeslagen worden.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3056</note>
+      </trans-unit>
+      <trans-unit id="14118fbc7d8c233f0ac36ffb31716605" approved="yes">
+        <source>%1$s does not exist in database %2$s (ID: %3$s), and therefore cannot be validated</source>
+        <target xml:lang="nl">%1$s bestaat niet in de database %2$s (ID: %3$s) en kan daarom niet gevalideerd worden</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3242</note>
+      </trans-unit>
+      <trans-unit id="597cf702e07f3b35431d2a499b00cefd" approved="yes">
+        <source>%1$s does not exist in database %2$s (ID: %3$s), and therefore cannot be saved</source>
+        <target xml:lang="nl">%1$s bestaat niet in de database %2$s (nummer: %3$s) en kan daarom niet worden opgeslagen</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3252</note>
+      </trans-unit>
+      <trans-unit id="b06766963f3b27f47f5e6ddf68d8f07e" approved="yes">
+        <source>"%email%" is not a valid email address.</source>
+        <target xml:lang="nl">"%email%" is geen geldig e-mailadres.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3229</note>
+      </trans-unit>
+      <trans-unit id="4a69d9da990728e003654d32a0b283a4" approved="yes">
+        <source>The customer ID #%d does not exist in the database, and therefore cannot be validated.</source>
+        <target xml:lang="nl">Het klantnummer #%d komt niet voor in de database en kan daarom niet gevalideerd worden.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3265</note>
       </trans-unit>
       <trans-unit id="608ec99cc3ef74d962769c1958a1fa62" approved="yes">
         <source>The customer ID #%d does not exist in the database, and therefore cannot be saved.</source>
@@ -462,9 +612,51 @@ File: controllers/admin/AdminImportController.php:3679</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3847</note>
       </trans-unit>
+      <trans-unit id="2e73276e5106584df31fd1cc5823ba81" approved="yes">
+        <source>Supplier ID (%id%) is not valid (at line %line%).</source>
+        <target xml:lang="nl">Leveranciers-id (%id%) is niet geldig (in line %line%).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3917</note>
+      </trans-unit>
+      <trans-unit id="5dbfdcc4de08ec893f55919dc4e872dc" approved="yes">
+        <source>Lang ID (%id%) is not valid (at line %line%).</source>
+        <target xml:lang="nl">Taal ID (%id%) is niet geldig (in line %line%).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3920</note>
+      </trans-unit>
+      <trans-unit id="f0cf11a8f6275d2bac5a189cbb41c689" approved="yes">
+        <source>Warehouse ID (%id%) is not valid (at line %line%).</source>
+        <target xml:lang="nl">Magazijnnummer (%id%) is niet geldig (op line %line%).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3923</note>
+      </trans-unit>
+      <trans-unit id="b390e8c2a66fd018293fb44a5b8208c8" approved="yes">
+        <source>Currency ID (%id%) is not valid (at line %line%).</source>
+        <target xml:lang="nl">Valutanummer (%id%) is niet geldig (op line %line%).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3926</note>
+      </trans-unit>
+      <trans-unit id="41a2fc826e4bd29b8eaf497a89a9dc5d" approved="yes">
+        <source>Reference (%ref%) already exists (at line %line%).</source>
+        <target xml:lang="nl">Referentie (%ref%) bestaat al (op line %line%).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3932</note>
+      </trans-unit>
       <trans-unit id="70e7a6fcceb39a1e3ea3925182b85d18" approved="yes">
         <source>YYYY-MM-DD</source>
         <target xml:lang="nl">dd-mm-jjjj</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3937</note>
+      </trans-unit>
+      <trans-unit id="c1be0fbaeb4e6b509e2f65240b7e5970" approved="yes">
+        <source>Date format (%date%) is not valid (at line %line%). It should be: %date_format%.</source>
+        <target xml:lang="nl">Datum formaat (%date%) is niet geldig (op line %line%). Het zou moeten zijn: %date_format%.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3935</note>
+      </trans-unit>
+      <trans-unit id="8cc169924951a04aea4f6a86334f3ce6" approved="yes">
+        <source>Date (%date%) cannot be in the past (at line %line%). Format: %date_format%.</source>
+        <target xml:lang="nl">Datum (%date%) kan niet in het verleden liggen (op line %line%) Formaat: %date_format%.</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3937</note>
       </trans-unit>
@@ -473,6 +665,24 @@ File: controllers/admin/AdminImportController.php:3937</note>
         <target xml:lang="nl">Formaat: tussen 0 en 100</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:4097</note>
+      </trans-unit>
+      <trans-unit id="e0b985fb06e1498649ed1cfd6f3fb3e4" approved="yes">
+        <source>Discount rate (%rate%) is not valid (at line %line%). %format%.</source>
+        <target xml:lang="nl">Kortingspercentage (%rate%) is niet geldig (op line %line%). %format%.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3940</note>
+      </trans-unit>
+      <trans-unit id="3f2f635ad300e97bc217b69cc06dfc30" approved="yes">
+        <source>Supply Order (%id%) is not editable (at line %line%).</source>
+        <target xml:lang="nl">Leveranciersbestelling (%id%) is niet bewerkbaar (op line %line%).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3945</note>
+      </trans-unit>
+      <trans-unit id="ad1ce5290a697ed3729cbd520432cf22" approved="yes">
+        <source>Supply Order could not be saved (at line %line%).</source>
+        <target xml:lang="nl">Leveranciersbestelling kon niet worden opgeslagen (op line %line%).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3976</note>
       </trans-unit>
       <trans-unit id="bb19d4490bdc48656603c0a7ef30db73" approved="yes">
         <source>Supply Order (%s) could not be loaded (at line %d).</source>
@@ -550,21 +760,96 @@ File: controllers/admin/AdminImportController.php:4647</note>
   </file>
   <file original="admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl" source-language="en" target-language="nl" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="d85366190ecd2aebf8363980ad9d6740" approved="yes">
+        <source>Importing your data...</source>
+        <target xml:lang="nl">Uw gegevens importeren...</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:76</note>
+      </trans-unit>
+      <trans-unit id="8a1d14318cfc965da76c0b9d0a53bb93" approved="yes">
+        <source>Aborting, please wait...</source>
+        <target xml:lang="nl">Afbreken. Een ogenblik geduld...</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:27</note>
+      </trans-unit>
+      <trans-unit id="e130ff31fe5f7a054a2db876a7acc94d" approved="yes">
+        <source>Data imported!</source>
+        <target xml:lang="nl">Gegevens geïmporteerd!</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:33</note>
+      </trans-unit>
+      <trans-unit id="118f9dbc8442c6be19dfc0b70d965929" approved="yes">
+        <source>Look at your listings to make sure it's all there as you wished.</source>
+        <target xml:lang="nl">Controleer uw overzichten om er zeker van zijn dat alles naar wens is.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:35</note>
+      </trans-unit>
+      <trans-unit id="4959a069997257077022c1b96b3b8001" approved="yes">
+        <source>Errors occurred:</source>
+        <target xml:lang="nl">Er is iets misgegaan:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:39</note>
+      </trans-unit>
+      <trans-unit id="0ccb924c3db6a900cff26de895f756b8" approved="yes">
+        <source>Warning, the current import may require a PHP setting update, to allow more data to be transferred. If the current import stops before the end, you should increase your PHP "post_max_size" setting to [1]%size%[/1]MB at least, and try again.</source>
+        <target xml:lang="nl">Let op, voor de huidige import kan een update van een PHP instelling nodig zijn om meer gegevens te kunnen overdragen. Als de huidige import voor het einde stopt, moet u uw PHP instelling 'post_max_size' verhogen tot ten minste [1]%size%[/1]MB en daarna opnieuw proberen uit te voeren.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:42</note>
+      </trans-unit>
+      <trans-unit id="841e4579e55a01ab8f0c565995ba7cfc" approved="yes">
+        <source>Some errors were detected. Please check the details:</source>
+        <target xml:lang="nl">Er zijn fouten ontdekt. Controleer de details:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:49</note>
+      </trans-unit>
+      <trans-unit id="3df311b82f78fa4059e9a78a26e77b06" approved="yes">
+        <source>We made the following adjustments:</source>
+        <target xml:lang="nl">We hebben de volgende aanpassingen aangebracht:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:52</note>
+      </trans-unit>
+      <trans-unit id="6e17621d481059924339f91ed431a116" approved="yes">
+        <source>Validating data...</source>
+        <target xml:lang="nl">Gegevens valideren...</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:57</note>
+      </trans-unit>
+      <trans-unit id="95fdb0ead4798ff27cce78fac3fd3c11" approved="yes">
+        <source>[1]%percentage%[/1]% validated</source>
+        <target xml:lang="nl">[1]%percentage%[/1]% gevalideerd</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:62</note>
+      </trans-unit>
+      <trans-unit id="fd2f43e6f9f4de5be1b08cdac13d7749" approved="yes">
+        <source>Processing next page...</source>
+        <target xml:lang="nl">Volgende pagina verwerken...</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:92</note>
+      </trans-unit>
+      <trans-unit id="f438c83e3ff4dd40a3fc1bf4bb3e79f5" approved="yes">
+        <source>Linking accessories...</source>
+        <target xml:lang="nl">Accessoires koppelen...</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:81</note>
+      </trans-unit>
+      <trans-unit id="2a44b5ac9f88c57f584bf083730a93f7" approved="yes">
+        <source>[1]%size%[/1]% imported</source>
+        <target xml:lang="nl">[1]%size%[/1]% geïmporteerd</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:84</note>
+      </trans-unit>
+      <trans-unit id="650e0b1fd707ad8ad3a94e2eb494de3d" approved="yes">
+        <source>Ignore warnings and continue?</source>
+        <target xml:lang="nl">Waarschuwingen negeren en doorgaan?</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:100</note>
+      </trans-unit>
+      <trans-unit id="b8388ec68dcac2402d944fbb3382b0f1" approved="yes">
+        <source>Abort import</source>
+        <target xml:lang="nl">Importeren afbreken</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:104</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminEmailsController.php" source-language="en" target-language="nl" datatype="plaintext">
@@ -641,7 +926,7 @@ File: controllers/admin/AdminCartsController.php:628</note>
     <body>
       <trans-unit id="c3ecc0e8b4dc11a1d2c66d81439b4a42" approved="yes">
         <source>The limit chosen is larger than the server's maximum upload limit. Please increase the limits of your server.</source>
-        <target xml:lang="nl">De gekozen limiet is groter dan de maximale server upload limiet. Vergroot de limiet van je server aub.</target>
+        <target xml:lang="nl">De gekozen limiet is groter dan de maximale server upload limiet. Vergroot de limiet van je server.</target>
         <note>Context:
 File: controllers/admin/AdminAdminPreferencesController.php:164</note>
       </trans-unit>
@@ -651,7 +936,7 @@ File: controllers/admin/AdminAdminPreferencesController.php:164</note>
     <body>
       <trans-unit id="7d6f235518e595f4e988b6811d2ceeab" approved="yes">
         <source>For security reasons, you cannot delete the Administrator's profile.</source>
-        <target xml:lang="nl">Om veiligheidsredenen kunt u het beheerdersprofiel niet verwijderen</target>
+        <target xml:lang="nl">Om veiligheidsredenen kunt u het beheerdersprofiel niet verwijderen.</target>
         <note>Context:
 File: controllers/admin/AdminProfilesController.php:100</note>
       </trans-unit>
@@ -661,7 +946,7 @@ File: controllers/admin/AdminProfilesController.php:100</note>
     <body>
       <trans-unit id="4f32e16f17a3ba8527cd8160ad85de37" approved="yes">
         <source>Update your PHP version.</source>
-        <target xml:lang="nl">Werk uw PHP-versie bij.</target>
+        <target xml:lang="nl">Werk uw PHP versie bij.</target>
         <note>Context:
 File: src/Adapter/Requirement/CheckRequirements.php:99</note>
       </trans-unit>
@@ -791,7 +1076,7 @@ File: src/Adapter/Requirement/CheckRequirements.php:119</note>
     <body>
       <trans-unit id="b42cd3af71fc00ef268910709255320a" approved="yes">
         <source>You do not have permission to view this.</source>
-        <target xml:lang="nl">U hebt geen toestemming om dit te bekijken.</target>
+        <target xml:lang="nl">U hebt geen permissie om dit te bekijken.</target>
         <note>Context:
 File: admin-dev/backup.php:43</note>
       </trans-unit>
@@ -823,7 +1108,12 @@ File: admin-dev/backup.php:105</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/AdvancedParameters/memcache_servers.html.twig" source-language="en" target-language="nl" datatype="plaintext">
     <body>
-      
+      <trans-unit id="29be13f78208f2e848c6b6645a79f813" approved="yes">
+        <source>Do you really want to remove the server %serverIp%:%serverPort% ?</source>
+        <target xml:lang="nl">Weet u zeker dat de server %serverIp%:%serverPort% wilt verwijderen?</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/AdvancedParameters/memcache_servers.html.twig:61</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/AdvancedParameters/system_information.html.twig" source-language="en" target-language="nl" datatype="plaintext">
@@ -836,7 +1126,7 @@ File: src/PrestaShopBundle/Resources/views/Admin/AdvancedParameters/system_infor
       </trans-unit>
       <trans-unit id="2ad1ffcbe2184ed25baa66baece8908b" approved="yes">
         <source>Please fix the following error(s)</source>
-        <target xml:lang="nl">Repareer aub de volgende fout(en)</target>
+        <target xml:lang="nl">Repareer de volgende fout(en)</target>
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/AdvancedParameters/system_information.html.twig:212</note>
       </trans-unit>
@@ -882,7 +1172,7 @@ File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl
       </trans-unit>
       <trans-unit id="418dde4b22e22a725e75b2819c0373b2" approved="yes">
         <source>Note that the Category import does not support having two categories with the same name.</source>
-        <target xml:lang="nl">Merk op dat de categorie import twee categorieën met dezelfde naam niet ondersteunt.</target>
+        <target xml:lang="nl">Let op de categorie import ondersteund geen twee categorieën met dezelfde naam.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:65</note>
       </trans-unit>
@@ -916,19 +1206,19 @@ File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl
     <body>
       <trans-unit id="54ee283a75b8a8a38f0b4996e4e69db5" approved="yes">
         <source>Disclaimer before creating a new backup</source>
-        <target xml:lang="nl">Waarschuwing voordat er een nieuwe reservekopie wordt gemaakt</target>
+        <target xml:lang="nl">Waarschuwing voordat er een nieuwe backup wordt gemaakt</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:46</note>
       </trans-unit>
       <trans-unit id="cc6f77e8d23517366b4380f9a180655f" approved="yes">
         <source>PrestaShop is open-source software. You are using it at your own risk under the license agreement.</source>
-        <target xml:lang="nl">Prestashop is open-source software, u gebruikt het op eigen risico onder de gebruikersovereenkomst.</target>
+        <target xml:lang="nl">PrestaShop is open-source software, u gebruikt het op eigen risico onder de gebruikersovereenkomst.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:49</note>
       </trans-unit>
       <trans-unit id="99c8acd81f347dd6268fda9bf9e61b97" approved="yes">
         <source>You should back up your data on a regular basis (both files and database).</source>
-        <target xml:lang="nl">U zou op een regelmatige basis een reservekopie van uw gegevens moeten maken (zowel van de bestanden als van de database).</target>
+        <target xml:lang="nl">U zou op een regelmatige basis een backup van uw gegevens moeten maken (zowel van de bestanden als van de database).</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:50</note>
       </trans-unit>
@@ -980,19 +1270,19 @@ File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:61<
     <body>
       <trans-unit id="0869c85782ee2481b83a9f580a09e963" approved="yes">
         <source>PrestaShop is not responsible for your database, its backups and/or recovery.</source>
-        <target xml:lang="nl">Prestashop is niet verantwoordelijk voor uw database, reservekopieën, gegevens en herstel.</target>
+        <target xml:lang="nl">PrestaShop is niet verantwoordelijk voor uw database, backup en/of het herstel.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:50</note>
       </trans-unit>
       <trans-unit id="088e7482af32200b588d22e5f0af4f94" approved="yes">
         <source>How to restore a database backup</source>
-        <target xml:lang="nl">Hoe kan ik een databasebackup terugzetten</target>
+        <target xml:lang="nl">Hoe kan ik een database backup terugzetten</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:70</note>
       </trans-unit>
       <trans-unit id="bcb4db2b36ea3b1e20e5ee4aa9a68665" approved="yes">
         <source>If you need to restore a database backup, we invite you to subscribe to a [1][2]technical support plan[/2][/1].</source>
-        <target xml:lang="nl">Als het nodig is om een databasebackup te herstellen, nodigen wij u uit om gebruik te maken van een [1][2] technisch ondersteuningsplan [/2][/1].</target>
+        <target xml:lang="nl">Als het nodig is om een database backup te herstellen, nodigen wij u uit om gebruik te maken van een [1][2] technisch ondersteuningsplan [/2][/1].</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:71</note>
       </trans-unit>
@@ -1020,15 +1310,21 @@ File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_hea
     <body>
       <trans-unit id="cd7fa1b4a137bf4da20f84bed6624fa5" approved="yes">
         <source>Beginning the download ...</source>
-        <target xml:lang="nl">Downloaden begint ...</target>
+        <target xml:lang="nl">Downloaden begint...</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/helpers/view/view.tpl:32</note>
       </trans-unit>
       <trans-unit id="6a278621d6f2e7dbd56c7beca4081e2d" approved="yes">
         <source>Backup files should automatically start downloading.</source>
-        <target xml:lang="nl">Backupbestanden zouden automatisch moeten beginnen met downloaden.</target>
+        <target xml:lang="nl">Backup bestanden zouden automatisch moeten beginnen met downloaden.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/helpers/view/view.tpl:33</note>
+      </trans-unit>
+      <trans-unit id="da61b0c3311560af7fa1d9a515b309f6" approved="yes">
+        <source>If not,[1][2] please click here[/1]!</source>
+        <target xml:lang="nl">Indien niet, [1][2] klikt u hier[/1]!</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/view/view.tpl:34</note>
       </trans-unit>
     </body>
   </file>
@@ -1036,7 +1332,7 @@ File: admin-dev/themes/default/template/controllers/backup/helpers/view/view.tpl
     <body>
       <trans-unit id="b04c5e39cb3460a062bba48d85567cdb" approved="yes">
         <source>Administrator permissions cannot be modified.</source>
-        <target xml:lang="nl">Beheerderpermissies kunnen niet gewijzigd worden.</target>
+        <target xml:lang="nl">Beheerderspermissies kunnen niet gewijzigd worden.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/access/helpers/form/form.tpl:515</note>
       </trans-unit>
@@ -1046,7 +1342,7 @@ File: admin-dev/themes/default/template/controllers/access/helpers/form/form.tpl
     <body>
       <trans-unit id="3be751fc7ab3f3ced8007796fe8bde7d" approved="yes">
         <source>This SQL query has no result.</source>
-        <target xml:lang="nl">Deze SQL-query heeft geen resultaat.</target>
+        <target xml:lang="nl">Deze SQL query heeft geen resultaat.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/request_sql/helpers/view/view.tpl:32</note>
       </trans-unit>
@@ -1056,7 +1352,7 @@ File: admin-dev/themes/default/template/controllers/request_sql/helpers/view/vie
     <body>
       <trans-unit id="0fe194d9bb812c48dfe35a3cf6d0af52" approved="yes">
         <source>Please choose a MySQL table</source>
-        <target xml:lang="nl">Gelieve een MySQL-tabel te kiezen</target>
+        <target xml:lang="nl">Gelieve een MySQL tabel te kiezen</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/request_sql/helpers/form/form.tpl:49</note>
       </trans-unit>
