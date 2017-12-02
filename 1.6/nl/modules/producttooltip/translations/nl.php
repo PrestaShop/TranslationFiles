@@ -26,6 +26,7 @@ $_MODULE['<{producttooltip}prestashop>producttooltip_c9cc8cce247e49bae79f15173ce
 $_MODULE['<{producttooltip}prestashop>producttooltip_265e0fd0901e35cae9978e2319b6c32e'] = '%d persoon bekijkt momenteel dit product.';
 $_MODULE['<{producttooltip}prestashop>producttooltip_858d0bcd440ff0d1cc1e6bd53d4fe9f6'] = '%d personen bekijken momenteel dit product.';
 $_MODULE['<{producttooltip}prestashop>producttooltip_b2ccdeedefb87a6f4c52b0926b030d65'] = 'Laatste keer dat dit product was gekocht: ';
+$_MODULE['<{producttooltip}prestashop>producttooltip_f934c297c7d902f5871edb4a12acbb84'] = 'Laatste keer dat dit product was toegevoegd aan een winkelwagen: ';
 
 
 return $_MODULE;

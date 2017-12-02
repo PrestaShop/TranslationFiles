@@ -6,6 +6,7 @@ $_MODULE = array();
 $_MODULE['<{blockuserinfo}prestashop>blockuserinfo_a2e9cd952cda8ba167e62b25a496c6c1'] = 'Gebruikersinformatie blok';
 $_MODULE['<{blockuserinfo}prestashop>blockuserinfo_970a31aa19d205f92ccfd1913ca04dc0'] = 'Voegt een blok toe die informatie toont over de klant.';
 $_MODULE['<{blockuserinfo}prestashop>blockuserinfo_0c3bf3014aafb90201805e45b5e62881'] = 'Bekijk mijn winkelwagen';
+$_MODULE['<{blockuserinfo}prestashop>blockuserinfo_a85eba4c6c699122b2bb1387ea4813ad'] = 'Winkelwagen';
 $_MODULE['<{blockuserinfo}prestashop>blockuserinfo_deb10517653c255364175796ace3553f'] = 'Product';
 $_MODULE['<{blockuserinfo}prestashop>blockuserinfo_068f80c7519d0528fb08e82137a72131'] = 'Producten';
 $_MODULE['<{blockuserinfo}prestashop>blockuserinfo_9e65b51e82f2a9b9f72ebe3e083582bb'] = '(leeg)';
