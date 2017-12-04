@@ -1044,6 +1044,7 @@ $_LANGADM['AdminImport6311ae17c1ee52b36e68aaf4ad066387'] = 'Ostatné';
 $_LANGADM['AdminImportbcc254b55c4a1babdf1dcb82c207506b'] = 'Telefón';
 $_LANGADM['AdminImport5020eaae41baf0caa37bcb73b4a12934'] = 'Mobilný telefón';
 $_LANGADM['AdminImport7cb32e708d6b961d476baced73d362bb'] = 'IČ DPH';
+$_LANGADM['AdminImport0d1e67a102ddf8a6bfc13098e408636d'] = 'IČO';
 $_LANGADM['AdminImport3d1c10fcfac7da07fdb8b9f99d1c0901'] = 'ID/ Názov skupinového obchodu';
 $_LANGADM['AdminImport66b9f82f51bb4b95a52bb1c9363fef3d'] = 'Hľadanie *';
 $_LANGADM['AdminImport4d3d769b812b6faa6b76e1a8abaece2d'] = 'Aktívne';

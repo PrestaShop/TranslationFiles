@@ -681,6 +681,7 @@ $_LANG['order-return_63d5049791d9d79d86e9a108b0a999ca'] = '참고';
 $_LANG['order-return_deb10517653c255364175796ace3553f'] = '상품';
 $_LANG['order-return_694e8d1f2ee056f98ee488bdc4982d73'] = '수량';
 $_LANG['order-return_1ac6ee29e9e68fb71bad91c1d34348cc'] = '%s';
+$_LANG['order-return_92a9774c2a5df29ac4bffb46219ea9cd'] = '알림';
 $_LANG['order-return_2b79d007c64009edf92d06f7cb280b25'] = 'Tous les produits doivent être retournés dans leur emballage et leur état d’origine.';
 $_LANG['order-return_f3ba7c2fb2c65ad6fa1b1efd30573a8d'] = '출력하기';
 $_LANG['order-return_955b51949c0e756934c02c521f7f9405'] = 'PDF 반품서';
