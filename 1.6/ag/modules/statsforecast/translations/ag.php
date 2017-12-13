@@ -40,7 +40,6 @@ $_MODULE['<{statsforecast}prestashop>statsforecast_11ff9f68afb6b8b5b8eda218d7c83
 $_MODULE['<{statsforecast}prestashop>statsforecast_71241798130f714cbd2786df3da2cf0b'] = 'Valor promedio del carrito';
 $_MODULE['<{statsforecast}prestashop>statsforecast_f13877f6ad53ce91fcb20fb8b7969698'] = 'Distribución por categorías';
 $_MODULE['<{statsforecast}prestashop>statsforecast_b3ff996fe5c77610359114835baf9b38'] = 'Zona';
-$_MODULE['<{statsforecast}prestashop>statsforecast_3adbdb3ac060038aa0e6e6c138ef9873'] = 'CategorÃ­a';
 $_MODULE['<{statsforecast}prestashop>statsforecast_d1873a71f318c4e4733240f0b5911af3'] = 'Productos vendidos';
 $_MODULE['<{statsforecast}prestashop>statsforecast_954b04c203e651728d12622da369cd80'] = 'Porcentaje de productos vendidos';
 $_MODULE['<{statsforecast}prestashop>statsforecast_a613e7309e4cb7fdaf416fa4f8bfd360'] = 'Porcentaje de ventas';

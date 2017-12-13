@@ -5,7 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_9862f1949f776f69155b6e6b330c7ee1'] = 'Bloque Más vendidos';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_ed6476843a865d9daf92e409082b76e1'] = 'Añade un bloque que muestra los productos más vendidos de tu tienda.';
-$_MODULE['<{blockbestsellers}prestashop>blockbestsellers_c888438d14855d7d96a2724ee9c306bd'] = 'ConfiguraciÃ³n Actualizada';
+$_MODULE['<{blockbestsellers}prestashop>blockbestsellers_c888438d14855d7d96a2724ee9c306bd'] = 'Configuración actualizada';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_f4f70727dc34561dfde1a3c529b6205c'] = 'Ajustes';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_26986c3388870d4148b1b5375368a83d'] = 'Productos a mostrar';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_2b21378492166b0e5a855e2da611659c'] = 'Determina el número de productos a mostrar en este bloque';

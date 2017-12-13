@@ -3,7 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{newsletter}prestashop>newsletter_ffb7e666a70151215b4c55c6268d7d72'] = 'BoletÃ­n de Noticias';
+$_MODULE['<{newsletter}prestashop>newsletter_ffb7e666a70151215b4c55c6268d7d72'] = 'Boletín de noticias';
 $_MODULE['<{newsletter}prestashop>newsletter_804a924e464fd21ed92f820224c4091d'] = 'Genera un archivo .CSV para mailing masivo';
 $_MODULE['<{newsletter}prestashop>newsletter_c3987e4cac14a8456515f0d200da04ee'] = 'Todos los paises';
 $_MODULE['<{newsletter}prestashop>newsletter_fa01fd956e87307bce4c90a0de9b0437'] = 'País del cliente';

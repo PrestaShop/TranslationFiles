@@ -37,7 +37,6 @@ $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_06933067aafd48425d67bcb01bba5cb
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_c7da501f54544eba6787960200d9efdb'] = 'CMS';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_ec136b444eede3bc85639fac0dd06229'] = 'Proveedor';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_c0bd7654d5b278e65f21cf4e9153fdb4'] = 'Fabricante';
-$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_af1b98adf7f686b84cd0b443e022b7a0'] = 'CategorÃ­as';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_12a521af593422cd508f7707662c9eb2'] = 'Tiendas';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_068f80c7519d0528fb08e82137a72131'] = 'Productos';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_778118c7dd993db08f704e15efa4a7fa'] = 'Selecciona la ID del producto';

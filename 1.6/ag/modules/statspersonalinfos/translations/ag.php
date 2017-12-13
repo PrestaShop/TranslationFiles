@@ -33,8 +33,6 @@ $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_62ce9f61153b331eabe
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_a7724f78dcdf2179c5ca651d15ed5b2c'] = '50 a 59 aÃ±os';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_6a239f88f1aeb0561e7786b6120d1d5e'] = 'mas de 60 Ã±os';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_73b0130037e21b76351aebfd29d0b9aa'] = 'DistribuciÃ³n del paÃ­s';
-$_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_28e81c8343702f6c813cc31a7f90616a'] = 'DistribuciÃ³n de moneda';
-$_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_f1dd68fb6a00d3e4d7f751deacde995d'] = 'DistribuciÃ³n de idiomas';
 
 
 return $_MODULE;

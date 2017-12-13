@@ -5,7 +5,6 @@ $_MODULE = array();
 
 $_MODULE['<{blockspecials}prestashop>blockspecials_c19ed4ea98cbf319735f6d09bde6c757'] = 'Bloque Productos Especiales';
 $_MODULE['<{blockspecials}prestashop>blockspecials_f5bae06098deb9298cb9ceca89171944'] = 'Añade un bloque que muestra tus productos en oferta.';
-$_MODULE['<{blockspecials}prestashop>blockspecials_c888438d14855d7d96a2724ee9c306bd'] = 'ConfiguraciÃ³n Actualizada';
 $_MODULE['<{blockspecials}prestashop>blockspecials_f4f70727dc34561dfde1a3c529b6205c'] = 'Ajustes';
 $_MODULE['<{blockspecials}prestashop>blockspecials_24ff4e4d39bb7811f6bdf0c189462272'] = 'Mostrar este bloque siempre';
 $_MODULE['<{blockspecials}prestashop>blockspecials_53d61d1ac0507b1bd8cd99db8d64fb19'] = 'Mostrar este bloque aunque no haya productos disponibles.';

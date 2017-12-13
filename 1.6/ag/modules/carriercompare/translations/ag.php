@@ -4,7 +4,6 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{carriercompare}prestashop>carriercompare_533bf2149f935df1f934e5ee55f68d20'] = 'Haga una estimación de sus gastos de envío e impuestos';
-$_MODULE['<{carriercompare}prestashop>carriercompare_59716c97497eb9694541f7c3d37b1a4d'] = 'PaÃ­s';
 $_MODULE['<{carriercompare}prestashop>carriercompare_46a2a41cc6e552044816a2d04634545d'] = 'Estado';
 $_MODULE['<{carriercompare}prestashop>carriercompare_c6e2a9b2d1979c244d18c7e9fbf9a86f'] = 'Código postal/Zip';
 $_MODULE['<{carriercompare}prestashop>carriercompare_9207f4078f515ecc8256bae33fa1f497'] = 'Necesario para algunos transportistas.';

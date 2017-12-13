@@ -5,7 +5,6 @@ $_MODULE = array();
 
 $_MODULE['<{producttooltip}prestashop>producttooltip_4776f7eb5998034f7bbc63b6457d1ff4'] = 'Información emergente sobre producto';
 $_MODULE['<{producttooltip}prestashop>producttooltip_0406dc99f3d31535975fdddf6f4ae4d3'] = 'Muestra información del producto en la página: cuantas personas estan viendo éste, la última vez que se vendió y la última vez que se añadió a un carrito.';
-$_MODULE['<{producttooltip}prestashop>producttooltip_c888438d14855d7d96a2724ee9c306bd'] = 'ConfiguraciÃ³n Actualizada';
 $_MODULE['<{producttooltip}prestashop>producttooltip_f4f70727dc34561dfde1a3c529b6205c'] = 'Ajustes';
 $_MODULE['<{producttooltip}prestashop>producttooltip_6a3f9bbed911bae4ffe5ab84294d7b9f'] = 'Número de visitantes';
 $_MODULE['<{producttooltip}prestashop>producttooltip_5c65d0f105e43f5186c1275fb83a661a'] = 'Mostrar el número de visitantes que están viendo este producto.';

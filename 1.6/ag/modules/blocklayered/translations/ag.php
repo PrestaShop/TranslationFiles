@@ -26,7 +26,6 @@ $_MODULE['<{blocklayered}prestashop>blocklayered_2d25c72c1b18e562f6654fff8e11711
 $_MODULE['<{blocklayered}prestashop>blocklayered_fcebe56087b9373f15514831184fa572'] = 'Con stock primero';
 $_MODULE['<{blocklayered}prestashop>blocklayered_faeaec9eda6bc4c8cb6e1a9156a858be'] = 'Disponibilidad';
 $_MODULE['<{blocklayered}prestashop>blocklayered_c0bd7654d5b278e65f21cf4e9153fdb4'] = 'Fabricante';
-$_MODULE['<{blocklayered}prestashop>blocklayered_af1b98adf7f686b84cd0b443e022b7a0'] = 'CategorÃ­as';
 $_MODULE['<{blocklayered}prestashop>blocklayered_78a5eb43deef9a7b5b9ce157b9d52ac4'] = 'precio';
 $_MODULE['<{blocklayered}prestashop>blocklayered_7edabf994b76a00cbc60c95af337db8f'] = 'peso';
 $_MODULE['<{blocklayered}prestashop>blocklayered_32d2e6cd4bb1719c572ef470a3a525b6'] = 'Mi plantilla %s';
@@ -135,7 +134,6 @@ $_MODULE['<{blocklayered}prestashop>view_1.6_16349835364cf839e6670b0de7da6362'] 
 $_MODULE['<{blocklayered}prestashop>view_1.6_dc83eb2d8601743d8111c5150b93fc71'] = 'Filtros de plantillas';
 $_MODULE['<{blocklayered}prestashop>view_1.6_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
 $_MODULE['<{blocklayered}prestashop>view_1.6_49ee3087348e8d44e1feda1917443987'] = 'Nombre';
-$_MODULE['<{blocklayered}prestashop>view_1.6_af1b98adf7f686b84cd0b443e022b7a0'] = 'CategorÃ­as';
 $_MODULE['<{blocklayered}prestashop>view_1.6_f7f19392da30e81c3abf433ce7b8ca38'] = 'Creado el';
 $_MODULE['<{blocklayered}prestashop>view_1.6_06df33001c1d7187fdd81ea1f5b277aa'] = 'Acciones';
 $_MODULE['<{blocklayered}prestashop>view_1.6_7dce122004969d56ae2e0245cb754d35'] = 'Editar';
@@ -190,7 +188,6 @@ $_MODULE['<{blocklayered}prestashop>view_dc83eb2d8601743d8111c5150b93fc71'] = 'F
 $_MODULE['<{blocklayered}prestashop>view_2198220edde014ff59601bb2646fed00'] = 'Filtros de plantillas (%d)';
 $_MODULE['<{blocklayered}prestashop>view_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
 $_MODULE['<{blocklayered}prestashop>view_49ee3087348e8d44e1feda1917443987'] = 'Nombre';
-$_MODULE['<{blocklayered}prestashop>view_af1b98adf7f686b84cd0b443e022b7a0'] = 'CategorÃ­as';
 $_MODULE['<{blocklayered}prestashop>view_f7f19392da30e81c3abf433ce7b8ca38'] = 'Creado el';
 $_MODULE['<{blocklayered}prestashop>view_06df33001c1d7187fdd81ea1f5b277aa'] = 'Acciones';
 $_MODULE['<{blocklayered}prestashop>view_7dce122004969d56ae2e0245cb754d35'] = 'Editar';

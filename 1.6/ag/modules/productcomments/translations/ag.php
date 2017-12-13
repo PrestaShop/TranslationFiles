@@ -23,7 +23,6 @@ $_MODULE['<{productcomments}prestashop>productcomments-ajax_6bf852d9850445291f5e
 $_MODULE['<{productcomments}prestashop>productcomments-ajax_8aafe254c3e8dceb6425591b322044f2'] = 'Debe esperar %d segundos antes de publicar un nuevo comentario.';
 $_MODULE['<{productcomments}prestashop>productcomments_b91c4e8b229a399a3bc911d352524a9b'] = 'Comentarios sobre el producto';
 $_MODULE['<{productcomments}prestashop>productcomments_a8cd99c74a32936a90127454a02d7500'] = 'Permite a los usuarios publicar comentarios y valorar productos con criterios específicos.';
-$_MODULE['<{productcomments}prestashop>productcomments_c888438d14855d7d96a2724ee9c306bd'] = 'ConfiguraciÃ³n Actualizada';
 $_MODULE['<{productcomments}prestashop>productcomments_8a4c4c1ccc2b1c3b89e828e24ef591a8'] = 'El criterio no se pudo guardar';
 $_MODULE['<{productcomments}prestashop>productcomments_1bb54e382f7dbdb260f0aa6b42bb624b'] = 'Criterio eliminado';
 $_MODULE['<{productcomments}prestashop>productcomments_254f642527b45bc260048e30704edb39'] = 'Configuración';

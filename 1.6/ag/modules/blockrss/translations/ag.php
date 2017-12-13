@@ -12,7 +12,6 @@ $_MODULE['<{blockrss}prestashop>blockrss_1b3d34e25aef32a3c8daddfff856577f'] = 'N
 $_MODULE['<{blockrss}prestashop>blockrss_549a15a569b4e5e250275db17712cd91'] = 'Has seleccionado una URL de fuente de tu propio sitio web. Por favor, elige otra URL.';
 $_MODULE['<{blockrss}prestashop>blockrss_bef637cd0e222a8b56676cb64ce75258'] = 'Fuente inaccesible, comprueba su URL';
 $_MODULE['<{blockrss}prestashop>blockrss_1844ef1bfaa030dc8423c4645a43525c'] = 'Feed inválido';
-$_MODULE['<{blockrss}prestashop>blockrss_c888438d14855d7d96a2724ee9c306bd'] = 'ConfiguraciÃ³n Actualizada';
 $_MODULE['<{blockrss}prestashop>blockrss_0a1c629f0e86804a9e165f4b1ee399b7'] = 'Error: fuente RSS no válida en el módulo "blockrss": %s';
 $_MODULE['<{blockrss}prestashop>blockrss_f4f70727dc34561dfde1a3c529b6205c'] = 'Ajustes';
 $_MODULE['<{blockrss}prestashop>blockrss_b22c8f9ad7db023c548c3b8e846cb169'] = 'Título del bloque';

@@ -17,7 +17,6 @@ $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_011d8c5d94f729f013963d856
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_793ee192a9124cd6f529460eef17d3e5'] = 'Inscritos a publicidades';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_7b15c043d66fecc45c8752592aa38e38'] = 'Filtro de suscriptores que aceptan publicidad.';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_417d63b1effb110e438d4b4b9f0fbd95'] = 'El código del cupón de descuento no es válido.';
-$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_c888438d14855d7d96a2724ee9c306bd'] = 'ConfiguraciÃ³n Actualizada';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_9f82518d468b9fee614fcc92f76bb163'] = 'Tienda';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_019ec3132cdf8ee0f2e2a75cf5d3e459'] = 'Género';

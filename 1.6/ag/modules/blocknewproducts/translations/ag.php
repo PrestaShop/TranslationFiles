@@ -7,7 +7,6 @@ $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_f7c34fc4a48bc683445c1e7
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_d3ee346c7f6560faa13622b6fef26f96'] = 'Mostrar con los nuevos productos aÃ±adidos';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_1cd777247f2a6ed79534d4ace72d78ce'] = 'Por favor, rellena el campo "productos a mostrar".';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_73293a024e644165e9bf48f270af63a0'] = 'NÃºmero InvÃ¡lido.';
-$_MODULE['<{blocknewproducts}prestashop>blocknewproducts_c888438d14855d7d96a2724ee9c306bd'] = 'ConfiguraciÃ³n Actualizada';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_f4f70727dc34561dfde1a3c529b6205c'] = 'Ajustes';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_26986c3388870d4148b1b5375368a83d'] = 'Productos a mostrar';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_3ea7689283770958661c27c37275b89c'] = 'Seleccione el nÃºmero de productos a mostrar en este bloque';
