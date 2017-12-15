@@ -4,6 +4,8 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_d602cd3160dcb3b836420a2e5683cb0f'] = 'Напредна ЕУ Компатибилност';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_a0445c0b106a1b48b719fc6fd5a734e9'] = 'Овој модул им помага на Европските трговци да бидат компатибилни со важечките Е-комерц закони.';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_bb8956c67b82c7444a80c6b2433dd8b4'] = 'Дали навистина сакате да го деинсталирате овој модул?';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_cac77d4c7de337f13ad1e89a8cecbc7f'] = 'Испорака: 1 до 3 недели';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_eeb992239a8454067cd7a47bbf0df359'] = 'Испорака 3 до 6 недели';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_f4a0d7cb0cd45214c8ca5912c970de13'] = 'Со данок';
