@@ -17,7 +17,6 @@ $_MODULE['<{blocklayered}prestashop>blocklayered_491f46aa6101560e9f1e0d55a063231
 $_MODULE['<{blocklayered}prestashop>blocklayered_fa03eb688ad8aa1db593d33dabd89bad'] = 'Root';
 $_MODULE['<{blocklayered}prestashop>blocklayered_a3868119dc6858db57127fd26e6f9656'] = 'Mijn template - %s';
 $_MODULE['<{blocklayered}prestashop>blocklayered_3601146c4e948c32b6424d2c0a7f0118'] = 'Prijs';
-$_MODULE['<{blocklayered}prestashop>blocklayered_8c489d0946f66d17d73f26366a4bf620'] = 'Gewicht';
 $_MODULE['<{blocklayered}prestashop>blocklayered_03c2e7e41ffc181a4e84080b4710e81e'] = 'Nieuw';
 $_MODULE['<{blocklayered}prestashop>blocklayered_019d1ca7d50cc54b995f60d456435e87'] = 'Gebruikt';
 $_MODULE['<{blocklayered}prestashop>blocklayered_6da03a74721a0554b7143254225cc08a'] = 'Gereviseerd';

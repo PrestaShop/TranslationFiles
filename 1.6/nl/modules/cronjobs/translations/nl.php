@@ -17,7 +17,6 @@ $_MODULE['<{cronjobs}prestashop>cronjobsforms_a1457ee25ec20fa032d37509b5a90a4e']
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_65f768d204a3118f426c756056bef1e1'] = 'Op welke dag van de week moet deze taak worden uitgevoerd?';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_f4f70727dc34561dfde1a3c529b6205c'] = 'Instellingen';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_b3419e63398ccc41c062f36631bebd9a'] = 'Cron modus';
-$_MODULE['<{cronjobs}prestashop>cronjobsforms_972e73b7a882d0802a4e3a16946a2f94'] = 'Eenvoudig';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_eaf1dc6d93a18adb2619233d8e99c197'] = 'Gebruik de PrestaShop Cron taken webservice om uw taken uit te voeren.';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_9b6545e4cea9b4ad4979d41bb9170e2b'] = 'Geavanceerd';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_b6610b26530c9ee3d7bc4a478cf35299'] = 'Alleen voor gevorderde gebruikers: gebruik uw eigen crontab manager in plaats van de PrestaShop Webcron service.';
