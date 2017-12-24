@@ -4,7 +4,7 @@
     <body>
       <trans-unit id="47218fe85410a7029c216ef926cef044" approved="yes">
         <source>"Backup" directory does not exist.</source>
-        <target xml:lang="el">"Backup" το ευρετηρίο δεν υπάρχει.</target>
+        <target xml:lang="el">Ο φάκελος "Backup" δεν υπάρχει.</target>
         <note>Context:
 File: classes/PrestaShopBackup.php:143</note>
       </trans-unit>
@@ -90,7 +90,7 @@ File: classes/Mail.php:331</note>
     <body>
       <trans-unit id="155657899b93f70358eed115631fdb04" approved="yes">
         <source>Key length must be 32 character long.</source>
-        <target xml:lang="el">Το κλειδί πρέπει να είναι 32 χαρακτήρων</target>
+        <target xml:lang="el">Το κλειδί πρέπει να έχει μήκος 32 χαρακτήρες.</target>
         <note>Context:
 File: controllers/admin/AdminWebserviceController.php:249</note>
       </trans-unit>
@@ -142,7 +142,7 @@ File: controllers/admin/AdminWebserviceController.php:289</note>
     <body>
       <trans-unit id="6e61f7cd17315db8599a202172a096d5" approved="yes">
         <source>You've selected a state for a country that does not contain states.</source>
-        <target xml:lang="el">Έχετε επιλέξει μια πολιτεία για μια χώρα που δεν περιέχει τα πολιτείες.</target>
+        <target xml:lang="el">Έχετε επιλέξει μια πολιτεία για μια χώρα που δεν περιέχει πολιτείες.</target>
         <note>Context:
 File: controllers/admin/AdminStoresController.php:350</note>
       </trans-unit>
@@ -215,6 +215,12 @@ File: controllers/admin/AdminRequestSqlController.php:506</note>
         <target xml:lang="el">Όταν χρησιμοποιούνται πολλοί πίνακες, κάθε χαρακτηριστικό πρέπει να αναφέρεται σε ένα πίνακα.</target>
         <note>Context:
 File: controllers/admin/AdminRequestSqlController.php:514</note>
+      </trans-unit>
+      <trans-unit id="8ff8844bb02822975904934598298987" approved="yes">
+        <source>"%key%" is an unauthorized keyword.</source>
+        <target xml:lang="el">Το "%key%" είναι μια μη εγκεκριμένη λέξη-κλειδί.</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:523</note>
       </trans-unit>
     </body>
   </file>
@@ -384,6 +390,18 @@ File: controllers/admin/AdminImportController.php:1319</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:1333</note>
       </trans-unit>
+      <trans-unit id="1123af3eab25b7475419fcaecc6c3beb" approved="yes">
+        <source>%category_name% (ID: %id%) cannot be saved</source>
+        <target xml:lang="el">Η %category_name% (ID: %id%) δεν μπορεί να αποθηκευτεί</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1358</note>
+      </trans-unit>
+      <trans-unit id="6c1e9fe2a61808296a44cee372124bcb" approved="yes">
+        <source>URL rewriting failed to auto-generate a friendly URL for: %category_name%</source>
+        <target xml:lang="el">Η επανεγγραφή URL απέτυχε να δημιουργήσει αυτόματα ένα φιλικό URL για: %category_name%</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1386</note>
+      </trans-unit>
       <trans-unit id="4798b868d51d8e259321deff0452c0f9" approved="yes">
         <source>Rewrite link for %1$s (ID %2$s): re-written as %3$s.</source>
         <target xml:lang="el">Επανεγγραφή συνδέσμου για το %1$s (ID %2$s): ξαναγράφτηκε ως %3$s.</target>
@@ -462,9 +480,9 @@ File: controllers/admin/AdminImportController.php:2450</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2143</note>
       </trans-unit>
-      <trans-unit id="c2758df7a8c70260e3b55e26c51b65fd">
+      <trans-unit id="c2758df7a8c70260e3b55e26c51b65fd" approved="yes">
         <source>Advanced stock management has incorrect value. Not set for product %name% </source>
-        <target xml:lang="el" state="needs-translation"> </target>
+        <target xml:lang="el">Η προχωρημένη διαχείριση αποθέματος έχει λανθασμένη τιμή. Δεν έχει οριστεί για το προϊόν %name% </target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2187</note>
       </trans-unit>
@@ -474,9 +492,9 @@ File: controllers/admin/AdminImportController.php:2187</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2189</note>
       </trans-unit>
-      <trans-unit id="651e202913d9229ff615d5afd6a6a168">
+      <trans-unit id="651e202913d9229ff615d5afd6a6a168" approved="yes">
         <source>Advanced stock management is not enabled, warehouse not set on product %name% </source>
-        <target xml:lang="el" state="needs-translation"> </target>
+        <target xml:lang="el">Η Προχωρημένη διαχείριση αποθέματος δεν είναι ενεργοποιημένη και η αποθήκη δεν ορίστηκε για το προϊόν %name% </target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2202</note>
       </trans-unit>
@@ -510,6 +528,30 @@ File: controllers/admin/AdminImportController.php:2489</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2609</note>
       </trans-unit>
+      <trans-unit id="85b637ec0128d136bf3794c79f2e7295" approved="yes">
+        <source>Advanced stock management has incorrect value. Not set for product with id %id%.</source>
+        <target xml:lang="el">Η προχωρημένη διαχείριση αποθέματος έχει λανθασμένη τιμή. Δεν ορίστηκε για το προϊόν με Id %id%.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:2726</note>
+      </trans-unit>
+      <trans-unit id="934b46cf9eb8a8595ca517b87de6bfb4" approved="yes">
+        <source>Advanced stock management is not enabled, cannot enable on product with id %id%.</source>
+        <target xml:lang="el">H προχωρημένη διαχείριση αποθέματος είναι απενεργοποιημένη, δεν μπορεί να ενεργοποιηθεί για το προϊόν με κωδ %id%.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:2728</note>
+      </trans-unit>
+      <trans-unit id="0081b2a315ed28289036fa6cc02a3819" approved="yes">
+        <source>Advanced stock management is not enabled, warehouse is not set on product with id %id%.</source>
+        <target xml:lang="el">Η προχωρημένη διαχείριση αποθέματος είναι ανενεργή, η αποθήκη δεν ορίστηκε για το προϊόν με κωδ %id%.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:2741</note>
+      </trans-unit>
+      <trans-unit id="c24928943071d3366164238b9413a211" approved="yes">
+        <source>Warehouse did not exist, cannot set on product %name%.</source>
+        <target xml:lang="el">Η αποθήκη δεν υπάρχει, δεν μπορεί να οριστεί για το προϊόν %name%.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:2757</note>
+      </trans-unit>
       <trans-unit id="fd6d9d3ba7d4aaacc49f53c2e8c082c0" approved="yes">
         <source>Email address %1$s (ID: %2$s) cannot be validated.</source>
         <target xml:lang="el">Η διεύθυνση Email %1$s (ID: %2$s) δεν μπορεί να επιβεβαιωθεί.</target>
@@ -533,6 +575,12 @@ File: controllers/admin/AdminImportController.php:3242</note>
         <target xml:lang="el">%1$s δεν υπάρχει στην βάση δεδομένων %2$s (ID: %3$s), οπότε δεν μπορεί να αποθηκευτεί</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3252</note>
+      </trans-unit>
+      <trans-unit id="b06766963f3b27f47f5e6ddf68d8f07e" approved="yes">
+        <source>"%email%" is not a valid email address.</source>
+        <target xml:lang="el">"%email%": Δεν είναι μια έγκυρη διεύθυνση e-mail.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3229</note>
       </trans-unit>
       <trans-unit id="4a69d9da990728e003654d32a0b283a4" approved="yes">
         <source>The customer ID #%d does not exist in the database, and therefore cannot be validated.</source>
@@ -582,6 +630,12 @@ File: controllers/admin/AdminImportController.php:3920</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3923</note>
       </trans-unit>
+      <trans-unit id="b390e8c2a66fd018293fb44a5b8208c8" approved="yes">
+        <source>Currency ID (%id%) is not valid (at line %line%).</source>
+        <target xml:lang="el">Το ID νομίσματος (%id%) δεν είναι έγκυρο (στη γραμμή %line%).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3926</note>
+      </trans-unit>
       <trans-unit id="41a2fc826e4bd29b8eaf497a89a9dc5d" approved="yes">
         <source>Reference (%ref%) already exists (at line %line%).</source>
         <target xml:lang="el">Η αναφορά (%ref%) υπάρχει ήδη (στη γραμμή %line%).</target>
@@ -591,6 +645,18 @@ File: controllers/admin/AdminImportController.php:3932</note>
       <trans-unit id="70e7a6fcceb39a1e3ea3925182b85d18" approved="yes">
         <source>YYYY-MM-DD</source>
         <target xml:lang="el">ΕΕΕΕ-ΜΜ-ΗΗ</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3937</note>
+      </trans-unit>
+      <trans-unit id="c1be0fbaeb4e6b509e2f65240b7e5970" approved="yes">
+        <source>Date format (%date%) is not valid (at line %line%). It should be: %date_format%.</source>
+        <target xml:lang="el">Η μορφή της ημερομηνίας (%date%) δεν είναι έγκυρη (στη γραμμή %line%). Θα έπρεπε να είναι έτσι: %date_format%.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3935</note>
+      </trans-unit>
+      <trans-unit id="8cc169924951a04aea4f6a86334f3ce6" approved="yes">
+        <source>Date (%date%) cannot be in the past (at line %line%). Format: %date_format%.</source>
+        <target xml:lang="el">Η ημερομηνία (%date%) δεν μπορεί να είναι στο παρελθόν (στη γραμμή %line%). Μορφή ημερομηνίας: %date_format%.</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3937</note>
       </trans-unit>
@@ -702,7 +768,7 @@ File: admin-dev/themes/default/template/controllers/import/modal_import_progress
       </trans-unit>
       <trans-unit id="8a1d14318cfc965da76c0b9d0a53bb93" approved="yes">
         <source>Aborting, please wait...</source>
-        <target xml:lang="el">Ματαίωση. Παρακαλώ περίμενε...</target>
+        <target xml:lang="el">Ματαίωση. Παρακαλώ περιμένετε...</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:27</note>
       </trans-unit>
@@ -828,7 +894,7 @@ File: controllers/admin/AdminBackupController.php:158</note>
       </trans-unit>
       <trans-unit id="2c7338ad06a6bb0747b0d432c33464ce" approved="yes">
         <source>The "Backups" directory located in the admin directory must be writable (CHMOD 755 / 777).</source>
-        <target xml:lang="el">Ο κατάλογος "Backups"  στον φάκελο διαχείρισης πρέπει να είναι εγγράψιμος (CHMOD 755/777).</target>
+        <target xml:lang="el">Ο κατάλογος "Backups" που βρίσκεται στον φάκελο admin πρέπει να είναι εγγράψιμος (CHMOD 755/777).</target>
         <note>Context:
 File: controllers/admin/AdminBackupController.php:174</note>
       </trans-unit>
@@ -860,7 +926,7 @@ File: controllers/admin/AdminCartsController.php:628</note>
     <body>
       <trans-unit id="c3ecc0e8b4dc11a1d2c66d81439b4a42" approved="yes">
         <source>The limit chosen is larger than the server's maximum upload limit. Please increase the limits of your server.</source>
-        <target xml:lang="el">Το όριο που επιλέξατε είναι μεγαλύτερο από το μέγιστο όριο μεταφόρτωσης του server. Παρακαλούμε να αυξήστε το όριο του server σας.</target>
+        <target xml:lang="el">Το όριο που επιλέξατε είναι μεγαλύτερο από το μέγιστο όριο μεταφόρτωσης του server. Παρακαλούμε αυξήστε το όριο στον server σας.</target>
         <note>Context:
 File: controllers/admin/AdminAdminPreferencesController.php:164</note>
       </trans-unit>
@@ -886,7 +952,7 @@ File: src/Adapter/Requirement/CheckRequirements.php:99</note>
       </trans-unit>
       <trans-unit id="726f1a9982e9ced2818f72090683e077" approved="yes">
         <source>Configure your server to allow file uploads.</source>
-        <target xml:lang="el">Ρυθμίστε διακομιστή σας ώστε να επιτρέπει την μεταφόρτωση αρχείων.</target>
+        <target xml:lang="el">Ρυθμίστε το διακομιστή σας ώστε να επιτρέπει την μεταφόρτωση αρχείων.</target>
         <note>Context:
 File: src/Adapter/Requirement/CheckRequirements.php:100</note>
       </trans-unit>
@@ -1016,7 +1082,7 @@ File: admin-dev/backup.php:43</note>
       </trans-unit>
       <trans-unit id="e38d3ed240ea149315399f76813ad836" approved="yes">
         <source>There is no "/backup" directory.</source>
-        <target xml:lang="el">Δεν υπάρχει ο κατάλογος "/backup".</target>
+        <target xml:lang="el">Δεν υπάρχει ο φάκελος "/backup".</target>
         <note>Context:
 File: admin-dev/backup.php:53</note>
       </trans-unit>
@@ -1060,7 +1126,7 @@ File: src/PrestaShopBundle/Resources/views/Admin/AdvancedParameters/system_infor
       </trans-unit>
       <trans-unit id="2ad1ffcbe2184ed25baa66baece8908b" approved="yes">
         <source>Please fix the following error(s)</source>
-        <target xml:lang="el">Παρακαλούμε συμβουλευτείτε το ακόλουθο σφάλμα (ες)</target>
+        <target xml:lang="el">Παρακαλούμε διορθώστε το ακόλουθο σφάλμα (ατα)</target>
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/AdvancedParameters/system_information.html.twig:212</note>
       </trans-unit>
@@ -1286,7 +1352,7 @@ File: admin-dev/themes/default/template/controllers/request_sql/helpers/view/vie
     <body>
       <trans-unit id="0fe194d9bb812c48dfe35a3cf6d0af52" approved="yes">
         <source>Please choose a MySQL table</source>
-        <target xml:lang="el">Παρακαλώ επιλέξτε ένα MySQL πίνακα</target>
+        <target xml:lang="el">Παρακαλώ επιλέξτε ένα πίνακα MySQL</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/request_sql/helpers/form/form.tpl:49</note>
       </trans-unit>
