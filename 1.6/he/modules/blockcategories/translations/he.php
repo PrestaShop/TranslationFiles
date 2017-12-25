@@ -13,6 +13,7 @@ $_MODULE['<{blockcategories}prestashop>blockcategories_c6d333d07d30f7b4c31a94bbd
 $_MODULE['<{blockcategories}prestashop>blockcategories_89b278a71f2be5f620307502326587a0'] = 'קטגוריית הבית';
 $_MODULE['<{blockcategories}prestashop>blockcategories_62381fc27e62649a16182a616de3f7ea'] = 'קטגוריה נוכחית';
 $_MODULE['<{blockcategories}prestashop>blockcategories_52b68aaa602d202c340d9e4e9157f276'] = 'קטגוריית אב';
+$_MODULE['<{blockcategories}prestashop>blockcategories_f225631c1a6f71e99cc779f6bbf06dd4'] = 'הקטגוריה הנוכחית, אלא אם אין קטגוריות משנה, ובמקרה הקטגוריה האב של הקטגוריה הנוכחית משמש';
 $_MODULE['<{blockcategories}prestashop>blockcategories_19561e33450d1d3dfe6af08df5710dd0'] = 'עומק מקסימלי';
 $_MODULE['<{blockcategories}prestashop>blockcategories_584d4e251b6f778eda9cfc2fc756b0b0'] = 'הגדר את העומק המקסימלי של תת קטגורייות להצגה בבלוק זה (0 = ללא הגבלה).';
 $_MODULE['<{blockcategories}prestashop>blockcategories_971fd8cc345d8bd9f92e9f7d88fdf20c'] = 'דינמי';

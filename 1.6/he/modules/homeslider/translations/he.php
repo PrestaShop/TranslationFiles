@@ -44,9 +44,12 @@ $_MODULE['<{homeslider}prestashop>homeslider_11cd394e1bd88abe611fd331887f0c74'] 
 $_MODULE['<{homeslider}prestashop>homeslider_105b296a83f9c105355403f3332af50f'] = 'הפסקה';
 $_MODULE['<{homeslider}prestashop>homeslider_44f0ca4d7ea17bb667e8d5e31311d959'] = 'השהייה בין זוג שקופיות.';
 $_MODULE['<{homeslider}prestashop>homeslider_1e6a508c037fc42ef6155eeadbb80331'] = 'ניגון אוטומטי';
+$_MODULE['<{homeslider}prestashop>homeslider_5a3489cc067f89b268b6958bffb98ebf'] = 'היות ומוגדר שפות מרובות בחנות שלך, אנא זכור להעלות תמונה עבור כל אחת מהשפות';
 $_MODULE['<{homeslider}prestashop>homeslider_c8a1ed10db4201b3ae06ea0aa912028d'] = 'אתה לא יכול לנהל שקופיות מתוך תפריט "כל החנויות" או מתוך תפריט "קבוצת חנויות", אנא בחר ישירות את החנות שאתה מעוניין לערוך';
 $_MODULE['<{homeslider}prestashop>homeslider_432ed99c2e808d79c96f892807d33325'] = 'באפשרותך לערוך רק בשקופית זו מההקשר חנות/חנויות: %s';
 $_MODULE['<{homeslider}prestashop>homeslider_7a5c11dddbb2118d08611a1f0678bb91'] = 'אין אפשרות לקבל מידע על שיוך לחנויות עבור השקופית (id_slide: %d)';
+$_MODULE['<{homeslider}prestashop>homeslider_298b615220606d42b6ac60269df0d321'] = 'השינויים יחולו על חנות: %s';
+$_MODULE['<{homeslider}prestashop>homeslider_aef3662e6419ddaaa0a31df70e3b6557'] = 'השינויים יחולו על קבוצה זו: %s';
 $_MODULE['<{homeslider}prestashop>homeslider_71063fd397d237e563089c22dd8b69e8'] = 'השינויים יחולו על כל החנויות והקבוצות';
 $_MODULE['<{homeslider}prestashop>homeslider_6a5aa2542c21debccd82b2e0038c3d1a'] = 'שקופית זו משותפת לכל החנויות! שינויים שיעשו כאן יחולו על כל החנויות הקשורות לשקופית זו';
 $_MODULE['<{homeslider}prestashop>form_92fbf0e5d97b8afd7e73126b52bdc4bb'] = 'בחר קובץ';

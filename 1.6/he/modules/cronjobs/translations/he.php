@@ -4,11 +4,15 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_c9cc8cce247e49bae79f15173ce97354'] = 'שמור';
+$_MODULE['<{cronjobs}prestashop>cronjobsforms_d4169d52732e9ae8df56d2cbcad81a94'] = 'תיאור משימה';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_70d4968bea9a6e76c0333904b9d385e4'] = 'עדכון המטבעות שלי';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_0eff773cf33456a033e913f6ed18045c'] = 'קישור יעד';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_07045abc579615634804f42bc0b2b4bb'] = 'הכנס תיאור למשימה זאת.';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_43773e69610c99be6c15daa4a2036443'] = 'הגדר קישור למשימה המתוזמנת.';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_3a21e2309e8e6aa3759e466154508f2c'] = 'לא לשכוח להשתמש בכתובת קבועה בכדי שתהיה שימושית! הקישור גם מוכרח להיות באותו דומיין של החנות.';
+$_MODULE['<{cronjobs}prestashop>cronjobsforms_be938fb8c5582085599dfa95368fb489'] = 'תדירות המשימה';
+$_MODULE['<{cronjobs}prestashop>cronjobsforms_b3364fad867d47ca61265fd315e4071e'] = 'באיזו שעה יש לבצע משימה זו?';
+$_MODULE['<{cronjobs}prestashop>cronjobsforms_6c5d30049c4d8d644bd35650be4ac13a'] = 'באיזה יום בחודש יש לבצע משימה זו ?';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_f4f70727dc34561dfde1a3c529b6205c'] = 'הגדרות';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_b3419e63398ccc41c062f36631bebd9a'] = 'מצב תזמון';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_972e73b7a882d0802a4e3a16946a2f94'] = 'בסיסי';

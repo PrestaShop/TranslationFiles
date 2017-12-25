@@ -11,6 +11,7 @@ $_MODULE['<{cheque}prestashop>cheque_a02758d758e8bec77a33d7f392eb3f8a'] = 'לא 
 $_MODULE['<{cheque}prestashop>cheque_81c6c3ba23ca2657a8eedc561f865ddb'] = 'שדה \'לפקודת\' הוא שדה חובה.';
 $_MODULE['<{cheque}prestashop>cheque_00a369029140cfd18857425d49b472f8'] = 'שדה \'כתובת\' הוא שדה חובה.';
 $_MODULE['<{cheque}prestashop>cheque_c888438d14855d7d96a2724ee9c306bd'] = 'הגדרות עודכנו';
+$_MODULE['<{cheque}prestashop>cheque_a60468657881aa431a0a5fccc76258e2'] = 'שלם בהמחאה';
 $_MODULE['<{cheque}prestashop>cheque_5dd532f0a63d89c5af0243b74732f63c'] = 'פרטי יצירת קשר';
 $_MODULE['<{cheque}prestashop>cheque_4b2f62e281e9a6829c6df0e87d34233a'] = 'שלם לפקודת (שם)';
 $_MODULE['<{cheque}prestashop>cheque_dd7bf230fde8d4836917806aff6a6b27'] = 'כתובת';

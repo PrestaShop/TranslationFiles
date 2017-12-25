@@ -31,6 +31,7 @@ $_MODULE['<{blocklayered}prestashop>blocklayered_78a5eb43deef9a7b5b9ce157b9d52ac
 $_MODULE['<{blocklayered}prestashop>blocklayered_7edabf994b76a00cbc60c95af337db8f'] = 'משקל';
 $_MODULE['<{blocklayered}prestashop>blocklayered_32d2e6cd4bb1719c572ef470a3a525b6'] = 'התבנית שלי %s';
 $_MODULE['<{blocklayered}prestashop>blocklayered-no-products_5c9838becf9bbce28ba90a7426daf171'] = 'לא נמצאו מוצרים';
+$_MODULE['<{blocklayered}prestashop>blocklayered_cbf5a69c8bd9ebe818d07c6da7f9e48a'] = 'סינון מוצרים';
 $_MODULE['<{blocklayered}prestashop>blocklayered_1262d1b9fbffb3a8e85ac9e4b449e989'] = 'מסננים פעילים:';
 $_MODULE['<{blocklayered}prestashop>blocklayered_ea4788705e6873b424c65e91c2846b19'] = 'בטל';
 $_MODULE['<{blocklayered}prestashop>blocklayered_9b569fa0e7896f0e96164b954265eac5'] = '%1$s: %2$s - %3$s';

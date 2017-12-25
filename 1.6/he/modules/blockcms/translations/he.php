@@ -49,6 +49,7 @@ $_MODULE['<{blockcms}prestashop>blockcms_2d81a9da91ff3f073e6aecbe42c33e69'] = '�
 $_MODULE['<{blockcms}prestashop>blockcms_af979c5a556c7a2c5340a06273046b0d'] = 'הערך של \'cms_footer_on\' לא תקין (צריך להיות 0 או 1).';
 $_MODULE['<{blockcms}prestashop>blockcms_dc08eb6c896a19dd0f0585ab7205ed17'] = 'כישלון ביצירת הבלוק!';
 $_MODULE['<{blockcms}prestashop>blockcms_f3d25e325923cd522fd610bd869d736c'] = 'שגיאה: אתה מנסה למחוק בלוק ניהול תוכן שאינו קיים.';
+$_MODULE['<{blockcms}prestashop>blockcms_e47b20fa6a26735c78d2f3b0f6bd2d7e'] = 'המידע שלך בפוטר עודכן.';
 $_MODULE['<{blockcms}prestashop>blockcms_c28716416d2fd75a37b4496586755853'] = 'בלוק ניהול תוכן נוסף';
 $_MODULE['<{blockcms}prestashop>blockcms_a94db349ae0c662fd55c9d402481165b'] = 'בלוק ניהול תוכן נערך';
 $_MODULE['<{blockcms}prestashop>blockcms_64e1a7a1be29d5937f2eaa90a3d32ad0'] = 'נמחק בהצלחה.';

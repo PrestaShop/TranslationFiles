@@ -201,6 +201,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_da652b8ece8ba2da84d5f5116f6e
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_654f7ceb787fd455c166d5d8744cbf90'] = 'ספריית "/latest" רוקנה';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7dce6149440985f89756b4c451d7dc03'] = 'חילוץ הקובץ הושלם. מסיר קבצי דוגמה...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_89640d2ed666aab722d12be60a61938d'] = 'לא ניתן לחלץ את הקובץ %1$s אל התיקייה %2$s ...';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_115437a77cd81057e681ff2e12b14192'] = 'שדרוג זה אינו תקין %s...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_064a15c7711dd82e5026a17a453b3a3b'] = 'ספריית החילוץ אינה ניתנת לכתיבה.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_01d9d38b1d4d8eff5b530eeecfd3ccd5'] = 'ספריית החילוץ %s אינה ניתנת לכתיבה.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_99f0e3a6d61b6d39da9213c647fd35ce'] = '[ERROR] %s אינו קיים או שאינו ספרייה.';
@@ -228,6 +229,8 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_36d56d20b3894281531cd4108e2c
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_eac34868b4fb511702e53d1405c45454'] = 'שגיאה במהלך שדרוג מסד הנתונים. ייתכן שתצטרך לשחזר את מסד הנתונים שלך.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_08ee54c048e1589f4072a351035db2ad'] = 'שדרוג מסד הנתונים הסתיים. משדרג כעת את המודולים...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ead14b0273e8d6cae7d146130d4be8f6'] = 'מסד הנתונים נוקה.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0bebfc8987ec38d90350bf4ac3e7e391'] = 'אל תשכח לרענן קאש (Advanced parameters > Performance > Clear cache)';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_55c1713f90add7c448328323af0c1b9d'] = 'אינך יכול לשדרג לגרסא זו.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3b8f044559a7568ea572776caf1d6526'] = 'הקובץ config/settings.inc.php לא נמצא.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_22f18bac5d420d7ac5aca37b1afe30c9'] = 'גירסה נוכחית: %1$s. גירסה להתקנה: %2$s.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_6b81346a0c9173213e0c32d0082dc073'] = 'גירסה נוכחית: %1$s. גירסה להתקנה: %2$s';
@@ -434,6 +437,8 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_db992f14c2e79f2e8650cdb5d918
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0bce225c5aed0aaee0d357a11a079962'] = 'עבור שדרוג לגירסה';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5be0150b075f706fc27b09753ce6646d'] = 'לא נמצא קובץ ארכיון בתקייה admin/autoupgrade/download שלך';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_4b0319a87fb1baabe2fdb810e5cd4e62'] = 'אפשרות זו תדלג על שלב ההורדה.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d477bfdc10c5b1dc8afaf9018555e28f'] = 'הארכיון בתיקיית %1$s יהיה בשימוש לשידרוג.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_58a7807a7c90ca70d471aeab775f32a9'] = 'התיקייה %1$s תשמש לשדרוג לגרסה ';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c9cc8cce247e49bae79f15173ce97354'] = 'שמור';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9e68a57463e52beb2b2d4d116085044e'] = 'אפשרויות נוספות (מצב מומחה)';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d0285505fd09db653a4ec0fd3799f357'] = 'מצב מומחה';
@@ -451,6 +456,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_1f966606f0a941f655a4e9b7791a
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_21739f79b8e95f4187fce4fefb12af28'] = 'מנתח את המצב...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5ef0c737746fae2ca90e66c39333f8f6'] = 'שגיאות';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_dc3fd488f03d423a04da27ce66274c1b'] = 'אזהרה!';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_95095fc4bbc8b42ec512cfb1cfa19d8a'] = 'אתה משתמש בגירסת %s PHP. בקרוב PrestaShop יידרוש הגירסה PHP 5.4. כדי לוודא שאתה מוכן לעתיד, אנו ממליצים לך לשדרג ל- PHP 5.4 עכשיו!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e58eae3d7ced672a49b5716587b15f89'] = 'התחל שדרוג';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5784315a8bcebe79611d3353723e010d'] = 'מזל טוב, אתה משתמש כעת בגרסה האחרונה ביותר!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_da3cd17bbbbd3ef7da8e817d3c4cdb46'] = 'אתה בא מהעתיד! אתה משתמש בגרסה עדכנית יותר מאשר הגרסה הזמינה ביותר!';
@@ -483,6 +489,10 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0a8276f35797dc24e6ccb5b5ff5c
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_10ac3d04253ef7e1ddc73e6091c0cd55'] = 'הבא';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_564b7c9d8683f1a94798e9f7449564e4'] = 'אפשרויות שידרוג';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_017697f698d570dffed5f88a5a933d01'] = 'אפשרויות גיבוי';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d1cf02f3b502ad45947b846659c7774e'] = 'שדרג לגרסת PrestaShop %s';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b3e205a87c7cf99915d86ffe496f1706'] = 'מעביר מגרסה %s לגרסה %s. יהיו לכך השלכות מרחיקות לכת על שדרוג חנותך.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_14848bb4861807d41b2ef22f0288f90b'] = 'לפני ההתקנה עליך לוודא שהשרת שלך עומד בדרישות הסף.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ba4e6bdd93c2f0c0e133bb94c27623ad'] = 'תיקיה %s קיימת';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f15547fe5f9f307bd42b2c01657efbcb'] = 'השרת שלך לא יכול להוריד את הקובץ. בבקשה העלה אותו קודם דרך FTP לתוך הספרייה admin/autoupgrade';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f2a6c498fb90ee345d997f888fce3b18'] = 'מחק';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_48995d15304fe79fc0240bf6544f2395'] = 'האם אתה בטוח שאתה רוצה למחוק קובץ גיבוי זה?';

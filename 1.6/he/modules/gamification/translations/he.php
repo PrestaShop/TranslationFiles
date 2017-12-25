@@ -25,6 +25,7 @@ $_MODULE['<{gamification}prestashop>filters_bt_dc450ba947e6adecbdbe68c25de03a1b'
 $_MODULE['<{gamification}prestashop>filters_bt_07ad815187b53dc2ceaf5ad6e0a12bb1'] = 'רמה:';
 $_MODULE['<{gamification}prestashop>filters_e659b52eba1f0299b2d8ca3483919e72'] = 'סוג:';
 $_MODULE['<{gamification}prestashop>filters_b1c94ca2fbc3e78fc30069c8d0f01680'] = 'הכל';
+$_MODULE['<{gamification}prestashop>filters_24a23d787190f2c4812ff9ab11847a72'] = 'סטטוס:';
 $_MODULE['<{gamification}prestashop>filters_5364259abab90e94890f2ed2481b9824'] = 'תקין';
 $_MODULE['<{gamification}prestashop>filters_dc450ba947e6adecbdbe68c25de03a1b'] = 'לא תקין';
 $_MODULE['<{gamification}prestashop>filters_07ad815187b53dc2ceaf5ad6e0a12bb1'] = 'רמה:';

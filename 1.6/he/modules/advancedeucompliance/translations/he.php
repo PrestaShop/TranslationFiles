@@ -13,8 +13,12 @@ $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_ea21841da70e640
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_1045f54e17e9e40c46a304888134f958'] = 'הסתר את זה, אני יודע מה אני עושה.';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_fc724a540ce30b0b634163c922d60bed'] = 'ההגדרות נשמרו בהצלחה !';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_23e162ba6bf36c7560ebbc868d9e2552'] = 'הודעות משפטיות';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_98664ee75f74254b622a52d86a798ae3'] = 'תנאי שימוש';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_93fb7e4d4616f108db46461360b7a6ae'] = 'תנאי ביטול';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_c5f29bb36f9158d2e00f5d4dc213a0ff'] = 'פרטיות';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_b305968eb47e25015e2cebf313f70842'] = 'הערות סביבתיות';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_5fb4f05f62f9967052977077d783fc2d'] = 'משלוח ותשלום';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_3ad6cb6100190c8f81e99fd52debf7ef'] = 'תווית';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'מופעל';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_b9f5c797ebbf55adccdd8539a65a0241'] = 'מנוטרל';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_c9cc8cce247e49bae79f15173ce97354'] = 'שמור';
