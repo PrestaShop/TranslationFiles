@@ -28,7 +28,7 @@ File: classes/PrestaShopBackup.php:225</note>
       </trans-unit>
       <trans-unit id="52033453d4d673bae012b9c8ccb1e79c" approved="yes">
         <source>An error occurred while backing up. Unable to obtain the schema of %s</source>
-        <target xml:lang="el">Παρουσιάστηκε σφάλμα κατά τη δημιουργία αντιγράφων ασφαλείας. Δεν Μπόρεσε να λάβει το σχήμα της %s</target>
+        <target xml:lang="el">Παρουσιάστηκε σφάλμα κατά τη δημιουργία αντιγράφων ασφαλείας. Δεν είναι δυνατή η λήψη του schema της %s</target>
         <note>Context:
 File: classes/PrestaShopBackup.php:254</note>
       </trans-unit>
@@ -74,7 +74,7 @@ File: classes/Mail.php:267</note>
       </trans-unit>
       <trans-unit id="1769b5ab48b8e2ce733fb38663ec853a" approved="yes">
         <source>Error: invalid SMTP server or SMTP port</source>
-        <target xml:lang="el">Σφάλμα: μη έγκυρο SMTP διακομιστή ή SMTP port</target>
+        <target xml:lang="el">Σφάλμα: μη έγκυρος διακομιστής SMTP ή θύρα SMTP</target>
         <note>Context:
 File: classes/Mail.php:280</note>
       </trans-unit>
@@ -132,7 +132,7 @@ File: controllers/admin/AdminWebserviceController.php:286</note>
       </trans-unit>
       <trans-unit id="0508bbb36fb6b5db31edf2f45cd687ea" approved="yes">
         <source>It is preferable to use SSL (https:) for webservice calls, as it avoids the "man in the middle" type security issues.</source>
-        <target xml:lang="el">Είναι προτιμότερο να χρησιμοποιείτε SSL (https:) για κλήσεις υπηρεσίας διαδικτύου, καθώς αποφεύγει ζητήματα ασφαλείας τύπου "μεσολαβητής".</target>
+        <target xml:lang="el">Είναι προτιμότερο να χρησιμοποιείτε SSL (https:) για κλήσεις υπηρεσίας διαδικτύου, καθώς αποφεύγονται ζητήματα ασφαλείας τύπου "μεσολαβητής".</target>
         <note>Context:
 File: controllers/admin/AdminWebserviceController.php:289</note>
       </trans-unit>
@@ -176,7 +176,7 @@ File: controllers/admin/AdminRequestSqlController.php:487</note>
       </trans-unit>
       <trans-unit id="b162612cdcbf01c01421bad2e8b39432" approved="yes">
         <source>Undefined "%s" error</source>
-        <target xml:lang="el">Αόριστο "%s" σφάλμα</target>
+        <target xml:lang="el">Μη ορισμένο "%s" σφάλμα</target>
         <note>Context:
 File: controllers/admin/AdminRequestSqlController.php:495</note>
       </trans-unit>
@@ -186,12 +186,6 @@ File: controllers/admin/AdminRequestSqlController.php:495</note>
         <note>Context:
 File: controllers/admin/AdminRequestSqlController.php:417</note>
       </trans-unit>
-      <trans-unit id="20cc3893d65fa16fcd2fe317c555e28a" approved="yes">
-        <source>The operator "%s" is incorrect.</source>
-        <target xml:lang="el">Ο χειριστής "%s" που χρησιμοποιείται είναι εσφαλμένος.</target>
-        <note>Context:
-File: controllers/admin/AdminRequestSqlController.php:426</note>
-      </trans-unit>
       <trans-unit id="dde2543d498ef763b41a2e5ddad7ecdd" approved="yes">
         <source>The "%operator%" operator is incorrect.</source>
         <target xml:lang="el">Ο τελεστής "%operator%" είναι λάθος.</target>
@@ -200,7 +194,7 @@ File: controllers/admin/AdminRequestSqlController.php:449</note>
       </trans-unit>
       <trans-unit id="19681d28ed1cc72479bc26b7e76ad240" approved="yes">
         <source>The LIMIT clause must contain numeric arguments.</source>
-        <target xml:lang="el">το LIMIT πρέπει να περιέχει αριθμητικούς χαρακτήρες</target>
+        <target xml:lang="el">Η πρόταση LIMIT πρέπει να περιέχει αριθμητικούς χαρακτήρες.</target>
         <note>Context:
 File: controllers/admin/AdminRequestSqlController.php:500</note>
       </trans-unit>
@@ -320,7 +314,7 @@ File: controllers/admin/AdminImportController.php:619</note>
       </trans-unit>
       <trans-unit id="68e8d36b17584f88614fb3201925a7ac" approved="yes">
         <source>The uploaded file exceeds the upload_max_filesize directive in php.ini. If your server configuration allows it, you may add a directive in your .htaccess.</source>
-        <target xml:lang="el">Το φορτωμένο αρχείουπερβαίνει το upload_max_filesize στο php.ini. Αν επιτρέπει η ρύθμιση του διακομιστή, προσθέστε οδηγία στο .htaccess. </target>
+        <target xml:lang="el">Το φορτωμένο αρχείο υπερβαίνει το upload_max_filesize στο php.ini. Αν το επιτρέπει η ρύθμιση του διακομιστή, προσθέστε μια εντολή στο .htaccess.</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:720</note>
       </trans-unit>
@@ -356,13 +350,13 @@ File: controllers/admin/AdminImportController.php:739</note>
       </trans-unit>
       <trans-unit id="50844c635a86264cc59d737d532df573" approved="yes">
         <source>An error occurred while uploading / copying the file.</source>
-        <target xml:lang="el">Παρουσιάστηκε ένα σφάλμα κατά τη μεταφόρτωση και την αντιγραφή αρχείων</target>
+        <target xml:lang="el">Παρουσιάστηκε ένα σφάλμα κατά τη μεταφόρτωση/αντιγραφή του αρχείου.</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:742</note>
       </trans-unit>
       <trans-unit id="197f1953efd11637a634a7f9b269eac3" approved="yes">
         <source>To proceed, please upload a file first.</source>
-        <target xml:lang="el">Πριν προχωρήσετε, ανεβάστε ένα αρχείο.</target>
+        <target xml:lang="el">Για να προχωρήσετε, ανεβάστε πρώτα ένα αρχείο.</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:4526</note>
       </trans-unit>
@@ -498,9 +492,9 @@ File: controllers/admin/AdminImportController.php:2189</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2202</note>
       </trans-unit>
-      <trans-unit id="470d8f3caa9e30c426f8d49779cc7a36">
+      <trans-unit id="470d8f3caa9e30c426f8d49779cc7a36" approved="yes">
         <source>Warehouse did not exist, cannot set on product  %name% </source>
-        <target xml:lang="el" state="needs-translation"> </target>
+        <target xml:lang="el">Η αποθήκη δεν υπάρχει, δεν μπορεί να οριστεί για το προϊόν %name% </target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2222</note>
       </trans-unit>
@@ -566,13 +560,13 @@ File: controllers/admin/AdminImportController.php:3056</note>
       </trans-unit>
       <trans-unit id="14118fbc7d8c233f0ac36ffb31716605" approved="yes">
         <source>%1$s does not exist in database %2$s (ID: %3$s), and therefore cannot be validated</source>
-        <target xml:lang="el">%1$s δεν υπάρχει στην βάση δεδομένων %2$s (ID: %3$s), οπότε δεν μπορεί να επικυρωθεί</target>
+        <target xml:lang="el">%1$s δεν υπάρχει στην βάση δεδομένων %2$s (ID: %3$s), και επομένως δεν μπορεί να επικυρωθεί</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3242</note>
       </trans-unit>
       <trans-unit id="597cf702e07f3b35431d2a499b00cefd" approved="yes">
         <source>%1$s does not exist in database %2$s (ID: %3$s), and therefore cannot be saved</source>
-        <target xml:lang="el">%1$s δεν υπάρχει στην βάση δεδομένων %2$s (ID: %3$s), οπότε δεν μπορεί να αποθηκευτεί</target>
+        <target xml:lang="el">%1$s δεν υπάρχει στην βάση δεδομένων %2$s (ID: %3$s), και επομένως δεν μπορεί να αποθηκευτεί</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3252</note>
       </trans-unit>
@@ -584,25 +578,25 @@ File: controllers/admin/AdminImportController.php:3229</note>
       </trans-unit>
       <trans-unit id="4a69d9da990728e003654d32a0b283a4" approved="yes">
         <source>The customer ID #%d does not exist in the database, and therefore cannot be validated.</source>
-        <target xml:lang="el">Ο πελάτης ID #%d δεν υπάρχει στην βάση δεδομένων, οπότε δεν μπορεί να επιβεβαιωθεί.</target>
+        <target xml:lang="el">Ο πελάτης ID #%d δεν υπάρχει στην βάση δεδομένων, και επομένως δεν μπορεί να επιβεβαιωθεί.</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3265</note>
       </trans-unit>
       <trans-unit id="608ec99cc3ef74d962769c1958a1fa62" approved="yes">
         <source>The customer ID #%d does not exist in the database, and therefore cannot be saved.</source>
-        <target xml:lang="el">Ο κωδικός πελάτη #%d δεν υπάρχει στην βάση δεδομένων, οπότε δεν μπορεί να αποθηκευτεί.</target>
+        <target xml:lang="el">Ο κωδικός πελάτη #%d δεν υπάρχει στην βάση δεδομένων, και επομένως δεν μπορεί να αποθηκευτεί.</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3273</note>
       </trans-unit>
       <trans-unit id="964e5a863ba051181f8f537626f5c953" approved="yes">
         <source>Supplier is invalid</source>
-        <target xml:lang="el">Προμηθευτής δεν είναι έγκυρη</target>
+        <target xml:lang="el">Ο προμηθευτής δεν είναι έγκυρος</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3602</note>
       </trans-unit>
       <trans-unit id="3cc21b7970c348679cb6a1323a2dc173" approved="yes">
         <source>Alias is invalid</source>
-        <target xml:lang="el">Το ψευδώνυμο είναι προβληματικό</target>
+        <target xml:lang="el">Το ψευδώνυμο είναι λάθος</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3679</note>
       </trans-unit>
@@ -692,7 +686,7 @@ File: controllers/admin/AdminImportController.php:4042</note>
       </trans-unit>
       <trans-unit id="5e063c49ce8203f2ca7a496da24b819e" approved="yes">
         <source>Product/Attribute (%d/%d) cannot be added twice (at line %d).</source>
-        <target xml:lang="el">Προϊόν/Ιδιότητα (%d/%d) δεν μπορεί να προστεθεί διπλά  (στη γραμμή %d). </target>
+        <target xml:lang="el">Προϊόν/Ιδιότητα (%d/%d) δεν μπορεί να προστεθεί δύο φορές (στη γραμμή %d).</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:4060</note>
       </trans-unit>
@@ -900,7 +894,7 @@ File: controllers/admin/AdminBackupController.php:174</note>
       </trans-unit>
       <trans-unit id="f36c9a20c2ce51f491c944e41fde5ace" approved="yes">
         <source>It appears the backup was successful, however you must download and carefully verify the backup file before proceeding.</source>
-        <target xml:lang="el">Φαίνεται ότι η δημιουργία αντιγράφου ασφαλείας ήταν επιτυχής, ωστόσο, θα πρέπει να το κατεβάσετε και επαληθεύσετε το αρχείο πριν προχωρήσετε.</target>
+        <target xml:lang="el">Φαίνεται ότι η δημιουργία αντιγράφου ασφαλείας ήταν επιτυχής, ωστόσο, θα πρέπει να κατεβάσετε και να επαληθεύσετε το αρχείο πριν προχωρήσετε.</target>
         <note>Context:
 File: controllers/admin/AdminBackupController.php:181</note>
       </trans-unit>
@@ -976,13 +970,13 @@ File: src/Adapter/Requirement/CheckRequirements.php:103</note>
       </trans-unit>
       <trans-unit id="fbc80a46761028390cb9f217affc1ad4" approved="yes">
         <source>Set write permissions for the "config" folder.</source>
-        <target xml:lang="el">Ορίστε δικαιώματα εγγραφής για φάκελο "config"</target>
+        <target xml:lang="el">Ορίστε δικαιώματα εγγραφής για τον φάκελο "config".</target>
         <note>Context:
 File: src/Adapter/Requirement/CheckRequirements.php:104</note>
       </trans-unit>
       <trans-unit id="d667dd7ea28dcabe347120a1ea277658" approved="yes">
         <source>Set write permissions for the "cache" folder.</source>
-        <target xml:lang="el">Ορίστε δικαιώματα εγγραφής για φάκελο "cache"</target>
+        <target xml:lang="el">Ορίστε δικαιώματα εγγραφής για τον φάκελο "cache".</target>
         <note>Context:
 File: src/Adapter/Requirement/CheckRequirements.php:105</note>
       </trans-unit>
@@ -1094,13 +1088,13 @@ File: admin-dev/backup.php:61</note>
       </trans-unit>
       <trans-unit id="db5aa3efeee3f75954f4a6de541f7fd2" approved="yes">
         <source>Unable to open backup file(s).</source>
-        <target xml:lang="el">αδύνατο να ανοίξουν τα backup αρχεία</target>
+        <target xml:lang="el">Δεν είναι δυνατό το άνοιγμα του των αρχείων backup.</target>
         <note>Context:
 File: admin-dev/backup.php:85</note>
       </trans-unit>
       <trans-unit id="089426c3b86f7f52cc14c3ebf5ca5b8f" approved="yes">
         <source>Unable to display backup file(s).</source>
-        <target xml:lang="el">αδύνατο να εμφανίστουν τα backup αρχεία</target>
+        <target xml:lang="el">Αδύνατο να εμφανίστουν τα backup αρχεία.</target>
         <note>Context:
 File: admin-dev/backup.php:105</note>
       </trans-unit>
@@ -1150,7 +1144,7 @@ File: src/PrestaShopBundle/Resources/views/Admin/AdvancedParameters/system_infor
       </trans-unit>
       <trans-unit id="c49d6d58d1c98f34a15bbd169f82961a" approved="yes">
         <source>Changed/missing files have been detected.</source>
-        <target xml:lang="el">Έχουν ανιχνευθεί τροποποιημένα / αρχεία που λείπουν  </target>
+        <target xml:lang="el">Έχουν ανιχνευθεί τροποποιημένα αρχεία ή αρχεία που λείπουν.</target>
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/AdvancedParameters/system_information.html.twig:247</note>
       </trans-unit>
@@ -1224,13 +1218,13 @@ File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:50<
       </trans-unit>
       <trans-unit id="4d247cbe2dbd06ce20b9affd635e7982" approved="yes">
         <source>This function only backs up your database, not your files.</source>
-        <target xml:lang="el">Αυτή η λειτουργία υποστηρίζει μόνο δημιουργία αντιγράφου ασφαλείας της βάσης δεδομένων σας, όχι των αρχείων σας.</target>
+        <target xml:lang="el">Αυτή η λειτουργία δημιουργεί μόνο αντιγράφο ασφαλείας της βάσης δεδομένων σας, όχι των αρχείων σας.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:51</note>
       </trans-unit>
       <trans-unit id="b2a110974050263fde4c0c7cf15013b3" approved="yes">
         <source>By default, your existing database tables will be dropped during the backup recovery (see "Backup options" below).</source>
-        <target xml:lang="el">Από προεπιλογή, υπάρχοντες πίνακες της βάσης δεδομένων σας, θα γίνουν Drop κατά τη διάρκεια ανάκτησης του αντιγράφου ασφαλείας (δείτε "επιλογές ανάκτησης του αντιγράφου ασφαλείας" πιο κάτω).</target>
+        <target xml:lang="el">Από προεπιλογή, οι υπάρχοντες πίνακες της βάσης δεδομένων σας, θα γίνουν Drop κατά τη διάρκεια ανάκτησης του αντιγράφου ασφαλείας (δείτε "επιλογές ανάκτησης του αντιγράφου ασφαλείας" πιο κάτω).</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:52</note>
       </trans-unit>
@@ -1242,7 +1236,7 @@ File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:53<
       </trans-unit>
       <trans-unit id="5cb0e756d153cfcfac763077a5f0628c" approved="yes">
         <source>Always verify that your backup files are complete, up-to-date and valid, even if you had a success message appear during the backup process.</source>
-        <target xml:lang="el">Πάντα επιβεβαιώστε ότι η αντίγραφα ασφαλείας των αρχείων σας είναι πλήρεις, ενημερωμένα και έγκυρα, ακόμη κι αν είχατε μήνυμα επιτυχίας κατά τη διαδικασία δημιουργίας αντιγράφων ασφαλείας.</target>
+        <target xml:lang="el">Πάντα να επιβεβαιώνετε ότι τα αντίγραφα ασφαλείας των αρχείων σας είναι πλήρη, ενημερωμένα και έγκυρα, ακόμη κι αν είχατε μήνυμα επιτυχίας κατά τη διαδικασία δημιουργίας αντιγράφων ασφαλείας.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:54</note>
       </trans-unit>
@@ -1294,7 +1288,7 @@ File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_hea
       </trans-unit>
       <trans-unit id="c4b6a12f5f4cbbeb2353a718ee9a8a9a" approved="yes">
         <source>Why can't I restore it by myself?</source>
-        <target xml:lang="el">Γιατί δεν μπορώ να το αποκαστήσω εγώ;</target>
+        <target xml:lang="el">Γιατί δεν μπορώ να το αποκαταστήσω εγώ;</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:76</note>
       </trans-unit>

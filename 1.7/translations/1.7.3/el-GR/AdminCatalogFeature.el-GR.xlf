@@ -36,6 +36,12 @@ File: classes/lang/StockMvtReasonLang.php:44</note>
         <note>Context:
 File: classes/lang/StockMvtReasonLang.php:47</note>
       </trans-unit>
+      <trans-unit id="2c9697ad1bb585d6d1d0fabcb1028926" approved="yes">
+        <source>Adjustment following an inventory of stock</source>
+        <target xml:lang="el">Διόρθωση αποθέματος κατόπιν απογραφής</target>
+        <note>Context:
+File: classes/lang/StockMvtReasonLang.php:50</note>
+      </trans-unit>
       <trans-unit id="02ef8bd47ce057b792bbd620d6059caa" approved="yes">
         <source>Transfer to another warehouse</source>
         <target xml:lang="el">Μεταφορά σε διαφορετική αποθήκη</target>
@@ -59,6 +65,12 @@ File: classes/lang/StockMvtReasonLang.php:59</note>
         <target xml:lang="el">Επιστροφές Προϊόντων</target>
         <note>Context:
 File: classes/lang/StockMvtReasonLang.php:62</note>
+      </trans-unit>
+      <trans-unit id="1638bbd4664fd745118d95786b7e37b9" approved="yes">
+        <source>Manual Entry</source>
+        <target xml:lang="el">Χειροκίνητη εισαγωγή</target>
+        <note>Context:
+File: classes/lang/StockMvtReasonLang.php:65</note>
       </trans-unit>
     </body>
   </file>
@@ -774,6 +786,12 @@ File: controllers/admin/AdminCategoriesController.php:654</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:195</note>
       </trans-unit>
+      <trans-unit id="9aa4e1b6c10cf1bc2a8145dcc8476b0f" approved="yes">
+        <source>Send me an email when the quantity is under this level</source>
+        <target xml:lang="el">Στείλε μου ένα e-mail όταν η ποσότητα είναι κάτω από αυτό το επίπεδο</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:268</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/form.html.twig" source-language="en" target-language="el" datatype="plaintext">
@@ -1180,6 +1198,12 @@ File: src/PrestaShopBundle/Form/Admin/Product/ProductCombinationBulk.php:100</no
         <note>Context:
 File: src/PrestaShopBundle/Form/Admin/Product/ProductCombinationBulk.php:72</note>
       </trans-unit>
+      <trans-unit id="0826c628f8c5f6895c8a1e27e99457fb" approved="yes">
+        <source>Send me an email when the quantity is below or equals this level</source>
+        <target xml:lang="el">Στείλε μου ένα e-mail όταν η ποσότητα είναι κάτω από, ή ίση με αυτό, το επίπεδο</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductCombinationBulk.php:104</note>
+      </trans-unit>
       <trans-unit id="8ef6e226754a31bf67ebf50047c142b9" approved="yes">
         <source>Impact on price (tax excl.)</source>
         <target xml:lang="el">αντίκτυπος στη τιμή (χωρίς φόρο)</target>
@@ -1261,6 +1285,18 @@ File: src/PrestaShopBundle/Form/Admin/Product/ProductShipping.php:106</note>
         <target xml:lang="el">Διαθέσιμοι μεταφορείς</target>
         <note>Context:
 File: src/PrestaShopBundle/Form/Admin/Product/ProductShipping.php:119</note>
+      </trans-unit>
+      <trans-unit id="d41e652e3ec13615827534c10beac3ee" approved="yes">
+        <source>Default delivery time</source>
+        <target xml:lang="el">Προεπιλεγμένος χρόνος παράδοσης</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductShipping.php:124</note>
+      </trans-unit>
+      <trans-unit id="16599dbd0bf238cbae4090fe1db04145" approved="yes">
+        <source>Specific delivery time to this product</source>
+        <target xml:lang="el">Συγκεκριμένος χρόνος παράδοσης για αυτό το προϊόν</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductShipping.php:125</note>
       </trans-unit>
       <trans-unit id="205b01b3197cf06688f6ed574faf5664" approved="yes">
         <source>Delivery Time</source>
@@ -1879,11 +1915,23 @@ File: admin-dev/themes/default/template/controllers/return/helpers/form/form.tpl
   </file>
   <file original="src/PrestaShopBundle/Controller/Api/StockController.php" source-language="en" target-language="el" datatype="plaintext">
     <body>
+      <trans-unit id="5321a616e36742f66aa933956e839217" approved="yes">
+        <source>Combination name</source>
+        <target xml:lang="el">Όνομα συνδυασμού</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Api/StockController.php:158</note>
+      </trans-unit>
       <trans-unit id="a094699b1837834e13875a06773bcf28" approved="yes">
         <source>Physical quantity</source>
         <target xml:lang="el">Φυσική ποσότητα</target>
         <note>Context:
 File: src/PrestaShopBundle/Controller/Api/StockController.php:161</note>
+      </trans-unit>
+      <trans-unit id="82325d4b818ad2b7f46dfe72e186d016" approved="yes">
+        <source>Reserved quantity</source>
+        <target xml:lang="el">Δεσμευμένη ποσότητα</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Api/StockController.php:162</note>
       </trans-unit>
     </body>
   </file>
@@ -1967,6 +2015,12 @@ File: src/PrestaShopBundle/Controller/Admin/ProductImageController.php:141</note
   </file>
   <file original="src/PrestaShopBundle/Translation/Api/StockApi.php" source-language="en" target-language="el" datatype="plaintext">
     <body>
+      <trans-unit id="5f89a705df3646f402ca886e3c01b034" approved="yes">
+        <source>Use checkboxes to bulk edit quantities</source>
+        <target xml:lang="el">Χρησιμοποιήστε τα κουτιά επιλογής για να επεξεργαστείτε μαζικά ποσότητες</target>
+        <note>Context:
+File: src/PrestaShopBundle/Translation/Api/StockApi.php:37</note>
+      </trans-unit>
       <trans-unit id="d9c3a508aadc89c987a08811138836e2" approved="yes">
         <source>Advanced filters</source>
         <target xml:lang="el">Σύνθετα φίλτρα</target>
@@ -1984,6 +2038,12 @@ File: src/PrestaShopBundle/Translation/Api/StockApi.php:39</note>
         <target xml:lang="el">Εφαρμόστε νέα ποσότητα</target>
         <note>Context:
 File: src/PrestaShopBundle/Translation/Api/StockApi.php:40</note>
+      </trans-unit>
+      <trans-unit id="b11806ab5d886adeeeddbc591eb52688" approved="yes">
+        <source>Display products below low stock level first</source>
+        <target xml:lang="el">Προβάλετε προϊόντα με χαμηλό επίπεδο στοκ πρώτα</target>
+        <note>Context:
+File: src/PrestaShopBundle/Translation/Api/StockApi.php:45</note>
       </trans-unit>
       <trans-unit id="7f84fa02a3bf4c70c747b29908a03096" approved="yes">
         <source>Filter by movement type</source>
@@ -2014,6 +2074,12 @@ File: src/PrestaShopBundle/Translation/Api/StockApi.php:49</note>
         <target xml:lang="el">Αναζητήστε έναν προμηθευτή</target>
         <note>Context:
 File: src/PrestaShopBundle/Translation/Api/StockApi.php:50</note>
+      </trans-unit>
+      <trans-unit id="5dd5cd6670a0fc8e47a47aa94d27b8b2" approved="yes">
+        <source>Filter by status</source>
+        <target xml:lang="el">Φίλτρο με βάση την κατάσταση</target>
+        <note>Context:
+File: src/PrestaShopBundle/Translation/Api/StockApi.php:51</note>
       </trans-unit>
       <trans-unit id="b1c94ca2fbc3e78fc30069c8d0f01680" approved="yes">
         <source>All</source>
@@ -2046,11 +2112,29 @@ File: src/PrestaShopBundle/Translation/Api/StockApi.php:63</note>
         <note>Context:
 File: src/PrestaShopBundle/Translation/Api/StockApi.php:67</note>
       </trans-unit>
+      <trans-unit id="0e1f77838d33f77fef1c66958da371e6" approved="yes">
+        <source>This product is below the low stock level you have defined.</source>
+        <target xml:lang="el">Αυτό το προϊόν έχει ποσότητα κάτω από το κατώτερο στοκ που έχει ρυθμιστεί.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Translation/Api/StockApi.php:68</note>
+      </trans-unit>
       <trans-unit id="5896dcc83ab833241ff671debffff23b" approved="yes">
         <source>Low stock level:</source>
         <target xml:lang="el">Ελάχιστο όριο στοκ:</target>
         <note>Context:
 File: src/PrestaShopBundle/Translation/Api/StockApi.php:69</note>
+      </trans-unit>
+      <trans-unit id="82bbaa81a9926aed70bfc811302bddaf" approved="yes">
+        <source>Low stock alert:</source>
+        <target xml:lang="el">Ειδοποίηση ελάχιστου στοκ:</target>
+        <note>Context:
+File: src/PrestaShopBundle/Translation/Api/StockApi.php:70</note>
+      </trans-unit>
+      <trans-unit id="60ca6b20f2ef2afc178d7e5d7224b5c8" approved="yes">
+        <source>Bulk edit quantity</source>
+        <target xml:lang="el">Μαζική επεξεργασία ποσότητας</target>
+        <note>Context:
+File: src/PrestaShopBundle/Translation/Api/StockApi.php:72</note>
       </trans-unit>
       <trans-unit id="0a31e37f4790bed575e702d61fcfb452" approved="yes">
         <source><![CDATA[Date & Time]]></source>
@@ -2063,6 +2147,18 @@ File: src/PrestaShopBundle/Translation/Api/StockApi.php:73</note>
         <target xml:lang="el">Διόρθωση ποσότητας</target>
         <note>Context:
 File: src/PrestaShopBundle/Translation/Api/StockApi.php:74</note>
+      </trans-unit>
+      <trans-unit id="f0d770125ad832142c2215d033525e78" approved="yes">
+        <source>Go to the import system</source>
+        <target xml:lang="el">Πηγαίνετε στο σύστημα μαζικής εισαγωγής</target>
+        <note>Context:
+File: src/PrestaShopBundle/Translation/Api/StockApi.php:76</note>
+      </trans-unit>
+      <trans-unit id="8273cff9da36d1ddc5ee3f19b1283f0c" approved="yes">
+        <source>Export data into CSV</source>
+        <target xml:lang="el">Εξαγωγή δεδομένων σε CSV</target>
+        <note>Context:
+File: src/PrestaShopBundle/Translation/Api/StockApi.php:77</note>
       </trans-unit>
       <trans-unit id="ce898d62ed9ca7653a01fe0c781e97e9" approved="yes">
         <source>Physical</source>
@@ -2286,6 +2382,12 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/Include/form_combination.html.twig" source-language="en" target-language="el" datatype="plaintext">
     <body>
+      <trans-unit id="afe8600392b1a8be6256bbc64622a58d" approved="yes">
+        <source>Stock alerts</source>
+        <target xml:lang="el">Ειδοποιήσεις αποθέματος</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/Include/form_combination.html.twig:104</note>
+      </trans-unit>
       <trans-unit id="1374a796a4d88166ce5107eb6aec41ff" approved="yes">
         <source>Prev. combination</source>
         <target xml:lang="el">Προηγ. συνδυασμός</target>
@@ -2344,6 +2446,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/Include/form_combinatio
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/form_combinations_bulk.html.twig" source-language="en" target-language="el" datatype="plaintext">
     <body>
+      <trans-unit id="1ea5630be8a472f075b184deb7256e3d" approved="yes">
+        <source>You can increase or decrease low stock levels in bulk. You cannot disable them in bulk: you have to do it on a per-combination basis.</source>
+        <target xml:lang="el">Μπορείτε να αυξήσετε ή να μειώσετε χαμηλά επίπεδα στοκ μαζικά. Δεν μπορείτε να τα απενεργοποιήσετε μαζικά: πρέπει να το κάνετε ανα συνδυασμό.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/form_combinations_bulk.html.twig:78</note>
+      </trans-unit>
       <trans-unit id="b470c441370492fc31529bb9b76eedb3" approved="yes">
         <source><![CDATA[The email will be sent to all the users who have the right to run the stock page. To modify the permissions, go to Advanced Parameters > Team]]></source>
         <target xml:lang="el"><![CDATA[Το e-mail θα σταλλεί σε όλους τους χρήστες που έχουν δικαιώματα στην σελίδα αποθέματος. Για να αλλάξετε τα δικαιώματα, πάτε στο Προχωρημένες Ρυθμίσεις > Όμαδα]]></target>
