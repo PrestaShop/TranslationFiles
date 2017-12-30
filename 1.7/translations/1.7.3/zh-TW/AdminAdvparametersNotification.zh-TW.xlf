@@ -120,6 +120,18 @@ File: controllers/admin/AdminStoresController.php:350</note>
   </file>
   <file original="controllers/admin/AdminRequestSqlController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="a0e587425d03db434bd7ad7081913cb4" approved="yes">
+        <source>The "%tablename%" table does not exist.</source>
+        <target xml:lang="zh-TW">%tablename% 數據表不存在。</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:401</note>
+      </trans-unit>
+      <trans-unit id="9caefacc2d658e65a31461564c163624" approved="yes">
+        <source>The "%attribute%" attribute does not exist in the "%table%" table.</source>
+        <target xml:lang="zh-TW">屬性 %attribute% 不存在於 "%table%" 數據表中。</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:487</note>
+      </trans-unit>
       <trans-unit id="b162612cdcbf01c01421bad2e8b39432" approved="yes">
         <source>Undefined "%s" error</source>
         <target xml:lang="zh-TW">未定義的錯誤 - ＂%s＂</target>
@@ -131,6 +143,12 @@ File: controllers/admin/AdminRequestSqlController.php:495</note>
         <target xml:lang="zh-TW">使用的操作 "%s" 有誤</target>
         <note>Context:
 File: controllers/admin/AdminRequestSqlController.php:426</note>
+      </trans-unit>
+      <trans-unit id="dde2543d498ef763b41a2e5ddad7ecdd" approved="yes">
+        <source>The "%operator%" operator is incorrect.</source>
+        <target xml:lang="zh-TW">操作者 "%operator%" 不正確。</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:449</note>
       </trans-unit>
       <trans-unit id="19681d28ed1cc72479bc26b7e76ad240" approved="yes">
         <source>The LIMIT clause must contain numeric arguments.</source>
@@ -222,6 +240,12 @@ File: controllers/admin/AdminEmployeesController.php:582</note>
   </file>
   <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="af395851b27882221a6df82c727bca3e" approved="yes">
+        <source>The import directory doesn't exist. Please check your file path.</source>
+        <target xml:lang="zh-TW">上傳目錄不存在。請檢查你的文件路徑。</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:615</note>
+      </trans-unit>
       <trans-unit id="c775530fad852632f78395a11820ba23" approved="yes">
         <source>The import directory must be writable (CHMOD 755 / 777).</source>
         <target xml:lang="zh-TW">導入目錄必須是可寫入的（CHMOD 755/777）。</target>
@@ -269,6 +293,36 @@ File: controllers/admin/AdminImportController.php:742</note>
         <target xml:lang="zh-TW">繼續處理前請先上傳檔案。</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:4526</note>
+      </trans-unit>
+      <trans-unit id="a080a85258618039d010a2136f85e69f" approved="yes">
+        <source>There is an empty row in the file that won't be imported.</source>
+        <target xml:lang="zh-TW">在文件中有一空白行無法導入。</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3703</note>
+      </trans-unit>
+      <trans-unit id="7a1bebdbf5770873f8172ecf27b2aa50" approved="yes">
+        <source>The category ID must be unique. It can't be the same as the one for the parent category (ID: %1$s).</source>
+        <target xml:lang="zh-TW">分類編號必須是獨特的。不能和母分類 （ID: %1$s）的一樣。</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1319</note>
+      </trans-unit>
+      <trans-unit id="521531266ae042d0725d7a4aa22a49f4" approved="yes">
+        <source>A category can't be its own parent. You should rename it (current name: %1$s).</source>
+        <target xml:lang="zh-TW">一個分類不能是它自己的根源。你得重新命名它（現名：%1$s）。</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1333</note>
+      </trans-unit>
+      <trans-unit id="4798b868d51d8e259321deff0452c0f9" approved="yes">
+        <source>Rewrite link for %1$s (ID %2$s): re-written as %3$s.</source>
+        <target xml:lang="zh-TW">為 %1$s (ID %2$s) 重寫鏈接：重寫為 %3$s。</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1849</note>
+      </trans-unit>
+      <trans-unit id="a118c8120ef45c8b1bed36f341fa45f1" approved="yes">
+        <source>A category cannot be its own parent. The parent category ID is either missing or unknown (ID: %1$s).</source>
+        <target xml:lang="zh-TW">分類不能是自己的根源。母分類 ID 可能遺​​失或未知（ID: %1$s）。</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1418</note>
       </trans-unit>
       <trans-unit id="7bc08d1a3178f4927b2c07a18f417b4b" approved="yes">
         <source>The root category cannot be modified.</source>
@@ -513,6 +567,12 @@ File: admin-dev/themes/default/template/controllers/import/modal_import_progress
         <target xml:lang="zh-TW">發生錯誤：</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:39</note>
+      </trans-unit>
+      <trans-unit id="3df311b82f78fa4059e9a78a26e77b06" approved="yes">
+        <source>We made the following adjustments:</source>
+        <target xml:lang="zh-TW">我們做了以下調整：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:52</note>
       </trans-unit>
       <trans-unit id="6e17621d481059924339f91ed431a116" approved="yes">
         <source>Validating data...</source>
@@ -847,9 +907,9 @@ File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:66</note>
       </trans-unit>
-      <trans-unit id="df6e9862566912e908ef785e860f9c71">
+      <trans-unit id="df6e9862566912e908ef785e860f9c71" approved="yes">
         <source>Are you sure that you would like to delete this entity: </source>
-        <target xml:lang="zh-TW" state="needs-translation"> </target>
+        <target xml:lang="zh-TW">您確定刪除這個實體嗎： </target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:493</note>
       </trans-unit>

@@ -42,6 +42,12 @@ File: classes/module/Module.php:349</note>
         <note>Context:
 File: classes/module/Module.php:362</note>
       </trans-unit>
+      <trans-unit id="4c15c8d9982596e224487cab7b4d51f5" approved="yes">
+        <source>Could not install module controllers.</source>
+        <target xml:lang="zh-TW">無法安裝模塊控制器。</target>
+        <note>Context:
+File: classes/module/Module.php:367</note>
+      </trans-unit>
       <trans-unit id="5bd632bbdcdfb6aece20bdf1ae8fea52" approved="yes">
         <source>Technical error: PrestaShop could not install this module.</source>
         <target xml:lang="zh-TW">技術錯誤: PrestaShop 未能安裝此模組.</target>
@@ -102,11 +108,23 @@ File: classes/module/Module.php:660</note>
         <note>Context:
 File: classes/module/Module.php:771</note>
       </trans-unit>
+      <trans-unit id="e8f98f4457c87a8aad1d4d625ad1a9f3" approved="yes">
+        <source>%1$s is not a valid module name.</source>
+        <target xml:lang="zh-TW">%1$s 不是一個有效的模組名稱。</target>
+        <note>Context:
+File: classes/module/Module.php:1062</note>
+      </trans-unit>
       <trans-unit id="8f62a26bf441ad698c2c562ec10448c4" approved="yes">
         <source>All modules cannot be loaded due to memory limit restrictions, please increase your memory_limit value on your server configuration</source>
         <target xml:lang="zh-TW">無法載入所有模組，因為記憶體限制，請增加伺服器的 memory_limit 數值</target>
         <note>Context:
 File: classes/module/Module.php:1402</note>
+      </trans-unit>
+      <trans-unit id="2cff6a926907204ad5c1916ba96ed815" approved="yes">
+        <source>%s could not be loaded.</source>
+        <target xml:lang="zh-TW">%s 無法加載。</target>
+        <note>Context:
+File: classes/module/Module.php:1240</note>
       </trans-unit>
       <trans-unit id="db0275528fda19c75f79d296ded0c6e7" approved="yes">
         <source>Error found in config file:</source>
@@ -346,6 +364,24 @@ File: controllers/admin/AdminModulesController.php:1038</note>
         <note>Context:
 File: classes/controller/AdminController.php:463</note>
       </trans-unit>
+      <trans-unit id="35a596598c0477aea67abfa33b053697" approved="yes">
+        <source>Successfully signed in to PrestaShop Addons.</source>
+        <target xml:lang="zh-TW">成功登陸到 PrestaShop Addons。</target>
+        <note>Context:
+File: classes/controller/AdminController.php:487</note>
+      </trans-unit>
+      <trans-unit id="cf28eac3f0fdd7e3d2d705282948f2b9" approved="yes">
+        <source>Error found : %1$s in country_module_list.xml file.</source>
+        <target xml:lang="zh-TW">發現錯誤：%1$s 在 country_module_list.xml 檔案。</target>
+        <note>Context:
+File: classes/controller/AdminController.php:2226</note>
+      </trans-unit>
+      <trans-unit id="ce7d2844bfe39db351171add1d7348cd" approved="yes">
+        <source>Error found : %1$s in must_have_module_list.xml file.</source>
+        <target xml:lang="zh-TW">發現錯誤：%1$s 在 must_have_module_list.xml 檔案。</target>
+        <note>Context:
+File: classes/controller/AdminController.php:2243</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/AdminSelfTab.php" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -530,6 +566,18 @@ File: src/Core/Addon/Module/ModuleManager.php:618</note>
   </file>
   <file original="src/Core/Addon/Module/ModuleRepository.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="a3214c22fd9d21c988d9bb06748d6d9f" approved="yes">
+        <source>Parse error on module %module%. %error_details%</source>
+        <target xml:lang="zh-TW">%module% 模塊解析錯誤 。%error_details%</target>
+        <note>Context:
+File: src/Core/Addon/Module/ModuleRepository.php:381</note>
+      </trans-unit>
+      <trans-unit id="9fcc3446d55e632b5f3ca13fc810c83b" approved="yes">
+        <source>Loading data from Addons failed. %error_details%</source>
+        <target xml:lang="zh-TW">從Addons上上傳數據失敗。%error_details%</target>
+        <note>Context:
+File: src/Core/Addon/Module/ModuleRepository.php:434</note>
+      </trans-unit>
       <trans-unit id="40e7db035e09d8f198b96a7d5d9e821f" approved="yes">
         <source>Exception detected while loading module %module%. %error_details%.</source>
         <target xml:lang="zh-TW">載入模組 %module% 時發生例外狀況。例外資訊: %error_details%。</target>
@@ -552,6 +600,12 @@ File: src/PrestaShopBundle/Controller/Admin/ModuleController.php:625</note>
         <note>Context:
 File: src/PrestaShopBundle/Controller/Admin/ModuleController.php:633</note>
       </trans-unit>
+      <trans-unit id="fc7da9518fbe20ebcaccbf5f8fd0e7df" approved="yes">
+        <source>Synchronized with Addons marketplace!</source>
+        <target xml:lang="zh-TW">和Addons 市場同步</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/ModuleController.php:785</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Command/ModuleCommand.php" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -568,6 +622,12 @@ File: src/PrestaShopBundle/Command/ModuleCommand.php:166</note>
         <note>Context:
 File: src/PrestaShopBundle/Command/ModuleCommand.php:154</note>
       </trans-unit>
+      <trans-unit id="e92af04f3580fee9164214abd4b621a4" approved="yes">
+        <source>Validation of configuration details failed:</source>
+        <target xml:lang="zh-TW">配置細節認證失敗：</target>
+        <note>Context:
+File: src/PrestaShopBundle/Command/ModuleCommand.php:130</note>
+      </trans-unit>
       <trans-unit id="87167266fbdef818ec8508ea125915aa" approved="yes">
         <source>Configuration successfully applied.</source>
         <target xml:lang="zh-TW">設定已成功應用。</target>
@@ -578,6 +638,12 @@ File: src/PrestaShopBundle/Command/ModuleCommand.php:141</note>
   </file>
   <file original="src/Adapter/Module/ModuleZipManager.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="08859ef1a837ae429ff2e4decc952cbe" approved="yes">
+        <source>Unable to find uploaded module at the following path: %file%</source>
+        <target xml:lang="zh-TW">無法在以下路徑 %file% 找到上傳的模塊</target>
+        <note>Context:
+File: src/Adapter/Module/ModuleZipManager.php:93</note>
+      </trans-unit>
       <trans-unit id="a85499f3d020141df9b6203b7585a9bf" approved="yes">
         <source>This file does not seem to be a valid module zip</source>
         <target xml:lang="zh-TW">此檔案似乎不是一個有效的模組壓縮 zip 檔案.</target>
@@ -614,6 +680,12 @@ File: src/Adapter/Module/Tab/ModuleTabUnregister.php:99</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="b8e063d2ad26dfc0a659410294caf74b" approved="yes">
+        <source>You are about to disable %moduleName% module.</source>
+        <target xml:lang="zh-TW">你將停用 %moduleName% 模塊。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm.html.twig:52</note>
+      </trans-unit>
       <trans-unit id="eb641425b425f906c54cb55319ec3e25" approved="yes">
         <source>You are about to uninstall %moduleName% module.</source>
         <target xml:lang="zh-TW">您將要移除 %moduleName% 模組.</target>
@@ -675,7 +747,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_import.ht
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm_bulk_action.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
+      <trans-unit id="a7f0cf21776c1a6ed951c58620b4507a" approved="yes">
+        <source>You are about to [1] the following modules:</source>
+        <target xml:lang="zh-TW">你將要[1] 以下模塊：</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm_bulk_action.html.twig:37</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Module/Includes/card_notification_update.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -702,6 +779,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_read_more
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_read_more_content.html.twig:128</note>
       </trans-unit>
+      <trans-unit id="1ed02f805424aac96756b590d51e2038" approved="yes">
+        <source>No feature list provided for this module :(</source>
+        <target xml:lang="zh-TW">此模塊未提供特性列表。 :(</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_read_more_content.html.twig:138</note>
+      </trans-unit>
       <trans-unit id="94d27c2e2294ddfe66621b814f2ac3e0" approved="yes">
         <source>No demonstration video found for this module :(</source>
         <target xml:lang="zh-TW">沒有找到此模組的示範影片 :(</target>
@@ -718,9 +801,18 @@ File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_read_more
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Module/manage.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="634ec4fb81df959627996a95fa0e799c" approved="yes">
+        <source>You need to select at least one module to use the bulk action.</source>
+        <target xml:lang="zh-TW">你要選擇至少一個模塊來使用批量行動。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/manage.html.twig:112</note>
+      </trans-unit>
+      <trans-unit id="6e37e943fed80ec5f0629bbea4c81e1a" approved="yes">
+        <source>The action [1] is not available for module [2]. Skipped.</source>
+        <target xml:lang="zh-TW">操作 [1] 不適用於模塊 [2]。跳過。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/manage.html.twig:114</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/modules/configuration_bar.tpl" source-language="en" target-language="zh-TW" datatype="plaintext">

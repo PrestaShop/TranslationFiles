@@ -112,6 +112,12 @@ File: classes/lang/OrderStateLang.php:68</note>
         <note>Context:
 File: classes/lang/OrderStateLang.php:71</note>
       </trans-unit>
+      <trans-unit id="9517f3495b0036d25cbc455c592ea868" approved="yes">
+        <source>Remote payment accepted</source>
+        <target xml:lang="zh-TW">接受遠程付款</target>
+        <note>Context:
+File: classes/lang/OrderStateLang.php:74</note>
+      </trans-unit>
       <trans-unit id="51ebf726bac579d61910a5425e3128c5" approved="yes">
         <source>Awaiting Cash On Delivery validation</source>
         <target xml:lang="zh-TW">等待貨到付款驗證</target>
@@ -805,27 +811,33 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:1157</note>
       </trans-unit>
-      <trans-unit id="6188ffe19286d3bf694160609cf15e82">
+      <trans-unit id="d68a1671669f7e55d73dd78c22d52dfa" approved="yes">
+        <source>This order has been partially paid by voucher. Choose the amount you want to refund:</source>
+        <target xml:lang="zh-TW">此訂單部分由代金券支付。選擇你要退款的金額：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:1161</note>
+      </trans-unit>
+      <trans-unit id="6188ffe19286d3bf694160609cf15e82" approved="yes">
         <source>Include amount of initial voucher: </source>
-        <target xml:lang="zh-TW" state="needs-translation"> </target>
+        <target xml:lang="zh-TW">包括之前代金券的數目： </target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:1165</note>
       </trans-unit>
-      <trans-unit id="b9313ee2094019f4ee5212f784f45d65">
+      <trans-unit id="b9313ee2094019f4ee5212f784f45d65" approved="yes">
         <source>Exclude amount of initial voucher: </source>
-        <target xml:lang="zh-TW" state="needs-translation"> </target>
+        <target xml:lang="zh-TW">不包括之前代金券的數目： </target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:1171</note>
       </trans-unit>
-      <trans-unit id="7731388b0fae4c0d7214f6a1f6f1771f">
+      <trans-unit id="7731388b0fae4c0d7214f6a1f6f1771f" approved="yes">
         <source>Amount of your choice: </source>
-        <target xml:lang="zh-TW" state="needs-translation"> </target>
+        <target xml:lang="zh-TW">你選擇的數目： </target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:1224</note>
       </trans-unit>
-      <trans-unit id="67dd576afa3b807903e847f6ebb11f22">
+      <trans-unit id="67dd576afa3b807903e847f6ebb11f22" approved="yes">
         <source>This order has been partially paid by voucher. Choose the amount you want to refund: </source>
-        <target xml:lang="zh-TW" state="needs-translation"> </target>
+        <target xml:lang="zh-TW">此訂單部分由代金券支付。選擇你要退款的金額： </target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:1209</note>
       </trans-unit>
@@ -1137,6 +1149,12 @@ File: admin-dev/themes/default/template/controllers/customers/helpers/view/view.
         <note>Context:
 File: admin-dev/themes/default/template/controllers/customers/helpers/view/view.tpl:246</note>
       </trans-unit>
+      <trans-unit id="665305fedb3adcae303f3b974bc9ce08" approved="yes">
+        <source>%firstname% %lastname% has not placed any orders yet</source>
+        <target xml:lang="zh-TW">%firstname% %lastname% 還沒有下過訂單</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/customers/helpers/view/view.tpl:265</note>
+      </trans-unit>
       <trans-unit id="698e0d3e044a7ebe56308e190b82b326" approved="yes">
         <source>Purchased products</source>
         <target xml:lang="zh-TW">已購買商品</target>
@@ -1161,11 +1179,23 @@ File: admin-dev/themes/default/template/controllers/customers/helpers/view/view.
         <note>Context:
 File: admin-dev/themes/default/template/controllers/customers/helpers/view/view.tpl:391</note>
       </trans-unit>
+      <trans-unit id="e1835dc45bbdc7f7d3ca94f4ab002f84" approved="yes">
+        <source>%firstname% %lastname% has never contacted you</source>
+        <target xml:lang="zh-TW">%firstname% %lastname% 還沒有聯繫過您</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/customers/helpers/view/view.tpl:407</note>
+      </trans-unit>
       <trans-unit id="907d7000b3555d1a1b12f1fed29a9ec4" approved="yes">
         <source>Qty available</source>
         <target xml:lang="zh-TW">可用數量</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/customers/helpers/view/view.tpl:423</note>
+      </trans-unit>
+      <trans-unit id="c8b4c13e6ad3227e192c118261c0e179" approved="yes">
+        <source>%firstname% %lastname% has no discount vouchers</source>
+        <target xml:lang="zh-TW">%firstname% %lastname% 沒有任何優惠券</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/customers/helpers/view/view.tpl:455</note>
       </trans-unit>
       <trans-unit id="b70a3b711156c78fa558c596980b2e30" approved="yes">
         <source>Last emails</source>
@@ -1693,6 +1723,18 @@ File: admin-dev/themes/default/template/controllers/customer_threads/message.tpl
         <note>Context:
 File: admin-dev/themes/default/template/controllers/customer_threads/message.tpl:111</note>
       </trans-unit>
+      <trans-unit id="018d4d01cba3905ad11258518b4ea424" approved="yes">
+        <source>Sent by:</source>
+        <target xml:lang="zh-TW">寄件者：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/customer_threads/message.tpl:115</note>
+      </trans-unit>
+      <trans-unit id="818d947aeb9e604f54ce4c3444cc0256" approved="yes">
+        <source>Thread ID:</source>
+        <target xml:lang="zh-TW">主題編號：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/customer_threads/message.tpl:153</note>
+      </trans-unit>
       <trans-unit id="0e2f5e3f12561ac94047979ec5406946" approved="yes">
         <source>Message ID:</source>
         <target xml:lang="zh-TW">訊息編號：</target>
@@ -2035,6 +2077,12 @@ File: admin-dev/themes/default/template/controllers/customer_threads/helpers/vie
         <note>Context:
 File: admin-dev/themes/default/template/controllers/customer_threads/helpers/view/view.tpl:67</note>
       </trans-unit>
+      <trans-unit id="72890e9df12803a4aab17a98d1ebfd9e" approved="yes">
+        <source>[1]%count%[/1] order(s) validated for a total amount of [2]%total%[/2]</source>
+        <target xml:lang="zh-TW">[1]%count%[/1] 訂單確認的總金額為 [2]%total%[/2]</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/customer_threads/helpers/view/view.tpl:74</note>
+      </trans-unit>
       <trans-unit id="04427d6ba3fb03f0951b27ddd7c05af5" approved="yes">
         <source>Orders and messages timeline</source>
         <target xml:lang="zh-TW">訂單和訊息時的間線</target>
@@ -2050,6 +2098,12 @@ File: admin-dev/themes/default/template/controllers/customer_threads/helpers/vie
         <target xml:lang="zh-TW">轉出這個討論</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/customer_threads/helpers/view/modal.tpl:31</note>
+      </trans-unit>
+      <trans-unit id="42ff79fde8fc930db50949b4f700c661" approved="yes">
+        <source>Forward this discussion to an employee:</source>
+        <target xml:lang="zh-TW">將此討論轉發給員工：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/customer_threads/helpers/view/modal.tpl:35</note>
       </trans-unit>
       <trans-unit id="81e053d78f01540e9cd6fb68a1c03976" approved="yes">
         <source>Someone else</source>

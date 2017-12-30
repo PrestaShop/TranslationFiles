@@ -172,9 +172,9 @@ File: controllers/admin/AdminProductsController.php:1082</note>
         <note>Context:
 File: controllers/admin/AdminProductsController.php:1092</note>
       </trans-unit>
-      <trans-unit id="ed6c7c35c51ba299b38e3af151a5ec0f">
+      <trans-unit id="ed6c7c35c51ba299b38e3af151a5ec0f" approved="yes">
         <source>An error occurred while attempting to associate this image with your shop. </source>
-        <target xml:lang="zh-TW" state="needs-translation"> </target>
+        <target xml:lang="zh-TW">嘗試將此圖片與您的商店關聯時發生錯誤。 </target>
         <note>Context:
 File: controllers/admin/AdminProductsController.php:1465</note>
       </trans-unit>
@@ -318,6 +318,12 @@ File: classes/QqUploadedFileForm.php:48</note>
         <note>Context:
 File: classes/controller/AdminController.php:486</note>
       </trans-unit>
+      <trans-unit id="801982917ddd7afd63f9e103ba4699bd" approved="yes">
+        <source>The root category of the shop %shop% is not associated with the current shop. You can't access this page. Please change the root category of the shop.</source>
+        <target xml:lang="zh-TW">該商店%shop%的根分類和現有的點無關聯。你無法進入此頁面。請改變商店的根分類。</target>
+        <note>Context:
+File: classes/controller/AdminController.php:492</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/AdminSelfTab.php" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -399,6 +405,12 @@ File: controllers/admin/AdminCartRulesController.php:218</note>
         <target xml:lang="zh-TW">減價金額不能夠小於 0</target>
         <note>Context:
 File: controllers/admin/AdminCartRulesController.php:221</note>
+      </trans-unit>
+      <trans-unit id="7f5ef3543345170784cc954cffa697d6" approved="yes">
+        <source>This cart rule code is already used (conflict with cart rule %rulename%)</source>
+        <target xml:lang="zh-TW">此購物車規則代碼已使用（和購物車規則 %rulename% 衝突）</target>
+        <note>Context:
+File: controllers/admin/AdminCartRulesController.php:224</note>
       </trans-unit>
       <trans-unit id="bbc6a34f03def2d56def8e7685a3fcae" approved="yes">
         <source>An action is required for this cart rule.</source>
@@ -503,6 +515,12 @@ File: controllers/admin/AdminCategoriesController.php:798</note>
         <note>Context:
 File: controllers/admin/AdminCategoriesController.php:801</note>
       </trans-unit>
+      <trans-unit id="23be63a3d78c7375e59f5965f6ef9efd" approved="yes">
+        <source>Unknown delete mode: %s</source>
+        <target xml:lang="zh-TW">未知刪除模式：%s</target>
+        <note>Context:
+File: controllers/admin/AdminCategoriesController.php:821</note>
+      </trans-unit>
       <trans-unit id="b50f440e3c9f14988bd0086683e77095" approved="yes">
         <source>You cannot remove this category because one of your shops uses it as a root category.</source>
         <target xml:lang="zh-TW">您不能夠刪除這個分類，因為有一個商店將它設為根分類</target>
@@ -520,6 +538,12 @@ File: controllers/admin/AdminCategoriesController.php:923</note>
         <target xml:lang="zh-TW">上傳縮略圖圖像時發生錯誤。</target>
         <note>Context:
 File: controllers/admin/AdminCategoriesController.php:947</note>
+      </trans-unit>
+      <trans-unit id="a874ef298164bbd4d00d55901225cd87" approved="yes">
+        <source>An error occurred while uploading the image:</source>
+        <target xml:lang="zh-TW">在上傳圖像的時候發生了錯誤。</target>
+        <note>Context:
+File: controllers/admin/AdminCategoriesController.php:1047</note>
       </trans-unit>
       <trans-unit id="b05c3c0bfce943b86e286e8e8103b6e5" approved="yes">
         <source>An error occurred while uploading the image.</source>
@@ -655,6 +679,18 @@ File: src/PrestaShopBundle/Controller/Admin/ProductController.php:666</note>
         <note>Context:
 File: src/PrestaShopBundle/Controller/Admin/ProductController.php:686</note>
       </trans-unit>
+      <trans-unit id="290ed9aa59dd098c9e112c4f9770407d" approved="yes">
+        <source>Product(s) successfully duplicated.</source>
+        <target xml:lang="zh-TW">商品複製成功。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/ProductController.php:696</note>
+      </trans-unit>
+      <trans-unit id="c1746190e47d69ea7f0db7f098de7cab" approved="yes">
+        <source>Products successfully sorted.</source>
+        <target xml:lang="zh-TW">商品被成功分揀。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/ProductController.php:767</note>
+      </trans-unit>
       <trans-unit id="7bdb2828f248bbd55bba16dcc63223d9" approved="yes">
         <source>Product successfully deleted.</source>
         <target xml:lang="zh-TW">商品已成功刪除。</target>
@@ -673,12 +709,28 @@ File: src/PrestaShopBundle/Controller/Admin/ProductController.php:837</note>
         <note>Context:
 File: src/PrestaShopBundle/Controller/Admin/ProductController.php:846</note>
       </trans-unit>
+      <trans-unit id="fd1d6d9c7d146c9f81572224bae86951" approved="yes">
+        <source>Product successfully deactivated.</source>
+        <target xml:lang="zh-TW">商品成功下線。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/ProductController.php:854</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Translation/Api/StockApi.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="5566045e38ed5e7bb072b8d55f3ceb2f" approved="yes">
+        <source>No product matches your search. Try changing search terms.</source>
+        <target xml:lang="zh-TW">沒有符合你搜索的商品。請試著改變搜索條件。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Translation/Api/StockApi.php:64</note>
+      </trans-unit>
+      <trans-unit id="96d17a8fdea016168a9d506b0da23c07" approved="yes">
+        <source>Stock successfully updated</source>
+        <target xml:lang="zh-TW">庫存已更新</target>
+        <note>Context:
+File: src/PrestaShopBundle/Translation/Api/StockApi.php:66</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Validator/Constraints/TinyMceMaxLengthValidator.php" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -767,6 +819,24 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/list.html.twig:131</not
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Product/form.html.twig:1254</note>
       </trans-unit>
+      <trans-unit id="ff8a012ee6cba99838a649d92ad1b34b" approved="yes">
+        <source>This will delete the specific price. Do you wish to proceed?</source>
+        <target xml:lang="zh-TW">這將刪除特定的價格，你確定要繼續嗎？</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/form.html.twig:1268</note>
+      </trans-unit>
+      <trans-unit id="dfd19ad4f089996c7eabcd5935f75e98" approved="yes">
+        <source>A pack of products can't have combinations.</source>
+        <target xml:lang="zh-TW">包裝商品不能有商品屬性組合。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/form.html.twig:1274</note>
+      </trans-unit>
+      <trans-unit id="5b75fdc0df647e8ac5275e31554dd0f9" approved="yes">
+        <source>A virtual product can't have combinations.</source>
+        <target xml:lang="zh-TW">虛擬商品不能有商品屬性組合。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/form.html.twig:1275</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/catalog.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -795,11 +865,29 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/catalog.html.twig:447</
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Product/catalog.html.twig:449</note>
       </trans-unit>
+      <trans-unit id="58b01b30d683cbdb393f9ede59bdb697" approved="yes">
+        <source>Deactivation in progress...</source>
+        <target xml:lang="zh-TW">取消激活進行中</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/catalog.html.twig:469</note>
+      </trans-unit>
+      <trans-unit id="036a5e2d815eaa9bddaebf0c12f94e17" approved="yes">
+        <source>Deactivation failed.</source>
+        <target xml:lang="zh-TW">取消激活失敗。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/catalog.html.twig:471</note>
+      </trans-unit>
       <trans-unit id="557c57932d4eb9b108efcf050b9db862" approved="yes">
         <source>Deletion in progress...</source>
         <target xml:lang="zh-TW">正在刪除數據...</target>
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Product/catalog.html.twig:491</note>
+      </trans-unit>
+      <trans-unit id="51d0bf7f10d8d28ecd64d2aa3a5ca141" approved="yes">
+        <source>Deletion failed.</source>
+        <target xml:lang="zh-TW">刪除失敗。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/catalog.html.twig:493</note>
       </trans-unit>
       <trans-unit id="fc483403c3f9b9aa31a570b83cdfa6f3" approved="yes">
         <source>Duplicating products</source>
@@ -812,6 +900,18 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/catalog.html.twig:415</
         <target xml:lang="zh-TW">複製中...</target>
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Product/catalog.html.twig:419</note>
+      </trans-unit>
+      <trans-unit id="6d7447cf0c9efdaeb3a700de594a70cf" approved="yes">
+        <source>Activating products</source>
+        <target xml:lang="zh-TW">激活商品中</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/catalog.html.twig:437</note>
+      </trans-unit>
+      <trans-unit id="b850e16adbf88a6b6cb724630eff2c97" approved="yes">
+        <source>Activating...</source>
+        <target xml:lang="zh-TW">激活中。。。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/catalog.html.twig:441</note>
       </trans-unit>
       <trans-unit id="ccfc7b0a56346cdac7fd40d2edd01c5a" approved="yes">
         <source>Deleting products</source>
@@ -834,12 +934,42 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/catalog.html.twig:485</
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/Include/form_seo.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
+      <trans-unit id="c292d80ff15bf0d38f63af320f9f7839" approved="yes">
+        <source>Friendly URLs are currently disabled.</source>
+        <target xml:lang="zh-TW">友好鏈接現在​​已停用。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/Include/form_seo.html.twig:71</note>
+      </trans-unit>
+      <trans-unit id="517937df76770fb3c4f9e6100ed69ce9" approved="yes">
+        <source>To enable it, go to [1]SEO and URLs[/1]</source>
+        <target xml:lang="zh-TW">要激活它，請到 [1]SEO 和 URLs[/1]</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/Include/form_seo.html.twig:72</note>
+      </trans-unit>
+      <trans-unit id="9bbbc84f839137c71e79f1b8eaafc5b7" approved="yes">
+        <source>Friendly URLs are currently enabled.</source>
+        <target xml:lang="zh-TW">友好鏈接現在​​被使用。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/Include/form_seo.html.twig:74</note>
+      </trans-unit>
+      <trans-unit id="2d1df068fb2a9a3c4d9e3c361795c59c" approved="yes">
+        <source>To disable it, go to [1]SEO and URLs[/1]</source>
+        <target xml:lang="zh-TW">要停用它，請到[1]SEO 和 URLs[/1]</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/Include/form_seo.html.twig:75</note>
+      </trans-unit>
+      <trans-unit id="d7e9bf98e857f83943b3b75fce04cea9" approved="yes">
+        <source>The "Force update of friendly URL" option is currently enabled.</source>
+        <target xml:lang="zh-TW">當前啟用了“友好URL強制更新”選項。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/Include/form_seo.html.twig:80</note>
+      </trans-unit>
+      <trans-unit id="87ffb4b96479e24281064ad98ddfd16f" approved="yes">
+        <source>To disable it, go to [1]Product Settings[/1]</source>
+        <target xml:lang="zh-TW">要停用它，請到[1]商品設置[/1]</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/Include/form_seo.html.twig:82</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/manufacturers/helpers/view/view.tpl" source-language="en" target-language="zh-TW" datatype="plaintext">
