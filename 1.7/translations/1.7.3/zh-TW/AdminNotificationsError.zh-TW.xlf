@@ -216,6 +216,12 @@ File: controllers/admin/AdminProductsController.php:1933</note>
         <note>Context:
 File: controllers/admin/AdminProductsController.php:1980</note>
       </trans-unit>
+      <trans-unit id="9ca63429d31c3e720001675dd8535a9d" approved="yes">
+        <source>The %name% field is required.</source>
+        <target xml:lang="zh-TW">%name% 必填。</target>
+        <note>Context:
+File: controllers/admin/AdminProductsController.php:2006</note>
+      </trans-unit>
       <trans-unit id="172dfd675cd344c66724042519cc4df1" approved="yes">
         <source>The %1$s field (%2$s) is invalid.</source>
         <target xml:lang="zh-TW">欄位 %1$s 有誤 (%2$s)</target>
@@ -634,17 +640,35 @@ File: classes/controller/AdminController.php:1655
         <note>Context:
 File: classes/controller/AdminController.php:1663</note>
       </trans-unit>
+      <trans-unit id="114eadc70de249729e9287a6b450c6e0" approved="yes">
+        <source>The %field_name% field (%lang%) is invalid.</source>
+        <target xml:lang="zh-TW">欄位 %field_name%（%lang%）有誤 。</target>
+        <note>Context:
+File: classes/controller/AdminController.php:3714</note>
+      </trans-unit>
       <trans-unit id="b4186b9ed7c957a1cd9f4e7ce916e603" approved="yes">
         <source>%s: Incorrect value</source>
         <target xml:lang="zh-TW">%s：價值不正確</target>
         <note>Context:
 File: classes/controller/AdminController.php:3909</note>
       </trans-unit>
+      <trans-unit id="7c422404cb037e6781b5a553060670a6" approved="yes">
+        <source>Can't delete #%id%</source>
+        <target xml:lang="zh-TW">無法刪除 #%id%</target>
+        <note>Context:
+File: classes/controller/AdminController.php:4040</note>
+      </trans-unit>
       <trans-unit id="c87956ad745e55231c633c03fe0f0d5b" approved="yes">
         <source>An error occurred while assigning a zone to the selection.</source>
         <target xml:lang="zh-TW">在分配區域選擇時發生錯誤。</target>
         <note>Context:
 File: classes/controller/AdminController.php:4143</note>
+      </trans-unit>
+      <trans-unit id="93463ceee9a3d376b18ee618bc2fffe4" approved="yes">
+        <source>You must select at least one element to assign a new zone.</source>
+        <target xml:lang="zh-TW">您最少要選擇一個項目來指派新區域。</target>
+        <note>Context:
+File: classes/controller/AdminController.php:4145</note>
       </trans-unit>
     </body>
   </file>
@@ -1024,7 +1048,12 @@ File: controllers/admin/AdminShopGroupController.php:324</note>
   </file>
   <file original="controllers/admin/AdminRequestSqlController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
+      <trans-unit id="0b5512610b0c8548345f37a58bf51360" approved="yes">
+        <source>"%key%" does not exist.</source>
+        <target xml:lang="zh-TW">“%key%”不存在。</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:519</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminShopUrlController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -1123,9 +1152,9 @@ File: controllers/admin/AdminAttachmentsController.php:218</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2093</note>
       </trans-unit>
-      <trans-unit id="3d52f8b2b1a67aa8740b72b3752d54f3">
+      <trans-unit id="3d52f8b2b1a67aa8740b72b3752d54f3" approved="yes">
         <source>Incorrect value for "Depends on stock" for product %name% </source>
-        <target xml:lang="zh-TW" state="needs-translation"> </target>
+        <target xml:lang="zh-TW">商品 %name% 的＂取決於庫存＂價值不正確 </target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2765</note>
       </trans-unit>
@@ -1169,6 +1198,36 @@ File: controllers/admin/AdminCountriesController.php:433</note>
   </file>
   <file original="controllers/admin/AdminTranslationsController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="e298a0bc9a35d45798e28c082dfc1dfa" approved="yes">
+        <source>"%type%" does not exist.</source>
+        <target xml:lang="zh-TW">“%type%”不存在。</target>
+        <note>Context:
+File: controllers/admin/AdminTranslationsController.php:113</note>
+      </trans-unit>
+      <trans-unit id="40f5c232e433d178a4f912b3092d7df1" approved="yes">
+        <source>Directory "%folder%" cannot be created</source>
+        <target xml:lang="zh-TW">無法建立資料夾 "%folder%"</target>
+        <note>Context:
+File: controllers/admin/AdminTranslationsController.php:336</note>
+      </trans-unit>
+      <trans-unit id="80034ab2323115584ed4c5b05e222f60" approved="yes">
+        <source>File "%file%" cannot be created</source>
+        <target xml:lang="zh-TW">檔案 "%file%" 無法建立</target>
+        <note>Context:
+File: controllers/admin/AdminTranslationsController.php:338</note>
+      </trans-unit>
+      <trans-unit id="6b12f160f2bb3c7dea01bd96a223d80e" approved="yes">
+        <source>Cannot write this file: "%folder%"</source>
+        <target xml:lang="zh-TW">無法寫入檔案："%folder%"</target>
+        <note>Context:
+File: controllers/admin/AdminTranslationsController.php:388</note>
+      </trans-unit>
+      <trans-unit id="f0566c73cce29920f99fda8819745804" approved="yes">
+        <source>This file must be writable: %file%</source>
+        <target xml:lang="zh-TW">這個檔案必須可以寫入：%file%</target>
+        <note>Context:
+File: controllers/admin/AdminTranslationsController.php:515</note>
+      </trans-unit>
       <trans-unit id="bb5ef82c8be2494c733ac77920bc5c72" approved="yes">
         <source>No file has been selected.</source>
         <target xml:lang="zh-TW">沒有選擇檔案</target>
@@ -1178,6 +1237,12 @@ File: controllers/admin/AdminTranslationsController.php:759</note>
       <trans-unit id="e594c33758771c458a7f80e9afdf7e55" approved="yes">
         <source>The server does not have permissions for writing.</source>
         <target xml:lang="zh-TW">伺服器沒有寫權限。</target>
+        <note>Context:
+File: controllers/admin/AdminTranslationsController.php:795</note>
+      </trans-unit>
+      <trans-unit id="65dd53e33c17621f58bcc99be967814a" approved="yes">
+        <source>Please check rights for %file%</source>
+        <target xml:lang="zh-TW">請檢查 %file% 的權限</target>
         <note>Context:
 File: controllers/admin/AdminTranslationsController.php:795</note>
       </trans-unit>

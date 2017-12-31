@@ -76,6 +76,12 @@ File: classes/LocalizationPack.php:182</note>
         <note>Context:
 File: classes/LocalizationPack.php:214</note>
       </trans-unit>
+      <trans-unit id="da2b28e84d7f376b073d2c31b0cb937b" approved="yes">
+        <source>An error occurred while importing the tax: %s</source>
+        <target xml:lang="zh-TW">在導入稅率時發生錯誤：%s</target>
+        <note>Context:
+File: classes/LocalizationPack.php:219</note>
+      </trans-unit>
       <trans-unit id="36f9983aadfde9d77db0d357abe6e85e" approved="yes">
         <source>This tax rule cannot be saved.</source>
         <target xml:lang="zh-TW">無法儲存稅務規則</target>
@@ -87,6 +93,12 @@ File: classes/LocalizationPack.php:242</note>
         <target xml:lang="zh-TW">無效的貨幣屬性。</target>
         <note>Context:
 File: classes/LocalizationPack.php:322</note>
+      </trans-unit>
+      <trans-unit id="0e7c10cc4eabebc9bd8f1b9cb8b81bb6" approved="yes">
+        <source>An error occurred while importing the currency: %s</source>
+        <target xml:lang="zh-TW">導入貨幣時發生錯誤：%s</target>
+        <note>Context:
+File: classes/LocalizationPack.php:327</note>
       </trans-unit>
       <trans-unit id="4a11be1a3905ec59ca2d35a068de6f2e" approved="yes">
         <source>Localization pack corrupted: wrong unit type.</source>
@@ -111,6 +123,18 @@ File: classes/LocalizationPack.php:430</note>
         <target xml:lang="zh-TW">移除模組時發生錯誤：%s</target>
         <note>Context:
 File: classes/LocalizationPack.php:435</note>
+      </trans-unit>
+      <trans-unit id="962f6e835582ebb404a37893f46c60f3" approved="yes">
+        <source>An error has occurred, this module does not exist: %s</source>
+        <target xml:lang="zh-TW">發生錯誤，此模塊不存在：%s</target>
+        <note>Context:
+File: classes/LocalizationPack.php:441</note>
+      </trans-unit>
+      <trans-unit id="e7ae5e7fbebb7b087110d07b06bd2418" approved="yes">
+        <source>An error occurred during the configuration setup: %1$s</source>
+        <target xml:lang="zh-TW">在配置設置時發生錯誤：%1$s</target>
+        <note>Context:
+File: classes/LocalizationPack.php:468</note>
       </trans-unit>
       <trans-unit id="b34f6454b80599ab92262b1da79a9edb" approved="yes">
         <source>An error occurred during the default group update</source>
@@ -150,6 +174,12 @@ File: classes/Language.php:764</note>
         <note>Context:
 File: classes/Language.php:773</note>
       </trans-unit>
+      <trans-unit id="bec88b0b441e9deb3008eb5b2a57ec70" approved="yes">
+        <source>Sorry this language is not available</source>
+        <target xml:lang="zh-TW">抱歉, 該語言不可用</target>
+        <note>Context:
+File: classes/Language.php:1035</note>
+      </trans-unit>
       <trans-unit id="edeb9e20655b946e4bee4ac44a6c0a7f" approved="yes">
         <source>Server does not have permissions for writing.</source>
         <target xml:lang="zh-TW">伺服器沒有寫權限。</target>
@@ -179,6 +209,12 @@ File: classes/Language.php:1137</note>
         <target xml:lang="zh-TW">語言複製成功</target>
         <note>Context:
 File: classes/controller/AdminController.php:469</note>
+      </trans-unit>
+      <trans-unit id="ae99f365ee39176c3ab50b76a95cf629" approved="yes">
+        <source>Cannot add configuration %1$s for %2$s language</source>
+        <target xml:lang="zh-TW">無法為語言 %2$s 添加配置 %1$s</target>
+        <note>Context:
+File: classes/controller/AdminController.php:1480</note>
       </trans-unit>
     </body>
   </file>
@@ -327,6 +363,12 @@ File: controllers/admin/AdminLanguagesController.php:468</note>
         <target xml:lang="zh-TW">調整大小時發生錯誤沒有畫面圖示，您的分類目錄。</target>
         <note>Context:
 File: controllers/admin/AdminLanguagesController.php:471</note>
+      </trans-unit>
+      <trans-unit id="fea874a66e2e09d727c76264844ff688" approved="yes">
+        <source>An error occurred while resizing "No picture" image to your brand directory.</source>
+        <target xml:lang="zh-TW">調整“無圖片”圖片到品牌目錄時發生錯誤。</target>
+        <note>Context:
+File: controllers/admin/AdminLanguagesController.php:474</note>
       </trans-unit>
       <trans-unit id="5f17acb89d2ab83c9138774bfd05ab16" approved="yes">
         <source>An error occurred during image deletion process.</source>
@@ -533,6 +575,12 @@ File: controllers/admin/AdminTranslationsController.php:960</note>
         <note>Context:
 File: controllers/admin/AdminTranslationsController.php:1634</note>
       </trans-unit>
+      <trans-unit id="40f5c232e433d178a4f912b3092d7df1" approved="yes">
+        <source>Directory "%folder%" cannot be created</source>
+        <target xml:lang="zh-TW">無法建立資料夾 "%folder%"</target>
+        <note>Context:
+File: controllers/admin/AdminTranslationsController.php:1669</note>
+      </trans-unit>
       <trans-unit id="ccdf1aa6f4cb029f9846e53006115905" approved="yes">
         <source>Your email translations contain some invalid HTML and cannot be saved. Please check your content.</source>
         <target xml:lang="zh-TW">您的電子郵件翻譯包含一些無效的HTML，因此無法保存。 請檢查翻譯內容。</target>
@@ -593,7 +641,12 @@ File: src/PrestaShopBundle/Twig/TranslationsExtension.php:225</note>
   </file>
   <file original="admin-dev/themes/default/template/controllers/localization/content.tpl" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
+      <trans-unit id="7da16b055b9db528a9b4aa9c4ad674ca" approved="yes">
+        <source>Before changing the default currency, we strongly recommend that you enable maintenance mode. Indeed, any change on the default currency requires a manual adjustment of the price of each product and its combinations.</source>
+        <target xml:lang="zh-TW">在更改默認貨幣前，我們強烈建議你啟動維修模式。對默認貨幣的更改必須要手動更改每件商品及其組合的價格。</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/localization/content.tpl:31</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/languages/helpers/form/form.tpl" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -666,6 +719,18 @@ File: admin-dev/themes/default/template/controllers/translations/helpers/view/tr
         <note>Context:
 File: admin-dev/themes/default/template/controllers/translations/helpers/view/translation_mails.tpl:47</note>
       </trans-unit>
+      <trans-unit id="bbfb7a636f839052067cc86c39fa595a" approved="yes">
+        <source>%limit% for suhosin.post.max_vars.</source>
+        <target xml:lang="zh-TW">suhosin.post.max_vars 的 %limit%</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/translation_mails.tpl:41</note>
+      </trans-unit>
+      <trans-unit id="e97da54b23c78752578cd7fa01e8866d" approved="yes">
+        <source>%limit% for suhosin.request.max_vars.</source>
+        <target xml:lang="zh-TW">suhosin.post.max_vars 的 %limit%</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/translation_mails.tpl:42</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_errors.tpl" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -702,7 +767,12 @@ File: admin-dev/themes/default/template/controllers/translations/helpers/view/ma
   </file>
   <file original="admin-dev/themes/default/template/controllers/currencies/conversion_rate.tpl" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
+      <trans-unit id="0f4a4ca4bdfda88bb59a4ba4814a5f78" approved="yes">
+        <source>Please install the %module_name% module before using this feature.</source>
+        <target xml:lang="zh-TW">使用此功能之前，請安裝 %module_name% 模塊。</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/currencies/conversion_rate.tpl:50</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
