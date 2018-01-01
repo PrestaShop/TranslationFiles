@@ -1806,7 +1806,6 @@ $_LANGADM['AdminRequestSqlc9cc8cce247e49bae79f15173ce97354'] = '保存';
 $_LANGADM['AdminRequestSqld3b206d196cd6be3a2764c1fb90b200f'] = '删除所选';
 $_LANGADM['AdminRequestSqle25f0ecd41211b01c83e5fec41df4fe7'] = '删除选定项目？';
 $_LANGADM['AdminRequestSqlbbed49e90ee59ac450e80b492f452d0e'] = '编辑此SQL查询';
-$_LANGADM['AdminRequestSql0ee028bcc2a0101d4d65745086eefc03'] = '当保存的查询，只有“SELECT” SQL语句是允许的。';
 $_LANGADM['AdminRequestSql68db67219aa1fd6e5f8820e20fd78b25'] = '我如何创建一个新的SQL查询？';
 $_LANGADM['AdminRequestSql555f1c93c6aa30a9b28e5cb37eaade53'] = '点击”新增“';
 $_LANGADM['AdminRequestSqlb7ccdf6ab58f5514acc520721ddc9f08'] = '填进选项并点击”保存“';
