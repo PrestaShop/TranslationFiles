@@ -13,6 +13,8 @@ $_MODULE['<{cronjobs}prestashop>cronjobsforms_3a21e2309e8e6aa3759e466154508f2c']
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_be938fb8c5582085599dfa95368fb489'] = 'תדירות המשימה';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_b3364fad867d47ca61265fd315e4071e'] = 'באיזו שעה יש לבצע משימה זו?';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_6c5d30049c4d8d644bd35650be4ac13a'] = 'באיזה יום בחודש יש לבצע משימה זו ?';
+$_MODULE['<{cronjobs}prestashop>cronjobsforms_a1457ee25ec20fa032d37509b5a90a4e'] = 'באיזה חודש יש לבצע משימה זו?';
+$_MODULE['<{cronjobs}prestashop>cronjobsforms_65f768d204a3118f426c756056bef1e1'] = 'באיזה יום בשבוע יש לבצע משימה זו?';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_f4f70727dc34561dfde1a3c529b6205c'] = 'הגדרות';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_b3419e63398ccc41c062f36631bebd9a'] = 'מצב תזמון';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_972e73b7a882d0802a4e3a16946a2f94'] = 'בסיסי';
