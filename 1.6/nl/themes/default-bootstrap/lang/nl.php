@@ -468,6 +468,7 @@ $_LANG['order-detail_be686376cddb23d0227444ccc3c4b5b7'] = 'Waardebon';
 $_LANG['order-detail_3956298bcfc047e15b0e0d218492ce09'] = 'Geretourneerde producten';
 $_LANG['order-detail_bef8403608dc4cb3ade799f63dd4bf59'] = 'Als u één of meer producten wilt retourneren, vink dan de bijbehorende vakjes aan en geef een korte uitleg waarom u deze producten terug wilt sturen. Klik daarna op de onderstaande knop.';
 $_LANG['order-detail_25e93b63e91b5555bd458c89b1916678'] = 'Retourbon aanmaken';
+$_LANG['order-detail_8c489d0946f66d17d73f26366a4bf620'] = 'Gewicht';
 $_LANG['order-detail_552a0d8c17d95d5dbdc0c28217024f5a'] = 'Verzendkosten';
 $_LANG['order-detail_5068c162a60b5859f973f701333f45c5'] = 'Trackingnummer';
 $_LANG['order-detail_41de6d6cfb8953c021bbe4ba0701c8a1'] = 'Berichten';
