@@ -504,6 +504,18 @@ File: controllers/admin/AdminImportController.php:2767</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2489</note>
       </trans-unit>
+      <trans-unit id="0081b2a315ed28289036fa6cc02a3819" approved="yes">
+        <source>Advanced stock management is not enabled, warehouse is not set on product with id %id%.</source>
+        <target xml:lang="zh-TW">高級庫存管理未啟用，id為%id%的商品沒有設置倉庫。</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:2741</note>
+      </trans-unit>
+      <trans-unit id="c24928943071d3366164238b9413a211" approved="yes">
+        <source>Warehouse did not exist, cannot set on product %name%.</source>
+        <target xml:lang="zh-TW">倉庫不存在，不能為商品%name%設置。</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:2757</note>
+      </trans-unit>
       <trans-unit id="fd6d9d3ba7d4aaacc49f53c2e8c082c0" approved="yes">
         <source>Email address %1$s (ID: %2$s) cannot be validated.</source>
         <target xml:lang="zh-TW">電郵地址 %1$s (ID: %2$s) 無法驗證。</target>
@@ -521,6 +533,12 @@ File: controllers/admin/AdminImportController.php:3056</note>
         <target xml:lang="zh-TW">%1$s 不存在於資料庫 %2$s (編號：%3$s) ，無法儲存。</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3252</note>
+      </trans-unit>
+      <trans-unit id="b06766963f3b27f47f5e6ddf68d8f07e" approved="yes">
+        <source>"%email%" is not a valid email address.</source>
+        <target xml:lang="zh-TW">”%email%“不是一個有效電子郵件地址。</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3229</note>
       </trans-unit>
       <trans-unit id="4a69d9da990728e003654d32a0b283a4" approved="yes">
         <source>The customer ID #%d does not exist in the database, and therefore cannot be validated.</source>
@@ -552,9 +570,33 @@ File: controllers/admin/AdminImportController.php:3679</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3847</note>
       </trans-unit>
+      <trans-unit id="b390e8c2a66fd018293fb44a5b8208c8" approved="yes">
+        <source>Currency ID (%id%) is not valid (at line %line%).</source>
+        <target xml:lang="zh-TW">貨幣編號（%id%）無效（在第%line%行）。</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3926</note>
+      </trans-unit>
+      <trans-unit id="41a2fc826e4bd29b8eaf497a89a9dc5d" approved="yes">
+        <source>Reference (%ref%) already exists (at line %line%).</source>
+        <target xml:lang="zh-TW">代號 (%ref%) 已經存在（在第%line%行）。</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3932</note>
+      </trans-unit>
       <trans-unit id="70e7a6fcceb39a1e3ea3925182b85d18" approved="yes">
         <source>YYYY-MM-DD</source>
         <target xml:lang="zh-TW">YYYY-MM-DD</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3937</note>
+      </trans-unit>
+      <trans-unit id="c1be0fbaeb4e6b509e2f65240b7e5970" approved="yes">
+        <source>Date format (%date%) is not valid (at line %line%). It should be: %date_format%.</source>
+        <target xml:lang="zh-TW">日期格式（%date%）無效（在第%line%行）。格式應該是：%date_format%。</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3935</note>
+      </trans-unit>
+      <trans-unit id="8cc169924951a04aea4f6a86334f3ce6" approved="yes">
+        <source>Date (%date%) cannot be in the past (at line %line%). Format: %date_format%.</source>
+        <target xml:lang="zh-TW">日期 (%date%) 不能夠是過去式 (在第 %line% 行)。格式：%date_format%。</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3937</note>
       </trans-unit>
@@ -563,6 +605,24 @@ File: controllers/admin/AdminImportController.php:3937</note>
         <target xml:lang="zh-TW">格式：介於 0 到 100</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:4097</note>
+      </trans-unit>
+      <trans-unit id="e0b985fb06e1498649ed1cfd6f3fb3e4" approved="yes">
+        <source>Discount rate (%rate%) is not valid (at line %line%). %format%.</source>
+        <target xml:lang="zh-TW">折扣率 (%rate%) 錯誤 (在第 %line% 行)。 %format%。</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3940</note>
+      </trans-unit>
+      <trans-unit id="3f2f635ad300e97bc217b69cc06dfc30" approved="yes">
+        <source>Supply Order (%id%) is not editable (at line %line%).</source>
+        <target xml:lang="zh-TW">無法編輯採購訂單 (%id%) (在第 %line% 行)</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3945</note>
+      </trans-unit>
+      <trans-unit id="ad1ce5290a697ed3729cbd520432cf22" approved="yes">
+        <source>Supply Order could not be saved (at line %line%).</source>
+        <target xml:lang="zh-TW">無法儲存採購訂單 (在第 %line% 行)</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3976</note>
       </trans-unit>
       <trans-unit id="bb19d4490bdc48656603c0a7ef30db73" approved="yes">
         <source>Supply Order (%s) could not be loaded (at line %d).</source>
@@ -605,6 +665,12 @@ File: controllers/admin/AdminImportController.php:4086</note>
         <target xml:lang="zh-TW">無法讀取CSV檔案</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:4183</note>
+      </trans-unit>
+      <trans-unit id="931bbbb741d025e3ff25ee3c2e72f414" approved="yes">
+        <source>Linking Accessories...</source>
+        <target xml:lang="zh-TW">連接附件...</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:4438</note>
       </trans-unit>
       <trans-unit id="d165f0c742c272ed88dc27acc91e2642" approved="yes">
         <source>%s import</source>
