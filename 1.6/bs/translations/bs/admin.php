@@ -43,6 +43,7 @@ $_LANGADM['AdminLanguagesc9cc8cce247e49bae79f15173ce97354'] = 'Sacuvaj';
 $_LANGADM['AdminLocalizationc9cc8cce247e49bae79f15173ce97354'] = 'Sacuvaj';
 $_LANGADM['AdminLocalization93cba07454f06a4a960172bbd6e2a435'] = 'Da';
 $_LANGADM['AdminLogsc9cc8cce247e49bae79f15173ce97354'] = 'Sacuvaj';
+$_LANGADM['AdminMaintenance7fe15a347d66e291d7a1375273226205'] = 'Omogućite trgovinu';
 $_LANGADM['AdminMaintenancec9cc8cce247e49bae79f15173ce97354'] = 'Sacuvaj';
 $_LANGADM['AdminManufacturers20db0bfeecd8fe60533206a2b5e9891a'] = 'Ime';
 $_LANGADM['AdminManufacturers59716c97497eb9694541f7c3d37b1a4d'] = 'Država';
