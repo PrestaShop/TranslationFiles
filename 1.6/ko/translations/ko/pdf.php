@@ -72,6 +72,7 @@ $_LANGPDF['PDFb00b85425e74ed2c85dc3119b78ff2c3'] = '무료배송';
 $_LANGPDF['PDFb94cb106eaa958b2ab473da305e57977'] = '합계(세금 별도)';
 $_LANGPDF['PDFadcf8d924285bef43f517d8f6c040e97'] = '반품 예정 품목';
 $_LANGPDF['PDF3601146c4e948c32b6424d2c0a7f0118'] = '가격';
+$_LANGPDF['PDF1d744a9ad1dac20645cfc4a36b77323b'] = '이미지';
 $_LANGPDF['PDF716be2c7de31f063369ca297a9928403'] = '세금:';
 
 
