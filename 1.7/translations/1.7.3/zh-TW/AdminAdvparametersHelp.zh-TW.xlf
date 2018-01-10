@@ -241,6 +241,12 @@ File: controllers/admin/AdminImportController.php:996
   </file>
   <file original="controllers/admin/AdminEmailsController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="e6f52e23510fd010aa5460c96fd67142" approved="yes">
+        <source>Where customers send messages from the order page.</source>
+        <target xml:lang="zh-TW">客戶從訂單頁發送訊息的位置。</target>
+        <note>Context:
+File: controllers/admin/AdminEmailsController.php:97</note>
+      </trans-unit>
       <trans-unit id="a60bc065c0296646c5a07e55c0cfff6e" approved="yes">
         <source>Fully qualified domain name (keep this field empty if you don't know).</source>
         <target xml:lang="zh-TW">完整的網域名稱（如果不清楚就保留空白）。</target>
@@ -274,6 +280,18 @@ File: controllers/admin/AdminEmailsController.php:165</note>
         <target xml:lang="zh-TW">透過這個選項在每個選擇的商店以同樣方式關聯資料（產品、模組等）</target>
         <note>Context:
 File: controllers/admin/AdminShopController.php:596</note>
+      </trans-unit>
+      <trans-unit id="41ff4b3ea277bdc597fce74850a85510" approved="yes">
+        <source>Click here to display the shops in the %name% shop group</source>
+        <target xml:lang="zh-TW">點擊此處顯示 %name% 商店組中的商店</target>
+        <note>Context:
+File: controllers/admin/AdminShopController.php:772</note>
+      </trans-unit>
+      <trans-unit id="d916f5b0696f10712fad55220707fab9" approved="yes">
+        <source>Click here to display the URLs of the %name% shop</source>
+        <target xml:lang="zh-TW">點擊這裡來顯示商舖%name%的URL</target>
+        <note>Context:
+File: controllers/admin/AdminShopController.php:794</note>
       </trans-unit>
       <trans-unit id="01af4d9c4808ce3ccd662c0e5ef7f203" approved="yes">
         <source>Click here to display the list of shop groups</source>
@@ -405,17 +423,41 @@ File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:42</note>
       </trans-unit>
+      <trans-unit id="9d23c31f2dcc1ace9296037f327563a4" approved="yes">
+        <source>https://en.wikipedia.org/wiki/Comma-separated_values</source>
+        <target xml:lang="zh-TW">https://en.wikipedia.org/wiki/Comma-separated_values</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:45</note>
+      </trans-unit>
       <trans-unit id="a27780d9bb7b3595998465aadcaaeed7" approved="yes">
         <source>Allowed formats: .csv, .xls, .xlsx, .xlst, .ods, .ots</source>
         <target xml:lang="zh-TW">允許的檔案格式：.csv, .xls, .xlsx, .xlst, .ods, .ots</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:87</note>
       </trans-unit>
+      <trans-unit id="c9f7248e8f5712f5438def77389e1c46" approved="yes">
+        <source>Only UTF-8 and ISO 8859-1 encodings are allowed</source>
+        <target xml:lang="zh-TW">只支持 UTF-8 和 ISO-8859-1編碼</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:88</note>
+      </trans-unit>
+      <trans-unit id="6578c8c9a3dbadb0a3672c3ca6c0b513" approved="yes">
+        <source>You can also upload your file via FTP to the following directory: %s .</source>
+        <target xml:lang="zh-TW">您也可以通過FTP上傳文件到以下目錄：%s。</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:89</note>
+      </trans-unit>
       <trans-unit id="b070d64c5a2f10b4b8eb361ba4f61833" approved="yes">
         <source>e.g. </source>
         <target xml:lang="zh-TW">例如 </target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:211</note>
+      </trans-unit>
+      <trans-unit id="1d3be023802846145f9b75fc90b4cf21" approved="yes">
+        <source>If enabled, the product's reference number MUST be unique!</source>
+        <target xml:lang="zh-TW">如果啟用，該商品的參考號碼必須是唯一的！</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:236</note>
       </trans-unit>
       <trans-unit id="423347880e13d3bf4a0e37ef28ace1b8" approved="yes">
         <source>If you enable this option, your imported items' ID number will be used as-is. If you do not enable this option, the imported ID numbers will be ignored, and PrestaShop will instead create auto-incremented ID numbers for all the imported items.</source>
