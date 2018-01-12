@@ -26,6 +26,7 @@ $_MODULE['<{autoupgrade}prestashop>adminpreferences_c770d8e0d1d1943ce239c64dbd6a
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_38fb7d24e0d60a048f540ecb18e13376'] = '저장';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_19f823c6453c2b1ffd09cb715214813d'] = '필수 항목';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_87a2663d841b78f01c27c0edb4f50b76'] = '삭제 성공';
+$_MODULE['<{autoupgrade}prestashop>adminselftab_84b4d8c8cdd02488c0f868e97b22a3c2'] = '생성 성공';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_151648106e4bf98297882ea2ea1c4b0e'] = '수정 성공';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_def73ea130852d9e7813ee61eefa24e7'] = '설정이 수정되었습니다';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_ee05efe0548fdafc9e85cb4c34fbe845'] = '이미지가 삭제됨';

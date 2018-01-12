@@ -301,6 +301,7 @@ $_LANGADM['AdminSearchConfd3b206d196cd6be3a2764c1fb90b200f'] = '선택 삭제';
 $_LANGADM['AdminSearchConfe25f0ecd41211b01c83e5fec41df4fe7'] = '선택한 항목을 삭제할까요?';
 $_LANGADM['AdminSearchConfec53a8c4f07baed5d8825072c89799be'] = '상태';
 $_LANGADM['AdminSearchConf72d6d7a1885885bb55a565fd1070581a'] = '불러오기';
+$_LANGADM['AdminSearchConf84b4d8c8cdd02488c0f868e97b22a3c2'] = '생성 성공';
 $_LANGADM['AdminSearchb718adec73e04ce3ec720dd11a06a308'] = 'ID';
 $_LANGADM['AdminSearchec53a8c4f07baed5d8825072c89799be'] = '상태';
 $_LANGADM['AdminSearchd1457b72c3fb323a2671125aef3eab5d'] = '?';
