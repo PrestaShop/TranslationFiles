@@ -25,6 +25,7 @@ $_LANG['identity_c9cc8cce247e49bae79f15173ce97354'] = 'Sacuvaj';
 $_LANG['order-carrier-advanced_1f87346a16cf80c372065de3c54c86d9'] = '(tax incl.)';
 $_LANG['order-carrier-opc-advanced_1f87346a16cf80c372065de3c54c86d9'] = '(tax incl.)';
 $_LANG['order-carrier_1f87346a16cf80c372065de3c54c86d9'] = '(tax incl.)';
+$_LANG['order-confirmation_fb077ecba55e5552916bde26d8b9e794'] = 'Potvrda narudžbe';
 $_LANG['order-detail_1f87346a16cf80c372065de3c54c86d9'] = '(tax incl.)';
 $_LANG['order-opc-advanced_1f87346a16cf80c372065de3c54c86d9'] = '(tax incl.)';
 $_LANG['order-opc-new-account-advanced_20db0bfeecd8fe60533206a2b5e9891a'] = 'Ime';
