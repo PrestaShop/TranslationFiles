@@ -11,6 +11,7 @@ $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_c9cc8cce247e49b
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_98f770b0af18ca763421bac22b4b6805'] = '기능';
 $_MODULE['<{advancedeucompliance}prestashop>email_attachments_form_c9cc8cce247e49bae79f15173ce97354'] = '저장';
 $_MODULE['<{advancedeucompliance}prestashop>legal_cms_manager_form_c9cc8cce247e49bae79f15173ce97354'] = '저장';
+$_MODULE['<{advancedeucompliance}prestashop>hookoverridetosdisplay_97abaa921b2270031573362f57aad4a4'] = '이용 약관';
 
 
 return $_MODULE;
