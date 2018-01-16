@@ -2,18 +2,8 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="classes/lang/CarrierLang.php" source-language="en" target-language="mk" datatype="plaintext">
     <body>
-      <trans-unit id="a8bbb000124c9697aa5d63e7e758b64d" approved="yes">
-        <source>Pick up in-store</source>
-        <target xml:lang="mk">Превземи во пазарот</target>
-        <note>Context:
-File: classes/lang/CarrierLang.php:40</note>
-      </trans-unit>
-      <trans-unit id="5d671531babe55fff4ae63b94c80ea38" approved="yes">
-        <source>Delivery next day!</source>
-        <target xml:lang="mk">Достава следниот ден!</target>
-        <note>Context:
-File: classes/lang/CarrierLang.php:41</note>
-      </trans-unit>
+      
+      
     </body>
   </file>
   <file original="controllers/admin/AdminCarriersController.php" source-language="en" target-language="mk" datatype="plaintext">
@@ -90,12 +80,6 @@ File: controllers/admin/AdminCarriersController.php:363</note>
         <note>Context:
 File: controllers/admin/AdminCarriersController.php:370</note>
       </trans-unit>
-      <trans-unit id="4e140ba723a03baa6948340bf90e2ef6" approved="yes">
-        <source>Name:</source>
-        <target xml:lang="mk">Име:</target>
-        <note>Context:
-File: controllers/admin/AdminCarriersController.php:705</note>
-      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminShopController.php" source-language="en" target-language="mk" datatype="plaintext">
@@ -104,7 +88,7 @@ File: controllers/admin/AdminCarriersController.php:705</note>
         <source>Carriers</source>
         <target xml:lang="mk">Испорачатели</target>
         <note>Context:
-File: controllers/admin/AdminShopController.php:535</note>
+File: controllers/admin/AdminShopController.php:528</note>
       </trans-unit>
     </body>
   </file>
@@ -248,13 +232,13 @@ File: controllers/admin/AdminCarrierWizardController.php:417</note>
       </trans-unit>
     </body>
   </file>
-  <file original="admin-dev/themes/default/template/controllers/cart_rules/actions.tpl" source-language="en" target-language="mk" datatype="plaintext">
+  <file original="admin-dev/themes/default/template/controllers/carts/helpers/view/view.tpl" source-language="en" target-language="mk" datatype="plaintext">
     <body>
       <trans-unit id="29aa46cc3d2677c7e0f216910df600ff" approved="yes">
         <source>Free shipping</source>
         <target xml:lang="mk">Бесплатна испорака</target>
         <note>Context:
-File: admin-dev/themes/default/template/controllers/cart_rules/actions.tpl:26</note>
+File: admin-dev/themes/default/template/controllers/carts/helpers/view/view.tpl:212</note>
       </trans-unit>
     </body>
   </file>
@@ -326,22 +310,6 @@ File: admin-dev/themes/default/template/controllers/orders/_shipping.tpl:42</not
       </trans-unit>
     </body>
   </file>
-  <file original="admin-dev/themes/default/template/controllers/carrier_wizard/helpers/form/form_ranges.tpl" source-language="en" target-language="mk" datatype="plaintext">
-    <body>
-      <trans-unit id="92711ef5b0215a076fef4a3abbfc2258" approved="yes">
-        <source>Ranges</source>
-        <target xml:lang="mk">рангови</target>
-        <note>Context:
-File: admin-dev/themes/default/template/controllers/carrier_wizard/helpers/form/form_ranges.tpl:27</note>
-      </trans-unit>
-      <trans-unit id="19d3894f53ce79c3f836f26cf8a3be3b" approved="yes">
-        <source>inactive</source>
-        <target xml:lang="mk">Неактивен</target>
-        <note>Context:
-File: admin-dev/themes/default/template/controllers/carrier_wizard/helpers/form/form_ranges.tpl:98</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="admin-dev/themes/default/template/controllers/carrier_wizard/helpers/form/form.tpl" source-language="en" target-language="mk" datatype="plaintext">
     <body>
       <trans-unit id="07018153f387118b1dacafee609f13b1" approved="yes">
@@ -364,14 +332,18 @@ File: admin-dev/themes/default/template/controllers/carrier_wizard/helpers/form/
       </trans-unit>
     </body>
   </file>
+  <file original="admin-dev/themes/default/template/controllers/carrier_wizard/helpers/form/form_ranges.tpl" source-language="en" target-language="mk" datatype="plaintext">
+    <body>
+      <trans-unit id="92711ef5b0215a076fef4a3abbfc2258" approved="yes">
+        <source>Ranges</source>
+        <target xml:lang="mk">рангови</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/carrier_wizard/helpers/form/form_ranges.tpl:27</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="admin-dev/themes/default/template/controllers/carrier_wizard/summary.tpl" source-language="en" target-language="mk" datatype="plaintext">
     <body>
-      <trans-unit id="2eee774899a3338d423fe081beea6451" approved="yes">
-        <source>This carrier is %1$s and the transit time is %2$s.</source>
-        <target xml:lang="mk">Овој доставувач е %1$s и времето на достава е %2$s.</target>
-        <note>Context:
-File: admin-dev/themes/default/template/controllers/carrier_wizard/summary.tpl:28</note>
-      </trans-unit>
       <trans-unit id="aa2d6e4f578eb0cfaba23beef76c2194" approved="yes">
         <source>free</source>
         <target xml:lang="mk">слободно</target>
@@ -384,24 +356,6 @@ File: admin-dev/themes/default/template/controllers/carrier_wizard/summary.tpl:2
         <note>Context:
 File: admin-dev/themes/default/template/controllers/carrier_wizard/summary.tpl:30</note>
       </trans-unit>
-      <trans-unit id="b6fbfa40ef6e8d15ec69cb2da0dcd662" approved="yes">
-        <source>This carrier can deliver orders from %1$s to %2$s.</source>
-        <target xml:lang="mk">Овој доставувач може да испорача нарачка од %1$s до %2$s.</target>
-        <note>Context:
-File: admin-dev/themes/default/template/controllers/carrier_wizard/summary.tpl:31</note>
-      </trans-unit>
-      <trans-unit id="2a28ff68d6e69bd4d2ee2d8c11a78823" approved="yes">
-        <source>If the order is out of range, the behavior is to %3$s.</source>
-        <target xml:lang="mk">Ако нарачката е надвор од опсегот, однесувањето е на %3$s.</target>
-        <note>Context:
-File: admin-dev/themes/default/template/controllers/carrier_wizard/summary.tpl:32</note>
-      </trans-unit>
-      <trans-unit id="343bf3bbd8b70fd2d04bb095ad2418f9" approved="yes">
-        <source>The shipping cost is calculated %1$s and the tax rule %2$s will be applied.</source>
-        <target xml:lang="mk">Цената за достава е пресметана %1$s и даночното правило %2$s ќе биде применето.</target>
-        <note>Context:
-File: admin-dev/themes/default/template/controllers/carrier_wizard/summary.tpl:33</note>
-      </trans-unit>
       <trans-unit id="0ea5b002f2959687c7ff926ca01a47a3" approved="yes">
         <source>according to the price</source>
         <target xml:lang="mk">Според цена</target>
@@ -413,30 +367,6 @@ File: admin-dev/themes/default/template/controllers/carrier_wizard/summary.tpl:3
         <target xml:lang="mk">Според тежина</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/carrier_wizard/summary.tpl:35</note>
-      </trans-unit>
-      <trans-unit id="ba44d024ba9eec02cc432a36dcffb9d9" approved="yes">
-        <source>Carrier name:</source>
-        <target xml:lang="mk">Име на доставувачот:</target>
-        <note>Context:
-File: admin-dev/themes/default/template/controllers/carrier_wizard/summary.tpl:40</note>
-      </trans-unit>
-      <trans-unit id="7f9508fc09a86a59fbcea84da182b12a" approved="yes">
-        <source>This carrier will be proposed for those delivery zones:</source>
-        <target xml:lang="mk">Овој доставувач ќе биде предложен за овие зони на достава:</target>
-        <note>Context:
-File: admin-dev/themes/default/template/controllers/carrier_wizard/summary.tpl:46</note>
-      </trans-unit>
-      <trans-unit id="7d705fb35c90599d918e0a619c69e17b" approved="yes">
-        <source>And it will be proposed for those client groups:</source>
-        <target xml:lang="mk">И ќе биде предложен за следните клиентски групи:</target>
-        <note>Context:
-File: admin-dev/themes/default/template/controllers/carrier_wizard/summary.tpl:50</note>
-      </trans-unit>
-      <trans-unit id="272175e18b4f5f142e1afc94698df9e3" approved="yes">
-        <source>Finally, this carrier will be proposed in those shops:</source>
-        <target xml:lang="mk">И последно, овој доставувач ќе биде предложен за следните пазари:</target>
-        <note>Context:
-File: admin-dev/themes/default/template/controllers/carrier_wizard/summary.tpl:55</note>
       </trans-unit>
     </body>
   </file>
