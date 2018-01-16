@@ -244,6 +244,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7e6f1194307c585ca2e97f81c3db
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3c2e3b812ebc9bc95ccd9bf9086c4af7'] = 'حدث خطأ اثناء ترقية قاعدة البيانات.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_257f5523f283710c6859d8f425a0c657'] = 'تم بنجاح ترقية قاعدة البيانات';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9dcf84f429818d396d05335d52ef5f42'] = '[SKIP] المجلد "%s" غير موجود ولا يمكن تفريغه.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_618bfc1f9ba85d07157a388208fe3ff8'] = 'تم تحديث ملف الإعدادات';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9a2f2cf276ea9f79b31a815897c0e3e6'] = '%s تم تجاهله';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_4794a520f862841749c18466119acfed'] = '[WARNING] تم حذف الملف %1$s.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_cbfafdaa2e7968a86bd6a437027edfea'] = 'الدليل %1$s تم إنشاءه.';
@@ -258,6 +259,8 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8dbf48bc796e7f70a17c63dd084b
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2a2c187bdb804ba79fd4bf8972ba5073'] = 'فشل في حذف الملفات المحدثة.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b582cb787be5a12424b3b8ed2cca3cd3'] = '%s ملفات حُذفت';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2c6bc2c84e0d76d1091e754d5780ab15'] = 'خطأ عند حذف %1$s.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_37dc35abea377bac2bcd5bf174ea7b57'] = 'الملف %s لم تتم إزالته.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_45303d089088042b5373afc26af8dc7f'] = '[NOTICE] %s محذوفة.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5ce67d010ab9c98ae1dbd6b5ea149982'] = 'النسخة الإحتياطيه لقاعدة البيانات فارغة.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2b0e9a817cf34a8251bdf75c9b1cfefc'] = 'دليل النسخه الاحتياطيه المشار اليه غير قابل للكتابة ';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d12ae4e7f0d20f4a4ca357d48e42877e'] = 'ملف النسخ الاحتياطية %s موجود بالفعل, تم ايقاف العملية.';
@@ -268,6 +271,8 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c2a086cb5c3373d7e11acbd3ace6
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f5f6ee32184b6a03c5c9928cbefa07f7'] = 'لا يوجد جداول صالحة لتضمينها فى النسخة الاحتياطية. النسخه الاحتياطية للملف %s تم الغائها.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0e27b7ac485e03dabd5648acd5982dde'] = 'حصل خطأ أثناء عمل النسخة الإحتياطية لقاعدة البيانات للملف %s.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_4b85e344355a8c135644f239db898749'] = 'تم عمل نسخة احتياطية لقاعدة البيانات فى الملف %s. جاري ترقية الملفات...';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f36d7ee6cae92008008a95bf5898daf2'] = 'تم حفظ جميع الملفات. الآن النسخ الاحتياطي لقاعدة البيانات';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f39b870765d50b64ba7a6facea83010d'] = 'تمت إضافة جميع الملفات إلى الأرشيف.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d85360d9b6992f471292bf16fe32a16d'] = 'تمت إضافة الملف %1$s (بحجم: %2$s) للأرشيف.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_6e30d5ad868a1053455a9219e14883fc'] = 'تم تجاوز الملف %1$s (بحجم: %2$s) أثناء عملية النسخ الإحتياطي.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b9a2db69065827812dd4b7a7f9ffc0b1'] = 'غير قادر على فتح الإرشيف';
@@ -275,6 +280,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_65b259727ac87919e232bd9b6392
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_549e11f82d3c02b92e5db1b38b858eb6'] = 'سيتم حفظ الملف في %s';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3c2681ea85407c2c0d252e05a8eaf6aa'] = 'تم التحميل.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0c0db54fe8212c1a7215005fef75d7dd'] = 'حصل خطأ أثناء التحميل';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_760c4026bc5a0bd5378e6efc3f1370b4'] = 'طويل جدا!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_4f2e28904946a09d8c7f36dd3ee72457'] = 'الحقول تختلف!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e5110300599f995b9d8cfbe930fba83e'] = 'عنوان بريد الكتروني خاطيء!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2e170dfd78c2171a25605ececc0950a4'] = 'من المستحيل إرسال البريد الإلكتروني!';
@@ -339,6 +345,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_98a399b35ec9e03ec985254acfe5
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e02d726a7e733ffb7737e53c89be5e4f'] = 'إكتمل التحديث';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c5e0a7b512fd616279924a1396bb0802'] = 'إكتمل التحديث!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f67d595b77c8c85da5434ddf41b840d4'] = 'التحديث إكتمل، لكن هناك اشعار تحذير.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_65f04958837ddd3643fd5edaee3a0f8d'] = 'ملفات البريد';
 $_MODULE['<{autoupgrade}prestashop>autoupgrade_786cc166a84595ae291b2d8b26d93bb3'] = 'ترقية بضغطة واحدة';
 $_MODULE['<{autoupgrade}prestashop>autoupgrade_6215d33db0d099fcaae168dd4715135a'] = 'غير قادر على الكتابة في الدليل "%s"';
 

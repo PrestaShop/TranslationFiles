@@ -22,6 +22,10 @@ $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_ea21841da70e640
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_1045f54e17e9e40c46a304888134f958'] = 'قم بإخفاء هذه، أنا أعلم ماذا أفعل.';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_c80372d827bd1757101adff95d8dfdba'] = 'يبدو أن القالب الحالي الخاص بك غير متوافق مع هذا النموذج، بعض القوالب الإلزامية مفقودة. من المحتمل أن لا تعمل بعض الخيارات كما هو متوقع.';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_fc724a540ce30b0b634163c922d60bed'] = 'تم حفظ الإعدادات بنجاح!';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_d6a0f3d55f2b3e58af0560ed0ef6925d'] = 'فشل ربط المحتوى CMS مع نموذج البريد الإلكتروني.';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_cca40d516b6d8c0b9c0e8c88752f1710'] = 'لا يمكن تنشيط بنود الإلغاء ضمن علامة ToS ما لم تربط دور "%s" بصفحة CMS.';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_169f26196195b1ba3e10dd34fda1e110'] = 'لا يمكن تنشيط تسمية تكلفة الشحن ما لم تربط دور "%s" بصفحة CMS';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_dce8bc104eff9adc2d0e580b008721ec'] = 'لا يمكن تنشيط "مرور من خلال صفحة صندوق الدفع متقدمة" لأن التصميم الخاص بك لا يدعم هذا الخيار.';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_23e162ba6bf36c7560ebbc868d9e2552'] = 'تنويه قانوني';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_98664ee75f74254b622a52d86a798ae3'] = 'شروط وأحكام الخدمة';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_93fb7e4d4616f108db46461360b7a6ae'] = 'الغاء المصطلحات';
@@ -38,10 +42,15 @@ $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_714157963f7f754
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_5400b516956ae7625857f5c569316fba'] = 'عندما يكون سعر المنتج قيد الخصم، سوف تقوم بعرض السعر الأساسي معنوناً بكلمة "قبل".';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'مفعل';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_b9f5c797ebbf55adccdd8539a65a0241'] = 'غير مفعل';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_cce448884153975b6d9fa2116eb7b388'] = 'وسم ضرائب "مدرجة/مستثناة"';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_1aabae15098e05b040516d060dbbbeae'] = 'أظهر ما إذا كانت رسوم الشحن مشمولة في السعر بجانب سعر المنتج ("الشحن مشمول/غير مشمول").';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_f85a64cf43eb446308f74902dff3173c'] = 'وسم مصاريف الشحن "مدرجة/مستثناة"';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_f32e9a020c62352cf6e76d11bec023ae'] = 'أظهر ما إذا كانت رسوم الشحن مشمولة في السعر بجانب سعر المنتج ("الشحن مشمول/غير مشمول").';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_8c40a45ecb794a6599a72de4eb12eedc'] = 'ملصق وزن المنتج';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_a5571962864b29d86785fffc9069d5ca'] = 'يجب أن تكون هذه القيمة موجبة.';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_36351ad1d80323e91bdc6f69caee6775'] = 'شروط الإلغاء ضمن ToS';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_f4ced086e850fc06ff4267366382f5d6'] = 'إلغاء المنتجات الافتراضية';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_80df40c6f7d32d92794f167acf86e15d'] = 'سمة السعر \'من\' (عندما تكون هناك مجموعات)';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_37eb73e30edec1d0255047fdc03d100c'] = 'النص العلوي في عربة المشتريات';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_4729572eaf20960774f5a54fb3aed100'] = 'أضف نصاً مخصصاً في أعلى مخلص عربة المشتريات.';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_492c147d1a4919a2db1c1753516ca621'] = 'النص في أسفل عربة المشتريات';
@@ -51,8 +60,10 @@ $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_98f770b0af18ca7
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_307676a395a3e913b32733a2ddcf1449'] = 'تفعيل خاصية "أخبر صديق"';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_ea6af6c587b95c2434e8e159d5461ac5'] = 'تمكين خاصية "إعادة ترتيب"';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_ee856332afbbe0d52192231820caf0f1'] = 'اذا فعلت خيار اعادة الاوردر سوف يسمح للعملاء بعمل اعادة للاوردر من خلال صفحة محفظوظات الاوردرات.';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_effd118ee85f0eb8f280a083b86e6f98'] = 'تفعيل "صفحة الدفع المتقدمة"';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_cadebe42ec37a2654161a876bc11d52c'] = 'ضريبة نسبية للشحن والتغليف';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_a2bfc699a0a4b724be41740c97c6b27b'] = 'عند التفعيل، سيتم احتساب ضريبة الشحن والتغليف بما يتناسب مع الضرائب المطبقة على المنتجات الموجودة في عربة التسوق.';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_fcc61e05767ec3f1864c2f78086a596c'] = '- اختر صفحة CMS المرتبطة بها -';
 $_MODULE['<{advancedeucompliance}prestashop>adminaeuccontroller_d602cd3160dcb3b836420a2e5683cb0f'] = 'معايير الانتاج المتقدمة';
 $_MODULE['<{advancedeucompliance}prestashop>email_attachments_form_c49b8914d58716ebb70e35e5a08db6dd'] = 'إدراج محتوى الايميل';
 $_MODULE['<{advancedeucompliance}prestashop>email_attachments_form_96103eb82bd7f00ef55fac85c2f0a410'] = 'لكل نوع من أنواع الرسائل الإلكترونية, يمكنك تحديد المحتوى الذي ترغب في تضمينه.';

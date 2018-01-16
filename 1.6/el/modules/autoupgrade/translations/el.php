@@ -567,6 +567,7 @@ $_MODULE['<{autoupgrade}prestashop>autoupgrade_cade82f9025d8fb9d2af869af19c72b8'
 $_MODULE['<{autoupgrade}prestashop>autoupgrade_12de3725023e3c02c25c7898f524b25d'] = 'Δεν αντιγράφηκε το logo.gif στο %s';
 $_MODULE['<{autoupgrade}prestashop>autoupgrade_5d7ef5c6fd32feb5d482ec1459e86f83'] = 'Δε φορτώθηκε η καρτέλα "AdminSelfUpgrade"';
 $_MODULE['<{autoupgrade}prestashop>autoupgrade_21dc065f2d8653ebca37ec552d17b37e'] = 'Δε μπορεί να δημιουργηθεί ο κατάλογος "%s"';
+$_MODULE['<{autoupgrade}prestashop>autoupgrade_6215d33db0d099fcaae168dd4715135a'] = 'Αδύνατη η εγγραφή μέσα στον φάκελο "%s"';
 $_MODULE['<{autoupgrade}prestashop>autoupgrade_10c008d228c9f35d12ce0437aa3eade9'] = 'Δεν αντιγράφεται το ajax-upgradetab.php στο %s';
 
 
