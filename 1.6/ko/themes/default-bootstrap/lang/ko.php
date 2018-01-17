@@ -834,6 +834,7 @@ $_LANG['product_63a78ed4647f7c63c2929e35ec1c95e3'] = '사용자 정의';
 $_LANG['product_2d0f6b8300be19cf35e89e66f0677f95'] = '장바구니에 추가';
 $_LANG['product_3601146c4e948c32b6424d2c0a7f0118'] = '가격';
 $_LANG['product_104d9898c04874d0fbac36e125fa1369'] = '할인';
+$_LANG['product_861c0c6ef832cd96c5fe152f9d610973'] = '당신이 절약한 금액';
 $_LANG['product_7dcd185f890fd28f69d1ed210292d77f'] = '상세정보';
 $_LANG['product_71948aa4f6e12cdaa5e2e63a5eb8f142'] = '상품설명';
 $_LANG['product_98edb85b00d9527ad5acebe451b3fae6'] = '소품';
