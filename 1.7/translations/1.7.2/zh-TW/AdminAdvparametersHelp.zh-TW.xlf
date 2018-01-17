@@ -8,6 +8,12 @@
         <note>Context:
 File: controllers/admin/AdminShopGroupController.php:180</note>
       </trans-unit>
+      <trans-unit id="ee5d0efc6b5d41f7ee2ac5ea831f2a7f" approved="yes">
+        <source>Once this option is enabled, the shops in this group will share customers. If a customer registers in any one of these shops, the account will automatically be available in the others shops of this group.</source>
+        <target xml:lang="zh-TW">一旦啟用此選項，此組中的商店將共享​​客戶。如果客戶在註冊這些店舖的任何一個，則該帳戶將自動出現在該組的其他商店。</target>
+        <note>Context:
+File: controllers/admin/AdminShopGroupController.php:206</note>
+      </trans-unit>
       <trans-unit id="dace58c348a19d7bddb7a3fe4fd3ebfa" approved="yes">
         <source>Warning: you will not be able to disable this option once you have registered customers.</source>
         <target xml:lang="zh-TW">警告: 你註冊成為客戶前不能倒用此選項</target>
@@ -122,6 +128,12 @@ File: controllers/admin/AdminBackupController.php:72</note>
   </file>
   <file original="controllers/admin/AdminEmailsController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="e6f52e23510fd010aa5460c96fd67142" approved="yes">
+        <source>Where customers send messages from the order page.</source>
+        <target xml:lang="zh-TW">客戶在訂單頁面發消息。</target>
+        <note>Context:
+File: controllers/admin/AdminEmailsController.php:97</note>
+      </trans-unit>
       <trans-unit id="a60bc065c0296646c5a07e55c0cfff6e" approved="yes">
         <source>Fully qualified domain name (keep this field empty if you don't know).</source>
         <target xml:lang="zh-TW">完整的網域名稱（如果不清楚就保留空白）。</target>
@@ -220,6 +232,12 @@ File: controllers/admin/AdminPerformanceController.php:78</note>
         <note>Context:
 File: controllers/admin/AdminPerformanceController.php:84</note>
       </trans-unit>
+      <trans-unit id="30c802194b54f04e24a2abdc774c2f7e" approved="yes">
+        <source>Should be enabled if you want to avoid to store the smarty cache on NFS.</source>
+        <target xml:lang="zh-TW">如果你不想在NFS安裝緩衝存儲器就必須把它打開。</target>
+        <note>Context:
+File: controllers/admin/AdminPerformanceController.php:124</note>
+      </trans-unit>
       <trans-unit id="853f64470ff7bb429d4d1febf19a2d58" approved="yes">
         <source>Enable or disable debug mode.</source>
         <target xml:lang="zh-TW">開啟或停用偵錯模式。</target>
@@ -306,6 +324,12 @@ File: controllers/admin/AdminLogsController.php:94</note>
   </file>
   <file original="controllers/admin/AdminEmployeesController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="14a966a005ea5262cd09332f4e50b7b1" approved="yes">
+        <source>Your avatar in PrestaShop 1.7.x is your profile picture on %url%. To change your avatar, log in to PrestaShop.com with your email %email% and follow the on-screen instructions.</source>
+        <target xml:lang="zh-TW">您在Prestashop裡的頭像 1.7.x是你在 %url% 的個人資料圖片。要改變你的頭像，請用您的電子郵件 %email% 登錄PrestaShop.com並根據屏幕上的指示操作。</target>
+        <note>Context:
+File: controllers/admin/AdminEmployeesController.php:263</note>
+      </trans-unit>
       <trans-unit id="d222c4d0463bd3f146536ac89c0d7c77" approved="yes">
         <source>Password should be at least %num% characters long.</source>
         <target xml:lang="zh-TW">密碼字符長度不能短於%num%。</target>
@@ -364,6 +388,18 @@ File: controllers/admin/AdminWebserviceController.php:83</note>
         <note>Context:
 File: controllers/admin/AdminWebserviceController.php:84</note>
       </trans-unit>
+      <trans-unit id="c03f07bc287e77654a26af409b4d93fa" approved="yes">
+        <source>Before choosing "Yes", check that PHP is not configured as an Apache module on your server.</source>
+        <target xml:lang="zh-TW">在選擇“是”前，請檢查PHP有否在您服務器上配置為Apache模塊。</target>
+        <note>Context:
+File: controllers/admin/AdminWebserviceController.php:96</note>
+      </trans-unit>
+      <trans-unit id="a5cb039db72d4c240b6cca34b48d61bc" approved="yes">
+        <source>Quick description of the key: who it is for, what permissions it has, etc.</source>
+        <target xml:lang="zh-TW">關鍵簡單描述：它是誰的，它有什麼權限等。</target>
+        <note>Context:
+File: controllers/admin/AdminWebserviceController.php:151</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminShopController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -413,6 +449,12 @@ File: controllers/admin/AdminRequestSqlController.php:119</note>
         <target xml:lang="zh-TW">欄位內填寫內容後點選"儲存"</target>
         <note>Context:
 File: controllers/admin/AdminRequestSqlController.php:120</note>
+      </trans-unit>
+      <trans-unit id="64427cd6d9efe12b779a1e3bb2fafc06" approved="yes">
+        <source>You can then view the query results by clicking on the Edit action in the dropdown menu</source>
+        <target xml:lang="zh-TW">你可以通過下拉菜單中的「編輯」選項查看查詢結果</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:121</note>
       </trans-unit>
       <trans-unit id="29147406190a86209d5f4b3080cc7fa9" approved="yes">
         <source>You can also export the query results as a CSV file by clicking on the Export button</source>
@@ -581,11 +623,41 @@ File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:87</note>
       </trans-unit>
+      <trans-unit id="c9f7248e8f5712f5438def77389e1c46" approved="yes">
+        <source>Only UTF-8 and ISO 8859-1 encodings are allowed</source>
+        <target xml:lang="zh-TW">只支持 UTF-8 和 ISO-8859-1編碼</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:88</note>
+      </trans-unit>
+      <trans-unit id="6578c8c9a3dbadb0a3672c3ca6c0b513" approved="yes">
+        <source>You can also upload your file via FTP to the following directory: %s .</source>
+        <target xml:lang="zh-TW">您也可以通過FTP上傳文件到以下目錄：%s。</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:89</note>
+      </trans-unit>
       <trans-unit id="b070d64c5a2f10b4b8eb361ba4f61833" approved="yes">
         <source>e.g. </source>
         <target xml:lang="zh-TW">例如 </target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:211</note>
+      </trans-unit>
+      <trans-unit id="1d3be023802846145f9b75fc90b4cf21" approved="yes">
+        <source>If enabled, the product's reference number MUST be unique!</source>
+        <target xml:lang="zh-TW">如果激活，商品的參考號碼必須是獨特的。</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:236</note>
+      </trans-unit>
+      <trans-unit id="423347880e13d3bf4a0e37ef28ace1b8" approved="yes">
+        <source>If you enable this option, your imported items' ID number will be used as-is. If you do not enable this option, the imported ID numbers will be ignored, and PrestaShop will instead create auto-incremented ID numbers for all the imported items.</source>
+        <target xml:lang="zh-TW">如果啟用此選項，則導入的項目ID號將按原樣使用。 如果您不啟用此選項，則Prestashop將不理會導入的ID並以自動遞增的ID取而代之。</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:266</note>
+      </trans-unit>
+      <trans-unit id="04d39f4c0f667d58c8c5540514ebf0eb" approved="yes">
+        <source>Sends an email to let you know your import is complete. It can be useful when handling large files, as the import may take some time.</source>
+        <target xml:lang="zh-TW">導入完成後會有電郵通知。因為導入可能需要很長的時間，這個功能在處理大文檔的時候很有幫助。</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:283</note>
       </trans-unit>
     </body>
   </file>

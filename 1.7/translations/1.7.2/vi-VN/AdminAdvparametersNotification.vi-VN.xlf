@@ -10,7 +10,7 @@ File: classes/PrestaShopBackup.php:143</note>
       </trans-unit>
       <trans-unit id="4e0ac45de6bd848503ffa98ff6247f2f" approved="yes">
         <source>Error deleting</source>
-        <target xml:lang="vi">Lổi xóa</target>
+        <target xml:lang="vi">Lỗi trong khi xóa</target>
         <note>Context:
 File: classes/PrestaShopBackup.php:166</note>
       </trans-unit>
@@ -22,7 +22,7 @@ File: classes/PrestaShopBackup.php:167</note>
       </trans-unit>
       <trans-unit id="4eb9ec8ac71ad17fdc99b5371ace9f6e" approved="yes">
         <source>Unable to create backup file</source>
-        <target xml:lang="vi">Không thể tạo tập tin sao lưu </target>
+        <target xml:lang="vi">Không thể tạo tập tin sao lưu</target>
         <note>Context:
 File: classes/PrestaShopBackup.php:225</note>
       </trans-unit>
@@ -44,13 +44,13 @@ File: classes/PrestaShopBackup.php:317</note>
     <body>
       <trans-unit id="e4a6b1931fbfc9ef4531cab37c84c39f" approved="yes">
         <source>Error: parameter "to" is corrupted</source>
-        <target xml:lang="vi">Lỗi: tham số "người nhận (to)" không đúng</target>
+        <target xml:lang="vi">Lỗi: tham số "người nhận" không đúng</target>
         <note>Context:
 File: classes/Mail.php:203</note>
       </trans-unit>
       <trans-unit id="99806fb2aff84eaa304cb249fa190339" approved="yes">
         <source>Error: parameter "bcc" is corrupted</source>
-        <target xml:lang="vi">Lỗi: tham số "người nhận ẩn danh (bcc)" không đúng</target>
+        <target xml:lang="vi">Lỗi: tham số "người nhận ẩn danh" không đúng</target>
         <note>Context:
 File: classes/Mail.php:210</note>
       </trans-unit>
@@ -78,13 +78,19 @@ File: classes/Mail.php:267</note>
         <note>Context:
 File: classes/Mail.php:280</note>
       </trans-unit>
+      <trans-unit id="3ed07fe73e25bba69e3e5dac234b1941" approved="yes">
+        <source>Error - The following e-mail template is missing: %s</source>
+        <target xml:lang="vi">Lỗi - Các email mẫu sau đây bị thiếu: %s</target>
+        <note>Context:
+File: classes/Mail.php:331</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminTabsController.php" source-language="en" target-language="vi" datatype="plaintext">
     <body>
-      <trans-unit id="5bb701014490e33a37ecdc43ce578404">
+      <trans-unit id="5bb701014490e33a37ecdc43ce578404" approved="yes">
         <source>You can't put this menu inside itself. </source>
-        <target xml:lang="vi" state="needs-translation"> </target>
+        <target xml:lang="vi">Bạn không thể đặt một Menu ngay trong chính nó. </target>
         <note>Context:
 File: controllers/admin/AdminTabsController.php:293</note>
       </trans-unit>
@@ -104,7 +110,7 @@ File: controllers/admin/AdminAdminPreferencesController.php:164</note>
     <body>
       <trans-unit id="fe7ff4ed0a66abe86361ba0f8d6e919a" approved="yes">
         <source>The backup file does not exist</source>
-        <target xml:lang="vi">Các tập tin sao lưu không tồn tại</target>
+        <target xml:lang="vi">Tập tin sao lưu không tồn tại</target>
         <note>Context:
 File: controllers/admin/AdminBackupController.php:158</note>
       </trans-unit>
@@ -116,7 +122,7 @@ File: controllers/admin/AdminBackupController.php:174</note>
       </trans-unit>
       <trans-unit id="f36c9a20c2ce51f491c944e41fde5ace" approved="yes">
         <source>It appears the backup was successful, however you must download and carefully verify the backup file before proceeding.</source>
-        <target xml:lang="vi">Backup thành công, tuy nhiên bạn cần download và cẩn thận kiểm tra file backup trước khi xử lý.</target>
+        <target xml:lang="vi">Sao lưu thành công, tuy nhiên bạn cần tải về và kiểm tra cẩn thận tệp tin sao lưu trước khi xử lý.</target>
         <note>Context:
 File: controllers/admin/AdminBackupController.php:181</note>
       </trans-unit>
@@ -152,7 +158,7 @@ File: controllers/admin/AdminStoresController.php:333</note>
     <body>
       <trans-unit id="fff137fc306769c3d7db8aacd682cf02" approved="yes">
         <source>(the directory %s must be writable)</source>
-        <target xml:lang="vi">(Danh mục %s cho phép ghi)</target>
+        <target xml:lang="vi">(Danh mục %s phải được cho phép ghi)</target>
         <note>Context:
 File: controllers/admin/AdminPerformanceController.php:134</note>
       </trans-unit>
@@ -176,7 +182,7 @@ File: controllers/admin/AdminPerformanceController.php:482</note>
       </trans-unit>
       <trans-unit id="8b763a82c2aa7875f3da39399ba350d7" approved="yes">
         <source>(you must install the [a]Xcache extension[/a])</source>
-        <target xml:lang="vi">(Bạn phải cài đặt phần mở rộng [a]Xcache [/a])</target>
+        <target xml:lang="vi">(bạn phải cài đặt phần mở rộng [a]Xcache [/a])</target>
         <note>Context:
 File: controllers/admin/AdminPerformanceController.php:490</note>
       </trans-unit>
@@ -216,6 +222,12 @@ File: controllers/admin/AdminPerformanceController.php:648</note>
         <note>Context:
 File: controllers/admin/AdminPerformanceController.php:704</note>
       </trans-unit>
+      <trans-unit id="91e3dffab90db947ea156087dadaa9c0" approved="yes">
+        <source>Before being able to use this tool, you need to:[1][2]Create a blank .htaccess in your root directory.[/2][2]Give it write permissions (CHMOD 666 on Unix system).[/2][/1]</source>
+        <target xml:lang="vi">Trước khi có thể sử dụng công cụ này, bạn cần làm như sau:[1][2] Tạo 1 file trống có tên .htacess và đặt ở thư mục gốc.[/2][2]Cấp quyền ghi (CHMOD 666 on Unix system).[/2][/1]</target>
+        <note>Context:
+File: controllers/admin/AdminPerformanceController.php:737</note>
+      </trans-unit>
       <trans-unit id="ea030df6cb392bef66cde22c94578ae4" approved="yes">
         <source>Media server #1 is invalid</source>
         <target xml:lang="vi">Media server #1 không hợp lệ</target>
@@ -233,6 +245,16 @@ File: controllers/admin/AdminPerformanceController.php:760</note>
         <target xml:lang="vi">Media server #3 không hợp lệ</target>
         <note>Context:
 File: controllers/admin/AdminPerformanceController.php:763</note>
+      </trans-unit>
+      <trans-unit id="79b2a5e09f30660e30830ffc336ffb7c" approved="yes">
+        <source><![CDATA[Before being able to use this tool, you need to:
+                            <br />- Create a blank .htaccess in your root directory.
+                            <br />- Give it write permissions (CHMOD 666 on Unix system).]]></source>
+        <target xml:lang="vi"><![CDATA[Trước khi có thể sử dụng được công cụ này, bạn cần phải:
+                            <br />- Tạo 1 file trống có tên là .htaccess và đặt ở thư mục gốc.
+                            <br />- Cấp quyền ghi (CHMOD 666 on Unix system).]]></target>
+        <note>Context:
+File: controllers/admin/AdminPerformanceController.php:795</note>
       </trans-unit>
       <trans-unit id="026324b2ba696031a2bbc518bd6e3a35" approved="yes">
         <source>The caching system is missing.</source>
@@ -276,6 +298,24 @@ File: controllers/admin/AdminPerformanceController.php:846</note>
         <note>Context:
 File: controllers/admin/AdminPerformanceController.php:866</note>
       </trans-unit>
+      <trans-unit id="d4fb191ef219af010cc664bf47393e97" approved="yes">
+        <source>Error: Could not find whether debug mode is enabled. Make sure that the correct permissions are set on the file %s</source>
+        <target xml:lang="vi">Lỗi: Không thể xác định được chế độ xử lý lỗi có được kích hoạt hay không. Chắc chắn rằng những quyền cần thiết đã được cấp chính xác đối với tập tin %s</target>
+        <note>Context:
+File: controllers/admin/AdminPerformanceController.php:900</note>
+      </trans-unit>
+      <trans-unit id="667685497be44ab0fc2d4334a512405b" approved="yes">
+        <source>Error: Could not write to file. Make sure that the correct permissions are set on the file %s</source>
+        <target xml:lang="vi">Lỗi: Không thể ghi vào tập tin. Đảm bảo rằng đã cài đặt sự cho phép chính xác đối với tập tin %s</target>
+        <note>Context:
+File: controllers/admin/AdminPerformanceController.php:906</note>
+      </trans-unit>
+      <trans-unit id="a22bb81de6e3b8e82ac5a09f2bb7e0b4" approved="yes">
+        <source>Error: Could not read file. Make sure that the correct permissions are set on the file %s</source>
+        <target xml:lang="vi">Lỗi: Không thể đọc tập tin. Đảm bảo rằng đã cài đặt sự cho phép chính xác đối với tập tin %s</target>
+        <note>Context:
+File: controllers/admin/AdminPerformanceController.php:909</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminEmployeesController.php" source-language="en" target-language="vi" datatype="plaintext">
@@ -306,7 +346,7 @@ File: controllers/admin/AdminEmployeesController.php:562</note>
       </trans-unit>
       <trans-unit id="8fd6c902e0a6186ebc62b4c3c65dc528" approved="yes">
         <source>You cannot delete this account because it manages warehouses. Check your warehouses first.</source>
-        <target xml:lang="vi">Bạn không thể xóa tài khoản này vì nó quản lý kho. Kiểm tra kho của bạn đầu tiên.</target>
+        <target xml:lang="vi">Bạn không thể xóa tài khoản này vì nó quản lý kho. Hãy kiểm tra kho của bạn trước khi xóa.</target>
         <note>Context:
 File: controllers/admin/AdminEmployeesController.php:485</note>
       </trans-unit>
@@ -352,7 +392,7 @@ File: controllers/admin/AdminEmployeesController.php:598</note>
     <body>
       <trans-unit id="155657899b93f70358eed115631fdb04" approved="yes">
         <source>Key length must be 32 character long.</source>
-        <target xml:lang="vi">Chiều dài khóa phải có 32 ký tự dài.</target>
+        <target xml:lang="vi">Chiều dài khóa phải có 32 ký tự.</target>
         <note>Context:
 File: controllers/admin/AdminWebserviceController.php:249</note>
       </trans-unit>
@@ -364,7 +404,7 @@ File: controllers/admin/AdminWebserviceController.php:252</note>
       </trans-unit>
       <trans-unit id="3a1d42e50ada009f2ef187fbf6dc8a3f" approved="yes">
         <source>To avoid operating problems, please use an Apache server.</source>
-        <target xml:lang="vi">Để tránh xảy ra các vấn đề, vui lòng sử dụng một máy chủ apache.</target>
+        <target xml:lang="vi">Để tránh xảy ra các vấn đề, vui lòng sử dụng một máy chủ Apache.</target>
         <note>Context:
 File: controllers/admin/AdminWebserviceController.php:272</note>
       </trans-unit>
@@ -416,7 +456,7 @@ File: controllers/admin/AdminInformationController.php:112</note>
       </trans-unit>
       <trans-unit id="ba29b5ac8580aaa26d3166f32da8ac10" approved="yes">
         <source>Configure your server to allow the creation of directories and files with write permissions.</source>
-        <target xml:lang="vi">Cấu hình máy chủ của bạn để cho phép tạo các danh mục và các tệp tin với sự cho phép soạn thảo.</target>
+        <target xml:lang="vi">Cấu hình máy chủ của bạn để cho phép tạo các danh mục và các tệp tin với quyền ghi được cấp phép.</target>
         <note>Context:
 File: controllers/admin/AdminInformationController.php:113</note>
       </trans-unit>
@@ -534,7 +574,7 @@ File: controllers/admin/AdminInformationController.php:131</note>
     <body>
       <trans-unit id="7d6f235518e595f4e988b6811d2ceeab" approved="yes">
         <source>For security reasons, you cannot delete the Administrator's profile.</source>
-        <target xml:lang="vi">Vì lý do bảo mật, bạn không được xóa cấu hình quản trị</target>
+        <target xml:lang="vi">Vì lý do bảo mật, bạn không được xóa cấu hình quản trị.</target>
         <note>Context:
 File: controllers/admin/AdminProfilesController.php:100</note>
       </trans-unit>
@@ -566,7 +606,7 @@ File: controllers/admin/AdminShopController.php:637</note>
     <body>
       <trans-unit id="0ee028bcc2a0101d4d65745086eefc03" approved="yes">
         <source>When saving the query, only the "SELECT" SQL statement is allowed.</source>
-        <target xml:lang="vi">Khi đang lưu truy vấn, chỉ câu lệnh SQL "SELECT" (Chọn) được cho phép.</target>
+        <target xml:lang="vi">Khi đang lưu truy vấn, chỉ câu lệnh SQL "SELECT" được cho phép.</target>
         <note>Context:
 File: controllers/admin/AdminRequestSqlController.php:115</note>
       </trans-unit>
@@ -587,6 +627,12 @@ File: controllers/admin/AdminRequestSqlController.php:401</note>
         <target xml:lang="vi">Thuộc tính "%attribute%" không tồn tại trong bảng "%table%".</target>
         <note>Context:
 File: controllers/admin/AdminRequestSqlController.php:487</note>
+      </trans-unit>
+      <trans-unit id="b162612cdcbf01c01421bad2e8b39432" approved="yes">
+        <source>Undefined "%s" error</source>
+        <target xml:lang="vi">Lỗi không xác định "%s"</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:495</note>
       </trans-unit>
       <trans-unit id="dbea0ef67609a60a1f71f8d19e132d1e" approved="yes">
         <source>The "*" operator cannot be used in a nested query.</source>
@@ -624,19 +670,31 @@ File: controllers/admin/AdminRequestSqlController.php:506</note>
         <note>Context:
 File: controllers/admin/AdminRequestSqlController.php:514</note>
       </trans-unit>
+      <trans-unit id="890f261dbde9c8c5ac0a40c74b1a3a2c" approved="yes">
+        <source>"%s" is an unauthorized keyword.</source>
+        <target xml:lang="vi">"%s"là một từ khóa không được phép.</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:523</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="vi" datatype="plaintext">
     <body>
+      <trans-unit id="af395851b27882221a6df82c727bca3e" approved="yes">
+        <source>The import directory doesn't exist. Please check your file path.</source>
+        <target xml:lang="vi">Thư mục nhập không tồn tại. Hãy kiểm tra đường dẫn tệp của bạn.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:591</note>
+      </trans-unit>
       <trans-unit id="c775530fad852632f78395a11820ba23" approved="yes">
         <source>The import directory must be writable (CHMOD 755 / 777).</source>
-        <target xml:lang="vi">Danh mục nhập phảm được soạn thảo (CHMOD 755 / 777).</target>
+        <target xml:lang="vi">Thư mục nhập phải được cấp quyền ghi (CHMOD 755 / 777).</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:595</note>
       </trans-unit>
       <trans-unit id="68e8d36b17584f88614fb3201925a7ac" approved="yes">
         <source>The uploaded file exceeds the upload_max_filesize directive in php.ini. If your server configuration allows it, you may add a directive in your .htaccess.</source>
-        <target xml:lang="vi">Các tập tin được tải lên vượt quá chỉ upload_max_filesize trong php.ini. Nếu cấu hình máy chủ của bạn cho phép, bạn có thể thêm một chỉ thị trong .htaccess.</target>
+        <target xml:lang="vi">Các tập tin được tải lên vượt quá giới hạn upload_max_filesize trong php.ini. Nếu cấu hình máy chủ của bạn cho phép, bạn có thể thêm một chỉ thị trong .htaccess.</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:696</note>
       </trans-unit>
@@ -648,7 +706,7 @@ File: controllers/admin/AdminImportController.php:699</note>
       </trans-unit>
       <trans-unit id="5b8f192b08644fdc9fd1fd86bcbbc57b" approved="yes">
         <source>(click to open "Generators" page)</source>
-        <target xml:lang="vi">(Nhấp vào để mở "Generators" trang)</target>
+        <target xml:lang="vi">(nhấp vào để mở "Generators" trang)</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:702</note>
       </trans-unit>
@@ -688,6 +746,24 @@ File: controllers/admin/AdminImportController.php:4480</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3670</note>
       </trans-unit>
+      <trans-unit id="53d9fc1aa79e85c0f845139c6358daee" approved="yes">
+        <source>The category ID must be unique. It can't be the same as the one for Root or Home category.</source>
+        <target xml:lang="vi">ID danh mục phải là duy nhất. Nó không thể giống với ID của danh mục gốc hay trang trủ.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1273</note>
+      </trans-unit>
+      <trans-unit id="7a1bebdbf5770873f8172ecf27b2aa50" approved="yes">
+        <source>The category ID must be unique. It can't be the same as the one for the parent category (ID: %1$s).</source>
+        <target xml:lang="vi">ID danh mục phải là duy nhất. Nó không thể giống với ID của danh mục cha (ID: %1$s).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1295</note>
+      </trans-unit>
+      <trans-unit id="521531266ae042d0725d7a4aa22a49f4" approved="yes">
+        <source>A category can't be its own parent. You should rename it (current name: %1$s).</source>
+        <target xml:lang="vi">Một danh mục không thể là cha của chính nó. Bạn nên đổi sang một tên khác (tên hiện tại: %1$s).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1309</note>
+      </trans-unit>
       <trans-unit id="43bf950e043950e2da10f917b902c131" approved="yes">
         <source>%1$s (ID: %2$s) cannot be saved</source>
         <target xml:lang="vi">%1$s (ID: %2$s) không thể được lưu</target>
@@ -723,6 +799,12 @@ File: controllers/admin/AdminImportController.php:1414</note>
         <target xml:lang="vi">không thể được sao chép.</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3707</note>
+      </trans-unit>
+      <trans-unit id="87098ca5171ae766269f50b24ef3189d" approved="yes">
+        <source>%1$s (ID: %2$s) cannot be %3$s</source>
+        <target xml:lang="vi">%1$s (ID: %2$s) không thể là %3$s</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1437</note>
       </trans-unit>
       <trans-unit id="2666baaca25feea0b2dc641cfab50d8a" approved="yes">
         <source>Unknown tax rule group ID. You need to create a group with this ID first.</source>
@@ -802,6 +884,12 @@ File: controllers/admin/AdminImportController.php:2206</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2734</note>
       </trans-unit>
+      <trans-unit id="994e8f1b72a9fe7a9e8949343be6bde7" approved="yes">
+        <source>%data% cannot be saved</source>
+        <target xml:lang="vi">%data% không thể lưu được</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3114</note>
+      </trans-unit>
       <trans-unit id="5c8707f79dbdd3abb28a8aa09e34f02f" approved="yes">
         <source>No image was found for combination with id_product = %s and image position = %s.</source>
         <target xml:lang="vi">Không tìm thấy ảnh nào khớp với tổ hợp id_product = %s and image position = %s.</target>
@@ -832,11 +920,41 @@ File: controllers/admin/AdminImportController.php:2695</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2708</note>
       </trans-unit>
+      <trans-unit id="fd6d9d3ba7d4aaacc49f53c2e8c082c0" approved="yes">
+        <source>Email address %1$s (ID: %2$s) cannot be validated.</source>
+        <target xml:lang="vi">Địa chỉ email %1$s (ID: %2$s) không thể được xác nhận.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3014</note>
+      </trans-unit>
+      <trans-unit id="9a19980e3db9fa010269bb72d31ee42a" approved="yes">
+        <source>Email address %1$s (ID: %2$s) cannot be saved.</source>
+        <target xml:lang="vi">Không thể lưu địa chỉ email %1$s (ID: %2$s).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3023</note>
+      </trans-unit>
+      <trans-unit id="14118fbc7d8c233f0ac36ffb31716605" approved="yes">
+        <source>%1$s does not exist in database %2$s (ID: %3$s), and therefore cannot be validated</source>
+        <target xml:lang="vi">%1$s không tồn tại trong cơ sở dữ liệu %2$s (ID: %3$s), và do đó không thể được xác nhận</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3209</note>
+      </trans-unit>
+      <trans-unit id="597cf702e07f3b35431d2a499b00cefd" approved="yes">
+        <source>%1$s does not exist in database %2$s (ID: %3$s), and therefore cannot be saved</source>
+        <target xml:lang="vi">%1$s không tồn tại trong cơ sở dữ liệu %2$s (ID: %3$s), và do đó không thể được lưu</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3219</note>
+      </trans-unit>
       <trans-unit id="355aea3f1c2b10f3f82819ef338ecc22" approved="yes">
         <source>"%s" is not a valid email address.</source>
         <target xml:lang="vi">"%s" không phải là một địa chỉ email hợp lệ.</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3196</note>
+      </trans-unit>
+      <trans-unit id="4a69d9da990728e003654d32a0b283a4" approved="yes">
+        <source>The customer ID #%d does not exist in the database, and therefore cannot be validated.</source>
+        <target xml:lang="vi">ID khách hàng #%d không tồn tại trong cơ sở dữ liệu, và do đó không thể được xác nhận.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3232</note>
       </trans-unit>
       <trans-unit id="608ec99cc3ef74d962769c1958a1fa62" approved="yes">
         <source>The customer ID #%d does not exist in the database, and therefore cannot be saved.</source>
@@ -1004,21 +1122,96 @@ File: controllers/admin/AdminImportController.php:4601</note>
   </file>
   <file original="admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl" source-language="en" target-language="vi" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="d85366190ecd2aebf8363980ad9d6740" approved="yes">
+        <source>Importing your data...</source>
+        <target xml:lang="vi">Đang nhập dữ liệu của bạn...</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:76</note>
+      </trans-unit>
+      <trans-unit id="8a1d14318cfc965da76c0b9d0a53bb93" approved="yes">
+        <source>Aborting, please wait...</source>
+        <target xml:lang="vi">Đang hủy bỏ, vui lòng đợi...</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:27</note>
+      </trans-unit>
+      <trans-unit id="e130ff31fe5f7a054a2db876a7acc94d" approved="yes">
+        <source>Data imported!</source>
+        <target xml:lang="vi">Dữ liệu đã nhập!</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:33</note>
+      </trans-unit>
+      <trans-unit id="118f9dbc8442c6be19dfc0b70d965929" approved="yes">
+        <source>Look at your listings to make sure it's all there as you wished.</source>
+        <target xml:lang="vi">Nhìn vào danh sách của bạn để chắc chắn rằng nó là tất cả ở đó như bạn muốn.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:35</note>
+      </trans-unit>
+      <trans-unit id="4959a069997257077022c1b96b3b8001" approved="yes">
+        <source>Errors occurred:</source>
+        <target xml:lang="vi">Lỗi đã xảy ra:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:39</note>
+      </trans-unit>
+      <trans-unit id="0ccb924c3db6a900cff26de895f756b8" approved="yes">
+        <source>Warning, the current import may require a PHP setting update, to allow more data to be transferred. If the current import stops before the end, you should increase your PHP "post_max_size" setting to [1]%size%[/1]MB at least, and try again.</source>
+        <target xml:lang="vi">Cảnh báo, quá trình nhập vào hiện tại có thể yêu cầu cập nhật cài đặt PHP, để cho phép chuyển dữ liệu nhiều hơn. Nếu quá trình nhập vào hiện tại dừng trước khi kết thúc, bạn nên tăng cài đặt PHP "post_max_size" lên [1]%size%[/1]MB ít nhất và thử lại.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:42</note>
+      </trans-unit>
+      <trans-unit id="841e4579e55a01ab8f0c565995ba7cfc" approved="yes">
+        <source>Some errors were detected. Please check the details:</source>
+        <target xml:lang="vi">Một số lỗi đã được phát hiện. Vui lòng kiểm tra chi tiết:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:49</note>
+      </trans-unit>
+      <trans-unit id="3df311b82f78fa4059e9a78a26e77b06" approved="yes">
+        <source>We made the following adjustments:</source>
+        <target xml:lang="vi">Chúng tôi đã thực hiện những điều chỉnh sau đây:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:52</note>
+      </trans-unit>
+      <trans-unit id="6e17621d481059924339f91ed431a116" approved="yes">
+        <source>Validating data...</source>
+        <target xml:lang="vi">Đang xác nhận...</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:57</note>
+      </trans-unit>
+      <trans-unit id="95fdb0ead4798ff27cce78fac3fd3c11" approved="yes">
+        <source>[1]%percentage%[/1]% validated</source>
+        <target xml:lang="vi">[1]%percentage%[/1]% đã xác nhận</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:62</note>
+      </trans-unit>
+      <trans-unit id="fd2f43e6f9f4de5be1b08cdac13d7749" approved="yes">
+        <source>Processing next page...</source>
+        <target xml:lang="vi">Đang tải trang tiếp theo...</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:92</note>
+      </trans-unit>
+      <trans-unit id="f438c83e3ff4dd40a3fc1bf4bb3e79f5" approved="yes">
+        <source>Linking accessories...</source>
+        <target xml:lang="vi">Đang liên kết với phụ kiện...</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:81</note>
+      </trans-unit>
+      <trans-unit id="2a44b5ac9f88c57f584bf083730a93f7" approved="yes">
+        <source>[1]%size%[/1]% imported</source>
+        <target xml:lang="vi">[1]%size%[/1]% đã nhập vào</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:84</note>
+      </trans-unit>
+      <trans-unit id="650e0b1fd707ad8ad3a94e2eb494de3d" approved="yes">
+        <source>Ignore warnings and continue?</source>
+        <target xml:lang="vi">Bỏ qua cảnh báo và tiếp tục?</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:100</note>
+      </trans-unit>
+      <trans-unit id="b8388ec68dcac2402d944fbb3382b0f1" approved="yes">
+        <source>Abort import</source>
+        <target xml:lang="vi">Huỷ nhập</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:104</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminCartsController.php" source-language="en" target-language="vi" datatype="plaintext">
@@ -1035,7 +1228,7 @@ File: controllers/admin/AdminCartsController.php:628</note>
     <body>
       <trans-unit id="b42cd3af71fc00ef268910709255320a" approved="yes">
         <source>You do not have permission to view this.</source>
-        <target xml:lang="vi">Bạn không được phép để xem ở đây</target>
+        <target xml:lang="vi">Bạn không được phép để xem ở đây.</target>
         <note>Context:
 File: admin-dev/backup.php:43</note>
       </trans-unit>
@@ -1053,13 +1246,13 @@ File: admin-dev/backup.php:61</note>
       </trans-unit>
       <trans-unit id="db5aa3efeee3f75954f4a6de541f7fd2" approved="yes">
         <source>Unable to open backup file(s).</source>
-        <target xml:lang="vi">Không thể mở tập tin sao lưu </target>
+        <target xml:lang="vi">Không thể mở các tập tin sao lưu.</target>
         <note>Context:
 File: admin-dev/backup.php:85</note>
       </trans-unit>
       <trans-unit id="089426c3b86f7f52cc14c3ebf5ca5b8f" approved="yes">
         <source>Unable to display backup file(s).</source>
-        <target xml:lang="vi">Không thể hiển thị tập tin sao lưu </target>
+        <target xml:lang="vi">Không thể hiển thị tập tin sao lưu .</target>
         <note>Context:
 File: admin-dev/backup.php:105</note>
       </trans-unit>
@@ -1069,7 +1262,7 @@ File: admin-dev/backup.php:105</note>
     <body>
       <trans-unit id="b04c5e39cb3460a062bba48d85567cdb" approved="yes">
         <source>Administrator permissions cannot be modified.</source>
-        <target xml:lang="vi">Quyền của Quản trị không thể sửa đổi</target>
+        <target xml:lang="vi">Quyền của Quản trị viên không thể sửa đổi.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/access/helpers/form/form.tpl:515</note>
       </trans-unit>
@@ -1079,19 +1272,19 @@ File: admin-dev/themes/default/template/controllers/access/helpers/form/form.tpl
     <body>
       <trans-unit id="54ee283a75b8a8a38f0b4996e4e69db5" approved="yes">
         <source>Disclaimer before creating a new backup</source>
-        <target xml:lang="vi">Khuyến cáo sử dụng trước khi tạo một sao lưu mới</target>
+        <target xml:lang="vi">Khuyến cáo trước khi tạo một sao lưu mới</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:46</note>
       </trans-unit>
       <trans-unit id="cc6f77e8d23517366b4380f9a180655f" approved="yes">
         <source>PrestaShop is open-source software. You are using it at your own risk under the license agreement.</source>
-        <target xml:lang="vi">PrestaShop là một phần mềm công khai nguồn. Bạn đang sử dụng nó ở một mức độ rủi ro của chính bạn dưới quyền cho phép.</target>
+        <target xml:lang="vi">PrestaShop là một phần mềm công khai nguồn mở. Bạn đang sử dụng nó ở một mức độ rủi ro của chính bạn dưới quyền được cấp phép.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:49</note>
       </trans-unit>
       <trans-unit id="99c8acd81f347dd6268fda9bf9e61b97" approved="yes">
         <source>You should back up your data on a regular basis (both files and database).</source>
-        <target xml:lang="vi">Bạn nên sao lưu dữ liệu của bạn một cách thường xuyên (cả hai tập tin và cơ sở dữ liệu).</target>
+        <target xml:lang="vi">Bạn nên sao lưu dữ liệu của bạn một cách thường xuyên (bao gồm cả tập tin và cơ sở dữ liệu).</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:50</note>
       </trans-unit>
@@ -1143,7 +1336,7 @@ File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:61<
     <body>
       <trans-unit id="0869c85782ee2481b83a9f580a09e963" approved="yes">
         <source>PrestaShop is not responsible for your database, its backups and/or recovery.</source>
-        <target xml:lang="vi">Prestashop không chịu trách nhiệm về cơ sở dữ liệu của bạn, cũng như các sao lưu hay phục hồi của nó.</target>
+        <target xml:lang="vi">Prestashop không chịu trách nhiệm về cơ sở dữ liệu của bạn, cũng như các sao lưu hay phục hồi.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:50</note>
       </trans-unit>
@@ -1161,7 +1354,7 @@ File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_hea
       </trans-unit>
       <trans-unit id="0929b3759c8eef31c299400f513072dd" approved="yes">
         <source>Our team will take care of restoring your database safely.</source>
-        <target xml:lang="vi">Nhóm chúng tôi sẽ chăm sóc phục hồi cơ sở dữ liệu của bạn một cách an toàn.</target>
+        <target xml:lang="vi">Nhóm chúng tôi sẽ chịu trách nhiệm phục hồi cơ sở dữ liệu của bạn một cách an toàn.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:73</note>
       </trans-unit>
@@ -1189,9 +1382,15 @@ File: admin-dev/themes/default/template/controllers/backup/helpers/view/view.tpl
       </trans-unit>
       <trans-unit id="6a278621d6f2e7dbd56c7beca4081e2d" approved="yes">
         <source>Backup files should automatically start downloading.</source>
-        <target xml:lang="vi">Sao lưu các file sẽ tự động bắt đầu tải về.</target>
+        <target xml:lang="vi">Các file sao lưu sẽ tự động bắt đầu tải về.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/helpers/view/view.tpl:33</note>
+      </trans-unit>
+      <trans-unit id="da61b0c3311560af7fa1d9a515b309f6" approved="yes">
+        <source>If not,[1][2] please click here[/1]!</source>
+        <target xml:lang="vi">Nếu không phải,[1][2] vui lòng lick vào đây[/1]!</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/view/view.tpl:34</note>
       </trans-unit>
     </body>
   </file>
@@ -1235,13 +1434,13 @@ File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl
       </trans-unit>
       <trans-unit id="418dde4b22e22a725e75b2819c0373b2" approved="yes">
         <source>Note that the Category import does not support having two categories with the same name.</source>
-        <target xml:lang="vi">Lưu ý rằng các Danh mục nhập không hỗ trợ có hai danh mục có cùng tên.</target>
+        <target xml:lang="vi">Lưu ý rằng các Danh mục nhập không hỗ trợ hai danh mục có cùng tên.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:65</note>
       </trans-unit>
       <trans-unit id="b990d5cecd822de3b6922abcf71549b4" approved="yes">
         <source>Note that you can have several products with the same reference.</source>
-        <target xml:lang="vi">Lưu ý rằng bạn có thể có một số sản phẩm với các tài liệu tham khảo tương tự.</target>
+        <target xml:lang="vi">Lưu ý rằng bạn có thể có một số sản phẩm với cùng một giá chị tham chiếu.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:66</note>
       </trans-unit>
@@ -1281,7 +1480,7 @@ File: admin-dev/themes/default/template/controllers/information/helpers/view/vie
       </trans-unit>
       <trans-unit id="c49d6d58d1c98f34a15bbd169f82961a" approved="yes">
         <source>Changed/missing files have been detected.</source>
-        <target xml:lang="vi">Các tập tin đã thay đổi/hoặc bị thiếu đã được tìm thấy.</target>
+        <target xml:lang="vi">Đã phát hiện có các tệp tin thay đổi/hoặc bị thiếu.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:49</note>
       </trans-unit>

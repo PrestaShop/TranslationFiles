@@ -78,6 +78,12 @@ File: classes/Mail.php:267</note>
         <note>Context:
 File: classes/Mail.php:280</note>
       </trans-unit>
+      <trans-unit id="3ed07fe73e25bba69e3e5dac234b1941" approved="yes">
+        <source>Error - The following e-mail template is missing: %s</source>
+        <target xml:lang="zh-TW">錯誤 - 以下電子郵件模板丟失：%s</target>
+        <note>Context:
+File: classes/Mail.php:331</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminTabsController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -210,6 +216,12 @@ File: controllers/admin/AdminPerformanceController.php:635</note>
         <note>Context:
 File: controllers/admin/AdminPerformanceController.php:648</note>
       </trans-unit>
+      <trans-unit id="525bb5c93bbb92dd0a3e8378a43ee1e7" approved="yes">
+        <source>To use Smarty Cache, the directory %directorypath% must be writable.</source>
+        <target xml:lang="zh-TW">使用智能高速緩存，目錄%directorypath%必須是可寫的。</target>
+        <note>Context:
+File: controllers/admin/AdminPerformanceController.php:704</note>
+      </trans-unit>
       <trans-unit id="ea030df6cb392bef66cde22c94578ae4" approved="yes">
         <source>Media server #1 is invalid</source>
         <target xml:lang="zh-TW">媒體伺服器＃1無效</target>
@@ -227,6 +239,16 @@ File: controllers/admin/AdminPerformanceController.php:760</note>
         <target xml:lang="zh-TW">媒體伺服器是無效的＃3</target>
         <note>Context:
 File: controllers/admin/AdminPerformanceController.php:763</note>
+      </trans-unit>
+      <trans-unit id="79b2a5e09f30660e30830ffc336ffb7c" approved="yes">
+        <source><![CDATA[Before being able to use this tool, you need to:
+                            <br />- Create a blank .htaccess in your root directory.
+                            <br />- Give it write permissions (CHMOD 666 on Unix system).]]></source>
+        <target xml:lang="zh-TW"><![CDATA[在可以使用這個工具前，你得：
+<br />在你的根目錄中創建一個空白的 .htaccess
+<br /> 授權書寫權限給它。 (CHMOD 666 on Unix system)。]]></target>
+        <note>Context:
+File: controllers/admin/AdminPerformanceController.php:795</note>
       </trans-unit>
       <trans-unit id="026324b2ba696031a2bbc518bd6e3a35" approved="yes">
         <source>The caching system is missing.</source>
@@ -356,6 +378,12 @@ File: controllers/admin/AdminWebserviceController.php:252</note>
         <note>Context:
 File: controllers/admin/AdminWebserviceController.php:272</note>
       </trans-unit>
+      <trans-unit id="e11a22a5910f9f84a6630ee78e1a39f5" approved="yes">
+        <source>Please activate the 'mod_rewrite' Apache module to allow the PrestaShop webservice.</source>
+        <target xml:lang="zh-TW">請激活 “mod_rewrite” Apache 模塊以允許 PrestaShop webservice 運行。</target>
+        <note>Context:
+File: controllers/admin/AdminWebserviceController.php:279</note>
+      </trans-unit>
       <trans-unit id="2c19e4b707a422ddbbc4d1c32966661d" approved="yes">
         <source>We could not check to see if basic authentication and rewrite extensions have been activated. Please manually check if they've been activated in order to use the PrestaShop webservice.</source>
         <target xml:lang="zh-TW">我們無法檢查基本認證與網址改寫描述是否啟用，請手動確認來使用網頁服務</target>
@@ -437,6 +465,12 @@ File: controllers/admin/AdminInformationController.php:121</note>
         <target xml:lang="zh-TW">模組目錄與子目錄設定可寫入權限</target>
         <note>Context:
 File: controllers/admin/AdminInformationController.php:122</note>
+      </trans-unit>
+      <trans-unit id="dfb23c4b12202f8ff04e1510b19bd4d1" approved="yes">
+        <source>Set the write permissions for the "themes%s/lang/" folder and subfolders, recursively.</source>
+        <target xml:lang="zh-TW">在"themes%s/lang/"文件夾和子文件夾中遞歸地設置書寫授權。</target>
+        <note>Context:
+File: controllers/admin/AdminInformationController.php:123</note>
       </trans-unit>
       <trans-unit id="fed1803fba6b27ae43103e333a5600eb" approved="yes">
         <source>Set write permissions for the "translations" folder and subfolders.</source>
@@ -522,11 +556,35 @@ File: controllers/admin/AdminShopController.php:637</note>
   </file>
   <file original="controllers/admin/AdminRequestSqlController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="c232ec1eb797989616b3ab59a5777b69" approved="yes">
+        <source>The file is too large and cannot be downloaded. Please use the LIMIT clause in this query.</source>
+        <target xml:lang="zh-TW">該文件太大，無法上傳。請在這個查詢中設上限條件</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:359</note>
+      </trans-unit>
+      <trans-unit id="a0e587425d03db434bd7ad7081913cb4" approved="yes">
+        <source>The "%tablename%" table does not exist.</source>
+        <target xml:lang="zh-TW">%tablename% 數據表不存在。</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:401</note>
+      </trans-unit>
+      <trans-unit id="9caefacc2d658e65a31461564c163624" approved="yes">
+        <source>The "%attribute%" attribute does not exist in the "%table%" table.</source>
+        <target xml:lang="zh-TW">屬性 %attribute% 不存在於 "%table%" 數據表中。</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:487</note>
+      </trans-unit>
       <trans-unit id="b162612cdcbf01c01421bad2e8b39432" approved="yes">
         <source>Undefined "%s" error</source>
         <target xml:lang="zh-TW">未定義的錯誤 - ＂%s＂</target>
         <note>Context:
 File: controllers/admin/AdminRequestSqlController.php:495</note>
+      </trans-unit>
+      <trans-unit id="dbea0ef67609a60a1f71f8d19e132d1e" approved="yes">
+        <source>The "*" operator cannot be used in a nested query.</source>
+        <target xml:lang="zh-TW">“*” 運算符不能用於嵌套查詢。</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:417</note>
       </trans-unit>
       <trans-unit id="20cc3893d65fa16fcd2fe317c555e28a" approved="yes">
         <source>The operator "%s" is incorrect.</source>
@@ -534,11 +592,23 @@ File: controllers/admin/AdminRequestSqlController.php:495</note>
         <note>Context:
 File: controllers/admin/AdminRequestSqlController.php:426</note>
       </trans-unit>
+      <trans-unit id="dde2543d498ef763b41a2e5ddad7ecdd" approved="yes">
+        <source>The "%operator%" operator is incorrect.</source>
+        <target xml:lang="zh-TW">操作者 "%operator%" 不正確。</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:449</note>
+      </trans-unit>
       <trans-unit id="19681d28ed1cc72479bc26b7e76ad240" approved="yes">
         <source>The LIMIT clause must contain numeric arguments.</source>
         <target xml:lang="zh-TW">LIMIT子句必須包含數字參數</target>
         <note>Context:
 File: controllers/admin/AdminRequestSqlController.php:500</note>
+      </trans-unit>
+      <trans-unit id="37074dedaa80ce0e038f92b668fb2350" approved="yes">
+        <source>The "%reference%" reference does not exist in the "%table%" table.</source>
+        <target xml:lang="zh-TW">“%table%”數據庫表中不存在“%reference%”引用。</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:506</note>
       </trans-unit>
       <trans-unit id="7b4dd672e3b87269079894e693ce9b76" approved="yes">
         <source>When multiple tables are used, each attribute must refer back to a table.</source>
@@ -546,10 +616,22 @@ File: controllers/admin/AdminRequestSqlController.php:500</note>
         <note>Context:
 File: controllers/admin/AdminRequestSqlController.php:514</note>
       </trans-unit>
+      <trans-unit id="890f261dbde9c8c5ac0a40c74b1a3a2c" approved="yes">
+        <source>"%s" is an unauthorized keyword.</source>
+        <target xml:lang="zh-TW">“%s” 是未經授權的關鍵字。</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:523</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="af395851b27882221a6df82c727bca3e" approved="yes">
+        <source>The import directory doesn't exist. Please check your file path.</source>
+        <target xml:lang="zh-TW">上傳目錄不存在。請檢查你的文件路徑。</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:591</note>
+      </trans-unit>
       <trans-unit id="c775530fad852632f78395a11820ba23" approved="yes">
         <source>The import directory must be writable (CHMOD 755 / 777).</source>
         <target xml:lang="zh-TW">導入目錄必須是可寫入的（CHMOD 755/777）。</target>
@@ -561,6 +643,12 @@ File: controllers/admin/AdminImportController.php:595</note>
         <target xml:lang="zh-TW">上傳的檔案大小超過 php.ini 的 upload_max_filesize 設定，如果系統環境允許，您可以透過 .htaccess 調整</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:696</note>
+      </trans-unit>
+      <trans-unit id="0bedafc96db94da3f85caa7101944eb5" approved="yes">
+        <source>The uploaded file exceeds the post_max_size directive in php.ini. If your server configuration allows it, you may add a directive in your .htaccess, for example:</source>
+        <target xml:lang="zh-TW">Php.ini裡上傳的文件超過大小上限。如果你的服務器配置允許，你可以在你的.htaccess裡添加一個指令。</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:699</note>
       </trans-unit>
       <trans-unit id="5b8f192b08644fdc9fd1fd86bcbbc57b" approved="yes">
         <source>(click to open "Generators" page)</source>
@@ -598,6 +686,24 @@ File: controllers/admin/AdminImportController.php:718</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:4480</note>
       </trans-unit>
+      <trans-unit id="a080a85258618039d010a2136f85e69f" approved="yes">
+        <source>There is an empty row in the file that won't be imported.</source>
+        <target xml:lang="zh-TW">在文件中有一空白行無法導入。</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3670</note>
+      </trans-unit>
+      <trans-unit id="7a1bebdbf5770873f8172ecf27b2aa50" approved="yes">
+        <source>The category ID must be unique. It can't be the same as the one for the parent category (ID: %1$s).</source>
+        <target xml:lang="zh-TW">分類編號必須是獨特的。不能和母分類 （ID: %1$s）的一樣。</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1295</note>
+      </trans-unit>
+      <trans-unit id="521531266ae042d0725d7a4aa22a49f4" approved="yes">
+        <source>A category can't be its own parent. You should rename it (current name: %1$s).</source>
+        <target xml:lang="zh-TW">一個分類不能是它自己的根源。你得重新命名它（現名：%1$s）。</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1309</note>
+      </trans-unit>
       <trans-unit id="43bf950e043950e2da10f917b902c131" approved="yes">
         <source>%1$s (ID: %2$s) cannot be saved</source>
         <target xml:lang="zh-TW">%1$s (編號：%2$s) 無法儲存</target>
@@ -609,6 +715,18 @@ File: controllers/admin/AdminImportController.php:3797</note>
         <target xml:lang="zh-TW">網址改寫無法自動產生一個友善網址給：%s</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:1364</note>
+      </trans-unit>
+      <trans-unit id="4798b868d51d8e259321deff0452c0f9" approved="yes">
+        <source>Rewrite link for %1$s (ID %2$s): re-written as %3$s.</source>
+        <target xml:lang="zh-TW">為 %1$s (ID %2$s) 重寫鏈接：重寫為 %3$s。</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1825</note>
+      </trans-unit>
+      <trans-unit id="a118c8120ef45c8b1bed36f341fa45f1" approved="yes">
+        <source>A category cannot be its own parent. The parent category ID is either missing or unknown (ID: %1$s).</source>
+        <target xml:lang="zh-TW">分類不能是自己的根源。母分類 ID 可能遺​​失或未知（ID: %1$s）。</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1396</note>
       </trans-unit>
       <trans-unit id="7bc08d1a3178f4927b2c07a18f417b4b" approved="yes">
         <source>The root category cannot be modified.</source>
@@ -892,6 +1010,12 @@ File: controllers/admin/AdminImportController.php:4048</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:4137</note>
       </trans-unit>
+      <trans-unit id="931bbbb741d025e3ff25ee3c2e72f414" approved="yes">
+        <source>Linking Accessories...</source>
+        <target xml:lang="zh-TW">連接附件...</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:4392</note>
+      </trans-unit>
       <trans-unit id="d165f0c742c272ed88dc27acc91e2642" approved="yes">
         <source>%s import</source>
         <target xml:lang="zh-TW">%s導入</target>
@@ -944,17 +1068,41 @@ File: admin-dev/themes/default/template/controllers/import/modal_import_progress
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:39</note>
       </trans-unit>
+      <trans-unit id="841e4579e55a01ab8f0c565995ba7cfc" approved="yes">
+        <source>Some errors were detected. Please check the details:</source>
+        <target xml:lang="zh-TW">發現一些錯誤。請查以下細節：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:49</note>
+      </trans-unit>
+      <trans-unit id="3df311b82f78fa4059e9a78a26e77b06" approved="yes">
+        <source>We made the following adjustments:</source>
+        <target xml:lang="zh-TW">我們做了以下調整：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:52</note>
+      </trans-unit>
       <trans-unit id="6e17621d481059924339f91ed431a116" approved="yes">
         <source>Validating data...</source>
         <target xml:lang="zh-TW">驗證資料中...</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:57</note>
       </trans-unit>
+      <trans-unit id="95fdb0ead4798ff27cce78fac3fd3c11" approved="yes">
+        <source>[1]%percentage%[/1]% validated</source>
+        <target xml:lang="zh-TW">[1]%percentage%[/1]% 已驗證</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:62</note>
+      </trans-unit>
       <trans-unit id="fd2f43e6f9f4de5be1b08cdac13d7749" approved="yes">
         <source>Processing next page...</source>
         <target xml:lang="zh-TW">處理下一頁中...</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:92</note>
+      </trans-unit>
+      <trans-unit id="f438c83e3ff4dd40a3fc1bf4bb3e79f5" approved="yes">
+        <source>Linking accessories...</source>
+        <target xml:lang="zh-TW">正在載入配件...</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:81</note>
       </trans-unit>
       <trans-unit id="2a44b5ac9f88c57f584bf083730a93f7" approved="yes">
         <source>[1]%size%[/1]% imported</source>
@@ -1108,6 +1256,18 @@ File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_hea
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:70</note>
       </trans-unit>
+      <trans-unit id="bcb4db2b36ea3b1e20e5ee4aa9a68665" approved="yes">
+        <source>If you need to restore a database backup, we invite you to subscribe to a [1][2]technical support plan[/2][/1].</source>
+        <target xml:lang="zh-TW">如果你要修復數據庫備份，我們邀請你訂閱[1][2]技術支持計劃[/2][/1]</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:71</note>
+      </trans-unit>
+      <trans-unit id="0929b3759c8eef31c299400f513072dd" approved="yes">
+        <source>Our team will take care of restoring your database safely.</source>
+        <target xml:lang="zh-TW">我們的團隊將負責安全地恢復您的數據庫。</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:73</note>
+      </trans-unit>
       <trans-unit id="c4b6a12f5f4cbbeb2353a718ee9a8a9a" approved="yes">
         <source>Why can't I restore it by myself?</source>
         <target xml:lang="zh-TW">為什麼不能自己還原？</target>
@@ -1188,9 +1348,9 @@ File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:66</note>
       </trans-unit>
-      <trans-unit id="df6e9862566912e908ef785e860f9c71">
+      <trans-unit id="df6e9862566912e908ef785e860f9c71" approved="yes">
         <source>Are you sure that you would like to delete this entity: </source>
-        <target xml:lang="zh-TW" state="needs-translation"> </target>
+        <target xml:lang="zh-TW">您確定刪除這個實體嗎： </target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:493</note>
       </trans-unit>
@@ -1221,6 +1381,12 @@ File: admin-dev/themes/default/template/controllers/information/helpers/view/vie
         <target xml:lang="zh-TW">發現有檔案異動或遺失</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:49</note>
+      </trans-unit>
+      <trans-unit id="4757718002cbae6feee5c372b66b6a29" approved="yes">
+        <source>No change has been detected in your files.</source>
+        <target xml:lang="zh-TW">未在你的文件裡發現更改.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/information/helpers/view/view.tpl:51</note>
       </trans-unit>
       <trans-unit id="e0aa021e21dddbd6d8cecec71e9cf564" approved="yes">
         <source>OK</source>

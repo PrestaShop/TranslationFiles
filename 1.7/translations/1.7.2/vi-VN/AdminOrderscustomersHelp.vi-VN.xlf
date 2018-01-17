@@ -62,7 +62,7 @@ File: controllers/admin/AdminDeliverySlipController.php:42</note>
       </trans-unit>
       <trans-unit id="6998acbd3739a7200586b4421d0ca508" approved="yes">
         <source>The next delivery slip will begin with this number and then increase with each additional slip.</source>
-        <target xml:lang="vi">Phiếu giao hàng tiếp theo sẽ bắt đầu bằng số</target>
+        <target xml:lang="vi">Phiếu giao hàng tiếp theo sẽ bắt đầu bằng số này và sẽ tăng sau mỗi lần tạo phiếu giao hàng.</target>
         <note>Context:
 File: controllers/admin/AdminDeliverySlipController.php:47</note>
       </trans-unit>
@@ -114,7 +114,7 @@ File: controllers/admin/AdminInvoicesController.php:61</note>
       </trans-unit>
       <trans-unit id="a93c4ec4b8ef325acf067112d7437c59" approved="yes">
         <source>The next invoice will begin with this number, and then increase with each additional invoice. Set to 0 if you want to keep the current number (which is #%number%).</source>
-        <target xml:lang="vi">Hóa đơn tiếp theo sẽ bắt đầu với mã số này, và sau đó tăng với mỗi hóa đơn bổ sung. Cài đặt thành 0 nếu bạn muốn duy trì mã số hiện tại (là #%number%).</target>
+        <target xml:lang="vi">Hóa đơn tiếp theo sẽ bắt đầu với mã số này, và sau đó tăng với mỗi hóa đơn. Cài đặt thành 0 nếu bạn muốn duy trì mã số hiện tại (là #%number%).</target>
         <note>Context:
 File: controllers/admin/AdminInvoicesController.php:90</note>
       </trans-unit>
@@ -138,7 +138,7 @@ File: controllers/admin/AdminInvoicesController.php:114</note>
       </trans-unit>
       <trans-unit id="41d8a2a057a1e1b9663d49896d3162f3" approved="yes">
         <source>Saves memory but slows down the PDF generation.</source>
-        <target xml:lang="vi">Tiết kiệm bộ nhớ, nhưng hãy làm chậm hệ PDF.</target>
+        <target xml:lang="vi">Tiết kiệm bộ nhớ, nhưng hãy làm chậm quá trình tạo PDF.</target>
         <note>Context:
 File: controllers/admin/AdminInvoicesController.php:121</note>
       </trans-unit>
@@ -202,7 +202,12 @@ File: controllers/admin/AdminSlipController.php:80</note>
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/_new_product.tpl" source-language="en" target-language="vi" datatype="plaintext">
     <body>
-      
+      <trans-unit id="dca6b819ed4897f93a1a8531df9b282a" approved="yes">
+        <source>If you don't select "Free shipping," the normal shipping costs will be applied.</source>
+        <target xml:lang="vi">Nếu bạn không chọn "Giao hàng miễn phí", giá giao hàng sẽ được áp dụng như thường.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/_new_product.tpl:120</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl" source-language="en" target-language="vi" datatype="plaintext">
@@ -229,14 +234,19 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/_customized_data.tpl" source-language="en" target-language="vi" datatype="plaintext">
     <body>
-      
+      <trans-unit id="5728ff6d5efd64ef7db72028eefc7262" approved="yes">
+        <source>(Max %amount_refundable% %tax_method%)</source>
+        <target xml:lang="vi">(Tối đa %amount_refundable% %tax_method%)</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/_customized_data.tpl:221</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/form.tpl" source-language="en" target-language="vi" datatype="plaintext">
     <body>
       <trans-unit id="28a996f23ec7c4f6cf75da6bf30670bd" approved="yes">
         <source>Search for an existing customer by typing the first letters of his/her name.</source>
-        <target xml:lang="vi">Tìm kiếm một khách hàng sẵn có bằng cách soạn các từ đầu tiên của tên người đó.</target>
+        <target xml:lang="vi">Tìm kiếm một khách hàng sẵn có bằng cách nhập các từ đầu tiên của tên người đó.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/form.tpl:1107</note>
       </trans-unit>
@@ -258,7 +268,7 @@ File: admin-dev/themes/default/template/controllers/orders/form.tpl:1539</note>
     <body>
       <trans-unit id="576e650084068ed747fb3b22196dcd70" approved="yes">
         <source>If you chooses to create this discount for all invoices, only one discount will be created per order invoice.</source>
-        <target xml:lang="vi">Nếu bạn chọn tạo khoản giảm giá này này trên tất cả các hóa đơn, chỉ 1 khoản giảm giá được tạo trên mỗi hóa đơn đặt hàng.</target>
+        <target xml:lang="vi">Nếu bạn chọn tạo giảm giá này trên tất cả các hóa đơn, chỉ một khoản giảm giá được tạo trên mỗi hóa đơn đặt hàng.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/_discount_form.tpl:92</note>
       </trans-unit>
@@ -268,13 +278,13 @@ File: admin-dev/themes/default/template/controllers/orders/_discount_form.tpl:92
     <body>
       <trans-unit id="d17f6ab68839ef4a39ead0638cae47a2" approved="yes">
         <source>View details on the customer page</source>
-        <target xml:lang="vi">Xem chi tiết trang khách hàng</target>
+        <target xml:lang="vi">Xem chi tiết ở trang khách hàng</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/return/helpers/form/form.tpl:32</note>
       </trans-unit>
       <trans-unit id="a901cc409fe745be1a29a311b57880ce" approved="yes">
         <source>View details on the order page</source>
-        <target xml:lang="vi">xem chi tiết trang đặt hàng</target>
+        <target xml:lang="vi">Xem chi tiết ở trang đặt hàng</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/return/helpers/form/form.tpl:37</note>
       </trans-unit>
