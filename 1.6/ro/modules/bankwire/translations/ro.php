@@ -49,9 +49,9 @@ $_MODULE['<{bankwire}prestashop>payment_return_bb4ec5aac6864a05fcc220cccd8e82f9'
 $_MODULE['<{bankwire}prestashop>payment_return_1faa25b80a8d31e5ef25a78d3336606d'] = 'Nu uita sa scrii codul comenzii %s la detalii plata.';
 $_MODULE['<{bankwire}prestashop>payment_return_19c419a8a4f1cd621853376a930a2e24'] = 'Ti-a fost trimis un e-mail cu aceste informatii.';
 $_MODULE['<{bankwire}prestashop>payment_return_b9a1cae09e5754424e33764777cfcaa0'] = 'Comanda ta te va fi trimisa de indata ce primim confirmarea platii.';
-$_MODULE['<{bankwire}prestashop>payment_return_ca7e41a658753c87973936d7ce2429a8'] = 'Pentru orice intrebari, comentarii sau nelamurii, te rugam sa contacteaza';
+$_MODULE['<{bankwire}prestashop>payment_return_ca7e41a658753c87973936d7ce2429a8'] = 'Pentru orice intrebari, comentarii sau nelamuriri, te rugam sa iei contact cu';
 $_MODULE['<{bankwire}prestashop>payment_return_66fcf4c223bbf4c7c886d4784e1f62e4'] = 'echipa noastra de relatii cu clientii';
-$_MODULE['<{bankwire}prestashop>payment_return_d15feee53d81ea16269e54d4784fa123'] = 'Am descoperit o problema in comanda ta. Daca crezi ca este o eroare, poti contacta';
+$_MODULE['<{bankwire}prestashop>payment_return_d15feee53d81ea16269e54d4784fa123'] = 'Am observat o problema in comanda ta. Daca este o eroare, poti contacta';
 $_MODULE['<{bankwire}prestashop>payment_5e1695822fc5af98f6b749ea3cbc9b4c'] = 'Platiti prin transfer bancar sau postal';
 $_MODULE['<{bankwire}prestashop>payment_4e1fb9f4b46556d64db55d50629ee301'] = '(procesarea comenzii va dura mai mult)';
 $_MODULE['<{bankwire}prestashop>payment_return_decce112a9e64363c997b04aa71b7cb8'] = 'departamentul de relatii cu clientii.';
