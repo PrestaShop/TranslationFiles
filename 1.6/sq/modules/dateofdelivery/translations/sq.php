@@ -3,8 +3,8 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_b0f76e26cffaf27784d901a64f39593e'] = 'Data e marrjes';
-$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_98110868b266d63c3bacdac4430169cf'] = 'Shfaq një datë të përafërt të mbërritjes së porosisë';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_b0f76e26cffaf27784d901a64f39593e'] = 'Data e livrimit';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_98110868b266d63c3bacdac4430169cf'] = 'Shfaq një datë të përafërt livrimi';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_9d1a0949c39e66a0cd65240bc0ac9177'] = 'E diel';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_6f8522e0610541f1ef215a22ffa66ff6'] = 'E hënë';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_5792315f09a5d54fb7e3d066672b507f'] = 'E martë';
@@ -26,10 +26,8 @@ $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_7e823b37564da492ca1629b4732
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_82331503174acbae012b2004f6431fa5'] = 'Dhjetor';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_f4f70727dc34561dfde1a3c529b6205c'] = 'Parametrat';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_387a8014f530f080bf2f3be723f8c164'] = 'Lista e lidhjeve';
-$_MODULE['<{dateofdelivery}prestashop>beforecarrier_75261aaef97717dda0ca98743b24f8f3'] = 'Data e përafërt e marrjes së porosisë fillon nga';
+$_MODULE['<{dateofdelivery}prestashop>beforecarrier_75261aaef97717dda0ca98743b24f8f3'] = 'Data e përafërt e livrimit me këtë transportues është në mes të';
 $_MODULE['<{dateofdelivery}prestashop>beforecarrier_be5d5d37542d75f93a87094459f76678'] = 'deri me';
-$_MODULE['<{dateofdelivery}prestashop>beforecarrier_c9ed8c0b07828727ca6653924b0498d3'] = 'me mënyrë direkte pagese (d.m.th. PayPal ose kartë krediti)';
-$_MODULE['<{dateofdelivery}prestashop>orderdetail_c9ed8c0b07828727ca6653924b0498d3'] = 'me mënyrë direkte pagese (d.m.th. PayPal ose kartë krediti)';
 
 
 return $_MODULE;

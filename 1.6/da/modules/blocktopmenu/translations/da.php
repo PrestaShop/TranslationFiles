@@ -26,7 +26,7 @@ $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_eacd852cc1f621763dccbda3f3c1508
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Aktiveret';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_b9f5c797ebbf55adccdd8539a65a0241'] = 'Deaktiveret';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_c9cc8cce247e49bae79f15173ce97354'] = 'Gem';
-$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_0a112e5da975d8eaf28df9219c397764'] = 'Alle aktive produkters kombinations antal vil blive ændret';
+$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_0a112e5da975d8eaf28df9219c397764'] = 'Alle aktive varers kombinationsantal vil blive ændret';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_1a6191a2dc928ff8fb8c02c050975ea7'] = 'Opdatér link';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_58e9b25bb2e2699986a3abe2c92fc82e'] = 'Tilføj et nyt link';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_b021df6aac4654c454f46c77646e745f'] = 'Etiket';
@@ -39,7 +39,7 @@ $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_ec136b444eede3bc85639fac0dd0622
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_c0bd7654d5b278e65f21cf4e9153fdb4'] = 'Producent';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_af1b98adf7f686b84cd0b443e022b7a0'] = 'Kategorier';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_12a521af593422cd508f7707662c9eb2'] = 'Butikker';
-$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_068f80c7519d0528fb08e82137a72131'] = 'Produkter';
+$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_068f80c7519d0528fb08e82137a72131'] = 'Varer';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_778118c7dd993db08f704e15efa4a7fa'] = 'Vælg vare ID';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_56e8bf6c54f1638e7bce5a2fcd5b20fe'] = 'Menu Top Link';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_449f6d82cde894eafd3c85b6fa918f89'] = 'Link ID';

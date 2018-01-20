@@ -10,6 +10,7 @@ $_MODULE['<{cheque}prestashop>cheque_a02758d758e8bec77a33d7f392eb3f8a'] = 'Nuk �
 $_MODULE['<{cheque}prestashop>cheque_c888438d14855d7d96a2724ee9c306bd'] = 'Parametrat u përditësuan';
 $_MODULE['<{cheque}prestashop>cheque_5dd532f0a63d89c5af0243b74732f63c'] = 'Detajet e kontaktit';
 $_MODULE['<{cheque}prestashop>cheque_dd7bf230fde8d4836917806aff6a6b27'] = 'Adresa';
+$_MODULE['<{cheque}prestashop>cheque_c9cc8cce247e49bae79f15173ce97354'] = 'Ruaj';
 $_MODULE['<{cheque}prestashop>validation_e2b7dec8fa4b498156dfee6e4c84b156'] = 'Metoda e pagesës nuk është në dispozicion.';
 $_MODULE['<{cheque}prestashop>payment_execution_644818852b4dd8cf9da73543e30f045a'] = 'Kthehu te Arka';
 $_MODULE['<{cheque}prestashop>payment_execution_6ff063fbc860a79759a7369ac32cee22'] = 'Përfundoni porosinë';

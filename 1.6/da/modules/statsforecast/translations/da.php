@@ -41,8 +41,8 @@ $_MODULE['<{statsforecast}prestashop>statsforecast_71241798130f714cbd2786df3da2c
 $_MODULE['<{statsforecast}prestashop>statsforecast_f13877f6ad53ce91fcb20fb8b7969698'] = 'Kategoridistribution';
 $_MODULE['<{statsforecast}prestashop>statsforecast_b3ff996fe5c77610359114835baf9b38'] = 'Zone';
 $_MODULE['<{statsforecast}prestashop>statsforecast_3adbdb3ac060038aa0e6e6c138ef9873'] = 'Kategori';
-$_MODULE['<{statsforecast}prestashop>statsforecast_d1873a71f318c4e4733240f0b5911af3'] = 'Solgte produkter';
-$_MODULE['<{statsforecast}prestashop>statsforecast_954b04c203e651728d12622da369cd80'] = 'Procentsats af solgte produkter';
+$_MODULE['<{statsforecast}prestashop>statsforecast_d1873a71f318c4e4733240f0b5911af3'] = 'Solgte varer';
+$_MODULE['<{statsforecast}prestashop>statsforecast_954b04c203e651728d12622da369cd80'] = 'Procentdel solgte varer';
 $_MODULE['<{statsforecast}prestashop>statsforecast_a613e7309e4cb7fdaf416fa4f8bfd360'] = 'Procentsats af salg';
 $_MODULE['<{statsforecast}prestashop>statsforecast_844c29394eea07066bb2efefc35784ec'] = 'Gennemsnitspris';
 $_MODULE['<{statsforecast}prestashop>statsforecast_88183b946cc5f0e8c96b2e66e1c74a7e'] = 'Ukendt';
@@ -58,7 +58,7 @@ $_MODULE['<{statsforecast}prestashop>statsforecast_61569923d8075889a162c4e603258
 $_MODULE['<{statsforecast}prestashop>statsforecast_8471eed257db7258f935588a664ba4f3'] = 'Egenskabsfordeling';
 $_MODULE['<{statsforecast}prestashop>statsforecast_03937134cedab9078be39a77ee3a48a0'] = 'Gruppe';
 $_MODULE['<{statsforecast}prestashop>statsforecast_f2bbdf9f72c085adc4d0404e370f0f4c'] = 'Egenskab';
-$_MODULE['<{statsforecast}prestashop>statsforecast_9b95278ceb25bd5ddfcd7b22be6e4000'] = 'Antal solgte produkter';
+$_MODULE['<{statsforecast}prestashop>statsforecast_9b95278ceb25bd5ddfcd7b22be6e4000'] = 'Antal solgte varer';
 
 
 return $_MODULE;

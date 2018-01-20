@@ -3,6 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{cashondelivery}prestashop>validation_ea9cf7e47ff33b2be14e6dd07cbcefc6'] = 'Livrimi';
 $_MODULE['<{cashondelivery}prestashop>validation_f1d3b424cd68795ecaa552883759aceb'] = 'Përmbledhja e porosisë';
 $_MODULE['<{cashondelivery}prestashop>validation_d538c5b86e9a71455ba27412f4e9ab51'] = 'Pagesë me para në dorë';
 $_MODULE['<{cashondelivery}prestashop>validation_ad2f6328c24caa7d25dd34bfc3e7e25a'] = 'E keni zgjedhur metodën e pagesës me para në dorë.';

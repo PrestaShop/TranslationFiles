@@ -3,6 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{dashgoals}prestashop>dashgoals_50698c5b8ffaf2b7dd089898a244a668'] = 'Synimet e pultit të kontrollit';
 $_MODULE['<{dashgoals}prestashop>dashgoals_86f5978d9b80124f509bdb71786e929e'] = 'Janar';
 $_MODULE['<{dashgoals}prestashop>dashgoals_659e59f062c75f81259d22786d6c44aa'] = 'Shkurt';
 $_MODULE['<{dashgoals}prestashop>dashgoals_fa3e5edac607a88d8fd7ecb9d6d67424'] = 'Mars';
@@ -18,6 +19,7 @@ $_MODULE['<{dashgoals}prestashop>dashgoals_82331503174acbae012b2004f6431fa5'] = 
 $_MODULE['<{dashgoals}prestashop>dashgoals_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'Shitjet';
 $_MODULE['<{dashgoals}prestashop>config_254f642527b45bc260048e30704edb39'] = 'Konfigurimi';
 $_MODULE['<{dashgoals}prestashop>config_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'Shitjet';
+$_MODULE['<{dashgoals}prestashop>config_c9cc8cce247e49bae79f15173ce97354'] = 'Ruaj';
 $_MODULE['<{dashgoals}prestashop>dashboard_zone_two_f1206f9fadc5ce41694f69129aecac26'] = 'Konfiguro';
 $_MODULE['<{dashgoals}prestashop>dashboard_zone_two_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'Shitjet';
 

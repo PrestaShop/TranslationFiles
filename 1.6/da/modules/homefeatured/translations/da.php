@@ -10,7 +10,7 @@ $_MODULE['<{homefeatured}prestashop>homefeatured_c284a59996a4e984b30319999a7feb1
 $_MODULE['<{homefeatured}prestashop>homefeatured_fd2608d329d90e9a49731393427d0a5a'] = 'Ugyldig værdig for "randomiser" flag.';
 $_MODULE['<{homefeatured}prestashop>homefeatured_6af91e35dff67a43ace060d1d57d5d1a'] = 'Dine indstillinger er blevet opdateret.';
 $_MODULE['<{homefeatured}prestashop>homefeatured_f4f70727dc34561dfde1a3c529b6205c'] = 'Indstillinger';
-$_MODULE['<{homefeatured}prestashop>homefeatured_abc877135a96e04fc076becb9ce6fdfa'] = 'For at tilføje produkter til din hjemmeside, så tilføj dem blot til den korresponderende produktkategori (standard: "Hjem").';
+$_MODULE['<{homefeatured}prestashop>homefeatured_abc877135a96e04fc076becb9ce6fdfa'] = 'For at vise varer på forsiden, skal du blot føje dem til øverste kategoriniveau (standardnavn: "Hjem").';
 $_MODULE['<{homefeatured}prestashop>homefeatured_d44168e17d91bac89aab3f38d8a4da8e'] = 'Antal varer der skal vises';
 $_MODULE['<{homefeatured}prestashop>homefeatured_1b73f6b70a0fcd38bbc6a6e4b67e3010'] = 'Antallet af varer der vises på forsiden (standard: 8).';
 $_MODULE['<{homefeatured}prestashop>homefeatured_b773a38d8c456f7b24506c0e3cd67889'] = 'Kategori fra hvilken der skal vælges produkter til visning';

@@ -25,7 +25,7 @@ $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_2f4fe84a25dc0024c9e80
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_6080ab31226b39af728c2d40fd57f0d0'] = 'Vis Facebook blokken på hjemmesiden';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_2debd734d0a150ccfd48e8d1e8e914b0'] = 'Vis den brugerdefinderede CMS informationsblok';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_bfebda351190d4dbbd3499558175c7b9'] = 'Vis hurtigvisningsvinduet på hjemmeside og kategorisider';
-$_MODULE['<{themeconfigurator}prestashop>themeconfigurator_5e8fbd010bca773512f58a4dcd89ed13'] = 'Vis kategorier som en liste med produkter i stedet for standard gitter-baseret visning';
+$_MODULE['<{themeconfigurator}prestashop>themeconfigurator_5e8fbd010bca773512f58a4dcd89ed13'] = 'Vis kategorier som en liste med varer i stedet for standard gitter-baseret visning';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_4e15ce9f3df1555d6932a9938d34a2cc'] = 'Virker kun for førstegangs brugere. Denne indstilling bliver tilsidesat af brugerens valg så snart brugerens cookie er sat.';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_419e2c499b79ae49a7d50b510cddc28e'] = 'Vis topbanner';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_2393b3a8e21e442273b6ad9219f4786c'] = 'Vis logoer for tilgængelige betalingsmetoder';

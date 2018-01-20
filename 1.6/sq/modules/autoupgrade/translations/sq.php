@@ -56,7 +56,7 @@ $_MODULE['<{autoupgrade}prestashop>adminpreferences_9f47ef1ea6bca844b91ceb0322e6
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_e0357226a7cbd43985e1b49bb30f9c55'] = 'Aktivizo nëse tema juaj nuk është në pajtueshmëri me Smarty 3 (ju duhet të përditësoni motivin tuaj, pasi Smarty 2 nuk do të mbështetet nga PrestaShop v1.5)';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_d5bc5fd307b108537039b6b6f98889d5'] = 'Zona kohore:';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_bbd6622dbbdf4bcb166f5e3f018a2351'] = 'Ju lutem klikoni këtu për të përdorur protokollin HTTPS para se të aktivizoni SSL.';
-$_MODULE['<{autoupgrade}prestashop>adminpreferences_0db377921f4ce762c62526131097968f'] = 'E përgjithshme';
+$_MODULE['<{autoupgrade}prestashop>adminpreferences_0db377921f4ce762c62526131097968f'] = 'Të përgjithshme';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_93cba07454f06a4a960172bbd6e2a435'] = 'Po';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_bafd7322c6e97d25b6299b5d6fe8920b'] = 'Jo';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_c6e98a4b0af7d0f66842f744d999e436'] = 'Në mënyrë që të përdorni një motiv të ri, ju lutem ndiqni këta hapa:';
@@ -71,7 +71,7 @@ $_MODULE['<{autoupgrade}prestashop>adminpreferences_19f823c6453c2b1ffd09cb715214
 $_MODULE['<{autoupgrade}prestashop>adminselftab_87a2663d841b78f01c27c0edb4f50b76'] = 'Fshirja e sukseshme';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_a7df4df5ba87b5e752c81b276959e797'] = 'Fshirja e të zgjedhurës e sukseshme';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_84b4d8c8cdd02488c0f868e97b22a3c2'] = 'Krijimi i suksesshëm';
-$_MODULE['<{autoupgrade}prestashop>adminselftab_151648106e4bf98297882ea2ea1c4b0e'] = 'Përditsimi i suksesshëm';
+$_MODULE['<{autoupgrade}prestashop>adminselftab_151648106e4bf98297882ea2ea1c4b0e'] = 'U përditësua me sukses';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_def73ea130852d9e7813ee61eefa24e7'] = 'Parametrat u përdotësuan me sukses';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_ee05efe0548fdafc9e85cb4c34fbe845'] = 'Imazhi u fshi me sukses';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_7cfc3f369b8123e1c2d22a37b31a49a7'] = 'Moduli u shkarkua me suskes';
@@ -277,6 +277,8 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_68499acecfba9d3bf0ca8711f300
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2399cf4ca7b49f2706f6e147a32efa78'] = 'Mbiemri yt përmban karaktere të pavlefshme';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_801ab24683a4a8c433c6eb40c48bcd9d'] = 'Shkarkime';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3b3d06023f6353f8fd05f859b298573e'] = 'URL-ja:';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c9cc8cce247e49bae79f15173ce97354'] = 'Ruaj';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_48c7c41b72e1d678923ce3571aa65b2d'] = 'Hapi';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_95095fc4bbc8b42ec512cfb1cfa19d8a'] = 'Ju jeni duke përdorur versionin PHP %s. Së shpejti, versioni i fundit i mbështetur nga PHP Prestashop do të jetë në PHP 5.4. Për të qenë të sigurt që ju jeni gati për të ardhmen, ne ju rekomandojmë që ta përmirësoni tani në versionin PHP 5.4!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a7eca295291f53a23ab7ba0a9c7fd9de'] = 'Ky funksionalitet është deaktivizuar.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9a843f20677a52ca79af903123147af0'] = 'Mirësevini!';

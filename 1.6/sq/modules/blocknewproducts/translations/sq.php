@@ -5,7 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_f7c34fc4a48bc683445c1e7bbc245508'] = 'Blloku i produkteve të reja';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_d3ee346c7f6560faa13622b6fef26f96'] = 'Shfaq një bllok të produkteve të shtuara së fundi.';
-$_MODULE['<{blocknewproducts}prestashop>blocknewproducts_1cd777247f2a6ed79534d4ace72d78ce'] = 'Ju lutem plotësoni fushën "Produktet për tu treguar".';
+$_MODULE['<{blocknewproducts}prestashop>blocknewproducts_1cd777247f2a6ed79534d4ace72d78ce'] = 'Ju lutem plotësoni fushën "produktet për tu shfaqur".';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_73293a024e644165e9bf48f270af63a0'] = 'Numër i pavlefshëm.';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_c888438d14855d7d96a2724ee9c306bd'] = 'Parametrat u përditësuan';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_f4f70727dc34561dfde1a3c529b6205c'] = 'Parametrat';
@@ -20,7 +20,7 @@ $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_c9cc8cce247e49bae79f151
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_home_0af0aac2e9f6bd1d5283eed39fe265cc'] = 'Aktualisht nuk ka produkte te reja.';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_9ff0635f5737513b1a6f559ac2bff745'] = 'Produktet e reja';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_43340e6cc4e88197d57f8d6d5ea50a46'] = 'Lexo më gjerësisht';
-$_MODULE['<{blocknewproducts}prestashop>blocknewproducts_60efcc704ef1456678f77eb9ee20847b'] = 'Gjithë produktet më të rinj';
+$_MODULE['<{blocknewproducts}prestashop>blocknewproducts_60efcc704ef1456678f77eb9ee20847b'] = 'Të gjitha produktet e reja';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_18cc24fb12f89c839ab890f8188febe8'] = 'Mos shfaq produkte të reja në këtë periudhë.';
 $_MODULE['<{blocknewproducts}prestashop>tab_a0d0ebc37673b9ea77dd7c1a02160e2d'] = 'Prurje të reja';
 

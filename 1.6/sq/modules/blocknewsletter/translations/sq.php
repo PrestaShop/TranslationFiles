@@ -43,6 +43,7 @@ $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_bafd7322c6e97d25b6299b5d6
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_b37f32d509cf5aabe806b16791588aa3'] = 'Ta dërgojmë konfirmimin e abonimit me email?';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_506e58042922bff5bd753dc612e84f5b'] = 'Kupon mirseardhje';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_1d612b943b8f4792bff603384a46e5f1'] = 'Lërini bosh për ta çaktivizuar si parazgjedhje.';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_c9cc8cce247e49bae79f15173ce97354'] = 'Ruaj';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_dbb392a2dc9b38722e69f6032faea73e'] = 'Eksporto skedën .CSV';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_f6df4ad6dc4798f26d1f2460eef4f2e9'] = 'Kërko për adresa';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_375afa60efcc1d48300bd339cb8154b0'] = 'Kërko për adresë emaili';

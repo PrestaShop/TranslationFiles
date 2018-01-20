@@ -26,6 +26,7 @@ $_MODULE['<{blockcategories}prestashop>blockcategories_06f1ac65b0a6a548339a38b34
 $_MODULE['<{blockcategories}prestashop>blockcategories_e3cf5ac19407b1a62c6fccaff675a53b'] = 'Ne rritje';
 $_MODULE['<{blockcategories}prestashop>blockcategories_cf3fb1ff52ea1eed3347ac5401ee7f0c'] = 'Ne zbritje';
 $_MODULE['<{blockcategories}prestashop>blockcategories_5f73e737cedf8f4ccf880473a7823005'] = 'Sa kolona dëshironi t\'i keni në fundfaqe?';
+$_MODULE['<{blockcategories}prestashop>blockcategories_c9cc8cce247e49bae79f15173ce97354'] = 'Ruaj';
 $_MODULE['<{blockcategories}prestashop>blockcategories_footer_af1b98adf7f686b84cd0b443e022b7a0'] = 'Kategoritë';
 $_MODULE['<{blockcategories}prestashop>blockcategories_af1b98adf7f686b84cd0b443e022b7a0'] = 'Kategoritë';
 

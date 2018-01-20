@@ -7,11 +7,14 @@ $_MODULE['<{productcomments}prestashop>productcomments_c888438d14855d7d96a2724ee
 $_MODULE['<{productcomments}prestashop>productcomments_254f642527b45bc260048e30704edb39'] = 'Konfigurimi';
 $_MODULE['<{productcomments}prestashop>productcomments_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'E aktivizuar';
 $_MODULE['<{productcomments}prestashop>productcomments_b9f5c797ebbf55adccdd8539a65a0241'] = 'E çaktivizuar';
+$_MODULE['<{productcomments}prestashop>productcomments_c9cc8cce247e49bae79f15173ce97354'] = 'Ruaj';
 $_MODULE['<{productcomments}prestashop>productcomments_655d20c1ca69519ca647684edbb2db35'] = 'I lartë';
 $_MODULE['<{productcomments}prestashop>productcomments_87f8a6ab85c9ced3702b4ea641ad4bb5'] = 'I mesëm';
 $_MODULE['<{productcomments}prestashop>productcomments_28d0edd045e05cf5af64e35ae0c4c6ef'] = 'I ulët';
 $_MODULE['<{productcomments}prestashop>productcomments_49ee3087348e8d44e1feda1917443987'] = 'Emri';
+$_MODULE['<{productcomments}prestashop>productcomments_a1fa27779242b4902f7ae3bdd5c6d508'] = 'Lloji';
 $_MODULE['<{productcomments}prestashop>productcomments_ec53a8c4f07baed5d8825072c89799be'] = 'Statusi';
+$_MODULE['<{productcomments}prestashop>productcomments_deb10517653c255364175796ace3553f'] = 'Produkti';
 $_MODULE['<{productcomments}prestashop>productcomments_91b442d385b54e1418d81adc34871053'] = 'selected';
 $_MODULE['<{productcomments}prestashop>productcomments_4d3d769b812b6faa6b76e1a8abaece2d'] = 'Aktive';
 $_MODULE['<{productcomments}prestashop>productcomments_e0aa021e21dddbd6d8cecec71e9cf564'] = 'Në rregull';

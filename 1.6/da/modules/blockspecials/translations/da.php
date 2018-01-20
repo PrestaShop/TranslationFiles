@@ -14,7 +14,7 @@ $_MODULE['<{blockspecials}prestashop>blockspecials_b9f5c797ebbf55adccdd8539a65a0
 $_MODULE['<{blockspecials}prestashop>blockspecials_61465481ac2491b37e4517960bbd4a14'] = 'Antal af cachede filer';
 $_MODULE['<{blockspecials}prestashop>blockspecials_e80a11f1704b88ad50f8fc6ce0f43525'] = 'Tilbud vises tilfældigt i Front Office, men da denne handling tager en masse ressourcer, er det bedre at cache resultaterne. Cachen nulstilles hver dag. 0 vil deaktivere cachen.';
 $_MODULE['<{blockspecials}prestashop>blockspecials_26986c3388870d4148b1b5375368a83d'] = 'Varer at vise';
-$_MODULE['<{blockspecials}prestashop>blockspecials_63c150b9c1204c4825ce5914aed20717'] = 'Definer antallet af produkter, der skal vises i denne blok på hjemmesiden.';
+$_MODULE['<{blockspecials}prestashop>blockspecials_63c150b9c1204c4825ce5914aed20717'] = 'Definer antallet af varer, der skal vises i denne blok på hjemmesiden.';
 $_MODULE['<{blockspecials}prestashop>blockspecials_c9cc8cce247e49bae79f15173ce97354'] = 'Gem';
 $_MODULE['<{blockspecials}prestashop>blockspecials-home_e420850bc0f6c94eff7edb2041b206bd'] = 'Ingen udvalgte varer i øjeblikket.';
 $_MODULE['<{blockspecials}prestashop>blockspecials_d1aa22a3126f04664e0fe3f598994014'] = 'Tilbud';

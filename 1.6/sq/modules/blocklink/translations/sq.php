@@ -22,6 +22,7 @@ $_MODULE['<{blocklink}prestashop>blocklink_387a8014f530f080bf2f3be723f8c164'] = 
 $_MODULE['<{blocklink}prestashop>blocklink_58e9b25bb2e2699986a3abe2c92fc82e'] = 'Shto një lidhje të re';
 $_MODULE['<{blocklink}prestashop>blocklink_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'E aktivizuar';
 $_MODULE['<{blocklink}prestashop>blocklink_b9f5c797ebbf55adccdd8539a65a0241'] = 'E çaktivizuar';
+$_MODULE['<{blocklink}prestashop>blocklink_c9cc8cce247e49bae79f15173ce97354'] = 'Ruaj';
 $_MODULE['<{blocklink}prestashop>blocklink_9d55fc80bbb875322aa67fd22fc98469'] = 'Asocioni i dyqanit';
 $_MODULE['<{blocklink}prestashop>blocklink_b22c8f9ad7db023c548c3b8e846cb169'] = 'Shërbimi RSS';
 

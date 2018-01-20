@@ -16,6 +16,7 @@ $_MODULE['<{blockcms}prestashop>blockcms_75cb29c17cf91bef81cc289b0dd1b1fa'] = 'S
 $_MODULE['<{blockcms}prestashop>blockcms_0e5da791148c92be6eca8c537a47569e'] = 'Shfaq lidhjen "Ulje çmimesh" në fundfaqe';
 $_MODULE['<{blockcms}prestashop>blockcms_45bc5fe3bf5717315e42a831ba7da748'] = 'Shfaq lidhjen "Na kontaktoni" në fundfaqe';
 $_MODULE['<{blockcms}prestashop>blockcms_68b7b9e603633d155941fb1d665c3997'] = 'Shfaq lidhjen "harta e faqes" në fundfaqe';
+$_MODULE['<{blockcms}prestashop>blockcms_c9cc8cce247e49bae79f15173ce97354'] = 'Ruaj';
 $_MODULE['<{blockcms}prestashop>blockcms_be58fccb15fb119b8c3d485e3a8561c4'] = 'Konfigurimi i blokut te CMS';
 $_MODULE['<{blockcms}prestashop>blockcms_5aa1602194579edb6f91d7dd53eadb32'] = 'Bllok i ri CMS';
 $_MODULE['<{blockcms}prestashop>blockcms_dd57f561a17388f38ac26a2f0321776b'] = 'Emri i bllokut CMS';

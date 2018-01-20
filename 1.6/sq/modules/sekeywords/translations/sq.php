@@ -3,7 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{sekeywords}prestashop>sekeywords_65b0b42febc8ea16db4652eab6f420a4'] = 'Fjalë kyçe të motorit kërkues';
+$_MODULE['<{sekeywords}prestashop>sekeywords_65b0b42febc8ea16db4652eab6f420a4'] = 'Fjalët kyçe të motorit kërkues';
 $_MODULE['<{sekeywords}prestashop>sekeywords_8effa630c1740a748801b881acb90fa6'] = 'Tregon se cilat fjalë kyçe kanë çuar vizitorët në uebfaqen tuaj.';
 $_MODULE['<{sekeywords}prestashop>sekeywords_6602bbeb2956c035fb4cb5e844a4861b'] = 'Guida';
 $_MODULE['<{sekeywords}prestashop>sekeywords_9ed50bd6876a9273f2192c224b87657b'] = 'Identifikon fjalët kyçe të jashtme të motorit të kërkimit';

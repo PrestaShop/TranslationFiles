@@ -11,7 +11,7 @@ $_MODULE['<{crossselling}prestashop>crossselling_b6bf131edd323320bac67303a3f4de8
 $_MODULE['<{crossselling}prestashop>crossselling_70f9a895dc3273d34a7f6d14642708ec'] = 'Vis prisen for varerne i blokken.';
 $_MODULE['<{crossselling}prestashop>crossselling_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Aktiveret';
 $_MODULE['<{crossselling}prestashop>crossselling_b9f5c797ebbf55adccdd8539a65a0241'] = 'Deaktiveret';
-$_MODULE['<{crossselling}prestashop>crossselling_19a799a6afd0aaf89bc7a4f7588bbf2c'] = 'Antal produkter der skal vises';
+$_MODULE['<{crossselling}prestashop>crossselling_19a799a6afd0aaf89bc7a4f7588bbf2c'] = 'Antal varer der skal vises';
 $_MODULE['<{crossselling}prestashop>crossselling_02128de6a3b085c72662973cd3448df2'] = 'Angiv antallet af varer, der vises i denne blok.';
 $_MODULE['<{crossselling}prestashop>crossselling_c9cc8cce247e49bae79f15173ce97354'] = 'Gem';
 $_MODULE['<{crossselling}prestashop>crossselling_ef2b66b0b65479e08ff0cce29e19d006'] = 'Kunder, der købte denne vare, købte også';

@@ -8,7 +8,7 @@ $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_ed6476843a865d9daf92e40
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_c888438d14855d7d96a2724ee9c306bd'] = 'Indstillinger opdateret';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_f4f70727dc34561dfde1a3c529b6205c'] = 'Indstillinger';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_26986c3388870d4148b1b5375368a83d'] = 'Varer at vise';
-$_MODULE['<{blockbestsellers}prestashop>blockbestsellers_2b21378492166b0e5a855e2da611659c'] = 'Vælg antallet af produkter der skal vises i denne blok';
+$_MODULE['<{blockbestsellers}prestashop>blockbestsellers_2b21378492166b0e5a855e2da611659c'] = 'Angiv antallet af varer, der skal vises i denne blok';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_24ff4e4d39bb7811f6bdf0c189462272'] = 'Vis altid denne blok';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_84b0c5fdef19ab8ef61cd809f9250d85'] = 'Vis denne blok, selvom ingen bedst sælgende er tilgængelige.';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Aktiveret';

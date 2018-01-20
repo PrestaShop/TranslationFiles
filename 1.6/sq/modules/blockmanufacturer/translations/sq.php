@@ -7,7 +7,7 @@ $_MODULE['<{blockmanufacturer}prestashop>blockmanufacturer_bc3e73cfa718a3237fb1d
 $_MODULE['<{blockmanufacturer}prestashop>blockmanufacturer_71087c7035e626bd33c72ae9a7f042af'] = 'Shfaq një listë prodhuesish dhe / ose markash.';
 $_MODULE['<{blockmanufacturer}prestashop>blockmanufacturer_f8c922e47935b3b76a749334045d61cf'] = 'Numër i pavlefshëm i elementeve.';
 $_MODULE['<{blockmanufacturer}prestashop>blockmanufacturer_5b2e13ff6fa0da895d14bd56f2cb2d2d'] = 'Ju lutemi aktivizoni të paktën një listë sistemi.';
-$_MODULE['<{blockmanufacturer}prestashop>blockmanufacturer_f38f5974cdc23279ffe6d203641a8bdf'] = 'Parametrat u përditësuan.';
+$_MODULE['<{blockmanufacturer}prestashop>blockmanufacturer_f38f5974cdc23279ffe6d203641a8bdf'] = 'Cilësimet u përditësuan.';
 $_MODULE['<{blockmanufacturer}prestashop>blockmanufacturer_f4f70727dc34561dfde1a3c529b6205c'] = 'Parametrat';
 $_MODULE['<{blockmanufacturer}prestashop>blockmanufacturer_bfdff752293014f11f17122c92909ad5'] = 'Përdorë një listë me tekst të thjesht';
 $_MODULE['<{blockmanufacturer}prestashop>blockmanufacturer_a7c6946ecc7f4ed19c2691a1e7a28f97'] = 'Shfaq prodhuesit si listë me tekst të thjesht.';

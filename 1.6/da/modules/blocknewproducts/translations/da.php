@@ -17,7 +17,7 @@ $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_d68e7b860a7dba819fa1c75
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Aktiveret';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_b9f5c797ebbf55adccdd8539a65a0241'] = 'Deaktiveret';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_c9cc8cce247e49bae79f15173ce97354'] = 'Gem';
-$_MODULE['<{blocknewproducts}prestashop>blocknewproducts_home_0af0aac2e9f6bd1d5283eed39fe265cc'] = 'Ingen nye produkter i øjeblikket.';
+$_MODULE['<{blocknewproducts}prestashop>blocknewproducts_home_0af0aac2e9f6bd1d5283eed39fe265cc'] = 'Ingen nye varer i øjeblikket.';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_9ff0635f5737513b1a6f559ac2bff745'] = 'Nyheder';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_43340e6cc4e88197d57f8d6d5ea50a46'] = 'Læs mere';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_60efcc704ef1456678f77eb9ee20847b'] = 'Alle nyheder';

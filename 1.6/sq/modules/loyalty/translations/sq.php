@@ -21,6 +21,7 @@ $_MODULE['<{loyalty}prestashop>loyalty_29aa46cc3d2677c7e0f216910df600ff'] = 'Pos
 $_MODULE['<{loyalty}prestashop>loyalty_019d1ca7d50cc54b995f60d456435e87'] = 'I përdorur';
 $_MODULE['<{loyalty}prestashop>loyalty_1f67ea7a0b26e9eacc70523bde28df0c'] = 'Info shtesë';
 $_MODULE['<{loyalty}prestashop>loyalty_18fb6221fe0d9895c2e9ba08283f00e9'] = 'Porosia #%d';
+$_MODULE['<{loyalty}prestashop>loyalty_8cf04a9734132302f96da8e113e80ce5'] = 'Kryefaqja';
 
 
 return $_MODULE;
