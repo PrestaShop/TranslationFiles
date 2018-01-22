@@ -1046,6 +1046,7 @@ $_LANGADM['AdminInformationdbbb85913376aec586b97adc72268a5c'] = 'Постави 
 $_LANGADM['AdminInformation4993d8516d8737159bcd735ca8075e6e'] = 'Дозволи отворена PHP () функција на серверот.';
 $_LANGADM['AdminInformationd7c9a06f90261a728be71382fc06202a'] = 'Постави ја PHP "регистрирај_глобално" опцијата на "исклучено".';
 $_LANGADM['AdminInformation4a344651fb10eb9e339838fab7bb97ae'] = 'овозможи GZIP комперсија на серверот.';
+$_LANGADM['AdminInformation95095fc4bbc8b42ec512cfb1cfa19d8a'] = 'Вие ја користите PHP %s верзијата. Наскоро, најновата PHP верзија поддржана од PrestaShop ќе биде PHP 5.4. За да бидете сигурни дека сте подготвени за иднината, ние ви препорачуваме да го надградите до PHP 5.4 сега!';
 $_LANGADM['AdminInvoices1b107c8f50c81b4b3497765849934a1c'] = 'Опции за фактура';
 $_LANGADM['AdminInvoices916e303456985cc95e3f551665b0314f'] = 'овозможи фактури';
 $_LANGADM['AdminInvoices82c9667c9ef1dc29e479d080eaa998db'] = 'предзнак на фактура';

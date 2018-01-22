@@ -126,7 +126,7 @@ $_MODULE['<{blocklayered}prestashop>view_1.6_df2bbc994d10995dcffdf96dbb7acbb1'] 
 $_MODULE['<{blocklayered}prestashop>view_1.6_ad3e7eb269d8ba0ac388267627f45b5a'] = 'ایندکس کردن در حال انجام است. لطفا این صفحه را ترک نکنید';
 $_MODULE['<{blocklayered}prestashop>view_1.6_5e2420d2318025812dc3e231ddb66b0b'] = 'ایندکس کردن تمام قیمت های از دست رفته';
 $_MODULE['<{blocklayered}prestashop>view_1.6_9612e005e96ad32b8830be4d0377e7e6'] = 'بازسازی ایندکس کل قیمت ها';
-$_MODULE['<{blocklayered}prestashop>view_1.6_d47f700b6db025d98cae0b340ed847e9'] = 'ساخت خاصیت ایندکس';
+$_MODULE['<{blocklayered}prestashop>view_1.6_d47f700b6db025d98cae0b340ed847e9'] = 'ساخت ایندکس مشخصه‌ها';
 $_MODULE['<{blocklayered}prestashop>view_1.6_341ce134fbec9978d185ff533931b1b3'] = 'ساخت ایندکس url';
 $_MODULE['<{blocklayered}prestashop>view_1.6_53795c3624ae2361363780589aa2aa42'] = 'شما می توانید یک cron-job را از طریق لینک زیر برای بازسازی ایندکس قیمت تنظیم کنید:';
 $_MODULE['<{blocklayered}prestashop>view_1.6_e43b32b88c77e49f06144cd1ffaeba96'] = 'شما می توانید یک cron-job را از طریق لینک زیر برای بازسازی ایندکس خاصیت تنظیم کنید:';
@@ -180,7 +180,7 @@ $_MODULE['<{blocklayered}prestashop>view_df2bbc994d10995dcffdf96dbb7acbb1'] = '�
 $_MODULE['<{blocklayered}prestashop>view_ad3e7eb269d8ba0ac388267627f45b5a'] = 'ایندکس کردن در حال انجام است. لطفا این صفحه را ترک نکنید';
 $_MODULE['<{blocklayered}prestashop>view_5e2420d2318025812dc3e231ddb66b0b'] = 'ایندکس کردن تمام قیمت های از دست رفته';
 $_MODULE['<{blocklayered}prestashop>view_9612e005e96ad32b8830be4d0377e7e6'] = 'بازسازی ایندکس کل قیمت ها';
-$_MODULE['<{blocklayered}prestashop>view_d47f700b6db025d98cae0b340ed847e9'] = 'ساخت خاصیت ایندکس';
+$_MODULE['<{blocklayered}prestashop>view_d47f700b6db025d98cae0b340ed847e9'] = 'ساخت ایندکس مشخصه‌ها';
 $_MODULE['<{blocklayered}prestashop>view_341ce134fbec9978d185ff533931b1b3'] = 'ساخت ایندکس url';
 $_MODULE['<{blocklayered}prestashop>view_53795c3624ae2361363780589aa2aa42'] = 'شما می توانید یک cron-job را از طریق لینک زیر برای بازسازی ایندکس قیمت تنظیم کنید:';
 $_MODULE['<{blocklayered}prestashop>view_e43b32b88c77e49f06144cd1ffaeba96'] = 'شما می توانید یک cron-job را از طریق لینک زیر برای بازسازی ایندکس خاصیت تنظیم کنید:';
