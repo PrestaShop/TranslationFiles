@@ -23,6 +23,7 @@ $_MODULE['<{trackingfront}prestashop>trackingfront_11ff9f68afb6b8b5b8eda218d7c83
 $_MODULE['<{trackingfront}prestashop>trackingfront_da9cb586c6689202ca65cd77fd9b84ef'] = '평균 장바구니';
 $_MODULE['<{trackingfront}prestashop>trackingfront_200f5c9c419f0a53d5d361eff7b33abc'] = '등록 비율';
 $_MODULE['<{trackingfront}prestashop>trackingfront_89741aae300253f498b0993fa678fa18'] = '주문 비율';
+$_MODULE['<{trackingfront}prestashop>account_8954e140059f7b2544469f40161ba507'] = '제휴 공간';
 $_MODULE['<{trackingfront}prestashop>account_c87aacf5673fada1108c9f809d354311'] = '로그아웃';
 $_MODULE['<{trackingfront}prestashop>account_1dd1c5fb7f25cd41b291d43a89e3aefd'] = '오늘';
 $_MODULE['<{trackingfront}prestashop>account_7cbb885aa1164b390a0bc050a64e1812'] = '월';
@@ -43,6 +44,9 @@ $_MODULE['<{trackingfront}prestashop>account_e14c8640d236365d11a060832b219a11'] 
 $_MODULE['<{trackingfront}prestashop>account_316853cc3718335f11c048e33b9be98a'] = '클릭';
 $_MODULE['<{trackingfront}prestashop>account_b450fdef2453e92c31263a70f14fbd7b'] = '¤';
 $_MODULE['<{trackingfront}prestashop>account_0bcef9c45bd8a48eda1b26eb0c61c869'] = '%';
+$_MODULE['<{trackingfront}prestashop>header_bf15e68d25d8a2b7664950ba7385ed0a'] = '제휴';
+$_MODULE['<{trackingfront}prestashop>login_bf15e68d25d8a2b7664950ba7385ed0a'] = '제휴';
+$_MODULE['<{trackingfront}prestashop>login_8954e140059f7b2544469f40161ba507'] = '제휴 공간';
 $_MODULE['<{trackingfront}prestashop>login_b6d4223e60986fa4c9af77ee5f7149c5'] = '가입하기';
 $_MODULE['<{trackingfront}prestashop>login_dc647eb65e6711e155375218212b3964'] = '비밀번호';
 
