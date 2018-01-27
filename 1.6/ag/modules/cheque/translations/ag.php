@@ -42,7 +42,7 @@ $_MODULE['<{cheque}prestashop>payment_return_9a94f1d749a3de5d299674d6c685e416'] 
 $_MODULE['<{cheque}prestashop>payment_return_e1c54fdba2544646684f41ace03b5fda'] = 'No olvide incluir su número de pedido #%d.';
 $_MODULE['<{cheque}prestashop>payment_return_4761b03b53bc2b3bd948bb7443a26f31'] = 'No olvide incluir la referencia de su pedido %s.';
 $_MODULE['<{cheque}prestashop>payment_return_610abe74e72f00210e3dcb91a0a3f717'] = 'Un email se le ha sido enviado con esta información.';
-$_MODULE['<{cheque}prestashop>payment_return_ffd2478830ca2f519f7fe7ee259d4b96'] = 'Su pedido serÃ¡ enviado en cuanto recibamos su pago.';
+$_MODULE['<{cheque}prestashop>payment_return_ffd2478830ca2f519f7fe7ee259d4b96'] = 'Su pedido será enviado tan pronto como recibamos su pago.';
 $_MODULE['<{cheque}prestashop>payment_return_0db71da7150c27142eef9d22b843b4a9'] = 'Para otras dudas, por favor contacte con nosotros';
 $_MODULE['<{cheque}prestashop>payment_return_9bdf695c5a30784327137011da6ef568'] = 'Hemos detectado un problema con su pedido. Si considera que hay un error, por favor contacte con nosotros';
 $_MODULE['<{cheque}prestashop>payment_4b80fae2153218ed763bdadc418e8589'] = 'Pagor con cheque';

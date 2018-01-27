@@ -16,7 +16,7 @@ $_MODULE['<{blockcontact}prestashop>blockcontact_52e878b67e9d94d25425231162ef513
 $_MODULE['<{blockcontact}prestashop>blockcontact_c9cc8cce247e49bae79f15173ce97354'] = 'Guardar';
 $_MODULE['<{blockcontact}prestashop>blockcontact_02d4482d332e1aef3437cd61c9bcc624'] = 'Contáctenos';
 $_MODULE['<{blockcontact}prestashop>blockcontact_75858d311c84e7ba706b69bea5c71d36'] = 'Nuestro servicio de atención al cliente está disponible 24/7.';
-$_MODULE['<{blockcontact}prestashop>blockcontact_673ae02fffb72f0fe68a66f096a01347'] = 'TelÃ©fono:';
+$_MODULE['<{blockcontact}prestashop>blockcontact_673ae02fffb72f0fe68a66f096a01347'] = 'Teléfono:';
 $_MODULE['<{blockcontact}prestashop>blockcontact_736c5a7e834b7021bfa97180fc453115'] = '¡Póngase en contacto con nuestro experimentado equipo de atención al cliente!';
 $_MODULE['<{blockcontact}prestashop>nav_02d4482d332e1aef3437cd61c9bcc624'] = 'Contáctenos';
 $_MODULE['<{blockcontact}prestashop>nav_320abee94a07e976991e4df0d4afb319'] = 'Llámenos ahora:';

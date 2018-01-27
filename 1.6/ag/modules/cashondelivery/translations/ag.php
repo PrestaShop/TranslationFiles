@@ -16,7 +16,7 @@ $_MODULE['<{cashondelivery}prestashop>confirmation_75fbf512d744977d62599cc3f0ae2
 $_MODULE['<{cashondelivery}prestashop>confirmation_8861c5d3fa54b330d1f60ba50fcc4aab'] = 'Ha elegido pagar en el momento de la entrega.';
 $_MODULE['<{cashondelivery}prestashop>confirmation_e6dc7945b557a1cd949bea92dd58963e'] = 'Le enviaremos su pedido en breve plazo.';
 $_MODULE['<{cashondelivery}prestashop>confirmation_0db71da7150c27142eef9d22b843b4a9'] = 'Para otras dudas, por favor contacte con nosotros';
-$_MODULE['<{cashondelivery}prestashop>confirmation_64430ad2835be8ad60c59e7d44e4b0b1'] = 'AtenciÃ³n al Cliente';
+$_MODULE['<{cashondelivery}prestashop>confirmation_64430ad2835be8ad60c59e7d44e4b0b1'] = 'atención al cliente';
 $_MODULE['<{cashondelivery}prestashop>payment_b7ada96a0da7ee7fb5371cca0b036d5c'] = 'Pagar contra reembolso';
 $_MODULE['<{cashondelivery}prestashop>payment_536dc7424180872c8c2488ae0286fb53'] = 'Usted paga la mercancía a la entrega';
 

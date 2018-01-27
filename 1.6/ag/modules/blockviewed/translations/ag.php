@@ -11,7 +11,7 @@ $_MODULE['<{blockviewed}prestashop>blockviewed_f4f70727dc34561dfde1a3c529b6205c'
 $_MODULE['<{blockviewed}prestashop>blockviewed_26986c3388870d4148b1b5375368a83d'] = 'Productos a mostrar';
 $_MODULE['<{blockviewed}prestashop>blockviewed_d36bbb6066e3744039d38e580f17a2cc'] = 'NÃºmero de productos mostrados en el bloque';
 $_MODULE['<{blockviewed}prestashop>blockviewed_c9cc8cce247e49bae79f15173ce97354'] = 'Guardar';
-$_MODULE['<{blockviewed}prestashop>blockviewed_43560641f91e63dc83682bc598892fa1'] = 'Lo mÃ¡s visto';
+$_MODULE['<{blockviewed}prestashop>blockviewed_43560641f91e63dc83682bc598892fa1'] = 'Productos más vistos';
 $_MODULE['<{blockviewed}prestashop>blockviewed_8f7f4c1ce7a4f933663d10543562b096'] = 'MÃ¡s sobre';
 $_MODULE['<{blockviewed}prestashop>blockviewed_c70ad5f80e4c6f299013e08cabc980df'] = 'Más acerca de %s';
 

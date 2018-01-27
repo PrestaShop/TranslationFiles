@@ -3,7 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{pagesnotfound}prestashop>pagesnotfound_251295238bdf7693252f2804c8d3707e'] = 'PÃ¡gina no encontrada';
+$_MODULE['<{pagesnotfound}prestashop>pagesnotfound_251295238bdf7693252f2804c8d3707e'] = 'Páginas no encontradas';
 $_MODULE['<{pagesnotfound}prestashop>pagesnotfound_607cc8b8993662a37cac86032fb071d2'] = 'Añade una pestaña al panel de Estadísticas, mostrando las páginas solicitadas por tus visitantes que no se han encontrado.';
 $_MODULE['<{pagesnotfound}prestashop>pagesnotfound_dc3a3db6b98723bf91f924537a630600'] = 'La caché de "páginas no encontradas" ha sido vaciada.';
 $_MODULE['<{pagesnotfound}prestashop>pagesnotfound_b323790d8ee3c43d317d19aea5012626'] = 'La caché de "páginas no encontradas" ha sido eliminada.';

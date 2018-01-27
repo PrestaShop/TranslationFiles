@@ -3,7 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{statslive}prestashop>statslive_fa55230e9791f2b71322869318a5f00f'] = 'Visitantes en lÃ­nea';
+$_MODULE['<{statslive}prestashop>statslive_fa55230e9791f2b71322869318a5f00f'] = 'Visitantes en línea';
 $_MODULE['<{statslive}prestashop>statslive_abf306fd198ab007d480ed610a6690fb'] = 'Añade un listado de clientes y visitantes que están visitando tu tienda al Panel de control de Estadísticas.';
 $_MODULE['<{statslive}prestashop>statslive_85f955e33756b8f40ce35e5b277de5bc'] = 'Debes activar la opción "Guardar visitas de páginas de cada cliente" en el módulo "Minado de datos de estadísticas" (StatsData) para ver las páginas que tus visitantes están viendo en ese momento.';
 $_MODULE['<{statslive}prestashop>statslive_f5ee3b50dba1fb98f1342a584e46cd30'] = 'Clientes conectados en este momento';

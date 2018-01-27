@@ -28,7 +28,7 @@ $_MODULE['<{blockcategories}prestashop>blockcategories_e3cf5ac19407b1a62c6fccaff
 $_MODULE['<{blockcategories}prestashop>blockcategories_cf3fb1ff52ea1eed3347ac5401ee7f0c'] = 'Ascendente';
 $_MODULE['<{blockcategories}prestashop>blockcategories_5f73e737cedf8f4ccf880473a7823005'] = 'Número de columnas para el pie de página';
 $_MODULE['<{blockcategories}prestashop>blockcategories_c9cc8cce247e49bae79f15173ce97354'] = 'Guardar';
-$_MODULE['<{blockcategories}prestashop>blockcategories_footer_af1b98adf7f686b84cd0b443e022b7a0'] = 'CategorÃ­as';
+$_MODULE['<{blockcategories}prestashop>blockcategories_footer_af1b98adf7f686b84cd0b443e022b7a0'] = 'Categorías';
 $_MODULE['<{blockcategories}prestashop>blockcategories_admin_63239117f39d923b2e407620fc1fa5b5'] = 'En el tema predeterminado, estas imágenes se mostrarán en el menú horizontal superior; pero solo si la categoría está en el primer nivel (ver módulo Menú horizontal superior para más información).';
 $_MODULE['<{blockcategories}prestashop>blockcategories_admin_eea317348d82718d49f9a79189dc0f93'] = 'Miniaturas del Menú';
 $_MODULE['<{blockcategories}prestashop>blockcategories_admin_5bc1667deb2b522c0cac00de5f15ffbc'] = 'Dimensiones recomendadas (para el tema predeterminado): %1spx x %2spx';

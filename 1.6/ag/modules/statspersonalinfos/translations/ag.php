@@ -21,18 +21,18 @@ $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_db9750afee08c6e88c9
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_e0fcbbd416a4872ec8f91fefa823debe'] = 'El rango de monedas te permite determinar con que moneda pagan tus clientes.';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_94d50571d0f2e98276cfbe2f3de41b20'] = 'La distribución por idiomas te permite determinar el idioma más utilizado por tus clientes para navegar por tu tienda.';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_9fde3510abe63111086fd4288a19e1be'] = 'No hay clentes registrados.';
-$_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_8dc514f6da8c696c4a522efc145ad28a'] = 'DistribuciÃ³n del gÃ©nero';
+$_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_8dc514f6da8c696c4a522efc145ad28a'] = 'Distribución por género';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_63889cfb9d3cbe05d1bd2be5cc9953fd'] = 'Hombre';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_b719ce180ec7bd9641fece2f920f4817'] = 'Mujer';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_88183b946cc5f0e8c96b2e66e1c74a7e'] = 'Desconocido';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_4d79e3d0b4d09b2f42d0831193cea200'] = 'Rango de edad';
-$_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_6e69fbf88d84db874f365542b0284a95'] = 'de 0 a 18 aÃ±os';
-$_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_b20e0ed6158978a3a23d092060b5dbab'] = 'de 18 a 24 aÃ±os';
-$_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_e5884ca49180d38295ee426c624d936c'] = 'de 25 a 34 aÃ±os';
-$_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_62ce9f61153b331eabe9efc2fc7eb5c2'] = 'de 35  49 aÃ±os';
-$_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_a7724f78dcdf2179c5ca651d15ed5b2c'] = '50 a 59 aÃ±os';
-$_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_6a239f88f1aeb0561e7786b6120d1d5e'] = 'mas de 60 Ã±os';
-$_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_73b0130037e21b76351aebfd29d0b9aa'] = 'DistribuciÃ³n del paÃ­s';
+$_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_6e69fbf88d84db874f365542b0284a95'] = '0-18 años';
+$_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_b20e0ed6158978a3a23d092060b5dbab'] = '18-24 años';
+$_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_e5884ca49180d38295ee426c624d936c'] = '25-34 años';
+$_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_62ce9f61153b331eabe9efc2fc7eb5c2'] = '35-49 años';
+$_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_a7724f78dcdf2179c5ca651d15ed5b2c'] = '50-59 años';
+$_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_6a239f88f1aeb0561e7786b6120d1d5e'] = '60 años y más';
+$_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_73b0130037e21b76351aebfd29d0b9aa'] = 'Distribución por país';
 
 
 return $_MODULE;

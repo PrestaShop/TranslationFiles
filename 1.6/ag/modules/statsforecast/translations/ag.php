@@ -45,13 +45,13 @@ $_MODULE['<{statsforecast}prestashop>statsforecast_954b04c203e651728d12622da369c
 $_MODULE['<{statsforecast}prestashop>statsforecast_a613e7309e4cb7fdaf416fa4f8bfd360'] = 'Porcentaje de ventas';
 $_MODULE['<{statsforecast}prestashop>statsforecast_844c29394eea07066bb2efefc35784ec'] = 'Precio medio';
 $_MODULE['<{statsforecast}prestashop>statsforecast_88183b946cc5f0e8c96b2e66e1c74a7e'] = 'Desconocido';
-$_MODULE['<{statsforecast}prestashop>statsforecast_f1dd68fb6a00d3e4d7f751deacde995d'] = 'DistribuciÃ³n de idiomas';
+$_MODULE['<{statsforecast}prestashop>statsforecast_f1dd68fb6a00d3e4d7f751deacde995d'] = 'Distribución por idioma';
 $_MODULE['<{statsforecast}prestashop>statsforecast_4994a8ffeba4ac3140beb89e8d41f174'] = 'Idioma';
 $_MODULE['<{statsforecast}prestashop>statsforecast_37be07209f53a5d636d5c904ca9ae64c'] = 'Porcentaje';
 $_MODULE['<{statsforecast}prestashop>statsforecast_699aed86dada6ca01ef74013a4464066'] = 'Evolución';
 $_MODULE['<{statsforecast}prestashop>statsforecast_07aa83862ec591697b4325b66d36a78b'] = 'Distribución por zonas';
 $_MODULE['<{statsforecast}prestashop>statsforecast_ec0fc0100c4fc1ce4eea230c3dc10360'] = 'No definido';
-$_MODULE['<{statsforecast}prestashop>statsforecast_28e81c8343702f6c813cc31a7f90616a'] = 'DistribuciÃ³n de moneda';
+$_MODULE['<{statsforecast}prestashop>statsforecast_28e81c8343702f6c813cc31a7f90616a'] = 'Distribución por moneda';
 $_MODULE['<{statsforecast}prestashop>statsforecast_386c339d37e737a436499d423a77df0c'] = 'Moneda';
 $_MODULE['<{statsforecast}prestashop>statsforecast_61569923d8075889a162c4e603258e6e'] = 'Volumen de ventas (convertido)';
 $_MODULE['<{statsforecast}prestashop>statsforecast_8471eed257db7258f935588a664ba4f3'] = 'Distribución por atributos';

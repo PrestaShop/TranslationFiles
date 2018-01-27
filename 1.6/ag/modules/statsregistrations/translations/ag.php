@@ -9,7 +9,7 @@ $_MODULE['<{statsregistrations}prestashop>statsregistrations_247b3bdef50a59d5a83
 $_MODULE['<{statsregistrations}prestashop>statsregistrations_479c1246d97709e234574e1d2921994d'] = 'Número de visitantes que realizaron un pedido directamente después del registro:';
 $_MODULE['<{statsregistrations}prestashop>statsregistrations_a751e9cc4ed4c7585ecc0d97781cb48a'] = 'Cuentas de cliente totales:';
 $_MODULE['<{statsregistrations}prestashop>statsregistrations_6602bbeb2956c035fb4cb5e844a4861b'] = 'Guia';
-$_MODULE['<{statsregistrations}prestashop>statsregistrations_fba0e64541196123bbf8e3737bf9287b'] = 'NÃºmero de cuentas clientes creadas';
+$_MODULE['<{statsregistrations}prestashop>statsregistrations_fba0e64541196123bbf8e3737bf9287b'] = 'Número de cuentas de cliente creadas';
 $_MODULE['<{statsregistrations}prestashop>statsregistrations_76dcf557776c2b40d47b72ebcd9ac6b7'] = 'El número total de cuentas creadas no es en sí misma información importante. Sin embargo, es interesante analizar la cantidad creada en un cierto plazo. Esto indicará de una manera u otra si las cosas van por buen camino.';
 $_MODULE['<{statsregistrations}prestashop>statsregistrations_57a6f41a27c9baa5b402d30e97d4c1e8'] = '¿Cómo intervenir en la evolución de las suscripciones?';
 $_MODULE['<{statsregistrations}prestashop>statsregistrations_271ef73d55b8e3cc30963ca9413d4a52'] = 'Si dejas que tu tienda funcione sin cambiar nada, el número de registros de clientes debe permanecer estable o mostrar un ligero descenso.';

@@ -33,7 +33,7 @@ $_MODULE['<{homeslider}prestashop>homeslider_b112d8dc41120e6d28639b7eb825f491'] 
 $_MODULE['<{homeslider}prestashop>homeslider_61c1727eb4c54b859e250c2a76bb40c0'] = 'Título de la diapositiva';
 $_MODULE['<{homeslider}prestashop>homeslider_e64df1d7c22b9638f084ce8a4aff3ff3'] = 'URL de destino';
 $_MODULE['<{homeslider}prestashop>homeslider_272ba7d164aa836995be6319a698be84'] = 'Leyenda';
-$_MODULE['<{homeslider}prestashop>homeslider_b5a7adde1af5c87d7fd797b6245c2a39'] = 'DescripciÃ³n';
+$_MODULE['<{homeslider}prestashop>homeslider_b5a7adde1af5c87d7fd797b6245c2a39'] = 'Descripción';
 $_MODULE['<{homeslider}prestashop>homeslider_93cba07454f06a4a960172bbd6e2a435'] = 'Sí';
 $_MODULE['<{homeslider}prestashop>homeslider_bafd7322c6e97d25b6299b5d6fe8920b'] = 'no';
 $_MODULE['<{homeslider}prestashop>homeslider_c9cc8cce247e49bae79f15173ce97354'] = 'Guardar';
