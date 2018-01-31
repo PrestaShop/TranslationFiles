@@ -230,6 +230,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_36d56d20b3894281531cd4108e2c
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_eac34868b4fb511702e53d1405c45454'] = '資料庫更新時出了問題, 請重新存取您的資料庫';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_08ee54c048e1589f4072a351035db2ad'] = '資料庫已更新。現在請更新您的附加模組...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ead14b0273e8d6cae7d146130d4be8f6'] = '數據庫已經被清洗。';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_55c1713f90add7c448328323af0c1b9d'] = '你無法更新到此版本。';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3b8f044559a7568ea572776caf1d6526'] = '此 config/settings.inc.php 檔案找不到。';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_22f18bac5d420d7ac5aca37b1afe30c9'] = '目前版本： %1$s。將會安裝此版本: %2$s。';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_6b81346a0c9173213e0c32d0082dc073'] = '目前版本： %1$s。將會安裝此版本: %2$s';
@@ -391,11 +392,13 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_4e140ba723a03baa6948340bf90e
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_987023af1c4e507ea04eb5069578f7f0'] = '版本編號：';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3b3d06023f6353f8fd05f859b298573e'] = '網址：';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_bca4ff8cbf5fd614a700ca81c820dc1b'] = '變更紀錄：';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_39089ec5b14aadac3156e62cde5027b1'] = '請看更新日誌';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_628decaabab912af39cfda7aaf47b059'] = 'Major版本';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_43899376e3f4d4cb70dad59c81a4b957'] = 'Minor版本（推薦）';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_1436348d2e10c88964c87efe3ebe7e4c'] = '候選發布版本';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3da4e7a86631518f47d8cedf7f09a5ed'] = 'Beta版本';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0c960ac8fc33e1516a568248519b4d03'] = 'Alpha 版本';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_15e90667b50b56b1f8a01bdb1190f3dc'] = '本地存檔';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_17897209dd708b862fe417f6d429a8da'] = '本地目錄';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3b3d4b4b6a128cfeafc8e3f8987ddb9b'] = '頻道:';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ef2f59f06132ddc2e1bc8d00abbe6e02'] = '連結：';
