@@ -34,6 +34,7 @@ $_MODULE['<{themeconfigurator}prestashop>new_4c4ad5fca2e7a3f74dbb1ced00381aa4'] 
 $_MODULE['<{themeconfigurator}prestashop>new_ea4788705e6873b424c65e91c2846b19'] = '취소';
 $_MODULE['<{themeconfigurator}prestashop>new_c9cc8cce247e49bae79f15173ce97354'] = '저장';
 $_MODULE['<{themeconfigurator}prestashop>live_configurator_194f5394ae2e9c74dc3c441b92862d1d'] = '글꼴';
+$_MODULE['<{themeconfigurator}prestashop>live_configurator_526d688f37a86d3c3f27d0c5016eb71d'] = '재설정';
 $_MODULE['<{themeconfigurator}prestashop>live_configurator_c9cc8cce247e49bae79f15173ce97354'] = '저장';
 
 
