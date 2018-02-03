@@ -65,10 +65,10 @@ $_LANGMAIL['Your guest account for <span><strong>{shop_name}</strong></span> has
 $_LANGMAIL['Please be careful when sharing these login details with others.'] = '';
 $_LANGMAIL['You can access your customer account on our shop:'] = '';
 $_LANGMAIL['Message from {shop_name}'] = '';
-$_LANGMAIL['In transit'] = '';
-$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> is currently in transit.'] = '';
-$_LANGMAIL['You can track your package using the following link:'] = '';
-$_LANGMAIL['{followup}'] = '';
+$_LANGMAIL['In transit'] = '배송 중';
+$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> is currently in transit.'] = '참조한 <span><strong>{order_name}</strong></span> 주문은 현재 배송 중입니다.';
+$_LANGMAIL['You can track your package using the following link:'] = '다음 링크를 사용하여 화물을 추적할 수 있습니다.';
+$_LANGMAIL['{followup}'] = '{followup}';
 $_LANGMAIL['You have received a new log alert'] = '';
 $_LANGMAIL['<span><strong>Warning:</strong></span> you have received a new log alert in your Back Office.'] = '';
 $_LANGMAIL['You can check for it in the <span><strong>"Tools" &gt; "Logs"</strong></span> section of your Back Office.'] = '';
