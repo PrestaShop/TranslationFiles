@@ -18,7 +18,7 @@ $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_00d23a76e43b46dae9ec7aa
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_b9f5c797ebbf55adccdd8539a65a0241'] = 'Deaktivováno';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_c9cc8cce247e49bae79f15173ce97354'] = 'Uložit';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_home_0af0aac2e9f6bd1d5283eed39fe265cc'] = 'Momentálně nejsou žádné novinky.';
-$_MODULE['<{blocknewproducts}prestashop>blocknewproducts_9ff0635f5737513b1a6f559ac2bff745'] = 'Novinky';
+$_MODULE['<{blocknewproducts}prestashop>blocknewproducts_9ff0635f5737513b1a6f559ac2bff745'] = 'Nové produkty';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_43340e6cc4e88197d57f8d6d5ea50a46'] = 'Číst více';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_60efcc704ef1456678f77eb9ee20847b'] = 'Všechny novinky';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_18cc24fb12f89c839ab890f8188febe8'] = 'Momentálně nejsou žádné nové produkty.';
