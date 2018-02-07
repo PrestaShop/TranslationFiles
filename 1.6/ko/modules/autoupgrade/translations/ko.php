@@ -40,10 +40,12 @@ $_MODULE['<{autoupgrade}prestashop>adminselftab_630f6dc397fe74e52d5189e2c80f282b
 $_MODULE['<{autoupgrade}prestashop>adminselftab_e54b38290c8bdd95e8bc10412c9cc096'] = '필수 항목';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_00d23a76e43b46dae9ec7aa9dcbebb32'] = '활성화됨';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_b9f5c797ebbf55adccdd8539a65a0241'] = '비활성화됨';
+$_MODULE['<{autoupgrade}prestashop>adminselftab_ed75712b0eb1913c28a3872731ffd48d'] = '복제';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_4351cfebe4b61d8aa5efa1d020710005'] = '보기';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_7dce122004969d56ae2e0245cb754d35'] = '수정';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_f2a6c498fb90ee345d997f888fce3b18'] = '삭제';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_0071aa279bd1583754a544277740f047'] = '항목 삭제 #';
+$_MODULE['<{autoupgrade}prestashop>adminselftab_6adab6d3fdf92c448d60cf8824e4851c'] = '선택 삭제';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_e25f0ecd41211b01c83e5fec41df4fe7'] = '선택한 항목을 삭제할까요?';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_93cba07454f06a4a960172bbd6e2a435'] = '예';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_bafd7322c6e97d25b6299b5d6fe8920b'] = '아니오';

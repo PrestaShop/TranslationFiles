@@ -46,6 +46,7 @@ $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_a307579714b75082f3f873497
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_d0da5609e4aebc5d532de97511a5a34a'] = '계정이 없는 구독자들';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_6395c19dc5a1cef9ca125b9736358dc7'] = '가입된 구독자';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_498bed86a7c58dcf1125dd21f40a6482'] = '파트너 제안 수신 동의 여부로 고객을 필터링합니다.';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_dbb392a2dc9b38722e69f6032faea73e'] = 'CSV 파일로 내보내기';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_f6df4ad6dc4798f26d1f2460eef4f2e9'] = '주소로 검색';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_375afa60efcc1d48300bd339cb8154b0'] = '검색할 이메일 주소';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_e347582d22a4ba3c822de504b23d4704'] = '예:contact@prestashop.com 또는 @prestashop.com';
