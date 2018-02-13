@@ -65,7 +65,7 @@ $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_4729572eaf20960
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_492c147d1a4919a2db1c1753516ca621'] = 'Текст під кошиком';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_308849b73a4e55db002c9d56f046911c'] = 'Додати заданий текст внизу резюме кошика.';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_c9cc8cce247e49bae79f15173ce97354'] = 'Зберегти';
-$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_98f770b0af18ca763421bac22b4b6805'] = 'Хар-ки';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_98f770b0af18ca763421bac22b4b6805'] = 'Характеристики';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_307676a395a3e913b32733a2ddcf1449'] = 'Увімкнути функцію \'Розказати Другу\'';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_c57fc80fe284ea2b7fe0e32ee9f56a65'] = 'Перед увімкненням переконайтеся, що Ви обізнані з місцевим законодавством: електронні листи, відправлені даним методом, можуть бути розглянуті як небажані комерційні пропозиції.';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_01fcd16be34de91e8b570c662396e617'] = 'Якщо увімкнено, модуль \'Надіслати Другу\' дозволить клієнтам надсилати своїм друзям листи з посиланням на сторінку товару.';
