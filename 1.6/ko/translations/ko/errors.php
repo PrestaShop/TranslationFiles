@@ -84,6 +84,7 @@ $_ERRORS['52326ecbfcdff77b4bc9dcf7f055c2eb'] = '치명적인 오류: ISO 코드�
 $_ERRORS['b046e4164fe05012960e96896b7b0c34'] = '아카이브를 prestashop.com에서 다운로드 할 수 없습니다.';
 $_ERRORS['6b7d9f171f524c0d49dfb5370f5b69f4'] = '당신의 Prestashop 버전에 대한 언어를 확인 시 오류가 발생했습니다.';
 $_ERRORS['edeb9e20655b946e4bee4ac44a6c0a7f'] = '서버가 쓰기 권한을 가지고 있지 않습니다.';
+$_ERRORS['9831c9e35b4d39d939363aa5629e00f2'] = '아카이브를 추출할 수 없습니다.';
 $_ERRORS['db3f419ede0b78fcf31491509e68db40'] = '영역의 이름이 잘못됨';
 $_ERRORS['be9fddade234ff9b16a1d92d62963b8e'] = '주의 속성이 잘못됨';
 $_ERRORS['115baa3a6f65bb35be1ee1dde195a51c'] = '관련 국가를 업데이트 할 수 없습니다:';
