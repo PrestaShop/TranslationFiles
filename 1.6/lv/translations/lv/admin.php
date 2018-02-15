@@ -1534,7 +1534,6 @@ $_LANGADM['AdminStats86730d7947a117f6c049cfe444cff01f'] = '%d gadi';
 $_LANGADM['AdminStats08cfa7751d1812e961560f623e082aba'] = 'Nav pasūtījumu';
 $_LANGADM['AdminStats9aee5f7903fbed5f7d715e4011961b59'] = '%d%% %s';
 $_LANGADM['AdminStatsd79de24a931cdfd25615c068f1f2765a'] = 'Nav kategorijas';
-$_LANGADM['AdminStatsTab452a7601dbc6f2c38aa89e68bda8b603'] = 'Statistiques';
 $_LANGADM['AdminStatsTab8ff922bbcd8ad41cdfc48d3c5163b2ab'] = 'Kalendārs';
 $_LANGADM['AdminStatsTab03727ac48595a24daed975559c944a44'] = 'diena';
 $_LANGADM['AdminStatsTab7cbb885aa1164b390a0bc050a64e1812'] = 'Mēnesis';
