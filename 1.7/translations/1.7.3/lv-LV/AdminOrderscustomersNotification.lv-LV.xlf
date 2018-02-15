@@ -8,6 +8,12 @@
   </file>
   <file original="classes/order/OrderHistory.php" source-language="en" target-language="lv" datatype="plaintext">
     <body>
+      <trans-unit id="f22b1baf8dcfb014646921be9841cb41" approved="yes">
+        <source>expires on %s.</source>
+        <target xml:lang="lv">derīgs līdz %s.</target>
+        <note>Context:
+File: classes/order/OrderHistory.php:143</note>
+      </trans-unit>
       <trans-unit id="e1e95b3cea70730a922b35808ca3dce3" approved="yes">
         <source>Invalid new order status</source>
         <target xml:lang="lv">Nederīgs jaunais pasūtījuma stāvoklis</target>
@@ -23,6 +29,12 @@ File: classes/order/OrderHistory.php:344</note>
         <target xml:lang="lv">Tiešā adrese</target>
         <note>Context:
 File: controllers/admin/AdminCustomersController.php:794</note>
+      </trans-unit>
+      <trans-unit id="7298a088a582ffc05f2c777afb3115cb" approved="yes">
+        <source>Password cannot be empty.</source>
+        <target xml:lang="lv">Parole nevar būt tukša.</target>
+        <note>Context:
+File: controllers/admin/AdminCustomersController.php:895</note>
       </trans-unit>
       <trans-unit id="0a53e9e61f2a9bf59e9028b42fbd8166" approved="yes">
         <source>An error occurred while loading the object.</source>
@@ -86,6 +98,24 @@ File: controllers/admin/AdminReturnController.php:281</note>
   </file>
   <file original="controllers/admin/AdminOrdersController.php" source-language="en" target-language="lv" datatype="plaintext">
     <body>
+      <trans-unit id="aea807cc550550acd7b8d9a7bc469f6a" approved="yes">
+        <source>You have to select a shop before creating new orders.</source>
+        <target xml:lang="lv">Pirms jaunu pasūtījumu izveidošanas jums ir jāizvēlas veikals.</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:219</note>
+      </trans-unit>
+      <trans-unit id="409f3dfd9f910287f86fd6c25c94c4d8" approved="yes">
+        <source>Order #%d has already been assigned this status.</source>
+        <target xml:lang="lv">Pasūtījumam #%d ir piešķirts šis statuss.</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:389</note>
+      </trans-unit>
+      <trans-unit id="18893a82469e2cd9492fc8d46fa8ac01" approved="yes">
+        <source>An error occurred while changing the status for order #%d, or we were unable to send an email to the customer.</source>
+        <target xml:lang="lv">Mainot statusu pasūtījumam #%d, radās kļūda vai mēs nevarējām nosūtīt e-pastu klientam.</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:414</note>
+      </trans-unit>
       <trans-unit id="561918c3c49ff748f543e28f5c405d3c" approved="yes">
         <source>An error occurred while sending an email to the customer.</source>
         <target xml:lang="lv">Kļūda sūtot epastu klientam.</target>
@@ -158,6 +188,12 @@ File: controllers/admin/AdminOrdersController.php:970</note>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:992</note>
       </trans-unit>
+      <trans-unit id="edeff0d68d3d20ce1f6189f6070cb2ba" approved="yes">
+        <source>A credit slip cannot be generated.</source>
+        <target xml:lang="lv">Nevar ģenerēt kredīta kvīti.</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:1030</note>
+      </trans-unit>
       <trans-unit id="b81f0a0540938a2e7daa684f02866696" approved="yes">
         <source>No product or quantity has been selected.</source>
         <target xml:lang="lv">Nav izvēlēts neviens produkts vai daudzums.</target>
@@ -194,6 +230,12 @@ File: controllers/admin/AdminOrdersController.php:1174</note>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:1176</note>
       </trans-unit>
+      <trans-unit id="7f5a75ac350db917dc60cfbd8299da5b" approved="yes">
+        <source>Failed to upload the invoice and edit its note.</source>
+        <target xml:lang="lv">Neizdevās augšupielādēt rēķinu un rediģēt tā piezīmi.</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:1202</note>
+      </trans-unit>
       <trans-unit id="95aa605fa7f396d370b4c87afad9201c" approved="yes">
         <source>This address can't be loaded</source>
         <target xml:lang="lv">Šo adresi nevar ielādēt</target>
@@ -224,11 +266,17 @@ File: controllers/admin/AdminOrdersController.php:1360</note>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:1400</note>
       </trans-unit>
-      <trans-unit id="aeddc664f1e95691c69ea44a5c1c18f5">
+      <trans-unit id="aeddc664f1e95691c69ea44a5c1c18f5" approved="yes">
         <source>This product is out of stock: </source>
-        <target xml:lang="lv" state="needs-translation"> </target>
+        <target xml:lang="lv">Šī produkta nav noliktavā: </target>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:1782</note>
+      </trans-unit>
+      <trans-unit id="7152cf69405fd47a8bd2f7b625ce324e" approved="yes">
+        <source>You cannot add products to delivered orders.</source>
+        <target xml:lang="lv">Jūs nevarat pievienot produktus piegādātajiem pasūtījumiem.</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:2050</note>
       </trans-unit>
       <trans-unit id="de10fc28511b894f704c1a67fcff7b4f" approved="yes">
         <source>You already have the maximum quantity available for this product.</source>
@@ -334,8 +382,12 @@ File: controllers/admin/AdminEmployeesController.php:433</note>
   </file>
   <file original="controllers/admin/AdminStatusesController.php" source-language="en" target-language="lv" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="35af021c4bdb02cad86c917022e053da" approved="yes">
+        <source>An error has occurred: Can't save the current order's return status.</source>
+        <target xml:lang="lv">Radās kļūda: nevar saglabāt pašreizējā pasūtījuma atgriešanās statusu.</target>
+        <note>Context:
+File: controllers/admin/AdminStatusesController.php:555</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminSearchController.php" source-language="en" target-language="lv" datatype="plaintext">
@@ -368,6 +420,30 @@ File: controllers/admin/AdminSearchController.php:142</note>
         <note>Context:
 File: controllers/admin/AdminCustomerThreadsController.php:482</note>
       </trans-unit>
+      <trans-unit id="d9c93c77e4f2eb90e8457f586e0c5cb3" approved="yes">
+        <source>Cannot create message in a new thread.</source>
+        <target xml:lang="lv">Nevar izveidot ziņu jaunā zarā.</target>
+        <note>Context:
+File: controllers/admin/AdminCustomerThreadsController.php:1079</note>
+      </trans-unit>
+      <trans-unit id="142c7111dc9e81f5cf273851ccce9fcc" approved="yes">
+        <source>The message body is empty, cannot import it.</source>
+        <target xml:lang="lv">Ziņojums ir tukšs, to nevar importēt.</target>
+        <note>Context:
+File: controllers/admin/AdminCustomerThreadsController.php:1144</note>
+      </trans-unit>
+      <trans-unit id="5d1cbbd2b78574a8cfac676d8bdb9ea4" approved="yes">
+        <source>Invalid message content for subject: %s</source>
+        <target xml:lang="lv">Nederīgs ziņojuma saturs tēmai: %s</target>
+        <note>Context:
+File: controllers/admin/AdminCustomerThreadsController.php:1151</note>
+      </trans-unit>
+      <trans-unit id="f70f856f6d471d374aaf5080afeb1e53" approved="yes">
+        <source>The message content is not valid, cannot import it.</source>
+        <target xml:lang="lv">Ziņojums ir tukšs, to nevar importēt.</target>
+        <note>Context:
+File: controllers/admin/AdminCustomerThreadsController.php:1157</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminInvoicesController.php" source-language="en" target-language="lv" datatype="plaintext">
@@ -394,18 +470,32 @@ File: controllers/admin/AdminInvoicesController.php:270</note>
   </file>
   <file original="controllers/admin/AdminSlipController.php" source-language="en" target-language="lv" datatype="plaintext">
     <body>
-      
+      <trans-unit id="cdbb58c797028e137b1ebf1dcc9efe92" approved="yes">
+        <source>No order slips were found for this period.</source>
+        <target xml:lang="lv">Šajā laikposmā netika atrasts neviens pasūtījumu rēķins.</target>
+        <note>Context:
+File: controllers/admin/AdminSlipController.php:158</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminCartsController.php" source-language="en" target-language="lv" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="53a60d3bbec32a4bf2777704834dc35e" approved="yes">
+        <source>You must add a minimum quantity of %d</source>
+        <target xml:lang="lv">Jums jāpievieno %d minimālais daudzums</target>
+        <note>Context:
+File: controllers/admin/AdminCartsController.php:483</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl" source-language="en" target-language="lv" datatype="plaintext">
     <body>
+      <trans-unit id="e1b638a956fae226de3740f63a4e7d48" approved="yes">
+        <source>Are you sure you want to add this quantity?</source>
+        <target xml:lang="lv">Vai tiešām vēlaties pievienot šo daudzumu?</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:43</note>
+      </trans-unit>
       <trans-unit id="bcab2ed7cab19f8e119317a7e59d316a" approved="yes">
         <source>Error: No product has been selected</source>
         <target xml:lang="lv">Kļūda: nav izvēlēti produkti</target>
@@ -430,11 +520,17 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:403</note>
       </trans-unit>
-      <trans-unit id="7137dec9b59978006f8b0ec036099346">
+      <trans-unit id="7137dec9b59978006f8b0ec036099346" approved="yes">
         <source>This warning also concerns order </source>
-        <target xml:lang="lv" state="needs-translation"> </target>
+        <target xml:lang="lv">Šis brīdinājums attiecas arī uz pasūtījumu </target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:408</note>
+      </trans-unit>
+      <trans-unit id="f38c718d5cc5ea7331d8acf533f9bf0d" approved="yes">
+        <source>This warning also concerns the next orders:</source>
+        <target xml:lang="lv">Šis brīdinājums attiecas arī uz nākamajiem pasūtījumiem:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:410</note>
       </trans-unit>
       <trans-unit id="341ee6bf57abde84135c32f55a607de2" approved="yes">
         <source>Do you want to send this message to the customer?</source>
@@ -454,6 +550,12 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:885</note>
       </trans-unit>
+      <trans-unit id="49641a1085f245fe45d45881544d1cec" approved="yes">
+        <source>For this customer group, prices are displayed as: [1]%tax_method%[/1]</source>
+        <target xml:lang="lv">Šai klientu grupai cenas tiek parādītas kā: [1]%tax_method%[/1]</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:989</note>
+      </trans-unit>
       <trans-unit id="ef5f330df17f8c955005c26466c2463c" approved="yes">
         <source>Merchandise returns are disabled</source>
         <target xml:lang="lv">Preču atgriešanas iespēja ir atslēgta</target>
@@ -464,7 +566,12 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/_discount_form.tpl" source-language="en" target-language="lv" datatype="plaintext">
     <body>
-      
+      <trans-unit id="4d734cc32a5cac86597621969696baa8" approved="yes">
+        <source>This value must include taxes.</source>
+        <target xml:lang="lv">Šai vērtībai jāiekļauj nodokļi.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/_discount_form.tpl:62</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/form.tpl" source-language="en" target-language="lv" datatype="plaintext">
@@ -507,7 +614,12 @@ File: admin-dev/themes/default/template/controllers/orders/form.tpl:1277</note>
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/_shipping.tpl" source-language="en" target-language="lv" datatype="plaintext">
     <body>
-      
+      <trans-unit id="2e66149518ba8dc45a9e51c4f153cebf" approved="yes">
+        <source><![CDATA[Please note that carrier change will not recalculate your shipping costs, if you want to change this please visit Shop Parameters > Order Settings]]></source>
+        <target xml:lang="lv"><![CDATA[Lūdzu, ņemiet vērā, ka pārvadātāja maiņa netiks pārrēķināta jūsu nosūtīšanas izmaksās, ja vēlaties to mainīt, lūdzu, apmeklējiet Veikala parametri> Pasūtījuma iestatījumi]]></target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/_shipping.tpl:101</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/customers/helpers/list/list_header.tpl" source-language="en" target-language="lv" datatype="plaintext">
@@ -522,9 +634,9 @@ File: admin-dev/themes/default/template/controllers/customers/helpers/list/list_
   </file>
   <file original="admin-dev/themes/default/template/controllers/customers/helpers/view/view.tpl" source-language="en" target-language="lv" datatype="plaintext">
     <body>
-      <trans-unit id="c7b085efe30557dbc76c2ba487506049">
+      <trans-unit id="c7b085efe30557dbc76c2ba487506049" approved="yes">
         <source>A registered customer account using the defined email address already exists. </source>
-        <target xml:lang="lv" state="needs-translation"> </target>
+        <target xml:lang="lv">Reģistrētais klientu konts, kurš izmanto definēto e-pasta adrese, jau pastāv. </target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/customers/helpers/view/view.tpl:176</note>
       </trans-unit>
@@ -538,7 +650,12 @@ File: admin-dev/themes/default/template/controllers/customers/helpers/view/view.
   </file>
   <file original="admin-dev/themes/default/template/controllers/carts/helpers/view/view.tpl" source-language="en" target-language="lv" datatype="plaintext">
     <body>
-      
+      <trans-unit id="764368526633c5baf14291ba7fbb9e05" approved="yes">
+        <source>For this particular customer group, prices are displayed as:</source>
+        <target xml:lang="lv">Šai konkrētai klientu grupai cenas tiek parādītas kā:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/carts/helpers/view/view.tpl:221</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
