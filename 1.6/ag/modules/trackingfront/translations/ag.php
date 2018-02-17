@@ -13,7 +13,7 @@ $_MODULE['<{trackingfront}prestashop>trackingfront_c41c77e4dddc04b1e0752a6050ae5
 $_MODULE['<{trackingfront}prestashop>trackingfront_10965b2740f42ad4887932c35cee26ab'] = 'Visitantes únicos';
 $_MODULE['<{trackingfront}prestashop>trackingfront_ae5d01b6efa819cc7a7c05a8c57fcc2c'] = 'Visitantes';
 $_MODULE['<{trackingfront}prestashop>trackingfront_d7e637a6e9ff116de2fa89551240a94d'] = 'visitas';
-$_MODULE['<{trackingfront}prestashop>trackingfront_d3139f39f1ad6324c80a9ddd50cc7867'] = 'PÃ¡ginas vistas';
+$_MODULE['<{trackingfront}prestashop>trackingfront_d3139f39f1ad6324c80a9ddd50cc7867'] = 'Páginas vistas';
 $_MODULE['<{trackingfront}prestashop>trackingfront_a28735af01fbb1e35371cb120985ac47'] = 'Registros';
 $_MODULE['<{trackingfront}prestashop>trackingfront_7442e29d7d53e549b78d93c46b8cdcfc'] = 'Pedidos';
 $_MODULE['<{trackingfront}prestashop>trackingfront_2e27c4006a026eacfc1f85b41bf9bc4c'] = 'Tarifa base';
@@ -39,7 +39,7 @@ $_MODULE['<{trackingfront}prestashop>account_453aceb005ceaf54a47da15fee8b2a26'] 
 $_MODULE['<{trackingfront}prestashop>account_591411cc8927851db2002208676d8330'] = 'Clientes';
 $_MODULE['<{trackingfront}prestashop>account_a9841e29f2c8180709b16cd2a13c55fe'] = 'Ped.';
 $_MODULE['<{trackingfront}prestashop>account_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'Ventas';
-$_MODULE['<{trackingfront}prestashop>account_a85eba4c6c699122b2bb1387ea4813ad'] = 'Carrito:';
+$_MODULE['<{trackingfront}prestashop>account_a85eba4c6c699122b2bb1387ea4813ad'] = 'Carrito';
 $_MODULE['<{trackingfront}prestashop>account_43005b13d452a4ad6f2d8e29b499c55a'] = '% de registros';
 $_MODULE['<{trackingfront}prestashop>account_e14c8640d236365d11a060832b219a11'] = 'pedido Reg.';
 $_MODULE['<{trackingfront}prestashop>account_316853cc3718335f11c048e33b9be98a'] = 'Clic';

@@ -5,7 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{statsorigin}prestashop>statsorigin_f0b1507c6bdcdefb60a0e6f9b89d4ae8'] = 'Origen del visitante';
 $_MODULE['<{statsorigin}prestashop>statsorigin_a69c2a3091fe48c7f4f391595aa3ac19'] = 'Añade un gráfico que muestra las webs desde las que provienen tus visitantes al Panel de control de Estadísticas.';
-$_MODULE['<{statsorigin}prestashop>statsorigin_14542f5997c4a02d4276da364657f501'] = 'Link directo';
+$_MODULE['<{statsorigin}prestashop>statsorigin_14542f5997c4a02d4276da364657f501'] = 'Enlace directo';
 $_MODULE['<{statsorigin}prestashop>statsorigin_3edf8ca26a1ec14dd6e91dd277ae1de6'] = 'Origen';
 $_MODULE['<{statsorigin}prestashop>statsorigin_4b69c1f7f555aa19fd90ee01e4aa63cd'] = 'En la pestaña, dividimos los 10 sitios web de referencia más populares que dirigen a los clientes a tu tienda en línea.';
 $_MODULE['<{statsorigin}prestashop>statsorigin_6602bbeb2956c035fb4cb5e844a4861b'] = 'Guia';

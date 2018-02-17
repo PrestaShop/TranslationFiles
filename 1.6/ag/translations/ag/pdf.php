@@ -5,7 +5,7 @@ $_LANGPDF = array();
 
 $_LANGPDF['PDFab870751fa907b26253a0b6ffbf99d04'] = '%1$s%2$06d';
 $_LANGPDF['PDF065ab3a28ca4f16f55f103adc7d0226f'] = 'Entrega';
-$_LANGPDF['PDF466eadd40b3c10580e3ab4e8061161ce'] = 'factura';
+$_LANGPDF['PDF466eadd40b3c10580e3ab4e8061161ce'] = 'Factura';
 $_LANGPDF['PDFcc894fffb019b528d12951b74d6d2b6e'] = 'DevoluciÃ³n del Pedido';
 $_LANGPDF['PDFcf3bae95c5f6023d5a10fe415b205a45'] = 'Nota de credito';
 $_LANGPDF['PDFf771e4a4df40bf061607fdb8e3f140dc'] = 'Formulario de pedido de suministros';

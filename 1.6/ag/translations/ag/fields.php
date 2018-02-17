@@ -4,7 +4,7 @@ global $_FIELDS;
 $_FIELDS = array();
 
 $_FIELDS['Customer_342f5c77ed008542e78094607ce1f7f3'] = 'nombre';
-$_FIELDS['Customer_8ad75c5a8821cc294f189181722acb56'] = 'Apellido';
+$_FIELDS['Customer_8ad75c5a8821cc294f189181722acb56'] = 'Apellidos';
 $_FIELDS['Customer_cf673f7ee88828c9fb8f6acf2cb08403'] = 'Fecha de Nacimiento';
 $_FIELDS['Customer_0c83f57c786a0b4a39efab23731c7ebc'] = 'email';
 $_FIELDS['Customer_d1befa03c79ca0b84ecc488dea96bc68'] = 'sitio web';
@@ -19,7 +19,7 @@ $_FIELDS['Country_37f577d6d447ff0743d74245446223b3'] = 'Formato_de_código_posta
 $_FIELDS['State_213ecf1210f43736b6d4997fcfa27954'] = 'Código ISO';
 $_FIELDS['State_b068931cc450442b63f5b3d276ea4297'] = 'nombre';
 $_FIELDS['Address_93c731f1c3a84ef05cd54d044c379eaa'] = 'empresa';
-$_FIELDS['Address_8ad75c5a8821cc294f189181722acb56'] = 'Apellido';
+$_FIELDS['Address_8ad75c5a8821cc294f189181722acb56'] = 'Apellidos';
 $_FIELDS['Address_342f5c77ed008542e78094607ce1f7f3'] = 'nombre';
 $_FIELDS['Address_81e70cb16ec45f5ab19bb6638e8e6c2d'] = 'dirección1';
 $_FIELDS['Address_f669f8e9f6599d0dfcd613bc6e2f347e'] = 'dirección2';

@@ -11,7 +11,7 @@ $_MODULE['<{blockcontact}prestashop>blockcontact_90a613a116f4bd9390ff7379a114f8d
 $_MODULE['<{blockcontact}prestashop>blockcontact_5f6e75192756d3ad45cff4a1ee0a45ba'] = 'Para modificar la dirección de correo electrónico de la página \'Contáctenos\': debes ir a la página \'Contactos\' bajo el menú \'Clientes\'.';
 $_MODULE['<{blockcontact}prestashop>blockcontact_ccffe09c1cd18f73ad1f76762fded097'] = 'Para modificar los datos de contacto en el pie de página: debes ir al módulo \'Bloque Información de Contacto\'.';
 $_MODULE['<{blockcontact}prestashop>blockcontact_7551cf1a985728fa2798db32c2ff7887'] = 'Número de teléfono';
-$_MODULE['<{blockcontact}prestashop>blockcontact_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'email';
+$_MODULE['<{blockcontact}prestashop>blockcontact_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'Dirección de correo electrónico';
 $_MODULE['<{blockcontact}prestashop>blockcontact_52e878b67e9d94d25425231162ef5133'] = 'Introduce aquí los datos de contacto de tu servicio de atención al cliente.';
 $_MODULE['<{blockcontact}prestashop>blockcontact_c9cc8cce247e49bae79f15173ce97354'] = 'Guardar';
 $_MODULE['<{blockcontact}prestashop>blockcontact_02d4482d332e1aef3437cd61c9bcc624'] = 'Contáctenos';

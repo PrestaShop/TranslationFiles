@@ -25,7 +25,7 @@ $_MODULE['<{cronjobs}prestashop>cronjobsforms_2257d36bcb68362b24cf74f626bac599']
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_94ad8b9f9d516489693dd835cf22bd3b'] = 'Antes que nada, asegúrate de que la librería "curl" está instalada en tu servidor.';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_18028ef85b7ce8fbde749a2c49c6d18a'] = 'Para ejecutar tus tareas cron, introduce la siguiente línea en tu gestor de tareas cron:';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_b55e509c697e4cca0e1d160a7806698f'] = 'hora';
-$_MODULE['<{cronjobs}prestashop>cronjobsforms_03727ac48595a24daed975559c944a44'] = 'dÃ­a';
+$_MODULE['<{cronjobs}prestashop>cronjobsforms_03727ac48595a24daed975559c944a44'] = 'Día';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_7cbb885aa1164b390a0bc050a64e1812'] = 'Mes';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_e59278675b8f1e052b22b7e5e7d65da7'] = 'Día de la semana';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_8cebfac3b4821cbc83041f5df54d7730'] = 'Última ejecución';

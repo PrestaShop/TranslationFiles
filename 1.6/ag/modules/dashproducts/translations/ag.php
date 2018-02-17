@@ -37,7 +37,7 @@ $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_f1206f9fadc5ce41694f69129
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_63a6a88c066880c5ac42394a22803ca6'] = 'Actualizar';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_254f642527b45bc260048e30704edb39'] = 'Configuración';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_fd3458547ef9c3a8bd0e1e1b4ef2b4dd'] = 'Pedidos recientes';
-$_MODULE['<{dashproducts}prestashop>dashboard_zone_two_d7b2933ba512ada478c97fa43dd7ebe6'] = 'Top Vendedores';
+$_MODULE['<{dashproducts}prestashop>dashboard_zone_two_d7b2933ba512ada478c97fa43dd7ebe6'] = 'Los más vendidos';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_be5006eb5af9ab6dbca803f8d3065bbc'] = 'Más Vistos';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_1eb5e5713d7363e921dd7f5500b6d212'] = 'Más buscados';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_3d23ac9ab254a9f1014c3a859b01bcfc'] = 'Últimos %d pedidos';

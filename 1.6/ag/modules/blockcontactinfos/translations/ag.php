@@ -10,7 +10,7 @@ $_MODULE['<{blockcontactinfos}prestashop>blockcontactinfos_f4f70727dc34561dfde1a
 $_MODULE['<{blockcontactinfos}prestashop>blockcontactinfos_c281f92b77ba329f692077d23636f5c9'] = 'Nombre de la empresa';
 $_MODULE['<{blockcontactinfos}prestashop>blockcontactinfos_dd7bf230fde8d4836917806aff6a6b27'] = 'Dirección';
 $_MODULE['<{blockcontactinfos}prestashop>blockcontactinfos_1f8261d17452a959e013666c5df45e07'] = 'Teléfono';
-$_MODULE['<{blockcontactinfos}prestashop>blockcontactinfos_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'email';
+$_MODULE['<{blockcontactinfos}prestashop>blockcontactinfos_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'Dirección de correo electrónico';
 $_MODULE['<{blockcontactinfos}prestashop>blockcontactinfos_c9cc8cce247e49bae79f15173ce97354'] = 'Guardar';
 $_MODULE['<{blockcontactinfos}prestashop>blockcontactinfos_02d4482d332e1aef3437cd61c9bcc624'] = 'Contáctenos';
 $_MODULE['<{blockcontactinfos}prestashop>blockcontactinfos_2e006b735fbd916d8ab26978ae6714d4'] = 'Tel.:';

@@ -33,7 +33,7 @@ $_MODULE['<{gapi}prestashop>gapi_cce99c598cfdb9773ab041d54c3d973a'] = 'Pefil';
 $_MODULE['<{gapi}prestashop>gapi_b1a026d322c634ca9e88525070e012fd'] = 'Guardar y autenticar';
 $_MODULE['<{gapi}prestashop>gapi_d4e6d6c42bf3eb807b8778255a4ce415'] = 'Error de autenticación';
 $_MODULE['<{gapi}prestashop>gapi_a670b4cdb42644e4b46fa857d3f73d9e'] = 'Google Analytics API v1.3';
-$_MODULE['<{gapi}prestashop>gapi_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'email';
+$_MODULE['<{gapi}prestashop>gapi_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'Dirección de correo electrónico';
 $_MODULE['<{gapi}prestashop>gapi_dc647eb65e6711e155375218212b3964'] = 'Contraseña';
 $_MODULE['<{gapi}prestashop>gapi_970a710b7344f8639b6a86d1f081b660'] = 'Puedes encontrar tu ID de perfil en la barra de direcciones de tu navegadoral acceder al informe de Analytics.';
 $_MODULE['<{gapi}prestashop>gapi_e33d3b3409f8a0fcc326596c918c4961'] = 'En la ANTIGUA VERSIÓN de Google Analytics, la ID del perfil se encuentra en el parámetro "id" de la URL (véase "&id=xxxxxxxx"):';

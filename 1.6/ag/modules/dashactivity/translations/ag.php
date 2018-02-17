@@ -5,7 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{dashactivity}prestashop>dashactivity_0369e7f54bf8a30b2766e6a9a708de0b'] = 'Panel de Actividad';
 $_MODULE['<{dashactivity}prestashop>dashactivity_02b5205ddff3073efc5c8b5b9cc165ba'] = '(desde %s hasta %s)';
-$_MODULE['<{dashactivity}prestashop>dashactivity_14542f5997c4a02d4276da364657f501'] = 'Link directo';
+$_MODULE['<{dashactivity}prestashop>dashactivity_14542f5997c4a02d4276da364657f501'] = 'Enlace directo';
 $_MODULE['<{dashactivity}prestashop>dashactivity_c9cc8cce247e49bae79f15173ce97354'] = 'Guardar';
 $_MODULE['<{dashactivity}prestashop>dashactivity_ea4788705e6873b424c65e91c2846b19'] = 'Cancelar';
 $_MODULE['<{dashactivity}prestashop>dashactivity_914030b0a079e4eec3b3f5090c0fc35a'] = 'Carrito activo';

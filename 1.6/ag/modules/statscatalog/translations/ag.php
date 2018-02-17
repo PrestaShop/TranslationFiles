@@ -10,7 +10,7 @@ $_MODULE['<{statscatalog}prestashop>statscatalog_0173374ac20f5843d58b553d5b226ef
 $_MODULE['<{statscatalog}prestashop>statscatalog_b1c94ca2fbc3e78fc30069c8d0f01680'] = 'Todas';
 $_MODULE['<{statscatalog}prestashop>statscatalog_a7b623414d4b6a3225b4e935babec6d2'] = 'Producto disponibles:';
 $_MODULE['<{statscatalog}prestashop>statscatalog_1099377f1598a0856e2457a5145d89c2'] = 'Precio medio (precio base):';
-$_MODULE['<{statscatalog}prestashop>statscatalog_48a93dc02c74f3065af1ba47fca070d0'] = 'Las pÃ¡ginas del producto vistas:';
+$_MODULE['<{statscatalog}prestashop>statscatalog_48a93dc02c74f3065af1ba47fca070d0'] = 'Páginas de productos vistas:';
 $_MODULE['<{statscatalog}prestashop>statscatalog_156e5c5872c9af24a5c982da07a883c2'] = 'Productos comprados:';
 $_MODULE['<{statscatalog}prestashop>statscatalog_85f179d4142ca061d49605a7fffdc09d'] = 'Número promedio de páginas visitadas:';
 $_MODULE['<{statscatalog}prestashop>statscatalog_05ff4bfc3baf0acd31a72f1ac754de04'] = 'Número promedio de compras:';

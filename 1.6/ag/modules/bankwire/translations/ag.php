@@ -7,10 +7,10 @@ $_MODULE['<{bankwire}prestashop>bankwire_05adcee99142c1a60fb38bb1330bbbc1'] = 't
 $_MODULE['<{bankwire}prestashop>bankwire_a246a8e9907530c4c36b8b4c37bbc823'] = 'Aceptar pagos para sus productos a través de transferencia bancaria.';
 $_MODULE['<{bankwire}prestashop>bankwire_cbe0a99684b145e77f3e14174ac212e3'] = '¿Estás seguro de que quieres eliminar estos datos?';
 $_MODULE['<{bankwire}prestashop>bankwire_0ea0227283d959415eda0cfa31d9f718'] = 'El titular y los datos de la cuenta deben ser configurados antes de utilizar este módulo.';
-$_MODULE['<{bankwire}prestashop>bankwire_a02758d758e8bec77a33d7f392eb3f8a'] = 'No hay moneda asignada para este mÃ³dulo';
+$_MODULE['<{bankwire}prestashop>bankwire_a02758d758e8bec77a33d7f392eb3f8a'] = 'No se ha establecido ninguna moneda para este módulo.';
 $_MODULE['<{bankwire}prestashop>bankwire_bfa43217dfe8261ee7cb040339085677'] = 'los detalles de la cuenta son necesarios.';
 $_MODULE['<{bankwire}prestashop>bankwire_ccab155f173ac76f79eb192703f86b18'] = 'El propietario de la cuenta es necesario.';
-$_MODULE['<{bankwire}prestashop>bankwire_c888438d14855d7d96a2724ee9c306bd'] = 'ConfiguraciÃ³n Actualizada';
+$_MODULE['<{bankwire}prestashop>bankwire_c888438d14855d7d96a2724ee9c306bd'] = 'Configuración actualizada';
 $_MODULE['<{bankwire}prestashop>bankwire_4ffaad55a1d22c453e7c9bad67b0598f'] = 'Pago por transferencia bancaria';
 $_MODULE['<{bankwire}prestashop>bankwire_5dd532f0a63d89c5af0243b74732f63c'] = 'Detalles de contacto';
 $_MODULE['<{bankwire}prestashop>bankwire_857216dd1b374de9bf54068fcd78a8f3'] = 'Propietario de la Cuenta';
@@ -54,7 +54,7 @@ $_MODULE['<{bankwire}prestashop>payment_return_66fcf4c223bbf4c7c886d4784e1f62e4'
 $_MODULE['<{bankwire}prestashop>payment_return_d15feee53d81ea16269e54d4784fa123'] = 'Hemos detectado un problema con su pedido. Si considera que hay un error, por favor contacte con nosotros';
 $_MODULE['<{bankwire}prestashop>payment_5e1695822fc5af98f6b749ea3cbc9b4c'] = 'Pago por Transferencia Bancaria';
 $_MODULE['<{bankwire}prestashop>payment_4e1fb9f4b46556d64db55d50629ee301'] = '(el procesamiento del pedido tomará más tiempo)';
-$_MODULE['<{bankwire}prestashop>payment_return_decce112a9e64363c997b04aa71b7cb8'] = 'atenciÃ³n al cliente';
+$_MODULE['<{bankwire}prestashop>payment_return_decce112a9e64363c997b04aa71b7cb8'] = 'departamento de atención al cliente.';
 
 
 return $_MODULE;

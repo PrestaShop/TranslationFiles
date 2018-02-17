@@ -3,8 +3,8 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{statsdata}prestashop>statsdata_a51950bf91ba55cd93a33ce3f8d448c2'] = 'Datos y estadÃ­sticas';
-$_MODULE['<{statsdata}prestashop>statsdata_c77dfd683d0d76940e5e04cb24e8bce1'] = 'Este mÃ³dulo debe estar activado si usted quiere utilizar las estadÃ­sticas';
+$_MODULE['<{statsdata}prestashop>statsdata_a51950bf91ba55cd93a33ce3f8d448c2'] = 'Explotación de datos para las estadísticas';
+$_MODULE['<{statsdata}prestashop>statsdata_c77dfd683d0d76940e5e04cb24e8bce1'] = 'Este módulo debe estar activado si quieres utilizar las estadísticas.';
 $_MODULE['<{statsdata}prestashop>statsdata_20015706a8cbd457cbb6ea3e7d5dc9b3'] = 'Configuración actualizada.';
 $_MODULE['<{statsdata}prestashop>statsdata_f4f70727dc34561dfde1a3c529b6205c'] = 'Ajustes';
 $_MODULE['<{statsdata}prestashop>statsdata_1a5b75c4be3c0100c99764b21e844cc8'] = 'Guardar las páginas vistas por cada cliente';

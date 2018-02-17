@@ -134,7 +134,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselftab_7dce122004969d56ae2e0245cb754d35
 $_MODULE['<{autoupgrade}prestashop>adminselftab_f2a6c498fb90ee345d997f888fce3b18'] = 'Borrar';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_0071aa279bd1583754a544277740f047'] = 'Borrar producto NÂº';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_6adab6d3fdf92c448d60cf8824e4851c'] = 'Eliminar selección';
-$_MODULE['<{autoupgrade}prestashop>adminselftab_e25f0ecd41211b01c83e5fec41df4fe7'] = 'Â¿Borrar Elementos Seleccionados?';
+$_MODULE['<{autoupgrade}prestashop>adminselftab_e25f0ecd41211b01c83e5fec41df4fe7'] = '¿Eliminar los elementos seleccionados?';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_cc3787ca78f445f481069a4c047f7e7a'] = 'Selecciona el idioma:';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_b51d77dc443d4051900f1bad9fe885aa'] = 'Actualmente estás conectado con el siguiente nombre de dominio:';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_6aa5c0d2cbc4a0f53206777be432056a'] = 'Este es diferente del nombre de dominio de la tienda principal establecido en "Preferencias > SEO & URLs":';

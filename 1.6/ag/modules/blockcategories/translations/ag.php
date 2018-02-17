@@ -5,7 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{blockcategories}prestashop>blockcategories_8f0ed7c57fca428f7e3f8e64d2f00918'] = 'Bloque de CategorÃ­as';
 $_MODULE['<{blockcategories}prestashop>blockcategories_15a6f5841d9e4d7e62bec3319b4b7036'] = 'Añadir un bloque con las categorías de los productos.';
-$_MODULE['<{blockcategories}prestashop>blockcategories_23e0d4ecc25de9b2777fdaca3e2f3193'] = 'Nivel MÃ¡ximo: NÃºmero Incorrecto';
+$_MODULE['<{blockcategories}prestashop>blockcategories_23e0d4ecc25de9b2777fdaca3e2f3193'] = 'Profundidad máxima: Número no válido.';
 $_MODULE['<{blockcategories}prestashop>blockcategories_0cf328636f0d607ac24a5c435866b94b'] = 'HTML DinÃ¡mico: OpciÃ³n Incorrecta';
 $_MODULE['<{blockcategories}prestashop>blockcategories_f4f70727dc34561dfde1a3c529b6205c'] = 'Ajustes';
 $_MODULE['<{blockcategories}prestashop>blockcategories_1379a6b19242372c1f23cc9adedfcdd6'] = 'Categoría raíz';
@@ -14,7 +14,7 @@ $_MODULE['<{blockcategories}prestashop>blockcategories_89b278a71f2be5f6203075023
 $_MODULE['<{blockcategories}prestashop>blockcategories_62381fc27e62649a16182a616de3f7ea'] = 'Categorí­a actual';
 $_MODULE['<{blockcategories}prestashop>blockcategories_52b68aaa602d202c340d9e4e9157f276'] = 'Categoría madre';
 $_MODULE['<{blockcategories}prestashop>blockcategories_f225631c1a6f71e99cc779f6bbf06dd4'] = 'Categoría actual, a menos que no haya subcategorías, en cuyo caso se usa la categoría padre de la categoría actual';
-$_MODULE['<{blockcategories}prestashop>blockcategories_19561e33450d1d3dfe6af08df5710dd0'] = 'Nivel MÃ¡ximo';
+$_MODULE['<{blockcategories}prestashop>blockcategories_19561e33450d1d3dfe6af08df5710dd0'] = 'Profundidad máxima';
 $_MODULE['<{blockcategories}prestashop>blockcategories_584d4e251b6f778eda9cfc2fc756b0b0'] = 'Establece la profundidad máxima de los subniveles de la categoría mostrados en este bloque (0 = infinito).';
 $_MODULE['<{blockcategories}prestashop>blockcategories_971fd8cc345d8bd9f92e9f7d88fdf20c'] = 'DinÃ¡mico';
 $_MODULE['<{blockcategories}prestashop>blockcategories_c10efcaa2a8ff4eedaa3538fff78eb53'] = 'Activar modo dinámico (animado) para los subniveles de la categoría.';
