@@ -25,6 +25,7 @@ $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_8dc514f6da8c696c4a5
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_63889cfb9d3cbe05d1bd2be5cc9953fd'] = '先生';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_b719ce180ec7bd9641fece2f920f4817'] = '女士';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_88183b946cc5f0e8c96b2e66e1c74a7e'] = '未知';
+$_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_4d79e3d0b4d09b2f42d0831193cea200'] = '年龄范围';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_6e69fbf88d84db874f365542b0284a95'] = '0-18岁';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_b20e0ed6158978a3a23d092060b5dbab'] = '18-24岁';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_e5884ca49180d38295ee426c624d936c'] = '25-34岁';

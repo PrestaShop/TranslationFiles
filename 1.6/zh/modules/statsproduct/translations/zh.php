@@ -11,6 +11,10 @@ $_MODULE['<{statsproduct}prestashop>statsproduct_6e13e61b8535a66feb27d285f5c4285
 $_MODULE['<{statsproduct}prestashop>statsproduct_6734b1d16e064d64d9ea4affaed74cc7'] = '如果您发现一个产品是成功的，经常被购买，但是很少被查看，您应该把它更加突出地放在您的网上商店前台上。 ';
 $_MODULE['<{statsproduct}prestashop>statsproduct_f3a492ed300e8565dcdbbc1da340d226'] = '另一方面，如果一个商品浏览率很高，但不是经常购买，我们建议您查看或修改此商品的信息，说明和摄影，看看是否能找到更好的信息来替换当下的文字或图片。';
 $_MODULE['<{statsproduct}prestashop>statsproduct_3ec365dd533ddb7ef3d1c111186ce872'] = '详细';
+$_MODULE['<{statsproduct}prestashop>statsproduct_290b169159edc205e3a46902d4554d52'] = '购买总数';
+$_MODULE['<{statsproduct}prestashop>statsproduct_155d5c362e6887660600763fc0d55f02'] = '销售(未含税)';
+$_MODULE['<{statsproduct}prestashop>statsproduct_8041d874fe39d54c6e78156c27341c85'] = '浏览共计';
+$_MODULE['<{statsproduct}prestashop>statsproduct_d311128c6b9f34f85e6b0e29bcbcd165'] = '转换率';
 $_MODULE['<{statsproduct}prestashop>statsproduct_998e4c5c80f27dec552e99dfed34889a'] = 'CSV导出';
 $_MODULE['<{statsproduct}prestashop>statsproduct_c90b9dca2d3f5bb6e0d0bdceac8a631d'] = '售出特征分布';
 $_MODULE['<{statsproduct}prestashop>statsproduct_11ff9f68afb6b8b5b8eda218d7c83a65'] = '销售';

@@ -4,6 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{statsstock}prestashop>statsstock_96ca47f429c269b85e31be9fb17df6d4'] = '库存数量';
+$_MODULE['<{statsstock}prestashop>statsstock_7782fb19c81ec8a47e39f9c073b7da59'] = '添加一个选项卡显示可销售商品数量到统计控制面板。';
 $_MODULE['<{statsstock}prestashop>statsstock_c49b42f642c62f20a3640f20ca132840'] = '待售商品量评估';
 $_MODULE['<{statsstock}prestashop>statsstock_3adbdb3ac060038aa0e6e6c138ef9873'] = '类别';
 $_MODULE['<{statsstock}prestashop>statsstock_b1c94ca2fbc3e78fc30069c8d0f01680'] = '全部';
