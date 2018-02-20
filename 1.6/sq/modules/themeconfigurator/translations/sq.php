@@ -5,7 +5,6 @@ $_MODULE = array();
 
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_e92dabb4907f1957cabc469cca4deefc'] = 'Konfiguratori i temës';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_f1206f9fadc5ce41694f69129aecac26'] = 'Konfiguro';
-$_MODULE['<{themeconfigurator}prestashop>themeconfigurator_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'E aktivizuar';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_b9f5c797ebbf55adccdd8539a65a0241'] = 'E çaktivizuar';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_f4f70727dc34561dfde1a3c529b6205c'] = 'Parametrat';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_c9cc8cce247e49bae79f15173ce97354'] = 'Ruaj';

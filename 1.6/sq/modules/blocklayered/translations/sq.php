@@ -31,6 +31,7 @@ $_MODULE['<{blocklayered}prestashop>add_5204077231fc7164e2269e96b584dd95'] = 'Li
 $_MODULE['<{blocklayered}prestashop>add_c9cc8cce247e49bae79f15173ce97354'] = 'Ruaj';
 $_MODULE['<{blocklayered}prestashop>add_ea4788705e6873b424c65e91c2846b19'] = 'Anulo';
 $_MODULE['<{blocklayered}prestashop>add_18c6120643596bd2626f3b0720b1df3a'] = 'Ju duhet të zgjidhni të paktën e një kategori';
+$_MODULE['<{blocklayered}prestashop>view_1.6_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
 $_MODULE['<{blocklayered}prestashop>view_1.6_49ee3087348e8d44e1feda1917443987'] = 'Emri';
 $_MODULE['<{blocklayered}prestashop>view_1.6_af1b98adf7f686b84cd0b443e022b7a0'] = 'Kategoritë';
 $_MODULE['<{blocklayered}prestashop>view_1.6_06df33001c1d7187fdd81ea1f5b277aa'] = 'Veprimet';
@@ -55,6 +56,7 @@ $_MODULE['<{blocklayered}prestashop>view_1.6_b55143bb1f46af4207ea4b5eb8e844ed'] 
 $_MODULE['<{blocklayered}prestashop>view_1.6_8524de963f07201e5c086830d370797f'] = 'Duke ngarkuar...';
 $_MODULE['<{blocklayered}prestashop>view_1.6_eb9c805f7590679f0742ba0ea0a3e77f'] = 'Ju zgjodhët -Të gjitha kategoritë-: të gjithë shabllonat e filtrit ekzistues do të fshihen. A është në rregull?';
 $_MODULE['<{blocklayered}prestashop>view_1.6_18c6120643596bd2626f3b0720b1df3a'] = 'Ju duhet të zgjidhni të paktën e një kategori';
+$_MODULE['<{blocklayered}prestashop>view_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
 $_MODULE['<{blocklayered}prestashop>view_49ee3087348e8d44e1feda1917443987'] = 'Emri';
 $_MODULE['<{blocklayered}prestashop>view_af1b98adf7f686b84cd0b443e022b7a0'] = 'Kategoritë';
 $_MODULE['<{blocklayered}prestashop>view_06df33001c1d7187fdd81ea1f5b277aa'] = 'Veprimet';

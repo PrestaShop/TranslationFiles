@@ -3,9 +3,9 @@
 global $_LANGMAIL;
 $_LANGMAIL = array();
 
-$_LANGMAIL['Your guest account has been transformed into a customer account'] = 'Llogaria juaj si mysafir është transformuar në një llogari të konsumatorëve';
+$_LANGMAIL['Your guest account has been transformed into a customer account'] = 'Llogaria juaj e mysafirit është transformuar në një llogari klienti';
 $_LANGMAIL['The virtual product that you bought is available for download'] = 'Produkti virtual që ju keni blerë është në dispozicion për shkarkim';
-$_LANGMAIL['New voucher for your order %s'] = 'Kupon i ri për urdhërblerjen tuaj %s';
+$_LANGMAIL['New voucher for your order %s'] = 'Kupon i ri për porosinë tuaj %s';
 $_LANGMAIL['Order confirmation'] = 'Konfirmimi i porosisë';
 $_LANGMAIL['Log: You have a new alert from your shop'] = 'Vërejtje: Ju keni një alarm të ri nga dyqani juaj';
 $_LANGMAIL['Fwd: Customer message'] = 'Pas.: Mesazhi konsumatorit';

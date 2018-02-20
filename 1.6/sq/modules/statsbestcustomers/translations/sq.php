@@ -9,7 +9,6 @@ $_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_ce8ae9da5b7cd6c3df2
 $_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_d7e637a6e9ff116de2fa89551240a94d'] = 'Vizita';
 $_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_8b83489bd116cb60e2f348e9c63cd7f6'] = 'Klientët më të mirë';
 $_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_6602bbeb2956c035fb4cb5e844a4861b'] = 'Guida';
-$_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_998e4c5c80f27dec552e99dfed34889a'] = 'Eksporti CSV';
 
 
 return $_MODULE;

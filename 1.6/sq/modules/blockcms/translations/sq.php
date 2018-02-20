@@ -34,6 +34,7 @@ $_MODULE['<{blockcms}prestashop>blockcms_9ff0635f5737513b1a6f559ac2bff745'] = 'P
 $_MODULE['<{blockcms}prestashop>blockcms_01f7ac959c1e6ebbb2e0ee706a7a5255'] = 'Produktet më të shitura';
 $_MODULE['<{blockcms}prestashop>blockcms_02d4482d332e1aef3437cd61c9bcc624'] = 'Na kontaktoni';
 $_MODULE['<{blockcms}prestashop>blockcms_5813ce0ec7196c492c97596718f71969'] = 'Harta e faqeve';
+$_MODULE['<{blockcms}prestashop>form_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
 $_MODULE['<{blockcms}prestashop>form_bb34a159a88035cce7ef1607e7907f8f'] = 'Emri i kategorise';
 $_MODULE['<{blockcms}prestashop>form_52f5e0bc3859bc5f5e25130b6c7e8881'] = 'Pozicioni';
 $_MODULE['<{blockcms}prestashop>form_7dce122004969d56ae2e0245cb754d35'] = 'Redakto';

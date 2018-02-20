@@ -11,6 +11,7 @@ $_MODULE['<{statscheckup}prestashop>statscheckup_59b514174bffe4ae402b3d63aad79fe
 $_MODULE['<{statscheckup}prestashop>statscheckup_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'Shitjet';
 $_MODULE['<{statscheckup}prestashop>statscheckup_7bd5825a187064017975513b95d7f7de'] = 'Sasia e disponueshme për shitje';
 $_MODULE['<{statscheckup}prestashop>statscheckup_c9cc8cce247e49bae79f15173ce97354'] = 'Ruaj';
+$_MODULE['<{statscheckup}prestashop>statscheckup_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
 $_MODULE['<{statscheckup}prestashop>statscheckup_49ee3087348e8d44e1feda1917443987'] = 'Emri';
 $_MODULE['<{statscheckup}prestashop>statscheckup_4d3d769b812b6faa6b76e1a8abaece2d'] = 'Aktive';
 

@@ -41,7 +41,6 @@ $_MODULE['<{bankwire}prestashop>infos_60742d06006fde3043c77e6549d71a99'] = 'Nës
 $_MODULE['<{bankwire}prestashop>infos_5fb4bbf993c23848433caf58e6b2816d'] = 'Për këtë, ju duhet ta konfirmoni porosinë manualisht pasi ta keni pranuar transfertën bankare.';
 $_MODULE['<{bankwire}prestashop>payment_return_88526efe38fd18179a127024aba8c1d7'] = 'Porosia juaj është %s e kompletuar.';
 $_MODULE['<{bankwire}prestashop>payment_return_1f8cdc30326f1f930b0c87b25fdac965'] = 'Ju lutem dërgojeni transfertën bankare';
-$_MODULE['<{bankwire}prestashop>payment_return_b2f40690858b404ed10e62bdf422c704'] = 'shumën prej';
 $_MODULE['<{bankwire}prestashop>payment_return_5ca0b1b910f393ed1f9f6fa99e414255'] = 'te ky përfitues';
 $_MODULE['<{bankwire}prestashop>payment_return_d717aa33e18263b8405ba00e94353cdc'] = 'me këto detaje';
 $_MODULE['<{bankwire}prestashop>payment_return_984482eb9ff11e6310fef641d2268a2a'] = 'te kjo bankë';

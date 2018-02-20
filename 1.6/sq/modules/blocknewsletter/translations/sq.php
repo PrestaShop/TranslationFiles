@@ -17,6 +17,7 @@ $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_793ee192a9124cd6f529460ee
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_7b15c043d66fecc45c8752592aa38e38'] = 'FIltro abonentët e mundshëm.';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_417d63b1effb110e438d4b4b9f0fbd95'] = 'Kodi i kuponit është i pavlefshëm.';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_c888438d14855d7d96a2724ee9c306bd'] = 'Parametrat u përditësuan';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_9f82518d468b9fee614fcc92f76bb163'] = 'Dyqani';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_019ec3132cdf8ee0f2e2a75cf5d3e459'] = 'Gjinia';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_dff4bf10409100d989495c6d5486035e'] = 'Mbiemri';
@@ -52,7 +53,6 @@ $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_13348442cc6a27032d2b4aa28
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_82e5e0bc0f9c776c98253d569c111c0f'] = 'Nuk u gjet asnjë konsumatorë me këta filtra!';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_644ecc2486a059ca16b001a77909bf40'] = 'Skeda .CSV u eksportua me sukses: janë gjetur %d konsumatorë.';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_48e3d5f66961b621c78f709afcd7d437'] = 'Shkarko skedën';
-$_MODULE['<{blocknewsletter}prestashop>list_action_enable_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'E aktivizuar';
 $_MODULE['<{blocknewsletter}prestashop>list_action_enable_b9f5c797ebbf55adccdd8539a65a0241'] = 'E çaktivizuar';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_ffb7e666a70151215b4c55c6268d7d72'] = 'Buletini informativ';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_416f61a2ce16586f8289d41117a2554e'] = 'Emaili i juaj';

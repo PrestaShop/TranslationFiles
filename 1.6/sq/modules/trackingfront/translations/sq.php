@@ -11,6 +11,7 @@ $_MODULE['<{trackingfront}prestashop>account_c87aacf5673fada1108c9f809d354311'] 
 $_MODULE['<{trackingfront}prestashop>account_1dd1c5fb7f25cd41b291d43a89e3aefd'] = 'Sot';
 $_MODULE['<{trackingfront}prestashop>account_7cbb885aa1164b390a0bc050a64e1812'] = 'Muaji';
 $_MODULE['<{trackingfront}prestashop>account_1e6d57e813355689e9c77e947d73ad8f'] = 'Prej:';
+$_MODULE['<{trackingfront}prestashop>account_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
 $_MODULE['<{trackingfront}prestashop>account_49ee3087348e8d44e1feda1917443987'] = 'Emri';
 $_MODULE['<{trackingfront}prestashop>account_d7e637a6e9ff116de2fa89551240a94d'] = 'Vizita';
 $_MODULE['<{trackingfront}prestashop>account_453aceb005ceaf54a47da15fee8b2a26'] = 'Faqet';

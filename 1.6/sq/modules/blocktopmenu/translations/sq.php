@@ -23,7 +23,6 @@ $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_bf24faeb13210b5a703f3ccef792b00
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_ecf253735ac0cba84a9d2eeff1f1b87c'] = 'Të gjithë furnitorët';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_944d19a34e5fa333a6a0de27e8c971da'] = 'Lidhja e menysë së sipërme';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_eacd852cc1f621763dccbda3f3c15081'] = 'Shiriti i kërkimit';
-$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'E aktivizuar';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_b9f5c797ebbf55adccdd8539a65a0241'] = 'E çaktivizuar';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_c9cc8cce247e49bae79f15173ce97354'] = 'Ruaj';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_0a112e5da975d8eaf28df9219c397764'] = 'Të gjitha sasitë e kombinimeve të produkteve aktive do të ndryshohen';

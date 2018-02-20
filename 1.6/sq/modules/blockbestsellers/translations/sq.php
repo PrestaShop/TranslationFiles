@@ -11,7 +11,6 @@ $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_26986c3388870d4148b1b53
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_2b21378492166b0e5a855e2da611659c'] = 'Përcaktoni numrin e artikujve që do të shfaqen në këtë bllok';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_24ff4e4d39bb7811f6bdf0c189462272'] = 'Shfaq gjithnjë këtë bllok';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_84b0c5fdef19ab8ef61cd809f9250d85'] = 'Shfaq bllokun edhe nëse nuk ka në dispozicion artikuj më të shitur.';
-$_MODULE['<{blockbestsellers}prestashop>blockbestsellers_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'E aktivizuar';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_b9f5c797ebbf55adccdd8539a65a0241'] = 'E çaktivizuar';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_c9cc8cce247e49bae79f15173ce97354'] = 'Ruaj';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers-home_09a5fe24fe0fc9ce90efc4aa507c66e7'] = 'Aktualisht nuk ka artikuj më të shitur.';

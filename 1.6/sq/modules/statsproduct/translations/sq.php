@@ -7,7 +7,6 @@ $_MODULE['<{statsproduct}prestashop>statsproduct_78e454064a7d3a7755a011a3b79f31a
 $_MODULE['<{statsproduct}prestashop>statsproduct_6602bbeb2956c035fb4cb5e844a4861b'] = 'Guida';
 $_MODULE['<{statsproduct}prestashop>statsproduct_6e13e61b8535a66feb27d285f5c42855'] = 'Pas zgjedhjes së një kategorie dhe të një produkti, do të shfaqen grafiqet informative.';
 $_MODULE['<{statsproduct}prestashop>statsproduct_3ec365dd533ddb7ef3d1c111186ce872'] = 'Detajet:';
-$_MODULE['<{statsproduct}prestashop>statsproduct_998e4c5c80f27dec552e99dfed34889a'] = 'Eksporti CSV';
 $_MODULE['<{statsproduct}prestashop>statsproduct_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'Shitjet';
 $_MODULE['<{statsproduct}prestashop>statsproduct_44749712dbec183e983dcd78a7736c41'] = 'Data';
 $_MODULE['<{statsproduct}prestashop>statsproduct_ce26601dac0dea138b7295f02b7620a7'] = 'Konsumatori';

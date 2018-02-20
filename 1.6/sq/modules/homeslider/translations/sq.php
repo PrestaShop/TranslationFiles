@@ -8,7 +8,6 @@ $_MODULE['<{homeslider}prestashop>homeslider_dc89634d1d28cd4e055531e62047156b'] 
 $_MODULE['<{homeslider}prestashop>homeslider_a9af2809b02444b9470f97dc66ba57a2'] = 'Titulli nuk është vendosur.';
 $_MODULE['<{homeslider}prestashop>homeslider_20015706a8cbd457cbb6ea3e7d5dc9b3'] = 'Konfigurimi u përditësua';
 $_MODULE['<{homeslider}prestashop>homeslider_b9f5c797ebbf55adccdd8539a65a0241'] = 'E çaktivizuar';
-$_MODULE['<{homeslider}prestashop>homeslider_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'E aktivizuar';
 $_MODULE['<{homeslider}prestashop>homeslider_b5a7adde1af5c87d7fd797b6245c2a39'] = 'Përshkrimi';
 $_MODULE['<{homeslider}prestashop>homeslider_93cba07454f06a4a960172bbd6e2a435'] = 'Po';
 $_MODULE['<{homeslider}prestashop>homeslider_bafd7322c6e97d25b6299b5d6fe8920b'] = 'Jo';

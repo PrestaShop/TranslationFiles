@@ -4,6 +4,8 @@ global $_LANGADM;
 $_LANGADM = array();
 
 $_LANGADM['AdminDashboard537c66b24ef5c83b7382cdc3f34885f2'] = 'वर्ष';
+$_LANGADM['AdminEmails6adf97f83acf6453d4a6a4b1070f3754'] = 'कुछ नहीं';
+$_LANGADM['AdminOrderPreferences6adf97f83acf6453d4a6a4b1070f3754'] = 'कुछ नहीं';
 $_LANGADM['AdminOrders1dd1c5fb7f25cd41b291d43a89e3aefd'] = 'आज';
 $_LANGADM['AdminPreferences0fe4ca3df29658482098bb33a2ff66e5'] = 'पशु और पालतू जानवर';
 $_LANGADM['AdminPreferencesf2b545a8abb14f8706f808a79277c061'] = 'मोटर';
@@ -17,7 +19,15 @@ $_LANGADM['AdminReferrers537c66b24ef5c83b7382cdc3f34885f2'] = 'वर्ष';
 $_LANGADM['AdminStatsTab537c66b24ef5c83b7382cdc3f34885f2'] = 'वर्ष';
 $_LANGADM['AdminControllerf1206f9fadc5ce41694f69129aecac26'] = 'विन्यस्त करें';
 $_LANGADM['AdminAccessf1206f9fadc5ce41694f69129aecac26'] = 'विन्यस्त करें';
+$_LANGADM['AdminAttributes6adf97f83acf6453d4a6a4b1070f3754'] = 'कुछ नहीं';
+$_LANGADM['AdminCartRules6adf97f83acf6453d4a6a4b1070f3754'] = 'कुछ नहीं';
+$_LANGADM['AdminGroups0bcef9c45bd8a48eda1b26eb0c61c869'] = '%';
+$_LANGADM['AdminGroups6adf97f83acf6453d4a6a4b1070f3754'] = 'कुछ नहीं';
 $_LANGADM['AdminModulesf1206f9fadc5ce41694f69129aecac26'] = 'विन्यस्त करें';
+$_LANGADM['AdminProducts6adf97f83acf6453d4a6a4b1070f3754'] = 'कुछ नहीं';
+$_LANGADM['AdminProducts0bcef9c45bd8a48eda1b26eb0c61c869'] = '%';
+$_LANGADM['Helpere7935ae6c516d89405ec532359d2d75a'] = 'यातायात';
+$_LANGADM['Helper0bcef9c45bd8a48eda1b26eb0c61c869'] = '%';
 
 
 return $_LANGADM;

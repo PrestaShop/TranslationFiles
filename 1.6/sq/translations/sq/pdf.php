@@ -23,7 +23,6 @@ $_LANGPDF['PDF1ac6ee29e9e68fb71bad91c1d34348cc'] = '%s:';
 $_LANGPDF['PDF1be15dd275084ad2cae8f2aaa604c110'] = 'imazh(e):';
 $_LANGPDF['PDF1e860e56970a81a1ba3e1fcb7fccc846'] = 'Referenca e urdhërblerjes';
 $_LANGPDF['PDF6fbc355a02359656f1e4540d58b784e1'] = 'Data e porosisë';
-$_LANGPDF['PDF914419aa32f04011357d3b604a86d7eb'] = 'Postieri';
 $_LANGPDF['PDFff5db4935fb0fbf583796b50f05e25bc'] = 'Një version elektronik të kësaj fature mund ta gjeni në llogarinë tuaj. Për të pasur akses, kyçuni në uebfaqe duke përdorur emailin tuaj dhe fjalëkalimin (që e keni krijuar kur keni plasuar urdhërblerjen e parë).';
 $_LANGPDF['PDF59aac4eb50a8249cbc9c12240c6a0a14'] = 'Për më shumë ndihmë, kontakto Suportin:';
 $_LANGPDF['PDFbaf85890915b2793aac2b3282f0ea175'] = 'Tel.: %s';
