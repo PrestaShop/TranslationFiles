@@ -11,6 +11,7 @@ $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_f4f70727dc34561
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_9a730b88a32c2932d18b8b6043cc4fb7'] = 'הצג בטופס יצירת חשבון';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'מופעל';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_b9f5c797ebbf55adccdd8539a65a0241'] = 'מנוטרל';
+$_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_88997f015a0ee407a5e797011ddd090d'] = 'הודעת פרטיות נתונים עבור טופס יצירת חשבון:';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_03e1a999dcdb904300ee1b1e767c83c9'] = 'ההודעה תוצג בטופס יצירת החשבון.';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_b51d73fb490ad1245fa9b87042bbbbb7'] = 'טיפ: זכור שאם הטקסט ארוך מדי להיכתב ישירות בטופס, אתה יכול להוסיף קישור לאחד מדפי התוכן שלך. זה יכול להעשות בקלות בדף "ניהול תוכן" בתפריט "העדפות".';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_67ebed7cf9667003ad2047609440513a'] = 'להציג באזור הלקוח';

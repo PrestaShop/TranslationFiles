@@ -150,6 +150,7 @@ $_MODULE['<{blocklayered}prestashop>view_1.6_8531c73de81b9ed94322dda7cf947daa'] 
 $_MODULE['<{blocklayered}prestashop>view_1.6_ee61c015043c79c1370fc14980dd27b9'] = 'הראה מוצרים מתוך תת-קטגוריות';
 $_MODULE['<{blocklayered}prestashop>view_1.6_a19399fa42f1ab059401a14b9f13eba1'] = 'עומק מסנן קטגוריות ( 0 - ללא מגבלה, 1 כברירת מחדל)';
 $_MODULE['<{blocklayered}prestashop>view_1.6_3e652bd299bb3ee3d458c0dcc7fd706e'] = 'השתמש במס לסנון מחיר';
+$_MODULE['<{blocklayered}prestashop>view_1.6_30b1f6f4369e3d0f7a0d50b5cb96aabd'] = 'השתמש בעיגול לסינון מחיר';
 $_MODULE['<{blocklayered}prestashop>view_1.6_bb17448782eea2b49a97deac234e9851'] = 'אפשר לרובטי מפתוח (גוגל, יאהו, בינג, וכו\') להשתמש במסנן \'מצב\'';
 $_MODULE['<{blocklayered}prestashop>view_1.6_affe7250d1c6cfb3ac0dd054376d4b55'] = 'אפשר לרובטי מפתוח (גוגל, יאהו, בינג, וכו\') להשתמש במסנן \'זמינות\'';
 $_MODULE['<{blocklayered}prestashop>view_1.6_e1d2fdc12d2e2303a2853e2ba4ff6524'] = 'אפשר לרובטי מפתוח (גוגל, יאהו, בינג, וכו\') להשתמש במסנן \'יצרן\'';

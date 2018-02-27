@@ -439,6 +439,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5be0150b075f706fc27b09753ce6
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_4b0319a87fb1baabe2fdb810e5cd4e62'] = 'אפשרות זו תדלג על שלב ההורדה.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d477bfdc10c5b1dc8afaf9018555e28f'] = 'הארכיון בתיקיית %1$s יהיה בשימוש לשידרוג.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_58a7807a7c90ca70d471aeab775f32a9'] = 'התיקייה %1$s תשמש לשדרוג לגרסה ';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_59934c8d535a30c791e371449d6b564c'] = 'אפשרות זו תדלג על שלב ההורדה ופתיחת קובץ ארכיון.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c9cc8cce247e49bae79f15173ce97354'] = 'שמור';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9e68a57463e52beb2b2d4d116085044e'] = 'אפשרויות נוספות (מצב מומחה)';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d0285505fd09db653a4ec0fd3799f357'] = 'מצב מומחה';

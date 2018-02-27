@@ -15,6 +15,7 @@ $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_fc724a540ce30b0
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_23e162ba6bf36c7560ebbc868d9e2552'] = 'הודעות משפטיות';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_98664ee75f74254b622a52d86a798ae3'] = 'תנאי שימוש';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_93fb7e4d4616f108db46461360b7a6ae'] = 'תנאי ביטול';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_01ed64f3ede93b663b4d78d2a0693f0a'] = 'טופס ביטול';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_c5f29bb36f9158d2e00f5d4dc213a0ff'] = 'פרטיות';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_b305968eb47e25015e2cebf313f70842'] = 'הערות סביבתיות';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_5fb4f05f62f9967052977077d783fc2d'] = 'משלוח ותשלום';
