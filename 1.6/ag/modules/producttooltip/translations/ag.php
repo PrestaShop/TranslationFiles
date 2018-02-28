@@ -11,8 +11,8 @@ $_MODULE['<{producttooltip}prestashop>producttooltip_5c65d0f105e43f5186c1275fb83
 $_MODULE['<{producttooltip}prestashop>producttooltip_6ce86506e83863b6414e760c8406e156'] = 'Si se activa la opción anterior, debes activar la primera opción ("Guardar páginas vistas por cada cliente") del módulo "Explotación de datos para las estadísticas (Analisis y Estadísticas)".';
 $_MODULE['<{producttooltip}prestashop>producttooltip_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Activado';
 $_MODULE['<{producttooltip}prestashop>producttooltip_b9f5c797ebbf55adccdd8539a65a0241'] = 'Desactivado';
-$_MODULE['<{producttooltip}prestashop>producttooltip_18522b8438c82ae472267ff57e8db76f'] = 'Duración del periodo';
-$_MODULE['<{producttooltip}prestashop>producttooltip_3367d7aeafaae0cfdb8334d6e442a58f'] = 'Establece el periodo de tiempo de referencia.';
+$_MODULE['<{producttooltip}prestashop>producttooltip_18522b8438c82ae472267ff57e8db76f'] = 'Duración del período';
+$_MODULE['<{producttooltip}prestashop>producttooltip_3367d7aeafaae0cfdb8334d6e442a58f'] = 'Establece el período de tiempo de referencia.';
 $_MODULE['<{producttooltip}prestashop>producttooltip_946e06ba50194b981f04263795ed1433'] = 'Por ejemplo, si lo estableces a 30 minutos, el módulo mostrará el número de visitantes en los últimos 30 minutos.';
 $_MODULE['<{producttooltip}prestashop>producttooltip_640fd0cc0ffa0316ae087652871f4486'] = 'minutos';
 $_MODULE['<{producttooltip}prestashop>producttooltip_788b212e2524ec85463d68861342693c'] = 'Fecha del último pedido';

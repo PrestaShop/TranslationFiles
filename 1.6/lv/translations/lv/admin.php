@@ -2423,7 +2423,6 @@ $_LANGADM['AdminModulesPositions4ba24d91566786f5315acf453418dbb6'] = 'Visus modu
 $_LANGADM['AdminModulesPositions4c64748755160a1e441ed3dc34d6b827'] = 'Rādīt nepozicionētu āķi';
 $_LANGADM['AdminModulesPositionsbf17ac149e2e7a530c677e9bd51d3fd2'] = 'Moduļi';
 $_LANGADM['AdminModulesPositions7dce122004969d56ae2e0245cb754d35'] = 'Labot';
-$_LANGADM['AdminModulesPositions83057027f6b988dd2dbe422f6f3ddd21'] = 'Šim āķim moduļu nav';
 $_LANGADM['AdminModulesPositions6ff9dd0d34f65181173c1e4bc39939de'] = 'Izlase';
 $_LANGADM['AdminModulesPositionsfdf4e26a28a557ccfae6ddea1881687e'] = '1 modulis izvēlēts';
 $_LANGADM['AdminModulesPositions2451f8c34b91d6d3b6e7ee63c23d13fc'] = 'moduļi izvēlēti';

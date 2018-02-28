@@ -19,7 +19,7 @@ $_MODULE['<{pagesnotfound}prestashop>pagesnotfound_b6f05e5ddde1ec63d992d61144452
 $_MODULE['<{pagesnotfound}prestashop>pagesnotfound_64d129224a5377b63e9727479ec987d9'] = 'Contador';
 $_MODULE['<{pagesnotfound}prestashop>pagesnotfound_4a7a7e7cda40454cee7ec247660f8017'] = 'No se ha registrado ninguna "página no encontrada" por ahora.';
 $_MODULE['<{pagesnotfound}prestashop>pagesnotfound_d8847bc418fc4f5a3e37c2e8390bb9ed'] = 'Suprimir';
-$_MODULE['<{pagesnotfound}prestashop>pagesnotfound_b9ae3636d6e672413a163f7cb34beb84'] = 'Vaciar TODAS las notificaciones de "páginas no encontradas" de este periodo';
+$_MODULE['<{pagesnotfound}prestashop>pagesnotfound_b9ae3636d6e672413a163f7cb34beb84'] = 'Vaciar TODAS las notificaciones de "páginas no encontradas" de este período';
 $_MODULE['<{pagesnotfound}prestashop>pagesnotfound_0cf5c3a279c0e8c57b232d8c6bc3f06a'] = 'Vaciar TODAS las notificaciones de "páginas no encontradas"';
 
 

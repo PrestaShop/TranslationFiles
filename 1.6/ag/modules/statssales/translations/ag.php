@@ -9,8 +9,8 @@ $_MODULE['<{statssales}prestashop>statssales_6602bbeb2956c035fb4cb5e844a4861b'] 
 $_MODULE['<{statssales}prestashop>statssales_bdaa0cab56c2880f8f60e6a2cef40e63'] = 'Sobre los estados de los pedidos';
 $_MODULE['<{statssales}prestashop>statssales_fdfa8599f3887bef99e9572f3611260f'] = 'En tu Back Office, puedes modificar los siguientes estados del pedido: En espera de pago por cheque, Pago aceptado, Preparación en curso, Enviado, Entregado, Cancelado, Reembolsado, Error en el pago, Productos fuera de stock y En espera de pago por transferencia bancaria.';
 $_MODULE['<{statssales}prestashop>statssales_4b75384caa4e6830c22f15e06e0bfac0'] = 'Estos estados no pueden eliminarse desde el Back Office, sin embargo puedes añadir otros nuevos.';
-$_MODULE['<{statssales}prestashop>statssales_ddb21e1caa84c463bc744c412a7b05f5'] = 'Las siguientes gráficas representan la evolución de pedidos y ventas facturadas de tu tienda en el periodo seleccionado.';
-$_MODULE['<{statssales}prestashop>statssales_ef9c3c65723819a9c183d857a39ff403'] = 'Deberías consultar esta pantalla a menudo ya que te permite monitorizar rápidamente la sostenibilidad de tu tienda. Puedes seleccionar varios periodos de tiempo.';
+$_MODULE['<{statssales}prestashop>statssales_ddb21e1caa84c463bc744c412a7b05f5'] = 'Las siguientes gráficas representan la evolución de pedidos y ventas facturadas de su tienda en el período seleccionado.';
+$_MODULE['<{statssales}prestashop>statssales_ef9c3c65723819a9c183d857a39ff403'] = 'Debería consultar esta pantalla a menudo ya que te permite monitorizar rápidamente la sostenibilidad de su tienda. Puede seleccionar varios períodos de tiempo.';
 $_MODULE['<{statssales}prestashop>statssales_5cc6f5194e3ef633bcab4869d79eeefa'] = 'Sólo los pedidos válidados son representados gráficamente.';
 $_MODULE['<{statssales}prestashop>statssales_c3987e4cac14a8456515f0d200da04ee'] = 'Todos los paises';
 $_MODULE['<{statssales}prestashop>statssales_d7778d0c64b6ba21494c97f77a66885a'] = 'Filtro';
@@ -19,7 +19,7 @@ $_MODULE['<{statssales}prestashop>statssales_156e5c5872c9af24a5c982da07a883c2'] 
 $_MODULE['<{statssales}prestashop>statssales_998e4c5c80f27dec552e99dfed34889a'] = 'Exportar CSV';
 $_MODULE['<{statssales}prestashop>statssales_ec3e48bb9aa902ba2ad608547fdcbfdc'] = 'Ventas:';
 $_MODULE['<{statssales}prestashop>statssales_f6825178a5fef0a97dacf963409829f0'] = 'Puedes ver la distribución de estados de los pedidos a continuación.';
-$_MODULE['<{statssales}prestashop>statssales_da80af4de99df74dd59e665adf1fac8f'] = 'No hay pedidos para este periodo';
+$_MODULE['<{statssales}prestashop>statssales_da80af4de99df74dd59e665adf1fac8f'] = 'No hay pedidos para este período.';
 $_MODULE['<{statssales}prestashop>statssales_c58114720bcd52bfe96fd801cee77e93'] = 'Pedidos realizados';
 $_MODULE['<{statssales}prestashop>statssales_c8be451a5698956a0e78b5c2caab4821'] = 'Productos comprados';
 $_MODULE['<{statssales}prestashop>statssales_b52b44c9d23e141b067d7e83b44bb556'] = 'Productos';

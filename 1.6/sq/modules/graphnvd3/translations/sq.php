@@ -3,7 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{graphnvd3}prestashop>graphnvd3_a9f70dff230e6fc8e878043486e6cddf'] = 'Garfikonët NVD3';
+$_MODULE['<{graphnvd3}prestashop>graphnvd3_a9f70dff230e6fc8e878043486e6cddf'] = 'Grafikonët NVD3';
 
 
 return $_MODULE;
