@@ -845,7 +845,6 @@ $_LANGADM['AdminProductsb9208b03bcc9eb4a336258dcdcb66207'] = 'Kombinimet';
 $_LANGADM['AdminProducts98f770b0af18ca763421bac22b4b6805'] = 'Karakteristikat';
 $_LANGADM['AdminProductsda22c93ccb398c72070f4000cc7b59a1'] = 'Personalizimi';
 $_LANGADM['AdminProducts7e2708aeb65763c54052f57ed1a1ec1d'] = 'Bashkengjitje';
-$_LANGADM['AdminProducts623a9a1f669b091dd76bead27c3252ed'] = 'sasitë';
 $_LANGADM['AdminProducts1814d65a76028fdfbadab64a5a8076df'] = 'Furnitorët';
 $_LANGADM['AdminProducts3020c78ae45aff9a35b95856af076765'] = 'Magazina';
 $_LANGADM['AdminProductsb718adec73e04ce3ec720dd11a06a308'] = 'ID';

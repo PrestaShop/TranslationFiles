@@ -3,12 +3,12 @@
 global $_TABS;
 $_TABS = array();
 
-$_TABS['AdminDashboard'] = 'Qendra e kontrollit';
+$_TABS['AdminDashboard'] = 'Pulti i kontrollit';
 $_TABS['AdminCatalog'] = 'Katalogu';
-$_TABS['AdminParentOrders'] = 'Urdhërblerjet';
-$_TABS['AdminParentCustomer'] = 'Konsumatorët';
+$_TABS['AdminParentOrders'] = 'Porositë';
+$_TABS['AdminParentCustomer'] = 'Klientët';
 $_TABS['AdminPriceRule'] = 'Rregullat e çmimit';
-$_TABS['AdminParentModules'] = 'Mobulet dhe shërbmet';
+$_TABS['AdminParentModules'] = 'Modulet dhe shërbimet';
 $_TABS['AdminParentShipping'] = 'Livrimi';
 $_TABS['AdminParentLocalization'] = 'Lokalizimi';
 $_TABS['AdminParentPreferences'] = 'Preferencat';
