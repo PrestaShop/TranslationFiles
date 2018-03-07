@@ -58,6 +58,7 @@ $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_b5813d499e8a122485995dd7851
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_387a8014f530f080bf2f3be723f8c164'] = '링크 목록';
 $_MODULE['<{dateofdelivery}prestashop>beforecarrier_75261aaef97717dda0ca98743b24f8f3'] = '이 배송업체의 배송 예정일은 대략 다음과 같습니다';
 $_MODULE['<{dateofdelivery}prestashop>beforecarrier_c31e7bcb78c69bd37e6e77be0183567f'] = '당신이 선택한 배송옵션으로 대략 배송이 될 %s 화물은, 다음과 같습니다';
+$_MODULE['<{dateofdelivery}prestashop>beforecarrier_be5d5d37542d75f93a87094459f76678'] = '그리고';
 $_MODULE['<{dateofdelivery}prestashop>orderdetail_32dfb655a7b12a2c5662516e82f5d79b'] = '배송 예정일은 대략 %1$s 와%2$s 사이입니다';
 $_MODULE['<{dateofdelivery}prestashop>button_e6ff622b31d0cd1c32c775d1e1f20831'] = '새 배송업체 규칙 추가';
 
