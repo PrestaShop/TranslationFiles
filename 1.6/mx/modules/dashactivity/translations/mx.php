@@ -28,7 +28,7 @@ $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_24042b0e4b783724dac4178df
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_7442e29d7d53e549b78d93c46b8cdcfc'] = 'Pedidos';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_247d96cbab5bfc79dff10eb2ce6d8897'] = 'Cambios/Devoluciones';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_54e85d70ea67acdcc86963b14d6223a8'] = 'Carritos abandonados';
-$_MODULE['<{dashactivity}prestashop>dashboard_zone_one_1c4407dd95b9ef941d30c2838208977e'] = 'Productos fuera de stock';
+$_MODULE['<{dashactivity}prestashop>dashboard_zone_one_1c4407dd95b9ef941d30c2838208977e'] = 'Productos sin existencias';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_a274f4d4670213a9045ce258c6c56b80'] = 'Notificaciones';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_a644e8cd597f2b92aa52861632c0363d'] = 'Nuevos mensajes';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_56d4e9a4c8e9f47549e8129393b3740f'] = 'Revisiones de producto';
@@ -37,7 +37,7 @@ $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_8471314b4a53476fbf2379d9a
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_d833d1b3c98b980090f79ad42badcf9f'] = 'Nuevas suscripciones';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_e42bc03dcf18091455cb8a06ce1d56e9'] = 'Total de suscriptores';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_e7935ae6c516d89405ec532359d2d75a'] = 'Tráfico';
-$_MODULE['<{dashactivity}prestashop>dashboard_zone_one_1a4aeb4ca6cd736a4a7b25d8657d9972'] = 'Enlace a tu cuenta de Google Analytics';
+$_MODULE['<{dashactivity}prestashop>dashboard_zone_one_1a4aeb4ca6cd736a4a7b25d8657d9972'] = 'Enlace a su cuenta de Google Analytics';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_d7e637a6e9ff116de2fa89551240a94d'] = 'Visitas';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_945f170a18e4894c90381a3d01bdef8b'] = 'Visitantes únicos';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_0fcff541ec15c6ed895d5dec49436488'] = 'Fuentes de tráfico';

@@ -207,7 +207,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_01d9d38b1d4d8eff5b530eeecfd3
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_99f0e3a6d61b6d39da9213c647fd35ce'] = '[ERROR] %s no existe o no es un directorio.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d8316e26b7d1322f4445d3ffeec4bcfb'] = 'No se ha extraído nada. Parece que el paso de descompresión ha sido omitido.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2de9cd00fdcc22adb43ea03f2a09dee5'] = '[ERROR] No se han podido encontrar archivos para actualizar.';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c165b990be724cefca897c7c4cc70cac'] = 'No se han podido listar los archivos a actualizar';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c165b990be724cefca897c7c4cc70cac'] = 'No se han podido encontrar archivos para actualizar';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5479863b0426e29c3a17a3f9cc6e3746'] = '%s archivos serán actualizados.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_4f7c02592a962e40a920f32f3a24f2df'] = 'filesToUpgrade no es una matriz';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_6274f940a4c03421253b1acc4064349e'] = 'Todos los archivos actualizados. Actualización de bases de datos en curso...';
@@ -217,7 +217,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_078a325fbcc1dbd50bd9f969ce95
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8994f47952b9b29743e45a72ed30707c'] = 'No se ha extraído nada. Parece que el paso de descompresión se ha omitido.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0530243ad5b9bd205a04b975d3ef8aaf'] = '%s módulos serán actualizados.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0f786a53b1674815c24679ed64770223'] = 'el paso upgradeModule no ha finalizado correctamente.';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_1baa2ea6cee198c6b7f19011431dcc73'] = 'listModules no es una matriz. No se ha actualizado ningún módulo.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_1baa2ea6cee198c6b7f19011431dcc73'] = 'lista de Módulos no es una serie. Ningún modulo ha sido actualizado.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d88a8630bd4e8fdbd61c550e53d62a94'] = 'quedan %s módulos por actualizar.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_fb9740393108d477fc3606647cb14ee7'] = 'El módulo %1$s no es compatible con 1.5.X, y será eliminado de tu ftp.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7bb21f802330e2539d8342f05c0cd78f'] = 'El módulo %1$s no es compatible con 1.5.X, por favor, elimínalo de tu ftp.';
