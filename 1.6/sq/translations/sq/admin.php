@@ -833,6 +833,7 @@ $_LANGADM['AdminPreferences1fb0f99b55e6c2be35aed72ebe38c245'] = 'Udhëtime';
 $_LANGADM['AdminPreferences1656072e927c8d3acd24359cbb648bb5'] = 'Aktivizo SSL';
 $_LANGADM['AdminPreferencesac2021d3c67ee796d7ab20a466ebd583'] = 'Mënyra e rrumbullaksimit';
 $_LANGADM['AdminPreferences79a8435260e0c3b17e30ccb1c6dfc75c'] = 'Shfaq furnitorët dhe prodhuesit';
+$_LANGADM['AdminPreferences8d9da6f9870d593e6921d3b728dc0c6b'] = 'Aktiviteti kryesor i dyqanit';
 $_LANGADM['AdminPreferences0db377921f4ce762c62526131097968f'] = 'Të përgjithshme';
 $_LANGADM['AdminPreferencesc9cc8cce247e49bae79f15173ce97354'] = 'Ruaj';
 $_LANGADM['AdminProductsd3b206d196cd6be3a2764c1fb90b200f'] = 'Fshi të përzgjedhurat';
