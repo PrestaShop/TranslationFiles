@@ -3258,6 +3258,7 @@ $_LANGADM['AdminCarts29aa46cc3d2677c7e0f216910df600ff'] = 'Бесплатна и
 $_LANGADM['AdminCarts764368526633c5baf14291ba7fbb9e05'] = 'за оваа посебна група на клиенти, цените се прикажуваат како';
 $_LANGADM['AdminCartsbefcac0f9644a7abee43e69f49252ac4'] = 'Без данок';
 $_LANGADM['AdminCartsf4a0d7cb0cd45214c8ca5912c970de13'] = 'Со данок';
+$_LANGADM['AdminCategories5bc1667deb2b522c0cac00de5f15ffbc'] = 'Препорачани димензии (за стандардна тема): %1spx x %2spx';
 $_LANGADM['AdminCategories4f11b2e8a220dab912231e74a3dfea5d'] = 'што сакаш да правиш со артиклот прикажан во оваа категорија?';
 $_LANGADM['AdminCategoriesf6ec5c96d6a80dad29c231e53aba0b69'] = 'бришење на повеќе категории';
 $_LANGADM['AdminCategories764d0e955d240f946ceac8bfd3f9a83b'] = 'сакам да поврзам артикли во слична категорија и засега да ги оневоможам , ќе ги овозможам кога ке бидат префрлени во новата категорија.';

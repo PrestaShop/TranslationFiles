@@ -9,9 +9,11 @@ $_MODULE['<{blockcategories}prestashop>blockcategories_23e0d4ecc25de9b2777fdaca3
 $_MODULE['<{blockcategories}prestashop>blockcategories_0cf328636f0d607ac24a5c435866b94b'] = 'Dynamic HTML: невалиден избор.';
 $_MODULE['<{blockcategories}prestashop>blockcategories_f4f70727dc34561dfde1a3c529b6205c'] = 'Нагодувања';
 $_MODULE['<{blockcategories}prestashop>blockcategories_1379a6b19242372c1f23cc9adedfcdd6'] = 'корен на категоријата';
+$_MODULE['<{blockcategories}prestashop>blockcategories_c6d333d07d30f7b4c31a94bbd510bf88'] = 'Изберете која категорија е прикажана во блокот. Тековната категорија е онаа во која посетителот моментално гледа.';
 $_MODULE['<{blockcategories}prestashop>blockcategories_89b278a71f2be5f620307502326587a0'] = 'основна категорија';
 $_MODULE['<{blockcategories}prestashop>blockcategories_62381fc27e62649a16182a616de3f7ea'] = 'Сегашна категорија';
 $_MODULE['<{blockcategories}prestashop>blockcategories_52b68aaa602d202c340d9e4e9157f276'] = 'Родителска категорија';
+$_MODULE['<{blockcategories}prestashop>blockcategories_f225631c1a6f71e99cc779f6bbf06dd4'] = 'Тековна категорија, освен ако таа нема поткатегории, во кој случај се користи родителската категорија од сегашната категорија';
 $_MODULE['<{blockcategories}prestashop>blockcategories_19561e33450d1d3dfe6af08df5710dd0'] = 'максимална длабочина';
 $_MODULE['<{blockcategories}prestashop>blockcategories_584d4e251b6f778eda9cfc2fc756b0b0'] = 'подеси максимална длабочина на категориите прикажани во блокот 0= неограничено.';
 $_MODULE['<{blockcategories}prestashop>blockcategories_971fd8cc345d8bd9f92e9f7d88fdf20c'] = 'динамично';
@@ -28,6 +30,9 @@ $_MODULE['<{blockcategories}prestashop>blockcategories_5f73e737cedf8f4ccf880473a
 $_MODULE['<{blockcategories}prestashop>blockcategories_c9cc8cce247e49bae79f15173ce97354'] = 'Сними';
 $_MODULE['<{blockcategories}prestashop>blockcategories_footer_af1b98adf7f686b84cd0b443e022b7a0'] = 'Категории';
 $_MODULE['<{blockcategories}prestashop>blockcategories_af1b98adf7f686b84cd0b443e022b7a0'] = 'Категории';
+$_MODULE['<{blockcategories}prestashop>blockcategories_admin_63239117f39d923b2e407620fc1fa5b5'] = 'Во стандардната тема, овие слики ќе бидат прикажани во горното хоризонтално мени, но само ако категоријата е едно од првите нивоа (видите го горното хоризонтално мени за повеќе информации).';
+$_MODULE['<{blockcategories}prestashop>blockcategories_admin_eea317348d82718d49f9a79189dc0f93'] = 'Мени со сликички';
+$_MODULE['<{blockcategories}prestashop>blockcategories_admin_5bc1667deb2b522c0cac00de5f15ffbc'] = 'Препорачани димензии (за стандардна тема): %1spx x %2spx';
 
 
 return $_MODULE;

@@ -7,8 +7,12 @@ $_MODULE['<{blockcontact}prestashop>blockcontact_df8f3e2cd8d1acbb2d1aa46a45045ec
 $_MODULE['<{blockcontact}prestashop>blockcontact_318ed85b9852475f24127167815e85d9'] = 'ви овозможува додавање на информации за вашата продавница и грижа за корисници.';
 $_MODULE['<{blockcontact}prestashop>blockcontact_20015706a8cbd457cbb6ea3e7d5dc9b3'] = 'Конфигурацијата е освежена';
 $_MODULE['<{blockcontact}prestashop>blockcontact_f4f70727dc34561dfde1a3c529b6205c'] = 'Нагодувања';
+$_MODULE['<{blockcontact}prestashop>blockcontact_90a613a116f4bd9390ff7379a114f8d7'] = 'Овој блок го прикажува вашиот телефонски број во заглавието ("Јавете ни се сега"), и поврзете се на страницата \'Контактирајте нè\'.';
+$_MODULE['<{blockcontact}prestashop>blockcontact_5f6e75192756d3ad45cff4a1ee0a45ba'] = 'За да ја измените e-mail адресата за страницата \'Контактирајте нè\': вие треба да одите на страницата "Контакти" под менито "Клиент".';
+$_MODULE['<{blockcontact}prestashop>blockcontact_ccffe09c1cd18f73ad1f76762fded097'] = 'За да ги уредите деталите за контакт во фоотерот: треба да отидете во модулот "Блок за информации за контакти".';
 $_MODULE['<{blockcontact}prestashop>blockcontact_7551cf1a985728fa2798db32c2ff7887'] = 'телефонски број';
 $_MODULE['<{blockcontact}prestashop>blockcontact_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'Е-пошта';
+$_MODULE['<{blockcontact}prestashop>blockcontact_52e878b67e9d94d25425231162ef5133'] = 'Внесете ги тука вашите податоци за контакт со клиентите.';
 $_MODULE['<{blockcontact}prestashop>blockcontact_c9cc8cce247e49bae79f15173ce97354'] = 'Сними';
 $_MODULE['<{blockcontact}prestashop>blockcontact_02d4482d332e1aef3437cd61c9bcc624'] = 'Контакт';
 $_MODULE['<{blockcontact}prestashop>blockcontact_75858d311c84e7ba706b69bea5c71d36'] = 'Достапни сме речиси преку целиот ден...';
