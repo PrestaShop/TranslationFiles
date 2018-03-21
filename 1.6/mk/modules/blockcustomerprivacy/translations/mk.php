@@ -15,6 +15,9 @@ $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_88997f015a0ee40
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_03e1a999dcdb904300ee1b1e767c83c9'] = 'пораката за приватност ке се прикажува при процесот на креирањето.';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_b51d73fb490ad1245fa9b87042bbbbb7'] = 'Совет: Ако пораката за приватност на купувачот е премногу долга за да биде напишана директно во формата, вие можете да додадете линк од една од вашите страници. Ова лесно може да биде креирано преку страницата "CMS" под менито "Преференции".';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_67ebed7cf9667003ad2047609440513a'] = 'Покажување во областа на купувачот';
+$_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_fc67768369eadd8d4fb1e7839f5eae69'] = 'Порака за приватност на податоците на потрошувачите за областа на потрошувачите:';
+$_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_432d64c20d5d06378d96c247c3f358f4'] = 'Пораката за приватност на податоците на потрошувачите ќе биде прикажана во страната "Лични информации", во областа на потрошувачите.';
+$_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_de1126ae0ac67eb4fda28cfad8429c79'] = 'Совет: Ако пораката за приватност на купувачот е премногу долга за да биде напишана директно во формата, вие можете да додадете линк од една од вашите страници. Ова лесно може да биде креирано преку страницата "CMS" под менито "Преференции".';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_c9cc8cce247e49bae79f15173ce97354'] = 'Сними';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_fb0440f9ca32a8b49eded51b09e70821'] = 'приватност на клиентот';
 

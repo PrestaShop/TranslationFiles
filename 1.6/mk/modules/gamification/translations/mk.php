@@ -19,11 +19,13 @@ $_MODULE['<{gamification}prestashop>gamification_3d4aafb2eedeba2fbf92e852f0af745
 $_MODULE['<{gamification}prestashop>gamification_bacc1bf300527bad9c6ac2d3b875a8d8'] = 'стани интернет комерцијалист експерт додека трепнеш!';
 $_MODULE['<{gamification}prestashop>filters_bt_e659b52eba1f0299b2d8ca3483919e72'] = 'тип:';
 $_MODULE['<{gamification}prestashop>filters_bt_b1c94ca2fbc3e78fc30069c8d0f01680'] = 'Сите';
+$_MODULE['<{gamification}prestashop>filters_bt_24a23d787190f2c4812ff9ab11847a72'] = 'Статус:';
 $_MODULE['<{gamification}prestashop>filters_bt_5364259abab90e94890f2ed2481b9824'] = 'потврден';
 $_MODULE['<{gamification}prestashop>filters_bt_dc450ba947e6adecbdbe68c25de03a1b'] = 'непотврден';
 $_MODULE['<{gamification}prestashop>filters_bt_07ad815187b53dc2ceaf5ad6e0a12bb1'] = 'ниво:';
 $_MODULE['<{gamification}prestashop>filters_e659b52eba1f0299b2d8ca3483919e72'] = 'тип:';
 $_MODULE['<{gamification}prestashop>filters_b1c94ca2fbc3e78fc30069c8d0f01680'] = 'Сите';
+$_MODULE['<{gamification}prestashop>filters_24a23d787190f2c4812ff9ab11847a72'] = 'Статус:';
 $_MODULE['<{gamification}prestashop>filters_5364259abab90e94890f2ed2481b9824'] = 'потврден';
 $_MODULE['<{gamification}prestashop>filters_dc450ba947e6adecbdbe68c25de03a1b'] = 'непотврден';
 $_MODULE['<{gamification}prestashop>filters_07ad815187b53dc2ceaf5ad6e0a12bb1'] = 'ниво:';

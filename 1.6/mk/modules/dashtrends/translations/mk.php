@@ -13,6 +13,7 @@ $_MODULE['<{dashtrends}prestashop>dashtrends_43d729c7b81bfa5fc10e756660d877d1'] 
 $_MODULE['<{dashtrends}prestashop>dashtrends_46418a037045b91e6715c4da91a2a269'] = '%s (претходен период)';
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_2938c7f7e560ed972f8a4f68e80ff834'] = 'Контролна табла';
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_f1206f9fadc5ce41694f69129aecac26'] = 'кофигурирај';
+$_MODULE['<{dashtrends}prestashop>dashboard_zone_two_63a6a88c066880c5ac42394a22803ca6'] = 'Освежи';
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'Продажби';
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_7442e29d7d53e549b78d93c46b8cdcfc'] = 'Нарачки';
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_791d6355d34dfaf60d68ef04d1ee5767'] = 'вредност на кошничка';

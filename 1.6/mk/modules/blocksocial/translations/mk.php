@@ -9,12 +9,17 @@ $_MODULE['<{blocksocial}prestashop>blocksocial_f4f70727dc34561dfde1a3c529b6205c'
 $_MODULE['<{blocksocial}prestashop>blocksocial_76f8961bb8f4bb2b95c07650f30a7e7b'] = 'Facebook URL';
 $_MODULE['<{blocksocial}prestashop>blocksocial_c162369096f0fe5784f05052ceee6b47'] = 'ваша страна на обожаватели на Facebook ';
 $_MODULE['<{blocksocial}prestashop>blocksocial_bcca29e10968edaf6e0154d2339ad556'] = 'Twitter URL';
+$_MODULE['<{blocksocial}prestashop>blocksocial_6aadf667dfc3538abc2708ba76861bba'] = 'Вашиот официјален Twitter профил.';
 $_MODULE['<{blocksocial}prestashop>blocksocial_1a530e4877d8d41f810d9d05f065722d'] = 'RSS URL';
 $_MODULE['<{blocksocial}prestashop>blocksocial_672f301ddc5372b2477ed3c1d9322949'] = 'ваш додаток RSS по избор (ваш блог, продавница и тн.)';
 $_MODULE['<{blocksocial}prestashop>blocksocial_ad7198d676478ac70c3243c1d3446331'] = 'YouTube URL';
 $_MODULE['<{blocksocial}prestashop>blocksocial_5817a34292f074f9f596de6cb3607540'] = 'ваш официјален YouTube пристап';
+$_MODULE['<{blocksocial}prestashop>blocksocial_1dd99e363d1bebee81578708c1e8a5e0'] = 'Google+ URL:';
+$_MODULE['<{blocksocial}prestashop>blocksocial_1dd0a74974711190139fa51579765a04'] = 'Вашата официјална Google+ страна.';
 $_MODULE['<{blocksocial}prestashop>blocksocial_76abe3a162f22f63fae44d60fbe8f11b'] = 'Pinterest URL:';
 $_MODULE['<{blocksocial}prestashop>blocksocial_e158a81859319b5e442bc490b0e81af3'] = 'ваш Pinterest пристап.';
+$_MODULE['<{blocksocial}prestashop>blocksocial_815f12ace0a25af8c12e036810002683'] = 'Vimeo URL:';
+$_MODULE['<{blocksocial}prestashop>blocksocial_cba991994fe165dfcf4f5bd256bbe119'] = 'Вашиот официјален Vimeo профил.';
 $_MODULE['<{blocksocial}prestashop>blocksocial_c9cc8cce247e49bae79f15173ce97354'] = 'Сними';
 $_MODULE['<{blocksocial}prestashop>blocksocial_d918f99442796e88b6fe5ad32c217f76'] = 'Следете нè';
 $_MODULE['<{blocksocial}prestashop>blocksocial_d85544fce402c7a2a96a48078edaf203'] = 'Facebook';
