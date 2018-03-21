@@ -26,6 +26,12 @@ File: classes/PrestaShopBackup.php:167</note>
         <note>Context:
 File: classes/PrestaShopBackup.php:225</note>
       </trans-unit>
+      <trans-unit id="52033453d4d673bae012b9c8ccb1e79c" approved="yes">
+        <source>An error occurred while backing up. Unable to obtain the schema of %s</source>
+        <target xml:lang="mk">Се појави грешка при резервна копија. Не може да се добие шема од %s</target>
+        <note>Context:
+File: classes/PrestaShopBackup.php:254</note>
+      </trans-unit>
       <trans-unit id="a12b8823ac5b71b9d09f9c7b09e54c48" approved="yes">
         <source>No valid tables were found to backup.</source>
         <target xml:lang="mk">не се пронајдени валидни табели за заштита.</target>
@@ -41,6 +47,12 @@ File: classes/PrestaShopBackup.php:317</note>
         <target xml:lang="mk">Грешка, параметарот "до" е оштетен</target>
         <note>Context:
 File: classes/Mail.php:203</note>
+      </trans-unit>
+      <trans-unit id="99806fb2aff84eaa304cb249fa190339" approved="yes">
+        <source>Error: parameter "bcc" is corrupted</source>
+        <target xml:lang="mk">Грешка: параметарот "bcc" е оштетен</target>
+        <note>Context:
+File: classes/Mail.php:210</note>
       </trans-unit>
       <trans-unit id="46c30f8c8c478bbb52647c27a5f4fe95" approved="yes">
         <source>Error: invalid e-mail template</source>
@@ -65,6 +77,12 @@ File: classes/Mail.php:267</note>
         <target xml:lang="mk">Грешка, невалиден SMTP сервер или SMTP порт</target>
         <note>Context:
 File: classes/Mail.php:280</note>
+      </trans-unit>
+      <trans-unit id="3ed07fe73e25bba69e3e5dac234b1941" approved="yes">
+        <source>Error - The following e-mail template is missing: %s</source>
+        <target xml:lang="mk">Грешка - Следниот e-mail шаблон недостасува: %s</target>
+        <note>Context:
+File: classes/Mail.php:331</note>
       </trans-unit>
     </body>
   </file>
@@ -138,6 +156,30 @@ File: controllers/admin/AdminStoresController.php:350</note>
         <note>Context:
 File: controllers/admin/AdminRequestSqlController.php:115</note>
       </trans-unit>
+      <trans-unit id="c232ec1eb797989616b3ab59a5777b69" approved="yes">
+        <source>The file is too large and cannot be downloaded. Please use the LIMIT clause in this query.</source>
+        <target xml:lang="mk">Датотеката е преголема и не може да се преземе. Ве молиме користете ја LIMIT клаузулата во ова прашање.</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:359</note>
+      </trans-unit>
+      <trans-unit id="a0e587425d03db434bd7ad7081913cb4" approved="yes">
+        <source>The "%tablename%" table does not exist.</source>
+        <target xml:lang="mk">Табелата "%tablename%" не постои.</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:401</note>
+      </trans-unit>
+      <trans-unit id="9caefacc2d658e65a31461564c163624" approved="yes">
+        <source>The "%attribute%" attribute does not exist in the "%table%" table.</source>
+        <target xml:lang="mk">Aтрибутот “%attribute%“ не постои во “%table%“ табелата.</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:487</note>
+      </trans-unit>
+      <trans-unit id="b162612cdcbf01c01421bad2e8b39432" approved="yes">
+        <source>Undefined "%s" error</source>
+        <target xml:lang="mk">Недефинирана грешка "%s"</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:495</note>
+      </trans-unit>
       <trans-unit id="dbea0ef67609a60a1f71f8d19e132d1e" approved="yes">
         <source>The "*" operator cannot be used in a nested query.</source>
         <target xml:lang="mk">оператор  "*" може да се користи во вкрстено барање.</target>
@@ -150,11 +192,23 @@ File: controllers/admin/AdminRequestSqlController.php:417</note>
         <note>Context:
 File: controllers/admin/AdminRequestSqlController.php:426</note>
       </trans-unit>
+      <trans-unit id="dde2543d498ef763b41a2e5ddad7ecdd" approved="yes">
+        <source>The "%operator%" operator is incorrect.</source>
+        <target xml:lang="mk">Операторот "%operator%" е некоректен.</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:449</note>
+      </trans-unit>
       <trans-unit id="19681d28ed1cc72479bc26b7e76ad240" approved="yes">
         <source>The LIMIT clause must contain numeric arguments.</source>
         <target xml:lang="mk">Одредбата за  Лимит мора да има нумерички аргументи</target>
         <note>Context:
 File: controllers/admin/AdminRequestSqlController.php:500</note>
+      </trans-unit>
+      <trans-unit id="37074dedaa80ce0e038f92b668fb2350" approved="yes">
+        <source>The "%reference%" reference does not exist in the "%table%" table.</source>
+        <target xml:lang="mk">Референцата "%reference%" не постои во табелата "%table%".</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:506</note>
       </trans-unit>
       <trans-unit id="7b4dd672e3b87269079894e693ce9b76" approved="yes">
         <source>When multiple tables are used, each attribute must refer back to a table.</source>
@@ -172,9 +226,9 @@ File: controllers/admin/AdminRequestSqlController.php:523</note>
   </file>
   <file original="controllers/admin/AdminTabsController.php" source-language="en" target-language="mk" datatype="plaintext">
     <body>
-      <trans-unit id="5bb701014490e33a37ecdc43ce578404">
+      <trans-unit id="5bb701014490e33a37ecdc43ce578404" approved="yes">
         <source>You can't put this menu inside itself. </source>
-        <target xml:lang="mk" state="needs-translation"> </target>
+        <target xml:lang="mk">Не можете да го ставите ова мени внатре во себе. </target>
         <note>Context:
 File: controllers/admin/AdminTabsController.php:293</note>
       </trans-unit>
@@ -187,6 +241,12 @@ File: controllers/admin/AdminTabsController.php:293</note>
         <target xml:lang="mk">Не може да го уредувате профилот на СуперАдмин</target>
         <note>Context:
 File: controllers/admin/AdminEmployeesController.php:234</note>
+      </trans-unit>
+      <trans-unit id="cd34716bc68eb08479ddf16f17b2580e" approved="yes">
+        <source>The provided profile is invalid</source>
+        <target xml:lang="mk">Прикажаниот профил е невалиден</target>
+        <note>Context:
+File: controllers/admin/AdminEmployeesController.php:427</note>
       </trans-unit>
       <trans-unit id="f5d44b60e38b28d19549bb7a107654ca" approved="yes">
         <source>You cannot disable or delete your own account.</source>
@@ -211,6 +271,12 @@ File: controllers/admin/AdminEmployeesController.php:485</note>
         <target xml:lang="mk">вашата лозинка е невалидна.</target>
         <note>Context:
 File: controllers/admin/AdminEmployeesController.php:500</note>
+      </trans-unit>
+      <trans-unit id="1a33d52d73377516254da97f9fee027e" approved="yes">
+        <source>The confirmation password does not match.</source>
+        <target xml:lang="mk">Лозинката за потврда не се совпаѓа.</target>
+        <note>Context:
+File: controllers/admin/AdminEmployeesController.php:502</note>
       </trans-unit>
       <trans-unit id="c7cd7ecd5b19e01f74cad32af30c9ac4" approved="yes">
         <source>You should have at least one employee in the administrator group.</source>
@@ -240,6 +306,12 @@ File: controllers/admin/AdminEmployeesController.php:598</note>
   </file>
   <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="mk" datatype="plaintext">
     <body>
+      <trans-unit id="af395851b27882221a6df82c727bca3e" approved="yes">
+        <source>The import directory doesn't exist. Please check your file path.</source>
+        <target xml:lang="mk">Директориумот за увоз не постои. Ве молиме проверете ја патеката на датотеката.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:615</note>
+      </trans-unit>
       <trans-unit id="c775530fad852632f78395a11820ba23" approved="yes">
         <source>The import directory must be writable (CHMOD 755 / 777).</source>
         <target xml:lang="mk">директориумот за иморт мора да е впишлив  (CHMOD 755 / 777).</target>
@@ -251,6 +323,12 @@ File: controllers/admin/AdminImportController.php:619</note>
         <target xml:lang="mk">Додаденото досие ја наадминува директивата за максимум додаавање во php.ini.Доколку Вашата конфигурација на сервер дозволува можете да додадете директива во Вашиот .htaccess</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:720</note>
+      </trans-unit>
+      <trans-unit id="0bedafc96db94da3f85caa7101944eb5" approved="yes">
+        <source>The uploaded file exceeds the post_max_size directive in php.ini. If your server configuration allows it, you may add a directive in your .htaccess, for example:</source>
+        <target xml:lang="mk">Поставената датотека ја надминува директивата post_max_size во php.ini. Ако конфигурацијата на вашиот сервер ја дозволува, можете да додадете директива во вашиот .htaccess, на пример:</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:723</note>
       </trans-unit>
       <trans-unit id="5b8f192b08644fdc9fd1fd86bcbbc57b" approved="yes">
         <source>(click to open "Generators" page)</source>
@@ -282,6 +360,36 @@ File: controllers/admin/AdminImportController.php:739</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:742</note>
       </trans-unit>
+      <trans-unit id="197f1953efd11637a634a7f9b269eac3" approved="yes">
+        <source>To proceed, please upload a file first.</source>
+        <target xml:lang="mk">За да продолжите, прво ставете датотека.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:4526</note>
+      </trans-unit>
+      <trans-unit id="a080a85258618039d010a2136f85e69f" approved="yes">
+        <source>There is an empty row in the file that won't be imported.</source>
+        <target xml:lang="mk">Во датотеката постои празен ред кој нема да биде внесен.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3703</note>
+      </trans-unit>
+      <trans-unit id="53d9fc1aa79e85c0f845139c6358daee" approved="yes">
+        <source>The category ID must be unique. It can't be the same as the one for Root or Home category.</source>
+        <target xml:lang="mk">ИДто на категоријата мора да биде уникатно. Тоа не може да биде исто како оној за Главната или Домашната категорија.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1297</note>
+      </trans-unit>
+      <trans-unit id="7a1bebdbf5770873f8172ecf27b2aa50" approved="yes">
+        <source>The category ID must be unique. It can't be the same as the one for the parent category (ID: %1$s).</source>
+        <target xml:lang="mk">ИДто на категоријата мора да биде уникатно. Не може да биде исто како она за матичната категорија (ИД: %1$s).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1319</note>
+      </trans-unit>
+      <trans-unit id="521531266ae042d0725d7a4aa22a49f4" approved="yes">
+        <source>A category can't be its own parent. You should rename it (current name: %1$s).</source>
+        <target xml:lang="mk">Категоријата не може да биде свој родител. Треба да го преименувате (моментално име: %1$s).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1333</note>
+      </trans-unit>
       <trans-unit id="1123af3eab25b7475419fcaecc6c3beb" approved="yes">
         <source>%category_name% (ID: %id%) cannot be saved</source>
         <target xml:lang="mk">%category_name% (ИД:%id%) не може да се зачува</target>
@@ -293,6 +401,18 @@ File: controllers/admin/AdminImportController.php:1358</note>
         <target xml:lang="mk">URL препишувањето не успеа автоматски да генерира пријателски URL за: %category_name%</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:1386</note>
+      </trans-unit>
+      <trans-unit id="4798b868d51d8e259321deff0452c0f9" approved="yes">
+        <source>Rewrite link for %1$s (ID %2$s): re-written as %3$s.</source>
+        <target xml:lang="mk">Препишете ја врската за %1$s (ИД %2$s): повторно напишан како %3$s.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1849</note>
+      </trans-unit>
+      <trans-unit id="a118c8120ef45c8b1bed36f341fa45f1" approved="yes">
+        <source>A category cannot be its own parent. The parent category ID is either missing or unknown (ID: %1$s).</source>
+        <target xml:lang="mk">Категоријата не може да биде свој родител. ИДто на матичната категорија е или исчезнат или непознат (ИД: %1$s).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1418</note>
       </trans-unit>
       <trans-unit id="7bc08d1a3178f4927b2c07a18f417b4b" approved="yes">
         <source>The root category cannot be modified.</source>
@@ -306,11 +426,29 @@ File: controllers/admin/AdminImportController.php:1436</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3740</note>
       </trans-unit>
+      <trans-unit id="87098ca5171ae766269f50b24ef3189d" approved="yes">
+        <source>%1$s (ID: %2$s) cannot be %3$s</source>
+        <target xml:lang="mk">%1$s (ИД: %2$s) не може да биде %3$s</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1459</note>
+      </trans-unit>
+      <trans-unit id="2666baaca25feea0b2dc641cfab50d8a" approved="yes">
+        <source>Unknown tax rule group ID. You need to create a group with this ID first.</source>
+        <target xml:lang="mk">Непознат идентификациски ИД на даночното правило. Треба прво да креирате група со ова ИД.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1693</note>
+      </trans-unit>
       <trans-unit id="43bf950e043950e2da10f917b902c131" approved="yes">
         <source>%1$s (ID: %2$s) cannot be saved</source>
         <target xml:lang="mk">%1$s (број:%2$s) неможе да се сними</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3841</note>
+      </trans-unit>
+      <trans-unit id="994e8f1b72a9fe7a9e8949343be6bde7" approved="yes">
+        <source>%data% cannot be saved</source>
+        <target xml:lang="mk">%data% не може да се зачува</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3814</note>
       </trans-unit>
       <trans-unit id="32fa1d06b5d0a192c9991c4bf038b30c" approved="yes">
         <source>Shop is not valid</source>
@@ -414,11 +552,41 @@ File: controllers/admin/AdminImportController.php:2741</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2757</note>
       </trans-unit>
+      <trans-unit id="fd6d9d3ba7d4aaacc49f53c2e8c082c0" approved="yes">
+        <source>Email address %1$s (ID: %2$s) cannot be validated.</source>
+        <target xml:lang="mk">E-mail адресата %1$s (ИД: %2$s) не може да биде потврдена.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3047</note>
+      </trans-unit>
+      <trans-unit id="9a19980e3db9fa010269bb72d31ee42a" approved="yes">
+        <source>Email address %1$s (ID: %2$s) cannot be saved.</source>
+        <target xml:lang="mk">E-mail адресата %1$s (ИД: %2$s) не може да биде зачувана.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3056</note>
+      </trans-unit>
+      <trans-unit id="14118fbc7d8c233f0ac36ffb31716605" approved="yes">
+        <source>%1$s does not exist in database %2$s (ID: %3$s), and therefore cannot be validated</source>
+        <target xml:lang="mk">%1$s не постои во базата на податоци %2$s (ИД: %3$s), и затоа не може да се потврди</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3242</note>
+      </trans-unit>
+      <trans-unit id="597cf702e07f3b35431d2a499b00cefd" approved="yes">
+        <source>%1$s does not exist in database %2$s (ID: %3$s), and therefore cannot be saved</source>
+        <target xml:lang="mk">%1$s не постои во базата на податоци %2$s (ИД: %3$s), и затоа не може да се зачува</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3252</note>
+      </trans-unit>
       <trans-unit id="b06766963f3b27f47f5e6ddf68d8f07e" approved="yes">
         <source>"%email%" is not a valid email address.</source>
         <target xml:lang="mk">%email% не е валидна e-mail адреса.</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3229</note>
+      </trans-unit>
+      <trans-unit id="4a69d9da990728e003654d32a0b283a4" approved="yes">
+        <source>The customer ID #%d does not exist in the database, and therefore cannot be validated.</source>
+        <target xml:lang="mk">ИДто на клиентот #%d не постои во базата на податоци и затоа не може да се потврди.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3265</note>
       </trans-unit>
       <trans-unit id="608ec99cc3ef74d962769c1958a1fa62" approved="yes">
         <source>The customer ID #%d does not exist in the database, and therefore cannot be saved.</source>
@@ -437,6 +605,12 @@ File: controllers/admin/AdminImportController.php:3602</note>
         <target xml:lang="mk">називот е неточен</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3679</note>
+      </trans-unit>
+      <trans-unit id="52629716aa86c04b8d81bc7e9522463f" approved="yes">
+        <source>Store is invalid</source>
+        <target xml:lang="mk">Пазарот е неважечки</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3847</note>
       </trans-unit>
       <trans-unit id="2e73276e5106584df31fd1cc5823ba81" approved="yes">
         <source>Supplier ID (%id%) is not valid (at line %line%).</source>
@@ -552,6 +726,12 @@ File: controllers/admin/AdminImportController.php:4086</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:4183</note>
       </trans-unit>
+      <trans-unit id="931bbbb741d025e3ff25ee3c2e72f414" approved="yes">
+        <source>Linking Accessories...</source>
+        <target xml:lang="mk">Поврзување на додатоци...</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:4438</note>
+      </trans-unit>
       <trans-unit id="d165f0c742c272ed88dc27acc91e2642" approved="yes">
         <source>%s import</source>
         <target xml:lang="mk">%s увоз</target>
@@ -570,30 +750,116 @@ File: controllers/admin/AdminImportController.php:4516</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:4519</note>
       </trans-unit>
+      <trans-unit id="32de857e46ef2b55ce3582004fef7a95" approved="yes">
+        <source>The confirmation email couldn't be sent, but the import is successful. Yay!</source>
+        <target xml:lang="mk">Не може да се испрати e-mail за потврда, но внесот е успешен. Ураа!</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:4647</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl" source-language="en" target-language="mk" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="d85366190ecd2aebf8363980ad9d6740" approved="yes">
+        <source>Importing your data...</source>
+        <target xml:lang="mk">Внесување на вашите податоци...</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:76</note>
+      </trans-unit>
+      <trans-unit id="8a1d14318cfc965da76c0b9d0a53bb93" approved="yes">
+        <source>Aborting, please wait...</source>
+        <target xml:lang="mk">Прекинување, ве молиме почекајте...</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:27</note>
+      </trans-unit>
+      <trans-unit id="e130ff31fe5f7a054a2db876a7acc94d" approved="yes">
+        <source>Data imported!</source>
+        <target xml:lang="mk">Внесени податоци!</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:33</note>
+      </trans-unit>
+      <trans-unit id="118f9dbc8442c6be19dfc0b70d965929" approved="yes">
+        <source>Look at your listings to make sure it's all there as you wished.</source>
+        <target xml:lang="mk">Погледнете ги вашите огласи за да бидете сигурни дека сето тоа е таму како што посакувате.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:35</note>
+      </trans-unit>
+      <trans-unit id="4959a069997257077022c1b96b3b8001" approved="yes">
+        <source>Errors occurred:</source>
+        <target xml:lang="mk">Настанаa грешки:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:39</note>
+      </trans-unit>
+      <trans-unit id="0ccb924c3db6a900cff26de895f756b8" approved="yes">
+        <source>Warning, the current import may require a PHP setting update, to allow more data to be transferred. If the current import stops before the end, you should increase your PHP "post_max_size" setting to [1]%size%[/1]MB at least, and try again.</source>
+        <target xml:lang="mk">Предупредување, моменталниот внес може да бара ажурирање на PHP поставувањето, за да дозволи да се пренесат повеќе податоци. Ако тековниот внес застанува пред крајот, треба да го зголемите вашето PHP "post_max_size" поставување на најмалку [1]%size%[/1]MB и обидете се повторно.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:42</note>
+      </trans-unit>
+      <trans-unit id="841e4579e55a01ab8f0c565995ba7cfc" approved="yes">
+        <source>Some errors were detected. Please check the details:</source>
+        <target xml:lang="mk">Некои грешки беа откриени. Проверете ги деталите:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:49</note>
+      </trans-unit>
+      <trans-unit id="3df311b82f78fa4059e9a78a26e77b06" approved="yes">
+        <source>We made the following adjustments:</source>
+        <target xml:lang="mk">Ние ги направивме следниве прилагодувања:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:52</note>
+      </trans-unit>
+      <trans-unit id="6e17621d481059924339f91ed431a116" approved="yes">
+        <source>Validating data...</source>
+        <target xml:lang="mk">Потврдување на податоци...</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:57</note>
+      </trans-unit>
+      <trans-unit id="95fdb0ead4798ff27cce78fac3fd3c11" approved="yes">
+        <source>[1]%percentage%[/1]% validated</source>
+        <target xml:lang="mk">[1]%percentage%[/1]% потврдени</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:62</note>
+      </trans-unit>
+      <trans-unit id="fd2f43e6f9f4de5be1b08cdac13d7749" approved="yes">
+        <source>Processing next page...</source>
+        <target xml:lang="mk">Обработка на следната страница...</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:92</note>
+      </trans-unit>
+      <trans-unit id="f438c83e3ff4dd40a3fc1bf4bb3e79f5" approved="yes">
+        <source>Linking accessories...</source>
+        <target xml:lang="mk">Поврзување додатоци...</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:81</note>
+      </trans-unit>
+      <trans-unit id="2a44b5ac9f88c57f584bf083730a93f7" approved="yes">
+        <source>[1]%size%[/1]% imported</source>
+        <target xml:lang="mk">[1]%size%[/1]% внесени</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:84</note>
+      </trans-unit>
+      <trans-unit id="650e0b1fd707ad8ad3a94e2eb494de3d" approved="yes">
+        <source>Ignore warnings and continue?</source>
+        <target xml:lang="mk">Игнорирај ги предупредувањата и продолжи?</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:100</note>
+      </trans-unit>
+      <trans-unit id="b8388ec68dcac2402d944fbb3382b0f1" approved="yes">
+        <source>Abort import</source>
+        <target xml:lang="mk">За внесот</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:104</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminEmailsController.php" source-language="en" target-language="mk" datatype="plaintext">
     <body>
-      
+      <trans-unit id="5b8df4265c79cd43831e740281850c84" approved="yes">
+        <source>SSL does not seem to be available on your server.</source>
+        <target xml:lang="mk">Се чини дека SSL не е достапен на вашиот сервер.</target>
+        <note>Context:
+File: controllers/admin/AdminEmailsController.php:166</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminShopController.php" source-language="en" target-language="mk" datatype="plaintext">
@@ -625,6 +891,18 @@ File: controllers/admin/AdminShopController.php:644</note>
         <target xml:lang="mk">заштита на датотеката не постои</target>
         <note>Context:
 File: controllers/admin/AdminBackupController.php:158</note>
+      </trans-unit>
+      <trans-unit id="2c7338ad06a6bb0747b0d432c33464ce" approved="yes">
+        <source>The "Backups" directory located in the admin directory must be writable (CHMOD 755 / 777).</source>
+        <target xml:lang="mk">Директориумот "Backups" кој се наоѓа во администраторот на директориумот мора да биде запишан (CHMOD 755/777).</target>
+        <note>Context:
+File: controllers/admin/AdminBackupController.php:174</note>
+      </trans-unit>
+      <trans-unit id="f36c9a20c2ce51f491c944e41fde5ace" approved="yes">
+        <source>It appears the backup was successful, however you must download and carefully verify the backup file before proceeding.</source>
+        <target xml:lang="mk">Се чини дека резервната копија е успешна, но мора да ја преземете и внимателно да ја потврдите резервната датотека пред да продолжите.</target>
+        <note>Context:
+File: controllers/admin/AdminBackupController.php:181</note>
       </trans-unit>
       <trans-unit id="d07e52a27b56cb0bb153bf214b3953d4" approved="yes">
         <source>Unable to open your backup directory</source>
@@ -774,11 +1052,23 @@ File: src/Adapter/Requirement/CheckRequirements.php:115</note>
         <note>Context:
 File: src/Adapter/Requirement/CheckRequirements.php:116</note>
       </trans-unit>
+      <trans-unit id="0996c7cf8e7f49f54d15b68262a6b68d" approved="yes">
+        <source>Some PrestaShop files are missing from your server.</source>
+        <target xml:lang="mk">Некои PrestaShop датотеки недостасуваат од вашиот сервер.</target>
+        <note>Context:
+File: src/Adapter/Requirement/CheckRequirements.php:117</note>
+      </trans-unit>
       <trans-unit id="95095fc4bbc8b42ec512cfb1cfa19d8a" approved="yes">
         <source>You are using PHP %s version. Soon, the latest PHP version supported by PrestaShop will be PHP 5.4. To make sure you’re ready for the future, we recommend you to upgrade to PHP 5.4 now!</source>
         <target xml:lang="mk">Вие ја користите PHP %s верзијата. Наскоро, најновата PHP верзија поддржана од PrestaShop ќе биде PHP 5.4. За да бидете сигурни дека сте подготвени за иднината, ние ви препорачуваме да го надградите до PHP 5.4 сега!</target>
         <note>Context:
 File: src/Adapter/Requirement/CheckRequirements.php:118</note>
+      </trans-unit>
+      <trans-unit id="0b9193ca4af6867c1f50a07097254b62" approved="yes">
+        <source>Enable the Apache mod_rewrite module</source>
+        <target xml:lang="mk">Овозможете го модулот за mod_rewrite Apache</target>
+        <note>Context:
+File: src/Adapter/Requirement/CheckRequirements.php:119</note>
       </trans-unit>
     </body>
   </file>
@@ -874,6 +1164,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/sy
   </file>
   <file original="admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl" source-language="en" target-language="mk" datatype="plaintext">
     <body>
+      <trans-unit id="613260718349db00d0b7b9c1eb77c76c" approved="yes">
+        <source>Your file has been successfully imported into your shop. Don't forget to re-build the products' search index.</source>
+        <target xml:lang="mk">Вашата датотека е успешно внесена во вашиот пазар. Не заборавајте да го реконструирате индексот за пребарување на производите.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:28</note>
+      </trans-unit>
       <trans-unit id="418dde4b22e22a725e75b2819c0373b2" approved="yes">
         <source>Note that the Category import does not support having two categories with the same name.</source>
         <target xml:lang="mk">имај на знаење дека увозот на категории не е дозволен за категории со идентични имиња.</target>
@@ -892,9 +1188,9 @@ File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:70</note>
       </trans-unit>
-      <trans-unit id="df6e9862566912e908ef785e860f9c71">
+      <trans-unit id="df6e9862566912e908ef785e860f9c71" approved="yes">
         <source>Are you sure that you would like to delete this entity: </source>
-        <target xml:lang="mk" state="needs-translation"> </target>
+        <target xml:lang="mk">Дали сте сигурни дека сакате да го избришете овој ентитет: </target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:493</note>
       </trans-unit>
@@ -919,6 +1215,12 @@ File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:46<
         <target xml:lang="mk">Ова е отворена програма. Ја користите на Ваш ризик според условите во спогодбата.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:49</note>
+      </trans-unit>
+      <trans-unit id="99c8acd81f347dd6268fda9bf9e61b97" approved="yes">
+        <source>You should back up your data on a regular basis (both files and database).</source>
+        <target xml:lang="mk">Треба да направите резервна копија на вашите податоци на редовна основа (на датотеките и базата на податоци).</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:50</note>
       </trans-unit>
       <trans-unit id="4d247cbe2dbd06ce20b9affd635e7982" approved="yes">
         <source>This function only backs up your database, not your files.</source>
@@ -972,6 +1274,36 @@ File: admin-dev/themes/default/template/controllers/backup/download/view.tpl:61<
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:50</note>
       </trans-unit>
+      <trans-unit id="088e7482af32200b588d22e5f0af4f94" approved="yes">
+        <source>How to restore a database backup</source>
+        <target xml:lang="mk">Како да ja вратите резервната копија на базата на податоци</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:70</note>
+      </trans-unit>
+      <trans-unit id="bcb4db2b36ea3b1e20e5ee4aa9a68665" approved="yes">
+        <source>If you need to restore a database backup, we invite you to subscribe to a [1][2]technical support plan[/2][/1].</source>
+        <target xml:lang="mk">Ако треба да ја вратите резервната копија од базата на податоци, ве покануваме да се претплатите на [1][2]планот за техничка поддршка[/2][/1].</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:71</note>
+      </trans-unit>
+      <trans-unit id="0929b3759c8eef31c299400f513072dd" approved="yes">
+        <source>Our team will take care of restoring your database safely.</source>
+        <target xml:lang="mk">Нашиот тим ќе се грижи за безбедно враќање на вашата база на податоци.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:73</note>
+      </trans-unit>
+      <trans-unit id="c4b6a12f5f4cbbeb2353a718ee9a8a9a" approved="yes">
+        <source>Why can't I restore it by myself?</source>
+        <target xml:lang="mk">Зошто не можам да го вратам сам?</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:76</note>
+      </trans-unit>
+      <trans-unit id="d4ef96663955ee203ce986ef40945199" approved="yes">
+        <source>Your shop is hosted by PrestaShop. Although you can create backup files here below, there are core settings you cannot access for security reasons, like the database management. Thus, only our team can proceed to a restoration.</source>
+        <target xml:lang="mk">Вашиот пазар е хостиран од PrestaShop. Иако можете да креирате резервна копија на датотеки овде подолу, постојат основни поставувања за кои не можете да пристапите од безбедносни причини, како што е управување со базата на податоци. Така, само нашиот тим може да продолжи со реставрација.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:78</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/backup/helpers/view/view.tpl" source-language="en" target-language="mk" datatype="plaintext">
@@ -987,6 +1319,12 @@ File: admin-dev/themes/default/template/controllers/backup/helpers/view/view.tpl
         <target xml:lang="mk">фајлот за заштита би требало автоматски да се превземе набрзо , ве молиме почекајте.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/helpers/view/view.tpl:33</note>
+      </trans-unit>
+      <trans-unit id="da61b0c3311560af7fa1d9a515b309f6" approved="yes">
+        <source>If not,[1][2] please click here[/1]!</source>
+        <target xml:lang="mk">Ако не,[1][2] ве молиме кликнете овде[/1]!</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/view/view.tpl:34</note>
       </trans-unit>
     </body>
   </file>
