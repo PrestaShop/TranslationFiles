@@ -54,6 +54,7 @@ $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_e8be50a6977f278040458abdb
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_847b0223c73ac0fec0d9df6539c7cad6'] = 'Сите претплатници';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_a307579714b75082f3f8734971b125cd'] = 'Претплатници со сметки';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_d0da5609e4aebc5d532de97511a5a34a'] = 'Претплатници без сметки';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_6395c19dc5a1cef9ca125b9736358dc7'] = 'Претплатници кои се пријавуваат';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_498bed86a7c58dcf1125dd21f40a6482'] = 'Филтрирајте ги потрошувачите кои се согласиле да примат понуди од вашите партнери или не.';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_e72237358bd145d6dba764c39e53bba5'] = 'Претплатниците кои се пријавуваат се согласија да ја примат понудата од вашите партнери.';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_85d02b888be056b290282ab2021341dc'] = 'Не-претплатниците кои се пријавуваат';

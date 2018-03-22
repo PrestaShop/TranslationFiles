@@ -20,6 +20,8 @@ $_MODULE['<{blocksocial}prestashop>blocksocial_76abe3a162f22f63fae44d60fbe8f11b'
 $_MODULE['<{blocksocial}prestashop>blocksocial_e158a81859319b5e442bc490b0e81af3'] = 'ваш Pinterest пристап.';
 $_MODULE['<{blocksocial}prestashop>blocksocial_815f12ace0a25af8c12e036810002683'] = 'Vimeo URL:';
 $_MODULE['<{blocksocial}prestashop>blocksocial_cba991994fe165dfcf4f5bd256bbe119'] = 'Вашиот официјален Vimeo профил.';
+$_MODULE['<{blocksocial}prestashop>blocksocial_130bab903955b2f6047a0db82f460386'] = 'Instagram URL:';
+$_MODULE['<{blocksocial}prestashop>blocksocial_d55a27c3408d38f3137182c89b69a7a7'] = 'Вашиот официјален Instagram профил.';
 $_MODULE['<{blocksocial}prestashop>blocksocial_c9cc8cce247e49bae79f15173ce97354'] = 'Сними';
 $_MODULE['<{blocksocial}prestashop>blocksocial_d918f99442796e88b6fe5ad32c217f76'] = 'Следете нè';
 $_MODULE['<{blocksocial}prestashop>blocksocial_d85544fce402c7a2a96a48078edaf203'] = 'Facebook';
@@ -28,6 +30,8 @@ $_MODULE['<{blocksocial}prestashop>blocksocial_bf1981220040a8ac147698c85d55334f'
 $_MODULE['<{blocksocial}prestashop>blocksocial_8dd1bae8da2e2408210d0656fbe6b7d1'] = 'YouTube';
 $_MODULE['<{blocksocial}prestashop>blocksocial_5b2c8bfd1bc974966209b7be1cb51a72'] = 'Google+';
 $_MODULE['<{blocksocial}prestashop>blocksocial_86709a608bd914b28221164e6680ebf7'] = 'Pinterest';
+$_MODULE['<{blocksocial}prestashop>blocksocial_15db599e0119be476d71bfc1fda72217'] = 'Vimeo';
+$_MODULE['<{blocksocial}prestashop>blocksocial_55f015a0c5605702f913536afe70cfb0'] = 'Instagram';
 $_MODULE['<{blocksocial}prestashop>blocksocial_970cfba66b8380fb97b742e4571356c6'] = 'Youtube';
 $_MODULE['<{blocksocial}prestashop>blocksocial_dda8dc38128a8c843ba9f496d6ee7186'] = 'Google Plus';
 

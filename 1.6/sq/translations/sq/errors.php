@@ -155,7 +155,6 @@ $_ERRORS['37f63af51fbf0a770219f1885e678297'] = 'Dështoj në ridimensionimin e s
 $_ERRORS['edd74eeac79b75f3c6fe68e49789b57a'] = 'Direktoria e importit nuk ekziston.';
 $_ERRORS['a8ff4902e4a265c726856eaf96fe6279'] = 'Nr. i identifikimit të grupit të rregullës së taksës është i pavlefshëm.';
 $_ERRORS['ab054e32acddee1ba3ca0eed6a01fa04'] = 'Produkti #%1$d: piktura (%2$s) nuk mund të ruhet.';
-$_ERRORS['e267e2be02cf3e29f4ba53b5d97cf78a'] = 'Adresë e pasakte email';
 $_ERRORS['855eb8db89b4921c42072832d33d2dc2'] = 'Invalid password';
 $_ERRORS['5b5a0f20728096273927a93b1e2f4826'] = 'Edit here.';
 $_ERRORS['29fb1d25614f7ec7b3c759b7053ea75d'] = 'Ka ndodhur një gabim: Nuk mund të ruaj statusin e kthimit të urdhërblerjes.';

@@ -28,7 +28,6 @@ $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_ec59738d441f28011a81e62bd
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_3a1205098d0a13a9c41a8d538fd6a34a'] = 'Regjsitrimet në buletinin informativ';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_4351cfebe4b61d8aa5efa1d020710005'] = 'Shfaq';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_4182c8f19d40c7ca236a5f4f83faeb6b'] = 'Çabonohu';
-$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_e267e2be02cf3e29f4ba53b5d97cf78a'] = 'Adresë e pasakte email';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_3b1f17a6fd92e35bc744e986b8e7a61c'] = 'Ndodhi një error gjatë abonimit';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_d4197f3e8e8b4b5d06b599bc45d683bb'] = 'Çabonimi ishte i suksesshëm.';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_f6618fce0acbfca15e1f2b0991ddbcd0'] = 'Kjo email adresë është e regjistruar.';

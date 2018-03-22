@@ -5,10 +5,14 @@ $_MODULE = array();
 
 $_MODULE['<{homefeatured}prestashop>homefeatured_5d17bf499a1b9b2e816c99eebf0153a9'] = 'препорачани артикли на основната страна';
 $_MODULE['<{homefeatured}prestashop>homefeatured_6d37ec35b5b6820f90394e5ee49e8cec'] = 'прикажува препорачани производи во централната колона на основната страна.';
+$_MODULE['<{homefeatured}prestashop>homefeatured_fddb8a1881e39ad11bfe0d0aca5becc3'] = 'Бројот на производи е невалиден. Ве молиме внесете позитивен број.';
+$_MODULE['<{homefeatured}prestashop>homefeatured_fd2608d329d90e9a49731393427d0a5a'] = 'Невалидна вредност за "рандомизираното" знаме.';
 $_MODULE['<{homefeatured}prestashop>homefeatured_6af91e35dff67a43ace060d1d57d5d1a'] = 'Нагодувањата се ажурирани';
 $_MODULE['<{homefeatured}prestashop>homefeatured_f4f70727dc34561dfde1a3c529b6205c'] = 'Нагодувања';
 $_MODULE['<{homefeatured}prestashop>homefeatured_d44168e17d91bac89aab3f38d8a4da8e'] = 'број на артикли кои ќе се прикажат';
 $_MODULE['<{homefeatured}prestashop>homefeatured_1b73f6b70a0fcd38bbc6a6e4b67e3010'] = 'подеси број на артикли кои сакаш да ги има на основната страна (основно: 8).';
+$_MODULE['<{homefeatured}prestashop>homefeatured_b773a38d8c456f7b24506c0e3cd67889'] = 'Категорија од која ќе се изберат производи кои треба да бидат прикажани';
+$_MODULE['<{homefeatured}prestashop>homefeatured_49417670345173e7b95018b7bf976fc7'] = 'Случајно прикажување на избрани производи';
 $_MODULE['<{homefeatured}prestashop>homefeatured_93cba07454f06a4a960172bbd6e2a435'] = 'Да';
 $_MODULE['<{homefeatured}prestashop>homefeatured_bafd7322c6e97d25b6299b5d6fe8920b'] = 'Не';
 $_MODULE['<{homefeatured}prestashop>homefeatured_c9cc8cce247e49bae79f15173ce97354'] = 'Сними';

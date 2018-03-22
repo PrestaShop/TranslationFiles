@@ -12,6 +12,7 @@ $_MODULE['<{newsletter}prestashop>newsletter_99006a61d48499231e1be92241cf772a'] 
 $_MODULE['<{newsletter}prestashop>newsletter_7e3a51a56ddd2846e21c33f05e0aea6f'] = 'сите клиенти';
 $_MODULE['<{newsletter}prestashop>newsletter_39f7a3e2b56e9bfd753ba6325533a127'] = 'претплатници';
 $_MODULE['<{newsletter}prestashop>newsletter_011d8c5d94f729f013963d856cd78745'] = 'не се претплатници';
+$_MODULE['<{newsletter}prestashop>newsletter_6395c19dc5a1cef9ca125b9736358dc7'] = 'Претплатници кои се пријавуваат';
 $_MODULE['<{newsletter}prestashop>newsletter_82e5e0bc0f9c776c98253d569c111c0f'] = 'нема пронајдено клиенти по тој филтер!';
 $_MODULE['<{newsletter}prestashop>newsletter_48e3d5f66961b621c78f709afcd7d437'] = 'превземи';
 $_MODULE['<{newsletter}prestashop>newsletter_81573e0ea79138f02fd2cee94786d7e9'] = 'грешка: неможен запис';
