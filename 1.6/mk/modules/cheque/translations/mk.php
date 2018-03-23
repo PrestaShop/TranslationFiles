@@ -45,7 +45,7 @@ $_MODULE['<{cheque}prestashop>payment_return_9b8f932b1412d130ece5045ecafd1b42'] 
 $_MODULE['<{cheque}prestashop>payment_return_9a94f1d749a3de5d299674d6c685e416'] = 'да се испрати на';
 $_MODULE['<{cheque}prestashop>payment_return_e1c54fdba2544646684f41ace03b5fda'] = 'не заборавајте да ја додадете бројката од порачката #%d.';
 $_MODULE['<{cheque}prestashop>payment_return_4761b03b53bc2b3bd948bb7443a26f31'] = 'не заборавете да вметнете референца за порачката %s.';
-$_MODULE['<{cheque}prestashop>payment_return_610abe74e72f00210e3dcb91a0a3f717'] = 'е-маил е испратен до вас со сите информации.';
+$_MODULE['<{cheque}prestashop>payment_return_610abe74e72f00210e3dcb91a0a3f717'] = 'e-mail е испратен до вас со сите информации.';
 $_MODULE['<{cheque}prestashop>payment_return_ffd2478830ca2f519f7fe7ee259d4b96'] = 'Вашата порачка ќе биде испратена веднаш по приемот на уплатата.';
 $_MODULE['<{cheque}prestashop>payment_return_0db71da7150c27142eef9d22b843b4a9'] = 'ако имате прашања или коментар обратете се на';
 $_MODULE['<{cheque}prestashop>payment_return_decce112a9e64363c997b04aa71b7cb8'] = 'оддел за сервис.';

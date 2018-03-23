@@ -23,8 +23,8 @@ $_MODULE['<{homeslider}prestashop>homeslider_8cf45ba354f4725ec8a0d31164910895'] 
 $_MODULE['<{homeslider}prestashop>homeslider_7f82c65d548588c8d5412463c182e450'] = 'конфигурацијата не може да се освежи.';
 $_MODULE['<{homeslider}prestashop>homeslider_20015706a8cbd457cbb6ea3e7d5dc9b3'] = 'Конфигурацијата е освежена';
 $_MODULE['<{homeslider}prestashop>homeslider_7cc92687130ea12abb80556681538001'] = 'Настана грешка за време на процесот на додавање на слика';
-$_MODULE['<{homeslider}prestashop>homeslider_cdf841e01e10cae6355f72e6838808eb'] = 'слајдот неможе да се додаде.';
-$_MODULE['<{homeslider}prestashop>homeslider_eb28485b92fbf9201918698245ec6430'] = 'слајдот неможе да се освежи.';
+$_MODULE['<{homeslider}prestashop>homeslider_cdf841e01e10cae6355f72e6838808eb'] = 'слајдот не може да се додаде.';
+$_MODULE['<{homeslider}prestashop>homeslider_eb28485b92fbf9201918698245ec6430'] = 'слајдот не може да се освежи.';
 $_MODULE['<{homeslider}prestashop>homeslider_b9f5c797ebbf55adccdd8539a65a0241'] = 'оневозможено';
 $_MODULE['<{homeslider}prestashop>homeslider_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'овозможено';
 $_MODULE['<{homeslider}prestashop>homeslider_ced7338587c502f76917b5a693f848c5'] = 'Информации за слајдот';
@@ -44,11 +44,17 @@ $_MODULE['<{homeslider}prestashop>homeslider_11cd394e1bd88abe611fd331887f0c74'] 
 $_MODULE['<{homeslider}prestashop>homeslider_105b296a83f9c105355403f3332af50f'] = 'Пауза';
 $_MODULE['<{homeslider}prestashop>homeslider_44f0ca4d7ea17bb667e8d5e31311d959'] = 'Доцнењето помеѓу два слајда.';
 $_MODULE['<{homeslider}prestashop>homeslider_1e6a508c037fc42ef6155eeadbb80331'] = 'ауто плеј';
+$_MODULE['<{homeslider}prestashop>homeslider_5a3489cc067f89b268b6958bffb98ebf'] = 'Бидејќи во вашиот пазар се активирани повеќе јазици, ве молиме да ја поставите вашата слика за секој од нив';
+$_MODULE['<{homeslider}prestashop>homeslider_c8a1ed10db4201b3ae06ea0aa912028d'] = 'Вие не можете да управувате со предмети од слајдови од контекст на "Сите пазари" или "Групен пазар", изберете го директно пазарот којшто сакате да го уредите';
+$_MODULE['<{homeslider}prestashop>homeslider_432ed99c2e808d79c96f892807d33325'] = 'Вие можете само да го уредите овој слајд од контекстот на пазарот(ите): %s';
+$_MODULE['<{homeslider}prestashop>homeslider_7a5c11dddbb2118d08611a1f0678bb91'] = 'Не може да се добијат информации за асоцијација на слајд пазарот (id_slide: %d)';
 $_MODULE['<{homeslider}prestashop>homeslider_298b615220606d42b6ac60269df0d321'] = 'Модификациите ќе се применуваат за купување: %s';
 $_MODULE['<{homeslider}prestashop>homeslider_aef3662e6419ddaaa0a31df70e3b6557'] = 'Модификациите ќе се применат за оваа група: %s';
+$_MODULE['<{homeslider}prestashop>homeslider_71063fd397d237e563089c22dd8b69e8'] = 'Измените ќе се применуваат за сите пазари и групи на пазари';
 $_MODULE['<{homeslider}prestashop>form_92fbf0e5d97b8afd7e73126b52bdc4bb'] = 'одберете датотека';
 $_MODULE['<{homeslider}prestashop>list_c82324ebbcea34f55627a897b37190e3'] = 'листа на слајдови';
 $_MODULE['<{homeslider}prestashop>list_ef61fb324d729c341ea8ab9901e23566'] = 'Додади ново';
+$_MODULE['<{homeslider}prestashop>list_379a88861412d686cfaf475c84a24920'] = 'Споделен слајд';
 $_MODULE['<{homeslider}prestashop>list_7dce122004969d56ae2e0245cb754d35'] = 'едитирај';
 $_MODULE['<{homeslider}prestashop>list_f2a6c498fb90ee345d997f888fce3b18'] = 'Избриши';
 

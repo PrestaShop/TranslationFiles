@@ -3,9 +3,12 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{dashproducts}prestashop>dashproducts_6655df4af87b2038afd507a33545a56d'] = 'Контролна табла на производи';
+$_MODULE['<{dashproducts}prestashop>dashproducts_4a528e24be5aca96e8a15b256efe1f31'] = 'Додајте блок со табела од вашите најнови нарачки и рангирање на вашите производи';
 $_MODULE['<{dashproducts}prestashop>dashproducts_2ea989f83006e233627987293f4bde0a'] = 'Име на клиент';
 $_MODULE['<{dashproducts}prestashop>dashproducts_068f80c7519d0528fb08e82137a72131'] = 'наслови';
 $_MODULE['<{dashproducts}prestashop>dashproducts_96b0141273eabab320119c467cdcaf17'] = 'Вкупно';
+$_MODULE['<{dashproducts}prestashop>dashproducts_58ef6750a23ba432fc1377b7de085d9f'] = 'Без данок.';
 $_MODULE['<{dashproducts}prestashop>dashproducts_44749712dbec183e983dcd78a7736c41'] = 'Датум';
 $_MODULE['<{dashproducts}prestashop>dashproducts_ec53a8c4f07baed5d8825072c89799be'] = 'Статус';
 $_MODULE['<{dashproducts}prestashop>dashproducts_3ec365dd533ddb7ef3d1c111186ce872'] = 'Детали';

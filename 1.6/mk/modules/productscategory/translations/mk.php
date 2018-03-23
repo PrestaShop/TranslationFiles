@@ -12,6 +12,8 @@ $_MODULE['<{productscategory}prestashop>productscategory_1d986024f548d57b1d743ec
 $_MODULE['<{productscategory}prestashop>productscategory_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'овозможено';
 $_MODULE['<{productscategory}prestashop>productscategory_b9f5c797ebbf55adccdd8539a65a0241'] = 'оневозможено';
 $_MODULE['<{productscategory}prestashop>productscategory_c9cc8cce247e49bae79f15173ce97354'] = 'Сними';
+$_MODULE['<{productscategory}prestashop>productscategory_f55e0a28b86c2ab66ac632ab9ddf1833'] = '%s друг производ во иста категорија:';
+$_MODULE['<{productscategory}prestashop>productscategory_bebb44f38b03407098d48198c1d0aaa5'] = '%s други производи во иста категорија:';
 $_MODULE['<{productscategory}prestashop>productscategory_dd1f775e443ff3b9a89270713580a51b'] = 'Претходно';
 $_MODULE['<{productscategory}prestashop>productscategory_10ac3d04253ef7e1ddc73e6091c0cd55'] = 'Следно';
 $_MODULE['<{productscategory}prestashop>productscategory_2d0f6b8300be19cf35e89e66f0677f95'] = 'Во кошничка';

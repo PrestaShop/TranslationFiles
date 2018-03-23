@@ -25,6 +25,7 @@ $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_98f770b0af18ca7
 $_MODULE['<{advancedeucompliance}prestashop>adminaeuccontroller_d602cd3160dcb3b836420a2e5683cb0f'] = 'Напредна ЕУ Компатибилност';
 $_MODULE['<{advancedeucompliance}prestashop>email_attachments_form_c9cc8cce247e49bae79f15173ce97354'] = 'Сними';
 $_MODULE['<{advancedeucompliance}prestashop>legal_cms_manager_form_c9cc8cce247e49bae79f15173ce97354'] = 'Сними';
+$_MODULE['<{advancedeucompliance}prestashop>hookoverridetosdisplay_97abaa921b2270031573362f57aad4a4'] = 'Правила и Услови';
 
 
 return $_MODULE;

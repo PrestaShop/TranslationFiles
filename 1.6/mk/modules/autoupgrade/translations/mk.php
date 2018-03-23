@@ -371,10 +371,10 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a10ef376d9f4c877ac86d8e43501
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f8fe8cba1625eaf8e5c253b041d57dbd'] = 'Додадената датотека само делумно беше додадена';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8c9067e52e4440d8a20e74fdc745b0c6'] = 'Датотеката не беше додадена';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2384d693d9af53b4727c092af7570a19'] = 'Недостасува привремена папка';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f5985b2c059d5cc36968baab7585baba'] = 'неможен запис на на дискот';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f5985b2c059d5cc36968baab7585baba'] = 'не можен запис на на дискот';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9e54dfe54e03b0010c1fe70bd65cd5e6'] = 'Поставувањето на датотеката е запрено со продолжување';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_32af3a59b50e98d254d6c03c5b320a94'] = 'Не може да се конвертираат вашите податоци на база на податоци во utf-8.';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_989a45a4ca01ee222f4370172bf8850d'] = 'невалидно име за продавницата';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_989a45a4ca01ee222f4370172bf8850d'] = 'невалидно име за пазарот';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_68499acecfba9d3bf0ca8711f300d3ed'] = 'Вашето име содржи невалидни знаци';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2399cf4ca7b49f2706f6e147a32efa78'] = 'Вашето презиме содржи невалидни знаци';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7d72600fcff52fb3a2d2f73572117311'] = 'Вашиот сервер за база на податоци не го поддржува utf-8 кодирањето.';

@@ -12,12 +12,14 @@ $_MODULE['<{gsitemap}prestashop>configuration_1c95b77d135b55c84429588c11697ea4']
 $_MODULE['<{gsitemap}prestashop>configuration_aa17b80751f4ae53ab8e3ed2fe99e94d'] = 'мапите на сајтот се веќе креирани.';
 $_MODULE['<{gsitemap}prestashop>configuration_a0bfb8e59e6c13fc8d990781f77694fe'] = 'Продолжи';
 $_MODULE['<{gsitemap}prestashop>configuration_9ab08b9ceeef857df07ad10e1de9301e'] = 'ве молиме подеси ги следните УРЛ во твојот Google Webmaster account:';
+$_MODULE['<{gsitemap}prestashop>configuration_aef717e48ecd01989c92849d44bff9b6'] = 'Овој URL е главната датотека на Sitemaps. Се однесува на следните датотеки на под-sitemap:';
 $_MODULE['<{gsitemap}prestashop>configuration_0dbf904a2b27f036cf06741aad221ecc'] = 'Вашето последно ажурирање беше направено на овој датум:';
 $_MODULE['<{gsitemap}prestashop>configuration_6d37779958434303f8397436a1484ed8'] = 'за подобро користење на моудлот, види и биди сигурен дека има';
 $_MODULE['<{gsitemap}prestashop>configuration_6a3282611e5ffb8539ce434133073f15'] = 'минималната вредност на memory_limit е 128 MB.';
 $_MODULE['<{gsitemap}prestashop>configuration_f891951357d4892887f0e416c54f972d'] = 'минимална вредност на max_execution_time од 30 секунди.';
 $_MODULE['<{gsitemap}prestashop>configuration_8156303464de0fba7cb8306cc768e998'] = 'може да ги едитираш лимитите во php.ini За повеќе детали, контактирај го провајдерот за хостинг.';
 $_MODULE['<{gsitemap}prestashop>configuration_0b9b4b91e0a8f59e264202a23d9c57a6'] = 'конфигурирај ја мапата на сајтот';
+$_MODULE['<{gsitemap}prestashop>configuration_fe242b3dd3f455778072dc7042637a5e'] = 'Неколку датотеки на Sitemaps ќе бидат генерирани во зависност од тоа како е конфигуриран вашиот сервер и бројот на активирани производи во вашиот каталог.';
 $_MODULE['<{gsitemap}prestashop>configuration_7f751d19f85d49a411d5691f5bb0b5f2'] = 'колку често ја освежуваш продавницата?';
 $_MODULE['<{gsitemap}prestashop>configuration_f9f90eeaf400d228facde6bc48da5cfb'] = 'секогаш';
 $_MODULE['<{gsitemap}prestashop>configuration_745fd0ea7f576f350a0eed4b8c48a8e2'] = 'еднаш во час';

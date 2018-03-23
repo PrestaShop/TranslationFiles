@@ -47,7 +47,7 @@ $_MODULE['<{bankwire}prestashop>payment_return_d717aa33e18263b8405ba00e94353cdc'
 $_MODULE['<{bankwire}prestashop>payment_return_984482eb9ff11e6310fef641d2268a2a'] = 'Име на Банката';
 $_MODULE['<{bankwire}prestashop>payment_return_bb4ec5aac6864a05fcc220cccd8e82f9'] = 'Не заборавете да го внесете вашиот број на порачката #%d во предмет на вашата банкарска жица.';
 $_MODULE['<{bankwire}prestashop>payment_return_1faa25b80a8d31e5ef25a78d3336606d'] = 'Не заборавете да вметнете референца на порачката %s  во предметот на трансферот';
-$_MODULE['<{bankwire}prestashop>payment_return_19c419a8a4f1cd621853376a930a2e24'] = 'Испратен Ви е е-маил со овие информации.';
+$_MODULE['<{bankwire}prestashop>payment_return_19c419a8a4f1cd621853376a930a2e24'] = 'Испратен Ви е e-mail со овие информации.';
 $_MODULE['<{bankwire}prestashop>payment_return_b9a1cae09e5754424e33764777cfcaa0'] = 'Вашата порачка ќе биде испратена веднаш по приемот на уплатата.';
 $_MODULE['<{bankwire}prestashop>payment_return_ca7e41a658753c87973936d7ce2429a8'] = 'Доколку имате прашања, коментари Ве молиме контактирајте не на';
 $_MODULE['<{bankwire}prestashop>payment_return_66fcf4c223bbf4c7c886d4784e1f62e4'] = 'стручен тим за поддршка на клиенти';

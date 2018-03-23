@@ -5,7 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_e92dabb4907f1957cabc469cca4deefc'] = 'конфигуратор на темата';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_cf8fdaf6e745133c90516eb9b74e31c3'] = 'конфигурирај ги основните елементи на твојата тема.';
-$_MODULE['<{themeconfigurator}prestashop>themeconfigurator_ec870aa68b135c4f3adc9a3a2731ddbc'] = 'неможе да се избрише овој слајд.';
+$_MODULE['<{themeconfigurator}prestashop>themeconfigurator_ec870aa68b135c4f3adc9a3a2731ddbc'] = 'не може да се избрише овој слајд.';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_3ee0c881516fce384747e3107dbfc538'] = 'невалидна содржина';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_dd2681ec1593dd537587be3389ee24d3'] = 'се појави грешка на снимање.';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_b9099a0a16c40efc8b73f548144d472f'] = 'успешно освежено.';

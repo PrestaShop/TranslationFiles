@@ -60,7 +60,7 @@ $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_e72237358bd145d6dba764c39
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_85d02b888be056b290282ab2021341dc'] = 'Не-претплатниците кои се пријавуваат';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_dbb392a2dc9b38722e69f6032faea73e'] = 'извези  .CSV file';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_f6df4ad6dc4798f26d1f2460eef4f2e9'] = 'барај адреси';
-$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_375afa60efcc1d48300bd339cb8154b0'] = 'е-маил адреси за барање';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_375afa60efcc1d48300bd339cb8154b0'] = 'e-mail адреси за барање';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_e347582d22a4ba3c822de504b23d4704'] = 'пример contact@prestashop.com или @prestashop.com';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_13348442cc6a27032d2b4aa28b75a5d3'] = 'Барај';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_82e5e0bc0f9c776c98253d569c111c0f'] = 'нема пронајдено клиенти по тој филтер!';
@@ -73,7 +73,7 @@ $_MODULE['<{blocknewsletter}prestashop>list_action_enable_00d23a76e43b46dae9ec7a
 $_MODULE['<{blocknewsletter}prestashop>list_action_enable_b9f5c797ebbf55adccdd8539a65a0241'] = 'оневозможено';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_ffb7e666a70151215b4c55c6268d7d72'] = 'Билтен';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_416f61a2ce16586f8289d41117a2554e'] = 'Вашата е-адреса';
-$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_d8335f4a5d918134bd0bdc47cc487d74'] = 'внеси го вашиот е-маил';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_d8335f4a5d918134bd0bdc47cc487d74'] = 'внеси го вашиот e-mail';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_a60852f204ed8028c1c58808b746d115'] = 'ОК';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_590b7aefc83952e3483c5168bf93e19f'] = 'новина: %1$s';
 

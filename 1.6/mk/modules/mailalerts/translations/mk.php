@@ -13,7 +13,7 @@ $_MODULE['<{mailalerts}prestashop>product_67135a14d3ac4f1369633dd006d6efec'] = '
 $_MODULE['<{mailalerts}prestashop>product_546e02eaa9a986c83cc347e273269f2c'] = 'извести ме кога е достапно';
 $_MODULE['<{mailalerts}prestashop>product_61172eb93737ebf095d3fa02119ce1df'] = 'барањето за известување регистрирано';
 $_MODULE['<{mailalerts}prestashop>product_bb51a155575b81f4a07f7a9bafdc3b01'] = 'имате веќе известување за овој артикл';
-$_MODULE['<{mailalerts}prestashop>product_900f8551b29793ecb604a545b2059cc1'] = 'вашата е-маил адреса е невалидна';
+$_MODULE['<{mailalerts}prestashop>product_900f8551b29793ecb604a545b2059cc1'] = 'вашата e-mail адреса е невалидна';
 
 
 return $_MODULE;

@@ -25,6 +25,7 @@ $_MODULE['<{gapi}prestashop>gapi_ac868e51ad8cfbbe457407b4ed3a94ab'] = 'Во "API
 $_MODULE['<{gapi}prestashop>gapi_d8334c85c0164bbdb0b24db654e6b611'] = 'Чувајте ја избраната "Web апликацијата" и пополнете ја областа "Овластено потекло на Javascript" со "%s" и "%s", а потоа областа "Овластено пренасочување на URI" со "%s" и "%s".';
 $_MODULE['<{gapi}prestashop>gapi_4a7ee36b0b566be651113d36e6d87a86'] = 'Потоа потврдете со кликнување на копчето "Креирај клиент ID"';
 $_MODULE['<{gapi}prestashop>gapi_6e1e99918b40cf3f46166fae1e642b73'] = 'би требало да добиете ваков прозорец. Copy/Paste the "Client ID" and "Client secret" into the form below';
+$_MODULE['<{gapi}prestashop>gapi_265c32931719280339cf19d733fea744'] = 'Сега ви треба ID од Профилот на Аналитиката што сакате да го поврзете. За да го најдете вашиот ID профил поврзете се со контролната табла на Аналитиката, потоа погледнете во URLто во полето за адреса. Вашиот ID профил е бројот кој го следен "p", како што е прикажаното подвлечено со црвена боја на сликата';
 $_MODULE['<{gapi}prestashop>gapi_b18cb8e83113953f96bbe47bd90ab69c'] = 'Google Analytics API v3.0';
 $_MODULE['<{gapi}prestashop>gapi_76525f0f34b48475e5ca33f71d296f3b'] = 'клиент бр.';
 $_MODULE['<{gapi}prestashop>gapi_734082edf44417dd19cc65943aa65c36'] = 'клиент тајна';
