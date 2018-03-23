@@ -26,13 +26,13 @@ File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/order_changed.p
       </trans-unit>
       <trans-unit id="fce4d5217e51f199cfbd10ae913cc5dd" approved="yes">
         <source><![CDATA[You can review your order and download your invoice from the <a href="{history_url}">"Order history"</a> section of your customer account by clicking <a href="{my_account_url}">"My account"</a> on our shop.]]></source>
-        <target xml:lang="mk"><![CDATA[Може да ја ревидирате порачката и да превземете фактура од <a href="{history_url}"> историја на порачка </a> секција од вашата клиентска сметка со кликање на <a href="{my_account_url}"> моја сметка</a>од продавницата.]]></target>
+        <target xml:lang="mk"><![CDATA[Може да ја ревидирате порачката и да превземете фактура од <a href="{history_url}"> историја на порачка </a> секција од вашата клиентска сметка со кликање на <a href="{my_account_url}"> моја сметка</a>од пазарот.]]></target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/order_changed.php:40</note>
       </trans-unit>
       <trans-unit id="992ed3f1f7ce7be683fd4051138b693e" approved="yes">
         <source><![CDATA[If you have a guest account, you can follow your order via the <a href="{guest_tracking_url}?id_order={order_name}">"Guest Tracking"</a> section on our shop.]]></source>
-        <target xml:lang="mk"><![CDATA[ако имате гостинска сметка може да ја следите порачката преку <a href="{guest_tracking_url}?id_order={order_name}">следење на гости</a>секција од продавницата.]]></target>
+        <target xml:lang="mk"><![CDATA[ако имате гостинска сметка може да ја следите порачката преку <a href="{guest_tracking_url}?id_order={order_name}">следење на гости</a>секција од пазарот.]]></target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/order_changed.php:49</note>
       </trans-unit>
@@ -41,6 +41,18 @@ File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/order_changed.p
         <target xml:lang="mk">порачка {order_name}</target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/order_changed.php:21</note>
+      </trans-unit>
+      <trans-unit id="6eaf1dae59f88437851d95f504f9cb3c" approved="yes">
+        <source>Order edited</source>
+        <target xml:lang="mk">Нарачката е изменета</target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/order_changed.php:21</note>
+      </trans-unit>
+      <trans-unit id="fe61da38922f840543c9f7a4f5dc8140" approved="yes">
+        <source><![CDATA[Your order with the reference <span><strong>{order_name}</strong></span> has been modified.]]></source>
+        <target xml:lang="mk"><![CDATA[Вашата нарачка со референца <span><strong>{order_name}</strong></span> е изменета.]]></target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/order_changed.php:24</note>
       </trans-unit>
     </body>
   </file>
@@ -146,7 +158,7 @@ File: modules/ps_emailgenerator/templates/modules/followup/followup_1.php:26</no
     <body>
       <trans-unit id="78e365acb087fd1f8d494dae0001de10" approved="yes">
         <source>E-mail address:</source>
-        <target xml:lang="mk">е-маил адреса:</target>
+        <target xml:lang="mk">e-mail адреса:</target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/core/employee_password.php:27</note>
       </trans-unit>
@@ -199,6 +211,12 @@ File: modules/ps_emailgenerator/templates/core/log_alert.php:24</note>
         <target xml:lang="mk">Ви благодариме што пазаревте во {shop_name}!</target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/core/shipped.php:26</note>
+      </trans-unit>
+      <trans-unit id="d0cc952b66ca292a2e4a1bc53453b287" approved="yes">
+        <source>Your order has been shipped</source>
+        <target xml:lang="mk">Вашата нарачка е испорачана</target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/core/shipped.php:7</note>
       </trans-unit>
       <trans-unit id="747cf5c8587184b9e489ff897d97c20d" approved="yes">
         <source>Shipped</source>
@@ -294,6 +312,12 @@ File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/new_order.php:2
         <note>Context:
 File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/new_order.php:6</note>
       </trans-unit>
+      <trans-unit id="6881c1c321e65a31d35137f960022cf7" approved="yes">
+        <source>A new order was placed on {shop_name} by the following customer: {firstname} {lastname} ({email})</source>
+        <target xml:lang="mk">Нова нарачка е поставена на {shop_name} од страна на следниов потрошувач: {firstname} {lastname} ({email})</target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/new_order.php:13</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/ps_emailgenerator/templates/modules/ps_emailalerts/return_slip.php" source-language="en" target-language="mk" datatype="plaintext">
@@ -345,6 +369,24 @@ File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/return_slip.php
         <target xml:lang="mk">порака од клиентот:</target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/return_slip.php:82</note>
+      </trans-unit>
+      <trans-unit id="f285446f60a203b0f7c3ad0b14d13d29" approved="yes">
+        <source>You have received a new return request for {shop_name}.</source>
+        <target xml:lang="mk">Вие добивте ново барање за враќање од {shop_name}.</target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/return_slip.php:15</note>
+      </trans-unit>
+      <trans-unit id="cd8ee64ef80cd6bb4e320a7d0563b56f" approved="yes">
+        <source>Return details</source>
+        <target xml:lang="mk">Детали за враќање</target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/return_slip.php:24</note>
+      </trans-unit>
+      <trans-unit id="f2d476bf166cc31b450908f8606b0fd5" approved="yes">
+        <source>{order_name} Placed on {date}</source>
+        <target xml:lang="mk">{order_name} Поставено на {date}</target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/return_slip.php:27</note>
       </trans-unit>
     </body>
   </file>
@@ -410,8 +452,18 @@ File: modules/ps_emailgenerator/templates/core/backoffice_order.php:24</note>
   </file>
   <file original="modules/ps_emailgenerator/templates/core/reply_msg.php" source-language="en" target-language="mk" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="2ddbd3a9b06eadccdea8e1b372830d69" approved="yes">
+        <source>Please do not reply directly to this email, we will not receive it.</source>
+        <target xml:lang="mk">Ве молиме не одговарајте директно на овој e-mail, ние нема да го примиме.</target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/core/reply_msg.php:22</note>
+      </trans-unit>
+      <trans-unit id="95d1732a1f5200c8e176bea0a5562804" approved="yes">
+        <source><![CDATA[In order to reply, please use the following link: <a href="{link}">{link}</a>]]></source>
+        <target xml:lang="mk"><![CDATA[Со цел да одговорите, ве молиме користете го следниов линк: <a href="{link}">{link}</a>]]></target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/core/reply_msg.php:24</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/ps_emailgenerator/templates/core/order_changed.php" source-language="en" target-language="mk" datatype="plaintext">
@@ -536,7 +588,7 @@ File: modules/ps_emailgenerator/templates/core/credit_slip.php:24</note>
       </trans-unit>
       <trans-unit id="99f89e9a116e1c07f62ba17fb0312db6" approved="yes">
         <source><![CDATA[You can review this credit slip and download your invoice from the <a href="{history_url}">"My credit slips"</a> section of your account by clicking <a href="{my_account_url}">"My account"</a> on our shop.]]></source>
-        <target xml:lang="mk"><![CDATA[може да го прегледате исечокот и да ја превземете фактурата од <a href="{history_url}"> мои кредитни исечоци</a> секција од вашата сметка со клик на <a href="{my_account_url}">моја сметка</a>од продавницата.]]></target>
+        <target xml:lang="mk"><![CDATA[може да го прегледате исечокот и да ја превземете фактурата од <a href="{history_url}"> мои кредитни исечоци</a> секција од вашата сметка со клик на <a href="{my_account_url}">моја сметка</a>од пазарот.]]></target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/core/credit_slip.php:40</note>
       </trans-unit>
@@ -632,8 +684,18 @@ File: modules/ps_emailgenerator/templates/core/forward_msg.php:26</note>
   </file>
   <file original="modules/ps_emailgenerator/templates/core/order_canceled.php" source-language="en" target-language="mk" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="3baf03ed2980c9f339731f052c12b37d" approved="yes">
+        <source>Order canceled</source>
+        <target xml:lang="mk">Нарачката е откажана</target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/core/order_canceled.php:21</note>
+      </trans-unit>
+      <trans-unit id="50651089ed12eb33b55394a0a17618de" approved="yes">
+        <source><![CDATA[Your order with the reference <span><strong>{order_name}</strong></span> from <span><strong>{shop_name}</strong></span> has been canceled.]]></source>
+        <target xml:lang="mk"><![CDATA[Вашата нарачка со референца <span><strong>{order_name}</strong></span> од <span><strong>{shop_name}</strong></span> е откажана.]]></target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/core/order_canceled.php:24</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/ps_emailgenerator/templates/core/download_product.php" source-language="en" target-language="mk" datatype="plaintext">
@@ -708,7 +770,7 @@ File: modules/ps_emailgenerator/templates/core/bankwire.php:49</note>
       </trans-unit>
       <trans-unit id="a51341e25ff7710496cf86468d797169" approved="yes">
         <source><![CDATA[If you have a guest account, you can follow your order via the <a href="{guest_tracking_url}">"Guest Tracking"</a> section on our shop.]]></source>
-        <target xml:lang="mk"><![CDATA[ако имате гостинска сметка, може да ја следите преку <a href="{guest_tracking_url}"> гостинско следење</a>оддел во продавницата.]]></target>
+        <target xml:lang="mk"><![CDATA[ако имате гостинска сметка, може да ја следите преку <a href="{guest_tracking_url}"> гостинско следење</a>оддел во пазарот.]]></target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/core/bankwire.php:78</note>
       </trans-unit>
@@ -782,7 +844,7 @@ File: modules/ps_emailgenerator/templates/core/contact.php:6</note>
       </trans-unit>
       <trans-unit id="31e15b28c2f071f74f47eb8bcd612d94" approved="yes">
         <source>Customer e-mail address:</source>
-        <target xml:lang="mk">е-маил адреса на клиент:</target>
+        <target xml:lang="mk">e-mail адреса на клиент:</target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/core/contact.php:21</note>
       </trans-unit>
@@ -898,7 +960,7 @@ File: modules/ps_emailgenerator/templates/core/test.php:5</note>
       </trans-unit>
       <trans-unit id="0afa69e0eb948ce9fb81e14cc0c7cf0b" approved="yes">
         <source><![CDATA[This is a <strong>test e-mail</strong> from your shop.<br /><br /> If you can read this, the test was successful!]]></source>
-        <target xml:lang="mk"><![CDATA[ова е <strong>тест порака </strong> од продавницата.<br /><br />ако можете да го прочитате ова тестот е успешен!]]></target>
+        <target xml:lang="mk"><![CDATA[ова е <strong>тест порака </strong> од пазарот.<br /><br />ако можете да го прочитате ова тестот е успешен!]]></target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/core/test.php:14</note>
       </trans-unit>
@@ -1115,7 +1177,7 @@ File: modules/ps_emailgenerator/templates/modules/referralprogram/referralprogra
       </trans-unit>
       <trans-unit id="edfb7a07b2d6386a1308f34c1a08aa0e" approved="yes">
         <source><![CDATA[When signing up, don&#039;t forget to provide the e-mail address of your referring friend:]]></source>
-        <target xml:lang="mk"><![CDATA[Кога се пријавуваш не заборавај &#039; да дадеш е-маил адреса од препорачаниот пријател:]]></target>
+        <target xml:lang="mk"><![CDATA[Кога се пријавуваш не заборавај &#039; да дадеш e-mail адреса од препорачаниот пријател:]]></target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/modules/referralprogram/referralprogram-invitation.php:39</note>
       </trans-unit>
