@@ -64,6 +64,12 @@ File: controllers/admin/AdminCustomersController.php:726</note>
         <note>Context:
 File: controllers/admin/AdminCustomersController.php:867</note>
       </trans-unit>
+      <trans-unit id="7298a088a582ffc05f2c777afb3115cb" approved="yes">
+        <source>Password cannot be empty.</source>
+        <target xml:lang="mk">Лозинката не може да биде празна.</target>
+        <note>Context:
+File: controllers/admin/AdminCustomersController.php:895</note>
+      </trans-unit>
       <trans-unit id="0a53e9e61f2a9bf59e9028b42fbd8166" approved="yes">
         <source>An error occurred while loading the object.</source>
         <target xml:lang="mk">Грешка при вчитување на објектот</target>
@@ -156,11 +162,29 @@ File: controllers/admin/AdminOrdersController.php:225</note>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:228</note>
       </trans-unit>
+      <trans-unit id="a42a075994b3ee0f6fe5956110d85889" approved="yes">
+        <source>Order status #%id% cannot be loaded</source>
+        <target xml:lang="mk">Статусот на нарачка #%id% не може да се вчита</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:380</note>
+      </trans-unit>
       <trans-unit id="4fe1644600a7dad640143da346a9211b" approved="yes">
         <source>Order #%d cannot be loaded</source>
         <target xml:lang="mk">порачка #%d не може да се вчита</target>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:385</note>
+      </trans-unit>
+      <trans-unit id="409f3dfd9f910287f86fd6c25c94c4d8" approved="yes">
+        <source>Order #%d has already been assigned this status.</source>
+        <target xml:lang="mk">Нарачката #%d е веќе доделена на овој статус.</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:389</note>
+      </trans-unit>
+      <trans-unit id="18893a82469e2cd9492fc8d46fa8ac01" approved="yes">
+        <source>An error occurred while changing the status for order #%d, or we were unable to send an email to the customer.</source>
+        <target xml:lang="mk">Настана грешка при промена на статусот за нарачката #%d, или не можевме да испратиме e-mail до клиентот.</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:414</note>
       </trans-unit>
       <trans-unit id="45d4b3afac71a54470a6cbf828e8cb0d" approved="yes">
         <source>The order carrier ID is invalid.</source>
@@ -221,6 +245,18 @@ File: controllers/admin/AdminOrdersController.php:571</note>
         <target xml:lang="mk">полето %s е потребно.</target>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:578</note>
+      </trans-unit>
+      <trans-unit id="c4d82e8095bb903683e0b0e73887aef0" approved="yes">
+        <source>Please enter a quantity to proceed with your refund.</source>
+        <target xml:lang="mk">Ве молам внесете количина за да продолжите со враќањето.</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:863</note>
+      </trans-unit>
+      <trans-unit id="8a5f368eac3aab699cf8e6e1ec28b695" approved="yes">
+        <source>Please enter an amount to proceed with your refund.</source>
+        <target xml:lang="mk">Ве молиме внесете износ за да продолжите со враќањето.</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:865</note>
       </trans-unit>
       <trans-unit id="598db0342f11f89d4268942b9491c455" approved="yes">
         <source>You cannot generate a partial credit slip.</source>
@@ -348,6 +384,18 @@ File: controllers/admin/AdminOrdersController.php:1196</note>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:1202</note>
       </trans-unit>
+      <trans-unit id="68b7afe49451dbdab7cbeff4f66be369" approved="yes">
+        <source>This delivery address country is not active.</source>
+        <target xml:lang="mk">Оваа адреса за испорака не е активна.</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:1222</note>
+      </trans-unit>
+      <trans-unit id="a9320eb7be798958cba0a93262521ede" approved="yes">
+        <source>This invoice address country is not active.</source>
+        <target xml:lang="mk">Оваа адреса на фактура на земјата не е активна.</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:1224</note>
+      </trans-unit>
       <trans-unit id="95aa605fa7f396d370b4c87afad9201c" approved="yes">
         <source>This address can't be loaded</source>
         <target xml:lang="mk">Адресата не може да се вчита</target>
@@ -413,6 +461,18 @@ File: controllers/admin/AdminOrdersController.php:1514</note>
         <target xml:lang="mk">Грешка при создавањето на Правило на Кошничка на нарачки</target>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:1567</note>
+      </trans-unit>
+      <trans-unit id="0fa578512847280157dd62ae18e92979" approved="yes">
+        <source>An error occurred while loading order status.</source>
+        <target xml:lang="mk">Се случи грешка при вчитувањето на статусот на нарачката.</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:1578</note>
+      </trans-unit>
+      <trans-unit id="fded441ef916f653d49abf142b535b52" approved="yes">
+        <source>An error occurred while sending the e-mail to the customer.</source>
+        <target xml:lang="mk">Се случи грешка при испраќање на e-mail до клиентот.</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:1591</note>
       </trans-unit>
       <trans-unit id="aeddc664f1e95691c69ea44a5c1c18f5" approved="yes">
         <source>This product is out of stock: </source>
@@ -618,6 +678,18 @@ File: controllers/admin/AdminDeliverySlipController.php:116</note>
         <note>Context:
 File: controllers/admin/AdminAddressesController.php:350</note>
       </trans-unit>
+      <trans-unit id="a58058b92c1584b1bdc413ac3d2e6699" approved="yes">
+        <source>This customer ID is not recognized.</source>
+        <target xml:lang="mk">Овој кориснички ИД не е препознаен.</target>
+        <note>Context:
+File: controllers/admin/AdminAddressesController.php:357</note>
+      </trans-unit>
+      <trans-unit id="02c1c5ece60602356e41d407a81cb1fe" approved="yes">
+        <source>This email address is not valid. Please use an address like bob@example.com.</source>
+        <target xml:lang="mk">Оваа имејл адреса не е валидна. Ве молиме користете адреса како bob@example.com.</target>
+        <note>Context:
+File: controllers/admin/AdminAddressesController.php:360</note>
+      </trans-unit>
       <trans-unit id="7c77177e0084c27161d63e7de535a1c6" approved="yes">
         <source>The identification number is incorrect or has already been used.</source>
         <target xml:lang="mk">бројот за идентификација е неточен или е веќе искористен</target>
@@ -699,6 +771,30 @@ File: controllers/admin/AdminSearchController.php:142</note>
         <target xml:lang="mk">Грешка.Вашата порака не е испратена.Конактирајте го систем администраторот.</target>
         <note>Context:
 File: controllers/admin/AdminCustomerThreadsController.php:482</note>
+      </trans-unit>
+      <trans-unit id="d9c93c77e4f2eb90e8457f586e0c5cb3" approved="yes">
+        <source>Cannot create message in a new thread.</source>
+        <target xml:lang="mk">Не може да се креира порака во нова тема.</target>
+        <note>Context:
+File: controllers/admin/AdminCustomerThreadsController.php:1079</note>
+      </trans-unit>
+      <trans-unit id="142c7111dc9e81f5cf273851ccce9fcc" approved="yes">
+        <source>The message body is empty, cannot import it.</source>
+        <target xml:lang="mk">Телото на пораката е празно, не може да се внесе.</target>
+        <note>Context:
+File: controllers/admin/AdminCustomerThreadsController.php:1144</note>
+      </trans-unit>
+      <trans-unit id="5d1cbbd2b78574a8cfac676d8bdb9ea4" approved="yes">
+        <source>Invalid message content for subject: %s</source>
+        <target xml:lang="mk">Неважечка содржина на порака за предмет: %s</target>
+        <note>Context:
+File: controllers/admin/AdminCustomerThreadsController.php:1151</note>
+      </trans-unit>
+      <trans-unit id="f70f856f6d471d374aaf5080afeb1e53" approved="yes">
+        <source>The message content is not valid, cannot import it.</source>
+        <target xml:lang="mk">Содржината на пораката не е валидна, не може да се внесе.</target>
+        <note>Context:
+File: controllers/admin/AdminCustomerThreadsController.php:1157</note>
       </trans-unit>
     </body>
   </file>
@@ -806,6 +902,12 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:47</note>
       </trans-unit>
+      <trans-unit id="c4832c266d52c6cef340a9c656ddda26" approved="yes">
+        <source>Error. You cannot refund a negative amount.</source>
+        <target xml:lang="mk">Грешка. Не можете да вратите негативен износ.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:62</note>
+      </trans-unit>
       <trans-unit id="14c7a12fdbf437a0545aed3365ce3f84" approved="yes">
         <source>No merchandise returned yet</source>
         <target xml:lang="mk">Нема вратено производи до сега</target>
@@ -818,11 +920,17 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:403</note>
       </trans-unit>
-      <trans-unit id="7137dec9b59978006f8b0ec036099346">
+      <trans-unit id="7137dec9b59978006f8b0ec036099346" approved="yes">
         <source>This warning also concerns order </source>
-        <target xml:lang="mk" state="needs-translation"> </target>
+        <target xml:lang="mk">Ова предупредување исто така се однесува на нарачката </target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:408</note>
+      </trans-unit>
+      <trans-unit id="f38c718d5cc5ea7331d8acf533f9bf0d" approved="yes">
+        <source>This warning also concerns the next orders:</source>
+        <target xml:lang="mk">Ова предупредување се однесува и за следниве нарачки:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:410</note>
       </trans-unit>
       <trans-unit id="de78da3154b793d64d302db27e65baec" approved="yes">
         <source>No payment methods are available</source>
@@ -936,7 +1044,12 @@ File: admin-dev/themes/default/template/controllers/orders/_documents.tpl:165</n
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/_product_line.tpl" source-language="en" target-language="mk" datatype="plaintext">
     <body>
-      
+      <trans-unit id="65247263c6ea1d91027b28a41db8cb4b" approved="yes">
+        <source>Editing this product line will remove the reduction and base price.</source>
+        <target xml:lang="mk">Уредувањето на оваа производна линија ќе го отстрани намалувањето и основната цена.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/_product_line.tpl:47</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/_shipping.tpl" source-language="en" target-language="mk" datatype="plaintext">
@@ -979,9 +1092,9 @@ File: admin-dev/themes/default/template/controllers/customers/helpers/list/list_
   </file>
   <file original="admin-dev/themes/default/template/controllers/customers/helpers/view/view.tpl" source-language="en" target-language="mk" datatype="plaintext">
     <body>
-      <trans-unit id="c7b085efe30557dbc76c2ba487506049">
+      <trans-unit id="c7b085efe30557dbc76c2ba487506049" approved="yes">
         <source>A registered customer account using the defined email address already exists. </source>
-        <target xml:lang="mk" state="needs-translation"> </target>
+        <target xml:lang="mk">Регистрирана корисничка сметка со дефинирана e-mail адреса веќе постои. </target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/customers/helpers/view/view.tpl:176</note>
       </trans-unit>
@@ -995,7 +1108,12 @@ File: admin-dev/themes/default/template/controllers/customers/helpers/view/view.
   </file>
   <file original="admin-dev/themes/default/template/controllers/carts/helpers/view/view.tpl" source-language="en" target-language="mk" datatype="plaintext">
     <body>
-      
+      <trans-unit id="764368526633c5baf14291ba7fbb9e05" approved="yes">
+        <source>For this particular customer group, prices are displayed as:</source>
+        <target xml:lang="mk">За оваа посебна група на клиенти, цените се прикажани како:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/carts/helpers/view/view.tpl:221</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

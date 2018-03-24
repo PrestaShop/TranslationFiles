@@ -18,6 +18,12 @@ File: classes/module/ModuleGraph.php:285</note>
   </file>
   <file original="classes/module/Module.php" source-language="en" target-language="mk" datatype="plaintext">
     <body>
+      <trans-unit id="cda10a1476bc741e9cec7b0a4fd2cb7d" approved="yes">
+        <source>Unable to install the module (Module name is not valid).</source>
+        <target xml:lang="mk">Не може да се инсталира модулот (името на модулот не е валидно).</target>
+        <note>Context:
+File: classes/module/Module.php:335</note>
+      </trans-unit>
       <trans-unit id="5a6d75d2128c9e038623b0eecbf70cfb" approved="yes">
         <source>The version of your module is not compliant with your PrestaShop version.</source>
         <target xml:lang="mk">Верзијата на вашиот модул не е во согласност со вашата верзија на PrestaShop.</target>
@@ -618,11 +624,23 @@ File: src/Core/Addon/Module/ModuleRepository.php:562</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/ModuleController.php" source-language="en" target-language="mk" datatype="plaintext">
     <body>
+      <trans-unit id="385b04e1b2442530341b51c2d3b216a3" approved="yes">
+        <source>Cannot get catalog data, please try again later. Reason: %error_details%</source>
+        <target xml:lang="mk">Не може да се добијат податоци од каталогот, обидете се повторно подоцна. Причина: %error_details%</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/ModuleController.php:133</note>
+      </trans-unit>
       <trans-unit id="71d827dd0d049981403f27fb7af0991c" approved="yes">
         <source>%module% did not return a valid response on %action% action.</source>
         <target xml:lang="mk">%module% не врати валиден одговор на акцијата %action%.</target>
         <note>Context:
 File: src/PrestaShopBundle/Controller/Admin/ModuleController.php:316</note>
+      </trans-unit>
+      <trans-unit id="8e7e1a7e5fa9edcd7139f569d07fc5b9" approved="yes">
+        <source>Confirmation needed by module %module% on %action% (%subject%).</source>
+        <target xml:lang="mk">Потврда потребна од страната на модулот%module% на %action% (%subject%).</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/ModuleController.php:655</note>
       </trans-unit>
       <trans-unit id="bf0edb2da5a51620141bff55d3060a63" approved="yes">
         <source>Exception thrown by module %module% on %action%. %error_details%</source>
@@ -663,6 +681,18 @@ File: src/PrestaShopBundle/Controller/Admin/ModuleController.php:785</note>
         <target xml:lang="mk">Не може да %action% модул %module%. %error_details%</target>
         <note>Context:
 File: src/PrestaShopBundle/Command/ModuleCommand.php:166</note>
+      </trans-unit>
+      <trans-unit id="9dca2e42fe7a0db763b8737e9a8f9133" approved="yes">
+        <source>%action% action on module %module% succeeded.</source>
+        <target xml:lang="mk">%action% дејството на модулот %module% успеа.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Command/ModuleCommand.php:154</note>
+      </trans-unit>
+      <trans-unit id="6867740141667a3da88ac51e48ed1d9d" approved="yes">
+        <source>Unknown module action. It must be one of these values: %actions%</source>
+        <target xml:lang="mk">Непознат акционен модул. Таа мора да биде една од овие вредности: %actions%</target>
+        <note>Context:
+File: src/PrestaShopBundle/Command/ModuleCommand.php:100</note>
       </trans-unit>
       <trans-unit id="e92af04f3580fee9164214abd4b621a4" approved="yes">
         <source>Validation of configuration details failed:</source>
@@ -708,20 +738,42 @@ File: src/Adapter/Module/ModuleZipManager.php:142</note>
         <note>Context:
 File: src/Adapter/Module/ModuleDataProvider.php:197</note>
       </trans-unit>
+      <trans-unit id="e03545a6c414502e72d232b4c30d9fdd" approved="yes">
+        <source>Error while loading file of module %module%. %error_message%</source>
+        <target xml:lang="mk">Грешка при вчитување на датотеката на модулот %module%. %error_message%</target>
+        <note>Context:
+File: src/Adapter/Module/ModuleDataProvider.php:215</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Module/Tab/ModuleTabRegister.php" source-language="en" target-language="mk" datatype="plaintext">
     <body>
-      
+      <trans-unit id="ee34aeaa570c9f1c206b8401d6eaa58d" approved="yes">
+        <source>Failed to install admin tab "%name%".</source>
+        <target xml:lang="mk">Неуспешно е инсталирањето на админ табот "%name%".</target>
+        <note>Context:
+File: src/Adapter/Module/Tab/ModuleTabRegister.php:264</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Module/Tab/ModuleTabUnregister.php" source-language="en" target-language="mk" datatype="plaintext">
     <body>
-      
+      <trans-unit id="e85403d2e654955b45105b9929924c89" approved="yes">
+        <source>Failed to uninstall admin tab "%name%".</source>
+        <target xml:lang="mk">Неуспешно е деинсталирањето на админ табот "%name%".</target>
+        <note>Context:
+File: src/Adapter/Module/Tab/ModuleTabUnregister.php:99</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm.html.twig" source-language="en" target-language="mk" datatype="plaintext">
     <body>
+      <trans-unit id="b8e063d2ad26dfc0a659410294caf74b" approved="yes">
+        <source>You are about to disable %moduleName% module.</source>
+        <target xml:lang="mk">Ќе го исклучите %moduleName% модулот.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm.html.twig:52</note>
+      </trans-unit>
       <trans-unit id="c5209889e18199fb2a2c50958d3212b8" approved="yes">
         <source>Your current settings will be saved, but the module will no longer be active.</source>
         <target xml:lang="mk">Вашите тековни поставки ќе бидат зачувани, но модулот повеќе нема да биде активен.</target>
@@ -762,11 +814,22 @@ File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm.h
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_addons_connect.html.twig" source-language="en" target-language="mk" datatype="plaintext">
     <body>
-      
+      <trans-unit id="df776a9024ce6c10ec1d1d763cee0301" approved="yes">
+        <source>You are about to log out your Addons account. You might miss important updates of Addons you've bought.</source>
+        <target xml:lang="mk">Ќе се одјавите од вашата Addons сметка. Може да пропуштите важни ажурирања на Addons што сте ги купиле.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_addons_connect.html.twig:90</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_import.html.twig" source-language="en" target-language="mk" datatype="plaintext">
     <body>
+      <trans-unit id="c3dbf8925ec4c77ef5317e1e27317b70" approved="yes">
+        <source>Installing module...</source>
+        <target xml:lang="mk">Инсталирање модул...</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_import.html.twig:61</note>
+      </trans-unit>
       <trans-unit id="a26f56145fea2d3af35bf0d6ac83c28a" approved="yes">
         <source>It will close as soon as the module is installed. It won't be long!</source>
         <target xml:lang="mk">Ќе се затвори штом ќе се инсталира модулот. Тоа нема да биде долго!</target>
@@ -789,16 +852,32 @@ File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_import.ht
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm_bulk_action.html.twig" source-language="en" target-language="mk" datatype="plaintext">
     <body>
-      
+      <trans-unit id="a7f0cf21776c1a6ed951c58620b4507a" approved="yes">
+        <source>You are about to [1] the following modules:</source>
+        <target xml:lang="mk">Вие ќе ги [1] следните модули:</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm_bulk_action.html.twig:37</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Module/Includes/card_notification_update.html.twig" source-language="en" target-language="mk" datatype="plaintext">
     <body>
-      
+      <trans-unit id="fca2f02b01daced572256506d1054f4a" approved="yes">
+        <source>No changelog provided</source>
+        <target xml:lang="mk">Нема обезбедени промени</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/card_notification_update.html.twig:47</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_read_more_content.html.twig" source-language="en" target-language="mk" datatype="plaintext">
     <body>
+      <trans-unit id="87ad4793c12c9f9e5d56cc81386f77b8" approved="yes">
+        <source>No description found for this module :(</source>
+        <target xml:lang="mk">Не е пронајден опис за овој модул: (</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_read_more_content.html.twig:118</note>
+      </trans-unit>
       <trans-unit id="a76e4258e8695991d6f5f62efdba70d6" approved="yes">
         <source>No additional description provided for this module :(</source>
         <target xml:lang="mk">Нема дополнителен предвиден опис за овој модул: (</target>
@@ -833,6 +912,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_read_more
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Module/manage.html.twig" source-language="en" target-language="mk" datatype="plaintext">
     <body>
+      <trans-unit id="634ec4fb81df959627996a95fa0e799c" approved="yes">
+        <source>You need to select at least one module to use the bulk action.</source>
+        <target xml:lang="mk">Треба да изберете барем еден модул за да ја користите масовната акција.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/manage.html.twig:112</note>
+      </trans-unit>
       <trans-unit id="09f9472ec012d502e9cc3ab0e31c24e8" approved="yes">
         <source>The action "[1]" is not available, impossible to perform your request.</source>
         <target xml:lang="mk">Акцијата "[1]" не е достапна, невозможно е да го извршите вашето барање.</target>
