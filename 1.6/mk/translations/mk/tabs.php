@@ -8,6 +8,7 @@ $_TABS['AdminCatalog'] = 'Catalogue';
 $_TABS['AdminParentOrders'] = 'Нарачки';
 $_TABS['AdminParentCustomer'] = 'Клиенти';
 $_TABS['AdminPriceRule'] = 'ценовни правила';
+$_TABS['AdminParentModules'] = 'Модули и сервиси';
 $_TABS['AdminParentShipping'] = 'испорака';
 $_TABS['AdminParentLocalization'] = 'Локализација';
 $_TABS['AdminParentPreferences'] = 'подесувања';
@@ -24,6 +25,8 @@ $_TABS['AdminShop'] = 'Продавници';
 $_TABS['AdminShopUrl'] = 'URL-а на пазарот';
 $_TABS['AdminBlockCategories'] = 'блок категории';
 $_TABS['AdminDashgoals'] = 'цели';
+$_TABS['AdminThemeConfigurator'] = 'тема конфигуратор';
+$_TABS['AdminCronJobs'] = 'Cron работни места';
 $_TABS['AdminProducts'] = 'наслови';
 $_TABS['AdminCategories'] = 'Категории';
 $_TABS['AdminTracking'] = 'мониторинг';
@@ -63,6 +66,7 @@ $_TABS['AdminCurrencies'] = 'Валути';
 $_TABS['AdminTaxes'] = 'Даноци';
 $_TABS['AdminTaxRulesGroup'] = 'Даночни правила';
 $_TABS['AdminTranslations'] = 'преводи';
+$_TABS['AdminModules'] = 'Модули и сервиси';
 $_TABS['AdminAddonsCatalog'] = 'модули и теми каталог';
 $_TABS['AdminModulesPositions'] = 'Позиции';
 $_TABS['AdminPayment'] = 'Плаќање';
@@ -104,6 +108,7 @@ $_TABS['AdminStockInstantState'] = 'Моментална состојба на �
 $_TABS['AdminStockCover'] = 'покриеност со стока';
 $_TABS['AdminSupplyOrders'] = 'порачки за набавка';
 $_TABS['AdminStockConfiguration'] = 'Конфигурација';
+$_TABS['AdminOnboarding'] = 'Onboarding';
 
 
 return $_TABS;

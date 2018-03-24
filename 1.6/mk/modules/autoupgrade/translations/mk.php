@@ -495,7 +495,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_017697f698d570dffed5f88a5a93
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d1cf02f3b502ad45947b846659c7774e'] = 'Надградба до PrestaShop %s';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_49c77c6b39fac5ce46832752e6612e9d'] = 'Надградба до PrestaShop %s';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b3e205a87c7cf99915d86ffe496f1706'] = 'Мигрирањето од PrestaShop %s во PrestaShop %s верзијата ќе има ОГРОМНО влијание на вашиот пазар.';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_14eb234037a8860589f68e1f34a55fd8'] = 'Вие нема да можете да ја користите вашата актуелна тема, модули и напредни податоци за акции веднаш штом вашата продавница е надградена во %s';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_14eb234037a8860589f68e1f34a55fd8'] = 'Вие нема да можете да ја користите вашата актуелна тема, модули и напредни податоци за акции веднаш штом вашиот пазар е надградена во %s';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_14848bb4861807d41b2ef22f0288f90b'] = 'Ве молиме исто така, проверете дали инсталацијата на вашиот сервер ги задоволува минималните барања:';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ba4e6bdd93c2f0c0e133bb94c27623ad'] = '%s папка постои';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_49ed9b3e9429a4ae5f4fc1374e38140d'] = 'Потребните системски функции се овозможени (fopen, file_exists, chmod)';

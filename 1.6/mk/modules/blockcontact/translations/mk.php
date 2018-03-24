@@ -4,7 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{blockcontact}prestashop>blockcontact_df8f3e2cd8d1acbb2d1aa46a45045ec5'] = 'контакт блок';
-$_MODULE['<{blockcontact}prestashop>blockcontact_318ed85b9852475f24127167815e85d9'] = 'ви овозможува додавање на информации за вашата продавница и грижа за корисници.';
+$_MODULE['<{blockcontact}prestashop>blockcontact_318ed85b9852475f24127167815e85d9'] = 'ви овозможува додавање на информации за вашиот пазар и грижа за корисници.';
 $_MODULE['<{blockcontact}prestashop>blockcontact_20015706a8cbd457cbb6ea3e7d5dc9b3'] = 'Конфигурацијата е освежена';
 $_MODULE['<{blockcontact}prestashop>blockcontact_f4f70727dc34561dfde1a3c529b6205c'] = 'Нагодувања';
 $_MODULE['<{blockcontact}prestashop>blockcontact_90a613a116f4bd9390ff7379a114f8d7'] = 'Овој блок го прикажува вашиот телефонски број во заглавието ("Јавете ни се сега"), и поврзете се на страницата \'Контактирајте нè\'.';

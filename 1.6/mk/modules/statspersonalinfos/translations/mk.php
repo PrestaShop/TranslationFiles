@@ -14,7 +14,7 @@ $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_05f074d112460c99020
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_9dc739320e2523183e8b31f395e1e489'] = 'може да ја зголемиш продажбата со:';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_2f619981f1abd95da0907766cc409be9'] = 'објава на целни рекламни кампањи.';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_428dc481e13dad2818d8088da7362dd2'] = 'контакт со група на клиенти со испраќање на новини.';
-$_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_12344d957b4aee1e2c322549ddc9741f'] = 'Родовата дистрибуција ви овозможува да се утврди процентот на мажите и жените купувачи во вашата продавница.';
+$_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_12344d957b4aee1e2c322549ddc9741f'] = 'Родовата дистрибуција ви овозможува да се утврди процентот на мажите и жените купувачи во вашиот пазар.';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_998e4c5c80f27dec552e99dfed34889a'] = 'CSV Export';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_08a12630390dc8ddd4c9fdcd9060dce6'] = 'рангирањето по возраст ви дозволува подобро одредување на целта од демографски аспект.';
 $_MODULE['<{statspersonalinfos}prestashop>statspersonalinfos_db9750afee08c6e88c91fbe1b3404ba6'] = 'дистрибуција по земја овозможува да анализирате во кој дел од светот клиентите помалку или повеќе купуваат.';

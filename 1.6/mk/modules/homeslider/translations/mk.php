@@ -47,10 +47,12 @@ $_MODULE['<{homeslider}prestashop>homeslider_1e6a508c037fc42ef6155eeadbb80331'] 
 $_MODULE['<{homeslider}prestashop>homeslider_5a3489cc067f89b268b6958bffb98ebf'] = 'Бидејќи во вашиот пазар се активирани повеќе јазици, ве молиме да ја поставите вашата слика за секој од нив';
 $_MODULE['<{homeslider}prestashop>homeslider_c8a1ed10db4201b3ae06ea0aa912028d'] = 'Вие не можете да управувате со предмети од слајдови од контекст на "Сите пазари" или "Групен пазар", изберете го директно пазарот којшто сакате да го уредите';
 $_MODULE['<{homeslider}prestashop>homeslider_432ed99c2e808d79c96f892807d33325'] = 'Вие можете само да го уредите овој слајд од контекстот на пазарот(ите): %s';
+$_MODULE['<{homeslider}prestashop>homeslider_6a1ae4ad1018e00dddb16a2ce30a24f6'] = 'Вие не можете да додадете слајдови од контекстот на "Сите пазари" или "Групен пазар"';
 $_MODULE['<{homeslider}prestashop>homeslider_7a5c11dddbb2118d08611a1f0678bb91'] = 'Не може да се добијат информации за асоцијација на слајд пазарот (id_slide: %d)';
 $_MODULE['<{homeslider}prestashop>homeslider_298b615220606d42b6ac60269df0d321'] = 'Модификациите ќе се применуваат за купување: %s';
 $_MODULE['<{homeslider}prestashop>homeslider_aef3662e6419ddaaa0a31df70e3b6557'] = 'Модификациите ќе се применат за оваа група: %s';
 $_MODULE['<{homeslider}prestashop>homeslider_71063fd397d237e563089c22dd8b69e8'] = 'Измените ќе се применуваат за сите пазари и групи на пазари';
+$_MODULE['<{homeslider}prestashop>homeslider_6a5aa2542c21debccd82b2e0038c3d1a'] = 'Овој слајд е споделен со други пазари! Сите пазари поврзани со овој слајд ќе применат модификации направени овде';
 $_MODULE['<{homeslider}prestashop>form_92fbf0e5d97b8afd7e73126b52bdc4bb'] = 'одберете датотека';
 $_MODULE['<{homeslider}prestashop>list_c82324ebbcea34f55627a897b37190e3'] = 'листа на слајдови';
 $_MODULE['<{homeslider}prestashop>list_ef61fb324d729c341ea8ab9901e23566'] = 'Додади ново';

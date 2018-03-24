@@ -5,13 +5,21 @@ $_MODULE = array();
 
 $_MODULE['<{onboarding}prestashop>onboarding_403078410560ac74cd18391f1fbf55fa'] = 'OnBoarding';
 $_MODULE['<{onboarding}prestashop>onboarding_76ddbb9f8bbe2624552fd553d0f9d040'] = 'Модулот за OnBoarding ги поздравува првпат корисниците во нивната PrestaShop задна канцеларија: преку мал игрив интерфејс, му покажува на корисникот како да ја лансира неговиот/нејзиниот пазар во неколку лесни чекори.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_c50e83d3857e41ea59189e385d4ed024'] = 'Здраво %s, добродојдовте во својот интернет пазар. [1]Следи го упатството и направи ги првите чекори со вашиот онлајн пазар!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_79b0fcd70b51a3065ebbfe7e953eae38'] = 'Проверете го нашиот каталог за да добиете нова тема или да ја прилагодите тековната стандардна тема.[1]Додадете го вашето лого, играјте со фонтвите и боите... Дадете и го овој специјален изглед на вашиот пазар! ';
+$_MODULE['<{onboarding}prestashop>backoffice_top_9a12f893e37f0f1fb9fb04bf16a7d78d'] = 'Започнете го каталогот за производи со првиот производ.[1]Бидете сигурни дека ги покривате основите со поставување на нејзината цена, со убав опис и поставување на привлечна слика![1]Ако веќе ја имате вашата база на производ во. CSV-датотеката, заштедете време и направете внес!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_4cf1a5e51827d65ded27c32d4213b12e'] = 'Вашиот пазар работи со PrestaShop Плаќањата од HiPay, така што сега можете да прифаќате плаќања со картичка. Други начини на плаќање се достапни, бидете сигурни дека ќе поставите се!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_0429b4766bfd2e6540dc3cb5537387ff'] = 'Изберете кои начини на плаќање сакате да им ги понудите на потрошувачите во вашиот пазар, и управувајте со различните ограничувања што можете да ги примените (по валута, земја или група на потрошувачи).';
+$_MODULE['<{onboarding}prestashop>backoffice_top_e62f682bcf70125635d8915ea127fe9b'] = 'Ако сметате дека ви требаат повеќе информации, сѐ уште можете да ја погледнете PrestaShop документацијата: кликнете на "Помош" во горниот десен агол од вашата задна канцеларија!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_d26019e187250752a24c5f07694bda99'] = 'Вие ги завршивте сите неопходни први чекори за конфигурирање на вашиот онлајн пазар. Можете да ги повторите овие чекори ако имате повеќе производи, начини на плаќање или да додадете добавувачи.[1]За да се нурнете подлабоко во конфигурацијата на вашиот пазар, треба да ги прочитате [2]"Први чекори со PrestaShop 1.6"[/2] поглавјето од Упатството за корисници на PrestaShop.[1]Откако ќе бидете сигурни дека вашиот пазар е подготвен да ги продава вашите производи, кликнете на копчето Лансирање за да го направите вашиот пазар јавен.';
 $_MODULE['<{onboarding}prestashop>backoffice_top_82269147f55aa394633d8ffab65a8524'] = 'Да започнеме!';
 $_MODULE['<{onboarding}prestashop>backoffice_top_d51786a260fac2376360796f7c79b076'] = 'Јас сум добар, ајде да лансираме!';
 $_MODULE['<{onboarding}prestashop>backoffice_top_3eb86a3e1dc693b55502d7391aae5cbf'] = 'Завршив, однесете ме на следниот чекор';
 $_MODULE['<{onboarding}prestashop>backoffice_top_d592a24b3a6f07d1731cc5e82247ea89'] = 'Одете на турнеја: започнете со PrestaShop';
 $_MODULE['<{onboarding}prestashop>backoffice_top_de01a1b72dcfe775cd72a5ff7af650a9'] = 'Прилагодете го изгледот и чувството на вашиот пазар';
 $_MODULE['<{onboarding}prestashop>backoffice_top_28e28cc9b29cb7be024359a92ed55282'] = 'Додајте го вашиот прв производ';
-$_MODULE['<{onboarding}prestashop>backoffice_top_9067f937e50eccdb6e7aeaf92cd054e1'] = 'Спремите ја вашата продавница за плаќања';
+$_MODULE['<{onboarding}prestashop>backoffice_top_9067f937e50eccdb6e7aeaf92cd054e1'] = 'Спремите ја вашиот пазар за плаќања';
+$_MODULE['<{onboarding}prestashop>backoffice_top_e2a122121719451136536f8a97406f8a'] = 'Вие сте сега подготвени да го лансирате вашиот пазар.';
 $_MODULE['<{onboarding}prestashop>backoffice_top_587b4c19feb558e98b1b9cbab054c8d6'] = 'Неколку чекори пред лансирањето!';
 $_MODULE['<{onboarding}prestashop>backoffice_top_7eeabe2ad5cb52ab41a2760232e5589e'] = 'Ајде да ги креираме вашите први производи';
 $_MODULE['<{onboarding}prestashop>backoffice_top_c88d196f22ac2187d88469d9faaad8fd'] = 'Изберете ги вашите опции за испорака';
@@ -21,9 +29,12 @@ $_MODULE['<{onboarding}prestashop>backoffice_top_07401b0a5880897a0aaddf3f02840d4
 $_MODULE['<{onboarding}prestashop>backoffice_top_8fe45aff43af351538b5a09436642467'] = '3/4 се завршени';
 $_MODULE['<{onboarding}prestashop>backoffice_top_b361b43eb8b02ed09668ee20a0c5dfc7'] = '4/4 се завршени';
 $_MODULE['<{onboarding}prestashop>backoffice_top_863d165c22d70b710d8340b386476059'] = 'Да започнеме со PrestaShop';
+$_MODULE['<{onboarding}prestashop>backoffice_top_8537edc13c831abe2ab38ce7f57edb5e'] = 'Прилагодете го вашиот пазар';
 $_MODULE['<{onboarding}prestashop>backoffice_top_ea6fc12147e71d57bdd78ca17ca734ce'] = 'Додадете производи';
 $_MODULE['<{onboarding}prestashop>backoffice_top_e8907cbf554073d2b2edca1196a32533'] = 'Конфигурирајте ги плаќањата';
 $_MODULE['<{onboarding}prestashop>backoffice_top_3ebc767d6b3a2251fcef53c51c253827'] = 'Не благодарам!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_7c7ca9fcc594f7ee55caa299a2afe0f5'] = 'Дајте му свој идентитет на вашиот пазар врз основа на вашиот бренд.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_ddd3ed3987ae409ab3aa41bb608254e6'] = 'Можете да ја промените вашата тема или да инсталирате нова, и бидете сигурни дека ќе го поставите вашето лого за да го направите вашиот пазар навистина уникатен.';
 $_MODULE['<{onboarding}prestashop>backoffice_top_0ea7a6aae70efc93aee629e0ba7ba864'] = 'Добро, однеси ме на мојата тема';
 $_MODULE['<{onboarding}prestashop>backoffice_top_0f03d5ce51612c788f8add6d37f65eb9'] = 'Продолжи со уредување';
 $_MODULE['<{onboarding}prestashop>backoffice_top_f2a25700f353028e282a4c13e89f3932'] = 'Додајте производи во вашиот каталог';
@@ -45,7 +56,9 @@ $_MODULE['<{onboarding}prestashop>backoffice_top_b70150e16be1e1fdc7bc9f706bfe5f2
 $_MODULE['<{onboarding}prestashop>backoffice_top_d03e44872879b8a258b6b65973aceb88'] = 'Последен чекор пред лансирањето!';
 $_MODULE['<{onboarding}prestashop>backoffice_top_26ef476ae1184dd26c0f68c3891bdbe7'] = 'Сега сте целосно комплет!';
 $_MODULE['<{onboarding}prestashop>backoffice_top_48fac01462229af90e4a4af28d671d13'] = 'Вие сте само %s чекори од лансирањето!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_c1230cc7fd7b733996ff1342c852de26'] = 'Сега сте подготвени за лансирање на вашиот пазар. Ако сметате дека ви требаат повеќе информации, сѐ уште можете да ја погледнете документацијата на PrestaShop:';
 $_MODULE['<{onboarding}prestashop>backoffice_top_74d6651537f0fcd4184b612ee5950343'] = 'кликнете на "Помош" во горниот десен агол од вашата задна канцеларија!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_01793ff8582acbe351310a6bf5d070a1'] = 'Само што ја лансирав мојот онлајн пазар со @PrestaShop. Проверете!';
 
 
 return $_MODULE;
