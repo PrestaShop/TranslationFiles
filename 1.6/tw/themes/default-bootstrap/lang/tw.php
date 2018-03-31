@@ -823,7 +823,6 @@ $_LANG['product_019d1ca7d50cc54b995f60d456435e87'] = '已用';
 $_LANG['product_6da03a74721a0554b7143254225cc08a'] = '翻新';
 $_LANG['product_2b56b60f878922093facd42284848a0c'] = '更多資訊';
 $_LANG['product_e54a973d0c3342dac6ee7d9e145c6f83'] = '包裝內容';
-$_LANG['product_7d74f3b92b19da5e606d737d339a9679'] = '項目';
 $_LANG['product_9dea4016dbcc290b773ab2fae678aaa8'] = '項目';
 $_LANG['product_8c751c4aab0db0b811cdfbddf0b4ea56'] = '存貨情況：';
 $_LANG['product_bc0f7082192ef02e934a036cf4991789'] = '此商品已無存貨';
