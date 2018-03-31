@@ -172,6 +172,12 @@ File: controllers/admin/AdminProductsController.php:1082</note>
         <note>Context:
 File: controllers/admin/AdminProductsController.php:1092</note>
       </trans-unit>
+      <trans-unit id="1697ca7c85db2a8aefb7190bc6d60b96" approved="yes">
+        <source>The uploaded file exceeds the "Maximum size for a downloadable product" set in preferences (%1$dMB) or the post_max_size/ directive in php.ini (%2$dMB).</source>
+        <target xml:lang="zh-TW">上傳的文件超過在首選項（%1$dMB）中設置的“可下載產品的最大大小”或php.ini（%2$dMB）中的post_max_size /指令。</target>
+        <note>Context:
+File: controllers/admin/AdminProductsController.php:1223</note>
+      </trans-unit>
       <trans-unit id="ed6c7c35c51ba299b38e3af151a5ec0f" approved="yes">
         <source>An error occurred while attempting to associate this image with your shop. </source>
         <target xml:lang="zh-TW">嘗試將此圖片與您的商店關聯時發生錯誤。 </target>
@@ -378,6 +384,12 @@ File: classes/Product.php:5812</note>
         <note>Context:
 File: controllers/admin/AdminAttributesGroupsController.php:116</note>
       </trans-unit>
+      <trans-unit id="de2a79b3b161c486acb8f80861cd107c" approved="yes">
+        <source>This feature has been disabled. You can activate it here: %link%.</source>
+        <target xml:lang="zh-TW">此特性已停用。你可以在這裡啟動它：%link% 。</target>
+        <note>Context:
+File: controllers/admin/AdminAttributesGroupsController.php:495</note>
+      </trans-unit>
       <trans-unit id="77ae44aa6c998166fcf1a87496278ad5" approved="yes">
         <source>(cannot load object)</source>
         <target xml:lang="zh-TW">(物件無法匯入)</target>
@@ -510,6 +522,12 @@ File: controllers/admin/AdminAttachmentsController.php:118</note>
         <target xml:lang="zh-TW">檔案複製失敗</target>
         <note>Context:
 File: controllers/admin/AdminAttachmentsController.php:230</note>
+      </trans-unit>
+      <trans-unit id="8cb9da8e2fc65153510e4a067af0b32c" approved="yes">
+        <source>The file %file% exceeds the size allowed by the server. The limit is set to %size% MB.</source>
+        <target xml:lang="zh-TW">檔案 %file% 大小超過了伺服器限制，目前限制是 %size% MB</target>
+        <note>Context:
+File: controllers/admin/AdminAttachmentsController.php:244</note>
       </trans-unit>
       <trans-unit id="d647666a6c4cef994b4fa1a540ba4481" approved="yes">
         <source>Upload error. Please check your server configurations for the maximum upload size allowed.</source>
@@ -662,6 +680,12 @@ File: controllers/admin/AdminManufacturersController.php:839</note>
         <target xml:lang="zh-TW">更新時發生錯誤的具體價格。</target>
         <note>Context:
 File: src/Adapter/Product/AdminProductWrapper.php:273</note>
+      </trans-unit>
+      <trans-unit id="22385bf735f96dbe1a4778d0b0d5345d" approved="yes">
+        <source>No reduction value has been submitted</source>
+        <target xml:lang="zh-TW">尚未遞交減少值</target>
+        <note>Context:
+File: src/Adapter/Product/AdminProductWrapper.php:250</note>
       </trans-unit>
       <trans-unit id="184a2ae304c9a05459cca0cbf8755b3a" approved="yes">
         <source>The specific price ID is invalid.</source>
@@ -1008,11 +1032,23 @@ File: admin-dev/themes/default/template/controllers/manufacturers/helpers/view/v
         <note>Context:
 File: admin-dev/themes/default/template/controllers/categories/helpers/list/list_header.tpl:62</note>
       </trans-unit>
+      <trans-unit id="764d0e955d240f946ceac8bfd3f9a83b" approved="yes">
+        <source>I want to associate the products without other categories to the parent category, then disable these products for now. I re-enable them when they are moved in their new category.</source>
+        <target xml:lang="zh-TW">我要把這些沒有分類的商品關聯到主分類中。那麼現在把這些商品拿掉。當它們被移到新分類時我會重新激活它們。</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/categories/helpers/list/list_header.tpl:70</note>
+      </trans-unit>
       <trans-unit id="fe8da1bad19e3e82de7c76c99c53cb27" approved="yes">
         <source>(Recommended)</source>
         <target xml:lang="zh-TW">(推荐)</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/categories/helpers/list/list_header.tpl:70</note>
+      </trans-unit>
+      <trans-unit id="a9a433336c261a84c4375331e7c847a8" approved="yes">
+        <source>I want to associate the products without other categories to the parent category, and keep them enabled.</source>
+        <target xml:lang="zh-TW">我要把沒有分類的商品關聯到主分類中。並保持它們激活的狀態。</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/categories/helpers/list/list_header.tpl:76</note>
       </trans-unit>
       <trans-unit id="6ee5d2b90cedb3573844f84c25ba194f" approved="yes">
         <source>Deleting this category will remove products linked only within this category and no others. Are you sure you want to continue?</source>
@@ -1024,7 +1060,12 @@ File: admin-dev/themes/default/template/controllers/categories/helpers/list/list
   </file>
   <file original="admin-dev/themes/default/template/controllers/cart_rules/actions.tpl" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
+      <trans-unit id="e602c06958cd934ccc238913f51282aa" approved="yes">
+        <source>You must select some products before</source>
+        <target xml:lang="zh-TW">您必須先選擇商品</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/cart_rules/actions.tpl:125</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
