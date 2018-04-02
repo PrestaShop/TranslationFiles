@@ -174,6 +174,12 @@ File: controllers/admin/AdminOrdersController.php:385</note>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:389</note>
       </trans-unit>
+      <trans-unit id="18893a82469e2cd9492fc8d46fa8ac01" approved="yes">
+        <source>An error occurred while changing the status for order #%d, or we were unable to send an email to the customer.</source>
+        <target xml:lang="zh-TW">更改訂單＃%d 的狀態時發生錯誤，或者我們無法發送電郵給客戶。</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:414</note>
+      </trans-unit>
       <trans-unit id="45d4b3afac71a54470a6cbf828e8cb0d" approved="yes">
         <source>The order carrier ID is invalid.</source>
         <target xml:lang="zh-TW">訂單貨運商編號有誤</target>
@@ -365,6 +371,12 @@ File: controllers/admin/AdminOrdersController.php:1179</note>
         <target xml:lang="zh-TW">發票備註沒有儲存</target>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:1196</note>
+      </trans-unit>
+      <trans-unit id="7f5a75ac350db917dc60cfbd8299da5b" approved="yes">
+        <source>Failed to upload the invoice and edit its note.</source>
+        <target xml:lang="zh-TW">無法上傳發票及編輯備註。</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:1202</note>
       </trans-unit>
       <trans-unit id="68b7afe49451dbdab7cbeff4f66be369" approved="yes">
         <source>This delivery address country is not active.</source>
@@ -760,6 +772,12 @@ File: controllers/admin/AdminCustomerThreadsController.php:482</note>
         <note>Context:
 File: controllers/admin/AdminCustomerThreadsController.php:1144</note>
       </trans-unit>
+      <trans-unit id="5d1cbbd2b78574a8cfac676d8bdb9ea4" approved="yes">
+        <source>Invalid message content for subject: %s</source>
+        <target xml:lang="zh-TW">主題為%s的訊息內容無效</target>
+        <note>Context:
+File: controllers/admin/AdminCustomerThreadsController.php:1151</note>
+      </trans-unit>
       <trans-unit id="f70f856f6d471d374aaf5080afeb1e53" approved="yes">
         <source>The message content is not valid, cannot import it.</source>
         <target xml:lang="zh-TW">訊息內容有誤，不能導入。</target>
@@ -884,11 +902,17 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:403</note>
       </trans-unit>
-      <trans-unit id="7137dec9b59978006f8b0ec036099346">
+      <trans-unit id="7137dec9b59978006f8b0ec036099346" approved="yes">
         <source>This warning also concerns order </source>
-        <target xml:lang="zh-TW" state="needs-translation"> </target>
+        <target xml:lang="zh-TW">此警告也涉及訂單 </target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:408</note>
+      </trans-unit>
+      <trans-unit id="f38c718d5cc5ea7331d8acf533f9bf0d" approved="yes">
+        <source>This warning also concerns the next orders:</source>
+        <target xml:lang="zh-TW">此警告還涉及以下訂單：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:410</note>
       </trans-unit>
       <trans-unit id="ecd2046a1d4a6e46c11914c04b9559e4" approved="yes">
         <source>A registered customer account has already claimed this email address</source>
@@ -996,7 +1020,12 @@ File: admin-dev/themes/default/template/controllers/orders/form.tpl:1277</note>
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/_shipping.tpl" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
+      <trans-unit id="2e66149518ba8dc45a9e51c4f153cebf" approved="yes">
+        <source><![CDATA[Please note that carrier change will not recalculate your shipping costs, if you want to change this please visit Shop Parameters > Order Settings]]></source>
+        <target xml:lang="zh-TW"><![CDATA[請注意，更改承運商不會重新計算您的運輸費用，如果您想更改該值，請轉到 Shop Parameters >“訂單設置”]]></target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/_shipping.tpl:101</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/customers/helpers/list/list_header.tpl" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -1011,9 +1040,9 @@ File: admin-dev/themes/default/template/controllers/customers/helpers/list/list_
   </file>
   <file original="admin-dev/themes/default/template/controllers/customers/helpers/view/view.tpl" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      <trans-unit id="c7b085efe30557dbc76c2ba487506049">
+      <trans-unit id="c7b085efe30557dbc76c2ba487506049" approved="yes">
         <source>A registered customer account using the defined email address already exists. </source>
-        <target xml:lang="zh-TW" state="needs-translation"> </target>
+        <target xml:lang="zh-TW">該電郵地址已被註冊。 </target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/customers/helpers/view/view.tpl:176</note>
       </trans-unit>

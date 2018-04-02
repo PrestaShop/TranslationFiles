@@ -578,6 +578,12 @@ File: src/Core/Addon/Module/ModuleRepository.php:381</note>
         <note>Context:
 File: src/Core/Addon/Module/ModuleRepository.php:434</note>
       </trans-unit>
+      <trans-unit id="0554e4a4ddb313c3962088dc32647e90" approved="yes">
+        <source>Parse error detected in module %module%. %error_details%.</source>
+        <target xml:lang="zh-TW">在模塊%module%中檢測到解析錯誤 ： %error_details%。</target>
+        <note>Context:
+File: src/Core/Addon/Module/ModuleRepository.php:554</note>
+      </trans-unit>
       <trans-unit id="40e7db035e09d8f198b96a7d5d9e821f" approved="yes">
         <source>Exception detected while loading module %module%. %error_details%.</source>
         <target xml:lang="zh-TW">載入模組 %module% 時發生例外狀況。例外資訊: %error_details%。</target>
@@ -588,6 +594,12 @@ File: src/Core/Addon/Module/ModuleRepository.php:562</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/ModuleController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="bf0edb2da5a51620141bff55d3060a63" approved="yes">
+        <source>Exception thrown by module %module% on %action%. %error_details%</source>
+        <target xml:lang="zh-TW">%module% 模塊 %action% 拋出異常：%error_details%</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/ModuleController.php:360</note>
+      </trans-unit>
       <trans-unit id="35e839bc1864dd50a75500028c3ebb33" approved="yes">
         <source>Installation of module %module% was successful.</source>
         <target xml:lang="zh-TW">模組 %module% 安裝成功。</target>
@@ -622,6 +634,12 @@ File: src/PrestaShopBundle/Command/ModuleCommand.php:166</note>
         <note>Context:
 File: src/PrestaShopBundle/Command/ModuleCommand.php:154</note>
       </trans-unit>
+      <trans-unit id="6867740141667a3da88ac51e48ed1d9d" approved="yes">
+        <source>Unknown module action. It must be one of these values: %actions%</source>
+        <target xml:lang="zh-TW">未知的模塊操作。必須是以下值之一：%actions%</target>
+        <note>Context:
+File: src/PrestaShopBundle/Command/ModuleCommand.php:100</note>
+      </trans-unit>
       <trans-unit id="e92af04f3580fee9164214abd4b621a4" approved="yes">
         <source>Validation of configuration details failed:</source>
         <target xml:lang="zh-TW">配置細節認證失敗：</target>
@@ -644,6 +662,12 @@ File: src/PrestaShopBundle/Command/ModuleCommand.php:141</note>
         <note>Context:
 File: src/Adapter/Module/ModuleZipManager.php:93</note>
       </trans-unit>
+      <trans-unit id="848578a1a363f2c2443b3989154bf646" approved="yes">
+        <source>Cannot extract module in %path% to get its name. %error%</source>
+        <target xml:lang="zh-TW">無法從 %path% 中提取模塊名稱：%error%</target>
+        <note>Context:
+File: src/Adapter/Module/ModuleZipManager.php:103</note>
+      </trans-unit>
       <trans-unit id="a85499f3d020141df9b6203b7585a9bf" approved="yes">
         <source>This file does not seem to be a valid module zip</source>
         <target xml:lang="zh-TW">此檔案似乎不是一個有效的模組壓縮 zip 檔案.</target>
@@ -654,8 +678,18 @@ File: src/Adapter/Module/ModuleZipManager.php:142</note>
   </file>
   <file original="src/Adapter/Module/ModuleDataProvider.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="429cc2fb9f1cb16782b0af5ba748096d" approved="yes">
+        <source>Parse error detected in main class of module %module%!</source>
+        <target xml:lang="zh-TW">在模塊%module%的主類中檢測到分析錯誤！</target>
+        <note>Context:
+File: src/Adapter/Module/ModuleDataProvider.php:197</note>
+      </trans-unit>
+      <trans-unit id="e03545a6c414502e72d232b4c30d9fdd" approved="yes">
+        <source>Error while loading file of module %module%. %error_message%</source>
+        <target xml:lang="zh-TW">上傳 %module% 模塊文件時出錯：%error_message%</target>
+        <note>Context:
+File: src/Adapter/Module/ModuleDataProvider.php:215</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Module/Tab/ModuleTabRegister.php" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -685,6 +719,12 @@ File: src/Adapter/Module/Tab/ModuleTabUnregister.php:99</note>
         <target xml:lang="zh-TW">你將停用 %moduleName% 模塊。</target>
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm.html.twig:52</note>
+      </trans-unit>
+      <trans-unit id="c5209889e18199fb2a2c50958d3212b8" approved="yes">
+        <source>Your current settings will be saved, but the module will no longer be active.</source>
+        <target xml:lang="zh-TW">您的當前設置將被保存，但模塊將不再處於啟用狀態。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm.html.twig:55</note>
       </trans-unit>
       <trans-unit id="eb641425b425f906c54cb55319ec3e25" approved="yes">
         <source>You are about to uninstall %moduleName% module.</source>
@@ -720,7 +760,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm.h
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_addons_connect.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
+      <trans-unit id="df776a9024ce6c10ec1d1d763cee0301" approved="yes">
+        <source>You are about to log out your Addons account. You might miss important updates of Addons you've bought.</source>
+        <target xml:lang="zh-TW">您即將登出您的Addons帳戶。 您可能會錯過您購買的插件的重要更新。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_addons_connect.html.twig:90</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_import.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -730,6 +775,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm.h
         <target xml:lang="zh-TW">正在安裝模塊...</target>
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_import.html.twig:61</note>
+      </trans-unit>
+      <trans-unit id="a26f56145fea2d3af35bf0d6ac83c28a" approved="yes">
+        <source>It will close as soon as the module is installed. It won't be long!</source>
+        <target xml:lang="zh-TW">它將在模塊安裝後立即關閉。 時間不會太長！</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_import.html.twig:63</note>
       </trans-unit>
       <trans-unit id="f48a5ae14fa2b0c85442d1199a08b3b4" approved="yes">
         <source>Module installed!</source>
@@ -785,6 +836,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_read_more
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_read_more_content.html.twig:138</note>
       </trans-unit>
+      <trans-unit id="f2a854a84903f5f29c0b7a40ccbf4ee5" approved="yes">
+        <source>No customer benefits notes found for this module :(</source>
+        <target xml:lang="zh-TW">沒有為此模塊找到客戶利益說明:(</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_read_more_content.html.twig:148</note>
+      </trans-unit>
       <trans-unit id="94d27c2e2294ddfe66621b814f2ac3e0" approved="yes">
         <source>No demonstration video found for this module :(</source>
         <target xml:lang="zh-TW">沒有找到此模組的示範影片 :(</target>
@@ -806,6 +863,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_read_more
         <target xml:lang="zh-TW">你要選擇至少一個模塊來使用批量行動。</target>
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Module/manage.html.twig:112</note>
+      </trans-unit>
+      <trans-unit id="09f9472ec012d502e9cc3ab0e31c24e8" approved="yes">
+        <source>The action "[1]" is not available, impossible to perform your request.</source>
+        <target xml:lang="zh-TW">該行動[1] 不存在。無法執行你的要求。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Module/manage.html.twig:113</note>
       </trans-unit>
       <trans-unit id="6e37e943fed80ec5f0629bbea4c81e1a" approved="yes">
         <source>The action [1] is not available for module [2]. Skipped.</source>
