@@ -25,6 +25,7 @@ $_MODULE['<{statscheckup}prestashop>statscheckup_c9cc8cce247e49bae79f15173ce9735
 $_MODULE['<{statscheckup}prestashop>statscheckup_01fda57aa6c7e9f07f5aa36b108e95cb'] = '排序';
 $_MODULE['<{statscheckup}prestashop>statscheckup_b718adec73e04ce3ec720dd11a06a308'] = '編號';
 $_MODULE['<{statscheckup}prestashop>statscheckup_49ee3087348e8d44e1feda1917443987'] = '名稱';
+$_MODULE['<{statscheckup}prestashop>statscheckup_7d74f3b92b19da5e606d737d339a9679'] = '項';
 $_MODULE['<{statscheckup}prestashop>statscheckup_4d3d769b812b6faa6b76e1a8abaece2d'] = '啟用';
 $_MODULE['<{statscheckup}prestashop>statscheckup_3f74e68055b1123e5d7deb32cd8b0b1b'] = '圖示。';
 $_MODULE['<{statscheckup}prestashop>statscheckup_4cc6684df7b4a92b1dec6fce3264fac8'] = '全域';
