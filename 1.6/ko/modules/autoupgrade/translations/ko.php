@@ -47,6 +47,8 @@ $_MODULE['<{autoupgrade}prestashop>adminselftab_f2a6c498fb90ee345d997f888fce3b18
 $_MODULE['<{autoupgrade}prestashop>adminselftab_0071aa279bd1583754a544277740f047'] = '항목 삭제 #';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_6adab6d3fdf92c448d60cf8824e4851c'] = '선택 삭제';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_e25f0ecd41211b01c83e5fec41df4fe7'] = '선택한 항목을 삭제할까요?';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_87f8a6ab85c9ced3702b4ea641ad4bb5'] = '중간';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_655d20c1ca69519ca647684edbb2db35'] = '높음';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_93cba07454f06a4a960172bbd6e2a435'] = '예';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_bafd7322c6e97d25b6299b5d6fe8920b'] = '아니오';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_38fb7d24e0d60a048f540ecb18e13376'] = '저장';

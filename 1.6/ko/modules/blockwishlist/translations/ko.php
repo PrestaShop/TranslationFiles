@@ -7,7 +7,11 @@ $_MODULE['<{blockwishlist}prestashop>blockwishlist_c888438d14855d7d96a2724ee9c30
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_deb10517653c255364175796ace3553f'] = '상품';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_694e8d1f2ee056f98ee488bdc4982d73'] = '수량';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_502996d9790340c5fd7b86a5b93b1c9f'] = '우선순위';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist_655d20c1ca69519ca647684edbb2db35'] = '높음';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist_87f8a6ab85c9ced3702b4ea641ad4bb5'] = '중간';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_be53a0541a6d36f6ecb879fa2c584b08'] = '이미지';
+$_MODULE['<{blockwishlist}prestashop>view_655d20c1ca69519ca647684edbb2db35'] = '높음';
+$_MODULE['<{blockwishlist}prestashop>view_87f8a6ab85c9ced3702b4ea641ad4bb5'] = '중간';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist-ajax_f2a6c498fb90ee345d997f888fce3b18'] = '삭제';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist-ajax_4b7d496eedb665d0b5f589f2f874e7cb'] = '상품 상세정보';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist-ajax_09dc02ecbb078868a3a86dded030076d'] = '상품 없음';
@@ -19,6 +23,8 @@ $_MODULE['<{blockwishlist}prestashop>managewishlist_f2a6c498fb90ee345d997f888fce
 $_MODULE['<{blockwishlist}prestashop>managewishlist_4b7d496eedb665d0b5f589f2f874e7cb'] = '상품 상세정보';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_694e8d1f2ee056f98ee488bdc4982d73'] = '수량';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_502996d9790340c5fd7b86a5b93b1c9f'] = '우선순위';
+$_MODULE['<{blockwishlist}prestashop>managewishlist_655d20c1ca69519ca647684edbb2db35'] = '높음';
+$_MODULE['<{blockwishlist}prestashop>managewishlist_87f8a6ab85c9ced3702b4ea641ad4bb5'] = '중간';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_c9cc8cce247e49bae79f15173ce97354'] = '저장';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_ce8ae9da5b7cd6c3df2929543a9af92d'] = '이메일';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_94966d90747b97d1f0f206c98a8b1ac3'] = '전송';

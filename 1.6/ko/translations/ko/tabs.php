@@ -97,6 +97,7 @@ $_TABS['AdminEmployees'] = '직원';
 $_TABS['AdminProfiles'] = '프로필';
 $_TABS['AdminAccess'] = '권한';
 $_TABS['AdminTabs'] = '메뉴';
+$_TABS['AdminGamification'] = '판매 전문 지식';
 $_TABS['AdminStats'] = '통계';
 $_TABS['AdminSearchEngines'] = '검색 엔진';
 $_TABS['AdminReferrers'] = '참조자';
