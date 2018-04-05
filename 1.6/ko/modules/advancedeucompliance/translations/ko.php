@@ -3,6 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_bb8956c67b82c7444a80c6b2433dd8b4'] = '이 모듈을 삭제하시겠습니까?';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_cac77d4c7de337f13ad1e89a8cecbc7f'] = '배송: 1-3 주';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_eeb992239a8454067cd7a47bbf0df359'] = '배송: 3-6 주';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_f4a0d7cb0cd45214c8ca5912c970de13'] = '세금 포함';

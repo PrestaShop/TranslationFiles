@@ -30,6 +30,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselftab_84b4d8c8cdd02488c0f868e97b22a3c2
 $_MODULE['<{autoupgrade}prestashop>adminselftab_151648106e4bf98297882ea2ea1c4b0e'] = '수정 성공';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_def73ea130852d9e7813ee61eefa24e7'] = '설정이 수정되었습니다';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_ee05efe0548fdafc9e85cb4c34fbe845'] = '이미지가 삭제됨';
+$_MODULE['<{autoupgrade}prestashop>adminselftab_e41431d37c0f818843740e11a69c5ec2'] = '의견 추가됨';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_2b5bde814a5f94ea73f447cdbcfb49fd'] = '테마 설치기';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_21034ae6d01a83e702839a72ba8a77b0'] = '(세금 별도)';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_c770d8e0d1d1943ce239c64dbd6acc20'] = '내 IP 추가';
