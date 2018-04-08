@@ -32,7 +32,7 @@ $_MODULE['<{cheque}prestashop>payment_execution_7b1c6e78d93817f61f2b1bbc2108a803
 $_MODULE['<{cheque}prestashop>payment_execution_a7a08622ee5c8019b57354b99b7693b2'] = 'یکی از موارد زیر را انتخاب کنید:';
 $_MODULE['<{cheque}prestashop>payment_execution_f73ad0f08052884ff465749bf48b55ce'] = 'ما ارزهای زیر را جهت ارسال با چک قبول می کنیم:';
 $_MODULE['<{cheque}prestashop>payment_execution_7135ff14c7931e1c8e9d33aff3dfc7f7'] = 'اطلاعات صاحب چک و آدرس آن در صفحه بعد نمایش داده می شود.';
-$_MODULE['<{cheque}prestashop>payment_execution_52f64bc0164b0e79deaeaaaa7e93f98f'] = 'لطفاً سفارش خود را با کلیک بر روی "من سفارشم را تأیید می‌کنم" تصدیق کنید.';
+$_MODULE['<{cheque}prestashop>payment_execution_52f64bc0164b0e79deaeaaaa7e93f98f'] = 'لطفاً سفارش خود را با کلیک بر روی "من سفارشم را تایید می‌کنم" ثبت کنید.';
 $_MODULE['<{cheque}prestashop>payment_execution_46b9e3665f187c739c55983f757ccda0'] = 'سفارشم را تایید می کنم';
 $_MODULE['<{cheque}prestashop>payment_execution_569fd05bdafa1712c4f6be5b153b8418'] = 'روش‌های دیگر پرداخت';
 $_MODULE['<{cheque}prestashop>infos_14e41f4cfd99b10766cc15676d8cda66'] = 'این ماژول به شما اجازه قبول پرداخت توسط چک را می دهد.';

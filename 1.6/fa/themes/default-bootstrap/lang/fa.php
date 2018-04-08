@@ -49,7 +49,7 @@ $_LANG['address_89a9a0e5aec9360bc3b0141c8d42e586'] = 'یک عنوان برای �
 $_LANG['address_ae7bdef7fe2bbbbf02c11e92c5fceb40'] = 'آدرس من';
 $_LANG['address_c9cc8cce247e49bae79f15173ce97354'] = 'ذخیره';
 $_LANG['address_de0c35a9efd08e5ee77a80203ae4221d'] = 'بازگشت به آدرس‌‌های شما';
-$_LANG['authentication_c75f7811d70d17dbcd88e9d03752cbed'] = 'تائید هویت';
+$_LANG['authentication_c75f7811d70d17dbcd88e9d03752cbed'] = 'شناسایی';
 $_LANG['authentication_5bef23eb7efff2736c5583bda59e5eb7'] = 'عضویت سریع';
 $_LANG['authentication_2fdfd506efea08144c0794c32ca8250a'] = 'ایجاد حساب کاربری';
 $_LANG['authentication_cb430603758e73c64b8e1fef814b0be0'] = 'حداقل یک خطا وجود دارد';
@@ -750,7 +750,7 @@ $_LANG['pagination_dd1f775e443ff3b9a89270713580a51b'] = 'قبلی';
 $_LANG['pagination_10ac3d04253ef7e1ddc73e6091c0cd55'] = 'بعدی';
 $_LANG['pagination_08d8f2394d17064e1c505e3d6ef7ef12'] = 'نمایش %1$d - %2$d از  %3$d آیتم';
 $_LANG['pagination_89762ea29386643afc3fc50e7e50b53c'] = 'نمایش  %1$d - %2$d از 1 آیتم';
-$_LANG['password_c75f7811d70d17dbcd88e9d03752cbed'] = 'تائید هویت';
+$_LANG['password_c75f7811d70d17dbcd88e9d03752cbed'] = 'شناسایی';
 $_LANG['password_0fb655f37529ad006eb0d503e23e10f1'] = 'فراموشی کلمه عبور';
 $_LANG['password_01a569ddc6cf67ddec2a683f0a5f5956'] = 'کلمه‌ی عبور خود را فراموش کرده‌اید؟';
 $_LANG['password_f15b7d9b716da1d46ba073df11d4a8d0'] = 'کلمه‌ی عبور شما با موفقیت تغییر کرد و به ایمیل شما فرستاده شد:';
@@ -981,7 +981,7 @@ $_LANG['sitemap_042fe826ace5f92b2477da18b0e7d0b7'] = 'نمایش لیستی از
 $_LANG['sitemap_9d5bf15117441a1b52eb1f0808e4aad3'] = 'تخفیف ها';
 $_LANG['sitemap_60df547fe45851a472b9680811b3689d'] = 'نمایش لیستی از سفارشات من';
 $_LANG['sitemap_782c8b38bce4f2f6975ca7f33ac8189b'] = 'تاریخچه سفارشات';
-$_LANG['sitemap_c75f7811d70d17dbcd88e9d03752cbed'] = 'تائید هویت';
+$_LANG['sitemap_c75f7811d70d17dbcd88e9d03752cbed'] = 'شناسایی';
 $_LANG['sitemap_1aa668d559a3a32a44796aeee6978a59'] = 'ایجاد حساب کاربری جدید';
 $_LANG['sitemap_c87aacf5673fada1108c9f809d354311'] = 'خروج از حساب';
 $_LANG['sitemap_af1b98adf7f686b84cd0b443e022b7a0'] = 'شاخه‌ها';

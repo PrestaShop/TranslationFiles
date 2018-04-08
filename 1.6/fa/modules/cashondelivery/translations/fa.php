@@ -9,7 +9,7 @@ $_MODULE['<{cashondelivery}prestashop>validation_d538c5b86e9a71455ba27412f4e9ab5
 $_MODULE['<{cashondelivery}prestashop>validation_ad2f6328c24caa7d25dd34bfc3e7e25a'] = 'شما روش پرداخت هنگام تحویل را انتخاب نموده‌اید.';
 $_MODULE['<{cashondelivery}prestashop>validation_e2867a925cba382f1436d1834bb52a1c'] = 'جمع کل مبلغ سفارش شما';
 $_MODULE['<{cashondelivery}prestashop>validation_1f87346a16cf80c372065de3c54c86d9'] = '(با مالیات)';
-$_MODULE['<{cashondelivery}prestashop>validation_52f64bc0164b0e79deaeaaaa7e93f98f'] = 'لطفاً سفارش خود را با کلیک بر روی "من سفارشم را تأیید می‌کنم" تصدیق کنید.';
+$_MODULE['<{cashondelivery}prestashop>validation_52f64bc0164b0e79deaeaaaa7e93f98f'] = 'لطفاً سفارش خود را با کلیک بر روی "من سفارشم را تایید می‌کنم" ثبت کنید.';
 $_MODULE['<{cashondelivery}prestashop>validation_569fd05bdafa1712c4f6be5b153b8418'] = 'روش‌های دیگر پرداخت';
 $_MODULE['<{cashondelivery}prestashop>validation_46b9e3665f187c739c55983f757ccda0'] = 'سفارشم را تایید می کنم';
 $_MODULE['<{cashondelivery}prestashop>confirmation_2e2117b7c81aa9ea6931641ea2c6499f'] = 'سفارش شما در';
