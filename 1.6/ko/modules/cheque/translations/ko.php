@@ -4,9 +4,12 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{cheque}prestashop>cheque_e09484ba6c16bc20236b63cc0d87ee95'] = '이 상세 정보들을 정말 삭제하시겠습니까?';
+$_MODULE['<{cheque}prestashop>cheque_32776feb26ff6f9648054e796aa0e423'] = '이 모듈을 사용하기 전에 "지불할 주문" 과 "주소" 항목이 구성되어야 합니다.';
 $_MODULE['<{cheque}prestashop>cheque_a02758d758e8bec77a33d7f392eb3f8a'] = '화폐단위가 이 module에 설정되어 있지 않습니다';
+$_MODULE['<{cheque}prestashop>cheque_81c6c3ba23ca2657a8eedc561f865ddb'] = '"지불 할 주문" 항목은 필수입니다.';
 $_MODULE['<{cheque}prestashop>cheque_c888438d14855d7d96a2724ee9c306bd'] = '설정 수정';
 $_MODULE['<{cheque}prestashop>cheque_5dd532f0a63d89c5af0243b74732f63c'] = '연락처 세부정보';
+$_MODULE['<{cheque}prestashop>cheque_4b2f62e281e9a6829c6df0e87d34233a'] = '(이름) 의 주문을 지불';
 $_MODULE['<{cheque}prestashop>cheque_dd7bf230fde8d4836917806aff6a6b27'] = '주소';
 $_MODULE['<{cheque}prestashop>cheque_c9cc8cce247e49bae79f15173ce97354'] = '저장';
 $_MODULE['<{cheque}prestashop>validation_e2b7dec8fa4b498156dfee6e4c84b156'] = '이 결제방법은 사용할 수 없습니다';
