@@ -226,17 +226,17 @@ $_MODULE['<{blocklayered}prestashop>view_18c6120643596bd2626f3b0720b1df3a'] = 'T
 $_MODULE['<{blocklayered}prestashop>attribute_form_1.6_28034a200e932f22b324a4dda1bb9f64'] = 'Draudžiami simboliai: ;=#{}_';
 $_MODULE['<{blocklayered}prestashop>attribute_form_1.6_e6b391a8d2c4d45902a23a8b6585703d'] = 'URL';
 $_MODULE['<{blocklayered}prestashop>attribute_form_1.6_56275a38c626cbd17c0447d9391b1ab4'] = 'Kai kelių lygių navigacijos bloko modulis yra įjungtas, Jūs galite gauti išsamesnį URL pasirenkant žodį, kuris geriausiai atstovauja šiai ypatybės reikšmei. Pagal nutylėjimą, PrestaShop naudoja reikšmės pavadinimą, bet Jūs galite pakeisti nustatymus, naudodami šį lauką.';
-$_MODULE['<{blocklayered}prestashop>attribute_form_1.6_9e11e4b371570340ca07913bc4783a7a'] = 'Meta-pavadinimas';
+$_MODULE['<{blocklayered}prestashop>attribute_form_1.6_9e11e4b371570340ca07913bc4783a7a'] = 'Meta title';
 $_MODULE['<{blocklayered}prestashop>attribute_form_1.6_ad77792302a1f606d8839ebdc6c07e1a'] = 'Kai kelių lygių navigacijos bloko modulis yra įjungtas, Jūs galite gauti išsamesnius puslapių pavadinimus pasirenkant žodį, kuris geriausiai atstovauja šiai ypatybės reikšmei. PrestaShop naudoja reikšmės pavadinimą, bet Jūs galite pakeisti nustatymus, naudodami šį lauką.';
 $_MODULE['<{blocklayered}prestashop>attribute_form_e6b391a8d2c4d45902a23a8b6585703d'] = 'URL';
 $_MODULE['<{blocklayered}prestashop>attribute_form_56275a38c626cbd17c0447d9391b1ab4'] = 'Kai kelių lygių navigacijos bloko modulis yra įjungtas, Jūs galite gauti išsamesnį URL pasirenkant žodį, kuris geriausiai atstovauja šiai ypatybės reikšmei. Pagal nutylėjimą, PrestaShop naudoja reikšmės pavadinimą, bet Jūs galite pakeisti nustatymus, naudodami šį lauką.';
 $_MODULE['<{blocklayered}prestashop>attribute_form_28034a200e932f22b324a4dda1bb9f64'] = 'Draudžiami simboliai: ;=#{}_';
-$_MODULE['<{blocklayered}prestashop>attribute_form_9e11e4b371570340ca07913bc4783a7a'] = 'Meta-pavadinimas';
+$_MODULE['<{blocklayered}prestashop>attribute_form_9e11e4b371570340ca07913bc4783a7a'] = 'Meta title';
 $_MODULE['<{blocklayered}prestashop>attribute_form_ad77792302a1f606d8839ebdc6c07e1a'] = 'Kai kelių lygių navigacijos bloko modulis yra įjungtas, Jūs galite gauti išsamesnius puslapių pavadinimus pasirenkant žodį, kuris geriausiai atstovauja šiai ypatybės reikšmei. PrestaShop naudoja reikšmės pavadinimą, bet Jūs galite pakeisti nustatymus, naudodami šį lauką.';
 $_MODULE['<{blocklayered}prestashop>attribute_group_form_1.6_28034a200e932f22b324a4dda1bb9f64'] = 'Draudžiami simboliai: ;=#{}_';
 $_MODULE['<{blocklayered}prestashop>attribute_group_form_1.6_e6b391a8d2c4d45902a23a8b6585703d'] = 'URL';
 $_MODULE['<{blocklayered}prestashop>attribute_group_form_1.6_56275a38c626cbd17c0447d9391b1ab4'] = 'Kai kelių lygių navigacijos bloko modulis yra įjungtas, Jūs galite gauti išsamesnį URL pasirenkant žodį, kuris geriausiai atstovauja šiai ypatybės reikšmei. Pagal nutylėjimą, PrestaShop naudoja reikšmės pavadinimą, bet Jūs galite pakeisti nustatymus, naudodami šį lauką.';
-$_MODULE['<{blocklayered}prestashop>attribute_group_form_1.6_9e11e4b371570340ca07913bc4783a7a'] = 'Meta-pavadinimas';
+$_MODULE['<{blocklayered}prestashop>attribute_group_form_1.6_9e11e4b371570340ca07913bc4783a7a'] = 'Meta title';
 $_MODULE['<{blocklayered}prestashop>attribute_group_form_1.6_ad77792302a1f606d8839ebdc6c07e1a'] = 'Kai kelių lygių navigacijos bloko modulis yra įjungtas, Jūs galite gauti išsamesnius puslapių pavadinimus pasirenkant žodį, kuris geriausiai atstovauja šiai ypatybės reikšmei. PrestaShop naudoja reikšmės pavadinimą, bet Jūs galite pakeisti nustatymus, naudodami šį lauką.';
 $_MODULE['<{blocklayered}prestashop>attribute_group_form_1.6_0bcff42b5aed2b0e4501ed178e4f2510'] = 'Indeksuojamas';
 $_MODULE['<{blocklayered}prestashop>attribute_group_form_1.6_93cba07454f06a4a960172bbd6e2a435'] = 'Taip';
@@ -245,7 +245,7 @@ $_MODULE['<{blocklayered}prestashop>attribute_group_form_1.6_57b5952263e4fd4b874
 $_MODULE['<{blocklayered}prestashop>attribute_group_form_e6b391a8d2c4d45902a23a8b6585703d'] = 'URL';
 $_MODULE['<{blocklayered}prestashop>attribute_group_form_56275a38c626cbd17c0447d9391b1ab4'] = 'Kai kelių lygių navigacijos bloko modulis yra įjungtas, Jūs galite gauti išsamesnį URL pasirenkant žodį, kuris geriausiai atstovauja šiai ypatybės reikšmei. Pagal nutylėjimą, PrestaShop naudoja reikšmės pavadinimą, bet Jūs galite pakeisti nustatymus, naudodami šį lauką.';
 $_MODULE['<{blocklayered}prestashop>attribute_group_form_28034a200e932f22b324a4dda1bb9f64'] = 'Draudžiami simboliai: ;=#{}_';
-$_MODULE['<{blocklayered}prestashop>attribute_group_form_9e11e4b371570340ca07913bc4783a7a'] = 'Meta-pavadinimas';
+$_MODULE['<{blocklayered}prestashop>attribute_group_form_9e11e4b371570340ca07913bc4783a7a'] = 'Meta title';
 $_MODULE['<{blocklayered}prestashop>attribute_group_form_ad77792302a1f606d8839ebdc6c07e1a'] = 'Kai kelių lygių navigacijos bloko modulis yra įjungtas, Jūs galite gauti išsamesnius puslapių pavadinimus pasirenkant žodį, kuris geriausiai atstovauja šiai ypatybės reikšmei. PrestaShop naudoja reikšmės pavadinimą, bet Jūs galite pakeisti nustatymus, naudodami šį lauką.';
 $_MODULE['<{blocklayered}prestashop>attribute_group_form_0bcff42b5aed2b0e4501ed178e4f2510'] = 'Indeksuojamas';
 $_MODULE['<{blocklayered}prestashop>attribute_group_form_93cba07454f06a4a960172bbd6e2a435'] = 'Taip';
@@ -254,7 +254,7 @@ $_MODULE['<{blocklayered}prestashop>attribute_group_form_57b5952263e4fd4b8749787
 $_MODULE['<{blocklayered}prestashop>feature_form_1.6_28034a200e932f22b324a4dda1bb9f64'] = 'Draudžiami simboliai: ;=#{}_';
 $_MODULE['<{blocklayered}prestashop>feature_form_1.6_e6b391a8d2c4d45902a23a8b6585703d'] = 'URL';
 $_MODULE['<{blocklayered}prestashop>feature_form_1.6_bc40dafe9618ddeea3f01bf6df090432'] = 'Kai kelių lygių navigacijos bloko modulis yra įjungtas, Jūs galite gauti išsamesnį URL pasirenkant žodį, kuris geriausiai atstovauja šiai ypatybės reikšmei. Pagal nutylėjimą, PrestaShop naudoja reikšmės pavadinimą, bet Jūs galite pakeisti nustatymus, naudodami šį lauką.';
-$_MODULE['<{blocklayered}prestashop>feature_form_1.6_9e11e4b371570340ca07913bc4783a7a'] = 'Meta-pavadinimas';
+$_MODULE['<{blocklayered}prestashop>feature_form_1.6_9e11e4b371570340ca07913bc4783a7a'] = 'Meta title';
 $_MODULE['<{blocklayered}prestashop>feature_form_1.6_989bf7df8a803fcbf82801b1b0811aac'] = 'Kai kelių lygių navigacijos bloko modulis yra įjungtas, Jūs galite gauti išsamesnius puslapių pavadinimus pasirenkant žodį, kuris geriausiai atstovauja šiai ypatybės reikšmei. PrestaShop naudoja reikšmės pavadinimą, bet Jūs galite pakeisti nustatymus, naudodami šį lauką.';
 $_MODULE['<{blocklayered}prestashop>feature_form_1.6_0bcff42b5aed2b0e4501ed178e4f2510'] = 'Indeksuojamas';
 $_MODULE['<{blocklayered}prestashop>feature_form_1.6_93cba07454f06a4a960172bbd6e2a435'] = 'Taip';
@@ -263,7 +263,7 @@ $_MODULE['<{blocklayered}prestashop>feature_form_1.6_57b5952263e4fd4b8749787283a
 $_MODULE['<{blocklayered}prestashop>feature_form_e6b391a8d2c4d45902a23a8b6585703d'] = 'URL';
 $_MODULE['<{blocklayered}prestashop>feature_form_bc40dafe9618ddeea3f01bf6df090432'] = 'Kai kelių lygių navigacijos bloko modulis yra įjungtas, Jūs galite gauti išsamesnį URL pasirenkant žodį, kuris geriausiai atstovauja šiai ypatybės reikšmei. Pagal nutylėjimą, PrestaShop naudoja reikšmės pavadinimą, bet Jūs galite pakeisti nustatymus, naudodami šį lauką.';
 $_MODULE['<{blocklayered}prestashop>feature_form_28034a200e932f22b324a4dda1bb9f64'] = 'Draudžiami simboliai: ;=#{}_';
-$_MODULE['<{blocklayered}prestashop>feature_form_9e11e4b371570340ca07913bc4783a7a'] = 'Meta-pavadinimas';
+$_MODULE['<{blocklayered}prestashop>feature_form_9e11e4b371570340ca07913bc4783a7a'] = 'Meta title';
 $_MODULE['<{blocklayered}prestashop>feature_form_989bf7df8a803fcbf82801b1b0811aac'] = 'Kai kelių lygių navigacijos bloko modulis yra įjungtas, Jūs galite gauti išsamesnius puslapių pavadinimus pasirenkant žodį, kuris geriausiai atstovauja šiai ypatybės reikšmei. PrestaShop naudoja reikšmės pavadinimą, bet Jūs galite pakeisti nustatymus, naudodami šį lauką.';
 $_MODULE['<{blocklayered}prestashop>feature_form_0bcff42b5aed2b0e4501ed178e4f2510'] = 'Indeksuojamas';
 $_MODULE['<{blocklayered}prestashop>feature_form_93cba07454f06a4a960172bbd6e2a435'] = 'Taip';
@@ -272,12 +272,12 @@ $_MODULE['<{blocklayered}prestashop>feature_form_57b5952263e4fd4b8749787283abf85
 $_MODULE['<{blocklayered}prestashop>feature_value_form_1.6_28034a200e932f22b324a4dda1bb9f64'] = 'Draudžiami simboliai: ;=#{}_';
 $_MODULE['<{blocklayered}prestashop>feature_value_form_1.6_e6b391a8d2c4d45902a23a8b6585703d'] = 'URL';
 $_MODULE['<{blocklayered}prestashop>feature_value_form_1.6_a6c8c88e5e16cba7b9d65ca76dc0a45c'] = 'Kai kelių lygių navigacijos bloko modulis yra įjungtas, Jūs galite gauti išsamesnį URL pasirenkant žodį, kuris geriausiai atstovauja šiai ypatybės reikšmei. Pagal nutylėjimą, PrestaShop naudoja reikšmės pavadinimą, bet Jūs galite pakeisti nustatymus, naudodami šį lauką.';
-$_MODULE['<{blocklayered}prestashop>feature_value_form_1.6_9e11e4b371570340ca07913bc4783a7a'] = 'Meta-pavadinimas';
+$_MODULE['<{blocklayered}prestashop>feature_value_form_1.6_9e11e4b371570340ca07913bc4783a7a'] = 'Meta title';
 $_MODULE['<{blocklayered}prestashop>feature_value_form_1.6_26029c4864b0b6843acfe55ee14ba807'] = 'Kai kelių lygių navigacijos bloko modulis yra įjungtas, Jūs galite gauti išsamesnį URL pasirenkant žodį, kuris geriausiai atstovauja šiai ypatybės reikšmei. Pagal nutylėjimą, PrestaShop naudoja reikšmės pavadinimą, bet Jūs galite pakeisti nustatymus, naudodami šį lauką.';
 $_MODULE['<{blocklayered}prestashop>feature_value_form_e6b391a8d2c4d45902a23a8b6585703d'] = 'URL';
 $_MODULE['<{blocklayered}prestashop>feature_value_form_a6c8c88e5e16cba7b9d65ca76dc0a45c'] = 'Kai kelių lygių navigacijos bloko modulis yra įjungtas, Jūs galite gauti išsamesnį URL pasirenkant žodį, kuris geriausiai atstovauja šiai ypatybės reikšmei. Pagal nutylėjimą, PrestaShop naudoja reikšmės pavadinimą, bet Jūs galite pakeisti nustatymus, naudodami šį lauką.';
 $_MODULE['<{blocklayered}prestashop>feature_value_form_28034a200e932f22b324a4dda1bb9f64'] = 'Draudžiami simboliai: ;=#{}_';
-$_MODULE['<{blocklayered}prestashop>feature_value_form_9e11e4b371570340ca07913bc4783a7a'] = 'Meta-pavadinimas';
+$_MODULE['<{blocklayered}prestashop>feature_value_form_9e11e4b371570340ca07913bc4783a7a'] = 'Meta title';
 $_MODULE['<{blocklayered}prestashop>feature_value_form_26029c4864b0b6843acfe55ee14ba807'] = 'Kai kelių lygių navigacijos bloko modulis yra įjungtas, Jūs galite gauti išsamesnį URL pasirenkant žodį, kuris geriausiai atstovauja šiai ypatybės reikšmei. Pagal nutylėjimą, PrestaShop naudoja reikšmės pavadinimą, bet Jūs galite pakeisti nustatymus, naudodami šį lauką.';
 $_MODULE['<{blocklayered}prestashop>blocklayered_c32516babc5b6c47eb8ce1bfc223253c'] = 'Katalogas';
 
