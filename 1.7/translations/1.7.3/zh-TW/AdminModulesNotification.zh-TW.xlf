@@ -596,6 +596,12 @@ File: src/Core/Addon/Module/ModuleManager.php:618</note>
         <note>Context:
 File: src/Core/Addon/Module/ModuleRepository.php:381</note>
       </trans-unit>
+      <trans-unit id="bcc1e7daae2727b6d7a32567086cd84f" approved="yes">
+        <source>Unexpected exception on module %module%. %error_details%</source>
+        <target xml:lang="zh-TW">模塊 %module% 上出現意外的系統異常。 %error_details%</target>
+        <note>Context:
+File: src/Core/Addon/Module/ModuleRepository.php:389</note>
+      </trans-unit>
       <trans-unit id="9fcc3446d55e632b5f3ca13fc810c83b" approved="yes">
         <source>Loading data from Addons failed. %error_details%</source>
         <target xml:lang="zh-TW">從Addons上上傳數據失敗。%error_details%</target>
@@ -624,11 +630,29 @@ File: src/Core/Addon/Module/ModuleRepository.php:562</note>
         <note>Context:
 File: src/PrestaShopBundle/Controller/Admin/ModuleController.php:133</note>
       </trans-unit>
+      <trans-unit id="71d827dd0d049981403f27fb7af0991c" approved="yes">
+        <source>%module% did not return a valid response on %action% action.</source>
+        <target xml:lang="zh-TW">%module% 未在 %action% 操作中返回有效的響應。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/ModuleController.php:316</note>
+      </trans-unit>
+      <trans-unit id="8e7e1a7e5fa9edcd7139f569d07fc5b9" approved="yes">
+        <source>Confirmation needed by module %module% on %action% (%subject%).</source>
+        <target xml:lang="zh-TW">模塊 %module% 在 %action%（%subject%）上需要確認。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/ModuleController.php:655</note>
+      </trans-unit>
       <trans-unit id="bf0edb2da5a51620141bff55d3060a63" approved="yes">
         <source>Exception thrown by module %module% on %action%. %error_details%</source>
         <target xml:lang="zh-TW">%module% 模塊 %action% 拋出異常：%error_details%</target>
         <note>Context:
 File: src/PrestaShopBundle/Controller/Admin/ModuleController.php:360</note>
+      </trans-unit>
+      <trans-unit id="89d371deca1b2b50a933fabc8005ccfb" approved="yes">
+        <source>%module% did not return a valid response on installation.</source>
+        <target xml:lang="zh-TW">%module% 在安裝時沒有返回有效的響應。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/ModuleController.php:619</note>
       </trans-unit>
       <trans-unit id="35e839bc1864dd50a75500028c3ebb33" approved="yes">
         <source>Installation of module %module% was successful.</source>
@@ -910,7 +934,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/Module/manage.html.twig:114</no
   </file>
   <file original="admin-dev/themes/default/template/controllers/modules/configuration_bar.tpl" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
+      <trans-unit id="74b5807fcdcf929e5f827d32e8af0524" approved="yes">
+        <source>Activate module for this shop context: %s.</source>
+        <target xml:lang="zh-TW">激活此商店的模塊：%s。</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/modules/configuration_bar.tpl:33</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/modules/configure.tpl" source-language="en" target-language="zh-TW" datatype="plaintext">
