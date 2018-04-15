@@ -104,6 +104,18 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:490</note>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:491</note>
       </trans-unit>
+      <trans-unit id="f22d57f1f0b7fd2a55ca4760cd6ef68b" approved="yes">
+        <source>Keep the customized email templates</source>
+        <target xml:lang="zh-TW">保留定制的電郵模板</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:495</note>
+      </trans-unit>
+      <trans-unit id="a83c73a145dbc0f4ea7c6a95203df43d" approved="yes">
+        <source>If you customized the default PrestaShop e-mail templates, enabling this option will keep your modifications.</source>
+        <target xml:lang="zh-TW">如果您定制了默認的PrestaShop電郵模板，啟用此選項將保留您的修改。</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:497</note>
+      </trans-unit>
       <trans-unit id="92a5801448b25f111961462b0b31995d" approved="yes">
         <source>Unable to create file %s</source>
         <target xml:lang="zh-TW">無法建立檔案 %s</target>
@@ -695,11 +707,23 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:3269</note>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:3279</note>
       </trans-unit>
+      <trans-unit id="8f226504481b55e9f588e4bc14b5882f" approved="yes">
+        <source>[SQL ERROR]</source>
+        <target xml:lang="zh-TW">[SQL 錯誤]</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:3299</note>
+      </trans-unit>
       <trans-unit id="b232a418538e3f6904357039ff7b1052" approved="yes">
         <source>Error during database restoration</source>
         <target xml:lang="zh-TW">資料庫還原時發生錯誤</target>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:3302</note>
+      </trans-unit>
+      <trans-unit id="85f6ad54304538449ff3da4435be5336" approved="yes">
+        <source>%numberqueries% queries left for file %filename%...</source>
+        <target xml:lang="zh-TW">檔案 %filename% 還剩下 %numberqueries% 個查詢...</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:3326</note>
       </trans-unit>
       <trans-unit id="30da45f850d1f1a2b42f215836382f19" approved="yes">
         <source>Database restoration done.</source>
@@ -712,6 +736,12 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:3339</note>
         <target xml:lang="zh-TW">資料庫備份已略過。正在升級檔案...</target>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:3356</note>
+      </trans-unit>
+      <trans-unit id="555231214d7c729089e80f561e118f45" approved="yes">
+        <source>Backup directory is not writable (%path%).</source>
+        <target xml:lang="zh-TW">備份目錄無法寫入 (%path%)。</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:3366</note>
       </trans-unit>
       <trans-unit id="d12ae4e7f0d20f4a4ca357d48e42877e" approved="yes">
         <source>Backup file %s already exists. Operation aborted.</source>
@@ -736,6 +766,18 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:3488</note>
         <target xml:lang="zh-TW">備份資料庫時發生錯誤。無法從 %s 取得資料表定義。</target>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:3485</note>
+      </trans-unit>
+      <trans-unit id="4d4c62fccb481224ff3a5c36b45de3fd" approved="yes">
+        <source>%s table has been saved.</source>
+        <target xml:lang="zh-TW">表 %s 已儲存。</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:3574</note>
+      </trans-unit>
+      <trans-unit id="71426d0545181d601dc135b78e74ac8f" approved="yes">
+        <source>%s tables have been saved.</source>
+        <target xml:lang="zh-TW">表 %s 已儲存。</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:3610</note>
       </trans-unit>
       <trans-unit id="c2a086cb5c3373d7e11acbd3ace6a553" approved="yes">
         <source>Database backup: %s table(s) left...</source>
@@ -779,6 +821,12 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:3638</note>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:3647</note>
       </trans-unit>
+      <trans-unit id="ae10eb1b240ad1b32e2a18e8c9694120" approved="yes">
+        <source>Backup files initialized in %s</source>
+        <target xml:lang="zh-TW">備份文件已於 %s 中初始化</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:3656</note>
+      </trans-unit>
       <trans-unit id="9bebecbf68b6ce5a6d656c5ea793b762" approved="yes">
         <source>Backup files in progress. %d files left</source>
         <target xml:lang="zh-TW">備份檔案進行中。還有 %d 個檔案</target>
@@ -808,6 +856,24 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:3697</note>
         <target xml:lang="zh-TW">所有文件已加入歸檔。</target>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:3698</note>
+      </trans-unit>
+      <trans-unit id="1d7a665a8b724a2a30e72af54b8fd313" approved="yes">
+        <source>%filename% added to archive. %filescount% files left.</source>
+        <target xml:lang="zh-TW">%filename% 已加入歸檔。還剩 %filescount% 個文件。</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:3712</note>
+      </trans-unit>
+      <trans-unit id="037350bc293c5e04305ff73a7e470b52" approved="yes">
+        <source>Error when trying to add %filename% to archive %archive%.</source>
+        <target xml:lang="zh-TW">添加 %filename% 到歸檔 %archive% 時出錯。</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:3729</note>
+      </trans-unit>
+      <trans-unit id="16e885a4397246a89509884b3975d6f7" approved="yes">
+        <source>File %filename% (size: %filesize%) added to archive. %filescount% files left.</source>
+        <target xml:lang="zh-TW">文件 %filename% （大小：%filesize%）已加入歸檔。還剩 %filescount% 個文件。</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:3743</note>
       </trans-unit>
       <trans-unit id="8a5062d4832b42720342c513d7d52f7d" approved="yes">
         <source>[ERROR] Error on backup using PclZip: %s.</source>
