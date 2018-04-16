@@ -232,6 +232,7 @@ $_LANGADM['AdminManufacturers41c2fff4867cc204120f001e7af20f7a'] = '휴대 전화
 $_LANGADM['AdminMetad3b206d196cd6be3a2764c1fb90b200f'] = '선택 삭제';
 $_LANGADM['AdminMetae25f0ecd41211b01c83e5fec41df4fe7'] = '선택한 항목을 삭제할까요?';
 $_LANGADM['AdminMetab718adec73e04ce3ec720dd11a06a308'] = 'ID';
+$_LANGADM['AdminMeta35df89560d52bdb19ba653e994fbb178'] = '302 일시적으로 이동됨 (상점 설정 중 권장됨)';
 $_LANGADM['AdminModules7258e7251413465e0a3eb58094430bde'] = '관리';
 $_LANGADM['AdminModules6ff063fbc860a79759a7369ac32cee22'] = '결제하기';
 $_LANGADM['AdminModules2938c7f7e560ed972f8a4f68e80ff834'] = '대시보드';
