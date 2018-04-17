@@ -181,8 +181,8 @@ $_LANGMAIL[', with an amount of'] = ', summas';
 $_LANGMAIL['Hi {name},'] = 'Tervist {name},';
 $_LANGMAIL['{customer} has sent you a link to a product that (s)he thinks may interest you.'] = '{customer} saatis Teile lingi, mis võib Teile huvi pakkuda.';
 $_LANGMAIL['Click here to view this item:'] = 'Vajutage siia, et vaadata seda toodet:';
-$_LANGMAIL['Order edited'] = '';
-$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = '';
+$_LANGMAIL['Order edited'] = 'Tellimust on muudetud';
+$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = 'Teie tellimus <span><strong>{order_name}</strong></span> on muudetud.';
 
 
 return $_LANGMAIL;
