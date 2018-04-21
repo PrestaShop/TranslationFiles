@@ -324,6 +324,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_6e843a36f447872179db90ceff68
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_780daf2510c5c9e1c58948f138629817'] = '使用的归档：';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_db992f14c2e79f2e8650cdb5d918f27f'] = '选择一个归档';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c9cc8cce247e49bae79f15173ce97354'] = '保存';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_48c7c41b72e1d678923ce3571aa65b2d'] = '步骤';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2b16564e6e838ce86608620b70beb570'] = '活动日志';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5ef0c737746fae2ca90e66c39333f8f6'] = '错误';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_dc3fd488f03d423a04da27ce66274c1b'] = '警告！';

@@ -219,6 +219,7 @@ $_LANGADM['AdminCarrierWizard4ca4a355318f45dac9fb0ee632d8dc3c'] = '输入“0”
 $_LANGADM['AdminCarrierWizard8c2857a9ad1d8f31659e35e904e20fa6'] = '图标：';
 $_LANGADM['AdminCarrierWizard0979779c4569141b98591d326d343ec2'] = '跟踪链接';
 $_LANGADM['AdminCarrierWizard7cee91acc888d490e2622f3eca17cd37'] = '订单跟踪：在跟踪号出现的地方打@，它会被跟踪号自动替换';
+$_LANGADM['AdminCarrierWizardf1fe3b3625cdded65fc740dd16b978a6'] = '例如：\'http://example.com/track.php?num=@\'，其中\'@\'代表快递单号。';
 $_LANGADM['AdminCarrierWizard9d55fc80bbb875322aa67fd22fc98469'] = '商店项目关联：';
 $_LANGADM['AdminCarrierWizard829c7cc5ed48e11df7ac9b05e236a12c'] = '含人工成本';
 $_LANGADM['AdminCarrierWizard00d23a76e43b46dae9ec7aa9dcbebb32'] = '启用';
