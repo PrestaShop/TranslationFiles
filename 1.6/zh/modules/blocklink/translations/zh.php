@@ -20,6 +20,7 @@ $_MODULE['<{blocklink}prestashop>blocklink_9bbcafcc85be214aaff76dffb8b72ce9'] = 
 $_MODULE['<{blocklink}prestashop>blocklink_7e5748d8c44f33c9cde08ac2805e5621'] = '排序顺序更新';
 $_MODULE['<{blocklink}prestashop>blocklink_46cff2568b00bc09d66844849d0b1309'] = '在排序顺序建立时发生错误。';
 $_MODULE['<{blocklink}prestashop>blocklink_449f6d82cde894eafd3c85b6fa918f89'] = '链接ID';
+$_MODULE['<{blocklink}prestashop>blocklink_63a11faa3a692d4e00fa8e03bbe8a0d6'] = '链接文字';
 $_MODULE['<{blocklink}prestashop>blocklink_e6b391a8d2c4d45902a23a8b6585703d'] = '网址：';
 $_MODULE['<{blocklink}prestashop>blocklink_387a8014f530f080bf2f3be723f8c164'] = '链接列表';
 $_MODULE['<{blocklink}prestashop>blocklink_58e9b25bb2e2699986a3abe2c92fc82e'] = '添加新链接';

@@ -1440,6 +1440,7 @@ $_LANGADM['AdminPerformanceab0cf104f39708eabd07b8cb67e149ba'] = '缓存';
 $_LANGADM['AdminPerformance93cba07454f06a4a960172bbd6e2a435'] = '是';
 $_LANGADM['AdminPerformancebafd7322c6e97d25b6299b5d6fe8920b'] = '否';
 $_LANGADM['AdminPerformance0d6bf1934cab1de045b189eed03c3d42'] = '除了调试不应使用。';
+$_LANGADM['AdminPerformancebfa7e629b4eaa924530242510a50679e'] = '缓存类型';
 $_LANGADM['AdminPerformance6c202452e44c42e323204da2a3a3c24a'] = '文件系统';
 $_LANGADM['AdminPerformancefff137fc306769c3d7db8aacd682cf02'] = '（目录%s必须是可写的）';
 $_LANGADM['AdminPerformance79c0d6cba080dc90b01c887064c9fc2f'] = '清除缓存';

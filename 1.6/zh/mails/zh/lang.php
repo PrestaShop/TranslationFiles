@@ -22,8 +22,12 @@ $_LANGMAIL['Your message has been correctly sent #ct%1$s #tc%2$s'] = '您的留�
 $_LANGMAIL['Your message has been correctly sent'] = '您的留言已经发送出成功';
 $_LANGMAIL['Message from contact form'] = '从联系表留言';
 $_LANGMAIL['Message from a customer'] = '来自客户的留言';
+$_LANGMAIL['Password query confirmation'] = '密码查询确认';
 $_LANGMAIL['Newsletter voucher'] = '电子简报代金券';
+$_LANGMAIL['Newsletter confirmation'] = '订阅确认';
 $_LANGMAIL['Email verification'] = '電子郵件驗證';
+$_LANGMAIL['Your wishlist\'s link'] = '你愿望列表的链接';
+$_LANGMAIL['Message from %1$s %2$s'] = '来自%1$s %2$s 的消息';
 $_LANGMAIL['%1$s sent you a link to %2$s'] = '%1$s 发给您一个链接到 %2$s';
 
 

@@ -385,6 +385,10 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c629f24e672b4e1165ebf1c10b5c
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_69ff9aca0bd03b3981784593311d866a'] = '升級前檢查清單';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_06933067aafd48425d67bcb01bba5cb6'] = '更新';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_801ab24683a4a8c433c6eb40c48bcd9d'] = '下載';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_6509fb64b7a0331814629513e36d1402'] = 'PHP 的安全模式已關閉';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_027d4866414c87a3af00e3acf98f2012'] = 'PHP的“allow_url_fopen”選項已打開，或安裝了cURL';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_49c20044e894d8cc2da7783adbf79f16'] = '您的商店正處於維護模式。';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_10f7f752bbed690312dff7e8814b6994'] = '點擊此處將您的商店置於維護模式';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2b1af926a233d2fd8826d281e03ae5d7'] = '此手機模組已關閉。';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_958f470d0b1c8fb2b9e62b48e8903299'] = '無限制';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8641eaacafab9d58e7e93a92ff318714'] = '%s 秒';
@@ -444,6 +448,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_017697f698d570dffed5f88a5a93
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d1cf02f3b502ad45947b846659c7774e'] = '升級PrestaShop至 %s';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_49c77c6b39fac5ce46832752e6612e9d'] = 'PrestaShop %s 更新中';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ba4e6bdd93c2f0c0e133bb94c27623ad'] = '%s 文件夾存在';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9a92bff0f2bacca85a22045df0ff05a7'] = '%s功能已啟用';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_325be51f87717509d7c5b87d45456066'] = '%s外掛已啟用';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f15547fe5f9f307bd42b2c01657efbcb'] = '您的伺服器無法下載該文件。請把它上傳至您的FTP伺服器 /[admin]/autoupgrade 目錄內。';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f2a6c498fb90ee345d997f888fce3b18'] = '刪除';

@@ -322,6 +322,7 @@ $_ERRORS['4f12b222c9659d62afa795987259933f'] = '文件只有部分被上传。';
 $_ERRORS['8c9067e52e4440d8a20e74fdc745b0c6'] = '没有文件被上传';
 $_ERRORS['fc2e88db6e13898dab6ddf3b44c5d68a'] = '您的文件后缀应该是.csv。';
 $_ERRORS['a8ff4902e4a265c726856eaf96fe6279'] = '无效的税务规则组ID，您首先需要一个拥有该ID的组。';
+$_ERRORS['3818f5098eb424045680b8037035a97c'] = '无法保存%s';
 $_ERRORS['5c8707f79dbdd3abb28a8aa09e34f02f'] = '没有找到与 id_product = %s 与image position = %s匹配的图像';
 $_ERRORS['2f236f9450ce8714611e468181064659'] = '您无法在默认语言里更改状态';
 $_ERRORS['59382adebc7f0d65c42fe773d443e4c7'] = 'ISO码已链接至另一种语言。';

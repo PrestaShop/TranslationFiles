@@ -1107,6 +1107,7 @@ $_LANGADM['AdminInvoices133e649a7f103383bd0c9c35c40f8ce0'] = '啟動商品圖像
 $_LANGADM['AdminInvoices48a7d4c7802b0cc4a14a72a574681592'] = '在收據上商品名稱前顯示商品圖像';
 $_LANGADM['AdminInvoices82c9667c9ef1dc29e479d080eaa998db'] = '發票號碼前綴';
 $_LANGADM['AdminInvoices5ebe36b3cffc92f26b3ee7a0306c0154'] = '發票編號前綴 (如 #IN00001)。';
+$_LANGADM['AdminInvoicesffd9d577464b4a615096c6d0c9c490ae'] = '將當前年份附加至發票編號';
 $_LANGADM['AdminInvoices26ecd289d8914ccdd0e388f9603d55bf'] = '年份位置';
 $_LANGADM['AdminInvoices8ae4286d38bb2235def98fd68d7420d2'] = '發票號碼';
 $_LANGADM['AdminInvoices31144f4e66d50e9775547156ccdf8fb5'] = '號碼將自下一張收據援用，當開立新的發票時，號碼將自動遞增. 如果您想保持目前號碼，請輸入目前號碼(#%s)';
