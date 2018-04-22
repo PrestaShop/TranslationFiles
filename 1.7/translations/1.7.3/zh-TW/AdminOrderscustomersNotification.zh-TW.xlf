@@ -162,6 +162,12 @@ File: controllers/admin/AdminOrdersController.php:225</note>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:228</note>
       </trans-unit>
+      <trans-unit id="a42a075994b3ee0f6fe5956110d85889" approved="yes">
+        <source>Order status #%id% cannot be loaded</source>
+        <target xml:lang="zh-TW">訂單＃%id% 狀態不能加載</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:380</note>
+      </trans-unit>
       <trans-unit id="4fe1644600a7dad640143da346a9211b" approved="yes">
         <source>Order #%d cannot be loaded</source>
         <target xml:lang="zh-TW">訂單＃%d 不能被加載</target>
@@ -896,6 +902,12 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:47</note>
       </trans-unit>
+      <trans-unit id="c4832c266d52c6cef340a9c656ddda26" approved="yes">
+        <source>Error. You cannot refund a negative amount.</source>
+        <target xml:lang="zh-TW">出錯，你無法返還負數。</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:62</note>
+      </trans-unit>
       <trans-unit id="14c7a12fdbf437a0545aed3365ce3f84" approved="yes">
         <source>No merchandise returned yet</source>
         <target xml:lang="zh-TW">暫無退貨</target>
@@ -919,6 +931,12 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
         <target xml:lang="zh-TW">此警告還涉及以下訂單：</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:410</note>
+      </trans-unit>
+      <trans-unit id="de78da3154b793d64d302db27e65baec" approved="yes">
+        <source>No payment methods are available</source>
+        <target xml:lang="zh-TW">沒有可用的付款方式</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:493</note>
       </trans-unit>
       <trans-unit id="ecd2046a1d4a6e46c11914c04b9559e4" approved="yes">
         <source>A registered customer account has already claimed this email address</source>
@@ -1016,12 +1034,22 @@ File: admin-dev/themes/default/template/controllers/orders/form.tpl:1277</note>
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/_documents.tpl" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
+      <trans-unit id="5db361171166373b9694fc4aeb0932b5" approved="yes">
+        <source>There is no available document</source>
+        <target xml:lang="zh-TW">沒有你要尋找的文件</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/_documents.tpl:165</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/_product_line.tpl" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
+      <trans-unit id="65247263c6ea1d91027b28a41db8cb4b" approved="yes">
+        <source>Editing this product line will remove the reduction and base price.</source>
+        <target xml:lang="zh-TW">編輯該產品線將取消折扣和底價</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/_product_line.tpl:47</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/_shipping.tpl" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -1036,11 +1064,29 @@ File: admin-dev/themes/default/template/controllers/orders/_shipping.tpl:101</no
   </file>
   <file original="admin-dev/themes/default/template/controllers/customers/helpers/list/list_header.tpl" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="a37bf274ad160c76e7d17b9178bc1f57" approved="yes">
+        <source>How do you want to delete the selected customers?</source>
+        <target xml:lang="zh-TW">您要刪除已選的客戶？</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/customers/helpers/list/list_header.tpl:40</note>
+      </trans-unit>
       <trans-unit id="6513e5e8645f98d950d6174b30c151b8" approved="yes">
         <source>There are two ways of deleting a customer. Please choose your preferred method.</source>
         <target xml:lang="zh-TW">有兩個刪除客戶的方式，請選擇偏好的項目</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/customers/helpers/list/list_header.tpl:41</note>
+      </trans-unit>
+      <trans-unit id="ecace08642e28fc9c2704b5f73605b6d" approved="yes">
+        <source>I want my customers to be able to register again with the same email address. All data will be removed from the database.</source>
+        <target xml:lang="zh-TW">我要讓客戶可以用相同的email再次註冊。所有的資料將被從資料庫移除。</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/customers/helpers/list/list_header.tpl:47</note>
+      </trans-unit>
+      <trans-unit id="fd5b3faeaab816c19b1337785c0b531b" approved="yes">
+        <source>I do not want my customer(s) to register again with the same email address. All selected customer(s) will be removed from this list but their corresponding data will be kept in the database.</source>
+        <target xml:lang="zh-TW">我不要讓客戶使用相同的EMAIL再次註冊。所有選擇的客戶將被從這個列表移除，但是他們的對應資料將被保存在資料庫中。</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/customers/helpers/list/list_header.tpl:53</note>
       </trans-unit>
     </body>
   </file>
