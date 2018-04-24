@@ -5,7 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_cac77d4c7de337f13ad1e89a8cecbc7f'] = 'Piegāde: 1 - 3 nedēļu laikā';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_eeb992239a8454067cd7a47bbf0df359'] = 'Piegāde: 3 - 6 nedēļu laikā';
-$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_f4a0d7cb0cd45214c8ca5912c970de13'] = 'AR PVN';
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_f4a0d7cb0cd45214c8ca5912c970de13'] = 'Ar PVN';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_befcac0f9644a7abee43e69f49252ac4'] = 'BEZ PVN';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_5da618e8e4b89c66fe86e32cdafde142'] = 'No';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_9060587edeb01a63e3d3edc959678d1e'] = 'Pirms';
