@@ -26,6 +26,18 @@ File: classes/PrestaShopBackup.php:167</note>
         <note>Context:
 File: classes/PrestaShopBackup.php:225</note>
       </trans-unit>
+      <trans-unit id="52033453d4d673bae012b9c8ccb1e79c" approved="yes">
+        <source>An error occurred while backing up. Unable to obtain the schema of %s</source>
+        <target xml:lang="hi">जब बैकअप हो रहा था तब एक त्रुटि हो गयी। %s की योजना को प्राप्त करने के लिए सक्षम करें</target>
+        <note>Context:
+File: classes/PrestaShopBackup.php:254</note>
+      </trans-unit>
+      <trans-unit id="a12b8823ac5b71b9d09f9c7b09e54c48" approved="yes">
+        <source>No valid tables were found to backup.</source>
+        <target xml:lang="hi">बैकअप के लिए कोई वैध तालिका नही मिली|</target>
+        <note>Context:
+File: classes/PrestaShopBackup.php:317</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/Mail.php" source-language="en" target-language="hi" datatype="plaintext">
@@ -66,6 +78,12 @@ File: classes/Mail.php:267</note>
         <note>Context:
 File: classes/Mail.php:280</note>
       </trans-unit>
+      <trans-unit id="3ed07fe73e25bba69e3e5dac234b1941" approved="yes">
+        <source>Error - The following e-mail template is missing: %s</source>
+        <target xml:lang="hi">त्रुटि - निम्नलिखित ईमेल टेम्पलेट गायब है: %s</target>
+        <note>Context:
+File: classes/Mail.php:331</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminWebserviceController.php" source-language="en" target-language="hi" datatype="plaintext">
@@ -93,6 +111,30 @@ File: controllers/admin/AdminWebserviceController.php:272</note>
         <target xml:lang="hi">कृपया 'mod_auth_basic' अपाचे मोड्यूल को प्रेस्ताशोप वेब सेवा को प्रमाणीकरण प्रदान करने के लिए सक्रीय करें|</target>
         <note>Context:
 File: controllers/admin/AdminWebserviceController.php:276</note>
+      </trans-unit>
+      <trans-unit id="e11a22a5910f9f84a6630ee78e1a39f5" approved="yes">
+        <source>Please activate the 'mod_rewrite' Apache module to allow the PrestaShop webservice.</source>
+        <target xml:lang="hi">कृपया 'mod_auth_basic' अपाचे मोड्यूल को प्रेस्ताशोप वेब सेवा को प्रमाणीकरण प्रदान करने के लिए सक्रीय करें|</target>
+        <note>Context:
+File: controllers/admin/AdminWebserviceController.php:279</note>
+      </trans-unit>
+      <trans-unit id="2c19e4b707a422ddbbc4d1c32966661d" approved="yes">
+        <source>We could not check to see if basic authentication and rewrite extensions have been activated. Please manually check if they've been activated in order to use the PrestaShop webservice.</source>
+        <target xml:lang="hi">हम यह देखने के लिए जांच नहीं कर सके कि बुनियादी प्रमाणीकरण और पुनःलेखन एक्सटेंशन सक्रिय किए गए हैं या नहीं। कृपया प्रेस्ताशोप वेबसेवा का उपयोग करने के लिए मैन्युअल रूप से जांच की गई है या नहीं।</target>
+        <note>Context:
+File: controllers/admin/AdminWebserviceController.php:282</note>
+      </trans-unit>
+      <trans-unit id="ab60321a106f1e1ab65b76c1ca15dd7c" approved="yes">
+        <source>Please activate the 'SimpleXML' PHP extension to allow testing of PrestaShop's webservice.</source>
+        <target xml:lang="hi">प्रेस्ताशोप वेब सेवा को टेस्ट करने के लिए कृपया 'SimpleXML' पीएचपी एक्स्टेंशन को सक्रीय करें।</target>
+        <note>Context:
+File: controllers/admin/AdminWebserviceController.php:286</note>
+      </trans-unit>
+      <trans-unit id="0508bbb36fb6b5db31edf2f45cd687ea" approved="yes">
+        <source>It is preferable to use SSL (https:) for webservice calls, as it avoids the "man in the middle" type security issues.</source>
+        <target xml:lang="hi">वेबसेवा कॉल के समय एसएसएल (https:) को प्राथमिकता दें, क्योकि यह "man in the middle" जैसे सुरक्षा के मसलों को नकारती है।</target>
+        <note>Context:
+File: controllers/admin/AdminWebserviceController.php:289</note>
       </trans-unit>
     </body>
   </file>
@@ -132,11 +174,53 @@ File: controllers/admin/AdminRequestSqlController.php:401</note>
         <note>Context:
 File: controllers/admin/AdminRequestSqlController.php:487</note>
       </trans-unit>
+      <trans-unit id="b162612cdcbf01c01421bad2e8b39432" approved="yes">
+        <source>Undefined "%s" error</source>
+        <target xml:lang="hi">अपरिभाषित "%s" त्रुटि</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:495</note>
+      </trans-unit>
+      <trans-unit id="dbea0ef67609a60a1f71f8d19e132d1e" approved="yes">
+        <source>The "*" operator cannot be used in a nested query.</source>
+        <target xml:lang="hi">"*" ऑपरेटर को नेस्टेड क्वेरी में इस्तेमाल नहीं किया जा सकता है।</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:417</note>
+      </trans-unit>
       <trans-unit id="20cc3893d65fa16fcd2fe317c555e28a" approved="yes">
         <source>The operator "%s" is incorrect.</source>
         <target xml:lang="hi">ऑपरेटर "%s" गलत है।</target>
         <note>Context:
 File: controllers/admin/AdminRequestSqlController.php:426</note>
+      </trans-unit>
+      <trans-unit id="dde2543d498ef763b41a2e5ddad7ecdd" approved="yes">
+        <source>The "%operator%" operator is incorrect.</source>
+        <target xml:lang="hi">ऑपरेटर "%operator%" गलत है।</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:449</note>
+      </trans-unit>
+      <trans-unit id="19681d28ed1cc72479bc26b7e76ad240" approved="yes">
+        <source>The LIMIT clause must contain numeric arguments.</source>
+        <target xml:lang="hi">LIMIT क्लॉज़ संख्यात्मक जानकारी रख सकता है।</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:500</note>
+      </trans-unit>
+      <trans-unit id="37074dedaa80ce0e038f92b668fb2350" approved="yes">
+        <source>The "%reference%" reference does not exist in the "%table%" table.</source>
+        <target xml:lang="hi">"%reference%" विशेषता में "%table%" तालिका मौजूद नही है|</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:506</note>
+      </trans-unit>
+      <trans-unit id="7b4dd672e3b87269079894e693ce9b76" approved="yes">
+        <source>When multiple tables are used, each attribute must refer back to a table.</source>
+        <target xml:lang="hi">जब एकाधिक तालिकाएँ प्रयोग हो रही हों, प्रत्येक गुणधर्म एक तालिका से दोबारा सुनिश्चित करें।</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:514</note>
+      </trans-unit>
+      <trans-unit id="8ff8844bb02822975904934598298987" approved="yes">
+        <source>"%key%" is an unauthorized keyword.</source>
+        <target xml:lang="hi">"%key%" एक अनधिकृत कीवर्ड है।</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:523</note>
       </trans-unit>
     </body>
   </file>
@@ -176,11 +260,47 @@ File: controllers/admin/AdminEmployeesController.php:472</note>
         <note>Context:
 File: controllers/admin/AdminEmployeesController.php:562</note>
       </trans-unit>
+      <trans-unit id="8fd6c902e0a6186ebc62b4c3c65dc528" approved="yes">
+        <source>You cannot delete this account because it manages warehouses. Check your warehouses first.</source>
+        <target xml:lang="hi">आप इस अकाउंट को डिलीट नही कर सकते क्योकि यह गोदाम को प्रबंधित करता है| पहले अपना गोदाम जांचे|</target>
+        <note>Context:
+File: controllers/admin/AdminEmployeesController.php:485</note>
+      </trans-unit>
       <trans-unit id="4220fb02fdc65e838a02a3b51c6f737f" approved="yes">
         <source>Your current password is invalid.</source>
         <target xml:lang="hi">आपका निवर्तमान पासवर्ड अवैध है|</target>
         <note>Context:
 File: controllers/admin/AdminEmployeesController.php:500</note>
+      </trans-unit>
+      <trans-unit id="1a33d52d73377516254da97f9fee027e" approved="yes">
+        <source>The confirmation password does not match.</source>
+        <target xml:lang="hi">पुष्टिकरण पासवर्ड मेल नहीं खाता है।</target>
+        <note>Context:
+File: controllers/admin/AdminEmployeesController.php:502</note>
+      </trans-unit>
+      <trans-unit id="c7cd7ecd5b19e01f74cad32af30c9ac4" approved="yes">
+        <source>You should have at least one employee in the administrator group.</source>
+        <target xml:lang="hi">आपके व्यवस्थापक समूह में कम से कम एक कर्मचारी होना चाहिए।</target>
+        <note>Context:
+File: controllers/admin/AdminEmployeesController.php:557</note>
+      </trans-unit>
+      <trans-unit id="b31b8d1d5ad7a1565e1246ca6b3a3c0e" approved="yes">
+        <source>Invalid theme</source>
+        <target xml:lang="hi">अमान्य थीम</target>
+        <note>Context:
+File: controllers/admin/AdminEmployeesController.php:571</note>
+      </trans-unit>
+      <trans-unit id="cfe45dd92c1b71a640ea19767578f38c" approved="yes">
+        <source>The employee must be associated with at least one shop.</source>
+        <target xml:lang="hi">कर्मचारी कम से कम एक दुकान से सम्बद्ध होना चाहिए।</target>
+        <note>Context:
+File: controllers/admin/AdminEmployeesController.php:582</note>
+      </trans-unit>
+      <trans-unit id="46cf0d0972e77638e099815140a0d302" approved="yes">
+        <source>The password must be at least %length% characters long.</source>
+        <target xml:lang="hi">पासवर्ड कम से कम %length% अक्षर लंबा होना चाहिए।</target>
+        <note>Context:
+File: controllers/admin/AdminEmployeesController.php:598</note>
       </trans-unit>
     </body>
   </file>
@@ -222,6 +342,48 @@ File: controllers/admin/AdminImportController.php:726</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:730</note>
       </trans-unit>
+      <trans-unit id="8c9067e52e4440d8a20e74fdc745b0c6" approved="yes">
+        <source>No file was uploaded.</source>
+        <target xml:lang="hi">कोई फाइल अपलोड नही की गयी।</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:734</note>
+      </trans-unit>
+      <trans-unit id="fc2e88db6e13898dab6ddf3b44c5d68a" approved="yes">
+        <source>The extension of your file should be .csv.</source>
+        <target xml:lang="hi">आपके फाइल का एक्स्टेंशन .csv होना चाहिए।</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:739</note>
+      </trans-unit>
+      <trans-unit id="50844c635a86264cc59d737d532df573" approved="yes">
+        <source>An error occurred while uploading / copying the file.</source>
+        <target xml:lang="hi">फ़ाइलों को अपलोड/कॉपी करते समय एक त्रुटि उत्पन्न हुई।</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:742</note>
+      </trans-unit>
+      <trans-unit id="197f1953efd11637a634a7f9b269eac3" approved="yes">
+        <source>To proceed, please upload a file first.</source>
+        <target xml:lang="hi">कृपया आगे बढ़ने के लिए पहले एक फाइल अपलोड करें।</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:4526</note>
+      </trans-unit>
+      <trans-unit id="a080a85258618039d010a2136f85e69f" approved="yes">
+        <source>There is an empty row in the file that won't be imported.</source>
+        <target xml:lang="hi">एक तालिका में एक पंक्ति खाली है उसको आयात नही किया जा सका।</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3703</note>
+      </trans-unit>
+      <trans-unit id="53d9fc1aa79e85c0f845139c6358daee" approved="yes">
+        <source>The category ID must be unique. It can't be the same as the one for Root or Home category.</source>
+        <target xml:lang="hi">श्रेणी आईडी विशिष्ट होनी चाहिए। रूट और होम श्रेणी एक समान नही हो सकती।</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1297</note>
+      </trans-unit>
+      <trans-unit id="7a1bebdbf5770873f8172ecf27b2aa50" approved="yes">
+        <source>The category ID must be unique. It can't be the same as the one for the parent category (ID: %1$s).</source>
+        <target xml:lang="hi">श्रेणी आईडी विशिष्ट होनी चाहिए। यह अभिभावक श्रेणी (आईडी: %1$s) के लिए एक समान नही हो सकती।</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1319</note>
+      </trans-unit>
       <trans-unit id="c2758df7a8c70260e3b55e26c51b65fd">
         <source>Advanced stock management has incorrect value. Not set for product %name% </source>
         <target xml:lang="hi" state="needs-translation"> </target>
@@ -257,6 +419,18 @@ File: controllers/admin/AdminImportController.php:2230</note>
         <target xml:lang="hi" state="needs-translation"> </target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2767</note>
+      </trans-unit>
+      <trans-unit id="b390e8c2a66fd018293fb44a5b8208c8" approved="yes">
+        <source>Currency ID (%id%) is not valid (at line %line%).</source>
+        <target xml:lang="hi">मुद्रा आईडी (%id%) मान्य नहीं है (लाइन %line% पर)।</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3926</note>
+      </trans-unit>
+      <trans-unit id="41a2fc826e4bd29b8eaf497a89a9dc5d" approved="yes">
+        <source>Reference (%ref%) already exists (at line %line%).</source>
+        <target xml:lang="hi">संदर्भ (%ref%) पहले से मौजूद है (लाइन %line% पर)।</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3932</note>
       </trans-unit>
       <trans-unit id="70e7a6fcceb39a1e3ea3925182b85d18" approved="yes">
         <source>YYYY-MM-DD</source>
@@ -297,6 +471,54 @@ File: admin-dev/themes/default/template/controllers/import/modal_import_progress
         <target xml:lang="hi">कोई त्रुटि हो गई हैं:</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:39</note>
+      </trans-unit>
+      <trans-unit id="841e4579e55a01ab8f0c565995ba7cfc" approved="yes">
+        <source>Some errors were detected. Please check the details:</source>
+        <target xml:lang="hi">कुछ त्रुटियाँ पाई गयीं, कृपया विवरण देखें:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:49</note>
+      </trans-unit>
+      <trans-unit id="3df311b82f78fa4059e9a78a26e77b06" approved="yes">
+        <source>We made the following adjustments:</source>
+        <target xml:lang="hi">हमने निम्नलिखित बदलाव किये हैं:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:52</note>
+      </trans-unit>
+      <trans-unit id="6e17621d481059924339f91ed431a116" approved="yes">
+        <source>Validating data...</source>
+        <target xml:lang="hi">डेटा मान्य कर रहा है...</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:57</note>
+      </trans-unit>
+      <trans-unit id="95fdb0ead4798ff27cce78fac3fd3c11" approved="yes">
+        <source>[1]%percentage%[/1]% validated</source>
+        <target xml:lang="hi">[१]%percentage%[/१]% की वैधता जांची गयी</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:62</note>
+      </trans-unit>
+      <trans-unit id="fd2f43e6f9f4de5be1b08cdac13d7749" approved="yes">
+        <source>Processing next page...</source>
+        <target xml:lang="hi">अगले पेज पर प्रसंस्करित हो रहा है...</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:92</note>
+      </trans-unit>
+      <trans-unit id="f438c83e3ff4dd40a3fc1bf4bb3e79f5" approved="yes">
+        <source>Linking accessories...</source>
+        <target xml:lang="hi">सहायक उपकरणों को जोड़ रहा है...</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:81</note>
+      </trans-unit>
+      <trans-unit id="2a44b5ac9f88c57f584bf083730a93f7" approved="yes">
+        <source>[1]%size%[/1]% imported</source>
+        <target xml:lang="hi">[१]%size%[/१]% आयात की गयी</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:84</note>
+      </trans-unit>
+      <trans-unit id="b8388ec68dcac2402d944fbb3382b0f1" approved="yes">
+        <source>Abort import</source>
+        <target xml:lang="hi">इम्पोर्ट रद्द करें</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:104</note>
       </trans-unit>
     </body>
   </file>
@@ -415,6 +637,12 @@ File: src/Adapter/Requirement/CheckRequirements.php:101</note>
         <target xml:lang="hi">अपने सर्वर पर मौजूद जीडी लाइब्रेरी को सक्षम करें|</target>
         <note>Context:
 File: src/Adapter/Requirement/CheckRequirements.php:102</note>
+      </trans-unit>
+      <trans-unit id="4fc7f05f412a1684ce4996e51ffff7fe" approved="yes">
+        <source>Enable the MySQL support on your server.</source>
+        <target xml:lang="hi">अपने सर्वर को समर्थन देने के लिए MySQL को सक्षम करें</target>
+        <note>Context:
+File: src/Adapter/Requirement/CheckRequirements.php:103</note>
       </trans-unit>
     </body>
   </file>
@@ -560,6 +788,24 @@ File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_hea
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:71</note>
       </trans-unit>
+      <trans-unit id="0929b3759c8eef31c299400f513072dd" approved="yes">
+        <source>Our team will take care of restoring your database safely.</source>
+        <target xml:lang="hi">हमारी टीम सुरक्षित रूप से आपके डेटाबेस को बहाल करने का ख्याल रखेगी।</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:73</note>
+      </trans-unit>
+      <trans-unit id="c4b6a12f5f4cbbeb2353a718ee9a8a9a" approved="yes">
+        <source>Why can't I restore it by myself?</source>
+        <target xml:lang="hi">मैं इसे स्वयं बहाल क्यों नही कर सकता?</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:76</note>
+      </trans-unit>
+      <trans-unit id="d4ef96663955ee203ce986ef40945199" approved="yes">
+        <source>Your shop is hosted by PrestaShop. Although you can create backup files here below, there are core settings you cannot access for security reasons, like the database management. Thus, only our team can proceed to a restoration.</source>
+        <target xml:lang="hi">आपकी दुकान प्रेस्ताशोप होस्ट कर रहा है। यद्यपि आप यहाँ नीचे बैकअप फाइल बना सकते हैं, फिर भी मूल सेटिंग तक आप सुरक्षा कारणों से नही पहुँच सकते, जैसे की डेटाबेस प्रबंधन। इस तरह से सिर्फ हमारी टीम ही पुनर्निर्माण कर सकती है।</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:78</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/backup/helpers/view/view.tpl" source-language="en" target-language="hi" datatype="plaintext">
@@ -569,6 +815,12 @@ File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_hea
         <target xml:lang="hi">डाउनलोड प्रारम्भ करें...</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/backup/helpers/view/view.tpl:32</note>
+      </trans-unit>
+      <trans-unit id="e4cdcd51e6cf787d4ecc7d813f0c23cb" approved="yes">
+        <source>The locale must be installed</source>
+        <target xml:lang="hi">लोकेल स्थापित होना चाहिए</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl:188</note>
       </trans-unit>
       <trans-unit id="6a278621d6f2e7dbd56c7beca4081e2d" approved="yes">
         <source>Backup files should automatically start downloading.</source>
