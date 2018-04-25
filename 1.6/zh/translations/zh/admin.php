@@ -3376,6 +3376,7 @@ $_LANGADM['AdminModulesPositions83057027f6b988dd2dbe422f6f3ddd21'] = '此hook无
 $_LANGADM['AdminModulesPositionsfeb6f2e19409f021e5fd65c51d21d254'] = '解除选择该项';
 $_LANGADM['AdminModulesPositions82fb0558ff2af9bdae555235bc4eb364'] = '现场修改';
 $_LANGADM['AdminModulesPositions2d9caf7a1d7b5d6a7d9ad2209d81a939'] = '运行实时编辑';
+$_LANGADM['AdminModulesPositions6ff9dd0d34f65181173c1e4bc39939de'] = '选择';
 $_LANGADM['AdminNotFound9178de10abf6a1368e7a73ec0adb0e8e'] = '返回到上一页';
 $_LANGADM['AdminNotFound585c732d00a27a32cd9585fe481964cf'] = '转到仪表盘页';
 $_LANGADM['AdminOrdersc2808546f3e14d267d798f4e0e6f102e'] = '定制';
