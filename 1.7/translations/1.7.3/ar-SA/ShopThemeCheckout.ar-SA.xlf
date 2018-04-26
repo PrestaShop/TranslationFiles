@@ -24,6 +24,12 @@ File: classes/checkout/CheckoutDeliveryStep.php:180</note>
         <note>Context:
 File: themes/classic/templates/checkout/_partials/order-final-summary.tpl:35</note>
       </trans-unit>
+      <trans-unit id="7ce3a11073ffba68bd1e83e243aaabf7" approved="yes">
+        <source>Please check your order before payment</source>
+        <target xml:lang="ar">يرجى مراجعة طلبك قبل الدفع</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/order-final-summary.tpl:28</note>
+      </trans-unit>
       <trans-unit id="f2a5a4ccf14820292a27cca1c8cab12e" approved="yes">
         <source>Your Delivery Address</source>
         <target xml:lang="ar">عنوان التوصيل الخاص بك</target>
@@ -103,6 +109,12 @@ File: src/Adapter/Cart/CartPresenter.php:379</note>
         <target xml:lang="ar">%count% منتجات</target>
         <note>Context:
 File: src/Adapter/Cart/CartPresenter.php:380</note>
+      </trans-unit>
+      <trans-unit id="2bd544f123f671c597c4b330ef05b5da" approved="yes">
+        <source>A minimum shopping cart total of %amount% (tax excl.) is required to validate your order. Current cart total is %total% (tax excl.).</source>
+        <target xml:lang="ar">مطلوب حد أدنى لسلة التسوق %amount% (بدون ضرائب) للتحقق من صحة طلبك. إجمالي سلة التسوق الحالي هو %total% (بدون ضرائب).</target>
+        <note>Context:
+File: src/Adapter/Cart/CartPresenter.php:428</note>
       </trans-unit>
     </body>
   </file>
@@ -229,17 +241,44 @@ File: src/Adapter/Order/OrderPresenter.php:238</note>
         <note>Context:
 File: themes/StarterTheme/templates/checkout/_partials/steps/addresses.tpl:36</note>
       </trans-unit>
+      <trans-unit id="dc024b376ebf01abd90cf4d5e4dca1c7" approved="yes">
+        <source>The selected address will be used as your personal address (for invoice).</source>
+        <target xml:lang="ar">العنوان المختار سيستخدم كعنوان شخصي (في الفاتورة).</target>
+        <note>Context:
+File: themes/StarterTheme/templates/checkout/_partials/steps/addresses.tpl:45</note>
+      </trans-unit>
+      <trans-unit id="313d7cbfa2b3c25f09d69ad7e40974a7" approved="yes">
+        <source>Billing address differs from shipping address</source>
+        <target xml:lang="ar">عنوان الفاتورة يختلف عن عنوان الشحن</target>
+        <note>Context:
+File: themes/StarterTheme/templates/checkout/_partials/steps/addresses.tpl:74</note>
+      </trans-unit>
+      <trans-unit id="59123a64986f5a831723020061400054" approved="yes">
+        <source>The selected address will be used both as your personal address (for invoice) and as your shipping address.</source>
+        <target xml:lang="ar">سيتم استخدام العنوان المحدد كعنوانك الشخصي (للفاتورة) وكعنوان الشحن.</target>
+        <note>Context:
+File: themes/StarterTheme/templates/checkout/_partials/steps/addresses.tpl:41</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/checkout/_partials/cart-detailed.tpl" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      
+      <trans-unit id="2f0dca8966242e58b83e0afc012b178b" approved="yes">
+        <source>There are no more items in your cart</source>
+        <target xml:lang="ar">لا توجد أية عناصر أخرى في عربة التسوق</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/cart-detailed.tpl:39</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/checkout/_partials/order-final-summary-table.tpl" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="e3e83a01990288b492a11a955723343d" approved="yes">
+        <source>%product_count% item in your cart</source>
+        <target xml:lang="ar">هناك %product_count% منتجات في سلة مشترياتك</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/order-final-summary-table.tpl:31</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/StarterTheme/templates/checkout/_partials/address-form.tpl" source-language="en" target-language="ar" datatype="plaintext">
@@ -300,6 +339,24 @@ File: themes/classic/templates/checkout/_partials/steps/payment.tpl:8</note>
         <note>Context:
 File: themes/StarterTheme/templates/checkout/_partials/steps/payment.tpl:45</note>
       </trans-unit>
+      <trans-unit id="97b72d419a22e2d1144b2fb05ee26901" approved="yes">
+        <source>Unfortunately, there are no payment method available.</source>
+        <target xml:lang="ar">للأسف، لا توجد طريقة دفع متاحة.</target>
+        <note>Context:
+File: themes/StarterTheme/templates/checkout/_partials/steps/payment.tpl:89</note>
+      </trans-unit>
+      <trans-unit id="9ea465e939c30ceba6e0d46810913142" approved="yes">
+        <source>By confirming the order, you certify that you have read and agree with all of the conditions below:</source>
+        <target xml:lang="ar">من خلال تأكيد الطلب، تقر بأنك قد قرأت و توافق على جميع الشروط أدناه:</target>
+        <note>Context:
+File: themes/StarterTheme/templates/checkout/_partials/steps/payment.tpl:11</note>
+      </trans-unit>
+      <trans-unit id="3a31d70f8c2eb35a29f6c58e9664cd7f" approved="yes">
+        <source>Please make sure you've chosen a [1]payment method[/1] and accepted the [2]terms and conditions[/2].</source>
+        <target xml:lang="ar">يرجى التأكد من إختيار [1]طريقة الدفع[/1] والموافقة على [2]البنود و الشروط[/2].</target>
+        <note>Context:
+File: themes/StarterTheme/templates/checkout/_partials/steps/payment.tpl:100</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/checkout/_partials/steps/shipping.tpl" source-language="en" target-language="ar" datatype="plaintext">
@@ -345,6 +402,12 @@ File: themes/StarterTheme/templates/checkout/_partials/cart-detailed-product-lin
   </file>
   <file original="themes/StarterTheme/templates/checkout/order-confirmation.tpl" source-language="en" target-language="ar" datatype="plaintext">
     <body>
+      <trans-unit id="b8627ccd34529880156129d02a9ca37d" approved="yes">
+        <source>An email has been sent to your mail address %email%.</source>
+        <target xml:lang="ar">تم إرسال رسالة إلى عنوان بريدك الإلكتروني %email%.</target>
+        <note>Context:
+File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:21</note>
+      </trans-unit>
       <trans-unit id="186f9a937f0afc4cce2bbc4087dfd3fa" approved="yes">
         <source>You can also [1]download your invoice[/1]</source>
         <target xml:lang="ar">يمكنك أيضًا [1] تنزيل فاتورتك [/1]</target>
@@ -369,6 +432,18 @@ File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:4</note>
         <note>Context:
 File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:59</note>
       </trans-unit>
+      <trans-unit id="c955ed92e576b55e052cc5a88d92c93e" approved="yes">
+        <source>Payment method %method_name%</source>
+        <target xml:lang="ar">طريقة الدفع %method_name%</target>
+        <note>Context:
+File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:60</note>
+      </trans-unit>
+      <trans-unit id="286b82fc158785899ecbe309809b7057" approved="yes">
+        <source>Shipping method %method_name%</source>
+        <target xml:lang="ar">طريقة الشحن %method_name%</target>
+        <note>Context:
+File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:62</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/checkout/order-confirmation.tpl" source-language="en" target-language="ar" datatype="plaintext">
@@ -378,6 +453,12 @@ File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:59</note>
         <target xml:lang="ar">مرجع الطلب:%reference%</target>
         <note>Context:
 File: themes/classic/templates/checkout/order-confirmation.tpl:60</note>
+      </trans-unit>
+      <trans-unit id="e120387480bc284c5347ae1baa480670" approved="yes">
+        <source>Payment method: %method%</source>
+        <target xml:lang="ar">طريقة الدفع %method%</target>
+        <note>Context:
+File: themes/classic/templates/checkout/order-confirmation.tpl:61</note>
       </trans-unit>
       <trans-unit id="080753487a8bc0bb9a5275bcb9951516" approved="yes">
         <source>Shipping method: %method%</source>
@@ -539,6 +620,12 @@ File: themes/StarterTheme/templates/checkout/_partials/customer-form.tpl:30</not
         <target xml:lang="ar">يمكنك ان تدخر</target>
         <note>Context:
 File: themes/StarterTheme/templates/catalog/_partials/product-discounts.tpl:35</note>
+      </trans-unit>
+      <trans-unit id="bb4c039b2cfaf344b1f599149086dba6" approved="yes">
+        <source>Up to %amount_saved%</source>
+        <target xml:lang="ar">حتى %amount_saved%</target>
+        <note>Context:
+File: themes/StarterTheme/templates/catalog/_partials/product-discounts.tpl:48</note>
       </trans-unit>
     </body>
   </file>
