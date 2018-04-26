@@ -4,6 +4,11 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_6adf97f83acf6453d4a6a4b1070f3754'] = 'Ništa';
+$_MODULE['<{autoupgrade}prestashop>adminpreferences_c035796995e11f000835780bbadbd575'] = 'Standardno (5 koraka)';
+$_MODULE['<{autoupgrade}prestashop>adminpreferences_b563636fd3896671be0104bbc6783be4'] = 'Plaćanje na jednoj stranici';
+$_MODULE['<{autoupgrade}prestashop>adminpreferences_27f3765c3871cd5fe52f88f31dfe2c89'] = 'superiorno';
+$_MODULE['<{autoupgrade}prestashop>adminpreferences_f8d23e159df67b2673d7c29166864453'] = 'inferiorno';
+$_MODULE['<{autoupgrade}prestashop>adminpreferences_700e61469b84a66ddb24304a85b0c181'] = 'klasično';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_7fe15a347d66e291d7a1375273226205'] = 'Omogućite trgovinu';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_1656072e927c8d3acd24359cbb648bb5'] = 'Omogući SSL';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_93cba07454f06a4a960172bbd6e2a435'] = 'Da';
