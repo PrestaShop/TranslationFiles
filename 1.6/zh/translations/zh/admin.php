@@ -1964,7 +1964,6 @@ $_LANGADM['AdminShipping4e5918d7f5186ae00b4a48d9296fcd5a'] = '您商店的默认
 $_LANGADM['AdminShipping2d8ee3c32fffdf39872b844a50f08ad9'] = '最好的价格';
 $_LANGADM['AdminShipping156fbbe269edc91f43e240587a21c48b'] = '最高的品质';
 $_LANGADM['AdminShipping33d8042bd735c559cc3206f4bc99aedc'] = '排序：';
-$_LANGADM['AdminShipping01fda57aa6c7e9f07f5aa36b108e95cb'] = '订购';
 $_LANGADM['AdminShope93c33bd1341ab74195430daeb63db13'] = '商店名称：';
 $_LANGADM['AdminShop4493e821e06072415518bd7ae4077996'] = '商店群組';
 $_LANGADM['AdminShop00d23a76e43b46dae9ec7aa9dcbebb32'] = '启用';

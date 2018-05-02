@@ -23,7 +23,6 @@ $_MODULE['<{statscheckup}prestashop>statscheckup_f4abc77d498c89880f6733160940677
 $_MODULE['<{statscheckup}prestashop>statscheckup_ad647e4ae904c7ed54ee93040d8298c7'] = '少于';
 $_MODULE['<{statscheckup}prestashop>statscheckup_05824b7be006782aaefd1fdb97c71e06'] = '多于';
 $_MODULE['<{statscheckup}prestashop>statscheckup_c9cc8cce247e49bae79f15173ce97354'] = '保存';
-$_MODULE['<{statscheckup}prestashop>statscheckup_01fda57aa6c7e9f07f5aa36b108e95cb'] = '订购';
 $_MODULE['<{statscheckup}prestashop>statscheckup_b718adec73e04ce3ec720dd11a06a308'] = '编号';
 $_MODULE['<{statscheckup}prestashop>statscheckup_49ee3087348e8d44e1feda1917443987'] = '名称';
 $_MODULE['<{statscheckup}prestashop>statscheckup_7d74f3b92b19da5e606d737d339a9679'] = '商品';
