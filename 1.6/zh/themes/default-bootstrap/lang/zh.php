@@ -160,7 +160,6 @@ $_LANG['discount_8c1279db4db86553e4b9682f78cf500e'] = '截止日期';
 $_LANG['discount_f4a0d7cb0cd45214c8ca5912c970de13'] = '含税';
 $_LANG['discount_befcac0f9644a7abee43e69f49252ac4'] = '不含税';
 $_LANG['discount_29aa46cc3d2677c7e0f216910df600ff'] = '免运费';
-$_LANG['discount_6adf97f83acf6453d4a6a4b1070f3754'] = '无';
 $_LANG['discount_93cba07454f06a4a960172bbd6e2a435'] = '是';
 $_LANG['discount_bafd7322c6e97d25b6299b5d6fe8920b'] = '否';
 $_LANG['discount_d3f5baf7537ec2a40ade00599a8da8c6'] = '您没有任何凭证';

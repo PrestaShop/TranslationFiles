@@ -3,7 +3,6 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{autoupgrade}prestashop>adminpreferences_6adf97f83acf6453d4a6a4b1070f3754'] = '无';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_c035796995e11f000835780bbadbd575'] = '标准（5步）';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_b563636fd3896671be0104bbc6783be4'] = '一页结帐';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_27f3765c3871cd5fe52f88f31dfe2c89'] = '精准';
