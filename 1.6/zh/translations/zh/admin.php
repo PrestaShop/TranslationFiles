@@ -4100,6 +4100,7 @@ $_LANGADM['AdminControllerbbaff12800505b22a853e8b7f4eb6a22'] = '联系我们';
 $_LANGADM['AdminController3e937d04c1c83492260a33d926ca587c'] = 'bug跟踪';
 $_LANGADM['AdminControllere6a7f8a2f42cc35979973da8dfb10720'] = '论坛';
 $_LANGADM['AdminControllerb3f252777a69b110667756babe83a98f'] = '插件';
+$_LANGADM['AdminControllercf270e40d273f9e7fd7c3061729060c3'] = '培训';
 $_LANGADM['AdminController1e6d57e813355689e9c77e947d73ad8f'] = '从';
 $_LANGADM['AdminController0a71c80de89d7b2d3e6b22974a4a7548'] = '新订单已放置于您的店铺。';
 $_LANGADM['AdminController3df406952f3377a5e419d4d63abb1b1d'] = '订单编号';
