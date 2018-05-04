@@ -744,6 +744,12 @@ File: src/PrestaShopBundle/Form/Admin/Product/ProductShipping.php:119</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Product/ProductQuantity.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="af39c53c91dc46e2576f28b843b82988" approved="yes">
+        <source>Label when in stock</source>
+        <target xml:lang="zh-CN">有库存时的标签</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductQuantity.php:193</note>
+      </trans-unit>
       <trans-unit id="66de7ffcf9f515fb047045299ab0b3a3" approved="yes">
         <source>I want to use the advanced stock management system for this product.</source>
         <target xml:lang="zh-CN">我想对此商品使用高级库存管理系统。</target>
@@ -762,21 +768,34 @@ File: src/PrestaShopBundle/Form/Admin/Product/ProductQuantity.php:111</note>
         <note>Context:
 File: src/PrestaShopBundle/Form/Admin/Product/ProductQuantity.php:116</note>
       </trans-unit>
+      <trans-unit id="a532f6edbb8880c752b74073710b285a" approved="yes">
+        <source>Label when out of stock (and back order allowed)</source>
+        <target xml:lang="zh-CN">缺货时的标签（允许延期交货）</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductQuantity.php:204</note>
+      </trans-unit>
       <trans-unit id="6ece9a14d0c8da14a1af607f9f7e0b36" approved="yes">
         <source>Does this product have an associated file?</source>
         <target xml:lang="zh-CN">该商品是否有相关的文件？</target>
         <note>Context:
 File: src/PrestaShopBundle/Form/Admin/Product/ProductQuantity.php:221</note>
       </trans-unit>
+      <trans-unit id="989d17fa8f3081cc0d66838c7504c0ef" approved="yes">
+        <source>Use default behavior</source>
+        <target xml:lang="zh-CN">使用默认配置</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductQuantity.php:231
+ Comment: Manage out_of_stock field with contextual values/label</note>
+      </trans-unit>
       <trans-unit id="119a7c88cf8f1c685c57981abff26f43" approved="yes">
         <source>Allow orders</source>
-        <target xml:lang="zh-CN">允许订购</target>
+        <target xml:lang="zh-CN">允许创建订单</target>
         <note>Context:
 File: src/PrestaShopBundle/Form/Admin/Product/ProductQuantity.php:243</note>
       </trans-unit>
       <trans-unit id="f072da215c080d985d44361e96a3cf60" approved="yes">
         <source>Deny orders</source>
-        <target xml:lang="zh-CN">不允许订购</target>
+        <target xml:lang="zh-CN">不允许创建订单</target>
         <note>Context:
 File: src/PrestaShopBundle/Form/Admin/Product/ProductQuantity.php:242</note>
       </trans-unit>
@@ -792,19 +811,19 @@ File: src/PrestaShopBundle/Form/Admin/Product/ProductQuantity.php:250</note>
     <body>
       <trans-unit id="9e2941b3c81256fac10392aaca4ccfde" approved="yes">
         <source>Condition</source>
-        <target xml:lang="zh-CN">条件</target>
+        <target xml:lang="zh-CN">商品状况</target>
         <note>Context:
 File: src/PrestaShopBundle/Form/Admin/Product/ProductOptions.php:172</note>
       </trans-unit>
       <trans-unit id="c8effe37e0fefd95ff0cc4873de6e6a6" approved="yes">
         <source>EAN-13 or JAN barcode</source>
-        <target xml:lang="zh-CN">EAN或JAN-13条形码</target>
+        <target xml:lang="zh-CN">EAN 或 JAN-13</target>
         <note>Context:
 File: src/PrestaShopBundle/Form/Admin/Product/ProductOptions.php:141</note>
       </trans-unit>
       <trans-unit id="5bb4529a7441854e00e00f8ed0096756" approved="yes">
         <source>UPC barcode</source>
-        <target xml:lang="zh-CN">UPC条形码</target>
+        <target xml:lang="zh-CN">UPC</target>
         <note>Context:
 File: src/PrestaShopBundle/Form/Admin/Product/ProductOptions.php:133</note>
       </trans-unit>
@@ -843,6 +862,18 @@ File: src/PrestaShopBundle/Form/Admin/Product/ProductOptions.php:119</note>
         <target xml:lang="zh-CN">显示价格</target>
         <note>Context:
 File: src/PrestaShopBundle/Form/Admin/Product/ProductOptions.php:123</note>
+      </trans-unit>
+      <trans-unit id="fd531d460cecb407f3628d25c4574acc" approved="yes">
+        <source>Web only (not sold in your retail store)</source>
+        <target xml:lang="zh-CN">只在网上出售（不在您的实体店内销售）</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductOptions.php:127</note>
+      </trans-unit>
+      <trans-unit id="527618353332c282892ba960ef1f0230" approved="yes">
+        <source>Display condition on product page</source>
+        <target xml:lang="zh-CN">在商品页面上显示商品状况</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductOptions.php:159</note>
       </trans-unit>
     </body>
   </file>
@@ -1250,6 +1281,12 @@ File: src/PrestaShopBundle/Translation/Api/StockApi.php:48</note>
 File: src/PrestaShopBundle/Translation/Api/StockApi.php:53
  Comment: 'All' refers to statuses as if "All statuses". Please adapt as necessary in your language</note>
       </trans-unit>
+      <trans-unit id="898bed66d82aeaab1d62875fd3657c40" approved="yes">
+        <source>Movements</source>
+        <target xml:lang="zh-CN">移动库存</target>
+        <note>Context:
+File: src/PrestaShopBundle/Translation/Api/StockApi.php:63</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Category/SimpleCategory.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -1282,7 +1319,7 @@ File: src/PrestaShopBundle/Form/Admin/Product/ProductWarehouseCombination.php:70
     <body>
       <trans-unit id="da22c93ccb398c72070f4000cc7b59a1" approved="yes">
         <source>Customization</source>
-        <target xml:lang="zh-CN">定制</target>
+        <target xml:lang="zh-CN">自定义商品细节</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/form.tpl:651</note>
       </trans-unit>
@@ -1365,12 +1402,7 @@ File: src/Adapter/Product/AdminProductWrapper.php:378</note>
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      <trans-unit id="ea9cf7e47ff33b2be14e6dd07cbcefc6" approved="yes">
-        <source>Shipping</source>
-        <target xml:lang="zh-CN">配送</target>
-        <note>Context:
-File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:1092</note>
-      </trans-unit>
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/Include/form_combination.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
