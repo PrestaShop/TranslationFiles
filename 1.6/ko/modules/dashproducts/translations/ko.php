@@ -4,7 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{dashproducts}prestashop>dashproducts_6655df4af87b2038afd507a33545a56d'] = '대시보드 상품';
-$_MODULE['<{dashproducts}prestashop>dashproducts_4a528e24be5aca96e8a15b256efe1f31'] = '최근 주문과 제품 순위가 있는 테이블 블럭을 추가합니다.';
+$_MODULE['<{dashproducts}prestashop>dashproducts_4a528e24be5aca96e8a15b256efe1f31'] = '최근 주문과 상품 순위가 있는 테이블 블럭을 추가합니다.';
 $_MODULE['<{dashproducts}prestashop>dashproducts_2ea989f83006e233627987293f4bde0a'] = '고객 이름';
 $_MODULE['<{dashproducts}prestashop>dashproducts_068f80c7519d0528fb08e82137a72131'] = '상품';
 $_MODULE['<{dashproducts}prestashop>dashproducts_96b0141273eabab320119c467cdcaf17'] = '합계';

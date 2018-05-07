@@ -6,6 +6,7 @@ $_MODULE = array();
 $_MODULE['<{dashactivity}prestashop>dashactivity_14542f5997c4a02d4276da364657f501'] = '직접 링크';
 $_MODULE['<{dashactivity}prestashop>dashactivity_c9cc8cce247e49bae79f15173ce97354'] = '저장';
 $_MODULE['<{dashactivity}prestashop>dashactivity_ea4788705e6873b424c65e91c2846b19'] = '취소';
+$_MODULE['<{dashactivity}prestashop>dashactivity_78fa968db0e87c6fc302614b26f93b5d'] = '마지막 기록된 변경 후 장바구니가 활성중인 것으로 간주되는 시간(분 단위) (기본값: 30 분).';
 $_MODULE['<{dashactivity}prestashop>dashactivity_c760237f74bcc7e3f90ad956086edb66'] = '시간';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_f1206f9fadc5ce41694f69129aecac26'] = '구성';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_63a6a88c066880c5ac42394a22803ca6'] = '새로고침';

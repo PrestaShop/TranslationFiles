@@ -5,7 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{statsforecast}prestashop>statsforecast_d7e637a6e9ff116de2fa89551240a94d'] = '방문';
 $_MODULE['<{statsforecast}prestashop>statsforecast_a28735af01fbb1e35371cb120985ac47'] = '등록';
-$_MODULE['<{statsforecast}prestashop>statsforecast_95deefb44d887f65b77407b87684b593'] = '구매한 제품';
+$_MODULE['<{statsforecast}prestashop>statsforecast_95deefb44d887f65b77407b87684b593'] = '구매한 품목들';
 $_MODULE['<{statsforecast}prestashop>statsforecast_96b0141273eabab320119c467cdcaf17'] = '합계';
 $_MODULE['<{statsforecast}prestashop>statsforecast_b1897515d548a960afe49ecf66a29021'] = '평균';
 $_MODULE['<{statsforecast}prestashop>statsforecast_89c1265be62d3ba835a3d963db5956b0'] = '예측';
