@@ -19,6 +19,7 @@ $_MODULE['<{statslive}prestashop>statslive_a12a3079e14ced46e69ba52b8a90b21a'] = 
 $_MODULE['<{statslive}prestashop>statslive_bc5188ca43d423ba3730e4c030609d6e'] = '最近一次活动';
 $_MODULE['<{statslive}prestashop>statslive_b6f05e5ddde1ec63d992d61144452dfa'] = '提交页面';
 $_MODULE['<{statslive}prestashop>statslive_ec0fc0100c4fc1ce4eea230c3dc10360'] = '未定义';
+$_MODULE['<{statslive}prestashop>statslive_6adf97f83acf6453d4a6a4b1070f3754'] = '无';
 $_MODULE['<{statslive}prestashop>statslive_a55533db46597bee3cd16899c007257e'] = '当前没有游客在线。';
 $_MODULE['<{statslive}prestashop>statslive_24efa7ee4511563b16144f39706d594f'] = '注意';
 $_MODULE['<{statslive}prestashop>statslive_e5900cd9ae26ca607f7cd497f114b9f9'] = '维护IP地址不算在线游客的统计。';

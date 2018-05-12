@@ -3,6 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{autoupgrade}prestashop>adminpreferences_6adf97f83acf6453d4a6a4b1070f3754'] = '无';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_c035796995e11f000835780bbadbd575'] = '标准（5步）';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_b563636fd3896671be0104bbc6783be4'] = '一页结帐';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_27f3765c3871cd5fe52f88f31dfe2c89'] = '精准';
@@ -307,6 +308,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e805a556799b7cef40e9760c81d9
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5627353fd6ac678497af3ece05087068'] = 'config/defines.inc.php文件没有找到。您将它移动至哪里去了？';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_06933067aafd48425d67bcb01bba5cb6'] = '更新';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_801ab24683a4a8c433c6eb40c48bcd9d'] = '下载';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_4e140ba723a03baa6948340bf90e2ef6'] = '名称：';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3b3d06023f6353f8fd05f859b298573e'] = 'URL：';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_39089ec5b14aadac3156e62cde5027b1'] = '请看changelog';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_628decaabab912af39cfda7aaf47b059'] = 'Major版本';

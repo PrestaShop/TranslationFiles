@@ -118,7 +118,7 @@ $_LANGMAIL['We are currently processing your <strong><span>{shop_name}</span></s
 $_LANGMAIL['Refund processed'] = '退货已处理';
 $_LANGMAIL['We have processed your <strong><span>{shop_name}</span></strong> refund for order with the reference <strong><span>{order_name}</span></strong>.'] = '我们以处理您在 <strong><span>{shop_name}</span></strong> 的订单 <strong><span>{order_name}</span></strong> 退货申请。';
 $_LANGMAIL['Please do not reply directly to this email, we will not receive it.'] = '';
-$_LANGMAIL['In order to reply, please use the following link: <a href="{link}">{link}</a>'] = '';
+$_LANGMAIL['In order to reply, please use the following link: <a href="{link}">{link}</a>'] = '如要回复，请使用以下链接: <a href="{link}">{link}</a>';
 $_LANGMAIL['Your order has been shipped'] = '你的订单已发货';
 $_LANGMAIL['Shipped'] = '已发货';
 $_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been shipped.'] = '您的订单<span><strong>{order_name}</strong></span> 已经发货。';
@@ -181,7 +181,7 @@ $_LANGMAIL[', with an amount of'] = '，金额为';
 $_LANGMAIL['Hi {name},'] = '{name} 您好，';
 $_LANGMAIL['{customer} has sent you a link to a product that (s)he thinks may interest you.'] = '{customer} 向您发送了一个他（她）认为您可能感兴趣的产品链接。';
 $_LANGMAIL['Click here to view this item:'] = '点击这里查看此商品：';
-$_LANGMAIL['Order edited'] = '';
+$_LANGMAIL['Order edited'] = '编辑订单';
 $_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = '';
 
 

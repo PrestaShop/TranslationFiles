@@ -17,6 +17,7 @@ $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_419e2c499b79ae49a7d50
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_2393b3a8e21e442273b6ad9219f4786c'] = '显示现有付款方式的商标';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_2e4a0101b1ea2b15782a07dd34067447'] = '此自定义工具使得您可以在您的主题里制作颜色和更改字体。';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_638c5a51a25a56ae4b8d6fa975be0d59'] = '显示子分类';
+$_MODULE['<{themeconfigurator}prestashop>items_b9b371458ab7c314f88b81c553f6ce51'] = '挂钩';
 $_MODULE['<{themeconfigurator}prestashop>items_7dce122004969d56ae2e0245cb754d35'] = '修改';
 $_MODULE['<{themeconfigurator}prestashop>items_d3d2e617335f08df83599665eef8a418'] = '关闭';
 $_MODULE['<{themeconfigurator}prestashop>items_e8cf85cec621489ec026f7e06c67eb4e'] = '删除商品';
@@ -37,6 +38,7 @@ $_MODULE['<{themeconfigurator}prestashop>new_ff19c966036b4a0c7350b2fc7e2861c2'] 
 $_MODULE['<{themeconfigurator}prestashop>new_4994a8ffeba4ac3140beb89e8d41f174'] = '语言：';
 $_MODULE['<{themeconfigurator}prestashop>new_cf82fa946fab5855cd8c6479b0eb95d1'] = '图片标题';
 $_MODULE['<{themeconfigurator}prestashop>new_2c92d496fa8efe3d5b2b38c185f9b7f7'] = '在前台使用标题';
+$_MODULE['<{themeconfigurator}prestashop>new_b9b371458ab7c314f88b81c553f6ce51'] = '挂钩';
 $_MODULE['<{themeconfigurator}prestashop>new_be53a0541a6d36f6ecb879fa2c584b08'] = '图像';
 $_MODULE['<{themeconfigurator}prestashop>new_6fed80a8c8ded2f5e14a687e4a443abc'] = '图片宽度';
 $_MODULE['<{themeconfigurator}prestashop>new_21de26caa6bcfc936378c4e45d235bd9'] = '像素';
