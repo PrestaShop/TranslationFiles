@@ -3,14 +3,14 @@
 global $_MODULE;
 $_MODULE = array();
 
-$_MODULE['<{onboarding}prestashop>onboarding_76ddbb9f8bbe2624552fd553d0f9d040'] = '온보딩 모듈은 사용자에게 PrestaShop 관리자 페이지로 첫 대면을 하게 해줍니다: 작고 유쾌한 인터페이스를 통해, 사용자에게 몇가지 간단한 단계를 거쳐서 상점을 시작하는 방법을 보여줍니다.';
+$_MODULE['<{onboarding}prestashop>onboarding_76ddbb9f8bbe2624552fd553d0f9d040'] = '온보딩 모듈은 사용자에게 PrestaShop 관리자 사이트로 첫 대면을 하게 해줍니다: 작고 유쾌한 인터페이스를 통해, 사용자에게 몇가지 간단한 단계를 거쳐서 상점을 시작하는 방법을 보여줍니다.';
 $_MODULE['<{onboarding}prestashop>backoffice_top_c50e83d3857e41ea59189e385d4ed024'] = '이봐요 %s, 당신의 온라인 상점에 온 것을 환영합니다. [1]다음 안내를 따라서 당신의 온라인 상점의 첫 단계를 해봅시다!';
 $_MODULE['<{onboarding}prestashop>backoffice_top_79b0fcd70b51a3065ebbfe7e953eae38'] = '새 테마를 얻기위해 우리의 목록를 확인하거나 현재 기본 테마를 사용자 정의하세요.[1]로고를 추가하고, 글꼴과 색상을 이용하세요... 이런 멋진 모습을 당신의 상점에 전하세요!';
 $_MODULE['<{onboarding}prestashop>backoffice_top_9a12f893e37f0f1fb9fb04bf16a7d78d'] = '첫 번째 상품으로 상품 목록을 시작하십시오. [1]가격을 설정하고, 멋진 설명을하고, 재미있는 이미지를 업로드하여 기초 자료로 만듭니다. [1]CSV 파일에 상품 기본 자료가 이미 있다면, 시간을 절약하고 불러오기를 하세요!';
 $_MODULE['<{onboarding}prestashop>backoffice_top_4cf1a5e51827d65ded27c32d4213b12e'] = '당신의 상점은 HiPay의 PrestaShop Payments가 동작하기에, 지금 카드로 결제 할 수 있습니다. 다른 결제 수단 역시
  사용할 수 있고, 모든 설정을 확인해 보세요!';
 $_MODULE['<{onboarding}prestashop>backoffice_top_0429b4766bfd2e6540dc3cb5537387ff'] = '상점에 고객에게 제공할 결제 방법을 선택하시고, 적용할 수 있는 다양한 제한들을 관리하세요(통화, 국가 또는 고객 그룹 별).';
-$_MODULE['<{onboarding}prestashop>backoffice_top_e62f682bcf70125635d8915ea127fe9b'] = '더 많은 정보가 필요하다고 느껴지면, PrestaShop 문서를 살펴볼 수 있습니다: 관리자 페이지의 상단 오른쪽 구석에 있는 "도움말"을 클릭하세요!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_e62f682bcf70125635d8915ea127fe9b'] = '더 많은 정보가 필요하다고 느껴지면, PrestaShop 문서를 살펴볼 수 있습니다: 관리자 사이트의 상단 오른쪽 구석에 있는 "도움말"을 클릭하세요!';
 $_MODULE['<{onboarding}prestashop>backoffice_top_d26019e187250752a24c5f07694bda99'] = '온라인 상점을 구성하기위한 모든 필수적인 첫 단계를 완료했습니다. 더 많은 상품, 결제 방법 또는 배송 파트너를 추가 할 경우 이 단계를 반복할 수 있습니다. [1]상점 구성을 보다 자세히 이해하려면, PrestaShop 사용자 안내의 [2]"PrestaShop 1.6의 첫 번째 단계"[/2] 챕터를 읽어보세요.[1]상점이 상품을 판매할 준비가 되었다고 확신되면, 시작 버튼을 클릭하여 상점을 공개합니다.';
 $_MODULE['<{onboarding}prestashop>backoffice_top_82269147f55aa394633d8ffab65a8524'] = '시작합시다!';
 $_MODULE['<{onboarding}prestashop>backoffice_top_d51786a260fac2376360796f7c79b076'] = '모두 잘 됐으니, 시작합시다!';

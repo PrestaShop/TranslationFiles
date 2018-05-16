@@ -33,6 +33,7 @@ $_MODULE['<{themeconfigurator}prestashop>new_e6b391a8d2c4d45902a23a8b6585703d'] 
 $_MODULE['<{themeconfigurator}prestashop>new_4c4ad5fca2e7a3f74dbb1ced00381aa4'] = 'HTML';
 $_MODULE['<{themeconfigurator}prestashop>new_ea4788705e6873b424c65e91c2846b19'] = '취소';
 $_MODULE['<{themeconfigurator}prestashop>new_c9cc8cce247e49bae79f15173ce97354'] = '저장';
+$_MODULE['<{themeconfigurator}prestashop>live_configurator_c71534403c6e05ffbb8684ae96aac550'] = '관리자로 현재 관리자 사이트에 연결되어 있기에, 당신만이 이 도구를 볼 수 있습니다. 방문자들에게는 보이지 않습니다.';
 $_MODULE['<{themeconfigurator}prestashop>live_configurator_194f5394ae2e9c74dc3c441b92862d1d'] = '글꼴';
 $_MODULE['<{themeconfigurator}prestashop>live_configurator_526d688f37a86d3c3f27d0c5016eb71d'] = '재설정';
 $_MODULE['<{themeconfigurator}prestashop>live_configurator_c9cc8cce247e49bae79f15173ce97354'] = '저장';

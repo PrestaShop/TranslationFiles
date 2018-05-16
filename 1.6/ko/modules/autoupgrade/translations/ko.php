@@ -15,9 +15,12 @@ $_MODULE['<{autoupgrade}prestashop>adminpreferences_1656072e927c8d3acd24359cbb64
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_8de64d6b49cebd2306af6ddbcd268700'] = '호스팅 제공 업체에서 SSL을 허용하는 경우, 고객 계정 식별 및 주문 처리를 위해 SSL 암호화 (https: //) 를 활성화 할 수 있습니다';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_ed5454727fb14b9800ead242d0972184'] = '쿠키의 IP를 확인';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_9cfc2e28ebe44b3e14f9d780d2150650'] = '쿠키의 도난 방지를 위해 쿠키의 IP 주소를 확인';
+$_MODULE['<{autoupgrade}prestashop>adminpreferences_e673b146824251548feecf1f3929aceb'] = '관리자 사이트 쿠키 수명';
+$_MODULE['<{autoupgrade}prestashop>adminpreferences_16c390c0fd1efc4f493a6a861aa22d2f'] = '관리자 사이트 도움 상자';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_e4045598261988d9988c594243a9434d'] = '서비스 약관';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_46f18d3960afc01e5a1a5a0e0e9d571b'] = '자동으로 모듈 업데이트를 확인';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_686a2ac82a5a64eca870ba9a55b8a675'] = '새로운 모듈과 업데이트는 모듈 페이지에 표시됩니다';
+$_MODULE['<{autoupgrade}prestashop>adminpreferences_e4e2107f99e82247d7e32ac7919c4416'] = '관리자 사이트 홈페이지에 최적화 도움말 숨기기';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_d5bc5fd307b108537039b6b6f98889d5'] = '표준 시간대:';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_0db377921f4ce762c62526131097968f'] = '일반';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_2b5bde814a5f94ea73f447cdbcfb49fd'] = '테마 설치기';
