@@ -41,7 +41,11 @@ $_MODULE['<{autoupgrade}prestashop>adminselftab_38fb7d24e0d60a048f540ecb18e13376
 $_MODULE['<{autoupgrade}prestashop>adminselftab_19f823c6453c2b1ffd09cb715214813d'] = '필수 항목';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_0557fa923dcee4d0f86b1409f5c2167f'] = '뒤로가기';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_630f6dc397fe74e52d5189e2c80f282b'] = '목록으로 돌아가기';
+$_MODULE['<{autoupgrade}prestashop>adminselftab_0470d45929f27e1161330164c423b415'] = '이 섹션에 필수 항목 설정';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_e54b38290c8bdd95e8bc10412c9cc096'] = '필수 항목';
+$_MODULE['<{autoupgrade}prestashop>adminselftab_ee9b2f3cf31c23c944b15fb0b33d6a77'] = '항목 명';
+$_MODULE['<{autoupgrade}prestashop>adminselftab_8a3cfd894d57e33c55400fc9d76aa08a'] = '더 보려면 여기를 클릭';
+$_MODULE['<{autoupgrade}prestashop>adminselftab_a92269f5f14ac147a821728c23204c0b'] = '경고 숨기기';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_00d23a76e43b46dae9ec7aa9dcbebb32'] = '활성화됨';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_b9f5c797ebbf55adccdd8539a65a0241'] = '비활성화됨';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_ed75712b0eb1913c28a3872731ffd48d'] = '복제';

@@ -46,6 +46,7 @@ $_MODULE['<{bankwire}prestashop>payment_return_d717aa33e18263b8405ba00e94353cdc'
 $_MODULE['<{bankwire}prestashop>payment_return_984482eb9ff11e6310fef641d2268a2a'] = '은행명
 ';
 $_MODULE['<{bankwire}prestashop>payment_return_bb4ec5aac6864a05fcc220cccd8e82f9'] = '*은행송금 시 주문번호 #%d 를 꼭 입력하여 주세요.';
+$_MODULE['<{bankwire}prestashop>payment_return_1faa25b80a8d31e5ef25a78d3336606d'] = '은행송금 시 주문 참조 %s 를 꼭 입력하여 주세요.';
 $_MODULE['<{bankwire}prestashop>payment_return_19c419a8a4f1cd621853376a930a2e24'] = '이 정보는 귀하의 Email로도 발송하였습니다.';
 $_MODULE['<{bankwire}prestashop>payment_return_b9a1cae09e5754424e33764777cfcaa0'] = '본 주문상품은 결제확인 후 발송됩니다.';
 $_MODULE['<{bankwire}prestashop>payment_return_ca7e41a658753c87973936d7ce2429a8'] = '다른 문의사항이 있으시면 고객지원센터를 통해 연락주시길 바랍니다.';
