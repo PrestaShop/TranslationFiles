@@ -9,6 +9,8 @@ $_MODULE['<{ganalytics}prestashop>ganalytics_c9cc8cce247e49bae79f15173ce97354'] 
 $_MODULE['<{ganalytics}prestashop>ganalytics_630f6dc397fe74e52d5189e2c80f282b'] = '返回列表　';
 $_MODULE['<{ganalytics}prestashop>ganalytics_f4f70727dc34561dfde1a3c529b6205c'] = '设置';
 $_MODULE['<{ganalytics}prestashop>ganalytics_851bd83a102d143ee17d97f9e15e15af'] = 'Google Analytics Tracking ID';
+$_MODULE['<{ganalytics}prestashop>ganalytics_ad8e83a47926dcb12e8a8fccd7fcf604'] = '这些信息可以在您的Google Analytics帐户中找到';
+$_MODULE['<{ganalytics}prestashop>ganalytics_bcd08e73ca9d8bfed2cccd50dd6d8328'] = '启用用户ID跟踪';
 $_MODULE['<{ganalytics}prestashop>ganalytics_00d23a76e43b46dae9ec7aa9dcbebb32'] = '启用';
 $_MODULE['<{ganalytics}prestashop>ganalytics_b9f5c797ebbf55adccdd8539a65a0241'] = '禁用';
 $_MODULE['<{ganalytics}prestashop>ganalytics_8e7b67b44506b7ac6685da041a603044'] = '用户ID设置已成功更新';
