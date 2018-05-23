@@ -201,6 +201,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_da652b8ece8ba2da84d5f5116f6e
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_654f7ceb787fd455c166d5d8744cbf90'] = '"/latest" 目錄已清空';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7dce6149440985f89756b4c451d7dc03'] = '檔案取出完成。移除示範檔案中...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_89640d2ed666aab722d12be60a61938d'] = '無法從 %2$s 目錄中取出 %1$s 檔案...';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_115437a77cd81057e681ff2e12b14192'] = '這不是一個有效的升級%s檔案...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_064a15c7711dd82e5026a17a453b3a3b'] = '提取的目錄為不可寫入。';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_01d9d38b1d4d8eff5b530eeecfd3ccd5'] = '提取的目錄 %s 為不可寫入。';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_99f0e3a6d61b6d39da9213c647fd35ce'] = '[ERROR] %s 不存在或者非目錄';
@@ -411,6 +412,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_780daf2510c5c9e1c58948f13862
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_db992f14c2e79f2e8650cdb5d918f27f'] = '選擇歸檔';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0bce225c5aed0aaee0d357a11a079962'] = '升級至版本';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c9cc8cce247e49bae79f15173ce97354'] = '儲存';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9e68a57463e52beb2b2d4d116085044e'] = '更多選項（專家模式）';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d0285505fd09db653a4ec0fd3799f357'] = '專家模式';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_48c7c41b72e1d678923ce3571aa65b2d'] = '步驟';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_eeb5a49c38d2d8c2baa51ed09beccf88'] = '升級步驟';
@@ -450,7 +452,9 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_49c77c6b39fac5ce46832752e661
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ba4e6bdd93c2f0c0e133bb94c27623ad'] = '%s 文件夾存在';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9a92bff0f2bacca85a22045df0ff05a7'] = '%s功能已啟用';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_325be51f87717509d7c5b87d45456066'] = '%s外掛已啟用';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8f5f497d082e9f08ec8102a1d436a75b'] = '切換到%s版本！';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f15547fe5f9f307bd42b2c01657efbcb'] = '您的伺服器無法下載該文件。請把它上傳至您的FTP伺服器 /[admin]/autoupgrade 目錄內。';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f0c0004ed469d436fae1c0c84a5c7687'] = '你需要檢查所有條件';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f2a6c498fb90ee345d997f888fce3b18'] = '刪除';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_48995d15304fe79fc0240bf6544f2395'] = '你確定要刪除此備份?';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_98a399b35ec9e03ec985254acfe5e3a0'] = 'PrestaShop 更新中';
