@@ -176,6 +176,8 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a10ef376d9f4c877ac86d8e43501
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f8fe8cba1625eaf8e5c253b041d57dbd'] = 'Fails tika augšupielādēts tikai daļēji';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8c9067e52e4440d8a20e74fdc745b0c6'] = 'Neviens fails nav augšupielādēts';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_989a45a4ca01ee222f4370172bf8850d'] = 'Nederīgs veikala nosaukums';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_68499acecfba9d3bf0ca8711f300d3ed'] = 'Jūsu vārds satur neatļautus simbolus';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2399cf4ca7b49f2706f6e147a32efa78'] = 'Jūsu uzvārds satur neatļautus simbolus';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_06933067aafd48425d67bcb01bba5cb6'] = 'Atjaunot';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_801ab24683a4a8c433c6eb40c48bcd9d'] = 'Lejupielādēt';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8641eaacafab9d58e7e93a92ff318714'] = '%s sekundes';
@@ -187,6 +189,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c9cc8cce247e49bae79f15173ce9
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d0285505fd09db653a4ec0fd3799f357'] = 'Ekspertu režīms';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_48c7c41b72e1d678923ce3571aa65b2d'] = 'Solis';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_dc3fd488f03d423a04da27ce66274c1b'] = 'Brīdinājums!';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_95095fc4bbc8b42ec512cfb1cfa19d8a'] = 'Jūs izmantojat PHP %s versiju. Drīz, jaunākā PHP versija, ko atbalsta PrestaShop, būs PHP 5.4. Lai pārliecinātos, ka esat gatavs nākotnei, iesakām jaunināt uz PHP 5.4 tūlīt!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_382b0f5185773fa0f67a8ed8056c7759'] = 'Nav datu';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c7561db7a418dd39b2201dfe110ab4a4'] = 'nekad';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_96f1fa7f23402c1307c8e2c57c6bccfa'] = '1-Click atjaunināšana';

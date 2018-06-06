@@ -14,6 +14,7 @@ $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_4351cfebe4b61d8aa5efa
 $_MODULE['<{themeconfigurator}prestashop>items_7dce122004969d56ae2e0245cb754d35'] = 'Labot';
 $_MODULE['<{themeconfigurator}prestashop>items_d3d2e617335f08df83599665eef8a418'] = 'Aizvērt';
 $_MODULE['<{themeconfigurator}prestashop>items_2faec1f9f8cc7f8f40d521c4dd574f49'] = 'Aktivizēt';
+$_MODULE['<{themeconfigurator}prestashop>items_0eff773cf33456a033e913f6ed18045c'] = 'Mērķa saite';
 $_MODULE['<{themeconfigurator}prestashop>items_ea4788705e6873b424c65e91c2846b19'] = 'Atsaukt';
 $_MODULE['<{themeconfigurator}prestashop>items_c9cc8cce247e49bae79f15173ce97354'] = 'Saglabāt';
 $_MODULE['<{themeconfigurator}prestashop>new_ff19c966036b4a0c7350b2fc7e2861c2'] = 'Pievienot vienumu';
