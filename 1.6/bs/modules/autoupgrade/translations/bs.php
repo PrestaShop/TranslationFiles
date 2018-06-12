@@ -19,6 +19,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselftab_0557fa923dcee4d0f86b1409f5c2167f
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_93cba07454f06a4a960172bbd6e2a435'] = 'Da';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_bafd7322c6e97d25b6299b5d6fe8920b'] = 'Ne';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_989a45a4ca01ee222f4370172bf8850d'] = 'Pogrešan naziv trgovine';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_68499acecfba9d3bf0ca8711f300d3ed'] = 'Vaše ime sadrži neke znakove koji nisu valjani';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2399cf4ca7b49f2706f6e147a32efa78'] = 'Vaše prezime sadrži neke znakove koji nisu valjani';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_801ab24683a4a8c433c6eb40c48bcd9d'] = 'Preuzimanje';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c9cc8cce247e49bae79f15173ce97354'] = 'Sacuvaj';

@@ -700,6 +700,7 @@ $_LANGADM['AdminWarehouses382b0f5185773fa0f67a8ed8056c7759'] = '해당 없음';
 $_LANGADM['AdminWarehouses12a521af593422cd508f7707662c9eb2'] = '상점';
 $_LANGADM['AdminControllere6a7f8a2f42cc35979973da8dfb10720'] = '포럼';
 $_LANGADM['AdminControllerb3f252777a69b110667756babe83a98f'] = '추가기능';
+$_LANGADM['AdminControllercf270e40d273f9e7fd7c3061729060c3'] = '연습';
 $_LANGADM['AdminController9f82518d468b9fee614fcc92f76bb163'] = '상점';
 $_LANGADM['Helper9639e32cab248434a17ab32237cb3b71'] = '적용';
 $_LANGADM['Helperf72c915d8f575a5c0999b5f37b6d99b7'] = '일';
