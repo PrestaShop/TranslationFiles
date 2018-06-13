@@ -33,14 +33,40 @@ File: classes/PrestaShopBackup.php:317</note>
       
     </body>
   </file>
-  <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="gl" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ImportController.php" source-language="en" target-language="gl" datatype="plaintext">
     <body>
       <trans-unit id="c775530fad852632f78395a11820ba23" approved="yes">
         <source>The import directory must be writable (CHMOD 755 / 777).</source>
         <target xml:lang="gl">O directorio de importación debe ter permisos de escritura (CHMOD 755 / 777).</target>
         <note>Context:
-File: controllers/admin/AdminImportController.php:625</note>
+File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ImportController.php:69</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="src/Core/Import/File/FileUploader.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="8c9067e52e4440d8a20e74fdc745b0c6" approved="yes">
+        <source>No file was uploaded.</source>
+        <target xml:lang="gl">Non se subiu ningún ficheiro.</target>
+        <note>Context:
+File: src/Core/Import/File/FileUploader.php:121</note>
+      </trans-unit>
+      <trans-unit id="fc2e88db6e13898dab6ddf3b44c5d68a" approved="yes">
+        <source>The extension of your file should be .csv.</source>
+        <target xml:lang="gl">A extensión do teu ficheiro debe ser .csv.</target>
+        <note>Context:
+File: src/Core/Import/File/FileUploader.php:130</note>
+      </trans-unit>
+      <trans-unit id="50844c635a86264cc59d737d532df573" approved="yes">
+        <source>An error occurred while uploading / copying the file.</source>
+        <target xml:lang="gl">Produciuse un erro ao subir / copiar o ficheiro.</target>
+        <note>Context:
+File: src/Core/Import/File/FileUploader.php:90</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
       <trans-unit id="50fe5f166bc7695a0c0db12ea8a346e7" approved="yes">
         <source>cannot be copied.</source>
         <target xml:lang="gl">non se pode ser copiado</target>
@@ -178,28 +204,6 @@ File: controllers/admin/AdminImportController.php:4188</note>
         <target xml:lang="gl">(dende %s a %s)</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:4530</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/Core/Import/File/FileUploader.php" source-language="en" target-language="gl" datatype="plaintext">
-    <body>
-      <trans-unit id="8c9067e52e4440d8a20e74fdc745b0c6" approved="yes">
-        <source>No file was uploaded.</source>
-        <target xml:lang="gl">Non se subiu ningún ficheiro.</target>
-        <note>Context:
-File: src/Core/Import/File/FileUploader.php:121</note>
-      </trans-unit>
-      <trans-unit id="fc2e88db6e13898dab6ddf3b44c5d68a" approved="yes">
-        <source>The extension of your file should be .csv.</source>
-        <target xml:lang="gl">A extensión do teu ficheiro debe ser .csv.</target>
-        <note>Context:
-File: src/Core/Import/File/FileUploader.php:130</note>
-      </trans-unit>
-      <trans-unit id="50844c635a86264cc59d737d532df573" approved="yes">
-        <source>An error occurred while uploading / copying the file.</source>
-        <target xml:lang="gl">Produciuse un erro ao subir / copiar o ficheiro.</target>
-        <note>Context:
-File: src/Core/Import/File/FileUploader.php:90</note>
       </trans-unit>
     </body>
   </file>
@@ -427,6 +431,45 @@ File: admin-dev/backup.php:85</note>
         <note>Context:
 File: admin-dev/backup.php:105</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/CachingType.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="023d53a99c8074e823e5b2db4c19dfa4" approved="yes">
+        <source>(you must install the [a]Memcache PECL extension[/a])</source>
+        <target xml:lang="gl">(debes instalar a [a]extensión Memcache PECL[/a])</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/CachingType.php:118</note>
+      </trans-unit>
+      <trans-unit id="82742001d67f4446f50d68908f0f8b96" approved="yes">
+        <source>(you must install the [a]Memcached PECL extension[/a])</source>
+        <target xml:lang="gl">(debes instalar a [a]extensión Memcached PECL[/a])</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/CachingType.php:128</note>
+      </trans-unit>
+      <trans-unit id="78ae94b19fc38f9a35d20bc67cde2d61" approved="yes">
+        <source>(you must install the [a]APC PECL extension[/a])</source>
+        <target xml:lang="gl">(debes instalar a [a]extensión APC PECL[/a])</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/CachingType.php:138</note>
+      </trans-unit>
+      <trans-unit id="8b763a82c2aa7875f3da39399ba350d7" approved="yes">
+        <source>(you must install the [a]Xcache extension[/a])</source>
+        <target xml:lang="gl">(debes instalar a [a]extensión Xcache[/a])</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/CachingType.php:148</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/PerformanceController.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/MemcacheServerController.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      
+      
     </body>
   </file>
   <file original="src/Adapter/Requirement/CheckRequirements.php" source-language="en" target-language="gl" datatype="plaintext">

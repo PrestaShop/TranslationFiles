@@ -348,13 +348,25 @@ File: controllers/admin/AdminModulesPositionsController.php:210</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Command/ModuleCommand.php" source-language="en" target-language="ja" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Controller/Admin/ModuleController.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      <trans-unit id="9dca2e42fe7a0db763b8737e9a8f9133" approved="yes">
-        <source>%action% action on module %module% succeeded.</source>
-        <target xml:lang="ja">モジュール %module% による %action% 処理が成功しました。</target>
+      <trans-unit id="71d827dd0d049981403f27fb7af0991c" approved="yes">
+        <source>%module% did not return a valid response on %action% action.</source>
+        <target xml:lang="ja">%module% モジュールが %action% 処理で、正常なレスポンスを返しませんでした。</target>
         <note>Context:
-File: src/PrestaShopBundle/Command/ModuleCommand.php:154</note>
+File: src/PrestaShopBundle/Controller/Admin/ModuleController.php:300</note>
+      </trans-unit>
+      <trans-unit id="bf0edb2da5a51620141bff55d3060a63" approved="yes">
+        <source>Exception thrown by module %module% on %action%. %error_details%</source>
+        <target xml:lang="ja">モジュール %module% の %action% による例外のスロー。 %error_details%</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/ModuleController.php:349</note>
+      </trans-unit>
+      <trans-unit id="89d371deca1b2b50a933fabc8005ccfb" approved="yes">
+        <source>%module% did not return a valid response on installation.</source>
+        <target xml:lang="ja">%module%がインストールに際して、正常なレスポンスを返しませんでした。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/ModuleController.php:607</note>
       </trans-unit>
     </body>
   </file>
@@ -365,6 +377,16 @@ File: src/PrestaShopBundle/Command/ModuleCommand.php:154</note>
         <target xml:lang="ja">モジュール %module% を%action% することが出来ません。%error_details%</target>
         <note>Context:
 File: src/Core/Addon/Theme/ThemeManager.php:292</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Command/ModuleCommand.php" source-language="en" target-language="ja" datatype="plaintext">
+    <body>
+      <trans-unit id="9dca2e42fe7a0db763b8737e9a8f9133" approved="yes">
+        <source>%action% action on module %module% succeeded.</source>
+        <target xml:lang="ja">モジュール %module% による %action% 処理が成功しました。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Command/ModuleCommand.php:154</note>
       </trans-unit>
     </body>
   </file>

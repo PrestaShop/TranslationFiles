@@ -45,14 +45,58 @@ File: classes/PrestaShopBackup.php:317</note>
       
     </body>
   </file>
-  <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="et" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ImportController.php" source-language="en" target-language="et" datatype="plaintext">
     <body>
       <trans-unit id="c775530fad852632f78395a11820ba23" approved="yes">
         <source>The import directory must be writable (CHMOD 755 / 777).</source>
         <target xml:lang="et">The import directory must be writable (CHMOD 755 / 777).</target>
         <note>Context:
-File: controllers/admin/AdminImportController.php:625</note>
+File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ImportController.php:69</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="src/Core/Import/File/FileUploader.php" source-language="en" target-language="et" datatype="plaintext">
+    <body>
+      <trans-unit id="68e8d36b17584f88614fb3201925a7ac" approved="yes">
+        <source>The uploaded file exceeds the upload_max_filesize directive in php.ini. If your server configuration allows it, you may add a directive in your .htaccess.</source>
+        <target xml:lang="et">Ülesse laaditav fail ületab serveri php.ini poolt seatud upload_max_filesize väärtust. Kui Teie serveri seadistus seda võimaldab, siis võite lisada täiendava muutuja .htaccess faili.</target>
+        <note>Context:
+File: src/Core/Import/File/FileUploader.php:111</note>
+      </trans-unit>
+      <trans-unit id="0bedafc96db94da3f85caa7101944eb5" approved="yes">
+        <source>The uploaded file exceeds the post_max_size directive in php.ini. If your server configuration allows it, you may add a directive in your .htaccess, for example:</source>
+        <target xml:lang="et">Üles laaditud faili suurus ületab määrangut post_max_size directive failis php.ini. Kui serveri konfiguratsioon seda lubab, võite lisada faili .htaccess nt järgmise määrangu:</target>
+        <note>Context:
+File: src/Core/Import/File/FileUploader.php:114</note>
+      </trans-unit>
+      <trans-unit id="4f12b222c9659d62afa795987259933f" approved="yes">
+        <source>The uploaded file was only partially uploaded.</source>
+        <target xml:lang="et">Üleslaetav fail on ainult osaliselt üles laetud.</target>
+        <note>Context:
+File: src/Core/Import/File/FileUploader.php:118</note>
+      </trans-unit>
+      <trans-unit id="8c9067e52e4440d8a20e74fdc745b0c6" approved="yes">
+        <source>No file was uploaded.</source>
+        <target xml:lang="et">Faili ei ole üles laetud</target>
+        <note>Context:
+File: src/Core/Import/File/FileUploader.php:121</note>
+      </trans-unit>
+      <trans-unit id="fc2e88db6e13898dab6ddf3b44c5d68a" approved="yes">
+        <source>The extension of your file should be .csv.</source>
+        <target xml:lang="et">Teie faili laiend peaks olema .csv.</target>
+        <note>Context:
+File: src/Core/Import/File/FileUploader.php:130</note>
+      </trans-unit>
+      <trans-unit id="50844c635a86264cc59d737d532df573" approved="yes">
+        <source>An error occurred while uploading / copying the file.</source>
+        <target xml:lang="et">tekkis viga faili üles laadimisel ja kopeerimisel</target>
+        <note>Context:
+File: src/Core/Import/File/FileUploader.php:90</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="et" datatype="plaintext">
+    <body>
       <trans-unit id="5b8f192b08644fdc9fd1fd86bcbbc57b" approved="yes">
         <source>(click to open "Generators" page)</source>
         <target xml:lang="et">(vajutage siia, et avada Genereerimsie leht)</target>
@@ -274,46 +318,6 @@ File: controllers/admin/AdminImportController.php:4533</note>
         <target xml:lang="et">Kinnitusmeili ei saanud saata, kuid importimine õnnestus. Jee!</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:4661</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/Core/Import/File/FileUploader.php" source-language="en" target-language="et" datatype="plaintext">
-    <body>
-      <trans-unit id="68e8d36b17584f88614fb3201925a7ac" approved="yes">
-        <source>The uploaded file exceeds the upload_max_filesize directive in php.ini. If your server configuration allows it, you may add a directive in your .htaccess.</source>
-        <target xml:lang="et">Ülesse laaditav fail ületab serveri php.ini poolt seatud upload_max_filesize väärtust. Kui Teie serveri seadistus seda võimaldab, siis võite lisada täiendava muutuja .htaccess faili.</target>
-        <note>Context:
-File: src/Core/Import/File/FileUploader.php:111</note>
-      </trans-unit>
-      <trans-unit id="0bedafc96db94da3f85caa7101944eb5" approved="yes">
-        <source>The uploaded file exceeds the post_max_size directive in php.ini. If your server configuration allows it, you may add a directive in your .htaccess, for example:</source>
-        <target xml:lang="et">Üles laaditud faili suurus ületab määrangut post_max_size directive failis php.ini. Kui serveri konfiguratsioon seda lubab, võite lisada faili .htaccess nt järgmise määrangu:</target>
-        <note>Context:
-File: src/Core/Import/File/FileUploader.php:114</note>
-      </trans-unit>
-      <trans-unit id="4f12b222c9659d62afa795987259933f" approved="yes">
-        <source>The uploaded file was only partially uploaded.</source>
-        <target xml:lang="et">Üleslaetav fail on ainult osaliselt üles laetud.</target>
-        <note>Context:
-File: src/Core/Import/File/FileUploader.php:118</note>
-      </trans-unit>
-      <trans-unit id="8c9067e52e4440d8a20e74fdc745b0c6" approved="yes">
-        <source>No file was uploaded.</source>
-        <target xml:lang="et">Faili ei ole üles laetud</target>
-        <note>Context:
-File: src/Core/Import/File/FileUploader.php:121</note>
-      </trans-unit>
-      <trans-unit id="fc2e88db6e13898dab6ddf3b44c5d68a" approved="yes">
-        <source>The extension of your file should be .csv.</source>
-        <target xml:lang="et">Teie faili laiend peaks olema .csv.</target>
-        <note>Context:
-File: src/Core/Import/File/FileUploader.php:130</note>
-      </trans-unit>
-      <trans-unit id="50844c635a86264cc59d737d532df573" approved="yes">
-        <source>An error occurred while uploading / copying the file.</source>
-        <target xml:lang="et">tekkis viga faili üles laadimisel ja kopeerimisel</target>
-        <note>Context:
-File: src/Core/Import/File/FileUploader.php:90</note>
       </trans-unit>
     </body>
   </file>
@@ -641,6 +645,55 @@ File: admin-dev/backup.php:85</note>
         <target xml:lang="et">Ei saa näidata varukoopiat</target>
         <note>Context:
 File: admin-dev/backup.php:105</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/CachingType.php" source-language="en" target-language="et" datatype="plaintext">
+    <body>
+      <trans-unit id="023d53a99c8074e823e5b2db4c19dfa4" approved="yes">
+        <source>(you must install the [a]Memcache PECL extension[/a])</source>
+        <target xml:lang="et">(peate paigaldama [a]Memcache PECL laienduse[/a])</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/CachingType.php:118</note>
+      </trans-unit>
+      <trans-unit id="82742001d67f4446f50d68908f0f8b96" approved="yes">
+        <source>(you must install the [a]Memcached PECL extension[/a])</source>
+        <target xml:lang="et">(peate paigaldama [a]Memcached PECL laienduse[/a])</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/CachingType.php:128</note>
+      </trans-unit>
+      <trans-unit id="78ae94b19fc38f9a35d20bc67cde2d61" approved="yes">
+        <source>(you must install the [a]APC PECL extension[/a])</source>
+        <target xml:lang="et">(peate paigaldama [a]APC PECL laienduse[/a])</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/CachingType.php:138</note>
+      </trans-unit>
+      <trans-unit id="8b763a82c2aa7875f3da39399ba350d7" approved="yes">
+        <source>(you must install the [a]Xcache extension[/a])</source>
+        <target xml:lang="et">(peate paigaldama [a]Xcache laienduse[/a])</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/CachingType.php:148</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/PerformanceController.php" source-language="en" target-language="et" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/MemcacheServerController.php" source-language="en" target-language="et" datatype="plaintext">
+    <body>
+      <trans-unit id="9ad28fef1c6184adfe7397838891ba76" approved="yes">
+        <source>The Memcached server cannot be added.</source>
+        <target xml:lang="et">Ei saa lisada memcached serverit</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/MemcacheServerController.php:118</note>
+      </trans-unit>
+      <trans-unit id="bf4ddd37d9f82a3ad1f405891dfaa235" approved="yes">
+        <source>There was an error when attempting to delete the Memcached server.</source>
+        <target xml:lang="et">Viga memcached serveri kustutamisel </target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/MemcacheServerController.php:153</note>
       </trans-unit>
     </body>
   </file>

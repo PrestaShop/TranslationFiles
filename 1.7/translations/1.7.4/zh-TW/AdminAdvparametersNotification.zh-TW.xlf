@@ -50,20 +50,64 @@ File: classes/Mail.php:410</note>
       </trans-unit>
     </body>
   </file>
-  <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ImportController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
       <trans-unit id="af395851b27882221a6df82c727bca3e" approved="yes">
         <source>The import directory doesn't exist. Please check your file path.</source>
         <target xml:lang="zh-TW">上傳目錄不存在。請檢查你的文件路徑。</target>
         <note>Context:
-File: controllers/admin/AdminImportController.php:621</note>
+File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ImportController.php:63</note>
       </trans-unit>
       <trans-unit id="c775530fad852632f78395a11820ba23" approved="yes">
         <source>The import directory must be writable (CHMOD 755 / 777).</source>
         <target xml:lang="zh-TW">導入目錄必須是可寫入的（CHMOD 755/777）。</target>
         <note>Context:
-File: controllers/admin/AdminImportController.php:625</note>
+File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ImportController.php:69</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="src/Core/Import/File/FileUploader.php" source-language="en" target-language="zh-TW" datatype="plaintext">
+    <body>
+      <trans-unit id="68e8d36b17584f88614fb3201925a7ac" approved="yes">
+        <source>The uploaded file exceeds the upload_max_filesize directive in php.ini. If your server configuration allows it, you may add a directive in your .htaccess.</source>
+        <target xml:lang="zh-TW">上傳的檔案大小超過 php.ini 的 upload_max_filesize 設定，如果系統環境允許，您可以透過 .htaccess 調整</target>
+        <note>Context:
+File: src/Core/Import/File/FileUploader.php:111</note>
+      </trans-unit>
+      <trans-unit id="0bedafc96db94da3f85caa7101944eb5" approved="yes">
+        <source>The uploaded file exceeds the post_max_size directive in php.ini. If your server configuration allows it, you may add a directive in your .htaccess, for example:</source>
+        <target xml:lang="zh-TW">Php.ini裡上傳的文件超過大小上限。如果你的服務器配置允許，你可以在你的.htaccess裡添加一個指令。</target>
+        <note>Context:
+File: src/Core/Import/File/FileUploader.php:114</note>
+      </trans-unit>
+      <trans-unit id="4f12b222c9659d62afa795987259933f" approved="yes">
+        <source>The uploaded file was only partially uploaded.</source>
+        <target xml:lang="zh-TW">有沒有在您的Prestashop模組。使用「模組」標籤來啟用或去我們的網站下載額外的模組。</target>
+        <note>Context:
+File: src/Core/Import/File/FileUploader.php:118</note>
+      </trans-unit>
+      <trans-unit id="8c9067e52e4440d8a20e74fdc745b0c6" approved="yes">
+        <source>No file was uploaded.</source>
+        <target xml:lang="zh-TW">沒有檔案被上傳</target>
+        <note>Context:
+File: src/Core/Import/File/FileUploader.php:121</note>
+      </trans-unit>
+      <trans-unit id="fc2e88db6e13898dab6ddf3b44c5d68a" approved="yes">
+        <source>The extension of your file should be .csv.</source>
+        <target xml:lang="zh-TW">您的文件後綴應該是 .csv。</target>
+        <note>Context:
+File: src/Core/Import/File/FileUploader.php:130</note>
+      </trans-unit>
+      <trans-unit id="50844c635a86264cc59d737d532df573" approved="yes">
+        <source>An error occurred while uploading / copying the file.</source>
+        <target xml:lang="zh-TW">上傳/複製檔案時發生錯誤</target>
+        <note>Context:
+File: src/Core/Import/File/FileUploader.php:90</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
+    <body>
       <trans-unit id="5b8f192b08644fdc9fd1fd86bcbbc57b" approved="yes">
         <source>(click to open "Generators" page)</source>
         <target xml:lang="zh-TW">(點選後開啟 "產生器" 頁面)</target>
@@ -468,46 +512,6 @@ File: controllers/admin/AdminImportController.php:4661</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/Core/Import/File/FileUploader.php" source-language="en" target-language="zh-TW" datatype="plaintext">
-    <body>
-      <trans-unit id="68e8d36b17584f88614fb3201925a7ac" approved="yes">
-        <source>The uploaded file exceeds the upload_max_filesize directive in php.ini. If your server configuration allows it, you may add a directive in your .htaccess.</source>
-        <target xml:lang="zh-TW">上傳的檔案大小超過 php.ini 的 upload_max_filesize 設定，如果系統環境允許，您可以透過 .htaccess 調整</target>
-        <note>Context:
-File: src/Core/Import/File/FileUploader.php:111</note>
-      </trans-unit>
-      <trans-unit id="0bedafc96db94da3f85caa7101944eb5" approved="yes">
-        <source>The uploaded file exceeds the post_max_size directive in php.ini. If your server configuration allows it, you may add a directive in your .htaccess, for example:</source>
-        <target xml:lang="zh-TW">Php.ini裡上傳的文件超過大小上限。如果你的服務器配置允許，你可以在你的.htaccess裡添加一個指令。</target>
-        <note>Context:
-File: src/Core/Import/File/FileUploader.php:114</note>
-      </trans-unit>
-      <trans-unit id="4f12b222c9659d62afa795987259933f" approved="yes">
-        <source>The uploaded file was only partially uploaded.</source>
-        <target xml:lang="zh-TW">有沒有在您的Prestashop模組。使用「模組」標籤來啟用或去我們的網站下載額外的模組。</target>
-        <note>Context:
-File: src/Core/Import/File/FileUploader.php:118</note>
-      </trans-unit>
-      <trans-unit id="8c9067e52e4440d8a20e74fdc745b0c6" approved="yes">
-        <source>No file was uploaded.</source>
-        <target xml:lang="zh-TW">沒有檔案被上傳</target>
-        <note>Context:
-File: src/Core/Import/File/FileUploader.php:121</note>
-      </trans-unit>
-      <trans-unit id="fc2e88db6e13898dab6ddf3b44c5d68a" approved="yes">
-        <source>The extension of your file should be .csv.</source>
-        <target xml:lang="zh-TW">您的文件後綴應該是 .csv。</target>
-        <note>Context:
-File: src/Core/Import/File/FileUploader.php:130</note>
-      </trans-unit>
-      <trans-unit id="50844c635a86264cc59d737d532df573" approved="yes">
-        <source>An error occurred while uploading / copying the file.</source>
-        <target xml:lang="zh-TW">上傳/複製檔案時發生錯誤</target>
-        <note>Context:
-File: src/Core/Import/File/FileUploader.php:90</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
       <trans-unit id="d85366190ecd2aebf8363980ad9d6740" approved="yes">
@@ -883,6 +887,60 @@ File: admin-dev/backup.php:85</note>
         <target xml:lang="zh-TW">無法顯示備份檔案。</target>
         <note>Context:
 File: admin-dev/backup.php:105</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/CachingType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
+    <body>
+      <trans-unit id="023d53a99c8074e823e5b2db4c19dfa4" approved="yes">
+        <source>(you must install the [a]Memcache PECL extension[/a])</source>
+        <target xml:lang="zh-TW">(您必須安裝 [a]Memcache PECL 外掛[/a])</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/CachingType.php:118</note>
+      </trans-unit>
+      <trans-unit id="82742001d67f4446f50d68908f0f8b96" approved="yes">
+        <source>(you must install the [a]Memcached PECL extension[/a])</source>
+        <target xml:lang="zh-TW">(您必須安裝 [a]Memcache PECL 外掛[/a])</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/CachingType.php:128</note>
+      </trans-unit>
+      <trans-unit id="78ae94b19fc38f9a35d20bc67cde2d61" approved="yes">
+        <source>(you must install the [a]APC PECL extension[/a])</source>
+        <target xml:lang="zh-TW">(您必須安裝 [a]APC PECL 外掛[/a])</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/CachingType.php:138</note>
+      </trans-unit>
+      <trans-unit id="8b763a82c2aa7875f3da39399ba350d7" approved="yes">
+        <source>(you must install the [a]Xcache extension[/a])</source>
+        <target xml:lang="zh-TW">(您必須安裝 [a]Xcache 外掛[/a])</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/CachingType.php:148</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/PerformanceController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
+    <body>
+      <trans-unit id="fd4adc19ae7e0f0391f617451f3729cf" approved="yes">
+        <source>All caches cleared successfully</source>
+        <target xml:lang="zh-TW">所有緩存成功清除</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/PerformanceController.php:115</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/MemcacheServerController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
+    <body>
+      <trans-unit id="9ad28fef1c6184adfe7397838891ba76" approved="yes">
+        <source>The Memcached server cannot be added.</source>
+        <target xml:lang="zh-TW">無法加入 Memcached 伺服器</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/MemcacheServerController.php:118</note>
+      </trans-unit>
+      <trans-unit id="bf4ddd37d9f82a3ad1f405891dfaa235" approved="yes">
+        <source>There was an error when attempting to delete the Memcached server.</source>
+        <target xml:lang="zh-TW">刪除 Memcached 伺服器時發生錯誤</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/MemcacheServerController.php:153</note>
       </trans-unit>
     </body>
   </file>
