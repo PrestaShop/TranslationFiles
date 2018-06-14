@@ -3,6 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{blockcontactinfos}prestashop>blockcontactinfos_20015706a8cbd457cbb6ea3e7d5dc9b3'] = '구성 수정';
 $_MODULE['<{blockcontactinfos}prestashop>blockcontactinfos_f4f70727dc34561dfde1a3c529b6205c'] = '설정';
 $_MODULE['<{blockcontactinfos}prestashop>blockcontactinfos_dd7bf230fde8d4836917806aff6a6b27'] = '주소';
 $_MODULE['<{blockcontactinfos}prestashop>blockcontactinfos_ce8ae9da5b7cd6c3df2929543a9af92d'] = '이메일';
