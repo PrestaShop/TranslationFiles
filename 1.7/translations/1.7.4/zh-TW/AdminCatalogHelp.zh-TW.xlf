@@ -42,6 +42,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/comb
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/combinations.html.twig:67</note>
       </trans-unit>
+      <trans-unit id="dbcf3c5f67528da5cf59dc0c042748da" approved="yes">
+        <source>Upload a file from your computer (%maxUploadSize% max.)</source>
+        <target xml:lang="zh-TW">從電腦上傳新文檔（最大 %maxUploadSize%）</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/combinations.html.twig:93</note>
+      </trans-unit>
       <trans-unit id="c312034c9f17a264365e734de442ca0a" approved="yes">
         <source>The full filename with its extension (e.g. Book.pdf)</source>
         <target xml:lang="zh-TW">完整的檔案名稱，包含副檔名 (例如 Book.pdf)</target>
@@ -288,6 +294,12 @@ File: controllers/admin/AdminCustomerThreadsController.php:189</note>
         <note>Context:
 File: controllers/admin/AdminCustomerThreadsController.php:194</note>
       </trans-unit>
+      <trans-unit id="38033ed4d12ca354e503266bd9a59105" approved="yes">
+        <source>Use POP3 instead of IMAP.</source>
+        <target xml:lang="zh-TW">使用POP3而不是IMAP。</target>
+        <note>Context:
+File: controllers/admin/AdminCustomerThreadsController.php:199</note>
+      </trans-unit>
       <trans-unit id="3abb33532b4b4e0201dbdde08eced7ee" approved="yes">
         <source>Do not use RSH or SSH to establish a preauthenticated IMAP sessions.</source>
         <target xml:lang="zh-TW">不要使用 RSH 或 SSH 建立預先認證的 IMAP 連線</target>
@@ -364,6 +376,30 @@ File: src/PrestaShopBundle/Form/Admin/Product/ProductOptions.php:122</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Product/ProductSeo.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="af809f35e40bd6f644509ad566ecf38c" approved="yes">
+        <source>To have a different title from the product name, enter it here.</source>
+        <target xml:lang="zh-TW">商品名稱有不同的抬頭的話請在此輸入。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductSeo.php:79</note>
+      </trans-unit>
+      <trans-unit id="b0ea2bd9df4b8ee746b4e5fd28503851" approved="yes">
+        <source>Public title for the product's page, and for search engines. Leave blank to use the product name. The number of remaining characters is displayed to the left of the field.</source>
+        <target xml:lang="zh-TW">用於商品頁面和搜索引擎的公共標題。放空來使用商品名稱。剩餘的字符在欄位的左邊顯示。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductSeo.php:89</note>
+      </trans-unit>
+      <trans-unit id="5f99bb8ecd940f311cb66fadfc467a2b" approved="yes">
+        <source>To have a different description than your product summary in search results pages, write it here.</source>
+        <target xml:lang="zh-TW">要在搜索結果頁中使用與商品摘要不同的說明，請在此處填寫。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductSeo.php:103</note>
+      </trans-unit>
+      <trans-unit id="8533d8d42f2c7ef3078797984ea14675" approved="yes">
+        <source>This description will appear in search engines. You need a single sentence, shorter than 160 characters (including spaces)</source>
+        <target xml:lang="zh-TW">這個說明將出現在搜索引擎中。你需要少於160字符（含空格）的簡短句子。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductSeo.php:113</note>
+      </trans-unit>
       <trans-unit id="26511e4120f7b4f3135a21b9f35efed8" approved="yes">
         <source>To which product the page should redirect?</source>
         <target xml:lang="zh-TW">要導向至哪個商品頁面？</target>
@@ -391,6 +427,12 @@ File: src/PrestaShopBundle/Form/Admin/Product/ProductInformation.php:148</note>
         <target xml:lang="zh-TW">輸入商品名稱</target>
         <note>Context:
 File: src/PrestaShopBundle/Form/Admin/Product/ProductInformation.php:170</note>
+      </trans-unit>
+      <trans-unit id="7f6c27a96363effdda77216cf1251400" approved="yes">
+        <source><![CDATA[The summary is a short sentence describing your product.<br />It will appears at the top of your shop's product page, in product lists, and in search engines' results page (so it's important for SEO). To give more details about your product, use the "Description" tab.]]></source>
+        <target xml:lang="zh-TW"><![CDATA[摘要是描述商品的簡短句子。<br />它會出現在商店商品頁面的頂部，商店列表和搜索引擎結果頁面中（所以對於搜索引擎優化很重要）。 要提供有關商品的詳細信息，請使用“說明”選項卡。]]></target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductInformation.php:193</note>
       </trans-unit>
       <trans-unit id="1fbfcc9642d39544207c67f66ec3bc00" approved="yes">
         <source>Search and add a related product</source>
@@ -468,7 +510,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/Lists/produ
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Blocks/header.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
+      <trans-unit id="bb03c14d14caa07e21f97cbe5eab022d" approved="yes">
+        <source>Is the product a pack (a combination of at least two existing products), a virtual product (downloadable file, service, etc.), or simply a standard, physical product?</source>
+        <target xml:lang="zh-TW">這個商品是套裝（至少有兩個商品構成的組合），虛擬商品（可下載文件，服務等），或僅僅是一見標準的實質性商品？</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Blocks/header.html.twig:43</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Blocks/footer.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -479,10 +526,52 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/Lists/produ
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Blocks/footer.html.twig:33</note>
       </trans-unit>
+      <trans-unit id="94e4259ad6f05c74b84eb6cca4d60ce6" approved="yes">
+        <source>See how your product sheet will look online: ALT+SHIFT+V</source>
+        <target xml:lang="zh-TW">看看你的商品網頁如何在線上顯示：ALT + SHIFT + V</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Blocks/footer.html.twig:47</note>
+      </trans-unit>
+      <trans-unit id="ad7478afcd575d882738a42546bc041a" approved="yes">
+        <source>Enable or disable the product on your shop: ALT+SHIFT+O</source>
+        <target xml:lang="zh-TW">在你的店裡啟動或取消此商品：ALT+SHIFT+O</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Blocks/footer.html.twig:55</note>
+      </trans-unit>
+      <trans-unit id="ac6f66dc450bc768229c1329aa7a48b1" approved="yes">
+        <source>Save and duplicate this product, then go to the new product: ALT+SHIFT+D</source>
+        <target xml:lang="zh-TW">保持和復制此商品，然後轉到新商品：ALT+SHIFT+D</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Blocks/footer.html.twig:75</note>
+      </trans-unit>
+      <trans-unit id="b110e989a1143b7f44cd5691324d4d11" approved="yes">
+        <source>Save and go back to the catalog: ALT+SHIFT+Q</source>
+        <target xml:lang="zh-TW">保存並回到目錄：ALT+SHIFT+Q</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Blocks/footer.html.twig:86</note>
+      </trans-unit>
+      <trans-unit id="37163a2847189335a934c83e8ae32677" approved="yes">
+        <source>Save and create a new product: ALT+SHIFT+P</source>
+        <target xml:lang="zh-TW">保存並創建新商品：ALT+SHIFT+P</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Blocks/footer.html.twig:96</note>
+      </trans-unit>
+      <trans-unit id="82e3cb7a4be4e299701a182197dc9410" approved="yes">
+        <source>Save the product and stay on the current page: ALT+SHIFT+S</source>
+        <target xml:lang="zh-TW">保存商品並留在當前頁面：ALT+SHIFT+S</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Blocks/footer.html.twig:106</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_categories.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="61010671991185f436b35030f599d327" approved="yes">
+        <source>Where should the product be available on your site? The main category is where the product appears by default: this is the category which is seen in the product page's URL. Disabled categories are written in italics.</source>
+        <target xml:lang="zh-TW">商品應該歸入哪個類別？ 主類別是商品默認顯示的位置：這是在商品頁面的URL中顯示的類別。 不用的類別是用斜體字寫的。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_categories.html.twig:27</note>
+      </trans-unit>
       <trans-unit id="c5abe76b24973299661ce389d1a092e1" approved="yes">
         <source>Search categories</source>
         <target xml:lang="zh-TW">搜索分類</target>
@@ -499,7 +588,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_combination.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
+      <trans-unit id="53f3eb21de0c7a8c909a86be984996f6" approved="yes">
+        <source>Does this combination have a different price? Is it cheaper or more expensive than the default retail price?</source>
+        <target xml:lang="zh-TW">這商品屬性組合是否有不同的價格？它比默認的零售價是貴還是便宜？</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_combination.html.twig:143</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/options.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -575,6 +669,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/pricing.html.twig:34</note>
       </trans-unit>
+      <trans-unit id="b9c6e3712398e2df7d3ebd7ccc7d5132" approved="yes">
+        <source>Some products can be purchased by unit (per bottle, per pound, etc.),  and this is the price for one unit. For instance, if you’re selling fabrics, it would be the price per meter.</source>
+        <target xml:lang="zh-TW">有些商品可以按單位購買（每瓶，每磅等），這是一個單位的價格。 例如，如果你賣布料，那就是每米的價格。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/pricing.html.twig:56</note>
+      </trans-unit>
       <trans-unit id="959f5f13ee3cc4199a335d1738351596" approved="yes">
         <source>You can set specific prices for customers belonging to different groups, different countries, etc.</source>
         <target xml:lang="zh-TW">您可以指定不同群組、國家的客戶使用特定價格</target>
@@ -585,6 +685,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/pric
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/essentials.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="0a4595dd800cb3338d233a177f422758" approved="yes">
+        <source>Advanced settings in [1][2]Combinations[/1]</source>
+        <target xml:lang="zh-TW">在 [1][2]商品屬性組合[/1]裡的高級設置</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/essentials.html.twig:172</note>
+      </trans-unit>
       <trans-unit id="01cfe41b8ece41634e85248382166271" approved="yes">
         <source>Your reference code for this product. Allowed special characters: .-_#.</source>
         <target xml:lang="zh-TW">此商品的參考編號。允許的特別符號：.-_#.</target>
@@ -602,6 +708,18 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/esse
         <target xml:lang="zh-TW">在 [1][2]數量[/1]裡的高級設置</target>
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/essentials.html.twig:208</note>
+      </trans-unit>
+      <trans-unit id="1423e14cddc8aa38062c77d9b8fe8910" approved="yes">
+        <source>This is the retail price at which you intend to sell this product to your customers. The tax included price will change according to the tax rule you select.</source>
+        <target xml:lang="zh-TW">這是你商品的零售價。含稅價將隨著你所選的稅率變化。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/essentials.html.twig:217</note>
+      </trans-unit>
+      <trans-unit id="143cb6dd5281d68859217704ad9c9f60" approved="yes">
+        <source>Advanced settings in [1][2]Pricing[/1]</source>
+        <target xml:lang="zh-TW">在 [1][2]價格[/1]裡的高級設置</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/essentials.html.twig:237</note>
       </trans-unit>
     </body>
   </file>
