@@ -70,7 +70,7 @@ $_MODULE['<{themeconfigurator}prestashop>live_configurator_45e035baf33a8e403766a
 $_MODULE['<{themeconfigurator}prestashop>live_configurator_194f5394ae2e9c74dc3c441b92862d1d'] = 'Шрифт';
 $_MODULE['<{themeconfigurator}prestashop>live_configurator_9a2c00f5f6df185a8d7d421ee70ccddf'] = 'Шрифт на заглавието';
 $_MODULE['<{themeconfigurator}prestashop>live_configurator_ea3aba27f515989b46d990e95a097818'] = 'Избор на шрифт';
-$_MODULE['<{themeconfigurator}prestashop>live_configurator_526d688f37a86d3c3f27d0c5016eb71d'] = 'Занули';
+$_MODULE['<{themeconfigurator}prestashop>live_configurator_526d688f37a86d3c3f27d0c5016eb71d'] = 'Нулиране';
 $_MODULE['<{themeconfigurator}prestashop>live_configurator_c9cc8cce247e49bae79f15173ce97354'] = 'Запазване';
 
 
