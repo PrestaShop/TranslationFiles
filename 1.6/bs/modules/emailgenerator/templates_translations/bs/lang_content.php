@@ -17,7 +17,7 @@ $_LANGMAIL['Should you suspect someone is using your account illegally, please n
 $_LANGMAIL['You can now place orders on our shop:'] = 'Sad možete naručivati na našoj prodavnici:';
 $_LANGMAIL['A new order has been generated on your behalf.'] = '';
 $_LANGMAIL['Please go on <a href="{order_link}">{order_link}</a> to finalize the payment.'] = 'Molimo vas idite na <a href="{order_link}">{order_link}</a> da završite proces plaćanja.';
-$_LANGMAIL['Thank you for shopping with {shop_name}!'] = '';
+$_LANGMAIL['Thank you for shopping with {shop_name}!'] = 'Hvala vam za kupovinu sa {shop_name}!';
 $_LANGMAIL['Order {order_name}'] = 'Narudžba {order_name}';
 $_LANGMAIL['Awaiting wire payment'] = 'Očekujemo bankovno plaćanje';
 $_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been placed successfully and will be <strong>shipped as soon as we receive your payment</strong>.'] = 'Vaša narudžba s uputama <span><strong>{order_name}</strong></span> je uspješno postavljena i bit će <strong>dostavljena čim primimo uplatu</strong>.';
