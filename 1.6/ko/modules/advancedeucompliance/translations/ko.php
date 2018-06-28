@@ -3,6 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_d602cd3160dcb3b836420a2e5683cb0f'] = '고급 EU 규정 준수';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_bb8956c67b82c7444a80c6b2433dd8b4'] = '이 모듈을 삭제하시겠습니까?';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_cac77d4c7de337f13ad1e89a8cecbc7f'] = '배송: 1-3 주';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_eeb992239a8454067cd7a47bbf0df359'] = '배송: 3-6 주';
@@ -21,6 +22,7 @@ $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_50c550b9c0a0d6d
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_a9f8920ab987fd7707b4b449ccfdcece'] = '활성화 되었다면, 해지 조항이 아래 CMS 페이지와 연결되었는지 확인하세요(법적 내용 관리).';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_c9cc8cce247e49bae79f15173ce97354'] = '저장';
 $_MODULE['<{advancedeucompliance}prestashop>advancedeucompliance_98f770b0af18ca763421bac22b4b6805'] = '기능';
+$_MODULE['<{advancedeucompliance}prestashop>adminaeuccontroller_d602cd3160dcb3b836420a2e5683cb0f'] = '고급 EU 규정 준수';
 $_MODULE['<{advancedeucompliance}prestashop>email_attachments_form_c9cc8cce247e49bae79f15173ce97354'] = '저장';
 $_MODULE['<{advancedeucompliance}prestashop>legal_cms_manager_form_c9cc8cce247e49bae79f15173ce97354'] = '저장';
 $_MODULE['<{advancedeucompliance}prestashop>hookoverridetosdisplay_97abaa921b2270031573362f57aad4a4'] = '이용 약관';

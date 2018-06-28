@@ -104,9 +104,9 @@ $_LANGPDF['PDF716be2c7de31f063369ca297a9928403'] = 'Данъци:';
 $_LANGPDF['PDFf4a232c48df10124ee867767a4e7280e'] = 'Данъчна основа';
 $_LANGPDF['PDF01a2436b8e3782c1f99e6b26adf901b2'] = 'Стойност на данъка';
 $_LANGPDF['PDF1300f86974cafc2d65eb1f082a26bdf1'] = 'Обобщение:';
-$_LANGPDF['PDFd1f223eb051fae871c3c29a0777e95aa'] = '(Преди намалението)';
-$_LANGPDF['PDF6b9e9f2472786ed1e76005bfc37bc8af'] = 'Намаление на поръчката';
-$_LANGPDF['PDF99d48dba6b2b30a09c4a84a2912a5e5d'] = '(След намалението)';
+$_LANGPDF['PDFd1f223eb051fae871c3c29a0777e95aa'] = '(Преди отстъпката)';
+$_LANGPDF['PDF6b9e9f2472786ed1e76005bfc37bc8af'] = 'Отстъпка на поръчката';
+$_LANGPDF['PDF99d48dba6b2b30a09c4a84a2912a5e5d'] = '(След отстъпката)';
 $_LANGPDF['PDF699e6bd4690ed3bd5f658052e12aba04'] = 'Размер на данъка';
 $_LANGPDF['PDF8cc072b14a8fda0c4f9aa0c166471cc9'] = 'Общо за плащане';
 

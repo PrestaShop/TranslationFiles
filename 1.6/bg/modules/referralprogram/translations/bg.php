@@ -22,7 +22,7 @@ $_MODULE['<{referralprogram}prestashop>program_7e9b0e998138fefac8749975c737ac27'
 $_MODULE['<{referralprogram}prestashop>program_c56567bc42584de1a7ac430039b3a87e'] = 'Приятели в изчакване';
 $_MODULE['<{referralprogram}prestashop>program_b9ebe5bbe91ed6e7e23285fb6c595ab4'] = 'Списък на приятелите, които съм спонсорирал(а)';
 $_MODULE['<{referralprogram}prestashop>program_58c7f2542ab2e2c3e4e39e851ea0f225'] = 'Приятели, които съм спонсорирал(а)';
-$_MODULE['<{referralprogram}prestashop>program_a44fa3fcad7f0f3ef4b6d77b74ca66f2'] = 'Вземете намаление от %1$s за вас и вашите приятели като ги поканите в този уебсайт.';
+$_MODULE['<{referralprogram}prestashop>program_a44fa3fcad7f0f3ef4b6d77b74ca66f2'] = 'Вземете отстъпка от %1$s за вас и вашите приятели като ги поканите в този уебсайт.';
 $_MODULE['<{referralprogram}prestashop>program_8d3ae82bfa996855cdf841dd9e15a7e3'] = 'Лесно и бързо е. Попълнете имената и имейл адресите на приятелите си в полетата по-долу.';
 $_MODULE['<{referralprogram}prestashop>program_666149e67589bd65ed1e787932cd74f5'] = 'Когато някой от тях направи поне %d поръчки, ';
 $_MODULE['<{referralprogram}prestashop>program_def1ac1f353beef52f7e86a30cae01c4'] = 'Когато някой от тях направи поне %d поръчка, ';
@@ -60,7 +60,7 @@ $_MODULE['<{referralprogram}prestashop>authentication_8fdb2298a0db461ac64e71192a
 $_MODULE['<{referralprogram}prestashop>my-account_6b31baf25848e7a6563ecc3946626c80'] = 'Приятелска програма';
 $_MODULE['<{referralprogram}prestashop>order-confirmation_f2ef523efa8d23f8afc29e195592fc58'] = 'Благодарим за Вашата поръчка, Вашият поръчител %1$s %2$s ще получи ваучер на стойност %3$d, когато тази поръчка бъде потвърдена.';
 $_MODULE['<{referralprogram}prestashop>shopping-cart_b76b807810393d9fce7f154d82aef1d1'] = 'Вие спечелихте ваучер на стойност %s, благодарение на Вашият спонсор!';
-$_MODULE['<{referralprogram}prestashop>shopping-cart_9a5b602be8d9b2d4b8c3f22911fba01d'] = 'Въведете наименованието на ваучера %s, за да получите намаление за тази поръчка.';
+$_MODULE['<{referralprogram}prestashop>shopping-cart_9a5b602be8d9b2d4b8c3f22911fba01d'] = 'Въведете наименованието на ваучера %s, за да получите отстъпка за тази поръчка.';
 $_MODULE['<{referralprogram}prestashop>shopping-cart_6b31baf25848e7a6563ecc3946626c80'] = 'Приятелска програма';
 $_MODULE['<{referralprogram}prestashop>shopping-cart_106527986549f3ec8da1ae5a7abde467'] = 'Преглед на Вашата приятелска програма.';
 
