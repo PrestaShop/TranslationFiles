@@ -78,9 +78,9 @@ File: controllers/admin/AdminProductsController.php:586</note>
         <note>Context:
 File: controllers/admin/AdminProductsController.php:624</note>
       </trans-unit>
-      <trans-unit id="b351af3dd276d0cac6594897a392e676">
+      <trans-unit id="b351af3dd276d0cac6594897a392e676" approved="yes">
         <source>The image could not be found. </source>
-        <target xml:lang="ca" state="needs-translation"> </target>
+        <target xml:lang="ca">No es pot trobar la imatge. </target>
         <note>Context:
 File: controllers/admin/AdminProductsController.php:637</note>
       </trans-unit>
@@ -168,9 +168,9 @@ File: controllers/admin/AdminProductsController.php:1092</note>
         <note>Context:
 File: controllers/admin/AdminProductsController.php:1223</note>
       </trans-unit>
-      <trans-unit id="ed6c7c35c51ba299b38e3af151a5ec0f">
+      <trans-unit id="ed6c7c35c51ba299b38e3af151a5ec0f" approved="yes">
         <source>An error occurred while attempting to associate this image with your shop. </source>
-        <target xml:lang="ca" state="needs-translation"> </target>
+        <target xml:lang="ca">S'ha produït un error en intentar associar aquesta imatge amb la seva botiga. </target>
         <note>Context:
 File: controllers/admin/AdminProductsController.php:1465</note>
       </trans-unit>
@@ -332,6 +332,12 @@ File: classes/QqUploadedFileForm.php:48</note>
         <note>Context:
 File: classes/controller/AdminController.php:487</note>
       </trans-unit>
+      <trans-unit id="801982917ddd7afd63f9e103ba4699bd" approved="yes">
+        <source>The root category of the shop %shop% is not associated with the current shop. You can't access this page. Please change the root category of the shop.</source>
+        <target xml:lang="ca">La categoria arrel de la botiga %shop% no està associada amb la botiga actual. No pot accedir a aquesta pàgina. Si us plau, canvieu la categoria arrel de la botiga.</target>
+        <note>Context:
+File: classes/controller/AdminController.php:493</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/stock/StockAvailable.php" source-language="en" target-language="ca" datatype="plaintext">
@@ -466,6 +472,12 @@ File: controllers/admin/AdminCartRulesController.php:218</note>
         <note>Context:
 File: controllers/admin/AdminCartRulesController.php:221</note>
       </trans-unit>
+      <trans-unit id="7f5ef3543345170784cc954cffa697d6" approved="yes">
+        <source>This cart rule code is already used (conflict with cart rule %rulename%)</source>
+        <target xml:lang="ca">El codi de la regla de carro ja existeix (hi ha un conflicte amb la regla %rulename%)</target>
+        <note>Context:
+File: controllers/admin/AdminCartRulesController.php:224</note>
+      </trans-unit>
       <trans-unit id="bbc6a34f03def2d56def8e7685a3fcae" approved="yes">
         <source>An action is required for this cart rule.</source>
         <target xml:lang="ca">Es requereix una acció per aquesta regla del carret.</target>
@@ -493,6 +505,12 @@ File: controllers/admin/AdminCategoriesController.php:799</note>
         <target xml:lang="ca">La categoria no pot ser pare de si mateixa</target>
         <note>Context:
 File: controllers/admin/AdminCategoriesController.php:802</note>
+      </trans-unit>
+      <trans-unit id="23be63a3d78c7375e59f5965f6ef9efd" approved="yes">
+        <source>Unknown delete mode: %s</source>
+        <target xml:lang="ca">Mode d'eliminació desconegut: %s</target>
+        <note>Context:
+File: controllers/admin/AdminCategoriesController.php:822</note>
       </trans-unit>
       <trans-unit id="b50f440e3c9f14988bd0086683e77095" approved="yes">
         <source>You cannot remove this category because one of your shops uses it as a root category.</source>
@@ -705,8 +723,18 @@ File: src/PrestaShopBundle/Form/Admin/Product/ProductInformation.php:303</note>
   </file>
   <file original="src/PrestaShopBundle/Translation/Api/StockApi.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="5566045e38ed5e7bb072b8d55f3ceb2f" approved="yes">
+        <source>No product matches your search. Try changing search terms.</source>
+        <target xml:lang="ca">Cap producte coincideix amb la vostra cerca. Proveu de canviar els termes de cerca.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Translation/Api/StockApi.php:64</note>
+      </trans-unit>
+      <trans-unit id="96d17a8fdea016168a9d506b0da23c07" approved="yes">
+        <source>Stock successfully updated</source>
+        <target xml:lang="ca">Estoc actualitzat correctament</target>
+        <note>Context:
+File: src/PrestaShopBundle/Translation/Api/StockApi.php:66</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/ProductController.php" source-language="en" target-language="ca" datatype="plaintext">
@@ -716,6 +744,18 @@ File: src/PrestaShopBundle/Form/Admin/Product/ProductInformation.php:303</note>
         <target xml:lang="ca">Producte(s) activat(s) correctament.</target>
         <note>Context:
 File: src/PrestaShopBundle/Controller/Admin/ProductController.php:741</note>
+      </trans-unit>
+      <trans-unit id="25b325c47f9b5f88d7820b079bafa02e" approved="yes">
+        <source>Product(s) successfully deactivated.</source>
+        <target xml:lang="ca">Producte(s) desactivat(s) correctament.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/ProductController.php:761</note>
+      </trans-unit>
+      <trans-unit id="01996897996faf465514bdf1091b6d4d" approved="yes">
+        <source>Product(s) successfully deleted.</source>
+        <target xml:lang="ca">Producte(s) suprimit(s) correctament.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/ProductController.php:781</note>
       </trans-unit>
       <trans-unit id="290ed9aa59dd098c9e112c4f9770407d" approved="yes">
         <source>Product(s) successfully duplicated.</source>
@@ -728,6 +768,30 @@ File: src/PrestaShopBundle/Controller/Admin/ProductController.php:800</note>
         <target xml:lang="ca">Productes ordenats correctament.</target>
         <note>Context:
 File: src/PrestaShopBundle/Controller/Admin/ProductController.php:884</note>
+      </trans-unit>
+      <trans-unit id="7bdb2828f248bbd55bba16dcc63223d9" approved="yes">
+        <source>Product successfully deleted.</source>
+        <target xml:lang="ca">Producte eliminat correctament.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/ProductController.php:961</note>
+      </trans-unit>
+      <trans-unit id="85d8f7e3038017826a8215396b96865b" approved="yes">
+        <source>Product successfully duplicated.</source>
+        <target xml:lang="ca">Producte duplicat correctament.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/ProductController.php:978</note>
+      </trans-unit>
+      <trans-unit id="98434b0cd2f3cf08418ea1f0a9c55f0a" approved="yes">
+        <source>Product successfully activated.</source>
+        <target xml:lang="ca">Producte activat correctament.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/ProductController.php:996</note>
+      </trans-unit>
+      <trans-unit id="fd1d6d9c7d146c9f81572224bae86951" approved="yes">
+        <source>Product successfully deactivated.</source>
+        <target xml:lang="ca">Producte desactivat correctament.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/ProductController.php:1013</note>
       </trans-unit>
     </body>
   </file>
@@ -771,7 +835,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/TwigTemplateForm/bootstrap_4_la
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/Lists/list.html.twig" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
+      <trans-unit id="1aa1527fa7dfdbe44acb4be33af88e4c" approved="yes">
+        <source>There is no result for this search. Update your filters to view other products.</source>
+        <target xml:lang="ca">No hi ha cap resultat per a aquesta cerca. Actualitzi els seus filtres per veure altres productes.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/Lists/list.html.twig:138</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/catalog.html.twig" source-language="en" target-language="ca" datatype="plaintext">
@@ -781,6 +850,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/TwigTemplateForm/bootstrap_4_la
         <target xml:lang="ca">Duplicació en procés...</target>
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/catalog.html.twig:116</note>
+      </trans-unit>
+      <trans-unit id="1c4a67678ffecd99e46e9686e3639789" approved="yes">
+        <source>Duplication failed.</source>
+        <target xml:lang="ca">Duplicació fallida.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/catalog.html.twig:118</note>
       </trans-unit>
       <trans-unit id="e927fc858b3eccca1323ed79add38ed6" approved="yes">
         <source>Activation in progress...</source>
@@ -794,11 +869,77 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/catalog.htm
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/catalog.html.twig:140</note>
       </trans-unit>
+      <trans-unit id="58b01b30d683cbdb393f9ede59bdb697" approved="yes">
+        <source>Deactivation in progress...</source>
+        <target xml:lang="ca">Desactivació en procés...</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/catalog.html.twig:160</note>
+      </trans-unit>
       <trans-unit id="036a5e2d815eaa9bddaebf0c12f94e17" approved="yes">
         <source>Deactivation failed.</source>
         <target xml:lang="ca">La desactivació ha fallat.</target>
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/catalog.html.twig:162</note>
+      </trans-unit>
+      <trans-unit id="557c57932d4eb9b108efcf050b9db862" approved="yes">
+        <source>Deletion in progress...</source>
+        <target xml:lang="ca">Eliminació en procés...</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/catalog.html.twig:182</note>
+      </trans-unit>
+      <trans-unit id="51d0bf7f10d8d28ecd64d2aa3a5ca141" approved="yes">
+        <source>Deletion failed.</source>
+        <target xml:lang="ca">Eliminació fallida.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/catalog.html.twig:184</note>
+      </trans-unit>
+      <trans-unit id="fc483403c3f9b9aa31a570b83cdfa6f3" approved="yes">
+        <source>Duplicating products</source>
+        <target xml:lang="ca">Duplicant productes</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/catalog.html.twig:106</note>
+      </trans-unit>
+      <trans-unit id="34202dac3bbd97da03f56d3b2cf1386b" approved="yes">
+        <source>Duplicating...</source>
+        <target xml:lang="ca">Duplicant...</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/catalog.html.twig:110</note>
+      </trans-unit>
+      <trans-unit id="6d7447cf0c9efdaeb3a700de594a70cf" approved="yes">
+        <source>Activating products</source>
+        <target xml:lang="ca">Activant productes</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/catalog.html.twig:128</note>
+      </trans-unit>
+      <trans-unit id="b850e16adbf88a6b6cb724630eff2c97" approved="yes">
+        <source>Activating...</source>
+        <target xml:lang="ca">Activant...</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/catalog.html.twig:132</note>
+      </trans-unit>
+      <trans-unit id="c1714105baaadc64c8e502f13ca10988" approved="yes">
+        <source>Deactivating products</source>
+        <target xml:lang="ca">Desactivant productes</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/catalog.html.twig:150</note>
+      </trans-unit>
+      <trans-unit id="fe38be28e7e43dc0fb4c4d7ca1d60f90" approved="yes">
+        <source>Deactivating...</source>
+        <target xml:lang="ca">Desactivant...</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/catalog.html.twig:154</note>
+      </trans-unit>
+      <trans-unit id="ccfc7b0a56346cdac7fd40d2edd01c5a" approved="yes">
+        <source>Deleting products</source>
+        <target xml:lang="ca">Eliminant productes</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/catalog.html.twig:172</note>
+      </trans-unit>
+      <trans-unit id="1294e8c29fb59da902198447bd9a256c" approved="yes">
+        <source>Deleting...</source>
+        <target xml:lang="ca">Eliminant...</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/catalog.html.twig:176</note>
       </trans-unit>
     </body>
   </file>
@@ -830,6 +971,24 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_seo.html.twig:71</note>
       </trans-unit>
+      <trans-unit id="517937df76770fb3c4f9e6100ed69ce9" approved="yes">
+        <source>To enable it, go to [1]SEO and URLs[/1]</source>
+        <target xml:lang="ca">Per activar-lo, vagi a [1]SEO i URL[/1]</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_seo.html.twig:72</note>
+      </trans-unit>
+      <trans-unit id="9bbbc84f839137c71e79f1b8eaafc5b7" approved="yes">
+        <source>Friendly URLs are currently enabled.</source>
+        <target xml:lang="ca">Les URL amigables están actualment habilitades.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_seo.html.twig:74</note>
+      </trans-unit>
+      <trans-unit id="2d1df068fb2a9a3c4d9e3c361795c59c" approved="yes">
+        <source>To disable it, go to [1]SEO and URLs[/1]</source>
+        <target xml:lang="ca">Per desactivar, anar a [1]SEO and URLs[/1]</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_seo.html.twig:75</note>
+      </trans-unit>
       <trans-unit id="d7e9bf98e857f83943b3b75fce04cea9" approved="yes">
         <source>The "Force update of friendly URL" option is currently enabled.</source>
         <target xml:lang="ca">L'opció "Forçar actualització d'URL amigable" està habilitada actualment.</target>
@@ -856,7 +1015,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/comb
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/disabled_form_alert.html.twig" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
+      <trans-unit id="e1cc7a5b4545de2fa898ab70a12e2d54" approved="yes">
+        <source>You can't add or edit a product in this shop context: select a shop instead of a group of shops.</source>
+        <target xml:lang="ca">No es pot afegir o editar un producte en aquest context de botiga: seleccioneu una botiga en lloc d'un grup de botigues.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/disabled_form_alert.html.twig:31</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/product.html.twig" source-language="en" target-language="ca" datatype="plaintext">
@@ -866,6 +1030,18 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/comb
         <target xml:lang="ca">Això eliminarà totes les combinacions. Voleu continuar?</target>
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/product.html.twig:326</note>
+      </trans-unit>
+      <trans-unit id="ff8a012ee6cba99838a649d92ad1b34b" approved="yes">
+        <source>This will delete the specific price. Do you wish to proceed?</source>
+        <target xml:lang="ca">Això eliminarà el preu específic. Voleu continuar?</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/product.html.twig:340</note>
+      </trans-unit>
+      <trans-unit id="dfd19ad4f089996c7eabcd5935f75e98" approved="yes">
+        <source>A pack of products can't have combinations.</source>
+        <target xml:lang="ca">Un pack de productes no pot tenir combinacions.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/product.html.twig:346</note>
       </trans-unit>
       <trans-unit id="5b75fdc0df647e8ac5275e31554dd0f9" approved="yes">
         <source>A virtual product can't have combinations.</source>
@@ -877,7 +1053,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/product.htm
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Stock/overview.html.twig" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
+      <trans-unit id="8597e9c43b2587a888fee6b31dad5335" approved="yes">
+        <source>You can't manage your stock in this shop context: select a shop instead of a group of shops.</source>
+        <target xml:lang="ca">Vostè no pot gestionar el seu estoc en aquest context de la botiga: seleccioni una botiga en comptes d'un grup de botigues.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Stock/overview.html.twig:35</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/cart_rules/actions.tpl" source-language="en" target-language="ca" datatype="plaintext">

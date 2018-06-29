@@ -28,7 +28,12 @@ File: classes/tax/TaxRulesGroup.php:151</note>
   </file>
   <file original="classes/Translate.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
+      <trans-unit id="753200ddd6c25c2b4875afc70bb6d4fc" approved="yes">
+        <source>Invalid language ISO code (%s)</source>
+        <target xml:lang="ca">Codi ISO del llenguatge: %s no vàlid</target>
+        <note>Context:
+File: classes/Translate.php:297</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/controller/AdminController.php" source-language="en" target-language="ca" datatype="plaintext">
@@ -38,6 +43,12 @@ File: classes/tax/TaxRulesGroup.php:151</note>
         <target xml:lang="ca">Idioma copiat amb èxit</target>
         <note>Context:
 File: classes/controller/AdminController.php:470</note>
+      </trans-unit>
+      <trans-unit id="ae99f365ee39176c3ab50b76a95cf629" approved="yes">
+        <source>Cannot add configuration %1$s for %2$s language</source>
+        <target xml:lang="ca">No es pot afegir la configuració %1$s pel llenguatge %2$s</target>
+        <note>Context:
+File: classes/controller/AdminController.php:1485</note>
       </trans-unit>
     </body>
   </file>
@@ -77,11 +88,24 @@ File: classes/Language.php:793</note>
         <note>Context:
 File: classes/Language.php:802</note>
       </trans-unit>
+      <trans-unit id="bec88b0b441e9deb3008eb5b2a57ec70" approved="yes">
+        <source>Sorry this language is not available</source>
+        <target xml:lang="ca">Ho sentim, aquest idioma no està disponible</target>
+        <note>Context:
+File: classes/Language.php:1064</note>
+      </trans-unit>
       <trans-unit id="edeb9e20655b946e4bee4ac44a6c0a7f" approved="yes">
         <source>Server does not have permissions for writing.</source>
         <target xml:lang="ca">El servidor no té permisos d'escriptura.</target>
         <note>Context:
 File: classes/Language.php:1091
+ Comment: @todo Throw exception</note>
+      </trans-unit>
+      <trans-unit id="19429992fd747ce8d7606c7ddb7fa272" approved="yes">
+        <source>Language pack unavailable.</source>
+        <target xml:lang="ca">Paquet d'idioma no disponible.</target>
+        <note>Context:
+File: classes/Language.php:1120
  Comment: @todo Throw exception</note>
       </trans-unit>
       <trans-unit id="2e3dec4700000b6db379437f7d8d9fac" approved="yes">
@@ -94,6 +118,18 @@ File: classes/Language.php:1166</note>
   </file>
   <file original="classes/LocalizationPack.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
+      <trans-unit id="dd7edad69f95c053248e9b53eab73826" approved="yes">
+        <source>Cannot load country: %d</source>
+        <target xml:lang="ca">No es pot carregar el país: %d</target>
+        <note>Context:
+File: classes/LocalizationPack.php:55</note>
+      </trans-unit>
+      <trans-unit id="5408a3468e366610d70dc31825b3ef3d" approved="yes">
+        <source>Cannot enable the associated country: %s</source>
+        <target xml:lang="ca">No es pot activar el país associat: %s</target>
+        <note>Context:
+File: classes/LocalizationPack.php:65</note>
+      </trans-unit>
       <trans-unit id="db3f419ede0b78fcf31491509e68db40" approved="yes">
         <source>Invalid Zone name.</source>
         <target xml:lang="ca">Nom de Zona no vàlid.</target>
@@ -105,6 +141,12 @@ File: classes/LocalizationPack.php:153</note>
         <target xml:lang="ca">Propietats d'Estat no vàlid.</target>
         <note>Context:
 File: classes/LocalizationPack.php:163</note>
+      </trans-unit>
+      <trans-unit id="b19f9ad94a42c56d4a2d89aaca63bafb" approved="yes">
+        <source>Cannot update the associated country: %s</source>
+        <target xml:lang="ca">No es pot actualitzar el país associat: %s</target>
+        <note>Context:
+File: classes/LocalizationPack.php:171</note>
       </trans-unit>
       <trans-unit id="e970d66f1c952edf7a4e5dfcf3e18958" approved="yes">
         <source>An error occurred while adding the state.</source>
@@ -124,6 +166,12 @@ File: classes/LocalizationPack.php:182</note>
         <note>Context:
 File: classes/LocalizationPack.php:214</note>
       </trans-unit>
+      <trans-unit id="da2b28e84d7f376b073d2c31b0cb937b" approved="yes">
+        <source>An error occurred while importing the tax: %s</source>
+        <target xml:lang="ca">S'ha produït un error en importar l'impost: %s</target>
+        <note>Context:
+File: classes/LocalizationPack.php:219</note>
+      </trans-unit>
       <trans-unit id="36f9983aadfde9d77db0d357abe6e85e" approved="yes">
         <source>This tax rule cannot be saved.</source>
         <target xml:lang="ca">No s'ha pogut desar aquesta regla d'impostos.</target>
@@ -136,6 +184,12 @@ File: classes/LocalizationPack.php:242</note>
         <note>Context:
 File: classes/LocalizationPack.php:322</note>
       </trans-unit>
+      <trans-unit id="0e7c10cc4eabebc9bd8f1b9cb8b81bb6" approved="yes">
+        <source>An error occurred while importing the currency: %s</source>
+        <target xml:lang="ca">S'ha produït un error en importar la moneda: %s</target>
+        <note>Context:
+File: classes/LocalizationPack.php:327</note>
+      </trans-unit>
       <trans-unit id="4a11be1a3905ec59ca2d35a068de6f2e" approved="yes">
         <source>Localization pack corrupted: wrong unit type.</source>
         <target xml:lang="ca">Pack danyat: tipus d'unitat equivocada.</target>
@@ -147,6 +201,30 @@ File: classes/LocalizationPack.php:394</note>
         <target xml:lang="ca">S'ha produït un error en configurar les unitats.</target>
         <note>Context:
 File: classes/LocalizationPack.php:398</note>
+      </trans-unit>
+      <trans-unit id="0964494eb4e763fd08c6004a31b4b8a7" approved="yes">
+        <source>An error occurred while installing the module: %s</source>
+        <target xml:lang="ca">S'ha produït un error durant la instal·lació del mòdul: %s</target>
+        <note>Context:
+File: classes/LocalizationPack.php:430</note>
+      </trans-unit>
+      <trans-unit id="e9b1cabd191f8141419c43cc46802e35" approved="yes">
+        <source>An error occurred while uninstalling the module: %s</source>
+        <target xml:lang="ca">S'ha produït un error durant la desinstal·lació del mòdul: %s</target>
+        <note>Context:
+File: classes/LocalizationPack.php:435</note>
+      </trans-unit>
+      <trans-unit id="962f6e835582ebb404a37893f46c60f3" approved="yes">
+        <source>An error has occurred, this module does not exist: %s</source>
+        <target xml:lang="ca">S'ha produït un error: aquest mòdul no existeix: %s</target>
+        <note>Context:
+File: classes/LocalizationPack.php:441</note>
+      </trans-unit>
+      <trans-unit id="e7ae5e7fbebb7b087110d07b06bd2418" approved="yes">
+        <source>An error occurred during the configuration setup: %1$s</source>
+        <target xml:lang="ca">Ha hagut un error durant l'ajust de configuració: %1$s</target>
+        <note>Context:
+File: classes/LocalizationPack.php:468</note>
       </trans-unit>
       <trans-unit id="b34f6454b80599ab92262b1da79a9edb" approved="yes">
         <source>An error occurred during the default group update</source>
@@ -186,6 +264,12 @@ File: controllers/admin/AdminTaxesController.php:176</note>
         <note>Context:
 File: controllers/admin/AdminTaxRulesGroupController.php:437</note>
       </trans-unit>
+      <trans-unit id="97d8fb4588d1efe9731fd4f82e071924" approved="yes">
+        <source>The Zip/postal code is invalid. It must be typed as follows: %format% for %country%.</source>
+        <target xml:lang="ca">El codi postal no és vàlid. S'ha de escriure de la següent manera: %format% per a %country%.</target>
+        <note>Context:
+File: controllers/admin/AdminTaxRulesGroupController.php:464</note>
+      </trans-unit>
       <trans-unit id="2ff5095fd8289ccdaeca9c5e7d379fd2" approved="yes">
         <source>An error has occurred: Cannot save the current tax rule.</source>
         <target xml:lang="ca">Ha succeït un error: No s'ha pogut desar la regla d'impostos.</target>
@@ -214,6 +298,12 @@ File: controllers/admin/AdminLocalizationController.php:190</note>
         <note>Context:
 File: controllers/admin/AdminLocalizationController.php:194</note>
       </trans-unit>
+      <trans-unit id="e2e54c736346106b561a0795cbaec1b1" approved="yes">
+        <source>%language% could not be loaded</source>
+        <target xml:lang="ca">%language% no s'ha pogut carregar</target>
+        <note>Context:
+File: controllers/admin/AdminLocalizationController.php:265</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminCountriesController.php" source-language="en" target-language="ca" datatype="plaintext">
@@ -223,6 +313,12 @@ File: controllers/admin/AdminLocalizationController.php:194</note>
         <target xml:lang="ca">Aquest codi ISO ja existeix, no podeu crear dos països amb el mateix codi ISO</target>
         <note>Context:
 File: controllers/admin/AdminCountriesController.php:409</note>
+      </trans-unit>
+      <trans-unit id="28064049c0d480c2fdeafd456977da8d" approved="yes">
+        <source>Invalid address layout %s</source>
+        <target xml:lang="ca">Adreça de plantilla no vàlida %s</target>
+        <note>Context:
+File: controllers/admin/AdminCountriesController.php:444</note>
       </trans-unit>
     </body>
   </file>
@@ -288,6 +384,12 @@ File: controllers/admin/AdminLanguagesController.php:457</note>
         <note>Context:
 File: controllers/admin/AdminLanguagesController.php:460</note>
       </trans-unit>
+      <trans-unit id="6509c8bfa3f06725a6016e6a429dbcd9" approved="yes">
+        <source>An error occurred while copying "No picture" image to your brand folder.</source>
+        <target xml:lang="ca">S'ha produït un error en copiar la imatge "No hi ha imatge" a la carpeta de la marca.</target>
+        <note>Context:
+File: controllers/admin/AdminLanguagesController.php:463</note>
+      </trans-unit>
       <trans-unit id="1b3a472a4556d51d2169e947280e0400" approved="yes">
         <source>An error occurred while resizing "No picture" image to your product directory.</source>
         <target xml:lang="ca">S'ha produït un error en canviar la mida d'imatge sense imatge en el directori de productes.</target>
@@ -299,6 +401,12 @@ File: controllers/admin/AdminLanguagesController.php:468</note>
         <target xml:lang="ca">S'ha produït un error en canviar la mida d'imatge no la imatge en el directori de la categoria.</target>
         <note>Context:
 File: controllers/admin/AdminLanguagesController.php:471</note>
+      </trans-unit>
+      <trans-unit id="fea874a66e2e09d727c76264844ff688" approved="yes">
+        <source>An error occurred while resizing "No picture" image to your brand directory.</source>
+        <target xml:lang="ca">S'ha produït un error en canviar la mida de la imatge "No hi ha image" per al directori de la marca.</target>
+        <note>Context:
+File: controllers/admin/AdminLanguagesController.php:474</note>
       </trans-unit>
       <trans-unit id="5f17acb89d2ab83c9138774bfd05ab16" approved="yes">
         <source>An error occurred during image deletion process.</source>
@@ -400,6 +508,18 @@ File: controllers/admin/AdminTranslationsController.php:846</note>
         <note>Context:
 File: controllers/admin/AdminTranslationsController.php:960</note>
       </trans-unit>
+      <trans-unit id="b399fb01ee4e0a8ec1681fb9bcb31ce0" approved="yes">
+        <source>This %type_content% file extension is not accepted.</source>
+        <target xml:lang="ca">Aquest %type_content% extensió d'arxiu no és acceptada.</target>
+        <note>Context:
+File: controllers/admin/AdminTranslationsController.php:1634</note>
+      </trans-unit>
+      <trans-unit id="ccdf1aa6f4cb029f9846e53006115905" approved="yes">
+        <source>Your email translations contain some invalid HTML and cannot be saved. Please check your content.</source>
+        <target xml:lang="ca">Les seves traduccions de correu electrònic contenen una mica d'HTML vàlid i no es poden desar. Si us plau, comproveu el seu contingut.</target>
+        <note>Context:
+File: controllers/admin/AdminTranslationsController.php:1675</note>
+      </trans-unit>
       <trans-unit id="f1c030f2fd8f1b382a4bffd04af59c2d" approved="yes">
         <source>Your HTML email templates cannot contain JavaScript code.</source>
         <target xml:lang="ca">HTML plantilles de correu electrònic no poden contenir codi JavaScript.</target>
@@ -428,7 +548,12 @@ File: controllers/admin/AdminTranslationsController.php:2544</note>
   </file>
   <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_modules.tpl" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
+      <trans-unit id="7cefb4829c6de24b63f7a05716b43bec" approved="yes">
+        <source>This expression uses a special syntax:</source>
+        <target xml:lang="ca">Aquesta expressió utilitza una sintaxi especial:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/translation_modules.tpl:140</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminGeolocationController.php" source-language="en" target-language="ca" datatype="plaintext">
@@ -506,11 +631,22 @@ File: controllers/admin/AdminStatesController.php:244</note>
         <note>Context:
 File: src/PrestaShopBundle/Twig/TranslationsExtension.php:220</note>
       </trans-unit>
+      <trans-unit id="b3991113a051bbeb759a923bc636ad8d" approved="yes">
+        <source>Failed to update translation</source>
+        <target xml:lang="ca">No s'ha pogut actualitzar la traducció</target>
+        <note>Context:
+File: src/PrestaShopBundle/Twig/TranslationsExtension.php:225</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/currencies/conversion_rate.tpl" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
+      <trans-unit id="0f4a4ca4bdfda88bb59a4ba4814a5f78" approved="yes">
+        <source>Please install the %module_name% module before using this feature.</source>
+        <target xml:lang="ca">Si us plau, instal·la el mòdul %module_name% abans d'usar aquesta funció.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/currencies/conversion_rate.tpl:50</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/languages/helpers/form/form.tpl" source-language="en" target-language="ca" datatype="plaintext">
@@ -520,6 +656,12 @@ File: src/PrestaShopBundle/Twig/TranslationsExtension.php:220</note>
         <target xml:lang="ca">Un paquet d'idioma està disponible per aquesta ISO.</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/languages/helpers/form/form.tpl:39</note>
+      </trans-unit>
+      <trans-unit id="3ad7d3a0bcf9313e6efc3ef183b779d0" approved="yes">
+        <source>The Prestashop version compatible with this language and your system is:</source>
+        <target xml:lang="ca">La versió de PrestaShop compatible amb aquest idioma i amb el seu sistema és:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/languages/helpers/form/form.tpl:40</note>
       </trans-unit>
       <trans-unit id="a6669356dbb699457f5750c1b6e0ab0d" approved="yes">
         <source>No language pack is available on prestashop.com for this ISO code</source>
@@ -547,6 +689,12 @@ File: admin-dev/themes/default/template/controllers/countries/helpers/form/form.
   </file>
   <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/main.tpl" source-language="en" target-language="ca" datatype="plaintext">
     <body>
+      <trans-unit id="025e0b297fd22587431e0cbf0ad0a7fa" approved="yes">
+        <source>Please select a module!</source>
+        <target xml:lang="ca">Si us plau, selecciona un mòdul!</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/main.tpl:145</note>
+      </trans-unit>
       <trans-unit id="6b066c4432fd52f87eaadf824e561796" approved="yes">
         <source>Please select your language!</source>
         <target xml:lang="ca">Si us plau seleccioneu la vostra llengua!</target>
@@ -611,6 +759,18 @@ File: admin-dev/themes/default/template/controllers/translations/helpers/view/tr
         <note>Context:
 File: admin-dev/themes/default/template/controllers/translations/helpers/view/translation_mails.tpl:49</note>
       </trans-unit>
+      <trans-unit id="bbfb7a636f839052067cc86c39fa595a" approved="yes">
+        <source>%limit% for suhosin.post.max_vars.</source>
+        <target xml:lang="ca">%limit% per suhosin.post.max_vars.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/translation_mails.tpl:41</note>
+      </trans-unit>
+      <trans-unit id="e97da54b23c78752578cd7fa01e8866d" approved="yes">
+        <source>%limit% for suhosin.request.max_vars.</source>
+        <target xml:lang="ca">%limit% per suhosin.request.max_vars.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/translation_mails.tpl:42</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_errors.tpl" source-language="en" target-language="ca" datatype="plaintext">
@@ -625,7 +785,12 @@ File: admin-dev/themes/default/template/controllers/translations/helpers/view/tr
   </file>
   <file original="admin-dev/themes/default/template/controllers/localization/content.tpl" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
+      <trans-unit id="7da16b055b9db528a9b4aa9c4ad674ca" approved="yes">
+        <source>Before changing the default currency, we strongly recommend that you enable maintenance mode. Indeed, any change on the default currency requires a manual adjustment of the price of each product and its combinations.</source>
+        <target xml:lang="ca">Abans de canviar la moneda actual, recomanem firmement que activeu el mode manteniment. En efecte, qualsevol canvi en la moneda per defecte requereix un ajust manual del preu de cadascun dels productes i combinacions.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/localization/content.tpl:31</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
