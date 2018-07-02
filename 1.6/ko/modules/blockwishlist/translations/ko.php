@@ -25,6 +25,7 @@ $_MODULE['<{blockwishlist}prestashop>managewishlist_694e8d1f2ee056f98ee488bdc498
 $_MODULE['<{blockwishlist}prestashop>managewishlist_502996d9790340c5fd7b86a5b93b1c9f'] = '우선순위';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_655d20c1ca69519ca647684edbb2db35'] = '높음';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_87f8a6ab85c9ced3702b4ea641ad4bb5'] = '중간';
+$_MODULE['<{blockwishlist}prestashop>managewishlist_28d0edd045e05cf5af64e35ae0c4c6ef'] = '낮음';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_c9cc8cce247e49bae79f15173ce97354'] = '저장';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_ce8ae9da5b7cd6c3df2929543a9af92d'] = '이메일';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_94966d90747b97d1f0f206c98a8b1ac3'] = '전송';
