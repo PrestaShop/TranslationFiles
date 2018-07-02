@@ -446,6 +446,12 @@ File: install-dev/theme/views/license.php:41</note>
         <note>Context:
 File: install-dev/theme/views/welcome.php:29</note>
       </trans-unit>
+      <trans-unit id="c8c27951cbaf7da257e6af50a6fc4116" approved="yes">
+        <source><![CDATA[<b>Warning: You cannot use this tool to upgrade your store anymore.</b><br /><br />You already have <b>PrestaShop version %version% installed</b>.<br /><br />If you want to upgrade to the latest version, please read our documentation: <a href="%doc%">%doc%</a>]]></source>
+        <target xml:lang="ko"><![CDATA[<b>경고: 이 도구를 사용하여 상점을 더 이상 업그레이드 할 수 없습니다.</b><br /><br /><b>PrestaShop 버전 %version%이 이미 설치되어 있습니다.</b>.<br /><br />최신 버전으로 업그레이드하려면 다음 문서를 읽어주세요:<a href="%doc%">%doc%</a>]]></target>
+        <note>Context:
+File: install-dev/theme/views/welcome.php:36</note>
+      </trans-unit>
       <trans-unit id="78a57ffff28849e5627e564bc055acea" approved="yes">
         <source>Installing PrestaShop is quick and easy. In just a few moments, you will become part of a community consisting of more than 250,000 merchants. You are on the way to creating your own unique online store that you can manage easily every day.</source>
         <target xml:lang="ko">PrestaShop 설치는 빠르고 간단합니다. 불과 몇 분 안에 250,000 명이 넘는 판매자로 구성된 커뮤니티의 일원이 될 것입니다. 매일 쉽게 관리할 수 있는 나만의 고유한 온라인 상점을 만드는 중입니다.</target>
@@ -1034,6 +1040,18 @@ File: src/PrestaShopBundle/Install/Database.php:99</note>
   </file>
   <file original="src/PrestaShopBundle/Install/Install.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
+      <trans-unit id="13cd0b09fa253a2b524ca2345638aacf" approved="yes">
+        <source>%file% file is not writable (check permissions)</source>
+        <target xml:lang="ko">%file% 파일은 쓸 수 없습니다 (권한 확인)</target>
+        <note>Context:
+File: src/PrestaShopBundle/Install/Install.php:139</note>
+      </trans-unit>
+      <trans-unit id="5b0aceda64c33fa187bdd138c42de909" approved="yes">
+        <source>%folder% folder is not writable (check permissions)</source>
+        <target xml:lang="ko">%folder% 폴더는 쓸 수 없습니다 (권한 확인)</target>
+        <note>Context:
+File: src/PrestaShopBundle/Install/Install.php:146</note>
+      </trans-unit>
       <trans-unit id="b63440f4a2f5faa849b821e433c85e53" approved="yes">
         <source>Cannot write settings file</source>
         <target xml:lang="ko">설정 파일을 쓸 수 없습니다</target>
@@ -1069,6 +1087,12 @@ File: src/PrestaShopBundle/Install/Install.php:552</note>
         <target xml:lang="ko">관리 계정을 생성할 수 없습니다</target>
         <note>Context:
 File: src/PrestaShopBundle/Install/Install.php:819</note>
+      </trans-unit>
+      <trans-unit id="e1120cceb6bcfd9596161e3912b2ad9d" approved="yes">
+        <source>"%class%" must be an instance of "InstallXmlLoader"</source>
+        <target xml:lang="ko">"%class%"는 하나의 "InstallXmlLoader"의 인스턴스가 되야 합니다</target>
+        <note>Context:
+File: src/PrestaShopBundle/Install/Install.php:1066</note>
       </trans-unit>
     </body>
   </file>
