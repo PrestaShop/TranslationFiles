@@ -18,6 +18,12 @@ File: classes/form/CustomerAddressForm.php:150</note>
         <note>Context:
 File: src/Adapter/Cart/CartPresenter.php:335</note>
       </trans-unit>
+      <trans-unit id="2194aaec8cc7086ab0e93f74547e5f53" approved="yes">
+        <source>Subtotal</source>
+        <target xml:lang="ca">Subtotal</target>
+        <note>Context:
+File: src/Adapter/Cart/CartPresenter.php:293</note>
+      </trans-unit>
       <trans-unit id="104d9898c04874d0fbac36e125fa1369" approved="yes">
         <source>Discount</source>
         <target xml:lang="ca">Descompte</target>
@@ -65,6 +71,12 @@ File: src/Adapter/Cart/CartPresenter.php:362</note>
         <target xml:lang="ca">Total (sense impostos)</target>
         <note>Context:
 File: src/Adapter/Cart/CartPresenter.php:368</note>
+      </trans-unit>
+      <trans-unit id="7e0eb131cbb6280fe2b38edf92a3bcc5" approved="yes">
+        <source>1 item</source>
+        <target xml:lang="ca">1 producte</target>
+        <note>Context:
+File: src/Adapter/Cart/CartPresenter.php:379</note>
       </trans-unit>
       <trans-unit id="2bd544f123f671c597c4b330ef05b5da" approved="yes">
         <source>A minimum shopping cart total of %amount% (tax excl.) is required to validate your order. Current cart total is %total% (tax excl.).</source>
@@ -136,21 +148,45 @@ File: themes/classic/templates/customer/history.tpl:43</note>
   </file>
   <file original="classes/checkout/CheckoutDeliveryStep.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      <trans-unit id="d62106dfcdba5cacd1a5f5efe9cefc79">
+      <trans-unit id="d62106dfcdba5cacd1a5f5efe9cefc79" approved="yes">
         <source> (additional cost of %giftcost% %taxlabel%)</source>
-        <target xml:lang="ca" state="needs-translation"> </target>
+        <target xml:lang="ca"> (cost addicional de %giftcost% %taxlabel%)</target>
         <note>Context:
 File: classes/checkout/CheckoutDeliveryStep.php:113</note>
+      </trans-unit>
+      <trans-unit id="882ed1e831a6175e4a3dd2c09faa225c" approved="yes">
+        <source>I would like my order to be gift wrapped %cost%</source>
+        <target xml:lang="ca">M'agradaria que la meva comanda sigui embolicada com a regal %cost%</target>
+        <note>Context:
+File: classes/checkout/CheckoutDeliveryStep.php:180</note>
       </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/checkout/_partials/order-final-summary.tpl" source-language="en" target-language="ca" datatype="plaintext">
     <body>
+      <trans-unit id="49ffd9480effff979143d2e8d38931c4" approved="yes">
+        <source>Shipping Method</source>
+        <target xml:lang="ca">Mètode d'enviament</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/order-final-summary.tpl:62</note>
+      </trans-unit>
       <trans-unit id="284b47b0bb63ae2df3b29f0e691d6fcf" approved="yes">
         <source>Addresses</source>
         <target xml:lang="ca">Adreces</target>
         <note>Context:
 File: themes/classic/templates/checkout/_partials/order-final-summary.tpl:35</note>
+      </trans-unit>
+      <trans-unit id="7ce3a11073ffba68bd1e83e243aaabf7" approved="yes">
+        <source>Please check your order before payment</source>
+        <target xml:lang="ca">Reviseu la vostra comanda abans de fer el pagament</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/order-final-summary.tpl:28</note>
+      </trans-unit>
+      <trans-unit id="f2a5a4ccf14820292a27cca1c8cab12e" approved="yes">
+        <source>Your Delivery Address</source>
+        <target xml:lang="ca">Adreça d'entrega</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/order-final-summary.tpl:44</note>
       </trans-unit>
     </body>
   </file>
@@ -188,7 +224,12 @@ File: controllers/front/DiscountController.php:162</note>
   </file>
   <file original="controllers/front/GuestTrackingController.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
+      <trans-unit id="8bbbace7ffb26d61b400c72ffe493f4d" approved="yes">
+        <source>Guest order tracking</source>
+        <target xml:lang="ca">Seguiment d'enviaments d'usuaris invitats</target>
+        <note>Context:
+File: controllers/front/GuestTrackingController.php:151</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Order/OrderPresenter.php" source-language="en" target-language="ca" datatype="plaintext">
@@ -225,7 +266,12 @@ File: modules/ps_shoppingcart/modal.tpl:4</note>
   </file>
   <file original="themes/classic/templates/catalog/_partials/product-add-to-cart.tpl" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
+      <trans-unit id="21cf667b2d56747effd90b0333c6813c" approved="yes">
+        <source>The minimum purchase order quantity for the product is %quantity%.</source>
+        <target xml:lang="ca">La quantitat mínima de compra d'aquest producte és de %quantity%.</target>
+        <note>Context:
+File: themes/classic/templates/catalog/_partials/product-add-to-cart.tpl:77</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/customer/order-return.tpl" source-language="en" target-language="ca" datatype="plaintext">
@@ -352,6 +398,18 @@ File: themes/classic/templates/checkout/_partials/steps/payment.tpl:31</note>
         <note>Context:
 File: themes/classic/templates/checkout/_partials/steps/payment.tpl:75</note>
       </trans-unit>
+      <trans-unit id="3a31d70f8c2eb35a29f6c58e9664cd7f" approved="yes">
+        <source>Please make sure you've chosen a [1]payment method[/1] and accepted the [2]terms and conditions[/2].</source>
+        <target xml:lang="ca">Assegureu-vos que heu escollit un [1]mètode de pagament[/1] i que heu acceptat els [2]termes i condicions[/2].</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/steps/payment.tpl:126</note>
+      </trans-unit>
+      <trans-unit id="dde6c860ae1ac6573875352abf1822ef" approved="yes">
+        <source>No payment needed for this order</source>
+        <target xml:lang="ca">No es requereix cap pagament per aquesta comanda</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/steps/payment.tpl:8</note>
+      </trans-unit>
       <trans-unit id="5486191906ec27c1c4bb5bd3e46b3442" approved="yes">
         <source>Order with an obligation to pay</source>
         <target xml:lang="ca">És obligatori pagar</target>
@@ -384,6 +442,12 @@ File: themes/classic/templates/checkout/_partials/steps/personal-information.tpl
         <note>Context:
 File: themes/classic/templates/checkout/_partials/steps/addresses.tpl:36</note>
       </trans-unit>
+      <trans-unit id="dc024b376ebf01abd90cf4d5e4dca1c7" approved="yes">
+        <source>The selected address will be used as your personal address (for invoice).</source>
+        <target xml:lang="ca">L'adreça seleccionada s'utilitzarà com la vostra adreça personal (per a la factura).</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/steps/addresses.tpl:45</note>
+      </trans-unit>
       <trans-unit id="313d7cbfa2b3c25f09d69ad7e40974a7" approved="yes">
         <source>Billing address differs from shipping address</source>
         <target xml:lang="ca">L'adreça fiscal és diferent de l'adreça d'entrega</target>
@@ -396,11 +460,22 @@ File: themes/classic/templates/checkout/_partials/steps/addresses.tpl:82</note>
         <note>Context:
 File: themes/classic/templates/checkout/_partials/steps/addresses.tpl:91</note>
       </trans-unit>
+      <trans-unit id="56d0ed7cd789dd772be59aa6b1e437de" approved="yes">
+        <source>The selected address will be used both as your personal address (for invoice) and as your delivery address.</source>
+        <target xml:lang="ca">L'adreça seleccionada s'utilitzara tant com a adreça personal (per a la factura) com a adreça d'entrega.</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/steps/addresses.tpl:41</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/StarterTheme/templates/checkout/_partials/steps/addresses.tpl" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
+      <trans-unit id="59123a64986f5a831723020061400054" approved="yes">
+        <source>The selected address will be used both as your personal address (for invoice) and as your shipping address.</source>
+        <target xml:lang="ca">L'adreça seleccionada s'utilitzarà com adreça personal (per a la factura) i com adreça d'enviament.</target>
+        <note>Context:
+File: themes/StarterTheme/templates/checkout/_partials/steps/addresses.tpl:41</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/checkout/_partials/cart-voucher.tpl" source-language="en" target-language="ca" datatype="plaintext">
@@ -426,6 +501,24 @@ File: themes/classic/templates/checkout/_partials/cart-voucher.tpl:47</note>
         <target xml:lang="ca">Confirmació de la comanda</target>
         <note>Context:
 File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:4</note>
+      </trans-unit>
+      <trans-unit id="ded7f0d0397bb3138bfe1e40dcdb560a" approved="yes">
+        <source>Order reference %reference%</source>
+        <target xml:lang="ca">Referència de comanda %reference%</target>
+        <note>Context:
+File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:59</note>
+      </trans-unit>
+      <trans-unit id="c955ed92e576b55e052cc5a88d92c93e" approved="yes">
+        <source>Payment method %method_name%</source>
+        <target xml:lang="ca">Mètode de pagament %method_name%</target>
+        <note>Context:
+File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:60</note>
+      </trans-unit>
+      <trans-unit id="286b82fc158785899ecbe309809b7057" approved="yes">
+        <source>Shipping method %method_name%</source>
+        <target xml:lang="ca">Mètode d'enviament %method_name%</target>
+        <note>Context:
+File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:62</note>
       </trans-unit>
     </body>
   </file>
@@ -454,6 +547,12 @@ File: themes/classic/templates/checkout/order-confirmation.tpl:23</note>
         <target xml:lang="ca">Detalls de la comanda</target>
         <note>Context:
 File: themes/classic/templates/checkout/order-confirmation.tpl:58</note>
+      </trans-unit>
+      <trans-unit id="cc6f3e2192d71f54d7b181d91f04d165" approved="yes">
+        <source>Save time on your next order, sign up now</source>
+        <target xml:lang="ca">Enregistreu-vos i estalvieu temps en la propera compra</target>
+        <note>Context:
+File: themes/classic/templates/checkout/order-confirmation.tpl:94</note>
       </trans-unit>
       <trans-unit id="00cd7d0890cd975da95799c32764c9ce" approved="yes">
         <source>Order reference: %reference%</source>
@@ -600,6 +699,12 @@ File: themes/classic/templates/checkout/_partials/customer-form.tpl:30</note>
         <target xml:lang="ca">(opcional)</target>
         <note>Context:
 File: themes/classic/templates/checkout/_partials/customer-form.tpl:30</note>
+      </trans-unit>
+      <trans-unit id="c8334d474f091b12e87cf4f8632269f3" approved="yes">
+        <source>And save time on your next order!</source>
+        <target xml:lang="ca">I estalvieu temps en la propera comanda!</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/customer-form.tpl:32</note>
       </trans-unit>
     </body>
   </file>

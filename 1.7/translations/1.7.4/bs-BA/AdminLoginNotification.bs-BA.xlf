@@ -2,6 +2,12 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="controllers/admin/AdminLoginController.php" source-language="en" target-language="bs" datatype="plaintext">
     <body>
+      <trans-unit id="64bebbfcf422901ff5898cd0d0f92ba4" approved="yes">
+        <source>SSL is activated. However, your IP is allowed to enter unsecure mode for maintenance or local IP issues.</source>
+        <target xml:lang="bs">SSL je aktiviran. Ipak, Vaš IP može koristiti i nesigurni način za održavanje ili lokalni IP.</target>
+        <note>Context:
+File: controllers/admin/AdminLoginController.php:75</note>
+      </trans-unit>
       <trans-unit id="0c38dbc5d2689404ee34e0fc2da845cf" approved="yes">
         <source>SSL is activated. Please connect using the following link to [1]log in to secure mode (https://)[/1]</source>
         <target xml:lang="bs">SSL je aktiviran. Molimo spojite se koristeći ovaj link za [1]prijavu u sigurnom modu (https://)[/1]</target>
@@ -19,6 +25,13 @@ File: controllers/admin/AdminLoginController.php:203</note>
         <target xml:lang="bs">Ovaj zaposlenik više ne upravlja niti jednom trgovinom (trgovina je obrisana ili su uklonjene dozvole).</target>
         <note>Context:
 File: controllers/admin/AdminLoginController.php:206</note>
+      </trans-unit>
+      <trans-unit id="f197511588fa1467e957bf6c48539e88" approved="yes">
+        <source>This account does not exist.</source>
+        <target xml:lang="bs">Ovaj koris. račun ne postoji.</target>
+        <note>Context:
+File: controllers/admin/AdminLoginController.php:334
+ Comment: check matching employee id with its email</note>
       </trans-unit>
       <trans-unit id="b2e73e907ab40d78981c8bbfd0e0881f" approved="yes">
         <source>You can reset your password every %interval% minute(s) only. Please try again later.</source>
@@ -76,6 +89,12 @@ File: controllers/admin/AdminLoginController.php:330</note>
 File: controllers/admin/AdminLoginController.php:339
  Comment: To update password, we must have the temporary reset token that matches.</note>
       </trans-unit>
+      <trans-unit id="2a8fac0ed3799588798c1b531a2b65ef" approved="yes">
+        <source>An error occurred while attempting to change your password.</source>
+        <target xml:lang="bs">Dogodila se greška tokom promjene lozinke.</target>
+        <note>Context:
+File: controllers/admin/AdminLoginController.php:387</note>
+      </trans-unit>
       <trans-unit id="30d1a8e4c44146dcccec7b7a11db6d6e" approved="yes">
         <source>The password has been changed successfully.</source>
         <target xml:lang="bs">Lozinka je uspješno promijenjena.</target>
@@ -86,7 +105,12 @@ File: controllers/admin/AdminLoginController.php:381</note>
   </file>
   <file original="admin-dev/themes/default/template/header.tpl" source-language="en" target-language="bs" datatype="plaintext">
     <body>
-      
+      <trans-unit id="9ff082251dea737459c9f32e73ca7a62" approved="yes">
+        <source>For security reasons, you must also delete the /install folder.</source>
+        <target xml:lang="bs">Iz sigurnosnih razloga, morate izbrisati /install direktorij.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/header.tpl:388</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/login/content.tpl" source-language="en" target-language="bs" datatype="plaintext">
@@ -114,6 +138,24 @@ File: admin-dev/themes/default/template/controllers/login/content.tpl:145</note>
         <target xml:lang="bs">Iz sigurnosnih razloga, ne možete se spojiti na administraciju dok imate:</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/login/content.tpl:150</note>
+      </trans-unit>
+      <trans-unit id="362b56674d07160fab60725a927bbf13" approved="yes">
+        <source>deleted the /install folder</source>
+        <target xml:lang="bs">obrisali /install direktorij</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/login/content.tpl:153</note>
+      </trans-unit>
+      <trans-unit id="83c8a48abe6dd9b6fcc44986069b36dd" approved="yes">
+        <source>renamed the /admin folder (e.g. %s)</source>
+        <target xml:lang="bs">/admin direktorij je preimenovan (npr. %s)</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/login/content.tpl:156</note>
+      </trans-unit>
+      <trans-unit id="1a728f70318152b93421d59a6f7b4110" approved="yes">
+        <source>Please then access this page by the new URL (e.g. %s)</source>
+        <target xml:lang="bs">Molimo pristupite ovoj strani s novog linka (npr. %s)</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/login/content.tpl:161</note>
       </trans-unit>
     </body>
   </file>
