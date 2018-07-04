@@ -234,6 +234,12 @@ File: controllers/admin/AdminProductsController.php:1933</note>
         <note>Context:
 File: controllers/admin/AdminProductsController.php:1980</note>
       </trans-unit>
+      <trans-unit id="9ca63429d31c3e720001675dd8535a9d" approved="yes">
+        <source>The %name% field is required.</source>
+        <target xml:lang="cs">Pole %name% je vyžadováno.</target>
+        <note>Context:
+File: controllers/admin/AdminProductsController.php:2006</note>
+      </trans-unit>
       <trans-unit id="172dfd675cd344c66724042519cc4df1" approved="yes">
         <source>The %1$s field (%2$s) is invalid.</source>
         <target xml:lang="cs">Pole %1$s (%2$s) je neplatné.</target>
@@ -444,11 +450,29 @@ File: classes/controller/AdminController.php:1660
         <note>Context:
 File: classes/controller/AdminController.php:1668</note>
       </trans-unit>
+      <trans-unit id="2782e6f430c2658c79aecfcecdc0d0e8" approved="yes">
+        <source>The field %field_name% is required at least in %lang%.</source>
+        <target xml:lang="cs">Pole %field_name% je vyžadováno alespoň v %lang%.</target>
+        <note>Context:
+File: classes/controller/AdminController.php:3623</note>
+      </trans-unit>
+      <trans-unit id="114eadc70de249729e9287a6b450c6e0" approved="yes">
+        <source>The %field_name% field (%lang%) is invalid.</source>
+        <target xml:lang="cs">Pole %field_name% (%lang%) je neplatné.</target>
+        <note>Context:
+File: classes/controller/AdminController.php:3656</note>
+      </trans-unit>
       <trans-unit id="b4186b9ed7c957a1cd9f4e7ce916e603" approved="yes">
         <source>%s: Incorrect value</source>
         <target xml:lang="cs">%s: nesprávná hodnota</target>
         <note>Context:
 File: classes/controller/AdminController.php:3851</note>
+      </trans-unit>
+      <trans-unit id="7c422404cb037e6781b5a553060670a6" approved="yes">
+        <source>Can't delete #%id%</source>
+        <target xml:lang="cs">Nelze odstranit #%id%</target>
+        <note>Context:
+File: classes/controller/AdminController.php:3982</note>
       </trans-unit>
       <trans-unit id="c87956ad745e55231c633c03fe0f0d5b" approved="yes">
         <source>An error occurred while assigning a zone to the selection.</source>
@@ -607,6 +631,12 @@ File: src/PrestaShopBundle/Controller/Admin/ProductController.php:1231</note>
         <target xml:lang="cs">Nemáte dostatečná práva pro vložení.</target>
         <note>Context:
 File: src/PrestaShopBundle/Controller/Admin/ProductController.php:1239</note>
+      </trans-unit>
+      <trans-unit id="d3ee9a41133f8fc3c83c91d09053f249" approved="yes">
+        <source>The value of the PHP.ini setting "max_input_vars" must be increased to %value% in order to be able to submit the product form.</source>
+        <target xml:lang="cs">Hodnota PHP.ini nastavení "max_input_vars" musí být zvýšena o %value% aby bylo možné odeslat formulář produktu.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/ProductController.php:506</note>
       </trans-unit>
     </body>
   </file>
@@ -966,9 +996,9 @@ File: controllers/admin/AdminMetaController.php:589</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2098</note>
       </trans-unit>
-      <trans-unit id="3d52f8b2b1a67aa8740b72b3752d54f3">
+      <trans-unit id="3d52f8b2b1a67aa8740b72b3752d54f3" approved="yes">
         <source>Incorrect value for "Depends on stock" for product %name% </source>
-        <target xml:lang="cs" state="needs-translation"> </target>
+        <target xml:lang="cs">Neplatná hodnota "Závisí na skladě" pro produkt %name% </target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2770</note>
       </trans-unit>
@@ -1020,7 +1050,12 @@ File: controllers/admin/AdminLocalizationController.php:198</note>
   </file>
   <file original="controllers/admin/AdminRequestSqlController.php" source-language="en" target-language="cs" datatype="plaintext">
     <body>
-      
+      <trans-unit id="0b5512610b0c8548345f37a58bf51360" approved="yes">
+        <source>"%key%" does not exist.</source>
+        <target xml:lang="cs">"%key%" není k dispozici.</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:519</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminShopUrlController.php" source-language="en" target-language="cs" datatype="plaintext">
@@ -1073,6 +1108,36 @@ File: controllers/admin/AdminDashboardController.php:347</note>
   </file>
   <file original="controllers/admin/AdminTranslationsController.php" source-language="en" target-language="cs" datatype="plaintext">
     <body>
+      <trans-unit id="e298a0bc9a35d45798e28c082dfc1dfa" approved="yes">
+        <source>"%type%" does not exist.</source>
+        <target xml:lang="cs">"%type%" není k dispozici.</target>
+        <note>Context:
+File: controllers/admin/AdminTranslationsController.php:113</note>
+      </trans-unit>
+      <trans-unit id="40f5c232e433d178a4f912b3092d7df1" approved="yes">
+        <source>Directory "%folder%" cannot be created</source>
+        <target xml:lang="cs">Adresář "%folder%" nelze vytvořit</target>
+        <note>Context:
+File: controllers/admin/AdminTranslationsController.php:336</note>
+      </trans-unit>
+      <trans-unit id="80034ab2323115584ed4c5b05e222f60" approved="yes">
+        <source>File "%file%" cannot be created</source>
+        <target xml:lang="cs">Soubor "%file%" nelze vytvořit</target>
+        <note>Context:
+File: controllers/admin/AdminTranslationsController.php:338</note>
+      </trans-unit>
+      <trans-unit id="6b12f160f2bb3c7dea01bd96a223d80e" approved="yes">
+        <source>Cannot write this file: "%folder%"</source>
+        <target xml:lang="cs">Nelze zapsat tento soubor: "%folder%"</target>
+        <note>Context:
+File: controllers/admin/AdminTranslationsController.php:388</note>
+      </trans-unit>
+      <trans-unit id="f0566c73cce29920f99fda8819745804" approved="yes">
+        <source>This file must be writable: %file%</source>
+        <target xml:lang="cs">Tento soubor musí být zapisovatelný: %file%</target>
+        <note>Context:
+File: controllers/admin/AdminTranslationsController.php:515</note>
+      </trans-unit>
       <trans-unit id="bb5ef82c8be2494c733ac77920bc5c72" approved="yes">
         <source>No file has been selected.</source>
         <target xml:lang="cs">Nebyl vybrán žádný soubor</target>
@@ -1082,6 +1147,12 @@ File: controllers/admin/AdminTranslationsController.php:759</note>
       <trans-unit id="e594c33758771c458a7f80e9afdf7e55" approved="yes">
         <source>The server does not have permissions for writing.</source>
         <target xml:lang="cs">Server nemá povolen zápis.</target>
+        <note>Context:
+File: controllers/admin/AdminTranslationsController.php:795</note>
+      </trans-unit>
+      <trans-unit id="65dd53e33c17621f58bcc99be967814a" approved="yes">
+        <source>Please check rights for %file%</source>
+        <target xml:lang="cs">Zkontrolujte práva pro %file%</target>
         <note>Context:
 File: controllers/admin/AdminTranslationsController.php:795</note>
       </trans-unit>
@@ -1237,12 +1308,22 @@ File: src/PrestaShopBundle/Controller/Admin/AddonsController.php:80</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/ShopParameters/PreferencesController.php" source-language="en" target-language="cs" datatype="plaintext">
     <body>
-      
+      <trans-unit id="df3c280f0aaf0cb0d5c25ab322a8bcf9" approved="yes">
+        <source>You do not have permission to update this.</source>
+        <target xml:lang="cs">Nemáte oprávnění k úpravě tohoto.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/Configure/ShopParameters/PreferencesController.php:109</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/MemcacheServerController.php" source-language="en" target-language="cs" datatype="plaintext">
     <body>
-      
+      <trans-unit id="b07242082d4a24b63951185a1bae15bb" approved="yes">
+        <source>You do not have permission to create this.</source>
+        <target xml:lang="cs">Nemáte oprávnění k vytvoření tohoto.</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/MemcacheServerController.php:90</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/access/helpers/form/form.tpl" source-language="en" target-language="cs" datatype="plaintext">
