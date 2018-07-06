@@ -13,6 +13,7 @@ $_MODULE['<{blockcategories}prestashop>blockcategories_c6d333d07d30f7b4c31a94bbd
 $_MODULE['<{blockcategories}prestashop>blockcategories_89b278a71f2be5f620307502326587a0'] = 'Categoria d\'inici';
 $_MODULE['<{blockcategories}prestashop>blockcategories_62381fc27e62649a16182a616de3f7ea'] = 'Categoria actual';
 $_MODULE['<{blockcategories}prestashop>blockcategories_52b68aaa602d202c340d9e4e9157f276'] = 'Categoria pare';
+$_MODULE['<{blockcategories}prestashop>blockcategories_f225631c1a6f71e99cc779f6bbf06dd4'] = 'Categoria actual, tret que no tingui subcategories, en aquest cas s\'utilitza la categoria primària de la categoria actual';
 $_MODULE['<{blockcategories}prestashop>blockcategories_19561e33450d1d3dfe6af08df5710dd0'] = 'Profunditat màxima';
 $_MODULE['<{blockcategories}prestashop>blockcategories_584d4e251b6f778eda9cfc2fc756b0b0'] = 'Establiu la màxima profunditat de subnivells de categoria mostrats en aquest bloc (0 = infinits).';
 $_MODULE['<{blockcategories}prestashop>blockcategories_971fd8cc345d8bd9f92e9f7d88fdf20c'] = 'Dinàmic';

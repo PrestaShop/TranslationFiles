@@ -3,6 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{onboarding}prestashop>onboarding_403078410560ac74cd18391f1fbf55fa'] = 'Tot en ordre';
 $_MODULE['<{onboarding}prestashop>onboarding_76ddbb9f8bbe2624552fd553d0f9d040'] = 'El mòdul d\'incorporació saluda els usuaris de primera vegada al seu càrrec PrestaShop enrere: a través d\'una petita interfície lúdica, es mostra a l\'usuari com posar en marxa el seu / la seva botiga en diversos passos.';
 $_MODULE['<{onboarding}prestashop>backoffice_top_c50e83d3857e41ea59189e385d4ed024'] = 'Hey %s, espera a la seva botiga virtual. [1]Segueix la guia i fer les primeres passes amb la seva botiga online!';
 $_MODULE['<{onboarding}prestashop>backoffice_top_79b0fcd70b51a3065ebbfe7e953eae38'] = 'Consulteu el nostre catàleg per obtenir un nou tema o personalitzar el tema per defecte actual. [1] Afegiu el seu logotip, jugar en fonts i colors... Donar a aquest aspecte especial a la seva botiga!';
@@ -12,9 +13,14 @@ $_MODULE['<{onboarding}prestashop>backoffice_top_0429b4766bfd2e6540dc3cb5537387f
 $_MODULE['<{onboarding}prestashop>backoffice_top_e62f682bcf70125635d8915ea127fe9b'] = 'Si vostè sent que necessita més informació, pot fer una ullada a PrestaShop Documentació: feu clic a "Ajuda" a la cantonada superior dreta del seu back office!';
 $_MODULE['<{onboarding}prestashop>backoffice_top_d26019e187250752a24c5f07694bda99'] = 'Ha completat tots els primers passos essencials per configurar la seva botiga en línia. Pot repetir aquests passos si vostè té més productes, mètodes de pagament o socis enviament a afegir. [1]Per aprofundir més en la configuració de la seva botiga, vostè ha de llegir els [2]"Els primers passos amb PrestaShop 1.6" [/2] capítol de la Guia de l\'usuari de PrestaShop. [1]Una vegada que estigui segur que la seva botiga està disposat a vendre els seus productes, feu clic al botó Inicia per fer que la seva botiga oberta al públic.';
 $_MODULE['<{onboarding}prestashop>backoffice_top_82269147f55aa394633d8ffab65a8524'] = 'Començem!';
+$_MODULE['<{onboarding}prestashop>backoffice_top_d51786a260fac2376360796f7c79b076'] = 'Estic molt bé, anem endavant!';
 $_MODULE['<{onboarding}prestashop>backoffice_top_3eb86a3e1dc693b55502d7391aae5cbf'] = 'Ja estic, porta\'m al següent pas';
 $_MODULE['<{onboarding}prestashop>backoffice_top_d592a24b3a6f07d1731cc5e82247ea89'] = 'Done\'m una volta: Inicia\'t amb PrestaShop';
+$_MODULE['<{onboarding}prestashop>backoffice_top_de01a1b72dcfe775cd72a5ff7af650a9'] = 'Personalitzeu l\'aspecte i la sensació de la vostra botiga';
 $_MODULE['<{onboarding}prestashop>backoffice_top_28e28cc9b29cb7be024359a92ed55282'] = 'Afegeix els teus primers productes';
+$_MODULE['<{onboarding}prestashop>backoffice_top_9067f937e50eccdb6e7aeaf92cd054e1'] = 'Teniu preparada la vostra botiga per pagaments';
+$_MODULE['<{onboarding}prestashop>backoffice_top_e2a122121719451136536f8a97406f8a'] = 'Ara esteu preparats per iniciar la vostra botiga.';
+$_MODULE['<{onboarding}prestashop>backoffice_top_587b4c19feb558e98b1b9cbab054c8d6'] = 'Uns quants passos abans de començar!';
 $_MODULE['<{onboarding}prestashop>backoffice_top_7eeabe2ad5cb52ab41a2760232e5589e'] = 'Anem a crear els primers productes';
 $_MODULE['<{onboarding}prestashop>backoffice_top_c88d196f22ac2187d88469d9faaad8fd'] = 'Escolliu el sistema d\'enviament';
 $_MODULE['<{onboarding}prestashop>backoffice_top_186ec838194777c517b25acc5728ffad'] = 'Visca!';
