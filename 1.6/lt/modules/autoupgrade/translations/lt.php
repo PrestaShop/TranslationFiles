@@ -246,7 +246,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7e6f1194307c585ca2e97f81c3db
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3c2e3b812ebc9bc95ccd9bf9086c4af7'] = 'Įvyko klaida per duomenų bazės atnaujinimą.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_257f5523f283710c6859d8f425a0c657'] = 'Duomenų bazės atnaujinta sėkmingai';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9dcf84f429818d396d05335d52ef5f42'] = '[PRALEISTI] direktorija "%s" neegzistuoja ir negali būti išvalyta.';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_4cb8d96f333a2339fe544b96ee2740de'] = '[VALYMO TALPYKLA] %s failas buvo pašalintas';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_4cb8d96f333a2339fe544b96ee2740de'] = '[VALOMAS KEŠAS] %s failas buvo pašalintas';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9c7e0ba2c6ecb11af7f39843bbc18ff8'] = 'Atnaujinimo metu nustatyti įspėjimai.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c4615fc8cb7877b074cbe9813cd742b1'] = 'Duomenų bazės atnaujinimas baigtas';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f08c0f19e801344fe73ef0a0f4cd1dcb'] = 'Klaida bandant rašymo režimu atidaryti failą settings.inc.php';
