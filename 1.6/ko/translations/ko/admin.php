@@ -7,6 +7,7 @@ $_LANGADM['AdminAddressesd3b206d196cd6be3a2764c1fb90b200f'] = '선택 삭제';
 $_LANGADM['AdminAddressese25f0ecd41211b01c83e5fec41df4fe7'] = '선택한 항목을 삭제할까요?';
 $_LANGADM['AdminAddressesb718adec73e04ce3ec720dd11a06a308'] = 'ID';
 $_LANGADM['AdminAddresses77587239bf4c54ea493c7033e1dbf636'] = '성';
+$_LANGADM['AdminAddressesea318a4ad37f0c2d2c368e6c958ed551'] = '한국으로 들어오는 해외특송택배 통관법변경으로 제품 수령인의 주민등록번호가 통관시 인천세관에 제출되어야 합니다. 목적은 불법제품 밀반입, 마약밀반입 등 해외특송택배를 이용한 범죄를 막고자 도입된 새로운 통관법 변경사항입니다. 회원 가입 시 기재해주신 개인정보는 세관제출용으로만 사용됩니다.';
 $_LANGADM['AdminAddresses6311ae17c1ee52b36e68aaf4ad066387'] = '기타';
 $_LANGADM['AdminAddresseseeabead01c6c6f25f22bf0b041df58a9'] = '적어도 한 개 이상의 전화번호를 등록해주세요.';
 $_LANGADM['AdminAdminPreferences99059a2047f475cdc6428076e3360134'] = '새로운 모듈과 업데이트가 모듈 페이지에 나타납니다.';

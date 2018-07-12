@@ -348,7 +348,7 @@ $_LANG['order-carrier-advanced_3d113dda516dec82953c7ef1b770278c'] = '이 상품�
 $_LANG['order-carrier-advanced_2d51d96d770cc2244be31a85e608de19'] = '가능한 배송업체가 없습니다.';
 $_LANG['order-carrier-advanced_0383858ad9a560ca2ecb8066c1681807'] = '선택하신 상품은 배송할 수 없읍니다: 무게가 너무 많이 나갑니다. 장바구니 내용을 수정하여 무게를 줄여주십시오.';
 $_LANG['order-carrier-advanced_942649e42a59a56bd717acc3fed307b8'] = '선택하신 상품은 배송할 수 없습니다. 장바구니 내용을 수정해 주세요.';
-$_LANG['order-carrier-advanced_7c013b3defbf4cec9cd69f2e99a8d84c'] = '선택하신 상품은 배송할 수 없읍니다: 상품의 크기가 배송에 적합하지 않습니다. 장바구니 내용을 수정하여 크기를 줄여 주십시오.';
+$_LANG['order-carrier-advanced_7c013b3defbf4cec9cd69f2e99a8d84c'] = '선택하신 상품은 배송할 수 없습니다: 상품의 크기가 배송에 적합하지 않습니다. 장바구니 내용을 수정하여 크기를 줄여 주십시오.';
 $_LANG['order-carrier-advanced_a6cc8cbe3fa07d0fca172c36a603332c'] = '"%s" 주소에 사용가능한 배송업체가 없습니다.';
 $_LANG['order-carrier-advanced_bd5b551d1757a856d9f2d01dc7850080'] = '메시지 남기기';
 $_LANG['order-carrier-advanced_d93651d012e77dac5581b08db33195b2'] = '주문에 대한 의견을 추가하려면, 아래 항목에 작성해주세요.';
@@ -379,11 +379,9 @@ $_LANG['order-carrier-opc-advanced_b24ce0cd392a5b0b8dedc66c25213594'] = '무료'
 $_LANG['order-carrier-opc-advanced_23753c5016cd82e4ec63ba61cd2a13f5'] = '이 상품에는:';
 $_LANG['order-carrier-opc-advanced_3d113dda516dec82953c7ef1b770278c'] = '이 상품들에는:';
 $_LANG['order-carrier-opc-advanced_2d51d96d770cc2244be31a85e608de19'] = '배송회사가 없습니다.';
-$_LANG['order-carrier-opc-advanced_0383858ad9a560ca2ecb8066c1681807'] = '이 상품선택은 배송이 가능하지 않습니다(): 너무 무겁습니다.
-당신의 장바구니를 조금 더 가볍게 해주세요.';
-$_LANG['order-carrier-opc-advanced_942649e42a59a56bd717acc3fed307b8'] = '이 상품선택은 배송이 가능하지 않습니다(): 장바구니를 수정 부탁드립니다.';
-$_LANG['order-carrier-opc-advanced_7c013b3defbf4cec9cd69f2e99a8d84c'] = '이 상품선택은 배송이 가능하지 않습니다(): 사이즈가 맞지 않습니다.
-장바구니의 상품 사이즈를 줄여주세요.';
+$_LANG['order-carrier-opc-advanced_0383858ad9a560ca2ecb8066c1681807'] = '선택하신 상품은 배송할 수 없습니다: 무게가 너무 많이 나갑니다. 장바구니 내용을 수정하여 무게를 줄여주십시오.';
+$_LANG['order-carrier-opc-advanced_942649e42a59a56bd717acc3fed307b8'] = '선택하신 상품은 배송할 수 없습니다. 장바구니 내용을 수정해 주세요.';
+$_LANG['order-carrier-opc-advanced_7c013b3defbf4cec9cd69f2e99a8d84c'] = '선택하신 상품은 배송할 수 없습니다: 상품의 크기가 배송에 적합하지 않습니다. 장바구니 내용을 수정하여 크기를 줄여 주십시오.';
 $_LANG['order-carrier-opc-advanced_a6cc8cbe3fa07d0fca172c36a603332c'] = '"%s" 주소로 배송 가능한 회사가 없습니다.';
 $_LANG['order-carrier-opc-advanced_bd5b551d1757a856d9f2d01dc7850080'] = '메세지를 남겨주세요.';
 $_LANG['order-carrier-opc-advanced_d93651d012e77dac5581b08db33195b2'] = '주문에 대한 의견을 추가하려면, 아래 항목에 작성해주세요.';
