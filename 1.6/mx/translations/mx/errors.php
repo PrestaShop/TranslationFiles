@@ -110,7 +110,6 @@ $_ERRORS['e96841b0cb2396574006c1e17a45abec'] = 'Se produjo un error mientras se 
 $_ERRORS['4df3709ec0ff3ceb57341890ccf57641'] = 'Se produjo un error mientras se copiaba la imagen:';
 $_ERRORS['efccf3b0fd1b65f88bd6dfa2821060c8'] = 'Error al actualizar los estatus';
 $_ERRORS['a5a6e6da29a779cece21518a4ba337e2'] = 'El archivo subido excede la directiva post_max_size en php.ini';
-$_ERRORS['2368e33e3e01d53abb9b60061ab83903'] = 'El archivo subido excede la directiva upload_max_filesize en php.ini';
 $_ERRORS['893afab09dd032f9c7201bd1f7168a0d'] = 'Archivo (tamaño: %1s) es demasiado grande (max: %2s)';
 $_ERRORS['30fb35f3cf2b6e6e599b30dacc6c19c8'] = 'Imagen demasiado grande (%1$d kb). Tamaño máximo permitido: %2$d kb';
 $_ERRORS['c4ae3afc5d4c01919142f8b39cc5c1c5'] = 'Formato de imagen no reconocido, los formatos permitos son: .gif, .jpg, .png';
