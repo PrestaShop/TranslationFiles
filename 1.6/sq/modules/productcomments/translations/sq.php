@@ -5,6 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{productcomments}prestashop>productcomments_c888438d14855d7d96a2724ee9c306bd'] = 'Parametrat u përditësuan';
 $_MODULE['<{productcomments}prestashop>productcomments_254f642527b45bc260048e30704edb39'] = 'Konfigurimi';
+$_MODULE['<{productcomments}prestashop>productcomments_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Aktiv';
 $_MODULE['<{productcomments}prestashop>productcomments_b9f5c797ebbf55adccdd8539a65a0241'] = 'E çaktivizuar';
 $_MODULE['<{productcomments}prestashop>productcomments_c9cc8cce247e49bae79f15173ce97354'] = 'Ruaj';
 $_MODULE['<{productcomments}prestashop>productcomments_655d20c1ca69519ca647684edbb2db35'] = 'I lartë';

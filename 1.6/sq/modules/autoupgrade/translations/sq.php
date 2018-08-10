@@ -124,6 +124,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselftab_3879149292f9af4469cec013785d6dfd
 $_MODULE['<{autoupgrade}prestashop>adminselftab_7b83d3f08fa392b79e3f553b585971cd'] = 'paralajmërim';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_8a3cfd894d57e33c55400fc9d76aa08a'] = 'Kliko këtu për të parë më shumë';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_a92269f5f14ac147a821728c23204c0b'] = 'Fshehe paralajmërimin';
+$_MODULE['<{autoupgrade}prestashop>adminselftab_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Aktiv';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_b9f5c797ebbf55adccdd8539a65a0241'] = 'E çaktivizuar';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_ed75712b0eb1913c28a3872731ffd48d'] = 'Dyfisho';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_bfc18def58cfa50029d149e9b932e974'] = 'Kopjo imazhet gjithashtu?';

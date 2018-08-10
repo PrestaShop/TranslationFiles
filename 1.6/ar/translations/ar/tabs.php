@@ -15,6 +15,7 @@ $_TABS['AdminParentPreferences'] = 'تفضيلات';
 $_TABS['AdminTools'] = 'الإعدادات المتقدمة';
 $_TABS['AdminAdmin'] = 'الإدارة';
 $_TABS['AdminParentStats'] = 'الإحصائيات';
+$_TABS['AdminStock'] = 'المخزون';
 $_TABS['AdminCms'] = 'صفحات CMS';
 $_TABS['AdminCmsCategories'] = 'تصنيفات CMS';
 $_TABS['AdminAttributeGenerator'] = 'توليد الألوان';

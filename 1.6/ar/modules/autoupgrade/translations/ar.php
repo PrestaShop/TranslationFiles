@@ -332,6 +332,10 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5784315a8bcebe79611d3353723e
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_da3cd17bbbbd3ef7da8e817d3c4cdb46'] = 'لقد أتيت من المستقبل! انت تستخدم اصدار احدث من آخر اصدار متوفر!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_762b3814b0c85540ac4be47c7815fc0c'] = 'نسخة بريستاشوب الحالية';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_382b0f5185773fa0f67a8ed8056c7759'] = 'غير متاح';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7926343e047e18778b6819beb8468086'] = 'أنت تستخدم Smarty 3';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a9bf52016ab038b62d072d35039a76b4'] = 'تم إيقاف Smarty 2 في 1.4 وتمت إزالته في 1.5. قد تحتاج إلى ترقية المظهر الحالي أو استخدام واحدة جديدة.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d19581ebc0d99bfda1b0bb789dc65c5f'] = 'Smarty 3 الاستخدام:';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_411d9b409e4b9a6c2db930dae9f1feb1'] = 'تحرير تكوين Smarty الخاص بك';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c7561db7a418dd39b2201dfe110ab4a4'] = 'أبدا';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d6c41259de614f426844d7caeaf532ed'] = 'حدث الصفحة';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a7eca295291f53a23ab7ba0a9c7fd9de'] = 'تم تعطيل هذا الوظيفة.';

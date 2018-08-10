@@ -11,6 +11,7 @@ $_MODULE['<{blockmanufacturer}prestashop>blockmanufacturer_f38f5974cdc23279ffe6d
 $_MODULE['<{blockmanufacturer}prestashop>blockmanufacturer_f4f70727dc34561dfde1a3c529b6205c'] = 'Parametrat';
 $_MODULE['<{blockmanufacturer}prestashop>blockmanufacturer_bfdff752293014f11f17122c92909ad5'] = 'Përdorë një listë me tekst të thjesht';
 $_MODULE['<{blockmanufacturer}prestashop>blockmanufacturer_a7c6946ecc7f4ed19c2691a1e7a28f97'] = 'Shfaq prodhuesit si listë me tekst të thjesht.';
+$_MODULE['<{blockmanufacturer}prestashop>blockmanufacturer_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Aktiv';
 $_MODULE['<{blockmanufacturer}prestashop>blockmanufacturer_b9f5c797ebbf55adccdd8539a65a0241'] = 'E çaktivizuar';
 $_MODULE['<{blockmanufacturer}prestashop>blockmanufacturer_2eef734f174a02ae3d7aaafefeeedb42'] = 'Numri i elementeve për tu shfaqur';
 $_MODULE['<{blockmanufacturer}prestashop>blockmanufacturer_b0fa976774d2acf72f9c62e9ab73de38'] = 'Përdorni një listë rënëse (drop-down)';

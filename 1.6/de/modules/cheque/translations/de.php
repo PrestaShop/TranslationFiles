@@ -14,6 +14,7 @@ $_MODULE['<{cheque}prestashop>cheque_c888438d14855d7d96a2724ee9c306bd'] = 'Einst
 $_MODULE['<{cheque}prestashop>cheque_a60468657881aa431a0a5fccc76258e2'] = 'Zahlung per Scheck';
 $_MODULE['<{cheque}prestashop>cheque_5dd532f0a63d89c5af0243b74732f63c'] = 'Kontaktangaben';
 $_MODULE['<{cheque}prestashop>cheque_4b2f62e281e9a6829c6df0e87d34233a'] = 'Zahlungsempfänger (Name)';
+$_MODULE['<{cheque}prestashop>cheque_dd7bf230fde8d4836917806aff6a6b27'] = 'Straße';
 $_MODULE['<{cheque}prestashop>cheque_0fe62049ad5246bc188ec1bae347269e'] = 'Anschrift, an die der Scheck geschickt werden soll';
 $_MODULE['<{cheque}prestashop>cheque_c9cc8cce247e49bae79f15173ce97354'] = 'Speichern';
 $_MODULE['<{cheque}prestashop>validation_e2b7dec8fa4b498156dfee6e4c84b156'] = 'Zahlungsart nicht verfügbar';

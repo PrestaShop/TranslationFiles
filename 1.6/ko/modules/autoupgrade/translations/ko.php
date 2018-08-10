@@ -78,6 +78,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2399cf4ca7b49f2706f6e147a32e
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c629f24e672b4e1165ebf1c10b5c5c5d'] = '-- 복원할 백업 선택 --';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_06933067aafd48425d67bcb01bba5cb6'] = '수정';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_801ab24683a4a8c433c6eb40c48bcd9d'] = '다운로드';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2ec74fb71dd2f8f0111f2d74bfe7a7b3'] = 'PrestaShop의 캐싱 기능이 비활성화 됨';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c9cc8cce247e49bae79f15173ce97354'] = '저장';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_dc3fd488f03d423a04da27ce66274c1b'] = '경고!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_95095fc4bbc8b42ec512cfb1cfa19d8a'] = '당신은 PHP %s 버전을 사용중입니다. 곧, PrestaShop가 지원하는 최신 PHP 버전은 PHP 5.4가 될 것입니다. 추후를 고려한다면, 지금 PHP 5.4로 업그레이드 하길 권장합니다!';

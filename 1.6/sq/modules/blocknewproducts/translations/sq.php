@@ -14,6 +14,7 @@ $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_3ea7689283770958661c27c
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_85dd6b2059e1ff8fbefcc9cf6e240933'] = 'Numri i ditëve gjatë të cilave produkti do të konsiderohet si \'i ri\'.';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_24ff4e4d39bb7811f6bdf0c189462272'] = 'Shfaq gjithnjë këtë bllok';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_d68e7b860a7dba819fa1c75225c284b5'] = 'Shfaqe bllokun edhe nëse asnjë produkt nuk është në dispozicion.';
+$_MODULE['<{blocknewproducts}prestashop>blocknewproducts_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Aktiv';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_b9f5c797ebbf55adccdd8539a65a0241'] = 'E çaktivizuar';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_c9cc8cce247e49bae79f15173ce97354'] = 'Ruaj';
 $_MODULE['<{blocknewproducts}prestashop>blocknewproducts_home_0af0aac2e9f6bd1d5283eed39fe265cc'] = 'Aktualisht nuk ka produkte te reja.';

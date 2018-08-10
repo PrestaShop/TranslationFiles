@@ -14,6 +14,7 @@ $_MODULE['<{vatnumber}prestashop>vatnumber_f4f70727dc34561dfde1a3c529b6205c'] = 
 $_MODULE['<{vatnumber}prestashop>vatnumber_fa01fd956e87307bce4c90a0de9b0437'] = 'Vendi i konsumatorit';
 $_MODULE['<{vatnumber}prestashop>vatnumber_da0e4b4c2ffe78456b5a1d67fd854389'] = 'Aktivizo kontrollimin e verifikimit të numrit të TVSH-së me shërbimit të uebit.';
 $_MODULE['<{vatnumber}prestashop>vatnumber_59e1a8522a3bfca342cd7110b1d67b24'] = 'Verifikimi përmes shërbimit të uebit është i ngadalshëm. Aktivizimi e këtij opsioni mund të ngadalësojë dyqanin tuaj.';
+$_MODULE['<{vatnumber}prestashop>vatnumber_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Aktiv';
 $_MODULE['<{vatnumber}prestashop>vatnumber_b9f5c797ebbf55adccdd8539a65a0241'] = 'E çaktivizuar';
 $_MODULE['<{vatnumber}prestashop>vatnumber_c9cc8cce247e49bae79f15173ce97354'] = 'Ruaj';
 

@@ -11,6 +11,7 @@ $_MODULE['<{blockwishlist}prestashop>blockwishlist_655d20c1ca69519ca647684edbb2d
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_87f8a6ab85c9ced3702b4ea641ad4bb5'] = 'I mesëm';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_28d0edd045e05cf5af64e35ae0c4c6ef'] = 'I ulët';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_641254d77e7a473aa5910574f3f9453c'] = 'Lista e dëshirave';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist_be53a0541a6d36f6ecb879fa2c584b08'] = 'Imazhi';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_47ac923d219501859fb68fed8c8db77b'] = 'Kombinimi';
 $_MODULE['<{blockwishlist}prestashop>cart_16a23698e7cf5188ce1c07df74298076'] = 'Duhet të jeni të identifikuar për ta menaxhuar listën e dëshirave.';
 $_MODULE['<{blockwishlist}prestashop>view_655d20c1ca69519ca647684edbb2db35'] = 'I lartë';

@@ -23,6 +23,7 @@ $_MODULE['<{dashproducts}prestashop>dashproducts_2c04f1ad7694378897b98624780327f
 $_MODULE['<{dashproducts}prestashop>dashproducts_ce4ee01637f4279d02d0f232459dc9a4'] = 'تم شراؤه';
 $_MODULE['<{dashproducts}prestashop>dashproducts_37be07209f53a5d636d5c904ca9ae64c'] = 'النسبة المئوية';
 $_MODULE['<{dashproducts}prestashop>dashproducts_1eb18ea1d018abef5759cef60ddc289b'] = 'يجب تفعيل خيار "حفظ زيارات الصفحة العالمية" من وحدة "التنقيب في البيانات للاحصائيات" لعرض اكثر المنتجات مشاهدة، او اسخدم وحدة تحليلات جوجل.';
+$_MODULE['<{dashproducts}prestashop>dashproducts_cf5f3091e30dee6597885d8c0e0c357f'] = 'شرط';
 $_MODULE['<{dashproducts}prestashop>dashproducts_13348442cc6a27032d2b4aa28b75a5d3'] = 'بحث';
 $_MODULE['<{dashproducts}prestashop>dashproducts_fd69c5cf902969e6fb71d043085ddee6'] = 'نتائج';
 $_MODULE['<{dashproducts}prestashop>dashproducts_38fb7d24e0d60a048f540ecb18e13376'] = 'حفظ';

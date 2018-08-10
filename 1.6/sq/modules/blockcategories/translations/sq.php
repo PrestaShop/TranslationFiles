@@ -17,6 +17,7 @@ $_MODULE['<{blockcategories}prestashop>blockcategories_19561e33450d1d3dfe6af08df
 $_MODULE['<{blockcategories}prestashop>blockcategories_584d4e251b6f778eda9cfc2fc756b0b0'] = 'Vendosni thellësinë maksimale të nënkategorive,  të cilat do të shfaqen në këtë bllok (0 = pafund).';
 $_MODULE['<{blockcategories}prestashop>blockcategories_971fd8cc345d8bd9f92e9f7d88fdf20c'] = 'Dimanik';
 $_MODULE['<{blockcategories}prestashop>blockcategories_c10efcaa2a8ff4eedaa3538fff78eb53'] = 'Aktivizo regjimin dinamik (animuar) për nënkategori.';
+$_MODULE['<{blockcategories}prestashop>blockcategories_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Aktiv';
 $_MODULE['<{blockcategories}prestashop>blockcategories_b9f5c797ebbf55adccdd8539a65a0241'] = 'E çaktivizuar';
 $_MODULE['<{blockcategories}prestashop>blockcategories_6b46ae48421828d9973deec5fa9aa0c3'] = 'Sorto';
 $_MODULE['<{blockcategories}prestashop>blockcategories_54e4f98fb34254a6678f0795476811ed'] = 'Sipas emrit';

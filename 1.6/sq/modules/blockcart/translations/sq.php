@@ -11,6 +11,7 @@ $_MODULE['<{blockcart}prestashop>blockcart_c888438d14855d7d96a2724ee9c306bd'] = 
 $_MODULE['<{blockcart}prestashop>blockcart_f4f70727dc34561dfde1a3c529b6205c'] = 'Parametrat';
 $_MODULE['<{blockcart}prestashop>blockcart_614a8820aa4ac08ce2ee398a41b10778'] = 'Shporta Ajax';
 $_MODULE['<{blockcart}prestashop>blockcart_eefd19ecf1f6d94a308dcfc95981bbf9'] = 'Aktivizoni mënyrën Ajax për shportën tuaj (kompatible me temën e parazgjedhur).';
+$_MODULE['<{blockcart}prestashop>blockcart_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Aktiv';
 $_MODULE['<{blockcart}prestashop>blockcart_b9f5c797ebbf55adccdd8539a65a0241'] = 'E çaktivizuar';
 $_MODULE['<{blockcart}prestashop>blockcart_a87a2d4a45b5a7e682089167c1d5232a'] = 'Shfaq cross-selling';
 $_MODULE['<{blockcart}prestashop>blockcart_89e535251f4749df29ad3a288deaa017'] = 'Aktivizo shfaqjen e cross-selling për shportë.';
