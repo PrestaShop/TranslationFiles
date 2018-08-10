@@ -115,6 +115,18 @@ File: controllers/admin/AdminImportController.php:4540</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3708</note>
       </trans-unit>
+      <trans-unit id="1123af3eab25b7475419fcaecc6c3beb" approved="yes">
+        <source>%category_name% (ID: %id%) cannot be saved</source>
+        <target xml:lang="et">%category_name% (ID: %id%) ei saa salvestada</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1360</note>
+      </trans-unit>
+      <trans-unit id="6c1e9fe2a61808296a44cee372124bcb" approved="yes">
+        <source>URL rewriting failed to auto-generate a friendly URL for: %category_name%</source>
+        <target xml:lang="et">URL ülekirjutamine ei õnnestunud automaatselt kirjutatud URL-i jaoks: %category_name%</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1388</note>
+      </trans-unit>
       <trans-unit id="4798b868d51d8e259321deff0452c0f9" approved="yes">
         <source>Rewrite link for %1$s (ID %2$s): re-written as %3$s.</source>
         <target xml:lang="et">Ülekirjutatav link %1$s (ID %2$s): kirjutati ümber kui %3$s.</target>
@@ -169,39 +181,51 @@ File: controllers/admin/AdminImportController.php:2053</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2083</note>
       </trans-unit>
-      <trans-unit id="c2758df7a8c70260e3b55e26c51b65fd">
+      <trans-unit id="6170902c7935d644e280e440a28d5975" approved="yes">
+        <source>Error copying image: %url%</source>
+        <target xml:lang="et">Tekkis viga pildi kopeerimisel: %url%</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:2455</note>
+      </trans-unit>
+      <trans-unit id="61e49f62654858f3cd3d9b23bee90d06" approved="yes">
+        <source>Product #%id%: the picture (%url%) cannot be saved.</source>
+        <target xml:lang="et">Toote #%id%: pilti (%url%) ei saa salvestada.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:2148</note>
+      </trans-unit>
+      <trans-unit id="c2758df7a8c70260e3b55e26c51b65fd" approved="yes">
         <source>Advanced stock management has incorrect value. Not set for product %name% </source>
-        <target xml:lang="et" state="needs-translation"> </target>
+        <target xml:lang="et">Täiendatud laohalduse väärtus on vale. Pole määratud tootel %name% </target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2192</note>
       </trans-unit>
-      <trans-unit id="bb80841517f78647c5bee69710820c8d">
+      <trans-unit id="bb80841517f78647c5bee69710820c8d" approved="yes">
         <source>Advanced stock management is not enabled, cannot enable on product %name% </source>
-        <target xml:lang="et" state="needs-translation"> </target>
+        <target xml:lang="et">Täiendatud laohaldus pole lubatud, ei saa lubada toodet %name% </target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2194</note>
       </trans-unit>
-      <trans-unit id="651e202913d9229ff615d5afd6a6a168">
+      <trans-unit id="651e202913d9229ff615d5afd6a6a168" approved="yes">
         <source>Advanced stock management is not enabled, warehouse not set on product %name% </source>
-        <target xml:lang="et" state="needs-translation"> </target>
+        <target xml:lang="et">Täiendatud laohaldus pole lubatud, ladu pole tootele %name% seatud </target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2207</note>
       </trans-unit>
-      <trans-unit id="470d8f3caa9e30c426f8d49779cc7a36">
+      <trans-unit id="470d8f3caa9e30c426f8d49779cc7a36" approved="yes">
         <source>Warehouse did not exist, cannot set on product  %name% </source>
-        <target xml:lang="et" state="needs-translation"> </target>
+        <target xml:lang="et">Ladu ei eksisteeri, ei saa määrata tootele %name% </target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2227</note>
       </trans-unit>
-      <trans-unit id="3d52f8b2b1a67aa8740b72b3752d54f3">
+      <trans-unit id="3d52f8b2b1a67aa8740b72b3752d54f3" approved="yes">
         <source>Incorrect value for "Depends on stock" for product %name% </source>
-        <target xml:lang="et" state="needs-translation"> </target>
+        <target xml:lang="et">Toote %name% parameetril "Sõltub laost" sobimatu väärtus </target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2235</note>
       </trans-unit>
-      <trans-unit id="65167d7a989d3a25c4f81a7140b07b8f">
+      <trans-unit id="65167d7a989d3a25c4f81a7140b07b8f" approved="yes">
         <source>Advanced stock management is not enabled, cannot set "Depends on stock" for product %name% </source>
-        <target xml:lang="et" state="needs-translation"> </target>
+        <target xml:lang="et">Täiendatud laohaldus pole lubatud, tootele %name% ei saa parameetrit "Sõltub laost" seada </target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2772</note>
       </trans-unit>
@@ -210,6 +234,54 @@ File: controllers/admin/AdminImportController.php:2772</note>
         <target xml:lang="et">Ühtegi pilti ei leitud kombinatsioonile id_product = %s ja pildi positsioon = %s.</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2494</note>
+      </trans-unit>
+      <trans-unit id="b672cb1c6a798cfb9f54de7dd897abd8" approved="yes">
+        <source>EAN13 "%ean13%" has incorrect value for product with id %id%.</source>
+        <target xml:lang="et">EAN13 "%ean13%" on vale väärtusega tootel id-ga %id%.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:2614</note>
+      </trans-unit>
+      <trans-unit id="85b637ec0128d136bf3794c79f2e7295" approved="yes">
+        <source>Advanced stock management has incorrect value. Not set for product with id %id%.</source>
+        <target xml:lang="et">Täiendavas laohalduses on vale väärtus. Ei seatud tootele id-ga %id%.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:2731</note>
+      </trans-unit>
+      <trans-unit id="934b46cf9eb8a8595ca517b87de6bfb4" approved="yes">
+        <source>Advanced stock management is not enabled, cannot enable on product with id %id%.</source>
+        <target xml:lang="et">Täiustatud laohaldus ei ole lubatud, seega ei saa seda sisse lülitada tootele id-ga %id%.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:2733</note>
+      </trans-unit>
+      <trans-unit id="0081b2a315ed28289036fa6cc02a3819" approved="yes">
+        <source>Advanced stock management is not enabled, warehouse is not set on product with id %id%.</source>
+        <target xml:lang="et">Täiendav laohaldus ei ole lubatud, ladu ei ole seatud tootele id-ga %id%.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:2746</note>
+      </trans-unit>
+      <trans-unit id="c24928943071d3366164238b9413a211" approved="yes">
+        <source>Warehouse did not exist, cannot set on product %name%.</source>
+        <target xml:lang="et">Ladu ei eksisteeri, ei saa seada tootele %name%.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:2762</note>
+      </trans-unit>
+      <trans-unit id="fd6d9d3ba7d4aaacc49f53c2e8c082c0" approved="yes">
+        <source>Email address %1$s (ID: %2$s) cannot be validated.</source>
+        <target xml:lang="et">E-posti aadressi %1$s (ID: %2$s) ei õnnestunud kinnitada.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3052</note>
+      </trans-unit>
+      <trans-unit id="9a19980e3db9fa010269bb72d31ee42a" approved="yes">
+        <source>Email address %1$s (ID: %2$s) cannot be saved.</source>
+        <target xml:lang="et">E-posti aadressi %1$s (ID: %2$s) ei saa salvestada.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3061</note>
+      </trans-unit>
+      <trans-unit id="b06766963f3b27f47f5e6ddf68d8f07e" approved="yes">
+        <source>"%email%" is not a valid email address.</source>
+        <target xml:lang="et">"%email%" ei ole kehtiv e-meili aadress.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3234</note>
       </trans-unit>
       <trans-unit id="608ec99cc3ef74d962769c1958a1fa62" approved="yes">
         <source>The customer ID #%d does not exist in the database, and therefore cannot be saved.</source>
@@ -235,9 +307,51 @@ File: controllers/admin/AdminImportController.php:3684</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3852</note>
       </trans-unit>
+      <trans-unit id="2e73276e5106584df31fd1cc5823ba81" approved="yes">
+        <source>Supplier ID (%id%) is not valid (at line %line%).</source>
+        <target xml:lang="et">Tarnija ID (%id%) ei ole õige (rida %line%).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3922</note>
+      </trans-unit>
+      <trans-unit id="5dbfdcc4de08ec893f55919dc4e872dc" approved="yes">
+        <source>Lang ID (%id%) is not valid (at line %line%).</source>
+        <target xml:lang="et">Keele ID (%id%) ei ole õge (rida %line%).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3925</note>
+      </trans-unit>
+      <trans-unit id="f0cf11a8f6275d2bac5a189cbb41c689" approved="yes">
+        <source>Warehouse ID (%id%) is not valid (at line %line%).</source>
+        <target xml:lang="et">Lao ID (%id%) ei ole õige (rida %line%).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3928</note>
+      </trans-unit>
+      <trans-unit id="b390e8c2a66fd018293fb44a5b8208c8" approved="yes">
+        <source>Currency ID (%id%) is not valid (at line %line%).</source>
+        <target xml:lang="et">Valuuta ID (%id%) ei ole õige (rida %line%).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3931</note>
+      </trans-unit>
+      <trans-unit id="41a2fc826e4bd29b8eaf497a89a9dc5d" approved="yes">
+        <source>Reference (%ref%) already exists (at line %line%).</source>
+        <target xml:lang="et">Viide (%ref%) eksisteerib juba (rida %line%).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3937</note>
+      </trans-unit>
       <trans-unit id="70e7a6fcceb39a1e3ea3925182b85d18" approved="yes">
         <source>YYYY-MM-DD</source>
         <target xml:lang="et">AAAA-KK-PP</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3942</note>
+      </trans-unit>
+      <trans-unit id="c1be0fbaeb4e6b509e2f65240b7e5970" approved="yes">
+        <source>Date format (%date%) is not valid (at line %line%). It should be: %date_format%.</source>
+        <target xml:lang="et">Kuupäevavorming (%date%) on kehtetu (real %line%). See peaks olema: %date_format%.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3940</note>
+      </trans-unit>
+      <trans-unit id="8cc169924951a04aea4f6a86334f3ce6" approved="yes">
+        <source>Date (%date%) cannot be in the past (at line %line%). Format: %date_format%.</source>
+        <target xml:lang="et">Kuupäev (%date%) ei saa olla minevikus (rida %line%). Formaat: %date_format%.</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3942</note>
       </trans-unit>
@@ -246,6 +360,24 @@ File: controllers/admin/AdminImportController.php:3942</note>
         <target xml:lang="et">Formaat: 0 ja 100 vahel</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:4102</note>
+      </trans-unit>
+      <trans-unit id="e0b985fb06e1498649ed1cfd6f3fb3e4" approved="yes">
+        <source>Discount rate (%rate%) is not valid (at line %line%). %format%.</source>
+        <target xml:lang="et">Allahindlus määr (%rate%) ei ole õige (rida %line%). %format%.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3945</note>
+      </trans-unit>
+      <trans-unit id="3f2f635ad300e97bc217b69cc06dfc30" approved="yes">
+        <source>Supply Order (%id%) is not editable (at line %line%).</source>
+        <target xml:lang="et">Tarnetellimus (%id%) ei ole muudetav (rida %line%).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3950</note>
+      </trans-unit>
+      <trans-unit id="ad1ce5290a697ed3729cbd520432cf22" approved="yes">
+        <source>Supply Order could not be saved (at line %line%).</source>
+        <target xml:lang="et">Tarnetellimust ei saa salvestada (rida %line%).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3981</note>
       </trans-unit>
       <trans-unit id="bb19d4490bdc48656603c0a7ef30db73" approved="yes">
         <source>Supply Order (%s) could not be loaded (at line %d).</source>
@@ -323,21 +455,12 @@ File: controllers/admin/AdminImportController.php:4661</note>
   </file>
   <file original="admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl" source-language="en" target-language="et" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="118f9dbc8442c6be19dfc0b70d965929" approved="yes">
+        <source>Look at your listings to make sure it's all there as you wished.</source>
+        <target xml:lang="et">Vaata oma nimekirja, et kõik oleks nii nagu sa soovisid.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl:35</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminShopController.php" source-language="en" target-language="et" datatype="plaintext">
@@ -433,6 +556,12 @@ File: controllers/admin/AdminRequestSqlController.php:506</note>
         <target xml:lang="et">Kui mitu tabelit on kasutusel, siis iga valik peab viitama tabelile.</target>
         <note>Context:
 File: controllers/admin/AdminRequestSqlController.php:514</note>
+      </trans-unit>
+      <trans-unit id="8ff8844bb02822975904934598298987" approved="yes">
+        <source>"%key%" is an unauthorized keyword.</source>
+        <target xml:lang="et">"%key%" on keelatud märksõna.</target>
+        <note>Context:
+File: controllers/admin/AdminRequestSqlController.php:523</note>
       </trans-unit>
     </body>
   </file>
@@ -612,6 +741,12 @@ File: controllers/admin/AdminEmployeesController.php:536</note>
         <note>Context:
 File: controllers/admin/AdminEmployeesController.php:549</note>
       </trans-unit>
+      <trans-unit id="46cf0d0972e77638e099815140a0d302" approved="yes">
+        <source>The password must be at least %length% characters long.</source>
+        <target xml:lang="et">Salasõna peab olema vähemalt %length% tähemärki pikk.</target>
+        <note>Context:
+File: controllers/admin/AdminEmployeesController.php:565</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/backup.php" source-language="en" target-language="et" datatype="plaintext">
@@ -678,7 +813,12 @@ File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/CachingType
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/PerformanceController.php" source-language="en" target-language="et" datatype="plaintext">
     <body>
-      
+      <trans-unit id="fd4adc19ae7e0f0391f617451f3729cf" approved="yes">
+        <source>All caches cleared successfully</source>
+        <target xml:lang="et">Kõik vahemälud edukalt tühjendatud</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/PerformanceController.php:115</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/MemcacheServerController.php" source-language="en" target-language="et" datatype="plaintext">
@@ -717,11 +857,35 @@ File: src/Adapter/Requirement/CheckRequirements.php:100</note>
         <note>Context:
 File: src/Adapter/Requirement/CheckRequirements.php:101</note>
       </trans-unit>
+      <trans-unit id="98bbaed82b3e7d2b957be02ac1f91f36" approved="yes">
+        <source>Enable the CURL extension on your server.</source>
+        <target xml:lang="et">Lülita oma serveris sisse CURL laiendus.</target>
+        <note>Context:
+File: src/Adapter/Requirement/CheckRequirements.php:102</note>
+      </trans-unit>
       <trans-unit id="b5f353847bbb01ca0feda2a3b0e5b1a9" approved="yes">
         <source>Enable the GD library on your server.</source>
         <target xml:lang="et">Lülitage sisse GD teek oma serveris</target>
         <note>Context:
 File: src/Adapter/Requirement/CheckRequirements.php:103</note>
+      </trans-unit>
+      <trans-unit id="ebcb30cdf6fa4833f9e0115eb92deb7a" approved="yes">
+        <source>Enable the JSON extension on your server.</source>
+        <target xml:lang="et">Lülita oma serveris sisse JSON laiendus.</target>
+        <note>Context:
+File: src/Adapter/Requirement/CheckRequirements.php:104</note>
+      </trans-unit>
+      <trans-unit id="60575cad0e1f106447cb0dfa37c01daf" approved="yes">
+        <source>Enable the XML extension on your server.</source>
+        <target xml:lang="et">Lülita oma serveris sisse XML laiendus.</target>
+        <note>Context:
+File: src/Adapter/Requirement/CheckRequirements.php:105</note>
+      </trans-unit>
+      <trans-unit id="cc4c22b3f8726001cf1c1663cd4845c2" approved="yes">
+        <source>Enable the ZIP extension on your server.</source>
+        <target xml:lang="et">Lülita oma serveris sisse ZIP laiendus.</target>
+        <note>Context:
+File: src/Adapter/Requirement/CheckRequirements.php:106</note>
       </trans-unit>
       <trans-unit id="4fc7f05f412a1684ce4996e51ffff7fe" approved="yes">
         <source>Enable the MySQL support on your server.</source>
@@ -813,6 +977,12 @@ File: src/Adapter/Requirement/CheckRequirements.php:120</note>
         <note>Context:
 File: src/Adapter/Requirement/CheckRequirements.php:121</note>
       </trans-unit>
+      <trans-unit id="e567554b1238bc9e85e38b01e6b198e9" approved="yes">
+        <source>You are using PHP %s version. Soon, the latest PHP version supported by PrestaShop will be PHP 5.6. To make sure you’re ready for the future, we recommend you to upgrade to PHP 5.6 now!</source>
+        <target xml:lang="et">Kasutad PHP %s versiooni. Varsti toetab PrestaShop PHP versiooni 5.6. Selleks valmis olemise jaoks uuenda oma PHP samuti 5.6 versioonile!</target>
+        <note>Context:
+File: src/Adapter/Requirement/CheckRequirements.php:122</note>
+      </trans-unit>
       <trans-unit id="0b9193ca4af6867c1f50a07097254b62" approved="yes">
         <source>Enable the Apache mod_rewrite module</source>
         <target xml:lang="et">Luba Apache moodul mod_rewrite</target>
@@ -873,7 +1043,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Bl
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/memcache_servers.html.twig" source-language="en" target-language="et" datatype="plaintext">
     <body>
-      
+      <trans-unit id="29be13f78208f2e848c6b6645a79f813" approved="yes">
+        <source>Do you really want to remove the server %serverIp%:%serverPort% ?</source>
+        <target xml:lang="et">Kas sa tõesti soovid eemaldada serverit %serverIp%:%serverPort% ?</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/memcache_servers.html.twig:87</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/system_information.html.twig" source-language="en" target-language="et" datatype="plaintext">

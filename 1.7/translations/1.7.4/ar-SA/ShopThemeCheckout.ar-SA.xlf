@@ -2,16 +2,27 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="classes/form/CustomerAddressForm.php" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      
+      <trans-unit id="0bf3928d84fde940f6feafac75062280" approved="yes">
+        <source>My Address</source>
+        <target xml:lang="ar">عنواني</target>
+        <note>Context:
+File: classes/form/CustomerAddressForm.php:150</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Cart/CartPresenter.php" source-language="en" target-language="ar" datatype="plaintext">
     <body>
       <trans-unit id="b24ce0cd392a5b0b8dedc66c25213594" approved="yes">
         <source>Free</source>
-        <target xml:lang="ar">مجاناً!</target>
+        <target xml:lang="ar">مجاناً</target>
         <note>Context:
 File: src/Adapter/Cart/CartPresenter.php:335</note>
+      </trans-unit>
+      <trans-unit id="2194aaec8cc7086ab0e93f74547e5f53" approved="yes">
+        <source>Subtotal</source>
+        <target xml:lang="ar">المجموع الفرعي</target>
+        <note>Context:
+File: src/Adapter/Cart/CartPresenter.php:293</note>
       </trans-unit>
       <trans-unit id="104d9898c04874d0fbac36e125fa1369" approved="yes">
         <source>Discount</source>
@@ -21,7 +32,7 @@ File: src/Adapter/Cart/CartPresenter.php:301</note>
       </trans-unit>
       <trans-unit id="484f5a79672cebe198ebdde45a1d672f" approved="yes">
         <source>Gift wrapping</source>
-        <target xml:lang="ar">هدية التفاف</target>
+        <target xml:lang="ar">تغليف الهدية</target>
         <note>Context:
 File: src/Adapter/Cart/CartPresenter.php:316</note>
       </trans-unit>
@@ -36,6 +47,12 @@ File: src/Adapter/Cart/CartPresenter.php:354</note>
         <target xml:lang="ar">الشحن</target>
         <note>Context:
 File: src/Adapter/Cart/CartPresenter.php:331</note>
+      </trans-unit>
+      <trans-unit id="3b5a05f2c4a0373c7a6e8d1cfec7020f" approved="yes">
+        <source>Included taxes</source>
+        <target xml:lang="ar">شامل الضرائب</target>
+        <note>Context:
+File: src/Adapter/Cart/CartPresenter.php:344</note>
       </trans-unit>
       <trans-unit id="719fec04166d6fa75f89cd29ad61fa8c" approved="yes">
         <source>Taxes</source>
@@ -55,11 +72,23 @@ File: src/Adapter/Cart/CartPresenter.php:362</note>
         <note>Context:
 File: src/Adapter/Cart/CartPresenter.php:368</note>
       </trans-unit>
+      <trans-unit id="7e0eb131cbb6280fe2b38edf92a3bcc5" approved="yes">
+        <source>1 item</source>
+        <target xml:lang="ar">1 منتج</target>
+        <note>Context:
+File: src/Adapter/Cart/CartPresenter.php:379</note>
+      </trans-unit>
       <trans-unit id="ca96f27e7d3e3b67b5d1f43a54296466" approved="yes">
         <source>%count% items</source>
         <target xml:lang="ar">%count% منتجات</target>
         <note>Context:
 File: src/Adapter/Cart/CartPresenter.php:380</note>
+      </trans-unit>
+      <trans-unit id="2bd544f123f671c597c4b330ef05b5da" approved="yes">
+        <source>A minimum shopping cart total of %amount% (tax excl.) is required to validate your order. Current cart total is %total% (tax excl.).</source>
+        <target xml:lang="ar">الحد الأدنى المطلوب لسلة التسوق هو %amount% (لايشمل الضرائب) المجموع الذي في سلتك هو %total% ( لايشمل الضرائب).</target>
+        <note>Context:
+File: src/Adapter/Cart/CartPresenter.php:428</note>
       </trans-unit>
     </body>
   </file>
@@ -71,11 +100,22 @@ File: src/Adapter/Cart/CartPresenter.php:380</note>
         <note>Context:
 File: classes/checkout/DeliveryOptionsFinder.php:100</note>
       </trans-unit>
+      <trans-unit id="e532954941a2469e3b3ae35ce44885d6" approved="yes">
+        <source>%price% tax excl.</source>
+        <target xml:lang="ar">%price% بدون ضرائب.</target>
+        <note>Context:
+File: classes/checkout/DeliveryOptionsFinder.php:109</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/checkout/ConditionsToApproveFinder.php" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      
+      <trans-unit id="823e713a0e72b5dc3d75a71a7bbc6274" approved="yes">
+        <source>I agree to the [terms of service] and will adhere to them unconditionally.</source>
+        <target xml:lang="ar">أوافق على [شروط الخدمة] وسألتزم بها دون قيد أو شرط.</target>
+        <note>Context:
+File: classes/checkout/ConditionsToApproveFinder.php:52</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/customer/history.tpl" source-language="en" target-language="ar" datatype="plaintext">
@@ -120,27 +160,56 @@ File: themes/classic/templates/customer/history.tpl:43</note>
   </file>
   <file original="classes/checkout/CheckoutDeliveryStep.php" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      <trans-unit id="d62106dfcdba5cacd1a5f5efe9cefc79">
+      <trans-unit id="d62106dfcdba5cacd1a5f5efe9cefc79" approved="yes">
         <source> (additional cost of %giftcost% %taxlabel%)</source>
-        <target xml:lang="ar" state="needs-translation"> </target>
+        <target xml:lang="ar"> (تكلفة إضافية ل%taxlabel% %giftcost%)</target>
         <note>Context:
 File: classes/checkout/CheckoutDeliveryStep.php:113</note>
+      </trans-unit>
+      <trans-unit id="882ed1e831a6175e4a3dd2c09faa225c" approved="yes">
+        <source>I would like my order to be gift wrapped %cost%</source>
+        <target xml:lang="ar">أريد أن يتم تغليف طلبيتي كهدية %cost%</target>
+        <note>Context:
+File: classes/checkout/CheckoutDeliveryStep.php:180</note>
       </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/checkout/_partials/order-final-summary.tpl" source-language="en" target-language="ar" datatype="plaintext">
     <body>
+      <trans-unit id="49ffd9480effff979143d2e8d38931c4" approved="yes">
+        <source>Shipping Method</source>
+        <target xml:lang="ar">طريقة الشحن</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/order-final-summary.tpl:62</note>
+      </trans-unit>
       <trans-unit id="284b47b0bb63ae2df3b29f0e691d6fcf" approved="yes">
         <source>Addresses</source>
         <target xml:lang="ar">العناوين</target>
         <note>Context:
 File: themes/classic/templates/checkout/_partials/order-final-summary.tpl:35</note>
       </trans-unit>
+      <trans-unit id="7ce3a11073ffba68bd1e83e243aaabf7" approved="yes">
+        <source>Please check your order before payment</source>
+        <target xml:lang="ar">يرجى مراجعة طلبك قبل الدفع</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/order-final-summary.tpl:28</note>
+      </trans-unit>
+      <trans-unit id="f2a5a4ccf14820292a27cca1c8cab12e" approved="yes">
+        <source>Your Delivery Address</source>
+        <target xml:lang="ar">عنوان التوصيل الخاص بك</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/order-final-summary.tpl:44</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/checkout/CheckoutPersonalInformationStep.php" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      
+      <trans-unit id="61f1667518c8516a8a4fe18686a4e6fc" approved="yes">
+        <source>Personal Information</source>
+        <target xml:lang="ar">المعلومات الشخصية</target>
+        <note>Context:
+File: classes/checkout/CheckoutPersonalInformationStep.php:97</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/front/DiscountController.php" source-language="en" target-language="ar" datatype="plaintext">
@@ -167,7 +236,12 @@ File: controllers/front/DiscountController.php:162</note>
   </file>
   <file original="controllers/front/GuestTrackingController.php" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      
+      <trans-unit id="8bbbace7ffb26d61b400c72ffe493f4d" approved="yes">
+        <source>Guest order tracking</source>
+        <target xml:lang="ar">تتبع طلب الضيف</target>
+        <note>Context:
+File: controllers/front/GuestTrackingController.php:151</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Order/OrderPresenter.php" source-language="en" target-language="ar" datatype="plaintext">
@@ -194,12 +268,22 @@ File: src/Adapter/Order/OrderPresenter.php:290</note>
   </file>
   <file original="modules/ps_shoppingcart/modal.tpl" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      
+      <trans-unit id="e2121483e5e6c879ecef260a7f72e959" approved="yes">
+        <source>Product Successfully Added to Your Shopping Cart</source>
+        <target xml:lang="ar">تم أضافة المنتج بنجاح إلى سلة التسوق الخاصة بك</target>
+        <note>Context:
+File: modules/ps_shoppingcart/modal.tpl:4</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/catalog/_partials/product-add-to-cart.tpl" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      
+      <trans-unit id="21cf667b2d56747effd90b0333c6813c" approved="yes">
+        <source>The minimum purchase order quantity for the product is %quantity%.</source>
+        <target xml:lang="ar">الحد الأدنى للكمية لطلب شراء المنتج هي %quantity%.</target>
+        <note>Context:
+File: themes/classic/templates/catalog/_partials/product-add-to-cart.tpl:77</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/customer/order-return.tpl" source-language="en" target-language="ar" datatype="plaintext">
@@ -220,11 +304,22 @@ File: themes/classic/templates/customer/order-return.tpl:40</note>
         <note>Context:
 File: themes/StarterTheme/templates/catalog/_partials/product-discounts.tpl:35</note>
       </trans-unit>
+      <trans-unit id="bb4c039b2cfaf344b1f599149086dba6" approved="yes">
+        <source>Up to %amount_saved%</source>
+        <target xml:lang="ar">يصل إلى %amount_saved%</target>
+        <note>Context:
+File: themes/StarterTheme/templates/catalog/_partials/product-discounts.tpl:48</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/checkout/cart.tpl" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      
+      <trans-unit id="b75443a19207ed3a3552edda86536857" approved="yes">
+        <source>Shopping Cart</source>
+        <target xml:lang="ar">سلة الشراء</target>
+        <note>Context:
+File: themes/classic/templates/checkout/cart.tpl:38</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/checkout/_partials/cart-detailed-product-line.tpl" source-language="en" target-language="ar" datatype="plaintext">
@@ -239,24 +334,39 @@ File: themes/classic/templates/checkout/_partials/cart-detailed-product-line.tpl
   </file>
   <file original="themes/classic/templates/checkout/_partials/address-form.tpl" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      
+      <trans-unit id="5c74d926c4b89517ad64133990d04413" approved="yes">
+        <source>Use this address for invoice too</source>
+        <target xml:lang="ar">استخدم هذا العنوان للفوترة أيضا</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/address-form.tpl:26</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/StarterTheme/templates/checkout/_partials/customer-form.tpl" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      
+      <trans-unit id="4d26a4e106aa8a35f25d97fd14055981" approved="yes">
+        <source>Choose a password to create an account and save time on your next order (optional)</source>
+        <target xml:lang="ar">اختر كلمة مرور لإنشاء حساب ووفر الوقت في طلبك القادم (اختياري)</target>
+        <note>Context:
+File: themes/StarterTheme/templates/checkout/_partials/customer-form.tpl:30</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/checkout/_partials/order-confirmation-table.tpl" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      
+      <trans-unit id="2cee9edacddde0856a46d7db6aff9110" approved="yes">
+        <source>Order items</source>
+        <target xml:lang="ar">عناصر الطلب</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/order-confirmation-table.tpl:28</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/checkout/_partials/steps/shipping.tpl" source-language="en" target-language="ar" datatype="plaintext">
     <body>
       <trans-unit id="9193b58520051d8b59ca64a5cc5353ff" approved="yes">
         <source>I would like to receive my order in recycled packaging.</source>
-        <target xml:lang="ar">اوافق ان استلم طلبي في علبة معادة التصنيع</target>
+        <target xml:lang="ar">اوافق ان استلم طلبي في علبة معادة التصنيع.</target>
         <note>Context:
 File: themes/classic/templates/checkout/_partials/steps/shipping.tpl:91</note>
       </trans-unit>
@@ -265,6 +375,12 @@ File: themes/classic/templates/checkout/_partials/steps/shipping.tpl:91</note>
         <target xml:lang="ar">إذا كنت ترغب ، يمكنك إضافة ملاحظة على الهدية:</target>
         <note>Context:
 File: themes/classic/templates/checkout/_partials/steps/shipping.tpl:103</note>
+      </trans-unit>
+      <trans-unit id="9a605fc0e1667ebdbd0ac37cf9f90789" approved="yes">
+        <source>Unfortunately, there are no carriers available for your delivery address.</source>
+        <target xml:lang="ar">لسوء الحظ، لا تتوفر شركات نقل لعنوان التسليم.</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/steps/shipping.tpl:115</note>
       </trans-unit>
       <trans-unit id="d93651d012e77dac5581b08db33195b2" approved="yes">
         <source>If you would like to add a comment about your order, please write it in the field below.</source>
@@ -276,38 +392,118 @@ File: themes/classic/templates/checkout/_partials/steps/shipping.tpl:83</note>
   </file>
   <file original="themes/classic/templates/checkout/_partials/steps/payment.tpl" source-language="en" target-language="ar" datatype="plaintext">
     <body>
+      <trans-unit id="9ea465e939c30ceba6e0d46810913142" approved="yes">
+        <source>By confirming the order, you certify that you have read and agree with all of the conditions below:</source>
+        <target xml:lang="ar">من خلال تأكيد الطلب ، فإنك تقر بأنك قد قرأت جميع الشروط أدناه وتوافق عليها:</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/steps/payment.tpl:85</note>
+      </trans-unit>
       <trans-unit id="91b442d385b54e1418d81adc34871053" approved="yes">
         <source>Selected</source>
         <target xml:lang="ar">محدد</target>
         <note>Context:
 File: themes/classic/templates/checkout/_partials/steps/payment.tpl:31</note>
       </trans-unit>
+      <trans-unit id="97b72d419a22e2d1144b2fb05ee26901" approved="yes">
+        <source>Unfortunately, there are no payment method available.</source>
+        <target xml:lang="ar">للأسف ، لا توجد طريقة دفع متاحة.</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/steps/payment.tpl:75</note>
+      </trans-unit>
+      <trans-unit id="3a31d70f8c2eb35a29f6c58e9664cd7f" approved="yes">
+        <source>Please make sure you've chosen a [1]payment method[/1] and accepted the [2]terms and conditions[/2].</source>
+        <target xml:lang="ar">يرجى التأكد من إختيار [1]طريقه الدفع[/1] والموافقه على [2]الشروط[/2].</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/steps/payment.tpl:126</note>
+      </trans-unit>
+      <trans-unit id="dde6c860ae1ac6573875352abf1822ef" approved="yes">
+        <source>No payment needed for this order</source>
+        <target xml:lang="ar">لا توجد دفعة مطلوبة لهذا الطلب</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/steps/payment.tpl:8</note>
+      </trans-unit>
+      <trans-unit id="5486191906ec27c1c4bb5bd3e46b3442" approved="yes">
+        <source>Order with an obligation to pay</source>
+        <target xml:lang="ar">الطلب مع الإلتزام بالدفع</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/steps/payment.tpl:141</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/checkout/_partials/steps/personal-information.tpl" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="3e0b39c8cd14dd15fff36eecf9c19861" approved="yes">
+        <source>If you sign out now, your cart will be emptied.</source>
+        <target xml:lang="ar">اذا قمت بتسجيل الخروج الآن ، سلة مشترياتك سوف يتم تفريغها.</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/steps/personal-information.tpl:30</note>
+      </trans-unit>
+      <trans-unit id="c1fc8e1c54652420d0822e0614089df6" approved="yes">
+        <source>Order as a guest</source>
+        <target xml:lang="ar">اطلب كمستخدم ضيف</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/steps/personal-information.tpl:46</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/checkout/_partials/steps/addresses.tpl" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
+      <trans-unit id="48974cc3df177e6b565c39aa155458cd" approved="yes">
+        <source>Shipping Address</source>
+        <target xml:lang="ar">عنوان الشَّحن</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/steps/addresses.tpl:36</note>
+      </trans-unit>
+      <trans-unit id="dc024b376ebf01abd90cf4d5e4dca1c7" approved="yes">
+        <source>The selected address will be used as your personal address (for invoice).</source>
+        <target xml:lang="ar">العنوان المختار سيستخدم كعنوان شخصي (في الفاتورة).</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/steps/addresses.tpl:45</note>
+      </trans-unit>
+      <trans-unit id="313d7cbfa2b3c25f09d69ad7e40974a7" approved="yes">
+        <source>Billing address differs from shipping address</source>
+        <target xml:lang="ar">عنوان الدفع يختلف عن عنوان الشحن</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/steps/addresses.tpl:82</note>
+      </trans-unit>
+      <trans-unit id="baa63a898921164abe2d1d532ab27e79" approved="yes">
+        <source>Your Invoice Address</source>
+        <target xml:lang="ar">عنوان الفوترة الخاص بك</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/steps/addresses.tpl:91</note>
+      </trans-unit>
+      <trans-unit id="56d0ed7cd789dd772be59aa6b1e437de" approved="yes">
+        <source>The selected address will be used both as your personal address (for invoice) and as your delivery address.</source>
+        <target xml:lang="ar">سيتم استخدام العنوان المحدد على أنه عنوانك الشخصي (للفاتورة) وعنوان التسليم.</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/steps/addresses.tpl:41</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/StarterTheme/templates/checkout/_partials/steps/addresses.tpl" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      
+      <trans-unit id="59123a64986f5a831723020061400054" approved="yes">
+        <source>The selected address will be used both as your personal address (for invoice) and as your shipping address.</source>
+        <target xml:lang="ar">سيتم استخدام العنوان المحدد على أنه عنوانك الشخصي (للفاتورة) وعنوان التسليم.</target>
+        <note>Context:
+File: themes/StarterTheme/templates/checkout/_partials/steps/addresses.tpl:41</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/checkout/_partials/cart-voucher.tpl" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="0ab608f7e0d1501be457f7646c1e57c0" approved="yes">
+        <source>Promo code</source>
+        <target xml:lang="ar">الرمز الترويجي</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/cart-voucher.tpl:56</note>
+      </trans-unit>
+      <trans-unit id="3111382b0f345f39639de6e580a94933" approved="yes">
+        <source>Have a promo code?</source>
+        <target xml:lang="ar">هل تمتلك رمز الترويجي؟</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/cart-voucher.tpl:47</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/StarterTheme/templates/checkout/order-confirmation.tpl" source-language="en" target-language="ar" datatype="plaintext">
@@ -318,15 +514,75 @@ File: themes/classic/templates/checkout/_partials/steps/payment.tpl:31</note>
         <note>Context:
 File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:4</note>
       </trans-unit>
+      <trans-unit id="ded7f0d0397bb3138bfe1e40dcdb560a" approved="yes">
+        <source>Order reference %reference%</source>
+        <target xml:lang="ar">مرجع الطلب %reference%</target>
+        <note>Context:
+File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:59</note>
+      </trans-unit>
+      <trans-unit id="c955ed92e576b55e052cc5a88d92c93e" approved="yes">
+        <source>Payment method %method_name%</source>
+        <target xml:lang="ar">طريقة الدفع %method_name%</target>
+        <note>Context:
+File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:60</note>
+      </trans-unit>
+      <trans-unit id="286b82fc158785899ecbe309809b7057" approved="yes">
+        <source>Shipping method %method_name%</source>
+        <target xml:lang="ar">طريقة الشحن %method_name%</target>
+        <note>Context:
+File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:62</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/checkout/order-confirmation.tpl" source-language="en" target-language="ar" datatype="plaintext">
     <body>
+      <trans-unit id="7f21696f11929f5ed55ca5bcb15d2fc1" approved="yes">
+        <source>Your order is confirmed</source>
+        <target xml:lang="ar">تم تأكيد طلبك</target>
+        <note>Context:
+File: themes/classic/templates/checkout/order-confirmation.tpl:11</note>
+      </trans-unit>
+      <trans-unit id="b8627ccd34529880156129d02a9ca37d" approved="yes">
+        <source>An email has been sent to your mail address %email%.</source>
+        <target xml:lang="ar">تم إرسال بريد إلكتروني إلى عنوان بريدك %email%.</target>
+        <note>Context:
+File: themes/classic/templates/checkout/order-confirmation.tpl:16</note>
+      </trans-unit>
+      <trans-unit id="186f9a937f0afc4cce2bbc4087dfd3fa" approved="yes">
+        <source>You can also [1]download your invoice[/1]</source>
+        <target xml:lang="ar">يمكنك أيضًا [1] تحميل فاتورتك [/1]</target>
+        <note>Context:
+File: themes/classic/templates/checkout/order-confirmation.tpl:23</note>
+      </trans-unit>
       <trans-unit id="f5d74ea75357b5e139854c14f8e24fe3" approved="yes">
         <source>Order details</source>
         <target xml:lang="ar">تفاصيل الطلب</target>
         <note>Context:
 File: themes/classic/templates/checkout/order-confirmation.tpl:58</note>
+      </trans-unit>
+      <trans-unit id="cc6f3e2192d71f54d7b181d91f04d165" approved="yes">
+        <source>Save time on your next order, sign up now</source>
+        <target xml:lang="ar">توفير الوقت على طلبك المقبل، اشترك الآن</target>
+        <note>Context:
+File: themes/classic/templates/checkout/order-confirmation.tpl:94</note>
+      </trans-unit>
+      <trans-unit id="00cd7d0890cd975da95799c32764c9ce" approved="yes">
+        <source>Order reference: %reference%</source>
+        <target xml:lang="ar">مرجع الطلب: %reference%</target>
+        <note>Context:
+File: themes/classic/templates/checkout/order-confirmation.tpl:60</note>
+      </trans-unit>
+      <trans-unit id="e120387480bc284c5347ae1baa480670" approved="yes">
+        <source>Payment method: %method%</source>
+        <target xml:lang="ar">طريقة الدفع: %method%</target>
+        <note>Context:
+File: themes/classic/templates/checkout/order-confirmation.tpl:61</note>
+      </trans-unit>
+      <trans-unit id="080753487a8bc0bb9a5275bcb9951516" approved="yes">
+        <source>Shipping method: %method%</source>
+        <target xml:lang="ar">طريقة الشحن: %method%</target>
+        <note>Context:
+File: themes/classic/templates/checkout/order-confirmation.tpl:64</note>
       </trans-unit>
     </body>
   </file>
@@ -384,6 +640,18 @@ File: themes/classic/templates/customer/order-detail.tpl:191</note>
         <note>Context:
 File: themes/classic/templates/customer/order-detail.tpl:57</note>
       </trans-unit>
+      <trans-unit id="d350478ea9dc7f1f8ae3c78a41630f1d" approved="yes">
+        <source>Delivery address %alias%</source>
+        <target xml:lang="ar">عنوان التوصيل %alias%</target>
+        <note>Context:
+File: themes/classic/templates/customer/order-detail.tpl:132</note>
+      </trans-unit>
+      <trans-unit id="7d0244dc42acadee967bf9d8e612bffb" approved="yes">
+        <source>Invoice address %alias%</source>
+        <target xml:lang="ar">عنوان الفاتورة %alias%</target>
+        <note>Context:
+File: themes/classic/templates/customer/order-detail.tpl:140</note>
+      </trans-unit>
       <trans-unit id="8c489d0946f66d17d73f26366a4bf620" approved="yes">
         <source>Weight</source>
         <target xml:lang="ar">الوزن</target>
@@ -406,13 +674,28 @@ File: themes/classic/templates/customer/order-detail.tpl:200</note>
   </file>
   <file original="themes/classic/templates/checkout/_partials/order-final-summary-table.tpl" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="e3e83a01990288b492a11a955723343d" approved="yes">
+        <source>%product_count% item in your cart</source>
+        <target xml:lang="ar">هناك %product_count% في سلة مشترياتك</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/order-final-summary-table.tpl:31</note>
+      </trans-unit>
+      <trans-unit id="3f5cb84c95c577127e3f9e96d405d21b" approved="yes">
+        <source>%products_count% items in your cart</source>
+        <target xml:lang="ar">%products_count% منتجات في سلة مشترياتك</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/order-final-summary-table.tpl:33</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/checkout/_partials/cart-detailed.tpl" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      
+      <trans-unit id="2f0dca8966242e58b83e0afc012b178b" approved="yes">
+        <source>There are no more items in your cart</source>
+        <target xml:lang="ar">لا توجد أية عناصر أخرى في عربة التسوق</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/cart-detailed.tpl:39</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/checkout/_partials/customer-form.tpl" source-language="en" target-language="ar" datatype="plaintext">
@@ -423,6 +706,18 @@ File: themes/classic/templates/customer/order-detail.tpl:200</note>
         <note>Context:
 File: themes/classic/templates/checkout/_partials/customer-form.tpl:30</note>
       </trans-unit>
+      <trans-unit id="f53d1cd25e03173ba9eaa4e493636769" approved="yes">
+        <source>(optional)</source>
+        <target xml:lang="ar">(إختياري)</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/customer-form.tpl:30</note>
+      </trans-unit>
+      <trans-unit id="c8334d474f091b12e87cf4f8632269f3" approved="yes">
+        <source>And save time on your next order!</source>
+        <target xml:lang="ar">وتوفير الوقت على الطلب الخاص بك المقبل!</target>
+        <note>Context:
+File: themes/classic/templates/checkout/_partials/customer-form.tpl:32</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/modules/ps_shoppingcart/modal.tpl" source-language="en" target-language="ar" datatype="plaintext">
@@ -432,6 +727,36 @@ File: themes/classic/templates/checkout/_partials/customer-form.tpl:30</note>
         <target xml:lang="ar">تم أضافة المنتج بنجاح إلى سلة التسوق الخاصة بك</target>
         <note>Context:
 File: themes/classic/modules/ps_shoppingcart/modal.tpl:32</note>
+      </trans-unit>
+      <trans-unit id="3d0d1f906e27800531e054a3b6787b7c" approved="yes">
+        <source>Quantity:</source>
+        <target xml:lang="ar">الكميَّة:</target>
+        <note>Context:
+File: themes/classic/modules/ps_shoppingcart/modal.tpl:48</note>
+      </trans-unit>
+      <trans-unit id="5a0d620c4938bda6d4be4a2869cc3ee7" approved="yes">
+        <source>There are %products_count% items in your cart.</source>
+        <target xml:lang="ar">يوجد %products_count% من العناصر في سلة التسوق الخاصة بك.</target>
+        <note>Context:
+File: themes/classic/modules/ps_shoppingcart/modal.tpl:55</note>
+      </trans-unit>
+      <trans-unit id="e8a8612fb6fa9f657318f158780f0eeb" approved="yes">
+        <source>There is %product_count% item in your cart.</source>
+        <target xml:lang="ar">يوجد %product_count% عنصر في سلة التسوق الخاصة بك.</target>
+        <note>Context:
+File: themes/classic/modules/ps_shoppingcart/modal.tpl:57</note>
+      </trans-unit>
+      <trans-unit id="543ae6adeb524f98cc7d3c816a1ec1e3" approved="yes">
+        <source>Total products:</source>
+        <target xml:lang="ar">إجمالي المنتجات:</target>
+        <note>Context:
+File: themes/classic/modules/ps_shoppingcart/modal.tpl:59</note>
+      </trans-unit>
+      <trans-unit id="691b338fa68b3c177c6ebbc745624c6a" approved="yes">
+        <source>Total shipping:</source>
+        <target xml:lang="ar">تكلفة الشحن:</target>
+        <note>Context:
+File: themes/classic/modules/ps_shoppingcart/modal.tpl:60</note>
       </trans-unit>
       <trans-unit id="66c4c5112f455a19afde47829df363fa" approved="yes">
         <source>Total:</source>
