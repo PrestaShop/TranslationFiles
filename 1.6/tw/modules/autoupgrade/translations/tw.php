@@ -452,6 +452,8 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_49c77c6b39fac5ce46832752e661
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ba4e6bdd93c2f0c0e133bb94c27623ad'] = '%s 文件夾存在';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9a92bff0f2bacca85a22045df0ff05a7'] = '%s功能已啟用';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_325be51f87717509d7c5b87d45456066'] = '%s外掛已啟用';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_95245f604c0c0d24367f7ecac6124eb7'] = '我的文檔和數據庫已備份';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a5d2d90f3698f0f7acab269070d0a232'] = '我需要重新配置我的權限';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8f5f497d082e9f08ec8102a1d436a75b'] = '切換到%s版本！';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f15547fe5f9f307bd42b2c01657efbcb'] = '您的伺服器無法下載該文件。請把它上傳至您的FTP伺服器 /[admin]/autoupgrade 目錄內。';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f0c0004ed469d436fae1c0c84a5c7687'] = '你需要檢查所有條件';
