@@ -10,13 +10,13 @@ File: modules/ps_emailgenerator/templates/modules/referralprogram/referralprogra
       </trans-unit>
       <trans-unit id="abe1585bf97403d8a9a01a272183585a" approved="yes">
         <source>Here is the code of your voucher:</source>
-        <target xml:lang="sq">Këtu është kodi juaj personal për kuponin:</target>
+        <target xml:lang="sq">Këtu është kodi i kuponit tënd personal:</target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/modules/referralprogram/referralprogram-voucher.php:23</note>
       </trans-unit>
       <trans-unit id="f4f614c22d9d2cbd0f9aa08cd59600d2" approved="yes">
         <source>Simply copy/paste this code during the payment process for your next order.</source>
-        <target xml:lang="sq">Thjesht kopjo/ngjit këtë kod gjatë procesit të pagesës së urdhërblerjes tuaj të ardhshme.</target>
+        <target xml:lang="sq">Thjesht kopjo/ngjit këtë kod gjatë procesit të pagesës së porosisë tënde të ardhshme.</target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/modules/referralprogram/referralprogram-voucher.php:24</note>
       </trans-unit>
@@ -25,12 +25,6 @@ File: modules/ps_emailgenerator/templates/modules/referralprogram/referralprogra
         <target xml:lang="sq">Programi referues</target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/modules/referralprogram/referralprogram-voucher.php:19</note>
-      </trans-unit>
-      <trans-unit id="dd863685846fc4eddcc9d6d09ddd5264" approved="yes">
-        <source>We have created a voucher in your name for referring a friend.</source>
-        <target xml:lang="sq">Ne kemi krijuar një kupon në emrin tuaj në shenjë mirënjohje për referimin (propozimin) e një miku.</target>
-        <note>Context:
-File: modules/ps_emailgenerator/templates/modules/referralprogram/referralprogram-voucher.php:22</note>
       </trans-unit>
       <trans-unit id="389df865c60c8fc7b86bf773eb5b121c" approved="yes">
         <source>, with an amount of</source>
@@ -44,13 +38,13 @@ File: modules/ps_emailgenerator/templates/modules/referralprogram/referralprogra
     <body>
       <trans-unit id="008400d8db73946ba53b2d7f091eb845" approved="yes">
         <source>Order {order_name}</source>
-        <target xml:lang="sq">Urdhërblerja {order_name}</target>
+        <target xml:lang="sq">Porosia {order_name}</target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/order_changed.php:21</note>
       </trans-unit>
       <trans-unit id="fce4d5217e51f199cfbd10ae913cc5dd" approved="yes">
         <source><![CDATA[You can review your order and download your invoice from the <a href="{history_url}">"Order history"</a> section of your customer account by clicking <a href="{my_account_url}">"My account"</a> on our shop.]]></source>
-        <target xml:lang="sq"><![CDATA[Ju mund ta rishikoni urdhërblerjen tuaj dhe shkarkoni faturën në seksionin <a href="{history_url}">"Historiati i urdhërblerjeve"</a> e llogarisë tuaj duke klikuar në <a href="{my_account_url}">"Llogaria ime"</a> në dyqanin tonë.]]></target>
+        <target xml:lang="sq"><![CDATA[Ti mund ta rishikosh porosinë tënde dhe ta shkarkosh faturën në seksionin <a href="{history_url}">"Historiati i porosive"</a> të llogarisë tënde duke klikuar në <a href="{my_account_url}">"Llogaria ime"</a> në dyqanin tonë.]]></target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/order_changed.php:40</note>
       </trans-unit>
@@ -62,7 +56,7 @@ File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/order_changed.p
       </trans-unit>
       <trans-unit id="6eaf1dae59f88437851d95f504f9cb3c" approved="yes">
         <source>Order edited</source>
-        <target xml:lang="sq">Urdhërblerja u redaktua</target>
+        <target xml:lang="sq">Porosia u ndryshua</target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/modules/ps_emailalerts/order_changed.php:21</note>
       </trans-unit>
@@ -186,8 +180,18 @@ File: modules/ps_emailgenerator/templates/core/guest_to_customer.php:50</note>
   </file>
   <file original="modules/ps_emailgenerator/templates/core/import.php" source-language="en" target-language="sq" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="a218495ad30949e8ea1f64a261e37463" approved="yes">
+        <source>Import complete</source>
+        <target xml:lang="sq">Importimi u krye.</target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/core/import.php:21</note>
+      </trans-unit>
+      <trans-unit id="293a2b3dd4b7fb2d950c8128be6d14f7" approved="yes">
+        <source>The file {filename} has been successfully imported to your shop.</source>
+        <target xml:lang="sq">Skedari {filename} u importua me sukses në dyqanin tënd.</target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/core/import.php:24</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/ps_emailgenerator/templates/core/order_canceled.php" source-language="en" target-language="sq" datatype="plaintext">
@@ -219,6 +223,12 @@ File: modules/ps_emailgenerator/templates/core/log_alert.php:21</note>
         <target xml:lang="sq"><![CDATA[<span><strong>Paralajmërim:</strong></span> ju keni pranuar një shënim të ri protokolli në Back Office.]]></target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/core/log_alert.php:24</note>
+      </trans-unit>
+      <trans-unit id="32ef0cc5af8577c12e075c3cb285a786" approved="yes">
+        <source><![CDATA[You can check for it in the <span><strong>"Tools" > "Logs"</strong></span> section of your Back Office.]]></source>
+        <target xml:lang="sq"><![CDATA[Mund të kontrollosh për të në <span><strong>"Mjetet""Protokollet"</strong></span> në seksionin e 'Back Office'.]]></target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/core/log_alert.php:25</note>
       </trans-unit>
     </body>
   </file>
@@ -375,6 +385,12 @@ File: modules/ps_emailgenerator/templates/core/bankwire.php:51</note>
         <target xml:lang="sq">Adresa e bankës:</target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/core/bankwire.php:52</note>
+      </trans-unit>
+      <trans-unit id="b8f05e3501f419f9f7ec08026a9342be" approved="yes">
+        <source>Please specify your order reference in the bankwire description.</source>
+        <target xml:lang="sq">Të lutem specifiko referencën tënde të porosive në përshkrimin e pagëses përmes trasnferit bankar.</target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/core/bankwire.php:53</note>
       </trans-unit>
     </body>
   </file>
@@ -760,7 +776,12 @@ File: modules/ps_emailgenerator/templates/core/shipped.php:25</note>
   </file>
   <file original="modules/ps_emailgenerator/templates/core/footer.php" source-language="en" target-language="sq" datatype="plaintext">
     <body>
-      
+      <trans-unit id="2ef8544a3e6d7f08ce2cadc006bd1bf0" approved="yes">
+        <source><![CDATA[<a href="{shop_url}">{shop_name}</a> powered by <a href="http://www.prestashop.com/">PrestaShop™</a>]]></source>
+        <target xml:lang="sq"><![CDATA[<a href="{shop_url}">{shop_name}</a> fuqizuar nga <a href="http://www.prestashop.com/">PrestaShop</a>]]></target>
+        <note>Context:
+File: modules/ps_emailgenerator/templates/core/footer.php:6</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/ps_emailgenerator/templates/core/voucher.php" source-language="en" target-language="sq" datatype="plaintext">

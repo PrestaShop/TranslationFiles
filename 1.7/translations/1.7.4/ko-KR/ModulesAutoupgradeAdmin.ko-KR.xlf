@@ -120,6 +120,12 @@ File: modules/autoupgrade/AdminSelfTab.php:1628</note>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:4059</note>
       </trans-unit>
+      <trans-unit id="9e435ab00f5e0606f46337fdc73164ff" approved="yes">
+        <source>A high value can cause the upgrade to fail if your server is not powerful enough to process the upgrade tasks in a short amount of time.</source>
+        <target xml:lang="ko">서버가 짧은 시간 내에 업그레이드 작업을 처리 할만큼 강력하지 않으면 높은 값으로 인해 업그레이드가 실패 할 수 있습니다.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:473</note>
+      </trans-unit>
       <trans-unit id="87f8a6ab85c9ced3702b4ea641ad4bb5" approved="yes">
         <source>Medium</source>
         <target xml:lang="ko">중간</target>
@@ -132,6 +138,54 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:474</note>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:474</note>
       </trans-unit>
+      <trans-unit id="047cb0c4fd60e2a2fab8ead3e091f9bd" approved="yes">
+        <source>%modifiedfiles% files will be modified, %deletedfiles% files will be deleted (if they are found).</source>
+        <target xml:lang="ko">%modifiedfiles% 파일이 수정되고, %deletedfiles% 파일이 삭제됩니다 (발견되는 경우).</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:1282</note>
+      </trans-unit>
+      <trans-unit id="1642bf84232919297d598b2a66b3a894" approved="yes">
+        <source>%modificationscount% file modifications have been detected, including %coremodifications% from core and native modules:</source>
+        <target xml:lang="ko">코어와 네이티브 모듈의 %coremodifications%를 포함한, %modificationscount% 파일 변경이 감지되었습니다:</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:1343</note>
+      </trans-unit>
+      <trans-unit id="654f7ceb787fd455c166d5d8744cbf90" approved="yes">
+        <source>"/latest" directory has been emptied</source>
+        <target xml:lang="ko">"/latest" 디렉토리가 비었음</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:1416</note>
+      </trans-unit>
+      <trans-unit id="5479863b0426e29c3a17a3f9cc6e3746" approved="yes">
+        <source>%s files will be upgraded.</source>
+        <target xml:lang="ko">%s 파일들이 업그레이드 됩니다.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:1691</note>
+      </trans-unit>
+      <trans-unit id="481343ab83a2b8e7c7f6c710279f2a6d" approved="yes">
+        <source>%s files left to upgrade.</source>
+        <target xml:lang="ko">업그레이드 할 파일 %s 개 남았습니다.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:1737</note>
+      </trans-unit>
+      <trans-unit id="ca02217f9735e1acce9d586baeeac905" approved="yes">
+        <source>/install/upgrade/php directory is missing in archive or directory</source>
+        <target xml:lang="ko">/install/upgrade/php 디렉토리가 아카이브 또는 디렉토리에 없습니다</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:2110</note>
+      </trans-unit>
+      <trans-unit id="ccd53528618f01a142e2e5bf92be295a" approved="yes">
+        <source>/install/upgrade/php directory is missing in archive or directory.</source>
+        <target xml:lang="ko">/install/upgrade/php 디렉토리가 아카이브 또는 디렉토리에 없습니다.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:2111</note>
+      </trans-unit>
+      <trans-unit id="9a2f2cf276ea9f79b31a815897c0e3e6" approved="yes">
+        <source>%s ignored</source>
+        <target xml:lang="ko">%s 무시됨</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:2903</note>
+      </trans-unit>
       <trans-unit id="0a6c2db1b18cb6420ad40d46db8707de" approved="yes">
         <source>Directory %s already exists.</source>
         <target xml:lang="ko">디렉토리 %s 는 이미 존재합니다.</target>
@@ -139,11 +193,23 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:474</note>
 File: modules/autoupgrade/AdminSelfUpgrade.php:2923
  Comment: directory already exists</note>
       </trans-unit>
+      <trans-unit id="7ead6886c2e0fb40e873da8426e80988" approved="yes">
+        <source>%s file(s) will be removed before restoring the backup files.</source>
+        <target xml:lang="ko">%s 파일(들) 은 백업 파일들을 복원하기 전에 제거됩니다.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:3069</note>
+      </trans-unit>
       <trans-unit id="52033453d4d673bae012b9c8ccb1e79c" approved="yes">
         <source>An error occurred while backing up. Unable to obtain the schema of %s</source>
         <target xml:lang="ko">백업하는 중 오류가 발생했습니다. %s의 스키마를 가져올 수 없음</target>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:3489</note>
+      </trans-unit>
+      <trans-unit id="48f95ff09327408a578e91655ed872a1" approved="yes">
+        <source>%s Files to backup.</source>
+        <target xml:lang="ko">백업할 %s 파일들.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:3651</note>
       </trans-unit>
       <trans-unit id="f36d7ee6cae92008008a95bf5898daf2" approved="yes">
         <source>All files saved. Now backing up database</source>
@@ -157,11 +223,35 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:3701</note>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:3702</note>
       </trans-unit>
+      <trans-unit id="1d7a665a8b724a2a30e72af54b8fd313" approved="yes">
+        <source>%filename% added to archive. %filescount% files left.</source>
+        <target xml:lang="ko">%filename%이 아카이브에 추가되었습니다. %filescount% 파일 남음.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:3716</note>
+      </trans-unit>
       <trans-unit id="41247d1e5ee2ca774bfdc3262ee1770b" approved="yes">
         <source>All files saved. Now backing up database.</source>
         <target xml:lang="ko">모든 파일들이 저장되었습니다. 이제 데이터베이스를 백업합니다.</target>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:3813</note>
+      </trans-unit>
+      <trans-unit id="ee4ec9a767ac013c5161c50f9de96b9e" approved="yes">
+        <source>%itemname% items removed. %itemscount% items left.</source>
+        <target xml:lang="ko">%itemname% 항목 제거되었습니다. %itemscount% 항목 남음.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:3829</note>
+      </trans-unit>
+      <trans-unit id="435d516735dbf7f622c7d14585f66840" approved="yes">
+        <source>Action %s skipped</source>
+        <target xml:lang="ko">동작 %s는 건너뜀</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:4040</note>
+      </trans-unit>
+      <trans-unit id="6ddf6d53665123009129ef2df97f7aab" approved="yes">
+        <source>Action "%s" not found</source>
+        <target xml:lang="ko">동작 "%s" 는 없음</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:4043</note>
       </trans-unit>
       <trans-unit id="2399cf4ca7b49f2706f6e147a32efa78" approved="yes">
         <source>Your lastname contains some invalid characters</source>
@@ -187,6 +277,12 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:4218</note>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:4262</note>
       </trans-unit>
+      <trans-unit id="2b16564e6e838ce86608620b70beb570" approved="yes">
+        <source>Activity Log</source>
+        <target xml:lang="ko">활동 기록</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:4494</note>
+      </trans-unit>
       <trans-unit id="64acebe80a242d6dbb2013d92db337d9">
         <source>Last datetime check: %s </source>
         <target xml:lang="ko" state="needs-translation"> </target>
@@ -211,20 +307,22 @@ File: modules/autoupgrade/AdminSelfUpgrade.php:4719</note>
         <note>Context:
 File: modules/autoupgrade/AdminSelfUpgrade.php:5200</note>
       </trans-unit>
+      <trans-unit id="9311ab161709b4f5efe9c6ff08b33699" approved="yes">
+        <source>%s is not a file</source>
+        <target xml:lang="ko">%s는 파일 아님</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:5606</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/autoupgrade.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="786cc166a84595ae291b2d8b26d93bb3" approved="yes">
+        <source>1-Click Upgrade</source>
+        <target xml:lang="ko">1-Click 업그레이드</target>
+        <note>Context:
+File: modules/autoupgrade/autoupgrade.php:50</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
