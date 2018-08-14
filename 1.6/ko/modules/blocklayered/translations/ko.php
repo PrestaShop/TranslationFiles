@@ -3,6 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{blocklayered}prestashop>blocklayered_b3786b970611c1a3809dd51b630812a7'] = '"%s"은 올바른 url이 아닙니다.';
 $_MODULE['<{blocklayered}prestashop>blocklayered_a3868119dc6858db57127fd26e6f9656'] = '나의 템플렛 - %s';
 $_MODULE['<{blocklayered}prestashop>blocklayered_3601146c4e948c32b6424d2c0a7f0118'] = '가격';
 $_MODULE['<{blocklayered}prestashop>blocklayered_8c489d0946f66d17d73f26366a4bf620'] = '무게';
@@ -14,6 +15,7 @@ $_MODULE['<{blocklayered}prestashop>blocklayered_c0bd7654d5b278e65f21cf4e9153fdb
 $_MODULE['<{blocklayered}prestashop>blocklayered_af1b98adf7f686b84cd0b443e022b7a0'] = '분류';
 $_MODULE['<{blocklayered}prestashop>blocklayered-no-products_5c9838becf9bbce28ba90a7426daf171'] = '상품이 없습니다.';
 $_MODULE['<{blocklayered}prestashop>blocklayered_ea4788705e6873b424c65e91c2846b19'] = '취소';
+$_MODULE['<{blocklayered}prestashop>blocklayered_6c03a470e52036813f268bbfa0873529'] = '%1$s: %2$s';
 $_MODULE['<{blocklayered}prestashop>blocklayered_01b6e20344b68835c5ed1ddedf20d531'] = '까지';
 $_MODULE['<{blocklayered}prestashop>blocklayered_8524de963f07201e5c086830d370797f'] = '불러오는 중...';
 $_MODULE['<{blocklayered}prestashop>add_1.6_93cba07454f06a4a960172bbd6e2a435'] = '예';
@@ -27,6 +29,8 @@ $_MODULE['<{blocklayered}prestashop>add_07a9ca8c8228dd3399141e228034fedf'] = '�
 $_MODULE['<{blocklayered}prestashop>add_5204077231fc7164e2269e96b584dd95'] = '드롭다운 목록';
 $_MODULE['<{blocklayered}prestashop>add_c9cc8cce247e49bae79f15173ce97354'] = '저장';
 $_MODULE['<{blocklayered}prestashop>add_ea4788705e6873b424c65e91c2846b19'] = '취소';
+$_MODULE['<{blocklayered}prestashop>view_1.6_5d27fef01a54790de11db21f1ed47892'] = '%s 이상이거나, 또는 번역 파일들을 수동으로 편집해야 합니다.';
+$_MODULE['<{blocklayered}prestashop>view_1.6_16349835364cf839e6670b0de7da6362'] = '가장 최근 재구성을 권장합니다.';
 $_MODULE['<{blocklayered}prestashop>view_1.6_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
 $_MODULE['<{blocklayered}prestashop>view_1.6_49ee3087348e8d44e1feda1917443987'] = '이름';
 $_MODULE['<{blocklayered}prestashop>view_1.6_af1b98adf7f686b84cd0b443e022b7a0'] = '분류';
@@ -37,7 +41,11 @@ $_MODULE['<{blocklayered}prestashop>view_1.6_254f642527b45bc260048e30704edb39'] 
 $_MODULE['<{blocklayered}prestashop>view_1.6_93cba07454f06a4a960172bbd6e2a435'] = '예';
 $_MODULE['<{blocklayered}prestashop>view_1.6_bafd7322c6e97d25b6299b5d6fe8920b'] = '아니오';
 $_MODULE['<{blocklayered}prestashop>view_1.6_c9cc8cce247e49bae79f15173ce97354'] = '저장';
+$_MODULE['<{blocklayered}prestashop>view_1.6_56fc8142961f1f3e9f9ec0c178881b69'] = '(진행 중)';
+$_MODULE['<{blocklayered}prestashop>view_1.6_7cf7d150dd287df0a8e17eeb4cf2161d'] = '(진행 중, %s 상품 가격이 색인화)';
 $_MODULE['<{blocklayered}prestashop>view_1.6_8524de963f07201e5c086830d370797f'] = '불러오는 중...';
+$_MODULE['<{blocklayered}prestashop>view_5d27fef01a54790de11db21f1ed47892'] = '%s 이상이거나, 또는 번역 파일들을 수동으로 편집해야 합니다.';
+$_MODULE['<{blocklayered}prestashop>view_16349835364cf839e6670b0de7da6362'] = '가장 최근 재구성을 권장합니다.';
 $_MODULE['<{blocklayered}prestashop>view_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
 $_MODULE['<{blocklayered}prestashop>view_49ee3087348e8d44e1feda1917443987'] = '이름';
 $_MODULE['<{blocklayered}prestashop>view_af1b98adf7f686b84cd0b443e022b7a0'] = '분류';
@@ -47,6 +55,8 @@ $_MODULE['<{blocklayered}prestashop>view_f2a6c498fb90ee345d997f888fce3b18'] = '�
 $_MODULE['<{blocklayered}prestashop>view_254f642527b45bc260048e30704edb39'] = '설정';
 $_MODULE['<{blocklayered}prestashop>view_93cba07454f06a4a960172bbd6e2a435'] = '예';
 $_MODULE['<{blocklayered}prestashop>view_bafd7322c6e97d25b6299b5d6fe8920b'] = '아니오';
+$_MODULE['<{blocklayered}prestashop>view_56fc8142961f1f3e9f9ec0c178881b69'] = '(진행 중)';
+$_MODULE['<{blocklayered}prestashop>view_7cf7d150dd287df0a8e17eeb4cf2161d'] = '(진행 중, %s 상품 가격이 색인화)';
 $_MODULE['<{blocklayered}prestashop>view_8524de963f07201e5c086830d370797f'] = '불러오는 중...';
 $_MODULE['<{blocklayered}prestashop>attribute_form_1.6_e6b391a8d2c4d45902a23a8b6585703d'] = 'URL';
 $_MODULE['<{blocklayered}prestashop>attribute_form_1.6_9e11e4b371570340ca07913bc4783a7a'] = '메타 제목';

@@ -25,6 +25,7 @@ $_MODULE['<{themeconfigurator}prestashop>items_78698b9b0fa4eaac0876da3a900d5024'
 $_MODULE['<{themeconfigurator}prestashop>items_9e728651dbd9d313504d86294e193249'] = '부가적 HTML 코드';
 $_MODULE['<{themeconfigurator}prestashop>items_ea4788705e6873b424c65e91c2846b19'] = '취소';
 $_MODULE['<{themeconfigurator}prestashop>items_c9cc8cce247e49bae79f15173ce97354'] = '저장';
+$_MODULE['<{themeconfigurator}prestashop>new_ff19c966036b4a0c7350b2fc7e2861c2'] = '품목 추가';
 $_MODULE['<{themeconfigurator}prestashop>new_4994a8ffeba4ac3140beb89e8d41f174'] = '언어';
 $_MODULE['<{themeconfigurator}prestashop>new_b9b371458ab7c314f88b81c553f6ce51'] = '후크';
 $_MODULE['<{themeconfigurator}prestashop>new_be53a0541a6d36f6ecb879fa2c584b08'] = '이미지';
