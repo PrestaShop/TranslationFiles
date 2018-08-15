@@ -157,21 +157,21 @@ File: controllers/admin/AdminImportController.php:3846</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3819</note>
       </trans-unit>
-      <trans-unit id="c2758df7a8c70260e3b55e26c51b65fd">
+      <trans-unit id="c2758df7a8c70260e3b55e26c51b65fd" approved="yes">
         <source>Advanced stock management has incorrect value. Not set for product %name% </source>
-        <target xml:lang="ko" state="needs-translation"> </target>
+        <target xml:lang="ko">고급 재고 관리에 잘못된 값이 있습니다. 상품 %name%이 설정되지 않았습니다 </target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2192</note>
       </trans-unit>
-      <trans-unit id="bb80841517f78647c5bee69710820c8d">
+      <trans-unit id="bb80841517f78647c5bee69710820c8d" approved="yes">
         <source>Advanced stock management is not enabled, cannot enable on product %name% </source>
-        <target xml:lang="ko" state="needs-translation"> </target>
+        <target xml:lang="ko">고급 재고 관리가 활성화되어 있지 않아서, 상품 %name% 를 활성화 할 수 없습니다 </target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2194</note>
       </trans-unit>
-      <trans-unit id="651e202913d9229ff615d5afd6a6a168">
+      <trans-unit id="651e202913d9229ff615d5afd6a6a168" approved="yes">
         <source>Advanced stock management is not enabled, warehouse not set on product %name% </source>
-        <target xml:lang="ko" state="needs-translation"> </target>
+        <target xml:lang="ko">고급 재고 관리가 활성화되어 있지 않아서, 상품 %name% 의 창고가 설정되지 않았습니다 </target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2207</note>
       </trans-unit>
@@ -187,11 +187,29 @@ File: controllers/admin/AdminImportController.php:2227</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2235</note>
       </trans-unit>
-      <trans-unit id="65167d7a989d3a25c4f81a7140b07b8f">
+      <trans-unit id="65167d7a989d3a25c4f81a7140b07b8f" approved="yes">
         <source>Advanced stock management is not enabled, cannot set "Depends on stock" for product %name% </source>
-        <target xml:lang="ko" state="needs-translation"> </target>
+        <target xml:lang="ko">고급 재고 관리가 활성화되어 있지 않아서, 상품 %name%의 "재고 의존" 을 설정할 수 없습니다 </target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2772</note>
+      </trans-unit>
+      <trans-unit id="85b637ec0128d136bf3794c79f2e7295" approved="yes">
+        <source>Advanced stock management has incorrect value. Not set for product with id %id%.</source>
+        <target xml:lang="ko">고급 재고 관리에 잘못된 값이 있습니다. id %id%를 사용하는 상품이 설정되지 않았습니다.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:2731</note>
+      </trans-unit>
+      <trans-unit id="934b46cf9eb8a8595ca517b87de6bfb4" approved="yes">
+        <source>Advanced stock management is not enabled, cannot enable on product with id %id%.</source>
+        <target xml:lang="ko">고급 재고 관리가 활성화되어 있지 않아서, id %id%를 사용하는 상품을 활성화 할 수 없습니다.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:2733</note>
+      </trans-unit>
+      <trans-unit id="0081b2a315ed28289036fa6cc02a3819" approved="yes">
+        <source>Advanced stock management is not enabled, warehouse is not set on product with id %id%.</source>
+        <target xml:lang="ko">고급 재고 관리가 활성화되어 있지 않아서, id %id%를 사용하는 상품의 창고를 설정할 수 없습니다.</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:2746</note>
       </trans-unit>
       <trans-unit id="14118fbc7d8c233f0ac36ffb31716605" approved="yes">
         <source>%1$s does not exist in database %2$s (ID: %3$s), and therefore cannot be validated</source>
@@ -210,6 +228,12 @@ File: controllers/admin/AdminImportController.php:3257</note>
         <target xml:lang="ko">"%email%"는 올바른 이메일 주소가 아닙니다.</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:3234</note>
+      </trans-unit>
+      <trans-unit id="3cc21b7970c348679cb6a1323a2dc173" approved="yes">
+        <source>Alias is invalid</source>
+        <target xml:lang="ko">별칭이 잘못됨</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3684</note>
       </trans-unit>
       <trans-unit id="243c959202a4f6ce7f1ccba6bc19ff08" approved="yes">
         <source>Cannot read the .CSV file</source>
@@ -473,7 +497,12 @@ File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/CachingType
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/PerformanceController.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
-      
+      <trans-unit id="fd4adc19ae7e0f0391f617451f3729cf" approved="yes">
+        <source>All caches cleared successfully</source>
+        <target xml:lang="ko">모든 캐시들 지워짐</target>
+        <note>Context:
+File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/PerformanceController.php:115</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/MemcacheServerController.php" source-language="en" target-language="ko" datatype="plaintext">
@@ -593,22 +622,24 @@ File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/sy
   </file>
   <file original="admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl" source-language="en" target-language="ko" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="dba49284eb0830e849635506a961aa7c" approved="yes">
+        <source>Always verify the quality and integrity of your backup files!</source>
+        <target xml:lang="ko">항상 백업 파일의 품질과 무결성을 확인하세요!</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:55</note>
+      </trans-unit>
+      <trans-unit id="5cb0e756d153cfcfac763077a5f0628c" approved="yes">
+        <source>Always verify that your backup files are complete, up-to-date and valid, even if you had a success message appear during the backup process.</source>
+        <target xml:lang="ko">백업 프로세스 중에 성공 메시지가 나타나는 경우에도, 항상 백업 파일이 완전하고 최신이고 검증되었는지 확인합니다.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:56</note>
+      </trans-unit>
+      <trans-unit id="0dc51a7afc30b342b827df535ff616f2" approved="yes">
+        <source>Always check your data.</source>
+        <target xml:lang="ko">항상 자료를 확인합니다.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/backup/helpers/list/list_header.tpl:57</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/backup/helpers/view/view.tpl" source-language="en" target-language="ko" datatype="plaintext">
