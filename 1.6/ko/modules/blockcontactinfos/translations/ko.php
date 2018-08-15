@@ -10,6 +10,7 @@ $_MODULE['<{blockcontactinfos}prestashop>blockcontactinfos_ce8ae9da5b7cd6c3df292
 $_MODULE['<{blockcontactinfos}prestashop>blockcontactinfos_c9cc8cce247e49bae79f15173ce97354'] = '저장';
 $_MODULE['<{blockcontactinfos}prestashop>blockcontactinfos_02d4482d332e1aef3437cd61c9bcc624'] = '문의하기';
 $_MODULE['<{blockcontactinfos}prestashop>blockcontactinfos_2e006b735fbd916d8ab26978ae6714d4'] = '전화번호';
+$_MODULE['<{blockcontactinfos}prestashop>blockcontactinfos_320abee94a07e976991e4df0d4afb319'] = '지금 문의하세요:';
 
 
 return $_MODULE;

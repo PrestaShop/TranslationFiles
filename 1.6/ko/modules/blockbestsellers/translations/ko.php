@@ -3,6 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{blockbestsellers}prestashop>blockbestsellers_ed6476843a865d9daf92e409082b76e1'] = '상점의 상위 판매 상품들을 표시할 블럭을 추가합니다.';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_c888438d14855d7d96a2724ee9c306bd'] = '설정 수정';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_f4f70727dc34561dfde1a3c529b6205c'] = '설정';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_26986c3388870d4148b1b5375368a83d'] = '보여질 상품들';

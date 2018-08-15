@@ -3,6 +3,8 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{themeconfigurator}prestashop>themeconfigurator_ec870aa68b135c4f3adc9a3a2731ddbc'] = '슬라이드를 삭제할 수 없습니다.';
+$_MODULE['<{themeconfigurator}prestashop>themeconfigurator_dd2681ec1593dd537587be3389ee24d3'] = '자료 저장 중 오류가 발생했습니다.';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_07b8c09e490f7afbdcfa9cd5bfcfd4a9'] = '이미지를 업로드하는 중 오류가 발생했습니다.';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_f1206f9fadc5ce41694f69129aecac26'] = '구성';
 $_MODULE['<{themeconfigurator}prestashop>themeconfigurator_f4f70727dc34561dfde1a3c529b6205c'] = '설정';

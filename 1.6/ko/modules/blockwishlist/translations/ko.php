@@ -15,7 +15,13 @@ $_MODULE['<{blockwishlist}prestashop>view_87f8a6ab85c9ced3702b4ea641ad4bb5'] = '
 $_MODULE['<{blockwishlist}prestashop>blockwishlist-ajax_f2a6c498fb90ee345d997f888fce3b18'] = '삭제';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist-ajax_4b7d496eedb665d0b5f589f2f874e7cb'] = '상품 상세정보';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist-ajax_09dc02ecbb078868a3a86dded030076d'] = '상품 없음';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist_button_2d96bb66d8541a89620d3c158ceef42b'] = '관심상품에 추가';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist_button_33010ef6524c87c41380e2cc5e212f73'] = '%s에 추가';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist_button_15b94c64c4d5a4f7172e5347a36b94fd'] = '관심상품에 추가';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist_button_6a5373df703ab2827a4ba7facdfcf779'] = '관심상품에 추가';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist-extra_2d96bb66d8541a89620d3c158ceef42b'] = '관심상품에 추가';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist-extra_ec211f7c20af43e742bf2570c3cb84f9'] = '추가';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist-extra_15b94c64c4d5a4f7172e5347a36b94fd'] = '관심상품에 추가';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_f2a6c498fb90ee345d997f888fce3b18'] = '삭제';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_4b7d496eedb665d0b5f589f2f874e7cb'] = '상품 상세정보';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_09dc02ecbb078868a3a86dded030076d'] = '상품 없음';
@@ -45,6 +51,7 @@ $_MODULE['<{blockwishlist}prestashop>view_694e8d1f2ee056f98ee488bdc4982d73'] = '
 $_MODULE['<{blockwishlist}prestashop>view_502996d9790340c5fd7b86a5b93b1c9f'] = '우선순위';
 $_MODULE['<{blockwishlist}prestashop>view_4351cfebe4b61d8aa5efa1d020710005'] = '보기';
 $_MODULE['<{blockwishlist}prestashop>view_2d0f6b8300be19cf35e89e66f0677f95'] = '장바구니에 추가';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist-extra_33010ef6524c87c41380e2cc5e212f73'] = '%s에 추가';
 $_MODULE['<{blockwishlist}prestashop>view_d95cf4ab2cbf1dfb63f066b50558b07d'] = '내 계정';
 
 

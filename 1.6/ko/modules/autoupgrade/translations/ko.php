@@ -18,6 +18,7 @@ $_MODULE['<{autoupgrade}prestashop>adminpreferences_9cfc2e28ebe44b3e14f9d780d215
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_e673b146824251548feecf1f3929aceb'] = '관리자 사이트 쿠키 수명';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_16c390c0fd1efc4f493a6a861aa22d2f'] = '관리자 사이트 도움 상자';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_e4045598261988d9988c594243a9434d'] = '서비스 약관';
+$_MODULE['<{autoupgrade}prestashop>adminpreferences_3aadb5e86b174ecada1174e22f5a6368'] = '첨부 파일 최대 크기';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_46f18d3960afc01e5a1a5a0e0e9d571b'] = '자동으로 모듈 업데이트를 확인';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_686a2ac82a5a64eca870ba9a55b8a675'] = '새로운 모듈과 업데이트는 모듈 페이지에 표시됩니다';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_e4e2107f99e82247d7e32ac7919c4416'] = '관리자 사이트 홈페이지에 최적화 도움말 숨기기';
@@ -55,6 +56,8 @@ $_MODULE['<{autoupgrade}prestashop>adminselftab_f2a6c498fb90ee345d997f888fce3b18
 $_MODULE['<{autoupgrade}prestashop>adminselftab_0071aa279bd1583754a544277740f047'] = '항목 삭제 #';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_6adab6d3fdf92c448d60cf8824e4851c'] = '선택 삭제';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_e25f0ecd41211b01c83e5fec41df4fe7'] = '선택한 항목을 삭제할까요?';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_bb7748991e29366d42f8fa2c361f4d55'] = '내 파일 및 데이터베이스 백업';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d5342bfd5b032cd75faeebdf2a918a79'] = '내 이미지 백업';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9e435ab00f5e0606f46337fdc73164ff'] = '서버가 짧은 시간 내에 업그레이드 작업을 처리 할만큼 강력하지 않으면 높은 값으로 인해 업그레이드가 실패 할 수 있습니다.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_87f8a6ab85c9ced3702b4ea641ad4bb5'] = '중간';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_655d20c1ca69519ca647684edbb2db35'] = '높음';
@@ -66,11 +69,13 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_654f7ceb787fd455c166d5d8744c
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5479863b0426e29c3a17a3f9cc6e3746'] = '%s 파일들이 업그레이드 됩니다.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_fb9740393108d477fc3606647cb14ee7'] = '%1$s 모듈은 1.5.X와 호환되지 않기에, ftp에서 제거됩니다.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7bb21f802330e2539d8342f05c0cd78f'] = '%1$s 모듈은 1.5.X와 호환되지 않습니다. ftp에서 제거해 주세요.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f0d18de100ab33463602ea5b8165d842'] = '추가기능 모듈 파일이 업그레이드되었습니다.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9a2f2cf276ea9f79b31a815897c0e3e6'] = '%s 무시됨';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7ead6886c2e0fb40e873da8426e80988'] = '%s 파일(들) 은 백업 파일들을 복원하기 전에 제거됩니다.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b582cb787be5a12424b3b8ed2cca3cd3'] = '%s 파일들 제거됨';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_509c213d2211a33977ce4ac516fe615a'] = '제거할 %s 파일(들) 남음.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_64736d2638d494df1bedffae7fa10c86'] = '파일 %2$s 에 대한 %1$s 질의어 남음...';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2b0e9a817cf34a8251bdf75c9b1cfefc'] = '백업 디렉토리에 쓸 수 없습니다 ';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_52033453d4d673bae012b9c8ccb1e79c'] = '백업하는 중 오류가 발생했습니다. %s의 스키마를 가져올 수 없음';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ca3f0a9c2464acb36a341a9bf8df0e3f'] = '%1$s 테이블은 저장 되었습니다.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0af2a5642ce31adf7b91aa934f4f57ae'] = '%1$s 테이블이 저장 되었습니다.';
@@ -83,6 +88,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a3549a19c865da802e8aaaf45390
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d268ccafaebc89d9c5fec0e4de024456'] = '항목 %1$s 제거시 오류 발생, %2$s 항목 남음.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3bb38e7d0bfd5a02f7c06cae446fee86'] = '동작 %s는 넘어감';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b4302e98d94591ee9afa09e769b2ee63'] = '동작 "%1$s" 는 없음';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_757fc72e8d69106dd2cf9da22cc7adb1'] = '이메일 전송 중 오류가 발생했습니다, 매개변수들을 확인해 주세요.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_989a45a4ca01ee222f4370172bf8850d'] = '잘못된 상점 이름';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_68499acecfba9d3bf0ca8711f300d3ed'] = '당신의 이름엔 사용할 수 없는 글자가 몇 개 포함되어 있습니다';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2399cf4ca7b49f2706f6e147a32efa78'] = '당신의 성에는 사용할 수 없는 글자가 몇 개 포함되어 있습니다';
@@ -90,8 +96,13 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c629f24e672b4e1165ebf1c10b5c
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_06933067aafd48425d67bcb01bba5cb6'] = '수정';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_801ab24683a4a8c433c6eb40c48bcd9d'] = '다운로드';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2ec74fb71dd2f8f0111f2d74bfe7a7b3'] = 'PrestaShop의 캐싱 기능이 비활성화 됨';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3da4e7a86631518f47d8cedf7f09a5ed'] = '베타 릴리즈';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0c960ac8fc33e1516a568248519b4d03'] = '알파 릴리즈';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b77d20ed1ba7b2ee7139dc4f3fd13117'] = '주요 업그레이드 허용:';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_780daf2510c5c9e1c58948f138629817'] = '사용할 아카이브:';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c9cc8cce247e49bae79f15173ce97354'] = '저장';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2b16564e6e838ce86608620b70beb570'] = '활동 기록';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_21739f79b8e95f4187fce4fefb12af28'] = '상황 분석 중...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_dc3fd488f03d423a04da27ce66274c1b'] = '경고!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_95095fc4bbc8b42ec512cfb1cfa19d8a'] = '당신은 PHP %s 버전을 사용중입니다. 곧, PrestaShop가 지원하는 최신 PHP 버전은 PHP 5.4가 될 것입니다. 추후를 고려한다면, 지금 PHP 5.4로 업그레이드 하길 권장합니다!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_382b0f5185773fa0f67a8ed8056c7759'] = '해당 없음';
@@ -104,6 +115,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9a92bff0f2bacca85a22045df0ff
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_325be51f87717509d7c5b87d45456066'] = '%s 확장기능 활성화 됨';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f2a6c498fb90ee345d997f888fce3b18'] = '삭제';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9311ab161709b4f5efe9c6ff08b33699'] = '%s는 파일 아님';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9015190dc360d94efb0a5013a76697dd'] = '아카이브 추출됨';
 $_MODULE['<{autoupgrade}prestashop>autoupgrade_786cc166a84595ae291b2d8b26d93bb3'] = '1-Click 업그레이드';
 
 

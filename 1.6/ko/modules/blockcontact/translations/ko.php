@@ -10,6 +10,7 @@ $_MODULE['<{blockcontact}prestashop>blockcontact_c9cc8cce247e49bae79f15173ce9735
 $_MODULE['<{blockcontact}prestashop>blockcontact_02d4482d332e1aef3437cd61c9bcc624'] = '문의하기';
 $_MODULE['<{blockcontact}prestashop>blockcontact_673ae02fffb72f0fe68a66f096a01347'] = '전화번호:';
 $_MODULE['<{blockcontact}prestashop>nav_02d4482d332e1aef3437cd61c9bcc624'] = '문의하기';
+$_MODULE['<{blockcontact}prestashop>nav_320abee94a07e976991e4df0d4afb319'] = '지금 문의하세요:';
 
 
 return $_MODULE;
