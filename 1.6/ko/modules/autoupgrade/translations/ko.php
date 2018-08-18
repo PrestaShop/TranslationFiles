@@ -17,8 +17,12 @@ $_MODULE['<{autoupgrade}prestashop>adminpreferences_ed5454727fb14b9800ead242d097
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_9cfc2e28ebe44b3e14f9d780d2150650'] = '쿠키의 도난 방지를 위해 쿠키의 IP 주소를 확인';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_e673b146824251548feecf1f3929aceb'] = '관리자 사이트 쿠키 수명';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_16c390c0fd1efc4f493a6a861aa22d2f'] = '관리자 사이트 도움 상자';
+$_MODULE['<{autoupgrade}prestashop>adminpreferences_403e42a4b26e379cb13563c98ab63067'] = '비회원 결제 활성화';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_e4045598261988d9988c594243a9434d'] = '서비스 약관';
+$_MODULE['<{autoupgrade}prestashop>adminpreferences_2a0677dae563d574fb1c50badaa4eabf'] = '선물포장비';
+$_MODULE['<{autoupgrade}prestashop>adminpreferences_0d8bdbe98feb696dd76760ee1374a740'] = '선물-포장 부가세';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_3aadb5e86b174ecada1174e22f5a6368'] = '첨부 파일 최대 크기';
+$_MODULE['<{autoupgrade}prestashop>adminpreferences_b667478ccafce4bff6d427a6bca06269'] = '재활용 포장 제공';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_46f18d3960afc01e5a1a5a0e0e9d571b'] = '자동으로 모듈 업데이트를 확인';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_686a2ac82a5a64eca870ba9a55b8a675'] = '새로운 모듈과 업데이트는 모듈 페이지에 표시됩니다';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_e4e2107f99e82247d7e32ac7919c4416'] = '관리자 사이트 홈페이지에 최적화 도움말 숨기기';

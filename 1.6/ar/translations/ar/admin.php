@@ -745,7 +745,6 @@ $_LANGADM['AdminImport21d39d4b7191de15242c3d75ae9170ce'] = 'النص إذا ظه
 $_LANGADM['AdminImport21f7b5b011f253b35340528b7f190282'] = 'تاريخ إضافة المنتج';
 $_LANGADM['AdminImport76aeea9f48196068e6b47d46d41e7618'] = 'أظهر السعر (0 = لا، 1 = نعم)';
 $_LANGADM['AdminImport4f5dc004cdd01ec9cf7fbbcf9f812aa7'] = 'حذف الصور الموجودة (0 = لا ، 1 = نعم)';
-$_LANGADM['AdminImport9e2941b3c81256fac10392aaca4ccfde'] = 'الشرط';
 $_LANGADM['AdminImporta10d0bff85112a2b35f885a38088cd20'] = 'النشطة (0 / 1)';
 $_LANGADM['AdminImportf323be7152201bfc856e649e84e9d64c'] = 'رقم تعريف اللقب (السيد=1، السيدة=2، بدون=0)';
 $_LANGADM['AdminImport2800934ee0a7d93e23921cc9f8130e7b'] = 'البريد الإلكتروني *';

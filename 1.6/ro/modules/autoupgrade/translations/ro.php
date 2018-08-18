@@ -183,7 +183,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_40b980e89ae332507380470cd26c
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_1d1a5763d2901dbd435b378358a149b4'] = 'Fisierul %s nu exista. Nu se poate alege acest canal.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c944c279a9e87437e100f65b8c87c391'] = 'Numarul de versiune lipseste. Nu se poate alege acest canal.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ab232f4b20c0e50dad9081bc39382569'] = 'Procesul de actualizare va folosi arhiva.';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_1fe9dd96f646eaa0cd3a0fcc7632ce12'] = 'Eroare la salvarea configureazaei';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_1fe9dd96f646eaa0cd3a0fcc7632ce12'] = 'Eroare la salvarea configuratiei';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_02a400be38a385b3aa5a07df9a39e9d7'] = '%1$s fisiere vor fi modificate, %2$s fisiere vor fi sterse (daca sunt gasite).';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c6fd96a9aed05923b617fdc8d98d1181'] = 'Nu au fost gasite fisiere diff.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_335b4c111b193a855539368676837af4'] = 'Nu s-au putut verifica fisierele pentru versiunea de PrestaShop instalata.';
