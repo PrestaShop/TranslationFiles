@@ -251,6 +251,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7575346d53af6b5bb70539f2cf9e
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b582cb787be5a12424b3b8ed2cca3cd3'] = '%s skedarë u fshinë';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2c6bc2c84e0d76d1091e754d5780ab15'] = 'Gabim gjatë fshirjes %1$s.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_37dc35abea377bac2bcd5bf174ea7b57'] = 'Skedari %s nuk u fshi.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_45303d089088042b5373afc26af8dc7f'] = '[NOTICE]  %s u fshi.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_06a4c1e9de1558a80e838aeced377231'] = '[NOTICE] Direktoria %s u kapërcye (direktoria nuk është bosh).';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0eaea22b698a8194099f1eb6d5d35eb0'] = '[NOTICE] %s nuk ekziston';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_509c213d2211a33977ce4ac516fe615a'] = '%s fskedar(ë) janë lënë për tu fshirë.';
