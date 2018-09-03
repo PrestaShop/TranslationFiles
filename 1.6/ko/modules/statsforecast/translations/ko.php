@@ -13,6 +13,7 @@ $_MODULE['<{statsforecast}prestashop>statsforecast_3bb1503332637805beddb73a2dd1f
 $_MODULE['<{statsforecast}prestashop>statsforecast_ae5d01b6efa819cc7a7c05a8c57fcc2c'] = '방문자';
 $_MODULE['<{statsforecast}prestashop>statsforecast_7442e29d7d53e549b78d93c46b8cdcfc'] = '주문';
 $_MODULE['<{statsforecast}prestashop>statsforecast_fc26e55e0993a75e892175deb02aae15'] = '장바구니';
+$_MODULE['<{statsforecast}prestashop>statsforecast_a34f9feb654595d53807df17b041d804'] = '간단한 통계 계산을 통해 방문자의 금전적 가치를 알 수 있습니다:';
 $_MODULE['<{statsforecast}prestashop>statsforecast_e6e42855066e7a3ae050b2c698021b14'] = '지역:';
 $_MODULE['<{statsforecast}prestashop>statsforecast_e55f75a29310d7b60f7ac1d390c8ae42'] = '모듈';
 $_MODULE['<{statsforecast}prestashop>statsforecast_11ff9f68afb6b8b5b8eda218d7c83a65'] = '판매';

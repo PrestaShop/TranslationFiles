@@ -4,6 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_9ae42413e3cb9596efe3857f75bad3df'] = '공급사 블럭';
+$_MODULE['<{blocksupplier}prestashop>blocksupplier_e72b2501ba75e9ab754d3294d43c2590'] = '상품 공급사를 표시하는 블럭을 추가합니다.';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_f38f5974cdc23279ffe6d203641a8bdf'] = '설정 수정됨.';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_f4f70727dc34561dfde1a3c529b6205c'] = '설정';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_bfdff752293014f11f17122c92909ad5'] = '일반 텍스트 목록 사용';

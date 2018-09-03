@@ -3,6 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{crossselling}prestashop>crossselling_83bcd48a4b3938f7cd10c898ece01adf'] = '모든 상품 페이지에 "이 상품을 구매한 고객이 구매한..." 항목을 추가합니다.';
 $_MODULE['<{crossselling}prestashop>crossselling_462390017ab0938911d2d4e964c0cab7'] = '설정이 수정되었습니다';
 $_MODULE['<{crossselling}prestashop>crossselling_f4f70727dc34561dfde1a3c529b6205c'] = '설정';
 $_MODULE['<{crossselling}prestashop>crossselling_00d23a76e43b46dae9ec7aa9dcbebb32'] = '활성화됨';

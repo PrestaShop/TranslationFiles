@@ -11,6 +11,7 @@ $_MODULE['<{cheque}prestashop>cheque_c888438d14855d7d96a2724ee9c306bd'] = '설�
 $_MODULE['<{cheque}prestashop>cheque_5dd532f0a63d89c5af0243b74732f63c'] = '연락처 세부정보';
 $_MODULE['<{cheque}prestashop>cheque_4b2f62e281e9a6829c6df0e87d34233a'] = '(이름) 의 주문을 지불';
 $_MODULE['<{cheque}prestashop>cheque_dd7bf230fde8d4836917806aff6a6b27'] = '주소';
+$_MODULE['<{cheque}prestashop>cheque_0fe62049ad5246bc188ec1bae347269e'] = '수표를 보내야하는 주소.';
 $_MODULE['<{cheque}prestashop>cheque_c9cc8cce247e49bae79f15173ce97354'] = '저장';
 $_MODULE['<{cheque}prestashop>validation_e2b7dec8fa4b498156dfee6e4c84b156'] = '이 결제방법은 사용할 수 없습니다';
 $_MODULE['<{cheque}prestashop>payment_execution_644818852b4dd8cf9da73543e30f045a'] = '"결제하기"로 돌아가기';

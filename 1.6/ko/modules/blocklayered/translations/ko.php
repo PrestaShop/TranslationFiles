@@ -15,6 +15,8 @@ $_MODULE['<{blocklayered}prestashop>blocklayered_c0bd7654d5b278e65f21cf4e9153fdb
 $_MODULE['<{blocklayered}prestashop>blocklayered_af1b98adf7f686b84cd0b443e022b7a0'] = '분류';
 $_MODULE['<{blocklayered}prestashop>blocklayered-no-products_5c9838becf9bbce28ba90a7426daf171'] = '상품이 없습니다.';
 $_MODULE['<{blocklayered}prestashop>blocklayered_ea4788705e6873b424c65e91c2846b19'] = '취소';
+$_MODULE['<{blocklayered}prestashop>blocklayered_9b569fa0e7896f0e96164b954265eac5'] = '%1$s: %2$s - %3$s';
+$_MODULE['<{blocklayered}prestashop>blocklayered_cf4c997f944b08d0eff346a32272998c'] = '%1$s: %2$s %4$s - %3$s %4$s';
 $_MODULE['<{blocklayered}prestashop>blocklayered_6c03a470e52036813f268bbfa0873529'] = '%1$s: %2$s';
 $_MODULE['<{blocklayered}prestashop>blocklayered_01b6e20344b68835c5ed1ddedf20d531'] = '까지';
 $_MODULE['<{blocklayered}prestashop>blocklayered_8524de963f07201e5c086830d370797f'] = '불러오는 중...';
@@ -39,6 +41,7 @@ $_MODULE['<{blocklayered}prestashop>view_1.6_af1b98adf7f686b84cd0b443e022b7a0'] 
 $_MODULE['<{blocklayered}prestashop>view_1.6_06df33001c1d7187fdd81ea1f5b277aa'] = '동작';
 $_MODULE['<{blocklayered}prestashop>view_1.6_7dce122004969d56ae2e0245cb754d35'] = '수정';
 $_MODULE['<{blocklayered}prestashop>view_1.6_f2a6c498fb90ee345d997f888fce3b18'] = '삭제';
+$_MODULE['<{blocklayered}prestashop>view_1.6_ae2b83a081959fff7ab2e96f4ce972d1'] = '새 템플릿 추가';
 $_MODULE['<{blocklayered}prestashop>view_1.6_254f642527b45bc260048e30704edb39'] = '설정';
 $_MODULE['<{blocklayered}prestashop>view_1.6_93cba07454f06a4a960172bbd6e2a435'] = '예';
 $_MODULE['<{blocklayered}prestashop>view_1.6_bafd7322c6e97d25b6299b5d6fe8920b'] = '아니오';
@@ -62,6 +65,7 @@ $_MODULE['<{blocklayered}prestashop>view_af1b98adf7f686b84cd0b443e022b7a0'] = '�
 $_MODULE['<{blocklayered}prestashop>view_06df33001c1d7187fdd81ea1f5b277aa'] = '동작';
 $_MODULE['<{blocklayered}prestashop>view_7dce122004969d56ae2e0245cb754d35'] = '수정';
 $_MODULE['<{blocklayered}prestashop>view_f2a6c498fb90ee345d997f888fce3b18'] = '삭제';
+$_MODULE['<{blocklayered}prestashop>view_49e61d3c2ed19d967aa62a2cc64b5d12'] = '새 필터 템플릿 추가';
 $_MODULE['<{blocklayered}prestashop>view_254f642527b45bc260048e30704edb39'] = '설정';
 $_MODULE['<{blocklayered}prestashop>view_93cba07454f06a4a960172bbd6e2a435'] = '예';
 $_MODULE['<{blocklayered}prestashop>view_bafd7322c6e97d25b6299b5d6fe8920b'] = '아니오';

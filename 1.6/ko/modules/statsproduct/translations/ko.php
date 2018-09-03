@@ -17,6 +17,7 @@ $_MODULE['<{statsproduct}prestashop>statsproduct_df644ae155e79abf54175bd15d75f36
 $_MODULE['<{statsproduct}prestashop>statsproduct_2a0440eec72540c5b30d9199c01f348c'] = '판매 수량';
 $_MODULE['<{statsproduct}prestashop>statsproduct_844c29394eea07066bb2efefc35784ec'] = '평균 가격';
 $_MODULE['<{statsproduct}prestashop>statsproduct_818f7defe18dbc97da82d054831df2ad'] = '상품을 클릭하여 상품의 통계에 접근하세요!';
+$_MODULE['<{statsproduct}prestashop>statsproduct_b1c94ca2fbc3e78fc30069c8d0f01680'] = '전체';
 $_MODULE['<{statsproduct}prestashop>statsproduct_6ccf03bc05e4b749b74b5d577c7e7d3a'] = '사용 가능 상품';
 $_MODULE['<{statsproduct}prestashop>statsproduct_63d5049791d9d79d86e9a108b0a999ca'] = '참고';
 $_MODULE['<{statsproduct}prestashop>statsproduct_49ee3087348e8d44e1feda1917443987'] = '이름';

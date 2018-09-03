@@ -5,6 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{statsstock}prestashop>statsstock_96ca47f429c269b85e31be9fb17df6d4'] = '가용 수량';
 $_MODULE['<{statsstock}prestashop>statsstock_7782fb19c81ec8a47e39f9c073b7da59'] = '통계 대시 보드에 판매 가용 상품 수량을 보여주는 탭을 추가합니다.';
+$_MODULE['<{statsstock}prestashop>statsstock_b1c94ca2fbc3e78fc30069c8d0f01680'] = '전체';
 $_MODULE['<{statsstock}prestashop>statsstock_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
 $_MODULE['<{statsstock}prestashop>statsstock_12d3c7a4296542c62474856ec452c045'] = '참고.';
 $_MODULE['<{statsstock}prestashop>statsstock_7d74f3b92b19da5e606d737d339a9679'] = '항목';

@@ -3,6 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_f192f208f0bc97af4c5213eee3e78793'] = '고객의 개인 정보 데이터에 대한 메시지 표시 블럭을 추가합니다.';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_20015706a8cbd457cbb6ea3e7d5dc9b3'] = '구성 수정됨';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_fb32badede7c8613fddb8502d847c18b'] = '고객 데이터 정보 보호 메시지의 약관에 동의하면, 아래 체크 박스를 클릭해 주세요.';
 $_MODULE['<{blockcustomerprivacy}prestashop>blockcustomerprivacy_f4f70727dc34561dfde1a3c529b6205c'] = '설정';

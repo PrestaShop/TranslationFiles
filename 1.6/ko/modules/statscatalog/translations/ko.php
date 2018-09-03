@@ -4,6 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{statscatalog}prestashop>statscatalog_cf3aa21c6a2147ddbd86f34091daeccd'] = '목록 통계';
+$_MODULE['<{statscatalog}prestashop>statscatalog_08a7c3cf820979d2c8d4de4f47abb5e6'] = '당신의 목록에 대한 일반적인 통계를 포함한 탭을 통계 대시보드에 추가합니다.';
 $_MODULE['<{statscatalog}prestashop>statscatalog_74cda5a02df704cc5c3e8fee7fc0f7bc'] = '(1 구매/ %d 방문)';
 $_MODULE['<{statscatalog}prestashop>statscatalog_0173374ac20f5843d58b553d5b226ef6'] = '분류 선택';
 $_MODULE['<{statscatalog}prestashop>statscatalog_b1c94ca2fbc3e78fc30069c8d0f01680'] = '전체';
