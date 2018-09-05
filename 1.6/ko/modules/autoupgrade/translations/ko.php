@@ -114,6 +114,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_06933067aafd48425d67bcb01bba
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_801ab24683a4a8c433c6eb40c48bcd9d'] = '다운로드';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2ec74fb71dd2f8f0111f2d74bfe7a7b3'] = 'PrestaShop의 캐싱 기능이 비활성화 됨';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8641eaacafab9d58e7e93a92ff318714'] = '%s 초';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_4e140ba723a03baa6948340bf90e2ef6'] = '이름:';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3da4e7a86631518f47d8cedf7f09a5ed'] = '베타 릴리즈';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0c960ac8fc33e1516a568248519b4d03'] = '알파 릴리즈';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b77d20ed1ba7b2ee7139dc4f3fd13117'] = '주요 업그레이드 허용:';

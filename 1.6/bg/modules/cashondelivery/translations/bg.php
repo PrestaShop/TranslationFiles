@@ -19,7 +19,7 @@ $_MODULE['<{cashondelivery}prestashop>confirmation_e6dc7945b557a1cd949bea92dd589
 $_MODULE['<{cashondelivery}prestashop>confirmation_0db71da7150c27142eef9d22b843b4a9'] = 'За въпроси или повече информация, моля свържете се с нашето';
 $_MODULE['<{cashondelivery}prestashop>confirmation_64430ad2835be8ad60c59e7d44e4b0b1'] = 'обслужване на клиенти';
 $_MODULE['<{cashondelivery}prestashop>payment_b7ada96a0da7ee7fb5371cca0b036d5c'] = 'Плащане с наложен платеж (НП)';
-$_MODULE['<{cashondelivery}prestashop>payment_536dc7424180872c8c2488ae0286fb53'] = 'Плащате стоката в момента, когато получаването ѝ';
+$_MODULE['<{cashondelivery}prestashop>payment_536dc7424180872c8c2488ae0286fb53'] = 'Плащате стоката в момента на получаването ѝ';
 
 
 return $_MODULE;
