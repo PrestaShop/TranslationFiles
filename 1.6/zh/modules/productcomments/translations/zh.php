@@ -67,7 +67,7 @@ $_MODULE['<{productcomments}prestashop>productcomments-extra_a71a0229e164fecdcde
 $_MODULE['<{productcomments}prestashop>productcomments-extra_7966126831926ad29c528b239d69f855'] = '写评论';
 $_MODULE['<{productcomments}prestashop>productcomments_ab51a81c76d95ddc762194d58ec5db63'] = '您确定要举报此评论吗?';
 $_MODULE['<{productcomments}prestashop>productcomments_9a2ccd41653469a8bd94fbb84b271a14'] = '您的评论已经被加入!';
-$_MODULE['<{productcomments}prestashop>productcomments_b20968d9aecd2d075519992e9e2f1ffe'] = '您的评论已提交，一旦版主确认后就可使用。';
+$_MODULE['<{productcomments}prestashop>productcomments_b20968d9aecd2d075519992e9e2f1ffe'] = '您的评论已提交，一旦版主确认后就将被显示。';
 $_MODULE['<{productcomments}prestashop>productcomments_186c30cab59f6b64a453778330d4bbf0'] = '新评论';
 $_MODULE['<{productcomments}prestashop>productcomments_e0aa021e21dddbd6d8cecec71e9cf564'] = '确定';
 $_MODULE['<{productcomments}prestashop>productcomments_4b3b9db8c9784468094acde0f8bf7071'] = '按评分排列';

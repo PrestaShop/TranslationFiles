@@ -38,7 +38,7 @@ $_MODULE['<{cheque}prestashop>payment_execution_569fd05bdafa1712c4f6be5b153b8418
 $_MODULE['<{cheque}prestashop>infos_14e41f4cfd99b10766cc15676d8cda66'] = 'Модул за приемане на плащания чрез чекове.';
 $_MODULE['<{cheque}prestashop>infos_e444fe40d43bccfad255cf62ddc8d18f'] = 'Ако клиентът избере този метод на плащане, статусът на поръчката ще се промени на \'Очаква плащане.\'';
 $_MODULE['<{cheque}prestashop>infos_8c88bbf5712292b26e2a6bbeb0a7b5c4'] = 'Ще трябва ръчно да потвърдите поръчката щом получите чек.';
-$_MODULE['<{cheque}prestashop>payment_return_88526efe38fd18179a127024aba8c1d7'] = 'Поръчката Ви в %s е завършена.';
+$_MODULE['<{cheque}prestashop>payment_return_88526efe38fd18179a127024aba8c1d7'] = 'Поръчката ви в %s е завършена.';
 $_MODULE['<{cheque}prestashop>payment_return_61da27a5dd1f8ced46c77b0feaa9e159'] = 'Чекът Ви трябва да включва:';
 $_MODULE['<{cheque}prestashop>payment_return_621455d95c5de701e05900a98aaa9c66'] = 'Сума за плащане.';
 $_MODULE['<{cheque}prestashop>payment_return_9b8f932b1412d130ece5045ecafd1b42'] = 'Платимо по нареждане на';
