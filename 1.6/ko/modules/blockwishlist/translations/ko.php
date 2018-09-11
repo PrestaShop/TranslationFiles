@@ -93,6 +93,7 @@ $_MODULE['<{blockwishlist}prestashop>mywishlist_03ab340b3f99e03cff9e84314ead38c0
 $_MODULE['<{blockwishlist}prestashop>mywishlist_f2a6c498fb90ee345d997f888fce3b18'] = '삭제';
 $_MODULE['<{blockwishlist}prestashop>mywishlist_4351cfebe4b61d8aa5efa1d020710005'] = '보기';
 $_MODULE['<{blockwishlist}prestashop>mywishlist_0b3db27bc15f682e92ff250ebb167d4b'] = '당신 계정으로 돌아가기';
+$_MODULE['<{blockwishlist}prestashop>mywishlist_8cf04a9734132302f96da8e113e80ce5'] = '첫화면';
 $_MODULE['<{blockwishlist}prestashop>view_641254d77e7a473aa5910574f3f9453c'] = '관심상품';
 $_MODULE['<{blockwishlist}prestashop>view_315356f4c2ed70df345ffc01021f7f56'] = '%1s %2s 의 다른 관심상품:';
 $_MODULE['<{blockwishlist}prestashop>view_4b7d496eedb665d0b5f589f2f874e7cb'] = '상품 상세정보';

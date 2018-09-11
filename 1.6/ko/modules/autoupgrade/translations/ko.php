@@ -51,6 +51,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselftab_0557fa923dcee4d0f86b1409f5c2167f
 $_MODULE['<{autoupgrade}prestashop>adminselftab_630f6dc397fe74e52d5189e2c80f282b'] = '목록으로 돌아가기';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_0470d45929f27e1161330164c423b415'] = '이 섹션에 필수 항목 설정';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_e54b38290c8bdd95e8bc10412c9cc096'] = '필수 항목';
+$_MODULE['<{autoupgrade}prestashop>adminselftab_81f32b96f6626b8968e6a0f4a9bce62e'] = '이 섹션에 필요한 항목을 선택하세요.';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_ee9b2f3cf31c23c944b15fb0b33d6a77'] = '항목 명';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_8a3cfd894d57e33c55400fc9d76aa08a'] = '더 보려면 여기를 클릭';
 $_MODULE['<{autoupgrade}prestashop>adminselftab_a92269f5f14ac147a821728c23204c0b'] = '경고 숨기기';
@@ -126,6 +127,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_dc3fd488f03d423a04da27ce6627
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_95095fc4bbc8b42ec512cfb1cfa19d8a'] = '당신은 PHP %s 버전을 사용중입니다. 곧, PrestaShop가 지원하는 최신 PHP 버전은 PHP 5.4가 될 것입니다. 추후를 고려한다면, 지금 PHP 5.4로 업그레이드 하길 권장합니다!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_382b0f5185773fa0f67a8ed8056c7759'] = '해당 없음';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a14d4d3e7a25e288bacd896ca2eda847'] = '%1$s는 %2$s로 교체됩니다.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c7561db7a418dd39b2201dfe110ab4a4'] = '안함';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a7eca295291f53a23ab7ba0a9c7fd9de'] = '이 기능은 비활성화되었습니다. ';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_96f1fa7f23402c1307c8e2c57c6bccfa'] = '1-click 업그레이드';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9a843f20677a52ca79af903123147af0'] = '환영합니다!';
