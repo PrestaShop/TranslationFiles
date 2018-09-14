@@ -1285,6 +1285,7 @@ $_LANGADM['AdminProductsd3c0fcb337f7422150a62f53ac9e462f'] = '301 영구 이동�
 $_LANGADM['AdminProducts81ec94635740b04c4c82a1eb9ab40c05'] = '302 임시 이동됨 = 임시로 다른 상품을 대신 표시합니다.';
 $_LANGADM['AdminProductsdae8ace18bdcbcc6ae5aece263e14fe8'] = '옵션';
 $_LANGADM['AdminProducts9e2941b3c81256fac10392aaca4ccfde'] = '조건';
+$_LANGADM['AdminProducts6da03a74721a0554b7143254225cc08a'] = '리퍼브';
 $_LANGADM['AdminProducts811882fecd5c7618d7099ebbd39ea254'] = '왼쪽';
 $_LANGADM['AdminProducts7c4f29407893c334a6cb7a87bf045c0d'] = '오른쪽';
 $_LANGADM['AdminProducts17961b90f0b71b08e7f242fd0b7d679a'] = '%dpx X %dpx';
