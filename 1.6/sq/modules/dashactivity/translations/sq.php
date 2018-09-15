@@ -12,8 +12,16 @@ $_MODULE['<{dashactivity}prestashop>dashactivity_914030b0a079e4eec3b3f5090c0fc35
 $_MODULE['<{dashactivity}prestashop>dashactivity_47b8a33a5335cce8d4e353c4d1743f31'] = 'Vizitor në linjë';
 $_MODULE['<{dashactivity}prestashop>dashactivity_c760237f74bcc7e3f90ad956086edb66'] = 'orë';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_f1206f9fadc5ce41694f69129aecac26'] = 'Konfiguro';
+$_MODULE['<{dashactivity}prestashop>dashboard_zone_one_63a6a88c066880c5ac42394a22803ca6'] = 'Rifresko';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_254f642527b45bc260048e30704edb39'] = 'Konfigurimi';
+$_MODULE['<{dashactivity}prestashop>dashboard_zone_one_edfc5fccc0439856b5bd432522ef47aa'] = 'Vizitorë në linjë';
+$_MODULE['<{dashactivity}prestashop>dashboard_zone_one_962b7da7912bc637b03626e23b5832b5'] = 'gjatë %d min. të fundit';
+$_MODULE['<{dashactivity}prestashop>dashboard_zone_one_7aaacf26dbf7d8929916618bb57d81f8'] = 'Shporta aktive';
+$_MODULE['<{dashactivity}prestashop>dashboard_zone_one_24042b0e4b783724dac4178df4db5d68'] = 'Aktualisht në pritje';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_7442e29d7d53e549b78d93c46b8cdcfc'] = 'Porositë';
+$_MODULE['<{dashactivity}prestashop>dashboard_zone_one_247d96cbab5bfc79dff10eb2ce6d8897'] = 'Kthime /ndërrime';
+$_MODULE['<{dashactivity}prestashop>dashboard_zone_one_54e85d70ea67acdcc86963b14d6223a8'] = 'Shporta të braktisura';
+$_MODULE['<{dashactivity}prestashop>dashboard_zone_one_1c4407dd95b9ef941d30c2838208977e'] = 'Produkte pa gjendje stoku';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_a274f4d4670213a9045ce258c6c56b80'] = 'Njoftimet';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_a644e8cd597f2b92aa52861632c0363d'] = 'Mesazhe të reja';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_e539ae01694149c9e12295fe564a376b'] = 'Klientët & buletinet';
