@@ -108,6 +108,12 @@ File: controllers/admin/AdminProductsController.php:719</note>
         <note>Context:
 File: controllers/admin/AdminProductsController.php:799</note>
       </trans-unit>
+      <trans-unit id="0e461384b2f94dcd87f56a8a178fe768" approved="yes">
+        <source>A product must be created before adding features.</source>
+        <target xml:lang="ko">기능을 추가하기 전에 상품을 생성해야 합니다.</target>
+        <note>Context:
+File: controllers/admin/AdminProductsController.php:892</note>
+      </trans-unit>
       <trans-unit id="def4acf542de55ba41c7b7fde82bd5b6" approved="yes">
         <source>Please specify priorities.</source>
         <target xml:lang="ko">우선 순위를 지정하세요.</target>
@@ -144,6 +150,12 @@ File: controllers/admin/AdminProductsController.php:1073</note>
         <note>Context:
 File: controllers/admin/AdminProductsController.php:1082</note>
       </trans-unit>
+      <trans-unit id="c99e8eb97ae8f12508cfd24d1083b8d7" approved="yes">
+        <source>A product must be created before adding customization.</source>
+        <target xml:lang="ko">사용자 정의를 추가하기 전에 상품을 생성해야 합니다.</target>
+        <note>Context:
+File: controllers/admin/AdminProductsController.php:1092</note>
+      </trans-unit>
       <trans-unit id="ed6c7c35c51ba299b38e3af151a5ec0f" approved="yes">
         <source>An error occurred while attempting to associate this image with your shop. </source>
         <target xml:lang="ko">이 이미지와 상점을 연결하려는 중에 오류가 발생했습니다. </target>
@@ -168,11 +180,23 @@ File: controllers/admin/AdminProductsController.php:1554</note>
         <note>Context:
 File: controllers/admin/AdminProductsController.php:1556</note>
       </trans-unit>
+      <trans-unit id="c24ed8eb6e592f766cd1d31ae49ed5b1" approved="yes">
+        <source>A specific price already exists for these parameters.</source>
+        <target xml:lang="ko">이 매개변수에 대한 특정 가격이 이미 존재합니다.</target>
+        <note>Context:
+File: controllers/admin/AdminProductsController.php:1564</note>
+      </trans-unit>
       <trans-unit id="fba78cbc51e76234884ba4d6c232bc12" approved="yes">
         <source>The name for feature %1$s is too long in %2$s.</source>
         <target xml:lang="ko">%1$s의 기능 이름은 %2$s안에 너무 깁니다.</target>
         <note>Context:
 File: controllers/admin/AdminProductsController.php:1588</note>
+      </trans-unit>
+      <trans-unit id="bd43d37e6647d4638a621aa4ccbde2ff" approved="yes">
+        <source>A valid name required for feature. %1$s in %2$s.</source>
+        <target xml:lang="ko">기능에 올바른 이름은 필수입니다. %2$s의 %1$s.</target>
+        <note>Context:
+File: controllers/admin/AdminProductsController.php:1597</note>
       </trans-unit>
       <trans-unit id="0c58058923630a64ce3f415a07cbb00d" approved="yes">
         <source>An error occurred while adding tags.</source>
@@ -180,11 +204,35 @@ File: controllers/admin/AdminProductsController.php:1588</note>
         <note>Context:
 File: controllers/admin/AdminProductsController.php:2321</note>
       </trans-unit>
+      <trans-unit id="0e2338b37ab3dfeed544e8233b53d4e0" approved="yes">
+        <source>The %1$s field is too long (%2$d chars max).</source>
+        <target xml:lang="ko">%1$s항목이 너무 깁니다.(문자최대길이 %2$d).</target>
+        <note>Context:
+File: controllers/admin/AdminProductsController.php:2071</note>
+      </trans-unit>
       <trans-unit id="5e2457ed64286c209f67a9333ed52a17" approved="yes">
         <source>An error occurred while attempting to delete previous tags.</source>
         <target xml:lang="ko">이전 태그를 삭제 중 오류가 발생했습니다.</target>
         <note>Context:
 File: controllers/admin/AdminProductsController.php:2311</note>
+      </trans-unit>
+      <trans-unit id="48b51a11285fae0b1f416165ae8fd489" approved="yes">
+        <source>An error occurred while copying image, the file does not exist anymore.</source>
+        <target xml:lang="ko">이미지 복사 중 오류가 발생하여, 파일이 더 이상 존재하지 않습니다.</target>
+        <note>Context:
+File: controllers/admin/AdminProductsController.php:2853</note>
+      </trans-unit>
+      <trans-unit id="9f26cf683839613815feebc0b1e1c6b9" approved="yes">
+        <source>An error occurred while copying image, the file width is 0px.</source>
+        <target xml:lang="ko">이미지 복사 중 오류가 발생했습니다, 파일의 너비가 0px 입니다.</target>
+        <note>Context:
+File: controllers/admin/AdminProductsController.php:2857</note>
+      </trans-unit>
+      <trans-unit id="de880a806b9948f168a2e70fff130160" approved="yes">
+        <source>An error occurred while copying image, check your memory limit.</source>
+        <target xml:lang="ko">이미지 복사 중 오류가 발생했습니다, 메모리 제한을 확인하세요.</target>
+        <note>Context:
+File: controllers/admin/AdminProductsController.php:2861</note>
       </trans-unit>
       <trans-unit id="06b778accab7c14a499bc6e7a68138ec" approved="yes">
         <source>An error occurred while copying the image.</source>
@@ -196,7 +244,12 @@ File: controllers/admin/AdminProductsController.php:2865</note>
   </file>
   <file original="classes/QqUploadedFileForm.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
-      
+      <trans-unit id="2ddbcf3cd6846f895d2520d0227b7810" approved="yes">
+        <source>Error on image caption: "%1s" is not a valid caption.</source>
+        <target xml:lang="ko">이미지 설명에 오류: "%1s" 는 잘못된 설명입니다.</target>
+        <note>Context:
+File: classes/QqUploadedFileForm.php:48</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/controller/AdminController.php" source-language="en" target-language="ko" datatype="plaintext">
@@ -754,7 +807,7 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_
     <body>
       <trans-unit id="c292d80ff15bf0d38f63af320f9f7839" approved="yes">
         <source>Friendly URLs are currently disabled.</source>
-        <target xml:lang="ko">친숙한 URL은 현재 비활성화 되었습니다.</target>
+        <target xml:lang="ko">단축 URL은 현재 비활성화 되었습니다.</target>
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_seo.html.twig:71</note>
       </trans-unit>
@@ -766,7 +819,7 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_
       </trans-unit>
       <trans-unit id="9bbbc84f839137c71e79f1b8eaafc5b7" approved="yes">
         <source>Friendly URLs are currently enabled.</source>
-        <target xml:lang="ko">친숙한 URL은 현재 활성화 되었습니다.</target>
+        <target xml:lang="ko">단축 URL은 현재 활성화 되었습니다.</target>
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_seo.html.twig:74</note>
       </trans-unit>
@@ -778,7 +831,7 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_
       </trans-unit>
       <trans-unit id="d7e9bf98e857f83943b3b75fce04cea9" approved="yes">
         <source>The "Force update of friendly URL" option is currently enabled.</source>
-        <target xml:lang="ko">"친숙한 URL 강제 갱신" 옵션이 현재 활성화 되었습니다.</target>
+        <target xml:lang="ko">"단축 URL 강제 갱신" 옵션이 현재 활성화 되었습니다.</target>
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_seo.html.twig:80</note>
       </trans-unit>
