@@ -41,7 +41,6 @@ $_MODULE['<{blockwishlist}prestashop>mywishlist_3540aa14bffcdfbbfc3aafbbcb028a1f
 $_MODULE['<{blockwishlist}prestashop>view_655d20c1ca69519ca647684edbb2db35'] = 'Alta';
 $_MODULE['<{blockwishlist}prestashop>view_87f8a6ab85c9ced3702b4ea641ad4bb5'] = 'Media';
 $_MODULE['<{blockwishlist}prestashop>view_28d0edd045e05cf5af64e35ae0c4c6ef'] = 'Baja';
-$_MODULE['<{blockwishlist}prestashop>managewishlist_a9839ad48cf107667f73bad1d651f2ca'] = 'No se ha encontrado ninguna plantilla';
 $_MODULE['<{blockwishlist}prestashop>sendwishlist_8f4be21ec3cfbba15a349e9c5e888579'] = 'token no válido';
 $_MODULE['<{blockwishlist}prestashop>sendwishlist_90d8a44a1fba13198035d86caeeb2d4d'] = 'Lista de deseos no válida';
 $_MODULE['<{blockwishlist}prestashop>sendwishlist_072df51ea0cb142b770d6209dab5a85b'] = 'Error al enviar la lista de deseos';
