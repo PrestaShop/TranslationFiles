@@ -2,6 +2,18 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="classes/form/CustomerPersister.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
+      <trans-unit id="d2f614cac7a0f970168f6d129860a1c0" approved="yes">
+        <source>Invalid email/password combination</source>
+        <target xml:lang="ko">잘못된 이메일/비밀번호 조합</target>
+        <note>Context:
+File: classes/form/CustomerPersister.php:73</note>
+      </trans-unit>
+      <trans-unit id="5f377de6cd38d0577c9628eeaecb3d0f" approved="yes">
+        <source>There seems to be an issue with your account, please contact support</source>
+        <target xml:lang="ko">계정 관련 오류가 발생했습니다. 지원팀에 문의하세요</target>
+        <note>Context:
+File: classes/form/CustomerPersister.php:103</note>
+      </trans-unit>
       <trans-unit id="e3cf2c117615da59fb8930d299eb16f3" approved="yes">
         <source>An account was already registered with this email address</source>
         <target xml:lang="ko">이 이메일 주소로 이미 등록된 계정이 있습니다.</target>
@@ -12,6 +24,30 @@ File: classes/form/CustomerPersister.php:182</note>
   </file>
   <file original="modules/trackingfront/trackingfront.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
+      <trans-unit id="47be05698f8dd87bb445ceefce6abd0d" approved="yes">
+        <source>Password is required</source>
+        <target xml:lang="ko">비밀번호가 필요합니다</target>
+        <note>Context:
+File: modules/trackingfront/trackingfront.php:88</note>
+      </trans-unit>
+      <trans-unit id="a3de4dbbfe3bac5d271a16fb8a6f942e" approved="yes">
+        <source>Login is required</source>
+        <target xml:lang="ko">로그인이 필요합니다</target>
+        <note>Context:
+File: modules/trackingfront/trackingfront.php:84</note>
+      </trans-unit>
+      <trans-unit id="a6f2a48726b0d36107e00e20795d3d37" approved="yes">
+        <source>Invalid login</source>
+        <target xml:lang="ko">잘못된 로그인</target>
+        <note>Context:
+File: modules/trackingfront/trackingfront.php:86</note>
+      </trans-unit>
+      <trans-unit id="cba0b206627d45fbf0ae707e20d4a38f" approved="yes">
+        <source>Invalid password</source>
+        <target xml:lang="ko">잘못된 비밀번호</target>
+        <note>Context:
+File: modules/trackingfront/trackingfront.php:90</note>
+      </trans-unit>
       <trans-unit id="d4e6d6c42bf3eb807b8778255a4ce415" approved="yes">
         <source>Authentication failed</source>
         <target xml:lang="ko">인증 실패</target>
@@ -59,8 +95,18 @@ File: classes/form/CustomerLoginForm.php:73</note>
   </file>
   <file original="controllers/front/AddressController.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="2af64b8ece83492468fbc41f9b692556" approved="yes">
+        <source>Could not delete address.</source>
+        <target xml:lang="ko">주소를 삭제할 수 없습니다.</target>
+        <note>Context:
+File: controllers/front/AddressController.php:80</note>
+      </trans-unit>
+      <trans-unit id="0adae640fffe5e6c0208e25f13aaa414" approved="yes">
+        <source>Please fix the error below.</source>
+        <target xml:lang="ko">아래 오류를 수정해 주세요.</target>
+        <note>Context:
+File: controllers/front/AddressController.php:59</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/CartRule.php" source-language="en" target-language="ko" datatype="plaintext">
@@ -143,6 +189,12 @@ File: classes/CartRule.php:752</note>
         <note>Context:
 File: classes/CartRule.php:770</note>
       </trans-unit>
+      <trans-unit id="4837d38bc896f38c39d6f7024e466967" approved="yes">
+        <source>This voucher is not combinable with an other voucher already in your cart: %s</source>
+        <target xml:lang="ko">이 할인 쿠폰은 장바구니에 이미 입력된 다른 쿠폰과 같이 사용할 수 없습니다: %s</target>
+        <note>Context:
+File: classes/CartRule.php:788</note>
+      </trans-unit>
       <trans-unit id="e199546c0a1d80f1bf116b131ee02e22" approved="yes">
         <source>Cart is empty</source>
         <target xml:lang="ko">장바구니가 비었습니다.</target>
@@ -171,6 +223,12 @@ File: classes/CartRule.php:1017</note>
         <note>Context:
 File: controllers/front/PasswordController.php:55</note>
       </trans-unit>
+      <trans-unit id="909179695703d6a048fab0bcc9af4758" approved="yes">
+        <source>We cannot regenerate your password with the data you've submitted</source>
+        <target xml:lang="ko">당신이 제출한 데이터로 비밀번호를 재생성할 수 없습니다</target>
+        <note>Context:
+File: controllers/front/PasswordController.php:195</note>
+      </trans-unit>
       <trans-unit id="194496a52d41fba1c9e6140c4eb34f83" approved="yes">
         <source>You cannot regenerate the password for this account.</source>
         <target xml:lang="ko">이 계정에 대한 암호를 재생성 할 수 없습니다.</target>
@@ -194,6 +252,24 @@ File: controllers/front/PasswordController.php:186</note>
         <target xml:lang="ko">고객의 계정을 찾을 수 없습니다.</target>
         <note>Context:
 File: controllers/front/PasswordController.php:119</note>
+      </trans-unit>
+      <trans-unit id="da9aa00ef0107af3e55d9ae1e8a1f361" approved="yes">
+        <source>The password and its confirmation do not match.</source>
+        <target xml:lang="ko">비밀번호와 비밀번호 확인이 일치하지 않습니다.</target>
+        <note>Context:
+File: controllers/front/PasswordController.php:131</note>
+      </trans-unit>
+      <trans-unit id="cf84bfe60dba837405db6f0a3cb9c086" approved="yes">
+        <source>The password change request expired. You should ask for a new one.</source>
+        <target xml:lang="ko">비밀번호 변경 요청이 만료되었습니다. 새 비밀번호를 요청해야 합니다.</target>
+        <note>Context:
+File: controllers/front/PasswordController.php:149</note>
+      </trans-unit>
+      <trans-unit id="619469491be87d328254b6f41cd73770" approved="yes">
+        <source>An error occurred with your account, which prevents us from updating the new password. Please report this issue using the contact form.</source>
+        <target xml:lang="ko">계정에 오류가 발생하여, 새 비밀번호 갱신을 하지 못했습니다. 문의 양식을 사용하여 이 문제를 보고해 주세요.</target>
+        <note>Context:
+File: controllers/front/PasswordController.php:189</note>
       </trans-unit>
     </body>
   </file>
@@ -228,6 +304,12 @@ File: controllers/front/OrderDetailController.php:173</note>
         <target xml:lang="ko">추가하려는 각 상품별로, 원하는 수량을 입력해 주세요.</target>
         <note>Context:
 File: controllers/front/OrderDetailController.php:175</note>
+      </trans-unit>
+      <trans-unit id="a3c5d3c6953c588760d90657e4f0b790" approved="yes">
+        <source>This order cannot be returned</source>
+        <target xml:lang="ko">이 주문은 반품 할 수 없습니다</target>
+        <note>Context:
+File: controllers/front/OrderDetailController.php:177</note>
       </trans-unit>
     </body>
   </file>
@@ -313,6 +395,12 @@ File: controllers/front/GetFileController.php:323</note>
         <note>Context:
 File: controllers/front/GetFileController.php:324</note>
       </trans-unit>
+      <trans-unit id="cb3bf6b78b0297d94c00187dcafd77a3" approved="yes">
+        <source>Expiration date has passed, you cannot download this product.</source>
+        <target xml:lang="ko">유효 기간이 경과하여, 이 상품을 다운로드 할 수 없습니다.</target>
+        <note>Context:
+File: controllers/front/GetFileController.php:326</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/front/AddressesController.php" source-language="en" target-language="ko" datatype="plaintext">
@@ -348,14 +436,34 @@ File: controllers/front/OrderFollowController.php:103</note>
   </file>
   <file original="controllers/front/IdentityController.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
-      
+      <trans-unit id="7cee9e5fd53cf1d3d1677ef3edc4a613" approved="yes">
+        <source>Could not update your information, please check your data.</source>
+        <target xml:lang="ko">당신의 정보를 업데이트 할 수 없습니다, 데이터를 확인해 주세요.</target>
+        <note>Context:
+File: controllers/front/IdentityController.php:60</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/front/GuestTrackingController.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="ddb329ec6521925a245fbe1334d2ce18" approved="yes">
+        <source>Please provide the required information</source>
+        <target xml:lang="ko">필수 정보를 입력해 주세요</target>
+        <note>Context:
+File: controllers/front/GuestTrackingController.php:63</note>
+      </trans-unit>
+      <trans-unit id="ac68011e87111c9833dab09935bd88f3" approved="yes">
+        <source>We couldn't find your order with the information provided, please try again</source>
+        <target xml:lang="ko">제공된 정보로 주문을 찾을 수 없습니다. 다시 시도해 주세요</target>
+        <note>Context:
+File: controllers/front/GuestTrackingController.php:83</note>
+      </trans-unit>
+      <trans-unit id="97f79d53b078e529949d5c3c8b676d52" approved="yes">
+        <source>An unexpected error occurred while creating your account.</source>
+        <target xml:lang="ko">계정 생성 중 예기치 않은 오류가 발생했습니다.</target>
+        <note>Context:
+File: controllers/front/GuestTrackingController.php:108</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/front/listing/CategoryController.php" source-language="en" target-language="ko" datatype="plaintext">
@@ -370,6 +478,12 @@ File: controllers/front/listing/CategoryController.php:82</note>
   </file>
   <file original="controllers/front/CartController.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
+      <trans-unit id="d21c3bf7d25db04b73e7e269aef555fe" approved="yes">
+        <source>This voucher does not exist.</source>
+        <target xml:lang="ko">이 할인 쿠폰은 존재하지 않습니다.</target>
+        <note>Context:
+File: controllers/front/CartController.php:260</note>
+      </trans-unit>
       <trans-unit id="dfbe69c6d9568ecb0e65e7b32ed92a3a" approved="yes">
         <source>Product not found</source>
         <target xml:lang="ko">상품을 찾지 못했습니다.</target>
@@ -392,7 +506,12 @@ File: controllers/front/CartController.php:505</note>
   </file>
   <file original="src/Core/Product/ProductPresenter.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
-      
+      <trans-unit id="a923575984949608ce04c4984806ec2a" approved="yes">
+        <source>There are not enough products in stock</source>
+        <target xml:lang="ko">상품의 재고가 충분하지 않습니다.</target>
+        <note>Context:
+File: src/Core/Product/ProductPresenter.php:482</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
