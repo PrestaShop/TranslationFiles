@@ -26,6 +26,7 @@ $_MODULE['<{followup}prestashop>stats_c33e404a441c6ba9648f88af3c68a1ca'] = '数�
 $_MODULE['<{followup}prestashop>stats_44749712dbec183e983dcd78a7736c41'] = '日期';
 $_MODULE['<{followup}prestashop>stats_8b83489bd116cb60e2f348e9c63cd7f6'] = '尊贵客户';
 $_MODULE['<{followup}prestashop>stats_7d75b7b0f976b3091f490864c6ffbf97'] = '糟糕客户';
+$_MODULE['<{followup}prestashop>stats_7f8c0283f16925caed8e632086b81b9c'] = '已发送';
 
 
 return $_MODULE;

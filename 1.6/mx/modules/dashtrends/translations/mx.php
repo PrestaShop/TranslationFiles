@@ -11,7 +11,6 @@ $_MODULE['<{dashtrends}prestashop>dashtrends_11ff9f68afb6b8b5b8eda218d7c83a65'] 
 $_MODULE['<{dashtrends}prestashop>dashtrends_7442e29d7d53e549b78d93c46b8cdcfc'] = 'Pedidos';
 $_MODULE['<{dashtrends}prestashop>dashtrends_8c804960da61b637c548c951652b0cac'] = 'Carrito medio';
 $_MODULE['<{dashtrends}prestashop>dashtrends_d7e637a6e9ff116de2fa89551240a94d'] = 'Visitas';
-$_MODULE['<{dashtrends}prestashop>dashtrends_e4c3da18c66c0147144767efeb59198f'] = 'Tasa de conversión';
 $_MODULE['<{dashtrends}prestashop>dashtrends_43d729c7b81bfa5fc10e756660d877d1'] = 'Utilidad neta';
 $_MODULE['<{dashtrends}prestashop>dashtrends_46418a037045b91e6715c4da91a2a269'] = '%s (ejercicio anterior)';
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_2938c7f7e560ed972f8a4f68e80ff834'] = 'Panel de control';
@@ -26,7 +25,6 @@ $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_791d6355d34dfaf60d68ef04d1e
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_4f631447981c5fa240006a5ae2c4b267'] = 'Número total de visitas dentro del rango de fechas. Una visita es el periodo de tiempo que un usuario pasa usando activamente tu página web.';
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_d7e637a6e9ff116de2fa89551240a94d'] = 'Visitas';
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_7a6e858f8c7c0b78fb4d43cefcb8c017'] = 'La Tasa de Conversión Ecommerce es el porcentaje de visitas que dió lugar a un pedido válido.';
-$_MODULE['<{dashtrends}prestashop>dashboard_zone_two_e4c3da18c66c0147144767efeb59198f'] = 'Tasa de conversión';
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_8dedc1b3ee3a92212fb5b5acad7f207f'] = 'La utilidad neta es una medida de la rentabilidad de una empresa después de considerar todos los costos de Ecommerce. Puedes proporcionar estos costes haciendo clic en el icono de configuración justo encima de aquí.';
 $_MODULE['<{dashtrends}prestashop>dashboard_zone_two_43d729c7b81bfa5fc10e756660d877d1'] = 'Utilidad neta';
 

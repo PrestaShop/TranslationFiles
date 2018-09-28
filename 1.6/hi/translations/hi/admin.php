@@ -37,6 +37,7 @@ $_LANGADM['AdminLanguages801ab24683a4a8c433c6eb40c48bcd9d'] = 'डाउनल�
 $_LANGADM['AdminModulesf1206f9fadc5ce41694f69129aecac26'] = 'विन्यस्त करें';
 $_LANGADM['AdminProducts6adf97f83acf6453d4a6a4b1070f3754'] = 'कुछ नहीं';
 $_LANGADM['AdminProducts0bcef9c45bd8a48eda1b26eb0c61c869'] = '%';
+$_LANGADM['AdminControllere6a7f8a2f42cc35979973da8dfb10720'] = 'मंच';
 $_LANGADM['Helpere7935ae6c516d89405ec532359d2d75a'] = 'यातायात';
 $_LANGADM['Helper0bcef9c45bd8a48eda1b26eb0c61c869'] = '%';
 
