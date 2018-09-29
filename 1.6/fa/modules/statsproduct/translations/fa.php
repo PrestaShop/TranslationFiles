@@ -16,12 +16,12 @@ $_MODULE['<{statsproduct}prestashop>statsproduct_155d5c362e6887660600763fc0d55f0
 $_MODULE['<{statsproduct}prestashop>statsproduct_8041d874fe39d54c6e78156c27341c85'] = 'مجموع بازدید';
 $_MODULE['<{statsproduct}prestashop>statsproduct_d311128c6b9f34f85e6b0e29bcbcd165'] = 'ضریب تبدیل';
 $_MODULE['<{statsproduct}prestashop>statsproduct_998e4c5c80f27dec552e99dfed34889a'] = 'استخراج CSV';
-$_MODULE['<{statsproduct}prestashop>statsproduct_c90b9dca2d3f5bb6e0d0bdceac8a631d'] = 'پراکندگی خصوصیت فروش';
+$_MODULE['<{statsproduct}prestashop>statsproduct_c90b9dca2d3f5bb6e0d0bdceac8a631d'] = 'پراکندگی فروش مشخصه';
 $_MODULE['<{statsproduct}prestashop>statsproduct_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'فروش‌ها';
 $_MODULE['<{statsproduct}prestashop>statsproduct_44749712dbec183e983dcd78a7736c41'] = 'تاریخ';
 $_MODULE['<{statsproduct}prestashop>statsproduct_a240fa27925a635b08dc28c9e4f9216d'] = 'سفارش';
 $_MODULE['<{statsproduct}prestashop>statsproduct_ce26601dac0dea138b7295f02b7620a7'] = 'مشتری';
-$_MODULE['<{statsproduct}prestashop>statsproduct_f2bbdf9f72c085adc4d0404e370f0f4c'] = 'خصوصیت';
+$_MODULE['<{statsproduct}prestashop>statsproduct_f2bbdf9f72c085adc4d0404e370f0f4c'] = 'مشخصه';
 $_MODULE['<{statsproduct}prestashop>statsproduct_694e8d1f2ee056f98ee488bdc4982d73'] = 'تعداد';
 $_MODULE['<{statsproduct}prestashop>statsproduct_3601146c4e948c32b6424d2c0a7f0118'] = 'قیمت';
 $_MODULE['<{statsproduct}prestashop>statsproduct_87017c9259838bb0918a2ab4f96016c0'] = 'فروش ضربدری';

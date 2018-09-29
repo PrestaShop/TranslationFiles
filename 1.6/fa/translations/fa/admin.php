@@ -75,8 +75,8 @@ $_LANGADM['AdminAttachments1f66f9472666b18b19c22fd0f1a6a07b'] = 'فایل بسی
 $_LANGADM['AdminAttachments8a23b9ee3a4502a0de3fc32c5ba7aa65'] = 'کپی فایل با شکست مواجه شد';
 $_LANGADM['AdminAttachments0c6c7ccc80b3bfb8fcb57dc63405f599'] = 'rnحجم فايل زياد است،حداكثر حجم مجاز %1$d kB است. حجم فايلي كه مي خواهيد بارگزاري كنيد %2$d kB است. ';
 $_LANGADM['AdminAttachmentsd647666a6c4cef994b4fa1a540ba4481'] = 'خطا در بارگذاري. لطفاً تنظيمات سرور خود را براي حداکثر مقدار مجاز آپلود فايل بررسي کنيد.';
-$_LANGADM['AdminAttributeGenerator81315cfd898aada1e99e0034b4b078c3'] = 'تولیدکننده خصوصیات';
-$_LANGADM['AdminAttributeGenerator402784f5f14c30e7309a135ba6be531f'] = 'بازگشت به محصول ';
+$_LANGADM['AdminAttributeGenerator81315cfd898aada1e99e0034b4b078c3'] = 'تولیدکننده مشخصه‌ها';
+$_LANGADM['AdminAttributeGenerator402784f5f14c30e7309a135ba6be531f'] = 'بازگشت به محصول';
 $_LANGADM['AdminAttributeGenerator9446a98ad14416153cc4d45ab8b531bf'] = 'کارایی';
 $_LANGADM['AdminAttributeGeneratorced303d99586792bb560b5e1d35ea220'] = 'این ویژگی غیرفعال شده است. می‎توانید آن را از اینجا فعال کنید: %s.';
 $_LANGADM['AdminAttributesGroupsb718adec73e04ce3ec720dd11a06a308'] = 'شناسه';
@@ -91,17 +91,17 @@ $_LANGADM['AdminAttributesGroups5204077231fc7164e2269e96b584dd95'] = 'فهرست
 $_LANGADM['AdminAttributesGroups8bd90a6d76a77fe0b160e8abd85c8590'] = 'دکمه های رادیویی';
 $_LANGADM['AdminAttributesGroupsf68b27443f6e6f685cce3f9f422a2b84'] = 'رنگ یا طرح';
 $_LANGADM['AdminAttributesGroups287234a1ff35a314b5b6bc4e5828e745'] = 'مشخصه‌ها';
-$_LANGADM['AdminAttributesGroupsf2d1c5443636295e9720caac90ea8d93'] = 'نام داخلی شما برای این ویژگی.';
+$_LANGADM['AdminAttributesGroupsf2d1c5443636295e9720caac90ea8d93'] = 'نام داخلی شما برای این مشخصه.';
 $_LANGADM['AdminAttributesGroups6252c0f2c2ed83b7b06dfca86d4650bb'] = 'کاراکترهای نامعتبر:';
 $_LANGADM['AdminAttributesGroupsd274013ea65428454962a59b7b373a41'] = 'نام عمومی';
-$_LANGADM['AdminAttributesGroupsb5e6921c2d093fbcb0088c9466ee9983'] = 'نام عمومی برای این ویژگی، که به مشتریان نمایش داده میشود.';
-$_LANGADM['AdminAttributesGroups17af8baa9b3f90e936589069e4223280'] = 'نوع ویژگی';
-$_LANGADM['AdminAttributesGroups1736c2a3dfbe74f884bf5c9750bd4606'] = 'روشی که مقدار صفت در صفحه محصول به مشتری نمایش داده خواهد شد.';
+$_LANGADM['AdminAttributesGroupsb5e6921c2d093fbcb0088c9466ee9983'] = 'نام عمومی برای این مشخصه، که به مشتریان نمایش داده میشود.';
+$_LANGADM['AdminAttributesGroups17af8baa9b3f90e936589069e4223280'] = 'نوع مشخصه';
+$_LANGADM['AdminAttributesGroups1736c2a3dfbe74f884bf5c9750bd4606'] = 'روشی که مقدار مشخصه در صفحه محصول به مشتری نمایش داده خواهد شد.';
 $_LANGADM['AdminAttributesGroups9d55fc80bbb875322aa67fd22fc98469'] = 'انجمن فروشگاه';
 $_LANGADM['AdminAttributesGroupsc9cc8cce247e49bae79f15173ce97354'] = 'ذخیره';
 $_LANGADM['AdminAttributesGroupsc82a6100dace2b41087ba6cf99a5976a'] = 'مقدارها';
-$_LANGADM['AdminAttributesGroups0e010c6b3fb88bf4277c880d1657787a'] = 'گروه های مربوط به ویژگی';
-$_LANGADM['AdminAttributesGroups71c476c94d0a0e3dfc0826afd03d2dda'] = 'گروه ویژگی برای این مقدار را انتخاب کنید.';
+$_LANGADM['AdminAttributesGroups0e010c6b3fb88bf4277c880d1657787a'] = 'گروه مشخصه';
+$_LANGADM['AdminAttributesGroups71c476c94d0a0e3dfc0826afd03d2dda'] = 'گروه مشخصه برای این مقدار را انتخاب کنید.';
 $_LANGADM['AdminAttributesGroups22cbf85c41427960736dc10cfec5faf4'] = 'به وسیله انتخاب رنگ، رنگی برگزینید یا یک رنگ HTML وارد نمایید (نمونه : \"lightblue\", \"#CC6600\").';
 $_LANGADM['AdminAttributesGroupsa3e8ae43188ae76d38f414b2bdb0077b'] = 'بافت';
 $_LANGADM['AdminAttributesGroupsdd24a1142c1070a0efbdf43b4f0167cc'] = 'یک فایل تصویر شامل طرح رنگ از کامپیوتر خود آپلود کنید.';
@@ -944,7 +944,7 @@ $_LANGADM['AdminImport9f954c5e16659673382f03fa027772ea'] = 'جزئیات سفا�
 $_LANGADM['AdminImportb8495b50f5c172ebad1cc5c615548afa'] = 'نادیده گرفتن این ستون';
 $_LANGADM['AdminImport97f08a40f22a625d0cbfe03db3349108'] = 'شناسه محصول';
 $_LANGADM['AdminImportfa4ecc0168c2a9e448f469e3835d2a68'] = 'مرجع محصول';
-$_LANGADM['AdminImport8ae880593c2afcc7da6d3530513a05d6'] = 'ویژگی (نام : نوع : موقعیت)';
+$_LANGADM['AdminImport8ae880593c2afcc7da6d3530513a05d6'] = 'مشخصه (نام:نوع:موقعیت)';
 $_LANGADM['AdminImporte1b8b0be45098d71aba659e1149ea395'] = ' ارزش (ارزش : موقعیت)';
 $_LANGADM['AdminImport8284ae5df53e6e7ffc1f2cc67ae68765'] = 'مرجع توزیع کننده';
 $_LANGADM['AdminImport63d5049791d9d79d86e9a108b0a999ca'] = 'مرجع';
@@ -1057,7 +1057,7 @@ $_LANGADM['AdminImportf9c5030e9d71a6ba285489576e1d0e3f'] = 'تاریخ تحوی�
 $_LANGADM['AdminImport6703aa9936582b4381418f7d523370b4'] = 'نرخ تخفیف';
 $_LANGADM['AdminImport278c491bdd8a53618c149c4ac790da34'] = 'قالب';
 $_LANGADM['AdminImportc5d4da7adbd98e284ef9a8733a9ceaf2'] = 'شناسه محصول *';
-$_LANGADM['AdminImport41b00531a619d5e0f965854e352529f1'] = 'شناسه ویژگی محصول';
+$_LANGADM['AdminImport41b00531a619d5e0f965854e352529f1'] = 'شناسه مشخصه محصول';
 $_LANGADM['AdminImport94fb72f3353fb2507e18fc6748f7a811'] = 'قیمت واحد (بدون مالیات) *';
 $_LANGADM['AdminImportf41a10a672cbcdecaad1d2f73f30b1f8'] = 'مقدار مورد نیاز است *';
 $_LANGADM['AdminImport8fe77c2601e54f1aaef28cfde997bbad'] = 'نرخ مالیات';
@@ -1085,7 +1085,7 @@ $_LANGADM['AdminImportef1a78ea7433cfc92f358d6dbf4fcd48'] = 'ساختار: بین
 $_LANGADM['AdminImport8985093401a36bb0b31a127caccfaf0d'] = 'سفارش توزیع شده (%d) قابل ویرایش نمی‎باشد (در خط %d).';
 $_LANGADM['AdminImport6afcfa28445fa35c1f6618a471891ed8'] = 'سفارش توزیع شده ذخیره نمی‎شود (در خط %d).';
 $_LANGADM['AdminImportbb19d4490bdc48656603c0a7ef30db73'] = 'سفارش توزیع شده (%s) بارگذاری نمی‎شود (در خط %d).';
-$_LANGADM['AdminImport5e063c49ce8203f2ca7a496da24b819e'] = 'محصول/ویژگی (%d/%d) نمی‎تواند دو بار افزوده شود (در خط %d).';
+$_LANGADM['AdminImport5e063c49ce8203f2ca7a496da24b819e'] = 'محصول/مشخصه (%d/%d) نمی‎تواند دو بار افزوده شود (در خط %d).';
 $_LANGADM['AdminImport0a657a7416c29bdc5b134b61b863e7ee'] = 'محصول (%d/%d) برای این سفارش موجود نیست (در خط %d)';
 $_LANGADM['AdminImportca676c9ec4e1ae9fe9df3ac28910e6ef'] = 'قیمت واحد (استثنای مالیات.) (٪ d) معتبر نیست (در خط %d).';
 $_LANGADM['AdminImport406eba9770c82a84cae2d6ee3e846a56'] = 'مقدار مورد انتظار (%d) غیر معتبر است (در خط %d).';
@@ -1380,7 +1380,7 @@ $_LANGADM['AdminMetad7faa8eb2f73f2c764e387d3d7c57556'] = 'ایجاد یک فای
 $_LANGADM['AdminMeta5dab5160dfb25b3a4d6c51416dac5c87'] = 'به آن دسترسی نوشتن بدهید (CHMOD 666 بر روی سیستم یونیکس).';
 $_LANGADM['AdminMeta5575f8bf467eba7499f22e78db6f3f56'] = 'مسیر به سوی محصولات';
 $_LANGADM['AdminMeta1092637069f4ebf1bee2b02fd280888b'] = 'مسیر به سوی شاخه';
-$_LANGADM['AdminMetae5bcaf8cdb205e965d4ba8fdf0dc898c'] = 'تعیین مسیر به دسته بندی که ویژگی "فیلتر انتخاب شده" برای ماژول "جستجوی لایه ای" (blocklayered) را دارد';
+$_LANGADM['AdminMetae5bcaf8cdb205e965d4ba8fdf0dc898c'] = 'تعیین مسیر به دسته بندی که مشخصه «فیلتر انتخاب شده» برای ماژول «جستجوی لایه‌ای» (blocklayered) را دارد';
 $_LANGADM['AdminMeta08a551b84112995247355daf3b5d72ba'] = 'مسیر به سوی توزیع کننده';
 $_LANGADM['AdminMeta8f815100fbc9398e9441b28d219e0ca4'] = 'مسیر به سوی تولید کننده';
 $_LANGADM['AdminMeta8eee2883d683841b6ab08c1bb6d13fb7'] = 'مسیر به سوی صفحه CMS';
@@ -1668,10 +1668,10 @@ $_LANGADM['AdminPPreferencesb58704f2e2e18edc7c903342c2a42dfc'] = 'نمایش ت�
 $_LANGADM['AdminPPreferencesf8f1f78351c2864c334a80b706a303b2'] = 'نمایش مقادیر باقی مانده وقتی تعداد کمتر است از';
 $_LANGADM['AdminPPreferences9175b705bec9604985209d1f2d88c785'] = 'جهت غیرفعال کردن این ویژگی آن را با 0 مقداردهی کنید.';
 $_LANGADM['AdminPPreferences488048b3a6cd025736fc816a0d946693'] = 'فعال کردن jqZoom به جای FancyBox در صفحه محصول';
-$_LANGADM['AdminPPreferencesa2ab7db4ee7104a693358c0c9d07c6ce'] = 'نمایش خصوصیات محصولی که تمام شده در صفحه محصول';
-$_LANGADM['AdminPPreferences01dabe7ae47f9848c5e38f353a8f866f'] = 'نمایش دکمه‌ی «افزودن به سبد خرید» زمانی که محصول دارای ترکیب است';
-$_LANGADM['AdminPPreferences265b491d10a9a79c9b43655659826614'] = 'نمایش یا عدم نمایش گزینه \"افزودن به سبد\" در صفحات شاخه‎ها برای محصولاتی که دارای خصوصیت هستند، جهت وادار کردن مشتری برای مشاهده جزئیات آن محصول.';
-$_LANGADM['AdminPPreferences0a91cf360875af4259f26bc7e2971132'] = 'جداکننده‎ی انکر ویژگی در لینک‎های کالا(ها)';
+$_LANGADM['AdminPPreferencesa2ab7db4ee7104a693358c0c9d07c6ce'] = 'نمایش مشخصه‌های ناموجود محصول در صفحه محصول';
+$_LANGADM['AdminPPreferences01dabe7ae47f9848c5e38f353a8f866f'] = 'نمایش دکمه‌ی «افزودن به سبد خرید» زمانی که محصول دارای مشخصه است';
+$_LANGADM['AdminPPreferences265b491d10a9a79c9b43655659826614'] = 'نمایش یا عدم نمایش گزینه «افزودن به سبد» در صفحات شاخه‎ها برای محصولاتی که دارای مشخصه هستند، جهت وادار کردن مشتری برای مشاهده جزئیات آن محصول.';
+$_LANGADM['AdminPPreferences0a91cf360875af4259f26bc7e2971132'] = 'جداکننده‎ی انکر مشخصه در لینک‎های کالا';
 $_LANGADM['AdminPPreferencesf7699b3d1af7fe3cdb3a6ff301940fdf'] = 'نمایش قیمت تخفیف خورده';
 $_LANGADM['AdminPPreferencesf70d03fbb967b69ef8222c4a2b4ab334'] = 'در بخش صفحه‎ی تخفیف‎ها، قیمت جدید به همراه تخفیف صورت گرفته را به جای تخفیف، نمایش ده (مثال \"-5%\").';
 $_LANGADM['AdminPPreferencesff26a60315cd84533d5339ba26617988'] = 'موجودی محصولات';
@@ -1783,9 +1783,9 @@ $_LANGADM['AdminProducts3fc4c01289394eee4b697192d5616a68'] = 'قانون قیم�
 $_LANGADM['AdminProducts151648106e4bf98297882ea2ea1c4b0e'] = 'بروز رسانی موفق بود';
 $_LANGADM['AdminProductscf3905df049698bb01639e4394e82048'] = 'تا زمانی که در مدیریت پیشرفته موجودی ترکیب دارای تعداد هست امکان حذف آن نیست. ابتدا باید موجودی آن را حذف کنید.';
 $_LANGADM['AdminProducts66108be221251f01430ee5c2257e98ca'] = 'اشکال در زمان حذف موجودی';
-$_LANGADM['AdminProducts160f1ab34ecfb437b1767602d5ee093f'] = 'نمی‎توان ویژگی را حذف کرد.';
+$_LANGADM['AdminProducts160f1ab34ecfb437b1767602d5ee093f'] = 'شما نمی‌توانید این مشخصه را حذف کنید.';
 $_LANGADM['AdminProducts11a257a80f8c8d76132470b171de6795'] = 'شما اجازه حذف این مورد را ندارید.';
-$_LANGADM['AdminProductsdd42a8a8b7b4a51c382c7d509fcbc0ac'] = 'نمی‎توان ویژگی پیشفرض را ایجاد کرد.';
+$_LANGADM['AdminProductsdd42a8a8b7b4a51c382c7d509fcbc0ac'] = 'نمی‎توان این مشخصه را پیش‌فرض قرار داد.';
 $_LANGADM['AdminProducts6ca3b11e4d89a7649d10c2d70d98612f'] = '%s اضافه';
 $_LANGADM['AdminProducts0919680b340ae0ac8d1a804c4c69b0ba'] = '%s تغییر';
 $_LANGADM['AdminProducts3f6564b2a7da018ca87355e9b9b25826'] = 'محصول باید حداقل در یک شاخه قرار گیرد.';
@@ -1853,7 +1853,7 @@ $_LANGADM['AdminProducts9a63ec735f057c1366284bda67eee7de'] = 'کارایی';
 $_LANGADM['AdminProducts78b887fb07d1e9c5e0f5aa785dad7856'] = 'یک محصول مجازی نمی‎تواند ترکیبات داشته باشد.';
 $_LANGADM['AdminProducts7b4d57b03626d7502f919262b0d0233d'] = 'شما باید کالا را قبل از اضافه کردن ترکیبات در این فروشگاه ذخیره کنید.';
 $_LANGADM['AdminProducts1ca81cd1aaff46ab65722b1a0b657b73'] = 'شما باید قبل از اینکه ترکیبات را اضافه کنید، این محصول را ذخیره نمایید.';
-$_LANGADM['AdminProductsfe9e64fa2d5fe6fe4fd7d4707bd8e2e8'] = 'ویژگی - مقدار';
+$_LANGADM['AdminProductsfe9e64fa2d5fe6fe4fd7d4707bd8e2e8'] = 'جفت مشخصه - مقدار';
 $_LANGADM['AdminProducts622d67c7a2ea6386a4480e02b12fadd8'] = 'تأثیر بر قیمت';
 $_LANGADM['AdminProducts3c1a34587e45bd9e9ae2efd9a6ecbb92'] = 'تأثیر بر وزن';
 $_LANGADM['AdminProductsa7b4930bf2fc5d57eec6b03097200152'] = 'EAN-13';
@@ -1880,7 +1880,7 @@ $_LANGADM['AdminProducts99b183109f1c6b56381709e4869f805f'] = '- مدیریت پ�
 $_LANGADM['AdminProducts2ac077d73e043311d069085382ba149c'] = '- شما برای کاهش تعداد محصولات انتخاب شده‌اید.';
 $_LANGADM['AdminProducts780e0ace00d84a15fea81a355e1658da'] = 'نمی‌توانید از این امکان مدیریت پیشرفته موجودی استفاده کنید زیرا';
 $_LANGADM['AdminProductsfd10b960ca53f536317928d0edf3cbbe'] = '- مدیریت پیشرفته موجودی  برای این بسته فعال است';
-$_LANGADM['AdminProductsc17ed6a82bd63f9dde6ab3572e3c32f4'] = 'ویژگی محصول تعریف نشده است';
+$_LANGADM['AdminProductsc17ed6a82bd63f9dde6ab3572e3c32f4'] = 'شناسه مشخصه محصول تعریف نشده';
 $_LANGADM['AdminProductsa17f5bc22553d897f6363867c0165256'] = 'شاخه پیش‌فرض';
 $_LANGADM['AdminProductsc32516babc5b6c47eb8ce1bfc223253c'] = 'کاتالوگ';
 $_LANGADM['AdminProductsb61bd19699eab41bbcdabc42f83af268'] = 'تغییر شاخه پیش‎فرض را در نظر داشته باشید.';
@@ -2108,7 +2108,7 @@ $_LANGADM['AdminSearchConff90f799bc686f5d6a731b1f8074b4580'] = 'اهمیت تو�
 $_LANGADM['AdminSearchConf05cdca5b85ff26e596c3af66ed4820d5'] = 'اهمیت شاخه';
 $_LANGADM['AdminSearchConf9bc82ee9ca6110810689927a77493617'] = 'اهمیت تولید کننده';
 $_LANGADM['AdminSearchConfc152439199cebb7e1c27633efeaf1eda'] = 'اهمیت برچسب‎ها';
-$_LANGADM['AdminSearchConf1b25f9ffbf4d185dbb985380a04732cc'] = 'اهمیت ویژگی‌ها';
+$_LANGADM['AdminSearchConf1b25f9ffbf4d185dbb985380a04732cc'] = 'اهمیت مشخصه‌ها';
 $_LANGADM['AdminSearchConf4871216a35362aebc0d9908e6e288765'] = 'اهمیت مشخصه‎ها';
 $_LANGADM['AdminSearchConf58e8dcd40d13b2c661ac86dbc9e04e02'] = 'افزودن نام مستعار جدید';
 $_LANGADM['AdminSearchConf72d6d7a1885885bb55a565fd1070581a'] = 'واردسازی';
@@ -2214,7 +2214,7 @@ $_LANGADM['AdminShopcf173b732a2a0377698d631db6185836'] = 'مقادیر موجو�
 $_LANGADM['AdminShop821b8ee6937cec96c30fdafbfe836d68'] = 'فروشگاه‎ها';
 $_LANGADM['AdminShop3020c78ae45aff9a35b95856af076765'] = 'انبار‌ها';
 $_LANGADM['AdminShop339b1acb0d1f26923dc4545a9f749ab3'] = 'حساب کاربری سرویس دهنده وب';
-$_LANGADM['AdminShop775a3ab6add326ef93f2382f49f9e500'] = 'گروه‎های مربوط به ویژگی';
+$_LANGADM['AdminShop775a3ab6add326ef93f2382f49f9e500'] = 'گروه‌های مشخصه';
 $_LANGADM['AdminShop98f770b0af18ca763421bac22b4b6805'] = 'ویژگی‌ها';
 $_LANGADM['AdminShop517a8a7dbf1f6e371509817de328e396'] = 'گروه مشتری';
 $_LANGADM['AdminShop6fab199dbf5a4155871fb0d5dbfa9827'] = 'گروه‌های قوانین مالیاتی';
@@ -3006,8 +3006,8 @@ $_LANGADM['AdminTrackingb5a7adde1af5c87d7fd797b6245c2a39'] = 'توضیحات';
 $_LANGADM['AdminTrackingec53a8c4f07baed5d8825072c89799be'] = 'وضعیت';
 $_LANGADM['AdminTracking428a70e43c5371126c0fb675e98c61d5'] = 'فهرست شاخه‎های خالی:';
 $_LANGADM['AdminTracking63d5049791d9d79d86e9a108b0a999ca'] = 'مرجع';
-$_LANGADM['AdminTracking11ea91173f14949a7309f9c7dba9918d'] = 'لیست محصولات با خصوصیات و بدون تعداد موجود برای فروش:';
-$_LANGADM['AdminTracking9aabc6d7a546d7f8b13503258c822a50'] = 'لیست محصولات بدون خصوصیات و بدون تعداد موجود برای فروش:';
+$_LANGADM['AdminTracking11ea91173f14949a7309f9c7dba9918d'] = 'لیست محصولات با مشخصه و بدون تعداد موجود برای فروش';
+$_LANGADM['AdminTracking9aabc6d7a546d7f8b13503258c822a50'] = 'لیست محصولات بدون مشخصه و بدون تعداد موجود برای فروش';
 $_LANGADM['AdminTracking1679821fd0e65d65924aa77e56068814'] = 'فهرست محصولات غیرفعال:';
 $_LANGADM['AdminTrackingee77ea46b0c548ed60eadf31bdd68613'] = 'درخواست SQL اشتباه';
 $_LANGADM['AdminTrackingbcaad756615668f5e8e0447aa36f4f22'] = 'محصول غیر فعال شد';
@@ -3271,9 +3271,9 @@ $_LANGADM['AdminAttributeGenerator8794a5dad880ed1a30d82081872b050e'] = 'با م�
 $_LANGADM['AdminAttributeGenerator181ba1a9e1a38f1a83277046cdbbc2bc'] = '%d محصول با موفقیت ساخته شد';
 $_LANGADM['AdminAttributeGeneratorf2a6c498fb90ee345d997f888fce3b18'] = 'حذف';
 $_LANGADM['AdminAttributeGeneratorec211f7c20af43e742bf2570c3cb84f9'] = 'افزودن';
-$_LANGADM['AdminAttributeGenerator710759db5d74c91374865e5e7e4122e2'] = 'مولد ترکیب‎ها ابزاری است که به شما اجازه می‎دهد به سادگی یک سری ترکیب‎ها با استفاده از انتخاب ویژگی‎های مرتبط بسازید. نمونه، اگر شما T-Shirt در 3 سایز و 2 رنگ مختلف می‌فروشید، مولد 6 ترکیب برای شما می‎سازد.';
+$_LANGADM['AdminAttributeGenerator710759db5d74c91374865e5e7e4122e2'] = 'مولد ترکیب‎ها ابزاری است که به شما اجازه می‎دهد به سادگی یک سری ترکیب‎ها با استفاده از انتخاب مشخصه‎های مرتبط بسازید. نمونه، اگر شما تی‌شرت‌هایی در سه سایز و دو رنگ مختلف می‌فروشید، مولد شش ترکیب برای شما می‎سازد.';
 $_LANGADM['AdminAttributeGenerator33f1e743e3a178354df26a54f5e86c2e'] = 'شما اکنون در حال تولید ترکیب برای این محصول هستید:';
-$_LANGADM['AdminAttributeGenerator31fd7663706f9829ba8e64b229df4e3f'] = 'مرحله اول: در سمت راست، ویژگی‎هایی را که می‎خواهید انتخاب کنید (در حالی که کلید Ctrl را پایین نگه داشته اید) سپس با فشردن \"افزودن\" آن را تأیید کنید.';
+$_LANGADM['AdminAttributeGenerator31fd7663706f9829ba8e64b229df4e3f'] = 'مرحله اول: در سمت راست، مشخصه‎هایی را که می‎خواهید انتخاب کنید (در حالی که کلید Ctrl را پایین نگه داشته اید) سپس با فشردن «افزودن» آن را تأیید کنید';
 $_LANGADM['AdminAttributeGenerator928929ae9eb360f552df9c62c5fef6e2'] = 'تأثیر روی قیمت محصول';
 $_LANGADM['AdminAttributeGenerator2cbb96b1bb8e0942f609bba818277f7c'] = 'تأثیر روی وزن محصول';
 $_LANGADM['AdminAttributeGenerator4e927d0c87a6edc742e9c664f18a53c7'] = 'مرحله دوم (انتخابی): یک مقدار و مرجع پیش‎فرض برای همه ترکیب‎هایی که مولد برای محصول می‎سازد انتخاب نمایید.';
@@ -3842,7 +3842,7 @@ $_LANGADM['AdminManufacturerse78b6f4eb3be046f4d25c07ce54954d4'] = 'مرجع:';
 $_LANGADM['AdminManufacturersccf096490d2671f3ea97ea9289eee5b1'] = 'بارکد 13 رقمی اروپا یا کد کالای ژاپنی';
 $_LANGADM['AdminManufacturersaf7448c885be0d8acd5eb84322176570'] = 'بارکد (UPC)';
 $_LANGADM['AdminManufacturers647b89b705fafd7d44aa6f01a5cb4711'] = 'تعداد';
-$_LANGADM['AdminManufacturers1caa6ff629641a4eb20f190f7a0539ca'] = 'نام خصوصیت';
+$_LANGADM['AdminManufacturers1caa6ff629641a4eb20f190f7a0539ca'] = 'نام مشخصه';
 $_LANGADM['AdminManufacturers63d5049791d9d79d86e9a108b0a999ca'] = 'مرجع';
 $_LANGADM['AdminManufacturers52eb5928a34db3e3da7ba52b0644273b'] = 'بارکد 13 رقمی اروپا یا کد کالای ژاپنی';
 $_LANGADM['AdminManufacturersfbd99ad01b92dbafc686772a39e3d065'] = 'بارکد (UPC)';
@@ -4253,7 +4253,7 @@ $_LANGADM['AdminPaymente39a06ebd5bb473161c5dff3c79c80a5'] = 'ذخیره محدو
 $_LANGADM['AdminPerformance98cb1c78dc57031530a646edadf2584d'] = 'این ویژگی نمی‎تواند غیرفعال شود زیرا هم اکنون در حال استفاده است.';
 $_LANGADM['AdminPerformanceca752c58a57df4ddb193ea9bd45baf4d'] = 'برگه ترکیبات در صفحه‎ی محصول';
 $_LANGADM['AdminPerformance689202409e48743b914713f96d93947c'] = 'ارزش';
-$_LANGADM['AdminPerformancef2bbdf9f72c085adc4d0404e370f0f4c'] = 'خصوصیت';
+$_LANGADM['AdminPerformancef2bbdf9f72c085adc4d0404e370f0f4c'] = 'مشخصه';
 $_LANGADM['AdminPerformanceb3a0f0a71a06c4cb37e4aeb9fc6b0235'] = 'برگه ویژگی‌ها در صفحه‎ی محصول';
 $_LANGADM['AdminPerformance21021ea0e52be8e9c599f4dff41e5be0'] = 'ویژگی';
 $_LANGADM['AdminPerformance6c3205f235918451faca3dcd6e63d760'] = 'مقدار ویژگی';
@@ -4292,16 +4292,16 @@ $_LANGADM['AdminProducts9d38722749ec2101e437414ac2a743f9'] = 'ضمیمه‎ها�
 $_LANGADM['AdminProducts1063e38cb53d94d386f21227fcd84717'] = 'حذف';
 $_LANGADM['AdminProducts2fcf0d652adbb2572590dda4075da9d5'] = 'سطر آبی، ترکیب پیش‎فرض را نشان می‌دهد.';
 $_LANGADM['AdminProductsbd740832262e0ebe6e561c9aac7f56c6'] = 'هر محصولی که دارای ترکیب است، باید یک ترکیب پیش‎فرض داشته باشد.';
-$_LANGADM['AdminProducts4c7ec431e699b78d454434763f6fa12d'] = 'لطفاً یک خصوصیت برگزینید';
+$_LANGADM['AdminProducts4c7ec431e699b78d454434763f6fa12d'] = 'لطفاً یک مشخصه را انتخاب کنید.';
 $_LANGADM['AdminProductsc7aadc20844fa0fdccccea1989449557'] = 'لطفاً یک ارزش برگزینید';
-$_LANGADM['AdminProductse921552fdcd0a81824f545af63123fde'] = 'شما فقط می‎توانید یک ترکیب در هر نوع  از ویژگی‎ها اضافه کنید.';
+$_LANGADM['AdminProductse921552fdcd0a81824f545af63123fde'] = 'شما فقط می‌توانید یک ترکیب از هر نوع مشخصه ایجاد کنید.';
 $_LANGADM['AdminProductsf00751523deaed3edda23b6186a85556'] = 'لغو ترکیب';
-$_LANGADM['AdminProducts5cef0aa2dc2c0ad68f23510a53d9bb3a'] = 'اصلاح این ترکیب';
+$_LANGADM['AdminProducts5cef0aa2dc2c0ad68f23510a53d9bb3a'] = 'اصلاح این ترکیب مشخصه.';
 $_LANGADM['AdminProducts6f39383b81d4999830ab6febe6279777'] = 'افزودن یا اصلاح ترکیبات این محصول';
 $_LANGADM['AdminProducts993760aa53ee700c17b2b3f15a0810fa'] = 'همچنین می‎توانید از[1]تولید کننده‎ی ترکیبات [2/][/1]به منظور ایجاد مجموعه‎ای از ترکیبات به صورت خودکار، استفاده نمایید.';
 $_LANGADM['AdminProductsd4e604323989e776a9e9a3ff4bbfb53b'] = 'در حال حاضر چندین ترکیب وجود دارد. اگر شما می‎خواهید ترکیبات جدید تولید کنید، مقادیر ترکیبات فعلی از دست خواهد رفت.';
 $_LANGADM['AdminProducts5559867850995be7b0879679749d7802'] = 'شما می‌توانید با کلیک روی دکمه «ترکیب جدید» یک ترکیب جدید اضافه نمایید.';
-$_LANGADM['AdminProductsf2bbdf9f72c085adc4d0404e370f0f4c'] = 'خصوصیت';
+$_LANGADM['AdminProductsf2bbdf9f72c085adc4d0404e370f0f4c'] = 'مشخصه';
 $_LANGADM['AdminProducts689202409e48743b914713f96d93947c'] = 'ارزش';
 $_LANGADM['AdminProducts418734e88e64dbe12a62122833c89da7'] = 'کاراکترهای ویژه مجاز:';
 $_LANGADM['AdminProducts448aec4f94026678585f09d528ba417c'] = 'کد مرجع';
@@ -4666,12 +4666,12 @@ $_LANGADM['AdminReferrersb1c94ca2fbc3e78fc30069c8d0f01680'] = 'همه';
 $_LANGADM['AdminReferrers13348442cc6a27032d2b4aa28b75a5d3'] = 'جستجو';
 $_LANGADM['AdminRequestSqlac104da0cd80e52437b67aefa351e177'] = 'فهرست جداول MySQL';
 $_LANGADM['AdminRequestSql1a696d8e9ac51e281e1cf1b646ddcc96'] = 'افزودن نام جدول به جستار SQL';
-$_LANGADM['AdminRequestSql1938087a74c4d20f5454850ffbaf0e26'] = 'فهرست خصوصیات این جدول MySQL';
+$_LANGADM['AdminRequestSql1938087a74c4d20f5454850ffbaf0e26'] = 'فهرست مشخصه‌ها برای این جدول MySQL';
 $_LANGADM['AdminRequestSql0fe194d9bb812c48dfe35a3cf6d0af52'] = 'لطفاً یک جدول MySQL را انتخاب کنید';
-$_LANGADM['AdminRequestSqlf2bbdf9f72c085adc4d0404e370f0f4c'] = 'خصوصیت';
+$_LANGADM['AdminRequestSqlf2bbdf9f72c085adc4d0404e370f0f4c'] = 'مشخصه';
 $_LANGADM['AdminRequestSqla1fa27779242b4902f7ae3bdd5c6d508'] = 'نوع';
 $_LANGADM['AdminRequestSql004bf6c9a40003140292e97330236c53'] = 'عمل';
-$_LANGADM['AdminRequestSql1141c5086ed62bf696bccf7de6b885bd'] = 'افزودن خصیصه به جستار SQL';
+$_LANGADM['AdminRequestSql1141c5086ed62bf696bccf7de6b885bd'] = 'افزودن مشخصه به جستار SQL';
 $_LANGADM['AdminRequestSql1ee79b4b20638d135b8ae8122f7770b9'] = 'لطفاً یک جدول انتخاب کنید.';
 $_LANGADM['AdminRequestSql526a00f8a3c4c865b9c1834f38b5e2c6'] = 'نتیجه جستار SQL';
 $_LANGADM['AdminRequestSql3be751fc7ab3f3ced8007796fe8bde7d'] = 'این جستار SQL نتیجه ای نداشت.';
@@ -4730,7 +4730,7 @@ $_LANGADM['AdminSpecificPriceRulea1fa27779242b4902f7ae3bdd5c6d508'] = 'نوع';
 $_LANGADM['AdminSpecificPriceRule689202409e48743b914713f96d93947c'] = 'ارزش';
 $_LANGADM['AdminSpecificPriceRule558ffc8f5770d8e4f95f51d822685532'] = 'و';
 $_LANGADM['AdminSpecificPriceRulef2a6c498fb90ee345d997f888fce3b18'] = 'حذف';
-$_LANGADM['AdminSpecificPriceRulef2bbdf9f72c085adc4d0404e370f0f4c'] = 'خصوصیت';
+$_LANGADM['AdminSpecificPriceRulef2bbdf9f72c085adc4d0404e370f0f4c'] = 'مشخصه';
 $_LANGADM['AdminSpecificPriceRule21021ea0e52be8e9c599f4dff41e5be0'] = 'ویژگی';
 $_LANGADM['AdminStates9639e32cab248434a17ab32237cb3b71'] = 'اعمال';
 $_LANGADM['AdminStatesb9987a246a537f4fe86f1f2e3d10dbdb'] = 'نمایش';
@@ -4758,7 +4758,7 @@ $_LANGADM['AdminStoresad179a1071ebd8b00e0ff4718301dcea'] = 'ساعت';
 $_LANGADM['AdminStorese734ed12d2c2026532f66e0ebeedfc8c'] = 'مثلاً 10:00 صبح - 9:30 شب';
 $_LANGADM['AdminSuppliers38f06ccd27281c8fc66e11581798ec06'] = 'تعداد محصولات';
 $_LANGADM['AdminSuppliersdf644ae155e79abf54175bd15d75f363'] = 'نام محصول';
-$_LANGADM['AdminSuppliers1caa6ff629641a4eb20f190f7a0539ca'] = 'نام خصوصیت';
+$_LANGADM['AdminSuppliers1caa6ff629641a4eb20f190f7a0539ca'] = 'نام مشخصه';
 $_LANGADM['AdminSuppliersbc67a1507258a758c3a31e66d7ceff8f'] = 'مرجع توزیع کننده';
 $_LANGADM['AdminSuppliersc804723ccdde3d7a46933b208c6f928d'] = 'قیمت عمده فروشی که شما این محصول را خریده‎اید';
 $_LANGADM['AdminSuppliers63d5049791d9d79d86e9a108b0a999ca'] = 'مرجع';

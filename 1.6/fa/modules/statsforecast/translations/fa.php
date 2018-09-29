@@ -55,9 +55,9 @@ $_MODULE['<{statsforecast}prestashop>statsforecast_ec0fc0100c4fc1ce4eea230c3dc10
 $_MODULE['<{statsforecast}prestashop>statsforecast_28e81c8343702f6c813cc31a7f90616a'] = 'پراکندگی واحدپول';
 $_MODULE['<{statsforecast}prestashop>statsforecast_386c339d37e737a436499d423a77df0c'] = 'واحد پول';
 $_MODULE['<{statsforecast}prestashop>statsforecast_61569923d8075889a162c4e603258e6e'] = 'فروش‌ها (تبدیل شده)';
-$_MODULE['<{statsforecast}prestashop>statsforecast_8471eed257db7258f935588a664ba4f3'] = 'پراکندگی مدل ها';
+$_MODULE['<{statsforecast}prestashop>statsforecast_8471eed257db7258f935588a664ba4f3'] = 'پراکندگی مشخصه';
 $_MODULE['<{statsforecast}prestashop>statsforecast_03937134cedab9078be39a77ee3a48a0'] = 'گروه';
-$_MODULE['<{statsforecast}prestashop>statsforecast_f2bbdf9f72c085adc4d0404e370f0f4c'] = 'خصوصیت';
+$_MODULE['<{statsforecast}prestashop>statsforecast_f2bbdf9f72c085adc4d0404e370f0f4c'] = 'مشخصه';
 $_MODULE['<{statsforecast}prestashop>statsforecast_9b95278ceb25bd5ddfcd7b22be6e4000'] = 'تعداد محصولات فروخته شده';
 
 

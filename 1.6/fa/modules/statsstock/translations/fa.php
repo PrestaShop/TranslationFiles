@@ -18,7 +18,7 @@ $_MODULE['<{statsstock}prestashop>statsstock_689202409e48743b914713f96d93947c'] 
 $_MODULE['<{statsstock}prestashop>statsstock_347cbf03d737b02a70a96ff204c22fbc'] = 'کمیت های کلی';
 $_MODULE['<{statsstock}prestashop>statsstock_844c29394eea07066bb2efefc35784ec'] = 'قیمت متوسط';
 $_MODULE['<{statsstock}prestashop>statsstock_62668f75fc6977f3d09df632d1585d07'] = 'ارزش کلی';
-$_MODULE['<{statsstock}prestashop>statsstock_a9873f90f06f9e2cfa3d048298ecca8c'] = 'بر طبق تهیه کننده پیش فرض محصول به قیمت کل فروش پیش فرض پاسخ دهید. قیمت متوسط هنگامی که محصول توزیع شد استفاده می شود';
+$_MODULE['<{statsstock}prestashop>statsstock_a9873f90f06f9e2cfa3d048298ecca8c'] = 'این بخش مطابق قیمت خرید پیش‌فرض براساس تولید‌کننده‌ی پیش‌فرض برای محصول است. وقتی محصول مشخصه دارد، یک قیمت متوسط استفاده می‌شود.';
 
 
 return $_MODULE;
