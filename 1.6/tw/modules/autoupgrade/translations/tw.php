@@ -344,7 +344,10 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_760c4026bc5a0bd5378e6efc3f13
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_4f2e28904946a09d8c7f36dd3ee72457'] = '字段是不同的！';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e5110300599f995b9d8cfbe930fba83e'] = '此電郵地址有錯誤!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2e170dfd78c2171a25605ececc0950a4'] = '不能發送電郵！';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_128a6722ff88445b488e4eb3319fa5b7'] = '無法寫入設置文件，請在“config”目錄中創建名為settings.inc.php的文件。';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e930e2474c664a3a7e89ecfb8793694b'] = '不能上載檔案！';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_774fc7a0f56391abc5d8856f2436ca07'] = '未驗證數據完整性。 黑客攻擊？';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8fd007bf08e0717537825a3e91cb4fcc'] = '無法讀取MySQL內容文件的內容。';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_17a90b480e6f6b8d1214df46c8678015'] = '無法存取 MySQL 檔案。';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3d5c8f1d29b1a1dc4ea0673122e0d277'] = '將數據添加到數據庫時出錯：';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_17e1581d01152347bfaacd153b961379'] = '無效的密碼 (密碼長度至少為 8 個字元)。';
@@ -366,6 +369,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f8fe8cba1625eaf8e5c253b041d5
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8c9067e52e4440d8a20e74fdc745b0c6'] = '沒有檔案被上傳';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2384d693d9af53b4727c092af7570a19'] = '遺失一個暫存目錄';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f5985b2c059d5cc36968baab7585baba'] = '檔案寫入磁碟失敗';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9e54dfe54e03b0010c1fe70bd65cd5e6'] = '文件上傳已被外掛停止';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_32af3a59b50e98d254d6c03c5b320a94'] = '不能將數據庫中的數據轉換為UTF-8。';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_989a45a4ca01ee222f4370172bf8850d'] = '商店名稱有誤';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_68499acecfba9d3bf0ca8711f300d3ed'] = '您的姓名包含錯誤字元';
@@ -430,6 +434,8 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5784315a8bcebe79611d3353723e
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_762b3814b0c85540ac4be47c7815fc0c'] = '您當前 PrestaShop 的版本';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_382b0f5185773fa0f67a8ed8056c7759'] = '不適用';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7926343e047e18778b6819beb8468086'] = '您使用 Smarty 3';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a9bf52016ab038b62d072d35039a76b4'] = 'Smarty 2在1.4中被棄用，並在1.5中刪除。 您可能需要升級當前主題或使用新主題。';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d19581ebc0d99bfda1b0bb789dc65c5f'] = 'Smarty 3用法：';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_411d9b409e4b9a6c2db930dae9f1feb1'] = '編輯您 Smarty 的設定';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7f6336f29afd114798bf8ff3e6f2f9c9'] = 'Prestashop 將從 %s 下載';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a0c7f60d480662bb235ca5e204d71883'] = '在新視窗中打開changelog';
