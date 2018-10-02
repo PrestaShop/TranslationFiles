@@ -349,7 +349,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2e170dfd78c2171a25605ececc09
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_015463558b0e4910ecff6b418977c872'] = 'Cannot create settings file, if /config/settings.inc.php exists, please give the public write permissions to this file, else please create a file named settings.inc.php in config directory.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_128a6722ff88445b488e4eb3319fa5b7'] = 'Cannot write settings file, please create a file named settings.inc.php in the "config" directory.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e930e2474c664a3a7e89ecfb8793694b'] = 'Impossible to upload the file!';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_774fc7a0f56391abc5d8856f2436ca07'] = 'Data integrity is not valided. Hack attempt?';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_774fc7a0f56391abc5d8856f2436ca07'] = 'Data integrity is not validated. Hack attempt?';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8fd007bf08e0717537825a3e91cb4fcc'] = 'Impossible to read the content of a MySQL content file.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_17a90b480e6f6b8d1214df46c8678015'] = 'Cannot access a MySQL content file.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3d5c8f1d29b1a1dc4ea0673122e0d277'] = 'Error while inserting data in the database:';
