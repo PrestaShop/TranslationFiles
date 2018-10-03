@@ -26,6 +26,12 @@ File: classes/PrestaShopBackup.php:167</note>
         <note>Context:
 File: classes/PrestaShopBackup.php:225</note>
       </trans-unit>
+      <trans-unit id="52033453d4d673bae012b9c8ccb1e79c" approved="yes">
+        <source>An error occurred while backing up. Unable to obtain the schema of %s</source>
+        <target xml:lang="zh-CN" state="translated">备份时出错。无法获取%s的表结构</target>
+        <note>Context:
+File: classes/PrestaShopBackup.php:254</note>
+      </trans-unit>
       <trans-unit id="a12b8823ac5b71b9d09f9c7b09e54c48" approved="yes">
         <source>No valid tables were found to backup.</source>
         <target xml:lang="zh-CN" state="translated">没有找到有效的表格进行备份。</target>
@@ -36,7 +42,12 @@ File: classes/PrestaShopBackup.php:317</note>
   </file>
   <file original="classes/Mail.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="3ed07fe73e25bba69e3e5dac234b1941" approved="yes">
+        <source>Error - The following e-mail template is missing: %s</source>
+        <target xml:lang="zh-CN" state="translated">错误 - 缺失以下电子邮件模板：%s</target>
+        <note>Context:
+File: classes/Mail.php:410</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ImportController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -57,6 +68,18 @@ File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ImportC
   </file>
   <file original="src/Core/Import/File/FileUploader.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="68e8d36b17584f88614fb3201925a7ac" approved="yes">
+        <source>The uploaded file exceeds the upload_max_filesize directive in php.ini. If your server configuration allows it, you may add a directive in your .htaccess.</source>
+        <target xml:lang="zh-CN" state="translated">文件大小超过Php.ini里上传文大小上限。如果你的服务器配置允许，你可以在你的.htaccess里重新定义。</target>
+        <note>Context:
+File: src/Core/Import/File/FileUploader.php:111</note>
+      </trans-unit>
+      <trans-unit id="0bedafc96db94da3f85caa7101944eb5" approved="yes">
+        <source>The uploaded file exceeds the post_max_size directive in php.ini. If your server configuration allows it, you may add a directive in your .htaccess, for example:</source>
+        <target xml:lang="zh-CN" state="translated">上传文件超过Php.ini里的表单大小上限。如果你的服务器配置允许，你可以在你的.htaccess里重新定义。</target>
+        <note>Context:
+File: src/Core/Import/File/FileUploader.php:114</note>
+      </trans-unit>
       <trans-unit id="4f12b222c9659d62afa795987259933f" approved="yes">
         <source>The uploaded file was only partially uploaded.</source>
         <target xml:lang="zh-CN" state="translated">文件只有部分被上传。</target>
@@ -91,6 +114,96 @@ File: src/Core/Import/File/FileUploader.php:90</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:732</note>
       </trans-unit>
+      <trans-unit id="197f1953efd11637a634a7f9b269eac3" approved="yes">
+        <source>To proceed, please upload a file first.</source>
+        <target xml:lang="zh-CN" state="translated">请先上传文件再处理。</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:4540</note>
+      </trans-unit>
+      <trans-unit id="a080a85258618039d010a2136f85e69f" approved="yes">
+        <source>There is an empty row in the file that won't be imported.</source>
+        <target xml:lang="zh-CN" state="translated">在文件中有一空白行无法导入。</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3708</note>
+      </trans-unit>
+      <trans-unit id="53d9fc1aa79e85c0f845139c6358daee" approved="yes">
+        <source>The category ID must be unique. It can't be the same as the one for Root or Home category.</source>
+        <target xml:lang="zh-CN" state="translated">分类ID必须为一，不能和根分类或者首页分类重复。</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1299</note>
+      </trans-unit>
+      <trans-unit id="7a1bebdbf5770873f8172ecf27b2aa50" approved="yes">
+        <source>The category ID must be unique. It can't be the same as the one for the parent category (ID: %1$s).</source>
+        <target xml:lang="zh-CN" state="translated">分类ID必须为一。不能和上级分类 (ID: %1$s) 重复。</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1321</note>
+      </trans-unit>
+      <trans-unit id="521531266ae042d0725d7a4aa22a49f4" approved="yes">
+        <source>A category can't be its own parent. You should rename it (current name: %1$s).</source>
+        <target xml:lang="zh-CN" state="translated">分类不能作为自己得上级。你得重新命名它（现名：%1$s）</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1335</note>
+      </trans-unit>
+      <trans-unit id="1123af3eab25b7475419fcaecc6c3beb" approved="yes">
+        <source>%category_name% (ID: %id%) cannot be saved</source>
+        <target xml:lang="zh-CN" state="translated">%category_name%（ID：%id%）无法保存</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1360</note>
+      </trans-unit>
+      <trans-unit id="6c1e9fe2a61808296a44cee372124bcb" approved="yes">
+        <source>URL rewriting failed to auto-generate a friendly URL for: %category_name%</source>
+        <target xml:lang="zh-CN" state="translated">URL 重写无法自动生成一个友好的URL给：%category_name%</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1388</note>
+      </trans-unit>
+      <trans-unit id="4798b868d51d8e259321deff0452c0f9" approved="yes">
+        <source>Rewrite link for %1$s (ID %2$s): re-written as %3$s.</source>
+        <target xml:lang="zh-CN" state="translated">为%1$s (ID %2$s) 重写链接：重写为%3$s</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1854</note>
+      </trans-unit>
+      <trans-unit id="a118c8120ef45c8b1bed36f341fa45f1" approved="yes">
+        <source>A category cannot be its own parent. The parent category ID is either missing or unknown (ID: %1$s).</source>
+        <target xml:lang="zh-CN" state="translated">分类不能作为自己得上级。上级分类ID 可能遗失或未知（ID: %1$s).</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1420</note>
+      </trans-unit>
+      <trans-unit id="7bc08d1a3178f4927b2c07a18f417b4b" approved="yes">
+        <source>The root category cannot be modified.</source>
+        <target xml:lang="zh-CN" state="translated">不能修改根分类。</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1438</note>
+      </trans-unit>
+      <trans-unit id="50fe5f166bc7695a0c0db12ea8a346e7" approved="yes">
+        <source>cannot be copied.</source>
+        <target xml:lang="zh-CN" state="translated">不能复制。</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3745</note>
+      </trans-unit>
+      <trans-unit id="87098ca5171ae766269f50b24ef3189d" approved="yes">
+        <source>%1$s (ID: %2$s) cannot be %3$s</source>
+        <target xml:lang="zh-CN" state="translated">%1$s(ID: %2$s) 不能是%3$s</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1464</note>
+      </trans-unit>
+      <trans-unit id="2666baaca25feea0b2dc641cfab50d8a" approved="yes">
+        <source>Unknown tax rule group ID. You need to create a group with this ID first.</source>
+        <target xml:lang="zh-CN" state="translated">未知的税务规则组ID，您需要先用这个ID创建一个组。</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:1698</note>
+      </trans-unit>
+      <trans-unit id="43bf950e043950e2da10f917b902c131" approved="yes">
+        <source>%1$s (ID: %2$s) cannot be saved</source>
+        <target xml:lang="zh-CN" state="translated">不能保存%1$s(Id:%2$s) 。</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3846</note>
+      </trans-unit>
+      <trans-unit id="994e8f1b72a9fe7a9e8949343be6bde7" approved="yes">
+        <source>%data% cannot be saved</source>
+        <target xml:lang="zh-CN" state="translated">无法保存%data%</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:3819</note>
+      </trans-unit>
       <trans-unit id="32fa1d06b5d0a192c9991c4bf038b30c" approved="yes">
         <source>Shop is not valid</source>
         <target xml:lang="zh-CN" state="translated">店铺无效</target>
@@ -109,21 +222,33 @@ File: controllers/admin/AdminImportController.php:2053</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2083</note>
       </trans-unit>
-      <trans-unit id="c2758df7a8c70260e3b55e26c51b65fd">
+      <trans-unit id="6170902c7935d644e280e440a28d5975" approved="yes">
+        <source>Error copying image: %url%</source>
+        <target xml:lang="zh-CN" state="translated">拷贝图片时出错：%url%</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:2455</note>
+      </trans-unit>
+      <trans-unit id="61e49f62654858f3cd3d9b23bee90d06" approved="yes">
+        <source>Product #%id%: the picture (%url%) cannot be saved.</source>
+        <target xml:lang="zh-CN" state="translated">商品#%id%： 图片（%url%）无法保存</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:2148</note>
+      </trans-unit>
+      <trans-unit id="c2758df7a8c70260e3b55e26c51b65fd" approved="yes">
         <source>Advanced stock management has incorrect value. Not set for product %name% </source>
-        <target xml:lang="zh-CN" state="needs-translation"> </target>
+        <target xml:lang="zh-CN" state="translated">高级库存管理含有不正确的值。商品 %name% 没有设定值 </target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2192</note>
       </trans-unit>
-      <trans-unit id="bb80841517f78647c5bee69710820c8d">
+      <trans-unit id="bb80841517f78647c5bee69710820c8d" approved="yes">
         <source>Advanced stock management is not enabled, cannot enable on product %name% </source>
-        <target xml:lang="zh-CN" state="needs-translation"> </target>
+        <target xml:lang="zh-CN" state="translated">高级库存管理未激活，无法启用商品%name% </target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2194</note>
       </trans-unit>
-      <trans-unit id="651e202913d9229ff615d5afd6a6a168">
+      <trans-unit id="651e202913d9229ff615d5afd6a6a168" approved="yes">
         <source>Advanced stock management is not enabled, warehouse not set on product %name% </source>
-        <target xml:lang="zh-CN" state="needs-translation"> </target>
+        <target xml:lang="zh-CN" state="translated">高级库存管理未启用，产品%name%的仓库未设置 </target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2207</note>
       </trans-unit>
@@ -133,15 +258,15 @@ File: controllers/admin/AdminImportController.php:2207</note>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2227</note>
       </trans-unit>
-      <trans-unit id="3d52f8b2b1a67aa8740b72b3752d54f3">
+      <trans-unit id="3d52f8b2b1a67aa8740b72b3752d54f3" approved="yes">
         <source>Incorrect value for "Depends on stock" for product %name% </source>
-        <target xml:lang="zh-CN" state="needs-translation"> </target>
+        <target xml:lang="zh-CN" state="translated">产品%name%的“取决于库存” 数值不正确。 </target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2235</note>
       </trans-unit>
-      <trans-unit id="65167d7a989d3a25c4f81a7140b07b8f">
+      <trans-unit id="65167d7a989d3a25c4f81a7140b07b8f" approved="yes">
         <source>Advanced stock management is not enabled, cannot set "Depends on stock" for product %name% </source>
-        <target xml:lang="zh-CN" state="needs-translation"> </target>
+        <target xml:lang="zh-CN" state="translated">高级库存管理未启用。无法为商品%name% 设置”取决于库存“。 </target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2772</note>
       </trans-unit>
@@ -150,6 +275,24 @@ File: controllers/admin/AdminImportController.php:2772</note>
         <target xml:lang="zh-CN" state="translated">没有找到与 id_product = %s 与image position = %s匹配的图像</target>
         <note>Context:
 File: controllers/admin/AdminImportController.php:2494</note>
+      </trans-unit>
+      <trans-unit id="b672cb1c6a798cfb9f54de7dd897abd8" approved="yes">
+        <source>EAN13 "%ean13%" has incorrect value for product with id %id%.</source>
+        <target xml:lang="zh-CN" state="translated">产品ID %id%有个不正确的EAN13 "%ean13%"值</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:2614</note>
+      </trans-unit>
+      <trans-unit id="85b637ec0128d136bf3794c79f2e7295" approved="yes">
+        <source>Advanced stock management has incorrect value. Not set for product with id %id%.</source>
+        <target xml:lang="zh-CN" state="translated">高级库存管理有不正确的数值。产品ID%id%没设置</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:2731</note>
+      </trans-unit>
+      <trans-unit id="934b46cf9eb8a8595ca517b87de6bfb4" approved="yes">
+        <source>Advanced stock management is not enabled, cannot enable on product with id %id%.</source>
+        <target xml:lang="zh-CN" state="translated">高级库存管理未启用。无法启用商品ID%id%。</target>
+        <note>Context:
+File: controllers/admin/AdminImportController.php:2733</note>
       </trans-unit>
       <trans-unit id="964e5a863ba051181f8f537626f5c953" approved="yes">
         <source>Supplier is invalid</source>
