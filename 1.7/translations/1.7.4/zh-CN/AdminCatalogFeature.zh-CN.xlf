@@ -43,7 +43,7 @@ File: classes/lang/KeysReference/StockMvtReasonLang.php:35</note>
       </trans-unit>
       <trans-unit id="7829dec62809e15c4bb9bbc002fc5614" approved="yes">
         <source>Transfer from another warehouse</source>
-        <target xml:lang="zh-CN" state="translated">从另一个仓库转移</target>
+        <target xml:lang="zh-CN" state="translated">从另一个仓库运送</target>
         <note>Context:
 File: classes/lang/KeysReference/StockMvtReasonLang.php:37</note>
       </trans-unit>
@@ -52,6 +52,12 @@ File: classes/lang/KeysReference/StockMvtReasonLang.php:37</note>
         <target xml:lang="zh-CN" state="translated">供应订单</target>
         <note>Context:
 File: classes/lang/KeysReference/StockMvtReasonLang.php:39</note>
+      </trans-unit>
+      <trans-unit id="d664291d8860308c25f148de5831ad55" approved="yes">
+        <source>Product Return</source>
+        <target xml:lang="zh-CN" state="translated">商品退货</target>
+        <note>Context:
+File: classes/lang/KeysReference/StockMvtReasonLang.php:41</note>
       </trans-unit>
     </body>
   </file>
@@ -108,6 +114,12 @@ File: controllers/admin/AdminManufacturersController.php:258</note>
         <target xml:lang="zh-CN" state="translated">品牌</target>
         <note>Context:
 File: controllers/admin/AdminManufacturersController.php:310</note>
+      </trans-unit>
+      <trans-unit id="7c7c12e999629a6bf8dac0cb2119c261" approved="yes">
+        <source>Choose the brand</source>
+        <target xml:lang="zh-CN" state="translated">选择品牌</target>
+        <note>Context:
+File: controllers/admin/AdminManufacturersController.php:463</note>
       </trans-unit>
       <trans-unit id="804f1e6cd9e6d68208f39932da191f61" approved="yes">
         <source>Edit Addresses</source>
@@ -191,7 +203,7 @@ File: controllers/admin/AdminTrackingController.php:114</note>
       </trans-unit>
       <trans-unit id="0181e2b8568143a3608fea8e657a81cb" approved="yes">
         <source>List of products with combinations but without available quantities for sale:</source>
-        <target xml:lang="zh-CN" state="translated">列出无货的多属性产品：</target>
+        <target xml:lang="zh-CN" state="translated">列出无货的多属性商品：</target>
         <note>Context:
 File: controllers/admin/AdminTrackingController.php:158</note>
       </trans-unit>
@@ -325,7 +337,7 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_
       </trans-unit>
       <trans-unit id="7e64da36262d906a23b4b8614018bcd1" approved="yes">
         <source>Manage your product combinations</source>
-        <target xml:lang="zh-CN" state="translated">管理您的商品组合</target>
+        <target xml:lang="zh-CN" state="translated">管理您的商品属性组合</target>
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_combinations.html.twig:28</note>
       </trans-unit>
@@ -352,6 +364,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_
         <target xml:lang="zh-CN" state="translated">缺货时动作</target>
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_combinations.html.twig:175</note>
+      </trans-unit>
+      <trans-unit id="9a9d0d58778ce84d86a1f07df5867112" approved="yes">
+        <source>Stock management is disabled</source>
+        <target xml:lang="zh-CN" state="translated">库存管理不可用</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_combinations.html.twig:193</note>
       </trans-unit>
     </body>
   </file>
@@ -380,6 +398,18 @@ File: src/PrestaShopBundle/Form/Admin/Product/ProductCombination.php:131</note>
         <target xml:lang="zh-CN" state="translated">最低销售数量</target>
         <note>Context:
 File: src/PrestaShopBundle/Form/Admin/Product/ProductCombination.php:137</note>
+      </trans-unit>
+      <trans-unit id="e9d0876ad242d421e19d583f6f379f5f" approved="yes">
+        <source>Set as default combination</source>
+        <target xml:lang="zh-CN" state="translated">设为默认组合</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductCombination.php:168</note>
+      </trans-unit>
+      <trans-unit id="a22ed40bafe8f07b6d02c4a4966c8aea" approved="yes">
+        <source>Select images of this combination:</source>
+        <target xml:lang="zh-CN" state="translated">选择这个组合的图片</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductCombination.php:191</note>
       </trans-unit>
     </body>
   </file>
@@ -576,7 +606,7 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/opti
       </trans-unit>
       <trans-unit id="0250085516590c4fa032d89ae2511adf" approved="yes">
         <source>Where do you want your product to appear?</source>
-        <target xml:lang="zh-CN" state="translated">你要你的商品在哪里显示？</target>
+        <target xml:lang="zh-CN" state="translated">你希望商品在哪里显示？</target>
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/options.html.twig:38</note>
       </trans-unit>
@@ -696,6 +726,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/esse
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Product/ProductQuantity.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="af39c53c91dc46e2576f28b843b82988" approved="yes">
+        <source>Label when in stock</source>
+        <target xml:lang="zh-CN" state="translated">有库存时标记</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductQuantity.php:197</note>
+      </trans-unit>
       <trans-unit id="b2c80334809f9130d46e89b66b6d8544" approved="yes">
         <source>Create combinations</source>
         <target xml:lang="zh-CN" state="translated">创建组合</target>
@@ -740,7 +776,7 @@ File: src/PrestaShopBundle/Form/Admin/Product/ProductQuantity.php:230</note>
       </trans-unit>
       <trans-unit id="989d17fa8f3081cc0d66838c7504c0ef" approved="yes">
         <source>Use default behavior</source>
-        <target xml:lang="zh-CN" state="translated">使用默认行为</target>
+        <target xml:lang="zh-CN" state="translated">使用默认动作</target>
         <note>Context:
 File: src/PrestaShopBundle/Form/Admin/Product/ProductQuantity.php:244</note>
       </trans-unit>
@@ -831,6 +867,30 @@ File: src/PrestaShopBundle/Form/Admin/Product/ProductOptions.php:149</note>
         <target xml:lang="zh-CN" state="translated">只限网购（在您的门店不出售）</target>
         <note>Context:
 File: src/PrestaShopBundle/Form/Admin/Product/ProductOptions.php:158</note>
+      </trans-unit>
+      <trans-unit id="9609dddf3618cff8f67b7829e6fc575e" approved="yes">
+        <source>ISBN</source>
+        <target xml:lang="zh-CN" state="translated">ISBN</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductOptions.php:183</note>
+      </trans-unit>
+      <trans-unit id="527618353332c282892ba960ef1f0230" approved="yes">
+        <source>Display condition on product page</source>
+        <target xml:lang="zh-CN" state="translated">在产品页面显示条件</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductOptions.php:194</note>
+      </trans-unit>
+      <trans-unit id="efb78d0dd61da3bb7e5ca1770b894420" approved="yes">
+        <source>Default suppliers</source>
+        <target xml:lang="zh-CN" state="translated">默认的厂商</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductOptions.php:226</note>
+      </trans-unit>
+      <trans-unit id="9d38722749ec2101e437414ac2a743f9" approved="yes">
+        <source>Attachments for this product:</source>
+        <target xml:lang="zh-CN" state="translated">该商品的附件：</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductOptions.php:275</note>
       </trans-unit>
     </body>
   </file>
@@ -1120,6 +1180,12 @@ File: src/PrestaShopBundle/Form/Admin/Feature/ProductFeature.php:102</note>
   </file>
   <file original="controllers/admin/AdminAttributesGroupsController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="4472046c137171c7adf7c4fe5a72b6b9" approved="yes">
+        <source>Edit: %value%</source>
+        <target xml:lang="zh-CN" state="translated">编辑: %value%</target>
+        <note>Context:
+File: controllers/admin/AdminAttributesGroupsController.php:620</note>
+      </trans-unit>
       <trans-unit id="577cf2cf1be74419ac04093a2b4cd64d" approved="yes">
         <source>Edit Value</source>
         <target xml:lang="zh-CN" state="translated">编辑值</target>
@@ -1616,6 +1682,30 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/product.htm
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/product.html.twig:338</note>
       </trans-unit>
+      <trans-unit id="e6a4d0e7d64f63379da06c91a80e9c90" approved="yes">
+        <source>Drop images here</source>
+        <target xml:lang="zh-CN" state="translated">将您的图片拖至此处</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/product.html.twig:334</note>
+      </trans-unit>
+      <trans-unit id="aaa5309487aacf50e6413cf7a3074618" approved="yes">
+        <source>or select files</source>
+        <target xml:lang="zh-CN" state="translated">或选择文件</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/product.html.twig:335</note>
+      </trans-unit>
+      <trans-unit id="b36c5a58c30cc53bab5e9b3fda84755c" approved="yes">
+        <source>Recommended size 800 x 800px for default theme.</source>
+        <target xml:lang="zh-CN" state="translated">建议800 x 800px 的尺寸作为默认的主题</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/product.html.twig:336</note>
+      </trans-unit>
+      <trans-unit id="0d23de90e7f537b035eb79a464eb8ecf" approved="yes">
+        <source>JPG, GIF or PNG format.</source>
+        <target xml:lang="zh-CN" state="translated">JPG, GIF 或 PNG 格式</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/product.html.twig:337</note>
+      </trans-unit>
       <trans-unit id="e2e79605fc9450ec17957cf0e910f5c6" approved="yes">
         <source>tax incl.</source>
         <target xml:lang="zh-CN" state="translated">含税</target>
@@ -1698,27 +1788,51 @@ File: src/PrestaShopBundle/Form/Admin/Product/ProductSeo.php:136</note>
       </trans-unit>
       <trans-unit id="5c841800fb570244d423fe0b273665fb" approved="yes">
         <source>Permanent redirection to a product (301)</source>
-        <target xml:lang="zh-CN" state="translated">用就重定向到商品（301）</target>
+        <target xml:lang="zh-CN" state="translated">永久重定向到商品(301)</target>
         <note>Context:
 File: src/PrestaShopBundle/Form/Admin/Product/ProductSeo.php:137</note>
       </trans-unit>
       <trans-unit id="c36c68b574bddf55fe3ec5b8cc56a824" approved="yes">
         <source>Temporary redirection to a product (302)</source>
-        <target xml:lang="zh-CN" state="translated">临时转到一种商品（302）</target>
+        <target xml:lang="zh-CN" state="translated">临时重定向到商品(302)</target>
         <note>Context:
 File: src/PrestaShopBundle/Form/Admin/Product/ProductSeo.php:138</note>
       </trans-unit>
       <trans-unit id="34c6d1495d38f91ae785bc94849dc771" approved="yes">
         <source>Permanent redirection to a category (301)</source>
-        <target xml:lang="zh-CN" state="translated">永久重定向到分类（301）</target>
+        <target xml:lang="zh-CN" state="translated">永久重定向到分类(301)</target>
         <note>Context:
 File: src/PrestaShopBundle/Form/Admin/Product/ProductSeo.php:139</note>
       </trans-unit>
       <trans-unit id="7a13ef5d084a640d199018c55d415fac" approved="yes">
         <source>Temporary redirection to a category (302)</source>
-        <target xml:lang="zh-CN" state="translated">临时重定向到分类（302）</target>
+        <target xml:lang="zh-CN" state="translated">临时重定向到分类(302)</target>
         <note>Context:
 File: src/PrestaShopBundle/Form/Admin/Product/ProductSeo.php:140</note>
+      </trans-unit>
+      <trans-unit id="eab55e617090957b953e3dbdd801eea4" approved="yes">
+        <source>Redirection when offline</source>
+        <target xml:lang="zh-CN" state="translated">离线时重定向</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductSeo.php:149</note>
+      </trans-unit>
+      <trans-unit id="2afea1f31bf30bdcef8b3316025d6ae5" approved="yes">
+        <source>Target product</source>
+        <target xml:lang="zh-CN" state="translated">目标商品</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductSeo.php:151</note>
+      </trans-unit>
+      <trans-unit id="f66b691f01d53d5af582136ebb63cfc5" approved="yes">
+        <source>Target category</source>
+        <target xml:lang="zh-CN" state="translated">目标分类</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductSeo.php:153</note>
+      </trans-unit>
+      <trans-unit id="c41a31890959544c6523af684561abe5" approved="yes">
+        <source>Target</source>
+        <target xml:lang="zh-CN" state="translated">目标</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductSeo.php:169</note>
       </trans-unit>
     </body>
   </file>
@@ -1772,12 +1886,66 @@ File: src/PrestaShopBundle/Translation/Api/StockApi.php:48</note>
         <note>Context:
 File: src/PrestaShopBundle/Translation/Api/StockApi.php:49</note>
       </trans-unit>
+      <trans-unit id="e8324c0368f5e686c879ba246e36903f" approved="yes">
+        <source>Search a supplier</source>
+        <target xml:lang="zh-CN" state="translated">搜索供货商</target>
+        <note>Context:
+File: src/PrestaShopBundle/Translation/Api/StockApi.php:50</note>
+      </trans-unit>
       <trans-unit id="b1c94ca2fbc3e78fc30069c8d0f01680" approved="yes">
         <source>All</source>
         <target xml:lang="zh-CN" state="translated">全部</target>
         <note>Context:
 File: src/PrestaShopBundle/Translation/Api/StockApi.php:53
  Comment: 'All' refers to statuses as if "All statuses". Please adapt as necessary in your language</note>
+      </trans-unit>
+      <trans-unit id="3704fd59c2d4295b196008f9ebe09267" approved="yes">
+        <source>Filter by supplier</source>
+        <target xml:lang="zh-CN" state="translated">以供应商来过滤</target>
+        <note>Context:
+File: src/PrestaShopBundle/Translation/Api/StockApi.php:56</note>
+      </trans-unit>
+      <trans-unit id="dc7f9d531239c6acc08b99236a4204cd" approved="yes">
+        <source>Stock management</source>
+        <target xml:lang="zh-CN" state="translated">库存管理</target>
+        <note>Context:
+File: src/PrestaShopBundle/Translation/Api/StockApi.php:61</note>
+      </trans-unit>
+      <trans-unit id="898bed66d82aeaab1d62875fd3657c40" approved="yes">
+        <source>Movements</source>
+        <target xml:lang="zh-CN" state="translated">移动</target>
+        <note>Context:
+File: src/PrestaShopBundle/Translation/Api/StockApi.php:63</note>
+      </trans-unit>
+      <trans-unit id="083e99de177243cffe65b7f8724c89ca" approved="yes">
+        <source>Search products (search by name, reference, supplier)</source>
+        <target xml:lang="zh-CN" state="translated">搜索商品(以名字，参考词，厂商)</target>
+        <note>Context:
+File: src/PrestaShopBundle/Translation/Api/StockApi.php:67</note>
+      </trans-unit>
+      <trans-unit id="0a31e37f4790bed575e702d61fcfb452" approved="yes">
+        <source><![CDATA[Date & Time]]></source>
+        <target xml:lang="zh-CN" state="translated"><![CDATA[日期和时间]]></target>
+        <note>Context:
+File: src/PrestaShopBundle/Translation/Api/StockApi.php:73</note>
+      </trans-unit>
+      <trans-unit id="ac43f4edefaf0db72e60d681332c8437" approved="yes">
+        <source>Edit quantity</source>
+        <target xml:lang="zh-CN" state="translated">编辑数量</target>
+        <note>Context:
+File: src/PrestaShopBundle/Translation/Api/StockApi.php:74</note>
+      </trans-unit>
+      <trans-unit id="ce898d62ed9ca7653a01fe0c781e97e9" approved="yes">
+        <source>Physical</source>
+        <target xml:lang="zh-CN" state="translated">物理</target>
+        <note>Context:
+File: src/PrestaShopBundle/Translation/Api/StockApi.php:79</note>
+      </trans-unit>
+      <trans-unit id="942d4e37dd5607ab68e54755540d4a47" approved="yes">
+        <source>Reserved</source>
+        <target xml:lang="zh-CN" state="translated">保留</target>
+        <note>Context:
+File: src/PrestaShopBundle/Translation/Api/StockApi.php:82</note>
       </trans-unit>
     </body>
   </file>
@@ -1975,6 +2143,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/catalog_emp
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Blocks/tabs.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="93d74901738e996378295fb0a59bb977" approved="yes">
+        <source>Basic settings</source>
+        <target xml:lang="zh-CN" state="translated">基本设置</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Blocks/tabs.html.twig:27</note>
+      </trans-unit>
       <trans-unit id="e22ac25b066b201473de7aa700ef5d92" approved="yes">
         <source>Pricing</source>
         <target xml:lang="zh-CN" state="translated">定价</target>
@@ -2075,6 +2249,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_combination.html.twig:173</note>
       </trans-unit>
+      <trans-unit id="4c43a60b8005e29697dfbcf647f8096e" approved="yes">
+        <source>Specific references</source>
+        <target xml:lang="zh-CN" state="translated">指定编号</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_combination.html.twig:193</note>
+      </trans-unit>
       <trans-unit id="fff0d600f8a0b5e19e88bfb821dd1157" approved="yes">
         <source>Images</source>
         <target xml:lang="zh-CN" state="translated">图片</target>
@@ -2156,7 +2336,7 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_
       </trans-unit>
       <trans-unit id="0b5c5a9176b94b7577e998f7440228a7" approved="yes">
         <source>Default supplier</source>
-        <target xml:lang="zh-CN" state="translated">预定的供应商</target>
+        <target xml:lang="zh-CN" state="translated">默认供应商</target>
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_supplier_choice.html.twig:55</note>
       </trans-unit>
@@ -2253,6 +2433,12 @@ File: admin-dev/themes/default/template/controllers/cart_rules/actions.tpl:113</
         <target xml:lang="zh-CN" state="translated">已选商品</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/cart_rules/actions.tpl:125</note>
+      </trans-unit>
+      <trans-unit id="3b3924db361bf202158d5a23ec10ea80" approved="yes">
+        <source>Exclude discounted products</source>
+        <target xml:lang="zh-CN" state="translated">不含打折产品</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/cart_rules/actions.tpl:146</note>
       </trans-unit>
       <trans-unit id="2f73d13f0a878086ce1f9933aed3ac80" approved="yes">
         <source>Send a free gift</source>
