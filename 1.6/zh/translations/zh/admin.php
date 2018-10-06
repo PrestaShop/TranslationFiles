@@ -319,6 +319,7 @@ $_LANGADM['AdminCategories00d23a76e43b46dae9ec7aa9dcbebb32'] = '启用';
 $_LANGADM['AdminCategoriesb9f5c797ebbf55adccdd8539a65a0241'] = '禁用';
 $_LANGADM['AdminCategories52b68aaa602d202c340d9e4e9157f276'] = '上级分类';
 $_LANGADM['AdminCategories2028f52eb6d12dc1814f92f18c7365a0'] = '类目封面图片';
+$_LANGADM['AdminCategories42f9ee5026d32792987af851a2ea0343'] = '这是分类的主图像，将显示在分类页面。分类说明悬浮显示在图像左上角。';
 $_LANGADM['AdminCategories4ae362f049719078c429941bed5dd440'] = '类目缩略图';
 $_LANGADM['AdminCategories9e11e4b371570340ca07913bc4783a7a'] = 'Meta标题';
 $_LANGADM['AdminCategories3e053943605d9e4bf7dd7588ea19e9d2'] = '禁用字符：';
