@@ -11,8 +11,14 @@ $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_f32880ae5183a02c0a743bfd37a42cb
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_cf8d684bd5f89d30da67c95363a48ab9'] = '请添加标签';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e8d6809226ab177013e0a26bd2d8b60d'] = '请为你的默认语言添加标签';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_3da9d5745155a430aac6d7de3b6de0c8'] = '链接添加成功';
+$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_022bb0995e3256abeeac1788a5e2c5b3'] = '无法为以下商店添加链接：%s';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e24e88b590807c2816be15abd7c7dbbc'] = '链接删除成功';
+$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e418ee8626f7941239c5b7a0880691ae'] = '无法从以下商店删除链接：%s';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_beb4f951c292ec9218473ffe5f59849d'] = '链接编辑成功';
+$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_b1a23c1a76918c10acc27bfa60798c42'] = '您无法从”所有商店“或者”商店组“环境中管理顶部菜单项，请直接选择您想要编辑的商店';
+$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_298b615220606d42b6ac60269df0d321'] = '此修改将被应用到商店：%s';
+$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_aef3662e6419ddaaa0a31df70e3b6557'] = '此修改将被应用到此组：%s';
+$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_dd25f68471362f6f5f183d6158d67854'] = '此修改将被应用到所有商店';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_bf24faeb13210b5a703f3ccef792b000'] = '所有制造商';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_ecf253735ac0cba84a9d2eeff1f1b87c'] = '所有的供应商';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_944d19a34e5fa333a6a0de27e8c971da'] = '菜单顶部链接';
@@ -20,6 +26,7 @@ $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_eacd852cc1f621763dccbda3f3c1508
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_00d23a76e43b46dae9ec7aa9dcbebb32'] = '启用';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_b9f5c797ebbf55adccdd8539a65a0241'] = '禁用';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_c9cc8cce247e49bae79f15173ce97354'] = '保存';
+$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_0a112e5da975d8eaf28df9219c397764'] = '所有有效产品组合数量都将被更改';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_1a6191a2dc928ff8fb8c02c050975ea7'] = '更新链接';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_58e9b25bb2e2699986a3abe2c92fc82e'] = '添加新链接';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_b021df6aac4654c454f46c77646e745f'] = '标签';

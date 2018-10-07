@@ -44,6 +44,7 @@ $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_cec31ec82e3bdee482baaa9f5b1
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_15b4020fafe2bcadf41fbdb2e7fa137a'] = '星期六准备';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_9685cbc6ac9090137fb087d4f48d0561'] = '星期天准备';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_104f1a7d59077b514d4105fcee0e42ff'] = '日期格式：';
+$_MODULE['<{dateofdelivery}prestashop>dateofdelivery_f19cb36e3ae263c8c3617a453a0ff521'] = '您可以在此看到所有可用参数：';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_c9cc8cce247e49bae79f15173ce97354'] = '保存';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_85140afa1c99d6b4dc10179e2c5b4151'] = '运送商:';
 $_MODULE['<{dateofdelivery}prestashop>dateofdelivery_1b9f5204ddf0881dc9f3a7bf65d4ac15'] = '运送于';

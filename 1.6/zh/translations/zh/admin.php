@@ -96,6 +96,7 @@ $_LANGADM['AdminAttributesGroups6252c0f2c2ed83b7b06dfca86d4650bb'] = '无效字�
 $_LANGADM['AdminAttributesGroupsd274013ea65428454962a59b7b373a41'] = '公用名称';
 $_LANGADM['AdminAttributesGroupsb5e6921c2d093fbcb0088c9466ee9983'] = '该属性的公开名称，向客户显示。';
 $_LANGADM['AdminAttributesGroups17af8baa9b3f90e936589069e4223280'] = '属性类型';
+$_LANGADM['AdminAttributesGroups1736c2a3dfbe74f884bf5c9750bd4606'] = '商品页面中属性的显示方式。';
 $_LANGADM['AdminAttributesGroups9d55fc80bbb875322aa67fd22fc98469'] = '商店项目关联：';
 $_LANGADM['AdminAttributesGroupsc9cc8cce247e49bae79f15173ce97354'] = '保存';
 $_LANGADM['AdminAttributesGroupsc82a6100dace2b41087ba6cf99a5976a'] = '数值';
