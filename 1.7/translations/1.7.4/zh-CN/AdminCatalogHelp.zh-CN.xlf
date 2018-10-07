@@ -14,6 +14,12 @@ File: controllers/admin/AdminManufacturersController.php:352</note>
         <note>Context:
 File: controllers/admin/AdminManufacturersController.php:378</note>
       </trans-unit>
+      <trans-unit id="b7d8f05036844ad562ed08715bb480b4" approved="yes">
+        <source>Company name for this brand</source>
+        <target xml:lang="zh-CN" state="translated">该品牌的公司名称</target>
+        <note>Context:
+File: controllers/admin/AdminManufacturersController.php:505</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/combinations.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -102,6 +108,12 @@ File: controllers/admin/AdminCategoriesController.php:527</note>
         <note>Context:
 File: controllers/admin/AdminCategoriesController.php:568</note>
       </trans-unit>
+      <trans-unit id="c5d262df2fa3b92141eb8bb37b1fb9b7" approved="yes">
+        <source>Displays a small image in the parent category's page, if the theme allows it.</source>
+        <target xml:lang="zh-CN" state="translated">如果主题允许的话，在主分类页面显示小图片。</target>
+        <note>Context:
+File: controllers/admin/AdminCategoriesController.php:579</note>
+      </trans-unit>
       <trans-unit id="7e35726fb991605ab3d0e6406599e6ef" approved="yes">
         <source>To add "tags," click in the field, write something, and then press "Enter."</source>
         <target xml:lang="zh-CN" state="translated">要添加“标签”，单击该字段，输入些文字，然后按“回车”键。</target>
@@ -169,6 +181,12 @@ File: controllers/admin/AdminAttributesGroupsController.php:199</note>
         <target xml:lang="zh-CN" state="translated">该属性的公开名称，向客户显示。</target>
         <note>Context:
 File: controllers/admin/AdminAttributesGroupsController.php:208</note>
+      </trans-unit>
+      <trans-unit id="580de47d3bc3e99a0b6aba55066a983a" approved="yes">
+        <source>The way the attribute's values will be presented to the customers in the product's page.</source>
+        <target xml:lang="zh-CN" state="translated">商品页面中属性的显示方式。</target>
+        <note>Context:
+File: controllers/admin/AdminAttributesGroupsController.php:221</note>
       </trans-unit>
       <trans-unit id="22cbf85c41427960736dc10cfec5faf4" approved="yes">
         <source>Choose a color with the color picker, or enter an HTML color (e.g. "lightblue", "#CC6600").</source>
@@ -304,12 +322,24 @@ File: src/PrestaShopBundle/Form/Admin/Product/ProductOptions.php:122</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Product/ProductSeo.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
+      <trans-unit id="af809f35e40bd6f644509ad566ecf38c" approved="yes">
+        <source>To have a different title from the product name, enter it here.</source>
+        <target xml:lang="zh-CN" state="translated">产品名称有不同的抬头的话请写在这里。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductSeo.php:79</note>
+      </trans-unit>
+      <trans-unit id="b0ea2bd9df4b8ee746b4e5fd28503851" approved="yes">
+        <source>Public title for the product's page, and for search engines. Leave blank to use the product name. The number of remaining characters is displayed to the left of the field.</source>
+        <target xml:lang="zh-CN" state="translated">用于产品页面和搜索引擎的公共标题。留空则使用商品名称。剩余的字符在栏位的左边显示。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductSeo.php:89</note>
+      </trans-unit>
+      <trans-unit id="5f99bb8ecd940f311cb66fadfc467a2b" approved="yes">
+        <source>To have a different description than your product summary in search results pages, write it here.</source>
+        <target xml:lang="zh-CN" state="translated">要在搜索结果页面显示和商品页不同的描述，请在这里填写。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductSeo.php:103</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Product/ProductInformation.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -319,6 +349,18 @@ File: src/PrestaShopBundle/Form/Admin/Product/ProductOptions.php:122</note>
         <target xml:lang="zh-CN" state="translated">查询商品</target>
         <note>Context:
 File: src/PrestaShopBundle/Form/Admin/Product/ProductInformation.php:148</note>
+      </trans-unit>
+      <trans-unit id="9242ed633bcac07574f63fba6e184fd8" approved="yes">
+        <source>Enter your product name</source>
+        <target xml:lang="zh-CN" state="translated">输入您的商品名称</target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductInformation.php:170</note>
+      </trans-unit>
+      <trans-unit id="7f6c27a96363effdda77216cf1251400" approved="yes">
+        <source><![CDATA[The summary is a short sentence describing your product.<br />It will appears at the top of your shop's product page, in product lists, and in search engines' results page (so it's important for SEO). To give more details about your product, use the "Description" tab.]]></source>
+        <target xml:lang="zh-CN" state="translated"><![CDATA[概述是指你商品描述的简短说明<br />它将出现在你商店产品页面，产品明细，和搜索引擎结果页面顶端（所以它对SEO非常重要）。要填写关于你的产品的更多的说明，请使用“说明”标签栏。]]></target>
+        <note>Context:
+File: src/PrestaShopBundle/Form/Admin/Product/ProductInformation.php:193</note>
       </trans-unit>
     </body>
   </file>
@@ -340,18 +382,38 @@ File: src/PrestaShopBundle/Controller/Admin/ProductController.php:172</note>
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Security/compromised.html.twig:48</note>
       </trans-unit>
+      <trans-unit id="d24ec28b066e46d9d9ec3c1f39aa89ee" approved="yes">
+        <source>[1]Invalid token[/1]: direct access to this link may lead to a potential security breach.</source>
+        <target xml:lang="zh-CN" state="translated">[1]无效的凭证）[/1]：登陆这个连接可能会有潜在的安全隐患。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Security/compromised.html.twig:56</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/Lists/products_table.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="542f59279cd5d73dfbdb069ce0833b0a" approved="yes">
+        <source>Search name</source>
+        <target xml:lang="zh-CN" state="translated">搜索名称</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/Lists/products_table.html.twig:98</note>
+      </trans-unit>
+      <trans-unit id="3ce14776b1408d0dc406766fd0c6a45d" approved="yes">
+        <source>Search ref.</source>
+        <target xml:lang="zh-CN" state="translated">搜索参考</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/Lists/products_table.html.twig:107</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Blocks/header.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="bb03c14d14caa07e21f97cbe5eab022d" approved="yes">
+        <source>Is the product a pack (a combination of at least two existing products), a virtual product (downloadable file, service, etc.), or simply a standard, physical product?</source>
+        <target xml:lang="zh-CN" state="translated">这是套餐商品（至少有两个产品构成的组合），虚拟商品（可下载文件，服务等），或仅仅是一见标准实物商品？</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Blocks/header.html.twig:43</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Blocks/footer.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -367,6 +429,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/Security/compromised.html.twig:
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_categories.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="61010671991185f436b35030f599d327" approved="yes">
+        <source>Where should the product be available on your site? The main category is where the product appears by default: this is the category which is seen in the product page's URL. Disabled categories are written in italics.</source>
+        <target xml:lang="zh-CN" state="translated">商品将显示在你的网站上什么位置？主目录是商品默认显示位置：这在商品页面URL上是能看到的。已禁用目录用斜体标记。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_categories.html.twig:27</note>
+      </trans-unit>
       <trans-unit id="c5abe76b24973299661ce389d1a092e1" approved="yes">
         <source>Search categories</source>
         <target xml:lang="zh-CN" state="translated">搜索分类</target>
@@ -398,6 +466,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/opti
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_warehouse_combination.html.twig:30</note>
       </trans-unit>
+      <trans-unit id="d96fc45d9d293e923893a37d598ee960" approved="yes">
+        <source>It is also possible to specify the location within the warehouse for each product or combination.</source>
+        <target xml:lang="zh-CN" state="translated">可以在仓库里指明每件商品或套装的位置。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_warehouse_combination.html.twig:31</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_combinations.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -408,18 +482,38 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_
         <note>Context:
 File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_combinations.html.twig:32</note>
       </trans-unit>
+      <trans-unit id="57a23510ca35a7354d9208151c344364" approved="yes">
+        <source><![CDATA[To add combinations, you first need to create proper attributes and values in [1]Attributes & Features[/1]. <br> When done, you may enter the wanted attributes (like "size" or "color") and their respective values ("XS", "red", "all", etc.) in the field below; or simply select them from the right column. Then click on "Generate": it will automatically create all the combinations for you!]]></source>
+        <target xml:lang="zh-CN" state="translated"><![CDATA[要添加组合，你必须先在[1]特性&特点[/1]里创建特性和数值。<br>当完成后，你可以在以下栏位输入需要的特性（如“号码” 或“颜色”）以及他们相应的数值（("XS", "红色", "全部",或者从右边栏为直接选择他们。 然后，点击“生成”。它会自动帮你生成所有的产品组合。]]></target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_combinations.html.twig:38</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_supplier_combination.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="214396125ea99914d7f6faef5d612b85" approved="yes">
+        <source>You can specify product reference(s) for each associated supplier. Click "Save" after changing selected suppliers to display the associated product references.</source>
+        <target xml:lang="zh-CN" state="translated">你可以为每个相关的供应商定义商品编号。把选择的厂商连到相关产品编号上后点击“保存”。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_supplier_combination.html.twig:31</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_supplier_choice.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="aa25978d6b02e4e469c205afa9de0c46" approved="yes">
+        <source>This interface allows you to specify the suppliers of the current product and its combinations, if any.</source>
+        <target xml:lang="zh-CN" state="translated">这个界面允许你可以定义现有商品的厂商和它的组合(如果有的话)。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_supplier_choice.html.twig:35</note>
+      </trans-unit>
+      <trans-unit id="5f5641c7f2d62db16c4d12ce2bcf5898" approved="yes">
+        <source>You can specify supplier references according to previously associated suppliers.</source>
+        <target xml:lang="zh-CN" state="translated">你可以按之前相关的厂商来指定厂商编号。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_supplier_choice.html.twig:36</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_shipping.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -434,11 +528,12 @@ File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_seo.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
+      <trans-unit id="eb8b9b044f3b64b5ba5f7b047963714c" approved="yes">
+        <source>When your product is disabled, choose to which page you’d like to redirect the customers visiting its page by typing the product or category name.</source>
+        <target xml:lang="zh-CN" state="translated">当商品下线时，请选择要重定向的商品或分类名称。</target>
+        <note>Context:
+File: src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_seo.html.twig:92</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/pricing.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
