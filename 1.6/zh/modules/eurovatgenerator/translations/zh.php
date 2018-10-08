@@ -4,6 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{eurovatgenerator}prestashop>eurovatgenerator_267e605d64e4f9568839936222896911'] = '欧洲VAT生成器';
+$_MODULE['<{eurovatgenerator}prestashop>eurovatgenerator_d30c038f173012c8bdbed1be880e05a0'] = '轻松获得符合欧洲对虚拟产品新的增值税法规。';
 $_MODULE['<{eurovatgenerator}prestashop>configure_bt_a73ab413109c43dd31f191a7d310e1ef'] = '虚拟商品的欧洲VAT';
 $_MODULE['<{eurovatgenerator}prestashop>configure_bt_c2ef886abacc6606f222e8a12eeac91c'] = '此模块帮助您轻松创建所需要的欧洲税，这样您可以遵守虚拟产品新的增值税法规。';
 $_MODULE['<{eurovatgenerator}prestashop>configure_bt_47178f09d58b5d5c42576914ede0a423'] = '一旦完成，您将需要修改您的产品目录，指定此欧洲税法到相关的虚拟产品中。';
