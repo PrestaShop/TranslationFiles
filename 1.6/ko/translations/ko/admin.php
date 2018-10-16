@@ -642,6 +642,7 @@ $_LANGADM['AdminPerformance82742001d67f4446f50d68908f0f8b96'] = '([a]Memcache PE
 $_LANGADM['AdminPerformance78ae94b19fc38f9a35d20bc67cde2d61'] = '([a]APC PECL 확장기능[/a]을 설치해야 합니다)';
 $_LANGADM['AdminPerformance0e68f753bc601f5d9d04717f95042762'] = 'APC';
 $_LANGADM['AdminPPreferencesbb98eaca8d91531f4ae177c9d395f1d4'] = '목록 모드';
+$_LANGADM['AdminPPreferences368140d2caf6b43106964fd615756d1b'] = '상품 비교';
 $_LANGADM['AdminPPreferences85dd6b2059e1ff8fbefcc9cf6e240933'] = '\'신상품\'으로 설정될 상품의 일 수';
 $_LANGADM['AdminPPreferencesfc216bdfbaab3c5e3e87c70720110a08'] = '수량 할인 계산 방법.';
 $_LANGADM['AdminPPreferences068f80c7519d0528fb08e82137a72131'] = '상품';
