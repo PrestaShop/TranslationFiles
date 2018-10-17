@@ -27,6 +27,7 @@ $_MODULE['<{loyalty}prestashop>loyalty_3ec365dd533ddb7ef3d1c111186ce872'] = '계
 $_MODULE['<{loyalty}prestashop>loyalty_29aa46cc3d2677c7e0f216910df600ff'] = '무료 배송';
 $_MODULE['<{loyalty}prestashop>loyalty_019d1ca7d50cc54b995f60d456435e87'] = '사용됨';
 $_MODULE['<{loyalty}prestashop>loyalty_1f67ea7a0b26e9eacc70523bde28df0c'] = '더 보기...';
+$_MODULE['<{loyalty}prestashop>loyalty_18fb6221fe0d9895c2e9ba08283f00e9'] = '주문 #%d';
 $_MODULE['<{loyalty}prestashop>loyalty_a149e85a44aeec9140e92733d9ed694e'] = '취소됨';
 $_MODULE['<{loyalty}prestashop>loyalty_8e69341aca5dbf9f55c2e75a2ed5df3c'] = '아직 할인쿠폰이 없습니다.';
 $_MODULE['<{loyalty}prestashop>loyalty_0b3db27bc15f682e92ff250ebb167d4b'] = '당신 계정으로 돌아가기';

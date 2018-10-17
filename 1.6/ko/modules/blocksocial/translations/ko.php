@@ -4,6 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 
 $_MODULE['<{blocksocial}prestashop>blocksocial_f4f70727dc34561dfde1a3c529b6205c'] = '설정';
+$_MODULE['<{blocksocial}prestashop>blocksocial_1a530e4877d8d41f810d9d05f065722d'] = 'RSS URL';
 $_MODULE['<{blocksocial}prestashop>blocksocial_5817a34292f074f9f596de6cb3607540'] = '당신의 공식 유튜브 계정.';
 $_MODULE['<{blocksocial}prestashop>blocksocial_1dd99e363d1bebee81578708c1e8a5e0'] = '구글플러스 URL:';
 $_MODULE['<{blocksocial}prestashop>blocksocial_1dd0a74974711190139fa51579765a04'] = '당신의 공식 구글플러스 페이지.';

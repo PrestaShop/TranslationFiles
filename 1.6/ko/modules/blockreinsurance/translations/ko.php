@@ -10,6 +10,7 @@ $_MODULE['<{blockreinsurance}prestashop>blockreinsurance_9dffbf69ffba8bc38bc4e01
 $_MODULE['<{blockreinsurance}prestashop>blockreinsurance_c9cc8cce247e49bae79f15173ce97354'] = '저장';
 $_MODULE['<{blockreinsurance}prestashop>blockreinsurance_630f6dc397fe74e52d5189e2c80f282b'] = '목록으로';
 $_MODULE['<{blockreinsurance}prestashop>blockreinsurance_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
+$_MODULE['<{blockreinsurance}prestashop>blockreinsurance_23498d91b6017e5d7f4ddde70daba286'] = 'ID 상점';
 $_MODULE['<{blockreinsurance}prestashop>blockreinsurance_ef61fb324d729c341ea8ab9901e23566'] = '새로 추가';
 $_MODULE['<{blockreinsurance}prestashop>blockreinsurance_597ce11744f9bbf116ec9e4a719ec9d3'] = '배송 시 결제.';
 $_MODULE['<{blockreinsurance}prestashop>blockreinsurance_3aca7ac5cf7e462b658960931946f824'] = '무료 배송.';

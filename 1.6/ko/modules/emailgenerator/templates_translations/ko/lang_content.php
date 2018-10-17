@@ -96,7 +96,7 @@ $_LANGMAIL['Delivery address'] = '배송지 주소';
 $_LANGMAIL['Billing address'] = '청구지 주소';
 $_LANGMAIL['Message from a customer'] = '고객님으로 부터 온 메세지';
 $_LANGMAIL['You have received a new message regarding order with the reference'] = '참조와 관련된 주문에 관한 새 메시지를 받았습니다.';
-$_LANGMAIL['Customer:'] = '';
+$_LANGMAIL['Customer:'] = '고객:';
 $_LANGMAIL['You have received a new message from <span><strong>{shop_name}</strong></span> regarding order with the reference <span><strong>{order_name}</strong></span>.'] = '참조가 <span><strong>{order_name}</strong></span> 인 주문에 대해 <span><strong>{shop_name}</strong></span>에서 새 메시지를 받았습니다.';
 $_LANGMAIL['Return #{id_order_return} - update'] = '';
 $_LANGMAIL['We have updated the progress on your return #{id_order_return}, the new status is:'] = '';
@@ -139,7 +139,7 @@ $_LANGMAIL['<span><strong>{shop_name}</strong></span> invites you to send this l
 $_LANGMAIL['<span><strong>{firstname} {lastname}</strong></span> indicated you may want to see his/her wishlist:'] = '';
 $_LANGMAIL['Your cart at {shop_name}'] = '';
 $_LANGMAIL['We noticed that during your last visit on {shop_name}, you did not complete the order you had started.'] = '';
-$_LANGMAIL['Your cart has been saved, you can resume your order by visiting our shop:'] = '';
+$_LANGMAIL['Your cart has been saved, you can resume your order by visiting our shop:'] = '장바구니가 저장되었습니다. 상점을 방문하여 주문을 계속할 수 있습니다.';
 $_LANGMAIL['As an incentive, we can give you a discount of {amount}% off your next order! This offer is valid for <span><strong>{days}</strong></span> days, so do not waste a moment!'] = '';
 $_LANGMAIL['Here is your coupon:'] = '';
 $_LANGMAIL['Enter this code in your shopping cart to get your discount.'] = '';

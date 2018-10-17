@@ -222,6 +222,7 @@ $_ERRORS['bc6f653d2d54db1348de50fe0b0192e9'] = '잘못된 재고 매니저 클�
 $_ERRORS['65d09c7dfa652d616875eddb50c18d2b'] = '재고 매니저 클래스를 찾을수 없습니다 [%s]';
 $_ERRORS['253356cdb3cd6af1a6028200326de711'] = '잘못된 세금 매니저 클래스 [%s]';
 $_ERRORS['20eb7f9857d85d1d0c8a1e0ddf8545b8'] = '세금 매니저 클래스를 찾을수 없습니다 [%s]';
+$_ERRORS['6f3455d187a23443796efdcbe044096b'] = '면세';
 $_ERRORS['ae8e757923a42d666e5c0fdf59fda545'] = '업로드한 파일이 %s를 초과함';
 $_ERRORS['298883b17e36ee3a18d73e835c0b44fc'] = '파일이 업로드 되지 않았습니다';
 $_ERRORS['b2b0bd0f32c2dcb52c3e2feb24f33a31'] = 'PHP 확장기능이 파일 업로드를 중지함';

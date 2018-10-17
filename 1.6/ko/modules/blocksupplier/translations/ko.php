@@ -8,6 +8,7 @@ $_MODULE['<{blocksupplier}prestashop>blocksupplier_e72b2501ba75e9ab754d3294d43c2
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_f38f5974cdc23279ffe6d203641a8bdf'] = '설정 수정됨.';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_f4f70727dc34561dfde1a3c529b6205c'] = '설정';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_bfdff752293014f11f17122c92909ad5'] = '일반 텍스트 목록 사용';
+$_MODULE['<{blocksupplier}prestashop>blocksupplier_b9f5c797ebbf55adccdd8539a65a0241'] = '비활성화됨';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_2eef734f174a02ae3d7aaafefeeedb42'] = '표시할 요소의 갯수';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_b0fa976774d2acf72f9c62e9ab73de38'] = '드롭다운 목록 사용';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_e490c3b296d2f54d65d3d20803f71b55'] = '드롭 다운 목록으로 공급사를 표시합니다.';

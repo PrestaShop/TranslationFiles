@@ -12,6 +12,7 @@ $_MODULE['<{blockadvertising}prestashop>blockadvertising_a15e4232c6c1fc1e67816dd
 $_MODULE['<{blockadvertising}prestashop>blockadvertising_4163f94824da4886254e88de13fbb863'] = '이미지의 대상 링크';
 $_MODULE['<{blockadvertising}prestashop>blockadvertising_24c28ef67324898298e45026d8efabaf'] = '대상 연결의 제목';
 $_MODULE['<{blockadvertising}prestashop>blockadvertising_78315dd2b27ef8037115b9f66351c155'] = '이 제목은 상점의 광고 블럭에 마우스 커서가 올라갈 시 나타납니다.';
+$_MODULE['<{blockadvertising}prestashop>blockadvertising_c9cc8cce247e49bae79f15173ce97354'] = '저장';
 
 
 return $_MODULE;
