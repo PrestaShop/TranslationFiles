@@ -17,6 +17,7 @@ $_MODULE['<{autoupgrade}prestashop>adminpreferences_ed5454727fb14b9800ead242d097
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_9cfc2e28ebe44b3e14f9d780d2150650'] = '쿠키의 도난 방지를 위해 쿠키의 IP 주소를 확인';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_e673b146824251548feecf1f3929aceb'] = '관리자 사이트 쿠키 수명';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_16c390c0fd1efc4f493a6a861aa22d2f'] = '관리자 사이트 도움 상자';
+$_MODULE['<{autoupgrade}prestashop>adminpreferences_59aad85b376259844b471a758908a3c1'] = '주문 처리 유형';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_403e42a4b26e379cb13563c98ab63067'] = '비회원 결제 활성화';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_e4045598261988d9988c594243a9434d'] = '서비스 약관';
 $_MODULE['<{autoupgrade}prestashop>adminpreferences_2a0677dae563d574fb1c50badaa4eabf'] = '선물포장비';
