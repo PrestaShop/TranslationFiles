@@ -3,6 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{gapi}prestashop>gapi_dc647eb65e6711e155375218212b3964'] = 'Lozinka';
 
 
 return $_MODULE;
