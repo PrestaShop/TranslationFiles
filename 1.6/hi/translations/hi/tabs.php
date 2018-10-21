@@ -80,6 +80,7 @@ $_TABS['AdminImages'] = 'छवि';
 $_TABS['AdminStores'] = 'दुकान संपर्कों';
 $_TABS['AdminSearchConf'] = 'खोज';
 $_TABS['AdminMaintenance'] = 'रखरखाव';
+$_TABS['AdminEmails'] = 'ई-मेल';
 $_TABS['AdminAdminPreferences'] = 'प्राथमिकताएं';
 
 

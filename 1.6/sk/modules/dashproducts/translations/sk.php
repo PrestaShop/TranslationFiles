@@ -24,7 +24,6 @@ $_MODULE['<{dashproducts}prestashop>dashproducts_ce4ee01637f4279d02d0f232459dc9a
 $_MODULE['<{dashproducts}prestashop>dashproducts_37be07209f53a5d636d5c904ca9ae64c'] = 'Percentuálne';
 $_MODULE['<{dashproducts}prestashop>dashproducts_1eb18ea1d018abef5759cef60ddc289b'] = 'Musíte mať aktivovanú hodnotu "Uložiť globálne zhliadnutia stránok" v module "Získavanie dát pre štatistiky", aby ste mohli zobraziť najnavštevovanejšie produkty alebo použite modul Google Analytics.';
 $_MODULE['<{dashproducts}prestashop>dashproducts_cf5f3091e30dee6597885d8c0e0c357f'] = 'Výraz';
-$_MODULE['<{dashproducts}prestashop>dashproducts_13348442cc6a27032d2b4aa28b75a5d3'] = 'Hľadať';
 $_MODULE['<{dashproducts}prestashop>dashproducts_fd69c5cf902969e6fb71d043085ddee6'] = 'Výsledky';
 $_MODULE['<{dashproducts}prestashop>dashproducts_38fb7d24e0d60a048f540ecb18e13376'] = 'Uložiť';
 $_MODULE['<{dashproducts}prestashop>dashproducts_ea4788705e6873b424c65e91c2846b19'] = 'Zrušiť';
