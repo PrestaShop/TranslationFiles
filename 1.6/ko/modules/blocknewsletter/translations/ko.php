@@ -32,6 +32,7 @@ $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_f6618fce0acbfca15e1f2b099
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_e172cb581e84f43a3bd8ee4e3b512197'] = '구독신청 처리 중 오류가 발생했습니다.';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_ebc069b1b9a2c48edfa39e344103be1e'] = '인증 메일이 전송되었습니다. 수신함을 확인해 주세요.';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_77c576a354d5d6f5e2c1ba50167addf8'] = '이 소식지 구독에 성공하였습니다.';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_4e1c51e233f1ed368c58db9ef09010ba'] = '소식지를 구독해 주셔서 감사합니다.';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_f4f70727dc34561dfde1a3c529b6205c'] = '설정';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_54d2f1bab16b550e32395a7e6edb8de5'] = '구독 후 인증 메일을 전송하시겠습니까?';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_93cba07454f06a4a960172bbd6e2a435'] = '예';
