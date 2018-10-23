@@ -3,8 +3,13 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{productscategory}prestashop>productscategory_8a4f5a66d0fcc9d13614516db6e3d47a'] = '같은 분류 내의 상품들';
 $_MODULE['<{productscategory}prestashop>productscategory_1d269d7f013c3d9d891a146f4379eb02'] = '같은 분류의 상품들을 표시하는 블럭을 상품 페이지에 추가합니다.';
+$_MODULE['<{productscategory}prestashop>productscategory_8dd2f915acf4ec98006d11c9a4b0945b'] = '업데이트 설정이 완료되었습니다.';
 $_MODULE['<{productscategory}prestashop>productscategory_f4f70727dc34561dfde1a3c529b6205c'] = '설정';
+$_MODULE['<{productscategory}prestashop>productscategory_e06ba84b50810a88438ae0537405f65a'] = '상품의 가격을 표시';
+$_MODULE['<{productscategory}prestashop>productscategory_1d986024f548d57b1d743ec7ea9b09d9'] = '블럭에 표시되는 상품들의 가격을 보입니다.';
+$_MODULE['<{productscategory}prestashop>productscategory_00d23a76e43b46dae9ec7aa9dcbebb32'] = '활성화됨';
 $_MODULE['<{productscategory}prestashop>productscategory_b9f5c797ebbf55adccdd8539a65a0241'] = '비활성화됨';
 $_MODULE['<{productscategory}prestashop>productscategory_c9cc8cce247e49bae79f15173ce97354'] = '저장';
 $_MODULE['<{productscategory}prestashop>productscategory_f55e0a28b86c2ab66ac632ab9ddf1833'] = '같은 분류 내의 %s 다른 상품:';

@@ -2401,6 +2401,7 @@ $_LANGADM['AdminCustomers4d3d769b812b6faa6b76e1a8abaece2d'] = '활성화';
 $_LANGADM['AdminCustomers3cab03c00dbd11bc3569afa0748013f0'] = '비활성화';
 $_LANGADM['AdminCustomersc7b085efe30557dbc76c2ba487506049'] = '정의된 이메일 주소를 사용하는 등록된 고객 계정이 이미 존재합니다. ';
 $_LANGADM['AdminCustomers7442e29d7d53e549b78d93c46b8cdcfc'] = '주문';
+$_LANGADM['AdminCustomersd1554912e46f8d36a800ad8b604225f1'] = '검증된 주문';
 $_LANGADM['AdminCustomersa9c74a800ed9f3d504e76d8c59acc497'] = '잘못된 주문';
 $_LANGADM['AdminCustomers44749712dbec183e983dcd78a7736c41'] = '일자';
 $_LANGADM['AdminCustomersc453a4b8e8d98e82f35b67f433e3b4da'] = '결제';
