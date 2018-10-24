@@ -13,7 +13,6 @@ $_MODULE['<{followup}prestashop>followup_a053fc9952a7dfc79282eba56ab8ad3a'] = 'K
 $_MODULE['<{followup}prestashop>followup_7fcd592dd47028c7c1f2d0ce9168a303'] = 'Olet yksi parhaista asiakkaistamme!';
 $_MODULE['<{followup}prestashop>followup_c2ab23672d4bb31c7664bf8e854a10f7'] = 'Kaipaamme sinua!';
 $_MODULE['<{followup}prestashop>followup_fba6524bb4f34a4c7d8e84b082fc4ce1'] = 'Määrittele asetukset ja liitä tämä URL-osoite crontabiin, tai kutsu sitä manuaalisesti päivittäin:';
-$_MODULE['<{followup}prestashop>followup_a82be0f551b8708bc08eb33cd9ded0cf'] = 'Tiedot';
 $_MODULE['<{followup}prestashop>followup_87b1e57b5e8cd700618b6ae4938a4023'] = 'Tarjolla on neljä erilaista sähköpostihälytystä joiden avulla voit pitää yhteyttä asiakkaisiisi!';
 $_MODULE['<{followup}prestashop>followup_b547c073d144a57761d1d00d0b9d9f27'] = 'Perutut ostoskorit';
 $_MODULE['<{followup}prestashop>followup_ea9dc62a0ddf4640f019f04a22ab9835'] = 'Luo alennus jokaisesta perutusta ostoskorista (ei järjestyksessä) ja lähetä se asiakkaalle.';

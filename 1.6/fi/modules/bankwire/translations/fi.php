@@ -14,7 +14,6 @@ $_MODULE['<{bankwire}prestashop>bankwire_c888438d14855d7d96a2724ee9c306bd'] = 'A
 $_MODULE['<{bankwire}prestashop>bankwire_4ffaad55a1d22c453e7c9bad67b0598f'] = 'Maksa pankkisiirrolla';
 $_MODULE['<{bankwire}prestashop>bankwire_5dd532f0a63d89c5af0243b74732f63c'] = 'Yhteystiedot';
 $_MODULE['<{bankwire}prestashop>bankwire_857216dd1b374de9bf54068fcd78a8f3'] = 'Tilinhaltija';
-$_MODULE['<{bankwire}prestashop>bankwire_3ec365dd533ddb7ef3d1c111186ce872'] = 'Lisätiedot';
 $_MODULE['<{bankwire}prestashop>bankwire_6b154cafbab54ba3a1e76a78c290c02a'] = 'Kuten pankin haarakonttori, IBAN numero, BIC numero, tms.';
 $_MODULE['<{bankwire}prestashop>bankwire_f9a1a1bb716cbae0503d351ea2af4b34'] = 'Pankin osoite';
 $_MODULE['<{bankwire}prestashop>bankwire_c9cc8cce247e49bae79f15173ce97354'] = 'Tallenna';
@@ -39,7 +38,6 @@ $_MODULE['<{bankwire}prestashop>payment_execution_569fd05bdafa1712c4f6be5b153b84
 $_MODULE['<{bankwire}prestashop>infos_c1be305030739396775edaca9813f77d'] = 'Tämä moduuli sallii tilisiirrot';
 $_MODULE['<{bankwire}prestashop>infos_60742d06006fde3043c77e6549d71a99'] = 'Jos asiakas valitsee maksutavaksi pankkisiirron, muuttuu tilauksen tila muotoon "Odottaa suoritusta."';
 $_MODULE['<{bankwire}prestashop>infos_5fb4bbf993c23848433caf58e6b2816d'] = 'Vahvista tilaus manuaalisesti maksusuorituksen jälkeen.';
-$_MODULE['<{bankwire}prestashop>payment_return_88526efe38fd18179a127024aba8c1d7'] = 'Tilauksesi %s on valmis.';
 $_MODULE['<{bankwire}prestashop>payment_return_1f8cdc30326f1f930b0c87b25fdac965'] = 'Lähetä pankkisiirto:';
 $_MODULE['<{bankwire}prestashop>payment_return_b2f40690858b404ed10e62bdf422c704'] = 'Summa';
 $_MODULE['<{bankwire}prestashop>payment_return_5ca0b1b910f393ed1f9f6fa99e414255'] = 'Tilinhaltijan nimi';

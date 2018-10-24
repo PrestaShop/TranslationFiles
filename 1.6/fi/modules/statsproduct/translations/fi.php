@@ -10,7 +10,6 @@ $_MODULE['<{statsproduct}prestashop>statsproduct_f083d0403991f2b0ae72ea8782518f3
 $_MODULE['<{statsproduct}prestashop>statsproduct_6e13e61b8535a66feb27d285f5c42855'] = 'Kun olet valinnut tuoteryhmän ja tuotteen, näet kuvaajia.';
 $_MODULE['<{statsproduct}prestashop>statsproduct_6734b1d16e064d64d9ea4affaed74cc7'] = 'Jos olet huomannut että tuotetta ostetaan usein mutta katsotaan harvoin, sinun kannattaa tuoda tuotetta paremmin ja näkyvämmin esille verkkokaupassasi.';
 $_MODULE['<{statsproduct}prestashop>statsproduct_f3a492ed300e8565dcdbbc1da340d226'] = 'Toisaalta, jos tuotteella on paljon katselukertoja mutta sitä ei osteta usein, suosittelemme tarkistamaan tuotteen tiedot, kuvauksen ja valokuvat. Voi olla, että voisit tehdä tuotteesta mielenkiintoisemman paremmilla tiedoilla.';
-$_MODULE['<{statsproduct}prestashop>statsproduct_3ec365dd533ddb7ef3d1c111186ce872'] = 'Lisätiedot';
 $_MODULE['<{statsproduct}prestashop>statsproduct_290b169159edc205e3a46902d4554d52'] = 'Ostettu yhteensä';
 $_MODULE['<{statsproduct}prestashop>statsproduct_155d5c362e6887660600763fc0d55f02'] = 'Myynti (ilman veroja)';
 $_MODULE['<{statsproduct}prestashop>statsproduct_8041d874fe39d54c6e78156c27341c85'] = 'Katsottu yhteensä';

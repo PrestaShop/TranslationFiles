@@ -44,7 +44,6 @@ $_TABS['AdminSlip'] = 'Hyvityslaskut';
 $_TABS['AdminStatuses'] = 'Tilat';
 $_TABS['AdminOrderMessage'] = 'Tilausviestit';
 $_TABS['AdminCustomers'] = 'Asiakkaat';
-$_TABS['AdminAddresses'] = 'Osoitteet';
 $_TABS['AdminGroups'] = 'Ryhmät';
 $_TABS['AdminCarts'] = 'Ostoskorit';
 $_TABS['AdminCustomerThreads'] = 'Asiakaspalvelu';

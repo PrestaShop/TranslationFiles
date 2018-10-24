@@ -28,7 +28,6 @@ $_MODULE['<{loyalty}prestashop>loyalty_ca0dbad92a874b2f69b549293387925e'] = 'Koo
 $_MODULE['<{loyalty}prestashop>loyalty_eb902cf204f3e4dfffeb56d92a9b5c26'] = 'Voimassa';
 $_MODULE['<{loyalty}prestashop>loyalty_b2844b8e17ecaaeae68d018fe9418af0'] = 'Voimassa saakka';
 $_MODULE['<{loyalty}prestashop>loyalty_ec53a8c4f07baed5d8825072c89799be'] = 'Tila';
-$_MODULE['<{loyalty}prestashop>loyalty_3ec365dd533ddb7ef3d1c111186ce872'] = 'Lisätiedot';
 $_MODULE['<{loyalty}prestashop>loyalty_29aa46cc3d2677c7e0f216910df600ff'] = 'Ilmainen toimitus';
 $_MODULE['<{loyalty}prestashop>loyalty_cec73b5ce095a59305ad92a0d47495cb'] = 'Voit käyttää';
 $_MODULE['<{loyalty}prestashop>loyalty_019d1ca7d50cc54b995f60d456435e87'] = 'Käytetty';

@@ -42,7 +42,6 @@ $_MODULE['<{themeconfigurator}prestashop>items_2c92d496fa8efe3d5b2b38c185f9b7f7'
 $_MODULE['<{themeconfigurator}prestashop>items_91081fbf39583a57fdde5efa138d0564'] = 'Koukku (hook) johon kuva liitetään';
 $_MODULE['<{themeconfigurator}prestashop>items_100eb3bd7b79830fe86288a63e13d485'] = 'Lataa kuva';
 $_MODULE['<{themeconfigurator}prestashop>items_6fed80a8c8ded2f5e14a687e4a443abc'] = 'Kuvan leveys';
-$_MODULE['<{themeconfigurator}prestashop>items_d399848208da8b80a306af0fd62bb03f'] = 'pikseliä';
 $_MODULE['<{themeconfigurator}prestashop>items_2aa3aa9d021c7cfffb5afa08f52fbc51'] = 'Kuvan korkeus';
 $_MODULE['<{themeconfigurator}prestashop>items_0eff773cf33456a033e913f6ed18045c'] = 'Linkin kohde';
 $_MODULE['<{themeconfigurator}prestashop>items_78698b9b0fa4eaac0876da3a900d5024'] = 'Avaa linkki uuteen välilehteen/sivuun';

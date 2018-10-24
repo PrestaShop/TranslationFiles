@@ -16,7 +16,6 @@ $_MODULE['<{cashondelivery}prestashop>confirmation_2e2117b7c81aa9ea6931641ea2c64
 $_MODULE['<{cashondelivery}prestashop>confirmation_75fbf512d744977d62599cc3f0ae2bb4'] = 'on valmis.';
 $_MODULE['<{cashondelivery}prestashop>confirmation_8861c5d3fa54b330d1f60ba50fcc4aab'] = 'Olet valinnut maksutavaksi postiennakon.';
 $_MODULE['<{cashondelivery}prestashop>confirmation_e6dc7945b557a1cd949bea92dd58963e'] = 'Tilauksesi lähetetään hyvin pian.';
-$_MODULE['<{cashondelivery}prestashop>confirmation_0db71da7150c27142eef9d22b843b4a9'] = 'Kysyttävää? Ota yhteyttä';
 $_MODULE['<{cashondelivery}prestashop>confirmation_64430ad2835be8ad60c59e7d44e4b0b1'] = 'asiakas tukeen';
 $_MODULE['<{cashondelivery}prestashop>payment_b7ada96a0da7ee7fb5371cca0b036d5c'] = 'Postiennakko';
 $_MODULE['<{cashondelivery}prestashop>payment_536dc7424180872c8c2488ae0286fb53'] = 'Maksat tavaran toimituksen yhteydessä';

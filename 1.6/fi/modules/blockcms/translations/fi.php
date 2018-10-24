@@ -5,7 +5,6 @@ $_MODULE = array();
 
 $_MODULE['<{blockcms}prestashop>blockcms_ca3e06233b736d289df9f4580a4ab19a'] = 'CMS-lohko';
 $_MODULE['<{blockcms}prestashop>blockcms_cdca12007979fc49008fd125cdb775fc'] = 'Lisää lohkon, jossa on useita CMS-linkkejä.';
-$_MODULE['<{blockcms}prestashop>blockcms_a82be0f551b8708bc08eb33cd9ded0cf'] = 'Tiedot';
 $_MODULE['<{blockcms}prestashop>blockcms_ea4788705e6873b424c65e91c2846b19'] = 'Peruuta';
 $_MODULE['<{blockcms}prestashop>blockcms_ef61fb324d729c341ea8ab9901e23566'] = 'Lisää uusi';
 $_MODULE['<{blockcms}prestashop>blockcms_97390dd0b5ba7867120aee2ff22bfa38'] = 'CMS-lohkon määritykset';
