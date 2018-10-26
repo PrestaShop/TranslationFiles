@@ -3,11 +3,15 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{cheque}prestashop>cheque_7b4cc4f79be9aae43efd53b4ae5cba4d'] = '수표로 결제';
+$_MODULE['<{cheque}prestashop>cheque_14e41f4cfd99b10766cc15676d8cda66'] = '이 모듈을 사용하면 수표로 결제를 할 수 있습니다.';
 $_MODULE['<{cheque}prestashop>cheque_e09484ba6c16bc20236b63cc0d87ee95'] = '이 상세 정보들을 정말 삭제하시겠습니까?';
 $_MODULE['<{cheque}prestashop>cheque_32776feb26ff6f9648054e796aa0e423'] = '이 모듈을 사용하기 전에 "지불할 주문" 과 "주소" 항목이 구성되어야 합니다.';
 $_MODULE['<{cheque}prestashop>cheque_a02758d758e8bec77a33d7f392eb3f8a'] = '화폐단위가 이 module에 설정되어 있지 않습니다';
 $_MODULE['<{cheque}prestashop>cheque_81c6c3ba23ca2657a8eedc561f865ddb'] = '"지불 할 주문" 항목은 필수입니다.';
+$_MODULE['<{cheque}prestashop>cheque_00a369029140cfd18857425d49b472f8'] = '"주소" 항목은 필수입니다.';
 $_MODULE['<{cheque}prestashop>cheque_c888438d14855d7d96a2724ee9c306bd'] = '설정 수정';
+$_MODULE['<{cheque}prestashop>cheque_a60468657881aa431a0a5fccc76258e2'] = '수표로 결제';
 $_MODULE['<{cheque}prestashop>cheque_5dd532f0a63d89c5af0243b74732f63c'] = '연락처 세부정보';
 $_MODULE['<{cheque}prestashop>cheque_4b2f62e281e9a6829c6df0e87d34233a'] = '(이름) 의 주문을 지불';
 $_MODULE['<{cheque}prestashop>cheque_dd7bf230fde8d4836917806aff6a6b27'] = '주소';
@@ -30,6 +34,8 @@ $_MODULE['<{cheque}prestashop>payment_execution_f73ad0f08052884ff465749bf48b55ce
 $_MODULE['<{cheque}prestashop>payment_execution_7135ff14c7931e1c8e9d33aff3dfc7f7'] = '수표 소유자와 주소 정보가 다음 페이지에 표시됩니다.';
 $_MODULE['<{cheque}prestashop>payment_execution_46b9e3665f187c739c55983f757ccda0'] = '"내 주문내역"';
 $_MODULE['<{cheque}prestashop>payment_execution_569fd05bdafa1712c4f6be5b153b8418'] = '다른 결제방법';
+$_MODULE['<{cheque}prestashop>infos_14e41f4cfd99b10766cc15676d8cda66'] = '이 모듈을 사용하면 수표로 결제를 할 수 있습니다.';
+$_MODULE['<{cheque}prestashop>infos_8c88bbf5712292b26e2a6bbeb0a7b5c4'] = '수표를 받으면 바로 주문 확인을 직접해야 합니다.';
 $_MODULE['<{cheque}prestashop>payment_return_61da27a5dd1f8ced46c77b0feaa9e159'] = '당신의 수표가 포함되야함:';
 $_MODULE['<{cheque}prestashop>payment_return_9b8f932b1412d130ece5045ecafd1b42'] = '지불 가능한 주문';
 $_MODULE['<{cheque}prestashop>payment_return_9a94f1d749a3de5d299674d6c685e416'] = '메일 보내기';

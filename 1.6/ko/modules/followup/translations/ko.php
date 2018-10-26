@@ -29,6 +29,7 @@ $_MODULE['<{followup}prestashop>followup_a8b8dbd070a92fb8b17baab71d8d633f'] = '�
 $_MODULE['<{followup}prestashop>followup_895858cf10b8a1750a42875cb9c69092'] = '확인된 각 주문에 대해, 할인을 생성하여 고객에게 보냅니다.';
 $_MODULE['<{followup}prestashop>followup_f120254f109d626d73ddddeb9cda26e5'] = '다음 과정에서 보냅니다: %d 개의 이메일';
 $_MODULE['<{followup}prestashop>followup_8b83489bd116cb60e2f348e9c63cd7f6'] = '최고의 고객';
+$_MODULE['<{followup}prestashop>followup_a46ad892f7f00e051cc90050ff2e1ddf'] = '각 고객이 한계값을 높이기 위해, 할인을 생성하여 고객에게 보냅니다.';
 $_MODULE['<{followup}prestashop>followup_2a63f555989152ba866b43a1faacd680'] = '한계값';
 $_MODULE['<{followup}prestashop>followup_7d75b7b0f976b3091f490864c6ffbf97'] = '불량 고객';
 $_MODULE['<{followup}prestashop>followup_346f38f5b951daec00dcca38364f8359'] = '주어진 기간동안 이미 주문을 한번이상 한 각 고객에게, 할인을 생성하여 고객에게 보냅니다.';

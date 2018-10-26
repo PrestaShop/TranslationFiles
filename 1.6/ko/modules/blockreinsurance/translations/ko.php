@@ -3,8 +3,10 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{blockreinsurance}prestashop>blockreinsurance_7e7f70db3c75e428db8e2d0a1765c4e9'] = '당신의 상점이 신뢰할 수 있음을 고객에게 보증하기 위한 유용한 정보를 제공할 정보 블럭을 추가합니다.';
 $_MODULE['<{blockreinsurance}prestashop>blockreinsurance_d52eaeff31af37a4a7e0550008aff5df'] = '저장하는 동안 오류가 발생했습니다.';
 $_MODULE['<{blockreinsurance}prestashop>blockreinsurance_0366c7b2ea1bb228cd44aec7e3e26a3e'] = '블럭 구성이 수정되었습니다.';
+$_MODULE['<{blockreinsurance}prestashop>blockreinsurance_8363eee01f4da190a4cef9d26a36750c'] = '새 보증 블럭';
 $_MODULE['<{blockreinsurance}prestashop>blockreinsurance_be53a0541a6d36f6ecb879fa2c584b08'] = '이미지';
 $_MODULE['<{blockreinsurance}prestashop>blockreinsurance_9dffbf69ffba8bc38bc4e01abf4b1675'] = '본문';
 $_MODULE['<{blockreinsurance}prestashop>blockreinsurance_c9cc8cce247e49bae79f15173ce97354'] = '저장';

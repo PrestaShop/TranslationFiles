@@ -12,6 +12,7 @@ $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_24ff4e4d39bb7811f6bdf0c
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_00d23a76e43b46dae9ec7aa9dcbebb32'] = '활성화됨';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_b9f5c797ebbf55adccdd8539a65a0241'] = '비활성화됨';
 $_MODULE['<{blockbestsellers}prestashop>blockbestsellers_c9cc8cce247e49bae79f15173ce97354'] = '저장';
+$_MODULE['<{blockbestsellers}prestashop>blockbestsellers_eae99cd6a931f3553123420b16383812'] = '모든 최고 판매자들';
 $_MODULE['<{blockbestsellers}prestashop>tab_d7b2933ba512ada478c97fa43dd7ebe6'] = '최고 판매자';
 
 

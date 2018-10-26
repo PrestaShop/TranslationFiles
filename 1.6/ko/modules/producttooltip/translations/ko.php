@@ -23,6 +23,10 @@ $_MODULE['<{producttooltip}prestashop>producttooltip_3829b2b4ac783c8e53a25f5cd00
 $_MODULE['<{producttooltip}prestashop>producttooltip_7f2a0ec5efa8b7aaa2d814df0d18b722'] = '다음보다 오래된 이벤트를 표시하지 않음';
 $_MODULE['<{producttooltip}prestashop>producttooltip_44fdec47036f482b68b748f9d786801b'] = '일';
 $_MODULE['<{producttooltip}prestashop>producttooltip_c9cc8cce247e49bae79f15173ce97354'] = '저장';
+$_MODULE['<{producttooltip}prestashop>producttooltip_265e0fd0901e35cae9978e2319b6c32e'] = '현재 %d 사람이 이 상품을 보고 있습니다.';
+$_MODULE['<{producttooltip}prestashop>producttooltip_858d0bcd440ff0d1cc1e6bd53d4fe9f6'] = '현재 %d 사람들이 상품을 보고 있습니다.';
+$_MODULE['<{producttooltip}prestashop>producttooltip_b2ccdeedefb87a6f4c52b0926b030d65'] = '최근 이 상품 구매일: ';
+$_MODULE['<{producttooltip}prestashop>producttooltip_f934c297c7d902f5871edb4a12acbb84'] = '최근 이 상품 장바구니 추가일: ';
 
 
 return $_MODULE;
