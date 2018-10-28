@@ -445,6 +445,7 @@ $_LANGADM['AdminCountries665e1ad1c6657791cecb5b68008c7c00'] = '地址格式';
 $_LANGADM['AdminCountries4d3d769b812b6faa6b76e1a8abaece2d'] = '在售';
 $_LANGADM['AdminCountriesb9f5c797ebbf55adccdd8539a65a0241'] = '禁用';
 $_LANGADM['AdminCountriesa2ddbdfb29a0708bd711601f9277435c'] = '显示这个国家给您的客户（选定的国家将始终显示在后台）。';
+$_LANGADM['AdminCountries0bd345b58335589d4c2fa1e50ae38619'] = '包含状态';
 $_LANGADM['AdminCountries0c750dacc725ba4047374d2efc56ce3a'] = '您需要税号吗？';
 $_LANGADM['AdminCountries05820ffcf621269347a1c14d81d20b77'] = '显示税标签（例如，“含税”。）';
 $_LANGADM['AdminCountries9d55fc80bbb875322aa67fd22fc98469'] = '商店项目关联：';
