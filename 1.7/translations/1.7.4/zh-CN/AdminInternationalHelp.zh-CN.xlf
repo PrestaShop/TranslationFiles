@@ -48,6 +48,12 @@ File: controllers/admin/AdminTaxesController.php:211</note>
         <note>Context:
 File: controllers/admin/AdminTaxRulesGroupController.php:288</note>
       </trans-unit>
+      <trans-unit id="ce9c5fc1032ac5aa03a3d248022773df" approved="yes">
+        <source>You must define the behavior if an address matches multiple rules:</source>
+        <target xml:lang="zh-CN" state="translated">如果地址和多个规则吻合的时候你必须定义行为：</target>
+        <note>Context:
+File: controllers/admin/AdminTaxRulesGroupController.php:314</note>
+      </trans-unit>
       <trans-unit id="439fa6ce423495b01ffd31ea56b33335" approved="yes">
         <source>- This tax only: Will apply only this tax</source>
         <target xml:lang="zh-CN" state="translated">- 仅此税：将仅适用于该税</target>
@@ -59,6 +65,12 @@ File: controllers/admin/AdminTaxRulesGroupController.php:315</note>
         <target xml:lang="zh-CN" state="translated">- 合并：合并税（例如：10％+5％=15％）</target>
         <note>Context:
 File: controllers/admin/AdminTaxRulesGroupController.php:316</note>
+      </trans-unit>
+      <trans-unit id="dabf677c95d59c749ea5d6d6d22012c4" approved="yes">
+        <source><![CDATA[- One after another: Apply taxes one after another (e.g.: 100 + 10% => 110 + 5% = 115.5)]]></source>
+        <target xml:lang="zh-CN" state="translated"><![CDATA[一个接一个：把税逐一添加（比如：100 + 10% => 110 + 5% = 115.5)]]></target>
+        <note>Context:
+File: controllers/admin/AdminTaxRulesGroupController.php:317</note>
       </trans-unit>
       <trans-unit id="7475ec0d41372a307c497acb7eeea8c4" approved="yes">
         <source>No Tax</source>
@@ -137,6 +149,12 @@ File: controllers/admin/AdminZonesController.php:124</note>
         <target xml:lang="zh-CN" state="translated">限制前台可以选择的国家，只包含货运商涵盖的区域。</target>
         <note>Context:
 File: controllers/admin/AdminCountriesController.php:62</note>
+      </trans-unit>
+      <trans-unit id="b33aadd6763bfea56853a7ecf2176382" approved="yes">
+        <source>Two -- or three -- letter ISO code (e.g. "us" for United States).</source>
+        <target xml:lang="zh-CN" state="translated">两个 - 或三个 - ISO代码字母（例如us代表美国）。</target>
+        <note>Context:
+File: controllers/admin/AdminCountriesController.php:206</note>
       </trans-unit>
       <trans-unit id="cd2f7b9409e0f1527766ad35aa8bd3c5" approved="yes">
         <source>International call prefix, (e.g. 1 for United States).</source>
@@ -228,10 +246,22 @@ File: controllers/admin/AdminGeolocationController.php:75</note>
         <note>Context:
 File: controllers/admin/AdminCurrenciesController.php:104</note>
       </trans-unit>
+      <trans-unit id="0ab7db7a10b7efc8270dd215c2a4ada7" approved="yes">
+        <source><![CDATA[Exchange rates are calculated from one unit of your shop's default currency. For example, if the default currency is euros and your chosen currency is dollars, type "1.20" (1€ = $1.20).]]></source>
+        <target xml:lang="zh-CN" state="translated"><![CDATA[汇率是由你的店铺默认货币的单位计算。例如，如果默认货币是欧元和您选择的货币为美元，键入“1.20”（€1= $1.20）。]]></target>
+        <note>Context:
+File: controllers/admin/AdminCurrenciesController.php:119</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminStatesController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="b6ff06f41cb66b5b89be6a3670e40d63" approved="yes">
+        <source>Provide the state name to be displayed in addresses and on invoices.</source>
+        <target xml:lang="zh-CN" state="translated">提供省/市名称将会显示在地址和发票中。</target>
+        <note>Context:
+File: controllers/admin/AdminStatesController.php:149</note>
+      </trans-unit>
       <trans-unit id="473d5a5e7a18ca5e30b399ae0dfda18e" approved="yes">
         <source>1 to 4 letter ISO code.</source>
         <target xml:lang="zh-CN" state="translated">1到4个字母 ISO代码</target>
@@ -260,7 +290,12 @@ File: controllers/admin/AdminStatesController.php:185</note>
   </file>
   <file original="src/PrestaShopBundle/Translation/Api/InternationalApi.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="15ba451caecdf6917bcd4d150f33fb7c" approved="yes">
+        <source>Search a word or expression, e.g.: "Order confirmation"</source>
+        <target xml:lang="zh-CN" state="translated">搜索关键词或短语，如：“订单确认”</target>
+        <note>Context:
+File: src/PrestaShopBundle/Translation/Api/InternationalApi.php:59</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/languages/helpers/form/form.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -339,31 +374,72 @@ File: admin-dev/themes/default/template/controllers/translations/helpers/view/ma
         <note>Context:
 File: admin-dev/themes/default/template/controllers/translations/helpers/view/main.tpl:364</note>
       </trans-unit>
+      <trans-unit id="8a6815aee1e25633b568be3153f4e779" approved="yes">
+        <source>If necessary [1][2] you must first create a new language[/1].</source>
+        <target xml:lang="zh-CN" state="translated">如果必要的话[1][2] 你得先创建一个新语言[/1]。</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/main.tpl:366</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_mails.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="919a5a4550f8f714f806f5590ed1b66a" approved="yes">
+        <source>There are [1]%replace%[/1] products</source>
+        <target xml:lang="zh-CN" state="translated">有[1]%replace%[/1] 商品</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/translation_mails.tpl:73</note>
+      </trans-unit>
+      <trans-unit id="cfe3ecf9fcc29ce36de15ee87cebd12b" approved="yes">
+        <source>List of pages in [1]%replace%[/1]</source>
+        <target xml:lang="zh-CN" state="translated">在[1]%replace%[/1] 的页面列表</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/translation_mails.tpl:74</note>
+      </trans-unit>
+      <trans-unit id="9b4ca9541e2c3e7215a5fac1f4cecd2f" approved="yes">
+        <source>Feature: [1]%1%[/1] ([1]%2%[/1] values)</source>
+        <target xml:lang="zh-CN" state="translated">特性[1]%1%[/1] ([1]%2%[/1] 数值）</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/translation_mails.tpl:75</note>
+      </trans-unit>
+      <trans-unit id="f324bbd9de83d61ccb5f7d5593aec5b3" approved="yes">
+        <source>You MUST use this syntax in your translations. Here are several examples:</source>
+        <target xml:lang="zh-CN" state="translated">您必须在翻译时使用此语法。这里是几个例子:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/translation_mails.tpl:70</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_errors.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="3881d16572ee3be6a8ab13f6862b3911" approved="yes">
+        <source>You MUST use this syntax in your translations. Here are a few examples:</source>
+        <target xml:lang="zh-CN" state="translated">您必须在翻译时使用此语法。这里是几个例子:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/translation_errors.tpl:69</note>
+      </trans-unit>
+      <trans-unit id="7cefb4829c6de24b63f7a05716b43bec" approved="yes">
+        <source>This expression uses a special syntax:</source>
+        <target xml:lang="zh-CN" state="translated">这个短语使用了 特殊语法：</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/translation_errors.tpl:94</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_modules.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="b3f4e400fe40a25d1c2b0c59e63668cf" approved="yes">
+        <source>Here you can modify translations for all installed module.</source>
+        <target xml:lang="zh-CN" state="translated">在这里你可以更改所有已装模块的翻译。</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/translation_modules.tpl:173</note>
+      </trans-unit>
+      <trans-unit id="dd317a8b9f3ecfc5317c2cb586274145" approved="yes">
+        <source>Select your module</source>
+        <target xml:lang="zh-CN" state="translated">选择你的模块</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/translations/helpers/view/translation_modules.tpl:176</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
