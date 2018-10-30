@@ -510,7 +510,7 @@ $_LANGADM['AdminDashboard2938c7f7e560ed972f8a4f68e80ff834'] = 'لوحة التح
 $_LANGADM['AdminDashboard948a2986c50ad6bb8c90b4d93ae5c04d'] = 'الوضع التجريبي';
 $_LANGADM['AdminDashboardcb3c93351f1f20809fdd6e938a4319c7'] = 'إعدادات أخرى';
 $_LANGADM['AdminDashboardc9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
-$_LANGADM['AdminDashboardb1bde0a00fb6ab60ca39049d4f206198'] = 'إختر رسومًا متغيرة لكل طلب يتم تقديمه بالعملات الأجنبية مع %s. سيتم تطبيقه على مجموع المبالغ المدفوعة مع الضرائب.';
+$_LANGADM['AdminDashboardb1bde0a00fb6ab60ca39049d4f206198'] = 'إختر رسومًا متغيرة لكل طلب يتم تقديمه بالعملات الأجنبية مع %s. سيتم تطبيقه على إجمالي المدفوعات مع الضرائب.';
 $_LANGADM['AdminDashboard3ca719d0b01232ba8c9a7109d8295917'] = 'الطريقة: أشر إلى النسبة المئوية لهامش شركة النقل الخاصة بك. على سبيل المثال، إذا كنت تتقاضى 10 دولارات من رسوم الشحن من العملاء مقابل كل عملية شحن، ولكنك تدفع فقط 4 دولارات إلى شركة النقل، فيجب عندها أن تشير إلى "40" في حقل النسبة المئوية.';
 $_LANGADM['AdminDashboard8c7cf68cbd01d91e537b6055adf0967f'] = 'يجب عليك حساب هذه النسبة المئوية على النحو التالي: ((إجمالي إيرادات المبيعات) - (تكلفة البضائع المباعة)) / (إجمالي إيرادات المبيعات) * 100. تستخدم هذه القيمة فقط لحساب الهامش الإجمالي التقريبي للوحة التحكم، إذا لم تحدد سعر الجملة لكل منتج.';
 $_LANGADM['AdminDashboard8ff922bbcd8ad41cdfc48d3c5163b2ab'] = 'التقويم';
@@ -541,7 +541,7 @@ $_LANGADM['AdminEmails6ccca513d06efaa8d8695d7d8e3813fe'] = 'إرسال بريد 
 $_LANGADM['AdminEmails9f1b874f3886d361d6eb6b079639c385'] = 'إرسال البريد الإلكتروني كنص';
 $_LANGADM['AdminEmails130c5b3473c57faa76e2a1c54e26f88e'] = 'على حد سواء';
 $_LANGADM['AdminEmailsc9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
-$_LANGADM['AdminEmailsbdd48fb41b9d0a4a1051fa22a87eb5a2'] = 'خادم SMTP';
+$_LANGADM['AdminEmailsbdd48fb41b9d0a4a1051fa22a87eb5a2'] = 'سيرفرSMTP';
 $_LANGADM['AdminEmailsa5d35e0a66d41c7d12c0df6e643fa0ff'] = 'ترك فارغا إذا لا ينطبق';
 $_LANGADM['AdminEmailsd7f2615c71a1567cc13cf3a7f7de0aea'] = 'التشفير';
 $_LANGADM['AdminEmailsd8f5b3c4ad206980b27a9d88a217a0d5'] = 'استخدام بروتوكول تشفير';
@@ -1411,7 +1411,7 @@ $_LANGADM['AdminSearcheb6b06cab0dd72e04c4da68d511facf2'] = 'نتائج البح�
 $_LANGADM['AdminSearchEnginesd3b206d196cd6be3a2764c1fb90b200f'] = 'حذف المحدد';
 $_LANGADM['AdminSearchEnginese25f0ecd41211b01c83e5fec41df4fe7'] = 'حذف العناصر المحدده ؟';
 $_LANGADM['AdminSearchEnginesb718adec73e04ce3ec720dd11a06a308'] = 'الرقم التعريفي';
-$_LANGADM['AdminSearchEngines9aa1b03934893d7134a660af4204f2a9'] = 'الخادم';
+$_LANGADM['AdminSearchEngines9aa1b03934893d7134a660af4204f2a9'] = 'السيرفر';
 $_LANGADM['AdminSearchEnginesb864759d534539519ceaa2c03a39d4c2'] = 'GET متغير';
 $_LANGADM['AdminSearchEnginesb6f05e5ddde1ec63d992d61144452dfa'] = 'المرجع';
 $_LANGADM['AdminSearchEnginesc9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
@@ -1940,7 +1940,7 @@ $_LANGADM['AdminWebserviceec53a8c4f07baed5d8825072c89799be'] = 'الحالة';
 $_LANGADM['AdminWebserviceb9f5c797ebbf55adccdd8539a65a0241'] = 'غير مفعل';
 $_LANGADM['AdminWebserviced08ccf52b4cdd08e41cfb99ec42e0b29'] = 'صلاحيات الموظفين';
 $_LANGADM['AdminWebservice9d55fc80bbb875322aa67fd22fc98469'] = 'ترابط المتاجر:';
-$_LANGADM['AdminWebservice3a1d42e50ada009f2ef187fbf6dc8a3f'] = 'لتجنب مشاكل التشغيل ، يرجى استخدام خادم أباتشي.';
+$_LANGADM['AdminWebservice3a1d42e50ada009f2ef187fbf6dc8a3f'] = 'لتجنب مشاكل التشغيل، يرجى استخدام سيرفر أباتشي.';
 $_LANGADM['AdminWebserviceced5b8a7d025931c0a37ebf8a0afb865'] = 'لم نتمكن من معرفة ما اذا كان يتم تنشيط المصادقة الأساسية وملحقات كتابة. يرجى التحقق يدويا إذا تفعيلها من أجل استخدام خدمة ويب PrestaShop.';
 $_LANGADM['AdminZonesb718adec73e04ce3ec720dd11a06a308'] = 'الرقم التعريفي';
 $_LANGADM['AdminZonesb3ff996fe5c77610359114835baf9b38'] = 'النطاق الجغرافي';
@@ -2324,9 +2324,9 @@ $_LANGADM['AdminImportf19dbf2edb3a0bd74b0524d960ff21eb'] = 'حمولة';
 $_LANGADM['AdminImportc9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
 $_LANGADM['AdminInformationa2db667abfde7a08ee094d460102f268'] = 'الملفات المفقودة';
 $_LANGADM['AdminInformationb5871613cbf4ab8b21d528ff2576fcbf'] = 'الملفات المحدثة';
-$_LANGADM['AdminInformation7d30d49dcf91d103c59496aafc4e3187'] = 'خادم المعلومات';
-$_LANGADM['AdminInformation15ac02a8b5dba62592162905dd085241'] = 'خادم المعلومات';
-$_LANGADM['AdminInformationad41419235c76297eaf568c7656da881'] = 'برنامج خادم النسخة';
+$_LANGADM['AdminInformation7d30d49dcf91d103c59496aafc4e3187'] = 'معلومات السيرفر';
+$_LANGADM['AdminInformation15ac02a8b5dba62592162905dd085241'] = 'معلومات السيرفر';
+$_LANGADM['AdminInformationad41419235c76297eaf568c7656da881'] = 'نسخة برنامج السيرفر';
 $_LANGADM['AdminInformatione2551ec433c9623fed56f27ca2b91a35'] = 'PHP نسخة ال';
 $_LANGADM['AdminInformationfc0eeb8415aed39a9d3624c7fc2fe47c'] = 'PageSpeed ​​وحدة لتركيب اباتشي (mod_instaweb)';
 $_LANGADM['AdminInformation52018f4304c11e4bd288a533b122ccf7'] = 'MySQL الإصدار';
@@ -2340,7 +2340,7 @@ $_LANGADM['AdminInformation4e37aa2987c0876f7f7b2104927df1a1'] = 'بريد الم
 $_LANGADM['AdminInformationaee55e0ed7a06f68ed5e13f235a8bfd8'] = 'البريد الأسلوب';
 $_LANGADM['AdminInformationf882852afa750c241cdb951bc52539fd'] = 'يمكنك استخدام PHP البريد () وظيفة.';
 $_LANGADM['AdminInformationcffa72aaebae1bd90bbe1b8d827ecb1c'] = 'يمكنك استخدام المعلمات الخاص SMTP الخاصة';
-$_LANGADM['AdminInformationbdd48fb41b9d0a4a1051fa22a87eb5a2'] = 'خادم SMTP';
+$_LANGADM['AdminInformationbdd48fb41b9d0a4a1051fa22a87eb5a2'] = 'سيرفرSMTP';
 $_LANGADM['AdminInformationc4e9522d7b3c8c652f7f0333ff436eec'] = 'تعريف';
 $_LANGADM['AdminInformationf8b1369a8e9d90da0cae0b11049309af'] = 'لم يتم تعريف';
 $_LANGADM['AdminInformation8a7363b823dce00b3b1b7e62ca1d777d'] = 'التشفير';

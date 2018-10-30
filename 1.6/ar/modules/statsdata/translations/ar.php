@@ -12,6 +12,7 @@ $_MODULE['<{statsdata}prestashop>statsdata_73d55f0a158656cbfabab45a3e151d73'] = 
 $_MODULE['<{statsdata}prestashop>statsdata_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'مفعل';
 $_MODULE['<{statsdata}prestashop>statsdata_b9f5c797ebbf55adccdd8539a65a0241'] = 'غير مفعل';
 $_MODULE['<{statsdata}prestashop>statsdata_339acfd90b82e91ce9141ec75e4bff24'] = 'عدد الصفحات عالمي يستخدم موارد أقل من الزبون ، ولكن مع ذلك ، يستخدم الموارد.';
+$_MODULE['<{statsdata}prestashop>statsdata_c0e4406117ba4c29c4d66e3069ebf3d3'] = 'الكشف عن المكونات الإضافية';
 $_MODULE['<{statsdata}prestashop>statsdata_c9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
 
 

@@ -28,6 +28,7 @@ $_MODULE['<{followup}prestashop>followup_a8b8dbd070a92fb8b17baab71d8d633f'] = '�
 $_MODULE['<{followup}prestashop>followup_895858cf10b8a1750a42875cb9c69092'] = 'لكل أمر شراء محقق الصحة، أنشئ خصماً و أرسله للعميل.';
 $_MODULE['<{followup}prestashop>followup_f120254f109d626d73ddddeb9cda26e5'] = 'العملية التالية سترسل %d رسالة (رسائل) إلكترونية';
 $_MODULE['<{followup}prestashop>followup_8b83489bd116cb60e2f348e9c63cd7f6'] = 'أفضل العملاء';
+$_MODULE['<{followup}prestashop>followup_2a63f555989152ba866b43a1faacd680'] = 'عتبة الحد الأدنى';
 $_MODULE['<{followup}prestashop>followup_7d75b7b0f976b3091f490864c6ffbf97'] = 'أسوأ العملاء';
 $_MODULE['<{followup}prestashop>followup_346f38f5b951daec00dcca38364f8359'] = 'لكل عميل قام بعملية شراء مرة واحدة على الأقل ولم يقم بوضع طلبات شراء منذ فترة محددة، أنشئ خصماً و أرسله للعميل.';
 $_MODULE['<{followup}prestashop>followup_d82843c16839bfb05827d1912d89c917'] = 'منذ س أيام';

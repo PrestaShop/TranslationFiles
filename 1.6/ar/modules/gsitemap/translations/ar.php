@@ -11,6 +11,7 @@ $_MODULE['<{gsitemap}prestashop>configuration_a0bfb8e59e6c13fc8d990781f77694fe']
 $_MODULE['<{gsitemap}prestashop>configuration_0dbf904a2b27f036cf06741aad221ecc'] = 'أخر تحديث لك حصل بتاريخ:';
 $_MODULE['<{gsitemap}prestashop>configuration_6a3282611e5ffb8539ce434133073f15'] = 'حد أدنى لقيمة سعة الذاكرة هو ١٢٨ ميغابايت.';
 $_MODULE['<{gsitemap}prestashop>configuration_8156303464de0fba7cb8306cc768e998'] = 'بإمكانك تعديل قيمة هذه الحدود في ملف php.ini الخاص بك. لتفاصيل أكثر، يرجى التواصل مع مزود خدمة الإستضافة الخاص بك.';
+$_MODULE['<{gsitemap}prestashop>configuration_7f751d19f85d49a411d5691f5bb0b5f2'] = 'كم مرة تقوم بتحديث متجرك؟';
 $_MODULE['<{gsitemap}prestashop>configuration_f9f90eeaf400d228facde6bc48da5cfb'] = 'دائماً';
 $_MODULE['<{gsitemap}prestashop>configuration_745fd0ea7f576f350a0eed4b8c48a8e2'] = 'بالساعة';
 $_MODULE['<{gsitemap}prestashop>configuration_bea79186fd7af2da67e59b4b15df5a26'] = 'يومياً';
@@ -21,6 +22,7 @@ $_MODULE['<{gsitemap}prestashop>configuration_c7561db7a418dd39b2201dfe110ab4a4']
 $_MODULE['<{gsitemap}prestashop>configuration_05ff8159ccaef6f0f8391c61a6d0e631'] = 'تحديد الكل';
 $_MODULE['<{gsitemap}prestashop>configuration_ca99f8a0d484faef3a057fe7a5da3141'] = 'قد يستغرق ذلك بضع دقائق';
 $_MODULE['<{gsitemap}prestashop>configuration_6caa369fd774beef106abbc5cc1e3368'] = 'يدوياً:';
+$_MODULE['<{gsitemap}prestashop>configuration_4ed0b6a0097c3d38c43d756fe2653962'] = 'باستخدام النموذج أعلاه (حسب الحاجة)';
 $_MODULE['<{gsitemap}prestashop>configuration_3d263eb0233f14872193733387840c80'] = '-أو-';
 $_MODULE['<{gsitemap}prestashop>configuration_957d27165d1dc5947fb00e57967ffcce'] = 'تلقائياً:';
 $_MODULE['<{gsitemap}prestashop>configuration_8076be06e575e50c7f9585271c8842ad'] = 'سيقوم تلقائياً بإنشاء ملف خارطة موقع XML.';

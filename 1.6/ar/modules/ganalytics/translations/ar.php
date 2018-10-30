@@ -10,6 +10,7 @@ $_MODULE['<{ganalytics}prestashop>ganalytics_c9cc8cce247e49bae79f15173ce97354'] 
 $_MODULE['<{ganalytics}prestashop>ganalytics_630f6dc397fe74e52d5189e2c80f282b'] = 'رجوع الى القائمة';
 $_MODULE['<{ganalytics}prestashop>ganalytics_f4f70727dc34561dfde1a3c529b6205c'] = 'الإعدادات';
 $_MODULE['<{ganalytics}prestashop>ganalytics_851bd83a102d143ee17d97f9e15e15af'] = 'رقم تعريف تتبع تحليلات جوجل';
+$_MODULE['<{ganalytics}prestashop>ganalytics_ad8e83a47926dcb12e8a8fccd7fcf604'] = 'هذه المعلومات متوفرة في حساب Google Analytics الخاص بك';
 $_MODULE['<{ganalytics}prestashop>ganalytics_bcd08e73ca9d8bfed2cccd50dd6d8328'] = 'فعل خاصية تتبع إسم المستخدم';
 $_MODULE['<{ganalytics}prestashop>ganalytics_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'مفعل';
 $_MODULE['<{ganalytics}prestashop>ganalytics_b9f5c797ebbf55adccdd8539a65a0241'] = 'غير مفعل';

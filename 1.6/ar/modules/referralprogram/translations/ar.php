@@ -23,6 +23,7 @@ $_MODULE['<{referralprogram}prestashop>program_8d3f5eff9c40ee315d452392bed5309b'
 $_MODULE['<{referralprogram}prestashop>program_20db0bfeecd8fe60533206a2b5e9891a'] = 'الاسم الأول';
 $_MODULE['<{referralprogram}prestashop>program_1e884e3078d9978e216a027ecd57fb34'] = 'البريد الإكتروني';
 $_MODULE['<{referralprogram}prestashop>program_605eef3cad421619ce034ab48415190f'] = 'أوافق على شروط الخدمة وسأكون مخلصا لها دون قيد أو شرط.';
+$_MODULE['<{referralprogram}prestashop>program_868ca5fe643791c23b47c75fb833c9b8'] = 'إقرأ الشروط.';
 $_MODULE['<{referralprogram}prestashop>program_31fde7b05ac8952dacf4af8a704074ec'] = 'معاينة';
 $_MODULE['<{referralprogram}prestashop>program_8e8dc296c6bf3876468aa028974bfebe'] = 'بريد دعوة';
 $_MODULE['<{referralprogram}prestashop>program_a86073a0c3b0bebf11bd807caf8e505a'] = 'البريد الإلكتروني الإفتراضي';
