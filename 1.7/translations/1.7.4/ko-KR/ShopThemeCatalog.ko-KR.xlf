@@ -176,6 +176,12 @@ File: controllers/front/listing/ManufacturerController.php:92</note>
   </file>
   <file original="controllers/front/listing/SupplierController.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
+      <trans-unit id="108b413416adf90e7c6f21a68bb02dd2" approved="yes">
+        <source>%number% products</source>
+        <target xml:lang="ko" state="translated">%number% 상품들</target>
+        <note>Context:
+File: controllers/front/listing/SupplierController.php:190</note>
+      </trans-unit>
       <trans-unit id="8e7fb1213c4692b195ed6b7cf580d7f3" approved="yes">
         <source>%number% product</source>
         <target xml:lang="ko" state="translated">%number% 상품</target>
@@ -258,6 +264,12 @@ File: src/Core/Product/ProductPresenter.php:339</note>
         <note>Context:
 File: src/Core/Product/ProductPresenter.php:346</note>
       </trans-unit>
+      <trans-unit id="63b539babcf7978229d66ba4052ca71f" approved="yes">
+        <source>Reduced price</source>
+        <target xml:lang="ko" state="translated">인하된 가격</target>
+        <note>Context:
+File: src/Core/Product/ProductPresenter.php:353</note>
+      </trans-unit>
       <trans-unit id="4492081ca02b059f9e8af4ddaf0f7292" approved="yes">
         <source>Pack</source>
         <target xml:lang="ko" state="translated">묶음</target>
@@ -275,6 +287,12 @@ File: src/Core/Product/ProductPresenter.php:385</note>
         <target xml:lang="ko" state="translated">다른 옵션으로 상품 활성화</target>
         <note>Context:
 File: src/Core/Product/ProductPresenter.php:490</note>
+      </trans-unit>
+      <trans-unit id="348325afced7f3da215310efbe21f1c1" approved="yes">
+        <source>Last items in stock</source>
+        <target xml:lang="ko" state="translated">재고 중인 최근 품목</target>
+        <note>Context:
+File: src/Core/Product/ProductPresenter.php:525</note>
       </trans-unit>
       <trans-unit id="a3b6a4d0897451813950029a3066f219" approved="yes">
         <source>ean13</source>
@@ -335,6 +353,18 @@ File: themes/classic/modules/ps_productinfo/views/templates/hook/ps_productinfo.
         <target xml:lang="ko" state="translated">현재 %nb_people%명이 이 상품을 보고 있습니다.</target>
         <note>Context:
 File: themes/classic/modules/ps_productinfo/views/templates/hook/ps_productinfo.tpl:31</note>
+      </trans-unit>
+      <trans-unit id="247f15e3dc0e7906ab9573685423899f" approved="yes">
+        <source>Last time this product was bought: %date_last_order%</source>
+        <target xml:lang="ko" state="translated">최근 이 상품 구매일: %date_last_order%</target>
+        <note>Context:
+File: themes/classic/modules/ps_productinfo/views/templates/hook/ps_productinfo.tpl:37</note>
+      </trans-unit>
+      <trans-unit id="160b4798999cb85c815beeb40ac268cc" approved="yes">
+        <source>Last time this product was added to a cart: %date_last_cart%</source>
+        <target xml:lang="ko" state="translated">최근 이 상품 장바구니 추가일: %date_last_cart%</target>
+        <note>Context:
+File: themes/classic/modules/ps_productinfo/views/templates/hook/ps_productinfo.tpl:41</note>
       </trans-unit>
     </body>
   </file>
@@ -410,6 +440,12 @@ File: themes/classic/templates/catalog/_partials/product-details.tpl:14</note>
         <note>Context:
 File: themes/classic/templates/catalog/_partials/product-details.tpl:32</note>
       </trans-unit>
+      <trans-unit id="4594f39c6dac58760daeb19d79389576" approved="yes">
+        <source>Specific References</source>
+        <target xml:lang="ko" state="translated">특정 참조들</target>
+        <note>Context:
+File: themes/classic/templates/catalog/_partials/product-details.tpl:71</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/StarterTheme/templates/catalog/product.tpl" source-language="en" target-language="ko" datatype="plaintext">
@@ -440,11 +476,35 @@ File: themes/classic/templates/catalog/_partials/product-customization.tpl:41</n
   </file>
   <file original="themes/classic/templates/catalog/_partials/product-prices.tpl" source-language="en" target-language="ko" datatype="plaintext">
     <body>
+      <trans-unit id="d502fa4950894baeaeaf3c5195bb8206" approved="yes">
+        <source>Save %percentage%</source>
+        <target xml:lang="ko" state="translated">저장 %percentage%</target>
+        <note>Context:
+File: themes/classic/templates/catalog/_partials/product-prices.tpl:51</note>
+      </trans-unit>
+      <trans-unit id="5e9ce3b8961433dfa8cd441709c78176" approved="yes">
+        <source>Save %amount%</source>
+        <target xml:lang="ko" state="translated">%amount% 절약</target>
+        <note>Context:
+File: themes/classic/templates/catalog/_partials/product-prices.tpl:54</note>
+      </trans-unit>
       <trans-unit id="e532954941a2469e3b3ae35ce44885d6" approved="yes">
         <source>%price% tax excl.</source>
         <target xml:lang="ko" state="translated">%price% 세금 제외.</target>
         <note>Context:
 File: themes/classic/templates/catalog/_partials/product-prices.tpl:70</note>
+      </trans-unit>
+      <trans-unit id="a72a454b308052ed277f7b69ab307caa" approved="yes">
+        <source>Instead of %price%</source>
+        <target xml:lang="ko" state="translated">%price% 대신</target>
+        <note>Context:
+File: themes/classic/templates/catalog/_partials/product-prices.tpl:76</note>
+      </trans-unit>
+      <trans-unit id="98508b5a9b590896cc627beb46d86b96" approved="yes">
+        <source>Including %amount% for ecotax</source>
+        <target xml:lang="ko" state="translated">환경세 %amount% 포함</target>
+        <note>Context:
+File: themes/classic/templates/catalog/_partials/product-prices.tpl:82</note>
       </trans-unit>
       <trans-unit id="a134618182b99ff9151d7e0b6b92410a" approved="yes">
         <source>(not impacted by the discount)</source>
@@ -488,16 +548,33 @@ File: themes/classic/templates/catalog/_partials/products-top.tpl:30</note>
   </file>
   <file original="themes/classic/templates/_partials/pagination.tpl" source-language="en" target-language="ko" datatype="plaintext">
     <body>
-      
+      <trans-unit id="fb526aaa0add86e4e124263db50438c8" approved="yes">
+        <source>Showing %from%-%to% of %total% item(s)</source>
+        <target xml:lang="ko" state="translated">%total% 품목들의 %from% - %to 보이기</target>
+        <note>Context:
+File: themes/classic/templates/_partials/pagination.tpl:28</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/catalog/_partials/product-discounts.tpl" source-language="en" target-language="ko" datatype="plaintext">
     <body>
+      <trans-unit id="fc21aa6a8b0bceb8570c8c81b6b38307" approved="yes">
+        <source>Volume discounts</source>
+        <target xml:lang="ko" state="translated">부피 할인</target>
+        <note>Context:
+File: themes/classic/templates/catalog/_partials/product-discounts.tpl:27</note>
+      </trans-unit>
       <trans-unit id="861c0c6ef832cd96c5fe152f9d610973" approved="yes">
         <source>You Save</source>
         <target xml:lang="ko" state="translated">당신이 절약한 금액</target>
         <note>Context:
 File: themes/classic/templates/catalog/_partials/product-discounts.tpl:34</note>
+      </trans-unit>
+      <trans-unit id="64c22a1426c5b8fce46c6314d73dc99e" approved="yes">
+        <source>Up to %discount%</source>
+        <target xml:lang="ko" state="translated">%discount% 까지</target>
+        <note>Context:
+File: themes/classic/templates/catalog/_partials/product-discounts.tpl:42</note>
       </trans-unit>
     </body>
   </file>
@@ -513,6 +590,12 @@ File: themes/StarterTheme/templates/customer/_partials/order-detail-return.tpl:3
   </file>
   <file original="themes/classic/templates/catalog/product.tpl" source-language="en" target-language="ko" datatype="plaintext">
     <body>
+      <trans-unit id="56e11b516943cb38a57c9a53219a8370" approved="yes">
+        <source>This pack contains</source>
+        <target xml:lang="ko" state="translated">이 묶음에 다음이 포함됩니다</target>
+        <note>Context:
+File: themes/classic/templates/catalog/product.tpl:113</note>
+      </trans-unit>
       <trans-unit id="b5a7adde1af5c87d7fd797b6245c2a39" approved="yes">
         <source>Description</source>
         <target xml:lang="ko" state="translated">세부내용</target>
@@ -530,6 +613,12 @@ File: themes/classic/templates/catalog/product.tpl:167</note>
         <target xml:lang="ko" state="translated">첨부파일</target>
         <note>Context:
 File: themes/classic/templates/catalog/product.tpl:176</note>
+      </trans-unit>
+      <trans-unit id="3767d4f3efe17bd95a1bc7cf4194bb93" approved="yes">
+        <source>You might also like</source>
+        <target xml:lang="ko" state="translated">다음도 좋아할 겁니다</target>
+        <note>Context:
+File: themes/classic/templates/catalog/product.tpl:236</note>
       </trans-unit>
     </body>
   </file>
