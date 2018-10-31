@@ -90,7 +90,7 @@ $_LANGADM['AdminAttributesGroupscb5feb1b7314637725a2e73bdc9f7295'] = 'اللون
 $_LANGADM['AdminAttributesGroups5204077231fc7164e2269e96b584dd95'] = 'قائمه منسدله';
 $_LANGADM['AdminAttributesGroups8bd90a6d76a77fe0b160e8abd85c8590'] = 'أزرار اختيار';
 $_LANGADM['AdminAttributesGroupsf68b27443f6e6f685cce3f9f422a2b84'] = 'اللون أو النسيج';
-$_LANGADM['AdminAttributesGroups287234a1ff35a314b5b6bc4e5828e745'] = 'الخصائص';
+$_LANGADM['AdminAttributesGroups287234a1ff35a314b5b6bc4e5828e745'] = 'السمات';
 $_LANGADM['AdminAttributesGroupsf2d1c5443636295e9720caac90ea8d93'] = 'الإسم الداخلي لهذه الخاصية.';
 $_LANGADM['AdminAttributesGroups6252c0f2c2ed83b7b06dfca86d4650bb'] = 'رموز غير صحيحة:';
 $_LANGADM['AdminAttributesGroupsd274013ea65428454962a59b7b373a41'] = 'الأسم العلني';
@@ -2129,7 +2129,7 @@ $_LANGADM['AdminCartRules32b919d18cfaca89383f6000dcc9c031'] = 'توليد';
 $_LANGADM['AdminCartRulesf507c7574b6368f942ea9a2b959d8ec9'] = 'استخدام جزئي';
 $_LANGADM['AdminCartRules7bc873cba11f035df692c3549366c722'] = '-- اختر --';
 $_LANGADM['AdminCartRules068f80c7519d0528fb08e82137a72131'] = 'المنتجات';
-$_LANGADM['AdminCartRules287234a1ff35a314b5b6bc4e5828e745'] = 'الخصائص';
+$_LANGADM['AdminCartRules287234a1ff35a314b5b6bc4e5828e745'] = 'السمات';
 $_LANGADM['AdminCartRulesaf1b98adf7f686b84cd0b443e022b7a0'] = 'التصنيفات';
 $_LANGADM['AdminCartRules2377be3c2ad9b435ba277a73f0f1ca76'] = 'الماركات';
 $_LANGADM['AdminCartRules1814d65a76028fdfbadab64a5a8076df'] = 'الموردون';
@@ -2791,7 +2791,7 @@ $_LANGADM['AdminSpecificPriceRule229eb04083e06f419f9ac494329f957d'] = 'الشر�
 $_LANGADM['AdminSpecificPriceRule3adbdb3ac060038aa0e6e6c138ef9873'] = 'تصنيف';
 $_LANGADM['AdminSpecificPriceRulec0bd7654d5b278e65f21cf4e9153fdb4'] = 'الماركة';
 $_LANGADM['AdminSpecificPriceRuleec136b444eede3bc85639fac0dd06229'] = 'المورد';
-$_LANGADM['AdminSpecificPriceRule287234a1ff35a314b5b6bc4e5828e745'] = 'الخصائص';
+$_LANGADM['AdminSpecificPriceRule287234a1ff35a314b5b6bc4e5828e745'] = 'السمات';
 $_LANGADM['AdminSpecificPriceRule98f770b0af18ca763421bac22b4b6805'] = 'الخصائص';
 $_LANGADM['AdminSpecificPriceRule1d00e7dce692e8dc3f6877f035e3a616'] = 'أو';
 $_LANGADM['AdminSpecificPriceRulea1fa27779242b4902f7ae3bdd5c6d508'] = 'النوع';

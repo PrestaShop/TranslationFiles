@@ -5,6 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{gsitemap}prestashop>gsitemap_3aaaafde6f9b2701f9e6eb9292e95521'] = 'خريطة الموقع - جوجل';
 $_MODULE['<{gsitemap}prestashop>gsitemap_935a6bc13704a117d22333c3155b5dae'] = 'توليد ملف خريطة جوجل';
+$_MODULE['<{gsitemap}prestashop>configuration_9d934413d2737c2a15f58de573657ce3'] = 'في حساب Google Webmaster الخاص بك.';
 $_MODULE['<{gsitemap}prestashop>configuration_1c95b77d135b55c84429588c11697ea4'] = 'خرائط الموقع الخاصة بك';
 $_MODULE['<{gsitemap}prestashop>configuration_aa17b80751f4ae53ab8e3ed2fe99e94d'] = 'خرائط الموقع منشأة مسبقاً.';
 $_MODULE['<{gsitemap}prestashop>configuration_a0bfb8e59e6c13fc8d990781f77694fe'] = 'استمرار';
@@ -20,7 +21,9 @@ $_MODULE['<{gsitemap}prestashop>configuration_708638881f3bac9d9c8c742c79502811']
 $_MODULE['<{gsitemap}prestashop>configuration_1bf712896e6077fa0b708e911d8ee0b3'] = 'سنوياً';
 $_MODULE['<{gsitemap}prestashop>configuration_c7561db7a418dd39b2201dfe110ab4a4'] = 'أبدا';
 $_MODULE['<{gsitemap}prestashop>configuration_05ff8159ccaef6f0f8391c61a6d0e631'] = 'تحديد الكل';
+$_MODULE['<{gsitemap}prestashop>configuration_0dfcf5f2f5b9ab7c909f9bdca2b53b56'] = 'أشر إلى الصفحات التي لا تريد تضمينها في ملف Sitemaps:';
 $_MODULE['<{gsitemap}prestashop>configuration_ca99f8a0d484faef3a057fe7a5da3141'] = 'قد يستغرق ذلك بضع دقائق';
+$_MODULE['<{gsitemap}prestashop>configuration_162b34489ed8df561be1720f04fe6d42'] = 'لديك طريقتان لإنشاء ملف Sitemap:';
 $_MODULE['<{gsitemap}prestashop>configuration_6caa369fd774beef106abbc5cc1e3368'] = 'يدوياً:';
 $_MODULE['<{gsitemap}prestashop>configuration_4ed0b6a0097c3d38c43d756fe2653962'] = 'باستخدام النموذج أعلاه (حسب الحاجة)';
 $_MODULE['<{gsitemap}prestashop>configuration_3d263eb0233f14872193733387840c80'] = '-أو-';

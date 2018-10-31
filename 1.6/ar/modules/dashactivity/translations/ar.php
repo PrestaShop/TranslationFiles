@@ -37,7 +37,6 @@ $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_8471314b4a53476fbf2379d9a
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_d833d1b3c98b980090f79ad42badcf9f'] = 'اشتراكات جديدة';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_e42bc03dcf18091455cb8a06ce1d56e9'] = 'إجمالي المشتركين';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_e7935ae6c516d89405ec532359d2d75a'] = 'حركة البيانات';
-$_MODULE['<{dashactivity}prestashop>dashboard_zone_one_1a4aeb4ca6cd736a4a7b25d8657d9972'] = 'أربط بحساب تحليلات جوجل الخاص بك';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_d7e637a6e9ff116de2fa89551240a94d'] = 'الزيارات';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_945f170a18e4894c90381a3d01bdef8b'] = 'زوار فريدون';
 $_MODULE['<{dashactivity}prestashop>dashboard_zone_one_0fcff541ec15c6ed895d5dec49436488'] = 'مصادر حركة البيانات';

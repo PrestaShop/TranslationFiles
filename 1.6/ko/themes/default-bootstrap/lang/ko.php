@@ -833,6 +833,7 @@ $_LANG['product_694e8d1f2ee056f98ee488bdc4982d73'] = '수량';
 $_LANG['product_04325f5c10c9818bc464d660daa2b030'] = '상품의 최소 구매 주문 수량은';
 $_LANG['product_63a78ed4647f7c63c2929e35ec1c95e3'] = '사용자 정의';
 $_LANG['product_2d0f6b8300be19cf35e89e66f0677f95'] = '장바구니에 추가';
+$_LANG['product_fc21aa6a8b0bceb8570c8c81b6b38307'] = '부피 할인';
 $_LANG['product_3601146c4e948c32b6424d2c0a7f0118'] = '가격';
 $_LANG['product_104d9898c04874d0fbac36e125fa1369'] = '할인';
 $_LANG['product_861c0c6ef832cd96c5fe152f9d610973'] = '당신이 절약한 금액';

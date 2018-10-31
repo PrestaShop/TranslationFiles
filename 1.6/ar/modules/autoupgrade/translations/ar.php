@@ -245,10 +245,13 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7e6f1194307c585ca2e97f81c3db
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3c2e3b812ebc9bc95ccd9bf9086c4af7'] = 'حدث خطأ اثناء ترقية قاعدة البيانات.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_257f5523f283710c6859d8f425a0c657'] = 'تم بنجاح ترقية قاعدة البيانات';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9dcf84f429818d396d05335d52ef5f42'] = '[SKIP] المجلد "%s" غير موجود ولا يمكن تفريغه.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_4cb8d96f333a2339fe544b96ee2740de'] = '[مسح ذاكرة التخزين المؤقت] تم حذف الملف %s';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9c7e0ba2c6ecb11af7f39843bbc18ff8'] = 'تم اكتشاف تحذير أثناء الترقية.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c4615fc8cb7877b074cbe9813cd742b1'] = 'تم الانتهاء من ترقية قاعدة البيانات';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f08c0f19e801344fe73ef0a0f4cd1dcb'] = 'خطأ عند فتح ملف settings.inc.php في وضع الكتابة';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_38ef745d6a25e051fe2463983dd735b8'] = 'حدث خطأ أثناء إنشاء ملف settings.inc.php جديد.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_618bfc1f9ba85d07157a388208fe3ff8'] = 'تم تحديث ملف الإعدادات';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c76662717bc0a1c0a601534af98f537b'] = '[NOTICE] الملف %s غير موجود، تم تخطي الدمج.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_cbdc88f921ee4831120cc2c516f9115b'] = '[WARNING] المتغير %1$s مفقود في الملف %2$s. تم تخطي الدمج.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ef697ec05df3c9e19d683663849ec6dc'] = '[WARNING] المتغير %1$s مفقود في الملف %2$s. تم حذف الملف %2$s وتخطي الدمج.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9a2f2cf276ea9f79b31a815897c0e3e6'] = '%s تم تجاهله';
@@ -286,6 +289,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_55fc6682e256e387afb10ebf6c95
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5b37242b8a0a39af0a9dc28abdabba28'] = 'تم استعادة قاعدة البيانات.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e40517de82d2888877a24f233cef618e'] = '[خطأ في SQL] ';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b232a418538e3f6904357039ff7b1052'] = 'حدث خطأ أثناء استعادة قاعدة البيانات';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_64736d2638d494df1bedffae7fa10c86'] = 'بقي حوالي %1$s من الإستعلامات الخاصة بملف %2$s...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_30da45f850d1f1a2b42f215836382f19'] = 'تم استعادة قاعدة البيانات.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_926abe867e8b1be1c0b053234cae77ba'] = 'تم تخطي النسخة الإحتياطية لقاعدة البيانات. ترقية الملفات جارية الآن...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2b0e9a817cf34a8251bdf75c9b1cfefc'] = 'دليل النسخه الاحتياطيه المشار اليه غير قابل للكتابة ';
@@ -315,14 +319,18 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_344c592d141604c614c219fad3fa
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_1d62b7d31a19dde578c4c56babef264a'] = 'تم حذف جميع ملفات العينات. عملية النسخ الإحتياطي للملفات جارية الآن.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_65b259727ac87919e232bd9b63920f36'] = 'تحميل من %s';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_549e11f82d3c02b92e5db1b38b858eb6'] = 'سيتم حفظ الملف في %s';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_42cfe8e0aff754a0951f95b5285171bc'] = 'تم افراغ دليل التحميل';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3c2681ea85407c2c0d252e05a8eaf6aa'] = 'تم التحميل.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a55401a11251f53f612e950d4115e116'] = 'تم التحميل. الآن يتم الاستخراج...';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2d9a3f4a92c008b32903541e9af8aff0'] = 'التحميل إكتمل ولكن مجموع MD5 لا يطابق (%s).';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_df88998b6b9585bbcfd201186695b686'] = 'لقد تم إكتمال التحميل ولكن مجموع MD5 لا يطابق (%s). تم إلغاء العملية.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_412cb9a2978bf041be4ca6c6ded0030c'] = 'خطأ أثناء التنزيل. قد يكون المفتاح الخاص غير صحيح.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0c0db54fe8212c1a7215005fef75d7dd'] = 'حصل خطأ أثناء التحميل';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_60a77be5a62b1c663b12ccaf97250986'] = 'دليل التحميل غير قابل للكتابة.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5385901e5bed459563860e2f08a90a1c'] = 'دليل التحميل %s غير قابل للكتابة.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_6d60c7758acae39203ef1fadcbb2010b'] = 'يجب تفعيل allow_url_fopen أو cURL حتى يعمل التنزيل التلقائي.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_fb1ca1f5f3eb5a2ca85201f449525527'] = 'يجب أن تكون allow_url_fopen أو cURL مفعلة ليعمل التحميل التلقائي. يمكنك أيضًا رفعه يدويًا في مسار الملف %s.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a75d0dd3210dc796149dd5503a4b9b9f'] = '[WARNING] الخاصية %s مفقودة';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3bb38e7d0bfd5a02f7c06cae446fee86'] = 'تم تخطي الإجراء %s';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b4302e98d94591ee9afa09e769b2ee63'] = 'الإجراء "%1$s" غير موجود';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_760c4026bc5a0bd5378e6efc3f1370b4'] = 'طويل جدا!';
@@ -352,6 +360,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a10ef376d9f4c877ac86d8e43501
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f8fe8cba1625eaf8e5c253b041d57dbd'] = 'لم يتم رفع الملف إلا جزئيا';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8c9067e52e4440d8a20e74fdc745b0c6'] = 'لم يتم تحميل الملف';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f5985b2c059d5cc36968baab7585baba'] = 'فشل في كتابة الملف على القرص';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9e54dfe54e03b0010c1fe70bd65cd5e6'] = 'لقد قام الملحق بإيقاف عملية رفع الملف';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_32af3a59b50e98d254d6c03c5b320a94'] = 'لا يمكن تعديل قاعدة (قواعد) البيانات الى تنسيق utf-8.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_989a45a4ca01ee222f4370172bf8850d'] = 'اسم المحل غير صحيح';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_68499acecfba9d3bf0ca8711f300d3ed'] = 'الاسم الأول الخاص بك يحتوي على بعض أحرف غير صالحة';
@@ -359,6 +368,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2399cf4ca7b49f2706f6e147a32e
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7d72600fcff52fb3a2d2f73572117311'] = 'سيرفر قاعدة البيانات الخاصه بك لايدعم ترميز utf-8.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7186f703d20b263cfb91161418996e43'] = 'سيرفر MySQL لا يدعم هذا المحرك، يرجى استخدام محرك آخر مثل MyISAM';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_24b481455c1b72b0c2539e7d516b9582'] = 'الملف / img/logo.jpg غير قابل للكتابة، يرجى تغيير الصلاحيات (CHMOD) لهذا الملف إلى 755 أو 777';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_5746b74663148afffd1350c97d4fcdfe'] = 'وضع الدليل غير صالح';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9e5459c4deb20b7842ac01e97390b334'] = 'لا يوجد رقم خطأ مكافيء';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_dafe44b99256a7783bc37f4f949da373'] = 'مكون التنصيب قديم جدا.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_37ce0f29c7377c827e7247fe5645a782'] = 'انت بالفعل لديك النسخه %s.';
@@ -375,15 +385,19 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_946a7fdf02f1a9f08e6711d014e3
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a4d88b46c8edb6b0ee2fb4d6bd0690b0'] = 'اختر نسختك الإحتياطية:';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c629f24e672b4e1165ebf1c10b5c5c5d'] = '-- اختر نسخة احتياطية لإستعمالها في عملية الإستعادة --';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_69ff9aca0bd03b3981784593311d866a'] = 'قائمة التحقق قبل عملية الترقية';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_03f945bba76ea63369d50a340e5b17bf'] = 'قائمة التحقق تحتوي على نقاط غير صالحة. يمكنك ترقية متجرك فقط عندما تصبح جميع المؤشرات خضراء.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_1b631ee6d890a5d6f2ede2f386f5aa3d'] = 'قبل البدء في عملية الترقية، يرجى التأكد من أن قائمة التحقق هذه كلها خضراء.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0058c0de9990c3b6a816affc3ffac3ef'] = 'وحدة الترقية بنقرة واحدة محدّثة (الإصدار الحالي هو %s)';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_06933067aafd48425d67bcb01bba5cb6'] = 'تعديل';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_801ab24683a4a8c433c6eb40c48bcd9d'] = 'تحميل';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b398e46a283dd457aa7dc0302004208c'] = 'المسار "/admin/autoupgrade" قابل للكتابة (صلاحيات CHMOD مناسبة)';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_6509fb64b7a0331814629513e36d1402'] = 'تم إيقاف تشغيل خيار "الوضع الآمن" في PHP';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_027d4866414c87a3af00e3acf98f2012'] = 'تم تشغيل الخيار PHP المتمثل في "allow_url_fopen"، أو تم تثبيت cURL';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_49c20044e894d8cc2da7783adbf79f16'] = 'متجرك في وضع الصيانة';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_10f7f752bbed690312dff7e8814b6994'] = 'انقر هنا لوضع متجرك تحت الصيانة';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2ec74fb71dd2f8f0111f2d74bfe7a7b3'] = 'ميزات التخزين المؤقت لـPrestaShop معطلة';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_2b1af926a233d2fd8826d281e03ae5d7'] = 'قالب الجوال معطل';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0c3d04ce8fc363ea466bc20e377367e6'] = 'يمتلك إعداد max_execution_time في PHP قيمة عالية أو تم تعطيله بالكامل (القيمة الحالية: %s)';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_958f470d0b1c8fb2b9e62b48e8903299'] = 'غير محدود';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8641eaacafab9d58e7e93a92ff318714'] = '%s ثواني';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_aa9b0228ac4e3e44b836f79eebf5e481'] = 'يرجى أيضًا التأكد من عمل نسخة احتياطية يدوية كاملة من ملفاتك وقاعدة بياناتك.';
@@ -394,6 +408,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ededa0b9a77dd39dad86a79cdc2a
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_bca4ff8cbf5fd614a700ca81c820dc1b'] = 'سِجل التغييرات:';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_39089ec5b14aadac3156e62cde5027b1'] = 'رؤية سِجل التغيير';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_628decaabab912af39cfda7aaf47b059'] = 'النسخة الرئيسية';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_43899376e3f4d4cb70dad59c81a4b957'] = 'إصدار ثانوي (موصى به)';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_1436348d2e10c88964c87efe3ebe7e4c'] = 'النسخ المرشحة';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3da4e7a86631518f47d8cedf7f09a5ed'] = 'إصدارات بيتا';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0c960ac8fc33e1516a568248519b4d03'] = 'إصدارات ألفا';
@@ -401,6 +416,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_8ed3e1637b29848c462242873908
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_15e90667b50b56b1f8a01bdb1190f3dc'] = 'الأرشيف المحلي';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_17897209dd708b862fe417f6d429a8da'] = 'الدليل المحلي';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3b3d4b4b6a128cfeafc8e3f8987ddb9b'] = 'قناة:';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e710e20abcca585174701a265f39885f'] = 'هذا الخيار سيجعلك تستفيد من كل الإصدارات الثابتة.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ef2f59f06132ddc2e1bc8d00abbe6e02'] = 'رابط:';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_6e843a36f447872179db90ceff68d970'] = 'مفتاح التجزئة:';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b77d20ed1ba7b2ee7139dc4f3fd13117'] = 'السماح لعمليات الترقية الرئيسية:';
@@ -444,7 +460,9 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7f6336f29afd114798bf8ff3e6f2
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a0c7f60d480662bb235ca5e204d71883'] = 'فتح سجل التغيير في نافذة جديدة';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7f07c36a3eb42fc24f4777e3619316f0'] = 'لن يتم تنزيل أي ملف ( القناة %s مستخدمة)';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_604862f03b56fde085c8f0350f63d707'] = 'سيتم استبدال الإجراءات التالية تلقائيًا';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a14d4d3e7a25e288bacd896ca2eda847'] = 'سيتم استبدال %1$s بـ %2$s';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a07a3b4fc3a73fd0a8014aa40819c357'] = 'لتغيير هذا السلوك، تحتاج إلى تعديل ملفات php الخاصة بك يدويًا';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ef754ad37c689704ede322b9a6ae66a7'] = 'تحقق مما إذا كان هناك إصدار جديد متاح';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_89de86aa34494d545d8cbb4fff3a4e59'] = 'آخر فحص: %s';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c7561db7a418dd39b2201dfe110ab4a4'] = 'أبدا';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d6c41259de614f426844d7caeaf532ed'] = 'حدث الصفحة';
@@ -465,6 +483,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d1cf02f3b502ad45947b846659c7
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_49c77c6b39fac5ce46832752e6612e9d'] = 'الترقية إلى PrestaShop %s';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_b3e205a87c7cf99915d86ffe496f1706'] = 'الترقية من PrestaShop %s إلى PrestaShop %s سيكون لها تأثير كبير على متجرك.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_14eb234037a8860589f68e1f34a55fd8'] = 'لن تتمكن من استخدام القالب الحالي، الوحدات الحالية، وبيانات المخزون المتقدمة بمجرد ترقية متجرك إلى %s';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_14848bb4861807d41b2ef22f0288f90b'] = 'يرجى التأكد من أن تهيئة السيرفر الخاص بك تلبي الحد الأدنى من المتطلبات:';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ba4e6bdd93c2f0c0e133bb94c27623ad'] = 'المجلد %s موجود';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_49ed9b3e9429a4ae5f4fc1374e38140d'] = 'دوال النظام المطلوبة مفعلة (fopen, file_exists, chmod)';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_9a92bff0f2bacca85a22045df0ff05a7'] = 'الدالة %s مفعلة';
@@ -488,6 +507,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_98a399b35ec9e03ec985254acfe5
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e02d726a7e733ffb7737e53c89be5e4f'] = 'إكتمل التحديث';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c5e0a7b512fd616279924a1396bb0802'] = 'إكتمل التحديث!';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f67d595b77c8c85da5434ddf41b840d4'] = 'التحديث إكتمل، لكن هناك اشعار تحذير.';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_546c6a7b5ca345af3880bfc74a339606'] = 'تم تغيير ملفات Javascript و CSS، يرجى مسح ذاكرة التخزين المؤقت للمتصفح باستخدام CTRL-F5';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_19ea4327ee1bad0ed94b42a77255f3c6'] = 'يرجى التحقق من أن قالب واجهة واجهة موقعك يعمل بشكل عادي (حاول إنشاء حساب، ضع طلبية...)';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_c12803674a35ccc28e5da00a50a84591'] = 'صور المنتج لا تظهر على واجهة الموقع؟ حاول إعادة إنشاء الصور المصغرة في التفضيلات> الصور';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e27d0a2f9e5caa433fc14667a1a3a15a'] = 'لا تنس إعادة تنشيط متجرك بمجرد فحص كل شيء!';
@@ -523,6 +543,8 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_42a346b8cddc0d5a6b7494735eb6
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_0f9f19a4f5e93b3d5a94405e3af32a28'] = 'تعذر فتح zipFile %s';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a15762146514c451817fb7bb8cbecd96'] = '[ERROR] خطأ في استخراج الأرشيف باستخدام PclZip: %s.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_3858aebfe7dce0a1dc398d199cb85a2b'] = '[ERROR] تعذر إضافة الملفات المؤرشفة إلى القائمة';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_ece95fa62a665fc3779168e698d6913a'] = 'الملف %s محفوض';
+$_MODULE['<{autoupgrade}prestashop>autoupgrade_bf544d00f0406f90f6e658a2571f5e9c'] = 'لا يمكن ترقية هذا الإصدار من PrestaShop: القيمة الثابتة PS_ADMIN_DIR مفقودة.';
 $_MODULE['<{autoupgrade}prestashop>autoupgrade_786cc166a84595ae291b2d8b26d93bb3'] = 'ترقية بضغطة واحدة';
 $_MODULE['<{autoupgrade}prestashop>autoupgrade_990a862982b19c0c1266a4cf6afbdd96'] = 'يوفر طريقة تلقائية لترقية متجرك إلى أحدث إصدار لـ PrestaShop.';
 $_MODULE['<{autoupgrade}prestashop>autoupgrade_a1c06846db19625473aa4ffacb6307e4'] = 'تعذر حذف علامة التبويب "AdminUpgrade" القديمة (معرف علامة التبويب: %d).';
