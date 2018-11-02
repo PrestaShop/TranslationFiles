@@ -2,6 +2,12 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="classes/order/OrderHistory.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="f22b1baf8dcfb014646921be9841cb41" approved="yes">
+        <source>expires on %s.</source>
+        <target xml:lang="zh-CN" state="translated">有效期至：</target>
+        <note>Context:
+File: classes/order/OrderHistory.php:143</note>
+      </trans-unit>
       <trans-unit id="0db24e725e6876d0fc7467554e8b6c03" approved="yes">
         <source>downloadable %d time(s)</source>
         <target xml:lang="zh-CN" state="translated">可下载 %d 次</target>
@@ -45,6 +51,18 @@ File: controllers/admin/AdminCustomersController.php:206</note>
         <target xml:lang="zh-CN" state="translated">此订单未定义任何状态</target>
         <note>Context:
 File: controllers/admin/AdminCustomersController.php:726</note>
+      </trans-unit>
+      <trans-unit id="03552140a267acc27f494dc3ab368067" approved="yes">
+        <source>Unknown delete mode:</source>
+        <target xml:lang="zh-CN" state="translated">未知删除模式</target>
+        <note>Context:
+File: controllers/admin/AdminCustomersController.php:867</note>
+      </trans-unit>
+      <trans-unit id="7298a088a582ffc05f2c777afb3115cb" approved="yes">
+        <source>Password cannot be empty.</source>
+        <target xml:lang="zh-CN" state="translated">密码不能为空。</target>
+        <note>Context:
+File: controllers/admin/AdminCustomersController.php:895</note>
       </trans-unit>
       <trans-unit id="0a53e9e61f2a9bf59e9028b42fbd8166" approved="yes">
         <source>An error occurred while loading the object.</source>
@@ -114,6 +132,18 @@ File: controllers/admin/AdminOrdersController.php:225</note>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:228</note>
       </trans-unit>
+      <trans-unit id="409f3dfd9f910287f86fd6c25c94c4d8" approved="yes">
+        <source>Order #%d has already been assigned this status.</source>
+        <target xml:lang="zh-CN" state="translated">订单#%d已经是指定状态。</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:389</note>
+      </trans-unit>
+      <trans-unit id="18893a82469e2cd9492fc8d46fa8ac01" approved="yes">
+        <source>An error occurred while changing the status for order #%d, or we were unable to send an email to the customer.</source>
+        <target xml:lang="zh-CN" state="translated">在更改订单#%d的状态时出错，或无法发邮件给该客户。</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:414</note>
+      </trans-unit>
       <trans-unit id="c2572d1fee836c06c88e0bdc9fa7ffa1" approved="yes">
         <source>The new order status is invalid.</source>
         <target xml:lang="zh-CN" state="translated">无效的新订单状态</target>
@@ -137,6 +167,12 @@ File: controllers/admin/AdminOrdersController.php:571</note>
         <target xml:lang="zh-CN" state="translated">字段 ％s 需要被填写。</target>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:578</note>
+      </trans-unit>
+      <trans-unit id="c4d82e8095bb903683e0b0e73887aef0" approved="yes">
+        <source>Please enter a quantity to proceed with your refund.</source>
+        <target xml:lang="zh-CN" state="translated">退款前，请输入退货数量</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:863</note>
       </trans-unit>
       <trans-unit id="b1db8cec4ec0de83c3934a22bc758a3b" approved="yes">
         <source>You cannot generate a voucher.</source>
@@ -168,15 +204,51 @@ File: controllers/admin/AdminOrdersController.php:970</note>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:992</note>
       </trans-unit>
+      <trans-unit id="edeff0d68d3d20ce1f6189f6070cb2ba" approved="yes">
+        <source>A credit slip cannot be generated.</source>
+        <target xml:lang="zh-CN" state="translated">无法生成信用账单。</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:1030</note>
+      </trans-unit>
       <trans-unit id="b81f0a0540938a2e7daa684f02866696" approved="yes">
         <source>No product or quantity has been selected.</source>
         <target xml:lang="zh-CN" state="translated">没有商品或者数量选中</target>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:1139</note>
       </trans-unit>
-      <trans-unit id="aeddc664f1e95691c69ea44a5c1c18f5">
+      <trans-unit id="9391de9e24bd71839f6f72a1517de2d6" approved="yes">
+        <source>The amount is invalid.</source>
+        <target xml:lang="zh-CN" state="translated">数目是无效的。</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:1166</note>
+      </trans-unit>
+      <trans-unit id="6ab061ec12504fab2c41f0689579d623" approved="yes">
+        <source>The selected payment method is invalid.</source>
+        <target xml:lang="zh-CN" state="translated">选定的付款方式无效。</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:1168</note>
+      </trans-unit>
+      <trans-unit id="f50c7cba4df874039d73ee480d678f5e" approved="yes">
+        <source>The date is invalid</source>
+        <target xml:lang="zh-CN" state="translated">数据无效</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:1176</note>
+      </trans-unit>
+      <trans-unit id="7f5a75ac350db917dc60cfbd8299da5b" approved="yes">
+        <source>Failed to upload the invoice and edit its note.</source>
+        <target xml:lang="zh-CN" state="translated">无法上传发票及编辑备注。</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:1202</note>
+      </trans-unit>
+      <trans-unit id="fded441ef916f653d49abf142b535b52" approved="yes">
+        <source>An error occurred while sending the e-mail to the customer.</source>
+        <target xml:lang="zh-CN" state="translated">在发送邮件给顾客时发生错误。</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:1591</note>
+      </trans-unit>
+      <trans-unit id="aeddc664f1e95691c69ea44a5c1c18f5" approved="yes">
         <source>This product is out of stock: </source>
-        <target xml:lang="zh-CN" state="needs-translation"> </target>
+        <target xml:lang="zh-CN" state="translated">该商品已经售罄: </target>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:1782</note>
       </trans-unit>
@@ -192,6 +264,12 @@ File: controllers/admin/AdminOrdersController.php:2026</note>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:2030</note>
       </trans-unit>
+      <trans-unit id="7152cf69405fd47a8bd2f7b625ce324e" approved="yes">
+        <source>You cannot add products to delivered orders.</source>
+        <target xml:lang="zh-CN" state="translated">您不能在已出货订单添加商品。</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:2050</note>
+      </trans-unit>
       <trans-unit id="de10fc28511b894f704c1a67fcff7b4f" approved="yes">
         <source>You already have the maximum quantity available for this product.</source>
         <target xml:lang="zh-CN" state="translated">您已经购买了该商品最大的可买数量。</target>
@@ -203,6 +281,12 @@ File: controllers/admin/AdminOrdersController.php:2140</note>
         <target xml:lang="zh-CN" state="translated">[已产生] 免运费购物车规则</target>
         <note>Context:
 File: controllers/admin/AdminOrdersController.php:2155</note>
+      </trans-unit>
+      <trans-unit id="0af3cc300f35caff086e21bf2f865960" approved="yes">
+        <source>You cannot edit the order detail for this order.</source>
+        <target xml:lang="zh-CN" state="translated">你不能编辑订单细节</target>
+        <note>Context:
+File: controllers/admin/AdminOrdersController.php:2716</note>
       </trans-unit>
       <trans-unit id="01816dd287bcb3b88ad3f63970ce045f" approved="yes">
         <source>Invalid quantity</source>
@@ -414,6 +498,30 @@ File: controllers/admin/AdminReturnController.php:281</note>
         <note>Context:
 File: controllers/admin/AdminCustomerThreadsController.php:482</note>
       </trans-unit>
+      <trans-unit id="d9c93c77e4f2eb90e8457f586e0c5cb3" approved="yes">
+        <source>Cannot create message in a new thread.</source>
+        <target xml:lang="zh-CN" state="translated">无法在新的主题里创建消息。</target>
+        <note>Context:
+File: controllers/admin/AdminCustomerThreadsController.php:1079</note>
+      </trans-unit>
+      <trans-unit id="142c7111dc9e81f5cf273851ccce9fcc" approved="yes">
+        <source>The message body is empty, cannot import it.</source>
+        <target xml:lang="zh-CN" state="translated">消息为空，无法导入。</target>
+        <note>Context:
+File: controllers/admin/AdminCustomerThreadsController.php:1144</note>
+      </trans-unit>
+      <trans-unit id="5d1cbbd2b78574a8cfac676d8bdb9ea4" approved="yes">
+        <source>Invalid message content for subject: %s</source>
+        <target xml:lang="zh-CN" state="translated">该标题下信息内容无效：%s</target>
+        <note>Context:
+File: controllers/admin/AdminCustomerThreadsController.php:1151</note>
+      </trans-unit>
+      <trans-unit id="f70f856f6d471d374aaf5080afeb1e53" approved="yes">
+        <source>The message content is not valid, cannot import it.</source>
+        <target xml:lang="zh-CN" state="translated">信息内容无效，无法导入</target>
+        <note>Context:
+File: controllers/admin/AdminCustomerThreadsController.php:1157</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/customers/helpers/list/list_header.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -428,9 +536,9 @@ File: admin-dev/themes/default/template/controllers/customers/helpers/list/list_
   </file>
   <file original="admin-dev/themes/default/template/controllers/customers/helpers/view/view.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      <trans-unit id="c7b085efe30557dbc76c2ba487506049">
+      <trans-unit id="c7b085efe30557dbc76c2ba487506049" approved="yes">
         <source>A registered customer account using the defined email address already exists. </source>
-        <target xml:lang="zh-CN" state="needs-translation"> </target>
+        <target xml:lang="zh-CN" state="translated">注册客户账户使用的电子邮件地址已存在。 </target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/customers/helpers/view/view.tpl:176</note>
       </trans-unit>
@@ -444,7 +552,12 @@ File: admin-dev/themes/default/template/controllers/customers/helpers/view/view.
   </file>
   <file original="admin-dev/themes/default/template/controllers/carts/helpers/view/view.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="764368526633c5baf14291ba7fbb9e05" approved="yes">
+        <source>For this particular customer group, prices are displayed as:</source>
+        <target xml:lang="zh-CN" state="translated">对此特别客户组，显示价格为:</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/carts/helpers/view/view.tpl:221</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/_discount_form.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -459,7 +572,12 @@ File: admin-dev/themes/default/template/controllers/orders/_discount_form.tpl:62
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/_shipping.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="2e66149518ba8dc45a9e51c4f153cebf" approved="yes">
+        <source><![CDATA[Please note that carrier change will not recalculate your shipping costs, if you want to change this please visit Shop Parameters > Order Settings]]></source>
+        <target xml:lang="zh-CN" state="translated"><![CDATA[请注意更换物流不会重新计算运费。如果你要更改它，请参见“店铺参数 > 订单设置”。]]></target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/_shipping.tpl:101</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/_documents.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -511,9 +629,9 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:407</note>
       </trans-unit>
-      <trans-unit id="7137dec9b59978006f8b0ec036099346">
+      <trans-unit id="7137dec9b59978006f8b0ec036099346" approved="yes">
         <source>This warning also concerns order </source>
-        <target xml:lang="zh-CN" state="needs-translation"> </target>
+        <target xml:lang="zh-CN" state="translated">该告警也涉及订单 </target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:412</note>
       </trans-unit>
@@ -552,6 +670,12 @@ File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl
         <target xml:lang="zh-CN" state="translated">被删除的数量大于可用的数量</target>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:889</note>
+      </trans-unit>
+      <trans-unit id="49641a1085f245fe45d45881544d1cec" approved="yes">
+        <source>For this customer group, prices are displayed as: [1]%tax_method%[/1]</source>
+        <target xml:lang="zh-CN" state="translated">对于该客户群组，价格显示为： [1]%tax_method%[/1]</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:993</note>
       </trans-unit>
       <trans-unit id="ef5f330df17f8c955005c26466c2463c" approved="yes">
         <source>Merchandise returns are disabled</source>
