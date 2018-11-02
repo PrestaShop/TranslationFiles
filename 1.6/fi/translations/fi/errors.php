@@ -571,7 +571,6 @@ $_ERRORS['0e461384b2f94dcd87f56a8a178fe768'] = 'Ennen ominaisuuksien lisäämist
 $_ERRORS['162c051f703406dd4fab3fde66296a6e'] = 'Alennusarvo (0-100) on virheellinen';
 $_ERRORS['9f0a59f1609218c049435abd2351bd84'] = 'Virhe päivitettäessä tiettyä hintaa.';
 $_ERRORS['22385bf735f96dbe1a4778d0b0d5345d'] = 'Alennusarvoa ei ole lähetetty';
-$_ERRORS['c7e56badecce297feefe2a9b50a68794'] = 'Virheellinen päiväyksen aikaväli';
 $_ERRORS['184a2ae304c9a05459cca0cbf8755b3a'] = 'Määritetty hinta ID on virheellinen.';
 $_ERRORS['0f8b5843f1391991d17f744ce9771e98'] = 'Virhe poistettaessa hintaa.';
 $_ERRORS['def4acf542de55ba41c7b7fde82bd5b6'] = 'Määrittele prioriteetit.';
