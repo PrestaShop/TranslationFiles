@@ -227,6 +227,7 @@ $_LANGADM['AdminCarrierWizard9d55fc80bbb875322aa67fd22fc98469'] = '商店项目�
 $_LANGADM['AdminCarrierWizard829c7cc5ed48e11df7ac9b05e236a12c'] = '含人工成本';
 $_LANGADM['AdminCarrierWizard00d23a76e43b46dae9ec7aa9dcbebb32'] = '启用';
 $_LANGADM['AdminCarrierWizardb9f5c797ebbf55adccdd8539a65a0241'] = '禁用';
+$_LANGADM['AdminCarrierWizard0668ec4bb8d6bcb27d283b2af9bc5888'] = '包括装卸运输等所有快递费用（在运输>首选项中设置）。';
 $_LANGADM['AdminCarrierWizard29aa46cc3d2677c7e0f216910df600ff'] = '免运费';
 $_LANGADM['AdminCarrierWizardbafd7322c6e97d25b6299b5d6fe8920b'] = '否';
 $_LANGADM['AdminCarrierWizard93cba07454f06a4a960172bbd6e2a435'] = '是';

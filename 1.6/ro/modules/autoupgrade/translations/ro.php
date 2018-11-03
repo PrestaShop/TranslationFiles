@@ -468,7 +468,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_382b0f5185773fa0f67a8ed8056c
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7926343e047e18778b6819beb8468086'] = 'Foloseste Smarty 3';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a9bf52016ab038b62d072d35039a76b4'] = 'Smarty 2 a fost depreciat in 1.4 si scos in 1.5. S-ar putea sa fie nevoie sa actualizezi tema sau sa folosesti una noua.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_d19581ebc0d99bfda1b0bb789dc65c5f'] = 'Utilizarea Smarty 3:';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_411d9b409e4b9a6c2db930dae9f1feb1'] = 'Editare configureazae Smarty';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_411d9b409e4b9a6c2db930dae9f1feb1'] = 'Reconfigureaza Smarty';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7f6336f29afd114798bf8ff3e6f2f9c9'] = 'PrestaShop va fi descarcat de la %s';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_a0c7f60d480662bb235ca5e204d71883'] = 'deschide jurnalul modificarilor intr-o fereastra noua';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_7f07c36a3eb42fc24f4777e3619316f0'] = 'Nu va fi descarcat niciun fisier (este folosit canalul %s)';
@@ -514,7 +514,7 @@ $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f15547fe5f9f307bd42b2c01657e
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f0c0004ed469d436fae1c0c84a5c7687'] = 'Este necesar sa bifezi toate conditiile';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f2a6c498fb90ee345d997f888fce3b18'] = 'Sterge';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_48995d15304fe79fc0240bf6544f2395'] = 'Sigur stergi acest backup?';
-$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f1a1fb67c8350e8881bc59f09e42d5ab'] = 'Clicheaza pentru a improspata pagina si a utiliza noua configureazae';
+$_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f1a1fb67c8350e8881bc59f09e42d5ab'] = 'Fa clic pentru a improspata pagina si a folosi noua configuratie';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_f03a04d1f440e359840035679b49b212'] = 'O actualizare este acum in desfasurare... Apasa "OK" pentru a abandona.';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_98a399b35ec9e03ec985254acfe5e3a0'] = 'PrestaShop este in curs de actualizare';
 $_MODULE['<{autoupgrade}prestashop>adminselfupgrade_e02d726a7e733ffb7737e53c89be5e4f'] = 'Actualizare completa';
