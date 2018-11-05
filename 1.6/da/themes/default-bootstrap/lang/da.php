@@ -801,7 +801,6 @@ $_LANG['product-sort_7f284e119af971a952e4b29f0875fc60'] = 'Pris: laveste først'
 $_LANG['product-sort_03590cca8220917788b5a6c25fa39a15'] = 'Pris: højeste først';
 $_LANG['product-sort_5820b5a5298779a25d98c41173b931bd'] = 'Varenavn: A til Å';
 $_LANG['product-sort_4f4f552919d5a7ad3435b5fdb7fcae61'] = 'Varenavn: Å til A';
-$_LANG['product-sort_fcebe56087b9373f15514831184fa572'] = 'Lagervarer først';
 $_LANG['product-sort_c9e06afd258999a1c59d9fce7d9c86c0'] = 'Reference: Laveste først';
 $_LANG['product-sort_526e1c4e51dca91d2aeea20808766e74'] = 'Reference: Højeste først';
 $_LANG['product_f9ddd507fdf437437efdcb333a0f4ff0'] = 'Denne vare er ikke synlig for dine kunder.';
