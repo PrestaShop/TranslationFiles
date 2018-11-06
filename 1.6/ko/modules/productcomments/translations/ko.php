@@ -11,6 +11,7 @@ $_MODULE['<{productcomments}prestashop>default_26510b8eb6e6053f5e91d51171967ca9'
 $_MODULE['<{productcomments}prestashop>default_a201fbadca94d310a1b62407cdc775d5'] = '평점을 줘야 합니다';
 $_MODULE['<{productcomments}prestashop>default_dfbe69c6d9568ecb0e65e7b32ed92a3a'] = '상품을 찾지 못했습니다.';
 $_MODULE['<{productcomments}prestashop>default_6d10b2f471e8894d59ae18e01537ece5'] = '다른 의견이 작성되는 것을 기다립니다';
+$_MODULE['<{productcomments}prestashop>default_ba8d7ae5dcadfba739f28a777378f208'] = '새 의견 게시 전 초';
 $_MODULE['<{productcomments}prestashop>productcommentcriterion_a09ed6c60eb3213939cecb4c580813cd'] = '전체 목록에 유효함';
 $_MODULE['<{productcomments}prestashop>productcommentcriterion_467366059d7d7c743a4d0971363a8d66'] = '일부 분류로 제한됨';
 $_MODULE['<{productcomments}prestashop>productcommentcriterion_772911becd336c843ab09a1d4b4f66c0'] = '일부 상품으로 제한됨';

@@ -5,9 +5,13 @@ $_MODULE = array();
 
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_9ae42413e3cb9596efe3857f75bad3df'] = '공급사 블럭';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_e72b2501ba75e9ab754d3294d43c2590'] = '상품 공급사를 표시하는 블럭을 추가합니다.';
+$_MODULE['<{blocksupplier}prestashop>blocksupplier_85ab0c0d250e58397e95c96277a3f8e3'] = '요소의 개수가 잘못되었습니다.';
+$_MODULE['<{blocksupplier}prestashop>blocksupplier_914b0cd4e4aa7cba84a3fd47b880fd2a'] = '최소 한 개 이상의 목록 유형을 활성화하세요.';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_f38f5974cdc23279ffe6d203641a8bdf'] = '설정 수정됨.';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_f4f70727dc34561dfde1a3c529b6205c'] = '설정';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_bfdff752293014f11f17122c92909ad5'] = '일반 텍스트 목록 사용';
+$_MODULE['<{blocksupplier}prestashop>blocksupplier_78b2098aa1d513b5e1852b3140c7ee26'] = '일반 텍스트 목록으로 공급사를 표시합니다.';
+$_MODULE['<{blocksupplier}prestashop>blocksupplier_00d23a76e43b46dae9ec7aa9dcbebb32'] = '활성화됨';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_b9f5c797ebbf55adccdd8539a65a0241'] = '비활성화됨';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_2eef734f174a02ae3d7aaafefeeedb42'] = '표시할 요소의 갯수';
 $_MODULE['<{blocksupplier}prestashop>blocksupplier_b0fa976774d2acf72f9c62e9ab73de38'] = '드롭다운 목록 사용';

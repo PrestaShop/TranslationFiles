@@ -4078,6 +4078,7 @@ $_LANGADM['AdminOrdersa85eba4c6c699122b2bb1387ea4813ad'] = 'Kurv';
 $_LANGADM['AdminOrdersc78ba40a94a132dc170cba2f8c66f310'] = 'Søg efter en eksisterende vare ved at indtaste de første bogstaver i betegnelsen.';
 $_LANGADM['AdminOrders7bb36e0f484d91aeba5d83fe2af63d28'] = 'Søg en vare';
 $_LANGADM['AdminOrders694e8d1f2ee056f98ee488bdc4982d73'] = 'Antal';
+$_LANGADM['AdminOrdersfcebe56087b9373f15514831184fa572'] = 'På lager';
 $_LANGADM['AdminOrders2d0f6b8300be19cf35e89e66f0677f95'] = 'Læg i kurv';
 $_LANGADM['AdminOrdersb5a7adde1af5c87d7fd797b6245c2a39'] = 'Beskrivelse';
 $_LANGADM['AdminOrders6c957f72dc8cdacc75762f2cbdcdfaf2'] = 'Pris';

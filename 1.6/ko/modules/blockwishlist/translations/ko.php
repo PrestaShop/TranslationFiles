@@ -27,6 +27,7 @@ $_MODULE['<{blockwishlist}prestashop>blockwishlist_be53a0541a6d36f6ecb879fa2c584
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_47ac923d219501859fb68fed8c8db77b'] = '조합';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_81355310011c137fdd21cf9a1394ed6a'] = '상품 목록';
 $_MODULE['<{blockwishlist}prestashop>buywishlistproduct_607e1d854783c8229998ac2b5b6923d3'] = '잘못된 토큰';
+$_MODULE['<{blockwishlist}prestashop>buywishlistproduct_b0ffc4925401f6f4edb038f5ca954937'] = '로그인해야 합니다';
 $_MODULE['<{blockwishlist}prestashop>cart_607e1d854783c8229998ac2b5b6923d3'] = '잘못된 토큰';
 $_MODULE['<{blockwishlist}prestashop>cart_a9839ad48cf107667f73bad1d651f2ca'] = '검색된 템플릿 없음';
 $_MODULE['<{blockwishlist}prestashop>cart_16a23698e7cf5188ce1c07df74298076'] = '관심상품을 관리하려면 로그인 해야 합니다.';
@@ -80,6 +81,7 @@ $_MODULE['<{blockwishlist}prestashop>managewishlist_655d20c1ca69519ca647684edbb2
 $_MODULE['<{blockwishlist}prestashop>managewishlist_87f8a6ab85c9ced3702b4ea641ad4bb5'] = '중간';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_28d0edd045e05cf5af64e35ae0c4c6ef'] = '낮음';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_6bc362dbf494c61ea117fe3c71ca48a5'] = '이동';
+$_MODULE['<{blockwishlist}prestashop>managewishlist_e68ee0c6758ab5b0eea4e105d694f5c4'] = '%s 로 이동';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_c9cc8cce247e49bae79f15173ce97354'] = '저장';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_ce8ae9da5b7cd6c3df2929543a9af92d'] = '이메일';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_94966d90747b97d1f0f206c98a8b1ac3'] = '전송';
@@ -88,13 +90,18 @@ $_MODULE['<{blockwishlist}prestashop>managewishlist_deb10517653c255364175796ace3
 $_MODULE['<{blockwishlist}prestashop>managewishlist_44749712dbec183e983dcd78a7736c41'] = '날짜';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_09dc02ecbb078868a3a86dded030076d'] = '상품 없음';
 $_MODULE['<{blockwishlist}prestashop>mywishlist_d95cf4ab2cbf1dfb63f066b50558b07d'] = '내 계정';
+$_MODULE['<{blockwishlist}prestashop>mywishlist_7ec9cceb94985909c6994e95c31c1aa8'] = '내 관심상품';
+$_MODULE['<{blockwishlist}prestashop>mywishlist_06c335f27f292a096a9bf39e3a58e97b'] = '새 관심상품';
 $_MODULE['<{blockwishlist}prestashop>mywishlist_49ee3087348e8d44e1feda1917443987'] = '이름';
 $_MODULE['<{blockwishlist}prestashop>mywishlist_c9cc8cce247e49bae79f15173ce97354'] = '저장';
 $_MODULE['<{blockwishlist}prestashop>mywishlist_03ab340b3f99e03cff9e84314ead38c0'] = '수량';
 $_MODULE['<{blockwishlist}prestashop>mywishlist_5e729042e30967c9d6f65c6eab73e2fe'] = '조회';
+$_MODULE['<{blockwishlist}prestashop>mywishlist_0eceeb45861f9585dd7a97a3e36f85c6'] = '생성됨';
+$_MODULE['<{blockwishlist}prestashop>mywishlist_45284ef16392f85ff424b2ef36ab5948'] = '직접 링크';
 $_MODULE['<{blockwishlist}prestashop>mywishlist_7a1920d61156abc05a60135aefe8bc67'] = '기본';
 $_MODULE['<{blockwishlist}prestashop>mywishlist_f2a6c498fb90ee345d997f888fce3b18'] = '삭제';
 $_MODULE['<{blockwishlist}prestashop>mywishlist_4351cfebe4b61d8aa5efa1d020710005'] = '보기';
+$_MODULE['<{blockwishlist}prestashop>mywishlist_d025259319054206be54336a00defe89'] = '이 관심상품을 삭제 하시겠습니까?';
 $_MODULE['<{blockwishlist}prestashop>mywishlist_0b3db27bc15f682e92ff250ebb167d4b'] = '당신 계정으로 돌아가기';
 $_MODULE['<{blockwishlist}prestashop>mywishlist_8cf04a9734132302f96da8e113e80ce5'] = '첫화면';
 $_MODULE['<{blockwishlist}prestashop>view_641254d77e7a473aa5910574f3f9453c'] = '관심상품';
@@ -106,7 +113,9 @@ $_MODULE['<{blockwishlist}prestashop>view_4351cfebe4b61d8aa5efa1d020710005'] = '
 $_MODULE['<{blockwishlist}prestashop>view_2d0f6b8300be19cf35e89e66f0677f95'] = '장바구니에 추가';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist-extra_641254d77e7a473aa5910574f3f9453c'] = '관심상품';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist-extra_33010ef6524c87c41380e2cc5e212f73'] = '%s에 추가';
+$_MODULE['<{blockwishlist}prestashop>managewishlist_521cf5d189bc7b0a56b961f9a1b30d13'] = '관심상품으로 이동';
 $_MODULE['<{blockwishlist}prestashop>view_d95cf4ab2cbf1dfb63f066b50558b07d'] = '내 계정';
+$_MODULE['<{blockwishlist}prestashop>view_7ec9cceb94985909c6994e95c31c1aa8'] = '내 관심상품';
 
 
 return $_MODULE;

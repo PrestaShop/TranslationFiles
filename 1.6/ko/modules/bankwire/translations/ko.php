@@ -39,6 +39,7 @@ $_MODULE['<{bankwire}prestashop>payment_execution_569fd05bdafa1712c4f6be5b153b84
 $_MODULE['<{bankwire}prestashop>infos_c1be305030739396775edaca9813f77d'] = '이 모듈을 사용하면 은행 송금으로 안전하게 지불 할 수 있습니다.';
 $_MODULE['<{bankwire}prestashop>infos_60742d06006fde3043c77e6549d71a99'] = '만약 고객이 은행송금 방법을 선택시 "결제 대기"로 변경됩니다.';
 $_MODULE['<{bankwire}prestashop>infos_5fb4bbf993c23848433caf58e6b2816d'] = '즉, 입금내역을 계좌를 통해 수시로 확인해야 합니다.';
+$_MODULE['<{bankwire}prestashop>payment_return_88526efe38fd18179a127024aba8c1d7'] = '%s 의 주문이 완료되었습니다.';
 $_MODULE['<{bankwire}prestashop>payment_return_1f8cdc30326f1f930b0c87b25fdac965'] = '입금하실 금액과 은행정보는 아래와 같습니다.';
 $_MODULE['<{bankwire}prestashop>payment_return_b2f40690858b404ed10e62bdf422c704'] = '입금하실 금액';
 $_MODULE['<{bankwire}prestashop>payment_return_5ca0b1b910f393ed1f9f6fa99e414255'] = '예금주 이름';
