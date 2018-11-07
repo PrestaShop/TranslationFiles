@@ -18,6 +18,12 @@ File: modules/ps_emailsubscription/ps_emailsubscription.php:1253</note>
         <note>Context:
 File: controllers/admin/AdminCustomersController.php:399</note>
       </trans-unit>
+      <trans-unit id="f6916f4f1a268d4d0014ce47a2dfc3e4" approved="yes">
+        <source>Password should be at least %length% characters long.</source>
+        <target xml:lang="ko" state="translated">비밀번호는 최소 %length% 자여야 합니다.</target>
+        <note>Context:
+File: controllers/admin/AdminCustomersController.php:400</note>
+      </trans-unit>
       <trans-unit id="6010127763b917fdc47eb0c50a86a6f6" approved="yes">
         <source>Enable or disable customer login.</source>
         <target xml:lang="ko" state="translated">고객 로그인을 활성화 또는 비활성화 합니다.</target>
@@ -92,6 +98,12 @@ File: controllers/admin/AdminSlipController.php:117</note>
         <note>Context:
 File: controllers/admin/AdminSlipController.php:125</note>
       </trans-unit>
+      <trans-unit id="0ecbd7a341049250b3da531530e42622" approved="yes">
+        <source>Prefix used for credit slips.</source>
+        <target xml:lang="ko" state="translated">말머리는 신용 전표에 사용됩니다.</target>
+        <note>Context:
+File: controllers/admin/AdminSlipController.php:80</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminInvoicesController.php" source-language="en" target-language="ko" datatype="plaintext">
@@ -132,11 +144,29 @@ File: controllers/admin/AdminInvoicesController.php:90</note>
         <note>Context:
 File: controllers/admin/AdminInvoicesController.php:102</note>
       </trans-unit>
+      <trans-unit id="e3501dec19c50333c49b4d7d66931abc" approved="yes">
+        <source>This text will appear at the bottom of the invoice, below your company details.</source>
+        <target xml:lang="ko" state="translated">이 문구는 회사 상세 아래인, 청구서의 바닥에 표시됩니다.</target>
+        <note>Context:
+File: controllers/admin/AdminInvoicesController.php:108</note>
+      </trans-unit>
+      <trans-unit id="4e00dcdfbf2f4a6156c01fb15ded75c5" approved="yes">
+        <source>Choose an invoice model.</source>
+        <target xml:lang="ko" state="translated">청구서 모델을 선택하세요.</target>
+        <note>Context:
+File: controllers/admin/AdminInvoicesController.php:114</note>
+      </trans-unit>
       <trans-unit id="41d8a2a057a1e1b9663d49896d3162f3" approved="yes">
         <source>Saves memory but slows down the PDF generation.</source>
         <target xml:lang="ko" state="translated">메모리를 절약하지만 PDF 생성이 느려집니다.</target>
         <note>Context:
 File: controllers/admin/AdminInvoicesController.php:121</note>
+      </trans-unit>
+      <trans-unit id="fef8859b22e06e4d4918f091612bf958" approved="yes">
+        <source>You can also export orders which have not been charged yet.</source>
+        <target xml:lang="ko" state="translated">또한 아직 청구되지 않은 주문도 내보내기를 할 수 있습니다.</target>
+        <note>Context:
+File: controllers/admin/AdminInvoicesController.php:193</note>
       </trans-unit>
     </body>
   </file>
@@ -188,12 +218,28 @@ File: controllers/admin/AdminReturnController.php:145</note>
         <note>Context:
 File: admin-dev/themes/default/template/controllers/customers/helpers/required_fields.tpl:33</note>
       </trans-unit>
+      <trans-unit id="a75835a6fe4329ee7884694415c2d46d" approved="yes">
+        <source>Please make sure you are complying with the opt-in legislation applicable in your country.</source>
+        <target xml:lang="ko" state="translated">거주중인 국가에 적용되는 규정 법규를 준수하고 있는지 확인하세요.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/customers/helpers/required_fields.tpl:35</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/customers/helpers/view/view.tpl" source-language="en" target-language="ko" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="fef9632f39b66ba488e163a665bb0e99" approved="yes">
+        <source>This feature generates a random password before sending an email to your customer.</source>
+        <target xml:lang="ko" state="translated">이 기능은 고객에게 이메일을 전송하기 전에 임의의 비밀번호를 생성합니다.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/customers/helpers/view/view.tpl:172</note>
+      </trans-unit>
+      <trans-unit id="566d26ec62e9c51270b7243440227dbb" approved="yes">
+        <source>This note will be displayed to all employees but not to customers.</source>
+        <target xml:lang="ko" state="translated">이 참고사항은 모든 직원들에게 표시되지만 고객은 제외됩니다.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/customers/helpers/view/view.tpl:364</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/customer_threads/helpers/view/modal.tpl" source-language="en" target-language="ko" datatype="plaintext">
@@ -224,7 +270,12 @@ File: admin-dev/themes/default/template/controllers/return/helpers/form/form.tpl
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/_discount_form.tpl" source-language="en" target-language="ko" datatype="plaintext">
     <body>
-      
+      <trans-unit id="576e650084068ed747fb3b22196dcd70" approved="yes">
+        <source>If you chooses to create this discount for all invoices, only one discount will be created per order invoice.</source>
+        <target xml:lang="ko" state="translated">모든 배송장에 이 할인을 생성하기를 선택했다면, 주문 배송장 당 하나의 단지 하나의 할인이 생성됩니다.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/_discount_form.tpl:92</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/_new_product.tpl" source-language="en" target-language="ko" datatype="plaintext">
@@ -249,16 +300,46 @@ File: admin-dev/themes/default/template/controllers/orders/_product_line.tpl:191
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl" source-language="en" target-language="ko" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="f741fe9d353085c596e3c3610101e245" approved="yes">
+        <source>Resend this email to the customer</source>
+        <target xml:lang="ko" state="translated">고객에게 이 이메일을 재전송</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:229</note>
+      </trans-unit>
+      <trans-unit id="f9a5775d7def0b6c57393fc86bb7a730" approved="yes">
+        <source>Do not forget to update your exchange rate before making this change.</source>
+        <target xml:lang="ko" state="translated">이 변경사항이 있기 전에 환율을 갱신하는 것을 잊지 마세요.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:561</note>
+      </trans-unit>
+      <trans-unit id="883370e6a8360f9ffe2e658db153fd74" approved="yes">
+        <source>This feature will generate a random password and send an email to the customer.</source>
+        <target xml:lang="ko" state="translated">이 기능은 임의의 비밀번호를 생성하여 고객에게 이메일을 전송합니다.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl:599</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/form.tpl" source-language="en" target-language="ko" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="28a996f23ec7c4f6cf75da6bf30670bd" approved="yes">
+        <source>Search for an existing customer by typing the first letters of his/her name.</source>
+        <target xml:lang="ko" state="translated">이름의 첫 글자를 입력하여 기존 고객을 검색하세요.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/form.tpl:1107</note>
+      </trans-unit>
+      <trans-unit id="73af90a8372beea9f81a3c3ca77a4aa8" approved="yes">
+        <source>Send an email to the customer with the link to process the payment.</source>
+        <target xml:lang="ko" state="translated">고객에게 결제를 진행할 링크를 이메일로 전송합니다.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/form.tpl:1536</note>
+      </trans-unit>
+      <trans-unit id="9f38710d8e9ee2338dafa9ae484b0d85" approved="yes">
+        <source>Go on payment page to process the payment.</source>
+        <target xml:lang="ko" state="translated">결제 페이지로 이동하여 결제를 진행하세요.</target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/orders/form.tpl:1539</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
