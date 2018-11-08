@@ -32,12 +32,15 @@ $_MODULE['<{referralprogram}prestashop>program_12c500ed0b7879105fb46af0f246be87'
 $_MODULE['<{referralprogram}prestashop>program_70a17ffa722a3985b86d30b034ad06d7'] = 'طلب شراء';
 $_MODULE['<{referralprogram}prestashop>program_3e717a04ff77cd5fa068d8ad9d3facc8'] = 'آخر دعوة';
 $_MODULE['<{referralprogram}prestashop>program_9c9d4ed270f02c72124702edb192ff19'] = 'ذكّر أصدقائي';
+$_MODULE['<{referralprogram}prestashop>program_3c648ba41cfb45f13b083a9cbbacdfdf'] = 'تاريخ التسجيل';
 $_MODULE['<{referralprogram}prestashop>program_0b3db27bc15f682e92ff250ebb167d4b'] = 'العودة إلى الحساب الخاص بك';
 $_MODULE['<{referralprogram}prestashop>program_8cf04a9734132302f96da8e113e80ce5'] = 'الصفحة الرئيسية';
 $_MODULE['<{referralprogram}prestashop>program_d3d2e617335f08df83599665eef8a418'] = 'إغلاق';
 $_MODULE['<{referralprogram}prestashop>program_7a81aa9275331bb0f5e6adb5e8650a03'] = 'أو زر هروب Esc';
+$_MODULE['<{referralprogram}prestashop>rules_01705c0177ebf5fbcbf4e882bc454405'] = 'قواعد برنامج الإحالة';
 $_MODULE['<{referralprogram}prestashop>authentication_6b31baf25848e7a6563ecc3946626c80'] = 'برنامج الإحالة';
 $_MODULE['<{referralprogram}prestashop>my-account_6b31baf25848e7a6563ecc3946626c80'] = 'برنامج الإحالة';
+$_MODULE['<{referralprogram}prestashop>order-confirmation_f2ef523efa8d23f8afc29e195592fc58'] = 'بفضل الطلبية التي قمت بها، سيحصل الشخص %1$s%2$s الذي أحالك على قسيمة تخفيض بقيمة %3$d عندما يتم تأكيد هذه الطلبية.';
 $_MODULE['<{referralprogram}prestashop>shopping-cart_6b31baf25848e7a6563ecc3946626c80'] = 'برنامج الإحالة';
 
 
