@@ -3,6 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{blockreinsurance}prestashop>blockreinsurance_873330fc1881555fffe2bc471d04bf5d'] = '고객 보증 블럭';
 $_MODULE['<{blockreinsurance}prestashop>blockreinsurance_7e7f70db3c75e428db8e2d0a1765c4e9'] = '당신의 상점이 신뢰할 수 있음을 고객에게 보증하기 위한 유용한 정보를 제공할 정보 블럭을 추가합니다.';
 $_MODULE['<{blockreinsurance}prestashop>blockreinsurance_d52eaeff31af37a4a7e0550008aff5df'] = '저장하는 동안 오류가 발생했습니다.';
 $_MODULE['<{blockreinsurance}prestashop>blockreinsurance_0366c7b2ea1bb228cd44aec7e3e26a3e'] = '블럭 구성이 수정되었습니다.';
@@ -14,6 +15,8 @@ $_MODULE['<{blockreinsurance}prestashop>blockreinsurance_630f6dc397fe74e52d5189e
 $_MODULE['<{blockreinsurance}prestashop>blockreinsurance_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
 $_MODULE['<{blockreinsurance}prestashop>blockreinsurance_23498d91b6017e5d7f4ddde70daba286'] = 'ID 상점';
 $_MODULE['<{blockreinsurance}prestashop>blockreinsurance_ef61fb324d729c341ea8ab9901e23566'] = '새로 추가';
+$_MODULE['<{blockreinsurance}prestashop>blockreinsurance_f3295a93167b56c5a19030e91823f7bf'] = '환불 보증.';
+$_MODULE['<{blockreinsurance}prestashop>blockreinsurance_56e140ebd6f399c22c8859a694b247f3'] = '매장 내 교환.';
 $_MODULE['<{blockreinsurance}prestashop>blockreinsurance_597ce11744f9bbf116ec9e4a719ec9d3'] = '배송 시 결제.';
 $_MODULE['<{blockreinsurance}prestashop>blockreinsurance_3aca7ac5cf7e462b658960931946f824'] = '무료 배송.';
 $_MODULE['<{blockreinsurance}prestashop>blockreinsurance_d05244e0e410a6b85ed53a014908c657'] = '100% 안전한 결제 처리.';

@@ -3,6 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 
+$_MODULE['<{blocksocial}prestashop>blocksocial_3c3fcc2aa9705117ce4b589ed5a72853'] = '소셜 네트워킹 블럭';
 $_MODULE['<{blocksocial}prestashop>blocksocial_094d3ac865853e0be9ba42e80f0f7ee7'] = '상표의 소셜 네트워킹 계정에 대한 정보를 추가 할 수 있습니다.';
 $_MODULE['<{blocksocial}prestashop>blocksocial_f4f70727dc34561dfde1a3c529b6205c'] = '설정';
 $_MODULE['<{blocksocial}prestashop>blocksocial_76f8961bb8f4bb2b95c07650f30a7e7b'] = '페이스북 URL';

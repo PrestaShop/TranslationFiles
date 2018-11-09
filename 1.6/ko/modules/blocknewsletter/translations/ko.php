@@ -14,12 +14,15 @@ $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_99006a61d48499231e1be9224
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_7e3a51a56ddd2846e21c33f05e0aea6f'] = '모든 고객';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_39f7a3e2b56e9bfd753ba6325533a127'] = '구독자';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_011d8c5d94f729f013963d856cd78745'] = '비-구독자';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_793ee192a9124cd6f529460eef17d3e5'] = '가입된 구독자';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_7b15c043d66fecc45c8752592aa38e38'] = '가입된 구독자 필터';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_417d63b1effb110e438d4b4b9f0fbd95'] = '할인쿠폰 코드가 유효하지 않습니다.';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_c888438d14855d7d96a2724ee9c306bd'] = '설정 수정';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_9f82518d468b9fee614fcc92f76bb163'] = '상점';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_019ec3132cdf8ee0f2e2a75cf5d3e459'] = '성별';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_dff4bf10409100d989495c6d5486035e'] = '성';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_04176f095283bc729f1e3926967e7034'] = '이름';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_ce8ae9da5b7cd6c3df2929543a9af92d'] = '이메일';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_808c7457c768423c5651cbf676d9f6d7'] = '구독함';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_ec59738d441f28011a81e62bdcea6200'] = '구독 중';
@@ -53,6 +56,8 @@ $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_a307579714b75082f3f873497
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_d0da5609e4aebc5d532de97511a5a34a'] = '계정이 없는 구독자들';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_6395c19dc5a1cef9ca125b9736358dc7'] = '가입된 구독자';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_498bed86a7c58dcf1125dd21f40a6482'] = '파트너 제안 수신 동의 여부로 고객을 필터링합니다.';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_e72237358bd145d6dba764c39e53bba5'] = '가입한 구독자들은 제휴사 추천 수신에 동의했습니다.';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_85d02b888be056b290282ab2021341dc'] = '가입된 비-구독자';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_dbb392a2dc9b38722e69f6032faea73e'] = 'CSV 파일로 내보내기';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_f6df4ad6dc4798f26d1f2460eef4f2e9'] = '주소로 검색';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_375afa60efcc1d48300bd339cb8154b0'] = '검색할 이메일 주소';
@@ -68,7 +73,9 @@ $_MODULE['<{blocknewsletter}prestashop>list_action_enable_00d23a76e43b46dae9ec7a
 $_MODULE['<{blocknewsletter}prestashop>list_action_enable_b9f5c797ebbf55adccdd8539a65a0241'] = '비활성화됨';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_ffb7e666a70151215b4c55c6268d7d72'] = '소식지';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_416f61a2ce16586f8289d41117a2554e'] = '당신의 이메일';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_d8335f4a5d918134bd0bdc47cc487d74'] = '이메일을 입력하세요';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_a60852f204ed8028c1c58808b746d115'] = '확인';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_590b7aefc83952e3483c5168bf93e19f'] = '소식지 : %1$s';
 
 
 return $_MODULE;

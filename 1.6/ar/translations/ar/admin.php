@@ -1943,7 +1943,7 @@ $_LANGADM['AdminTranslations5520db26e080f84603a0efb5d937e027'] = 'ترجمة ق�
 $_LANGADM['AdminTranslations9c680defe5574c8355ed9be5a3fede04'] = '30 يوما';
 $_LANGADM['AdminTranslations6e4fd86b4ea240672daa3c2fe1118fe0'] = 'توسيع كافة fieldsets';
 $_LANGADM['AdminTranslationse1686cbdbfefdc838c58469866922b6c'] = 'إغلاق كافة fieldsets';
-$_LANGADM['AdminTranslations8d3f73d1c4f2384de35da04cc6a7a919'] = 'هناك خطأ في القالب، تم العثور على سلسلة فارغة. الرجاء التعديل: "%s"';
+$_LANGADM['AdminTranslations8d3f73d1c4f2384de35da04cc6a7a919'] = 'هناك خطأ في النموذج، تم العثور على سلسلة فارغة. الرجاء التعديل: "%s"';
 $_LANGADM['AdminTranslations1126cc7046d573e5fd9f631ec792770f'] = 'لم يتم العثور على أي عنوان %s في قاعدة البيانات.';
 $_LANGADM['AdminTranslationsa662aa2e6538df75742383c7db8f3bd5'] = 'هناك مشكلة في الحصول على ملفات البريد.';
 $_LANGADM['AdminTranslationsd43522f215ed8be730a542c8e1fdcff1'] = 'جوهر رسائل البريد الإلكتروني';
