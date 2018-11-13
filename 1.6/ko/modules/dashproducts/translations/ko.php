@@ -37,7 +37,7 @@ $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_f1206f9fadc5ce41694f69129
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_63a6a88c066880c5ac42394a22803ca6'] = '새로고침';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_254f642527b45bc260048e30704edb39'] = '설정';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_fd3458547ef9c3a8bd0e1e1b4ef2b4dd'] = '최근 주문';
-$_MODULE['<{dashproducts}prestashop>dashboard_zone_two_d7b2933ba512ada478c97fa43dd7ebe6'] = '최고 판매자';
+$_MODULE['<{dashproducts}prestashop>dashboard_zone_two_d7b2933ba512ada478c97fa43dd7ebe6'] = '베스트셀러';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_be5006eb5af9ab6dbca803f8d3065bbc'] = '최다 조회';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_1eb5e5713d7363e921dd7f5500b6d212'] = '인기 검색어';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_3d23ac9ab254a9f1014c3a859b01bcfc'] = '최근 %d 주문';

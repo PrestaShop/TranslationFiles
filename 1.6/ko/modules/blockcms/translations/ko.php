@@ -53,7 +53,7 @@ $_MODULE['<{blockcms}prestashop>blockcms_c28716416d2fd75a37b4496586755853'] = 'C
 $_MODULE['<{blockcms}prestashop>blockcms_34c869c542dee932ef8cd96d2f91cae6'] = '우리 상점들';
 $_MODULE['<{blockcms}prestashop>blockcms_d1aa22a3126f04664e0fe3f598994014'] = '특가상품';
 $_MODULE['<{blockcms}prestashop>blockcms_9ff0635f5737513b1a6f559ac2bff745'] = '신상품';
-$_MODULE['<{blockcms}prestashop>blockcms_01f7ac959c1e6ebbb2e0ee706a7a5255'] = '최고 판매자';
+$_MODULE['<{blockcms}prestashop>blockcms_01f7ac959c1e6ebbb2e0ee706a7a5255'] = '베스트셀러';
 $_MODULE['<{blockcms}prestashop>blockcms_02d4482d332e1aef3437cd61c9bcc624'] = '문의하기';
 $_MODULE['<{blockcms}prestashop>blockcms_5813ce0ec7196c492c97596718f71969'] = '사이트맵';
 $_MODULE['<{blockcms}prestashop>form_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
@@ -62,6 +62,7 @@ $_MODULE['<{blockcms}prestashop>form_52f5e0bc3859bc5f5e25130b6c7e8881'] = '위�
 $_MODULE['<{blockcms}prestashop>form_7dce122004969d56ae2e0245cb754d35'] = '수정';
 $_MODULE['<{blockcms}prestashop>form_f2a6c498fb90ee345d997f888fce3b18'] = '삭제';
 $_MODULE['<{blockcms}prestashop>form_49ee3087348e8d44e1feda1917443987'] = '이름';
+$_MODULE['<{blockcms}prestashop>blockcms_3cb29f0ccc5fd220a97df89dafe46290'] = '상위 판매자들';
 
 
 return $_MODULE;
