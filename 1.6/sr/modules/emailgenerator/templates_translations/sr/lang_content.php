@@ -163,9 +163,9 @@ $_LANGMAIL['{product} is nearly out of stock.'] = '{product} je skoro rasprodat.
 $_LANGMAIL['The remaining stock is now less than the specified minimum of'] = 'Preostale zalihe su manje od predviđenog minimuma od';
 $_LANGMAIL['Remaining stock:'] = 'Preostalo zalihe:';
 $_LANGMAIL['You are advised to open the product&#039;s admin Product Page in order to replenish your inventory.'] = 'Savetujemo vam da otvorite administratorsku stranicu proizvoda kako bi ste napunili vaš invertar.';
-$_LANGMAIL['You have received a new return request for {shop_name}.'] = '';
-$_LANGMAIL['Return details'] = '';
-$_LANGMAIL['{order_name} Placed on {date}'] = '';
+$_LANGMAIL['You have received a new return request for {shop_name}.'] = 'Primili ste novi zahtev za povraćaj od {shop_name}.';
+$_LANGMAIL['Return details'] = 'Detalji povraćaja';
+$_LANGMAIL['{order_name} Placed on {date}'] = '{order_name} kreirana {date}';
 $_LANGMAIL['Your referred friend <span><strong>{sponsored_firstname} {sponsored_lastname}</strong></span> has placed his or her first order on <a href="{shop_url}">{shop_name}</a>!'] = 'Preporučili ste prijatelju <span><strong>{sponsored_firstname}{sponsored_lastname}</strong></span> da postavi svoju prvu porudžbinu na <a href="{shop_url}">{shop_name}</a>!';
 $_LANGMAIL['We are pleased to offer you a voucher worth <span><strong>{discount_display} (voucher # {discount_name})</strong></span> that you can use on your next order.'] = 'Zadovoljstvo nam je da ti ponudimo vaučer vredan <span><strong>{discount_display} (vaučer broj # {discount_name})</strong></span> koji možeš iskoristiti u sledećoj narudžbini.';
 $_LANGMAIL['Best regards,'] = 'Srdačan pozdrav,';
@@ -181,8 +181,8 @@ $_LANGMAIL[', with an amount of'] = ', sa sumom od';
 $_LANGMAIL['Hi {name},'] = 'Zdravo {name},';
 $_LANGMAIL['{customer} has sent you a link to a product that (s)he thinks may interest you.'] = '{customer} vam je poslao link proizvoda za koji misli da bi vas zanimao.';
 $_LANGMAIL['Click here to view this item:'] = 'Kliknite ovde za pregled stavke:';
-$_LANGMAIL['Order edited'] = '';
-$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = '';
+$_LANGMAIL['Order edited'] = 'Porudžbina izmenjena';
+$_LANGMAIL['Your order with the reference <span><strong>{order_name}</strong></span> has been modified.'] = 'Vaša porudžbina sa referencom <span><strong>{order_name}</strong></span> je izmenjena.';
 
 
 return $_LANGMAIL;

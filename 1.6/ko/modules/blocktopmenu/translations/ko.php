@@ -5,7 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e5b7525b4214a759876af4448bd6b87d'] = '상단 가로 메뉴';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_f7979d86fe0b2cd11f44747ed4ff1100'] = '당신의 전자 상거래 웹사이트 상단에 새 수평 메뉴를 추가합니다.';
-$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_efc226b17e0532afff43be870bff0de7'] = '설정이 수정되었습니다.';
+$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_efc226b17e0532afff43be870bff0de7'] = '설정이 갱신되었습니다.';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_d9a776c185f73d018b2915f4d5e7cc05'] = '다음 상점(들) 의 설정 수정을 할 수 없습니다: %s';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_f32880ae5183a02c0a743bfd37a42cbc'] = '"링크" 항목을 채워주세요.';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_cf8d684bd5f89d30da67c95363a48ab9'] = '라벨을 추가하세요.';
