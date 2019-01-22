@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="modules/autoupgrade/autoupgrade.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="bf544d00f0406f90f6e658a2571f5e9c" approved="yes">
+        <source>This version of PrestaShop cannot be upgraded: the PS_ADMIN_DIR constant is missing.</source>
+        <target xml:lang="gl" state="translated">Non se pode actualizar esta versión de PrestaShop: falta a constante PS_ADMIN_DIR.</target>
+        <note>Context:
+File: modules/autoupgrade/autoupgrade.php:46</note>
+      </trans-unit>
+      <trans-unit id="786cc166a84595ae291b2d8b26d93bb3" approved="yes">
+        <source>1-Click Upgrade</source>
+        <target xml:lang="gl" state="translated">Actualización nun Clic</target>
+        <note>Context:
+File: modules/autoupgrade/autoupgrade.php:50</note>
+      </trans-unit>
+      <trans-unit id="990a862982b19c0c1266a4cf6afbdd96" approved="yes">
+        <source>Provides an automated method to upgrade your shop to the latest version of PrestaShop.</source>
+        <target xml:lang="gl" state="translated">Proporciona un método automático para actualiza-la túa tenda á última versión de PrestaShop.</target>
+        <note>Context:
+File: modules/autoupgrade/autoupgrade.php:51</note>
+      </trans-unit>
+      <trans-unit id="12de3725023e3c02c25c7898f524b25d" approved="yes">
+        <source>Unable to copy logo.gif in %s</source>
+        <target xml:lang="gl" state="translated">Non se pode copiar logo.gif en %s</target>
+        <note>Context:
+File: modules/autoupgrade/autoupgrade.php:88</note>
+      </trans-unit>
+      <trans-unit id="21dc065f2d8653ebca37ec552d17b37e" approved="yes">
+        <source>Unable to create the directory "%s"</source>
+        <target xml:lang="gl" state="translated">Non se puido crea-lo directorio "%s"</target>
+        <note>Context:
+File: modules/autoupgrade/autoupgrade.php:134</note>
+      </trans-unit>
+      <trans-unit id="10c008d228c9f35d12ce0437aa3eade9" approved="yes">
+        <source>Unable to copy ajax-upgradetab.php in %s</source>
+        <target xml:lang="gl" state="translated">Non se pode copiar ajax-upgradetab.php en %s</target>
+        <note>Context:
+File: modules/autoupgrade/autoupgrade.php:119</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/autoupgrade/classes/Workspace.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="6215d33db0d099fcaae168dd4715135a" approved="yes">
+        <source>Unable to write in the directory "%s"</source>
+        <target xml:lang="gl" state="translated">Non se pode escribir no directorio "%s"</target>
+        <note>Context:
+File: modules/autoupgrade/classes/Workspace.php:63</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/autoupgrade/AdminSelfUpgrade.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="bb7748991e29366d42f8fa2c361f4d55" approved="yes">
+        <source>Back up my files and database</source>
+        <target xml:lang="gl" state="translated">Facer unha copia de seguridade dos meus ficheiros e base de datos</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:149</note>
+      </trans-unit>
+      <trans-unit id="e53b4fd73748419564a1742f66ba631f" approved="yes">
+        <source>Automatically back up your database and files in order to restore your shop if needed. This is experimental: you should still perform your own manual backup for safety.</source>
+        <target xml:lang="gl" state="translated">Facer unha copia de seguridade da túa base de datos automaticamente para restaurar a túa tenda se é preciso. Isto é experimental: deberías continuar facendo a túa propia copia de seguridade de maneira manual para maior seguridade.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:150</note>
+      </trans-unit>
+      <trans-unit id="d5342bfd5b032cd75faeebdf2a918a79" approved="yes">
+        <source>Back up my images</source>
+        <target xml:lang="gl" state="translated">Facer unha copia de seguridade das miñas imaxes</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:153</note>
+      </trans-unit>
+      <trans-unit id="9a2cad898ee3d0ea4573946becdec9cf" approved="yes">
+        <source>To save time, you can decide not to back your images up. In any case, always make sure you did back them up manually.</source>
+        <target xml:lang="gl" state="translated">Para aforrar tempo, podes decidir non facer unha copia de seguridade das túas imaxes. De tódolos xeitos, asegúrate sempre de que fixeches unha copia de seguridade de maneira manual.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:154</note>
+      </trans-unit>
+      <trans-unit id="5243e62512552a2cd6369e446bbf10f4" approved="yes">
+        <source>Server performance</source>
+        <target xml:lang="gl" state="translated">Rendemento do servidor</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:159</note>
+      </trans-unit>
+      <trans-unit id="a94e6f7e27ad55c963170658ee6a9e28" approved="yes">
+        <source>Unless you are using a dedicated server, select "Low".</source>
+        <target xml:lang="gl" state="translated">Se non estás a utilizar un servidor dedicado, selecciona "Baixo".</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:160</note>
+      </trans-unit>
+      <trans-unit id="9e435ab00f5e0606f46337fdc73164ff" approved="yes">
+        <source>A high value can cause the upgrade to fail if your server is not powerful enough to process the upgrade tasks in a short amount of time.</source>
+        <target xml:lang="gl" state="translated">Un valor alto pode provocar que falle a actualización se o teu servidor non é suficientemente potente para procesa-las tarefas de actualización nun curto espazo de tempo.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:161</note>
+      </trans-unit>
+      <trans-unit id="73ae0e1bfd470f9e26dac64d270cda9d" approved="yes">
+        <source>Low (recommended)</source>
+        <target xml:lang="gl" state="translated">Baixo (recomendado)</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:162</note>
+      </trans-unit>
+      <trans-unit id="87f8a6ab85c9ced3702b4ea641ad4bb5" approved="yes">
+        <source>Medium</source>
+        <target xml:lang="gl" state="translated">Medio</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:162</note>
+      </trans-unit>
+      <trans-unit id="655d20c1ca69519ca647684edbb2db35" approved="yes">
+        <source>High</source>
+        <target xml:lang="gl" state="translated">Alto</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:162</note>
+      </trans-unit>
+      <trans-unit id="26f07ad840fb1c17d29f5be0f428f015" approved="yes">
+        <source>Disable non-native modules</source>
+        <target xml:lang="gl" state="translated">Desactiva-los módulos non nativos</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:165</note>
+      </trans-unit>
+      <trans-unit id="70c06c37194d755dd9aef11cf0469981" approved="yes">
+        <source>As non-native modules can experience some compatibility issues, we recommend to disable them by default.</source>
+        <target xml:lang="gl" state="translated">Debido a que módulos non nativos poden experimentar algunhas incidencias de compatibilidade, recomendamos desactivalos de forma predeterminada.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:166</note>
+      </trans-unit>
+      <trans-unit id="469ab377c49ea68b2ecdfe76d628a53b" approved="yes">
+        <source>Keeping them enabled might prevent you from loading the "Modules" page properly after the upgrade.</source>
+        <target xml:lang="gl" state="translated">Mantelos activados pode impedirche carga-la páxina "Módulos" correctamente trala actualización.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:167</note>
+      </trans-unit>
+      <trans-unit id="fa2508196ef3391139d01d8d38b2c1bb" approved="yes">
+        <source>Upgrade the default theme</source>
+        <target xml:lang="gl" state="translated">Actualizar o tema predeterminado</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:170</note>
+      </trans-unit>
+      <trans-unit id="97a989a73b46233ae4330fb7682a70a2" approved="yes">
+        <source>If you are using your own theme, enabling this option will simply update the default theme files, and your own theme will be safe.</source>
+        <target xml:lang="gl" state="translated">Se estás a empregar un tema de teu, activar esta opción simplemente actualizará os ficheiros do tema predeterminado, e o teu tema permanecerá a salvo.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:172</note>
+      </trans-unit>
+      <trans-unit id="92991497ed914de6bb7795b701b4c6e4" approved="yes">
+        <source>Switch to the default theme</source>
+        <target xml:lang="gl" state="translated">Cambiar ao tema predeterminado</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:175</note>
+      </trans-unit>
+      <trans-unit id="c7ae0af8d5653beb68b344415aca135d" approved="yes">
+        <source>This will change your theme: your shop will then use the default theme of the version of PrestaShop you are upgrading to.</source>
+        <target xml:lang="gl" state="translated">Isto mudará o teu tema: a túa tenda empregará entón o tema predeterminado da versión de PrestaShop á que estás actualizando.</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:176</note>
+      </trans-unit>
+      <trans-unit id="56195ded2802813800f43e3be1babe1c" approved="yes">
+        <source>Error when trying to delete backups %s</source>
+        <target xml:lang="gl" state="translated">Erro ao tentar elimina-las copias de seguridade %s</target>
+        <note>Context:
+File: modules/autoupgrade/AdminSelfUpgrade.php:330</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/autoupgrade/classes/Twig/Form/BackupOptionsForm.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="017697f698d570dffed5f88a5a933d01" approved="yes">
+        <source>Backup Options</source>
+        <target xml:lang="gl" state="translated">Opcións da Copia de Seguridade</target>
+        <note>Context:
+File: modules/autoupgrade/classes/Twig/Form/BackupOptionsForm.php:98</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/autoupgrade/classes/Twig/Form/UpgradeOptionsForm.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="564b7c9d8683f1a94798e9f7449564e4" approved="yes">
+        <source>Upgrade Options</source>
+        <target xml:lang="gl" state="translated">Opcións de Actualización</target>
+        <note>Context:
+File: modules/autoupgrade/classes/Twig/Form/UpgradeOptionsForm.php:179</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/autoupgrade/classes/Twig/Block/UpgradeButtonBlock.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="628decaabab912af39cfda7aaf47b059" approved="yes">
+        <source>Major release</source>
+        <target xml:lang="gl" state="translated">Versión principal</target>
+        <note>Context:
+File: modules/autoupgrade/classes/Twig/Block/UpgradeButtonBlock.php:196
+ Comment: Hey ! I'm really using a fieldset element to regroup fields ?! !</note>
+      </trans-unit>
+      <trans-unit id="43899376e3f4d4cb70dad59c81a4b957" approved="yes">
+        <source>Minor release (recommended)</source>
+        <target xml:lang="gl" state="translated">Versión secundaria (recomendada)</target>
+        <note>Context:
+File: modules/autoupgrade/classes/Twig/Block/UpgradeButtonBlock.php:197</note>
+      </trans-unit>
+      <trans-unit id="3da4e7a86631518f47d8cedf7f09a5ed" approved="yes">
+        <source>Beta releases</source>
+        <target xml:lang="gl" state="translated">Versións beta</target>
+        <note>Context:
+File: modules/autoupgrade/classes/Twig/Block/UpgradeButtonBlock.php:199</note>
+      </trans-unit>
+      <trans-unit id="0c960ac8fc33e1516a568248519b4d03" approved="yes">
+        <source>Alpha releases</source>
+        <target xml:lang="gl" state="translated">Versións alfa</target>
+        <note>Context:
+File: modules/autoupgrade/classes/Twig/Block/UpgradeButtonBlock.php:200</note>
+      </trans-unit>
+      <trans-unit id="15e90667b50b56b1f8a01bdb1190f3dc" approved="yes">
+        <source>Local archive</source>
+        <target xml:lang="gl" state="translated">Arquivo local</target>
+        <note>Context:
+File: modules/autoupgrade/classes/Twig/Block/UpgradeButtonBlock.php:202</note>
+      </trans-unit>
+      <trans-unit id="17897209dd708b862fe417f6d429a8da" approved="yes">
+        <source>Local directory</source>
+        <target xml:lang="gl" state="translated">Directorio local</target>
+        <note>Context:
+File: modules/autoupgrade/classes/Twig/Block/UpgradeButtonBlock.php:203</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/autoupgrade/classes/UpgradeTools/Translation.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="c76662717bc0a1c0a601534af98f537b" approved="yes">
+        <source>[NOTICE] File %s does not exist, merge skipped.</source>
+        <target xml:lang="gl" state="translated">[NOTICE] O ficheiro %s non existe, unión evitada.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/UpgradeTools/Translation.php:143</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/autoupgrade/classes/UpgradeTools/CoreUpgrader/CoreUpgrader17.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      
+      
+    </body>
+  </file>
+  <file original="modules/autoupgrade/classes/UpgradeTools/CoreUpgrader/CoreUpgrader.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="b3884f9e8ed49a8d7165787d3adec342" approved="yes">
+        <source>Invalid database configuration</source>
+        <target xml:lang="gl" state="translated">Configuración da base de datos non válida</target>
+        <note>Context:
+File: modules/autoupgrade/classes/UpgradeTools/CoreUpgrader/CoreUpgrader.php:74</note>
+      </trans-unit>
+      <trans-unit id="257f5523f283710c6859d8f425a0c657" approved="yes">
+        <source>Database upgrade OK</source>
+        <target xml:lang="gl" state="translated">Base de datos actualizada correctamente</target>
+        <note>Context:
+File: modules/autoupgrade/classes/UpgradeTools/CoreUpgrader/CoreUpgrader.php:87</note>
+      </trans-unit>
+      <trans-unit id="9c7e0ba2c6ecb11af7f39843bbc18ff8" approved="yes">
+        <source>Warning detected during upgrade.</source>
+        <target xml:lang="gl" state="translated">Detectada unha advertencia durante a actualización.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/UpgradeTools/CoreUpgrader/CoreUpgrader.php:104</note>
+      </trans-unit>
+      <trans-unit id="c4615fc8cb7877b074cbe9813cd742b1" approved="yes">
+        <source>Database upgrade completed</source>
+        <target xml:lang="gl" state="translated">Actualización da base de datos completada</target>
+        <note>Context:
+File: modules/autoupgrade/classes/UpgradeTools/CoreUpgrader/CoreUpgrader.php:106</note>
+      </trans-unit>
+      <trans-unit id="bf3abb5f80807c7453c246193372e1ae" approved="yes">
+        <source>%s is not a valid version number.</source>
+        <target xml:lang="gl" state="translated">%s non é un número de versión válido.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/UpgradeTools/CoreUpgrader/CoreUpgrader.php:224</note>
+      </trans-unit>
+      <trans-unit id="f8498f0014f0b834b635ad879ae1b3fd" approved="yes">
+        <source>[ERROR] Version to install is too old.</source>
+        <target xml:lang="gl" state="translated">[ERROR] A versión que se quere instalar é demasiado antiga.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/UpgradeTools/CoreUpgrader/CoreUpgrader.php:231</note>
+      </trans-unit>
+      <trans-unit id="37ce0f29c7377c827e7247fe5645a782" approved="yes">
+        <source>You already have the %s version.</source>
+        <target xml:lang="gl" state="translated">Xa tes a versión %s.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/UpgradeTools/CoreUpgrader/CoreUpgrader.php:242</note>
+      </trans-unit>
+      <trans-unit id="f25792b5b08a78dd01810297d219c10c" approved="yes">
+        <source>Unable to find upgrade directory in the installation path.</source>
+        <target xml:lang="gl" state="translated">Non é posible atopar o directorio de actualización na ruta de instalación.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/UpgradeTools/CoreUpgrader/CoreUpgrader.php:272</note>
+      </trans-unit>
+      <trans-unit id="f8b97ae2c4f8cc2a9dc74ca3d4306ce3" approved="yes">
+        <source>Error while loading SQL upgrade file "%s.sql".</source>
+        <target xml:lang="gl" state="translated">Produciuse un erro ao carga-lo ficheiro de actualización SQL "%s.sql".</target>
+        <note>Context:
+File: modules/autoupgrade/classes/UpgradeTools/CoreUpgrader/CoreUpgrader.php:282</note>
+      </trans-unit>
+      <trans-unit id="8abd985d095a1282f6f01b98c121b41b" approved="yes">
+        <source>Cannot find the SQL upgrade files. Please check that the %s folder is not empty.</source>
+        <target xml:lang="gl" state="translated">Non se puideron atopar os ficheiros de actualización SQL. Comprobe que o cartafol %s non estea baleiro.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/UpgradeTools/CoreUpgrader/CoreUpgrader.php:289</note>
+      </trans-unit>
+      <trans-unit id="7e6f1194307c585ca2e97f81c3db4bb3" approved="yes">
+        <source>[DROP] SQL %s table has been dropped.</source>
+        <target xml:lang="gl" state="translated">[DROP] Eliminouse a táboa SQL %s.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/UpgradeTools/CoreUpgrader/CoreUpgrader.php:401</note>
+      </trans-unit>
+      <trans-unit id="9dcf84f429818d396d05335d52ef5f42" approved="yes">
+        <source>[SKIP] directory "%s" does not exist and cannot be emptied.</source>
+        <target xml:lang="gl" state="translated">[SKIP] o directorio "%s" non existe e non pode baleirarse.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/UpgradeTools/CoreUpgrader/CoreUpgrader.php:466</note>
+      </trans-unit>
+      <trans-unit id="4cb8d96f333a2339fe544b96ee2740de" approved="yes">
+        <source>[CLEANING CACHE] File %s removed</source>
+        <target xml:lang="gl" state="translated">[CLEANING CACHE] Eliminouse o ficheiro %s</target>
+        <note>Context:
+File: modules/autoupgrade/classes/UpgradeTools/CoreUpgrader/CoreUpgrader.php:479</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/autoupgrade/classes/UpgradeTools/CoreUpgrader/CoreUpgrader16.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="3b8f044559a7568ea572776caf1d6526" approved="yes">
+        <source>The config/settings.inc.php file was not found.</source>
+        <target xml:lang="gl" state="translated">No se atopou o ficheiro config/settings.inc.php.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/UpgradeTools/CoreUpgrader/CoreUpgrader16.php:88</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/autoupgrade/classes/UpgradeTools/ModuleAdapter.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="36d56d20b3894281531cd4108e2c4cec" approved="yes">
+        <source>[ERROR] No response from Addons server.</source>
+        <target xml:lang="gl" state="translated">[ERROR] Sen resposta do servidor de Complementos.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/UpgradeTools/ModuleAdapter.php:167</note>
+      </trans-unit>
+      <trans-unit id="23f0dcc0dc41c4206bb741661da76c93" approved="yes">
+        <source>[ERROR] Unable to write module %s's zip file in temporary directory.</source>
+        <target xml:lang="gl" state="translated">[ERROR] Incapaz se garda-lo ficheiro zip %s do módulo no directorio temporal.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/UpgradeTools/ModuleAdapter.php:172</note>
+      </trans-unit>
+      <trans-unit id="2743947c7353cf849fbff70085764d76" approved="yes">
+        <source>[WARNING] Error when trying to upgrade module %s.</source>
+        <target xml:lang="gl" state="translated">[WARNING] Produciuse un erro ao tentar actualiza-lo módulo %s.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/UpgradeTools/ModuleAdapter.php:191</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeFiles.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="99f0e3a6d61b6d39da9213c647fd35ce" approved="yes">
+        <source>[ERROR] %s does not exist or is not a directory.</source>
+        <target xml:lang="gl" state="translated">[ERROR] %s non existe ou non é un directorio.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeFiles.php:103</note>
+      </trans-unit>
+      <trans-unit id="6274f940a4c03421253b1acc4064349e" approved="yes">
+        <source>All files upgraded. Now upgrading database...</source>
+        <target xml:lang="gl" state="translated">Actualizados tódolos ficheiros. Actualizando agora a base de datos...</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeFiles.php:67</note>
+      </trans-unit>
+      <trans-unit id="41deb3bc122b8e650d7a4758ea95f5c3" approved="yes">
+        <source>Error when trying to upgrade file %s.</source>
+        <target xml:lang="gl" state="translated">Produciuse un erro ao tentar actualiza-lo ficheiro %s.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeFiles.php:76</note>
+      </trans-unit>
+      <trans-unit id="d8316e26b7d1322f4445d3ffeec4bcfb" approved="yes">
+        <source>Nothing has been extracted. It seems the unzipping step has been skipped.</source>
+        <target xml:lang="gl" state="translated">Non se extraeu nada. Semella que saltaches o paso de descompresión.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeFiles.php:104</note>
+      </trans-unit>
+      <trans-unit id="9a2f2cf276ea9f79b31a815897c0e3e6" approved="yes">
+        <source>%s ignored</source>
+        <target xml:lang="gl" state="translated">%s ignorados</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeFiles.php:148</note>
+      </trans-unit>
+      <trans-unit id="4794a520f862841749c18466119acfed" approved="yes">
+        <source>[WARNING] File %1$s has been deleted.</source>
+        <target xml:lang="gl" state="translated">[WARNING] Eliminouse o ficheiro %1$s.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeFiles.php:156</note>
+      </trans-unit>
+      <trans-unit id="cbfafdaa2e7968a86bd6a437027edfea" approved="yes">
+        <source>Directory %1$s created.</source>
+        <target xml:lang="gl" state="translated">Creouse o directorio %1$s.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeFiles.php:160</note>
+      </trans-unit>
+      <trans-unit id="a61e66de5e0b581cc66f73f5662660c6" approved="yes">
+        <source>Error while creating directory %s.</source>
+        <target xml:lang="gl" state="translated">Erro ao crea-lo directorio %s.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeFiles.php:165</note>
+      </trans-unit>
+      <trans-unit id="b8db10001e04b8f947415aeb8b8fd19f" approved="yes">
+        <source>Copied %1$s.</source>
+        <target xml:lang="gl" state="translated">Copiado %1$s.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeFiles.php:193</note>
+      </trans-unit>
+      <trans-unit id="2de9cd00fdcc22adb43ea03f2a09dee5" approved="yes">
+        <source>[ERROR] Unable to find files to upgrade.</source>
+        <target xml:lang="gl" state="translated">[ERROR] Non se puideron atopar ficheiros para actualizar.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeFiles.php:299</note>
+      </trans-unit>
+      <trans-unit id="5479863b0426e29c3a17a3f9cc6e3746" approved="yes">
+        <source>%s files will be upgraded.</source>
+        <target xml:lang="gl" state="translated">Actualizaranse %s ficheiros.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeFiles.php:304</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/autoupgrade/classes/TaskRunner/Upgrade/BackupFiles.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="48f95ff09327408a578e91655ed872a1" approved="yes">
+        <source>%s Files to backup.</source>
+        <target xml:lang="gl" state="translated">Ficheiros de %s para facer copia de seguridade.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/BackupFiles.php:62</note>
+      </trans-unit>
+      <trans-unit id="f39b870765d50b64ba7a6facea83010d" approved="yes">
+        <source>All files have been added to archive.</source>
+        <target xml:lang="gl" state="translated">Engadíronse tódolos ficheiros ao arquivo.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/BackupFiles.php:93</note>
+      </trans-unit>
+      <trans-unit id="f36d7ee6cae92008008a95bf5898daf2" approved="yes">
+        <source>All files saved. Now backing up database</source>
+        <target xml:lang="gl" state="translated">Gardados tódolos ficheiros. Facendo agora copia de seguridade da base de datos</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/BackupFiles.php:94</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/autoupgrade/classes/ZipAction.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="9311ab161709b4f5efe9c6ff08b33699" approved="yes">
+        <source>%s is not a file</source>
+        <target xml:lang="gl" state="translated">%s non é un ficheiro</target>
+        <note>Context:
+File: modules/autoupgrade/classes/ZipAction.php:83</note>
+      </trans-unit>
+      <trans-unit id="3d72a59cd44079c486a184a6a7bcec34" approved="yes">
+        <source>Unable to create directory %s.</source>
+        <target xml:lang="gl" state="translated">Non se pode crea-lo directorio %s.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/ZipAction.php:91</note>
+      </trans-unit>
+      <trans-unit id="3858aebfe7dce0a1dc398d199cb85a2b" approved="yes">
+        <source>[ERROR] Unable to list archived files</source>
+        <target xml:lang="gl" state="translated">[ERROR] Non se puideron listar os ficheiros arquivados</target>
+        <note>Context:
+File: modules/autoupgrade/classes/ZipAction.php:119</note>
+      </trans-unit>
+      <trans-unit id="8a5062d4832b42720342c513d7d52f7d" approved="yes">
+        <source>[ERROR] Error on backup using PclZip: %s.</source>
+        <target xml:lang="gl" state="translated">[ERROR] Produciuse un erro na copia de seguridade ao empregar PclZip: %s.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/ZipAction.php:209</note>
+      </trans-unit>
+      <trans-unit id="42a346b8cddc0d5a6b7494735eb68b10" approved="yes">
+        <source><![CDATA[zip->extractTo(): unable to use %s as extract destination.]]></source>
+        <target xml:lang="gl" state="translated"><![CDATA[zip->extractTo(): non se pode empregar %s coma destino da extracción.]]></target>
+        <note>Context:
+File: modules/autoupgrade/classes/ZipAction.php:226</note>
+      </trans-unit>
+      <trans-unit id="9015190dc360d94efb0a5013a76697dd" approved="yes">
+        <source>Archive extracted</source>
+        <target xml:lang="gl" state="translated">Arquivo extraído</target>
+        <note>Context:
+File: modules/autoupgrade/classes/ZipAction.php:232</note>
+      </trans-unit>
+      <trans-unit id="a15762146514c451817fb7bb8cbecd96" approved="yes">
+        <source>[ERROR] Error on extracting archive using PclZip: %s.</source>
+        <target xml:lang="gl" state="translated">[ERROR] Produciuse un erro ao extrae-lo arquivo empregando PclZip: %s.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/ZipAction.php:267</note>
+      </trans-unit>
+      <trans-unit id="0f9f19a4f5e93b3d5a94405e3af32a28" approved="yes">
+        <source>Unable to open zipFile %s</source>
+        <target xml:lang="gl" state="translated">Non se pode abri-lo ficheiro Zip %s</target>
+        <note>Context:
+File: modules/autoupgrade/classes/ZipAction.php:341</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeDb.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="eac34868b4fb511702e53d1405c45454" approved="yes">
+        <source>Error during database upgrade. You may need to restore your database.</source>
+        <target xml:lang="gl" state="translated">Produciuse un erro durante a actualización da base de datos. Podería ser preciso que restaures a túa base de datos.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeDb.php:48</note>
+      </trans-unit>
+      <trans-unit id="08ee54c048e1589f4072a351035db2ad" approved="yes">
+        <source>Database upgraded. Now upgrading your Addons modules...</source>
+        <target xml:lang="gl" state="translated">Base de datos actualizada. Actualizando agora os módulos dos Complementos...</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeDb.php:54</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeNow.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="ca895e37bd5dfe413d7ffdd592580117" approved="yes">
+        <source>Starting upgrade...</source>
+        <target xml:lang="gl" state="translated">Comezando a actualización...</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeNow.php:40</note>
+      </trans-unit>
+      <trans-unit id="b06a965d6f83ecc3c04eefe175482f1d" approved="yes">
+        <source>Shop deactivated. Removing sample files...</source>
+        <target xml:lang="gl" state="translated">Tenda desactivada. Eliminando os arquivos de exemplo...</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeNow.php:61</note>
+      </trans-unit>
+      <trans-unit id="1a74ca8250ceb3e4df43a70181064e03" approved="yes">
+        <source>Shop deactivated. Extracting files...</source>
+        <target xml:lang="gl" state="translated">Tenda desactivada. Extraendo ficheiros...</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeNow.php:66</note>
+      </trans-unit>
+      <trans-unit id="a3e702f156f1b517ba98d2487f58bd91" approved="yes">
+        <source>Shop deactivated. Now downloading... (this can take a while)</source>
+        <target xml:lang="gl" state="translated">Tenda desactivada. Agora descargando... (isto pode levar un tempo)</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeNow.php:70</note>
+      </trans-unit>
+      <trans-unit id="10b5aa33077df49427f04cd33ad3843f" approved="yes">
+        <source>Downloaded archive will come from %s</source>
+        <target xml:lang="gl" state="translated">Os ficheiros descargados virán dende %s</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeNow.php:75</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/autoupgrade/classes/TaskRunner/Upgrade/BackupDb.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="926abe867e8b1be1c0b053234cae77ba" approved="yes">
+        <source>Database backup skipped. Now upgrading files...</source>
+        <target xml:lang="gl" state="translated">Copia de seguridade da base de datos omitida. Actualizando agora os ficheiros...</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/BackupDb.php:42</note>
+      </trans-unit>
+      <trans-unit id="d12ae4e7f0d20f4a4ca357d48e42877e" approved="yes">
+        <source>Backup file %s already exists. Operation aborted.</source>
+        <target xml:lang="gl" state="translated">O ficheiro da copia de seguridade %s xa existe. Operación interrompida.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/BackupDb.php:122</note>
+      </trans-unit>
+      <trans-unit id="d82896159c60199272e5ea481a733eba" approved="yes">
+        <source>Unable to create backup database file %s.</source>
+        <target xml:lang="gl" state="translated">Incapaz de crea-lo ficheiro da base de datos de copia de seguridade %s.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/BackupDb.php:136</note>
+      </trans-unit>
+      <trans-unit id="dcb7d833c69d6e0c3f009381c51f898e" approved="yes">
+        <source>Error during database backup.</source>
+        <target xml:lang="gl" state="translated">Produciuse un erro durante a realización da copia de seguridade da base de datos.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/BackupDb.php:169</note>
+      </trans-unit>
+      <trans-unit id="c2a086cb5c3373d7e11acbd3ace6a553" approved="yes">
+        <source>Database backup: %s table(s) left...</source>
+        <target xml:lang="gl" state="translated">Copia de seguridade da base de datos: falta(n) %s táboa(s)...</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/BackupDb.php:265</note>
+      </trans-unit>
+      <trans-unit id="f5f6ee32184b6a03c5c9928cbefa07f7" approved="yes">
+        <source>No valid tables were found to back up. Backup of file %s canceled.</source>
+        <target xml:lang="gl" state="translated">Non de atoparon táboas válidas para realiza-la copia de seguridade. Copia de seguridade do ficheiro %s cancelada.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/BackupDb.php:274</note>
+      </trans-unit>
+      <trans-unit id="0e27b7ac485e03dabd5648acd5982dde" approved="yes">
+        <source>Error during database backup for file %s.</source>
+        <target xml:lang="gl" state="translated">Produciuse un erro durante a realización da copia de seguridade do ficheiro %s.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/BackupDb.php:275</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/autoupgrade/classes/TaskRunner/Upgrade/CleanDatabase.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="ead14b0273e8d6cae7d146130d4be8f6" approved="yes">
+        <source>The database has been cleaned.</source>
+        <target xml:lang="gl" state="translated">Limpouse a base de datos.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/CleanDatabase.php:49</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeModules.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="35687f9e2d83cd9e89860c47fb3a7bbd" approved="yes">
+        <source>The files of module %s have been upgraded.</source>
+        <target xml:lang="gl" state="translated">Actualizáronse os ficheiros do módulo %s.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeModules.php:66</note>
+      </trans-unit>
+      <trans-unit id="d88a8630bd4e8fdbd61c550e53d62a94" approved="yes">
+        <source>%s modules left to upgrade.</source>
+        <target xml:lang="gl" state="translated">Faltan %s módulos por actualizar.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeModules.php:82</note>
+      </trans-unit>
+      <trans-unit id="f0d18de100ab33463602ea5b8165d842" approved="yes">
+        <source>Addons modules files have been upgraded.</source>
+        <target xml:lang="gl" state="translated">Actualizáronse os ficheiros dos módulos dos complementos.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeModules.php:132</note>
+      </trans-unit>
+      <trans-unit id="0530243ad5b9bd205a04b975d3ef8aaf" approved="yes">
+        <source>%s modules will be upgraded.</source>
+        <target xml:lang="gl" state="translated">Actualizaranse %s módulos.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeModules.php:153</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/autoupgrade/classes/TaskRunner/Upgrade/RemoveSamples.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="1d62b7d31a19dde578c4c56babef264a" approved="yes">
+        <source>All sample files removed. Now backing up files.</source>
+        <target xml:lang="gl" state="translated">Tódolos ficheiros de exemplo borrados. Facendo agora a copia de seguridade dos ficheiros.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/RemoveSamples.php:123</note>
+      </trans-unit>
+      <trans-unit id="6db37da3334e8a950c5bcdabc9fcf8f8" approved="yes">
+        <source>All sample files removed. Backup process skipped. Now upgrading files.</source>
+        <target xml:lang="gl" state="translated">Borráronse tódolos ficheiros de exemplo. Copia de seguridade omitida. Actualizando agora os ficheiros.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/RemoveSamples.php:132</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/autoupgrade/classes/TaskRunner/Upgrade/Download.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="3c2681ea85407c2c0d252e05a8eaf6aa" approved="yes">
+        <source>Download complete.</source>
+        <target xml:lang="gl" state="translated">Descarga completada.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/Download.php:77</note>
+      </trans-unit>
+      <trans-unit id="a55401a11251f53f612e950d4115e116" approved="yes">
+        <source>Download complete. Now extracting...</source>
+        <target xml:lang="gl" state="translated">Descarga completada. Agora extraendo...</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/Download.php:78</note>
+      </trans-unit>
+      <trans-unit id="412cb9a2978bf041be4ca6c6ded0030c" approved="yes">
+        <source>Error during download. The private key may be incorrect.</source>
+        <target xml:lang="gl" state="translated">Produciuse un erro durante a descarga. Pode que a chave privada sexa incorrecta.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/Download.php:86</note>
+      </trans-unit>
+      <trans-unit id="0c0db54fe8212c1a7215005fef75d7dd" approved="yes">
+        <source>Error during download</source>
+        <target xml:lang="gl" state="translated">Produciuse un erro durante a descarga</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/Download.php:88</note>
+      </trans-unit>
+      <trans-unit id="5385901e5bed459563860e2f08a90a1c" approved="yes">
+        <source>Download directory %s is not writable.</source>
+        <target xml:lang="gl" state="translated">O directorio de descarga %s non ten permisos de escritura.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/Download.php:93</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/autoupgrade/classes/TaskRunner/Upgrade/Unzip.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="654f7ceb787fd455c166d5d8744cbf90" approved="yes">
+        <source>"/latest" directory has been emptied</source>
+        <target xml:lang="gl" state="translated">baleirouse o directorio "/latest"</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/Unzip.php:47</note>
+      </trans-unit>
+      <trans-unit id="01d9d38b1d4d8eff5b530eeecfd3ccd5" approved="yes">
+        <source>Extraction directory %s is not writable.</source>
+        <target xml:lang="gl" state="translated">O directorio de extracción %s non ten permisos de escritura.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/Unzip.php:52</note>
+      </trans-unit>
+      <trans-unit id="7dce6149440985f89756b4c451d7dc03" approved="yes">
+        <source>File extraction complete. Removing sample files...</source>
+        <target xml:lang="gl" state="translated">Extracción do arquivo completada. Eliminando os ficheiros de exemplo...</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/Unzip.php:119</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeComplete.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="7a32329d6776ff98d77f7344caf7e00b" approved="yes">
+        <source>Upgrade process done, but some warnings have been found.</source>
+        <target xml:lang="gl" state="translated">Proceso de actualización completado, pero atopáronse algunhas alertas.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeComplete.php:44</note>
+      </trans-unit>
+      <trans-unit id="2a7e17be5dc799b0c478ec5f576f0713" approved="yes">
+        <source>Upgrade process done. Congratulations! You can now reactivate your shop.</source>
+        <target xml:lang="gl" state="translated">Proceso de actualización completado. Parabéns! Agora podes reactiva-la túa tenda.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeComplete.php:45</note>
+      </trans-unit>
+      <trans-unit id="d2b9f1e39aa8e96bb61f3a4bfe133f58" approved="yes">
+        <source>%s removed</source>
+        <target xml:lang="gl" state="translated">%s eliminado</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeComplete.php:57</note>
+      </trans-unit>
+      <trans-unit id="75802ba44ba3369defd92ef897bf2f21" approved="yes">
+        <source>Please remove %s by FTP</source>
+        <target xml:lang="gl" state="translated">Por favor, elimina %s mediante FTP</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeComplete.php:59</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/autoupgrade/classes/TaskRunner/Miscellaneous/UpdateConfig.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="1d1a5763d2901dbd435b378358a149b4" approved="yes">
+        <source>File %s does not exist. Unable to select that channel.</source>
+        <target xml:lang="gl" state="translated">O ficheiro %s non existe. Non é posible seleccionar esa canle.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Miscellaneous/UpdateConfig.php:65</note>
+      </trans-unit>
+      <trans-unit id="c944c279a9e87437e100f65b8c87c391" approved="yes">
+        <source>Version number is missing. Unable to select that channel.</source>
+        <target xml:lang="gl" state="translated">Falta o número de versión. Non é posible seleccionar esa canle.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Miscellaneous/UpdateConfig.php:85</note>
+      </trans-unit>
+      <trans-unit id="ab232f4b20c0e50dad9081bc39382569" approved="yes">
+        <source>Upgrade process will use archive.</source>
+        <target xml:lang="gl" state="translated">O proceso de actualización usará ficheiros.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Miscellaneous/UpdateConfig.php:79
+ Comment: $config['archive_name'] = $request['archive_name'];</note>
+      </trans-unit>
+      <trans-unit id="1fe9dd96f646eaa0cd3a0fcc7632ce12" approved="yes">
+        <source>Error on saving configuration</source>
+        <target xml:lang="gl" state="translated">Produciuse un erro ao garda-la configuración</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Miscellaneous/UpdateConfig.php:98</note>
+      </trans-unit>
+      <trans-unit id="f2ff9d001d0a553c78da73443e7fcd97" approved="yes">
+        <source>Configuration successfully updated.</source>
+        <target xml:lang="gl" state="translated">Configuración actualizada correctamente.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Miscellaneous/UpdateConfig.php:124</note>
+      </trans-unit>
+      <trans-unit id="40b980e89ae332507380470cd26cdf4d" approved="yes">
+        <source>This page will now be reloaded and the module will check if a new version is available.</source>
+        <target xml:lang="gl" state="translated">Agora esta páxina recargarase e o módulo comprobará se hai dispoñible unha nova versión.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Miscellaneous/UpdateConfig.php:124</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/autoupgrade/classes/TaskRunner/Miscellaneous/CheckFilesVersion.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="335b4c111b193a855539368676837af4" approved="yes">
+        <source>Unable to check files for the installed version of PrestaShop.</source>
+        <target xml:lang="gl" state="translated">Non se poden comproba-los ficheiros da versión instalada de PrestaShop.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Miscellaneous/CheckFilesVersion.php:47</note>
+      </trans-unit>
+      <trans-unit id="8d8e0207549d32c6f864246403034279" approved="yes">
+        <source>Core files are ok</source>
+        <target xml:lang="gl" state="translated">Os ficheiros do núcleo están correctamente</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Miscellaneous/CheckFilesVersion.php:60</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/autoupgrade/classes/TaskRunner/Miscellaneous/CompareReleases.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="c6fd96a9aed05923b617fdc8d98d1181" approved="yes">
+        <source>No diff files found.</source>
+        <target xml:lang="gl" state="translated">Non se atoparon ficheiros diferentes.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Miscellaneous/CompareReleases.php:79</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/autoupgrade/classes/TaskRunner/Rollback/RestoreFiles.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="7ead6886c2e0fb40e873da8426e80988" approved="yes">
+        <source>%s file(s) will be removed before restoring the backup files.</source>
+        <target xml:lang="gl" state="translated">Eliminaranse %s ficheiro(s) antes de restaura-los ficheiros da copia de seguridade.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Rollback/RestoreFiles.php:69</note>
+      </trans-unit>
+      <trans-unit id="e3ca00e5b833d0a90d433416435dcaf5" approved="yes">
+        <source>[ERROR] Backup file %s does not exist.</source>
+        <target xml:lang="gl" state="translated">[ERROR] Non existe o ficheiro de copia de seguridade %s.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Rollback/RestoreFiles.php:74</note>
+      </trans-unit>
+      <trans-unit id="8dbf48bc796e7f70a17c63dd084bf068" approved="yes">
+        <source>[ERROR] File "%s" does not exist.</source>
+        <target xml:lang="gl" state="translated">[ERROR] O ficheiro "%s" non existe.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Rollback/RestoreFiles.php:77</note>
+      </trans-unit>
+      <trans-unit id="2a2c187bdb804ba79fd4bf8972ba5073" approved="yes">
+        <source>Unable to remove upgraded files.</source>
+        <target xml:lang="gl" state="translated">Imposible eliminar os ficheiros actualizados.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Rollback/RestoreFiles.php:79</note>
+      </trans-unit>
+      <trans-unit id="cb7dce5f6a1934d54c0d3335c7ffe841" approved="yes">
+        <source>Files restored.</source>
+        <target xml:lang="gl" state="translated">Ficheiros restaurados.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Rollback/RestoreFiles.php:112</note>
+      </trans-unit>
+      <trans-unit id="671537225baa948d4c92cf4681283326" approved="yes">
+        <source>Files restored. Now restoring database...</source>
+        <target xml:lang="gl" state="translated">Ficheiros restaurados. Restaurando agora a base de datos...</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Rollback/RestoreFiles.php:113</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/autoupgrade/classes/TaskRunner/Rollback/NoRollbackFound.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="222102295c3c6626ff141687b0f49b6b" approved="yes">
+        <source>Nothing to restore</source>
+        <target xml:lang="gl" state="translated">Non hai nada que restaurar</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Rollback/NoRollbackFound.php:36</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/autoupgrade/classes/TaskRunner/Rollback/RestoreDb.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="5ce67d010ab9c98ae1dbd6b5ea149982" approved="yes">
+        <source>Database backup is empty.</source>
+        <target xml:lang="gl" state="translated">A copia de seguridade da base de datos está baleira.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Rollback/RestoreDb.php:117</note>
+      </trans-unit>
+      <trans-unit id="5b37242b8a0a39af0a9dc28abdabba28" approved="yes">
+        <source>Database has been restored.</source>
+        <target xml:lang="gl" state="translated">Restaurouse a base de datos.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Rollback/RestoreDb.php:182</note>
+      </trans-unit>
+      <trans-unit id="b232a418538e3f6904357039ff7b1052" approved="yes">
+        <source>Error during database restoration</source>
+        <target xml:lang="gl" state="translated">Erro durante a restauración da base de datos</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Rollback/RestoreDb.php:203</note>
+      </trans-unit>
+      <trans-unit id="30da45f850d1f1a2b42f215836382f19" approved="yes">
+        <source>Database restoration done.</source>
+        <target xml:lang="gl" state="translated">Restauración da base de datos realizada.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Rollback/RestoreDb.php:242</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/autoupgrade/classes/TaskRunner/Rollback/RollbackComplete.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="a520e5cbdc465c7b7d39c98f78fe2506" approved="yes">
+        <source>Restoration process done. Congratulations! You can now reactivate your shop.</source>
+        <target xml:lang="gl" state="translated">Proceso de restauración completado. Parabéns! Agora podes reactiva-la túa tenda.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Rollback/RollbackComplete.php:39</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/autoupgrade/classes/TaskRunner/Rollback/Rollback.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      <trans-unit id="d75374f4463479bfc16764f06fc8d33e" approved="yes">
+        <source>[ERROR] File %s is missing: unable to restore files. Operation aborted.</source>
+        <target xml:lang="gl" state="translated">[ERROR] O ficheiro %s está desaparecido: incapaz de restaurar os ficheiros. Operación cancelada.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Rollback/Rollback.php:62</note>
+      </trans-unit>
+      <trans-unit id="99db61185a28a3f862dcb99e891b2897" approved="yes">
+        <source>[ERROR] No backup database files found: it would be impossible to restore the database. Operation aborted.</source>
+        <target xml:lang="gl" state="translated">[ERROR] Non se atoparon ficheiros de copia de seguridade da base de datos: sería imposible restaura-la base de datos. Operación cancelada.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Rollback/Rollback.php:78</note>
+      </trans-unit>
+      <trans-unit id="0438424c05d45646dc089ef15df7e0e2" approved="yes">
+        <source>Restoring files ...</source>
+        <target xml:lang="gl" state="translated">Restaurando arquivos ...</target>
+        <note>Context:
+File: modules/autoupgrade/classes/TaskRunner/Rollback/Rollback.php:84</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/autoupgrade/classes/TaskRunner/AbstractTask.php" source-language="en" target-language="gl" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
+</xliff>
