@@ -2,11 +2,11 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="admin-dev/themes/default/template/controllers/countries/helpers/form/form.tpl" source-language="en" target-language="de" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
+      <trans-unit id="9fc79b58296e3a108fbe2f8852b652f4" approved="yes">
+        <source>Required fields for the address (click for more details):</source>
+        <target state="translated">Pflichtfelder für die Adresse (für Details hier klicken)</target>
+        <note>Line: 35</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/countries/helpers/list/list_footer.tpl" source-language="en" target-language="de" datatype="plaintext">
@@ -16,6 +16,11 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/currencies/conversion_rate.tpl" source-language="en" target-language="de" datatype="plaintext">
     <body>
+      <trans-unit id="31b7dce9ac35e52f1c4719ac210b7419" approved="yes">
+        <source>Live exchange rates</source>
+        <target state="translated">Live-Wechselkurse</target>
+        <note>Line: 46</note>
+      </trans-unit>
       <trans-unit id="a9df98bcbe3f6c6f366c373674d5008b" approved="yes">
         <source>The exchange rates are not automatically updated</source>
         <target state="translated">Die Wechselkurse werden nicht automatisch aktualisiert</target>
@@ -26,10 +31,20 @@
         <target state="translated">Die Wechselkurse werden automatisch aktualisiert</target>
         <note>Line: 41</note>
       </trans-unit>
+      <trans-unit id="8f76a793218248d062ced130c0ffd968" approved="yes">
+        <source>Update exchange rates</source>
+        <target state="translated">Wechselkurse aktualisieren</target>
+        <note>Line: 54</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/currencies/status.tpl" source-language="en" target-language="de" datatype="plaintext">
     <body>
+      <trans-unit id="a0375b8965a19b59896d90e7e08041f3" approved="yes">
+        <source>This currency is disabled</source>
+        <target state="translated">Diese Währung wurde deaktiviert</target>
+        <note>Line: 37</note>
+      </trans-unit>
       <trans-unit id="5a654deb20d708c9f56c1d7bc5e35c38" approved="yes">
         <source>This currency is enabled</source>
         <target state="translated">Währung wurde aktiviert</target>
@@ -64,12 +79,26 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_modules.tpl" source-language="en" target-language="de" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
+      <trans-unit id="a9e4402481bd9b8e36752bf731f67eb6" approved="yes">
+        <source>Theme:</source>
+        <target state="translated">Template:</target>
+        <note>Line: 100</note>
+      </trans-unit>
+      <trans-unit id="53b3cae42737979c884275593a01f468" approved="yes">
+        <source>Module:</source>
+        <target state="translated">Modul:</target>
+        <note>Line: 102</note>
+      </trans-unit>
+      <trans-unit id="f05b91496296629228c94a6b4b0a335f" approved="yes">
+        <source>Expressions to translate:</source>
+        <target state="translated">Zu übersetzende Ausdrücke</target>
+        <note>Line: 56</note>
+      </trans-unit>
+      <trans-unit id="57aca76c1e8e4e4063437a931c74a0ee" approved="yes">
+        <source>Total missing expressions:</source>
+        <target state="translated">Fehlende Übesetzungen:</target>
+        <note>Line: 57</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminCountriesController.php" source-language="en" target-language="de" datatype="plaintext">
@@ -200,6 +229,21 @@
         <target state="translated">Back Office Übersetzung</target>
         <note>Line: 56</note>
       </trans-unit>
+      <trans-unit id="445518ee6de9f01f5203fa05e5b83236" approved="yes">
+        <source>Themes translations</source>
+        <target state="translated">Übersetzungen Template</target>
+        <note>Line: 57</note>
+      </trans-unit>
+      <trans-unit id="6df6a1378a5ddcdef978aadf494cef5d" approved="yes">
+        <source>Email translations</source>
+        <target state="translated">Übersetzungen E-Mails</target>
+        <note>Line: 59</note>
+      </trans-unit>
+      <trans-unit id="5d1eb86e15320f5677c9502df9c97dd3" approved="yes">
+        <source>Other translations</source>
+        <target state="translated">Andere Übersetzungen</target>
+        <note>Line: 60</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Geolocation/GeolocationOptionsType.php" source-language="en" target-language="de" datatype="plaintext">
@@ -211,9 +255,11 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Localization/ImportLocalizationPackType.php" source-language="en" target-language="de" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="41661d8cebe0d3d2211676fd8aaf73f7" approved="yes">
+        <source>Change the behavior of the price display for groups</source>
+        <target state="translated">Preis-Anzeige nach Gruppe ändern</target>
+        <note>Line: 104</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Translations/AddUpdateLanguageType.php" source-language="en" target-language="de" datatype="plaintext">
@@ -248,7 +294,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/International/Geolocation/index.html.twig" source-language="en" target-language="de" datatype="plaintext">
     <body>
-      
+      <trans-unit id="d1e4ac2093276d0228ca8470e7ecbf98" approved="yes">
+        <source>In order to use Geolocation, please download [1]this file[/1] and extract it (using Winrar or Gzip) into the /app/Resources/geoip/ directory.</source>
+        <target state="translated">Zur Verwendung von Geolocation laden Sie bitte [1]diese Zip-Datei[/1] und entpacken sie (mit Winrar or Gzip) ins Verzeichnis /app/Resources/geoip/.</target>
+        <note>Line: 37</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/International/Localization/Blocks/advanced_configuration.html.twig" source-language="en" target-language="de" datatype="plaintext">
@@ -304,23 +354,65 @@
         <target state="translated">Art des E-Mail-Inhaltes bitte auswählen</target>
         <note>Line: 61</note>
       </trans-unit>
+      <trans-unit id="dd317a8b9f3ecfc5317c2cb586274145" approved="yes">
+        <source>Select your module</source>
+        <target state="translated">Modul auswählen</target>
+        <note>Line: 79</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Translation/Api/InternationalApi.php" source-language="en" target-language="de" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="16ec8a60494224f7fa891897aba8caf8" approved="yes">
+        <source>1 missing</source>
+        <target state="translated">1 fehlt</target>
+        <note>Line: 46</note>
+      </trans-unit>
+      <trans-unit id="026966b734feffa2a2a7c807d268e495" approved="yes">
+        <source>%nb_translation% expression</source>
+        <target state="translated">%nb_translation% Ausdruck</target>
+        <note>Line: 49
+Comment: nb_translations can be 0 or 1</note>
+      </trans-unit>
+      <trans-unit id="e3ee9f9a340e253eb5196ce7d53ae2d8" approved="yes">
+        <source>Search translations</source>
+        <target state="translated">Suche Übersetzungen</target>
+        <note>Line: 58</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Twig/TranslationsExtension.php" source-language="en" target-language="de" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
+      <trans-unit id="c949bd6d096b356fc06f55ec5205e3b6" approved="yes">
+        <source>%d missing</source>
+        <target state="translated">%d fehlt</target>
+        <note>Line: 354</note>
+      </trans-unit>
+      <trans-unit id="3a8b99657fcabfc65f45cd1be2b34de9" approved="yes">
+        <source>%nb_translations% expressions</source>
+        <target state="translated">%nb_translations% Übersetzungen</target>
+        <note>Line: 422</note>
+      </trans-unit>
+      <trans-unit id="740b879fdd48f184f798b8018134f630" approved="yes">
+        <source>Show messages</source>
+        <target state="translated">Nachrichten anzeigen</target>
+        <note>Line: 365</note>
+      </trans-unit>
+      <trans-unit id="67b6092e7137b245b034286819367669" approved="yes">
+        <source>Hide messages</source>
+        <target state="translated">Nachrichten verbergen</target>
+        <note>Line: 366</note>
+      </trans-unit>
+      <trans-unit id="f5123d6dff8361ad9310560e87c220ef" approved="yes">
+        <source>%nb_translations% missing</source>
+        <target state="translated">%nb_translations% fehlen</target>
+        <note>Line: 465</note>
+      </trans-unit>
+      <trans-unit id="f0780b397b7190b7894af3d8d7d91a83" approved="yes">
+        <source>%nb_translations% translations are missing in %domain%</source>
+        <target state="translated">%nb_translations% Übersetzungen fehlen in %domain%</target>
+        <note>Line: 474</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

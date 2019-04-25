@@ -52,6 +52,11 @@
         <target state="translated">Sie können den Gutschein nicht mit diesem Versanddienst verwenden</target>
         <note>Line: 698</note>
       </trans-unit>
+      <trans-unit id="40869c38d826da9c21cc0359f905e5b3" approved="yes">
+        <source>You cannot use this voucher on products on sale</source>
+        <target state="translated">Sie können diesen Gutschein nicht für Sonderangebote verwenden</target>
+        <note>Line: 712</note>
+      </trans-unit>
       <trans-unit id="dc0c81278849e0f6a297e93c935e465d" approved="yes">
         <source>You have not reached the minimum amount required to use this voucher</source>
         <target state="translated">Sie haben nicht den erforderlichen Mindestbetrag, um den Gutschein zu verwenden</target>
@@ -61,6 +66,11 @@
         <source>This voucher is already in your cart</source>
         <target state="translated">Dieser Gutschein ist schon in Ihrem Warenkorb</target>
         <note>Line: 790</note>
+      </trans-unit>
+      <trans-unit id="4837d38bc896f38c39d6f7024e466967" approved="yes">
+        <source>This voucher is not combinable with an other voucher already in your cart: %s</source>
+        <target state="translated">Sie haben für diese Bestellung bereits einen Gutschein eingesetzt: %s</target>
+        <note>Line: 808</note>
       </trans-unit>
       <trans-unit id="e199546c0a1d80f1bf116b131ee02e22" approved="yes">
         <source>Cart is empty</source>
@@ -95,14 +105,35 @@
   </file>
   <file original="classes/form/CustomerPersister.php" source-language="en" target-language="de-LU" datatype="plaintext">
     <body>
-      
-      
-      
-      
+      <trans-unit id="47be05698f8dd87bb445ceefce6abd0d" approved="yes">
+        <source>Password is required</source>
+        <target state="translated">Passwort erforderlich</target>
+        <note>Line: 155</note>
+      </trans-unit>
+      <trans-unit id="d2f614cac7a0f970168f6d129860a1c0" approved="yes">
+        <source>Invalid email/password combination</source>
+        <target state="translated">Ungültige E-Mail-/Passwort- Kombination</target>
+        <note>Line: 71</note>
+      </trans-unit>
+      <trans-unit id="5f377de6cd38d0577c9628eeaecb3d0f" approved="yes">
+        <source>There seems to be an issue with your account, please contact support</source>
+        <target state="translated">Es scheint ein Problem mit ihrem Konto zu geben, bitte kontaktieren Sie unseren Support</target>
+        <note>Line: 101</note>
+      </trans-unit>
+      <trans-unit id="e3cf2c117615da59fb8930d299eb16f3" approved="yes">
+        <source>An account was already registered with this email address</source>
+        <target state="translated">Mit dieser E-Mail wurde bereits ein Konto eröffnet</target>
+        <note>Line: 183</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/stock/SupplyOrderDetail.php" source-language="en" target-language="de-LU" datatype="plaintext">
     <body>
+      <trans-unit id="1f597c6798d6a39dd2bde999d547331a" approved="yes">
+        <source>%s is required.</source>
+        <target state="translated">%s ist erforderlich!</target>
+        <note>Line: 294</note>
+      </trans-unit>
       <trans-unit id="8ae0cb74f9724518e1ce68c503377002" approved="yes">
         <source>is invalid.</source>
         <target state="translated">ungültig</target>
@@ -117,8 +148,16 @@
   </file>
   <file original="controllers/front/AddressController.php" source-language="en" target-language="de-LU" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="0adae640fffe5e6c0208e25f13aaa414" approved="yes">
+        <source>Please fix the error below.</source>
+        <target state="translated">Bitte korrigieren Sie die unten angegebenen Fehler.</target>
+        <note>Line: 60</note>
+      </trans-unit>
+      <trans-unit id="2af64b8ece83492468fbc41f9b692556" approved="yes">
+        <source>Could not delete address.</source>
+        <target state="translated">Konnte die Adresse nicht löschen.</target>
+        <note>Line: 81</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/front/AddressesController.php" source-language="en" target-language="de-LU" datatype="plaintext">
@@ -141,6 +180,11 @@
         <source>The voucher code is invalid.</source>
         <target state="translated">Gutschein-Code ungültig</target>
         <note>Line: 253</note>
+      </trans-unit>
+      <trans-unit id="d21c3bf7d25db04b73e7e269aef555fe" approved="yes">
+        <source>This voucher does not exist.</source>
+        <target state="translated">Dieser Gutschein existiert nicht.</target>
+        <note>Line: 268</note>
       </trans-unit>
       <trans-unit id="9730e222894d4568ed4cd2de30cb233a" approved="yes">
         <source>Null quantity.</source>
@@ -215,14 +259,30 @@
   </file>
   <file original="controllers/front/GuestTrackingController.php" source-language="en" target-language="de-LU" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="ddb329ec6521925a245fbe1334d2ce18" approved="yes">
+        <source>Please provide the required information</source>
+        <target state="translated">Bitte geben Sie die fehlenden Informationen ein</target>
+        <note>Line: 63</note>
+      </trans-unit>
+      <trans-unit id="ac68011e87111c9833dab09935bd88f3" approved="yes">
+        <source>We couldn't find your order with the information provided, please try again</source>
+        <target state="translated">Ihre Angaben reichten leider nicht aus, um die Bestellung zu finden. Bitte versuchen Sie es nochmal.</target>
+        <note>Line: 83</note>
+      </trans-unit>
+      <trans-unit id="97f79d53b078e529949d5c3c8b676d52" approved="yes">
+        <source>An unexpected error occurred while creating your account.</source>
+        <target state="translated">Bei der Erstellung Ihres Kundenkontos ist ein Fehler aufgetreten.</target>
+        <note>Line: 108</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/front/IdentityController.php" source-language="en" target-language="de-LU" datatype="plaintext">
     <body>
-      
+      <trans-unit id="7cee9e5fd53cf1d3d1677ef3edc4a613" approved="yes">
+        <source>Could not update your information, please check your data.</source>
+        <target state="translated">Informationen konnten nicht aktualisiert werden. Bitte überprüfen Sie die Eingaben.</target>
+        <note>Line: 60</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/front/OrderController.php" source-language="en" target-language="de-LU" datatype="plaintext">
@@ -261,6 +321,11 @@
         <target state="translated">Bitte klicken Sie mindestens einen Artikel an, welches zurückgesandt werden soll.</target>
         <note>Line: 174</note>
       </trans-unit>
+      <trans-unit id="a3c5d3c6953c588760d90657e4f0b790" approved="yes">
+        <source>This order cannot be returned</source>
+        <target state="translated">Diese Bestellung kann nicht zurückgesandt werden</target>
+        <note>Line: 178</note>
+      </trans-unit>
       <trans-unit id="3dc245110e1f3601860c20299d97c01d" approved="yes">
         <source>The message cannot be blank.</source>
         <target state="translated">Die Nachricht darf nicht leer sein</target>
@@ -279,6 +344,11 @@
   </file>
   <file original="controllers/front/PasswordController.php" source-language="en" target-language="de-LU" datatype="plaintext">
     <body>
+      <trans-unit id="909179695703d6a048fab0bcc9af4758" approved="yes">
+        <source>We cannot regenerate your password with the data you've submitted</source>
+        <target state="translated">Wir können Ihr Passwort nicht mit den von Ihnen eingegebenen Daten erneuern</target>
+        <note>Line: 193</note>
+      </trans-unit>
       <trans-unit id="194496a52d41fba1c9e6140c4eb34f83" approved="yes">
         <source>You cannot regenerate the password for this account.</source>
         <target state="translated">Sie können für dieses Kundenkonto kein neues Passwort vergeben.</target>
@@ -298,6 +368,21 @@
         <source>Customer account not found</source>
         <target state="translated">Kunden-Konto nicht vorhanden</target>
         <note>Line: 117</note>
+      </trans-unit>
+      <trans-unit id="da9aa00ef0107af3e55d9ae1e8a1f361" approved="yes">
+        <source>The password and its confirmation do not match.</source>
+        <target state="translated">Passwort und Bestätigung stimmen nicht überein.</target>
+        <note>Line: 129</note>
+      </trans-unit>
+      <trans-unit id="cf84bfe60dba837405db6f0a3cb9c086" approved="yes">
+        <source>The password change request expired. You should ask for a new one.</source>
+        <target state="translated">Die Anforderung eines neuen Passworts ist abgelaufen. Fordern Sie es noch einmal an.</target>
+        <note>Line: 147</note>
+      </trans-unit>
+      <trans-unit id="619469491be87d328254b6f41cd73770" approved="yes">
+        <source>An error occurred with your account, which prevents us from updating the new password. Please report this issue using the contact form.</source>
+        <target state="translated">In Ihrem Kundenbereich ist ein Fehler aufgetreten und Ihr Passwort kann nicht an Ihre E-Mail-Adresse gesendet werden. Bitte melden Sie den Vorfall über unser Kontaktformular.</target>
+        <note>Line: 187</note>
       </trans-unit>
       <trans-unit id="e267e2be02cf3e29f4ba53b5d97cf78a" approved="yes">
         <source>Invalid email address.</source>
@@ -383,6 +468,24 @@
   </file>
   <file original="modules/trackingfront/trackingfront.php" source-language="en" target-language="de-LU" datatype="plaintext">
     <body>
+      <trans-unit id="a3de4dbbfe3bac5d271a16fb8a6f942e" approved="yes">
+        <source>Login is required</source>
+        <target state="translated">Anmeldename erforderlich!</target>
+        <note>Context:
+File: modules/trackingfront/trackingfront.php:84</note>
+      </trans-unit>
+      <trans-unit id="a6f2a48726b0d36107e00e20795d3d37" approved="yes">
+        <source>Invalid login</source>
+        <target state="translated">Anmeldedaten fehlerhaft!</target>
+        <note>Context:
+File: modules/trackingfront/trackingfront.php:86</note>
+      </trans-unit>
+      <trans-unit id="cba0b206627d45fbf0ae707e20d4a38f" approved="yes">
+        <source>Invalid password</source>
+        <target state="translated">Falsches Passwort</target>
+        <note>Context:
+File: modules/trackingfront/trackingfront.php:90</note>
+      </trans-unit>
       <trans-unit id="d4e6d6c42bf3eb807b8778255a4ce415" approved="yes">
         <source>Authentication failed</source>
         <target state="translated">Authentifizierung fehlgeschlagen</target>
@@ -393,7 +496,11 @@ File: modules/trackingfront/trackingfront.php:99</note>
   </file>
   <file original="src/Adapter/Presenter/Product/ProductLazyArray.php" source-language="en" target-language="de-LU" datatype="plaintext">
     <body>
-      
+      <trans-unit id="a923575984949608ce04c4984806ec2a" approved="yes">
+        <source>There are not enough products in stock</source>
+        <target state="translated">Nicht ausreichend Artikel auf Lager</target>
+        <note>Line: 768</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/checkout/_partials/steps/addresses.tpl" source-language="en" target-language="de-LU" datatype="plaintext">
