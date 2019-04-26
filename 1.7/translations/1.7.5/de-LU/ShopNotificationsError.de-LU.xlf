@@ -57,6 +57,11 @@
         <target state="translated">Sie können diesen Gutschein nicht für Sonderangebote verwenden</target>
         <note>Line: 712</note>
       </trans-unit>
+      <trans-unit id="3fb396b59440efc171f576e02ecfa88a" approved="yes">
+        <source>Please log in first</source>
+        <target state="translated">Bitte erst anmelden</target>
+        <note>Line: 741</note>
+      </trans-unit>
       <trans-unit id="dc0c81278849e0f6a297e93c935e465d" approved="yes">
         <source>You have not reached the minimum amount required to use this voucher</source>
         <target state="translated">Sie haben nicht den erforderlichen Mindestbetrag, um den Gutschein zu verwenden</target>
@@ -91,11 +96,20 @@
   </file>
   <file original="classes/form/CustomerForm.php" source-language="en" target-language="de-LU" datatype="plaintext">
     <body>
-      
+      <trans-unit id="eefb581d7c421334e62a68223c7a242a" approved="yes">
+        <source>The email is already used, please choose another one or sign in</source>
+        <target state="translated">Die E-Mail-Adresse wird bereits verwendet. Bitte wählen Sie eine andere oder melden Sie sich bei Ihrem Konto an.</target>
+        <note>Line: 112</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/form/CustomerLoginForm.php" source-language="en" target-language="de-LU" datatype="plaintext">
     <body>
+      <trans-unit id="90162cff1b4a1a5a765c542ddc499998" approved="yes">
+        <source>Your account isn't available at this time, please contact us</source>
+        <target state="translated">Ihr Konto ist derzeit nicht verfügbar. Bitte kontaktieren Sie uns.</target>
+        <note>Line: 69</note>
+      </trans-unit>
       <trans-unit id="802b207b05fe5cea22e11b9db804b33d" approved="yes">
         <source>Authentication failed.</source>
         <target state="translated">Ihre Authentifizierung ist fehlgeschlagen.</target>
@@ -186,6 +200,11 @@
         <target state="translated">Dieser Gutschein existiert nicht.</target>
         <note>Line: 268</note>
       </trans-unit>
+      <trans-unit id="8b84452c494aa9106d26b20c9df0e431" approved="yes">
+        <source>You must add %quantity% minimum quantity</source>
+        <target state="translated">Bitte Mindestbestellmenge von %quantity% beachten</target>
+        <note>Line: 513</note>
+      </trans-unit>
       <trans-unit id="9730e222894d4568ed4cd2de30cb233a" approved="yes">
         <source>Null quantity.</source>
         <target state="translated">Nicht verfügbar</target>
@@ -195,6 +214,21 @@
         <source>Product not found</source>
         <target state="translated">Artikel nicht gefunden</target>
         <note>Line: 380</note>
+      </trans-unit>
+      <trans-unit id="cb0b5b032f2426b3fe341460320b5a8e" approved="yes">
+        <source>This product (%product%) is no longer available.</source>
+        <target state="translated">Der Artikel (%product%) ist nicht mehr erhältlich.</target>
+        <note>Line: 617</note>
+      </trans-unit>
+      <trans-unit id="9a7c79186c1ff1cd48b31ed6caf6ff48" approved="yes">
+        <source>The item %product% in your cart is no longer available in this quantity. You cannot proceed with your order until the quantity is adjusted.</source>
+        <target state="translated">Der Artikel %product% in Ihrem Warenkorb ist nicht in gewünschter Menge verfügbar. Bitte, passen sie die gewünschte Menge an.</target>
+        <note>Line: 610</note>
+      </trans-unit>
+      <trans-unit id="feb34b89eb5bf8066025f508b9b86ab2" approved="yes">
+        <source>The minimum purchase order quantity for the product %product% is %quantity%.</source>
+        <target state="translated">Die Mindestbestellmenge für den Artikel %product% ist %quantity%.</target>
+        <note>Line: 451</note>
       </trans-unit>
       <trans-unit id="84a7c3aeebf09d169aca8555be640bbf" approved="yes">
         <source>Please fill in all of the required fields, and then save your customizations.</source>
@@ -301,6 +335,11 @@
   </file>
   <file original="controllers/front/OrderDetailController.php" source-language="en" target-language="de-LU" datatype="plaintext">
     <body>
+      <trans-unit id="ffabab221ec5c24fbdb4a70ad48bc985" approved="yes">
+        <source>The order is no longer valid.</source>
+        <target state="translated">Bestellung ist nicht mehr gültig</target>
+        <note>Line: 49</note>
+      </trans-unit>
       <trans-unit id="15efe0f18ecffd8e75556c5c60cb1cb6" approved="yes">
         <source>This message is invalid (HTML is not allowed).</source>
         <target state="translated">Nachricht ungültig (HTML nicht erlaubt)</target>
@@ -320,6 +359,11 @@
         <source>Please check at least one product you would like to return.</source>
         <target state="translated">Bitte klicken Sie mindestens einen Artikel an, welches zurückgesandt werden soll.</target>
         <note>Line: 174</note>
+      </trans-unit>
+      <trans-unit id="1819b587867a9c604a4d21c753756b4a" approved="yes">
+        <source>For each product you wish to add, please specify the desired quantity.</source>
+        <target state="translated">Bitte geben Sie die gewünschte Anzahl jedes gewählten Artikels an.</target>
+        <note>Line: 176</note>
       </trans-unit>
       <trans-unit id="a3c5d3c6953c588760d90657e4f0b790" approved="yes">
         <source>This order cannot be returned</source>
@@ -417,6 +461,11 @@
         <target state="translated">Rücksendeschein nicht gefunden</target>
         <note>Line: 47</note>
       </trans-unit>
+      <trans-unit id="b55e152dc0683c3d315b6baabb98495d" approved="yes">
+        <source>Order return not confirmed.</source>
+        <target state="translated">Rücksendung nicht bestätigt!</target>
+        <note>Line: 49</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/front/ProductController.php" source-language="en" target-language="de-LU" datatype="plaintext">
@@ -505,7 +554,11 @@ File: modules/trackingfront/trackingfront.php:99</note>
   </file>
   <file original="themes/classic/templates/checkout/_partials/steps/addresses.tpl" source-language="en" target-language="de-LU" datatype="plaintext">
     <body>
-      
+      <trans-unit id="ea34b5c6cf6511c7c9e23cf7bf5d6792" approved="yes">
+        <source>Your address is incomplete, please update it.</source>
+        <target state="translated">Ihre Adresse ist nicht vollständig, bitte ergänzen Sie die Adresse.</target>
+        <note>Line: 116</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

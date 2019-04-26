@@ -17,6 +17,11 @@
         <target state="translated">keine Datei ausgewählt</target>
         <note>Line: 61</note>
       </trans-unit>
+      <trans-unit id="db5aa3efeee3f75954f4a6de541f7fd2" approved="yes">
+        <source>Unable to open backup file(s).</source>
+        <target state="translated">Kann die Backup-Datei(en) nicht öffnen.</target>
+        <note>Line: 85</note>
+      </trans-unit>
       <trans-unit id="089426c3b86f7f52cc14c3ebf5ca5b8f" approved="yes">
         <source>Unable to display backup file(s).</source>
         <target state="translated">Kann die Backup-Datei(en) nicht anzeigen</target>
@@ -26,20 +31,44 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/access/helpers/form/form.tpl" source-language="en" target-language="de" datatype="plaintext">
     <body>
-      
+      <trans-unit id="b04c5e39cb3460a062bba48d85567cdb" approved="yes">
+        <source>Administrator permissions cannot be modified.</source>
+        <target state="translated">Administratorrechte können nicht verändert werden.</target>
+        <note>Line: 515</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl" source-language="en" target-language="de" datatype="plaintext">
     <body>
+      <trans-unit id="418dde4b22e22a725e75b2819c0373b2" approved="yes">
+        <source>Note that the Category import does not support having two categories with the same name.</source>
+        <target state="translated">Beachten Sie, dass beim Kategorie-Import kein Name doppelt vorkommen darf.</target>
+        <note>Line: 65</note>
+      </trans-unit>
+      <trans-unit id="b990d5cecd822de3b6922abcf71549b4" approved="yes">
+        <source>Note that you can have several products with the same reference.</source>
+        <target state="translated">Sie können mehrere Artikel mit dem gleichen Bezug erstellen.</target>
+        <note>Line: 66</note>
+      </trans-unit>
       <trans-unit id="613260718349db00d0b7b9c1eb77c76c" approved="yes">
         <source>Your file has been successfully imported into your shop. Don't forget to re-build the products' search index.</source>
         <target state="translated">Datei-Import erfolgreich! Bitte vergessen Sie nicht, den Suchindex für Artikel zu regenerieren.</target>
         <note>Line: 28</note>
       </trans-unit>
+      <trans-unit id="7ec8e6a8a53cd81e13594780931cfce5" approved="yes">
+        <source>Importing Supply Order Details will reset your history of ordered products, if there are any.</source>
+        <target state="translated">Beim Import von Lieferaufträgen wird eine eventuell vorhandene Bestellhistorie gelöscht.</target>
+        <note>Line: 70</note>
+      </trans-unit>
       <trans-unit id="df6e9862566912e908ef785e860f9c71" approved="yes">
         <source>Are you sure that you would like to delete this entity: </source>
         <target state="translated">Löschen bitte bestätigen für:  </target>
         <note>Line: 493</note>
+      </trans-unit>
+      <trans-unit id="83a1698a445036a9a65686ac61879794" approved="yes">
+        <source>You do not have permission to delete this. When the MultiStore mode is enabled, only a SuperAdmin can delete all items before an import.</source>
+        <target state="translated">Sie haben hier keine ausreichenden Löschrechte. Bei aktivierter Multishop-Funktion kann nur der Super-Admin alle Items vor dem Import löschen.</target>
+        <note>Line: 497</note>
       </trans-unit>
     </body>
   </file>
@@ -124,12 +153,20 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/request_sql/helpers/form/form.tpl" source-language="en" target-language="de" datatype="plaintext">
     <body>
-      
+      <trans-unit id="0fe194d9bb812c48dfe35a3cf6d0af52" approved="yes">
+        <source>Please choose a MySQL table</source>
+        <target state="translated">Bitte wählen Sie eine MySQL-Tabelle</target>
+        <note>Line: 49</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/request_sql/helpers/view/view.tpl" source-language="en" target-language="de" datatype="plaintext">
     <body>
-      
+      <trans-unit id="3be751fc7ab3f3ced8007796fe8bde7d" approved="yes">
+        <source>This SQL query has no result.</source>
+        <target state="translated">Kein Ergebnis für diese SQL-Abfrage</target>
+        <note>Line: 32</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/Mail.php" source-language="en" target-language="de" datatype="plaintext">
@@ -158,6 +195,11 @@
         <target state="translated">Kann kein Backup erstellen</target>
         <note>Line: 231</note>
       </trans-unit>
+      <trans-unit id="52033453d4d673bae012b9c8ccb1e79c" approved="yes">
+        <source>An error occurred while backing up. Unable to obtain the schema of %s</source>
+        <target state="translated">Beim Backup ist ein Fehler aufgetreten. Konnte auf Tabelle "%s" nicht zugreifen.</target>
+        <note>Line: 260</note>
+      </trans-unit>
       <trans-unit id="a12b8823ac5b71b9d09f9c7b09e54c48" approved="yes">
         <source>No valid tables were found to backup.</source>
         <target state="translated">Keine gültigen Tabellen gefunden für Backup.</target>
@@ -180,6 +222,11 @@
         <source>You cannot edit the SuperAdmin profile.</source>
         <target state="translated">Das SuperAdmin-Profil kann nicht bearbeitet werden.</target>
         <note>Line: 235</note>
+      </trans-unit>
+      <trans-unit id="cd34716bc68eb08479ddf16f17b2580e" approved="yes">
+        <source>The provided profile is invalid</source>
+        <target state="translated">Das bereitgestellte Profil ist ungültig</target>
+        <note>Line: 429</note>
       </trans-unit>
       <trans-unit id="f5d44b60e38b28d19549bb7a107654ca" approved="yes">
         <source>You cannot disable or delete your own account.</source>
@@ -216,6 +263,11 @@
         <target state="translated">Der Mitarbeiter muss mit mindestens einem Shop in Verbindung gebracht werden</target>
         <note>Line: 578</note>
       </trans-unit>
+      <trans-unit id="46cf0d0972e77638e099815140a0d302" approved="yes">
+        <source>The password must be at least %length% characters long.</source>
+        <target state="translated">Das Posswort muss mindestens %length% Zeichen haben.</target>
+        <note>Line: 594</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="de" datatype="plaintext">
@@ -244,6 +296,16 @@
         <source>A category can't be its own parent. You should rename it (current name: %1$s).</source>
         <target state="translated">Ein Kategorie darf nicht denselben Namen tragen wie die Eltern-Kategorie. Bitte benennen Sie sie um (aktueller Name: %1$s).</target>
         <note>Line: 1347</note>
+      </trans-unit>
+      <trans-unit id="1123af3eab25b7475419fcaecc6c3beb" approved="yes">
+        <source>%category_name% (ID: %id%) cannot be saved</source>
+        <target state="translated">%category_name% (ID: %id%) kann nicht gespeichert werden</target>
+        <note>Line: 1373</note>
+      </trans-unit>
+      <trans-unit id="6c1e9fe2a61808296a44cee372124bcb" approved="yes">
+        <source>URL rewriting failed to auto-generate a friendly URL for: %category_name%</source>
+        <target state="translated">URL-Rewriting konnte keine benutzerfreundliche URL automatisch generieren: %category_name%</target>
+        <note>Line: 1401</note>
       </trans-unit>
       <trans-unit id="4798b868d51d8e259321deff0452c0f9" approved="yes">
         <source>Rewrite link for %1$s (ID %2$s): re-written as %3$s.</source>
@@ -285,35 +347,90 @@
         <target state="translated">%data% kann nicht gespeichert werden</target>
         <note>Line: 3836</note>
       </trans-unit>
-      <trans-unit id="c2758df7a8c70260e3b55e26c51b65fd">
+      <trans-unit id="32fa1d06b5d0a192c9991c4bf038b30c" approved="yes">
+        <source>Shop is not valid</source>
+        <target state="translated">Shop ungültig</target>
+        <note>Line: 1993</note>
+      </trans-unit>
+      <trans-unit id="87aae49bd054f2cfa4b7b395dee5f2d3" approved="yes">
+        <source>Discount is invalid</source>
+        <target state="translated">Rabatt ungültig</target>
+        <note>Line: 2068</note>
+      </trans-unit>
+      <trans-unit id="664d4132fc8dc3a158be4692b4246528" approved="yes">
+        <source>Tags list is invalid</source>
+        <target state="translated">Stichwort-Liste ist ungültig</target>
+        <note>Line: 2098</note>
+      </trans-unit>
+      <trans-unit id="6170902c7935d644e280e440a28d5975" approved="yes">
+        <source>Error copying image: %url%</source>
+        <target state="translated">Das Bild konnte nicht kopiert werden: %url%</target>
+        <note>Line: 2471</note>
+      </trans-unit>
+      <trans-unit id="61e49f62654858f3cd3d9b23bee90d06" approved="yes">
+        <source>Product #%id%: the picture (%url%) cannot be saved.</source>
+        <target state="translated">Artikel-Nr. %id%: Bild (%url%) kann nicht gespeichert werden</target>
+        <note>Line: 2163</note>
+      </trans-unit>
+      <trans-unit id="c2758df7a8c70260e3b55e26c51b65fd" approved="yes">
         <source>Advanced stock management has incorrect value. Not set for product %name% </source>
-        <target state="needs-translation"> </target>
+        <target state="translated">Ungültiger Wert in der erweiterten Lagerverwaltung. Keine Angabe für den Artikel %name% </target>
         <note>Line: 2207</note>
       </trans-unit>
-      <trans-unit id="bb80841517f78647c5bee69710820c8d">
+      <trans-unit id="bb80841517f78647c5bee69710820c8d" approved="yes">
         <source>Advanced stock management is not enabled, cannot enable on product %name% </source>
-        <target state="needs-translation"> </target>
+        <target state="translated">Erweiterte Lagerverwaltung nicht aktiviert, kann nicht für Artikel %name% aktiviert werden </target>
         <note>Line: 2209</note>
       </trans-unit>
-      <trans-unit id="651e202913d9229ff615d5afd6a6a168">
+      <trans-unit id="651e202913d9229ff615d5afd6a6a168" approved="yes">
         <source>Advanced stock management is not enabled, warehouse not set on product %name% </source>
-        <target state="needs-translation"> </target>
+        <target state="translated">Erweiterte Lagerverwaltung nicht aktiviert, für Artikel %name% existiert kein Lager </target>
         <note>Line: 2222</note>
       </trans-unit>
-      <trans-unit id="470d8f3caa9e30c426f8d49779cc7a36">
+      <trans-unit id="470d8f3caa9e30c426f8d49779cc7a36" approved="yes">
         <source>Warehouse did not exist, cannot set on product  %name% </source>
-        <target state="needs-translation"> </target>
+        <target state="translated">Warenlager existiert nicht, kann für Artikel  %name% nicht gewählt werden </target>
         <note>Line: 2242</note>
       </trans-unit>
-      <trans-unit id="3d52f8b2b1a67aa8740b72b3752d54f3">
+      <trans-unit id="3d52f8b2b1a67aa8740b72b3752d54f3" approved="yes">
         <source>Incorrect value for "Depends on stock" for product %name% </source>
-        <target state="needs-translation"> </target>
+        <target state="translated">Falscher Wert für "abhängig vom Warenbestand" bei Artikel %name% </target>
         <note>Line: 2250</note>
       </trans-unit>
-      <trans-unit id="65167d7a989d3a25c4f81a7140b07b8f">
+      <trans-unit id="65167d7a989d3a25c4f81a7140b07b8f" approved="yes">
         <source>Advanced stock management is not enabled, cannot set "Depends on stock" for product %name% </source>
-        <target state="needs-translation"> </target>
+        <target state="translated">Erweiterte Lagerverwaltung deaktiviert, Option "abhängig vom Warenbestand" für Artikel %name% nicht möglich </target>
         <note>Line: 2788</note>
+      </trans-unit>
+      <trans-unit id="5c8707f79dbdd3abb28a8aa09e34f02f" approved="yes">
+        <source>No image was found for combination with id_product = %s and image position = %s.</source>
+        <target state="translated">Kein Bild vorhanden für Variante mit Artikel-ID %s und Bildposition = %s</target>
+        <note>Line: 2510</note>
+      </trans-unit>
+      <trans-unit id="b672cb1c6a798cfb9f54de7dd897abd8" approved="yes">
+        <source>EAN13 "%ean13%" has incorrect value for product with id %id%.</source>
+        <target state="translated">Der EAN13-Wert "%ean13%" ist ungültig für Artikel-Nr. %id%.</target>
+        <note>Line: 2630</note>
+      </trans-unit>
+      <trans-unit id="85b637ec0128d136bf3794c79f2e7295" approved="yes">
+        <source>Advanced stock management has incorrect value. Not set for product with id %id%.</source>
+        <target state="translated">Erweiterte Lagerverwaltung enthält ungültigen Wert. Eingabe für Artikel-ID %id% nicht möglich.</target>
+        <note>Line: 2747</note>
+      </trans-unit>
+      <trans-unit id="934b46cf9eb8a8595ca517b87de6bfb4" approved="yes">
+        <source>Advanced stock management is not enabled, cannot enable on product with id %id%.</source>
+        <target state="translated">Erweiterte Lagerverwaltung nicht aktiviert, kann nicht für Artikel-Nr. %id% aktiviert werden.</target>
+        <note>Line: 2749</note>
+      </trans-unit>
+      <trans-unit id="0081b2a315ed28289036fa6cc02a3819" approved="yes">
+        <source>Advanced stock management is not enabled, warehouse is not set on product with id %id%.</source>
+        <target state="translated">Erweiterte Lagerverwaltung nicht aktiviert, für Artikel-Nr. %id% existiert kein Lager.</target>
+        <note>Line: 2762</note>
+      </trans-unit>
+      <trans-unit id="c24928943071d3366164238b9413a211" approved="yes">
+        <source>Warehouse did not exist, cannot set on product %name%.</source>
+        <target state="translated">Warenlager existiert nicht, kann für Artikel %name% nicht gewählt werden.</target>
+        <note>Line: 2778</note>
       </trans-unit>
       <trans-unit id="fd6d9d3ba7d4aaacc49f53c2e8c082c0" approved="yes">
         <source>Email address %1$s (ID: %2$s) cannot be validated.</source>
@@ -335,6 +452,11 @@
         <target state="translated">%1$s existiert nicht in der Datenbank %2$s (ID: %3$s) und kann deshalb nicht gespeichert werden</target>
         <note>Line: 3274</note>
       </trans-unit>
+      <trans-unit id="b06766963f3b27f47f5e6ddf68d8f07e" approved="yes">
+        <source>"%email%" is not a valid email address.</source>
+        <target state="translated">"%email%" ist keine gültige E-Mailadresse.</target>
+        <note>Line: 3250</note>
+      </trans-unit>
       <trans-unit id="4a69d9da990728e003654d32a0b283a4" approved="yes">
         <source>The customer ID #%d does not exist in the database, and therefore cannot be validated.</source>
         <target state="translated">Die Kunden-Nr. %d existiert nicht in der Datenbank und kann deshalb nicht bestätigt werden.</target>
@@ -345,10 +467,110 @@
         <target state="translated">Speichern nicht möglich: Kunden-Nr. %d gibt es in der Datenbank nicht.</target>
         <note>Line: 3295</note>
       </trans-unit>
+      <trans-unit id="964e5a863ba051181f8f537626f5c953" approved="yes">
+        <source>Supplier is invalid</source>
+        <target state="translated">Lieferant ungültig</target>
+        <note>Line: 3624</note>
+      </trans-unit>
+      <trans-unit id="3cc21b7970c348679cb6a1323a2dc173" approved="yes">
+        <source>Alias is invalid</source>
+        <target state="translated">Alias ungültig</target>
+        <note>Line: 3701</note>
+      </trans-unit>
       <trans-unit id="52629716aa86c04b8d81bc7e9522463f" approved="yes">
         <source>Store is invalid</source>
         <target state="translated">Shop unbekannt</target>
         <note>Line: 3870</note>
+      </trans-unit>
+      <trans-unit id="2e73276e5106584df31fd1cc5823ba81" approved="yes">
+        <source>Supplier ID (%id%) is not valid (at line %line%).</source>
+        <target state="translated">ID Lieferant (%id%) (in Zeile %line%) ist nicht gültig.</target>
+        <note>Line: 3940</note>
+      </trans-unit>
+      <trans-unit id="5dbfdcc4de08ec893f55919dc4e872dc" approved="yes">
+        <source>Lang ID (%id%) is not valid (at line %line%).</source>
+        <target state="translated">ID Sprache (Nr. %id%) in Zeile %line% ist nicht gültig.</target>
+        <note>Line: 3943</note>
+      </trans-unit>
+      <trans-unit id="f0cf11a8f6275d2bac5a189cbb41c689" approved="yes">
+        <source>Warehouse ID (%id%) is not valid (at line %line%).</source>
+        <target state="translated">ID Lager (%id%) in Zeile %line% ist nicht gültig.</target>
+        <note>Line: 3946</note>
+      </trans-unit>
+      <trans-unit id="b390e8c2a66fd018293fb44a5b8208c8" approved="yes">
+        <source>Currency ID (%id%) is not valid (at line %line%).</source>
+        <target state="translated">ID Währung (%id%) in Zeile %line% ist nicht gültig.</target>
+        <note>Line: 3949</note>
+      </trans-unit>
+      <trans-unit id="41a2fc826e4bd29b8eaf497a89a9dc5d" approved="yes">
+        <source>Reference (%ref%) already exists (at line %line%).</source>
+        <target state="translated">Bestell-Nr. (%ref%) existiert bereits in Zeile %line%.</target>
+        <note>Line: 3955</note>
+      </trans-unit>
+      <trans-unit id="70e7a6fcceb39a1e3ea3925182b85d18" approved="yes">
+        <source>YYYY-MM-DD</source>
+        <target state="translated">JJJJ-MM-TT</target>
+        <note>Line: 3960</note>
+      </trans-unit>
+      <trans-unit id="c1be0fbaeb4e6b509e2f65240b7e5970" approved="yes">
+        <source>Date format (%date%) is not valid (at line %line%). It should be: %date_format%.</source>
+        <target state="translated">Datumsformat (%date%) in Zeile %line% ist nicht gültig. Format: %date_format%.</target>
+        <note>Line: 3958</note>
+      </trans-unit>
+      <trans-unit id="8cc169924951a04aea4f6a86334f3ce6" approved="yes">
+        <source>Date (%date%) cannot be in the past (at line %line%). Format: %date_format%.</source>
+        <target state="translated">Datum (%date%) in Zeile %line% darf nicht in der Vergangenheit liegen. Format: %date_format%</target>
+        <note>Line: 3960</note>
+      </trans-unit>
+      <trans-unit id="ef1a78ea7433cfc92f358d6dbf4fcd48" approved="yes">
+        <source>Format: Between 0 and 100</source>
+        <target state="translated">Format: zwischen 0 und 100</target>
+        <note>Line: 4121</note>
+      </trans-unit>
+      <trans-unit id="e0b985fb06e1498649ed1cfd6f3fb3e4" approved="yes">
+        <source>Discount rate (%rate%) is not valid (at line %line%). %format%.</source>
+        <target state="translated">Der Rabattsatz (%rate%) in Zeile %line% ist nicht zulässig. %format%.</target>
+        <note>Line: 3963</note>
+      </trans-unit>
+      <trans-unit id="3f2f635ad300e97bc217b69cc06dfc30" approved="yes">
+        <source>Supply Order (%id%) is not editable (at line %line%).</source>
+        <target state="translated">Bestellung (%id%) in Zeile %line% kann nicht geändert werden.</target>
+        <note>Line: 3968</note>
+      </trans-unit>
+      <trans-unit id="ad1ce5290a697ed3729cbd520432cf22" approved="yes">
+        <source>Supply Order could not be saved (at line %line%).</source>
+        <target state="translated">Die Bestellung (in Zeile %line%) konnte nicht gespeichert werden.</target>
+        <note>Line: 3999</note>
+      </trans-unit>
+      <trans-unit id="bb19d4490bdc48656603c0a7ef30db73" approved="yes">
+        <source>Supply Order (%s) could not be loaded (at line %d).</source>
+        <target state="translated">Die Bestellung (%s) konnte (in Zeile %d) nicht geladen werden.</target>
+        <note>Line: 4066</note>
+      </trans-unit>
+      <trans-unit id="5e063c49ce8203f2ca7a496da24b819e" approved="yes">
+        <source>Product/Attribute (%d/%d) cannot be added twice (at line %d).</source>
+        <target state="translated">Artikel (%d/%d) kann nicht zweimal hinzugefügt werden (s. in Zeile %d).</target>
+        <note>Line: 4084</note>
+      </trans-unit>
+      <trans-unit id="0a657a7416c29bdc5b134b61b863e7ee" approved="yes">
+        <source>Product (%d/%d) is not available for this order (at line %d).</source>
+        <target state="translated">Artikel (%d/%d) ist für diese Bestellung nicht verfügbar (s. Zeile %d) .</target>
+        <note>Line: 4096</note>
+      </trans-unit>
+      <trans-unit id="ca676c9ec4e1ae9fe9df3ac28910e6ef" approved="yes">
+        <source>Unit Price (tax excl.) (%d) is not valid (at line %d).</source>
+        <target state="translated">Netto-Stückpreis (%d) in Zeile %d ist nicht gültig.</target>
+        <note>Line: 4103</note>
+      </trans-unit>
+      <trans-unit id="406eba9770c82a84cae2d6ee3e846a56" approved="yes">
+        <source>Quantity Expected (%d) is not valid (at line %d).</source>
+        <target state="translated">Erwartete Menge (%d) in Zeile %d ist nicht gültig.</target>
+        <note>Line: 4118</note>
+      </trans-unit>
+      <trans-unit id="8f7627c77b01dc968a9665c0156da405" approved="yes">
+        <source>Discount rate (%d) is not valid (at line %d). %s.</source>
+        <target state="translated">Der Rabattsatz (%d) in Zeile %d ist nicht zulässig. %s.</target>
+        <note>Line: 4110</note>
       </trans-unit>
       <trans-unit id="243c959202a4f6ce7f1ccba6bc19ff08" approved="yes">
         <source>Cannot read the .CSV file</source>
@@ -360,10 +582,20 @@
         <target state="translated">Verknüpfe Zubehör...</target>
         <note>Line: 4475</note>
       </trans-unit>
+      <trans-unit id="d165f0c742c272ed88dc27acc91e2642" approved="yes">
+        <source>%s import</source>
+        <target state="translated">%s Importiert</target>
+        <note>Line: 4554</note>
+      </trans-unit>
       <trans-unit id="02b5205ddff3073efc5c8b5b9cc165ba" approved="yes">
         <source>(from %s to %s)</source>
         <target state="translated">(von %s bis %s)</target>
         <note>Line: 4556</note>
+      </trans-unit>
+      <trans-unit id="b53b06c0e98a2db123f953f0059a0948" approved="yes">
+        <source>with truncate</source>
+        <target state="translated">abgekürzt</target>
+        <note>Line: 4559</note>
       </trans-unit>
       <trans-unit id="32de857e46ef2b55ce3582004fef7a95" approved="yes">
         <source>The confirmation email couldn't be sent, but the import is successful. Yay!</source>
@@ -374,7 +606,11 @@
   </file>
   <file original="controllers/admin/AdminProfilesController.php" source-language="en" target-language="de" datatype="plaintext">
     <body>
-      
+      <trans-unit id="7d6f235518e595f4e988b6811d2ceeab" approved="yes">
+        <source>For security reasons, you cannot delete the Administrator's profile.</source>
+        <target state="translated">Aus Sicherheitsgründen können Sie das Administratorprofil nicht löschen.</target>
+        <note>Line: 101</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminRequestSqlController.php" source-language="en" target-language="de" datatype="plaintext">
@@ -397,6 +633,11 @@
         <source>Unable to load this shop.</source>
         <target state="translated">Kann den Shop nicht laden.</target>
         <note>Line: 265</note>
+      </trans-unit>
+      <trans-unit id="cf52c411b5659457074fd9962435307f" approved="yes">
+        <source>You need to select at least the root category.</source>
+        <target state="translated">Es muss zumindest die Hauptkategorie angegeben werden.</target>
+        <note>Line: 645</note>
       </trans-unit>
     </body>
   </file>
@@ -490,6 +731,171 @@
   </file>
   <file original="src/Adapter/Requirement/CheckRequirements.php" source-language="en" target-language="de" datatype="plaintext">
     <body>
+      <trans-unit id="4f32e16f17a3ba8527cd8160ad85de37" approved="yes">
+        <source>Update your PHP version.</source>
+        <target state="translated">Aktualisieren Sie Ihre PHP-Version.</target>
+        <note>Line: 101</note>
+      </trans-unit>
+      <trans-unit id="726f1a9982e9ced2818f72090683e077" approved="yes">
+        <source>Configure your server to allow file uploads.</source>
+        <target state="translated">Konfigurieren Sie Ihren Server so, dass der Datei-Upload erlaubt ist.</target>
+        <note>Line: 102</note>
+      </trans-unit>
+      <trans-unit id="ba29b5ac8580aaa26d3166f32da8ac10" approved="yes">
+        <source>Configure your server to allow the creation of directories and files with write permissions.</source>
+        <target state="translated">Konfigurieren Sie Ihren Server so, dass das Erstellen neuer Verzeichnisse und Dateien mit Schreibrechten erlaubt ist.</target>
+        <note>Line: 103</note>
+      </trans-unit>
+      <trans-unit id="98bbaed82b3e7d2b957be02ac1f91f36" approved="yes">
+        <source>Enable the CURL extension on your server.</source>
+        <target state="translated">Aktivieren Sie die cURL-Erweiterung auf Ihrem Server.</target>
+        <note>Line: 104</note>
+      </trans-unit>
+      <trans-unit id="36da7cbbc854d7861db49d5e82bf932b" approved="yes">
+        <source>Enable the DOM extension on your server.</source>
+        <target state="translated">Aktivieren Sie die DOM-Erweiterung auf Ihrem Server.</target>
+        <note>Line: 105</note>
+      </trans-unit>
+      <trans-unit id="3ac2fbb7427ea6dac01c40ed70350fb0" approved="yes">
+        <source>Enable the Fileinfo extension on your server.</source>
+        <target state="translated">Aktivieren Sie die Fileinfo-Erweiterung auf Ihrem Server.</target>
+        <note>Line: 106</note>
+      </trans-unit>
+      <trans-unit id="b5f353847bbb01ca0feda2a3b0e5b1a9" approved="yes">
+        <source>Enable the GD library on your server.</source>
+        <target state="translated">Aktivieren der GD-Bibliothek auf Ihrem Server</target>
+        <note>Line: 107</note>
+      </trans-unit>
+      <trans-unit id="ebcb30cdf6fa4833f9e0115eb92deb7a" approved="yes">
+        <source>Enable the JSON extension on your server.</source>
+        <target state="translated">Aktivieren Sie die JSON-Erweiterung auf Ihrem Server.</target>
+        <note>Line: 108</note>
+      </trans-unit>
+      <trans-unit id="4212b25cc6780f5551bcaadeca27c791" approved="yes">
+        <source>Enable the Mbstring extension on your server.</source>
+        <target state="translated">Aktivieren Sie die Mbstring-Erweiterung auf Ihrem Server.</target>
+        <note>Line: 109</note>
+      </trans-unit>
+      <trans-unit id="aa08f94ed008490c748301ea5db9568b" approved="yes">
+        <source>Enable the OpenSSL extension on your server.</source>
+        <target state="translated">Aktivieren Sie die OpenSSL-Erweiterung auf Ihrem Server.</target>
+        <note>Line: 110</note>
+      </trans-unit>
+      <trans-unit id="a06111807d1bd6e8dd420e7ee5d0b0f8" approved="yes">
+        <source>Enable the PDO Mysql extension on your server.</source>
+        <target state="translated">Aktivieren Sie die PDO Mysql-Erweiterung auf Ihrem Server.</target>
+        <note>Line: 111</note>
+      </trans-unit>
+      <trans-unit id="60575cad0e1f106447cb0dfa37c01daf" approved="yes">
+        <source>Enable the XML extension on your server.</source>
+        <target state="translated">XML-Erweiterung auf Ihrem Server aktivieren</target>
+        <note>Line: 112</note>
+      </trans-unit>
+      <trans-unit id="cc4c22b3f8726001cf1c1663cd4845c2" approved="yes">
+        <source>Enable the ZIP extension on your server.</source>
+        <target state="translated">Aktivieren Sie die GZIP-Komprimierung auf Ihrem Server.</target>
+        <note>Line: 113</note>
+      </trans-unit>
+      <trans-unit id="4fc7f05f412a1684ce4996e51ffff7fe" approved="yes">
+        <source>Enable the MySQL support on your server.</source>
+        <target state="translated">Aktivieren der MySQL-Unterstützung auf Ihrem Server</target>
+        <note>Line: 114</note>
+      </trans-unit>
+      <trans-unit id="fbc80a46761028390cb9f217affc1ad4" approved="yes">
+        <source>Set write permissions for the "config" folder.</source>
+        <target state="translated">Schreibrechte für Verzeichnis "config" definieren.</target>
+        <note>Line: 115</note>
+      </trans-unit>
+      <trans-unit id="d667dd7ea28dcabe347120a1ea277658" approved="yes">
+        <source>Set write permissions for the "cache" folder.</source>
+        <target state="translated">Schreibrechte im Verzeichnis "cache" definieren</target>
+        <note>Line: 116</note>
+      </trans-unit>
+      <trans-unit id="9c05ffb08aed8df408a9338efa0de1ce" approved="yes">
+        <source>Set write permissions for the "sitemap.xml" file.</source>
+        <target state="translated">Bitte Schreibrechte für Datei "sitemap.xml" setzen!</target>
+        <note>Line: 117</note>
+      </trans-unit>
+      <trans-unit id="515ba9f393d74cfb3a8551b171652f4d" approved="yes">
+        <source>Set write permissions for the "img" folder and subfolders.</source>
+        <target state="translated">Schreibrechte für "img"-Verzeichnis und Unterverzeichnisse setzen</target>
+        <note>Line: 118</note>
+      </trans-unit>
+      <trans-unit id="5c482561c321c3f8b1ed436afdfab4aa" approved="yes">
+        <source>Set write permissions for the "log" folder and subfolders.</source>
+        <target state="translated">Schreibrechte für das "log"-Verzeichnis und Unterverzeichnisse setzen.</target>
+        <note>Line: 119</note>
+      </trans-unit>
+      <trans-unit id="fea054b13666afb1d5d776afb925d288" approved="yes">
+        <source>Set write permissions for the "mails" folder and subfolders.</source>
+        <target state="translated">Schreibrechte für "E-Mails"-Verzeichnis und Unterverzeichnisse rekursiv setzen</target>
+        <note>Line: 120</note>
+      </trans-unit>
+      <trans-unit id="5a44bd60b36b50f3dafd07404ebce84d" approved="yes">
+        <source>Set write permissions for the "modules" folder and subfolders.</source>
+        <target state="translated">Schreibrechte für "modules"-Verzeichnis und Unterverzeichnisse rekursiv setzen</target>
+        <note>Line: 121</note>
+      </trans-unit>
+      <trans-unit id="e1bb8996c82be1d540c7cc0d409bcd2f" approved="yes">
+        <source>Set write permissions for the "themes/%s/cache/" folder and subfolders, recursively.</source>
+        <target state="translated">Legen Sie die rekursiven Schreibrechte für Verzeichnis und Unterverzeichnisse von "themes/%s/cache/" fest.</target>
+        <note>Line: 122</note>
+      </trans-unit>
+      <trans-unit id="9c56996f2d8597e1f4ff15556128ee7d" approved="yes">
+        <source>Set write permissions for the "themes/%s/lang/" folder and subfolders, recursively.</source>
+        <target state="translated">Legen Sie die rekursiven Schreibrechte für Verzeichnis und Unterverzeichnisse von "themes/%s/lang/" fest.</target>
+        <note>Line: 123</note>
+      </trans-unit>
+      <trans-unit id="cf707d7f4da3b1134a8c9470fae8720c" approved="yes">
+        <source>Set write permissions for the "themes/%s/pdf/lang/" folder and subfolders, recursively.</source>
+        <target state="translated">Legen Sie die rekursiven Schreibrechte für Verzeichnis und Unterverzeichnisse von "themes/%s/pdf/lang/" fest.</target>
+        <note>Line: 124</note>
+      </trans-unit>
+      <trans-unit id="c0bda45f4bd14c8138cc5107c813167f" approved="yes">
+        <source>Set write permissions for the "app/config/" folder and subfolders, recursively.</source>
+        <target state="translated">Legen Sie die rekursiven Schreibrechte für Verzeichnis und Unterverzeichnisse von "app/config/" fest.</target>
+        <note>Line: 125</note>
+      </trans-unit>
+      <trans-unit id="c64f03a0316f495425715feacdddb42a" approved="yes">
+        <source>Set write permissions for the "app/Resources/translations/" folder and subfolders, recursively.</source>
+        <target state="translated">Legen Sie die rekursiven Schreibrechte für Verzeichnis und Unterverzeichnisse von "app/Resources/translations/" fest.</target>
+        <note>Line: 126</note>
+      </trans-unit>
+      <trans-unit id="fed1803fba6b27ae43103e333a5600eb" approved="yes">
+        <source>Set write permissions for the "translations" folder and subfolders.</source>
+        <target state="translated">Schreibrechte für "translations"-Verzeichnis und Unterverzeichnisse rekursiv setzen</target>
+        <note>Line: 127</note>
+      </trans-unit>
+      <trans-unit id="94f3a2dc6474b8b097c257fa1da2c9e1" approved="yes">
+        <source>Set write permissions for the "upload" folder and subfolders.</source>
+        <target state="translated">Schreibrechte für "upload"-Verzeichnis und Unterordner rekursiv setzen.</target>
+        <note>Line: 128</note>
+      </trans-unit>
+      <trans-unit id="dbbb85913376aec586b97adc72268a5c" approved="yes">
+        <source>Set write permissions for the "download" folder and subfolders.</source>
+        <target state="translated">Schreibrechte für "download"-Verzeichnis und Unterverzeichnisse rekursiv setzen</target>
+        <note>Line: 129</note>
+      </trans-unit>
+      <trans-unit id="4993d8516d8737159bcd735ca8075e6e" approved="yes">
+        <source>Allow the PHP fopen() function on your server.</source>
+        <target state="translated">Aktivieren Sie die PHP-Fumktion fopen() auf Ihrem Server.</target>
+        <note>Line: 130</note>
+      </trans-unit>
+      <trans-unit id="4a344651fb10eb9e339838fab7bb97ae" approved="yes">
+        <source>Enable GZIP compression on your server.</source>
+        <target state="translated">GZIP-Komprimierung aktivieren</target>
+        <note>Line: 131</note>
+      </trans-unit>
+      <trans-unit id="0996c7cf8e7f49f54d15b68262a6b68d" approved="yes">
+        <source>Some PrestaShop files are missing from your server.</source>
+        <target state="translated">Auf Ihrem Server fehlen einige PrestaShop-Dateien.</target>
+        <note>Line: 132</note>
+      </trans-unit>
+      <trans-unit id="e567554b1238bc9e85e38b01e6b198e9" approved="yes">
+        <source>You are using PHP %s version. Soon, the latest PHP version supported by PrestaShop will be PHP 5.6. To make sure you’re ready for the future, we recommend you to upgrade to PHP 5.6 now!</source>
+        <target state="translated">Sie verwenden die PHP Version %s. Die aktuellste von Prestashop unterstützte Version wird künftig PHP 5.6 sein. Um für die Zukunft gerüstet zu sein, sollten Sie jetzt ein Upgrade auf PHP 5.6 durchführen!</target>
+        <note>Line: 133</note>
+      </trans-unit>
       <trans-unit id="0b9193ca4af6867c1f50a07097254b62" approved="yes">
         <source>Enable the Apache mod_rewrite module</source>
         <target state="translated">Apache-Module mod_rewrite aktivieren</target>
@@ -544,6 +950,11 @@
         <target state="translated">Wenn mehrere Tabellen verwendet werden, muss jede Variante auf eine Tabelle verweisen.</target>
         <note>Line: 373</note>
       </trans-unit>
+      <trans-unit id="8ff8844bb02822975904934598298987" approved="yes">
+        <source>"%key%" is an unauthorized keyword.</source>
+        <target state="translated">"%key%" ist ein nicht autorisiertes Schlüsselwort.</target>
+        <note>Line: 407</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Upload/UploadQuotaConfiguration.php" source-language="en" target-language="de" datatype="plaintext">
@@ -557,6 +968,11 @@
   </file>
   <file original="src/Core/Import/File/FileUploader.php" source-language="en" target-language="de" datatype="plaintext">
     <body>
+      <trans-unit id="8c9067e52e4440d8a20e74fdc745b0c6" approved="yes">
+        <source>No file was uploaded.</source>
+        <target state="translated">Es ist kein Datei-Upload erfolgt</target>
+        <note>Line: 121</note>
+      </trans-unit>
       <trans-unit id="68e8d36b17584f88614fb3201925a7ac" approved="yes">
         <source>The uploaded file exceeds the upload_max_filesize directive in php.ini. If your server configuration allows it, you may add a directive in your .htaccess.</source>
         <target state="translated">Die hochgeladene Datei überschreitet die upload_max_filesize Direktive in der php.ini. Passen Sie diese bitte an, wenn Ihre Serverkonfiguration das erlaubt.</target>
@@ -577,20 +993,59 @@
         <target state="translated">Die Dateiendung muss .csv lauten.</target>
         <note>Line: 130</note>
       </trans-unit>
+      <trans-unit id="50844c635a86264cc59d737d532df573" approved="yes">
+        <source>An error occurred while uploading / copying the file.</source>
+        <target state="translated">Fehler beim Upload und Kopierem der Datei</target>
+        <note>Line: 90</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Core/Webservice/ServerRequirementsChecker.php" source-language="en" target-language="de" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
+      <trans-unit id="3a1d42e50ada009f2ef187fbf6dc8a3f" approved="yes">
+        <source>To avoid operating problems, please use an Apache server.</source>
+        <target state="translated">Um technische Probleme mit diesem Web-Service zu vermeiden, nutzen Sie bitte einen Apache-Server</target>
+        <note>Line: 156</note>
+      </trans-unit>
+      <trans-unit id="d6305f2f8c5c0f95a367e618a64bb458" approved="yes">
+        <source>Please activate the 'mod_auth_basic' Apache module to allow authentication of PrestaShop's webservice.</source>
+        <target state="translated">Bitte aktivieren Sie das Apache-Modul 'mod_auth_basic', um die Authentifizierung von PrestaShops webservice zu ermöglichen.</target>
+        <note>Line: 161</note>
+      </trans-unit>
+      <trans-unit id="e11a22a5910f9f84a6630ee78e1a39f5" approved="yes">
+        <source>Please activate the 'mod_rewrite' Apache module to allow the PrestaShop webservice.</source>
+        <target state="translated">Bitte aktivieren Sie das Apache-Modul 'mod_rewrite', um PrestaShops webservice zu ermöglichen.</target>
+        <note>Line: 166</note>
+      </trans-unit>
+      <trans-unit id="2c19e4b707a422ddbbc4d1c32966661d" approved="yes">
+        <source>We could not check to see if basic authentication and rewrite extensions have been activated. Please manually check if they've been activated in order to use the PrestaShop webservice.</source>
+        <target state="translated">Wir konnten nicht prüfen, ob die Authentifizierung und rewrite-Erweiterung aktiviert sind. Um den Webservice von PrestaShop nutzen zu können, sollten Sie dies manuell überprüfen und ggf. sicherstellen.</target>
+        <note>Line: 171</note>
+      </trans-unit>
+      <trans-unit id="ab60321a106f1e1ab65b76c1ca15dd7c" approved="yes">
+        <source>Please activate the 'SimpleXML' PHP extension to allow testing of PrestaShop's webservice.</source>
+        <target state="translated">Bitte aktivieren Sie die PHP-Erweiterung  'SimpleXML', um den Test von PrestaShops webservice zu ermöglichen.</target>
+        <note>Line: 176</note>
+      </trans-unit>
+      <trans-unit id="0508bbb36fb6b5db31edf2f45cd687ea" approved="yes">
+        <source>It is preferable to use SSL (https:) for webservice calls, as it avoids the "man in the middle" type security issues.</source>
+        <target state="translated">Wenn Sie die Möglichkeit haben, wäre es besser, SSL (https) für Verbindungen zum Web-Service zu verwenden, das verhindert "Man in the middle"-Angriffe.</target>
+        <note>Line: 181</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/BackupController.php" source-language="en" target-language="de" datatype="plaintext">
     <body>
+      <trans-unit id="f36c9a20c2ce51f491c944e41fde5ace" approved="yes">
+        <source>It appears the backup was successful, however you must download and carefully verify the backup file before proceeding.</source>
+        <target state="translated">Backup . Sie sollten trotzdem die Backup-Datei downloaden und sorgfältig überprüfen, bevor Sie fortfahren.</target>
+        <note>Line: 161</note>
+      </trans-unit>
+      <trans-unit id="2c7338ad06a6bb0747b0d432c33464ce" approved="yes">
+        <source>The "Backups" directory located in the admin directory must be writable (CHMOD 755 / 777).</source>
+        <target state="translated">Der Verzeichnis "Backups" im Verzeichnis "admin" muss Schreibrechte besitzen (CHMOD 755 / 777).</target>
+        <note>Line: 171</note>
+      </trans-unit>
       <trans-unit id="fe7ff4ed0a66abe86361ba0f8d6e919a" approved="yes">
         <source>The backup file does not exist</source>
         <target state="translated">Backupdatei existiert nicht</target>
@@ -609,6 +1064,11 @@
         <source>The import directory doesn't exist. Please check your file path.</source>
         <target state="translated">Das Importverzeichnis existiert nicht. Bitte überprüfen Sie Ihre Pfadangabe.</target>
         <note>Line: 67</note>
+      </trans-unit>
+      <trans-unit id="c775530fad852632f78395a11820ba23" approved="yes">
+        <source>The import directory must be writable (CHMOD 755 / 777).</source>
+        <target state="translated">Import-Verzeichnis muss Schreibrechte haben (CHMOD 755 / 777).</target>
+        <note>Line: 79</note>
       </trans-unit>
     </body>
   </file>
@@ -637,10 +1097,26 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/CachingType.php" source-language="en" target-language="de" datatype="plaintext">
     <body>
-      
-      
-      
-      
+      <trans-unit id="023d53a99c8074e823e5b2db4c19dfa4" approved="yes">
+        <source>(you must install the [a]Memcache PECL extension[/a])</source>
+        <target state="translated">(Sie müssen die [a]Memcache PECL-Erweiterung[/a] installieren) </target>
+        <note>Line: 120</note>
+      </trans-unit>
+      <trans-unit id="82742001d67f4446f50d68908f0f8b96" approved="yes">
+        <source>(you must install the [a]Memcached PECL extension[/a])</source>
+        <target state="translated">(die [a]Memcached PECL Erweiterung[/a] muss installiert sein)</target>
+        <note>Line: 130</note>
+      </trans-unit>
+      <trans-unit id="78ae94b19fc38f9a35d20bc67cde2d61" approved="yes">
+        <source>(you must install the [a]APC PECL extension[/a])</source>
+        <target state="translated">(Sie müssen die [a]APC PECL-Erweiterung[/a] installieren) </target>
+        <note>Line: 140</note>
+      </trans-unit>
+      <trans-unit id="8b763a82c2aa7875f3da39399ba350d7" approved="yes">
+        <source>(you must install the [a]Xcache extension[/a])</source>
+        <target state="translated">(Sie müssen die [a]Xcache-Erweiterung[/a] installieren) </target>
+        <note>Line: 150</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Import/ImportFormDataProvider.php" source-language="en" target-language="de" datatype="plaintext">
@@ -654,34 +1130,108 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Backup/Blocks/backup_form.html.twig" source-language="en" target-language="de" datatype="plaintext">
     <body>
-      
+      <trans-unit id="5b739e824ccebf9cd8c5b4ef774c59a7" approved="yes">
+        <source>I have read the disclaimer. Please create a new backup.</source>
+        <target state="translated">Ich habe den Haftungsausschluss zur Kenntnis genommen. Hier klicken und Backup erstellen.</target>
+        <note>Line: 32</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Backup/Blocks/backup_info.html.twig" source-language="en" target-language="de" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
+      <trans-unit id="088e7482af32200b588d22e5f0af4f94" approved="yes">
+        <source>How to restore a database backup</source>
+        <target state="translated">Wie das Datenbankbackup wieder herstellen</target>
+        <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="bcb4db2b36ea3b1e20e5ee4aa9a68665" approved="yes">
+        <source>If you need to restore a database backup, we invite you to subscribe to a [1][2]technical support plan[/2][/1].</source>
+        <target state="translated">Falls Ihre Datenbank wiederhergestellt werden muss, melden Sie sich bitte für unseren [1][2]Technischen Support[/2][/1] an.</target>
+        <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="0929b3759c8eef31c299400f513072dd" approved="yes">
+        <source>Our team will take care of restoring your database safely.</source>
+        <target state="translated">Unsere Team wird Ihre Datenbank sicher wiederherstellen.</target>
+        <note>Line: 31</note>
+      </trans-unit>
+      <trans-unit id="c4b6a12f5f4cbbeb2353a718ee9a8a9a" approved="yes">
+        <source>Why can't I restore it by myself?</source>
+        <target state="translated">Kann man die Wiederherstellung auch selbst durchführen?</target>
+        <note>Line: 33</note>
+      </trans-unit>
+      <trans-unit id="d4ef96663955ee203ce986ef40945199" approved="yes">
+        <source>Your shop is hosted by PrestaShop. Although you can create backup files here below, there are core settings you cannot access for security reasons, like the database management. Thus, only our team can proceed to a restoration.</source>
+        <target state="translated">Ihr Shop wird von PrestaShop gehostet. Sie können zwar weiter unten ein Backup erzeugen, aber aus Sicherheitsgründen haben Sie keinen direkten Zugriff auf die Datenbank. Deshalb kann nur unser Team eine Wiederherstellung durchführen.</target>
+        <note>Line: 34</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Backup/Blocks/backup_warning.html.twig" source-language="en" target-language="de" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="54ee283a75b8a8a38f0b4996e4e69db5" approved="yes">
+        <source>Disclaimer before creating a new backup</source>
+        <target state="translated">Haftungsausschluss für die Backuperstellung</target>
+        <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="0869c85782ee2481b83a9f580a09e963" approved="yes">
+        <source>PrestaShop is not responsible for your database, its backups and/or recovery.</source>
+        <target state="translated">Prestashop ist nicht für Ihre Datenbank, Backups, oder Wiederherstellungsdaten verantwortlich.</target>
+        <note>Line: 31</note>
+      </trans-unit>
+      <trans-unit id="cc6f77e8d23517366b4380f9a180655f" approved="yes">
+        <source>PrestaShop is open-source software. You are using it at your own risk under the license agreement.</source>
+        <target state="translated">Prestashop ist eine Open-Source-Software, die Sie gemäß Lizenzvereinbarung auf eigene Gefahr verwenden.</target>
+        <note>Line: 32</note>
+      </trans-unit>
+      <trans-unit id="99c8acd81f347dd6268fda9bf9e61b97" approved="yes">
+        <source>You should back up your data on a regular basis (both files and database).</source>
+        <target state="translated">Sichern Sie regelmäßig Ihre Daten (sowohl Dateien wie die Datenbank).</target>
+        <note>Line: 33</note>
+      </trans-unit>
+      <trans-unit id="4d247cbe2dbd06ce20b9affd635e7982" approved="yes">
+        <source>This function only backs up your database, not your files.</source>
+        <target state="translated">Beachten Sie, dass hier nur die Datenbank gesichert wird, aber nicht Ihre Dateien.</target>
+        <note>Line: 34</note>
+      </trans-unit>
+      <trans-unit id="b2a110974050263fde4c0c7cf15013b3" approved="yes">
+        <source>By default, your existing database tables will be dropped during the backup recovery (see "Backup options" below).</source>
+        <target state="translated">Standardmäßig werden die vorhandenen Datenbank-Tabellen während der Backup-Wiederherstellung gelöscht (siehe "Backup-Optionen" weiter unten).</target>
+        <note>Line: 35</note>
+      </trans-unit>
+      <trans-unit id="dba49284eb0830e849635506a961aa7c" approved="yes">
+        <source>Always verify the quality and integrity of your backup files!</source>
+        <target state="translated">Überprüfen Sie immer die Qualität und Vollständigkeit Ihres Backups!</target>
+        <note>Line: 36</note>
+      </trans-unit>
+      <trans-unit id="5cb0e756d153cfcfac763077a5f0628c" approved="yes">
+        <source>Always verify that your backup files are complete, up-to-date and valid, even if you had a success message appear during the backup process.</source>
+        <target state="translated">Stellen Sie immer sicher, dass Ihre Backups komplett, aktuell und funktionstüchtig sind. Sogar, wenn Sie eine e Bestätigung erhalten haben.</target>
+        <note>Line: 37</note>
+      </trans-unit>
+      <trans-unit id="0dc51a7afc30b342b827df535ff616f2" approved="yes">
+        <source>Always check your data.</source>
+        <target state="translated">Überprüfen Sie stets Ihre Daten.</target>
+        <note>Line: 38</note>
+      </trans-unit>
+      <trans-unit id="804206afa5249349d8bfea4cc78c48d7" approved="yes">
+        <source>Never restore a backup on a live site.</source>
+        <target state="translated">Spielen Sie nie ein Backup ein, ohne zuvor den Shop für Wartungszwecke deaktiviert zu haben!</target>
+        <note>Line: 39</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Backup/download_view.html.twig" source-language="en" target-language="de" datatype="plaintext">
     <body>
+      <trans-unit id="cd7fa1b4a137bf4da20f84bed6624fa5" approved="yes">
+        <source>Beginning the download ...</source>
+        <target state="translated">Download wird gestartet ...</target>
+        <note>Line: 41</note>
+      </trans-unit>
+      <trans-unit id="6a278621d6f2e7dbd56c7beca4081e2d" approved="yes">
+        <source>Backup files should automatically start downloading.</source>
+        <target state="translated">Der Backup-Download sollte automatisch starten.</target>
+        <note>Line: 44</note>
+      </trans-unit>
       <trans-unit id="da61b0c3311560af7fa1d9a515b309f6" approved="yes">
         <source>If not,[1][2] please click here[/1]!</source>
         <target state="translated">Wenn nein, [1][2] klicken Sie bitte hier[/1]!</target>
@@ -696,16 +1246,29 @@
         <target state="translated">Löschen bitte bestätigen für: </target>
         <note>Line: 29</note>
       </trans-unit>
+      <trans-unit id="e4cdcd51e6cf787d4ecc7d813f0c23cb" approved="yes">
+        <source>The locale must be installed</source>
+        <target state="translated">Das Gebietsschema muss installiert sein</target>
+        <note>Line: 112</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Email/Blocks/smtp_configuration.html.twig" source-language="en" target-language="de" datatype="plaintext">
     <body>
-      
+      <trans-unit id="5b8df4265c79cd43831e740281850c84" approved="yes">
+        <source>SSL does not seem to be available on your server.</source>
+        <target state="translated">SSL scheint nicht verfügbar zu sein.</target>
+        <note>Line: 74</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/RequestSql/list.html.twig" source-language="en" target-language="de" datatype="plaintext">
     <body>
-      
+      <trans-unit id="0ee028bcc2a0101d4d65745086eefc03" approved="yes">
+        <source>When saving the query, only the "SELECT" SQL statement is allowed.</source>
+        <target state="translated">Wenn die Abfrage gespeichert werden soll, ist nur der Abfragetyp "SELECT" erlaubt.</target>
+        <note>Line: 50</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/memcache_servers.html.twig" source-language="en" target-language="de" datatype="plaintext">
@@ -723,6 +1286,36 @@
         <source>OK</source>
         <target state="translated">OK</target>
         <note>Line: 209</note>
+      </trans-unit>
+      <trans-unit id="2ad1ffcbe2184ed25baa66baece8908b" approved="yes">
+        <source>Please fix the following error(s)</source>
+        <target state="translated">Bitte prüfen Sie folgende(n) Fehler</target>
+        <note>Line: 212</note>
+      </trans-unit>
+      <trans-unit id="d5df5b42d8fa5fed36fbd1cda0112f40" approved="yes">
+        <source>Checking files...</source>
+        <target state="translated">Überprüfe Dateien...</target>
+        <note>Line: 235</note>
+      </trans-unit>
+      <trans-unit id="a2db667abfde7a08ee094d460102f268" approved="yes">
+        <source>Missing files</source>
+        <target state="translated">Fehlende Dateien</target>
+        <note>Line: 245</note>
+      </trans-unit>
+      <trans-unit id="b5871613cbf4ab8b21d528ff2576fcbf" approved="yes">
+        <source>Updated files</source>
+        <target state="translated">Aktualisierte Dateien</target>
+        <note>Line: 246</note>
+      </trans-unit>
+      <trans-unit id="c49d6d58d1c98f34a15bbd169f82961a" approved="yes">
+        <source>Changed/missing files have been detected.</source>
+        <target state="translated">Folgende Dateien wurden geändert oder fehlen:</target>
+        <note>Line: 247</note>
+      </trans-unit>
+      <trans-unit id="4757718002cbae6feee5c372b66b6a29" approved="yes">
+        <source>No change has been detected in your files.</source>
+        <target state="translated">Ihre Dateien wurden nicht geändert.</target>
+        <note>Line: 248</note>
       </trans-unit>
     </body>
   </file>
