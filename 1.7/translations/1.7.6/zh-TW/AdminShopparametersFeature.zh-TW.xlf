@@ -223,6 +223,11 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
         <target state="translated">客戶服務</target>
         <note>Line: 27</note>
       </trans-unit>
+      <trans-unit id="e335310ef456f61ede772356e5ece2aa" approved="yes">
+        <source>If a technical problem occurs on this website</source>
+        <target state="translated">如果本網站出現技術問題</target>
+        <note>Line: 28</note>
+      </trans-unit>
       <trans-unit id="c41c56aaf2db6aadfcdbe7e46422607d" approved="yes">
         <source>For any question about a product, an order</source>
         <target state="translated">關於商品或訂購問題</target>
@@ -493,6 +498,11 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
         <target state="translated">不包含</target>
         <note>Line: 344</note>
       </trans-unit>
+      <trans-unit id="efc92fb772a0037d7b1fab20dff56a85" approved="yes">
+        <source>Request URI</source>
+        <target state="translated">徵求 URI</target>
+        <note>Line: 340</note>
+      </trans-unit>
       <trans-unit id="71bbbb5468f517f3508ac436977f4dd4" approved="yes">
         <source>Technical information -- Expert mode</source>
         <target state="translated">技術信息 - 專家模式</target>
@@ -602,6 +612,11 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
         <target state="translated">建議您在商品名稱或編號使用比較大的文字權重，這會讓搜尋結果更加精確</target>
         <note>Line: 226</note>
       </trans-unit>
+      <trans-unit id="15b481c8ea8041ab6000bec80b97db5a" approved="yes">
+        <source>Setting a weight to 0 will exclude that field from search index. Re-build of the entire index is required when changing to or from 0</source>
+        <target state="translated">設定權重為 0 將會從搜尋索引中排除該欄位。當更改為 0 或是由 0 開始時，需重建整個索引。</target>
+        <note>Line: 231</note>
+      </trans-unit>
       <trans-unit id="76a591808a254d4094e1c43f937b834f" approved="yes">
         <source>Product name weight</source>
         <target state="translated">商品名稱衡量</target>
@@ -626,6 +641,11 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
         <source>Category weight</source>
         <target state="translated">分類衡量</target>
         <note>Line: 265</note>
+      </trans-unit>
+      <trans-unit id="3474b76644954c739226a10127d83329" approved="yes">
+        <source>Brand weight</source>
+        <target state="translated">品牌權重</target>
+        <note>Line: 271</note>
       </trans-unit>
       <trans-unit id="c152439199cebb7e1c27633efeaf1eda" approved="yes">
         <source>Tags weight</source>
@@ -1213,6 +1233,11 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
         <target state="translated">要求出生日期</target>
         <note>Line: 66</note>
       </trans-unit>
+      <trans-unit id="a5e968e6a3689ca07bbdbecb6b0710ff" approved="yes">
+        <source>Enable partner offers</source>
+        <target state="translated">啟用合作夥伴優惠</target>
+        <note>Line: 73</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/Blocks/product_preferences_general.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -1286,6 +1311,11 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
         <target state="translated">產品有屬性時顯示 "加入到購物車" 按鈕</target>
         <note>Line: 63</note>
       </trans-unit>
+      <trans-unit id="0a91cf360875af4259f26bc7e2971132" approved="yes">
+        <source>Separator of attribute anchor on the product links</source>
+        <target state="translated">商品鏈接上的屬性錨點分隔符</target>
+        <note>Line: 71</note>
+      </trans-unit>
       <trans-unit id="f7699b3d1af7fe3cdb3a6ff301940fdf" approved="yes">
         <source>Display discounted price</source>
         <target state="translated">顯示折後價</target>
@@ -1334,6 +1364,21 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
         <target state="translated">啟用倉庫管理：</target>
         <note>Line: 46</note>
       </trans-unit>
+      <trans-unit id="966c11f36eeb298187639eea581a7522" approved="yes">
+        <source>Label of in-stock products</source>
+        <target state="translated">有庫存商品標籤</target>
+        <note>Line: 55</note>
+      </trans-unit>
+      <trans-unit id="3385e522bc49e8f8fcb008788bc1762d" approved="yes">
+        <source>Label of out-of-stock products with allowed backorders</source>
+        <target state="translated">缺貨商品標籤（允許延期交貨）</target>
+        <note>Line: 64</note>
+      </trans-unit>
+      <trans-unit id="d79daa535ef1e90b7b1230b501b7b6c6" approved="yes">
+        <source>Label of out-of-stock products with denied backorders</source>
+        <target state="translated">缺貨商品標籤（拒絕延期交貨）</target>
+        <note>Line: 73</note>
+      </trans-unit>
       <trans-unit id="480cb944a0974a27ec0f964de23a18f4" approved="yes">
         <source>Delivery time of in-stock products</source>
         <target state="translated">庫存商品的送貨時間</target>
@@ -1343,6 +1388,11 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
         <source>Leave empty to disable</source>
         <target state="translated">留空以停用</target>
         <note>Line: 93</note>
+      </trans-unit>
+      <trans-unit id="d8b9fadcb2c1164975877a18731b1f4a" approved="yes">
+        <source>Delivery time of out-of-stock products with allowed backorders</source>
+        <target state="translated">已經缺貨但允許下單商品的送貨時間</target>
+        <note>Line: 89</note>
       </trans-unit>
       <trans-unit id="65055b5469b4ad0c6f799ad782d1ebe5" approved="yes">
         <source>Default pack stock management</source>
@@ -1525,8 +1575,16 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/TrafficSeo/Meta/Blocks/seo_options_configuration.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="49b28884b3ba83e6b5379973a3e1873f" approved="yes">
+        <source>SEO options</source>
+        <target state="translated">SEO 選項</target>
+        <note>Line: 32</note>
+      </trans-unit>
+      <trans-unit id="18a405e3df98774d6fe16c522825ca02" approved="yes">
+        <source>Display attributes in the product meta title</source>
+        <target state="translated">在商品元標題中顯示屬性</target>
+        <note>Line: 38</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/TrafficSeo/Meta/Blocks/set_up_urls_configuration.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -1599,10 +1657,20 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
         <target state="translated">到分類路徑</target>
         <note>Line: 65</note>
       </trans-unit>
+      <trans-unit id="e5bcaf8cdb205e965d4ba8fdf0dc898c" approved="yes">
+        <source>Route to category which has the "selected_filter" attribute for the "Layered Navigation" (blocklayered) module</source>
+        <target state="translated">到分類的路徑，該分類有個 “分層導航”（模塊層）模塊的 “selected_filter” 屬性。</target>
+        <note>Line: 78</note>
+      </trans-unit>
       <trans-unit id="08a551b84112995247355daf3b5d72ba" approved="yes">
         <source>Route to supplier</source>
         <target state="translated">到供應商路徑</target>
         <note>Line: 91</note>
+      </trans-unit>
+      <trans-unit id="1dc5f89ed6e4425ecef2613fda85e5c0" approved="yes">
+        <source>Route to brand</source>
+        <target state="translated">到品牌頁面的路徑</target>
+        <note>Line: 104</note>
       </trans-unit>
       <trans-unit id="e175934d3418b2070a829183b2bfe294" approved="yes">
         <source>Route to page</source>
