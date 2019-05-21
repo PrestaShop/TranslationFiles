@@ -26,6 +26,21 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <target state="translated">Koristi ove opcije za spajanje podataka (proizvodi, moduli, itd.) na isti način za sve izabrane prodavnice.</target>
         <note>Line: 600</note>
       </trans-unit>
+      <trans-unit id="41ff4b3ea277bdc597fce74850a85510" approved="yes">
+        <source>Click here to display the shops in the %name% shop group</source>
+        <target state="translated">Klikni ovde da prikažeš prodavnice u grupi %name%</target>
+        <note>Line: 778</note>
+      </trans-unit>
+      <trans-unit id="d916f5b0696f10712fad55220707fab9" approved="yes">
+        <source>Click here to display the URLs of the %name% shop</source>
+        <target state="translated">Klikni ovde da prikažeš URL adrese prodavnica %name%</target>
+        <note>Line: 800</note>
+      </trans-unit>
+      <trans-unit id="01af4d9c4808ce3ccd662c0e5ef7f203" approved="yes">
+        <source>Click here to display the list of shop groups</source>
+        <target state="translated">Klikni ovde da prikažeš listu prodavnica u grupi</target>
+        <note>Line: 852</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminShopGroupController.php" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -64,6 +79,16 @@ Comment: Special case for Product : either one or the other. Not both.</note>
   </file>
   <file original="controllers/admin/AdminShopUrlController.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
+      <trans-unit id="c688fbbc9468ea3473172ca924290860" approved="yes">
+        <source>If you want to add a virtual URL, you need to activate URL rewriting on your web server and enable Friendly URL option.</source>
+        <target state="translated">Ako želite da dodate virtualni URL, treba da aktivirate URL prepisivanje na vašem veb serveru i da uključite prijateljski URL opciju.</target>
+        <note>Line: 123</note>
+      </trans-unit>
+      <trans-unit id="05f8f0fab3ff5d86e0de9db902da7045" approved="yes">
+        <source>You can use this option if you want to create a store with a URL that doesn't exist on your server (e.g. if you want your store to be available with the URL www.example.com/my-store/shoes/, you have to set shoes/ in this field, assuming that my-store/ is your Physical URL).</source>
+        <target state="translated">Možete da koristite ovu opciju ako želite da kreirate prodavnicu sa URL-om koji ne postoji na vašem serveru (npr. ako želite da vaša prodavnica bude dostupna sa URL.om www.example.com/my-store/shoes/, treba da postavite shoes/ u ovo polje, sa pretpostavkom da je my-store/ vaš fizički URL).</target>
+        <note>Line: 127</note>
+      </trans-unit>
       <trans-unit id="f6e7829277b67d5a8805d6728a810362" approved="yes">
         <source>URL rewriting must be activated on your server to use this feature.</source>
         <target state="translated">URL prepisivanje mora da bude uključeno na vašem serveru da bi koristili ovu opciju.</target>
@@ -78,6 +103,21 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <source>Since the selected shop has no main URL, you have to set this URL as the Main URL.</source>
         <target state="translated">Pošto izabrana prodavnica nema glavni URL, morate da postavite ovaj URL kao glavni URL.</target>
         <note>Line: 175</note>
+      </trans-unit>
+      <trans-unit id="fe42e7cf02611b9719a6db6513de19eb" approved="yes">
+        <source>The selected shop already has a Main URL. Therefore, if you set this one as the Main URL, the older Main URL will be set as a regular URL.</source>
+        <target state="translated">Izabrana prodavnica već ima glavni URL. Zato, ako postavite ovaj kao glavni URL, stariji od ova dva će biti postavljen kao normalan URL.</target>
+        <note>Line: 179</note>
+      </trans-unit>
+      <trans-unit id="7e7b350e5cee624789b1e263ec59db26" approved="yes">
+        <source>This is the physical folder for your store on the web server. Leave this field empty if your store is installed on the root path. For instance, if your store is available at www.example.com/my-store/, you must input my-store/ in this field.</source>
+        <target state="translated">Ovo je fizički folder prodavnice na serveru. Ostavite ovo polje prazno ako je prodavnica postavljena u matičnu putanju. Na prmer ako je vaša prodavnica dostupna na www.example.com/my-store/, upisaćete my-store/ u ovo polje.</target>
+        <note>Line: 243</note>
+      </trans-unit>
+      <trans-unit id="29f3eb1bea3049b52600a18ad4d0b96c" approved="yes">
+        <source>Warning: URL rewriting (e.g. mod_rewrite for Apache) seems to be disabled. If your Virtual URL doesn't work, please check with your hosting provider on how to activate URL rewriting.</source>
+        <target state="translated">Upozorenje: URL prepisivanje (npr. mod_rewrite za Apache) je izgleda isključen. Ako vaš URL ne radi, molim vas da kontaktirate vašeg hosting provajdera sa pitanjem kako da aktivitate URL prepisivanje.</target>
+        <note>Line: 259</note>
       </trans-unit>
     </body>
   </file>
@@ -199,10 +239,15 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <target state="translated">Proverite maks. dozvoljenu veličinu datoteke (npr. Maks: 16MB)</target>
         <note>Line: 47</note>
       </trans-unit>
-      <trans-unit id="d24e59c4885823395588f1b480876da5">
+      <trans-unit id="d24e59c4885823395588f1b480876da5" approved="yes">
         <source>If your backup file exceeds this limit, contact your hosting provider for assistance. </source>
-        <target state="needs-translation"> </target>
+        <target state="translated">Ako vaša rezervna kopija prelazi to ograničenje, obratite se svom hosting provajderu. </target>
         <note>Line: 48</note>
+      </trans-unit>
+      <trans-unit id="44b2f277fe0d0365bbc168e617387c73" approved="yes">
+        <source>Click on the "Go" button and please wait patiently for the import process to conclude. This may take several minutes.</source>
+        <target state="translated">Kliknite na "Kreni" dugme i sačekajte prilikom uvoza, proces može da potraje nekoliko minuta.</target>
+        <note>Line: 50</note>
       </trans-unit>
     </body>
   </file>
@@ -227,10 +272,60 @@ Comment: Special case for Product : either one or the other. Not both.</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Blocks/import_panel.html.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      <trans-unit id="b070d64c5a2f10b4b8eb361ba4f61833">
+      <trans-unit id="084ad8abffc138f8d43f0a77824396b9" approved="yes">
+        <source>You can read information on import at:</source>
+        <target state="translated">Možete pročitati više o uvozu na:</target>
+        <note>Line: 37</note>
+      </trans-unit>
+      <trans-unit id="4e7357d876d6d15fe084be41934e6555" approved="yes">
+        <source>http://doc.prestashop.com/display/PS17/Import</source>
+        <target state="translated">http://doc.prestashop.com/display/PS17/Import</target>
+        <note>Line: 39</note>
+      </trans-unit>
+      <trans-unit id="9d23c31f2dcc1ace9296037f327563a4" approved="yes">
+        <source>https://en.wikipedia.org/wiki/Comma-separated_values</source>
+        <target state="translated">https://en.wikipedia.org/wiki/Comma-separated_values</target>
+        <note>Line: 45</note>
+      </trans-unit>
+      <trans-unit id="a27780d9bb7b3595998465aadcaaeed7" approved="yes">
+        <source>Allowed formats: .csv, .xls, .xlsx, .xlst, .ods, .ots</source>
+        <target state="translated">Dozvoljeni formati: .csv, .xls, .xlsx, .xlst, .ods, .ots</target>
+        <note>Line: 90</note>
+      </trans-unit>
+      <trans-unit id="c9f7248e8f5712f5438def77389e1c46" approved="yes">
+        <source>Only UTF-8 and ISO 8859-1 encodings are allowed</source>
+        <target state="translated">Samo UTF-8 and ISO 8859-1 kodiranje je dozvoljeno</target>
+        <note>Line: 91</note>
+      </trans-unit>
+      <trans-unit id="6578c8c9a3dbadb0a3672c3ca6c0b513" approved="yes">
+        <source>You can also upload your file via FTP to the following directory: %s .</source>
+        <target state="translated">Takođe možete dodati vaš fajl preko FTP-a u sledeći direktorijum: %s .</target>
+        <note>Line: 92</note>
+      </trans-unit>
+      <trans-unit id="b070d64c5a2f10b4b8eb361ba4f61833" approved="yes">
         <source>e.g. </source>
-        <target state="needs-translation"> </target>
+        <target state="translated">npr. </target>
         <note>Line: 134</note>
+      </trans-unit>
+      <trans-unit id="1d3be023802846145f9b75fc90b4cf21" approved="yes">
+        <source>If enabled, the product's reference number MUST be unique!</source>
+        <target state="translated">Ako je omogućeno, šifra proizvoda mora biti unikatna!</target>
+        <note>Line: 148</note>
+      </trans-unit>
+      <trans-unit id="f66963da2d51d637afa80ff8edf8d734" approved="yes">
+        <source>If you enable this option, your imported items' ID number will be used as is. If you do not enable this option, the imported ID numbers will be ignored, and PrestaShop will instead create auto-incremented ID numbers for all the imported items.</source>
+        <target state="translated">Ako omogućite ovu opciju, ID uvezenog proizvoda će biti onaj koji u stvarnosti jeste. Ako ne omogućite ovu opciju, ID uvezenog proizvoda će biti ignorisan, i umesto njega će se kreirati novi, sledeći po redu ID broj.</target>
+        <note>Line: 160</note>
+      </trans-unit>
+      <trans-unit id="04d39f4c0f667d58c8c5540514ebf0eb" approved="yes">
+        <source>Sends an email to let you know your import is complete. It can be useful when handling large files, as the import may take some time.</source>
+        <target state="translated">Šalje se E-mail da vas obavesti da je vaš uvoz kompletan. Može biti korisno kada se uvoze veliki fajlovi, pošto to može malo potrajati.</target>
+        <note>Line: 166</note>
+      </trans-unit>
+      <trans-unit id="3bb4a695db0c87a3d70a2deffddeb743" approved="yes">
+        <source>Read more about the CSV format at:</source>
+        <target state="translated">Pročitajte više o CSV formatu na:</target>
+        <note>Line: 43</note>
       </trans-unit>
     </body>
   </file>
@@ -264,10 +359,30 @@ Comment: Special case for Product : either one or the other. Not both.</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Employee/Blocks/form.html.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
+      <trans-unit id="14a966a005ea5262cd09332f4e50b7b1" approved="yes">
+        <source>Your avatar in PrestaShop 1.7.x is your profile picture on %url%. To change your avatar, log in to PrestaShop.com with your email %email% and follow the on-screen instructions.</source>
+        <target state="translated">Vaš avatar u PrestaShop 1.7.x je Vaša profilna slika na %url%. Za izmenu avatara, prijavite se na PrestaShop.com sa vašim mejlom %email% i pratite instrukcije.</target>
+        <note>Line: 63</note>
+      </trans-unit>
+      <trans-unit id="d222c4d0463bd3f146536ac89c0d7c77" approved="yes">
+        <source>Password should be at least %num% characters long.</source>
+        <target state="translated">Vaša lozinka mora da bude najmanje %num% znakova duga.</target>
+        <note>Line: 78</note>
+      </trans-unit>
+      <trans-unit id="0b2827832fff3d973ee0ed2e6c7d4b23" approved="yes">
+        <source>PrestaShop can provide you with guidance on a regular basis by sending you tips on how to optimize the management of your store which will help you grow your business. If you do not wish to receive these tips, you can disable this option.</source>
+        <target state="translated">PrestaShop Vam može pružiti smernice i redovno slati savete kako da optimizujete upravljanje vaše prodavnice što će vam pomoći u razvoju vašeg poslovanja. Ako ne želite da primate ove savete, isključite ovu opciju.</target>
+        <note>Line: 204</note>
+      </trans-unit>
       <trans-unit id="c4e326fcaa83c6b1ca3856175bb86d2e" approved="yes">
         <source>This page will be displayed just after login.</source>
         <target state="translated">Ova stranica će biti prikazana posle prijavljivanja.</target>
         <note>Line: 209</note>
+      </trans-unit>
+      <trans-unit id="d970370797ba19bba5524b480d3526fb" approved="yes">
+        <source>Allow or disallow this employee to log in to the Admin panel.</source>
+        <target state="translated">Dozvolite ili zabranite ovom zaposlenom da se loguje na administrativni panel.</target>
+        <note>Line: 219</note>
       </trans-unit>
       <trans-unit id="1a7f0b984884e66e95a86b9b5d857b5b" approved="yes">
         <source>Select the shops the employee is allowed to access.</source>
@@ -301,6 +416,11 @@ Comment: Special case for Product : either one or the other. Not both.</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/RequestSql/index.html.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
+      <trans-unit id="68db67219aa1fd6e5f8820e20fd78b25" approved="yes">
+        <source>How do I create a new SQL query?</source>
+        <target state="translated">Kako da napravim novi sql upit?</target>
+        <note>Line: 34</note>
+      </trans-unit>
       <trans-unit id="555f1c93c6aa30a9b28e5cb37eaade53" approved="yes">
         <source>Click "Add New".</source>
         <target state="translated">Kliknite na \"Dodaj novi\".</target>
@@ -310,6 +430,16 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <source>Fill in the fields and click "Save".</source>
         <target state="translated">Popunite polja i kliknite na "Sačuvaj".</target>
         <note>Line: 37</note>
+      </trans-unit>
+      <trans-unit id="64427cd6d9efe12b779a1e3bb2fafc06" approved="yes">
+        <source>You can then view the query results by clicking on the Edit action in the dropdown menu</source>
+        <target state="translated">Onda možete videti rezultate upita klikom na ovu ikonicu u padajućem meniju</target>
+        <note>Line: 38</note>
+      </trans-unit>
+      <trans-unit id="29147406190a86209d5f4b3080cc7fa9" approved="yes">
+        <source>You can also export the query results as a CSV file by clicking on the Export button</source>
+        <target state="translated">Takođe možete da izvezete rezultate upita kao CSV dokument kada kliknete na karticu</target>
+        <note>Line: 39</note>
       </trans-unit>
     </body>
   </file>
@@ -324,9 +454,9 @@ Comment: Special case for Product : either one or the other. Not both.</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Webservice/webservice_settings.html.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      <trans-unit id="e8602bda90ef985a71054950e6f1981e">
+      <trans-unit id="e8602bda90ef985a71054950e6f1981e" approved="yes">
         <source>Before activating the webservice, you must be sure to: </source>
-        <target state="needs-translation"> </target>
+        <target state="translated">Pre aktiviranja webservice-a, morate da: </target>
         <note>Line: 46</note>
       </trans-unit>
       <trans-unit id="45d7b1d28cb1afbb45fdb620db725c10" approved="yes">
@@ -358,6 +488,36 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <target state="translated">Proverite IP adresu kolačića kako bi ste izbegli njegovu krađu</target>
         <note>Line: 50</note>
       </trans-unit>
+      <trans-unit id="20d6b6498eab9f749d55c9b53151e00a" approved="yes">
+        <source>Set the amount of hours during which the front office cookies are valid. After that amount of time, the customer will have to log in again.</source>
+        <target state="translated">Postavi broj sati za koje su kolačići, na javnoj strani prodavnice, validni. Posle tog vremena, kupci će morati da se ponovo uloguju.</target>
+        <note>Line: 57</note>
+      </trans-unit>
+      <trans-unit id="a676520f8296be0319ad6268657471ea" approved="yes">
+        <source>Set the amount of hours during which the back office cookies are valid. After that amount of time, the PrestaShop user will have to log in again.</source>
+        <target state="translated">Postavite broj sati za koje su kolačići, na admin strani prodavnice, važeći. Nakon isteka tog vremena, PrestaShop korisnici moraće da se prijave ponovo.</target>
+        <note>Line: 64</note>
+      </trans-unit>
+      <trans-unit id="a067e61c044ba333fae23b61c83d87c4" approved="yes">
+        <source>Set the maximum size allowed for attachment files (in megabytes). This value has to be lower or equal to the maximum file upload allotted by your server (currently: %size% MB).</source>
+        <target state="translated">Postavite maksimalnu dozvoljenu veličinu priloženih fajlova (u megabajtima). Ova vrednost mora biti veća ili jednaka maksimalnoj dozvoljenoj veličini fajlova za podizanje na server (trenutno: %size% MB).</target>
+        <note>Line: 91</note>
+      </trans-unit>
+      <trans-unit id="dae623d110235f2837ca0a6e753305b8" approved="yes">
+        <source>Define the upload limit for a downloadable product (in megabytes). This value has to be lower or equal to the maximum file upload allotted by your server (currently: %size% MB).</source>
+        <target state="translated">Definišite limit za otpremanje za proizvod koji se može preuzeti (u megabajtima). Ova vrednost mora biti niža ili jednaka maksimalnom uploadu datoteke koju je dodelio vaš server (trenutno: %size% MB).</target>
+        <note>Line: 98</note>
+      </trans-unit>
+      <trans-unit id="2a59c5a630e01a9a88e9bcb2863fd69f" approved="yes">
+        <source>Define the upload limit for an image (in megabytes). This value has to be lower or equal to the maximum file upload allotted by your server (currently: %size% MB).</source>
+        <target state="translated">Odredi limit za podizanje slika na server (u megabajtima). Ova vrednost mora biti manja ili jednaka maksimalnoj vrednosti koju dozvoljava vaš server za slanje fajlova (trenutno: %size% MB).</target>
+        <note>Line: 105</note>
+      </trans-unit>
+      <trans-unit id="2566fed9ede40ae26636b773594094cf" approved="yes">
+        <source>Notifications are numbered bubbles displayed at the very top of your back office, right next to the shop's name. They display the number of new items since you last clicked on them.</source>
+        <target state="translated">Broj obaveštenja je prikazan u balončiću na samom vrhu Vaše admin stranice, pored imena prodavnice. Broj prikazuje pristigla obaveštenja od poslednjeg pregleda istih.</target>
+        <note>Line: 134</note>
+      </trans-unit>
       <trans-unit id="e0853b619fbd24fdabc3ae78beb81193" approved="yes">
         <source>This will display notifications when new orders are made in your shop.</source>
         <target state="translated">Ova opcija će prikazati obavešenja kada se izvrši nova narudžbina u prodavnici.</target>
@@ -377,6 +537,16 @@ Comment: Special case for Product : either one or the other. Not both.</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/performance.html.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
+      <trans-unit id="30c802194b54f04e24a2abdc774c2f7e" approved="yes">
+        <source>Should be enabled if you want to avoid to store the smarty cache on NFS.</source>
+        <target state="translated">Trebalo bi biti omogućeno ako želite da izbegnete preveliki keš sakupljen on NFS.</target>
+        <note>Line: 60</note>
+      </trans-unit>
+      <trans-unit id="853f64470ff7bb429d4d1febf19a2d58" approved="yes">
+        <source>Enable or disable debug mode.</source>
+        <target state="translated">Aktiviraj ili deaktiviraj debug mod.</target>
+        <note>Line: 115</note>
+      </trans-unit>
       <trans-unit id="bb3656a5447418f8f2644f3ac91b5c6f" approved="yes">
         <source>Some features can be disabled in order to improve performance.</source>
         <target state="translated">Neke osobine se mogu onemogućiti da bi se poboljšale performanse.</target>
