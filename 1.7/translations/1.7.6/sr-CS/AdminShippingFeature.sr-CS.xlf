@@ -26,10 +26,20 @@
         <target state="translated">Opsezi</target>
         <note>Line: 27</note>
       </trans-unit>
+      <trans-unit id="19d3894f53ce79c3f836f26cf8a3be3b" approved="yes">
+        <source>inactive</source>
+        <target state="translated">neaktivno</target>
+        <note>Line: 98</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/carrier_wizard/summary.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
+      <trans-unit id="2eee774899a3338d423fe081beea6451" approved="yes">
+        <source>This carrier is %1$s and the transit time is %2$s.</source>
+        <target state="translated">Kurirska služba je %1$s i vreme tranzita je %2$s.</target>
+        <note>Line: 28</note>
+      </trans-unit>
       <trans-unit id="aa2d6e4f578eb0cfaba23beef76c2194" approved="yes">
         <source>free</source>
         <target state="translated">besplatno</target>
@@ -39,6 +49,21 @@
         <source>not free</source>
         <target state="translated">za plaćanje</target>
         <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="b6fbfa40ef6e8d15ec69cb2da0dcd662" approved="yes">
+        <source>This carrier can deliver orders from %1$s to %2$s.</source>
+        <target state="translated">Ova kurirska služba može da isporuči porudžbine od %1$s to %2$s.</target>
+        <note>Line: 31</note>
+      </trans-unit>
+      <trans-unit id="2a28ff68d6e69bd4d2ee2d8c11a78823" approved="yes">
+        <source>If the order is out of range, the behavior is to %3$s.</source>
+        <target state="translated">Ukoliko je narudžbina izvan opsega, ponašanje je podešeno na %3$s.</target>
+        <note>Line: 32</note>
+      </trans-unit>
+      <trans-unit id="343bf3bbd8b70fd2d04bb095ad2418f9" approved="yes">
+        <source>The shipping cost is calculated %1$s and the tax rule %2$s will be applied.</source>
+        <target state="translated">Cena isporuke je obračunata %1$s i poresko pravilo %2$s će biti primenjeno.</target>
+        <note>Line: 33</note>
       </trans-unit>
       <trans-unit id="0ea5b002f2959687c7ff926ca01a47a3" approved="yes">
         <source>according to the price</source>
@@ -50,13 +75,45 @@
         <target state="translated">prema težini</target>
         <note>Line: 35</note>
       </trans-unit>
+      <trans-unit id="ba44d024ba9eec02cc432a36dcffb9d9" approved="yes">
+        <source>Carrier name:</source>
+        <target state="translated">Ime kurirske službe:</target>
+        <note>Line: 40</note>
+      </trans-unit>
+      <trans-unit id="7f9508fc09a86a59fbcea84da182b12a" approved="yes">
+        <source>This carrier will be proposed for those delivery zones:</source>
+        <target state="translated">Ova kurirska služba će biti predložena za sledeće zone isporuke:</target>
+        <note>Line: 46</note>
+      </trans-unit>
+      <trans-unit id="7d705fb35c90599d918e0a619c69e17b" approved="yes">
+        <source>And it will be proposed for those client groups:</source>
+        <target state="translated">I biće predloženo za sledeće grupe kupaca:</target>
+        <note>Line: 50</note>
+      </trans-unit>
+      <trans-unit id="272175e18b4f5f142e1afc94698df9e3" approved="yes">
+        <source>Finally, this carrier will be proposed in those shops:</source>
+        <target state="translated">Na kraju, ova kurirska služba će biti predložena za ove prodavnice:</target>
+        <note>Line: 55</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/carriers/helpers/list/list_footer.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="5e6b7c069d71052ffc8c4410c0c46992" approved="yes">
+        <source>Use one of our recommended carrier modules</source>
+        <target state="translated">Koristite jednu od preporučenih kurirskih službi</target>
+        <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="39efbaa2f3600dd82a031d7ab5138f73" approved="yes">
+        <source>Do you think there should be one? Let us know!</source>
+        <target state="translated">Mislite li da bi ipak trebao bii neki? U redu javite nam to!</target>
+        <note>Line: 32</note>
+      </trans-unit>
+      <trans-unit id="80a305c8cb9737ef8474472aaa65026e" approved="yes">
+        <source>It seems there are no recommended carriers for your country.</source>
+        <target state="translated">Izgleda da nema kuriskih službi koje bi preporučili za vašu državu.</target>
+        <note>Line: 31</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/_shipping.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -81,7 +138,7 @@
     <body>
       <trans-unit id="914419aa32f04011357d3b604a86d7eb" approved="yes">
         <source>Carrier</source>
-        <target state="translated">Dostavljač</target>
+        <target state="translated">Kurirska služba</target>
         <note>Line: 338</note>
       </trans-unit>
       <trans-unit id="5068c162a60b5859f973f701333f45c5" approved="yes">
@@ -93,8 +150,16 @@
   </file>
   <file original="classes/lang/KeysReference/CarrierLang.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="a8bbb000124c9697aa5d63e7e758b64d" approved="yes">
+        <source>Pick up in-store</source>
+        <target state="translated">Preuzimanje u prodavnici</target>
+        <note>Line: 26</note>
+      </trans-unit>
+      <trans-unit id="5d671531babe55fff4ae63b94c80ea38" approved="yes">
+        <source>Delivery next day!</source>
+        <target state="translated">Isporuka sledećeg dana!</target>
+        <note>Line: 27</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminCarrierWizardController.php" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -116,7 +181,7 @@
       </trans-unit>
       <trans-unit id="c91e596246bbf8fdff9dae7b349d71d9" approved="yes">
         <source>Carrier name</source>
-        <target state="translated">Ime prevoznika</target>
+        <target state="translated">Ime kurirske službe</target>
         <note>Line: 184</note>
       </trans-unit>
       <trans-unit id="0979779c4569141b98591d326d343ec2" approved="yes">
@@ -185,7 +250,7 @@
       </trans-unit>
       <trans-unit id="c26732c157d7b353c1be9f7ba8962e57" approved="yes">
         <source>Add new carrier</source>
-        <target state="translated">Dodajte novog dostavljača</target>
+        <target state="translated">Dodajte novu kurirsku službu</target>
         <note>Line: 128</note>
       </trans-unit>
       <trans-unit id="1c0e287237d8c352c6ead633b019c047" approved="yes">
@@ -233,9 +298,14 @@
         <target state="translated">Maksimalna težina paketa</target>
         <note>Line: 370</note>
       </trans-unit>
+      <trans-unit id="4e140ba723a03baa6948340bf90e2ef6" approved="yes">
+        <source>Name:</source>
+        <target state="translated">Ime:</target>
+        <note>Line: 707</note>
+      </trans-unit>
       <trans-unit id="1d6af794b2599c1407a83029a09d1ecf" approved="yes">
         <source>Carriers</source>
-        <target state="translated">Dostavljači</target>
+        <target state="translated">Kurirske službe</target>
         <note>Line: 165</note>
       </trans-unit>
       <trans-unit id="dde695268ea519ababd83f0ca3d274fc" approved="yes">
@@ -260,7 +330,7 @@
       </trans-unit>
       <trans-unit id="4f890cf6a72112cad95093baecf39831" approved="yes">
         <source>Disable carrier</source>
-        <target state="translated">Onemogući prevoznika</target>
+        <target state="translated">Deaktiviraj kurirsku službu</target>
         <note>Line: 339</note>
       </trans-unit>
     </body>
@@ -269,12 +339,12 @@
     <body>
       <trans-unit id="8430a7b1b81635e3df949c2845303303" approved="yes">
         <source>Carrier options</source>
-        <target state="translated">Opcije dostavljača</target>
+        <target state="translated">Opcije Kurirskih službi</target>
         <note>Line: 32</note>
       </trans-unit>
       <trans-unit id="bff13ed1cd5b83b03f024f1eb6524337" approved="yes">
         <source>Default carrier</source>
-        <target state="translated">Podrazumevani dostavljač</target>
+        <target state="translated">Podrazumevani kurirska služba</target>
         <note>Line: 37</note>
       </trans-unit>
     </body>
