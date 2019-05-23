@@ -371,7 +371,7 @@
       </trans-unit>
       <trans-unit id="4181fcfe54e8fadc0644e1cadde3483f" approved="yes">
         <source>To add a new module, simply connect to your PrestaShop Addons account and all your purchases will be automatically imported.</source>
-        <target state="translated">Da biste dodali novi modul, jednostavno se konektujte na PrestaSop nalog za ekstenzije i sve vaše kupovine će automatski biti uvežene.</target>
+        <target state="translated">Da biste dodali novi modul, jednostavno se konektujte na PrestaSop nalog na tržištu modula i sve vaše kupovine će automatski biti uvežene.</target>
         <note>Line: 67</note>
       </trans-unit>
       <trans-unit id="82010160301993d2d752d8f185b31d0c" approved="yes">
@@ -728,6 +728,26 @@
         <target state="translated">Jesam li ja izložen riziku?</target>
         <note>Line: 73</note>
       </trans-unit>
+      <trans-unit id="144f70b53defb91dacdb0a4ac79b7e70" approved="yes">
+        <source>A module that hasn't been verified may be dangerous and could add hidden functionalities like backdoors, ads, hidden links, spam, etc. Don’t worry, this alert is simply a warning.</source>
+        <target state="translated">Modul koji nije verifikovan može biti rizičan i može skrivati zlobne funkcije. Ne treba previše da brinete ovo je samo upozorenje.</target>
+        <note>Line: 75</note>
+      </trans-unit>
+      <trans-unit id="50d39ed39f0e1c95d185acc6b89de6f8" approved="yes">
+        <source>PrestaShop, being an open-source software, has an awesome community with a long history of developing and sharing high quality modules. Before installing this module, making sure its author is a known community member is always a good idea (by checking [1]our forum[/1] for instance).</source>
+        <target state="translated">PrestaShop je open-sorce softver i ima divnu zajednicu sa dugom istorijom programiranja i deljenja modula visokog kvaliteta. Pre instaliranja ovog modula proverite da li je autor poznati član zajednice. To možete učinti (klikom na [1]naš forum[/1] na primer).</target>
+        <note>Line: 77</note>
+      </trans-unit>
+      <trans-unit id="9bbcbf7c1f7c1df3c3d9d3b7767fac09" approved="yes">
+        <source>If you trust or find the author of this module to be an active community member, you can proceed with the installation.</source>
+        <target state="translated">Ako verujete autoru ili ga nađete na našem forumu kao aktivnog člana zajednice, možete nastaviti sa instalacijom.</target>
+        <note>Line: 81</note>
+      </trans-unit>
+      <trans-unit id="67afee0d8b56356469f89525a1423331" approved="yes">
+        <source>Otherwise you can look for similar modules on the official marketplace. [1]Click here to browse PrestaShop Addons[/1].</source>
+        <target state="translated">U suprotnom možete potražiti sličan modul na zvaničnom tržištu modula [1]Kliknite ovde da pretažite tržište[/1].</target>
+        <note>Line: 83</note>
+      </trans-unit>
       <trans-unit id="0557fa923dcee4d0f86b1409f5c2167f" approved="yes">
         <source>Back</source>
         <target state="translated">Nazad</target>
@@ -737,6 +757,31 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/modules/modal_not_trusted_blocked.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
+      <trans-unit id="e88e176e72b122566ada523a7297e4e5" approved="yes">
+        <source>This module could not be verified by PrestaShop.</source>
+        <target state="translated">Ovaj modul ne može biti verifikovan od strane PrestaShop-a.</target>
+        <note>Line: 28</note>
+      </trans-unit>
+      <trans-unit id="d16d7b2c414d4750596290776d0bfbf7" approved="yes">
+        <source>Since you may not have installed this module from PrestaShop Addons, we cannot assert that the module is complying with our safety requirements (e.g. that it is not adding some undisclosed functionalities such as ads, hidden links, spam, etc...).</source>
+        <target state="translated">Budući da možda niste instalirali ovaj modul iz PrestaShop Addons, ne možemo tvrditi da je modul u skladu sa našim sigurnosnim zahtjevima (npr. Da ne dodaju neke neotkrivene funkcionalnosti kao što su oglasi, skrivene veze, spam itd.).</target>
+        <note>Line: 58</note>
+      </trans-unit>
+      <trans-unit id="64b9168c0ef9c05d1568a15c6e273bf1" approved="yes">
+        <source>You can search for similar modules on the official marketplace.</source>
+        <target state="translated">Možete potražiti sličan modul na zvaniičnom tržištu modula.</target>
+        <note>Line: 60</note>
+      </trans-unit>
+      <trans-unit id="57acfffeede560e141ea67a4487fe065" approved="yes">
+        <source>[1]Click here to browse our catalog on PrestaShop Addons[/1].</source>
+        <target state="translated">[1]Klikni da pretražiš katalog PrestaShop tržišta modula[/1].</target>
+        <note>Line: 62</note>
+      </trans-unit>
+      <trans-unit id="6754e4799f554bcdf4fef4782bf4d7de" approved="yes">
+        <source>This generally happens when the module isn't distributed through our official marketplace, PrestaShop Addons - or when your server failed to communicate with PrestaShop Addons.</source>
+        <target state="translated">To se uglavoom događa sa modulima koji nisu ditribuirani sa zvanično tržišta ekstenzija ili kada vaš server ne uspe da komunicira sa PrestaShop tržištem modula.</target>
+        <note>Line: 30</note>
+      </trans-unit>
       <trans-unit id="a517747c3d12f99244ae598910d979c5" approved="yes">
         <source>Author</source>
         <target state="translated">Autor</target>
@@ -751,13 +796,41 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/modules/modal_not_trusted_country.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="54752f2f929b686b98ddb16e40c4a1be" approved="yes">
+        <source>You are about to install "%s", a module which is not compatible with your country.</source>
+        <target state="translated">Upravo pokušavate da instalirate "%s", modul koji nije kompatibilan za vašu državu.</target>
+        <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="1a56544ab8d473b3383731fbe3fc9d07" approved="yes">
+        <source>This module was not verified by PrestaShop hence we cannot certify that it works well in your country and that it complies with our quality requirements.</source>
+        <target state="translated">Ovaj modul nije verifikovan od PrestaShopa. Iz tog razloga ne možemo garantovati da će da funkcioniše u vašoj državi i da je u skladu za zakonima vaše države.</target>
+        <note>Line: 32</note>
+      </trans-unit>
+      <trans-unit id="d1ce387d44c3dc9cdc4e30ad64dbf47e" approved="yes">
+        <source>Use at your own risk.</source>
+        <target state="translated">Koristite na vaš rizik.</target>
+        <note>Line: 33</note>
+      </trans-unit>
+      <trans-unit id="080e6f65e34e2ffe7162beb258f4577d" approved="yes">
+        <source>If you are unsure about this, you should contact the Customer Service of %s to ask them to make the module compatible with your country.</source>
+        <target state="translated">Ako niste sigurni kontaktirajte Korisnički Servis %s i zatražite da naprave modul kompatibilan za vašu državu.</target>
+        <note>Line: 38</note>
+      </trans-unit>
+      <trans-unit id="17e8aa9ff6f7c374738eb3a15270583c" approved="yes">
+        <source>Moreover, we recommend that you use an equivalent module: compatible modules for your country are listed in the "Modules" tab of your back office.</source>
+        <target state="translated">Preporučujemo vam da koristite adekvatne modulele: Kompatabilni moduli za vašu državu su izlistani u jezičku "Moduli" na všem administrativnom panelu.</target>
+        <note>Line: 39</note>
+      </trans-unit>
+      <trans-unit id="1de1cd538749db5ea85a79c300b092e3" approved="yes">
+        <source>If you are unsure about this module, you can look for similar modules on the official marketplace.</source>
+        <target state="translated">Ako niste sigurni za ovaj modul možete potražiti sličan na zvaničnom tržištu modula.</target>
+        <note>Line: 42</note>
+      </trans-unit>
+      <trans-unit id="f7df37601ea653a7a5bf63e3556772d3" approved="yes">
+        <source>Click here to browse PrestaShop Addons.</source>
+        <target state="translated">Kliknite ovde da pretražite PrestaShop tržište modula.</target>
+        <note>Line: 43</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/modules/modal_translation.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -771,6 +844,36 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/modules/page.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
+      <trans-unit id="b10a51e4d433fa3330b26d266502db00" approved="yes">
+        <source>Addons membership provides access to all our PrestaShop modules.</source>
+        <target state="translated">Članstvo u tržištu ekstenzija omogućuje pristup svim PrestaShop modulima.</target>
+        <note>Line: 28</note>
+      </trans-unit>
+      <trans-unit id="20afba9e56de0c1da3d5188111d72947" approved="yes">
+        <source>Once connected, your new modules will be automatically installed.</source>
+        <target state="translated">Kada se konektujete vaš modul će biti automatski instaliran.</target>
+        <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="d9776f0775997b2e698c6975420b5c5d" approved="yes">
+        <source>Sign up</source>
+        <target state="translated">Registrujte se</target>
+        <note>Line: 32</note>
+      </trans-unit>
+      <trans-unit id="bce8bac0184c6cd6d977e8a42a99aa99" approved="yes">
+        <source>Connect to PrestaShop Marketplace account</source>
+        <target state="translated">Konektujte se na PrestaShop tržište modula</target>
+        <note>Line: 32</note>
+      </trans-unit>
+      <trans-unit id="bffe9a3c9a7e00ba00a11749e022d911" approved="yes">
+        <source>Log in</source>
+        <target state="translated">Ulogujte se</target>
+        <note>Line: 32</note>
+      </trans-unit>
+      <trans-unit id="6dc2462f2851bdac265c852f023b6d3f" approved="yes">
+        <source>The module must either be a Zip file (.zip) or a tarball file (.tar, .tar.gz, .tgz).</source>
+        <target state="translated">Ovaj modul mora biti ili Zip fajl (.zip) ili tarball fajl (.tar, .tar.gz, .tgz).</target>
+        <note>Line: 43</note>
+      </trans-unit>
       <trans-unit id="6779ef184c16fbd18a0bc13ebda839c5" approved="yes">
         <source>Upload a module from your computer.</source>
         <target state="translated">Dodajte modul sa Vašeg računara</target>
@@ -873,7 +976,11 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/modules/readmore-header.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
+      <trans-unit id="9e3669d19b675bd57058fd4664205d2a" approved="yes">
+        <source>v</source>
+        <target state="translated">v</target>
+        <note>Line: 30</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/modules/tab_module_line.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -972,9 +1079,21 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/_product_line.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="a6361d40d23154d7d8fc801ae8bf9554" approved="yes">
+        <source>%refund_date% - %refund_amount%</source>
+        <target state="translated">%refund_date% - %refund_amount%</target>
+        <note>Line: 105</note>
+      </trans-unit>
+      <trans-unit id="26b26b0e309da0b8abbf624a57601f4c" approved="yes">
+        <source>%return_date% - %return_quantity% - %return_state%</source>
+        <target state="translated">%return_date% - %return_quantity% - %return_state%</target>
+        <note>Line: 121</note>
+      </trans-unit>
+      <trans-unit id="3d0d1f906e27800531e054a3b6787b7c" approved="yes">
+        <source>Quantity:</source>
+        <target state="translated">Količina:</target>
+        <note>Line: 175</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/form.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -1094,6 +1213,11 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/suppliers/helpers/view/view.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
+      <trans-unit id="38f06ccd27281c8fc66e11581798ec06" approved="yes">
+        <source>Number of products:</source>
+        <target state="translated">Broj proizvoda:</target>
+        <note>Line: 30</note>
+      </trans-unit>
       <trans-unit id="df644ae155e79abf54175bd15d75f363" approved="yes">
         <source>Product name</source>
         <target state="translated">Ime proizvoda</target>
@@ -1138,29 +1262,89 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/themes/configurelayouts.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
+      <trans-unit id="ebd9bec4d70abc789d439c1f136b0538" approved="yes">
+        <source>Layout</source>
+        <target state="translated">Raspored (Layout)</target>
+        <note>Line: 42</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/themes/helpers/form/form.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="1beaf22ea4850d25af342d91b0f25624" approved="yes">
+        <source>See all themes</source>
+        <target state="translated">Vidi sve teme</target>
+        <note>Line: 50</note>
+      </trans-unit>
+      <trans-unit id="ae0e265c94eec2c38690ada171d60a4d" approved="yes">
+        <source>Add a new theme</source>
+        <target state="translated">Dodaj novu temu</target>
+        <note>Line: 59</note>
+      </trans-unit>
+      <trans-unit id="26a278c1e0598e21f7c1ed7ab113e6ac" approved="yes">
+        <source>To add a new theme, simply connect to your PrestaShop Addons account: your new theme will be automatically imported to your shop.</source>
+        <target state="translated">Da bi dodali novu temu, jednostavno se konektujte na PrestaSop tržište modula i vaša kupovina će automatski bite uvežena.</target>
+        <note>Line: 64</note>
+      </trans-unit>
+      <trans-unit id="a5ed2b9ca9427746aced5b4037560434" approved="yes">
+        <source>You can choose among 1,500+ professional templates!</source>
+        <target state="translated">Možete izabrati nekuk od 1 500 profesionalno uradjenih temaj!</target>
+        <note>Line: 65</note>
+      </trans-unit>
+      <trans-unit id="dc9ac2e66cddf6e2c64e1c72b18ae130" approved="yes">
+        <source>Can I add my own theme?</source>
+        <target state="translated">Mogu li ja da dodam moj sopstvenu temu?</target>
+        <note>Line: 82</note>
+      </trans-unit>
+      <trans-unit id="7c854ab311760ecb245fb938378cd4e9" approved="yes">
+        <source>Please note that for security reasons, you can only add themes that are being distributed on PrestaShop Addons, the official marketplace.</source>
+        <target state="translated">Molimo obratite pažnju da iz sigurnosnih razloga, možete dodavati samo module koji su distribuirani na PrestaShop tržištu modula.</target>
+        <note>Line: 83</note>
+      </trans-unit>
+      <trans-unit id="80bf7b97a380d8d8aa29993fa61ab5e5" approved="yes">
+        <source>You can also create a new theme below.</source>
+        <target state="translated">Vi takođe možete kreirati novu temu ispod.</target>
+        <note>Line: 84</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/themes/helpers/options/options.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="f0dbca7d922e4e759a1e3b512b9be852" approved="yes">
+        <source>Choose layouts</source>
+        <target state="translated">Izaberi layout (raspored)</target>
+        <note>Line: 104</note>
+      </trans-unit>
+      <trans-unit id="b6ba229b668e5a7b6700e4d275683084" approved="yes">
+        <source>Use this theme</source>
+        <target state="translated">Koristi ovu temu</target>
+        <note>Line: 43</note>
+      </trans-unit>
+      <trans-unit id="e169a8fe61809e3679a424bf27166a78" approved="yes">
+        <source>Delete this theme</source>
+        <target state="translated">Obriši ovu temu</target>
+        <note>Line: 54</note>
+      </trans-unit>
+      <trans-unit id="837a54ae4874c4501c804173cd3c0fdf" approved="yes">
+        <source>Designed by %s</source>
+        <target state="translated">Dizajnirao %s</target>
+        <note>Line: 92</note>
+      </trans-unit>
+      <trans-unit id="8ef656f84513928ea1b0c2f1735b62e9" approved="yes">
+        <source>Configure your page layouts</source>
+        <target state="translated">Konfigurišite vaš layout</target>
+        <note>Line: 96</note>
+      </trans-unit>
+      <trans-unit id="4459ae4e873177642b30e9fc8b821d2f" approved="yes">
+        <source>Each page can use a different layout, choose it among the layouts bundled in your theme.</source>
+        <target state="translated">Svaka stranica može koristiti poseban raspored (layout).</target>
+        <note>Line: 99</note>
+      </trans-unit>
+      <trans-unit id="21e2bb42873eddcb9b476b8eafbe0c18" approved="yes">
+        <source>Reset to defaults</source>
+        <target state="translated">Resetuj na početne postavke</target>
+        <note>Line: 108</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/themes/helpers/view/view.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -1169,6 +1353,11 @@
         <source>The "%1$s" theme has been successfully installed.</source>
         <target state="translated">Tema "%1$s" je uspešno instalirana.</target>
         <note>Line: 27</note>
+      </trans-unit>
+      <trans-unit id="623a0df3a4b9fcca8e08c9ed1a07bba1" approved="yes">
+        <source>The following module(s) were not installed properly:</source>
+        <target state="translated">Sledeći modul(i) nisu ispravno instalirani:</target>
+        <note>Line: 42</note>
       </trans-unit>
       <trans-unit id="940d7a8d6502a022e8eb2d8a090b1a05" approved="yes">
         <source>Warning: You may have to regenerate images to fit with this new theme.</source>
@@ -1180,10 +1369,25 @@
         <target state="translated">Idite na stranivu regenerisanja sličica</target>
         <note>Line: 56</note>
       </trans-unit>
+      <trans-unit id="ce72a3420348d5b0bcd1382b1c88f553" approved="yes">
+        <source>Warning: This image type doesn’t exist. To manually set it, use the values below to create a new image type (in the "Images" page under the "Design" menu):</source>
+        <target state="translated">Upozorenje: Taj tip slike ne postoji. Da bi manuelno postavili taj tip, koristite vrednosti ispod da bi kreirali novi tip slike (U "Slike" ispod "Dizajn" menija):</target>
+        <note>Line: 63</note>
+      </trans-unit>
+      <trans-unit id="3b90370ac32dead2af37eabe3bdbb97f" approved="yes">
+        <source>Name image type:</source>
+        <target state="translated">Dajte ime ovom tipu slike:</target>
+        <note>Line: 81</note>
+      </trans-unit>
       <trans-unit id="c6ec097a1c02ee4db0dda78b98f4c08c" approved="yes">
         <source>(width: %1$spx, height: %2$spx).</source>
         <target state="translated">(širina: %1$spx, visina: %2$spx).</target>
         <note>Line: 81</note>
+      </trans-unit>
+      <trans-unit id="8f1cda3b6ae2df7c2c152cfeffaea57a" approved="yes">
+        <source>Images have been correctly updated in the database:</source>
+        <target state="translated">Slike su korektno ažurirane u bazi podataka:</target>
+        <note>Line: 77</note>
       </trans-unit>
       <trans-unit id="a20ddccbb6f808ec42cd66323e6c6061" approved="yes">
         <source>Finish</source>
@@ -1194,9 +1398,21 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_form.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="bbfb7a636f839052067cc86c39fa595a" approved="yes">
+        <source>%limit% for suhosin.post.max_vars.</source>
+        <target state="translated">%limit% za suhosin.post.max_vars.</target>
+        <note>Line: 39</note>
+      </trans-unit>
+      <trans-unit id="e97da54b23c78752578cd7fa01e8866d" approved="yes">
+        <source>%limit% for suhosin.request.max_vars.</source>
+        <target state="translated">%limit% za suhosin.request.max_vars.</target>
+        <note>Line: 40</note>
+      </trans-unit>
+      <trans-unit id="f324bbd9de83d61ccb5f7d5593aec5b3" approved="yes">
+        <source>You MUST use this syntax in your translations. Here are several examples:</source>
+        <target state="translated">MORATE koristiti ovu sintaksu u vašem prevodu. Evo nekoliko primera:</target>
+        <note>Line: 86</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_modules.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -1517,7 +1733,11 @@
   </file>
   <file original="admin-dev/themes/default/template/helpers/form/assoshop.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
+      <trans-unit id="1aa4c641d6920ddb97a2562f8ec53853" approved="yes">
+        <source>Group:</source>
+        <target state="translated">Grupa:</target>
+        <note>Line: 99</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/helpers/form/form.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -1541,6 +1761,11 @@
         <source>Current password</source>
         <target state="translated">Trenutna lozinka</target>
         <note>Line: 530</note>
+      </trans-unit>
+      <trans-unit id="98a6ee4b0f0e346c15ab21a289165a2d" approved="yes">
+        <source>Password should be at least 8 characters long.</source>
+        <target state="translated">Vaša lozinka mora da bude najmanje 8 znakova duga.</target>
+        <note>Line: 544</note>
       </trans-unit>
       <trans-unit id="3544848f820b9d94a3f3871a382cf138" approved="yes">
         <source>New password</source>
@@ -1727,6 +1952,21 @@
         <target state="translated">U ovom odeljku nema dostupnih modula.</target>
         <note>Line: 58</note>
       </trans-unit>
+      <trans-unit id="c0ebffb294bb46f8800a899e04c73f17" approved="yes">
+        <source>View all available payments solutions</source>
+        <target state="translated">Pogledaj dostupne načine plaćanja</target>
+        <note>Line: 45</note>
+      </trans-unit>
+      <trans-unit id="98a52c00a9fb228601f8b423436d36e0" approved="yes">
+        <source>It seems there are no recommended payment solutions for your country.</source>
+        <target state="translated">Izgleda da nema modula za plaćanje koje bi preporučili za vašu državu.</target>
+        <note>Line: 56</note>
+      </trans-unit>
+      <trans-unit id="39efbaa2f3600dd82a031d7ab5138f73" approved="yes">
+        <source>Do you think there should be one? Let us know!</source>
+        <target state="translated">Mislite li da bi ipak trebao bii neki? U redu javite nam to!</target>
+        <note>Line: 57</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/helpers/modules_list/modal.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -1754,6 +1994,16 @@
         <source>Check / Uncheck all</source>
         <target state="translated">Označi / Opozovi sve</target>
         <note>Line: 80</note>
+      </trans-unit>
+      <trans-unit id="ff8ff5e54a1832486773ec48b8f8175d" approved="yes">
+        <source>You are editing this page for a specific shop or group. Click "Yes" to check all fields, "No" to uncheck all.</source>
+        <target state="translated">Vi editutjete ovu straniucu za određenu prodavnicu ili grupu. Kliknite na "Da" da selektujete sva polja, "Ne" da odselektujete sva polja.</target>
+        <note>Line: 81</note>
+      </trans-unit>
+      <trans-unit id="d97ccb3e617d930d52ffd95e5db2c101" approved="yes">
+        <source>If you check a field, change its value, and save, the multistore behavior will not apply to this shop (or group), for this particular parameter.</source>
+        <target state="translated">Ako, selektujete polje, promentie vrednost i sačuvate, ponašanje karakteristično za lanac prodavnica neće biti primenjeno na tu prodavnicu (ili grupu), za taj posebni parametar.</target>
+        <note>Line: 82</note>
       </trans-unit>
       <trans-unit id="a157a50f5a421a7dfbdf280f3ff9d56e" approved="yes">
         <source>You can't change the value of this configuration field in the context of this shop.</source>
@@ -1848,6 +2098,11 @@
         <source>Upload file</source>
         <target state="translated">Postavi datoteku</target>
         <note>Line: 70</note>
+      </trans-unit>
+      <trans-unit id="6dc85b454944660cf96e7d0c2d171ee3" approved="yes">
+        <source>You cannot have more than %s images in total. Please remove some of the current images before adding new ones.</source>
+        <target state="translated">Možete imati više nego %s slika ukupno. Molimo uklonite neke od trenutnih slika pre nego dodate nove.</target>
+        <note>Line: 170</note>
       </trans-unit>
       <trans-unit id="b21f085d08623fc7a5a9da204cc66c8c" approved="yes">
         <source>Remove file</source>
@@ -1962,6 +2217,16 @@
         <source>Oh no!</source>
         <target state="translated">O ne!</target>
         <note>Line: 26</note>
+      </trans-unit>
+      <trans-unit id="93e2c2e3d9591e5d54b0e5e6f81d36e0" approved="yes">
+        <source>The mobile version of this page is not available yet.</source>
+        <target state="translated">Mobilna verzija ove stranie još uvek nije dostupna.</target>
+        <note>Line: 28</note>
+      </trans-unit>
+      <trans-unit id="56c42d822d794bc33d5e25bc53cd385b" approved="yes">
+        <source>Please use a desktop computer to access this page, until is adapted to mobile.</source>
+        <target state="translated">Molimo koristite desktop kompijuter kada pristupate ovim stranicam dok se ne prilagodi za mobilni.</target>
+        <note>Line: 31</note>
       </trans-unit>
       <trans-unit id="2d439011ecebc222e1feb2e3e005c0ac" approved="yes">
         <source>Thank you.</source>
@@ -2441,7 +2706,7 @@
     <body>
       <trans-unit id="193cfc9be3b995831c6af2fea6650e60" approved="yes">
         <source>Page</source>
-        <target state="translated">strana</target>
+        <target state="translated">Strana</target>
         <note>Line: 151</note>
       </trans-unit>
     </body>
@@ -2502,6 +2767,11 @@ Comment: Set the modules categories</note>
         <source>Internationalization and Localization</source>
         <target state="translated">Internacionalizacija i lokalizacija</target>
         <note>Line: 94</note>
+      </trans-unit>
+      <trans-unit id="825896e7e83eff50879ed00cba2f9414" approved="yes">
+        <source>Merchandising</source>
+        <target state="translated">Marketing</target>
+        <note>Line: 95</note>
       </trans-unit>
       <trans-unit id="5b985caa89b2ca61bbeee91a896c610d" approved="yes">
         <source>Migration Tools</source>

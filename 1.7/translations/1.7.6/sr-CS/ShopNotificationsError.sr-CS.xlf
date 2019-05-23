@@ -52,6 +52,11 @@
         <target state="translated">Ne možete da koristite ovaj vaučer sa ovim isporučiocem</target>
         <note>Line: 701</note>
       </trans-unit>
+      <trans-unit id="40869c38d826da9c21cc0359f905e5b3" approved="yes">
+        <source>You cannot use this voucher on products on sale</source>
+        <target state="translated">Ne možete upotrebiti ovaj vaučer za proizvode na rasprodaji</target>
+        <note>Line: 716</note>
+      </trans-unit>
       <trans-unit id="3fb396b59440efc171f576e02ecfa88a" approved="yes">
         <source>Please log in first</source>
         <target state="translated">Molimo vas da se prvo prijavite</target>
@@ -66,6 +71,11 @@
         <source>This voucher is already in your cart</source>
         <target state="translated">Ovaj vaučer Vam je već u korpi</target>
         <note>Line: 794</note>
+      </trans-unit>
+      <trans-unit id="4837d38bc896f38c39d6f7024e466967" approved="yes">
+        <source>This voucher is not combinable with an other voucher already in your cart: %s</source>
+        <target state="translated">Ovaj vaučer se ne može kombinovati sa drugim vaučerom koji je već u vašoj korpi: %s</target>
+        <note>Line: 812</note>
       </trans-unit>
       <trans-unit id="e199546c0a1d80f1bf116b131ee02e22" approved="yes">
         <source>Cart is empty</source>
@@ -109,14 +119,35 @@
   </file>
   <file original="classes/form/CustomerPersister.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
-      
-      
+      <trans-unit id="47be05698f8dd87bb445ceefce6abd0d" approved="yes">
+        <source>Password is required</source>
+        <target state="translated">Obavezna lozinka</target>
+        <note>Line: 159</note>
+      </trans-unit>
+      <trans-unit id="d2f614cac7a0f970168f6d129860a1c0" approved="yes">
+        <source>Invalid email/password combination</source>
+        <target state="translated">Neispravna kombinacija email/lozinka</target>
+        <note>Line: 71</note>
+      </trans-unit>
+      <trans-unit id="5f377de6cd38d0577c9628eeaecb3d0f" approved="yes">
+        <source>There seems to be an issue with your account, please contact support</source>
+        <target state="translated">Izgleda da postoji problem sa vašim nalogom, molimo kontaktirajte podršku</target>
+        <note>Line: 101</note>
+      </trans-unit>
+      <trans-unit id="e3cf2c117615da59fb8930d299eb16f3" approved="yes">
+        <source>An account was already registered with this email address</source>
+        <target state="translated">Već postoji korisnik sa ovom email adresom</target>
+        <note>Line: 187</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/stock/SupplyOrderDetail.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
+      <trans-unit id="1f597c6798d6a39dd2bde999d547331a" approved="yes">
+        <source>%s is required.</source>
+        <target state="translated">%s je neophodno.</target>
+        <note>Line: 294</note>
+      </trans-unit>
       <trans-unit id="8ae0cb74f9724518e1ce68c503377002" approved="yes">
         <source>is invalid.</source>
         <target state="translated">je nepravilno.</target>
@@ -131,8 +162,16 @@
   </file>
   <file original="controllers/front/AddressController.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="0adae640fffe5e6c0208e25f13aaa414" approved="yes">
+        <source>Please fix the error below.</source>
+        <target state="translated">Molimo ispravite grešku ispod.</target>
+        <note>Line: 60</note>
+      </trans-unit>
+      <trans-unit id="2af64b8ece83492468fbc41f9b692556" approved="yes">
+        <source>Could not delete address.</source>
+        <target state="translated">Nije moguće izbrisati adresu.</target>
+        <note>Line: 81</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/front/AddressesController.php" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -156,6 +195,16 @@
         <target state="translated">Kod vaučera nije ispravan.</target>
         <note>Line: 249</note>
       </trans-unit>
+      <trans-unit id="d21c3bf7d25db04b73e7e269aef555fe" approved="yes">
+        <source>This voucher does not exist.</source>
+        <target state="translated">Ovaj vaučer ne postoji.</target>
+        <note>Line: 264</note>
+      </trans-unit>
+      <trans-unit id="8b84452c494aa9106d26b20c9df0e431" approved="yes">
+        <source>You must add %quantity% minimum quantity</source>
+        <target state="translated">Morate dodati %quantity% minimalne količine</target>
+        <note>Line: 509</note>
+      </trans-unit>
       <trans-unit id="9730e222894d4568ed4cd2de30cb233a" approved="yes">
         <source>Null quantity.</source>
         <target state="translated">Nulta količina</target>
@@ -170,6 +219,11 @@
         <source>This product (%product%) is no longer available.</source>
         <target state="translated">Ovaj proizvod (%product%) nije više dostupan.</target>
         <note>Line: 613</note>
+      </trans-unit>
+      <trans-unit id="9a7c79186c1ff1cd48b31ed6caf6ff48" approved="yes">
+        <source>The item %product% in your cart is no longer available in this quantity. You cannot proceed with your order until the quantity is adjusted.</source>
+        <target state="translated">Stavka %product% u vašoj korpi nije više dostupna za ovu količinu, ne možete nastaviti sa porudžbinom bez da promenite količinu.</target>
+        <note>Line: 606</note>
       </trans-unit>
       <trans-unit id="feb34b89eb5bf8066025f508b9b86ab2" approved="yes">
         <source>The minimum purchase order quantity for the product %product% is %quantity%.</source>
@@ -239,14 +293,30 @@
   </file>
   <file original="controllers/front/GuestTrackingController.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="ddb329ec6521925a245fbe1334d2ce18" approved="yes">
+        <source>Please provide the required information</source>
+        <target state="translated">Molimo vas obezbedite potrebne informacije</target>
+        <note>Line: 63</note>
+      </trans-unit>
+      <trans-unit id="ac68011e87111c9833dab09935bd88f3" approved="yes">
+        <source>We couldn't find your order with the information provided, please try again</source>
+        <target state="translated">Nismo mogli pronaći vašu porudžbinu sa dostavljenim informacijama, molimo pokušajte ponovo</target>
+        <note>Line: 83</note>
+      </trans-unit>
+      <trans-unit id="97f79d53b078e529949d5c3c8b676d52" approved="yes">
+        <source>An unexpected error occurred while creating your account.</source>
+        <target state="translated">Dogodila se neočekivana greška prilikom kreiranja vašeg naloga.</target>
+        <note>Line: 108</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/front/IdentityController.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
+      <trans-unit id="7cee9e5fd53cf1d3d1677ef3edc4a613" approved="yes">
+        <source>Could not update your information, please check your data.</source>
+        <target state="translated">Ne možete ažurirati svoje podatke, molimo proverite svoje podatke.</target>
+        <note>Line: 59</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/front/OrderController.php" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -295,6 +365,11 @@
         <target state="translated">Molimo Vas da navedete količinu proizvoda koji ste označili.</target>
         <note>Line: 176</note>
       </trans-unit>
+      <trans-unit id="a3c5d3c6953c588760d90657e4f0b790" approved="yes">
+        <source>This order cannot be returned</source>
+        <target state="translated">Ovu porudžbinu nije moguće vratiti</target>
+        <note>Line: 178</note>
+      </trans-unit>
       <trans-unit id="3dc245110e1f3601860c20299d97c01d" approved="yes">
         <source>The message cannot be blank.</source>
         <target state="translated">Poruka ne može biti prazna</target>
@@ -313,6 +388,11 @@
   </file>
   <file original="controllers/front/PasswordController.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
+      <trans-unit id="909179695703d6a048fab0bcc9af4758" approved="yes">
+        <source>We cannot regenerate your password with the data you've submitted</source>
+        <target state="translated">Ne možemo da napravimo novu šifru sa podacima koje ste poslali</target>
+        <note>Line: 211</note>
+      </trans-unit>
       <trans-unit id="194496a52d41fba1c9e6140c4eb34f83" approved="yes">
         <source>You cannot regenerate the password for this account.</source>
         <target state="translated">Nemožete ponovo da generišete lozinku za ovaj nalog.</target>
@@ -333,10 +413,40 @@
         <target state="translated">Korisnički nalog nije pronađen</target>
         <note>Line: 121</note>
       </trans-unit>
+      <trans-unit id="da9aa00ef0107af3e55d9ae1e8a1f361" approved="yes">
+        <source>The password and its confirmation do not match.</source>
+        <target state="translated">Šifra i potvrda se ne slažu.</target>
+        <note>Line: 144</note>
+      </trans-unit>
+      <trans-unit id="cf84bfe60dba837405db6f0a3cb9c086" approved="yes">
+        <source>The password change request expired. You should ask for a new one.</source>
+        <target state="translated">Zahtev za izmenu lozinke je istekao. Morate da zatražite nov.</target>
+        <note>Line: 125</note>
+      </trans-unit>
+      <trans-unit id="619469491be87d328254b6f41cd73770" approved="yes">
+        <source>An error occurred with your account, which prevents us from updating the new password. Please report this issue using the contact form.</source>
+        <target state="translated">Došlo je do greške sa Vašim nalogom, koja sprečava izmenu nove lozinke. Molimo vas da prijavite problem putem kontakt forme.</target>
+        <note>Line: 206</note>
+      </trans-unit>
       <trans-unit id="e267e2be02cf3e29f4ba53b5d97cf78a" approved="yes">
         <source>Invalid email address.</source>
         <target state="translated">E-mail adresa nije validna</target>
         <note>Line: 53</note>
+      </trans-unit>
+      <trans-unit id="375dee52ced3330cd3496340b32098ca" approved="yes">
+        <source>The password is missing: please enter your new password.</source>
+        <target state="translated">Lozinka nedostaje: molimo unesite novu lozinku.</target>
+        <note>Line: 135</note>
+      </trans-unit>
+      <trans-unit id="f3e3f424a084383aa2931fae612b1ff1" approved="yes">
+        <source>The confirmation is empty: please fill in the password confirmation as well</source>
+        <target state="translated">Polje za potrvrdu lozinke je prazno: molimo popunite to polje takođe</target>
+        <note>Line: 139</note>
+      </trans-unit>
+      <trans-unit id="f01fb987f60542e0bff1bf7bed42d142" approved="yes">
+        <source>The password is not in a valid format.</source>
+        <target state="translated">Lozinka ima pogrešan format.</target>
+        <note>Line: 148</note>
       </trans-unit>
     </body>
   </file>
@@ -422,6 +532,24 @@
   </file>
   <file original="modules/trackingfront/trackingfront.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
+      <trans-unit id="a3de4dbbfe3bac5d271a16fb8a6f942e" approved="yes">
+        <source>Login is required</source>
+        <target state="translated">Potrebno je da se ulogujete</target>
+        <note>Context:
+File: modules/trackingfront/trackingfront.php:84</note>
+      </trans-unit>
+      <trans-unit id="a6f2a48726b0d36107e00e20795d3d37" approved="yes">
+        <source>Invalid login</source>
+        <target state="translated">Logovanje nije uspelo</target>
+        <note>Context:
+File: modules/trackingfront/trackingfront.php:86</note>
+      </trans-unit>
+      <trans-unit id="cba0b206627d45fbf0ae707e20d4a38f" approved="yes">
+        <source>Invalid password</source>
+        <target state="translated">Pogrеšna lozinka</target>
+        <note>Context:
+File: modules/trackingfront/trackingfront.php:90</note>
+      </trans-unit>
       <trans-unit id="d4e6d6c42bf3eb807b8778255a4ce415" approved="yes">
         <source>Authentication failed</source>
         <target state="translated">Autentifikacija nije uspela</target>
@@ -432,7 +560,11 @@ File: modules/trackingfront/trackingfront.php:99</note>
   </file>
   <file original="src/Adapter/Presenter/Product/ProductLazyArray.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
+      <trans-unit id="a923575984949608ce04c4984806ec2a" approved="yes">
+        <source>There are not enough products in stock</source>
+        <target state="translated">Nema dovoljno ovih proizvoda na zalihama</target>
+        <note>Line: 790</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/checkout/_partials/steps/addresses.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
