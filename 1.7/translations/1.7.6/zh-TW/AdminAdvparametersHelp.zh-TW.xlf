@@ -50,6 +50,16 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <target state="translated">警告：不建議啟用 "共用客戶" 與 "共用訂單" 選項，啟用且有訂單建立後就無法將它停用，如果確實有這樣的需求，建議用多個分類取代多個商店的結構</target>
         <note>Line: 182</note>
       </trans-unit>
+      <trans-unit id="ee5d0efc6b5d41f7ee2ac5ea831f2a7f" approved="yes">
+        <source>Once this option is enabled, the shops in this group will share customers. If a customer registers in any one of these shops, the account will automatically be available in the others shops of this group.</source>
+        <target state="translated">一旦啟用此選項，這一組商店將共享​​客戶資料。如果客戶在這組別裡任何一個的店鋪註冊成會員，這客戶都會自動成為其他商店會員。</target>
+        <note>Line: 208</note>
+      </trans-unit>
+      <trans-unit id="dace58c348a19d7bddb7a3fe4fd3ebfa" approved="yes">
+        <source>Warning: you will not be able to disable this option once you have registered customers.</source>
+        <target state="translated">警告：一旦您有客戶成為你的會員，您就不能禁用此選項。</target>
+        <note>Line: 208</note>
+      </trans-unit>
       <trans-unit id="059a6f0b1a0a28d15ee51fe80670f6f2" approved="yes">
         <source>Once this option is enabled (which is only possible if customers and available quantities are shared among shops), the customer's cart will be shared by all shops in this group. This way, any purchase started in one shop will be able to be completed in another shop from the same group.</source>
         <target state="translated">一旦啟用這個選項（只有在客戶與可用數量在多個商店共用時），客戶的購物車在這個群組的商店也會共用。透過這個方式，任何在一個商店開始的採購都可以在同群組的商店結帳。警告：一旦開始有訂單建立就無法停用這個選項。</target>
@@ -282,10 +292,25 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <target state="translated">允許的檔案格式：.csv, .xls, .xlsx, .xlst, .ods, .ots</target>
         <note>Line: 90</note>
       </trans-unit>
+      <trans-unit id="c9f7248e8f5712f5438def77389e1c46" approved="yes">
+        <source>Only UTF-8 and ISO 8859-1 encodings are allowed</source>
+        <target state="translated">只支持 UTF-8 和 ISO-8859-1編碼</target>
+        <note>Line: 91</note>
+      </trans-unit>
+      <trans-unit id="6578c8c9a3dbadb0a3672c3ca6c0b513" approved="yes">
+        <source>You can also upload your file via FTP to the following directory: %s .</source>
+        <target state="translated">您也可以通過FTP上傳你的文件到以下目錄：%s。</target>
+        <note>Line: 92</note>
+      </trans-unit>
       <trans-unit id="b070d64c5a2f10b4b8eb361ba4f61833" approved="yes">
         <source>e.g. </source>
         <target state="translated">例如 </target>
         <note>Line: 134</note>
+      </trans-unit>
+      <trans-unit id="1d3be023802846145f9b75fc90b4cf21" approved="yes">
+        <source>If enabled, the product's reference number MUST be unique!</source>
+        <target state="translated">如果啟用，該商品的參考號碼必須是唯一的！</target>
+        <note>Line: 148</note>
       </trans-unit>
       <trans-unit id="f66963da2d51d637afa80ff8edf8d734" approved="yes">
         <source>If you enable this option, your imported items' ID number will be used as is. If you do not enable this option, the imported ID numbers will be ignored, and PrestaShop will instead create auto-incremented ID numbers for all the imported items.</source>
@@ -306,7 +331,11 @@ Comment: Special case for Product : either one or the other. Not both.</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Email/Blocks/email_configuration.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
+      <trans-unit id="e6f52e23510fd010aa5460c96fd67142" approved="yes">
+        <source>Where customers send messages from the order page.</source>
+        <target state="translated">客戶從訂單頁發送訊息的位置。</target>
+        <note>Line: 41</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Email/Blocks/smtp_configuration.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -402,6 +431,11 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <target state="translated">欄位內填寫內容後點選"儲存"</target>
         <note>Line: 37</note>
       </trans-unit>
+      <trans-unit id="64427cd6d9efe12b779a1e3bb2fafc06" approved="yes">
+        <source>You can then view the query results by clicking on the Edit action in the dropdown menu</source>
+        <target state="translated">您可以通過單擊下拉菜單中的“編輯”操作來查看查詢結果</target>
+        <note>Line: 38</note>
+      </trans-unit>
       <trans-unit id="29147406190a86209d5f4b3080cc7fa9" approved="yes">
         <source>You can also export the query results as a CSV file by clicking on the Export button</source>
         <target state="translated">您也可以點選 匯出 按鈕來匯出搜尋結果為 CSV 檔案</target>
@@ -411,7 +445,11 @@ Comment: Special case for Product : either one or the other. Not both.</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Webservice/Blocks/form.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
+      <trans-unit id="a5cb039db72d4c240b6cca34b48d61bc" approved="yes">
+        <source>Quick description of the key: who it is for, what permissions it has, etc.</source>
+        <target state="translated">密鑰的簡要描述：它的用途，權限，等等。</target>
+        <note>Line: 43</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Webservice/webservice_settings.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -430,6 +468,11 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <source>Check that the five methods GET, POST, PUT, DELETE and HEAD are supported by this server.</source>
         <target state="translated">主機需支援 GET, POST, PUT, DELETE, 和 HEAD</target>
         <note>Line: 50</note>
+      </trans-unit>
+      <trans-unit id="c03f07bc287e77654a26af409b4d93fa" approved="yes">
+        <source>Before choosing "Yes", check that PHP is not configured as an Apache module on your server.</source>
+        <target state="translated">在選擇“是”之前，請確保未在服務器上將PHP配置為Apache模塊。</target>
+        <note>Line: 63</note>
       </trans-unit>
     </body>
   </file>
