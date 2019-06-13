@@ -86,6 +86,11 @@
         <target state="translated">Kinkepakendi kogukulu:</target>
         <note>Line: 179</note>
       </trans-unit>
+      <trans-unit id="80fde97fb8929b8bea9ebcf5241be2f9" approved="yes">
+        <source>Total shipping costs:</source>
+        <target state="translated">Saatekulu kokku:</target>
+        <note>Line: 185</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/customer_threads/helpers/list/list_header.tpl" source-language="en" target-language="et" datatype="plaintext">
@@ -477,6 +482,11 @@
         <source>Supplier reference:</source>
         <target state="translated">Tarnija viide:</target>
         <note>Line: 40</note>
+      </trans-unit>
+      <trans-unit id="967ad092fca7b99aa4f170ed73a6a8e1" approved="yes">
+        <source>%quantity_refunded% (%amount_refunded% refund)</source>
+        <target state="translated">%quantity_refunded% (%amount_refunded% tagastus)</target>
+        <note>Line: 95</note>
       </trans-unit>
       <trans-unit id="4fdfd561c540aa5e20a9b2b9c06054bb" approved="yes">
         <source>Package content</source>
@@ -909,6 +919,11 @@
         <target state="translated">Tagastatud</target>
         <note>Line: 933</note>
       </trans-unit>
+      <trans-unit id="cdba184783a0253218efd734da81a9da" approved="yes">
+        <source>Stock location</source>
+        <target state="translated">Lao asukoht</target>
+        <note>Line: 935</note>
+      </trans-unit>
       <trans-unit id="988fd738de9c6d177440c5dcf69e73ce" approved="yes">
         <source>Return</source>
         <target state="translated">Tagasi</target>
@@ -1066,15 +1081,49 @@
         <target state="translated">Transpordi aeg</target>
         <note>Line: 26</note>
       </trans-unit>
+      <trans-unit id="2a442c1a811c488f4aad5d970f1047c5" approved="yes">
+        <source>Hi,
+
+Unfortunately, an item on your order is currently out of stock. This may cause a slight delay in delivery.
+Please accept our apologies and rest assured that we are working hard to rectify this.
+
+Best regards,</source>
+        <target state="translated">Tere,
+
+Kahjuks on üks toode teie tellimusest praegusel hetkel laost otsas. See võib põhjustada väikest viivitust seoses tarnega. Vabandame tekkinud olukorra pärast ja teeme endast olenevalt kõik, et tooted võimalikult kiiresti teieni toimetada.
+
+Parimate soovidega,</target>
+        <note>Line: 28</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/lang/KeysReference/OrderReturnStateLang.php" source-language="en" target-language="et" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
+      <trans-unit id="015c603172846437ee7a569dc2c36273" approved="yes">
+        <source>Waiting for confirmation</source>
+        <target state="translated">Ootab kinnitust</target>
+        <note>Line: 26</note>
+      </trans-unit>
+      <trans-unit id="7d42f56ce1d82d68f6545242ef4384a4" approved="yes">
+        <source>Waiting for package</source>
+        <target state="translated">Paki ootamine</target>
+        <note>Line: 27</note>
+      </trans-unit>
+      <trans-unit id="b383cc6d0e4ab5bfab94b4452a916ee5" approved="yes">
+        <source>Package received</source>
+        <target state="translated">Pakk on kätte saadud</target>
+        <note>Line: 28</note>
+      </trans-unit>
+      <trans-unit id="03bd13f6762c099741f4934beb32b95d" approved="yes">
+        <source>Return denied</source>
+        <target state="translated">Tagastamisest keelduti</target>
+        <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="4bb0dcdb92397d6b646711d623504058" approved="yes">
+        <source>Return completed</source>
+        <target state="translated">Tagastatud</target>
+        <note>Line: 30</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/lang/KeysReference/OrderStateLang.php" source-language="en" target-language="et" datatype="plaintext">
@@ -1084,15 +1133,60 @@
         <target state="translated">Ootab tšekki</target>
         <note>Line: 26</note>
       </trans-unit>
+      <trans-unit id="016e1f278eccd700eaf33f74a501d050" approved="yes">
+        <source>Payment accepted</source>
+        <target state="translated">Makse on vastu võetud</target>
+        <note>Line: 28</note>
+      </trans-unit>
+      <trans-unit id="294e143a57d178715a55e8575f8037e6" approved="yes">
+        <source>Processing in progress</source>
+        <target state="translated">Töötlemisel</target>
+        <note>Line: 30</note>
+      </trans-unit>
       <trans-unit id="747cf5c8587184b9e489ff897d97c20d" approved="yes">
         <source>Shipped</source>
         <target state="translated">Saadetud</target>
         <note>Line: 32</note>
       </trans-unit>
+      <trans-unit id="67edd3b99247c9eb5884a02802a20fa7" approved="yes">
+        <source>Delivered</source>
+        <target state="translated">Kohale toimetatud</target>
+        <note>Line: 34</note>
+      </trans-unit>
+      <trans-unit id="0e22fe7d45f8e5632a4abf369b24e29c" approved="yes">
+        <source>Canceled</source>
+        <target state="translated">Tühistatud</target>
+        <note>Line: 36</note>
+      </trans-unit>
       <trans-unit id="cc61945cbbf46721a053467c395c666f" approved="yes">
         <source>Refunded</source>
         <target state="translated">Tagasi makstud</target>
         <note>Line: 38</note>
+      </trans-unit>
+      <trans-unit id="1e97d97a923eaddd810e056c828e99ea" approved="yes">
+        <source>Payment error</source>
+        <target state="translated">Viga maksmisel</target>
+        <note>Line: 40</note>
+      </trans-unit>
+      <trans-unit id="48eac0bd985bc909fb58ccc1e1f669ed" approved="yes">
+        <source>On backorder (paid)</source>
+        <target state="translated">Järeltellimisel (makstud)</target>
+        <note>Line: 42</note>
+      </trans-unit>
+      <trans-unit id="6d59fd4089482ca1a4017ca4852f8d1d" approved="yes">
+        <source>On backorder (not paid)</source>
+        <target state="translated">Järeltellimisel (maksmata)</target>
+        <note>Line: 44</note>
+      </trans-unit>
+      <trans-unit id="688a337ab9864a53b41cd6ccd7f8880d" approved="yes">
+        <source>Awaiting bank wire payment</source>
+        <target state="translated">Ootab pangaülekannet</target>
+        <note>Line: 46</note>
+      </trans-unit>
+      <trans-unit id="9517f3495b0036d25cbc455c592ea868" approved="yes">
+        <source>Remote payment accepted</source>
+        <target state="translated">Kaugmakse on aktsepteeritud</target>
+        <note>Line: 48</note>
       </trans-unit>
     </body>
   </file>
@@ -1122,12 +1216,36 @@
   </file>
   <file original="classes/lang/KeysReference/SupplyOrderStateLang.php" source-language="en" target-language="et" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
+      <trans-unit id="78e25fccba5eb87a2fe929e6cfa27b26" approved="yes">
+        <source>1 - Creation in progress</source>
+        <target state="translated">1 - Loomine on käimas</target>
+        <note>Line: 26</note>
+      </trans-unit>
+      <trans-unit id="aa92ea2c14150feacd8a38cabaf59c4b" approved="yes">
+        <source>2 - Order validated</source>
+        <target state="translated">2. Tellimus on kinnitatud</target>
+        <note>Line: 28</note>
+      </trans-unit>
+      <trans-unit id="efca1ad6911feea6ec4f5172f28ff135" approved="yes">
+        <source>3 - Pending receipt</source>
+        <target state="translated">3 - Kviitungi ootel</target>
+        <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="0e547a2250b0531cf58a26995ba31801" approved="yes">
+        <source>4 - Order received in part</source>
+        <target state="translated">4 - Tellimus saadi osaliselt kätte</target>
+        <note>Line: 32</note>
+      </trans-unit>
+      <trans-unit id="589760755f6f33549fb31e5ab03f2676" approved="yes">
+        <source>5 - Order received completely</source>
+        <target state="translated">5 - Tellimus on täielikult kätte saadud</target>
+        <note>Line: 34</note>
+      </trans-unit>
+      <trans-unit id="817bedb8bd68b944c3fa6e231b53147d" approved="yes">
+        <source>6 - Order canceled</source>
+        <target state="translated">6 - Tellimus on tühistatud</target>
+        <note>Line: 36</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminAddressesController.php" source-language="en" target-language="et" datatype="plaintext">
@@ -1537,6 +1655,11 @@
         <target state="translated">Kogus saadaval</target>
         <note>Line: 41</note>
       </trans-unit>
+      <trans-unit id="c8b4c13e6ad3227e192c118261c0e179" approved="yes">
+        <source>%firstname% %lastname% has no discount vouchers</source>
+        <target state="translated">%firstname% %lastname% ei oma ühtegi kupongi</target>
+        <note>Line: 100</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/Blocks/View/last_connections.html.twig" source-language="en" target-language="et" datatype="plaintext">
@@ -1575,6 +1698,11 @@
         <target state="translated">Saadetud on</target>
         <note>Line: 39</note>
       </trans-unit>
+      <trans-unit id="e1835dc45bbdc7f7d3ca94f4ab002f84" approved="yes">
+        <source>%firstname% %lastname% has never contacted you</source>
+        <target state="translated">%firstname% %lastname% pole sinuga kunagi ühendust võtnud</target>
+        <note>Line: 58</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/Blocks/View/orders.html.twig" source-language="en" target-language="et" datatype="plaintext">
@@ -1593,6 +1721,11 @@
         <source>Total spent</source>
         <target state="translated">Kokku makstakse</target>
         <note>Line: 114</note>
+      </trans-unit>
+      <trans-unit id="665305fedb3adcae303f3b974bc9ce08" approved="yes">
+        <source>%firstname% %lastname% has not placed any orders yet</source>
+        <target state="translated">%firstname% %lastname% pole veel ühtegi tellimust esitanud</target>
+        <note>Line: 152</note>
       </trans-unit>
       <trans-unit id="d1554912e46f8d36a800ad8b604225f1" approved="yes">
         <source>Valid orders:</source>
@@ -1718,8 +1851,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/Blocks/showcase_card.html.twig" source-language="en" target-language="et" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="23e5b200627fb18479ef21fc9a616915" approved="yes">
+        <source>Administrate your customers</source>
+        <target state="translated">Halda oma kliente</target>
+        <note>Line: 32</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/create.html.twig" source-language="en" target-language="et" datatype="plaintext">
@@ -1784,6 +1920,11 @@
         <source>Delivery prefix</source>
         <target state="translated">Saatelehe eesliide</target>
         <note>Line: 79</note>
+      </trans-unit>
+      <trans-unit id="3f921d7b2738f966c8d4d78d62f414b6" approved="yes">
+        <source>Delivery Number</source>
+        <target state="translated">Saatelehe number</target>
+        <note>Line: 86</note>
       </trans-unit>
       <trans-unit id="133e649a7f103383bd0c9c35c40f8ce0" approved="yes">
         <source>Enable product image</source>
