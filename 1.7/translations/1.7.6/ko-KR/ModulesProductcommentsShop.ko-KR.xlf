@@ -16,6 +16,11 @@
         <target state="translated">상품평을 게시하려면 [1]로그인[/1] 하거나 [2]계정을 생성[/2]해야 합니다.</target>
         <note>Line: 40</note>
       </trans-unit>
+      <trans-unit id="dd7164fb6342eb2622b10568c0240bbf" approved="yes">
+        <source>You are not allowed to post a review at the moment, please try again later.</source>
+        <target state="translated">현재 상품평을 게시하는 것이 허용되지 않습니다. 나중에 다시 시도해 주세요.</target>
+        <note>Line: 66</note>
+      </trans-unit>
       <trans-unit id="95ba76c5c7b555be8efe6a3da26f0e4e" approved="yes">
         <source>Title cannot be empty</source>
         <target state="translated">제목은 비워둘 수 없음</target>
@@ -26,16 +31,44 @@
         <target state="translated">제목은 %s자를 초과할 수 없음</target>
         <note>Line: 146</note>
       </trans-unit>
+      <trans-unit id="eb51e9ce995a1a8ca09f3a4369bb8720" approved="yes">
+        <source>Customer name cannot be empty</source>
+        <target state="translated">고객명은 비워둘 수 없음</target>
+        <note>Line: 151</note>
+      </trans-unit>
+      <trans-unit id="8928e4374410046ab21285fc9090ee19" approved="yes">
+        <source>Customer name cannot be more than %s characters</source>
+        <target state="translated">고객명은 %s자를 초과할 수 없음</target>
+        <note>Line: 153</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/productcomments/controllers/front/ReportComment.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="4b6a3b2fdf3c89e9f83dfb44b34336fb" approved="yes">
+        <source>You need to be logged in to report a review.</source>
+        <target state="translated">상품평을 남기려면 로그인을 해야 합니다.</target>
+        <note>Line: 38</note>
+      </trans-unit>
+      <trans-unit id="95a184e3d0444294153577d952e9791f" approved="yes">
+        <source>You already reported this review as abusive.</source>
+        <target state="translated">이미 이 상품평이 악의적이라고 신고했습니다.</target>
+        <note>Line: 69</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/productcomments/controllers/front/UpdateCommentUsefulness.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
+      <trans-unit id="198645056f217f726ff1dc6e65ccc322" approved="yes">
+        <source>Cannot find the requested product review.</source>
+        <target state="translated">요청된 상품 상품평을 찾을 수 없습니다.</target>
+        <note>Line: 74</note>
+      </trans-unit>
+      <trans-unit id="4ab403bbf7563d87b327f2a9b2e04baa" approved="yes">
+        <source>This feature is not enabled.</source>
+        <target state="translated">이 기능은 활성화되지 않았습니다.</target>
+        <note>Line: 38</note>
+      </trans-unit>
       <trans-unit id="9104797eca16236af6aaf8d857728a3d" approved="yes">
         <source>You need to be [1]logged in[/1] or [2]create an account[/2] to give your appreciation of a review.</source>
         <target state="translated">상품평에 공감을 남기려면 [1]로그인[/1] 하거나 [2]계정을 생성[/2]해야 합니다.</target>
@@ -91,6 +124,11 @@
   </file>
   <file original="modules/productcomments/views/templates/hook/post-comment-modal.tpl" source-language="en" target-language="ko" datatype="plaintext">
     <body>
+      <trans-unit id="101d699ab80f40c7110be34095759b08" approved="yes">
+        <source>Sorry, your review cannot be posted.</source>
+        <target state="translated">죄송합니다, 당신의 상품평을 게시할 수 없습니다.</target>
+        <note>Line: 27</note>
+      </trans-unit>
       <trans-unit id="b78a3223503896721cca1303f776159b" approved="yes">
         <source>Title</source>
         <target state="translated">직위</target>
@@ -131,6 +169,11 @@
         <target state="translated">당신의 댓글이 추가되었습니다!</target>
         <note>Line: 153</note>
       </trans-unit>
+      <trans-unit id="ffe435d2d09dddbaa6927987bc8466a7" approved="yes">
+        <source>Your review cannot be sent</source>
+        <target state="translated">상품평을 전송할 수 없습니다</target>
+        <note>Line: 164</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/productcomments/views/templates/hook/product-additional-info.tpl" source-language="en" target-language="ko" datatype="plaintext">
@@ -158,6 +201,16 @@
         <target state="translated">상품평 쓰기</target>
         <note>Line: 58</note>
       </trans-unit>
+      <trans-unit id="926d083c719119e1a02ccab444ebb2bc" approved="yes">
+        <source>Sorry, your review appreciation cannot be sent.</source>
+        <target state="translated">죄송합니다, 당신의 상품평를 전송할 수 없습니다.</target>
+        <note>Line: 27</note>
+      </trans-unit>
+      <trans-unit id="9a2fa15ec74c5fdad04227a184425637" approved="yes">
+        <source>Sorry, your abuse report cannot be sent.</source>
+        <target state="translated">죄송합니다, 당신의 부적절 사례 보고서를 전송할 수 없습니다.</target>
+        <note>Line: 28</note>
+      </trans-unit>
       <trans-unit id="8413c683b4b27cc3f4dbd4c90329d8ba" approved="yes">
         <source>Comments</source>
         <target state="translated">댓글</target>
@@ -167,6 +220,11 @@
         <source>Are you sure that you want to report this comment?</source>
         <target state="translated">이 댓글을 신고하시겠습니까?</target>
         <note>Line: 75</note>
+      </trans-unit>
+      <trans-unit id="2b15bb3a34368bc47f59833e7e6ef09b" approved="yes">
+        <source>Your report has been submitted and will be considered by a moderator.</source>
+        <target state="translated">당신의 보고서가 제출되었고 운영자가 승인하여 고려됩니다.</target>
+        <note>Line: 83</note>
       </trans-unit>
     </body>
   </file>
