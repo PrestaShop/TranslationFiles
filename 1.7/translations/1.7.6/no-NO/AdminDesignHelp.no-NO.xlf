@@ -2,6 +2,11 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="admin-dev/themes/default/template/controllers/images/content.tpl" source-language="en" target-language="no" datatype="plaintext">
     <body>
+      <trans-unit id="5fe1c6d39261cafbe5e6d827330d3841" approved="yes">
+        <source>By default, all images settings are already installed in your store. Do not delete them, you will need it!</source>
+        <target state="final">Som standard er hele bildeoppsettet allerede lagt til i butikken din. Ikke slett dette, du må ha det!</target>
+        <note>Line: 27</note>
+      </trans-unit>
       <trans-unit id="8e6cd17ee7b35531b7c17c1e1edeb548" approved="yes">
         <source>Regenerates thumbnails for all existing images</source>
         <target state="final">Lag thumbnails på nytt for alle eksisterende produktbilder</target>
@@ -192,6 +197,11 @@
         <target state="final">Advarsel: du kan bruke en PNG-fil for gjennomsiktighet, men det kan ta opptil 1 sekund per side å laste. Vurder å bruke JPG i stedet.</target>
         <note>Line: 438</note>
       </trans-unit>
+      <trans-unit id="9d365da5a530a9f2607be1d3ba79235c" approved="yes">
+        <source>It is the small icon that appears in browser tabs, next to the web address</source>
+        <target state="final">Det lille ikonet som dukker opp i nettleseren, ved siden av nettadressen</target>
+        <note>Line: 447</note>
+      </trans-unit>
       <trans-unit id="1a4e6f83162563ba06213015f4f503ed" approved="yes">
         <source>Be careful! Please check your theme in an RTL language before generating the RTL stylesheet: your theme could be already adapted to RTL.\nOnce you click on "Adapt to RTL", any RTL-specific file that you might have added to your theme might be deleted by the created stylesheet.</source>
         <target state="final">Vær forsiktig! Vennligst sjekk temaet ditt på et RTL-språk før du genererer RTL-stilarket: temaet ditt kan allerede være tilpasset RTL.\nNår du klikker på "Tilpass til RTL", kan enhver RTL-spesifikk fil du kanskje har lagt til temaet ditt bli slettet av det opprettede stilarket.</target>
@@ -201,14 +211,30 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Design/Cms/Blocks/form.html.twig" source-language="en" target-language="no" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="2acc315907b6b57c444b1885666f5bdd" approved="yes">
+        <source>Used in the h1 page tag, and as the default title tag value.</source>
+        <target state="final">Brukes i h1-taggen og som standard tittel-tag.</target>
+        <note>Line: 45</note>
+      </trans-unit>
+      <trans-unit id="27043bc0eeca71692edf6c51fef16ee0" approved="yes">
+        <source>Used to override the title tag value. If left blank, the default title value is used.</source>
+        <target state="final">Brukes for å overstyre tittel-taggen. Hvis den er tom vil standardverdien for tittel bli brukt.</target>
+        <note>Line: 65</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Design/Cms/Blocks/showcase_card.html.twig" source-language="en" target-language="no" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="80ccab2796a85566dac9af41ab0bf89b" approved="yes">
+        <source>Create meaningful content</source>
+        <target state="final">Lag meningsfullt innhold</target>
+        <note>Line: 33</note>
+      </trans-unit>
+      <trans-unit id="4cd30cbec90b9e4a0b25f4e3222e417b" approved="yes">
+        <source>Because it is not just selling products but also creating a universe, build pages to tell stories and catch your visitors’ interest, to turn them into loyal customers.</source>
+        <target state="final">Sider brukes ikke bare for å selge produkter men for å lage ditt eget univers. Sider kan brukes til å fortelle historier og fange interessen til dine besøkende. Dette er en god måte å skaffe trofaste kunder.</target>
+        <note>Line: 34</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Design/Cms/index.html.twig" source-language="en" target-language="no" datatype="plaintext">
@@ -227,14 +253,30 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Design/MailTheme/Blocks/configuration_form.html.twig" source-language="en" target-language="no" datatype="plaintext">
     <body>
-      
+      <trans-unit id="1dda8b854d639e61bee497c7d22f8057" approved="yes">
+        <source>This won't regenerate email templates, it only sets the default email theme for future generation (when a language is installed for example).</source>
+        <target state="final">Dette vil ikke generere e-postmalene men vil kun sette standardtema for framtidige genereringer (f.eks. når et nytt språk blir installert).</target>
+        <note>Line: 42</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Design/MailTheme/Blocks/generate_mails_form.html.twig" source-language="en" target-language="no" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="a286fbcf840903be7c9251c14ce9ac03" approved="yes">
+        <source>PrestaShop's email templates are stored in the "mails" folder, but they can be overridden by your current theme's own "mails" folder. Using this option enables to overwrite emails from your current theme.</source>
+        <target state="final">E-postmalene I PrestaShop blir lagret i "mails"-mappen, men kan overskrives av e-posttemaets egen "mails"-mappe. Hvis du bruker dette valget kan e-post fra ditt nåværende tema bli overskrevet.</target>
+        <note>Line: 62</note>
+      </trans-unit>
+      <trans-unit id="0705d2ffde737b9365c1f84715f6f66f" approved="yes">
+        <source>By default, existing email template files are not modified to avoid deleting any modification you may have done. Enable this option to force the overwrite.</source>
+        <target state="final">Normalt vil ikke systemet tillate at e-postmalene blir overskrevet. Dette gjøres for å unngå at endringer du har gjort går tapt. Her kan du velge å tvinge fram en overskriving.</target>
+        <note>Line: 77</note>
+      </trans-unit>
+      <trans-unit id="d8533de1b9f083f6a42b644fea80a6a0" approved="yes">
+        <source>No emails were detected in any theme folder so this field is disabled.</source>
+        <target state="final">Det finnes ingen e-poster i noen av temamappene så dette feltet er deaktivert.</target>
+        <note>Line: 69</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Design/Theme/Blocks/logo_configuration.html.twig" source-language="en" target-language="no" datatype="plaintext">
@@ -254,11 +296,31 @@
         <target state="final">Vil komme på toppen av fakturaer.</target>
         <note>Line: 105</note>
       </trans-unit>
+      <trans-unit id="3fb044d8f9136df5b2f0087f8a8fb0c9" approved="yes">
+        <source>Use our [1]favicon generator on PrestaShop Marketplace[/1] to boost your brand image!</source>
+        <target state="final">Bruk vår [1]favikon-generator på PrestaShop Marketplace[/1] for å skape blest rundt din merkevare!</target>
+        <note>Line: 146</note>
+      </trans-unit>
+      <trans-unit id="04f1f93771bf12b0b80ae6a86ceb5cae" approved="yes">
+        <source>Will appear on your main page. Recommended size for the default theme: height %height% and width %width%.</source>
+        <target state="final">Kommer fram på forsiden. Anbefalt størrelse for standardtemaet: høyde %height% og bredde %width%.</target>
+        <note>Line: 35</note>
+      </trans-unit>
+      <trans-unit id="e91d6b1f1f3836b0126eb26760a0eb49" approved="yes">
+        <source>It is the small icon that appears in browser tabs, next to the title.</source>
+        <target state="final">Det er snakk om det lille ikonet som kommer fram i nettleserflippene, ved siden av sidetittelen.</target>
+        <note>Line: 130</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Design/Theme/Blocks/rtl_configuration.html.twig" source-language="en" target-language="no" datatype="plaintext">
     <body>
-      
+      <trans-unit id="cdeb5994d69c5154e5bc10db3382f09a" approved="yes">
+        <source>Be careful! Please check your theme in an RTL language before generating the RTL stylesheet: your theme could be already adapted to RTL.
+Once you click on "Adapt to RTL", any RTL-specific file that you might have added to your theme might be deleted by the created stylesheet.</source>
+        <target state="final">Vær forsiktig. Sjekk temaet i et RTL-språk før du genererer RTL-stilarket: Temaet ditt kan allerede være tilpasset RTL. Når du klikker på "Tilpass til RTL" så vil all RTL-spesifikk kode du har lagt til i temaet ditt bli overskrevet av det nye stilarket.</target>
+        <note>Line: 37</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Design/Theme/import.html.twig" source-language="en" target-language="no" datatype="plaintext">

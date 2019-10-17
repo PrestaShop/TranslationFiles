@@ -89,10 +89,21 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/categories/helpers/form/form.tpl" source-language="en" target-language="no" datatype="plaintext">
     <body>
+      <trans-unit id="db11ee64aeb094a9cccbd04957e3416f" approved="yes">
+        <source><![CDATA[If you want a category to appear in the menu of your shop, go to [1]Modules > Modules & Services > Installed modules.[/1] Then, configure your menu module.]]></source>
+        <target state="final"><![CDATA[Hvis du vil at en kategori skal komme fram i menyen til butikken, gå til [1]Moduler > Moduler og tjenester > Installerte moduler.[/1] Derfra kan du konfigurere menymodulen.]]></target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/categories/helpers/form/form.tpl:50</note>
+      </trans-unit>
       <trans-unit id="5bc1667deb2b522c0cac00de5f15ffbc" approved="yes">
         <source>Recommended dimensions (for the default theme): %1spx x %2spx</source>
         <target state="final">Anbefalte dimensjoner (for standardtemaet): %1spx x %2spx</target>
         <note>Line: 60</note>
+      </trans-unit>
+      <trans-unit id="0f6ae5ebf937764fc48db601df56d0ca" approved="yes">
+        <source><![CDATA[If you want a category to appear in the menu of your shop, go to [1]Modules > Modules Manager.[/1] Then, configure your menu module.]]></source>
+        <target state="final"><![CDATA[Hvis du vil at en kategori skal komme fram i menyen til butikken, gå til [1]Moduler > Moduladministrasjon.[/1] Derfra kan du konfigurere menymodulen.]]></target>
+        <note>Line: 50</note>
       </trans-unit>
     </body>
   </file>
@@ -320,8 +331,16 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Catalog/Category/AbstractCategoryType.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="88fe88f4033791ef6f38fbb7f7c58f04" approved="yes">
+        <source>To have a different title from the category name, enter it here.</source>
+        <target state="final">Hvis du vil at tittelen skal være noe annet enn kategorinavnet, skriv det inn her.</target>
+        <note>Line: 136</note>
+      </trans-unit>
+      <trans-unit id="0a7ca3ce7cde025a585cd02d7382b48f" approved="yes">
+        <source>To have a different description than your category summary in search results page, write it here.</source>
+        <target state="final">Hvis du vil ha en annen beskrivelse enn det som står i kategorioppsummeringen på søkeresultatsiden, skriv det her.</target>
+        <note>Line: 169</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Product/ProductInformation.php" source-language="en" target-language="no" datatype="plaintext">
@@ -411,6 +430,11 @@
         <source>To which category the page should redirect?</source>
         <target state="final">Til hvilken kategori skal siden omdirigeres?</target>
         <note>Line: 163</note>
+      </trans-unit>
+      <trans-unit id="2719055d3b2b4fc865a78df22462c96b" approved="yes">
+        <source>If no category is selected the Main Category is used</source>
+        <target state="final">Hvis ingen kategori er valgt vil hovedkategorien settes som aktiv</target>
+        <note>Line: 164</note>
       </trans-unit>
     </body>
   </file>
@@ -572,6 +596,11 @@
         <source>edit</source>
         <target state="final">rediger</target>
         <note>Line: 94</note>
+      </trans-unit>
+      <trans-unit id="8b2ff26690065c221599c196cb6adc82" approved="yes">
+        <source>If a carrier has a tax, it will be added to the shipping fees. Does not apply to free shipping.</source>
+        <target state="final">Hvis en transportør har egne avgifter, blir disse lagt til fraktkostnadene. Gjelder ikke for fri frakt.</target>
+        <note>Line: 127</note>
       </trans-unit>
     </body>
   </file>
@@ -794,6 +823,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Categories/Blocks/form.html.twig" source-language="en" target-language="no" datatype="plaintext">
     <body>
+      <trans-unit id="d4be87a5a7a7e9bf633dc6d356968333" approved="yes">
+        <source>Click on "Displayed" to index the category on your shop.</source>
+        <target state="final">Klikk på "Vist" for å indeksere kategorien i butikken.</target>
+        <note>Line: 44</note>
+      </trans-unit>
       <trans-unit id="42f9ee5026d32792987af851a2ea0343" approved="yes">
         <source>This is the main image for your category, displayed in the category page. The category description will overlap this image and appear in its top-left corner.</source>
         <target state="final">Dette er hovedbildet for kategorien din, som vil vises på kategorisiden. Kategoribeskrivelsen vil overlappe dette bildet og vises i øverste venstre hjørne.</target>
@@ -824,6 +858,11 @@
         <target state="final">Marker alle kundegruppene som skal ha tilgang til denne kategorien.</target>
         <note>Line: 171</note>
       </trans-unit>
+      <trans-unit id="19318118b1173f172418b3282cb037d7" approved="yes">
+        <source><![CDATA[If you want a category to appear in the menu of your shop, go to [1]Modules > Module Manager[/1] and configure your menu module.]]></source>
+        <target state="final"><![CDATA[Hvis du vil at en kategori skal komme fram i menyen til butikken, gå til [1]Moduler > Moduladministrasjon.[/1] for å konfigurere menymodulen.]]></target>
+        <note>Line: 48</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Manufacturer/Blocks/form.html.twig" source-language="en" target-language="no" datatype="plaintext">
@@ -832,6 +871,11 @@
         <source>Upload a brand logo from your computer.</source>
         <target state="final">Last opp en merkelogo fra datamaskinen.</target>
         <note>Line: 60</note>
+      </trans-unit>
+      <trans-unit id="8ed6ad2c4486cdf4c66666671a6d4bf5" approved="yes">
+        <source>To add "tags", click inside the field, write something, and then press "Enter".</source>
+        <target state="final">For å legge til tagger, klikk på innsiden av feltet, skriv noe og trykk "Retur"-tasten.</target>
+        <note>Line: 86</note>
       </trans-unit>
     </body>
   </file>
