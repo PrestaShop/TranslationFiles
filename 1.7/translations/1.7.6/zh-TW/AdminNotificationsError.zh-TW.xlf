@@ -313,6 +313,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">無法添加設定 %s</target>
         <note>Line: 1518</note>
       </trans-unit>
+      <trans-unit id="2782e6f430c2658c79aecfcecdc0d0e8" approved="yes">
+        <source>The field %field_name% is required at least in %lang%.</source>
+        <target state="final">字段 %field_name% 不能在語言 %lang% 中留空。</target>
+        <note>Line: 3699</note>
+      </trans-unit>
       <trans-unit id="114eadc70de249729e9287a6b450c6e0" approved="yes">
         <source>The %field_name% field (%lang%) is invalid.</source>
         <target state="final">欄位 %field_name%（%lang%）有誤 。</target>
@@ -1025,6 +1030,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">您沒有更新權限。</target>
         <note>Line: 329</note>
       </trans-unit>
+      <trans-unit id="044bfaec90b16e5caf72b70a5ae4c872" approved="yes">
+        <source>You need permission to add this.</source>
+        <target state="final">您需要權限才能添加此內容。</target>
+        <note>Line: 559</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/MemcacheServerController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -1038,8 +1048,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ProfileController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="7e209672dd8e7e83030559ab95a83d52" approved="yes">
+        <source>You cannot delete your own profile</source>
+        <target state="final">您無法刪除自己的個人資料</target>
+        <note>Line: 285</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/SqlManagerController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -1053,7 +1066,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/ShopParameters/ContactsController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
+      <trans-unit id="7c67bd3f540cf0ec5e7346bcea963013" approved="yes">
+        <source>The field %field_name% is required at least in your default language.</source>
+        <target state="final">字段 %field_name% 不能在你默認語文中留空。</target>
+        <note>Line: 290</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/ShopParameters/MetaController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -1086,8 +1103,16 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/Design/MailThemeController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="0f411b3d0a4cca67f710f4b5d181154a" approved="yes">
+        <source>Cannot send test email for theme %theme% because it is not your current theme</source>
+        <target state="final">無法發送主題%theme%的測試電子郵件，因為它不是您當前的主題</target>
+        <note>Line: 283</note>
+      </trans-unit>
+      <trans-unit id="042b67d6d246fe6ddf24d6d5b3c7e511" approved="yes">
+        <source>Cannot send test email for layout %layout%</source>
+        <target state="final">無法發送佈局％%layout%的測試電子郵件</target>
+        <note>Line: 347</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/Design/ThemeController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -1102,6 +1127,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">您沒有編輯權限</target>
         <note>Line: 404</note>
       </trans-unit>
+      <trans-unit id="4dedf35a15365e00b8a151fc1daed3af" approved="yes">
+        <source>Image format not recognized, allowed format(s) is(are): .%s</source>
+        <target state="final">圖片格式無法識別，可以使用的格式是：.%s</target>
+        <note>Line: 581</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/CurrencyController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -1115,6 +1145,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <source>Unexpected error occurred.</source>
         <target state="final">發生意外錯誤。</target>
         <note>Line: 310</note>
+      </trans-unit>
+      <trans-unit id="b3f69fdbd12765a4667492d013ea3d81" approved="yes">
+        <source>You need permission to edit this.</source>
+        <target state="final">您需要權限才能添編輯此內容。</target>
+        <note>Line: 295</note>
       </trans-unit>
     </body>
   </file>
@@ -1181,7 +1216,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/ProductController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
+      <trans-unit id="d3ee9a41133f8fc3c83c91d09053f249" approved="yes">
+        <source>The value of the PHP.ini setting "max_input_vars" must be increased to %value% in order to be able to submit the product form.</source>
+        <target state="final">PHP.ini 設置 “max_input_vars” 的值必須增加到 %value% 才能提交商品表格。</target>
+        <note>Line: 685</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/CategoryController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -1204,6 +1243,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <source>Image format not recognized, allowed formats are: .gif, .jpg, .png</source>
         <target state="final">圖片格式無法識別，可以使用的格式是：。gif，jpg和PNG格式。。</target>
         <note>Line: 705</note>
+      </trans-unit>
+      <trans-unit id="25e49a9ca73fb59fa5fdb618f136ed48" approved="yes">
+        <source>Max file size allowed is "%s" bytes.</source>
+        <target state="final">允許的最大文件大小為“%s”字節。</target>
+        <note>Line: 701</note>
       </trans-unit>
     </body>
   </file>
@@ -1237,7 +1281,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceKeyType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
+      <trans-unit id="0511ee0d41117aa7b4abaaf102aa513d" approved="yes">
+        <source>This field is required</source>
+        <target state="final">此欄位必填</target>
+        <note>Line: 89</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/MetaSettingsFormDataProvider.php" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -1274,23 +1322,48 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Currencies/CurrencyType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
+      <trans-unit id="a5d028cb6593937f07a5b50b210fc78d" approved="yes">
+        <source>This value should be greater than %value%</source>
+        <target state="final">此值應大於 %value%</target>
+        <note>Line: 91</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Language/LanguageType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="fc42865ab309f2e642480630b92db575" approved="yes">
+        <source>This field cannot be empty</source>
+        <target state="final">此欄位不能為空白</target>
+        <note>Line: 152</note>
+      </trans-unit>
+      <trans-unit id="24e70577722f76a8245415c0a344b96c" approved="yes">
+        <source>This field is invalid</source>
+        <target state="final">此欄位無效</target>
+        <note>Line: 135</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Tax/TaxType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="ce09b68fe980afcd2181771fe3bf5b31" approved="yes">
+        <source>This field cannot be longer than %limit% characters</source>
+        <target state="final">此不能超過%limit%個字符</target>
+        <note>Line: 101</note>
+      </trans-unit>
+      <trans-unit id="1cf26a08db6ef9cd67be91523c68ab6a" approved="yes">
+        <source>This field is invalid, it must contain numeric values</source>
+        <target state="final">此字段無效，必須包含數字值</target>
+        <note>Line: 109</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Type/ChangePasswordType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="1a668ad0d1d7a5623d2710d2517bbdd1" approved="yes">
+        <source>This field cannot be shorter than %limit% characters</source>
+        <target state="final">此字段不能少於%limit%個字符</target>
+        <note>Line: 126</note>
+      </trans-unit>
       <trans-unit id="01e8202cf69f19ea7cf3a80f7673066a" approved="yes">
         <source>Invalid password confirmation</source>
         <target state="final">密碼確認有誤</target>
@@ -1300,13 +1373,25 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Install/Upgrade.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="c1c3fb9e8ca710c7a958c50d03829415" approved="yes">
+        <source>Cannot generate emails because the Symfony container is unavailable.</source>
+        <target state="final">由於Symfony容器不可用，無法生成電子郵件。</target>
+        <note>Line: 753</note>
+      </trans-unit>
+      <trans-unit id="eb98c1e496a76fc9a930ed4731977498" approved="yes">
+        <source>Cannot generate email templates: %s.</source>
+        <target state="final">無法生成電郵模板：%s。</target>
+        <note>Line: 776</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_addons_connect.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
+      <trans-unit id="416462c75dfb54ae23eae17b734a62ac" approved="yes">
+        <source>An error occurred while processing your request.</source>
+        <target state="final">處理您的請求時出錯。</target>
+        <note>Line: 54</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/product.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -1320,7 +1405,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/macros.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
+      <trans-unit id="c4cb30b5b82b83b374d454c004b3194a" approved="yes">
+        <source>%error_message% - Language: %language_name%</source>
+        <target state="final">%error_message% - 語言：%language_name%</target>
+        <note>Line: 221</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
