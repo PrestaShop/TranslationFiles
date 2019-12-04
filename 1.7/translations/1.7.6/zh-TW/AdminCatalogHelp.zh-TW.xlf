@@ -55,6 +55,16 @@
         <target state="final">這只有您看得到，永遠不會顯示給客戶看</target>
         <note>Line: 63</note>
       </trans-unit>
+      <trans-unit id="4c04b0afd7a378940377c1948fa65e5f" approved="yes">
+        <source>This is the code users should enter to apply the voucher to a cart. Either create your own code or generate one by clicking on "Generate".</source>
+        <target state="final">這是讓客人在購物車輸入折價券的折扣代碼。您可以自行定義該折扣代碼，或是點擊『生成』自動產生一組。</target>
+        <note>Line: 75</note>
+      </trans-unit>
+      <trans-unit id="b9fe1289d4d385c85d61f262aea8de40" approved="yes">
+        <source>Caution! If you leave this field blank, the rule will automatically be applied to benefiting customers.</source>
+        <target state="final">注意！如果讓這個欄位留空，則該規則將自動應用於受益客戶。</target>
+        <note>Line: 86</note>
+      </trans-unit>
       <trans-unit id="9c0cc5911e6caceaa3f19e4bcf264ab0" approved="yes">
         <source>If the voucher is not yet in the cart, it will be displayed in the cart summary.</source>
         <target state="final">如果優惠券還沒在購物車，它會顯示在購物車摘要頁的購物車下方</target>
@@ -79,6 +89,12 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/categories/helpers/form/form.tpl" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="db11ee64aeb094a9cccbd04957e3416f" approved="yes">
+        <source><![CDATA[If you want a category to appear in the menu of your shop, go to [1]Modules > Modules & Services > Installed modules.[/1] Then, configure your menu module.]]></source>
+        <target state="final"><![CDATA[如果要在商店選單中顯示類別，請轉到[1]模組>模組和服務>已安裝的模組。[/1]然後，配置選單模組。]]></target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/categories/helpers/form/form.tpl:50</note>
+      </trans-unit>
       <trans-unit id="5bc1667deb2b522c0cac00de5f15ffbc" approved="yes">
         <source>Recommended dimensions (for the default theme): %1spx x %2spx</source>
         <target state="final">建議尺寸 (適用於默認主題): %1spx x %2spx</target>
@@ -93,7 +109,11 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/tracking/helpers/list/list_header.tpl" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
+      <trans-unit id="b40b4b1a0589005b45e9fa351c1b91f3" approved="yes">
+        <source>An empty category is a category that has no product directly associated to it. An empty category may however contain products through its subcategories.</source>
+        <target state="final">【空分類】意味著該分類下面沒有任何商品被直接關聯到。但一個空分類可以擁有多個子分類，而這些子分類皆已包含許多商品。</target>
+        <note>Line: 29</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminAttributesGroupsController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -311,8 +331,11 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Catalog/Category/AbstractCategoryType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="88fe88f4033791ef6f38fbb7f7c58f04" approved="yes">
+        <source>To have a different title from the category name, enter it here.</source>
+        <target state="final">分類名稱有不同的抬頭的話請在此輸入。</target>
+        <note>Line: 136</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Product/ProductInformation.php" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -530,6 +553,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_seo.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="c533675166b567256cae22139534b713" approved="yes">
+        <source>This is the human-readable URL, as generated from the product's name. You can change it if you want.</source>
+        <target state="final">這是透過產品名稱自動產生的易記網址，您可以自行修改成想要的名稱</target>
+        <note>Line: 59</note>
+      </trans-unit>
       <trans-unit id="eb8b9b044f3b64b5ba5f7b047963714c" approved="yes">
         <source>When your product is disabled, choose to which page you’d like to redirect the customers visiting its page by typing the product or category name.</source>
         <target state="final">當你的產品被廢除，請選擇你要輸入產品或種類名稱把瀏覽該頁面的顧客導向哪頁面。</target>
@@ -563,6 +591,11 @@
         <source>edit</source>
         <target state="final">編輯</target>
         <note>Line: 94</note>
+      </trans-unit>
+      <trans-unit id="8b2ff26690065c221599c196cb6adc82" approved="yes">
+        <source>If a carrier has a tax, it will be added to the shipping fees. Does not apply to free shipping.</source>
+        <target state="final">如果承運商有稅項，則會將其加到運費中。 不適用於免運費。</target>
+        <note>Line: 127</note>
       </trans-unit>
     </body>
   </file>
@@ -713,6 +746,16 @@
         <target state="final">ISBN 在國際上通用，它用於辨別書和他們不同的版本。</target>
         <note>Line: 116</note>
       </trans-unit>
+      <trans-unit id="39bd7eba8aa2033579b5ae60bf0c774d" approved="yes">
+        <source>This type of product code is widely used in the United States, Canada, the United Kingdom, Australia, New Zealand and in other countries.</source>
+        <target state="final">這種類型的商品代碼被廣泛用於美國，加拿大，英國，澳大利亞，新西蘭和其他國家。</target>
+        <note>Line: 136</note>
+      </trans-unit>
+      <trans-unit id="0041a5c39ca241f883f4e0516a32d290" approved="yes">
+        <source>This type of product code is specific to Europe and Japan, but is widely used internationally. It is a superset of the UPC code: all products marked with an EAN will be accepted in North America.</source>
+        <target state="final">這種類型的商品代碼是特定於歐洲和日本，但國際上被廣泛使用。它是UPC碼的擴展碼：標有條形碼的所有商品將在北美被接受。</target>
+        <note>Line: 125</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/pricing.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -775,6 +818,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Categories/Blocks/form.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="d4be87a5a7a7e9bf633dc6d356968333" approved="yes">
+        <source>Click on "Displayed" to index the category on your shop.</source>
+        <target state="final">點選“已顯示”以索引商店中的分類。</target>
+        <note>Line: 44</note>
+      </trans-unit>
       <trans-unit id="42f9ee5026d32792987af851a2ea0343" approved="yes">
         <source>This is the main image for your category, displayed in the category page. The category description will overlap this image and appear in its top-left corner.</source>
         <target state="final">這是分類畫面中的代表圖片，分類說明文字將會顯示在這個圖片上，同時顯示在網頁的右上角。</target>
@@ -805,6 +853,11 @@
         <target state="final">選擇可以看到此分類的使用者群組</target>
         <note>Line: 171</note>
       </trans-unit>
+      <trans-unit id="19318118b1173f172418b3282cb037d7" approved="yes">
+        <source><![CDATA[If you want a category to appear in the menu of your shop, go to [1]Modules > Module Manager[/1] and configure your menu module.]]></source>
+        <target state="final"><![CDATA[如果要在商店選單中顯示類別，請轉到[1]模組>模組管理[/1]然後配置選單模組。]]></target>
+        <note>Line: 48</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Manufacturer/Blocks/form.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -813,6 +866,11 @@
         <source>Upload a brand logo from your computer.</source>
         <target state="final">從你的本機電腦上傳商標 Logo。</target>
         <note>Line: 60</note>
+      </trans-unit>
+      <trans-unit id="8ed6ad2c4486cdf4c66666671a6d4bf5" approved="yes">
+        <source>To add "tags", click inside the field, write something, and then press "Enter".</source>
+        <target state="final">要新增標籤，請點選欄位後輸入，接著按下 "Enter" 鍵</target>
+        <note>Line: 86</note>
       </trans-unit>
     </body>
   </file>
