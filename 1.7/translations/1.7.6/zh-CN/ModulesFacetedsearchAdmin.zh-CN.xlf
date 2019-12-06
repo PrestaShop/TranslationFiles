@@ -40,8 +40,16 @@
   </file>
   <file original="modules/ps_facetedsearch/views/templates/admin/_partials/categories-tree.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="5d9632c49fb1586eed7123afe2bd806f" approved="yes">
+        <source>Categories used for this template:</source>
+        <target state="final">该模板使用的分类：</target>
+        <note>Line: 26</note>
+      </trans-unit>
+      <trans-unit id="78587049e12fb4f6b12e2bb045f2880a" approved="yes">
+        <source>Categories selection is disabled because you have no categories or you are in a "all shops" context.</source>
+        <target state="final">因为你没有分类或没在“所有商店”环境里，所以分类选择被禁用。</target>
+        <note>Line: 32</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/ps_facetedsearch/views/templates/admin/_partials/footer.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -69,14 +77,41 @@
   </file>
   <file original="modules/ps_facetedsearch/views/templates/admin/_partials/messages.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="1f0f8b59397f34d499b181297714713a" approved="yes">
+        <source>Warning! Your hosting provider is using the Suhosin patch for PHP, which limits the maximum number of fields allowed in a form:</source>
+        <target state="final">警告！你的主机供应商使用Suhosin的PHP 补丁，它限制在表单中允许的最大的字段数量是：</target>
+        <note>Line: 37</note>
+      </trans-unit>
+      <trans-unit id="9df9f71b2fc62b0ce48cbb8cb5671ee6" approved="yes">
+        <source>for suhosin.post.max_vars.</source>
+        <target state="final">suhosin.post.max_vars.</target>
+        <note>Line: 39</note>
+      </trans-unit>
+      <trans-unit id="961e2bc7e3f570a3209546330de84a00" approved="yes">
+        <source>for suhosin.request.max_vars.</source>
+        <target state="final">suhosin.request.max_vars.</target>
+        <note>Line: 40</note>
+      </trans-unit>
+      <trans-unit id="308c1cf98be9973142833c9a9dbbc2ef" approved="yes">
+        <source>Please ask your hosting provider to increase the Suhosin limit to</source>
+        <target state="final">请要求你的主机供应商提高Suhosin 限制到</target>
+        <note>Line: 41</note>
+      </trans-unit>
+      <trans-unit id="5ad040870ae5ccaeb2d57e4d052163a4" approved="yes">
+        <source>Warning! Your PHP configuration limits the maximum number of fields allowed in a form:</source>
+        <target state="final">警告！你的PHP 配置限制在表单中字段允许的最大数量是：</target>
+        <note>Line: 43</note>
+      </trans-unit>
+      <trans-unit id="5607dc45ebdfc0baaab64d944aa88f47" approved="yes">
+        <source>for max_input_vars.</source>
+        <target state="final">max_input_vars.</target>
+        <note>Line: 44</note>
+      </trans-unit>
+      <trans-unit id="5d27fef01a54790de11db21f1ed47892" approved="yes">
+        <source>%s at least, or you will have to edit the translation files manually.</source>
+        <target state="final">最少%s，否则你只能手工编辑翻译文件。</target>
+        <note>Line: 47</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/ps_facetedsearch/views/templates/admin/_partials/shops.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -124,15 +159,145 @@
         <target state="final">清除缓存</target>
         <note>Line: 37</note>
       </trans-unit>
+      <trans-unit id="df2bbc994d10995dcffdf96dbb7acbb1" approved="yes">
+        <source>Indexes and caches</source>
+        <target state="final">索引和缓冲</target>
+        <note>Line: 28</note>
+      </trans-unit>
+      <trans-unit id="ad3e7eb269d8ba0ac388267627f45b5a" approved="yes">
+        <source>Indexing is in progress. Please do not leave this page</source>
+        <target state="final">索引中。请不要离开此页面</target>
+        <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="5e2420d2318025812dc3e231ddb66b0b" approved="yes">
+        <source>Index all missing prices</source>
+        <target state="final">索引所有缺失的价格</target>
+        <note>Line: 34</note>
+      </trans-unit>
+      <trans-unit id="9612e005e96ad32b8830be4d0377e7e6" approved="yes">
+        <source>Rebuild entire price index</source>
+        <target state="final">重建整个价格指标</target>
+        <note>Line: 35</note>
+      </trans-unit>
+      <trans-unit id="53795c3624ae2361363780589aa2aa42" approved="yes">
+        <source>You can set a cron job that will rebuild price index using the following URL:</source>
+        <target state="final">你可以设定一个定时任务，它可以使用以下URL 重新创建价格指数：</target>
+        <note>Line: 42</note>
+      </trans-unit>
+      <trans-unit id="e43b32b88c77e49f06144cd1ffaeba96" approved="yes">
+        <source>You can set a cron job that will rebuild attribute index using the following URL:</source>
+        <target state="final">你可以设定一个定时任务，它可以使用以下URL 重新创建属性指数：</target>
+        <note>Line: 47</note>
+      </trans-unit>
+      <trans-unit id="16349835364cf839e6670b0de7da6362" approved="yes">
+        <source>A nightly rebuild is recommended.</source>
+        <target state="final">建议夜间重建。</target>
+        <note>Line: 53</note>
+      </trans-unit>
+      <trans-unit id="dc83eb2d8601743d8111c5150b93fc71" approved="yes">
+        <source>Filters templates</source>
+        <target state="final">过滤器模板</target>
+        <note>Line: 57</note>
+      </trans-unit>
+      <trans-unit id="f7f19392da30e81c3abf433ce7b8ca38" approved="yes">
+        <source>Created on</source>
+        <target state="final">创建于</target>
+        <note>Line: 66</note>
+      </trans-unit>
       <trans-unit id="06df33001c1d7187fdd81ea1f5b277aa" approved="yes">
         <source>Actions</source>
         <target state="final">操作</target>
         <note>Line: 67</note>
       </trans-unit>
+      <trans-unit id="eb0728df77683ac0f7210ed0d4a18d62" approved="yes">
+        <source>Do you really want to delete this filter template?</source>
+        <target state="final">您是否真的要删除该过滤器模板？</target>
+        <note>Line: 90</note>
+      </trans-unit>
+      <trans-unit id="058eeeba77f547f8a9a295a0efd4f6cd" approved="yes">
+        <source>No filter template found.</source>
+        <target state="final">未找到过滤器模板。</target>
+        <note>Line: 106</note>
+      </trans-unit>
+      <trans-unit id="ae2b83a081959fff7ab2e96f4ce972d1" approved="yes">
+        <source>Add new template</source>
+        <target state="final">添加新模板</target>
+        <note>Line: 110</note>
+      </trans-unit>
+      <trans-unit id="8531c73de81b9ed94322dda7cf947daa" approved="yes">
+        <source>Show the number of matching products</source>
+        <target state="final">显示吻合的产品数量</target>
+        <note>Line: 118</note>
+      </trans-unit>
+      <trans-unit id="ee61c015043c79c1370fc14980dd27b9" approved="yes">
+        <source>Show products from subcategories</source>
+        <target state="final">显示子目录中的产品</target>
+        <note>Line: 134</note>
+      </trans-unit>
+      <trans-unit id="a19399fa42f1ab059401a14b9f13eba1" approved="yes">
+        <source>Category filter depth (0 for no limits, 1 by default)</source>
+        <target state="final">分类过滤器深度（0 为没限制，1 是默认）</target>
+        <note>Line: 150</note>
+      </trans-unit>
+      <trans-unit id="3e652bd299bb3ee3d458c0dcc7fd706e" approved="yes">
+        <source>Use tax to filter price</source>
+        <target state="final">使用税来过滤价格</target>
+        <note>Line: 156</note>
+      </trans-unit>
+      <trans-unit id="30b1f6f4369e3d0f7a0d50b5cb96aabd" approved="yes">
+        <source>Use rounding to filter price</source>
+        <target state="final">使用凑整来过滤价格</target>
+        <note>Line: 172</note>
+      </trans-unit>
+      <trans-unit id="56fc8142961f1f3e9f9ec0c178881b69" approved="yes">
+        <source>(in progress)</source>
+        <target state="final">（进行中）</target>
+        <note>Line: 200</note>
+      </trans-unit>
+      <trans-unit id="8c83a87ac8ee57d9bcd79d1aa9243bc0" approved="yes">
+        <source>URL indexing finished</source>
+        <target state="final">URL 索引完成</target>
+        <note>Line: 201</note>
+      </trans-unit>
+      <trans-unit id="49afa0d9ad5c1f8bf5413b9dc8a252c9" approved="yes">
+        <source>Attribute indexing finished</source>
+        <target state="final">属性索引完成</target>
+        <note>Line: 202</note>
+      </trans-unit>
+      <trans-unit id="9ea5bab5df9a3f3abaa64951daf07e9b" approved="yes">
+        <source>URL indexing failed</source>
+        <target state="final">URL 索引失败</target>
+        <note>Line: 203</note>
+      </trans-unit>
+      <trans-unit id="414301b329318b3e916c5b91b0ca9126" approved="yes">
+        <source>Attribute indexing failed</source>
+        <target state="final">属性索引失败</target>
+        <note>Line: 204</note>
+      </trans-unit>
+      <trans-unit id="fa059e7a64ab37fe21b01a220b6c073f" approved="yes">
+        <source>Price indexing finished</source>
+        <target state="final">价格索引已完成</target>
+        <note>Line: 205</note>
+      </trans-unit>
+      <trans-unit id="b55143bb1f46af4207ea4b5eb8e844ed" approved="yes">
+        <source>Price indexing failed</source>
+        <target state="final">价格索引失败</target>
+        <note>Line: 206</note>
+      </trans-unit>
+      <trans-unit id="7cf7d150dd287df0a8e17eeb4cf2161d" approved="yes">
+        <source>(in progress, %s products price to index)</source>
+        <target state="final">（进行中，%s产品价格要索引）</target>
+        <note>Line: 207</note>
+      </trans-unit>
       <trans-unit id="8524de963f07201e5c086830d370797f" approved="yes">
         <source>Loading...</source>
         <target state="final">正在加载</target>
         <note>Line: 208</note>
+      </trans-unit>
+      <trans-unit id="eb9c805f7590679f0742ba0ea0a3e77f" approved="yes">
+        <source>You selected -All categories-: all existing filter templates will be deleted. Is it OK?</source>
+        <target state="final">你已选择- 所有分类-：所有现有的过滤器模板将被删除。是否可以？</target>
+        <note>Line: 209</note>
       </trans-unit>
       <trans-unit id="18c6120643596bd2626f3b0720b1df3a" approved="yes">
         <source>You must select at least one category</source>
@@ -188,6 +353,11 @@
         <target state="final">该组允许用户选择一种颜色</target>
         <note>Line: 134</note>
       </trans-unit>
+      <trans-unit id="d47f700b6db025d98cae0b340ed847e9" approved="yes">
+        <source>Build attribute index</source>
+        <target state="final">创建属性指数</target>
+        <note>Line: 33</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/ps_facetedsearch/views/templates/hook/attribute_form.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -201,11 +371,11 @@
   </file>
   <file original="modules/ps_facetedsearch/views/templates/hook/feature_form.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
+      <trans-unit id="28034a200e932f22b324a4dda1bb9f64" approved="yes">
+        <source><![CDATA[Invalid characters: <>;=#{}_]]></source>
+        <target state="final"><![CDATA[无效字符: <>;=#{}_]]></target>
+        <note>Line: 27</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/ps_facetedsearch/views/templates/hook/feature_value_form.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
