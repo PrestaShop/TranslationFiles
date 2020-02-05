@@ -66,6 +66,31 @@
         <target state="final">這很實用，因為您可以在連結加入標籤或憑證指向您的網站</target>
         <note>Line: 47</note>
       </trans-unit>
+      <trans-unit id="6ca25929481cee3aef9cda0f7d309f9d" approved="yes">
+        <source>For example, you can post a link (such as "%sindex.php?myuniquekeyword" -- note that you added "?myuniquekeyword" at the end of the URL) in an online forum or as a blog comment, and get visitors statistics for that unique link by entering "%%myuniquekeyword" in the "request_uri" field.</source>
+        <target state="final">例如：您可以發布一個連結（比如： "%sindex.php?myuniquekeyword" -- 請注意您已經在URL 的結尾添加了"?myuniquekeyword" ） 在網上論壇或者作為微博留言，您可以通過輸入"%%myuniquekeyword"在"request_uri" 字段來統計該鏈接的訪問數據。</target>
+        <note>Line: 48</note>
+      </trans-unit>
+      <trans-unit id="07d199fdf852bd9dc4d899b6cd2a16e7" approved="yes">
+        <source>This method is more reliable than the "http_referer" one, but there is one disadvantage: if a search engine references a page with your link, then it will be displayed in the search results and you will not only indicate visitors from the places where you posted the link, but also those from the search engines that picked up that link.</source>
+        <target state="final">此方法比“ http_referer”方法更可靠，唯一的缺點：如果搜索引擎引用帶有您的連結的頁面，那麼它將顯示在搜索結果中，並且您不僅會指示來自您所在位置的訪問者發布了連結，但也發布了來自搜索引擎的鏈接。</target>
+        <note>Line: 49</note>
+      </trans-unit>
+      <trans-unit id="2a7510ee054a824a06c67cb30a9dc85f" approved="yes">
+        <source>The "Include" fields indicate what has to be included in the URL.</source>
+        <target state="final">“包含”字段指示必須包含在URL中的內容。</target>
+        <note>Line: 53</note>
+      </trans-unit>
+      <trans-unit id="7047f6cd037224af5ef028de15a0b844" approved="yes">
+        <source>The "Exclude" fields indicate what has to be excluded from the URL.</source>
+        <target state="final">“不含”字段指示必須從URL中排除的內容。</target>
+        <note>Line: 57</note>
+      </trans-unit>
+      <trans-unit id="fec5647b486079a90ea4667d6125a03e" approved="yes">
+        <source>When using simple mode, you can use a wide variety of generic characters to replace other characters:</source>
+        <target state="final">使用簡單模式時，您可以使用多種字元來取代其他字元：</target>
+        <note>Line: 61</note>
+      </trans-unit>
       <trans-unit id="19e6272904f9f449ae490d69aa36cd6c" approved="yes">
         <source>"_" will replace one character. If you want to use the real "_", you should type this: "\\_".</source>
         <target state="final">“_”將替換一個字符。 如果你想使用真正的“_”，你應該輸入：“\\ _”。</target>
@@ -176,6 +201,11 @@
         <source>PrestaShop has three default customer groups:</source>
         <target state="final">PrestaShop有三個默認客戶群：</target>
         <note>Line: 619</note>
+      </trans-unit>
+      <trans-unit id="c7a5c6872a29383d6ab0db08e6b40e15" approved="yes">
+        <source>Need to hide prices for all groups? Save time, enable catalog mode in Product Settings instead.</source>
+        <target state="final">是否需要隱藏所有組的價格？ 節省時間，請在“產品設置”中啟用目錄模式。</target>
+        <note>Line: 370</note>
       </trans-unit>
     </body>
   </file>
@@ -419,6 +449,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/Blocks/product_preferences_general.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="54ae4e3e39f5a1f636cfcf2744433678" approved="yes">
+        <source>The catalog mode is actually to disable products checkout (prices, add to cart, etc.) on your shop, like a retail website does.</source>
+        <target state="final">商品目錄模式允許您在網站停用商店中購買商品（價格，添加到購物車等）的過程。</target>
+        <note>Line: 38</note>
+      </trans-unit>
       <trans-unit id="80af0f0b70143f575fdfd6fa3ca3cb89" approved="yes">
         <source>Set the maximum size of the summary of your product description (in characters).</source>
         <target state="final">設定產品簡介的字數上限（字元數）。</target>
@@ -438,6 +473,16 @@
         <source>When active, new products will be activated by default during creation.</source>
         <target state="final">激活時，默認情況下會在創建期間激活新商品。</target>
         <note>Line: 83</note>
+      </trans-unit>
+      <trans-unit id="bd92437d0543aa142ccea7c021c9efe9" approved="yes">
+        <source>Catalog mode disables the shopping cart on your store. Visitors will be able to browse your products catalog, but not buy them.</source>
+        <target state="final">商品目錄模式會禁用商店中的購物車。 訪客將能夠瀏覽您的商品目錄，但不能購買。</target>
+        <note>Line: 38</note>
+      </trans-unit>
+      <trans-unit id="2f00a538942083503dd09c585cc6d91c" approved="yes">
+        <source>Have specific needs? Edit particular groups to let them see prices or not.</source>
+        <target state="final">您還有更具體的需求嗎？ 修改群組以允許他們是否可以查看價格。</target>
+        <note>Line: 42</note>
       </trans-unit>
       <trans-unit id="bbaceb858ee14af2da60e07d63fd8678" approved="yes">
         <source>Display product prices when in catalog mode.</source>
@@ -490,6 +535,16 @@
         <source>By default, the Add to Cart button is hidden when a product is unavailable. You can choose to have it displayed in all cases.</source>
         <target state="final">在預設的情形底下，當商品不可購買時，『放入購物車』的按鈕會被隱藏起來。您可以選擇無論如何都要顯示該按鈕。</target>
         <note>Line: 38</note>
+      </trans-unit>
+      <trans-unit id="4b7f36059725914c3abe3fe69a42d860" approved="yes">
+        <source>Advised for European merchants to be legally compliant (eg: Delivered within 3-4 days)</source>
+        <target state="final">建議歐洲商人遵守法規（例如，在3-4天內交貨）</target>
+        <note>Line: 81</note>
+      </trans-unit>
+      <trans-unit id="29474c2b0b3e4d053abd526ed118b420" approved="yes">
+        <source>Advised for European merchants to be legally compliant (eg: Delivered within 5-7 days)</source>
+        <target state="final">建議歐洲商人遵守法規（例如在5到7天內交貨）</target>
+        <note>Line: 89</note>
       </trans-unit>
       <trans-unit id="f9a436259aa8fcb0e45a2081a259e90d" approved="yes">
         <source>When selling packs of products, how do you want your stock to be calculated?</source>
@@ -640,7 +695,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/TrafficSeo/Meta/Blocks/seo_options_configuration.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
+      <trans-unit id="6d6348525df68625d9758d6d071ac505" approved="yes">
+        <source>Enable this option if you want to display your product's attributes in its meta title.</source>
+        <target state="final">如果要在商品的元標題中顯示商品的屬性，請啟用此選項。</target>
+        <note>Line: 38</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/TrafficSeo/Meta/Blocks/set_up_urls_configuration.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -688,6 +747,11 @@
         <source>IP addresses allowed to access the front office even if the shop is disabled. Please use a comma to separate them (e.g. 42.24.4.2,127.0.0.1,99.98.97.96)</source>
         <target state="final">即使是商店關閉也能夠存取前台的 IP 位址，請使用逗點分隔多筆資料（例如 42.24.4.2,127.0.0.1,99.98.97.96 ）</target>
         <note>Line: 50</note>
+      </trans-unit>
+      <trans-unit id="c1c418380f12430665f311652395eb11" approved="yes">
+        <source>Custom text displayed on maintenance page while shop is deactivated.</source>
+        <target state="final">停用商店後，維護頁面上顯示的自定義文本。</target>
+        <note>Line: 57</note>
       </trans-unit>
     </body>
   </file>
