@@ -381,12 +381,12 @@
       </trans-unit>
       <trans-unit id="bb2ee5b5f12b6eae3c1716d26cddeab7" approved="yes">
         <source>Please note that for security reasons, you can only add modules that are being distributed on PrestaShop Addons, the official marketplace.</source>
-        <target state="final">Ju lutemi vë re se për arsye sigurie, ti mund të shtosh vetëm module të cilat shpërndahen në tregun zyrtar të 'Shtesa të PrestaShop'.</target>
+        <target state="final">Të lutem vë re se për arsye sigurie, ti mund të shtosh vetëm module të cilat shpërndahen në tregun zyrtar 'PrestaShop Addons'.</target>
         <note>Line: 85</note>
       </trans-unit>
       <trans-unit id="95e3873b64426add2f3818e6a98dc9fb" approved="yes">
         <source>Search on PrestaShop Marketplace:</source>
-        <target state="final">Kërko në PrestaShop Marketplace:</target>
+        <target state="final">Kërko në 'PrestaShop Marketplace'</target>
         <note>Line: 43</note>
       </trans-unit>
       <trans-unit id="3a2d5fe857d8f9541136a124c2edec6c" approved="yes">
@@ -745,7 +745,7 @@
       </trans-unit>
       <trans-unit id="67afee0d8b56356469f89525a1423331" approved="yes">
         <source>Otherwise you can look for similar modules on the official marketplace. [1]Click here to browse PrestaShop Addons[/1].</source>
-        <target state="final">Përndryshe, mund të shikosh për module të ngjashme në tregun zyrtar. [1]Kliko këtu për të shfletuar 'Shtesa të PrestaShop' [/1].</target>
+        <target state="final">Përndryshe, mund të shikosh për module të ngjashme në tregun zyrtar. [1]Kliko këtu për të shfletuar në 'PrestaShop Addons' [/1].</target>
         <note>Line: 83</note>
       </trans-unit>
       <trans-unit id="0557fa923dcee4d0f86b1409f5c2167f" approved="yes">
@@ -767,6 +767,11 @@
         <target state="final">Meqenëse nuk mund ta kesh instaluar këtë modul nga PrestaShop Addons, ne nuk mund të pohojmë se moduli është në përputhje me kërkesat tona të sigurisë (p.sh. që nuk është duke shtuar disa funksionalitete të pazbuluara siç janë reklamat, lidhjet e fshehura, spam, etj ...).</target>
         <note>Line: 58</note>
       </trans-unit>
+      <trans-unit id="64b9168c0ef9c05d1568a15c6e273bf1" approved="yes">
+        <source>You can search for similar modules on the official marketplace.</source>
+        <target state="final">Mund të kërkosh për module të ngjashme në tregun zyrtar.</target>
+        <note>Line: 60</note>
+      </trans-unit>
       <trans-unit id="57acfffeede560e141ea67a4487fe065" approved="yes">
         <source>[1]Click here to browse our catalog on PrestaShop Addons[/1].</source>
         <target state="final">[1]Kliko këtu për të shfletuar katalogun tonë të shtesave në PrestaShop[/1].</target>
@@ -774,7 +779,7 @@
       </trans-unit>
       <trans-unit id="6754e4799f554bcdf4fef4782bf4d7de" approved="yes">
         <source>This generally happens when the module isn't distributed through our official marketplace, PrestaShop Addons - or when your server failed to communicate with PrestaShop Addons.</source>
-        <target state="final">Kjo zakonisht ndodh kur moduli nuk është shkarkuar nga tregu ynë zyrtar, të Shtesave të PrestaShop - ose kur serveri yt nuk arrin të komunikojë me Shtesa të PrestaShop.</target>
+        <target state="final">Kjo zakonisht ndodh kur moduli nuk është shkarkuar nga tregu ynë zyrtar në 'PrestaShop Addons'- ose kur serveri yt nuk arrin të komunikojë me 'PrestaShop Addons'.</target>
         <note>Line: 30</note>
       </trans-unit>
       <trans-unit id="a517747c3d12f99244ae598910d979c5" approved="yes">
@@ -791,13 +796,41 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/modules/modal_not_trusted_country.tpl" source-language="en" target-language="sq" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="54752f2f929b686b98ddb16e40c4a1be" approved="yes">
+        <source>You are about to install "%s", a module which is not compatible with your country.</source>
+        <target state="final">Je gati të instalosh "%s", një modul i cili nuk është kompatibil me vendin tënd.</target>
+        <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="1a56544ab8d473b3383731fbe3fc9d07" approved="yes">
+        <source>This module was not verified by PrestaShop hence we cannot certify that it works well in your country and that it complies with our quality requirements.</source>
+        <target state="final">Ky modul nuk është verifikuar nga PrestaShop, kështu që ne nuk mund ta vërtetojmë se funksionon mirë në vendin tënd dhe se është në përputhje me kërkesat tona të cilësisë.</target>
+        <note>Line: 32</note>
+      </trans-unit>
+      <trans-unit id="d1ce387d44c3dc9cdc4e30ad64dbf47e" approved="yes">
+        <source>Use at your own risk.</source>
+        <target state="final">Përdore në rrezikun tënd.</target>
+        <note>Line: 33</note>
+      </trans-unit>
+      <trans-unit id="080e6f65e34e2ffe7162beb258f4577d" approved="yes">
+        <source>If you are unsure about this, you should contact the Customer Service of %s to ask them to make the module compatible with your country.</source>
+        <target state="final">Nëse nuk je i sigurt për këtë, duhet ta kontaktosh Shërbimin ndaj klientit të %s për t'u kërkuar atyre që ta bëjnë modulin në kompatibil me vendin tënd.</target>
+        <note>Line: 38</note>
+      </trans-unit>
+      <trans-unit id="17e8aa9ff6f7c374738eb3a15270583c" approved="yes">
+        <source>Moreover, we recommend that you use an equivalent module: compatible modules for your country are listed in the "Modules" tab of your back office.</source>
+        <target state="final">Për më tepër, nrekomandojmë ta përdorësh një modul ekuivalent: modulet kompatibile për vendin tënd janë të listuara në skedën "Modulet" të 'back office'.</target>
+        <note>Line: 39</note>
+      </trans-unit>
+      <trans-unit id="1de1cd538749db5ea85a79c300b092e3" approved="yes">
+        <source>If you are unsure about this module, you can look for similar modules on the official marketplace.</source>
+        <target state="final">Nëse nuk je i sigurt për këtë modul, mund të kërkosh module të ngjashme në tregun zyrtar.</target>
+        <note>Line: 42</note>
+      </trans-unit>
+      <trans-unit id="f7df37601ea653a7a5bf63e3556772d3" approved="yes">
+        <source>Click here to browse PrestaShop Addons.</source>
+        <target state="final">Kliko këtu për të shfletuar katalogun e shtesave në PrestaShop.</target>
+        <note>Line: 43</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/modules/modal_translation.tpl" source-language="en" target-language="sq" datatype="plaintext">
@@ -811,9 +844,24 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/modules/page.tpl" source-language="en" target-language="sq" datatype="plaintext">
     <body>
+      <trans-unit id="b10a51e4d433fa3330b26d266502db00" approved="yes">
+        <source>Addons membership provides access to all our PrestaShop modules.</source>
+        <target state="final">Anëtarësimi në 'Addons' siguron qasje në të gjitha modulet tona PrestaShop.</target>
+        <note>Line: 28</note>
+      </trans-unit>
+      <trans-unit id="20afba9e56de0c1da3d5188111d72947" approved="yes">
+        <source>Once connected, your new modules will be automatically installed.</source>
+        <target state="final">Pasi të lidhesh, modulet tua të reja do të instalohen automatikisht.</target>
+        <note>Line: 29</note>
+      </trans-unit>
       <trans-unit id="d9776f0775997b2e698c6975420b5c5d" approved="yes">
         <source>Sign up</source>
         <target state="final">Regjistrohu</target>
+        <note>Line: 32</note>
+      </trans-unit>
+      <trans-unit id="bce8bac0184c6cd6d977e8a42a99aa99" approved="yes">
+        <source>Connect to PrestaShop Marketplace account</source>
+        <target state="final">Lidhu me llogarinë e 'PrestaShop Marketplace'</target>
         <note>Line: 32</note>
       </trans-unit>
       <trans-unit id="bffe9a3c9a7e00ba00a11749e022d911" approved="yes">
@@ -1126,6 +1174,11 @@
         <source>Can I add my own theme?</source>
         <target state="final">A mund ta shtoj motivin tim?</target>
         <note>Line: 82</note>
+      </trans-unit>
+      <trans-unit id="7c854ab311760ecb245fb938378cd4e9" approved="yes">
+        <source>Please note that for security reasons, you can only add themes that are being distributed on PrestaShop Addons, the official marketplace.</source>
+        <target state="final">Të lutem vë re se për arsye sigurie, ti mund të shtosh vetëm module të cilat shpërndahen në tregun zyrtar 'PrestaShop Addons'.</target>
+        <note>Line: 83</note>
       </trans-unit>
     </body>
   </file>
