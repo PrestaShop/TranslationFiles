@@ -26,6 +26,16 @@
         <target state="final">您需要选择购物车的最低 含税/不含税 金额，与最低运费。</target>
         <note>Line: 74</note>
       </trans-unit>
+      <trans-unit id="cfc9489072f04e808ce4e01948b7fef8" approved="yes">
+        <source>The cart rule will be applied to the first "X" customers only.</source>
+        <target state="final">该购物车规则将只用于前“X"客户。</target>
+        <note>Line: 116</note>
+      </trans-unit>
+      <trans-unit id="15391e9d908034a4458cd78296a945a8" approved="yes">
+        <source>A customer will only be able to use the cart rule "X" time(s).</source>
+        <target state="final">每位客户将只能使用该购物车规则”X" 次。</target>
+        <note>Line: 128</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/cart_rules/informations.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -40,10 +50,20 @@
         <target state="final">只提供给您过目。这将不会显示给客户。</target>
         <note>Line: 63</note>
       </trans-unit>
+      <trans-unit id="4c04b0afd7a378940377c1948fa65e5f" approved="yes">
+        <source>This is the code users should enter to apply the voucher to a cart. Either create your own code or generate one by clicking on "Generate".</source>
+        <target state="final">这是用户申请购物车优惠券要填的。 你可以自己创建代码或点击“生成” 来生成一个。</target>
+        <note>Line: 75</note>
+      </trans-unit>
       <trans-unit id="9c0cc5911e6caceaa3f19e4bcf264ab0" approved="yes">
         <source>If the voucher is not yet in the cart, it will be displayed in the cart summary.</source>
         <target state="final">如果折扣券尚未添加在购物车中，它会显示在购物车目录。</target>
         <note>Line: 93</note>
+      </trans-unit>
+      <trans-unit id="45ec8a24a8f55af16fad097e8a4fb9fe" approved="yes">
+        <source>If you do not allow partial use, the voucher value will be lowered to the total order amount. If you allow partial use, however, a new voucher will be created with the remainder.</source>
+        <target state="final">如果你不允许部分使用优惠券，优惠券的金额将比总订单总金额低。 然而如果你允许部分使用，将会产生一张有着剩余金额的优惠券。</target>
+        <note>Line: 112</note>
       </trans-unit>
       <trans-unit id="0fcc630f536dae07ee7c1ac612654c1d" approved="yes">
         <source>Cart rules are applied by priority. A cart rule with a priority of "1" will be processed before a cart rule with a priority of "2".</source>
@@ -166,6 +186,11 @@ File: admin-dev/themes/default/template/controllers/categories/helpers/form/form
         <target state="final">密码用于连接到您的IMAP服务器。</target>
         <note>Line: 185</note>
       </trans-unit>
+      <trans-unit id="e9d5cadd20f10058a5bb0823aed17584" approved="yes">
+        <source>Delete messages after synchronization. If you do not enable this option, the synchronization will take more time.</source>
+        <target state="final">同步更新后即删除讯息！如果没有启用此选项，同步会花更多时间。</target>
+        <note>Line: 190</note>
+      </trans-unit>
       <trans-unit id="eca83facb7294ab0f66e1dec9fc66efd" approved="yes">
         <source>Create new threads for unrecognized emails.</source>
         <target state="final">创建未确认的电子邮件新主题。</target>
@@ -262,6 +287,11 @@ File: admin-dev/themes/default/template/controllers/categories/helpers/form/form
         <source>Phone number for this supplier</source>
         <target state="final">该供应商电话号码</target>
         <note>Line: 167</note>
+      </trans-unit>
+      <trans-unit id="c24c0c9cd7bdb34eaff67028b0cb8349" approved="yes">
+        <source>Mobile phone number for this supplier.</source>
+        <target state="final">该供应商的手机号码。</target>
+        <note>Line: 176</note>
       </trans-unit>
       <trans-unit id="e865605842d16d0d11c266c731e00507" approved="yes">
         <source>Upload a supplier logo from your computer.</source>
@@ -526,6 +556,11 @@ Context | Request Context</target>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_shipping.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="de95b43bceeb4b998aed4aed5cef1ae7" approved="yes">
+        <source>edit</source>
+        <target state="final">编辑</target>
+        <note>Line: 94</note>
+      </trans-unit>
       <trans-unit id="8b2ff26690065c221599c196cb6adc82" approved="yes">
         <source>If a carrier has a tax, it will be added to the shipping fees. Does not apply to free shipping.</source>
         <target state="final">如果需要支付承运人税费，这个将会添加到运费中。不适用免运费订单。</target>
@@ -591,6 +626,11 @@ Context | Request Context</target>
         <source>The full filename with its extension (e.g. Book.pdf)</source>
         <target state="final">其扩展名的完整文件名（例如Book.pdf）</target>
         <note>Line: 114</note>
+      </trans-unit>
+      <trans-unit id="48da1c11d36bd8b34f13821e996c7f97" approved="yes">
+        <source>Number of downloads allowed per customer. Set to 0 for unlimited downloads.</source>
+        <target state="final">每位客人允许下载的数量。设置为0 代表无限量下载。</target>
+        <note>Line: 123</note>
       </trans-unit>
       <trans-unit id="f049153f2c655d6d1ebd123f04b432cf" approved="yes">
         <source>If set, the file will not be downloadable after this date. Leave blank if you do not wish to attach an expiration date.</source>

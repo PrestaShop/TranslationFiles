@@ -222,10 +222,20 @@
         <target state="final">高级库存管理有不正确的数值。产品ID%id%没设置</target>
         <note>Line: 2896</note>
       </trans-unit>
+      <trans-unit id="934b46cf9eb8a8595ca517b87de6bfb4" approved="yes">
+        <source>Advanced stock management is not enabled, cannot enable on product with id %id%.</source>
+        <target state="final">高级库存管理未启用。无法在产品ID%id%上启用</target>
+        <note>Line: 2904</note>
+      </trans-unit>
       <trans-unit id="0081b2a315ed28289036fa6cc02a3819" approved="yes">
         <source>Advanced stock management is not enabled, warehouse is not set on product with id %id%.</source>
         <target state="final">高级库存管理未启用。产品ID%id%的仓库未设置</target>
         <note>Line: 2923</note>
+      </trans-unit>
+      <trans-unit id="c24928943071d3366164238b9413a211" approved="yes">
+        <source>Warehouse did not exist, cannot set on product %name%.</source>
+        <target state="final">仓库不存在。无法在产品%name%上设置。</target>
+        <note>Line: 2943</note>
       </trans-unit>
       <trans-unit id="fd6d9d3ba7d4aaacc49f53c2e8c082c0" approved="yes">
         <source>Email address %1$s (ID: %2$s) cannot be validated.</source>
@@ -479,6 +489,11 @@
         <target state="final">(从 %s 到 %s)</target>
         <note>Line: 326</note>
       </trans-unit>
+      <trans-unit id="b53b06c0e98a2db123f953f0059a0948" approved="yes">
+        <source>with truncate</source>
+        <target state="final">用截断</target>
+        <note>Line: 332</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Import/Handler/CategoryImportHandler.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -551,6 +566,11 @@
         <source>Error copying image: %url%</source>
         <target state="final">拷贝图片时出错：%url%</target>
         <note>Line: 1120</note>
+      </trans-unit>
+      <trans-unit id="61e49f62654858f3cd3d9b23bee90d06" approved="yes">
+        <source>Product #%id%: the picture (%url%) cannot be saved.</source>
+        <target state="final">产品#%id%： 图片（%url%）无法保存</target>
+        <note>Line: 1138</note>
       </trans-unit>
       <trans-unit id="651e202913d9229ff615d5afd6a6a168" approved="yes">
         <source>Advanced stock management is not enabled, warehouse not set on product %name% </source>
@@ -803,7 +823,11 @@
   </file>
   <file original="src/Adapter/Upload/UploadQuotaConfiguration.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="c3ecc0e8b4dc11a1d2c66d81439b4a42" approved="yes">
+        <source>The limit chosen is larger than the server's maximum upload limit. Please increase the limits of your server.</source>
+        <target state="final">选择的上限已经超过服务器可接受的上传限制。请增加你服务器的上限。</target>
+        <note>Line: 94</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Core/Import/File/FileUploader.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -812,6 +836,11 @@
         <source>No file was uploaded.</source>
         <target state="final">没有文件被上传</target>
         <note>Line: 124</note>
+      </trans-unit>
+      <trans-unit id="68e8d36b17584f88614fb3201925a7ac" approved="yes">
+        <source>The uploaded file exceeds the upload_max_filesize directive in php.ini. If your server configuration allows it, you may add a directive in your .htaccess.</source>
+        <target state="final">Php.ini里上传的文件超过大小上限。如果你的服务器配置允许，你可以在你的.htaccess里添加一个指令。</target>
+        <note>Line: 111</note>
       </trans-unit>
       <trans-unit id="0bedafc96db94da3f85caa7101944eb5" approved="yes">
         <source>The uploaded file exceeds the post_max_size directive in php.ini. If your server configuration allows it, you may add a directive in your .htaccess, for example:</source>
@@ -948,7 +977,11 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ImportDataConfigurationController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="1ffbb6a3722eb0c39784c1c646e104cd" approved="yes">
+        <source>The import file cannot be read.</source>
+        <target state="final">无法读取导入文件。</target>
+        <note>Line: 76</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/MemcacheServerController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
