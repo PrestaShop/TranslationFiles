@@ -827,6 +827,11 @@ Comment: If low memory or big fixtures, create subtasks for populateDatabase ste
         <target state="final"><![CDATA[<b>警告：你无法使用此工具来升级你的店铺。</b><br /><br />您已经安装了 <b> PrestaShop 的 %version% s版本</b>。<br/><br/>如果你想升级到最新版本，请阅读我们的文档：<a href="%doc%">%doc%</a>]]></target>
         <note>Line: 36</note>
       </trans-unit>
+      <trans-unit id="bcc5d67b4832784ca5e4f09a40b28bb2" approved="yes">
+        <source>Welcome to the PrestaShop %version% Installer</source>
+        <target state="final">欢迎来到PrestaShop %version% 安装</target>
+        <note>Line: 42</note>
+      </trans-unit>
       <trans-unit id="78a57ffff28849e5627e564bc055acea" approved="yes">
         <source>Installing PrestaShop is quick and easy. In just a few moments, you will become part of a community consisting of more than 250,000 merchants. You are on the way to creating your own unique online store that you can manage easily every day.</source>
         <target state="final">安装PrestaShop简单而且快速。只需一会功夫,您将成为超过250,000 成员的商人之一。你正在创建您自己的独特的在线商店，可以轻松地管理每一天。</target>
@@ -1039,6 +1044,11 @@ File: modules/autoupgrade/classes/UpgradePage.php:414</note>
         <target state="final">无法写入设置文件</target>
         <note>Line: 203</note>
       </trans-unit>
+      <trans-unit id="39fcc4a2539d44e1bc88df1af88df1e8" approved="yes">
+        <source>Cannot write app/config/parameters.php file</source>
+        <target state="final">无法书写 app/config/parameters.php 文件</target>
+        <note>Line: 226</note>
+      </trans-unit>
       <trans-unit id="453faec2c85b2b9c0b9c2b474b30bd21" approved="yes">
         <source>Database structure file not found</source>
         <target state="final">未找到数据库文件结构</target>
@@ -1162,6 +1172,11 @@ File: modules/autoupgrade/classes/UpgradePage.php:414</note>
   </file>
   <file original="src/PrestaShopBundle/Install/XmlLoader.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="6c16e88afa7f92cfe15e74a1fbe9c250" approved="yes">
+        <source><![CDATA[SQL error on query <i>%query%</i>]]></source>
+        <target state="final"><![CDATA[SQL查询错误 <i>%query%</i>]]></target>
+        <note>Line: 1207</note>
+      </trans-unit>
       <trans-unit id="5b56439cb79f3a01ae56d92e52be2218" approved="yes">
         <source><![CDATA[An SQL error occurred for entity <i>%entity%</i>: <i>%message%</i>]]></source>
         <target state="final"><![CDATA[实体发生 SQL 错误 <i>%entity%</i>: <i>%message%</i>]]></target>
@@ -1171,6 +1186,11 @@ File: modules/autoupgrade/classes/UpgradePage.php:414</note>
         <source>Cannot create image "%identifier%" for entity "%entity%"</source>
         <target state="final">不能为实体"%entity%" 创建图片"%identifier%"</target>
         <note>Line: 805</note>
+      </trans-unit>
+      <trans-unit id="a6bc945aa3c279156298ed70872cd20b" approved="yes">
+        <source>Cannot create image "%identifier%" (bad permissions on folder "%folder%")</source>
+        <target state="final">无法创建图片 "%identifier%" ( 无文件夹"%folder%"授权)</target>
+        <note>Line: 783</note>
       </trans-unit>
       <trans-unit id="25b42d449f5ebcdb85fb6cae0663c40f" approved="yes">
         <source>Cannot create image "%identifier%"</source>

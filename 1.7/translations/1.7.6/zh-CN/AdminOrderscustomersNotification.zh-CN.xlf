@@ -20,7 +20,11 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/_documents.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="5db361171166373b9694fc4aeb0932b5" approved="yes">
+        <source>There is no available document</source>
+        <target state="final">没有现成的文件</target>
+        <note>Line: 165</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/_product_line.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -98,6 +102,11 @@
         <target state="final">错误：商品价格必须设置</target>
         <note>Line: 47</note>
       </trans-unit>
+      <trans-unit id="c4832c266d52c6cef340a9c656ddda26" approved="yes">
+        <source>Error. You cannot refund a negative amount.</source>
+        <target state="final">出错。您无法退还负数金额。</target>
+        <note>Line: 62</note>
+      </trans-unit>
       <trans-unit id="14c7a12fdbf437a0545aed3365ce3f84" approved="yes">
         <source>No merchandise returned yet</source>
         <target state="final">未曾有商品被退回</target>
@@ -117,6 +126,11 @@
         <source>This warning also concerns the next orders:</source>
         <target state="final">该警告也关系到下一个订单：</target>
         <note>Line: 414</note>
+      </trans-unit>
+      <trans-unit id="de78da3154b793d64d302db27e65baec" approved="yes">
+        <source>No payment methods are available</source>
+        <target state="final">没有可用的付款方式</target>
+        <note>Line: 497</note>
       </trans-unit>
       <trans-unit id="ecd2046a1d4a6e46c11914c04b9559e4" approved="yes">
         <source>A registered customer account has already claimed this email address</source>
@@ -157,6 +171,11 @@
   </file>
   <file original="classes/controller/AdminController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="9cdca3c7972c48111e79648c942ac672" approved="yes">
+        <source>The message was successfully sent to the customer.</source>
+        <target state="final">该信息已成功发送给顾客。</target>
+        <note>Line: 479</note>
+      </trans-unit>
       <trans-unit id="1923e1e610686f1182bf54f573b86921" approved="yes">
         <source>A partial refund was successfully created.</source>
         <target state="final">部分退款已成功创建。</target>
@@ -311,6 +330,11 @@
         <target state="final">该购物车必须有个客户</target>
         <note>Line: 234</note>
       </trans-unit>
+      <trans-unit id="4fe1644600a7dad640143da346a9211b" approved="yes">
+        <source>Order #%d cannot be loaded</source>
+        <target state="final">订购 #%d 不能被加载</target>
+        <note>Line: 393</note>
+      </trans-unit>
       <trans-unit id="409f3dfd9f910287f86fd6c25c94c4d8" approved="yes">
         <source>Order #%d has already been assigned this status.</source>
         <target state="final">订单#%d已经是指定状态。</target>
@@ -321,6 +345,26 @@
         <target state="final">在更改订单#%d的状态时出错，或无法发邮件给该客户。</target>
         <note>Line: 422</note>
       </trans-unit>
+      <trans-unit id="45d4b3afac71a54470a6cbf828e8cb0d" approved="yes">
+        <source>The order carrier ID is invalid.</source>
+        <target state="final">订购员 Id 不正确</target>
+        <note>Line: 476</note>
+      </trans-unit>
+      <trans-unit id="e52d022f0fb2160ec1cf7b4122ab9589" approved="yes">
+        <source>The tracking number is incorrect.</source>
+        <target state="final">追查号码不正确</target>
+        <note>Line: 478</note>
+      </trans-unit>
+      <trans-unit id="561918c3c49ff748f543e28f5c405d3c" approved="yes">
+        <source>An error occurred while sending an email to the customer.</source>
+        <target state="final">传送电子邮件给顾客时出现错误</target>
+        <note>Line: 678</note>
+      </trans-unit>
+      <trans-unit id="f465ea6c7866853ecc49286449720ac9" approved="yes">
+        <source>The order carrier cannot be updated.</source>
+        <target state="final">无法更新订购员</target>
+        <note>Line: 518</note>
+      </trans-unit>
       <trans-unit id="c2572d1fee836c06c88e0bdc9fa7ffa1" approved="yes">
         <source>The new order status is invalid.</source>
         <target state="final">无效的新订单状态</target>
@@ -330,6 +374,16 @@
         <source>An error occurred while changing order status, or we were unable to send an email to the customer.</source>
         <target state="final">改变状态的时候发生了错误或无法发送邮件给客户。</target>
         <note>Line: 564</note>
+      </trans-unit>
+      <trans-unit id="c5e4a57d9572678ffbb124db39542928" approved="yes">
+        <source>The order has already been assigned this status.</source>
+        <target state="final">这个订单已经被分配至这个状态</target>
+        <note>Line: 566</note>
+      </trans-unit>
+      <trans-unit id="f61c60ff8d82ebd1012606e5bc3a2002" approved="yes">
+        <source>The customer is invalid.</source>
+        <target state="final">这个顾客不存在</target>
+        <note>Line: 577</note>
       </trans-unit>
       <trans-unit id="3dc245110e1f3601860c20299d97c01d" approved="yes">
         <source>The message cannot be blank.</source>
@@ -346,10 +400,35 @@
         <target state="final">退款前，请输入退货数量</target>
         <note>Line: 880</note>
       </trans-unit>
+      <trans-unit id="8a5f368eac3aab699cf8e6e1ec28b695" approved="yes">
+        <source>Please enter an amount to proceed with your refund.</source>
+        <target state="final">请输入退款数额以便进行退款</target>
+        <note>Line: 882</note>
+      </trans-unit>
+      <trans-unit id="598db0342f11f89d4268942b9491c455" approved="yes">
+        <source>You cannot generate a partial credit slip.</source>
+        <target state="final">你不能生成一半的 credit slip.</target>
+        <note>Line: 768</note>
+      </trans-unit>
       <trans-unit id="b1db8cec4ec0de83c3934a22bc758a3b" approved="yes">
         <source>You cannot generate a voucher.</source>
         <target state="final">无法生成收据</target>
         <note>Line: 1126</note>
+      </trans-unit>
+      <trans-unit id="bd4457c0f19f796f3d66726f9fadc041" approved="yes">
+        <source>The partial refund data is incorrect.</source>
+        <target state="final">一半的退款资料是不正确的</target>
+        <note>Line: 891</note>
+      </trans-unit>
+      <trans-unit id="991bbcc5660531bc1a1c8f1c235794c0" approved="yes">
+        <source>You must select a product.</source>
+        <target state="final">你必须选择一个产品</target>
+        <note>Line: 900</note>
+      </trans-unit>
+      <trans-unit id="6d3fd0eb289900145d482634d6e86b90" approved="yes">
+        <source>You must enter a quantity.</source>
+        <target state="final">你必须输入一个数量</target>
+        <note>Line: 902</note>
       </trans-unit>
       <trans-unit id="8001500c3284edd9c4dd07ae508e5a95" approved="yes">
         <source>No quantity has been selected for this product.</source>
@@ -381,6 +460,11 @@
         <target state="final">没有商品或者数量选中</target>
         <note>Line: 1156</note>
       </trans-unit>
+      <trans-unit id="fdb259bd3d5479c25f5d23af490b5ec3" approved="yes">
+        <source>The order cannot be found</source>
+        <target state="final">订单无法找寻</target>
+        <note>Line: 1181</note>
+      </trans-unit>
       <trans-unit id="9391de9e24bd71839f6f72a1517de2d6" approved="yes">
         <source>The amount is invalid.</source>
         <target state="final">数目是无效的。</target>
@@ -391,15 +475,110 @@
         <target state="final">选定的付款方式无效。</target>
         <note>Line: 1185</note>
       </trans-unit>
+      <trans-unit id="7d0d71a3e577be4c20799b52286191d6" approved="yes">
+        <source>The transaction ID is invalid.</source>
+        <target state="final">交易Id无效</target>
+        <note>Line: 1187</note>
+      </trans-unit>
+      <trans-unit id="3b512b6c31ef4f46605159612691eb56" approved="yes">
+        <source>The selected currency is invalid.</source>
+        <target state="final">你选择的货币无效</target>
+        <note>Line: 1189</note>
+      </trans-unit>
+      <trans-unit id="06fc8d486e9f83c5810a21857da7b656" approved="yes">
+        <source>The invoice is invalid.</source>
+        <target state="final">Invoice 无效</target>
+        <note>Line: 1191</note>
+      </trans-unit>
       <trans-unit id="f50c7cba4df874039d73ee480d678f5e" approved="yes">
         <source>The date is invalid</source>
         <target state="final">数据无效</target>
         <note>Line: 1193</note>
       </trans-unit>
+      <trans-unit id="04e3713831c71d70817d4a69eadbc53c" approved="yes">
+        <source>An error occurred during payment.</source>
+        <target state="final">在付款过程中出现错误</target>
+        <note>Line: 1196</note>
+      </trans-unit>
+      <trans-unit id="0d906d12a6321e5f13e69dab92e39a4e" approved="yes">
+        <source>The invoice note was not saved.</source>
+        <target state="final">Invoice note没存储</target>
+        <note>Line: 1213</note>
+      </trans-unit>
       <trans-unit id="7f5a75ac350db917dc60cfbd8299da5b" approved="yes">
         <source>Failed to upload the invoice and edit its note.</source>
         <target state="final">无法上传发票及编辑备注。</target>
         <note>Line: 1219</note>
+      </trans-unit>
+      <trans-unit id="68b7afe49451dbdab7cbeff4f66be369" approved="yes">
+        <source>This delivery address country is not active.</source>
+        <target state="final">收货地址国家错误</target>
+        <note>Line: 1239</note>
+      </trans-unit>
+      <trans-unit id="a9320eb7be798958cba0a93262521ede" approved="yes">
+        <source>This invoice address country is not active.</source>
+        <target state="final">Invoice的国家地址错误</target>
+        <note>Line: 1241</note>
+      </trans-unit>
+      <trans-unit id="95aa605fa7f396d370b4c87afad9201c" approved="yes">
+        <source>This address can't be loaded</source>
+        <target state="final">地址不能被加载</target>
+        <note>Line: 1283</note>
+      </trans-unit>
+      <trans-unit id="b0535e1868ad530e5faadf295516a724" approved="yes">
+        <source>You cannot change the currency.</source>
+        <target state="final">不能改变货币单位</target>
+        <note>Line: 1378</note>
+      </trans-unit>
+      <trans-unit id="8dcb8970b8eeeac73c8d312d1db3d1f9" approved="yes">
+        <source>Invoice management has been disabled.</source>
+        <target state="final">管理 invoice 已被关闭</target>
+        <note>Line: 1385</note>
+      </trans-unit>
+      <trans-unit id="f98321e34948f600959c5c4200c953c8" approved="yes">
+        <source>This order already has an invoice.</source>
+        <target state="final">订单有invoice了</target>
+        <note>Line: 1387</note>
+      </trans-unit>
+      <trans-unit id="0da1c0afe7d3d89a53a5d00998bb4295" approved="yes">
+        <source>You cannot edit this cart rule.</source>
+        <target state="final">你不能改变cart的规矩</target>
+        <note>Line: 1427</note>
+      </trans-unit>
+      <trans-unit id="db7cb022c7b6058d0f1668faa22a54fa" approved="yes">
+        <source>You must specify a name in order to create a new discount.</source>
+        <target state="final">你必须设置一个名字来得到新的折扣</target>
+        <note>Line: 1435</note>
+      </trans-unit>
+      <trans-unit id="7b56734426bcdd50629f41c58cb1f241" approved="yes">
+        <source>The discount value is invalid.</source>
+        <target state="final">折扣价值无效</target>
+        <note>Line: 1474</note>
+      </trans-unit>
+      <trans-unit id="8dc19f50ae30ac7d61e67c795b32fd47" approved="yes">
+        <source>The discount value is greater than the order invoice total.</source>
+        <target state="final">折扣价值大过订单数值</target>
+        <note>Line: 1495</note>
+      </trans-unit>
+      <trans-unit id="574875d4553bada6682a07ae86298bc6" approved="yes">
+        <source>The discount value is greater than the order total.</source>
+        <target state="final">折扣价值大过总订单价值</target>
+        <note>Line: 1506</note>
+      </trans-unit>
+      <trans-unit id="9a9d54664b6ba23a9588f6b795dc03ab" approved="yes">
+        <source>The discount type is invalid.</source>
+        <target state="final">折扣方式无效</target>
+        <note>Line: 1544</note>
+      </trans-unit>
+      <trans-unit id="b046e96ee00ad2ef4ed135eab1c13df4" approved="yes">
+        <source>An error occurred during the OrderCartRule creation</source>
+        <target state="final">错误出现(OrderCartRule creation）</target>
+        <note>Line: 1597</note>
+      </trans-unit>
+      <trans-unit id="0fa578512847280157dd62ae18e92979" approved="yes">
+        <source>An error occurred while loading order status.</source>
+        <target state="final">更新订购的时候发生了错误。</target>
+        <note>Line: 1608</note>
       </trans-unit>
       <trans-unit id="fded441ef916f653d49abf142b535b52" approved="yes">
         <source>An error occurred while sending the e-mail to the customer.</source>
@@ -421,10 +600,30 @@
         <target state="final">发送邮件给客户时出错误。</target>
         <note>Line: 2076</note>
       </trans-unit>
+      <trans-unit id="4dc1c8fa2f766c5e201155ee3737ed3f" approved="yes">
+        <source>The order object cannot be loaded.</source>
+        <target state="final">无法加载物体</target>
+        <note>Line: 2848</note>
+      </trans-unit>
       <trans-unit id="7152cf69405fd47a8bd2f7b625ce324e" approved="yes">
         <source>You cannot add products to delivered orders.</source>
         <target state="final">您不能在已出货订单添加商品。</target>
         <note>Line: 2096</note>
+      </trans-unit>
+      <trans-unit id="9b7508b5ee1050d5c5efb9b1cf76fd36" approved="yes">
+        <source>The product object cannot be loaded.</source>
+        <target state="final">无法加载产品</target>
+        <note>Line: 2458</note>
+      </trans-unit>
+      <trans-unit id="74bd055cec720c9f41563ff6a6a40b7b" approved="yes">
+        <source>The combination object cannot be loaded.</source>
+        <target state="final">无法加载结合的产品</target>
+        <note>Line: 2119</note>
+      </trans-unit>
+      <trans-unit id="0d38c90d843c787c0be14f790998210c" approved="yes">
+        <source>You must add %d minimum quantity</source>
+        <target state="final">你需要添加的最少数量为 %d</target>
+        <note>Line: 2203</note>
       </trans-unit>
       <trans-unit id="de10fc28511b894f704c1a67fcff7b4f" approved="yes">
         <source>You already have the maximum quantity available for this product.</source>
@@ -436,15 +635,65 @@
         <target state="final">[已产生] 免运费购物车规则</target>
         <note>Line: 2220</note>
       </trans-unit>
+      <trans-unit id="4e670964e358534a827dc7e0359281b0" approved="yes">
+        <source>The OrderDetail object cannot be loaded.</source>
+        <target state="final">无法加载OrderDetail</target>
+        <note>Line: 2450</note>
+      </trans-unit>
+      <trans-unit id="0c8a625097a9b711bfca4724517eeb01" approved="yes">
+        <source>The address object cannot be loaded.</source>
+        <target state="final">无法加载物体地址</target>
+        <note>Line: 2466</note>
+      </trans-unit>
+      <trans-unit id="7da127d075ca24fec224c1d497aac11f" approved="yes">
+        <source>An error occurred while editing the product line.</source>
+        <target state="final">在更改生产线时发生了错误。</target>
+        <note>Line: 2657</note>
+      </trans-unit>
+      <trans-unit id="fde52aaef1e1e23770e40a458a1cac46" approved="yes">
+        <source>An error occurred while attempting to delete the product line.</source>
+        <target state="final">在删除生产线的时候发生了错误。</target>
+        <note>Line: 2726</note>
+      </trans-unit>
+      <trans-unit id="e3a212006776535d5da7d11f7c62d727" approved="yes">
+        <source>The Order Detail object could not be loaded.</source>
+        <target state="final">无法加载订单详情</target>
+        <note>Line: 2841</note>
+      </trans-unit>
+      <trans-unit id="823eba6da615c2a384cf8e13cd70980b" approved="yes">
+        <source>The invoice object cannot be loaded.</source>
+        <target state="final">无法加载invoice</target>
+        <note>Line: 2775</note>
+      </trans-unit>
       <trans-unit id="0af3cc300f35caff086e21bf2f865960" approved="yes">
         <source>You cannot edit the order detail for this order.</source>
         <target state="final">你不能编辑订单细节</target>
         <note>Line: 2789</note>
       </trans-unit>
+      <trans-unit id="7ea9212dcdaccc580b9e6b548609e7fd" approved="yes">
+        <source>You cannot edit a delivered order.</source>
+        <target state="final">你不可以编辑一个已经完成的订单</target>
+        <note>Line: 2863</note>
+      </trans-unit>
+      <trans-unit id="675b81dace2c99f5ef5eb6ac3f69dbe4" approved="yes">
+        <source>You cannot use this invoice for the order</source>
+        <target state="final">你不可以使用这个发货单在这个订单</target>
+        <note>Line: 2804</note>
+      </trans-unit>
+      <trans-unit id="2591b6d46f45d8f60e24c6c9c96a2a11" approved="yes">
+        <source>Invalid price</source>
+        <target state="final">无效的价钱</target>
+        <note>Line: 2815</note>
+      </trans-unit>
       <trans-unit id="01816dd287bcb3b88ad3f63970ce045f" approved="yes">
         <source>Invalid quantity</source>
         <target state="final">无效的数量</target>
         <note>Line: 2829</note>
+      </trans-unit>
+      <trans-unit id="c181d4415ea3fd71c407da3697be421f" approved="yes">
+        <source>You cannot delete the order detail.</source>
+        <target state="final">你不可以删除订单细节</target>
+        <note>Line: 2855</note>
       </trans-unit>
       <trans-unit id="671cd4e79283dd9931f0452000bf2744" approved="yes">
         <source>This product cannot be re-stocked.</source>
@@ -460,6 +709,11 @@
   </file>
   <file original="controllers/admin/AdminPdfController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="f193c3dd6da8a06a610c632db03d55c8" approved="yes">
+        <source>The order ID -- or the invoice order ID -- is missing.</source>
+        <target state="final">订单Id -- 或者订货单Id ——不见了</target>
+        <note>Line: 89</note>
+      </trans-unit>
       <trans-unit id="48607ff5af8c52b5efbc057b852a37ee" approved="yes">
         <source>No invoice was found.</source>
         <target state="final">未找到发票</target>
@@ -470,10 +724,20 @@
         <target state="final">没有找到订单条</target>
         <note>Line: 124</note>
       </trans-unit>
+      <trans-unit id="f2e9d5988718c8a3dde49c6bcb55125b" approved="yes">
+        <source>The supply order ID is missing.</source>
+        <target state="final">供应单Id不见了</target>
+        <note>Line: 149</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminReturnController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="7582ef2f5b5de8a479994d0412986bc2" approved="yes">
+        <source>An error occurred while deleting the details of your order return.</source>
+        <target state="final">删除你的订单退货明细的时侯出现了错误。</target>
+        <note>Line: 227</note>
+      </trans-unit>
       <trans-unit id="d4430672c8b3c123ae5f4c2f4b5b458d" approved="yes">
         <source>You need at least one product.</source>
         <target state="final">您需要至少一个商品。</target>
@@ -483,6 +747,11 @@
         <source>The order return is invalid.</source>
         <target state="final">订单回执无效。</target>
         <note>Line: 233</note>
+      </trans-unit>
+      <trans-unit id="5431bd88788ce2df4278c84f402e3cb6" approved="yes">
+        <source>The order return content is invalid.</source>
+        <target state="final">订单退货内容无效</target>
+        <note>Line: 236</note>
       </trans-unit>
       <trans-unit id="16f2adf6c4fd1317acba5871267a60f2" approved="yes">
         <source>No order return ID has been specified.</source>
@@ -521,8 +790,16 @@
   </file>
   <file original="controllers/admin/AdminStatusesController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="35af021c4bdb02cad86c917022e053da" approved="yes">
+        <source>An error has occurred: Can't save the current order's return status.</source>
+        <target state="final">出错了：无法保存当前订单的退货状态。</target>
+        <note>Line: 556</note>
+      </trans-unit>
+      <trans-unit id="ca215ff3d829e3a6a9c0c672987d5959" approved="yes">
+        <source>An error has occurred: Can't delete the current order's return status.</source>
+        <target state="final">出错了：无法删除当前订单的退货状态。</target>
+        <note>Line: 576</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Customer/QueryHandler/GetCustomerForViewingHandler.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -550,8 +827,16 @@
   </file>
   <file original="src/Core/Form/ChoiceProvider/CustomerDeleteMethodChoiceProvider.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="ecace08642e28fc9c2704b5f73605b6d" approved="yes">
+        <source>I want my customers to be able to register again with the same email address. All data will be removed from the database.</source>
+        <target state="final">我要我的客户能够使用相同的邮件地址再次注册。所有的数据将从数据库中移除。</target>
+        <note>Line: 57</note>
+      </trans-unit>
+      <trans-unit id="fd5b3faeaab816c19b1337785c0b531b" approved="yes">
+        <source>I do not want my customer(s) to register again with the same email address. All selected customer(s) will be removed from this list but their corresponding data will be kept in the database.</source>
+        <target state="final">我不要我的客户使用同样的电子邮箱再次注册。所有已选的客户将从此列表中移除，但他们相关的数据将被保存在数据库中。</target>
+        <note>Line: 63</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/EmployeeController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -574,6 +859,16 @@
         <source>This customer does not exist.</source>
         <target state="final">该客户不存在</target>
         <note>Line: 741</note>
+      </trans-unit>
+      <trans-unit id="4383b950a18d0fd893e237148f5f58ca" approved="yes">
+        <source>This customer already exists as a non-guest.</source>
+        <target state="final">这名顾客已经是非客人</target>
+        <note>Line: 787</note>
+      </trans-unit>
+      <trans-unit id="beaa75cbedc3443661b894ed66c76b13" approved="yes">
+        <source>An error occurred while updating customer information.</source>
+        <target state="final">更顾客资时发生错误。</target>
+        <note>Line: 791</note>
       </trans-unit>
     </body>
   </file>
@@ -643,6 +938,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/Blocks/delete_modal.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="a37bf274ad160c76e7d17b9178bc1f57" approved="yes">
+        <source>How do you want to delete the selected customers?</source>
+        <target state="final">您想要如何删除已选的客户？</target>
+        <note>Line: 28</note>
+      </trans-unit>
       <trans-unit id="6513e5e8645f98d950d6174b30c151b8" approved="yes">
         <source>There are two ways of deleting a customer. Please choose your preferred method.</source>
         <target state="final">您有两种方式删除一个客户，请选择。</target>

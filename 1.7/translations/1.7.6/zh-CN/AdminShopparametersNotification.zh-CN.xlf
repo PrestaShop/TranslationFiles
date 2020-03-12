@@ -2,13 +2,25 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="admin-dev/themes/default/template/controllers/groups/helpers/form/form.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="57f51ca7c7ae71c5ac955cbce1942622" approved="yes">
+        <source>Caution: The discount applied to a category does not stack with the overall reduction but instead replaces it.</source>
+        <target state="final">警惕: 使用到分类的折扣不会与整体折扣叠加加在一起，而是代替它们。</target>
+        <note>Line: 154</note>
+      </trans-unit>
+      <trans-unit id="30de5dc59697ad3a8b60a3290a67de6c" approved="yes">
+        <source>Only products that have this category as the default category will be affected.</source>
+        <target state="final">只有把此分类作为默认分类的产品才会受到影响。</target>
+        <note>Line: 155</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/referrers/form_settings.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="60496e92d8c44007e78f095a1cb6adc2" approved="yes">
+        <source>The module '%s' must be activated and configurated in order to have all the statistics</source>
+        <target state="final">‘%s’ 模块必须激活并做好配置，这样才能得到所有统计数据</target>
+        <note>Line: 133</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/shop/helpers/list/list_action_delete.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -40,6 +52,11 @@
   </file>
   <file original="controllers/admin/AdminGroupsController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="2a266db001f17e9fdcbc17ac7f169922" approved="yes">
+        <source>The discount value is incorrect (must be a percentage).</source>
+        <target state="final">折扣价值不正确(必须是百分比)</target>
+        <note>Line: 525</note>
+      </trans-unit>
       <trans-unit id="5f455758d7337262fdeedba6d54ec89f" approved="yes">
         <source>Wrong category ID.</source>
         <target state="final">分类ID错误</target>
@@ -49,6 +66,16 @@
         <source>The discount value is incorrect.</source>
         <target state="final">折扣值不正确。</target>
         <note>Line: 576</note>
+      </trans-unit>
+      <trans-unit id="5d4aa63b116fb3fe40589e20c1574661" approved="yes">
+        <source>You cannot save group reductions.</source>
+        <target state="final">你不可以保存组别减少</target>
+        <note>Line: 585</note>
+      </trans-unit>
+      <trans-unit id="a5ee25b466967f2e940d8c7f973a6906" approved="yes">
+        <source>An error occurred while updating this group.</source>
+        <target state="final">更新组别的时候发生了错误。</target>
+        <note>Line: 603</note>
       </trans-unit>
     </body>
   </file>
@@ -92,7 +119,11 @@
   </file>
   <file original="controllers/admin/AdminSearchController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="ef553500695e07c58644bbdd166581be" approved="yes">
+        <source>This is not a valid IP address:</source>
+        <target state="final">Ip 地址 无效</target>
+        <note>Line: 191</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminShopController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -101,6 +132,11 @@
         <source>You cannot delete this shop (customer and/or order dependency).</source>
         <target state="final">你不能删除该商铺（存在客户和/或订单）。</target>
         <note>Line: 274</note>
+      </trans-unit>
+      <trans-unit id="e3651705f1156de17be5bf1943c480b3" approved="yes">
+        <source>Please create some sub-categories for this root category.</source>
+        <target state="final">请为根分类创建一些子分类。</target>
+        <note>Line: 316</note>
       </trans-unit>
       <trans-unit id="cf52c411b5659457074fd9962435307f" approved="yes">
         <source>You need to select at least the root category.</source>
@@ -159,6 +195,11 @@
         <target state="final">在根目录建立一个空的 .htaccess 文件。</target>
         <note>Line: 112</note>
       </trans-unit>
+      <trans-unit id="5dab5160dfb25b3a4d6c51416dac5c87" approved="yes">
+        <source>Give it write permissions (CHMOD 666 on Unix system).</source>
+        <target state="final">给它书写的权限（Unix系统使用 CHMOD 666）。</target>
+        <note>Line: 120</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Email/EmailConfigurationFormDataProvider.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -181,10 +222,20 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/TrafficSeo/Meta/Blocks/robots_file_generation.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="10ebcb160107c452a2fc3c51804fc780" approved="yes">
+        <source>Your robots.txt file MUST be in your website's root directory and nowhere else (e.g. http://www.example.com/robots.txt).</source>
+        <target state="final">您的robots.txt文件必须是在您的网站的根目录下而不是别的地方(例如http://www.example.com/robots.txt)。</target>
+        <note>Line: 40</note>
+      </trans-unit>
       <trans-unit id="54a81582e2ea2a98cebaabab9c454957" approved="yes">
         <source>Generate your "robots.txt" file by clicking on the following button (this will erase the old robots.txt file)</source>
         <target state="final">通过点击下面的按钮，生成你的“的robots.txt”文件（这将删除旧的robots.txt文件)</target>
         <note>Line: 43</note>
+      </trans-unit>
+      <trans-unit id="d999a32b68fd420ce389f774c231c637" approved="yes">
+        <source>1) Create a blank robots.txt file in your root directory.</source>
+        <target state="final">在根目录建立一个空白的robots.txt 文件。</target>
+        <note>Line: 47</note>
       </trans-unit>
     </body>
   </file>
@@ -223,9 +274,21 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/TrafficSeo/Meta/Blocks/url_schema_configuration.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="488acc51322abb701f50f1e753f7c19e" approved="yes">
+        <source>This section enables you to change the default pattern of your links. In order to use this functionality, PrestaShop's "Friendly URL" option must be enabled, and Apache's URL rewriting module (mod_rewrite) must be activated on your web server.</source>
+        <target state="final">这一部分让你可以自由更改链接的默认模式。 为了使用此功能，必须启用PrestaShop的“Friendly URL”功能，并且必须在Web服务器上激活Apache的URL重写模块（mod_rewrite）。</target>
+        <note>Line: 42</note>
+      </trans-unit>
+      <trans-unit id="3ecf3d1a434ba446f75b21deb67826c6" approved="yes">
+        <source>There are several available keywords for each route listed below; note that keywords with * are required!</source>
+        <target state="final">以下列出的每条路线有几个可用的关键字; 请注意带*的关键字是必需的！</target>
+        <note>Line: 43</note>
+      </trans-unit>
+      <trans-unit id="e3fc732382d81895d218614e841ea222" approved="yes">
+        <source>To add a keyword in your URL, use the {keyword} syntax. If the keyword is not empty, you can add text before or after the keyword with syntax {prepend:keyword:append}. For example {-hey-:meta_title} will add "-hey-my-title" in the URL if the meta title is set.</source>
+        <target state="final">要在您的URL里添加关键字，请使用{keyword}句法。 如果关键字不是空的，你可以在关键词之前或之后用句法{prepend:keyword:append}添加文字。 例如如果元标题已设置，{-hey-:meta_title}将在URL中添加“-hey-my-title”。</target>
+        <note>Line: 44</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/TrafficSeo/Meta/index.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
