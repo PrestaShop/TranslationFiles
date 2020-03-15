@@ -313,6 +313,16 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">无法添加配置%s</target>
         <note>Line: 1518</note>
       </trans-unit>
+      <trans-unit id="2782e6f430c2658c79aecfcecdc0d0e8" approved="yes">
+        <source>The field %field_name% is required at least in %lang%.</source>
+        <target state="final">字段%field_name%至少在%lang%里需要</target>
+        <note>Line: 3699</note>
+      </trans-unit>
+      <trans-unit id="114eadc70de249729e9287a6b450c6e0" approved="yes">
+        <source>The %field_name% field (%lang%) is invalid.</source>
+        <target state="final">%field_name%字段（%lang%）无效</target>
+        <note>Line: 3734</note>
+      </trans-unit>
       <trans-unit id="b4186b9ed7c957a1cd9f4e7ce916e603" approved="yes">
         <source>%s: Incorrect value</source>
         <target state="final">%s错误值</target>
@@ -470,7 +480,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="3d52f8b2b1a67aa8740b72b3752d54f3" approved="yes">
+        <source>Incorrect value for "Depends on stock" for product %name% </source>
+        <target state="final">产品%name%的“取决于库存” 数值不正确。 </target>
+        <note>Line: 2957</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminLoginController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -663,6 +677,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">无法加载物体 </target>
         <note>Line: 1987</note>
       </trans-unit>
+      <trans-unit id="9ca63429d31c3e720001675dd8535a9d" approved="yes">
+        <source>The %name% field is required.</source>
+        <target state="final">%name%字段必填</target>
+        <note>Line: 2014</note>
+      </trans-unit>
       <trans-unit id="172dfd675cd344c66724042519cc4df1" approved="yes">
         <source>The %1$s field (%2$s) is invalid.</source>
         <target state="final"> %1$s 字段 (%2$s) 无效。</target>
@@ -787,6 +806,31 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="controllers/admin/AdminTranslationsController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="e298a0bc9a35d45798e28c082dfc1dfa" approved="yes">
+        <source>"%type%" does not exist.</source>
+        <target state="final">"%type%"不存在</target>
+        <note>Line: 113</note>
+      </trans-unit>
+      <trans-unit id="40f5c232e433d178a4f912b3092d7df1" approved="yes">
+        <source>Directory "%folder%" cannot be created</source>
+        <target state="final">无法创建目录"%folder%"</target>
+        <note>Line: 339</note>
+      </trans-unit>
+      <trans-unit id="80034ab2323115584ed4c5b05e222f60" approved="yes">
+        <source>File "%file%" cannot be created</source>
+        <target state="final">无法创建文件 "%file%"</target>
+        <note>Line: 341</note>
+      </trans-unit>
+      <trans-unit id="6b12f160f2bb3c7dea01bd96a223d80e" approved="yes">
+        <source>Cannot write this file: "%folder%"</source>
+        <target state="final">无法书写文件："%folder%"</target>
+        <note>Line: 391</note>
+      </trans-unit>
+      <trans-unit id="f0566c73cce29920f99fda8819745804" approved="yes">
+        <source>This file must be writable: %file%</source>
+        <target state="final">该文件必须是可书写的： %file%</target>
+        <note>Line: 520</note>
+      </trans-unit>
       <trans-unit id="bb5ef82c8be2494c733ac77920bc5c72" approved="yes">
         <source>No file has been selected.</source>
         <target state="final">没有选择的文件</target>
@@ -795,6 +839,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="e594c33758771c458a7f80e9afdf7e55" approved="yes">
         <source>The server does not have permissions for writing.</source>
         <target state="final">服务器不允许写</target>
+        <note>Line: 804</note>
+      </trans-unit>
+      <trans-unit id="65dd53e33c17621f58bcc99be967814a" approved="yes">
+        <source>Please check rights for %file%</source>
+        <target state="final">请核对%file%的权限</target>
         <note>Line: 804</note>
       </trans-unit>
       <trans-unit id="e0a602c130d12d57cd4ca2a8b9240917" approved="yes">
@@ -875,6 +924,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">您必须选择至少一个元素来删除。</target>
         <note>Line: 48</note>
       </trans-unit>
+      <trans-unit id="7c422404cb037e6781b5a553060670a6" approved="yes">
+        <source>Can't delete #%id%</source>
+        <target state="final">无法删除#%id%</target>
+        <note>Line: 63</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Import/Handler/ProductImportHandler.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -892,6 +946,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <source>Bad SQL query</source>
         <target state="final">错误的SQL查询</target>
         <note>Line: 65</note>
+      </trans-unit>
+      <trans-unit id="0b5512610b0c8548345f37a58bf51360" approved="yes">
+        <source>"%key%" does not exist.</source>
+        <target state="final">“%key%”不存在</target>
+        <note>Line: 389</note>
       </trans-unit>
     </body>
   </file>
@@ -966,11 +1025,20 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">对象不能加载 (标识符丢失或无效)</target>
         <note>Line: 476</note>
       </trans-unit>
+      <trans-unit id="df3c280f0aaf0cb0d5c25ab322a8bcf9" approved="yes">
+        <source>You do not have permission to update this.</source>
+        <target state="final">您无权更新此内容。</target>
+        <note>Line: 329</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/MemcacheServerController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="b07242082d4a24b63951185a1bae15bb" approved="yes">
+        <source>You do not have permission to create this.</source>
+        <target state="final">您无权创建此项。</target>
+        <note>Line: 102</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ProfileController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
