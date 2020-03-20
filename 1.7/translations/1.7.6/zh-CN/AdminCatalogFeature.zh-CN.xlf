@@ -412,6 +412,11 @@
         <target state="final">客户订单</target>
         <note>Line: 30</note>
       </trans-unit>
+      <trans-unit id="2c9697ad1bb585d6d1d0fabcb1028926" approved="yes">
+        <source>Adjustment following an inventory of stock</source>
+        <target state="final">按库存调整</target>
+        <note>Line: 32</note>
+      </trans-unit>
       <trans-unit id="02ef8bd47ce057b792bbd620d6059caa" approved="yes">
         <source>Transfer to another warehouse</source>
         <target state="final">转到另一个仓库</target>
@@ -431,6 +436,11 @@
         <source>Product Return</source>
         <target state="final">商品退货</target>
         <note>Line: 40</note>
+      </trans-unit>
+      <trans-unit id="1638bbd4664fd745118d95786b7e37b9" approved="yes">
+        <source>Manual Entry</source>
+        <target state="final">手工输入</target>
+        <note>Line: 42</note>
       </trans-unit>
     </body>
   </file>
@@ -1007,6 +1017,16 @@
   </file>
   <file original="src/Core/Import/EntityField/Provider/ProductFieldsProvider.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="9aa4e1b6c10cf1bc2a8145dcc8476b0f" approved="yes">
+        <source>Send me an email when the quantity is under this level</source>
+        <target state="final">当数量低于该水平的时候，发一份邮件给我。</target>
+        <note>Line: 94</note>
+      </trans-unit>
+      <trans-unit id="78167a214fe755d9a2f5a7f2bc62cecf" approved="yes">
+        <source>Low stock level</source>
+        <target state="final">低库存水平</target>
+        <note>Line: 91</note>
+      </trans-unit>
       <trans-unit id="e92cfa244b5eb9025d07522080468445" approved="yes">
         <source>Ecotax</source>
         <target state="final">环保税</target>
@@ -1021,6 +1041,11 @@
         <source>Label when in stock</source>
         <target state="final">有库存时标记</target>
         <note>Line: 107</note>
+      </trans-unit>
+      <trans-unit id="7e34f33e1a881aff98acbf2b766ac883" approved="yes">
+        <source>Delivery time of in-stock products:</source>
+        <target state="final">库存产品的出货时间</target>
+        <note>Line: 83</note>
       </trans-unit>
       <trans-unit id="c925e061d42989c43e6d3a7e43f2a878" approved="yes">
         <source>Number of allowed downloads</source>
@@ -1073,10 +1098,25 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Api/StockController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="0826c628f8c5f6895c8a1e27e99457fb" approved="yes">
+        <source>Send me an email when the quantity is below or equals this level</source>
+        <target state="final">当数量低于这个水平的时候，发一份邮件给我</target>
+        <note>Line: 179</note>
+      </trans-unit>
+      <trans-unit id="5321a616e36742f66aa933956e839217" approved="yes">
+        <source>Combination name</source>
+        <target state="final">组合名</target>
+        <note>Line: 172</note>
+      </trans-unit>
       <trans-unit id="a094699b1837834e13875a06773bcf28" approved="yes">
         <source>Physical quantity</source>
         <target state="final">物理数量</target>
         <note>Line: 175</note>
+      </trans-unit>
+      <trans-unit id="82325d4b818ad2b7f46dfe72e186d016" approved="yes">
+        <source>Reserved quantity</source>
+        <target state="final">保存数量</target>
+        <note>Line: 176</note>
       </trans-unit>
     </body>
   </file>
@@ -1498,10 +1538,35 @@
         <target state="final">可用货运商</target>
         <note>Line: 151</note>
       </trans-unit>
+      <trans-unit id="d41e652e3ec13615827534c10beac3ee" approved="yes">
+        <source>Default delivery time</source>
+        <target state="final">默认的出货时间</target>
+        <note>Line: 160</note>
+      </trans-unit>
+      <trans-unit id="16599dbd0bf238cbae4090fe1db04145" approved="yes">
+        <source>Specific delivery time to this product</source>
+        <target state="final">详细说明该产品的出货时间</target>
+        <note>Line: 161</note>
+      </trans-unit>
+      <trans-unit id="205b01b3197cf06688f6ed574faf5664" approved="yes">
+        <source>Delivery Time</source>
+        <target state="final">出货时间</target>
+        <note>Line: 168</note>
+      </trans-unit>
+      <trans-unit id="02746d0355a6c94c9ca770302e9da1ca" approved="yes">
+        <source>Delivered within 5-7 days</source>
+        <target state="final">子5-7 天内出货</target>
+        <note>Line: 178</note>
+      </trans-unit>
       <trans-unit id="f6db0ad0a1b6aff800f260a83bc06584" approved="yes">
         <source>Delivery time of out-of-stock products with allowed orders:</source>
         <target state="final">已经缺货但允许下单产品的配送时间</target>
         <note>Line: 185</note>
+      </trans-unit>
+      <trans-unit id="777ca35e6f4ddd56c7b8c16d8f74ad13" approved="yes">
+        <source>Delivered within 3-4 days</source>
+        <target state="final">在3-4 天内出货</target>
+        <note>Line: 198</note>
       </trans-unit>
     </body>
   </file>
@@ -1822,6 +1887,16 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_combinations_bulk.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="1ea5630be8a472f075b184deb7256e3d" approved="yes">
+        <source>You can increase or decrease low stock levels in bulk. You cannot disable them in bulk: you have to do it on a per-combination basis.</source>
+        <target state="final">你可以大批量提高或减低低库存水平。你无能大量禁用他们：你只能在每个组合的基础上进行。</target>
+        <note>Line: 78</note>
+      </trans-unit>
+      <trans-unit id="b470c441370492fc31529bb9b76eedb3" approved="yes">
+        <source><![CDATA[The email will be sent to all the users who have the right to run the stock page. To modify the permissions, go to Advanced Parameters > Team]]></source>
+        <target state="final"><![CDATA[将发一份邮件给所有有权运行库存页面的用户。 要修改权限，请到高级参数> 团队]]></target>
+        <note>Line: 88</note>
+      </trans-unit>
       <trans-unit id="c24933abc09a6487f63ea8ddce98bfd4" approved="yes">
         <source>Delete combinations</source>
         <target state="final">删除组合</target>
@@ -1906,6 +1981,11 @@
         <source>Adjust your shipping costs by filling in the product dimensions.</source>
         <target state="final">填写商品规格尺寸来调整运费</target>
         <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="0a3e84ae4cda4472634f23aca39b5e31" approved="yes">
+        <source>Leave empty to disable.</source>
+        <target state="final">放空来禁用</target>
+        <note>Line: 118</note>
       </trans-unit>
       <trans-unit id="fb6d68835802519a7f425ca216778b15" approved="yes">
         <source>Does this product incur additional shipping costs?</source>
@@ -2261,6 +2341,21 @@
         <target state="final">上级分类</target>
         <note>Line: 59</note>
       </trans-unit>
+      <trans-unit id="86a230fec38eb3957d48a8ffdfcb4722" approved="yes">
+        <source>%group_name% - All people without a valid customer account.</source>
+        <target state="final">%group_name%- 所有没有有效客户账户的人</target>
+        <note>Line: 182</note>
+      </trans-unit>
+      <trans-unit id="8a11a183559fcb803b95e9a2e3efb47d" approved="yes">
+        <source>%group_name% - Customer who placed an order with the guest checkout.</source>
+        <target state="final">%group_name%- 下了订单又以过客身份买单的可户。</target>
+        <note>Line: 183</note>
+      </trans-unit>
+      <trans-unit id="7ed584948027b1d0117b1c73f80ea50f" approved="yes">
+        <source>%group_name% - All people who have created an account on this site.</source>
+        <target state="final">%group_name%- 所有在次网站上已经创建账号的人</target>
+        <note>Line: 184</note>
+      </trans-unit>
       <trans-unit id="4ae362f049719078c429941bed5dd440" approved="yes">
         <source>Category thumbnail</source>
         <target state="final">类目缩略图</target>
@@ -2365,6 +2460,11 @@
         <target state="final">无</target>
         <note>Line: 65</note>
       </trans-unit>
+      <trans-unit id="5f89a705df3646f402ca886e3c01b034" approved="yes">
+        <source>Use checkboxes to bulk edit quantities</source>
+        <target state="final">使用检查框来批量编辑数量</target>
+        <note>Line: 37</note>
+      </trans-unit>
       <trans-unit id="d9c3a508aadc89c987a08811138836e2" approved="yes">
         <source>Advanced filters</source>
         <target state="final">高级过滤器</target>
@@ -2379,6 +2479,11 @@
         <source>Apply new quantity</source>
         <target state="final">应用新数量</target>
         <note>Line: 40</note>
+      </trans-unit>
+      <trans-unit id="b11806ab5d886adeeeddbc591eb52688" approved="yes">
+        <source>Display products below low stock level first</source>
+        <target state="final">先显示以下低库存水平的产品</target>
+        <note>Line: 45</note>
       </trans-unit>
       <trans-unit id="7f84fa02a3bf4c70c747b29908a03096" approved="yes">
         <source>Filter by movement type</source>
@@ -2404,6 +2509,11 @@
         <source>Search a supplier</source>
         <target state="final">搜索供货商</target>
         <note>Line: 50</note>
+      </trans-unit>
+      <trans-unit id="5dd5cd6670a0fc8e47a47aa94d27b8b2" approved="yes">
+        <source>Filter by status</source>
+        <target state="final">以状态过滤</target>
+        <note>Line: 51</note>
       </trans-unit>
       <trans-unit id="b1c94ca2fbc3e78fc30069c8d0f01680" approved="yes">
         <source>All</source>
@@ -2431,6 +2541,26 @@ Comment: 'All' refers to statuses as if "All statuses". Please adapt as necessar
         <target state="final">搜索商品(以名字，参考词，厂商)</target>
         <note>Line: 67</note>
       </trans-unit>
+      <trans-unit id="0e1f77838d33f77fef1c66958da371e6" approved="yes">
+        <source>This product is below the low stock level you have defined.</source>
+        <target state="final">该产品低于你所定义的低库存水平</target>
+        <note>Line: 68</note>
+      </trans-unit>
+      <trans-unit id="5896dcc83ab833241ff671debffff23b" approved="yes">
+        <source>Low stock level:</source>
+        <target state="final">低库存水平</target>
+        <note>Line: 69</note>
+      </trans-unit>
+      <trans-unit id="82bbaa81a9926aed70bfc811302bddaf" approved="yes">
+        <source>Low stock alert:</source>
+        <target state="final">低库存警告</target>
+        <note>Line: 70</note>
+      </trans-unit>
+      <trans-unit id="60ca6b20f2ef2afc178d7e5d7224b5c8" approved="yes">
+        <source>Bulk edit quantity</source>
+        <target state="final">批量编辑数量</target>
+        <note>Line: 72</note>
+      </trans-unit>
       <trans-unit id="0a31e37f4790bed575e702d61fcfb452" approved="yes">
         <source><![CDATA[Date & Time]]></source>
         <target state="final"><![CDATA[日期和时间]]></target>
@@ -2440,6 +2570,16 @@ Comment: 'All' refers to statuses as if "All statuses". Please adapt as necessar
         <source>Edit quantity</source>
         <target state="final">编辑数量</target>
         <note>Line: 74</note>
+      </trans-unit>
+      <trans-unit id="f0d770125ad832142c2215d033525e78" approved="yes">
+        <source>Go to the import system</source>
+        <target state="final">进到进口系统</target>
+        <note>Line: 76</note>
+      </trans-unit>
+      <trans-unit id="8273cff9da36d1ddc5ee3f19b1283f0c" approved="yes">
+        <source>Export data into CSV</source>
+        <target state="final">导出数据到CVS</target>
+        <note>Line: 77</note>
       </trans-unit>
       <trans-unit id="ce898d62ed9ca7653a01fe0c781e97e9" approved="yes">
         <source>Physical</source>
