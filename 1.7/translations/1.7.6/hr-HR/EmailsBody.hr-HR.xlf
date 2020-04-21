@@ -237,7 +237,11 @@
   </file>
   <file original="mails/themes/classic/core/order_canceled.html.twig" source-language="en" target-language="hr" datatype="plaintext">
     <body>
-      
+      <trans-unit id="d9081e325264b44431f85a40bdca4985" approved="yes">
+        <source>Your order with the reference [1]{order_name}[/1] from [1]{shop_name}[/1] has been canceled.</source>
+        <target state="final">Vaša narudžba s referencom [1]{order_name} od [1]{shop_name} je otkazana.</target>
+        <note>Line: 29</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/classic/core/order_customer_comment.html.twig" source-language="en" target-language="hr" datatype="plaintext">
@@ -400,6 +404,11 @@
         <target state="final">Kreiran je Kupon na vaše ime kao rezultat narudžbe s referencom [1]{order_name}[/1].</target>
         <note>Line: 29</note>
       </trans-unit>
+      <trans-unit id="f210a22fd1ec8eddd8236938d009f3a6" approved="yes">
+        <source>[1]Voucher code: {voucher_num}[/1] in the amount of [1]{voucher_amount}[/1]</source>
+        <target state="final">[1] Kupon: {voucher_num}[/1] u iznosu od [1]{voucher_amount}</target>
+        <note>Line: 30</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/classic/core/voucher_new.html.twig" source-language="en" target-language="hr" datatype="plaintext">
@@ -423,6 +432,11 @@
         <target state="final">Primijetili smo da tijekom svog posljednjeg posjeta na {shop_name}, niste uspjeli završiti narudžbu koju ste započeli.</target>
         <note>Line: 29</note>
       </trans-unit>
+      <trans-unit id="85fa10f1ee5c7941ec596c4247c8102b" approved="yes">
+        <source>As an incentive, we can give you a discount of [1]{amount}%[/1] off your next order! This offer is valid for [1]{days}[/1] days, so do not waste a moment!</source>
+        <target state="final">Kao poticaj, možemo vam dati popust od [1]{amount}%[/1] prilikom vaše iduće narudžbe! Ova ponuda vrijedi [1]{days}[/1] dana, dakle ne gubite vrijeme!</target>
+        <note>Line: 31</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/classic/modules/followup/followup_2.html.twig" source-language="en" target-language="hr" datatype="plaintext">
@@ -432,6 +446,11 @@
         <target state="final">Hvala vam za vašu narudžbu na {shop_name}.</target>
         <note>Line: 8</note>
       </trans-unit>
+      <trans-unit id="0930414a3b73fde90cef246f0f70a1c8" approved="yes">
+        <source>As our way of saying thanks, we want to give you a discount of [1]{amount}%[/1] off your next order! This offer is valid for [1]{days}[/1] days, so do not waste a moment!</source>
+        <target state="final">Kao naš način da vam zahvalimo, želimo vam dati popust od [1]{amount}%[/1] na vašu sljedeću narudžbu. Ova ponuda vrijedi [1]{amount}[/1] dana, dakle ne gubite vrijeme!</target>
+        <note>Line: 23</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/classic/modules/followup/followup_3.html.twig" source-language="en" target-language="hr" datatype="plaintext">
@@ -440,6 +459,11 @@
         <source>You are one of our best customers and as such we want to thank you for your continued patronage.</source>
         <target state="final">Vi ste jedan od naših najboljih kupaca i kao takvi želimo vam zahvaliti na nastavku suradnje.</target>
         <note>Line: 25</note>
+      </trans-unit>
+      <trans-unit id="fb143851ff94b8816192dd378774d266" approved="yes">
+        <source>As appreciation for your loyalty, we want to give you a discount of [1]{amount}%[/1] valid on your next order! This offer is valid for [1]{days}[/1] days, so do not waste a moment!</source>
+        <target state="final">Kao zahvalnost za vašu odanost, želimo vam dati popust od [1]{amount}%[/1] koji vrijedi za vašu sljedeću narudžbu. Ova ponuda vrijedi [1]{amount}[/1] dana, dakle ne gubite vrijeme!</target>
+        <note>Line: 30</note>
       </trans-unit>
     </body>
   </file>
@@ -459,6 +483,11 @@
         <source>You are one of our best customers, however you have not placed an order in {days_threshold} days.</source>
         <target state="final">Vi ste jedan od naših najboljih kupaca, no niste ništa naručili u zadnjih {days_threshold} dana.</target>
         <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="fa0d0ed10aae850868404d1a9e7a66b2" approved="yes">
+        <source>We wish to thank you for the trust you have placed in us and want to give you a discount of [1]{amount}%[/1] valid on your next order! This offer is valid for [1]{days}[/1] days, so do not waste a moment!</source>
+        <target state="final">Želimo vam zahvaliti na povjerenju koje ste nam ukazali i stoga vam želimo pokloniti popust od [1]{amount}%[/1] koji vrijedi za vašu slijedeću nnarudžbu! Ova ponuda vrijedi [1]{amount}[/1] dana, dakle ne gubite vrijeme!</target>
+        <note>Line: 31</note>
       </trans-unit>
     </body>
   </file>
@@ -586,8 +615,16 @@
   </file>
   <file original="mails/themes/classic/modules/referralprogram/referralprogram-congratulations.html.twig" source-language="en" target-language="hr" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="43614475dd83d9e6b291a2805ee620fc" approved="yes">
+        <source><![CDATA[Your referred friend [1]{sponsored_firstname} {sponsored_lastname}[/1] has placed his or her first order on <a href="{shop_url}">{shop_name}</a>!]]></source>
+        <target state="final"><![CDATA[Vaš prijatelj [1]{sponsored_firstname}{sponsored_lastname}[/1] napravio je svoju prvu narudžbu na <a href="{shop_url}">{shop_name}</a>!]]></target>
+        <note>Line: 22</note>
+      </trans-unit>
+      <trans-unit id="1b9efd76beb745e43205f60167621060" approved="yes">
+        <source>We are pleased to offer you a voucher worth [1]{discount_display} (voucher # {discount_name})[/1] that you can use on your next order.</source>
+        <target state="final">Sa zadovoljstvom vam nudimo kupon u vrijednosti [1]{discount_display} (kupon # {discount_name})[/1] koji možete iskoristiti u vašoj sljedećoj narudžbi.</target>
+        <note>Line: 23</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/classic/modules/referralprogram/referralprogram-invitation.html.twig" source-language="en" target-language="hr" datatype="plaintext">
@@ -597,10 +634,25 @@
         <target state="final">pridružite nam se!</target>
         <note>Line: 7</note>
       </trans-unit>
+      <trans-unit id="c4ae632d712131d48fcb9c6197933fe6" approved="yes">
+        <source><![CDATA[Your friend [1]{firstname} {lastname}[/1] wants to refer you on <a href="{shop_url}">{shop_name}</a>!]]></source>
+        <target state="final"><![CDATA[Vaš prijatelj [1]{firstname}{lastname}[/1] želi vas pozvati na <a href="{shop_url}">{shop_name}</a>!]]></target>
+        <note>Line: 22</note>
+      </trans-unit>
+      <trans-unit id="dbec0bbd293d01bb529aceafda9d0af0" approved="yes">
+        <source>Get referred and earn a discount voucher of [1]{discount}![/1]</source>
+        <target state="final">Dovedite prijatelja i zaradite poklon kupon u vrijednosti od [1]{discount}[/1]</target>
+        <note>Line: 24</note>
+      </trans-unit>
       <trans-unit id="34ef083263a212936be7907709faab44" approved="yes">
         <source>It's very easy to sign up. Just click here!</source>
         <target state="final">Vrlo se lako registrirati. Samo kliknite ovdje!</target>
         <note>Line: 25</note>
+      </trans-unit>
+      <trans-unit id="ba14b0fd8b7764d2fdf225b11b6e3fc3" approved="yes">
+        <source>When signing up, don't forget to provide the e-mail address of your referring friend:</source>
+        <target state="final">Prilikom prijave, nemojte zaboravite unijeti e-mail adresu prijatelja:</target>
+        <note>Line: 40</note>
       </trans-unit>
     </body>
   </file>
@@ -728,6 +780,11 @@
         <target state="final">Odabrali ste plaćanje putem uplate na račun.</target>
         <note>Line: 390</note>
       </trans-unit>
+      <trans-unit id="920fcf4696dd1caa2d08eae6ebc8d29a" approved="yes">
+        <source>Here is the information you need for your transfer:</source>
+        <target state="final">Evo informacija koje su vam potrebne za vaš prijenos:</target>
+        <note>Line: 391</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/modern/core/cheque.html.twig" source-language="en" target-language="hr" datatype="plaintext">
@@ -752,6 +809,11 @@
         <target state="final">Hvala vam za kupovinu na {shop_name}!</target>
         <note>Line: 53</note>
       </trans-unit>
+      <trans-unit id="97b07b4e5caa086464d9f38956718d2b" approved="yes">
+        <source>Your order with the reference [1]{order_name}[/1] has been placed successfully. You can expect [1]delivery as soon as your payment is received[/1].</source>
+        <target state="final">Vaša narudžba s referencom [1]{order_name}[/1] je uspješno postavljena i bit će [1] isporučena nakon što primimo Vašu uplatu[/1].</target>
+        <note>Line: 256</note>
+      </trans-unit>
       <trans-unit id="060bf2d587991d8f090a1309b285291c" approved="yes">
         <source>Check</source>
         <target state="final">ček</target>
@@ -771,6 +833,11 @@
         <source>You have decided to pay by bank check.</source>
         <target state="final">Odabrali ste plaćanje putem čeka.</target>
         <note>Line: 390</note>
+      </trans-unit>
+      <trans-unit id="10766e013f1b6a5cbc249604bb7fc286" approved="yes">
+        <source>Here is the information you need for your check:</source>
+        <target state="final">Evo informacija koje su vam potrebne za vaš prijenos:</target>
+        <note>Line: 391</note>
       </trans-unit>
     </body>
   </file>
@@ -839,6 +906,16 @@
         <target state="final">Kreditna nota</target>
         <note>Line: 180</note>
       </trans-unit>
+      <trans-unit id="c44669ebfaeb42d8895e332f6199688e" approved="yes">
+        <source>A credit slip has been generated in your name for order with the reference [1]{order_name}[/1].</source>
+        <target state="final">Kreiran je Kupon na vaše ime kao rezultat narudžbe s referencom [1]{order_name}[/1].</target>
+        <note>Line: 247</note>
+      </trans-unit>
+      <trans-unit id="933bd01e99683693ad9ddf8405040681" approved="yes">
+        <source><![CDATA[Review this credit slip and download your invoice on our shop, go to the <a href="{history_url}" target="_blank">Credit slips</a> section of your customer account.]]></source>
+        <target state="final"><![CDATA[Pregledajte ovaj kreditni listić i preuzmite fakturu u našoj trgovini, idite na <a href="{history_url}" target="_blank">Kreditni listići</a>odjeljak vašeg korisničkog računa.]]></target>
+        <note>Line: 310</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/modern/core/download_product.html.twig" source-language="en" target-language="hr" datatype="plaintext">
@@ -857,6 +934,11 @@
         <source>Product(s) to download</source>
         <target state="final">Proizvod(i) za preuzimanje</target>
         <note>Line: 189</note>
+      </trans-unit>
+      <trans-unit id="8bbeb216836330d437043e36617d5325" approved="yes">
+        <source>You have [1]{nbProducts}[/1] product(s) now available for download using the following link(s):</source>
+        <target state="final">Vaš [1]{nbProducts}[/1] proizvod je sada dostupan za preuzimanje putem sljedećeg linka:</target>
+        <note>Line: 256</note>
       </trans-unit>
     </body>
   </file>
@@ -896,10 +978,25 @@
         <target state="final">Povijest rasprave:</target>
         <note>Line: 254</note>
       </trans-unit>
+      <trans-unit id="5a02acdd25040de97181665e4e84caa4" approved="yes">
+        <source>[1]{employee}[/1] wanted to forward this discussion to you.</source>
+        <target state="final">[1]{employee}[/1] želi vam proslijediti ovu raspravu.</target>
+        <note>Line: 247</note>
+      </trans-unit>
       <trans-unit id="459ea98b5f18960e8c26da4754208f75" approved="yes">
         <source>Forward message</source>
         <target state="final">Proslijedi poruku</target>
         <note>Line: 3</note>
+      </trans-unit>
+      <trans-unit id="c413b39ac8eea02ebfbee487d1d9ea16" approved="yes">
+        <source>Customer Service - Discussion Forwarded</source>
+        <target state="final">Služba za korisnike - Diskusija je proslijeđena</target>
+        <note>Line: 180</note>
+      </trans-unit>
+      <trans-unit id="638dae1199098a2faffc18b14086ecc5" approved="yes">
+        <source>[1]{employee}[/1] added [1]{comment}[/1]</source>
+        <target state="final">[1]{employee}[/1] je dodao [1]{comment}[/1]</target>
+        <note>Line: 261</note>
       </trans-unit>
     </body>
   </file>
@@ -919,6 +1016,16 @@
         <source>Guest to customer</source>
         <target state="final">Gost u registriranog kupca</target>
         <note>Line: 3</note>
+      </trans-unit>
+      <trans-unit id="387c721c8acb98382f1d18feccf3dd55" approved="yes">
+        <source>Your guest account has been turned into a customer account</source>
+        <target state="final">Vaš gost račun biti će pretvoren u račun kupca</target>
+        <note>Line: 180</note>
+      </trans-unit>
+      <trans-unit id="3008c9316cf28c5f439bbcc2e43b2e3e" approved="yes">
+        <source>Congratulations, your guest account for [1]{shop_name}[/1] has been turned into a customer account!</source>
+        <target state="final">Čestitamo. Vaš gost korisnički račun za [1]{shop_name}[/1] bit će pretvoren u korisnički račun kupca!</target>
+        <note>Line: 247</note>
       </trans-unit>
     </body>
   </file>
@@ -953,14 +1060,29 @@
         <target state="final">Možete pratiti svoj ​​paket na sljedećem linku:</target>
         <note>Line: 259</note>
       </trans-unit>
+      <trans-unit id="b395812bfd92c9b2c5cce4335dbdf404" approved="yes">
+        <source>Your order with the reference [1]{order_name}[/1] is on its way.</source>
+        <target state="final">Vaš narudžba s referencom [1]{order_name}[/1] je na putu.</target>
+        <note>Line: 252</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/modern/core/log_alert.html.twig" source-language="en" target-language="hr" datatype="plaintext">
     <body>
+      <trans-unit id="ad69fd3d0352d7e45ccca96a1048a747" approved="yes">
+        <source><![CDATA[You can check for it in the [1]Advanced Parameters > Logs[/1] section of your back office.]]></source>
+        <target state="final"><![CDATA[Možete to provjeriti u odjeljku [1] Napredni parametri> Zapisnici[/1] vašeg pomoćnog ureda.]]></target>
+        <note>Line: 254</note>
+      </trans-unit>
       <trans-unit id="0f170325fe7cbbbd2be4d705b277650e" approved="yes">
         <source>Log Alert</source>
         <target state="final">Upozorenja iz loga</target>
         <note>Line: 3</note>
+      </trans-unit>
+      <trans-unit id="223e2a86894ef6ae6d9a96b2d4f53acf" approved="yes">
+        <source>New alert message saved</source>
+        <target state="final">Spremljena je nova poruka upozorenja</target>
+        <note>Line: 180</note>
       </trans-unit>
     </body>
   </file>
