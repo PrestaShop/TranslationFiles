@@ -14,12 +14,12 @@
       <trans-unit id="9dea4016dbcc290b773ab2fae678aaa8" approved="yes">
         <source>Items</source>
         <target state="final">商品</target>
-        <note>Line: 1079</note>
+        <note>Line: 1034</note>
       </trans-unit>
       <trans-unit id="7d74f3b92b19da5e606d737d339a9679" approved="yes">
         <source>Item</source>
         <target state="final">商品</target>
-        <note>Line: 1079</note>
+        <note>Line: 1034</note>
       </trans-unit>
     </body>
   </file>
@@ -47,7 +47,7 @@
       <trans-unit id="01f7ac959c1e6ebbb2e0ee706a7a5255" approved="yes">
         <source>Best sellers</source>
         <target state="final">销售冠军</target>
-        <note>Line: 79</note>
+        <note>Line: 87</note>
       </trans-unit>
     </body>
   </file>
@@ -56,7 +56,7 @@
       <trans-unit id="aa89fd8bf65df5c1a1c11474bf2c16b5" approved="yes">
         <source>Category: %category_name%</source>
         <target state="final">分类：%category_name%</target>
-        <note>Line: 268</note>
+        <note>Line: 270</note>
       </trans-unit>
     </body>
   </file>
@@ -85,15 +85,40 @@
         <target state="final">%number%产品</target>
         <note>Line: 191</note>
       </trans-unit>
+      <trans-unit id="8e7fb1213c4692b195ed6b7cf580d7f3" approved="yes">
+        <source>%number% product</source>
+        <target state="final">%number%产品</target>
+        <note>Line: 192</note>
+      </trans-unit>
       <trans-unit id="d9e0619813f9247f8a506b9b1e61599f" approved="yes">
         <source>List of all suppliers</source>
         <target state="final">所有供应商列表</target>
         <note>Line: 94</note>
       </trans-unit>
+      <trans-unit id="bcdf044a723993079e77ec66e4d6cbf2" approved="yes">
+        <source>List of products by supplier %supplier_name%</source>
+        <target state="final">按供应商分类的商品列表：%supplier_name%</target>
+        <note>Line: 81</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/ps_facetedsearch/views/templates/front/catalog/active-filters.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
+    <body>
+      
     </body>
   </file>
   <file original="src/Adapter/BestSales/BestSalesProductSearchProvider.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="05d61847840bcddb5d37374de3be0ccc" approved="yes">
+        <source>Name, A to Z</source>
+        <target state="final">名字, A 至 Z</target>
+        <note>Line: 99</note>
+      </trans-unit>
+      <trans-unit id="e21f2ef58ff858167655c18a874f9706" approved="yes">
+        <source>Name, Z to A</source>
+        <target state="final">名字, z 至 a</target>
+        <note>Line: 102</note>
+      </trans-unit>
       <trans-unit id="e2174d7435696694b8f4d984d99eef03" approved="yes">
         <source>Price, low to high</source>
         <target state="final">价格: 从低到高</target>
@@ -113,8 +138,16 @@
   </file>
   <file original="src/Adapter/NewProducts/NewProductsProductSearchProvider.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="900a70008b0ed52ee5f6907f7b61f0e8" approved="yes">
+        <source>Date added, newest to oldest</source>
+        <target state="final">添加日期，从最近到最早</target>
+        <note>Line: 104</note>
+      </trans-unit>
+      <trans-unit id="c2718c816e7ebf8495e3c9ce20061317" approved="yes">
+        <source>Date added, oldest to newest</source>
+        <target state="final">添加日期，从最早到最晚</target>
+        <note>Line: 107</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Presenter/Product/ProductLazyArray.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -134,6 +167,11 @@
         <target state="final">促销!</target>
         <note>Line: 444</note>
       </trans-unit>
+      <trans-unit id="63b539babcf7978229d66ba4052ca71f" approved="yes">
+        <source>Reduced price</source>
+        <target state="final">减价！</target>
+        <note>Line: 462</note>
+      </trans-unit>
       <trans-unit id="4492081ca02b059f9e8af4ddaf0f7292" approved="yes">
         <source>Pack</source>
         <target state="final">组件</target>
@@ -142,22 +180,27 @@
       <trans-unit id="cb3c718c905f00adbb6735f55bfb38ef" approved="yes">
         <source>Product available with different options</source>
         <target state="final">该款商品的多样选择</target>
-        <note>Line: 798</note>
+        <note>Line: 807</note>
       </trans-unit>
       <trans-unit id="348325afced7f3da215310efbe21f1c1" approved="yes">
         <source>Last items in stock</source>
         <target state="final">最后一件库存产品</target>
-        <note>Line: 823</note>
+        <note>Line: 832</note>
       </trans-unit>
       <trans-unit id="a3b6a4d0897451813950029a3066f219" approved="yes">
         <source>ean13</source>
         <target state="final">EAN13</target>
-        <note>Line: 839</note>
+        <note>Line: 848</note>
+      </trans-unit>
+      <trans-unit id="6496117322fd76fa12ac1b87d8a4db6c" approved="yes">
+        <source>isbn</source>
+        <target state="final">isbn</target>
+        <note>Line: 850</note>
       </trans-unit>
       <trans-unit id="2f9e567efb6a38663162f65eaac2d73b" approved="yes">
         <source>upc</source>
         <target state="final">UPC</target>
-        <note>Line: 843</note>
+        <note>Line: 852</note>
       </trans-unit>
       <trans-unit id="019d1ca7d50cc54b995f60d456435e87" approved="yes">
         <source>Used</source>
@@ -187,7 +230,12 @@
   </file>
   <file original="themes/StarterTheme/templates/catalog/_partials/active_filters.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="53cea05976132fada38935bdc05ad156" approved="yes">
+        <source>%facet_label%: %facet_value%</source>
+        <target state="final">%facet_label%：%facet_value%</target>
+        <note>Context:
+File: themes/StarterTheme/templates/catalog/_partials/active_filters.tpl:30</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/StarterTheme/templates/catalog/product.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -226,13 +274,17 @@ File: themes/StarterTheme/templates/customer/_partials/order-detail-return.tpl:3
       <trans-unit id="eae99cd6a931f3553123420b16383812" approved="yes">
         <source>All best sellers</source>
         <target state="final">最畅销款汇总</target>
-        <note>Line: 35</note>
+        <note>Line: 31</note>
       </trans-unit>
     </body>
   </file>
   <file original="themes/classic/modules/ps_brandlist/views/templates/_partials/brand_form.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="e18a22d145b38e4fff582663b5b4ec1e" approved="yes">
+        <source>All brands</source>
+        <target state="final">所有品牌</target>
+        <note>Line: 33</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/modules/ps_brandlist/views/templates/hook/ps_brandlist.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -241,6 +293,11 @@ File: themes/StarterTheme/templates/customer/_partials/order-detail-return.tpl:3
         <source>Brands</source>
         <target state="final">品牌</target>
         <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="8e41eae149ff3fa38cc9c4fde945f2c3" approved="yes">
+        <source>No brand</source>
+        <target state="final">没有品牌</target>
+        <note>Line: 37</note>
       </trans-unit>
     </body>
   </file>
@@ -278,10 +335,15 @@ File: themes/StarterTheme/templates/customer/_partials/order-detail-return.tpl:3
   </file>
   <file original="themes/classic/modules/ps_featuredproducts/views/templates/hook/ps_featuredproducts.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="f473acb18ebcd825235ca5624203f31a" approved="yes">
+        <source>Popular Products</source>
+        <target state="final">畅销商品</target>
+        <note>Line: 27</note>
+      </trans-unit>
       <trans-unit id="40dec546414c1ebdfde8d9858f0938c3" approved="yes">
         <source>All products</source>
         <target state="final">所有产品</target>
-        <note>Line: 35</note>
+        <note>Line: 31</note>
       </trans-unit>
     </body>
   </file>
@@ -295,16 +357,32 @@ File: themes/StarterTheme/templates/customer/_partials/order-detail-return.tpl:3
       <trans-unit id="60efcc704ef1456678f77eb9ee20847b" approved="yes">
         <source>All new products</source>
         <target state="final">本周新品汇总</target>
-        <note>Line: 36</note>
+        <note>Line: 32</note>
       </trans-unit>
     </body>
   </file>
   <file original="themes/classic/modules/ps_productinfo/views/templates/hook/ps_productinfo.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
-      
-      
-      
+      <trans-unit id="035749e4c50392a661c0f1b220ae0516" approved="yes">
+        <source>1 person is currently watching this product.</source>
+        <target state="final">1人正在看此商品。</target>
+        <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="c24cf2abae9286b8f69a8ccdf7ed8d5e" approved="yes">
+        <source>%nb_people% people are currently watching this product.</source>
+        <target state="final">%nb_people%人正在看此商品。</target>
+        <note>Line: 31</note>
+      </trans-unit>
+      <trans-unit id="247f15e3dc0e7906ab9573685423899f" approved="yes">
+        <source>Last time this product was bought: %date_last_order%</source>
+        <target state="final">上次改产品被买的时间：%date_last_order%</target>
+        <note>Line: 37</note>
+      </trans-unit>
+      <trans-unit id="160b4798999cb85c815beeb40ac268cc" approved="yes">
+        <source>Last time this product was added to a cart: %date_last_cart%</source>
+        <target state="final">上次改产品被添加到购物车的时间：%date_last_cart%</target>
+        <note>Line: 41</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/modules/ps_rssfeed/views/templates/hook/ps_rssfeed.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -340,7 +418,7 @@ File: themes/StarterTheme/templates/customer/_partials/order-detail-return.tpl:3
       <trans-unit id="f95ceb82c51c99dc9b9e5678b291c44b" approved="yes">
         <source>All sale products</source>
         <target state="final">所有促销产品</target>
-        <note>Line: 36</note>
+        <note>Line: 32</note>
       </trans-unit>
     </body>
   </file>
@@ -349,7 +427,7 @@ File: themes/StarterTheme/templates/customer/_partials/order-detail-return.tpl:3
       <trans-unit id="ecf253735ac0cba84a9d2eeff1f1b87c" approved="yes">
         <source>All suppliers</source>
         <target state="final">所有的供应商</target>
-        <note>Line: 28</note>
+        <note>Line: 33</note>
       </trans-unit>
     </body>
   </file>
@@ -378,14 +456,18 @@ File: themes/StarterTheme/templates/customer/_partials/order-detail-return.tpl:3
   </file>
   <file original="themes/classic/templates/_partials/pagination.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="fb526aaa0add86e4e124263db50438c8" approved="yes">
+        <source>Showing %from%-%to% of %total% item(s)</source>
+        <target state="final">显示%from%的%total%商品</target>
+        <note>Line: 28</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/catalog/_partials/active_filters.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      <trans-unit id="cfff8593a3adedd98a18631f85152d23" approved="yes">
-        <source>%1$s: </source>
-        <target state="final">%1$s: </target>
+      <trans-unit id="734346d44245de59214137842ab17744" approved="yes">
+        <source>%1$s:</source>
+        <target state="final">%1$s:</target>
         <note>Line: 35</note>
       </trans-unit>
     </body>
@@ -395,7 +477,12 @@ File: themes/StarterTheme/templates/customer/_partials/order-detail-return.tpl:3
       <trans-unit id="3601146c4e948c32b6424d2c0a7f0118" approved="yes">
         <source>Price</source>
         <target state="final">价格</target>
-        <note>Line: 70</note>
+        <note>Line: 73</note>
+      </trans-unit>
+      <trans-unit id="4d8adffdc001189e0202c01ac529a3a9" approved="yes">
+        <source>Regular price</source>
+        <target state="final">正常价格：</target>
+        <note>Line: 63</note>
       </trans-unit>
     </body>
   </file>
@@ -454,6 +541,11 @@ File: themes/StarterTheme/templates/customer/_partials/order-detail-return.tpl:3
         <target state="final">您节省了</target>
         <note>Line: 34</note>
       </trans-unit>
+      <trans-unit id="64c22a1426c5b8fce46c6314d73dc99e" approved="yes">
+        <source>Up to %discount%</source>
+        <target state="final">多达%discount%</target>
+        <note>Line: 42</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/catalog/_partials/product-prices.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -472,6 +564,16 @@ File: themes/StarterTheme/templates/customer/_partials/order-detail-return.tpl:3
         <source>%price% tax excl.</source>
         <target state="final">%price%不含税</target>
         <note>Line: 70</note>
+      </trans-unit>
+      <trans-unit id="a72a454b308052ed277f7b69ab307caa" approved="yes">
+        <source>Instead of %price%</source>
+        <target state="final">而不是%price%</target>
+        <note>Line: 76</note>
+      </trans-unit>
+      <trans-unit id="98508b5a9b590896cc627beb46d86b96" approved="yes">
+        <source>Including %amount% for ecotax</source>
+        <target state="final">包含%amount%</target>
+        <note>Line: 82</note>
       </trans-unit>
       <trans-unit id="a134618182b99ff9151d7e0b6b92410a" approved="yes">
         <source>(not impacted by the discount)</source>
@@ -492,6 +594,11 @@ File: themes/StarterTheme/templates/customer/_partials/order-detail-return.tpl:3
   </file>
   <file original="themes/classic/templates/catalog/_partials/products-top.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="498007f495e00b14f415d5f6ae6a1362" approved="yes">
+        <source>There are %product_count% products.</source>
+        <target state="final">这里有%product_count%件商品。</target>
+        <note>Line: 28</note>
+      </trans-unit>
       <trans-unit id="79ac892bd1769d83ef1c16dae9f4eddd" approved="yes">
         <source>There is 1 product.</source>
         <target state="final">这里有1个商品。</target>
@@ -501,12 +608,20 @@ File: themes/StarterTheme/templates/customer/_partials/order-detail-return.tpl:3
   </file>
   <file original="themes/classic/templates/catalog/listing/manufacturer.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="d0679d37c204278465192d34b1917c01" approved="yes">
+        <source>List of products by brand %brand_name%</source>
+        <target state="final">按品牌分类的产品列表%brand_name%</target>
+        <note>Line: 28</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/catalog/listing/supplier.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="4c5c40c99a89125e22218cb62335c60a" approved="yes">
+        <source>List of products by supplier %s</source>
+        <target state="final">按供应商分类的商品列表：%s</target>
+        <note>Line: 28</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/catalog/product.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -514,22 +629,27 @@ File: themes/StarterTheme/templates/customer/_partials/order-detail-return.tpl:3
       <trans-unit id="56e11b516943cb38a57c9a53219a8370" approved="yes">
         <source>This pack contains</source>
         <target state="final">这包裹含有</target>
-        <note>Line: 115</note>
+        <note>Line: 109</note>
       </trans-unit>
       <trans-unit id="b5a7adde1af5c87d7fd797b6245c2a39" approved="yes">
         <source>Description</source>
         <target state="final">描述</target>
-        <note>Line: 159</note>
+        <note>Line: 153</note>
+      </trans-unit>
+      <trans-unit id="b8900d8adf598b6653bb8c071bc49a1d" approved="yes">
+        <source>Product Details</source>
+        <target state="final">商品详细信息</target>
+        <note>Line: 163</note>
       </trans-unit>
       <trans-unit id="7e2708aeb65763c54052f57ed1a1ec1d" approved="yes">
         <source>Attachments</source>
         <target state="final">附件</target>
-        <note>Line: 178</note>
+        <note>Line: 172</note>
       </trans-unit>
       <trans-unit id="3767d4f3efe17bd95a1bc7cf4194bb93" approved="yes">
         <source>You might also like</source>
         <target state="final">您可能还会喜欢</target>
-        <note>Line: 238</note>
+        <note>Line: 232</note>
       </trans-unit>
     </body>
   </file>

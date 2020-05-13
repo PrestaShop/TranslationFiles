@@ -30,7 +30,11 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/modules_positions/list_modules.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="307cd46da080d0ad19ec342feb2aa6d6" approved="yes">
+        <source>If you want to order/move the following data, please select a shop from the shop list.</source>
+        <target state="final">如果您要订购/移除以下数据，请从店铺列表中选择店铺。</target>
+        <note>Line: 38</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/controller/FrontController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -38,7 +42,7 @@
       <trans-unit id="c402321a8e5818b776007e8a2d00474a" approved="yes">
         <source>Current theme is unavailable. Please check your theme's directory name ("%s") and permissions.</source>
         <target state="final">现在的主题不可用。请核对你的主题目录名称 ("%s") 和权限。</target>
-        <note>Line: 317</note>
+        <note>Line: 315</note>
       </trans-unit>
     </body>
   </file>
@@ -53,6 +57,21 @@
   </file>
   <file original="controllers/admin/AdminImagesController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="ffddcc65274efa9b4c624b34289c922c" approved="yes">
+        <source>Duplicate images were found when moving the product images. This is likely caused by unused demonstration images. Please make sure that the folder %folder% only contains demonstration images, and then delete it.</source>
+        <target state="final">移动产品图片时发现重复的图片，看起来是由于未使用的展示图片引起的。请确认文件夹%folder%只包含展示图片，然后删除它。</target>
+        <note>Line: 338</note>
+      </trans-unit>
+      <trans-unit id="5b8cb2aa659c7d6a98b740d2d788c69d" approved="yes">
+        <source>Incorrect value for the selected JPEG image compression.</source>
+        <target state="final">JPEG图像压缩数值不正确</target>
+        <note>Line: 361</note>
+      </trans-unit>
+      <trans-unit id="8357fadc46ff52546c4c69965de0d653" approved="yes">
+        <source>Incorrect value for the selected PNG image compression.</source>
+        <target state="final">不正确的PNG图像像素值</target>
+        <note>Line: 364</note>
+      </trans-unit>
       <trans-unit id="b88862891dbf9c20a73bc59258407d0b" approved="yes">
         <source>Source file does not exist or is empty (%filepath%)</source>
         <target state="final">来源文件不存在或者是空的(%filepath%）</target>
@@ -71,42 +90,52 @@
       <trans-unit id="103d86044b78fa59e02ff8480a3a2f46" approved="yes">
         <source>Original image is corrupt (%filename%) for product ID %id% or bad permission on folder.</source>
         <target state="final">商品编号%id%的原图像已损坏（%filename%）或是由于文件夹权限错误。</target>
-        <note>Line: 541</note>
+        <note>Line: 542</note>
       </trans-unit>
       <trans-unit id="2934958a3f658892ee502aaf8258a6f7" approved="yes">
         <source>Original image is missing or empty (%filename%) for product ID %id%</source>
         <target state="final">商品编号%id%原图像已不见或空了（%filename%）</target>
-        <note>Line: 554</note>
+        <note>Line: 555</note>
       </trans-unit>
       <trans-unit id="8b772dad7cc4ed15eaf0c433f861e55c" approved="yes">
         <source>Cannot write images for this type: %1$s. Please check the %2$s folder's writing permissions.</source>
         <target state="final">不写入写图像类型：%1$s。请检查 %2$s 文件夹的写入权限。</target>
-        <note>Line: 676</note>
+        <note>Line: 677</note>
       </trans-unit>
       <trans-unit id="d4f225ec09e4b0eba6558753f4bd8edd" approved="yes">
         <source>Only part of the images have been regenerated. The server timed out before finishing.</source>
         <target state="final">只有部分图像被更新，服务器已超时。</target>
-        <note>Line: 679</note>
+        <note>Line: 680</note>
+      </trans-unit>
+      <trans-unit id="f2febdafe25d3517afc3c6dd3d815562" approved="yes">
+        <source>Server timed out. The watermark may not have been applied to all images.</source>
+        <target state="final">服务器超时。 水印不能概括所有的图像</target>
+        <note>Line: 684</note>
       </trans-unit>
       <trans-unit id="606495559093a136ed6f2c9daee2645f" approved="yes">
         <source>Cannot write "No picture" image to %s images folder. Please check the folder's writing permissions.</source>
         <target state="final">不能在（%s）的图像文件夹写入“没图像” 图像。请检查文件夹的写入权限。</target>
-        <note>Line: 688</note>
+        <note>Line: 689</note>
       </trans-unit>
       <trans-unit id="4004c7590c68a8cbbe499736c56bc33c" approved="yes">
         <source>Error: Your server configuration is not compatible with the new image system. No images were moved.</source>
         <target state="final">错误：您的服务器设置与新的图像系统不兼容。没有图像被移动</target>
-        <note>Line: 716</note>
+        <note>Line: 717</note>
       </trans-unit>
       <trans-unit id="4c9f49243d6dc02028801d9767abe3c1" approved="yes">
         <source>Not all images have been moved. The server timed out before finishing. Click on "Move images" again to resume the moving process.</source>
         <target state="final">并非所有的图像被移动了，服务器超时。请再次点击“移动图像”以重新移动图像</target>
-        <note>Line: 722</note>
+        <note>Line: 723</note>
+      </trans-unit>
+      <trans-unit id="95871efade00fbd0243355ce7937c40a" approved="yes">
+        <source>Error: Some -- or all -- images cannot be moved.</source>
+        <target state="final">错误：一些 或者全部图像不能移走</target>
+        <note>Line: 725</note>
       </trans-unit>
       <trans-unit id="cb2f901ceed5c3365d056794a1b5047f" approved="yes">
         <source>After modification, do not forget to regenerate thumbnails</source>
         <target state="final">修改后，不要忘记重新生成的缩略图</target>
-        <note>Line: 743</note>
+        <note>Line: 744</note>
       </trans-unit>
     </body>
   </file>
@@ -149,7 +178,11 @@
   </file>
   <file original="src/Core/Shop/LogoUploader.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="f003149576f4755d74550952febe14bb" approved="yes">
+        <source>An error occurred while uploading the favicon: cannot copy file "%s" to folder "%s".</source>
+        <target state="final">上传网站图标时出错。无法复制文件"%s"到文件夹 "%s".</target>
+        <note>Line: 173</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Command/ExportThemeCommand.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -166,12 +199,17 @@
       <trans-unit id="29dae1d163226f90bb206b333bbffe1d" approved="yes">
         <source>The page Category cannot be moved here.</source>
         <target state="final">该页面分类无法移动至此处。</target>
-        <note>Line: 1135</note>
+        <note>Line: 1123</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/Design/ThemeController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="4a9fdf95b29176bd9260016655a80852" approved="yes">
+        <source>Your RTL stylesheets has been generated successfully</source>
+        <target state="final">你的RTL样式表已经成功生成。</target>
+        <note>Line: 358</note>
+      </trans-unit>
       <trans-unit id="9ccfef29efe298e9a48295a69436e11f" approved="yes">
         <source><![CDATA[Your theme has been correctly reset to its default settings. You may want to regenerate your images. See the Improve > Design > Images Settings screen for the 'Regenerate thumbnails' button.]]></source>
         <target state="final"><![CDATA[你的主题已经被正确重新设置到默认模式。请可能要重新生成你的图片。 请见改善> 设计 > 图片设定屏幕来找到‘再生成图标’的按钮。]]></target>
@@ -199,7 +237,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Design/Theme/Blocks/logo_configuration.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="3cb5c48f468125102a98fe83a277029d" approved="yes">
+        <source>Warning: if no email logo is available, the main logo will be used instead.</source>
+        <target state="final">警告：如果没有邮件商标，则将使用主商标。</target>
+        <note>Line: 100</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

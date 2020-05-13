@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file original="mails/themes/classic/components/footer.html.twig" source-language="en" target-language="bs" datatype="plaintext">
+  <file original="classes/PaymentModule.php" source-language="en" target-language="bs" datatype="plaintext">
     <body>
       
     </body>
   </file>
+  <file original="mails/themes/classic/components/footer.html.twig" source-language="en" target-language="bs" datatype="plaintext">
+    <body>
+      <trans-unit id="96dad7f0d711c3408786ba1ee05402b3" approved="yes">
+        <source><![CDATA[<a href="{shop_url}">{shop_name}</a> powered by <a href="{prestashop_url}">PrestaShop™</a>]]></source>
+        <target state="final"><![CDATA[<a href="{shop_url}">{shop_name}</a> powered by <a href="{prestashop_url}">PrestaShop™</a>]]></target>
+        <note>Line: 6</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="mails/themes/classic/core/account.html.twig" source-language="en" target-language="bs" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="2498c963bfc06e8fca88007ec322b769" approved="yes">
+        <source>Your login email address on {shop_name}</source>
+        <target state="final">Vaš e-mail adresa za prijavu u {shop_name}</target>
+        <note>Line: 25</note>
+      </trans-unit>
+      <trans-unit id="7cfb9d536fcd7aa70c333e8e73b287e2" approved="yes">
+        <source>Here is your login email address:</source>
+        <target state="final">Ovdje je vaša email adresa za prijavu:</target>
+        <note>Line: 30</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/classic/core/backoffice_order.html.twig" source-language="en" target-language="bs" datatype="plaintext">
@@ -56,6 +73,11 @@
         <target state="final">Ovo su detalji za bankovno plaćanje:</target>
         <note>Line: 53</note>
       </trans-unit>
+      <trans-unit id="ed750ed3b775eb7ed37644ceb05c713b" approved="yes">
+        <source>Your order with the reference [1]{order_name}[/1] has been placed successfully and will be [1]shipped as soon as we receive your payment[/1].</source>
+        <target state="final">Vaša narudžba s referencom [1]{order_name}[/1] je uspješno postavljena i bit će [1]isporučena nakon što primimo Vašu uplatu[/1].</target>
+        <note>Line: 30</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/classic/core/contact.html.twig" source-language="en" target-language="bs" datatype="plaintext">
@@ -88,6 +110,11 @@
         <target state="final"><![CDATA[Možete pregledati vašu narudžbu i preuzeti vaš račun <a href="{history_url}">"Istorija narudžbi"</a> odjeljak vašeg korisničkog naloga klikom na <a href="{my_account_url}">"Moj nalog"</a> na našoj prodavnici.]]></target>
         <note>Line: 45</note>
       </trans-unit>
+      <trans-unit id="4c15700279d273ce67d98810a4b87943" approved="yes">
+        <source>We have generated a credit slip in your name for order with the reference [1]{order_name}[/1].</source>
+        <target state="final">Napravljena je kreditna lista na Vaše ime za narudžbu s referencom [1]{order_name}[/1].</target>
+        <note>Line: 29</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/classic/core/download_product.html.twig" source-language="en" target-language="bs" datatype="plaintext">
@@ -103,20 +130,33 @@
         <target state="final">Vaši {shop_name} detalji za prijavu</target>
         <note>Line: 24</note>
       </trans-unit>
+      <trans-unit id="e2fa64dedc8a3422d409cbe4eebd19bb" approved="yes">
+        <source>Here is your personal login information for [1]{shop_name}[/1]:</source>
+        <target state="final">Ovdje su Vaše lične informacije za prijavu na [1]{shop_name}[/1]:</target>
+        <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="78e365acb087fd1f8d494dae0001de10" approved="yes">
+        <source>E-mail address:</source>
+        <target state="final">E-mail adresa:</target>
+        <note>Line: 32</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/classic/core/forward_msg.html.twig" source-language="en" target-language="bs" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="2bf185aaec7301d0862e4d69fce26d60" approved="yes">
+        <source>[1]{employee}[/1] added [1]"{comment}"[/1]</source>
+        <target state="final">[1]{employee}[/1] kreirao [1]"{comment}"[/1]</target>
+        <note>Line: 31</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/classic/core/guest_to_customer.html.twig" source-language="en" target-language="bs" datatype="plaintext">
     <body>
-      <trans-unit id="78e365acb087fd1f8d494dae0001de10" approved="yes">
-        <source>E-mail address:</source>
-        <target state="final">E-mail adresa:</target>
-        <note>Line: 30</note>
+      <trans-unit id="f4938f5d59c6c3adc14bf0cc30bc37f5" approved="yes">
+        <source>Your guest account for [1]{shop_name}[/1] has been transformed into a customer account.</source>
+        <target state="final">Vaš gostujući nalog za [1]{shop_name}[/1] je pretvoren u korisnički nalog.</target>
+        <note>Line: 29</note>
       </trans-unit>
     </body>
   </file>
@@ -487,6 +527,7 @@
   </file>
   <file original="mails/themes/modern/core/guest_to_customer.html.twig" source-language="en" target-language="bs" datatype="plaintext">
     <body>
+      
       
       
       

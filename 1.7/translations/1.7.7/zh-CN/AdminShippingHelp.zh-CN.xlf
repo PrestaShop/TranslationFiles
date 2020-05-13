@@ -31,10 +31,26 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/carriers/helpers/list/list_header.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
-      
-      
-      
+      <trans-unit id="401c8f6635d231c5360f31ce548c4462" approved="yes">
+        <source>Your online store needs to have a proper carrier registered in PrestaShop as soon as you start shipping your products. This means sending yours parcels using your local postal service, or having a contract with a private carrier which in turn will ship your parcels to your customers. In order to have PrestaShop suggest the most adequate carrier to your customers during their order checkout process, you need to register all the carriers with which you have chosen to work.</source>
+        <target state="final">一旦您开始运送您的产品，您的网上商店必须需要一个已在PrestaShop 里注册合适的承运商。这意味着使用您的当地邮局服务来运送您的包裹，或者和私人承运商签定协议请他们运送您的包裹给您的客人。为了让 PrestaShop 能够在您的客人买单时为他们推荐最合适的承运商，您必须注册您所选的所有承运商。</target>
+        <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="c751fd51e685dd8c071f8535be0d0d8f" approved="yes">
+        <source>PrestaShop comes with a number of carrier modules that you can activate. You can also buy carrier modules on the PrestaShop Addons marketplace. Recommended modules are listed below: install the module that matches your carrier, and configure it!</source>
+        <target state="final">PrestaShop 自带一些承运商模块可供您激活使用。您也可以在 PrestaShop Addons 市场购买承运商模块。推荐的模块如下：安装和您的承运商相吻合的模块并做好配置！</target>
+        <note>Line: 31</note>
+      </trans-unit>
+      <trans-unit id="5bacfd2dc472feddb875fc29134b03bb" approved="yes">
+        <source>If there is no existing module for your carrier, then you can register that carrier by hand using the information that it can provide you: shipping rates, regional zones, size and weight limits, etc. Click on the "Add new carrier" button below to open the Carrier Wizard, which will help you register a new carrier in a few steps.</source>
+        <target state="final">如果您使用的承运商没有现成的模块可以使用，那么您可以使用它提供给您的信息来手工注册此承运商：运费，区域，大小，重量限制等。点击以下 ”添加新的承运商“按钮来打开承运商向导程序，它将帮助您在几步下注册好新的承运商。</target>
+        <note>Line: 32</note>
+      </trans-unit>
+      <trans-unit id="12a118b904361ef7a25365b2ff29cfa9" approved="yes">
+        <source>Note: DO NOT register a new carrier if there already exists a module for it! Using a module will be much faster and more accurate!</source>
+        <target state="final">备注：如果已经有了现成的模块，请不要注册新的承运商！使用模块将会更快更准确！</target>
+        <note>Line: 33</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminCarrierWizardController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -98,6 +114,11 @@
   </file>
   <file original="controllers/admin/AdminCarriersController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="07b693f09040dc64d3c36b5daf95caae" approved="yes">
+        <source>Allowed characters: letters, spaces and "%special_chars%".</source>
+        <target state="final">允许的字符：字母，空格 和“%special_chars%”</target>
+        <note>Line: 175</note>
+      </trans-unit>
       <trans-unit id="a788f81b3aa0ef9c9efcb1fb67708d82" approved="yes">
         <source>For in-store pickup, enter 0 to replace the carrier name with your shop name.</source>
         <target state="final">选择上门提货，请输入0以替代货运公司名称为您的在线商店名称。</target>
@@ -201,6 +222,11 @@
         <source>Your shop's default carrier</source>
         <target state="final">您商店的默认配送商</target>
         <note>Line: 41</note>
+      </trans-unit>
+      <trans-unit id="4f309c91cb82ce5d20c15d015759a21e" approved="yes">
+        <source>This will only be visible in the front office.</source>
+        <target state="final">这只能在前台看到。</target>
+        <note>Line: 57</note>
       </trans-unit>
     </body>
   </file>

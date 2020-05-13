@@ -17,6 +17,11 @@
         <target state="final">添加类别折扣</target>
         <note>Line: 131</note>
       </trans-unit>
+      <trans-unit id="29ea3cf72fb288e76bc4310bffabc03e" approved="yes">
+        <source>New group category discount</source>
+        <target state="final">新组别分类折扣</target>
+        <note>Line: 150</note>
+      </trans-unit>
       <trans-unit id="3b78dd28e2767e0e88e5591abd386d0f" approved="yes">
         <source>Discount (%):</source>
         <target state="final">折扣 (%):</target>
@@ -26,6 +31,11 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/groups/helpers/view/view.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="c20aefc1b11dc684191ded8079cedab4" approved="yes">
+        <source>Group information</source>
+        <target state="final">群组信息</target>
+        <note>Line: 32</note>
+      </trans-unit>
       <trans-unit id="2dc9a383d693a2ded8b1ef832926ea93" approved="yes">
         <source>Price display method:</source>
         <target state="final">价格显示方式：</target>
@@ -40,6 +50,16 @@
         <source>Current category discount</source>
         <target state="final">当前类别折扣：</target>
         <note>Line: 56</note>
+      </trans-unit>
+      <trans-unit id="42ba7a29aa37fc2cb42f5381e71afb9f" approved="yes">
+        <source>Members of this customer group</source>
+        <target state="final">该客户群组的成员</target>
+        <note>Line: 82</note>
+      </trans-unit>
+      <trans-unit id="638dab2652b5c9fec7eeee0c8a12431b" approved="yes">
+        <source>Limited to the first 100 customers.</source>
+        <target state="final">仅限于前100 名客户。</target>
+        <note>Line: 83</note>
       </trans-unit>
       <trans-unit id="3744cbfc625e57d0ac639f162dba21c1" approved="yes">
         <source>Please use filters to narrow your search.</source>
@@ -58,7 +78,7 @@
       <trans-unit id="57297718fdb439175177cf6b196172d1" approved="yes">
         <source>Order status</source>
         <target state="final">订单状态</target>
-        <note>Line: 1570</note>
+        <note>Line: 1576</note>
       </trans-unit>
     </body>
   </file>
@@ -131,6 +151,18 @@
         <target state="final">有库存</target>
         <note>Line: 62
 Comment: PS_LABEL_IN_STOCK_PRODUCTS on configuration_lang table</note>
+      </trans-unit>
+      <trans-unit id="43f098d58ceefef56f05ded453751319" approved="yes">
+        <source>Product available for orders</source>
+        <target state="final">供订单使用的产品</target>
+        <note>Line: 65
+Comment: PS_LABEL_OOS_PRODUCTS_BOA on configuration_lang table</note>
+      </trans-unit>
+      <trans-unit id="2ef464d50f6acd767fb3424910995218" approved="yes">
+        <source>Out-of-Stock</source>
+        <target state="final">没有库存</target>
+        <note>Line: 68
+Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       </trans-unit>
       <trans-unit id="d2faf7873d8849348199df0e47d148ea" approved="yes">
         <source>Dear Customer,
@@ -286,7 +318,7 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
       <trans-unit id="22ffd0379431f3b615eb8292f6c31d12" approved="yes">
         <source>Registration date</source>
         <target state="final">注册日期</target>
-        <note>Line: 265</note>
+        <note>Line: 269</note>
       </trans-unit>
       <trans-unit id="c6155aaecccf794cd2a00fcc35898022" approved="yes">
         <source>Group name</source>
@@ -341,22 +373,22 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
       <trans-unit id="c38266740494aa4980d05c606fccac10" approved="yes">
         <source>Customer group</source>
         <target state="final">客户组</target>
-        <note>Line: 305</note>
+        <note>Line: 309</note>
       </trans-unit>
       <trans-unit id="e8c371079e194d26e5e912e8f5e60408" approved="yes">
         <source>Price display method</source>
         <target state="final">价格显示方式：</target>
-        <note>Line: 331</note>
+        <note>Line: 335</note>
       </trans-unit>
       <trans-unit id="c97b6c7f99c3c50efe826e657024d29b" approved="yes">
         <source>Category discount</source>
         <target state="final">类折扣</target>
-        <note>Line: 374</note>
+        <note>Line: 378</note>
       </trans-unit>
       <trans-unit id="a5b82d7328e66186000f675d6618c414" approved="yes">
         <source>Modules authorization</source>
         <target state="final">模块授权</target>
-        <note>Line: 380</note>
+        <note>Line: 384</note>
       </trans-unit>
     </body>
   </file>
@@ -504,7 +536,12 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
       <trans-unit id="9ab81f57823f6aeb02362291f23883e6" approved="yes">
         <source>Aliases</source>
         <target state="final">別名</target>
-        <note>Line: 353</note>
+        <note>Line: 418</note>
+      </trans-unit>
+      <trans-unit id="325c9099ecef84ddc2912d5f0ed3fe2f" approved="yes">
+        <source>The "indexed" products have been analyzed by PrestaShop and will appear in the results of a front office search.</source>
+        <target state="final">该“索引”的产品已被PrestaShop分析并将出现在前台搜索的结果里。</target>
+        <note>Line: 91</note>
       </trans-unit>
       <trans-unit id="b9a7c2c18f61b96ff75de6468d1c7519" approved="yes">
         <source>Indexed products</source>
@@ -516,6 +553,16 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
         <target state="final">构建产品索引可能需要几分钟的时间。</target>
         <note>Line: 95</note>
       </trans-unit>
+      <trans-unit id="b90813d74ad3dc25c5b976d932fd72d7" approved="yes">
+        <source>If your server stops before the process ends, you can resume the indexing by clicking "Add missing products to the index".</source>
+        <target state="final">如果你的服务器在过程结束前停止，你可以通过点击“添加缺少产品到索引中”来恢复索引。</target>
+        <note>Line: 96</note>
+      </trans-unit>
+      <trans-unit id="d86f8ed15ec7a8f87fb1b0ed501dbb6b" approved="yes">
+        <source>Add missing products to the index</source>
+        <target state="final">添加缺失产品到索引中</target>
+        <note>Line: 100</note>
+      </trans-unit>
       <trans-unit id="9897b2f361910e5188f231de872d8856" approved="yes">
         <source>Re-build the entire index</source>
         <target state="final">重建整个索引</target>
@@ -526,90 +573,105 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
         <target state="final">你可以使用下面的URL来设置计划作业用于重建索引:</target>
         <note>Line: 107</note>
       </trans-unit>
+      <trans-unit id="f4ff8a799e3f7446a3a67254cf038e7e" approved="yes">
+        <source>Search within word</source>
+        <target state="final">字体内搜索</target>
+        <note>Line: 135</note>
+      </trans-unit>
+      <trans-unit id="969e3f96787be55242155cad3cd630d3" approved="yes">
+        <source>Search exact end match</source>
+        <target state="final">搜索结尾完全一致</target>
+        <note>Line: 163</note>
+      </trans-unit>
       <trans-unit id="8e7ace556216459cd9197423709bdd3a" approved="yes">
         <source>Minimum word length (in characters)</source>
         <target state="final">最小单词长度（以字符）</target>
-        <note>Line: 186</note>
+        <note>Line: 251</note>
       </trans-unit>
       <trans-unit id="5bff181421d95b49ad5ce5bb08f0ffbe" approved="yes">
         <source>Blacklisted words</source>
         <target state="final">列入黑名单的词</target>
-        <note>Line: 200</note>
+        <note>Line: 265</note>
       </trans-unit>
       <trans-unit id="8c489d0946f66d17d73f26366a4bf620" approved="yes">
         <source>Weight</source>
         <target state="final">重量</target>
-        <note>Line: 213</note>
+        <note>Line: 278</note>
       </trans-unit>
       <trans-unit id="a9f445d59022dee4cb33385aef61620f" approved="yes">
         <source>The "weight" represents its importance and relevance for the ranking of the products when completing a new search.</source>
         <target state="final">在尝试新的搜索时，“重量”代表其重要性和相关性排名的产品</target>
-        <note>Line: 216</note>
+        <note>Line: 281</note>
       </trans-unit>
       <trans-unit id="892e1b613b7d9628760008536bdef5da" approved="yes">
         <source>A word with a weight of eight will have four times more value than a word with a weight of two.</source>
         <target state="final">重量为8的词价值比重量为2的重要4倍。</target>
-        <note>Line: 221</note>
+        <note>Line: 286</note>
       </trans-unit>
       <trans-unit id="33846fa0095bd29abbc2a8b742669b25" approved="yes">
         <source>We advise you to set a greater weight for words which appear in the name or reference of a product. This will allow the search results to be as precise and relevant as possible.</source>
         <target state="final">我们建议您尽量设置在商品名称或商品编号中。这将让搜索结果比较精确。</target>
-        <note>Line: 226</note>
+        <note>Line: 291</note>
       </trans-unit>
       <trans-unit id="15b481c8ea8041ab6000bec80b97db5a" approved="yes">
         <source>Setting a weight to 0 will exclude that field from search index. Re-build of the entire index is required when changing to or from 0</source>
         <target state="final">权重设置为0，将排除该字段从搜索索引中。当更改为0或别的数字，将重新构建整个索引。</target>
-        <note>Line: 231</note>
+        <note>Line: 296</note>
       </trans-unit>
       <trans-unit id="76a591808a254d4094e1c43f937b834f" approved="yes">
         <source>Product name weight</source>
         <target state="final">产品名称衡量</target>
-        <note>Line: 237</note>
+        <note>Line: 302</note>
       </trans-unit>
       <trans-unit id="f391844c98222451204cbb678d591f86" approved="yes">
         <source>Reference weight</source>
         <target state="final">参考衡量</target>
-        <note>Line: 243</note>
+        <note>Line: 308</note>
       </trans-unit>
       <trans-unit id="6af0a6ff1f2f2a61cbd8b98232314b03" approved="yes">
         <source>Short description weight</source>
         <target state="final">简短说明衡量</target>
-        <note>Line: 250</note>
+        <note>Line: 315</note>
       </trans-unit>
       <trans-unit id="f90f799bc686f5d6a731b1f8074b4580" approved="yes">
         <source>Description weight</source>
         <target state="final">说明衡量</target>
-        <note>Line: 259</note>
+        <note>Line: 324</note>
       </trans-unit>
       <trans-unit id="05cdca5b85ff26e596c3af66ed4820d5" approved="yes">
         <source>Category weight</source>
         <target state="final">类别衡量</target>
-        <note>Line: 265</note>
+        <note>Line: 330</note>
       </trans-unit>
       <trans-unit id="3474b76644954c739226a10127d83329" approved="yes">
         <source>Brand weight</source>
         <target state="final">品牌权重</target>
-        <note>Line: 271</note>
+        <note>Line: 336</note>
       </trans-unit>
       <trans-unit id="c152439199cebb7e1c27633efeaf1eda" approved="yes">
         <source>Tags weight</source>
         <target state="final">标签衡量</target>
-        <note>Line: 277</note>
+        <note>Line: 342</note>
       </trans-unit>
       <trans-unit id="1b25f9ffbf4d185dbb985380a04732cc" approved="yes">
         <source>Attributes weight</source>
         <target state="final">属性衡量</target>
-        <note>Line: 283</note>
+        <note>Line: 348</note>
       </trans-unit>
       <trans-unit id="4871216a35362aebc0d9908e6e288765" approved="yes">
         <source>Features weight</source>
         <target state="final">特征衡量</target>
-        <note>Line: 289</note>
+        <note>Line: 354</note>
+      </trans-unit>
+      <trans-unit id="58e8dcd40d13b2c661ac86dbc9e04e02" approved="yes">
+        <source>Add new alias</source>
+        <target state="final">添加新的别名</target>
+        <note>Line: 370</note>
       </trans-unit>
       <trans-unit id="8eea62084ca7e541d918e823422bd82e" approved="yes">
         <source>Result</source>
         <target state="final">结果</target>
-        <note>Line: 369</note>
+        <note>Line: 434</note>
       </trans-unit>
     </body>
   </file>
@@ -654,6 +716,16 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
         <target state="final">商店群組</target>
         <note>Line: 431</note>
       </trans-unit>
+      <trans-unit id="09059cedfd08d6e8a12417b285a79ffd" approved="yes">
+        <source>Root category</source>
+        <target state="final">根分类</target>
+        <note>Line: 64</note>
+      </trans-unit>
+      <trans-unit id="8849f8620b59b37526cebfb785d1df2d" approved="yes">
+        <source>Main URL for this shop</source>
+        <target state="final">该商店的主URL</target>
+        <note>Line: 69</note>
+      </trans-unit>
       <trans-unit id="0fc629d52a6553e98b76fffa727ba878" approved="yes">
         <source>Edit this shop group</source>
         <target state="final">编辑这个商店群组</target>
@@ -663,6 +735,11 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
         <source>Add new shop</source>
         <target state="final">新增商店</target>
         <note>Line: 126</note>
+      </trans-unit>
+      <trans-unit id="224154fa6f3601b7de4690ba6a9ad8b4" approved="yes">
+        <source>Multistore tree</source>
+        <target state="final">多个商店树</target>
+        <note>Line: 157</note>
       </trans-unit>
     </body>
   </file>
@@ -687,6 +764,21 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
         <source>Edit return status</source>
         <target state="final">编辑退货状态</target>
         <note>Line: 184</note>
+      </trans-unit>
+      <trans-unit id="60fd39d495f2a8d0674c236c004e8f21" approved="yes">
+        <source>Add new order status</source>
+        <target state="final">添加新订单状态</target>
+        <note>Line: 194</note>
+      </trans-unit>
+      <trans-unit id="f08b529034b579d49fa94abec7f93af0" approved="yes">
+        <source>Add new order return status</source>
+        <target state="final">添加新订单退货状态</target>
+        <note>Line: 199</note>
+      </trans-unit>
+      <trans-unit id="34499467057e6ded44fd7861eee1893b" approved="yes">
+        <source>Return statuses</source>
+        <target state="final">退货状态</target>
+        <note>Line: 235</note>
       </trans-unit>
       <trans-unit id="69a31da4cb502aa192d07ae4a8f48613" approved="yes">
         <source>Status name</source>
@@ -717,6 +809,16 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
         <source>Send an email to the customer when his/her order status has changed.</source>
         <target state="final">订单状态改变时，发送邮件给顾客。</target>
         <note>Line: 335</note>
+      </trans-unit>
+      <trans-unit id="05ffab376e5c4a64caa28a1c4bd9fc0d" approved="yes">
+        <source>Attach invoice PDF to email.</source>
+        <target state="final">把PDF 格式的发票附在邮件里。</target>
+        <note>Line: 346</note>
+      </trans-unit>
+      <trans-unit id="53343ccca7ba90caa497d4c4b40f3ec7" approved="yes">
+        <source>Attach delivery slip PDF to email.</source>
+        <target state="final">把PDF 格式的出货单附在邮件里。</target>
+        <note>Line: 357</note>
       </trans-unit>
       <trans-unit id="5fe3d2e4d87dccabf5c9c1d81baf995c" approved="yes">
         <source>Set the order as shipped.</source>
@@ -842,6 +944,11 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
         <target state="final">店铺邮件</target>
         <note>Line: 456</note>
       </trans-unit>
+      <trans-unit id="17e5b9e86108a7fd53884cfaa66ddb35" approved="yes">
+        <source>Registration number</source>
+        <target state="final">登记号码</target>
+        <note>Line: 463</note>
+      </trans-unit>
       <trans-unit id="1b9a36c9acf2ab7a81d67a55432b6c8f" approved="yes">
         <source>Shop address line 1</source>
         <target state="final">店铺地址第一行</target>
@@ -962,15 +1069,118 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="843fbaec27e324378999e09cc665a7f4" approved="yes">
+        <source>Round up away from zero, when it is half way there (recommended)</source>
+        <target state="final">一半时，从零开始向上取位(推荐)</target>
+        <note>Line: 108</note>
+      </trans-unit>
+      <trans-unit id="9d70eb834e3574ca07a1f28083ecba1e" approved="yes">
+        <source>Round down towards zero, when it is half way there</source>
+        <target state="final">一半时，往下取到零</target>
+        <note>Line: 109</note>
+      </trans-unit>
+      <trans-unit id="5f9d1d092dc5658734b8af7187460b32" approved="yes">
+        <source>Round towards the next even value</source>
+        <target state="final">以下个平均值来四舍五入</target>
+        <note>Line: 110</note>
+      </trans-unit>
+      <trans-unit id="8700a0015f3fc1c5d96ccc5140475dc3" approved="yes">
+        <source>Round towards the next odd value</source>
+        <target state="final">以下个奇数值来四舍五入</target>
+        <note>Line: 111</note>
+      </trans-unit>
+      <trans-unit id="6186ae4fe9ec55025a9777dd973e0af2" approved="yes">
+        <source>Round up to the nearest value</source>
+        <target state="final">往最近的数值上舍入</target>
+        <note>Line: 112</note>
+      </trans-unit>
+      <trans-unit id="35853630b5da054ef55e8e02d8df4954" approved="yes">
+        <source>Round down to the nearest value</source>
+        <target state="final">往最近的数值下舍入</target>
+        <note>Line: 113</note>
+      </trans-unit>
+      <trans-unit id="41032c67b9a3d88ff9a824a1f0845513" approved="yes">
+        <source>Round on each item</source>
+        <target state="final">对每件产品进位</target>
+        <note>Line: 119</note>
+      </trans-unit>
+      <trans-unit id="a899eacfb98f1740127be5fe16bee5c7" approved="yes">
+        <source>Round on each line</source>
+        <target state="final">每行进行进位</target>
+        <note>Line: 120</note>
+      </trans-unit>
+      <trans-unit id="6d19eb8a9ca35d858824737173ebd011" approved="yes">
+        <source>Round on the total</source>
+        <target state="final">总合进位</target>
+        <note>Line: 121</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GeneralType.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+    <body>
+      <trans-unit id="28e503c3e4f502b3631e255dfc527620" approved="yes">
+        <source>Enable final summary</source>
+        <target state="final">启用最后总结</target>
+        <note>Line: 78</note>
+      </trans-unit>
+      <trans-unit id="403e42a4b26e379cb13563c98ab63067" approved="yes">
+        <source>Enable guest checkout</source>
+        <target state="final">启用客户结帐</target>
+        <note>Line: 83</note>
+      </trans-unit>
+      <trans-unit id="f30598053df0edf94d9463a2133d7f13" approved="yes">
+        <source>Recalculate shipping costs after editing the order</source>
+        <target state="final">在编辑订单后重新计算运费</target>
+        <note>Line: 100</note>
+      </trans-unit>
+      <trans-unit id="8f32f059d66d7f10db7668e75b4742e6" approved="yes">
+        <source>Allow multishipping</source>
+        <target state="final">允许使用多地址结帐</target>
+        <note>Line: 107</note>
+      </trans-unit>
+      <trans-unit id="cd6aaf6d8287fd5a49122d36f0ff7024" approved="yes">
+        <source>Delayed shipping</source>
+        <target state="final">延迟发货</target>
+        <note>Line: 115</note>
+      </trans-unit>
+      <trans-unit id="e4045598261988d9988c594243a9434d" approved="yes">
+        <source>Terms of service</source>
+        <target state="final">服务条款</target>
+        <note>Line: 120</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GiftOptionsType.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+    <body>
+      <trans-unit id="2a0677dae563d574fb1c50badaa4eabf" approved="yes">
+        <source>Gift-wrapping price</source>
+        <target state="final">礼品包装价格</target>
+        <note>Line: 84</note>
+      </trans-unit>
+      <trans-unit id="d2c8471bccf2bbf30151cf50a96c3877" approved="yes">
+        <source>Offer gift wrapping</source>
+        <target state="final">提供礼品包装</target>
+        <note>Line: 79</note>
+      </trans-unit>
+      <trans-unit id="0d8bdbe98feb696dd76760ee1374a740" approved="yes">
+        <source>Gift-wrapping tax</source>
+        <target state="final">礼品包装税</target>
+        <note>Line: 93</note>
+      </trans-unit>
+      <trans-unit id="b667478ccafce4bff6d427a6bca06269" approved="yes">
+        <source>Offer recycled packaging</source>
+        <target state="final">提供可回收包装</target>
+        <note>Line: 102</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/OrderPreferencesFormDataProvider.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+    <body>
+      <trans-unit id="c6ca929dc4c8193ad6cd154e9e075ac9" approved="yes">
+        <source>Minimum purchase total required in order to validate the order</source>
+        <target state="final">订单最小金额</target>
+        <note>Line: 126</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/PaginationType.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -1019,9 +1229,21 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/StockType.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="175db77b6b3ecd9633e85b5efc28bbc1" approved="yes">
+        <source>Decrement pack only.</source>
+        <target state="final">仅限减缩包裹。</target>
+        <note>Line: 73</note>
+      </trans-unit>
+      <trans-unit id="1ba020dea4ce06fa139a471db21f41a7" approved="yes">
+        <source>Decrement products in pack only.</source>
+        <target state="final">仅在包裹里的紧缩产品。</target>
+        <note>Line: 74</note>
+      </trans-unit>
+      <trans-unit id="61b912928e920c280798dc648d4068fe" approved="yes">
+        <source>Decrement both.</source>
+        <target state="final">两者紧缩。</target>
+        <note>Line: 75</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/MetaSettingsFormDataProvider.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -1157,6 +1379,11 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
         <target state="final">当商品有属性时，显示“添加到购物车”按钮</target>
         <note>Line: 63</note>
       </trans-unit>
+      <trans-unit id="0a91cf360875af4259f26bc7e2971132" approved="yes">
+        <source>Separator of attribute anchor on the product links</source>
+        <target state="final">产品链接上属性锚的分隔符</target>
+        <note>Line: 71</note>
+      </trans-unit>
       <trans-unit id="f7699b3d1af7fe3cdb3a6ff301940fdf" approved="yes">
         <source>Display discounted price</source>
         <target state="final">显示折后价格</target>
@@ -1205,6 +1432,41 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
         <target state="final">启用库存管理</target>
         <note>Line: 46</note>
       </trans-unit>
+      <trans-unit id="966c11f36eeb298187639eea581a7522" approved="yes">
+        <source>Label of in-stock products</source>
+        <target state="final">库存产品标签</target>
+        <note>Line: 55</note>
+      </trans-unit>
+      <trans-unit id="3385e522bc49e8f8fcb008788bc1762d" approved="yes">
+        <source>Label of out-of-stock products with allowed backorders</source>
+        <target state="final">缺货产品又带有延期未交订货的标签</target>
+        <note>Line: 64</note>
+      </trans-unit>
+      <trans-unit id="d79daa535ef1e90b7b1230b501b7b6c6" approved="yes">
+        <source>Label of out-of-stock products with denied backorders</source>
+        <target state="final">缺货产品又带有被拒延期交货订单的标签</target>
+        <note>Line: 73</note>
+      </trans-unit>
+      <trans-unit id="480cb944a0974a27ec0f964de23a18f4" approved="yes">
+        <source>Delivery time of in-stock products</source>
+        <target state="final">库存产品的出货时间</target>
+        <note>Line: 81</note>
+      </trans-unit>
+      <trans-unit id="16a5534d559007de7e8f5b4f17112203" approved="yes">
+        <source>Leave empty to disable</source>
+        <target state="final">留空禁用</target>
+        <note>Line: 93</note>
+      </trans-unit>
+      <trans-unit id="d8b9fadcb2c1164975877a18731b1f4a" approved="yes">
+        <source>Delivery time of out-of-stock products with allowed backorders</source>
+        <target state="final">那些有着被接受延期出货订单的缺货产品的出货时间</target>
+        <note>Line: 89</note>
+      </trans-unit>
+      <trans-unit id="65055b5469b4ad0c6f799ad782d1ebe5" approved="yes">
+        <source>Default pack stock management</source>
+        <target state="final">默认组合库存管理</target>
+        <note>Line: 97</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/Contact/Contacts/Blocks/form.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -1223,40 +1485,10 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/OrderPreferences/Blocks/order_preferences_general.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      <trans-unit id="c6ca929dc4c8193ad6cd154e9e075ac9" approved="yes">
-        <source>Minimum purchase total required in order to validate the order</source>
-        <target state="final">订单最小金额</target>
-        <note>Line: 59</note>
-      </trans-unit>
-      <trans-unit id="28e503c3e4f502b3631e255dfc527620" approved="yes">
-        <source>Enable final summary</source>
-        <target state="final">启用最后总结</target>
-        <note>Line: 38</note>
-      </trans-unit>
-      <trans-unit id="403e42a4b26e379cb13563c98ab63067" approved="yes">
-        <source>Enable guest checkout</source>
-        <target state="final">启用客户结帐</target>
-        <note>Line: 45</note>
-      </trans-unit>
-      <trans-unit id="f30598053df0edf94d9463a2133d7f13" approved="yes">
-        <source>Recalculate shipping costs after editing the order</source>
-        <target state="final">在编辑订单后重新计算运费</target>
-        <note>Line: 66</note>
-      </trans-unit>
-      <trans-unit id="8f32f059d66d7f10db7668e75b4742e6" approved="yes">
-        <source>Allow multishipping</source>
-        <target state="final">允许使用多地址结帐</target>
-        <note>Line: 74</note>
-      </trans-unit>
-      <trans-unit id="cd6aaf6d8287fd5a49122d36f0ff7024" approved="yes">
-        <source>Delayed shipping</source>
-        <target state="final">延迟发货</target>
-        <note>Line: 82</note>
-      </trans-unit>
-      <trans-unit id="e4045598261988d9988c594243a9434d" approved="yes">
-        <source>Terms of service</source>
-        <target state="final">服务条款</target>
-        <note>Line: 89</note>
+      <trans-unit id="0fb43a164e61d758c5eddcceb67be0c1" approved="yes">
+        <source>Disable Reordering Option</source>
+        <target state="final">禁用再订购选项</target>
+        <note>Line: 52</note>
       </trans-unit>
       <trans-unit id="960e3de6241e862401f2bd93539e0381" approved="yes">
         <source>Page for the Terms and conditions</source>
@@ -1267,30 +1499,10 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/OrderPreferences/Blocks/order_preferences_gift_options.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      <trans-unit id="2a0677dae563d574fb1c50badaa4eabf" approved="yes">
-        <source>Gift-wrapping price</source>
-        <target state="final">礼品包装价格</target>
-        <note>Line: 45</note>
-      </trans-unit>
       <trans-unit id="bf3b3ed0e4fd43efff9c26b3d35c6c2f" approved="yes">
         <source>Gift options</source>
         <target state="final">礼品选项</target>
         <note>Line: 33</note>
-      </trans-unit>
-      <trans-unit id="d2c8471bccf2bbf30151cf50a96c3877" approved="yes">
-        <source>Offer gift wrapping</source>
-        <target state="final">提供礼品包装</target>
-        <note>Line: 38</note>
-      </trans-unit>
-      <trans-unit id="0d8bdbe98feb696dd76760ee1374a740" approved="yes">
-        <source>Gift-wrapping tax</source>
-        <target state="final">礼品包装税</target>
-        <note>Line: 54</note>
-      </trans-unit>
-      <trans-unit id="b667478ccafce4bff6d427a6bca06269" approved="yes">
-        <source>Offer recycled packaging</source>
-        <target state="final">提供可回收包装</target>
-        <note>Line: 63</note>
       </trans-unit>
     </body>
   </file>
@@ -1450,6 +1662,11 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
         <target state="final">类别途径</target>
         <note>Line: 65</note>
       </trans-unit>
+      <trans-unit id="e5bcaf8cdb205e965d4ba8fdf0dc898c" approved="yes">
+        <source>Route to category which has the "selected_filter" attribute for the "Layered Navigation" (blocklayered) module</source>
+        <target state="final">到分类的路径，该分类有个 "Layered Navigation" （模块层）模块的"selected_filter"属性。</target>
+        <note>Line: 78</note>
+      </trans-unit>
       <trans-unit id="08a551b84112995247355daf3b5d72ba" approved="yes">
         <source>Route to supplier</source>
         <target state="final">供货商途径</target>
@@ -1503,10 +1720,25 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
         <target state="final">启用SSL</target>
         <note>Line: 46</note>
       </trans-unit>
+      <trans-unit id="73369322b5e1145bb2fc2268ce4d31f0" approved="yes">
+        <source>Enable SSL on all pages</source>
+        <target state="final">在所有页面启用SSL</target>
+        <note>Line: 66</note>
+      </trans-unit>
+      <trans-unit id="cd1b98322104dbd61ca6ae0ab16df348" approved="yes">
+        <source>Increase front office security</source>
+        <target state="final">增强前台安全性</target>
+        <note>Line: 74</note>
+      </trans-unit>
       <trans-unit id="913d66c5648cf0317ed371371fe44534" approved="yes">
         <source>Allow iframes on HTML fields</source>
         <target state="final">HTML领域允许的iframes</target>
         <note>Line: 90</note>
+      </trans-unit>
+      <trans-unit id="06918a784fb394b84de012810120b75c" approved="yes">
+        <source>Use HTMLPurifier Library</source>
+        <target state="final">使用HTML Purifier 图书馆</target>
+        <note>Line: 98</note>
       </trans-unit>
       <trans-unit id="ac2021d3c67ee796d7ab20a466ebd583" approved="yes">
         <source>Round mode</source>
@@ -1528,6 +1760,11 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
         <target state="final">展示品牌和供应商</target>
         <note>Line: 130</note>
       </trans-unit>
+      <trans-unit id="922256753aa354c111471e85d4809ec5" approved="yes">
+        <source>Display best sellers</source>
+        <target state="final">显示最佳卖方</target>
+        <note>Line: 138</note>
+      </trans-unit>
       <trans-unit id="43b266c605d67eaa27801cc5dc0b3995" approved="yes">
         <source>Enable Multistore</source>
         <target state="final">启用多店</target>
@@ -1537,6 +1774,11 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
         <source>Main Shop Activity</source>
         <target state="final">店铺主要经营</target>
         <note>Line: 162</note>
+      </trans-unit>
+      <trans-unit id="ab08050bd76be6690d1beff885570dfb" approved="yes">
+        <source>Please click here to check if your shop supports HTTPS.</source>
+        <target state="final">请点击这里查看您的商店是否支持HTTPS。</target>
+        <note>Line: 59</note>
       </trans-unit>
     </body>
   </file>

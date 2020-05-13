@@ -47,7 +47,7 @@
       </trans-unit>
       <trans-unit id="df6e9862566912e908ef785e860f9c71" approved="yes">
         <source>Are you sure that you would like to delete this entity: </source>
-        <target state="final">是否确实要删除此实体： </target>
+        <target state="final">您确定要删除此实体吗: </target>
         <note>Line: 493</note>
       </trans-unit>
       <trans-unit id="83a1698a445036a9a65686ac61879794" approved="yes">
@@ -136,30 +136,12 @@
       </trans-unit>
     </body>
   </file>
-  <file original="admin-dev/themes/default/template/controllers/request_sql/helpers/form/form.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      <trans-unit id="0fe194d9bb812c48dfe35a3cf6d0af52" approved="yes">
-        <source>Please choose a MySQL table</source>
-        <target state="final">请选择一个MySQL表</target>
-        <note>Line: 53</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="admin-dev/themes/default/template/controllers/request_sql/helpers/view/view.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      <trans-unit id="3be751fc7ab3f3ced8007796fe8bde7d" approved="yes">
-        <source>This SQL query has no result.</source>
-        <target state="final">此 SQL 查询没有结果。</target>
-        <note>Line: 36</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="classes/Mail.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
       <trans-unit id="3ed07fe73e25bba69e3e5dac234b1941" approved="yes">
         <source>Error - The following e-mail template is missing: %s</source>
         <target state="final">错误 - 以下电子邮件模板丢失：%s</target>
-        <note>Line: 410</note>
+        <note>Line: 424</note>
       </trans-unit>
     </body>
   </file>
@@ -180,19 +162,49 @@
         <target state="final">无法创建备份文件</target>
         <note>Line: 250</note>
       </trans-unit>
+      <trans-unit id="52033453d4d673bae012b9c8ccb1e79c" approved="yes">
+        <source>An error occurred while backing up. Unable to obtain the schema of %s</source>
+        <target state="final">备份时出错。无法获取%s的表结构</target>
+        <note>Line: 279</note>
+      </trans-unit>
+      <trans-unit id="a12b8823ac5b71b9d09f9c7b09e54c48" approved="yes">
+        <source>No valid tables were found to backup.</source>
+        <target state="final">没有找到有效的表格进行备份。</target>
+        <note>Line: 343</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminCartsController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="67df6a66c109fbe53bfa02dc398bc258" approved="yes">
+        <source>Can't add the voucher.</source>
+        <target state="final">无法添加券。</target>
+        <note>Line: 636</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminEmployeesController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
-      
-      
-      
+      <trans-unit id="8fd6c902e0a6186ebc62b4c3c65dc528" approved="yes">
+        <source>You cannot delete this account because it manages warehouses. Check your warehouses first.</source>
+        <target state="final">你不能删除这个账号，因为它管理着仓库。请先检查你的仓库。</target>
+        <note>Line: 490</note>
+      </trans-unit>
+      <trans-unit id="1a33d52d73377516254da97f9fee027e" approved="yes">
+        <source>The confirmation password does not match.</source>
+        <target state="final">确认密码不匹配。</target>
+        <note>Line: 508</note>
+      </trans-unit>
+      <trans-unit id="c7cd7ecd5b19e01f74cad32af30c9ac4" approved="yes">
+        <source>You should have at least one employee in the administrator group.</source>
+        <target state="final">您至少需要一个员工在管理员组内。</target>
+        <note>Line: 563</note>
+      </trans-unit>
+      <trans-unit id="46cf0d0972e77638e099815140a0d302" approved="yes">
+        <source>The password must be at least %length% characters long.</source>
+        <target state="final">密码长度必须至少%length%字符。</target>
+        <note>Line: 594</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -200,182 +212,197 @@
       <trans-unit id="613260718349db00d0b7b9c1eb77c76c" approved="yes">
         <source>Your file has been successfully imported into your shop. Don't forget to re-build the products' search index.</source>
         <target state="final">您的文件已经成功导入到您的店铺。不要忘了重建商品索引。</target>
-        <note>Line: 650</note>
+        <note>Line: 653</note>
       </trans-unit>
       <trans-unit id="5b8f192b08644fdc9fd1fd86bcbbc57b" approved="yes">
         <source>(click to open "Generators" page)</source>
         <target state="final">（点击打开“生成器”页面）</target>
-        <note>Line: 781</note>
+        <note>Line: 784</note>
       </trans-unit>
       <trans-unit id="5c8707f79dbdd3abb28a8aa09e34f02f" approved="yes">
         <source>No image was found for combination with id_product = %s and image position = %s.</source>
         <target state="final">没有找到与 id_product = %s 与image position = %s匹配的图像</target>
-        <note>Line: 2651</note>
+        <note>Line: 2658</note>
       </trans-unit>
       <trans-unit id="b672cb1c6a798cfb9f54de7dd897abd8" approved="yes">
         <source>EAN13 "%ean13%" has incorrect value for product with id %id%.</source>
         <target state="final">产品ID %id%有个不正确的EAN13 "%ean13%"值</target>
-        <note>Line: 2772</note>
+        <note>Line: 2779</note>
       </trans-unit>
       <trans-unit id="85b637ec0128d136bf3794c79f2e7295" approved="yes">
         <source>Advanced stock management has incorrect value. Not set for product with id %id%.</source>
         <target state="final">高级库存管理有不正确的数值。产品ID%id%没设置</target>
-        <note>Line: 2896</note>
+        <note>Line: 2903</note>
+      </trans-unit>
+      <trans-unit id="934b46cf9eb8a8595ca517b87de6bfb4" approved="yes">
+        <source>Advanced stock management is not enabled, cannot enable on product with id %id%.</source>
+        <target state="final">高级库存管理未启用。无法在产品ID%id%上启用</target>
+        <note>Line: 2911</note>
       </trans-unit>
       <trans-unit id="0081b2a315ed28289036fa6cc02a3819" approved="yes">
         <source>Advanced stock management is not enabled, warehouse is not set on product with id %id%.</source>
         <target state="final">高级库存管理未启用。产品ID%id%的仓库未设置</target>
-        <note>Line: 2923</note>
+        <note>Line: 2930</note>
+      </trans-unit>
+      <trans-unit id="c24928943071d3366164238b9413a211" approved="yes">
+        <source>Warehouse did not exist, cannot set on product %name%.</source>
+        <target state="final">仓库不存在。无法在产品%name%上设置。</target>
+        <note>Line: 2950</note>
       </trans-unit>
       <trans-unit id="fd6d9d3ba7d4aaacc49f53c2e8c082c0" approved="yes">
         <source>Email address %1$s (ID: %2$s) cannot be validated.</source>
         <target state="final">无法验证电子邮箱地址%1$s（ID: %2$s）</target>
-        <note>Line: 3252</note>
+        <note>Line: 3259</note>
       </trans-unit>
       <trans-unit id="9a19980e3db9fa010269bb72d31ee42a" approved="yes">
         <source>Email address %1$s (ID: %2$s) cannot be saved.</source>
         <target state="final">无法保存电子邮箱地址%1$s（ID: %2$s）</target>
-        <note>Line: 3261</note>
+        <note>Line: 3268</note>
       </trans-unit>
       <trans-unit id="14118fbc7d8c233f0ac36ffb31716605" approved="yes">
         <source>%1$s does not exist in database %2$s (ID: %3$s), and therefore cannot be validated</source>
         <target state="final">%1$s在数据库%2$s (ID: %3$s)不存在, 因此无法被验证</target>
-        <note>Line: 3449</note>
+        <note>Line: 3456</note>
       </trans-unit>
       <trans-unit id="597cf702e07f3b35431d2a499b00cefd" approved="yes">
         <source>%1$s does not exist in database %2$s (ID: %3$s), and therefore cannot be saved</source>
         <target state="final">%1$s在数据库%2$s (ID: %3$s)不存在, 因此无法被保存</target>
-        <note>Line: 3459</note>
+        <note>Line: 3466</note>
       </trans-unit>
       <trans-unit id="b06766963f3b27f47f5e6ddf68d8f07e" approved="yes">
         <source>"%email%" is not a valid email address.</source>
         <target state="final">”%email%“不是一个有效电子邮件地址</target>
-        <note>Line: 3435</note>
+        <note>Line: 3442</note>
       </trans-unit>
       <trans-unit id="4a69d9da990728e003654d32a0b283a4" approved="yes">
         <source>The customer ID #%d does not exist in the database, and therefore cannot be validated.</source>
         <target state="final">客户ID #%d在数据库不存在。因此无法验证。</target>
-        <note>Line: 3472</note>
+        <note>Line: 3479</note>
       </trans-unit>
       <trans-unit id="608ec99cc3ef74d962769c1958a1fa62" approved="yes">
         <source>The customer ID #%d does not exist in the database, and therefore cannot be saved.</source>
         <target state="final">客户ID #%d没在数据库中。因此无法保存。</target>
-        <note>Line: 3480</note>
+        <note>Line: 3487</note>
       </trans-unit>
       <trans-unit id="964e5a863ba051181f8f537626f5c953" approved="yes">
         <source>Supplier is invalid</source>
         <target state="final">供应商是无效的</target>
-        <note>Line: 3811</note>
+        <note>Line: 3818</note>
       </trans-unit>
       <trans-unit id="3cc21b7970c348679cb6a1323a2dc173" approved="yes">
         <source>Alias is invalid</source>
         <target state="final">别名是无效的</target>
-        <note>Line: 3889</note>
+        <note>Line: 3896</note>
       </trans-unit>
       <trans-unit id="52629716aa86c04b8d81bc7e9522463f" approved="yes">
         <source>Store is invalid</source>
         <target state="final">无效商店</target>
-        <note>Line: 4060</note>
+        <note>Line: 4067</note>
       </trans-unit>
       <trans-unit id="2e73276e5106584df31fd1cc5823ba81" approved="yes">
         <source>Supplier ID (%id%) is not valid (at line %line%).</source>
         <target state="final">供应商ID（%id%） 无效（在第行%line%）</target>
-        <note>Line: 4130</note>
+        <note>Line: 4137</note>
       </trans-unit>
       <trans-unit id="5dbfdcc4de08ec893f55919dc4e872dc" approved="yes">
         <source>Lang ID (%id%) is not valid (at line %line%).</source>
         <target state="final">语言ID（%id%）无效（在第%line%行）</target>
-        <note>Line: 4133</note>
+        <note>Line: 4140</note>
       </trans-unit>
       <trans-unit id="f0cf11a8f6275d2bac5a189cbb41c689" approved="yes">
         <source>Warehouse ID (%id%) is not valid (at line %line%).</source>
         <target state="final">仓库ID（%id%）无效（在第%line%行）</target>
-        <note>Line: 4136</note>
+        <note>Line: 4143</note>
       </trans-unit>
       <trans-unit id="b390e8c2a66fd018293fb44a5b8208c8" approved="yes">
         <source>Currency ID (%id%) is not valid (at line %line%).</source>
         <target state="final">货币ID（%id%）无效（在第%line%行）</target>
-        <note>Line: 4139</note>
+        <note>Line: 4146</note>
+      </trans-unit>
+      <trans-unit id="41a2fc826e4bd29b8eaf497a89a9dc5d" approved="yes">
+        <source>Reference (%ref%) already exists (at line %line%).</source>
+        <target state="final">商品编号 (%ref%) 已经存在 (在第 %line%行).</target>
+        <note>Line: 4152</note>
       </trans-unit>
       <trans-unit id="70e7a6fcceb39a1e3ea3925182b85d18" approved="yes">
         <source>YYYY-MM-DD</source>
         <target state="final">年年年年-月月-日日</target>
-        <note>Line: 4150</note>
+        <note>Line: 4157</note>
       </trans-unit>
       <trans-unit id="c1be0fbaeb4e6b509e2f65240b7e5970" approved="yes">
         <source>Date format (%date%) is not valid (at line %line%). It should be: %date_format%.</source>
         <target state="final">日期格式（%date%）无效（在第%line%行）。它应该是：%date_format%</target>
-        <note>Line: 4148</note>
+        <note>Line: 4155</note>
       </trans-unit>
       <trans-unit id="8cc169924951a04aea4f6a86334f3ce6" approved="yes">
         <source>Date (%date%) cannot be in the past (at line %line%). Format: %date_format%.</source>
         <target state="final">日期（%date%） 不能是过去时（在第%line%行）。格式：%date_format%</target>
-        <note>Line: 4150</note>
+        <note>Line: 4157</note>
       </trans-unit>
       <trans-unit id="ef1a78ea7433cfc92f358d6dbf4fcd48" approved="yes">
         <source>Format: Between 0 and 100</source>
         <target state="final">格式：从0到100</target>
-        <note>Line: 4317</note>
+        <note>Line: 4324</note>
       </trans-unit>
       <trans-unit id="e0b985fb06e1498649ed1cfd6f3fb3e4" approved="yes">
         <source>Discount rate (%rate%) is not valid (at line %line%). %format%.</source>
         <target state="final">折扣比率（%rate%）无效（第%line%行）。%format%</target>
-        <note>Line: 4154</note>
+        <note>Line: 4161</note>
       </trans-unit>
       <trans-unit id="3f2f635ad300e97bc217b69cc06dfc30" approved="yes">
         <source>Supply Order (%id%) is not editable (at line %line%).</source>
         <target state="final">供应订单（%id%）无法编辑（在第%line%行）</target>
-        <note>Line: 4160</note>
+        <note>Line: 4167</note>
       </trans-unit>
       <trans-unit id="ad1ce5290a697ed3729cbd520432cf22" approved="yes">
         <source>Supply Order could not be saved (at line %line%).</source>
         <target state="final">供应订单无法保存（在第%line%行）</target>
-        <note>Line: 4191</note>
+        <note>Line: 4198</note>
       </trans-unit>
       <trans-unit id="bb19d4490bdc48656603c0a7ef30db73" approved="yes">
         <source>Supply Order (%s) could not be loaded (at line %d).</source>
         <target state="final">供应订单(%s)无法加载（在第%d行).</target>
-        <note>Line: 4259</note>
+        <note>Line: 4266</note>
       </trans-unit>
       <trans-unit id="5e063c49ce8203f2ca7a496da24b819e" approved="yes">
         <source>Product/Attribute (%d/%d) cannot be added twice (at line %d).</source>
         <target state="final">商品/属性(%d/%d)不能重复添加（在第%d行).</target>
-        <note>Line: 4280</note>
+        <note>Line: 4287</note>
       </trans-unit>
       <trans-unit id="0a657a7416c29bdc5b134b61b863e7ee" approved="yes">
         <source>Product (%d/%d) is not available for this order (at line %d).</source>
         <target state="final">商品(%d/%d) 在此订单不可用（在第%d行).</target>
-        <note>Line: 4292</note>
+        <note>Line: 4299</note>
       </trans-unit>
       <trans-unit id="ca676c9ec4e1ae9fe9df3ac28910e6ef" approved="yes">
         <source>Unit Price (tax excl.) (%d) is not valid (at line %d).</source>
         <target state="final">单价（不含税）(%d)是无效的（在第%d行).。</target>
-        <note>Line: 4299</note>
+        <note>Line: 4306</note>
       </trans-unit>
       <trans-unit id="406eba9770c82a84cae2d6ee3e846a56" approved="yes">
         <source>Quantity Expected (%d) is not valid (at line %d).</source>
         <target state="final">预期数量 (%d)无效（在第%d行).</target>
-        <note>Line: 4314</note>
+        <note>Line: 4321</note>
       </trans-unit>
       <trans-unit id="8f7627c77b01dc968a9665c0156da405" approved="yes">
         <source>Discount rate (%d) is not valid (at line %d). %s.</source>
         <target state="final">打折率(%d)是无效的（在第%d行). %s.</target>
-        <note>Line: 4306</note>
+        <note>Line: 4313</note>
       </trans-unit>
       <trans-unit id="243c959202a4f6ce7f1ccba6bc19ff08" approved="yes">
         <source>Cannot read the .CSV file</source>
         <target state="final">无法阅读 .CSV文档</target>
-        <note>Line: 4405</note>
+        <note>Line: 4412</note>
       </trans-unit>
       <trans-unit id="931bbbb741d025e3ff25ee3c2e72f414" approved="yes">
         <source>Linking Accessories...</source>
         <target state="final">正在载入配件...</target>
-        <note>Line: 4681</note>
+        <note>Line: 4688</note>
       </trans-unit>
       <trans-unit id="32de857e46ef2b55ce3582004fef7a95" approved="yes">
         <source>The confirmation email couldn't be sent, but the import is successful. Yay!</source>
         <target state="final">无法发送确认邮件，但导入已成功，耶！</target>
-        <note>Line: 4907</note>
+        <note>Line: 4914</note>
       </trans-unit>
     </body>
   </file>
@@ -420,7 +447,7 @@
     <body>
       <trans-unit id="5bb701014490e33a37ecdc43ce578404" approved="yes">
         <source>You can't put this menu inside itself. </source>
-        <target state="final">你不能把该菜单放在自身里面 </target>
+        <target state="final">你不能把菜单放到它自己里面。 </target>
         <note>Line: 297</note>
       </trans-unit>
     </body>
@@ -479,6 +506,11 @@
         <target state="final">(从 %s 到 %s)</target>
         <note>Line: 326</note>
       </trans-unit>
+      <trans-unit id="b53b06c0e98a2db123f953f0059a0948" approved="yes">
+        <source>with truncate</source>
+        <target state="final">用截断</target>
+        <note>Line: 332</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Import/Handler/CategoryImportHandler.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -503,6 +535,11 @@
         <target state="final">%category_name%（ID：%id%）无法保存</target>
         <note>Line: 305</note>
       </trans-unit>
+      <trans-unit id="6c1e9fe2a61808296a44cee372124bcb" approved="yes">
+        <source>URL rewriting failed to auto-generate a friendly URL for: %category_name%</source>
+        <target state="final">URL 重新属性无法自动生成一个友好的URL给: %category_name%</target>
+        <note>Line: 350</note>
+      </trans-unit>
       <trans-unit id="4798b868d51d8e259321deff0452c0f9" approved="yes">
         <source>Rewrite link for %1$s (ID %2$s): re-written as %3$s.</source>
         <target state="final">为%1$s (ID %2$s) 重写链接：重写为%3$s</target>
@@ -512,6 +549,16 @@
         <source>A category cannot be its own parent. The parent category ID is either missing or unknown (ID: %1$s).</source>
         <target state="final">分类不能作为自己的父分类。父分类 ID 可能缺失或未知（ID: %1$s).</target>
         <note>Line: 422</note>
+      </trans-unit>
+      <trans-unit id="7bc08d1a3178f4927b2c07a18f417b4b" approved="yes">
+        <source>The root category cannot be modified.</source>
+        <target state="final">不能修改根分类。</target>
+        <note>Line: 447</note>
+      </trans-unit>
+      <trans-unit id="50fe5f166bc7695a0c0db12ea8a346e7" approved="yes">
+        <source>cannot be copied.</source>
+        <target state="final">无法复制.</target>
+        <note>Line: 491</note>
       </trans-unit>
       <trans-unit id="87098ca5171ae766269f50b24ef3189d" approved="yes">
         <source>%1$s (ID: %2$s) cannot be %3$s</source>
@@ -526,6 +573,11 @@
         <source>Unknown tax rule group ID. You need to create a group with this ID first.</source>
         <target state="final">未知的税务规则组ID，您需要先用这个ID创建一个组。</target>
         <note>Line: 490</note>
+      </trans-unit>
+      <trans-unit id="43bf950e043950e2da10f917b902c131" approved="yes">
+        <source>%1$s (ID: %2$s) cannot be saved</source>
+        <target state="final">%1$s (ID: %2$s) 无法保存</target>
+        <note>Line: 675</note>
       </trans-unit>
       <trans-unit id="994e8f1b72a9fe7a9e8949343be6bde7" approved="yes">
         <source>%data% cannot be saved</source>
@@ -552,10 +604,65 @@
         <target state="final">拷贝图片时出错：%url%</target>
         <note>Line: 1120</note>
       </trans-unit>
+      <trans-unit id="61e49f62654858f3cd3d9b23bee90d06" approved="yes">
+        <source>Product #%id%: the picture (%url%) cannot be saved.</source>
+        <target state="final">产品#%id%： 图片（%url%）无法保存</target>
+        <note>Line: 1138</note>
+      </trans-unit>
+      <trans-unit id="c2758df7a8c70260e3b55e26c51b65fd" approved="yes">
+        <source>Advanced stock management has incorrect value. Not set for product %name% </source>
+        <target state="final">高级库存管理含有不正确的值。商品 %name% 没有设定值 </target>
+        <note>Line: 1232</note>
+      </trans-unit>
+      <trans-unit id="bb80841517f78647c5bee69710820c8d" approved="yes">
+        <source>Advanced stock management is not enabled, cannot enable on product %name% </source>
+        <target state="final">高级库存管理未启用，无法启用商品%name% </target>
+        <note>Line: 1240</note>
+      </trans-unit>
       <trans-unit id="651e202913d9229ff615d5afd6a6a168" approved="yes">
         <source>Advanced stock management is not enabled, warehouse not set on product %name% </source>
-        <target state="final">高级库存管理未启用，产品%name%的仓库未设置 </target>
+        <target state="final">高级库存管理未启用, 无法找到商品%name% 所在仓库 </target>
         <note>Line: 1259</note>
+      </trans-unit>
+      <trans-unit id="470d8f3caa9e30c426f8d49779cc7a36" approved="yes">
+        <source>Warehouse did not exist, cannot set on product  %name% </source>
+        <target state="final">仓库不存在，无法设置产品%name% </target>
+        <note>Line: 1281</note>
+      </trans-unit>
+      <trans-unit id="3d52f8b2b1a67aa8740b72b3752d54f3" approved="yes">
+        <source>Incorrect value for "Depends on stock" for product %name% </source>
+        <target state="final">产品%name%的”取决于库存“ 值不正确 </target>
+        <note>Line: 1303</note>
+      </trans-unit>
+      <trans-unit id="65167d7a989d3a25c4f81a7140b07b8f" approved="yes">
+        <source>Advanced stock management is not enabled, cannot set "Depends on stock" for product %name% </source>
+        <target state="final">高级库存管理未启用. 无法设置产品%name%的"取决于库存". </target>
+        <note>Line: 1311</note>
+      </trans-unit>
+      <trans-unit id="1f45b8f0e0e3ab3a5c43c9b99641fad5" approved="yes">
+        <source>Advanced stock management has incorrect value. Not set for product %name%</source>
+        <target state="final">高级库存管理含有不正确的值。它不是为产品%name%所设</target>
+        <note>Line: 1232</note>
+      </trans-unit>
+      <trans-unit id="0f617687e3fc1e518f830dc0ad427cd8" approved="yes">
+        <source>Advanced stock management is not enabled, cannot enable on product %name%</source>
+        <target state="final">高级库存管理未激活，无法启用产品%name%</target>
+        <note>Line: 1240</note>
+      </trans-unit>
+      <trans-unit id="1e82a87bf4a4e2edca0e1063116a5328" approved="yes">
+        <source>Advanced stock management is not enabled, warehouse not set on product %name%</source>
+        <target state="final">高级库存管理未启用，产品%name%的仓库未设置</target>
+        <note>Line: 1259</note>
+      </trans-unit>
+      <trans-unit id="068e8a1ac19374587efc15a38ce9c559" approved="yes">
+        <source>Incorrect value for "Depends on stock" for product %name%</source>
+        <target state="final">产品%name%的“取决于库存” 数值不正确。</target>
+        <note>Line: 1303</note>
+      </trans-unit>
+      <trans-unit id="295a2f663d0e8cc6324b85ef49e9be26" approved="yes">
+        <source>Advanced stock management is not enabled, cannot set "Depends on stock" for product %name%</source>
+        <target state="final">高级库存管理未启用。无法设置产品%name%的”取决于库存“。</target>
+        <note>Line: 1311</note>
       </trans-unit>
     </body>
   </file>
@@ -794,6 +901,11 @@
         <target state="final">这个%reference%在"%table%"表中不存在。</target>
         <note>Line: 363</note>
       </trans-unit>
+      <trans-unit id="7b4dd672e3b87269079894e693ce9b76" approved="yes">
+        <source>When multiple tables are used, each attribute must refer back to a table.</source>
+        <target state="final">当使用多个表格时，每个属性都必须关联一个表格。</target>
+        <note>Line: 373</note>
+      </trans-unit>
       <trans-unit id="8ff8844bb02822975904934598298987" approved="yes">
         <source>"%key%" is an unauthorized keyword.</source>
         <target state="final">“%key%”是个未经授权的关键词</target>
@@ -803,7 +915,11 @@
   </file>
   <file original="src/Adapter/Upload/UploadQuotaConfiguration.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="c3ecc0e8b4dc11a1d2c66d81439b4a42" approved="yes">
+        <source>The limit chosen is larger than the server's maximum upload limit. Please increase the limits of your server.</source>
+        <target state="final">选择的上限已经超过服务器可接受的上传限制。请增加你服务器的上限。</target>
+        <note>Line: 94</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Core/Import/File/FileUploader.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -812,6 +928,11 @@
         <source>No file was uploaded.</source>
         <target state="final">没有文件被上传</target>
         <note>Line: 124</note>
+      </trans-unit>
+      <trans-unit id="68e8d36b17584f88614fb3201925a7ac" approved="yes">
+        <source>The uploaded file exceeds the upload_max_filesize directive in php.ini. If your server configuration allows it, you may add a directive in your .htaccess.</source>
+        <target state="final">Php.ini里上传的文件超过大小上限。如果你的服务器配置允许，你可以在你的.htaccess里添加一个指令。</target>
+        <note>Line: 111</note>
       </trans-unit>
       <trans-unit id="0bedafc96db94da3f85caa7101944eb5" approved="yes">
         <source>The uploaded file exceeds the post_max_size directive in php.ini. If your server configuration allows it, you may add a directive in your .htaccess, for example:</source>
@@ -850,22 +971,22 @@
       <trans-unit id="e11a22a5910f9f84a6630ee78e1a39f5" approved="yes">
         <source>Please activate the 'mod_rewrite' Apache module to allow the PrestaShop webservice.</source>
         <target state="final">请激活'mod_rewrite的'Apache模块允许的Prestashop web服务。</target>
-        <note>Line: 166</note>
+        <note>Line: 152</note>
       </trans-unit>
       <trans-unit id="2c19e4b707a422ddbbc4d1c32966661d" approved="yes">
         <source>We could not check to see if basic authentication and rewrite extensions have been activated. Please manually check if they've been activated in order to use the PrestaShop webservice.</source>
         <target state="final">我们可以不检查基本身份验证和激活重写扩展。请手动检查他们是否被激活使用的Prestashop Web服务。</target>
-        <note>Line: 171</note>
+        <note>Line: 157</note>
       </trans-unit>
       <trans-unit id="ab60321a106f1e1ab65b76c1ca15dd7c" approved="yes">
         <source>Please activate the 'SimpleXML' PHP extension to allow testing of PrestaShop's webservice.</source>
         <target state="final">请激活'的SimpleXML“PHP扩展，允许的Prestashop的web服务的测试。</target>
-        <note>Line: 176</note>
+        <note>Line: 162</note>
       </trans-unit>
       <trans-unit id="0508bbb36fb6b5db31edf2f45cd687ea" approved="yes">
         <source>It is preferable to use SSL (https:) for webservice calls, as it avoids the "man in the middle" type security issues.</source>
         <target state="final">如果可能的话，最好使用SSL（HTTPS）的WebService调用，因为它避免 "man in the middle"的安全问题”。</target>
-        <note>Line: 181</note>
+        <note>Line: 167</note>
       </trans-unit>
     </body>
   </file>
@@ -898,32 +1019,32 @@
       <trans-unit id="a375d9230fd61b4a70ac109ab7b11082" approved="yes">
         <source>You cannot edit the SuperAdmin profile.</source>
         <target state="final">您不能编辑超级管理员的资料。</target>
-        <note>Line: 342</note>
+        <note>Line: 345</note>
       </trans-unit>
       <trans-unit id="cd34716bc68eb08479ddf16f17b2580e" approved="yes">
         <source>The provided profile is invalid</source>
         <target state="final">提供的资料无效</target>
-        <note>Line: 506</note>
+        <note>Line: 509</note>
       </trans-unit>
       <trans-unit id="f5d44b60e38b28d19549bb7a107654ca" approved="yes">
         <source>You cannot disable or delete your own account.</source>
         <target state="final">您不可以禁用或者删除您自己的账户。</target>
-        <note>Line: 490</note>
+        <note>Line: 493</note>
       </trans-unit>
       <trans-unit id="2450228823b8e17792cf687b8543b59d" approved="yes">
         <source>You cannot disable or delete the administrator account.</source>
         <target state="final">您不可以禁用或者删除您自己的账户。</target>
-        <note>Line: 484</note>
+        <note>Line: 487</note>
       </trans-unit>
       <trans-unit id="4220fb02fdc65e838a02a3b51c6f737f" approved="yes">
         <source>Your current password is invalid.</source>
         <target state="final">您的当前密码不正确。</target>
-        <note>Line: 534</note>
+        <note>Line: 537</note>
       </trans-unit>
       <trans-unit id="cfe45dd92c1b71a640ea19767578f38c" approved="yes">
         <source>The employee must be associated with at least one shop.</source>
         <target state="final">员工必须致至少关联一个店铺</target>
-        <note>Line: 502</note>
+        <note>Line: 505</note>
       </trans-unit>
     </body>
   </file>
@@ -948,7 +1069,11 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ImportDataConfigurationController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="1ffbb6a3722eb0c39784c1c646e104cd" approved="yes">
+        <source>The import file cannot be read.</source>
+        <target state="final">无法读取导入文件。</target>
+        <note>Line: 76</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/MemcacheServerController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -970,7 +1095,7 @@
       <trans-unit id="fd4adc19ae7e0f0391f617451f3729cf" approved="yes">
         <source>All caches cleared successfully</source>
         <target state="final">所有缓存成功清除</target>
-        <note>Line: 124</note>
+        <note>Line: 123</note>
       </trans-unit>
     </body>
   </file>
@@ -979,7 +1104,7 @@
       <trans-unit id="7d6f235518e595f4e988b6811d2ceeab" approved="yes">
         <source>For security reasons, you cannot delete the Administrator's profile.</source>
         <target state="final">出于安全原因，您不能删除超级管理员设置信息</target>
-        <note>Line: 271</note>
+        <note>Line: 281</note>
       </trans-unit>
     </body>
   </file>
@@ -1002,22 +1127,22 @@
       <trans-unit id="023d53a99c8074e823e5b2db4c19dfa4" approved="yes">
         <source>(you must install the [a]Memcache PECL extension[/a])</source>
         <target state="final">(您必须安装[a]Memcache PECL扩展[/a])</target>
-        <note>Line: 122</note>
+        <note>Line: 118</note>
       </trans-unit>
       <trans-unit id="82742001d67f4446f50d68908f0f8b96" approved="yes">
         <source>(you must install the [a]Memcached PECL extension[/a])</source>
         <target state="final">(您必须安装 [a]Memcache PECL 外挂[/a])</target>
-        <note>Line: 132</note>
+        <note>Line: 128</note>
       </trans-unit>
       <trans-unit id="78ae94b19fc38f9a35d20bc67cde2d61" approved="yes">
         <source>(you must install the [a]APC PECL extension[/a])</source>
         <target state="final">(您必须安装[a]APC PECL扩展[/a])</target>
-        <note>Line: 142</note>
+        <note>Line: 138</note>
       </trans-unit>
       <trans-unit id="8b763a82c2aa7875f3da39399ba350d7" approved="yes">
         <source>(you must install the [a]Xcache extension[/a])</source>
         <target state="final">(您必须安装[a]Xcache扩展[/a])</target>
-        <note>Line: 152</note>
+        <note>Line: 148</note>
       </trans-unit>
     </body>
   </file>
@@ -1161,7 +1286,16 @@
       <trans-unit id="5b8df4265c79cd43831e740281850c84" approved="yes">
         <source>SSL does not seem to be available on your server.</source>
         <target state="final">您的服务器似乎不支持SSL</target>
-        <note>Line: 74</note>
+        <note>Line: 75</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/RequestSql/Blocks/db_tables_panel.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
+    <body>
+      <trans-unit id="0fe194d9bb812c48dfe35a3cf6d0af52" approved="yes">
+        <source>Please choose a MySQL table</source>
+        <target state="final">请选择一个MySQL表</target>
+        <note>Line: 77</note>
       </trans-unit>
     </body>
   </file>
@@ -1174,12 +1308,21 @@
       </trans-unit>
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/RequestSql/view.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
+    <body>
+      <trans-unit id="3be751fc7ab3f3ced8007796fe8bde7d" approved="yes">
+        <source>This SQL query has no result.</source>
+        <target state="final">此 SQL 查询没有结果。</target>
+        <note>Line: 69</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/memcache_servers.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
       <trans-unit id="29be13f78208f2e848c6b6645a79f813" approved="yes">
         <source>Do you really want to remove the server %serverIp%:%serverPort% ?</source>
         <target state="final">您真的要删除服务器 %serverIp%:%serverPort% ?</target>
-        <note>Line: 93</note>
+        <note>Line: 69</note>
       </trans-unit>
     </body>
   </file>
