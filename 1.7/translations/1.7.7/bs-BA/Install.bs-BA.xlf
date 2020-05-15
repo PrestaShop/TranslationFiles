@@ -12,6 +12,11 @@
         <target state="final">Sporazumi licenciranja</target>
         <note>Line: 103</note>
       </trans-unit>
+      <trans-unit id="d13e189d15c36f1ec8ff701cce809b4d" approved="yes">
+        <source>System compatibility</source>
+        <target state="final">Kompatibilnost sistema</target>
+        <note>Line: 108</note>
+      </trans-unit>
       <trans-unit id="3aea774cdcd8f2c45549f10758a71323" approved="yes">
         <source>Store information</source>
         <target state="final">Informacije o trgovini</target>
@@ -85,10 +90,20 @@ Comment: Link to localized forum</note>
         <target state="final">Polje %field% je ograničeno na %limit% znakova</target>
         <note>Line: 106</note>
       </trans-unit>
+      <trans-unit id="342f5c77ed008542e78094607ce1f7f3" approved="yes">
+        <source>firstname</source>
+        <target state="final">ime</target>
+        <note>Line: 100</note>
+      </trans-unit>
       <trans-unit id="2399cf4ca7b49f2706f6e147a32efa78" approved="yes">
         <source>Your lastname contains some invalid characters</source>
         <target state="final">Vaše prezime sadrži neke znakove koji nisu valjani</target>
         <note>Line: 104</note>
+      </trans-unit>
+      <trans-unit id="8ad75c5a8821cc294f189181722acb56" approved="yes">
+        <source>lastname</source>
+        <target state="final">prezime</target>
+        <note>Line: 106</note>
       </trans-unit>
       <trans-unit id="74d36cb95a84f88728b3d69678aba185" approved="yes">
         <source>The password and its confirmation are different</source>
@@ -333,6 +348,16 @@ Comment: We fill the process step used for Ajax queries</note>
         <target state="final">Intl ekstenzija nije učitana</target>
         <note>Line: 106</note>
       </trans-unit>
+      <trans-unit id="b980f0f59e930d473eefd5968dd06e7e" approved="yes">
+        <source>PHP %version% or later is not enabled</source>
+        <target state="final">PHP %version% ili kasniji nije omogućen</target>
+        <note>Line: 95</note>
+      </trans-unit>
+      <trans-unit id="c6805f594c7b2b56eccf7d5d6cd377da" approved="yes">
+        <source>PHP's config "memory_limit" must be to a minimum of 256M</source>
+        <target state="final">Konfiguracija "memory_limit" PHP-a mora biti najmanje 256M</target>
+        <note>Line: 107</note>
+      </trans-unit>
     </body>
   </file>
   <file original="install-dev/theme/views/configure.php" source-language="en" target-language="bs" datatype="plaintext">
@@ -436,6 +461,11 @@ Comment: We fill the process step used for Ajax queries</note>
         <source>E-mail address</source>
         <target state="final">E-mail adresa</target>
         <note>Line: 145</note>
+      </trans-unit>
+      <trans-unit id="a838dd011a3bb99084a43912a71cdc46" approved="yes">
+        <source>This email address will be your username to access your store's back office.</source>
+        <target state="final">Ova e-mail adresa će biti vaše korisničko ime za pristup vašoj administraciji trgovine.</target>
+        <note>Line: 150</note>
       </trans-unit>
       <trans-unit id="ecb77be87bda4dd34d51cfedbef9b6c3" approved="yes">
         <source>Shop password</source>
@@ -692,6 +722,11 @@ Comment: We fill the process step used for Ajax queries</note>
         <target state="final">Administracija</target>
         <note>Line: 92</note>
       </trans-unit>
+      <trans-unit id="450abc1417292c60121dd3dfde9c9b23" approved="yes">
+        <source>Manage your store using your Back Office. Manage your orders and customers, add modules, change themes, etc.</source>
+        <target state="final">Upravljajte svojom trgovinom koristeći svoju administraciju. Upravljajte svojim narudžbama i kupcima, dodajte module, promjenite teme, itd.</target>
+        <note>Line: 93</note>
+      </trans-unit>
       <trans-unit id="39b5e23e409fa9f6f67e984c1bedf6ae" approved="yes">
         <source>Manage your store</source>
         <target state="final">Upravljajte svojom trgovinom</target>
@@ -781,10 +816,25 @@ Comment: We fill the process step used for Ajax queries</note>
         <target state="final">Ups! Ispravite stavku(e) ispod, a zatim kliknite na "Osvježi informacije" da bi testirali kompatibilnost vašeg novog sistema.</target>
         <note>Line: 35</note>
       </trans-unit>
+      <trans-unit id="63a6a88c066880c5ac42394a22803ca6" approved="yes">
+        <source>Refresh</source>
+        <target state="final">Osvježi</target>
+        <note>Line: 51</note>
+      </trans-unit>
+      <trans-unit id="f0b73b6383e71f71d32e9dff781c6a32" approved="yes">
+        <source>Oops! Please correct the item(s) below, and then click "Refresh" to test the compatibility of your new system.</source>
+        <target state="final">Ups! Ispravite stavku(e) ispod, a zatim kliknite na "Osvježi" da bi testirali kompatibilnost vašeg novog sistema.</target>
+        <note>Line: 35</note>
+      </trans-unit>
     </body>
   </file>
   <file original="install-dev/theme/views/welcome.php" source-language="en" target-language="bs" datatype="plaintext">
     <body>
+      <trans-unit id="d51066397d7cbedc122457c9479f6fb2" approved="yes">
+        <source>PrestaShop requires at least 32 MB of memory to run: please check the memory_limit directive in your php.ini file or contact your host provider about this.</source>
+        <target state="final">PrestaShop zahtijeva barem 32 MB memorije za pokretanje: provjerite memory_limit postavku u php.ini datoteci ili kontaktirajte svog pružatelja usluga.</target>
+        <note>Line: 29</note>
+      </trans-unit>
       <trans-unit id="c8c27951cbaf7da257e6af50a6fc4116" approved="yes">
         <source><![CDATA[<b>Warning: You cannot use this tool to upgrade your store anymore.</b><br /><br />You already have <b>PrestaShop version %version% installed</b>.<br /><br />If you want to upgrade to the latest version, please read our documentation: <a href="%doc%">%doc%</a>]]></source>
         <target state="final"><![CDATA[<b>Upozorenje: Ne možete više koristiti ovaj alat za nadogradnju svoje trgovine</b><br /><br />Vi već imate <b>PrestaShop version %version% instaliranu</b>.<br /><br />Ukoliko se želite nadograditi na zadnju verziju molimo pročitajte dokumentaciju:<a href="%doc%">%doc%</a>]]></target>
@@ -819,7 +869,12 @@ Comment: We fill the process step used for Ajax queries</note>
   </file>
   <file original="modules/autoupgrade/classes/UpgradePage.php" source-language="en" target-language="bs" datatype="plaintext">
     <body>
-      
+      <trans-unit id="7d72600fcff52fb3a2d2f73572117311" approved="yes">
+        <source>Your database server does not support the utf-8 charset.</source>
+        <target state="final">Vaš server baze podataka ne podržava utf-8 znakove.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/UpgradePage.php:414</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php" source-language="en" target-language="bs" datatype="plaintext">
@@ -919,6 +974,16 @@ Comment: We fill the process step used for Ajax queries</note>
         <target state="final">Putovanje</target>
         <note>Line: 154</note>
       </trans-unit>
+      <trans-unit id="4d0a6a9777a818ecc3b59b9a8ecd0c43" approved="yes">
+        <source>-- Please choose your main activity --</source>
+        <target state="final">-- Molimo izaberite vašu glavnu djelatnost --</target>
+        <note>Line: 133</note>
+      </trans-unit>
+      <trans-unit id="9503054261b8aeed48e0a3902019b579" approved="yes">
+        <source>Sport and Entertainment</source>
+        <target state="final">Sport i zabava</target>
+        <note>Line: 153</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Install/Database.php" source-language="en" target-language="bs" datatype="plaintext">
@@ -953,10 +1018,20 @@ Comment: We fill the process step used for Ajax queries</note>
         <target state="final">Podaci baze podataka se ne mogu pretvoriti u utf-8</target>
         <note>Line: 74</note>
       </trans-unit>
+      <trans-unit id="00151f099adaa8a1ad25dff0862b121b" approved="yes">
+        <source>The values of auto_increment increment and offset must be set to 1</source>
+        <target state="final">Vrijednosti auto_increment prirastaju i offset mora biti postavljen na 1</target>
+        <note>Line: 82</note>
+      </trans-unit>
       <trans-unit id="2c3fc7088c5715d31d1f0a33d1e7c79c" approved="yes">
         <source>Your database login does not have the privileges to create table on the database "%s". Ask your hosting provider:</source>
         <target state="final">Vaš login baze podataka nema ovlasti za kreiranje tabele u bazi podataka "%s". Pitajte svog hosting providera:</target>
         <note>Line: 85</note>
+      </trans-unit>
+      <trans-unit id="ce799e40a5e7b523d011b80868fe4ca4" approved="yes">
+        <source>Database Server is not found. Please verify the login, password and server fields</source>
+        <target state="final">Server baze bodataka nije pronađen. Molimo provjerite prijavu, lozinku i polja servera</target>
+        <note>Line: 94</note>
       </trans-unit>
       <trans-unit id="9a0b7b3a849553ab760177a12f4ebc7f" approved="yes">
         <source>Connection to MySQL server succeeded, but database "%database%" not found</source>
@@ -982,6 +1057,11 @@ Comment: We fill the process step used for Ajax queries</note>
         <target state="final">%folder% direktorij nije moguće upisati (provjerite permisije)</target>
         <note>Line: 148</note>
       </trans-unit>
+      <trans-unit id="b63440f4a2f5faa849b821e433c85e53" approved="yes">
+        <source>Cannot write settings file</source>
+        <target state="final">Ne možete pisati postavke datoteke</target>
+        <note>Line: 203</note>
+      </trans-unit>
       <trans-unit id="39fcc4a2539d44e1bc88df1af88df1e8" approved="yes">
         <source>Cannot write app/config/parameters.php file</source>
         <target state="final">Ne mogu zapisati app/config/parameters.php datoteku</target>
@@ -991,6 +1071,26 @@ Comment: We fill the process step used for Ajax queries</note>
         <source>Cannot write app/config/parameters.yml file</source>
         <target state="final">Ne mogu zapisati app/config/parameters.yml datoteku</target>
         <note>Line: 240</note>
+      </trans-unit>
+      <trans-unit id="453faec2c85b2b9c0b9c2b474b30bd21" approved="yes">
+        <source>Database structure file not found</source>
+        <target state="final">Datoteka strukture baze podataka nije pronađena</target>
+        <note>Line: 291</note>
+      </trans-unit>
+      <trans-unit id="f726c29f41d9b6ab3d61f6f4e41959a3" approved="yes">
+        <source>Cannot create group shop</source>
+        <target state="final">Grupa prodavnice se ne može kreirati</target>
+        <note>Line: 521</note>
+      </trans-unit>
+      <trans-unit id="19de782cabcc5cc12fa9730264cd5325" approved="yes">
+        <source>Cannot create shop</source>
+        <target state="final">Trgovina ne može biti kreirana</target>
+        <note>Line: 534</note>
+      </trans-unit>
+      <trans-unit id="90ae323fee3fa743290c6ebdbd7fea65" approved="yes">
+        <source>Cannot create shop URL</source>
+        <target state="final">URL trgovine ne može biti kreiran</target>
+        <note>Line: 550</note>
       </trans-unit>
       <trans-unit id="53d7a51998faa87f513eb974a2a596f2" approved="yes">
         <source>File "language.xml" not found for language iso "%iso%"</source>
@@ -1016,6 +1116,11 @@ Comment: We fill the process step used for Ajax queries</note>
         <source>Cannot copy flag language "%flag%"</source>
         <target state="final">Ne mogu kopirati zastavu jezika "%flag%"</target>
         <note>Line: 625</note>
+      </trans-unit>
+      <trans-unit id="27654955bc85150712aa0bc53bcc6224" approved="yes">
+        <source>Cannot create admin account</source>
+        <target state="final">Admin nalog ne može biti kreiran</target>
+        <note>Line: 829</note>
       </trans-unit>
       <trans-unit id="26b901ba3ecdcb91823f05ce15a70ce4" approved="yes">
         <source>Cannot install module "%module%"</source>
@@ -1090,6 +1195,11 @@ Comment: We fill the process step used for Ajax queries</note>
         <source>Theme successfully upgraded.</source>
         <target state="final">Tema uspješno nadograđena.</target>
         <note>Line: 942</note>
+      </trans-unit>
+      <trans-unit id="9c7e0ba2c6ecb11af7f39843bbc18ff8" approved="yes">
+        <source>Warning detected during upgrade.</source>
+        <target state="final">Upozorenje je detektirano tokom nadogradnje.</target>
+        <note>Line: 987</note>
       </trans-unit>
       <trans-unit id="bd077be8e2cdf937e5b77300a0131f9a" approved="yes">
         <source>Error detected during upgrade.</source>
