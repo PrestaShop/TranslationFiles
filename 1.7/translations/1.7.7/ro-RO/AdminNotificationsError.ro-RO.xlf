@@ -986,8 +986,16 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/CategoryController.php" source-language="en" target-language="ro" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="5a74281d285a570c23d2e23ae24c59dd" approved="yes">
+        <source>Category "%s" could not be created.</source>
+        <target state="final">Categoria "%s" nu a putut fi creata.</target>
+        <note>Line: 152</note>
+      </trans-unit>
+      <trans-unit id="0c57ee2e3c5e39125b3157e45137d5e8" approved="yes">
+        <source>This product could not be assigned to category "%s".</source>
+        <target state="final">Acest produs nu a putut fi atribuit categoriei "%s". </target>
+        <note>Line: 157</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/EmailController.php" source-language="en" target-language="ro" datatype="plaintext">
@@ -1033,6 +1041,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <source>You cannot delete your own profile</source>
         <target state="final">Nu-ti poti sterge propriul profil</target>
         <note>Line: 294</note>
+      </trans-unit>
+      <trans-unit id="3f19c85aaf117e786e30ce2d7f2c018f" approved="yes">
+        <source>This field cannot be longer than %limit% characters (incl. HTML tags)</source>
+        <target state="final">Acest camp nu poate fi mai lung de %limit% caractere (inclusiv etichete HTML)</target>
+        <note>Line: 271</note>
       </trans-unit>
     </body>
   </file>
@@ -1080,6 +1093,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">A aparut o eroare neprevazuta. [%type% cu codul %code%]</target>
         <note>Line: 395</note>
       </trans-unit>
+      <trans-unit id="5ab1978ae9ce868183a34316327be062" approved="yes">
+        <source>An unexpected error occurred. [%type% code %code%]: %message%</source>
+        <target state="final">A aparut o eroare neprevazuta. [%type% codul %code%]: %message%</target>
+        <note>Line: 384</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/Design/MailThemeController.php" source-language="en" target-language="ro" datatype="plaintext">
@@ -1093,6 +1111,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <source>Cannot send test email for layout %layout%</source>
         <target state="final">Nu se poate trimite e-mail de test pentru sablonul %layout%</target>
         <note>Line: 348</note>
+      </trans-unit>
+      <trans-unit id="26c322633921fe508bb9a03de1124986" approved="yes">
+        <source>Cannot translate emails body content</source>
+        <target state="final">Nu se poate traduce continutul e-mailurilor</target>
+        <note>Line: 374</note>
       </trans-unit>
     </body>
   </file>
@@ -1210,7 +1233,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/ProductController.php" source-language="en" target-language="ro" datatype="plaintext">
     <body>
-      
+      <trans-unit id="d3ee9a41133f8fc3c83c91d09053f249" approved="yes">
+        <source>The value of the PHP.ini setting "max_input_vars" must be increased to %value% in order to be able to submit the product form.</source>
+        <target state="final">Valoarea setarii PHP.ini "max_input_vars" trebuie sa fie cel putin %value% pentru a putea trimite formularul de produs.</target>
+        <note>Line: 698</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Address/AddressController.php" source-language="en" target-language="ro" datatype="plaintext">
@@ -1276,6 +1303,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">Dimensiunea maxima permisa pentru fisierul este de "%s" octeti (bytes).</target>
         <note>Line: 680</note>
       </trans-unit>
+      <trans-unit id="933c26f64355a37f82f1b6b7cfde4692" approved="yes">
+        <source>Address contains invalid field values</source>
+        <target state="final">Adresa contine campuri cu valori invalide.</target>
+        <note>Line: 693</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/SupplierController.php" source-language="en" target-language="ro" datatype="plaintext">
@@ -1284,6 +1316,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <source>Image format not recognized, allowed formats are: .gif, .jpg, .png</source>
         <target state="final">Formatul de imagine este necunoscut, sunt permise formatele: .gif, .jpg, .png</target>
         <note>Line: 505</note>
+      </trans-unit>
+      <trans-unit id="d46b3092a3a483fc500357fd90be18d4" approved="yes">
+        <source>The address for this supplier have been deleted</source>
+        <target state="final">Adresa acestui furnizor a fost stearsa</target>
+        <note>Line: 456</note>
       </trans-unit>
     </body>
   </file>
@@ -1312,20 +1349,85 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">Completeaza toate campurile obligatorii</target>
         <note>Line: 558</note>
       </trans-unit>
+      <trans-unit id="3a092130bd08641faa55f5abc9e4a1f4" approved="yes">
+        <source>Positive product quantity is required</source>
+        <target state="final">Cantitatea produsului trebuie sa fie un numar pozitiv</target>
+        <note>Line: 536</note>
+      </trans-unit>
+      <trans-unit id="86f57ed3b1fc0dc03e6cb040ec54add3" approved="yes">
+        <source>Selected currency cannot be used because it is deleted</source>
+        <target state="final">Moneda selectata nu poate fi utilizata pentru ca a fost stearsa</target>
+        <note>Line: 548</note>
+      </trans-unit>
+      <trans-unit id="f956270d456bfab7964f3a3e690d9482" approved="yes">
+        <source>Selected currency cannot be used because it is disabled</source>
+        <target state="final">Moneda selectata nu poate fi utilizata pentru ca este dezactivata</target>
+        <note>Line: 552</note>
+      </trans-unit>
+      <trans-unit id="3e74675c59f263c1cbb391eca17051ee" approved="yes">
+        <source>Custom field text cannot be longer than %limit% characters</source>
+        <target state="final">Textul campului personalizat nu poate fi mai lung de %limit% caractere</target>
+        <note>Line: 562</note>
+      </trans-unit>
       <trans-unit id="a923575984949608ce04c4984806ec2a" approved="yes">
         <source>There are not enough products in stock</source>
         <target state="final">Nu sunt suficiente produse in stoc</target>
         <note>Line: 568</note>
       </trans-unit>
+      <trans-unit id="059cfac7937209448c9fb1cf8f07e321" approved="yes">
+        <source>Positive product quantity is required.</source>
+        <target state="final">Cantitatea produsului trebuie sa fie un numar pozitiv.</target>
+        <note>Line: 536</note>
+      </trans-unit>
+      <trans-unit id="c5064b408c1894a4dbd6db58f119c4a6" approved="yes">
+        <source>Selected language cannot be used because it is disabled</source>
+        <target state="final">Limba selectata nu poate fi utilizata pentru ca este dezactivata</target>
+        <note>Line: 542</note>
+      </trans-unit>
+      <trans-unit id="ea5d4a7a4ca312b276b1d4ea1f74d724" approved="yes">
+        <source>Selected currency cannot be used because it is deleted.</source>
+        <target state="final">Moneda selectata nu poate fi utilizata pentru ca a fost stearsa.</target>
+        <note>Line: 548</note>
+      </trans-unit>
+      <trans-unit id="021361da28a3e064871e2cbbacd46757" approved="yes">
+        <source>Selected currency cannot be used because it is disabled.</source>
+        <target state="final">Moneda selectata nu poate fi utilizata pentru ca este dezactivata.</target>
+        <note>Line: 552</note>
+      </trans-unit>
+      <trans-unit id="bc5d37ff246288c98fa45f3903172747" approved="yes">
+        <source>Custom field text cannot be longer than %limit% characters.</source>
+        <target state="final">Textul campului personalizat nu poate fi mai lung de %limit% caractere.</target>
+        <note>Line: 562</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php" source-language="en" target-language="ro" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
+      <trans-unit id="59af32e406ca8d94850e9a2a696c9dcd" approved="yes">
+        <source>Invalid value: the payment must be a positive amount.</source>
+        <target state="final">Valoarea nu este valida: plata trebuie sa aiba o valoare pozitiva.</target>
+        <note>Line: 1509</note>
+      </trans-unit>
+      <trans-unit id="546710db975c663e306008fda9fc5865" approved="yes">
+        <source>Invalid action: this order has not been delivered.</source>
+        <target state="final">Actiune invalida: aceasta comanda nu a fost livrata.</target>
+        <note>Line: 1518</note>
+      </trans-unit>
+      <trans-unit id="b5ab864b320f4fcbcd061ee3119cf21c" approved="yes">
+        <source>Invalid action: this order has already been delivered.</source>
+        <target state="final">Actiune invalida: aceasta comanda a fost deja livrata.</target>
+        <note>Line: 1522</note>
+      </trans-unit>
+      <trans-unit id="3e19a894b9552d54a62e99b3f7e7cf94" approved="yes">
+        <source>Invalid action: this order has already been paid.</source>
+        <target state="final">Actiune invalida: aceasta comanda a fost deja platita.</target>
+        <note>Line: 1514</note>
+      </trans-unit>
+      <trans-unit id="7621aa68f3fb11dce889ba85f3a74758" approved="yes">
+        <source>Invalid action: this order has not been paid.</source>
+        <target state="final">Actiune invalida: aceasta comanda nu a fost platita.</target>
+        <note>Line: 1526</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/RequestSql/SqlRequestFormDataProvider.php" source-language="en" target-language="ro" datatype="plaintext">
@@ -1385,6 +1487,16 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">Aceasta valoare ar trebui sa fie mai mare decat %value%</target>
         <note>Line: 187</note>
       </trans-unit>
+      <trans-unit id="844ca4e119500cc9f8683704324a7e8e" approved="yes">
+        <source>This value should be greater than or equal to %value%</source>
+        <target state="final">Aceasta valoare ar trebui sa fie mai mare sau egala cu %value%</target>
+        <note>Line: 209</note>
+      </trans-unit>
+      <trans-unit id="16c25464673a698699a0e422747d1849" approved="yes">
+        <source>This field is invalid, it must contain a positive integer</source>
+        <target state="final">Acest camp nu este valid, trebuie sa contina un numar intreg pozitiv</target>
+        <note>Line: 218</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Language/LanguageType.php" source-language="en" target-language="ro" datatype="plaintext">
@@ -1422,18 +1534,44 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">Perioada selectata nu este valida.</target>
         <note>Line: 172</note>
       </trans-unit>
+      <trans-unit id="2fe13fdedc51b372d555f49493993a7e" approved="yes">
+        <source>Reduction value "%value%" is invalid. Allowed values from 0 to %max%</source>
+        <target state="final">Valoarea "%value%" a reducerii nu este valida. Sunt permise valori de la 0 la %max%</target>
+        <note>Line: 188</note>
+      </trans-unit>
+      <trans-unit id="a5e2f007d6044085203c9a13c981ed8a" approved="yes">
+        <source>Reduction value "%value%" is invalid. Value cannot be negative</source>
+        <target state="final">Valoarea "%value%" a reducerii nu este valida. Valoarea nu poate fi negativa</target>
+        <note>Line: 193</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/CustomerService/ReplyToCustomerThreadType.php" source-language="en" target-language="ro" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="a0ac57c5bea0b6a1bdf66d112c8047cd" approved="yes">
+        <source>Reply message is required</source>
+        <target state="final">Este necesar un raspuns</target>
+        <note>Line: 62</note>
+      </trans-unit>
+      <trans-unit id="dec3aab094a04dda9fd7b25b9f1db0dd" approved="yes">
+        <source>Reply message is invalid</source>
+        <target state="final">Raspunsul nu este valid</target>
+        <note>Line: 69</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/AddOrderCartRuleType.php" source-language="en" target-language="ro" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="b5f4891560c670dfd0ee974717d6bd7c" approved="yes">
+        <source>Cart rule name must contain clean HTML</source>
+        <target state="final">Numele regulii de cos poate contine cel mult cod HTML simplu</target>
+        <note>Line: 96</note>
+      </trans-unit>
+      <trans-unit id="88f07c5ea15091bd64ef2c3fa1a7dae3" approved="yes">
+        <source>Discount value must be a number</source>
+        <target state="final">Valoarea reducerii trebuie sa fie un numar</target>
+        <note>Line: 109</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/CreditSlip/GeneratePdfByDateType.php" source-language="en" target-language="ro" datatype="plaintext">
@@ -1475,7 +1613,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Exception/error.html.twig" source-language="en" target-language="ro" datatype="plaintext">
     <body>
-      
+      <trans-unit id="88e6e5a9b5ba8629661e4dcdb78e26a5" approved="yes">
+        <source>Oops... looks like an unexpected error occurred</source>
+        <target state="final">Hopa ... se pare ca a aparut o eroare neasteptata</target>
+        <note>Line: 49</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_addons_connect.html.twig" source-language="en" target-language="ro" datatype="plaintext">
