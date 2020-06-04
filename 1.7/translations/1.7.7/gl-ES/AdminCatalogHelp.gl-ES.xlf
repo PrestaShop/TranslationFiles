@@ -2,15 +2,44 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="admin-dev/themes/default/template/controllers/cart_rules/actions.tpl" source-language="en" target-language="gl" datatype="plaintext">
     <body>
-      
+      <trans-unit id="de11e2e4296bb20487b6430508866e06">
+        <source>Does not apply to the shipping costs</source>
+        <target state="translated">Non se aplica ós custes de envío</target>
+        <note>Line: 73</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl" source-language="en" target-language="gl" datatype="plaintext">
     <body>
+      <trans-unit id="3fde87028c9327c15017b46e6d84ac80">
+        <source>Optional: The cart rule will be available to everyone if you leave this field blank.</source>
+        <target state="translated">Opcional: A regra da cesta estará dispoñible para todos se deixa este campo en branco.</target>
+        <note>Line: 28</note>
+      </trans-unit>
       <trans-unit id="fc36a619a1f71bfe01203191c5c95675" approved="yes">
         <source>The default period is one month.</source>
         <target state="final">O período predeterminado é dun mes.</target>
         <note>Line: 45</note>
+      </trans-unit>
+      <trans-unit id="5b41d7dc2da5ea15baf3e2d62d820ac2">
+        <source>You can choose a minimum amount for the cart either with or without the taxes and shipping.</source>
+        <target state="translated">Pode escoller unha cantidade mínima para a cesta, con ou sen impostos e con ou sen envío.</target>
+        <note>Line: 74</note>
+      </trans-unit>
+      <trans-unit id="cfc9489072f04e808ce4e01948b7fef8">
+        <source>The cart rule will be applied to the first "X" customers only.</source>
+        <target state="translated">A regra da cesta só se aplicará ós primeiros "X" clientes.</target>
+        <note>Line: 116</note>
+      </trans-unit>
+      <trans-unit id="15391e9d908034a4458cd78296a945a8">
+        <source>A customer will only be able to use the cart rule "X" time(s).</source>
+        <target state="translated">Un cliente só poderá utilizar a regra da cesta "X" veces.</target>
+        <note>Line: 128</note>
+      </trans-unit>
+      <trans-unit id="ced8a99398578936b21103cba545cd66">
+        <source>This restriction applies to the country of delivery.</source>
+        <target state="translated">A restrición aplícase ó pais de envío.</target>
+        <note>Line: 151</note>
       </trans-unit>
     </body>
   </file>
@@ -46,14 +75,35 @@
         <target state="final">Só é aplicable se o valor do cupón é maior có total do carro.</target>
         <note>Line: 111</note>
       </trans-unit>
+      <trans-unit id="45ec8a24a8f55af16fad097e8a4fb9fe">
+        <source>If you do not allow partial use, the voucher value will be lowered to the total order amount. If you allow partial use, however, a new voucher will be created with the remainder.</source>
+        <target state="translated">Se non permite un uso parcial, o valor do cupón reducirase á cantidade total do pedido. Se permite un uso parcial, porén, crearase un novo cupón co restante.</target>
+        <note>Line: 112</note>
+      </trans-unit>
+      <trans-unit id="0fcc630f536dae07ee7c1ac612654c1d">
+        <source>Cart rules are applied by priority. A cart rule with a priority of "1" will be processed before a cart rule with a priority of "2".</source>
+        <target state="translated">As regras da cesta aplícanse segundo a prioridade. Unha regra da cesta cunha prioridade de "1" procesarase antes que unha regra da cesta cunha prioridade de "2".</target>
+        <note>Line: 130</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/categories/helpers/form/form.tpl" source-language="en" target-language="gl" datatype="plaintext">
     <body>
+      <trans-unit id="db11ee64aeb094a9cccbd04957e3416f">
+        <source><![CDATA[If you want a category to appear in the menu of your shop, go to [1]Modules > Modules & Services > Installed modules.[/1] Then, configure your menu module.]]></source>
+        <target state="translated"><![CDATA[Se queres que unha categoría apareza no menú da tenda, vai a [1]Módulos > Módulos e Servizos > Módulos instalados.[/1] Logo, configura o módulo do menú.]]></target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/categories/helpers/form/form.tpl:50</note>
+      </trans-unit>
       <trans-unit id="5bc1667deb2b522c0cac00de5f15ffbc" approved="yes">
         <source>Recommended dimensions (for the default theme): %1spx x %2spx</source>
         <target state="final">Dimensións recomendadas (para o tema por defecto): %1s px x %2s px</target>
         <note>Line: 60</note>
+      </trans-unit>
+      <trans-unit id="0f6ae5ebf937764fc48db601df56d0ca">
+        <source><![CDATA[If you want a category to appear in the menu of your shop, go to [1]Modules > Modules Manager.[/1] Then, configure your menu module.]]></source>
+        <target state="translated"><![CDATA[Se queres que unha categoría apareza no menú da tenda, vai a [1]Módulos > Xestor de Módulos.[/1] Logo, configura o módulo do menú.]]></target>
+        <note>Line: 50</note>
       </trans-unit>
     </body>
   </file>
@@ -220,6 +270,11 @@
         <target state="final">Para engadir "etiquetas" preme no campo, escribe algo, e logo preme "Enter".</target>
         <note>Line: 396</note>
       </trans-unit>
+      <trans-unit id="b7d8f05036844ad562ed08715bb480b4">
+        <source>Company name for this brand</source>
+        <target state="translated">Nome de empresa para esta marca</target>
+        <note>Line: 523</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminSuppliersController.php" source-language="en" target-language="gl" datatype="plaintext">
@@ -238,13 +293,25 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/ProductController.php" source-language="en" target-language="gl" datatype="plaintext">
     <body>
-      
+      <trans-unit id="cc2ac103a9c1411fd67952983e25978a">
+        <source>Create a new product: CTRL+P</source>
+        <target state="translated">Crear un novo produto: CTRL+P</target>
+        <note>Line: 374</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Catalog/Category/AbstractCategoryType.php" source-language="en" target-language="gl" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="88fe88f4033791ef6f38fbb7f7c58f04">
+        <source>To have a different title from the category name, enter it here.</source>
+        <target state="translated">Para ter un título diferente do nome da categoría, introdúceo aquí.</target>
+        <note>Line: 145</note>
+      </trans-unit>
+      <trans-unit id="0a7ca3ce7cde025a585cd02d7382b48f">
+        <source>To have a different description than your category summary in search results page, write it here.</source>
+        <target state="translated">Para ter unha descrición distinta que a do resumo de categoría na páxina de resultados da busca, escríbea aquí.</target>
+        <note>Line: 178</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Product/ProductInformation.php" source-language="en" target-language="gl" datatype="plaintext">
@@ -296,6 +363,11 @@
         <target state="final">Combinar varios atributos, ex.: "Talle: todos", "Cor: vermella".</target>
         <note>Line: 82</note>
       </trans-unit>
+      <trans-unit id="16a5534d559007de7e8f5b4f17112203">
+        <source>Leave empty to disable</source>
+        <target state="translated">Deixar baleiro para desactivar</target>
+        <note>Line: 175</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Product/ProductSeo.php" source-language="en" target-language="gl" datatype="plaintext">
@@ -315,10 +387,25 @@
         <target state="final">Para ter unha descrición diferente ca da túa descrición breve nas páxinas de resultados de busca, escríbea aquí.</target>
         <note>Line: 106</note>
       </trans-unit>
+      <trans-unit id="8533d8d42f2c7ef3078797984ea14675">
+        <source>This description will appear in search engines. You need a single sentence, shorter than 160 characters (including spaces)</source>
+        <target state="translated">Esta descrición vai aparecer nos motores de busca. Precisas unha soa frase, de menos de 160 caracteres (incluíndo os espazos)</target>
+        <note>Line: 117</note>
+      </trans-unit>
       <trans-unit id="26511e4120f7b4f3135a21b9f35efed8" approved="yes">
         <source>To which product the page should redirect?</source>
         <target state="final">A que produto debería redirixir a páxina?</target>
         <note>Line: 161</note>
+      </trans-unit>
+      <trans-unit id="024db530212734e5c28319bc4754ad85">
+        <source>To which category the page should redirect?</source>
+        <target state="translated">A que categoría debería redirixir a páxina?</target>
+        <note>Line: 163</note>
+      </trans-unit>
+      <trans-unit id="2719055d3b2b4fc865a78df22462c96b">
+        <source>If no category is selected the Main Category is used</source>
+        <target state="translated">Se non hai ningunha categoría seleccionada utilizarase a Categoría Principal</target>
+        <note>Line: 164</note>
       </trans-unit>
     </body>
   </file>
@@ -357,6 +444,36 @@
         <target state="final">Eliminar este produto permanentemente.</target>
         <note>Line: 33</note>
       </trans-unit>
+      <trans-unit id="94e4259ad6f05c74b84eb6cca4d60ce6">
+        <source>See how your product sheet will look online: ALT+SHIFT+V</source>
+        <target state="translated">Vexa como loce a páxina de produto en liña: ALT+MAIÚSCULA+V</target>
+        <note>Line: 48</note>
+      </trans-unit>
+      <trans-unit id="ad7478afcd575d882738a42546bc041a">
+        <source>Enable or disable the product on your shop: ALT+SHIFT+O</source>
+        <target state="translated">Activar ou desactivar o produto na tenda: ALT+MAIÚSCULA+O</target>
+        <note>Line: 56</note>
+      </trans-unit>
+      <trans-unit id="82e3cb7a4be4e299701a182197dc9410">
+        <source>Save the product and stay on the current page: ALT+SHIFT+S</source>
+        <target state="translated">Gardar o produto e permanecer na páxina actual: ALT+MAIÚSCULA+S</target>
+        <note>Line: 75</note>
+      </trans-unit>
+      <trans-unit id="ac6f66dc450bc768229c1329aa7a48b1">
+        <source>Save and duplicate this product, then go to the new product: ALT+SHIFT+D</source>
+        <target state="translated">Gardar e duplicar este produto, despois ir ao novo produto: ALT+MAIÚSCULA+D</target>
+        <note>Line: 84</note>
+      </trans-unit>
+      <trans-unit id="b110e989a1143b7f44cd5691324d4d11">
+        <source>Save and go back to the catalog: ALT+SHIFT+Q</source>
+        <target state="translated">Gardar e volver ao catálogo: ALT+MAIÚSCULA+Q</target>
+        <note>Line: 95</note>
+      </trans-unit>
+      <trans-unit id="37163a2847189335a934c83e8ae32677">
+        <source>Save and create a new product: ALT+SHIFT+P</source>
+        <target state="translated">Gardar e crear un novo produto: ALT+MAÍUSCULA+P</target>
+        <note>Line: 105</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Blocks/header.html.twig" source-language="en" target-language="gl" datatype="plaintext">
@@ -370,10 +487,20 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_categories.html.twig" source-language="en" target-language="gl" datatype="plaintext">
     <body>
+      <trans-unit id="61010671991185f436b35030f599d327">
+        <source>Where should the product be available on your site? The main category is where the product appears by default: this is the category which is seen in the product page's URL. Disabled categories are written in italics.</source>
+        <target state="translated">Onde debería estar dispoñible o produto no teu sitio? A categoría principal é onde o produto aparece de maneira predeterminada: esta é a categoría que se ve na URL da páxina do produto. As categorías desactivadas están en cursiva.</target>
+        <note>Line: 27</note>
+      </trans-unit>
       <trans-unit id="c5abe76b24973299661ce389d1a092e1" approved="yes">
         <source>Search categories</source>
         <target state="final">Pesquisar por categorías</target>
         <note>Line: 33</note>
+      </trans-unit>
+      <trans-unit id="b78db8ba6d89ef3a49b95e6f92235997">
+        <source>If you want to quickly create a new category, you can do it here. Don’t forget to then go to the Categories page to fill in the needed details (description, image, etc.).  A new category will not automatically appear in your shop's menu, please read the Help about it.</source>
+        <target state="translated">Se quere crear unha nova categoría rapidamente, pode facelo aquí. Non esqueza ir á páxina de Categorías para cubrir os detalles necesarios (descrición, imaxe, etc.). Unha nova categoría non aparecerá automaticamente no menú da tenda, por favor, lea a Axuda acerca disto.</target>
+        <note>Line: 53</note>
       </trans-unit>
     </body>
   </file>
@@ -393,6 +520,11 @@
         <target state="final"><![CDATA[As combinacións son as diferentes variacións dun produto, nas cales os atributos coma o seu talle, peso ou cor van tomando diferentes valores. Para crear unha combinación, é preciso que primeiro crees os atributos do teu produto. Para facer isto vai a Catálogo > Atributos e Características!]]></target>
         <note>Line: 32</note>
       </trans-unit>
+      <trans-unit id="57a23510ca35a7354d9208151c344364">
+        <source><![CDATA[To add combinations, you first need to create proper attributes and values in [1]Attributes & Features[/1]. <br> When done, you may enter the wanted attributes (like "size" or "color") and their respective values ("XS", "red", "all", etc.) in the field below; or simply select them from the right column. Then click on "Generate": it will automatically create all the combinations for you!]]></source>
+        <target state="translated"><![CDATA[Para engadir combinacións, primeiro precisa crear os atributos e valores adecuados en [1]Atributos & Características[/1].<br>Cando estea feito, pode introducir os atributos desexados (coma "tamaño" ou "cor") e os seus respectivos valores ("XS", "vermello", "todos", etc.) no campo de abaixo; ou simplemente seleccionalos dende a columna da dereita. Logo premer en "Xerar": isto creará automaticamente tódalas combinacións para vostede!]]></target>
+        <note>Line: 38</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_seo.html.twig" source-language="en" target-language="gl" datatype="plaintext">
@@ -402,25 +534,64 @@
         <target state="final">Esta é a URL lexible para humanas, como a xerada a partir do nome do produto. Podes mudala se queres.</target>
         <note>Line: 59</note>
       </trans-unit>
+      <trans-unit id="eb8b9b044f3b64b5ba5f7b047963714c">
+        <source>When your product is disabled, choose to which page you’d like to redirect the customers visiting its page by typing the product or category name.</source>
+        <target state="translated">Cando o teu produto está desactivado, escolle a páxina á que che gustaría redirixir a clientela que visita a páxina do produto tecleando o nome de produto ou categoría.</target>
+        <note>Line: 98</note>
+      </trans-unit>
       <trans-unit id="40464c1dbd8778600fba3f37d36e79dd" approved="yes">
         <source>No redirection (404) = Do not redirect anywhere and display a 404 "Not Found" page.</source>
         <target state="final">Sen redirección (404) = Non redirixir a ningures e amosar unha páxina 404 de "Non se atopou".</target>
         <note>Line: 124</note>
       </trans-unit>
+      <trans-unit id="462864be2a8d87de471c82d553000030">
+        <source>Permanent redirection (301) = Permanently display another product or category instead.</source>
+        <target state="translated">Redirección permanente (301) = Amosa permanentemente outro produto ou categoría no seu lugar.</target>
+        <note>Line: 125</note>
+      </trans-unit>
+      <trans-unit id="50565048560ec8a9fe1f6ddec57a917a">
+        <source>Temporary redirection (302) = Temporarily display another product or category instead.</source>
+        <target state="translated">Redirección temporal (302) = Amosar temporalmente outro produto ou categoría no seu lugar.</target>
+        <note>Line: 126</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_shipping.html.twig" source-language="en" target-language="gl" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="305c255586949e297af4d74bb1bc9563">
+        <source>Display delivery time for a product is advised for merchants selling in Europe to comply with the local laws.</source>
+        <target state="translated">Aconséllase amosar o tempo de entrega para un produto para os comerciantes que vendan en Europa, para cumprir coa lexislación local.</target>
+        <note>Line: 86</note>
+      </trans-unit>
+      <trans-unit id="de95b43bceeb4b998aed4aed5cef1ae7">
+        <source>edit</source>
+        <target state="translated">editar</target>
+        <note>Line: 94</note>
+      </trans-unit>
+      <trans-unit id="8b2ff26690065c221599c196cb6adc82">
+        <source>If a carrier has a tax, it will be added to the shipping fees. Does not apply to free shipping.</source>
+        <target state="translated">Se o transportista ten un imposto, este engadirase ás taxas de envío. Non se aplica ó envío gratuíto.</target>
+        <note>Line: 127</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_supplier_choice.html.twig" source-language="en" target-language="gl" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="aa25978d6b02e4e469c205afa9de0c46">
+        <source>This interface allows you to specify the suppliers of the current product and its combinations, if any.</source>
+        <target state="translated">Esta interface permíteche especifica-las distribuidoras do produto actual e, de se-lo caso, das súas combinacións.</target>
+        <note>Line: 35</note>
+      </trans-unit>
+      <trans-unit id="5f5641c7f2d62db16c4d12ce2bcf5898">
+        <source>You can specify supplier references according to previously associated suppliers.</source>
+        <target state="translated">Podes especificar referencias da distribuidora de acordo coas distribuidoras previamente asociadas.</target>
+        <note>Line: 36</note>
+      </trans-unit>
+      <trans-unit id="d57ad4a0ab142c03bb1ced551f66ce9b">
+        <source><![CDATA[When using the advanced stock management tool (see Shop Parameters > Products settings), the values you define (price, references) will be used in supply orders.]]></source>
+        <target state="translated"><![CDATA[Cando empregas a ferramenta de xestión avanzada do stock (ver Parámetros da Tenda > Axustes dos produtos), os valores que defines (prezos, referencias) empregaranse nas encomendas de subministración.]]></target>
+        <note>Line: 40</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_supplier_combination.html.twig" source-language="en" target-language="gl" datatype="plaintext">
@@ -453,6 +624,11 @@
         <target state="final">Número de días durante os que a clientela pode acceder a este ficheiro. Establéceo en cero para o acceso ilimitado.</target>
         <note>Line: 141</note>
       </trans-unit>
+      <trans-unit id="dbcf3c5f67528da5cf59dc0c042748da">
+        <source>Upload a file from your computer (%maxUploadSize% max.)</source>
+        <target state="translated">Subir un ficheiro dende o ordenador (%maxUploadSize% máx.)</target>
+        <note>Line: 100</note>
+      </trans-unit>
       <trans-unit id="c312034c9f17a264365e734de442ca0a" approved="yes">
         <source>The full filename with its extension (e.g. Book.pdf)</source>
         <target state="final">O nome completo do ficheiro coa súa extensión (ex. Libro.pdf)</target>
@@ -463,10 +639,20 @@
         <target state="final">Número de descargas permitidas por clienta. Establecer en 0 para descargas ilimitadas.</target>
         <note>Line: 123</note>
       </trans-unit>
+      <trans-unit id="f049153f2c655d6d1ebd123f04b432cf">
+        <source>If set, the file will not be downloadable after this date. Leave blank if you do not wish to attach an expiration date.</source>
+        <target state="translated">De establecerse, o ficheiro non será descargable despois desta data. Déixeo en branco se non quere engadir unha data de caducidade.</target>
+        <note>Line: 132</note>
+      </trans-unit>
       <trans-unit id="ea8d1b4f32f86030683d8f9252c0a3e1" approved="yes">
         <source>The minimum quantity required to buy this product (set to 1 to disable this feature). E.g.: if set to 3, customers will be able to purchase the product only if they take at least 3 in quantity.</source>
         <target state="final">A cantidade mínima requirida para mercar este produto (establécea en 1 para desactivar esta característica). Ex.: se se establece en 3, as clientas só poderán adquiri-lo produto se levan polo menos unha cantidade de 3.</target>
         <note>Line: 47</note>
+      </trans-unit>
+      <trans-unit id="1914ce33841a6e52c0577751d9004159">
+        <source><![CDATA[The email will be sent to all the users who have the right to run the stock page. To modify the permissions, go to [1]Advanced Parameters > Team[/1]]]></source>
+        <target state="translated"><![CDATA[O correo electrónico enviaráselle a tódolos usuarios que teñan permisos para manexa-la páxina de stock. Para modifica-los permisos, vaia a [1]Parámetros Avanzados > Equipa[/1]]]></target>
+        <note>Line: 74</note>
       </trans-unit>
     </body>
   </file>
@@ -481,6 +667,11 @@
         <source>Advanced settings in [1][2]Combinations[/1]</source>
         <target state="final">Axustes avanzados en [1][2]Combinacións[/1]</target>
         <note>Line: 172</note>
+      </trans-unit>
+      <trans-unit id="01cfe41b8ece41634e85248382166271">
+        <source>Your reference code for this product. Allowed special characters: .-_#.</source>
+        <target state="translated">O teu código de referencia para este produto. Permítense caracteres especiais: .-_#.</target>
+        <note>Line: 183</note>
       </trans-unit>
       <trans-unit id="e2c7ed083cb894812fb5d2539f5e7ecb" approved="yes">
         <source>How many products should be available for sale?</source>
@@ -516,6 +707,11 @@
         <target state="final">Escolle termos e palabras chave que as túas clientas empregarán para procurar este produto e asegúrate de que estás a ser coherente coas etiquetas que xa poidas ter empregado.</target>
         <note>Line: 77</note>
       </trans-unit>
+      <trans-unit id="8a08a645644d632f79ad988808ba2174">
+        <source>You can manage tag aliases in the [1]Search section[/1]. If you add new tags, you have to rebuild the index.</source>
+        <target state="translated">Pode administra-los alcumes das etiquetas na [1]Sección buscar[/1]. Se engade novas etiquetas, terá que reconstruí-lo índice.</target>
+        <note>Line: 78</note>
+      </trans-unit>
       <trans-unit id="19f31a842add8b13595ddb3a41a1ff27" approved="yes">
         <source>Not all shops sell new products. This option enables you to indicate the condition of the product. It can be required on some marketplaces.</source>
         <target state="final">Non tódalas tendas venden produtos novos. Esta opción permíteche indica-lo estado do produto. Pode ser necesaria nalgúns mercados.</target>
@@ -535,6 +731,11 @@
         <source>This type of product code is specific to Europe and Japan, but is widely used internationally. It is a superset of the UPC code: all products marked with an EAN will be accepted in North America.</source>
         <target state="final">Este tipo de código de produto é específico da Europa e do Xapón, pero emprégase amplamente no ámbito internacional. É un superconxunto do código UPC: tódolos produtos marcados cun EAN aceptaranse na Nortamérica.</target>
         <note>Line: 125</note>
+      </trans-unit>
+      <trans-unit id="c268a2747d5680c617c361cd505c4576">
+        <source>MPN is used internationally to identify the Manufacturer Part Number.</source>
+        <target state="translated">O código MPN utilízase internacionalmente para identificar o Número de Peza do Fabricante.</target>
+        <note>Line: 145</note>
       </trans-unit>
     </body>
   </file>
@@ -574,14 +775,49 @@
         <target state="final">Indicador non válido</target>
         <note>Line: 48</note>
       </trans-unit>
+      <trans-unit id="d24ec28b066e46d9d9ec3c1f39aa89ee">
+        <source>[1]Invalid token[/1]: direct access to this link may lead to a potential security breach.</source>
+        <target state="translated">[1]Indicador incorrecto[/1]: o acceso directo a esta ligazón pode conducir a unha potencial fenda de seguridade.</target>
+        <note>Line: 56</note>
+      </trans-unit>
+      <trans-unit id="f364944e8422977932bd21eb2d96963a">
+        <source>Do you want to display this page?</source>
+        <target state="translated">Quere amosar esta páxina?</target>
+        <note>Line: 60</note>
+      </trans-unit>
+      <trans-unit id="a0d31e7f783700b99e15ce8621dc6381">
+        <source>Yes, I understand the risks</source>
+        <target state="translated">Si, entendo os riscos</target>
+        <note>Line: 63</note>
+      </trans-unit>
+      <trans-unit id="a5b0a810681c7fca4581d7f7524009f4">
+        <source>Take me out of there!</source>
+        <target state="translated">Sácame de aquí!</target>
+        <note>Line: 66</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Categories/Blocks/form.html.twig" source-language="en" target-language="gl" datatype="plaintext">
     <body>
+      <trans-unit id="d4be87a5a7a7e9bf633dc6d356968333">
+        <source>Click on "Displayed" to index the category on your shop.</source>
+        <target state="translated">Prema en "Amosados" para indexar a categoría na túa tenda.</target>
+        <note>Line: 44</note>
+      </trans-unit>
       <trans-unit id="42f9ee5026d32792987af851a2ea0343" approved="yes">
         <source>This is the main image for your category, displayed in the category page. The category description will overlap this image and appear in its top-left corner.</source>
         <target state="final">Esta é a imaxe principal para a túa categoría, que se ha amosar na páxina da categoría. A descrición da categoría superporase a esta imaxe e aparecerá na súa esquina superior esquerda.</target>
         <note>Line: 82</note>
+      </trans-unit>
+      <trans-unit id="c5d262df2fa3b92141eb8bb37b1fb9b7">
+        <source>Displays a small image in the parent category's page, if the theme allows it.</source>
+        <target state="translated">Amosa unha imaxe pequena na páxina de categoría nai, se o tema o permite.</target>
+        <note>Line: 97</note>
+      </trans-unit>
+      <trans-unit id="9cbbbb4e43f08deda211ff24e6fd542f">
+        <source>The category thumbnail appears in the menu as a small image representing the category, if the theme allows it.</source>
+        <target state="translated">A miniatura da categoría aparece no menú coma unha pequena imaxe que representa a categoría, se o tema o permite.</target>
+        <note>Line: 121</note>
       </trans-unit>
       <trans-unit id="09e2683b6b92b326691cd992f6e5684b" approved="yes">
         <source>Only letters, numbers, underscore (_) and the minus (-) character are allowed.</source>
@@ -598,12 +834,25 @@
         <target state="final">Marca tódolos grupos de clientela que che gustaría que tivesen acceso a esta categoría.</target>
         <note>Line: 171</note>
       </trans-unit>
+      <trans-unit id="19318118b1173f172418b3282cb037d7">
+        <source><![CDATA[If you want a category to appear in the menu of your shop, go to [1]Modules > Module Manager[/1] and configure your menu module.]]></source>
+        <target state="translated"><![CDATA[Se queres que unha categoría apareza no menú da tenda, vai a [1]Módulos > Xestor de Módulos[/1] e configura o módulo do menú.]]></target>
+        <note>Line: 48</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Manufacturer/Blocks/form.html.twig" source-language="en" target-language="gl" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="0205bdbccc495138a109bd8710053565">
+        <source>Upload a brand logo from your computer.</source>
+        <target state="translated">Sube un logotipo da marca dende o teu ordenador.</target>
+        <note>Line: 60</note>
+      </trans-unit>
+      <trans-unit id="8ed6ad2c4486cdf4c66666671a6d4bf5">
+        <source>To add "tags", click inside the field, write something, and then press "Enter".</source>
+        <target state="translated">Para engadir "etiquetas", preme no campo, escribe algo, e logo preme "Enter".</target>
+        <note>Line: 86</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Monitoring/index.html.twig" source-language="en" target-language="gl" datatype="plaintext">

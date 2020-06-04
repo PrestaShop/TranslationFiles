@@ -57,6 +57,21 @@
   </file>
   <file original="controllers/admin/AdminImagesController.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
+      <trans-unit id="ffddcc65274efa9b4c624b34289c922c">
+        <source>Duplicate images were found when moving the product images. This is likely caused by unused demonstration images. Please make sure that the folder %folder% only contains demonstration images, and then delete it.</source>
+        <target state="needs-translation">Duplicate images were found when moving the product images. This is likely caused by unused demonstration images. Please make sure that the folder %folder% only contains demonstration images, and then delete it.</target>
+        <note>Line: 338</note>
+      </trans-unit>
+      <trans-unit id="5b8cb2aa659c7d6a98b740d2d788c69d">
+        <source>Incorrect value for the selected JPEG image compression.</source>
+        <target state="needs-translation">Incorrect value for the selected JPEG image compression.</target>
+        <note>Line: 361</note>
+      </trans-unit>
+      <trans-unit id="8357fadc46ff52546c4c69965de0d653">
+        <source>Incorrect value for the selected PNG image compression.</source>
+        <target state="needs-translation">Incorrect value for the selected PNG image compression.</target>
+        <note>Line: 364</note>
+      </trans-unit>
       <trans-unit id="b88862891dbf9c20a73bc59258407d0b" approved="yes">
         <source>Source file does not exist or is empty (%filepath%)</source>
         <target state="final">ソースファイルが存在しないか空です（%filepath%）</target>
@@ -112,6 +127,11 @@
         <target state="final">サーバが完了する前にタイムアウトしましたので、すべての画像が移動されませんでした。画像の移動をもう一度再開するには「画像を移動」をクリックしてください。</target>
         <note>Line: 723</note>
       </trans-unit>
+      <trans-unit id="95871efade00fbd0243355ce7937c40a">
+        <source>Error: Some -- or all -- images cannot be moved.</source>
+        <target state="needs-translation">Error: Some -- or all -- images cannot be moved.</target>
+        <note>Line: 725</note>
+      </trans-unit>
       <trans-unit id="cb2f901ceed5c3365d056794a1b5047f" approved="yes">
         <source>After modification, do not forget to regenerate thumbnails</source>
         <target state="final">変更後、サムネイルを再再生することを忘れないでください</target>
@@ -158,7 +178,11 @@
   </file>
   <file original="src/Core/Shop/LogoUploader.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      
+      <trans-unit id="f003149576f4755d74550952febe14bb">
+        <source>An error occurred while uploading the favicon: cannot copy file "%s" to folder "%s".</source>
+        <target state="needs-translation">An error occurred while uploading the favicon: cannot copy file "%s" to folder "%s".</target>
+        <note>Line: 173</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Command/ExportThemeCommand.php" source-language="en" target-language="ja" datatype="plaintext">
@@ -181,10 +205,30 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/Design/ThemeController.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
+      <trans-unit id="4a9fdf95b29176bd9260016655a80852">
+        <source>Your RTL stylesheets has been generated successfully</source>
+        <target state="needs-translation">Your RTL stylesheets has been generated successfully</target>
+        <note>Line: 358</note>
+      </trans-unit>
       <trans-unit id="9ccfef29efe298e9a48295a69436e11f" approved="yes">
         <source><![CDATA[Your theme has been correctly reset to its default settings. You may want to regenerate your images. See the Improve > Design > Images Settings screen for the 'Regenerate thumbnails' button.]]></source>
         <target state="final"><![CDATA[テーマは正常にデフォルトに再設定されました。画像ファイルの再生成が必要かもしれません。「機能追加・設定」＞「デザイン」＞「画像設定」画面より、「サムネイルの再生成」を実行してください。]]></target>
         <note>Line: 385</note>
+      </trans-unit>
+      <trans-unit id="0933caade58197a4ff60c27077f67604">
+        <source>There is already a theme %theme_name% in your themes folder. Remove it if you want to continue.</source>
+        <target state="needs-translation">There is already a theme %theme_name% in your themes folder. Remove it if you want to continue.</target>
+        <note>Line: 483</note>
+      </trans-unit>
+      <trans-unit id="2cca9f161ea0cc1102ad4be82b15cbfb">
+        <source>Failed to delete theme. Make sure you have permissions and theme is not used.</source>
+        <target state="needs-translation">Failed to delete theme. Make sure you have permissions and theme is not used.</target>
+        <note>Line: 530</note>
+      </trans-unit>
+      <trans-unit id="05c176b8092b42c554d570513026207c">
+        <source>Cannot adapt theme to RTL languages.</source>
+        <target state="needs-translation">Cannot adapt theme to RTL languages.</target>
+        <note>Line: 552</note>
       </trans-unit>
     </body>
   </file>
@@ -208,7 +252,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Design/Theme/Blocks/logo_configuration.html.twig" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      
+      <trans-unit id="3cb5c48f468125102a98fe83a277029d">
+        <source>Warning: if no email logo is available, the main logo will be used instead.</source>
+        <target state="needs-translation">Warning: if no email logo is available, the main logo will be used instead.</target>
+        <note>Line: 100</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

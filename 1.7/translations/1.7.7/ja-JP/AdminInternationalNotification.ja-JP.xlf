@@ -21,20 +21,44 @@
         <target state="final">この言語とお使いのシステムに互換性のあるPrestaShopのバージョンは次のとおりです：</target>
         <note>Line: 40</note>
       </trans-unit>
+      <trans-unit id="6b1fb1c361571071fe0f6e2055c39dcb">
+        <source>After creating the language, you can import the content of the language pack, which you can download under "International -- Translations."</source>
+        <target state="needs-translation">After creating the language, you can import the content of the language pack, which you can download under "International -- Translations."</target>
+        <note>Line: 41</note>
+      </trans-unit>
       <trans-unit id="a6669356dbb699457f5750c1b6e0ab0d" approved="yes">
         <source>No language pack is available on prestashop.com for this ISO code</source>
         <target state="final">このprestashop.com上で利用可能なISOコードの言語パックがありません</target>
         <note>Line: 42</note>
       </trans-unit>
+      <trans-unit id="2c148c0631e11553ded2c0cb527be862">
+        <source>This language pack is NOT complete and cannot be used in the front or back office because some files are missing.</source>
+        <target state="needs-translation">This language pack is NOT complete and cannot be used in the front or back office because some files are missing.</target>
+        <note>Line: 64</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_errors.tpl" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      
+      <trans-unit id="5d27fef01a54790de11db21f1ed47892">
+        <source>%s at least, or you will have to edit the translation files manually.</source>
+        <target state="needs-translation">%s at least, or you will have to edit the translation files manually.</target>
+        <note>Line: 47</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_mails.tpl" source-language="en" target-language="ja" datatype="plaintext">
     <body>
+      <trans-unit id="06a92b5dc72bff3b98bf4b932ce72864">
+        <source>Apache mod_security is activated on your server. This could result in some Bad Request errors</source>
+        <target state="needs-translation">Apache mod_security is activated on your server. This could result in some Bad Request errors</target>
+        <note>Line: 33</note>
+      </trans-unit>
+      <trans-unit id="1f0f8b59397f34d499b181297714713a">
+        <source>Warning! Your hosting provider is using the Suhosin patch for PHP, which limits the maximum number of fields allowed in a form:</source>
+        <target state="needs-translation">Warning! Your hosting provider is using the Suhosin patch for PHP, which limits the maximum number of fields allowed in a form:</target>
+        <note>Line: 39</note>
+      </trans-unit>
       <trans-unit id="bbfb7a636f839052067cc86c39fa595a" approved="yes">
         <source>%limit% for suhosin.post.max_vars.</source>
         <target state="final">suhosin.post.max_varsの %limit%。</target>
@@ -45,6 +69,11 @@
         <target state="final">suhosin.request.max_vars の %limit%。</target>
         <note>Line: 42</note>
       </trans-unit>
+      <trans-unit id="308c1cf98be9973142833c9a9dbbc2ef">
+        <source>Please ask your hosting provider to increase the Suhosin limit to</source>
+        <target state="needs-translation">Please ask your hosting provider to increase the Suhosin limit to</target>
+        <note>Line: 43</note>
+      </trans-unit>
       <trans-unit id="5ad040870ae5ccaeb2d57e4d052163a4" approved="yes">
         <source>Warning! Your PHP configuration limits the maximum number of fields allowed in a form:</source>
         <target state="final">警告　フォームに登録できる項目数がPHP設定の最大制限数です：</target>
@@ -54,6 +83,16 @@
         <source>for max_input_vars.</source>
         <target state="final">最大入力値のため</target>
         <note>Line: 46</note>
+      </trans-unit>
+      <trans-unit id="6e709babf4b5a0ed4194ad5240e1be2c">
+        <source>Please ask your hosting provider to increase this limit to</source>
+        <target state="needs-translation">Please ask your hosting provider to increase this limit to</target>
+        <note>Line: 47</note>
+      </trans-unit>
+      <trans-unit id="4fb6a3beb82f8d8aa4bbdf8f5a0c35fa">
+        <source>%s at least, or you will have to edit the translation files.</source>
+        <target state="needs-translation">%s at least, or you will have to edit the translation files.</target>
+        <note>Line: 49</note>
       </trans-unit>
     </body>
   </file>
@@ -317,6 +356,11 @@ Comment: @todo Throw exception</note>
         <target state="final">ISOコードが異なるか、利用できない言語パックが選択されています。</target>
         <note>Line: 564</note>
       </trans-unit>
+      <trans-unit id="dc2dde59d57d3bfd6881be1392c54280">
+        <source>Technical Error: translation server unreachable.</source>
+        <target state="needs-translation">Technical Error: translation server unreachable.</target>
+        <note>Line: 568</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminStatesController.php" source-language="en" target-language="ja" datatype="plaintext">
@@ -335,6 +379,11 @@ Comment: @todo Throw exception</note>
   </file>
   <file original="controllers/admin/AdminTaxRulesGroupController.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
+      <trans-unit id="45f3b37902e09b041709484fd75cab22">
+        <source>A tax rule already exists for this country/state with tax only behavior.</source>
+        <target state="needs-translation">A tax rule already exists for this country/state with tax only behavior.</target>
+        <note>Line: 437</note>
+      </trans-unit>
       <trans-unit id="97d8fb4588d1efe9731fd4f82e071924" approved="yes">
         <source>The Zip/postal code is invalid. It must be typed as follows: %format% for %country%.</source>
         <target state="final">郵便番号（Zip cord）が正しくありません。次のように形で入力する必要があります：%format% を %country% に対して指定</target>
@@ -349,6 +398,11 @@ Comment: @todo Throw exception</note>
   </file>
   <file original="controllers/admin/AdminTaxesController.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
+      <trans-unit id="3311c10f0830ae7b6ad64674777c3f34">
+        <source>This tax is currently in use as a tax rule. Are you sure you'd like to continue?</source>
+        <target state="needs-translation">This tax is currently in use as a tax rule. Are you sure you'd like to continue?</target>
+        <note>Line: 152</note>
+      </trans-unit>
       <trans-unit id="8eeccbbbc36b19ed4e82d2eca4055d4d" approved="yes">
         <source>This tax is currently in use as a tax rule. If you continue, this tax will be removed from the tax rule. Are you sure you'd like to continue?</source>
         <target state="final">この税は税ルールの中で現在あります。続ける場合は、この税は税ルールから削除されます。続けてもよろしいですか？</target>
@@ -362,6 +416,11 @@ Comment: @todo Throw exception</note>
         <source>An error occurred while copying data.</source>
         <target state="final">データコピー中にエラーが発生</target>
         <note>Line: 402</note>
+      </trans-unit>
+      <trans-unit id="b5f3291b6db7481e8ca0da4a00718cf9">
+        <source>Impossible to create the directory "%folder%".</source>
+        <target state="needs-translation">Impossible to create the directory "%folder%".</target>
+        <note>Line: 427</note>
       </trans-unit>
       <trans-unit id="ec531fd2b656df91f11e8f94b2bd2f9b" approved="yes">
         <source>An error occurred while creating archive.</source>
@@ -378,15 +437,60 @@ Comment: @todo Throw exception</note>
         <target state="final">"%s"タブは無効です。</target>
         <note>Line: 708</note>
       </trans-unit>
+      <trans-unit id="737b7d8e0108e60b272f6e5a0eaf6ef2">
+        <source>Validation failed for: %file%</source>
+        <target state="needs-translation">Validation failed for: %file%</target>
+        <note>Line: 790</note>
+      </trans-unit>
+      <trans-unit id="e7e5ca2e62158b89d7583ac6936830a5">
+        <source>Unidentified file found: %file%</source>
+        <target state="needs-translation">Unidentified file found: %file%</target>
+        <note>Line: 793</note>
+      </trans-unit>
       <trans-unit id="9831c9e35b4d39d939363aa5629e00f2" approved="yes">
         <source>The archive cannot be extracted.</source>
         <target state="final">アーカイブを展開することができませんでした。</target>
         <note>Line: 851</note>
       </trans-unit>
+      <trans-unit id="6f2981f3239ff532c94509a6f98e11c3">
+        <source>ISO CODE invalid "%iso_code%" for the following file: "%file%"</source>
+        <target state="needs-translation">ISO CODE invalid "%iso_code%" for the following file: "%file%"</target>
+        <note>Line: 853</note>
+      </trans-unit>
+      <trans-unit id="299dd7d59920216689a1749def7fd939">
+        <source>Cannot write to the theme's language file (%s). Please check writing permissions.</source>
+        <target state="needs-translation">Cannot write to the theme's language file (%s). Please check writing permissions.</target>
+        <note>Line: 961</note>
+      </trans-unit>
+      <trans-unit id="78973deca6d26ce225f6f66c6c30dd54">
+        <source>Invalid theme "%theme%"</source>
+        <target state="needs-translation">Invalid theme "%theme%"</target>
+        <note>Line: 1807</note>
+      </trans-unit>
+      <trans-unit id="7d65d1400b9d08c5c638682170ff4d7c">
+        <source>Invalid iso code "%iso_code%"</source>
+        <target state="needs-translation">Invalid iso code "%iso_code%"</target>
+        <note>Line: 1412</note>
+      </trans-unit>
       <trans-unit id="b399fb01ee4e0a8ec1681fb9bcb31ce0" approved="yes">
         <source>This %type_content% file extension is not accepted.</source>
         <target state="final">この %type_content% ファイル拡張子は利用できません。</target>
         <note>Line: 1645</note>
+      </trans-unit>
+      <trans-unit id="1e5ec3cd42b5bac1b06b99f67cba41dd">
+        <source>Invalid module name "%module%"</source>
+        <target state="needs-translation">Invalid module name "%module%"</target>
+        <note>Line: 1654</note>
+      </trans-unit>
+      <trans-unit id="c68e9fe9015c5779289f32e2bdef0a7b">
+        <source>Invalid mail name "%mail%"</source>
+        <target state="needs-translation">Invalid mail name "%mail%"</target>
+        <note>Line: 1658</note>
+      </trans-unit>
+      <trans-unit id="40f5c232e433d178a4f912b3092d7df1">
+        <source>Directory "%folder%" cannot be created</source>
+        <target state="needs-translation">Directory "%folder%" cannot be created</target>
+        <note>Line: 1680</note>
       </trans-unit>
       <trans-unit id="ccdf1aa6f4cb029f9846e53006115905" approved="yes">
         <source>Your email translations contain some invalid HTML and cannot be saved. Please check your content.</source>
@@ -398,20 +502,65 @@ Comment: @todo Throw exception</note>
         <target state="final">HTML形式のメールテンプレートは、JavaScriptコードを含めることはできません。</target>
         <note>Line: 1692</note>
       </trans-unit>
+      <trans-unit id="5dc4babbd10d00e89d8e46a12942d394">
+        <source>Empty string found, please edit: "%file%"</source>
+        <target state="needs-translation">Empty string found, please edit: "%file%"</target>
+        <note>Line: 1841</note>
+      </trans-unit>
+      <trans-unit id="f2aca97fb94315864fd2fa52f3100f1e">
+        <source>There is an error in template, an empty string has been found. Please edit: "%file%"</source>
+        <target state="needs-translation">There is an error in template, an empty string has been found. Please edit: "%file%"</target>
+        <note>Line: 2112</note>
+      </trans-unit>
       <trans-unit id="616d8e7e6c0dc755a7e932c4db698317" approved="yes">
         <source>The module directory must be writable.</source>
         <target state="final">モジュールディレクトリは書き込み可能である必要があります</target>
         <note>Line: 2175</note>
+      </trans-unit>
+      <trans-unit id="1078d7e980a5a2fe78762cafd8480f0a">
+        <source>A mail directory exists for the "%iso_code%" language, but not for the default language (%language%) in %folder%</source>
+        <target state="needs-translation">A mail directory exists for the "%iso_code%" language, but not for the default language (%language%) in %folder%</target>
+        <note>Line: 2439</note>
+      </trans-unit>
+      <trans-unit id="7cf50c9ffecf05f3befc1134eba0ef45">
+        <source>missing translation(s)</source>
+        <target state="needs-translation">missing translation(s)</target>
+        <note>Line: 2501</note>
+      </trans-unit>
+      <trans-unit id="fda679a1f72b8a9676b6926a81c5e139">
+        <source>No Subject was found for %mail_name% in the database.</source>
+        <target state="needs-translation">No Subject was found for %mail_name% in the database.</target>
+        <note>Line: 2540</note>
       </trans-unit>
       <trans-unit id="a662aa2e6538df75742383c7db8f3bd5" approved="yes">
         <source>There was a problem getting the mail files.</source>
         <target state="final">メールファイルの取得に問題があります。</target>
         <note>Line: 2577</note>
       </trans-unit>
+      <trans-unit id="3eefb74a46023e6c9152c92803750f2b">
+        <source>English language files must exist in %folder% folder</source>
+        <target state="needs-translation">English language files must exist in %folder% folder</target>
+        <note>Line: 2578</note>
+      </trans-unit>
+      <trans-unit id="c4c005678d26a593268006bc4a44c179">
+        <source>Cannot write language file for email subjects. Path is: %folder%</source>
+        <target state="needs-translation">Cannot write language file for email subjects. Path is: %folder%</target>
+        <note>Line: 2975</note>
+      </trans-unit>
+      <trans-unit id="05b17ff64944116b14a3ec88f2080a5e">
+        <source>Cannot write into the "%file%"</source>
+        <target state="needs-translation">Cannot write into the "%file%"</target>
+        <note>Line: 3177</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Language/LanguageCopier.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
+      <trans-unit id="4d7541fb66c9fc832a20a6f48b4d5613">
+        <source>Cannot create the folder "%folder%". Please check your directory writing permissions.</source>
+        <target state="needs-translation">Cannot create the folder "%folder%". Please check your directory writing permissions.</target>
+        <note>Line: 102</note>
+      </trans-unit>
       <trans-unit id="102c75f83994f206179912d118b8bc3c" approved="yes">
         <source>You must select two languages in order to copy data from one to another.</source>
         <target state="final">順番にコピーするための2つの言語を選択しなければなりません</target>
@@ -431,6 +580,16 @@ Comment: @todo Throw exception</note>
         <source>Theme(s) not found</source>
         <target state="final">テーマが見つかりません</target>
         <note>Line: 213</note>
+      </trans-unit>
+      <trans-unit id="434464e4353199dd20af7bd3cf8e6c64">
+        <source>Impossible to copy "%source%" to "%dest%".</source>
+        <target state="needs-translation">Impossible to copy "%source%" to "%dest%".</target>
+        <note>Line: 116</note>
+      </trans-unit>
+      <trans-unit id="07b33077111c506cf81b6cc5ef42a170">
+        <source>Impossible to translate "%dest%".</source>
+        <target state="needs-translation">Impossible to translate "%dest%".</target>
+        <note>Line: 136</note>
       </trans-unit>
       <trans-unit id="c7254dc1193c25493aa0a09df285b43c" approved="yes">
         <source>A part of the data has been copied but some of the language files could not be found.</source>
@@ -479,6 +638,26 @@ Comment: @todo Throw exception</note>
         <target state="final">この通貨はすでに存在します。</target>
         <note>Line: 500</note>
       </trans-unit>
+      <trans-unit id="0bb1c64dda8dcd3473e0eee6c06c8a4e">
+        <source>%currency% is the default currency for shop %shop_name%, and therefore cannot be removed from shop association</source>
+        <target state="needs-translation">%currency% is the default currency for shop %shop_name%, and therefore cannot be removed from shop association</target>
+        <note>Line: 515</note>
+      </trans-unit>
+      <trans-unit id="d51f13fb7e04f0002b08f14370e565a9">
+        <source>%currency% is the default currency for shop %shop_name%, and therefore cannot be disabled</source>
+        <target state="needs-translation">%currency% is the default currency for shop %shop_name%, and therefore cannot be disabled</target>
+        <note>Line: 523</note>
+      </trans-unit>
+      <trans-unit id="32308f335c5aca97078cb283ce88f9d3">
+        <source>Oops... it looks like this ISO code already exists. If you are: [1][2]trying to create an alternative currency, you must type a different ISO code[/2][2]trying to modify the currency with ISO code %isoCode%, make sure you did not check the creation box[/2][/1]</source>
+        <target state="needs-translation">Oops... it looks like this ISO code already exists. If you are: [1][2]trying to create an alternative currency, you must type a different ISO code[/2][2]trying to modify the currency with ISO code %isoCode%, make sure you did not check the creation box[/2][/1]</target>
+        <note>Line: 552</note>
+      </trans-unit>
+      <trans-unit id="2751c5e3327bc580a6e62973524440ad">
+        <source><![CDATA[Oops... it looks like this ISO code already exists. If you are: <ul><li>trying to create an alternative currency, you must type a different ISO code</li><li>trying to modify the currency with ISO code %isoCode%, make sure you did not check the creation box</li></ul>]]></source>
+        <target state="needs-translation"><![CDATA[Oops... it looks like this ISO code already exists. If you are: <ul><li>trying to create an alternative currency, you must type a different ISO code</li><li>trying to modify the currency with ISO code %isoCode%, make sure you did not check the creation box</li></ul>]]></target>
+        <note>Line: 548</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/LanguageController.php" source-language="en" target-language="ja" datatype="plaintext">
@@ -526,6 +705,11 @@ Comment: @todo Throw exception</note>
         <source>Localization pack imported successfully.</source>
         <target state="final">地域パックのインポートに成功しました。</target>
         <note>Line: 138</note>
+      </trans-unit>
+      <trans-unit id="53802fa30d7e83f77eccfa376c33e6fa">
+        <source>Importing a new language may fail without the OpenSSL module. Please enable "openssl.so" on your server configuration.</source>
+        <target state="needs-translation">Importing a new language may fail without the OpenSSL module. Please enable "openssl.so" on your server configuration.</target>
+        <note>Line: 58</note>
       </trans-unit>
     </body>
   </file>

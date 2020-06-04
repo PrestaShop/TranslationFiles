@@ -109,6 +109,16 @@
         <target state="final">Direkt forgalom mentése</target>
         <note>Line: 60</note>
       </trans-unit>
+      <trans-unit id="9e7ff803e9245919433265f5430333c9">
+        <source>Exclude taxes in sales total?</source>
+        <target state="translated">Nettóban számolja az összes értékesítést?</target>
+        <note>Line: 80</note>
+      </trans-unit>
+      <trans-unit id="9cb43fe3704c7798a2564e0d9cd16d38">
+        <source>Exclude shipping in sales total?</source>
+        <target state="translated">Szállítási költség nélkül számolja az összes értékesítést?</target>
+        <note>Line: 100</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/referrers/helpers/view/view.tpl" source-language="en" target-language="hu" datatype="plaintext">
@@ -142,6 +152,59 @@
         <note>Line: 62
 Comment: PS_LABEL_IN_STOCK_PRODUCTS on configuration_lang table</note>
       </trans-unit>
+      <trans-unit id="43f098d58ceefef56f05ded453751319">
+        <source>Product available for orders</source>
+        <target state="needs-translation">Product available for orders</target>
+        <note>Line: 65
+Comment: PS_LABEL_OOS_PRODUCTS_BOA on configuration_lang table</note>
+      </trans-unit>
+      <trans-unit id="2ef464d50f6acd767fb3424910995218">
+        <source>Out-of-Stock</source>
+        <target state="needs-translation">Out-of-Stock</target>
+        <note>Line: 68
+Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
+      </trans-unit>
+      <trans-unit id="d2faf7873d8849348199df0e47d148ea">
+        <source>Dear Customer,
+
+Regards,
+Customer service</source>
+        <target state="translated">Tisztelt Vásárló!
+
+Üdvözlettel:
+Vevőszolgálat</target>
+        <note>Line: 27</note>
+      </trans-unit>
+      <trans-unit id="5a88dab595c4fe254a5154bd3ee26b7f">
+        <source>We are currently updating our shop and will be back really soon.
+Thanks for your patience.</source>
+        <target state="translated">Jelenleg frissítjük az áruházat, rövidesen újra elérhető lesz.
+Köszönjük a türelmet.</target>
+        <note>Line: 35</note>
+      </trans-unit>
+      <trans-unit id="d1d2f5672327bcdef75062dc70e875df">
+        <source>#IN</source>
+        <target state="translated">#IN</target>
+        <note>Line: 41
+Comment: PS_INVOICE_PREFIX on configuration_lang table</note>
+      </trans-unit>
+      <trans-unit id="b13c095eb3e41264a7b64504fa8348be">
+        <source>#DE</source>
+        <target state="translated">#DE</target>
+        <note>Line: 44
+Comment: PS_DELIVERY_PREFIX on configuration_lang table</note>
+      </trans-unit>
+      <trans-unit id="a02341e3f02309e6a6c6832870a7e803">
+        <source>#RE</source>
+        <target state="translated">#RE</target>
+        <note>Line: 47
+Comment: PS_RETURN_PREFIX on configuration_lang table</note>
+      </trans-unit>
+      <trans-unit id="4dfefaddceaa53498ee5bd840ac72692">
+        <source>a|about|above|after|again|against|all|am|an|and|any|are|aren|as|at|be|because|been|before|being|below|between|both|but|by|can|cannot|could|couldn|did|didn|do|does|doesn|doing|don|down|during|each|few|for|from|further|had|hadn|has|hasn|have|haven|having|he|ll|her|here|hers|herself|him|himself|his|how|ve|if|in|into|is|isn|it|its|itself|let|me|more|most|mustn|my|myself|no|nor|not|of|off|on|once|only|or|other|ought|our|ours|ourselves|out|over|own|same|shan|she|should|shouldn|so|some|such|than|that|the|their|theirs|them|themselves|then|there|these|they|re|this|those|through|to|too|under|until|up|very|was|wasn|we|were|weren|what|when|where|which|while|who|whom|why|with|won|would|wouldn|you|your|yours|yourself|yourselves</source>
+        <target state="translated">a</target>
+        <note>Line: 51</note>
+      </trans-unit>
       <trans-unit id="c3d67cba349c7ecb5465ae92bdb38970" approved="yes">
         <source>You may unsubscribe at any moment. For that purpose, please find our contact info in the legal notice.</source>
         <target state="final">Bármikor leiratkozhatsz. Ehhez keresd meg az elérhetőségi adatainkat a jogi nyilatkozatban.</target>
@@ -151,21 +214,54 @@ Comment: PS_LABEL_IN_STOCK_PRODUCTS on configuration_lang table</note>
   </file>
   <file original="classes/lang/KeysReference/ContactLang.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
+      <trans-unit id="4b220f866824d97c12e2eb9b44e3b5e6">
+        <source>Webmaster</source>
+        <target state="translated">Webmester</target>
+        <note>Line: 26</note>
+      </trans-unit>
       <trans-unit id="2273d1167a6212812d95dc8fadbae78e" approved="yes">
         <source>Customer service</source>
         <target state="final">Ügyfélszolgálat</target>
         <note>Line: 27</note>
       </trans-unit>
+      <trans-unit id="e335310ef456f61ede772356e5ece2aa">
+        <source>If a technical problem occurs on this website</source>
+        <target state="translated">Ha technikai probléma merül fel ezen a weboldalon</target>
+        <note>Line: 28</note>
+      </trans-unit>
+      <trans-unit id="c41c56aaf2db6aadfcdbe7e46422607d">
+        <source>For any question about a product, an order</source>
+        <target state="translated">Kérdések a termékekről, megrendelésekről</target>
+        <note>Line: 30</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/lang/KeysReference/GenderLang.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="127469a6b4253ebb77adccc0dd48461e">
+        <source>Mr.</source>
+        <target state="translated">Úr</target>
+        <note>Line: 26</note>
+      </trans-unit>
+      <trans-unit id="773442a125403cbb194c24c5a8d59b88">
+        <source>Mrs.</source>
+        <target state="translated">Úrhölgy</target>
+        <note>Line: 27</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/lang/KeysReference/GroupLang.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
+      <trans-unit id="c9fb01bb38360f1f3f595b7ccf3d3abe">
+        <source>Visitor</source>
+        <target state="translated">Látogató</target>
+        <note>Line: 26</note>
+      </trans-unit>
+      <trans-unit id="adb831a7fdd83dd1e2a309ce7591dff8">
+        <source>Guest</source>
+        <target state="translated">Vendég</target>
+        <note>Line: 27</note>
+      </trans-unit>
       <trans-unit id="ce26601dac0dea138b7295f02b7620a7" approved="yes">
         <source>Customer</source>
         <target state="final">Vásárló</target>
@@ -576,6 +672,21 @@ Comment: PS_LABEL_IN_STOCK_PRODUCTS on configuration_lang table</note>
         <source>Result</source>
         <target state="final">Eredmény</target>
         <note>Line: 434</note>
+      </trans-unit>
+      <trans-unit id="b0d4e69d1ce1d2db2c060d311a4e2144">
+        <source>Fuzzy search</source>
+        <target state="needs-translation">Fuzzy search</target>
+        <note>Line: 191</note>
+      </trans-unit>
+      <trans-unit id="91ef1a24c02b7efb35b5ff3c79230d5c">
+        <source>Maximum word length (in characters)</source>
+        <target state="needs-translation">Maximum word length (in characters)</target>
+        <note>Line: 230</note>
+      </trans-unit>
+      <trans-unit id="dc759a9deb56cc5ad4974559da2a148f">
+        <source>Maximum approximate words allowed by fuzzy search</source>
+        <target state="needs-translation">Maximum approximate words allowed by fuzzy search</target>
+        <note>Line: 215</note>
       </trans-unit>
     </body>
   </file>
@@ -1032,6 +1143,11 @@ Comment: PS_LABEL_IN_STOCK_PRODUCTS on configuration_lang table</note>
         <target state="final">Vendég vásárlás engedélyezése</target>
         <note>Line: 83</note>
       </trans-unit>
+      <trans-unit id="f30598053df0edf94d9463a2133d7f13">
+        <source>Recalculate shipping costs after editing the order</source>
+        <target state="translated">Szállítási költség újraszámolása rendelés szerkesztése után</target>
+        <note>Line: 100</note>
+      </trans-unit>
       <trans-unit id="8f32f059d66d7f10db7668e75b4742e6" approved="yes">
         <source>Allow multishipping</source>
         <target state="final">Többcímes szállítás engedélyezése</target>
@@ -1046,6 +1162,16 @@ Comment: PS_LABEL_IN_STOCK_PRODUCTS on configuration_lang table</note>
         <source>Terms of service</source>
         <target state="final">Használati feltételek</target>
         <note>Line: 120</note>
+      </trans-unit>
+      <trans-unit id="9bf6ad8b3a08781c7f86684e464e75de">
+        <source>Disable reordering option</source>
+        <target state="needs-translation">Disable reordering option</target>
+        <note>Line: 88</note>
+      </trans-unit>
+      <trans-unit id="010193873d7a198ce7004342b145dbc9">
+        <source>Page for terms and conditions</source>
+        <target state="needs-translation">Page for terms and conditions</target>
+        <note>Line: 125</note>
       </trans-unit>
     </body>
   </file>
@@ -1147,8 +1273,16 @@ Comment: PS_LABEL_IN_STOCK_PRODUCTS on configuration_lang table</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/MetaSettingsFormDataProvider.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="0d2054b7a56db47a97f65e3da632fe8b">
+        <source>The route %routeRule% is not valid</source>
+        <target state="needs-translation">The route %routeRule% is not valid</target>
+        <note>Line: 174</note>
+      </trans-unit>
+      <trans-unit id="c5fe0d77ab52ead15661b37ade6a594b">
+        <source>Keyword "{%keyword%}" required for route "%routeName%" (rule: "%routeRule%")</source>
+        <target state="needs-translation">Keyword "{%keyword%}" required for route "%routeName%" (rule: "%routeRule%")</target>
+        <note>Line: 187</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/MetaType.php" source-language="en" target-language="hu" datatype="plaintext">
@@ -1186,6 +1320,11 @@ Comment: PS_LABEL_IN_STOCK_PRODUCTS on configuration_lang table</note>
         <source>Enable B2B mode</source>
         <target state="final">B2B mód engedélyezése</target>
         <note>Line: 59</note>
+      </trans-unit>
+      <trans-unit id="dcc6fd9b580a958b3f42488265cb1300">
+        <source>Ask for birth date</source>
+        <target state="translated">Születési dátum bekérése</target>
+        <note>Line: 66</note>
       </trans-unit>
       <trans-unit id="a5e968e6a3689ca07bbdbecb6b0710ff" approved="yes">
         <source>Enable partner offers</source>
@@ -1318,6 +1457,36 @@ Comment: PS_LABEL_IN_STOCK_PRODUCTS on configuration_lang table</note>
         <target state="final">Raktárkezelés engedélyezése</target>
         <note>Line: 46</note>
       </trans-unit>
+      <trans-unit id="966c11f36eeb298187639eea581a7522">
+        <source>Label of in-stock products</source>
+        <target state="needs-translation">Label of in-stock products</target>
+        <note>Line: 55</note>
+      </trans-unit>
+      <trans-unit id="3385e522bc49e8f8fcb008788bc1762d">
+        <source>Label of out-of-stock products with allowed backorders</source>
+        <target state="needs-translation">Label of out-of-stock products with allowed backorders</target>
+        <note>Line: 64</note>
+      </trans-unit>
+      <trans-unit id="d79daa535ef1e90b7b1230b501b7b6c6">
+        <source>Label of out-of-stock products with denied backorders</source>
+        <target state="needs-translation">Label of out-of-stock products with denied backorders</target>
+        <note>Line: 73</note>
+      </trans-unit>
+      <trans-unit id="480cb944a0974a27ec0f964de23a18f4">
+        <source>Delivery time of in-stock products</source>
+        <target state="needs-translation">Delivery time of in-stock products</target>
+        <note>Line: 81</note>
+      </trans-unit>
+      <trans-unit id="16a5534d559007de7e8f5b4f17112203">
+        <source>Leave empty to disable</source>
+        <target state="needs-translation">Leave empty to disable</target>
+        <note>Line: 93</note>
+      </trans-unit>
+      <trans-unit id="d8b9fadcb2c1164975877a18731b1f4a">
+        <source>Delivery time of out-of-stock products with allowed backorders</source>
+        <target state="needs-translation">Delivery time of out-of-stock products with allowed backorders</target>
+        <note>Line: 89</note>
+      </trans-unit>
       <trans-unit id="65055b5469b4ad0c6f799ad782d1ebe5" approved="yes">
         <source>Default pack stock management</source>
         <target state="final">Alapértelmezett csomagkészlet kezelés</target>
@@ -1402,14 +1571,30 @@ Comment: PS_LABEL_IN_STOCK_PRODUCTS on configuration_lang table</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/TrafficSeo/Meta/Blocks/keyword.html.twig" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
+      <trans-unit id="86d314b39d91d9c8f4578c938e4401d6">
+        <source>Keywords: %keywords%</source>
+        <target state="needs-translation">Keywords: %keywords%</target>
+        <note>Line: 37</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/TrafficSeo/Meta/Blocks/meta_showcase_card.html.twig" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="f2fa247c9f424452552992222c0b8137">
+        <source>Improve your SEO</source>
+        <target state="needs-translation">Improve your SEO</target>
+        <note>Line: 35</note>
+      </trans-unit>
+      <trans-unit id="4f43f191a80a8b1d7ee512646f98544f">
+        <source>Edit information about your pages to gain visibility and therefore reach more visitors. We advise you to start with the index page, it stands for your homepage.</source>
+        <target state="needs-translation">Edit information about your pages to gain visibility and therefore reach more visitors. We advise you to start with the index page, it stands for your homepage.</target>
+        <note>Line: 36</note>
+      </trans-unit>
+      <trans-unit id="9b2028adefe19782be9eaa370a067e53">
+        <source>Configure index page</source>
+        <target state="needs-translation">Configure index page</target>
+        <note>Line: 39</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/TrafficSeo/Meta/Blocks/robots_file_generation.html.twig" source-language="en" target-language="hu" datatype="plaintext">
@@ -1428,8 +1613,16 @@ Comment: PS_LABEL_IN_STOCK_PRODUCTS on configuration_lang table</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/TrafficSeo/Meta/Blocks/seo_options_configuration.html.twig" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="49b28884b3ba83e6b5379973a3e1873f">
+        <source>SEO options</source>
+        <target state="needs-translation">SEO options</target>
+        <note>Line: 32</note>
+      </trans-unit>
+      <trans-unit id="18a405e3df98774d6fe16c522825ca02">
+        <source>Display attributes in the product meta title</source>
+        <target state="needs-translation">Display attributes in the product meta title</target>
+        <note>Line: 38</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/TrafficSeo/Meta/Blocks/set_up_urls_configuration.html.twig" source-language="en" target-language="hu" datatype="plaintext">
@@ -1619,6 +1812,16 @@ Comment: PS_LABEL_IN_STOCK_PRODUCTS on configuration_lang table</note>
         <source>Please click here to check if your shop supports HTTPS.</source>
         <target state="final">Kattints ide, hogy ellenőrízd az SSL elérhetőségét.</target>
         <note>Line: 59</note>
+      </trans-unit>
+      <trans-unit id="9fcc7a5ba2d12f5c77290e0bc6457a93">
+        <source>Display suppliers</source>
+        <target state="needs-translation">Display suppliers</target>
+        <note>Line: 122</note>
+      </trans-unit>
+      <trans-unit id="9cc328444bdc1b5f54550d04d57138a9">
+        <source>Display brands</source>
+        <target state="needs-translation">Display brands</target>
+        <note>Line: 130</note>
       </trans-unit>
     </body>
   </file>

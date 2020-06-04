@@ -40,6 +40,16 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/import/helpers/form/form.tpl" source-language="en" target-language="ar" datatype="plaintext">
     <body>
+      <trans-unit id="7ec8e6a8a53cd81e13594780931cfce5">
+        <source>Importing Supply Order Details will reset your history of ordered products, if there are any.</source>
+        <target state="translated">استيراد تفاصيل طلبات المزود قد يمسح سجل طلبات المنتجات إذا كانت موجودة.</target>
+        <note>Line: 70</note>
+      </trans-unit>
+      <trans-unit id="df6e9862566912e908ef785e860f9c71">
+        <source>Are you sure that you would like to delete this entity: </source>
+        <target state="needs-translation">Are you sure that you would like to delete this entity: </target>
+        <note>Line: 493</note>
+      </trans-unit>
       <trans-unit id="83a1698a445036a9a65686ac61879794" approved="yes">
         <source>You do not have permission to delete this. When the MultiStore mode is enabled, only a SuperAdmin can delete all items before an import.</source>
         <target state="final">ليس لديك الصلاحية لحذف هذا. عند تفعيل وضع MultiStore، يمكن لـ SuperAdmin فقط حذف كل العناصر قبل الاستيراد.</target>
@@ -157,6 +167,11 @@
         <target state="final">حدث خطأ أثناء النسخ الاحتياطي. تعذر الحصول على رسم بياني ل %s</target>
         <note>Line: 279</note>
       </trans-unit>
+      <trans-unit id="a12b8823ac5b71b9d09f9c7b09e54c48">
+        <source>No valid tables were found to backup.</source>
+        <target state="translated">لم يتم العثور على جداول صالحة للنسخ الاحتياطي.</target>
+        <note>Line: 343</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminCartsController.php" source-language="en" target-language="ar" datatype="plaintext">
@@ -198,6 +213,16 @@
         <source>Your file has been successfully imported into your shop. Don't forget to re-build the products' search index.</source>
         <target state="final">تم استيراد الملف بنجاح إلى متجرك. لا تنس إعادة إنشاء فهرس بحث المنتجات.</target>
         <note>Line: 653</note>
+      </trans-unit>
+      <trans-unit id="5b8f192b08644fdc9fd1fd86bcbbc57b">
+        <source>(click to open "Generators" page)</source>
+        <target state="translated">(انقر لفتح صفحة "المولدات")</target>
+        <note>Line: 784</note>
+      </trans-unit>
+      <trans-unit id="5c8707f79dbdd3abb28a8aa09e34f02f">
+        <source>No image was found for combination with id_product = %s and image position = %s.</source>
+        <target state="translated">لم يتم العثور على أي صورة للجمع مع معرف المنتج = %s وموضع الصورة = %s.</target>
+        <note>Line: 2658</note>
       </trans-unit>
       <trans-unit id="b672cb1c6a798cfb9f54de7dd897abd8" approved="yes">
         <source>EAN13 "%ean13%" has incorrect value for product with id %id%.</source>
@@ -263,6 +288,11 @@
         <source>Supplier is invalid</source>
         <target state="final">المورد غير صالح</target>
         <note>Line: 3818</note>
+      </trans-unit>
+      <trans-unit id="3cc21b7970c348679cb6a1323a2dc173">
+        <source>Alias is invalid</source>
+        <target state="translated">الاسم المستعار غير صالح</target>
+        <note>Line: 3896</note>
       </trans-unit>
       <trans-unit id="52629716aa86c04b8d81bc7e9522463f" approved="yes">
         <source>Store is invalid</source>
@@ -330,6 +360,36 @@
         <target state="final">فشل حفظ طلب العرض (في السطر %line%).</target>
         <note>Line: 4198</note>
       </trans-unit>
+      <trans-unit id="bb19d4490bdc48656603c0a7ef30db73">
+        <source>Supply Order (%s) could not be loaded (at line %d).</source>
+        <target state="translated">توريد النظام (%s) لا يمكن تحميله (في السطر %d).</target>
+        <note>Line: 4266</note>
+      </trans-unit>
+      <trans-unit id="5e063c49ce8203f2ca7a496da24b819e">
+        <source>Product/Attribute (%d/%d) cannot be added twice (at line %d).</source>
+        <target state="translated">المنتج / السمة (%d%d) لا يمكن إضافتها مرتين (في السطر %d).</target>
+        <note>Line: 4287</note>
+      </trans-unit>
+      <trans-unit id="0a657a7416c29bdc5b134b61b863e7ee">
+        <source>Product (%d/%d) is not available for this order (at line %d).</source>
+        <target state="translated">المنتج (%d%d) غير متوفر لهذا الطلب (في السطر %d).</target>
+        <note>Line: 4299</note>
+      </trans-unit>
+      <trans-unit id="ca676c9ec4e1ae9fe9df3ac28910e6ef">
+        <source>Unit Price (tax excl.) (%d) is not valid (at line %d).</source>
+        <target state="translated">سعر الوحدة (بدون الضريبة) (%d) غير صالح (في السطر %d).</target>
+        <note>Line: 4306</note>
+      </trans-unit>
+      <trans-unit id="406eba9770c82a84cae2d6ee3e846a56">
+        <source>Quantity Expected (%d) is not valid (at line %d).</source>
+        <target state="translated">الكمية المتوقعة (%d) غير صالح (في السطر %d).</target>
+        <note>Line: 4321</note>
+      </trans-unit>
+      <trans-unit id="8f7627c77b01dc968a9665c0156da405">
+        <source>Discount rate (%d) is not valid (at line %d). %s.</source>
+        <target state="translated">معدل الخصم (%d) غير صالح (في السطر %d). %s.</target>
+        <note>Line: 4313</note>
+      </trans-unit>
       <trans-unit id="243c959202a4f6ce7f1ccba6bc19ff08" approved="yes">
         <source>Cannot read the .CSV file</source>
         <target state="final">لا يمكن قراءة ملف CSV</target>
@@ -367,6 +427,11 @@
         <source>Unable to load this shop.</source>
         <target state="final">غير قادر على تحميل هذا المتجر.</target>
         <note>Line: 267</note>
+      </trans-unit>
+      <trans-unit id="cf52c411b5659457074fd9962435307f">
+        <source>You need to select at least the root category.</source>
+        <target state="translated">تحتاج إلى تحديد فئة الجذر على الأقل.</target>
+        <note>Line: 647</note>
       </trans-unit>
     </body>
   </file>
@@ -432,10 +497,20 @@
         <target state="final">هناك صف فارغ في الملف الذي لن يتم استيراده.</target>
         <note>Line: 295</note>
       </trans-unit>
+      <trans-unit id="d165f0c742c272ed88dc27acc91e2642">
+        <source>%s import</source>
+        <target state="translated">%s استيراد</target>
+        <note>Line: 321</note>
+      </trans-unit>
       <trans-unit id="02b5205ddff3073efc5c8b5b9cc165ba" approved="yes">
         <source>(from %s to %s)</source>
         <target state="final">(من %s إلى %s)</target>
         <note>Line: 326</note>
+      </trans-unit>
+      <trans-unit id="b53b06c0e98a2db123f953f0059a0948">
+        <source>with truncate</source>
+        <target state="translated">مع اقتطاع</target>
+        <note>Line: 332</note>
       </trans-unit>
     </body>
   </file>
@@ -500,6 +575,11 @@
         <target state="final">ضريبة غير صحيحة. غير يجب أن تنشئ مجموعة بهذا المعرَف أولا.</target>
         <note>Line: 490</note>
       </trans-unit>
+      <trans-unit id="43bf950e043950e2da10f917b902c131">
+        <source>%1$s (ID: %2$s) cannot be saved</source>
+        <target state="translated">%1$s(المعرف: %2$s) لا يمكن حفظه</target>
+        <note>Line: 675</note>
+      </trans-unit>
       <trans-unit id="994e8f1b72a9fe7a9e8949343be6bde7" approved="yes">
         <source>%data% cannot be saved</source>
         <target state="final">لا يمكن حفظ %data%</target>
@@ -530,6 +610,36 @@
         <target state="final">المنتج # %id%: الصورة (%url%) لا يمكن حفظها.</target>
         <note>Line: 1138</note>
       </trans-unit>
+      <trans-unit id="c2758df7a8c70260e3b55e26c51b65fd">
+        <source>Advanced stock management has incorrect value. Not set for product %name% </source>
+        <target state="needs-translation">Advanced stock management has incorrect value. Not set for product %name% </target>
+        <note>Line: 1232</note>
+      </trans-unit>
+      <trans-unit id="bb80841517f78647c5bee69710820c8d">
+        <source>Advanced stock management is not enabled, cannot enable on product %name% </source>
+        <target state="needs-translation">Advanced stock management is not enabled, cannot enable on product %name% </target>
+        <note>Line: 1240</note>
+      </trans-unit>
+      <trans-unit id="651e202913d9229ff615d5afd6a6a168">
+        <source>Advanced stock management is not enabled, warehouse not set on product %name% </source>
+        <target state="needs-translation">Advanced stock management is not enabled, warehouse not set on product %name% </target>
+        <note>Line: 1259</note>
+      </trans-unit>
+      <trans-unit id="470d8f3caa9e30c426f8d49779cc7a36">
+        <source>Warehouse did not exist, cannot set on product  %name% </source>
+        <target state="needs-translation">Warehouse did not exist, cannot set on product  %name% </target>
+        <note>Line: 1281</note>
+      </trans-unit>
+      <trans-unit id="3d52f8b2b1a67aa8740b72b3752d54f3">
+        <source>Incorrect value for "Depends on stock" for product %name% </source>
+        <target state="needs-translation">Incorrect value for "Depends on stock" for product %name% </target>
+        <note>Line: 1303</note>
+      </trans-unit>
+      <trans-unit id="65167d7a989d3a25c4f81a7140b07b8f">
+        <source>Advanced stock management is not enabled, cannot set "Depends on stock" for product %name% </source>
+        <target state="needs-translation">Advanced stock management is not enabled, cannot set "Depends on stock" for product %name% </target>
+        <note>Line: 1311</note>
+      </trans-unit>
       <trans-unit id="1f45b8f0e0e3ab3a5c43c9b99641fad5" approved="yes">
         <source>Advanced stock management has incorrect value. Not set for product %name%</source>
         <target state="final">إدارة المخزون المتقدمة لديها قيمة غير صحيحة. لم يتم تعيينه للمنتج %name%</target>
@@ -554,6 +664,11 @@
         <source>Advanced stock management is not enabled, cannot set "Depends on stock" for product %name%</source>
         <target state="final">لم يتم تمكين إدارة المخزون المتقدمة ، ولا يمكن تعيين "يعتمد على المخزون" للمنتج %name%</target>
         <note>Line: 1311</note>
+      </trans-unit>
+      <trans-unit id="c9b7bd5af2306a1572da86fb68d68883">
+        <source>Warehouse did not exist, cannot set on product %name%</source>
+        <target state="needs-translation">Warehouse did not exist, cannot set on product %name%</target>
+        <note>Line: 1281</note>
       </trans-unit>
     </body>
   </file>
@@ -668,6 +783,11 @@
         <target state="final">تعيين أذونات الكتابة للمجلد والمجلدات الفرعية IMG / متكرر</target>
         <note>Line: 118</note>
       </trans-unit>
+      <trans-unit id="5c482561c321c3f8b1ed436afdfab4aa">
+        <source>Set write permissions for the "log" folder and subfolders.</source>
+        <target state="translated">تعيين أذونات الكتابة للملف "سجل" والملفات الفرعية.</target>
+        <note>Line: 119</note>
+      </trans-unit>
       <trans-unit id="fea054b13666afb1d5d776afb925d288" approved="yes">
         <source>Set write permissions for the "mails" folder and subfolders.</source>
         <target state="final">تعيين أذونات الكتابة للمجلد الرسائل والمجلدات الفرعية / متكرر</target>
@@ -677,6 +797,31 @@
         <source>Set write permissions for the "modules" folder and subfolders.</source>
         <target state="final">تعيين أذونات الكتابة للمجلد والمجلدات الفرعية وحدات / متكرر</target>
         <note>Line: 121</note>
+      </trans-unit>
+      <trans-unit id="e1bb8996c82be1d540c7cc0d409bcd2f">
+        <source>Set write permissions for the "themes/%s/cache/" folder and subfolders, recursively.</source>
+        <target state="translated">تعيين أذونات الكتابة لملف "themes%s/lang/" والملفات الفرعية، بشكل متكرر.</target>
+        <note>Line: 122</note>
+      </trans-unit>
+      <trans-unit id="9c56996f2d8597e1f4ff15556128ee7d">
+        <source>Set write permissions for the "themes/%s/lang/" folder and subfolders, recursively.</source>
+        <target state="translated">تعيين أذونات الكتابة لملف "themes%s/lang/" والملفات الفرعية، بشكل متكرر.</target>
+        <note>Line: 123</note>
+      </trans-unit>
+      <trans-unit id="cf707d7f4da3b1134a8c9470fae8720c">
+        <source>Set write permissions for the "themes/%s/pdf/lang/" folder and subfolders, recursively.</source>
+        <target state="translated">تعيين أذونات الكتابة لملف "themes%s/lang/" والملفات الفرعية، بشكل متكرر.</target>
+        <note>Line: 124</note>
+      </trans-unit>
+      <trans-unit id="c0bda45f4bd14c8138cc5107c813167f">
+        <source>Set write permissions for the "app/config/" folder and subfolders, recursively.</source>
+        <target state="translated">تعيين أذونات الكتابة لملف "themes/lang/" والملفات الفرعية، بشكل متكرر.</target>
+        <note>Line: 125</note>
+      </trans-unit>
+      <trans-unit id="c64f03a0316f495425715feacdddb42a">
+        <source>Set write permissions for the "app/Resources/translations/" folder and subfolders, recursively.</source>
+        <target state="translated">تعيين أذونات الكتابة للمجلد "app/Resources/translations/" والمجلدات الفرعية، بشكل متكرر.</target>
+        <note>Line: 126</note>
       </trans-unit>
       <trans-unit id="fed1803fba6b27ae43103e333a5600eb" approved="yes">
         <source>Set write permissions for the "translations" folder and subfolders.</source>
@@ -692,6 +837,11 @@
         <source>Set write permissions for the "download" folder and subfolders.</source>
         <target state="final">تعيين أذونات الكتابة للمجلد والمجلدات الفرعية تنزيل / متكرر</target>
         <note>Line: 129</note>
+      </trans-unit>
+      <trans-unit id="4993d8516d8737159bcd735ca8075e6e">
+        <source>Allow the PHP fopen() function on your server.</source>
+        <target state="translated">السماح لوظيفة fopen PHP() على الخادم الخاص بك.</target>
+        <note>Line: 130</note>
       </trans-unit>
       <trans-unit id="4a344651fb10eb9e339838fab7bb97ae" approved="yes">
         <source>Enable GZIP compression on your server.</source>
@@ -732,16 +882,36 @@
         <target state="final">خطأ  "%s" غير محدد</target>
         <note>Line: 330</note>
       </trans-unit>
+      <trans-unit id="dbea0ef67609a60a1f71f8d19e132d1e">
+        <source>The "*" operator cannot be used in a nested query.</source>
+        <target state="translated">لا يمكن استخدام عامل التشغيل "*" في استعلام متداخل.</target>
+        <note>Line: 187</note>
+      </trans-unit>
+      <trans-unit id="20cc3893d65fa16fcd2fe317c555e28a">
+        <source>The operator "%s" is incorrect.</source>
+        <target state="translated">المشغل "%s" غير صحيح.</target>
+        <note>Line: 213</note>
+      </trans-unit>
       <trans-unit id="dde2543d498ef763b41a2e5ddad7ecdd" approved="yes">
         <source>The "%operator%" operator is incorrect.</source>
         <target state="final">المشغل   "%operator%"  غير صحيح.
 </target>
         <note>Line: 252</note>
       </trans-unit>
+      <trans-unit id="19681d28ed1cc72479bc26b7e76ad240">
+        <source>The LIMIT clause must contain numeric arguments.</source>
+        <target state="translated">يجب أن تحتوي جملة LIMIT على وسائط رقمية.</target>
+        <note>Line: 346</note>
+      </trans-unit>
       <trans-unit id="37074dedaa80ce0e038f92b668fb2350" approved="yes">
         <source>The "%reference%" reference does not exist in the "%table%" table.</source>
         <target state="final">المرجع "%reference%" غير موجود في الجدول "%table%".</target>
         <note>Line: 363</note>
+      </trans-unit>
+      <trans-unit id="7b4dd672e3b87269079894e693ce9b76">
+        <source>When multiple tables are used, each attribute must refer back to a table.</source>
+        <target state="translated">عند استخدام جداول متعددة، يجب أن ترجع كل سمة إلى جدول.</target>
+        <note>Line: 373</note>
       </trans-unit>
       <trans-unit id="8ff8844bb02822975904934598298987" approved="yes">
         <source>"%key%" is an unauthorized keyword.</source>
@@ -752,7 +922,11 @@
   </file>
   <file original="src/Adapter/Upload/UploadQuotaConfiguration.php" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      
+      <trans-unit id="c3ecc0e8b4dc11a1d2c66d81439b4a42">
+        <source>The limit chosen is larger than the server's maximum upload limit. Please increase the limits of your server.</source>
+        <target state="translated">الحد الذي تم اختياره أكبر من الحد الأقصى للرفع في الخادم. الرجاء زيادة حدود الخادم الخاص بك.</target>
+        <note>Line: 94</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Core/Import/File/FileUploader.php" source-language="en" target-language="ar" datatype="plaintext">
@@ -778,6 +952,11 @@
         <target state="final">تم تحميل حزء من الملف فقط:</target>
         <note>Line: 120</note>
       </trans-unit>
+      <trans-unit id="fc2e88db6e13898dab6ddf3b44c5d68a">
+        <source>The extension of your file should be .csv.</source>
+        <target state="translated">يجب أن يكون امتداد الملف الخاص بك .csv.</target>
+        <note>Line: 134</note>
+      </trans-unit>
       <trans-unit id="50844c635a86264cc59d737d532df573" approved="yes">
         <source>An error occurred while uploading / copying the file.</source>
         <target state="final">حدث خطأ أثناء تحميل ونسخ ملف</target>
@@ -792,10 +971,30 @@
         <target state="final">لتجنب مشاكل التشغيل، يرجى استخدام سيرفر أباتشي.</target>
         <note>Line: 156</note>
       </trans-unit>
+      <trans-unit id="d6305f2f8c5c0f95a367e618a64bb458">
+        <source>Please activate the 'mod_auth_basic' Apache module to allow authentication of PrestaShop's webservice.</source>
+        <target state="translated">يرجى تفعيل وحدة Apache "المصادقة وضع الأساسية" للسماح مصادقة لخدمة ويب بريستاشوب.</target>
+        <note>Line: 161</note>
+      </trans-unit>
+      <trans-unit id="e11a22a5910f9f84a6630ee78e1a39f5">
+        <source>Please activate the 'mod_rewrite' Apache module to allow the PrestaShop webservice.</source>
+        <target state="translated">يرجى تفعيل 'وضع اعادة الكتابة' وحدة Apache للسماح لبريستاشوب ويب سيرفس.</target>
+        <note>Line: 152</note>
+      </trans-unit>
       <trans-unit id="2c19e4b707a422ddbbc4d1c32966661d" approved="yes">
         <source>We could not check to see if basic authentication and rewrite extensions have been activated. Please manually check if they've been activated in order to use the PrestaShop webservice.</source>
         <target state="final">لم نتمكن من معرفة ما اذا كان يتم تنشيط المصادقة الأساسية وملحقات كتابة. يرجى التحقق يدويا إذا تفعيلها من أجل استخدام خدمة ويب PrestaShop.</target>
         <note>Line: 157</note>
+      </trans-unit>
+      <trans-unit id="ab60321a106f1e1ab65b76c1ca15dd7c">
+        <source>Please activate the 'SimpleXML' PHP extension to allow testing of PrestaShop's webservice.</source>
+        <target state="translated">يرجى تفعيل ملحق SimpleXML' PHP' للسماح لاختبار خدمة ويب PrestaShop.</target>
+        <note>Line: 162</note>
+      </trans-unit>
+      <trans-unit id="0508bbb36fb6b5db31edf2f45cd687ea">
+        <source>It is preferable to use SSL (https:) for webservice calls, as it avoids the "man in the middle" type security issues.</source>
+        <target state="translated">من الأفضل استخدام https) SSL:) لمكالمات خدمة الويب، كما أنه يتجنب المسائل الأمنية نوع "الرجل في الوسط".</target>
+        <note>Line: 167</note>
       </trans-unit>
     </body>
   </file>
@@ -933,19 +1132,60 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/CachingType.php" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      
-      
-      
-      
+      <trans-unit id="023d53a99c8074e823e5b2db4c19dfa4">
+        <source>(you must install the [a]Memcache PECL extension[/a])</source>
+        <target state="translated">(يجب تثبيت [a]Memcache PECL extension[/a])</target>
+        <note>Line: 118</note>
+      </trans-unit>
+      <trans-unit id="82742001d67f4446f50d68908f0f8b96">
+        <source>(you must install the [a]Memcached PECL extension[/a])</source>
+        <target state="translated">(يجب تثبيت [a]Memcached PECL extension[/a])
+</target>
+        <note>Line: 128</note>
+      </trans-unit>
+      <trans-unit id="78ae94b19fc38f9a35d20bc67cde2d61">
+        <source>(you must install the [a]APC PECL extension[/a])</source>
+        <target state="translated">(يجب تثبيت [a]APC PECL extension[/a])</target>
+        <note>Line: 138</note>
+      </trans-unit>
+      <trans-unit id="8b763a82c2aa7875f3da39399ba350d7">
+        <source>(you must install the [a]Xcache extension[/a])</source>
+        <target state="translated">(يجب تثبيت [a]تمديد ذاكرة التخزين المؤقت [/a])</target>
+        <note>Line: 148</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Backup/Blocks/backup_form.html.twig" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      
+      <trans-unit id="5b739e824ccebf9cd8c5b4ef774c59a7">
+        <source>I have read the disclaimer. Please create a new backup.</source>
+        <target state="translated">لقد قرأت هذا البند. الرجاء إنشاء نسخة احتياطية جديدة.</target>
+        <note>Line: 32</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Backup/Blocks/backup_info.html.twig" source-language="en" target-language="ar" datatype="plaintext">
     <body>
+      <trans-unit id="088e7482af32200b588d22e5f0af4f94">
+        <source>How to restore a database backup</source>
+        <target state="translated">كيفية استعادة النسخ الاحتياطي لقاعدة بيانات</target>
+        <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="bcb4db2b36ea3b1e20e5ee4aa9a68665">
+        <source>If you need to restore a database backup, we invite you to subscribe to a [1][2]technical support plan[/2][/1].</source>
+        <target state="translated">اذا كنت بحاجة إلى استعادة قاعدة بيانات احتياطية، ندعوك للاشتراك في [1] [2] خطة الدعم الفني [/2] [/1].</target>
+        <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="0929b3759c8eef31c299400f513072dd">
+        <source>Our team will take care of restoring your database safely.</source>
+        <target state="translated">سيقدم لك فريقنا الدعم لاستعادة قاعدة البيانات الخاصة بك.</target>
+        <note>Line: 31</note>
+      </trans-unit>
+      <trans-unit id="c4b6a12f5f4cbbeb2353a718ee9a8a9a">
+        <source>Why can't I restore it by myself?</source>
+        <target state="translated">لماذا لا أستطيع استعادتها بنفسي؟</target>
+        <note>Line: 33</note>
+      </trans-unit>
       <trans-unit id="d4ef96663955ee203ce986ef40945199" approved="yes">
         <source>Your shop is hosted by PrestaShop. Although you can create backup files here below, there are core settings you cannot access for security reasons, like the database management. Thus, only our team can proceed to a restoration.</source>
         <target state="final">يتم استضافة متجرك من قبل PrestaShop. على الرغم من أنه يمكنك إنشاء ملفات النسخ الاحتياطي هنا أدناه، هناك إعدادات أساسية لا يمكن الوصول إليها لأسباب أمنية، مثل إدارة قاعدة البيانات. وهكذا، يمكن لفريقنا فقط أن يقوم بعملية إسترجاع البيانات.</target>
@@ -1014,6 +1254,11 @@
         <target state="final">جارى تحميل الملف</target>
         <note>Line: 41</note>
       </trans-unit>
+      <trans-unit id="6a278621d6f2e7dbd56c7beca4081e2d">
+        <source>Backup files should automatically start downloading.</source>
+        <target state="translated">ملفات النسخ الاحتياطي ستبدء تلقائيا في التنزيل.</target>
+        <note>Line: 44</note>
+      </trans-unit>
       <trans-unit id="da61b0c3311560af7fa1d9a515b309f6" approved="yes">
         <source>If not,[1][2] please click here[/1]!</source>
         <target state="final">إن لم يكن، [1] [2] الرجاء الضغط هنا [/1]!</target>
@@ -1023,31 +1268,67 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Blocks/import_panel.html.twig" source-language="en" target-language="ar" datatype="plaintext">
     <body>
+      <trans-unit id="418dde4b22e22a725e75b2819c0373b2">
+        <source>Note that the Category import does not support having two categories with the same name.</source>
+        <target state="translated">يرجى العلم أن استيراد الفئة لا يدعم وجود فئتين بنفس الاسم.</target>
+        <note>Line: 60</note>
+      </trans-unit>
+      <trans-unit id="b990d5cecd822de3b6922abcf71549b4">
+        <source>Note that you can have several products with the same reference.</source>
+        <target state="translated">تذكر أنه يمكنك الحصول على عدة منتجات بنفس المرجع.</target>
+        <note>Line: 61</note>
+      </trans-unit>
       <trans-unit id="6dc43a448d1a98e265b2632d5fa41ec6" approved="yes">
         <source>Are you sure that you would like to delete this entity:</source>
         <target state="final">هل أنت متأكد من رغبتك في حذف هذا:</target>
+        <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="e4cdcd51e6cf787d4ecc7d813f0c23cb">
+        <source>The locale must be installed</source>
+        <target state="translated">يجب أن يتم تثبيت الإعدادات المحلية</target>
+        <note>Line: 118</note>
+      </trans-unit>
+      <trans-unit id="96928d6d818f56de18860a85e4a06f43">
+        <source>Are you sure you want to delete this entity:</source>
+        <target state="needs-translation">Are you sure you want to delete this entity:</target>
         <note>Line: 29</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Email/Blocks/smtp_configuration.html.twig" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      
+      <trans-unit id="5b8df4265c79cd43831e740281850c84">
+        <source>SSL does not seem to be available on your server.</source>
+        <target state="translated">لا يبدو أن طبقة المقابس الآمنة (SSL) متوفرة على الخادم الخاص بك.</target>
+        <note>Line: 75</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/RequestSql/Blocks/db_tables_panel.html.twig" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      
+      <trans-unit id="0fe194d9bb812c48dfe35a3cf6d0af52">
+        <source>Please choose a MySQL table</source>
+        <target state="translated">الرجاء اختيار جدول MySQL</target>
+        <note>Line: 77</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/RequestSql/index.html.twig" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      
+      <trans-unit id="0ee028bcc2a0101d4d65745086eefc03">
+        <source>When saving the query, only the "SELECT" SQL statement is allowed.</source>
+        <target state="translated">عند حفظ الاستعلام، فقط "SQL "SELECT مسموح به.</target>
+        <note>Line: 50</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/RequestSql/view.html.twig" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      
+      <trans-unit id="3be751fc7ab3f3ced8007796fe8bde7d">
+        <source>This SQL query has no result.</source>
+        <target state="translated">هذا الاستعلام SQL لا يوجد لديه نتيجة.</target>
+        <note>Line: 69</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/memcache_servers.html.twig" source-language="en" target-language="ar" datatype="plaintext">
@@ -1071,6 +1352,11 @@
         <target state="final">يرجى الرجوع إلى الخطأ التالية (ق)</target>
         <note>Line: 215</note>
       </trans-unit>
+      <trans-unit id="d5df5b42d8fa5fed36fbd1cda0112f40">
+        <source>Checking files...</source>
+        <target state="translated">التحقق من الملفات...</target>
+        <note>Line: 238</note>
+      </trans-unit>
       <trans-unit id="a2db667abfde7a08ee094d460102f268" approved="yes">
         <source>Missing files</source>
         <target state="final">الملفات المفقودة</target>
@@ -1080,6 +1366,16 @@
         <source>Updated files</source>
         <target state="final">الملفات المحدثة</target>
         <note>Line: 249</note>
+      </trans-unit>
+      <trans-unit id="c49d6d58d1c98f34a15bbd169f82961a">
+        <source>Changed/missing files have been detected.</source>
+        <target state="translated">تم العثور عن الملفات المتغيرة / المفقودة.</target>
+        <note>Line: 250</note>
+      </trans-unit>
+      <trans-unit id="4757718002cbae6feee5c372b66b6a29">
+        <source>No change has been detected in your files.</source>
+        <target state="translated">لم يتم العثور على أي تغييرات في الملفات.</target>
+        <note>Line: 251</note>
       </trans-unit>
     </body>
   </file>

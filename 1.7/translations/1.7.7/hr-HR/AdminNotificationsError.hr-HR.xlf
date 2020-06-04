@@ -1042,6 +1042,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">Ne možete izbrisati vlastiti profil.</target>
         <note>Line: 294</note>
       </trans-unit>
+      <trans-unit id="3f19c85aaf117e786e30ce2d7f2c018f">
+        <source>This field cannot be longer than %limit% characters (incl. HTML tags)</source>
+        <target state="translated">Polje ne smije biti dulje od %limit% znakova (uključujući HTML tagove)</target>
+        <note>Line: 271</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/SqlManagerController.php" source-language="en" target-language="hr" datatype="plaintext">
@@ -1088,6 +1093,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">Došlo je do neočekivane pogreške. [%type% kod %code%]</target>
         <note>Line: 395</note>
       </trans-unit>
+      <trans-unit id="5ab1978ae9ce868183a34316327be062">
+        <source>An unexpected error occurred. [%type% code %code%]: %message%</source>
+        <target state="translated">Došlo je do neočekivane pogreške. [%type% kod %code%]: %message%</target>
+        <note>Line: 384</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/Design/MailThemeController.php" source-language="en" target-language="hr" datatype="plaintext">
@@ -1101,6 +1111,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <source>Cannot send test email for layout %layout%</source>
         <target state="final">Nije moguće poslati testnu e-poštu za izgled %layout%</target>
         <note>Line: 348</note>
+      </trans-unit>
+      <trans-unit id="26c322633921fe508bb9a03de1124986">
+        <source>Cannot translate emails body content</source>
+        <target state="needs-translation">Cannot translate emails body content</target>
+        <note>Line: 374</note>
       </trans-unit>
     </body>
   </file>
@@ -1359,6 +1374,31 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">Nema dovoljno proizvoda na zalihi</target>
         <note>Line: 568</note>
       </trans-unit>
+      <trans-unit id="059cfac7937209448c9fb1cf8f07e321">
+        <source>Positive product quantity is required.</source>
+        <target state="needs-translation">Positive product quantity is required.</target>
+        <note>Line: 536</note>
+      </trans-unit>
+      <trans-unit id="c5064b408c1894a4dbd6db58f119c4a6">
+        <source>Selected language cannot be used because it is disabled</source>
+        <target state="needs-translation">Selected language cannot be used because it is disabled</target>
+        <note>Line: 542</note>
+      </trans-unit>
+      <trans-unit id="ea5d4a7a4ca312b276b1d4ea1f74d724">
+        <source>Selected currency cannot be used because it is deleted.</source>
+        <target state="needs-translation">Selected currency cannot be used because it is deleted.</target>
+        <note>Line: 548</note>
+      </trans-unit>
+      <trans-unit id="021361da28a3e064871e2cbbacd46757">
+        <source>Selected currency cannot be used because it is disabled.</source>
+        <target state="needs-translation">Selected currency cannot be used because it is disabled.</target>
+        <note>Line: 552</note>
+      </trans-unit>
+      <trans-unit id="bc5d37ff246288c98fa45f3903172747">
+        <source>Custom field text cannot be longer than %limit% characters.</source>
+        <target state="needs-translation">Custom field text cannot be longer than %limit% characters.</target>
+        <note>Line: 562</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php" source-language="en" target-language="hr" datatype="plaintext">
@@ -1377,6 +1417,16 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <source>Invalid action: this order has already been delivered.</source>
         <target state="final">Nevažeća radnja: ova narudžba je već isporučena</target>
         <note>Line: 1522</note>
+      </trans-unit>
+      <trans-unit id="3e19a894b9552d54a62e99b3f7e7cf94">
+        <source>Invalid action: this order has already been paid.</source>
+        <target state="needs-translation">Invalid action: this order has already been paid.</target>
+        <note>Line: 1514</note>
+      </trans-unit>
+      <trans-unit id="7621aa68f3fb11dce889ba85f3a74758">
+        <source>Invalid action: this order has not been paid.</source>
+        <target state="needs-translation">Invalid action: this order has not been paid.</target>
+        <note>Line: 1526</note>
       </trans-unit>
     </body>
   </file>
@@ -1484,6 +1534,16 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">Odabrano razdoblje nije valjano.</target>
         <note>Line: 172</note>
       </trans-unit>
+      <trans-unit id="2fe13fdedc51b372d555f49493993a7e">
+        <source>Reduction value "%value%" is invalid. Allowed values from 0 to %max%</source>
+        <target state="needs-translation">Reduction value "%value%" is invalid. Allowed values from 0 to %max%</target>
+        <note>Line: 188</note>
+      </trans-unit>
+      <trans-unit id="a5e2f007d6044085203c9a13c981ed8a">
+        <source>Reduction value "%value%" is invalid. Value cannot be negative</source>
+        <target state="needs-translation">Reduction value "%value%" is invalid. Value cannot be negative</target>
+        <note>Line: 193</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/CustomerService/ReplyToCustomerThreadType.php" source-language="en" target-language="hr" datatype="plaintext">
@@ -1553,7 +1613,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Exception/error.html.twig" source-language="en" target-language="hr" datatype="plaintext">
     <body>
-      
+      <trans-unit id="88e6e5a9b5ba8629661e4dcdb78e26a5">
+        <source>Oops... looks like an unexpected error occurred</source>
+        <target state="translated">Ups... izgleda da je došlo do pogreške</target>
+        <note>Line: 49</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_addons_connect.html.twig" source-language="en" target-language="hr" datatype="plaintext">
