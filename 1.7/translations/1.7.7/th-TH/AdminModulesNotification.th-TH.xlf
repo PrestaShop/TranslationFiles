@@ -7,10 +7,26 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/modules/configure.tpl" source-language="en" target-language="th" datatype="plaintext">
     <body>
-      
-      
-      
-      
+      <trans-unit id="c0d19e251d0ff55ecb860e7349f779a4" approved="yes">
+        <source>Confirm reset</source>
+        <target state="final">ยืนยันการรีเซ็ต</target>
+        <note>Line: 50</note>
+      </trans-unit>
+      <trans-unit id="45e06e5610d29d675a875a6f7731b73d" approved="yes">
+        <source>Would you like to delete the content related to this module ?</source>
+        <target state="final">คุณต้องการลบเนื้อหาที่เกี่ยวข้องกับโมดูลนี้หรือไม่?</target>
+        <note>Line: 51</note>
+      </trans-unit>
+      <trans-unit id="d65c99010166606287266e4af4f0b934" approved="yes">
+        <source>No - reset only the parameters</source>
+        <target state="final">ไม่ - รีเซ็ตพารามิเตอร์เท่านั้น</target>
+        <note>Line: 52</note>
+      </trans-unit>
+      <trans-unit id="0426ba52f94430cf093652d1ea18fedf" approved="yes">
+        <source>Yes - reset everything</source>
+        <target state="final">ใช่ - รีเซ็ตทุกอย่าง</target>
+        <note>Line: 53</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/Validate.php" source-language="en" target-language="th" datatype="plaintext">
@@ -24,14 +40,36 @@
   </file>
   <file original="classes/controller/AdminController.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="9bbf45a624c880d590d7b6796e5a7a9c" approved="yes">
+        <source>The module was successfully downloaded.</source>
+        <target state="final">ดาวน์โหลดโมดูลสำเร็จแล้ว</target>
+        <note>Line: 473</note>
+      </trans-unit>
+      <trans-unit id="6832d3339f3238558d9e290f4ff36bb8" approved="yes">
+        <source>Module(s) installed successfully.</source>
+        <target state="final">ติดตั้งโมดูลสำเร็จแล้ว</target>
+        <note>Line: 477</note>
+      </trans-unit>
+      <trans-unit id="0be078b247fde4986e320cd2684e7ab9" approved="yes">
+        <source>Module(s) uninstalled successfully.</source>
+        <target state="final">ถอนการติดตั้งโมดูลสำเร็จแล้ว</target>
+        <note>Line: 478</note>
+      </trans-unit>
+      <trans-unit id="7f31b58c32d9112f9bb160a481f6a911" approved="yes">
+        <source>Module reset successfully.</source>
+        <target state="final">รีเซ็ตโมดูลสำเร็จแล้ว</target>
+        <note>Line: 486</note>
+      </trans-unit>
+      <trans-unit id="3270965aab0523dca0351cefc83e40b0" approved="yes">
+        <source>Module deleted successfully.</source>
+        <target state="final">ลบโมดูลสำเร็จแล้ว</target>
+        <note>Line: 487</note>
+      </trans-unit>
+      <trans-unit id="35a596598c0477aea67abfa33b053697" approved="yes">
+        <source>Successfully signed in to PrestaShop Addons.</source>
+        <target state="final">ลงชื่อเข้าใช้ PrestaShop เรียบร้อยแล้ว</target>
+        <note>Line: 497</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/module/Module.php" source-language="en" target-language="th" datatype="plaintext">
@@ -144,7 +182,7 @@
     <body>
       <trans-unit id="9ce4606635f2118f9d10d1f323f73fe2" approved="yes">
         <source>This module cannot be transplanted to this hook.</source>
-        <target state="final">โมดูลนี้จะไม่สามารถย้ายไปเบ็ดนี้</target>
+        <target state="final">โมดูลนี้จะไม่สามารถย้ายไปฮุกนี้</target>
         <note>Line: 96</note>
       </trans-unit>
     </body>
@@ -215,19 +253,29 @@
   </file>
   <file original="src/PrestaShopBundle/Command/ModuleCommand.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
+      <trans-unit id="9dca2e42fe7a0db763b8737e9a8f9133" approved="yes">
+        <source>%action% action on module %module% succeeded.</source>
+        <target state="final">การปฏิบัติการ %action% บนโมดูล %module% เสร็จสมบูรณ์.</target>
+        <note>Line: 165</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/Design/PositionsController.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
       <trans-unit id="0c01b89a049f95e9eb10cfeb2a2901f0" approved="yes">
         <source>Hook cannot be loaded.</source>
-        <target state="final">ตะขอไม่สามารถโหลดได้</target>
+        <target state="final">ฮุกไม่สามารถโหลดได้</target>
         <note>Line: 178</note>
+      </trans-unit>
+      <trans-unit id="80e868e8d753c3ec4066aab283e66cbc" approved="yes">
+        <source>The module was successfully removed from the hook.</source>
+        <target state="final">ลบโมดูลออกจากฮุกสำเร็จแล้ว</target>
+        <note>Line: 224</note>
+      </trans-unit>
+      <trans-unit id="980b6caee06822f8c5df45eb7db277be" approved="yes">
+        <source>The module transplanted successfully to the hook.</source>
+        <target state="final">โมดูลถูกติดตั้งไปยังฮุกสำเร็จแล้ว</target>
+        <note>Line: 223</note>
       </trans-unit>
     </body>
   </file>
