@@ -12,6 +12,11 @@
         <target state="final">Hesabın qeydiyyat tarixi:</target>
         <note>Line: 49</note>
       </trans-unit>
+      <trans-unit id="b157524c4be8c2fc80e5ef2f0b1bf1e6" approved="yes">
+        <source>Valid orders placed:</source>
+        <target state="final">Düzgün sifarişlər yerləşdirildi:</target>
+        <note>Line: 53</note>
+      </trans-unit>
       <trans-unit id="58930025e1f95d65035e0df5d6c2ae41" approved="yes">
         <source>Order information</source>
         <target state="final">Order Information</target>
@@ -116,6 +121,11 @@
         <target state="final">A</target>
         <note>Line: 67</note>
       </trans-unit>
+      <trans-unit id="cdd894792c37687ccbf690fcd9673a89" approved="yes">
+        <source>No orders validated for the moment</source>
+        <target state="final">İndiyə qədər heç bir sifariş doğrulanmadı</target>
+        <note>Line: 76</note>
+      </trans-unit>
       <trans-unit id="04427d6ba3fb03f0951b27ddd7c05af5" approved="yes">
         <source>Orders and messages timeline</source>
         <target state="final">Sifariş və mesajlar günlüyü</target>
@@ -125,10 +135,30 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/customer_threads/message.tpl" source-language="en" target-language="az" datatype="plaintext">
     <body>
+      <trans-unit id="d13d8380c3f4de07fef91a42fe6c60d7" approved="yes">
+        <source>Customer ID:</source>
+        <target state="final">Alıcı ID:</target>
+        <note>Line: 46</note>
+      </trans-unit>
       <trans-unit id="bfb069b69766c9a8a1fac8aabfd970b2" approved="yes">
         <source>File attachment</source>
         <target state="final">Fayl qoşması</target>
         <note>Line: 66</note>
+      </trans-unit>
+      <trans-unit id="c851a34d4806acb02a55df148f9d7f25" approved="yes">
+        <source>Product #</source>
+        <target state="final">Məhsul #</target>
+        <note>Line: 84</note>
+      </trans-unit>
+      <trans-unit id="818d947aeb9e604f54ce4c3444cc0256" approved="yes">
+        <source>Thread ID:</source>
+        <target state="final">Mövzu ID:</target>
+        <note>Line: 153</note>
+      </trans-unit>
+      <trans-unit id="0e2f5e3f12561ac94047979ec5406946" approved="yes">
+        <source>Message ID:</source>
+        <target state="final">Mesaj ID:</target>
+        <note>Line: 157</note>
       </trans-unit>
       <trans-unit id="940663fd4428d2c86f9a4780b6574028" approved="yes">
         <source>Message:</source>
@@ -256,6 +286,11 @@
         <target state="final">Bu sifarişi bir qonaq yerləşdirdi.</target>
         <note>Line: 594</note>
       </trans-unit>
+      <trans-unit id="d53b54a2bdbf970c70b7de7de4f6021f" approved="yes">
+        <source>Valid orders placed</source>
+        <target state="final">Düzgün sifarişlər yerləşdirildi</target>
+        <note>Line: 613</note>
+      </trans-unit>
       <trans-unit id="47f9082fc380ca62d531096aa1d110f1" approved="yes">
         <source>Private</source>
         <target state="final">özəl</target>
@@ -377,12 +412,11 @@
   </file>
   <file original="classes/lang/KeysReference/SupplyOrderStateLang.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
+      <trans-unit id="aa92ea2c14150feacd8a38cabaf59c4b" approved="yes">
+        <source>2 - Order validated</source>
+        <target state="final">2 - Sifariş doğrulandı</target>
+        <note>Line: 28</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminAddressesController.php" source-language="en" target-language="az" datatype="plaintext">
@@ -742,10 +776,20 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/Blocks/View/orders.html.twig" source-language="en" target-language="az" datatype="plaintext">
     <body>
+      <trans-unit id="a9c74a800ed9f3d504e76d8c59acc497" approved="yes">
+        <source>Invalid orders:</source>
+        <target state="final">Yanlış sifarişlər:</target>
+        <note>Line: 48</note>
+      </trans-unit>
       <trans-unit id="25326db0dcb2cf342b3477fbdad373dc" approved="yes">
         <source>Total spent</source>
         <target state="final">tekun_ödəniş</target>
         <note>Line: 114</note>
+      </trans-unit>
+      <trans-unit id="d1554912e46f8d36a800ad8b604225f1" approved="yes">
+        <source>Valid orders:</source>
+        <target state="final">Düzgün sifarişlər:</target>
+        <note>Line: 42</note>
       </trans-unit>
     </body>
   </file>
@@ -837,8 +881,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/CustomerService/CustomerThread/Block/customer_information.html.twig" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="3bf63a999cda6c9d95c3827e7942f41d" approved="yes">
+        <source>Customer since: %s</source>
+        <target state="final">Nə vaxtdan alıcıdır: %s </target>
+        <note>Line: 78</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/CustomerService/MerchandiseReturn/Blocks/options.html.twig" source-language="en" target-language="az" datatype="plaintext">
@@ -869,7 +916,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Cart/Blocks/View/cart_summary.html.twig" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      
+      <trans-unit id="f14b582c1b0eab88ed5904fb781568c0" approved="yes">
+        <source>Discount name</source>
+        <target state="final">Endirim adı</target>
+        <note>Line: 173</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/CreditSlip/Blocks/credit_slip_options.html.twig" source-language="en" target-language="az" datatype="plaintext">
