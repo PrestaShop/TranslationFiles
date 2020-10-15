@@ -11,10 +11,40 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/cart_rules/actions.tpl" source-language="en" target-language="az" datatype="plaintext">
     <body>
+      <trans-unit id="fc6341fa76fe93b837d748563e0a60c1" approved="yes">
+        <source>Apply a discount</source>
+        <target state="final">Endirim et</target>
+        <note>Line: 43</note>
+      </trans-unit>
+      <trans-unit id="da73ea07f51049046d527dabd85170e1" approved="yes">
+        <source>Percent (%)</source>
+        <target state="final">Faiz (%)</target>
+        <note>Line: 48</note>
+      </trans-unit>
+      <trans-unit id="f1bffec1a42b7e6dd7e3613dbbb0a065" approved="yes">
+        <source>Apply a discount to</source>
+        <target state="final">Buna endirim et:</target>
+        <note>Line: 102</note>
+      </trans-unit>
+      <trans-unit id="629b9591d5085cf14edd26c9d376bb3a" approved="yes">
+        <source>Order (without shipping)</source>
+        <target state="final">Sifariş (çatdırılmasız)</target>
+        <note>Line: 107</note>
+      </trans-unit>
+      <trans-unit id="8bab8ac32605948e59399033c7606222" approved="yes">
+        <source>Cheapest product</source>
+        <target state="final">Ən ucuz məhsul</target>
+        <note>Line: 119</note>
+      </trans-unit>
       <trans-unit id="8cfdac16c15c9b130f26ca1d275035a0" approved="yes">
         <source>Selected product(s)</source>
         <target state="final">Seçilmiş məhsul(lar)</target>
         <note>Line: 125</note>
+      </trans-unit>
+      <trans-unit id="2f73d13f0a878086ce1f9933aed3ac80" approved="yes">
+        <source>Send a free gift</source>
+        <target state="final">Pulsuz hədiyyə göndər</target>
+        <note>Line: 165</note>
       </trans-unit>
       <trans-unit id="c5f17f7ca53d9225478fdbfd0a5583ac" approved="yes">
         <source>Search a product</source>
@@ -25,6 +55,21 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl" source-language="en" target-language="az" datatype="plaintext">
     <body>
+      <trans-unit id="89bea8045e50a337d8ce9849a4e1633c" approved="yes">
+        <source>Shipping excluded</source>
+        <target state="final">Daşınma xaric</target>
+        <note>Line: 105</note>
+      </trans-unit>
+      <trans-unit id="f7b8d9d5bbba937644a29be14e2654ed" approved="yes">
+        <source>Shipping included</source>
+        <target state="final">Daşınma daxil</target>
+        <note>Line: 106</note>
+      </trans-unit>
+      <trans-unit id="cd8e66c655070f24cbece45141a505c3" approved="yes">
+        <source>Country selection</source>
+        <target state="final">Ölkə seçimi</target>
+        <note>Line: 148</note>
+      </trans-unit>
       <trans-unit id="7922167568640bb2e57c1592a0b5945b" approved="yes">
         <source>Unselected countries</source>
         <target state="final">Seçilməmiş ölkələr</target>
@@ -59,6 +104,11 @@
         <source>Selected groups</source>
         <target state="final">Seçilmiş qruplar</target>
         <note>Line: 234</note>
+      </trans-unit>
+      <trans-unit id="e2bcac3dc51781abbc2938e16a0b0e72" approved="yes">
+        <source>Shop selection</source>
+        <target state="final">Dükan seçimi</target>
+        <note>Line: 301</note>
       </trans-unit>
       <trans-unit id="5e3f76cc2d68012faa5ce54aadf6cf84" approved="yes">
         <source>Unselected shops</source>
@@ -126,10 +176,11 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/specific_price_rule/helpers/form/form.tpl" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      
-      
-      
-      
+      <trans-unit id="6982640121765cb57f29e6fe170caadc" approved="yes">
+        <source>Add a new condition group</source>
+        <target state="final">Yeni şərtlər qrupu artır</target>
+        <note>Line: 33</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/suppliers/helpers/view/view.tpl" source-language="en" target-language="az" datatype="plaintext">
@@ -161,6 +212,11 @@
   </file>
   <file original="classes/lang/KeysReference/StockMvtReasonLang.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
+      <trans-unit id="9e661cc6f7c72b95abfd6b372aacbfa1" approved="yes">
+        <source>Decrease</source>
+        <target state="final">Azalt</target>
+        <note>Line: 28</note>
+      </trans-unit>
       <trans-unit id="02ef8bd47ce057b792bbd620d6059caa" approved="yes">
         <source>Transfer to another warehouse</source>
         <target state="final">Başqa anbara göndər</target>
@@ -238,6 +294,11 @@
         <target state="final">Yadda saxla, sonra başqa dəyər artır</target>
         <note>Line: 342</note>
       </trans-unit>
+      <trans-unit id="577cf2cf1be74419ac04093a2b4cd64d" approved="yes">
+        <source>Edit Value</source>
+        <target state="final">Dəyərə Düzəliş Et</target>
+        <note>Line: 647</note>
+      </trans-unit>
       <trans-unit id="fce2e84f3cce0e5351e85e9f0cb20107" approved="yes">
         <source>Add New Value</source>
         <target state="final">Yeni Dəyər Artır</target>
@@ -247,9 +308,19 @@
   </file>
   <file original="controllers/admin/AdminCartRulesController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
+      <trans-unit id="bd0e34e5be6447844e6f262d51f1a9dc" approved="yes">
+        <source>Payment: </source>
+        <target state="final">Ödəniş: </target>
+        <note>Line: 703</note>
+      </trans-unit>
       <trans-unit id="65b7eaeb9ba4e9903f82297face9f7cd" approved="yes">
         <source>Cart Rules</source>
         <target state="final">Règles panier</target>
+        <note>Line: 716</note>
+      </trans-unit>
+      <trans-unit id="a0e8e26f6f9354192425b9a23227a5ba" approved="yes">
+        <source>Payment:</source>
+        <target state="final">Ödəniş:</target>
         <note>Line: 716</note>
       </trans-unit>
     </body>
@@ -304,6 +375,16 @@
         <source>Allow file uploading</source>
         <target state="final">Fayl yüklənməsinə yol ver</target>
         <note>Line: 150</note>
+      </trans-unit>
+      <trans-unit id="2da2fc7f382fa2e5b9d0e433fa71a475" approved="yes">
+        <source>Default message</source>
+        <target state="final">Susmaya görə mesaj</target>
+        <note>Line: 155</note>
+      </trans-unit>
+      <trans-unit id="13ec82d83a5254297003cc1b41f19edb" approved="yes">
+        <source>IMAP URL</source>
+        <target state="final">IMAP URL</target>
+        <note>Line: 167</note>
       </trans-unit>
       <trans-unit id="197f7f372a439787cef040d61f4dbe83" approved="yes">
         <source>IMAP port</source>
@@ -646,6 +727,11 @@
         <source>Add new root category</source>
         <target state="final">Yeni kök bölməsi artır</target>
         <note>Line: 752</note>
+      </trans-unit>
+      <trans-unit id="d0d4e3688fdaee5afa292083b855e143" approved="yes">
+        <source>Add new category</source>
+        <target state="final">Yeni bölmə artır</target>
+        <note>Line: 764</note>
       </trans-unit>
     </body>
   </file>
@@ -1199,6 +1285,11 @@
         <source>Impact on price</source>
         <target state="final">Qiymət təsiri</target>
         <note>Line: 129</note>
+      </trans-unit>
+      <trans-unit id="0c2bfe292269f73b23af08101939714a" approved="yes">
+        <source>Apply a discount of</source>
+        <target state="final">Endirim et</target>
+        <note>Line: 149</note>
       </trans-unit>
     </body>
   </file>
