@@ -4,7 +4,7 @@
     <body>
       <trans-unit id="44aa13304026bb46ad79f4151f16634a" approved="yes">
         <source>(waiting for validation)</source>
-        <target state="final">(në pritje të konfirmimit)</target>
+        <target state="final">(duke pritur konfirmimin)</target>
         <note>Line: 630</note>
       </trans-unit>
     </body>
@@ -22,7 +22,7 @@
     <body>
       <trans-unit id="2498c963bfc06e8fca88007ec322b769" approved="yes">
         <source>Your login email address on {shop_name}</source>
-        <target state="final">Adresa jote e identifikimit në {shop_name}</target>
+        <target state="final">Adresa jote e emailit për identifikim në {shop_name}</target>
         <note>Line: 25</note>
       </trans-unit>
       <trans-unit id="7cfb9d536fcd7aa70c333e8e73b287e2" approved="yes">
@@ -45,7 +45,7 @@
     <body>
       <trans-unit id="9b33ea5c9409a67cb6e1f6bc3f0828f0" approved="yes">
         <source>Awaiting wire payment</source>
-        <target state="final">Në pritje të pagesës përmes transfertës bankare</target>
+        <target state="final">Në pritje të transfertës</target>
         <note>Line: 25</note>
       </trans-unit>
       <trans-unit id="f4a6af01d092af11dca29cb89578b124" approved="yes">
@@ -69,7 +69,7 @@
       </trans-unit>
       <trans-unit id="d698e777b19f6f487ae0490950174fde" approved="yes">
         <source>Awaiting check payment</source>
-        <target state="final">Në pritje të pagesës me çek.</target>
+        <target state="final">Në pritje të pagesës së çekut</target>
         <note>Line: 25</note>
       </trans-unit>
       <trans-unit id="ecf01c46965fdfd36eb98b271276c0d5" approved="yes">
@@ -925,6 +925,11 @@
         <target state="final"><![CDATA[Rishiko këtë kupon krediti dhe shkarko faturën tënde në dyqanin tonë, shko në seksionin <a<a href="{history_url}" target="_blank">Kuponat e kreditit</a> të llogarisë tënde të klientit.]]></target>
         <note>Line: 310</note>
       </trans-unit>
+      <trans-unit id="313c18a58c9b461fbb29be3e39837d95" approved="yes">
+        <source><![CDATA[Review this credit slip and download your invoice on our shop, go to the <a href="{history_url}" target="_blank">%credit_slips_label%</a> section of your customer account.]]></source>
+        <target state="final"><![CDATA[Rishiko këtë kupon krediti dhe shkarko faturën tënde nga dyqani ynë. Shko në seksionin <a<a href="{history_url}" target="_blank">Kuponat e kreditit</a> të llogarisë tënde të klientit.]]></target>
+        <note>Line: 303</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/modern/core/download_product.html.twig" source-language="en" target-language="sq" datatype="plaintext">
@@ -1241,6 +1246,11 @@
         <target state="final">Fatkeqësisht, një ose më shumë artikuj aktualisht nuk janë në dispozicion dhe kjo mund të shkaktojë një vonesë të lehtë në livrimin e tyre. Ne kërkojmë ndjesë dhe të sigurojmë që po bëjmë çmos për të korrigjuar situatën.</target>
         <note>Line: 249</note>
       </trans-unit>
+      <trans-unit id="0d2b8d4d6cdd2cc0b8da74fdb143654b" approved="yes">
+        <source><![CDATA[Follow your order and download your invoice on our shop, go to the <a href="{history_url}" target="_blank">%order_history_label%</a> section of your customer account.]]></source>
+        <target state="final"><![CDATA[Ndiq këtë kupon krediti dhe shkarko faturën tënde nga dyqani ynë. Shko tek <a href="{history_url}" target="_blank">Historiati i urdhëblerjeve dhe detajet</a>, në seksionin e llogarisë tënde të klientit.]]></target>
+        <note>Line: 310</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/modern/core/password.html.twig" source-language="en" target-language="sq" datatype="plaintext">
@@ -1350,7 +1360,11 @@
   </file>
   <file original="mails/themes/modern/core/productoutofstock.html.twig" source-language="en" target-language="sq" datatype="plaintext">
     <body>
-      
+      <trans-unit id="fdabff209ef55c524b662ea9f2991ad3" approved="yes">
+        <source>There are now less than [1]{last_qty}[/1] of [1]{product}[/1] in stock.</source>
+        <target state="final">Këtu janë më pak se [1]{last_qty}[/1] nga [1]{product}[/1] në stok.</target>
+        <note>Line: 176</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/modern/core/refund.html.twig" source-language="en" target-language="sq" datatype="plaintext">
@@ -1732,6 +1746,11 @@
         <source>Go to your customer account to learn more about it.</source>
         <target state="final">Shko te llogaria e jote e klientit për të mësuar më shumë rreth saj.</target>
         <note>Line: 247</note>
+      </trans-unit>
+      <trans-unit id="a1985adc2a7be8af1d6beafa7527c062" approved="yes">
+        <source><![CDATA[If you have a guest account, you can follow your order via the <a href="{guest_tracking_url}" target="_blank">%guest_tracking_label%</a> section on our shop.]]></source>
+        <target state="final"><![CDATA[Nëse ke një llogari mysafiri, ti mund ta gjurmosh urdhërblerjen tënde nëpërmjet seksionit <a href="{guest_tracking_url}" target="_blank">"Gjurmimi si mysafir"</a> në dyqanin tonë.]]></target>
+        <note>Line: 308</note>
       </trans-unit>
     </body>
   </file>
