@@ -92,6 +92,11 @@
         <target state="final">Oni ne povas uzi ĉi tiun kuponon kun tiuj produktoj</target>
         <note>Line: 1076</note>
       </trans-unit>
+      <trans-unit id="1a0c8c4e381164295f1e06d777411d11" approved="yes">
+        <source>You cannot use this voucher because it has manually been removed.</source>
+        <target state="final">Ne eblas uzi tiun ĉi kuponon ĉar ĝi permane estis forigita.</target>
+        <note>Line: 848</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/form/CustomerForm.php" source-language="en" target-language="eo" datatype="plaintext">
@@ -345,15 +350,40 @@
   </file>
   <file original="controllers/front/OrderDetailController.php" source-language="en" target-language="eo" datatype="plaintext">
     <body>
+      <trans-unit id="ffabab221ec5c24fbdb4a70ad48bc985" approved="yes">
+        <source>The order is no longer valid.</source>
+        <target state="final">La mendo ne plu validas.</target>
+        <note>Line: 51</note>
+      </trans-unit>
       <trans-unit id="15efe0f18ecffd8e75556c5c60cb1cb6" approved="yes">
         <source>This message is invalid (HTML is not allowed).</source>
         <target state="final">La mesaĝo ne validas (HTML kodo ne estas permesita).</target>
         <note>Line: 55</note>
       </trans-unit>
+      <trans-unit id="8a6034d3379499b66d730aa17e007683" approved="yes">
+        <source>You do not have enough products to request an additional merchandise return.</source>
+        <target state="final">Vi ne havas sufiĉe da produktoj por peti aldonan revenon de varoj.</target>
+        <note>Line: 172</note>
+      </trans-unit>
       <trans-unit id="229ca46a5d762e19a428f59449c916ad" approved="yes">
         <source>Please provide an explanation for your RMA.</source>
         <target state="final">Bonvolu skribi klarigon por resendo de la varoj.</target>
         <note>Line: 174</note>
+      </trans-unit>
+      <trans-unit id="e6f6a5e58ee6d010f22e4b3dbd756213" approved="yes">
+        <source>Please check at least one product you would like to return.</source>
+        <target state="final">Elektu almenaŭ unu varon, kiun vi volas resendi.</target>
+        <note>Line: 176</note>
+      </trans-unit>
+      <trans-unit id="1819b587867a9c604a4d21c753756b4a" approved="yes">
+        <source>For each product you wish to add, please specify the desired quantity.</source>
+        <target state="final">Bonvolu precizigi kvanton da resendotaj varoj por ĉiu produkto.</target>
+        <note>Line: 178</note>
+      </trans-unit>
+      <trans-unit id="a3c5d3c6953c588760d90657e4f0b790" approved="yes">
+        <source>This order cannot be returned</source>
+        <target state="final">Ne eblas resendi tiun ĉi mendon</target>
+        <note>Line: 180</note>
       </trans-unit>
       <trans-unit id="3dc245110e1f3601860c20299d97c01d" approved="yes">
         <source>The message cannot be blank.</source>
@@ -364,7 +394,11 @@
   </file>
   <file original="controllers/front/OrderFollowController.php" source-language="en" target-language="eo" datatype="plaintext">
     <body>
-      
+      <trans-unit id="15ef0f1f63c1e8a9fb8abad024939262" approved="yes">
+        <source>You have no merchandise return authorizations.</source>
+        <target state="final">Vi ne havas rajtigojn por resendi varojn.</target>
+        <note>Line: 108</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/front/PasswordController.php" source-language="en" target-language="eo" datatype="plaintext">
@@ -378,6 +412,11 @@
         <source>You cannot regenerate the password for this account.</source>
         <target state="final">Vi ne povas regeneri pasvorton por ĉi-tiu konto.</target>
         <note>Line: 136</note>
+      </trans-unit>
+      <trans-unit id="922dc0515643fb69585b67281692644a" approved="yes">
+        <source>You can regenerate your password only every %d minute(s)</source>
+        <target state="final">Vi povas regeneri vian pasvorton nur unufoje ĉiu(j)n %d minuto(j)n</target>
+        <note>Line: 84</note>
       </trans-unit>
       <trans-unit id="6e2fc94479ac0c63543886a235e3370c" approved="yes">
         <source>An error occurred while sending the email.</source>
@@ -394,6 +433,31 @@
         <target state="final">Pasvorto kaj konfirmo de la pasvorto ne kongruas.</target>
         <note>Line: 157</note>
       </trans-unit>
+      <trans-unit id="cf84bfe60dba837405db6f0a3cb9c086" approved="yes">
+        <source>The password change request expired. You should ask for a new one.</source>
+        <target state="final">La pasvorta ŝangpeto eksvalidiĝis. Petu ĝin denove.</target>
+        <note>Line: 138</note>
+      </trans-unit>
+      <trans-unit id="619469491be87d328254b6f41cd73770" approved="yes">
+        <source>An error occurred with your account, which prevents us from updating the new password. Please report this issue using the contact form.</source>
+        <target state="final">Ĉe via konto okazis eraro, kiu malpermesis ĝisdatigon de nova pasvorto. Bonvolu raporti la problemon per la kontakta formularo.</target>
+        <note>Line: 219</note>
+      </trans-unit>
+      <trans-unit id="e267e2be02cf3e29f4ba53b5d97cf78a" approved="yes">
+        <source>Invalid email address.</source>
+        <target state="final">Nevalida retadreso.</target>
+        <note>Line: 66</note>
+      </trans-unit>
+      <trans-unit id="375dee52ced3330cd3496340b32098ca" approved="yes">
+        <source>The password is missing: please enter your new password.</source>
+        <target state="final">La pasvorto mankas: bonvolu enigi vian novan pasvorton.</target>
+        <note>Line: 148</note>
+      </trans-unit>
+      <trans-unit id="f3e3f424a084383aa2931fae612b1ff1" approved="yes">
+        <source>The confirmation is empty: please fill in the password confirmation as well</source>
+        <target state="final">La konfirmo estas malplena: bonvolu plenigi ankaŭ la pasvortan konfirmon</target>
+        <note>Line: 152</note>
+      </trans-unit>
       <trans-unit id="f01fb987f60542e0bff1bf7bed42d142" approved="yes">
         <source>The password is not in a valid format.</source>
         <target state="final">La pasvorto ne estas en valida formato.</target>
@@ -403,15 +467,35 @@
   </file>
   <file original="controllers/front/PdfInvoiceController.php" source-language="en" target-language="eo" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="6b9cc232bf4044274ec42062b60736fb" approved="yes">
+        <source>Invoices are disabled in this shop.</source>
+        <target state="final">Fakturoj estas malebligitaj en tiu ĉi vendejo.</target>
+        <note>Line: 44</note>
+      </trans-unit>
+      <trans-unit id="2ef90fa1b9369f1ad3ca66852ca464a2" approved="yes">
+        <source>The invoice was not found.</source>
+        <target state="final">La fakturo ne estis trovita.</target>
+        <note>Line: 57</note>
+      </trans-unit>
+      <trans-unit id="8200c4097227159b14dd0669b8dfe22c" approved="yes">
+        <source>No invoice is available.</source>
+        <target state="final">Neniu fakturo disponebla.</target>
+        <note>Line: 61</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/front/PdfOrderReturnController.php" source-language="en" target-language="eo" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="b430bfb9e8ec89ded934087889c2e845" approved="yes">
+        <source>Order return not found.</source>
+        <target state="final">Menda redono ne trovita.</target>
+        <note>Line: 47</note>
+      </trans-unit>
+      <trans-unit id="b55e152dc0683c3d315b6baabb98495d" approved="yes">
+        <source>Order return not confirmed.</source>
+        <target state="final">Menda redono ne konfirmita.</target>
+        <note>Line: 49</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/front/ProductController.php" source-language="en" target-language="eo" datatype="plaintext">
@@ -425,6 +509,11 @@
         <source>This product is no longer available.</source>
         <target state="final">Tiu ĉi produkto ne plu disponeblas.</target>
         <note>Line: 168</note>
+      </trans-unit>
+      <trans-unit id="a5df8bfce318a15ea55f18082b9b56c0" approved="yes">
+        <source>You do not have access to this product.</source>
+        <target state="final">Vi ne rajtas aliri tiun ĉi produkton.</target>
+        <note>Line: 177</note>
       </trans-unit>
       <trans-unit id="636ae3559a19937ca8e53781d804a34d" approved="yes">
         <source>An error occurred while deleting the selected picture.</source>
@@ -449,7 +538,11 @@
   </file>
   <file original="controllers/front/listing/CategoryController.php" source-language="en" target-language="eo" datatype="plaintext">
     <body>
-      
+      <trans-unit id="ba2bfa3216ea97ec1e454239610d089a" approved="yes">
+        <source>You do not have access to this category.</source>
+        <target state="final">Vi ne havas aliron al tiu ĉi kategorio.</target>
+        <note>Line: 97</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/trackingfront/trackingfront.php" source-language="en" target-language="eo" datatype="plaintext">
@@ -472,11 +565,21 @@ File: modules/trackingfront/trackingfront.php:86</note>
         <note>Context:
 File: modules/trackingfront/trackingfront.php:90</note>
       </trans-unit>
+      <trans-unit id="d4e6d6c42bf3eb807b8778255a4ce415" approved="yes">
+        <source>Authentication failed</source>
+        <target state="final">Aŭtentigo malsukcesis</target>
+        <note>Context:
+File: modules/trackingfront/trackingfront.php:99</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Presenter/Product/ProductLazyArray.php" source-language="en" target-language="eo" datatype="plaintext">
     <body>
-      
+      <trans-unit id="a923575984949608ce04c4984806ec2a" approved="yes">
+        <source>There are not enough products in stock</source>
+        <target state="final">Ne estas sufiĉe da produktoj disponeblaj</target>
+        <note>Line: 839</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/checkout/_partials/steps/addresses.tpl" source-language="en" target-language="eo" datatype="plaintext">
