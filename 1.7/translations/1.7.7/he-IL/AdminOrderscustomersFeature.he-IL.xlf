@@ -396,15 +396,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="admin-dev/themes/default/template/controllers/orders/form.tpl" source-language="en" target-language="he" datatype="plaintext">
-    <body>
-      <trans-unit id="0fe067d5d05655a4c80602c1d6e7d0c5" approved="yes">
-        <source>Gift message</source>
-        <target state="final">ברכת מתנה</target>
-        <note>Line: 1482</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="admin-dev/themes/default/template/controllers/orders/helpers/list/list_header.tpl" source-language="en" target-language="he" datatype="plaintext">
     <body>
       <trans-unit id="10ea517069300c23c17f113a3d084c57" approved="yes">
@@ -540,6 +531,16 @@
         <source>Repay shipping costs</source>
         <target state="final">שלם מחדש את עלויות המשלוח</target>
         <note>Line: 1166</note>
+      </trans-unit>
+      <trans-unit id="8e0398b929d533c18fff7f5e21e8fcbd" approved="yes">
+        <source>Product(s) price: </source>
+        <target state="final">מחיר מוצר/ים: </target>
+        <note>Line: 1222</note>
+      </trans-unit>
+      <trans-unit id="34623cd7893be21da4239d08f79aec9a" approved="yes">
+        <source>Product(s) price, excluding amount of initial voucher: </source>
+        <target state="final">מחיר מוצר/ים, לא כולל סכום השובר הראשונית</target>
+        <note>Line: 1228</note>
       </trans-unit>
       <trans-unit id="0da6a00e3eb2132d5cf97463a099c49f" approved="yes">
         <source>Order no. </source>
@@ -814,6 +815,11 @@
         <target state="final">הסבר של הלקוח </target>
         <note>Line: 114</note>
       </trans-unit>
+      <trans-unit id="6d72e074fdface4ae892543d39434175" approved="yes">
+        <source>Returns form</source>
+        <target state="final">טופס החזר מוצר</target>
+        <note>Line: 141</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminSlipController.php" source-language="en" target-language="he" datatype="plaintext">
@@ -857,12 +863,12 @@
       </trans-unit>
     </body>
   </file>
-  <file original="src/Adapter/Cart/CommandHandler/SetFreeShippingToCartHandler.php" source-language="en" target-language="he" datatype="plaintext">
+  <file original="src/Adapter/Cart/CommandHandler/UpdateCartDeliverySettingsHandler.php" source-language="en" target-language="he" datatype="plaintext">
     <body>
       <trans-unit id="b00b85425e74ed2c85dc3119b78ff2c3" approved="yes">
         <source>Free Shipping</source>
         <target state="final">משלוח חינם</target>
-        <note>Line: 124</note>
+        <note>Line: 133</note>
       </trans-unit>
     </body>
   </file>
@@ -891,7 +897,11 @@
   </file>
   <file original="src/Adapter/Kpi/AverageOrderValueKpi.php" source-language="en" target-language="he" datatype="plaintext">
     <body>
-      
+      <trans-unit id="272c853e39b8c65c81afd3661a8fd17f" approved="yes">
+        <source>%amount% tax excl.</source>
+        <target state="final">%amount% לא כולל מע''מ.</target>
+        <note>Line: 55</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Kpi/NetProfitPerVisitKpi.php" source-language="en" target-language="he" datatype="plaintext">
@@ -945,7 +955,7 @@
       <trans-unit id="e49701f123af735cf327227e8ab09bac" approved="yes">
         <source>Manual order -- Employee:</source>
         <target state="final">הזמנה ידנית -- עובד:</target>
-        <note>Line: 98</note>
+        <note>Line: 100</note>
       </trans-unit>
     </body>
   </file>
@@ -954,12 +964,12 @@
       <trans-unit id="c12a553ab6ad810580afa3f07aa9f51f" approved="yes">
         <source>not paid</source>
         <target state="final">לא שולם</target>
-        <note>Line: 384</note>
+        <note>Line: 383</note>
       </trans-unit>
       <trans-unit id="8d4ac0e8c6f5900930ddfccd45d10abf" approved="yes">
         <source>overpaid</source>
         <target state="final">תשלום יתר</target>
-        <note>Line: 390</note>
+        <note>Line: 389</note>
       </trans-unit>
     </body>
   </file>
@@ -1016,6 +1026,11 @@
         <target state="final">שנה את 'מצב טיפול בהזמנה'</target>
         <note>Line: 437</note>
       </trans-unit>
+      <trans-unit id="9efa6b952ad382ca6a636523732c85cd" approved="yes">
+        <source>Open in new tabs</source>
+        <target state="final">פתח בלשונית חדשה</target>
+        <note>Line: 444</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Address/AddressController.php" source-language="en" target-language="he" datatype="plaintext">
@@ -1041,12 +1056,12 @@
       <trans-unit id="e5d61db40a917c78a9d8e821dd0dd8de" approved="yes">
         <source>Add new order</source>
         <target state="final">הוסף הזמנה חדשה</target>
-        <note>Line: 164</note>
+        <note>Line: 166</note>
       </trans-unit>
       <trans-unit id="7442e29d7d53e549b78d93c46b8cdcfc" approved="yes">
         <source>Orders</source>
         <target state="final">הזמנות</target>
-        <note>Line: 498</note>
+        <note>Line: 508</note>
       </trans-unit>
     </body>
   </file>
@@ -1170,6 +1185,11 @@
         <target state="final">שוברים</target>
         <note>Line: 29</note>
       </trans-unit>
+      <trans-unit id="907d7000b3555d1a1b12f1fed29a9ec4" approved="yes">
+        <source>Qty available</source>
+        <target state="final">כמות זמינה</target>
+        <note>Line: 41</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/Blocks/View/last_connections.html.twig" source-language="en" target-language="he" datatype="plaintext">
@@ -1226,6 +1246,11 @@
         <source>Total spent</source>
         <target state="final">סך הכל שולם</target>
         <note>Line: 114</note>
+      </trans-unit>
+      <trans-unit id="d1554912e46f8d36a800ad8b604225f1" approved="yes">
+        <source>Valid orders:</source>
+        <target state="final">הזמנות תקינות:</target>
+        <note>Line: 42</note>
       </trans-unit>
     </body>
   </file>
@@ -1432,6 +1457,11 @@
         <target state="final">הגבלת הזמן לאישור</target>
         <note>Line: 41</note>
       </trans-unit>
+      <trans-unit id="942fb8edc78a4c5be5b86cc4ad009538" approved="yes">
+        <source>Returns prefix</source>
+        <target state="final">קידומת להחזרות</target>
+        <note>Line: 46</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/CustomerService/MerchandiseReturn/index.html.twig" source-language="en" target-language="he" datatype="plaintext">
@@ -1602,11 +1632,6 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/Create/cart.html.twig" source-language="en" target-language="he" datatype="plaintext">
     <body>
-      <trans-unit id="0d9175fe89fb80d815e7d03698b6e83a" approved="yes">
-        <source>Gift</source>
-        <target state="final">מתנה</target>
-        <note>Line: 238</note>
-      </trans-unit>
       <trans-unit id="a85eba4c6c699122b2bb1387ea4813ad" approved="yes">
         <source>Cart</source>
         <target state="final">עגלת קניות</target>
@@ -1679,10 +1704,25 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/Create/shipping.html.twig" source-language="en" target-language="he" datatype="plaintext">
     <body>
+      <trans-unit id="0fe067d5d05655a4c80602c1d6e7d0c5" approved="yes">
+        <source>Gift message</source>
+        <target state="final">ברכת מתנה</target>
+        <note>Line: 106</note>
+      </trans-unit>
+      <trans-unit id="0d9175fe89fb80d815e7d03698b6e83a" approved="yes">
+        <source>Gift</source>
+        <target state="final">מתנה</target>
+        <note>Line: 87</note>
+      </trans-unit>
       <trans-unit id="19dfe063714422004b75043eaf74c9b8" approved="yes">
         <source>Delivery option</source>
         <target state="final">אפשרות משלוח</target>
         <note>Line: 35</note>
+      </trans-unit>
+      <trans-unit id="1a747e98fba823d6be62189cbac46dcb" approved="yes">
+        <source>Recycled packaging</source>
+        <target state="final">אריזה ממוחזרת</target>
+        <note>Line: 71</note>
       </trans-unit>
     </body>
   </file>
@@ -1924,6 +1964,16 @@
         <target state="final">שנה מטבע</target>
         <note>Line: 154</note>
       </trans-unit>
+      <trans-unit id="5735196b42849ae4fe6adac3ae14c3d1" approved="yes">
+        <source>Card type</source>
+        <target state="final">סוג כרטיס</target>
+        <note>Line: 95</note>
+      </trans-unit>
+      <trans-unit id="0bef7cd06cee6711378b85d90ce11527" approved="yes">
+        <source>Cardholder name</source>
+        <target state="final">שם בעל הכרטיס</target>
+        <note>Line: 111</note>
+      </trans-unit>
       <trans-unit id="a44217022190f5734b2f72ba1e4f8a79" approved="yes">
         <source>Card number</source>
         <target state="final">מספר כרטיס</target>
@@ -1947,15 +1997,15 @@
         <target state="final">עטיפה</target>
         <note>Line: 180</note>
       </trans-unit>
+      <trans-unit id="d9c66f411da5faef9c46d5b679214ae1" approved="yes">
+        <source>Add a discount</source>
+        <target state="final">הוסף הנחה</target>
+        <note>Line: 154</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/shipping.html.twig" source-language="en" target-language="he" datatype="plaintext">
     <body>
-      <trans-unit id="1a747e98fba823d6be62189cbac46dcb" approved="yes">
-        <source>Recycled packaging</source>
-        <target state="final">אריזה ממוחזרת</target>
-        <note>Line: 91</note>
-      </trans-unit>
       <trans-unit id="484f5a79672cebe198ebdde45a1d672f" approved="yes">
         <source>Gift wrapping</source>
         <target state="final">אריזת מתנה</target>
@@ -2007,10 +2057,21 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/preview.html.twig" source-language="en" target-language="he" datatype="plaintext">
     <body>
-      
-      
-      
-      
+      <trans-unit id="169d7487a2ea841e5cdd6b9052c54f37" approved="yes">
+        <source>Shipping details</source>
+        <target state="final">פרטי משלוח</target>
+        <note>Line: 57</note>
+      </trans-unit>
+      <trans-unit id="e3f32212a2ad38fc762cff6ba6d44936" approved="yes">
+        <source>Invoice details</source>
+        <target state="final">פרטי חשבונית</target>
+        <note>Line: 95</note>
+      </trans-unit>
+      <trans-unit id="0da9511b88a62642518334bda95c7370" approved="yes">
+        <source>Open details</source>
+        <target state="final">הצג פרטים</target>
+        <note>Line: 185</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

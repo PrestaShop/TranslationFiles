@@ -133,11 +133,6 @@
         <target state="final">התמונה גדולה מדי ( %1$d kB ). מקסמיום מותר: %2$d kB</target>
         <note>Line: 497</note>
       </trans-unit>
-      <trans-unit id="198dabd328b3e93b2eec2f6d76ab3eb1" approved="yes">
-        <source>Error while uploading image; please change your server's settings. (Error code: %s)</source>
-        <target state="final">שגיאה בעת העלאת תמונה:אנא שנה את הגדרת השרת/ים.(קוד שגיאה:%s)</target>
-        <note>Line: 480</note>
-      </trans-unit>
       <trans-unit id="da819cb8d5fcace59e5ec77b43b12b0a" approved="yes">
         <source>Error while uploading image; please change your server's settings.</source>
         <target state="final">שגיאה אירעה בעת עדכון תמונה. נא שנה את הגדרות השרת.</target>
@@ -213,7 +208,7 @@
       <trans-unit id="355f26b47eff3302c93a1c49676f078e" approved="yes">
         <source>Fatal error</source>
         <target state="final">שגיאה Fatal</target>
-        <note>Line: 1165</note>
+        <note>Line: 1166</note>
       </trans-unit>
     </body>
   </file>
@@ -298,15 +293,20 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">שדה %s הוא שדה חובה</target>
         <note>Line: 1486</note>
       </trans-unit>
+      <trans-unit id="b4186b9ed7c957a1cd9f4e7ce916e603" approved="yes">
+        <source>%s: Incorrect value</source>
+        <target state="final">%s ערך שגוי</target>
+        <note>Line: 3938</note>
+      </trans-unit>
       <trans-unit id="c87956ad745e55231c633c03fe0f0d5b" approved="yes">
         <source>An error occurred while assigning a zone to the selection.</source>
         <target state="final">שגיאה אירעה בעת הקצאת אזור עבור בחירה זו.</target>
-        <note>Line: 4181</note>
+        <note>Line: 4190</note>
       </trans-unit>
       <trans-unit id="93463ceee9a3d376b18ee618bc2fffe4" approved="yes">
         <source>You must select at least one element to assign a new zone.</source>
         <target state="final">יש לבחור לפחות אלמנט אחד כדי להקצות אזור חדש.</target>
-        <note>Line: 4183</note>
+        <note>Line: 4192</note>
       </trans-unit>
     </body>
   </file>
@@ -426,8 +426,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="he" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="3d52f8b2b1a67aa8740b72b3752d54f3" approved="yes">
+        <source>Incorrect value for "Depends on stock" for product %name% </source>
+        <target state="final">ערך שגוי עבור "תלוי במלאי" עבור המוצר %name% </target>
+        <note>Line: 2964</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminLoginController.php" source-language="en" target-language="he" datatype="plaintext">
@@ -445,22 +448,22 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="becfb58422969ec127b4bf1af46650ab" approved="yes">
         <source>Email is empty.</source>
         <target state="final">שדה אימייל ריק</target>
-        <note>Line: 257</note>
+        <note>Line: 298</note>
       </trans-unit>
       <trans-unit id="e267e2be02cf3e29f4ba53b5d97cf78a" approved="yes">
         <source>Invalid email address.</source>
         <target state="final">כתובת אימייל שגויה או חסרה</target>
-        <note>Line: 259</note>
+        <note>Line: 300</note>
       </trans-unit>
       <trans-unit id="5ee800d2d30225decb5b057d846103b7" approved="yes">
         <source>The password field is blank.</source>
         <target state="final">הסיסמא ריקה</target>
-        <note>Line: 197</note>
+        <note>Line: 220</note>
       </trans-unit>
       <trans-unit id="855eb8db89b4921c42072832d33d2dc2" approved="yes">
         <source>Invalid password.</source>
         <target state="final">סיסמה לא חוקית</target>
-        <note>Line: 199</note>
+        <note>Line: 222</note>
       </trans-unit>
     </body>
   </file>
@@ -685,6 +688,16 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="controllers/admin/AdminTranslationsController.php" source-language="en" target-language="he" datatype="plaintext">
     <body>
+      <trans-unit id="e298a0bc9a35d45798e28c082dfc1dfa" approved="yes">
+        <source>"%type%" does not exist.</source>
+        <target state="final">%type% לא קיים</target>
+        <note>Line: 113</note>
+      </trans-unit>
+      <trans-unit id="40f5c232e433d178a4f912b3092d7df1" approved="yes">
+        <source>Directory "%folder%" cannot be created</source>
+        <target state="final">לא ניתן ליצור את הספרייה "%folder%"</target>
+        <note>Line: 339</note>
+      </trans-unit>
       <trans-unit id="bb5ef82c8be2494c733ac77920bc5c72" approved="yes">
         <source>No file has been selected.</source>
         <target state="final">.לא נבחר קובץ</target>
@@ -704,6 +717,15 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <source>Fatal error: The module directory does not exist.</source>
         <target state="final">שגיאה קטלנית: ספריית המודולים לא קיימת</target>
         <note>Line: 2172</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/blockreassurance/controllers/admin/AdminBlockListingController.php" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      <trans-unit id="198dabd328b3e93b2eec2f6d76ab3eb1" approved="yes">
+        <source>Error while uploading image; please change your server's settings. (Error code: %s)</source>
+        <target state="final">שגיאה בעת העלאת תמונה:אנא שנה את הגדרת השרת/ים.(קוד שגיאה:%s)</target>
+        <note>Line: 198</note>
       </trans-unit>
     </body>
   </file>
@@ -781,6 +803,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <source>Bad SQL query</source>
         <target state="final">שאילתת SQL לא תקינה</target>
         <note>Line: 65</note>
+      </trans-unit>
+      <trans-unit id="0b5512610b0c8548345f37a58bf51360" approved="yes">
+        <source>"%key%" does not exist.</source>
+        <target state="final">%key% לא קיים</target>
+        <note>Line: 389</note>
       </trans-unit>
     </body>
   </file>
@@ -873,7 +900,7 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="044bfaec90b16e5caf72b70a5ae4c872" approved="yes">
         <source>You need permission to add this.</source>
         <target state="final">אין לך הרשאה להוסיף את זה</target>
-        <note>Line: 560</note>
+        <note>Line: 559</note>
       </trans-unit>
     </body>
   </file>
@@ -1146,12 +1173,17 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="959c96ec640d353311dd9763d57daad6" approved="yes">
         <source>Please fill in all the required fields.</source>
         <target state="final">נא למלא את כל השדות הדרושים</target>
-        <note>Line: 562</note>
+        <note>Line: 581</note>
       </trans-unit>
       <trans-unit id="a923575984949608ce04c4984806ec2a" approved="yes">
         <source>There are not enough products in stock</source>
         <target state="final">אין מספיק מוצרים במלאי</target>
         <note>Line: 568</note>
+      </trans-unit>
+      <trans-unit id="aa83c911e54936648591034d74055aa2" approved="yes">
+        <source>Gift message not valid</source>
+        <target state="final">הודעת המתנה לא תקפה</target>
+        <note>Line: 605</note>
       </trans-unit>
     </body>
   </file>
@@ -1181,7 +1213,7 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
     <body>
       <trans-unit id="0511ee0d41117aa7b4abaaf102aa513d" approved="yes">
         <source>This field is required</source>
-        <target state="final">שדה חובה</target>
+        <target state="final">שדה זה הוא חובה</target>
         <note>Line: 89</note>
       </trans-unit>
     </body>
@@ -1202,7 +1234,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/Design/Pages/CmsPageType.php" source-language="en" target-language="he" datatype="plaintext">
     <body>
-      
+      <trans-unit id="87ecb83d305a6af0e0438a0587e31de8" approved="yes">
+        <source>%s is invalid.</source>
+        <target state="final">%s אינו תקין.</target>
+        <note>Line: 251</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/Design/Theme/ImportThemeType.php" source-language="en" target-language="he" datatype="plaintext">
@@ -1232,7 +1268,7 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
       <trans-unit id="24e70577722f76a8245415c0a344b96c" approved="yes">
         <source>This field is invalid</source>
-        <target state="final">השדה  לא תקין</target>
+        <target state="final">השדה לא תקין</target>
         <note>Line: 135</note>
       </trans-unit>
     </body>
