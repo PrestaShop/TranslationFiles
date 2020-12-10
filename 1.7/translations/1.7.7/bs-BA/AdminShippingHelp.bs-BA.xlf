@@ -2,6 +2,11 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="admin-dev/themes/default/template/controllers/carrier_wizard/helpers/form/form.tpl" source-language="en" target-language="bs" datatype="plaintext">
     <body>
+      <trans-unit id="5e543256c480ac577d30f76f9120eb74" approved="yes">
+        <source>undefined</source>
+        <target state="final">nedefinisano</target>
+        <note>Line: 58</note>
+      </trans-unit>
       <trans-unit id="fb2ea703b13d059f6b7ea5da806021df" approved="yes">
         <source>Format:</source>
         <target state="final">Format:</target>
@@ -10,6 +15,11 @@
       <trans-unit id="b908c2f34052b5276e0bf50f0e042211" approved="yes">
         <source>Filesize:</source>
         <target state="final">Veličina datoteke:</target>
+        <note>Line: 57</note>
+      </trans-unit>
+      <trans-unit id="2f972dbb48435d9b8087d7e3c22daa09" approved="yes">
+        <source>MB max.</source>
+        <target state="final">MB maks.</target>
         <note>Line: 57</note>
       </trans-unit>
       <trans-unit id="c32587b909ccc2187659ca665dbb06be" approved="yes">
@@ -21,18 +31,54 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/carriers/helpers/list/list_header.tpl" source-language="en" target-language="bs" datatype="plaintext">
     <body>
-      
-      
-      
-      
+      <trans-unit id="401c8f6635d231c5360f31ce548c4462" approved="yes">
+        <source>Your online store needs to have a proper carrier registered in PrestaShop as soon as you start shipping your products. This means sending yours parcels using your local postal service, or having a contract with a private carrier which in turn will ship your parcels to your customers. In order to have PrestaShop suggest the most adequate carrier to your customers during their order checkout process, you need to register all the carriers with which you have chosen to work.</source>
+        <target state="final">Vaša online trgovina treba imati dostavljača pravilno registriranog u PrestaShop čim počnete slati vaše proizvode. To znači slanje vaših paketa koristeći vaše lokalne poštanske usluge, ili imati ugovor sa privatnim dostavljačem koji će prenositi vaše pakete do vaših kupaca. Da bi PrestaShop predložio najprikladnijeg dostavljača vašim kupcima tokom procesa narudžbe, trebate registrirati sve dostavljače sa kojima ćete raditi.</target>
+        <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="c751fd51e685dd8c071f8535be0d0d8f" approved="yes">
+        <source>PrestaShop comes with a number of carrier modules that you can activate. You can also buy carrier modules on the PrestaShop Addons marketplace. Recommended modules are listed below: install the module that matches your carrier, and configure it!</source>
+        <target state="final">PrestaShop dolazi s brojnim modulima za dostavu koje možete aktivirati. Možete također i kupiti modul za dostavu na PrestaShop Dodaci tržištu. Preporučeni moduli su popisani ispod: instalirajte module koji odgovaraju vašem dostavljaču i podesite ih!</target>
+        <note>Line: 31</note>
+      </trans-unit>
+      <trans-unit id="5bacfd2dc472feddb875fc29134b03bb" approved="yes">
+        <source>If there is no existing module for your carrier, then you can register that carrier by hand using the information that it can provide you: shipping rates, regional zones, size and weight limits, etc. Click on the "Add new carrier" button below to open the Carrier Wizard, which will help you register a new carrier in a few steps.</source>
+        <target state="final">Ako ne postoji modul za vašeg dostavljača, tada možete registrovati tog dostavljača ručno koristeći informacije koje vam je pružio: dostavne cijene, regionalne zone, ograničenja veličine i težine, itd. Kliknite na dugme "Dodaj novog dostavljača" ispod, za otvaranje "Dostavljač pomoćnika", koji će vam pomoći registrovati novog dostavljača u par koraka.</target>
+        <note>Line: 32</note>
+      </trans-unit>
+      <trans-unit id="12a118b904361ef7a25365b2ff29cfa9" approved="yes">
+        <source>Note: DO NOT register a new carrier if there already exists a module for it! Using a module will be much faster and more accurate!</source>
+        <target state="final">Napomena: NEMOJTE registrovati novog dostavljača ako postoji modul za njega! Korištenje modula će biti puno brže i puno tačnije!</target>
+        <note>Line: 33</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminCarrierWizardController.php" source-language="en" target-language="bs" datatype="plaintext">
     <body>
+      <trans-unit id="95be6960ce35a5d972b7314203b312be" approved="yes">
+        <source>The carrier's name will be displayed during checkout.</source>
+        <target state="final">Naziv prijevoznika će biti prikazan tokom plaćanja.</target>
+        <note>Line: 189</note>
+      </trans-unit>
       <trans-unit id="d2eee8992bbabe7e76562a015ecf0d7f" approved="yes">
         <source>The delivery time will be displayed during checkout.</source>
         <target state="final">Vrijeme isporuke, prikazuje se tokom plaćanja.</target>
         <note>Line: 200</note>
+      </trans-unit>
+      <trans-unit id="ff9058a791d671d3cb7ce3117b3f989d" approved="yes">
+        <source>Delivery tracking URL: Type '@' where the tracking number should appear. It will be automatically replaced by the tracking number.</source>
+        <target state="final">URL za praćenje dostave: Unesite '@' gdje će se prikazivati broj za praćenje, automatski će se zamijeniti brojem za praćenje.</target>
+        <note>Line: 219</note>
+      </trans-unit>
+      <trans-unit id="e4cb2dbfdc6b5b71c8aef1b781712b03" approved="yes">
+        <source>For example: 'http://example.com/track.php?num=@' with '@' where the tracking number should appear.</source>
+        <target state="final">Naprimjer: 'http://exampl.com/track.php?num=@' s '@' gdje bi se trebao pojaviti broj za praćenje.</target>
+        <note>Line: 220</note>
+      </trans-unit>
+      <trans-unit id="0668ec4bb8d6bcb27d283b2af9bc5888" approved="yes">
+        <source><![CDATA[Include the handling costs (as set in Shipping > Preferences) in the final carrier price.]]></source>
+        <target state="final"><![CDATA[Uključuju troškove rukovanja (koja su prikazana u Dostava> Postavke) u finalnoj cijeni prijevoznika.]]></target>
+        <note>Line: 277</note>
       </trans-unit>
     </body>
   </file>
@@ -52,14 +98,30 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Shipping/Preferences/Blocks/shipping_preferences_carrier_options.html.twig" source-language="en" target-language="bs" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="ece6bb2586fa84042edde479c6a6ce6b" approved="yes">
+        <source>Your shop's default carrier</source>
+        <target state="final">Zadani dostavljač Vaše trgovine</target>
+        <note>Line: 41</note>
+      </trans-unit>
+      <trans-unit id="4f309c91cb82ce5d20c15d015759a21e" approved="yes">
+        <source>This will only be visible in the front office.</source>
+        <target state="final">Ovo će biti vidljivo samo na početnoj strani.</target>
+        <note>Line: 57</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Shipping/Preferences/Blocks/shipping_preferences_handling.html.twig" source-language="en" target-language="bs" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="2be1ec70444ccaf2b74bd55f3aabdead" approved="yes">
+        <source>If you set these parameters to 0, they will be disabled.</source>
+        <target state="final">Ukoliko postavite parametre na 0, biće onemogućeni.</target>
+        <note>Line: 41</note>
+      </trans-unit>
+      <trans-unit id="e99c83da35c2a39bf9dc72273d350272" approved="yes">
+        <source>Coupons are not taken into account when calculating free shipping.</source>
+        <target state="final">Kuponi se ne uzimaju u obzir kod računanja besplatne dostave.</target>
+        <note>Line: 44</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
