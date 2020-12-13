@@ -660,11 +660,30 @@
         <target state="final">Želim ukloniti proizvode koji se prikazuju samo u ovoj kategoriji i ni u jednoj drugoj.</target>
         <note>Line: 73</note>
       </trans-unit>
+      <trans-unit id="4d5ec94fee2d67b1f49517f355425fb0" approved="yes">
+        <source>If they have no other category, I want to associate them with the parent category.</source>
+        <target state="final">Ako nemaju drugu kategoriju, želim ih povezati s kategorijom roditelja.</target>
+        <note>Line: 57</note>
+      </trans-unit>
+      <trans-unit id="8743e83ee9ec372f40d4a58160bfc1d2" approved="yes">
+        <source>If they have no other category, I want to associate them with the parent category and turn them offline.</source>
+        <target state="final">Ako nemaju drugu kategoriju, želim ih povezati s kategorijom roditelja i isključiti ih.</target>
+        <note>Line: 65</note>
+      </trans-unit>
+      <trans-unit id="63cfe520c7e96406010bc883272667f5" approved="yes">
+        <source>If they have no other category, I want to delete them as well.</source>
+        <target state="final">Ako nemaju drugu kategoriju, želim ih također izbrisati.</target>
+        <note>Line: 73</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Core/Grid/Data/Factory/AttachmentGridDataFactoryDecorator.php" source-language="en" target-language="bs" datatype="plaintext">
     <body>
-      
+      <trans-unit id="14c18063d1497fb156ab73c0d59d354b" approved="yes">
+        <source>This file is associated with the following products. Are you sure you want to delete it?</source>
+        <target state="final">Ova datoteka je povezana sa sljedećim proizvodima. Da li je stvarno želite izbrisati?</target>
+        <note>Line: 121</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/ProductController.php" source-language="en" target-language="bs" datatype="plaintext">
@@ -747,17 +766,40 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/CategoryController.php" source-language="en" target-language="bs" datatype="plaintext">
     <body>
+      <trans-unit id="b50f440e3c9f14988bd0086683e77095" approved="yes">
+        <source>You cannot remove this category because one of your shops uses it as a root category.</source>
+        <target state="final">Ne možete obrisati ovu kategoriju jer je trgovina koristi kao glavnu kategoriju.</target>
+        <note>Line: 790</note>
+      </trans-unit>
       <trans-unit id="a874ef298164bbd4d00d55901225cd87" approved="yes">
         <source>An error occurred while uploading the image:</source>
         <target state="final">Dogodila se greška tokom prijenosa slike:</target>
         <note>Line: 807</note>
       </trans-unit>
+      <trans-unit id="3d85438a25723cc56bd4aefb9b368bc0" approved="yes">
+        <source>An error occurred while creating the category.</source>
+        <target state="final">Došlo je do pogreške tokom kreiranja kategorije.</target>
+        <note>Line: 794</note>
+      </trans-unit>
+      <trans-unit id="175ad2b319a95a0b7c580dbc4205fdac" approved="yes">
+        <source>An error occurred while editing the category.</source>
+        <target state="final">Došlo je do pogreške tokom uređivanja kategorije.</target>
+        <note>Line: 798</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/ManufacturerController.php" source-language="en" target-language="bs" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="5769710cefad47e76691be9d61b7231c" approved="yes">
+        <source><![CDATA[The display of your brands is enabled on your store. Go to %sShop Parameters > General%s to edit settings.]]></source>
+        <target state="final"><![CDATA[Prikaz brendova je omogućen u vašoj trgovini. Možete otići u %sKonfiguracija prodavnice > Osnovna konfiguracija%s da izmijenite konfiguraciju.]]></target>
+        <note>Line: 774</note>
+      </trans-unit>
+      <trans-unit id="1205b99b993cef78d80b0bcbc312f2c3" approved="yes">
+        <source><![CDATA[The display of your brands is disabled on your store. Go to %sShop Parameters > General%s to edit settings.]]></source>
+        <target state="final"><![CDATA[Prikaz brendova je onemogućen u vašoj trgovini. Možete otići u %sKonfiguracija prodavnice > Osnovna konfiguracija%s da izmijenite konfiguraciju.]]></target>
+        <note>Line: 781</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/SupplierController.php" source-language="en" target-language="bs" datatype="plaintext">
@@ -766,6 +808,21 @@
         <source>Unable to resize one or more of your pictures.</source>
         <target state="final">Nije moguće promijeniti veličinu jedne ili više slika.</target>
         <note>Line: 496</note>
+      </trans-unit>
+      <trans-unit id="925c714b657d85c49a9718ef792fcb95" approved="yes">
+        <source>It is not possible to delete a supplier if there are pending supplier orders.</source>
+        <target state="final">Nije moguće obrisati dobavljača ako postoje narudžbe dobavljača na čekanju.</target>
+        <note>Line: 475</note>
+      </trans-unit>
+      <trans-unit id="3aff310e32cb7bb2d1affd97920c9f4b" approved="yes">
+        <source><![CDATA[The display of your suppliers is enabled on your store. Go to %sShop Parameters > General%s to edit settings.]]></source>
+        <target state="final"><![CDATA[Prikaz dobavljača je omogućen u vašoj trgovini. Možete otići u %sKonfiguracija prodavnice > Osnovna konfiguracija%s da izmijenite konfiguraciju.]]></target>
+        <note>Line: 535</note>
+      </trans-unit>
+      <trans-unit id="555740fcf7bb2fb267bc711c4919edcb" approved="yes">
+        <source><![CDATA[The display of your suppliers is disabled on your store. Go to %sShop Parameters > General%s to edit settings.]]></source>
+        <target state="final"><![CDATA[Prikaz dobavljača je onemogućen u vašoj trgovini. Možete otići u %sKonfiguracija prodavnice > Osnovna konfiguracija%s da izmijenite konfiguraciju.]]></target>
+        <note>Line: 542</note>
       </trans-unit>
     </body>
   </file>

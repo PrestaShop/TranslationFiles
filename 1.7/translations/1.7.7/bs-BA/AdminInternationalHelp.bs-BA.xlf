@@ -2,15 +2,35 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="admin-dev/themes/default/template/controllers/countries/helpers/form/form.tpl" source-language="en" target-language="bs" datatype="plaintext">
     <body>
-      
-      
-      
-      
+      <trans-unit id="ac42ae31827e4ce47e084ecfb68018aa" approved="yes">
+        <source>This will restore your last registered address format.</source>
+        <target state="final">Ovo će vratiti vaš posljednje registriran format adresa.</target>
+        <note>Line: 41</note>
+      </trans-unit>
+      <trans-unit id="a551db18a168f7b7af97f05f654f6ebd" approved="yes">
+        <source>This will restore the default address format for this country.</source>
+        <target state="final">Ovo će vratiti zadani format adresa za ovu državu.</target>
+        <note>Line: 43</note>
+      </trans-unit>
+      <trans-unit id="15103dc2a4e70c7865d2b2ed5542f7ee" approved="yes">
+        <source>This will restore your current address format.</source>
+        <target state="final">Ovo će vratiti vaš zadani format adresa.</target>
+        <note>Line: 45</note>
+      </trans-unit>
+      <trans-unit id="658983835e342b548674ebb6d169333f" approved="yes">
+        <source>This will delete the current address format</source>
+        <target state="final">Ovo će obrisati trenutni format adresa</target>
+        <note>Line: 47</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/languages/helpers/form/form.tpl" source-language="en" target-language="bs" datatype="plaintext">
     <body>
-      
+      <trans-unit id="c8177e39573538431ca4c24841ee3fbe" approved="yes">
+        <source>Missing files are marked in red</source>
+        <target state="final">Nedostajuće datoteke označene su crveno</target>
+        <note>Line: 86</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_errors.tpl" source-language="en" target-language="bs" datatype="plaintext">
@@ -29,6 +49,11 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_mails.tpl" source-language="en" target-language="bs" datatype="plaintext">
     <body>
+      <trans-unit id="f75f58622599fa286aa5bdd94fb4404d" approved="yes">
+        <source>Some of these expressions use this special syntax: %s.</source>
+        <target state="final">Neki od tih izraza koriste ovu posebnu sintaksu: %s.</target>
+        <note>Line: 68</note>
+      </trans-unit>
       <trans-unit id="f324bbd9de83d61ccb5f7d5593aec5b3" approved="yes">
         <source>You MUST use this syntax in your translations. Here are several examples:</source>
         <target state="final">Morate koristiti ovu sintaksu u Vašim prijevodima. Ovdje je nekoliko primjera:</target>
@@ -39,9 +64,19 @@
         <target state="final">Postoji [1]%replace%[/1] proizvoda</target>
         <note>Line: 73</note>
       </trans-unit>
+      <trans-unit id="06fb8ada95eab3e2b5d4a3e834a9ab10" approved="yes">
+        <source>"%s" will be replaced by a number.</source>
+        <target state="final">"%s" će biti zamijenjen brojem.</target>
+        <note>Line: 73</note>
+      </trans-unit>
       <trans-unit id="cfe3ecf9fcc29ce36de15ee87cebd12b" approved="yes">
         <source>List of pages in [1]%replace%[/1]</source>
         <target state="final">Lista stranica u [1]%replace%[/1]</target>
+        <note>Line: 74</note>
+      </trans-unit>
+      <trans-unit id="a24386154e350ad7c608af84cdb4be11" approved="yes">
+        <source>"%s" will be replaced by a string.</source>
+        <target state="final">"%s" biti će zamjenjeno stringom.</target>
         <note>Line: 74</note>
       </trans-unit>
       <trans-unit id="9b4ca9541e2c3e7215a5fac1f4cecd2f" approved="yes">
@@ -49,10 +84,20 @@
         <target state="final">Osobina: [1]%1%[/1] ([1]%2%[/1] vrijednosti)</target>
         <note>Line: 75</note>
       </trans-unit>
+      <trans-unit id="031775df42ef41141d4b4c7d4db89d65" approved="yes">
+        <source>The numbers enable you to reorder the variables when necessary.</source>
+        <target state="final">Brojevi vam omogućuju da preuredite varijable kada je to potrebno.</target>
+        <note>Line: 75</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_modules.tpl" source-language="en" target-language="bs" datatype="plaintext">
     <body>
+      <trans-unit id="013afdec32d184dc61040022a45409ca" approved="yes">
+        <source>Click on the title of a section to open its fieldsets.</source>
+        <target state="final">Kliknite na naslov sekcije za otvaranje seta polja.</target>
+        <note>Line: 52</note>
+      </trans-unit>
       <trans-unit id="b3f4e400fe40a25d1c2b0c59e63668cf" approved="yes">
         <source>Here you can modify translations for all installed module.</source>
         <target state="final">Ovdje možete izmijeniti prijevode za sve instalirane module.</target>
@@ -67,10 +112,35 @@
   </file>
   <file original="controllers/admin/AdminCountriesController.php" source-language="en" target-language="bs" datatype="plaintext">
     <body>
+      <trans-unit id="abb056fd74a8bdf858dbe3e68c5ea97c" approved="yes">
+        <source>Restrict country selections in front office to those covered by active carriers</source>
+        <target state="final">Ograniči biranje država u trgovini na one pokrivene aktivnim dostavljačima</target>
+        <note>Line: 62</note>
+      </trans-unit>
       <trans-unit id="b33aadd6763bfea56853a7ecf2176382" approved="yes">
         <source>Two -- or three -- letter ISO code (e.g. "us" for United States).</source>
         <target state="final">Dva ili tri slova ISO koda (npr. "us" za Sjedinjene Države).</target>
         <note>Line: 207</note>
+      </trans-unit>
+      <trans-unit id="cd2f7b9409e0f1527766ad35aa8bd3c5" approved="yes">
+        <source>International call prefix, (e.g. 1 for United States).</source>
+        <target state="final">Internacionalni pozivni broj, (npr. 387 za Bosnu i Hercegovinu).</target>
+        <note>Line: 221</note>
+      </trans-unit>
+      <trans-unit id="92de0162cbdfa60f671ba3cad1d392a1" approved="yes">
+        <source>Geographical region.</source>
+        <target state="final">Geografski region.</target>
+        <note>Line: 246</note>
+      </trans-unit>
+      <trans-unit id="98ae2fd635525d30d2b0e8b643f9a23c" approved="yes">
+        <source>Indicate the format of the postal code: use L for a letter, N for a number, and C for the country's ISO 3166-1 alpha-2 code. For example, NNNNN for the United States, France, Poland and many other; LNNNNLLL for Argentina, etc. If you do not want PrestaShop to verify the postal code for this country, leave it blank.</source>
+        <target state="final">Ukazuje na format poštanskog broja: Koristite L za slovo, N za broj i C za ISO 3166-1 alpha-2 kod zemlje. Na primjer, NNNNN za Sjedinjene Američke Države, Francusku, Poljsku,  i mnoge druge; LNNNNLLL za Argentinu, itd. Ako ne želite da PrestaShop provjerava ispravnost poštanskog broja za ovu zemlju, ostavite prazno.</target>
+        <note>Line: 272</note>
+      </trans-unit>
+      <trans-unit id="a2ddbdfb29a0708bd711601f9277435c" approved="yes">
+        <source>Display this country to your customers (the selected country will always be displayed in the Back Office).</source>
+        <target state="final">Prikaži ovu državu kupcu (država će uvijek biti prikazana u administraciji).</target>
+        <note>Line: 301</note>
       </trans-unit>
     </body>
   </file>
@@ -81,19 +151,69 @@
         <target state="final">Navedite naziv države u adresama i fakturama.</target>
         <note>Line: 149</note>
       </trans-unit>
+      <trans-unit id="473d5a5e7a18ca5e30b399ae0dfda18e" approved="yes">
+        <source>1 to 4 letter ISO code.</source>
+        <target state="final">1 do 4 slova ISO oznake.</target>
+        <note>Line: 158</note>
+      </trans-unit>
+      <trans-unit id="d44080730b4d80fb65b9018d57c058b3" approved="yes">
+        <source>You can prefix it with the country ISO code if needed.</source>
+        <target state="final">Možete staviti prefiks za ISO kodom zemlje ako treba.</target>
+        <note>Line: 158</note>
+      </trans-unit>
+      <trans-unit id="0f6ca10753a64573af4ae286c7421e62" approved="yes">
+        <source>Country where the state is located.</source>
+        <target state="final">Zemlja gdje se država nalazi.</target>
+        <note>Line: 171</note>
+      </trans-unit>
+      <trans-unit id="68240d02aad03eed41bc52305688a035" approved="yes">
+        <source>Only the countries with the option "contains states" enabled are displayed.</source>
+        <target state="final">Prikazuje samo zemlje s omogućenom opcijom "sadrži države".</target>
+        <note>Line: 171</note>
+      </trans-unit>
+      <trans-unit id="15c5d5dd58a9e70b8b86a7447dd00f70" approved="yes">
+        <source>Geographical region where this state is located.</source>
+        <target state="final">Geografska zona u kojoj se nalazi država.</target>
+        <note>Line: 184</note>
+      </trans-unit>
+      <trans-unit id="ec92dbe75bbcc2fbf4cad6302df97c19" approved="yes">
+        <source>Used for shipping</source>
+        <target state="final">Koristi se za dostavu</target>
+        <note>Line: 185</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminTaxRulesGroupController.php" source-language="en" target-language="bs" datatype="plaintext">
     <body>
+      <trans-unit id="8bd279ebcd912dc792663bc65a1fb499" approved="yes">
+        <source>You can define a range of Zip/postal codes (e.g., 75000-75015) or simply use one Zip/postal code.</source>
+        <target state="final">Možete definirati raspon poštanskog broja (npr. 10000-10100) ili jednostavno koristite jedan poštanski broj.</target>
+        <note>Line: 289</note>
+      </trans-unit>
       <trans-unit id="ce9c5fc1032ac5aa03a3d248022773df" approved="yes">
         <source>You must define the behavior if an address matches multiple rules:</source>
         <target state="final">Morate definirati ponašanje ako adresa odgovara višestrukim pravilima:</target>
         <note>Line: 315</note>
       </trans-unit>
+      <trans-unit id="439fa6ce423495b01ffd31ea56b33335" approved="yes">
+        <source>- This tax only: Will apply only this tax</source>
+        <target state="final">- Samo ovaj porez: Primijenit će se samo taj porez</target>
+        <note>Line: 316</note>
+      </trans-unit>
+      <trans-unit id="4019ba4535164cd55c61ac20379a8aa9" approved="yes">
+        <source>- Combine: Combine taxes (e.g.: 10% + 5% = 15%)</source>
+        <target state="final">- Spoji: Spoji poreze (npr.: 10% + 5% = 15%)</target>
+        <note>Line: 317</note>
+      </trans-unit>
       <trans-unit id="dabf677c95d59c749ea5d6d6d22012c4" approved="yes">
         <source><![CDATA[- One after another: Apply taxes one after another (e.g.: 100 + 10% => 110 + 5% = 115.5)]]></source>
         <target state="final"><![CDATA[- Jedan poslije drugog: Primjenjuje porez jedan poslije drugog (npr.: 100 + 10% => 110 + 5% = 115.5)]]></target>
         <note>Line: 318</note>
+      </trans-unit>
+      <trans-unit id="7475ec0d41372a307c497acb7eeea8c4" approved="yes">
+        <source>No Tax</source>
+        <target state="final">Bez PDV-a</target>
+        <note>Line: 332</note>
       </trans-unit>
       <trans-unit id="7a3ded393734410a3d3514e10b672c92" approved="yes">
         <source>(Total tax: 9%)</source>
@@ -104,8 +224,16 @@
   </file>
   <file original="controllers/admin/AdminZonesController.php" source-language="en" target-language="bs" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="f3211eeee6d9a3f9208dbf61903eaafa" approved="yes">
+        <source>Zone name (e.g. Africa, West Coast, Neighboring Countries).</source>
+        <target state="final">Naziv zone (npr. Afrika, Zapadna obala, Okolne zemlje).</target>
+        <note>Line: 104</note>
+      </trans-unit>
+      <trans-unit id="976bb0e0c56156bd36831e1bf244e7ed" approved="yes">
+        <source>Allow or disallow shipping to this zone.</source>
+        <target state="final">Dozvoli ili odbij isporuku u ovu zonu.</target>
+        <note>Line: 124</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/International/Currency/Blocks/form.html.twig" source-language="en" target-language="bs" datatype="plaintext">
@@ -114,6 +242,21 @@
         <source>Exchange rates are calculated from one unit of your shop's default currency. For example, if the default currency is euros and your chosen currency is dollars, type "1.20" (1€ = $1.20).</source>
         <target state="final">Kursevi valuta se računaju od jedne jedinice zadane valute vaše trgovine. Na primjer, ako je zadana valuta u konv. marka, a vaša odabrana valuta je euro, upišite "1.95" (1KM = 0.51€).</target>
         <note>Line: 93</note>
+      </trans-unit>
+      <trans-unit id="4ef5571f164a6a7fcc9f4625d14e260b" approved="yes">
+        <source>ISO code (e.g. USD for Dollars, EUR for Euros, etc.).</source>
+        <target state="final">ISO kod (npr. USD za Dolar, EUR za Euro, itd.).</target>
+        <note>Line: 41</note>
+      </trans-unit>
+      <trans-unit id="3b3f9615aaf2ed5974c15881a08e0b8e" approved="yes">
+        <source>By default, PrestaShop comes with a list of official currencies. If you want to use a local currency, you will have to add it manually. For example, to accept the Iranian Toman on your store, you need to create it before.</source>
+        <target state="final">PrestaShop po zadanom dolazi s popisom službenih valuta. Ako želite koristiti lokalnu valutu, morat ćete je dodati ručno. Na primjer, da biste prihvatili iransku Tomanu u svojoj trgovini, morate je kreirati prije.</target>
+        <note>Line: 65</note>
+      </trans-unit>
+      <trans-unit id="72d86566f89f1aa5a853fe2750bf96a5" approved="yes">
+        <source>ISO 4217 code (e.g. USD for Dollars, EUR for Euros, etc.)</source>
+        <target state="final">ISO 4217kod (npr. USD za Dolar, EUR za Euro, itd.)</target>
+        <note>Line: 89</note>
       </trans-unit>
       <trans-unit id="0ab7db7a10b7efc8270dd215c2a4ada7" approved="yes">
         <source><![CDATA[Exchange rates are calculated from one unit of your shop's default currency. For example, if the default currency is euros and your chosen currency is dollars, type "1.20" (1€ = $1.20).]]></source>
@@ -195,6 +338,16 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/International/Translations/Blocks/copy_language.html.twig" source-language="en" target-language="bs" datatype="plaintext">
     <body>
+      <trans-unit id="d4e007a94451a69f593c3ce0e06e08f2" approved="yes">
+        <source>Copies data from one language to another.</source>
+        <target state="final">Kopira podatke iz jednog jezika u drugi.</target>
+        <note>Line: 43</note>
+      </trans-unit>
+      <trans-unit id="3cd0f0cce3990de970f803ffc19f68e1" approved="yes">
+        <source>Warning: This will replace all of the existing data inside the destination language.</source>
+        <target state="final">Upozorenje: Ovo će zamijeniti sve postojeće podatke za ciljani jezik.</target>
+        <note>Line: 44</note>
+      </trans-unit>
       <trans-unit id="8a6815aee1e25633b568be3153f4e779" approved="yes">
         <source>If necessary [1][2] you must first create a new language[/1].</source>
         <target state="final">Ako je potrebno [1][2] najprije morate kreirati novi jezik [/1].</target>

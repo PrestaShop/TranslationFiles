@@ -11,14 +11,30 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/images/content.tpl" source-language="en" target-language="bs" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="8c9b2e81e93417bf65ee4d1c674d00e9" approved="yes">
+        <source>You can choose to keep your images stored in the previous system. There's nothing wrong with that.</source>
+        <target state="final">Možete odabrati zadržavanje slika u prethodnom sistemu. Nema ništa pogrešnog u tome.</target>
+        <note>Line: 42</note>
+      </trans-unit>
+      <trans-unit id="1f424af91db226ac46ea712713a3728e" approved="yes">
+        <source>You can also decide to move your images to the new storage system. In this case, click on the "Move images" button below. Please be patient. This can take several minutes.</source>
+        <target state="final">Također možete odlučiti premjestiti Vaše slike u novi sistem. U tom slučaju, kliknite na dugme ispod "Premjesti slike". Molimo za strpljenje. Ovo može potrajati nekoliko minuta.</target>
+        <note>Line: 43</note>
+      </trans-unit>
+      <trans-unit id="cde488e6010c72acfb6ff2781683b030" approved="yes">
+        <source>After moving all of your product images, set the "Use the legacy image filesystem" option above to "No" for best performance.</source>
+        <target state="final">Nakon premještanja svih slika proizvoda, postavite opciju "Koristi naslijeđeni datotečni sistem slika" iznad na "Ne" za najbolje performanse.</target>
+        <note>Line: 46</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/modules_positions/list_modules.tpl" source-language="en" target-language="bs" datatype="plaintext">
     <body>
-      
+      <trans-unit id="307cd46da080d0ad19ec342feb2aa6d6" approved="yes">
+        <source>If you want to order/move the following data, please select a shop from the shop list.</source>
+        <target state="final">Ukoliko želite složiti/premjestiti sljedeće podatke, molimo odaberite trgovinu iz popisa trgovina.</target>
+        <note>Line: 38</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/controller/FrontController.php" source-language="en" target-language="bs" datatype="plaintext">
@@ -32,7 +48,11 @@
   </file>
   <file original="controllers/admin/AdminCmsController.php" source-language="en" target-language="bs" datatype="plaintext">
     <body>
-      
+      <trans-unit id="5ece607071fe59ddc4c88dc6abfe2310" approved="yes">
+        <source>No items found</source>
+        <target state="final">Nijedna stavka nije nađena</target>
+        <note>Line: 324</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminImagesController.php" source-language="en" target-language="bs" datatype="plaintext">
@@ -41,6 +61,16 @@
         <source>Duplicate images were found when moving the product images. This is likely caused by unused demonstration images. Please make sure that the folder %folder% only contains demonstration images, and then delete it.</source>
         <target state="final">Pronađene su duple slike kada ste premještali slike proizvoda. To se često događa s nekorištenim demonstracijskim slikama. Molimo budite sigurni da direktorij %folder% sadrži samo demonstracijske slike, i tada ih obrišite.</target>
         <note>Line: 338</note>
+      </trans-unit>
+      <trans-unit id="5b8cb2aa659c7d6a98b740d2d788c69d" approved="yes">
+        <source>Incorrect value for the selected JPEG image compression.</source>
+        <target state="final">Netačna vrijednost za odabranu JPEG kompresiju slika.</target>
+        <note>Line: 361</note>
+      </trans-unit>
+      <trans-unit id="8357fadc46ff52546c4c69965de0d653" approved="yes">
+        <source>Incorrect value for the selected PNG image compression.</source>
+        <target state="final">Netačna vrijednost za odabrano PNG kompresiju slika.</target>
+        <note>Line: 364</note>
       </trans-unit>
       <trans-unit id="b88862891dbf9c20a73bc59258407d0b" approved="yes">
         <source>Source file does not exist or is empty (%filepath%)</source>
@@ -72,10 +102,45 @@
         <target state="final">Ne mogu se zapisati slike ovog tipa: %1$s. Molimo provjerite %2$s direktorij odobrenja za zapisivanje.</target>
         <note>Line: 677</note>
       </trans-unit>
+      <trans-unit id="d4f225ec09e4b0eba6558753f4bd8edd" approved="yes">
+        <source>Only part of the images have been regenerated. The server timed out before finishing.</source>
+        <target state="final">Samo dio slika je regenerisan. Serversko vrijeme je isteklo vrijeme prije završetka.</target>
+        <note>Line: 680</note>
+      </trans-unit>
+      <trans-unit id="f2febdafe25d3517afc3c6dd3d815562" approved="yes">
+        <source>Server timed out. The watermark may not have been applied to all images.</source>
+        <target state="final">Serversko vrijeme je isteklo. Vodeni žig nije primijenjen na sve slike.</target>
+        <note>Line: 684</note>
+      </trans-unit>
       <trans-unit id="606495559093a136ed6f2c9daee2645f" approved="yes">
         <source>Cannot write "No picture" image to %s images folder. Please check the folder's writing permissions.</source>
         <target state="final">Ne može pisati "Bez slike" slike u %s direktorij slika. Molimo provjerite prava pisanja u direktorij.</target>
         <note>Line: 689</note>
+      </trans-unit>
+      <trans-unit id="4004c7590c68a8cbbe499736c56bc33c" approved="yes">
+        <source>Error: Your server configuration is not compatible with the new image system. No images were moved.</source>
+        <target state="final">Greška: Podešavanja vašeg servera nisu kompatibilna s novim sistemom slika. Slike nisu premještene.</target>
+        <note>Line: 717</note>
+      </trans-unit>
+      <trans-unit id="4c9f49243d6dc02028801d9767abe3c1" approved="yes">
+        <source>Not all images have been moved. The server timed out before finishing. Click on "Move images" again to resume the moving process.</source>
+        <target state="final">Nisu sve slike premještene. Vrijeme na serveru je isteklo prije završetka. Kliknite ponovo na "Premjesti slike" kako bi nastavili proces premještanja.</target>
+        <note>Line: 723</note>
+      </trans-unit>
+      <trans-unit id="95871efade00fbd0243355ce7937c40a" approved="yes">
+        <source>Error: Some -- or all -- images cannot be moved.</source>
+        <target state="final">Greška: Pojedine -- ili sve -- slike se ne mogu premjestiti.</target>
+        <note>Line: 731</note>
+      </trans-unit>
+      <trans-unit id="cb2f901ceed5c3365d056794a1b5047f" approved="yes">
+        <source>After modification, do not forget to regenerate thumbnails</source>
+        <target state="final">Poslije promjena, ne zaboravite pokreneti regenerisanje sličica</target>
+        <note>Line: 750</note>
+      </trans-unit>
+      <trans-unit id="c26feb9180b94fa563c1e10b7354693b" approved="yes">
+        <source>Not all images have been moved. The server timed out before finishing. Click on "%move_images_label%" again to resume the moving process.</source>
+        <target state="final">Nisu sve slike premještene. Vrijeme na serveru je isteklo prije završetka. Kliknite ponovo na "Premjesti slike" kako bi nastavili proces premještanja.</target>
+        <note>Line: 724</note>
       </trans-unit>
     </body>
   </file>
@@ -118,7 +183,11 @@
   </file>
   <file original="src/Core/Shop/LogoUploader.php" source-language="en" target-language="bs" datatype="plaintext">
     <body>
-      
+      <trans-unit id="f003149576f4755d74550952febe14bb" approved="yes">
+        <source>An error occurred while uploading the favicon: cannot copy file "%s" to folder "%s".</source>
+        <target state="final">Došlo je do greške prilikom učitavanja favicon: ne mogu kopirati datoteku "%s" u direktorij "%s".</target>
+        <note>Line: 173</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Command/ExportThemeCommand.php" source-language="en" target-language="bs" datatype="plaintext">
@@ -166,11 +235,20 @@
         <target state="final">Tema se ne može prilagoditi RTL jezicima.</target>
         <note>Line: 558</note>
       </trans-unit>
+      <trans-unit id="c5d36cf23559e659323adbcb32e2b6d3" approved="yes">
+        <source><![CDATA[Your theme has been correctly reset to its default settings. You may want to regenerate your images. See the Improve > Design > Images Settings screen for the '%regenerate_label%' button.]]></source>
+        <target state="final"><![CDATA[Vaša tema je korektno resetovana na početne postavke. Možda će te morati sačekati da se slike regenerišu. Pogledajte Napredak > Dizajn > Postavke slika zaslona za 'Regenerisane sličice' dugme.]]></target>
+        <note>Line: 386</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Import/ImportDataConfigurationFormDataProvider.php" source-language="en" target-language="bs" datatype="plaintext">
     <body>
-      
+      <trans-unit id="e8be55bf3a30501aef09d2e74de97976" approved="yes">
+        <source>This name already exists.</source>
+        <target state="final">Ovaj naziv već postoji.</target>
+        <note>Line: 144</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/Design/Theme/ImportThemeType.php" source-language="en" target-language="bs" datatype="plaintext">
@@ -184,7 +262,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Design/Theme/Blocks/logo_configuration.html.twig" source-language="en" target-language="bs" datatype="plaintext">
     <body>
-      
+      <trans-unit id="3cb5c48f468125102a98fe83a277029d" approved="yes">
+        <source>Warning: if no email logo is available, the main logo will be used instead.</source>
+        <target state="final">Upozorenje: ako nema e-mail loga, koristiti će se glavni logo.</target>
+        <note>Line: 100</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
