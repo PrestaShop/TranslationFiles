@@ -202,6 +202,11 @@
         <target state="final">PrestaShopissa on kolme oletusasiakasryhmää:</target>
         <note>Line: 623</note>
       </trans-unit>
+      <trans-unit id="c7a5c6872a29383d6ab0db08e6b40e15" approved="yes">
+        <source>Need to hide prices for all groups? Save time, enable catalog mode in Product Settings instead.</source>
+        <target state="final">Haluatko piilottaa hinnat kaikilta asiakasryhmiltät? Säästä aikaa ja ota luettelotila käyttöön Tuoteasetuksissa.</target>
+        <note>Line: 374</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminReferrersController.php" source-language="en" target-language="fi" datatype="plaintext">
@@ -299,6 +304,36 @@
         <source>Search this word instead.</source>
         <target state="final">Etsi tätä sanaa sen sijaan.</target>
         <note>Line: 437</note>
+      </trans-unit>
+      <trans-unit id="b080303b551112c7b9dcdf6a21051f42" approved="yes">
+        <source>By default, the fuzzy search is enabled. It means spelling errors are allowed, e.g. you can search for "bird" with words like "burd", "bard" or "beerd".</source>
+        <target state="final">Oletusarvoisesti sumea haku on käytössä. Se tarkoittaa, että kirjoitusvirheet ovat sallittuja, esim. voit etsiä sanaa "lintu" sanoilla "linto", "linti" tai "linta".</target>
+        <note>Line: 196</note>
+      </trans-unit>
+      <trans-unit id="2324c421f8c5376051c024f15232cd80" approved="yes">
+        <source>Enable approximate string matching.</source>
+        <target state="final">Ota käyttöön likimääräinen merkkijonovastaavuus.</target>
+        <note>Line: 207</note>
+      </trans-unit>
+      <trans-unit id="a4b432b49016cf0de70c747fde4f815b" approved="yes">
+        <source>Note that this option is resource-consuming: the more you search, the longer it takes.</source>
+        <target state="final">Huomaa, että tämä vaihtoehto käyttää paljon resursseja: mitä enemmän haet, sitä kauemmin se kestää.</target>
+        <note>Line: 220</note>
+      </trans-unit>
+      <trans-unit id="39e61e5c1261f090e3c56f494a315f07" approved="yes">
+        <source>Disabling this option will require exact spelling for the search to match results.</source>
+        <target state="final">Tämän ominaisuuden poistaminen käytöstä edellyttää hauissa tarkkaa oikeinkirjoitusta, jotta haku täsmää tuloksiin.</target>
+        <note>Line: 201</note>
+      </trans-unit>
+      <trans-unit id="6392d16e9ae94967fe13716b69e1d0b2" approved="yes">
+        <source>Only words fewer or equal to this maximum length will be searched.</source>
+        <target state="final">Etsitään vain sanoja jotka ovat lyhyempiä tai yhtä pitkiä kuin tämä enimmäispituus.</target>
+        <note>Line: 235</note>
+      </trans-unit>
+      <trans-unit id="2b610a936a358875e6f5a01564a3a0e6" approved="yes">
+        <source>This parameter will only be used if the fuzzy search is activated: the lower the value, the more tolerant your search will be.</source>
+        <target state="final">Tätä parametria käytetään vain, jos sumea haku on aktivoitu: mitä alhaisempi arvo, sitä suvaitsevaisempi haku on.</target>
+        <note>Line: 240</note>
       </trans-unit>
       <trans-unit id="88851f53412ccb796508fd5f48e7a44f" approved="yes">
         <source><![CDATA[Forbidden characters: <>;=#{}]]></source>
@@ -441,6 +476,11 @@
         <target state="final">Salli asiakkaan tehdä tilauksia useampaan osoitteeseen. Tämä ominaisuus muuttaa asiakkaan ostoskorin yhteen tai useampaan tilaukseen.</target>
         <note>Line: 108</note>
       </trans-unit>
+      <trans-unit id="4acdb94f4cbc425ad20d457ffa1d81c1" approved="yes">
+        <source>It allows you to delay shipping if your customers request it.</source>
+        <target state="final">Tämän avulla voit viivästyttää toimitusta asiakkaasi pyynnöstä.</target>
+        <note>Line: 116</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GiftOptionsType.php" source-language="en" target-language="fi" datatype="plaintext">
@@ -512,6 +552,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/Blocks/product_preferences_general.html.twig" source-language="en" target-language="fi" datatype="plaintext">
     <body>
+      <trans-unit id="54ae4e3e39f5a1f636cfcf2744433678" approved="yes">
+        <source>The catalog mode is actually to disable products checkout (prices, add to cart, etc.) on your shop, like a retail website does.</source>
+        <target state="final">Kuvastotilaa käytetään myyntitoiminnon poistamiseen käytöstä (näytä hinnat, lisää koriin jne.).</target>
+        <note>Line: 38</note>
+      </trans-unit>
       <trans-unit id="80af0f0b70143f575fdfd6fa3ca3cb89" approved="yes">
         <source>Set the maximum size of the summary of your product description (in characters).</source>
         <target state="final">Aseta tuotteen lyhytkuvauksen enimmäiskoko (merkkeinä).</target>
@@ -532,6 +577,21 @@
         <target state="final">Kun käytössä, uudet tuotteet aktivoidaan oletuksena luomisen aikana.</target>
         <note>Line: 83</note>
       </trans-unit>
+      <trans-unit id="bd92437d0543aa142ccea7c021c9efe9" approved="yes">
+        <source>Catalog mode disables the shopping cart on your store. Visitors will be able to browse your products catalog, but not buy them.</source>
+        <target state="final">Kuvastotila poistaa ostoskorisi käytöstä kaupassasi. Vierailijat voivat tarkastella tuotteita mutta eivät voi ostaa niitä.</target>
+        <note>Line: 38</note>
+      </trans-unit>
+      <trans-unit id="2f00a538942083503dd09c585cc6d91c" approved="yes">
+        <source>Have specific needs? Edit particular groups to let them see prices or not.</source>
+        <target state="final">Onko sinulla erityistarpeita? Muokkaa asiakasryhmäkohtaisesti asetuksia, jotta he näkevät hinnat tai eivät näe niitä.</target>
+        <note>Line: 42</note>
+      </trans-unit>
+      <trans-unit id="bbaceb858ee14af2da60e07d63fd8678" approved="yes">
+        <source>Display product prices when in catalog mode.</source>
+        <target state="final">Näytä tuotehinnat kuvastotilassa.</target>
+        <note>Line: 46</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/Blocks/product_preferences_page.html.twig" source-language="en" target-language="fi" datatype="plaintext">
@@ -550,6 +610,16 @@
         <source>In the volume discounts board, display the new price with the applied discount instead of showing the discount (ie. "-5%").</source>
         <target state="final">Näytä voluumialennustaululla uusi hinta alennuksen kanssa alennuksen näyttämisen sijasta (esim. "-5 %").</target>
         <note>Line: 85</note>
+      </trans-unit>
+      <trans-unit id="572a918fa0b6c312c2c8c3447ce57421" approved="yes">
+        <source>Display the "%add_to_cart_label%" button when a product has attributes</source>
+        <target state="final">Näytä "%add_to_cart_label%" painike, kun tuotteella on variaatioita</target>
+        <note>Line: 63</note>
+      </trans-unit>
+      <trans-unit id="26071fff3423bbdfda80e24ef3a0d6e3" approved="yes">
+        <source>Display or hide the "%add_to_cart_label%" button on category pages for products that have attributes forcing customers to see product details.</source>
+        <target state="final">Näytä tai piilota "%add_to_cart_label%"  -painike tuotelistauksessa mikäli tuotteesta on variaatioita jolloin asiakkaan on katsottava tuotteen tarkemmat tiedot.</target>
+        <note>Line: 63</note>
       </trans-unit>
     </body>
   </file>
@@ -593,6 +663,11 @@
         <source>When selling packs of products, how do you want your stock to be calculated?</source>
         <target state="final">Myydessäsi tuotepakkauksia, kuinka haluat varaston laskettavan?</target>
         <note>Line: 97</note>
+      </trans-unit>
+      <trans-unit id="b5e585ab39ea18b6354e53370bfe7472" approved="yes">
+        <source>By default, the "%add_to_cart_label%" button is hidden when a product is unavailable. You can choose to have it displayed in all cases.</source>
+        <target state="final">Oletuksena "%add_to_cart_label%" -painike on piilotettu, jos tuotetta ei ole saatavilla. Voit vaihtaa sen näkyväksi aina.</target>
+        <note>Line: 38</note>
       </trans-unit>
     </body>
   </file>
@@ -679,7 +754,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/TrafficSeo/Meta/Blocks/seo_options_configuration.html.twig" source-language="en" target-language="fi" datatype="plaintext">
     <body>
-      
+      <trans-unit id="6d6348525df68625d9758d6d071ac505" approved="yes">
+        <source>Enable this option if you want to display your product's attributes in its meta title.</source>
+        <target state="final">Laita tämä asetus päälle, jos haluat näyttää tuotteen ominaisuudet sen "meta title" -tiedoissa.</target>
+        <note>Line: 38</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/TrafficSeo/Meta/Blocks/set_up_urls_configuration.html.twig" source-language="en" target-language="fi" datatype="plaintext">
@@ -796,6 +875,16 @@
         <source>The multistore feature allows you to manage several e-shops with one Back Office. If this feature is enabled, a "Multistore" page will be available in the "Advanced Parameters" menu.</source>
         <target state="final">Tällä ominaisuudella voi hallita useampaa kauppaa yhdestä hallintapaneelista. Jos tämä asetus on päällä, Monta kauppaa -sivu näkyy Edistyneet asetukset -valikkossa.</target>
         <note>Line: 150</note>
+      </trans-unit>
+      <trans-unit id="7c6efc73556c295515e6f3c2129eee32" approved="yes">
+        <source>Enable suppliers page on your front office even when its module is disabled.</source>
+        <target state="final">Ota käyttöön Toimittajat sivu kaupassasi, vaikka siihen liittyvä moduuli on poistettu käytöstä.</target>
+        <note>Line: 126</note>
+      </trans-unit>
+      <trans-unit id="8e17743ca02e7c24310531d34d0c89ff" approved="yes">
+        <source>Enable brands page on your front office even when its module is disabled.</source>
+        <target state="final">Ota käyttöön Tuotemerkit sivu kaupassasi, vaikka siihen liittyvä moduuli on poistettu käytöstä.</target>
+        <note>Line: 134</note>
       </trans-unit>
     </body>
   </file>

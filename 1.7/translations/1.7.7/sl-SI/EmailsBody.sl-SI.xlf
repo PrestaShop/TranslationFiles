@@ -290,7 +290,7 @@
     <body>
       <trans-unit id="53423ed6d9f522de8d41539456628786" approved="yes">
         <source>Your new {shop_name} login details</source>
-        <target state="final">Vaš novi {shop_name} prijavni podatki</target>
+        <target state="final">Vaši novi {shop_name} prijavni podatki</target>
         <note>Line: 24</note>
       </trans-unit>
     </body>
@@ -1626,7 +1626,7 @@
       </trans-unit>
       <trans-unit id="101f2450ccefbd344b37971c5d27f96d" approved="yes">
         <source>Placed on</source>
-        <target state="final">Oddano na</target>
+        <target state="final">Oddano</target>
         <note>Line: 249</note>
       </trans-unit>
       <trans-unit id="a0e8e26f6f9354192425b9a23227a5ba" approved="yes">
@@ -1636,7 +1636,7 @@
       </trans-unit>
       <trans-unit id="63d5049791d9d79d86e9a108b0a999ca" approved="yes">
         <source>Reference</source>
-        <target state="final">Referenca</target>
+        <target state="final">Šifra</target>
         <note>Line: 324</note>
       </trans-unit>
       <trans-unit id="deb10517653c255364175796ace3553f" approved="yes">
@@ -1681,12 +1681,12 @@
       </trans-unit>
       <trans-unit id="ea067eb37801c5aab1a1c685eb97d601" approved="yes">
         <source>Total paid</source>
-        <target state="final">Skupaj plačano</target>
+        <target state="final">Skupaj za plačilo</target>
         <note>Line: 363</note>
       </trans-unit>
       <trans-unit id="f8617a92ba0a0a4eabee724eab7c9f48" approved="yes">
         <source>Carrier:</source>
-        <target state="final">Dostavna služba</target>
+        <target state="final">Dostavna služba:</target>
         <note>Line: 494</note>
       </trans-unit>
       <trans-unit id="af0f5bdc5be121b9307687aeeae38c17" approved="yes">
@@ -1696,12 +1696,12 @@
       </trans-unit>
       <trans-unit id="1fbc7e5f1b92c7ec072397b59a0bb5da" approved="yes">
         <source>Billing address</source>
-        <target state="final">Naslov za plačilo</target>
+        <target state="final">Naslov za račun</target>
         <note>Line: 585</note>
       </trans-unit>
       <trans-unit id="5c9412907a7aabeea3491fafec5c082e" approved="yes">
         <source>Including total tax</source>
-        <target state="final">Vključno s skupnim davkom</target>
+        <target state="final">DDV</target>
         <note>Line: 357</note>
       </trans-unit>
       <trans-unit id="6810a1cc40329a394b9d73b5f8dac744" approved="yes">
@@ -2066,7 +2066,7 @@ File: modules/ps_emailgenerator/templates/core/guest_to_customer.php:24</note>
     <body>
       <trans-unit id="873a6c9ce4b0711161105e4a6d943bb6" approved="yes">
         <source><![CDATA[Your order with the reference <span><strong>{order_name}</strong></span> is currently in transit.]]></source>
-        <target state="final"><![CDATA[Vaše naročilo s številko <span><strong>{order_name}</strong></span> je trenutno v dostavi.]]></target>
+        <target state="final"><![CDATA[Vaše naročilo ID <span><strong>{order_name}</strong></span> je trenutno v dostavi.]]></target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/core/in_transit.php:49</note>
       </trans-unit>
@@ -2076,13 +2076,13 @@ File: modules/ps_emailgenerator/templates/core/in_transit.php:49</note>
     <body>
       <trans-unit id="17357f0ed7c82a1620f4311667886a63" approved="yes">
         <source><![CDATA[<span><strong>Warning:</strong></span> you have received a new log alert in your Back Office.]]></source>
-        <target state="final"><![CDATA[<span><strong>Opozorilo:</strong></span> prejeli ste novo opozorilo prijave v vaš Back Office.]]></target>
+        <target state="final"><![CDATA[<span><strong>Opozorilo:</strong></span> prejeli ste novo opozorilo prijave v skrbništvu.]]></target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/core/log_alert.php:24</note>
       </trans-unit>
       <trans-unit id="ba00a1816b599684def5ff1d312ef5ed" approved="yes">
         <source><![CDATA[You can check for it in the <span><strong>"Tools" > "Logs"</strong></span> section of your Back Office.]]></source>
-        <target state="final"><![CDATA[Preverite lahko v <span><strong>"Orodja" > "Logs"</strong></span> sekciji vašega Back Office.]]></target>
+        <target state="final"><![CDATA[Preverite lahko v <span><strong>"Orodja" > "Logs"</strong></span> sekciji vašega skrbništva trgovine.]]></target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/core/log_alert.php:25</note>
       </trans-unit>
@@ -2092,7 +2092,7 @@ File: modules/ps_emailgenerator/templates/core/log_alert.php:25</note>
     <body>
       <trans-unit id="50651089ed12eb33b55394a0a17618de" approved="yes">
         <source><![CDATA[Your order with the reference <span><strong>{order_name}</strong></span> from <span><strong>{shop_name}</strong></span> has been canceled.]]></source>
-        <target state="final"><![CDATA[Vaše naročilo z referenco <span><strong>{order_name}</strong></span> from <span><strong>{shop_name}</strong></span> je bilo preklicano.]]></target>
+        <target state="final"><![CDATA[Vaše naročilo ID <span><strong>{order_name}</strong></span> na <span><strong>{shop_name}</strong></span> je bilo preklicano.]]></target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/core/order_canceled.php:24</note>
       </trans-unit>
@@ -2102,7 +2102,7 @@ File: modules/ps_emailgenerator/templates/core/order_canceled.php:24</note>
     <body>
       <trans-unit id="0e6321e9d36186e957652f07d88116a5" approved="yes">
         <source><![CDATA[Your order with the reference <span><strong>{order_name}</strong></span> from <span><strong>{shop_name}</strong></span> has been changed by the merchant.]]></source>
-        <target state="final"><![CDATA[Vaše naročilo z referenco <span><strong>{order_name}</strong></span> od <span><strong>{shop_name}</strong></span> je bilo spremenjeno iz strani prodajalca.]]></target>
+        <target state="final"><![CDATA[Vaše naročilo ID <span><strong>{order_name}</strong></span> od <span><strong>{shop_name}</strong></span> je bilo spremenjeno iz strani prodajalca.]]></target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/core/order_changed.php:24</note>
       </trans-unit>
@@ -2132,7 +2132,7 @@ File: modules/ps_emailgenerator/templates/core/password_query.php:24</note>
     <body>
       <trans-unit id="e9933131bfeef332fc84561f8e23aeba" approved="yes">
         <source><![CDATA[Your order with the reference <span><strong>{order_name}</strong></span> has been shipped.]]></source>
-        <target state="final"><![CDATA[Vaše naročilo z referenco <span><strong>{order_name}</strong></span> je bilo poslano.]]></target>
+        <target state="final"><![CDATA[Vaše naročilo ID <span><strong>{order_name}</strong></span> je bilo poslano.]]></target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/core/shipped.php:25</note>
       </trans-unit>
@@ -2262,13 +2262,13 @@ File: modules/ps_emailgenerator/templates/modules/referralprogram/referralprogra
       </trans-unit>
       <trans-unit id="36791224f527482e84d2ff30fbb3c699" approved="yes">
         <source><![CDATA[It&#039;s very easy to sign up. Just click here!]]></source>
-        <target state="final"><![CDATA[Je&#039;s zelo lahko prijavit. Samo kliknite tukaj!]]></target>
+        <target state="final"><![CDATA[Prijava je zelo enostavna. Samo kliknite tukaj!]]></target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/modules/referralprogram/referralprogram-invitation.php:24</note>
       </trans-unit>
       <trans-unit id="edfb7a07b2d6386a1308f34c1a08aa0e" approved="yes">
         <source><![CDATA[When signing up, don&#039;t forget to provide the e-mail address of your referring friend:]]></source>
-        <target state="final"><![CDATA[Ko se prijavite, n&#039;e ne pozabite napisati maila prijatelja, ki ste ga povabili:]]></target>
+        <target state="final"><![CDATA[Ko se prijavite, ne pozabite napisati maila prijatelja, ki ste ga povabili:]]></target>
         <note>Context:
 File: modules/ps_emailgenerator/templates/modules/referralprogram/referralprogram-invitation.php:39</note>
       </trans-unit>

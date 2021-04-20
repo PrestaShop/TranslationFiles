@@ -597,6 +597,36 @@
         <target state="final">Korvaa toimituskulut</target>
         <note>Line: 1166</note>
       </trans-unit>
+      <trans-unit id="6188ffe19286d3bf694160609cf15e82" approved="yes">
+        <source>Include amount of initial voucher: </source>
+        <target state="final">Sisällytä alkuperäisen kupongin summa: </target>
+        <note>Line: 1174</note>
+      </trans-unit>
+      <trans-unit id="b9313ee2094019f4ee5212f784f45d65" approved="yes">
+        <source>Exclude amount of initial voucher: </source>
+        <target state="final">Jätä pois alkuperäisen kupongin summa: </target>
+        <note>Line: 1180</note>
+      </trans-unit>
+      <trans-unit id="7731388b0fae4c0d7214f6a1f6f1771f" approved="yes">
+        <source>Amount of your choice: </source>
+        <target state="final">Valitsemasi summa: </target>
+        <note>Line: 1233</note>
+      </trans-unit>
+      <trans-unit id="67dd576afa3b807903e847f6ebb11f22" approved="yes">
+        <source>This order has been partially paid by voucher. Choose the amount you want to refund: </source>
+        <target state="final">Tämä tilaus on maksettu osittain kupongilla. Valitse maksunpalautuksen määrä: </target>
+        <note>Line: 1218</note>
+      </trans-unit>
+      <trans-unit id="8e0398b929d533c18fff7f5e21e8fcbd" approved="yes">
+        <source>Product(s) price: </source>
+        <target state="final">Tuotteiden hinta: </target>
+        <note>Line: 1222</note>
+      </trans-unit>
+      <trans-unit id="34623cd7893be21da4239d08f79aec9a" approved="yes">
+        <source>Product(s) price, excluding amount of initial voucher: </source>
+        <target state="final">Tuotteiden hinta, ilman alkuperäisen kupongin summaa: </target>
+        <note>Line: 1228</note>
+      </trans-unit>
       <trans-unit id="0da6a00e3eb2132d5cf97463a099c49f" approved="yes">
         <source>Order no. </source>
         <target state="final">Tilausnumero </target>
@@ -656,7 +686,9 @@ Unfortunately, an item on your order is currently out of stock. This may cause a
 Please accept our apologies and rest assured that we are working hard to rectify this.
 
 Best regards,</source>
-        <target state="final">Valitettavasti yksi tai usemapi tilaamistasi tuotteista on loppunut varastostamme ja tämän vuoksi toimitus viivästyy. Pahoittelemme tilannetta ja pyrimme toimittamaan tilauksenne mahdollisimman nopeasti.
+        <target state="final">Hei,
+
+Valitettavasti yksi tai useampi tilaamistasi tuotteista on loppunut varastostamme ja tämän vuoksi toimitus viivästyy. Pahoittelemme tilannetta ja pyrimme toimittamaan tilauksenne mahdollisimman nopeasti.
 
 Terveisin,</target>
         <note>Line: 28</note>
@@ -1139,6 +1171,16 @@ Terveisin,</target>
         <target state="final">Muuta tilauksen tilaa</target>
         <note>Line: 437</note>
       </trans-unit>
+      <trans-unit id="9efa6b952ad382ca6a636523732c85cd" approved="yes">
+        <source>Open in new tabs</source>
+        <target state="final">Avaa uusiin välilehtiin</target>
+        <note>Line: 444</note>
+      </trans-unit>
+      <trans-unit id="b6df865141bb721c8c46d548b8e2846c" approved="yes">
+        <source>It looks like you have exceeded the number of tabs allowed. Check your browser settings to open multiple tabs.</source>
+        <target state="final">Näyttää siltä että yritit avata liian monta välilehteä. Tarkista selaimesi asetukset.</target>
+        <note>Line: 451</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Address/AddressController.php" source-language="en" target-language="fi" datatype="plaintext">
@@ -1175,7 +1217,11 @@ Terveisin,</target>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Customer/PrivateNoteType.php" source-language="en" target-language="fi" datatype="plaintext">
     <body>
-      
+      <trans-unit id="c68f674c6a04b2f75537e41318706b5c" approved="yes">
+        <source>Add a note on this customer. It will only be visible to you.</source>
+        <target state="final">Lisää sisäinen kommentti. </target>
+        <note>Line: 64</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/AddProductRowType.php" source-language="en" target-language="fi" datatype="plaintext">
@@ -1214,6 +1260,11 @@ Terveisin,</target>
         <target state="final">Tuotteiden hinta, ilman alkuperäisen kupongin summaa:</target>
         <note>Line: 131</note>
       </trans-unit>
+      <trans-unit id="282c7d15f714ec30b64b7db218f232f0" approved="yes">
+        <source>The "shipping" field must be a valid number</source>
+        <target state="final">"Toimitus" -kentän on oltava kelvollinen numero</target>
+        <note>Line: 82</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/Invoices/InvoiceOptionsType.php" source-language="en" target-language="fi" datatype="plaintext">
@@ -1241,8 +1292,16 @@ Terveisin,</target>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Common/Grid/Blocks/EmptyState/order.html.twig" source-language="en" target-language="fi" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="3d768ba150eef186f61a5373f283391f" approved="yes">
+        <source>Manage your orders</source>
+        <target state="final">Hallinnoi tilauksiasi</target>
+        <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="8c6635b6df0abb50e8c209575029552e" approved="yes">
+        <source>Find all your orders on this page and access their main information in one click: check the cart total, the payment method, the shipping details, or if it comes from a new client. You can even update the status from the listing!</source>
+        <target state="final">Löydät kaikki tilauksesi tältä sivulta ja pääset niiden perustietoihin yhdellä klikkauksella: tarkista ostoskorin kokonaissumma, maksutapa, toimitustiedot tai jos se tulee uudelta asiakkaalta. Voit jopa päivittää tilan suoraan luettelosta!</target>
+        <note>Line: 32</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Address/Blocks/form.html.twig" source-language="en" target-language="fi" datatype="plaintext">
@@ -1579,6 +1638,11 @@ Terveisin,</target>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/CustomerService/CustomerThread/Block/customer_information.html.twig" source-language="en" target-language="fi" datatype="plaintext">
     <body>
+      <trans-unit id="eab6d6f993963d4c9de8a900abeef8df" approved="yes">
+        <source>No order validated for the moment. By default, an order is considered validated when its payment is accepted.</source>
+        <target state="final">Yhtään tilausta ei ole vahvistettu tällä hetkellä. Oletusarvoisesti tilaus katsotaan hyväksytyksi kun sen maksu hyväksytään.</target>
+        <note>Line: 74</note>
+      </trans-unit>
       <trans-unit id="3bf63a999cda6c9d95c3827e7942f41d" approved="yes">
         <source>Customer since: %s</source>
         <target state="final">Asiakas alkaen: %s</target>
@@ -1985,6 +2049,11 @@ Terveisin,</target>
         <target state="final">Uudet laskutiedot</target>
         <note>Line: 86</note>
       </trans-unit>
+      <trans-unit id="419fca4bebf663adb696fce24499ce0d" approved="yes">
+        <source>Edit the price</source>
+        <target state="final">Muokkaa hintaa</target>
+        <note>Line: 68</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/customer.html.twig" source-language="en" target-language="fi" datatype="plaintext">
@@ -2003,6 +2072,16 @@ Terveisin,</target>
         <source>Invoice address</source>
         <target state="final">Laskutusosoite</target>
         <note>Line: 155</note>
+      </trans-unit>
+      <trans-unit id="1402e450396cb76b53b95f6e1746d700" approved="yes">
+        <source>Account registered:</source>
+        <target state="final">Tili rekisteröity:</target>
+        <note>Line: 77</note>
+      </trans-unit>
+      <trans-unit id="73f60d0b9f47c606d71c17498266776e" approved="yes">
+        <source>Validated orders placed:</source>
+        <target state="final">Vahvistettuja tilauksia jätetty:</target>
+        <note>Line: 84</note>
       </trans-unit>
     </body>
   </file>
@@ -2099,6 +2178,16 @@ Terveisin,</target>
         <target state="final">Lähetä viesti</target>
         <note>Line: 103</note>
       </trans-unit>
+      <trans-unit id="b1c1a2457e49ccd06d304774d50947c6" approved="yes">
+        <source>View full conversation</source>
+        <target state="final">Näytä koko keskustelu</target>
+        <note>Line: 46</note>
+      </trans-unit>
+      <trans-unit id="4d16da2eaa070d98b8495ccf1b0b42bb" approved="yes">
+        <source>Choose your order message</source>
+        <target state="final">Valitse tilausviesti</target>
+        <note>Line: 67</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/order_actions.html.twig" source-language="en" target-language="fi" datatype="plaintext">
@@ -2162,6 +2251,16 @@ Terveisin,</target>
         <target state="final">Vaihda valuutta</target>
         <note>Line: 154</note>
       </trans-unit>
+      <trans-unit id="5735196b42849ae4fe6adac3ae14c3d1" approved="yes">
+        <source>Card type</source>
+        <target state="final">Kortin tyyppi</target>
+        <note>Line: 95</note>
+      </trans-unit>
+      <trans-unit id="0bef7cd06cee6711378b85d90ce11527" approved="yes">
+        <source>Cardholder name</source>
+        <target state="final">Kortinhaltijan nimi</target>
+        <note>Line: 111</note>
+      </trans-unit>
       <trans-unit id="a44217022190f5734b2f72ba1e4f8a79" approved="yes">
         <source>Card number</source>
         <target state="final">Kortin numero</target>
@@ -2190,6 +2289,11 @@ Terveisin,</target>
         <target state="final">Tämä tilaus on maksettu osittain alennuskupongilla. Valitse maksunpalautuksen määrä:</target>
         <note>Line: 254</note>
       </trans-unit>
+      <trans-unit id="d9c66f411da5faef9c46d5b679214ae1" approved="yes">
+        <source>Add a discount</source>
+        <target state="final">Lisää alennus</target>
+        <note>Line: 154</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/shipping.html.twig" source-language="en" target-language="fi" datatype="plaintext">
@@ -2198,6 +2302,11 @@ Terveisin,</target>
         <source>Gift wrapping</source>
         <target state="final">Lahjapaketointi</target>
         <note>Line: 95</note>
+      </trans-unit>
+      <trans-unit id="858591a7d8647b4535c51a4ad506db9c" approved="yes">
+        <source>Shipping does not apply to virtual orders</source>
+        <target state="final">Toimitustapaa ei käytetä virtuaalituotteiden tilauksissa</target>
+        <note>Line: 99</note>
       </trans-unit>
     </body>
   </file>
@@ -2249,6 +2358,21 @@ Terveisin,</target>
         <source>Stock location</source>
         <target state="final">Varaston sijainti</target>
         <note>Line: 138</note>
+      </trans-unit>
+      <trans-unit id="169d7487a2ea841e5cdd6b9052c54f37" approved="yes">
+        <source>Shipping details</source>
+        <target state="final">Toimitustiedot</target>
+        <note>Line: 57</note>
+      </trans-unit>
+      <trans-unit id="e3f32212a2ad38fc762cff6ba6d44936" approved="yes">
+        <source>Invoice details</source>
+        <target state="final">Laskun tiedot</target>
+        <note>Line: 95</note>
+      </trans-unit>
+      <trans-unit id="0da9511b88a62642518334bda95c7370" approved="yes">
+        <source>Open details</source>
+        <target state="final">Avaa tiedot</target>
+        <note>Line: 185</note>
       </trans-unit>
     </body>
   </file>
