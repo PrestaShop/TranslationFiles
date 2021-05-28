@@ -50,6 +50,16 @@
   </file>
   <file original="classes/module/Module.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
+      <trans-unit id="7ae364c250c9b28880e13e2c4edae218" approved="yes">
+        <source>This module has already been installed.</source>
+        <target state="final">Bu modul artıq quraşdırılmışdır.</target>
+        <note>Line: 386</note>
+      </trans-unit>
+      <trans-unit id="4762b130ddcc0e4d2eacf0c59a8b17a2" approved="yes">
+        <source>The module is not installed.</source>
+        <target state="final">Modul quraşdırılmayıb.</target>
+        <note>Line: 698</note>
+      </trans-unit>
       <trans-unit id="e8f98f4457c87a8aad1d4d625ad1a9f3" approved="yes">
         <source>%1$s is not a valid module name.</source>
         <target state="final">%1$s düzgün modul adı deyil.</target>
@@ -156,10 +166,25 @@
         <target state="final">Sizin bu modulu özəlləşdirməyə icazəniz yoxdur.</target>
         <note>Line: 870</note>
       </trans-unit>
+      <trans-unit id="2c465b2a1769653563dcacfc83ab61d0" approved="yes">
+        <source>This module is already installed: %s.</source>
+        <target state="final">Bu modul artıq quraşdırılıb: %s.</target>
+        <note>Line: 872</note>
+      </trans-unit>
+      <trans-unit id="0ec73cc5b2910764fc221acb633c20bc" approved="yes">
+        <source>This module has already been uninstalled: %s.</source>
+        <target state="final">Bu modul artıq pozulmuşdur: %s.</target>
+        <note>Line: 874</note>
+      </trans-unit>
       <trans-unit id="4e03a50f18350f93b8ec321b488a4a8c" approved="yes">
         <source>You do not have permission to uninstall this module.</source>
         <target state="final">Sizin bu modul quraşdırmasını pozmağa icazəniz yoxdur.</target>
         <note>Line: 900</note>
+      </trans-unit>
+      <trans-unit id="d3c1a921b833767f27ffcc401a87d93b" approved="yes">
+        <source>The following module(s) could not be uninstalled properly: %s.</source>
+        <target state="final">Aşağıdakı modulu(ları) düzgün olaraq pozmaq olmadı: %s.</target>
+        <note>Line: 1039</note>
       </trans-unit>
     </body>
   </file>
@@ -232,11 +257,20 @@ Comment: Confirm uninstall</note>
   </file>
   <file original="src/Adapter/Module/Tab/ModuleTabUnregister.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      
+      <trans-unit id="e85403d2e654955b45105b9929924c89" approved="yes">
+        <source>Failed to uninstall admin tab "%name%".</source>
+        <target state="final">"%name%" admin nişanı silinmədi.</target>
+        <note>Line: 110</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Core/Addon/Module/ModuleManager.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
+      <trans-unit id="21f1ba3ca9bb026443f8dea1127f2f0b" approved="yes">
+        <source>You are not allowed to uninstall the module %module%.</source>
+        <target state="final">Siz %module% modulunu poza bilməzsiniz.</target>
+        <note>Line: 324</note>
+      </trans-unit>
       <trans-unit id="9fa7ea0487a785b31f48977415f3324a" approved="yes">
         <source>You are not allowed to disable the module %module% on mobile.</source>
         <target state="final">Siz %module% modulunu mobildə söndürə bilməzsiniz.</target>
@@ -316,13 +350,11 @@ Comment: Confirm uninstall</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm.html.twig" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="eb641425b425f906c54cb55319ec3e25" approved="yes">
+        <source>You are about to uninstall %moduleName% module.</source>
+        <target state="final">Siz %moduleName% modulunu pozmaq üzrəsiniz.</target>
+        <note>Line: 58</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_confirm_bulk_action.html.twig" source-language="en" target-language="az" datatype="plaintext">
@@ -332,6 +364,11 @@ Comment: Confirm uninstall</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Module/Includes/modal_import.html.twig" source-language="en" target-language="az" datatype="plaintext">
     <body>
+      <trans-unit id="f48a5ae14fa2b0c85442d1199a08b3b4" approved="yes">
+        <source>Module installed!</source>
+        <target state="final">Modul quraşdırıldı!</target>
+        <note>Line: 68</note>
+      </trans-unit>
       <trans-unit id="824e2fcb263ee94399a6a261ee1ec7c1" approved="yes">
         <source>Oops... Upload failed.</source>
         <target state="final">Ups... Yüklənmə alınmadı.</target>
