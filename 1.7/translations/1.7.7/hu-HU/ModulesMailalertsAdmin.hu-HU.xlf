@@ -24,6 +24,36 @@ File: modules/ps_emailalerts/mailalerts-account.php:64</note>
   </file>
   <file original="modules/ps_emailalerts/ps_emailalerts.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
+      <trans-unit id="fd30254803e8db32521d3390131a44da" approved="yes">
+        <source>Mail alerts</source>
+        <target state="final">Értesítő levelek</target>
+        <note>Context:
+File: modules/ps_emailalerts/ps_emailalerts.php:65</note>
+      </trans-unit>
+      <trans-unit id="fa3434addac072a154177a8e960f00d3" approved="yes">
+        <source>Sends e-mail notifications to customers and merchants regarding stock and order modifications.</source>
+        <target state="final">Email értesítéseket küldése az ügyfeleknek és a kereskedőknek a raktárkészlet és a megrendelés változásáról.</target>
+        <note>Context:
+File: modules/ps_emailalerts/ps_emailalerts.php:66</note>
+      </trans-unit>
+      <trans-unit id="c1ee76f076a5b97e3b4b0c0e5703246e" approved="yes">
+        <source>Cannot update settings</source>
+        <target state="final">Beállítások frissítése nem sikerült</target>
+        <note>Context:
+File: modules/ps_emailalerts/ps_emailalerts.php:227</note>
+      </trans-unit>
+      <trans-unit id="ce241f25e003bafeb9fce6857d8f027f" approved="yes">
+        <source>Please type one (or more) e-mail address</source>
+        <target state="final">Adj meg egy (vagy több) email címet</target>
+        <note>Context:
+File: modules/ps_emailalerts/ps_emailalerts.php:196</note>
+      </trans-unit>
+      <trans-unit id="29aae9c646337554f4de7ae29050c39f" approved="yes">
+        <source>Invalid e-mail:</source>
+        <target state="final">Érvénytelen email cím:</target>
+        <note>Context:
+File: modules/ps_emailalerts/ps_emailalerts.php:203</note>
+      </trans-unit>
       <trans-unit id="462390017ab0938911d2d4e964c0cab7" approved="yes">
         <source>Settings updated successfully</source>
         <target state="final">Beállítások sikeresen frissítve</target>
@@ -49,12 +79,24 @@ File: modules/ps_emailalerts/ps_emailalerts.php:890</note>
 File: modules/ps_emailalerts/ps_emailalerts.php:897
  Comment: retro compat 1.5</note>
       </trans-unit>
+      <trans-unit id="bad4762226d82261d8c31fc120a03ed2" approved="yes">
+        <source>Gives the customer the option of receiving a notification when an out-of-stock product is available again.</source>
+        <target state="final">Lehetőséget ad a vevőnek, hogy értesítést kapjon egy termékről, ha az újra készletre kerül.</target>
+        <note>Context:
+File: modules/ps_emailalerts/ps_emailalerts.php:899</note>
+      </trans-unit>
       <trans-unit id="a5b84d670ff303fdc89d20cf979a1003" approved="yes">
         <source>Order edit</source>
-        <target state="final">Rendelés szerkesztése</target>
+        <target state="final">Rendelés változás</target>
         <note>Context:
 File: modules/ps_emailalerts/ps_emailalerts.php:916
  Comment: retro compat 1.5</note>
+      </trans-unit>
+      <trans-unit id="0c00f6da997acaa413d658206e25235a" approved="yes">
+        <source>Send a notification to the customer when an order is edited.</source>
+        <target state="final">Küldjön értesítést az ügyfélnek mikor egy rendelést módosítunk.</target>
+        <note>Context:
+File: modules/ps_emailalerts/ps_emailalerts.php:918</note>
       </trans-unit>
       <trans-unit id="4c9120f1a5947445c0e9620254ceb30b" approved="yes">
         <source>New order</source>
@@ -76,6 +118,12 @@ File: modules/ps_emailalerts/ps_emailalerts.php:947</note>
 File: modules/ps_emailalerts/ps_emailalerts.php:964
  Comment: retro compat 1.5</note>
       </trans-unit>
+      <trans-unit id="c0146c441cd6d5dc9d6e0ea1464b345f" approved="yes">
+        <source>Receive a notification if the available quantity of a product is below the following threshold.</source>
+        <target state="final">Értesítés küldése, ha a készleten lévő termékek száma a megadott határérték alá esik.</target>
+        <note>Context:
+File: modules/ps_emailalerts/ps_emailalerts.php:966</note>
+      </trans-unit>
       <trans-unit id="2a63f555989152ba866b43a1faacd680" approved="yes">
         <source>Threshold</source>
         <target state="final">Határérték</target>
@@ -84,7 +132,7 @@ File: modules/ps_emailalerts/ps_emailalerts.php:982</note>
       </trans-unit>
       <trans-unit id="5b38721cd2e6ea2e12a664fb6dca1990" approved="yes">
         <source>Quantity for which a product is considered out of stock.</source>
-        <target state="final">Termékmennyiség, ami alatt a terméknél készlethiány áll be.</target>
+        <target state="final">Mennyiség, ami alatt úgy vesszük, a termék nincs készleten.</target>
         <note>Context:
 File: modules/ps_emailalerts/ps_emailalerts.php:985</note>
       </trans-unit>
@@ -106,6 +154,12 @@ File: modules/ps_emailalerts/ps_emailalerts.php:995</note>
         <target state="final">Lefedettség</target>
         <note>Context:
 File: modules/ps_emailalerts/ps_emailalerts.php:1011</note>
+      </trans-unit>
+      <trans-unit id="2a4ae220a78d0c4a4d4c2b7285753321" approved="yes">
+        <source>Stock coverage, in days. Also, the stock coverage of a given product will be calculated based on this number.</source>
+        <target state="final">Napi készlet és készletérték.</target>
+        <note>Context:
+File: modules/ps_emailalerts/ps_emailalerts.php:1014</note>
       </trans-unit>
       <trans-unit id="4762fdc5fdf2ab3118f73fe252a6668b" approved="yes">
         <source>Returns</source>
@@ -144,7 +198,7 @@ File: modules/ps_emailalerts/ps_emailalerts.php:1049</note>
     <body>
       <trans-unit id="1d744a9ad1dac20645cfc4a36b77323b" approved="yes">
         <source>image(s)</source>
-        <target state="final">kép</target>
+        <target state="final">kép(ek)</target>
         <note>Line: 273</note>
       </trans-unit>
       <trans-unit id="9137796c15dd92e5553c3f29574d0968" approved="yes">
