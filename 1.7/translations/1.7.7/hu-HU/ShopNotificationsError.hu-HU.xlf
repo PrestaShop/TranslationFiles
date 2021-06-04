@@ -72,6 +72,11 @@
         <target state="final">A kupon már a kosaradban van</target>
         <note>Line: 807</note>
       </trans-unit>
+      <trans-unit id="4837d38bc896f38c39d6f7024e466967" approved="yes">
+        <source>This voucher is not combinable with an other voucher already in your cart: %s</source>
+        <target state="final">Ez a kupon nem kombinálható a már kosárban használt kuponnal: %s</target>
+        <note>Line: 825</note>
+      </trans-unit>
       <trans-unit id="e199546c0a1d80f1bf116b131ee02e22" approved="yes">
         <source>Cart is empty</source>
         <target state="final">Üres kosár</target>
@@ -87,11 +92,20 @@
         <target state="final">A kupon nem használható ezekhez a termékekhez</target>
         <note>Line: 1076</note>
       </trans-unit>
+      <trans-unit id="1a0c8c4e381164295f1e06d777411d11" approved="yes">
+        <source>You cannot use this voucher because it has manually been removed.</source>
+        <target state="final">Ezt a kupont nem használhatod, mivel manuálisan el lett távolítva.</target>
+        <note>Line: 848</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/form/CustomerForm.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
+      <trans-unit id="eefb581d7c421334e62a68223c7a242a" approved="yes">
+        <source>The email is already used, please choose another one or sign in</source>
+        <target state="final">Az email cím már foglalt, kérlek válassz másikat vagy jelentkezz be</target>
+        <note>Line: 123</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/form/CustomerLoginForm.php" source-language="en" target-language="hu" datatype="plaintext">
@@ -134,6 +148,11 @@
   </file>
   <file original="classes/stock/SupplyOrderDetail.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
+      <trans-unit id="1f597c6798d6a39dd2bde999d547331a" approved="yes">
+        <source>%s is required.</source>
+        <target state="final">%s szükséges.</target>
+        <note>Line: 300</note>
+      </trans-unit>
       <trans-unit id="8ae0cb74f9724518e1ce68c503377002" approved="yes">
         <source>is invalid.</source>
         <target state="final">érvénytelen.</target>
@@ -186,6 +205,11 @@
         <target state="final">Nincs ilyen kupon.</target>
         <note>Line: 272</note>
       </trans-unit>
+      <trans-unit id="8b84452c494aa9106d26b20c9df0e431" approved="yes">
+        <source>You must add %quantity% minimum quantity</source>
+        <target state="final">Legalább %quantity% darabot kell ebből rendelned</target>
+        <note>Line: 519</note>
+      </trans-unit>
       <trans-unit id="9730e222894d4568ed4cd2de30cb233a" approved="yes">
         <source>Null quantity.</source>
         <target state="final">Null mennyiség</target>
@@ -196,6 +220,21 @@
         <target state="final">Termék nem található</target>
         <note>Line: 386</note>
       </trans-unit>
+      <trans-unit id="cb0b5b032f2426b3fe341460320b5a8e" approved="yes">
+        <source>This product (%product%) is no longer available.</source>
+        <target state="final">Ez a termék (%product%) már nem elérhető.</target>
+        <note>Line: 655</note>
+      </trans-unit>
+      <trans-unit id="9a7c79186c1ff1cd48b31ed6caf6ff48" approved="yes">
+        <source>The item %product% in your cart is no longer available in this quantity. You cannot proceed with your order until the quantity is adjusted.</source>
+        <target state="final">A kosárban lévő termék (%product%) már nem érhető el a megadott mennyiségben. Nem folytathatod a megrendelést, amíg nem módosítod a mennyiséget.</target>
+        <note>Line: 648</note>
+      </trans-unit>
+      <trans-unit id="feb34b89eb5bf8066025f508b9b86ab2" approved="yes">
+        <source>The minimum purchase order quantity for the product %product% is %quantity%.</source>
+        <target state="final">A minimális rendelési mennyiség a termékből (%product%): %quantity%.</target>
+        <note>Line: 672</note>
+      </trans-unit>
       <trans-unit id="84a7c3aeebf09d169aca8555be640bbf" approved="yes">
         <source>Please fill in all of the required fields, and then save your customizations.</source>
         <target state="final">Kérjük töltsd ki az összes kötelező mezőt és mentsd a módosításokat.</target>
@@ -205,6 +244,16 @@
         <source>You already have the maximum quantity available for this product.</source>
         <target state="final">A megrendelésedben már a maximum rendelhető mennyiség van.</target>
         <note>Line: 525</note>
+      </trans-unit>
+      <trans-unit id="826a646b380b3eecb77bc4cec1b8fb9c" approved="yes">
+        <source>The product is no longer available in this quantity.</source>
+        <target state="final">A termék már nem elérhető a megadott mennyiségben.</target>
+        <note>Line: 532</note>
+      </trans-unit>
+      <trans-unit id="9fa9fed2500d3834c9ab9ed7509eabd2" approved="yes">
+        <source>The item %product% in your cart is now a product with attributes. Please delete it and choose one of its combinations to proceed with your order.</source>
+        <target state="final">A kosárban lévő termék (%product%) már jellemzőkkel ellátott termék. Kérlek töröld a kosárból, majd válaszd valamelyik a kombinációt, hogy a rendelésedet folytatni tudd.</target>
+        <note>Line: 633</note>
       </trans-unit>
     </body>
   </file>
@@ -535,7 +584,11 @@ File: modules/trackingfront/trackingfront.php:99</note>
   </file>
   <file original="themes/classic/templates/checkout/_partials/steps/addresses.tpl" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
+      <trans-unit id="ea34b5c6cf6511c7c9e23cf7bf5d6792" approved="yes">
+        <source>Your address is incomplete, please update it.</source>
+        <target state="final">A cím hiányos, kiegészítése szükséges.</target>
+        <note>Line: 116</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
