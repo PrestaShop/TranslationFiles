@@ -100,7 +100,7 @@
       <trans-unit id="ef553500695e07c58644bbdd166581be" approved="yes">
         <source>This is not a valid IP address:</source>
         <target state="final">هذا ليس عنوان IP صالح:</target>
-        <note>Line: 192</note>
+        <note>Line: 204</note>
       </trans-unit>
     </body>
   </file>
@@ -118,7 +118,7 @@
       <trans-unit id="510f6a8fda6eb21f9ff01954e034a29a" approved="yes">
         <source>For security reasons, you cannot delete default order statuses.</source>
         <target state="final">لأسباب أمنية ، لا يمكنك حذف أوضاع النظام الافتراضي.</target>
-        <note>Line: 635</note>
+        <note>Line: 671</note>
       </trans-unit>
     </body>
   </file>
@@ -150,17 +150,27 @@
       </trans-unit>
     </body>
   </file>
+  <file original="src/Adapter/Meta/ShopUrlDataConfiguration.php" source-language="en" target-language="ar" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Configure/ShopParameters/OrderStateController.php" source-language="en" target-language="ar" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Email/EmailConfigurationFormDataProvider.php" source-language="en" target-language="ar" datatype="plaintext">
     <body>
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/OrderPreferencesFormDataProvider.php" source-language="en" target-language="ar" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/OrderPreferencesGeneralFormDataProvider.php" source-language="en" target-language="ar" datatype="plaintext">
     <body>
       <trans-unit id="85a1ca0031f114f8409d15c6790856f5" approved="yes">
         <source>Assign a valid page if you want it to be read.</source>
         <target state="final">تعيين صفحة صالحة إذا كنت تريد أن تكون قراءتها.</target>
-        <note>Line: 140</note>
+        <note>Line: 118</note>
       </trans-unit>
     </body>
   </file>
@@ -171,15 +181,16 @@
         <target state="final">يجب أن يكون ملف robots.txt الخاص بك موجودًا في الدليل الجذر لموقعك الإلكتروني وليس في أي مكان آخر. (على سبيل المثال: http://www.example.com/robots.txt).</target>
         <note>Line: 40</note>
       </trans-unit>
+      <trans-unit id="73ca86c0d6a5d58e868c54c3a1524c6c" approved="yes">
+        <source>Before you can use this tool, you need to:</source>
+        <target state="final">قبل أن تتمكن من استخدام هذه الأداة ، تحتاج إلى</target>
+        <note>Line: 46</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/TrafficSeo/Meta/Blocks/set_up_urls_configuration.html.twig" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      <trans-unit id="73ca86c0d6a5d58e868c54c3a1524c6c" approved="yes">
-        <source>Before you can use this tool, you need to:</source>
-        <target state="final">قبل أن تتمكن من استخدام هذه الأداة ، تحتاج إلى</target>
-        <note>Line: 42</note>
-      </trans-unit>
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/TrafficSeo/Meta/Blocks/shop_urls_configuration.html.twig" source-language="en" target-language="ar" datatype="plaintext">
@@ -187,7 +198,7 @@
       <trans-unit id="117fb47c0109ce0c9415a7f60f084c39" approved="yes">
         <source>The multistore option is enabled. If you want to change the URL of your shop, you must go to the "Multistore" page under the "Advanced Parameters" menu.</source>
         <target state="final">خيار المتاجر المتعددة (multistore) مفعل. إذا كنت تريد تغيير عنوان URL الخاص بمتجرك، فيجب الانتقال إلى صفحة "Multistore" تحت القائمة "بارامترات متقدمة".</target>
-        <note>Line: 44</note>
+        <note>Line: 43</note>
       </trans-unit>
     </body>
   </file>
@@ -196,12 +207,12 @@
       <trans-unit id="488acc51322abb701f50f1e753f7c19e" approved="yes">
         <source>This section enables you to change the default pattern of your links. In order to use this functionality, PrestaShop's "Friendly URL" option must be enabled, and Apache's URL rewriting module (mod_rewrite) must be activated on your web server.</source>
         <target state="final">يتيح لك هذا القسم تغيير النمط الافتراضي لروابطك. لاستخدام هذه الوظيفة، يجب تفعيل خيار "Friendly URL" الخاص بـ PrestaShop، ويجب تفعيل وحدة إعادة كتابة عنوان URL لـ Apache (mod_rewrite) على سيرفر الويب الخاص بك.</target>
-        <note>Line: 42</note>
+        <note>Line: 40</note>
       </trans-unit>
       <trans-unit id="e3fc732382d81895d218614e841ea222" approved="yes">
         <source>To add a keyword in your URL, use the {keyword} syntax. If the keyword is not empty, you can add text before or after the keyword with syntax {prepend:keyword:append}. For example {-hey-:meta_title} will add "-hey-my-title" in the URL if the meta title is set.</source>
         <target state="final">لإضافة كلمة مفتاحية في عنوان URL الخاص بك، استخدم بناء الجملة {keyword}. إذا كانت الكلمة المفتاحية غير فارغة، فيمكنك إضافة نص قبل الكلمة المفتاحية أو بعدها بصيغة {prepend:keyword:append}. على سبيل المثال، {-hey-:meta_title} سيضيف "-hey-my-title" في عنوان URL إذا تم تعيين العنوان التعريفي.</target>
-        <note>Line: 44</note>
+        <note>Line: 40</note>
       </trans-unit>
     </body>
   </file>

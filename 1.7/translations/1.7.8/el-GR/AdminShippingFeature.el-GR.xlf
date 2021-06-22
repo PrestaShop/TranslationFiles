@@ -116,35 +116,21 @@
       </trans-unit>
     </body>
   </file>
-  <file original="admin-dev/themes/default/template/controllers/orders/_shipping.tpl" source-language="en" target-language="el" datatype="plaintext">
+  <file original="admin-dev/themes/default/template/controllers/carriers/helpers/list/list_header.tpl" source-language="en" target-language="el" datatype="plaintext">
     <body>
-      <trans-unit id="552a0d8c17d95d5dbdc0c28217024f5a" approved="yes">
-        <source>Shipping cost</source>
-        <target state="final">Έξοδα αποστολής</target>
-        <note>Line: 42</note>
+      <trans-unit id="c26732c157d7b353c1be9f7ba8962e57" approved="yes">
+        <source>Add new carrier</source>
+        <target state="final">Προσθήκη νέου μεταφορέα</target>
+        <note>Line: 32</note>
       </trans-unit>
     </body>
   </file>
-  <file original="admin-dev/themes/default/template/controllers/orders/form.tpl" source-language="en" target-language="el" datatype="plaintext">
+  <file original="admin-dev/themes/default/template/controllers/carts/helpers/view/view.tpl" source-language="en" target-language="el" datatype="plaintext">
     <body>
       <trans-unit id="29aa46cc3d2677c7e0f216910df600ff" approved="yes">
         <source>Free shipping</source>
         <target state="final">Δωρεάν αποστολή</target>
-        <note>Line: 1444</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl" source-language="en" target-language="el" datatype="plaintext">
-    <body>
-      <trans-unit id="914419aa32f04011357d3b604a86d7eb" approved="yes">
-        <source>Carrier</source>
-        <target state="final">Μεταφορέας</target>
-        <note>Line: 338</note>
-      </trans-unit>
-      <trans-unit id="5068c162a60b5859f973f701333f45c5" approved="yes">
-        <source>Tracking number</source>
-        <target state="final">Κωδ Ανίχνευσης</target>
-        <note>Line: 339</note>
+        <note>Line: 212</note>
       </trans-unit>
     </body>
   </file>
@@ -238,20 +224,10 @@
   </file>
   <file original="controllers/admin/AdminCarriersController.php" source-language="en" target-language="el" datatype="plaintext">
     <body>
-      <trans-unit id="8f497c1a3d15af9e0c215019f26b887d" approved="yes">
-        <source>Delay</source>
-        <target state="final">Καθυστέρυση</target>
-        <note>Line: 84</note>
-      </trans-unit>
       <trans-unit id="b00b85425e74ed2c85dc3119b78ff2c3" approved="yes">
         <source>Free Shipping</source>
         <target state="final">Δωρεάν αποστολή</target>
         <note>Line: 96</note>
-      </trans-unit>
-      <trans-unit id="c26732c157d7b353c1be9f7ba8962e57" approved="yes">
-        <source>Add new carrier</source>
-        <target state="final">Προσθήκη νέου μεταφορέα</target>
-        <note>Line: 128</note>
       </trans-unit>
       <trans-unit id="1c0e287237d8c352c6ead633b019c047" approved="yes">
         <source>Apply shipping cost</source>
@@ -301,7 +277,7 @@
       <trans-unit id="4e140ba723a03baa6948340bf90e2ef6" approved="yes">
         <source>Name:</source>
         <target state="final">Όνομα:</target>
-        <note>Line: 707</note>
+        <note>Line: 713</note>
       </trans-unit>
       <trans-unit id="dde695268ea519ababd83f0ca3d274fc" approved="yes">
         <source>Transit time</source>
@@ -330,36 +306,67 @@
       </trans-unit>
     </body>
   </file>
+  <file original="src/Core/Grid/Definition/Factory/CarrierGridDefinitionFactory.php" source-language="en" target-language="el" datatype="plaintext">
+    <body>
+      <trans-unit id="8f497c1a3d15af9e0c215019f26b887d" approved="yes">
+        <source>Delay</source>
+        <target state="final">Καθυστέρυση</target>
+        <note>Line: 112</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Improve/Shipping/Preferences/CarrierOptionsType.php" source-language="en" target-language="el" datatype="plaintext">
+    <body>
+      <trans-unit id="bff13ed1cd5b83b03f024f1eb6524337" approved="yes">
+        <source>Default carrier</source>
+        <target state="final">Προεπιλεγμένος μεταφορέας</target>
+        <note>Line: 84</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Improve/Shipping/Preferences/HandlingType.php" source-language="en" target-language="el" datatype="plaintext">
+    <body>
+      <trans-unit id="1d8ca7f442e6d4ad3da5cb61b84284fc" approved="yes">
+        <source>Handling charges</source>
+        <target state="final">Διεκπεραίωσης</target>
+        <note>Line: 81</note>
+      </trans-unit>
+      <trans-unit id="c9722f74f95451816de0f8ca3259ae44" approved="yes">
+        <source>Free shipping starts at</source>
+        <target state="final">Δωρεάν αποστολή ξεκινά στις</target>
+        <note>Line: 103</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Shipping/Carriers/Blocks/showcase_card.html.twig" source-language="en" target-language="el" datatype="plaintext">
+    <body>
+      <trans-unit id="301cf62d4bf632f3eb6395ec2cb25f78" approved="yes">
+        <source>Manage your carriers</source>
+        <target state="final">Διαχείριση μεταφορέων</target>
+        <note>Line: 34</note>
+      </trans-unit>
+      <trans-unit id="47727de83838bb7df93877b04b5efdf7" approved="yes">
+        <source>Create carriers to let your customers choose their best shipping option in terms of delivery dates or fees. Start with editing/deleting the default "My carrier", and add as many options as you need.</source>
+        <target state="final">Δημιουργείστε μεταφορείς για να δώσετε την ευκαιρία στους πελάτες σας να επιλέξουν την καλύτερη επιλογή αποστολής για τον χρόνο ή το κόστος. Ξεκινήστε διορθώνοντας ή διαγράφοντας τον προεπιλεγμένο "Ο μεταφορέας μου", και προσθέστε όσες επιλογές θέλετε.</target>
+        <note>Line: 35</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Shipping/Preferences/Blocks/shipping_preferences_carrier_options.html.twig" source-language="en" target-language="el" datatype="plaintext">
     <body>
       <trans-unit id="8430a7b1b81635e3df949c2845303303" approved="yes">
         <source>Carrier options</source>
         <target state="final">Επιλογές μεταφορέα</target>
-        <note>Line: 32</note>
-      </trans-unit>
-      <trans-unit id="bff13ed1cd5b83b03f024f1eb6524337" approved="yes">
-        <source>Default carrier</source>
-        <target state="final">Προεπιλεγμένος μεταφορέας</target>
-        <note>Line: 37</note>
+        <note>Line: 34</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Shipping/Preferences/Blocks/shipping_preferences_handling.html.twig" source-language="en" target-language="el" datatype="plaintext">
     <body>
-      <trans-unit id="1d8ca7f442e6d4ad3da5cb61b84284fc" approved="yes">
-        <source>Handling charges</source>
-        <target state="final">Διεκπεραίωσης</target>
-        <note>Line: 52</note>
-      </trans-unit>
-      <trans-unit id="c9722f74f95451816de0f8ca3259ae44" approved="yes">
-        <source>Free shipping starts at</source>
-        <target state="final">Δωρεάν αποστολή ξεκινά στις</target>
-        <note>Line: 68</note>
-      </trans-unit>
       <trans-unit id="2605fbb693837be42d0cd0e701cb5aa3" approved="yes">
         <source>Handling</source>
         <target state="final">Χειρισμός</target>
-        <note>Line: 32</note>
+        <note>Line: 34</note>
       </trans-unit>
     </body>
   </file>
@@ -369,6 +376,29 @@
         <source>Carriers</source>
         <target state="final">Μεταφορείς</target>
         <note>Line: 35</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/shipping.html.twig" source-language="en" target-language="el" datatype="plaintext">
+    <body>
+      <trans-unit id="552a0d8c17d95d5dbdc0c28217024f5a" approved="yes">
+        <source>Shipping cost</source>
+        <target state="final">Έξοδα αποστολής</target>
+        <note>Line: 46</note>
+      </trans-unit>
+      <trans-unit id="914419aa32f04011357d3b604a86d7eb" approved="yes">
+        <source>Carrier</source>
+        <target state="final">Μεταφορέας</target>
+        <note>Line: 44</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/preview.html.twig" source-language="en" target-language="el" datatype="plaintext">
+    <body>
+      <trans-unit id="5068c162a60b5859f973f701333f45c5" approved="yes">
+        <source>Tracking number</source>
+        <target state="final">Κωδ Ανίχνευσης</target>
+        <note>Line: 48</note>
       </trans-unit>
     </body>
   </file>

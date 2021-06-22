@@ -31,6 +31,11 @@
         <target state="final">נתוני קבוצה</target>
         <note>Line: 32</note>
       </trans-unit>
+      <trans-unit id="02d29656d8379684796b01abfd2a9a13" approved="yes">
+        <source>Show prices:</source>
+        <target state="final">הצג מחירים:</target>
+        <note>Line: 48</note>
+      </trans-unit>
       <trans-unit id="4845f30b0c12e9dd97246f5f443338ad" approved="yes">
         <source>Current category discount</source>
         <target state="final">הנחה לקטגוריה נוכחית</target>
@@ -55,15 +60,6 @@
         <source>Discount: %.2f%%</source>
         <target state="final">הנחה: %.2f%%</target>
         <note>Line: 71</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="admin-dev/themes/default/template/controllers/orders/form.tpl" source-language="en" target-language="he" datatype="plaintext">
-    <body>
-      <trans-unit id="57297718fdb439175177cf6b196172d1" approved="yes">
-        <source>Order status</source>
-        <target state="final">'מצב טיפול בהזמנה'</target>
-        <note>Line: 1576</note>
       </trans-unit>
     </body>
   </file>
@@ -133,10 +129,33 @@ Comment: PS_LABEL_IN_STOCK_PRODUCTS on configuration_lang table</note>
         <note>Line: 68
 Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       </trans-unit>
+      <trans-unit id="d1d2f5672327bcdef75062dc70e875df" approved="yes">
+        <source>#IN</source>
+        <target state="final">#IN</target>
+        <note>Line: 41
+Comment: PS_INVOICE_PREFIX on configuration_lang table</note>
+      </trans-unit>
+      <trans-unit id="b13c095eb3e41264a7b64504fa8348be" approved="yes">
+        <source>#DE</source>
+        <target state="final">#DE</target>
+        <note>Line: 44
+Comment: PS_DELIVERY_PREFIX on configuration_lang table</note>
+      </trans-unit>
+      <trans-unit id="a02341e3f02309e6a6c6832870a7e803" approved="yes">
+        <source>#RE</source>
+        <target state="final">#RE</target>
+        <note>Line: 47
+Comment: PS_RETURN_PREFIX on configuration_lang table</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/lang/KeysReference/ContactLang.php" source-language="en" target-language="he" datatype="plaintext">
     <body>
+      <trans-unit id="4b220f866824d97c12e2eb9b44e3b5e6" approved="yes">
+        <source>Webmaster</source>
+        <target state="final">מנהל אתר</target>
+        <note>Line: 26</note>
+      </trans-unit>
       <trans-unit id="2273d1167a6212812d95dc8fadbae78e" approved="yes">
         <source>Customer service</source>
         <target state="final">שירות לקוחות</target>
@@ -561,6 +580,26 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
         <target state="final">תוצאה</target>
         <note>Line: 434</note>
       </trans-unit>
+      <trans-unit id="b0d4e69d1ce1d2db2c060d311a4e2144" approved="yes">
+        <source>Fuzzy search</source>
+        <target state="final">חיפוש גמיש</target>
+        <note>Line: 191</note>
+      </trans-unit>
+      <trans-unit id="91ef1a24c02b7efb35b5ff3c79230d5c" approved="yes">
+        <source>Maximum word length (in characters)</source>
+        <target state="final">אורך מילים מרבי (בתווים)</target>
+        <note>Line: 230</note>
+      </trans-unit>
+      <trans-unit id="dc759a9deb56cc5ad4974559da2a148f" approved="yes">
+        <source>Maximum approximate words allowed by fuzzy search</source>
+        <target state="final">מילים משוערות מקסימליות המותרות בחיפוש מטושטש</target>
+        <note>Line: 215</note>
+      </trans-unit>
+      <trans-unit id="80a087b1e6a8c144b2f7acb705bde01c" approved="yes">
+        <source>If your server stops before the process ends, you can resume the indexing by clicking "%add_missing_products_label%".</source>
+        <target state="final">אם השרת שלך נעצר לפני שהתהליך מסתיים, תוכל לחדש את האינדקס על ידי לחיצה על "%add_missing_products_label%".</target>
+        <note>Line: 96</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminSearchEnginesController.php" source-language="en" target-language="he" datatype="plaintext">
@@ -602,7 +641,7 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       <trans-unit id="4493e821e06072415518bd7ae4077996" approved="yes">
         <source>Shop group</source>
         <target state="final">קבוצת החנות</target>
-        <note>Line: 431</note>
+        <note>Line: 441</note>
       </trans-unit>
       <trans-unit id="09059cedfd08d6e8a12417b285a79ffd" approved="yes">
         <source>Root category</source>
@@ -631,102 +670,32 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       </trans-unit>
     </body>
   </file>
+  <file original="controllers/admin/AdminShopGroupController.php" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
   <file original="controllers/admin/AdminStatusesController.php" source-language="en" target-language="he" datatype="plaintext">
     <body>
       <trans-unit id="817434295a673aed431435658b65d9a7" approved="yes">
         <source>Icon</source>
         <target state="final">אייקון</target>
-        <note>Line: 287</note>
-      </trans-unit>
-      <trans-unit id="c9f59be398981c130408612e51464e14" approved="yes">
-        <source>Send email to customer</source>
-        <target state="final">שלח דואל ללקוח</target>
-        <note>Line: 89</note>
-      </trans-unit>
-      <trans-unit id="13a44cb3c08c1c40a3c5b62152538ee8" approved="yes">
-        <source>Email template</source>
-        <target state="final">תבנית דואל</target>
-        <note>Line: 116</note>
-      </trans-unit>
-      <trans-unit id="60fd39d495f2a8d0674c236c004e8f21" approved="yes">
-        <source>Add new order status</source>
-        <target state="final">הוסף 'מצב טיפול בהזמנה' חדש</target>
-        <note>Line: 194</note>
-      </trans-unit>
-      <trans-unit id="f08b529034b579d49fa94abec7f93af0" approved="yes">
-        <source>Add new order return status</source>
-        <target state="final">הוסף 'מצב טיפול בהחזר' חדש</target>
-        <note>Line: 199</note>
-      </trans-unit>
-      <trans-unit id="34499467057e6ded44fd7861eee1893b" approved="yes">
-        <source>Return statuses</source>
-        <target state="final">סטטוסי החזרות</target>
-        <note>Line: 235</note>
-      </trans-unit>
-      <trans-unit id="69a31da4cb502aa192d07ae4a8f48613" approved="yes">
-        <source>Status name</source>
-        <target state="final">שם סטטוס</target>
-        <note>Line: 478</note>
-      </trans-unit>
-      <trans-unit id="cb5feb1b7314637725a2e73bdc9f7295" approved="yes">
-        <source>Color</source>
-        <target state="final">צבע</target>
-        <note>Line: 489</note>
-      </trans-unit>
-      <trans-unit id="192b587e5fc71cd5f25a6089c03bff87" approved="yes">
-        <source>Consider the associated order as validated.</source>
-        <target state="final">התייחס להזמנה כמאושרת.</target>
-        <note>Line: 302</note>
-      </trans-unit>
-      <trans-unit id="6d6c83be0e74d3b3d041cd61fa607ede" approved="yes">
-        <source>Allow a customer to download and view PDF versions of his/her invoices.</source>
-        <target state="final">אפשר ללקוח להוריד ולצפות בגרסת PDF של החשבונית.</target>
-        <note>Line: 313</note>
-      </trans-unit>
-      <trans-unit id="9529bbf156fbe6c23b5fbd8b32900f68" approved="yes">
-        <source>Hide this status in all customer orders.</source>
-        <target state="final">הסתר 'מצב טיפול בהזמנה' זה מכל הלקוחות.</target>
-        <note>Line: 324</note>
-      </trans-unit>
-      <trans-unit id="a8f92721e361eceb4489636d29f56c21" approved="yes">
-        <source>Send an email to the customer when his/her order status has changed.</source>
-        <target state="final">שלח מייל ללקוח כאשר 'מצב טיפול בהזמנה' משתנה.</target>
-        <note>Line: 335</note>
-      </trans-unit>
-      <trans-unit id="05ffab376e5c4a64caa28a1c4bd9fc0d" approved="yes">
-        <source>Attach invoice PDF to email.</source>
-        <target state="final">צרף PDF של חשבונית לאימייל.</target>
-        <note>Line: 346</note>
-      </trans-unit>
-      <trans-unit id="53343ccca7ba90caa497d4c4b40f3ec7" approved="yes">
-        <source>Attach delivery slip PDF to email.</source>
-        <target state="final">צרף תעודת משלוח PDF לאימייל.</target>
-        <note>Line: 357</note>
-      </trans-unit>
-      <trans-unit id="5fe3d2e4d87dccabf5c9c1d81baf995c" approved="yes">
-        <source>Set the order as shipped.</source>
-        <target state="final">הגדר 'מצב טיפול בהזמנה' כ 'נשלחה ללקוח'.</target>
-        <note>Line: 368</note>
-      </trans-unit>
-      <trans-unit id="67a8390e9643cecbac9d149da4242bf5" approved="yes">
-        <source>Set the order as paid.</source>
-        <target state="final">הגדר 'מצב טיפול בהזמנה' כ 'התקבל תשלום'.</target>
-        <note>Line: 379</note>
+        <note>Line: 303</note>
       </trans-unit>
       <trans-unit id="a886c3a69907e954c771aae074f24040" approved="yes">
         <source>Show delivery PDF.</source>
         <target state="final">הצג טופס משלוח ב- PDF.</target>
-        <note>Line: 390</note>
+        <note>Line: 406</note>
       </trans-unit>
       <trans-unit id="278c491bdd8a53618c149c4ac790da34" approved="yes">
         <source>Template</source>
         <target state="final">תבנית</target>
-        <note>Line: 398</note>
+        <note>Line: 414</note>
       </trans-unit>
       <trans-unit id="dc4e76994fd27117c21f83d09faa0649" approved="yes">
         <source>Return status</source>
         <target state="final">סטאטוס החזרות</target>
-        <note>Line: 472</note>
+        <note>Line: 488</note>
       </trans-unit>
     </body>
   </file>
@@ -870,6 +839,11 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
         <target state="final">לא ידוע</target>
         <note>Line: 474</note>
       </trans-unit>
+      <trans-unit id="ec0fc0100c4fc1ce4eea230c3dc10360" approved="yes">
+        <source>Undefined</source>
+        <target state="final">לא מוגדר</target>
+        <note>Line: 529</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/statslive/statslive.php" source-language="en" target-language="he" datatype="plaintext">
@@ -878,11 +852,6 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
         <source>There are no visitors online.</source>
         <target state="final">אין מבקרים מחוברים.</target>
         <note>Line: 216</note>
-      </trans-unit>
-      <trans-unit id="ec0fc0100c4fc1ce4eea230c3dc10360" approved="yes">
-        <source>Undefined</source>
-        <target state="final">לא מוגדר</target>
-        <note>Line: 207</note>
       </trans-unit>
     </body>
   </file>
@@ -902,6 +871,15 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
         <source>301 Moved Permanently (recommended once you have gone live)</source>
         <target state="final">שגיאה 301 - דף זה הועבר באופן קבוע (מומלץ כאשר האתר באויר)</target>
         <note>Line: 71</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/Core/Grid/Definition/Factory/OrderStatesGridDefinitionFactory.php" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      <trans-unit id="c9f59be398981c130408612e51464e14" approved="yes">
+        <source>Send email to customer</source>
+        <target state="final">שלח דואל ללקוח</target>
+        <note>Line: 91</note>
       </trans-unit>
     </body>
   </file>
@@ -937,7 +915,16 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       <trans-unit id="e1622ba9f41f5b695bddc69e3ceaa204" approved="yes">
         <source>Add a new page</source>
         <target state="final">הוסף דף חדש</target>
-        <note>Line: 99</note>
+        <note>Line: 434</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/Contact/ContactType.php" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      <trans-unit id="a4cd3191fdeea29906a113c78d4c0e26" approved="yes">
+        <source>Save messages?</source>
+        <target state="final">שמור הודעות?</target>
+        <note>Line: 126</note>
       </trans-unit>
     </body>
   </file>
@@ -946,7 +933,36 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       <trans-unit id="640fd0cc0ffa0316ae087652871f4486" approved="yes">
         <source>minutes</source>
         <target state="final">דקות</target>
-        <note>Line: 47</note>
+        <note>Line: 89</note>
+      </trans-unit>
+      <trans-unit id="9ca2e29ab10b2046b32dea40f4e5c232" approved="yes">
+        <source>Password reset delay</source>
+        <target state="final">המתנה בין איפוס סיסמאות</target>
+        <note>Line: 68</note>
+      </trans-unit>
+      <trans-unit id="a7ddcecde44eba59d425762fcdeec665" approved="yes">
+        <source>Re-display cart at login</source>
+        <target state="final">בכניסה למערכת, הצג שוב את עגלת הקניות</target>
+        <note>Line: 48</note>
+      </trans-unit>
+      <trans-unit id="fcae2ef516600f29ac9aa4b084981328" approved="yes">
+        <source>Send an email after registration</source>
+        <target state="final">שלח מייל אישור לאחר רישום</target>
+        <note>Line: 58</note>
+      </trans-unit>
+      <trans-unit id="c760118c537146713521758269a44bd3" approved="yes">
+        <source>Enable B2B mode</source>
+        <target state="final">אפשר תצורת B2B (עסק לעסק)</target>
+        <note>Line: 93</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/MaintenanceType.php" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      <trans-unit id="daf835712085aaaf81818e7ebfeb66b8" approved="yes">
+        <source>Maintenance IP</source>
+        <target state="final">IP עבור תחזוקה</target>
+        <note>Line: 97</note>
       </trans-unit>
     </body>
   </file>
@@ -955,47 +971,97 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       <trans-unit id="843fbaec27e324378999e09cc665a7f4" approved="yes">
         <source>Round up away from zero, when it is half way there (recommended)</source>
         <target state="final">עגל למעלה מן אפס, כאשר הסכום בחצי דרך לשם (מומלץ)</target>
-        <note>Line: 108</note>
+        <note>Line: 150</note>
       </trans-unit>
       <trans-unit id="9d70eb834e3574ca07a1f28083ecba1e" approved="yes">
         <source>Round down towards zero, when it is half way there</source>
         <target state="final">עגול כלפי מטה לכיוון אפס, כאשר הסכום בחצי הדרך לשם</target>
-        <note>Line: 109</note>
+        <note>Line: 151</note>
       </trans-unit>
       <trans-unit id="5f9d1d092dc5658734b8af7187460b32" approved="yes">
         <source>Round towards the next even value</source>
         <target state="final">עגל כלפי הערך הזוגי הבא</target>
-        <note>Line: 110</note>
+        <note>Line: 152</note>
       </trans-unit>
       <trans-unit id="8700a0015f3fc1c5d96ccc5140475dc3" approved="yes">
         <source>Round towards the next odd value</source>
         <target state="final">עגול כלפי הערך האי-זוגי הבא</target>
-        <note>Line: 111</note>
+        <note>Line: 153</note>
       </trans-unit>
       <trans-unit id="6186ae4fe9ec55025a9777dd973e0af2" approved="yes">
         <source>Round up to the nearest value</source>
         <target state="final">עגל למעלה עד לערך הקרוב ביותר</target>
-        <note>Line: 112</note>
+        <note>Line: 154</note>
       </trans-unit>
       <trans-unit id="35853630b5da054ef55e8e02d8df4954" approved="yes">
         <source>Round down to the nearest value</source>
         <target state="final">עגל למטה לערך הקרוב ביותר</target>
-        <note>Line: 113</note>
+        <note>Line: 155</note>
       </trans-unit>
       <trans-unit id="41032c67b9a3d88ff9a824a1f0845513" approved="yes">
         <source>Round on each item</source>
         <target state="final">עגל סכום עבור כל מוצר</target>
-        <note>Line: 119</note>
+        <note>Line: 167</note>
       </trans-unit>
       <trans-unit id="a899eacfb98f1740127be5fe16bee5c7" approved="yes">
         <source>Round on each line</source>
         <target state="final">עגל סכום עבור כל שורה</target>
-        <note>Line: 120</note>
+        <note>Line: 168</note>
       </trans-unit>
       <trans-unit id="6d19eb8a9ca35d858824737173ebd011" approved="yes">
         <source>Round on the total</source>
         <target state="final">עגל את הסכום הכולל</target>
-        <note>Line: 121</note>
+        <note>Line: 169</note>
+      </trans-unit>
+      <trans-unit id="73369322b5e1145bb2fc2268ce4d31f0" approved="yes">
+        <source>Enable SSL on all pages</source>
+        <target state="final">אפשר הצפנת SSL בכל העמודים</target>
+        <note>Line: 106</note>
+      </trans-unit>
+      <trans-unit id="913d66c5648cf0317ed371371fe44534" approved="yes">
+        <source>Allow iframes on HTML fields</source>
+        <target state="final">אפשר iFrames בשדות HTML</target>
+        <note>Line: 127</note>
+      </trans-unit>
+      <trans-unit id="06918a784fb394b84de012810120b75c" approved="yes">
+        <source>Use HTMLPurifier Library</source>
+        <target state="final">השתמש בספריית HTMLPurifier</target>
+        <note>Line: 137</note>
+      </trans-unit>
+      <trans-unit id="ac2021d3c67ee796d7ab20a466ebd583" approved="yes">
+        <source>Round mode</source>
+        <target state="final">עיגול תשלום</target>
+        <note>Line: 157</note>
+      </trans-unit>
+      <trans-unit id="019e96f05f09a70e37792a04e9e78cdc" approved="yes">
+        <source>Round type</source>
+        <target state="final">אופן עיגול סכום לתשלום</target>
+        <note>Line: 171</note>
+      </trans-unit>
+      <trans-unit id="922256753aa354c111471e85d4809ec5" approved="yes">
+        <source>Display best sellers</source>
+        <target state="final">הצג את המוצרים הנמכרים ביותר</target>
+        <note>Line: 195</note>
+      </trans-unit>
+      <trans-unit id="43b266c605d67eaa27801cc5dc0b3995" approved="yes">
+        <source>Enable Multistore</source>
+        <target state="final">אפשר ריבוי חנויות</target>
+        <note>Line: 203</note>
+      </trans-unit>
+      <trans-unit id="8d9da6f9870d593e6921d3b728dc0c6b" approved="yes">
+        <source>Main Shop Activity</source>
+        <target state="final">פעילות עיקרית של החנות</target>
+        <note>Line: 235</note>
+      </trans-unit>
+      <trans-unit id="9fcc7a5ba2d12f5c77290e0bc6457a93" approved="yes">
+        <source>Display suppliers</source>
+        <target state="final">הצג ספקים</target>
+        <note>Line: 179</note>
+      </trans-unit>
+      <trans-unit id="9cc328444bdc1b5f54550d04d57138a9" approved="yes">
+        <source>Display brands</source>
+        <target state="final">הצג מותגים</target>
+        <note>Line: 187</note>
       </trans-unit>
     </body>
   </file>
@@ -1020,6 +1086,16 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
         <source>Terms of service</source>
         <target state="final">תנאי שימוש</target>
         <note>Line: 120</note>
+      </trans-unit>
+      <trans-unit id="9bf6ad8b3a08781c7f86684e464e75de" approved="yes">
+        <source>Disable reordering option</source>
+        <target state="final">השבת אפשרות לסידור מחדש</target>
+        <note>Line: 88</note>
+      </trans-unit>
+      <trans-unit id="010193873d7a198ce7004342b145dbc9" approved="yes">
+        <source>Page for terms and conditions</source>
+        <target state="final">עמוד לתנאים והגבלות</target>
+        <note>Line: 125</note>
       </trans-unit>
     </body>
   </file>
@@ -1047,12 +1123,56 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/OrderPreferencesFormDataProvider.php" source-language="en" target-language="he" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/OrderPreferencesGeneralFormDataProvider.php" source-language="en" target-language="he" datatype="plaintext">
     <body>
       <trans-unit id="c6ca929dc4c8193ad6cd154e9e075ac9" approved="yes">
         <source>Minimum purchase total required in order to validate the order</source>
         <target state="final">נדרש סכום מינימום לאישור הזמנה</target>
-        <note>Line: 126</note>
+        <note>Line: 106</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      <trans-unit id="192b587e5fc71cd5f25a6089c03bff87" approved="yes">
+        <source>Consider the associated order as validated.</source>
+        <target state="final">התייחס להזמנה כמאושרת.</target>
+        <note>Line: 137</note>
+      </trans-unit>
+      <trans-unit id="6d6c83be0e74d3b3d041cd61fa607ede" approved="yes">
+        <source>Allow a customer to download and view PDF versions of his/her invoices.</source>
+        <target state="final">אפשר ללקוח להוריד ולצפות בגרסת PDF של החשבונית.</target>
+        <note>Line: 144</note>
+      </trans-unit>
+      <trans-unit id="9529bbf156fbe6c23b5fbd8b32900f68" approved="yes">
+        <source>Hide this status in all customer orders.</source>
+        <target state="final">הסתר 'מצב טיפול בהזמנה' זה מכל הלקוחות.</target>
+        <note>Line: 151</note>
+      </trans-unit>
+      <trans-unit id="a8f92721e361eceb4489636d29f56c21" approved="yes">
+        <source>Send an email to the customer when his/her order status has changed.</source>
+        <target state="final">שלח מייל ללקוח כאשר 'מצב טיפול בהזמנה' משתנה.</target>
+        <note>Line: 158</note>
+      </trans-unit>
+      <trans-unit id="05ffab376e5c4a64caa28a1c4bd9fc0d" approved="yes">
+        <source>Attach invoice PDF to email.</source>
+        <target state="final">צרף PDF של חשבונית לאימייל.</target>
+        <note>Line: 165</note>
+      </trans-unit>
+      <trans-unit id="53343ccca7ba90caa497d4c4b40f3ec7" approved="yes">
+        <source>Attach delivery slip PDF to email.</source>
+        <target state="final">צרף תעודת משלוח PDF לאימייל.</target>
+        <note>Line: 172</note>
+      </trans-unit>
+      <trans-unit id="5fe3d2e4d87dccabf5c9c1d81baf995c" approved="yes">
+        <source>Set the order as shipped.</source>
+        <target state="final">הגדר 'מצב טיפול בהזמנה' כ 'נשלחה ללקוח'.</target>
+        <note>Line: 179</note>
+      </trans-unit>
+      <trans-unit id="67a8390e9643cecbac9d149da4242bf5" approved="yes">
+        <source>Set the order as paid.</source>
+        <target state="final">הגדר 'מצב טיפול בהזמנה' כ 'התקבל תשלום'.</target>
+        <note>Line: 186</note>
       </trans-unit>
     </body>
   </file>
@@ -1105,9 +1225,10 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       
       
       
+      
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/MetaSettingsFormDataProvider.php" source-language="en" target-language="he" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/MetaSettingsUrlSchemaFormDataProvider.php" source-language="en" target-language="he" datatype="plaintext">
     <body>
       
       
@@ -1120,29 +1241,86 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
         <target state="final">עמודי ברירת מחדל</target>
         <note>Line: 79</note>
       </trans-unit>
+      <trans-unit id="e334486a68366ba780f5140cfe8668ac" approved="yes">
+        <source>Module pages</source>
+        <target state="final">עמודי מודולים</target>
+        <note>Line: 80</note>
+      </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/Blocks/customer_preferences_general.html.twig" source-language="en" target-language="he" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/SEOOptionsType.php" source-language="en" target-language="he" datatype="plaintext">
     <body>
-      <trans-unit id="9ca2e29ab10b2046b32dea40f4e5c232" approved="yes">
-        <source>Password reset delay</source>
-        <target state="final">המתנה בין איפוס סיסמאות</target>
-        <note>Line: 52</note>
+      <trans-unit id="18a405e3df98774d6fe16c522825ca02" approved="yes">
+        <source>Display attributes in the product meta title</source>
+        <target state="final">הצג תכונות בכותרת המטא של המוצר</target>
+        <note>Line: 46</note>
       </trans-unit>
-      <trans-unit id="a7ddcecde44eba59d425762fcdeec665" approved="yes">
-        <source>Re-display cart at login</source>
-        <target state="final">בכניסה למערכת, הצג שוב את עגלת הקניות</target>
-        <note>Line: 38</note>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/SetUpUrlType.php" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      <trans-unit id="a7686ea311b65874a504a343c08a4341" approved="yes">
+        <source>Accented URL</source>
+        <target state="final">כתובת URL מעוברתת</target>
+        <note>Line: 117</note>
       </trans-unit>
-      <trans-unit id="fcae2ef516600f29ac9aa4b084981328" approved="yes">
-        <source>Send an email after registration</source>
-        <target state="final">שלח מייל אישור לאחר רישום</target>
-        <note>Line: 45</note>
+      <trans-unit id="fb64c58d84a997e89be8de9897f36ecc" approved="yes">
+        <source>Redirect to the canonical URL</source>
+        <target state="final">הפנה לכתובת URL הראשית (שמכילה rel="canonical") עבור תוכן זה (כאשר ישנם קישורים שונים המפנים לאותו עמוד תוכן)</target>
+        <note>Line: 129</note>
       </trans-unit>
-      <trans-unit id="c760118c537146713521758269a44bd3" approved="yes">
-        <source>Enable B2B mode</source>
-        <target state="final">אפשר תצורת B2B (עסק לעסק)</target>
-        <note>Line: 59</note>
+      <trans-unit id="38bada4e8300d679ea0c293a8658605a" approved="yes">
+        <source>Disable Apache's MultiViews option</source>
+        <target state="final">השבת את אפשרות MultiViews של האפצ'י</target>
+        <note>Line: 136</note>
+      </trans-unit>
+      <trans-unit id="1260ff0747d4dbe30fcc4d360891205f" approved="yes">
+        <source>Disable Apache's mod_security module</source>
+        <target state="final">בטל מודול אבטחה (mod_security) של Apache</target>
+        <note>Line: 143</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/ShopUrlType.php" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      <trans-unit id="db309cb65c4220d02c0fd13927d315ae" approved="yes">
+        <source>Shop domain</source>
+        <target state="final">שם הדומיין של החנות</target>
+        <note>Line: 87</note>
+      </trans-unit>
+      <trans-unit id="7efeee26d2914e586169f61213741599" approved="yes">
+        <source>SSL domain</source>
+        <target state="final">שם דומיין ה- SSL של החנות</target>
+        <note>Line: 93</note>
+      </trans-unit>
+      <trans-unit id="c274743f6bf3e3682c41e9ee269913f4" approved="yes">
+        <source>Base URI</source>
+        <target state="final">כתובת בסיס URI</target>
+        <note>Line: 99</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/UrlSchemaType.php" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      <trans-unit id="5575f8bf467eba7499f22e78db6f3f56" approved="yes">
+        <source>Route to products</source>
+        <target state="final">נתיב למוצרים</target>
+        <note>Line: 64</note>
+      </trans-unit>
+      <trans-unit id="1092637069f4ebf1bee2b02fd280888b" approved="yes">
+        <source>Route to category</source>
+        <target state="final">נתיב לקטגוריה</target>
+        <note>Line: 71</note>
+      </trans-unit>
+      <trans-unit id="08a551b84112995247355daf3b5d72ba" approved="yes">
+        <source>Route to supplier</source>
+        <target state="final">נתיב לספק</target>
+        <note>Line: 78</note>
+      </trans-unit>
+      <trans-unit id="4b9a9672a96a435f1d15ad934e093104" approved="yes">
+        <source>Route to modules</source>
+        <target state="final">נתיב למודולים</target>
+        <note>Line: 106</note>
       </trans-unit>
     </body>
   </file>
@@ -1151,32 +1329,32 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       <trans-unit id="f870b8a1af52a144a646db03f6f63f7d" approved="yes">
         <source>Show prices</source>
         <target state="final">הצג מחירים</target>
-        <note>Line: 46</note>
+        <note>Line: 47</note>
       </trans-unit>
       <trans-unit id="eb1cef1202fdc4d7954899fbf9f1734b" approved="yes">
         <source>Number of days for which the product is considered 'new'</source>
         <target state="final">מספר הימים שהמוצר נחשב חדש</target>
-        <note>Line: 54</note>
+        <note>Line: 55</note>
       </trans-unit>
       <trans-unit id="7dbe88f99044a2b7e37ae992b8651be4" approved="yes">
         <source>Products (general)</source>
         <target state="final">מוצרים (כללי)</target>
-        <note>Line: 33</note>
+        <note>Line: 34</note>
       </trans-unit>
       <trans-unit id="bb98eaca8d91531f4ae177c9d395f1d4" approved="yes">
         <source>Catalog mode</source>
         <target state="final">מצב קטלוג</target>
-        <note>Line: 38</note>
+        <note>Line: 39</note>
       </trans-unit>
       <trans-unit id="b5069c99813cffc6933c18ab71fd6cd9" approved="yes">
         <source>Quantity discounts based on</source>
         <target state="final">הנחות כמות המבוססות על</target>
-        <note>Line: 69</note>
+        <note>Line: 70</note>
       </trans-unit>
       <trans-unit id="52be3e936f99d9746870ca7d356b3f21" approved="yes">
         <source>Force update of friendly URL</source>
         <target state="final">הכרח עדכון של כתובות אתר ידידותיות</target>
-        <note>Line: 76</note>
+        <note>Line: 77</note>
       </trans-unit>
     </body>
   </file>
@@ -1185,17 +1363,17 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       <trans-unit id="f8f1f78351c2864c334a80b706a303b2" approved="yes">
         <source>Display remaining quantities when the quantity is lower than</source>
         <target state="final">הצג כמויות נותרות כאשר הכמות נמוכה מ</target>
-        <note>Line: 47</note>
+        <note>Line: 48</note>
       </trans-unit>
       <trans-unit id="eb763a2e313718f33f55e1f0d84df6ee" approved="yes">
         <source>Product page</source>
         <target state="final">דף מוצר</target>
-        <note>Line: 33</note>
+        <note>Line: 34</note>
       </trans-unit>
       <trans-unit id="b58704f2e2e18edc7c903342c2a42dfc" approved="yes">
         <source>Display available quantities on the product page</source>
         <target state="final">הצג כמויות זמינות בעמוד המוצר</target>
-        <note>Line: 39</note>
+        <note>Line: 40</note>
       </trans-unit>
       <trans-unit id="a2ab7db4ee7104a693358c0c9d07c6ce" approved="yes">
         <source>Display unavailable product attributes on the product page</source>
@@ -1210,12 +1388,12 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       <trans-unit id="0a91cf360875af4259f26bc7e2971132" approved="yes">
         <source>Separator of attribute anchor on the product links</source>
         <target state="final">תו מפריד למאפיין בלינק המוצר</target>
-        <note>Line: 71</note>
+        <note>Line: 70</note>
       </trans-unit>
       <trans-unit id="f7699b3d1af7fe3cdb3a6ff301940fdf" approved="yes">
         <source>Display discounted price</source>
         <target state="final">הצג מחיר ההנחה</target>
-        <note>Line: 80</note>
+        <note>Line: 79</note>
       </trans-unit>
     </body>
   </file>
@@ -1224,22 +1402,22 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       <trans-unit id="7e1b4ee573c4ef023904fd90eb9ddea7" approved="yes">
         <source>Products per page</source>
         <target state="final">מוצרים לעמוד</target>
-        <note>Line: 38</note>
+        <note>Line: 39</note>
       </trans-unit>
       <trans-unit id="cbb81506a7fe3ef03f7a89c76c52131a" approved="yes">
         <source>Pagination</source>
         <target state="final">חלוקה לעמודים</target>
-        <note>Line: 33</note>
+        <note>Line: 34</note>
       </trans-unit>
       <trans-unit id="e29857ad6c4bbba99614831d7e3e5a3f" approved="yes">
         <source>Default order by</source>
         <target state="final">סידור ברירת המחדל על פי</target>
-        <note>Line: 45</note>
+        <note>Line: 46</note>
       </trans-unit>
       <trans-unit id="114a8ec626471fdc120f863a9fb25e4c" approved="yes">
         <source>Default order method</source>
         <target state="final">מיון ברירת מחדל</target>
-        <note>Line: 52</note>
+        <note>Line: 53</note>
       </trans-unit>
     </body>
   </file>
@@ -1248,17 +1426,17 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       <trans-unit id="ff26a60315cd84533d5339ba26617988" approved="yes">
         <source>Products stock</source>
         <target state="final">מלאי מוצרים</target>
-        <note>Line: 33</note>
+        <note>Line: 34</note>
       </trans-unit>
       <trans-unit id="be6be43cab36ddf8024d237c4a2414f7" approved="yes">
         <source>Allow ordering of out-of-stock products</source>
         <target state="final">אפשר הזמנה של מוצרים שאזלו במלאי</target>
-        <note>Line: 38</note>
+        <note>Line: 39</note>
       </trans-unit>
       <trans-unit id="69983ae81c0090a571d3f60aedbd0d46" approved="yes">
         <source>Enable stock management</source>
         <target state="final">אפשר ניהול מלאי</target>
-        <note>Line: 46</note>
+        <note>Line: 47</note>
       </trans-unit>
     </body>
   </file>
@@ -1268,11 +1446,6 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
         <source>Contacts</source>
         <target state="final">ממשקי יצירת קשר</target>
         <note>Line: 33</note>
-      </trans-unit>
-      <trans-unit id="a4cd3191fdeea29906a113c78d4c0e26" approved="yes">
-        <source>Save messages?</source>
-        <target state="final">שמור הודעות?</target>
-        <note>Line: 50</note>
       </trans-unit>
     </body>
   </file>
@@ -1290,7 +1463,62 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       <trans-unit id="bf3b3ed0e4fd43efff9c26b3d35c6c2f" approved="yes">
         <source>Gift options</source>
         <target state="final">אפשרויות מתנה</target>
+        <note>Line: 34</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/OrderReturnStates/Blocks/form.html.twig" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      <trans-unit id="69a31da4cb502aa192d07ae4a8f48613" approved="yes">
+        <source>Status name</source>
+        <target state="final">שם סטטוס</target>
+        <note>Line: 40</note>
+      </trans-unit>
+      <trans-unit id="cb5feb1b7314637725a2e73bdc9f7295" approved="yes">
+        <source>Color</source>
+        <target state="final">צבע</target>
+        <note>Line: 48</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/OrderReturnStates/create.html.twig" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      <trans-unit id="34499467057e6ded44fd7861eee1893b" approved="yes">
+        <source>Return statuses</source>
+        <target state="final">סטטוסי החזרות</target>
+        <note>Line: 27</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/OrderStates/Blocks/form.html.twig" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      <trans-unit id="57297718fdb439175177cf6b196172d1" approved="yes">
+        <source>Order status</source>
+        <target state="final">'מצב טיפול בהזמנה'</target>
         <note>Line: 33</note>
+      </trans-unit>
+      <trans-unit id="13a44cb3c08c1c40a3c5b62152538ee8" approved="yes">
+        <source>Email template</source>
+        <target state="final">תבנית דואל</target>
+        <note>Line: 82</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/OrderStates/create.html.twig" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      <trans-unit id="60fd39d495f2a8d0674c236c004e8f21" approved="yes">
+        <source>Add new order status</source>
+        <target state="final">הוסף 'מצב טיפול בהזמנה' חדש</target>
+        <note>Line: 27</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/OrderStates/index.html.twig" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      <trans-unit id="f08b529034b579d49fa94abec7f93af0" approved="yes">
+        <source>Add new order return status</source>
+        <target state="final">הוסף 'מצב טיפול בהחזר' חדש</target>
+        <note>Line: 36</note>
       </trans-unit>
     </body>
   </file>
@@ -1320,6 +1548,11 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
         <target state="final">תגיות מטא (Meta)</target>
         <note>Line: 31</note>
       </trans-unit>
+      <trans-unit id="c0a1f9eff88edb62c46edb084004e32b" approved="yes">
+        <source>Page name</source>
+        <target state="final">שם דף</target>
+        <note>Line: 44</note>
+      </trans-unit>
       <trans-unit id="12cb401e3a068898222575c6a5ef5ece" approved="yes">
         <source>Page title</source>
         <target state="final">כותרת הדף</target>
@@ -1344,7 +1577,7 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       <trans-unit id="7959e21ff0b83542251ca0b4e9a62eea" approved="yes">
         <source>Generate robots.txt file</source>
         <target state="final">צור קובץ robots.txt</target>
-        <note>Line: 59</note>
+        <note>Line: 63</note>
       </trans-unit>
       <trans-unit id="345d6249c20c6319bb09edaaf536744b" approved="yes">
         <source>Robots file generation</source>
@@ -1355,32 +1588,15 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/TrafficSeo/Meta/Blocks/seo_options_configuration.html.twig" source-language="en" target-language="he" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="49b28884b3ba83e6b5379973a3e1873f" approved="yes">
+        <source>SEO options</source>
+        <target state="final">אפשרויות SEO</target>
+        <note>Line: 32</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/TrafficSeo/Meta/Blocks/set_up_urls_configuration.html.twig" source-language="en" target-language="he" datatype="plaintext">
     <body>
-      <trans-unit id="a7686ea311b65874a504a343c08a4341" approved="yes">
-        <source>Accented URL</source>
-        <target state="final">כתובת URL מעוברתת</target>
-        <note>Line: 70</note>
-      </trans-unit>
-      <trans-unit id="fb64c58d84a997e89be8de9897f36ecc" approved="yes">
-        <source>Redirect to the canonical URL</source>
-        <target state="final">הפנה לכתובת URL הראשית (שמכילה rel="canonical") עבור תוכן זה (כאשר ישנם קישורים שונים המפנים לאותו עמוד תוכן)</target>
-        <note>Line: 78</note>
-      </trans-unit>
-      <trans-unit id="38bada4e8300d679ea0c293a8658605a" approved="yes">
-        <source>Disable Apache's MultiViews option</source>
-        <target state="final">השבת את אפשרות MultiViews של האפצ'י</target>
-        <note>Line: 87</note>
-      </trans-unit>
-      <trans-unit id="1260ff0747d4dbe30fcc4d360891205f" approved="yes">
-        <source>Disable Apache's mod_security module</source>
-        <target state="final">בטל מודול אבטחה (mod_security) של Apache</target>
-        <note>Line: 97</note>
-      </trans-unit>
       <trans-unit id="3cb0403ba2ec65e9030c1013b5edb42d" approved="yes">
         <source>Set up URLs</source>
         <target state="final">הגדרת כתובות URL</target>
@@ -1393,22 +1609,7 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       <trans-unit id="43199543574edd476ab25337ad4a223c" approved="yes">
         <source>Set shop URL</source>
         <target state="final">הגדר כתובת חנות</target>
-        <note>Line: 32</note>
-      </trans-unit>
-      <trans-unit id="db309cb65c4220d02c0fd13927d315ae" approved="yes">
-        <source>Shop domain</source>
-        <target state="final">שם הדומיין של החנות</target>
-        <note>Line: 73</note>
-      </trans-unit>
-      <trans-unit id="7efeee26d2914e586169f61213741599" approved="yes">
-        <source>SSL domain</source>
-        <target state="final">שם דומיין ה- SSL של החנות</target>
-        <note>Line: 83</note>
-      </trans-unit>
-      <trans-unit id="c274743f6bf3e3682c41e9ee269913f4" approved="yes">
-        <source>Base URI</source>
-        <target state="final">כתובת בסיס URI</target>
-        <note>Line: 93</note>
+        <note>Line: 31</note>
       </trans-unit>
     </body>
   </file>
@@ -1417,27 +1618,7 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       <trans-unit id="0d3ed57f8fd83cc2e9cf265a18663c0a" approved="yes">
         <source>Schema of URLs</source>
         <target state="final">מיפוי כתובות אינטרנט</target>
-        <note>Line: 34</note>
-      </trans-unit>
-      <trans-unit id="5575f8bf467eba7499f22e78db6f3f56" approved="yes">
-        <source>Route to products</source>
-        <target state="final">נתיב למוצרים</target>
-        <note>Line: 52</note>
-      </trans-unit>
-      <trans-unit id="1092637069f4ebf1bee2b02fd280888b" approved="yes">
-        <source>Route to category</source>
-        <target state="final">נתיב לקטגוריה</target>
-        <note>Line: 65</note>
-      </trans-unit>
-      <trans-unit id="08a551b84112995247355daf3b5d72ba" approved="yes">
-        <source>Route to supplier</source>
-        <target state="final">נתיב לספק</target>
-        <note>Line: 91</note>
-      </trans-unit>
-      <trans-unit id="4b9a9672a96a435f1d15ad934e093104" approved="yes">
-        <source>Route to modules</source>
-        <target state="final">נתיב למודולים</target>
-        <note>Line: 143</note>
+        <note>Line: 32</note>
       </trans-unit>
     </body>
   </file>
@@ -1448,11 +1629,6 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
         <target state="final">הפעל חנות</target>
         <note>Line: 43</note>
       </trans-unit>
-      <trans-unit id="daf835712085aaaf81818e7ebfeb66b8" approved="yes">
-        <source>Maintenance IP</source>
-        <target state="final">IP עבור תחזוקה</target>
-        <note>Line: 50</note>
-      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/preferences.html.twig" source-language="en" target-language="he" datatype="plaintext">
@@ -1460,47 +1636,7 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       <trans-unit id="1656072e927c8d3acd24359cbb648bb5" approved="yes">
         <source>Enable SSL</source>
         <target state="final">אפשר SSL</target>
-        <note>Line: 46</note>
-      </trans-unit>
-      <trans-unit id="73369322b5e1145bb2fc2268ce4d31f0" approved="yes">
-        <source>Enable SSL on all pages</source>
-        <target state="final">אפשר הצפנת SSL בכל העמודים</target>
-        <note>Line: 66</note>
-      </trans-unit>
-      <trans-unit id="913d66c5648cf0317ed371371fe44534" approved="yes">
-        <source>Allow iframes on HTML fields</source>
-        <target state="final">אפשר iFrames בשדות HTML</target>
-        <note>Line: 90</note>
-      </trans-unit>
-      <trans-unit id="06918a784fb394b84de012810120b75c" approved="yes">
-        <source>Use HTMLPurifier Library</source>
-        <target state="final">השתמש בספריית HTMLPurifier</target>
-        <note>Line: 98</note>
-      </trans-unit>
-      <trans-unit id="ac2021d3c67ee796d7ab20a466ebd583" approved="yes">
-        <source>Round mode</source>
-        <target state="final">עיגול תשלום</target>
-        <note>Line: 106</note>
-      </trans-unit>
-      <trans-unit id="019e96f05f09a70e37792a04e9e78cdc" approved="yes">
-        <source>Round type</source>
-        <target state="final">אופן עיגול סכום לתשלום</target>
-        <note>Line: 114</note>
-      </trans-unit>
-      <trans-unit id="922256753aa354c111471e85d4809ec5" approved="yes">
-        <source>Display best sellers</source>
-        <target state="final">הצג את המוצרים הנמכרים ביותר</target>
-        <note>Line: 138</note>
-      </trans-unit>
-      <trans-unit id="43b266c605d67eaa27801cc5dc0b3995" approved="yes">
-        <source>Enable Multistore</source>
-        <target state="final">אפשר ריבוי חנויות</target>
-        <note>Line: 146</note>
-      </trans-unit>
-      <trans-unit id="8d9da6f9870d593e6921d3b728dc0c6b" approved="yes">
-        <source>Main Shop Activity</source>
-        <target state="final">פעילות עיקרית של החנות</target>
-        <note>Line: 162</note>
+        <note>Line: 43</note>
       </trans-unit>
     </body>
   </file>

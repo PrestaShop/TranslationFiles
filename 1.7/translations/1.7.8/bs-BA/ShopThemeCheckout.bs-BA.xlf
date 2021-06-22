@@ -2,6 +2,11 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="classes/checkout/CheckoutDeliveryStep.php" source-language="en" target-language="bs" datatype="plaintext">
     <body>
+      <trans-unit id="d62106dfcdba5cacd1a5f5efe9cefc79" approved="yes">
+        <source> (additional cost of %giftcost% %taxlabel%)</source>
+        <target state="final"> (dodatni trošak od %giftcost%%taxlabel%)</target>
+        <note>Line: 111</note>
+      </trans-unit>
       <trans-unit id="882ed1e831a6175e4a3dd2c09faa225c" approved="yes">
         <source>I would like my order to be gift wrapped %cost%</source>
         <target state="final">Htio bih da se moja narudžba upakuje kao poklon %cost%</target>
@@ -69,7 +74,16 @@
       <trans-unit id="8bbbace7ffb26d61b400c72ffe493f4d" approved="yes">
         <source>Guest order tracking</source>
         <target state="final">Praćenje narudžbe gosta</target>
-        <note>Line: 153</note>
+        <note>Line: 144</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/front/OrderConfirmationController.php" source-language="en" target-language="bs" datatype="plaintext">
+    <body>
+      <trans-unit id="fb077ecba55e5552916bde26d8b9e794" approved="yes">
+        <source>Order confirmation</source>
+        <target state="final">Potvrda narudžbe</target>
+        <note>Line: 168</note>
       </trans-unit>
     </body>
   </file>
@@ -78,56 +92,61 @@
       <trans-unit id="e2121483e5e6c879ecef260a7f72e959" approved="yes">
         <source>Product Successfully Added to Your Shopping Cart</source>
         <target state="final">Proizvod je uspješno dodan u vašu korpu</target>
-        <note>Line: 4</note>
+        <note>Line: 22</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Presenter/Cart/CartPresenter.php" source-language="en" target-language="bs" datatype="plaintext">
     <body>
+      <trans-unit id="b24ce0cd392a5b0b8dedc66c25213594" approved="yes">
+        <source>Free</source>
+        <target state="final">Besplatno</target>
+        <note>Line: 534</note>
+      </trans-unit>
       <trans-unit id="96b0141273eabab320119c467cdcaf17" approved="yes">
         <source>Total</source>
         <target state="final">Ukupno</target>
-        <note>Line: 394</note>
+        <note>Line: 401</note>
       </trans-unit>
       <trans-unit id="2194aaec8cc7086ab0e93f74547e5f53" approved="yes">
         <source>Subtotal</source>
         <target state="final">Suma stavki</target>
-        <note>Line: 335</note>
+        <note>Line: 342</note>
       </trans-unit>
       <trans-unit id="ea9cf7e47ff33b2be14e6dd07cbcefc6" approved="yes">
         <source>Shipping</source>
         <target state="final">Dostava</target>
-        <note>Line: 373</note>
+        <note>Line: 380</note>
       </trans-unit>
       <trans-unit id="3b5a05f2c4a0373c7a6e8d1cfec7020f" approved="yes">
         <source>Included taxes</source>
         <target state="final">Uključeni porezi</target>
-        <note>Line: 384</note>
+        <note>Line: 391</note>
       </trans-unit>
       <trans-unit id="719fec04166d6fa75f89cd29ad61fa8c" approved="yes">
         <source>Taxes</source>
         <target state="final">Porezi</target>
-        <note>Line: 385</note>
+        <note>Line: 392</note>
       </trans-unit>
       <trans-unit id="7e0eb131cbb6280fe2b38edf92a3bcc5" approved="yes">
         <source>1 item</source>
         <target state="final">1 artikl</target>
-        <note>Line: 419</note>
+        <note>Line: 426</note>
       </trans-unit>
       <trans-unit id="ca96f27e7d3e3b67b5d1f43a54296466" approved="yes">
         <source>%count% items</source>
         <target state="final">%count% artikala</target>
-        <note>Line: 420</note>
+        <note>Line: 427</note>
       </trans-unit>
       <trans-unit id="2bd544f123f671c597c4b330ef05b5da" approved="yes">
         <source>A minimum shopping cart total of %amount% (tax excl.) is required to validate your order. Current cart total is %total% (tax excl.).</source>
         <target state="final">Minimalna kupovina ukupno od %amount% (bez PDV-a) je potrebna kako bi potvrdili narudžbu. Trenutno stanje korpe je %total% (bez PDV-a).</target>
-        <note>Line: 473</note>
+        <note>Line: 481</note>
       </trans-unit>
       <trans-unit id="40d906eb5dd9a2734d0c20c437e2ff68" approved="yes">
         <source>Discount(s)</source>
         <target state="final">Popust(i)</target>
-        <note>Line: 343</note>
+        <note>Line: 350</note>
       </trans-unit>
     </body>
   </file>
@@ -177,12 +196,6 @@ File: themes/StarterTheme/templates/checkout/_partials/steps/addresses.tpl:41</n
   </file>
   <file original="themes/StarterTheme/templates/checkout/order-confirmation.tpl" source-language="en" target-language="bs" datatype="plaintext">
     <body>
-      <trans-unit id="fb077ecba55e5552916bde26d8b9e794" approved="yes">
-        <source>Order confirmation</source>
-        <target state="final">Potvrda narudžbe</target>
-        <note>Context:
-File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:4</note>
-      </trans-unit>
       <trans-unit id="ded7f0d0397bb3138bfe1e40dcdb560a" approved="yes">
         <source>Order reference %reference%</source>
         <target state="final">Referenca narudžbe: %reference%</target>
@@ -205,15 +218,20 @@ File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:62</note>
   </file>
   <file original="themes/classic/modules/ps_shoppingcart/modal.tpl" source-language="en" target-language="bs" datatype="plaintext">
     <body>
+      <trans-unit id="544c3bd0eac526113a9c66542be1e5bc" approved="yes">
+        <source>Product successfully added to your shopping cart</source>
+        <target state="final">Proizvod je uspješno dodan u vašu korpu</target>
+        <note>Line: 32</note>
+      </trans-unit>
       <trans-unit id="3d0d1f906e27800531e054a3b6787b7c" approved="yes">
         <source>Quantity:</source>
         <target state="final">Količina:</target>
-        <note>Line: 48</note>
+        <note>Line: 63</note>
       </trans-unit>
       <trans-unit id="5a0d620c4938bda6d4be4a2869cc3ee7" approved="yes">
         <source>There are %products_count% items in your cart.</source>
         <target state="final">Trenutno je %products_count% artikala u Vašoj korpi.</target>
-        <note>Line: 55</note>
+        <note>Line: 70</note>
       </trans-unit>
       <trans-unit id="e8a8612fb6fa9f657318f158780f0eeb" approved="yes">
         <source>There is %product_count% item in your cart.</source>
@@ -238,7 +256,12 @@ File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:62</note>
       <trans-unit id="856ab109229e8acfcddd5c6766a8d956" approved="yes">
         <source>Subtotal:</source>
         <target state="final">Suma stavki:</target>
-        <note>Line: 59</note>
+        <note>Line: 74</note>
+      </trans-unit>
+      <trans-unit id="66f51e43606e2baebb8e9c3bfe965da4" approved="yes">
+        <source>Shipping:</source>
+        <target state="final">Dostava:</target>
+        <note>Line: 76</note>
       </trans-unit>
     </body>
   </file>
@@ -256,7 +279,7 @@ File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:62</note>
       <trans-unit id="21cf667b2d56747effd90b0333c6813c" approved="yes">
         <source>The minimum purchase order quantity for the product is %quantity%.</source>
         <target state="final">Minimalna količina narudžbe za proizvod je %quantity%.</target>
-        <note>Line: 79</note>
+        <note>Line: 86</note>
       </trans-unit>
     </body>
   </file>
@@ -299,6 +322,11 @@ File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:62</note>
   </file>
   <file original="themes/classic/templates/checkout/_partials/customer-form.tpl" source-language="en" target-language="bs" datatype="plaintext">
     <body>
+      <trans-unit id="2fdfd506efea08144c0794c32ca8250a" approved="yes">
+        <source>Create an account</source>
+        <target state="final">Kreirajte korisnički račun</target>
+        <note>Line: 30</note>
+      </trans-unit>
       <trans-unit id="f53d1cd25e03173ba9eaa4e493636769" approved="yes">
         <source>(optional)</source>
         <target state="final">(opcionalno)</target>
@@ -317,6 +345,11 @@ File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:62</note>
         <source>Order items</source>
         <target state="final">Stavke narudžbe</target>
         <note>Line: 28</note>
+      </trans-unit>
+      <trans-unit id="db205f01b4fd580fb5daa9072d96849d" approved="yes">
+        <source>Total products</source>
+        <target state="final">Ukupno proizvodi</target>
+        <note>Line: 31</note>
       </trans-unit>
     </body>
   </file>
@@ -339,7 +372,7 @@ File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:62</note>
       <trans-unit id="49ffd9480effff979143d2e8d38931c4" approved="yes">
         <source>Shipping Method</source>
         <target state="final">Vrsta dostave</target>
-        <note>Line: 62</note>
+        <note>Line: 63</note>
       </trans-unit>
       <trans-unit id="284b47b0bb63ae2df3b29f0e691d6fcf" approved="yes">
         <source>Addresses</source>
@@ -363,27 +396,27 @@ File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:62</note>
       <trans-unit id="48974cc3df177e6b565c39aa155458cd" approved="yes">
         <source>Shipping Address</source>
         <target state="final">Adresa dostave</target>
-        <note>Line: 36</note>
+        <note>Line: 44</note>
       </trans-unit>
       <trans-unit id="dc024b376ebf01abd90cf4d5e4dca1c7" approved="yes">
         <source>The selected address will be used as your personal address (for invoice).</source>
         <target state="final">Odabrana adresa će se koristiti kao Vaša lična adresa (za fakture).</target>
-        <note>Line: 45</note>
+        <note>Line: 38</note>
       </trans-unit>
       <trans-unit id="313d7cbfa2b3c25f09d69ad7e40974a7" approved="yes">
         <source>Billing address differs from shipping address</source>
         <target state="final">Adresa za račun je drugačija od adrese za dostavu proizvoda</target>
-        <note>Line: 82</note>
+        <note>Line: 80</note>
       </trans-unit>
       <trans-unit id="baa63a898921164abe2d1d532ab27e79" approved="yes">
         <source>Your Invoice Address</source>
         <target state="final">Adresa za račun</target>
-        <note>Line: 91</note>
+        <note>Line: 89</note>
       </trans-unit>
       <trans-unit id="56d0ed7cd789dd772be59aa6b1e437de" approved="yes">
         <source>The selected address will be used both as your personal address (for invoice) and as your delivery address.</source>
         <target state="final">Odabrana adresa će se koristiti i kao lična adresa (za fakture), ali i kao adresa za dostavu.</target>
-        <note>Line: 41</note>
+        <note>Line: 40</note>
       </trans-unit>
     </body>
   </file>
@@ -419,6 +452,11 @@ File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:62</note>
         <target state="final">Naručite uz obvezu plaćanja</target>
         <note>Line: 150</note>
       </trans-unit>
+      <trans-unit id="e7965ae5942a09b8778af5a9fd481460" approved="yes">
+        <source>Place order</source>
+        <target state="final">Naručeno</target>
+        <note>Line: 131</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/checkout/_partials/steps/personal-information.tpl" source-language="en" target-language="bs" datatype="plaintext">
@@ -437,6 +475,11 @@ File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:62</note>
   </file>
   <file original="themes/classic/templates/checkout/_partials/steps/shipping.tpl" source-language="en" target-language="bs" datatype="plaintext">
     <body>
+      <trans-unit id="9193b58520051d8b59ca64a5cc5353ff" approved="yes">
+        <source>I would like to receive my order in recycled packaging.</source>
+        <target state="final">Želio bi primiti moju narudžbu u recikliranoj ambalaži.</target>
+        <note>Line: 91</note>
+      </trans-unit>
       <trans-unit id="9a605fc0e1667ebdbd0ac37cf9f90789" approved="yes">
         <source>Unfortunately, there are no carriers available for your delivery address.</source>
         <target state="final">Na žalost, nema raspoloživih dostavljača za dostavu na Vašu adresu.</target>

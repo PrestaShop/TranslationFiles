@@ -19,25 +19,8 @@
       </trans-unit>
     </body>
   </file>
-  <file original="admin-dev/themes/default/template/controllers/orders/_product_line.tpl" source-language="en" target-language="bs" datatype="plaintext">
-    <body>
-      <trans-unit id="5728ff6d5efd64ef7db72028eefc7262" approved="yes">
-        <source>(Max %amount_refundable% %tax_method%)</source>
-        <target state="final">(Max %amount_refundable% %tax_method%)</target>
-        <note>Line: 192</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="admin-dev/themes/default/template/controllers/orders/form.tpl" source-language="en" target-language="bs" datatype="plaintext">
-    <body>
-      
-      
-      
-    </body>
-  </file>
   <file original="admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl" source-language="en" target-language="bs" datatype="plaintext">
     <body>
-      
       
       
     </body>
@@ -58,6 +41,7 @@
       
       
       
+      
     </body>
   </file>
   <file original="controllers/admin/AdminSlipController.php" source-language="en" target-language="bs" datatype="plaintext">
@@ -75,8 +59,27 @@
       <trans-unit id="f6916f4f1a268d4d0014ce47a2dfc3e4" approved="yes">
         <source>Password should be at least %length% characters long.</source>
         <target state="final">Lozinka mora biti najmanje %length% znakova.</target>
-        <note>Line: 886</note>
+        <note>Line: 915</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Customer/CustomerType.php" source-language="en" target-language="bs" datatype="plaintext">
+    <body>
+      <trans-unit id="75bf7b6b951d3183f7c8f96bdb4fa74c" approved="yes">
+        <source>Valid characters:</source>
+        <target state="final">Valjani znakovi:</target>
+        <note>Line: 303</note>
+      </trans-unit>
+      <trans-unit id="ae12c6cc3c51c7dfc05571539d8980d9" approved="yes">
+        <source>Only letters and the dot (.) character, followed by a space, are allowed.</source>
+        <target state="final">Samo su slova i tačka (.) dozvoljeni od znakova iza praznog prostora.</target>
+        <note>Line: 148</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/CreditSlip/CreditSlipOptionsType.php" source-language="en" target-language="bs" datatype="plaintext">
+    <body>
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Address/Blocks/form.html.twig" source-language="en" target-language="bs" datatype="plaintext">
@@ -90,7 +93,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Address/Blocks/required_fields.html.twig" source-language="en" target-language="bs" datatype="plaintext">
     <body>
-      
+      <trans-unit id="166f81a02b692b37820d75e7c0ca2b24" approved="yes">
+        <source><![CDATA[Required fields apply to the customer's registration form, you should check the address formats in [1]International > Locations > Countries[/1] before.]]></source>
+        <target state="final"><![CDATA[Potrebna polja odnose se na formu za registraciju korisnika, provjerite formate adresa u [1]International > Locations > Countries[/1] prije promjene.]]></target>
+        <note>Line: 38</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/Blocks/Index/required_fields.html.twig" source-language="en" target-language="bs" datatype="plaintext">
@@ -98,7 +105,7 @@
       <trans-unit id="81f32b96f6626b8968e6a0f4a9bce62e" approved="yes">
         <source>Select the fields you would like to be required for this section.</source>
         <target state="final">Odaberite polja za koja želite da budu obavezna u ovoj sekciji.</target>
-        <note>Line: 35</note>
+        <note>Line: 37</note>
       </trans-unit>
     </body>
   </file>
@@ -112,15 +119,6 @@
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/Blocks/form.html.twig" source-language="en" target-language="bs" datatype="plaintext">
-    <body>
-      <trans-unit id="75bf7b6b951d3183f7c8f96bdb4fa74c" approved="yes">
-        <source>Valid characters:</source>
-        <target state="final">Valjani znakovi:</target>
-        <note>Line: 114</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/CustomerService/MerchandiseReturn/Blocks/options.html.twig" source-language="en" target-language="bs" datatype="plaintext">
     <body>
       
@@ -128,13 +126,9 @@
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/CreditSlip/Blocks/credit_slip_options.html.twig" source-language="en" target-language="bs" datatype="plaintext">
-    <body>
-      
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Delivery/slip.html.twig" source-language="en" target-language="bs" datatype="plaintext">
     <body>
+      
       
       
       
@@ -185,9 +179,38 @@
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/Modal/add_order_discount_modal.html.twig" source-language="en" target-language="bs" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/Create/customer.html.twig" source-language="en" target-language="bs" datatype="plaintext">
     <body>
       
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/Create/summary.html.twig" source-language="en" target-language="bs" datatype="plaintext">
+    <body>
+      
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/Modal/add_order_discount_modal.html.twig" source-language="en" target-language="bs" datatype="plaintext">
+    <body>
+      <trans-unit id="4b492d24743e697b3639c862b351d1c4" approved="yes">
+        <source>If you choose to create this discount for all invoices, only one discount will be created per order invoice.</source>
+        <target state="final">Ukoliko ste odabrali kreiranje popusta za sve računa, samo jedan popust će biti kreiran po računu.</target>
+        <note>Line: 100</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/payments.html.twig" source-language="en" target-language="bs" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/product.html.twig" source-language="en" target-language="bs" datatype="plaintext">
+    <body>
+      <trans-unit id="5728ff6d5efd64ef7db72028eefc7262" approved="yes">
+        <source>(Max %amount_refundable% %tax_method%)</source>
+        <target state="final">(Max %amount_refundable% %tax_method%)</target>
+        <note>Line: 139</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

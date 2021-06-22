@@ -53,15 +53,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="admin-dev/themes/default/template/controllers/orders/form.tpl" source-language="en" target-language="ja" datatype="plaintext">
-    <body>
-      <trans-unit id="57297718fdb439175177cf6b196172d1" approved="yes">
-        <source>Order status</source>
-        <target state="final">注文ステータス：</target>
-        <note>Line: 1576</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="admin-dev/themes/default/template/controllers/referrers/form_settings.tpl" source-language="en" target-language="ja" datatype="plaintext">
     <body>
       <trans-unit id="97b22af4c50379be3da02a0b10f13ce3" approved="yes">
@@ -556,7 +547,7 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
       <trans-unit id="4493e821e06072415518bd7ae4077996" approved="yes">
         <source>Shop group</source>
         <target state="final">ショップのグループ</target>
-        <note>Line: 431</note>
+        <note>Line: 441</note>
       </trans-unit>
       <trans-unit id="0fc629d52a6553e98b76fffa727ba878" approved="yes">
         <source>Edit this shop group</source>
@@ -570,52 +561,32 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
       </trans-unit>
     </body>
   </file>
+  <file original="controllers/admin/AdminShopGroupController.php" source-language="en" target-language="ja" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
   <file original="controllers/admin/AdminStatusesController.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
       <trans-unit id="817434295a673aed431435658b65d9a7" approved="yes">
         <source>Icon</source>
         <target state="final">アイコン</target>
-        <note>Line: 287</note>
-      </trans-unit>
-      <trans-unit id="c9f59be398981c130408612e51464e14" approved="yes">
-        <source>Send email to customer</source>
-        <target state="final">お客様にメールを送信</target>
-        <note>Line: 89</note>
-      </trans-unit>
-      <trans-unit id="13a44cb3c08c1c40a3c5b62152538ee8" approved="yes">
-        <source>Email template</source>
-        <target state="final">メールテンプレート</target>
-        <note>Line: 116</note>
+        <note>Line: 303</note>
       </trans-unit>
       <trans-unit id="8b79d8d9315e50cd01d3ce641cdc61bc" approved="yes">
         <source>Edit return status</source>
         <target state="final">返品ステータスを編集</target>
-        <note>Line: 184</note>
-      </trans-unit>
-      <trans-unit id="cb5feb1b7314637725a2e73bdc9f7295" approved="yes">
-        <source>Color</source>
-        <target state="final">色：</target>
-        <note>Line: 489</note>
-      </trans-unit>
-      <trans-unit id="192b587e5fc71cd5f25a6089c03bff87" approved="yes">
-        <source>Consider the associated order as validated.</source>
-        <target state="final">検証され関連付けされら注文を検討</target>
-        <note>Line: 302</note>
-      </trans-unit>
-      <trans-unit id="a8f92721e361eceb4489636d29f56c21" approved="yes">
-        <source>Send an email to the customer when his/her order status has changed.</source>
-        <target state="final">注文ステータが変更された時にお客様にメールを送信</target>
-        <note>Line: 335</note>
+        <note>Line: 200</note>
       </trans-unit>
       <trans-unit id="278c491bdd8a53618c149c4ac790da34" approved="yes">
         <source>Template</source>
         <target state="final">テンプレート：</target>
-        <note>Line: 398</note>
+        <note>Line: 414</note>
       </trans-unit>
       <trans-unit id="dc4e76994fd27117c21f83d09faa0649" approved="yes">
         <source>Return status</source>
         <target state="final">返品ステータス</target>
-        <note>Line: 472</note>
+        <note>Line: 488</note>
       </trans-unit>
     </body>
   </file>
@@ -729,6 +700,11 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
         <target state="final">不明</target>
         <note>Line: 474</note>
       </trans-unit>
+      <trans-unit id="ec0fc0100c4fc1ce4eea230c3dc10360" approved="yes">
+        <source>Undefined</source>
+        <target state="final">未定義</target>
+        <note>Line: 529</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/statslive/statslive.php" source-language="en" target-language="ja" datatype="plaintext">
@@ -738,11 +714,6 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
         <target state="final">オンライン中の訪問者はいません。</target>
         <note>Line: 216</note>
       </trans-unit>
-      <trans-unit id="ec0fc0100c4fc1ce4eea230c3dc10360" approved="yes">
-        <source>Undefined</source>
-        <target state="final">未定義</target>
-        <note>Line: 207</note>
-      </trans-unit>
     </body>
   </file>
   <file original="src/Core/Form/ChoiceProvider/CanonicalRedirectTypeChoiceProvider.php" source-language="en" target-language="ja" datatype="plaintext">
@@ -750,6 +721,15 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
       
       
       
+    </body>
+  </file>
+  <file original="src/Core/Grid/Definition/Factory/OrderStatesGridDefinitionFactory.php" source-language="en" target-language="ja" datatype="plaintext">
+    <body>
+      <trans-unit id="c9f59be398981c130408612e51464e14" approved="yes">
+        <source>Send email to customer</source>
+        <target state="final">お客様にメールを送信</target>
+        <note>Line: 91</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Core/Import/EntityField/Provider/AddressFieldsProvider.php" source-language="en" target-language="ja" datatype="plaintext">
@@ -780,26 +760,75 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
       
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/Contact/ContactType.php" source-language="en" target-language="ja" datatype="plaintext">
+    <body>
+      <trans-unit id="a4cd3191fdeea29906a113c78d4c0e26" approved="yes">
+        <source>Save messages?</source>
+        <target state="final">メッセージを登録？</target>
+        <note>Line: 126</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/CustomerPreferences/GeneralType.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
       <trans-unit id="640fd0cc0ffa0316ae087652871f4486" approved="yes">
         <source>minutes</source>
         <target state="final">分</target>
-        <note>Line: 47</note>
+        <note>Line: 89</note>
+      </trans-unit>
+      <trans-unit id="fcae2ef516600f29ac9aa4b084981328" approved="yes">
+        <source>Send an email after registration</source>
+        <target state="final">登録後、メールを送信</target>
+        <note>Line: 58</note>
+      </trans-unit>
+      <trans-unit id="c760118c537146713521758269a44bd3" approved="yes">
+        <source>Enable B2B mode</source>
+        <target state="final">B2Bモードを有効</target>
+        <note>Line: 93</note>
+      </trans-unit>
+      <trans-unit id="dcc6fd9b580a958b3f42488265cb1300" approved="yes">
+        <source>Ask for birth date</source>
+        <target state="final">生年月日入力枠を表示する</target>
+        <note>Line: 103</note>
+      </trans-unit>
+      <trans-unit id="a5e968e6a3689ca07bbdbecb6b0710ff" approved="yes">
+        <source>Enable partner offers</source>
+        <target state="final">パートナーからのお知らせを有効にする</target>
+        <note>Line: 113</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/MaintenanceType.php" source-language="en" target-language="ja" datatype="plaintext">
+    <body>
+      <trans-unit id="daf835712085aaaf81818e7ebfeb66b8" approved="yes">
+        <source>Maintenance IP</source>
+        <target state="final">メンテナンスIP</target>
+        <note>Line: 97</note>
+      </trans-unit>
+      <trans-unit id="9278432c5d2aec1ac4f42c23a941af21" approved="yes">
+        <source>Custom maintenance text</source>
+        <target state="final">自由設定メンテナンス表示テキスト</target>
+        <note>Line: 119</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="ac2021d3c67ee796d7ab20a466ebd583" approved="yes">
+        <source>Round mode</source>
+        <target state="final">Roundモード</target>
+        <note>Line: 157</note>
+      </trans-unit>
+      <trans-unit id="43b266c605d67eaa27801cc5dc0b3995" approved="yes">
+        <source>Enable Multistore</source>
+        <target state="final">マルチストアを有効にする</target>
+        <note>Line: 203</note>
+      </trans-unit>
+      <trans-unit id="8d9da6f9870d593e6921d3b728dc0c6b" approved="yes">
+        <source>Main Shop Activity</source>
+        <target state="final">メインショップのアクティビティ</target>
+        <note>Line: 235</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GeneralType.php" source-language="en" target-language="ja" datatype="plaintext">
@@ -860,12 +889,26 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/OrderPreferencesFormDataProvider.php" source-language="en" target-language="ja" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/OrderPreferencesGeneralFormDataProvider.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
       <trans-unit id="c6ca929dc4c8193ad6cd154e9e075ac9" approved="yes">
         <source>Minimum purchase total required in order to validate the order</source>
         <target state="final">注文確定に必要な最低購入総額</target>
-        <note>Line: 126</note>
+        <note>Line: 106</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php" source-language="en" target-language="ja" datatype="plaintext">
+    <body>
+      <trans-unit id="192b587e5fc71cd5f25a6089c03bff87" approved="yes">
+        <source>Consider the associated order as validated.</source>
+        <target state="final">検証され関連付けされら注文を検討</target>
+        <note>Line: 137</note>
+      </trans-unit>
+      <trans-unit id="a8f92721e361eceb4489636d29f56c21" approved="yes">
+        <source>Send an email to the customer when his/her order status has changed.</source>
+        <target state="final">注文ステータが変更された時にお客様にメールを送信</target>
+        <note>Line: 158</note>
       </trans-unit>
     </body>
   </file>
@@ -932,7 +975,7 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/MetaSettingsFormDataProvider.php" source-language="en" target-language="ja" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/MetaSettingsUrlSchemaFormDataProvider.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
       
       
@@ -952,27 +995,75 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/Blocks/customer_preferences_general.html.twig" source-language="en" target-language="ja" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/SEOOptionsType.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      <trans-unit id="fcae2ef516600f29ac9aa4b084981328" approved="yes">
-        <source>Send an email after registration</source>
-        <target state="final">登録後、メールを送信</target>
-        <note>Line: 45</note>
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/SetUpUrlType.php" source-language="en" target-language="ja" datatype="plaintext">
+    <body>
+      <trans-unit id="a7686ea311b65874a504a343c08a4341" approved="yes">
+        <source>Accented URL</source>
+        <target state="final">装飾されたURL</target>
+        <note>Line: 117</note>
       </trans-unit>
-      <trans-unit id="c760118c537146713521758269a44bd3" approved="yes">
-        <source>Enable B2B mode</source>
-        <target state="final">B2Bモードを有効</target>
-        <note>Line: 59</note>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/ShopUrlType.php" source-language="en" target-language="ja" datatype="plaintext">
+    <body>
+      <trans-unit id="db309cb65c4220d02c0fd13927d315ae" approved="yes">
+        <source>Shop domain</source>
+        <target state="final">ショップのドメイン</target>
+        <note>Line: 87</note>
       </trans-unit>
-      <trans-unit id="dcc6fd9b580a958b3f42488265cb1300" approved="yes">
-        <source>Ask for birth date</source>
-        <target state="final">生年月日入力枠を表示する</target>
-        <note>Line: 66</note>
+      <trans-unit id="7efeee26d2914e586169f61213741599" approved="yes">
+        <source>SSL domain</source>
+        <target state="final">SSLドメイン</target>
+        <note>Line: 93</note>
       </trans-unit>
-      <trans-unit id="a5e968e6a3689ca07bbdbecb6b0710ff" approved="yes">
-        <source>Enable partner offers</source>
-        <target state="final">パートナーからのお知らせを有効にする</target>
-        <note>Line: 73</note>
+      <trans-unit id="c274743f6bf3e3682c41e9ee269913f4" approved="yes">
+        <source>Base URI</source>
+        <target state="final">ベースURI</target>
+        <note>Line: 99</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/UrlSchemaType.php" source-language="en" target-language="ja" datatype="plaintext">
+    <body>
+      <trans-unit id="5575f8bf467eba7499f22e78db6f3f56" approved="yes">
+        <source>Route to products</source>
+        <target state="final">商品へのルート</target>
+        <note>Line: 64</note>
+      </trans-unit>
+      <trans-unit id="1092637069f4ebf1bee2b02fd280888b" approved="yes">
+        <source>Route to category</source>
+        <target state="final">カテゴリへのルート</target>
+        <note>Line: 71</note>
+      </trans-unit>
+      <trans-unit id="08a551b84112995247355daf3b5d72ba" approved="yes">
+        <source>Route to supplier</source>
+        <target state="final">サプライヤーへのルート</target>
+        <note>Line: 78</note>
+      </trans-unit>
+      <trans-unit id="1dc5f89ed6e4425ecef2613fda85e5c0" approved="yes">
+        <source>Route to brand</source>
+        <target state="final">ブランドページへのルート</target>
+        <note>Line: 85</note>
+      </trans-unit>
+      <trans-unit id="e175934d3418b2070a829183b2bfe294" approved="yes">
+        <source>Route to page</source>
+        <target state="final">コンテンツページへのルート</target>
+        <note>Line: 92</note>
+      </trans-unit>
+      <trans-unit id="01e4fd64862371a0f532b82e302d438d" approved="yes">
+        <source>Route to page category</source>
+        <target state="final">コンテンツカテゴリページへのルート</target>
+        <note>Line: 99</note>
+      </trans-unit>
+      <trans-unit id="4b9a9672a96a435f1d15ad934e093104" approved="yes">
+        <source>Route to modules</source>
+        <target state="final">モジュールへのルート</target>
+        <note>Line: 106</note>
       </trans-unit>
     </body>
   </file>
@@ -981,42 +1072,42 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
       <trans-unit id="f870b8a1af52a144a646db03f6f63f7d" approved="yes">
         <source>Show prices</source>
         <target state="final">価格を表示：</target>
-        <note>Line: 46</note>
+        <note>Line: 47</note>
       </trans-unit>
       <trans-unit id="eb1cef1202fdc4d7954899fbf9f1734b" approved="yes">
         <source>Number of days for which the product is considered 'new'</source>
         <target state="final">商品がNewと考慮される日数</target>
-        <note>Line: 54</note>
+        <note>Line: 55</note>
       </trans-unit>
       <trans-unit id="9d980493b9016efc42443b1fdae49f33" approved="yes">
         <source>Max size of product summary</source>
         <target state="final">商品概要の最大サイズ</target>
-        <note>Line: 62</note>
+        <note>Line: 63</note>
       </trans-unit>
       <trans-unit id="7dbe88f99044a2b7e37ae992b8651be4" approved="yes">
         <source>Products (general)</source>
         <target state="final">商品（一般）</target>
-        <note>Line: 33</note>
+        <note>Line: 34</note>
       </trans-unit>
       <trans-unit id="bb98eaca8d91531f4ae177c9d395f1d4" approved="yes">
         <source>Catalog mode</source>
         <target state="final">カタログモード</target>
-        <note>Line: 38</note>
+        <note>Line: 39</note>
       </trans-unit>
       <trans-unit id="b5069c99813cffc6933c18ab71fd6cd9" approved="yes">
         <source>Quantity discounts based on</source>
         <target state="final">割引数量に基づいて</target>
-        <note>Line: 69</note>
+        <note>Line: 70</note>
       </trans-unit>
       <trans-unit id="52be3e936f99d9746870ca7d356b3f21" approved="yes">
         <source>Force update of friendly URL</source>
         <target state="final">フレンドリーURLの強制アップデート</target>
-        <note>Line: 76</note>
+        <note>Line: 77</note>
       </trans-unit>
       <trans-unit id="8a93e785ac0d7204479e4697cbe8696c" approved="yes">
         <source>Default activation status</source>
         <target state="final">デフォルトの商品ステータスを「有効」にする</target>
-        <note>Line: 83</note>
+        <note>Line: 84</note>
       </trans-unit>
     </body>
   </file>
@@ -1025,12 +1116,12 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
       <trans-unit id="eb763a2e313718f33f55e1f0d84df6ee" approved="yes">
         <source>Product page</source>
         <target state="final">商品ページ</target>
-        <note>Line: 33</note>
+        <note>Line: 34</note>
       </trans-unit>
       <trans-unit id="b58704f2e2e18edc7c903342c2a42dfc" approved="yes">
         <source>Display available quantities on the product page</source>
         <target state="final">商品ページ上で有効な数を表示</target>
-        <note>Line: 39</note>
+        <note>Line: 40</note>
       </trans-unit>
       <trans-unit id="a2ab7db4ee7104a693358c0c9d07c6ce" approved="yes">
         <source>Display unavailable product attributes on the product page</source>
@@ -1049,22 +1140,22 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
       <trans-unit id="7e1b4ee573c4ef023904fd90eb9ddea7" approved="yes">
         <source>Products per page</source>
         <target state="final">ページごとの商品</target>
-        <note>Line: 38</note>
+        <note>Line: 39</note>
       </trans-unit>
       <trans-unit id="cbb81506a7fe3ef03f7a89c76c52131a" approved="yes">
         <source>Pagination</source>
         <target state="final">ページ送り</target>
-        <note>Line: 33</note>
+        <note>Line: 34</note>
       </trans-unit>
       <trans-unit id="e29857ad6c4bbba99614831d7e3e5a3f" approved="yes">
         <source>Default order by</source>
         <target state="final">デフォルトの順序</target>
-        <note>Line: 45</note>
+        <note>Line: 46</note>
       </trans-unit>
       <trans-unit id="114a8ec626471fdc120f863a9fb25e4c" approved="yes">
         <source>Default order method</source>
         <target state="final">デフォルトの注文方法</target>
-        <note>Line: 52</note>
+        <note>Line: 53</note>
       </trans-unit>
     </body>
   </file>
@@ -1073,22 +1164,22 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
       <trans-unit id="ff26a60315cd84533d5339ba26617988" approved="yes">
         <source>Products stock</source>
         <target state="final">商品の在庫</target>
-        <note>Line: 33</note>
+        <note>Line: 34</note>
       </trans-unit>
       <trans-unit id="be6be43cab36ddf8024d237c4a2414f7" approved="yes">
         <source>Allow ordering of out-of-stock products</source>
         <target state="final">在庫切れの商品の注文を許可</target>
-        <note>Line: 38</note>
+        <note>Line: 39</note>
       </trans-unit>
       <trans-unit id="69983ae81c0090a571d3f60aedbd0d46" approved="yes">
         <source>Enable stock management</source>
         <target state="final">在庫管理を有効</target>
-        <note>Line: 46</note>
+        <note>Line: 47</note>
       </trans-unit>
       <trans-unit id="65055b5469b4ad0c6f799ad782d1ebe5" approved="yes">
         <source>Default pack stock management</source>
         <target state="final">デフォルトの「セット組み商品」の在庫管理</target>
-        <note>Line: 97</note>
+        <note>Line: 98</note>
       </trans-unit>
     </body>
   </file>
@@ -1098,11 +1189,6 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
         <source>Contacts</source>
         <target state="final">お問合せ</target>
         <note>Line: 33</note>
-      </trans-unit>
-      <trans-unit id="a4cd3191fdeea29906a113c78d4c0e26" approved="yes">
-        <source>Save messages?</source>
-        <target state="final">メッセージを登録？</target>
-        <note>Line: 50</note>
       </trans-unit>
     </body>
   </file>
@@ -1125,8 +1211,46 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
       <trans-unit id="bf3b3ed0e4fd43efff9c26b3d35c6c2f" approved="yes">
         <source>Gift options</source>
         <target state="final">ギフトオプション</target>
+        <note>Line: 34</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/OrderReturnStates/Blocks/form.html.twig" source-language="en" target-language="ja" datatype="plaintext">
+    <body>
+      <trans-unit id="cb5feb1b7314637725a2e73bdc9f7295" approved="yes">
+        <source>Color</source>
+        <target state="final">色：</target>
+        <note>Line: 48</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/OrderReturnStates/create.html.twig" source-language="en" target-language="ja" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/OrderStates/Blocks/form.html.twig" source-language="en" target-language="ja" datatype="plaintext">
+    <body>
+      <trans-unit id="57297718fdb439175177cf6b196172d1" approved="yes">
+        <source>Order status</source>
+        <target state="final">注文ステータス：</target>
         <note>Line: 33</note>
       </trans-unit>
+      <trans-unit id="13a44cb3c08c1c40a3c5b62152538ee8" approved="yes">
+        <source>Email template</source>
+        <target state="final">メールテンプレート</target>
+        <note>Line: 82</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/OrderStates/create.html.twig" source-language="en" target-language="ja" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/OrderStates/index.html.twig" source-language="en" target-language="ja" datatype="plaintext">
+    <body>
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/TrafficSeo/Meta/Blocks/domain_name_management.html.twig" source-language="en" target-language="ja" datatype="plaintext">
@@ -1171,7 +1295,7 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
       <trans-unit id="7959e21ff0b83542251ca0b4e9a62eea" approved="yes">
         <source>Generate robots.txt file</source>
         <target state="final">robots.txtファイルを生成</target>
-        <note>Line: 59</note>
+        <note>Line: 63</note>
       </trans-unit>
       <trans-unit id="345d6249c20c6319bb09edaaf536744b" approved="yes">
         <source>Robots file generation</source>
@@ -1183,16 +1307,10 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/TrafficSeo/Meta/Blocks/seo_options_configuration.html.twig" source-language="en" target-language="ja" datatype="plaintext">
     <body>
       
-      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/TrafficSeo/Meta/Blocks/set_up_urls_configuration.html.twig" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      <trans-unit id="a7686ea311b65874a504a343c08a4341" approved="yes">
-        <source>Accented URL</source>
-        <target state="final">装飾されたURL</target>
-        <note>Line: 70</note>
-      </trans-unit>
       <trans-unit id="3cb0403ba2ec65e9030c1013b5edb42d" approved="yes">
         <source>Set up URLs</source>
         <target state="final">URLの設定</target>
@@ -1205,22 +1323,7 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
       <trans-unit id="43199543574edd476ab25337ad4a223c" approved="yes">
         <source>Set shop URL</source>
         <target state="final">ショップURLを設定</target>
-        <note>Line: 32</note>
-      </trans-unit>
-      <trans-unit id="db309cb65c4220d02c0fd13927d315ae" approved="yes">
-        <source>Shop domain</source>
-        <target state="final">ショップのドメイン</target>
-        <note>Line: 73</note>
-      </trans-unit>
-      <trans-unit id="7efeee26d2914e586169f61213741599" approved="yes">
-        <source>SSL domain</source>
-        <target state="final">SSLドメイン</target>
-        <note>Line: 83</note>
-      </trans-unit>
-      <trans-unit id="c274743f6bf3e3682c41e9ee269913f4" approved="yes">
-        <source>Base URI</source>
-        <target state="final">ベースURI</target>
-        <note>Line: 93</note>
+        <note>Line: 31</note>
       </trans-unit>
     </body>
   </file>
@@ -1229,42 +1332,7 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
       <trans-unit id="0d3ed57f8fd83cc2e9cf265a18663c0a" approved="yes">
         <source>Schema of URLs</source>
         <target state="final">URLのスキーマ</target>
-        <note>Line: 34</note>
-      </trans-unit>
-      <trans-unit id="5575f8bf467eba7499f22e78db6f3f56" approved="yes">
-        <source>Route to products</source>
-        <target state="final">商品へのルート</target>
-        <note>Line: 52</note>
-      </trans-unit>
-      <trans-unit id="1092637069f4ebf1bee2b02fd280888b" approved="yes">
-        <source>Route to category</source>
-        <target state="final">カテゴリへのルート</target>
-        <note>Line: 65</note>
-      </trans-unit>
-      <trans-unit id="08a551b84112995247355daf3b5d72ba" approved="yes">
-        <source>Route to supplier</source>
-        <target state="final">サプライヤーへのルート</target>
-        <note>Line: 91</note>
-      </trans-unit>
-      <trans-unit id="1dc5f89ed6e4425ecef2613fda85e5c0" approved="yes">
-        <source>Route to brand</source>
-        <target state="final">ブランドページへのルート</target>
-        <note>Line: 104</note>
-      </trans-unit>
-      <trans-unit id="e175934d3418b2070a829183b2bfe294" approved="yes">
-        <source>Route to page</source>
-        <target state="final">コンテンツページへのルート</target>
-        <note>Line: 117</note>
-      </trans-unit>
-      <trans-unit id="01e4fd64862371a0f532b82e302d438d" approved="yes">
-        <source>Route to page category</source>
-        <target state="final">コンテンツカテゴリページへのルート</target>
-        <note>Line: 130</note>
-      </trans-unit>
-      <trans-unit id="4b9a9672a96a435f1d15ad934e093104" approved="yes">
-        <source>Route to modules</source>
-        <target state="final">モジュールへのルート</target>
-        <note>Line: 143</note>
+        <note>Line: 32</note>
       </trans-unit>
     </body>
   </file>
@@ -1275,16 +1343,6 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
         <target state="final">ショップを有効</target>
         <note>Line: 43</note>
       </trans-unit>
-      <trans-unit id="daf835712085aaaf81818e7ebfeb66b8" approved="yes">
-        <source>Maintenance IP</source>
-        <target state="final">メンテナンスIP</target>
-        <note>Line: 50</note>
-      </trans-unit>
-      <trans-unit id="9278432c5d2aec1ac4f42c23a941af21" approved="yes">
-        <source>Custom maintenance text</source>
-        <target state="final">自由設定メンテナンス表示テキスト</target>
-        <note>Line: 57</note>
-      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/preferences.html.twig" source-language="en" target-language="ja" datatype="plaintext">
@@ -1292,27 +1350,12 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
       <trans-unit id="1656072e927c8d3acd24359cbb648bb5" approved="yes">
         <source>Enable SSL</source>
         <target state="final">SSLを有効</target>
-        <note>Line: 46</note>
-      </trans-unit>
-      <trans-unit id="ac2021d3c67ee796d7ab20a466ebd583" approved="yes">
-        <source>Round mode</source>
-        <target state="final">Roundモード</target>
-        <note>Line: 106</note>
+        <note>Line: 43</note>
       </trans-unit>
       <trans-unit id="267b70f19458077fe93a3fd63a6a648a" approved="yes">
         <source>Display brands and suppliers</source>
         <target state="final">ブランドとサプライヤを表示</target>
         <note>Line: 130</note>
-      </trans-unit>
-      <trans-unit id="43b266c605d67eaa27801cc5dc0b3995" approved="yes">
-        <source>Enable Multistore</source>
-        <target state="final">マルチストアを有効にする</target>
-        <note>Line: 146</note>
-      </trans-unit>
-      <trans-unit id="8d9da6f9870d593e6921d3b728dc0c6b" approved="yes">
-        <source>Main Shop Activity</source>
-        <target state="final">メインショップのアクティビティ</target>
-        <note>Line: 162</note>
       </trans-unit>
     </body>
   </file>

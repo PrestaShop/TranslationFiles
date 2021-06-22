@@ -46,6 +46,11 @@
         <target state="final">מוצר/ים נבחר/ים</target>
         <note>Line: 125</note>
       </trans-unit>
+      <trans-unit id="3b3924db361bf202158d5a23ec10ea80" approved="yes">
+        <source>Exclude discounted products</source>
+        <target state="final">אל תכלול מוצרים בהנחה</target>
+        <note>Line: 146</note>
+      </trans-unit>
       <trans-unit id="2f73d13f0a878086ce1f9933aed3ac80" approved="yes">
         <source>Send a free gift</source>
         <target state="final">שלח מתנה חינם</target>
@@ -247,7 +252,11 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/cart_rules/product_rule_group.tpl" source-language="en" target-language="he" datatype="plaintext">
     <body>
-      
+      <trans-unit id="21534b955347d06c074955b008ccb0c9" approved="yes">
+        <source>Number of products required in the cart to enjoy the discount:</source>
+        <target state="final">מספר המוצרים הנדרש בעגלה בכדי ליהנות מההנחה:</target>
+        <note>Line: 34</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/customer_threads/helpers/view/message.tpl" source-language="en" target-language="he" datatype="plaintext">
@@ -256,38 +265,6 @@
         <source>Attachment</source>
         <target state="final">קובץ מצורף</target>
         <note>Line: 56</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="admin-dev/themes/default/template/controllers/orders/_discount_form.tpl" source-language="en" target-language="he" datatype="plaintext">
-    <body>
-      <trans-unit id="a1fa27779242b4902f7ae3bdd5c6d508" approved="yes">
-        <source>Type</source>
-        <target state="final">סוג</target>
-        <note>Line: 38</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="admin-dev/themes/default/template/controllers/orders/form.tpl" source-language="en" target-language="he" datatype="plaintext">
-    <body>
-      <trans-unit id="da22c93ccb398c72070f4000cc7b59a1" approved="yes">
-        <source>Customization</source>
-        <target state="final">התאמה אישית</target>
-        <note>Line: 659</note>
-      </trans-unit>
-      <trans-unit id="9d20a93036ba910dd75ffbcec173798e" approved="yes">
-        <source>Price per unit</source>
-        <target state="final">מחיר ליחידה</target>
-        <note>Line: 1280</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="admin-dev/themes/default/template/controllers/orders/helpers/view/view.tpl" source-language="en" target-language="he" datatype="plaintext">
-    <body>
-      <trans-unit id="ea9cf7e47ff33b2be14e6dd07cbcefc6" approved="yes">
-        <source>Shipping</source>
-        <target state="final">משלוח</target>
-        <note>Line: 1101</note>
       </trans-unit>
     </body>
   </file>
@@ -368,6 +345,31 @@
         <target state="final">הזמנת לקוח</target>
         <note>Line: 30</note>
       </trans-unit>
+      <trans-unit id="02ef8bd47ce057b792bbd620d6059caa" approved="yes">
+        <source>Transfer to another warehouse</source>
+        <target state="final">העברה אל מחסן אחר</target>
+        <note>Line: 34</note>
+      </trans-unit>
+      <trans-unit id="7829dec62809e15c4bb9bbc002fc5614" approved="yes">
+        <source>Transfer from another warehouse</source>
+        <target state="final">העברה ממחסן אחר</target>
+        <note>Line: 36</note>
+      </trans-unit>
+      <trans-unit id="6ae30b0a1badc7bc37e9fd794bca7e3f" approved="yes">
+        <source>Supply Order</source>
+        <target state="final">הזמנת ספק</target>
+        <note>Line: 38</note>
+      </trans-unit>
+      <trans-unit id="d664291d8860308c25f148de5831ad55" approved="yes">
+        <source>Product Return</source>
+        <target state="final">החזרת מוצר</target>
+        <note>Line: 40</note>
+      </trans-unit>
+      <trans-unit id="1638bbd4664fd745118d95786b7e37b9" approved="yes">
+        <source>Manual Entry</source>
+        <target state="final">הזנה ידנית</target>
+        <note>Line: 42</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminAttachmentsController.php" source-language="en" target-language="he" datatype="plaintext">
@@ -380,12 +382,12 @@
       <trans-unit id="81315cfd898aada1e99e0034b4b078c3" approved="yes">
         <source>Attributes generator</source>
         <target state="final">מחולל צירופים</target>
-        <note>Line: 217</note>
+        <note>Line: 218</note>
       </trans-unit>
       <trans-unit id="402784f5f14c30e7309a135ba6be531f" approved="yes">
         <source>Back to the product</source>
         <target state="final">חזור למוצר</target>
-        <note>Line: 220</note>
+        <note>Line: 221</note>
       </trans-unit>
     </body>
   </file>
@@ -465,15 +467,20 @@
   </file>
   <file original="controllers/admin/AdminCartRulesController.php" source-language="en" target-language="he" datatype="plaintext">
     <body>
+      <trans-unit id="bd0e34e5be6447844e6f262d51f1a9dc" approved="yes">
+        <source>Payment: </source>
+        <target state="final">תשלום: </target>
+        <note>Line: 703</note>
+      </trans-unit>
       <trans-unit id="65b7eaeb9ba4e9903f82297face9f7cd" approved="yes">
         <source>Cart Rules</source>
         <target state="final">תמחור לפי לקוח</target>
-        <note>Line: 711</note>
+        <note>Line: 720</note>
       </trans-unit>
       <trans-unit id="a0e8e26f6f9354192425b9a23227a5ba" approved="yes">
         <source>Payment:</source>
         <target state="final">סכום לתשלום:</target>
-        <note>Line: 711</note>
+        <note>Line: 720</note>
       </trans-unit>
     </body>
   </file>
@@ -611,22 +618,22 @@
       <trans-unit id="0134539df13231b95613415c0a75af42" approved="yes">
         <source>Pending Discussion Threads</source>
         <target state="final">אשכולות ממתינים  לדיון</target>
-        <note>Line: 572</note>
+        <note>Line: 573</note>
       </trans-unit>
       <trans-unit id="c61b4a4520f875b20f7ff3e6ff502ebe" approved="yes">
         <source>Average Response Time</source>
         <target state="final">זמן תגובה ממוצע</target>
-        <note>Line: 584</note>
+        <note>Line: 585</note>
       </trans-unit>
       <trans-unit id="6092e157634b78d790fc607b587d1274" approved="yes">
         <source>Messages per Thread</source>
         <target state="final">הודעות בכל פתיל</target>
-        <note>Line: 597</note>
+        <note>Line: 598</note>
       </trans-unit>
       <trans-unit id="dab57a3f740e26922519aebc7e3d602a" approved="yes">
         <source>Reply to the next unanswered message in this thread</source>
         <target state="final">הגב להודעה הבאה שלא נענתה באשכול זה</target>
-        <note>Line: 657</note>
+        <note>Line: 658</note>
       </trans-unit>
     </body>
   </file>
@@ -693,7 +700,7 @@
       <trans-unit id="1379a6b19242372c1f23cc9adedfcdd6" approved="yes">
         <source>Category root</source>
         <target state="final">קטגוריה ראשית</target>
-        <note>Line: 441</note>
+        <note>Line: 451</note>
       </trans-unit>
     </body>
   </file>
@@ -703,6 +710,16 @@
         <source>List of empty categories:</source>
         <target state="final">רשימת קטגוריות חלולות:</target>
         <note>Line: 113</note>
+      </trans-unit>
+      <trans-unit id="0181e2b8568143a3608fea8e657a81cb" approved="yes">
+        <source>List of products with combinations but without available quantities for sale:</source>
+        <target state="final">רשימה של מוצרים עם תכונות ובלי כמויות זמינות למכירה:</target>
+        <note>Line: 158</note>
+      </trans-unit>
+      <trans-unit id="d06aa90bdc7545b64a808ef956b20b77" approved="yes">
+        <source>List of products without combinations and without available quantities for sale:</source>
+        <target state="final">רשימת מוצרים ללא תכונות ובלי כמויות זמינות למכירה</target>
+        <note>Line: 203</note>
       </trans-unit>
       <trans-unit id="bcaad756615668f5e8e0447aa36f4f22" approved="yes">
         <source>Product disabled</source>
@@ -751,6 +768,16 @@
         <source>Mark as "pending 2" (will be answered later)</source>
         <target state="final">סמן את מצב הטיפול כ- 'בתהליך 2' (ייענה בהמשך)</target>
         <note>Line: 312</note>
+      </trans-unit>
+      <trans-unit id="119ce51409ff0ec366e67df0c852ede7" approved="yes">
+        <source>Message to: </source>
+        <target state="final">הודעה אל: </target>
+        <note>Line: 782</note>
+      </trans-unit>
+      <trans-unit id="ed96f783e467cc984e4945063760e2c4" approved="yes">
+        <source>Product: </source>
+        <target state="final">מוצר: </target>
+        <note>Line: 785</note>
       </trans-unit>
       <trans-unit id="24a23d787190f2c4812ff9ab11847a72" approved="yes">
         <source>Status:</source>
@@ -810,7 +837,71 @@
       <trans-unit id="4e021cd834848e751e2d1bc66cee697d" approved="yes">
         <source>All combinations</source>
         <target state="final">כל הצירופים</target>
-        <note>Line: 470</note>
+        <note>Line: 473</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/Adapter/Product/ProductDuplicator.php" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
+  <file original="src/Core/Form/ChoiceProvider/DeliveryTimeNoteTypesProvider.php" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      <trans-unit id="6adf97f83acf6453d4a6a4b1070f3754" approved="yes">
+        <source>None</source>
+        <target state="final">ללא</target>
+        <note>Line: 60</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/Core/Form/ChoiceProvider/OutOfStockTypeChoiceProvider.php" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      <trans-unit id="989d17fa8f3081cc0d66838c7504c0ef" approved="yes">
+        <source>Use default behavior</source>
+        <target state="final">התנהגות ברירת מחדל</target>
+        <note>Line: 71</note>
+      </trans-unit>
+      <trans-unit id="119a7c88cf8f1c685c57981abff26f43" approved="yes">
+        <source>Allow orders</source>
+        <target state="final">אפשר הזמנות</target>
+        <note>Line: 66</note>
+      </trans-unit>
+      <trans-unit id="f072da215c080d985d44361e96a3cf60" approved="yes">
+        <source>Deny orders</source>
+        <target state="final">דחה הזמנות</target>
+        <note>Line: 67</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/Core/Form/ChoiceProvider/PackStockTypeChoiceProvider.php" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      
+      
+      
+    </body>
+  </file>
+  <file original="src/Core/Form/ChoiceProvider/ProductVisibilityChoiceProvider.php" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      <trans-unit id="13787cfb1a15ae6690a29d3895c54de9" approved="yes">
+        <source>Everywhere</source>
+        <target state="final">בכל מקום</target>
+        <note>Line: 57</note>
+      </trans-unit>
+      <trans-unit id="96c7d7f87187cc14ead1f887407d0edc" approved="yes">
+        <source>Catalog only</source>
+        <target state="final">קטלוג בלבד</target>
+        <note>Line: 58</note>
+      </trans-unit>
+      <trans-unit id="2ba18b8df558ceaabcc89f3a16772a9b" approved="yes">
+        <source>Search only</source>
+        <target state="final">חיפוש בלבד</target>
+        <note>Line: 59</note>
+      </trans-unit>
+      <trans-unit id="e56fc964976b3770a35b2d6fb4b78224" approved="yes">
+        <source>Nowhere</source>
+        <target state="final">בשום מקום</target>
+        <note>Line: 60</note>
       </trans-unit>
     </body>
   </file>
@@ -828,7 +919,7 @@
       <trans-unit id="cb5feb1b7314637725a2e73bdc9f7295" approved="yes">
         <source>Color</source>
         <target state="final">צבע</target>
-        <note>Line: 124</note>
+        <note>Line: 127</note>
       </trans-unit>
     </body>
   </file>
@@ -837,7 +928,16 @@
       <trans-unit id="287234a1ff35a314b5b6bc4e5828e745" approved="yes">
         <source>Attributes</source>
         <target state="final">מאפיינים</target>
-        <note>Line: 67</note>
+        <note>Line: 69</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/Core/Grid/Definition/Factory/CartRuleGridDefinitionFactory.php" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      <trans-unit id="3b8c8bf8ab2226d5a44454a20ad7fafb" approved="yes">
+        <source>Cart rules</source>
+        <target state="final">כללי עגלת קניות</target>
+        <note>Line: 96</note>
       </trans-unit>
     </body>
   </file>
@@ -860,7 +960,7 @@
       <trans-unit id="068f80c7519d0528fb08e82137a72131" approved="yes">
         <source>Products</source>
         <target state="final">מוצרים</target>
-        <note>Line: 110</note>
+        <note>Line: 111</note>
       </trans-unit>
     </body>
   </file>
@@ -869,7 +969,7 @@
       <trans-unit id="40be52ec4b8eab2321f116914858ce6a" approved="yes">
         <source>List of disabled products</source>
         <target state="final">רשימת מוצרים לא פעילים</target>
-        <note>Line: 50</note>
+        <note>Line: 51</note>
       </trans-unit>
     </body>
   </file>
@@ -878,18 +978,26 @@
       <trans-unit id="8511eef728f09be78f935941241578c7" approved="yes">
         <source>List of empty categories</source>
         <target state="final">רשימת קטגוריות ריקות</target>
-        <note>Line: 66</note>
+        <note>Line: 67</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/Core/Grid/Definition/Factory/Monitoring/NoQtyProductWithCombinationGridDefinitionFactory.php" source-language="en" target-language="he" datatype="plaintext">
     <body>
-      
+      <trans-unit id="ad79f1253adf32ad5c1b3c331c6864de" approved="yes">
+        <source>List of products with combinations but without available quantities for sale</source>
+        <target state="final">רשימה של מוצרים עם תכונות ובלי כמויות זמינות למכירה</target>
+        <note>Line: 42</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Core/Grid/Definition/Factory/Monitoring/NoQtyProductWithoutCombinationGridDefinitionFactory.php" source-language="en" target-language="he" datatype="plaintext">
     <body>
-      
+      <trans-unit id="cea1a913460b995e71439f5750675dcb" approved="yes">
+        <source>List of products without combinations and without available quantities for sale</source>
+        <target state="final">רשימת מוצרים ללא תכונות ובלי כמויות זמינות למכירה</target>
+        <note>Line: 42</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Core/Grid/Definition/Factory/Monitoring/ProductWithoutDescriptionGridDefinitionFactory.php" source-language="en" target-language="he" datatype="plaintext">
@@ -924,7 +1032,7 @@
       <trans-unit id="990fc90e39367377c314f1d61522ae61" approved="yes">
         <source>Number of products</source>
         <target state="final">מספר המוצרים</target>
-        <note>Line: 196</note>
+        <note>Line: 190</note>
       </trans-unit>
     </body>
   </file>
@@ -949,10 +1057,24 @@
         <target state="final">מצב</target>
         <note>Line: 119</note>
       </trans-unit>
+      <trans-unit id="af39c53c91dc46e2576f28b843b82988" approved="yes">
+        <source>Label when in stock</source>
+        <target state="final">תווית כאשר במלאי</target>
+        <note>Line: 108</note>
+      </trans-unit>
       <trans-unit id="c925e061d42989c43e6d3a7e43f2a878" approved="yes">
         <source>Number of allowed downloads</source>
         <target state="final">מספר ההורדות המורשות</target>
         <note>Line: 128</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/Core/Import/EntityField/Provider/SupplierFieldsProvider.php" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      <trans-unit id="c1069a480848e06782b81b8bea9c0c94" approved="yes">
+        <source>Short description</source>
+        <target state="final">תיאור קצר</target>
+        <note>Line: 61</note>
       </trans-unit>
     </body>
   </file>
@@ -963,6 +1085,11 @@
         <target state="final">בחירת ערך</target>
         <note>Line: 58</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/ProductController.php" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/ProductImageController.php" source-language="en" target-language="he" datatype="plaintext">
@@ -977,6 +1104,11 @@
         <target state="final">כותרת</target>
         <note>Line: 139</note>
       </trans-unit>
+      <trans-unit id="84967207ddc311cfbe8ee66f677a1544" approved="yes">
+        <source>Cover image</source>
+        <target state="final">תמונת נושא</target>
+        <note>Line: 143</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/CategoryController.php" source-language="en" target-language="he" datatype="plaintext">
@@ -984,12 +1116,26 @@
       <trans-unit id="5f573e91e5eaa092e00a4c4df393c0cb" approved="yes">
         <source>Add new root category</source>
         <target state="final">הוסף קטגורית שורש חדשה</target>
-        <note>Line: 746</note>
+        <note>Line: 815</note>
       </trans-unit>
       <trans-unit id="d0d4e3688fdaee5afa292083b855e143" approved="yes">
         <source>Add new category</source>
         <target state="final">הוסף קטגוריה חדשה</target>
-        <note>Line: 758</note>
+        <note>Line: 827</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/CombinationController.php" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      <trans-unit id="2438bf77baed0680f816ca0f4a7d0321" approved="yes">
+        <source>Availability date</source>
+        <target state="final">תאריך זמינות</target>
+        <note>Line: 417</note>
+      </trans-unit>
+      <trans-unit id="6014344a66ff2f266fb4bc987178493f" approved="yes">
+        <source>Minimum quantity for sale</source>
+        <target state="final">כמות המינימלית למכירה</target>
+        <note>Line: 422</note>
       </trans-unit>
     </body>
   </file>
@@ -1040,26 +1186,41 @@
       <trans-unit id="cc11780aa5b292dfe984aefc0d76bfad" approved="yes">
         <source>ISBN code</source>
         <target state="final">קוד ISBN</target>
-        <note>Line: 93</note>
+        <note>Line: 111</note>
+      </trans-unit>
+      <trans-unit id="a04586da5cc69ed7dee68e3b26786999" approved="yes">
+        <source>Impact on price per unit (tax excl.)</source>
+        <target state="final">השפעה על המחיר (ללא כולל מס)</target>
+        <note>Line: 168</note>
       </trans-unit>
       <trans-unit id="92fa99e34de79a48fc85c66eb627e70f" approved="yes">
         <source>Min. quantity for sale</source>
         <target state="final">כמות מינימלית למכירה</target>
-        <note>Line: 155</note>
+        <note>Line: 174</note>
+      </trans-unit>
+      <trans-unit id="e9d0876ad242d421e19d583f6f379f5f" approved="yes">
+        <source>Set as default combination</source>
+        <target state="final">הגדר כתכונה ברירת מחדל</target>
+        <note>Line: 208</note>
+      </trans-unit>
+      <trans-unit id="a22ed40bafe8f07b6d02c4a4966c8aea" approved="yes">
+        <source>Select images of this combination:</source>
+        <target state="final">בחר תמונות של תכונה זו:</target>
+        <note>Line: 231</note>
       </trans-unit>
       <trans-unit id="ed26f5ba7a0f0f6ca8b16c3886eb68ad" approved="yes">
         <source>Final price</source>
         <target state="final">מחיר סופי</target>
-        <note>Line: 217</note>
+        <note>Line: 236</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Product/ProductCombinationBulk.php" source-language="en" target-language="he" datatype="plaintext">
     <body>
-      <trans-unit id="2438bf77baed0680f816ca0f4a7d0321" approved="yes">
-        <source>Availability date</source>
-        <target state="final">תאריך זמינות</target>
-        <note>Line: 91</note>
+      <trans-unit id="152feab7588733220c3720773724c8d5" approved="yes">
+        <source>Impact on price (tax incl.)</source>
+        <target state="final">ההשפעה על המחיר (כולל מס)</target>
+        <note>Line: 86</note>
       </trans-unit>
       <trans-unit id="2a84584d4f095b4f6e660db58b9576d3" approved="yes">
         <source>Cost Price</source>
@@ -1078,37 +1239,42 @@
       <trans-unit id="2b5d1ce10d1df2892eb6033604e4df0b" approved="yes">
         <source>Standard product</source>
         <target state="final">מוצר רגיל</target>
-        <note>Line: 135</note>
+        <note>Line: 189</note>
       </trans-unit>
       <trans-unit id="49a2d6f2a33dc367666a860bff4a8f5f" approved="yes">
         <source>Pack of products</source>
         <target state="final">חבילת מוצר</target>
-        <note>Line: 136</note>
+        <note>Line: 190</note>
+      </trans-unit>
+      <trans-unit id="27818c0656c429503efc4e67e149bcc7" approved="yes">
+        <source>Add products to your pack</source>
+        <target state="final">הוסף מוצר לחבילה זו</target>
+        <note>Line: 211</note>
       </trans-unit>
       <trans-unit id="4c32794a96aec43624f14839274174bf" approved="yes">
         <source>Pre-tax retail price</source>
         <target state="final">מחיר לצרכן לפני מס</target>
-        <note>Line: 240</note>
+        <note>Line: 295</note>
       </trans-unit>
       <trans-unit id="ce0ec0f2b759fa68416e3bc96ee59276" approved="yes">
         <source>Retail price with tax</source>
         <target state="final">מחיר לצרכן כולל מס</target>
-        <note>Line: 250</note>
+        <note>Line: 305</note>
       </trans-unit>
       <trans-unit id="a17f5bc22553d897f6363867c0165256" approved="yes">
         <source>Default category</source>
         <target state="final">קטגוריית ברירת המחדל</target>
-        <note>Line: 275</note>
+        <note>Line: 330</note>
       </trans-unit>
       <trans-unit id="46c8280e993148f9cc6e26875d972169" approved="yes">
         <source>Add a new category</source>
         <target state="final">הוספת קטגוריה חדשה</target>
-        <note>Line: 282</note>
+        <note>Line: 337</note>
       </trans-unit>
       <trans-unit id="98edb85b00d9527ad5acebe451b3fae6" approved="yes">
         <source>Accessories</source>
         <target state="final">תוספות</target>
-        <note>Line: 294</note>
+        <note>Line: 349</note>
       </trans-unit>
     </body>
   </file>
@@ -1123,26 +1289,6 @@
         <source>EAN-13 or JAN barcode</source>
         <target state="final">EAN-13 או JAN ברקוד</target>
         <note>Line: 182</note>
-      </trans-unit>
-      <trans-unit id="13787cfb1a15ae6690a29d3895c54de9" approved="yes">
-        <source>Everywhere</source>
-        <target state="final">בכל מקום</target>
-        <note>Line: 103</note>
-      </trans-unit>
-      <trans-unit id="96c7d7f87187cc14ead1f887407d0edc" approved="yes">
-        <source>Catalog only</source>
-        <target state="final">קטלוג בלבד</target>
-        <note>Line: 104</note>
-      </trans-unit>
-      <trans-unit id="2ba18b8df558ceaabcc89f3a16772a9b" approved="yes">
-        <source>Search only</source>
-        <target state="final">חיפוש בלבד</target>
-        <note>Line: 105</note>
-      </trans-unit>
-      <trans-unit id="e56fc964976b3770a35b2d6fb4b78224" approved="yes">
-        <source>Nowhere</source>
-        <target state="final">בשום מקום</target>
-        <note>Line: 106</note>
       </trans-unit>
       <trans-unit id="d1109f3240d262e842e8f6ff5ea755d9" approved="yes">
         <source>Display options</source>
@@ -1159,6 +1305,31 @@
         <target state="final">הצג מחירים</target>
         <note>Line: 146</note>
       </trans-unit>
+      <trans-unit id="fd531d460cecb407f3628d25c4574acc" approved="yes">
+        <source>Web only (not sold in your retail store)</source>
+        <target state="final">באינטרנט בלבד (לא נמכר בחנות הקמעונאית שלך)</target>
+        <note>Line: 155</note>
+      </trans-unit>
+      <trans-unit id="9609dddf3618cff8f67b7829e6fc575e" approved="yes">
+        <source>ISBN</source>
+        <target state="final">מסת"ב ISBN</target>
+        <note>Line: 190</note>
+      </trans-unit>
+      <trans-unit id="527618353332c282892ba960ef1f0230" approved="yes">
+        <source>Display condition on product page</source>
+        <target state="final">הצג / הסתר מצב בדף המוצר.</target>
+        <note>Line: 203</note>
+      </trans-unit>
+      <trans-unit id="efb78d0dd61da3bb7e5ca1770b894420" approved="yes">
+        <source>Default suppliers</source>
+        <target state="final">ספק ברירת מחדל</target>
+        <note>Line: 235</note>
+      </trans-unit>
+      <trans-unit id="9d38722749ec2101e437414ac2a743f9" approved="yes">
+        <source>Attachments for this product:</source>
+        <target state="final">קבצים מצורפים למוצר זה:</target>
+        <note>Line: 285</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Product/ProductPrice.php" source-language="en" target-language="he" datatype="plaintext">
@@ -1166,12 +1337,17 @@
       <trans-unit id="6f3455d187a23443796efdcbe044096b" approved="yes">
         <source>No tax</source>
         <target state="final">ללא מס</target>
-        <note>Line: 89</note>
+        <note>Line: 155</note>
       </trans-unit>
       <trans-unit id="c265e7bd60b9bf0470d39a8ef87e0727" approved="yes">
         <source>Ecotax (tax incl.)</source>
         <target state="final">מס אקולוגי (כולל מס)</target>
-        <note>Line: 120</note>
+        <note>Line: 186</note>
+      </trans-unit>
+      <trans-unit id="133bc9aa44eaaf809041c01ea1361a07" approved="yes">
+        <source>Display the "On sale!" flag on the product page, and on product listings.</source>
+        <target state="final">הצג את הסימן "במבצע!" דגל בדף המוצרים וברשימות המוצרים.</target>
+        <note>Line: 220</note>
       </trans-unit>
       <trans-unit id="1ea8a394583d38bd981b70c7dcebb104" approved="yes">
         <source>Price per unit (tax excl.)</source>
@@ -1181,7 +1357,7 @@
       <trans-unit id="48881913e6addc0c3c439f02229ac91e" approved="yes">
         <source>Apply to all products</source>
         <target state="final">החל על כל המוצרים</target>
-        <note>Line: 198</note>
+        <note>Line: 264</note>
       </trans-unit>
     </body>
   </file>
@@ -1190,47 +1366,37 @@
       <trans-unit id="b2c80334809f9130d46e89b66b6d8544" approved="yes">
         <source>Create combinations</source>
         <target state="final">יצירת צירופים</target>
-        <note>Line: 89</note>
+        <note>Line: 111</note>
       </trans-unit>
       <trans-unit id="66de7ffcf9f515fb047045299ab0b3a3" approved="yes">
         <source>I want to use the advanced stock management system for this product.</source>
         <target state="final">אני רוצה להשתמש במערכת הניהול המלאי המתקדמת עבור מוצר זה</target>
-        <note>Line: 99</note>
+        <note>Line: 121</note>
       </trans-unit>
       <trans-unit id="4aeb39ce058edebf91ef47818c092420" approved="yes">
         <source>The available quantities for the current product and its combinations are based on the stock in your warehouse (using the advanced stock management system). </source>
         <target state="final">הכמויות הזמינות עבור המוצר הנוכחי והשילובים שלה מבוססות על המלאי במחסן שלך (באמצעות מערכת ניהול מלאי מתקדם). </target>
-        <note>Line: 115</note>
+        <note>Line: 137</note>
       </trans-unit>
       <trans-unit id="78ab705faa894d700a6db78ffa88bb24" approved="yes">
         <source>I want to specify available quantities manually.</source>
         <target state="final">ברצוני לציין ידנית כמויות זמינות</target>
-        <note>Line: 120</note>
+        <note>Line: 142</note>
       </trans-unit>
-      <trans-unit id="6014344a66ff2f266fb4bc987178493f" approved="yes">
-        <source>Minimum quantity for sale</source>
-        <target state="final">כמות המינימלית למכירה</target>
-        <note>Line: 155</note>
+      <trans-unit id="a532f6edbb8880c752b74073710b285a" approved="yes">
+        <source>Label when out of stock (and back order allowed)</source>
+        <target state="final">תווית כאשר אזל מהמלאי (וההזמנה מותרת)</target>
+        <note>Line: 238</note>
       </trans-unit>
       <trans-unit id="6ece9a14d0c8da14a1af607f9f7e0b36" approved="yes">
         <source>Does this product have an associated file?</source>
         <target state="final">האם למוצר זה יש קובץ קשור?</target>
-        <note>Line: 237</note>
-      </trans-unit>
-      <trans-unit id="119a7c88cf8f1c685c57981abff26f43" approved="yes">
-        <source>Allow orders</source>
-        <target state="final">אפשר הזמנות</target>
-        <note>Line: 266</note>
-      </trans-unit>
-      <trans-unit id="f072da215c080d985d44361e96a3cf60" approved="yes">
-        <source>Deny orders</source>
-        <target state="final">דחה הזמנות</target>
-        <note>Line: 265</note>
+        <note>Line: 259</note>
       </trans-unit>
       <trans-unit id="5ce00f66be3fd54e40eab844c446e80d" approved="yes">
         <source>When out of stock</source>
         <target state="final">כאשר חסר במלאי</target>
-        <note>Line: 272</note>
+        <note>Line: 294</note>
       </trans-unit>
     </body>
   </file>
@@ -1239,17 +1405,62 @@
       <trans-unit id="3f64b2beede1082fd32ddb0bf11a641f" approved="yes">
         <source>Meta description</source>
         <target state="final">תיאור Meta</target>
-        <note>Line: 115</note>
+        <note>Line: 133</note>
       </trans-unit>
       <trans-unit id="1dec4f55522b828fe5dacf8478021a9e" approved="yes">
         <source>Friendly URL</source>
         <target state="final">כתובת ידידותית</target>
-        <note>Line: 136</note>
+        <note>Line: 154</note>
+      </trans-unit>
+      <trans-unit id="34c6d1495d38f91ae785bc94849dc771" approved="yes">
+        <source>Permanent redirection to a category (301)</source>
+        <target state="final">הפניה קבועה לקטגוריה (301)</target>
+        <note>Line: 162</note>
+      </trans-unit>
+      <trans-unit id="7a13ef5d084a640d199018c55d415fac" approved="yes">
+        <source>Temporary redirection to a category (302)</source>
+        <target state="final">הפניה זמנית לקטגוריה (302)</target>
+        <note>Line: 163</note>
+      </trans-unit>
+      <trans-unit id="5c841800fb570244d423fe0b273665fb" approved="yes">
+        <source>Permanent redirection to a product (301)</source>
+        <target state="final">הפניה קבועה למוצר (301)</target>
+        <note>Line: 164</note>
+      </trans-unit>
+      <trans-unit id="c36c68b574bddf55fe3ec5b8cc56a824" approved="yes">
+        <source>Temporary redirection to a product (302)</source>
+        <target state="final">הפניה זמנית למוצר (302)</target>
+        <note>Line: 165</note>
       </trans-unit>
       <trans-unit id="bae20d24a114242f9549679af3255ace" approved="yes">
         <source>No redirection (404)</source>
         <target state="final">ללא הפניה (404)</target>
-        <note>Line: 148</note>
+        <note>Line: 166</note>
+      </trans-unit>
+      <trans-unit id="eab55e617090957b953e3dbdd801eea4" approved="yes">
+        <source>Redirection when offline</source>
+        <target state="final">הפניה מחדש במצב לא מקוון</target>
+        <note>Line: 176</note>
+      </trans-unit>
+      <trans-unit id="2afea1f31bf30bdcef8b3316025d6ae5" approved="yes">
+        <source>Target product</source>
+        <target state="final">יעד מוצר</target>
+        <note>Line: 178</note>
+      </trans-unit>
+      <trans-unit id="f66b691f01d53d5af582136ebb63cfc5" approved="yes">
+        <source>Target category</source>
+        <target state="final">קטגוריית יעד</target>
+        <note>Line: 180</note>
+      </trans-unit>
+      <trans-unit id="c41a31890959544c6523af684561abe5" approved="yes">
+        <source>Target</source>
+        <target state="final">יעד</target>
+        <note>Line: 197</note>
+      </trans-unit>
+      <trans-unit id="9e11e4b371570340ca07913bc4783a7a" approved="yes">
+        <source>Meta title</source>
+        <target state="final">כותרת Meta</target>
+        <note>Line: 108</note>
       </trans-unit>
     </body>
   </file>
@@ -1258,37 +1469,37 @@
       <trans-unit id="32954654ac8fe66a1d09be19001de2d4" approved="yes">
         <source>Width</source>
         <target state="final">רוחב</target>
-        <note>Line: 92</note>
+        <note>Line: 118</note>
       </trans-unit>
       <trans-unit id="eec6c4bdbd339edf8cbea68becb85244" approved="yes">
         <source>Height</source>
         <target state="final">גובה</target>
-        <note>Line: 104</note>
+        <note>Line: 130</note>
       </trans-unit>
       <trans-unit id="675056ad1441b6375b2c5abd48c27ef1" approved="yes">
         <source>Depth</source>
         <target state="final">עומק</target>
-        <note>Line: 116</note>
+        <note>Line: 142</note>
       </trans-unit>
       <trans-unit id="8c489d0946f66d17d73f26366a4bf620" approved="yes">
         <source>Weight</source>
         <target state="final">משקל</target>
-        <note>Line: 128</note>
+        <note>Line: 154</note>
       </trans-unit>
       <trans-unit id="6fa573b52d8f35231304916ea67f94a8" approved="yes">
         <source>Shipping fees</source>
         <target state="final">עלות המשלוח</target>
-        <note>Line: 140</note>
+        <note>Line: 166</note>
       </trans-unit>
       <trans-unit id="582d519b697f8d1a558e91220beea671" approved="yes">
         <source>Available carriers</source>
         <target state="final">מובילים זמינים</target>
-        <note>Line: 156</note>
+        <note>Line: 182</note>
       </trans-unit>
       <trans-unit id="205b01b3197cf06688f6ed574faf5664" approved="yes">
         <source>Delivery Time</source>
         <target state="final">זמן אספקה</target>
-        <note>Line: 173</note>
+        <note>Line: 199</note>
       </trans-unit>
     </body>
   </file>
@@ -1297,32 +1508,37 @@
       <trans-unit id="8766423201bb422154bcad9d1d590207" approved="yes">
         <source>Leave initial price</source>
         <target state="final">השאר מחיר ראשוני</target>
-        <note>Line: 238</note>
+        <note>Line: 284</note>
       </trans-unit>
       <trans-unit id="e3ec664efb1dcbafb161a2da6c0e5b3b" approved="yes">
         <source>Add customer</source>
         <target state="final">הוסף לקוח</target>
-        <note>Line: 176</note>
+        <note>Line: 222</note>
       </trans-unit>
       <trans-unit id="c77b86cdeed7ed9197db5858fa3b5fd0" approved="yes">
         <source>Apply to all combinations</source>
         <target state="final">הפעל על כל הצירופים</target>
-        <note>Line: 185</note>
+        <note>Line: 231</note>
       </trans-unit>
       <trans-unit id="1432596d084873bee8df589b0b01448c" approved="yes">
         <source>Available from</source>
         <target state="final">זמינים מ</target>
-        <note>Line: 199</note>
+        <note>Line: 245</note>
       </trans-unit>
       <trans-unit id="95b6faa9d75417fe5e7767a733ab6fb4" approved="yes">
         <source>Starting at</source>
         <target state="final">מתחיל ב</target>
-        <note>Line: 217</note>
+        <note>Line: 263</note>
       </trans-unit>
       <trans-unit id="7015235e67d6f01728b655ca7bc8e8ae" approved="yes">
         <source>Product price (tax excl.)</source>
         <target state="final">מחיר מוצר (ללא מע''מ)</target>
-        <note>Line: 228</note>
+        <note>Line: 274</note>
+      </trans-unit>
+      <trans-unit id="9bccc98ae31786b6062c540931d1467e" approved="yes">
+        <source>Reduction tax</source>
+        <target state="final">מס הפחתה</target>
+        <note>Line: 312</note>
       </trans-unit>
     </body>
   </file>
@@ -1349,6 +1565,46 @@
       </trans-unit>
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Basic/BasicType.php" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Basic/ManufacturerType.php" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      <trans-unit id="8e41eae149ff3fa38cc9c4fde945f2c3" approved="yes">
+        <source>No brand</source>
+        <target state="final">ללא מותג</target>
+        <note>Line: 70</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/FooterType.php" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Image/ImageDropzoneType.php" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Options/ReferencesType.php" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Pricing/PricingType.php" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Shortcut/ShortcutsType.php" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Common/Grid/Blocks/EmptyState/attachment.html.twig" source-language="en" target-language="he" datatype="plaintext">
     <body>
       <trans-unit id="3f1f6fb24d408c8ddead60bd41063b02" approved="yes">
@@ -1356,12 +1612,30 @@
         <target state="final">הוספת קובץ</target>
         <note>Line: 37</note>
       </trans-unit>
+      <trans-unit id="776621e3c38c248650c0b97b90b995ff" approved="yes">
+        <source>Upload files here</source>
+        <target state="final">העלה קבצים לכאן</target>
+        <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="5c24f29d9da6d40aa53bf565ec91b13d" approved="yes">
+        <source>Make some files available to your customers and facilitate their purchasing environment by adding them just here! It can be instruction manuals, technical works or anything you want to attach to a product.</source>
+        <target state="final">הפוך כמה קבצים לזמינים ללקוחותיך והקל על סביבת הרכישה שלהם על ידי הוספתם רק כאן! זה יכול להיות מדריכי הוראות, עבודות טכניות או כל דבר שתרצו לצרף למוצר.</target>
+        <note>Line: 32</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Common/Grid/Blocks/EmptyState/credit_slip.html.twig" source-language="en" target-language="he" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="473c840259ec075c2c2feb16d989b7f2" approved="yes">
+        <source>Manage your credit slips</source>
+        <target state="final">נהל את תלושי האשראי שלך</target>
+        <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="3c67eb9783a941badbdf91bff38e6e2d" approved="yes">
+        <source>When a customer returns a product, a credit slip must be created in his favor. Generate vouchers and have a look at their follow-up.</source>
+        <target state="final">כאשר לקוח מחזיר מוצר יש ליצור חשבונית זיכוי /החזר לטובתו. צור שוברים והסתכל במעקב שלהם.</target>
+        <note>Line: 32</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Common/Grid/Blocks/EmptyState/supplier.html.twig" source-language="en" target-language="he" datatype="plaintext">
@@ -1371,15 +1645,35 @@
         <target state="final">הוסף ספק חדש</target>
         <note>Line: 37</note>
       </trans-unit>
+      <trans-unit id="70e24c376122aa76e6724ee480338c8e" approved="yes">
+        <source>Keep in touch with your suppliers</source>
+        <target state="final">שמור על קשר עם הספקים שלך</target>
+        <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="0cba638dddf4789e0c1157decb1eacbe" approved="yes">
+        <source>Having suppliers is optional if brands supply you directly. Make sure you don't confuse product suppliers and product brands to facilitate stock management.</source>
+        <target state="final">קיום ספקים הוא אופציונלי אם מותגים מספקים לך ישירות. הקפד לא לבלבל בין ספקי מוצרים לבין מותגי מוצרים כדי להקל על ניהול המלאי.</target>
+        <note>Line: 32</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Common/pagination.html.twig" source-language="en" target-language="he" datatype="plaintext">
     <body>
+      <trans-unit id="41d2418efb64cdecb72df1e2aeb7a36b" approved="yes">
+        <source>Viewing %from%-%to% on %total% (page %current_page% / %page_count%)</source>
+        <target state="final">צופה %from%-%to% ב %total% (דף %current_page% / %page_count%)</target>
+        <note>Line: 45</note>
+      </trans-unit>
       <trans-unit id="a0c13a65c06cd78909e5842e19af2c49" approved="yes">
         <source>Items per page:</source>
         <target state="final">פריטים בעמוד:</target>
         <note>Line: 56</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Common/unavailable-feature.html.twig" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/International/Language/edit.html.twig" source-language="en" target-language="he" datatype="plaintext">
@@ -1403,20 +1697,34 @@
         <target state="final">קטגוריה</target>
         <note>Line: 54</note>
       </trans-unit>
+      <trans-unit id="e192956d901dff59c35fd2c477ed28d6" approved="yes">
+        <source>Price (tax excl.)</source>
+        <target state="final">מחיר (לא כולל מס)</target>
+        <note>Line: 57</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/catalog.html.twig" source-language="en" target-language="he" datatype="plaintext">
     <body>
+      <trans-unit id="71d6cf2ac276a448f7845e8422fa0db3" approved="yes">
+        <source>These products will be deleted for good. Please confirm.</source>
+        <target state="final">מוצרים אלה יימחקו לתמיד. אנא אשר.</target>
+        <note>Line: 209</note>
+      </trans-unit>
       <trans-unit id="3e1af49c086d77fb4f9826caec6dea12" approved="yes">
         <source>Delete products?</source>
         <target state="final">למחוק את המוצרים ?</target>
-        <note>Line: 194</note>
+        <note>Line: 198</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/catalog_empty.html.twig" source-language="en" target-language="he" datatype="plaintext">
     <body>
-      
+      <trans-unit id="432cfb26d9a4c71d6409e289771aedf1" approved="yes">
+        <source>[1]Add your first product[/1][2]or import a list of products (filetypes: .csv, .xls, .xlsx, .xlst, .ods, .ots).[/2]</source>
+        <target state="final">[1] הוסף את המוצר הראשון שלך [/1] [2] או ייבא רשימת מוצרים (סוגי קבצים: .csv, .xls, .xlsx, .xlst, .ods, .ots). [/2]</target>
+        <note>Line: 33</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Blocks/footer.html.twig" source-language="en" target-language="he" datatype="plaintext">
@@ -1424,12 +1732,12 @@
       <trans-unit id="d2adcceab126e15a1f46f5ed9980453e" approved="yes">
         <source>Go to catalog</source>
         <target state="final">חזרה לקטלוג</target>
-        <note>Line: 139</note>
+        <note>Line: 147</note>
       </trans-unit>
       <trans-unit id="3fa8c89ef63fbb7056fc1d8d1b67f97a" approved="yes">
         <source>Add new product</source>
         <target state="final">הוסף מוצר חדש</target>
-        <note>Line: 145</note>
+        <note>Line: 153</note>
       </trans-unit>
     </body>
   </file>
@@ -1444,6 +1752,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Blocks/tabs.html.twig" source-language="en" target-language="he" datatype="plaintext">
     <body>
+      <trans-unit id="ea9cf7e47ff33b2be14e6dd07cbcefc6" approved="yes">
+        <source>Shipping</source>
+        <target state="final">משלוח</target>
+        <note>Line: 33</note>
+      </trans-unit>
       <trans-unit id="93d74901738e996378295fb0a59bb977" approved="yes">
         <source>Basic settings</source>
         <target state="final">הגדרות בסיסיות</target>
@@ -1512,10 +1825,30 @@
         <target state="final">לחזור למוצר</target>
         <note>Line: 60</note>
       </trans-unit>
+      <trans-unit id="96aed2644a3249464e20729dc8c39fb2" approved="yes">
+        <source>Combination details</source>
+        <target state="final">פרטי שילוב</target>
+        <note>Line: 63</note>
+      </trans-unit>
+      <trans-unit id="dd35c12c6b5ac6280956afd466d99766" approved="yes">
+        <source>Price and impact</source>
+        <target state="final">מחיר והשפעה</target>
+        <note>Line: 135</note>
+      </trans-unit>
       <trans-unit id="d448559c3ac8f5b7e49b7162e5fbc7f1" approved="yes">
         <source>Final retail price (tax excl.) will be</source>
         <target state="final">המחיר הסופי (ללא מע''מ) יהיה</target>
         <note>Line: 164</note>
+      </trans-unit>
+      <trans-unit id="2477a8ca4d9fe0ce57184d2ae0c59647" approved="yes">
+        <source>Does this combination have a different price per unit?</source>
+        <target state="final">האם לשילוב זה מחיר שונה ליחידה?</target>
+        <note>Line: 180</note>
+      </trans-unit>
+      <trans-unit id="4c43a60b8005e29697dfbcf647f8096e" approved="yes">
+        <source>Specific references</source>
+        <target state="final">הפניות ספציפיות</target>
+        <note>Line: 200</note>
       </trans-unit>
       <trans-unit id="fff0d600f8a0b5e19e88bfb821dd1157" approved="yes">
         <source>Images</source>
@@ -1530,6 +1863,41 @@
         <source>Impact on price (tax excl.)</source>
         <target state="final">השפעה על המחיר (ללא מס)</target>
         <note>Line: 88</note>
+      </trans-unit>
+      <trans-unit id="7e64da36262d906a23b4b8614018bcd1" approved="yes">
+        <source>Manage your product combinations</source>
+        <target state="final">נהל את שילובי המוצרים שלך</target>
+        <note>Line: 28</note>
+      </trans-unit>
+      <trans-unit id="146cda0589b3eb8697196bdc05e6b049" approved="yes">
+        <source>Bulk actions ([1]/[2] combination(s) selected)</source>
+        <target state="final">פעולות גורפות ([1] / [2] שילוב (ים) נבחרו)</target>
+        <note>Line: 67</note>
+      </trans-unit>
+      <trans-unit id="7c52393eaa879dd8c3081f4c3c847846" approved="yes">
+        <source>Default combination</source>
+        <target state="final">שילוב ברירת מחדל</target>
+        <note>Line: 93</note>
+      </trans-unit>
+      <trans-unit id="410dcd654c1ca6b558fb122cec55f36f" approved="yes">
+        <source>Availability preferences</source>
+        <target state="final">העדפות זמינות</target>
+        <note>Line: 172</note>
+      </trans-unit>
+      <trans-unit id="4ad46e43817d735c3cadff659cc8a455" approved="yes">
+        <source>Behavior when out of stock</source>
+        <target state="final">פעולה כאשר אזל מהמלאי</target>
+        <note>Line: 176</note>
+      </trans-unit>
+      <trans-unit id="9a9d0d58778ce84d86a1f07df5867112" approved="yes">
+        <source>Stock management is disabled</source>
+        <target state="final">ניהול המלאי מושבת</target>
+        <note>Line: 194</note>
+      </trans-unit>
+      <trans-unit id="528b50268977416fd8aacb16d07c2cf8" approved="yes">
+        <source>Final price (tax excl.)</source>
+        <target state="final">מחיר סופי (ללא מע''מ)</target>
+        <note>Line: 89</note>
       </trans-unit>
     </body>
   </file>
@@ -1556,7 +1924,7 @@
       </trans-unit>
       <trans-unit id="b7dcc53b5fa2ee513b3eac152af1c8d1" approved="yes">
         <source>Add a brand</source>
-        <target state="final">אוספת מותג</target>
+        <target state="final">הוספת מותג</target>
         <note>Line: 44</note>
       </trans-unit>
     </body>
@@ -1568,14 +1936,34 @@
         <target state="final">מוצרים קשורים</target>
         <note>Line: 27</note>
       </trans-unit>
+      <trans-unit id="0e7abe02d1bb48b126ffaae21749ea13" approved="yes">
+        <source>Add a related product</source>
+        <target state="final">הוסף מוצרים נלווים</target>
+        <note>Line: 45</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_seo.html.twig" source-language="en" target-language="he" datatype="plaintext">
     <body>
+      <trans-unit id="f5a592018c8b55d2c968515ad7c58c91" approved="yes">
+        <source>Search Engine Optimization</source>
+        <target state="final">אופטימיזציה למנועי חיפוש</target>
+        <note>Line: 27</note>
+      </trans-unit>
+      <trans-unit id="926b7b9f596e468ebce7da2c42c1e27c" approved="yes">
+        <source>Improve your ranking and how your product page will appear in search engines results.</source>
+        <target state="final">שפר את הדירוג שלך ואיך דף המוצר שלך יופיע בתוצאות מנועי החיפוש.</target>
+        <note>Line: 28</note>
+      </trans-unit>
       <trans-unit id="e1be175ec06a5890119e29ffdb34631e" approved="yes">
         <source>Reset URL</source>
         <target state="final">אפס כתובת URL</target>
         <note>Line: 67</note>
+      </trans-unit>
+      <trans-unit id="e642dbf4ded4c06ae9feae332a0a83c4" approved="yes">
+        <source>Redirection page</source>
+        <target state="final">דף הפניה מחדש</target>
+        <note>Line: 96</note>
       </trans-unit>
     </body>
   </file>
@@ -1585,6 +1973,16 @@
         <source>Package dimension</source>
         <target state="final">מידות אריזה</target>
         <note>Line: 28</note>
+      </trans-unit>
+      <trans-unit id="05031e9ff989f03f9ed271ddebbad2e8" approved="yes">
+        <source>Adjust your shipping costs by filling in the product dimensions.</source>
+        <target state="final">התאם את עלויות המשלוח שלך על ידי מילוי מידות המוצר.</target>
+        <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="fb6d68835802519a7f425ca216778b15" approved="yes">
+        <source>Does this product incur additional shipping costs?</source>
+        <target state="final">האם מוצר זה כרוך בעלויות משלוח נוספות?</target>
+        <note>Line: 129</note>
       </trans-unit>
     </body>
   </file>
@@ -1614,6 +2012,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_supplier_choice.html.twig" source-language="en" target-language="he" datatype="plaintext">
     <body>
+      <trans-unit id="7e7371345a3de6936d16388f2f1315e2" approved="yes">
+        <source>Choose the suppliers associated with this product</source>
+        <target state="final">בחר את הספקים המשויכים למוצר זה</target>
+        <note>Line: 54</note>
+      </trans-unit>
       <trans-unit id="0b5c5a9176b94b7577e998f7440228a7" approved="yes">
         <source>Default supplier</source>
         <target state="final">ספק ברירת מחדל</target>
@@ -1623,11 +2026,6 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_supplier_combination.html.twig" source-language="en" target-language="he" datatype="plaintext">
     <body>
-      <trans-unit id="e192956d901dff59c35fd2c477ed28d6" approved="yes">
-        <source>Price (tax excl.)</source>
-        <target state="final">מחיר (לא כולל מס)</target>
-        <note>Line: 50</note>
-      </trans-unit>
       <trans-unit id="8284ae5df53e6e7ffc1f2cc67ae68765" approved="yes">
         <source>Supplier reference</source>
         <target state="final">הפניית ספק</target>
@@ -1663,52 +2061,62 @@
       <trans-unit id="694e8d1f2ee056f98ee488bdc4982d73" approved="yes">
         <source>Quantity</source>
         <target state="final">כמות</target>
-        <note>Line: 196</note>
+        <note>Line: 192</note>
       </trans-unit>
       <trans-unit id="290612199861c31d1036b185b4e69b75" approved="yes">
         <source>Summary</source>
         <target state="final">סיכום</target>
-        <note>Line: 95</note>
+        <note>Line: 94</note>
       </trans-unit>
       <trans-unit id="63d5049791d9d79d86e9a108b0a999ca" approved="yes">
         <source>Reference</source>
         <target state="final">רפרנס</target>
-        <note>Line: 181</note>
+        <note>Line: 177</note>
       </trans-unit>
       <trans-unit id="befcac0f9644a7abee43e69f49252ac4" approved="yes">
         <source>Tax excluded</source>
         <target state="final">לא כולל מס</target>
-        <note>Line: 221</note>
+        <note>Line: 217</note>
       </trans-unit>
       <trans-unit id="f4a0d7cb0cd45214c8ca5912c970de13" approved="yes">
         <source>Tax included</source>
         <target state="final">כולל מס</target>
-        <note>Line: 226</note>
+        <note>Line: 222</note>
       </trans-unit>
       <trans-unit id="d8409efcbf2c3444399daa83172dd35a" approved="yes">
         <source>Tax rule</source>
         <target state="final">כלל מס</target>
-        <note>Line: 252</note>
+        <note>Line: 248</note>
       </trans-unit>
       <trans-unit id="e84a11dfbf24b5bdcc71adef877f3157" approved="yes">
         <source>View all images</source>
         <target state="final">צפה בכל התמונות</target>
         <note>Line: 87</note>
       </trans-unit>
+      <trans-unit id="889f380bf53d998cf3be4466cd0a4359" approved="yes">
+        <source>View less</source>
+        <target state="final">הצג פחות</target>
+        <note>Line: 88</note>
+      </trans-unit>
       <trans-unit id="98f770b0af18ca763421bac22b4b6805" approved="yes">
         <source>Features</source>
         <target state="final">תכונות</target>
-        <note>Line: 113</note>
+        <note>Line: 109</note>
       </trans-unit>
       <trans-unit id="8408c9e822e4412516d0ac876d683b6c" approved="yes">
         <source>Add a feature</source>
         <target state="final">הוסף תכונה</target>
-        <note>Line: 128</note>
+        <note>Line: 124</note>
       </trans-unit>
       <trans-unit id="90d98afb8f4c3436765b9eb47127577d" approved="yes">
         <source>Simple product</source>
         <target state="final">מוצר בסיסי</target>
-        <note>Line: 161</note>
+        <note>Line: 157</note>
+      </trans-unit>
+      <trans-unit id="f99f15e7e2a30d8522f0a39ecf6bcc0d" approved="yes">
+        <source>Product with combinations</source>
+        <target state="final">מוצר עם שילובים</target>
+        <note>Line: 163</note>
       </trans-unit>
     </body>
   </file>
@@ -1729,6 +2137,46 @@
         <target state="final">היכן ברצונך להציג את המוצר?</target>
         <note>Line: 38</note>
       </trans-unit>
+      <trans-unit id="b7b224084f1aea992af0ae90ad7761a1" approved="yes">
+        <source><![CDATA[Condition & References]]></source>
+        <target state="final"><![CDATA[תכונות & אפשרויות מוצר]]></target>
+        <note>Line: 94</note>
+      </trans-unit>
+      <trans-unit id="55de886c2b1929108d8c8cf6d9a703cb" approved="yes">
+        <source>Customers can personalize the product by entering some text or by providing custom image files.</source>
+        <target state="final">לקוחות יכולים להתאים אישית את המוצר על ידי הזנת טקסט כלשהו או על ידי אספקת קבצי תמונה מותאמים אישית.</target>
+        <note>Line: 158</note>
+      </trans-unit>
+      <trans-unit id="513987b37a2501ed83af5686ed34624e" approved="yes">
+        <source>Add a customization field</source>
+        <target state="final">הוסף שדה התאמה אישית</target>
+        <note>Line: 172</note>
+      </trans-unit>
+      <trans-unit id="9fb17d168ec32414787e4f47ccd3812c" approved="yes">
+        <source>Attached files</source>
+        <target state="final">קבצים מצורפים</target>
+        <note>Line: 180</note>
+      </trans-unit>
+      <trans-unit id="3a97ab5db26de551af8e0e63c280d56f" approved="yes">
+        <source>Add files that customers can download directly on the product page (instructions, manual, recipe, etc.).</source>
+        <target state="final">הוסף קבצים שלקוחות יכולים להוריד ישירות בדף המוצר (הוראות, מדריך, מתכון וכו ').</target>
+        <note>Line: 170</note>
+      </trans-unit>
+      <trans-unit id="16be564a60317ed9d5eef83c90eaf225" approved="yes">
+        <source>Attach a new file</source>
+        <target state="final">צרף קובץ חדש</target>
+        <note>Line: 195</note>
+      </trans-unit>
+      <trans-unit id="5d61b7df81843484b86a8408f338cdce" approved="yes">
+        <source>Select the files (instructions, documentation, recipes, etc.) your customers can directly download on this product page.</source>
+        <target state="final">בחר את הקבצים (הוראות, תיעוד, מתכונים וכו ') שהלקוחות שלך יכולים להוריד ישירות בדף מוצר זה.</target>
+        <note>Line: 181</note>
+      </trans-unit>
+      <trans-unit id="39d2faca9fecc86571b17aabde1d9aee" approved="yes">
+        <source><![CDATA[Need to browse all files? Go to [1]Catalog > Files[/1]]]></source>
+        <target state="final"><![CDATA[צריך לדפדף בכל הקבצים? עבור אל [1] קטלוג> קבצים [/1]]]></target>
+        <note>Line: 181</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/pricing.html.twig" source-language="en" target-language="he" datatype="plaintext">
@@ -1743,45 +2191,60 @@
         <target state="final">מחיר לצרכן</target>
         <note>Line: 32</note>
       </trans-unit>
+      <trans-unit id="784cfc140d0ef59d7f48342f7f1636e0" approved="yes">
+        <source>Manage tax rules</source>
+        <target state="final">ניהול כללי המס</target>
+        <note>Line: 87</note>
+      </trans-unit>
+      <trans-unit id="ad6097fc9736641b0b94a1b5f02840f5" approved="yes">
+        <source>Final retail price: [1][2][/2] tax incl.[/1] / [3][/3] tax excl.</source>
+        <target state="final">מחיר קמעונאי סופי: [1] [2] [/2] כולל מס [/1] / [3] [/3] לא כולל מס.</target>
+        <note>Line: 98</note>
+      </trans-unit>
       <trans-unit id="5b14ab8904d8a735edd6ea4cff8f7b7c" approved="yes">
         <source>Specific prices</source>
         <target state="final">מחירים מיוחדים</target>
         <note>Line: 128</note>
       </trans-unit>
+      <trans-unit id="c625329eae5c7836f78bbdfc9e1fa577" approved="yes">
+        <source>Add a specific price</source>
+        <target state="final">הוסף מחיר ספציפי</target>
+        <note>Line: 137</note>
+      </trans-unit>
       <trans-unit id="ab7a485ebe75b6dd7243ad719f23c7de" approved="yes">
         <source>Rule</source>
         <target state="final">כלל</target>
-        <note>Line: 150</note>
+        <note>Line: 151</note>
       </trans-unit>
       <trans-unit id="47ac923d219501859fb68fed8c8db77b" approved="yes">
         <source>Combination</source>
         <target state="final">צירוף</target>
-        <note>Line: 151</note>
+        <note>Line: 152</note>
       </trans-unit>
       <trans-unit id="be6dfa820509f5ce1c052c2e5e0e3dff" approved="yes">
         <source>Fixed price</source>
         <target state="final">מחיר קבוע</target>
-        <note>Line: 156</note>
+        <note>Line: 157</note>
       </trans-unit>
       <trans-unit id="21f59b54f62b5b8b4bc0f63f0f617fc1" approved="yes">
         <source>Impact</source>
         <target state="final">השפעה</target>
-        <note>Line: 157</note>
+        <note>Line: 158</note>
       </trans-unit>
       <trans-unit id="5da618e8e4b89c66fe86e32cdafde142" approved="yes">
         <source>From</source>
         <target state="final">מ</target>
-        <note>Line: 159</note>
+        <note>Line: 160</note>
       </trans-unit>
       <trans-unit id="8e99fa97ef8d51d9215028842c7ad57c" approved="yes">
         <source>Priority management</source>
         <target state="final">ניהול עדיפויות</target>
-        <note>Line: 180</note>
+        <note>Line: 181</note>
       </trans-unit>
       <trans-unit id="8d3444a0aa942bf7a1979b8270f5c8e5" approved="yes">
         <source>Priorities</source>
         <target state="final">עדיפויות</target>
-        <note>Line: 187</note>
+        <note>Line: 188</note>
       </trans-unit>
     </body>
   </file>
@@ -1790,27 +2253,72 @@
       <trans-unit id="b9208b03bcc9eb4a336258dcdcb66207" approved="yes">
         <source>Combinations</source>
         <target state="final">צירופים</target>
-        <note>Line: 348</note>
+        <note>Line: 351</note>
       </trans-unit>
       <trans-unit id="c795dfff10a7c952f4c5438951e9ece9" approved="yes">
         <source>Cover</source>
         <target state="final">עטיפה</target>
+        <note>Line: 348</note>
+      </trans-unit>
+      <trans-unit id="23470f2faa48c53e6fb5fad4e3de3cdd" approved="yes">
+        <source>Virtual product</source>
+        <target state="final">מוצר וירטואלי</target>
+        <note>Line: 352</note>
+      </trans-unit>
+      <trans-unit id="e6a4d0e7d64f63379da06c91a80e9c90" approved="yes">
+        <source>Drop images here</source>
+        <target state="final">גרור תמונות לכאן</target>
         <note>Line: 344</note>
+      </trans-unit>
+      <trans-unit id="aaa5309487aacf50e6413cf7a3074618" approved="yes">
+        <source>or select files</source>
+        <target state="final">או בחר קבצים</target>
+        <note>Line: 345</note>
+      </trans-unit>
+      <trans-unit id="b36c5a58c30cc53bab5e9b3fda84755c" approved="yes">
+        <source>Recommended size 800 x 800px for default theme.</source>
+        <target state="final">גודל מומלץ 800X800 פיקסלים לנושא ברירת המחדל.</target>
+        <note>Line: 346</note>
+      </trans-unit>
+      <trans-unit id="0d23de90e7f537b035eb79a464eb8ecf" approved="yes">
+        <source>JPG, GIF or PNG format.</source>
+        <target state="final">פורמט JPEG או PNG או PNG</target>
+        <note>Line: 347</note>
       </trans-unit>
       <trans-unit id="e2e79605fc9450ec17957cf0e910f5c6" approved="yes">
         <source>tax incl.</source>
         <target state="final">כולל מיסים</target>
-        <note>Line: 350</note>
+        <note>Line: 353</note>
       </trans-unit>
       <trans-unit id="887ee91702c962a70b87cbef07bbcaec" approved="yes">
         <source>tax excl.</source>
         <target state="final">לא כולל מיסים</target>
-        <note>Line: 351</note>
+        <note>Line: 354</note>
+      </trans-unit>
+      <trans-unit id="942e86be019b92367d4b1cb917a9ae9c" approved="yes">
+        <source>Module to configure</source>
+        <target state="final">הגדרות מודל</target>
+        <note>Line: 188</note>
+      </trans-unit>
+      <trans-unit id="fd6d6ce9526e7db581ba81ee86373e9e" approved="yes">
+        <source>Choose a module to configure</source>
+        <target state="final">בחר מודול להגדרה</target>
+        <note>Line: 199</note>
+      </trans-unit>
+      <trans-unit id="4a3b597e8860a1592e5e1fec28d74ef4" approved="yes">
+        <source>These modules are relative to the product page of your shop.</source>
+        <target state="final">מודולים אלה הם יחסית לדף המוצר של החנות שלך.</target>
+        <note>Line: 200</note>
+      </trans-unit>
+      <trans-unit id="657c239908e72da26f995415f9b867a7" approved="yes">
+        <source>To manage all your modules go to the [1]Installed module page[/1]</source>
+        <target state="final">כדי לנהל את כל המודולים שלך עבור אל [1] דף מודולים מותקנים [/1]</target>
+        <note>Line: 201</note>
       </trans-unit>
       <trans-unit id="623a9a1f669b091dd76bead27c3252ed" approved="yes">
         <source>Quantities</source>
         <target state="final">כמויות</target>
-        <note>Line: 347</note>
+        <note>Line: 350</note>
       </trans-unit>
     </body>
   </file>
@@ -1834,8 +2342,16 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/AttributeGroup/Blocks/showcase_card.html.twig" source-language="en" target-language="he" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="71e6a8cdbd45cbecebca18763567a2a3" approved="yes">
+        <source>Create attributes</source>
+        <target state="final">צור תכונות חדשות</target>
+        <note>Line: 32</note>
+      </trans-unit>
+      <trans-unit id="dda0640c3826fab89da4359e3976d368" approved="yes">
+        <source>Color, dimension, size, disk space... think about attributes as properties that change from one product to another. As a consequence, attributes allow you to build product combinations.</source>
+        <target state="final">צבע, מימד, גודל, שטח דיסק ... חשוב על תכונות כאל תכונות המשתנות ממוצר אחד למשנהו. כתוצאה מכך, תכונות מאפשרות לך לבנות שילובי מוצרים.</target>
+        <note>Line: 33</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/AttributeGroup/index.html.twig" source-language="en" target-language="he" datatype="plaintext">
@@ -1890,24 +2406,37 @@
       <trans-unit id="52b68aaa602d202c340d9e4e9157f276" approved="yes">
         <source>Parent category</source>
         <target state="final">קטגוריית אב</target>
-        <note>Line: 59</note>
+        <note>Line: 63</note>
       </trans-unit>
       <trans-unit id="eea317348d82718d49f9a79189dc0f93" approved="yes">
         <source>Menu thumbnails</source>
         <target state="final">תמונות ממוזערות בתפריט</target>
-        <note>Line: 104</note>
+        <note>Line: 108</note>
       </trans-unit>
       <trans-unit id="920bd1fb6d54c93fca528ce941464225" approved="yes">
         <source>Group access</source>
         <target state="final">גישה לקבוצה</target>
-        <note>Line: 170</note>
+        <note>Line: 174</note>
+      </trans-unit>
+      <trans-unit id="8987d8bb6500cb0889946c2655e930b6" approved="yes">
+        <source>Category cover image</source>
+        <target state="final">תמונת שער לקטגוריה</target>
+        <note>Line: 78</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Categories/Blocks/showcase_card.html.twig" source-language="en" target-language="he" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="94c76260eec4d160218f96a4c6bc6995" approved="yes">
+        <source>Set categories</source>
+        <target state="final">הגדר קטגוריות</target>
+        <note>Line: 32</note>
+      </trans-unit>
+      <trans-unit id="46f183fad136f6db6e28e79a0616f3d9" approved="yes">
+        <source>Categories are essential, as they enable you to group equivalent products. This helps customers find their way through the variety of your catalog.</source>
+        <target state="final">קטגוריות חיוניות מכיוון שהן מאפשרות לך לקבץ מוצרים מקבילים. זה עוזר ללקוחות למצוא את דרכם במגוון הקטלוג שלך.</target>
+        <note>Line: 33</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Features/Blocks/form.html.twig" source-language="en" target-language="he" datatype="plaintext">
@@ -1954,6 +2483,16 @@
         <target state="final">UPC (קוד מוצר אוניברסלי):</target>
         <note>Line: 96</note>
       </trans-unit>
+      <trans-unit id="647b89b705fafd7d44aa6f01a5cb4711" approved="yes">
+        <source>Qty:</source>
+        <target state="final">כמות:</target>
+        <note>Line: 99</note>
+      </trans-unit>
+      <trans-unit id="eb2187ba47b5e09ca57e01222fbd71e8" approved="yes">
+        <source>MPN:</source>
+        <target state="final">MPN:</target>
+        <note>Line: 97</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Manufacturer/Blocks/form.html.twig" source-language="en" target-language="he" datatype="plaintext">
@@ -1962,11 +2501,6 @@
         <source>Brands</source>
         <target state="final">מותגים</target>
         <note>Line: 32</note>
-      </trans-unit>
-      <trans-unit id="c1069a480848e06782b81b8bea9c0c94" approved="yes">
-        <source>Short description</source>
-        <target state="final">תיאור קצר</target>
-        <note>Line: 52</note>
       </trans-unit>
     </body>
   </file>
@@ -1977,11 +2511,50 @@
         <target state="final">הוספת מותג</target>
         <note>Line: 31</note>
       </trans-unit>
+      <trans-unit id="2d236afdc6efc79d47ac67807be0b798" approved="yes">
+        <source>Add new brand address</source>
+        <target state="final">הוסף כתובת מותג חדשה</target>
+        <note>Line: 36</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Monitoring/Blocks/showcase_card.html.twig" source-language="en" target-language="he" datatype="plaintext">
     <body>
+      <trans-unit id="0a3875f94a7b35db3f5fe6b64d74e8c9" approved="yes">
+        <source>Focus on your catalog</source>
+        <target state="final">התמקדו בקטלוג שלכם</target>
+        <note>Line: 32</note>
+      </trans-unit>
+      <trans-unit id="70c8f93ff864a7ce012e50446403ea0e" approved="yes">
+        <source>Empty categories, disabled products, items that lack image or price... check the monitoring section to optimize your products management and make sure you forgot nothing.</source>
+        <target state="final">קטגוריות ריקות, מוצרים מושבתים, פריטים חסרי תדמית או מחיר ... עיין בסעיף הניטור כדי לייעל את ניהול המוצרים שלך וודא שלא שכחת דבר.</target>
+        <note>Line: 33</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/Combination/empty_state.html.twig" source-language="en" target-language="he" datatype="plaintext">
+    <body>
       
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/Combination/external_tab.html.twig" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      
+      
+      
+      
+      
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/Combination/loading_state.html.twig" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/Combination/paginated_list.html.twig" source-language="en" target-language="he" datatype="plaintext">
+    <body>
       
     </body>
   </file>
@@ -2014,12 +2587,17 @@
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Suppliers/Blocks/form.html.twig" source-language="en" target-language="he" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/Create/cart.html.twig" source-language="en" target-language="he" datatype="plaintext">
     <body>
-      <trans-unit id="9e11e4b371570340ca07913bc4783a7a" approved="yes">
-        <source>Meta title</source>
-        <target state="final">כותרת Meta</target>
-        <note>Line: 118</note>
+      <trans-unit id="da22c93ccb398c72070f4000cc7b59a1" approved="yes">
+        <source>Customization</source>
+        <target state="final">התאמה אישית</target>
+        <note>Line: 88</note>
+      </trans-unit>
+      <trans-unit id="9d20a93036ba910dd75ffbcec173798e" approved="yes">
+        <source>Price per unit</source>
+        <target state="final">מחיר ליחידה</target>
+        <note>Line: 132</note>
       </trans-unit>
     </body>
   </file>
@@ -2037,21 +2615,35 @@
       <trans-unit id="8c1279db4db86553e4b9682f78cf500e" approved="yes">
         <source>Expiration date</source>
         <target state="final">תאריך תפוגה</target>
-        <note>Line: 89</note>
+        <note>Line: 83</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/TwigTemplateForm/form_max_length.html.twig" source-language="en" target-language="he" datatype="plaintext">
     <body>
-      
+      <trans-unit id="db65e64331ad696848ba5bfa44a757b5" approved="yes">
+        <source>[1][/1] of [2][/2] characters allowed</source>
+        <target state="final">[1] [/1] מתוך [2] [/2] תווים מותרים</target>
+        <note>Line: 37</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/TwigTemplateForm/prestashop_ui_kit_base.html.twig" source-language="en" target-language="he" datatype="plaintext">
     <body>
+      <trans-unit id="a1fa27779242b4902f7ae3bdd5c6d508" approved="yes">
+        <source>Type</source>
+        <target state="final">סוג</target>
+        <note>Line: 569</note>
+      </trans-unit>
       <trans-unit id="1a6570d1068d7dd6f811ff022da8f76d" approved="yes">
         <source>Main category</source>
         <target state="final">קטגורית ראשית</target>
-        <note>Line: 250</note>
+        <note>Line: 333</note>
+      </trans-unit>
+      <trans-unit id="df211c3d69ca4c3564b6ac95d368dc2e" approved="yes">
+        <source>[1][/1] of [2][/2] characters used (recommended)</source>
+        <target state="final">[1] [/1] מתוך [2] [/2] תווים בשימוש (מומלץ)</target>
+        <note>Line: 1024</note>
       </trans-unit>
     </body>
   </file>
@@ -2060,32 +2652,97 @@
       <trans-unit id="d94d5f9a10b00bf59d7632a96ba7a1a0" approved="yes">
         <source>List of products for this pack</source>
         <target state="final">רשימת מוצרים בחבילה זו</target>
-        <note>Line: 70</note>
+        <note>Line: 75</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Translation/Api/StockApi.php" source-language="en" target-language="he" datatype="plaintext">
     <body>
-      <trans-unit id="6adf97f83acf6453d4a6a4b1070f3754" approved="yes">
-        <source>None</source>
-        <target state="final">ללא</target>
-        <note>Line: 65</note>
-      </trans-unit>
       <trans-unit id="d9c3a508aadc89c987a08811138836e2" approved="yes">
         <source>Advanced filters</source>
         <target state="final">מסננים מתקדמים</target>
         <note>Line: 38</note>
+      </trans-unit>
+      <trans-unit id="d17ef666e0e109b8ff0889c4666816c4" approved="yes">
+        <source>Apply advanced filters</source>
+        <target state="final">החל מסננים מתקדמים</target>
+        <note>Line: 39</note>
+      </trans-unit>
+      <trans-unit id="08f2624d7719fac81f1af3e3e64d5e63" approved="yes">
+        <source>Apply new quantity</source>
+        <target state="final">החל כמות חדשה</target>
+        <note>Line: 40</note>
+      </trans-unit>
+      <trans-unit id="7f84fa02a3bf4c70c747b29908a03096" approved="yes">
+        <source>Filter by movement type</source>
+        <target state="final">סנן לפי סוג תנועה</target>
+        <note>Line: 46</note>
+      </trans-unit>
+      <trans-unit id="5110c1f147fe533096f7dead2dac17ee" approved="yes">
+        <source>Filter by employee</source>
+        <target state="final">סנן לפי עובד</target>
+        <note>Line: 47</note>
       </trans-unit>
       <trans-unit id="d940660a1591632abf56608dd80b0f41" approved="yes">
         <source>Filter by period</source>
         <target state="final">סינון לפי תקופה</target>
         <note>Line: 48</note>
       </trans-unit>
+      <trans-unit id="d0f06038b6b3aa5edc07c7a6fd3ca3f9" approved="yes">
+        <source>Search a category</source>
+        <target state="final">חפש קטגוריה</target>
+        <note>Line: 49</note>
+      </trans-unit>
+      <trans-unit id="e8324c0368f5e686c879ba246e36903f" approved="yes">
+        <source>Search a supplier</source>
+        <target state="final">חפש ספק</target>
+        <note>Line: 50</note>
+      </trans-unit>
       <trans-unit id="b1c94ca2fbc3e78fc30069c8d0f01680" approved="yes">
         <source>All</source>
         <target state="final">הכל</target>
         <note>Line: 53
 Comment: 'All' refers to statuses as if "All statuses". Please adapt as necessary in your language</note>
+      </trans-unit>
+      <trans-unit id="3704fd59c2d4295b196008f9ebe09267" approved="yes">
+        <source>Filter by supplier</source>
+        <target state="final">סנן לפי ספק</target>
+        <note>Line: 56</note>
+      </trans-unit>
+      <trans-unit id="dc7f9d531239c6acc08b99236a4204cd" approved="yes">
+        <source>Stock management</source>
+        <target state="final">ניהול מלאי</target>
+        <note>Line: 61</note>
+      </trans-unit>
+      <trans-unit id="898bed66d82aeaab1d62875fd3657c40" approved="yes">
+        <source>Movements</source>
+        <target state="final">תנועות</target>
+        <note>Line: 63</note>
+      </trans-unit>
+      <trans-unit id="083e99de177243cffe65b7f8724c89ca" approved="yes">
+        <source>Search products (search by name, reference, supplier)</source>
+        <target state="final">חפש מוצרים (חפש לפי שם, הפניה, ספק)</target>
+        <note>Line: 67</note>
+      </trans-unit>
+      <trans-unit id="0a31e37f4790bed575e702d61fcfb452" approved="yes">
+        <source><![CDATA[Date & Time]]></source>
+        <target state="final"><![CDATA[תאריך ושעה]]></target>
+        <note>Line: 73</note>
+      </trans-unit>
+      <trans-unit id="ac43f4edefaf0db72e60d681332c8437" approved="yes">
+        <source>Edit quantity</source>
+        <target state="final">עריכת כמות</target>
+        <note>Line: 74</note>
+      </trans-unit>
+      <trans-unit id="ce898d62ed9ca7653a01fe0c781e97e9" approved="yes">
+        <source>Physical</source>
+        <target state="final">פיזיות</target>
+        <note>Line: 79</note>
+      </trans-unit>
+      <trans-unit id="942d4e37dd5607ab68e54755540d4a47" approved="yes">
+        <source>Reserved</source>
+        <target state="final">שמור</target>
+        <note>Line: 82</note>
       </trans-unit>
     </body>
   </file>
