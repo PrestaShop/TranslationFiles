@@ -35,6 +35,16 @@
         <target state="final">Negalima nustatyti pozicijos didesnės negu esančių visų prekių kategorijoje, minus 1 (numeracija prasideda nuo 0).</target>
         <note>Line: 6171</note>
       </trans-unit>
+      <trans-unit id="30a367ba686890c829937e768d588b8f" approved="yes">
+        <source>You cannot set 0 or a negative position, the minimum is 1.</source>
+        <target state="final">Negalite nustatyti 0 ar neigiamos pozicijos, 1 yra mažiausia reikšmė.</target>
+        <note>Line: 7084</note>
+      </trans-unit>
+      <trans-unit id="cf99dad7d7306d9ac01ba5a2e2d2c715" approved="yes">
+        <source>You cannot set a position greater than the total number of products in the category, starting at 1.</source>
+        <target state="final">Negalima nustatyti pozicijos didesnės nei visų prekių skaičius kategorijoje, pradedant nuo 1. </target>
+        <note>Line: 7105</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/QqUploadedFileForm.php" source-language="en" target-language="lt" datatype="plaintext">
@@ -809,7 +819,11 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/ProductController.php" source-language="en" target-language="lt" datatype="plaintext">
     <body>
-      
+      <trans-unit id="f07403f2e9d7e44c0090ab06678d4eb3" approved="yes">
+        <source>The experimental product page is not enabled. To enable it, go to the %sExperimental Features%s page.</source>
+        <target state="final">Experimentinis prekės puslapis neįjungtas. Norėdami įjungti, eikite į puslapį %sExperimentinės funkcijos%s </target>
+        <note>Line: 276</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/SupplierController.php" source-language="en" target-language="lt" datatype="plaintext">
@@ -843,6 +857,11 @@
         <target state="final">Nepakanka prekės atsargų.</target>
         <note>Line: 599</note>
       </trans-unit>
+      <trans-unit id="891d308560a0cca2452fd2f482dded8c" approved="yes">
+        <source><![CDATA[Product customization could not be found. Go to Catalog > Products to customize the product.]]></source>
+        <target state="final"><![CDATA[Prekės modifikacija nerasta. Eikite į Katalogas > Prekės norėdami modifikuoti prekę.]]></target>
+        <note>Line: 595</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php" source-language="en" target-language="lt" datatype="plaintext">
@@ -874,15 +893,35 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/HeaderType.php" source-language="en" target-language="lt" datatype="plaintext">
     <body>
+      <trans-unit id="2b260d6a8a4b747672d790f18c2ab780" approved="yes">
+        <source>Are you sure you want to change the product type?</source>
+        <target state="final">Ar tikrai norite pakeisti prekės tipą?</target>
+        <note>Line: 70</note>
+      </trans-unit>
       <trans-unit id="da531a2761eef5012cadd0a2e31acab6" approved="yes">
         <source>Change product type</source>
         <target state="final">Keisti prekės tipą</target>
         <note>Line: 71</note>
       </trans-unit>
+      <trans-unit id="178b6141eb15b94fb25e5940625ecd01" approved="yes">
+        <source>Changing the product type will immediately save the product and refresh the page.</source>
+        <target state="final">Pakeitus prekės tipą, prekė bus nedelsiant išsaugota ir atnaujintas puslapis.</target>
+        <note>Line: 73</note>
+      </trans-unit>
       <trans-unit id="d125a0ad5887eb2575a57c2149a12c1d" approved="yes">
         <source>This will delete all combinations.</source>
         <target state="final">Tai ištrins visus prekės derinius.</target>
         <note>Line: 74</note>
+      </trans-unit>
+      <trans-unit id="6b7844c384e54ed301c7f3f6b4aac389" approved="yes">
+        <source>This will delete the list of products in this pack.</source>
+        <target state="final">Tai ištrins visas prekės esančias rinkinyje.</target>
+        <note>Line: 75</note>
+      </trans-unit>
+      <trans-unit id="4882c6b9d11d6aacd193fa21547fd727" approved="yes">
+        <source>This will delete the associated virtual file.</source>
+        <target state="final">Tai ištrins susietą virtualų failą.</target>
+        <note>Line: 76</note>
       </trans-unit>
     </body>
   </file>
@@ -892,6 +931,11 @@
         <source>Image replaced</source>
         <target state="final">Paveiksliukas pakeistas</target>
         <note>Line: 56</note>
+      </trans-unit>
+      <trans-unit id="02708462d504c68df426d48cd6aae23f" approved="yes">
+        <source>Are you sure you want to delete the selected image?|Are you sure you want to delete the %filesNb% selected images?</source>
+        <target state="final">Ar tikrai norite ištrinti pasirinktą paveiksliuką?|Ar tikrai norite ištrinti pasirinktus %filesNb% paveiksliukus?</target>
+        <note>Line: 79</note>
       </trans-unit>
     </body>
   </file>
@@ -1142,6 +1186,11 @@
         <source>Discard changes?</source>
         <target state="final">Atmesti pakeitimus?</target>
         <note>Line: 45</note>
+      </trans-unit>
+      <trans-unit id="e202ea17abd88b9634fb9939f6253ea9" approved="yes">
+        <source>All unsaved modifications made on the combination [1]%combinationName%[/1] will be lost.</source>
+        <target state="final">Visi neišsaugoti [1]%combinationName%[/1] derinio pakeitimai bus prarasti.</target>
+        <note>Line: 46</note>
       </trans-unit>
     </body>
   </file>
