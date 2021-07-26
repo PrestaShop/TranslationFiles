@@ -255,6 +255,16 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <target state="final">Kiedy logujesz się do zaplecza sklepu i pozostajesz zalogowany, czas trwania Twojej sesji określaj pliki cookies. Ustaw ilość godzin przez które chcesz żeby były ważne przed konieczności ponownego zalogowania.</target>
         <note>Line: 94</note>
       </trans-unit>
+      <trans-unit id="08319380906c95a9d06d789bf8edaf5a" approved="yes">
+        <source>Choose a stability level for the modules downloaded from the Addons Marketplace. All zips pushed on Addons are in stable state unless stated otherwise.</source>
+        <target state="final">Wybierz poziom stabilności kanału, z którego będą pobierane moduły z Addons Marketplace. Wszystkie paczki modułów pobierane stamtąd są w wersjach stabilnych, chyba, że wybierzesz inaczej.</target>
+        <note>Line: 73</note>
+      </trans-unit>
+      <trans-unit id="c8d06889e023d3130c1bf60009d5417b" approved="yes">
+        <source>Allows you to declare if your cookie should be restricted to a first-party or same-site context.</source>
+        <target state="final">Pozwala zadecydować czy cookie powinno być ograniczone tylko dla strony, która je utworzyła (np. Twojego sklepu), czy mogą być czytane przez strony zewnętrzne.</target>
+        <note>Line: 98</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Administration/UploadQuotaType.php" source-language="en" target-language="pl" datatype="plaintext">
@@ -269,6 +279,11 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <target state="final">Zdefiniuj limit wielkości wysyłanego pliku dla zdjęć (w megabajtach). Wartość ta musi być niższa lub równa maksymalnemu limitowi wysyłania pliku ustalonego na serwerze (obecnie: %size% MB).</target>
         <note>Line: 122</note>
       </trans-unit>
+      <trans-unit id="eb191ef572b6d5c4e7a86734ba10fb5e" approved="yes">
+        <source>Set the maximum size allowed for attachment files (in megabytes). This value has to be lower than or equal to the maximum file upload allotted by your server (currently: %size% MB).</source>
+        <target state="final">Określ maksymalny rozmiar załączanych plików (w megabajtach). Wartość ta musi być mniejsza lub równa maksymalnej wartości przydzielonej przez Twój serwer (aktualnie: %size% MB).</target>
+        <note>Line: 58</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Backup/BackupOptionsType.php" source-language="en" target-language="pl" datatype="plaintext">
@@ -277,6 +292,11 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <source>Drop existing tables during import.</source>
         <target state="final">Usuń istniejące tabele podczas importu.</target>
         <note>Line: 67</note>
+      </trans-unit>
+      <trans-unit id="a1e749fdff79ab0d40843bacb8fe0de2" approved="yes">
+        <source>If enabled, the backup script will drop your tables prior to restoring data. (ie. "DROP TABLE IF EXISTS")</source>
+        <target state="final">Jeżeli włączone, skrypt kopii zapasowej usunie Twoje tabele przed przywróceniem zachowanych danych</target>
+        <note>Line: 79</note>
       </trans-unit>
     </body>
   </file>
@@ -325,12 +345,40 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <target state="final">Jeśli włączony, wówczas numer indeksowania produktu musi być unikatowy!</target>
         <note>Line: 107</note>
       </trans-unit>
+      <trans-unit id="45af6698125d6f9be9517cd8879d0285" approved="yes">
+        <source>e.g. 1; Blouse; 129.90; 5</source>
+        <target state="final">np. 1; Bluza; 129.90;5</target>
+        <note>Line: 83</note>
+      </trans-unit>
+      <trans-unit id="7d97fc4385e615ed69cc4e1613790123" approved="yes">
+        <source>e.g. Blouse; red.jpg, blue.jpg, green.jpg; 129.90 </source>
+        <target state="final">np. Bluza; czerwona.jpg, niebieska.jpg, zielona.jpg;129.90</target>
+        <note>Line: 87</note>
+      </trans-unit>
+      <trans-unit id="193ec293f59bd6bafda920d87cb07212" approved="yes">
+        <source>Enable this option to keep your imported items’ ID number as is. Otherwise, PrestaShop will ignore them and create auto-incremented ID numbers.</source>
+        <target state="final">Włącz tę opcję jeżeli chcesz zachować identyfikatory importowanych elementów (ich ID), inaczej PrestaShop zignoruje je i nadal automatycznie kolejne numery.</target>
+        <note>Line: 120</note>
+      </trans-unit>
+      <trans-unit id="4719ac638ec9a37d72c81b550b911945" approved="yes">
+        <source>Receive an email when the import is complete. It can be useful when handling large files, as the import may take some time.</source>
+        <target state="final">Otrzymaj wiadomość e-mail, która poinformuje, że Twój import jest kompletny. Może to być przydatne podczas importowania dużych plików, gdy cały proces zajmuje dłuższy czas.</target>
+        <note>Line: 124</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Logs/LogsByEmailType.php" source-language="en" target-language="pl" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="7dda1e48a0dcceda4b3e9ce35271cc2c" approved="yes">
+        <source>Click on "None" to disable log alerts by email or enter the recipients of these emails in the following field.</source>
+        <target state="final">Wybierz "Żadne" aby wyłączyć wysyłanie wiadomości o wpisach, albo wpisz listę odbiorców e-mail w polu niżej.</target>
+        <note>Line: 56</note>
+      </trans-unit>
+      <trans-unit id="f88eb52dea2a0d6eb6d90304a91be4a0" approved="yes">
+        <source>Log alerts will be sent to these emails. Please use a comma to separate them (e.g. pub@prestashop.com, anonymous@psgdpr.com).</source>
+        <target state="final">Informacje o logach będą wysłane na te adresy. Użyj przecinka aby je oddzielić (np. pub@prestashop.com, employee@yourdomain.com).</target>
+        <note>Line: 66</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceConfigurationType.php" source-language="en" target-language="pl" datatype="plaintext">
@@ -689,11 +737,20 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <target state="final">Skrót CCC pochodzi od słów combine, compress and cache. Czyli łącz, kompresuj i keszuj (zapisuj w pamięci podręcznej). Opcja ta ma za zadanie zredukować rozmiar strony, a cornza tym idzie skrócić czas jej ładowania i wyświetlania poszczególnych podstron. Dzięki temu sklep działa szybciej. Funkcja CCC wykonuje operacje na plikach szablonu sklepu.rnWarunkiem jest aby szablon graficzny był zgodny i przeznaczony dla Prestashop 1.4+ (czyli zgodny z systemem Smarty 3). Włączenie opcji CCC dla szablonu graficznegornprzeznaczonego dla starszych wersji Prestashop (np 1.3 ) powoduje nieprawidłowe wyświetlanie stron sklepu.</target>
         <note>Line: 121</note>
       </trans-unit>
+      <trans-unit id="460e080fb0af5e1ca93a24dbf1e3da2f" approved="yes">
+        <source>CCC allows you to reduce the loading time of your page. With these settings you will gain performance without even touching the code of your theme. Make sure, however, that your theme is compatible with PrestaShop 1.7+. Otherwise, CCC will cause problems.</source>
+        <target state="final">CCC pozwala skrócić czas ładowania strony. Za pomocą tych ustawień można zyskać wydajność nawet bez dotykania kodu swojego szablonu. Upewnij się jednak, że szablon jest kompatybilny z PrestaShop 1.7+. W przeciwnym razie, CCC będzie powodować problemy.</target>
+        <note>Line: 141</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/edit.html.twig" source-language="en" target-language="pl" datatype="plaintext">
     <body>
-      
+      <trans-unit id="b5c5b3a0a7208392aaf2c4d23a81879c" approved="yes">
+        <source>This page benefits from increased performance and includes new features such as a new combination management system. Please note this is a work in progress and some features are not available yet.</source>
+        <target state="final">Nowa wersja strony zyskuje dzięki polepszonej wydajności, a także ulepszeń takich jak nowy sposób zarządzania kombinacjami. Prosimy jednak pamiętać, że to nadal wersja testowa i prace trwają, niektóre funkcjonalności nie są jeszcze dostępne.</target>
+        <note>Line: 72</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
