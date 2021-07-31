@@ -217,6 +217,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">%s daması doldurulmalıdır.</target>
         <note>Line: 1518</note>
       </trans-unit>
+      <trans-unit id="114eadc70de249729e9287a6b450c6e0" approved="yes">
+        <source>The %field_name% field (%lang%) is invalid.</source>
+        <target state="final">%field_name% daması (%lang%) yanlışdır.</target>
+        <note>Line: 3760</note>
+      </trans-unit>
       <trans-unit id="b4186b9ed7c957a1cd9f4e7ce916e603" approved="yes">
         <source>%s: Incorrect value</source>
         <target state="final">%s: Yanlış dəyər</target>
@@ -240,8 +245,16 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="classes/module/Module.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="fdc746e5693df31cf4f6ef789a8846c5" approved="yes">
+        <source>file (%s) not writable</source>
+        <target state="final">fayl (%s) yazılabilən deyil</target>
+        <note>Line: 3047</note>
+      </trans-unit>
+      <trans-unit id="a9de928286071f457fcbc45656353761" approved="yes">
+        <source>directory (%s) not writable</source>
+        <target state="final">kataloq (%s) yazılabilən deyil</target>
+        <note>Line: 3135</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/webservice/WebserviceSpecificManagementAttachments.php" source-language="en" target-language="az" datatype="plaintext">
@@ -285,7 +298,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="controllers/admin/AdminCountriesController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      
+      <trans-unit id="01e93e9457d86c646965decd586dc5ea" approved="yes">
+        <source>Address format invalid</source>
+        <target state="final">Ünvan formatı yanlışdır</target>
+        <note>Line: 435</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminCustomerThreadsController.php" source-language="en" target-language="az" datatype="plaintext">
@@ -433,6 +450,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">Bu şəklin köçürülməsində bir yanlışlıq oldu:</target>
         <note>Line: 2884</note>
       </trans-unit>
+      <trans-unit id="be694d5db9d32c43014995441a5939c4" approved="yes">
+        <source>Invalid file name</source>
+        <target state="final">Yanlış fayl adı</target>
+        <note>Line: 489</note>
+      </trans-unit>
       <trans-unit id="06b778accab7c14a499bc6e7a68138ec" approved="yes">
         <source>An error occurred while copying the image.</source>
         <target state="final">Şəklin köçürülməsində bir yanlışlıq oldu.</target>
@@ -447,16 +469,30 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="controllers/admin/AdminShopGroupController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="f1534de7e6636fdfedf7aea238841b24" approved="yes">
+        <source>You cannot delete or disable the last shop group.</source>
+        <target state="final">Son dükan qrupunu poza, ya da söndürə bilməzsiniz.</target>
+        <note>Line: 334</note>
+      </trans-unit>
+      <trans-unit id="e91077be3c46fd0d3fd8e972e8ca1e48" approved="yes">
+        <source>You cannot delete or disable a shop group in use.</source>
+        <target state="final">İşlədilən dükan qrupunu poza, ya da söndürə bilməzsiniz.</target>
+        <note>Line: 336</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminShopUrlController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      
-      
-      
-      
+      <trans-unit id="fd44c173b6a7897151a978b9015fec76" approved="yes">
+        <source>You cannot disable the Main URL.</source>
+        <target state="final">Baş URL söndürülə bilməz.</target>
+        <note>Line: 513</note>
+      </trans-unit>
+      <trans-unit id="aee1f34d776c8cc3401cac254299e6f9" approved="yes">
+        <source>A shop URL that uses this domain already exists.</source>
+        <target state="final">Bu domeni işlədən dükan URL artıq var.</target>
+        <note>Line: 487</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminStatesController.php" source-language="en" target-language="az" datatype="plaintext">
@@ -470,10 +506,16 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="controllers/admin/AdminStoresController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      
-      
-      
-      
+      <trans-unit id="5b0e7a50bbe35d2e59dc92c7ba9b369a" approved="yes">
+        <source>The Zip/postal code is invalid.</source>
+        <target state="final">Poçt indeksi/kodu yanlışdır.</target>
+        <note>Line: 378</note>
+      </trans-unit>
+      <trans-unit id="e6c1e151f2554afad6c0d551046650e8" approved="yes">
+        <source>The Zip/Postal code is invalid.</source>
+        <target state="final">Poçt indeksi/kodu yanlışdır.</target>
+        <note>Line: 378</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminThemesController.php" source-language="en" target-language="az" datatype="plaintext">
@@ -623,10 +665,20 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/Core/ConstraintValidator/AddressZipCodeValidator.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
+      <trans-unit id="f9f47dee59a41f69369745b42136b14e" approved="yes">
+        <source>Your Zip/postal code is incorrect.</source>
+        <target state="final">Poçt indeksiniz yanlışdır.</target>
+        <note>Line: 93</note>
+      </trans-unit>
       <trans-unit id="6660b316abc0970476a09df63028d553" approved="yes">
         <source>It must be entered as follows:</source>
         <target state="final">Belə yazılmalıdır:</target>
         <note>Line: 97</note>
+      </trans-unit>
+      <trans-unit id="f759990f130f580695eae63e25558461" approved="yes">
+        <source>Your Zip/Postal code is incorrect.</source>
+        <target state="final">Poçt indeksiniz yanlışdır.</target>
+        <note>Line: 95</note>
       </trans-unit>
     </body>
   </file>
@@ -709,9 +761,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ProfileController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="7e209672dd8e7e83030559ab95a83d52" approved="yes">
+        <source>You cannot delete your own profile</source>
+        <target state="final">Siz öz profilinizi poza bilməzsiniz</target>
+        <note>Line: 314</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/SqlManagerController.php" source-language="en" target-language="az" datatype="plaintext">
@@ -946,6 +1000,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/CartController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
+      <trans-unit id="959c96ec640d353311dd9763d57daad6" approved="yes">
+        <source>Please fill in all the required fields.</source>
+        <target state="final">Bütün gərəkli damaları doldurun.</target>
+        <note>Line: 585</note>
+      </trans-unit>
       <trans-unit id="3a092130bd08641faa55f5abc9e4a1f4" approved="yes">
         <source>Positive product quantity is required</source>
         <target state="final">Məhsulların müsbət sayı olmalıdır</target>
