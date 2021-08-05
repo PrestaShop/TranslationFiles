@@ -90,10 +90,20 @@ Comment: Link to localized forum</note>
         <target state="final">Polje %field% je ograničeno na %limit% znakova</target>
         <note>Line: 96</note>
       </trans-unit>
+      <trans-unit id="342f5c77ed008542e78094607ce1f7f3" approved="yes">
+        <source>firstname</source>
+        <target state="final">ime</target>
+        <note>Line: 90</note>
+      </trans-unit>
       <trans-unit id="2399cf4ca7b49f2706f6e147a32efa78" approved="yes">
         <source>Your lastname contains some invalid characters</source>
         <target state="final">Vaše prezime sadrži neke znakove koji nisu valjani</target>
         <note>Line: 94</note>
+      </trans-unit>
+      <trans-unit id="8ad75c5a8821cc294f189181722acb56" approved="yes">
+        <source>lastname</source>
+        <target state="final">prezime</target>
+        <note>Line: 96</note>
       </trans-unit>
       <trans-unit id="74d36cb95a84f88728b3d69678aba185" approved="yes">
         <source>The password and its confirmation are different</source>
@@ -452,6 +462,11 @@ Comment: We fill the process step used for Ajax queries</note>
         <target state="final">E-mail adresa</target>
         <note>Line: 141</note>
       </trans-unit>
+      <trans-unit id="a838dd011a3bb99084a43912a71cdc46" approved="yes">
+        <source>This email address will be your username to access your store's back office.</source>
+        <target state="final">Ova e-mail adresa će biti vaše korisničko ime za pristup vašoj administraciji trgovine.</target>
+        <note>Line: 146</note>
+      </trans-unit>
       <trans-unit id="ecb77be87bda4dd34d51cfedbef9b6c3" approved="yes">
         <source>Shop password</source>
         <target state="final">Lozinka trgovine</target>
@@ -717,6 +732,11 @@ Comment: We fill the process step used for Ajax queries</note>
         <target state="final">Administracija</target>
         <note>Line: 92</note>
       </trans-unit>
+      <trans-unit id="450abc1417292c60121dd3dfde9c9b23" approved="yes">
+        <source>Manage your store using your Back Office. Manage your orders and customers, add modules, change themes, etc.</source>
+        <target state="final">Upravljajte svojom trgovinom koristeći svoju administraciju. Upravljajte svojim narudžbama i kupcima, dodajte module, promjenite teme, itd.</target>
+        <note>Line: 93</note>
+      </trans-unit>
       <trans-unit id="39b5e23e409fa9f6f67e984c1bedf6ae" approved="yes">
         <source>Manage your store</source>
         <target state="final">Upravljajte svojom trgovinom</target>
@@ -830,6 +850,11 @@ Comment: We fill the process step used for Ajax queries</note>
   </file>
   <file original="install-dev/theme/views/welcome.php" source-language="en" target-language="bs" datatype="plaintext">
     <body>
+      <trans-unit id="d51066397d7cbedc122457c9479f6fb2" approved="yes">
+        <source>PrestaShop requires at least 32 MB of memory to run: please check the memory_limit directive in your php.ini file or contact your host provider about this.</source>
+        <target state="final">PrestaShop zahtijeva barem 32 MB memorije za pokretanje: provjerite memory_limit postavku u php.ini datoteci ili kontaktirajte svog pružatelja usluga.</target>
+        <note>Line: 29</note>
+      </trans-unit>
       <trans-unit id="c8c27951cbaf7da257e6af50a6fc4116" approved="yes">
         <source><![CDATA[<b>Warning: You cannot use this tool to upgrade your store anymore.</b><br /><br />You already have <b>PrestaShop version %version% installed</b>.<br /><br />If you want to upgrade to the latest version, please read our documentation: <a href="%doc%">%doc%</a>]]></source>
         <target state="final"><![CDATA[<b>Upozorenje: Ne možete više koristiti ovaj alat za nadogradnju svoje trgovine</b><br /><br />Vi već imate <b>PrestaShop version %version% instaliranu</b>.<br /><br />Ukoliko se želite nadograditi na zadnju verziju molimo pročitajte dokumentaciju:<a href="%doc%">%doc%</a>]]></target>
@@ -860,11 +885,26 @@ Comment: We fill the process step used for Ajax queries</note>
         <target state="final">Izbor jezika navedeno iznad odnosi se samo za Instalacijskog Pomoćnika. Nakon što je Vaša trgovina instalirana, možete odabrati jezik svoje trgovine s više od %d prijevoda, sve besplatno!</target>
         <note>Line: 58</note>
       </trans-unit>
+      <trans-unit id="e1a83d307c77f54bc40ff911943669f1" approved="yes">
+        <source><![CDATA[<b>Warning: You cannot use this tool to upgrade your store anymore.</b><br /><br />You already have <b>PrestaShop version %version% installed</b>.<br /><br />If you want to upgrade to the latest version, please use the 1-Click Upgrade module and follow its instructions.]]></source>
+        <target state="final"><![CDATA[<b>Upozorenje: Ne možete više koristiti ovaj alat za nadogradnju svoje trgovine</b><br /><br />Vi već imate <b>PrestaShop version %version% instaliranu</b>.<br /><br />Ukoliko se želite nadograditi na zadnju verziju molimo koristite 1-Click Upgrade modul i pratite instrukcije.]]></target>
+        <note>Line: 32</note>
+      </trans-unit>
+      <trans-unit id="f7df4c84260e89f8aa1644b31a795282" approved="yes">
+        <source>Installing PrestaShop is quick and easy. In just a few moments, you will become part of a community consisting of more than %numMerchants% merchants. You are on the way to creating your own unique online store that you can manage easily every day.</source>
+        <target state="final">Instaliranje Prestashop je brzo i jednostavno. U samo nekoliko trenutaka, vi ćete postati dio zajednice koja se sastoji od više od %numMerchants% trgovaca. Vi ste na putu za stvaranje vlastite jedinstvene online trgovine kojom možete upravljati lako svaki dan.</target>
+        <note>Line: 40</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/classes/UpgradePage.php" source-language="en" target-language="bs" datatype="plaintext">
     <body>
-      
+      <trans-unit id="7d72600fcff52fb3a2d2f73572117311" approved="yes">
+        <source>Your database server does not support the utf-8 charset.</source>
+        <target state="final">Vaš server baze ne podržava utf-8 karakterset.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/UpgradePage.php:414</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php" source-language="en" target-language="bs" datatype="plaintext">
@@ -964,6 +1004,16 @@ Comment: We fill the process step used for Ajax queries</note>
         <target state="final">Putovanje</target>
         <note>Line: 233</note>
       </trans-unit>
+      <trans-unit id="4d0a6a9777a818ecc3b59b9a8ecd0c43" approved="yes">
+        <source>-- Please choose your main activity --</source>
+        <target state="final">-- Molimo izaberite vašu glavnu djelatnost --</target>
+        <note>Line: 212</note>
+      </trans-unit>
+      <trans-unit id="9503054261b8aeed48e0a3902019b579" approved="yes">
+        <source>Sport and Entertainment</source>
+        <target state="final">Sport i zabava</target>
+        <note>Line: 232</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Install/Database.php" source-language="en" target-language="bs" datatype="plaintext">
@@ -1008,6 +1058,11 @@ Comment: We fill the process step used for Ajax queries</note>
         <target state="final">Vaš login baze podataka nema ovlasti za kreiranje tabele u bazi podataka "%s". Pitajte svog hosting providera:</target>
         <note>Line: 82</note>
       </trans-unit>
+      <trans-unit id="ce799e40a5e7b523d011b80868fe4ca4" approved="yes">
+        <source>Database Server is not found. Please verify the login, password and server fields</source>
+        <target state="final">Server baze podataka nije pronađen. Molimo provjerite polja za prijavu, lozinku i server</target>
+        <note>Line: 98</note>
+      </trans-unit>
       <trans-unit id="9a0b7b3a849553ab760177a12f4ebc7f" approved="yes">
         <source>Connection to MySQL server succeeded, but database "%database%" not found</source>
         <target state="final">Spajanje na MySQL server je uspješno, ali baza "%database%" nije nađena</target>
@@ -1017,6 +1072,11 @@ Comment: We fill the process step used for Ajax queries</note>
         <source>Attempt to create the database automatically</source>
         <target state="final">Automatski pokušaj stvaranja baze podataka</target>
         <note>Line: 105</note>
+      </trans-unit>
+      <trans-unit id="ffb062d75b155dab7c60d7ea84385abc" approved="yes">
+        <source>You must be granted the privilege to select data in the tables of database "%s". Ask your hosting provider to enable it.</source>
+        <target state="final">Morate imati privilegiju za dobavljanje podataka u tabelama baze podataka "%s". Zamolite svog provajdera usluga hostinga da to omogući. </target>
+        <note>Line: 89</note>
       </trans-unit>
     </body>
   </file>
@@ -1046,6 +1106,11 @@ Comment: We fill the process step used for Ajax queries</note>
         <source>Cannot write app/config/parameters.yml file</source>
         <target state="final">Ne mogu zapisati app/config/parameters.yml datoteku</target>
         <note>Line: 250</note>
+      </trans-unit>
+      <trans-unit id="453faec2c85b2b9c0b9c2b474b30bd21" approved="yes">
+        <source>Database structure file not found</source>
+        <target state="final">Datoteka strukture baze podataka nije pronađena</target>
+        <note>Line: 301</note>
       </trans-unit>
       <trans-unit id="f726c29f41d9b6ab3d61f6f4e41959a3" approved="yes">
         <source>Cannot create group shop</source>
@@ -1086,6 +1151,11 @@ Comment: We fill the process step used for Ajax queries</note>
         <source>Cannot copy flag language "%flag%"</source>
         <target state="final">Ne mogu kopirati zastavu jezika "%flag%"</target>
         <note>Line: 653</note>
+      </trans-unit>
+      <trans-unit id="27654955bc85150712aa0bc53bcc6224" approved="yes">
+        <source>Cannot create admin account</source>
+        <target state="final">Admin nalog ne može biti kreiran</target>
+        <note>Line: 864</note>
       </trans-unit>
       <trans-unit id="26b901ba3ecdcb91823f05ce15a70ce4" approved="yes">
         <source>Cannot install module "%module%"</source>
