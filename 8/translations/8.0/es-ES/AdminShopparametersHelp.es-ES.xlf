@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="admin-dev/themes/default/template/controllers/referrers/form_settings.tpl" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="ce162159505d90c37be3dd2b464c3360" approved="yes">
+        <source>There is a huge quantity of data, so each connection corresponding to a referrer is indexed. You can also refresh this index by clicking the "Refresh index" button. This process may take a while, and it's only needed if you modified or added a referrer, or if you want changes to be retroactive.</source>
+        <target state="final">Hay una cantidad enorme de datos, de modo que cada conexión correspondiente a un afiliado es indexada. Puedes actualizar esta indexación haciendo clic en el botón "Actualizar índice". Este proceso puede tomar un tiempo en completarse, y sólo es necesario realizarlo si modificas o añades un afiliado, o si deseas que los cambios sean retroactivos.</target>
+        <note>Line: 32</note>
+      </trans-unit>
+      <trans-unit id="6c4defc21d9e7428d7fe81a81f8eb05d" approved="yes">
+        <source>Your data is cached in order to sort it and filter it. You can refresh the cache by clicking on the "Refresh cache" button.</source>
+        <target state="final">Tu información es cacheada con el objetivo de ordenarla y filtrarla. Puedes actualizar la caché haciendo clic en el botón "Actualizar la caché".</target>
+        <note>Line: 45</note>
+      </trans-unit>
+      <trans-unit id="42bb6e7b5d150acfa5243c250d864cbc" approved="yes">
+        <source>Direct traffic can be quite resource-intensive. You should consider enabling it only if you have a strong need for it.</source>
+        <target state="final">El tráfico directo consume un mayor número de recursos del sistema. Debes considerar la posibilidad de activarlo solo si tienes una gran necesidad de hacerlo.</target>
+        <note>Line: 58</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="admin-dev/themes/default/template/controllers/referrers/helpers/form/form.tpl" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="711136b10e4f46ca38be4363bfd809ce" approved="yes">
+        <source>Show me more</source>
+        <target state="final">Mostrarme más</target>
+        <note>Line: 33</note>
+      </trans-unit>
+      <trans-unit id="a1b58c5793a9c4b1596f555d3c46ca7c" approved="yes">
+        <source>Definitions:</source>
+        <target state="final">Definiciones:</target>
+        <note>Line: 35</note>
+      </trans-unit>
+      <trans-unit id="b0194c3357e1b561284a08ba9c8625c7" approved="yes">
+        <source>The "http_referer" field is the website from which your customers arrive.</source>
+        <target state="final">El campo "http_referer" es el sitio web desde el que provienen tus clientes.</target>
+        <note>Line: 38</note>
+      </trans-unit>
+      <trans-unit id="e1bc4efa13a13333c86fdf2eb70a0c38" approved="yes">
+        <source>For example, visitors coming from Google will have an "http_referer" value like this one: "http://www.google.com/search?q=prestashop".</source>
+        <target state="final">Por ejemplo, los visitantes procedentes de Google tendrán un valor "http_referer" como este: "http://www.google.com/search?q=prestashop".</target>
+        <note>Line: 39</note>
+      </trans-unit>
+      <trans-unit id="9b3c4e3b2a8a95bcaad9b816a925fca5" approved="yes">
+        <source>If the visitor arrives directly (by typing the URL of your shop, or by using their bookmarks, for example), the http_referer will be empty.</source>
+        <target state="final">Si el visitante llega directamente a tu tienda (tecleando la URL en el navegador o usando sus marcadores), el http_referer estará vacío.</target>
+        <note>Line: 40</note>
+      </trans-unit>
+      <trans-unit id="6f0aa1b11f44e45dbbd01546e6726424" approved="yes">
+        <source>If you'd like to view all the visitors coming from Google, you can type "%google%" in this field. Alternatively, you can type "%google.fr%" if you want to view visitors coming from Google France, only.</source>
+        <target state="final">Si quieres filtrar todos los visitantes provenientes de Google, puedes teclear "%google%" en este campo. Alternativamente, puedes teclear "%google.es%" para ver los visitantes procedentes de Google España.</target>
+        <note>Line: 41</note>
+      </trans-unit>
+      <trans-unit id="41b06c521ee2d1075f9bd3b12e8758a5" approved="yes">
+        <source>The "request_uri" field is the URL from which the customers come to your website.</source>
+        <target state="final">El campo "request_uri" es la URL desde la cual los clientes llegan a tu sitio web.</target>
+        <note>Line: 45</note>
+      </trans-unit>
+      <trans-unit id="aa9eb9d62ab328d8da04b77469fbb6c8" approved="yes">
+        <source>For example, if the visitor accesses a product page, the URL will be like this one: "%smusic-ipods/1-ipod-nano.html".</source>
+        <target state="final">Por ejemplo, si el visitante accede a una página de producto, la URL será: "%smusic-ipods/1-ipod-nano.html".</target>
+        <note>Line: 46</note>
+      </trans-unit>
+      <trans-unit id="4451a0228098136036ced8d9b7478ed9" approved="yes">
+        <source>This is helpful because you can add tags or tokens in the links pointing to your website.</source>
+        <target state="final">Esto es muy útil ya que puedes añadir etiquetas o tokens a los enlaces que apuntan a tu sitio web.</target>
+        <note>Line: 47</note>
+      </trans-unit>
+      <trans-unit id="6ca25929481cee3aef9cda0f7d309f9d" approved="yes">
+        <source>For example, you can post a link (such as "%sindex.php?myuniquekeyword" -- note that you added "?myuniquekeyword" at the end of the URL) in an online forum or as a blog comment, and get visitors statistics for that unique link by entering "%%myuniquekeyword" in the "request_uri" field.</source>
+        <target state="final">Por ejemplo, puedes publicar un enlace (como "%sindex.php?mipalabraclaveunica" -- ten en cuenta que se añadió "?mipalabraclaveunica" al final de la URL) en un foro o en un comentario de un blog, y obtener estadísticas de visitantes sólo para este enlace introduciendo "%%mipalabraclaveunica" en el campo "request_uri".</target>
+        <note>Line: 48</note>
+      </trans-unit>
+      <trans-unit id="07d199fdf852bd9dc4d899b6cd2a16e7" approved="yes">
+        <source>This method is more reliable than the "http_referer" one, but there is one disadvantage: if a search engine references a page with your link, then it will be displayed in the search results and you will not only indicate visitors from the places where you posted the link, but also those from the search engines that picked up that link.</source>
+        <target state="final">Este método es más fiable que el "http_referer", pero tiene un inconveniente: si los motores de búsqueda hacen referencia a una página con tu enlace, entonces se mostrará en los resultados de búsqueda y no sólo registrará visitantes de los lugares donde hayas situado el enlace, sino también de los motores de búsqueda que hayan indexado ese enlace.</target>
+        <note>Line: 49</note>
+      </trans-unit>
+      <trans-unit id="2a7510ee054a824a06c67cb30a9dc85f" approved="yes">
+        <source>The "Include" fields indicate what has to be included in the URL.</source>
+        <target state="final">Los campos "Include" indican lo que tiene que ser incluido en la URL.</target>
+        <note>Line: 53</note>
+      </trans-unit>
+      <trans-unit id="7047f6cd037224af5ef028de15a0b844" approved="yes">
+        <source>The "Exclude" fields indicate what has to be excluded from the URL.</source>
+        <target state="final">Los campos "Exclude" indican lo que tiene que ser excluido de la URL.</target>
+        <note>Line: 57</note>
+      </trans-unit>
+      <trans-unit id="fec5647b486079a90ea4667d6125a03e" approved="yes">
+        <source>When using simple mode, you can use a wide variety of generic characters to replace other characters:</source>
+        <target state="final">Cuando se utiliza el modo simple, puedes utilizar una amplia variedad de caracteres genéricos para sustituir a otros caracteres:</target>
+        <note>Line: 61</note>
+      </trans-unit>
+      <trans-unit id="19e6272904f9f449ae490d69aa36cd6c" approved="yes">
+        <source>"_" will replace one character. If you want to use the real "_", you should type this: "\\_".</source>
+        <target state="final">"_" reemplazará un carácter. Si quieres utilizar el caracter "_", debes teclear esto: "\\_".</target>
+        <note>Line: 63</note>
+      </trans-unit>
+      <trans-unit id="900b3ed6d62723c673b427a3f6e66669" approved="yes">
+        <source>"%" will replace any number of characters. If you want to use the real "%", you should type this: "\\%".</source>
+        <target state="final">"%" reemplazará cualquier número de caracteres. Si quieres utilizar el caracter "%", debes teclear esto: "\\%".</target>
+        <note>Line: 64</note>
+      </trans-unit>
+      <trans-unit id="5d23fb29ee98e1f050bc9dabbcca667d" approved="yes">
+        <source>The Simple mode uses the MySQL "LIKE" pattern matching, but for a higher potency you can use MySQL's regular expressions in the Expert mode.</source>
+        <target state="final">El modo Simple utiliza el patrón de concordancia "LIKE" de MySQL, pero para una mayor potencia puedes utilizar las expresiones regulares de MySQL en el Modo Experto.</target>
+        <note>Line: 69</note>
+      </trans-unit>
+      <trans-unit id="88b3441035077ae06f817c3b4afb8d2a" approved="yes">
+        <source>Take a look at MySQL's documentation for more details.</source>
+        <target state="final">Echa un vistazo a la documentación de MySQL para obtener mayor información.</target>
+        <note>Line: 70</note>
+      </trans-unit>
+      <trans-unit id="2d0c2b736fa1ab8ce149d26fc36e453a" approved="yes">
+        <source>Get help!</source>
+        <target state="final">¡Obtener ayuda!</target>
+        <note>Line: 81</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="admin-dev/themes/default/template/controllers/stores/helpers/form/form.tpl" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="e734ed12d2c2026532f66e0ebeedfc8c" approved="yes">
+        <source>e.g. 10:00AM - 9:30PM</source>
+        <target state="final">ej.: 10:00 - 21:30</target>
+        <note>Line: 67</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminContactsController.php" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="a2b086325f59e6c2fbd410511f4fdfb3" approved="yes">
+        <source>Further information regarding this contact.</source>
+        <target state="final">Información adicional acerca de este contacto.</target>
+        <note>Line: 124</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminGendersController.php" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="62c7ceb6de5c4d39e49c9762af6ddb4d" approved="yes">
+        <source>Image width in pixels. Enter "0" to use the original size.</source>
+        <target state="final">Anchura de la imagen en píxeles. Introduce "0", para usar el tamaño original.</target>
+        <note>Line: 162</note>
+      </trans-unit>
+      <trans-unit id="aec8651b033be4d4056785d43763d7ca" approved="yes">
+        <source>Image height in pixels. Enter "0" to use the original size.</source>
+        <target state="final">Altura de la imagen en píxeles. Introduce "0", para usar el tamaño original.</target>
+        <note>Line: 169</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminGroupsController.php" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="0822f76515fa1d9ce38504176cb23bae" approved="yes">
+        <source>The group defined for your un-identified visitors.</source>
+        <target state="final">El grupo definido para tus visitantes no identificados.</target>
+        <note>Line: 111</note>
+      </trans-unit>
+      <trans-unit id="e3e0c764f81f1a3677d59aa238fddd14" approved="yes">
+        <source>The group defined for your identified guest customers (used in guest checkout).</source>
+        <target state="final">El grupo definido para identificar a tus visitantes no registrados (usado para compras con cuentas de invitado).</target>
+        <note>Line: 119</note>
+      </trans-unit>
+      <trans-unit id="e820b12959b64dfff397100db68cd951" approved="yes">
+        <source>The group defined for your identified registered customers.</source>
+        <target state="final">El grupo definido para tus clientes registrados identificados.</target>
+        <note>Line: 127</note>
+      </trans-unit>
+      <trans-unit id="a5fa9ffd3ddf89fe263675358032e7fb" approved="yes">
+        <source>Automatically apply this value as a discount on all products for members of this customer group.</source>
+        <target state="final">Aplicar automáticamente este valor como descuento en todos los productos para los miembros de este grupo de clientes.</target>
+        <note>Line: 331</note>
+      </trans-unit>
+      <trans-unit id="21e445ba767d4fd41332b6eceab2be1a" approved="yes">
+        <source>How prices are displayed in the order summary for this customer group.</source>
+        <target state="final">Método en el que se visualizan los precios en el resumen del pedido para los clientes pertenecientes a este grupo.</target>
+        <note>Line: 338</note>
+      </trans-unit>
+      <trans-unit id="eaf74fe1658ada757063c8ddc4381ef9" approved="yes">
+        <source>Customers in this group can view prices.</source>
+        <target state="final">Los clientes de este grupo pueden ver los precios.</target>
+        <note>Line: 373</note>
+      </trans-unit>
+      <trans-unit id="d38245fbe312b2dafef8450b67e94f50" approved="yes">
+        <source>%group_name% - All persons without a customer account or customers that are not logged in.</source>
+        <target state="final">%group_name% - Todas las personas sin cuenta de cliente, o clientes que no se han identificado.</target>
+        <note>Line: 619</note>
+      </trans-unit>
+      <trans-unit id="5125d0fd7b81fee95b7e4b7689a878a9" approved="yes">
+        <source>%group_name% - All persons who placed an order through Guest Checkout.</source>
+        <target state="final">%group_name% - Todas las personas que realizaron un pedido como Invitado.</target>
+        <note>Line: 620</note>
+      </trans-unit>
+      <trans-unit id="96f090b06e329e3d192c0ea3701f8cb5" approved="yes">
+        <source>%group_name% - All persons who created an account on this site.</source>
+        <target state="final">%group_name% - Todas las personas que crearon una cuenta en esta tienda.</target>
+        <note>Line: 621</note>
+      </trans-unit>
+      <trans-unit id="a2ce271cf6d8afe81168fbfc4ccb492c" approved="yes">
+        <source>PrestaShop has three default customer groups:</source>
+        <target state="final">PrestaShop tiene tres grupos de clientes predeterminados:</target>
+        <note>Line: 623</note>
+      </trans-unit>
+      <trans-unit id="c7a5c6872a29383d6ab0db08e6b40e15" approved="yes">
+        <source>Need to hide prices for all groups? Save time, enable catalog mode in Product Settings instead.</source>
+        <target state="final">¿Necesitas ocultar los precios para todos los grupos? Ahorra tiempo, habilitando el modo catálogo en el menú Configuración de Productos en lugar de ello.</target>
+        <note>Line: 374</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminReferrersController.php" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="6ca725316d3577fb24218119380f38fe" approved="yes">
+        <source>Leave blank if no change.</source>
+        <target state="final">Dejar en blanco si no hay cambios.</target>
+        <note>Line: 199</note>
+      </trans-unit>
+      <trans-unit id="4181de604675ec0fb8d12202ec23964c" approved="yes">
+        <source>Fee given for each visit.</source>
+        <target state="final">Pago por cada visita.</target>
+        <note>Line: 236</note>
+      </trans-unit>
+      <trans-unit id="4b11cf76a471c13ba29b799772c90ddf" approved="yes">
+        <source>Fee given for each order placed.</source>
+        <target state="final">Comisión por cada pedido realizado.</target>
+        <note>Line: 242</note>
+      </trans-unit>
+      <trans-unit id="d3d12bc1b7512d954444ec7c368d7176" approved="yes">
+        <source>If you know how to use MySQL regular expressions, you can use the [1]expert mode[/1].</source>
+        <target state="final">Si sabes como usar expresiones regulares de MySQL, puedes utilizar el [1]modo experto[/1].</target>
+        <note>Line: 301</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminSearchConfController.php" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="12399d580627a1a5889cdc44e6e48b5a" approved="yes">
+        <source>Enable the automatic indexing of products. If you enable this feature, the products will be indexed in the search automatically when they are saved. If the feature is disabled, you will have to index products manually by using the links provided in the field set.</source>
+        <target state="final">Activar la indexación automática de los productos. Si activas esta opción, los productos serán indexados al momento en el que son creados o actualizados; de lo contrario, tendrás que indexar los productos de forma manual o automática usando el enlace previamente mencionado.</target>
+        <note>Line: 119</note>
+      </trans-unit>
+      <trans-unit id="a5cb89e5bcb48c0708ee6837a5944d3e" approved="yes">
+        <source>By default, to search for “blouse”, you have to enter “blous”, “blo”, etc (beginning of the word) – but not “lous” (within the word).</source>
+        <target state="final">Por defecto, para buscar "blusa", tiene que escribir "blus", "blu", etc. (el comienzo de la palabra) - pero no "lusa" (el final de la palabra).</target>
+        <note>Line: 140</note>
+      </trans-unit>
+      <trans-unit id="d2e38e24e467d35cc5881e083e05b823" approved="yes">
+        <source>With this option enabled, it also gives the good result if you search for “lous”, “ouse”, or anything contained in the word.</source>
+        <target state="final">Con esta opción activada, también se obtendrá el resultado correcto si se busca "lusa", "usa", o cualquier caracter contenido en la palabra.</target>
+        <note>Line: 145</note>
+      </trans-unit>
+      <trans-unit id="9110055bdc92744713baa237b26f8ac7" approved="yes">
+        <source>Enable search within a whole word, rather than from its beginning only.</source>
+        <target state="final">Habilitar la búsqueda dentro de una palabra completa, en lugar de desde su inicio solamente.</target>
+        <note>Line: 151</note>
+      </trans-unit>
+      <trans-unit id="0e665a9cf278d49f43c4bb4cb9a7c29f" approved="yes">
+        <source>It checks if the searched term is contained in the indexed word. This may be resource-consuming.</source>
+        <target state="final">Comprueba si el término buscado está contenido en la palabra indexada. Esto puede consumir recursos.</target>
+        <note>Line: 156</note>
+      </trans-unit>
+      <trans-unit id="1122eba5946331d2709712f64fa1d66b" approved="yes">
+        <source>By default, if you search "book", you will have "book", "bookcase" and "bookend".</source>
+        <target state="final">De manera predeterminada, si se busca "libr", encontrarás "libro", "libreta" y "librería".</target>
+        <note>Line: 168</note>
+      </trans-unit>
+      <trans-unit id="0b1d71ac92f27198d2bd1e6cd49cec1b" approved="yes">
+        <source>With this option enabled, it only gives one result “book”, as exact end of the indexed word is matching.</source>
+        <target state="final">Con esta opción activada, sólo se recibe un resultado "libro", como término exacto de la palabra indexada coincidente.</target>
+        <note>Line: 173</note>
+      </trans-unit>
+      <trans-unit id="c4474326e7d8129b7c04ada10f34f5b1" approved="yes">
+        <source>Enable more precise search with the end of the word.</source>
+        <target state="final">Activar una búsqueda más precisa con el final de la palabra.</target>
+        <note>Line: 179</note>
+      </trans-unit>
+      <trans-unit id="efb6bc8d1ee1c5527d494ba15ee3109d" approved="yes">
+        <source>It checks if the searched term is the exact end of the indexed word.</source>
+        <target state="final">Comprueba si el término buscado es el final exacto de la palabra indexada.</target>
+        <note>Line: 184</note>
+      </trans-unit>
+      <trans-unit id="645115aba5ef431a04da95c746477544" approved="yes">
+        <source>Only words this size or larger will be indexed.</source>
+        <target state="final">Sólo se indexaran palabras a partir de este tamaño.</target>
+        <note>Line: 256</note>
+      </trans-unit>
+      <trans-unit id="2c2666c9eee818342b0aff77dda51990" approved="yes">
+        <source>Please enter the index words separated by a "|".</source>
+        <target state="final">Por favor, introduce las palabras separadas por "|".</target>
+        <note>Line: 268</note>
+      </trans-unit>
+      <trans-unit id="786471035f60ea5955fd93f6998e8637" approved="yes">
+        <source>Enter each alias separated by a comma (e.g. 'prestshop,preztashop,prestasohp').</source>
+        <target state="final">Introduce los alias separados por comas (','), por ejemplo: 'prestshop, preztashop, prestasohp'.</target>
+        <note>Line: 428</note>
+      </trans-unit>
+      <trans-unit id="259b411f284388d228a30c1e2ed0c61d" approved="yes">
+        <source><![CDATA[Forbidden characters: <>;=#{}]]></source>
+        <target state="final"><![CDATA[Caracteres prohibidos: <>;=#{}]]></target>
+        <note>Line: 429</note>
+      </trans-unit>
+      <trans-unit id="01d2aac5d20787a1e873f2bdc79b514a" approved="yes">
+        <source>Search this word instead.</source>
+        <target state="final">Buscar esta palabra en su lugar.</target>
+        <note>Line: 437</note>
+      </trans-unit>
+      <trans-unit id="b080303b551112c7b9dcdf6a21051f42" approved="yes">
+        <source>By default, the fuzzy search is enabled. It means spelling errors are allowed, e.g. you can search for "bird" with words like "burd", "bard" or "beerd".</source>
+        <target state="final">Por defecto, la búsqueda difusa está habilitada. Significa que se permiten errores ortográficos, por ejemplo, puedes buscar "hablar" con palabras como "ablar", "havlar" o "avlar".</target>
+        <note>Line: 196</note>
+      </trans-unit>
+      <trans-unit id="2324c421f8c5376051c024f15232cd80" approved="yes">
+        <source>Enable approximate string matching.</source>
+        <target state="final">Habilitar coincidencia de cadenas aproximadas.</target>
+        <note>Line: 207</note>
+      </trans-unit>
+      <trans-unit id="a4b432b49016cf0de70c747fde4f815b" approved="yes">
+        <source>Note that this option is resource-consuming: the more you search, the longer it takes.</source>
+        <target state="final">Ten en cuenta que esta opción requiere muchos recursos: cuanto más busques, más tiempo se requerirá.</target>
+        <note>Line: 220</note>
+      </trans-unit>
+      <trans-unit id="39e61e5c1261f090e3c56f494a315f07" approved="yes">
+        <source>Disabling this option will require exact spelling for the search to match results.</source>
+        <target state="final">Desactivar esta opción requerirá una ortografía exacta para que la búsqueda coincida con los resultados.</target>
+        <note>Line: 201</note>
+      </trans-unit>
+      <trans-unit id="6392d16e9ae94967fe13716b69e1d0b2" approved="yes">
+        <source>Only words fewer or equal to this maximum length will be searched.</source>
+        <target state="final">Solo se buscarán palabras de longitud menor o igual a esta longitud máxima.</target>
+        <note>Line: 235</note>
+      </trans-unit>
+      <trans-unit id="2b610a936a358875e6f5a01564a3a0e6" approved="yes">
+        <source>This parameter will only be used if the fuzzy search is activated: the lower the value, the more tolerant your search will be.</source>
+        <target state="final">Este parámetro solo se usará si la búsqueda difusa está activada: cuanto menor sea el valor, más tolerante será su búsqueda.</target>
+        <note>Line: 240</note>
+      </trans-unit>
+      <trans-unit id="88851f53412ccb796508fd5f48e7a44f" approved="yes">
+        <source><![CDATA[Forbidden characters: <>;=#{}]]></source>
+        <target state="final"><![CDATA[Caracteres prohibidos: <>;=#{}]]></target>
+        <note>Line: 429</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminShopController.php" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="5c85aec638229f60a035c7a6ab3623c8" approved="yes">
+        <source>This field does not refer to the shop name visible in the front office.</source>
+        <target state="final">Este campo no se refiere al nombre de la tienda visible en el Front Office.</target>
+        <note>Line: 373</note>
+      </trans-unit>
+      <trans-unit id="1561fa99e3814c72f5206ab48b472335" approved="yes">
+        <source>Follow [1]this link[/1] to edit the shop name used on the front office.</source>
+        <target state="final">Sigue [1]este enlace[/1] para editar el nombre de la tienda usado en el Front Office.</target>
+        <note>Line: 374</note>
+      </trans-unit>
+      <trans-unit id="92aaf3cf7e8f1434886a8887e102391b" approved="yes">
+        <source>You can't edit the shop group because the current shop belongs to a group with the "share" option enabled.</source>
+        <target state="final">No puedes editar este grupo de tiendas porque la tienda actual pertenece a un grupo con la opción "compartir" activada.</target>
+        <note>Line: 442</note>
+      </trans-unit>
+      <trans-unit id="fce5f624e66bd2e2f0296fc3bd2a8f64" approved="yes">
+        <source>This is the root category of the store that you've created. To define a new root category for your store, [1]please click here[/1].</source>
+        <target state="final">Esta es la categoría raíz de la tienda que has creado. Para definir una nueva categoría raíz para tu tienda, [1]haz clic aquí[/1].</target>
+        <note>Line: 452</note>
+      </trans-unit>
+      <trans-unit id="f0f7416fad0a9c9fc3163cabe68393c1" approved="yes">
+        <source>By selecting associated categories, you are choosing to share the categories between shops. Once associated between shops, any alteration of this category will impact every shop.</source>
+        <target state="final">Al seleccionar categorías asociados estás eligiendo compartir las categorías entre las tiendas. Una vez asociadas entre las tiendas cualquier cambio de esta categorías se propagará a cada tienda.</target>
+        <note>Line: 506</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminStatusesController.php" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="a9c2e14555131d68a4ac37b604ee52a8" approved="yes">
+        <source>Upload an icon from your computer (File type: .gif, suggested size: 16x16).</source>
+        <target state="final">Subir un icono desde tu ordenador (Tipo de archivo: .gif, tamaño sugerido: 16x16).</target>
+        <note>Line: 305</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminStoresController.php" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="f45ed1483cf46972b5f225656c9c8991" approved="yes">
+        <source>Whether or not to display this store.</source>
+        <target state="final">Si deseas o no mostrar esta tienda.</target>
+        <note>Line: 271</note>
+      </trans-unit>
+      <trans-unit id="b950eb0054205bc67aa88899eadded22" approved="yes">
+        <source>Storefront picture.</source>
+        <target state="final">Imagen del escaparate.</target>
+        <note>Line: 280</note>
+      </trans-unit>
+      <trans-unit id="d42de30e9e03274c5c83bd6ce5c27a6f" approved="yes">
+        <source>Displayed in emails sent to customers.</source>
+        <target state="final">Mostrado en los correos electrónicos enviados a los clientes.</target>
+        <note>Line: 457</note>
+      </trans-unit>
+      <trans-unit id="49aaf34d99febc7c13881d121288cd8a" approved="yes">
+        <source>Shop registration information (e.g. SIRET or RCS).</source>
+        <target state="final">Información de registro de la tienda (ej.: SIRET o RCS).</target>
+        <note>Line: 464</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/Contact/ContactType.php" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="9cd9efd3eb168071eb0a199972c54aab" approved="yes">
+        <source>Contact name (e.g. Customer Support).</source>
+        <target state="final">Nombre de contacto (ej.: Atención al cliente).</target>
+        <note>Line: 87</note>
+      </trans-unit>
+      <trans-unit id="daedf9c5c8f38ac4cf641f3fb3e1bdc4" approved="yes">
+        <source>Emails will be sent to this address.</source>
+        <target state="final">Los correos electrónicos serán enviados a esta dirección.</target>
+        <note>Line: 114</note>
+      </trans-unit>
+      <trans-unit id="0f28459fa87b1b3ce6e8b17932f08c3a" approved="yes">
+        <source>If enabled, all messages will be saved in the "Customer Service" page under the "Customer" menu.</source>
+        <target state="final">Si es activada, todos los mensajes serán guardados en la página “Servicio al Cliente” del menú “Cliente”.</target>
+        <note>Line: 127</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/CustomerPreferences/GeneralType.php" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="b9716d3d87447a2275318bf88ced7bf8" approved="yes">
+        <source>After a customer logs in, you can recall and display the content of his/her last shopping cart.</source>
+        <target state="final">Después de que el cliente inicie sesión, puedes recordarle y mostrarle el contenido de su último carrito.</target>
+        <note>Line: 52</note>
+      </trans-unit>
+      <trans-unit id="59a84d54ad58aa4bea8aeacd11e47ab2" approved="yes">
+        <source>Minimum time required between two requests for a password reset.</source>
+        <target state="final">Tiempo mínimo requerido entre dos solicitudes de restablecimiento de contraseña.</target>
+        <note>Line: 86</note>
+      </trans-unit>
+      <trans-unit id="e0cf416b39580f321e4641721698560f" approved="yes">
+        <source>Activate or deactivate B2B mode. When this option is enabled, B2B features will be made available.</source>
+        <target state="final">Activar o desactivar el modo B2B. Al activar esta opción, las características B2B estarán disponibles.</target>
+        <note>Line: 97</note>
+      </trans-unit>
+      <trans-unit id="69b3bcd0dba13c9f1188ab86480afca4" approved="yes">
+        <source>Display or not the birth date field.</source>
+        <target state="final">Mostrar o no el campo de fecha de nacimiento.</target>
+        <note>Line: 107</note>
+      </trans-unit>
+      <trans-unit id="3bc07e4ecf0660962221cf030b935d9d" approved="yes">
+        <source>Display or not the partner offers tick box, to receive offers from the store's partners.</source>
+        <target state="final">Mostrar o no la casilla de verificación de las ofertas de asociados para recibir ofertas de los socios de la tienda.</target>
+        <note>Line: 117</note>
+      </trans-unit>
+      <trans-unit id="4c80d371ca1a14e173c5480ee32f1c90" approved="yes">
+        <source>Send an email with a summary of the account information after registration.</source>
+        <target state="final">Enviar un correo electrónico con un resumen de la información de la cuenta después del registro.</target>
+        <note>Line: 62</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/MaintenanceType.php" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="122941b469f97a0c0750a62126fba6cd" approved="yes">
+        <source>We recommend that you deactivate your store while performing maintenance. Note that it will not disable the webservice.</source>
+        <target state="final">Le recomendamos que desactive su tienda mientras realiza el mantenimiento. Tenga en cuenta que no se desactivará el servicio web.</target>
+        <note>Line: 80</note>
+      </trans-unit>
+      <trans-unit id="4db650b0232001140675125d740191be" approved="yes">
+        <source>Allow IP addresses to access the store, even in maintenance mode. Use a comma to separate them (e.g. 42.24.4.2,127.0.0.1,99.98.97.96).</source>
+        <target state="final">Permite que las direcciones IP accedan a la tienda, incluso en modo de mantenimiento. Usa una coma para separarlas (por ejemplo, 42.24.4.2,127.0.0.1,99.98.97.96).</target>
+        <note>Line: 97</note>
+      </trans-unit>
+      <trans-unit id="541fbadd38ba459b4257b5822e9d0518" approved="yes">
+        <source>Display a customized message when the store is disabled.</source>
+        <target state="final">Muestra un mensaje personalizado cuando la tienda está desactivada.</target>
+        <note>Line: 117</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="500294c9fd031bb4f00a82b5d27dc22c" approved="yes">
+        <source>If you own an SSL certificate for your shop's domain name, you can activate SSL encryption (https://) for customer account identification and order processing.</source>
+        <target state="final">Si dispones un certificado SSL propio para el dominio de tu tienda, puedes activar el cifrado SSL (https://) para la identificación de las cuentas de cliente y el proceso de compra.</target>
+        <note>Line: 96</note>
+      </trans-unit>
+      <trans-unit id="d86a9baf93dba6b27dbbb04cef8d3aae" approved="yes">
+        <source>When enabled, all the pages of your shop will be SSL-secured.</source>
+        <target state="final">Cuando está activada, todas las páginas de tu tienda estarán protegidas por SSL.</target>
+        <note>Line: 110</note>
+      </trans-unit>
+      <trans-unit id="a1202480ddcd8665114515ca380c0e5b" approved="yes">
+        <source>Enable or disable token in the Front Office to improve PrestaShop's security.</source>
+        <target state="final">Activar o desactivar la autenticación token en el Front Office para mejorar la seguridad de PrestaShop.</target>
+        <note>Line: 121</note>
+      </trans-unit>
+      <trans-unit id="4f70bd9998bb35643fa3dfc88d6a6373" approved="yes">
+        <source>Allow iframes on text fields like product description. We recommend that you leave this option disabled.</source>
+        <target state="final">Permitir iframes en campos como la descripción del producto. Recomendamos dejar esta opción desactivada.</target>
+        <note>Line: 131</note>
+      </trans-unit>
+      <trans-unit id="7ba34b929c8241268ab5eac35a772ab1" approved="yes">
+        <source>Clean the HTML content on text fields. We recommend that you leave this option enabled.</source>
+        <target state="final">Limpia el contenido HTML en los campos de texto. Recomendamos dejar esta opción activada.</target>
+        <note>Line: 141</note>
+      </trans-unit>
+      <trans-unit id="71958504714b867b7f6f00f43b9c9bd0" approved="yes">
+        <source>You can choose among 6 different ways of rounding prices. "Round up away from zero ..." is the recommended behavior.</source>
+        <target state="final">Puedes elegir hasta 6 formas diferentes de redondear los precios. "Redondeo al alza..." es el ajuste recomendado.</target>
+        <note>Line: 159</note>
+      </trans-unit>
+      <trans-unit id="2b116a3c74c816d853b7d86abf838ebb" approved="yes">
+        <source>You can choose when to round prices: either on each item, each line or the total (of an invoice, for example).</source>
+        <target state="final">Puedes elegir cuándo redondear los precios: en cada artículo, en cada línea o en el total (de una factura, por ejemplo).</target>
+        <note>Line: 173</note>
+      </trans-unit>
+      <trans-unit id="0678cf17f202cb7fd14d79054a2e628c" approved="yes">
+        <source>Enable best sellers page on your front office even when its respective module is disabled.</source>
+        <target state="final">Activar la página de productos más vendidos en el Front Office, incluso cuando el módulo respectivo esté desactivado.</target>
+        <note>Line: 197</note>
+      </trans-unit>
+      <trans-unit id="d8942e5679a9104ae58333b9b4778b71" approved="yes">
+        <source>The multistore feature allows you to manage several e-shops with one Back Office. If this feature is enabled, a "Multistore" page will be available in the "Advanced Parameters" menu.</source>
+        <target state="final">La característica multitienda te permite administrar varias tiendas desde un único panel de administración. Al activar esta característica, la página "Multitienda" estará disponible en el menú "Parámetros avanzados".</target>
+        <note>Line: 205</note>
+      </trans-unit>
+      <trans-unit id="7c6efc73556c295515e6f3c2129eee32" approved="yes">
+        <source>Enable suppliers page on your front office even when its module is disabled.</source>
+        <target state="final">Activar la página de proveedores en el Front Office incluso cuando su módulo esté deshabilitado.</target>
+        <note>Line: 181</note>
+      </trans-unit>
+      <trans-unit id="8e17743ca02e7c24310531d34d0c89ff" approved="yes">
+        <source>Enable brands page on your front office even when its module is disabled.</source>
+        <target state="final">Activar la página de marcas en el Front Office incluso cuando su módulo esté deshabilitado.</target>
+        <note>Line: 189</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GeneralType.php" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="406fff3ade73ad2eb4c4fefa8a1c2702" approved="yes">
+        <source>Display an overview of the addresses, shipping method and cart just before the order button (required in some European countries).</source>
+        <target state="final">Mostrar un resumen mostrando las direcciones, método de envío y contenido del carrito, antes del botón de pedido (Obligatorio en algunos países europeos).</target>
+        <note>Line: 79</note>
+      </trans-unit>
+      <trans-unit id="e7c9a42ec01114dcd98e47bb1cb1ace6" approved="yes">
+        <source>Allow guest visitors to place an order without registering.</source>
+        <target state="final">Permitir a los visitantes realizar un pedido sin registrarse.</target>
+        <note>Line: 84</note>
+      </trans-unit>
+      <trans-unit id="8690429442758955469bd5eb14c3db72" approved="yes">
+        <source>Disable the option to allow customers to reorder in one click from the order history page (required in some European countries).</source>
+        <target state="final">Desactivar la opción que permite a los clientes volver a pedir un producto con un solo clic desde la página de historial de pedidos (obligatorio en algunos países europeos).</target>
+        <note>Line: 89</note>
+      </trans-unit>
+      <trans-unit id="96b2f955774aee5f11e61646b7d5ae43" approved="yes">
+        <source>Set to 0 to disable this feature.</source>
+        <target state="final">Establecer a 0 (cero) para desactivar esta característica.</target>
+        <note>Line: 94</note>
+      </trans-unit>
+      <trans-unit id="5ed533875d7388ffdbb60818e9596bdc" approved="yes">
+        <source>Automatically updates the shipping costs when you edit an order.</source>
+        <target state="final">Actualizar automáticamente los costes de envío cuando edita un pedido.</target>
+        <note>Line: 101</note>
+      </trans-unit>
+      <trans-unit id="fff92cdf417b8a468af180474057a575" approved="yes">
+        <source>Require customers to accept or decline terms of service before processing an order.</source>
+        <target state="final">Los clientes deberán aceptar las condiciones de venta antes de realizar el pedido</target>
+        <note>Line: 121</note>
+      </trans-unit>
+      <trans-unit id="38cb366ab3534fefcbc7d051a3b122fd" approved="yes">
+        <source>Choose the page which contains your store's terms and conditions of use.</source>
+        <target state="final">Elige la página que contiene los términos y condiciones de uso de tu tienda.</target>
+        <note>Line: 126</note>
+      </trans-unit>
+      <trans-unit id="df2a562b17ec12920cee57e20b02ab67" approved="yes">
+        <source>Allow the customer to ship orders to multiple addresses. This option will convert the customer's cart into one or more orders.</source>
+        <target state="final">Permitir al cliente enviar pedidos a varias direcciones. Esta opción convertirá una compra en uno o más pedidos.</target>
+        <note>Line: 108</note>
+      </trans-unit>
+      <trans-unit id="4acdb94f4cbc425ad20d457ffa1d81c1" approved="yes">
+        <source>It allows you to delay shipping if your customers request it.</source>
+        <target state="final">Le permite aplazar el envío si sus clientes lo solicitan.</target>
+        <note>Line: 116</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GiftOptionsType.php" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="8be74244c8fe462cb6d967a5ebdc57cb" approved="yes">
+        <source>Suggest gift-wrapping to customers.</source>
+        <target state="final">Ofrecer al cliente enviar sus paquetes como regalo, acompañados de un mensaje personal.</target>
+        <note>Line: 80</note>
+      </trans-unit>
+      <trans-unit id="f2e28db133063334eb23fad936947493" approved="yes">
+        <source>Set a price for gift wrapping.</source>
+        <target state="final">Establece un precio para la opción embalaje de regalo.</target>
+        <note>Line: 85</note>
+      </trans-unit>
+      <trans-unit id="3993942430a9f4e82e50b2c39048d6b6" approved="yes">
+        <source>Set a tax for gift wrapping.</source>
+        <target state="final">Establece un impuesto para la opción embalaje de regalo.</target>
+        <note>Line: 94</note>
+      </trans-unit>
+      <trans-unit id="f8aacaf7661fefb62d929d691b6bcfbe" approved="yes">
+        <source>Suggest recycled packaging to customer.</source>
+        <target state="final">Ofrecer al cliente embalaje reciclado.</target>
+        <note>Line: 103</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="f0fe1aebeace842330fb048126151e06" approved="yes">
+        <source>Only letters, numbers and underscores ("_") are allowed.</source>
+        <target state="final">Sólo se permiten letras, números y el guión bajo ("_").</target>
+        <note>Line: 201</note>
+      </trans-unit>
+      <trans-unit id="3d034f43e44ee495a11005507185a0a0" approved="yes">
+        <source>Email template for both .html and .txt.</source>
+        <target state="final">Plantilla de correo electrónico para .html y .txt.</target>
+        <note>Line: 202</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/GeneralType.php" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="2593c7ce3ff937293feb1e61c152e551" approved="yes">
+        <source>characters</source>
+        <target state="final">caracteres</target>
+        <note>Line: 56</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/StockType.php" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="6e39e91b64484f1b075287486b74a9a2" approved="yes">
+        <source>Note that the label will be displayed only if backorders are denied.</source>
+        <target state="final">Tenga en cuenta que la etiqueta se mostrará solo si se rechazan los pedidos pendientes.</target>
+        <note>Line: 84</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/SEOOptionsType.php" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="6d6348525df68625d9758d6d071ac505" approved="yes">
+        <source>Enable this option if you want to display your product's attributes in its meta title.</source>
+        <target state="final">Activa esta opción si deseas mostrar los atributos de tus producto en su meta título.</target>
+        <note>Line: 50</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/SetUpUrlType.php" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="3ff4fabe93bbb10c32a27c54ea13a5e1" approved="yes">
+        <source>Enable this option only if your server allows URL rewriting (recommended).</source>
+        <target state="final">Activa esta opción si tu servidor acepta la reescritura URL (recomendado).</target>
+        <note>Line: 99</note>
+      </trans-unit>
+      <trans-unit id="6a9bb0bb3f61904834f4f436bbcaa1d2" approved="yes">
+        <source>URL rewriting (mod_rewrite) is not active on your server, or it is not possible to check your server configuration. If you want to use Friendly URLs, you must activate this mod.</source>
+        <target state="final">La reescritura URL (mod_rewrite) no está activa en tu servidor o no es posible comprobar la configuración del servidor. Si deseas usar URLs amigables debes activar este módulo.</target>
+        <note>Line: 106</note>
+      </trans-unit>
+      <trans-unit id="7dcc0875a9e200be4d760155c09c2945" approved="yes">
+        <source>Enable this option only if you have problems with URL rewriting.</source>
+        <target state="final">Activa esta opción sólo si tienes problemas con la reescritura URL.</target>
+        <note>Line: 138</note>
+      </trans-unit>
+      <trans-unit id="9e9ad9fb2adc8da0aaec808b3d4e73e4" approved="yes">
+        <source>Some of PrestaShop's features might not work correctly with a specific configuration of Apache's mod_security module. We recommend to turn it off.</source>
+        <target state="final">Algunas de las características de PrestaShop podrían no funcionar correctamente con una configuración específica del módulo mod_security de Apache. Te recomendamos desactivarla.</target>
+        <note>Line: 145</note>
+      </trans-unit>
+      <trans-unit id="3c0127b2ac978b5ebf97533cee742da0" approved="yes">
+        <source>Enable this option if you want to allow accented characters in your friendly URLs. You should only activate this option if you are using non-Latin characters; for all the Latin charsets, your SEO will be better without this option.</source>
+        <target state="final">Habilita esta opción si desea permitir caracteres acentuados en las URL descriptivas. Solo debe activar esta opción si está utilizando caracteres no latinos; para todos los juegos de caracteres latinos, tu SEO será mejor sin esta opción.</target>
+        <note>Line: 119</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/Blocks/product_preferences_general.html.twig" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="54ae4e3e39f5a1f636cfcf2744433678" approved="yes">
+        <source>The catalog mode is actually to disable products checkout (prices, add to cart, etc.) on your shop, like a retail website does.</source>
+        <target state="final">El modo catálogo sirve en realidad para deshabilitar las características relacionadas con el proceso de compra en tu tienda (precios, añadir al carrito, etc.), tal como lo hace un sitio web minorista.</target>
+        <note>Line: 38</note>
+      </trans-unit>
+      <trans-unit id="80af0f0b70143f575fdfd6fa3ca3cb89" approved="yes">
+        <source>Set the maximum size of the summary of your product description (in characters).</source>
+        <target state="final">Establecer el tamaño máximo para el resumen de la descripción del producto (en caracteres).</target>
+        <note>Line: 63</note>
+      </trans-unit>
+      <trans-unit id="fc216bdfbaab3c5e3e87c70720110a08" approved="yes">
+        <source>How to calculate quantity discounts.</source>
+        <target state="final">Indica el criterio para calcular los descuentos por cantidad.</target>
+        <note>Line: 70</note>
+      </trans-unit>
+      <trans-unit id="07d295aa9281a95bf9c27348393f688a" approved="yes">
+        <source>When active, friendly URL will be updated on every save.</source>
+        <target state="final">Cuando se activa, las URL amigables serán actualizadas cada vez que se guarde.</target>
+        <note>Line: 77</note>
+      </trans-unit>
+      <trans-unit id="3f141565d26297ff4449250743dba137" approved="yes">
+        <source>When active, new products will be activated by default during creation.</source>
+        <target state="final">Cuando está activa, los nuevos productos se activarán de manera predeterminada durante la creación.</target>
+        <note>Line: 84</note>
+      </trans-unit>
+      <trans-unit id="bd92437d0543aa142ccea7c021c9efe9" approved="yes">
+        <source>Catalog mode disables the shopping cart on your store. Visitors will be able to browse your products catalog, but not buy them.</source>
+        <target state="final">El modo catálogo desactiva el carrito de la compra en tu tienda. Los visitantes podrán navegar a través del catálogo de productos, pero no podrán adquirirlos.</target>
+        <note>Line: 39</note>
+      </trans-unit>
+      <trans-unit id="2f00a538942083503dd09c585cc6d91c" approved="yes">
+        <source>Have specific needs? Edit particular groups to let them see prices or not.</source>
+        <target state="final">¿Tienes necesidades específicas? Edita grupos particulares para permitirles ver los precios o no.</target>
+        <note>Line: 43</note>
+      </trans-unit>
+      <trans-unit id="bbaceb858ee14af2da60e07d63fd8678" approved="yes">
+        <source>Display product prices when in catalog mode.</source>
+        <target state="final">Mostrar precios de productos en modo catálogo.</target>
+        <note>Line: 47</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/Blocks/product_preferences_page.html.twig" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="9175b705bec9604985209d1f2d88c785" approved="yes">
+        <source>Set to "0" to disable this feature.</source>
+        <target state="final">Establecer a "0" para desactivar esta característica.</target>
+        <note>Line: 48</note>
+      </trans-unit>
+      <trans-unit id="265b491d10a9a79c9b43655659826614" approved="yes">
+        <source>Display or hide the "add to cart" button on category pages for products that have attributes forcing customers to see product details.</source>
+        <target state="final">Mostrar u ocultar el botón "Añadir al carro" en las páginas de categorías de productos que tienen atributos forzando a los clientes a visualizar los datos del producto.</target>
+        <note>Line: 63</note>
+      </trans-unit>
+      <trans-unit id="f70d03fbb967b69ef8222c4a2b4ab334" approved="yes">
+        <source>In the volume discounts board, display the new price with the applied discount instead of showing the discount (ie. "-5%").</source>
+        <target state="final">En la tabla de descuentos por volumen, muestre el nuevo precio con el descuento aplicado en lugar de mostrar sólo el descuento (ej. "-5%").</target>
+        <note>Line: 84</note>
+      </trans-unit>
+      <trans-unit id="572a918fa0b6c312c2c8c3447ce57421" approved="yes">
+        <source>Display the "%add_to_cart_label%" button when a product has attributes</source>
+        <target state="final">Mostrar el botón "%add_to_cart_label%" cuando un producto tiene atributos</target>
+        <note>Line: 62</note>
+      </trans-unit>
+      <trans-unit id="26071fff3423bbdfda80e24ef3a0d6e3" approved="yes">
+        <source>Display or hide the "%add_to_cart_label%" button on category pages for products that have attributes forcing customers to see product details.</source>
+        <target state="final">Mostrar u ocultar el botón "%add_to_cart_label%" en las páginas de categorías de productos que tienen atributos forzando a los clientes a visualizar los datos del producto.</target>
+        <note>Line: 62</note>
+      </trans-unit>
+      <trans-unit id="8bd1967f496dd2a0dd64dae32a3bc6e5" approved="yes">
+        <source>If an attribute is not available in every product combination, it will not be displayed.</source>
+        <target state="final">Si un atributo no está disponible en todas las combinaciones del producto, no se mostrará.</target>
+        <note>Line: 55</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/Blocks/product_preferences_pagination.html.twig" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="2724aaa50fa52662bc9b244cab7afcae" approved="yes">
+        <source>Number of products displayed per page. Default is 10.</source>
+        <target state="final">Número de productos mostrados por página. El valor predeterminado es 10.</target>
+        <note>Line: 39</note>
+      </trans-unit>
+      <trans-unit id="c18179baaeadd4a2fc27fafd3d6f40b1" approved="yes">
+        <source>The order in which products are displayed in the product list.</source>
+        <target state="final">El orden en que los productos se muestran en el listado de productos.</target>
+        <note>Line: 46</note>
+      </trans-unit>
+      <trans-unit id="043781290780f9b67e98fc277d7608ba" approved="yes">
+        <source>Default order method for product list.</source>
+        <target state="final">Método de ordenación predeterminado para el listado de productos.</target>
+        <note>Line: 53</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/Blocks/product_preferences_stock.html.twig" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="885af23392ddb34eaabf65d3b86b216c" approved="yes">
+        <source>By default, the Add to Cart button is hidden when a product is unavailable. You can choose to have it displayed in all cases.</source>
+        <target state="final">De manera predeterminada, el botón Añadir al carrito está oculto cuando un producto no está disponible. Puedes elegir mostrarlo en cualquier caso.</target>
+        <note>Line: 38</note>
+      </trans-unit>
+      <trans-unit id="4b7f36059725914c3abe3fe69a42d860" approved="yes">
+        <source>Advised for European merchants to be legally compliant (eg: Delivered within 3-4 days)</source>
+        <target state="final">Recomendado para que los comerciantes europeos cumplan con la legislación actual vigente (ej.: Entrega en un plazo de entre 3 y 4 días)</target>
+        <note>Line: 82</note>
+      </trans-unit>
+      <trans-unit id="29474c2b0b3e4d053abd526ed118b420" approved="yes">
+        <source>Advised for European merchants to be legally compliant (eg: Delivered within 5-7 days)</source>
+        <target state="final">Recomendado para que los comerciantes europeos cumplan con la legislación actual vigente (ej.: Entrega en un plazo de entre 5 y 7 días)</target>
+        <note>Line: 90</note>
+      </trans-unit>
+      <trans-unit id="f9a436259aa8fcb0e45a2081a259e90d" approved="yes">
+        <source>When selling packs of products, how do you want your stock to be calculated?</source>
+        <target state="final">Al vender packs de productos, ¿cómo quieres que se calcule tu stock?</target>
+        <note>Line: 98</note>
+      </trans-unit>
+      <trans-unit id="b5e585ab39ea18b6354e53370bfe7472" approved="yes">
+        <source>By default, the "%add_to_cart_label%" button is hidden when a product is unavailable. You can choose to have it displayed in all cases.</source>
+        <target state="final">De manera predeterminada, el botón "%add_to_cart_label%" está oculto cuando un producto no está disponible. Puedes elegir mostrarlo en cualquier caso.</target>
+        <note>Line: 39</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/OrderPreferences/Blocks/order_preferences_general.html.twig" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="86d8ec764d429d4ebe6e39de9ff8c4a4" approved="yes">
+        <source>Allows you to delay shipping at your customers' request.</source>
+        <target state="final">Te permite retrasar el envío a petición de tus clientes.</target>
+        <note>Line: 82</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/OrderReturnStates/Blocks/form.html.twig" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="a4bb440d400f4dc30f148b44d08680b4" approved="yes">
+        <source>Invalid characters: numbers and</source>
+        <target state="final">Caracteres no válidos: números y</target>
+        <note>Line: 43</note>
+      </trans-unit>
+      <trans-unit id="00b963b1cb1aad2142ae67ce65329944" approved="yes">
+        <source>Status will be highlighted in this color. HTML colors only.</source>
+        <target state="final">El estado se resaltará en este color. Sólo colores HTML.</target>
+        <note>Line: 49</note>
+      </trans-unit>
+      <trans-unit id="43f4ac702eaf88267f6946aeb559b251" approved="yes">
+        <source>Order's return status name.</source>
+        <target state="final">Nombre del estado de la devolución.</target>
+        <note>Line: 41</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/OrderStates/Blocks/form.html.twig" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="83b262520a65657b95fd686817c56a09" approved="yes">
+        <source>Order status (e.g. 'Pending').</source>
+        <target state="final">Estado del pedido (ej.: 'Pendiente').</target>
+        <note>Line: 41</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/TrafficSeo/Meta/Blocks/domain_name_management.html.twig" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="55ed6eb3effe909461f682de73f89f82" approved="yes">
+        <source>You can search for a new domain name or add a domain name that you already own. You will be redirected to your PrestaShop account.</source>
+        <target state="final">Puedes buscar un nuevo nombre de dominio o añadir un nombre de dominio que ya sea de tu propiedad. Serás redirigido a tu cuenta de PrestaShop.</target>
+        <note>Line: 40</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/TrafficSeo/Meta/Blocks/form.html.twig" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="6252c0f2c2ed83b7b06dfca86d4650bb" approved="yes">
+        <source>Invalid characters:</source>
+        <target state="final">Caracteres no válidos:</target>
+        <note>Line: 71</note>
+      </trans-unit>
+      <trans-unit id="219985722a429b6aaceef7d363e6a565" approved="yes">
+        <source>Name of the related page.</source>
+        <target state="final">Nombre de la página relacionada.</target>
+        <note>Line: 45</note>
+      </trans-unit>
+      <trans-unit id="14bc1d17bbcf8fb45debf11fb7c5f80b" approved="yes">
+        <source>Title of this page.</source>
+        <target state="final">Título de esta página.</target>
+        <note>Line: 49</note>
+      </trans-unit>
+      <trans-unit id="79c06fd4269a36582767dc4525699148" approved="yes">
+        <source>A short description of your shop.</source>
+        <target state="final">Una breve descripción de tu tienda.</target>
+        <note>Line: 59</note>
+      </trans-unit>
+      <trans-unit id="d9f600637f31b203b55f6c91dabd4fde" approved="yes">
+        <source>List of keywords for search engines.</source>
+        <target state="final">Listado de palabras clave para los motores de búsqueda.</target>
+        <note>Line: 69</note>
+      </trans-unit>
+      <trans-unit id="99de37a1ed381af8c01ccb18f70b1427" approved="yes">
+        <source>For instance, "contacts" for http://example.com/shop/contacts to redirect to http://example.com/shop/contact-form.php</source>
+        <target state="final">Por ejemplo, "contáctenos" para http://ejemplo.com/tienda/contactenos para redireccionar a http://ejemplo.com/tienda/contact-form.php</target>
+        <note>Line: 80</note>
+      </trans-unit>
+      <trans-unit id="7aa534250fe76a40d96078a07b6f44e8" approved="yes">
+        <source>Only letters and hyphens are allowed.</source>
+        <target state="final">Solo letras y guiones (-) están permitidos.</target>
+        <note>Line: 81</note>
+      </trans-unit>
+      <trans-unit id="0210e7a00cf2cd3cca0e4d7ed3bdf86f" approved="yes">
+        <source>To add tags, click in the field, write something, and then press the "Enter" key.</source>
+        <target state="final">Para añadir etiquetas, haz clic en el campo, escribe el contenido, y presiona la tecla "Intro".</target>
+        <note>Line: 70</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/TrafficSeo/Meta/Blocks/set_up_urls_configuration.html.twig" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="1ccf825d454faaa7f8141830469fab8f" approved="yes">
+        <source>Enable this option if you want to allow accented characters in your friendly URLs.</source>
+        <target state="final">Activa esta opción si quieres permitir caracteres acentuados en tus URLs amigables.</target>
+        <note>Line: 70</note>
+      </trans-unit>
+      <trans-unit id="37d06ba898faba724d13f931b1642b06" approved="yes">
+        <source>You should only activate this option if you are using non-latin characters ; for all the latin charsets, your SEO will be better without this option.</source>
+        <target state="final">Sólo debes activar esta opción si estás utilizando un juego de caracteres no latinos; para el resto de los caracteres (latinos - occidentales), el SEO funcionará mejor sin esta opción.</target>
+        <note>Line: 70</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/maintenance.html.twig" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="23d2e4d116d9d457eed9dd3a29f7ac51" approved="yes">
+        <source>Activate or deactivate your shop (It is a good idea to deactivate your shop while you perform maintenance. Please note that the webservice will not be disabled).</source>
+        <target state="final">Activar o desactivar tu tienda. Es recomendable desactivar tu tienda mientras se realizan labores de mantenimiento (ej: actualización de PrestaShop, cambios en la base de datos, etc.). Por favor, ten en cuenta que el servicio web seguirá funcionando.</target>
+        <note>Line: 43</note>
+      </trans-unit>
+      <trans-unit id="c3e680954da4b0bbf8e4d380287f4a76" approved="yes">
+        <source>IP addresses allowed to access the front office even if the shop is disabled. Please use a comma to separate them (e.g. 42.24.4.2,127.0.0.1,99.98.97.96)</source>
+        <target state="final">Direcciones IP autorizadas para el acceso a su Front Office cuando está desactivada. Utilizar comas para separarlas (ej., 42.24.4.2,127.0.0.1,99.98.97.96)</target>
+        <note>Line: 50</note>
+      </trans-unit>
+      <trans-unit id="c1c418380f12430665f311652395eb11" approved="yes">
+        <source>Custom text displayed on maintenance page while shop is deactivated.</source>
+        <target state="final">Texto personalizado que aparece en la página de mantenimiento mientras la tienda está desactivada.</target>
+        <note>Line: 57</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/preferences.html.twig" source-language="en" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="a3a0f3b2f4c12d1c11b9916c8c10c48c" approved="yes">
+        <source>If you want to enable SSL on all the pages of your shop, activate the "Enable on all the pages" option below.</source>
+        <target state="final">Si quieres activar SSL en todas las páginas de tu tienda, activa la opción de abajo "Activar SSL en todas las páginas".</target>
+        <note>Line: 54</note>
+      </trans-unit>
+      <trans-unit id="2d21e9a3fe59f46db5ffdc26448e3ab6" approved="yes">
+        <source>Choose how many decimals you want to display</source>
+        <target state="final">Indica el número de decimales que quieres mostrar</target>
+        <note>Line: 126</note>
+      </trans-unit>
+      <trans-unit id="b6d90c5c27a4d2d48ead626c17be303c" approved="yes">
+        <source>Enable brands and suppliers pages on your front office even when their respective modules are disabled.</source>
+        <target state="final">Activar las páginas de marcas y proveedores en el Front Office, incluso cuando sus respectivos módulos estén desactivados.</target>
+        <note>Line: 134</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
