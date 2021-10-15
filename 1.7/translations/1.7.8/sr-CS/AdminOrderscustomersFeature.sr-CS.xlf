@@ -123,7 +123,7 @@
       </trans-unit>
       <trans-unit id="95923cff2ad4637372adcdf25e4581f8" approved="yes">
         <source>Meaning of status</source>
-        <target state="final">Značenje statusa</target>
+        <target state="final">Značenje statusa poruke</target>
         <note>Line: 64</note>
       </trans-unit>
       <trans-unit id="c33e404a441c6ba9648f88af3c68a1ca" approved="yes">
@@ -632,6 +632,21 @@
         <target state="final">Broj porudžbine. </target>
         <note>Line: 1288</note>
       </trans-unit>
+      <trans-unit id="9e95da88fdfc002080300ef14cfba583" approved="yes">
+        <source>Include amount of initial voucher:</source>
+        <target state="final">Uključi iznos od početnog vaučera:</target>
+        <note>Line: 1174</note>
+      </trans-unit>
+      <trans-unit id="ec7ef95eeedfb53da36578da83b77ca6" approved="yes">
+        <source>Exclude amount of initial voucher:</source>
+        <target state="final">Isključi iznos od početnog vaučera:</target>
+        <note>Line: 1180</note>
+      </trans-unit>
+      <trans-unit id="6b743762523778c559d152e58f15af70" approved="yes">
+        <source>Amount of your choice:</source>
+        <target state="final">Iznos po vašem izboru:</target>
+        <note>Line: 1233</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/return/helpers/form/form.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -773,7 +788,7 @@ Best regards,</source>
     <body>
       <trans-unit id="6adf97f83acf6453d4a6a4b1070f3754" approved="yes">
         <source>None</source>
-        <target state="final">nijedan</target>
+        <target state="final">Nijedan</target>
         <note>Line: 26</note>
       </trans-unit>
       <trans-unit id="28d0edd045e05cf5af64e35ae0c4c6ef" approved="yes">
@@ -958,7 +973,11 @@ Best regards,</source>
   </file>
   <file original="controllers/admin/BoOrder.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
+      <trans-unit id="267806034cfac4481cabe7b81c81f91d" approved="yes">
+        <source>Back office order</source>
+        <target state="final">Porudžbina sa Administrativnog panela</target>
+        <note>Line: 33</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/front/OrderConfirmationController.php" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -1013,11 +1032,20 @@ Best regards,</source>
   </file>
   <file original="src/Adapter/Kpi/AverageOrderValueKpi.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
+      <trans-unit id="272c853e39b8c65c81afd3661a8fd17f" approved="yes">
+        <source>%amount% tax excl.</source>
+        <target state="final">%amount% bez PDV-a</target>
+        <note>Line: 55</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Kpi/NetProfitPerVisitKpi.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
+      <trans-unit id="1f065062cdb50b501c5cb5160cf21ab0" approved="yes">
+        <source>Net Profit per Visit</source>
+        <target state="final">Neto zarada po poseti</target>
+        <note>Line: 50</note>
+      </trans-unit>
       <trans-unit id="947d8520f04473da621f2718138f3bc6" approved="yes">
         <source>30 days</source>
         <target state="final">30 dana</target>
@@ -1045,6 +1073,11 @@ Best regards,</source>
   </file>
   <file original="src/Adapter/Kpi/ShoppingCartTotalKpi.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
+      <trans-unit id="50cc07e9963519545552b1ac2c5f7a1e" approved="yes">
+        <source>Cart #%ID%</source>
+        <target state="final">Korpa #%ID%</target>
+        <note>Line: 72</note>
+      </trans-unit>
       <trans-unit id="0b91ef9198a761459c595de4b12ca109" approved="yes">
         <source>Total Cart</source>
         <target state="final">Ukupno u korpi</target>
@@ -1054,7 +1087,11 @@ Best regards,</source>
   </file>
   <file original="src/Adapter/Order/CommandHandler/AddOrderFromBackOfficeHandler.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
+      <trans-unit id="e49701f123af735cf327227e8ab09bac" approved="yes">
+        <source>Manual order -- Employee:</source>
+        <target state="final">Manuelna porudžbina -- Zaposleni</target>
+        <note>Line: 91</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Order/QueryHandler/GetOrderForViewingHandler.php" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -1109,7 +1146,11 @@ Best regards,</source>
   </file>
   <file original="src/Core/Grid/Definition/Factory/CustomerDiscountGridDefinitionFactory.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
+      <trans-unit id="907d7000b3555d1a1b12f1fed29a9ec4" approved="yes">
+        <source>Qty available</source>
+        <target state="final">Dostupna količina</target>
+        <note>Line: 100</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Core/Grid/Definition/Factory/CustomerGridDefinitionFactory.php" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -1157,6 +1198,16 @@ Best regards,</source>
         <target state="final">Rizik</target>
         <note>Line: 132</note>
       </trans-unit>
+      <trans-unit id="fbd4adba582628ae10db8ae408116e49" approved="yes">
+        <source>Outstanding allowance</source>
+        <target state="final">Dozvoljeno odloženo plaćanje</target>
+        <note>Line: 143</note>
+      </trans-unit>
+      <trans-unit id="3c8ee33d7d880c0842fc7767ec546663" approved="yes">
+        <source>Current outstanding</source>
+        <target state="final">Trenutno neplaćeno</target>
+        <note>Line: 150</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Core/Import/EntityField/Provider/AddressFieldsProvider.php" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -1179,6 +1230,11 @@ Best regards,</source>
         <source>Birthday</source>
         <target state="final">Rođendan</target>
         <note>Line: 937</note>
+      </trans-unit>
+      <trans-unit id="f0c7cdb1b872477a4c31bca923127c54" approved="yes">
+        <source>You can use this feature in a single shop context only. Switch context to enable it.</source>
+        <target state="final">Ovu funkciju možete koristiti samo u režimu samostalne prodavnice. Promenite režim da bi je aktivirali.</target>
+        <note>Line: 1007</note>
       </trans-unit>
     </body>
   </file>
@@ -1207,6 +1263,11 @@ Best regards,</source>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Address/CustomerAddressType.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
+      <trans-unit id="e03982ee543fe69d4954d587f1f2a338" approved="yes">
+        <source>The national ID card number of this person, or a unique tax identification number.</source>
+        <target state="final">Broj nacionalne lične karate od ove osobe, ili unikatni lični broj.</target>
+        <note>Line: 138</note>
+      </trans-unit>
       <trans-unit id="03361eda68f746619c2ae3341eaa2f07" approved="yes">
         <source>Customer email</source>
         <target state="final">Klijentov e-mail</target>
@@ -1214,7 +1275,7 @@ Best regards,</source>
       </trans-unit>
       <trans-unit id="baa31a65f29121c32b637bb845d41acf" approved="yes">
         <source>Address alias</source>
-        <target state="final">Druga adresa</target>
+        <target state="final">Dodatno ime za adresu</target>
         <note>Line: 159</note>
       </trans-unit>
     </body>
@@ -1287,10 +1348,25 @@ Best regards,</source>
         <target state="final">Vrati proizvod na lager</target>
         <note>Line: 99</note>
       </trans-unit>
+      <trans-unit id="e413f403aa8d5253b487d09fc84e47a0" approved="yes">
+        <source>Generate a credit slip</source>
+        <target state="final">Kreiraj kreditni list / revers</target>
+        <note>Line: 108</note>
+      </trans-unit>
       <trans-unit id="400264c3cd8f2e65b9f19375230b59b8" approved="yes">
         <source>Generate a voucher</source>
         <target state="final">Napravi vaučer</target>
         <note>Line: 118</note>
+      </trans-unit>
+      <trans-unit id="532c865e83cd29bf74e7b968c8216767" approved="yes">
+        <source>Product(s) price:</source>
+        <target state="final">Cena proizvoda:</target>
+        <note>Line: 130</note>
+      </trans-unit>
+      <trans-unit id="6e3a26f187c697d1d8c6668a55cd5561" approved="yes">
+        <source>Product(s) price, excluding amount of initial voucher:</source>
+        <target state="final">Cena za proizvod(e) bez vrednosti početnog vaučera:</target>
+        <note>Line: 131</note>
       </trans-unit>
       <trans-unit id="282c7d15f714ec30b64b7db218f232f0" approved="yes">
         <source>The "shipping" field must be a valid number</source>
@@ -1310,7 +1386,11 @@ Best regards,</source>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/InternalNoteType.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
+      <trans-unit id="536f22a9d3cc691b4893dc895050c26e" approved="yes">
+        <source>Add a note on this order. It will only be visible to you.</source>
+        <target state="final">Dodajte neki komentar  za ovu porudžbinu. To je samo vama vidljivo.</target>
+        <note>Line: 66</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/Invoices/InvoiceOptionsType.php" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -1629,6 +1709,11 @@ Best regards,</source>
         <target state="final">Vremensko ograničenje</target>
         <note>Line: 41</note>
       </trans-unit>
+      <trans-unit id="fc27a9928f7964baef466650acacbe10" approved="yes">
+        <source>Return prefix</source>
+        <target state="final">Prefiks za povraćaj</target>
+        <note>Line: 46</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/CustomerService/MerchandiseReturn/index.html.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -1911,6 +1996,11 @@ Best regards,</source>
         <target state="final">Opcije isporuke</target>
         <note>Line: 35</note>
       </trans-unit>
+      <trans-unit id="4c15f9bb0c76e90180c701b2d39994d8" approved="yes">
+        <source>Shipping price (Tax incl.)</source>
+        <target state="final">Cena isporuke (sa PDV)</target>
+        <note>Line: 45</note>
+      </trans-unit>
       <trans-unit id="1a747e98fba823d6be62189cbac46dcb" approved="yes">
         <source>Recycled packaging</source>
         <target state="final">Reciklirani paket</target>
@@ -1925,10 +2015,30 @@ Best regards,</source>
         <target state="final">Ukupno proizvoda</target>
         <note>Line: 44</note>
       </trans-unit>
+      <trans-unit id="58a13b9a4e13f53cf70a60bf583321e1" approved="yes">
+        <source>Total vouchers (Tax excl.)</source>
+        <target state="final">Ukupno vaučera (bez PDV-a)</target>
+        <note>Line: 50</note>
+      </trans-unit>
+      <trans-unit id="96a2d6388d5c73e22a1edbe506f86b17" approved="yes">
+        <source>Total shipping (Tax excl.)</source>
+        <target state="final">Ukupno isporuka (bez PDV-a)</target>
+        <note>Line: 56</note>
+      </trans-unit>
       <trans-unit id="7bf753e0cbb2d38818ba2a3ee3b36f4d" approved="yes">
         <source>Total taxes</source>
         <target state="final">Ukupno PDV</target>
         <note>Line: 62</note>
+      </trans-unit>
+      <trans-unit id="b94cb106eaa958b2ab473da305e57977" approved="yes">
+        <source>Total (Tax excl.)</source>
+        <target state="final">Ukupno (bez PDV-a)</target>
+        <note>Line: 68</note>
+      </trans-unit>
+      <trans-unit id="eed1808b8206c5a62cc6407f85cf95bc" approved="yes">
+        <source>Total (Tax incl.)</source>
+        <target state="final">Ukupno (sa PDV-om)</target>
+        <note>Line: 74</note>
       </trans-unit>
       <trans-unit id="f13673c7e261fd8d00915c9cb768ad95" approved="yes">
         <source>Order message</source>
@@ -1950,6 +2060,16 @@ Best regards,</source>
         <target state="final">Još Radnji</target>
         <note>Line: 117</note>
       </trans-unit>
+      <trans-unit id="7b5f08c69447b1a7ab854f62e150ee9f" approved="yes">
+        <source>Send pre-filled order to the customer by email</source>
+        <target state="final">Pošaljite unapred popunjenu porudžbinu kupcu sa mejlom.</target>
+        <note>Line: 122</note>
+      </trans-unit>
+      <trans-unit id="65ee84985acacd6efbe0b58dc9db68bd" approved="yes">
+        <source>Proceed to checkout in the front office</source>
+        <target state="final">Idite na kasu na prednjoj strani prodavnice.</target>
+        <note>Line: 125</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/Modal/add_product_modal.html.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -1963,13 +2083,25 @@ Best regards,</source>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/Modal/update_shipping_modal.html.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
+      <trans-unit id="74b9e5d9e68f0fcc9326fab959a8ed4b" approved="yes">
+        <source>Edit shipping details</source>
+        <target state="final">Izmeni detalje o isporuci</target>
+        <note>Line: 33</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/Modal/view_product_pack_modal.html.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="5e1ce9eb796081fea13e0d0dd3c3d76f" approved="yes">
+        <source>Reference number:</source>
+        <target state="final">Šifra:</target>
+        <note>Line: 64</note>
+      </trans-unit>
+      <trans-unit id="a9971a36ea6236b1577b27dba46775ed" approved="yes">
+        <source>Supplier reference:</source>
+        <target state="final">Šifra dobavljača:</target>
+        <note>Line: 67</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/add_product_row.html.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -2095,12 +2227,20 @@ Best regards,</source>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/history.html.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
+      <trans-unit id="d71940f24ee38ee09f6e06b908480bcf" approved="yes">
+        <source>Resend email</source>
+        <target state="final">Ponovo pošalji E-mail</target>
+        <note>Line: 49</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/internal_note.html.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
+      <trans-unit id="d505e651b2a69330a46db995ed98c243" approved="yes">
+        <source>Order note</source>
+        <target state="final">Napomena porudžbine</target>
+        <note>Line: 31</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/linked_orders.html.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -2234,6 +2374,11 @@ Best regards,</source>
         <source>Wrapping</source>
         <target state="final">Pakovanje</target>
         <note>Line: 175</note>
+      </trans-unit>
+      <trans-unit id="d68a1671669f7e55d73dd78c22d52dfa" approved="yes">
+        <source>This order has been partially paid by voucher. Choose the amount you want to refund:</source>
+        <target state="final">Porudžbina je delimično plaćena sa vaučerom. Izaberite iznos za refundiranje:</target>
+        <note>Line: 243</note>
       </trans-unit>
       <trans-unit id="d9c66f411da5faef9c46d5b679214ae1" approved="yes">
         <source>Add a discount</source>
