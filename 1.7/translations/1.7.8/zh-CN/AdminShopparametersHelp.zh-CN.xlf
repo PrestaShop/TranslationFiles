@@ -305,6 +305,21 @@
         <target state="final">搜索这个关键词。</target>
         <note>Line: 437</note>
       </trans-unit>
+      <trans-unit id="b080303b551112c7b9dcdf6a21051f42" approved="yes">
+        <source>By default, the fuzzy search is enabled. It means spelling errors are allowed, e.g. you can search for "bird" with words like "burd", "bard" or "beerd".</source>
+        <target state="final">缺省情况下，启用模糊搜索。 这意味着允许拼写错误，例如 您可以使用“burd”、“bard”或“beerd”等词来搜索“bird”。</target>
+        <note>Line: 196</note>
+      </trans-unit>
+      <trans-unit id="2324c421f8c5376051c024f15232cd80" approved="yes">
+        <source>Enable approximate string matching.</source>
+        <target state="final">启用近似字符串匹配。</target>
+        <note>Line: 207</note>
+      </trans-unit>
+      <trans-unit id="a4b432b49016cf0de70c747fde4f815b" approved="yes">
+        <source>Note that this option is resource-consuming: the more you search, the longer it takes.</source>
+        <target state="final">请注意，此选项会消耗资源：搜索的次数越多，所需的时间就越长。</target>
+        <note>Line: 220</note>
+      </trans-unit>
       <trans-unit id="39e61e5c1261f090e3c56f494a315f07" approved="yes">
         <source>Disabling this option will require exact spelling for the search to match results.</source>
         <target state="final">禁用此选项将要求精确拼写以匹配结果。</target>
@@ -435,13 +450,30 @@
         <target state="final">显示与否，合作商提供信息勾选框来接受从商店合作伙伴的优惠。</target>
         <note>Line: 117</note>
       </trans-unit>
+      <trans-unit id="4c80d371ca1a14e173c5480ee32f1c90" approved="yes">
+        <source>Send an email with a summary of the account information after registration.</source>
+        <target state="final">注册后发送包含帐户信息摘要的电子邮件。</target>
+        <note>Line: 62</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/MaintenanceType.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="122941b469f97a0c0750a62126fba6cd" approved="yes">
+        <source>We recommend that you deactivate your store while performing maintenance. Note that it will not disable the webservice.</source>
+        <target state="final">我们建议您在执行维护时停用您的商店。 请注意，它不会禁用网络服务。</target>
+        <note>Line: 80</note>
+      </trans-unit>
+      <trans-unit id="4db650b0232001140675125d740191be" approved="yes">
+        <source>Allow IP addresses to access the store, even in maintenance mode. Use a comma to separate them (e.g. 42.24.4.2,127.0.0.1,99.98.97.96).</source>
+        <target state="final">允许 IP 地址访问商店，即使在维护模式下也是如此。 使用逗号分隔它们（例如 42.24.4.2,127.0.0.1,99.98.97.96）。</target>
+        <note>Line: 97</note>
+      </trans-unit>
+      <trans-unit id="541fbadd38ba459b4257b5822e9d0518" approved="yes">
+        <source>Display a customized message when the store is disabled.</source>
+        <target state="final">禁用存储时显示自定义消息。</target>
+        <note>Line: 117</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -490,6 +522,11 @@
         <source>The multistore feature allows you to manage several e-shops with one Back Office. If this feature is enabled, a "Multistore" page will be available in the "Advanced Parameters" menu.</source>
         <target state="final">多店功能可让您在一个后台管理多个电子商店。如果启用此功能，“多店”页面将可在“高级参数”菜单。</target>
         <note>Line: 205</note>
+      </trans-unit>
+      <trans-unit id="7c6efc73556c295515e6f3c2129eee32" approved="yes">
+        <source>Enable suppliers page on your front office even when its module is disabled.</source>
+        <target state="final">即使禁用模块，也可以在前台启用供应商页面。</target>
+        <note>Line: 181</note>
       </trans-unit>
       <trans-unit id="8e17743ca02e7c24310531d34d0c89ff" approved="yes">
         <source>Enable brands page on your front office even when its module is disabled.</source>
@@ -596,7 +633,11 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/StockType.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="6e39e91b64484f1b075287486b74a9a2" approved="yes">
+        <source>Note that the label will be displayed only if backorders are denied.</source>
+        <target state="final">请注意，只有在拒绝延期交货时才会显示标签。</target>
+        <note>Line: 84</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/SEOOptionsType.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -629,6 +670,11 @@
         <source>Some of PrestaShop's features might not work correctly with a specific configuration of Apache's mod_security module. We recommend to turn it off.</source>
         <target state="final">某些PrestaShop的属性可能无法和Apache的 mod_security 模块的特定配置一起正常使用。我们建议将其关闭。</target>
         <note>Line: 145</note>
+      </trans-unit>
+      <trans-unit id="3c0127b2ac978b5ebf97533cee742da0" approved="yes">
+        <source>Enable this option if you want to allow accented characters in your friendly URLs. You should only activate this option if you are using non-Latin characters; for all the Latin charsets, your SEO will be better without this option.</source>
+        <target state="final">如果您希望在友好 URL 中允许重音字符，请启用此选项。 只有在使用非拉丁字符时才应激活此选项； 对于所有拉丁字符集，如果没有此选项，您的 SEO 会更好。</target>
+        <note>Line: 119</note>
       </trans-unit>
     </body>
   </file>
@@ -693,6 +739,21 @@
         <target state="final">在量贩折扣表显示折扣后的新价格，而非折数 (例如 "-5%​​")。</target>
         <note>Line: 84</note>
       </trans-unit>
+      <trans-unit id="572a918fa0b6c312c2c8c3447ce57421" approved="yes">
+        <source>Display the "%add_to_cart_label%" button when a product has attributes</source>
+        <target state="final">当产品有属性时显示 "%add_to_cart_label%" 按钮</target>
+        <note>Line: 62</note>
+      </trans-unit>
+      <trans-unit id="26071fff3423bbdfda80e24ef3a0d6e3" approved="yes">
+        <source>Display or hide the "%add_to_cart_label%" button on category pages for products that have attributes forcing customers to see product details.</source>
+        <target state="final">对于具有强制客户查看产品详细信息的属性的产品，在类别页面上显示或隐藏“%add_to_cart_label%”按钮。</target>
+        <note>Line: 62</note>
+      </trans-unit>
+      <trans-unit id="8bd1967f496dd2a0dd64dae32a3bc6e5" approved="yes">
+        <source>If an attribute is not available in every product combination, it will not be displayed.</source>
+        <target state="final">如果某个属性并非在每个产品组合中都可用，则不会显示该属性。</target>
+        <note>Line: 55</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/Blocks/product_preferences_pagination.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -735,6 +796,11 @@
         <source>When selling packs of products, how do you want your stock to be calculated?</source>
         <target state="final">当销售商品套餐时，你要如何计算库存？</target>
         <note>Line: 98</note>
+      </trans-unit>
+      <trans-unit id="b5e585ab39ea18b6354e53370bfe7472" approved="yes">
+        <source>By default, the "%add_to_cart_label%" button is hidden when a product is unavailable. You can choose to have it displayed in all cases.</source>
+        <target state="final">默认情况下，当产品不可用时，"%add_to_cart_label%" 按钮是隐藏的。 您可以选择在所有情况下都显示它。</target>
+        <note>Line: 39</note>
       </trans-unit>
     </body>
   </file>

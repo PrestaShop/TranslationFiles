@@ -35,6 +35,16 @@
         <target state="final">位置值不能大于分类中商品总数，最小值1(位置值从0起始)</target>
         <note>Line: 6171</note>
       </trans-unit>
+      <trans-unit id="30a367ba686890c829937e768d588b8f" approved="yes">
+        <source>You cannot set 0 or a negative position, the minimum is 1.</source>
+        <target state="final">您不能设置 0 或负位置，最小值为 1。</target>
+        <note>Line: 7084</note>
+      </trans-unit>
+      <trans-unit id="cf99dad7d7306d9ac01ba5a2e2d2c715" approved="yes">
+        <source>You cannot set a position greater than the total number of products in the category, starting at 1.</source>
+        <target state="final">您设置的位置不能大于该类别中的产品总数，从 1 开始。</target>
+        <note>Line: 7105</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/QqUploadedFileForm.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -66,6 +76,11 @@
         <source>This will copy the images too. If you wish to proceed, click "Yes". If not, click "No".</source>
         <target state="final">这将连图片一起复制。如果你希望继续，请点击“是”，否则请点击“不是".</target>
         <note>Line: 429</note>
+      </trans-unit>
+      <trans-unit id="76a0433a69a82abfba836ca72dbef13f" approved="yes">
+        <source>This will copy the images too. If you wish to proceed, click "%yes_label%". If not, click "%no_label%".</source>
+        <target state="final">这也将复制图像。 如果您想继续，请单击“%yes_label%”。 如果没有，请单击“%no_label%”。</target>
+        <note>Line: 431</note>
       </trans-unit>
     </body>
   </file>
@@ -655,11 +670,30 @@
         <target state="final">我要把仅列在此分类中而没有在其他地方的产品移除。</target>
         <note>Line: 73</note>
       </trans-unit>
+      <trans-unit id="4d5ec94fee2d67b1f49517f355425fb0" approved="yes">
+        <source>If they have no other category, I want to associate them with the parent category.</source>
+        <target state="final">如果他们没有其他类别，我想将它们与父类别相关联。</target>
+        <note>Line: 57</note>
+      </trans-unit>
+      <trans-unit id="8743e83ee9ec372f40d4a58160bfc1d2" approved="yes">
+        <source>If they have no other category, I want to associate them with the parent category and turn them offline.</source>
+        <target state="final">如果他们没有其他类别，我想将它们与父类别相关联并将它们离线。</target>
+        <note>Line: 65</note>
+      </trans-unit>
+      <trans-unit id="63cfe520c7e96406010bc883272667f5" approved="yes">
+        <source>If they have no other category, I want to delete them as well.</source>
+        <target state="final">如果他们没有其他类别，我也想删除它们。</target>
+        <note>Line: 73</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Core/Grid/Data/Factory/AttachmentGridDataFactoryDecorator.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="14c18063d1497fb156ab73c0d59d354b" approved="yes">
+        <source>This file is associated with the following products. Are you sure you want to delete it?</source>
+        <target state="final">此文件与以下产品相关联。 你确定要删除吗？</target>
+        <note>Line: 121</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/ProductController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -752,6 +786,21 @@
         <target state="final">在上传图像的时候发生错误。</target>
         <note>Line: 874</note>
       </trans-unit>
+      <trans-unit id="3d85438a25723cc56bd4aefb9b368bc0" approved="yes">
+        <source>An error occurred while creating the category.</source>
+        <target state="final">创建类别时发生错误。</target>
+        <note>Line: 857</note>
+      </trans-unit>
+      <trans-unit id="175ad2b319a95a0b7c580dbc4205fdac" approved="yes">
+        <source>An error occurred while editing the category.</source>
+        <target state="final">编辑类别时发生错误。</target>
+        <note>Line: 865</note>
+      </trans-unit>
+      <trans-unit id="17668cbc24213c8d43211a67139c3939" approved="yes">
+        <source>The root category of a shop cannot be edited.</source>
+        <target state="final">商店的根类别无法编辑。</target>
+        <note>Line: 861</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/ManufacturerController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -770,7 +819,11 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/ProductController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="f07403f2e9d7e44c0090ab06678d4eb3" approved="yes">
+        <source>The experimental product page is not enabled. To enable it, go to the %sExperimental Features%s page.</source>
+        <target state="final">实验产品页面未启用。 要启用它，请转到 %sExperimental Features%s 页面。</target>
+        <note>Line: 276</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/SupplierController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -804,6 +857,11 @@
         <target state="final">没有足够的商品库存。</target>
         <note>Line: 599</note>
       </trans-unit>
+      <trans-unit id="891d308560a0cca2452fd2f482dded8c" approved="yes">
+        <source><![CDATA[Product customization could not be found. Go to Catalog > Products to customize the product.]]></source>
+        <target state="final"><![CDATA[找不到产品定制。 转到目录 > 产品以自定义产品。]]></target>
+        <note>Line: 595</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -835,18 +893,50 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/HeaderType.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
+      <trans-unit id="2b260d6a8a4b747672d790f18c2ab780" approved="yes">
+        <source>Are you sure you want to change the product type?</source>
+        <target state="final">您确定要更改产品类型吗？</target>
+        <note>Line: 70</note>
+      </trans-unit>
+      <trans-unit id="da531a2761eef5012cadd0a2e31acab6" approved="yes">
+        <source>Change product type</source>
+        <target state="final">更改产品类型</target>
+        <note>Line: 71</note>
+      </trans-unit>
+      <trans-unit id="178b6141eb15b94fb25e5940625ecd01" approved="yes">
+        <source>Changing the product type will immediately save the product and refresh the page.</source>
+        <target state="final">更改产品类型将立即保存产品并刷新页面。</target>
+        <note>Line: 73</note>
+      </trans-unit>
+      <trans-unit id="d125a0ad5887eb2575a57c2149a12c1d" approved="yes">
+        <source>This will delete all combinations.</source>
+        <target state="final">这将删除所有组合。</target>
+        <note>Line: 74</note>
+      </trans-unit>
+      <trans-unit id="6b7844c384e54ed301c7f3f6b4aac389" approved="yes">
+        <source>This will delete the list of products in this pack.</source>
+        <target state="final">这将删除此包中的产品列表。</target>
+        <note>Line: 75</note>
+      </trans-unit>
+      <trans-unit id="4882c6b9d11d6aacd193fa21547fd727" approved="yes">
+        <source>This will delete the associated virtual file.</source>
+        <target state="final">这将删除关联的虚拟文件。</target>
+        <note>Line: 76</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Image/ImageDropzoneType.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="9a906b85c45f31efeb25eef56aad240b" approved="yes">
+        <source>Image replaced</source>
+        <target state="final">图像已替换</target>
+        <note>Line: 56</note>
+      </trans-unit>
+      <trans-unit id="02708462d504c68df426d48cd6aae23f" approved="yes">
+        <source>Are you sure you want to delete the selected image?|Are you sure you want to delete the %filesNb% selected images?</source>
+        <target state="final">确定要删除所选图像吗？|确定要删除 %filesNb% 个所选图像吗？</target>
+        <note>Line: 79</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Validator/Constraints/TinyMceMaxLengthValidator.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -1056,7 +1146,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Categories/Blocks/delete_categories_modal.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="332a0777d848606eb5f63149d0bb1105" approved="yes">
+        <source>Note that if they have another category, your products will logically remain associated with it.</source>
+        <target state="final">请注意，如果他们有另一个类别，您的产品在逻辑上将与其保持关联。</target>
+        <note>Line: 44</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Categories/Blocks/form.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -1088,13 +1182,25 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/Combination/paginated_list.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="d077aab0da809b9037b3e3974da6bad3" approved="yes">
+        <source>Discard changes?</source>
+        <target state="final">放弃更改？</target>
+        <note>Line: 45</note>
+      </trans-unit>
+      <trans-unit id="e202ea17abd88b9634fb9939f6253ea9" approved="yes">
+        <source>All unsaved modifications made on the combination [1]%combinationName%[/1] will be lost.</source>
+        <target state="final">对组合 [1]%combinationName%[/1] 所做的所有未保存的修改都将丢失。</target>
+        <note>Line: 46</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/edit.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="fd7c4e2dcae282ac5305265c45be0bc2" approved="yes">
+        <source>This is the experimental product page.</source>
+        <target state="final">这是实验产品页面。</target>
+        <note>Line: 69</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Stock/overview.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
