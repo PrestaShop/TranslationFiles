@@ -35,6 +35,16 @@
         <target state="final">U kunt geen positie hoger instellen die groter is dan het totaal aantal producten in de categorie, minus 1 (positie nummering begint bij 0).</target>
         <note>Line: 6171</note>
       </trans-unit>
+      <trans-unit id="30a367ba686890c829937e768d588b8f" approved="yes">
+        <source>You cannot set 0 or a negative position, the minimum is 1.</source>
+        <target state="final">U kunt geen 0 of een negatief getal invoeren, het minimum is 1.</target>
+        <note>Line: 7084</note>
+      </trans-unit>
+      <trans-unit id="cf99dad7d7306d9ac01ba5a2e2d2c715" approved="yes">
+        <source>You cannot set a position greater than the total number of products in the category, starting at 1.</source>
+        <target state="final">U kunt geen positie hoger instellen die groter is dan het totaal aantal producten in de categorie, beginnend bij 1</target>
+        <note>Line: 7105</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/QqUploadedFileForm.php" source-language="en" target-language="nl" datatype="plaintext">
@@ -786,6 +796,11 @@
         <target state="final">Er is een fout opgetreden bij het bewerken van de categorie.</target>
         <note>Line: 865</note>
       </trans-unit>
+      <trans-unit id="17668cbc24213c8d43211a67139c3939" approved="yes">
+        <source>The root category of a shop cannot be edited.</source>
+        <target state="final">De hoofdcategorie van een webshop kan niet worden aangepast.</target>
+        <note>Line: 861</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/ManufacturerController.php" source-language="en" target-language="nl" datatype="plaintext">
@@ -804,7 +819,11 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/ProductController.php" source-language="en" target-language="nl" datatype="plaintext">
     <body>
-      
+      <trans-unit id="f07403f2e9d7e44c0090ab06678d4eb3" approved="yes">
+        <source>The experimental product page is not enabled. To enable it, go to the %sExperimental Features%s page.</source>
+        <target state="final">De experimentele product pagina is niet ingeschakeld. Om in te schakelen, ga naar de %sExperimental Features%s pagina.</target>
+        <note>Line: 276</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/SupplierController.php" source-language="en" target-language="nl" datatype="plaintext">
@@ -838,6 +857,11 @@
         <target state="final">Er zijn niet genoeg producten op voorraad.</target>
         <note>Line: 599</note>
       </trans-unit>
+      <trans-unit id="891d308560a0cca2452fd2f482dded8c" approved="yes">
+        <source><![CDATA[Product customization could not be found. Go to Catalog > Products to customize the product.]]></source>
+        <target state="final"><![CDATA[Product aanpassing wordt niet gevonden. Ga naar Catalogus>Producten om het product aan te passen.]]></target>
+        <note>Line: 595</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php" source-language="en" target-language="nl" datatype="plaintext">
@@ -869,18 +893,50 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/HeaderType.php" source-language="en" target-language="nl" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
+      <trans-unit id="2b260d6a8a4b747672d790f18c2ab780" approved="yes">
+        <source>Are you sure you want to change the product type?</source>
+        <target state="final">Weet u zeker dat u het product type wilt wijzigen?</target>
+        <note>Line: 70</note>
+      </trans-unit>
+      <trans-unit id="da531a2761eef5012cadd0a2e31acab6" approved="yes">
+        <source>Change product type</source>
+        <target state="final">Wijzig product type</target>
+        <note>Line: 71</note>
+      </trans-unit>
+      <trans-unit id="178b6141eb15b94fb25e5940625ecd01" approved="yes">
+        <source>Changing the product type will immediately save the product and refresh the page.</source>
+        <target state="final">Als u het product type wijzigt zal het product onmiddelijk worden opgeslagen en wordt de pagina ververst.</target>
+        <note>Line: 73</note>
+      </trans-unit>
+      <trans-unit id="d125a0ad5887eb2575a57c2149a12c1d" approved="yes">
+        <source>This will delete all combinations.</source>
+        <target state="final">Hierdoor zullen alle combinaties worden verwijderd.</target>
+        <note>Line: 74</note>
+      </trans-unit>
+      <trans-unit id="6b7844c384e54ed301c7f3f6b4aac389" approved="yes">
+        <source>This will delete the list of products in this pack.</source>
+        <target state="final">Hierdoor zullen alle producten in dit pakket worden verwijderd.</target>
+        <note>Line: 75</note>
+      </trans-unit>
+      <trans-unit id="4882c6b9d11d6aacd193fa21547fd727" approved="yes">
+        <source>This will delete the associated virtual file.</source>
+        <target state="final">Hierdoor wordt het geassocieerde virtuele bestand verwijderd.</target>
+        <note>Line: 76</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Image/ImageDropzoneType.php" source-language="en" target-language="nl" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="9a906b85c45f31efeb25eef56aad240b" approved="yes">
+        <source>Image replaced</source>
+        <target state="final">Afbeelding vervangen</target>
+        <note>Line: 56</note>
+      </trans-unit>
+      <trans-unit id="02708462d504c68df426d48cd6aae23f" approved="yes">
+        <source>Are you sure you want to delete the selected image?|Are you sure you want to delete the %filesNb% selected images?</source>
+        <target state="final">Weet u zeker dat u de geselecteerde afbeelding wilt verwijderen?|Weet u zeker dat u de %filesNb% geselecteerde afbeeldingen wilt verwijderen?</target>
+        <note>Line: 79</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Validator/Constraints/TinyMceMaxLengthValidator.php" source-language="en" target-language="nl" datatype="plaintext">
@@ -1126,13 +1182,25 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/Combination/paginated_list.html.twig" source-language="en" target-language="nl" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="d077aab0da809b9037b3e3974da6bad3" approved="yes">
+        <source>Discard changes?</source>
+        <target state="final">Wijzigingen negeren?</target>
+        <note>Line: 45</note>
+      </trans-unit>
+      <trans-unit id="e202ea17abd88b9634fb9939f6253ea9" approved="yes">
+        <source>All unsaved modifications made on the combination [1]%combinationName%[/1] will be lost.</source>
+        <target state="final">Alle niet-opgeslagen wijzigingen aan de combinatie [1]%combinationName%[/1] gaan verloren.</target>
+        <note>Line: 46</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/edit.html.twig" source-language="en" target-language="nl" datatype="plaintext">
     <body>
-      
+      <trans-unit id="fd7c4e2dcae282ac5305265c45be0bc2" approved="yes">
+        <source>This is the experimental product page.</source>
+        <target state="final">Dit is de experimentele product pagina.</target>
+        <note>Line: 69</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Stock/overview.html.twig" source-language="en" target-language="nl" datatype="plaintext">
