@@ -133,6 +133,16 @@ Comment: @todo Throw exception</note>
   </file>
   <file original="classes/LocalizationPack.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
+      <trans-unit id="dd7edad69f95c053248e9b53eab73826" approved="yes">
+        <source>Cannot load country: %d</source>
+        <target state="final">%d országot nem lehet betölteni</target>
+        <note>Line: 72</note>
+      </trans-unit>
+      <trans-unit id="5408a3468e366610d70dc31825b3ef3d" approved="yes">
+        <source>Cannot enable the associated country: %s</source>
+        <target state="final">A társított ország nem bekapcsolható: %s</target>
+        <note>Line: 83</note>
+      </trans-unit>
       <trans-unit id="db3f419ede0b78fcf31491509e68db40" approved="yes">
         <source>Invalid Zone name.</source>
         <target state="final">Érvénytelen zóna név</target>
@@ -142,6 +152,11 @@ Comment: @todo Throw exception</note>
         <source>Invalid state properties.</source>
         <target state="final">Érvénytelen megye beállítások.</target>
         <note>Line: 171</note>
+      </trans-unit>
+      <trans-unit id="b19f9ad94a42c56d4a2d89aaca63bafb" approved="yes">
+        <source>Cannot update the associated country: %s</source>
+        <target state="final">A társított ország nem frissíthető: %s</target>
+        <note>Line: 180</note>
       </trans-unit>
       <trans-unit id="e970d66f1c952edf7a4e5dfcf3e18958" approved="yes">
         <source>An error occurred while adding the state.</source>
@@ -157,6 +172,11 @@ Comment: @todo Throw exception</note>
         <source>Invalid tax properties.</source>
         <target state="final">Érvénytelen adó beállítások.</target>
         <note>Line: 228</note>
+      </trans-unit>
+      <trans-unit id="da2b28e84d7f376b073d2c31b0cb937b" approved="yes">
+        <source>An error occurred while importing the tax: %s</source>
+        <target state="final">Hiba történt az adó importálásakor: %s</target>
+        <note>Line: 234</note>
       </trans-unit>
       <trans-unit id="36f9983aadfde9d77db0d357abe6e85e" approved="yes">
         <source>This tax rule cannot be saved.</source>
@@ -182,6 +202,21 @@ Comment: @todo Throw exception</note>
         <source>An error occurred while setting the units.</source>
         <target state="final">Hiba történt az egységek beállításakor.</target>
         <note>Line: 468</note>
+      </trans-unit>
+      <trans-unit id="0964494eb4e763fd08c6004a31b4b8a7" approved="yes">
+        <source>An error occurred while installing the module: %s</source>
+        <target state="final">Hiba történt a modul telepítése során: %s</target>
+        <note>Line: 502</note>
+      </trans-unit>
+      <trans-unit id="e9b1cabd191f8141419c43cc46802e35" approved="yes">
+        <source>An error occurred while uninstalling the module: %s</source>
+        <target state="final">Hiba történt a modul eltávolítása során: %s</target>
+        <note>Line: 507</note>
+      </trans-unit>
+      <trans-unit id="e7ae5e7fbebb7b087110d07b06bd2418" approved="yes">
+        <source>An error occurred during the configuration setup: %1$s</source>
+        <target state="final">Hiba történt a konfigurációs beállítás közben: %1$s</target>
+        <note>Line: 541</note>
       </trans-unit>
       <trans-unit id="b34f6454b80599ab92262b1da79a9edb" approved="yes">
         <source>An error occurred during the default group update</source>
@@ -210,6 +245,11 @@ Comment: @todo Throw exception</note>
         <source>The translation was added successfully, but the language has not been created.</source>
         <target state="final">Fordítás sikeresen hozzáadva, de a nyelv nem lett létrehozva</target>
         <note>Line: 500</note>
+      </trans-unit>
+      <trans-unit id="ae99f365ee39176c3ab50b76a95cf629" approved="yes">
+        <source>Cannot add configuration %1$s for %2$s language</source>
+        <target state="final">%1$s konfiguráció nem adható hozzá ehhez a nyelvhez: %2$s.</target>
+        <note>Line: 1570</note>
       </trans-unit>
     </body>
   </file>
@@ -555,6 +595,11 @@ Comment: @todo Throw exception</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/TranslationsController.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
+      <trans-unit id="962f6e835582ebb404a37893f46c60f3" approved="yes">
+        <source>An error has occurred, this module does not exist: %s</source>
+        <target state="final">Hiba lépett fel. Ez a modul nem létezik: %s</target>
+        <note>Line: 139</note>
+      </trans-unit>
       <trans-unit id="f22def68c5c456936078623b6dcd27ff" approved="yes">
         <source>The translations have been successfully added.</source>
         <target state="final">Sikeres fordítás hozzáadás</target>
@@ -596,7 +641,11 @@ Comment: @todo Throw exception</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/International/Currency/Blocks/exchange_rates.html.twig" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
+      <trans-unit id="0f4a4ca4bdfda88bb59a4ba4814a5f78" approved="yes">
+        <source>Please install the %module_name% module before using this feature.</source>
+        <target state="final">Kérjük, telepítse ezt a modult a szolgáltatás használata előtt: %module_name%.</target>
+        <note>Line: 44</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/International/Currency/Blocks/form.html.twig" source-language="en" target-language="hu" datatype="plaintext">
