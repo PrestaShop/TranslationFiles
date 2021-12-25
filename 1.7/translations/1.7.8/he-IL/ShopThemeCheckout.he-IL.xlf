@@ -7,6 +7,11 @@
         <target state="final">(עלות נוספת של %giftcost% %taxlabel%)</target>
         <note>Line: 111</note>
       </trans-unit>
+      <trans-unit id="882ed1e831a6175e4a3dd2c09faa225c" approved="yes">
+        <source>I would like my order to be gift wrapped %cost%</source>
+        <target state="final">אבקש לעטוף הזמנה זו באריזת מתנה בתוספת %cost%</target>
+        <note>Line: 184</note>
+      </trans-unit>
       <trans-unit id="e2e79605fc9450ec17957cf0e910f5c6" approved="yes">
         <source>tax incl.</source>
         <target state="final">כולל מיסים</target>
@@ -168,6 +173,11 @@
         <target state="final">%count% פריטים</target>
         <note>Line: 427</note>
       </trans-unit>
+      <trans-unit id="2bd544f123f671c597c4b330ef05b5da" approved="yes">
+        <source>A minimum shopping cart total of %amount% (tax excl.) is required to validate your order. Current cart total is %total% (tax excl.).</source>
+        <target state="final">נדרש סכום עגלת קניות מינימלי של %amount% (ללא מע"מ) על מנת לאמת את הזמנתך. סכום עגלת הקניות הנוכחי הוא %total% (ללא מע"מ).</target>
+        <note>Line: 481</note>
+      </trans-unit>
       <trans-unit id="40d906eb5dd9a2734d0c20c437e2ff68" approved="yes">
         <source>Discount(s)</source>
         <target state="final">הנחות</target>
@@ -231,11 +241,22 @@ File: themes/StarterTheme/templates/checkout/_partials/customer-form.tpl:30</not
   </file>
   <file original="themes/StarterTheme/templates/checkout/_partials/steps/addresses.tpl" source-language="en" target-language="he" datatype="plaintext">
     <body>
-      
+      <trans-unit id="59123a64986f5a831723020061400054" approved="yes">
+        <source>The selected address will be used both as your personal address (for invoice) and as your shipping address.</source>
+        <target state="final">הכתובת שנבחרה תשמש גם בתור כתובתך האישית (עבור החשבונית) וגם בתור כתובת המשלוח.</target>
+        <note>Context:
+File: themes/StarterTheme/templates/checkout/_partials/steps/addresses.tpl:41</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/StarterTheme/templates/checkout/order-confirmation.tpl" source-language="en" target-language="he" datatype="plaintext">
     <body>
+      <trans-unit id="ded7f0d0397bb3138bfe1e40dcdb560a" approved="yes">
+        <source>Order reference %reference%</source>
+        <target state="final">מספר הזמנה: %reference%</target>
+        <note>Context:
+File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:59</note>
+      </trans-unit>
       <trans-unit id="c955ed92e576b55e052cc5a88d92c93e" approved="yes">
         <source>Payment method %method_name%</source>
         <target state="final">אופן תשלום : %method_name%</target>
@@ -296,6 +317,11 @@ File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:62</note>
         <source>Shipping:</source>
         <target state="final">הגדרות משלוחים:</target>
         <note>Line: 76</note>
+      </trans-unit>
+      <trans-unit id="b208de3d9294511d4001606e63775185" approved="yes">
+        <source>There is %products_count% item in your cart.</source>
+        <target state="final">%products_count% מוצרים בסל.</target>
+        <note>Line: 72</note>
       </trans-unit>
     </body>
   </file>
@@ -451,6 +477,11 @@ File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:62</note>
         <target state="final">הכתובת שנבחרה תשמש ככתובתכם האישית (עבור החשבונית).</target>
         <note>Line: 38</note>
       </trans-unit>
+      <trans-unit id="313d7cbfa2b3c25f09d69ad7e40974a7" approved="yes">
+        <source>Billing address differs from shipping address</source>
+        <target state="final">כתובת התשלום שונה מכתובת משלוח</target>
+        <note>Line: 80</note>
+      </trans-unit>
       <trans-unit id="baa63a898921164abe2d1d532ab27e79" approved="yes">
         <source>Your Invoice Address</source>
         <target state="final">כתובת על החשבונית</target>
@@ -484,6 +515,18 @@ File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:62</note>
         <source>Unfortunately, there are no payment method available.</source>
         <target state="final">לצערינו לא נמצאו אפשרויות תשלום זמינות.</target>
         <note>Line: 84</note>
+      </trans-unit>
+      <trans-unit id="3a31d70f8c2eb35a29f6c58e9664cd7f" approved="yes">
+        <source>Please make sure you've chosen a [1]payment method[/1] and accepted the [2]terms and conditions[/2].</source>
+        <target state="final">אנא ודאו כי בחרתם [1]שיטת תשלום[/1] ואישרתם את [2]התנאים וההגבלות[/2].
+</target>
+        <note>Line: 135</note>
+      </trans-unit>
+      <trans-unit id="dde6c860ae1ac6573875352abf1822ef" approved="yes">
+        <source>No payment needed for this order</source>
+        <target state="final">להזמנה זו אין צורך בתשלום מראש
+</target>
+        <note>Line: 17</note>
       </trans-unit>
       <trans-unit id="5486191906ec27c1c4bb5bd3e46b3442" approved="yes">
         <source>Order with an obligation to pay</source>
@@ -523,6 +566,11 @@ File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:62</note>
         <target state="final">אתה יכול להוסיף הודעה למתנה זו</target>
         <note>Line: 103</note>
       </trans-unit>
+      <trans-unit id="9a605fc0e1667ebdbd0ac37cf9f90789" approved="yes">
+        <source>Unfortunately, there are no carriers available for your delivery address.</source>
+        <target state="final">לצערינו, אין אפשרות לשלוח לכתובת שלך.</target>
+        <note>Line: 115</note>
+      </trans-unit>
       <trans-unit id="d93651d012e77dac5581b08db33195b2" approved="yes">
         <source>If you would like to add a comment about your order, please write it in the field below.</source>
         <target state="final">אם אתה רוצה להוסיף הערה לההזמנה שלך, אנא כתוב אותה בהמשך.</target>
@@ -560,6 +608,11 @@ File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:62</note>
         <source>Order details</source>
         <target state="final">פרטי הזמנה</target>
         <note>Line: 58</note>
+      </trans-unit>
+      <trans-unit id="cc6f3e2192d71f54d7b181d91f04d165" approved="yes">
+        <source>Save time on your next order, sign up now</source>
+        <target state="final">חסכו זמן בהזמנה הבאה והירשמו עכשיו</target>
+        <note>Line: 94</note>
       </trans-unit>
       <trans-unit id="00cd7d0890cd975da95799c32764c9ce" approved="yes">
         <source>Order reference: %reference%</source>
