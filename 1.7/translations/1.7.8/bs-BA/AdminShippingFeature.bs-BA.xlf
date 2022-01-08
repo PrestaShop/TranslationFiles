@@ -2,13 +2,30 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="admin-dev/themes/default/template/controllers/carrier_wizard/helpers/form/form.tpl" source-language="en" target-language="bs" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="07018153f387118b1dacafee609f13b1" approved="yes">
+        <source>Will be applied when the price is</source>
+        <target state="final">Biti će primijenjeno kada je cijena</target>
+        <note>Line: 27</note>
+      </trans-unit>
+      <trans-unit id="4c687ab170e51c6eaa65be3b621c7205" approved="yes">
+        <source>Will be applied when the weight is</source>
+        <target state="final">Biti će primijenjeno kada je težina</target>
+        <note>Line: 28</note>
+      </trans-unit>
+      <trans-unit id="574539ea519352ea60375ee0a3edbf16" approved="yes">
+        <source>Add new range</source>
+        <target state="final">Dodaj novi raspon</target>
+        <note>Line: 40</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/carrier_wizard/helpers/form/form_ranges.tpl" source-language="en" target-language="bs" datatype="plaintext">
     <body>
+      <trans-unit id="92711ef5b0215a076fef4a3abbfc2258" approved="yes">
+        <source>Ranges</source>
+        <target state="final">Rasponi</target>
+        <note>Line: 27</note>
+      </trans-unit>
       <trans-unit id="19d3894f53ce79c3f836f26cf8a3be3b" approved="yes">
         <source>inactive</source>
         <target state="final">neaktivan</target>
@@ -22,6 +39,16 @@
         <source>This carrier is %1$s and the transit time is %2$s.</source>
         <target state="final">Ovaj dostavljač je %1$s i vrijeme dostave je: %2$s.</target>
         <note>Line: 28</note>
+      </trans-unit>
+      <trans-unit id="aa2d6e4f578eb0cfaba23beef76c2194" approved="yes">
+        <source>free</source>
+        <target state="final">besplatno</target>
+        <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="43aca442af5353cb54151e4a94fcd0b5" approved="yes">
+        <source>not free</source>
+        <target state="final">nije besplatno</target>
+        <note>Line: 30</note>
       </trans-unit>
       <trans-unit id="b6fbfa40ef6e8d15ec69cb2da0dcd662" approved="yes">
         <source>This carrier can deliver orders from %1$s to %2$s.</source>
@@ -37,6 +64,16 @@
         <source>The shipping cost is calculated %1$s and the tax rule %2$s will be applied.</source>
         <target state="final">Cijena dostave je izračunata %1$s i pravilo poreza %2$s će biti primijenjeno.</target>
         <note>Line: 33</note>
+      </trans-unit>
+      <trans-unit id="0ea5b002f2959687c7ff926ca01a47a3" approved="yes">
+        <source>according to the price</source>
+        <target state="final">prema cijeni</target>
+        <note>Line: 34</note>
+      </trans-unit>
+      <trans-unit id="c2908ded92c5ab4bd42c02e608d0b981" approved="yes">
+        <source>according to the weight</source>
+        <target state="final">prema težini</target>
+        <note>Line: 35</note>
       </trans-unit>
       <trans-unit id="ba44d024ba9eec02cc432a36dcffb9d9" approved="yes">
         <source>Carrier name:</source>
@@ -97,20 +134,11 @@
   </file>
   <file original="controllers/admin/AdminCarrierWizardController.php" source-language="en" target-language="bs" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="920bd1fb6d54c93fca528ce941464225" approved="yes">
+        <source>Group access</source>
+        <target state="final">Grupni pristup</target>
+        <note>Line: 419</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminCarriersController.php" source-language="en" target-language="bs" datatype="plaintext">
@@ -120,38 +148,95 @@
         <target state="final">Naziv:</target>
         <note>Line: 713</note>
       </trans-unit>
+      <trans-unit id="dde695268ea519ababd83f0ca3d274fc" approved="yes">
+        <source>Transit time</source>
+        <target state="final">Vrijeme tranzita</target>
+        <note>Line: 188</note>
+      </trans-unit>
+      <trans-unit id="c8b462f779749d2e27abed2e9501b2bd" approved="yes">
+        <source>Speed grade</source>
+        <target state="final">Ocjena brzine</target>
+        <note>Line: 197</note>
+      </trans-unit>
+      <trans-unit id="780c462e85ba4399a5d42e88f69a15ca" approved="yes">
+        <source>Billing</source>
+        <target state="final">Naplata</target>
+        <note>Line: 304</note>
+      </trans-unit>
+      <trans-unit id="082ebbb29b5ba59c293a00a55581679b" approved="yes">
+        <source>Out-of-range behavior</source>
+        <target state="final">Ponašanje izvan raspona</target>
+        <note>Line: 329</note>
+      </trans-unit>
+      <trans-unit id="4f890cf6a72112cad95093baecf39831" approved="yes">
+        <source>Disable carrier</source>
+        <target state="final">Onemogući dostavljača</target>
+        <note>Line: 339</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Core/Grid/Definition/Factory/CarrierGridDefinitionFactory.php" source-language="en" target-language="bs" datatype="plaintext">
     <body>
-      
+      <trans-unit id="8f497c1a3d15af9e0c215019f26b887d" approved="yes">
+        <source>Delay</source>
+        <target state="final">Kašnjenje</target>
+        <note>Line: 112</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/Shipping/Preferences/CarrierOptionsType.php" source-language="en" target-language="bs" datatype="plaintext">
     <body>
-      
+      <trans-unit id="bff13ed1cd5b83b03f024f1eb6524337" approved="yes">
+        <source>Default carrier</source>
+        <target state="final">Podrazumjevani dostavljač</target>
+        <note>Line: 84</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/Shipping/Preferences/HandlingType.php" source-language="en" target-language="bs" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="1d8ca7f442e6d4ad3da5cb61b84284fc" approved="yes">
+        <source>Handling charges</source>
+        <target state="final">Trošak rukovanja</target>
+        <note>Line: 81</note>
+      </trans-unit>
+      <trans-unit id="c9722f74f95451816de0f8ca3259ae44" approved="yes">
+        <source>Free shipping starts at</source>
+        <target state="final">Besplatna dostava počinje iznad</target>
+        <note>Line: 103</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Shipping/Carriers/Blocks/showcase_card.html.twig" source-language="en" target-language="bs" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="301cf62d4bf632f3eb6395ec2cb25f78" approved="yes">
+        <source>Manage your carriers</source>
+        <target state="final">Upravljajte vašm kurirskim službama.</target>
+        <note>Line: 34</note>
+      </trans-unit>
+      <trans-unit id="47727de83838bb7df93877b04b5efdf7" approved="yes">
+        <source>Create carriers to let your customers choose their best shipping option in terms of delivery dates or fees. Start with editing/deleting the default "My carrier", and add as many options as you need.</source>
+        <target state="final">Kreirajte vaše kurirske službe da bi klijenti mogli da izaberu najbolju opciju za njih u smislu datuma isporuke ili cijene. Počnite s izmjenom/ brisanjem postojeće kurirske službe "Moja kurirska služba" a onda dodajte još opcija koliko želite.</target>
+        <note>Line: 35</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Shipping/Preferences/Blocks/shipping_preferences_carrier_options.html.twig" source-language="en" target-language="bs" datatype="plaintext">
     <body>
-      
+      <trans-unit id="8430a7b1b81635e3df949c2845303303" approved="yes">
+        <source>Carrier options</source>
+        <target state="final">Opcije dostavljača</target>
+        <note>Line: 34</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Shipping/Preferences/Blocks/shipping_preferences_handling.html.twig" source-language="en" target-language="bs" datatype="plaintext">
     <body>
-      
+      <trans-unit id="2605fbb693837be42d0cd0e701cb5aa3" approved="yes">
+        <source>Handling</source>
+        <target state="final">Rukovanje</target>
+        <note>Line: 34</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/details.html.twig" source-language="en" target-language="bs" datatype="plaintext">
@@ -165,6 +250,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/shipping.html.twig" source-language="en" target-language="bs" datatype="plaintext">
     <body>
+      <trans-unit id="552a0d8c17d95d5dbdc0c28217024f5a" approved="yes">
+        <source>Shipping cost</source>
+        <target state="final">Troškovi isporuke</target>
+        <note>Line: 46</note>
+      </trans-unit>
       <trans-unit id="914419aa32f04011357d3b604a86d7eb" approved="yes">
         <source>Carrier</source>
         <target state="final">Dostavljač</target>
