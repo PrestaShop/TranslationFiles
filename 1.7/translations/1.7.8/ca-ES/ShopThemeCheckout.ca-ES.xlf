@@ -2,6 +2,11 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="classes/checkout/CheckoutDeliveryStep.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
+      <trans-unit id="d62106dfcdba5cacd1a5f5efe9cefc79" approved="yes">
+        <source> (additional cost of %giftcost% %taxlabel%)</source>
+        <target state="final"> (cost addicional de %giftcost% %taxlabel%)</target>
+        <note>Line: 111</note>
+      </trans-unit>
       <trans-unit id="882ed1e831a6175e4a3dd2c09faa225c" approved="yes">
         <source>I would like my order to be gift wrapped %cost%</source>
         <target state="final">M'agradaria que la meva comanda sigui embolicada com a regal %cost%</target>
@@ -37,7 +42,7 @@
     <body>
       <trans-unit id="823e713a0e72b5dc3d75a71a7bbc6274" approved="yes">
         <source>I agree to the [terms of service] and will adhere to them unconditionally.</source>
-        <target state="final">Estic d'acord amb les [condicions de venda].</target>
+        <target state="final">Accepto les [condicions del servei] i les compliré incondicionalment.</target>
         <note>Line: 53</note>
       </trans-unit>
     </body>
@@ -60,7 +65,7 @@
     <body>
       <trans-unit id="0bf3928d84fde940f6feafac75062280" approved="yes">
         <source>My Address</source>
-        <target state="final">Adreça</target>
+        <target state="final">La meva adreça</target>
         <note>Line: 136</note>
       </trans-unit>
     </body>
@@ -106,7 +111,7 @@
     <body>
       <trans-unit id="e2121483e5e6c879ecef260a7f72e959" approved="yes">
         <source>Product Successfully Added to Your Shopping Cart</source>
-        <target state="final">S'ha afegit el producte al carro</target>
+        <target state="final">Producte afegit correctament al vostre carret de la compra</target>
         <note>Line: 22</note>
       </trans-unit>
     </body>
@@ -115,7 +120,7 @@
     <body>
       <trans-unit id="b24ce0cd392a5b0b8dedc66c25213594" approved="yes">
         <source>Free</source>
-        <target state="final">De franc!</target>
+        <target state="final">De franc</target>
         <note>Line: 534</note>
       </trans-unit>
       <trans-unit id="96b0141273eabab320119c467cdcaf17" approved="yes">
@@ -130,7 +135,7 @@
       </trans-unit>
       <trans-unit id="484f5a79672cebe198ebdde45a1d672f" approved="yes">
         <source>Gift wrapping</source>
-        <target state="final">Embalatge de regal</target>
+        <target state="final">Paper de regal</target>
         <note>Line: 365</note>
       </trans-unit>
       <trans-unit id="ea9cf7e47ff33b2be14e6dd07cbcefc6" approved="yes">
@@ -160,7 +165,7 @@
       </trans-unit>
       <trans-unit id="7e0eb131cbb6280fe2b38edf92a3bcc5" approved="yes">
         <source>1 item</source>
-        <target state="final">1 producte</target>
+        <target state="final">1 article</target>
         <note>Line: 426</note>
       </trans-unit>
       <trans-unit id="ca96f27e7d3e3b67b5d1f43a54296466" approved="yes">
@@ -172,6 +177,11 @@
         <source>A minimum shopping cart total of %amount% (tax excl.) is required to validate your order. Current cart total is %total% (tax excl.).</source>
         <target state="final">L'import mínim de compra és de %amount% (sense impostos). Ara mateix el total és de %total% (sense impostos).</target>
         <note>Line: 481</note>
+      </trans-unit>
+      <trans-unit id="40d906eb5dd9a2734d0c20c437e2ff68" approved="yes">
+        <source>Discount(s)</source>
+        <target state="final">Descompte(s)</target>
+        <note>Line: 350</note>
       </trans-unit>
     </body>
   </file>
@@ -223,7 +233,7 @@ File: themes/StarterTheme/templates/catalog/_partials/product-discounts.tpl:48</
     <body>
       <trans-unit id="4d26a4e106aa8a35f25d97fd14055981" approved="yes">
         <source>Choose a password to create an account and save time on your next order (optional)</source>
-        <target state="final">Escolliu una contrasenya per a crear un compte i estalvia temps en la propera compra (opcional)</target>
+        <target state="final">Trieu una clau de pas per a crear un compte i estalviar temps en la següent compra (opcional)</target>
         <note>Context:
 File: themes/StarterTheme/templates/checkout/_partials/customer-form.tpl:30</note>
       </trans-unit>
@@ -298,10 +308,20 @@ File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:62</note>
         <target state="final">Total:</target>
         <note>Line: 64</note>
       </trans-unit>
+      <trans-unit id="856ab109229e8acfcddd5c6766a8d956" approved="yes">
+        <source>Subtotal:</source>
+        <target state="final">Subtotal:</target>
+        <note>Line: 74</note>
+      </trans-unit>
       <trans-unit id="66f51e43606e2baebb8e9c3bfe965da4" approved="yes">
         <source>Shipping:</source>
         <target state="final">Lliurament:</target>
         <note>Line: 76</note>
+      </trans-unit>
+      <trans-unit id="b208de3d9294511d4001606e63775185" approved="yes">
+        <source>There is %products_count% item in your cart.</source>
+        <target state="final">Hi ha %products_count% article al carret.</target>
+        <note>Line: 72</note>
       </trans-unit>
     </body>
   </file>
@@ -311,6 +331,11 @@ File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:62</note>
         <source>Cart</source>
         <target state="final">Carret</target>
         <note>Line: 32</note>
+      </trans-unit>
+      <trans-unit id="bfdc2764140a0c8f3ba7f5c1537e4c62" approved="yes">
+        <source>Shopping cart link containing %nbProducts% product(s)</source>
+        <target state="final">Enllaç al carret de la compra que conté %nbProducts% producte(s)</target>
+        <note>Line: 29</note>
       </trans-unit>
     </body>
   </file>
@@ -338,6 +363,11 @@ File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:62</note>
         <source>Gift</source>
         <target state="final">Regal</target>
         <note>Line: 147</note>
+      </trans-unit>
+      <trans-unit id="4c4cfffa1e5022b41e4871b27ede1f25" approved="yes">
+        <source>%productName% product quantity field</source>
+        <target state="final">Camp de quantitat de producte %productName% </target>
+        <note>Line: 139</note>
       </trans-unit>
     </body>
   </file>
@@ -511,6 +541,11 @@ File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:62</note>
         <target state="final">És obligatori pagar</target>
         <note>Line: 150</note>
       </trans-unit>
+      <trans-unit id="e7965ae5942a09b8778af5a9fd481460" approved="yes">
+        <source>Place order</source>
+        <target state="final">Fer la comanda</target>
+        <note>Line: 131</note>
+      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/checkout/_partials/steps/personal-information.tpl" source-language="en" target-language="ca" datatype="plaintext">
@@ -642,7 +677,7 @@ File: themes/StarterTheme/templates/checkout/order-confirmation.tpl:62</note>
     <body>
       <trans-unit id="c453a4b8e8d98e82f35b67f433e3b4da" approved="yes">
         <source>Payment</source>
-        <target state="final">Pagament:</target>
+        <target state="final">Pagament</target>
         <note>Line: 41</note>
       </trans-unit>
       <trans-unit id="5d4710f9a8250b13164a82c94d5b00d1" approved="yes">
