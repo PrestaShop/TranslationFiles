@@ -100,6 +100,11 @@ File: admin-dev/themes/default/template/controllers/categories/helpers/form/form
         <target state="final">Dimensions recomenades (per al tema per defecte): %1spx x %2spx</target>
         <note>Line: 60</note>
       </trans-unit>
+      <trans-unit id="0f6ae5ebf937764fc48db601df56d0ca" approved="yes">
+        <source><![CDATA[If you want a category to appear in the menu of your shop, go to [1]Modules > Modules Manager.[/1] Then, configure your menu module.]]></source>
+        <target state="final"><![CDATA[Si voleu que una categoria aparegui al menú de la vostra botiga, aneu a [1]Mòduls > Gestor de mòduls.[/1] Tot seguit, configureu el vostre mòdul de menú.]]></target>
+        <note>Line: 50</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminAttributesGroupsController.php" source-language="en" target-language="ca" datatype="plaintext">
@@ -184,7 +189,7 @@ File: admin-dev/themes/default/template/controllers/categories/helpers/form/form
       </trans-unit>
       <trans-unit id="849dafe04c2f54cb0dc079da9ca15a8f" approved="yes">
         <source>Password to use to connect your IMAP server.</source>
-        <target state="final">Contrasenya que usareu per connectar amb el vostre servidor IMAP.</target>
+        <target state="final">Clau de pas que usareu per a connectar amb el vostre servidor IMAP.</target>
         <note>Line: 185</note>
       </trans-unit>
       <trans-unit id="e9d5cadd20f10058a5bb0823aed17584" approved="yes">
@@ -307,13 +312,25 @@ File: admin-dev/themes/default/template/controllers/categories/helpers/form/form
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Catalog/Category/AbstractCategoryType.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="88fe88f4033791ef6f38fbb7f7c58f04" approved="yes">
+        <source>To have a different title from the category name, enter it here.</source>
+        <target state="final">Per a tenir un títol diferent del nom de la categoria, escriviu-lo aquí.</target>
+        <note>Line: 145</note>
+      </trans-unit>
+      <trans-unit id="0a7ca3ce7cde025a585cd02d7382b48f" approved="yes">
+        <source>To have a different description than your category summary in search results page, write it here.</source>
+        <target state="final">Per a tenir una descripció diferent del resum de la vostra categoria a la pàgina de resultats de la cerca, escriviu-la aquí.</target>
+        <note>Line: 178</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/Design/Pages/CmsPageCategoryType.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
+      <trans-unit id="461832a83a68a8e85f96044921b51704" approved="yes">
+        <source><![CDATA[Unless the 'Accented URL' option is enabled (in Shop parameters > Traffic & SEO), only letters, numbers, underscores (_), and hyphens (-) are allowed.]]></source>
+        <target state="final"><![CDATA[Llevat que l'opció "URL amb accent" estigui activada (a Paràmetres de la botiga > Tràfic & SEO), sols es permeten les lletres, els números, els guions baixos (_) i els guions (-).]]></target>
+        <note>Line: 193</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Product/ProductInformation.php" source-language="en" target-language="ca" datatype="plaintext">
@@ -404,6 +421,11 @@ File: admin-dev/themes/default/template/controllers/categories/helpers/form/form
         <target state="final">A quina categoria ha de redirigir la pàgina?</target>
         <note>Line: 181</note>
       </trans-unit>
+      <trans-unit id="2719055d3b2b4fc865a78df22462c96b" approved="yes">
+        <source>If no category is selected the Main Category is used</source>
+        <target state="final">Si no se selecciona cap categoria, es fa servir la categoria principal</target>
+        <note>Line: 182</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Manufacturer/ManufacturerType.php" source-language="en" target-language="ca" datatype="plaintext">
@@ -417,33 +439,61 @@ File: admin-dev/themes/default/template/controllers/categories/helpers/form/form
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Category/CategoriesType.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
+      <trans-unit id="5af2dd3e53dafebd7d2e0e9c9d395109" approved="yes">
+        <source>If you want to quickly create a new category, you can do it here. Don’t forget to then go to the Categories page to fill in the needed details (description, image, etc.). A new category will not automatically appear in your shop's menu, please read the Help about it.</source>
+        <target state="final">Si voleu crear de pressa una categoria nova, podeu fer-ho aquí. No us oblideu d'anar a la pàgina Categories per a emplenar els detalls necessaris (descripció, imatge, etc.). Una categoria nova no apareixerà automàticament al menú de la vostra botiga, llegiu-ne l'ajuda.</target>
+        <note>Line: 48</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationFormType.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
+      <trans-unit id="762d425093de542e7ab628b44ff68515" approved="yes">
+        <source>This interface allows you to specify the suppliers of the current combination.</source>
+        <target state="final">Aquesta interfície us permet d'especificar els proveïdors de la combinació actual.</target>
+        <note>Line: 77</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Image/ImageDropzoneType.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
+      <trans-unit id="5f9f342e4e78d83ab2ebb44531de3500" approved="yes">
+        <source>Using another image as cover will automatically uncheck this box.</source>
+        <target state="final">Si feu servir una altra imatge com a principal, desmarcarà automàticament aquesta casella.</target>
+        <note>Line: 59</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Pricing/RetailPriceType.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
+      <trans-unit id="433ae76dedb26dc8d117acb2f6accdaa" approved="yes">
+        <source>This is the net sales price for your customers. The retail price (tax incl.) will automatically be calculated using the selected tax rate.</source>
+        <target state="final">Aquest és el preu de venda net per als vostres clients. El preu de venda al públic (IVA inclòs) es calcularà automàticament fent servir el tipus impositiu seleccionat.</target>
+        <note>Line: 117</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Pricing/UnitPriceType.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
+      <trans-unit id="dfeaf70424e17fcd26f016ace18f2139" approved="yes">
+        <source>Indicate the price for a single unit of the product. For instance, if you're selling fabrics, it would be the price per meter.</source>
+        <target state="final">Indiqueu el preu d'una sola unitat del producte. Per exemple, si veneu teixits, seria el preu per metre.</target>
+        <note>Line: 71</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/SEO/SEOType.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="390348fb4642f64089e6e9ee71f25a7c" approved="yes">
+        <source>This description will appear in search engines. It should be a single sentence, shorter than 160 characters (including spaces).</source>
+        <target state="final">Aquesta descripció apareixerà als motors de cerca. Ha de ser una frase única, menys de 160 caràcters (espais inclosos).</target>
+        <note>Line: 119</note>
+      </trans-unit>
+      <trans-unit id="b51716b6494f24132f3543c516d59742" approved="yes">
+        <source>Public title for the product page, and for search engines. Leave blank to use the product name. The number of remaining characters is displayed to the right of the field.</source>
+        <target state="final">Títol públic per a la pàgina del producte i per als motors de cerca. Deixeu-lo en blanc per a  fer servir el nom del producte. El nombre de caràcters restants es mostra a la dreta del camp.</target>
+        <note>Line: 91</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Supplier/SupplierType.php" source-language="en" target-language="ca" datatype="plaintext">
@@ -576,6 +626,11 @@ File: admin-dev/themes/default/template/controllers/categories/helpers/form/form
         <target state="final"><![CDATA[Per afegir combinacions, primer heu de crear atributs i valors adequats a [1]Atributs i funcions[/1]. <br> Quan finalitzeu, podeu introduir els atributs desitjats (com "mida" o "color") i els seus valors respectius ("XS", "vermell", "tot", etc.) al camp següent; o simplement seleccioneu-los des-de la columna dreta. A continuació, feu clic a "Generar": automàticament crearà totes les combinacions per a vosaltres!]]></target>
         <note>Line: 38</note>
       </trans-unit>
+      <trans-unit id="ab80db7e778c7415ca2f34deb46d5f44" approved="yes">
+        <source><![CDATA[To add combinations, you first need to create proper attributes and values in [1]%attributes_and_features_label%[/1]. <br> When done, you may enter the wanted attributes (like "size" or "color") and their respective values ("XS", "red", "all", etc.) in the field below; or simply select them from the right column. Then click on "%generate_label%": it will automatically create all the combinations for you!]]></source>
+        <target state="final"><![CDATA[Per a afegir combinacions, primer heu de crear els atributs i els valors adequats a [1]%attributes_and_features_label%[/1]. <br> Quan hàgiu acabat, podeu introduir els atributs desitjats (com ara "mida" o "color") i els valors respectius ("XS", "vermell", "tot", etc.) al camp següent; o simplement seleccioneu-los a la columna de la dreta. A continuació, feu clic a "%generate_label%": crearà automàticament totes les combinacions per a vosaltres!]]></target>
+        <note>Line: 38</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_seo.html.twig" source-language="en" target-language="ca" datatype="plaintext">
@@ -650,6 +705,11 @@ File: admin-dev/themes/default/template/controllers/categories/helpers/form/form
       <trans-unit id="214396125ea99914d7f6faef5d612b85" approved="yes">
         <source>You can specify product reference(s) for each associated supplier. Click "Save" after changing selected suppliers to display the associated product references.</source>
         <target state="final">Pot especificar referencies de producte per a cadascun dels proveïdors associats. Fes click a "Desa" després de modificar els proveïdors seleccionats per a mostrar els productes associats.</target>
+        <note>Line: 31</note>
+      </trans-unit>
+      <trans-unit id="738971709fcd7de4b5f8a87eb1e663a1" approved="yes">
+        <source>You can specify product reference(s) for each associated supplier. Click "%save_label%" after changing selected suppliers to display the associated product references.</source>
+        <target state="final">Podeu especificar referències de producte per a cada proveïdor associat. Cliqueu a "%save_label%" després de modificar els proveïdors seleccionats per a mostrar les referències dels productes associades.</target>
         <note>Line: 31</note>
       </trans-unit>
     </body>
@@ -783,6 +843,11 @@ File: admin-dev/themes/default/template/controllers/categories/helpers/form/form
         <target state="final">Aquest tipus de codi de producte és específic per a Europa i Japó, però és molt utilitzat en àmbits internacionals. És un superconjunt del codi UPC: tots els productes marcats amb un EAN s'accepten a Nordamèrica.</target>
         <note>Line: 127</note>
       </trans-unit>
+      <trans-unit id="c268a2747d5680c617c361cd505c4576" approved="yes">
+        <source>MPN is used internationally to identify the Manufacturer Part Number.</source>
+        <target state="final">MPN es fa servir internacionalment per a identificar el número de peça del fabricant.</target>
+        <note>Line: 147</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/pricing.html.twig" source-language="en" target-language="ca" datatype="plaintext">
@@ -880,11 +945,25 @@ File: admin-dev/themes/default/template/controllers/categories/helpers/form/form
         <target state="final">Marcar tots els grups de clients que voleu que tinguin accés a aquesta categoria.</target>
         <note>Line: 175</note>
       </trans-unit>
+      <trans-unit id="19318118b1173f172418b3282cb037d7" approved="yes">
+        <source><![CDATA[If you want a category to appear in the menu of your shop, go to [1]Modules > Module Manager[/1] and configure your menu module.]]></source>
+        <target state="final"><![CDATA[Si voleu que aparegui una categoria al menú de la vostra botiga, aneu a [1]Mòduls > Gestor de mòduls[/1] i configureu el vostre mòdul de menú.]]></target>
+        <note>Line: 48</note>
+      </trans-unit>
+      <trans-unit id="5d57e03bdb23114707da20a5d5937b82" approved="yes">
+        <source>Click on "%displayed_label%" to index the category on your shop.</source>
+        <target state="final">Feu clic a "%displayed_label%" per a  indexar la categoria a la vostra botiga.</target>
+        <note>Line: 44</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Manufacturer/Blocks/form.html.twig" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
+      <trans-unit id="8ed6ad2c4486cdf4c66666671a6d4bf5" approved="yes">
+        <source>To add "tags", click inside the field, write something, and then press "Enter".</source>
+        <target state="final">Per a afegir "etiquetes", cliqueu a dins del camp, escriviu alguna cosa i, tot seguit, premeu "Enter".</target>
+        <note>Line: 86</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Monitoring/index.html.twig" source-language="en" target-language="ca" datatype="plaintext">
@@ -898,12 +977,20 @@ File: admin-dev/themes/default/template/controllers/categories/helpers/form/form
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/Combination/empty_state.html.twig" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
+      <trans-unit id="d87fdec724af7ed0338f394852787788" approved="yes">
+        <source>To add combinations, you first need to create proper attributes and values in [1]%attributes_and_features_label%[/1].</source>
+        <target state="final">Per a afegir combinacions, primer heu de crear els atributs i els valors adequats a [1]%attributes_and_features_label%[/1].</target>
+        <note>Line: 34</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/Tabs/options.html.twig" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
+      <trans-unit id="f6011ed1f37abfade28c8fb3fcaf2562" approved="yes">
+        <source>To specify the suppliers of this product's combinations you can go to [1]{combinations_label}[/1] tab.</source>
+        <target state="final">Per a especificar els proveïdors de les combinacions d'aquest producte, podeu anar a la pestanya [1]{combinations_label}[/1].</target>
+        <note>Line: 38</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

@@ -35,6 +35,11 @@
         <target state="final">No podeu establir una posició més gran que el nombre total de productes a la categoria, com a mínim 1 (el nombre de posició comença a 0).</target>
         <note>Line: 6171</note>
       </trans-unit>
+      <trans-unit id="30a367ba686890c829937e768d588b8f" approved="yes">
+        <source>You cannot set 0 or a negative position, the minimum is 1.</source>
+        <target state="final">No podeu posar 0 o una posició negativa, el mínim és 1.</target>
+        <note>Line: 7084</note>
+      </trans-unit>
       <trans-unit id="cf99dad7d7306d9ac01ba5a2e2d2c715" approved="yes">
         <source>You cannot set a position greater than the total number of products in the category, starting at 1.</source>
         <target state="final">No podeu posar una posició superior al nombre total de productes de la categoria, començant per 1.</target>
@@ -71,6 +76,11 @@
         <source>This will copy the images too. If you wish to proceed, click "Yes". If not, click "No".</source>
         <target state="final">Això copiarà les imatges massivament. Si voleu procedir, cliqueu "OK". Si no, cliqueu "Cancel·lar".</target>
         <note>Line: 429</note>
+      </trans-unit>
+      <trans-unit id="76a0433a69a82abfba836ca72dbef13f" approved="yes">
+        <source>This will copy the images too. If you wish to proceed, click "%yes_label%". If not, click "%no_label%".</source>
+        <target state="final">Això també copiarà les imatges. Si voleu continuar, cliqueu a "%yes_label%". Si no, cliqueu a "%no_label%".</target>
+        <note>Line: 431</note>
       </trans-unit>
     </body>
   </file>
@@ -111,7 +121,7 @@
       </trans-unit>
       <trans-unit id="8cb9da8e2fc65153510e4a067af0b32c" approved="yes">
         <source>The file %file% exceeds the size allowed by the server. The limit is set to %size% MB.</source>
-        <target state="final">L'arxiu %file% excedeix el tamany permès pel servidor. El límit s'estableix a %size% MB.</target>
+        <target state="final">El fitxer %file% depassa la mida permesa pel servidor. El límit es fixa a %size% MB.</target>
         <note>Line: 247</note>
       </trans-unit>
     </body>
@@ -530,16 +540,40 @@
   </file>
   <file original="modules/ps_linklist/src/Controller/Admin/Improve/Design/LinkBlockController.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
+      <trans-unit id="15d30198621ad33274fc94b08cff5009" approved="yes">
+        <source>Could not delete #%i</source>
+        <target state="final">No s'ha pogut suprimir #%i</target>
+        <note>Line: 171</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/ps_linklist/src/Form/LinkBlockFormDataProvider.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
+      <trans-unit id="3535b3934d0e2d6e7759649d78c7da58" approved="yes">
+        <source>Missing id_hook</source>
+        <target state="final">id_hook absent</target>
+        <note>Line: 256</note>
+      </trans-unit>
+      <trans-unit id="36ccadce9e530e36cf265145bdba5c1c" approved="yes">
+        <source>Missing block_name</source>
+        <target state="final">block_name absent</target>
+        <note>Line: 264</note>
+      </trans-unit>
+      <trans-unit id="12f4f6b7d1d17838950e3c6107144f2a" approved="yes">
+        <source>Missing block_name value for language %s</source>
+        <target state="final">El valor de block_name és absent per a l'idioma %s</target>
+        <note>Line: 272</note>
+      </trans-unit>
+      <trans-unit id="ba88eb1dd9466f0be32b7dc7a82297ad" approved="yes">
+        <source>Missing %s value in custom [%s] for language %s</source>
+        <target state="final">Valor %s absent en la personalització [%s] del llenguatge %s</target>
+        <note>Line: 251</note>
+      </trans-unit>
+      <trans-unit id="504ca7ea96dde692360e88a97e98fc91" approved="yes">
+        <source>Missing %s value in custom[%s] for language %s</source>
+        <target state="final">Valor %s absent en la personalització [%s] del llenguatge %s</target>
+        <note>Line: 294</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Attribute/AdminAttributeGeneratorControllerWrapper.php" source-language="en" target-language="ca" datatype="plaintext">
@@ -636,11 +670,30 @@
         <target state="final">Vull eliminar només els productes que es llisten en aquesta categoria, i no d'altres.</target>
         <note>Line: 73</note>
       </trans-unit>
+      <trans-unit id="4d5ec94fee2d67b1f49517f355425fb0" approved="yes">
+        <source>If they have no other category, I want to associate them with the parent category.</source>
+        <target state="final">Si no tenen cap altra categoria, vull associar-los a la categoria pare.</target>
+        <note>Line: 57</note>
+      </trans-unit>
+      <trans-unit id="8743e83ee9ec372f40d4a58160bfc1d2" approved="yes">
+        <source>If they have no other category, I want to associate them with the parent category and turn them offline.</source>
+        <target state="final">Si no tenen cap altra categoria, vull associar-los a la categoria pare i desactivar-los.</target>
+        <note>Line: 65</note>
+      </trans-unit>
+      <trans-unit id="63cfe520c7e96406010bc883272667f5" approved="yes">
+        <source>If they have no other category, I want to delete them as well.</source>
+        <target state="final">Si no tenen cap altra categoria, vull suprimir-los també.</target>
+        <note>Line: 73</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Core/Grid/Data/Factory/AttachmentGridDataFactoryDecorator.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
+      <trans-unit id="14c18063d1497fb156ab73c0d59d354b" approved="yes">
+        <source>This file is associated with the following products. Are you sure you want to delete it?</source>
+        <target state="final">Aquest fitxer està associat amb els productes següents. Esteu segur que voleu suprimir-lo?</target>
+        <note>Line: 121</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/ProductController.php" source-language="en" target-language="ca" datatype="plaintext">
@@ -733,17 +786,44 @@
         <target state="final">S'ha produït un error mentres carregavem l'imátge:</target>
         <note>Line: 874</note>
       </trans-unit>
+      <trans-unit id="3d85438a25723cc56bd4aefb9b368bc0" approved="yes">
+        <source>An error occurred while creating the category.</source>
+        <target state="final">S'ha produït un error en crear la categoria.</target>
+        <note>Line: 857</note>
+      </trans-unit>
+      <trans-unit id="175ad2b319a95a0b7c580dbc4205fdac" approved="yes">
+        <source>An error occurred while editing the category.</source>
+        <target state="final">S'ha produït un error en modificar la categoria.</target>
+        <note>Line: 865</note>
+      </trans-unit>
+      <trans-unit id="17668cbc24213c8d43211a67139c3939" approved="yes">
+        <source>The root category of a shop cannot be edited.</source>
+        <target state="final">La categoria arrel d'una botiga no es pot modificar.</target>
+        <note>Line: 861</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/ManufacturerController.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="5769710cefad47e76691be9d61b7231c" approved="yes">
+        <source><![CDATA[The display of your brands is enabled on your store. Go to %sShop Parameters > General%s to edit settings.]]></source>
+        <target state="final"><![CDATA[La visualització de les vostres marques està habilitada a la vostra botiga. Aneu a %sParàmetres de la botiga > General%s per a modificar la configuració.]]></target>
+        <note>Line: 774</note>
+      </trans-unit>
+      <trans-unit id="1205b99b993cef78d80b0bcbc312f2c3" approved="yes">
+        <source><![CDATA[The display of your brands is disabled on your store. Go to %sShop Parameters > General%s to edit settings.]]></source>
+        <target state="final"><![CDATA[La visualització de les vostres marques està desactivada a la vostra botiga. Aneu a %sParàmetres de la botiga > General%s per a modificar la configuració.]]></target>
+        <note>Line: 781</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/ProductController.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
+      <trans-unit id="f07403f2e9d7e44c0090ab06678d4eb3" approved="yes">
+        <source>The experimental product page is not enabled. To enable it, go to the %sExperimental Features%s page.</source>
+        <target state="final">La pàgina del producte experimental no està activada. Per a activar-la, aneu a la pàgina %sFuncions experimentals%s.</target>
+        <note>Line: 276</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/SupplierController.php" source-language="en" target-language="ca" datatype="plaintext">
@@ -758,6 +838,16 @@
         <target state="final">Mentre hi hagi comandes de subministrament pendents no es pot esborrar un proveïdor.</target>
         <note>Line: 475</note>
       </trans-unit>
+      <trans-unit id="3aff310e32cb7bb2d1affd97920c9f4b" approved="yes">
+        <source><![CDATA[The display of your suppliers is enabled on your store. Go to %sShop Parameters > General%s to edit settings.]]></source>
+        <target state="final"><![CDATA[La visualització dels vostres proveïdors està habilitada a la vostra botiga. Aneu a %sParàmetres de la botiga > General%s per a modificar la configuració.]]></target>
+        <note>Line: 535</note>
+      </trans-unit>
+      <trans-unit id="555740fcf7bb2fb267bc711c4919edcb" approved="yes">
+        <source><![CDATA[The display of your suppliers is disabled on your store. Go to %sShop Parameters > General%s to edit settings.]]></source>
+        <target state="final"><![CDATA[La visualització dels vostres proveïdors està desactivada a la vostra botiga. Aneu a %sParàmetres de la botiga > General%s per a modificar la configuració.]]></target>
+        <note>Line: 542</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/CartController.php" source-language="en" target-language="ca" datatype="plaintext">
@@ -767,16 +857,29 @@
         <target state="final">No hi ha prou producte en estoc.</target>
         <note>Line: 599</note>
       </trans-unit>
+      <trans-unit id="891d308560a0cca2452fd2f482dded8c" approved="yes">
+        <source><![CDATA[Product customization could not be found. Go to Catalog > Products to customize the product.]]></source>
+        <target state="final"><![CDATA[No s'ha pogut trobar la personalització del producte. Aneu a Catàleg > Productes per a personalitzar el producte.]]></target>
+        <note>Line: 595</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
+      <trans-unit id="4fce600d4fc0429af2f5bc5861eefb3e" approved="yes">
+        <source>Selected products were successfully canceled.</source>
+        <target state="final">Els productes seleccionats s'han cancel·lat correctament.</target>
+        <note>Line: 1659</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/SpecificPriceController.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
+      <trans-unit id="04f6302b96c8cbaaec71cc884a6626a5" approved="yes">
+        <source>Cannot find specific price %price%</source>
+        <target state="final">No s'ha pogut trobar el preu específic %price%</target>
+        <note>Line: 134</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Product/ProductInformation.php" source-language="en" target-language="ca" datatype="plaintext">
@@ -790,18 +893,50 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/HeaderType.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
+      <trans-unit id="2b260d6a8a4b747672d790f18c2ab780" approved="yes">
+        <source>Are you sure you want to change the product type?</source>
+        <target state="final">Esteu segur que voleu modificar el tipus de producte?</target>
+        <note>Line: 70</note>
+      </trans-unit>
+      <trans-unit id="da531a2761eef5012cadd0a2e31acab6" approved="yes">
+        <source>Change product type</source>
+        <target state="final">Modificar tipus de producte</target>
+        <note>Line: 71</note>
+      </trans-unit>
+      <trans-unit id="178b6141eb15b94fb25e5940625ecd01" approved="yes">
+        <source>Changing the product type will immediately save the product and refresh the page.</source>
+        <target state="final">Modificar el tipus de producte desarà immediatament el producte i actualitzarà la pàgina.</target>
+        <note>Line: 73</note>
+      </trans-unit>
+      <trans-unit id="d125a0ad5887eb2575a57c2149a12c1d" approved="yes">
+        <source>This will delete all combinations.</source>
+        <target state="final">Això suprimirà totes les combinacions</target>
+        <note>Line: 74</note>
+      </trans-unit>
+      <trans-unit id="6b7844c384e54ed301c7f3f6b4aac389" approved="yes">
+        <source>This will delete the list of products in this pack.</source>
+        <target state="final">Això suprimirà la llista de productes d'aquest paquet.</target>
+        <note>Line: 75</note>
+      </trans-unit>
+      <trans-unit id="4882c6b9d11d6aacd193fa21547fd727" approved="yes">
+        <source>This will delete the associated virtual file.</source>
+        <target state="final">Això suprimirà el fitxer virtual associat.</target>
+        <note>Line: 76</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Image/ImageDropzoneType.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="9a906b85c45f31efeb25eef56aad240b" approved="yes">
+        <source>Image replaced</source>
+        <target state="final">Imatge reemplaçada</target>
+        <note>Line: 56</note>
+      </trans-unit>
+      <trans-unit id="02708462d504c68df426d48cd6aae23f" approved="yes">
+        <source>Are you sure you want to delete the selected image?|Are you sure you want to delete the %filesNb% selected images?</source>
+        <target state="final">Esteu segur que voleu suprimir la imatge seleccionada?|Esteu segur que voleu suprimir les imatges seleccionades %filesNb%?</target>
+        <note>Line: 79</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Validator/Constraints/TinyMceMaxLengthValidator.php" source-language="en" target-language="ca" datatype="plaintext">
@@ -1011,7 +1146,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Categories/Blocks/delete_categories_modal.html.twig" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
+      <trans-unit id="332a0777d848606eb5f63149d0bb1105" approved="yes">
+        <source>Note that if they have another category, your products will logically remain associated with it.</source>
+        <target state="final">Tingueu en compte que si tenen una altra categoria, els vostres productes romandran associats lògicament.</target>
+        <note>Line: 44</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Categories/Blocks/form.html.twig" source-language="en" target-language="ca" datatype="plaintext">
@@ -1043,13 +1182,25 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/Combination/paginated_list.html.twig" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="d077aab0da809b9037b3e3974da6bad3" approved="yes">
+        <source>Discard changes?</source>
+        <target state="final">Voleu descartar els canvis?</target>
+        <note>Line: 45</note>
+      </trans-unit>
+      <trans-unit id="e202ea17abd88b9634fb9939f6253ea9" approved="yes">
+        <source>All unsaved modifications made on the combination [1]%combinationName%[/1] will be lost.</source>
+        <target state="final">Totes les modificacions no desades fetes a la combinació [1]%combinationName%[/1] es perdran.</target>
+        <note>Line: 46</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/edit.html.twig" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
+      <trans-unit id="fd7c4e2dcae282ac5305265c45be0bc2" approved="yes">
+        <source>This is the experimental product page.</source>
+        <target state="final">Aquesta és la pàgina del producte experimental.</target>
+        <note>Line: 69</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Stock/overview.html.twig" source-language="en" target-language="ca" datatype="plaintext">
