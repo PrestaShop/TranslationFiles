@@ -36,7 +36,7 @@
       </trans-unit>
       <trans-unit id="883370e6a8360f9ffe2e658db153fd74" approved="yes">
         <source>This feature will generate a random password and send an email to the customer.</source>
-        <target state="final">Aquesta funcionalitat genera una contrasenya automàtica i li envia un correu electrònic al client</target>
+        <target state="final">Aquesta funcionalitat genera una clau de pas automàtica i envia un correu electrònic al client</target>
         <note>Line: 600</note>
       </trans-unit>
     </body>
@@ -92,7 +92,7 @@
     <body>
       <trans-unit id="e07ffcdf6051874b295597fb64b62635" approved="yes">
         <source>Format: 2012-12-31 (inclusive).</source>
-        <target state="final">Format: 2011-12-31 (complet).</target>
+        <target state="final">Format: 2012-12-31 (inclòs).</target>
         <note>Line: 126</note>
       </trans-unit>
     </body>
@@ -110,7 +110,7 @@
     <body>
       <trans-unit id="f6916f4f1a268d4d0014ce47a2dfc3e4" approved="yes">
         <source>Password should be at least %length% characters long.</source>
-        <target state="final">La contrasenya hauria de tenir com a mínim %length% caracters.</target>
+        <target state="final">La clau de pas hauria de tenir com a mínim %length% caràcters.</target>
         <note>Line: 915</note>
       </trans-unit>
     </body>
@@ -147,6 +147,11 @@
         <target state="final">Caràcters vàlids:</target>
         <note>Line: 303</note>
       </trans-unit>
+      <trans-unit id="ae12c6cc3c51c7dfc05571539d8980d9" approved="yes">
+        <source>Only letters and the dot (.) character, followed by a space, are allowed.</source>
+        <target state="final">Únicament està permès lletres i el caràcter de punt (.), seguit d’un espai</target>
+        <note>Line: 148</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/CreditSlip/CreditSlipOptionsType.php" source-language="en" target-language="ca" datatype="plaintext">
@@ -169,7 +174,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Address/Blocks/required_fields.html.twig" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
+      <trans-unit id="166f81a02b692b37820d75e7c0ca2b24" approved="yes">
+        <source><![CDATA[Required fields apply to the customer's registration form, you should check the address formats in [1]International > Locations > Countries[/1] before.]]></source>
+        <target state="final"><![CDATA[Els camps obligatoris s'apliquen al formulari de registre del client, abans hauríeu de verificar els formats d'adreça a [1]Internacional > Localitzacions > Països[/1].]]></target>
+        <note>Line: 38</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/Blocks/Index/required_fields.html.twig" source-language="en" target-language="ca" datatype="plaintext">
@@ -190,7 +199,7 @@
     <body>
       <trans-unit id="fef9632f39b66ba488e163a665bb0e99" approved="yes">
         <source>This feature generates a random password before sending an email to your customer.</source>
-        <target state="final">Aquesta funcionalitat genera una contrasenya aleatòria i envia un e-mail al client </target>
+        <target state="final">Aquesta funció genera una clau de pas aleatòria abans d'enviar un correu electrònic al vostre client.</target>
         <note>Line: 179</note>
       </trans-unit>
     </body>
@@ -216,13 +225,18 @@
         <target state="final">Nombre de dies que té el cleint per retornar el producte des de la data de recepció de la comanda</target>
         <note>Line: 42</note>
       </trans-unit>
+      <trans-unit id="bd0a7bfae2c92edb50a9201ca47a1157" approved="yes">
+        <source>Prefix used for merchandise returns (e.g. RE00001).</source>
+        <target state="final">Prefix usat per a les devolucions de mercaderies (p. ex., RE00001).</target>
+        <note>Line: 47</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Delivery/slip.html.twig" source-language="en" target-language="ca" datatype="plaintext">
     <body>
       <trans-unit id="8a7a048a67746f3877ab6cb1bc1d4afd" approved="yes">
         <source>Format: 2011-12-31 (inclusive).</source>
-        <target state="final">Format: 2011-12-31 (complet).</target>
+        <target state="final">Format: 2011-12-31 (inclòs).</target>
         <note>Line: 51</note>
       </trans-unit>
       <trans-unit id="67342320cb8798c3a911e0c6d8bd026a" approved="yes">
@@ -232,13 +246,18 @@
       </trans-unit>
       <trans-unit id="6998acbd3739a7200586b4421d0ca508" approved="yes">
         <source>The next delivery slip will begin with this number and then increase with each additional slip.</source>
-        <target state="final">﻿El pròxim albarà començarà amb aquest número|nombre i s'incrementarà amb cada nou albarà</target>
+        <target state="final">﻿El següent albarà començarà amb aquest número i després augmentarà amb cada albarà addicional.</target>
         <note>Line: 89</note>
       </trans-unit>
       <trans-unit id="8cf7df5b4b5858e73a7f4e75cc658cc3" approved="yes">
         <source>Adds an image before product name on Delivery-slip</source>
-        <target state="final">Afegeix una imatge abans del nom del producte al rebut d'entrega.</target>
+        <target state="final">Afegiu una imatge abans del nom del producte a l'albarà</target>
         <note>Line: 93</note>
+      </trans-unit>
+      <trans-unit id="65cfe404ab66672f26d6bef8d56c3ee1" approved="yes">
+        <source>Add an image before product name on delivery slip</source>
+        <target state="final">Afegiu una imatge abans del nom del producte a l'albarà</target>
+        <note>Line: 96</note>
       </trans-unit>
     </body>
   </file>
@@ -334,7 +353,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/Modal/add_order_discount_modal.html.twig" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      
+      <trans-unit id="4b492d24743e697b3639c862b351d1c4" approved="yes">
+        <source>If you choose to create this discount for all invoices, only one discount will be created per order invoice.</source>
+        <target state="final">Si seleccioneu de crear aquest descompte per a totes les factures, es crearà un descompte per a cada comanda facturada.</target>
+        <note>Line: 100</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/payments.html.twig" source-language="en" target-language="ca" datatype="plaintext">
