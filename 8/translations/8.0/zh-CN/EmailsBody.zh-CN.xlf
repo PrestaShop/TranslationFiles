@@ -2,14 +2,18 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="classes/PaymentModule.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="44aa13304026bb46ad79f4151f16634a" approved="yes">
+        <source>(waiting for validation)</source>
+        <target state="final">(等待验证)</target>
+        <note>Line: 654</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/classic/components/footer.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
       <trans-unit id="96dad7f0d711c3408786ba1ee05402b3" approved="yes">
         <source><![CDATA[<a href="{shop_url}">{shop_name}</a> powered by <a href="{prestashop_url}">PrestaShop™</a>]]></source>
-        <target state="final"><![CDATA[<a href="{shop_url}">{shop_name}</a> 由 <a href="{prestashop_url}">PrestaShop™</a> 提供技術支持]]></target>
+        <target state="final"><![CDATA[<a href="{shop_url}">{shop_name}</a> 由 <a href="{prestashop_url}">PrestaShop™</a> 提供支持]]></target>
         <note>Line: 6</note>
       </trans-unit>
     </body>
@@ -18,7 +22,7 @@
     <body>
       <trans-unit id="2498c963bfc06e8fca88007ec322b769" approved="yes">
         <source>Your login email address on {shop_name}</source>
-        <target state="final">您在 {shop_name} 上的email</target>
+        <target state="final">您在 {shop_name} 上登录的电子邮件地址</target>
         <note>Line: 25</note>
       </trans-unit>
       <trans-unit id="7cfb9d536fcd7aa70c333e8e73b287e2" approved="yes">
@@ -134,6 +138,11 @@
         <source>We have generated a credit slip in your name for order with the reference [1]{order_name}[/1].</source>
         <target state="final">我们已经为您的订单号 [1]{order_name}[/1] 以您的名义开立了折扣单。</target>
         <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="313c18a58c9b461fbb29be3e39837d95" approved="yes">
+        <source><![CDATA[Review this credit slip and download your invoice on our shop, go to the <a href="{history_url}" target="_blank">%credit_slips_label%</a> section of your customer account.]]></source>
+        <target state="final"><![CDATA[查看此信用单并在我们的商店下载您的发票，转到您客户帐户的 <a href="{history_url}" target="_blank">%credit_slips_label%</a> 部分。]]></target>
+        <note>Line: 45</note>
       </trans-unit>
     </body>
   </file>
@@ -911,6 +920,21 @@
         <target state="final">信用单</target>
         <note>Line: 177</note>
       </trans-unit>
+      <trans-unit id="c44669ebfaeb42d8895e332f6199688e" approved="yes">
+        <source>A credit slip has been generated in your name for order with the reference [1]{order_name}[/1].</source>
+        <target state="final">已生成以您的名义订购的信用单，参考文献 [1]{order_name}[/1]。</target>
+        <note>Line: 242</note>
+      </trans-unit>
+      <trans-unit id="933bd01e99683693ad9ddf8405040681" approved="yes">
+        <source><![CDATA[Review this credit slip and download your invoice on our shop, go to the <a href="{history_url}" target="_blank">Credit slips</a> section of your customer account.]]></source>
+        <target state="final"><![CDATA[查看此信用单并在我们的商店下载您的发票，转到您客户帐户的<a href="{history_url}" target="_blank">信用单</a>部分。]]></target>
+        <note>Line: 310</note>
+      </trans-unit>
+      <trans-unit id="a1c44ef1985aff79372a7cfa60a5e5a0" approved="yes">
+        <source><![CDATA[Review this credit slip and download it on our shop, go to the <a href="{order_slip_url}" target="_blank">%credit_slips_label%</a> section of your customer account.]]></source>
+        <target state="final"><![CDATA[查看此信用单并将其下载到我们的商店，转到您客户帐户的 <a href="{order_slip_url}" target="_blank">%credit_slips_label%</a> 部分。]]></target>
+        <note>Line: 303</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/modern/core/download_product.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -1126,6 +1150,11 @@
         <target state="final">感谢在 [1]{shop_name}[/1] 购物！</target>
         <note>Line: 50</note>
       </trans-unit>
+      <trans-unit id="ff2fa78f07ffe4ac52c0d0b5ff7f0baa" approved="yes">
+        <source>Thank you for your order on [1]{shop_name}[/1]!</source>
+        <target state="final">感谢在 [1]{shop_name}[/1] 购物！</target>
+        <note>Line: 53</note>
+      </trans-unit>
       <trans-unit id="96b0141273eabab320119c467cdcaf17" approved="yes">
         <source>Total</source>
         <target state="final">总计</target>
@@ -1139,6 +1168,11 @@
         <source>You have received a new message regarding order with the reference</source>
         <target state="final">您收到了一条留言关于订单</target>
         <note>Line: 242</note>
+      </trans-unit>
+      <trans-unit id="fa44c7d88039cc2a3caf05195e1e45bb" approved="yes">
+        <source>Order customer comment</source>
+        <target state="final">下单顾客评论</target>
+        <note>Line: 3</note>
       </trans-unit>
       <trans-unit id="c744bfa52ba85ff901bab4ed9319978e" approved="yes">
         <source>Message from customer</source>
@@ -1197,10 +1231,30 @@
         <target state="final">感谢您在 {shop_name} 下的订单 {order_name}。</target>
         <note>Line: 50</note>
       </trans-unit>
+      <trans-unit id="e57e950cfde3e24c3674f9266753edec" approved="yes">
+        <source><![CDATA[Follow your order and download your invoice on our shop, go to the <a href="{history_url}" target="_blank">Order history and details</a> section of your customer account.]]></source>
+        <target state="final"><![CDATA[按照您的订单并在我们的商店下载发票，转到您客户帐户的<a href="{history_url}" target="_blank">订单历史和详细信息</a>部分。]]></target>
+        <note>Line: 319</note>
+      </trans-unit>
       <trans-unit id="b55197a49e8c4cd8c314bc2aa39d6feb" approved="yes">
         <source>Out of stock</source>
         <target state="final">无库存</target>
         <note>Line: 3</note>
+      </trans-unit>
+      <trans-unit id="cfc958489addbbe32552c9bc785f83c9" approved="yes">
+        <source>Replenishment required</source>
+        <target state="final">需要补货</target>
+        <note>Line: 184</note>
+      </trans-unit>
+      <trans-unit id="dd099f9c8d04d30fa277471417a372be" approved="yes">
+        <source>Unfortunately, one or more items are currently out of stock and this may cause a slight delay for delivery. Please accept our apologies for this inconvenience and be sure we are doing our best to correct the situation.</source>
+        <target state="final">不幸的是，一件或多件商品目前缺货，这可能会导致交货稍有延迟。 对于给您带来的不便，请接受我们的歉意，并确保我们正在尽最大努力纠正这种情况。</target>
+        <note>Line: 249</note>
+      </trans-unit>
+      <trans-unit id="0d2b8d4d6cdd2cc0b8da74fdb143654b" approved="yes">
+        <source><![CDATA[Follow your order and download your invoice on our shop, go to the <a href="{history_url}" target="_blank">%order_history_label%</a> section of your customer account.]]></source>
+        <target state="final"><![CDATA[按照您的订单并在我们的商店下载发票，转到您客户帐户的 <a href="{history_url}" target="_blank">%order_history_label%</a> 部分。]]></target>
+        <note>Line: 310</note>
       </trans-unit>
     </body>
   </file>
@@ -1211,6 +1265,11 @@
         <target state="final">密码</target>
         <note>Line: 3</note>
       </trans-unit>
+      <trans-unit id="fa71c1a4010fb64e8968708b3f1e50ca" approved="yes">
+        <source>Your password has been correctly updated.</source>
+        <target state="final">您的密码已更改成功</target>
+        <note>Line: 177</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/modern/core/password_query.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -1220,6 +1279,31 @@
         <target state="final">请注意，这将改变目前的密码。</target>
         <note>Line: 247</note>
       </trans-unit>
+      <trans-unit id="3516ed9d771d15439e2ac9d3bf81ad84" approved="yes">
+        <source>You have requested to reset your [1]{shop_name}[/1] login details.</source>
+        <target state="final">您已请求重置您的 [1]{shop_name}[/1] 登录详细信息。</target>
+        <note>Line: 242</note>
+      </trans-unit>
+      <trans-unit id="de148dcf9a5a0f2de3a65c36f9991f42" approved="yes">
+        <source>Password Query</source>
+        <target state="final">密码查询</target>
+        <note>Line: 3</note>
+      </trans-unit>
+      <trans-unit id="87a8bbd45aa2890a2929c07d49fa64f1" approved="yes">
+        <source>Confirmation of password request on {shop_name}</source>
+        <target state="final">确认  {shop_name}上的密码请求</target>
+        <note>Line: 177</note>
+      </trans-unit>
+      <trans-unit id="bdf92bd43402eeabaaa7e643e30607c1" approved="yes">
+        <source>In order to confirm this action, click on the following link:</source>
+        <target state="final">为了确认此操作，请单击以下链接：</target>
+        <note>Line: 252</note>
+      </trans-unit>
+      <trans-unit id="0b0df2fff267640acf7f0d03a9b90aa6" approved="yes">
+        <source>If you did not make this request, just ignore this email.</source>
+        <target state="final">如果您没有提出此请求，请忽略此电子邮件。</target>
+        <note>Line: 313</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/modern/core/payment.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -1228,6 +1312,11 @@
         <source>Payment</source>
         <target state="final">付款</target>
         <note>Line: 3</note>
+      </trans-unit>
+      <trans-unit id="3444682d2f753ddc0a602ea92891f3b1" approved="yes">
+        <source>Your payment for order with the reference [1]{order_name}[/1] was successfully processed.</source>
+        <target state="final">您对参考文献 [1]{order_name}[/1] 的订单付款已成功处理。</target>
+        <note>Line: 241</note>
       </trans-unit>
     </body>
   </file>
@@ -1243,18 +1332,44 @@
         <target state="final">支付错误</target>
         <note>Line: 176</note>
       </trans-unit>
+      <trans-unit id="e1a66dba9aa7c8399229122ca7528b77" approved="yes">
+        <source>We have encountered an error while processing your payment for your order with the reference [1]{order_name}[/1] from [1]{shop_name}[/1]. Please contact us as soon as possible.</source>
+        <target state="final">我们在处理您的订单付款时遇到错误，参考文献 [1]{shop_name}[/1] 来自 [1]{shop_name}[/1]。 请尽快与我们联系。</target>
+        <note>Line: 241</note>
+      </trans-unit>
+      <trans-unit id="b8dfec752b0cb58a3bc3c7479e4dd44c" approved="yes">
+        <source>You can expect delivery as soon as your payment is received.</source>
+        <target state="final">您可能期待在付款后立即发货。</target>
+        <note>Line: 243</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/modern/core/preparation.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="9a5f09cf66e692efdae493ce4c9aa64f" approved="yes">
+        <source>Preparation</source>
+        <target state="final">准备</target>
+        <note>Line: 3</note>
+      </trans-unit>
+      <trans-unit id="6ae0cf64b3eeb821a73550fab5ea13bd" approved="yes">
+        <source>Processing order</source>
+        <target state="final">处理订单</target>
+        <note>Line: 176</note>
+      </trans-unit>
+      <trans-unit id="67b9a4d1678e24c00ddce83b7005b8a3" approved="yes">
+        <source>We are currently processing your order with the reference [1]{order_name}[/1] from [1]{shop_name}[/1].</source>
+        <target state="final">我们目前正在使用来自 [1]{shop_name}[/1] 的信息 [1]{order_name}[/1] 处理您的订单。</target>
+        <note>Line: 241</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/modern/core/productoutofstock.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="fdabff209ef55c524b662ea9f2991ad3" approved="yes">
+        <source>There are now less than [1]{last_qty}[/1] of [1]{product}[/1] in stock.</source>
+        <target state="final">现在有不到 [1]{last_qty}[/1] 件[1]{product}[/1] 的库存。</target>
+        <note>Line: 176</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/modern/core/refund.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -1269,6 +1384,11 @@
         <target state="final">退款</target>
         <note>Line: 3</note>
       </trans-unit>
+      <trans-unit id="6063c9fb7f9ad1d1a235c24bfcbf5522" approved="yes">
+        <source>We have processed your refund for your order with the reference [1]{order_name}[/1] from [1]{shop_name}[/1].</source>
+        <target state="final">感谢您在 &lt;strong&gt;[1]{shop_name}[/1]&lt;/strong&gt; 的订单，订单号为 {order_name}.</target>
+        <note>Line: 183</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/modern/core/reply_msg.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -1277,6 +1397,16 @@
         <source>Please do not reply directly to this email, we will not receive it.</source>
         <target state="final">请不要回复这封电子邮件，因为此信箱无人查看，</target>
         <note>Line: 242</note>
+      </trans-unit>
+      <trans-unit id="b0faef9417304909de0960b57582cd1c" approved="yes">
+        <source>Reply msg</source>
+        <target state="final">回复留言</target>
+        <note>Line: 3</note>
+      </trans-unit>
+      <trans-unit id="7e4e256f10a59674290c89dd1bba1312" approved="yes">
+        <source><![CDATA[In order to reply, click on the following link: <a href="{link}" target="_blank">{link}</a>]]></source>
+        <target state="final"><![CDATA[如需回复，请点击以下链接：<a href="{link}" target="_blank">{link}</a>]]></target>
+        <note>Line: 243</note>
       </trans-unit>
     </body>
   </file>
@@ -1287,6 +1417,11 @@
         <target state="final">已发货</target>
         <note>Line: 3</note>
       </trans-unit>
+      <trans-unit id="da825075a1643697f1540f1c946c01f1" approved="yes">
+        <source>Your order with the reference [1]{order_name}[/1] has been shipped.</source>
+        <target state="final">您的订单， [1]{order_name}[/1]，正在运输途中。</target>
+        <note>Line: 242</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/modern/core/test.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -1296,22 +1431,64 @@
         <target state="final">测试</target>
         <note>Line: 3</note>
       </trans-unit>
+      <trans-unit id="8afe3c369cb4d2e723edabf14b8d8db8" approved="yes">
+        <source>Here is a test [1]email[/1] from your shop.</source>
+        <target state="final">这是一封来自你商店的[1]测试邮件[/1]。</target>
+        <note>Line: 177</note>
+      </trans-unit>
+      <trans-unit id="a6ec75fcb2240ccd4ea29549ee413885" approved="yes">
+        <source>If you can read this, it means the test is successful!</source>
+        <target state="final">如果你能看到这个，就说明测试成功了！</target>
+        <note>Line: 182</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/modern/core/voucher.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="bba6345ca09bf0e21cb502bc6d960cde" approved="yes">
+        <source>In order to use it, just copy/paste this code during check out.</source>
+        <target state="final">要使用它，只需在结帐时复制/粘贴此代码即可。</target>
+        <note>Line: 251</note>
+      </trans-unit>
       <trans-unit id="be686376cddb23d0227444ccc3c4b5b7" approved="yes">
         <source>Voucher</source>
         <target state="final">凭证：</target>
         <note>Line: 3</note>
       </trans-unit>
+      <trans-unit id="3e943dfae35fac1a61b30da7f27f2204" approved="yes">
+        <source>Voucher code generated</source>
+        <target state="final">生成的优惠券代码</target>
+        <note>Line: 176</note>
+      </trans-unit>
+      <trans-unit id="0482c9e34db0bf16ec3a09c4dc7c3b0b" approved="yes">
+        <source>We are pleased to inform you that a voucher has been generated in your name for order with the reference [1]{order_name}[/1].</source>
+        <target state="final">我们很高兴地通知您，我们已为您的订单生成了一张代金券，订单编号为 [1]{order_name}[/1]。</target>
+        <note>Line: 241</note>
+      </trans-unit>
+      <trans-unit id="5dc1b3e639ee30637424bd07af99154d" approved="yes">
+        <source>[1]VOUCHER CODE: {voucher_num}[/1] in the amount of [1]{voucher_amount}[/1]</source>
+        <target state="final">[1]优惠券代码: {voucher_num}[/1] 中的金额为 [1]{voucher_amount}[/1]</target>
+        <note>Line: 246</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/modern/core/voucher_new.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="0b04d9ad5743989471141ab21edd64fd" approved="yes">
+        <source>Voucher new</source>
+        <target state="final">新优惠券</target>
+        <note>Line: 3</note>
+      </trans-unit>
+      <trans-unit id="68b8413e263842c318e66fc6b29144da" approved="yes">
+        <source>Voucher code has been generated</source>
+        <target state="final">优惠券代码已生成</target>
+        <note>Line: 177</note>
+      </trans-unit>
+      <trans-unit id="af4667c3d9a39bfa5ce658080730210a" approved="yes">
+        <source>Here is your new voucher code:</source>
+        <target state="final">这是您的新优惠券代码：</target>
+        <note>Line: 242</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/modern/modules/ps_emailalerts/customer_qty.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -1325,6 +1502,16 @@
         <source>Customer Quantity</source>
         <target state="final">客户数量</target>
         <note>Line: 3</note>
+      </trans-unit>
+      <trans-unit id="61a517de529038e441a1f6ada3f5a196" approved="yes">
+        <source>Good news, this item is back in stock!</source>
+        <target state="final">好消息，该商品有货了！</target>
+        <note>Line: 242</note>
+      </trans-unit>
+      <trans-unit id="fb0e8fc6b59dac729bb483b2c617adf2" approved="yes">
+        <source>Click on the following link to visit the product page and order it:</source>
+        <target state="final">点击以下链接访问产品页面并订购：</target>
+        <note>Line: 247</note>
       </trans-unit>
     </body>
   </file>
@@ -1425,6 +1612,16 @@
         <target state="final">含税总额</target>
         <note>Line: 357</note>
       </trans-unit>
+      <trans-unit id="6810a1cc40329a394b9d73b5f8dac744" approved="yes">
+        <source>New Order</source>
+        <target state="final">新订单</target>
+        <note>Line: 3</note>
+      </trans-unit>
+      <trans-unit id="ea1fc6431869b331e6db01a2f6ca921f" approved="yes">
+        <source>A new order was placed on [1]{shop_name}[/1] by the following customer:</source>
+        <target state="final">以下客户在 [1]{shop_name}[/1]  上下了一个新订单：</target>
+        <note>Line: 50</note>
+      </trans-unit>
       <trans-unit id="914419aa32f04011357d3b604a86d7eb" approved="yes">
         <source>Carrier</source>
         <target state="final">配送商</target>
@@ -1439,6 +1636,31 @@
         <target state="final">订单改变</target>
         <note>Line: 177</note>
       </trans-unit>
+      <trans-unit id="681a0aa2d158085f63f86c84900fa989" approved="yes">
+        <source>Your order with the reference [1]{order_name}[/1] from [1]{shop_name}[/1] has been changed by the merchant.</source>
+        <target state="final">您从 [1]{shop_name}[/1] 引用 [1]{order_name}[/1] 的订单已被商家更改。</target>
+        <note>Line: 242</note>
+      </trans-unit>
+      <trans-unit id="869a6d7d8b6af1ca14f874356141ac45" approved="yes">
+        <source><![CDATA[If you have a guest account, you can follow your order via the <a href="{guest_tracking_url}" target="_blank">Guest Tracking</a> section on our shop.]]></source>
+        <target state="final"><![CDATA[如果您有游客帐户，则可以通过我们商店的<a href="{guest_tracking_url}" target="_blank">游客跟踪</a>部分跟踪您的订单。]]></target>
+        <note>Line: 317</note>
+      </trans-unit>
+      <trans-unit id="af6c5b694abbb964eec098febaa5d31d" approved="yes">
+        <source>Order ID {order_name}</source>
+        <target state="final">订单编号 {order_name}</target>
+        <note>Line: 177</note>
+      </trans-unit>
+      <trans-unit id="c03924df23d22785084b06a548ca9976" approved="yes">
+        <source>Go to your customer account to learn more about it.</source>
+        <target state="final">转到您的客户帐户以了解更多信息。</target>
+        <note>Line: 247</note>
+      </trans-unit>
+      <trans-unit id="a1985adc2a7be8af1d6beafa7527c062" approved="yes">
+        <source><![CDATA[If you have a guest account, you can follow your order via the <a href="{guest_tracking_url}" target="_blank">%guest_tracking_label%</a> section on our shop.]]></source>
+        <target state="final"><![CDATA[如果您有访客帐户，您可以通过我们商店的 <a href="{guest_tracking_url}" target="_blank">%guest_tracking_label%</a> 部分关注您的订单。]]></target>
+        <note>Line: 308</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/modern/modules/ps_emailalerts/productcoverage.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -1447,6 +1669,16 @@
         <source>Current stock cover:</source>
         <target state="final">当前库存：</target>
         <note>Line: 182</note>
+      </trans-unit>
+      <trans-unit id="fdf4e97dcf4ad98512050ab60cf91bc3" approved="yes">
+        <source>Product coverage</source>
+        <target state="final">产品覆盖</target>
+        <note>Line: 3</note>
+      </trans-unit>
+      <trans-unit id="906898f022140256a84c9429a3fcf4d8" approved="yes">
+        <source>Your stock cover is now less than the specified minimum of:</source>
+        <target state="final">您的库存保障现在低于指定的最小值：</target>
+        <note>Line: 177</note>
       </trans-unit>
     </body>
   </file>
@@ -1462,6 +1694,21 @@
         <target state="final">所剩库存：</target>
         <note>Line: 245</note>
       </trans-unit>
+      <trans-unit id="d3f03e2edd35c99abb3fd3d9bc51706e" approved="yes">
+        <source><![CDATA[Replenish your inventory, go to the [1]Catalog > Stocks[/1] section of your back office to manage your stock.]]></source>
+        <target state="final"><![CDATA[补充您的库存，转到后台的 [1] 目录 > 库存[/1] 部分来管理您的库存。]]></target>
+        <note>Line: 250</note>
+      </trans-unit>
+      <trans-unit id="644f9c907ef5a8315916bd1e2f61f783" approved="yes">
+        <source>Product out of stock</source>
+        <target state="final">产品缺货</target>
+        <note>Line: 3</note>
+      </trans-unit>
+      <trans-unit id="9300ac228fc7c8ec8d970d862d68432c" approved="yes">
+        <source>There are now less than [1]{last_qty}[/1] items in stock.</source>
+        <target state="final"> 现有[1]{last_qty}[/1] 件商品库存不足</target>
+        <note>Line: 240</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/modern/modules/ps_emailalerts/return_slip.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -1475,6 +1722,16 @@
         <source>You have received a new return request for {shop_name}.</source>
         <target state="final">你有个新的退货订单，店面{shop_name}。</target>
         <note>Line: 50</note>
+      </trans-unit>
+      <trans-unit id="6773c510bcd24041ed4d515b65358e96" approved="yes">
+        <source>Return Slip</source>
+        <target state="final">退货券</target>
+        <note>Line: 3</note>
+      </trans-unit>
+      <trans-unit id="9b600ac4bf14f6e3919b919893bae7f8" approved="yes">
+        <source>Return Details</source>
+        <target state="final">退货详情</target>
+        <note>Line: 184</note>
       </trans-unit>
     </body>
   </file>
@@ -1490,19 +1747,44 @@
         <target state="final">您好，</target>
         <note>Line: 43</note>
       </trans-unit>
+      <trans-unit id="c9a257051d205ce3d0f4078b53dd4512" approved="yes">
+        <source>Newsletter Confirmation</source>
+        <target state="final">通讯确认</target>
+        <note>Line: 3</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/modern/modules/ps_emailsubscription/newsletter_verif.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="32e00ed1f8f1062378ba2c47ac75de9d" approved="yes">
+        <source>Newsletter Verification</source>
+        <target state="final">时事通讯验证</target>
+        <note>Line: 3</note>
+      </trans-unit>
+      <trans-unit id="3b3d69d6a53f5cb28d8867f5aeb1aa78" approved="yes">
+        <source>Thank you for subscribing to our newsletter. Please click on the following link to confirm your request:</source>
+        <target state="final">感谢您订阅我们的时事通讯。 请点击以下链接确认您的请求：</target>
+        <note>Line: 177</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/modern/modules/ps_emailsubscription/newsletter_voucher.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="2eb58792075fb4bea9ad03b6da20ec05" approved="yes">
+        <source>Newsletter Voucher</source>
+        <target state="final">电子简报代金券</target>
+        <note>Line: 3</note>
+      </trans-unit>
+      <trans-unit id="fb85495b4c45ce28e7a1521017326c5a" approved="yes">
+        <source>Subscribing to newsletter</source>
+        <target state="final">订阅时事通讯</target>
+        <note>Line: 177</note>
+      </trans-unit>
+      <trans-unit id="f6c3e4834d385f4923121b89bdee29c0" approved="yes">
+        <source>Thank you for subscribing to our newsletter. We are pleased to offer you the following voucher:</source>
+        <target state="final">感谢您订阅我们的时事通讯。 我们很高兴为您提供以下优惠券：</target>
+        <note>Line: 242</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/modern/modules/ps_reminder/followup_1.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -1512,10 +1794,35 @@
         <target state="final">您在 {shop_name} 的购物车</target>
         <note>Line: 177</note>
       </trans-unit>
+      <trans-unit id="804e4e067b0e61e122e1a35771fcf144" approved="yes">
+        <source>Follow up 1</source>
+        <target state="final">后续行动1</target>
+        <note>Line: 3</note>
+      </trans-unit>
+      <trans-unit id="b9018fa1aff4ac6de7e50d6a8f1c9e4a" approved="yes">
+        <source>Thanks for your visit. However, it looks like you did not complete your purchase.</source>
+        <target state="final">感谢您的光临。 但是，您似乎没有完成购买。</target>
+        <note>Line: 242</note>
+      </trans-unit>
+      <trans-unit id="14c90ec7c3372b9f39c9cf24323bd959" approved="yes">
+        <source>Your cart has been saved, you can go back to your order on our shop:</source>
+        <target state="final">您的购物车已保存，您可以通过访问我们的商店恢复您的订单：</target>
+        <note>Line: 247</note>
+      </trans-unit>
+      <trans-unit id="938ad8b6f0f1e5c4663bc171ad56822e" approved="yes">
+        <source>Your voucher code on {shop_name}</source>
+        <target state="final">您在 {shop_name} 上的优惠券代码</target>
+        <note>Line: 317</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/modern/modules/ps_reminder/followup_2.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="7ff89d85f528f79efd0a85c01a43cb62" approved="yes">
+        <source>Follow up 2</source>
+        <target state="final">后续行动2</target>
+        <note>Line: 3</note>
+      </trans-unit>
       <trans-unit id="605fc3ecd313608fe8c6cbbed5a25261" approved="yes">
         <source>Thanks for your order.</source>
         <target state="final">感谢您的订购.</target>
@@ -1530,6 +1837,11 @@
         <target state="final">感谢您的信任。</target>
         <note>Line: 50</note>
       </trans-unit>
+      <trans-unit id="383126b6a239da6f7d483220c63a46e2" approved="yes">
+        <source>Follow up 3</source>
+        <target state="final">后续行动3</target>
+        <note>Line: 3</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/modern/modules/ps_reminder/followup_4.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -1539,10 +1851,35 @@
         <target state="final">您的购物车已保存，您可以通过访问我们的商店恢复您的订单：</target>
         <note>Line: 247</note>
       </trans-unit>
+      <trans-unit id="18df3f8153de940176206b06a3610f80" approved="yes">
+        <source>We are pleased to offer you a discount of [1]{amount}%[/1] off your next order. And this offer is valid for [1]{days}[/1] days, so do not wait any longer!</source>
+        <target state="final">我们很高兴为您提供下一个订单 [1]{amount}%[/1] 的折扣。 而且此优惠有效期为 [1]{days}[/1] 天，所以不要再等了！</target>
+        <note>Line: 252</note>
+      </trans-unit>
+      <trans-unit id="5416511766be8537f357142a81ccd7a7" approved="yes">
+        <source>Here is your VOUCHER CODE:</source>
+        <target state="final">这是您的优惠券代码：</target>
+        <note>Line: 317</note>
+      </trans-unit>
+      <trans-unit id="ececa54d96395d3afa79cdce8e7e0bd6" approved="yes">
+        <source>Enter this code in your shopping cart to get the discount.</source>
+        <target state="final">在您的购物车中输入此代码以获得折扣。</target>
+        <note>Line: 322</note>
+      </trans-unit>
+      <trans-unit id="a5672f20db3e09abb35f909cf56f3b23" approved="yes">
+        <source>Follow up 4</source>
+        <target state="final">后续行动4</target>
+        <note>Line: 3</note>
+      </trans-unit>
       <trans-unit id="1e6f48752a20a5c6dc2f387c18777136" approved="yes">
         <source>Your cart on {shop_name}</source>
         <target state="final">您在 {shop_name} 的购物车</target>
         <note>Line: 177</note>
+      </trans-unit>
+      <trans-unit id="8dfa91d2853e941e80553ab1336b6459" approved="yes">
+        <source>Congratulations, you are one of our best customers! However, it looks like you have not placed an order since {days_threshold} days.</source>
+        <target state="final">您是我们最好的客户之一！ 但是，您似乎已经 {days_threshold}  天没有下过单了。</target>
+        <note>Line: 242</note>
       </trans-unit>
     </body>
   </file>
@@ -1553,6 +1890,21 @@
         <target state="final">恭喜！</target>
         <note>Line: 43</note>
       </trans-unit>
+      <trans-unit id="0920dd6cc2680f2a960c59f757d5184d" approved="yes">
+        <source><![CDATA[Your referred friend [1]{sponsored_firstname}[/1] [1]{sponsored_lastname}[/1] has placed his/her first order on <a href="{shop_url}">{shop_name}</a>!]]></source>
+        <target state="final"><![CDATA[您推荐的朋友 [1]{sponsed_firstname}[/1] [1]{sponsed_lastname}[/1] 在 <a href="{shop_url}">{shop_name}</a> 上下了他/她的第一个订单！]]></target>
+        <note>Line: 177</note>
+      </trans-unit>
+      <trans-unit id="4461931aad93f10308121eb94ce7be47" approved="yes">
+        <source>We are pleased to offer you a voucher worth [1]{discount_display}[/1] (VOUCHER # [1]{discount_name}[/1]) that you can use on your next order.</source>
+        <target state="final">我们很高兴为您提供价值 [1]{discount_display}[/1] (VOUCHER # [1]{discount_name}[/1]) 的代金券，您可以在下一次订单中使用。</target>
+        <note>Line: 182</note>
+      </trans-unit>
+      <trans-unit id="49af6950c9d9101af9ae958b4426c6b9" approved="yes">
+        <source>Referral program Congratulations</source>
+        <target state="final">推荐计划邀请</target>
+        <note>Line: 3</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/modern/modules/referralprogram/referralprogram-invitation.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -1561,6 +1913,41 @@
         <source>Best regards,</source>
         <target state="final">此致敬礼。</target>
         <note>Line: 305</note>
+      </trans-unit>
+      <trans-unit id="4a898b178164591fca68f786e164927d" approved="yes">
+        <source>We are pleased to offer you a voucher worth [1]{discount}[/1] that you can use on your next order.</source>
+        <target state="final">我们很高兴为您提供价值 [1]{discount}[/1] 的代金券，您可以在下次订购时使用。</target>
+        <note>Line: 182</note>
+      </trans-unit>
+      <trans-unit id="814fd45dff3fa38cc8114bc0d6c9020a" approved="yes">
+        <source>Join us!</source>
+        <target state="final">加入我们！</target>
+        <note>Line: 43</note>
+      </trans-unit>
+      <trans-unit id="a2ca20d3687abde01edc72cb7c1c5600" approved="yes">
+        <source><![CDATA[Your friend [1]{firstname} {lastname}[/1] wants to refer you on <a href="{shop_url}" target="_blank">{shop_name}</a>!]]></source>
+        <target state="final"><![CDATA[您的朋友 [1]{firstname} {lastname}[/1] 想在 <a href="{shop_url}" target="_blank">{shop_name}</a> 上推荐您！]]></target>
+        <note>Line: 177</note>
+      </trans-unit>
+      <trans-unit id="b37f4e64c7473dac9931e0fabf536ef3" approved="yes">
+        <source>Get referred and earn a discount voucher of [1]{discount}[/1]!</source>
+        <target state="final">获得推荐并获得 [1]{discount}[/1] 的折扣券！</target>
+        <note>Line: 183</note>
+      </trans-unit>
+      <trans-unit id="48f75fa6577e9a8b1a43268ac9844494" approved="yes">
+        <source>It's very easy to sign up, just click here!</source>
+        <target state="final">注册非常简单。只需点击这里！</target>
+        <note>Line: 185</note>
+      </trans-unit>
+      <trans-unit id="a0d3fa1d46da3bd234eb873154675d8e" approved="yes">
+        <source>When signing up, don't forget to provide the email address of your referring friend:</source>
+        <target state="final">在注册时，不要忘记把推荐给您的朋友的邮件地址填上：</target>
+        <note>Line: 248</note>
+      </trans-unit>
+      <trans-unit id="a9f8dbec69378bc1c5b1e9d144bd2412" approved="yes">
+        <source>Referral program Invitation</source>
+        <target state="final">推荐计划邀请</target>
+        <note>Line: 3</note>
       </trans-unit>
     </body>
   </file>
@@ -1590,6 +1977,16 @@
         <source>, with an amount of</source>
         <target state="final">，金额为</target>
         <note>Line: 243</note>
+      </trans-unit>
+      <trans-unit id="cb3374f4e7a0afb61e63d0ee694ad501" approved="yes">
+        <source>Sponsorship Program</source>
+        <target state="final">赞助计划</target>
+        <note>Line: 177</note>
+      </trans-unit>
+      <trans-unit id="f38a99a3e90333bd34a64e90f03960f4" approved="yes">
+        <source>Referral program Voucher</source>
+        <target state="final">推荐计划优惠券</target>
+        <note>Line: 3</note>
       </trans-unit>
     </body>
   </file>

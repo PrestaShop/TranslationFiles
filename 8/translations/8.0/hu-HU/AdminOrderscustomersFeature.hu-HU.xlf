@@ -77,6 +77,11 @@
         <target state="final">Ajándékcsomagolás költsége összesen:</target>
         <note>Line: 179</note>
       </trans-unit>
+      <trans-unit id="80fde97fb8929b8bea9ebcf5241be2f9" approved="yes">
+        <source>Total shipping costs:</source>
+        <target state="final">Teljes szállítási költség:</target>
+        <note>Line: 185</note>
+      </trans-unit>
       <trans-unit id="e78b6f4eb3be046f4d25c07ce54954d4" approved="yes">
         <source>Ref:</source>
         <target state="final">Ref:</target>
@@ -414,6 +419,11 @@
         <target state="final">Elérhető mennyiség</target>
         <note>Line: 254</note>
       </trans-unit>
+      <trans-unit id="967ad092fca7b99aa4f170ed73a6a8e1" approved="yes">
+        <source>%quantity_refunded% (%amount_refunded% refund)</source>
+        <target state="final">%quantity_refunded% (%amount_refunded% visszatérítés)</target>
+        <note>Line: 95</note>
+      </trans-unit>
       <trans-unit id="4fdfd561c540aa5e20a9b2b9c06054bb" approved="yes">
         <source>Package content</source>
         <target state="final">Oldal tartalom</target>
@@ -587,6 +597,36 @@
         <target state="final">Szállítási költség újbóli megfizetése</target>
         <note>Line: 1166</note>
       </trans-unit>
+      <trans-unit id="6188ffe19286d3bf694160609cf15e82" approved="yes">
+        <source>Include amount of initial voucher: </source>
+        <target state="final">Ez eredeti kupon értékének hozzáadása: </target>
+        <note>Line: 1174</note>
+      </trans-unit>
+      <trans-unit id="b9313ee2094019f4ee5212f784f45d65" approved="yes">
+        <source>Exclude amount of initial voucher: </source>
+        <target state="final">Ez eredeti kupon értékének levonása: </target>
+        <note>Line: 1180</note>
+      </trans-unit>
+      <trans-unit id="7731388b0fae4c0d7214f6a1f6f1771f" approved="yes">
+        <source>Amount of your choice: </source>
+        <target state="final">Kívánt összeg: </target>
+        <note>Line: 1233</note>
+      </trans-unit>
+      <trans-unit id="67dd576afa3b807903e847f6ebb11f22" approved="yes">
+        <source>This order has been partially paid by voucher. Choose the amount you want to refund: </source>
+        <target state="final">Ez a rendelés részben kuponnal lett kifizetve. Válaszd ki a visszatéríteni kívánt összeget: </target>
+        <note>Line: 1218</note>
+      </trans-unit>
+      <trans-unit id="8e0398b929d533c18fff7f5e21e8fcbd" approved="yes">
+        <source>Product(s) price: </source>
+        <target state="final">Termék(ek) ára:</target>
+        <note>Line: 1222</note>
+      </trans-unit>
+      <trans-unit id="34623cd7893be21da4239d08f79aec9a" approved="yes">
+        <source>Product(s) price, excluding amount of initial voucher: </source>
+        <target state="final">Termék(ek) ára, az eredeti kupon értéke nélkül: </target>
+        <note>Line: 1228</note>
+      </trans-unit>
       <trans-unit id="0da6a00e3eb2132d5cf97463a099c49f" approved="yes">
         <source>Order no. </source>
         <target state="final">Rendelésszám. </target>
@@ -639,15 +679,46 @@
         <target state="final">Késedelem</target>
         <note>Line: 26</note>
       </trans-unit>
+      <trans-unit id="2a442c1a811c488f4aad5d970f1047c5" approved="yes">
+        <source>Hi,
+
+Unfortunately, an item on your order is currently out of stock. This may cause a slight delay in delivery.
+Please accept our apologies and rest assured that we are working hard to rectify this.
+
+Best regards,</source>
+        <target state="final">Sajnálatos módon egy vagy több megrendelt tétel nincs készleten. A kiszállítási idő megnövekedhet. 
+Elnézésedet kérjük a kellemetlenségek miatt, dolgozunk rajta, hogy minél előbb megkapd rendelésedet!</target>
+        <note>Line: 28</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/lang/KeysReference/OrderReturnStateLang.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
+      <trans-unit id="015c603172846437ee7a569dc2c36273" approved="yes">
+        <source>Waiting for confirmation</source>
+        <target state="final">Visszaigazolásra vár</target>
+        <note>Line: 26</note>
+      </trans-unit>
+      <trans-unit id="7d42f56ce1d82d68f6545242ef4384a4" approved="yes">
+        <source>Waiting for package</source>
+        <target state="final">Csomagot várjuk</target>
+        <note>Line: 27</note>
+      </trans-unit>
+      <trans-unit id="b383cc6d0e4ab5bfab94b4452a916ee5" approved="yes">
+        <source>Package received</source>
+        <target state="final">Csomag megérkezett</target>
+        <note>Line: 28</note>
+      </trans-unit>
+      <trans-unit id="03bd13f6762c099741f4934beb32b95d" approved="yes">
+        <source>Return denied</source>
+        <target state="final">Hibás visszaküldés</target>
+        <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="4bb0dcdb92397d6b646711d623504058" approved="yes">
+        <source>Return completed</source>
+        <target state="final">Visszaküldés lezárva</target>
+        <note>Line: 30</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/lang/KeysReference/OrderStateLang.php" source-language="en" target-language="hu" datatype="plaintext">
@@ -656,6 +727,16 @@
         <source>Awaiting check payment</source>
         <target state="final">Csekkes fizetésre vár</target>
         <note>Line: 26</note>
+      </trans-unit>
+      <trans-unit id="016e1f278eccd700eaf33f74a501d050" approved="yes">
+        <source>Payment accepted</source>
+        <target state="final">Fizetés elfogadva</target>
+        <note>Line: 28</note>
+      </trans-unit>
+      <trans-unit id="294e143a57d178715a55e8575f8037e6" approved="yes">
+        <source>Processing in progress</source>
+        <target state="final">Feldolgozás folyamatban</target>
+        <note>Line: 30</note>
       </trans-unit>
       <trans-unit id="747cf5c8587184b9e489ff897d97c20d" approved="yes">
         <source>Shipped</source>
@@ -676,6 +757,26 @@
         <source>Payment error</source>
         <target state="final">Hiba a fizetéskor</target>
         <note>Line: 40</note>
+      </trans-unit>
+      <trans-unit id="48eac0bd985bc909fb58ccc1e1f669ed" approved="yes">
+        <source>On backorder (paid)</source>
+        <target state="final">Utánrendelés (fizetve)</target>
+        <note>Line: 42</note>
+      </trans-unit>
+      <trans-unit id="6d59fd4089482ca1a4017ca4852f8d1d" approved="yes">
+        <source>On backorder (not paid)</source>
+        <target state="final">Utánrendelés (nincs fizetve)</target>
+        <note>Line: 44</note>
+      </trans-unit>
+      <trans-unit id="688a337ab9864a53b41cd6ccd7f8880d" approved="yes">
+        <source>Awaiting bank wire payment</source>
+        <target state="final">Banki átutalás megérkezésére vár </target>
+        <note>Line: 46</note>
+      </trans-unit>
+      <trans-unit id="9517f3495b0036d25cbc455c592ea868" approved="yes">
+        <source>Remote payment accepted</source>
+        <target state="final">Távoli fizetés elfogadva</target>
+        <note>Line: 48</note>
       </trans-unit>
       <trans-unit id="51ebf726bac579d61910a5425e3128c5" approved="yes">
         <source>Awaiting Cash On Delivery validation</source>
@@ -710,12 +811,36 @@
   </file>
   <file original="classes/lang/KeysReference/SupplyOrderStateLang.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
+      <trans-unit id="78e25fccba5eb87a2fe929e6cfa27b26" approved="yes">
+        <source>1 - Creation in progress</source>
+        <target state="final">1 - Folyamat elindult</target>
+        <note>Line: 26</note>
+      </trans-unit>
+      <trans-unit id="aa92ea2c14150feacd8a38cabaf59c4b" approved="yes">
+        <source>2 - Order validated</source>
+        <target state="final">2- Rendelés jóváhagyva</target>
+        <note>Line: 28</note>
+      </trans-unit>
+      <trans-unit id="efca1ad6911feea6ec4f5172f28ff135" approved="yes">
+        <source>3 - Pending receipt</source>
+        <target state="final">3 - Függő bizonylat</target>
+        <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="0e547a2250b0531cf58a26995ba31801" approved="yes">
+        <source>4 - Order received in part</source>
+        <target state="final">4 - Megrendelés részben megérkezett</target>
+        <note>Line: 32</note>
+      </trans-unit>
+      <trans-unit id="589760755f6f33549fb31e5ab03f2676" approved="yes">
+        <source>5 - Order received completely</source>
+        <target state="final">5 - Teljes megrendelés beérkezett</target>
+        <note>Line: 34</note>
+      </trans-unit>
+      <trans-unit id="817bedb8bd68b944c3fa6e231b53147d" approved="yes">
+        <source>6 - Order canceled</source>
+        <target state="final">6 - Rendelés törölve</target>
+        <note>Line: 36</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminAddressesController.php" source-language="en" target-language="hu" datatype="plaintext">
@@ -782,6 +907,11 @@
         <source>Order #%id% (%ref%) - %firstname% %lastname%</source>
         <target state="final">Rendelés #%id% (%ref%) - %firstname% %lastname%</target>
         <note>Line: 1761</note>
+      </trans-unit>
+      <trans-unit id="95abd3be6297996994738f735a369d4a" approved="yes">
+        <source>Shop: %shop_name%</source>
+        <target state="final">Bolt: %shop_name%</target>
+        <note>Line: 1772</note>
       </trans-unit>
     </body>
   </file>
@@ -1050,6 +1180,16 @@
         <target state="final">Rendelésállapot módosítása</target>
         <note>Line: 437</note>
       </trans-unit>
+      <trans-unit id="9efa6b952ad382ca6a636523732c85cd" approved="yes">
+        <source>Open in new tabs</source>
+        <target state="final">Megnyitás új lapokon</target>
+        <note>Line: 444</note>
+      </trans-unit>
+      <trans-unit id="b6df865141bb721c8c46d548b8e2846c" approved="yes">
+        <source>It looks like you have exceeded the number of tabs allowed. Check your browser settings to open multiple tabs.</source>
+        <target state="final">Úgy tűnik, túllépted a megnyitható lapok számát. Több lap megnyitásához ellenőrizd a böngésződ beállításait.</target>
+        <note>Line: 451</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Core/Grid/Definition/Factory/OutstandingGridDefinitionFactory.php" source-language="en" target-language="hu" datatype="plaintext">
@@ -1058,6 +1198,16 @@
         <source>Risk</source>
         <target state="final">Kockázat</target>
         <note>Line: 132</note>
+      </trans-unit>
+      <trans-unit id="fbd4adba582628ae10db8ae408116e49" approved="yes">
+        <source>Outstanding allowance</source>
+        <target state="final">Kintlévőség limit</target>
+        <note>Line: 143</note>
+      </trans-unit>
+      <trans-unit id="3c8ee33d7d880c0842fc7767ec546663" approved="yes">
+        <source>Current outstanding</source>
+        <target state="final">Jelenlegi kintlévőség</target>
+        <note>Line: 150</note>
       </trans-unit>
     </body>
   </file>
@@ -1081,6 +1231,11 @@
         <source>Birthday</source>
         <target state="final">Születésnap</target>
         <note>Line: 937</note>
+      </trans-unit>
+      <trans-unit id="f0c7cdb1b872477a4c31bca923127c54" approved="yes">
+        <source>You can use this feature in a single shop context only. Switch context to enable it.</source>
+        <target state="final">Ez a funkció csak egyedi bolt környezetben érhető el. Válts át egy boltra használatához.</target>
+        <note>Line: 1007</note>
       </trans-unit>
     </body>
   </file>
@@ -1162,7 +1317,11 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Customer/PrivateNoteType.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
+      <trans-unit id="c68f674c6a04b2f75537e41318706b5c" approved="yes">
+        <source>Add a note on this customer. It will only be visible to you.</source>
+        <target state="final">Megjegyzés hozzáadása az ügyféllel kapcsolatban. Csak neked lesz látható.</target>
+        <note>Line: 64</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Customer/TransferGuestAccountType.php" source-language="en" target-language="hu" datatype="plaintext">
@@ -1210,6 +1369,11 @@
         <target state="final">Termék(ek) ára, az eredeti kupon értéke nélkül:</target>
         <note>Line: 131</note>
       </trans-unit>
+      <trans-unit id="282c7d15f714ec30b64b7db218f232f0" approved="yes">
+        <source>The "shipping" field must be a valid number</source>
+        <target state="final">A "szállítás" mezőnek számnak kell lennie</target>
+        <note>Line: 82</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/CreditSlip/CreditSlipOptionsType.php" source-language="en" target-language="hu" datatype="plaintext">
@@ -1223,7 +1387,11 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/InternalNoteType.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
+      <trans-unit id="536f22a9d3cc691b4893dc895050c26e" approved="yes">
+        <source>Add a note on this order. It will only be visible to you.</source>
+        <target state="final">Rendelléssel kapcsolatos megjegyzés. Csak számodra lesz látható.</target>
+        <note>Line: 66</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/Invoices/InvoiceOptionsType.php" source-language="en" target-language="hu" datatype="plaintext">
@@ -1251,8 +1419,16 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Common/Grid/Blocks/EmptyState/order.html.twig" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="3d768ba150eef186f61a5373f283391f" approved="yes">
+        <source>Manage your orders</source>
+        <target state="final">Rendeléseid kezelése</target>
+        <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="8c6635b6df0abb50e8c209575029552e" approved="yes">
+        <source>Find all your orders on this page and access their main information in one click: check the cart total, the payment method, the shipping details, or if it comes from a new client. You can even update the status from the listing!</source>
+        <target state="final">Itt megtalálhatod összes megrendelésedet, és egyetlen kattintással elérheted a főbb információkat: ellenőrizheted a kosár végösszegét, a fizetési módot, a szállítási adatokat, vagy ha új ügyféltől származik. Akár az állapotot is frissítheted a listából!</target>
+        <note>Line: 32</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Address/Blocks/required_fields.html.twig" source-language="en" target-language="hu" datatype="plaintext">
@@ -1275,7 +1451,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/Blocks/View/addresses.html.twig" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
+      <trans-unit id="0c71153e10e4cca705c7de8625f23344" approved="yes">
+        <source>%firstname% %lastname% has not registered any addresses yet</source>
+        <target state="final">%firstname% %lastname% nem regisztrált még címet</target>
+        <note>Line: 52</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/Blocks/View/bought_products.html.twig" source-language="en" target-language="hu" datatype="plaintext">
@@ -1293,6 +1473,11 @@
         <source>Vouchers</source>
         <target state="final">Kuponok</target>
         <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="c8b4c13e6ad3227e192c118261c0e179" approved="yes">
+        <source>%firstname% %lastname% has no discount vouchers</source>
+        <target state="final">%firstname% %lastname% nem rendelkezik kedvezményes kuponokkal</target>
+        <note>Line: 41</note>
       </trans-unit>
     </body>
   </file>
@@ -1332,6 +1517,11 @@
         <target state="final">Küldve</target>
         <note>Line: 39</note>
       </trans-unit>
+      <trans-unit id="e1835dc45bbdc7f7d3ca94f4ab002f84" approved="yes">
+        <source>%firstname% %lastname% has never contacted you</source>
+        <target state="final">%firstname% %lastname% még sose lépett veled kapcsolatba</target>
+        <note>Line: 58</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/Blocks/View/orders.html.twig" source-language="en" target-language="hu" datatype="plaintext">
@@ -1350,6 +1540,11 @@
         <source>Total spent</source>
         <target state="final">Összesen elköltött</target>
         <note>Line: 114</note>
+      </trans-unit>
+      <trans-unit id="665305fedb3adcae303f3b974bc9ce08" approved="yes">
+        <source>%firstname% %lastname% has not placed any orders yet</source>
+        <target state="final">%firstname% %lastname% nem adott még le rendelést</target>
+        <note>Line: 152</note>
       </trans-unit>
       <trans-unit id="d1554912e46f8d36a800ad8b604225f1" approved="yes">
         <source>Valid orders:</source>
@@ -1431,8 +1626,16 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/Blocks/showcase_card.html.twig" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="23e5b200627fb18479ef21fc9a616915" approved="yes">
+        <source>Administrate your customers</source>
+        <target state="final">Vásárlók kezelése</target>
+        <note>Line: 32</note>
+      </trans-unit>
+      <trans-unit id="1925703d0d9e5f82fa305c14d25911ec" approved="yes">
+        <source>Taking good care of your customers starts with making sure their profiles contain all the information needed to have their packages shipped without mishap.</source>
+        <target state="final">Ügyfeleidről való gondoskodás azzal kezdődik, hogy megbizonyosodsz arról, hogy profiljaik tartalmaznak minden olyan információt, amely ahhoz szükséges, hogy csomagjaikat hibamentesen szállítsák ki.</target>
+        <note>Line: 33</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/create.html.twig" source-language="en" target-language="hu" datatype="plaintext">
@@ -1446,7 +1649,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/edit.html.twig" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
+      <trans-unit id="69ebc35efeb4f755ec3e9c44b4da635c" approved="yes">
+        <source>Editing customer %name%</source>
+        <target state="final">Vevő szerkesztése: %name%</target>
+        <note>Line: 28</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/index.html.twig" source-language="en" target-language="hu" datatype="plaintext">
@@ -1465,11 +1672,20 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/view.html.twig" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
+      <trans-unit id="cd338983b119cf1b564b00a655751e36" approved="yes">
+        <source>Information about customer %name%</source>
+        <target state="final">Információ a vevőről: %name%</target>
+        <note>Line: 26</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/CustomerService/CustomerThread/Block/customer_information.html.twig" source-language="en" target-language="hu" datatype="plaintext">
     <body>
+      <trans-unit id="eab6d6f993963d4c9de8a900abeef8df" approved="yes">
+        <source>No order validated for the moment. By default, an order is considered validated when its payment is accepted.</source>
+        <target state="final">Jelenleg nincs érvényesnek tekintett rendelés. Alapértelmezés szerint a megrendelés a fizetés elfogadásakor  minősül érvényesnek.</target>
+        <note>Line: 74</note>
+      </trans-unit>
       <trans-unit id="3bf63a999cda6c9d95c3827e7942f41d" approved="yes">
         <source>Customer since: %s</source>
         <target state="final">Vásárló ezóta: %s</target>
@@ -1493,6 +1709,11 @@
         <source>Time limit of validity</source>
         <target state="final">Az érvényesség határideje</target>
         <note>Line: 41</note>
+      </trans-unit>
+      <trans-unit id="fc27a9928f7964baef466650acacbe10" approved="yes">
+        <source>Return prefix</source>
+        <target state="final">Visszáru előtagja</target>
+        <note>Line: 46</note>
       </trans-unit>
     </body>
   </file>
@@ -1553,6 +1774,11 @@
         <source>Delivery prefix</source>
         <target state="final">Szállítólevél előtag</target>
         <note>Line: 82</note>
+      </trans-unit>
+      <trans-unit id="3f921d7b2738f966c8d4d78d62f414b6" approved="yes">
+        <source>Delivery Number</source>
+        <target state="final">Szállítólevél szám</target>
+        <note>Line: 86</note>
       </trans-unit>
       <trans-unit id="133e649a7f103383bd0c9c35c40f8ce0" approved="yes">
         <source>Enable product image</source>
@@ -1835,6 +2061,16 @@
         <target state="final">További műveletek</target>
         <note>Line: 117</note>
       </trans-unit>
+      <trans-unit id="7b5f08c69447b1a7ab854f62e150ee9f" approved="yes">
+        <source>Send pre-filled order to the customer by email</source>
+        <target state="final">Küldj egy előre kitöltött megrendelést emailben a vevő számára</target>
+        <note>Line: 122</note>
+      </trans-unit>
+      <trans-unit id="65ee84985acacd6efbe0b58dc9db68bd" approved="yes">
+        <source>Proceed to checkout in the front office</source>
+        <target state="final">Tovább a pénztárhoz a bolton keresztül</target>
+        <note>Line: 125</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/Modal/add_product_modal.html.twig" source-language="en" target-language="hu" datatype="plaintext">
@@ -1881,6 +2117,11 @@
         <target state="final">Új számla információk</target>
         <note>Line: 86</note>
       </trans-unit>
+      <trans-unit id="419fca4bebf663adb696fce24499ce0d" approved="yes">
+        <source>Edit the price</source>
+        <target state="final">Ár szerkesztése</target>
+        <note>Line: 68</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/customer.html.twig" source-language="en" target-language="hu" datatype="plaintext">
@@ -1909,6 +2150,16 @@
         <source>Invoice address</source>
         <target state="final">Számlázási cím</target>
         <note>Line: 159</note>
+      </trans-unit>
+      <trans-unit id="1402e450396cb76b53b95f6e1746d700" approved="yes">
+        <source>Account registered:</source>
+        <target state="final">Fiók regisztrálva:</target>
+        <note>Line: 77</note>
+      </trans-unit>
+      <trans-unit id="73f60d0b9f47c606d71c17498266776e" approved="yes">
+        <source>Validated orders placed:</source>
+        <target state="final">Leadott érvényesnek tekintett rendelések:</target>
+        <note>Line: 98</note>
       </trans-unit>
     </body>
   </file>
@@ -1986,7 +2237,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/internal_note.html.twig" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
+      <trans-unit id="d505e651b2a69330a46db995ed98c243" approved="yes">
+        <source>Order note</source>
+        <target state="final">Megjegyzés a rendeléshez</target>
+        <note>Line: 31</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/linked_orders.html.twig" source-language="en" target-language="hu" datatype="plaintext">
@@ -2014,6 +2269,16 @@
         <source>Send message</source>
         <target state="final">Üzenet küldése</target>
         <note>Line: 103</note>
+      </trans-unit>
+      <trans-unit id="b1c1a2457e49ccd06d304774d50947c6" approved="yes">
+        <source>View full conversation</source>
+        <target state="final">Teljes beszélgetés megtekintése</target>
+        <note>Line: 46</note>
+      </trans-unit>
+      <trans-unit id="4d16da2eaa070d98b8495ccf1b0b42bb" approved="yes">
+        <source>Choose your order message</source>
+        <target state="final">Válaszd ki az rendeléshez tartozó üzenetet</target>
+        <note>Line: 67</note>
       </trans-unit>
     </body>
   </file>
@@ -2078,6 +2343,21 @@
         <target state="final">Pénznemmódosítás</target>
         <note>Line: 134</note>
       </trans-unit>
+      <trans-unit id="5735196b42849ae4fe6adac3ae14c3d1" approved="yes">
+        <source>Card type</source>
+        <target state="final">Kártya típusa</target>
+        <note>Line: 75</note>
+      </trans-unit>
+      <trans-unit id="0bef7cd06cee6711378b85d90ce11527" approved="yes">
+        <source>Cardholder name</source>
+        <target state="final">Kártyatulajdonos neve</target>
+        <note>Line: 91</note>
+      </trans-unit>
+      <trans-unit id="a44217022190f5734b2f72ba1e4f8a79" approved="yes">
+        <source>Card number</source>
+        <target state="final">Kártya száma</target>
+        <note>Line: 67</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/product.html.twig" source-language="en" target-language="hu" datatype="plaintext">
@@ -2101,11 +2381,20 @@
         <target state="final">Ez a rendelés részben kuponnal lett kifizetve. Válaszd ki a visszatéríteni kívánt összeget:</target>
         <note>Line: 243</note>
       </trans-unit>
+      <trans-unit id="d9c66f411da5faef9c46d5b679214ae1" approved="yes">
+        <source>Add a discount</source>
+        <target state="final">Kedvezmény hozzáadása</target>
+        <note>Line: 150</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/shipping.html.twig" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
+      <trans-unit id="858591a7d8647b4535c51a4ad506db9c" approved="yes">
+        <source>Shipping does not apply to virtual orders</source>
+        <target state="final">A szállítás nem vonatkozik a virtuális rendelésekre</target>
+        <note>Line: 91</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/sources.html.twig" source-language="en" target-language="hu" datatype="plaintext">
@@ -2152,10 +2441,26 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/preview.html.twig" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
-      
-      
-      
+      <trans-unit id="cdba184783a0253218efd734da81a9da" approved="yes">
+        <source>Stock location</source>
+        <target state="final">Raktári lokáció</target>
+        <note>Line: 126</note>
+      </trans-unit>
+      <trans-unit id="169d7487a2ea841e5cdd6b9052c54f37" approved="yes">
+        <source>Shipping details</source>
+        <target state="final">Szállítási adatok</target>
+        <note>Line: 61</note>
+      </trans-unit>
+      <trans-unit id="e3f32212a2ad38fc762cff6ba6d44936" approved="yes">
+        <source>Invoice details</source>
+        <target state="final">Számla adatai</target>
+        <note>Line: 98</note>
+      </trans-unit>
+      <trans-unit id="0da9511b88a62642518334bda95c7370" approved="yes">
+        <source>Open details</source>
+        <target state="final">Részletek megnyitása</target>
+        <note>Line: 173</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

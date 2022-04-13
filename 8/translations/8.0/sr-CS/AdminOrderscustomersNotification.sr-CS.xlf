@@ -335,7 +335,7 @@
       </trans-unit>
       <trans-unit id="06fc8d486e9f83c5810a21857da7b656" approved="yes">
         <source>The invoice is invalid.</source>
-        <target state="final">Račun je neispravan.</target>
+        <target state="final">Faktura nije ispravana.</target>
         <note>Line: 1192</note>
       </trans-unit>
       <trans-unit id="f50c7cba4df874039d73ee480d678f5e" approved="yes">
@@ -385,7 +385,7 @@
       </trans-unit>
       <trans-unit id="f98321e34948f600959c5c4200c953c8" approved="yes">
         <source>This order already has an invoice.</source>
-        <target state="final">Ova porudžbina već ima račun.</target>
+        <target state="final">Ova porudžbina već ima fakturu.</target>
         <note>Line: 1407</note>
       </trans-unit>
       <trans-unit id="0da1c0afe7d3d89a53a5d00998bb4295" approved="yes">
@@ -505,7 +505,7 @@
       </trans-unit>
       <trans-unit id="675b81dace2c99f5ef5eb6ac3f69dbe4" approved="yes">
         <source>You cannot use this invoice for the order</source>
-        <target state="final">Ne možete da koristite ovaj račun za poručivanje.</target>
+        <target state="final">Ne možete da koristite ovu fakturu za porudžbinu.</target>
         <note>Line: 2825</note>
       </trans-unit>
       <trans-unit id="2591b6d46f45d8f60e24c6c9c96a2a11" approved="yes">
@@ -574,7 +574,7 @@
       </trans-unit>
       <trans-unit id="d7e5dfc920c9871caaf7562d8ba9ab36" approved="yes">
         <source>The order invoice cannot be found within your database.</source>
-        <target state="final">Faktura porudžbine nije nadjena u bazi podataka.</target>
+        <target state="final">Fakturu od ove porudžbine nije moguće naći u bazi podataka.</target>
         <note>Line: 198</note>
       </trans-unit>
     </body>
@@ -657,6 +657,11 @@
   </file>
   <file original="src/Adapter/MailTemplate/MailPreviewVariablesBuilder.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
+      <trans-unit id="f22b1baf8dcfb014646921be9841cb41" approved="yes">
+        <source>expires on %s.</source>
+        <target state="final">ističe dana %s.</target>
+        <note>Line: 424</note>
+      </trans-unit>
       <trans-unit id="0db24e725e6876d0fc7467554e8b6c03" approved="yes">
         <source>downloadable %d time(s)</source>
         <target state="final">preuzimljivo %d puta.</target>
@@ -754,12 +759,20 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/CustomerThreadController.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
+      <trans-unit id="9cdca3c7972c48111e79648c942ac672" approved="yes">
+        <source>The message was successfully sent to the customer.</source>
+        <target state="final">Ova poruka je uspešno poslata korisniku / kupcu.</target>
+        <note>Line: 138</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/OrderMessageController.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
+      <trans-unit id="a536fd360caf34452a84d97775aeb74a" approved="yes">
+        <source>An order message with the same name already exists in %s.</source>
+        <target state="final">Jedan status porudžbine sa istim imenom već postoji: %s.</target>
+        <note>Line: 259</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/CartController.php" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -796,6 +809,16 @@
         <source>You have to select a shop before creating new orders.</source>
         <target state="final">morate izabrati prodavnicu u cilju kreiranja novih narudžbina</target>
         <note>Line: 240</note>
+      </trans-unit>
+      <trans-unit id="409f3dfd9f910287f86fd6c25c94c4d8" approved="yes">
+        <source>Order #%d has already been assigned this status.</source>
+        <target state="final">Narudžbina #%d je već dobila ovaj status.</target>
+        <note>Line: 2040</note>
+      </trans-unit>
+      <trans-unit id="18893a82469e2cd9492fc8d46fa8ac01" approved="yes">
+        <source>An error occurred while changing the status for order #%d, or we were unable to send an email to the customer.</source>
+        <target state="final">Došlo je do greške prilikom promene statusa porudžbine #%d, ili je bilo nemoguće poslati e-mail kupcu.</target>
+        <note>Line: 2029</note>
       </trans-unit>
       <trans-unit id="561918c3c49ff748f543e28f5c405d3c" approved="yes">
         <source>An error occurred while sending an email to the customer.</source>
@@ -856,6 +879,11 @@
         <source>Please generate at least one credit slip or voucher.</source>
         <target state="final">Molimo kreirajte bar jedan revers ili vaučer.</target>
         <note>Line: 1925</note>
+      </trans-unit>
+      <trans-unit id="282426403b9a14678d5dd35e024ec84c" approved="yes">
+        <source>This product is out of stock:</source>
+        <target state="final">Ovoga proizvoda nema više na zalihama:</target>
+        <note>Line: 678</note>
       </trans-unit>
       <trans-unit id="265b2b7a9f792e941faac362bc37f30b" approved="yes">
         <source>The product was successfully returned.</source>
@@ -951,7 +979,7 @@
     <body>
       <trans-unit id="599b433088f71a8712de225a693ce20e" approved="yes">
         <source>Invalid invoice number.</source>
-        <target state="final">Nepravilan broj računa (mora da bude &gt;</target>
+        <target state="final">Nepravilan broj fakture.</target>
         <note>Line: 93</note>
       </trans-unit>
     </body>
@@ -1011,7 +1039,7 @@
       </trans-unit>
       <trans-unit id="6513e5e8645f98d950d6174b30c151b8" approved="yes">
         <source>There are two ways of deleting a customer. Please choose your preferred method.</source>
-        <target state="final">Postoje dva načina da obrišete korisnika, izaberite</target>
+        <target state="final">Postoje dva načina da obrišete korisnika, izaberite:</target>
         <note>Line: 38</note>
       </trans-unit>
     </body>
@@ -1020,7 +1048,7 @@
     <body>
       <trans-unit id="df46bf546fc69b1cda65afe1001b73fc" approved="yes">
         <source>You have to select a shop if you want to create a customer.</source>
-        <target state="final">Morate da izaberete prodavnicu ako želite da kreirate korinika</target>
+        <target state="final">Morate da izaberete prodavnicu ako želite da kreirate klijenta / kupca.</target>
         <note>Line: 61</note>
       </trans-unit>
     </body>
@@ -1038,7 +1066,7 @@
     <body>
       <trans-unit id="b9af8635591dc44009ccd8e5389722ec" approved="yes">
         <source>No products found</source>
-        <target state="final">proizvod nije pronađeen</target>
+        <target state="final">Proizvod nije pronađen</target>
         <note>Line: 47</note>
       </trans-unit>
       <trans-unit id="453c92894f48764318534163c2bb2830" approved="yes">
@@ -1087,14 +1115,18 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/Modal/update_shipping_modal.html.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
+      <trans-unit id="2e66149518ba8dc45a9e51c4f153cebf" approved="yes">
+        <source><![CDATA[Please note that carrier change will not recalculate your shipping costs, if you want to change this please visit Shop Parameters > Order Settings]]></source>
+        <target state="final"><![CDATA[Molimi obratite pažnju da promena kurirske službe neće ponovo kalkulisati cenu isporuke, ako to hoćete da promenite molimo posetite Konfiguracija prodavnice > Konfiguacija porudžbina]]></target>
+        <note>Line: 42</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/add_product_row.html.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
       <trans-unit id="e2103a9e878a2280b3163e5ee098cbdf" approved="yes">
         <source>Are you sure you want to create a new invoice?</source>
-        <target state="final">Da li ste sigurni da želite da napravite novi račun?</target>
+        <target state="final">Da li ste sigurni da želite da napravite novu fakturu?</target>
         <note>Line: 67</note>
       </trans-unit>
       <trans-unit id="ca4c54eff098a5785c2016718a00ef1f" approved="yes">
@@ -1115,14 +1147,18 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/edit_product_row.html.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
+      <trans-unit id="99def74fcec1306526eaf054ccd2a5f7" approved="yes">
+        <source>Are you sure you want to edit this product price? It will be applied to all identical products in this order.</source>
+        <target state="final">Da li ste sigurni da želite da izmenite cenu ovog proizvoda? To će biti primenjeno na sve identične proizvode u ovoj porudžbini.</target>
+        <note>Line: 35</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/merchandise_returns.html.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
       <trans-unit id="14c7a12fdbf437a0545aed3365ce3f84" approved="yes">
         <source>No merchandise returned yet</source>
-        <target state="final">Roba još nije vraćena</target>
+        <target state="final">Za sada nema nikakvih povraćaja robe.</target>
         <note>Line: 55</note>
       </trans-unit>
       <trans-unit id="8132fa66932aa7c4ed3e16f35e228194" approved="yes">
@@ -1153,10 +1189,25 @@
         <target state="final">Ovo upozorenje se odnosi takođe i na porudžbinu:</target>
         <note>Line: 35</note>
       </trans-unit>
+      <trans-unit id="804e12a31196cf44ec13212952a59158" approved="yes">
+        <source>This warning also concerns the following orders:</source>
+        <target state="final">Ovo upozorenje se odnosi na sledeće porudžbine:</target>
+        <note>Line: 37</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/products.html.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
+      <trans-unit id="c4832c266d52c6cef340a9c656ddda26" approved="yes">
+        <source>Error. You cannot refund a negative amount.</source>
+        <target state="final">Greška. Ne možete refundirati negativnu sumu.</target>
+        <note>Line: 246</note>
+      </trans-unit>
+      <trans-unit id="49641a1085f245fe45d45881544d1cec" approved="yes">
+        <source>For this customer group, prices are displayed as: [1]%tax_method%[/1]</source>
+        <target state="final">Za ovu grupu kupaca, cene se prikazuju kao: [1]%tax_method%[/1]</target>
+        <note>Line: 215</note>
+      </trans-unit>
       <trans-unit id="ef5f330df17f8c955005c26466c2463c" approved="yes">
         <source>Merchandise returns are disabled</source>
         <target state="final">Povraćaj robe je aktiviran</target>

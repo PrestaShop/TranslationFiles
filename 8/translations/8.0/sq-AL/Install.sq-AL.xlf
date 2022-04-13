@@ -288,6 +288,11 @@ Comment: We fill the process step used for Ajax queries</note>
         <target state="final">Kërkon konfigurimin Apache</target>
         <note>Line: 111</note>
       </trans-unit>
+      <trans-unit id="0b9193ca4af6867c1f50a07097254b62" approved="yes">
+        <source>Enable the Apache mod_rewrite module</source>
+        <target state="final">Aktivizo modulin Apache mod_rewrite</target>
+        <note>Line: 114</note>
+      </trans-unit>
       <trans-unit id="91f3a2c0e4424c87689525da44c4db11" approved="yes">
         <source>Files</source>
         <target state="final">Skedarët</target>
@@ -550,6 +555,11 @@ Comment: We fill the process step used for Ajax queries</note>
         <source>Test your database connection now!</source>
         <target state="final">Testoni tani lidhjen tuaj të bazës së të dhënave!</target>
         <note>Line: 64</note>
+      </trans-unit>
+      <trans-unit id="615081c1bdd1f281451f7fcebe9332ac" approved="yes">
+        <source>Drop existing tables</source>
+        <target state="final">Fshi tabelat ekzistuese</target>
+        <note>Line: 60</note>
       </trans-unit>
     </body>
   </file>
@@ -826,6 +836,16 @@ Comment: We fill the process step used for Ajax queries</note>
         <target state="final">Oops! Ju lutem korrigjoni artikullin(ujt) më poshtë, dhe pastaj kliko "Rifresko informacionet" për të provuar pajtueshmërinë e sistemit tuaj të ri.</target>
         <note>Line: 35</note>
       </trans-unit>
+      <trans-unit id="3388c1aa7b0c78c5751c56bd8984e095" approved="yes">
+        <source>Refresh information</source>
+        <target state="final">Rifresko informacionin</target>
+        <note>Line: 51</note>
+      </trans-unit>
+      <trans-unit id="a023e6b72fd99acbf5329340a09ea1f9" approved="yes">
+        <source>Oops! Please correct the item(s) below, and then click "%refresh_label%" to test the compatibility of your new system.</source>
+        <target state="final">Oops! Të lutem korrigjo artikullin(ujt) më poshtë, dhe pastaj kliko %refresh_label% për të provuar pajtueshmërinë e sistemit tënd të ri.</target>
+        <note>Line: 35</note>
+      </trans-unit>
     </body>
   </file>
   <file original="install-dev/theme/views/welcome.php" source-language="en" target-language="sq" datatype="plaintext">
@@ -865,11 +885,26 @@ Comment: We fill the process step used for Ajax queries</note>
         <target state="final">Përzgjedhja e gjuhës mësipër aplikohet vetëm për asistentin e Instalimit. Pasi që dyqani yt të jetë instaluar, ti mund të zgjedhësh gjuhën e dyqanit tënd përmes %d përkthimeve, të gjitha falas!</target>
         <note>Line: 58</note>
       </trans-unit>
+      <trans-unit id="e1a83d307c77f54bc40ff911943669f1" approved="yes">
+        <source><![CDATA[<b>Warning: You cannot use this tool to upgrade your store anymore.</b><br /><br />You already have <b>PrestaShop version %version% installed</b>.<br /><br />If you want to upgrade to the latest version, please use the 1-Click Upgrade module and follow its instructions.]]></source>
+        <target state="final"><![CDATA[<b>Paralajmërim: Nuk mund ta përdorësh më këtë mjet për të përmirësuar dyqanin tën. </b><br /><br />Ti tashmë ke <b> versionin %version% të PrestaShop të instaluar</b>.<br />< br />Nëse dëshiron ta azhurnosh në versionin më të fundit, të lutem përdor modulin '1-Click Upgrade' dhe ndiq udhëzimet e tij.]]></target>
+        <note>Line: 32</note>
+      </trans-unit>
+      <trans-unit id="f7df4c84260e89f8aa1644b31a795282" approved="yes">
+        <source>Installing PrestaShop is quick and easy. In just a few moments, you will become part of a community consisting of more than %numMerchants% merchants. You are on the way to creating your own unique online store that you can manage easily every day.</source>
+        <target state="final">PrestaShop instalohet shpejtë dhe lehtë. Në vetëm disa momente, ti do të bëhesh pjesë e një bashkësie të përbërë nga më shumë se %numMerchants% tregtarë. Ti je në rrugë për krijimin e dyqanit tënd unik online, të cilin mund ta menaxhosh lehtë çdo ditë.</target>
+        <note>Line: 40</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/classes/UpgradePage.php" source-language="en" target-language="sq" datatype="plaintext">
     <body>
-      
+      <trans-unit id="7d72600fcff52fb3a2d2f73572117311" approved="yes">
+        <source>Your database server does not support the utf-8 charset.</source>
+        <target state="final">Serveri bazës tënde të të dhënave nuk mbështetë vargun e karaktereve utf-8.</target>
+        <note>Context:
+File: modules/autoupgrade/classes/UpgradePage.php:414</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php" source-language="en" target-language="sq" datatype="plaintext">
@@ -969,6 +1004,16 @@ Comment: We fill the process step used for Ajax queries</note>
         <target state="final">Udhëtime</target>
         <note>Line: 233</note>
       </trans-unit>
+      <trans-unit id="4d0a6a9777a818ecc3b59b9a8ecd0c43" approved="yes">
+        <source>-- Please choose your main activity --</source>
+        <target state="final">-- Të lutem zgjidh aktivitetin tënd kryesor --</target>
+        <note>Line: 212</note>
+      </trans-unit>
+      <trans-unit id="9503054261b8aeed48e0a3902019b579" approved="yes">
+        <source>Sport and Entertainment</source>
+        <target state="final">Sport dhe argëtim</target>
+        <note>Line: 232</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Install/Database.php" source-language="en" target-language="sq" datatype="plaintext">
@@ -1027,6 +1072,11 @@ Comment: We fill the process step used for Ajax queries</note>
         <source>Attempt to create the database automatically</source>
         <target state="final">Përpjekje për të krijuar bazën e të dhënave automatikisht</target>
         <note>Line: 105</note>
+      </trans-unit>
+      <trans-unit id="ffb062d75b155dab7c60d7ea84385abc" approved="yes">
+        <source>You must be granted the privilege to select data in the tables of database "%s". Ask your hosting provider to enable it.</source>
+        <target state="final">Duhet të të jepet privilegji për të zgjedhur të dhënat në tabelat e bazës së të dhënave "%s". Pyet ofruesin tënd të pritjes (host-it) që ta aktivizojë atë.</target>
+        <note>Line: 89</note>
       </trans-unit>
     </body>
   </file>
