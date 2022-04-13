@@ -35,6 +35,16 @@
         <target state="final">Nem állíthatsz be olyan rangsort, mely meghaladja a kategóriában lévő termékek számát mínusz 1 (a rangsorszámozás 0-val kezdődik).</target>
         <note>Line: 6171</note>
       </trans-unit>
+      <trans-unit id="30a367ba686890c829937e768d588b8f" approved="yes">
+        <source>You cannot set 0 or a negative position, the minimum is 1.</source>
+        <target state="final">Nem állítható be 0 vagy negatív pozíció, a minimum 1.</target>
+        <note>Line: 7084</note>
+      </trans-unit>
+      <trans-unit id="cf99dad7d7306d9ac01ba5a2e2d2c715" approved="yes">
+        <source>You cannot set a position greater than the total number of products in the category, starting at 1.</source>
+        <target state="final">Nem állíthatsz be nagyobb pozíciót, mint a kategória összes termékének száma, 1-től kezdve.</target>
+        <note>Line: 7105</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/QqUploadedFileForm.php" source-language="en" target-language="hu" datatype="plaintext">
@@ -53,6 +63,11 @@
         <target state="final">A kedvezmény sikeresen létrehozva</target>
         <note>Line: 511</note>
       </trans-unit>
+      <trans-unit id="801982917ddd7afd63f9e103ba4699bd" approved="yes">
+        <source>The root category of the shop %shop% is not associated with the current shop. You can't access this page. Please change the root category of the shop.</source>
+        <target state="final">Az %shop% áruház gyökér kategóriája nincs hozzárendelve a jelenlegi áruházhoz. Nem férsz hozzá az oldalhoz. Kérlek változtasd meg az áruház gyökér kategóriáját.</target>
+        <note>Line: 517</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/helper/HelperList.php" source-language="en" target-language="hu" datatype="plaintext">
@@ -61,6 +76,11 @@
         <source>This will copy the images too. If you wish to proceed, click "Yes". If not, click "No".</source>
         <target state="final">Ez a művelet a fényképeket is átmásolja. Ha folytatni akarod, kattints az "Igen"-re. Ha nem, akkor a "Nem"-re.</target>
         <note>Line: 429</note>
+      </trans-unit>
+      <trans-unit id="76a0433a69a82abfba836ca72dbef13f" approved="yes">
+        <source>This will copy the images too. If you wish to proceed, click "%yes_label%". If not, click "%no_label%".</source>
+        <target state="final">Ez a művelet a fényképeket is átmásolja. Ha folytatni akarod, kattints az "%yes_label%"-re. Ha nem, akkor a "%no_label%"-re.</target>
+        <note>Line: 431</note>
       </trans-unit>
     </body>
   </file>
@@ -99,13 +119,18 @@
         <target state="final">Fájl nem található</target>
         <note>Line: 119</note>
       </trans-unit>
+      <trans-unit id="8cb9da8e2fc65153510e4a067af0b32c" approved="yes">
+        <source>The file %file% exceeds the size allowed by the server. The limit is set to %size% MB.</source>
+        <target state="final">%file% fájl nagyobb, mint amit a szerver megenged. A limit %size% MB-ra van állítva.</target>
+        <note>Line: 247</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminAttributeGeneratorController.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
       <trans-unit id="1ef611e55a4e10ff65c1e64f962281c8" approved="yes">
         <source>Please select at least one attribute.</source>
-        <target state="final">Legalább egy jellemzőt ki kell választani!</target>
+        <target state="final">Legalább egy variációt ki kell választani.</target>
         <note>Line: 119</note>
       </trans-unit>
       <trans-unit id="6e89fd17c196488cfac8e63ec415d65f" approved="yes">
@@ -129,13 +154,18 @@
       </trans-unit>
       <trans-unit id="caecb49a7eec394177d054db34995bc0" approved="yes">
         <source>The attribute value "%1$s" already exist for %2$s language</source>
-        <target state="final">%2$s nyelved márt tartalmaz "%1$s" jellemzőértéket</target>
+        <target state="final">%2$s nyelved márt tartalmaz "%1$s" variáció értéket</target>
         <note>Line: 417</note>
       </trans-unit>
       <trans-unit id="7f7cd1de48a84bc7ba0dfcde99de2604" approved="yes">
         <source>Failed to delete the attribute.</source>
-        <target state="final">A jellemző törlése sikertelen.</target>
+        <target state="final">A variáció törlése sikertelen.</target>
         <note>Line: 780</note>
+      </trans-unit>
+      <trans-unit id="de2a79b3b161c486acb8f80861cd107c" approved="yes">
+        <source>This feature has been disabled. You can activate it here: %link%.</source>
+        <target state="final">Ez a funkció ki van kapcsolva. Itt bekapcsolhatod: %link%.</target>
+        <note>Line: 509</note>
       </trans-unit>
     </body>
   </file>
@@ -229,6 +259,11 @@
         <target state="final">A kategória nem lehet saját szülőkategóriája.</target>
         <note>Line: 803</note>
       </trans-unit>
+      <trans-unit id="23be63a3d78c7375e59f5965f6ef9efd" approved="yes">
+        <source>Unknown delete mode: %s</source>
+        <target state="final">Ismeretlen törlés mód: %s</target>
+        <note>Line: 824</note>
+      </trans-unit>
       <trans-unit id="1887caa83cfc66cd8ab440cf70eca40b" approved="yes">
         <source>An error occurred while uploading category image.</source>
         <target state="final">Hiba történt a Kategória kép feltöltése közben.</target>
@@ -290,7 +325,7 @@
       </trans-unit>
       <trans-unit id="251db6b140bc5b3adcbe0c5efadb3c7d" approved="yes">
         <source>You must add at least one attribute.</source>
-        <target state="final">Legalább egy attribútumot adj hozzá.</target>
+        <target state="final">Legalább egy variációt adj hozzá.</target>
         <note>Line: 734</note>
       </trans-unit>
       <trans-unit id="e22a6ea51eb74bee7acaa4acf2846c7b" approved="yes">
@@ -300,7 +335,7 @@
       </trans-unit>
       <trans-unit id="0e461384b2f94dcd87f56a8a178fe768" approved="yes">
         <source>A product must be created before adding features.</source>
-        <target state="final">Jellemzők hozzáadása előtt a termék létrehozása szükséges.</target>
+        <target state="final">Tulajdonságok hozzáadása előtt egy termék létrehozása szükséges.</target>
         <note>Line: 910</note>
       </trans-unit>
       <trans-unit id="def4acf542de55ba41c7b7fde82bd5b6" approved="yes">
@@ -395,12 +430,12 @@
       </trans-unit>
       <trans-unit id="fba78cbc51e76234884ba4d6c232bc12" approved="yes">
         <source>The name for feature %1$s is too long in %2$s.</source>
-        <target state="final">%1$s jellemző elnevezése túl hosszú ennél: %2$s.</target>
+        <target state="final">%1$s tulajdonság neve túl hosszú ennél: %2$s.</target>
         <note>Line: 1607</note>
       </trans-unit>
       <trans-unit id="bd43d37e6647d4638a621aa4ccbde2ff" approved="yes">
         <source>A valid name required for feature. %1$s in %2$s.</source>
-        <target state="final">Érvényes elnevezés szükséges a jellemzőhöz. %1$s - %2$s.</target>
+        <target state="final">Érvényes elnevezése szükséges a tulajdonságnak. %1$s - %2$s.</target>
         <note>Line: 1616</note>
       </trans-unit>
       <trans-unit id="0c58058923630a64ce3f415a07cbb00d" approved="yes">
@@ -505,16 +540,40 @@
   </file>
   <file original="modules/ps_linklist/src/Controller/Admin/Improve/Design/LinkBlockController.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
+      <trans-unit id="15d30198621ad33274fc94b08cff5009" approved="yes">
+        <source>Could not delete #%i</source>
+        <target state="final">Nem lehet törölni: #%i</target>
+        <note>Line: 171</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/ps_linklist/src/Form/LinkBlockFormDataProvider.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
+      <trans-unit id="3535b3934d0e2d6e7759649d78c7da58" approved="yes">
+        <source>Missing id_hook</source>
+        <target state="final">Hiányzó id_hook</target>
+        <note>Line: 256</note>
+      </trans-unit>
+      <trans-unit id="36ccadce9e530e36cf265145bdba5c1c" approved="yes">
+        <source>Missing block_name</source>
+        <target state="final">Hiányzó block_name</target>
+        <note>Line: 264</note>
+      </trans-unit>
+      <trans-unit id="12f4f6b7d1d17838950e3c6107144f2a" approved="yes">
+        <source>Missing block_name value for language %s</source>
+        <target state="final">Hiányzó block_name érték %s nyelv esetén</target>
+        <note>Line: 272</note>
+      </trans-unit>
+      <trans-unit id="ba88eb1dd9466f0be32b7dc7a82297ad" approved="yes">
+        <source>Missing %s value in custom [%s] for language %s</source>
+        <target state="final">Hiányzó %s érték az egyéni tartalomban [%s] %s nyelv esetén</target>
+        <note>Line: 251</note>
+      </trans-unit>
+      <trans-unit id="504ca7ea96dde692360e88a97e98fc91" approved="yes">
+        <source>Missing %s value in custom[%s] for language %s</source>
+        <target state="final">Hiányzó %s érték az egyéni tartalomban [%s] %s nyelv esetén</target>
+        <note>Line: 294</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Attribute/AdminAttributeGeneratorControllerWrapper.php" source-language="en" target-language="hu" datatype="plaintext">
@@ -611,11 +670,30 @@
         <target state="final">Szeretném eltávolítani azokat a termékeket, melyek csak ebben a kategóriában találhatóak meg.</target>
         <note>Line: 73</note>
       </trans-unit>
+      <trans-unit id="4d5ec94fee2d67b1f49517f355425fb0" approved="yes">
+        <source>If they have no other category, I want to associate them with the parent category.</source>
+        <target state="final">Ha nincs más kategóriájuk, akkor a szülő kategóriához szeretném társítani őket.</target>
+        <note>Line: 57</note>
+      </trans-unit>
+      <trans-unit id="8743e83ee9ec372f40d4a58160bfc1d2" approved="yes">
+        <source>If they have no other category, I want to associate them with the parent category and turn them offline.</source>
+        <target state="final">Ha nincs más kategóriájuk, akkor a szülő kategóriához szeretném társítani őket és inaktívvá tenni.</target>
+        <note>Line: 65</note>
+      </trans-unit>
+      <trans-unit id="63cfe520c7e96406010bc883272667f5" approved="yes">
+        <source>If they have no other category, I want to delete them as well.</source>
+        <target state="final">Ha nincs más kategóriájuk, akkor törölni szeretném őket.</target>
+        <note>Line: 73</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Core/Grid/Data/Factory/AttachmentGridDataFactoryDecorator.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
+      <trans-unit id="14c18063d1497fb156ab73c0d59d354b" approved="yes">
+        <source>This file is associated with the following products. Are you sure you want to delete it?</source>
+        <target state="final">Ez a fájl a következő termékekkel van összekapcsolva, tényleg törölni akarod?</target>
+        <note>Line: 121</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/ProductController.php" source-language="en" target-language="hu" datatype="plaintext">
@@ -708,17 +786,44 @@
         <target state="final">Hiba történt a kép feltöltése közben:</target>
         <note>Line: 874</note>
       </trans-unit>
+      <trans-unit id="3d85438a25723cc56bd4aefb9b368bc0" approved="yes">
+        <source>An error occurred while creating the category.</source>
+        <target state="final">Hiba történt a kategória létrehozása során.</target>
+        <note>Line: 857</note>
+      </trans-unit>
+      <trans-unit id="175ad2b319a95a0b7c580dbc4205fdac" approved="yes">
+        <source>An error occurred while editing the category.</source>
+        <target state="final">Hiba történt a kategória szerkesztése során.</target>
+        <note>Line: 865</note>
+      </trans-unit>
+      <trans-unit id="17668cbc24213c8d43211a67139c3939" approved="yes">
+        <source>The root category of a shop cannot be edited.</source>
+        <target state="final">A bolt főkategóriája (root) nem szerkeszthető.</target>
+        <note>Line: 861</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/ManufacturerController.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="5769710cefad47e76691be9d61b7231c" approved="yes">
+        <source><![CDATA[The display of your brands is enabled on your store. Go to %sShop Parameters > General%s to edit settings.]]></source>
+        <target state="final"><![CDATA[A márkák megjelenítése engedélyezve van az üzletedben. A beállítások módosításához menj az %sÁruházbeállítások > Általános%s menüpontba.]]></target>
+        <note>Line: 774</note>
+      </trans-unit>
+      <trans-unit id="1205b99b993cef78d80b0bcbc312f2c3" approved="yes">
+        <source><![CDATA[The display of your brands is disabled on your store. Go to %sShop Parameters > General%s to edit settings.]]></source>
+        <target state="final"><![CDATA[A márkák megjelenítése le van tiltva van az üzletedben. A beállítások módosításához menj az %sÁruházbeállítások > Általános%s menüpontba.]]></target>
+        <note>Line: 781</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/ProductController.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
+      <trans-unit id="f07403f2e9d7e44c0090ab06678d4eb3" approved="yes">
+        <source>The experimental product page is not enabled. To enable it, go to the %sExperimental Features%s page.</source>
+        <target state="final">A kísérleti termékoldal nincs bekapcsolva. A bekapcsolásához lépj a %sKísérleti funkciók%s oldalra.</target>
+        <note>Line: 276</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/SupplierController.php" source-language="en" target-language="hu" datatype="plaintext">
@@ -733,6 +838,16 @@
         <target state="final">Nem lehet beszállítót törölni, ha van függőben lévő megrendelés</target>
         <note>Line: 475</note>
       </trans-unit>
+      <trans-unit id="3aff310e32cb7bb2d1affd97920c9f4b" approved="yes">
+        <source><![CDATA[The display of your suppliers is enabled on your store. Go to %sShop Parameters > General%s to edit settings.]]></source>
+        <target state="final"><![CDATA[A beszállítók megjelenítése engedélyezve van az üzletedben. A beállítások módosításához menj az %sÁruházbeállítások > Általános%s menüpontba.]]></target>
+        <note>Line: 535</note>
+      </trans-unit>
+      <trans-unit id="555740fcf7bb2fb267bc711c4919edcb" approved="yes">
+        <source><![CDATA[The display of your suppliers is disabled on your store. Go to %sShop Parameters > General%s to edit settings.]]></source>
+        <target state="final"><![CDATA[A beszállítók megjelenítése le van tiltva van az üzletedben. A beállítások módosításához menj az %sÁruházbeállítások > Általános%s menüpontba.]]></target>
+        <note>Line: 542</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/CartController.php" source-language="en" target-language="hu" datatype="plaintext">
@@ -742,11 +857,20 @@
         <target state="final">Nincs elég termék raktáron.</target>
         <note>Line: 599</note>
       </trans-unit>
+      <trans-unit id="891d308560a0cca2452fd2f482dded8c" approved="yes">
+        <source><![CDATA[Product customization could not be found. Go to Catalog > Products to customize the product.]]></source>
+        <target state="final"><![CDATA[Termék testreszabás nem található. A termék testreszabásához menj a Katalógus > Termékek menüpontba.]]></target>
+        <note>Line: 595</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
+      <trans-unit id="4fce600d4fc0429af2f5bc5861eefb3e" approved="yes">
+        <source>Selected products were successfully canceled.</source>
+        <target state="final">A kiválasztott termékek sikeresen le lettek mondva.</target>
+        <note>Line: 1659</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/SpecificPriceController.php" source-language="en" target-language="hu" datatype="plaintext">
@@ -769,18 +893,50 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/HeaderType.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
+      <trans-unit id="2b260d6a8a4b747672d790f18c2ab780" approved="yes">
+        <source>Are you sure you want to change the product type?</source>
+        <target state="final">Biztosan módosítani szeretnéd a termék típusát?</target>
+        <note>Line: 70</note>
+      </trans-unit>
+      <trans-unit id="da531a2761eef5012cadd0a2e31acab6" approved="yes">
+        <source>Change product type</source>
+        <target state="final">Termék típus megváltoztatása</target>
+        <note>Line: 71</note>
+      </trans-unit>
+      <trans-unit id="178b6141eb15b94fb25e5940625ecd01" approved="yes">
+        <source>Changing the product type will immediately save the product and refresh the page.</source>
+        <target state="final">A termék típus módosítása azonnal elmenti a terméket és frissíti az oldalt.</target>
+        <note>Line: 73</note>
+      </trans-unit>
+      <trans-unit id="d125a0ad5887eb2575a57c2149a12c1d" approved="yes">
+        <source>This will delete all combinations.</source>
+        <target state="final">Ez az összes kombinációt törölni fogja.</target>
+        <note>Line: 74</note>
+      </trans-unit>
+      <trans-unit id="6b7844c384e54ed301c7f3f6b4aac389" approved="yes">
+        <source>This will delete the list of products in this pack.</source>
+        <target state="final">Ez törli a csomagban lévő termék listát.</target>
+        <note>Line: 75</note>
+      </trans-unit>
+      <trans-unit id="4882c6b9d11d6aacd193fa21547fd727" approved="yes">
+        <source>This will delete the associated virtual file.</source>
+        <target state="final">Ez törli a hozzárendelt virtuális fájlt.</target>
+        <note>Line: 76</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Image/ImageDropzoneType.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="9a906b85c45f31efeb25eef56aad240b" approved="yes">
+        <source>Image replaced</source>
+        <target state="final">Kép lecserélve</target>
+        <note>Line: 56</note>
+      </trans-unit>
+      <trans-unit id="02708462d504c68df426d48cd6aae23f" approved="yes">
+        <source>Are you sure you want to delete the selected image?|Are you sure you want to delete the %filesNb% selected images?</source>
+        <target state="final">Biztosan törlöd a kiválasztott képet?|Biztosan törlöd a %filesNb% kiválasztott képet?</target>
+        <note>Line: 79</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Validator/Constraints/TinyMceMaxLengthValidator.php" source-language="en" target-language="hu" datatype="plaintext">
@@ -974,7 +1130,7 @@
       </trans-unit>
       <trans-unit id="5b75fdc0df647e8ac5275e31554dd0f9" approved="yes">
         <source>A virtual product can't have combinations.</source>
-        <target state="final">Virtuális termék nem rendelkezhet variációkkal.</target>
+        <target state="final">Virtuális termék nem rendelkezhet kombinációkkal.</target>
         <note>Line: 358</note>
       </trans-unit>
     </body>
@@ -990,7 +1146,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Categories/Blocks/delete_categories_modal.html.twig" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
+      <trans-unit id="332a0777d848606eb5f63149d0bb1105" approved="yes">
+        <source>Note that if they have another category, your products will logically remain associated with it.</source>
+        <target state="final">Vedd figyelembe, ha van egy másik kategóriájuk, akkor a termékek logikailag társítva maradnak vele.</target>
+        <note>Line: 44</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Categories/Blocks/form.html.twig" source-language="en" target-language="hu" datatype="plaintext">
@@ -1004,7 +1164,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Features/Blocks/disabled_feature_warning.html.twig" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
+      <trans-unit id="8be9030c26dd464a739bd131dff74336" approved="yes">
+        <source>This feature has been disabled. You can activate it here: %url%.</source>
+        <target state="final">Ez a funkció ki van kapcsolva. Itt bekapcsolhatod: %url%.</target>
+        <note>Line: 31</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Manufacturer/Blocks/View/addresses.html.twig" source-language="en" target-language="hu" datatype="plaintext">
@@ -1018,18 +1182,34 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/Combination/paginated_list.html.twig" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="d077aab0da809b9037b3e3974da6bad3" approved="yes">
+        <source>Discard changes?</source>
+        <target state="final">Elveted a változtatásokat?</target>
+        <note>Line: 45</note>
+      </trans-unit>
+      <trans-unit id="e202ea17abd88b9634fb9939f6253ea9" approved="yes">
+        <source>All unsaved modifications made on the combination [1]%combinationName%[/1] will be lost.</source>
+        <target state="final">[1]%combinationName%[/1] kombináción végrehajtott összes nem mentett módosítás elveszik.</target>
+        <note>Line: 46</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/edit.html.twig" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
+      <trans-unit id="fd7c4e2dcae282ac5305265c45be0bc2" approved="yes">
+        <source>This is the experimental product page.</source>
+        <target state="final">Ez a kísérleti termékoldal.</target>
+        <note>Line: 69</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Stock/overview.html.twig" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
+      <trans-unit id="8597e9c43b2587a888fee6b31dad5335" approved="yes">
+        <source>You can't manage your stock in this shop context: select a shop instead of a group of shops.</source>
+        <target state="final">Nem tudod kezelni a készletedet ezen a multishop szinten: válassz egy boltot a boltcsoport helyett.</target>
+        <note>Line: 39</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/TwigTemplateForm/prestashop_ui_kit_base.html.twig" source-language="en" target-language="hu" datatype="plaintext">
@@ -1047,6 +1227,11 @@
         <source>No product matches your search. Try changing search terms.</source>
         <target state="final">Nincs találat a keresésre. Próbáld megváltoztatni a keresési feltételeket.</target>
         <note>Line: 64</note>
+      </trans-unit>
+      <trans-unit id="96d17a8fdea016168a9d506b0da23c07" approved="yes">
+        <source>Stock successfully updated</source>
+        <target state="final">Készlet sikeresen frissítve</target>
+        <note>Line: 66</note>
       </trans-unit>
     </body>
   </file>

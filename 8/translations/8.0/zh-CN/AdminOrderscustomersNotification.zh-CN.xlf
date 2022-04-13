@@ -11,7 +11,11 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/_product_line.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="65247263c6ea1d91027b28a41db8cb4b" approved="yes">
+        <source>Editing this product line will remove the reduction and base price.</source>
+        <target state="final">编辑此产品线将删除减价和基本价格。</target>
+        <note>Line: 47</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/form.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -676,7 +680,11 @@
   </file>
   <file original="src/Adapter/Order/CommandHandler/CancelOrderProductHandler.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="1166740db50174894a068c0c51b94c66" approved="yes">
+        <source><![CDATA[Order history email could not be sent, test your email configuration in the Advanced Parameters > E-mail section of your back office.]]></source>
+        <target state="final"><![CDATA[无法发送订单历史电子邮件，请在后台的高级参数 > 电子邮件部分测试您的电子邮件配置。]]></target>
+        <note>Line: 166</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Order/Delivery/SlipPdfConfiguration.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -760,7 +768,11 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/OrderMessageController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="a536fd360caf34452a84d97775aeb74a" approved="yes">
+        <source>An order message with the same name already exists in %s.</source>
+        <target state="final">已存在同名的订单状态：%s.</target>
+        <note>Line: 259</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/CartController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -818,15 +830,55 @@
         <target state="final">在发送邮件给顾客时发生错误。</target>
         <note>Line: 1873</note>
       </trans-unit>
+      <trans-unit id="aeddc664f1e95691c69ea44a5c1c18f5" approved="yes">
+        <source>This product is out of stock: </source>
+        <target state="final">该商品已经售罄: </target>
+        <note>Line: 1814</note>
+      </trans-unit>
       <trans-unit id="4174f012bc63b679f092acd1a933bf5c" approved="yes">
         <source>The email was sent to your customer.</source>
         <target state="final">邮件已发送给客户</target>
         <note>Line: 1626</note>
       </trans-unit>
+      <trans-unit id="50c5ffd8dadba5bcc7b83cfe3d874f54" approved="yes">
+        <source>A standard refund was successfully created.</source>
+        <target state="final">已成功创建标准退款。</target>
+        <note>Line: 617</note>
+      </trans-unit>
+      <trans-unit id="676add5006e766a2f0bf5ba22e231e09" approved="yes">
+        <source>A return product was successfully created.</source>
+        <target state="final">退货产品已成功创建。</target>
+        <note>Line: 552</note>
+      </trans-unit>
+      <trans-unit id="4c8098d3dded08ff50537ed2814277ca" approved="yes">
+        <source>You cannot edit the cart once the order delivered</source>
+        <target state="final">订单交付后，您将无法编辑购物车。</target>
+        <note>Line: 1405</note>
+      </trans-unit>
+      <trans-unit id="918093e8ad4567f6b99e9851eab8bc69" approved="yes">
+        <source>Order #%d cannot be loaded.</source>
+        <target state="final">订购 #%d 不能被加载.</target>
+        <note>Line: 2053</note>
+      </trans-unit>
+      <trans-unit id="2a11327ffe3e46a9ffadddf38b4b9fff" approved="yes">
+        <source>Please enter a maximum quantity of [1].</source>
+        <target state="final">请输入最大数量  [1].</target>
+        <note>Line: 1912</note>
+      </trans-unit>
       <trans-unit id="97f014aa339f5b37951f100fb1a086d8" approved="yes">
         <source>Please select at least one product.</source>
         <target state="final">请选择至少一件商品</target>
         <note>Line: 1917</note>
+      </trans-unit>
+      <trans-unit id="d31c479bcda04bd5b859f7cff371c3d0" approved="yes">
+        <source>Please enter a positive amount.</source>
+        <target state="final">请输入一个正数，不可使用小数点</target>
+        <note>Line: 1921</note>
+      </trans-unit>
+      <trans-unit id="4b0c5f16b969b647ff0b63481af6c3e5" approved="yes">
+        <source>Please generate at least one credit slip or voucher.</source>
+        <target state="final">请至少生成一张信用单或凭证。</target>
+        <note>Line: 1925</note>
       </trans-unit>
       <trans-unit id="282426403b9a14678d5dd35e024ec84c" approved="yes">
         <source>This product is out of stock:</source>
@@ -872,6 +924,36 @@
         <source>Only numbers and decimal points (".") are allowed in the amount fields of the payment block, e.g. 10.50 or 1050.</source>
         <target state="final">付款区块的金额栏位中只能使用数字和小数点（“.”），例如 10.50或1050。</target>
         <note>Line: 1994</note>
+      </trans-unit>
+      <trans-unit id="7b310c5ac94a5e50139d50574395683b" approved="yes">
+        <source>Percent value must be greater than 0.</source>
+        <target state="final">百分比或金额值必须大于0。</target>
+        <note>Line: 1886</note>
+      </trans-unit>
+      <trans-unit id="2b0c8d4ac85a4f8ddf1427f7ad537f55" approved="yes">
+        <source>Amount value must be greater than 0.</source>
+        <target state="final">金额值必须大于 0。</target>
+        <note>Line: 1894</note>
+      </trans-unit>
+      <trans-unit id="0e6becfb4c6566c35a8fda2d94891c70" approved="yes">
+        <source>Shipping discount value cannot exceed the total price of this order.</source>
+        <target state="final">运费折扣值不能超过此订单的总价。</target>
+        <note>Line: 1902</note>
+      </trans-unit>
+      <trans-unit id="500f3380713af59cab7bdd14d8fefea2" approved="yes">
+        <source>You must choose a payment module to create the order.</source>
+        <target state="final">您必须选择一个支付模块来创建订单。</target>
+        <note>Line: 1930</note>
+      </trans-unit>
+      <trans-unit id="b2f61848a1b9245fb4d79db939e04c02" approved="yes">
+        <source>You must choose an order status to create the order.</source>
+        <target state="final">您必须选择一个订单状态来创建订单。</target>
+        <note>Line: 1959</note>
+      </trans-unit>
+      <trans-unit id="53efa65204c54a806b9df6707fc8a326" approved="yes">
+        <source>The order message given is invalid.</source>
+        <target state="final">给出的订单信息无效。</target>
+        <note>Line: 1966</note>
       </trans-unit>
     </body>
   </file>
@@ -1017,7 +1099,7 @@
     <body>
       <trans-unit id="29c14e1df15d10b73ec9605fd146b9fe" approved="yes">
         <source>No carrier can be applied to this order</source>
-        <target state="final">此订单无货运商可配送</target>
+        <target state="final">此订单无承运商可配送</target>
         <note>Line: 118</note>
       </trans-unit>
     </body>
@@ -1047,6 +1129,11 @@
         <target state="final">您确定要创建一个新发票？</target>
         <note>Line: 67</note>
       </trans-unit>
+      <trans-unit id="ca4c54eff098a5785c2016718a00ef1f" approved="yes">
+        <source>Are you sure you want to edit this product price? It will be applied to all invoices of this order.</source>
+        <target state="final">您确定要修改此产品价格吗？ 它将应用于此订单的所有发票。</target>
+        <note>Line: 71</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/documents.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -1060,7 +1147,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/edit_product_row.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      
+      <trans-unit id="99def74fcec1306526eaf054ccd2a5f7" approved="yes">
+        <source>Are you sure you want to edit this product price? It will be applied to all identical products in this order.</source>
+        <target state="final">您确定要修改此产品价格吗？ 它将按此顺序应用于所有相同的产品。</target>
+        <note>Line: 35</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/merchandise_returns.html.twig" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -1069,6 +1160,11 @@
         <source>No merchandise returned yet</source>
         <target state="final">未曾有商品被退回</target>
         <note>Line: 55</note>
+      </trans-unit>
+      <trans-unit id="8132fa66932aa7c4ed3e16f35e228194" approved="yes">
+        <source>Merchandise returns are not applicable for virtual orders</source>
+        <target state="final">商品退货不适用于虚拟订单</target>
+        <note>Line: 62</note>
       </trans-unit>
     </body>
   </file>
@@ -1087,6 +1183,11 @@
         <source>paid instead of</source>
         <target state="final">代替付款</target>
         <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="0f9e99e69b4986359118744a2a670fed" approved="yes">
+        <source>This warning also concerns order:</source>
+        <target state="final">该告警也涉及订单:</target>
+        <note>Line: 35</note>
       </trans-unit>
       <trans-unit id="804e12a31196cf44ec13212952a59158" approved="yes">
         <source>This warning also concerns the following orders:</source>
