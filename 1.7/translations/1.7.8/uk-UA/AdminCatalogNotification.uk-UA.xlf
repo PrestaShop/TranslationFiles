@@ -35,6 +35,16 @@
         <target state="final">Ви не можете встановити позицію більше, ніж загальна кількість продуктів в категорії, мінус 1 (Нумерація починається з 0).</target>
         <note>Line: 6171</note>
       </trans-unit>
+      <trans-unit id="30a367ba686890c829937e768d588b8f" approved="yes">
+        <source>You cannot set 0 or a negative position, the minimum is 1.</source>
+        <target state="final">Не можна встановити позицію меншу або рівну 0 - мінімум 1.</target>
+        <note>Line: 7084</note>
+      </trans-unit>
+      <trans-unit id="cf99dad7d7306d9ac01ba5a2e2d2c715" approved="yes">
+        <source>You cannot set a position greater than the total number of products in the category, starting at 1.</source>
+        <target state="final">Не можна встановити позицію більше, ніж загальна кількість товарів у категорії, нумерація починається з 1.</target>
+        <note>Line: 7105</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/QqUploadedFileForm.php" source-language="en" target-language="uk" datatype="plaintext">
@@ -66,6 +76,11 @@
         <source>This will copy the images too. If you wish to proceed, click "Yes". If not, click "No".</source>
         <target state="final">Також буде скопійовано зображення. Для продовження натисніть "Так", або "Ні" для припинення.</target>
         <note>Line: 429</note>
+      </trans-unit>
+      <trans-unit id="76a0433a69a82abfba836ca72dbef13f" approved="yes">
+        <source>This will copy the images too. If you wish to proceed, click "%yes_label%". If not, click "%no_label%".</source>
+        <target state="final">Зображення також будуть скопійовані. Якщо ви хочете продовжити, натисніть "%yes_label%". Якщо ні, натисніть "%no_label%".</target>
+        <note>Line: 431</note>
       </trans-unit>
     </body>
   </file>
@@ -197,12 +212,12 @@
     <body>
       <trans-unit id="c1a4c1b929c4f5c81f80ece2d7b196aa" approved="yes">
         <source>Invalid product</source>
-        <target state="final">Неправильний товар</target>
+        <target state="final">Недопустимий товар</target>
         <note>Line: 467</note>
       </trans-unit>
       <trans-unit id="e5b55dc69d10c8673f9d5db587591526" approved="yes">
         <source>Invalid combination</source>
-        <target state="final">Неправильна комбінація</target>
+        <target state="final">Недопустима комбинация</target>
         <note>Line: 384</note>
       </trans-unit>
       <trans-unit id="7cc92687130ea12abb80556681538001" approved="yes">
@@ -655,11 +670,30 @@
         <target state="final">Я хочу видалити товари, що перераховані лише в цій категорії і ні в якій іншій.</target>
         <note>Line: 73</note>
       </trans-unit>
+      <trans-unit id="4d5ec94fee2d67b1f49517f355425fb0" approved="yes">
+        <source>If they have no other category, I want to associate them with the parent category.</source>
+        <target state="final">Якщо у них немає іншої категорії, я хочу зв'язати їх із батьківською категорією.</target>
+        <note>Line: 57</note>
+      </trans-unit>
+      <trans-unit id="8743e83ee9ec372f40d4a58160bfc1d2" approved="yes">
+        <source>If they have no other category, I want to associate them with the parent category and turn them offline.</source>
+        <target state="final">Якщо у них немає іншої категорії, я хочу зв'язати їх із батьківською категорією та вимкнути.</target>
+        <note>Line: 65</note>
+      </trans-unit>
+      <trans-unit id="63cfe520c7e96406010bc883272667f5" approved="yes">
+        <source>If they have no other category, I want to delete them as well.</source>
+        <target state="final">Якщо у них немає іншої категорії, я хочу їх також видалити.</target>
+        <note>Line: 73</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Core/Grid/Data/Factory/AttachmentGridDataFactoryDecorator.php" source-language="en" target-language="uk" datatype="plaintext">
     <body>
-      
+      <trans-unit id="14c18063d1497fb156ab73c0d59d354b" approved="yes">
+        <source>This file is associated with the following products. Are you sure you want to delete it?</source>
+        <target state="final">Цей файл зв'язаний з наступними товарами. Ви впевнені, що хочете видалити його?</target>
+        <note>Line: 121</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/ProductController.php" source-language="en" target-language="uk" datatype="plaintext">
@@ -752,17 +786,44 @@
         <target state="final">Відбулася помилка під час завантаження зображення:</target>
         <note>Line: 874</note>
       </trans-unit>
+      <trans-unit id="3d85438a25723cc56bd4aefb9b368bc0" approved="yes">
+        <source>An error occurred while creating the category.</source>
+        <target state="final">Сталася помилка при створенні категорії.</target>
+        <note>Line: 857</note>
+      </trans-unit>
+      <trans-unit id="175ad2b319a95a0b7c580dbc4205fdac" approved="yes">
+        <source>An error occurred while editing the category.</source>
+        <target state="final">Сталася помилка при редагуванні категорії.</target>
+        <note>Line: 865</note>
+      </trans-unit>
+      <trans-unit id="17668cbc24213c8d43211a67139c3939" approved="yes">
+        <source>The root category of a shop cannot be edited.</source>
+        <target state="final">Кореневу категорію магазину не можна редагувати.</target>
+        <note>Line: 861</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/ManufacturerController.php" source-language="en" target-language="uk" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="5769710cefad47e76691be9d61b7231c" approved="yes">
+        <source><![CDATA[The display of your brands is enabled on your store. Go to %sShop Parameters > General%s to edit settings.]]></source>
+        <target state="final"><![CDATA[Відображення брендів увімкнено у вашому магазині. Перейдіть до %sПараметри магазину > Загальні%s, щоб змінити налаштування.]]></target>
+        <note>Line: 774</note>
+      </trans-unit>
+      <trans-unit id="1205b99b993cef78d80b0bcbc312f2c3" approved="yes">
+        <source><![CDATA[The display of your brands is disabled on your store. Go to %sShop Parameters > General%s to edit settings.]]></source>
+        <target state="final"><![CDATA[Відображення брендів у вашому магазині вимкнено. Перейдіть до %sПараметри магазину > Загальні%s, щоб змінити налаштування.]]></target>
+        <note>Line: 781</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/ProductController.php" source-language="en" target-language="uk" datatype="plaintext">
     <body>
-      
+      <trans-unit id="f07403f2e9d7e44c0090ab06678d4eb3" approved="yes">
+        <source>The experimental product page is not enabled. To enable it, go to the %sExperimental Features%s page.</source>
+        <target state="final">Експериментальна сторінка товару вимкнена. Щоб увімкнути її, перейдіть на сторінку %sЕкспериментальні функції%s.</target>
+        <note>Line: 276</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/SupplierController.php" source-language="en" target-language="uk" datatype="plaintext">
@@ -777,6 +838,16 @@
         <target state="final">Неможливо видалити постачальника, якщо очікується поставка</target>
         <note>Line: 475</note>
       </trans-unit>
+      <trans-unit id="3aff310e32cb7bb2d1affd97920c9f4b" approved="yes">
+        <source><![CDATA[The display of your suppliers is enabled on your store. Go to %sShop Parameters > General%s to edit settings.]]></source>
+        <target state="final"><![CDATA[Відображення постачальників увімкнено у вашому магазині. Перейдіть до %Параметри магазину > Загальні%s, щоб змінити налаштування.]]></target>
+        <note>Line: 535</note>
+      </trans-unit>
+      <trans-unit id="555740fcf7bb2fb267bc711c4919edcb" approved="yes">
+        <source><![CDATA[The display of your suppliers is disabled on your store. Go to %sShop Parameters > General%s to edit settings.]]></source>
+        <target state="final"><![CDATA[Відображення постачальників у вашому магазині вимкнено. Перейдіть до %Параметри магазину > Загальні%s, щоб змінити налаштування.]]></target>
+        <note>Line: 542</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/CartController.php" source-language="en" target-language="uk" datatype="plaintext">
@@ -786,11 +857,20 @@
         <target state="final">Недостатньо товарів в наявності.</target>
         <note>Line: 599</note>
       </trans-unit>
+      <trans-unit id="891d308560a0cca2452fd2f482dded8c" approved="yes">
+        <source><![CDATA[Product customization could not be found. Go to Catalog > Products to customize the product.]]></source>
+        <target state="final"><![CDATA[Не вдалося знайти налаштування товару. Перейдіть до Каталог > Товари, щоб налаштувати товар.]]></target>
+        <note>Line: 595</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php" source-language="en" target-language="uk" datatype="plaintext">
     <body>
-      
+      <trans-unit id="4fce600d4fc0429af2f5bc5861eefb3e" approved="yes">
+        <source>Selected products were successfully canceled.</source>
+        <target state="final">Вибрані продукти були успішно скасовані.</target>
+        <note>Line: 1659</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/SpecificPriceController.php" source-language="en" target-language="uk" datatype="plaintext">
@@ -813,18 +893,50 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/HeaderType.php" source-language="en" target-language="uk" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
+      <trans-unit id="2b260d6a8a4b747672d790f18c2ab780" approved="yes">
+        <source>Are you sure you want to change the product type?</source>
+        <target state="final">Ви впевнені, що хочете змінити тип товару?</target>
+        <note>Line: 70</note>
+      </trans-unit>
+      <trans-unit id="da531a2761eef5012cadd0a2e31acab6" approved="yes">
+        <source>Change product type</source>
+        <target state="final">Змінити тип товару</target>
+        <note>Line: 71</note>
+      </trans-unit>
+      <trans-unit id="178b6141eb15b94fb25e5940625ecd01" approved="yes">
+        <source>Changing the product type will immediately save the product and refresh the page.</source>
+        <target state="final">Зміна типу товару негайно збереже товар та оновить сторінку.</target>
+        <note>Line: 73</note>
+      </trans-unit>
+      <trans-unit id="d125a0ad5887eb2575a57c2149a12c1d" approved="yes">
+        <source>This will delete all combinations.</source>
+        <target state="final">Це призведе до видалення всіх комбінацій.</target>
+        <note>Line: 74</note>
+      </trans-unit>
+      <trans-unit id="6b7844c384e54ed301c7f3f6b4aac389" approved="yes">
+        <source>This will delete the list of products in this pack.</source>
+        <target state="final">Це призведе до видалення списку товарів у цьому наборі.</target>
+        <note>Line: 75</note>
+      </trans-unit>
+      <trans-unit id="4882c6b9d11d6aacd193fa21547fd727" approved="yes">
+        <source>This will delete the associated virtual file.</source>
+        <target state="final">Це призведе до видалення пов’язаного віртуального файлу.</target>
+        <note>Line: 76</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Image/ImageDropzoneType.php" source-language="en" target-language="uk" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="9a906b85c45f31efeb25eef56aad240b" approved="yes">
+        <source>Image replaced</source>
+        <target state="final">Зображення замінено</target>
+        <note>Line: 56</note>
+      </trans-unit>
+      <trans-unit id="02708462d504c68df426d48cd6aae23f" approved="yes">
+        <source>Are you sure you want to delete the selected image?|Are you sure you want to delete the %filesNb% selected images?</source>
+        <target state="final">Ви впевнені, що хочете видалити вибране зображення?|Ви впевнені, що хочете видалити %filesNb% вибраних зображень?</target>
+        <note>Line: 79</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Validator/Constraints/TinyMceMaxLengthValidator.php" source-language="en" target-language="uk" datatype="plaintext">
@@ -957,7 +1069,7 @@
       </trans-unit>
       <trans-unit id="2d1df068fb2a9a3c4d9e3c361795c59c" approved="yes">
         <source>To disable it, go to [1]SEO and URLs[/1]</source>
-        <target state="final">Для вимкнення, перейдіть до [1]SEO оптимізації[/1]</target>
+        <target state="final">Для вимкнення, перейдіть до [1]Трафік та SEO[/1]</target>
         <note>Line: 81</note>
       </trans-unit>
       <trans-unit id="d7e9bf98e857f83943b3b75fce04cea9" approved="yes">
@@ -1034,7 +1146,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Categories/Blocks/delete_categories_modal.html.twig" source-language="en" target-language="uk" datatype="plaintext">
     <body>
-      
+      <trans-unit id="332a0777d848606eb5f63149d0bb1105" approved="yes">
+        <source>Note that if they have another category, your products will logically remain associated with it.</source>
+        <target state="final">Зауважте, що якщо у них є інші категорії, ваші товари логічно залишаться пов’язаними з ними.</target>
+        <note>Line: 44</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Categories/Blocks/form.html.twig" source-language="en" target-language="uk" datatype="plaintext">
@@ -1072,7 +1188,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/edit.html.twig" source-language="en" target-language="uk" datatype="plaintext">
     <body>
-      
+      <trans-unit id="fd7c4e2dcae282ac5305265c45be0bc2" approved="yes">
+        <source>This is the experimental product page.</source>
+        <target state="final">Це експериментальна сторінка товару.</target>
+        <note>Line: 69</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Stock/overview.html.twig" source-language="en" target-language="uk" datatype="plaintext">
@@ -1088,7 +1208,7 @@
     <body>
       <trans-unit id="b385b71f1d14c0afa6d7ca6cb18927b3" approved="yes">
         <source>There is no attachment yet.</source>
-        <target state="final">Вкладень немає.</target>
+        <target state="final">Прикріплених файлів немає.</target>
         <note>Line: 559</note>
       </trans-unit>
     </body>

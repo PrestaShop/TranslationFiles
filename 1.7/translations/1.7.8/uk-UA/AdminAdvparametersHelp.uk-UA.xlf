@@ -242,13 +242,18 @@ Comment: Special case for Product : either one or the other. Not both.</note>
       </trans-unit>
       <trans-unit id="0f81567617bb8ebc23f48e74d8ae8acf" approved="yes">
         <source>Check the IP address of the cookie in order to prevent your cookie from being stolen.</source>
-        <target state="final">Перевіряти IP-адресу реп'яшка, для уникнення його крадіжки.</target>
+        <target state="final">Перевіряти IP-адресу з cookie, щоб запобігти крадіжці файлів cookie.</target>
         <note>Line: 86</note>
       </trans-unit>
       <trans-unit id="20d6b6498eab9f749d55c9b53151e00a" approved="yes">
         <source>Set the amount of hours during which the front office cookies are valid. After that amount of time, the customer will have to log in again.</source>
-        <target state="final">Встановіть термін часу в годинах, протягом якого реп'яшки будуть дійсні для сторінок магазину. Після закінчення терміну, користувачу доведеться здійснити повторний вхід до свого облікового запису.</target>
+        <target state="final">Встановіть кількість годин, протягом яких дійсні файли cookie для сторінок магазину. Після закінчення зазначеного часу клієнту доведеться увійти знову до свого облікового запису.</target>
         <note>Line: 90</note>
+      </trans-unit>
+      <trans-unit id="b67a6169f1139b421eabe8278277b0ae" approved="yes">
+        <source>When you access your back office and decide to stay logged in, your cookies lifetime defines your browser session. Set here the number of hours during which you want them valid before logging in again.</source>
+        <target state="final">Коли ви входите до Панелі керування та вирішуєте чи залишитися в системі, тривалість життя ваших файлів cookie визначає сеанс вашого браузера. Встановіть тут кількість годин, протягом яких ви хочете, щоб вони діяли, перш ніж увійти знову.</target>
+        <note>Line: 94</note>
       </trans-unit>
     </body>
   </file>
@@ -320,16 +325,46 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <target state="final">Якщо увімкнено, то коди товарів ПОВИННІ бути унікальними!</target>
         <note>Line: 107</note>
       </trans-unit>
+      <trans-unit id="45af6698125d6f9be9517cd8879d0285" approved="yes">
+        <source>e.g. 1; Blouse; 129.90; 5</source>
+        <target state="final">напр. 1; Блузка; 129.90; 5
+</target>
+        <note>Line: 83</note>
+      </trans-unit>
+      <trans-unit id="7d97fc4385e615ed69cc4e1613790123" approved="yes">
+        <source>e.g. Blouse; red.jpg, blue.jpg, green.jpg; 129.90 </source>
+        <target state="final">напр. Блузка; red.jpg, blue.jpg, green.jpg; 129,90
+</target>
+        <note>Line: 87</note>
+      </trans-unit>
+      <trans-unit id="4719ac638ec9a37d72c81b550b911945" approved="yes">
+        <source>Receive an email when the import is complete. It can be useful when handling large files, as the import may take some time.</source>
+        <target state="final">Ви отримайте електронний лист, коли імпорт буде завершено. Це може бути корисно під час роботи з великими файлами, оскільки імпорт може зайняти деякий час.</target>
+        <note>Line: 124</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Logs/LogsByEmailType.php" source-language="en" target-language="uk" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="7dda1e48a0dcceda4b3e9ce35271cc2c" approved="yes">
+        <source>Click on "None" to disable log alerts by email or enter the recipients of these emails in the following field.</source>
+        <target state="final">Натисніть "Вимкнено" щоб вимкнути сповіщення журналу електронною поштою, або введіть одержувачів цих листів у наступному полі.</target>
+        <note>Line: 56</note>
+      </trans-unit>
+      <trans-unit id="f88eb52dea2a0d6eb6d90304a91be4a0" approved="yes">
+        <source>Log alerts will be sent to these emails. Please use a comma to separate them (e.g. pub@prestashop.com, anonymous@psgdpr.com).</source>
+        <target state="final">На ці електронні адреси будуть надсилатись сповіщення журналу. Будь ласка, використовуйте кому, щоб розділити їх (напр., pub@prestashop.com, anonymous@psgdpr.com).</target>
+        <note>Line: 66</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceConfigurationType.php" source-language="en" target-language="uk" datatype="plaintext">
     <body>
+      <trans-unit id="e8602bda90ef985a71054950e6f1981e" approved="yes">
+        <source>Before activating the webservice, you must be sure to: </source>
+        <target state="final">Перед активацією вебсервісу, вам потрібно переконатися, що: </target>
+        <note>Line: 45</note>
+      </trans-unit>
       <trans-unit id="45d7b1d28cb1afbb45fdb620db725c10" approved="yes">
         <source>Check that URL rewriting is available on this server.</source>
         <target state="final">Перевірте доступність URL rewriting на цьому сервері.</target>
@@ -442,6 +477,16 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <target state="final">Натисніть на кнопку "Вперед" і, будь ласка, терпляче чекайте завершення процесу імпорту. Це може зайняти кілька хвилин.</target>
         <note>Line: 50</note>
       </trans-unit>
+      <trans-unit id="2e516ba34e888923fa0f76e5dad9e24a" approved="yes">
+        <source>Click on the "%phpmyadmin_browse_label%" button and select the backup file from your hard drive.</source>
+        <target state="final">Натисніть кнопку "%phpmyadmin_browse_label%" і виберіть файл резервної копії зі свого диска.</target>
+        <note>Line: 45</note>
+      </trans-unit>
+      <trans-unit id="4a67f50a5bcc2387568637556809af28" approved="yes">
+        <source>Click on the "%phpmyadmin_go_label%" button and please wait patiently for the import process to conclude. This may take several minutes.</source>
+        <target state="final">Натисніть кнопку "%phpmyadmin_go_label%" та дочекайтесь завершення процесу імпорту. Це може зайняти кілька хвилин.</target>
+        <note>Line: 50</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Backup/Blocks/options.html.twig" source-language="en" target-language="uk" datatype="plaintext">
@@ -509,6 +554,11 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <source>Read more about the CSV format at:</source>
         <target state="final">Дізнайтесь більше про формат CSV:</target>
         <note>Line: 44</note>
+      </trans-unit>
+      <trans-unit id="de7b4d4ecc0e454c441f08058fdac203" approved="yes">
+        <source>https://doc.prestashop.com/display/PS17/Import</source>
+        <target state="final">https://doc.prestashop.com/display/PS17/Import</target>
+        <note>Line: 40</note>
       </trans-unit>
     </body>
   </file>
@@ -596,13 +646,33 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <target state="final">Ви також можете експортувати результат запиту у вигляді CSV файлу натиснувши на кнопку Експорт</target>
         <note>Line: 39</note>
       </trans-unit>
+      <trans-unit id="bd98e6133da373d5d4d0241cae2e5df5" approved="yes">
+        <source>Click "%add_new_label%".</source>
+        <target state="final">Натисніть "%add_new_label%".</target>
+        <note>Line: 36</note>
+      </trans-unit>
+      <trans-unit id="6fe4a9d3d016ffb7ac0c79b9b34f759b" approved="yes">
+        <source>Fill in the fields and click "%save_label%".</source>
+        <target state="final">Заповніть поля і натисніть "%save_label%".</target>
+        <note>Line: 37</note>
+      </trans-unit>
+      <trans-unit id="b6244b10c31060f4136acddff13a2729" approved="yes">
+        <source>You can then view the query results by clicking on the "%view_label%" action in the dropdown menu</source>
+        <target state="final">Ви можете переглянути результати запиту, натиснувши "%view_label%" у випадаючому меню</target>
+        <note>Line: 38</note>
+      </trans-unit>
+      <trans-unit id="09fac4ee316f450e3defd79540c2d9fe" approved="yes">
+        <source>You can also export the query results as a CSV file by clicking on the "%export_label%" button</source>
+        <target state="final">Також, ви можете експортувати результати запиту у вигляді CSV файлу, натиснувши кнопку "%export_label%"</target>
+        <note>Line: 39</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/administration.html.twig" source-language="en" target-language="uk" datatype="plaintext">
     <body>
       <trans-unit id="a676520f8296be0319ad6268657471ea" approved="yes">
         <source>Set the amount of hours during which the back office cookies are valid. After that amount of time, the PrestaShop user will have to log in again.</source>
-        <target state="final">Встановіть кількість годин, протягом яких реп'яшки Панелі керування будуть дійсні. Після цього періоду часу користувачу PrestaShop доведеться увійти знову.</target>
+        <target state="final">Встановіть кількість годин, протягом яких дійсні файли cookie для Панелі керування. Після цього періоду користувач PrestaShop повинен буде знову ввійти в систему.</target>
         <note>Line: 64</note>
       </trans-unit>
       <trans-unit id="a067e61c044ba333fae23b61c83d87c4" approved="yes">
@@ -644,11 +714,20 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <target state="final">ККК дозволяє зменшити час завантаження вашої сторінки. За допомогою цих параметрів буде приріст продуктивності навіть не торкаючись коду вашої теми. Переконайтеся, однак, що ваша тема сумісна з PrestaShop 1.4 +. В іншому випадку, ККК може викликати проблеми.</target>
         <note>Line: 121</note>
       </trans-unit>
+      <trans-unit id="460e080fb0af5e1ca93a24dbf1e3da2f" approved="yes">
+        <source>CCC allows you to reduce the loading time of your page. With these settings you will gain performance without even touching the code of your theme. Make sure, however, that your theme is compatible with PrestaShop 1.7+. Otherwise, CCC will cause problems.</source>
+        <target state="final">CCC дозволяє скоротити час завантаження вашої сторінки. За допомогою цих налаштувань ви досягнете приросту продуктивності, навіть не торкаючись коду вашої теми. Однак переконайтеся, що ваша тема сумісна з PrestaShop 1.7+. В іншому випадку CCC може викликати проблеми.</target>
+        <note>Line: 141</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/edit.html.twig" source-language="en" target-language="uk" datatype="plaintext">
     <body>
-      
+      <trans-unit id="b5c5b3a0a7208392aaf2c4d23a81879c" approved="yes">
+        <source>This page benefits from increased performance and includes new features such as a new combination management system. Please note this is a work in progress and some features are not available yet.</source>
+        <target state="final">Ця сторінка має підвищену продуктивність та включає нові функції, такі як нова система керування комбінаціями. Зверніть увагу, що сторінка в стадії розробки, і деякі функції ще не доступні.</target>
+        <note>Line: 72</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
