@@ -270,7 +270,7 @@
       </trans-unit>
       <trans-unit id="598db0342f11f89d4268942b9491c455" approved="yes">
         <source>You cannot generate a partial credit slip.</source>
-        <target state="final">Неможливо згенерувати кредитну накладну частково.</target>
+        <target state="final">Неможливо згенерувати кредитну квитанцію частково.</target>
         <note>Line: 769</note>
       </trans-unit>
       <trans-unit id="b1db8cec4ec0de83c3934a22bc758a3b" approved="yes">
@@ -680,7 +680,11 @@
   </file>
   <file original="src/Adapter/Order/CommandHandler/CancelOrderProductHandler.php" source-language="en" target-language="uk" datatype="plaintext">
     <body>
-      
+      <trans-unit id="1166740db50174894a068c0c51b94c66" approved="yes">
+        <source><![CDATA[Order history email could not be sent, test your email configuration in the Advanced Parameters > E-mail section of your back office.]]></source>
+        <target state="final"><![CDATA[Не вдалося надіслати електронну пошту з історією замовлень. Перевірте конфігурацію електронної пошти в розділі Розширені параметри > Електронна пошта вашої Панелі керування]]></target>
+        <note>Line: 166</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Order/Delivery/SlipPdfConfiguration.php" source-language="en" target-language="uk" datatype="plaintext">
@@ -826,20 +830,80 @@
         <target state="final">Помилка при відправлені e-mail клієнту.</target>
         <note>Line: 1873</note>
       </trans-unit>
+      <trans-unit id="aeddc664f1e95691c69ea44a5c1c18f5" approved="yes">
+        <source>This product is out of stock: </source>
+        <target state="final">Цього товару немає в наявності: </target>
+        <note>Line: 1814</note>
+      </trans-unit>
       <trans-unit id="4174f012bc63b679f092acd1a933bf5c" approved="yes">
         <source>The email was sent to your customer.</source>
         <target state="final">Повідомлення надіслано клієнту</target>
         <note>Line: 1626</note>
+      </trans-unit>
+      <trans-unit id="50c5ffd8dadba5bcc7b83cfe3d874f54" approved="yes">
+        <source>A standard refund was successfully created.</source>
+        <target state="final">Стандартне відшкодування було успішно створено.</target>
+        <note>Line: 617</note>
+      </trans-unit>
+      <trans-unit id="676add5006e766a2f0bf5ba22e231e09" approved="yes">
+        <source>A return product was successfully created.</source>
+        <target state="final">Повернення товару було успішно створено.</target>
+        <note>Line: 552</note>
+      </trans-unit>
+      <trans-unit id="4c8098d3dded08ff50537ed2814277ca" approved="yes">
+        <source>You cannot edit the cart once the order delivered</source>
+        <target state="final">Ви не можете редагувати кошик після доставки замовлення</target>
+        <note>Line: 1405</note>
+      </trans-unit>
+      <trans-unit id="918093e8ad4567f6b99e9851eab8bc69" approved="yes">
+        <source>Order #%d cannot be loaded.</source>
+        <target state="final">Замовлення №%d не може бути завантажене.</target>
+        <note>Line: 2053</note>
+      </trans-unit>
+      <trans-unit id="2a11327ffe3e46a9ffadddf38b4b9fff" approved="yes">
+        <source>Please enter a maximum quantity of [1].</source>
+        <target state="final">Будь ласка, введіть максимальну кількість [1].</target>
+        <note>Line: 1912</note>
       </trans-unit>
       <trans-unit id="97f014aa339f5b37951f100fb1a086d8" approved="yes">
         <source>Please select at least one product.</source>
         <target state="final">Виберіть щонайменше один товар</target>
         <note>Line: 1917</note>
       </trans-unit>
+      <trans-unit id="d31c479bcda04bd5b859f7cff371c3d0" approved="yes">
+        <source>Please enter a positive amount.</source>
+        <target state="final">Будь ласка, введіть додатну суму.</target>
+        <note>Line: 1921</note>
+      </trans-unit>
+      <trans-unit id="4b0c5f16b969b647ff0b63481af6c3e5" approved="yes">
+        <source>Please generate at least one credit slip or voucher.</source>
+        <target state="final">Будь ласка, створіть принаймні одну кредитну квитанцію або купон.</target>
+        <note>Line: 1925</note>
+      </trans-unit>
       <trans-unit id="282426403b9a14678d5dd35e024ec84c" approved="yes">
         <source>This product is out of stock:</source>
         <target state="final">Цього товару немає на складі:</target>
         <note>Line: 678</note>
+      </trans-unit>
+      <trans-unit id="265b2b7a9f792e941faac362bc37f30b" approved="yes">
+        <source>The product was successfully returned.</source>
+        <target state="final">Товар було успішно повернуто.</target>
+        <note>Line: 650</note>
+      </trans-unit>
+      <trans-unit id="f77fd3f9865f0c725901d48dbc00619f" approved="yes">
+        <source>You cannot edit the cart once the order delivered.</source>
+        <target state="final">Ви не можете редагувати кошик після доставки замовлення.</target>
+        <note>Line: 1865</note>
+      </trans-unit>
+      <trans-unit id="f131fb3c210a32ca24a4910b42b6e2ef" approved="yes">
+        <source>Only numbers and decimal points (".") are allowed in the amount fields, e.g. 10.50 or 1050.</source>
+        <target state="final">У полях суми дозволені лише числа та десяткові коми (","), напр. 10,50 або 1050.</target>
+        <note>Line: 1881</note>
+      </trans-unit>
+      <trans-unit id="dfa3f525e479dd1038c7947c62b9341a" approved="yes">
+        <source>It looks like the value is invalid:</source>
+        <target state="final">Схоже, значення недопустиме:</target>
+        <note>Line: 1476</note>
       </trans-unit>
       <trans-unit id="8ac6b197a0fd1d1395ba76121814e9fe" approved="yes">
         <source>Percent or amount value must be greater than 0.</source>
@@ -861,10 +925,30 @@
         <target state="final">У полях суми платіжного блоку дозволені лише цифри та десяткові коми (","), напр. 10,50 або 1050.</target>
         <note>Line: 1994</note>
       </trans-unit>
+      <trans-unit id="7b310c5ac94a5e50139d50574395683b" approved="yes">
+        <source>Percent value must be greater than 0.</source>
+        <target state="final">Значення у відсотках має бути більше 0.</target>
+        <note>Line: 1886</note>
+      </trans-unit>
+      <trans-unit id="2b0c8d4ac85a4f8ddf1427f7ad537f55" approved="yes">
+        <source>Amount value must be greater than 0.</source>
+        <target state="final">Значення суми має бути більше 0.</target>
+        <note>Line: 1894</note>
+      </trans-unit>
       <trans-unit id="0e6becfb4c6566c35a8fda2d94891c70" approved="yes">
         <source>Shipping discount value cannot exceed the total price of this order.</source>
         <target state="final">Знижка на доставку не може перевищувати загальну вартість замовлення.</target>
         <note>Line: 1902</note>
+      </trans-unit>
+      <trans-unit id="500f3380713af59cab7bdd14d8fefea2" approved="yes">
+        <source>You must choose a payment module to create the order.</source>
+        <target state="final">Для створення замовлення необхідно вибрати модуль оплати.</target>
+        <note>Line: 1930</note>
+      </trans-unit>
+      <trans-unit id="b2f61848a1b9245fb4d79db939e04c02" approved="yes">
+        <source>You must choose an order status to create the order.</source>
+        <target state="final">Для створення замовлення необхідно вибрати статус замовлення.</target>
+        <note>Line: 1959</note>
       </trans-unit>
       <trans-unit id="53efa65204c54a806b9df6707fc8a326" approved="yes">
         <source>The order message given is invalid.</source>
