@@ -60,6 +60,41 @@
         <target state="final">Nëse porosia është jashtë rrezes, sjellja është në %3$s.</target>
         <note>Line: 32</note>
       </trans-unit>
+      <trans-unit id="343bf3bbd8b70fd2d04bb095ad2418f9" approved="yes">
+        <source>The shipping cost is calculated %1$s and the tax rule %2$s will be applied.</source>
+        <target state="final">Kostoja e transportit llogaritet %1$s dhe do të zbatohet rregulli tatimor %2$s.</target>
+        <note>Line: 33</note>
+      </trans-unit>
+      <trans-unit id="0ea5b002f2959687c7ff926ca01a47a3" approved="yes">
+        <source>according to the price</source>
+        <target state="final">sipas çmimit</target>
+        <note>Line: 34</note>
+      </trans-unit>
+      <trans-unit id="c2908ded92c5ab4bd42c02e608d0b981" approved="yes">
+        <source>according to the weight</source>
+        <target state="final">sipas peshës</target>
+        <note>Line: 35</note>
+      </trans-unit>
+      <trans-unit id="ba44d024ba9eec02cc432a36dcffb9d9" approved="yes">
+        <source>Carrier name:</source>
+        <target state="final">Emri i transportuesit:</target>
+        <note>Line: 40</note>
+      </trans-unit>
+      <trans-unit id="7f9508fc09a86a59fbcea84da182b12a" approved="yes">
+        <source>This carrier will be proposed for those delivery zones:</source>
+        <target state="final">Ky transportues do të propozohet për ato zona shpërndarjeje:</target>
+        <note>Line: 46</note>
+      </trans-unit>
+      <trans-unit id="7d705fb35c90599d918e0a619c69e17b" approved="yes">
+        <source>And it will be proposed for those client groups:</source>
+        <target state="final">Dhe do të propozohet për ato grupe klientësh:</target>
+        <note>Line: 50</note>
+      </trans-unit>
+      <trans-unit id="272175e18b4f5f142e1afc94698df9e3" approved="yes">
+        <source>Finally, this carrier will be proposed in those shops:</source>
+        <target state="final">Përfundimisht, ky transportues do të propozohet në ato dyqane:</target>
+        <note>Line: 55</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/carriers/helpers/list/list_footer.tpl" source-language="en" target-language="sq" datatype="plaintext">
@@ -68,6 +103,16 @@
         <source>Use one of our recommended carrier modules</source>
         <target state="final">Përdor një nga modulet tona të transportit të rekomanduara nga ne</target>
         <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="39efbaa2f3600dd82a031d7ab5138f73" approved="yes">
+        <source>Do you think there should be one? Let us know!</source>
+        <target state="final">A mendon se duhet të ketë një? Na trego!</target>
+        <note>Line: 32</note>
+      </trans-unit>
+      <trans-unit id="80a305c8cb9737ef8474472aaa65026e" approved="yes">
+        <source>It seems there are no recommended carriers for your country.</source>
+        <target state="final">Duket se nuk ka transportues të rekomanduar për vendin tënd.</target>
+        <note>Line: 31</note>
       </trans-unit>
     </body>
   </file>
@@ -229,6 +274,11 @@
         <target state="final">Pesha maksimale e paketës</target>
         <note>Line: 370</note>
       </trans-unit>
+      <trans-unit id="4e140ba723a03baa6948340bf90e2ef6" approved="yes">
+        <source>Name:</source>
+        <target state="final">Emri:</target>
+        <note>Line: 713</note>
+      </trans-unit>
       <trans-unit id="dde695268ea519ababd83f0ca3d274fc" approved="yes">
         <source>Transit time</source>
         <target state="final">Koha e tranzitit</target>
@@ -267,29 +317,57 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/Shipping/Preferences/CarrierOptionsType.php" source-language="en" target-language="sq" datatype="plaintext">
     <body>
-      
+      <trans-unit id="bff13ed1cd5b83b03f024f1eb6524337" approved="yes">
+        <source>Default carrier</source>
+        <target state="final">Transportuesi i paracaktuar</target>
+        <note>Line: 84</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/Shipping/Preferences/HandlingType.php" source-language="en" target-language="sq" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="1d8ca7f442e6d4ad3da5cb61b84284fc" approved="yes">
+        <source>Handling charges</source>
+        <target state="final">Shpenzimet e administrimit</target>
+        <note>Line: 81</note>
+      </trans-unit>
+      <trans-unit id="c9722f74f95451816de0f8ca3259ae44" approved="yes">
+        <source>Free shipping starts at</source>
+        <target state="final">Transporti falas fillon në</target>
+        <note>Line: 103</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Shipping/Carriers/Blocks/showcase_card.html.twig" source-language="en" target-language="sq" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="301cf62d4bf632f3eb6395ec2cb25f78" approved="yes">
+        <source>Manage your carriers</source>
+        <target state="final">Menaxho transportuesit tu</target>
+        <note>Line: 34</note>
+      </trans-unit>
+      <trans-unit id="47727de83838bb7df93877b04b5efdf7" approved="yes">
+        <source>Create carriers to let your customers choose their best shipping option in terms of delivery dates or fees. Start with editing/deleting the default "My carrier", and add as many options as you need.</source>
+        <target state="final">Krijo transportues për t'i lënë klientët tu të zgjedhin opsionin më të mirë të transportit për sa i përket datave ose tarifave të dorëzimit. Fillo me ndryshimin/fshirjen e paracaktuar "Transportuesi im" dhe shto sa më shumë opsione që të nevojiten.</target>
+        <note>Line: 35</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Shipping/Preferences/Blocks/shipping_preferences_carrier_options.html.twig" source-language="en" target-language="sq" datatype="plaintext">
     <body>
-      
+      <trans-unit id="8430a7b1b81635e3df949c2845303303" approved="yes">
+        <source>Carrier options</source>
+        <target state="final">Opsionet e transportit</target>
+        <note>Line: 34</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Shipping/Preferences/Blocks/shipping_preferences_handling.html.twig" source-language="en" target-language="sq" datatype="plaintext">
     <body>
-      
+      <trans-unit id="2605fbb693837be42d0cd0e701cb5aa3" approved="yes">
+        <source>Handling</source>
+        <target state="final">Shpenzimet e administrimit</target>
+        <note>Line: 34</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/details.html.twig" source-language="en" target-language="sq" datatype="plaintext">
@@ -307,6 +385,11 @@
         <source>Shipping cost</source>
         <target state="final">Kosto e livrimit</target>
         <note>Line: 46</note>
+      </trans-unit>
+      <trans-unit id="914419aa32f04011357d3b604a86d7eb" approved="yes">
+        <source>Carrier</source>
+        <target state="final">Transportuesi</target>
+        <note>Line: 44</note>
       </trans-unit>
     </body>
   </file>

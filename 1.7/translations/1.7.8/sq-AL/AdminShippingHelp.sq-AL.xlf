@@ -2,6 +2,11 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="admin-dev/themes/default/template/controllers/carrier_wizard/helpers/form/form.tpl" source-language="en" target-language="sq" datatype="plaintext">
     <body>
+      <trans-unit id="5e543256c480ac577d30f76f9120eb74" approved="yes">
+        <source>undefined</source>
+        <target state="final">e papërcaktuar</target>
+        <note>Line: 58</note>
+      </trans-unit>
       <trans-unit id="fb2ea703b13d059f6b7ea5da806021df" approved="yes">
         <source>Format:</source>
         <target state="final">Formati:</target>
@@ -10,6 +15,11 @@
       <trans-unit id="b908c2f34052b5276e0bf50f0e042211" approved="yes">
         <source>Filesize:</source>
         <target state="final">Madhësia e skedarit:</target>
+        <note>Line: 57</note>
+      </trans-unit>
+      <trans-unit id="2f972dbb48435d9b8087d7e3c22daa09" approved="yes">
+        <source>MB max.</source>
+        <target state="final">MB max.</target>
         <note>Line: 57</note>
       </trans-unit>
       <trans-unit id="c32587b909ccc2187659ca665dbb06be" approved="yes">
@@ -21,10 +31,26 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/carriers/helpers/list/list_header.tpl" source-language="en" target-language="sq" datatype="plaintext">
     <body>
-      
-      
-      
-      
+      <trans-unit id="401c8f6635d231c5360f31ce548c4462" approved="yes">
+        <source>Your online store needs to have a proper carrier registered in PrestaShop as soon as you start shipping your products. This means sending yours parcels using your local postal service, or having a contract with a private carrier which in turn will ship your parcels to your customers. In order to have PrestaShop suggest the most adequate carrier to your customers during their order checkout process, you need to register all the carriers with which you have chosen to work.</source>
+        <target state="final">Dyqani yt online duhet të ketë një transportues të duhur të regjistruar në PrestaShop sapo të fillosh me livrimin e produkteve tua. Kjo do të thotë livrimin e dërgesave tua duke përdorur shërbimin postar lokal, ose duke pasur një kontratë me një transportues privat që do të dërgojë dërgesat tua tek klientët e tu. Në mënyrë që PrestaShop të sugjerojë operatorin më të përshtatshëm për klientët e tu gjatë procesit të arkëtimit të porosive, ti duhet të regjistrosh të gjithë transportuesit me të cilët ke zgjedhur të punosh.</target>
+        <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="c751fd51e685dd8c071f8535be0d0d8f" approved="yes">
+        <source>PrestaShop comes with a number of carrier modules that you can activate. You can also buy carrier modules on the PrestaShop Addons marketplace. Recommended modules are listed below: install the module that matches your carrier, and configure it!</source>
+        <target state="final">PrestaShop vjen me një numër modulesh transporti të cilat mund t'i aktivizosh. Gjithashtu mund të blesh module transporti në tregun e shtesave të PrestaShop. Modulet e rekomanduara janë listuar më poshtë: instalo modulin që përputhet me transportuesin tënd dhe konfiguroje atë!</target>
+        <note>Line: 31</note>
+      </trans-unit>
+      <trans-unit id="5bacfd2dc472feddb875fc29134b03bb" approved="yes">
+        <source>If there is no existing module for your carrier, then you can register that carrier by hand using the information that it can provide you: shipping rates, regional zones, size and weight limits, etc. Click on the "Add new carrier" button below to open the Carrier Wizard, which will help you register a new carrier in a few steps.</source>
+        <target state="final">Nëse nuk ka modul ekzistues për transportuesin tënd, atëherë atë transportues mund ta regjistrosh me dorë duke përdorur informacionin që mund të ofrojë: normat e transportit, zonat rajonale, kufizimet e madhësisë dhe peshës, etj. Kliko në butonin e mëposhtëm "Shto transportues të ri" për të hapur Asistenin e transportit, i cili do të ndihmojë ta regjistrosh një transportues të ri në disa hapa.</target>
+        <note>Line: 32</note>
+      </trans-unit>
+      <trans-unit id="12a118b904361ef7a25365b2ff29cfa9" approved="yes">
+        <source>Note: DO NOT register a new carrier if there already exists a module for it! Using a module will be much faster and more accurate!</source>
+        <target state="final">Shënim: Mos regjistro një transportues të ri nëse ekziston tashmë një modul për të! Përdorimi i një moduli do të jetë shumë më i shpejtë dhe më i saktë!</target>
+        <note>Line: 33</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminCarrierWizardController.php" source-language="en" target-language="sq" datatype="plaintext">
@@ -43,6 +69,11 @@
         <source>Delivery tracking URL: Type '@' where the tracking number should appear. It will be automatically replaced by the tracking number.</source>
         <target state="final">URL për gjurmimin e statusit të livrimit: Shrkuaj '@' aty ku do të shfaqet numri i gjurmimit. Kjo pastaj do të zëvendësohet automatikisht me numrin e gjurmimit.</target>
         <note>Line: 219</note>
+      </trans-unit>
+      <trans-unit id="e4cb2dbfdc6b5b71c8aef1b781712b03" approved="yes">
+        <source>For example: 'http://example.com/track.php?num=@' with '@' where the tracking number should appear.</source>
+        <target state="final">Për shembull: 'http://www.albkos-int.com/track.php?num=@' me '@' ku duhet të shfaqet numri i gjurmimit.</target>
+        <note>Line: 220</note>
       </trans-unit>
       <trans-unit id="0668ec4bb8d6bcb27d283b2af9bc5888" approved="yes">
         <source><![CDATA[Include the handling costs (as set in Shipping > Preferences) in the final carrier price.]]></source>
@@ -83,6 +114,11 @@
   </file>
   <file original="controllers/admin/AdminCarriersController.php" source-language="en" target-language="sq" datatype="plaintext">
     <body>
+      <trans-unit id="07b693f09040dc64d3c36b5daf95caae" approved="yes">
+        <source>Allowed characters: letters, spaces and "%special_chars%".</source>
+        <target state="final">Karakteret e lejuara: shkronjat, intervalet dhe %special_chars%.</target>
+        <note>Line: 175</note>
+      </trans-unit>
       <trans-unit id="a788f81b3aa0ef9c9efcb1fb67708d82" approved="yes">
         <source>For in-store pickup, enter 0 to replace the carrier name with your shop name.</source>
         <target state="final">Për marrje në dyqan, shkruani 0 për të zëvendësuar emrin transportuesit me emrin e dyqanit tuaj.</target>
@@ -111,6 +147,11 @@
       <trans-unit id="9e93aab109e30d26aa231a49385c99db" approved="yes">
         <source>Upload a logo from your computer.</source>
         <target state="final">Ngarko një logo nga kompjuteri i juaj.</target>
+        <note>Line: 184</note>
+      </trans-unit>
+      <trans-unit id="e81c4e4f2b7b93b481e13a8553c2ae1b" approved="yes">
+        <source>or</source>
+        <target state="final">ose</target>
         <note>Line: 184</note>
       </trans-unit>
       <trans-unit id="cdaa245d6e50b5647bfd9fcb77ac9a21" approved="yes">
@@ -177,14 +218,30 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/Shipping/Preferences/CarrierOptionsType.php" source-language="en" target-language="sq" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="4f309c91cb82ce5d20c15d015759a21e" approved="yes">
+        <source>This will only be visible in the front office.</source>
+        <target state="final">Kjo do të jetë e dukshme vetëm në 'front office'.</target>
+        <note>Line: 112</note>
+      </trans-unit>
+      <trans-unit id="d42436f136f07fe81921a4939242c3bf" approved="yes">
+        <source>Your shop's default carrier.</source>
+        <target state="final">Transportuesi kryesor.</target>
+        <note>Line: 88</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Shipping/Carriers/Blocks/information_block.html.twig" source-language="en" target-language="sq" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="5606bbebf315e63240fa195793efb071" approved="yes">
+        <source>You need to register all the carriers with which you have chosen to work. PrestaShop comes with a selection of carrier modules you can install right below the page or buy on [1]Addons marketplace[/1].</source>
+        <target state="final">Duhet të regjistroni të gjithë operatorët me të cilët ke zgjedhur të punosh. PrestaShop vjen me një përzgjedhje të moduleve të transportit që mund t'i instalosh poshtë faqes ose t'i blesh në [1]Addons marketplace[/1].</target>
+        <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="1c1811f3bd5c5cc7fe39537489ef9248" approved="yes">
+        <source>If there is no existing module for your carrier, you can register it manually by clicking on "[1]" but before, please make sure you did not register a new carrier if a module already exists for it!</source>
+        <target state="final">Nëse nuk ka asnjë modul ekzistues për transportuesin tënd, mund ta regjistrosh manualisht duke klikuar në "[1]", por më parë, të lutem sigurohu që nuk keni regjistruar një transportues të ri nëse një modul ekziston tashmë për të!</target>
+        <note>Line: 31</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Shipping/Preferences/Blocks/shipping_preferences_carrier_options.html.twig" source-language="en" target-language="sq" datatype="plaintext">
@@ -198,8 +255,16 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Shipping/Preferences/Blocks/shipping_preferences_handling.html.twig" source-language="en" target-language="sq" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="2be1ec70444ccaf2b74bd55f3aabdead" approved="yes">
+        <source>If you set these parameters to 0, they will be disabled.</source>
+        <target state="final">Nëse i vendosë këta parametra në 0, ato do të çaktivizohen.</target>
+        <note>Line: 42</note>
+      </trans-unit>
+      <trans-unit id="e99c83da35c2a39bf9dc72273d350272" approved="yes">
+        <source>Coupons are not taken into account when calculating free shipping.</source>
+        <target state="final">Kuponat nuk merren parasysh gjatë llogaritjes së transportit gratis.</target>
+        <note>Line: 42</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
