@@ -5,6 +5,8 @@ Bonjour {firstname} {lastname},
 
 Merci d'avoir effectué vos achats sur {shop_name}! 
 
+Détails de la commande 
+
 COMMANDE : {order_name} passée le {date}
 
 PAIEMENT : {payment} 		 
@@ -19,7 +21,7 @@ QUANTITÉ
 
 PRIX TOTAL
 
-{products_txt} 
+{products} {products_txt} 
 
 {discounts} 
 
@@ -47,13 +49,19 @@ TOTAL PAYÉ
 
 {total_paid} 
 
+Livraison 
+
 TRANSPORTEUR : {carrier}
 
 PAIEMENT : {payment} 		 
 
-{delivery_block_txt} 
+Adresse de livraison 
 
-{invoice_block_txt} 
+{delivery_block_html} {delivery_block_txt} 		 
+
+Adresse de facturation 
+
+{invoice_block_html} {invoice_block_txt} 		 
 
 Vous pouvez accéder à tout moment au suivi de votre commande et
 télécharger votre facture dans "Historique des commandes"
@@ -62,8 +70,8 @@ télécharger votre facture dans "Historique des commandes"
 
 Si vous avez un compte invité, vous pouvez suivre votre commande
 dans la section "Suivi invité"
-[{guest_tracking_url}?id_order={order_name}] de
-notre site. 
+[{guest_tracking_url}?id_order={order_name}]
+de notre site. 
 
 {shop_name} [{shop_url}] powered by
 PrestaShop(tm) [http://www.prestashop.com/] 
