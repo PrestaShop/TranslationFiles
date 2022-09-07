@@ -5,6 +5,8 @@ Witaj {firstname} {lastname},
 
 Dziękujemy za zakupy na stronie {shop_name}! 
 
+Szczegóły zamówienia 
+
 ZAMÓWIENIE: {order_name} Złożone w {date}
 
 PŁATNOŚĆ: {payment} 		 
@@ -19,7 +21,7 @@ ILOŚĆ
 
 CENA KOŃCOWA
 
-{products_txt} 
+{products} {products_txt} 
 
 {discounts} 
 
@@ -47,22 +49,28 @@ ZAPŁACONO W SUMIE
 
 {total_paid} 
 
+Wysyłka 
+
 PRZEWOŹNIK: {carrier}
 
 PŁATNOŚĆ: {payment} 		 
 
-{delivery_block_txt} 
+Adres dostawy 
 
-{invoice_block_txt} 
+{delivery_block_html} {delivery_block_txt} 		 
+
+Adres do faktury 
+
+{invoice_block_html} {invoice_block_txt} 		 
 
 Możesz obejrzeć swoje zamówienie i pobrać fakturę na stronie
-"Historia zamówień" [{history_url}] logując się
-na swoje konto klienta za pomocą strony "Moje konto"
+"Historia zamówień" [{history_url}]
+logując się na swoje konto klienta za pomocą strony "Moje konto"
 [{my_account_url}] w naszym sklepie. 
 
 Jeśli posiadasz konto gościa, możesz śledzić swoje
 zamówienie w sekcji "Śledzenie zamówienia"
-[{guest_tracking_url}?id_order={order_name}]. 
+[{guest_tracking_url}?id_order={order_name}].
 
 {shop_name} [{shop_url}] powered by
 PrestaShop(tm) [http://www.prestashop.com/] 

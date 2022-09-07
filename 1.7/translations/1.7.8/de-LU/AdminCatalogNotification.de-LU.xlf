@@ -35,6 +35,16 @@
         <target state="final">Die Positionsangabe kann nicht größer sein als die Gesamtzahl der Artikel in der Kategorie minus 1 (da die Nummerierung bei 0 startet).</target>
         <note>Line: 6171</note>
       </trans-unit>
+      <trans-unit id="30a367ba686890c829937e768d588b8f" approved="yes">
+        <source>You cannot set 0 or a negative position, the minimum is 1.</source>
+        <target state="final">Die Position kann nicht 0 oder negativ sein, das Minimum ist 1.</target>
+        <note>Line: 7107</note>
+      </trans-unit>
+      <trans-unit id="cf99dad7d7306d9ac01ba5a2e2d2c715" approved="yes">
+        <source>You cannot set a position greater than the total number of products in the category, starting at 1.</source>
+        <target state="final">Die Position kann nicht größer als die Gesamtzahl der Artikel in der Kategorie sein, beginnend ab 1.</target>
+        <note>Line: 7128</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/QqUploadedFileForm.php" source-language="en" target-language="de-LU" datatype="plaintext">
@@ -670,6 +680,11 @@
         <target state="final">Wenn sie keine andere Kategorie haben, möchte ich sie der übergeordneten Kategorie zuordnen und sie offline schalten.</target>
         <note>Line: 65</note>
       </trans-unit>
+      <trans-unit id="63cfe520c7e96406010bc883272667f5" approved="yes">
+        <source>If they have no other category, I want to delete them as well.</source>
+        <target state="final">Wenn sie keine andere Kategorie haben, möchte ich sie auch löschen. </target>
+        <note>Line: 73</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Core/Grid/Data/Factory/AttachmentGridDataFactoryDecorator.php" source-language="en" target-language="de-LU" datatype="plaintext">
@@ -781,12 +796,25 @@
         <target state="final">Beim Bearbeiten der Kategorie ist ein Fehler aufgetreten.</target>
         <note>Line: 873</note>
       </trans-unit>
+      <trans-unit id="17668cbc24213c8d43211a67139c3939" approved="yes">
+        <source>The root category of a shop cannot be edited.</source>
+        <target state="final">Die Hauptkategorie eines Shops kann nicht bearbeitet werden.</target>
+        <note>Line: 869</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/ManufacturerController.php" source-language="en" target-language="de-LU" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="5769710cefad47e76691be9d61b7231c" approved="yes">
+        <source><![CDATA[The display of your brands is enabled on your store. Go to %sShop Parameters > General%s to edit settings.]]></source>
+        <target state="final"><![CDATA[Die Anzeige Ihrer Marken ist in Ihrem Shop aktiviert. Gehen Sie zu %sShop-Einstellungen > Allgemein%s, um die Einstellungen zu ändern.]]></target>
+        <note>Line: 774</note>
+      </trans-unit>
+      <trans-unit id="1205b99b993cef78d80b0bcbc312f2c3" approved="yes">
+        <source><![CDATA[The display of your brands is disabled on your store. Go to %sShop Parameters > General%s to edit settings.]]></source>
+        <target state="final"><![CDATA[Die Anzeige Ihrer Marken ist in Ihrem Shop deaktiviert. Gehen Sie zu %sShop-Einstellungen > Allgemein%s, um die Einstellungen zu ändern.]]></target>
+        <note>Line: 781</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/ProductController.php" source-language="en" target-language="de-LU" datatype="plaintext">
@@ -810,6 +838,16 @@
         <target state="final">Löschen eines Lieferanten nicht möglich, wenn noch  Einkaufsaufträge ausstehen.</target>
         <note>Line: 475</note>
       </trans-unit>
+      <trans-unit id="3aff310e32cb7bb2d1affd97920c9f4b" approved="yes">
+        <source><![CDATA[The display of your suppliers is enabled on your store. Go to %sShop Parameters > General%s to edit settings.]]></source>
+        <target state="final"><![CDATA[Die Anzeige Ihrer Lieferanten ist in Ihrem Shop aktiviert. Gehen Sie zu %sShop-Einstellungen > Allgemein%s, um die Einstellungen zu ändern.]]></target>
+        <note>Line: 535</note>
+      </trans-unit>
+      <trans-unit id="555740fcf7bb2fb267bc711c4919edcb" approved="yes">
+        <source><![CDATA[The display of your suppliers is disabled on your store. Go to %sShop Parameters > General%s to edit settings.]]></source>
+        <target state="final"><![CDATA[Die Anzeige Ihrer Lieferanten ist in Ihrem Shop deaktiviert. Gehen Sie zu %sShop-Einstellungen > Allgemein%s, um die Einstellungen zu ändern.]]></target>
+        <note>Line: 542</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/CartController.php" source-language="en" target-language="de-LU" datatype="plaintext">
@@ -818,6 +856,11 @@
         <source>There are not enough products in stock.</source>
         <target state="final">Nicht ausreichend Produkte auf Lager</target>
         <note>Line: 604</note>
+      </trans-unit>
+      <trans-unit id="891d308560a0cca2452fd2f482dded8c" approved="yes">
+        <source><![CDATA[Product customization could not be found. Go to Catalog > Products to customize the product.]]></source>
+        <target state="final"><![CDATA[Die Produktanpassung konnte nicht gefunden werden. Gehen Sie zu Katalog > Produkte, um das Produkt anzupassen.]]></target>
+        <note>Line: 596</note>
       </trans-unit>
     </body>
   </file>
@@ -850,6 +893,21 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/HeaderType.php" source-language="en" target-language="de-LU" datatype="plaintext">
     <body>
+      <trans-unit id="2b260d6a8a4b747672d790f18c2ab780" approved="yes">
+        <source>Are you sure you want to change the product type?</source>
+        <target state="final">Sind Sie sich sicher, den Produkttyp zu ändern?</target>
+        <note>Line: 70</note>
+      </trans-unit>
+      <trans-unit id="da531a2761eef5012cadd0a2e31acab6" approved="yes">
+        <source>Change product type</source>
+        <target state="final">Produkttyp ändern</target>
+        <note>Line: 71</note>
+      </trans-unit>
+      <trans-unit id="178b6141eb15b94fb25e5940625ecd01" approved="yes">
+        <source>Changing the product type will immediately save the product and refresh the page.</source>
+        <target state="final">Wenn Sie den Produkttyp ändern, wird das Produkt sofort gespeichert und die Seite aktualisiert.</target>
+        <note>Line: 73</note>
+      </trans-unit>
       <trans-unit id="d125a0ad5887eb2575a57c2149a12c1d" approved="yes">
         <source>This will delete all combinations.</source>
         <target state="final">Dies wird alle Varianten löschen.</target>
@@ -1088,7 +1146,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Categories/Blocks/delete_categories_modal.html.twig" source-language="en" target-language="de-LU" datatype="plaintext">
     <body>
-      
+      <trans-unit id="332a0777d848606eb5f63149d0bb1105" approved="yes">
+        <source>Note that if they have another category, your products will logically remain associated with it.</source>
+        <target state="final">Beachten Sie, dass Ihre Produkte logischerweise mit anderen Kategorien verknüpft bleiben, falls welche zugewiesen sind.</target>
+        <note>Line: 44</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Categories/Blocks/form.html.twig" source-language="en" target-language="de-LU" datatype="plaintext">
@@ -1124,6 +1186,11 @@
         <source>Discard changes?</source>
         <target state="final">Änderungen verwerfen?</target>
         <note>Line: 45</note>
+      </trans-unit>
+      <trans-unit id="e202ea17abd88b9634fb9939f6253ea9" approved="yes">
+        <source>All unsaved modifications made on the combination [1]%combinationName%[/1] will be lost.</source>
+        <target state="final">Alle nicht gespeicherten Änderungen, die an der Variante [1]%KombinationsName%[/1] vorgenommen wurden, gehen verloren.</target>
+        <note>Line: 46</note>
       </trans-unit>
     </body>
   </file>

@@ -3,11 +3,14 @@
 
 Привіт, {firstname} {lastname},
 
-Дякуємо за покупку у {shop_name}! 
+Дякуємо за покупку в магазині
+[1]{shop_name}[/1]! 
+
+Деталі замовлення 
 
 ЗАМОВЛЕННЯ: {order_name} Розміщено {date}
 
-ОПЛАТА: {payment} 		 
+СПОСІБ ОПЛАТИ: {payment} 		 
 
 АРТИКУЛ
 
@@ -19,7 +22,7 @@
 
 СУМА
 
-{products_txt} 
+{products} {products_txt} 
 
 {discounts} 
 
@@ -39,36 +42,42 @@
 
 {total_shipping} 
 
-ВСЬОГО ПОДАТКІВ СПЛАЧЕНО 
+СУМА ДО ОПЛАТИ З ПДВ 
 
 {total_tax_paid} 
 
-ВСЬОГО СПЛАЧЕНО 
+СУМА ДО ОПЛАТИ 
 
 {total_paid} 
 
+Доставка 
+
 ПЕРЕВІЗНИК: {carrier}
 
-ОПЛАТА: {payment} 		 
+СПОСІБ ОПЛАТИ: {payment} 		 
 
-{delivery_block_txt} 
+Адреса доставки 
 
-{invoice_block_txt} 
+{delivery_block_html} {delivery_block_txt} 		 
+
+Адреса для рахунків 
+
+{invoice_block_html} {invoice_block_txt} 		 
 
 Ви можете переглянути замовлення і
 завантажити рахунок-фактуру в розділі
-"Мої замовлення" [{history_url}]
-вашого клієнтського кабінету
-натиснувши "Мій Профіль"
-[{my_account_url}] в нашому
-магазині. 
-
-Якщо ви маєте гостьовий акаунт то
-можете стежити за замовленням за
-допомогою розділу "Відстеження
-гостьового замовлення"
-[{guest_tracking_url}?id_order={order_name}] в
+"Мої замовлення"
+[{history_url}] вашого
+клієнтського кабінету натиснувши "Мій
+Профіль" [{my_account_url}] в
 нашому магазині. 
+
+Якщо ви маєте гостьовий акаунт, ви
+можете відстежувати замовлення в
+розділі "Відстеження гостьового
+замовлення"
+[{guest_tracking_url}?id_order={order_name}]
+в нашому магазині. 
 
 {shop_name} [{shop_url}] powered by
 PrestaShop(tm) [http://www.prestashop.com/] 

@@ -2,12 +2,20 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="admin-dev/themes/default/template/controllers/carts/helpers/view/view.tpl" source-language="en" target-language="he" datatype="plaintext">
     <body>
-      
+      <trans-unit id="764368526633c5baf14291ba7fbb9e05" approved="yes">
+        <source>For this particular customer group, prices are displayed as:</source>
+        <target state="final">עבור קבוצת לקוחות מסוימת, המחירים מוצגים כ:</target>
+        <note>Line: 221</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/_product_line.tpl" source-language="en" target-language="he" datatype="plaintext">
     <body>
-      
+      <trans-unit id="65247263c6ea1d91027b28a41db8cb4b" approved="yes">
+        <source>Editing this product line will remove the reduction and base price.</source>
+        <target state="final">עריכת קו מוצרים זה תסיר את ההוזלה ומחיר הבסיס.</target>
+        <note>Line: 47</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/orders/form.tpl" source-language="en" target-language="he" datatype="plaintext">
@@ -45,6 +53,11 @@
         <source>This warning also concerns order </source>
         <target state="final">אזהרה זו נוגעת גם להזמנות</target>
         <note>Line: 412</note>
+      </trans-unit>
+      <trans-unit id="f38c718d5cc5ea7331d8acf533f9bf0d" approved="yes">
+        <source>This warning also concerns the next orders:</source>
+        <target state="final">אזהרה זו נוגעת גם להזמנות הבאות:</target>
+        <note>Line: 414</note>
       </trans-unit>
       <trans-unit id="de78da3154b793d64d302db27e65baec" approved="yes">
         <source>No payment methods are available</source>
@@ -137,6 +150,26 @@
         <target state="final">שגיאה אירעה. ההודעה שלך לא נשלחה. אנא צור קשר עם מנהל הרשת.</target>
         <note>Line: 505</note>
       </trans-unit>
+      <trans-unit id="d9c93c77e4f2eb90e8457f586e0c5cb3" approved="yes">
+        <source>Cannot create message in a new thread.</source>
+        <target state="final">לא ניתן ליצור הודעה בשרשור חדש.</target>
+        <note>Line: 1084</note>
+      </trans-unit>
+      <trans-unit id="142c7111dc9e81f5cf273851ccce9fcc" approved="yes">
+        <source>The message body is empty, cannot import it.</source>
+        <target state="final">גוף ההודעה ריק, אינו יכול לייבא אותו.</target>
+        <note>Line: 1152</note>
+      </trans-unit>
+      <trans-unit id="5d1cbbd2b78574a8cfac676d8bdb9ea4" approved="yes">
+        <source>Invalid message content for subject: %s</source>
+        <target state="final">תוכן הודעה לא חוקי לנושא: %s</target>
+        <note>Line: 1160</note>
+      </trans-unit>
+      <trans-unit id="f70f856f6d471d374aaf5080afeb1e53" approved="yes">
+        <source>The message content is not valid, cannot import it.</source>
+        <target state="final">תוכן ההודעה אינו חוקי, אינו יכול לייבא אותו.</target>
+        <note>Line: 1166</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminCustomersController.php" source-language="en" target-language="he" datatype="plaintext">
@@ -145,6 +178,11 @@
         <source>Unknown delete mode:</source>
         <target state="final">מצב מחיקה לא ידוע:</target>
         <note>Line: 870</note>
+      </trans-unit>
+      <trans-unit id="7298a088a582ffc05f2c777afb3115cb" approved="yes">
+        <source>Password cannot be empty.</source>
+        <target state="final">הסיסמה לא יכולה להיות ריקה.</target>
+        <note>Line: 900</note>
       </trans-unit>
       <trans-unit id="0a53e9e61f2a9bf59e9028b42fbd8166" approved="yes">
         <source>An error occurred while loading the object.</source>
@@ -169,6 +207,11 @@
         <source>The cart must have a customer</source>
         <target state="final">לעגלה חייב להיות לקוח</target>
         <note>Line: 235</note>
+      </trans-unit>
+      <trans-unit id="a42a075994b3ee0f6fe5956110d85889" approved="yes">
+        <source>Order status #%id% cannot be loaded</source>
+        <target state="final">לא ניתן לטעון את 'מצב טיפול בהזמנה' %id%#</target>
+        <note>Line: 389</note>
       </trans-unit>
       <trans-unit id="45d4b3afac71a54470a6cbf828e8cb0d" approved="yes">
         <source>The order carrier ID is invalid.</source>
@@ -260,6 +303,11 @@
         <target state="final">נבחרה כמות לא חוקית עבור המוצר.</target>
         <note>Line: 971</note>
       </trans-unit>
+      <trans-unit id="edeff0d68d3d20ce1f6189f6070cb2ba" approved="yes">
+        <source>A credit slip cannot be generated.</source>
+        <target state="final">לא ניתן ליצור תלוש אשראי.</target>
+        <note>Line: 1048</note>
+      </trans-unit>
       <trans-unit id="b81f0a0540938a2e7daa684f02866696" approved="yes">
         <source>No product or quantity has been selected.</source>
         <target state="final">לא נבחרו מוצר או כמות.</target>
@@ -304,6 +352,11 @@
         <source>The invoice note was not saved.</source>
         <target state="final">לא ניתן לשמור הערות חשבונית.</target>
         <note>Line: 1214</note>
+      </trans-unit>
+      <trans-unit id="7f5a75ac350db917dc60cfbd8299da5b" approved="yes">
+        <source>Failed to upload the invoice and edit its note.</source>
+        <target state="final">העלאת החשבונית נכשלה ועריכת ההערה שלה.</target>
+        <note>Line: 1220</note>
       </trans-unit>
       <trans-unit id="68b7afe49451dbdab7cbeff4f66be369" approved="yes">
         <source>This delivery address country is not active.</source>
@@ -384,6 +437,11 @@
         <source>The order object cannot be loaded.</source>
         <target state="final">לא ניתן לטעון אובייקט הזמנה</target>
         <note>Line: 2869</note>
+      </trans-unit>
+      <trans-unit id="7152cf69405fd47a8bd2f7b625ce324e" approved="yes">
+        <source>You cannot add products to delivered orders.</source>
+        <target state="final">אינך יכול להוסיף מוצרים להזמנות שנמסרו.</target>
+        <note>Line: 2117</note>
       </trans-unit>
       <trans-unit id="9b7508b5ee1050d5c5efb9b1cf76fd36" approved="yes">
         <source>The product object cannot be loaded.</source>
@@ -710,7 +768,11 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/OrderMessageController.php" source-language="en" target-language="he" datatype="plaintext">
     <body>
-      
+      <trans-unit id="a536fd360caf34452a84d97775aeb74a" approved="yes">
+        <source>An order message with the same name already exists in %s.</source>
+        <target state="final">הודעת הזמנה עם אותו שם כבר קיימת ב- %s.</target>
+        <note>Line: 259</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/CartController.php" source-language="en" target-language="he" datatype="plaintext">
@@ -747,6 +809,16 @@
         <source>You have to select a shop before creating new orders.</source>
         <target state="final">אתה צריך לבחור חנות על מנת ליצור הזמנות חדשות.</target>
         <note>Line: 241</note>
+      </trans-unit>
+      <trans-unit id="409f3dfd9f910287f86fd6c25c94c4d8" approved="yes">
+        <source>Order #%d has already been assigned this status.</source>
+        <target state="final">'מצב טיפול בהזמנה' זה כבר מוגדר עבור הזמנה %d#.</target>
+        <note>Line: 2062</note>
+      </trans-unit>
+      <trans-unit id="18893a82469e2cd9492fc8d46fa8ac01" approved="yes">
+        <source>An error occurred while changing the status for order #%d, or we were unable to send an email to the customer.</source>
+        <target state="final">אירעה שגיאה בשינוי הסטטוס להזמנה מס #%d, או שלא הצלחנו לשלוח דוא"ל ללקוח.</target>
+        <note>Line: 2051</note>
       </trans-unit>
       <trans-unit id="561918c3c49ff748f543e28f5c405d3c" approved="yes">
         <source>An error occurred while sending an email to the customer.</source>
@@ -807,6 +879,11 @@
         <source>Please generate at least one credit slip or voucher.</source>
         <target state="final">אנא צור לפחות תלוש אשראי או שובר.</target>
         <note>Line: 1947</note>
+      </trans-unit>
+      <trans-unit id="282426403b9a14678d5dd35e024ec84c" approved="yes">
+        <source>This product is out of stock:</source>
+        <target state="final">מוצר זה אזל מהמלאי:</target>
+        <note>Line: 696</note>
       </trans-unit>
       <trans-unit id="265b2b7a9f792e941faac362bc37f30b" approved="yes">
         <source>The product was successfully returned.</source>
@@ -1038,7 +1115,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/Modal/update_shipping_modal.html.twig" source-language="en" target-language="he" datatype="plaintext">
     <body>
-      
+      <trans-unit id="2e66149518ba8dc45a9e51c4f153cebf" approved="yes">
+        <source><![CDATA[Please note that carrier change will not recalculate your shipping costs, if you want to change this please visit Shop Parameters > Order Settings]]></source>
+        <target state="final"><![CDATA[שים לב שהחלפת הספק לא תחשב מחדש את עלויות המשלוח שלך, אם ברצונך לשנות זאת אנא בקר בפרמטרים של חנות> הגדרות הזמנה]]></target>
+        <note>Line: 42</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/add_product_row.html.twig" source-language="en" target-language="he" datatype="plaintext">
@@ -1066,7 +1147,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/edit_product_row.html.twig" source-language="en" target-language="he" datatype="plaintext">
     <body>
-      
+      <trans-unit id="99def74fcec1306526eaf054ccd2a5f7" approved="yes">
+        <source>Are you sure you want to edit this product price? It will be applied to all identical products in this order.</source>
+        <target state="final">האם אתה בטוח שברצונך לערוך את מחיר המוצר הזה? זה יחול על כל המוצרים הזהים בהזמנה זו.</target>
+        <note>Line: 35</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/merchandise_returns.html.twig" source-language="en" target-language="he" datatype="plaintext">
@@ -1104,10 +1189,25 @@
         <target state="final">אזהרה זו נוגעת גם להזמנה:</target>
         <note>Line: 35</note>
       </trans-unit>
+      <trans-unit id="804e12a31196cf44ec13212952a59158" approved="yes">
+        <source>This warning also concerns the following orders:</source>
+        <target state="final">אזהרה זו נוגעת גם לצווים הבאים:</target>
+        <note>Line: 37</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/products.html.twig" source-language="en" target-language="he" datatype="plaintext">
     <body>
+      <trans-unit id="c4832c266d52c6cef340a9c656ddda26" approved="yes">
+        <source>Error. You cannot refund a negative amount.</source>
+        <target state="final">שגיאה. אתה לא יכול להחזיר סכום שלילי.</target>
+        <note>Line: 246</note>
+      </trans-unit>
+      <trans-unit id="49641a1085f245fe45d45881544d1cec" approved="yes">
+        <source>For this customer group, prices are displayed as: [1]%tax_method%[/1]</source>
+        <target state="final">עבור קבוצת לקוחות זו, המחירים מוצגים כ: [1]%tax_method%[/1]</target>
+        <note>Line: 215</note>
+      </trans-unit>
       <trans-unit id="ef5f330df17f8c955005c26466c2463c" approved="yes">
         <source>Merchandise returns are disabled</source>
         <target state="final">החזרת סחורה מבוטלת.</target>

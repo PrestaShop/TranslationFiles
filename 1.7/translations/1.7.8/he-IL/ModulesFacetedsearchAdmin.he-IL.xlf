@@ -2,6 +2,16 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="modules/ps_facetedsearch/ps_facetedsearch.php" source-language="en" target-language="he" datatype="plaintext">
     <body>
+      <trans-unit id="d67b7992a94709663ce72ce9c1606597" approved="yes">
+        <source>Faceted search</source>
+        <target state="final">חיפוש מפורט</target>
+        <note>Line: 102</note>
+      </trans-unit>
+      <trans-unit id="0b3be13d3fe8cfc942ae7e8a64f3718b" approved="yes">
+        <source>Displays a block allowing multiple filters.</source>
+        <target state="final">מציג בלוק המאפשר מסננים מרובים.</target>
+        <note>Line: 103</note>
+      </trans-unit>
       <trans-unit id="b3786b970611c1a3809dd51b630812a7" approved="yes">
         <source>"%s" is not a valid url</source>
         <target state="final">"%s" אינה כתובת תקינה</target>
@@ -88,6 +98,11 @@
         <source>Categories used for this template:</source>
         <target state="final">קטגוריות בשימוש עבור תבנית זו:</target>
         <note>Line: 20</note>
+      </trans-unit>
+      <trans-unit id="78587049e12fb4f6b12e2bb045f2880a" approved="yes">
+        <source>Categories selection is disabled because you have no categories or you are in a "all shops" context.</source>
+        <target state="final">בחירת הקטגוריות מושבתת מכיוון שאין לך קטגוריות או שאתה נמצא בהקשר של "כל החנויות".</target>
+        <note>Line: 26</note>
       </trans-unit>
     </body>
   </file>
@@ -183,6 +198,11 @@
         <source>Product condition filter</source>
         <target state="final">מסנן מצב מוצר</target>
         <note>Line: 125</note>
+      </trans-unit>
+      <trans-unit id="e581c019fe5c1b2aa8dfa18d93f88d13" approved="yes">
+        <source>Product brand filter</source>
+        <target state="final">מסנן מוצרים לפי מותג</target>
+        <note>Line: 156</note>
       </trans-unit>
       <trans-unit id="cc72ed9534a489b5d2e5882735bf1364" approved="yes">
         <source>Product weight filter (slider)</source>
@@ -348,6 +368,11 @@
         <target state="final">יש לבחור לפחות קטגוריה אחת</target>
         <note>Line: 265</note>
       </trans-unit>
+      <trans-unit id="fc11f4442332d8b86f01335df9d28444" approved="yes">
+        <source>Build attributes and features indexes</source>
+        <target state="final">בנה אינדקסים של תכונות ותכונות</target>
+        <note>Line: 30</note>
+      </trans-unit>
       <trans-unit id="dea2248d77db1c9f755f80ca9f874be8" approved="yes">
         <source>Show products only from default category</source>
         <target state="final">הצג מוצרים מקטגוריית ברירת המחדל בלבד</target>
@@ -417,10 +442,35 @@
         <target state="final">רשימה נפתחת</target>
         <note>Line: 200</note>
       </trans-unit>
+      <trans-unit id="ce9bd6e7a7bfa2fa2d9e43bc4fcfeb8a" approved="yes">
+        <source>List of ranges</source>
+        <target state="final">רשימת טווחים</target>
+        <note>Line: 71</note>
+      </trans-unit>
+      <trans-unit id="db6b86d05039c4f657a28647f8eb5140" approved="yes">
+        <source>Attribute group: %name% (%count% attributes)</source>
+        <target state="final">קבוצת מאפיינים: %name% ( %count% מאפיינים)</target>
+        <note>Line: 109</note>
+      </trans-unit>
+      <trans-unit id="788a474b0e55d612b3d500743c6251a0" approved="yes">
+        <source>Attribute group: %name% (%count% attribute)</source>
+        <target state="final">קבוצת מאפיינים: %name% ( %count% מאפיין)</target>
+        <note>Line: 118</note>
+      </trans-unit>
       <trans-unit id="ee59f74265cd7f85d0ad30206a1a89b0" approved="yes">
         <source>This group will allow user to select a color</source>
         <target state="final">קבוצה זו מאפשרת למשתמש לבחור צבע</target>
         <note>Line: 128</note>
+      </trans-unit>
+      <trans-unit id="4127fb33c1db9597f3c881ae057f1370" approved="yes">
+        <source>Feature: %name% (%count% values)</source>
+        <target state="final">תכונה: %name% (עם %count% ערכים)</target>
+        <note>Line: 168</note>
+      </trans-unit>
+      <trans-unit id="cadad7b648bb2b1d3f22421b00a14fd2" approved="yes">
+        <source>Feature: %name% (%count% value)</source>
+        <target state="final">תכונה: %name% (עם %count% ערך)</target>
+        <note>Line: 177</note>
       </trans-unit>
       <trans-unit id="d47f700b6db025d98cae0b340ed847e9" approved="yes">
         <source>Build attribute index</source>
@@ -431,6 +481,16 @@
   </file>
   <file original="modules/ps_facetedsearch/views/templates/hook/attribute_form.tpl" source-language="en" target-language="he" datatype="plaintext">
     <body>
+      <trans-unit id="e919c0dcca631198a18993158182c96b" approved="yes">
+        <source>When the Faceted Search module is enabled, you can get more detailed URLs by choosing the word that best represent this attribute. By default, PrestaShop uses the attribute's name, but you can change that setting using this field.</source>
+        <target state="final">כאשר מודול החיפוש הפנוי מופעל, תוכל לקבל כותרות דפים מפורטות יותר על ידי בחירת המילה המייצגת את התכונה הזו בצורה הטובה ביותר. כברירת מחדל, PrestaShop משתמש בשם התכונה, אך באפשרותך לשנות הגדרה זו באמצעות שדה זה.</target>
+        <note>Line: 44</note>
+      </trans-unit>
+      <trans-unit id="988d04f25d03c7753f5e4752a9397e79" approved="yes">
+        <source>When the Faceted Search module is enabled, you can get more detailed page titles by choosing the word that best represent this attribute. By default, PrestaShop uses the attribute's name, but you can change that setting using this field.</source>
+        <target state="final">כאשר מודול החיפוש הפנוי מופעל, תוכל לקבל כותרות דפים מפורטות יותר על ידי בחירת המילה המייצגת את התכונה הזו בצורה הטובה ביותר. כברירת מחדל, PrestaShop משתמש בשם התכונה, אך באפשרותך לשנות הגדרה זו באמצעות שדה זה.</target>
+        <note>Line: 72</note>
+      </trans-unit>
       <trans-unit id="e6b391a8d2c4d45902a23a8b6585703d" approved="yes">
         <source>URL</source>
         <target state="final">כתובת</target>
@@ -450,12 +510,35 @@
         <target state="final">ניתן למפתוח</target>
         <note>Line: 78</note>
       </trans-unit>
+      <trans-unit id="4e495bf87859dbd3914919cccea139e2" approved="yes">
+        <source>Use this attribute in URL generated by the Faceted Search module.</source>
+        <target state="final">השתמש במאפיין זה בכתובת אתר שנוצרה על ידי מודול החיפוש הפנימי.</target>
+        <note>Line: 93</note>
+      </trans-unit>
+      <trans-unit id="81e6451dad5734120899da86f7da4e4e" approved="yes">
+        <source>When the Faceted Search module is enabled, you can get more detailed URLs by choosing the word that best represent this feature. By default, PrestaShop uses the feature's name, but you can change that setting using this field.</source>
+        <target state="final">כאשר מודול החיפוש הפנוי מופעל, תוכל לקבל כתובות אתרים מפורטות יותר על ידי בחירת המילה המייצגת את התכונה הזו בצורה הטובה ביותר. כברירת מחדל, PrestaShop משתמש בשם התכונה, אך באפשרותך לשנות הגדרה זו באמצעות שדה זה.</target>
+        <note>Line: 44</note>
+      </trans-unit>
+      <trans-unit id="78b4c0278638dd0fd4b29a05895d7891" approved="yes">
+        <source>When the Faceted Search module is enabled, you can get more detailed page titles by choosing the word that best represent this feature. By default, PrestaShop uses the feature's name, but you can change that setting using this field.</source>
+        <target state="final">כאשר מודול החיפוש הפנימי מופעל, תוכל לקבל כותרות עמודים מפורטות יותר על ידי בחירת המילה המייצגת את התכונה הזו בצורה הטובה ביותר. כברירת מחדל, PrestaShop משתמש בשם התכונה, אך באפשרותך לשנות הגדרה זו באמצעות שדה זה.</target>
+        <note>Line: 72</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/ps_facetedsearch/views/templates/hook/feature_value_form.tpl" source-language="en" target-language="he" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="b0aefa9a5ca20f89372b37c2c35c1d4b" approved="yes">
+        <source>When the Faceted Search module is enabled, you can get more detailed URLs by choosing the word that best represent this feature's value. By default, PrestaShop uses the value's name, but you can change that setting using this field.</source>
+        <target state="final">כאשר מודול החיפוש הפנוי מופעל, תוכל לקבל כתובות אתרים מפורטות יותר על ידי בחירת המילה המייצגת בצורה הטובה ביותר את ערך התכונה הזו. כברירת מחדל, PrestaShop משתמש בשם הערך, אך באפשרותך לשנות הגדרה זו באמצעות שדה זה.</target>
+        <note>Line: 44</note>
+      </trans-unit>
+      <trans-unit id="0e6de50c32b9b10fd375ee52090b7f3e" approved="yes">
+        <source>When the Faceted Search module is enabled, you can get more detailed page titles by choosing the word that best represent this feature's value. By default, PrestaShop uses the value's name, but you can change that setting using this field.</source>
+        <target state="final">כאשר מודול החיפוש הפנוי מופעל, תוכל לקבל כותרות עמודים מפורטות יותר על ידי בחירת המילה המייצגת בצורה הטובה ביותר את ערך התכונה הזו. כברירת מחדל, PrestaShop משתמש בשם הערך, אך באפשרותך לשנות הגדרה זו באמצעות שדה זה.</target>
+        <note>Line: 72</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

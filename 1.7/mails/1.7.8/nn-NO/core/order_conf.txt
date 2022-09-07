@@ -6,6 +6,8 @@ Hei {firstname} {lastname},
 {shop_name} ynskjer å takka deg for handelen! Me vonar at du vert
 nøgd og at me høyrer frå deg ved eit seinare høve! 
 
+Ordredetaljar 
+
 ORDRE: {order_name} Utført den {date}
 
 BETALING: {payment} 		 
@@ -20,7 +22,7 @@ ANTALL
 
 TOTALSUM
 
-{products_txt} 
+{products} {products_txt} 
 
 {discounts} 
 
@@ -48,21 +50,27 @@ SAMLA SUM
 
 {total_paid} 
 
+Frakt 
+
 TRANSPORTØR: {carrier}
 
 BETALING: {payment} 		 
 
-{delivery_block_txt} 
+Leveringsadresse 
 
-{invoice_block_txt} 
+{delivery_block_html} {delivery_block_txt} 		 
+
+Fakturaadresse 
+
+{invoice_block_html} {invoice_block_txt} 		 
 
 Du kan syna ordren og laste ned faktura frå kontoen din: "Konto"
 [{my_account_url}]. 
 
 Dersom du har ein gjestekonto kan du fylgje ordren via
 "Gjestesporing"
-[{guest_tracking_url}?id_order={order_name}] i
-butikken. 
+[{guest_tracking_url}?id_order={order_name}]
+i butikken. 
 
 {shop_name} [{shop_url}] powered by
 PrestaShop(tm) [http://www.prestashop.com/] 

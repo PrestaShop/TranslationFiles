@@ -242,7 +242,7 @@ Comment: Special case for Product : either one or the other. Not both.</note>
       </trans-unit>
       <trans-unit id="0f81567617bb8ebc23f48e74d8ae8acf" approved="yes">
         <source>Check the IP address of the cookie in order to prevent your cookie from being stolen.</source>
-        <target state="final">Skontrolovať IP adresu cookie súboru, aby sa zabránilo krádeži cookie a následne identity (toto bezpečnostné opatrenie spôsobuje odpájanie najmä pri pripojení cez mobilných operátorov, ktorý využívajú cache)</target>
+        <target state="final">Skontrolovať IP adresu Cookies súboru, aby sa zabránilo krádeži Cookies a následne identity (toto bezpečnostné opatrenie spôsobuje odpájanie najmä pri pripojení cez mobilných operátorov, ktorí využívajú cache)</target>
         <note>Line: 86</note>
       </trans-unit>
       <trans-unit id="20d6b6498eab9f749d55c9b53151e00a" approved="yes">
@@ -254,6 +254,16 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <source>When you access your back office and decide to stay logged in, your cookies lifetime defines your browser session. Set here the number of hours during which you want them valid before logging in again.</source>
         <target state="final">Keď sa rozhodnete pre prístup do svojej administrácie a rozhodnete sa zostať prihlásení, životnosť súborov cookie určuje reláciu prehliadača. Tu nastavte počet hodín, počas ktorých chcete, aby boli platné pred ďalším prihlásením.</target>
         <note>Line: 94</note>
+      </trans-unit>
+      <trans-unit id="08319380906c95a9d06d789bf8edaf5a" approved="yes">
+        <source>Choose a stability level for the modules downloaded from the Addons Marketplace. All zips pushed on Addons are in stable state unless stated otherwise.</source>
+        <target state="final">Vyberte úroveň stability pre moduly stiahnuté z Addons Marketplace. Všetky inštalačné zip súbory na Addons sú v stabilnom stave, pokiaľ nie je uvedené inak.</target>
+        <note>Line: 73</note>
+      </trans-unit>
+      <trans-unit id="c8d06889e023d3130c1bf60009d5417b" approved="yes">
+        <source>Allows you to declare if your cookie should be restricted to a first-party or same-site context.</source>
+        <target state="final">Umožňuje vám upresniť, či by váš súbor cookie mal byť obmedzený na kontext prvej strany alebo celú lokalitu.</target>
+        <note>Line: 98</note>
       </trans-unit>
     </body>
   </file>
@@ -269,6 +279,11 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <target state="final">Definujte limit pre obrázok (v megabajtoch). Táto hodnota musí byť menšia alebo rovná maximálnej hodnote nahrávaniu povoleného na serveri (v súčasnosti: %size% MB).</target>
         <note>Line: 122</note>
       </trans-unit>
+      <trans-unit id="eb191ef572b6d5c4e7a86734ba10fb5e" approved="yes">
+        <source>Set the maximum size allowed for attachment files (in megabytes). This value has to be lower than or equal to the maximum file upload allotted by your server (currently: %size% MB).</source>
+        <target state="final">Nastavte maximálnu povolenú veľkosť pre súbory príloh (v megabajtoch). Táto hodnota musí byť nižšia alebo rovná maximálnemu nahrávaniu súboru pridelenému vaším serverom (aktuálne: %size% MB).</target>
+        <note>Line: 58</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Backup/BackupOptionsType.php" source-language="en" target-language="sk" datatype="plaintext">
@@ -277,6 +292,11 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <source>Drop existing tables during import.</source>
         <target state="final">Vymazať existujúce tabuľky počas importu.</target>
         <note>Line: 67</note>
+      </trans-unit>
+      <trans-unit id="a1e749fdff79ab0d40843bacb8fe0de2" approved="yes">
+        <source>If enabled, the backup script will drop your tables prior to restoring data. (ie. "DROP TABLE IF EXISTS")</source>
+        <target state="final">Ak je povolené, zálohovací skript pred obnovením údajov zahodí vaše tabuľky. (t. j. "DROP TABLE IF EXISTS")</target>
+        <note>Line: 79</note>
       </trans-unit>
     </body>
   </file>
@@ -325,12 +345,40 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <target state="final">Ak je povolené, kód produktu MUSÍ byť unikátny!</target>
         <note>Line: 107</note>
       </trans-unit>
+      <trans-unit id="45af6698125d6f9be9517cd8879d0285" approved="yes">
+        <source>e.g. 1; Blouse; 129.90; 5</source>
+        <target state="final">napr. 1; blúzka; 129.90; 5</target>
+        <note>Line: 83</note>
+      </trans-unit>
+      <trans-unit id="7d97fc4385e615ed69cc4e1613790123" approved="yes">
+        <source>e.g. Blouse; red.jpg, blue.jpg, green.jpg; 129.90 </source>
+        <target state="final">napr. blúzka; cervena.jpg, modra.jpg, zelena.jpg; 129.90</target>
+        <note>Line: 87</note>
+      </trans-unit>
+      <trans-unit id="193ec293f59bd6bafda920d87cb07212" approved="yes">
+        <source>Enable this option to keep your imported items’ ID number as is. Otherwise, PrestaShop will ignore them and create auto-incremented ID numbers.</source>
+        <target state="final">Povoľte túto možnosť, ak chcete ponechať rovnaké ID čísla importovaných položiek. V opačnom prípade ich PrestaShop bude ignorovať a vytvorí automaticky navýšené identifikačné čísla.</target>
+        <note>Line: 120</note>
+      </trans-unit>
+      <trans-unit id="4719ac638ec9a37d72c81b550b911945" approved="yes">
+        <source>Receive an email when the import is complete. It can be useful when handling large files, as the import may take some time.</source>
+        <target state="final">Po dokončení importu dostanete e-mail. Môže to byť užitočné pri práci s veľkými súbormi, pretože import môže chvíľu trvať.</target>
+        <note>Line: 124</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Logs/LogsByEmailType.php" source-language="en" target-language="sk" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="7dda1e48a0dcceda4b3e9ce35271cc2c" approved="yes">
+        <source>Click on "None" to disable log alerts by email or enter the recipients of these emails in the following field.</source>
+        <target state="final">Kliknite na „Žiadne“ a deaktivujete tak upozornenia denníka e-mailom alebo zadajte príjemcov týchto e-mailov do nasledujúceho poľa.</target>
+        <note>Line: 56</note>
+      </trans-unit>
+      <trans-unit id="f88eb52dea2a0d6eb6d90304a91be4a0" approved="yes">
+        <source>Log alerts will be sent to these emails. Please use a comma to separate them (e.g. pub@prestashop.com, anonymous@psgdpr.com).</source>
+        <target state="final">Na tieto e-maily sa budú odosielať upozornenia záznamov chýb. Oddeľte ich čiarkou (napr. pub@prestashop.com, anonym@psgdpr.com).</target>
+        <note>Line: 66</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceConfigurationType.php" source-language="en" target-language="sk" datatype="plaintext">
@@ -535,6 +583,11 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <target state="final">https://doc.prestashop.com/display/PS17/Import</target>
         <note>Line: 40</note>
       </trans-unit>
+      <trans-unit id="8a8e09c10c464ed914e3e0278ea53164" approved="yes">
+        <source>https://docs.prestashop-project.org/1.7-documentation/user-guide/configuring-shop/advanced-parameters/import</source>
+        <target state="final">https://docs.prestashop-project.org/1.7-documentation/user-guide/configuring-shop/advanced-parameters/import</target>
+        <note>Line: 40</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Employee/Blocks/form.html.twig" source-language="en" target-language="sk" datatype="plaintext">
@@ -689,11 +742,20 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <target state="final">CCC redukuje čas načítavania stránky. S týmito nastaveniami získate výkon bez akéhokoľvek zásahu do zdrojového kódu šablóny. Uistite sa, že použitá šablóna je kompatibilná s PrestaShop 1.4+. Inak bude CCC spôsobovať problémy.</target>
         <note>Line: 121</note>
       </trans-unit>
+      <trans-unit id="460e080fb0af5e1ca93a24dbf1e3da2f" approved="yes">
+        <source>CCC allows you to reduce the loading time of your page. With these settings you will gain performance without even touching the code of your theme. Make sure, however, that your theme is compatible with PrestaShop 1.7+. Otherwise, CCC will cause problems.</source>
+        <target state="final">CCC vám umožňuje skrátiť čas načítania vašej stránky. S týmito nastaveniami získate výkon bez toho, aby ste sa dotkli kódu svojej šablóny. Uistite sa však, že vaša šablóna je kompatibilná s PrestaShop 1.7+. V opačnom prípade CCC spôsobí problémy.</target>
+        <note>Line: 140</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/edit.html.twig" source-language="en" target-language="sk" datatype="plaintext">
     <body>
-      
+      <trans-unit id="b5c5b3a0a7208392aaf2c4d23a81879c" approved="yes">
+        <source>This page benefits from increased performance and includes new features such as a new combination management system. Please note this is a work in progress and some features are not available yet.</source>
+        <target state="final">Táto stránka benefituje zo zvýšeného výkonu a obsahuje nové funkcie, ako napríklad nový systém správy kombinácií. Upozorňujeme, že táto funkcionalita sa stále iba vyvíja a tak niektoré funkcie ešte nie sú dostupné.</target>
+        <note>Line: 72</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

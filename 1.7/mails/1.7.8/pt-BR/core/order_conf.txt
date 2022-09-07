@@ -5,6 +5,8 @@ Olá {firstname} {lastname},
 
 Muito obrigado por comprar na {shop_name}! 
 
+Detalhes do pedido 
+
 PEDIDO: {order_name} Realizado em {date}
 
 PAGAMENTO: {payment} 		 
@@ -19,7 +21,7 @@ QUANTIDADE
 
 VALOR TOTAL
 
-{products_txt} 
+{products} {products_txt} 
 
 {discounts} 
 
@@ -47,22 +49,29 @@ TOTAL PAGO
 
 {total_paid} 
 
+Frete 
+
 TRANSPORTADORA {carrier}
 
 PAGAMENTO: {payment} 		 
 
-{delivery_block_txt} 
+Endereço de entrega 
 
-{invoice_block_txt} 
+{delivery_block_html} {delivery_block_txt} 		 
+
+Endereço de cobrança 
+
+{invoice_block_html} {invoice_block_txt} 		 
 
 Você pode revisar seu pedido e baixar sua fatura na seção "Meus
-Pedidos" [{history_url}] na sua conta, clicando em
-"Minha Conta" [{my_account_url}] na nossa loja. 
+Pedidos" [{history_url}] na sua conta,
+clicando em "Minha Conta"
+[{my_account_url}] na nossa loja. 
 
 Se você tem uma conta de convidado, você pode acompanhar seu
 pedido através da seção "Rastreamento de convidado"
-[{guest_tracking_url}?id_order={order_name}] em
-nossa loja. 
+[{guest_tracking_url}?id_order={order_name}]
+em nossa loja. 
 
 {shop_name} [{shop_url}] powered by
 PrestaShop(tm) [http://www.prestashop.com/] 

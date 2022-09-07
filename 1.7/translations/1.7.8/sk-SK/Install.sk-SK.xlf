@@ -112,22 +112,22 @@ Comment: Link to localized forum</note>
       </trans-unit>
       <trans-unit id="3d282d50434c9dee33c39a09d5283406" approved="yes">
         <source>This e-mail address is invalid</source>
-        <target state="final">Táto emailová adresa je nesprávna!</target>
+        <target state="final">Táto emailová adresa je nesprávna</target>
         <note>Line: 110</note>
       </trans-unit>
       <trans-unit id="316ec028b21331289425813b583e4b8f" approved="yes">
         <source>Image folder %s is not writable</source>
-        <target state="final">Priečinok %s nemá práva na zápis</target>
+        <target state="final">Priečinok obrázku %s nie je zapisovateľný</target>
         <note>Line: 148</note>
       </trans-unit>
       <trans-unit id="aa2154c174605e6c5bae0daa7ea56352" approved="yes">
         <source>An error occurred during logo copy.</source>
-        <target state="final">Vyskytla sa chyba pri kopírovaní loga.</target>
+        <target state="final">Pri kopírovaní loga sa vyskytla chyba.</target>
         <note>Line: 158</note>
       </trans-unit>
       <trans-unit id="6b6ab7122be1b8361066f56eed537aab" approved="yes">
         <source>An error occurred during logo upload.</source>
-        <target state="final">Pri nahrávaní loga nastala chyba.</target>
+        <target state="final">Počas nahrávania loga sa vyskytla chyba.</target>
         <note>Line: 165</note>
       </trans-unit>
       <trans-unit id="496d2fd133e6dd3ffcf1d92b77807751" approved="yes">
@@ -561,6 +561,11 @@ Comment: We fill the process step used for Ajax queries</note>
         <target state="final">Odstrániť existujúce tabuľky</target>
         <note>Line: 60</note>
       </trans-unit>
+      <trans-unit id="c2cbf6c68a479e769d358263c2660496" approved="yes">
+        <source><![CDATA[To use PrestaShop, you must <a href="https://docs.prestashop-project.org/1.7-documentation/getting-started/installing-prestashop#creating-a-database-for-your-shop" target="_blank">create a database</a> to collect all of your store's data-related activities.]]></source>
+        <target state="final"><![CDATA[Aby ste mohli používaž PrestaShop, musíte <a href="https://docs.prestashop-project.org/1.7-documentation/getting-started/installing-prestashop#creating-a-database-for-your-shop" target="_blank">vytvořriť databázu</a> na ukladanie potrebných dát.]]></target>
+        <note>Line: 32</note>
+      </trans-unit>
     </body>
   </file>
   <file original="install-dev/theme/views/footer.php" source-language="en" target-language="sk" datatype="plaintext">
@@ -885,6 +890,16 @@ Comment: We fill the process step used for Ajax queries</note>
         <target state="final">Vyššie uvedený výber jazyka sa vzťahuje len na pomocníka pri inštalácií. Ihneď po inštalácii obchodu si môžete si vybrať jazyk vášho obchodu z viac než vyše %d prekladov, a to všetko zdarma!</target>
         <note>Line: 58</note>
       </trans-unit>
+      <trans-unit id="e1a83d307c77f54bc40ff911943669f1" approved="yes">
+        <source><![CDATA[<b>Warning: You cannot use this tool to upgrade your store anymore.</b><br /><br />You already have <b>PrestaShop version %version% installed</b>.<br /><br />If you want to upgrade to the latest version, please use the 1-Click Upgrade module and follow its instructions.]]></source>
+        <target state="final"><![CDATA[<b>Upozornenie: Na aktualizáciu vášho obchodu už nie je možné použiť tohto sprievodcu.</b><br><br>Už máte verziu <b>PrestaShop %version% nainštalovanú</b>.<br /><br />Ak chcete PrestaShop aktualizovať a prejsť na najnovšiu verziu, použite modul "Aktualizácia na jeden klik".]]></target>
+        <note>Line: 32</note>
+      </trans-unit>
+      <trans-unit id="f7df4c84260e89f8aa1644b31a795282" approved="yes">
+        <source>Installing PrestaShop is quick and easy. In just a few moments, you will become part of a community consisting of more than %numMerchants% merchants. You are on the way to creating your own unique online store that you can manage easily every day.</source>
+        <target state="final">Inštalácia PrestaShopu je rýchla a jednoduchá. V priebehu okamihu sa stanete súčasťou komunity pozostávajúcej z viac ako %numMerchants% obchodníkov. Ste na ceste k vytvoreniu vlastného internetového obchodu cez ktorý budete môcť predávať Vaše produkty a služby.</target>
+        <note>Line: 40</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/classes/UpgradePage.php" source-language="en" target-language="sk" datatype="plaintext">
@@ -1062,6 +1077,11 @@ File: modules/autoupgrade/classes/UpgradePage.php:414</note>
         <source>Attempt to create the database automatically</source>
         <target state="final">Pokus o automatické vytvorenie databázy</target>
         <note>Line: 105</note>
+      </trans-unit>
+      <trans-unit id="ffb062d75b155dab7c60d7ea84385abc" approved="yes">
+        <source>You must be granted the privilege to select data in the tables of database "%s". Ask your hosting provider to enable it.</source>
+        <target state="final">Pre výber údajov z tabuliek databázy "%s" musíte mať pridelené oprávnenia. Požiadajte poskytovateľa vášho webhostingu, aby vám ich pridelil.</target>
+        <note>Line: 89</note>
       </trans-unit>
     </body>
   </file>

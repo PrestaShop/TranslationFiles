@@ -5,6 +5,8 @@ Tervist {firstname} {lastname},
 
 Täname Teid ostu eest {shop_name} poest! 
 
+Tellimuse andmed 
+
 TELLIMUS: {order_name} Esitatud {date}
 
 MAKSMINE: {payment} 		 
@@ -19,7 +21,7 @@ KOGUS
 
 KOGU HIND
 
-{products_txt} 
+{products} {products_txt} 
 
 {discounts} 
 
@@ -47,23 +49,29 @@ KOKKU MAKSTUD
 
 {total_paid} 
 
+Saatmine 
+
 KULLER: {carrier}
 
 MAKSMINE: {payment} 		 
 
-{delivery_block_txt} 
+Saatmise aadress 
 
-{invoice_block_txt} 
+{delivery_block_html} {delivery_block_txt} 		 
+
+Arve aadress 
+
+{invoice_block_html} {invoice_block_txt} 		 
 
 Saate oma tellimust vaadata ja arve alla laadida (peale makse
-laekumist) "Tellimuste ajalugu" [{history_url}]
-sektsioonist "Minu konto lehelt" [{my_account_url}]
-meie poes. 
+laekumist) "Tellimuste ajalugu"
+[{history_url}] sektsioonist "Minu konto
+lehelt" [{my_account_url}] meie poes. 
 
 Kui Teil ei ole meie poes püsikliendi kontot ja sooritasite ostu
 külalisena, siis saate oma tellimust vaadata "Külaliste tellimuste"
-[{guest_tracking_url}?id_order={order_name}] lehelt
-meie poes. 
+[{guest_tracking_url}?id_order={order_name}]
+lehelt meie poes. 
 
 {shop_name} [{shop_url}] powered by
 PrestaShop(tm) [http://www.prestashop.com/] 

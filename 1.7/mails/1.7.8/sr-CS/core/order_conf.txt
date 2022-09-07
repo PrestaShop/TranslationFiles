@@ -1,15 +1,17 @@
 
 [{shop_url}] 
 
-Zdravo {firstname} {lastname},
+Poštovani {firstname} {lastname},
 
 Hvala vam što kupujete u {shop_name} online prodavnici! 
 
-PORUDŽBINA: {order_name} Postavljeno na {date}
+Detalji porudžbine 
+
+PORUDŽBINA: {order_name} Kreirana dana {date}
 
 PLAĆANJE: {payment} 		 
 
-NAPOMENA
+ŠIFRA
 
 PROIZVOD
 
@@ -19,7 +21,7 @@ KOLIČINA
 
 UKUPNA CENA
 
-{products_txt} 
+{products} {products_txt} 
 
 {discounts} 
 
@@ -43,27 +45,34 @@ UKUPNI PDV
 
 {total_tax_paid} 
 
-UKUPNO PLAĆENO 
+UKUPNO ZA NAPLATU 
 
 {total_paid} 
+
+Isporuka 
 
 KURIRSKA SLUŽBA: {carrier}
 
 PLAĆANJE: {payment} 		 
 
-{delivery_block_txt} 
+Adresa za dostavu 
 
-{invoice_block_txt} 
+{delivery_block_html} {delivery_block_txt} 		 
+
+Adresa za naplatu 
+
+{invoice_block_html} {invoice_block_txt} 		 
 
 Možete napisati utiske o narudžbini i preuzeti vaš račun iz
-sekcije "Istorija narudžbi" [{history_url}] na
-vašem nalogu, klikom na "Moj nalog"
-[{my_account_url}] u našoj prodavnici. 
+sekcije "Istorija narudžbi"
+[{history_url}] na vašem nalogu, klikom na
+"Moj nalog" [{my_account_url}] u našoj
+prodavnici. 
 
-Ako imate gostujući nalog, možete pratiti vašu narudžbinu
+Ako imate gostujući nalog, možete pratiti vašu porudžbinu
 putem sekcije "Praćenje gosta"
-[{guest_tracking_url}?id_order={order_name}] u
-našoj radnji. 
+[{guest_tracking_url}?id_order={order_name}]
+u našoj radnji. 
 
 {shop_name} [{shop_url}] powered by
 PrestaShop(tm) [http://www.prestashop.com/] 

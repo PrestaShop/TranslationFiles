@@ -22,7 +22,7 @@
     <body>
       <trans-unit id="2498c963bfc06e8fca88007ec322b769" approved="yes">
         <source>Your login email address on {shop_name}</source>
-        <target state="final">Sähköpostiosoitteesi kirjautumiseen on {shop_name}</target>
+        <target state="final">Sähköpostiosoitteesi {shop_name} kirjautumiseen on </target>
         <note>Line: 25</note>
       </trans-unit>
       <trans-unit id="7cfb9d536fcd7aa70c333e8e73b287e2" approved="yes">
@@ -45,17 +45,17 @@
     <body>
       <trans-unit id="9b33ea5c9409a67cb6e1f6bc3f0828f0" approved="yes">
         <source>Awaiting wire payment</source>
-        <target state="final">Odottaa pankkimaksua</target>
+        <target state="final">Odottaa tilisiirtomaksua</target>
         <note>Line: 25</note>
       </trans-unit>
       <trans-unit id="f4a6af01d092af11dca29cb89578b124" approved="yes">
         <source>You have selected to pay by wire transfer.</source>
-        <target state="final">Valitsit maksutavaksi pankkisiirron.</target>
+        <target state="final">Valitsit maksutavaksi tilisiirron.</target>
         <note>Line: 50</note>
       </trans-unit>
       <trans-unit id="fc1ae3c1dd1d9d9a44da719fa9966f0e" approved="yes">
         <source>Here are the bank details for your transfer:</source>
-        <target state="final">Tässä ovat maksusuorituksesi pankkitiedot:</target>
+        <target state="final">Tässä ovat maksutiedot tilisiirtoa varten:</target>
         <note>Line: 53</note>
       </trans-unit>
     </body>
@@ -74,12 +74,12 @@
       </trans-unit>
       <trans-unit id="ecf01c46965fdfd36eb98b271276c0d5" approved="yes">
         <source>You have selected to pay by check.</source>
-        <target state="final">Olet valinnut maksutavaksi sekin.</target>
+        <target state="final">Olet valinnut maksutavaksi shekin.</target>
         <note>Line: 50</note>
       </trans-unit>
       <trans-unit id="b6592595266708e46d1d420ab7153213" approved="yes">
         <source>Here are the bank details for your check:</source>
-        <target state="final">Tilitiedot sekkiä varten:</target>
+        <target state="final">Tilitiedot shekkiä varten:</target>
         <note>Line: 53</note>
       </trans-unit>
       <trans-unit id="ed750ed3b775eb7ed37644ceb05c713b" approved="yes">
@@ -131,12 +131,12 @@
       </trans-unit>
       <trans-unit id="99f89e9a116e1c07f62ba17fb0312db6" approved="yes">
         <source><![CDATA[You can review this credit slip and download your invoice from the <a href="{history_url}">"My credit slips"</a> section of your account by clicking <a href="{my_account_url}">"My account"</a> on our shop.]]></source>
-        <target state="final"><![CDATA[Voit tarkistaa hyvitystä ja ladata laskun <a href="{history_url}">"Hyvitykset"</a> osiosta tililäsi menemällä <a href="{my_account_url}">"Asiakastili"</a>.]]></target>
+        <target state="final"><![CDATA[Voit tarkastaa hyvityksen ja ladata laskun <a href="{history_url}">"Hyvitykset"</a> -osiosta klikkaamalla verkkokaupassamme <a href="{my_account_url}">"Asiakastili"</a>-kohtaa.]]></target>
         <note>Line: 45</note>
       </trans-unit>
       <trans-unit id="4c15700279d273ce67d98810a4b87943" approved="yes">
         <source>We have generated a credit slip in your name for order with the reference [1]{order_name}[/1].</source>
-        <target state="final">Olemme luoneet hyvityksen nimelläsi tilaukselle viitteellä [1]{order_name}[/1].</target>
+        <target state="final">Olemme luoneet hyvityksen nimelläsi tilaustunnisteelle [1]{order_name}[/1].</target>
         <note>Line: 29</note>
       </trans-unit>
     </body>
@@ -225,7 +225,7 @@
       </trans-unit>
       <trans-unit id="2fe643b2ef0a5fd0e912cd9a784510a7" approved="yes">
         <source>Your order with the reference [1]{order_name}[/1] is currently in transit.</source>
-        <target state="final">Tilauksesi viitenumerolla [1]{order_name}[/1] on matkalla.</target>
+        <target state="final">Tilauksesi tilaustunnisteella [1]{order_name}[/1] on matkalla.</target>
         <note>Line: 54</note>
       </trans-unit>
     </body>
@@ -248,7 +248,7 @@
     <body>
       <trans-unit id="d9081e325264b44431f85a40bdca4985" approved="yes">
         <source>Your order with the reference [1]{order_name}[/1] from [1]{shop_name}[/1] has been canceled.</source>
-        <target state="final">Tilauksesi viitteellä [1]{order_name}[/1] verkkokaupasta [1]{shop_name}[/1] on peruutettu.</target>
+        <target state="final">Tilauksesi tilaustunnisteella [1]{order_name}[/1] verkkokaupasta [1]{shop_name}[/1] on peruutettu.</target>
         <note>Line: 29</note>
       </trans-unit>
     </body>
@@ -331,7 +331,7 @@
       </trans-unit>
       <trans-unit id="96c8c962f040049e80bccbea08e2d776" approved="yes">
         <source><![CDATA[There is a problem with your payment for <strong><span>{shop_name}</span></strong> order with the reference <strong><span>{order_name}</span></strong>. Please contact us at your earliest convenience.]]></source>
-        <target state="final"><![CDATA[Tilaukselle tekemäsi maksun kanssa <strong><span>{order_name}</span></strong> on ongelma kaupassa <strong><span>{shop_name}</span></strong>. Ota meihin yhteyttä ja selvitetään ongelma.]]></target>
+        <target state="final"><![CDATA[Tekemäsi tilauksen maksussa <strong><span>{shop_name}</span></strong> -kaupasta tilaustunnisteella <strong><span>{order_name}</span></strong> on ongelma. Ole hyvä ja ota meihin yhteyttä mahdollisimman pian.]]></target>
         <note>Line: 29</note>
       </trans-unit>
       <trans-unit id="5f2142258e3f214d12efeb927f2a7aef" approved="yes">
@@ -345,12 +345,12 @@
     <body>
       <trans-unit id="643562a9ae7099c8aabfdc93478db117" approved="yes">
         <source>Processing</source>
-        <target state="final">Käsitellään</target>
+        <target state="final">Käsittelyssä</target>
         <note>Line: 24</note>
       </trans-unit>
       <trans-unit id="d87f9ab0faa0b39a5240d1ce19529905" approved="yes">
         <source><![CDATA[We are currently processing your <strong><span>{shop_name}</span></strong> order with the reference <strong><span>{order_name}</span></strong>.]]></source>
-        <target state="final"><![CDATA[Käsittelemme <strong><span>{shop_name}</span></strong> kaupan tilaustasi <strong><span>{order_name}</span></strong>.]]></target>
+        <target state="final"><![CDATA[Käsittelemme parhaillaillaan <strong><span>{shop_name}</span></strong> kaupan tilaustasi <strong><span>{order_name}</span></strong>.]]></target>
         <note>Line: 29</note>
       </trans-unit>
     </body>
@@ -368,7 +368,7 @@
     <body>
       <trans-unit id="95d1732a1f5200c8e176bea0a5562804" approved="yes">
         <source><![CDATA[In order to reply, please use the following link: <a href="{link}">{link}</a>]]></source>
-        <target state="final"><![CDATA[Käytä sen sijaan vastaukseesi tätä linkkiä: <a href="{link}">{link}</a>]]></target>
+        <target state="final"><![CDATA[Käytä vastataksesi seuraavaa linkkiä: <a href="{link}">{link}</a>]]></target>
         <note>Line: 25</note>
       </trans-unit>
     </body>
@@ -410,7 +410,7 @@
       </trans-unit>
       <trans-unit id="6e27b373aa04d07be7c5a65bbd9f45ed" approved="yes">
         <source>A voucher has been created in your name as a result of your order with the reference [1]{order_name}[/1].</source>
-        <target state="final">Kuponki on luotu nimelläsi tilauksen viite [1]{order_name}[/1] johdosta.</target>
+        <target state="final">Kuponki on luotu nimelläsi tilauksesi [1]{order_name}[/1] johdosta.</target>
         <note>Line: 29</note>
       </trans-unit>
       <trans-unit id="f210a22fd1ec8eddd8236938d009f3a6" approved="yes">
@@ -476,7 +476,7 @@
       </trans-unit>
       <trans-unit id="992ed3f1f7ce7be683fd4051138b693e" approved="yes">
         <source><![CDATA[If you have a guest account, you can follow your order via the <a href="{guest_tracking_url}?id_order={order_name}">"Guest Tracking"</a> section on our shop.]]></source>
-        <target state="final"><![CDATA[Jos sinulla on vierastili, voit seurata tilausta <a href="{guest_tracking_url}?id_order={order_name}">"Tilauksen seuranta"</a>.]]></target>
+        <target state="final"><![CDATA[Jos sinulla on vierastili, voit seurata tilausta kauppamme <a href="{guest_tracking_url}?id_order={order_name}">"Tilauksen seuranta"</a> -osiosta.]]></target>
         <note>Line: 54</note>
       </trans-unit>
       <trans-unit id="6eaf1dae59f88437851d95f504f9cb3c" approved="yes">
@@ -486,7 +486,7 @@
       </trans-unit>
       <trans-unit id="26b5ca3acdfdbd5fe92a5cb24dcc204e" approved="yes">
         <source>Your order with the reference [1]{order_name}[/1] has been modified.</source>
-        <target state="final">Tilaustasi viitteellä [1]{order_name}[/1] on muokattu.</target>
+        <target state="final">Tilaustasi [1]{order_name}[/1] on muokattu.</target>
         <note>Line: 29</note>
       </trans-unit>
     </body>
@@ -504,7 +504,7 @@
     <body>
       <trans-unit id="756a94b60256e8aacdf10706925eb01e" approved="yes">
         <source>{product} is nearly out of stock.</source>
-        <target state="final">{product} on käymässä vähiin.</target>
+        <target state="final">{product} on lähes loppu varastosta.</target>
         <note>Line: 24</note>
       </trans-unit>
       <trans-unit id="72943b79a01324b1875811ff792bdad0" approved="yes">
@@ -560,7 +560,7 @@
       </trans-unit>
       <trans-unit id="ca0c09ad63f8cd2f732058be8d2b3a97" approved="yes">
         <source>We noticed that during your last visit on {shop_name}, you did not complete the order you had started.</source>
-        <target state="final">Huomasimme kun vierailit viimeeksi kaupassa {shop_name}, että et tehnyt tilausta loppuun jonka aloitit.</target>
+        <target state="final">Huomasimme kun vierailit viimeeksi kaupassa {shop_name}, että et tehnyt aloittamaasi tilausta loppuun.</target>
         <note>Line: 29</note>
       </trans-unit>
       <trans-unit id="85fa10f1ee5c7941ec596c4247c8102b" approved="yes">
@@ -588,12 +588,12 @@
     <body>
       <trans-unit id="5a230b8b0490a33cf1fa3a577e1b4ef3" approved="yes">
         <source>You are one of our best customers and as such we want to thank you for your continued patronage.</source>
-        <target state="final">Olet yksi meidän parhaista asiakkaistamme ja haluamme palkita sinut hyvän asiakassuhteen johdosta.</target>
+        <target state="final">Olet yksi parhaista asiakkaistamme ja haluamme palkita sinut hyvän asiakassuhteen johdosta.</target>
         <note>Line: 25</note>
       </trans-unit>
       <trans-unit id="fb143851ff94b8816192dd378774d266" approved="yes">
         <source>As appreciation for your loyalty, we want to give you a discount of [1]{amount}%[/1] valid on your next order! This offer is valid for [1]{days}[/1] days, so do not waste a moment!</source>
-        <target state="final">Kiittääksemme uskollisuudesta kauppaamme, haluamme antaa sinulle [1]{amount}%[/1] alennuksen seuraavasta tilauksestasi! Tämä tarjous on voimassa [1]{days}[/1] päivää, joten älä viivyttele!</target>
+        <target state="final">Kiittääksemme uskollisuudestasi kauppaamme kohtaan, haluamme antaa sinulle [1]{amount}%[/1] alennuksen seuraavasta tilauksestasi! Tämä tarjous on voimassa [1]{days}[/1] päivää, joten älä viivyttele!</target>
         <note>Line: 30</note>
       </trans-unit>
     </body>
@@ -723,7 +723,7 @@
       </trans-unit>
       <trans-unit id="edccc47e82abb1a733820982878c5fb0" approved="yes">
         <source>Your login details on {shop_name}</source>
-        <target state="final">Sähköpostiosoitteesi kirjautumiseen on {shop_name}</target>
+        <target state="final">Kirjautumistietosi kauppaan {shop_name}</target>
         <note>Line: 95</note>
       </trans-unit>
     </body>
@@ -766,7 +766,7 @@
       </trans-unit>
       <trans-unit id="b8f05e3501f419f9f7ec08026a9342be" approved="yes">
         <source>Please specify your order reference in the bankwire description.</source>
-        <target state="final">Anna tilausviite tilisiirron selitteessä.</target>
+        <target state="final">Kirjoita tilaustunniste tilisiirron viestikenttään.</target>
         <note>Line: 231</note>
       </trans-unit>
       <trans-unit id="35b4b09d5d0686ec5c2e2cc9f3d9039c" approved="yes">
@@ -786,7 +786,7 @@
       </trans-unit>
       <trans-unit id="b59639f1f1bf84129e44b83fe192b10a" approved="yes">
         <source>You have decided to pay by bank wire.</source>
-        <target state="final">Olet valinnut maksutavaksesi pankkisiirron.</target>
+        <target state="final">Olet valinnut maksutavaksesi tilisiirron.</target>
         <note>Line: 200</note>
       </trans-unit>
       <trans-unit id="920fcf4696dd1caa2d08eae6ebc8d29a" approved="yes">
@@ -810,7 +810,7 @@
       </trans-unit>
       <trans-unit id="8f1fb2295c4289bae9fc26549b4b45f2" approved="yes">
         <source>Please mail your check to:</source>
-        <target state="final">Ole hyvä ja lähetä sekkisi osoitteeseen:</target>
+        <target state="final">Ole hyvä ja lähetä shekkisi osoitteeseen:</target>
         <note>Line: 221</note>
       </trans-unit>
       <trans-unit id="b4556791acee238c77be9ed338a29e80" approved="yes">
@@ -825,7 +825,7 @@
       </trans-unit>
       <trans-unit id="060bf2d587991d8f090a1309b285291c" approved="yes">
         <source>Check</source>
-        <target state="final">tarkistaa</target>
+        <target state="final">Shekki</target>
         <note>Line: 3</note>
       </trans-unit>
       <trans-unit id="0664188509e5edc8daac0d8c80bc05b3" approved="yes">
@@ -835,7 +835,7 @@
       </trans-unit>
       <trans-unit id="6a9e91ee7fe91c99fc2b5915a2555a57" approved="yes">
         <source>Payment method: check</source>
-        <target state="final">Maksutapa: sekki</target>
+        <target state="final">Maksutapa: shekki</target>
         <note>Line: 165</note>
       </trans-unit>
       <trans-unit id="0cce70a6fc36b8ed06d4a0241b36eecb" approved="yes">
@@ -922,7 +922,7 @@
       </trans-unit>
       <trans-unit id="c44669ebfaeb42d8895e332f6199688e" approved="yes">
         <source>A credit slip has been generated in your name for order with the reference [1]{order_name}[/1].</source>
-        <target state="final">Kuponki on luotu nimelläsi tilauksen viite [1]{order_name}[/1] johdosta.</target>
+        <target state="final">Palautushyvitys on luotu nimelläsi tilauksen [1]{order_name}[/1] johdosta.</target>
         <note>Line: 123</note>
       </trans-unit>
       <trans-unit id="933bd01e99683693ad9ddf8405040681" approved="yes">
@@ -1159,6 +1159,11 @@
         <source>Total</source>
         <target state="final">Yhteensä</target>
         <note>Line: 382</note>
+      </trans-unit>
+      <trans-unit id="4fa1b6a18af39df2372766b93c513f85" approved="yes">
+        <source>Recycled packaging:</source>
+        <target state="final">Kierrätetty pakkaus</target>
+        <note>Line: 307</note>
       </trans-unit>
     </body>
   </file>

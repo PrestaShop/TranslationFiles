@@ -5,6 +5,8 @@ Hola {firstname} {lastname},
 
 Le agradecemos por realizar sus compras en {shop_name}! 
 
+Detalles del pedido 
+
 PEDIDO: {order_name} Realizado el {date}
 
 PAGO: {payment} 		 
@@ -19,7 +21,7 @@ CANTIDAD
 
 PRECIO TOTAL
 
-{products_txt} 
+{products} {products_txt} 
 
 {discounts} 
 
@@ -35,7 +37,7 @@ ENVUELTO PARA REGALO
 
 {total_wrapping} 
 
-TRANSPORTE 
+ENVÍO 
 
 {total_shipping} 
 
@@ -47,23 +49,29 @@ TOTAL PAGADO
 
 {total_paid} 
 
+Envío 
+
 PAQUETERIA: {carrier}
 
 PAGO: {payment} 		 
 
-{delivery_block_txt} 
+Dirección de envío 
 
-{invoice_block_txt} 
+{delivery_block_html} {delivery_block_txt} 		 
+
+Dirección de facturación 
+
+{invoice_block_html} {invoice_block_txt} 		 
 
 Usted puede revisar su pedido y descargar la factura desde
-"Historial de pedidos" [{history_url}] de su cuenta
-de cliente, haga clic en [{my_account_url}] en
-nuestra tienda. 
+"Historial de pedidos" [{history_url}] de
+su cuenta de cliente, haga clic en
+[{my_account_url}] en nuestra tienda. 
 
 Si tiene una cuenta de invitado, puede seguir su pedido desde la
 sección: "Seguimiento de invitado"
-[{guest_tracking_url}?id_order={order_name}] de
-nuestra tienda. 
+[{guest_tracking_url}?id_order={order_name}]
+de nuestra tienda. 
 
 {shop_name} [{shop_url}] powered by
 PrestaShop(tm) [http://www.prestashop.com/] 
