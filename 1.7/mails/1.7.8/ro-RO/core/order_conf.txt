@@ -3,7 +3,9 @@
 
 Buna {firstname} {lastname},
 
-Va multumim ca ai cumparat de la {shop_name}! 
+Iti multumim ca ai cumparat de la {shop_name}! 
+
+Detalii comanda 
 
 COMANDA: {order_name} Plasata pe {date}
 
@@ -19,7 +21,7 @@ CANTITATE
 
 PRET TOTAL
 
-{products_txt} 
+{products} {products_txt} 
 
 {discounts} 
 
@@ -47,23 +49,30 @@ TOTAL PLATIT
 
 {total_paid} 
 
+Livrare 
+
 CURIER: {carrier}
 
 PLATA: {payment} 		 
 
-{delivery_block_txt} 
+Adresa de livrare 
 
-{invoice_block_txt} 
+{delivery_block_html} {delivery_block_txt} 		 
 
-Ai posibilitatea de a iti revizui comanda si descarca factura de
-la "istoria comenzii" [{history_url}] sectiune a
-contului tau de client, facand clic pe "Contul meu"
-[{my_account_url}] de pe magazinul nostru. 
+Adresa de facturare 
+
+{invoice_block_html} {invoice_block_txt} 		 
+
+Ai posibilitatea de a revizui comanda si de a descarca factura din
+sectiunea "Istoricul comenzilor"
+[{history_url}] in contul tau de client,
+facand clic pe linkul "Contul meu"
+[{my_account_url}] din magazinul nostru. 
 
 Daca ai un cont de oaspete, va poti urmari comanda prin
 intermediul "urmarirea oaspetilor" sectia
-[{guest_tracking_url}?id_order={order_name}] din
-magazinul nostru. 
+[{guest_tracking_url}?id_order={order_name}]
+din magazinul nostru. 
 
 {shop_name} [{shop_url}] powered by
 PrestaShop(tm) [http://www.prestashop.com/] 

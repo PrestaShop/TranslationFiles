@@ -26,6 +26,16 @@
         <target state="final">לאחר העברת כל תמונות המוצר, לצורך שיפור ביצועים יש להגדיר את האפשרות "השתמש במערכת ניהול תמונות ישנה" ל- "לא".</target>
         <note>Line: 46</note>
       </trans-unit>
+      <trans-unit id="1978cf7404a3be3f014b9d966d91eb9d" approved="yes">
+        <source>Be careful! Depending on the options selected, former manually uploaded thumbnails might be erased and replaced by automatically generated thumbnails.</source>
+        <target state="final">הזהר! בהתאם לאפשרויות שנבחרו, תמונות ממוזערות שהועלו ידנית בעבר עשויות להימחק ולהוחלף בתמונות ממוזערות שנוצרו אוטומטית.</target>
+        <note>Line: 67</note>
+      </trans-unit>
+      <trans-unit id="96faff5bfd0f40c490359113625e7660" approved="yes">
+        <source>Also, regenerating thumbnails for all existing images can take several minutes, please be patient.</source>
+        <target state="final">כמו כן, יצירת תמונות ממוזערות מחדש עבור כל התמונות הקיימות עשויה להימשך מספר דקות, אנא המתן בסבלנות.</target>
+        <note>Line: 68</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/modules_positions/list_modules.tpl" source-language="en" target-language="he" datatype="plaintext">
@@ -39,7 +49,11 @@
   </file>
   <file original="classes/controller/FrontController.php" source-language="en" target-language="he" datatype="plaintext">
     <body>
-      
+      <trans-unit id="c402321a8e5818b776007e8a2d00474a" approved="yes">
+        <source>Current theme is unavailable. Please check your theme's directory name ("%s") and permissions.</source>
+        <target state="final">הנושא הנוכחי אינו זמין. אנא בדוק את שם הספריה של העיצוב שלך (" %s") ואת ההרשאות.</target>
+        <note>Line: 347</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminCmsController.php" source-language="en" target-language="he" datatype="plaintext">
@@ -53,6 +67,11 @@
   </file>
   <file original="controllers/admin/AdminImagesController.php" source-language="en" target-language="he" datatype="plaintext">
     <body>
+      <trans-unit id="ffddcc65274efa9b4c624b34289c922c" approved="yes">
+        <source>Duplicate images were found when moving the product images. This is likely caused by unused demonstration images. Please make sure that the folder %folder% only contains demonstration images, and then delete it.</source>
+        <target state="final">תמונות כפולות נמצאו בעת העברת תמונות המוצר. זה סביר שנגרם על ידי תמונות הדגמה שאינם בשימוש. אנא ודא כי תיקיית %folder% מכילה רק תמונות הדגמה, ולאחר מכן תמחק אותה.</target>
+        <note>Line: 338</note>
+      </trans-unit>
       <trans-unit id="5b8cb2aa659c7d6a98b740d2d788c69d" approved="yes">
         <source>Incorrect value for the selected JPEG image compression.</source>
         <target state="final">ערך שגוי עבור סוג דחיסת התמונה כ JEPG שנבחרה.</target>
@@ -63,6 +82,36 @@
         <target state="final">ערך שגוי עבור סוג דחיסת התמונה כ PNG שנבחרה.</target>
         <note>Line: 364</note>
       </trans-unit>
+      <trans-unit id="b88862891dbf9c20a73bc59258407d0b" approved="yes">
+        <source>Source file does not exist or is empty (%filepath%)</source>
+        <target state="final">קובץ מקור לא נמצא או ריק ( %filepath% )</target>
+        <note>Line: 502</note>
+      </trans-unit>
+      <trans-unit id="985b5b995c4574ae5eba2062a13ef168" approved="yes">
+        <source>Failed to resize image file (%filepath%)</source>
+        <target state="final">שינוי גודל לקובץ התמונה (%filepath%) נכשל</target>
+        <note>Line: 504</note>
+      </trans-unit>
+      <trans-unit id="c5e7d0c13104eed0a195c175f2edfdd2" approved="yes">
+        <source>Failed to resize image file to high resolution (%filepath%)</source>
+        <target state="final">לא ניתן לשנות את קובץ התמונה לרזולוציה גבוהה (%filepath%)</target>
+        <note>Line: 509</note>
+      </trans-unit>
+      <trans-unit id="103d86044b78fa59e02ff8480a3a2f46" approved="yes">
+        <source>Original image is corrupt (%filename%) for product ID %id% or bad permission on folder.</source>
+        <target state="final">התמונה המקורית פגומה (%filename%) עבור מזהה המוצר %id%% או אישור רע בתיקיה.</target>
+        <note>Line: 542</note>
+      </trans-unit>
+      <trans-unit id="2934958a3f658892ee502aaf8258a6f7" approved="yes">
+        <source>Original image is missing or empty (%filename%) for product ID %id%</source>
+        <target state="final">התמונה המקורית חסרה או ריקה (%filename%) עבור מזהה המוצר %id%</target>
+        <note>Line: 555</note>
+      </trans-unit>
+      <trans-unit id="8b772dad7cc4ed15eaf0c433f861e55c" approved="yes">
+        <source>Cannot write images for this type: %1$s. Please check the %2$s folder's writing permissions.</source>
+        <target state="final">לא ניתן לכתוב לדיסק תמונות מסוג זה: %1$s. אנא בדקו את הרשאות הכתיבה של התיקייה %2$s.</target>
+        <note>Line: 677</note>
+      </trans-unit>
       <trans-unit id="d4f225ec09e4b0eba6558753f4bd8edd" approved="yes">
         <source>Only part of the images have been regenerated. The server timed out before finishing.</source>
         <target state="final">רק חלק מהתמונות הופקו מחדש. השרת עצר לפני סיום.</target>
@@ -72,6 +121,11 @@
         <source>Server timed out. The watermark may not have been applied to all images.</source>
         <target state="final">השרת עצר. יתכן שסימן המים לא הוחל על כל התמונות.</target>
         <note>Line: 684</note>
+      </trans-unit>
+      <trans-unit id="606495559093a136ed6f2c9daee2645f" approved="yes">
+        <source>Cannot write "No picture" image to %s images folder. Please check the folder's writing permissions.</source>
+        <target state="final">לא ניתן לכתוב לדיסק תמונת "ללא תמונה" לתיקיית התמונות %s. אנא בדקו את הרשאות הכתיבה של התיקייה.</target>
+        <note>Line: 689</note>
       </trans-unit>
       <trans-unit id="4004c7590c68a8cbbe499736c56bc33c" approved="yes">
         <source>Error: Your server configuration is not compatible with the new image system. No images were moved.</source>
@@ -107,6 +161,11 @@
         <target state="final">הקובץ שהועלה גדול מידי.</target>
         <note>Line: 922</note>
       </trans-unit>
+      <trans-unit id="d4c8009943f24c4318bef97058cc6ffa" approved="yes">
+        <source>Failed to move uploaded file.</source>
+        <target state="final">הזזת הקובץ שהועלה נכשל.</target>
+        <note>Line: 380</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Core/Addon/Theme/ThemeManager.php" source-language="en" target-language="he" datatype="plaintext">
@@ -124,6 +183,11 @@
         <source>An error occurred. The information "%s" is missing.</source>
         <target state="final">ארעה שגיאה. המידע "%s" חסר.</target>
         <note>Line: 72</note>
+      </trans-unit>
+      <trans-unit id="7d88c564a7f74d56564402cd5e054b13" approved="yes">
+        <source>An error occurred. The template "%s" is missing.</source>
+        <target state="final">התרחשה שגיאה. התבנית "%s" חסרה.</target>
+        <note>Line: 118</note>
       </trans-unit>
     </body>
   </file>
@@ -156,6 +220,16 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/Design/ThemeController.php" source-language="en" target-language="he" datatype="plaintext">
     <body>
+      <trans-unit id="4a9fdf95b29176bd9260016655a80852" approved="yes">
+        <source>Your RTL stylesheets has been generated successfully</source>
+        <target state="final">גליונות הסגנון שלך ב- RTL נוצרו בהצלחה</target>
+        <note>Line: 360</note>
+      </trans-unit>
+      <trans-unit id="9ccfef29efe298e9a48295a69436e11f" approved="yes">
+        <source><![CDATA[Your theme has been correctly reset to its default settings. You may want to regenerate your images. See the Improve > Design > Images Settings screen for the 'Regenerate thumbnails' button.]]></source>
+        <target state="final"><![CDATA[העיצוב שלך אופס בהצלחה להגדרות ברירת המחדל שלו. ייתכן כי תרצה לחדש את התמונות שלך. ראו את שפר > עיצוב > הגדרות תמונות עבור כפתור 'חדש תמונות ממוזערות'.]]></target>
+        <note>Line: 385</note>
+      </trans-unit>
       <trans-unit id="0933caade58197a4ff60c27077f67604" approved="yes">
         <source>There is already a theme %theme_name% in your themes folder. Remove it if you want to continue.</source>
         <target state="final">בתיקיית העיצובים שלך כבר יש נושא %theme_name%. הסר אותו אם אתה רוצה להמשיך.</target>
@@ -189,7 +263,11 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/Design/Theme/ImportThemeType.php" source-language="en" target-language="he" datatype="plaintext">
     <body>
-      
+      <trans-unit id="1ecb89bb5b6dce906edaf8e12968c167" approved="yes">
+        <source>Invalid file format.</source>
+        <target state="final">פורמט קובץ לא חוקי.</target>
+        <note>Line: 77</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Design/Theme/Blocks/logo_configuration.html.twig" source-language="en" target-language="he" datatype="plaintext">

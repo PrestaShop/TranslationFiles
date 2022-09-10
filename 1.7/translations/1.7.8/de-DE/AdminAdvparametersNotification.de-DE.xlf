@@ -45,6 +45,11 @@
         <target state="final">Beim Import von Lieferaufträgen wird eine eventuell vorhandene Bestellhistorie gelöscht.</target>
         <note>Line: 70</note>
       </trans-unit>
+      <trans-unit id="df6e9862566912e908ef785e860f9c71" approved="yes">
+        <source>Are you sure that you would like to delete this entity: </source>
+        <target state="final">Sind Sie sicher, dass Sie diese Entität löschen möchten: </target>
+        <note>Line: 493</note>
+      </trans-unit>
       <trans-unit id="83a1698a445036a9a65686ac61879794" approved="yes">
         <source>You do not have permission to delete this. When the MultiStore mode is enabled, only a SuperAdmin can delete all items before an import.</source>
         <target state="final">Sie haben hier keine ausreichenden Löschrechte. Bei aktivierter Multishop-Funktion kann nur der Super-Admin alle Items vor dem Import löschen.</target>
@@ -486,7 +491,11 @@
   </file>
   <file original="src/Adapter/GeneralConfiguration.php" source-language="en" target-language="de" datatype="plaintext">
     <body>
-      
+      <trans-unit id="8484fc3dd1ece15646c9cf04ab71b19c" approved="yes">
+        <source>The SameSite=None is only available in secure mode.</source>
+        <target state="final">Die Option SameSite=None ist nur im sicheren Modus verfügbar.</target>
+        <note>Line: 96</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Import/Handler/AbstractImportHandler.php" source-language="en" target-language="de" datatype="plaintext">
@@ -609,6 +618,36 @@
         <target state="final">Artikel-Nr. %id%: Bild (%url%) kann nicht gespeichert werden</target>
         <note>Line: 1138</note>
       </trans-unit>
+      <trans-unit id="c2758df7a8c70260e3b55e26c51b65fd" approved="yes">
+        <source>Advanced stock management has incorrect value. Not set for product %name% </source>
+        <target state="final">Ungültiger Wert in der erweiterten Lagerverwaltung. Keine Angabe für das Produkt %name% </target>
+        <note>Line: 1232</note>
+      </trans-unit>
+      <trans-unit id="bb80841517f78647c5bee69710820c8d" approved="yes">
+        <source>Advanced stock management is not enabled, cannot enable on product %name% </source>
+        <target state="final">Erweiterte Lagerhaltung ist nicht aktiviert und kann daher nicht für das Produkt %name% aktiviert werden </target>
+        <note>Line: 1240</note>
+      </trans-unit>
+      <trans-unit id="651e202913d9229ff615d5afd6a6a168" approved="yes">
+        <source>Advanced stock management is not enabled, warehouse not set on product %name% </source>
+        <target state="final">Erweiterte Lagerverwaltung ist nicht aktiviert, für das Produkt %name% wurde kein Lager ausgewählt </target>
+        <note>Line: 1259</note>
+      </trans-unit>
+      <trans-unit id="470d8f3caa9e30c426f8d49779cc7a36" approved="yes">
+        <source>Warehouse did not exist, cannot set on product  %name% </source>
+        <target state="final">Warenlager existiert nicht, kann für das Produkt  %name% nicht gewählt werden.</target>
+        <note>Line: 1281</note>
+      </trans-unit>
+      <trans-unit id="3d52f8b2b1a67aa8740b72b3752d54f3" approved="yes">
+        <source>Incorrect value for "Depends on stock" for product %name% </source>
+        <target state="final">Falscher Wert für "abhängig vom Warenbestand" für das Produkt %name% </target>
+        <note>Line: 1303</note>
+      </trans-unit>
+      <trans-unit id="65167d7a989d3a25c4f81a7140b07b8f" approved="yes">
+        <source>Advanced stock management is not enabled, cannot set "Depends on stock" for product %name% </source>
+        <target state="final">Erweiterte Lagerverwaltung deaktiviert, Option "abhängig vom Warenbestand" für das Produkt %name% nicht möglich</target>
+        <note>Line: 1311</note>
+      </trans-unit>
       <trans-unit id="1f45b8f0e0e3ab3a5c43c9b99641fad5" approved="yes">
         <source>Advanced stock management has incorrect value. Not set for product %name%</source>
         <target state="final">Ungültiger Wert in der erweiterten Lagerverwaltung. Keine Angabe für den Artikel %name%</target>
@@ -634,6 +673,11 @@
         <target state="final">Erweiterte Lagerverwaltung deaktiviert, Option "abhängig vom Warenbestand" für Artikel %name% nicht möglich</target>
         <note>Line: 1311</note>
       </trans-unit>
+      <trans-unit id="c9b7bd5af2306a1572da86fb68d68883" approved="yes">
+        <source>Warehouse did not exist, cannot set on product %name%</source>
+        <target state="final">Warenlager existiert nicht, kann für das Produkt %name% nicht gewählt werden</target>
+        <note>Line: 1281</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Media/MediaServerConfiguration.php" source-language="en" target-language="de" datatype="plaintext">
@@ -657,7 +701,11 @@
   </file>
   <file original="src/Adapter/Preferences/PreferencesConfiguration.php" source-language="en" target-language="de" datatype="plaintext">
     <body>
-      
+      <trans-unit id="fae40e95d9558caac76c035cd93da2a2" approved="yes">
+        <source>Cannot disable SSL configuration due to the Cookie SameSite=None.</source>
+        <target state="final">Die SSL-Konfiguration kann aufgrund des Cookies SameSite=None nicht deaktiviert werden.</target>
+        <note>Line: 86</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Requirement/CheckRequirements.php" source-language="en" target-language="de" datatype="plaintext">
@@ -1258,6 +1306,11 @@
         <target state="final">Löschen bitte bestätigen für: </target>
         <note>Line: 29</note>
       </trans-unit>
+      <trans-unit id="96928d6d818f56de18860a85e4a06f43" approved="yes">
+        <source>Are you sure you want to delete this entity:</source>
+        <target state="final">Sind Sie sicher, dass Sie diese Entität löschen möchten:</target>
+        <note>Line: 30</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Email/Blocks/smtp_configuration.html.twig" source-language="en" target-language="de" datatype="plaintext">
@@ -1271,15 +1324,30 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/FeatureFlag/index.html.twig" source-language="en" target-language="de" datatype="plaintext">
     <body>
+      <trans-unit id="fcfc1d5af32905a9ed28a76af2251ba9" approved="yes">
+        <source>Testing a feature before its official release can be exciting. However, you must be aware of the potential risks of such experiments:</source>
+        <target state="final">Eine Funktion vor ihrer offiziellen Freigabe zu testen, kann spannend sein. Sie müssen sich jedoch über die potenziellen Risiken solcher Experimente im Klaren sein:</target>
+        <note>Line: 43</note>
+      </trans-unit>
       <trans-unit id="53c5e9fcfd605dfccf3aacc3027c60f3" approved="yes">
         <source>Experimental features are still under development. Enabling them could therefore have unintended consequences and cause data loss.</source>
         <target state="final">Experimentelle Funktionen befinden sich weiterhin in Entwicklung. Eine Nutzung dieser kann daher unbeabsichtigte Folgen haben und zu Datenverlust führen.</target>
         <note>Line: 45</note>
       </trans-unit>
+      <trans-unit id="331d76b5a38e0ad8a13653d85a90e96d" approved="yes">
+        <source>In any case, you should never experiment in production.</source>
+        <target state="final">Auf jeden Fall sollten Sie niemals in der Live-Version experimentieren.</target>
+        <note>Line: 46</note>
+      </trans-unit>
       <trans-unit id="22dfbbf886a501432d4db326a9170fce" approved="yes">
         <source>Are you sure you want to enable this experimental feature?</source>
         <target state="final">Sind Sie sicher, dass Sie diese experimentelle Funktion aktivieren wollen?</target>
         <note>Line: 56</note>
+      </trans-unit>
+      <trans-unit id="efdf4b9d62380dc9cab8fedd5c997cf5" approved="yes">
+        <source>You are about to enable a feature that is not stable yet. This should only be done in a test environment or in full knowledge of the potential risks.</source>
+        <target state="final">Sie sind dabei, eine Funktion zu aktivieren, die noch nicht stabil ist. Dies sollte nur in einer Testumgebung oder in voller Kenntnis der möglichen Risiken geschehen.</target>
+        <note>Line: 57</note>
       </trans-unit>
     </body>
   </file>

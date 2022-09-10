@@ -5,6 +5,8 @@ Salve {firstname} {lastname},
 
 Grazie per aver ordinato presso {shop_name}! 
 
+Dettagli dell'ordine 
+
 ORDINE: {order_name} Effettuato su {date}
 
 PAGAMENTO: {payment} 		 
@@ -19,7 +21,7 @@ QUANTITÀ
 
 PREZZO TOTALE
 
-{products_txt} 
+{products} {products_txt} 
 
 {discounts} 
 
@@ -47,23 +49,30 @@ TOTALE PAGATO
 
 {total_paid} 
 
+Spedizione 
+
 CORRIERE: {carrier}
 
 PAGAMENTO: {payment} 		 
 
-{delivery_block_txt} 
+Indirizzo di consegna 
 
-{invoice_block_txt} 
+{delivery_block_html} {delivery_block_txt} 		 
+
+Indirizzo di fatturazione 
+
+{invoice_block_html} {invoice_block_txt} 		 
 
 Puoi visualizzare il tuo ordine e scaricare la eventuale fattura
-dalla sezione "Cronologia ordini" [{history_url}]
-nel tuo account utente cliccando su "Il mio account"
+dalla sezione "Cronologia ordini"
+[{history_url}] nel tuo account utente
+cliccando su "Il mio account"
 [{my_account_url}] all'interno del sito. 
 
 Se hai un account ospite, adesso puoi seguire il tuo ordine
 tramite la sezione "Tracking Ospite"
-[{guest_tracking_url}?id_order={order_name}] sul
-nostro sito. 
+[{guest_tracking_url}?id_order={order_name}]
+sul nostro sito. 
 
 {shop_name} [{shop_url}] powered by
 PrestaShop(tm) [http://www.prestashop.com/] 

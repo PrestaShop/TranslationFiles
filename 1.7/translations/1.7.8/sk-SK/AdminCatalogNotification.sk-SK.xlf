@@ -35,6 +35,16 @@
         <target state="final">Nemožno nastaviť pozíciu vyššiu ako celkový počet produktov v kategórii mínus 1 (číslovanie pozícií začína od 0).</target>
         <note>Line: 6171</note>
       </trans-unit>
+      <trans-unit id="30a367ba686890c829937e768d588b8f" approved="yes">
+        <source>You cannot set 0 or a negative position, the minimum is 1.</source>
+        <target state="final">Nemôžete nastaviť 0 alebo zápornú hodnotu, minimum je 1.</target>
+        <note>Line: 7107</note>
+      </trans-unit>
+      <trans-unit id="cf99dad7d7306d9ac01ba5a2e2d2c715" approved="yes">
+        <source>You cannot set a position greater than the total number of products in the category, starting at 1.</source>
+        <target state="final">Nemôžete nastaviť vyššiu pozíciu, ako je celkový počet produktov v kategórii, počnúc 1.</target>
+        <note>Line: 7128</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/QqUploadedFileForm.php" source-language="en" target-language="sk" datatype="plaintext">
@@ -786,6 +796,11 @@
         <target state="final">Pri úprave kategórie sa vyskytla chyba.</target>
         <note>Line: 873</note>
       </trans-unit>
+      <trans-unit id="17668cbc24213c8d43211a67139c3939" approved="yes">
+        <source>The root category of a shop cannot be edited.</source>
+        <target state="final">Koreňovú kategóriu obchodu nie je možné upraviť.</target>
+        <note>Line: 869</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/ManufacturerController.php" source-language="en" target-language="sk" datatype="plaintext">
@@ -804,7 +819,11 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/ProductController.php" source-language="en" target-language="sk" datatype="plaintext">
     <body>
-      
+      <trans-unit id="f07403f2e9d7e44c0090ab06678d4eb3" approved="yes">
+        <source>The experimental product page is not enabled. To enable it, go to the %sExperimental Features%s page.</source>
+        <target state="final">Stránka experimentálneho produktu nie je povolená. Ak ju chcete povoliť, prejdite na stránku %sExperimentálne funkcie%s.</target>
+        <note>Line: 276</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/SupplierController.php" source-language="en" target-language="sk" datatype="plaintext">
@@ -838,6 +857,11 @@
         <target state="final">Na sklade nie je dostatok produktov.</target>
         <note>Line: 604</note>
       </trans-unit>
+      <trans-unit id="891d308560a0cca2452fd2f482dded8c" approved="yes">
+        <source><![CDATA[Product customization could not be found. Go to Catalog > Products to customize the product.]]></source>
+        <target state="final"><![CDATA[Prispôsobenie produktu sa nepodarilo nájsť. Ak chcete prispôsobiť produkt, prejdite do časti Katalóg > Produkty.]]></target>
+        <note>Line: 596</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php" source-language="en" target-language="sk" datatype="plaintext">
@@ -869,15 +893,35 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/HeaderType.php" source-language="en" target-language="sk" datatype="plaintext">
     <body>
+      <trans-unit id="2b260d6a8a4b747672d790f18c2ab780" approved="yes">
+        <source>Are you sure you want to change the product type?</source>
+        <target state="final">Naozaj chcete zmeniť typ produktu?</target>
+        <note>Line: 70</note>
+      </trans-unit>
       <trans-unit id="da531a2761eef5012cadd0a2e31acab6" approved="yes">
         <source>Change product type</source>
         <target state="final">Zmeniť typ produktu</target>
         <note>Line: 71</note>
       </trans-unit>
+      <trans-unit id="178b6141eb15b94fb25e5940625ecd01" approved="yes">
+        <source>Changing the product type will immediately save the product and refresh the page.</source>
+        <target state="final">Zmena typu produktu spôsobí jeho okamžite uloženie a obnovu stránky.</target>
+        <note>Line: 73</note>
+      </trans-unit>
       <trans-unit id="d125a0ad5887eb2575a57c2149a12c1d" approved="yes">
         <source>This will delete all combinations.</source>
         <target state="final">Operácia odstráni všetky kombinácie.</target>
         <note>Line: 74</note>
+      </trans-unit>
+      <trans-unit id="6b7844c384e54ed301c7f3f6b4aac389" approved="yes">
+        <source>This will delete the list of products in this pack.</source>
+        <target state="final">Týmto sa odstráni zoznam produktov v balení.</target>
+        <note>Line: 75</note>
+      </trans-unit>
+      <trans-unit id="4882c6b9d11d6aacd193fa21547fd727" approved="yes">
+        <source>This will delete the associated virtual file.</source>
+        <target state="final">Týmto sa odstráni priradený virtuálny súbor.</target>
+        <note>Line: 76</note>
       </trans-unit>
     </body>
   </file>
@@ -887,6 +931,11 @@
         <source>Image replaced</source>
         <target state="final">Obrázok bol nahradený</target>
         <note>Line: 56</note>
+      </trans-unit>
+      <trans-unit id="02708462d504c68df426d48cd6aae23f" approved="yes">
+        <source>Are you sure you want to delete the selected image?|Are you sure you want to delete the %filesNb% selected images?</source>
+        <target state="final">Naozaj chcete odstrániť vybratý obrázok?|Naozaj chcete odstrániť vybraté obrázky %filesNb%?</target>
+        <note>Line: 79</note>
       </trans-unit>
     </body>
   </file>
@@ -1137,6 +1186,11 @@
         <source>Discard changes?</source>
         <target state="final">Zahodiť zmeny?</target>
         <note>Line: 45</note>
+      </trans-unit>
+      <trans-unit id="e202ea17abd88b9634fb9939f6253ea9" approved="yes">
+        <source>All unsaved modifications made on the combination [1]%combinationName%[/1] will be lost.</source>
+        <target state="final">Všetky neuložené zmeny v kombinácii [1]%combinationName%[/1] budú stratené.</target>
+        <note>Line: 46</note>
       </trans-unit>
     </body>
   </file>

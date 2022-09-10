@@ -5,6 +5,8 @@ Hallo {firstname} {lastname},
 
 Bedankt voor het winkelen bij {shop_name}! 
 
+Besteloverzicht 
+
 BESTELLING: {order_name} Geplaatst op {date}
 
 BETALING: {payment} 		 
@@ -19,7 +21,7 @@ AANTAL
 
 TOTAALPRIJS
 
-{products_txt} 
+{products} {products_txt} 
 
 {discounts} 
 
@@ -47,22 +49,28 @@ TOTAAL BETAALD
 
 {total_paid} 
 
+Verzending 
+
 VERVOERDER: {carrier}
 
 BETALING: {payment} 		 
 
-{delivery_block_txt} 
+Afleveradres 
 
-{invoice_block_txt} 
+{delivery_block_html} {delivery_block_txt} 		 
+
+Factuuradres 
+
+{invoice_block_html} {invoice_block_txt} 		 
 
 U kunt uw bestelling bekijken en de factuur downloaden vanuit de
-sectie "Bestelgeschiedenis" [{history_url}] op de
-klantportal, door te klikken op de link "Mijn account"
+sectie "Bestelgeschiedenis" [{history_url}]
+op de klantportal, door te klikken op de link "Mijn account"
 [{my_account_url}] in onze winkel. 
 
 Indien u hebt afgerekend zonder het aanmaken van een account, dan
 kunt u deze bestelling volgen via "deze link"
-[{guest_tracking_url}?id_order={order_name}]. 
+[{guest_tracking_url}?id_order={order_name}].
 
 {shop_name} [{shop_url}] powered by
 PrestaShop(tm) [http://www.prestashop.com/] 
