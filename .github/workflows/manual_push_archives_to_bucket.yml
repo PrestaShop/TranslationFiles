@@ -1,0 +1,33 @@
+name: Update TranslationFiles packages on manual trigger
+
+# Controls when the workflow will run
+on:
+    # Allows you to run this workflow manually from the Actions tab
+    workflow_dispatch:
+        inputs:
+            prestashop_version:
+                description: Which PrestaShop version you want to update
+                required: true
+                default: '8.0'
+                type: choice
+                options:
+                    - '8.0'
+                    - '1.7.8'
+            environment:
+                # We don't include production environment on purpose
+                description: Which environment you want to update (integration, preproduction)
+                required: true
+                default: 'integration'
+                type: choice
+                options:
+                    - integration
+                    - preproduction
+
+jobs:
+    # Call internal workflow with specified parameters
+    manual_push_archives_to_bucket:
+        uses: PrestaShop/TranslationFiles/.github/workflows/push_archives_to_bucket.yml@master
+        with:
+            target_branch: ${{ inputs.environment }}
+            prestashop_version: ${{ inputs.prestashop_version }}
+        secrets: inherit

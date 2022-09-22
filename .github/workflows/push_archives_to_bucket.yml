@@ -1,0 +1,83 @@
+name: Update TranslationFiles packages
+
+# Controls when the workflow will run
+on:
+    workflow_call:
+        inputs:
+            prestashop_version:
+                description: Which PrestaShop version you want to update
+                required: true
+                type: string
+            target_branch:
+                description: Which branch you want to push on its associated bucket (integration, production)
+                required: true
+                type: string
+        secrets:
+            translation_tool_token:
+                required: true
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+    # This workflow contains a single job called "push_archives_to_bucket"
+    push_archives_to_bucket:
+        # The type of runner that the job will run on
+        runs-on: ubuntu-latest
+        steps:
+            # For preproduction and production we use TranslationTool 1.0.0, other values use master branch and integration environment
+            - name: Prepare Job settings
+              run: |
+               if test ${{ inputs.target_branch }} = "master" || test ${{ inputs.target_branch }} = "production";
+               then
+                 echo '::set-output name=TRANSLATION_TOOL_REF::1.0.0'
+                 echo '::set-output name=TARGET_ENVIRONMENT::production'
+               elif test ${{ inputs.target_branch }} = "preproduction";
+               then
+                 echo '::set-output name=TRANSLATION_TOOL_REF::1.0.0'
+                 echo '::set-output name=TARGET_ENVIRONMENT::preproduction'
+               else
+                 echo '::set-output name=TRANSLATION_TOOL_REF::master'
+                 echo '::set-output name=TARGET_ENVIRONMENT::integration'
+               fi
+              shell: bash
+              id: job-settings
+
+            - name: Display task details
+              run: echo "Update PrestaShop version ${{ inputs.prestashop_version }} from branch ${{ inputs.target_branch }} using environment ${{ steps.job-settings.outputs.TARGET_ENVIRONMENT }} with TranslationTool branch/tag ${{ steps.job-settings.outputs.TRANSLATION_TOOL_REF }}"
+
+            # Checkout TranslationTool repository under $GITHUB_WORKSPACE, so your job can access it
+            - name: Checkout TranslationTools app
+              uses: actions/checkout@v3
+              with:
+                  repository: PrestaShopCorp/TranslationTool
+                  ref: ${{ steps.job-settings.outputs.TRANSLATION_TOOL_REF }}
+                  token: ${{ secrets.translation_tool_token }}
+
+            - name: Setup PHP
+              uses: shivammathur/setup-php@v2
+              with:
+                  php-version: '8.0'
+                  extensions: curl, json
+
+            - name: Install composer dependencies
+              run: composer install
+
+            # Checkout repository TranslationFiles in var dir so that the command can use it
+            - name: Checkout TranslationFiles in var dir
+              uses: actions/checkout@v3
+              with:
+                  path: var/TranslationFiles
+
+            - name: 'Authenticate to Google Cloud'
+              uses: 'google-github-actions/auth@v0'
+              with:
+                  credentials_json: ${{ secrets.credentials_json }}
+                  create_credentials_file: true
+                  cleanup_credentials: true
+                  export_environment_variables: true
+
+            - name: Run push bucket command
+              run: php bin/console prestashop:bucket:push-archives --prestashop-version=${{ inputs.prestashop_version }}
+              env:
+                  TRANSLATIONS_GCP_PROJECT_ID: core-oss-${{ steps.job-settings.outputs.TARGET_ENVIRONMENT }}
+                  TRANSLATIONS_GCP_BUCKET_NAME: translations-${{ steps.job-settings.outputs.TARGET_ENVIRONMENT }}
+                  TRANSLATIONS_GCP_CREDENTIAL_FILE: ${{ env.GOOGLE_APPLICATION_CREDENTIALS }}
