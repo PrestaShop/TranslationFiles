@@ -7,17 +7,17 @@ on:
         branches:
             - integration
             - preproduction
+            - master
 
 jobs:
     # Call internal workflow with specified parameters
-    call-workflow-passing-data:
+    automatic_push_archives_to_bucket:
         strategy:
             fail-fast: false
             matrix:
                 prestashop_version:
                     - '8.0'
                     - '1.7.8'
-        # Temporary branch name for development, to replace with master before merging
         uses: PrestaShop/TranslationFiles/.github/workflows/push_archives_to_bucket.yml@master
         with:
             target_branch: ${{ github.ref_name }}

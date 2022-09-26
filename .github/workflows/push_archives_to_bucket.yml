@@ -1,6 +1,6 @@
 name: Update TranslationFiles packages
 
-# Controls when the workflow will run
+# Reusable workflow
 on:
     workflow_call:
         inputs:
@@ -14,6 +14,8 @@ on:
                 type: string
         secrets:
             translation_tool_token:
+                required: true
+            credentials_json:
                 required: true
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
