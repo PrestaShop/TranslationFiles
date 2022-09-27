@@ -10,8 +10,30 @@ on:
             - master
 
 jobs:
+    # Depending on the branch that triggered this action we are going to switch the environment
+    prepare_environment:
+        # The type of runner that the job will run on
+        runs-on: ubuntu-latest
+        steps:
+            - name: Prepare environment to use
+              id: branch_check
+              run: |
+                  if test ${{ github.ref_name }} = "master";
+                  then
+                    echo '::set-output name=env_name::production'
+                  elif test ${{ github.ref_name }} = "preproduction";
+                  then
+                    echo '::set-output name=env_name::preproduction'
+                  else
+                    echo '::set-output name=env_name::integration'
+                  fi
+              shell: bash
+        outputs:
+            env_name: ${{ steps.branch_check.outputs.env_name }}
+
     # Call internal workflow with specified parameters
     automatic_push_archives_to_bucket:
+        needs: [prepare_environment]
         strategy:
             fail-fast: false
             matrix:
@@ -20,6 +42,6 @@ jobs:
                     - '1.7.8'
         uses: PrestaShop/TranslationFiles/.github/workflows/push_archives_to_bucket.yml@master
         with:
-            target_branch: ${{ github.ref_name }}
+            environment: ${{ needs.prepare_environment.outputs.env_name }}
             prestashop_version: ${{ matrix.prestashop_version }}
         secrets: inherit
