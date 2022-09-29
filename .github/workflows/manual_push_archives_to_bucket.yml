@@ -14,11 +14,11 @@ on:
                     - '8.0'
                     - '1.7.8'
             environment:
-                # We don't include production environment on purpose
                 description: Which environment you want to update (integration, preproduction)
                 required: true
                 default: 'integration'
                 type: choice
+                # We don't include production environment on purpose
                 options:
                     - integration
                     - preproduction
@@ -28,6 +28,6 @@ jobs:
     manual_push_archives_to_bucket:
         uses: PrestaShop/TranslationFiles/.github/workflows/push_archives_to_bucket.yml@master
         with:
-            target_branch: ${{ inputs.environment }}
+            environment: ${{ inputs.environment }}
             prestashop_version: ${{ inputs.prestashop_version }}
         secrets: inherit
