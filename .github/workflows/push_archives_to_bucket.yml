@@ -28,18 +28,18 @@ jobs:
         environment:
           name: ${{ inputs.environment }}
         steps:
-            # For preproduction and production we use TranslationTool 1.0.1
+            # For preproduction we use master and for production we use TranslationTool 1.0.2
             # For other values we use the dev branch from TranslationTool
             # The target branch for TranslationFiles is also defined based on the chosen environment
             - name: Prepare Job settings
               run: |
                if test ${{ inputs.environment }} = "production";
                then
-                 echo '::set-output name=TRANSLATION_TOOL_REF::1.0.1'
+                 echo '::set-output name=TRANSLATION_TOOL_REF::1.0.2'
                  echo '::set-output name=TRANSLATION_FILES_BRANCH::master'
                elif test ${{ inputs.environment }} = "preproduction";
                then
-                 echo '::set-output name=TRANSLATION_TOOL_REF::1.0.1'
+                 echo '::set-output name=TRANSLATION_TOOL_REF::master'
                  echo '::set-output name=TRANSLATION_FILES_BRANCH::preproduction'
                else
                  echo '::set-output name=TRANSLATION_TOOL_REF::dev'
