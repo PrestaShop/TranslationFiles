@@ -88,5 +88,5 @@ jobs:
               run: php bin/console prestashop:bucket:push-archives --prestashop-version=${{ inputs.prestashop_version }}
               env:
                   TRANSLATIONS_GCP_PROJECT_ID: core-oss-${{ inputs.environment }}
-                  TRANSLATIONS_GCP_BUCKET_NAME: translations-${{ inputs.environment }}
+                  TRANSLATIONS_GCP_BUCKET_NAME: translations-core-oss-${{ inputs.environment }}
                   TRANSLATIONS_GCP_CREDENTIAL_FILE: ${{ env.GOOGLE_APPLICATION_CREDENTIALS }}
