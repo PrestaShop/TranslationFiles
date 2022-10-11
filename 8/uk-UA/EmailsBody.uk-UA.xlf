@@ -36,7 +36,7 @@
     <body>
       <trans-unit id="bffeb374bf71938ffc4faa42afbf1679" approved="yes">
         <source><![CDATA[Please go on <a href="{order_link}">{order_link}</a> to finalize the payment.]]></source>
-        <target state="final"><![CDATA[Будь ласка,  перейдіть на <a href="{order_link}">{order_link}</a> щоб завершити оплату.]]></target>
+        <target state="final"><![CDATA[Щоб завершити оплату, перейдіть на сторінку <a href="{order_link}">{order_link}</a>.]]></target>
         <note>Line: 25</note>
       </trans-unit>
     </body>
@@ -69,7 +69,7 @@
       </trans-unit>
       <trans-unit id="d698e777b19f6f487ae0490950174fde" approved="yes">
         <source>Awaiting check payment</source>
-        <target state="final">Очікування перевірки платежу</target>
+        <target state="final">Очікується оплата чеком</target>
         <note>Line: 25</note>
       </trans-unit>
       <trans-unit id="ecf01c46965fdfd36eb98b271276c0d5" approved="yes">
@@ -90,6 +90,11 @@
         <source>Order ID:</source>
         <target state="final">Замовлення №:</target>
         <note>Line: 24</note>
+      </trans-unit>
+      <trans-unit id="4086969566e95f6b4479c3263def42d4" approved="yes">
+        <source>Customer email address:</source>
+        <target state="final">E-mail адреса клієнта:</target>
+        <note>Line: 22</note>
       </trans-unit>
     </body>
   </file>
@@ -130,7 +135,7 @@
     <body>
       <trans-unit id="5f55a607fea61a402ceac66cc99f1e9e" approved="yes">
         <source><![CDATA[Thank you for your order with the reference {order_name} from <strong>{shop_name}</strong>]]></source>
-        <target state="final"><![CDATA[Дякуємо за ваше замовлення за посиланням {order_name} в <strong>{shop_name}</strong>]]></target>
+        <target state="final"><![CDATA[Дякуємо за ваше замовлення з номером {order_name} в магазині <strong>{shop_name}</strong>]]></target>
         <note>Line: 8</note>
       </trans-unit>
       <trans-unit id="30acb55a5efc4a32a30a0c3db85f37d1" approved="yes">
@@ -237,7 +242,7 @@
     <body>
       <trans-unit id="381fc38b470ed543424afbd43f224453" approved="yes">
         <source>Message from a customer</source>
-        <target state="final">Повідомлення від клінта</target>
+        <target state="final">Повідомлення від клієнта</target>
         <note>Line: 24</note>
       </trans-unit>
     </body>
@@ -246,7 +251,7 @@
     <body>
       <trans-unit id="34d125dc458bced25eaf5e2e272c0d75" approved="yes">
         <source>Return #{id_order_return} - update</source>
-        <target state="final">Повернення #{id_order_return} - оновлення</target>
+        <target state="final">Повернення №{id_order_return} - оновленно</target>
         <note>Line: 24</note>
       </trans-unit>
     </body>
@@ -260,7 +265,7 @@
       </trans-unit>
       <trans-unit id="5468cd18ba24d269db5ebe9177abca4a" approved="yes">
         <source>Unfortunately, one or more items are currently out of stock. This may cause a slight delay in your delivery. Please accept our apologies and rest assured that we are working hard to rectify this.</source>
-        <target state="final">На жаль, один або кілька товарів в даний час немає в наявності. Це може призвести до невеликої затримки у доставці. Будь ласка, прийміть наші вибачення і будьте впевнені, що ми докладаємо всіх зусиль, щоб це виправити.</target>
+        <target state="final">На жаль, одного або кількох товарів в даний час немає в наявності. Це може призвести до невеликої затримки у доставці. Будь ласка, прийміть наші вибачення і будьте впевнені, що ми докладаємо всіх зусиль, щоб це виправити.</target>
         <note>Line: 30</note>
       </trans-unit>
     </body>
@@ -385,7 +390,7 @@
     <body>
       <trans-unit id="6edfaaf163aab585fb50f909e6f2cadf" approved="yes">
         <source>Voucher created</source>
-        <target state="final">Ваучер створений</target>
+        <target state="final">Купон створено</target>
         <note>Line: 24</note>
       </trans-unit>
       <trans-unit id="6e27b373aa04d07be7c5a65bbd9f45ed" approved="yes">
@@ -432,12 +437,12 @@
     <body>
       <trans-unit id="bb09440b8cab954c036c4a45558857a5" approved="yes">
         <source>Total Tax paid</source>
-        <target state="final">Всього податків сплачено</target>
+        <target state="final">Сума до оплати з ПДВ</target>
         <note>Line: 180</note>
       </trans-unit>
       <trans-unit id="6881c1c321e65a31d35137f960022cf7" approved="yes">
         <source>A new order was placed on {shop_name} by the following customer: {firstname} {lastname} ({email})</source>
-        <target state="final">Отримано нове замовлення у {shop_name} наступним покупцем: {firstname} {lastname} ({email})</target>
+        <target state="final">У магазині {shop_name} розміщено нове замовлення від клієнта: {firstname} {lastname} ({email})</target>
         <note>Line: 14</note>
       </trans-unit>
     </body>
@@ -488,12 +493,12 @@
     <body>
       <trans-unit id="cd8ee64ef80cd6bb4e320a7d0563b56f" approved="yes">
         <source>Return details</source>
-        <target state="final">Стан повернення</target>
+        <target state="final">Деталі повернення</target>
         <note>Line: 25</note>
       </trans-unit>
       <trans-unit id="f2d476bf166cc31b450908f8606b0fd5" approved="yes">
         <source>{order_name} Placed on {date}</source>
-        <target state="final">{order_name} Розміщене {date}</target>
+        <target state="final">{order_name} оформлене {date}</target>
         <note>Line: 28</note>
       </trans-unit>
     </body>
@@ -577,7 +582,7 @@
       </trans-unit>
       <trans-unit id="24986b852e72fcfba407bd807f790abd" approved="yes">
         <source>Enter this code in your shopping cart to get your discount.</source>
-        <target state="final">Введіть цей код у вашому кошику щоб отримати знижку.</target>
+        <target state="final">Введіть цей код у своєму кошику, щоб отримати знижку.</target>
         <note>Line: 52</note>
       </trans-unit>
       <trans-unit id="7ed5b90c2f87440a6e83fc35dca83242" approved="yes">
@@ -610,7 +615,7 @@
     <body>
       <trans-unit id="efd0d72633aeb91f063cfa143f56ca6b" approved="yes">
         <source>join us!</source>
-        <target state="final">Приєднуйтесь до нас!</target>
+        <target state="final">приєднуйтесь до нас!</target>
         <note>Line: 7</note>
       </trans-unit>
       <trans-unit id="c4ae632d712131d48fcb9c6197933fe6" approved="yes">
@@ -702,7 +707,7 @@
     <body>
       <trans-unit id="abc81c0d865925584b1269c996d7b297" approved="yes">
         <source>A new order has been generated on your behalf.</source>
-        <target state="final">Від вашого імені було здійснено нове замовлення.</target>
+        <target state="final">На ваше ім'я створено нове замовлення.</target>
         <note>Line: 87</note>
       </trans-unit>
       <trans-unit id="fb08925252dd912f564413fb5109eb06" approved="yes">
@@ -726,17 +731,17 @@
       </trans-unit>
       <trans-unit id="20a650d87733bd5895c979de29864a73" approved="yes">
         <source>Account details:</source>
-        <target state="final">Подробиці облікового запису:</target>
+        <target state="final">Дані рахунку:</target>
         <note>Line: 221</note>
       </trans-unit>
       <trans-unit id="312d898d92d8ba90499ef0dac27270be" approved="yes">
         <source>Bank address:</source>
-        <target state="final">№ поточного рахунку, назва та відділення банку, МФО:</target>
+        <target state="final">Адреса банку:</target>
         <note>Line: 226</note>
       </trans-unit>
       <trans-unit id="b8f05e3501f419f9f7ec08026a9342be" approved="yes">
         <source>Please specify your order reference in the bankwire description.</source>
-        <target state="final">Будь ласка, вкажіть номер вашого замовлення в призначенні банківського переказу.</target>
+        <target state="final">Будь ласка, вкажіть номер вашого замовлення в полі "Призначення платежу" банківського переказу.</target>
         <note>Line: 231</note>
       </trans-unit>
       <trans-unit id="35b4b09d5d0686ec5c2e2cc9f3d9039c" approved="yes">
@@ -770,7 +775,7 @@
     <body>
       <trans-unit id="b4556791acee238c77be9ed338a29e80" approved="yes">
         <source>Thank you for shopping with {shop_name}!</source>
-        <target state="final">Дякуємо за покупку у {shop_name}!</target>
+        <target state="final">Дякуємо за покупку в магазині [1]{shop_name}[/1]!</target>
         <note>Line: 30</note>
       </trans-unit>
       <trans-unit id="6702a6e3bc2dce95c3e3b61fe578f29c" approved="yes">
@@ -785,7 +790,7 @@
       </trans-unit>
       <trans-unit id="8f1fb2295c4289bae9fc26549b4b45f2" approved="yes">
         <source>Please mail your check to:</source>
-        <target state="final">Будь ласка, відправте ваш чек на email:</target>
+        <target state="final">Надішліть чек поштою на адресу:</target>
         <note>Line: 221</note>
       </trans-unit>
       <trans-unit id="97b07b4e5caa086464d9f38956718d2b" approved="yes">
@@ -829,7 +834,7 @@
       </trans-unit>
       <trans-unit id="a1cee0a898793ad5101154ac97984d8a" approved="yes">
         <source>Message from a {shop_name} customer</source>
-        <target state="final">Повідомлення від клієнта {shop_name}</target>
+        <target state="final">Повідомлення від клієнта магазину {shop_name}</target>
         <note>Line: 23</note>
       </trans-unit>
       <trans-unit id="c1ebb17bfd89ea960194a6162b299cda" approved="yes">
@@ -882,12 +887,12 @@
       </trans-unit>
       <trans-unit id="f53e8d0e97c47ce70ca9c5eaa08a00d0" approved="yes">
         <source>Credit Slip</source>
-        <target state="final">Прибутковий ордер</target>
+        <target state="final">Кредитна квитанція</target>
         <note>Line: 3</note>
       </trans-unit>
       <trans-unit id="cf3bae95c5f6023d5a10fe415b205a45" approved="yes">
         <source>Credit slip</source>
-        <target state="final">Накладна</target>
+        <target state="final">Кредитна квитанція</target>
         <note>Line: 88</note>
       </trans-unit>
       <trans-unit id="c44669ebfaeb42d8895e332f6199688e" approved="yes">
@@ -1060,7 +1065,7 @@
       </trans-unit>
       <trans-unit id="0f170325fe7cbbbd2be4d705b277650e" approved="yes">
         <source>Log Alert</source>
-        <target state="final">Сповіщення Журналу</target>
+        <target state="final">Новий запис в Журналі подій</target>
         <note>Line: 3</note>
       </trans-unit>
       <trans-unit id="223e2a86894ef6ae6d9a96b2d4f53acf" approved="yes">
@@ -1140,7 +1145,7 @@
     <body>
       <trans-unit id="2769d37f4eb00f2c9b940ee928f1b426" approved="yes">
         <source>Message from {shop_name}</source>
-        <target state="final">Повідомлення від {shop_name}</target>
+        <target state="final">Повідомлення від магазину {shop_name}</target>
         <note>Line: 88</note>
       </trans-unit>
       <trans-unit id="15c197c97ee33f7da7df21d315fb7f71" approved="yes">
@@ -1164,7 +1169,7 @@
     <body>
       <trans-unit id="96aac675caae8b0ca0a5227ce8a6a7c6" approved="yes">
         <source>We have updated the progress on your return #{id_order_return}, the new status is:</source>
-        <target state="final">Щодо вашого повернення #{id_order_return}, новий статус:</target>
+        <target state="final">Оновився статус вашого повернення #{id_order_return}, новий статус:</target>
         <note>Line: 123</note>
       </trans-unit>
       <trans-unit id="d28c38eafee0f9e02256b284275603f9" approved="yes">
@@ -1188,7 +1193,7 @@
       </trans-unit>
       <trans-unit id="be07158cdaa6c7244af799f3cdd6dad5" approved="yes">
         <source>Thanks for your order with the reference {order_name} from {shop_name}.</source>
-        <target state="final">Дякуємо за замовлення з номером {order_name} у {shop_name}.</target>
+        <target state="final">Дякуємо за ваше замовлення з номером {order_name} в магазині {shop_name}.</target>
         <note>Line: 30</note>
       </trans-unit>
       <trans-unit id="b55197a49e8c4cd8c314bc2aa39d6feb" approved="yes">
@@ -1322,7 +1327,7 @@
       </trans-unit>
       <trans-unit id="76f0ed934de85cc7131910b32ede7714" approved="yes">
         <source>Refund</source>
-        <target state="final">Відмінити</target>
+        <target state="final">Повернення коштів</target>
         <note>Line: 3</note>
       </trans-unit>
       <trans-unit id="6063c9fb7f9ad1d1a235c24bfcbf5522" approved="yes">
@@ -1355,7 +1360,7 @@
     <body>
       <trans-unit id="747cf5c8587184b9e489ff897d97c20d" approved="yes">
         <source>Shipped</source>
-        <target state="final">Доставляється</target>
+        <target state="final">Відправлено</target>
         <note>Line: 3</note>
       </trans-unit>
       <trans-unit id="da825075a1643697f1540f1c946c01f1" approved="yes">
@@ -1393,7 +1398,7 @@
       </trans-unit>
       <trans-unit id="be686376cddb23d0227444ccc3c4b5b7" approved="yes">
         <source>Voucher</source>
-        <target state="final">Ваучер:</target>
+        <target state="final">Купон:</target>
         <note>Line: 3</note>
       </trans-unit>
       <trans-unit id="3e943dfae35fac1a61b30da7f27f2204" approved="yes">
@@ -1475,7 +1480,7 @@
       </trans-unit>
       <trans-unit id="a0e8e26f6f9354192425b9a23227a5ba" approved="yes">
         <source>Payment:</source>
-        <target state="final">Оплата:</target>
+        <target state="final">Спосіб оплати:</target>
         <note>Line: 291</note>
       </trans-unit>
       <trans-unit id="63d5049791d9d79d86e9a108b0a999ca" approved="yes">
@@ -1485,7 +1490,7 @@
       </trans-unit>
       <trans-unit id="deb10517653c255364175796ace3553f" approved="yes">
         <source>Product</source>
-        <target state="final">товар</target>
+        <target state="final">Товар</target>
         <note>Line: 176</note>
       </trans-unit>
       <trans-unit id="6c957f72dc8cdacc75762f2cbdcdfaf2" approved="yes">
@@ -1525,7 +1530,7 @@
       </trans-unit>
       <trans-unit id="ea067eb37801c5aab1a1c685eb97d601" approved="yes">
         <source>Total paid</source>
-        <target state="final">Всього сплачено</target>
+        <target state="final">Сума до оплати</target>
         <note>Line: 214</note>
       </trans-unit>
       <trans-unit id="f8617a92ba0a0a4eabee724eab7c9f48" approved="yes">
@@ -1540,7 +1545,7 @@
       </trans-unit>
       <trans-unit id="1fbc7e5f1b92c7ec072397b59a0bb5da" approved="yes">
         <source>Billing address</source>
-        <target state="final">Платіжна адреса</target>
+        <target state="final">Адреса для рахунків</target>
         <note>Line: 347</note>
       </trans-unit>
       <trans-unit id="5c1cc11c191c9a0f32d16439618ed3bb" approved="yes">
@@ -1627,12 +1632,12 @@
       </trans-unit>
       <trans-unit id="d3f03e2edd35c99abb3fd3d9bc51706e" approved="yes">
         <source><![CDATA[Replenish your inventory, go to the [1]Catalog > Stocks[/1] section of your back office to manage your stock.]]></source>
-        <target state="final"><![CDATA[Поповніть свої запаси, перейдіть до розділу [1]Каталог > Наявність[/1] своєї Панелі керування, щоб керувати своїми запасами.]]></target>
+        <target state="final"><![CDATA[Поповніть свої запаси, перейдіть до розділу [1]Каталог > Запаси[/1] своєї Панелі керування, щоб керувати своїми запасами.]]></target>
         <note>Line: 131</note>
       </trans-unit>
       <trans-unit id="6983ddb3442f4ad4a3b94e94a1ebd3dc" approved="yes">
         <source>{product} is almost out of stock.</source>
-        <target state="final">{product} майже закінчився на складі.</target>
+        <target state="final">{product} майже немає на складі.</target>
         <note>Line: 86</note>
       </trans-unit>
       <trans-unit id="644f9c907ef5a8315916bd1e2f61f783" approved="yes">
@@ -1651,12 +1656,12 @@
     <body>
       <trans-unit id="5eea367ea73b909880393bd1ae79fc67" approved="yes">
         <source>Customer:</source>
-        <target state="final">Покупець:</target>
+        <target state="final">Клієнт:</target>
         <note>Line: 135</note>
       </trans-unit>
       <trans-unit id="f285446f60a203b0f7c3ad0b14d13d29" approved="yes">
         <source>You have received a new return request for {shop_name}.</source>
-        <target state="final">Ви отримали запит на нове повернення для {shop_name}.</target>
+        <target state="final">Ви отримали запит на повернення товару в магазині {shop_name}.</target>
         <note>Line: 30</note>
       </trans-unit>
       <trans-unit id="6773c510bcd24041ed4d515b65358e96" approved="yes">
@@ -1680,7 +1685,7 @@
       </trans-unit>
       <trans-unit id="4e1c51e233f1ed368c58db9ef09010ba" approved="yes">
         <source>Thank you for subscribing to our newsletter.</source>
-        <target state="final">Дякуємо за підписку на наші новини</target>
+        <target state="final">Дякуємо за підписку на наші новини.</target>
         <note>Line: 88</note>
       </trans-unit>
       <trans-unit id="c9a257051d205ce3d0f4078b53dd4512" approved="yes">
@@ -1727,7 +1732,7 @@
     <body>
       <trans-unit id="784e102689c17fd18fe94135d4fa864d" approved="yes">
         <source>Your cart at {shop_name}</source>
-        <target state="final">Ваш кошик у {shop_name}</target>
+        <target state="final">Ваш кошик в магазині {shop_name}</target>
         <note>Line: 177</note>
       </trans-unit>
       <trans-unit id="804e4e067b0e61e122e1a35771fcf144" approved="yes">
@@ -1823,7 +1828,7 @@
     <body>
       <trans-unit id="1a81759353d36dbd31059fc261af0aa2" approved="yes">
         <source>Congratulations!</source>
-        <target state="final">Поздоровляємо!</target>
+        <target state="final">Вітаємо!</target>
         <note>Line: 23</note>
       </trans-unit>
       <trans-unit id="49af6950c9d9101af9ae958b4426c6b9" approved="yes">
@@ -1896,7 +1901,7 @@
       </trans-unit>
       <trans-unit id="abe1585bf97403d8a9a01a272183585a" approved="yes">
         <source>Here is the code of your voucher:</source>
-        <target state="final">Це код вашого ваучера:</target>
+        <target state="final">Ваш промо-код:</target>
         <note>Line: 124</note>
       </trans-unit>
       <trans-unit id="f4f614c22d9d2cbd0f9aa08cd59600d2" approved="yes">
@@ -1906,12 +1911,12 @@
       </trans-unit>
       <trans-unit id="dd863685846fc4eddcc9d6d09ddd5264" approved="yes">
         <source>We have created a voucher in your name for referring a friend.</source>
-        <target state="final">Ми створили ваучер на ваше ім'я для залучення друзів.</target>
+        <target state="final">Ми створили промо-код на ваше ім'я за залучення друга.</target>
         <note>Line: 123</note>
       </trans-unit>
       <trans-unit id="389df865c60c8fc7b86bf773eb5b121c" approved="yes">
         <source>, with an amount of</source>
-        <target state="final">, з кількстю</target>
+        <target state="final">, з кількістю</target>
         <note>Line: 124</note>
       </trans-unit>
       <trans-unit id="f38a99a3e90333bd34a64e90f03960f4" approved="yes">

@@ -130,24 +130,6 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
         <target state="final">Puede darse de baja en cualquier momento. Para ello, consulte nuestra información de contacto en el aviso legal.</target>
         <note>Line: 57</note>
       </trans-unit>
-      <trans-unit id="69d08bd5f8cf4e228930935c3f13e42f" approved="yes">
-        <source>In Stock</source>
-        <target state="final">En stock</target>
-        <note>Line: 62
-Comment: PS_LABEL_IN_STOCK_PRODUCTS on configuration_lang table</note>
-      </trans-unit>
-      <trans-unit id="43f098d58ceefef56f05ded453751319" approved="yes">
-        <source>Product available for orders</source>
-        <target state="final">Producto disponible para pedidos</target>
-        <note>Line: 65
-Comment: PS_LABEL_OOS_PRODUCTS_BOA on configuration_lang table</note>
-      </trans-unit>
-      <trans-unit id="2ef464d50f6acd767fb3424910995218" approved="yes">
-        <source>Out-of-Stock</source>
-        <target state="final">Fuera de stock</target>
-        <note>Line: 68
-Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
-      </trans-unit>
     </body>
   </file>
   <file original="classes/lang/KeysReference/ContactLang.php" source-language="en" target-language="es-AR" datatype="plaintext">
@@ -694,6 +676,25 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       </trans-unit>
     </body>
   </file>
+  <file original="modules/autoupgrade/upgrade/php/ps_1730_move_some_aeuc_configuration_to_core.php" source-language="en" target-language="es-AR" datatype="plaintext">
+    <body>
+      <trans-unit id="69d08bd5f8cf4e228930935c3f13e42f" approved="yes">
+        <source>In Stock</source>
+        <target state="final">En stock</target>
+        <note>Line: 37</note>
+      </trans-unit>
+      <trans-unit id="43f098d58ceefef56f05ded453751319" approved="yes">
+        <source>Product available for orders</source>
+        <target state="final">Producto disponible para pedidos</target>
+        <note>Line: 38</note>
+      </trans-unit>
+      <trans-unit id="2ef464d50f6acd767fb3424910995218" approved="yes">
+        <source>Out-of-Stock</source>
+        <target state="final">Fuera de stock</target>
+        <note>Line: 39</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="modules/dashtrends/dashtrends.php" source-language="en" target-language="es-AR" datatype="plaintext">
     <body>
       <trans-unit id="d7e637a6e9ff116de2fa89551240a94d" approved="yes">
@@ -1179,6 +1180,16 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
         <target state="final">Forzar la actualización de URL amigables</target>
         <note>Line: 133</note>
       </trans-unit>
+      <trans-unit id="3069f4d62ee6e4d1b1fe7e4dccf14ae7" approved="yes">
+        <source>Activate new products by default</source>
+        <target state="final">Activar nuevos productos por defecto</target>
+        <note>Line: 144</note>
+      </trans-unit>
+      <trans-unit id="5510afe0669f5999cd623fafb911dd9f" approved="yes">
+        <source>Default order of priority for specific prices</source>
+        <target state="final">Orden de prioridad predeterminado para precios específicos</target>
+        <note>Line: 155</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/PageType.php" source-language="en" target-language="es-AR" datatype="plaintext">
@@ -1192,6 +1203,11 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
         <source>Separator of attribute anchor on the product links</source>
         <target state="final">Separador del atributo ancla en los enlaces del producto</target>
         <note>Line: 79</note>
+      </trans-unit>
+      <trans-unit id="0437fc99d975a98ce5face0651102b15" approved="yes">
+        <source>Display the discounted unit price</source>
+        <target state="final">Mostrar el precio unitario con descuento</target>
+        <note>Line: 92</note>
       </trans-unit>
     </body>
   </file>
@@ -1448,7 +1464,11 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/Blocks/product_preferences_general.html.twig" source-language="en" target-language="es-AR" datatype="plaintext">
     <body>
-      
+      <trans-unit id="2972bec8b5118d31dad0cb1d363e7666" approved="yes">
+        <source>General product settings</source>
+        <target state="final">Ajustes generales de producto</target>
+        <note>Line: 33</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/Blocks/product_preferences_page.html.twig" source-language="en" target-language="es-AR" datatype="plaintext">
@@ -1492,7 +1512,8 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       <trans-unit id="b046b7367b515d1c137cae8f10622b4d" approved="yes">
         <source>Add new title</source>
         <target state="final">Añadir nuevo título</target>
-        <note>Line: 31</note>
+        <note>Line: 31
+Comment: Stable feature flags form</note>
       </trans-unit>
     </body>
   </file>

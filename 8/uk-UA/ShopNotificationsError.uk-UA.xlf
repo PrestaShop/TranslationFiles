@@ -62,6 +62,11 @@
         <target state="final">Спочатку увійдіть, будь ласка</target>
         <note>Line: 827</note>
       </trans-unit>
+      <trans-unit id="a5e06c56adb314048d97a666db5c1d5a" approved="yes">
+        <source>The minimum amount to benefit from this promo code is %s.</source>
+        <target state="final">Мінімальна сума необхідна для використання цього промокоду %s.</target>
+        <note>Line: 872</note>
+      </trans-unit>
       <trans-unit id="d0f1560c5d1b13b1e64fa87a301dd83b" approved="yes">
         <source>This voucher is already in your cart</source>
         <target state="final">Купон уже використовується</target>
@@ -74,7 +79,7 @@
       </trans-unit>
       <trans-unit id="e199546c0a1d80f1bf116b131ee02e22" approved="yes">
         <source>Cart is empty</source>
-        <target state="final">Кошик порожній</target>
+        <target state="final">Ваш кошик порожній</target>
         <note>Line: 919</note>
       </trans-unit>
       <trans-unit id="1a0c8c4e381164295f1e06d777411d11" approved="yes">
@@ -112,7 +117,7 @@
       </trans-unit>
       <trans-unit id="802b207b05fe5cea22e11b9db804b33d" approved="yes">
         <source>Authentication failed.</source>
-        <target state="final">помилка автентифікації</target>
+        <target state="final">Помилка авторизації.</target>
         <note>Line: 78</note>
       </trans-unit>
     </body>
@@ -126,12 +131,12 @@
       </trans-unit>
       <trans-unit id="5f377de6cd38d0577c9628eeaecb3d0f" approved="yes">
         <source>There seems to be an issue with your account, please contact support</source>
-        <target state="final">Здається виникла проблема з вашим аккаунтом, будь ласка зверніться до служби підтримки</target>
+        <target state="final">Здається виникла проблема з вашим обліковим записом, зв’яжіться зі службою підтримки</target>
         <note>Line: 101</note>
       </trans-unit>
       <trans-unit id="e3cf2c117615da59fb8930d299eb16f3" approved="yes">
         <source>An account was already registered with this email address</source>
-        <target state="final">Обліковий запис для такого email вже зареєстровано</target>
+        <target state="final">Обліковий запис з цією адресою електронної пошти уже зареєстровано</target>
         <note>Line: 187</note>
       </trans-unit>
       <trans-unit id="47be05698f8dd87bb445ceefce6abd0d" approved="yes">
@@ -145,7 +150,7 @@
     <body>
       <trans-unit id="0e2338b37ab3dfeed544e8233b53d4e0" approved="yes">
         <source>The %1$s field is too long (%2$d chars max).</source>
-        <target state="final">Поле %1$s задовге (%2$d символів макс.).</target>
+        <target state="final">Поле %1$s задовге (максимум %2$d символів).</target>
         <note>Line: 315</note>
       </trans-unit>
       <trans-unit id="1f597c6798d6a39dd2bde999d547331a" approved="yes">
@@ -212,7 +217,7 @@
       </trans-unit>
       <trans-unit id="9730e222894d4568ed4cd2de30cb233a" approved="yes">
         <source>Null quantity.</source>
-        <target state="final">Кількість null</target>
+        <target state="final">Нульова кількість.</target>
         <note>Line: 379</note>
       </trans-unit>
       <trans-unit id="dfbe69c6d9568ecb0e65e7b32ed92a3a" approved="yes">
@@ -249,6 +254,11 @@
         <source>The item %product% in your cart is now a product with attributes. Please delete it and choose one of its combinations to proceed with your order.</source>
         <target state="final">Товар %product% у вашому кошику є товаром з атрибутами. Будь ласка, видаліть його та додайте знову вибравши одну з його комбінацій, щоб продовжити оформлення замовлення.</target>
         <note>Line: 618</note>
+      </trans-unit>
+      <trans-unit id="fcdd5cdc83ccc2c10e4973bff9836b8c" approved="yes">
+        <source>%product% is no longer available in this quantity. You cannot proceed with your order until the quantity is adjusted.</source>
+        <target state="final">%product% більше не доступний у цій кількості. Ви не можете продовжити оформлення замовлення, поки кількість не буде зменшена.</target>
+        <note>Line: 633</note>
       </trans-unit>
     </body>
   </file>
@@ -303,6 +313,11 @@
   </file>
   <file original="controllers/front/GuestTrackingController.php" source-language="en" target-language="uk" datatype="plaintext">
     <body>
+      <trans-unit id="e9c8b958cbfb895182fe7eeeeadd1121" approved="yes">
+        <source>A customer account has already been created from this guest account. Please sign in.</source>
+        <target state="final">З цього гостьового облікового запису вже створено клієнтський обліковий запис. Будь ласка, увійдіть.</target>
+        <note>Line: 112</note>
+      </trans-unit>
       <trans-unit id="97f79d53b078e529949d5c3c8b676d52" approved="yes">
         <source>An unexpected error occurred while creating your account.</source>
         <target state="final">Неочікувана помилка при створенні вашого обблікового запису.</target>
@@ -331,8 +346,16 @@
   </file>
   <file original="controllers/front/OrderConfirmationController.php" source-language="en" target-language="uk" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="e74bbc67e02323a626ce95619ef42fd5" approved="yes">
+        <source>Password must be between %d and %d characters long</source>
+        <target state="final">Пароль має містити від %d до %d символів</target>
+        <note>Line: 137</note>
+      </trans-unit>
+      <trans-unit id="f43333ea2272fed37fc121a2e09755c3" approved="yes">
+        <source>The minimum score must be: %s</source>
+        <target state="final">Мінімальний показник має бути: %s</target>
+        <note>Line: 154</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/front/OrderController.php" source-language="en" target-language="uk" datatype="plaintext">
@@ -435,6 +458,11 @@
         <target state="final">Підтвердження паролю порожнє: будь-ласка введіть пароль у поле підтвердження</target>
         <note>Line: 155</note>
       </trans-unit>
+      <trans-unit id="65efaaf9ead1beea82672beb5ace1fe2" approved="yes">
+        <source>The confirmation password doesn't match.</source>
+        <target state="final">Підтвердження пароля не співпадає.</target>
+        <note>Line: 160</note>
+      </trans-unit>
       <trans-unit id="f01fb987f60542e0bff1bf7bed42d142" approved="yes">
         <source>The password is not in a valid format.</source>
         <target state="final">Невірний формат паролю.</target>
@@ -485,7 +513,7 @@
       <trans-unit id="dd6b089a49908d671c3e9cc8dc5899ae" approved="yes">
         <source>Invalid message</source>
         <target state="final">Невірне повідомлення</target>
-        <note>Line: 919</note>
+        <note>Line: 920</note>
       </trans-unit>
       <trans-unit id="91e6cde963af2000218553722fc7a093" approved="yes">
         <source>This product is no longer available.</source>
@@ -505,7 +533,7 @@
       <trans-unit id="7cc92687130ea12abb80556681538001" approved="yes">
         <source>An error occurred during the image upload process.</source>
         <target state="final">Помилка при завантаженні малюнку.</target>
-        <note>Line: 891</note>
+        <note>Line: 892</note>
       </trans-unit>
     </body>
   </file>

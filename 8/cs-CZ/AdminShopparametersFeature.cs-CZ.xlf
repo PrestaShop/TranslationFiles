@@ -130,24 +130,6 @@ Comment: PS_RETURN_PREFIX on configuration_lang table</note>
         <target state="final">Odběr novinek můžete kdykoliv zrušit. Pokud to chcete udělat, naše kontaktní informace naleznete v právním oznámení.</target>
         <note>Line: 57</note>
       </trans-unit>
-      <trans-unit id="69d08bd5f8cf4e228930935c3f13e42f" approved="yes">
-        <source>In Stock</source>
-        <target state="final">Skladem</target>
-        <note>Line: 62
-Comment: PS_LABEL_IN_STOCK_PRODUCTS on configuration_lang table</note>
-      </trans-unit>
-      <trans-unit id="43f098d58ceefef56f05ded453751319" approved="yes">
-        <source>Product available for orders</source>
-        <target state="final">Produkt dostupný pro objednávání</target>
-        <note>Line: 65
-Comment: PS_LABEL_OOS_PRODUCTS_BOA on configuration_lang table</note>
-      </trans-unit>
-      <trans-unit id="2ef464d50f6acd767fb3424910995218" approved="yes">
-        <source>Out-of-Stock</source>
-        <target state="final">Vyprodáno</target>
-        <note>Line: 68
-Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
-      </trans-unit>
     </body>
   </file>
   <file original="classes/lang/KeysReference/ContactLang.php" source-language="en" target-language="cs" datatype="plaintext">
@@ -324,7 +306,7 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       </trans-unit>
       <trans-unit id="521d4edc7c22d5f63bc5912ff2afa61a" approved="yes">
         <source>Indexing</source>
-        <target state="final">Indexuji</target>
+        <target state="final">Indexování</target>
         <note>Line: 116</note>
       </trans-unit>
       <trans-unit id="325c9099ecef84ddc2912d5f0ed3fe2f" approved="yes">
@@ -399,7 +381,7 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       </trans-unit>
       <trans-unit id="8c489d0946f66d17d73f26366a4bf620" approved="yes">
         <source>Weight</source>
-        <target state="final">Hmotnost</target>
+        <target state="final">Priority</target>
         <note>Line: 275</note>
       </trans-unit>
       <trans-unit id="a9f445d59022dee4cb33385aef61620f" approved="yes">
@@ -691,6 +673,25 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
         <source>Tag</source>
         <target state="final">Štítek</target>
         <note>Line: 139</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/autoupgrade/upgrade/php/ps_1730_move_some_aeuc_configuration_to_core.php" source-language="en" target-language="cs" datatype="plaintext">
+    <body>
+      <trans-unit id="69d08bd5f8cf4e228930935c3f13e42f" approved="yes">
+        <source>In Stock</source>
+        <target state="final">Skladem</target>
+        <note>Line: 37</note>
+      </trans-unit>
+      <trans-unit id="43f098d58ceefef56f05ded453751319" approved="yes">
+        <source>Product available for orders</source>
+        <target state="final">Produkt dostupný pro objednávání</target>
+        <note>Line: 38</note>
+      </trans-unit>
+      <trans-unit id="2ef464d50f6acd767fb3424910995218" approved="yes">
+        <source>Out-of-Stock</source>
+        <target state="final">Vyprodáno</target>
+        <note>Line: 39</note>
       </trans-unit>
     </body>
   </file>
@@ -1512,7 +1513,8 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       <trans-unit id="b046b7367b515d1c137cae8f10622b4d" approved="yes">
         <source>Add new title</source>
         <target state="final">Přidat nový název</target>
-        <note>Line: 31</note>
+        <note>Line: 31
+Comment: Stable feature flags form</note>
       </trans-unit>
     </body>
   </file>
