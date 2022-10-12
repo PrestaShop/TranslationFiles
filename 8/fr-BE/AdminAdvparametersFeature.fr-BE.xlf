@@ -31,6 +31,18 @@
         <note>Line: 28
 Comment: Product feature flag in 1.7.8</note>
       </trans-unit>
+      <trans-unit id="a04bb916ef42b1e993d1f3752136fabf" approved="yes">
+        <source>New product page - Single store</source>
+        <target state="final">Nouvelle page produit - Magasin unique</target>
+        <note>Line: 35
+Comment: Product feature flag in 8.0</note>
+      </trans-unit>
+      <trans-unit id="084295e69ff6473c0a61b9be44f852d2" approved="yes">
+        <source>New product page - Multistore</source>
+        <target state="final">Nouvelle page produit - Multiboutique</target>
+        <note>Line: 39
+Comment: Product multi store feature flag in 8.0</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/lang/KeysReference/ProfileLang.php" source-language="en" target-language="fr-BE" datatype="plaintext">
@@ -482,6 +494,11 @@ Comment: voluntary do affectation here</note>
         <target state="final">Ajouter (POST)</target>
         <note>Line: 60</note>
       </trans-unit>
+      <trans-unit id="be33a0b192776d871d8a235ede3523a8" approved="yes">
+        <source>Patch (PATCH)</source>
+        <target state="final">Patch (PATCH)</target>
+        <note>Line: 61</note>
+      </trans-unit>
       <trans-unit id="6c0c2b9ec9a4188db4cfd4f8a0fee415" approved="yes">
         <source>Delete (DELETE)</source>
         <target state="final">Supprimer (DELETE)</target>
@@ -585,6 +602,11 @@ Comment: voluntary do affectation here</note>
         <source>Last update</source>
         <target state="final">Dernière mise à jour</target>
         <note>Line: 145</note>
+      </trans-unit>
+      <trans-unit id="8c01c65cd2c7619b8bb617b441cd05c4" approved="yes">
+        <source>The user will be signed out from this session.</source>
+        <target state="final">L'utilisateur sera déconnecté de cette session.</target>
+        <note>Line: 165</note>
       </trans-unit>
       <trans-unit id="b49d9bafc2f2394cdd875fb0b96bb974" approved="yes">
         <source>Delete session?</source>
@@ -1466,7 +1488,11 @@ Comment: voluntary do affectation here</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Security/GeneralType.php" source-language="en" target-language="fr-BE" datatype="plaintext">
     <body>
-      
+      <trans-unit id="a2ab0795ff399f2fbaccc3184a702c91" approved="yes">
+        <source>Back office token protection</source>
+        <target state="final">Protection des jetons dans le back-office</target>
+        <note>Line: 48</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Security/PasswordPolicyType.php" source-language="en" target-language="fr-BE" datatype="plaintext">
@@ -1914,6 +1940,16 @@ Comment: voluntary do affectation here</note>
         <target state="final">2 est plutôt facile à deviner (en moins de 10^8 tentatives). Il offre une certaine protection contre les attaques en ligne non régulées.</target>
         <note>Line: 70</note>
       </trans-unit>
+      <trans-unit id="e3f0680a29b17f58dad1ffc0c3692a58" approved="yes">
+        <source>3 is safely unguessable (guesses lesser than 10^10). It offers moderate protection from offline slow-hash scenario.</source>
+        <target state="final">3 est très difficile à deviner (estimations : moins de 10^10). Il offre une protection modérée contre un scénario de type hachage lent hors ligne.</target>
+        <note>Line: 71</note>
+      </trans-unit>
+      <trans-unit id="9e4ed1a59cbfd96288f7e6376ddadf0c" approved="yes">
+        <source>4 is very unguessable (guesses greater than or equal to 10^10) and provides strong protection from offline slow-hash scenario.</source>
+        <target state="final">4 est quasiment impossible à deviner (estimations : supérieures ou égales à 10^10) et offre une forte protection contre un scénario de type hachage lent hors ligne.</target>
+        <note>Line: 72</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Webservice/Blocks/form.html.twig" source-language="en" target-language="fr-BE" datatype="plaintext">
@@ -1941,6 +1977,21 @@ Comment: voluntary do affectation here</note>
         <source>Webservice status</source>
         <target state="final">Statut du service web</target>
         <note>Line: 57</note>
+      </trans-unit>
+      <trans-unit id="2ab627ad288e54ed2712f137ceb37a37" approved="yes">
+        <source>Webservice is enabled. Main entry point is</source>
+        <target state="final">Le service web est activé. Le point d'entrée principal est</target>
+        <note>Line: 61</note>
+      </trans-unit>
+      <trans-unit id="ee67cd2d024d58dcd7fa82242c067479" approved="yes">
+        <source>It seems that the webservice endpoint is not functional. If you are using httpd/apache2, you need to enable URL rewriting on your server.</source>
+        <target state="final">Il semble que le point de terminaison du service Web ne soit pas fonctionnel. Si vous utilisez httpd/apache2, vous devez activer la réécriture d'URL sur votre serveur.</target>
+        <note>Line: 68</note>
+      </trans-unit>
+      <trans-unit id="72ba85f9d889729fb8ed9cf34c11688a" approved="yes">
+        <source>Read the [1]developer documentation[/1].</source>
+        <target state="final">Lisez la [1]documentation pour les développeurs[/1].</target>
+        <note>Line: 72</note>
       </trans-unit>
     </body>
   </file>
@@ -2003,6 +2054,11 @@ Comment: voluntary do affectation here</note>
         <source>Modules</source>
         <target state="final">Modules</target>
         <note>Line: 85</note>
+      </trans-unit>
+      <trans-unit id="ae644e73ff5636d25f78961a75708b28" approved="yes">
+        <source>Disable non built-in modules</source>
+        <target state="final">Désactiver les modules non intégrés</target>
+        <note>Line: 103</note>
       </trans-unit>
       <trans-unit id="010a6cb0eccdea35662ad711d443f2ec" approved="yes">
         <source>Optional features</source>
