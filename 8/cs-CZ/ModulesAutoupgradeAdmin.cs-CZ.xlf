@@ -87,6 +87,16 @@
         <target state="final">Tato akce změní vaší šablonu: váš obchod bude poté používat výchozí šablonu verze Prestashopu, na kterou provádíte upgrade.</target>
         <note>Line: 263</note>
       </trans-unit>
+      <trans-unit id="309183e60345ce8ad09def36330218b8" approved="yes">
+        <source>Regenerate RTL stylesheet</source>
+        <target state="final">Vygenerovat RTL styly</target>
+        <note>Line: 250</note>
+      </trans-unit>
+      <trans-unit id="e31d0229913e78ae9dc2de61d9ac21aa" approved="yes">
+        <source>If enabled, any RTL-specific files that you might have added to all your themes might be deleted by the created stylesheet.</source>
+        <target state="final">Pokud tuto funkci povolíte, RTL soubory ve všech šablonách můžou být odstraněny vytvořeným CSS souborem.</target>
+        <note>Line: 255</note>
+      </trans-unit>
       <trans-unit id="f22d57f1f0b7fd2a55ca4760cd6ef68b" approved="yes">
         <source>Keep the customized email templates</source>
         <target state="final">Uchovejte si uživatelské šablony e-mailů</target>
@@ -150,6 +160,16 @@
         <source>1-Click Upgrade</source>
         <target state="final">Aktualizace kliknutím</target>
         <note>Line: 55</note>
+      </trans-unit>
+      <trans-unit id="7034ac445c00f79b704d6375ddeba0d6" approved="yes">
+        <source>Upgrade to the latest version of PrestaShop in a few clicks, thanks to this automated method.</source>
+        <target state="final">Upgradujte PrestaShop na nejnovější verzi jednoduše, automaticky a na pár kliknutí.</target>
+        <note>Line: 56</note>
+      </trans-unit>
+      <trans-unit id="948b95d5e850eae0277e0a6a94b93e8d" approved="yes">
+        <source>This version of 1-click upgrade requires PHP 5.6 to work properly. Please upgrade your server configuration.</source>
+        <target state="final">Tato verze upgradu na 1 klik vyžaduje pro správný chod PHP 5.6. Upgradujte prosím konfiguraci vašeho serveru.</target>
+        <note>Line: 64</note>
       </trans-unit>
       <trans-unit id="7f81161b73d465b1a1dea74cc6deeeb2" approved="yes">
         <source>Unable to delete outdated "AdminUpgrade" tab (tab ID: %idtab%).</source>
@@ -226,6 +246,11 @@
         <source>Version number is missing. Unable to select that channel.</source>
         <target state="final">Chybí číslo verze. Nelze vybrat tento kanál.</target>
         <note>Line: 102</note>
+      </trans-unit>
+      <trans-unit id="f26bf9bf98461ef0fd0a4bfc9cdcc2b5" approved="yes">
+        <source>File %s does not exist. Unable to select that channel</source>
+        <target state="final">Soubor %s neexistuje. Tento kanál nelze vybrat</target>
+        <note>Line: 87</note>
       </trans-unit>
       <trans-unit id="ab232f4b20c0e50dad9081bc39382569" approved="yes">
         <source>Upgrade process will use archive.</source>
@@ -334,6 +359,11 @@ Comment: $config['archive_name'] = $request['archive_name'];</note>
         <source>Unable to remove upgraded files.</source>
         <target state="final">Nelze odstranit aktualizované soubory.</target>
         <note>Line: 79</note>
+      </trans-unit>
+      <trans-unit id="1f63628adef352c2a7ee4225b9dcd576" approved="yes">
+        <source>Unable to extract file %filename% into directory %directoryname%.</source>
+        <target state="final">Nelze rozbalit soubor %filename% do adresáře %directoryname%.</target>
+        <note>Line: 94</note>
       </trans-unit>
       <trans-unit id="cb7dce5f6a1934d54c0d3335c7ffe841" approved="yes">
         <source>Files restored.</source>
@@ -553,6 +583,16 @@ Comment: $config['archive_name'] = $request['archive_name'];</note>
   </file>
   <file original="modules/autoupgrade/classes/TaskRunner/Upgrade/RemoveSamples.php" source-language="en" target-language="cs" datatype="plaintext">
     <body>
+      <trans-unit id="20aed4fb9f6ee15bc601227bbfb85acd" approved="yes">
+        <source>Could not assert the folder %s contains a valid PrestaShop release, exiting.</source>
+        <target state="final">Nepodařilo se ověřit, že ve složce %s je validní instalace PrestaShopu, končím.</target>
+        <note>Line: 50</note>
+      </trans-unit>
+      <trans-unit id="312d54356778124e7ad6d8c7be6ff1a0" approved="yes">
+        <source>A file may be missing, or the release is stored in a subfolder by mistake.</source>
+        <target state="final">Může chybět nějaký soubor, nebo je instalace omylem v nějaké podsložce.</target>
+        <note>Line: 51</note>
+      </trans-unit>
       <trans-unit id="2bc5a6a8c62cc5616f1d7a5abe28bb65" approved="yes">
         <source>Starting to remove %s sample files</source>
         <target state="final">Zahajování odstranění %s vzorových souborů</target>
@@ -562,6 +602,11 @@ Comment: $config['archive_name'] = $request['archive_name'];</note>
         <source>Error while removing item %itemname%, %itemscount% items left.</source>
         <target state="final">Chyba při odstraňování položky %itemname%, zbývá %itemscount% položek.</target>
         <note>Line: 96</note>
+      </trans-unit>
+      <trans-unit id="d15430e60047ee32d088f95584eefb15" approved="yes">
+        <source>%itemname% item removed. %itemscount% items left.</source>
+        <target state="final">Položka %itemname% odstraněna. Zbývá %itemscount% položek.</target>
+        <note>Line: 109</note>
       </trans-unit>
       <trans-unit id="1d62b7d31a19dde578c4c56babef264a" approved="yes">
         <source>All sample files removed. Now backing up files.</source>
@@ -591,6 +636,11 @@ Comment: $config['archive_name'] = $request['archive_name'];</note>
         <source>Unable to extract %filepath% file into %destination% folder...</source>
         <target state="final">Soubor %filepath% nelze extrahovat do složky %destination%...</target>
         <note>Line: 87</note>
+      </trans-unit>
+      <trans-unit id="5d3c14ccb814427455842b838bbd6f21" approved="yes">
+        <source>No prestashop/ folder found in the ZIP file. Aborting.</source>
+        <target state="final">V souboru ZIP nenalezena složka prestashop/. Ukončuji.</target>
+        <note>Line: 103</note>
       </trans-unit>
       <trans-unit id="7dce6149440985f89756b4c451d7dc03" approved="yes">
         <source>File extraction complete. Removing sample files...</source>
@@ -739,6 +789,11 @@ Comment: directory already exists</note>
         <target state="final">listModules není pole. Žádný modul nebyl aktualizován.</target>
         <note>Line: 54</note>
       </trans-unit>
+      <trans-unit id="04663743fc92eeb1f90a4d165c470e54" approved="yes">
+        <source>Upgrading module %module%...</source>
+        <target state="final">Probíhá aktualizace modulu %module%...</target>
+        <note>Line: 64</note>
+      </trans-unit>
       <trans-unit id="35687f9e2d83cd9e89860c47fb3a7bbd" approved="yes">
         <source>The files of module %s have been upgraded.</source>
         <target state="final">Soubory modulu %s byly aktualizovány.</target>
@@ -778,10 +833,20 @@ Comment: directory already exists</note>
         <target state="final">Začínám aktualizovat...</target>
         <note>Line: 40</note>
       </trans-unit>
+      <trans-unit id="d3446f09f99983abc250c0d2a92d0285" approved="yes">
+        <source>Downloading and unzipping steps have been skipped, upgrade process will now remove sample data.</source>
+        <target state="final">Bylo přeskočeno stažení a rozbalení archivu, proces aktualizace bude nyní pokračovat odstraněním vzorových dat.</target>
+        <note>Line: 67</note>
+      </trans-unit>
       <trans-unit id="b06a965d6f83ecc3c04eefe175482f1d" approved="yes">
         <source>Shop deactivated. Removing sample files...</source>
         <target state="final">Obchod je deaktivován. Odstraňuji ukázkové soubory...</target>
         <note>Line: 68</note>
+      </trans-unit>
+      <trans-unit id="fd89b081ead6c32f16c370771cfe92e1" approved="yes">
+        <source>Downloading step has been skipped, upgrade process will now unzip the local archive.</source>
+        <target state="final">Bylo přeskočeno stahování, proces aktualizace nyní rozbalí místní archiv.</target>
+        <note>Line: 72</note>
       </trans-unit>
       <trans-unit id="1a74ca8250ceb3e4df43a70181064e03" approved="yes">
         <source>Shop deactivated. Extracting files...</source>
@@ -975,10 +1040,20 @@ Comment: Hey ! I'm really using a fieldset element to regroup fields ?! !</note>
         <target state="final">Operace byla zrušena. Kontroluji možnost obnovení...</target>
         <note>Line: 338</note>
       </trans-unit>
+      <trans-unit id="d5dfd6fbb959405ade102657ece534fa" approved="yes">
+        <source>Do you want to restore %s?</source>
+        <target state="final">Chcete obnovit %s?</target>
+        <note>Line: 339</note>
+      </trans-unit>
       <trans-unit id="f234e8051cec7a79e996e67f179bd68b" approved="yes">
         <source>Operation canceled. An error happened.</source>
         <target state="final">Operace byla zrušena. Došlo k chybě.</target>
         <note>Line: 340</note>
+      </trans-unit>
+      <trans-unit id="df54e40fe544b0ca34929e0e690a93c1" approved="yes">
+        <source>[TECHNICAL ERROR] ajax-upgradetab.php is missing. Please reinstall the module.</source>
+        <target state="final">[TECHNICAL ERROR] Chybí ajax-upgradetab.php. Prosím přeinstalujte modul.</target>
+        <note>Line: 341</note>
       </trans-unit>
       <trans-unit id="f1a1fb67c8350e8881bc59f09e42d5ab" approved="yes">
         <source>Click to refresh the page and use the new configuration</source>
@@ -1050,6 +1125,16 @@ Comment: Hey ! I'm really using a fieldset element to regroup fields ?! !</note>
         <target state="final">Méně možností</target>
         <note>Line: 355</note>
       </trans-unit>
+      <trans-unit id="a08641c2063d7908c34acbd1982a0eb9" approved="yes">
+        <source>These files will be deleted</source>
+        <target state="final">Tyto soubory budou smazány</target>
+        <note>Line: 357</note>
+      </trans-unit>
+      <trans-unit id="8d89ef701bfdd6de52bf08dc3b0222f2" approved="yes">
+        <source>These files will be replaced</source>
+        <target state="final">Tyto soubory budou nahrazeny</target>
+        <note>Line: 358</note>
+      </trans-unit>
       <trans-unit id="19f823c6453c2b1ffd09cb715214813d" approved="yes">
         <source>Required field</source>
         <target state="final">Povinný údaj</target>
@@ -1089,6 +1174,11 @@ Comment: Hey ! I'm really using a fieldset element to regroup fields ?! !</note>
         <source>Impossible to upload the file!</source>
         <target state="final">Není možné nahrát soubor!</target>
         <note>Line: 380</note>
+      </trans-unit>
+      <trans-unit id="8847d6367e7397abaa1c0e32e2c5bf07" approved="yes">
+        <source>Data integrity is not valid. Hack attempt?</source>
+        <target state="final">Integrita dat je porušena. Možný pokus o útok?</target>
+        <note>Line: 381</note>
       </trans-unit>
       <trans-unit id="8fd007bf08e0717537825a3e91cb4fcc" approved="yes">
         <source>Impossible to read the content of a MySQL content file.</source>
@@ -1335,6 +1425,11 @@ Comment: End of upgrader</note>
         <target state="final">V cestě pro instalaci nebylo možné nalézt složku pro aktualizaci.</target>
         <note>Line: 278</note>
       </trans-unit>
+      <trans-unit id="aae22c1ae9a2b451abca76ae8c5c79e8" approved="yes">
+        <source>Error while loading SQL upgrade file "%s".</source>
+        <target state="final">Chyba při načítání souboru aktualizace SQL "%s".</target>
+        <note>Line: 288</note>
+      </trans-unit>
       <trans-unit id="8abd985d095a1282f6f01b98c121b41b" approved="yes">
         <source>Cannot find the SQL upgrade files. Please check that the %s folder is not empty.</source>
         <target state="final">Nebylo možné najít soubory s aktualizací SQL. Prosím zkontrolujte, zda není složka %s prázdná.</target>
@@ -1344,6 +1439,11 @@ Comment: End of upgrader</note>
         <source>[DROP] SQL %s table has been dropped.</source>
         <target state="final">[DROP] SQL %s tabulka byla zahozena.</target>
         <note>Line: 412</note>
+      </trans-unit>
+      <trans-unit id="796b7c49e21f09173214f029c7f02f9d" approved="yes">
+        <source>Switching to default theme.</source>
+        <target state="final">Přepínání na výchozí šablonu.</target>
+        <note>Line: 656</note>
       </trans-unit>
     </body>
   </file>
@@ -1368,6 +1468,21 @@ Comment: End of upgrader</note>
         <target state="final">Chyba aktualizace schématu Doktrína</target>
         <note>Line: 65</note>
       </trans-unit>
+      <trans-unit id="ebd70d87d57d2e22c5fb9cb1fa959f92" approved="yes">
+        <source>Download of the language pack %lang% failed. %details%</source>
+        <target state="final">Stáhování jazykového balíčku %lang% selhalo. %details%</target>
+        <note>Line: 79</note>
+      </trans-unit>
+      <trans-unit id="dbe50813c9aa171b52352ac77609a9bb" approved="yes">
+        <source>Error while updating translations for lang %lang%. %details%</source>
+        <target state="final">Nepodařilo se aktualizovat překlady pro jazyk %lang%. %details%</target>
+        <note>Line: 90</note>
+      </trans-unit>
+      <trans-unit id="f7b8fb04eca61009a5ff2f578d374a8b" approved="yes">
+        <source>Upgrade the RTL files.</source>
+        <target state="final">Aktualizovat RTL soubory.</target>
+        <note>Line: 119</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/classes/UpgradeTools/CoreUpgrader/CoreUpgrader80.php" source-language="en" target-language="cs" datatype="plaintext">
@@ -1381,6 +1496,11 @@ Comment: End of upgrader</note>
   </file>
   <file original="modules/autoupgrade/classes/UpgradeTools/ModuleAdapter.php" source-language="en" target-language="cs" datatype="plaintext">
     <body>
+      <trans-unit id="a739fd67729d2f540137b85917f13a21" approved="yes">
+        <source>[ERROR] %dir% does not exist or is not a directory.</source>
+        <target state="final">[ERROR] %dir% neexistuje, nebo se nejedná o složku.</target>
+        <note>Line: 135</note>
+      </trans-unit>
       <trans-unit id="36d56d20b3894281531cd4108e2c4cec" approved="yes">
         <source>[ERROR] No response from Addons server.</source>
         <target state="final">[ERROR] žádná odpověď ze serveru.</target>
@@ -1390,6 +1510,11 @@ Comment: End of upgrader</note>
         <source>[ERROR] Unable to write module %s's zip file in temporary directory.</source>
         <target state="final">[ERROR] Nebylo možné uložit zip archiv s modulem %s do dočasné složky.</target>
         <note>Line: 211</note>
+      </trans-unit>
+      <trans-unit id="8ed212a996fe818de7fcb6dd7e89a1b7" approved="yes">
+        <source>[WARNING] Error when trying to extract module %s.</source>
+        <target state="final">[WARNING] Chyba při pokusu o rozbalení modulu %s.</target>
+        <note>Line: 220</note>
       </trans-unit>
       <trans-unit id="2743947c7353cf849fbff70085764d76" approved="yes">
         <source>[WARNING] Error when trying to upgrade module %s.</source>
@@ -1452,6 +1577,11 @@ Comment: End of upgrader</note>
         <target state="final">%filename% přidán do archivu. Zbývá %filescount% souborů.</target>
         <note>Line: 102</note>
       </trans-unit>
+      <trans-unit id="f1762e2b4f9dd1ba27ecc89a4aba0f92" approved="yes">
+        <source>Could not close the Zip file properly. Check you are allowed to write on the disk and there is available space on it.</source>
+        <target state="final">Nelze správně zavřít soubor zip. Zkontrolujte, že máte oprávnění zápisu na disk a že je na něm volné místo.</target>
+        <note>Line: 113</note>
+      </trans-unit>
       <trans-unit id="9311ab161709b4f5efe9c6ff08b33699" approved="yes">
         <source>%s is not a file</source>
         <target state="final">%s není soubor</target>
@@ -1461,6 +1591,16 @@ Comment: End of upgrader</note>
         <source>Unable to create directory %s.</source>
         <target state="final">Nebylo možné vytvořit složku %s.</target>
         <note>Line: 141</note>
+      </trans-unit>
+      <trans-unit id="619c520551c7a108c12fde64e9b73b12" approved="yes">
+        <source>Could not extract %file% from backup, the destination might not be writable.</source>
+        <target state="final">Nelze rozbalit %file% ze zálohy, cílové místo možná není zapisovatelné.</target>
+        <note>Line: 157</note>
+      </trans-unit>
+      <trans-unit id="b6fadb405627a21f30cbe97d9f47d7a3" approved="yes">
+        <source>Content of archive %zip% is extracted</source>
+        <target state="final">Obsah archivu %zip% je rozbalený</target>
+        <note>Line: 169</note>
       </trans-unit>
       <trans-unit id="3858aebfe7dce0a1dc398d199cb85a2b" approved="yes">
         <source>[ERROR] Unable to list archived files</source>
@@ -1530,6 +1670,11 @@ Comment: End of upgrader</note>
         <target state="final">Seznam změn:</target>
         <note>Line: 42</note>
       </trans-unit>
+      <trans-unit id="1182cc0394225fb0ec989b7ad50ba42a" approved="yes">
+        <source>See changelog</source>
+        <target state="final">Zobrazit seznam změn</target>
+        <note>Line: 43</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/views/templates/block/checklist.twig" source-language="en" target-language="cs" datatype="plaintext">
@@ -1538,6 +1683,16 @@ Comment: End of upgrader</note>
         <source>The pre-Upgrade checklist</source>
         <target state="final">Kontrolní seznam aktualizace</target>
         <note>Line: 6</note>
+      </trans-unit>
+      <trans-unit id="0b360b52f457a0a4928998cbf5ee773f" approved="yes">
+        <source>Your current version of the module is out of date. Update now</source>
+        <target state="final">Nainstalovaná verze modulu je zastaralá, aktualizujte ho</target>
+        <note>Line: 10</note>
+      </trans-unit>
+      <trans-unit id="90f90ca1387f6932c53aab39ad899f4b" approved="yes">
+        <source><![CDATA[Modules > Module Manager > Updates]]></source>
+        <target state="final"><![CDATA[Moduly > Správce modulů > Aktualizace]]></target>
+        <note>Line: 11</note>
       </trans-unit>
       <trans-unit id="03f945bba76ea63369d50a340e5b17bf" approved="yes">
         <source>The checklist is not OK. You can only upgrade your shop once all indicators are green.</source>
@@ -1548,6 +1703,21 @@ Comment: End of upgrader</note>
         <source>Before starting the upgrade process, please make sure this checklist is all green.</source>
         <target state="final">Před zahájením procesu aktualizace se ujistěte, že tento seznam je celý zelený.</target>
         <note>Line: 18</note>
+      </trans-unit>
+      <trans-unit id="0cd4783b935f23e501fc7db884144c5c" approved="yes">
+        <source>Your server is running on a supported PHP version.</source>
+        <target state="final">Váš server běží na podporované verzi PHP.</target>
+        <note>Line: 23</note>
+      </trans-unit>
+      <trans-unit id="16a837171ad7657e7d0cc505e4f9a3ae" approved="yes">
+        <source>The PHP version your server is running on is obsolete and needs to be upgraded. [1]Learn more[/1].</source>
+        <target state="final">Verze PHP na vašem serveru je zastaralá a je třeba ji upgradovat. [1]Dozvědět se více[/1].</target>
+        <note>Line: 25</note>
+      </trans-unit>
+      <trans-unit id="50a5bcb757b1a7705007720863250da8" approved="yes">
+        <source>Your store's root directory (%s) is writable (with appropriate CHMOD permissions).</source>
+        <target state="final">Kořenový adresář obchodu (%s) je zapisovatelný (má odpovídající oprávnění CHMOD).</target>
+        <note>Line: 40</note>
       </trans-unit>
       <trans-unit id="b398e46a283dd457aa7dc0302004208c" approved="yes">
         <source>The "/admin/autoupgrade" directory is writable (appropriate CHMOD permissions)</source>
@@ -1564,10 +1734,20 @@ Comment: End of upgrader</note>
         <target state="final">Volba PHP "allow_url_fopen" je zapnuta, nebo je nainstalováno rozšíření cURL</target>
         <note>Line: 72</note>
       </trans-unit>
+      <trans-unit id="d9af605897e2636f97ef20fd5829195a" approved="yes">
+        <source>PHP's "zip" extension is enabled</source>
+        <target state="final">Rozšíření PHP "zip" je povoleno</target>
+        <note>Line: 82</note>
+      </trans-unit>
       <trans-unit id="49c20044e894d8cc2da7783adbf79f16" approved="yes">
         <source>Your store is in maintenance mode</source>
         <target state="final">Váš obchod je v režimu údržby</target>
         <note>Line: 94</note>
+      </trans-unit>
+      <trans-unit id="e3ea2f6fe56c80761e37fd9c393d88a5" approved="yes">
+        <source><![CDATA[Enable maintenance mode and add your maintenance IP in [1]Shop parameters > General > Maintenance[/1]]]></source>
+        <target state="final"><![CDATA[Zapněte režim údržby a přidejte vaši IP v sekci [1]Nastavení eshopu > Hlavní > Údržba obchodu[/1]]]></target>
+        <note>Line: 96</note>
       </trans-unit>
       <trans-unit id="7878a3623460f0f844b13f8001ba56b7" approved="yes">
         <source>PrestaShop's caching features are disabled</source>
@@ -1584,10 +1764,70 @@ Comment: End of upgrader</note>
         <target state="final">Nastavení PHP max_execution_time obsahuje vysokou hodnotu nebo je zcela vypnuto (současná hodnota: %s s)</target>
         <note>Line: 125</note>
       </trans-unit>
+      <trans-unit id="6fabea15c50a13bc8fdc8f8a626852e9" approved="yes">
+        <source>Your current PHP version isn't compatible with your PrestaShop version.</source>
+        <target state="final">Vaše současná verze PHP není kompatibilní s vaší verzí PrestaShopu.</target>
+        <note>Line: 138</note>
+      </trans-unit>
+      <trans-unit id="e5e5ad50e292b790dd3017d84954beec" approved="yes">
+        <source>Apache mod_rewrite is disabled.</source>
+        <target state="final">Apache modul mod_rewrite je deaktivovaný.</target>
+        <note>Line: 144</note>
+      </trans-unit>
+      <trans-unit id="9081d016acc398980f9ca1c3cc153834" approved="yes">
+        <source>The following PHP extensions are not installed: %s.</source>
+        <target state="final">Následující rozšíření PHP nejsou nainstalovány: %s.</target>
+        <note>Line: 152</note>
+      </trans-unit>
+      <trans-unit id="a8e2fe2152ea8a4a01a3d0f18270618b" approved="yes">
+        <source>The following PHP extension is not installed: %s.</source>
+        <target state="final">Následující rozšíření PHP není nainstalováno: %s.</target>
+        <note>Line: 154</note>
+      </trans-unit>
+      <trans-unit id="d73cc0e7e9a3877d8c202e0924bd23ab" approved="yes">
+        <source>PHP memory_limit is inferior to 256 MB.</source>
+        <target state="final">PHP memory_limit je menší než 256 MB.</target>
+        <note>Line: 162</note>
+      </trans-unit>
+      <trans-unit id="8eba4f8d57b83e88461524508184682f" approved="yes">
+        <source>PHP file_uploads configuration is disabled.</source>
+        <target state="final">Nastavení PHP file_uploads je zakázáno.</target>
+        <note>Line: 168</note>
+      </trans-unit>
+      <trans-unit id="81ed785abf74a6ac0561b7668510c80d" approved="yes">
+        <source>The following PHP functions are not installed: %s.</source>
+        <target state="final">Následující funkce PHP nejsou nainstalovány: %s.</target>
+        <note>Line: 176</note>
+      </trans-unit>
+      <trans-unit id="d6c61bad4361519d957c9bb661258064" approved="yes">
+        <source>The following PHP function is not installed: %s.</source>
+        <target state="final">Následující funkce PHP není nainstalována: %s.</target>
+        <note>Line: 178</note>
+      </trans-unit>
+      <trans-unit id="2daccf866f94292785c4da181db40860" approved="yes">
+        <source>It's not possible to create a PHP session.</source>
+        <target state="final">Není možné vytvořit PHP session.</target>
+        <note>Line: 186</note>
+      </trans-unit>
+      <trans-unit id="e78a48236a7c0830aa9de157a415e44c" approved="yes">
+        <source>The following files are missing:</source>
+        <target state="final">Následující soubory chybí:</target>
+        <note>Line: 193</note>
+      </trans-unit>
+      <trans-unit id="588aebafed7c857178f75431b5af7d58" approved="yes">
+        <source>It's not possible to write in the following folders:</source>
+        <target state="final">Do následujících složek nelze zapisovat:</target>
+        <note>Line: 206</note>
+      </trans-unit>
       <trans-unit id="aa9b0228ac4e3e44b836f79eebf5e481" approved="yes">
         <source>Please also make sure you make a full manual backup of your files and database.</source>
         <target state="final">Ujistěte se prosím, že jste provedli kompletní zálohu souborů a databáze.</target>
         <note>Line: 218</note>
+      </trans-unit>
+      <trans-unit id="2f5caf188163a31f04c828530331b096" approved="yes">
+        <source>PrestaShop requirements are not satisfied.</source>
+        <target state="final">Systémové požadavky PrestaShopu nejsou splněny.</target>
+        <note>Line: 220</note>
       </trans-unit>
     </body>
   </file>
@@ -1641,6 +1881,11 @@ Comment: End of upgrader</note>
         <source>Your current PrestaShop version</source>
         <target state="final">Vaše aktuální verze PrestaShop</target>
         <note>Line: 13</note>
+      </trans-unit>
+      <trans-unit id="5dcfe1b5006d8e1808c14752c0657052" approved="yes">
+        <source>Your current PHP version</source>
+        <target state="final">Vaše současná verze PHP</target>
+        <note>Line: 16</note>
       </trans-unit>
       <trans-unit id="1f390ab6b7d0b815f43fbf0f86c96c14" approved="yes">
         <source>Latest official version for %s channel.</source>
@@ -1762,10 +2007,30 @@ Comment: End of upgrader</note>
         <target state="final">Číslo verze, na kterou chcete upgradovat:</target>
         <note>Line: 117</note>
       </trans-unit>
+      <trans-unit id="d16e8ad31ee6eb7891c79ba25cad7863" approved="yes">
+        <source>XML file to use:</source>
+        <target state="final">XML soubor, který použít:</target>
+        <note>Line: 120</note>
+      </trans-unit>
+      <trans-unit id="cd0135bf9edaf19cb7944e0e7b36a9d6" approved="yes">
+        <source>Choose an XML file</source>
+        <target state="final">Vyberte XML soubor</target>
+        <note>Line: 122</note>
+      </trans-unit>
       <trans-unit id="5be0150b075f706fc27b09753ce6646d" approved="yes">
         <source>No archive found in your admin/autoupgrade/download directory</source>
         <target state="final">Archiv v adresáři admin/autoupgrade/download nalezen</target>
         <note>Line: 130</note>
+      </trans-unit>
+      <trans-unit id="fa7d667f96d6c7a7a959840bb1101b68" approved="yes">
+        <source>Save in the following directory the archive file and XML file of the version you want to upgrade to: %s</source>
+        <target state="final">Do následujícího adresáře uložte archiv s instalací a XML soubor verze, na kterou chcete upgradovat:</target>
+        <note>Line: 133</note>
+      </trans-unit>
+      <trans-unit id="acb4749e846c0f10c7236ec68b574ba3" approved="yes">
+        <source>Click to save once the archive is there.</source>
+        <target state="final">Až tam vložíte archiv, klikněte na uložit.</target>
+        <note>Line: 145</note>
       </trans-unit>
       <trans-unit id="4b0319a87fb1baabe2fdb810e5cd4e62" approved="yes">
         <source>This option will skip the download step.</source>
@@ -1824,6 +2089,17 @@ Comment: End of upgrader</note>
         <source>Welcome!</source>
         <target state="final">Dobrý den!</target>
         <note>Line: 15</note>
+      </trans-unit>
+      <trans-unit id="d0ab112e427298327038f5e87aa40264" approved="yes">
+        <source>Upgrade your store to benefit from the latest improvements, bug fixes and security patches.</source>
+        <target state="final">Upgradujte váš obchod abyste získali nejnovější vylepšení, opravy chyb a bezpečnostní záplaty.</target>
+        <note>Line: 18</note>
+      </trans-unit>
+      <trans-unit id="9cf9ee1ecc597007beb11670100081b2" approved="yes">
+        <source>Upgrading your store on your own can be risky. If you don't feel comfortable doing the upgrade yourself, many agencies and developers in your area may also provide this kind of service.</source>
+        <target state="final">Aktualizace obchodu na vlastní pěst může být riskantní. Pokud se na to sami necítíte, spousta agentur a specialistů tuto službu poskytuje.
+</target>
+        <note>Line: 21</note>
       </trans-unit>
     </body>
   </file>
