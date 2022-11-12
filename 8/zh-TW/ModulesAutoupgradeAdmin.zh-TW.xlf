@@ -87,6 +87,11 @@
         <target state="final">這會轉換你的風格主題: 你的網上商店將會使用你正在升級的版本的默認風格主題.</target>
         <note>Line: 263</note>
       </trans-unit>
+      <trans-unit id="309183e60345ce8ad09def36330218b8" approved="yes">
+        <source>Regenerate RTL stylesheet</source>
+        <target state="final">再生RTL樣式表</target>
+        <note>Line: 250</note>
+      </trans-unit>
       <trans-unit id="f22d57f1f0b7fd2a55ca4760cd6ef68b" approved="yes">
         <source>Keep the customized email templates</source>
         <target state="final">保留定制的電郵模板</target>
@@ -227,6 +232,11 @@
         <target state="final">版本號碼已遺失。無法選擇該頻道。</target>
         <note>Line: 102</note>
       </trans-unit>
+      <trans-unit id="f26bf9bf98461ef0fd0a4bfc9cdcc2b5" approved="yes">
+        <source>File %s does not exist. Unable to select that channel</source>
+        <target state="final">檔案%s不存在，無法選擇該頻道。</target>
+        <note>Line: 87</note>
+      </trans-unit>
       <trans-unit id="ab232f4b20c0e50dad9081bc39382569" approved="yes">
         <source>Upgrade process will use archive.</source>
         <target state="final">升級程序將打包成壓縮檔。</target>
@@ -334,6 +344,11 @@ Comment: $config['archive_name'] = $request['archive_name'];</note>
         <source>Unable to remove upgraded files.</source>
         <target state="final">無法移除升級檔案。</target>
         <note>Line: 79</note>
+      </trans-unit>
+      <trans-unit id="1f63628adef352c2a7ee4225b9dcd576" approved="yes">
+        <source>Unable to extract file %filename% into directory %directoryname%.</source>
+        <target state="final">無法從目錄 %directoryname% 中取出檔案 %filename% 。</target>
+        <note>Line: 94</note>
       </trans-unit>
       <trans-unit id="cb7dce5f6a1934d54c0d3335c7ffe841" approved="yes">
         <source>Files restored.</source>
@@ -553,6 +568,16 @@ Comment: $config['archive_name'] = $request['archive_name'];</note>
   </file>
   <file original="modules/autoupgrade/classes/TaskRunner/Upgrade/RemoveSamples.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="20aed4fb9f6ee15bc601227bbfb85acd" approved="yes">
+        <source>Could not assert the folder %s contains a valid PrestaShop release, exiting.</source>
+        <target state="final">無法確定文件夾%s包含有效的PrestaShop版本，退出中。</target>
+        <note>Line: 50</note>
+      </trans-unit>
+      <trans-unit id="312d54356778124e7ad6d8c7be6ff1a0" approved="yes">
+        <source>A file may be missing, or the release is stored in a subfolder by mistake.</source>
+        <target state="final">可能有檔案缺失，或版本放置於錯誤子文件夾中。</target>
+        <note>Line: 51</note>
+      </trans-unit>
       <trans-unit id="2bc5a6a8c62cc5616f1d7a5abe28bb65" approved="yes">
         <source>Starting to remove %s sample files</source>
         <target state="final">開始刪除 %s 示例文件</target>
@@ -562,6 +587,11 @@ Comment: $config['archive_name'] = $request['archive_name'];</note>
         <source>Error while removing item %itemname%, %itemscount% items left.</source>
         <target state="final">刪除 %itemname% 項時出錯，還剩 %itemscount% 項。</target>
         <note>Line: 96</note>
+      </trans-unit>
+      <trans-unit id="d15430e60047ee32d088f95584eefb15" approved="yes">
+        <source>%itemname% item removed. %itemscount% items left.</source>
+        <target state="final">%itemname% 項已刪除。還剩 %itemscount% 項。</target>
+        <note>Line: 109</note>
       </trans-unit>
       <trans-unit id="1d62b7d31a19dde578c4c56babef264a" approved="yes">
         <source>All sample files removed. Now backing up files.</source>
@@ -591,6 +621,11 @@ Comment: $config['archive_name'] = $request['archive_name'];</note>
         <source>Unable to extract %filepath% file into %destination% folder...</source>
         <target state="final">無法從 %destination% 目錄中取出 %filepath% 檔案...</target>
         <note>Line: 87</note>
+      </trans-unit>
+      <trans-unit id="5d3c14ccb814427455842b838bbd6f21" approved="yes">
+        <source>No prestashop/ folder found in the ZIP file. Aborting.</source>
+        <target state="final">ZIP檔案中沒有找到PrestaShop/ 文件夾。中止中。</target>
+        <note>Line: 103</note>
       </trans-unit>
       <trans-unit id="7dce6149440985f89756b4c451d7dc03" approved="yes">
         <source>File extraction complete. Removing sample files...</source>
@@ -739,6 +774,11 @@ Comment: directory already exists</note>
         <target state="final">listModule不是array，沒有模組會被升級.</target>
         <note>Line: 54</note>
       </trans-unit>
+      <trans-unit id="04663743fc92eeb1f90a4d165c470e54" approved="yes">
+        <source>Upgrading module %module%...</source>
+        <target state="final">正在升級模組%module%...</target>
+        <note>Line: 64</note>
+      </trans-unit>
       <trans-unit id="35687f9e2d83cd9e89860c47fb3a7bbd" approved="yes">
         <source>The files of module %s have been upgraded.</source>
         <target state="final">模組的文件 %s 已經升級.</target>
@@ -777,6 +817,11 @@ Comment: directory already exists</note>
         <source>Starting upgrade...</source>
         <target state="final">正在開始更新...</target>
         <note>Line: 40</note>
+      </trans-unit>
+      <trans-unit id="d3446f09f99983abc250c0d2a92d0285" approved="yes">
+        <source>Downloading and unzipping steps have been skipped, upgrade process will now remove sample data.</source>
+        <target state="final">已略過下載與解壓縮步驟，升級程序即將移除樣本數據。</target>
+        <note>Line: 67</note>
       </trans-unit>
       <trans-unit id="b06a965d6f83ecc3c04eefe175482f1d" approved="yes">
         <source>Shop deactivated. Removing sample files...</source>
@@ -975,10 +1020,20 @@ Comment: Hey ! I'm really using a fieldset element to regroup fields ?! !</note>
         <target state="final">操作取消。正檢查還原...</target>
         <note>Line: 338</note>
       </trans-unit>
+      <trans-unit id="d5dfd6fbb959405ade102657ece534fa" approved="yes">
+        <source>Do you want to restore %s?</source>
+        <target state="final">你是否要還原 %s?</target>
+        <note>Line: 339</note>
+      </trans-unit>
       <trans-unit id="f234e8051cec7a79e996e67f179bd68b" approved="yes">
         <source>Operation canceled. An error happened.</source>
         <target state="final">操作取消。發生錯誤。</target>
         <note>Line: 340</note>
+      </trans-unit>
+      <trans-unit id="df54e40fe544b0ca34929e0e690a93c1" approved="yes">
+        <source>[TECHNICAL ERROR] ajax-upgradetab.php is missing. Please reinstall the module.</source>
+        <target state="final">[技術錯誤] 缺少ajax-upgradetab.php。請重新安裝模塊。</target>
+        <note>Line: 341</note>
       </trans-unit>
       <trans-unit id="f1a1fb67c8350e8881bc59f09e42d5ab" approved="yes">
         <source>Click to refresh the page and use the new configuration</source>
@@ -1397,6 +1452,11 @@ Comment: End of upgrader</note>
         <source>Download of the language pack %lang% failed. %details%</source>
         <target state="final">語言包 %lang% 的下載失敗。%details%</target>
         <note>Line: 79</note>
+      </trans-unit>
+      <trans-unit id="dbe50813c9aa171b52352ac77609a9bb" approved="yes">
+        <source>Error while updating translations for lang %lang%. %details%</source>
+        <target state="final">更新語言翻譯%lang%%details%時發生錯誤</target>
+        <note>Line: 90</note>
       </trans-unit>
       <trans-unit id="f7b8fb04eca61009a5ff2f578d374a8b" approved="yes">
         <source>Upgrade the RTL files.</source>
