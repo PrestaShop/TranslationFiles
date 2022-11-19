@@ -304,7 +304,7 @@
       </trans-unit>
       <trans-unit id="ca676c9ec4e1ae9fe9df3ac28910e6ef" approved="yes">
         <source>Unit Price (tax excl.) (%d) is not valid (at line %d).</source>
-        <target state="final">Ціна за одиницю (податок не увімкнено) (%d) не припустима (в рядку %d).</target>
+        <target state="final">Ціна за одиницю (без ПДВ) (%d) не припустима (в рядку %d).</target>
         <note>Line: 4323</note>
       </trans-unit>
       <trans-unit id="406eba9770c82a84cae2d6ee3e846a56" approved="yes">
@@ -364,7 +364,11 @@
   </file>
   <file original="controllers/admin/AdminShopGroupController.php" source-language="en" target-language="uk" datatype="plaintext">
     <body>
-      
+      <trans-unit id="083020d21e9461b15d496bbb87198c34" approved="yes">
+        <source>You must configure this store's URL before setting it as default.</source>
+        <target state="final">Перш ніж встановити URL-адресу магазину за замовчуванням, налаштуйте її.</target>
+        <note>Line: 350</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminStoresController.php" source-language="en" target-language="uk" datatype="plaintext">
@@ -553,7 +557,7 @@
       </trans-unit>
       <trans-unit id="1f45b8f0e0e3ab3a5c43c9b99641fad5" approved="yes">
         <source>Advanced stock management has incorrect value. Not set for product %name%</source>
-        <target state="final">Розширене керування запасами має невірне значення. Не задано для %name%</target>
+        <target state="final">Розширене керування запасами має невірне значення. Не встановлено для товару %name%</target>
         <note>Line: 1239</note>
       </trans-unit>
       <trans-unit id="0f617687e3fc1e518f830dc0ad427cd8" approved="yes">
@@ -563,7 +567,7 @@
       </trans-unit>
       <trans-unit id="1e82a87bf4a4e2edca0e1063116a5328" approved="yes">
         <source>Advanced stock management is not enabled, warehouse not set on product %name%</source>
-        <target state="final">Розширене керування запасами не активовано, склад не встановлено для товару %name%</target>
+        <target state="final">Розширене керування запасами не ввімкнено, не вказано склад для товару %name%</target>
         <note>Line: 1266</note>
       </trans-unit>
       <trans-unit id="068e8a1ac19374587efc15a38ce9c559" approved="yes">
@@ -1049,7 +1053,11 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceKeyType.php" source-language="en" target-language="uk" datatype="plaintext">
     <body>
-      
+      <trans-unit id="2cb84ea6e832a3190d3ad11a3e1f415c" approved="yes">
+        <source>Only non-accented characters, numbers, and the following special characters are allowed: %allowed_characters%</source>
+        <target state="final">Тільки ненаголошені символи, цифри та спеціальні символи: %allowed_characters%</target>
+        <note>Line: 118</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Backup/Blocks/backup_form.html.twig" source-language="en" target-language="uk" datatype="plaintext">
@@ -1155,6 +1163,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/FeatureFlag/index.html.twig" source-language="en" target-language="uk" datatype="plaintext">
     <body>
+      <trans-unit id="413e71d77a70c6ddfbbee6979b47b90b" approved="yes">
+        <source>New features are available. Feel free to try them out!</source>
+        <target state="final">Доступні нові функції. Випробуйте їх!</target>
+        <note>Line: 43</note>
+      </trans-unit>
       <trans-unit id="fcfc1d5af32905a9ed28a76af2251ba9" approved="yes">
         <source>Testing a feature before its official release can be exciting. However, you must be aware of the potential risks of such experiments:</source>
         <target state="final">Тестування функції перед офіційним випуском може бути захоплюючим. Однак ви повинні знати про потенційні ризики таких експериментів:</target>
@@ -1247,7 +1260,7 @@
       </trans-unit>
       <trans-unit id="c49d6d58d1c98f34a15bbd169f82961a" approved="yes">
         <source>Changed/missing files have been detected.</source>
-        <target state="final">Було виявлено відсутність або оновлені файли</target>
+        <target state="final">Були виявлені змінені або відсутні файли</target>
         <note>Line: 268</note>
       </trans-unit>
       <trans-unit id="4757718002cbae6feee5c372b66b6a29" approved="yes">
