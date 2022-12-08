@@ -603,10 +603,25 @@ Comment: voluntary do affectation here</note>
         <target state="final">آخرین بروز رسانی</target>
         <note>Line: 145</note>
       </trans-unit>
+      <trans-unit id="8c01c65cd2c7619b8bb617b441cd05c4" approved="yes">
+        <source>The user will be signed out from this session.</source>
+        <target state="final">کاربر از این نشست خارج خواهد شد.</target>
+        <note>Line: 165</note>
+      </trans-unit>
       <trans-unit id="b49d9bafc2f2394cdd875fb0b96bb974" approved="yes">
         <source>Delete session?</source>
         <target state="final">حذف نشست؟</target>
         <note>Line: 171</note>
+      </trans-unit>
+      <trans-unit id="12e882347d5f51cf292ca08e2e606eb2" approved="yes">
+        <source>Users will be signed out from all selected sessions.</source>
+        <target state="final">کاربرها از تمام نشست‌های انتخاب شده خارج خواهند شد.</target>
+        <note>Line: 295</note>
+      </trans-unit>
+      <trans-unit id="b0778bfd9332089cdb4468bd9f04e031" approved="yes">
+        <source>Delete selected sessions?</source>
+        <target state="final">حذف نشست‌های انتخاب شده؟</target>
+        <note>Line: 301</note>
       </trans-unit>
     </body>
   </file>
@@ -1482,10 +1497,25 @@ Comment: voluntary do affectation here</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Security/PasswordPolicyType.php" source-language="en" target-language="fa" datatype="plaintext">
     <body>
+      <trans-unit id="7c8eb7601cbe87bf48815729c2ee4264" approved="yes">
+        <source>0 - Extremely guessable</source>
+        <target state="final">0 - به شدت قابل حدس</target>
+        <note>Line: 76</note>
+      </trans-unit>
       <trans-unit id="3e1191ee418b9411aae871b276a3cda5" approved="yes">
         <source>1 - Very guessable</source>
         <target state="final">۱ - کاملاً قابل حدس</target>
         <note>Line: 77</note>
+      </trans-unit>
+      <trans-unit id="f81ccca9eb2a1dc7b9b3569174f4f8a6" approved="yes">
+        <source>2 - Somewhat guessable</source>
+        <target state="final">2 - تقریباً قابل حدس</target>
+        <note>Line: 78</note>
+      </trans-unit>
+      <trans-unit id="38375da4832d4e3fc689d7bdd8797dac" approved="yes">
+        <source>3 - Safely unguessable</source>
+        <target state="final">3 - به طرز امنی غیرقابل حدس</target>
+        <note>Line: 79</note>
       </trans-unit>
       <trans-unit id="8a86e2daedac9f0032313f7fb9b81db9" approved="yes">
         <source>4 - Very unguessable</source>
@@ -1877,6 +1907,11 @@ Comment: voluntary do affectation here</note>
         <target state="final">نشست‌های تاریخ‌گذشته</target>
         <note>Line: 31</note>
       </trans-unit>
+      <trans-unit id="2fabd0862b55cc866830e7c4fac43dbb" approved="yes">
+        <source>Clear outdated sessions manually</source>
+        <target state="final">پاک کردن نشست‌های تاریخ گذشته به صورت دستی</target>
+        <note>Line: 53</note>
+      </trans-unit>
       <trans-unit id="dc30bc0c7914db5918da4263fce93ad2" approved="yes">
         <source>Clear</source>
         <target state="final">پاک کردن</target>
@@ -1890,6 +1925,31 @@ Comment: voluntary do affectation here</note>
         <source>Password policy</source>
         <target state="final">سیاست رمز عبور</target>
         <note>Line: 58</note>
+      </trans-unit>
+      <trans-unit id="8da7288a967251a5ece7398ee9ccc517" approved="yes">
+        <source>0 means the password is extremely easy to guess (within 10^3 guesses). Dictionary words like "password" or "mother" score 0.</source>
+        <target state="final">0 به معنی آن است که کلمه‌ی عبور بسیار ساده قابل حدس است (با 10 به توان 3 حدس). کلماتی مثل «password» یا «mother» امتیاز 0 می‌گیرند.</target>
+        <note>Line: 69</note>
+      </trans-unit>
+      <trans-unit id="f6e312ff777ced3efe9ec2537ca94d80" approved="yes">
+        <source>1 is still very easy to guess (guesses lesser than 10^6). An extra character on a dictionary word can score 1.</source>
+        <target state="final">1 هنوز به سادگی قابل حدس است (حدس‌هایی کمتر از 10 به توان 6). یک کارکتر اضافه در یک کلمه شناخته شده می‌تواند امتیاز 1 بگیرد.</target>
+        <note>Line: 70</note>
+      </trans-unit>
+      <trans-unit id="8ff3208b2d25c53b96741f8e2a8caf92" approved="yes">
+        <source>2 is pretty easy to guess (guesses lesser than 10^8). It provides some protection from unthrottled online attacks.</source>
+        <target state="final">2 تقریباً به سادگی قابل حدس است (حدس‌هایی کمتر از 10 به توان 8). این یکی مقداری محافظت در مقابل حملات آنلاین unthrottled.</target>
+        <note>Line: 71</note>
+      </trans-unit>
+      <trans-unit id="e3f0680a29b17f58dad1ffc0c3692a58" approved="yes">
+        <source>3 is safely unguessable (guesses lesser than 10^10). It offers moderate protection from offline slow-hash scenario.</source>
+        <target state="final">3 به طرز امنی غیرقابل حدس است (حدس‌هایی کمتر از 10 به توان 10). این امتیاز محافظت متوسطی در مقابل سناریوهای offline slow-hash ایجاد می‌کند.</target>
+        <note>Line: 72</note>
+      </trans-unit>
+      <trans-unit id="9e4ed1a59cbfd96288f7e6376ddadf0c" approved="yes">
+        <source>4 is very unguessable (guesses greater than or equal to 10^10) and provides strong protection from offline slow-hash scenario.</source>
+        <target state="final">4 بسیار غیرقابل حدس (حدس‌های بزرگتر مساوی 10 به توان 10) و محافظتی قوی از سناریوهای offline slow-hash فراهم می‌کند.</target>
+        <note>Line: 73</note>
       </trans-unit>
     </body>
   </file>
@@ -1918,6 +1978,11 @@ Comment: voluntary do affectation here</note>
         <source>Webservice status</source>
         <target state="final">وضعیت وب سرویس</target>
         <note>Line: 57</note>
+      </trans-unit>
+      <trans-unit id="2ab627ad288e54ed2712f137ceb37a37" approved="yes">
+        <source>Webservice is enabled. Main entry point is</source>
+        <target state="final">وب‌سرویس فعال است. نقطه‌ی ورودی اصلی (Main entry point) برابر است</target>
+        <note>Line: 61</note>
       </trans-unit>
     </body>
   </file>
