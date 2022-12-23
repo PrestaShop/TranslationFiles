@@ -81,6 +81,11 @@
         <target state="final">A jelszó nem megfelelő (betűk és számok, legalább 8 karakter)</target>
         <note>Line: 114</note>
       </trans-unit>
+      <trans-unit id="76f0e831c39df4563f03d1673a848fd6" approved="yes">
+        <source>The password is incorrect (must be Strong)</source>
+        <target state="final">A jelszó helytelen (erősnek kell lennie)</target>
+        <note>Line: 116</note>
+      </trans-unit>
       <trans-unit id="74d36cb95a84f88728b3d69678aba185" approved="yes">
         <source>The password and its confirmation are different</source>
         <target state="final">Jelszó és megerősítés nem egyezik</target>
@@ -159,6 +164,11 @@ Comment: We fill the process step used for Ajax queries</note>
         <source>Install demonstration data</source>
         <target state="final">Bemutató adatok telepítése</target>
         <note>Line: 317</note>
+      </trans-unit>
+      <trans-unit id="cb64700c69079f0f605130a3e4b62d0a" approved="yes">
+        <source>Post installation scripts</source>
+        <target state="final">Telepítés utáni szkriptek</target>
+        <note>Line: 331</note>
       </trans-unit>
     </body>
   </file>
@@ -417,19 +427,69 @@ Comment: We fill the process step used for Ajax queries</note>
         <target state="final">Írd be újra megerősítéshez</target>
         <note>Line: 149</note>
       </trans-unit>
+      <trans-unit id="b482b125161bc9e84d12df83251ebf2d" approved="yes">
+        <source>Enter a password between %d and %d characters</source>
+        <target state="final">Adj meg egy %d és %d karakter közötti jelszót</target>
+        <note>Line: 175</note>
+      </trans-unit>
+      <trans-unit id="f43333ea2272fed37fc121a2e09755c3" approved="yes">
+        <source>The minimum score must be: %s</source>
+        <target state="final">A minimális pontszámnak a következőnek kell lennie: %s</target>
+        <note>Line: 179</note>
+      </trans-unit>
     </body>
   </file>
   <file original="install-dev/theme/views/content.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
+      <trans-unit id="0e8ea4263454e813a58e0f1bbad5958f" approved="yes">
+        <source>Content of your store</source>
+        <target state="final">A boltod besorolása</target>
+        <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="82da52196edba4e07eb729fa3560027f" approved="yes">
+        <source>Installation of theme</source>
+        <target state="final">Téma telepítése</target>
+        <note>Line: 35</note>
+      </trans-unit>
       <trans-unit id="9d290d3434589e33be3d2cad4f8323ec" approved="yes">
         <source>Version:</source>
         <target state="final">Verzió:</target>
         <note>Line: 49</note>
       </trans-unit>
+      <trans-unit id="7b252eac57f192a69f1d65d65ebae990" approved="yes">
+        <source>Select the theme to install.</source>
+        <target state="final">Válaszd ki a telepíteni kívánt témát.</target>
+        <note>Line: 57</note>
+      </trans-unit>
+      <trans-unit id="1ee54bd7ea05ef3b4534568b2f765959" approved="yes">
+        <source>Installation of demo products</source>
+        <target state="final">Minta termékek telepítése</target>
+        <note>Line: 62</note>
+      </trans-unit>
       <trans-unit id="75b105f67d0774e4bb7b69de06d20dbb" approved="yes">
         <source>Demo products are a good way to learn how to use PrestaShop. You should install them if you are not familiar with it.</source>
         <target state="final">A demótermékek elősegítik a PrestaShop használatának elsajátítását. Telepítésük ajánlott, ha még nem vagy tapasztalt.</target>
         <note>Line: 73</note>
+      </trans-unit>
+      <trans-unit id="f77111def88b97ed924e2a84e08b1750" approved="yes">
+        <source>Installation of modules</source>
+        <target state="final">Modulok telepítése</target>
+        <note>Line: 77</note>
+      </trans-unit>
+      <trans-unit id="86a584485dcc10ca044c84074082f847" approved="yes">
+        <source>Install all modules (recommended)</source>
+        <target state="final">Összes modul telepítése (ajánlott)</target>
+        <note>Line: 83</note>
+      </trans-unit>
+      <trans-unit id="06a10956657ce3d792f4207bbd802fb2" approved="yes">
+        <source>Select the modules to install</source>
+        <target state="final">Válaszd ki a telepíteni kívánt modulokat</target>
+        <note>Line: 89</note>
+      </trans-unit>
+      <trans-unit id="a053cbf7b3b9ffaf66752fae2ec3c09a" approved="yes">
+        <source>If you are using PrestaShop for the first time, you should install all modules now and uninstall the ones you don't need later.</source>
+        <target state="final">Ha először használod a PrestaShop-ot, telepítsd most az összes modult. Később eltávolíthatod azokat, amelyekre nincs szükséged.</target>
+        <note>Line: 95</note>
       </trans-unit>
       <trans-unit id="13348442cc6a27032d2b4aa28b75a5d3" approved="yes">
         <source>Search</source>
@@ -699,6 +759,11 @@ Comment: We fill the process step used for Ajax queries</note>
   </file>
   <file original="src/Core/Webservice/ServerRequirementsChecker.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
+      <trans-unit id="dd7ca6cda200f3854748748d75d37840" approved="yes">
+        <source>Please activate the 'mod_auth_basic' Apache module to allow the use of the PrestaShop webservice.</source>
+        <target state="final">Kérlek, aktiváld a 'mod_auth_basic' Apache modult, hogy működjön a PrestaShop webszolgáltatása.</target>
+        <note>Line: 152</note>
+      </trans-unit>
       <trans-unit id="2c19e4b707a422ddbbc4d1c32966661d" approved="yes">
         <source>We could not check to see if basic authentication and rewrite extensions have been activated. Please manually check if they've been activated in order to use the PrestaShop webservice.</source>
         <target state="final">Nem tudjuk ellenőrizni az alap hitelesítési és újraírási kiterjesztés aktiváltságát. A PrestaShop webszolgáltatás használatához ezek aktiválásának manuális ellenőrzése szükséges.</target>
@@ -965,6 +1030,11 @@ Comment: We fill the process step used for Ajax queries</note>
         <source>Cannot install module "%module%"</source>
         <target state="final">"%module%" modul nem telepíthető</target>
         <note>Line: 987</note>
+      </trans-unit>
+      <trans-unit id="c2c8925b8e5c7cfc0d83fa3f7342b48d" approved="yes">
+        <source>Cannot execute post install on module "%module%"</source>
+        <target state="final">Nem lehet végrehajtani a telepítés utáni műveletet "%module%" modul esetében </target>
+        <note>Line: 1013</note>
       </trans-unit>
       <trans-unit id="4a85cd1d84d691a2e0b73a5f08cd3483" approved="yes">
         <source>Fixtures class "%class%" not found</source>
