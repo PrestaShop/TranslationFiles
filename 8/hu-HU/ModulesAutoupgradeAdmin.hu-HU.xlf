@@ -1577,6 +1577,11 @@ Comment: End of upgrader</note>
         <target state="final">%filename% archívhoz adva. Még %filescount% fájl van hátra.</target>
         <note>Line: 102</note>
       </trans-unit>
+      <trans-unit id="f1762e2b4f9dd1ba27ecc89a4aba0f92" approved="yes">
+        <source>Could not close the Zip file properly. Check you are allowed to write on the disk and there is available space on it.</source>
+        <target state="final">Nem sikerült megfelelően bezárni a Zip fájlt. Ellenőrizd, van-e írási jogod, és elég szabad hely a lemezen.</target>
+        <note>Line: 113</note>
+      </trans-unit>
       <trans-unit id="9311ab161709b4f5efe9c6ff08b33699" approved="yes">
         <source>%s is not a file</source>
         <target state="final">%s nem egy fájl</target>
@@ -1586,6 +1591,16 @@ Comment: End of upgrader</note>
         <source>Unable to create directory %s.</source>
         <target state="final">%s mappa létrehozása sikertelen.</target>
         <note>Line: 141</note>
+      </trans-unit>
+      <trans-unit id="619c520551c7a108c12fde64e9b73b12" approved="yes">
+        <source>Could not extract %file% from backup, the destination might not be writable.</source>
+        <target state="final">%file% nem csomagolható ki a biztonsági mentésből. Előfordulhat, hogy a célhely nem írható.</target>
+        <note>Line: 157</note>
+      </trans-unit>
+      <trans-unit id="b6fadb405627a21f30cbe97d9f47d7a3" approved="yes">
+        <source>Content of archive %zip% is extracted</source>
+        <target state="final">%zip% archívum tartalma kicsomagolva</target>
+        <note>Line: 169</note>
       </trans-unit>
       <trans-unit id="3858aebfe7dce0a1dc398d199cb85a2b" approved="yes">
         <source>[ERROR] Unable to list archived files</source>
@@ -1669,6 +1684,16 @@ Comment: End of upgrader</note>
         <target state="final">A frissítést megelőző ellenörző-lista</target>
         <note>Line: 6</note>
       </trans-unit>
+      <trans-unit id="0b360b52f457a0a4928998cbf5ee773f" approved="yes">
+        <source>Your current version of the module is out of date. Update now</source>
+        <target state="final">A modul jelenlegi verziója elavult. Frissítsd most</target>
+        <note>Line: 10</note>
+      </trans-unit>
+      <trans-unit id="90f90ca1387f6932c53aab39ad899f4b" approved="yes">
+        <source><![CDATA[Modules > Module Manager > Updates]]></source>
+        <target state="final"><![CDATA[Modulok > Modul kezelő > Frissítések]]></target>
+        <note>Line: 11</note>
+      </trans-unit>
       <trans-unit id="03f945bba76ea63369d50a340e5b17bf" approved="yes">
         <source>The checklist is not OK. You can only upgrade your shop once all indicators are green.</source>
         <target state="final">Az ellenőrző lista nem OK. Csak akkor frissítheted a boltodat, ha minden kijelző zöld.</target>
@@ -1678,6 +1703,21 @@ Comment: End of upgrader</note>
         <source>Before starting the upgrade process, please make sure this checklist is all green.</source>
         <target state="final">A frissítés megkezdése előtt, ellenőrízd a listát, minden legyen zöld.</target>
         <note>Line: 18</note>
+      </trans-unit>
+      <trans-unit id="0cd4783b935f23e501fc7db884144c5c" approved="yes">
+        <source>Your server is running on a supported PHP version.</source>
+        <target state="final">A szervered támogatott PHP verziót használ.</target>
+        <note>Line: 23</note>
+      </trans-unit>
+      <trans-unit id="16a837171ad7657e7d0cc505e4f9a3ae" approved="yes">
+        <source>The PHP version your server is running on is obsolete and needs to be upgraded. [1]Learn more[/1].</source>
+        <target state="final">A PHP-verzió, ami a szerveren fut, elavult, és frissítésre szorul. [1]További információ[/1].</target>
+        <note>Line: 25</note>
+      </trans-unit>
+      <trans-unit id="50a5bcb757b1a7705007720863250da8" approved="yes">
+        <source>Your store's root directory (%s) is writable (with appropriate CHMOD permissions).</source>
+        <target state="final">A boltod gyökérmappája (%s) írható (a megfelelő CHMOD engedélyekkel).</target>
+        <note>Line: 40</note>
       </trans-unit>
       <trans-unit id="b398e46a283dd457aa7dc0302004208c" approved="yes">
         <source>The "/admin/autoupgrade" directory is writable (appropriate CHMOD permissions)</source>
@@ -1694,10 +1734,20 @@ Comment: End of upgrader</note>
         <target state="final">A PHP "allow_url_fopen" opció bekapcsolt vagy a cURL telepítve van</target>
         <note>Line: 72</note>
       </trans-unit>
+      <trans-unit id="d9af605897e2636f97ef20fd5829195a" approved="yes">
+        <source>PHP's "zip" extension is enabled</source>
+        <target state="final">A PHP "zip" bővítmény engedélyezve van</target>
+        <note>Line: 82</note>
+      </trans-unit>
       <trans-unit id="49c20044e894d8cc2da7783adbf79f16" approved="yes">
         <source>Your store is in maintenance mode</source>
         <target state="final">Áruházad karbantartási üzemmódban van</target>
         <note>Line: 94</note>
+      </trans-unit>
+      <trans-unit id="e3ea2f6fe56c80761e37fd9c393d88a5" approved="yes">
+        <source><![CDATA[Enable maintenance mode and add your maintenance IP in [1]Shop parameters > General > Maintenance[/1]]]></source>
+        <target state="final"><![CDATA[Kapcsold be a karbantartási módot, és add meg a karbantartó IP-címét a [1]Áruházbeállítások > Általános > Karbantartás[/1] menüpontban.]]></target>
+        <note>Line: 96</note>
       </trans-unit>
       <trans-unit id="7878a3623460f0f844b13f8001ba56b7" approved="yes">
         <source>PrestaShop's caching features are disabled</source>
@@ -1714,10 +1764,25 @@ Comment: End of upgrader</note>
         <target state="final">A PHP max_execution_time beállításnál magas az érték vagy teljesen letiltott (jelenlegi érték: %s mp)</target>
         <note>Line: 125</note>
       </trans-unit>
+      <trans-unit id="6fabea15c50a13bc8fdc8f8a626852e9" approved="yes">
+        <source>Your current PHP version isn't compatible with your PrestaShop version.</source>
+        <target state="final">A jelenlegi PHP verziód nem kompatibilis a PrestaShop verzióddal.</target>
+        <note>Line: 138</note>
+      </trans-unit>
       <trans-unit id="e5e5ad50e292b790dd3017d84954beec" approved="yes">
         <source>Apache mod_rewrite is disabled.</source>
         <target state="final">Apache mod_rewrite le van tiltva.</target>
         <note>Line: 144</note>
+      </trans-unit>
+      <trans-unit id="9081d016acc398980f9ca1c3cc153834" approved="yes">
+        <source>The following PHP extensions are not installed: %s.</source>
+        <target state="final">A következő PHP bővítmények nincsenek telepítve: %s.</target>
+        <note>Line: 152</note>
+      </trans-unit>
+      <trans-unit id="a8e2fe2152ea8a4a01a3d0f18270618b" approved="yes">
+        <source>The following PHP extension is not installed: %s.</source>
+        <target state="final">A következő PHP bővítmény nincs telepítve: %s.</target>
+        <note>Line: 154</note>
       </trans-unit>
       <trans-unit id="d73cc0e7e9a3877d8c202e0924bd23ab" approved="yes">
         <source>PHP memory_limit is inferior to 256 MB.</source>
@@ -1728,6 +1793,21 @@ Comment: End of upgrader</note>
         <source>PHP file_uploads configuration is disabled.</source>
         <target state="final">PHP file_uploads beállítás le van tiltva.</target>
         <note>Line: 168</note>
+      </trans-unit>
+      <trans-unit id="81ed785abf74a6ac0561b7668510c80d" approved="yes">
+        <source>The following PHP functions are not installed: %s.</source>
+        <target state="final">A következő PHP funkciók nincsenek telepítve: %s.</target>
+        <note>Line: 176</note>
+      </trans-unit>
+      <trans-unit id="d6c61bad4361519d957c9bb661258064" approved="yes">
+        <source>The following PHP function is not installed: %s.</source>
+        <target state="final">A következő PHP funkció nincs telepítve: %s.</target>
+        <note>Line: 178</note>
+      </trans-unit>
+      <trans-unit id="2daccf866f94292785c4da181db40860" approved="yes">
+        <source>It's not possible to create a PHP session.</source>
+        <target state="final">Nem lehet PHP munkamenetet létrehozni.</target>
+        <note>Line: 186</note>
       </trans-unit>
       <trans-unit id="e78a48236a7c0830aa9de157a415e44c" approved="yes">
         <source>The following files are missing:</source>
@@ -1942,6 +2022,11 @@ Comment: End of upgrader</note>
         <target state="final">Nem található archívum a admin/autoupgrade/download mappában</target>
         <note>Line: 130</note>
       </trans-unit>
+      <trans-unit id="fa7d667f96d6c7a7a959840bb1101b68" approved="yes">
+        <source>Save in the following directory the archive file and XML file of the version you want to upgrade to: %s</source>
+        <target state="final">A frissíteni kívánt verzió archív és XML fájlja a következő könyvtárba lesznek lementve: %s</target>
+        <note>Line: 133</note>
+      </trans-unit>
       <trans-unit id="acb4749e846c0f10c7236ec68b574ba3" approved="yes">
         <source>Click to save once the archive is there.</source>
         <target state="final">Ha az archívum fent van, kattints a mentésre.</target>
@@ -2004,6 +2089,16 @@ Comment: End of upgrader</note>
         <source>Welcome!</source>
         <target state="final">Üdvözlünk!</target>
         <note>Line: 15</note>
+      </trans-unit>
+      <trans-unit id="d0ab112e427298327038f5e87aa40264" approved="yes">
+        <source>Upgrade your store to benefit from the latest improvements, bug fixes and security patches.</source>
+        <target state="final">Frissítsd boltodat, hogy megkaphasd a legújabb fejlesztéseket, hibajavításokat és biztonsági javításokat.</target>
+        <note>Line: 18</note>
+      </trans-unit>
+      <trans-unit id="9cf9ee1ecc597007beb11670100081b2" approved="yes">
+        <source>Upgrading your store on your own can be risky. If you don't feel comfortable doing the upgrade yourself, many agencies and developers in your area may also provide this kind of service.</source>
+        <target state="final">Boltod frissítése kockázatos lehet. Ha nem érzed magabiztosnak magad a témában, keress egy ügynökséget vagy fejlesztőt, aki ért hozzá.</target>
+        <note>Line: 21</note>
       </trans-unit>
     </body>
   </file>
