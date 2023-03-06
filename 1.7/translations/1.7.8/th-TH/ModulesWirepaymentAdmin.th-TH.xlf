@@ -2,6 +2,16 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="modules/ps_wirepayment/ps_wirepayment.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
+      <trans-unit id="48c6aa380e9fc3a3a605273d7af50016" approved="yes">
+        <source>Wire payment</source>
+        <target state="final">การชำระเงินผ่านธนาคาร</target>
+        <note>Line: 77</note>
+      </trans-unit>
+      <trans-unit id="cedc96489132776ce19ebc2751f17454" approved="yes">
+        <source>Accept payments by bank transfer.</source>
+        <target state="final">รับชำระเงินด้วยการโอนเงินทางธนาคาร</target>
+        <note>Line: 76</note>
+      </trans-unit>
       <trans-unit id="cbe0a99684b145e77f3e14174ac212e3" approved="yes">
         <source>Are you sure about removing these details?</source>
         <target state="final">คุณแน่ใจว่าคุณต้องการลบรายละเอียดเหล่านี้?</target>
@@ -27,6 +37,11 @@
         <target state="final">กรุณากรอกเจ้าของบัญชี</target>
         <note>Line: 131</note>
       </trans-unit>
+      <trans-unit id="8bc212f48680748479bbd322d4d73d3f" approved="yes">
+        <source>Account details</source>
+        <target state="final">รายละเอียดบัญชี</target>
+        <note>Line: 298</note>
+      </trans-unit>
       <trans-unit id="857216dd1b374de9bf54068fcd78a8f3" approved="yes">
         <source>Account owner</source>
         <target state="final">เจ้าของบัญชี</target>
@@ -47,6 +62,46 @@
         <target state="final">การปรับแต่ง</target>
         <note>Line: 318</note>
       </trans-unit>
+      <trans-unit id="873a2778bdb25b9dcca6de640216c4a9" approved="yes">
+        <source>Reservation period</source>
+        <target state="final">ระยะเวลาการจอง</target>
+        <note>Line: 324</note>
+      </trans-unit>
+      <trans-unit id="120cf2b5eab7f28e5fb03b8fb7bbd07b" approved="yes">
+        <source>Number of days the items remain reserved</source>
+        <target state="final">จำนวนวันที่รายการยังคงถูกจองไว้</target>
+        <note>Line: 325</note>
+      </trans-unit>
+      <trans-unit id="6b8d5618e646b2ad407158c1da89ca0c" approved="yes">
+        <source>Information to the customer</source>
+        <target state="final">ข้อมูลให้กับลูกค้า</target>
+        <note>Line: 330</note>
+      </trans-unit>
+      <trans-unit id="65ed2ab0c7edcccc96fcedaa594f94c6" approved="yes">
+        <source>Information on the bank transfer (processing time, starting of the shipping...)</source>
+        <target state="final">ข้อมูลการโอนเงินผ่านธนาคาร (เวลาดำเนินการ การเริ่มต้นของการจัดส่ง...)</target>
+        <note>Line: 332</note>
+      </trans-unit>
+      <trans-unit id="9b07982b472390295e7da7d430c8ec1d" approved="yes">
+        <source>Display the invitation to pay in the order confirmation page</source>
+        <target state="final">แสดงคำเชิญให้ชำระเงินในหน้ายืนยันการสั่งซื้อ</target>
+        <note>Line: 337</note>
+      </trans-unit>
+      <trans-unit id="b8a891b1e28c2049da81774493d8779c" approved="yes">
+        <source>Your country's legislation may require you to send the invitation to pay by email only. Disabling the option will hide the invitation on the confirmation page.</source>
+        <target state="final">กฎหมายในประเทศของคุณอาจกำหนดให้คุณต้องส่งคำเชิญให้ชำระเงินทางอีเมลเท่านั้น การปิดใช้งานตัวเลือกจะซ่อนคำเชิญในหน้ายืนยัน</target>
+        <note>Line: 340</note>
+      </trans-unit>
+      <trans-unit id="efe2bc77638ccc2f2fe662833597ef5c" approved="yes">
+        <source>Accept wire payments by displaying your account details during the checkout and make it easy for your customers to purchase on your store.</source>
+        <target state="final">รับชำระเงินผ่านธนาคารโดยการแสดงรายละเอียดบัญชีของคุณระหว่างขั้นตอนการชำระเงิน และทำให้ลูกค้าซื้อสินค้าในร้านค้าของคุณได้ง่าย</target>
+        <note>Line: 70</note>
+      </trans-unit>
+      <trans-unit id="7d8eb5539dc2cc45a0ca92bb5ee15210" approved="yes">
+        <source>Accept wire payments by displaying your account details during the checkout.</source>
+        <target state="final">รับชำระเงินผ่านธนาคารโดยแสดงรายละเอียดบัญชีของคุณระหว่างชำระเงิน</target>
+        <note>Line: 78</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/ps_wirepayment/views/templates/hook/infos.tpl" source-language="en" target-language="th" datatype="plaintext">
@@ -55,6 +110,11 @@
         <source>This module allows you to accept secure payments by bank wire.</source>
         <target state="final">คุณสามารถใช้การชำระเงินที่มีความปลอดภัยโดยการโอนเงินผ่านธนาคารกับโมดูลนี้</target>
         <note>Line: 22</note>
+      </trans-unit>
+      <trans-unit id="cfc0561623b37471f267aa911092b3ac" approved="yes">
+        <source>If the client chooses to pay by bank wire, the order status will change to 'Waiting for Payment'.</source>
+        <target state="final">หากลูกค้าเลือกชำระเงินด้วยการโอนเงินผ่านธนาคาร สถานะคำสั่งซื้อจะเปลี่ยนเป็น 'รอการชำระเงิน'</target>
+        <note>Line: 23</note>
       </trans-unit>
       <trans-unit id="5fb4bbf993c23848433caf58e6b2816d" approved="yes">
         <source>That said, you must manually confirm the order upon receiving the bank wire.</source>
