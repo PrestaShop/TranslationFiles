@@ -83,7 +83,11 @@
   </file>
   <file original="classes/Customer.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
-      
+      <trans-unit id="2086311c1fd24419e3286804f69db13e" approved="yes">
+        <source>The email is already used, please choose another one</source>
+        <target state="final">อีเมลนี้ถูกใช้ไปแล้ว โปรดเลือกอีเมลอื่น</target>
+        <note>Line: 360</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/Customization.php" source-language="en" target-language="th" datatype="plaintext">
@@ -102,6 +106,11 @@
   </file>
   <file original="classes/ImageManager.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
+      <trans-unit id="30fb35f3cf2b6e6e599b30dacc6c19c8" approved="yes">
+        <source>Image is too large (%1$d kB). Maximum allowed: %2$d kB</source>
+        <target state="final">ไฟล์ภาพมีขนาดใหญ่เกินไป (%1$d kB) ขนาดสูงสุดที่รองรับคือ %2$d kB</target>
+        <note>Line: 541</note>
+      </trans-unit>
       <trans-unit id="2ab146a83f61d2896a472f52f353b321" approved="yes">
         <source>Image format not recognized, allowed formats are: .ico</source>
         <target state="final">รูปแบบภาพไม่รู้จักรูปแบบที่ได้รับอนุญาตมีดังนี้ :. ICO</target>
@@ -168,6 +177,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">ช่องข้อมูล %s จำเป็นต้องกรอก</target>
         <note>Line: 1518</note>
       </trans-unit>
+      <trans-unit id="9c79588566c8069eb2bd441da9a27be1" approved="yes">
+        <source>Can't update #%id% status</source>
+        <target state="final">ไม่สามารถอัปเดตสถานะ #%id%</target>
+        <note>Line: 4119</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/helper/HelperImageUploader.php" source-language="en" target-language="th" datatype="plaintext">
@@ -185,7 +199,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="classes/webservice/WebserviceSpecificManagementAttachments.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
-      
+      <trans-unit id="4c5a77e114a577bca066d292aeef02bc" approved="yes">
+        <source>The file you are trying to upload is %2$d KB, which is larger than the maximum size allowed of %1$d KB.</source>
+        <target state="final">ไฟล์ที่คุณพยายามอัปโหลดคือ %2$d KB ซึ่งใหญ่กว่าขนาดสูงสุดที่อนุญาต %1$d KB</target>
+        <note>Line: 357</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminAttributesGroupsController.php" source-language="en" target-language="th" datatype="plaintext">
@@ -529,9 +547,16 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/AdministrationController.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="5d4ab8176c670bbb26380353630c90e4" approved="yes">
+        <source>%s is invalid. Please enter an integer greater than or equal to 0.</source>
+        <target state="final">%s ไม่ถูกต้อง โปรดป้อนจำนวนเต็มที่มากกว่าหรือเท่ากับ 0</target>
+        <note>Line: 237</note>
+      </trans-unit>
+      <trans-unit id="2a8676c5942efe4449225f3fbeccb816" approved="yes">
+        <source>%s is invalid. Please enter an integer lower than %s.</source>
+        <target state="final">%s ไม่ถูกต้อง โปรดป้อนจำนวนเต็มที่ต่ำกว่า %s</target>
+        <note>Line: 243</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/EmailController.php" source-language="en" target-language="th" datatype="plaintext">
@@ -584,7 +609,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/ShopParameters/OrderStateController.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
-      
+      <trans-unit id="4def5438dd1db0e90c6cbe2028772138" approved="yes">
+        <source>This order status does not exist.</source>
+        <target state="final">ไม่มีสถานะการสั่งซื้อนี้</target>
+        <note>Line: 541</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/FrameworkBundleAdminController.php" source-language="en" target-language="th" datatype="plaintext">
@@ -610,18 +639,39 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">คุณไม่ได้รับสิทธิ์ให้แก้ไขข้อมูลได้</target>
         <note>Line: 396</note>
       </trans-unit>
+      <trans-unit id="3463605a91f50da30633ac9a1d922d3a" approved="yes">
+        <source>Themes can only be changed in single store context.</source>
+        <target state="final">ธีมสามารถเปลี่ยนได้ในบริบทของร้านค้าเดียวเท่านั้น</target>
+        <note>Line: 483</note>
+      </trans-unit>
+      <trans-unit id="22c02340d6f7c86c03120d5dfe60eac3" approved="yes">
+        <source>Missing configuration file</source>
+        <target state="final">ไม่มีไฟล์การกำหนดค่า</target>
+        <note>Line: 486</note>
+      </trans-unit>
+      <trans-unit id="5992528f236587164ee4f212b9460410" approved="yes">
+        <source>Invalid data</source>
+        <target state="final">ข้อมูลไม่ถูกต้อง</target>
+        <note>Line: 492</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/CurrencyController.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
-      
-      
-      
-      
+      <trans-unit id="6d28945e1e7f349cda5503c96aa3ae76" approved="yes">
+        <source>You must select at least one item to perform a bulk action.</source>
+        <target state="final">คุณต้องเลือกอย่างน้อยหนึ่งรายการเพื่อดำเนินการแบบกลุ่ม</target>
+        <note>Line: 586</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/LanguageController.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
+      <trans-unit id="b05c3c0bfce943b86e286e8e8103b6e5" approved="yes">
+        <source>An error occurred while uploading the image.</source>
+        <target state="final">เกิดข้อผิดพลาดระหว่างอัพโหลดภาพ</target>
+        <note>Line: 369</note>
+      </trans-unit>
       <trans-unit id="c4ae3afc5d4c01919142f8b39cc5c1c5" approved="yes">
         <source>Image format not recognized, allowed formats are: .gif, .jpg, .png</source>
         <target state="final">รูปแบบภาพไม่รู้จักรูปแบบที่ได้รับอนุญาตมีดังนี้ :... GIF, JPG, PNG</target>
@@ -640,6 +690,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <source>An error occurred while deleting this selection.</source>
         <target state="final">เกิดข้อผิดพลาดในระหว่างการลบรายการที่เลือก</target>
         <note>Line: 354</note>
+      </trans-unit>
+      <trans-unit id="d0d474f143062278a7fda7bfb9d2712a" approved="yes">
+        <source>This zone does not exist.</source>
+        <target state="final">โซนนี้ไม่มีอยู่</target>
+        <note>Line: 341</note>
       </trans-unit>
     </body>
   </file>
@@ -686,7 +741,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/CartRuleController.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
-      
+      <trans-unit id="9764b5693aa5cfa087814309050c34ad" approved="yes">
+        <source>An error occurred while toggling this selection.</source>
+        <target state="final">เกิดข้อผิดพลาดขณะสลับการเลือกนี้</target>
+        <note>Line: 277</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/CatalogPriceRuleController.php" source-language="en" target-language="th" datatype="plaintext">
@@ -875,7 +934,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Image/ImageDropzoneType.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
-      
+      <trans-unit id="ce049c53d46c1c5a36b1d7ed392c19f0" approved="yes">
+        <source>The file is too large. The maximum size allowed is [1] MB. The file you are trying to upload is [2] MB.</source>
+        <target state="final">ไฟล์มีขนาดใหญ่เกินไป ขนาดสูงสุดที่อนุญาตคือ [1] MB ไฟล์ที่คุณพยายามอัปโหลดคือ [2] MB</target>
+        <note>Line: 82</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Pricing/SpecificPriceImpactType.php" source-language="en" target-language="th" datatype="plaintext">
@@ -906,7 +969,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/product.html.twig" source-language="en" target-language="th" datatype="plaintext">
     <body>
-      
+      <trans-unit id="8a39591ca58ab61e97f1f4c3b7d06266" approved="yes">
+        <source>The file is too large. Maximum size allowed is: [1] MB. The file you are trying to upload is [2] MB.</source>
+        <target state="final">ไฟล์มีขนาดใหญ่เกินไป ขนาดสูงสุดที่อนุญาตคือ: [1] MB ไฟล์ที่คุณพยายามอัปโหลดคือ [2] MB</target>
+        <note>Line: 319</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/macros.html.twig" source-language="en" target-language="th" datatype="plaintext">

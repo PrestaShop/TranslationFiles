@@ -11,21 +11,21 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl" source-language="en" target-language="th" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="d85366190ecd2aebf8363980ad9d6740" approved="yes">
+        <source>Importing your data...</source>
+        <target state="final">กำลังนำเข้าข้อมูล...</target>
+        <note>Line: 76</note>
+      </trans-unit>
+      <trans-unit id="e130ff31fe5f7a054a2db876a7acc94d" approved="yes">
+        <source>Data imported!</source>
+        <target state="final">นำเข้าข้อมูลแล้ว</target>
+        <note>Line: 33</note>
+      </trans-unit>
+      <trans-unit id="8a1d14318cfc965da76c0b9d0a53bb93" approved="yes">
+        <source>Aborting, please wait...</source>
+        <target state="final">กำลังยกเลิกโปรดรอสักครู่ ...</target>
+        <note>Line: 27</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/Mail.php" source-language="en" target-language="th" datatype="plaintext">
@@ -50,6 +50,11 @@
         <target state="final">ไม่สามารถสร้างไฟล์ backup ได้</target>
         <note>Line: 252</note>
       </trans-unit>
+      <trans-unit id="52033453d4d673bae012b9c8ccb1e79c" approved="yes">
+        <source>An error occurred while backing up. Unable to obtain the schema of %s</source>
+        <target state="final">เกิดข้อผิดพลาดขณะสำรองข้อมูล ไม่สามารถรับสคีมาของ %s</target>
+        <note>Line: 281</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminCartsController.php" source-language="en" target-language="th" datatype="plaintext">
@@ -59,6 +64,11 @@
   </file>
   <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
+      <trans-unit id="613260718349db00d0b7b9c1eb77c76c" approved="yes">
+        <source>Your file has been successfully imported into your shop. Don't forget to re-build the products' search index.</source>
+        <target state="final">นำเข้าไฟล์ของคุณไปยังร้านค้าของคุณเรียบร้อยแล้ว อย่าลืมสร้างดัชนีการค้นหาของผลิตภัณฑ์ขึ้นมาใหม่</target>
+        <note>Line: 656</note>
+      </trans-unit>
       <trans-unit id="964e5a863ba051181f8f537626f5c953" approved="yes">
         <source>Supplier is invalid</source>
         <target state="final">Supplier ไม่ถูกต้อง</target>
@@ -83,7 +93,11 @@
   </file>
   <file original="controllers/admin/AdminRequestSqlController.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
-      
+      <trans-unit id="c232ec1eb797989616b3ab59a5777b69" approved="yes">
+        <source>The file is too large and cannot be downloaded. Please use the LIMIT clause in this query.</source>
+        <target state="final">ไฟล์มีขนาดใหญ่เกินไปและไม่สามารถดาวน์โหลดได้ โปรดใช้ส่วนคำสั่ง LIMIT ในการสืบค้นนี้</target>
+        <note>Line: 376</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminShopController.php" source-language="en" target-language="th" datatype="plaintext">
@@ -143,7 +157,11 @@
   </file>
   <file original="src/Adapter/GeneralConfiguration.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
-      
+      <trans-unit id="8484fc3dd1ece15646c9cf04ab71b19c" approved="yes">
+        <source>The SameSite=None is only available in secure mode.</source>
+        <target state="final">SameSite=None ใช้ได้ในโหมดปลอดภัยเท่านั้น</target>
+        <note>Line: 80</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Import/Handler/AbstractImportHandler.php" source-language="en" target-language="th" datatype="plaintext">
@@ -198,7 +216,11 @@
   </file>
   <file original="src/Adapter/Preferences/PreferencesConfiguration.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
-      
+      <trans-unit id="fae40e95d9558caac76c035cd93da2a2" approved="yes">
+        <source>Cannot disable SSL configuration due to the Cookie SameSite=None.</source>
+        <target state="final">ไม่สามารถปิดใช้งานการกำหนดค่า SSL ได้เนื่องจาก Cookie SameSite=None</target>
+        <note>Line: 96</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Requirement/CheckRequirements.php" source-language="en" target-language="th" datatype="plaintext">
@@ -272,16 +294,16 @@
   </file>
   <file original="src/Adapter/SqlManager/SqlQueryValidator.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="a0e587425d03db434bd7ad7081913cb4" approved="yes">
+        <source>The "%tablename%" table does not exist.</source>
+        <target state="final">%tablename% ไม่มีตาราง</target>
+        <note>Line: 162</note>
+      </trans-unit>
+      <trans-unit id="9caefacc2d658e65a31461564c163624" approved="yes">
+        <source>The "%attribute%" attribute does not exist in the "%table%" table.</source>
+        <target state="final">%attribute%ไม่มีแอตทริบิวต์อยู่ใน%table%ตาราง</target>
+        <note>Line: 316</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Upload/UploadQuotaConfiguration.php" source-language="en" target-language="th" datatype="plaintext">
@@ -291,6 +313,11 @@
   </file>
   <file original="src/Core/Import/File/FileUploader.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
+      <trans-unit id="0bedafc96db94da3f85caa7101944eb5" approved="yes">
+        <source>The uploaded file exceeds the post_max_size directive in php.ini. If your server configuration allows it, you may add a directive in your .htaccess, for example:</source>
+        <target state="final">ไฟล์ที่อัปโหลดเกินคำสั่ง post_max_size ใน php.ini หากการกำหนดค่าเซิร์ฟเวอร์ของคุณอนุญาต คุณสามารถเพิ่มคำสั่งใน .htaccess ของคุณได้ เช่น</target>
+        <note>Line: 115</note>
+      </trans-unit>
       <trans-unit id="4f12b222c9659d62afa795987259933f" approved="yes">
         <source>The uploaded file was only partially uploaded.</source>
         <target state="final">ไฟล์ที่อัปโหลดถูกอัพโหลดเพียงบางส่วนเท่านั้น</target>
@@ -333,9 +360,11 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ImportController.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="af395851b27882221a6df82c727bca3e" approved="yes">
+        <source>The import directory doesn't exist. Please check your file path.</source>
+        <target state="final">ไม่มีไดเรกทอรีการนำเข้า โปรดตรวจสอบเส้นทางไฟล์ของคุณ</target>
+        <note>Line: 384</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ImportDataConfigurationController.php" source-language="en" target-language="th" datatype="plaintext">
@@ -424,6 +453,11 @@
         <target state="final">กำลังดาวน์โหลดไฟล์ ...</target>
         <note>Line: 38</note>
       </trans-unit>
+      <trans-unit id="da61b0c3311560af7fa1d9a515b309f6" approved="yes">
+        <source>If not,[1][2] please click here[/1]!</source>
+        <target state="final">ถ้าไม่ได้[1][2] กรุณากดที่นี้[/1]</target>
+        <note>Line: 43</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Blocks/import_panel.html.twig" source-language="en" target-language="th" datatype="plaintext">
@@ -435,12 +469,31 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/FeatureFlag/index.html.twig" source-language="en" target-language="th" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
+      <trans-unit id="fcfc1d5af32905a9ed28a76af2251ba9" approved="yes">
+        <source>Testing a feature before its official release can be exciting. However, you must be aware of the potential risks of such experiments:</source>
+        <target state="final">การทดสอบคุณสมบัติก่อนการเปิดตัวอย่างเป็นทางการนั้นน่าตื่นเต้น อย่างไรก็ตาม คุณต้องตระหนักถึงความเสี่ยงที่อาจเกิดขึ้นจากการทดลองดังกล่าว:</target>
+        <note>Line: 71</note>
+      </trans-unit>
+      <trans-unit id="53c5e9fcfd605dfccf3aacc3027c60f3" approved="yes">
+        <source>Experimental features are still under development. Enabling them could therefore have unintended consequences and cause data loss.</source>
+        <target state="final">ฟีเจอร์ทดลองยังอยู่ในระหว่างการพัฒนา การเปิดใช้งานจึงอาจส่งผลที่ไม่คาดคิดและทำให้ข้อมูลสูญหาย</target>
+        <note>Line: 73</note>
+      </trans-unit>
+      <trans-unit id="331d76b5a38e0ad8a13653d85a90e96d" approved="yes">
+        <source>In any case, you should never experiment in production.</source>
+        <target state="final">ไม่ว่าในกรณีใด คุณไม่ควรทดลองในการผลิต</target>
+        <note>Line: 74</note>
+      </trans-unit>
+      <trans-unit id="22dfbbf886a501432d4db326a9170fce" approved="yes">
+        <source>Are you sure you want to enable this experimental feature?</source>
+        <target state="final">คุณแน่ใจหรือไม่ว่าต้องการเปิดใช้ฟีเจอร์ทดลองนี้</target>
+        <note>Line: 83</note>
+      </trans-unit>
+      <trans-unit id="efdf4b9d62380dc9cab8fedd5c997cf5" approved="yes">
+        <source>You are about to enable a feature that is not stable yet. This should only be done in a test environment or in full knowledge of the potential risks.</source>
+        <target state="final">คุณกำลังจะเปิดใช้งานคุณลักษณะที่ยังไม่เสถียร สิ่งนี้ควรทำในสภาพแวดล้อมการทดสอบหรือในความรู้ทั้งหมดเกี่ยวกับความเสี่ยงที่อาจเกิดขึ้นเท่านั้น</target>
+        <note>Line: 84</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/RequestSql/Blocks/db_tables_panel.html.twig" source-language="en" target-language="th" datatype="plaintext">
