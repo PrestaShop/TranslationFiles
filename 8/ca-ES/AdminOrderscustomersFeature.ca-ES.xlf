@@ -193,11 +193,6 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/customer_threads/helpers/view/timeline_item.tpl" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      <trans-unit id="d1228f5476d15142b1358ae4b5fa2454" approved="yes">
-        <source>Order #</source>
-        <target state="final">Comanda núm.</target>
-        <note>Line: 32</note>
-      </trans-unit>
       <trans-unit id="891ad007e2e9f2d55be6669cd9abc7a0" approved="yes">
         <source>See more</source>
         <target state="final">Veure més</target>
@@ -246,6 +241,11 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/customer_threads/message.tpl" source-language="en" target-language="ca" datatype="plaintext">
     <body>
+      <trans-unit id="d1228f5476d15142b1358ae4b5fa2454" approved="yes">
+        <source>Order #</source>
+        <target state="final">Comanda núm.</target>
+        <note>Line: 77</note>
+      </trans-unit>
       <trans-unit id="cb8fe83175bea4ba19d633b1dc6ea656" approved="yes">
         <source>View order</source>
         <target state="final">Veure la comanda</target>
@@ -535,37 +535,66 @@ Salutacions cordials,</target>
       <trans-unit id="90855df1b2d1240c62d81bd35d4cfb06" approved="yes">
         <source>Non ordered</source>
         <target state="final">No comandat</target>
-        <note>Line: 55</note>
+        <note>Line: 57</note>
       </trans-unit>
       <trans-unit id="121401ccf0e3e23bcefe6a454f0f0601" approved="yes">
         <source>Abandoned cart</source>
         <target state="final">Cistella abandonada</target>
-        <note>Line: 73</note>
+        <note>Line: 75</note>
       </trans-unit>
       <trans-unit id="f9b01554c32cc580b7380302f22613de" approved="yes">
         <source>Export carts</source>
         <target state="final">Exportar cistelles</target>
-        <note>Line: 142</note>
+        <note>Line: 144</note>
       </trans-unit>
       <trans-unit id="54e85d70ea67acdcc86963b14d6223a8" approved="yes">
         <source>Abandoned Carts</source>
         <target state="final">Cistelles abandonades</target>
-        <note>Line: 177</note>
+        <note>Line: 179</note>
       </trans-unit>
       <trans-unit id="edeb0ec4f968653bb56eb2d7c50dab35" approved="yes">
         <source>From %date1% to %date2%</source>
         <target state="final">De %date1% a %date2%</target>
-        <note>Line: 180</note>
+        <note>Line: 182</note>
       </trans-unit>
       <trans-unit id="ffbb5322a3702b0d8d9c7f506209c540" approved="yes">
         <source>Average Order Value</source>
         <target state="final">Valor mitjà per comanda</target>
-        <note>Line: 193</note>
+        <note>Line: 195</note>
       </trans-unit>
       <trans-unit id="4d9e1e12ad8a61ea2a5554407488d91a" approved="yes">
         <source>Net Profit per Visitor</source>
         <target state="final">Benefici net per visitant</target>
-        <note>Line: 207</note>
+        <note>Line: 209</note>
+      </trans-unit>
+      <trans-unit id="b00b85425e74ed2c85dc3119b78ff2c3" approved="yes">
+        <source>Free Shipping</source>
+        <target state="final">Lliurament de franc</target>
+        <note>Line: 626</note>
+      </trans-unit>
+      <trans-unit id="272c853e39b8c65c81afd3661a8fd17f" approved="yes">
+        <source>%amount% tax excl.</source>
+        <target state="final">%amount% IVA excl.</target>
+        <note>Line: 198</note>
+      </trans-unit>
+      <trans-unit id="50cc07e9963519545552b1ac2c5f7a1e" approved="yes">
+        <source>Cart #%ID%</source>
+        <target state="final">Cistella #%ID%</target>
+        <note>Line: 303</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="ca" datatype="plaintext">
+    <body>
+      <trans-unit id="7cb32e708d6b961d476baced73d362bb" approved="yes">
+        <source>VAT number</source>
+        <target state="final">Nombre d'IVA</target>
+        <note>Line: 445</note>
+      </trans-unit>
+      <trans-unit id="b60bb13a87fe3ae5463aeb0980a5a8a1" approved="yes">
+        <source>Identification number</source>
+        <target state="final">NIF / NIE</target>
+        <note>Line: 446</note>
       </trans-unit>
     </body>
   </file>
@@ -601,6 +630,16 @@ Salutacions cordials,</target>
         <target state="final">Comanda #%id% del %date%</target>
         <note>Line: 189</note>
       </trans-unit>
+      <trans-unit id="446faa7da2d42ba4ffeda73cb119dd91" approved="yes">
+        <source>Date issued</source>
+        <target state="final">Data d'expedició</target>
+        <note>Line: 52</note>
+      </trans-unit>
+      <trans-unit id="f374280fc7cab62785714cfca79b85a1" approved="yes">
+        <source>Enable returns</source>
+        <target state="final">Activar retorn de mercaderies</target>
+        <note>Line: 60</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/BoOrder.php" source-language="en" target-language="ca" datatype="plaintext">
@@ -617,7 +656,7 @@ Salutacions cordials,</target>
       <trans-unit id="71754079aaeefc5c6e745ddd59f8a35f" approved="yes">
         <source>Free order</source>
         <target state="final">Fi lliure</target>
-        <note>Line: 275</note>
+        <note>Line: 277</note>
       </trans-unit>
     </body>
   </file>
@@ -626,16 +665,7 @@ Salutacions cordials,</target>
       <trans-unit id="ffb7e666a70151215b4c55c6268d7d72" approved="yes">
         <source>Newsletter</source>
         <target state="final">Butlletí de notícies</target>
-        <note>Line: 1415</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/Adapter/Cart/CommandHandler/UpdateCartDeliverySettingsHandler.php" source-language="en" target-language="ca" datatype="plaintext">
-    <body>
-      <trans-unit id="b00b85425e74ed2c85dc3119b78ff2c3" approved="yes">
-        <source>Free Shipping</source>
-        <target state="final">Lliurament de franc</target>
-        <note>Line: 133</note>
+        <note>Line: 1425</note>
       </trans-unit>
     </body>
   </file>
@@ -659,15 +689,6 @@ Salutacions cordials,</target>
         <source>Average Age</source>
         <target state="final">Mitjana d'edat</target>
         <note>Line: 74</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/Adapter/Kpi/AverageOrderValueKpi.php" source-language="en" target-language="ca" datatype="plaintext">
-    <body>
-      <trans-unit id="272c853e39b8c65c81afd3661a8fd17f" approved="yes">
-        <source>%amount% tax excl.</source>
-        <target state="final">%amount% IVA excl.</target>
-        <note>Line: 55</note>
       </trans-unit>
     </body>
   </file>
@@ -705,11 +726,6 @@ Salutacions cordials,</target>
   </file>
   <file original="src/Adapter/Kpi/ShoppingCartTotalKpi.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      <trans-unit id="50cc07e9963519545552b1ac2c5f7a1e" approved="yes">
-        <source>Cart #%ID%</source>
-        <target state="final">Cistella #%ID%</target>
-        <note>Line: 72</note>
-      </trans-unit>
       <trans-unit id="0b91ef9198a761459c595de4b12ca109" approved="yes">
         <source>Total Cart</source>
         <target state="final">Total cistella</target>
@@ -731,12 +747,12 @@ Salutacions cordials,</target>
       <trans-unit id="c12a553ab6ad810580afa3f07aa9f51f" approved="yes">
         <source>not paid</source>
         <target state="final">no pagat</target>
-        <note>Line: 448</note>
+        <note>Line: 449</note>
       </trans-unit>
       <trans-unit id="8d4ac0e8c6f5900930ddfccd45d10abf" approved="yes">
         <source>overpaid</source>
         <target state="final">pagat de més</target>
-        <note>Line: 454</note>
+        <note>Line: 455</note>
       </trans-unit>
     </body>
   </file>
@@ -749,21 +765,17 @@ Salutacions cordials,</target>
       </trans-unit>
     </body>
   </file>
+  <file original="src/Core/Form/IdentifiableObject/DataProvider/OrderReturnFormDataProvider.php" source-language="en" target-language="ca" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
   <file original="src/Core/Grid/Data/Factory/CreditSlipGridDataFactory.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
       <trans-unit id="a4c0c09247c3e56ff08971ff5558c596" approved="yes">
         <source>Download credit slip</source>
         <target state="final">Descarregar nota de crèdit</target>
         <note>Line: 88</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/Core/Grid/Definition/Factory/CreditSlipGridDefinitionFactory.php" source-language="en" target-language="ca" datatype="plaintext">
-    <body>
-      <trans-unit id="446faa7da2d42ba4ffeda73cb119dd91" approved="yes">
-        <source>Date issued</source>
-        <target state="final">Data d'expedició</target>
-        <note>Line: 100</note>
       </trans-unit>
     </body>
   </file>
@@ -785,27 +797,8 @@ Salutacions cordials,</target>
       </trans-unit>
     </body>
   </file>
-  <file original="src/Core/Grid/Definition/Factory/CustomerGridDefinitionFactory.php" source-language="en" target-language="ca" datatype="plaintext">
-    <body>
-      <trans-unit id="0f98b7f230f3c91292f0de4c99e263f2" approved="yes">
-        <source>Registration</source>
-        <target state="final">Inscripció</target>
-        <note>Line: 222</note>
-      </trans-unit>
-      <trans-unit id="5e5914912e8d2f2765525840acf98bea" approved="yes">
-        <source>Last visit</source>
-        <target state="final">Última visita</target>
-        <note>Line: 230</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/Core/Grid/Definition/Factory/OrderGridDefinitionFactory.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      <trans-unit id="94003250a2187a9f51b227b490e5ab6b" approved="yes">
-        <source>New client</source>
-        <target state="final">Nou client</target>
-        <note>Line: 195</note>
-      </trans-unit>
       <trans-unit id="e13004b81566bfc42daa48372c15111b" approved="yes">
         <source>Change Order Status</source>
         <target state="final">Canviar l'estat de la comanda</target>
@@ -842,26 +835,17 @@ Salutacions cordials,</target>
       </trans-unit>
     </body>
   </file>
-  <file original="src/Core/Import/EntityField/Provider/AddressFieldsProvider.php" source-language="en" target-language="ca" datatype="plaintext">
-    <body>
-      <trans-unit id="7cb32e708d6b961d476baced73d362bb" approved="yes">
-        <source>VAT number</source>
-        <target state="final">Nombre d'IVA</target>
-        <note>Line: 76</note>
-      </trans-unit>
-      <trans-unit id="b60bb13a87fe3ae5463aeb0980a5a8a1" approved="yes">
-        <source>Identification number</source>
-        <target state="final">NIF / NIE</target>
-        <note>Line: 77</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Customer/CustomerController.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      <trans-unit id="aac772216aecbeca0e86d06671fe985a" approved="yes">
-        <source>Birthday</source>
-        <target state="final">Aniversari</target>
-        <note>Line: 954</note>
+      <trans-unit id="0f98b7f230f3c91292f0de4c99e263f2" approved="yes">
+        <source>Registration</source>
+        <target state="final">Inscripció</target>
+        <note>Line: 805</note>
+      </trans-unit>
+      <trans-unit id="5e5914912e8d2f2765525840acf98bea" approved="yes">
+        <source>Last visit</source>
+        <target state="final">Última visita</target>
+        <note>Line: 806</note>
       </trans-unit>
       <trans-unit id="f0c7cdb1b872477a4c31bca923127c54" approved="yes">
         <source>You can use this feature in a single shop context only. Switch context to enable it.</source>
@@ -881,6 +865,11 @@ Salutacions cordials,</target>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
+      <trans-unit id="94003250a2187a9f51b227b490e5ab6b" approved="yes">
+        <source>New client</source>
+        <target state="final">Nou client</target>
+        <note>Line: 367</note>
+      </trans-unit>
       <trans-unit id="e5d61db40a917c78a9d8e821dd0dd8de" approved="yes">
         <source>Add new order</source>
         <target state="final">Afegir una nova comanda</target>
@@ -903,51 +892,56 @@ Salutacions cordials,</target>
       <trans-unit id="03361eda68f746619c2ae3341eaa2f07" approved="yes">
         <source>Customer email</source>
         <target state="final">Correu electrònic del client</target>
-        <note>Line: 113</note>
+        <note>Line: 114</note>
       </trans-unit>
       <trans-unit id="e03982ee543fe69d4954d587f1f2a338" approved="yes">
         <source>The national ID card number of this person, or a unique tax identification number.</source>
         <target state="final">El document nacional d'identitat d'aquesta persona o un nombre d'identificació fiscal únic.</target>
-        <note>Line: 138</note>
+        <note>Line: 139</note>
       </trans-unit>
       <trans-unit id="baa31a65f29121c32b637bb845d41acf" approved="yes">
         <source>Address alias</source>
         <target state="final">Àlies d'adreça</target>
-        <note>Line: 159</note>
+        <note>Line: 160</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Customer/CustomerType.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
+      <trans-unit id="aac772216aecbeca0e86d06671fe985a" approved="yes">
+        <source>Birthday</source>
+        <target state="final">Aniversari</target>
+        <note>Line: 241</note>
+      </trans-unit>
       <trans-unit id="920bd1fb6d54c93fca528ce941464225" approved="yes">
         <source>Group access</source>
         <target state="final">Accés dels grups</target>
-        <note>Line: 255</note>
+        <note>Line: 264</note>
       </trans-unit>
       <trans-unit id="a3858e268ef19d7ec44b4e849a189a69" approved="yes">
         <source>Default customer group</source>
         <target state="final">Grup predeterminat de clients</target>
-        <note>Line: 264</note>
+        <note>Line: 273</note>
       </trans-unit>
       <trans-unit id="15bbb9d0bbf25e8d2978de1168c749dc" approved="yes">
         <source>Website</source>
         <target state="final">Lloc web</target>
-        <note>Line: 307</note>
+        <note>Line: 316</note>
       </trans-unit>
       <trans-unit id="6e55ad8db6699476d8901b3d439963cb" approved="yes">
         <source>Allowed outstanding amount</source>
         <target state="final">Quantitat pendent permesa</target>
-        <note>Line: 311</note>
+        <note>Line: 320</note>
       </trans-unit>
       <trans-unit id="a7f50f36de1e47026a07b40670b50e1a" approved="yes">
         <source>Maximum number of payment days</source>
         <target state="final">Nombre màxim de dies de pagament</target>
-        <note>Line: 324</note>
+        <note>Line: 333</note>
       </trans-unit>
       <trans-unit id="b5228365ac1cae42b64aa5aecee6cf25" approved="yes">
         <source>Risk rating</source>
         <target state="final">Avaluació de risc</target>
-        <note>Line: 354</note>
+        <note>Line: 363</note>
       </trans-unit>
     </body>
   </file>
@@ -971,11 +965,6 @@ Salutacions cordials,</target>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/CustomerService/MerchandiseReturn/MerchandiseReturnOptionsType.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      <trans-unit id="f374280fc7cab62785714cfca79b85a1" approved="yes">
-        <source>Enable returns</source>
-        <target state="final">Activar retorn de mercaderies</target>
-        <note>Line: 54</note>
-      </trans-unit>
       <trans-unit id="53f2da10b8b14a1db85d28656a4cc489" approved="yes">
         <source>Return window</source>
         <target state="final">Finestra de retorn</target>
@@ -1052,6 +1041,11 @@ Salutacions cordials,</target>
         <target state="final">Número de lliurament</target>
         <note>Line: 60</note>
       </trans-unit>
+      <trans-unit id="133e649a7f103383bd0c9c35c40f8ce0" approved="yes">
+        <source>Enable product image</source>
+        <target state="final">Activar la imatge del producte</target>
+        <note>Line: 71</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/InternalNoteType.php" source-language="en" target-language="ca" datatype="plaintext">
@@ -1068,12 +1062,67 @@ Salutacions cordials,</target>
       <trans-unit id="fdd748833c0e80edbfe6d955a1e2bef5" approved="yes">
         <source>After the sequential number</source>
         <target state="final">Després del nombre seqüencial</target>
-        <note>Line: 92</note>
+        <note>Line: 161</note>
       </trans-unit>
       <trans-unit id="2d34b4de2b2170f55f41facfbdb3684a" approved="yes">
         <source>Before the sequential number</source>
         <target state="final">Abans del nombre seqüencial</target>
-        <note>Line: 93</note>
+        <note>Line: 162</note>
+      </trans-unit>
+      <trans-unit id="916e303456985cc95e3f551665b0314f" approved="yes">
+        <source>Enable invoices</source>
+        <target state="final">Activar factures</target>
+        <note>Line: 90</note>
+      </trans-unit>
+      <trans-unit id="ae3a4016de0f41b2fd7a39494fb5a05a" approved="yes">
+        <source>Enable tax breakdown</source>
+        <target state="final">Permet el desglossament d'impostos</target>
+        <note>Line: 102</note>
+      </trans-unit>
+      <trans-unit id="82c9667c9ef1dc29e479d080eaa998db" approved="yes">
+        <source>Invoice prefix</source>
+        <target state="final">Prefix de la factura</target>
+        <note>Line: 127</note>
+      </trans-unit>
+      <trans-unit id="ffd9d577464b4a615096c6d0c9c490ae" approved="yes">
+        <source>Add current year to invoice number</source>
+        <target state="final">Afegir l'any actual a la numeració de les factures</target>
+        <note>Line: 140</note>
+      </trans-unit>
+      <trans-unit id="adb5bc3c76ab4f69fc050090e05998c7" approved="yes">
+        <source>Reset sequential invoice number at the beginning of the year</source>
+        <target state="final">Restablir nombre de factura seqüencial a principis de l'any</target>
+        <note>Line: 151</note>
+      </trans-unit>
+      <trans-unit id="e8065dc15d8cb943a6b6aa87f7b539e9" approved="yes">
+        <source>Position of the year date</source>
+        <target state="final">Posició de la data de l'any</target>
+        <note>Line: 166</note>
+      </trans-unit>
+      <trans-unit id="8ae4286d38bb2235def98fd68d7420d2" approved="yes">
+        <source>Invoice number</source>
+        <target state="final">Número de factura</target>
+        <note>Line: 176</note>
+      </trans-unit>
+      <trans-unit id="3dea916f8f5db8eb7167832fc3679059" approved="yes">
+        <source>Legal free text</source>
+        <target state="final">Text legal lliure</target>
+        <note>Line: 192</note>
+      </trans-unit>
+      <trans-unit id="ae68c7d78a4135cf3d9790ef9f176cdf" approved="yes">
+        <source>Footer text</source>
+        <target state="final">Text del peu de plana</target>
+        <note>Line: 205</note>
+      </trans-unit>
+      <trans-unit id="e57758881f26d49452c5ca0fd9fc140e" approved="yes">
+        <source>Invoice model</source>
+        <target state="final">Model de factura</target>
+        <note>Line: 219</note>
+      </trans-unit>
+      <trans-unit id="57826bb01dcd3fa7c0de235ff4bb8ca3" approved="yes">
+        <source>Use the disk as cache for PDF invoices</source>
+        <target state="final">Usar el disc com a memòria cau per a les factures en PDF</target>
+        <note>Line: 229</note>
       </trans-unit>
     </body>
   </file>
@@ -1109,6 +1158,15 @@ Salutacions cordials,</target>
       </trans-unit>
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Address/index.html.twig" source-language="en" target-language="ca" datatype="plaintext">
+    <body>
+      <trans-unit id="0470d45929f27e1161330164c423b415" approved="yes">
+        <source>Set required fields for this section</source>
+        <target state="final">Definir camps obligatoris per a aquest secció</target>
+        <note>Line: 37</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/Blocks/Index/required_fields.html.twig" source-language="en" target-language="ca" datatype="plaintext">
     <body>
       <trans-unit id="70397c4b252a5168c5ec003931cea215" approved="yes">
@@ -1138,11 +1196,6 @@ Salutacions cordials,</target>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/Blocks/View/discounts.html.twig" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      <trans-unit id="a82868319826fb092b73968e661b5b38" approved="yes">
-        <source>Vouchers</source>
-        <target state="final">Cupons</target>
-        <note>Line: 29</note>
-      </trans-unit>
       <trans-unit id="c8b4c13e6ad3227e192c118261c0e179" approved="yes">
         <source>%firstname% %lastname% has no discount vouchers</source>
         <target state="final">%firstname% %lastname% no té cupons de descompte</target>
@@ -1332,11 +1385,6 @@ Salutacions cordials,</target>
         <target state="final">Gestionar els vostres clients</target>
         <note>Line: 27</note>
       </trans-unit>
-      <trans-unit id="0470d45929f27e1161330164c423b415" approved="yes">
-        <source>Set required fields for this section</source>
-        <target state="final">Definir camps obligatoris per a aquest secció</target>
-        <note>Line: 63</note>
-      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/view.html.twig" source-language="en" target-language="ca" datatype="plaintext">
@@ -1407,6 +1455,20 @@ Salutacions cordials,</target>
       </trans-unit>
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/CreditSlip/Blocks/pdf_by_date.html.twig" source-language="en" target-language="ca" datatype="plaintext">
+    <body>
+      <trans-unit id="9a0a4f0869ab12a21407047290750e7a" approved="yes">
+        <source>By date</source>
+        <target state="final">Per data</target>
+        <note>Line: 36</note>
+      </trans-unit>
+      <trans-unit id="1f0a7c7f8461359ede310318e3d44cd8" approved="yes">
+        <source>Generate PDF file by date</source>
+        <target state="final">Generar un fitxer PDF per data</target>
+        <note>Line: 50</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Delivery/slip.html.twig" source-language="en" target-language="ca" datatype="plaintext">
     <body>
       <trans-unit id="afa0e443a161e904a03bbbc333506256" approved="yes">
@@ -1423,20 +1485,6 @@ Salutacions cordials,</target>
         <source>Delivery slip options</source>
         <target state="final">Opcions dels albarans</target>
         <note>Line: 60</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Invoices/Blocks/generate_by_date.html.twig" source-language="en" target-language="ca" datatype="plaintext">
-    <body>
-      <trans-unit id="9a0a4f0869ab12a21407047290750e7a" approved="yes">
-        <source>By date</source>
-        <target state="final">Per data</target>
-        <note>Line: 34</note>
-      </trans-unit>
-      <trans-unit id="1f0a7c7f8461359ede310318e3d44cd8" approved="yes">
-        <source>Generate PDF file by date</source>
-        <target state="final">Generar un fitxer PDF per data</target>
-        <note>Line: 57</note>
       </trans-unit>
     </body>
   </file>
@@ -1461,70 +1509,10 @@ Salutacions cordials,</target>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Invoices/Blocks/invoice_options.html.twig" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      <trans-unit id="133e649a7f103383bd0c9c35c40f8ce0" approved="yes">
-        <source>Enable product image</source>
-        <target state="final">Activar la imatge del producte</target>
-        <note>Line: 53</note>
-      </trans-unit>
       <trans-unit id="1b107c8f50c81b4b3497765849934a1c" approved="yes">
         <source>Invoice options</source>
         <target state="final">Opcions de factura</target>
-        <note>Line: 34</note>
-      </trans-unit>
-      <trans-unit id="916e303456985cc95e3f551665b0314f" approved="yes">
-        <source>Enable invoices</source>
-        <target state="final">Activar factures</target>
-        <note>Line: 39</note>
-      </trans-unit>
-      <trans-unit id="ae3a4016de0f41b2fd7a39494fb5a05a" approved="yes">
-        <source>Enable tax breakdown</source>
-        <target state="final">Permet el desglossament d'impostos</target>
-        <note>Line: 46</note>
-      </trans-unit>
-      <trans-unit id="82c9667c9ef1dc29e479d080eaa998db" approved="yes">
-        <source>Invoice prefix</source>
-        <target state="final">Prefix de la factura</target>
-        <note>Line: 60</note>
-      </trans-unit>
-      <trans-unit id="ffd9d577464b4a615096c6d0c9c490ae" approved="yes">
-        <source>Add current year to invoice number</source>
-        <target state="final">Afegir l'any actual a la numeració de les factures</target>
-        <note>Line: 68</note>
-      </trans-unit>
-      <trans-unit id="adb5bc3c76ab4f69fc050090e05998c7" approved="yes">
-        <source>Reset sequential invoice number at the beginning of the year</source>
-        <target state="final">Restablir nombre de factura seqüencial a principis de l'any</target>
-        <note>Line: 77</note>
-      </trans-unit>
-      <trans-unit id="e8065dc15d8cb943a6b6aa87f7b539e9" approved="yes">
-        <source>Position of the year date</source>
-        <target state="final">Posició de la data de l'any</target>
-        <note>Line: 86</note>
-      </trans-unit>
-      <trans-unit id="8ae4286d38bb2235def98fd68d7420d2" approved="yes">
-        <source>Invoice number</source>
-        <target state="final">Número de factura</target>
-        <note>Line: 94</note>
-      </trans-unit>
-      <trans-unit id="3dea916f8f5db8eb7167832fc3679059" approved="yes">
-        <source>Legal free text</source>
-        <target state="final">Text legal lliure</target>
-        <note>Line: 101</note>
-      </trans-unit>
-      <trans-unit id="ae68c7d78a4135cf3d9790ef9f176cdf" approved="yes">
-        <source>Footer text</source>
-        <target state="final">Text del peu de plana</target>
-        <note>Line: 108</note>
-      </trans-unit>
-      <trans-unit id="e57758881f26d49452c5ca0fd9fc140e" approved="yes">
-        <source>Invoice model</source>
-        <target state="final">Model de factura</target>
-        <note>Line: 115</note>
-      </trans-unit>
-      <trans-unit id="57826bb01dcd3fa7c0de235ff4bb8ca3" approved="yes">
-        <source>Use the disk as cache for PDF invoices</source>
-        <target state="final">Usar el disc com a memòria cau per a les factures en PDF</target>
-        <note>Line: 122</note>
+        <note>Line: 37</note>
       </trans-unit>
     </body>
   </file>
@@ -1558,6 +1546,11 @@ Salutacions cordials,</target>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/Create/cart_rules.html.twig" source-language="en" target-language="ca" datatype="plaintext">
     <body>
+      <trans-unit id="a82868319826fb092b73968e661b5b38" approved="yes">
+        <source>Vouchers</source>
+        <target state="final">Cupons</target>
+        <note>Line: 28</note>
+      </trans-unit>
       <trans-unit id="c89db248919294ef0291a6586f6e9a5b" approved="yes">
         <source>Search for a voucher</source>
         <target state="final">Cercar un cupó</target>
@@ -1700,14 +1693,10 @@ Salutacions cordials,</target>
         <target state="final">Procedir al pagament al front office</target>
         <note>Line: 129</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/Modal/add_product_modal.html.twig" source-language="en" target-language="ca" datatype="plaintext">
-    <body>
-      <trans-unit id="4b6c6cda10a23d1bdc920f2e47e5f46f" approved="yes">
-        <source>Add a product</source>
-        <target state="final">Afegir un producte</target>
-        <note>Line: 32</note>
+      <trans-unit id="0262a3dc4fae9adc8cb46e788806ccbf" approved="yes">
+        <source>Create order</source>
+        <target state="final">Crea una Comanda</target>
+        <note>Line: 109</note>
       </trans-unit>
     </body>
   </file>
@@ -1740,11 +1729,6 @@ Salutacions cordials,</target>
         <source>Create a new invoice</source>
         <target state="final">Crear una nova factura</target>
         <note>Line: 64</note>
-      </trans-unit>
-      <trans-unit id="419fca4bebf663adb696fce24499ce0d" approved="yes">
-        <source>Edit the price</source>
-        <target state="final">Modificar el preu</target>
-        <note>Line: 68</note>
       </trans-unit>
       <trans-unit id="4800d00deaa0a28a18151d76feb858cb" approved="yes">
         <source>New invoice information</source>
@@ -1850,6 +1834,15 @@ Salutacions cordials,</target>
       </trans-unit>
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/edit_product_row.html.twig" source-language="en" target-language="ca" datatype="plaintext">
+    <body>
+      <trans-unit id="419fca4bebf663adb696fce24499ce0d" approved="yes">
+        <source>Edit the price</source>
+        <target state="final">Modificar el preu</target>
+        <note>Line: 51</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/history.html.twig" source-language="en" target-language="ca" datatype="plaintext">
     <body>
       <trans-unit id="d71940f24ee38ee09f6e06b908480bcf" approved="yes">
@@ -1917,11 +1910,6 @@ Salutacions cordials,</target>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/order_actions.html.twig" source-language="en" target-language="ca" datatype="plaintext">
     <body>
-      <trans-unit id="77fd2b4393b379bedd30efcd5df02090" approved="yes">
-        <source>Partial refund</source>
-        <target state="final">Reemborsament parcial</target>
-        <note>Line: 121</note>
-      </trans-unit>
       <trans-unit id="4ad439b4f7069964e258259e049fa90c" approved="yes">
         <source>Standard refund</source>
         <target state="final">Reemborsament normal</target>
@@ -1969,41 +1957,47 @@ Salutacions cordials,</target>
       <trans-unit id="a44217022190f5734b2f72ba1e4f8a79" approved="yes">
         <source>Card number</source>
         <target state="final">Nombre de la tarja</target>
-        <note>Line: 67</note>
+        <note>Line: 69</note>
       </trans-unit>
       <trans-unit id="f8b1369a8e9d90da0cae0b11049309af" approved="yes">
         <source>Not defined</source>
         <target state="final">No definit</target>
-        <note>Line: 95</note>
+        <note>Line: 97</note>
       </trans-unit>
       <trans-unit id="5735196b42849ae4fe6adac3ae14c3d1" approved="yes">
         <source>Card type</source>
         <target state="final">Tipus de tarja</target>
-        <note>Line: 75</note>
+        <note>Line: 77</note>
       </trans-unit>
       <trans-unit id="0bef7cd06cee6711378b85d90ce11527" approved="yes">
         <source>Cardholder name</source>
         <target state="final">Nom del propietari de la tarja</target>
-        <note>Line: 91</note>
+        <note>Line: 93</note>
       </trans-unit>
       <trans-unit id="d694c11f096d5d666dde9ab8f9d9ba29" approved="yes">
         <source>Change currency</source>
         <target state="final">Canviar moneda</target>
-        <note>Line: 131</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/product.html.twig" source-language="en" target-language="ca" datatype="plaintext">
-    <body>
-      <trans-unit id="cc61945cbbf46721a053467c395c666f" approved="yes">
-        <source>Refunded</source>
-        <target state="final">Restituït</target>
-        <note>Line: 70</note>
+        <note>Line: 134</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/products.html.twig" source-language="en" target-language="ca" datatype="plaintext">
     <body>
+      <trans-unit id="4b6c6cda10a23d1bdc920f2e47e5f46f" approved="yes">
+        <source>Add a product</source>
+        <target state="final">Afegir un producte</target>
+        <note>Line: 154</note>
+      </trans-unit>
+      <trans-unit id="77fd2b4393b379bedd30efcd5df02090" approved="yes">
+        <source>Partial refund</source>
+        <target state="final">Reemborsament parcial</target>
+        <note>Line: 99</note>
+      </trans-unit>
+      <trans-unit id="cc61945cbbf46721a053467c395c666f" approved="yes">
+        <source>Refunded</source>
+        <target state="final">Restituït</target>
+        <note>Line: 79</note>
+      </trans-unit>
       <trans-unit id="d9c66f411da5faef9c46d5b679214ae1" approved="yes">
         <source>Add a discount</source>
         <target state="final">Afegir un descompte</target>
@@ -2068,22 +2062,17 @@ Salutacions cordials,</target>
       <trans-unit id="c21f969b5f03d33d43e04f8f136e7682" approved="yes">
         <source>default</source>
         <target state="final">per defecte</target>
-        <note>Line: 54</note>
-      </trans-unit>
-      <trans-unit id="0262a3dc4fae9adc8cb46e788806ccbf" approved="yes">
-        <source>Create order</source>
-        <target state="final">Crea una Comanda</target>
-        <note>Line: 28</note>
+        <note>Line: 55</note>
       </trans-unit>
       <trans-unit id="03937134cedab9078be39a77ee3a48a0" approved="yes">
         <source>Group</source>
         <target state="final">Grup</target>
-        <note>Line: 55</note>
+        <note>Line: 56</note>
       </trans-unit>
       <trans-unit id="a37ede293936e29279ed543129451ec3" approved="yes">
         <source>Groups</source>
         <target state="final">Grups</target>
-        <note>Line: 56</note>
+        <note>Line: 57</note>
       </trans-unit>
     </body>
   </file>
@@ -2107,7 +2096,7 @@ Salutacions cordials,</target>
       <trans-unit id="0da9511b88a62642518334bda95c7370" approved="yes">
         <source>Open details</source>
         <target state="final">Veure els detalls</target>
-        <note>Line: 173</note>
+        <note>Line: 179</note>
       </trans-unit>
     </body>
   </file>

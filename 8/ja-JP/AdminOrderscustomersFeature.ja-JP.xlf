@@ -173,11 +173,7 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/customer_threads/helpers/view/timeline_item.tpl" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      <trans-unit id="d1228f5476d15142b1358ae4b5fa2454" approved="yes">
-        <source>Order #</source>
-        <target state="final">注文No</target>
-        <note>Line: 32</note>
-      </trans-unit>
+      
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/customer_threads/helpers/view/view.tpl" source-language="en" target-language="ja" datatype="plaintext">
@@ -196,6 +192,11 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/customer_threads/message.tpl" source-language="en" target-language="ja" datatype="plaintext">
     <body>
+      <trans-unit id="d1228f5476d15142b1358ae4b5fa2454" approved="yes">
+        <source>Order #</source>
+        <target state="final">注文No</target>
+        <note>Line: 77</note>
+      </trans-unit>
       <trans-unit id="cb8fe83175bea4ba19d633b1dc6ea656" approved="yes">
         <source>View order</source>
         <target state="final">注文を参照</target>
@@ -480,12 +481,41 @@ Best regards,</source>
       <trans-unit id="54e85d70ea67acdcc86963b14d6223a8" approved="yes">
         <source>Abandoned Carts</source>
         <target state="final">カートを破棄する</target>
-        <note>Line: 177</note>
+        <note>Line: 179</note>
       </trans-unit>
       <trans-unit id="edeb0ec4f968653bb56eb2d7c50dab35" approved="yes">
         <source>From %date1% to %date2%</source>
         <target state="final">%date1% から %date2% の間</target>
-        <note>Line: 180</note>
+        <note>Line: 182</note>
+      </trans-unit>
+      <trans-unit id="b00b85425e74ed2c85dc3119b78ff2c3" approved="yes">
+        <source>Free Shipping</source>
+        <target state="final">送料無料</target>
+        <note>Line: 626</note>
+      </trans-unit>
+      <trans-unit id="272c853e39b8c65c81afd3661a8fd17f" approved="yes">
+        <source>%amount% tax excl.</source>
+        <target state="final">%amount%（税別）</target>
+        <note>Line: 198</note>
+      </trans-unit>
+      <trans-unit id="50cc07e9963519545552b1ac2c5f7a1e" approved="yes">
+        <source>Cart #%ID%</source>
+        <target state="final">カートID #%ID%</target>
+        <note>Line: 303</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="ja" datatype="plaintext">
+    <body>
+      <trans-unit id="7cb32e708d6b961d476baced73d362bb" approved="yes">
+        <source>VAT number</source>
+        <target state="final">VAT番号</target>
+        <note>Line: 445</note>
+      </trans-unit>
+      <trans-unit id="b60bb13a87fe3ae5463aeb0980a5a8a1" approved="yes">
+        <source>Identification number</source>
+        <target state="final">識別番号</target>
+        <note>Line: 446</note>
       </trans-unit>
     </body>
   </file>
@@ -506,6 +536,11 @@ Best regards,</source>
         <target state="final">%date% 以降の注文番号#%id%</target>
         <note>Line: 189</note>
       </trans-unit>
+      <trans-unit id="446faa7da2d42ba4ffeda73cb119dd91" approved="yes">
+        <source>Date issued</source>
+        <target state="final">発行日</target>
+        <note>Line: 52</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/BoOrder.php" source-language="en" target-language="ja" datatype="plaintext">
@@ -518,7 +553,7 @@ Best regards,</source>
       <trans-unit id="71754079aaeefc5c6e745ddd59f8a35f" approved="yes">
         <source>Free order</source>
         <target state="final">無料の注文</target>
-        <note>Line: 275</note>
+        <note>Line: 277</note>
       </trans-unit>
     </body>
   </file>
@@ -527,16 +562,7 @@ Best regards,</source>
       <trans-unit id="ffb7e666a70151215b4c55c6268d7d72" approved="yes">
         <source>Newsletter</source>
         <target state="final">メールマガジン</target>
-        <note>Line: 1415</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/Adapter/Cart/CommandHandler/UpdateCartDeliverySettingsHandler.php" source-language="en" target-language="ja" datatype="plaintext">
-    <body>
-      <trans-unit id="b00b85425e74ed2c85dc3119b78ff2c3" approved="yes">
-        <source>Free Shipping</source>
-        <target state="final">送料無料</target>
-        <note>Line: 133</note>
+        <note>Line: 1425</note>
       </trans-unit>
     </body>
   </file>
@@ -552,15 +578,6 @@ Best regards,</source>
   <file original="src/Adapter/Kpi/AverageCustomerAgeKpi.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
       
-    </body>
-  </file>
-  <file original="src/Adapter/Kpi/AverageOrderValueKpi.php" source-language="en" target-language="ja" datatype="plaintext">
-    <body>
-      <trans-unit id="272c853e39b8c65c81afd3661a8fd17f" approved="yes">
-        <source>%amount% tax excl.</source>
-        <target state="final">%amount%（税別）</target>
-        <note>Line: 55</note>
-      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Kpi/NetProfitPerVisitKpi.php" source-language="en" target-language="ja" datatype="plaintext">
@@ -584,11 +601,7 @@ Best regards,</source>
   </file>
   <file original="src/Adapter/Kpi/ShoppingCartTotalKpi.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      <trans-unit id="50cc07e9963519545552b1ac2c5f7a1e" approved="yes">
-        <source>Cart #%ID%</source>
-        <target state="final">カートID #%ID%</target>
-        <note>Line: 72</note>
-      </trans-unit>
+      
     </body>
   </file>
   <file original="src/Adapter/Order/CommandHandler/AddOrderFromBackOfficeHandler.php" source-language="en" target-language="ja" datatype="plaintext">
@@ -605,12 +618,12 @@ Best regards,</source>
       <trans-unit id="c12a553ab6ad810580afa3f07aa9f51f" approved="yes">
         <source>not paid</source>
         <target state="final">支払われていない</target>
-        <note>Line: 448</note>
+        <note>Line: 449</note>
       </trans-unit>
       <trans-unit id="8d4ac0e8c6f5900930ddfccd45d10abf" approved="yes">
         <source>overpaid</source>
         <target state="final">過払い</target>
-        <note>Line: 454</note>
+        <note>Line: 455</note>
       </trans-unit>
     </body>
   </file>
@@ -619,18 +632,14 @@ Best regards,</source>
       
     </body>
   </file>
-  <file original="src/Core/Grid/Data/Factory/CreditSlipGridDataFactory.php" source-language="en" target-language="ja" datatype="plaintext">
+  <file original="src/Core/Form/IdentifiableObject/DataProvider/OrderReturnFormDataProvider.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
       
     </body>
   </file>
-  <file original="src/Core/Grid/Definition/Factory/CreditSlipGridDefinitionFactory.php" source-language="en" target-language="ja" datatype="plaintext">
+  <file original="src/Core/Grid/Data/Factory/CreditSlipGridDataFactory.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      <trans-unit id="446faa7da2d42ba4ffeda73cb119dd91" approved="yes">
-        <source>Date issued</source>
-        <target state="final">発行日</target>
-        <note>Line: 100</note>
-      </trans-unit>
+      
     </body>
   </file>
   <file original="src/Core/Grid/Definition/Factory/CustomerAddressGridDefinitionFactory.php" source-language="en" target-language="ja" datatype="plaintext">
@@ -647,23 +656,8 @@ Best regards,</source>
       
     </body>
   </file>
-  <file original="src/Core/Grid/Definition/Factory/CustomerGridDefinitionFactory.php" source-language="en" target-language="ja" datatype="plaintext">
-    <body>
-      <trans-unit id="0f98b7f230f3c91292f0de4c99e263f2" approved="yes">
-        <source>Registration</source>
-        <target state="final">登録</target>
-        <note>Line: 222</note>
-      </trans-unit>
-      <trans-unit id="5e5914912e8d2f2765525840acf98bea" approved="yes">
-        <source>Last visit</source>
-        <target state="final">最後の訪問</target>
-        <note>Line: 230</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/Core/Grid/Definition/Factory/OrderGridDefinitionFactory.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      
       
       
       
@@ -678,24 +672,18 @@ Best regards,</source>
       </trans-unit>
     </body>
   </file>
-  <file original="src/Core/Import/EntityField/Provider/AddressFieldsProvider.php" source-language="en" target-language="ja" datatype="plaintext">
-    <body>
-      <trans-unit id="7cb32e708d6b961d476baced73d362bb" approved="yes">
-        <source>VAT number</source>
-        <target state="final">VAT番号</target>
-        <note>Line: 76</note>
-      </trans-unit>
-      <trans-unit id="b60bb13a87fe3ae5463aeb0980a5a8a1" approved="yes">
-        <source>Identification number</source>
-        <target state="final">識別番号</target>
-        <note>Line: 77</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Customer/CustomerController.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="0f98b7f230f3c91292f0de4c99e263f2" approved="yes">
+        <source>Registration</source>
+        <target state="final">登録</target>
+        <note>Line: 805</note>
+      </trans-unit>
+      <trans-unit id="5e5914912e8d2f2765525840acf98bea" approved="yes">
+        <source>Last visit</source>
+        <target state="final">最後の訪問</target>
+        <note>Line: 806</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/OrderMessageController.php" source-language="en" target-language="ja" datatype="plaintext">
@@ -722,17 +710,17 @@ Best regards,</source>
       <trans-unit id="03361eda68f746619c2ae3341eaa2f07" approved="yes">
         <source>Customer email</source>
         <target state="final">お客様のメール</target>
-        <note>Line: 113</note>
+        <note>Line: 114</note>
       </trans-unit>
       <trans-unit id="e03982ee543fe69d4954d587f1f2a338" approved="yes">
         <source>The national ID card number of this person, or a unique tax identification number.</source>
         <target state="final">National ID card 番号、もしくは固有の tax identification 番号。</target>
-        <note>Line: 138</note>
+        <note>Line: 139</note>
       </trans-unit>
       <trans-unit id="baa31a65f29121c32b637bb845d41acf" approved="yes">
         <source>Address alias</source>
         <target state="final">住所の別名</target>
-        <note>Line: 159</note>
+        <note>Line: 160</note>
       </trans-unit>
     </body>
   </file>
@@ -741,12 +729,12 @@ Best regards,</source>
       <trans-unit id="920bd1fb6d54c93fca528ce941464225" approved="yes">
         <source>Group access</source>
         <target state="final">グループのアクセス：</target>
-        <note>Line: 255</note>
+        <note>Line: 264</note>
       </trans-unit>
       <trans-unit id="15bbb9d0bbf25e8d2978de1168c749dc" approved="yes">
         <source>Website</source>
         <target state="final">ウェブサイト</target>
-        <note>Line: 307</note>
+        <note>Line: 316</note>
       </trans-unit>
     </body>
   </file>
@@ -766,7 +754,6 @@ Best regards,</source>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/CustomerService/MerchandiseReturn/MerchandiseReturnOptionsType.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      
       
       
     </body>
@@ -813,6 +800,7 @@ Best regards,</source>
     <body>
       
       
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/InternalNoteType.php" source-language="en" target-language="ja" datatype="plaintext">
@@ -825,12 +813,22 @@ Best regards,</source>
       <trans-unit id="fdd748833c0e80edbfe6d955a1e2bef5" approved="yes">
         <source>After the sequential number</source>
         <target state="final">連番の後ろ</target>
-        <note>Line: 92</note>
+        <note>Line: 161</note>
       </trans-unit>
       <trans-unit id="2d34b4de2b2170f55f41facfbdb3684a" approved="yes">
         <source>Before the sequential number</source>
         <target state="final">連番の前</target>
-        <note>Line: 93</note>
+        <note>Line: 162</note>
+      </trans-unit>
+      <trans-unit id="adb5bc3c76ab4f69fc050090e05998c7" approved="yes">
+        <source>Reset sequential invoice number at the beginning of the year</source>
+        <target state="final">毎年初めに請求書番号の連番をリセットする</target>
+        <note>Line: 151</note>
+      </trans-unit>
+      <trans-unit id="e8065dc15d8cb943a6b6aa87f7b539e9" approved="yes">
+        <source>Position of the year date</source>
+        <target state="final">年・日付の配置</target>
+        <note>Line: 166</note>
       </trans-unit>
     </body>
   </file>
@@ -855,6 +853,15 @@ Best regards,</source>
         <source>Required Fields</source>
         <target state="final">必須項目</target>
         <note>Line: 32</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Address/index.html.twig" source-language="en" target-language="ja" datatype="plaintext">
+    <body>
+      <trans-unit id="0470d45929f27e1161330164c423b415" approved="yes">
+        <source>Set required fields for this section</source>
+        <target state="final">このセクションの必須項目を設定</target>
+        <note>Line: 37</note>
       </trans-unit>
     </body>
   </file>
@@ -883,11 +890,6 @@ Best regards,</source>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/Blocks/View/discounts.html.twig" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      <trans-unit id="a82868319826fb092b73968e661b5b38" approved="yes">
-        <source>Vouchers</source>
-        <target state="final">クーポン</target>
-        <note>Line: 29</note>
-      </trans-unit>
       <trans-unit id="c8b4c13e6ad3227e192c118261c0e179" approved="yes">
         <source>%firstname% %lastname% has no discount vouchers</source>
         <target state="final">%lastname% %firstname% 様は、割引クーポンを持っていません</target>
@@ -1022,11 +1024,7 @@ Best regards,</source>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/index.html.twig" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      <trans-unit id="0470d45929f27e1161330164c423b415" approved="yes">
-        <source>Set required fields for this section</source>
-        <target state="final">このセクションの必須項目を設定</target>
-        <note>Line: 63</note>
-      </trans-unit>
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/view.html.twig" source-language="en" target-language="ja" datatype="plaintext">
@@ -1085,6 +1083,20 @@ Best regards,</source>
       </trans-unit>
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/CreditSlip/Blocks/pdf_by_date.html.twig" source-language="en" target-language="ja" datatype="plaintext">
+    <body>
+      <trans-unit id="9a0a4f0869ab12a21407047290750e7a" approved="yes">
+        <source>By date</source>
+        <target state="final">日付によって</target>
+        <note>Line: 36</note>
+      </trans-unit>
+      <trans-unit id="1f0a7c7f8461359ede310318e3d44cd8" approved="yes">
+        <source>Generate PDF file by date</source>
+        <target state="final">日付別にPDFファイルを生成</target>
+        <note>Line: 50</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Delivery/slip.html.twig" source-language="en" target-language="ja" datatype="plaintext">
     <body>
       <trans-unit id="afa0e443a161e904a03bbbc333506256" approved="yes">
@@ -1101,20 +1113,6 @@ Best regards,</source>
         <source>Delivery slip options</source>
         <target state="final">配送伝票オプション</target>
         <note>Line: 60</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Invoices/Blocks/generate_by_date.html.twig" source-language="en" target-language="ja" datatype="plaintext">
-    <body>
-      <trans-unit id="9a0a4f0869ab12a21407047290750e7a" approved="yes">
-        <source>By date</source>
-        <target state="final">日付によって</target>
-        <note>Line: 34</note>
-      </trans-unit>
-      <trans-unit id="1f0a7c7f8461359ede310318e3d44cd8" approved="yes">
-        <source>Generate PDF file by date</source>
-        <target state="final">日付別にPDFファイルを生成</target>
-        <note>Line: 57</note>
       </trans-unit>
     </body>
   </file>
@@ -1137,17 +1135,7 @@ Best regards,</source>
       <trans-unit id="1b107c8f50c81b4b3497765849934a1c" approved="yes">
         <source>Invoice options</source>
         <target state="final">請求書のオプション</target>
-        <note>Line: 34</note>
-      </trans-unit>
-      <trans-unit id="adb5bc3c76ab4f69fc050090e05998c7" approved="yes">
-        <source>Reset sequential invoice number at the beginning of the year</source>
-        <target state="final">毎年初めに請求書番号の連番をリセットする</target>
-        <note>Line: 77</note>
-      </trans-unit>
-      <trans-unit id="e8065dc15d8cb943a6b6aa87f7b539e9" approved="yes">
-        <source>Position of the year date</source>
-        <target state="final">年・日付の配置</target>
-        <note>Line: 86</note>
+        <note>Line: 37</note>
       </trans-unit>
     </body>
   </file>
@@ -1181,6 +1169,11 @@ Best regards,</source>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/Create/cart_rules.html.twig" source-language="en" target-language="ja" datatype="plaintext">
     <body>
+      <trans-unit id="a82868319826fb092b73968e661b5b38" approved="yes">
+        <source>Vouchers</source>
+        <target state="final">クーポン</target>
+        <note>Line: 28</note>
+      </trans-unit>
       <trans-unit id="11599f38f7ac080ae579f1bf32f08561" approved="yes">
         <source>Add new voucher</source>
         <target state="final">新しいクーポンを追加</target>
@@ -1263,14 +1256,10 @@ Best regards,</source>
         <target state="final">注文ステータス：</target>
         <note>Line: 97</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/Modal/add_product_modal.html.twig" source-language="en" target-language="ja" datatype="plaintext">
-    <body>
-      <trans-unit id="4b6c6cda10a23d1bdc920f2e47e5f46f" approved="yes">
-        <source>Add a product</source>
-        <target state="final">商品を追加</target>
-        <note>Line: 32</note>
+      <trans-unit id="0262a3dc4fae9adc8cb46e788806ccbf" approved="yes">
+        <source>Create order</source>
+        <target state="final">注文を作成</target>
+        <note>Line: 109</note>
       </trans-unit>
     </body>
   </file>
@@ -1388,6 +1377,11 @@ Best regards,</source>
       </trans-unit>
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/edit_product_row.html.twig" source-language="en" target-language="ja" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/history.html.twig" source-language="en" target-language="ja" datatype="plaintext">
     <body>
       
@@ -1431,11 +1425,6 @@ Best regards,</source>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/order_actions.html.twig" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      <trans-unit id="77fd2b4393b379bedd30efcd5df02090" approved="yes">
-        <source>Partial refund</source>
-        <target state="final">一部払い戻し</target>
-        <note>Line: 121</note>
-      </trans-unit>
       <trans-unit id="4ad439b4f7069964e258259e049fa90c" approved="yes">
         <source>Standard refund</source>
         <target state="final">標準還付</target>
@@ -1483,21 +1472,27 @@ Best regards,</source>
       <trans-unit id="f8b1369a8e9d90da0cae0b11049309af" approved="yes">
         <source>Not defined</source>
         <target state="final">定義されていません</target>
-        <note>Line: 95</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/product.html.twig" source-language="en" target-language="ja" datatype="plaintext">
-    <body>
-      <trans-unit id="cc61945cbbf46721a053467c395c666f" approved="yes">
-        <source>Refunded</source>
-        <target state="final">払い戻したされた</target>
-        <note>Line: 70</note>
+        <note>Line: 97</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/products.html.twig" source-language="en" target-language="ja" datatype="plaintext">
     <body>
+      <trans-unit id="4b6c6cda10a23d1bdc920f2e47e5f46f" approved="yes">
+        <source>Add a product</source>
+        <target state="final">商品を追加</target>
+        <note>Line: 154</note>
+      </trans-unit>
+      <trans-unit id="77fd2b4393b379bedd30efcd5df02090" approved="yes">
+        <source>Partial refund</source>
+        <target state="final">一部払い戻し</target>
+        <note>Line: 99</note>
+      </trans-unit>
+      <trans-unit id="cc61945cbbf46721a053467c395c666f" approved="yes">
+        <source>Refunded</source>
+        <target state="final">払い戻したされた</target>
+        <note>Line: 79</note>
+      </trans-unit>
       <trans-unit id="ba794350deb07c0c96fe73bd12239059" approved="yes">
         <source>Wrapping</source>
         <target state="final">ギフト包装</target>
@@ -1542,20 +1537,15 @@ Best regards,</source>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/create.html.twig" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      <trans-unit id="0262a3dc4fae9adc8cb46e788806ccbf" approved="yes">
-        <source>Create order</source>
-        <target state="final">注文を作成</target>
-        <note>Line: 28</note>
-      </trans-unit>
       <trans-unit id="03937134cedab9078be39a77ee3a48a0" approved="yes">
         <source>Group</source>
         <target state="final">グループ</target>
-        <note>Line: 55</note>
+        <note>Line: 56</note>
       </trans-unit>
       <trans-unit id="a37ede293936e29279ed543129451ec3" approved="yes">
         <source>Groups</source>
         <target state="final">グループ</target>
-        <note>Line: 56</note>
+        <note>Line: 57</note>
       </trans-unit>
     </body>
   </file>
