@@ -49,11 +49,23 @@ Comment: Product multi store feature flag in 8.0</note>
         <note>Line: 80
 Comment: Permissions feature flag</note>
       </trans-unit>
+      <trans-unit id="7871566bb5f25ceb0ebdfa6ad1df25ba" approved="yes">
+        <source>New product page</source>
+        <target state="final">Нова сторінка товару</target>
+        <note>Line: 37
+Comment: Product feature flag in 8.1</note>
+      </trans-unit>
       <trans-unit id="e5bfab8b7f97b8f0b19ad7e393d7c566" approved="yes">
         <source>Catalog price rules</source>
         <target state="final">Знижки каталогу</target>
         <note>Line: 57
 Comment: Catalog price rules feature flag</note>
+      </trans-unit>
+      <trans-unit id="29c21e348106b6651c7d6e96b19de567" approved="yes">
+        <source>Enable / Disable having more than one image format (jpg, webp, avif, png, etc.)</source>
+        <target state="final">Увімкнути / Вимкнути наявність більше одного формату зображень (jpg, webp, avif, png і т.д.)</target>
+        <note>Line: 61
+Comment: Multiple image formats feature flags</note>
       </trans-unit>
       <trans-unit id="790d59ef178acbc75d233bf4211763c6" approved="yes">
         <source>Countries</source>
@@ -546,6 +558,11 @@ Comment: Titles feature flag</note>
         <target state="final">EAN-13</target>
         <note>Line: 259</note>
       </trans-unit>
+      <trans-unit id="fad1595f2ba976ad028ec84cc57a56c2" approved="yes">
+        <source>ID / Name of the store</source>
+        <target state="final">ID / Назва магазину</target>
+        <note>Line: 542</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminLoginController.php" source-language="en" target-language="uk" datatype="plaintext">
@@ -975,6 +992,26 @@ Comment: voluntary do affectation here</note>
         <target state="final">Останнє оновлення</target>
         <note>Line: 145</note>
       </trans-unit>
+      <trans-unit id="8c01c65cd2c7619b8bb617b441cd05c4" approved="yes">
+        <source>The user will be signed out from this session.</source>
+        <target state="final">Користувача буде відключено від цього сеансу.</target>
+        <note>Line: 164</note>
+      </trans-unit>
+      <trans-unit id="b49d9bafc2f2394cdd875fb0b96bb974" approved="yes">
+        <source>Delete session?</source>
+        <target state="final">Видалити сеанс?</target>
+        <note>Line: 170</note>
+      </trans-unit>
+      <trans-unit id="12e882347d5f51cf292ca08e2e606eb2" approved="yes">
+        <source>Users will be signed out from all selected sessions.</source>
+        <target state="final">Користувачів буде відключено від усіх вибраних сеансів.</target>
+        <note>Line: 293</note>
+      </trans-unit>
+      <trans-unit id="b0778bfd9332089cdb4468bd9f04e031" approved="yes">
+        <source>Delete selected sessions?</source>
+        <target state="final">Видалити вибрані сеанси?</target>
+        <note>Line: 299</note>
+      </trans-unit>
       <trans-unit id="4d372ba3330d919603c6279404505f7c" approved="yes">
         <source>Employee ID</source>
         <target state="final">ID співробітника</target>
@@ -1103,7 +1140,7 @@ Comment: voluntary do affectation here</note>
       </trans-unit>
       <trans-unit id="29826f9f4da3d473c1e4ecf2f6c4ef9f" approved="yes">
         <source>Enable or disable all classes and controllers overrides.</source>
-        <target state="final">Увімкнення чи вимкнення усі перевизначені класи й контролери.</target>
+        <target state="final">Увімкнути або вимкнути всі перевизначення класів та контролерів.</target>
         <note>Line: 47</note>
       </trans-unit>
     </body>
@@ -1307,6 +1344,11 @@ Comment: voluntary do affectation here</note>
         <source>DKIM signing</source>
         <target state="final">Підпис DKIM</target>
         <note>Line: 112</note>
+      </trans-unit>
+      <trans-unit id="c723ca5d9362fa1a05410d11c0bf86f2" approved="yes">
+        <source>Enable the store name as a prefix in the email's subject</source>
+        <target state="final">Увімкнути назву магазину як префікс у темі листа</target>
+        <note>Line: 92</note>
       </trans-unit>
     </body>
   </file>
@@ -1957,6 +1999,21 @@ Comment: Recommended modules will be attached to here.</note>
         <target state="final">4 дуже складно вгадати (припущення більше або дорівнює 10^10) і забезпечує надійний захист від сценарію повільного офлайн хешування.</target>
         <note>Line: 73</note>
       </trans-unit>
+      <trans-unit id="478541a16f7d2800f3ea4427cb628ff0" approved="yes">
+        <source>1 is still very easy to guess (guesses less than 10^6). An extra character on a dictionary word can score 1.</source>
+        <target state="final">1 все ще дуже легко вгадати (вгадування менше 10^6). Додатковий символ у слові з словника може додати 1 бал.</target>
+        <note>Line: 70</note>
+      </trans-unit>
+      <trans-unit id="1efea0fb945ffed57c73aec90dea4810" approved="yes">
+        <source>2 is pretty easy to guess (guesses less than 10^8). It provides some protection from unthrottled online attacks.</source>
+        <target state="final">2 досить легко вгадати (вгадати менше ніж 10^8). Він забезпечує певний захист від неконтрольованих онлайн атак.</target>
+        <note>Line: 71</note>
+      </trans-unit>
+      <trans-unit id="7355c93a5762175f1b68a5123e1234d7" approved="yes">
+        <source>3 is safely unguessable (guesses less than 10^10). It offers moderate protection from offline slow-hash scenario.</source>
+        <target state="final">3 надійно, неможливо вгадати (припущення менше 10^10). Він пропонує помірний захист від сценарію повільного офлайн хешування.</target>
+        <note>Line: 72</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Webservice/Blocks/form.html.twig" source-language="en" target-language="uk" datatype="plaintext">
@@ -2300,6 +2357,11 @@ Comment: Recommended modules will be attached to here.</note>
         <source>List of changed files</source>
         <target state="final">Перелік змінених файлів</target>
         <note>Line: 243</note>
+      </trans-unit>
+      <trans-unit id="5f1e07304be1553f59d16379fdc9a997" approved="yes">
+        <source>You must provide this information when reporting an issue on GitHub or on the forum.</source>
+        <target state="final">Ви повинні вказати цю інформацію, коли повідомляєте про проблему на GitHub або форумі.</target>
+        <note>Line: 36</note>
       </trans-unit>
     </body>
   </file>
