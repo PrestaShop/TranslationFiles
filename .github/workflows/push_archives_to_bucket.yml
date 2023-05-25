@@ -35,15 +35,15 @@ jobs:
               run: |
                if test ${{ inputs.environment }} = "production";
                then
-                 echo '::set-output name=TRANSLATION_TOOL_REF::1.0.2'
-                 echo '::set-output name=TRANSLATION_FILES_BRANCH::master'
+                 echo "TRANSLATION_TOOL_REF=2.0.1" >> $GITHUB_OUTPUT
+                 echo "TRANSLATION_FILES_BRANCH=master" >> $GITHUB_OUTPUT
                elif test ${{ inputs.environment }} = "preproduction";
                then
-                 echo '::set-output name=TRANSLATION_TOOL_REF::master'
-                 echo '::set-output name=TRANSLATION_FILES_BRANCH::preproduction'
+                 echo "TRANSLATION_TOOL_REF=master" >> $GITHUB_OUTPUT
+                 echo "TRANSLATION_FILES_BRANCH=preproduction" >> $GITHUB_OUTPUT
                else
-                 echo '::set-output name=TRANSLATION_TOOL_REF::dev'
-                 echo '::set-output name=TRANSLATION_FILES_BRANCH::integration'
+                 echo "TRANSLATION_TOOL_REF=dev" >> $GITHUB_OUTPUT
+                 echo "TRANSLATION_FILES_BRANCH=integration" >> $GITHUB_OUTPUT
                fi
               shell: bash
               id: job-settings

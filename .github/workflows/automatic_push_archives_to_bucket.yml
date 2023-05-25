@@ -20,12 +20,12 @@ jobs:
               run: |
                   if test ${{ github.ref_name }} = "master";
                   then
-                    echo '::set-output name=env_name::production'
+                    echo "env_name=production" >> $GITHUB_OUTPUT
                   elif test ${{ github.ref_name }} = "preproduction";
                   then
-                    echo '::set-output name=env_name::preproduction'
+                    echo "env_name=preproduction" >> $GITHUB_OUTPUT
                   else
-                    echo '::set-output name=env_name::integration'
+                    echo "env_name=integration" >> $GITHUB_OUTPUT
                   fi
               shell: bash
         outputs:
@@ -38,8 +38,8 @@ jobs:
             fail-fast: false
             matrix:
                 prestashop_version:
-                    - '8.0'
-                    - '1.7.8'
+                    - '8.0.x'
+                    - '1.7.8.x'
         uses: PrestaShop/TranslationFiles/.github/workflows/push_archives_to_bucket.yml@master
         with:
             environment: ${{ needs.prepare_environment.outputs.env_name }}
