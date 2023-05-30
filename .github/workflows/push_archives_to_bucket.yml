@@ -35,7 +35,7 @@ jobs:
               run: |
                if test ${{ inputs.environment }} = "production";
                then
-                 echo "TRANSLATION_TOOL_REF=2.0.1" >> $GITHUB_OUTPUT
+                 echo "TRANSLATION_TOOL_REF=2.0.2" >> $GITHUB_OUTPUT
                  echo "TRANSLATION_FILES_BRANCH=master" >> $GITHUB_OUTPUT
                elif test ${{ inputs.environment }} = "preproduction";
                then
@@ -62,7 +62,7 @@ jobs:
             - name: Setup PHP
               uses: shivammathur/setup-php@v2
               with:
-                  php-version: '8.0'
+                  php-version: '8.1'
                   extensions: curl, json
 
             - name: Install composer dependencies

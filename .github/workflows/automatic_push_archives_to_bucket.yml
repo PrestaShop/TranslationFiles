@@ -38,6 +38,7 @@ jobs:
             fail-fast: false
             matrix:
                 prestashop_version:
+                    - '9.0.x'
                     - '8.0.x'
                     - '1.7.8.x'
         uses: PrestaShop/TranslationFiles/.github/workflows/push_archives_to_bucket.yml@master
