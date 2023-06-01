@@ -9,7 +9,7 @@
       </trans-unit>
       <trans-unit id="13e582c97044bf8680de63c6bdb41c18" approved="yes">
         <source>License agreements</source>
-        <target state="final">Sporazumi licenciranja</target>
+        <target state="final">Sporazumi o licenci</target>
         <note>Line: 108</note>
       </trans-unit>
       <trans-unit id="d13e189d15c36f1ec8ff701cce809b4d" approved="yes">
@@ -19,7 +19,7 @@
       </trans-unit>
       <trans-unit id="3aea774cdcd8f2c45549f10758a71323" approved="yes">
         <source>Store information</source>
-        <target state="final">Informacije prodavnice</target>
+        <target state="final">Informacije o prodavnici</target>
         <note>Line: 118</note>
       </trans-unit>
       <trans-unit id="3c4e32d95f12c00d16a76057a7af18f6" approved="yes">
@@ -46,6 +46,16 @@
         <target state="final">Pogrešan naziv prodavnice</target>
         <note>Line: 93</note>
       </trans-unit>
+      <trans-unit id="ab141dcb233ea3357d0a86584ff65a49" approved="yes">
+        <source>shop name</source>
+        <target state="final">ime prodavnice</target>
+        <note>Line: 95</note>
+      </trans-unit>
+      <trans-unit id="96f52200c7a597ff32a0bb66f794d183" approved="yes">
+        <source>The field %field% is limited to %limit% characters</source>
+        <target state="final">Polje %field% je ograničeno na %limit% karaktera</target>
+        <note>Line: 108</note>
+      </trans-unit>
       <trans-unit id="68499acecfba9d3bf0ca8711f300d3ed" approved="yes">
         <source>Your firstname contains some invalid characters</source>
         <target state="final">Vaše ime sadrži neke nevažeće znakove</target>
@@ -65,6 +75,16 @@
         <source>lastname</source>
         <target state="final">prezime</target>
         <note>Line: 108</note>
+      </trans-unit>
+      <trans-unit id="89605cda87edd2daeebbe3534b7beb0d" approved="yes">
+        <source>The password is incorrect (must be alphanumeric string with at least 8 characters)</source>
+        <target state="final">Lozinka je netačna (slova i brojevi sa najmanje 8 karaktera)</target>
+        <note>Line: 114</note>
+      </trans-unit>
+      <trans-unit id="74d36cb95a84f88728b3d69678aba185" approved="yes">
+        <source>The password and its confirmation are different</source>
+        <target state="final">Lozinka i potvrda lozinke se ne poklapaju</target>
+        <note>Line: 118</note>
       </trans-unit>
       <trans-unit id="3d282d50434c9dee33c39a09d5283406" approved="yes">
         <source>This e-mail address is invalid</source>
@@ -189,39 +209,45 @@
   </file>
   <file original="install-dev/controllers/http/process.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
+      <trans-unit id="cdc5a0619e8dadc368c1d5feb2d83986" approved="yes">
+        <source>Create file parameters</source>
+        <target state="final">Kreiranje parametara fajla</target>
+        <note>Line: 309
+Comment: We fill the process step used for Ajax queries</note>
+      </trans-unit>
       <trans-unit id="0b1b557a66c34f8467d364c5f6ac36a5" approved="yes">
         <source>Create database tables</source>
-        <target state="final">Kreiraj tabele baze podataka</target>
+        <target state="final">Kreiranje tabela baze podataka</target>
         <note>Line: 310</note>
       </trans-unit>
       <trans-unit id="22242e741d52f57289ac8b72b9e8c96d" approved="yes">
         <source>Create default shop and languages</source>
-        <target state="final">Kreiraj podrazumevanu prodavnicu i jezike</target>
+        <target state="final">Kreiranje podrazumevane prodavnice i jezika</target>
         <note>Line: 311</note>
       </trans-unit>
       <trans-unit id="33f1b48d4dac0408b87bb952b6b0799f" approved="yes">
         <source>Populate database tables</source>
-        <target state="final">Popuni tabele baze podataka</target>
+        <target state="final">Popunjavanje tabela baze podataka</target>
         <note>Line: 313</note>
       </trans-unit>
       <trans-unit id="039c15f5a6879d4a65fb0f67f8f90f09" approved="yes">
         <source>Configure shop information</source>
-        <target state="final">Konfiguriši informacije o prodavnici</target>
+        <target state="final">Konfiguracija informacija o prodavnici</target>
         <note>Line: 314</note>
       </trans-unit>
       <trans-unit id="7ad8960b5505289cf368e247f7ac72ef" approved="yes">
         <source>Install theme</source>
-        <target state="final">Instaliraj temu</target>
+        <target state="final">Instaliranje teme</target>
         <note>Line: 316</note>
       </trans-unit>
       <trans-unit id="e819ad111fcd4023d34b419946936265" approved="yes">
         <source>Install modules</source>
-        <target state="final">Instaliraj module</target>
+        <target state="final">Instaliranje modula</target>
         <note>Line: 317</note>
       </trans-unit>
       <trans-unit id="23de8b7f5abcac68c426e405975411bb" approved="yes">
         <source>Install demonstration data</source>
-        <target state="final">Instaliraj demonstrantne podatke</target>
+        <target state="final">Instaliraj demo podatke</target>
         <note>Line: 320</note>
       </trans-unit>
     </body>
@@ -248,15 +274,45 @@
         <target state="final">Novi fajlovi i folderi se ne mogu kreirati</target>
         <note>Line: 93</note>
       </trans-unit>
+      <trans-unit id="8edddbd91415fa92ce68a7601116e39d" approved="yes">
+        <source>cURL extension is not enabled</source>
+        <target state="final">cURL ekstenzija nije uključena</target>
+        <note>Line: 94</note>
+      </trans-unit>
       <trans-unit id="d482b958dcd96bf9219f5039afae2dde" approved="yes">
         <source>GD library is not installed</source>
         <target state="final">GD biblioteka nije instalirana</target>
         <note>Line: 95</note>
       </trans-unit>
+      <trans-unit id="53451c05d2a863bad2f972f2a423ca78" approved="yes">
+        <source>JSON extension is not loaded</source>
+        <target state="final">JSON ekstenzija nije učitana</target>
+        <note>Line: 96</note>
+      </trans-unit>
+      <trans-unit id="8e36201b3398a5af1e571037b16cb7cc" approved="yes">
+        <source>PHP OpenSSL extension is not loaded</source>
+        <target state="final">PHP OpenSSL ekstenzija nije učitana</target>
+        <note>Line: 97</note>
+      </trans-unit>
       <trans-unit id="0e359a480284508d7d9c7a90a9c94b57" approved="yes">
         <source>PDO MySQL extension is not loaded</source>
         <target state="final">PDO MySQL ekstenzija nije učitana</target>
         <note>Line: 98</note>
+      </trans-unit>
+      <trans-unit id="f37d70acdd46c99aa2738a9b9c6a4484" approved="yes">
+        <source>SimpleXML extension is not loaded</source>
+        <target state="final">SimpleXML ekstenzija nije učitana</target>
+        <note>Line: 99</note>
+      </trans-unit>
+      <trans-unit id="88ab0c1cce0f8be93e9cef2d42d47f97" approved="yes">
+        <source>ZIP extension is not enabled</source>
+        <target state="final">ZIP ekstenzija nije uključena</target>
+        <note>Line: 100</note>
+      </trans-unit>
+      <trans-unit id="110b26012a01ad5604e5b9ac39b585ba" approved="yes">
+        <source>Fileinfo extension is not enabled</source>
+        <target state="final">Fileinfo ekstenzija nije uključena</target>
+        <note>Line: 101</note>
       </trans-unit>
       <trans-unit id="e1aa192240d00d1f6ea2ad7a030f9642" approved="yes">
         <source>Intl extension is not loaded</source>
@@ -268,9 +324,19 @@
         <target state="final">PHP konfiguracija "memory_limit" mora imati minimum 256M</target>
         <note>Line: 103</note>
       </trans-unit>
+      <trans-unit id="9985ec427b90450fffe50ef87916f316" approved="yes">
+        <source>Required Apache configuration</source>
+        <target state="final">Potrebna je Apache konfiguracija</target>
+        <note>Line: 107</note>
+      </trans-unit>
+      <trans-unit id="0b9193ca4af6867c1f50a07097254b62" approved="yes">
+        <source>Enable the Apache mod_rewrite module</source>
+        <target state="final">Aktiviraj Apache mod_rewrite modul</target>
+        <note>Line: 110</note>
+      </trans-unit>
       <trans-unit id="91f3a2c0e4424c87689525da44c4db11" approved="yes">
         <source>Files</source>
-        <target state="final">Datoteke</target>
+        <target state="final">Fajlovi</target>
         <note>Line: 114</note>
       </trans-unit>
       <trans-unit id="65c896ec6e9dd47cfc8498d0554e50ae" approved="yes">
@@ -282,6 +348,16 @@
         <source>Permissions on files and folders</source>
         <target state="final">Dozvole na fajlovima  folderima</target>
         <note>Line: 121</note>
+      </trans-unit>
+      <trans-unit id="9fa7c3c4ae8d448c7536e98947b51d75" approved="yes">
+        <source>Recursive write permissions for %user% user on %folder%</source>
+        <target state="final">Rekurzivne dozvole pisanja za korisnika %user% unutar %folder%</target>
+        <note>Line: 135</note>
+      </trans-unit>
+      <trans-unit id="4b3fafb5b9b053c5d3d39d5af60a5154" approved="yes">
+        <source>Write permissions for %user% user on %folder%</source>
+        <target state="final">Dozvole pisanja za korisnika %user% unutar %folder%</target>
+        <note>Line: 137</note>
       </trans-unit>
       <trans-unit id="cae2fd0d1edf2730523324e86f4113d0" approved="yes">
         <source>Recommended PHP parameters</source>
@@ -302,6 +378,11 @@
         <source>Dom extension is not loaded</source>
         <target state="final">Dom ekstenzija nije učitana</target>
         <note>Line: 148</note>
+      </trans-unit>
+      <trans-unit id="a69c52258e44151f43f0d4bf17526d3e" approved="yes">
+        <source>Cannot open external URLs (requires allow_url_fopen as On)</source>
+        <target state="final">Nije moguće otvoriti spoljašnju URL adresu (potrebno je aktivirati allow_url_fopen)</target>
+        <note>Line: 149</note>
       </trans-unit>
     </body>
   </file>
@@ -358,12 +439,12 @@
       </trans-unit>
       <trans-unit id="038b579adc8560b4903395edc67c580b" approved="yes">
         <source>Help us learn more about your store so we can offer you optimal guidance and the best features for your business!</source>
-        <target state="final">Pomozite nam da saznamo više o vašoj radnji kako bi vam ponudili lakše rukovanje i najbolje funkcije za vaš posao!</target>
+        <target state="final">Pomozite nam da saznamo više o vašoj prodavnici kako bi vam ponudili lakše rukovanje i najbolje funkcije za vaš posao!</target>
         <note>Line: 50</note>
       </trans-unit>
       <trans-unit id="59716c97497eb9694541f7c3d37b1a4d" approved="yes">
         <source>Country</source>
-        <target state="final">Zemlja</target>
+        <target state="final">Država</target>
         <note>Line: 54</note>
       </trans-unit>
       <trans-unit id="a7bb58222222b064f0721e6e0fe4c486" approved="yes">
@@ -383,7 +464,7 @@
       </trans-unit>
       <trans-unit id="1656072e927c8d3acd24359cbb648bb5" approved="yes">
         <source>Enable SSL</source>
-        <target state="final">Omogući SSL</target>
+        <target state="final">Aktiviraj SSL</target>
         <note>Line: 84</note>
       </trans-unit>
       <trans-unit id="a0623b78a5f2cfe415d9dbbd4428ea40" approved="yes">
@@ -403,12 +484,12 @@
       </trans-unit>
       <trans-unit id="8b5dd64ab8d0b8158906796b53a200e2" approved="yes">
         <source>E-mail address</source>
-        <target state="final">Email adresa</target>
+        <target state="final">E-mail adresa</target>
         <note>Line: 119</note>
       </trans-unit>
       <trans-unit id="a838dd011a3bb99084a43912a71cdc46" approved="yes">
         <source>This email address will be your username to access your store's back office.</source>
-        <target state="final">Ovaj mejl će biti korisnično ime za pristup back office-u prodavnice.</target>
+        <target state="final">Ovaj mejl će biti korisničko ime za pristup administrativnom panelu prodavnice.</target>
         <note>Line: 124</note>
       </trans-unit>
       <trans-unit id="ecb77be87bda4dd34d51cfedbef9b6c3" approved="yes">
@@ -464,6 +545,11 @@
         <target state="final"><![CDATA[Za korišćenje PrestaShop-a,  morate da <a href="https://docs.prestashop-project.org/1.7-documentation/getting-started/installing-prestashop#creating-a-database-for-your-shop" target="_blank">kreirate bazu podataka</a> za prikupljanje podataka o prodavnici i aktivnosti povezanih sa prodavnicom]]></target>
         <note>Line: 32</note>
       </trans-unit>
+      <trans-unit id="3b4db494bf9473e98bf8106d3fb381a7" approved="yes">
+        <source>Please complete the fields below in order for PrestaShop to connect to your database.</source>
+        <target state="final">Popunite polja ispod kako bi se PrestaShop povezao na vašu bazu podataka.</target>
+        <note>Line: 34</note>
+      </trans-unit>
       <trans-unit id="52a372f1b2b0ce0f9a3789a9ae9e6ef8" approved="yes">
         <source>Database server address</source>
         <target state="final">Adrsa servera baze podataka</target>
@@ -471,7 +557,7 @@
       </trans-unit>
       <trans-unit id="bc4b85255c14de3bf09748a093c63529" approved="yes">
         <source>The default port is 3306. To use a different port, add the port number at the end of your server's address i.e ":4242".</source>
-        <target state="final">Podrazumevani otvor je 3306. Za korišćenje drugog ulaza, dodajte broj ulaza na kraju adrese servera, npr ":4242".</target>
+        <target state="final">Podrazumevani port je 3306. Za korišćenje drugog porta, dodajte broj porta na kraju adrese servera, npr ":4242".</target>
         <note>Line: 40</note>
       </trans-unit>
       <trans-unit id="9e362f7bde93fb1a52dea86534d5be9c" approved="yes">
@@ -544,12 +630,12 @@
     <body>
       <trans-unit id="dea48ade3500772702e1fc82c6b0e7a2" approved="yes">
         <source>License Agreements</source>
-        <target state="final">Sporazumi licenciranja</target>
+        <target state="final">Sporazumi o lincenci</target>
         <note>Line: 29</note>
       </trans-unit>
       <trans-unit id="0ac0a81ca1509342742c589072f5c235" approved="yes">
         <source>To enjoy the many features that are offered for free by PrestaShop, please read the license terms below. PrestaShop core is licensed under OSL 3.0, while the modules and themes are licensed under AFL 3.0.</source>
-        <target state="final">Da bi ste imali više funkcija koje nudi PrestaShop, pročitajte uslove licenciranja ispod. Jezgro PrestaShop-a je licencirano pod OSL 3.0, dok su teme i moduli licensirani pod AFL 3.0.</target>
+        <target state="final">Da bi ste imali više funkcija koje nudi PrestaShop, pročitajte uslove o licenci dole ispod. Jezgro PrestaShop-a je licencirano pod OSL 3.0, dok su teme i moduli licensirani pod AFL 3.0.</target>
         <note>Line: 30</note>
       </trans-unit>
       <trans-unit id="8de3e515f8a43bf8de5d2ae37a7d6c42" approved="yes">
@@ -571,9 +657,14 @@
         <target state="final">Došlo je do greške prilikom instalacije...</target>
         <note>Line: 54</note>
       </trans-unit>
+      <trans-unit id="6a44fd63f5cc2e5d0565d4c106280a3c" approved="yes">
+        <source><![CDATA[You can use the links on the left column to go back to the previous steps, or restart the installation process by <a href="%link%">clicking here</a>.]]></source>
+        <target state="final"><![CDATA[Možete koristiti linkove u levoj koloni za vraćanje na ranije korake, ili ponovite proces instalacije <a href="%link%">klikom ovde</a>.]]></target>
+        <note>Line: 55</note>
+      </trans-unit>
       <trans-unit id="7f3475513f7ba2a7c36fb507d60db6a5" approved="yes">
         <source>Your installation is finished!</source>
-        <target state="final">Vaša instalacija je gotova!</target>
+        <target state="final">Vaša instalacija je završena!</target>
         <note>Line: 62</note>
       </trans-unit>
       <trans-unit id="95d8b8f9b89717f8e58b5e9df21eab6b" approved="yes">
@@ -588,7 +679,7 @@
       </trans-unit>
       <trans-unit id="1e884e3078d9978e216a027ecd57fb34" approved="yes">
         <source>E-mail</source>
-        <target state="final">E-pošta</target>
+        <target state="final">E-mail</target>
         <note>Line: 67</note>
       </trans-unit>
       <trans-unit id="638c31b20cf4a67654c049ca9cf92a99" approved="yes">
@@ -598,7 +689,7 @@
       </trans-unit>
       <trans-unit id="dc647eb65e6711e155375218212b3964" approved="yes">
         <source>Password</source>
-        <target state="final">Šifra</target>
+        <target state="final">Lozinka</target>
         <note>Line: 75</note>
       </trans-unit>
       <trans-unit id="b9987a246a537f4fe86f1f2e3d10dbdb" approved="yes">
@@ -611,6 +702,11 @@
         <target state="final">Iz bezdbenosnih razloga, morate obrisati folder "install".</target>
         <note>Line: 86</note>
       </trans-unit>
+      <trans-unit id="eed2839c1e3e5f7069ed03b2f6d4c6dd" approved="yes">
+        <source>Back Office</source>
+        <target state="final">Administrativni panel</target>
+        <note>Line: 91</note>
+      </trans-unit>
       <trans-unit id="450abc1417292c60121dd3dfde9c9b23" approved="yes">
         <source>Manage your store using your Back Office. Manage your orders and customers, add modules, change themes, etc.</source>
         <target state="final">Uređujte vašu prodavnicu koristeći administraciju. Upravljajte porudžbinama, kupcima, dodajte module, menjajte teme, itd.</target>
@@ -618,22 +714,22 @@
       </trans-unit>
       <trans-unit id="39b5e23e409fa9f6f67e984c1bedf6ae" approved="yes">
         <source>Manage your store</source>
-        <target state="final">Upravljajte vašom radnjom</target>
+        <target state="final">Upravljajte vašom prodavnicom</target>
         <note>Line: 94</note>
       </trans-unit>
       <trans-unit id="0558c4724c1321605189662a0e3f66f6" approved="yes">
         <source>Front Office</source>
-        <target state="final">Front Office</target>
+        <target state="final">Javna strana prodavnice</target>
         <note>Line: 100</note>
       </trans-unit>
       <trans-unit id="f3669ee3bb5b38eebcb9d619511ff771" approved="yes">
         <source>Discover your store as your future customers will see it!</source>
-        <target state="final">Pogledajte vašu radnju onako kako će je vaši budući kupci videti!</target>
+        <target state="final">Pogledajte vašu prodavnicu onako kako će je vaši budući kupci videti!</target>
         <note>Line: 101</note>
       </trans-unit>
       <trans-unit id="d502268208857835192e375383bd1a94" approved="yes">
         <source>Discover your store</source>
-        <target state="final">Istražujte vašu radnju</target>
+        <target state="final">Istražujte vašu prodavnicu</target>
         <note>Line: 103</note>
       </trans-unit>
     </body>
@@ -669,6 +765,11 @@
         <target state="final"><![CDATA[<b>Upozorenje: Ne možete nastaviti da koristite ovaj alat za ažuriranje vaše prodavnice.</b><br /><br />Već imate <b> instaliranu verziju %version% PrestaShop-a </b>.<br /><br />Ako želite da ažurirate na najnoviju verziju, pročitajte našu dokumentaciju.]]></target>
         <note>Line: 32</note>
       </trans-unit>
+      <trans-unit id="bcc5d67b4832784ca5e4f09a40b28bb2" approved="yes">
+        <source>Welcome to the PrestaShop %version% Installer</source>
+        <target state="final">Dobrodošli u proces instalacije PrestaShop %version%</target>
+        <note>Line: 39</note>
+      </trans-unit>
       <trans-unit id="f7df4c84260e89f8aa1644b31a795282" approved="yes">
         <source>Installing PrestaShop is quick and easy. In just a few moments, you will become part of a community consisting of more than %numMerchants% merchants. You are on the way to creating your own unique online store that you can manage easily every day.</source>
         <target state="final">Instalacija PrestaShop-a je brza i jednostavna. Za par trenutaka, postaćete deo zajednice u kojoj je više od 165.000 prodavaca. Na putu ste da napravite vašu jedinstvenu onlajn prodavnicu koju možete uređivati jednostavno, i svakog dana.</target>
@@ -676,8 +777,13 @@
       </trans-unit>
       <trans-unit id="edbaa44341f3064baa5a5676aabc91e5" approved="yes">
         <source>Continue the installation in:</source>
-        <target state="final">Nastavite instalaciju u:</target>
+        <target state="final">Nastavite instalaciju na sledećem jeziku:</target>
         <note>Line: 52</note>
+      </trans-unit>
+      <trans-unit id="239e971a06ff313e2b8aafa9b51286c9" approved="yes">
+        <source>The language selection above only applies to the Installation Assistant. Once your store is installed, you can choose the language of your store from over %d% translations, all for free!</source>
+        <target state="final">Ova jezička sekcija podržava samo pomoć za instalaciju. Kada instalirate prodavnicu, možete izabrati preko %d% jezika za vašu prodavnicu, svi su besplatni!</target>
+        <note>Line: 70</note>
       </trans-unit>
     </body>
   </file>
@@ -751,6 +857,11 @@
         <target state="final">Pronađena je najmanje jedna tabela sa istim prefiksom, promenite prefiks ili pustite vašu bazu podataka</target>
         <note>Line: 78</note>
       </trans-unit>
+      <trans-unit id="2c3fc7088c5715d31d1f0a33d1e7c79c" approved="yes">
+        <source>Your database login does not have the privileges to create table on the database "%s". Ask your hosting provider:</source>
+        <target state="final">Vaš nalog nema dozvolu da kreira tabele u bazi podataka "%s". Kontaktirajte vašeg hosting provajdera:</target>
+        <note>Line: 82</note>
+      </trans-unit>
       <trans-unit id="ffb062d75b155dab7c60d7ea84385abc" approved="yes">
         <source>You must be granted the privilege to select data in the tables of database "%s". Ask your hosting provider to enable it.</source>
         <target state="final">Morate imat dozvolu za upis u bazu podataka "%s". Zamolite vašeg hosting provajdera da vam dodeli tu dozvolu.</target>
@@ -761,6 +872,11 @@
         <target state="final">Server baze bodataka nije pronađen. Potvrdite prijavu, lozinku i polja servera</target>
         <note>Line: 98</note>
       </trans-unit>
+      <trans-unit id="9a0b7b3a849553ab760177a12f4ebc7f" approved="yes">
+        <source>Connection to MySQL server succeeded, but database "%database%" not found</source>
+        <target state="final">Konekcija na MySQL server je bila uspešna, ali "%database%" baza podataka nije pronađena</target>
+        <note>Line: 103</note>
+      </trans-unit>
       <trans-unit id="0462e75865c8794c7785f7c6952ae7a3" approved="yes">
         <source>Attempt to create the database automatically</source>
         <target state="final">Pokušaj da se baza podataka kreira automatski</target>
@@ -770,10 +886,30 @@
   </file>
   <file original="src/PrestaShopBundle/Install/Install.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
+      <trans-unit id="13cd0b09fa253a2b524ca2345638aacf" approved="yes">
+        <source>%file% file is not writable (check permissions)</source>
+        <target state="final">%file% fajl nije moguće izmeniti (proverite dozvole)</target>
+        <note>Line: 161</note>
+      </trans-unit>
+      <trans-unit id="5b0aceda64c33fa187bdd138c42de909" approved="yes">
+        <source>%folder% folder is not writable (check permissions)</source>
+        <target state="final">%folder% folder nije moguće izmeniti (proverite dozvole)</target>
+        <note>Line: 170</note>
+      </trans-unit>
       <trans-unit id="b63440f4a2f5faa849b821e433c85e53" approved="yes">
         <source>Cannot write settings file</source>
         <target state="final">Ne može se napisati fajl podešavanja</target>
         <note>Line: 233</note>
+      </trans-unit>
+      <trans-unit id="39fcc4a2539d44e1bc88df1af88df1e8" approved="yes">
+        <source>Cannot write app/config/parameters.php file</source>
+        <target state="final">Nije moguće snimiti fajl app/config/parameters.php</target>
+        <note>Line: 256</note>
+      </trans-unit>
+      <trans-unit id="da766b8e6f70454b5fdde126ba5c761c" approved="yes">
+        <source>Cannot write app/config/parameters.yml file</source>
+        <target state="final">Nije moguće snimiti fajl app/config/parameters.yml</target>
+        <note>Line: 270</note>
       </trans-unit>
       <trans-unit id="453faec2c85b2b9c0b9c2b474b30bd21" approved="yes">
         <source>Database structure file not found</source>
@@ -795,15 +931,75 @@
         <target state="final">Link prodavnice se ne može kreirati</target>
         <note>Line: 585</note>
       </trans-unit>
+      <trans-unit id="53d7a51998faa87f513eb974a2a596f2" approved="yes">
+        <source>File "language.xml" not found for language iso "%iso%"</source>
+        <target state="final">Fajl "language.xml" nije pronađen za iso jezika "%iso%"</target>
+        <note>Line: 621</note>
+      </trans-unit>
+      <trans-unit id="9972ad1ade2906747dbb39490a96b191" approved="yes">
+        <source>File "language.xml" not valid for language iso "%iso%"</source>
+        <target state="final">Fajl "language.xml" nije važeći za iso jezika "%iso%"</target>
+        <note>Line: 625</note>
+      </trans-unit>
+      <trans-unit id="54c23cef7fbebba7ee1267cc0cf97b2a" approved="yes">
+        <source>Cannot download language pack "%iso%"</source>
+        <target state="final">Nije moguće preuzeti jezički paket "%iso%"</target>
+        <note>Line: 652</note>
+      </trans-unit>
+      <trans-unit id="9d321a378efc308c33c5f345f623dd90" approved="yes">
+        <source>Cannot install language "%iso%"</source>
+        <target state="final">Jezik "%iso%" nije moguće instalirati</target>
+        <note>Line: 662</note>
+      </trans-unit>
+      <trans-unit id="258057c839ab36aa9e3bb60550348c5e" approved="yes">
+        <source>Cannot copy flag language "%flag%"</source>
+        <target state="final">Nije moguće kopirati zastavu jezika "%flag%"</target>
+        <note>Line: 673</note>
+      </trans-unit>
       <trans-unit id="27654955bc85150712aa0bc53bcc6224" approved="yes">
         <source>Cannot create admin account</source>
         <target state="final">Administratorski nalog se ne može kreirati</target>
         <note>Line: 884</note>
       </trans-unit>
+      <trans-unit id="26b901ba3ecdcb91823f05ce15a70ce4" approved="yes">
+        <source>Cannot install module "%module%"</source>
+        <target state="final">Nije moguće instalirati modul "%module%"</target>
+        <note>Line: 998</note>
+      </trans-unit>
+      <trans-unit id="4a85cd1d84d691a2e0b73a5f08cd3483" approved="yes">
+        <source>Fixtures class "%class%" not found</source>
+        <target state="final">Predstojeća klasa "%class%" nije pronađena</target>
+        <note>Line: 1100</note>
+      </trans-unit>
+      <trans-unit id="e1120cceb6bcfd9596161e3912b2ad9d" approved="yes">
+        <source>"%class%" must be an instance of "InstallXmlLoader"</source>
+        <target state="final">"%class%" mora biti "InstallXmlLoader" instanca</target>
+        <note>Line: 1107</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Install/XmlLoader.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
+      <trans-unit id="5b56439cb79f3a01ae56d92e52be2218" approved="yes">
+        <source><![CDATA[An SQL error occurred for entity <i>%entity%</i>: <i>%message%</i>]]></source>
+        <target state="final"><![CDATA[Dogodila se greška prilikom SQL upita za entitet <i>%entity%</i>: <i>%message%</i>]]></target>
+        <note>Line: 504</note>
+      </trans-unit>
+      <trans-unit id="11b53a5381cd2ca843a6089493de6716" approved="yes">
+        <source>Cannot create image "%identifier%" for entity "%entity%"</source>
+        <target state="final">Nije moguće napraviti sliku %identifier%" za entitet "%entity%"</target>
+        <note>Line: 864</note>
+      </trans-unit>
+      <trans-unit id="a6bc945aa3c279156298ed70872cd20b" approved="yes">
+        <source>Cannot create image "%identifier%" (bad permissions on folder "%folder%")</source>
+        <target state="final">Nije moguće napraviti sliku %identifier%" (Nemate potrebna ovlašćenja za folder "%folder%")</target>
+        <note>Line: 842</note>
+      </trans-unit>
+      <trans-unit id="25b42d449f5ebcdb85fb6cae0663c40f" approved="yes">
+        <source>Cannot create image "%identifier%"</source>
+        <target state="final">Nije moguće napraviti sliku %identifier%"</target>
+        <note>Line: 769</note>
+      </trans-unit>
       <trans-unit id="44a700a0c9496b4436c16c5e46351707" approved="yes">
         <source>Cannot create image "%1$s" for entity "%2$s"</source>
         <target state="final">Ne može se kreirati slika "%1$s" za entitet "%2$s"</target>
