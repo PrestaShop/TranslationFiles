@@ -14,7 +14,7 @@
       </trans-unit>
       <trans-unit id="79750ba11832a44ccf92e15eb0e84ae4" approved="yes">
         <source>Select an image</source>
-        <target state="final">Izaberite sliku</target>
+        <target state="final">Izaberite slike</target>
         <note>Line: 72</note>
       </trans-unit>
       <trans-unit id="26e687808eb656fb38bd6e98f592e4f7" approved="yes">
@@ -24,7 +24,7 @@
       </trans-unit>
       <trans-unit id="d379cadd41b68efe7c945b4d85c72085" approved="yes">
         <source>Erase previous images</source>
-        <target state="final">Obriši prethodne slike</target>
+        <target state="final">Izbriši prethodne slike</target>
         <note>Line: 106</note>
       </trans-unit>
     </body>
@@ -35,6 +35,11 @@
         <source>Transplant a module</source>
         <target state="final">Premesti modul</target>
         <note>Line: 35</note>
+      </trans-unit>
+      <trans-unit id="97e34811d05eb0ee902aa3e190ea5efd" approved="yes">
+        <source>Transplant to</source>
+        <target state="final">Premesti u</target>
+        <note>Line: 51</note>
       </trans-unit>
       <trans-unit id="c5cc1164fe38560fcd4fb85ca074a789" approved="yes">
         <source>Available hooks</source>
@@ -55,14 +60,46 @@
   </file>
   <file original="classes/lang/KeysReference/ThemeLang.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="24e61dc70866cb84d375a6270035c7cf" approved="yes">
+        <source>Full width</source>
+        <target state="final">Puna širina</target>
+        <note>Line: 26</note>
+      </trans-unit>
+      <trans-unit id="63bd7d20cb7d515fe705bcda029ea776" approved="yes">
+        <source>Three columns</source>
+        <target state="final">Tri Kolone</target>
+        <note>Line: 27</note>
+      </trans-unit>
+      <trans-unit id="710c71f05157207e5c47015fc032564d" approved="yes">
+        <source>Two columns, small left column</source>
+        <target state="final">Dve kolone, mala leva kolona</target>
+        <note>Line: 28</note>
+      </trans-unit>
+      <trans-unit id="4c318832b92e5f7b818aba037e1ed5ac" approved="yes">
+        <source>Two columns, small right column</source>
+        <target state="final">Dve kolone, mala desna kolona</target>
+        <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="05559f48f0ea41ebb03f6d08b95e1e25" approved="yes">
+        <source>No side columns, ideal for distraction-free pages such as product pages.</source>
+        <target state="final">Bez kolona sa strane, idealno za stranicu proivoda.</target>
+        <note>Line: 31</note>
+      </trans-unit>
+      <trans-unit id="387bf9bbb8c3c3fd021aa85970554839" approved="yes">
+        <source>One large central column and 2 side columns.</source>
+        <target state="final">Jedna velika kolona u centru i 2 male kolone sa obe strane.</target>
+        <note>Line: 33</note>
+      </trans-unit>
+      <trans-unit id="74266ad9cb6f32c9da66592ca748ef8d" approved="yes">
+        <source>Two columns with a small left column.</source>
+        <target state="final">Dve kolone, sa malom levom kolonom.</target>
+        <note>Line: 35</note>
+      </trans-unit>
+      <trans-unit id="fefe6a1aca554473c855e076d0376b52" approved="yes">
+        <source>Two columns with a small right column.</source>
+        <target state="final">Dve kolone, sa malom desnom kolonom.</target>
+        <note>Line: 37</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminImagesController.php" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -92,6 +129,16 @@
         <target state="final">Koristi PNG za sve slike.</target>
         <note>Line: 165</note>
       </trans-unit>
+      <trans-unit id="11c6a44dc07bc78786c8e597caaae38d" approved="yes">
+        <source>Use WebP only if the base image is in WebP format.</source>
+        <target state="final">Koristite WebP samo ako je osnovna slika u WebP formatu.</target>
+        <note>Line: 166</note>
+      </trans-unit>
+      <trans-unit id="8da7333b05a750dc4a46cb829e9a5761" approved="yes">
+        <source>Use WebP for all images.</source>
+        <target state="final">Koristi WebP za sve slike.</target>
+        <note>Line: 167</note>
+      </trans-unit>
       <trans-unit id="5a259e0a584d2d8f7de738689c91cb20" approved="yes">
         <source>JPEG compression</source>
         <target state="final">JPEG kompresija</target>
@@ -101,6 +148,11 @@
         <source>PNG compression</source>
         <target state="final">PNG kompresija</target>
         <note>Line: 185</note>
+      </trans-unit>
+      <trans-unit id="5c1a961f24af9dff17e943c94243fc28" approved="yes">
+        <source>WebP compression</source>
+        <target state="final">WebP kompresija</target>
+        <note>Line: 193</note>
       </trans-unit>
       <trans-unit id="2f0f4bfac8d0b89ceaf30a94f39f0d58" approved="yes">
         <source>Generate images based on one side of the source image</source>
@@ -126,6 +178,11 @@
         <source>Product picture width</source>
         <target state="final">Širina slike proizvoda</target>
         <note>Line: 240</note>
+      </trans-unit>
+      <trans-unit id="d399848208da8b80a306af0fd62bb03f" approved="yes">
+        <source>pixels</source>
+        <target state="final">piksela</target>
+        <note>Line: 326</note>
       </trans-unit>
       <trans-unit id="5891a406596216c63f7a1f8f7c6a81a8" approved="yes">
         <source>Product picture height</source>
@@ -156,6 +213,61 @@
         <source>Add new image type</source>
         <target state="final">Dodaj novi tip slike</target>
         <note>Line: 963</note>
+      </trans-unit>
+      <trans-unit id="b3bd27a90dda4251ad9942a56f5895b7" approved="yes">
+        <source>Image formats to generate</source>
+        <target state="final">Formati slika za kreiranje</target>
+        <note>Line: 115</note>
+      </trans-unit>
+      <trans-unit id="aae7fe61ac88d3a629ee27e0bd6a92b3" approved="yes">
+        <source>Base JPEG/PNG</source>
+        <target state="final">Osnovni JPEG/PNG</target>
+        <note>Line: 122</note>
+      </trans-unit>
+      <trans-unit id="73534899ad5e9f6695ba178ba4b3effc" approved="yes">
+        <source>WebP</source>
+        <target state="final">WebP</target>
+        <note>Line: 123</note>
+      </trans-unit>
+      <trans-unit id="35825f52ac558b8590c66431d1aa9c93" approved="yes">
+        <source>AVIF</source>
+        <target state="final">AVIF</target>
+        <note>Line: 124</note>
+      </trans-unit>
+      <trans-unit id="089e860773159852c43d9561b5dc9d04" approved="yes">
+        <source>Base format</source>
+        <target state="final">Osnavni format</target>
+        <note>Line: 135</note>
+      </trans-unit>
+      <trans-unit id="2a911eb0d71d1b707a3f9d722a5935c2" approved="yes">
+        <source>Use JPEG</source>
+        <target state="final">Koristi JPG</target>
+        <note>Line: 140</note>
+      </trans-unit>
+      <trans-unit id="f520fc2ea7f469193c55bc499753a923" approved="yes">
+        <source>Use PNG only if the base image is in PNG format</source>
+        <target state="final">Koristi PNG samo ako su osnovne slike u PNG formatu</target>
+        <note>Line: 141</note>
+      </trans-unit>
+      <trans-unit id="3e6aabaa02fd2202f87243016af6e117" approved="yes">
+        <source>Use PNG</source>
+        <target state="final">Koristi PNG</target>
+        <note>Line: 142</note>
+      </trans-unit>
+      <trans-unit id="a1aa13d5cd0cb601eb4f5618161896f9" approved="yes">
+        <source>AVIF compression</source>
+        <target state="final">AVIF kompresija</target>
+        <note>Line: 146</note>
+      </trans-unit>
+      <trans-unit id="b2326c3a3498ee50c8120fbaede6eeed" approved="yes">
+        <source>Regenerate</source>
+        <target state="final">Ponovo kreiraj</target>
+        <note>Line: 455</note>
+      </trans-unit>
+      <trans-unit id="f38877714ac2d3683e27fbfa947946e7" approved="yes">
+        <source>Are you sure you want to delete this image setting?</source>
+        <target state="final">Da li ste sigurni da želite da izbrišete ovo podešavanje slika?</target>
+        <note>Line: 465</note>
       </trans-unit>
     </body>
   </file>
@@ -194,7 +306,11 @@
   </file>
   <file original="src/Core/Grid/Definition/Factory/CmsPageDefinitionFactory.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
+      <trans-unit id="1f6162e1430a8d5020bf4c20dc02499f" approved="yes">
+        <source>Pages in category "%name%"</source>
+        <target state="final">Stranice u kategoriji "%name%"</target>
+        <note>Line: 115</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/Design/MailThemeController.php" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -246,6 +362,11 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/Design/Theme/ImportThemeType.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
+      <trans-unit id="6966bbbcdeb44c019201ede70e7b74b8" approved="yes">
+        <source>Zip file</source>
+        <target state="final">Zipovan fajl</target>
+        <note>Line: 69</note>
+      </trans-unit>
       <trans-unit id="a33388a338ee2b199d66112369279558" approved="yes">
         <source>Archive URL</source>
         <target state="final">Arhiva linka</target>
@@ -295,7 +416,7 @@
       </trans-unit>
       <trans-unit id="b445b07a4ce0e996acaf7ceb6a2547c3" approved="yes">
         <source>Overwrite templates</source>
-        <target state="final">Prepišite temu</target>
+        <target state="final">Prepišite šablon</target>
         <note>Line: 75</note>
       </trans-unit>
     </body>
@@ -330,46 +451,66 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Design/Theme/Blocks/Partials/theme_card.html.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
+      <trans-unit id="837a54ae4874c4501c804173cd3c0fdf" approved="yes">
+        <source>Designed by %s</source>
+        <target state="final">Dizajnirao %s</target>
+        <note>Line: 49</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Design/Theme/Blocks/delete_theme_modal.html.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
       <trans-unit id="a20cd66c6c13302711252a1b5830f17c" approved="yes">
         <source>Delete this theme?</source>
-        <target state="final">Obriši ovu temu?</target>
+        <target state="final">Izbriši ovu temu?</target>
         <note>Line: 31</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Design/Theme/Blocks/layouts_configuration.html.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
-      
-      
+      <trans-unit id="8ef656f84513928ea1b0c2f1735b62e9" approved="yes">
+        <source>Configure your page layouts</source>
+        <target state="final">Konfigurišite vaš layout</target>
+        <note>Line: 34</note>
+      </trans-unit>
+      <trans-unit id="4459ae4e873177642b30e9fc8b821d2f" approved="yes">
+        <source>Each page can use a different layout, choose it among the layouts bundled in your theme.</source>
+        <target state="final">Svaka stranica može koristiti poseban raspored (layout).</target>
+        <note>Line: 35</note>
+      </trans-unit>
+      <trans-unit id="f0dbca7d922e4e759a1e3b512b9be852" approved="yes">
+        <source>Choose layouts</source>
+        <target state="final">Izaberi layout (raspored)</target>
+        <note>Line: 42</note>
+      </trans-unit>
+      <trans-unit id="21e2bb42873eddcb9b476b8eafbe0c18" approved="yes">
+        <source>Reset to defaults</source>
+        <target state="final">Resetuj na početne postavke</target>
+        <note>Line: 52</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Design/Theme/Blocks/logo_configuration.html.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
       <trans-unit id="49824ed511fd64f33f2f8a1818ee8fe1" approved="yes">
         <source>Header logo</source>
-        <target state="final">Logo zaglavlja</target>
+        <target state="final">Logotip zaglavlja</target>
         <note>Line: 42</note>
       </trans-unit>
       <trans-unit id="358b0205fd07c94c16a82d8278bc5b76" approved="yes">
         <source>Mail logo</source>
-        <target state="final">Logo za e-mail</target>
+        <target state="final">Logotip za e-mail</target>
         <note>Line: 96</note>
       </trans-unit>
       <trans-unit id="d84613cd39906ab9161e1ad513f8947b" approved="yes">
         <source>Invoice logo</source>
-        <target state="final">Logo na računu</target>
+        <target state="final">Logotip na fakturi</target>
         <note>Line: 113</note>
       </trans-unit>
       <trans-unit id="49e95301d8fcdbc23f623e0f2d1ed1e6" approved="yes">
         <source>Favicon</source>
-        <target state="final">Omiljena ikona</target>
+        <target state="final">Favicon</target>
         <note>Line: 127</note>
       </trans-unit>
       <trans-unit id="7a14350e716ea89067904804ee3e1f0c" approved="yes">
@@ -381,9 +522,21 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Design/Theme/Blocks/rtl_configuration.html.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="d1c54fe762697b168dee820490655563" approved="yes">
+        <source>Adaptation to Right-to-Left languages</source>
+        <target state="final">Adaptacija jezika sa deno na levo</target>
+        <note>Line: 31</note>
+      </trans-unit>
+      <trans-unit id="fb3f98de7e392f98c02ba257e6c46f9a" approved="yes">
+        <source>Generate RTL stylesheet</source>
+        <target state="final">Kreirajte RTL Stylesheets</target>
+        <note>Line: 46</note>
+      </trans-unit>
+      <trans-unit id="8ed22009aa8884b512b3e3a85d1aeb87" approved="yes">
+        <source>Theme to adapt</source>
+        <target state="final">Tema za adaptaciju</target>
+        <note>Line: 42</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Design/Theme/Blocks/use_theme_modal.html.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -422,6 +575,11 @@
         <target state="final">Dodaj novu temu</target>
         <note>Line: 33</note>
       </trans-unit>
+      <trans-unit id="3ff63fb80ae3bd04b6550282d39f674f" approved="yes">
+        <source>Export current theme</source>
+        <target state="final">Izvezi trenutnu temu</target>
+        <note>Line: 38</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Design/Theme/index.html.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -430,6 +588,11 @@
         <source>My current theme</source>
         <target state="final">Vaša tekuća tema</target>
         <note>Line: 99</note>
+      </trans-unit>
+      <trans-unit id="b6ba229b668e5a7b6700e4d275683084" approved="yes">
+        <source>Use this theme</source>
+        <target state="final">Koristi ovu temu</target>
+        <note>Line: 124</note>
       </trans-unit>
       <trans-unit id="10d79e2800631feee6411615a72eb79e" approved="yes">
         <source>My theme for %name% shop</source>
@@ -440,6 +603,16 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Design/positions.html.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
+      <trans-unit id="fdf4e26a28a557ccfae6ddea1881687e" approved="yes">
+        <source>1 module selected</source>
+        <target state="final">1 modul selektovan</target>
+        <note>Line: 38</note>
+      </trans-unit>
+      <trans-unit id="2451f8c34b91d6d3b6e7ee63c23d13fc" approved="yes">
+        <source>modules selected</source>
+        <target state="final">modul selektovan</target>
+        <note>Line: 41</note>
+      </trans-unit>
       <trans-unit id="feb6f2e19409f021e5fd65c51d21d254" approved="yes">
         <source>Unhook the selection</source>
         <target state="final">Otkači izabrano</target>
@@ -449,6 +622,11 @@
         <source>All modules</source>
         <target state="final">Svi moduli</target>
         <note>Line: 62</note>
+      </trans-unit>
+      <trans-unit id="c2f2fa871a47fd6ab9e8442ff4dd468d" approved="yes">
+        <source>Search for a hook</source>
+        <target state="final">Traži kuku</target>
+        <note>Line: 73</note>
       </trans-unit>
       <trans-unit id="4c64748755160a1e441ed3dc34d6b827" approved="yes">
         <source>Display non-positionable hooks</source>
