@@ -62,6 +62,26 @@
         <target state="final">Ovo će promenuti izgled tvoje teme: tvoja prodavnica će preuzeti osnovnu temu od verzije PrestaShop na koju se nadograđuje.</target>
         <note>Line: 263</note>
       </trans-unit>
+      <trans-unit id="309183e60345ce8ad09def36330218b8" approved="yes">
+        <source>Regenerate RTL stylesheet</source>
+        <target state="final">Generiši RTL Stylesheet</target>
+        <note>Line: 250</note>
+      </trans-unit>
+      <trans-unit id="e31d0229913e78ae9dc2de61d9ac21aa" approved="yes">
+        <source>If enabled, any RTL-specific files that you might have added to all your themes might be deleted by the created stylesheet.</source>
+        <target state="final">Ako je omogućeno, sve RTL-specifične datoteke koje ste možda dodali u sve teme mogu biti izbrisane stvaranjem stilskog lista.</target>
+        <note>Line: 255</note>
+      </trans-unit>
+      <trans-unit id="5ea970658668e0b45cb6f64ce18b420e" approved="yes">
+        <source>This will not upgrade the default PrestaShop e-mails.</source>
+        <target state="final">Ovo neće nadograditi osnovne PrestShop e-mailove.</target>
+        <note>Line: 270</note>
+      </trans-unit>
+      <trans-unit id="a83c73a145dbc0f4ea7c6a95203df43d" approved="yes">
+        <source>If you customized the default PrestaShop e-mail templates, enabling this option will keep your modifications.</source>
+        <target state="final">Ukoliko ste modifikovali osnovne PrestShop e-mail šablone, uključivanjem ove opcije sačuvaćete sve vaše modifikacije.</target>
+        <note>Line: 271</note>
+      </trans-unit>
       <trans-unit id="bb7748991e29366d42f8fa2c361f4d55" approved="yes">
         <source>Back up my files and database</source>
         <target state="final">Napravi sigurnosnu kopiju mojih fajlova i databaze</target>
@@ -82,105 +102,326 @@
         <target state="final">Da bi sačuvali vreme, nije neophodno da napravite sigurnosnu kopiju vaših fotografija. U svakom slučaju, budite sigurni da ste ih posebno sačuvali.</target>
         <note>Line: 211</note>
       </trans-unit>
+      <trans-unit id="21dc065f2d8653ebca37ec552d17b37e" approved="yes">
+        <source>Unable to create the directory "%s"</source>
+        <target state="final">Ne mogu da kreiram direktorijum "%s"</target>
+        <note>Line: 180</note>
+      </trans-unit>
+      <trans-unit id="92a5801448b25f111961462b0b31995d" approved="yes">
+        <source>Unable to create file %s</source>
+        <target state="final">Nije moguće kreiranje fajla %s</target>
+        <note>Line: 368</note>
+      </trans-unit>
+      <trans-unit id="56195ded2802813800f43e3be1babe1c" approved="yes">
+        <source>Error when trying to delete backups %s</source>
+        <target state="final">Greška prilikom brisanja bekapa %s</target>
+        <note>Line: 424</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/autoupgrade.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="bf544d00f0406f90f6e658a2571f5e9c" approved="yes">
+        <source>This version of PrestaShop cannot be upgraded: the PS_ADMIN_DIR constant is missing.</source>
+        <target state="final">Ova verzija PrestaShop ne može biti ažurirana: PS_ADMIN_DIR konstanta nedostaje</target>
+        <note>Line: 51</note>
+      </trans-unit>
+      <trans-unit id="786cc166a84595ae291b2d8b26d93bb3" approved="yes">
+        <source>1-Click Upgrade</source>
+        <target state="final">1-kilk ažuriranje</target>
+        <note>Line: 55</note>
+      </trans-unit>
+      <trans-unit id="7034ac445c00f79b704d6375ddeba0d6" approved="yes">
+        <source>Upgrade to the latest version of PrestaShop in a few clicks, thanks to this automated method.</source>
+        <target state="final">Nadogradite na najnoviju verziju PrestaShop-a u nekoliko klikova, zahvaljujući ovom automatskom metodu.</target>
+        <note>Line: 56</note>
+      </trans-unit>
+      <trans-unit id="948b95d5e850eae0277e0a6a94b93e8d" approved="yes">
+        <source>This version of 1-click upgrade requires PHP 5.6 to work properly. Please upgrade your server configuration.</source>
+        <target state="final">Ova verzija nadogradnje u jednom kliku zahteva PHP 5.6 kako bi pravilno funkcionisala. Molimo vas da nadogradite konfiguraciju svog servera.</target>
+        <note>Line: 64</note>
+      </trans-unit>
+      <trans-unit id="7f81161b73d465b1a1dea74cc6deeeb2" approved="yes">
+        <source>Unable to delete outdated "AdminUpgrade" tab (tab ID: %idtab%).</source>
+        <target state="final">Nije moguće obrisani staro "AdminUpgrade" jezičak (ID jezička: %idtab%).</target>
+        <note>Line: 73</note>
+      </trans-unit>
+      <trans-unit id="cade82f9025d8fb9d2af869af19c72b8" approved="yes">
+        <source>Unable to create the "AdminSelfUpgrade" tab</source>
+        <target state="final">Nije moguće kreirati "AdminSelfUpgrade" jezičak</target>
+        <note>Line: 87</note>
+      </trans-unit>
+      <trans-unit id="12de3725023e3c02c25c7898f524b25d" approved="yes">
+        <source>Unable to copy logo.gif in %s</source>
+        <target state="final">Nije moguće kopirati logo.gif u %s</target>
+        <note>Line: 90</note>
+      </trans-unit>
+      <trans-unit id="5d7ef5c6fd32feb5d482ec1459e86f83" approved="yes">
+        <source>Unable to load the "AdminSelfUpgrade" tab</source>
+        <target state="final">Nije moguće kreirati "AdminSelfUpgrade" jezičak</target>
+        <note>Line: 100</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/classes/TaskRunner/AbstractTask.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
+      <trans-unit id="435d516735dbf7f622c7d14585f66840" approved="yes">
+        <source>Action %s skipped</source>
+        <target state="final">Radnja %s preskočena</target>
+        <note>Line: 114</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/classes/TaskRunner/Miscellaneous/CheckFilesVersion.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="335b4c111b193a855539368676837af4" approved="yes">
+        <source>Unable to check files for the installed version of PrestaShop.</source>
+        <target state="final">Nije moguće proveriti fajlove za instaliranu verziju PrestaShopa</target>
+        <note>Line: 47</note>
+      </trans-unit>
+      <trans-unit id="8d8e0207549d32c6f864246403034279" approved="yes">
+        <source>Core files are ok</source>
+        <target state="final">Osnovni fajlovi su OK</target>
+        <note>Line: 60</note>
+      </trans-unit>
+      <trans-unit id="1642bf84232919297d598b2a66b3a894" approved="yes">
+        <source>%modificationscount% file modifications have been detected, including %coremodifications% from core and native modules:</source>
+        <target state="final">%modificationscount% Izmena na fajlovima je detektovano, uključujući %coremodifications% od osnovnih fajlova i originalnih PrestaShop modula:</target>
+        <note>Line: 64</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/classes/TaskRunner/Miscellaneous/CompareReleases.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="047cb0c4fd60e2a2fab8ead3e091f9bd" approved="yes">
+        <source>%modifiedfiles% files will be modified, %deletedfiles% files will be deleted (if they are found).</source>
+        <target state="final">%modifiedfiles% fajlova će biti modifikovano %deletedfiles% fajlova će biti izbrisano (ako budu bili pronađeni).</target>
+        <note>Line: 72</note>
+      </trans-unit>
+      <trans-unit id="c6fd96a9aed05923b617fdc8d98d1181" approved="yes">
+        <source>No diff files found.</source>
+        <target state="final">Nije pronađena razlika u fajlovima.</target>
+        <note>Line: 79</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/classes/TaskRunner/Miscellaneous/UpdateConfig.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="1d1a5763d2901dbd435b378358a149b4" approved="yes">
+        <source>File %s does not exist. Unable to select that channel.</source>
+        <target state="final">Fajl %s ne postoji. Nije moguće selektovati taj kanal.</target>
+        <note>Line: 74</note>
+      </trans-unit>
+      <trans-unit id="c944c279a9e87437e100f65b8c87c391" approved="yes">
+        <source>Version number is missing. Unable to select that channel.</source>
+        <target state="final">Nedostaje broj verzije. Nije moguće selektovati kanal.</target>
+        <note>Line: 102</note>
+      </trans-unit>
+      <trans-unit id="f26bf9bf98461ef0fd0a4bfc9cdcc2b5" approved="yes">
+        <source>File %s does not exist. Unable to select that channel</source>
+        <target state="final">Fajl %s ne postoji. Nije moguće selektovati taj kanal</target>
+        <note>Line: 87</note>
+      </trans-unit>
+      <trans-unit id="ab232f4b20c0e50dad9081bc39382569" approved="yes">
+        <source>Upgrade process will use archive.</source>
+        <target state="final">Proces ažuriranja će koristiti arhivu.</target>
+        <note>Line: 96
+Comment: $config['archive_name'] = $request['archive_name'];</note>
+      </trans-unit>
+      <trans-unit id="1fe9dd96f646eaa0cd3a0fcc7632ce12" approved="yes">
+        <source>Error on saving configuration</source>
+        <target state="final">Greška prilikom pokušaja da se sačuva konfiguracija</target>
+        <note>Line: 118</note>
+      </trans-unit>
+      <trans-unit id="f2ff9d001d0a553c78da73443e7fcd97" approved="yes">
+        <source>Configuration successfully updated.</source>
+        <target state="final">Konfiguracija uspešno ažurirana.</target>
+        <note>Line: 167</note>
+      </trans-unit>
+      <trans-unit id="40b980e89ae332507380470cd26cdf4d" approved="yes">
+        <source>This page will now be reloaded and the module will check if a new version is available.</source>
+        <target state="final">Ova stranica neće biti ponovo učitana i modul će proveriti ako je nova verzija dostupna.</target>
+        <note>Line: 167</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/classes/TaskRunner/Rollback/NoRollbackFound.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
+      <trans-unit id="222102295c3c6626ff141687b0f49b6b" approved="yes">
+        <source>Nothing to restore</source>
+        <target state="final">Nema ništa za obnavljanje</target>
+        <note>Line: 36</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/classes/TaskRunner/Rollback/RestoreDb.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="6a5e5c0047907eaf8062e9933f0de8df" approved="yes">
+        <source>%s: File format does not match.</source>
+        <target state="final">%s: Format fajla se ne poklapa.</target>
+        <note>Line: 66</note>
+      </trans-unit>
+      <trans-unit id="c2bcd4d44d646c47753473ff94cc66ac" approved="yes">
+        <source>Opening backup database file %filename% in %extension% mode</source>
+        <target state="final">Otvaranje rezervne kopije baze podataka fajla %filename% u %extension% režimu.</target>
+        <note>Line: 79</note>
+      </trans-unit>
+      <trans-unit id="5ce67d010ab9c98ae1dbd6b5ea149982" approved="yes">
+        <source>Database backup is empty.</source>
+        <target state="final">Rezervna kopija baze podataka je prazna.</target>
+        <note>Line: 119</note>
+      </trans-unit>
+      <trans-unit id="ad12a553fe534ba86e1cebf77b27300d" approved="yes">
+        <source>Database restoration file %filename% done. %filescount% file(s) left...</source>
+        <target state="final">Obnova baze podataka iz datoteke %filename% je završena. Preostalo je %filescount% fajl(ova) ...</target>
+        <note>Line: 167</note>
+      </trans-unit>
+      <trans-unit id="55fc6682e256e387afb10ebf6c95aed5" approved="yes">
+        <source>Database restoration file %1$s done.</source>
+        <target state="final">Obnova baze podataka iz datoteke %1$s je završena.</target>
+        <note>Line: 175</note>
+      </trans-unit>
+      <trans-unit id="5b37242b8a0a39af0a9dc28abdabba28" approved="yes">
+        <source>Database has been restored.</source>
+        <target state="final">Baza podataka je obnovljena.</target>
+        <note>Line: 184</note>
+      </trans-unit>
+      <trans-unit id="8f226504481b55e9f588e4bc14b5882f" approved="yes">
+        <source>[SQL ERROR]</source>
+        <target state="final">[SQL ERROR]</target>
+        <note>Line: 204</note>
+      </trans-unit>
+      <trans-unit id="b232a418538e3f6904357039ff7b1052" approved="yes">
+        <source>Error during database restoration</source>
+        <target state="final">Error during database restoration</target>
+        <note>Line: 205</note>
+      </trans-unit>
+      <trans-unit id="85f6ad54304538449ff3da4435be5336" approved="yes">
+        <source>%numberqueries% queries left for file %filename%...</source>
+        <target state="final">Preostalo je još %numberqueries% upita za fajl %filename%...</target>
+        <note>Line: 232</note>
+      </trans-unit>
+      <trans-unit id="30da45f850d1f1a2b42f215836382f19" approved="yes">
+        <source>Database restoration done.</source>
+        <target state="final">Obnova baze podataka iz datoteke je završena.</target>
+        <note>Line: 244</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/classes/TaskRunner/Rollback/RestoreFiles.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="7ead6886c2e0fb40e873da8426e80988" approved="yes">
+        <source>%s file(s) will be removed before restoring the backup files.</source>
+        <target state="final">%s fajl(ova) će biti uklonjen(o) pre nego što se obnove rezervne kopije.</target>
+        <note>Line: 69</note>
+      </trans-unit>
+      <trans-unit id="e3ca00e5b833d0a90d433416435dcaf5" approved="yes">
+        <source>[ERROR] Backup file %s does not exist.</source>
+        <target state="final">[ERROR] Rezervna kopija fajla %s ne postoji.</target>
+        <note>Line: 74</note>
+      </trans-unit>
+      <trans-unit id="8dbf48bc796e7f70a17c63dd084bf068" approved="yes">
+        <source>[ERROR] File "%s" does not exist.</source>
+        <target state="final">[ERROR] Fajl "%s"ne postoji.</target>
+        <note>Line: 77</note>
+      </trans-unit>
+      <trans-unit id="2a2c187bdb804ba79fd4bf8972ba5073" approved="yes">
+        <source>Unable to remove upgraded files.</source>
+        <target state="final">Nije moguće ukloniti ažurirane fajlove.</target>
+        <note>Line: 79</note>
+      </trans-unit>
+      <trans-unit id="1f63628adef352c2a7ee4225b9dcd576" approved="yes">
+        <source>Unable to extract file %filename% into directory %directoryname%.</source>
+        <target state="final">Nije moguće izvršiti raspakivanje fajla %filename% u direktorijum %directoryname%.</target>
+        <note>Line: 94</note>
+      </trans-unit>
+      <trans-unit id="cb7dce5f6a1934d54c0d3335c7ffe841" approved="yes">
+        <source>Files restored.</source>
+        <target state="final">Faj je obnovljen</target>
+        <note>Line: 112</note>
+      </trans-unit>
+      <trans-unit id="671537225baa948d4c92cf4681283326" approved="yes">
+        <source>Files restored. Now restoring database...</source>
+        <target state="final">Fajlovi su obnovljeni. Sada se obnavlja baza podataka...</target>
+        <note>Line: 113</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/classes/TaskRunner/Rollback/Rollback.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="d75374f4463479bfc16764f06fc8d33e" approved="yes">
+        <source>[ERROR] File %s is missing: unable to restore files. Operation aborted.</source>
+        <target state="final">[ERROR] Fajl %s nedostaje: nemoguće je obnoviti fajlove. Operacija je prekinuta.</target>
+        <note>Line: 62</note>
+      </trans-unit>
+      <trans-unit id="99db61185a28a3f862dcb99e891b2897" approved="yes">
+        <source>[ERROR] No backup database files found: it would be impossible to restore the database. Operation aborted.</source>
+        <target state="final">[ERROR] Nisu pronađene rezervne kopije baze podataka: nemoguće je obnoviti bazu podataka. Operacija je prekinuta.</target>
+        <note>Line: 78</note>
+      </trans-unit>
+      <trans-unit id="0438424c05d45646dc089ef15df7e0e2" approved="yes">
+        <source>Restoring files ...</source>
+        <target state="final">Obnavljanje fajlova...</target>
+        <note>Line: 84</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/classes/TaskRunner/Rollback/RollbackComplete.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
+      <trans-unit id="a520e5cbdc465c7b7d39c98f78fe2506" approved="yes">
+        <source>Restoration process done. Congratulations! You can now reactivate your shop.</source>
+        <target state="final">Završen postupak vraćanja. Čestitamo! Sada možete ponovo aktivirati svoju prodavnicu.</target>
+        <note>Line: 39</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/classes/TaskRunner/Upgrade/BackupDb.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="926abe867e8b1be1c0b053234cae77ba" approved="yes">
+        <source>Database backup skipped. Now upgrading files...</source>
+        <target state="final">Preskakanje rezervne kopije baze podataka. Sada se vrši nadogradnja fajlova...</target>
+        <note>Line: 42</note>
+      </trans-unit>
+      <trans-unit id="555231214d7c729089e80f561e118f45" approved="yes">
+        <source>Backup directory is not writable (%path%).</source>
+        <target state="final">Direktorijum za rezervne kopije nije dostupan za pisanje (%path%).</target>
+        <note>Line: 52</note>
+      </trans-unit>
+      <trans-unit id="d12ae4e7f0d20f4a4ca357d48e42877e" approved="yes">
+        <source>Backup file %s already exists. Operation aborted.</source>
+        <target state="final">Rezervna kopija fajla %s već postoji. Operacija je prekinuta.</target>
+        <note>Line: 130</note>
+      </trans-unit>
+      <trans-unit id="d82896159c60199272e5ea481a733eba" approved="yes">
+        <source>Unable to create backup database file %s.</source>
+        <target state="final">Nije moguće napraviti fajl %s bekap baze podataka.</target>
+        <note>Line: 144</note>
+      </trans-unit>
+      <trans-unit id="dcb7d833c69d6e0c3f009381c51f898e" approved="yes">
+        <source>Error during database backup.</source>
+        <target state="final">Greška prilikom rezervne kopije baze podataka.</target>
+        <note>Line: 172</note>
+      </trans-unit>
+      <trans-unit id="52033453d4d673bae012b9c8ccb1e79c" approved="yes">
+        <source>An error occurred while backing up. Unable to obtain the schema of %s</source>
+        <target state="final">Došlo je do greške prilikom pravljenja rezervnih kopija. Nije moguće dobiti šemu od %s</target>
+        <note>Line: 171</note>
+      </trans-unit>
+      <trans-unit id="4d4c62fccb481224ff3a5c36b45de3fd" approved="yes">
+        <source>%s table has been saved.</source>
+        <target state="final">Tabela %s je sačuvana.</target>
+        <note>Line: 249</note>
+      </trans-unit>
+      <trans-unit id="71426d0545181d601dc135b78e74ac8f" approved="yes">
+        <source>%s tables have been saved.</source>
+        <target state="final">Tabele %s su sačuvane.</target>
+        <note>Line: 284</note>
+      </trans-unit>
+      <trans-unit id="c2a086cb5c3373d7e11acbd3ace6a553" approved="yes">
+        <source>Database backup: %s table(s) left...</source>
+        <target state="final">Rezervno kopiranje baze podataka: Preostalo je %s tabela...</target>
+        <note>Line: 265</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/classes/TaskRunner/Upgrade/BackupFiles.php" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -228,19 +469,25 @@
   </file>
   <file original="modules/autoupgrade/classes/TaskRunner/Upgrade/Unzip.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
+      <trans-unit id="69ae4bbd4b14ae388e4e3882945a542e" approved="yes">
+        <source>Unable to extract %filepath% file into %destination% folder...</source>
+        <target state="final">Nije moguće raspakovati %filepath% fajl u %destination% folder...</target>
+        <note>Line: 87</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeComplete.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
-      
-      
+      <trans-unit id="7a32329d6776ff98d77f7344caf7e00b" approved="yes">
+        <source>Upgrade process done, but some warnings have been found.</source>
+        <target state="final">Postupak ažuriranja je završen, ali pronađena su neka upozorenja.</target>
+        <note>Line: 42</note>
+      </trans-unit>
+      <trans-unit id="2a7e17be5dc799b0c478ec5f576f0713" approved="yes">
+        <source>Upgrade process done. Congratulations! You can now reactivate your shop.</source>
+        <target state="final">Proces ažuriranja završen. Čestitam! Sada možete ponovo aktivirati svoju prodavnicu.</target>
+        <note>Line: 43</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeDb.php" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -251,78 +498,346 @@
   </file>
   <file original="modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeFiles.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="0a6c2db1b18cb6420ad40d46db8707de" approved="yes">
+        <source>Directory %s already exists.</source>
+        <target state="final">Direktorijum %s već postoji.</target>
+        <note>Line: 166
+Comment: directory already exists</note>
+      </trans-unit>
+      <trans-unit id="e877efcbee96fb597e27a9d83b362f0c" approved="yes">
+        <source>[TRANSLATION] The translation files have been merged into file %s.</source>
+        <target state="final">[TRANSLATION] Prevodni fajlovi su spojeni u fajl %s.</target>
+        <note>Line: 175</note>
+      </trans-unit>
+      <trans-unit id="b6a405342d9de91fa9f190b13b842b5c" approved="yes">
+        <source>[TRANSLATION] The translation files have not been merged into file %filename%. Switch to copy %filename%.</source>
+        <target state="final">[TRANSLATION] Prevodni fajlovi nisu spojeni u fajl %filename%. Prebacite se na kopiju %filename%.</target>
+        <note>Line: 180</note>
+      </trans-unit>
+      <trans-unit id="b8db10001e04b8f947415aeb8b8fd19f" approved="yes">
+        <source>Copied %1$s.</source>
+        <target state="final">Kopirano %1$s.</target>
+        <note>Line: 189</note>
+      </trans-unit>
+      <trans-unit id="eae82e869fe0a47087214e2748ae710a" approved="yes">
+        <source>Error while copying file %s</source>
+        <target state="final">Greška prikikom kopiranja fajla %s</target>
+        <note>Line: 194</note>
+      </trans-unit>
+      <trans-unit id="2de9cd00fdcc22adb43ea03f2a09dee5" approved="yes">
+        <source>[ERROR] Unable to find files to upgrade.</source>
+        <target state="final">[ERROR] Nije moguće pronaći fajlove za ažuriranje.</target>
+        <note>Line: 295</note>
+      </trans-unit>
+      <trans-unit id="5479863b0426e29c3a17a3f9cc6e3746" approved="yes">
+        <source>%s files will be upgraded.</source>
+        <target state="final">%s filova će biti ažurirano</target>
+        <note>Line: 300</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeModules.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="1baa2ea6cee198c6b7f19011431dcc73" approved="yes">
+        <source>listModules is not an array. No module has been updated.</source>
+        <target state="final">lista modula nije niz. Nijedan modul nije ažuriran.</target>
+        <note>Line: 54</note>
+      </trans-unit>
+      <trans-unit id="04663743fc92eeb1f90a4d165c470e54" approved="yes">
+        <source>Upgrading module %module%...</source>
+        <target state="final">Ažuriranje modula %module%...</target>
+        <note>Line: 64</note>
+      </trans-unit>
+      <trans-unit id="35687f9e2d83cd9e89860c47fb3a7bbd" approved="yes">
+        <source>The files of module %s have been upgraded.</source>
+        <target state="final">Fajlovi modula %s su ažurirani.</target>
+        <note>Line: 66</note>
+      </trans-unit>
+      <trans-unit id="d88a8630bd4e8fdbd61c550e53d62a94" approved="yes">
+        <source>%s modules left to upgrade.</source>
+        <target state="final">Preostalo je %s modula za ažuriranje.</target>
+        <note>Line: 82</note>
+      </trans-unit>
+      <trans-unit id="983cd275ba4b56e0108c5d8e901adcae" approved="yes">
+        <source>The %modulename% module is not compatible with version %version%, it will be removed from your FTP.</source>
+        <target state="final">Modul %modulename% nije kompatibilan sa verzijom %version%, biće uklonjen sa vašeg FTP-a.</target>
+        <note>Line: 109</note>
+      </trans-unit>
+      <trans-unit id="2055b1329a5c5b8f443e857d396227d8" approved="yes">
+        <source>The %modulename% module is not compatible with version %version%, please remove it from your FTP.</source>
+        <target state="final">Modul %modulename% nije kompatibilan sa verzijom %version%, biće uklonjen sa vašeg FTP-a.</target>
+        <note>Line: 118</note>
+      </trans-unit>
+      <trans-unit id="f0d18de100ab33463602ea5b8165d842" approved="yes">
+        <source>Addons modules files have been upgraded.</source>
+        <target state="final">Fajlovi modula Addons su ažurirani.</target>
+        <note>Line: 132</note>
+      </trans-unit>
+      <trans-unit id="0530243ad5b9bd205a04b975d3ef8aaf" approved="yes">
+        <source>%s modules will be upgraded.</source>
+        <target state="final">%s moduli će biti ažurirani</target>
+        <note>Line: 157</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/classes/TaskRunner/Upgrade/UpgradeNow.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="ca895e37bd5dfe413d7ffdd592580117" approved="yes">
+        <source>Starting upgrade...</source>
+        <target state="final">Počnite vaše ažuriranje...</target>
+        <note>Line: 40</note>
+      </trans-unit>
+      <trans-unit id="d3446f09f99983abc250c0d2a92d0285" approved="yes">
+        <source>Downloading and unzipping steps have been skipped, upgrade process will now remove sample data.</source>
+        <target state="final">Koraci preuzimanja i raspakivanja su preskočeni, proces ažuriranja će sada ukloniti primere podataka.</target>
+        <note>Line: 67</note>
+      </trans-unit>
+      <trans-unit id="b06a965d6f83ecc3c04eefe175482f1d" approved="yes">
+        <source>Shop deactivated. Removing sample files...</source>
+        <target state="final">Prodavnicea je deaktivirana. Uklanjaju se podaci za primer...</target>
+        <note>Line: 68</note>
+      </trans-unit>
+      <trans-unit id="fd89b081ead6c32f16c370771cfe92e1" approved="yes">
+        <source>Downloading step has been skipped, upgrade process will now unzip the local archive.</source>
+        <target state="final">Korak preuzimanja je preskočen, proces ažuriranja će sada raspakovati lokalni arhivu.</target>
+        <note>Line: 72</note>
+      </trans-unit>
+      <trans-unit id="1a74ca8250ceb3e4df43a70181064e03" approved="yes">
+        <source>Shop deactivated. Extracting files...</source>
+        <target state="final">Prodavnica je deaktivirana. Počinje raspakivanje fajlova...</target>
+        <note>Line: 73</note>
+      </trans-unit>
+      <trans-unit id="a3e702f156f1b517ba98d2487f58bd91" approved="yes">
+        <source>Shop deactivated. Now downloading... (this can take a while)</source>
+        <target state="final">Prodavnica je deaktivirana. Preuzimanje u toku...(ovo može da potraje)</target>
+        <note>Line: 77</note>
+      </trans-unit>
+      <trans-unit id="10b5aa33077df49427f04cd33ad3843f" approved="yes">
+        <source>Downloaded archive will come from %s</source>
+        <target state="final">Preuzimana arhiva će doći od %s</target>
+        <note>Line: 82</note>
+      </trans-unit>
+      <trans-unit id="da652b8ece8ba2da84d5f5116f6ef63e" approved="yes">
+        <source>MD5 hash will be checked against %s</source>
+        <target state="final">MD5 hash će biti proveren na %s</target>
+        <note>Line: 83</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/classes/Twig/Block/UpgradeButtonBlock.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="628decaabab912af39cfda7aaf47b059" approved="yes">
+        <source>Major release</source>
+        <target state="final">Glavno ažuriranje</target>
+        <note>Line: 203
+Comment: Hey ! I'm really using a fieldset element to regroup fields ?! !</note>
+      </trans-unit>
+      <trans-unit id="43899376e3f4d4cb70dad59c81a4b957" approved="yes">
+        <source>Minor release (recommended)</source>
+        <target state="final">Manje ažuriranje (preporučeno)</target>
+        <note>Line: 204</note>
+      </trans-unit>
+      <trans-unit id="1436348d2e10c88964c87efe3ebe7e4c" approved="yes">
+        <source>Release candidates</source>
+        <target state="final">Kandidati za izdanje</target>
+        <note>Line: 205</note>
+      </trans-unit>
+      <trans-unit id="3da4e7a86631518f47d8cedf7f09a5ed" approved="yes">
+        <source>Beta releases</source>
+        <target state="final">Beta izdanje</target>
+        <note>Line: 206</note>
+      </trans-unit>
+      <trans-unit id="0c960ac8fc33e1516a568248519b4d03" approved="yes">
+        <source>Alpha releases</source>
+        <target state="final">Alfa izdanje</target>
+        <note>Line: 207</note>
+      </trans-unit>
+      <trans-unit id="8ed3e1637b29848c46224287390822ad" approved="yes">
+        <source>Private release (require link and MD5 hash)</source>
+        <target state="final">Privatno izdanje (zahteva link i MD5 heš)</target>
+        <note>Line: 208</note>
+      </trans-unit>
+      <trans-unit id="15e90667b50b56b1f8a01bdb1190f3dc" approved="yes">
+        <source>Local archive</source>
+        <target state="final">Lokalna arhiva</target>
+        <note>Line: 209</note>
+      </trans-unit>
+      <trans-unit id="17897209dd708b862fe417f6d429a8da" approved="yes">
+        <source>Local directory</source>
+        <target state="final">Lokalni direktorijum</target>
+        <note>Line: 210</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/classes/Twig/Form/BackupOptionsForm.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
+      <trans-unit id="017697f698d570dffed5f88a5a933d01" approved="yes">
+        <source>Backup Options</source>
+        <target state="final">Opcije Backup-a</target>
+        <note>Line: 96</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/classes/Twig/Form/UpgradeOptionsForm.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
+      <trans-unit id="564b7c9d8683f1a94798e9f7449564e4" approved="yes">
+        <source>Upgrade Options</source>
+        <target state="final">Opcije ažuriranja</target>
+        <note>Line: 208</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/classes/UpgradePage.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
+      <trans-unit id="37ce0f29c7377c827e7247fe5645a782" approved="yes">
+        <source>You already have the %s version.</source>
+        <target state="final">Vi već imate %s verziju.</target>
+        <note>Line: 399</note>
+      </trans-unit>
       <trans-unit id="a7eca295291f53a23ab7ba0a9c7fd9de" approved="yes">
         <source>This functionality has been disabled.</source>
         <target state="final">Ova funkcija je isključena.</target>
         <note>Line: 273</note>
+      </trans-unit>
+      <trans-unit id="c1b55bdd4c292214e4ef2570ffe069dc" approved="yes">
+        <source>[TECHNICAL ERROR] ajax-upgradetab.php is missing. Please reinstall or reset the module.</source>
+        <target state="final">[TEHNIČKA GREŠKA] ajax-upgradetab.php nedostaje. Molimo reinstalirajte ili resetujte modul.</target>
+        <note>Line: 281</note>
+      </trans-unit>
+      <trans-unit id="48995d15304fe79fc0240bf6544f2395" approved="yes">
+        <source>Are you sure you want to delete this backup?</source>
+        <target state="final">Da li ste sigurni da želite obrisati ovaj backup?</target>
+        <note>Line: 318</note>
+      </trans-unit>
+      <trans-unit id="f03a04d1f440e359840035679b49b212" approved="yes">
+        <source>An update is currently in progress... Click "OK" to abort.</source>
+        <target state="final">Ažuriranje je trenutno u toku... Kliknite "OK" da ga prekinete.</target>
+        <note>Line: 320</note>
+      </trans-unit>
+      <trans-unit id="98a399b35ec9e03ec985254acfe5e3a0" approved="yes">
+        <source>Upgrading PrestaShop</source>
+        <target state="final">Ažuriranje PrestaShop-a</target>
+        <note>Line: 321</note>
+      </trans-unit>
+      <trans-unit id="e02d726a7e733ffb7737e53c89be5e4f" approved="yes">
+        <source>Upgrade complete</source>
+        <target state="final">Ažuriranje završeno</target>
+        <note>Line: 322</note>
+      </trans-unit>
+      <trans-unit id="f67d595b77c8c85da5434ddf41b840d4" approved="yes">
+        <source>Upgrade complete, but warning notifications has been found.</source>
+        <target state="final">Ažuriranje je završeno, ali pronađena su upozoravajuća obaveštenja.</target>
+        <note>Line: 323</note>
+      </trans-unit>
+      <trans-unit id="a9cb4ff8ba5698ccdc9672435be31d24" approved="yes">
+        <source>Cookies have changed, you will need to log in again once you refreshed the page</source>
+        <target state="final">Kolačići su promenjeni, morate se ponovno prijaviti kada osvežite stranicu.</target>
+        <note>Line: 325</note>
+      </trans-unit>
+      <trans-unit id="546c6a7b5ca345af3880bfc74a339606" approved="yes">
+        <source>Javascript and CSS files have changed, please clear your browser cache with CTRL-F5</source>
+        <target state="final">JavaScript i CSS fajlovi su se promenili, molimo vas da obrišete keš vašeg pretraživača pritiskom na CTRL-F5.</target>
+        <note>Line: 326</note>
+      </trans-unit>
+      <trans-unit id="19ea4327ee1bad0ed94b42a77255f3c6" approved="yes">
+        <source>Please check that your front-office theme is functional (try to create an account, place an order...)</source>
+        <target state="final">Molimo vas da proverite da li vaš prednji tematski prikaz (front-office theme) funkcioniše (pokušajte da kreirate nalog, obavite porudžbinu...).</target>
+        <note>Line: 327</note>
+      </trans-unit>
+      <trans-unit id="c12803674a35ccc28e5da00a50a84591" approved="yes">
+        <source><![CDATA[Product images do not appear in the front-office? Try regenerating the thumbnails in Preferences > Images]]></source>
+        <target state="final"><![CDATA[Slike proizvoda se ne prikazuju na prednjoj strani? Pokušajte regenerisati sličice (thumbnails) u opcijama "Dizajn i CMS" > "Konfiguracija slika".]]></target>
+        <note>Line: 328</note>
+      </trans-unit>
+      <trans-unit id="e27d0a2f9e5caa433fc14667a1a3a15a" approved="yes">
+        <source>Do not forget to reactivate your shop once you have checked everything!</source>
+        <target state="final">Ne zaboravite ponovo aktivirati svoju prodavnicu nakon što sve proverite!</target>
+        <note>Line: 329</note>
+      </trans-unit>
+      <trans-unit id="bb64b7cb55bd1db0abc03b6884144113" approved="yes">
+        <source>ToDo list:</source>
+        <target state="final">Lista za uraditi:</target>
+        <note>Line: 331</note>
+      </trans-unit>
+      <trans-unit id="ecb2935cd99ace66750ffdee7954f126" approved="yes">
+        <source>Starting restoration...</source>
+        <target state="final">Počinje obnavljanje...</target>
+        <note>Line: 332</note>
+      </trans-unit>
+      <trans-unit id="bdec5eb7ca6ae2b5646bb9524df5579a" approved="yes">
+        <source>Restoration complete.</source>
+        <target state="final">Obnavljanje završeno</target>
+        <note>Line: 333</note>
+      </trans-unit>
+      <trans-unit id="f15547fe5f9f307bd42b2c01657efbcb" approved="yes">
+        <source>Your server cannot download the file. Please upload it first by ftp in your admin/autoupgrade directory</source>
+        <target state="final">Vaš server ne može preuzeti fajl. Molimo vas da ga prvo prenesete putem FTP-a u direktorijum "admin/autoupgrade".</target>
+        <note>Line: 334</note>
+      </trans-unit>
+      <trans-unit id="a8192fd08a431bf547ebf9a3eaa9b6bb" approved="yes">
+        <source>Javascript error (parseJSON) detected for action </source>
+        <target state="final">Javascript greška (parseJSON) otkrivena za radnju. </target>
+        <note>Line: 335</note>
+      </trans-unit>
+      <trans-unit id="c050dd9e80b7658fbf59103b2b982c5d" approved="yes">
+        <source>Manually go to %s button</source>
+        <target state="final">Ručno idite na dugme %s.</target>
+        <note>Line: 336</note>
+      </trans-unit>
+      <trans-unit id="67dab01827a619fdbcb137f18a83feb5" approved="yes">
+        <source>End of process</source>
+        <target state="final">Kraj radnje</target>
+        <note>Line: 337</note>
+      </trans-unit>
+      <trans-unit id="3b388ab38f6539009cf82a0577205cd8" approved="yes">
+        <source>Operation canceled. Checking for restoration...</source>
+        <target state="final">Operacija je otkazana. Proveravam obnovu...</target>
+        <note>Line: 338</note>
+      </trans-unit>
+      <trans-unit id="d5dfd6fbb959405ade102657ece534fa" approved="yes">
+        <source>Do you want to restore %s?</source>
+        <target state="final">Da li želite da obnovite %s?</target>
+        <note>Line: 339</note>
+      </trans-unit>
+      <trans-unit id="f234e8051cec7a79e996e67f179bd68b" approved="yes">
+        <source>Operation canceled. An error happened.</source>
+        <target state="final">Operacija je otkazana. Došlo je do greške.</target>
+        <note>Line: 340</note>
+      </trans-unit>
+      <trans-unit id="df54e40fe544b0ca34929e0e690a93c1" approved="yes">
+        <source>[TECHNICAL ERROR] ajax-upgradetab.php is missing. Please reinstall the module.</source>
+        <target state="final">[TEHNIČKA GREŠKA] ajax-upgradetab.php nedostaje. Molimo reinstalirajte ili resetujte modul.</target>
+        <note>Line: 341</note>
+      </trans-unit>
+      <trans-unit id="f1a1fb67c8350e8881bc59f09e42d5ab" approved="yes">
+        <source>Click to refresh the page and use the new configuration</source>
+        <target state="final">Kliknite da osvežite stranicu i koristite novu konfiguraciju.</target>
+        <note>Line: 342</note>
+      </trans-unit>
+      <trans-unit id="e47b67bdaa4f2c695e46ce1e5231aa9f" approved="yes">
+        <source>Error detected during</source>
+        <target state="final">Zabeležena je greška prilikom ažuriranje verzije</target>
+        <note>Line: 343</note>
+      </trans-unit>
+      <trans-unit id="4e265d12ee7ee679a4f40a4c4fde1208" approved="yes">
+        <source>The request exceeded the max_time_limit. Please change your server configuration.</source>
+        <target state="final">Zahtev je premašio vreme maksimalnog ograničenja max_time_limit. Molimo promenite konfiguraciju servera.</target>
+        <note>Line: 344</note>
+      </trans-unit>
+      <trans-unit id="1607e6098b7b62a2791653b059c975d2" approved="yes">
+        <source>See or hide the list</source>
+        <target state="final">Prikaži ili sakri listu</target>
+        <note>Line: 345</note>
+      </trans-unit>
+      <trans-unit id="25b91596a896c6cf688104169b4b6a71" approved="yes">
+        <source>Core file(s)</source>
+        <target state="final">Glavni fajl(ovi)</target>
+        <note>Line: 346</note>
+      </trans-unit>
+      <trans-unit id="65f04958837ddd3643fd5edaee3a0f8d" approved="yes">
+        <source>Mail file(s)</source>
+        <target state="final">Mejl fajl(ovi)</target>
+        <note>Line: 347</note>
       </trans-unit>
       <trans-unit id="19f823c6453c2b1ffd09cb715214813d" approved="yes">
         <source>Required field</source>
@@ -410,125 +925,345 @@
   </file>
   <file original="modules/autoupgrade/classes/Workspace.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
+      <trans-unit id="da7732ee7365d4fe5b24788b687b0c04" approved="yes">
+        <source>Unable to create directory %s</source>
+        <target state="final">Nije moguće kreiranje direktorijuma %s</target>
+        <note>Line: 60</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/classes/ZipAction.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="619c520551c7a108c12fde64e9b73b12" approved="yes">
+        <source>Could not extract %file% from backup, the destination might not be writable.</source>
+        <target state="final">Nije moguće izvršiti ekstrakciju datoteke %file% iz rezervne kopije, odredište možda nema dozvolu za pisanje.</target>
+        <note>Line: 157</note>
+      </trans-unit>
+      <trans-unit id="b6fadb405627a21f30cbe97d9f47d7a3" approved="yes">
+        <source>Content of archive %zip% is extracted</source>
+        <target state="final">Sadržaj arhive %zip% je raspakovan.</target>
+        <note>Line: 169</note>
+      </trans-unit>
+      <trans-unit id="3858aebfe7dce0a1dc398d199cb85a2b" approved="yes">
+        <source>[ERROR] Unable to list archived files</source>
+        <target state="final">[ERROR] Nije moguće prikazati listu arhiviranih datoteka</target>
+        <note>Line: 189</note>
+      </trans-unit>
+      <trans-unit id="fe718bdde198efa66b9e3a9a5cf476e6" approved="yes">
+        <source>File %filename% (size: %filesize%) has been skipped during backup.</source>
+        <target state="final">Datoteka %filename% (veličina: %filesize%) je preskočena prilikom rezervne kopije.</target>
+        <note>Line: 227</note>
+      </trans-unit>
+      <trans-unit id="0f9f19a4f5e93b3d5a94405e3af32a28" approved="yes">
+        <source>Unable to open zipFile %s</source>
+        <target state="final">Nije moguće otvoriti zipFile %s</target>
+        <note>Line: 251</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/views/templates/block/activityLog.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
-      
-      
+      <trans-unit id="2b16564e6e838ce86608620b70beb570" approved="yes">
+        <source>Activity Log</source>
+        <target state="final">Zapis aktivnosti</target>
+        <note>Line: 4</note>
+      </trans-unit>
+      <trans-unit id="1f966606f0a941f655a4e9b7791a1ae0" approved="yes">
+        <source>Currently processing</source>
+        <target state="final">Trenutno na obradi</target>
+        <note>Line: 12</note>
+      </trans-unit>
+      <trans-unit id="21739f79b8e95f4187fce4fefb12af28" approved="yes">
+        <source>Analyzing the situation...</source>
+        <target state="final">Analiziram situaciju...</target>
+        <note>Line: 13</note>
+      </trans-unit>
+      <trans-unit id="5ef0c737746fae2ca90e66c39333f8f6" approved="yes">
+        <source>Errors</source>
+        <target state="final">Grešaka</target>
+        <note>Line: 20</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/views/templates/block/channelInfo.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
+      <trans-unit id="203b006e446c7692af1bfd4e41a10749" approved="yes">
+        <source>Branch:</source>
+        <target state="final">Grana</target>
+        <note>Line: 4</note>
+      </trans-unit>
+      <trans-unit id="987023af1c4e507ea04eb5069578f7f0" approved="yes">
+        <source>Version number:</source>
+        <target state="final">Broj verzije</target>
+        <note>Line: 24</note>
+      </trans-unit>
       <trans-unit id="3b3d06023f6353f8fd05f859b298573e" approved="yes">
         <source>URL:</source>
         <target state="final">URL:</target>
         <note>Line: 30</note>
       </trans-unit>
+      <trans-unit id="ededa0b9a77dd39dad86a79cdc2a7521" approved="yes">
+        <source>MD5 hash:</source>
+        <target state="final">MD5 hash:</target>
+        <note>Line: 36</note>
+      </trans-unit>
+      <trans-unit id="bca4ff8cbf5fd614a700ca81c820dc1b" approved="yes">
+        <source>Changelog:</source>
+        <target state="final">Zapis o promenama:</target>
+        <note>Line: 42</note>
+      </trans-unit>
+      <trans-unit id="1182cc0394225fb0ec989b7ad50ba42a" approved="yes">
+        <source>See changelog</source>
+        <target state="final">Prikaži zapis o promenama</target>
+        <note>Line: 43</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/views/templates/block/checklist.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="69ff9aca0bd03b3981784593311d866a" approved="yes">
+        <source>The pre-Upgrade checklist</source>
+        <target state="final">Kontrolna lista pre ažuriranja</target>
+        <note>Line: 6</note>
+      </trans-unit>
+      <trans-unit id="0b360b52f457a0a4928998cbf5ee773f" approved="yes">
+        <source>Your current version of the module is out of date. Update now</source>
+        <target state="final">Trenutna verzija modula je zastarela. Ažurirajte sada.</target>
+        <note>Line: 10</note>
+      </trans-unit>
+      <trans-unit id="90f90ca1387f6932c53aab39ad899f4b" approved="yes">
+        <source><![CDATA[Modules > Module Manager > Updates]]></source>
+        <target state="final"><![CDATA[Moduli > Modul menadžer > Ažuriranja]]></target>
+        <note>Line: 11</note>
+      </trans-unit>
+      <trans-unit id="03f945bba76ea63369d50a340e5b17bf" approved="yes">
+        <source>The checklist is not OK. You can only upgrade your shop once all indicators are green.</source>
+        <target state="final">Kontrolna lista nije u redu. Možete izvršiti nadogradnju prodavnice samo kada su svi pokazatelji označeni zelenom bojom.</target>
+        <note>Line: 15</note>
+      </trans-unit>
+      <trans-unit id="1b631ee6d890a5d6f2ede2f386f5aa3d" approved="yes">
+        <source>Before starting the upgrade process, please make sure this checklist is all green.</source>
+        <target state="final">Pre nego što započnete proces nadogradnje, molimo vas da se uverite da su sve stavke na ovoj kontrolnoj listi označene zelenom bojom.</target>
+        <note>Line: 18</note>
+      </trans-unit>
+      <trans-unit id="0cd4783b935f23e501fc7db884144c5c" approved="yes">
+        <source>Your server is running on a supported PHP version.</source>
+        <target state="final">Vaš server koristi podržanu verziju PHP-a.</target>
+        <note>Line: 23</note>
+      </trans-unit>
+      <trans-unit id="16a837171ad7657e7d0cc505e4f9a3ae" approved="yes">
+        <source>The PHP version your server is running on is obsolete and needs to be upgraded. [1]Learn more[/1].</source>
+        <target state="final">Verzija PHP-a koju vaš server koristi je zastarela i potrebno je izvršiti nadogradnju. [1]Saznajte više[/1].</target>
+        <note>Line: 25</note>
+      </trans-unit>
+      <trans-unit id="50a5bcb757b1a7705007720863250da8" approved="yes">
+        <source>Your store's root directory (%s) is writable (with appropriate CHMOD permissions).</source>
+        <target state="final">Koreni direktorijum vaše prodavnice (%s) je otvoren za pisanje (sa odgovarajućim CHMOD dozvolama).</target>
+        <note>Line: 40</note>
+      </trans-unit>
+      <trans-unit id="b398e46a283dd457aa7dc0302004208c" approved="yes">
+        <source>The "/admin/autoupgrade" directory is writable (appropriate CHMOD permissions)</source>
+        <target state="final">Direktorijum "/admin/autoupgrade" je otvoren za pisanje (odgovarajuće CHMOD dozvole).</target>
+        <note>Line: 51</note>
+      </trans-unit>
+      <trans-unit id="2276494259ab54880fce5ef47110a462" approved="yes">
+        <source>PHP's "Safe mode" option is turned off</source>
+        <target state="final">PHP-ova opcija "Safe mode" je isključena.</target>
+        <note>Line: 62</note>
+      </trans-unit>
+      <trans-unit id="ce68939980bcf41f2ce33180564bed9a" approved="yes">
+        <source>PHP's "allow_url_fopen" option is turned on, or cURL is installed</source>
+        <target state="final">PHP-ova opcija "allow_url_fopen" je uključena ili je cURL instaliran.</target>
+        <note>Line: 72</note>
+      </trans-unit>
+      <trans-unit id="d9af605897e2636f97ef20fd5829195a" approved="yes">
+        <source>PHP's "zip" extension is enabled</source>
+        <target state="final">PHP-ova ekstenzija "zip" je omogućena.</target>
+        <note>Line: 82</note>
+      </trans-unit>
+      <trans-unit id="49c20044e894d8cc2da7783adbf79f16" approved="yes">
+        <source>Your store is in maintenance mode</source>
+        <target state="final">Vaša prodavnica je u režimu održavanja</target>
+        <note>Line: 94</note>
+      </trans-unit>
+      <trans-unit id="e3ea2f6fe56c80761e37fd9c393d88a5" approved="yes">
+        <source><![CDATA[Enable maintenance mode and add your maintenance IP in [1]Shop parameters > General > Maintenance[/1]]]></source>
+        <target state="final"><![CDATA[Omogućite režim održavanja i dodajte svoju IP adresu za održavanje u [1]Shop parametri > Opšte > Održavanje[/1].]]></target>
+        <note>Line: 96</note>
+      </trans-unit>
+      <trans-unit id="7878a3623460f0f844b13f8001ba56b7" approved="yes">
+        <source>PrestaShop's caching features are disabled</source>
+        <target state="final">PrestaShop-ove funkcije keširanja su onemogućene.</target>
+        <note>Line: 111</note>
+      </trans-unit>
+      <trans-unit id="77a72ea58f16fea5a44f76751c804a2d" approved="yes">
+        <source>PHP's max_execution_time setting has a high value or is disabled entirely (current value: unlimited)</source>
+        <target state="final">PHP-ova postavka max_execution_time ima visoku vrednost ili je potpuno isključena (trenutna vrednost: neograničeno).</target>
+        <note>Line: 123</note>
+      </trans-unit>
+      <trans-unit id="03f5c2fd6c0be0ea1b2dfb3e93ee8513" approved="yes">
+        <source>PHP's max_execution_time setting has a high value or is disabled entirely (current value: %s seconds)</source>
+        <target state="final">PHP-ova postavka max_execution_time ima visoku vrednost ili je potpuno isključena (current value: %s seconds)</target>
+        <note>Line: 125</note>
+      </trans-unit>
+      <trans-unit id="6fabea15c50a13bc8fdc8f8a626852e9" approved="yes">
+        <source>Your current PHP version isn't compatible with your PrestaShop version.</source>
+        <target state="final">Trenutna verzija PHP-a nije kompatibilna sa verzijom PrestaShop-a koju koristite.</target>
+        <note>Line: 138</note>
+      </trans-unit>
+      <trans-unit id="e5e5ad50e292b790dd3017d84954beec" approved="yes">
+        <source>Apache mod_rewrite is disabled.</source>
+        <target state="final">Apache mod_rewrite je onemogućen.</target>
+        <note>Line: 144</note>
+      </trans-unit>
+      <trans-unit id="9081d016acc398980f9ca1c3cc153834" approved="yes">
+        <source>The following PHP extensions are not installed: %s.</source>
+        <target state="final">Sledeće PHP ekstenzije nisu instalirane: %s.</target>
+        <note>Line: 152</note>
+      </trans-unit>
+      <trans-unit id="a8e2fe2152ea8a4a01a3d0f18270618b" approved="yes">
+        <source>The following PHP extension is not installed: %s.</source>
+        <target state="final">Sledeća PHP ekstenzija nije instalirana: %s.</target>
+        <note>Line: 154</note>
+      </trans-unit>
+      <trans-unit id="d73cc0e7e9a3877d8c202e0924bd23ab" approved="yes">
+        <source>PHP memory_limit is inferior to 256 MB.</source>
+        <target state="final">PHP memory_limit je manji od 256 MB.</target>
+        <note>Line: 162</note>
+      </trans-unit>
+      <trans-unit id="8eba4f8d57b83e88461524508184682f" approved="yes">
+        <source>PHP file_uploads configuration is disabled.</source>
+        <target state="final">Konfiguracija PHP-a file_uploads je onemogućena.</target>
+        <note>Line: 168</note>
+      </trans-unit>
+      <trans-unit id="81ed785abf74a6ac0561b7668510c80d" approved="yes">
+        <source>The following PHP functions are not installed: %s.</source>
+        <target state="final">Sledeće PHP funkcije nisu instalirane: %s.</target>
+        <note>Line: 176</note>
+      </trans-unit>
+      <trans-unit id="d6c61bad4361519d957c9bb661258064" approved="yes">
+        <source>The following PHP function is not installed: %s.</source>
+        <target state="final">Sledeća PHP funkcija nije instalirana: %s.</target>
+        <note>Line: 178</note>
+      </trans-unit>
+      <trans-unit id="2daccf866f94292785c4da181db40860" approved="yes">
+        <source>It's not possible to create a PHP session.</source>
+        <target state="final">Nije moguće kreirati PHP sesiju.</target>
+        <note>Line: 186</note>
+      </trans-unit>
+      <trans-unit id="e78a48236a7c0830aa9de157a415e44c" approved="yes">
+        <source>The following files are missing:</source>
+        <target state="final">Nedostaju sledeće datoteke:</target>
+        <note>Line: 193</note>
+      </trans-unit>
+      <trans-unit id="588aebafed7c857178f75431b5af7d58" approved="yes">
+        <source>It's not possible to write in the following folders:</source>
+        <target state="final">Nije moguće pisati u sledeće direktorijume:</target>
+        <note>Line: 206</note>
+      </trans-unit>
+      <trans-unit id="aa9b0228ac4e3e44b836f79eebf5e481" approved="yes">
+        <source>Please also make sure you make a full manual backup of your files and database.</source>
+        <target state="final">Takođe, molimo vas da napravite manuelno napravite potpunu rezervnu kopiju svojih fajlova i baze podataka.</target>
+        <note>Line: 218</note>
+      </trans-unit>
+      <trans-unit id="2f5caf188163a31f04c828530331b096" approved="yes">
+        <source>PrestaShop requirements are not satisfied.</source>
+        <target state="final">PrestaShop zahtevi nisu ispunjeni.</target>
+        <note>Line: 220</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/views/templates/block/rollbackForm.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
-      
-      
+      <trans-unit id="446c9e952debe114c86bbd9e5eea7d61" approved="yes">
+        <source>Rollback</source>
+        <target state="final">Vraćanje na prethodno stanje</target>
+        <note>Line: 27</note>
+      </trans-unit>
+      <trans-unit id="946a7fdf02f1a9f08e6711d014e3bc47" approved="yes">
+        <source>After upgrading your shop, you can rollback to the previous database and files. Use this function if your theme or an essential module is not working correctly.</source>
+        <target state="final">Nakon nadogradnje prodavnice, možete se vratiti na prethodnu bazu podataka i datoteke. Koristite ovu funkciju ako vaša tema ili bitan modul ne funkcionišu ispravno.</target>
+        <note>Line: 7</note>
+      </trans-unit>
+      <trans-unit id="a4d88b46c8edb6b0ee2fb4d6bd0690b0" approved="yes">
+        <source>Choose your backup:</source>
+        <target state="final">Izaberite vaš bekap (rezervnu kopiju)</target>
+        <note>Line: 11</note>
+      </trans-unit>
+      <trans-unit id="c629f24e672b4e1165ebf1c10b5c5c5d" approved="yes">
+        <source>-- Choose a backup to restore --</source>
+        <target state="final">-- Izaberite rezervnu kopiju za vraćanje --</target>
+        <note>Line: 14</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/views/templates/block/upgradeButtonBlock.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="9e68a57463e52beb2b2d4d116085044e" approved="yes">
+        <source>More options (Expert mode)</source>
+        <target state="final">Više opcija (Expert režim)</target>
+        <note>Line: 69</note>
+      </trans-unit>
+      <trans-unit id="e58eae3d7ced672a49b5716587b15f89" approved="yes">
+        <source>Start your Upgrade</source>
+        <target state="final">Počnite vaše ažuriranje</target>
+        <note>Line: 4</note>
+      </trans-unit>
+      <trans-unit id="ef754ad37c689704ede322b9a6ae66a7" approved="yes">
+        <source>Check if a new version is available</source>
+        <target state="final">Proverite da li je dostupna nova verzija.</target>
+        <note>Line: 56</note>
+      </trans-unit>
+      <trans-unit id="89de86aa34494d545d8cbb4fff3a4e59" approved="yes">
+        <source>Last check: %s</source>
+        <target state="final">Posednja provera %s</target>
+        <note>Line: 59</note>
+      </trans-unit>
+      <trans-unit id="ea3104b84db2df54a4e798e5a47d0073" approved="yes">
+        <source>Last check: never</source>
+        <target state="final">Posednja provera: nikada</target>
+        <note>Line: 61</note>
+      </trans-unit>
+      <trans-unit id="d0285505fd09db653a4ec0fd3799f357" approved="yes">
+        <source>Expert mode</source>
+        <target state="final">Ekspert režim rada</target>
+        <note>Line: 75</note>
+      </trans-unit>
+      <trans-unit id="89f144934543c527b7b064ee64361d90" approved="yes">
+        <source>Please select your channel:</source>
+        <target state="final">Izaberite kanal...</target>
+        <note>Line: 77</note>
+      </trans-unit>
+      <trans-unit id="cdcf07ad291a3b7a0cc30b870705ba63" approved="yes">
+        <source>Channels are offering you different ways to perform an upgrade. You can either upload the new version manually or let the 1-Click Upgrade module download it for you.</source>
+        <target state="final">Kanali vam nude različite načine za izvršavanje ažuriranja. Možete ručno prenositi novu verziju ili dozvoliti modulu za ažuriranje sa jednim klikom da je preuzme za vas.</target>
+        <note>Line: 79</note>
+      </trans-unit>
+      <trans-unit id="87ad8a8ff4a99ffd2e72d5e69765f830" approved="yes">
+        <source>The Alpha, Beta and Private channels give you the ability to upgrade to a non-official or unstable release (for testing purposes only).</source>
+        <target state="final">Alpha, Beta i Privatni kanali vam omogućavaju nadogradnju na nezvanično ili nestabilno izdanje (samo u svrhu testiranja).</target>
+        <note>Line: 80</note>
+      </trans-unit>
+      <trans-unit id="7d71d389caebafeecac50e98c8e14dec" approved="yes">
+        <source>By default, you should use the "Minor release" channel which is offering the latest stable version available.</source>
+        <target state="final">Prema zadanim podešavanjima, trebali biste koristiti "Manje izdanje" kanal koji nudi najnoviju stabilnu verziju koja je dostupna.</target>
+        <note>Line: 81</note>
+      </trans-unit>
+      <trans-unit id="3b3d4b4b6a128cfeafc8e3f8987ddb9b" approved="yes">
+        <source>Channel:</source>
+        <target state="final">Kanali</target>
+        <note>Line: 84</note>
+      </trans-unit>
+      <trans-unit id="ef2f59f06132ddc2e1bc8d00abbe6e02" approved="yes">
+        <source>Link:</source>
+        <target state="final">Link:</target>
+        <note>Line: 95</note>
+      </trans-unit>
+      <trans-unit id="6e843a36f447872179db90ceff68d970" approved="yes">
+        <source>Hash key:</source>
+        <target state="final">Hash ključ:</target>
+        <note>Line: 98</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/autoupgrade/views/templates/block/versionComparison.twig" source-language="en" target-language="sr-CS" datatype="plaintext">

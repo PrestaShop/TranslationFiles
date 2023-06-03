@@ -2,6 +2,11 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="modules/ps_facetedsearch/ps_facetedsearch.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
+      <trans-unit id="d67b7992a94709663ce72ce9c1606597" approved="yes">
+        <source>Faceted search</source>
+        <target state="final">Višestruka pretraga</target>
+        <note>Line: 107</note>
+      </trans-unit>
       <trans-unit id="2b998534020532daa37c8948b41f3116" approved="yes">
         <source>Filter your catalog to help visitors picture the category tree and browse your store easily.</source>
         <target state="final">Filtriratje vaš katalog da pomognete klijentima da lakše sagledaju stablo vaših kategorija i time lakše pregledaju sajt.</target>
@@ -62,6 +67,16 @@
         <target state="final">"%s" je nevažeći link</target>
         <note>Line: 1343</note>
       </trans-unit>
+      <trans-unit id="9461ef0a8f8a2adbb3fa8ea0fda9949d" approved="yes">
+        <source>You must select at least one page.</source>
+        <target state="final">Morate odabrati makar jednu stranicu</target>
+        <note>Line: 606</note>
+      </trans-unit>
+      <trans-unit id="d4513f10f8edb4426a5723738e129861" approved="yes">
+        <source>You must select at least one category if you want to use this filter template on category pages.</source>
+        <target state="final">Morate izabrati barem jednu kategoriju ako želite koristiti ovaj filter šablon na stranicama kategorija.</target>
+        <note>Line: 608</note>
+      </trans-unit>
       <trans-unit id="3adbdb3ac060038aa0e6e6c138ef9873" approved="yes">
         <source>Category</source>
         <target state="final">Kategorija</target>
@@ -97,6 +112,11 @@
         <target state="final">Pretraga</target>
         <note>Line: 1712</note>
       </trans-unit>
+      <trans-unit id="bab956f96196bebabbfb693f920b1bc1" approved="yes">
+        <source>(experimental)</source>
+        <target state="final">(experimentalno)</target>
+        <note>Line: 1712</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/ps_facetedsearch/src/Form/Feature/FormModifier.php" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -124,16 +144,29 @@
         <target state="final">Kategorije korišćene za ovaj šablon:</target>
         <note>Line: 20</note>
       </trans-unit>
+      <trans-unit id="78587049e12fb4f6b12e2bb045f2880a" approved="yes">
+        <source>Categories selection is disabled because you have no categories or you are in a "all shops" context.</source>
+        <target state="final">Selekcija kategorja je deaktivirana iz razloga što nemate kategorije ili ste u režimu lanac prodavnica.</target>
+        <note>Line: 26</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/ps_facetedsearch/views/templates/admin/_partials/controllers.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
+      <trans-unit id="bd8da101b4d007b536f36eadc7f686e7" approved="yes">
+        <source>Pages using this template:</source>
+        <target state="final">Stranice koje koriste ovaj šablon:</target>
+        <note>Line: 20</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/ps_facetedsearch/views/templates/admin/_partials/footer.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
+      <trans-unit id="dc3f85827350641490287c65c0c4ddf8" approved="yes">
+        <source>You must select at least one filter</source>
+        <target state="final">Morate da izaberete najmanje jedan filter</target>
+        <note>Line: 30</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/ps_facetedsearch/views/templates/admin/_partials/header.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -220,6 +253,11 @@
         <target state="final">Filter uslova proizvoda</target>
         <note>Line: 126</note>
       </trans-unit>
+      <trans-unit id="e581c019fe5c1b2aa8dfa18d93f88d13" approved="yes">
+        <source>Product brand filter</source>
+        <target state="final">Filter brendova</target>
+        <note>Line: 157</note>
+      </trans-unit>
       <trans-unit id="cc72ed9534a489b5d2e5882735bf1364" approved="yes">
         <source>Product weight filter (slider)</source>
         <target state="final">Filter težine proizvoda (slajder)</target>
@@ -275,10 +313,35 @@
         <target state="final">Padajuća lista</target>
         <note>Line: 331</note>
       </trans-unit>
+      <trans-unit id="ce9bd6e7a7bfa2fa2d9e43bc4fcfeb8a" approved="yes">
+        <source>List of ranges</source>
+        <target state="final">Lista opsega</target>
+        <note>Line: 220</note>
+      </trans-unit>
+      <trans-unit id="db6b86d05039c4f657a28647f8eb5140" approved="yes">
+        <source>Attribute group: %name% (%count% attributes)</source>
+        <target state="final">Grupa osobina: %name% (%count% osobina)</target>
+        <note>Line: 240</note>
+      </trans-unit>
+      <trans-unit id="788a474b0e55d612b3d500743c6251a0" approved="yes">
+        <source>Attribute group: %name% (%count% attribute)</source>
+        <target state="final">Grupa osobine: %name% (%count% osobina)</target>
+        <note>Line: 249</note>
+      </trans-unit>
       <trans-unit id="ee59f74265cd7f85d0ad30206a1a89b0" approved="yes">
         <source>This group will allow user to select a color</source>
         <target state="final">Ova grupa će omogućiti korisnicima da odaberu boju</target>
         <note>Line: 259</note>
+      </trans-unit>
+      <trans-unit id="4127fb33c1db9597f3c881ae057f1370" approved="yes">
+        <source>Feature: %name% (%count% values)</source>
+        <target state="final">Detalj: %name% (%count% vrednosti)</target>
+        <note>Line: 299</note>
+      </trans-unit>
+      <trans-unit id="cadad7b648bb2b1d3f22421b00a14fd2" approved="yes">
+        <source>Feature: %name% (%count% value)</source>
+        <target state="final">Detalj: %name% (%count% vrednosti)</target>
+        <note>Line: 308</note>
       </trans-unit>
     </body>
   </file>
@@ -399,6 +462,11 @@
         <target state="final">Koristi porez za filtriranje cena</target>
         <note>Line: 194</note>
       </trans-unit>
+      <trans-unit id="30b1f6f4369e3d0f7a0d50b5cb96aabd" approved="yes">
+        <source>Use rounding to filter price</source>
+        <target state="final">Koristi zaokruživanje za filtriranje cena</target>
+        <note>Line: 211</note>
+      </trans-unit>
       <trans-unit id="459ae4ae4d73f1ed176e5fc8aa3af312" approved="yes">
         <source>Show unavailable, out of stock last</source>
         <target state="final">Prikaži nedostupno, nama na lageru</target>
@@ -454,10 +522,40 @@
         <target state="final">Odabrali ste -Sve kategorije-, biće obrisani svi postojeći filteri šablona, u redu?</target>
         <note>Line: 303</note>
       </trans-unit>
+      <trans-unit id="2e465237d27547eb60889256909234e7" approved="yes">
+        <source>Use Jquery UI slider</source>
+        <target state="final">Koristi Jquery UI slajder</target>
+        <note>Line: 245</note>
+      </trans-unit>
+      <trans-unit id="1adb03626a4e0c1aaa27bf37f0f1096b" approved="yes">
+        <source>Switch this off only if your theme does not use Jquery UI slider. It is recommended to keep it on when using classic theme.</source>
+        <target state="final">Isključite ovo samo ako vaša tema ne koristi Jquery UI slajder. Preporučuje se da ga zadržite uključenim ako koristite klasičnu temu.</target>
+        <note>Line: 261</note>
+      </trans-unit>
+      <trans-unit id="b4f8e8e66907c50c52c0ad3bd31e29b0" approved="yes">
+        <source>Default filter template for new categories</source>
+        <target state="final">Podrazumevani filter šablon za nove kategorije</target>
+        <note>Line: 267</note>
+      </trans-unit>
+      <trans-unit id="9e80bb018eeeced7e38da900e5f47135" approved="yes">
+        <source>If you want to automatically assign a filter template to new categories, select it here.</source>
+        <target state="final">Ukoliko želite automatski dodeliti filter šablon novim kategorijama, izaberite ga ovde.</target>
+        <note>Line: 277</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/ps_facetedsearch/views/templates/hook/attribute_group_form.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
+      <trans-unit id="e919c0dcca631198a18993158182c96b" approved="yes">
+        <source>When the Faceted Search module is enabled, you can get more detailed URLs by choosing the word that best represent this attribute. By default, PrestaShop uses the attribute's name, but you can change that setting using this field.</source>
+        <target state="final">Kada je aktiviran modul višestruka pretraga, možete dobiti detaljne URL-ove birajući reč koja najbolje prezentuje osobene. Po standardu PrestaShop koristi ime osobine, ali vi to možete promeniti koristeći ovo polje.</target>
+        <note>Line: 44</note>
+      </trans-unit>
+      <trans-unit id="988d04f25d03c7753f5e4752a9397e79" approved="yes">
+        <source>When the Faceted Search module is enabled, you can get more detailed page titles by choosing the word that best represent this attribute. By default, PrestaShop uses the attribute's name, but you can change that setting using this field.</source>
+        <target state="final">Kada je aktiviran modul višestruka pretraga, možete dobiti detaljne naslove birajući reč koja najbolje prezentuje osobene. Po standardu PrestaShop koristi ime osobine, ali vi to možete promeniti koristeći ovo polje.</target>
+        <note>Line: 72</note>
+      </trans-unit>
       <trans-unit id="28034a200e932f22b324a4dda1bb9f64" approved="yes">
         <source><![CDATA[Invalid characters: <>;=#{}_]]></source>
         <target state="final"><![CDATA[Nevažeći znakovi: <>;=#{}_]]></target>
@@ -468,12 +566,25 @@
         <target state="final">Može se indeksovati</target>
         <note>Line: 78</note>
       </trans-unit>
+      <trans-unit id="4e495bf87859dbd3914919cccea139e2" approved="yes">
+        <source>Use this attribute in URL generated by the Faceted Search module.</source>
+        <target state="final">Koristite ovaj atribut u URL adresi generisanoj od strane Modula za filtriranje sa više kriterijuma</target>
+        <note>Line: 93</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/ps_facetedsearch/views/templates/hook/feature_form.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="81e6451dad5734120899da86f7da4e4e" approved="yes">
+        <source>When the Faceted Search module is enabled, you can get more detailed URLs by choosing the word that best represent this feature. By default, PrestaShop uses the feature's name, but you can change that setting using this field.</source>
+        <target state="final">Kada je Modul za filtriranje sa više kriterijuma omogućen, možete dobiti detaljnije URL adrese birajući reč koja najbolje predstavlja ovu funkcionalnost. Po podrazumevanim podešavanjima, PrestaShop koristi ime funkcionalnosti, ali možete promeniti to podešavanje koristeći ovo polje.</target>
+        <note>Line: 44</note>
+      </trans-unit>
+      <trans-unit id="78b4c0278638dd0fd4b29a05895d7891" approved="yes">
+        <source>When the Faceted Search module is enabled, you can get more detailed page titles by choosing the word that best represent this feature. By default, PrestaShop uses the feature's name, but you can change that setting using this field.</source>
+        <target state="final">Kada je Modul za filtriranje sa više kriterijuma omogućen, možete dobiti detaljnije naslove stranica birajući reč koja najbolje predstavlja ovu funkcionalnost. Po podrazumevanim podešavanjima, PrestaShop koristi ime funkcionalnosti, ali možete promeniti to podešavanje koristeći ovo polje.</target>
+        <note>Line: 72</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/ps_facetedsearch/views/templates/hook/feature_value_form.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -482,6 +593,16 @@
         <source>URL</source>
         <target state="final">URL</target>
         <note>Line: 21</note>
+      </trans-unit>
+      <trans-unit id="b0aefa9a5ca20f89372b37c2c35c1d4b" approved="yes">
+        <source>When the Faceted Search module is enabled, you can get more detailed URLs by choosing the word that best represent this feature's value. By default, PrestaShop uses the value's name, but you can change that setting using this field.</source>
+        <target state="final">Kada je Modul za filtriranje sa više kriterijuma omogućen, možete dobiti detaljnije URL-ove birajući reč koja najbolje predstavlja vrednost ove funkcionalnosti. Po podrazumevanim podešavanjima, PrestaShop koristi ime vrednosti, ali možete promeniti to podešavanje koristeći ovo polje.</target>
+        <note>Line: 44</note>
+      </trans-unit>
+      <trans-unit id="0e6de50c32b9b10fd375ee52090b7f3e" approved="yes">
+        <source>When the Faceted Search module is enabled, you can get more detailed page titles by choosing the word that best represent this feature's value. By default, PrestaShop uses the value's name, but you can change that setting using this field.</source>
+        <target state="final">Kada je Modul za filtriranje sa više kriterijuma omogućen, možete dobiti detaljnije naslove stranica tako što ćete izabrati reč koja najbolje predstavlja vrednost ove funkcionalnosti. Po podrazumevanim podešavanjima, PrestaShop koristi ime vrednosti, ali možete promeniti to podešavanje koristeći ovo polje.</target>
+        <note>Line: 72</note>
       </trans-unit>
     </body>
   </file>
