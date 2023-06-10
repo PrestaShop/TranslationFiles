@@ -220,7 +220,11 @@
   </file>
   <file original="src/Adapter/Order/CommandHandler/CancelOrderProductHandler.php" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
+      <trans-unit id="1166740db50174894a068c0c51b94c66" approved="yes">
+        <source><![CDATA[Order history email could not be sent, test your email configuration in the Advanced Parameters > E-mail section of your back office.]]></source>
+        <target state="final"><![CDATA[Não foi possível enviar a mensagem de correio electrónico do histórico de encomendas. Teste a sua configuração de correio electrónico na secção Parâmetros avançados > Correio electrónico do seu back office.]]></target>
+        <note>Line: 166</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Order/Delivery/SlipPdfConfiguration.php" source-language="en" target-language="pt-PT" datatype="plaintext">
@@ -286,13 +290,25 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/MerchandiseReturnController.php" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="fb31a2cb28ec3e7dee5df6dce5e1a68f" approved="yes">
+        <source>Merchandise return not found.</source>
+        <target state="final">A devolução da mercadoria não foi encontrada.</target>
+        <note>Line: 145</note>
+      </trans-unit>
+      <trans-unit id="dc30c095a6e57c3146babe8f9088984f" approved="yes">
+        <source>An error occurred while trying to update merchandise return.</source>
+        <target state="final">Ocorreu um erro ao tentar actualizar a devolução da mercadoria.</target>
+        <note>Line: 155</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/OrderMessageController.php" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
+      <trans-unit id="a536fd360caf34452a84d97775aeb74a" approved="yes">
+        <source>An order message with the same name already exists in %s.</source>
+        <target state="final">Já existe uma mensagem de encomenda com o mesmo nome em %s.</target>
+        <note>Line: 259</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/CreditSlipController.php" source-language="en" target-language="pt-PT" datatype="plaintext">
@@ -311,6 +327,16 @@
         <target state="final">Tem de escolher uma loja antes de criar novas encomendas.</target>
         <note>Line: 239</note>
       </trans-unit>
+      <trans-unit id="50c5ffd8dadba5bcc7b83cfe3d874f54" approved="yes">
+        <source>A standard refund was successfully created.</source>
+        <target state="final">Foi criado com sucesso um reembolso padrão.</target>
+        <note>Line: 638</note>
+      </trans-unit>
+      <trans-unit id="265b2b7a9f792e941faac362bc37f30b" approved="yes">
+        <source>The product was successfully returned.</source>
+        <target state="final">O produto foi devolvido com sucesso.</target>
+        <note>Line: 673</note>
+      </trans-unit>
       <trans-unit id="282426403b9a14678d5dd35e024ec84c" approved="yes">
         <source>This product is out of stock:</source>
         <target state="final">Este produto está esgotado:</target>
@@ -326,15 +352,95 @@
         <target state="final">O email foi enviado ao cliente.</target>
         <note>Line: 1656</note>
       </trans-unit>
+      <trans-unit id="fedc8043f101accfb757ff85fd8fb81d" approved="yes">
+        <source>Product search phrase must not be an empty string.</source>
+        <target state="final">A frase de pesquisa do produto não pode ser uma string vazia.</target>
+        <note>Line: 1900</note>
+      </trans-unit>
+      <trans-unit id="f77fd3f9865f0c725901d48dbc00619f" approved="yes">
+        <source>You cannot edit the cart once the order delivered.</source>
+        <target state="final">Não é possível editar o carrinho depois da encomenda ter sido entregue</target>
+        <note>Line: 1904</note>
+      </trans-unit>
+      <trans-unit id="918093e8ad4567f6b99e9851eab8bc69" approved="yes">
+        <source>Order #%d cannot be loaded.</source>
+        <target state="final">A encomenda #%d não pode ser carregada.</target>
+        <note>Line: 2098</note>
+      </trans-unit>
       <trans-unit id="fded441ef916f653d49abf142b535b52" approved="yes">
         <source>An error occurred while sending the e-mail to the customer.</source>
         <target state="final">Ocorreu um erro ao enviar o email ao cliente.</target>
         <note>Line: 1914</note>
       </trans-unit>
+      <trans-unit id="f131fb3c210a32ca24a4910b42b6e2ef" approved="yes">
+        <source>Only numbers and decimal points (".") are allowed in the amount fields, e.g. 10.50 or 1050.</source>
+        <target state="final">São permitidos apenas números e pontos decimais (".") nos campos de montante, por exemplo 10,50 ou 1050.</target>
+        <note>Line: 1926</note>
+      </trans-unit>
+      <trans-unit id="7b310c5ac94a5e50139d50574395683b" approved="yes">
+        <source>Percent value must be greater than 0.</source>
+        <target state="final">O valor percentual deve ser superior a 0.</target>
+        <note>Line: 1931</note>
+      </trans-unit>
+      <trans-unit id="7f35d95de964c02a558f322bf683ff93" approved="yes">
+        <source>Percent value cannot exceed 100.</source>
+        <target state="final">O valor percentual não pode execer100.</target>
+        <note>Line: 1935</note>
+      </trans-unit>
+      <trans-unit id="2b0c8d4ac85a4f8ddf1427f7ad537f55" approved="yes">
+        <source>Amount value must be greater than 0.</source>
+        <target state="final">O valor do montante deve ser superior a 0.</target>
+        <note>Line: 1939</note>
+      </trans-unit>
+      <trans-unit id="bd69d7116253ba1407fa8f2611ea6866" approved="yes">
+        <source>Discount value cannot exceed the total price of this order.</source>
+        <target state="final">O valor do desconto não pode exceder o preço total desta encomenda.</target>
+        <note>Line: 1943</note>
+      </trans-unit>
+      <trans-unit id="0e6becfb4c6566c35a8fda2d94891c70" approved="yes">
+        <source>Shipping discount value cannot exceed the total price of this order.</source>
+        <target state="final">O valor do desconto de envio não pode exceder o preço total da encomenda.</target>
+        <note>Line: 1947</note>
+      </trans-unit>
+      <trans-unit id="2a11327ffe3e46a9ffadddf38b4b9fff" approved="yes">
+        <source>Please enter a maximum quantity of [1].</source>
+        <target state="final">Por favor, insira a quantidade máxima de [1].</target>
+        <note>Line: 1957</note>
+      </trans-unit>
       <trans-unit id="97f014aa339f5b37951f100fb1a086d8" approved="yes">
         <source>Please select at least one product.</source>
         <target state="final">Por favor, selecione pelo menos um produto.</target>
         <note>Line: 1962</note>
+      </trans-unit>
+      <trans-unit id="d31c479bcda04bd5b859f7cff371c3d0" approved="yes">
+        <source>Please enter a positive amount.</source>
+        <target state="final">Por favor, insira um montante positivo.</target>
+        <note>Line: 1966</note>
+      </trans-unit>
+      <trans-unit id="4b0c5f16b969b647ff0b63481af6c3e5" approved="yes">
+        <source>Please generate at least one credit slip or voucher.</source>
+        <target state="final">Por favor, gere pelo menos uma nota de crédito ou vale de desconto.</target>
+        <note>Line: 1970</note>
+      </trans-unit>
+      <trans-unit id="500f3380713af59cab7bdd14d8fefea2" approved="yes">
+        <source>You must choose a payment module to create the order.</source>
+        <target state="final">É necessário seleccionar um módulo de pagamento para criar a encomenda.</target>
+        <note>Line: 1975</note>
+      </trans-unit>
+      <trans-unit id="b2f61848a1b9245fb4d79db939e04c02" approved="yes">
+        <source>You must choose an order status to create the order.</source>
+        <target state="final">É necessário seleccionar um estado de encomenda para criar a encomenda.</target>
+        <note>Line: 2004</note>
+      </trans-unit>
+      <trans-unit id="53efa65204c54a806b9df6707fc8a326" approved="yes">
+        <source>The order message given is invalid.</source>
+        <target state="final">A mensagem de ordem dada não é válida.</target>
+        <note>Line: 2011</note>
+      </trans-unit>
+      <trans-unit id="c3cb19afc3cf5cd7d07346dcd3504fe2" approved="yes">
+        <source>Only numbers and decimal points (".") are allowed in the amount fields of the payment block, e.g. 10.50 or 1050.</source>
+        <target state="final">Só são permitidos números e pontos decimais (".") nos campos de montante do bloco de pagamento, por exemplo, 10,50 ou 1050.</target>
+        <note>Line: 2039</note>
       </trans-unit>
       <trans-unit id="6ab061ec12504fab2c41f0689579d623" approved="yes">
         <source>The selected payment method is invalid.</source>
@@ -355,7 +461,11 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Currencies/CurrencyType.php" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
+      <trans-unit id="f569be19b537a76af7e287ace573cd3e" approved="yes">
+        <source>Please enter a positive value</source>
+        <target state="final">Introduza um valor positivo</target>
+        <note>Line: 264</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/Invoices/InvoiceByStatusFormHandler.php" source-language="en" target-language="pt-PT" datatype="plaintext">
@@ -461,6 +571,11 @@
         <target state="final">Não foi encontrado nenhum produto</target>
         <note>Line: 44</note>
       </trans-unit>
+      <trans-unit id="088f451a8ce01d3cea0fa2a6e886d310" approved="yes">
+        <source>Searching for products</source>
+        <target state="final">À procura de produtos</target>
+        <note>Line: 50</note>
+      </trans-unit>
       <trans-unit id="453c92894f48764318534163c2bb2830" approved="yes">
         <source>The prices are without taxes.</source>
         <target state="final">Os preços não incluem IVA.</target>
@@ -474,6 +589,11 @@
         <source>No customers found</source>
         <target state="final">Nenhum cliente encontrado</target>
         <note>Line: 53</note>
+      </trans-unit>
+      <trans-unit id="a9b14221307d90ff672c5cbb61b4c500" approved="yes">
+        <source>Searching for customers</source>
+        <target state="final">A pesquisar clientes</target>
+        <note>Line: 60</note>
       </trans-unit>
     </body>
   </file>
@@ -524,8 +644,16 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/edit_product_row.html.twig" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="ca4c54eff098a5785c2016718a00ef1f" approved="yes">
+        <source>Are you sure you want to edit this product price? It will be applied to all invoices of this order.</source>
+        <target state="final">Tem a certeza de que pretende editar o preço deste produto? Será aplicado a todas as facturas desta encomenda.</target>
+        <note>Line: 54</note>
+      </trans-unit>
+      <trans-unit id="99def74fcec1306526eaf054ccd2a5f7" approved="yes">
+        <source>Are you sure you want to edit this product price? It will be applied to all identical products in this order.</source>
+        <target state="final">Tem a certeza de que quer editar o preço deste produto? Será aplicado a todos os produtos idênticos nesta encomenda.</target>
+        <note>Line: 35</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/merchandise_returns.html.twig" source-language="en" target-language="pt-PT" datatype="plaintext">
@@ -534,6 +662,11 @@
         <source>No merchandise returned yet</source>
         <target state="final">Nenhuma devolução de mercadoria até ao momento</target>
         <note>Line: 53</note>
+      </trans-unit>
+      <trans-unit id="8132fa66932aa7c4ed3e16f35e228194" approved="yes">
+        <source>Merchandise returns are not applicable for virtual orders</source>
+        <target state="final">As devoluções de mercadorias não são aplicáveis às encomendas virtuais</target>
+        <note>Line: 60</note>
       </trans-unit>
     </body>
   </file>
@@ -552,6 +685,11 @@
         <source>paid instead of</source>
         <target state="final">pago em vez de</target>
         <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="0f9e99e69b4986359118744a2a670fed" approved="yes">
+        <source>This warning also concerns order:</source>
+        <target state="final">Este aviso também diz respeito à ordem:</target>
+        <note>Line: 35</note>
       </trans-unit>
       <trans-unit id="804e12a31196cf44ec13212952a59158" approved="yes">
         <source>This warning also concerns the following orders:</source>
