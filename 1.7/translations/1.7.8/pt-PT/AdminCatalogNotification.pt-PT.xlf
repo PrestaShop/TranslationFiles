@@ -35,6 +35,16 @@
         <target state="final">Não pode definir uma posição maior do que o número total de produtos nesta categoria menos 1 (a numeração da posição começa em 0).</target>
         <note>Line: 6171</note>
       </trans-unit>
+      <trans-unit id="30a367ba686890c829937e768d588b8f" approved="yes">
+        <source>You cannot set 0 or a negative position, the minimum is 1.</source>
+        <target state="final">Não se pode definir 0 ou uma posição negativa, o mínimo é 1.</target>
+        <note>Line: 7107</note>
+      </trans-unit>
+      <trans-unit id="cf99dad7d7306d9ac01ba5a2e2d2c715" approved="yes">
+        <source>You cannot set a position greater than the total number of products in the category, starting at 1.</source>
+        <target state="final">Não se pode definir uma posição maior do que o número total de produtos da categoria, começando por 1.</target>
+        <note>Line: 7128</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/QqUploadedFileForm.php" source-language="en" target-language="pt-PT" datatype="plaintext">
@@ -66,6 +76,11 @@
         <source>This will copy the images too. If you wish to proceed, click "Yes". If not, click "No".</source>
         <target state="final">isto vai copiar as imagens também. Se quer continuar, clique "Sim". Se não, clique "Não".</target>
         <note>Line: 429</note>
+      </trans-unit>
+      <trans-unit id="76a0433a69a82abfba836ca72dbef13f" approved="yes">
+        <source>This will copy the images too. If you wish to proceed, click "%yes_label%". If not, click "%no_label%".</source>
+        <target state="final">Isto também irá copiar as imagens. Se desejar prosseguir, clicar em "%yes_label%". Se não, clicar em "%no_label%".</target>
+        <note>Line: 431</note>
       </trans-unit>
     </body>
   </file>
@@ -525,16 +540,40 @@
   </file>
   <file original="modules/ps_linklist/src/Controller/Admin/Improve/Design/LinkBlockController.php" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
+      <trans-unit id="15d30198621ad33274fc94b08cff5009" approved="yes">
+        <source>Could not delete #%i</source>
+        <target state="final">Não foi possível eliminar #%i</target>
+        <note>Line: 171</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/ps_linklist/src/Form/LinkBlockFormDataProvider.php" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
+      <trans-unit id="3535b3934d0e2d6e7759649d78c7da58" approved="yes">
+        <source>Missing id_hook</source>
+        <target state="final">Id_hook em falta</target>
+        <note>Line: 256</note>
+      </trans-unit>
+      <trans-unit id="36ccadce9e530e36cf265145bdba5c1c" approved="yes">
+        <source>Missing block_name</source>
+        <target state="final">block_name em falta</target>
+        <note>Line: 264</note>
+      </trans-unit>
+      <trans-unit id="12f4f6b7d1d17838950e3c6107144f2a" approved="yes">
+        <source>Missing block_name value for language %s</source>
+        <target state="final">Valor de block_name ausente para o idioma %s</target>
+        <note>Line: 272</note>
+      </trans-unit>
+      <trans-unit id="ba88eb1dd9466f0be32b7dc7a82297ad" approved="yes">
+        <source>Missing %s value in custom [%s] for language %s</source>
+        <target state="final">Valor %s ausente na personalização [%s] para o idioma %s</target>
+        <note>Line: 251</note>
+      </trans-unit>
+      <trans-unit id="504ca7ea96dde692360e88a97e98fc91" approved="yes">
+        <source>Missing %s value in custom[%s] for language %s</source>
+        <target state="final">Valor %s ausente na personalização [%s] para o idioma %s</target>
+        <note>Line: 294</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Attribute/AdminAttributeGeneratorControllerWrapper.php" source-language="en" target-language="pt-PT" datatype="plaintext">
@@ -631,11 +670,30 @@
         <target state="final">Pretendo eliminar os Produtos que se encontram apenas nesta Categoria e em nenhuma outra.</target>
         <note>Line: 73</note>
       </trans-unit>
+      <trans-unit id="4d5ec94fee2d67b1f49517f355425fb0" approved="yes">
+        <source>If they have no other category, I want to associate them with the parent category.</source>
+        <target state="final">Se não tiverem outra categoria, quero associá-los à categoria pai.</target>
+        <note>Line: 57</note>
+      </trans-unit>
+      <trans-unit id="8743e83ee9ec372f40d4a58160bfc1d2" approved="yes">
+        <source>If they have no other category, I want to associate them with the parent category and turn them offline.</source>
+        <target state="final">Se não tiverem outra categoria, quero associá-los à categoria pai e torná-los ‘offline’.</target>
+        <note>Line: 65</note>
+      </trans-unit>
+      <trans-unit id="63cfe520c7e96406010bc883272667f5" approved="yes">
+        <source>If they have no other category, I want to delete them as well.</source>
+        <target state="final">Se não tiverem outra categoria, quero eliminá-los também.</target>
+        <note>Line: 73</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Core/Grid/Data/Factory/AttachmentGridDataFactoryDecorator.php" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
+      <trans-unit id="14c18063d1497fb156ab73c0d59d354b" approved="yes">
+        <source>This file is associated with the following products. Are you sure you want to delete it?</source>
+        <target state="final">Este ficheiro está associado com os seguintes produtos. Tem a certeza de que o quer apagar?</target>
+        <note>Line: 121</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/ProductController.php" source-language="en" target-language="pt-PT" datatype="plaintext">
@@ -728,17 +786,44 @@
         <target state="final">Ocorreu um erro ao enviar a imagem:</target>
         <note>Line: 882</note>
       </trans-unit>
+      <trans-unit id="3d85438a25723cc56bd4aefb9b368bc0" approved="yes">
+        <source>An error occurred while creating the category.</source>
+        <target state="final">Ocorreu um erro ao criar a categoria.</target>
+        <note>Line: 865</note>
+      </trans-unit>
+      <trans-unit id="175ad2b319a95a0b7c580dbc4205fdac" approved="yes">
+        <source>An error occurred while editing the category.</source>
+        <target state="final">Ocorreu um erro durante a edição da categoria.</target>
+        <note>Line: 873</note>
+      </trans-unit>
+      <trans-unit id="17668cbc24213c8d43211a67139c3939" approved="yes">
+        <source>The root category of a shop cannot be edited.</source>
+        <target state="final">A categoria de raiz de uma loja não pode ser editada.</target>
+        <note>Line: 869</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/ManufacturerController.php" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="5769710cefad47e76691be9d61b7231c" approved="yes">
+        <source><![CDATA[The display of your brands is enabled on your store. Go to %sShop Parameters > General%s to edit settings.]]></source>
+        <target state="final"><![CDATA[A exibição das suas marcas é permitida na sua loja. Ir para %sParâmetros de Loja > Geral%s para editar definições.]]></target>
+        <note>Line: 774</note>
+      </trans-unit>
+      <trans-unit id="1205b99b993cef78d80b0bcbc312f2c3" approved="yes">
+        <source><![CDATA[The display of your brands is disabled on your store. Go to %sShop Parameters > General%s to edit settings.]]></source>
+        <target state="final"><![CDATA[A exibição das suas marcas é desativada na sua loja. Ir para %sParâmetros de Loja > Geral%s para editar definições.]]></target>
+        <note>Line: 781</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/ProductController.php" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
+      <trans-unit id="f07403f2e9d7e44c0090ab06678d4eb3" approved="yes">
+        <source>The experimental product page is not enabled. To enable it, go to the %sExperimental Features%s page.</source>
+        <target state="final">A página de produto experimental não está ativada. Para a ativar, vá à página %sExperimental Features%s.</target>
+        <note>Line: 276</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/SupplierController.php" source-language="en" target-language="pt-PT" datatype="plaintext">
@@ -753,6 +838,16 @@
         <target state="final">Não é possível eliminar um fornecedor se existirem encomendas a fornecedores pendentes.</target>
         <note>Line: 475</note>
       </trans-unit>
+      <trans-unit id="3aff310e32cb7bb2d1affd97920c9f4b" approved="yes">
+        <source><![CDATA[The display of your suppliers is enabled on your store. Go to %sShop Parameters > General%s to edit settings.]]></source>
+        <target state="final"><![CDATA[A afixação dos seus fornecedores é activada na sua loja. Ir para %Parâmetros de Loja > Geral%s para editar definições.]]></target>
+        <note>Line: 535</note>
+      </trans-unit>
+      <trans-unit id="555740fcf7bb2fb267bc711c4919edcb" approved="yes">
+        <source><![CDATA[The display of your suppliers is disabled on your store. Go to %sShop Parameters > General%s to edit settings.]]></source>
+        <target state="final"><![CDATA[A exibição dos seus fornecedores é desactivada na sua loja. Ir para %Parâmetros de Loja > Geral%s para editar definições.]]></target>
+        <note>Line: 542</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/CartController.php" source-language="en" target-language="pt-PT" datatype="plaintext">
@@ -762,16 +857,29 @@
         <target state="final">Não há produtos suficientes em stock.</target>
         <note>Line: 604</note>
       </trans-unit>
+      <trans-unit id="891d308560a0cca2452fd2f482dded8c" approved="yes">
+        <source><![CDATA[Product customization could not be found. Go to Catalog > Products to customize the product.]]></source>
+        <target state="final"><![CDATA[Não foi possível encontrar a personalização do produto. Ir para Catálogo > Produtos para personalizar o produto.]]></target>
+        <note>Line: 596</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
+      <trans-unit id="4fce600d4fc0429af2f5bc5861eefb3e" approved="yes">
+        <source>Selected products were successfully canceled.</source>
+        <target state="final">Os produtos selecionados foram cancelados com sucesso.</target>
+        <note>Line: 1677</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/SpecificPriceController.php" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
+      <trans-unit id="04f6302b96c8cbaaec71cc884a6626a5" approved="yes">
+        <source>Cannot find specific price %price%</source>
+        <target state="final">Preço específico não encontrado %price%</target>
+        <note>Line: 134</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Product/ProductInformation.php" source-language="en" target-language="pt-PT" datatype="plaintext">
@@ -785,18 +893,50 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/HeaderType.php" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
+      <trans-unit id="2b260d6a8a4b747672d790f18c2ab780" approved="yes">
+        <source>Are you sure you want to change the product type?</source>
+        <target state="final">Tem a certeza de que quer mudar o tipo de produto?</target>
+        <note>Line: 70</note>
+      </trans-unit>
+      <trans-unit id="da531a2761eef5012cadd0a2e31acab6" approved="yes">
+        <source>Change product type</source>
+        <target state="final">Alterar tipo de produto</target>
+        <note>Line: 71</note>
+      </trans-unit>
+      <trans-unit id="178b6141eb15b94fb25e5940625ecd01" approved="yes">
+        <source>Changing the product type will immediately save the product and refresh the page.</source>
+        <target state="final">A alteração do tipo de produto salvará imediatamente o produto e atualizará a página.</target>
+        <note>Line: 73</note>
+      </trans-unit>
+      <trans-unit id="d125a0ad5887eb2575a57c2149a12c1d" approved="yes">
+        <source>This will delete all combinations.</source>
+        <target state="final">Isto irá eliminar todas as combinações.</target>
+        <note>Line: 74</note>
+      </trans-unit>
+      <trans-unit id="6b7844c384e54ed301c7f3f6b4aac389" approved="yes">
+        <source>This will delete the list of products in this pack.</source>
+        <target state="final">Isto irá eliminar a lista de produtos desta embalagem.</target>
+        <note>Line: 75</note>
+      </trans-unit>
+      <trans-unit id="4882c6b9d11d6aacd193fa21547fd727" approved="yes">
+        <source>This will delete the associated virtual file.</source>
+        <target state="final">Isto irá apagar o ficheiro virtual associado.</target>
+        <note>Line: 76</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Image/ImageDropzoneType.php" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="9a906b85c45f31efeb25eef56aad240b" approved="yes">
+        <source>Image replaced</source>
+        <target state="final">Imagem substituída</target>
+        <note>Line: 56</note>
+      </trans-unit>
+      <trans-unit id="02708462d504c68df426d48cd6aae23f" approved="yes">
+        <source>Are you sure you want to delete the selected image?|Are you sure you want to delete the %filesNb% selected images?</source>
+        <target state="final">Tem a certeza que quer apagar a imagem selecionada?|Tem a certeza que quer apagar os %filesNb% imagens selecionadas?</target>
+        <note>Line: 79</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Validator/Constraints/TinyMceMaxLengthValidator.php" source-language="en" target-language="pt-PT" datatype="plaintext">
@@ -1006,7 +1146,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Categories/Blocks/delete_categories_modal.html.twig" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
+      <trans-unit id="332a0777d848606eb5f63149d0bb1105" approved="yes">
+        <source>Note that if they have another category, your products will logically remain associated with it.</source>
+        <target state="final">Note-se que se tiverem outra categoria, os seus produtos permanecerão logicamente associados a ela.</target>
+        <note>Line: 44</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Categories/Blocks/form.html.twig" source-language="en" target-language="pt-PT" datatype="plaintext">
@@ -1038,13 +1182,25 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/Combination/paginated_list.html.twig" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="d077aab0da809b9037b3e3974da6bad3" approved="yes">
+        <source>Discard changes?</source>
+        <target state="final">Rejeitar alterações?</target>
+        <note>Line: 45</note>
+      </trans-unit>
+      <trans-unit id="e202ea17abd88b9634fb9939f6253ea9" approved="yes">
+        <source>All unsaved modifications made on the combination [1]%combinationName%[/1] will be lost.</source>
+        <target state="final">Todas as modificações não guardadas feitas na combinação [1]%combinationName%[/1] serão perdidas.</target>
+        <note>Line: 46</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/edit.html.twig" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
+      <trans-unit id="fd7c4e2dcae282ac5305265c45be0bc2" approved="yes">
+        <source>This is the experimental product page.</source>
+        <target state="final">Esta é a página do produto experimental.</target>
+        <note>Line: 69</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Stock/overview.html.twig" source-language="en" target-language="pt-PT" datatype="plaintext">
