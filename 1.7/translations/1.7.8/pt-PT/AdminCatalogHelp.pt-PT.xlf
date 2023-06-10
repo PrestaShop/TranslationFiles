@@ -89,10 +89,22 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/categories/helpers/form/form.tpl" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
+      <trans-unit id="db11ee64aeb094a9cccbd04957e3416f" approved="yes">
+        <source><![CDATA[If you want a category to appear in the menu of your shop, go to [1]Modules > Modules & Services > Installed modules.[/1] Then, configure your menu module.]]></source>
+        <target state="final"><![CDATA[Se quiser que uma categoria apareça no menu da sua loja, vá a [1]Módulos > Módulos 
+& Serviços > Módulos Instalados.[/1] De seguida, configure o seu módulo de menu.]]></target>
+        <note>Context:
+File: admin-dev/themes/default/template/controllers/categories/helpers/form/form.tpl:50</note>
+      </trans-unit>
       <trans-unit id="5bc1667deb2b522c0cac00de5f15ffbc" approved="yes">
         <source>Recommended dimensions (for the default theme): %1spx x %2spx</source>
         <target state="final">Dimensões recomendadas (para o tema predefinido): %1spx x %2spx</target>
         <note>Line: 60</note>
+      </trans-unit>
+      <trans-unit id="0f6ae5ebf937764fc48db601df56d0ca" approved="yes">
+        <source><![CDATA[If you want a category to appear in the menu of your shop, go to [1]Modules > Modules Manager.[/1] Then, configure your menu module.]]></source>
+        <target state="final"><![CDATA[Se quiser que uma categoria apareça no menu da sua loja, vá a [1]Módulos > Gestor de Módulos.[/1] De seguida, configure o seu módulo de menu.]]></target>
+        <note>Line: 50</note>
       </trans-unit>
     </body>
   </file>
@@ -301,13 +313,25 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Catalog/Category/AbstractCategoryType.php" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="88fe88f4033791ef6f38fbb7f7c58f04" approved="yes">
+        <source>To have a different title from the category name, enter it here.</source>
+        <target state="final">Para ter um título diferente na categoria, digite-o aqui.</target>
+        <note>Line: 145</note>
+      </trans-unit>
+      <trans-unit id="0a7ca3ce7cde025a585cd02d7382b48f" approved="yes">
+        <source>To have a different description than your category summary in search results page, write it here.</source>
+        <target state="final">Para ter uma descrição diferente do resumo da categoria, na página de resultados de pesquisa, escreva-a aqui.</target>
+        <note>Line: 178</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/Design/Pages/CmsPageCategoryType.php" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
+      <trans-unit id="461832a83a68a8e85f96044921b51704" approved="yes">
+        <source><![CDATA[Unless the 'Accented URL' option is enabled (in Shop parameters > Traffic & SEO), only letters, numbers, underscores (_), and hyphens (-) are allowed.]]></source>
+        <target state="final"><![CDATA[A menos que a opção 'URL acentuado' esteja ativada (em Parâmetros de Loja > Tráfego & SEO), apenas letras, números, sublinhados (_), e hífenes (-) são permitidos.]]></target>
+        <note>Line: 193</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Product/ProductInformation.php" source-language="en" target-language="pt-PT" datatype="plaintext">
@@ -398,6 +422,11 @@
         <target state="final">Para que categoria é que a página deve redirecionar?</target>
         <note>Line: 181</note>
       </trans-unit>
+      <trans-unit id="2719055d3b2b4fc865a78df22462c96b" approved="yes">
+        <source>If no category is selected the Main Category is used</source>
+        <target state="final">Se não for selecionada nenhuma categoria será utilizada a categoria principal</target>
+        <note>Line: 182</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Manufacturer/ManufacturerType.php" source-language="en" target-language="pt-PT" datatype="plaintext">
@@ -411,33 +440,61 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Category/CategoriesType.php" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
+      <trans-unit id="5af2dd3e53dafebd7d2e0e9c9d395109" approved="yes">
+        <source>If you want to quickly create a new category, you can do it here. Don’t forget to then go to the Categories page to fill in the needed details (description, image, etc.). A new category will not automatically appear in your shop's menu, please read the Help about it.</source>
+        <target state="final">Se quiser criar rapidamente uma nova categoria, pode fazê-lo aqui. Não se esqueça de ir à página de Categorias para preencher os detalhes necessários (descrição, imagem, etc.). Uma nova categoria não aparecerá automaticamente no menu da sua loja, por favor leia a Ajuda sobre a mesma.</target>
+        <note>Line: 48</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationFormType.php" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
+      <trans-unit id="762d425093de542e7ab628b44ff68515" approved="yes">
+        <source>This interface allows you to specify the suppliers of the current combination.</source>
+        <target state="final">Esta interface permite-lhe especificar os fornecedores do produto atual e as suas combinações, se for caso disso.</target>
+        <note>Line: 77</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Image/ImageDropzoneType.php" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
+      <trans-unit id="5f9f342e4e78d83ab2ebb44531de3500" approved="yes">
+        <source>Using another image as cover will automatically uncheck this box.</source>
+        <target state="final">A utilização de outra imagem como capa irá automaticamente desmarcar esta caixa.</target>
+        <note>Line: 59</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Pricing/RetailPriceType.php" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
+      <trans-unit id="433ae76dedb26dc8d117acb2f6accdaa" approved="yes">
+        <source>This is the net sales price for your customers. The retail price (tax incl.) will automatically be calculated using the selected tax rate.</source>
+        <target state="final">Este é o preço líquido de venda para os seus clientes. O preço de venda a retalho (imposto incl.) será automaticamente calculado a utilizar a taxa de imposto selecionada.</target>
+        <note>Line: 117</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Pricing/UnitPriceType.php" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
+      <trans-unit id="dfeaf70424e17fcd26f016ace18f2139" approved="yes">
+        <source>Indicate the price for a single unit of the product. For instance, if you're selling fabrics, it would be the price per meter.</source>
+        <target state="final">Indicar o preço de uma única unidade do produto. Por exemplo, se estiver a vender tecidos, seria o preço por metro.</target>
+        <note>Line: 71</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/SEO/SEOType.php" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="390348fb4642f64089e6e9ee71f25a7c" approved="yes">
+        <source>This description will appear in search engines. It should be a single sentence, shorter than 160 characters (including spaces).</source>
+        <target state="final">Esta descrição aparecerá nos motores de busca. Deve ser uma única frase, com menos de 160 caracteres (incluindo espaços).</target>
+        <note>Line: 119</note>
+      </trans-unit>
+      <trans-unit id="b51716b6494f24132f3543c516d59742" approved="yes">
+        <source>Public title for the product page, and for search engines. Leave blank to use the product name. The number of remaining characters is displayed to the right of the field.</source>
+        <target state="final">Título público para a página do produto, e para os motores de busca. Deixar em branco para utilizar o nome do produto. O número de caracteres restantes é afixado à direita do campo.</target>
+        <note>Line: 91</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Supplier/SupplierType.php" source-language="en" target-language="pt-PT" datatype="plaintext">
@@ -570,6 +627,11 @@
         <target state="final"><![CDATA[Para adicionar combinações, em primeiro lugar, precisa de criar atributos e valores próprios em [1]Atributos e características[/1]. <br> Quando terminar, pode inserir os atributos pretendidos (como "tamanho" ou "cor") e os seus valores respetivos ("XS", "vermelho", "todos", etc.) no campo seguinte; ou simplesmente selecioná-los a partir da coluna do lado direito. A seguir, clique em "Gerar": automaticamente isto cria todas as combinações por si!]]></target>
         <note>Line: 38</note>
       </trans-unit>
+      <trans-unit id="ab80db7e778c7415ca2f34deb46d5f44" approved="yes">
+        <source><![CDATA[To add combinations, you first need to create proper attributes and values in [1]%attributes_and_features_label%[/1]. <br> When done, you may enter the wanted attributes (like "size" or "color") and their respective values ("XS", "red", "all", etc.) in the field below; or simply select them from the right column. Then click on "%generate_label%": it will automatically create all the combinations for you!]]></source>
+        <target state="final"><![CDATA[Para adicionar combinações, é necessário primeiro criar atributos e valores adequados em [1]%attributes_and_features_label%[/1]. <br> Quando terminar, pode introduzir os atributos desejados (como "tamanho" ou "cor") e os seus respectivos valores ("XS", "vermelho", "todos", etc.) no campo abaixo; ou simplesmente seleccioná-los a partir da coluna da direita. Depois clique em "%generate_label%": irá criar automaticamente todas as combinações para si!]]></target>
+        <note>Line: 38</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_seo.html.twig" source-language="en" target-language="pt-PT" datatype="plaintext">
@@ -613,6 +675,11 @@
         <target state="final">editar</target>
         <note>Line: 94</note>
       </trans-unit>
+      <trans-unit id="8b2ff26690065c221599c196cb6adc82" approved="yes">
+        <source>If a carrier has a tax, it will be added to the shipping fees. Does not apply to free shipping.</source>
+        <target state="final">Se for cobrado um imposto pela transportadora, este será adicionado às taxas de envio. Não se aplica a envio gratuito.</target>
+        <note>Line: 127</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_supplier_choice.html.twig" source-language="en" target-language="pt-PT" datatype="plaintext">
@@ -639,6 +706,11 @@
       <trans-unit id="214396125ea99914d7f6faef5d612b85" approved="yes">
         <source>You can specify product reference(s) for each associated supplier. Click "Save" after changing selected suppliers to display the associated product references.</source>
         <target state="final">Pode indicar a(s) referência(s) do produto para cada fornecedor associado. Clique em «Guardar» depois de alterar os fornecedores selecionados para apresentar as referências associadas do produto.</target>
+        <note>Line: 31</note>
+      </trans-unit>
+      <trans-unit id="738971709fcd7de4b5f8a87eb1e663a1" approved="yes">
+        <source>You can specify product reference(s) for each associated supplier. Click "%save_label%" after changing selected suppliers to display the associated product references.</source>
+        <target state="final">Pode especificar referência(s) de produto(s) para cada fornecedor associado. Clicar em "%save_label%" após mudar de fornecedor selecionado para exibir as referências do produto associado.</target>
         <note>Line: 31</note>
       </trans-unit>
     </body>
@@ -772,6 +844,11 @@
         <target state="final">Este tipo de código do produto é específico para a Europa e Japão, mas é amplamente utilizado internacionalmente. Trata-se de uma generalização do código UPC: todos os produtos marcados com um EAN são aceites na América do Norte.</target>
         <note>Line: 127</note>
       </trans-unit>
+      <trans-unit id="c268a2747d5680c617c361cd505c4576" approved="yes">
+        <source>MPN is used internationally to identify the Manufacturer Part Number.</source>
+        <target state="final">O MPN é utilizado internacionalmente para identificar o Número de Peça do Fabricante.</target>
+        <note>Line: 147</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/pricing.html.twig" source-language="en" target-language="pt-PT" datatype="plaintext">
@@ -834,6 +911,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Categories/Blocks/form.html.twig" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
+      <trans-unit id="d4be87a5a7a7e9bf633dc6d356968333" approved="yes">
+        <source>Click on "Displayed" to index the category on your shop.</source>
+        <target state="final">Clique em "Apresentada" para indexar a categoria na sua loja.</target>
+        <note>Line: 44</note>
+      </trans-unit>
       <trans-unit id="42f9ee5026d32792987af851a2ea0343" approved="yes">
         <source>This is the main image for your category, displayed in the category page. The category description will overlap this image and appear in its top-left corner.</source>
         <target state="final">Esta é a imagem principal da sua categoria, apresentada na página da categoria. A descrição da categoria sobrepõe-se a esta imagem no canto superior esquerdo.</target>
@@ -864,11 +946,25 @@
         <target state="final">Marcar todos os Grupos de Clientes aos quais pretende dar acesso a esta Categoria.</target>
         <note>Line: 175</note>
       </trans-unit>
+      <trans-unit id="19318118b1173f172418b3282cb037d7" approved="yes">
+        <source><![CDATA[If you want a category to appear in the menu of your shop, go to [1]Modules > Module Manager[/1] and configure your menu module.]]></source>
+        <target state="final"><![CDATA[Se desejar que uma categoria apareça no menu da sua loja, vá para [1]Módulos> Gestor de módulos[/1] e configure seu módulo do menu.]]></target>
+        <note>Line: 48</note>
+      </trans-unit>
+      <trans-unit id="5d57e03bdb23114707da20a5d5937b82" approved="yes">
+        <source>Click on "%displayed_label%" to index the category on your shop.</source>
+        <target state="final">Clique em "%displayed_label%" para indexar a categoria na sua loja.</target>
+        <note>Line: 44</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Manufacturer/Blocks/form.html.twig" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
+      <trans-unit id="8ed6ad2c4486cdf4c66666671a6d4bf5" approved="yes">
+        <source>To add "tags", click inside the field, write something, and then press "Enter".</source>
+        <target state="final">Para adicionar "tags", clique dentro do campo, escreva algo e pressione "Enter".</target>
+        <note>Line: 86</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Monitoring/index.html.twig" source-language="en" target-language="pt-PT" datatype="plaintext">
@@ -882,12 +978,20 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/Combination/empty_state.html.twig" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
+      <trans-unit id="d87fdec724af7ed0338f394852787788" approved="yes">
+        <source>To add combinations, you first need to create proper attributes and values in [1]%attributes_and_features_label%[/1].</source>
+        <target state="final">Para adicionar combinações, é necessário primeiro criar atributos e valores adequados em [1]%attributes_and_features_label%[/1].</target>
+        <note>Line: 34</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/Tabs/options.html.twig" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
+      <trans-unit id="f6011ed1f37abfade28c8fb3fcaf2562" approved="yes">
+        <source>To specify the suppliers of this product's combinations you can go to [1]{combinations_label}[/1] tab.</source>
+        <target state="final">Para especificar os fornecedores das combinações deste produto, pode ir ao separador [1]{combinations_label}[/1].</target>
+        <note>Line: 38</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
