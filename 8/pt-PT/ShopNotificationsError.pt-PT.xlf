@@ -62,6 +62,11 @@
         <target state="final">Por favor entre na sua conta primeiro</target>
         <note>Line: 827</note>
       </trans-unit>
+      <trans-unit id="a5e06c56adb314048d97a666db5c1d5a" approved="yes">
+        <source>The minimum amount to benefit from this promo code is %s.</source>
+        <target state="final">O montante mínimo para beneficiar deste código promocional é de %s.</target>
+        <note>Line: 872</note>
+      </trans-unit>
       <trans-unit id="d0f1560c5d1b13b1e64fa87a301dd83b" approved="yes">
         <source>This voucher is already in your cart</source>
         <target state="final">Este vale de desconto já se encontra no seu carrinho de compras</target>
@@ -77,6 +82,11 @@
         <target state="final">O carrinho está vazio</target>
         <note>Line: 919</note>
       </trans-unit>
+      <trans-unit id="1a0c8c4e381164295f1e06d777411d11" approved="yes">
+        <source>You cannot use this voucher because it has manually been removed.</source>
+        <target state="final">Você não pode usar este vale de desconto porque ele foi removido manualmente.</target>
+        <note>Line: 931</note>
+      </trans-unit>
       <trans-unit id="f6b43936fe8476614100c342b9c4750d" approved="yes">
         <source>You cannot use this voucher in an empty cart</source>
         <target state="final">Não pode usar este vale de desconto num carrinho vazio</target>
@@ -91,12 +101,25 @@
   </file>
   <file original="classes/controller/FrontController.php" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="914aabd65a536be202b28dc1ac5dd1af" approved="yes">
+        <source>This cart has expired.</source>
+        <target state="final">Este carrinho expirou.</target>
+        <note>Line: 1278</note>
+      </trans-unit>
+      <trans-unit id="1e65dae319656efa0e4d3f49be9fdfda" approved="yes">
+        <source>This cart was already used in an order and has expired.</source>
+        <target state="final">Este carrinho já foi utilizado numa encomenda e expirou.</target>
+        <note>Line: 1285</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/form/CustomerForm.php" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
+      <trans-unit id="eefb581d7c421334e62a68223c7a242a" approved="yes">
+        <source>The email is already used, please choose another one or sign in</source>
+        <target state="final">O e-mail já é utilizado. Por favor escolha outro ou inicie sessão</target>
+        <note>Line: 131</note>
+      </trans-unit>
       <trans-unit id="0e2338b37ab3dfeed544e8233b53d4e0" approved="yes">
         <source>The %1$s field is too long (%2$d chars max).</source>
         <target state="final">O campo %1$s é demasiado longo (%2$d caracteres max.)</target>
@@ -168,6 +191,11 @@
         <target state="final">Corrija o erro abaixo.</target>
         <note>Line: 74</note>
       </trans-unit>
+      <trans-unit id="beb19eac775bc240590f89e361d2baab" approved="yes">
+        <source>Could not delete the address since it is used in the shopping cart.</source>
+        <target state="final">Não foi possível apagar o endereço, visto que este é utilizado no carrinho de compras.</target>
+        <note>Line: 98</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/front/AddressesController.php" source-language="en" target-language="pt-PT" datatype="plaintext">
@@ -216,6 +244,16 @@
         <target state="final">Este artigo (%product%) já não está disponível.</target>
         <note>Line: 649</note>
       </trans-unit>
+      <trans-unit id="826a646b380b3eecb77bc4cec1b8fb9c" approved="yes">
+        <source>The product is no longer available in this quantity.</source>
+        <target state="final">O produto já não está disponível nesta quantidade.</target>
+        <note>Line: 518</note>
+      </trans-unit>
+      <trans-unit id="feb34b89eb5bf8066025f508b9b86ab2" approved="yes">
+        <source>The minimum purchase order quantity for the product %product% is %quantity%.</source>
+        <target state="final">A quantidade mínima de encomenda do produto %product% é %quantity%.</target>
+        <note>Line: 666</note>
+      </trans-unit>
       <trans-unit id="84a7c3aeebf09d169aca8555be640bbf" approved="yes">
         <source>Please fill in all of the required fields, and then save your customizations.</source>
         <target state="final">Preencha todos os campos obrigatórios, e depois grave a sua personalização.</target>
@@ -225,6 +263,21 @@
         <source>You already have the maximum quantity available for this product.</source>
         <target state="final">Já tem a quantidade máxima disponível para este produto.</target>
         <note>Line: 517</note>
+      </trans-unit>
+      <trans-unit id="9fa9fed2500d3834c9ab9ed7509eabd2" approved="yes">
+        <source>The item %product% in your cart is now a product with attributes. Please delete it and choose one of its combinations to proceed with your order.</source>
+        <target state="final">O ‘item’ %product% no seu carrinho é agora um produto com atributos. Por favor, elimine-o e escolha uma das suas combinações para prosseguir com a sua encomenda.</target>
+        <note>Line: 627</note>
+      </trans-unit>
+      <trans-unit id="fcdd5cdc83ccc2c10e4973bff9836b8c" approved="yes">
+        <source>%product% is no longer available in this quantity. You cannot proceed with your order until the quantity is adjusted.</source>
+        <target state="final">%product% já não está disponível nesta quantidade. Não pode prosseguir com a sua encomenda até que a quantidade seja ajustada.</target>
+        <note>Line: 642</note>
+      </trans-unit>
+      <trans-unit id="c537c5f84e2a246b4743b7db3457963f" approved="yes">
+        <source>The available purchase order quantity for this product is %quantity%.</source>
+        <target state="final">A quantidade disponível do pedido de compra para este produto é %quantity%.</target>
+        <note>Line: 527</note>
       </trans-unit>
     </body>
   </file>
@@ -302,10 +355,25 @@
   </file>
   <file original="controllers/front/OrderConfirmationController.php" source-language="en" target-language="pt-PT" datatype="plaintext">
     <body>
+      <trans-unit id="e9c8b958cbfb895182fe7eeeeadd1121" approved="yes">
+        <source>A customer account has already been created from this guest account. Please sign in.</source>
+        <target state="final">Já foi criada uma conta de cliente a partir desta conta de convidado. Por favor, inicie sessão.</target>
+        <note>Line: 187</note>
+      </trans-unit>
       <trans-unit id="97f79d53b078e529949d5c3c8b676d52" approved="yes">
         <source>An unexpected error occurred while creating your account.</source>
         <target state="final">Ocorreu um erro inesperado ao criar a sua conta.</target>
         <note>Line: 200</note>
+      </trans-unit>
+      <trans-unit id="e74bbc67e02323a626ce95619ef42fd5" approved="yes">
+        <source>Password must be between %d and %d characters long</source>
+        <target state="final">A palavra-passe deve ter um comprimento entre %d e %d caracteres</target>
+        <note>Line: 139</note>
+      </trans-unit>
+      <trans-unit id="f43333ea2272fed37fc121a2e09755c3" approved="yes">
+        <source>The minimum score must be: %s</source>
+        <target state="final">A pontuação mínima deve ser: %s</target>
+        <note>Line: 156</note>
       </trans-unit>
     </body>
   </file>
@@ -394,6 +462,16 @@
         <target state="final">Falta a palavra-passe: insira a sua nova palavra-passe.</target>
         <note>Line: 151</note>
       </trans-unit>
+      <trans-unit id="f3e3f424a084383aa2931fae612b1ff1" approved="yes">
+        <source>The confirmation is empty: please fill in the password confirmation as well</source>
+        <target state="final">A confirmação está vazia: por favor, preencha também a confirmação da palavra-passe</target>
+        <note>Line: 155</note>
+      </trans-unit>
+      <trans-unit id="65efaaf9ead1beea82672beb5ace1fe2" approved="yes">
+        <source>The confirmation password doesn't match.</source>
+        <target state="final">A palavra-passe de confirmação não corresponde.</target>
+        <note>Line: 160</note>
+      </trans-unit>
       <trans-unit id="f01fb987f60542e0bff1bf7bed42d142" approved="yes">
         <source>The password is not in a valid format.</source>
         <target state="final">O formato da palavra-passe não é válido.</target>
@@ -461,6 +539,11 @@
         <target state="final">Ocorreu um erro durante o envio da imagem.</target>
         <note>Line: 948</note>
       </trans-unit>
+      <trans-unit id="e14005ecaeec15e1019f543a379b83cc" approved="yes">
+        <source>Invalid message.</source>
+        <target state="final">Mensagem inválida.</target>
+        <note>Line: 976</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/front/listing/CategoryController.php" source-language="en" target-language="pt-PT" datatype="plaintext">
@@ -501,6 +584,11 @@
         <source>There are not enough products in stock</source>
         <target state="final">Não há produtos suficientes em stock</target>
         <note>Line: 1009</note>
+      </trans-unit>
+      <trans-unit id="80d889c08e270f0016d61b963e13fec1" approved="yes">
+        <source>This product is no longer available for sale.</source>
+        <target state="final">Este produto já não está disponível para venda.</target>
+        <note>Line: 945</note>
       </trans-unit>
     </body>
   </file>
