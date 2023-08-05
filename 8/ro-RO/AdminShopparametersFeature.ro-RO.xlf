@@ -621,6 +621,16 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
         <target state="final">Setare comanda ca platita.</target>
         <note>Line: 395</note>
       </trans-unit>
+      <trans-unit id="3cb48b3ca35479dd423c409bd7df0572" approved="yes">
+        <source>Allow a customer to download and view PDF versions of their invoices.</source>
+        <target state="final">Permite clientilor vizualizarea si descarcarea facturilor in format PDF.</target>
+        <note>Line: 329</note>
+      </trans-unit>
+      <trans-unit id="ac0c8170cd427d89a52d168ef723fe76" approved="yes">
+        <source>Send an email to the customer when their order status has changed.</source>
+        <target state="final">Trimite e-mail clientului cand se schimba stadiul comenzii.</target>
+        <note>Line: 351</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminStoresController.php" source-language="en" target-language="ro" datatype="plaintext">
@@ -941,7 +951,7 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
     <body>
       <trans-unit id="26e5c98bfa62fe9b8091bdafe9a7adc6" approved="yes">
         <source>Enable store</source>
-        <target state="final">Activeaza magazinul</target>
+        <target state="final">Magazin activ</target>
         <note>Line: 78</note>
       </trans-unit>
       <trans-unit id="daf835712085aaaf81818e7ebfeb66b8" approved="yes">
@@ -953,6 +963,11 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
         <source>Custom maintenance text</source>
         <target state="final">Text personalizat pentru intretinere</target>
         <note>Line: 128</note>
+      </trans-unit>
+      <trans-unit id="61d3245a25256eb48e5db4ef371c504a" approved="yes">
+        <source>Enable store for logged-in employees</source>
+        <target state="final">Magazinul este activ pentru angajatii autentificati</target>
+        <note>Line: 91</note>
       </trans-unit>
     </body>
   </file>
@@ -1064,22 +1079,22 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
     <body>
       <trans-unit id="28e503c3e4f502b3631e255dfc527620" approved="yes">
         <source>Enable final summary</source>
-        <target state="final">Activeaza sumarul final</target>
+        <target state="final">Sumar final</target>
         <note>Line: 85</note>
       </trans-unit>
       <trans-unit id="403e42a4b26e379cb13563c98ab63067" approved="yes">
         <source>Enable guest checkout</source>
-        <target state="final">Activeaza comanda cu cont temporar</target>
+        <target state="final">Comanda cu cont temporar</target>
         <note>Line: 91</note>
       </trans-unit>
       <trans-unit id="9bf6ad8b3a08781c7f86684e464e75de" approved="yes">
         <source>Disable reordering option</source>
-        <target state="final">Dezactiveaza optiunea de comanda repetata</target>
+        <target state="final">Ascunde optiunea de repetare a comenzii</target>
         <note>Line: 97</note>
       </trans-unit>
       <trans-unit id="f30598053df0edf94d9463a2133d7f13" approved="yes">
         <source>Recalculate shipping costs after editing the order</source>
-        <target state="final">Recalculeaza costul de livrare dupa editarea acestei comenzi</target>
+        <target state="final">Recalculeaza costul de livrare dupa editare</target>
         <note>Line: 111</note>
       </trans-unit>
       <trans-unit id="8f32f059d66d7f10db7668e75b4742e6" approved="yes">
@@ -1106,6 +1121,11 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
         <source>Minimum purchase total required in order to validate the order</source>
         <target state="final">Valoarea minima a comenzii</target>
         <note>Line: 103</note>
+      </trans-unit>
+      <trans-unit id="6ba35a39fb7c0e94d7f914e85b340d13" approved="yes">
+        <source>Set backorder status</source>
+        <target state="final">Marcheaza comenzile cu produse din stocul furnizorului</target>
+        <note>Line: 152</note>
       </trans-unit>
     </body>
   </file>
@@ -1183,6 +1203,21 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
         <target state="final">Forteaza actualizarea adreselor URL prietenoase</target>
         <note>Line: 134</note>
       </trans-unit>
+      <trans-unit id="3069f4d62ee6e4d1b1fe7e4dccf14ae7" approved="yes">
+        <source>Activate new products by default</source>
+        <target state="final">Produsele noi sunt active din start</target>
+        <note>Line: 145</note>
+      </trans-unit>
+      <trans-unit id="5510afe0669f5999cd623fafb911dd9f" approved="yes">
+        <source>Default order of priority for specific prices</source>
+        <target state="final">Ordinea implicită a preturilor speciale</target>
+        <note>Line: 156</note>
+      </trans-unit>
+      <trans-unit id="83f9d4177b6b4ba69c27616545d4034a" approved="yes">
+        <source>Default behavior for disabled products</source>
+        <target state="final">Comportament implicit pentru produsele inactive</target>
+        <note>Line: 167</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/PageType.php" source-language="en" target-language="ro" datatype="plaintext">
@@ -1196,6 +1231,11 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
         <source>Separator of attribute anchor on the product links</source>
         <target state="final">Separatorul de atribute in linkurile de produs</target>
         <note>Line: 79</note>
+      </trans-unit>
+      <trans-unit id="0437fc99d975a98ce5face0651102b15" approved="yes">
+        <source>Display the discounted unit price</source>
+        <target state="final">Afiseaza pretul pe unitate redus</target>
+        <note>Line: 92</note>
       </trans-unit>
     </body>
   </file>
@@ -1295,12 +1335,12 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       </trans-unit>
       <trans-unit id="3385e522bc49e8f8fcb008788bc1762d" approved="yes">
         <source>Label of out-of-stock products with allowed backorders</source>
-        <target state="final">Eticheta produselor care pot fi comandate chiar daca stocul a fost epuizat</target>
+        <target state="final">Eticheta produselor care pot fi comandate din stocul furnizorului</target>
         <note>Line: 131</note>
       </trans-unit>
       <trans-unit id="d79daa535ef1e90b7b1230b501b7b6c6" approved="yes">
         <source>Label of out-of-stock products with denied backorders</source>
-        <target state="final">Eticheta produselor care nu pot fi comandate cand stocul a fost epuizat</target>
+        <target state="final">Eticheta produselor care nu pot fi comandate din stocul furnizorului</target>
         <note>Line: 145</note>
       </trans-unit>
       <trans-unit id="480cb944a0974a27ec0f964de23a18f4" approved="yes">
@@ -1315,7 +1355,7 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       </trans-unit>
       <trans-unit id="d8b9fadcb2c1164975877a18731b1f4a" approved="yes">
         <source>Delivery time of out-of-stock products with allowed backorders</source>
-        <target state="final">Timpul de livrare a produselor care pot fi comandate chiar daca stocul a fost epuizat</target>
+        <target state="final">Timpul de livrare a produselor comandate din stocul furnizorului</target>
         <note>Line: 180</note>
       </trans-unit>
       <trans-unit id="7afe5d98107dd5ece88fef732a89d8b0" approved="yes">
@@ -1460,7 +1500,11 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/Blocks/product_preferences_general.html.twig" source-language="en" target-language="ro" datatype="plaintext">
     <body>
-      
+      <trans-unit id="2972bec8b5118d31dad0cb1d363e7666" approved="yes">
+        <source>General product settings</source>
+        <target state="final">Setari generale ale produselor</target>
+        <note>Line: 33</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/Blocks/product_preferences_page.html.twig" source-language="en" target-language="ro" datatype="plaintext">
