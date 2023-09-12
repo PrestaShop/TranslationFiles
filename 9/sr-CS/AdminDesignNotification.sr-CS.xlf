@@ -26,13 +26,25 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/images/modal_confirm_delete_type.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="f031a290ace03a9f5d5dce82aefa86c6" approved="yes">
+        <source>If you delete this image format, the theme won't be able to use it anymore. This will result in a degraded experience on your front office.</source>
+        <target state="final">Ako izbrišete ovaj format slike, tema više neće moći da ga koristi. To će rezultirati smanjenim korisničkim iskustvom na vašoj prodavnici.</target>
+        <note>Line: 27</note>
+      </trans-unit>
+      <trans-unit id="01d51bf7619b2c4c234be88fa06ac16b" approved="yes">
+        <source>Delete the images linked to this image setting</source>
+        <target state="final">Izbrišite slike povezane sa ovim podešavanjem slika.</target>
+        <note>Line: 35</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/images/modal_regenerate_thumbnails.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
+      <trans-unit id="6d2d8a4592271225573b378ea6d12eeb" approved="yes">
+        <source>Regenerate thumbnails for the selected images? With the "erase" option enabled, the previously selected thumbnails will be deleted.</source>
+        <target state="final">Da li želite ponovo generisati sličice za odabrane slike? Sa opcijom "erase" omogućenom, prethodno odabrane sličice će biti obrisane.</target>
+        <note>Line: 26</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/controller/FrontController.php" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -45,47 +57,52 @@
       <trans-unit id="5b8cb2aa659c7d6a98b740d2d788c69d" approved="yes">
         <source>Incorrect value for the selected JPEG image compression.</source>
         <target state="final">Neispravna vrednost za izabranu kompresiju JPEG slike.</target>
-        <note>Line: 527</note>
+        <note>Line: 511</note>
       </trans-unit>
       <trans-unit id="8357fadc46ff52546c4c69965de0d653" approved="yes">
         <source>Incorrect value for the selected PNG image compression.</source>
         <target state="final">Neispravna vrednost za izabranu kompresiju PNG slike.</target>
-        <note>Line: 530</note>
+        <note>Line: 514</note>
+      </trans-unit>
+      <trans-unit id="cfb484c05d54f0af1f6c7134505fe611" approved="yes">
+        <source>Incorrect value for the selected WebP image compression.</source>
+        <target state="final">Neispravna vrednost za izabranu kompresiju WebP slike.</target>
+        <note>Line: 517</note>
       </trans-unit>
       <trans-unit id="d4f225ec09e4b0eba6558753f4bd8edd" approved="yes">
         <source>Only part of the images have been regenerated. The server timed out before finishing.</source>
         <target state="final">Само део слика је регенерисана, сервера истекло пре завршетка.</target>
-        <note>Line: 940</note>
+        <note>Line: 876</note>
       </trans-unit>
       <trans-unit id="f2febdafe25d3517afc3c6dd3d815562" approved="yes">
         <source>Server timed out. The watermark may not have been applied to all images.</source>
         <target state="final">Isteklo je vreme na serveru. Vodeni žig možda nije primenjen na sve slike.</target>
-        <note>Line: 944</note>
+        <note>Line: 880</note>
       </trans-unit>
       <trans-unit id="4004c7590c68a8cbbe499736c56bc33c" approved="yes">
         <source>Error: Your server configuration is not compatible with the new image system. No images were moved.</source>
         <target state="final">Greška. Vaš server nije kompatibilan sa novim sistemom slika. Nijedna slika nije pomerena.</target>
-        <note>Line: 977</note>
+        <note>Line: 913</note>
       </trans-unit>
       <trans-unit id="c26feb9180b94fa563c1e10b7354693b" approved="yes">
         <source>Not all images have been moved. The server timed out before finishing. Click on "%move_images_label%" again to resume the moving process.</source>
         <target state="final">Nisu sve slike premeštene, server je izgubio vezu pre završetka. Kliknite na "%move_images_label%" ponovo da nastavite.</target>
-        <note>Line: 984</note>
+        <note>Line: 920</note>
       </trans-unit>
       <trans-unit id="95871efade00fbd0243355ce7937c40a" approved="yes">
         <source>Error: Some -- or all -- images cannot be moved.</source>
         <target state="final">Greška. Pojedine -- ili nijedna-- slike (slika) se ne mogu (može) premestiti.</target>
-        <note>Line: 991</note>
+        <note>Line: 927</note>
       </trans-unit>
       <trans-unit id="cb2f901ceed5c3365d056794a1b5047f" approved="yes">
         <source>After modification, do not forget to regenerate thumbnails</source>
         <target state="final">Posle izmena, ne zaboravite da pokrenete regenerisanje sličica</target>
-        <note>Line: 1010</note>
+        <note>Line: 951</note>
       </trans-unit>
-      <trans-unit id="e8be55bf3a30501aef09d2e74de97976" approved="yes">
-        <source>This name already exists.</source>
-        <target state="final">Ovo ime već postoji.</target>
-        <note>Line: 561</note>
+      <trans-unit id="de7bf0de52dfa524dc063d610496c957" approved="yes">
+        <source>Make sure the theme you use doesn't rely on this image format before deleting it.</source>
+        <target state="final">Pre nego što izbrišete ovaj format slike, proverite da li tema koju koristite ne zavisi od ovog formata slike.</target>
+        <note>Line: 952</note>
       </trans-unit>
     </body>
   </file>
@@ -100,7 +117,7 @@
       <trans-unit id="f003149576f4755d74550952febe14bb" approved="yes">
         <source>An error occurred while uploading the favicon: cannot copy file "%s" to folder "%s".</source>
         <target state="final">Došlo je do greške prilikom otpremanja favicon: nije moguće kopirati fajl "%s" u folder "%s".</target>
-        <note>Line: 258</note>
+        <note>Line: 234</note>
       </trans-unit>
     </body>
   </file>
@@ -114,7 +131,7 @@
       <trans-unit id="29dae1d163226f90bb206b333bbffe1d" approved="yes">
         <source>The page Category cannot be moved here.</source>
         <target state="final">Kategorija ne može da se premesti ovde.</target>
-        <note>Line: 1143</note>
+        <note>Line: 1123</note>
       </trans-unit>
     </body>
   </file>
@@ -123,22 +140,31 @@
       <trans-unit id="c5d36cf23559e659323adbcb32e2b6d3" approved="yes">
         <source><![CDATA[Your theme has been correctly reset to its default settings. You may want to regenerate your images. See the Improve > Design > Images Settings screen for the '%regenerate_label%' button.]]></source>
         <target state="final"><![CDATA[Vaša tema je uspešno resetovana na podrazumevana podešavanja. Možda ćete morati ponovo da generišete slike. Pogledajte dugme '%regenerate_label%' koje se nalazi: Dizajn & CMS > Konfiguracija slika.]]></target>
-        <note>Line: 372</note>
+        <note>Line: 373</note>
       </trans-unit>
       <trans-unit id="0933caade58197a4ff60c27077f67604" approved="yes">
         <source>There is already a theme %theme_name% in your themes folder. Remove it if you want to continue.</source>
         <target state="final">Već postoji tema %theme_name% u vašem folderu tema. Uklonite je ako želite da nastavitie.</target>
-        <note>Line: 475</note>
+        <note>Line: 477</note>
       </trans-unit>
       <trans-unit id="2cca9f161ea0cc1102ad4be82b15cbfb" approved="yes">
         <source>Failed to delete theme. Make sure you have permissions and theme is not used.</source>
         <target state="final">Greška u brisanju teme. Proverite da li imate dozvolu za brisanje i da li je tema trenutno u upotrebi.</target>
-        <note>Line: 536</note>
+        <note>Line: 538</note>
       </trans-unit>
       <trans-unit id="05c176b8092b42c554d570513026207c" approved="yes">
         <source>Cannot adapt theme to RTL languages.</source>
         <target state="final">Tema se nemože prilagoditi RTL jeziku.</target>
-        <note>Line: 558</note>
+        <note>Line: 560</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Import/ImportDataConfigurationFormDataProvider.php" source-language="en" target-language="sr-CS" datatype="plaintext">
+    <body>
+      <trans-unit id="e8be55bf3a30501aef09d2e74de97976" approved="yes">
+        <source>This name already exists.</source>
+        <target state="final">Ovo ime već postoji.</target>
+        <note>Line: 144</note>
       </trans-unit>
     </body>
   </file>

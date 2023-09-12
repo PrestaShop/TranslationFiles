@@ -11,6 +11,11 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/login/content.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="1e460c9780e870a025de51dbac61eeae" approved="yes">
+        <source>There are %d errors.</source>
+        <target state="final">这里有%d个错误</target>
+        <note>Line: 35</note>
+      </trans-unit>
       <trans-unit id="e1ca36437c42dca0886afdc7d463b012" approved="yes">
         <source>There is %d error.</source>
         <target state="final">这里有%d个错误。</target>
@@ -33,29 +38,6 @@
         <source>There are %d warnings.</source>
         <target state="final">这里有 %d 个警告。</target>
         <note>Line: 88</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="admin-dev/themes/default/template/layout.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      <trans-unit id="1e460c9780e870a025de51dbac61eeae" approved="yes">
-        <source>There are %d errors.</source>
-        <target state="final">这里有%d个错误</target>
-        <note>Line: 50</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="classes/Address.php" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      <trans-unit id="fed3c8d832129d27b64c34fe410e7346" approved="yes">
-        <source>Property %s is empty.</source>
-        <target state="final">属性%s为空。</target>
-        <note>Line: 383</note>
-      </trans-unit>
-      <trans-unit id="02af8c16ef4efa9fa9e2142372b0b90d" approved="yes">
-        <source>The %s field is required.</source>
-        <target state="final">%s 框需填写。</target>
-        <note>Line: 376</note>
       </trans-unit>
     </body>
   </file>
@@ -126,7 +108,7 @@
       <trans-unit id="2086311c1fd24419e3286804f69db13e" approved="yes">
         <source>The email is already used, please choose another one</source>
         <target state="final">该邮箱已被使用，请选择其他邮箱</target>
-        <note>Line: 365</note>
+        <note>Line: 367</note>
       </trans-unit>
     </body>
   </file>
@@ -135,31 +117,7 @@
       <trans-unit id="95013b94140e1438329efc8a39352f4b" approved="yes">
         <source>Could not load cart id=%s</source>
         <target state="final">无法加载购物车ID︰ %s</target>
-        <note>Line: 388</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="classes/FileUploader.php" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      <trans-unit id="20c6125376d8de28149d655c7cc25e32" approved="yes">
-        <source>No files were uploaded.</source>
-        <target state="final">没有文件被上传。</target>
-        <note>Line: 80</note>
-      </trans-unit>
-      <trans-unit id="e1a0a773bd7a52245c9a25d45dc6d807" approved="yes">
-        <source>Source file does not exist or is empty.</source>
-        <target state="final">来源文件不存在或为空。</target>
-        <note>Line: 86</note>
-      </trans-unit>
-      <trans-unit id="9269d66af1c332a48a9e3f5b2284be09" approved="yes">
-        <source>File has an invalid extension, it should be one of these: %s.</source>
-        <target state="final">文件扩展名无效，应该是: %s</target>
-        <note>Line: 99</note>
-      </trans-unit>
-      <trans-unit id="6e9550e40cc317663fbe81e759d098e8" approved="yes">
-        <source>The uploaded file is too large.</source>
-        <target state="final">上传的文件太大。</target>
-        <note>Line: 89</note>
+        <note>Line: 394</note>
       </trans-unit>
     </body>
   </file>
@@ -169,6 +127,11 @@
         <source>Image is too large (%1$d kB). Maximum allowed: %2$d kB</source>
         <target state="final">图像过大 (%1$d kB)。允许最大限：%2$d kB</target>
         <note>Line: 541</note>
+      </trans-unit>
+      <trans-unit id="198dabd328b3e93b2eec2f6d76ab3eb1" approved="yes">
+        <source>Error while uploading image; please change your server's settings. (Error code: %s)</source>
+        <target state="final">错误上载图像;请更改您的服务器的设置。 （错误代码：％S）</target>
+        <note>Line: 524</note>
       </trans-unit>
       <trans-unit id="2ab146a83f61d2896a472f52f353b321" approved="yes">
         <source>Image format not recognized, allowed formats are: .ico</source>
@@ -217,54 +180,45 @@
   </file>
   <file original="classes/ObjectModel.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="fed3c8d832129d27b64c34fe410e7346" approved="yes">
+        <source>Property %s is empty.</source>
+        <target state="final">属性%s为空。</target>
+        <note>Line: 1191</note>
+      </trans-unit>
       <trans-unit id="872d428c40b36bba9fc5fafaa76c6f22" approved="yes">
         <source>Property %1$s has a bad value (allowed values are: %2$s).</source>
         <target state="final">属性%1$s有错误值（允许的数值是：%2$s）</target>
-        <note>Line: 1215</note>
+        <note>Line: 1205</note>
       </trans-unit>
       <trans-unit id="9599d22695068a773c0f10ea1fd26a74" approved="yes">
         <source>Your entry in field %1$s (language %2$s) exceeds max length %3$d chars (incl. html tags).</source>
         <target state="final">你在 %1$s（语言%2$s）填写的资料已经超出最大长度%3$d（包含 html 标签）。</target>
-        <note>Line: 1232</note>
+        <note>Line: 1222</note>
       </trans-unit>
       <trans-unit id="2674ff1d6f5ff826dae13cd4db1ca9b0" approved="yes">
         <source>The length of property %1$s is currently %2$d chars. It must be between %3$d and %4$d chars.</source>
         <target state="final">属性%1$s目前长度是%2$d字符。它应该在%3$d到%4$d字符之间。</target>
-        <note>Line: 1238</note>
+        <note>Line: 1228</note>
       </trans-unit>
       <trans-unit id="1448270fc6dbabe70584c87fa27cc96f" approved="yes">
         <source>Validation function not found: %s.</source>
         <target state="final">未发现审核功能%s</target>
-        <note>Line: 1271</note>
+        <note>Line: 1261</note>
       </trans-unit>
       <trans-unit id="6938fc7c0e5b0b07a6ba370bcb84bbd3" approved="yes">
         <source>Property %s is not valid</source>
         <target state="final">属性 %s 无效。</target>
-        <note>Line: 1289</note>
+        <note>Line: 1279</note>
       </trans-unit>
       <trans-unit id="ee66f9c9930cb33d2a5dde9b240d3f7e" approved="yes">
         <source>is required.</source>
         <target state="final">是必须的。</target>
-        <note>Line: 1352</note>
+        <note>Line: 1342</note>
       </trans-unit>
       <trans-unit id="0fec856489067e4d21aa315324c441dc" approved="yes">
         <source>%1$s is too long. Maximum length: %2$d</source>
         <target state="final">%1$s 过长。最大长度：%2$d</target>
-        <note>Line: 1359</note>
-      </trans-unit>
-      <trans-unit id="0e2338b37ab3dfeed544e8233b53d4e0" approved="yes">
-        <source>The %1$s field is too long (%2$d chars max).</source>
-        <target state="final">字段 %1$s 过长 (%2$d 字符上限)。</target>
-        <note>Line: 1234</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="classes/QqUploadedFileXhr.php" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      <trans-unit id="2ddbcf3cd6846f895d2520d0227b7810" approved="yes">
-        <source>Error on image caption: "%1s" is not a valid caption.</source>
-        <target state="final">错误的图片标题: "%1s" 是一个无效的标题。</target>
-        <note>Line: 75</note>
+        <note>Line: 1349</note>
       </trans-unit>
     </body>
   </file>
@@ -273,7 +227,7 @@
       <trans-unit id="355f26b47eff3302c93a1c49676f078e" approved="yes">
         <source>Fatal error</source>
         <target state="final">致命错误</target>
-        <note>Line: 1112</note>
+        <note>Line: 985</note>
       </trans-unit>
     </body>
   </file>
@@ -319,15 +273,14 @@
         <target state="final">文件类型不被允许</target>
         <note>Line: 366</note>
       </trans-unit>
-      <trans-unit id="a5a6e6da29a779cece21518a4ba337e2" approved="yes">
-        <source>The uploaded file exceeds the post_max_size directive in php.ini</source>
-        <target state="final">上传的文件超过了php.ini 中的 post_max_size 指令</target>
-        <note>Line: 351</note>
-      </trans-unit>
-      <trans-unit id="0bff5a3a7cc19937dd97b8a995915222" approved="yes">
-        <source>File is too big. Current size is %1s, maximum size is %2s.</source>
-        <target state="final">文件太大。目前大小为%1s，最大大小为%2s。</target>
-        <note>Line: 372</note>
+    </body>
+  </file>
+  <file original="classes/Validate.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+    <body>
+      <trans-unit id="f9c7939a8397ee022fefee2bdb3407af" approved="yes">
+        <source>Invalid URL</source>
+        <target state="final">无效网址</target>
+        <note>Line: 104</note>
       </trans-unit>
     </body>
   </file>
@@ -336,107 +289,78 @@
       <trans-unit id="df2751083713a6a971814c07d88c3eb5" approved="yes">
         <source>The 'From' date format is invalid (YYYY-MM-DD)</source>
         <target state="final">“发件人”日期格式无效（年 - 月 - 日）</target>
-        <note>Line: 938</note>
+        <note>Line: 950</note>
       </trans-unit>
       <trans-unit id="f500b8d6f94abcca48cda7c033c64996" approved="yes">
         <source>The 'To' date format is invalid (YYYY-MM-DD)</source>
         <target state="final">“收件人”日期格式无效（年 - 月 - 日）</target>
-        <note>Line: 946</note>
+        <note>Line: 958</note>
       </trans-unit>
       <trans-unit id="83379252d4737a0b2a63a9388bb36890" approved="yes">
         <source>An error occurred while attempting to delete the image. (cannot load object).</source>
         <target state="final">尝试删除图片时出错. (不能加载对象).</target>
-        <note>Line: 1052</note>
+        <note>Line: 1064</note>
       </trans-unit>
       <trans-unit id="2a0c56d5a5183a9b65b8e2817f75ded2" approved="yes">
         <source>You cannot delete this item.</source>
         <target state="final">您不能删除此商品。</target>
-        <note>Line: 1136
+        <note>Line: 1148
 Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
       <trans-unit id="204c3558e41366f3d558ce8e01426a22" approved="yes">
         <source>field %s is required.</source>
         <target state="final">字段 ％s 需要被填写。</target>
-        <note>Line: 1522</note>
+        <note>Line: 1534</note>
       </trans-unit>
       <trans-unit id="6d4b3edf61cd910289b082cd39a682c0" approved="yes">
         <source>The option selected in the %s field is invalid.</source>
         <target state="final">在 %s 字段中选择的选项无效。</target>
-        <note>Line: 1528</note>
+        <note>Line: 1540</note>
       </trans-unit>
       <trans-unit id="c2c0e06097c62422199e29a5574e9fc4" approved="yes">
         <source>Cannot add configuration %s</source>
         <target state="final">无法添加配置%s</target>
-        <note>Line: 1591</note>
+        <note>Line: 1603</note>
       </trans-unit>
       <trans-unit id="2782e6f430c2658c79aecfcecdc0d0e8" approved="yes">
         <source>The field %field_name% is required at least in %lang%.</source>
         <target state="final">字段%field_name%至少在%lang%里需要</target>
-        <note>Line: 3704</note>
+        <note>Line: 3627</note>
       </trans-unit>
       <trans-unit id="b4186b9ed7c957a1cd9f4e7ce916e603" approved="yes">
         <source>%s: Incorrect value</source>
         <target state="final">%s错误值</target>
-        <note>Line: 3923</note>
+        <note>Line: 3846</note>
       </trans-unit>
       <trans-unit id="9c79588566c8069eb2bd441da9a27be1" approved="yes">
         <source>Can't update #%id% status</source>
         <target state="final">无法更新 #%id% 状态</target>
-        <note>Line: 4158</note>
+        <note>Line: 4081</note>
       </trans-unit>
       <trans-unit id="c87956ad745e55231c633c03fe0f0d5b" approved="yes">
         <source>An error occurred while assigning a zone to the selection.</source>
         <target state="final">当分配一项区域去选择，出现错误。</target>
-        <note>Line: 4188</note>
+        <note>Line: 4111</note>
       </trans-unit>
       <trans-unit id="93463ceee9a3d376b18ee618bc2fffe4" approved="yes">
         <source>You must select at least one element to assign a new zone.</source>
         <target state="final">您必须选择至少一个元素来指定一个新区。</target>
-        <note>Line: 4190</note>
-      </trans-unit>
-      <trans-unit id="7c422404cb037e6781b5a553060670a6" approved="yes">
-        <source>Can't delete #%id%</source>
-        <target state="final">无法删除#%id%</target>
-        <note>Line: 4069</note>
-      </trans-unit>
-      <trans-unit id="6d28945e1e7f349cda5503c96aa3ae76" approved="yes">
-        <source>You must select at least one item to perform a bulk action.</source>
-        <target state="final">您必须至少选择一项才能执行批量操作。</target>
-        <note>Line: 4168</note>
-      </trans-unit>
-      <trans-unit id="66042fc205784775b028ba4ac7acebf3" approved="yes">
-        <source>Due to memory limit restrictions, this image cannot be loaded. Please increase your memory_limit value via your server's configuration settings.</source>
-        <target state="final">由于内存限制的限制，该图像不能被加载。请通过你的服务器的配置设置提高您的memory_limit的值。</target>
-        <note>Line: 3999</note>
-      </trans-unit>
-      <trans-unit id="a62d7ffa591311c930a2017b07e55394" approved="yes">
-        <source>The object cannot be loaded (the identifier is missing or invalid)</source>
-        <target state="final">对象不能加载 (标识符丢失或无效)</target>
-        <note>Line: 1778</note>
-      </trans-unit>
-      <trans-unit id="efb49241363bce74c7d7899333cdebb5" approved="yes">
-        <source>An error occurred when attempting to update the required fields.</source>
-        <target state="final">更新必填项中发现了错误</target>
-        <note>Line: 1367</note>
-      </trans-unit>
-      <trans-unit id="10f97f4fea6d1ff9ffd1ed3260d6220d" approved="yes">
-        <source>Unable to delete associated images.</source>
-        <target state="final">无法删除关联的图像。</target>
-        <note>Line: 1144</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="classes/controller/Controller.php" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      <trans-unit id="652122103181aa2752efaecab300edf0" approved="yes">
-        <source>Access denied.</source>
-        <target state="final">拒绝访问</target>
-        <note>Line: 321</note>
+        <note>Line: 4113</note>
       </trans-unit>
     </body>
   </file>
   <file original="classes/helper/HelperImageUploader.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="a5a6e6da29a779cece21518a4ba337e2" approved="yes">
+        <source>The uploaded file exceeds the post_max_size directive in php.ini</source>
+        <target state="final">上传的文件超过了php.ini 中的 post_max_size 指令</target>
+        <note>Line: 53</note>
+      </trans-unit>
+      <trans-unit id="0bff5a3a7cc19937dd97b8a995915222" approved="yes">
+        <source>File is too big. Current size is %1s, maximum size is %2s.</source>
+        <target state="final">文件太大。目前大小为%1s，最大大小为%2s。</target>
+        <note>Line: 71</note>
+      </trans-unit>
       <trans-unit id="2368e33e3e01d53abb9b60061ab83903" approved="yes">
         <source>The uploaded file exceeds the upload_max_filesize directive in php.ini</source>
         <target state="final">上传的文件超过了php.ini中的upload_max_filesize指令</target>
@@ -449,12 +373,12 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="fdc746e5693df31cf4f6ef789a8846c5" approved="yes">
         <source>file (%s) not writable</source>
         <target state="final">文件 (%s) 不可写</target>
-        <note>Line: 2847</note>
+        <note>Line: 2829</note>
       </trans-unit>
       <trans-unit id="a9de928286071f457fcbc45656353761" approved="yes">
         <source>directory (%s) not writable</source>
         <target state="final">目录 (%s) 不可写</target>
-        <note>Line: 2947</note>
+        <note>Line: 2929</note>
       </trans-unit>
     </body>
   </file>
@@ -467,31 +391,26 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
-  <file original="controllers/admin/AdminCarrierWizardController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+  <file original="controllers/admin/AdminAttributesGroupsController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      <trans-unit id="574af21ff5cd555457e49205287f7e9b" approved="yes">
-        <source>The object cannot be loaded.</source>
-        <target state="final">无法加载物体</target>
-        <note>Line: 907</note>
+      <trans-unit id="45ebc64529137a007889ee445d64611c" approved="yes">
+        <source>Failed to update the position.</source>
+        <target state="final">更新位置错误。</target>
+        <note>Line: 776</note>
       </trans-unit>
     </body>
   </file>
-  <file original="controllers/admin/AdminCartsController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+  <file original="controllers/admin/AdminCarriersController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      <trans-unit id="dd6b089a49908d671c3e9cc8dc5899ae" approved="yes">
-        <source>Invalid message</source>
-        <target state="final">无效消息</target>
-        <note>Line: 418</note>
+      <trans-unit id="d9b5b2302d57f3d13d5387ba9c99daae" approved="yes">
+        <source>An error occurred while creating an object.</source>
+        <target state="final">在新增物品的时候发生了错误。</target>
+        <note>Line: 483</note>
       </trans-unit>
-      <trans-unit id="ee77ea46b0c548ed60eadf31bdd68613" approved="yes">
-        <source>Bad SQL query</source>
-        <target state="final">错误的SQL查询</target>
-        <note>Line: 954</note>
-      </trans-unit>
-      <trans-unit id="959c96ec640d353311dd9763d57daad6" approved="yes">
-        <source>Please fill in all the required fields.</source>
-        <target state="final">请填写所有必填字段。</target>
-        <note>Line: 494</note>
+      <trans-unit id="574af21ff5cd555457e49205287f7e9b" approved="yes">
+        <source>The object cannot be loaded.</source>
+        <target state="final">无法加载物体</target>
+        <note>Line: 599</note>
       </trans-unit>
     </body>
   </file>
@@ -511,20 +430,6 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">在文件上传的时候发生了错误。</target>
         <note>Line: 443</note>
       </trans-unit>
-      <trans-unit id="84e4970c5c35731ac7084f09ca0a77cd" approved="yes">
-        <source>The email address is invalid.</source>
-        <target state="final">邮件地址无效。</target>
-        <note>Line: 427</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="controllers/admin/AdminDashboardController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      <trans-unit id="8f29c70fd66f50ce28b727cd40c6a3a3" approved="yes">
-        <source>The selected date range is not valid.</source>
-        <target state="final">所选日期范围无效。</target>
-        <note>Line: 323</note>
-      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminGroupsController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -541,21 +446,7 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="109715467b74bd66639faa5673f707c1" approved="yes">
         <source>Unknown error.</source>
         <target state="final">未知错误。</target>
-        <note>Line: 539</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      <trans-unit id="068e8a1ac19374587efc15a38ce9c559" approved="yes">
-        <source>Incorrect value for "Depends on stock" for product %name%</source>
-        <target state="final">产品%name%的“取决于库存” 数值不正确。</target>
-        <note>Line: 2853</note>
-      </trans-unit>
-      <trans-unit id="e96814b3d9ff9ae65c8f2be2ee3e0555" approved="yes">
-        <source>Invalid tag(s) (%s)</source>
-        <target state="final">无效标签 (%s)</target>
-        <note>Line: 2096</note>
+        <note>Line: 523</note>
       </trans-unit>
     </body>
   </file>
@@ -574,51 +465,22 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="becfb58422969ec127b4bf1af46650ab" approved="yes">
         <source>Email is empty.</source>
         <target state="final">邮箱地址为空</target>
-        <note>Line: 315</note>
+        <note>Line: 320</note>
       </trans-unit>
       <trans-unit id="e267e2be02cf3e29f4ba53b5d97cf78a" approved="yes">
         <source>Invalid email address.</source>
         <target state="final">无效的电邮地址</target>
-        <note>Line: 317</note>
+        <note>Line: 322</note>
       </trans-unit>
       <trans-unit id="5ee800d2d30225decb5b057d846103b7" approved="yes">
         <source>The password field is blank.</source>
         <target state="final">密码是空白的</target>
-        <note>Line: 235</note>
+        <note>Line: 240</note>
       </trans-unit>
       <trans-unit id="855eb8db89b4921c42072832d33d2dc2" approved="yes">
         <source>Invalid password.</source>
         <target state="final">无效的密码</target>
-        <note>Line: 237</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="controllers/admin/AdminModulesController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      <trans-unit id="c9b70823c0ee73b2ce964dfd16a10ddc" approved="yes">
-        <source>File upload was not completed.</source>
-        <target state="final">文件上传未完成。</target>
-        <note>Line: 480</note>
-      </trans-unit>
-      <trans-unit id="5dcea1234ac01d22f40ffc81d0bc4c2f" approved="yes">
-        <source>File too large (limit of %s bytes).</source>
-        <target state="final">文件过大 (限制%s字节)。</target>
-        <note>Line: 476</note>
-      </trans-unit>
-      <trans-unit id="acdcc688155bd653f51eaf710cac8af5" approved="yes">
-        <source>Internal error #%s</source>
-        <target state="final">内部错误#%s</target>
-        <note>Line: 488</note>
-      </trans-unit>
-      <trans-unit id="5569135c321c16866b524ec82dcd2b2a" approved="yes">
-        <source>No file has been selected</source>
-        <target state="final">没有选择档案</target>
-        <note>Line: 493</note>
-      </trans-unit>
-      <trans-unit id="8c9067e52e4440d8a20e74fdc745b0c6" approved="yes">
-        <source>No file was uploaded.</source>
-        <target state="final">没有文件被上传</target>
-        <note>Line: 484</note>
+        <note>Line: 242</note>
       </trans-unit>
     </body>
   </file>
@@ -641,7 +503,7 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="d0fbda9855d118740f1105334305c126" approved="yes">
         <source>Page not found</source>
         <target state="final">页面未找到</target>
-        <note>Line: 46</note>
+        <note>Line: 51</note>
       </trans-unit>
     </body>
   </file>
@@ -650,224 +512,121 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="b42cd3af71fc00ef268910709255320a" approved="yes">
         <source>You do not have permission to view this.</source>
         <target state="final">您没有查看权限</target>
-        <note>Line: 44</note>
+        <note>Line: 47</note>
       </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminProductsController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      <trans-unit id="45ebc64529137a007889ee445d64611c" approved="yes">
-        <source>Failed to update the position.</source>
-        <target state="final">更新位置错误。</target>
-        <note>Line: 1143</note>
-      </trans-unit>
-      <trans-unit id="d9b5b2302d57f3d13d5387ba9c99daae" approved="yes">
-        <source>An error occurred while creating an object.</source>
-        <target state="final">在新增物品的时候发生了错误。</target>
-        <note>Line: 1827</note>
-      </trans-unit>
-      <trans-unit id="dc0614532e2b908e6c2d82cc0972af9d" approved="yes">
-        <source>An error occurred while attempting to create a new folder.</source>
-        <target state="final">创建新文件夹的时候发生了错误</target>
-        <note>Line: 2847</note>
-      </trans-unit>
-      <trans-unit id="06b778accab7c14a499bc6e7a68138ec" approved="yes">
-        <source>An error occurred while copying the image.</source>
-        <target state="final">在复制图像的时候发生了错误。</target>
-        <note>Line: 1725</note>
-      </trans-unit>
-      <trans-unit id="6c3609de8769a4456305ec22e764573d" approved="yes">
-        <source>An error occurred while copying this image: %s</source>
-        <target state="final">在复制图像的时出错：%s</target>
-        <note>Line: 1730</note>
-      </trans-unit>
-      <trans-unit id="211ff814e7bf91c4548a61ba1c427c15" approved="yes">
-        <source>Error while updating the status.</source>
-        <target state="final">更新状态时出错。</target>
-        <note>Line: 2939</note>
-      </trans-unit>
       <trans-unit id="be694d5db9d32c43014995441a5939c4" approved="yes">
         <source>Invalid file name</source>
         <target state="final">无效的文件名</target>
-        <note>Line: 494</note>
+        <note>Line: 497</note>
       </trans-unit>
       <trans-unit id="b1367942aa02ea8c9d4aa07cdf5e473c" approved="yes">
         <source>You need at least one object.</source>
         <target state="final">您至少需要一个对象。</target>
-        <note>Line: 681</note>
+        <note>Line: 669</note>
       </trans-unit>
       <trans-unit id="ec5f6f7f65190788d12ef16ab6135009" approved="yes">
         <source>You cannot delete all of the items.</source>
         <target state="final">您不可以删除所有的项。</target>
-        <note>Line: 681</note>
-      </trans-unit>
-      <trans-unit id="527d23f49ced7a14e50546e1b90672e7" approved="yes">
-        <source>Cannot retrieve file.</source>
-        <target state="final">无法检索文件。</target>
-        <note>Line: 380</note>
-      </trans-unit>
-      <trans-unit id="abf6e66f4a0b444dbcb1a626e88cd973" approved="yes">
-        <source>Invalid name for %s language</source>
-        <target state="final">%s 语言的名字无效</target>
-        <note>Line: 436</note>
-      </trans-unit>
-      <trans-unit id="572f072ea1a00ba0470ec3e5f4b80e24" approved="yes">
-        <source>The name for %1s language is too long (%2d chars max).</source>
-        <target state="final">%1s 语言的名字过长(%2d 最多字数).</target>
-        <note>Line: 438</note>
-      </trans-unit>
-      <trans-unit id="611d3495c1e0dad701d535ccafd84330" approved="yes">
-        <source>Invalid file extension</source>
-        <target state="final">无效的文件扩展</target>
-        <note>Line: 491</note>
-      </trans-unit>
-      <trans-unit id="6292d73b79fd27bdc4c7d8a7ce2c79b4" approved="yes">
-        <source>The file name is too long.</source>
-        <target state="final">文件名太长</target>
-        <note>Line: 497</note>
-      </trans-unit>
-      <trans-unit id="bbced877c13c763f0141ff906c8ed0e5" approved="yes">
-        <source>Invalid file</source>
-        <target state="final">无效的文件</target>
-        <note>Line: 513</note>
-      </trans-unit>
-      <trans-unit id="c7e56badecce297feefe2a9b50a68794" approved="yes">
-        <source>Invalid date range</source>
-        <target state="final">无效的日期范围。</target>
-        <note>Line: 1006</note>
-      </trans-unit>
-      <trans-unit id="be67fb2de5962acd123edaeeed6d4488" approved="yes">
-        <source>An error occurred while updating the image.</source>
-        <target state="final">更新图像的时候发生了错误。</target>
-        <note>Line: 1680</note>
-      </trans-unit>
-      <trans-unit id="46d431810202adee8bca6b13a5ebd0d9" approved="yes">
-        <source>An error occurred while linking the object %table_name% to categories.</source>
-        <target state="final">在把对象%table_name%连到分类时出错。</target>
-        <note>Line: 1979</note>
-      </trans-unit>
-      <trans-unit id="723b4a80bd8ae233c9fcde1e5bd55436" approved="yes">
-        <source>The object cannot be loaded. </source>
-        <target state="final">无法加载物体</target>
-        <note>Line: 2026</note>
-      </trans-unit>
-      <trans-unit id="9ca63429d31c3e720001675dd8535a9d" approved="yes">
-        <source>The %name% field is required.</source>
-        <target state="final">%name%字段必填</target>
-        <note>Line: 2053</note>
-      </trans-unit>
-      <trans-unit id="172dfd675cd344c66724042519cc4df1" approved="yes">
-        <source>The %1$s field (%2$s) is invalid.</source>
-        <target state="final"> %1$s 字段 (%2$s) 无效。</target>
-        <note>Line: 2173</note>
-      </trans-unit>
-      <trans-unit id="787acc7a9d39b98fac309cf303f518d3" approved="yes">
-        <source>The tags list (%s) is invalid.</source>
-        <target state="final">标签列表无效（%s）.</target>
-        <note>Line: 2199</note>
-      </trans-unit>
-      <trans-unit id="cbecc45ae8ccf1234657bd40ee4c55dd" approved="yes">
-        <source>An error occurred while copying this image:</source>
-        <target state="final">在复制图像的时候发生了错误。</target>
-        <note>Line: 2924</note>
+        <note>Line: 669</note>
       </trans-unit>
       <trans-unit id="bc33aa1314e7dcd3472db72472b909b2" approved="yes">
         <source>An error occurred during deletion.</source>
         <target state="final">在删除过程中发生了错误。</target>
-        <note>Line: 623</note>
+        <note>Line: 611</note>
       </trans-unit>
-      <trans-unit id="ddd4e7f16c2032d59cb4fb4b86576bc5" approved="yes">
-        <source>You must select at least one element to delete.</source>
-        <target state="final">您必须选择至少一个元素来删除。</target>
-        <note>Line: 731</note>
+      <trans-unit id="6c3609de8769a4456305ec22e764573d" approved="yes">
+        <source>An error occurred while copying this image: %s</source>
+        <target state="final">在复制图像的时出错：%s</target>
+        <note>Line: 1689</note>
       </trans-unit>
-      <trans-unit id="77ae44aa6c998166fcf1a87496278ad5" approved="yes">
-        <source>(cannot load object)</source>
-        <target state="final">(项目无法装载)</target>
-        <note>Line: 1141</note>
+      <trans-unit id="527d23f49ced7a14e50546e1b90672e7" approved="yes">
+        <source>Cannot retrieve file.</source>
+        <target state="final">无法检索文件。</target>
+        <note>Line: 383</note>
       </trans-unit>
-      <trans-unit id="815e471ea2970db0b63b9b09feacc70f" approved="yes">
-        <source>An error occurred while updating the status for an object.</source>
-        <target state="final">更新物品状态的时候发生了错误。</target>
-        <note>Line: 1140</note>
+      <trans-unit id="abf6e66f4a0b444dbcb1a626e88cd973" approved="yes">
+        <source>Invalid name for %s language</source>
+        <target state="final">%s 语言的名字无效</target>
+        <note>Line: 439</note>
       </trans-unit>
-      <trans-unit id="11a257a80f8c8d76132470b171de6795" approved="yes">
-        <source>You do not have permission to delete this.</source>
-        <target state="final">您没用权限进行删除</target>
-        <note>Line: 1230</note>
+      <trans-unit id="572f072ea1a00ba0470ec3e5f4b80e24" approved="yes">
+        <source>The name for %1s language is too long (%2d chars max).</source>
+        <target state="final">%1s 语言的名字过长(%2d 最多字数).</target>
+        <note>Line: 441</note>
       </trans-unit>
-      <trans-unit id="1bdd228669c9dd995eb664737e60786e" approved="yes">
-        <source>You do not have permission to edit this.</source>
-        <target state="final">您没有编辑权限</target>
-        <note>Line: 1254</note>
+      <trans-unit id="611d3495c1e0dad701d535ccafd84330" approved="yes">
+        <source>Invalid file extension</source>
+        <target state="final">无效的文件扩展</target>
+        <note>Line: 494</note>
       </trans-unit>
-      <trans-unit id="505bbc38260c669d0793757e414caecc" approved="yes">
-        <source>The %s field is not valid</source>
-        <target state="final">%s栏无效。</target>
-        <note>Line: 773</note>
+      <trans-unit id="6292d73b79fd27bdc4c7d8a7ce2c79b4" approved="yes">
+        <source>The file name is too long.</source>
+        <target state="final">文件名太长</target>
+        <note>Line: 500</note>
       </trans-unit>
-      <trans-unit id="b05c3c0bfce943b86e286e8e8103b6e5" approved="yes">
-        <source>An error occurred while uploading the image.</source>
-        <target state="final">在上传图像的时候发生了错误。</target>
-        <note>Line: 1723</note>
+      <trans-unit id="bbced877c13c763f0141ff906c8ed0e5" approved="yes">
+        <source>Invalid file</source>
+        <target state="final">无效的文件</target>
+        <note>Line: 516</note>
       </trans-unit>
-      <trans-unit id="7f290594963a303db17a5e21dc4cf0b7" approved="yes">
-        <source>An error occurred while deleting the object.</source>
-        <target state="final">在删除对象的时候发生了错误。</target>
-        <note>Line: 628</note>
+      <trans-unit id="06b778accab7c14a499bc6e7a68138ec" approved="yes">
+        <source>An error occurred while copying the image.</source>
+        <target state="final">在复制图像的时候发生了错误。</target>
+        <note>Line: 1684</note>
       </trans-unit>
-      <trans-unit id="1d5dfad5ac415b412c20a05a89d43db6" approved="yes">
-        <source>An error occurred while deleting this selection.</source>
-        <target state="final">在删除所选对象时发生了错误。</target>
-        <note>Line: 727</note>
+      <trans-unit id="c7e56badecce297feefe2a9b50a68794" approved="yes">
+        <source>Invalid date range</source>
+        <target state="final">无效的日期范围。</target>
+        <note>Line: 975</note>
       </trans-unit>
-      <trans-unit id="370835a4106d1c7860f2fbb5daabd050" approved="yes">
-        <source>The file is missing.</source>
-        <target state="final">文件缺失！</target>
-        <note>Line: 472</note>
+      <trans-unit id="be67fb2de5962acd123edaeeed6d4488" approved="yes">
+        <source>An error occurred while updating the image.</source>
+        <target state="final">更新图像的时候发生了错误。</target>
+        <note>Line: 1639</note>
       </trans-unit>
-      <trans-unit id="d8d4c3b79181fdcca8cb5159208fa56a" approved="yes">
-        <source>You do not have permission to add this.</source>
-        <target state="final">您没有权限点击此处。</target>
-        <note>Line: 1224</note>
+      <trans-unit id="dc0614532e2b908e6c2d82cc0972af9d" approved="yes">
+        <source>An error occurred while attempting to create a new folder.</source>
+        <target state="final">创建新文件夹的时候发生了错误</target>
+        <note>Line: 2716</note>
       </trans-unit>
-      <trans-unit id="954b49d26a3a0986aca720a7095f2aa9" approved="yes">
-        <source>An error occurred while updating an object.</source>
-        <target state="final">在更新物品的时候发生了错误。</target>
-        <note>Line: 2026</note>
+      <trans-unit id="46d431810202adee8bca6b13a5ebd0d9" approved="yes">
+        <source>An error occurred while linking the object %table_name% to categories.</source>
+        <target state="final">在把对象%table_name%连到分类时出错。</target>
+        <note>Line: 1924</note>
       </trans-unit>
-      <trans-unit id="fb86a99edb05e880b59843698a2fafbd" approved="yes">
-        <source>Cannot delete file</source>
-        <target state="final">无法删除文件</target>
-        <note>Line: 1163</note>
+      <trans-unit id="723b4a80bd8ae233c9fcde1e5bd55436" approved="yes">
+        <source>The object cannot be loaded. </source>
+        <target state="final">无法加载物体</target>
+        <note>Line: 1968</note>
       </trans-unit>
-      <trans-unit id="e267d34972b3ab66b987fbad59fba513" approved="yes">
-        <source>Invalid date format.</source>
-        <target state="final">日期格式无效！</target>
-        <note>Line: 798</note>
+      <trans-unit id="9ca63429d31c3e720001675dd8535a9d" approved="yes">
+        <source>The %name% field is required.</source>
+        <target state="final">%name%字段必填</target>
+        <note>Line: 1995</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="controllers/admin/AdminRequestSqlController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      <trans-unit id="0b5512610b0c8548345f37a58bf51360" approved="yes">
-        <source>"%key%" does not exist.</source>
-        <target state="final">“%key%”不存在</target>
-        <note>Line: 549</note>
+      <trans-unit id="172dfd675cd344c66724042519cc4df1" approved="yes">
+        <source>The %1$s field (%2$s) is invalid.</source>
+        <target state="final"> %1$s 字段 (%2$s) 无效。</target>
+        <note>Line: 2115</note>
       </trans-unit>
-      <trans-unit id="a7eca295291f53a23ab7ba0a9c7fd9de" approved="yes">
-        <source>This functionality has been disabled.</source>
-        <target state="final">该功能已被禁用。</target>
-        <note>Line: 199</note>
+      <trans-unit id="787acc7a9d39b98fac309cf303f518d3" approved="yes">
+        <source>The tags list (%s) is invalid.</source>
+        <target state="final">标签列表无效（%s）.</target>
+        <note>Line: 2141</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="controllers/admin/AdminSearchController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      <trans-unit id="1b0cc7183377b461e298d0ebcf5f8548" approved="yes">
-        <source>An error occurred while updating the status.</source>
-        <target state="final">更新状态的时候发生了错误。</target>
-        <note>Line: 87</note>
+      <trans-unit id="cbecc45ae8ccf1234657bd40ee4c55dd" approved="yes">
+        <source>An error occurred while copying this image:</source>
+        <target state="final">在复制图像的时候发生了错误。</target>
+        <note>Line: 2775</note>
+      </trans-unit>
+      <trans-unit id="211ff814e7bf91c4548a61ba1c427c15" approved="yes">
+        <source>Error while updating the status.</source>
+        <target state="final">更新状态时出错。</target>
+        <note>Line: 2789</note>
       </trans-unit>
     </body>
   </file>
@@ -876,12 +635,12 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="f1534de7e6636fdfedf7aea238841b24" approved="yes">
         <source>You cannot delete or disable the last shop group.</source>
         <target state="final">你不能删除这个商店的组合</target>
-        <note>Line: 339</note>
+        <note>Line: 344</note>
       </trans-unit>
       <trans-unit id="e91077be3c46fd0d3fd8e972e8ca1e48" approved="yes">
         <source>You cannot delete or disable a shop group in use.</source>
         <target state="final">你无法删除或禁用使用中的商店群。</target>
-        <note>Line: 341</note>
+        <note>Line: 346</note>
       </trans-unit>
     </body>
   </file>
@@ -890,22 +649,22 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="fd44c173b6a7897151a978b9015fec76" approved="yes">
         <source>You cannot disable the Main URL.</source>
         <target state="final">你不能禁用主URL。</target>
-        <note>Line: 514</note>
+        <note>Line: 533</note>
       </trans-unit>
       <trans-unit id="d2de9e264ff4f0e711d809f00da76e45" approved="yes">
         <source>You cannot change a main URL to a non-main URL. You have to set another URL as your Main URL for the selected shop.</source>
         <target state="final">你不能把主URL 改成非主URL。 你得为所选的商店设定另一个URL 作为主URL。</target>
-        <note>Line: 510</note>
+        <note>Line: 529</note>
       </trans-unit>
       <trans-unit id="aee1f34d776c8cc3401cac254299e6f9" approved="yes">
         <source>A shop URL that uses this domain already exists.</source>
         <target state="final">使用这个域名的商店URL 已经存在。</target>
-        <note>Line: 488</note>
+        <note>Line: 507</note>
       </trans-unit>
       <trans-unit id="deb836e0c149bb47a1d86eabe4b2f7db" approved="yes">
         <source>A shop virtual URL cannot be "%URL%"</source>
         <target state="final">商店的虚拟URL 不能是“%URL%”</target>
-        <note>Line: 464</note>
+        <note>Line: 483</note>
       </trans-unit>
     </body>
   </file>
@@ -914,22 +673,12 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="50b668816d2acbdb62484bb5ea5d25ab" approved="yes">
         <source>A Zip/Postal code is required.</source>
         <target state="final">邮编必须填写。</target>
-        <note>Line: 382</note>
+        <note>Line: 389</note>
       </trans-unit>
       <trans-unit id="e6c1e151f2554afad6c0d551046650e8" approved="yes">
         <source>The Zip/Postal code is invalid.</source>
         <target state="final">邮编无效。</target>
-        <note>Line: 384</note>
-      </trans-unit>
-      <trans-unit id="f759990f130f580695eae63e25558461" approved="yes">
-        <source>Your Zip/Postal code is incorrect.</source>
-        <target state="final">您的邮编不正确。</target>
-        <note>Line: 380</note>
-      </trans-unit>
-      <trans-unit id="6660b316abc0970476a09df63028d553" approved="yes">
-        <source>It must be entered as follows:</source>
-        <target state="final">必须为以下的类型：</target>
-        <note>Line: 380</note>
+        <note>Line: 391</note>
       </trans-unit>
     </body>
   </file>
@@ -938,166 +687,37 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="e298a0bc9a35d45798e28c082dfc1dfa" approved="yes">
         <source>"%type%" does not exist.</source>
         <target state="final">"%type%"不存在</target>
-        <note>Line: 113</note>
+        <note>Line: 114</note>
       </trans-unit>
       <trans-unit id="40f5c232e433d178a4f912b3092d7df1" approved="yes">
         <source>Directory "%folder%" cannot be created</source>
         <target state="final">无法创建目录"%folder%"</target>
-        <note>Line: 335</note>
+        <note>Line: 336</note>
       </trans-unit>
       <trans-unit id="80034ab2323115584ed4c5b05e222f60" approved="yes">
         <source>File "%file%" cannot be created</source>
         <target state="final">无法创建文件 "%file%"</target>
-        <note>Line: 337</note>
+        <note>Line: 338</note>
       </trans-unit>
       <trans-unit id="6b12f160f2bb3c7dea01bd96a223d80e" approved="yes">
         <source>Cannot write this file: "%folder%"</source>
         <target state="final">无法书写文件："%folder%"</target>
-        <note>Line: 387</note>
+        <note>Line: 388</note>
       </trans-unit>
       <trans-unit id="f0566c73cce29920f99fda8819745804" approved="yes">
         <source>This file must be writable: %file%</source>
         <target state="final">该文件必须是可书写的： %file%</target>
-        <note>Line: 530</note>
-      </trans-unit>
-      <trans-unit id="bb5ef82c8be2494c733ac77920bc5c72" approved="yes">
-        <source>No file has been selected.</source>
-        <target state="final">没有选择的文件</target>
-        <note>Line: 779</note>
-      </trans-unit>
-      <trans-unit id="e594c33758771c458a7f80e9afdf7e55" approved="yes">
-        <source>The server does not have permissions for writing.</source>
-        <target state="final">服务器不允许写</target>
-        <note>Line: 817</note>
-      </trans-unit>
-      <trans-unit id="65dd53e33c17621f58bcc99be967814a" approved="yes">
-        <source>Please check rights for %file%</source>
-        <target state="final">请核对%file%的权限</target>
-        <note>Line: 817</note>
+        <note>Line: 531</note>
       </trans-unit>
       <trans-unit id="e0a602c130d12d57cd4ca2a8b9240917" approved="yes">
         <source>This file must be writable:</source>
         <target state="final">该文件必须为可写：</target>
-        <note>Line: 1747</note>
+        <note>Line: 1572</note>
       </trans-unit>
       <trans-unit id="bcfa9fd034fffbe5aa1a9c9e306386f1" approved="yes">
         <source>Fatal error: The module directory does not exist.</source>
         <target state="final">致命错误：该模块目录不存在。</target>
-        <note>Line: 2174</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="modules/blockreassurance/blockreassurance.php" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      <trans-unit id="7c67bd3f540cf0ec5e7346bcea963013" approved="yes">
-        <source>The field %field_name% is required at least in your default language.</source>
-        <target state="final">字段 %field_name% 至少在您的默认语言中是必需的。</target>
-        <note>Line: 518</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="modules/blockreassurance/controllers/admin/AdminBlockListingController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      <trans-unit id="198dabd328b3e93b2eec2f6d76ab3eb1" approved="yes">
-        <source>Error while uploading image; please change your server's settings. (Error code: %s)</source>
-        <target state="final">错误上载图像;请更改您的服务器的设置。 （错误代码：％S）</target>
-        <note>Line: 198</note>
-      </trans-unit>
-      <trans-unit id="c4ae3afc5d4c01919142f8b39cc5c1c5" approved="yes">
-        <source>Image format not recognized, allowed formats are: .gif, .jpg, .png</source>
-        <target state="final">不被认可的图像格式，允许的格式为：.gif, .jpg, .png</target>
-        <note>Line: 195</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="modules/dashproducts/dashproducts.php" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      <trans-unit id="5cd8dc8a58702a63e79af3ad9de16d7a" approved="yes">
-        <source>The %s field is invalid.</source>
-        <target state="final">字段 %s 无效。</target>
-        <note>Line: 584</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="modules/productcomments/productcomments.php" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      
-    </body>
-  </file>
-  <file original="modules/ps_banner/ps_banner.php" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      <trans-unit id="df7859ac16e724c9b1fba0a364503d72" approved="yes">
-        <source>An error occurred while attempting to upload the file.</source>
-        <target state="final">上传文件的过程中出现错误</target>
-        <note>Line: 146</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="modules/ps_categorytree/ps_categorytree.php" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      <trans-unit id="23e0d4ecc25de9b2777fdaca3e2f3193" approved="yes">
-        <source>Maximum depth: Invalid number.</source>
-        <target state="final">最大分级：无效号码。</target>
-        <note>Line: 125</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="modules/ps_customtext/ps_customtext.php" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      <trans-unit id="abb1f006957d2d4002cc1d49c63a0fad" approved="yes">
-        <source>Please fill out all fields.</source>
-        <target state="final">请填写所有字段</target>
-        <note>Line: 176</note>
-      </trans-unit>
-      <trans-unit id="3fa720301fb9c9badc23c00c1e88b4f7" approved="yes">
-        <source>An error occurred on saving.</source>
-        <target state="final">在保存过程中出错。</target>
-        <note>Line: 182</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="modules/ps_emailsubscription/ps_emailsubscription.php" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      <trans-unit id="417d63b1effb110e438d4b4b9f0fbd95" approved="yes">
-        <source>The voucher code is invalid.</source>
-        <target state="final">优惠券代码无效</target>
-        <note>Line: 221</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="modules/ps_facetedsearch/src/Form/Feature/FormModifier.php" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      <trans-unit id="87ecb83d305a6af0e0438a0587e31de8" approved="yes">
-        <source>%s is invalid.</source>
-        <target state="final">%s无效。</target>
-        <note>Line: 85</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="modules/ps_imageslider/ps_imageslider.php" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      <trans-unit id="7cc92687130ea12abb80556681538001" approved="yes">
-        <source>An error occurred during the image upload process.</source>
-        <target state="final">图片上传错误</target>
-        <note>Line: 502</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="modules/ps_linklist/src/Form/Type/LinkBlockType.php" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      <trans-unit id="48d87ac90e3cfaac58c02f30259fbfec" approved="yes">
-        <source>You have to select at least one shop to associate this item with</source>
-        <target state="final">您必须至少选择一家商店来关联此商品</target>
-        <note>Line: 188</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="modules/ps_socialfollow/ps_socialfollow.php" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      <trans-unit id="f9c7939a8397ee022fefee2bdb3407af" approved="yes">
-        <source>Invalid URL</source>
-        <target state="final">无效网址</target>
-        <note>Line: 397</note>
+        <note>Line: 1999</note>
       </trans-unit>
     </body>
   </file>
@@ -1115,6 +735,29 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
+  <file original="src/Adapter/Email/EmailLogEraser.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+    <body>
+      <trans-unit id="7c422404cb037e6781b5a553060670a6" approved="yes">
+        <source>Can't delete #%id%</source>
+        <target state="final">无法删除#%id%</target>
+        <note>Line: 63</note>
+      </trans-unit>
+      <trans-unit id="ddd4e7f16c2032d59cb4fb4b86576bc5" approved="yes">
+        <source>You must select at least one element to delete.</source>
+        <target state="final">您必须选择至少一个元素来删除。</target>
+        <note>Line: 48</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/Adapter/Import/Handler/ProductImportHandler.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+    <body>
+      <trans-unit id="e96814b3d9ff9ae65c8f2be2ee3e0555" approved="yes">
+        <source>Invalid tag(s) (%s)</source>
+        <target state="final">无效标签 (%s)</target>
+        <note>Line: 1053</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/Adapter/Product/GeneralConfiguration.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
       <trans-unit id="cc8f0fe2d629bd1810331b1a265914ec" approved="yes">
@@ -1124,12 +767,77 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
+  <file original="src/Adapter/SqlManager/SqlQueryValidator.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+    <body>
+      <trans-unit id="ee77ea46b0c548ed60eadf31bdd68613" approved="yes">
+        <source>Bad SQL query</source>
+        <target state="final">错误的SQL查询</target>
+        <note>Line: 60</note>
+      </trans-unit>
+      <trans-unit id="0b5512610b0c8548345f37a58bf51360" approved="yes">
+        <source>"%key%" does not exist.</source>
+        <target state="final">“%key%”不存在</target>
+        <note>Line: 388</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/Adapter/Webservice/WebserviceKeyStatusModifier.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+    <body>
+      <trans-unit id="77ae44aa6c998166fcf1a87496278ad5" approved="yes">
+        <source>(cannot load object)</source>
+        <target state="final">(项目无法装载)</target>
+        <note>Line: 75</note>
+      </trans-unit>
+      <trans-unit id="1b0cc7183377b461e298d0ebcf5f8548" approved="yes">
+        <source>An error occurred while updating the status.</source>
+        <target state="final">更新状态的时候发生了错误。</target>
+        <note>Line: 82</note>
+      </trans-unit>
+      <trans-unit id="815e471ea2970db0b63b9b09feacc70f" approved="yes">
+        <source>An error occurred while updating the status for an object.</source>
+        <target state="final">更新物品状态的时候发生了错误。</target>
+        <note>Line: 70</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/Core/ConstraintValidator/AddressZipCodeValidator.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+    <body>
+      <trans-unit id="f759990f130f580695eae63e25558461" approved="yes">
+        <source>Your Zip/Postal code is incorrect.</source>
+        <target state="final">您的邮编不正确。</target>
+        <note>Line: 95</note>
+      </trans-unit>
+      <trans-unit id="6660b316abc0970476a09df63028d553" approved="yes">
+        <source>It must be entered as follows:</source>
+        <target state="final">必须为以下的类型：</target>
+        <note>Line: 97</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/Core/Form/IdentifiableObject/Handler/FormHandler.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+    <body>
+      <trans-unit id="a7eca295291f53a23ab7ba0a9c7fd9de" approved="yes">
+        <source>This functionality has been disabled.</source>
+        <target state="final">该功能已被禁用。</target>
+        <note>Line: 110</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/Core/Localization/Pack/Import/LocalizationPackImporter.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
       <trans-unit id="0bd212ed072143f56147f2f119892d03" approved="yes">
         <source>Invalid selection</source>
         <target state="final">无效的选择</target>
         <note>Line: 150</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/Core/SqlManager/Configuration/SqlRequestConfiguration.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+    <body>
+      <trans-unit id="5cd8dc8a58702a63e79af3ad9de16d7a" approved="yes">
+        <source>The %s field is invalid.</source>
+        <target state="final">字段 %s 无效。</target>
+        <note>Line: 173</note>
       </trans-unit>
     </body>
   </file>
@@ -1149,6 +857,16 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/AdministrationController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="87ecb83d305a6af0e0438a0587e31de8" approved="yes">
+        <source>%s is invalid.</source>
+        <target state="final">%s无效。</target>
+        <note>Line: 258</note>
+      </trans-unit>
+      <trans-unit id="5d4ab8176c670bbb26380353630c90e4" approved="yes">
+        <source>%s is invalid. Please enter an integer greater than or equal to 0.</source>
+        <target state="final">%s 无效。 请输入一个大于或等于 0 的整数。</target>
+        <note>Line: 237</note>
+      </trans-unit>
       <trans-unit id="2a8676c5942efe4449225f3fbeccb816" approved="yes">
         <source>%s is invalid. Please enter an integer lower than %s.</source>
         <target state="final">%s 无效。 请输入一个小于 %s 的整数。</target>
@@ -1156,26 +874,33 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/EmployeeController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/AuthorizationServer/ApplicationController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      <trans-unit id="4094e2b5b97c257c5805be4554a7e589" approved="yes">
-        <source>The password doesn't meet the password policy requirements.</source>
-        <target state="final">密码不符合密码策略要求。</target>
-        <note>Line: 555</note>
-      </trans-unit>
-      <trans-unit id="044bfaec90b16e5caf72b70a5ae4c872" approved="yes">
-        <source>You need permission to add this.</source>
-        <target state="final">你需要更多的权限来执行此操作。</target>
-        <note>Line: 566</note>
+      
+      
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/EmailController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+    <body>
+      <trans-unit id="652122103181aa2752efaecab300edf0" approved="yes">
+        <source>Access denied.</source>
+        <target state="final">拒绝访问</target>
+        <note>Line: 252</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ImportController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/EmployeeController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
       <trans-unit id="df3c280f0aaf0cb0d5c25ab322a8bcf9" approved="yes">
         <source>You do not have permission to update this.</source>
         <target state="final">您无权更新此内容。</target>
-        <note>Line: 360</note>
+        <note>Line: 336</note>
+      </trans-unit>
+      <trans-unit id="4094e2b5b97c257c5805be4554a7e589" approved="yes">
+        <source>The password doesn't meet the password policy requirements.</source>
+        <target state="final">密码不符合密码策略要求。</target>
+        <note>Line: 575</note>
       </trans-unit>
     </body>
   </file>
@@ -1193,17 +918,7 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="3f19c85aaf117e786e30ce2d7f2c018f" approved="yes">
         <source>This field cannot be longer than %limit% characters (incl. HTML tags)</source>
         <target state="final">此字段不能超过 %limit% 个字符（包括 HTML 标签）</target>
-        <note>Line: 297</note>
-      </trans-unit>
-      <trans-unit id="9cfcd850d8aecc7dda5274b9ef72dda0" approved="yes">
-        <source>Profile(s) assigned to employee cannot be deleted</source>
-        <target state="final">无法删除分配给员工的个人资料</target>
-        <note>Line: 316</note>
-      </trans-unit>
-      <trans-unit id="7e209672dd8e7e83030559ab95a83d52" approved="yes">
-        <source>You cannot delete your own profile</source>
-        <target state="final">您不能删除自己的个人资料</target>
-        <note>Line: 320</note>
+        <note>Line: 295</note>
       </trans-unit>
     </body>
   </file>
@@ -1225,12 +940,21 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Configure/ShopParameters/ContactsController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+    <body>
+      <trans-unit id="7c67bd3f540cf0ec5e7346bcea963013" approved="yes">
+        <source>The field %field_name% is required at least in your default language.</source>
+        <target state="final">字段 %field_name% 至少在您的默认语言中是必需的。</target>
+        <note>Line: 301</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/ShopParameters/MetaController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
       <trans-unit id="e31f2dac034e1437efa1dbf499509963" approved="yes">
         <source>Cannot write into file: %filename%. Please check write permissions.</source>
         <target state="final">不能写入文件：%filename%。请检查你的写入权限。</target>
-        <note>Line: 385</note>
+        <note>Line: 393</note>
       </trans-unit>
     </body>
   </file>
@@ -1239,21 +963,26 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="4def5438dd1db0e90c6cbe2028772138" approved="yes">
         <source>This order status does not exist.</source>
         <target state="final">此订单状态不存在。</target>
-        <note>Line: 541</note>
+        <note>Line: 562</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/FrameworkBundleAdminController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="11a257a80f8c8d76132470b171de6795" approved="yes">
+        <source>You do not have permission to delete this.</source>
+        <target state="final">您没用权限进行删除</target>
+        <note>Line: 376</note>
+      </trans-unit>
       <trans-unit id="5ab1978ae9ce868183a34316327be062" approved="yes">
         <source>An unexpected error occurred. [%type% code %code%]: %message%</source>
         <target state="final">一个意料之外的问题发生了。 [%type% 代码 %code%]: %message%</target>
-        <note>Line: 409</note>
+        <note>Line: 404</note>
       </trans-unit>
       <trans-unit id="e8ae00af8575f645bf6e4358f120cba3" approved="yes">
         <source>An unexpected error occurred. [%type% code %code%]</source>
         <target state="final">出现意外错误。 [%type% 代码 %code%]</target>
-        <note>Line: 420</note>
+        <note>Line: 415</note>
       </trans-unit>
     </body>
   </file>
@@ -1278,113 +1007,187 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/Design/ThemeController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="1bdd228669c9dd995eb664737e60786e" approved="yes">
+        <source>You do not have permission to edit this.</source>
+        <target state="final">您没有编辑权限</target>
+        <note>Line: 397</note>
+      </trans-unit>
       <trans-unit id="3463605a91f50da30633ac9a1d922d3a" approved="yes">
         <source>Themes can only be changed in single store context.</source>
         <target state="final">主题只能在单个商店上下文中更改。</target>
-        <note>Line: 483</note>
+        <note>Line: 485</note>
       </trans-unit>
       <trans-unit id="22c02340d6f7c86c03120d5dfe60eac3" approved="yes">
         <source>Missing configuration file</source>
         <target state="final">缺少配置文件</target>
-        <note>Line: 486</note>
+        <note>Line: 488</note>
       </trans-unit>
       <trans-unit id="85265e940fbb820dd2475946e7bc48d9" approved="yes">
         <source>Invalid configuration</source>
         <target state="final">无效配置。</target>
-        <note>Line: 489</note>
+        <note>Line: 491</note>
       </trans-unit>
       <trans-unit id="5992528f236587164ee4f212b9460410" approved="yes">
         <source>Invalid data</source>
         <target state="final">无效的数据</target>
-        <note>Line: 492</note>
+        <note>Line: 494</note>
       </trans-unit>
       <trans-unit id="4dedf35a15365e00b8a151fc1daed3af" approved="yes">
         <source>Image format not recognized, allowed format(s) is(are): .%s</source>
         <target state="final">无法识别图像格式，允许的格式为：.%s</target>
-        <note>Line: 594</note>
+        <note>Line: 596</note>
+      </trans-unit>
+      <trans-unit id="5dcea1234ac01d22f40ffc81d0bc4c2f" approved="yes">
+        <source>File too large (limit of %s bytes).</source>
+        <target state="final">文件过大 (限制%s字节)。</target>
+        <note>Line: 607</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/CurrencyController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="6d28945e1e7f349cda5503c96aa3ae76" approved="yes">
+        <source>You must select at least one item to perform a bulk action.</source>
+        <target state="final">您必须至少选择一项才能执行批量操作。</target>
+        <note>Line: 595</note>
+      </trans-unit>
+      <trans-unit id="505bbc38260c669d0793757e414caecc" approved="yes">
+        <source>The %s field is not valid</source>
+        <target state="final">%s栏无效。</target>
+        <note>Line: 580</note>
+      </trans-unit>
       <trans-unit id="b3f69fdbd12765a4667492d013ea3d81" approved="yes">
         <source>You need permission to edit this.</source>
         <target state="final">您需要获得编辑权限。</target>
-        <note>Line: 412</note>
-      </trans-unit>
-      <trans-unit id="777e4c7c4a3cc47eb332a7a4022c983e" approved="yes">
-        <source>Unexpected error occurred.</source>
-        <target state="final">发生意外的错误。</target>
-        <note>Line: 426</note>
+        <note>Line: 420</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/LanguageController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      <trans-unit id="fa4611fb85bb8f118f562d107ab790d4" approved="yes">
-        <source>The object cannot be loaded (or found)</source>
-        <target state="final">对象不能被加载（没有找到）</target>
-        <note>Line: 332</note>
+      <trans-unit id="66042fc205784775b028ba4ac7acebf3" approved="yes">
+        <source>Due to memory limit restrictions, this image cannot be loaded. Please increase your memory_limit value via your server's configuration settings.</source>
+        <target state="final">由于内存限制的限制，该图像不能被加载。请通过你的服务器的配置设置提高您的memory_limit的值。</target>
+        <note>Line: 375</note>
+      </trans-unit>
+      <trans-unit id="b05c3c0bfce943b86e286e8e8103b6e5" approved="yes">
+        <source>An error occurred while uploading the image.</source>
+        <target state="final">在上传图像的时候发生了错误。</target>
+        <note>Line: 379</note>
       </trans-unit>
       <trans-unit id="25e49a9ca73fb59fa5fdb618f136ed48" approved="yes">
         <source>Max file size allowed is "%s" bytes.</source>
         <target state="final">允许的最大文件大小为“%s”字节。</target>
-        <note>Line: 342</note>
+        <note>Line: 351</note>
+      </trans-unit>
+      <trans-unit id="c4ae3afc5d4c01919142f8b39cc5c1c5" approved="yes">
+        <source>Image format not recognized, allowed formats are: .gif, .jpg, .png</source>
+        <target state="final">不被认可的图像格式，允许的格式为：.gif, .jpg, .png</target>
+        <note>Line: 355</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/StateController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="a62d7ffa591311c930a2017b07e55394" approved="yes">
+        <source>The object cannot be loaded (the identifier is missing or invalid)</source>
+        <target state="final">对象不能加载 (标识符丢失或无效)</target>
+        <note>Line: 425</note>
+      </trans-unit>
       <trans-unit id="d52eaeff31af37a4a7e0550008aff5df" approved="yes">
         <source>An error occurred while attempting to save.</source>
         <target state="final">试图保存时发生错误。</target>
-        <note>Line: 411</note>
+        <note>Line: 408</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/ZoneController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="02af8c16ef4efa9fa9e2142372b0b90d" approved="yes">
+        <source>The %s field is required.</source>
+        <target state="final">%s 框需填写。</target>
+        <note>Line: 335</note>
+      </trans-unit>
+      <trans-unit id="7f290594963a303db17a5e21dc4cf0b7" approved="yes">
+        <source>An error occurred while deleting the object.</source>
+        <target state="final">在删除对象的时候发生了错误。</target>
+        <note>Line: 354</note>
+      </trans-unit>
+      <trans-unit id="1d5dfad5ac415b412c20a05a89d43db6" approved="yes">
+        <source>An error occurred while deleting this selection.</source>
+        <target state="final">在删除所选对象时发生了错误。</target>
+        <note>Line: 358</note>
+      </trans-unit>
       <trans-unit id="d0d474f143062278a7fda7bfb9d2712a" approved="yes">
         <source>This zone does not exist.</source>
         <target state="final">此区域不存在。</target>
-        <note>Line: 341</note>
+        <note>Line: 345</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/ModuleController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="370835a4106d1c7860f2fbb5daabd050" approved="yes">
+        <source>The file is missing.</source>
+        <target state="final">文件缺失！</target>
+        <note>Line: 351</note>
+      </trans-unit>
       <trans-unit id="dbf373dd3565accf2d2fd19700f6a5ae" approved="yes">
         <source>Invalid action</source>
         <target state="final">无效操作</target>
-        <note>Line: 208</note>
+        <note>Line: 211</note>
       </trans-unit>
       <trans-unit id="2b73839c76b07fdd994e444e0c7e75ad" approved="yes">
         <source>Your uploaded file might exceed the [1]upload_max_filesize[/1] and the [1]post_max_size[/1] directives in [1]php.ini[/1], please check your server configuration.</source>
         <target state="final">您上传的文件可能超出了[1]php.ini[/1]中的[1]pload_max_filesize[/1]和[1]post_max_size[/1]指令，请检查您的服务器配置。</target>
-        <note>Line: 332</note>
+        <note>Line: 337</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Improve/Modules/ModuleAbstractController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+    <body>
+      <trans-unit id="d8d4c3b79181fdcca8cb5159208fa56a" approved="yes">
+        <source>You do not have permission to add this.</source>
+        <target state="final">您没有权限点击此处。</target>
+        <note>Line: 59</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/ProductController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      <trans-unit id="d3ee9a41133f8fc3c83c91d09053f249" approved="yes">
-        <source>The value of the PHP.ini setting "max_input_vars" must be increased to %value% in order to be able to submit the product form.</source>
-        <target state="final">PHP.ini设置“max_input_vars”的值必须增加到 %value% 才能提交产品表单。</target>
-        <note>Line: 730</note>
-      </trans-unit>
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Address/AddressController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="efb49241363bce74c7d7899333cdebb5" approved="yes">
+        <source>An error occurred when attempting to update the required fields.</source>
+        <target state="final">更新必填项中发现了错误</target>
+        <note>Line: 643</note>
+      </trans-unit>
       <trans-unit id="a031742eeff8c55743063075a141da16" approved="yes">
         <source>Address fields contain invalid values.</source>
         <target state="final">地址字段包含无效值。</target>
-        <note>Line: 651</note>
+        <note>Line: 648</note>
+      </trans-unit>
+      <trans-unit id="acdcc688155bd653f51eaf710cac8af5" approved="yes">
+        <source>Internal error #%s</source>
+        <target state="final">内部错误#%s</target>
+        <note>Line: 628</note>
       </trans-unit>
       <trans-unit id="ddb7f719baea8c9f335937b683e8f155" approved="yes">
         <source>Invalid data supplied.</source>
         <target state="final">提供无效的数据。</target>
-        <note>Line: 637</note>
+        <note>Line: 634</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/AttachmentController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+    <body>
+      <trans-unit id="5569135c321c16866b524ec82dcd2b2a" approved="yes">
+        <source>No file has been selected</source>
+        <target state="final">没有选择档案</target>
+        <note>Line: 395</note>
       </trans-unit>
     </body>
   </file>
@@ -1393,16 +1196,25 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="9764b5693aa5cfa087814309050c34ad" approved="yes">
         <source>An error occurred while toggling this selection.</source>
         <target state="final">切换此选择时发生错误。</target>
-        <note>Line: 277</note>
+        <note>Line: 342</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/CatalogPriceRuleController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+    <body>
+      <trans-unit id="954b49d26a3a0986aca720a7095f2aa9" approved="yes">
+        <source>An error occurred while updating an object.</source>
+        <target state="final">在更新物品的时候发生了错误。</target>
+        <note>Line: 289</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/CategoryController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      <trans-unit id="2b4de48b49648d3323f20b6371f7e3c1" approved="yes">
-        <source>You cannot upload more files</source>
-        <target state="final">您不能上传多个文件</target>
-        <note>Line: 916</note>
+      <trans-unit id="10f97f4fea6d1ff9ffd1ed3260d6220d" approved="yes">
+        <source>Unable to delete associated images.</source>
+        <target state="final">无法删除关联的图像。</target>
+        <note>Line: 869</note>
       </trans-unit>
     </body>
   </file>
@@ -1417,10 +1229,20 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/ImageController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="fb86a99edb05e880b59843698a2fafbd" approved="yes">
+        <source>Cannot delete file</source>
+        <target state="final">无法删除文件</target>
+        <note>Line: 334</note>
+      </trans-unit>
       <trans-unit id="cd8dda5d025206b512480dfb825ad6f2" approved="yes">
         <source>Invalid ID.</source>
         <target state="final">无效ID.</target>
         <note>Line: 305</note>
+      </trans-unit>
+      <trans-unit id="8c9067e52e4440d8a20e74fdc745b0c6" approved="yes">
+        <source>No file was uploaded.</source>
+        <target state="final">没有文件被上传</target>
+        <note>Line: 329</note>
       </trans-unit>
     </body>
   </file>
@@ -1429,27 +1251,27 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="95be38fc18a46111194e2cba0649504a" approved="yes">
         <source>Product price is invalid</source>
         <target state="final">产品价格无效</target>
-        <note>Line: 1416</note>
+        <note>Line: 1396</note>
       </trans-unit>
       <trans-unit id="b64b49fceb6719b964e08084a3997eba" approved="yes">
         <source>Product price per unit is invalid</source>
         <target state="final">产品单价无效</target>
-        <note>Line: 1420</note>
+        <note>Line: 1400</note>
       </trans-unit>
       <trans-unit id="cc360e6a888c0d7ff56efeff9e7dab9f" approved="yes">
         <source>You cannot associate the same feature value more than once.</source>
         <target state="final">您不能多次关联相同的特征值。</target>
-        <note>Line: 1433</note>
+        <note>Line: 1413</note>
       </trans-unit>
       <trans-unit id="1348633590e241b276cdbb7ceaeb8295" approved="yes">
         <source>The selected value belongs to another feature.</source>
         <target state="final">所选值属于另一个特征。</target>
-        <note>Line: 1437</note>
+        <note>Line: 1417</note>
       </trans-unit>
       <trans-unit id="9ddbf7ca8d42128f5a6875b6b90252f7" approved="yes">
         <source>This product cannot be changed into a pack because it is already associated to another pack.</source>
         <target state="final">无法将此产品更改为包，因为它已与另一个包关联。</target>
-        <note>Line: 1448</note>
+        <note>Line: 1428</note>
       </trans-unit>
     </body>
   </file>
@@ -1458,12 +1280,21 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="d01e90d69347d836d72fbae16abf2ad3" approved="yes">
         <source>Image format not recognized, allowed formats are: .gif, .jpg, .png, .webp</source>
         <target state="final">无法识别图像格式，允许的格式为：.gif、.jpg、.png.webp</target>
-        <note>Line: 548</note>
+        <note>Line: 555</note>
       </trans-unit>
       <trans-unit id="2c576ac66b22c688a12278e88a976ab8" approved="yes">
         <source>The address for this supplier has been deleted.</source>
         <target state="final">该供应商的地址已被删除。</target>
-        <note>Line: 499</note>
+        <note>Line: 506</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/CustomerThreadController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+    <body>
+      <trans-unit id="84e4970c5c35731ac7084f09ca0a77cd" approved="yes">
+        <source>The email address is invalid.</source>
+        <target state="final">邮件地址无效。</target>
+        <note>Line: 262</note>
       </trans-unit>
     </body>
   </file>
@@ -1494,6 +1325,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">所选货币已被禁用，因此无法使用。</target>
         <note>Line: 564</note>
       </trans-unit>
+      <trans-unit id="959c96ec640d353311dd9763d57daad6" approved="yes">
+        <source>Please fill in all the required fields.</source>
+        <target state="final">请填写所有必填字段。</target>
+        <note>Line: 570</note>
+      </trans-unit>
       <trans-unit id="bc5d37ff246288c98fa45f3903172747" approved="yes">
         <source>Custom field text cannot be longer than %limit% characters.</source>
         <target state="final">自定义字段文字不能超过 %limit% 个字符。</target>
@@ -1508,45 +1344,50 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="59af32e406ca8d94850e9a2a696c9dcd" approved="yes">
+        <source>Invalid value: the payment must be a positive amount.</source>
+        <target state="final">无效的值：付款必须是正数。</target>
+        <note>Line: 1982</note>
+      </trans-unit>
       <trans-unit id="b19e2fa860ab1d9fdd60f5b7772b6a3e" approved="yes">
         <source>The product customization picture could not be found.</source>
         <target state="final">找不到产品定制图片。</target>
-        <note>Line: 1747</note>
+        <note>Line: 1746</note>
       </trans-unit>
       <trans-unit id="3e19a894b9552d54a62e99b3f7e7cf94" approved="yes">
         <source>Invalid action: this order has already been paid.</source>
         <target state="final">无效的操作：此订单已付款。</target>
-        <note>Line: 1988</note>
+        <note>Line: 1987</note>
       </trans-unit>
       <trans-unit id="546710db975c663e306008fda9fc5865" approved="yes">
         <source>Invalid action: this order has not been delivered.</source>
         <target state="final">无效操作：此订单尚未交付。</target>
-        <note>Line: 1992</note>
+        <note>Line: 1991</note>
       </trans-unit>
       <trans-unit id="b5ab864b320f4fcbcd061ee3119cf21c" approved="yes">
         <source>Invalid action: this order has already been delivered.</source>
         <target state="final">无效操作：此订单已交付。</target>
-        <note>Line: 1996</note>
+        <note>Line: 1995</note>
       </trans-unit>
       <trans-unit id="7621aa68f3fb11dce889ba85f3a74758" approved="yes">
         <source>Invalid action: this order has not been paid.</source>
         <target state="final">无效的操作：此订单尚未付款。</target>
-        <note>Line: 2000</note>
+        <note>Line: 1999</note>
       </trans-unit>
       <trans-unit id="074ed474a7e0b671a07422f3014dadfb" approved="yes">
         <source>This product is already in your order, please edit the quantity instead.</source>
         <target state="final">此产品已在您的订单中，请修改数量。</target>
-        <note>Line: 2020</note>
+        <note>Line: 2019</note>
       </trans-unit>
       <trans-unit id="5b5d79a83148583db9a987bc0dbb6265" approved="yes">
         <source>This product is already in the invoice [1], please edit the quantity instead.</source>
         <target state="final">此产品已在发票 [1] 中，请改为修改数量。</target>
-        <note>Line: 2024</note>
+        <note>Line: 2023</note>
       </trans-unit>
       <trans-unit id="963830daedc95e3bd008090ae4c7d1d9" approved="yes">
         <source>You cannot edit the price of a product that no longer exists in your catalog.</source>
         <target state="final">您无法编辑目录中不再存在的产品的价格。</target>
-        <note>Line: 2029</note>
+        <note>Line: 2028</note>
       </trans-unit>
     </body>
   </file>
@@ -1561,20 +1402,6 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <source>The field is invalid. Please enter an integer greater than or equal to 0.</source>
         <target state="final">该字段无效。 请输入一个大于或等于 0 的整数。</target>
         <note>Line: 151</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Employee/EmployeeType.php" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      <trans-unit id="24e70577722f76a8245415c0a344b96c" approved="yes">
-        <source>This field is invalid</source>
-        <target state="final">此字段是无效的。 (Automatic Translation)</target>
-        <note>Line: 163</note>
-      </trans-unit>
-      <trans-unit id="1a668ad0d1d7a5623d2710d2517bbdd1" approved="yes">
-        <source>This field cannot be shorter than %limit% characters</source>
-        <target state="final">此字段不能短于 %limit% 个字符</target>
-        <note>Line: 319</note>
       </trans-unit>
     </body>
   </file>
@@ -1594,11 +1421,6 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">“%s”字段无效。 不允许使用 HTML 标签。</target>
         <note>Line: 137</note>
       </trans-unit>
-      <trans-unit id="ce09b68fe980afcd2181771fe3bf5b31" approved="yes">
-        <source>This field cannot be longer than %limit% characters</source>
-        <target state="final">此字段不能超过 %limit% 个字符</target>
-        <note>Line: 104</note>
-      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/CustomerPreferences/GeneralType.php" source-language="en" target-language="zh-CN" datatype="plaintext">
@@ -1606,7 +1428,7 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="708e8bb5546888ed29df354fa76fb962" approved="yes">
         <source>The field is invalid. Please enter a positive integer.</source>
         <target state="final">该字段无效。 请输入一个正整数(不可以为负数)。</target>
-        <note>Line: 84</note>
+        <note>Line: 85</note>
       </trans-unit>
     </body>
   </file>
@@ -1619,26 +1441,26 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/SearchEngines/SearchEngineType.php" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      <trans-unit id="dada2d58c67cca61c8e6daeb0e4c79bb" approved="yes">
-        <source>This field cannot be empty.</source>
-        <target state="final">该字段不能为空.</target>
-        <note>Line: 72</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/MetaSettingsFormDataProvider.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/MetaSettingsShopUrlsFormDataProvider.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
       <trans-unit id="8fb7465fec179740502812519d1a8182" approved="yes">
         <source>This domain is not valid.</source>
         <target state="final">领域名不能使用</target>
-        <note>Line: 220</note>
+        <note>Line: 110</note>
       </trans-unit>
       <trans-unit id="d2d0c6d9bcc804f2c59b8fc228dc671e" approved="yes">
         <source>The SSL domain is not valid.</source>
         <target state="final">SSL 领域名无效</target>
-        <note>Line: 228</note>
+        <note>Line: 118</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Improve/Design/Theme/ImportThemeType.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+    <body>
+      <trans-unit id="6e9550e40cc317663fbe81e759d098e8" approved="yes">
+        <source>The uploaded file is too large.</source>
+        <target state="final">上传的文件太大。</target>
+        <note>Line: 109</note>
       </trans-unit>
     </body>
   </file>
@@ -1647,17 +1469,22 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="6d570c631367510b7bda39252afda6b7" approved="yes">
         <source>This value should be less than or equal to %value%.</source>
         <target state="final">此值应小于或等于 %value%。</target>
-        <note>Line: 255</note>
+        <note>Line: 253</note>
+      </trans-unit>
+      <trans-unit id="24e70577722f76a8245415c0a344b96c" approved="yes">
+        <source>This field is invalid</source>
+        <target state="final">此字段是无效的。 (Automatic Translation)</target>
+        <note>Line: 233</note>
       </trans-unit>
       <trans-unit id="a5d028cb6593937f07a5b50b210fc78d" approved="yes">
         <source>This value should be greater than %value%</source>
         <target state="final">此值应大于 %value%</target>
-        <note>Line: 214</note>
+        <note>Line: 212</note>
       </trans-unit>
       <trans-unit id="844ca4e119500cc9f8683704324a7e8e" approved="yes">
         <source>This value should be greater than or equal to %value%</source>
         <target state="final">此值应大于或等于 %value%</target>
-        <note>Line: 240</note>
+        <note>Line: 238</note>
       </trans-unit>
     </body>
   </file>
@@ -1670,8 +1497,31 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Locations/CountryType.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+    <body>
+      <trans-unit id="cb1ff1b51f6e9525ed8cfa59d4019c83" approved="yes">
+        <source>This field cannot be longer than %limit% characters.</source>
+        <target state="final">此字段不能超过 %limit% 个字符。</target>
+        <note>Line: 88</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Locations/ZoneType.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+    <body>
+      <trans-unit id="dada2d58c67cca61c8e6daeb0e4c79bb" approved="yes">
+        <source>This field cannot be empty.</source>
+        <target state="final">该字段不能为空.</target>
+        <note>Line: 106</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Tax/TaxType.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="ce09b68fe980afcd2181771fe3bf5b31" approved="yes">
+        <source>This field cannot be longer than %limit% characters</source>
+        <target state="final">此字段不能超过 %limit% 个字符</target>
+        <note>Line: 109</note>
+      </trans-unit>
       <trans-unit id="1cf26a08db6ef9cd67be91523c68ab6a" approved="yes">
         <source>This field is invalid, it must contain numeric values</source>
         <target state="final">此字段无效，必须包含正整数</target>
@@ -1693,26 +1543,26 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="2fe13fdedc51b372d555f49493993a7e" approved="yes">
         <source>Reduction value "%value%" is invalid. Allowed values from 0 to %max%</source>
         <target state="final">减少值“%value%”无效。 允许的值从 0 到 %max%</target>
-        <note>Line: 194</note>
+        <note>Line: 159</note>
       </trans-unit>
       <trans-unit id="a5e2f007d6044085203c9a13c981ed8a" approved="yes">
         <source>Reduction value "%value%" is invalid. Value cannot be negative</source>
         <target state="final">减少值“%value%”无效。 值不能为负数</target>
-        <note>Line: 199</note>
+        <note>Line: 164</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Customer/CustomerType.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      <trans-unit id="5d4ab8176c670bbb26380353630c90e4" approved="yes">
-        <source>%s is invalid. Please enter an integer greater than or equal to 0.</source>
-        <target state="final">%s 无效。 请输入一个大于或等于 0 的整数。</target>
-        <note>Line: 348</note>
+      <trans-unit id="20aedd1e6de4dcf8d115b5a7424c58d7" approved="yes">
+        <source>Password is required.</source>
+        <target state="final">必填密码</target>
+        <note>Line: 156</note>
       </trans-unit>
       <trans-unit id="db5870baa2d95de54c94afbc8a624e49" approved="yes">
         <source>%s is invalid. Please enter an integer lower than or equal to %s.</source>
         <target state="final">%s 无效。请输入一个小于或等于  %s 的整数。</target>
-        <note>Line: 352</note>
+        <note>Line: 377</note>
       </trans-unit>
     </body>
   </file>
@@ -1744,12 +1594,21 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/OrderPaymentType.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/CreditSlip/GeneratePdfByDateType.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      <trans-unit id="59af32e406ca8d94850e9a2a696c9dcd" approved="yes">
-        <source>Invalid value: the payment must be a positive amount.</source>
-        <target state="final">无效的值：付款必须是正数。</target>
-        <note>Line: 119</note>
+      <trans-unit id="e267d34972b3ab66b987fbad59fba513" approved="yes">
+        <source>Invalid date format.</source>
+        <target state="final">日期格式无效！</target>
+        <note>Line: 53</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationItemType.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+    <body>
+      <trans-unit id="0e2338b37ab3dfeed544e8233b53d4e0" approved="yes">
+        <source>The %1$s field is too long (%2$d chars max).</source>
+        <target state="final">字段 %1$s 过长 (%2$d 字符上限)。</target>
+        <note>Line: 179</note>
       </trans-unit>
     </body>
   </file>
@@ -1762,35 +1621,40 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Pricing/SpecificPriceImpactType.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Pricing/SpecificPriceType.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      <trans-unit id="e6510b8946a51a3d98ddcd431ca4fef9" approved="yes">
-        <source>Reduction value "%value%" is invalid. It must be greater than 0 and maximum %max%.</source>
-        <target state="final">缩减值 "%value%" 无效。它必须大于0且最大为 %max% 。</target>
-        <note>Line: 78</note>
-      </trans-unit>
-      <trans-unit id="e7126a8aabc4f2862a1dfa85fc14d0fe" approved="yes">
-        <source>Reduction value "%value%" is invalid. It must be greater than 0.</source>
-        <target state="final">缩减值  "%value%" 无效。它必须大于0。</target>
-        <note>Line: 83</note>
+      <trans-unit id="8f29c70fd66f50ce28b727cd40c6a3a3" approved="yes">
+        <source>The selected date range is not valid.</source>
+        <target state="final">所选日期范围无效。</target>
+        <note>Line: 156</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Type/ChangePasswordType.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="1a668ad0d1d7a5623d2710d2517bbdd1" approved="yes">
+        <source>This field cannot be shorter than %limit% characters</source>
+        <target state="final">此字段不能短于 %limit% 个字符</target>
+        <note>Line: 167</note>
+      </trans-unit>
       <trans-unit id="65efaaf9ead1beea82672beb5ace1fe2" approved="yes">
         <source>The confirmation password doesn't match.</source>
         <target state="final">确认密码不匹配。</target>
-        <note>Line: 107</note>
+        <note>Line: 109</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Type/FormattedTextareaType.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Type/PriceReductionType.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      <trans-unit id="cb1ff1b51f6e9525ed8cfa59d4019c83" approved="yes">
-        <source>This field cannot be longer than %limit% characters.</source>
-        <target state="final">此字段不能超过 %limit% 个字符。</target>
-        <note>Line: 64</note>
+      <trans-unit id="e6510b8946a51a3d98ddcd431ca4fef9" approved="yes">
+        <source>Reduction value "%value%" is invalid. It must be greater than 0 and maximum %max%.</source>
+        <target state="final">缩减值 "%value%" 无效。它必须大于0且最大为 %max% 。</target>
+        <note>Line: 115</note>
+      </trans-unit>
+      <trans-unit id="e7126a8aabc4f2862a1dfa85fc14d0fe" approved="yes">
+        <source>Reduction value "%value%" is invalid. It must be greater than 0.</source>
+        <target state="final">缩减值  "%value%" 无效。它必须大于0。</target>
+        <note>Line: 120</note>
       </trans-unit>
     </body>
   </file>
@@ -1799,7 +1663,7 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="88e6e5a9b5ba8629661e4dcdb78e26a5" approved="yes">
         <source>Oops... looks like an unexpected error occurred</source>
         <target state="final">糟糕...似乎发生了错误</target>
-        <note>Line: 48</note>
+        <note>Line: 47</note>
       </trans-unit>
     </body>
   </file>
@@ -1808,7 +1672,7 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="c2c0814b9cbcdf57b426000de541d20f" approved="yes">
         <source>The object cannot be loaded (or found).</source>
         <target state="final">无法加载（或找到）对象。</target>
-        <note>Line: 46</note>
+        <note>Line: 45</note>
       </trans-unit>
     </body>
   </file>
@@ -1817,7 +1681,7 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="8a39591ca58ab61e97f1f4c3b7d06266" approved="yes">
         <source>The file is too large. Maximum size allowed is: [1] MB. The file you are trying to upload is [2] MB.</source>
         <target state="final">文件太大。 允许的最大大小为：[1] MB。 您尝试上传的文件为 [2] MB。</target>
-        <note>Line: 320</note>
+        <note>Line: 314</note>
       </trans-unit>
     </body>
   </file>

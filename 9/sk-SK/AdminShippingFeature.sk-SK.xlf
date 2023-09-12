@@ -4,12 +4,12 @@
     <body>
       <trans-unit id="07018153f387118b1dacafee609f13b1" approved="yes">
         <source>Will be applied when the price is</source>
-        <target state="final">Použije sa, keď cena bude</target>
+        <target state="final">Cena je</target>
         <note>Line: 27</note>
       </trans-unit>
       <trans-unit id="4c687ab170e51c6eaa65be3b621c7205" approved="yes">
         <source>Will be applied when the weight is</source>
-        <target state="final">Použije sa, keď hmotnosť bude</target>
+        <target state="final">Hmotnosť je</target>
         <note>Line: 28</note>
       </trans-unit>
       <trans-unit id="574539ea519352ea60375ee0a3edbf16" approved="yes">
@@ -62,7 +62,7 @@
       </trans-unit>
       <trans-unit id="aa2d6e4f578eb0cfaba23beef76c2194" approved="yes">
         <source>free</source>
-        <target state="final">zadarmo</target>
+        <target state="final">zdarma</target>
         <note>Line: 55</note>
       </trans-unit>
       <trans-unit id="43aca442af5353cb54151e4a94fcd0b5" approved="yes">
@@ -106,12 +106,12 @@
       </trans-unit>
     </body>
   </file>
-  <file original="admin-dev/themes/default/template/controllers/carts/helpers/view/view.tpl" source-language="en" target-language="sk" datatype="plaintext">
+  <file original="admin-dev/themes/default/template/controllers/cart_rules/actions.tpl" source-language="en" target-language="sk" datatype="plaintext">
     <body>
       <trans-unit id="29aa46cc3d2677c7e0f216910df600ff" approved="yes">
         <source>Free shipping</source>
-        <target state="final">Bezplatné doručenie</target>
-        <note>Line: 218</note>
+        <target state="final">Doručenie zdarma</target>
+        <note>Line: 26</note>
       </trans-unit>
     </body>
   </file>
@@ -124,7 +124,7 @@
       </trans-unit>
       <trans-unit id="5d671531babe55fff4ae63b94c80ea38" approved="yes">
         <source>Delivery next day!</source>
-        <target state="final">Doručenie v nasledujúci pracovný deň!</target>
+        <target state="final">Doručenie na druhý pracovný deň!</target>
         <note>Line: 27</note>
       </trans-unit>
     </body>
@@ -153,7 +153,7 @@
       </trans-unit>
       <trans-unit id="0979779c4569141b98591d326d343ec2" approved="yes">
         <source>Tracking URL</source>
-        <target state="final">Sledovací webový odkaz</target>
+        <target state="final">Sledovací URL odkaz</target>
         <note>Line: 241</note>
       </trans-unit>
       <trans-unit id="829c7cc5ed48e11df7ac9b05e236a12c" approved="yes">
@@ -168,7 +168,7 @@
       </trans-unit>
       <trans-unit id="a083cb6637472c81ec701d3342320adf" approved="yes">
         <source>According to total weight.</source>
-        <target state="final">Podľa celkovej hmotnosti.</target>
+        <target state="final">Podľa celkovej váhy objednaných produktov.</target>
         <note>Line: 338</note>
       </trans-unit>
       <trans-unit id="482836cce404046ca7dc34fb0a6fc526" approved="yes">
@@ -201,38 +201,43 @@
         <target state="final">Skupinový prístup</target>
         <note>Line: 443</note>
       </trans-unit>
-      <trans-unit id="dde695268ea519ababd83f0ca3d274fc" approved="yes">
-        <source>Transit time</source>
-        <target state="final">Čas prepravy</target>
-        <note>Line: 219</note>
-      </trans-unit>
-      <trans-unit id="c8b462f779749d2e27abed2e9501b2bd" approved="yes">
-        <source>Speed grade</source>
-        <target state="final">Úroveň rýchlosti</target>
-        <note>Line: 228</note>
-      </trans-unit>
-      <trans-unit id="780c462e85ba4399a5d42e88f69a15ca" approved="yes">
-        <source>Billing</source>
-        <target state="final">Účtovanie</target>
-        <note>Line: 324</note>
-      </trans-unit>
-      <trans-unit id="082ebbb29b5ba59c293a00a55581679b" approved="yes">
-        <source>Out-of-range behavior</source>
-        <target state="final">Mimo rozsah</target>
-        <note>Line: 358</note>
-      </trans-unit>
-      <trans-unit id="4f890cf6a72112cad95093baecf39831" approved="yes">
-        <source>Disable carrier</source>
-        <target state="final">Vypnúť prepravcu</target>
-        <note>Line: 368</note>
-      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminCarriersController.php" source-language="en" target-language="sk" datatype="plaintext">
     <body>
+      <trans-unit id="dde695268ea519ababd83f0ca3d274fc" approved="yes">
+        <source>Transit time</source>
+        <target state="final">Čas prepravy</target>
+        <note>Line: 189</note>
+      </trans-unit>
+      <trans-unit id="c8b462f779749d2e27abed2e9501b2bd" approved="yes">
+        <source>Speed grade</source>
+        <target state="final">Úroveň rýchlosti</target>
+        <note>Line: 198</note>
+      </trans-unit>
+      <trans-unit id="780c462e85ba4399a5d42e88f69a15ca" approved="yes">
+        <source>Billing</source>
+        <target state="final">Účtovanie</target>
+        <note>Line: 305</note>
+      </trans-unit>
+      <trans-unit id="082ebbb29b5ba59c293a00a55581679b" approved="yes">
+        <source>Out-of-range behavior</source>
+        <target state="final">Mimo rozsah</target>
+        <note>Line: 330</note>
+      </trans-unit>
+      <trans-unit id="4f890cf6a72112cad95093baecf39831" approved="yes">
+        <source>Disable carrier</source>
+        <target state="final">Vypnúť prepravcu</target>
+        <note>Line: 340</note>
+      </trans-unit>
+      <trans-unit id="4e140ba723a03baa6948340bf90e2ef6" approved="yes">
+        <source>Name:</source>
+        <target state="final">Názov:</target>
+        <note>Line: 673</note>
+      </trans-unit>
       <trans-unit id="b00b85425e74ed2c85dc3119b78ff2c3" approved="yes">
         <source>Free Shipping</source>
-        <target state="final">Bezplatné doručenie</target>
+        <target state="final">Doručenie zdarma</target>
         <note>Line: 97</note>
       </trans-unit>
       <trans-unit id="1c0e287237d8c352c6ead633b019c047" approved="yes">
@@ -252,12 +257,12 @@
       </trans-unit>
       <trans-unit id="e3d29a6f3d7588301aa04429e686b260" approved="yes">
         <source>According to total price</source>
-        <target state="final">Podľa celkovej ceny</target>
+        <target state="final">Vzhľadom na celkovú cenu</target>
         <note>Line: 319</note>
       </trans-unit>
       <trans-unit id="49fec5c86a3b43821fdf0d9aa7bbd935" approved="yes">
         <source>According to total weight</source>
-        <target state="final">Vzhľadom na celkovú hmotnosť</target>
+        <target state="final">Vzhľadom na celkovú váhu</target>
         <note>Line: 324</note>
       </trans-unit>
       <trans-unit id="324029d06c6bfe85489099f6e69b7637" approved="yes">
@@ -280,19 +285,14 @@
         <target state="final">Maximálna hmotnosť balíka</target>
         <note>Line: 371</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="src/Core/Grid/Definition/Factory/CarrierGridDefinitionFactory.php" source-language="en" target-language="sk" datatype="plaintext">
+    <body>
       <trans-unit id="8f497c1a3d15af9e0c215019f26b887d" approved="yes">
         <source>Delay</source>
         <target state="final">Doba doručenia</target>
-        <note>Line: 85</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="controllers/admin/AdminCartRulesController.php" source-language="en" target-language="sk" datatype="plaintext">
-    <body>
-      <trans-unit id="4e140ba723a03baa6948340bf90e2ef6" approved="yes">
-        <source>Name:</source>
-        <target state="final">Názov:</target>
-        <note>Line: 861</note>
+        <note>Line: 113</note>
       </trans-unit>
     </body>
   </file>
@@ -301,21 +301,21 @@
       <trans-unit id="bff13ed1cd5b83b03f024f1eb6524337" approved="yes">
         <source>Default carrier</source>
         <target state="final">Predvolený prepravca</target>
-        <note>Line: 85</note>
+        <note>Line: 86</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Improve/Shipping/Preferences/PreferencesFormDataProvider.php" source-language="en" target-language="sk" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Improve/Shipping/Preferences/HandlingType.php" source-language="en" target-language="sk" datatype="plaintext">
     <body>
       <trans-unit id="1d8ca7f442e6d4ad3da5cb61b84284fc" approved="yes">
         <source>Handling charges</source>
         <target state="final">Manipulačné poplatky</target>
-        <note>Line: 106</note>
+        <note>Line: 87</note>
       </trans-unit>
       <trans-unit id="c9722f74f95451816de0f8ca3259ae44" approved="yes">
         <source>Free shipping starts at</source>
         <target state="final">Doručenie zadarmo začína na hodnote</target>
-        <note>Line: 114</note>
+        <note>Line: 111</note>
       </trans-unit>
     </body>
   </file>
@@ -365,12 +365,12 @@
       <trans-unit id="914419aa32f04011357d3b604a86d7eb" approved="yes">
         <source>Carrier</source>
         <target state="final">Prepravca</target>
-        <note>Line: 44</note>
+        <note>Line: 32</note>
       </trans-unit>
       <trans-unit id="552a0d8c17d95d5dbdc0c28217024f5a" approved="yes">
         <source>Shipping cost</source>
         <target state="final">Prepravné náklady</target>
-        <note>Line: 46</note>
+        <note>Line: 34</note>
       </trans-unit>
     </body>
   </file>
