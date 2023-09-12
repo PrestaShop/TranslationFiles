@@ -26,13 +26,25 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/images/modal_confirm_delete_type.tpl" source-language="en" target-language="sk" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="f031a290ace03a9f5d5dce82aefa86c6" approved="yes">
+        <source>If you delete this image format, the theme won't be able to use it anymore. This will result in a degraded experience on your front office.</source>
+        <target state="final">Ak tento formát obrázka odstránite, šablóna ho už nebude môcť používať. To bude mať za následok zhoršené zobrazenie vášho obchodu zákazníkom.</target>
+        <note>Line: 27</note>
+      </trans-unit>
+      <trans-unit id="01d51bf7619b2c4c234be88fa06ac16b" approved="yes">
+        <source>Delete the images linked to this image setting</source>
+        <target state="final">Odstrániť obrázky spojené s týmto nastavením obrázka</target>
+        <note>Line: 35</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/images/modal_regenerate_thumbnails.tpl" source-language="en" target-language="sk" datatype="plaintext">
     <body>
-      
+      <trans-unit id="6d2d8a4592271225573b378ea6d12eeb" approved="yes">
+        <source>Regenerate thumbnails for the selected images? With the "erase" option enabled, the previously selected thumbnails will be deleted.</source>
+        <target state="final">Regenerovať miniatúry pre vybrané obrázky? Ak je povolená možnosť „vymazať“, predtým vybrané miniatúry sa odstránia.</target>
+        <note>Line: 26</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/controller/FrontController.php" source-language="en" target-language="sk" datatype="plaintext">
@@ -40,7 +52,7 @@
       <trans-unit id="c402321a8e5818b776007e8a2d00474a" approved="yes">
         <source>Current theme is unavailable. Please check your theme's directory name ("%s") and permissions.</source>
         <target state="final">Aktuálna šablóna nie je dostupná. Skontrolujte prosím názov vašej zložky šablón ("%s") a jej oprávnenia.</target>
-        <note>Line: 322</note>
+        <note>Line: 280</note>
       </trans-unit>
     </body>
   </file>
@@ -49,92 +61,87 @@
       <trans-unit id="ffddcc65274efa9b4c624b34289c922c" approved="yes">
         <source>Duplicate images were found when moving the product images. This is likely caused by unused demonstration images. Please make sure that the folder %folder% only contains demonstration images, and then delete it.</source>
         <target state="final">Pri presúvaní obrázkov boli nájdené duplicitné obrázky. Je to pravdepodobne spôsobené nepoužívanými demo obrázkami. Uistite sa prosím, že zložka %folder% obsahuje iba demonštračné obrázky a potom ju zmažte.</target>
-        <note>Line: 504</note>
+        <note>Line: 488</note>
       </trans-unit>
       <trans-unit id="5b8cb2aa659c7d6a98b740d2d788c69d" approved="yes">
         <source>Incorrect value for the selected JPEG image compression.</source>
         <target state="final">Nesprávna hodnota pre vybranú JPEG kompresiu.</target>
-        <note>Line: 527</note>
+        <note>Line: 511</note>
       </trans-unit>
       <trans-unit id="8357fadc46ff52546c4c69965de0d653" approved="yes">
         <source>Incorrect value for the selected PNG image compression.</source>
         <target state="final">Nesprávna hodnota pre vybranú PNG kompresiu.</target>
-        <note>Line: 530</note>
+        <note>Line: 514</note>
       </trans-unit>
       <trans-unit id="cfb484c05d54f0af1f6c7134505fe611" approved="yes">
         <source>Incorrect value for the selected WebP image compression.</source>
         <target state="final">Nesprávna hodnota pre vybranú WebP kompresiu obrázka.</target>
-        <note>Line: 533</note>
+        <note>Line: 517</note>
       </trans-unit>
       <trans-unit id="b88862891dbf9c20a73bc59258407d0b" approved="yes">
         <source>Source file does not exist or is empty (%filepath%)</source>
         <target state="final">Zdrojový súbor neexistuje alebo je prázdny (%filepath%)</target>
-        <note>Line: 697</note>
+        <note>Line: 678</note>
       </trans-unit>
       <trans-unit id="985b5b995c4574ae5eba2062a13ef168" approved="yes">
         <source>Failed to resize image file (%filepath%)</source>
         <target state="final">Nepodarilo sa zmeniť veľkosť obrázka (%filepath%)</target>
-        <note>Line: 707</note>
-      </trans-unit>
-      <trans-unit id="c5e7d0c13104eed0a195c175f2edfdd2" approved="yes">
-        <source>Failed to resize image file to high resolution (%filepath%)</source>
-        <target state="final">Nepodarilo sa zmeniť obrázka na vysoké rozlíšenie (%filepath%)</target>
-        <note>Line: 718</note>
+        <note>Line: 688</note>
       </trans-unit>
       <trans-unit id="103d86044b78fa59e02ff8480a3a2f46" approved="yes">
         <source>Original image is corrupt (%filename%) for product ID %id% or bad permission on folder.</source>
         <target state="final">Pôvodný obrázok (%filename%) pre produkt s ID číslom %id% je poškodený alebo je v priečinku nesprávne povolenie.</target>
-        <note>Line: 771</note>
+        <note>Line: 721</note>
       </trans-unit>
       <trans-unit id="2934958a3f658892ee502aaf8258a6f7" approved="yes">
         <source>Original image is missing or empty (%filename%) for product ID %id%</source>
         <target state="final">Pôvodný obrázok (%filename%) pre produkt s ID číslom %id% chýba alebo je prázdny</target>
-        <note>Line: 785</note>
+        <note>Line: 734</note>
       </trans-unit>
       <trans-unit id="8b772dad7cc4ed15eaf0c433f861e55c" approved="yes">
         <source>Cannot write images for this type: %1$s. Please check the %2$s folder's writing permissions.</source>
         <target state="final">Obrázok typu: %1$s nie je možné zapísať. Prosím skontrolujte oprávnenia pre zápis do priečinka %2$s.</target>
-        <note>Line: 937</note>
+        <note>Line: 873</note>
       </trans-unit>
       <trans-unit id="d4f225ec09e4b0eba6558753f4bd8edd" approved="yes">
         <source>Only part of the images have been regenerated. The server timed out before finishing.</source>
         <target state="final">Iba časť z obrázkov bolo znovu vygenerovaných, serveru vypršal čas pred dokončením.</target>
-        <note>Line: 940</note>
+        <note>Line: 876</note>
       </trans-unit>
       <trans-unit id="f2febdafe25d3517afc3c6dd3d815562" approved="yes">
         <source>Server timed out. The watermark may not have been applied to all images.</source>
         <target state="final">Skriptu na serveri vypršal čas behu, vodoznak nemusel byť aplikovaný na všetky obrázky.</target>
-        <note>Line: 944</note>
+        <note>Line: 880</note>
       </trans-unit>
       <trans-unit id="606495559093a136ed6f2c9daee2645f" approved="yes">
         <source>Cannot write "No picture" image to %s images folder. Please check the folder's writing permissions.</source>
         <target state="final">Nedá sa zapísať obrázok "Bez obrázku" do adresára s obrázkami %s. Prosím skontrolujte práva na zápis pre tento adresár.</target>
-        <note>Line: 949</note>
+        <note>Line: 885</note>
       </trans-unit>
       <trans-unit id="4004c7590c68a8cbbe499736c56bc33c" approved="yes">
         <source>Error: Your server configuration is not compatible with the new image system. No images were moved.</source>
         <target state="final">Chyba: konfigurácia servera nie je kompatibilná s novým systémom obrázkov. Žiadne obrázky neboli presunuté</target>
-        <note>Line: 977</note>
+        <note>Line: 913</note>
       </trans-unit>
       <trans-unit id="c26feb9180b94fa563c1e10b7354693b" approved="yes">
         <source>Not all images have been moved. The server timed out before finishing. Click on "%move_images_label%" again to resume the moving process.</source>
         <target state="final">Nie všetky obrázky boli presunuté. Pred dokončením serveru vypršal časový limit. Opätovným kliknutím na "%move_images_label%" obnovíte proces presunu.</target>
-        <note>Line: 984</note>
+        <note>Line: 920</note>
       </trans-unit>
       <trans-unit id="95871efade00fbd0243355ce7937c40a" approved="yes">
         <source>Error: Some -- or all -- images cannot be moved.</source>
         <target state="final">Chyba: Niektoré alebo všetky obrázky sa nedajú presunúť.</target>
-        <note>Line: 991</note>
+        <note>Line: 927</note>
       </trans-unit>
       <trans-unit id="cb2f901ceed5c3365d056794a1b5047f" approved="yes">
         <source>After modification, do not forget to regenerate thumbnails</source>
         <target state="final">Po zmene nezabudnite regenerovať náhľady obrázkov</target>
-        <note>Line: 1010</note>
+        <note>Line: 951</note>
       </trans-unit>
-      <trans-unit id="e8be55bf3a30501aef09d2e74de97976" approved="yes">
-        <source>This name already exists.</source>
-        <target state="final">Názov už existuje.</target>
-        <note>Line: 561</note>
+      <trans-unit id="de7bf0de52dfa524dc063d610496c957" approved="yes">
+        <source>Make sure the theme you use doesn't rely on this image format before deleting it.</source>
+        <target state="final">Pred odstránením sa uistite, že šablóna, ktorú používate, nie je závislá od tohto formátu obrázka.</target>
+        <note>Line: 952</note>
       </trans-unit>
     </body>
   </file>
@@ -157,7 +164,7 @@
       <trans-unit id="f003149576f4755d74550952febe14bb" approved="yes">
         <source>An error occurred while uploading the favicon: cannot copy file "%s" to folder "%s".</source>
         <target state="final">Pri nahrávaní favicon-u došlo k chybe: súbor "%s" nie je možné skopírovať do zložky "%s".</target>
-        <note>Line: 258</note>
+        <note>Line: 234</note>
       </trans-unit>
     </body>
   </file>
@@ -175,7 +182,7 @@
       <trans-unit id="29dae1d163226f90bb206b333bbffe1d" approved="yes">
         <source>The page Category cannot be moved here.</source>
         <target state="final">Kategória stránky sem nemôže byť presunutá.</target>
-        <note>Line: 1143</note>
+        <note>Line: 1123</note>
       </trans-unit>
     </body>
   </file>
@@ -184,27 +191,36 @@
       <trans-unit id="4a9fdf95b29176bd9260016655a80852" approved="yes">
         <source>Your RTL stylesheets has been generated successfully</source>
         <target state="final">Vaše RTL štýly boli úspešne vygenerované</target>
-        <note>Line: 344</note>
+        <note>Line: 345</note>
       </trans-unit>
       <trans-unit id="c5d36cf23559e659323adbcb32e2b6d3" approved="yes">
         <source><![CDATA[Your theme has been correctly reset to its default settings. You may want to regenerate your images. See the Improve > Design > Images Settings screen for the '%regenerate_label%' button.]]></source>
         <target state="final"><![CDATA[Vaša šablóna bola obnovená do pôvodného nastavenia. Možno budete chcieť regenerovať svoje obrázky. V menu Rozšírenia > Dizajn > Nastavenia obrázkov nájdete tlačidlo '%regenerate_label%'.]]></target>
-        <note>Line: 372</note>
+        <note>Line: 373</note>
       </trans-unit>
       <trans-unit id="0933caade58197a4ff60c27077f67604" approved="yes">
         <source>There is already a theme %theme_name% in your themes folder. Remove it if you want to continue.</source>
         <target state="final">V priečinku šablón už existuje šablóna s názvom %theme_name%. Ak chcete pokračovať, odstráňte ju.</target>
-        <note>Line: 475</note>
+        <note>Line: 477</note>
       </trans-unit>
       <trans-unit id="2cca9f161ea0cc1102ad4be82b15cbfb" approved="yes">
         <source>Failed to delete theme. Make sure you have permissions and theme is not used.</source>
         <target state="final">Šablónu sa nepodarilo odstrániť. Uistite sa, že máte potrebné oprávnenia a šablóna sa nepoužíva.</target>
-        <note>Line: 536</note>
+        <note>Line: 538</note>
       </trans-unit>
       <trans-unit id="05c176b8092b42c554d570513026207c" approved="yes">
         <source>Cannot adapt theme to RTL languages.</source>
         <target state="final">Šablónu nie je možné prispôsobiť RTL jazykom.</target>
-        <note>Line: 558</note>
+        <note>Line: 560</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Import/ImportDataConfigurationFormDataProvider.php" source-language="en" target-language="sk" datatype="plaintext">
+    <body>
+      <trans-unit id="e8be55bf3a30501aef09d2e74de97976" approved="yes">
+        <source>This name already exists.</source>
+        <target state="final">Názov už existuje.</target>
+        <note>Line: 144</note>
       </trans-unit>
     </body>
   </file>
