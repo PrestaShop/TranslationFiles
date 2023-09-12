@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="admin-dev/themes/default/template/controllers/carrier_wizard/helpers/form/form.tpl" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      <trans-unit id="5e543256c480ac577d30f76f9120eb74" approved="yes">
+        <source>undefined</source>
+        <target state="final">לא מוגדר</target>
+        <note>Line: 58</note>
+      </trans-unit>
+      <trans-unit id="fb2ea703b13d059f6b7ea5da806021df" approved="yes">
+        <source>Format:</source>
+        <target state="final">פורמט:</target>
+        <note>Line: 57</note>
+      </trans-unit>
+      <trans-unit id="b908c2f34052b5276e0bf50f0e042211" approved="yes">
+        <source>Filesize:</source>
+        <target state="final">גודל קובץ:</target>
+        <note>Line: 57</note>
+      </trans-unit>
+      <trans-unit id="2f972dbb48435d9b8087d7e3c22daa09" approved="yes">
+        <source>MB max.</source>
+        <target state="final">מקסימום MB</target>
+        <note>Line: 57</note>
+      </trans-unit>
+      <trans-unit id="c32587b909ccc2187659ca665dbb06be" approved="yes">
+        <source>Current size:</source>
+        <target state="final">גודל נוכחי:</target>
+        <note>Line: 58</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="admin-dev/themes/default/template/controllers/carriers/helpers/list/list_header.tpl" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      <trans-unit id="401c8f6635d231c5360f31ce548c4462" approved="yes">
+        <source>Your online store needs to have a proper carrier registered in PrestaShop as soon as you start shipping your products. This means sending yours parcels using your local postal service, or having a contract with a private carrier which in turn will ship your parcels to your customers. In order to have PrestaShop suggest the most adequate carrier to your customers during their order checkout process, you need to register all the carriers with which you have chosen to work.</source>
+        <target state="final">החנות המקוונת שלך צריכה להכיל מוביל הרשום כראוי ב PrestaShop ברגע שאתה מתחיל לשלוח את המוצרים שלך. משמעות הדבר היא שליחת החבילות שלך באמצעות שירות הדואר המקומי שלך, או באמצעות חוזה עם ספק פרטי אשר בתורו ישלח את החבילות שלך ללקוחותיך. על מנת ש PrestaShop יציע את המוביל ההולם ביותר ללקוחותיך במהלך תהליך הרכישה שלהם, אתה צריך לרשום את כל המובילים שעימם בחרת לעבוד.</target>
+        <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="12a118b904361ef7a25365b2ff29cfa9" approved="yes">
+        <source>Note: DO NOT register a new carrier if there already exists a module for it! Using a module will be much faster and more accurate!</source>
+        <target state="final">הערה: אל תרשום המוביל חדש אם כבר קיים מודול לזה! שימוש במודול יהיה מהיר הרבה יותר ומדויק יותר!</target>
+        <note>Line: 32</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminCarrierWizardController.php" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      <trans-unit id="95be6960ce35a5d972b7314203b312be" approved="yes">
+        <source>The carrier's name will be displayed during checkout.</source>
+        <target state="final">שמות המובילים יוצגו במהלך סיום רכישה.</target>
+        <note>Line: 213</note>
+      </trans-unit>
+      <trans-unit id="d2eee8992bbabe7e76562a015ecf0d7f" approved="yes">
+        <source>The delivery time will be displayed during checkout.</source>
+        <target state="final">זמן האספקה יוצג במהלך הקופה.</target>
+        <note>Line: 224</note>
+      </trans-unit>
+      <trans-unit id="ff9058a791d671d3cb7ce3117b3f989d" approved="yes">
+        <source>Delivery tracking URL: Type '@' where the tracking number should appear. It will be automatically replaced by the tracking number.</source>
+        <target state="final">כתובת מעקב משלוח: הזן '@' במקום שבו צריך להופיע מספר המעקב. הוא יוחלף אוטומטית במספר המעקב.</target>
+        <note>Line: 243</note>
+      </trans-unit>
+      <trans-unit id="0668ec4bb8d6bcb27d283b2af9bc5888" approved="yes">
+        <source><![CDATA[Include the handling costs (as set in Shipping > Preferences) in the final carrier price.]]></source>
+        <target state="final"><![CDATA[כלול עלויות טיפול במחיר המוביל הסופי (כפי שהוגדרו בהעדפות משלוחים).]]></target>
+        <note>Line: 301</note>
+      </trans-unit>
+      <trans-unit id="0d93d79832d9f31a18045afabb105de1" approved="yes">
+        <source>Out-of-range behavior occurs when no defined range matches the customer's cart (e.g. when the weight of the cart is greater than the highest weight limit defined by the weight ranges).</source>
+        <target state="final">התנהגות מחוץ לטווח מופיעה כאשר אין טווח מוגדר התואם לתכולת עגלת הקניות. (לדוגמה, כאשר המשקל בעגלה גדול מהמשקל המירבי המוגדר על ידי טווחי המשקלים).</target>
+        <note>Line: 374</note>
+      </trans-unit>
+      <trans-unit id="2f79e7f703f8cd0258b0ef7e0237a4be" approved="yes">
+        <source>Maximum width managed by this carrier. Set the value to "0", or leave this field blank to ignore.</source>
+        <target state="final">רוחב מרבי המנוהל על ידי מוביל זה. הגדר "0" או השאר שדה זה ריק על מנת להתעלם.</target>
+        <note>Line: 418</note>
+      </trans-unit>
+      <trans-unit id="497876c111e98a20564817545518f829" approved="yes">
+        <source>The value must be an integer.</source>
+        <target state="final">יש להזין מספר שלם.</target>
+        <note>Line: 432</note>
+      </trans-unit>
+      <trans-unit id="5929a4e1d04d4653b6dbe2aac59d8a41" approved="yes">
+        <source>Maximum height managed by this carrier. Set the value to "0", or leave this field blank to ignore.</source>
+        <target state="final">גובה חבילה מירבי המאושר על ידי מוביל זה. סמן "0" או השאר ריק על מנת להתעלם.</target>
+        <note>Line: 425</note>
+      </trans-unit>
+      <trans-unit id="aacaecfacce577935cf83eeb01bcac40" approved="yes">
+        <source>Maximum depth managed by this carrier. Set the value to "0", or leave this field blank to ignore.</source>
+        <target state="final">עומק מרבי המנוהל על ידי מוביל זה. הגדר "0" או השאר שדה זה ריק על מנת להתעלם.</target>
+        <note>Line: 432</note>
+      </trans-unit>
+      <trans-unit id="82ef5a4b25d9debf587900797b0b9619" approved="yes">
+        <source>Maximum weight managed by this carrier. Set the value to "0", or leave this field blank to ignore.</source>
+        <target state="final">משקל מרבי המנוהל על ידי מוביל זה. הגדר "0" או השאר שדה זה ריק על מנת להתעלם.</target>
+        <note>Line: 439</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminCarriersController.php" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      <trans-unit id="a788f81b3aa0ef9c9efcb1fb67708d82" approved="yes">
+        <source>For in-store pickup, enter 0 to replace the carrier name with your shop name.</source>
+        <target state="final">עם ערך 0 שם המוביל יוחלף בשם החנות.</target>
+        <note>Line: 176</note>
+      </trans-unit>
+      <trans-unit id="4ca4a355318f45dac9fb0ee632d8dc3c" approved="yes">
+        <source>Enter "0" for a longest shipping delay, or "9" for the shortest shipping delay.</source>
+        <target state="final">הזן "0" לזמן המשלוח הארוך ביותר, או "9" לזמן המשלוח הקצר ביותר.</target>
+        <note>Line: 201</note>
+      </trans-unit>
+      <trans-unit id="d7049d8a068769eb32177e404639b8ce" approved="yes">
+        <source>Mark the groups that are allowed access to this carrier.</source>
+        <target state="final">סמן את כל הקבוצות שברצונך להעניק להם גישה אל מוביל זה.</target>
+        <note>Line: 225</note>
+      </trans-unit>
+      <trans-unit id="3194ebe40c7a8c29c78ea79066b6e05c" approved="yes">
+        <source>Carrier name displayed during checkout</source>
+        <target state="final">שם המוביל יופיע בעת התשלום</target>
+        <note>Line: 175</note>
+      </trans-unit>
+      <trans-unit id="9e93aab109e30d26aa231a49385c99db" approved="yes">
+        <source>Upload a logo from your computer.</source>
+        <target state="final">העלה לוגו מהמחשב שלך</target>
+        <note>Line: 183</note>
+      </trans-unit>
+      <trans-unit id="e81c4e4f2b7b93b481e13a8553c2ae1b" approved="yes">
+        <source>or</source>
+        <target state="final">או</target>
+        <note>Line: 185</note>
+      </trans-unit>
+      <trans-unit id="cdaa245d6e50b5647bfd9fcb77ac9a21" approved="yes">
+        <source>Estimated delivery time will be displayed during checkout.</source>
+        <target state="final">זמן הגעה משוער יוצג בעת התשלום.</target>
+        <note>Line: 194</note>
+      </trans-unit>
+      <trans-unit id="7a753d72397847025d0a91c564fa0fdc" approved="yes">
+        <source>Delivery tracking URL: Type '@' where the tracking number should appear. It will then be automatically replaced by the tracking number.</source>
+        <target state="final">כתובת מעקב משלוח: הזן '@' במקום שבו יופיע מספר המעקב. הוא יוחלף אוטומטית במספר המעקב</target>
+        <note>Line: 207</note>
+      </trans-unit>
+      <trans-unit id="f8af50e8f2eb39dc8581b4943d6ec59f" approved="yes">
+        <source>The zones in which this carrier will be used.</source>
+        <target state="final">האיזורים שבהם ניתן להשתמש במוביל זה.</target>
+        <note>Line: 218</note>
+      </trans-unit>
+      <trans-unit id="920bd1fb6d54c93fca528ce941464225" approved="yes">
+        <source>Group access</source>
+        <target state="final">גישה לקבוצה</target>
+        <note>Line: 222</note>
+      </trans-unit>
+      <trans-unit id="8a52ca34a90eb8486886815e62958ac1" approved="yes">
+        <source>Apply both regular shipping cost and product-specific shipping costs.</source>
+        <target state="final">החלת עלויות המשלוח ועלויות משלוח נוספות של מוצרים בעלות המוביל</target>
+        <note>Line: 266</note>
+      </trans-unit>
+      <trans-unit id="91aa2e3b1cd071ba7031bf4263e11821" approved="yes">
+        <source>Include the shipping and handling costs in the carrier price.</source>
+        <target state="final">כלול עלויות טיפול ומשלוח במחיר ההובלה</target>
+        <note>Line: 301</note>
+      </trans-unit>
+      <trans-unit id="482836cce404046ca7dc34fb0a6fc526" approved="yes">
+        <source>Apply the cost of the highest defined range</source>
+        <target state="final">החל את העלות של הטווח הגבוה ביותר המוגדר</target>
+        <note>Line: 336</note>
+      </trans-unit>
+      <trans-unit id="b73438685f91ee3e3afbb725fb8f948a" approved="yes">
+        <source>Out-of-range behavior occurs when none is defined (e.g. when a customer's cart weight is greater than the highest range limit).</source>
+        <target state="final">התנהגות בעת חריגה לטווח חלה כאשר הטווח הנוכחי אינו מוגדר (למשל, כאשר משקל המוצרים בעגלת הקניות של לקוח חורגת ממגבלת הטווח המירבית).</target>
+        <note>Line: 346</note>
+      </trans-unit>
+      <trans-unit id="0687bb4ca6cc1c51d79684159f91ff11" approved="yes">
+        <source>Maximum height managed by this carrier. Set the value to "0," or leave this field blank to ignore.</source>
+        <target state="final">גובה מרבי המנוהל על ידי מוביל זה. הגדר "0" או השאר שדה זה ריק על מנת להתעלם מזה.</target>
+        <note>Line: 353</note>
+      </trans-unit>
+      <trans-unit id="ff5e2cfc010955358f7ff264d9e58398" approved="yes">
+        <source>Maximum width managed by this carrier. Set the value to "0," or leave this field blank to ignore.</source>
+        <target state="final">רוחב מרבי המנוהל על ידי מוביל זה. הגדר "0" או השאר שדה זה ריק על מנת להתעלם מזה.</target>
+        <note>Line: 360</note>
+      </trans-unit>
+      <trans-unit id="049de64decc4aa8fa5aa89cf8b17470c" approved="yes">
+        <source>Maximum depth managed by this carrier. Set the value to "0," or leave this field blank to ignore.</source>
+        <target state="final">עומק מרבי המנוהל על ידי מוביל זה. הגדר "0" או השאר שדה זה ריק על מנת להתעלם מזה.</target>
+        <note>Line: 367</note>
+      </trans-unit>
+      <trans-unit id="a414ac63c6b29218661d1fa2c6e21b5b" approved="yes">
+        <source>Maximum weight managed by this carrier. Set the value to "0," or leave this field blank to ignore.</source>
+        <target state="final">משקל מרבי המנוהל על ידי מוביל זה. הגדר "0" או השאר שדה זה ריק על מנת להתעלם מזה.</target>
+        <note>Line: 374</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Improve/Shipping/Preferences/CarrierOptionsType.php" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      <trans-unit id="d42436f136f07fe81921a4939242c3bf" approved="yes">
+        <source>Your shop's default carrier.</source>
+        <target state="final">משלח ברירת המחדל של החנות.</target>
+        <note>Line: 90</note>
+      </trans-unit>
+      <trans-unit id="4f309c91cb82ce5d20c15d015759a21e" approved="yes">
+        <source>This will only be visible in the front office.</source>
+        <target state="final">זמין רק בממשק החנות.</target>
+        <note>Line: 117</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Shipping/Carriers/Blocks/information_block.html.twig" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      <trans-unit id="5606bbebf315e63240fa195793efb071" approved="yes">
+        <source>You need to register all the carriers with which you have chosen to work. PrestaShop comes with a selection of carrier modules you can install right below the page or buy on [1]Addons marketplace[/1].</source>
+        <target state="final">עליך לרשום את כל הספקים איתם בחרת לעבוד. PrestaShop מגיע עם מבחר של מודולי ספק שתוכל להתקין ממש מתחת לדף או לקנות ב-[1]Addons Marketplace[/1].</target>
+        <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="1c1811f3bd5c5cc7fe39537489ef9248" approved="yes">
+        <source>If there is no existing module for your carrier, you can register it manually by clicking on "[1]" but before, please make sure you did not register a new carrier if a module already exists for it!</source>
+        <target state="final">אם אין מודול קיים עבור הספק שלך, אתה יכול לרשום אותו באופן ידני על ידי לחיצה על "[1]" אך לפני כן, אנא ודא שלא רשמת ספק חדש אם כבר קיים מודול עבורו!</target>
+        <note>Line: 31</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Shipping/Preferences/Blocks/shipping_preferences_handling.html.twig" source-language="en" target-language="he" datatype="plaintext">
+    <body>
+      <trans-unit id="2be1ec70444ccaf2b74bd55f3aabdead" approved="yes">
+        <source>If you set these parameters to 0, they will be disabled.</source>
+        <target state="final">אם תגדיר פרמטרים אלה ל 0, הם יהיו לא זמינים</target>
+        <note>Line: 40</note>
+      </trans-unit>
+      <trans-unit id="e99c83da35c2a39bf9dc72273d350272" approved="yes">
+        <source>Coupons are not taken into account when calculating free shipping.</source>
+        <target state="final">קופונים לא נלקחים בחשבון בעת חישוב משלוח חינם.</target>
+        <note>Line: 40</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
