@@ -28,20 +28,32 @@ jobs:
         environment:
           name: ${{ inputs.environment }}
         steps:
-            # For preproduction we use master and for production we use TranslationTool 1.0.2
+            # Initial checkout of the full repository to get the latest tag and change branch depending on the environment
+            - name: Checkout TranslationTools app
+              uses: actions/checkout@v3
+              with:
+                repository: PrestaShopCorp/TranslationTool
+                fetch-depth: 0
+                token: ${{ secrets.translation_tool_token }}
+
+            # For preproduction we use master and for production we use TranslationTool latest tag
             # For other values we use the dev branch from TranslationTool
             # The target branch for TranslationFiles is also defined based on the chosen environment
             - name: Prepare Job settings
               run: |
                if test ${{ inputs.environment }} = "production";
                then
-                 echo "TRANSLATION_TOOL_REF=2.0.2" >> $GITHUB_OUTPUT
+                 LATEST_TAG=$(git describe --tags `git rev-list --tags --max-count=1`)
+                 git checkout $LATEST_TAG
+                 echo "TRANSLATION_TOOL_REF=$LATEST_TAG" >> $GITHUB_OUTPUT
                  echo "TRANSLATION_FILES_BRANCH=master" >> $GITHUB_OUTPUT
                elif test ${{ inputs.environment }} = "preproduction";
                then
+                 git checkout master
                  echo "TRANSLATION_TOOL_REF=master" >> $GITHUB_OUTPUT
                  echo "TRANSLATION_FILES_BRANCH=preproduction" >> $GITHUB_OUTPUT
                else
+                 git checkout dev
                  echo "TRANSLATION_TOOL_REF=dev" >> $GITHUB_OUTPUT
                  echo "TRANSLATION_FILES_BRANCH=integration" >> $GITHUB_OUTPUT
                fi
@@ -50,14 +62,6 @@ jobs:
 
             - name: Display task details
               run: echo "Update PrestaShop version ${{ inputs.prestashop_version }} using environment ${{ inputs.environment }} with TranslationTool branch/tag ${{ steps.job-settings.outputs.TRANSLATION_TOOL_REF }} and content from TranslationFiles branch ${{ steps.job-settings.outputs.TRANSLATION_FILES_BRANCH }}"
-
-            # Checkout TranslationTool repository under $GITHUB_WORKSPACE, so your job can access it
-            - name: Checkout TranslationTools app
-              uses: actions/checkout@v3
-              with:
-                  repository: PrestaShopCorp/TranslationTool
-                  ref: ${{ steps.job-settings.outputs.TRANSLATION_TOOL_REF }}
-                  token: ${{ secrets.translation_tool_token }}
 
             - name: Setup PHP
               uses: shivammathur/setup-php@v2
