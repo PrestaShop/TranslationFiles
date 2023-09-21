@@ -78,7 +78,7 @@
       </trans-unit>
       <trans-unit id="2605a817441c19cc88eb9e5d17845dc0" approved="yes">
         <source>You can add a comment here.</source>
-        <target state="final">您可以增加意見</target>
+        <target state="final">您可以在此添加意見。</target>
         <note>Line: 151</note>
       </trans-unit>
     </body>
@@ -298,12 +298,12 @@
     <body>
       <trans-unit id="1f0e9c979b965d24aa3c2c4b832c3ba1" approved="yes">
         <source>Filter by</source>
-        <target state="final">篩選條件：</target>
+        <target state="final">篩選條件</target>
         <note>Line: 31</note>
       </trans-unit>
       <trans-unit id="7b4d2812164df0dceca0b53bb650e52d" approved="yes">
         <source><![CDATA[Installed & Not Installed]]></source>
-        <target state="final"><![CDATA[安裝與未安裝]]></target>
+        <target state="final"><![CDATA[已安裝 & 未安裝]]></target>
         <note>Line: 33</note>
       </trans-unit>
       <trans-unit id="d9e87fc7a13ba398295447791c67b586" approved="yes">
@@ -318,17 +318,17 @@
       </trans-unit>
       <trans-unit id="6b8f34307b46c249a91d84e52ae94caf" approved="yes">
         <source><![CDATA[Enabled & Disabled]]></source>
-        <target state="final"><![CDATA[啟用 & 停用]]></target>
+        <target state="final"><![CDATA[已啟用 & 已停用]]></target>
         <note>Line: 41</note>
       </trans-unit>
       <trans-unit id="dfe6e46e2d3e3ba76b5d9aee197c0747" approved="yes">
         <source>Enabled Modules</source>
-        <target state="final">啟用模組</target>
+        <target state="final">已啟用模組</target>
         <note>Line: 42</note>
       </trans-unit>
       <trans-unit id="a0f454ebaee933c7791ffcdda76944b3" approved="yes">
         <source>Disabled Modules</source>
-        <target state="final">停用模組</target>
+        <target state="final">已停用模組</target>
         <note>Line: 43</note>
       </trans-unit>
       <trans-unit id="02684cc6b6ea1811a064f475a5fd1d18" approved="yes">
@@ -577,7 +577,7 @@
       </trans-unit>
       <trans-unit id="a6642661dcfc0e354c61f4e8b8b9ec5a" approved="yes">
         <source>View on PrestaShop Addons</source>
-        <target state="final">如 PrestaShop Addons 所示</target>
+        <target state="final">在 PrestaShop Addons 中瀏覽</target>
         <note>Line: 101</note>
       </trans-unit>
     </body>
@@ -1053,6 +1053,11 @@
         <target state="final">群組：</target>
         <note>Line: 99</note>
       </trans-unit>
+      <trans-unit id="741aae2e1e9e98305742675d1cfc3fb0" approved="yes">
+        <source>All stores</source>
+        <target state="final">所有商店</target>
+        <note>Line: 84</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/helpers/form/form.tpl" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -1189,7 +1194,7 @@
     <body>
       <trans-unit id="c103bafd6451f1f08200bebff539606f" approved="yes">
         <source>Multistore</source>
-        <target state="final">Multiboutique</target>
+        <target state="final">多店模式</target>
         <note>Line: 61</note>
       </trans-unit>
       <trans-unit id="50de2399e96ac57bed17e95376046c3b" approved="yes">
@@ -1211,6 +1216,11 @@
         <source>You can't change the value of this configuration field in the context of this shop.</source>
         <target state="final">您不能修改本商店的這個設定欄位數值</target>
         <note>Line: 331</note>
+      </trans-unit>
+      <trans-unit id="fe73eda0f6569ec502fe52716a648370" approved="yes">
+        <source>You can't change the value of this configuration field in this store's context.</source>
+        <target state="final">您不能修改本商店的這個設定欄位數值</target>
+        <note>Line: 335</note>
       </trans-unit>
     </body>
   </file>
@@ -1711,15 +1721,35 @@
         <target state="final">再添加一兩個單詞。不常用的詞更好。</target>
         <note>Line: 290</note>
       </trans-unit>
+      <trans-unit id="de3492070cd44f280a6f398dca2f1efb" approved="yes">
+        <source>Sequences like "abc" or "6543" are easy to guess</source>
+        <target state="final">如「abc」或「6543」這樣的連串格式很容易被猜到</target>
+        <note>Line: 264</note>
+      </trans-unit>
+      <trans-unit id="8aedfe9265263408f5a72fff0a21c118" approved="yes">
+        <source>Predictable substitutions like "@" instead of "a" don't help very much</source>
+        <target state="final">可預測的替換，例如用「@」代替「a」並沒有太大幫助</target>
+        <note>Line: 289</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/psgdpr/classes/GDPRLog.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
+      <trans-unit id="ba2c992afac038de48cb8866fb819fd6" approved="yes">
+        <source>Guest client : ID</source>
+        <target state="final">來客客户端 ID</target>
+        <note>Line: 102</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/psgdpr/controllers/front/ExportDataToCsv.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="3bcfe5c02494f4ff326c5dbd1dcffa91" approved="yes">
+        <source>General info</source>
+        <target state="final">一般資訊</target>
+        <note>Line: 67
+Comment: GENERAL INFO</note>
+      </trans-unit>
       <trans-unit id="019ec3132cdf8ee0f2e2a75cf5d3e459" approved="yes">
         <source>Gender</source>
         <target state="final">性別</target>
@@ -1750,6 +1780,11 @@
         <target state="final">語言</target>
         <note>Line: 76</note>
       </trans-unit>
+      <trans-unit id="7d9f5730d745285016630376deebcbd8" approved="yes">
+        <source>Creation account data</source>
+        <target state="final">創建帳戶數據</target>
+        <note>Line: 77</note>
+      </trans-unit>
       <trans-unit id="5e5914912e8d2f2765525840acf98bea" approved="yes">
         <source>Last visit</source>
         <target state="final">上一次瀏覽時間</target>
@@ -1759,6 +1794,11 @@
         <source>Siret</source>
         <target state="final">公司SIRET</target>
         <note>Line: 79</note>
+      </trans-unit>
+      <trans-unit id="6c5a79a30b5c5c4fb6ec45735d32edc2" approved="yes">
+        <source>Ape</source>
+        <target state="final">猿</target>
+        <note>Line: 80</note>
       </trans-unit>
       <trans-unit id="1c76cbfe21c6f44c1d1e59d54f3e4420" approved="yes">
         <source>Company</source>
@@ -1815,6 +1855,11 @@ Comment: ADDRESSES</note>
         <source>Payment</source>
         <target state="final">付款方式</target>
         <note>Line: 156</note>
+      </trans-unit>
+      <trans-unit id="d02bbc3cb147c272b0445ac5ca7d1a36" approved="yes">
+        <source>Order state</source>
+        <target state="final">訂單狀態</target>
+        <note>Line: 157</note>
       </trans-unit>
       <trans-unit id="ea067eb37801c5aab1a1c685eb97d601" approved="yes">
         <source>Total paid</source>
@@ -1910,10 +1955,20 @@ Comment: MESSSAGES</note>
         <note>Line: 332
 Comment: CONNECTIONS</note>
       </trans-unit>
+      <trans-unit id="33e29c1d042c0923008f78b46af94984" approved="yes">
+        <source>Origin request</source>
+        <target state="final">來源請求</target>
+        <note>Line: 336</note>
+      </trans-unit>
       <trans-unit id="57f32d7d0e6672cc2b60bc7a49f91453" approved="yes">
         <source>Page viewed</source>
         <target state="final">瀏覽過的網頁</target>
         <note>Line: 337</note>
+      </trans-unit>
+      <trans-unit id="fae6aba9bc4e69842be0ac98e15c4c99" approved="yes">
+        <source>Time on the page</source>
+        <target state="final">該頁時間</target>
+        <note>Line: 338</note>
       </trans-unit>
       <trans-unit id="75ba8d70e3692ba200f0e0df37b4d2ae" approved="yes">
         <source>IP address</source>
@@ -1929,11 +1984,127 @@ Comment: CONNECTIONS</note>
   </file>
   <file original="modules/psgdpr/psgdpr.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="5966265f35dd87febf4d59029bc9ef66" approved="yes">
+        <source>Official GDPR compliance</source>
+        <target state="final">官方 GDPR 合規性</target>
+        <note>Line: 138</note>
+      </trans-unit>
+      <trans-unit id="74f261754dce7bb6c07ea3f586c3e2f1" approved="yes">
+        <source>Make your store comply with the General Data Protection Regulation (GDPR).</source>
+        <target state="final">讓您的商店遵守通用數據保護條例 (GDPR)。</target>
+        <note>Line: 139</note>
+      </trans-unit>
       <trans-unit id="bb8956c67b82c7444a80c6b2433dd8b4" approved="yes">
         <source>Are you sure you want to uninstall this module?</source>
         <target state="final">您想卸除這個模組嗎？</target>
         <note>Line: 151
 Comment: Confirm uninstall</note>
+      </trans-unit>
+      <trans-unit id="e9415612c1d72517733c98e6877a6b46" approved="yes">
+        <source>There was an error during the uninstallation. Please contact us through Addons website.</source>
+        <target state="final">卸載期間發生錯誤。 請通過Addons網站與我們聯繫。</target>
+        <note>Line: 205
+Comment: if something wrong return false</note>
+      </trans-unit>
+      <trans-unit id="f82c07eeaadf212c53a454cca4073e82" approved="yes">
+        <source>There was an error on module uninstall. Please contact us through Addons website</source>
+        <target state="final">卸載模塊過程中出現錯誤。請通過 Addons 網站聯繫我們。</target>
+        <note>Line: 228</note>
+      </trans-unit>
+      <trans-unit id="f3aa5220c9615fe82e680b31ec805772" approved="yes">
+        <source>Data accessibility</source>
+        <target state="final">數據可訪問性</target>
+        <note>Line: 326</note>
+      </trans-unit>
+      <trans-unit id="2f4239765c85ef14bc7d270b88169431" approved="yes">
+        <source>How can a customer retrieve all of his personal data?</source>
+        <target state="final">客戶如何檢索他所有的個人數據？</target>
+        <note>Line: 329</note>
+      </trans-unit>
+      <trans-unit id="f23b2c81c46ee0bef9e68cf8a4e8094d" approved="yes">
+        <source>From his customer account, a new tab called My Personal Data is available and your customer can retrieve all of his personal data collected by your shop and installed modules, in PDF or CSV format.</source>
+        <target state="final">在您客戶的帳戶中，可以使用一個名為“我的個人數據”的新選項卡，您的客戶可以檢索您的商店和已安裝模塊收集的所有個人數據，格式為 PDF 或 CSV 格式。</target>
+        <note>Line: 330</note>
+      </trans-unit>
+      <trans-unit id="b05c17c9e1019a5b801746c5b8c5d965" approved="yes">
+        <source>Customer consent</source>
+        <target state="final">客戶同意</target>
+        <note>Line: 335</note>
+      </trans-unit>
+      <trans-unit id="de571168b7c4d4ab2c7826d2df1ec04b" approved="yes">
+        <source>There is no consent confirmation checkbox in the contact form. Isn't this a requirement?</source>
+        <target state="final">聯絡表格中沒有同意確認複選框。這不是要求嗎？</target>
+        <note>Line: 338</note>
+      </trans-unit>
+      <trans-unit id="5132f2c7071d21437185cc8906ff30d6" approved="yes">
+        <source>No, it is not a requirement as the customer gives consent by clicking on the Submit message button. Only a message is required to give your customers more information about the use of personal data on your website. We are currently working on a new version of the contact form, it will be available really soon for your online store.</source>
+        <target state="final">不，這不是要求，因為客戶通過單擊提交消息按鈕表示同意。 只需一條消息即可向您的客戶提供有關您網站上使用個人數據的更多信息。 我們目前正在開發新版本的聯繫表格，它很快就會在您的在線商店中可用。</target>
+        <note>Line: 339</note>
+      </trans-unit>
+      <trans-unit id="ea4ec6483496abdc141f5ded3db3ede1" approved="yes">
+        <source>Data erasure</source>
+        <target state="final">數據擦除</target>
+        <note>Line: 344</note>
+      </trans-unit>
+      <trans-unit id="9176e38989ed06bc8bc2d2eb64ff651a" approved="yes">
+        <source>How will a customer ask for all of his personal data to be deleted ?</source>
+        <target state="final">客戶將如何要求刪除他的所有個人數據？</target>
+        <note>Line: 347</note>
+      </trans-unit>
+      <trans-unit id="9bfcf0be1757b83609e3cd7fc59fc7ea" approved="yes">
+        <source>The customer will send a message from the contact form for any rectification and erasure requests, justifying his request.</source>
+        <target state="final">客戶將從聯絡表格中發送消息以驗證他的更正和刪除請求。</target>
+        <note>Line: 348</note>
+      </trans-unit>
+      <trans-unit id="c11321f9fb4112e493e86a1410745b32" approved="yes">
+        <source>There is no Remove Data button in the customer account. Isn't this a requirement?</source>
+        <target state="final">客戶帳戶中沒有“刪除數據”按鈕。 這不是要求嗎？</target>
+        <note>Line: 351</note>
+      </trans-unit>
+      <trans-unit id="0124f1dc4ed1770b17898a61a00ba224" approved="yes">
+        <source>No, the Remove Data button in the customer account is not an obligation. For the data erasure requests, your customers can request data removal only under certain circumstances, that is the reason why we decided not to include an automatic Remove Data button in their customer account.
+
+They can, however, contact you anytime via your contact form, in this case, you can review their request and once you accept it, you will be able to remove their personal data directly in the configuration page of our Official GDPR Compliance module.</source>
+        <target state="final">不，客戶帳戶中的“刪除數據”按鈕不是一項義務。 對於數據擦除請求，您的客戶只能在特定情況下請求刪除數據，這就是我們決定不在其客戶帳戶中包含自動刪除數據按鈕的原因。
+
+但是，他們可以隨時通過您的聯繫表與您聯繫，在這種情況下，您可以查看他們的請求，一旦您接受，您就可以直接在我們的官方 GDPR 合規模塊的配置頁面中刪除他們的個人數據。</target>
+        <note>Line: 352</note>
+      </trans-unit>
+      <trans-unit id="72cd5bd2552bb7c07721af5830c6cb57" approved="yes">
+        <source>How to remove the personal data of a customer?</source>
+        <target state="final">如何刪除客戶的個人資料？</target>
+        <note>Line: 355</note>
+      </trans-unit>
+      <trans-unit id="cb91cb05467ec71c32d5c23913b71bd0" approved="yes">
+        <source>If the request is valid, from the Personal Data Management tab of this module, any customer can be found by typing the first few letters of his name or email address in the search bar.
+Before deleting any data, we recommend you to download all the invoices of the involved customer. After deleting the data with the “Remove data” button, the customer’s orders can’t be legally deleted, they just won’t be linked to any account. This allows you to keep precise statistics of your shop.</source>
+        <target state="final">如果請求有效，則在此模塊的“個人數據管理”選項卡中，可以通過在搜索欄中鍵入其姓名或電子郵件地址的前幾個字母來找到任何客戶。
+在刪除任何數據之前，我們建議您下載相關客戶的所有發票。 使用“刪除數據”按鈕刪除數據後，客戶的訂單不能被合法刪除，它們不會與任何帳戶關聯。 這使您可以保留商店的精確統計數據。</target>
+        <note>Line: 356</note>
+      </trans-unit>
+      <trans-unit id="87ad69c27077c1bb5c57d004e7eac4aa" approved="yes">
+        <source>After removing all personal data of a customer from my database, what will happen to his orders?</source>
+        <target state="final">從我的數據庫中刪除客戶的所有個人數據後，他的訂單會怎樣？</target>
+        <note>Line: 359</note>
+      </trans-unit>
+      <trans-unit id="10201d0ca5552dfa9bd599483105ffd0" approved="yes">
+        <source>Due to other legal obligations, his orders will still be stocked but they are no longer associated with the customer.
+Only the name, shipping, and billing information must be kept in the order details page for legal reasons, invoicing, and accounting.
+According to the Rec.30;Art.7(1)(c)</source>
+        <target state="final">由於其他法律義務，他的訂單仍將有庫存，但不再與客戶相關聯。
+出於法律原因、發票和會計原因，必須在訂單詳細信息頁面中保留名稱、運輸和賬單信息。
+根據 Rec.30；Art.7(1)(c)</target>
+        <note>Line: 360</note>
+      </trans-unit>
+      <trans-unit id="e7502bc086a11cfa8789053af27eab2d" approved="yes">
+        <source>Saved with success !</source>
+        <target state="final">成功保存！</target>
+        <note>Line: 524</note>
+      </trans-unit>
+      <trans-unit id="a59aa7fb037f2498e36a6d687869e83e" approved="yes">
+        <source>Customer data deleted by official GDPR module.</source>
+        <target state="final">官方 GDPR 模塊刪除的客戶數據。</target>
+        <note>Line: 549</note>
       </trans-unit>
     </body>
   </file>
