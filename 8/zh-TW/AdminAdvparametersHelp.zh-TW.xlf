@@ -182,42 +182,42 @@ Comment: Special case for Product : either one or the other. Not both.</note>
       <trans-unit id="c688fbbc9468ea3473172ca924290860" approved="yes">
         <source>If you want to add a virtual URL, you need to activate URL rewriting on your web server and enable Friendly URL option.</source>
         <target state="final">如果您想要新增一個虛擬URL，您必須在伺服器上啟動URL覆寫，並啟用Friendly URL選項。</target>
-        <note>Line: 138</note>
+        <note>Line: 152</note>
       </trans-unit>
       <trans-unit id="05f8f0fab3ff5d86e0de9db902da7045" approved="yes">
         <source>You can use this option if you want to create a store with a URL that doesn't exist on your server (e.g. if you want your store to be available with the URL www.example.com/my-store/shoes/, you have to set shoes/ in this field, assuming that my-store/ is your Physical URL).</source>
         <target state="final">如果您希望用一個伺服器上不存在的網址建立商店就使用這個選項 （例如您希望商店網址為 www.my-prestashop.com/my-store/shoes/ ，這裡就輸入 shoes/ ，不過這是假設 my-store/ 是實體網址）</target>
-        <note>Line: 142</note>
+        <note>Line: 156</note>
       </trans-unit>
       <trans-unit id="f6e7829277b67d5a8805d6728a810362" approved="yes">
         <source>URL rewriting must be activated on your server to use this feature.</source>
         <target state="final">這個功能需要您的主機啟用網址結構重寫功能(URL Rewriting)</target>
-        <note>Line: 143</note>
+        <note>Line: 157</note>
       </trans-unit>
       <trans-unit id="a2e8a639b5fd3e34ab4def1e7aac3383" approved="yes">
         <source>If you set this URL as the Main URL for the selected shop, all URLs set to this shop will be redirected to this URL (you can only have one Main URL per shop).</source>
         <target state="final">如果您將這個網址設定為指定商店的主要網址，所有設定到這個商店的網址都會轉往這個網址（每個商店只能夠有一個主要網址）</target>
-        <note>Line: 188</note>
+        <note>Line: 202</note>
       </trans-unit>
       <trans-unit id="819e18d335155ef4a9cdfe926ac8a3de" approved="yes">
         <source>Since the selected shop has no main URL, you have to set this URL as the Main URL.</source>
         <target state="final">因為選擇的商店沒有主要網址，您必須將這個網址設定為主要</target>
-        <note>Line: 190</note>
+        <note>Line: 204</note>
       </trans-unit>
       <trans-unit id="fe42e7cf02611b9719a6db6513de19eb" approved="yes">
         <source>The selected shop already has a Main URL. Therefore, if you set this one as the Main URL, the older Main URL will be set as a regular URL.</source>
         <target state="final">選擇的商店已經有主要網址，如果將這個網址設為主要，其他的就會設定為一般網址。</target>
-        <note>Line: 194</note>
+        <note>Line: 208</note>
       </trans-unit>
       <trans-unit id="7e7b350e5cee624789b1e263ec59db26" approved="yes">
         <source>This is the physical folder for your store on the web server. Leave this field empty if your store is installed on the root path. For instance, if your store is available at www.example.com/my-store/, you must input my-store/ in this field.</source>
         <target state="final">這是商店在伺服器上的實體路徑，如果商店安裝在網頁根目錄就保持空白即可（例如您的商店網址為 www.example.com/my-store/ ，這裡就需要輸入 my-store/ ）</target>
-        <note>Line: 246</note>
+        <note>Line: 260</note>
       </trans-unit>
       <trans-unit id="29f3eb1bea3049b52600a18ad4d0b96c" approved="yes">
         <source>Warning: URL rewriting (e.g. mod_rewrite for Apache) seems to be disabled. If your Virtual URL doesn't work, please check with your hosting provider on how to activate URL rewriting.</source>
         <target state="final">警告：網址重寫（例如 Apache 的 mod_rewrite）停用中，如果網址無法運作，請洽尋主機提供者來啟用網址重寫功能。</target>
-        <note>Line: 255</note>
+        <note>Line: 269</note>
       </trans-unit>
     </body>
   </file>
@@ -449,11 +449,6 @@ Comment: Special case for Product : either one or the other. Not both.</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Employee/EmployeeType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      <trans-unit id="d222c4d0463bd3f146536ac89c0d7c77" approved="yes">
-        <source>Password should be at least %num% characters long.</source>
-        <target state="final">密碼字符長度不能短於%num%。</target>
-        <note>Line: 173</note>
-      </trans-unit>
       <trans-unit id="a951bd27ed3722e63e13ff4c73a3749a" approved="yes">
         <source>Allow or deny this employee's access to the Admin panel.</source>
         <target state="final">是否允許此員工登入管理控制台。</target>
@@ -562,6 +557,15 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <source>Quick description of the key: who it is for, what permissions it has, etc.</source>
         <target state="final">密鑰的簡要描述：它的用途，權限，等等。</target>
         <note>Line: 133</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Type/ChangePasswordType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
+    <body>
+      <trans-unit id="d222c4d0463bd3f146536ac89c0d7c77" approved="yes">
+        <source>Password should be at least %num% characters long.</source>
+        <target state="final">密碼字符長度不能短於%num%。</target>
+        <note>Line: 90</note>
       </trans-unit>
     </body>
   </file>
@@ -754,8 +758,7 @@ Comment: Special case for Product : either one or the other. Not both.</note>
       <trans-unit id="09fac4ee316f450e3defd79540c2d9fe" approved="yes">
         <source>You can also export the query results as a CSV file by clicking on the "%export_label%" button</source>
         <target state="final">您也可以點選 "%export_label%" 按鈕來匯出搜尋結果為 CSV 檔案</target>
-        <note>Line: 37
-Comment: Recommended modules will be attached to here.</note>
+        <note>Line: 37</note>
       </trans-unit>
     </body>
   </file>
@@ -810,22 +813,22 @@ Comment: Recommended modules will be attached to here.</note>
       <trans-unit id="4bbb8f967da6d1a610596d7257179c2b" approved="yes">
         <source>Invalid</source>
         <target state="final">不正確</target>
-        <note>Line: 1596</note>
+        <note>Line: 1604</note>
       </trans-unit>
       <trans-unit id="26b63f278101527e06a5547719568bb5" approved="yes">
         <source>Okay</source>
         <target state="final">不錯</target>
-        <note>Line: 1597</note>
+        <note>Line: 1605</note>
       </trans-unit>
       <trans-unit id="0c6ad70beb3a7e76c3fc7adab7c46acc" approved="yes">
         <source>Good</source>
         <target state="final">好</target>
-        <note>Line: 1598</note>
+        <note>Line: 1606</note>
       </trans-unit>
       <trans-unit id="b8dc7c80939667637db7ac31ece215b9" approved="yes">
         <source>Fabulous</source>
         <target state="final">極好</target>
-        <note>Line: 1599</note>
+        <note>Line: 1607</note>
       </trans-unit>
     </body>
   </file>

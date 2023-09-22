@@ -14,27 +14,27 @@
       </trans-unit>
     </body>
   </file>
-  <file original="admin-dev/themes/default/template/error.tpl" source-language="en" target-language="th" datatype="plaintext">
-    <body>
-      
-    </body>
-  </file>
-  <file original="admin-dev/themes/default/template/layout-ajax.tpl" source-language="en" target-language="th" datatype="plaintext">
-    <body>
-      <trans-unit id="23a61fdb216b255d81b0d49ca1abb8a4" approved="yes">
-        <source>There are %d warnings.</source>
-        <target state="final">มีคำเตือน %d รายการ</target>
-        <note>Line: 88</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="admin-dev/themes/default/template/layout.tpl" source-language="en" target-language="th" datatype="plaintext">
+  <file original="admin-dev/themes/new-theme/template/components/layout/error_messages.tpl" source-language="en" target-language="th" datatype="plaintext">
     <body>
       <trans-unit id="1e460c9780e870a025de51dbac61eeae" approved="yes">
         <source>There are %d errors.</source>
         <target state="final">พบข้อผิดพลาด %d</target>
-        <note>Line: 50</note>
+        <note>Line: 32</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="admin-dev/themes/new-theme/template/components/layout/warning_messages.tpl" source-language="en" target-language="th" datatype="plaintext">
+    <body>
+      <trans-unit id="23a61fdb216b255d81b0d49ca1abb8a4" approved="yes">
+        <source>There are %d warnings.</source>
+        <target state="final">มีคำเตือน %d รายการ</target>
+        <note>Line: 30</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="admin-dev/themes/new-theme/template/error.tpl" source-language="en" target-language="th" datatype="plaintext">
+    <body>
+      
     </body>
   </file>
   <file original="classes/Address.php" source-language="en" target-language="th" datatype="plaintext">
@@ -82,12 +82,12 @@
       <trans-unit id="e07269088946aa33a280b8c05529b46c" approved="yes">
         <source>Cannot parse feed.</source>
         <target state="final">ไม่สามารถแยกฟีด</target>
-        <note>Line: 1060</note>
+        <note>Line: 1058</note>
       </trans-unit>
       <trans-unit id="6f775dff2aa88bce2301e5d5309c5f7e" approved="yes">
         <source>No default currency</source>
         <target state="final">สกุลเงินเริ่มต้นไม่มี</target>
-        <note>Line: 1067</note>
+        <note>Line: 1065</note>
       </trans-unit>
     </body>
   </file>
@@ -151,7 +151,7 @@
       <trans-unit id="ee66f9c9930cb33d2a5dde9b240d3f7e" approved="yes">
         <source>is required.</source>
         <target state="final">ต้องการ</target>
-        <note>Line: 1352</note>
+        <note>Line: 1353</note>
       </trans-unit>
     </body>
   </file>
@@ -179,23 +179,23 @@
       <trans-unit id="2a0c56d5a5183a9b65b8e2817f75ded2" approved="yes">
         <source>You cannot delete this item.</source>
         <target state="final">คุณไม่สามารถลบข้อมูลนี้ได้</target>
-        <note>Line: 1136
+        <note>Line: 1137
 Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
       <trans-unit id="204c3558e41366f3d558ce8e01426a22" approved="yes">
         <source>field %s is required.</source>
         <target state="final">ช่องข้อมูล %s จำเป็นต้องกรอก</target>
-        <note>Line: 1522</note>
+        <note>Line: 1523</note>
       </trans-unit>
       <trans-unit id="9c79588566c8069eb2bd441da9a27be1" approved="yes">
         <source>Can't update #%id% status</source>
         <target state="final">ไม่สามารถอัปเดตสถานะ #%id%</target>
-        <note>Line: 4158</note>
+        <note>Line: 4163</note>
       </trans-unit>
       <trans-unit id="6d28945e1e7f349cda5503c96aa3ae76" approved="yes">
         <source>You must select at least one item to perform a bulk action.</source>
         <target state="final">คุณต้องเลือกอย่างน้อยหนึ่งรายการเพื่อดำเนินการแบบกลุ่ม</target>
-        <note>Line: 4168</note>
+        <note>Line: 4173</note>
       </trans-unit>
     </body>
   </file>
@@ -225,6 +225,34 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <source>The file you are trying to upload is %2$d KB, which is larger than the maximum size allowed of %1$d KB.</source>
         <target state="final">ไฟล์ที่คุณพยายามอัปโหลดคือ %2$d KB ซึ่งใหญ่กว่าขนาดสูงสุดที่อนุญาต %1$d KB</target>
         <note>Line: 357</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminAccessController.php" source-language="en" target-language="th" datatype="plaintext">
+    <body>
+      <trans-unit id="a7eca295291f53a23ab7ba0a9c7fd9de" approved="yes">
+        <source>This functionality has been disabled.</source>
+        <target state="final">ฟังก์ชั่นการใช้งานนี้ได้ถูกระงับการใช้งานเอาไว้</target>
+        <note>Line: 166</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminAttributesGroupsController.php" source-language="en" target-language="th" datatype="plaintext">
+    <body>
+      <trans-unit id="45ebc64529137a007889ee445d64611c" approved="yes">
+        <source>Failed to update the position.</source>
+        <target state="final">ล้มเหลวในการปรับปรุงตำแหน่ง</target>
+        <note>Line: 780</note>
+      </trans-unit>
+      <trans-unit id="ddd4e7f16c2032d59cb4fb4b86576bc5" approved="yes">
+        <source>You must select at least one element to delete.</source>
+        <target state="final">คุณต้องเลือกอย่างน้อยหนึ่งองค์ประกอบที่จะลบ</target>
+        <note>Line: 818</note>
+      </trans-unit>
+      <trans-unit id="1d5dfad5ac415b412c20a05a89d43db6" approved="yes">
+        <source>An error occurred while deleting this selection.</source>
+        <target state="final">เกิดข้อผิดพลาดในระหว่างการลบรายการที่เลือก</target>
+        <note>Line: 816</note>
       </trans-unit>
     </body>
   </file>
@@ -284,6 +312,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       
     </body>
   </file>
+  <file original="controllers/admin/AdminFeaturesController.php" source-language="en" target-language="th" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
   <file original="controllers/admin/AdminGroupsController.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
       
@@ -294,7 +327,7 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="109715467b74bd66639faa5673f707c1" approved="yes">
         <source>Unknown error.</source>
         <target state="final">ข้อผิดพลาดที่ไม่ทราบสาเหตุ</target>
-        <note>Line: 539</note>
+        <note>Line: 558</note>
       </trans-unit>
     </body>
   </file>
@@ -359,124 +392,80 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="controllers/admin/AdminProductsController.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
-      <trans-unit id="45ebc64529137a007889ee445d64611c" approved="yes">
-        <source>Failed to update the position.</source>
-        <target state="final">ล้มเหลวในการปรับปรุงตำแหน่ง</target>
-        <note>Line: 1143</note>
-      </trans-unit>
-      <trans-unit id="d9b5b2302d57f3d13d5387ba9c99daae" approved="yes">
-        <source>An error occurred while creating an object.</source>
-        <target state="final">พบข้อผิดพลาดบางประการในระหว่างการสร้างชิ้นวัตถุ</target>
-        <note>Line: 1827</note>
-      </trans-unit>
       <trans-unit id="be694d5db9d32c43014995441a5939c4" approved="yes">
         <source>Invalid file name</source>
         <target state="final">ชื่อไฟล์ที่ไม่ถูกต้อง</target>
-        <note>Line: 494</note>
+        <note>Line: 493</note>
       </trans-unit>
       <trans-unit id="b1367942aa02ea8c9d4aa07cdf5e473c" approved="yes">
         <source>You need at least one object.</source>
         <target state="final">คุณจำเป็นต้องมีอย่างน้อยหนึ่งวัตถุ</target>
-        <note>Line: 681</note>
+        <note>Line: 680</note>
       </trans-unit>
       <trans-unit id="ec5f6f7f65190788d12ef16ab6135009" approved="yes">
         <source>You cannot delete all of the items.</source>
         <target state="final">คุณไม่สามารถลบรายการทั้งหมดที่</target>
-        <note>Line: 681</note>
+        <note>Line: 680</note>
       </trans-unit>
       <trans-unit id="611d3495c1e0dad701d535ccafd84330" approved="yes">
         <source>Invalid file extension</source>
         <target state="final">นามสกุลไฟล์ที่ไม่ถูกต้อง</target>
-        <note>Line: 491</note>
+        <note>Line: 490</note>
       </trans-unit>
       <trans-unit id="6292d73b79fd27bdc4c7d8a7ce2c79b4" approved="yes">
         <source>The file name is too long.</source>
         <target state="final">ชื่อไฟล์ยาวเกินไป</target>
-        <note>Line: 497</note>
+        <note>Line: 496</note>
       </trans-unit>
       <trans-unit id="bbced877c13c763f0141ff906c8ed0e5" approved="yes">
         <source>Invalid file</source>
         <target state="final">ไฟล์ไม่ถูกต้อง</target>
-        <note>Line: 513</note>
+        <note>Line: 512</note>
       </trans-unit>
       <trans-unit id="723b4a80bd8ae233c9fcde1e5bd55436" approved="yes">
         <source>The object cannot be loaded. </source>
         <target state="final">ไม่สามารถโหลดข้อมูลอ็อปเจ็คได้</target>
-        <note>Line: 2026</note>
-      </trans-unit>
-      <trans-unit id="bc33aa1314e7dcd3472db72472b909b2" approved="yes">
-        <source>An error occurred during deletion.</source>
-        <target state="final">เกิดข้อผิดพลาดบางประการในระหว่างการลบข้อมูล</target>
-        <note>Line: 623</note>
-      </trans-unit>
-      <trans-unit id="ddd4e7f16c2032d59cb4fb4b86576bc5" approved="yes">
-        <source>You must select at least one element to delete.</source>
-        <target state="final">คุณต้องเลือกอย่างน้อยหนึ่งองค์ประกอบที่จะลบ</target>
-        <note>Line: 731</note>
-      </trans-unit>
-      <trans-unit id="77ae44aa6c998166fcf1a87496278ad5" approved="yes">
-        <source>(cannot load object)</source>
-        <target state="final">(ไม่สามารถโหลด object ได้)</target>
-        <note>Line: 1141</note>
-      </trans-unit>
-      <trans-unit id="11a257a80f8c8d76132470b171de6795" approved="yes">
-        <source>You do not have permission to delete this.</source>
-        <target state="final">คุณไม่ได้รับอนุญาตให้สามารถลบทิ้งได้</target>
-        <note>Line: 1230</note>
-      </trans-unit>
-      <trans-unit id="1bdd228669c9dd995eb664737e60786e" approved="yes">
-        <source>You do not have permission to edit this.</source>
-        <target state="final">คุณไม่ได้รับสิทธิ์ให้แก้ไขข้อมูลได้</target>
-        <note>Line: 1254</note>
+        <note>Line: 2035</note>
       </trans-unit>
       <trans-unit id="b05c3c0bfce943b86e286e8e8103b6e5" approved="yes">
         <source>An error occurred while uploading the image.</source>
         <target state="final">เกิดข้อผิดพลาดระหว่างอัพโหลดภาพ</target>
-        <note>Line: 1723</note>
-      </trans-unit>
-      <trans-unit id="1d5dfad5ac415b412c20a05a89d43db6" approved="yes">
-        <source>An error occurred while deleting this selection.</source>
-        <target state="final">เกิดข้อผิดพลาดในระหว่างการลบรายการที่เลือก</target>
-        <note>Line: 727</note>
+        <note>Line: 1722</note>
       </trans-unit>
       <trans-unit id="370835a4106d1c7860f2fbb5daabd050" approved="yes">
         <source>The file is missing.</source>
         <target state="final">ไฟล์ดังกล่าวเกิดการสูญหาย</target>
-        <note>Line: 472</note>
-      </trans-unit>
-      <trans-unit id="d8d4c3b79181fdcca8cb5159208fa56a" approved="yes">
-        <source>You do not have permission to add this.</source>
-        <target state="final">คุณไม่ได้รับสิทธิ์ให้เพิ่มข้อมูลนี้</target>
-        <note>Line: 1224</note>
+        <note>Line: 471</note>
       </trans-unit>
       <trans-unit id="954b49d26a3a0986aca720a7095f2aa9" approved="yes">
         <source>An error occurred while updating an object.</source>
         <target state="final">พบข้อผิดพลาดบางประการในระหว่างการปรับปรุงชิ้นวัตถุ</target>
-        <note>Line: 2026</note>
+        <note>Line: 2035</note>
       </trans-unit>
       <trans-unit id="e267d34972b3ab66b987fbad59fba513" approved="yes">
         <source>Invalid date format.</source>
         <target state="final">รูปแบบวันที่ไม่ถูกต้อง</target>
-        <note>Line: 798</note>
+        <note>Line: 797</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminQuickAccessesController.php" source-language="en" target-language="th" datatype="plaintext">
+    <body>
+      <trans-unit id="d9b5b2302d57f3d13d5387ba9c99daae" approved="yes">
+        <source>An error occurred while creating an object.</source>
+        <target state="final">พบข้อผิดพลาดบางประการในระหว่างการสร้างชิ้นวัตถุ</target>
+        <note>Line: 180</note>
+      </trans-unit>
+      <trans-unit id="1bdd228669c9dd995eb664737e60786e" approved="yes">
+        <source>You do not have permission to edit this.</source>
+        <target state="final">คุณไม่ได้รับสิทธิ์ให้แก้ไขข้อมูลได้</target>
+        <note>Line: 149</note>
       </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminRequestSqlController.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
-      <trans-unit id="a7eca295291f53a23ab7ba0a9c7fd9de" approved="yes">
-        <source>This functionality has been disabled.</source>
-        <target state="final">ฟังก์ชั่นการใช้งานนี้ได้ถูกระงับการใช้งานเอาไว้</target>
-        <note>Line: 199</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="controllers/admin/AdminSearchController.php" source-language="en" target-language="th" datatype="plaintext">
-    <body>
-      <trans-unit id="1b0cc7183377b461e298d0ebcf5f8548" approved="yes">
-        <source>An error occurred while updating the status.</source>
-        <target state="final">เกิดข้อผิดพลาดในระหว่างการปรับปรุงสถานะ</target>
-        <note>Line: 87</note>
-      </trans-unit>
+      
     </body>
   </file>
   <file original="controllers/admin/AdminShopGroupController.php" source-language="en" target-language="th" datatype="plaintext">
@@ -493,17 +482,50 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       
     </body>
   </file>
+  <file original="controllers/admin/AdminStatesController.php" source-language="en" target-language="th" datatype="plaintext">
+    <body>
+      <trans-unit id="bc33aa1314e7dcd3472db72472b909b2" approved="yes">
+        <source>An error occurred during deletion.</source>
+        <target state="final">เกิดข้อผิดพลาดบางประการในระหว่างการลบข้อมูล</target>
+        <note>Line: 248</note>
+      </trans-unit>
+      <trans-unit id="77ae44aa6c998166fcf1a87496278ad5" approved="yes">
+        <source>(cannot load object)</source>
+        <target state="final">(ไม่สามารถโหลด object ได้)</target>
+        <note>Line: 253</note>
+      </trans-unit>
+      <trans-unit id="11a257a80f8c8d76132470b171de6795" approved="yes">
+        <source>You do not have permission to delete this.</source>
+        <target state="final">คุณไม่ได้รับอนุญาตให้สามารถลบทิ้งได้</target>
+        <note>Line: 256</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminStatusesController.php" source-language="en" target-language="th" datatype="plaintext">
+    <body>
+      <trans-unit id="1b0cc7183377b461e298d0ebcf5f8548" approved="yes">
+        <source>An error occurred while updating the status.</source>
+        <target state="final">เกิดข้อผิดพลาดในระหว่างการปรับปรุงสถานะ</target>
+        <note>Line: 768</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="controllers/admin/AdminStoresController.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
       <trans-unit id="6660b316abc0970476a09df63028d553" approved="yes">
         <source>It must be entered as follows:</source>
         <target state="final">ต้องถูกกรอกข้อมูลตามนี้:</target>
-        <note>Line: 380</note>
+        <note>Line: 382</note>
       </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminTranslationsController.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
+      <trans-unit id="d8d4c3b79181fdcca8cb5159208fa56a" approved="yes">
+        <source>You do not have permission to add this.</source>
+        <target state="final">คุณไม่ได้รับสิทธิ์ให้เพิ่มข้อมูลนี้</target>
+        <note>Line: 1532</note>
+      </trans-unit>
       <trans-unit id="bb5ef82c8be2494c733ac77920bc5c72" approved="yes">
         <source>No file has been selected.</source>
         <target state="final">ยังไม่ได้เลือกไฟล์</target>
@@ -512,7 +534,7 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="e0a602c130d12d57cd4ca2a8b9240917" approved="yes">
         <source>This file must be writable:</source>
         <target state="final">ไฟล์นี้จะต้องเขียน :</target>
-        <note>Line: 1747</note>
+        <note>Line: 1755</note>
       </trans-unit>
     </body>
   </file>
@@ -576,7 +598,7 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="7cc92687130ea12abb80556681538001" approved="yes">
         <source>An error occurred during the image upload process.</source>
         <target state="final">พบข้อผิดพลาดในระหว่างการอัพโหลดรูปภาพดังกล่าว</target>
-        <note>Line: 502</note>
+        <note>Line: 496</note>
       </trans-unit>
     </body>
   </file>
@@ -633,10 +655,6 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
     <body>
       
       
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ImportController.php" source-language="en" target-language="th" datatype="plaintext">
-    <body>
       
     </body>
   </file>
@@ -712,6 +730,7 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
     <body>
       
       
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/LanguageController.php" source-language="en" target-language="th" datatype="plaintext">
@@ -722,7 +741,6 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/StateController.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
-      
       
     </body>
   </file>
@@ -766,6 +784,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/ManufacturerController.php" source-language="en" target-language="th" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/CombinationController.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
       
@@ -789,7 +812,6 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/SupplierController.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
-      
       
     </body>
   </file>
@@ -826,12 +848,6 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Employee/EmployeeType.php" source-language="en" target-language="th" datatype="plaintext">
-    <body>
-      
-      
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceKeyType.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
       
@@ -839,7 +855,6 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/Contact/ContactType.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
-      
       
     </body>
   </file>
@@ -849,11 +864,6 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/PaginationFormDataProvider.php" source-language="en" target-language="th" datatype="plaintext">
-    <body>
-      
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/SearchEngines/SearchEngineType.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
       
     </body>
@@ -877,14 +887,18 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       
       
       
+      
+      
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Language/LanguageType.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
       
+      
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Tax/TaxType.php" source-language="en" target-language="th" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Locations/ZoneType.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
       
     </body>
@@ -944,10 +958,6 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   <file original="src/PrestaShopBundle/Form/Admin/Type/ChangePasswordType.php" source-language="en" target-language="th" datatype="plaintext">
     <body>
       
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Type/FormattedTextareaType.php" source-language="en" target-language="th" datatype="plaintext">
-    <body>
       
     </body>
   </file>

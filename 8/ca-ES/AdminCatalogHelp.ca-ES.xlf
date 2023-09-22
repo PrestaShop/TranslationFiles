@@ -263,7 +263,7 @@
       <trans-unit id="d56b081f1e66fdf5130276c68d528780" approved="yes">
         <source>Search reference</source>
         <target state="final">Cercar una referència</target>
-        <note>Line: 549</note>
+        <note>Line: 554</note>
       </trans-unit>
     </body>
   </file>
@@ -418,15 +418,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/BulkCombinationPriceType.php" source-language="en" target-language="ca" datatype="plaintext">
-    <body>
-      <trans-unit id="c4b69e0455faf0784b6a8b2fd9634d16" approved="yes">
-        <source>If the price of this combination is different from the initial retail price, enter the value of the impact (negative or positive).</source>
-        <target state="final">Si el preu d'aquesta combinació és diferent del preu inicial de venda al detall, introduïu el valor de l'impacte (negatiu o positiu).</target>
-        <note>Line: 109</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationFormType.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
       <trans-unit id="762d425093de542e7ab628b44ff68515" approved="yes">
@@ -434,6 +425,11 @@
         <target state="final">Aquesta interfície us permet d'especificar els proveïdors de la combinació actual.</target>
         <note>Line: 88</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationPriceImpactType.php" source-language="en" target-language="ca" datatype="plaintext">
+    <body>
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Description/DescriptionType.php" source-language="en" target-language="ca" datatype="plaintext">
@@ -505,22 +501,33 @@
       </trans-unit>
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/SEO/RedirectOptionType.php" source-language="en" target-language="ca" datatype="plaintext">
+    <body>
+      
+      
+      
+      
+      
+      
+      
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/SEO/SEOType.php" source-language="en" target-language="ca" datatype="plaintext">
     <body>
       <trans-unit id="b51716b6494f24132f3543c516d59742" approved="yes">
         <source>Public title for the product page, and for search engines. Leave blank to use the product name. The number of remaining characters is displayed to the right of the field.</source>
         <target state="final">Títol públic per a la pàgina del producte i per als motors de recerca. Deixeu-lo en blanc per a  fer servir el nom del producte. El nombre de caràcters restants es mostra a la dreta del camp.</target>
-        <note>Line: 103</note>
+        <note>Line: 117</note>
       </trans-unit>
       <trans-unit id="390348fb4642f64089e6e9ee71f25a7c" approved="yes">
         <source>This description will appear in search engines. It should be a single sentence, shorter than 160 characters (including spaces).</source>
         <target state="final">Aquesta descripció apareixerà als motors de recerca. Ha de ser una frase única, menys de 160 caràcters (espais inclosos).</target>
-        <note>Line: 132</note>
+        <note>Line: 146</note>
       </trans-unit>
       <trans-unit id="a132c5ad0de6c917b5422b923608c87b" approved="yes">
         <source>Separate each tag with a comma or press the Enter key.</source>
         <target state="final">Separeu cada etiqueta amb una coma o premeu la tecla Enter.</target>
-        <note>Line: 186</note>
+        <note>Line: 201</note>
       </trans-unit>
     </body>
   </file>
@@ -634,6 +641,21 @@
         <source>Does this combination have a different price? Is it cheaper or more expensive than the default retail price?</source>
         <target state="final">Aquesta combinació té un preu diferent? És més barat o més car que el preu de venda per defecte?</target>
         <note>Line: 169</note>
+      </trans-unit>
+      <trans-unit id="ea8d1b4f32f86030683d8f9252c0a3e1" approved="yes">
+        <source>The minimum quantity required to buy this product (set to 1 to disable this feature). E.g.: if set to 3, customers will be able to purchase the product only if they take at least 3 in quantity.</source>
+        <target state="final">La quantitat mínima requerida per a comprar aquest producte (definir 1 per a desactivar aquesta funció). Per exemple: si es defineix a 3, els clients únicament podran comprar el producte si se'n compren almenys 3.</target>
+        <note>Line: 104</note>
+      </trans-unit>
+      <trans-unit id="1914ce33841a6e52c0577751d9004159" approved="yes">
+        <source><![CDATA[The email will be sent to all the users who have the right to run the stock page. To modify the permissions, go to [1]Advanced Parameters > Team[/1]]]></source>
+        <target state="final"><![CDATA[El correu electrònic s'enviarà a tots els usuaris que tinguin dret a gestionar la pàgina d'inventari. Per modificar els permisos, aneu a [1]Paràmetres avançats > Equip[/1]]]></target>
+        <note>Line: 146</note>
+      </trans-unit>
+      <trans-unit id="0041a5c39ca241f883f4e0516a32d290" approved="yes">
+        <source>This type of product code is specific to Europe and Japan, but is widely used internationally. It is a superset of the UPC code: all products marked with an EAN will be accepted in North America.</source>
+        <target state="final">Aquest tipus de codi de producte és específic d'Europa i Japó, però es fa servir àmpliament a nivell internacional. És un superconjunt del codi UPC: tots els productes marcats amb un EAN seran acceptats a Amèrica del Nord.</target>
+        <note>Line: 234</note>
       </trans-unit>
     </body>
   </file>
@@ -803,16 +825,6 @@
         <target state="final">Si està establert, el fitxer no es podrà descarregar després d'aquesta data. Deixeu-lo en blanc per tal que no hi hagi una data de caducitat</target>
         <note>Line: 139</note>
       </trans-unit>
-      <trans-unit id="ea8d1b4f32f86030683d8f9252c0a3e1" approved="yes">
-        <source>The minimum quantity required to buy this product (set to 1 to disable this feature). E.g.: if set to 3, customers will be able to purchase the product only if they take at least 3 in quantity.</source>
-        <target state="final">La quantitat mínima requerida per a comprar aquest producte (definir 1 per a desactivar aquesta funció). Per exemple: si es defineix a 3, els clients únicament podran comprar el producte si se'n compren almenys 3.</target>
-        <note>Line: 43</note>
-      </trans-unit>
-      <trans-unit id="1914ce33841a6e52c0577751d9004159" approved="yes">
-        <source><![CDATA[The email will be sent to all the users who have the right to run the stock page. To modify the permissions, go to [1]Advanced Parameters > Team[/1]]]></source>
-        <target state="final"><![CDATA[El correu electrònic s'enviarà a tots els usuaris que tinguin dret a gestionar la pàgina d'inventari. Per modificar els permisos, aneu a [1]Paràmetres avançats > Equip[/1]]]></target>
-        <note>Line: 74</note>
-      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/essentials.html.twig" source-language="en" target-language="ca" datatype="plaintext">
@@ -868,11 +880,6 @@ Comment: First tag [1][/1] is for a HTML link. Second tag [2] is an icon (no clo
         <source>This type of product code is widely used in the United States, Canada, the United Kingdom, Australia, New Zealand and in other countries.</source>
         <target state="final">Aquest tipus de codi de producte s'utilitza àmpliament als Estats Units, Canadà, Regne Unit, Austràlia, Nova Zelanda i altres països.</target>
         <note>Line: 132</note>
-      </trans-unit>
-      <trans-unit id="0041a5c39ca241f883f4e0516a32d290" approved="yes">
-        <source>This type of product code is specific to Europe and Japan, but is widely used internationally. It is a superset of the UPC code: all products marked with an EAN will be accepted in North America.</source>
-        <target state="final">Aquest tipus de codi de producte és específic d'Europa i Japó, però es fa servir àmpliament a nivell internacional. És un superconjunt del codi UPC: tots els productes marcats amb un EAN seran acceptats a Amèrica del Nord.</target>
-        <note>Line: 119</note>
       </trans-unit>
       <trans-unit id="633bf9436b67e19cd61db84ccab7fee2" approved="yes">
         <source>ISBN is used internationally to identify books and their various editions.</source>
