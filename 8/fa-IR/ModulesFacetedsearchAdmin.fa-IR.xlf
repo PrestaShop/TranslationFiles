@@ -149,6 +149,11 @@
         <target state="final">انتخاب دسته‌ها غیر فعال شده است زیرا شما دسته‌ای ندارید یا این که شما در محیط "همه‌ی فروشگاه‌ها" هستید.</target>
         <note>Line: 26</note>
       </trans-unit>
+      <trans-unit id="6a84ae1d689983a9cc5fb6676eb46279" approved="yes">
+        <source>Effective only if category pages are selected above.</source>
+        <target state="final">تنها در صورتی که صفحات شاخه از بالا انتخاب شده باشند، مؤثر است.</target>
+        <note>Line: 29</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/ps_facetedsearch/views/templates/admin/_partials/controllers.tpl" source-language="en" target-language="fa" datatype="plaintext">
@@ -466,6 +471,61 @@
         <source>If you want to automatically assign a filter template to new categories, select it here.</source>
         <target state="final">اگر می‌خواهید قالب فیلتر به صورت خودکار به یک شاخه جدید اعمال شود، اینجا انتخابش کنید.</target>
         <note>Line: 298</note>
+      </trans-unit>
+      <trans-unit id="de9bebfdc6b9fc0ea050a478f27cbb92" approved="yes">
+        <source>You must select at least one page</source>
+        <target state="final">شما باید حداقل یک صفحه را انتخاب کنید</target>
+        <note>Line: 326</note>
+      </trans-unit>
+      <trans-unit id="7ee2f2da463bebd7507e3e0a39de6e99" approved="yes">
+        <source>We recommend to set regular cron tasks to manage the indexes and cache on daily/weekly basis.</source>
+        <target state="final">پیشنهاد می‌کنیم که برای مدیریت ایندکس‌ها و کش، کران‌های روزانه/هفتگی تنظیم کنید.</target>
+        <note>Line: 36</note>
+      </trans-unit>
+      <trans-unit id="964f08f089bd198a3b5433045510556b" approved="yes">
+        <source>Add missing products to price index:</source>
+        <target state="final">افزودن محصولات یافت نشده به ایندکس قیمت:</target>
+        <note>Line: 38</note>
+      </trans-unit>
+      <trans-unit id="d5da9a4cccaf88f37b2e097a9d34a836" approved="yes">
+        <source>Rebuild price index:</source>
+        <target state="final">بازسازی ایندکس قیمت:</target>
+        <note>Line: 40</note>
+      </trans-unit>
+      <trans-unit id="203b4e9a5b29bb6ed5aeb6d0692941ce" approved="yes">
+        <source>Rebuild attribute index:</source>
+        <target state="final">بازسازی ایندکس مشخصه:</target>
+        <note>Line: 42</note>
+      </trans-unit>
+      <trans-unit id="2707341ee97a7c74914e0d59adbcf5ab" approved="yes">
+        <source>Flush block cache:</source>
+        <target state="final">خالی کردن بلوک کش:</target>
+        <note>Line: 44</note>
+      </trans-unit>
+      <trans-unit id="5466dc891d678f772cc36162753e92fa" approved="yes">
+        <source>This option caches filtering blocks, so the module does not have to query for matching products all the time. The cache is invalidated on every modification on your store. If you encounter some incosistencies, disable this cache or make sure to flush it if needed.</source>
+        <target state="final">این گزینه بلوک‌های فیلترینگ را کش می‌کند، تا ماژول مجبور نباشد همیشه برای محصولات مطابق فیلتر درخواست (query) ارسال کند. این کش با هر ویرایشی در فروشگاه شما نامعتبر خواهد شد. اگر شما با یک ناسازگاری روبرو شدید، این کش را غیرفعال کنید و در صورت نیاز از خالی کردن کش استفاده کنید.</target>
+        <note>Line: 131</note>
+      </trans-unit>
+      <trans-unit id="2829d57ed813ec86c807b7dde4fe140c" approved="yes">
+        <source>Enable or disable display of matching products after filters. Disabling this won't bring any performance benefit, because matching products need to be calculated anyway.</source>
+        <target state="final">فعال یا غیرفعال کردن نمایش محصولات مطابق فیلتر بعد از فیلتر کردن. غیرفعال کردن این گزینه، مزیت عملکردی ایجاد نمی‌کند، چرا که محصولات مطابق فیلتر باید به هر حال محاسبه شوند.</target>
+        <note>Line: 153</note>
+      </trans-unit>
+      <trans-unit id="86c8e8e4e43a8e6d27907e9cde0b3a71" approved="yes">
+        <source>Enable this, if you want to display products from subcategories, even if they are not specifically assigned to the currently browsed category.</source>
+        <target state="final">اگر می‌خواهید محصولات از زیرشاخه‌ها هم نمایش داده شود، حتی اگر خاصاً به شاخه جستجو شده‌ی فعلی اختصاص داده نشده‌اند، این را فعال کنید،</target>
+        <note>Line: 175</note>
+      </trans-unit>
+      <trans-unit id="dc668816c4d715e1021b44a4823924a4" approved="yes">
+        <source>Category filter depth</source>
+        <target state="final">عمق فیلتر شاخه</target>
+        <note>Line: 203</note>
+      </trans-unit>
+      <trans-unit id="917b770ceaad28f806736a648ff6e0d6" approved="yes">
+        <source>This option controls the behavior of category filter block - how deep children of the currently browsed category you want to display? The default value is 1 - only the direct children. Use 0 for unlimited depth.</source>
+        <target state="final">این گزینه رفتار بلوک فیلتر شاخه را کنترل می‌کند - عمق زیرشاخه‌های شاخه‌ی جستجو شده‌ی فعلی برای نمایش چقدر باشد؟ مقدار پیش‌فرض 1 است - تنها زیرشاخه‌های مستقیم. برای عمق نامحدود 0 را استفاده کنید.</target>
+        <note>Line: 209</note>
       </trans-unit>
     </body>
   </file>

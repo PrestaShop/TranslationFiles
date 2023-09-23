@@ -141,13 +141,18 @@
     <body>
       <trans-unit id="5d9632c49fb1586eed7123afe2bd806f" approved="yes">
         <source>Categories used for this template:</source>
-        <target state="final">Категорії використані у цьому шаблоні:</target>
+        <target state="final">Категорії, які використовують цей шаблон:</target>
         <note>Line: 20</note>
       </trans-unit>
       <trans-unit id="78587049e12fb4f6b12e2bb045f2880a" approved="yes">
         <source>Categories selection is disabled because you have no categories or you are in a "all shops" context.</source>
         <target state="final">Вибір категорій вимкнено, тому що їх ще не створено, або ви знаходитесь в режимі "усі магазини".</target>
         <note>Line: 26</note>
+      </trans-unit>
+      <trans-unit id="6a84ae1d689983a9cc5fb6676eb46279" approved="yes">
+        <source>Effective only if category pages are selected above.</source>
+        <target state="final">Ефективно, тільки якщо сторінки категорій обрані вище.</target>
+        <note>Line: 29</note>
       </trans-unit>
     </body>
   </file>
@@ -294,7 +299,7 @@
       </trans-unit>
       <trans-unit id="9612e005e96ad32b8830be4d0377e7e6" approved="yes">
         <source>Rebuild entire price index</source>
-        <target state="final">Переналаштувати усі індекси цін</target>
+        <target state="final">Переіндексувати всі ціни</target>
         <note>Line: 29</note>
       </trans-unit>
       <trans-unit id="fc11f4442332d8b86f01335df9d28444" approved="yes">
@@ -309,17 +314,17 @@
       </trans-unit>
       <trans-unit id="53795c3624ae2361363780589aa2aa42" approved="yes">
         <source>You can set a cron job that will rebuild price index using the following URL:</source>
-        <target state="final">Ви можете встановити завдання cron для відновлення індексу цін, використовуючи наступний URL:</target>
+        <target state="final">Ви можете налаштувати завдання cron, яке буде переіндексовувати ціни за наступною URL-адресою:</target>
         <note>Line: 36</note>
       </trans-unit>
       <trans-unit id="e43b32b88c77e49f06144cd1ffaeba96" approved="yes">
         <source>You can set a cron job that will rebuild attribute index using the following URL:</source>
-        <target state="final">Ви можете встановити завдання cron для відновлення індексу атрибутів, використовуючи наступний URL:</target>
+        <target state="final">Ви можете налаштувати завдання cron, яке буде переіндексовувати атрибути за наступною URL-адресою:</target>
         <note>Line: 41</note>
       </trans-unit>
       <trans-unit id="16349835364cf839e6670b0de7da6362" approved="yes">
         <source>A nightly rebuild is recommended.</source>
-        <target state="final">Перебудування індексу рекомендується проводити вночі.</target>
+        <target state="final">Переіндексування рекомендується проводити вночі.</target>
         <note>Line: 47</note>
       </trans-unit>
       <trans-unit id="dc83eb2d8601743d8111c5150b93fc71" approved="yes">
@@ -359,7 +364,7 @@
       </trans-unit>
       <trans-unit id="8531c73de81b9ed94322dda7cf947daa" approved="yes">
         <source>Show the number of matching products</source>
-        <target state="final">Показати кількість співпадаючих продуктів</target>
+        <target state="final">Показувати кількість знайдених товарів</target>
         <note>Line: 137</note>
       </trans-unit>
       <trans-unit id="ee61c015043c79c1370fc14980dd27b9" approved="yes">
@@ -466,6 +471,61 @@
         <source>If you want to automatically assign a filter template to new categories, select it here.</source>
         <target state="final">Якщо ви хочете автоматично призначити шаблон фільтра для нових категорій, виберіть його тут.</target>
         <note>Line: 298</note>
+      </trans-unit>
+      <trans-unit id="de9bebfdc6b9fc0ea050a478f27cbb92" approved="yes">
+        <source>You must select at least one page</source>
+        <target state="final">Ви повинні вибрати хоча б одну сторінку</target>
+        <note>Line: 326</note>
+      </trans-unit>
+      <trans-unit id="7ee2f2da463bebd7507e3e0a39de6e99" approved="yes">
+        <source>We recommend to set regular cron tasks to manage the indexes and cache on daily/weekly basis.</source>
+        <target state="final">Ми рекомендуємо встановлювати регулярні завдання cron для управління індексами та кешем на щоденній/щотижневій основі.</target>
+        <note>Line: 36</note>
+      </trans-unit>
+      <trans-unit id="964f08f089bd198a3b5433045510556b" approved="yes">
+        <source>Add missing products to price index:</source>
+        <target state="final">Додати відсутні товари до індексу цін:</target>
+        <note>Line: 38</note>
+      </trans-unit>
+      <trans-unit id="d5da9a4cccaf88f37b2e097a9d34a836" approved="yes">
+        <source>Rebuild price index:</source>
+        <target state="final">Переіндексувати ціни:</target>
+        <note>Line: 40</note>
+      </trans-unit>
+      <trans-unit id="203b4e9a5b29bb6ed5aeb6d0692941ce" approved="yes">
+        <source>Rebuild attribute index:</source>
+        <target state="final">Переіндексувати атрибути:</target>
+        <note>Line: 42</note>
+      </trans-unit>
+      <trans-unit id="2707341ee97a7c74914e0d59adbcf5ab" approved="yes">
+        <source>Flush block cache:</source>
+        <target state="final">Очистити кеш блоків:</target>
+        <note>Line: 44</note>
+      </trans-unit>
+      <trans-unit id="5466dc891d678f772cc36162753e92fa" approved="yes">
+        <source>This option caches filtering blocks, so the module does not have to query for matching products all the time. The cache is invalidated on every modification on your store. If you encounter some incosistencies, disable this cache or make sure to flush it if needed.</source>
+        <target state="final">Ця опція кешує блоки фільтрації, щоб модулю не доводилось постійно робити запит на відповідні товари. Кеш анулюється при кожній модифікації у вашому магазині. Якщо ви зіткнулися з якимись невідповідностями, вимкніть цей кеш або очистіть його, при необхідності.</target>
+        <note>Line: 131</note>
+      </trans-unit>
+      <trans-unit id="2829d57ed813ec86c807b7dde4fe140c" approved="yes">
+        <source>Enable or disable display of matching products after filters. Disabling this won't bring any performance benefit, because matching products need to be calculated anyway.</source>
+        <target state="final">Увімкніть або вимкніть відображення кількості знайдених товарів після фільтрів. Вимкнення цієї функції не дає жодних переваг у продуктивності, оскільки знайдені товари все одно мають бути пораховані.</target>
+        <note>Line: 153</note>
+      </trans-unit>
+      <trans-unit id="86c8e8e4e43a8e6d27907e9cde0b3a71" approved="yes">
+        <source>Enable this, if you want to display products from subcategories, even if they are not specifically assigned to the currently browsed category.</source>
+        <target state="final">Увімкніть цю опцію, якщо ви хочете відображати товари з підкатегорій, навіть якщо вони не зв'язані з категорією, яку ви зараз переглядаєте.</target>
+        <note>Line: 175</note>
+      </trans-unit>
+      <trans-unit id="dc668816c4d715e1021b44a4823924a4" approved="yes">
+        <source>Category filter depth</source>
+        <target state="final">Глибина фільтрації категорії</target>
+        <note>Line: 203</note>
+      </trans-unit>
+      <trans-unit id="917b770ceaad28f806736a648ff6e0d6" approved="yes">
+        <source>This option controls the behavior of category filter block - how deep children of the currently browsed category you want to display? The default value is 1 - only the direct children. Use 0 for unlimited depth.</source>
+        <target state="final">Ця опція керує поведінкою блоку фільтрації категорії - наскільки глибоко ви хочете відобразити дочірні категорії в категорії, яку ви переглядаєте в даний момент? Значення за замовчуванням 1 - лише прямі дочірні категорії. Використовуйте 0 для необмеженої глибини.</target>
+        <note>Line: 209</note>
       </trans-unit>
     </body>
   </file>
