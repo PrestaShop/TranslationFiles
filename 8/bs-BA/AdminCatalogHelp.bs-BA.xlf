@@ -263,7 +263,7 @@
       <trans-unit id="d56b081f1e66fdf5130276c68d528780" approved="yes">
         <source>Search reference</source>
         <target state="final">Traži referencu</target>
-        <note>Line: 549</note>
+        <note>Line: 554</note>
       </trans-unit>
     </body>
   </file>
@@ -403,15 +403,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/BulkCombinationPriceType.php" source-language="en" target-language="bs" datatype="plaintext">
-    <body>
-      <trans-unit id="c4b69e0455faf0784b6a8b2fd9634d16" approved="yes">
-        <source>If the price of this combination is different from the initial retail price, enter the value of the impact (negative or positive).</source>
-        <target state="final">Ako se cijena ove kombinacije razlikuje od početne maloprodajne cijene, upišite vrijednost uticaja (negativan ili pozitivan).</target>
-        <note>Line: 109</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationFormType.php" source-language="en" target-language="bs" datatype="plaintext">
     <body>
       <trans-unit id="762d425093de542e7ab628b44ff68515" approved="yes">
@@ -419,6 +410,11 @@
         <target state="final">Ovaj interfejs omogućuje da navedete dobavljače trenutne kombinacije.</target>
         <note>Line: 88</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationPriceImpactType.php" source-language="en" target-language="bs" datatype="plaintext">
+    <body>
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Description/DescriptionType.php" source-language="en" target-language="bs" datatype="plaintext">
@@ -490,22 +486,33 @@
       </trans-unit>
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/SEO/RedirectOptionType.php" source-language="en" target-language="bs" datatype="plaintext">
+    <body>
+      
+      
+      
+      
+      
+      
+      
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/SEO/SEOType.php" source-language="en" target-language="bs" datatype="plaintext">
     <body>
       <trans-unit id="b51716b6494f24132f3543c516d59742" approved="yes">
         <source>Public title for the product page, and for search engines. Leave blank to use the product name. The number of remaining characters is displayed to the right of the field.</source>
         <target state="final">Javni naslov stranice proizvoda i za pretraživače. Ostavite prazno da koristite naziv proizvoda. Broj preostalih znakova prikazan na desnoj strani polja.</target>
-        <note>Line: 103</note>
+        <note>Line: 117</note>
       </trans-unit>
       <trans-unit id="390348fb4642f64089e6e9ee71f25a7c" approved="yes">
         <source>This description will appear in search engines. It should be a single sentence, shorter than 160 characters (including spaces).</source>
         <target state="final">Ovaj opis će se prikazivati u pretraživačima. Trebate biti jednostavna rečenica, kraća od 160 znakova (uključujući razmake).</target>
-        <note>Line: 132</note>
+        <note>Line: 146</note>
       </trans-unit>
       <trans-unit id="a132c5ad0de6c917b5422b923608c87b" approved="yes">
         <source>Separate each tag with a comma or press the Enter key.</source>
         <target state="final">Svaku oznaku(tag) odvojite zarezom ili pritisnite tipku Enter.</target>
-        <note>Line: 186</note>
+        <note>Line: 201</note>
       </trans-unit>
     </body>
   </file>
@@ -619,6 +626,21 @@
         <source>Does this combination have a different price? Is it cheaper or more expensive than the default retail price?</source>
         <target state="final">Je li ova kombinacija ima drugačiju cijenu? Je li jeftinija ili skuplja od zadane maloprodajne cijene?</target>
         <note>Line: 169</note>
+      </trans-unit>
+      <trans-unit id="ea8d1b4f32f86030683d8f9252c0a3e1" approved="yes">
+        <source>The minimum quantity required to buy this product (set to 1 to disable this feature). E.g.: if set to 3, customers will be able to purchase the product only if they take at least 3 in quantity.</source>
+        <target state="final">Minimalna količina potrebna za kupovinu ovog proizvoda (postavi na 1 za onemogućiti tu osobinu). Npr.: ako je postavljen na 3, korisnici će moći kupiti proizvod samo ako se uzme najmanje 3 u količini.</target>
+        <note>Line: 104</note>
+      </trans-unit>
+      <trans-unit id="1914ce33841a6e52c0577751d9004159" approved="yes">
+        <source><![CDATA[The email will be sent to all the users who have the right to run the stock page. To modify the permissions, go to [1]Advanced Parameters > Team[/1]]]></source>
+        <target state="final"><![CDATA[E-mail će biti poslan svim korisnicima koji imaju pravo pokrenuti stranicu skladišta. Da biste izmijenili dopuštenja, idite na [1]Napredne parametre> Tim[/1]]]></target>
+        <note>Line: 146</note>
+      </trans-unit>
+      <trans-unit id="0041a5c39ca241f883f4e0516a32d290" approved="yes">
+        <source>This type of product code is specific to Europe and Japan, but is widely used internationally. It is a superset of the UPC code: all products marked with an EAN will be accepted in North America.</source>
+        <target state="final">Ovaj tip koda proizvoda je specifičan za Europu i Japan, ali se široko koristi internacionalno. To je nadskup UPC koda: svi proizvodi označeni sa EAN biti će prihvaćeni u Sjevernoj Americi.</target>
+        <note>Line: 234</note>
       </trans-unit>
     </body>
   </file>
@@ -758,16 +780,6 @@
         <target state="final">Ukoliko je postavljeno, datoteka se neće moći preuzeti nakon ovog datuma. Ostavite prazno za preuzimanje bez ograničenja.</target>
         <note>Line: 139</note>
       </trans-unit>
-      <trans-unit id="ea8d1b4f32f86030683d8f9252c0a3e1" approved="yes">
-        <source>The minimum quantity required to buy this product (set to 1 to disable this feature). E.g.: if set to 3, customers will be able to purchase the product only if they take at least 3 in quantity.</source>
-        <target state="final">Minimalna količina potrebna za kupovinu ovog proizvoda (postavi na 1 za onemogućiti tu osobinu). Npr.: ako je postavljen na 3, korisnici će moći kupiti proizvod samo ako se uzme najmanje 3 u količini.</target>
-        <note>Line: 43</note>
-      </trans-unit>
-      <trans-unit id="1914ce33841a6e52c0577751d9004159" approved="yes">
-        <source><![CDATA[The email will be sent to all the users who have the right to run the stock page. To modify the permissions, go to [1]Advanced Parameters > Team[/1]]]></source>
-        <target state="final"><![CDATA[E-mail će biti poslan svim korisnicima koji imaju pravo pokrenuti stranicu skladišta. Da biste izmijenili dopuštenja, idite na [1]Napredne parametre> Tim[/1]]]></target>
-        <note>Line: 74</note>
-      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/essentials.html.twig" source-language="en" target-language="bs" datatype="plaintext">
@@ -823,11 +835,6 @@ Comment: First tag [1][/1] is for a HTML link. Second tag [2] is an icon (no clo
         <source>This type of product code is widely used in the United States, Canada, the United Kingdom, Australia, New Zealand and in other countries.</source>
         <target state="final">Ovaj tip koda proizvoda se široko koristi u Sjedinjenim Državama, Kanadi, Engleskoj, Australiji, Novom Zelandu i u drugim zemljama.</target>
         <note>Line: 132</note>
-      </trans-unit>
-      <trans-unit id="0041a5c39ca241f883f4e0516a32d290" approved="yes">
-        <source>This type of product code is specific to Europe and Japan, but is widely used internationally. It is a superset of the UPC code: all products marked with an EAN will be accepted in North America.</source>
-        <target state="final">Ovaj tip koda proizvoda je specifičan za Europu i Japan, ali se široko koristi internacionalno. To je nadskup UPC koda: svi proizvodi označeni sa EAN biti će prihvaćeni u Sjevernoj Americi.</target>
-        <note>Line: 119</note>
       </trans-unit>
       <trans-unit id="633bf9436b67e19cd61db84ccab7fee2" approved="yes">
         <source>ISBN is used internationally to identify books and their various editions.</source>

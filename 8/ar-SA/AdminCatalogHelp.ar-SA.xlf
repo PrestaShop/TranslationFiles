@@ -259,12 +259,12 @@
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/BulkCombinationPriceType.php" source-language="en" target-language="ar" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationFormType.php" source-language="en" target-language="ar" datatype="plaintext">
     <body>
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationFormType.php" source-language="en" target-language="ar" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationPriceImpactType.php" source-language="en" target-language="ar" datatype="plaintext">
     <body>
       
     </body>
@@ -299,6 +299,17 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Pricing/UnitPriceType.php" source-language="en" target-language="ar" datatype="plaintext">
     <body>
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/SEO/RedirectOptionType.php" source-language="en" target-language="ar" datatype="plaintext">
+    <body>
+      
+      
+      
+      
+      
+      
       
     </body>
   </file>
@@ -413,6 +424,21 @@
         <target state="final">هل لهذه التركيبة سعر مختلف؟ هل هو أرخص أو أكثر تكلفة من سعر التجزئة الافتراضي؟</target>
         <note>Line: 169</note>
       </trans-unit>
+      <trans-unit id="ea8d1b4f32f86030683d8f9252c0a3e1" approved="yes">
+        <source>The minimum quantity required to buy this product (set to 1 to disable this feature). E.g.: if set to 3, customers will be able to purchase the product only if they take at least 3 in quantity.</source>
+        <target state="final">الحد الأدنى للكمية و المطلوبة لشراء هذا المنتج (ضع 1 لتعطيل هذه الميزة). على سبيل المثال: إذا تم تعيين 3، سيتمكن العملاء من شراء المنتج فقط عندما لا تقل الكمية عن 3.</target>
+        <note>Line: 104</note>
+      </trans-unit>
+      <trans-unit id="1914ce33841a6e52c0577751d9004159" approved="yes">
+        <source><![CDATA[The email will be sent to all the users who have the right to run the stock page. To modify the permissions, go to [1]Advanced Parameters > Team[/1]]]></source>
+        <target state="final"><![CDATA[سيتم إرسال البريد الإلكتروني إلى جميع المستخدمين الذين لديهم الحق في تشغيل صفحة الأسهم. لتعديل الأذونات ، [1] انتقل إلى معلمات متقدمة> فريق[/1]]]></target>
+        <note>Line: 146</note>
+      </trans-unit>
+      <trans-unit id="0041a5c39ca241f883f4e0516a32d290" approved="yes">
+        <source>This type of product code is specific to Europe and Japan, but is widely used internationally. It is a superset of the UPC code: all products marked with an EAN will be accepted in North America.</source>
+        <target state="final">هذا النوع من رمز المنتج محدد لأوروبا واليابان، ولكنه يستخدم على نطاق واسع دوليا. هو عبارة عن مجموعة من رموز المنتجات العالمية (UPC): سيتم قبول جميع المنتجات التي تحمل علامة EAN في أمريكا الشمالية.</target>
+        <note>Line: 234</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_combinations.html.twig" source-language="en" target-language="ar" datatype="plaintext">
@@ -507,16 +533,6 @@
         <target state="final">تحميل ملف من جهاز الكمبيوتر (%maxUploadSize% ماكس.)</target>
         <note>Line: 101</note>
       </trans-unit>
-      <trans-unit id="ea8d1b4f32f86030683d8f9252c0a3e1" approved="yes">
-        <source>The minimum quantity required to buy this product (set to 1 to disable this feature). E.g.: if set to 3, customers will be able to purchase the product only if they take at least 3 in quantity.</source>
-        <target state="final">الحد الأدنى للكمية و المطلوبة لشراء هذا المنتج (ضع 1 لتعطيل هذه الميزة). على سبيل المثال: إذا تم تعيين 3، سيتمكن العملاء من شراء المنتج فقط عندما لا تقل الكمية عن 3.</target>
-        <note>Line: 43</note>
-      </trans-unit>
-      <trans-unit id="1914ce33841a6e52c0577751d9004159" approved="yes">
-        <source><![CDATA[The email will be sent to all the users who have the right to run the stock page. To modify the permissions, go to [1]Advanced Parameters > Team[/1]]]></source>
-        <target state="final"><![CDATA[سيتم إرسال البريد الإلكتروني إلى جميع المستخدمين الذين لديهم الحق في تشغيل صفحة الأسهم. لتعديل الأذونات ، [1] انتقل إلى معلمات متقدمة> فريق[/1]]]></target>
-        <note>Line: 74</note>
-      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/essentials.html.twig" source-language="en" target-language="ar" datatype="plaintext">
@@ -567,11 +583,6 @@ Comment: First tag [1][/1] is for a HTML link. Second tag [2] is an icon (no clo
         <source>This type of product code is widely used in the United States, Canada, the United Kingdom, Australia, New Zealand and in other countries.</source>
         <target state="final">يستخدم هذا النوع من رمز المنتج على نطاق واسع في الولايات المتحدة، وكندا، والمملكة المتحدة، وأستراليا، ونيوزيلندا وفي بلدان أخرى.</target>
         <note>Line: 132</note>
-      </trans-unit>
-      <trans-unit id="0041a5c39ca241f883f4e0516a32d290" approved="yes">
-        <source>This type of product code is specific to Europe and Japan, but is widely used internationally. It is a superset of the UPC code: all products marked with an EAN will be accepted in North America.</source>
-        <target state="final">هذا النوع من رمز المنتج محدد لأوروبا واليابان، ولكنه يستخدم على نطاق واسع دوليا. هو عبارة عن مجموعة من رموز المنتجات العالمية (UPC): سيتم قبول جميع المنتجات التي تحمل علامة EAN في أمريكا الشمالية.</target>
-        <note>Line: 119</note>
       </trans-unit>
       <trans-unit id="633bf9436b67e19cd61db84ccab7fee2" approved="yes">
         <source>ISBN is used internationally to identify books and their various editions.</source>

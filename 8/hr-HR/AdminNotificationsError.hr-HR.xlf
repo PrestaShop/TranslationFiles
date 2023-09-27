@@ -18,7 +18,25 @@
       </trans-unit>
     </body>
   </file>
-  <file original="admin-dev/themes/default/template/error.tpl" source-language="en" target-language="hr" datatype="plaintext">
+  <file original="admin-dev/themes/new-theme/template/components/layout/error_messages.tpl" source-language="en" target-language="hr" datatype="plaintext">
+    <body>
+      <trans-unit id="1e460c9780e870a025de51dbac61eeae" approved="yes">
+        <source>There are %d errors.</source>
+        <target state="final">Postoje %d greške.</target>
+        <note>Line: 32</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="admin-dev/themes/new-theme/template/components/layout/warning_messages.tpl" source-language="en" target-language="hr" datatype="plaintext">
+    <body>
+      <trans-unit id="23a61fdb216b255d81b0d49ca1abb8a4" approved="yes">
+        <source>There are %d warnings.</source>
+        <target state="final">Postoji %d upozorenja.</target>
+        <note>Line: 30</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="admin-dev/themes/new-theme/template/error.tpl" source-language="en" target-language="hr" datatype="plaintext">
     <body>
       <trans-unit id="ecdb1f330299c20ac9897cd73f92c8cd" approved="yes">
         <source>%1$s on line %2$s in file %3$s</source>
@@ -27,35 +45,17 @@
       </trans-unit>
     </body>
   </file>
-  <file original="admin-dev/themes/default/template/layout-ajax.tpl" source-language="en" target-language="hr" datatype="plaintext">
-    <body>
-      <trans-unit id="23a61fdb216b255d81b0d49ca1abb8a4" approved="yes">
-        <source>There are %d warnings.</source>
-        <target state="final">Postoji %d upozorenja.</target>
-        <note>Line: 88</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="admin-dev/themes/default/template/layout.tpl" source-language="en" target-language="hr" datatype="plaintext">
-    <body>
-      <trans-unit id="1e460c9780e870a025de51dbac61eeae" approved="yes">
-        <source>There are %d errors.</source>
-        <target state="final">Postoje %d greške.</target>
-        <note>Line: 50</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="classes/Address.php" source-language="en" target-language="hr" datatype="plaintext">
     <body>
       <trans-unit id="fed3c8d832129d27b64c34fe410e7346" approved="yes">
         <source>Property %s is empty.</source>
         <target state="final">Svojstvo %s je prazno.</target>
-        <note>Line: 383</note>
+        <note>Line: 381</note>
       </trans-unit>
       <trans-unit id="02af8c16ef4efa9fa9e2142372b0b90d" approved="yes">
         <source>The %s field is required.</source>
         <target state="final">Polje %s je obvezno.</target>
-        <note>Line: 376</note>
+        <note>Line: 374</note>
       </trans-unit>
     </body>
   </file>
@@ -112,12 +112,12 @@
       <trans-unit id="e07269088946aa33a280b8c05529b46c" approved="yes">
         <source>Cannot parse feed.</source>
         <target state="final">Ne mogu analizirati feed.</target>
-        <note>Line: 1060</note>
+        <note>Line: 1058</note>
       </trans-unit>
       <trans-unit id="6f775dff2aa88bce2301e5d5309c5f7e" approved="yes">
         <source>No default currency</source>
         <target state="final">Nema osnovne valute</target>
-        <note>Line: 1067</note>
+        <note>Line: 1065</note>
       </trans-unit>
     </body>
   </file>
@@ -183,12 +183,12 @@
       <trans-unit id="c1c3fb9e8ca710c7a958c50d03829415" approved="yes">
         <source>Cannot generate emails because the Symfony container is unavailable.</source>
         <target state="final">Nije moguće generirati emailove jer je Symfony kontejner nedostupan.</target>
-        <note>Line: 1308</note>
+        <note>Line: 1347</note>
       </trans-unit>
       <trans-unit id="eb98c1e496a76fc9a930ed4731977498" approved="yes">
         <source>Cannot generate email templates: %s.</source>
         <target state="final">Nije moguće generirati email predloške: %s.</target>
-        <note>Line: 1329</note>
+        <note>Line: 1368</note>
       </trans-unit>
     </body>
   </file>
@@ -216,42 +216,42 @@
       <trans-unit id="872d428c40b36bba9fc5fafaa76c6f22" approved="yes">
         <source>Property %1$s has a bad value (allowed values are: %2$s).</source>
         <target state="final">Vlasništvo %1$s ima lošu vrijednost (dopuštene vrijednosti su: %2$s).</target>
-        <note>Line: 1215</note>
+        <note>Line: 1216</note>
       </trans-unit>
       <trans-unit id="9599d22695068a773c0f10ea1fd26a74" approved="yes">
         <source>Your entry in field %1$s (language %2$s) exceeds max length %3$d chars (incl. html tags).</source>
         <target state="final">Vaš unos u polju %1$s (jezik %2$s) premašuje najveću duljinu %3$d riječi (uključ. html oznake).</target>
-        <note>Line: 1232</note>
+        <note>Line: 1233</note>
       </trans-unit>
       <trans-unit id="2674ff1d6f5ff826dae13cd4db1ca9b0" approved="yes">
         <source>The length of property %1$s is currently %2$d chars. It must be between %3$d and %4$d chars.</source>
         <target state="final">Duljina vlasništva %1$s trenutno je %2$d znakova. To mora biti između %3$d i %4$d znakova.</target>
-        <note>Line: 1238</note>
+        <note>Line: 1239</note>
       </trans-unit>
       <trans-unit id="1448270fc6dbabe70584c87fa27cc96f" approved="yes">
         <source>Validation function not found: %s.</source>
         <target state="final">Provjera funkcija nije pronađena: %s.</target>
-        <note>Line: 1271</note>
+        <note>Line: 1272</note>
       </trans-unit>
       <trans-unit id="6938fc7c0e5b0b07a6ba370bcb84bbd3" approved="yes">
         <source>Property %s is not valid</source>
         <target state="final">Svojstvo %s nije ispravno</target>
-        <note>Line: 1289</note>
+        <note>Line: 1290</note>
       </trans-unit>
       <trans-unit id="ee66f9c9930cb33d2a5dde9b240d3f7e" approved="yes">
         <source>is required.</source>
         <target state="final">je potrebno.</target>
-        <note>Line: 1352</note>
+        <note>Line: 1353</note>
       </trans-unit>
       <trans-unit id="0fec856489067e4d21aa315324c441dc" approved="yes">
         <source>%1$s is too long. Maximum length: %2$d</source>
         <target state="final">%1$s je predugačak. Maksimalna duljina: %2$d</target>
-        <note>Line: 1359</note>
+        <note>Line: 1360</note>
       </trans-unit>
       <trans-unit id="0e2338b37ab3dfeed544e8233b53d4e0" approved="yes">
         <source>The %1$s field is too long (%2$d chars max).</source>
         <target state="final">Polje %1$s je predugačko (%2$d max znakova).</target>
-        <note>Line: 1234</note>
+        <note>Line: 1235</note>
       </trans-unit>
     </body>
   </file>
@@ -332,78 +332,78 @@
       <trans-unit id="df2751083713a6a971814c07d88c3eb5" approved="yes">
         <source>The 'From' date format is invalid (YYYY-MM-DD)</source>
         <target state="final">'Od:' format datuma nije ispravan (YYYY-MM-DD)</target>
-        <note>Line: 938</note>
+        <note>Line: 939</note>
       </trans-unit>
       <trans-unit id="f500b8d6f94abcca48cda7c033c64996" approved="yes">
         <source>The 'To' date format is invalid (YYYY-MM-DD)</source>
         <target state="final">'Do:' format datuma nije ispravan (YYYY-MM-DD)</target>
-        <note>Line: 946</note>
+        <note>Line: 947</note>
       </trans-unit>
       <trans-unit id="83379252d4737a0b2a63a9388bb36890" approved="yes">
         <source>An error occurred while attempting to delete the image. (cannot load object).</source>
         <target state="final">Dogodila se pogreška tijekom brisanja slika (ne može se učitati objekt).</target>
-        <note>Line: 1052</note>
+        <note>Line: 1053</note>
       </trans-unit>
       <trans-unit id="2a0c56d5a5183a9b65b8e2817f75ded2" approved="yes">
         <source>You cannot delete this item.</source>
         <target state="final">Ne možete obrisati tu stavku.</target>
-        <note>Line: 1136
+        <note>Line: 1137
 Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
       <trans-unit id="204c3558e41366f3d558ce8e01426a22" approved="yes">
         <source>field %s is required.</source>
         <target state="final">polje %s je obvezno.</target>
-        <note>Line: 1522</note>
+        <note>Line: 1523</note>
       </trans-unit>
       <trans-unit id="c2c0e06097c62422199e29a5574e9fc4" approved="yes">
         <source>Cannot add configuration %s</source>
         <target state="final">Ne mogu dodati konfiguraciju %s</target>
-        <note>Line: 1591</note>
+        <note>Line: 1592</note>
       </trans-unit>
       <trans-unit id="2782e6f430c2658c79aecfcecdc0d0e8" approved="yes">
         <source>The field %field_name% is required at least in %lang%.</source>
         <target state="final">Polje %field_name% je obvezno barem u %lang%.</target>
-        <note>Line: 3704</note>
+        <note>Line: 3709</note>
       </trans-unit>
       <trans-unit id="b4186b9ed7c957a1cd9f4e7ce916e603" approved="yes">
         <source>%s: Incorrect value</source>
         <target state="final">%s: Neispravna vrijednost</target>
-        <note>Line: 3923</note>
+        <note>Line: 3928</note>
       </trans-unit>
       <trans-unit id="c87956ad745e55231c633c03fe0f0d5b" approved="yes">
         <source>An error occurred while assigning a zone to the selection.</source>
         <target state="final">Došlo je do pogreške tijekom utjecaja na zonu odabira.</target>
-        <note>Line: 4188</note>
+        <note>Line: 4193</note>
       </trans-unit>
       <trans-unit id="93463ceee9a3d376b18ee618bc2fffe4" approved="yes">
         <source>You must select at least one element to assign a new zone.</source>
         <target state="final">Morate odabrati barem jedan element koji bi utjecao na novu zonu.</target>
-        <note>Line: 4190</note>
+        <note>Line: 4195</note>
       </trans-unit>
       <trans-unit id="7c422404cb037e6781b5a553060670a6" approved="yes">
         <source>Can't delete #%id%</source>
         <target state="final">Ne možete izbrisati #%id%</target>
-        <note>Line: 4069</note>
+        <note>Line: 4074</note>
       </trans-unit>
       <trans-unit id="66042fc205784775b028ba4ac7acebf3" approved="yes">
         <source>Due to memory limit restrictions, this image cannot be loaded. Please increase your memory_limit value via your server's configuration settings.</source>
         <target state="final">Zbog ograničenja memorije, ova slika se ne može učitati. Molimo povećati svoju vrijednost memory_limit putem konfiguracije Vašeg poslužitelja.</target>
-        <note>Line: 3999</note>
+        <note>Line: 4004</note>
       </trans-unit>
       <trans-unit id="a62d7ffa591311c930a2017b07e55394" approved="yes">
         <source>The object cannot be loaded (the identifier is missing or invalid)</source>
         <target state="final">Objekt se ne može učitati (identifikator nedostaje ili je nevažeći)</target>
-        <note>Line: 1778</note>
+        <note>Line: 1779</note>
       </trans-unit>
       <trans-unit id="efb49241363bce74c7d7899333cdebb5" approved="yes">
         <source>An error occurred when attempting to update the required fields.</source>
         <target state="final">Pogreška tijekom ažuriranja obveznih polja</target>
-        <note>Line: 1367</note>
+        <note>Line: 1368</note>
       </trans-unit>
       <trans-unit id="10f97f4fea6d1ff9ffd1ed3260d6220d" approved="yes">
         <source>Unable to delete associated images.</source>
         <target state="final">Nije moguće izbrisati povezane slike.</target>
-        <note>Line: 1144</note>
+        <note>Line: 1145</note>
       </trans-unit>
     </body>
   </file>
@@ -430,18 +430,46 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="fdc746e5693df31cf4f6ef789a8846c5" approved="yes">
         <source>file (%s) not writable</source>
         <target state="final">file (%s) nemoguće zapisati</target>
-        <note>Line: 2847</note>
+        <note>Line: 2851</note>
       </trans-unit>
       <trans-unit id="a9de928286071f457fcbc45656353761" approved="yes">
         <source>directory (%s) not writable</source>
         <target state="final">direktorij (%s) nemoguće zapisati</target>
-        <note>Line: 2947</note>
+        <note>Line: 2951</note>
       </trans-unit>
     </body>
   </file>
   <file original="classes/webservice/WebserviceSpecificManagementAttachments.php" source-language="en" target-language="hr" datatype="plaintext">
     <body>
       
+    </body>
+  </file>
+  <file original="controllers/admin/AdminAccessController.php" source-language="en" target-language="hr" datatype="plaintext">
+    <body>
+      <trans-unit id="a7eca295291f53a23ab7ba0a9c7fd9de" approved="yes">
+        <source>This functionality has been disabled.</source>
+        <target state="final">Ova mogućnost je onemogućena.</target>
+        <note>Line: 166</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminAttributesGroupsController.php" source-language="en" target-language="hr" datatype="plaintext">
+    <body>
+      <trans-unit id="45ebc64529137a007889ee445d64611c" approved="yes">
+        <source>Failed to update the position.</source>
+        <target state="final">Neuspješno ažuriranje položaja.</target>
+        <note>Line: 780</note>
+      </trans-unit>
+      <trans-unit id="ddd4e7f16c2032d59cb4fb4b86576bc5" approved="yes">
+        <source>You must select at least one element to delete.</source>
+        <target state="final">Morate odabrati barem jedan element za brisanje.</target>
+        <note>Line: 818</note>
+      </trans-unit>
+      <trans-unit id="1d5dfad5ac415b412c20a05a89d43db6" approved="yes">
+        <source>An error occurred while deleting this selection.</source>
+        <target state="final">Dogodila se pogreška tijekom brisanja odabira.</target>
+        <note>Line: 816</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminCarrierWizardController.php" source-language="en" target-language="hr" datatype="plaintext">
@@ -504,6 +532,15 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
+  <file original="controllers/admin/AdminFeaturesController.php" source-language="en" target-language="hr" datatype="plaintext">
+    <body>
+      <trans-unit id="815e471ea2970db0b63b9b09feacc70f" approved="yes">
+        <source>An error occurred while updating the status for an object.</source>
+        <target state="final">Dogodila se pogreška tijekom ažuriranja statusa za objekt.</target>
+        <note>Line: 136</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="controllers/admin/AdminGroupsController.php" source-language="en" target-language="hr" datatype="plaintext">
     <body>
       <trans-unit id="f86f7b91afe27e79305a6b07bdb0d3c0" approved="yes">
@@ -518,7 +555,7 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="109715467b74bd66639faa5673f707c1" approved="yes">
         <source>Unknown error.</source>
         <target state="final">Nepoznata pogreška.</target>
-        <note>Line: 539</note>
+        <note>Line: 558</note>
       </trans-unit>
     </body>
   </file>
@@ -633,195 +670,154 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="controllers/admin/AdminProductsController.php" source-language="en" target-language="hr" datatype="plaintext">
     <body>
-      <trans-unit id="45ebc64529137a007889ee445d64611c" approved="yes">
-        <source>Failed to update the position.</source>
-        <target state="final">Neuspješno ažuriranje položaja.</target>
-        <note>Line: 1143</note>
-      </trans-unit>
-      <trans-unit id="d9b5b2302d57f3d13d5387ba9c99daae" approved="yes">
-        <source>An error occurred while creating an object.</source>
-        <target state="final">Dogodila se pogreška tijekom izrade objekta.</target>
-        <note>Line: 1827</note>
-      </trans-unit>
       <trans-unit id="dc0614532e2b908e6c2d82cc0972af9d" approved="yes">
         <source>An error occurred while attempting to create a new folder.</source>
         <target state="final">Dogodila se pogreška tijekom kreiranja nove mape</target>
-        <note>Line: 2847</note>
+        <note>Line: 2856</note>
       </trans-unit>
       <trans-unit id="06b778accab7c14a499bc6e7a68138ec" approved="yes">
         <source>An error occurred while copying the image.</source>
         <target state="final">Dogodila se pogreška tijekom kopiranja slike.</target>
-        <note>Line: 1725</note>
+        <note>Line: 1724</note>
       </trans-unit>
       <trans-unit id="6c3609de8769a4456305ec22e764573d" approved="yes">
         <source>An error occurred while copying this image: %s</source>
         <target state="final">Dogodila se pogreška tijekom kopiranja slike: %s</target>
-        <note>Line: 1730</note>
+        <note>Line: 1729</note>
       </trans-unit>
       <trans-unit id="211ff814e7bf91c4548a61ba1c427c15" approved="yes">
         <source>Error while updating the status.</source>
         <target state="final">Pogreška tijekom ažuriranja statusa.</target>
-        <note>Line: 2939</note>
+        <note>Line: 2942</note>
       </trans-unit>
       <trans-unit id="be694d5db9d32c43014995441a5939c4" approved="yes">
         <source>Invalid file name</source>
         <target state="final">Neispravan naziv datoteke</target>
-        <note>Line: 494</note>
+        <note>Line: 493</note>
       </trans-unit>
       <trans-unit id="b1367942aa02ea8c9d4aa07cdf5e473c" approved="yes">
         <source>You need at least one object.</source>
         <target state="final">Trebate barem jedan objekt.</target>
-        <note>Line: 681</note>
+        <note>Line: 680</note>
       </trans-unit>
       <trans-unit id="ec5f6f7f65190788d12ef16ab6135009" approved="yes">
         <source>You cannot delete all of the items.</source>
         <target state="final">Ne možete izbrisati sve stavke.</target>
-        <note>Line: 681</note>
+        <note>Line: 680</note>
       </trans-unit>
       <trans-unit id="527d23f49ced7a14e50546e1b90672e7" approved="yes">
         <source>Cannot retrieve file.</source>
         <target state="final">Nije moguće dohvatiti datoteku.</target>
-        <note>Line: 380</note>
+        <note>Line: 379</note>
       </trans-unit>
       <trans-unit id="abf6e66f4a0b444dbcb1a626e88cd973" approved="yes">
         <source>Invalid name for %s language</source>
         <target state="final">Neispravan naziv za %s jezik</target>
-        <note>Line: 436</note>
+        <note>Line: 435</note>
       </trans-unit>
       <trans-unit id="572f072ea1a00ba0470ec3e5f4b80e24" approved="yes">
         <source>The name for %1s language is too long (%2d chars max).</source>
         <target state="final">Ime za %1s jezik je predugo (%2d maks. znakova).</target>
-        <note>Line: 438</note>
+        <note>Line: 437</note>
       </trans-unit>
       <trans-unit id="611d3495c1e0dad701d535ccafd84330" approved="yes">
         <source>Invalid file extension</source>
         <target state="final">Pogrešna ekstenzija datoteke</target>
-        <note>Line: 491</note>
+        <note>Line: 490</note>
       </trans-unit>
       <trans-unit id="6292d73b79fd27bdc4c7d8a7ce2c79b4" approved="yes">
         <source>The file name is too long.</source>
         <target state="final">Naziv datoteke je predugačak</target>
-        <note>Line: 497</note>
+        <note>Line: 496</note>
       </trans-unit>
       <trans-unit id="bbced877c13c763f0141ff906c8ed0e5" approved="yes">
         <source>Invalid file</source>
         <target state="final">Neispravna datoteka</target>
-        <note>Line: 513</note>
+        <note>Line: 512</note>
       </trans-unit>
       <trans-unit id="c7e56badecce297feefe2a9b50a68794" approved="yes">
         <source>Invalid date range</source>
         <target state="final">Nevažeći raspon datuma</target>
-        <note>Line: 1006</note>
+        <note>Line: 1005</note>
       </trans-unit>
       <trans-unit id="be67fb2de5962acd123edaeeed6d4488" approved="yes">
         <source>An error occurred while updating the image.</source>
         <target state="final">Dogodila se pogreška tijekom ažuriranja slike.</target>
-        <note>Line: 1680</note>
+        <note>Line: 1679</note>
       </trans-unit>
       <trans-unit id="46d431810202adee8bca6b13a5ebd0d9" approved="yes">
         <source>An error occurred while linking the object %table_name% to categories.</source>
         <target state="final">Došlo je do pogreške prilikom povezivanja objekta %table_name% u kategoriju.</target>
-        <note>Line: 1979</note>
+        <note>Line: 1988</note>
       </trans-unit>
       <trans-unit id="723b4a80bd8ae233c9fcde1e5bd55436" approved="yes">
         <source>The object cannot be loaded. </source>
         <target state="final">Ne mogu učitati objekt</target>
-        <note>Line: 2026</note>
+        <note>Line: 2035</note>
       </trans-unit>
       <trans-unit id="9ca63429d31c3e720001675dd8535a9d" approved="yes">
         <source>The %name% field is required.</source>
         <target state="final">Polje %name% je obvezno.</target>
-        <note>Line: 2053</note>
+        <note>Line: 2062</note>
       </trans-unit>
       <trans-unit id="172dfd675cd344c66724042519cc4df1" approved="yes">
         <source>The %1$s field (%2$s) is invalid.</source>
         <target state="final">Polje %1$s (%2$s) nije ispravno.</target>
-        <note>Line: 2173</note>
+        <note>Line: 2182</note>
       </trans-unit>
       <trans-unit id="787acc7a9d39b98fac309cf303f518d3" approved="yes">
         <source>The tags list (%s) is invalid.</source>
         <target state="final">Popis tagova (%s) nije ispravno.</target>
-        <note>Line: 2199</note>
+        <note>Line: 2208</note>
       </trans-unit>
       <trans-unit id="cbecc45ae8ccf1234657bd40ee4c55dd" approved="yes">
         <source>An error occurred while copying this image:</source>
         <target state="final">Dogodila se pogreška tijekom kopiranja slike:</target>
-        <note>Line: 2924</note>
-      </trans-unit>
-      <trans-unit id="bc33aa1314e7dcd3472db72472b909b2" approved="yes">
-        <source>An error occurred during deletion.</source>
-        <target state="final">Dogodila se pogreška tijekom brisanja.</target>
-        <note>Line: 623</note>
-      </trans-unit>
-      <trans-unit id="ddd4e7f16c2032d59cb4fb4b86576bc5" approved="yes">
-        <source>You must select at least one element to delete.</source>
-        <target state="final">Morate odabrati barem jedan element za brisanje.</target>
-        <note>Line: 731</note>
-      </trans-unit>
-      <trans-unit id="77ae44aa6c998166fcf1a87496278ad5" approved="yes">
-        <source>(cannot load object)</source>
-        <target state="final">(objekt se ne može učitati)</target>
-        <note>Line: 1141</note>
-      </trans-unit>
-      <trans-unit id="815e471ea2970db0b63b9b09feacc70f" approved="yes">
-        <source>An error occurred while updating the status for an object.</source>
-        <target state="final">Dogodila se pogreška tijekom ažuriranja statusa za objekt.</target>
-        <note>Line: 1140</note>
-      </trans-unit>
-      <trans-unit id="11a257a80f8c8d76132470b171de6795" approved="yes">
-        <source>You do not have permission to delete this.</source>
-        <target state="final">Nemate dozvole za brisanje ovoga.</target>
-        <note>Line: 1230</note>
-      </trans-unit>
-      <trans-unit id="1bdd228669c9dd995eb664737e60786e" approved="yes">
-        <source>You do not have permission to edit this.</source>
-        <target state="final">Nemate dozvole za uređivanje.</target>
-        <note>Line: 1254</note>
+        <note>Line: 2927</note>
       </trans-unit>
       <trans-unit id="505bbc38260c669d0793757e414caecc" approved="yes">
         <source>The %s field is not valid</source>
         <target state="final">Polje %s nije ispravno</target>
-        <note>Line: 773</note>
+        <note>Line: 772</note>
       </trans-unit>
       <trans-unit id="b05c3c0bfce943b86e286e8e8103b6e5" approved="yes">
         <source>An error occurred while uploading the image.</source>
         <target state="final">Dogodila se pogreška tijekom prijenosa slike.</target>
-        <note>Line: 1723</note>
-      </trans-unit>
-      <trans-unit id="7f290594963a303db17a5e21dc4cf0b7" approved="yes">
-        <source>An error occurred while deleting the object.</source>
-        <target state="final">Dogodila se pogreška tijekom brisanja objekta.</target>
-        <note>Line: 628</note>
-      </trans-unit>
-      <trans-unit id="1d5dfad5ac415b412c20a05a89d43db6" approved="yes">
-        <source>An error occurred while deleting this selection.</source>
-        <target state="final">Dogodila se pogreška tijekom brisanja odabira.</target>
-        <note>Line: 727</note>
+        <note>Line: 1722</note>
       </trans-unit>
       <trans-unit id="370835a4106d1c7860f2fbb5daabd050" approved="yes">
         <source>The file is missing.</source>
         <target state="final">Datoteka nedostaje</target>
-        <note>Line: 472</note>
-      </trans-unit>
-      <trans-unit id="d8d4c3b79181fdcca8cb5159208fa56a" approved="yes">
-        <source>You do not have permission to add this.</source>
-        <target state="final">Nemate dozvolu za dodavanje ovdje.</target>
-        <note>Line: 1224</note>
+        <note>Line: 471</note>
       </trans-unit>
       <trans-unit id="954b49d26a3a0986aca720a7095f2aa9" approved="yes">
         <source>An error occurred while updating an object.</source>
         <target state="final">Dogodila se pogreška tijekom ažuriranja objekta.</target>
-        <note>Line: 2026</note>
+        <note>Line: 2035</note>
       </trans-unit>
       <trans-unit id="fb86a99edb05e880b59843698a2fafbd" approved="yes">
         <source>Cannot delete file</source>
         <target state="final">Nije moguće obrisati datoteku</target>
-        <note>Line: 1163</note>
+        <note>Line: 1162</note>
       </trans-unit>
       <trans-unit id="e267d34972b3ab66b987fbad59fba513" approved="yes">
         <source>Invalid date format.</source>
         <target state="final">Neispravan format datuma</target>
-        <note>Line: 798</note>
+        <note>Line: 797</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminQuickAccessesController.php" source-language="en" target-language="hr" datatype="plaintext">
+    <body>
+      <trans-unit id="d9b5b2302d57f3d13d5387ba9c99daae" approved="yes">
+        <source>An error occurred while creating an object.</source>
+        <target state="final">Dogodila se pogreška tijekom izrade objekta.</target>
+        <note>Line: 180</note>
+      </trans-unit>
+      <trans-unit id="1bdd228669c9dd995eb664737e60786e" approved="yes">
+        <source>You do not have permission to edit this.</source>
+        <target state="final">Nemate dozvole za uređivanje.</target>
+        <note>Line: 149</note>
       </trans-unit>
     </body>
   </file>
@@ -831,20 +827,6 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <source>"%key%" does not exist.</source>
         <target state="final">"%key%" ne postoji.</target>
         <note>Line: 549</note>
-      </trans-unit>
-      <trans-unit id="a7eca295291f53a23ab7ba0a9c7fd9de" approved="yes">
-        <source>This functionality has been disabled.</source>
-        <target state="final">Ova mogućnost je onemogućena.</target>
-        <note>Line: 199</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="controllers/admin/AdminSearchController.php" source-language="en" target-language="hr" datatype="plaintext">
-    <body>
-      <trans-unit id="1b0cc7183377b461e298d0ebcf5f8548" approved="yes">
-        <source>An error occurred while updating the status.</source>
-        <target state="final">Dogodila se pogreška tijekom ažuriranja statusa.</target>
-        <note>Line: 87</note>
       </trans-unit>
     </body>
   </file>
@@ -867,22 +849,55 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="fd44c173b6a7897151a978b9015fec76" approved="yes">
         <source>You cannot disable the Main URL.</source>
         <target state="final">Ne možete onemogućiti osnovni URL</target>
-        <note>Line: 514</note>
+        <note>Line: 528</note>
       </trans-unit>
       <trans-unit id="d2de9e264ff4f0e711d809f00da76e45" approved="yes">
         <source>You cannot change a main URL to a non-main URL. You have to set another URL as your Main URL for the selected shop.</source>
         <target state="final">Ne možete izmijeniti osnovni URL, morate postaviti drugi URL kao osnovni za odabranu trgovinu</target>
-        <note>Line: 510</note>
+        <note>Line: 524</note>
       </trans-unit>
       <trans-unit id="aee1f34d776c8cc3401cac254299e6f9" approved="yes">
         <source>A shop URL that uses this domain already exists.</source>
         <target state="final">URL trgovine koji koristi ovu domenu i uri već postoji</target>
-        <note>Line: 488</note>
+        <note>Line: 502</note>
       </trans-unit>
       <trans-unit id="deb836e0c149bb47a1d86eabe4b2f7db" approved="yes">
         <source>A shop virtual URL cannot be "%URL%"</source>
         <target state="final">Virtualni URL trgovine ne može biti "%URL%"</target>
-        <note>Line: 464</note>
+        <note>Line: 478</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminStatesController.php" source-language="en" target-language="hr" datatype="plaintext">
+    <body>
+      <trans-unit id="bc33aa1314e7dcd3472db72472b909b2" approved="yes">
+        <source>An error occurred during deletion.</source>
+        <target state="final">Dogodila se pogreška tijekom brisanja.</target>
+        <note>Line: 248</note>
+      </trans-unit>
+      <trans-unit id="77ae44aa6c998166fcf1a87496278ad5" approved="yes">
+        <source>(cannot load object)</source>
+        <target state="final">(objekt se ne može učitati)</target>
+        <note>Line: 253</note>
+      </trans-unit>
+      <trans-unit id="11a257a80f8c8d76132470b171de6795" approved="yes">
+        <source>You do not have permission to delete this.</source>
+        <target state="final">Nemate dozvole za brisanje ovoga.</target>
+        <note>Line: 256</note>
+      </trans-unit>
+      <trans-unit id="7f290594963a303db17a5e21dc4cf0b7" approved="yes">
+        <source>An error occurred while deleting the object.</source>
+        <target state="final">Dogodila se pogreška tijekom brisanja objekta.</target>
+        <note>Line: 253</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminStatusesController.php" source-language="en" target-language="hr" datatype="plaintext">
+    <body>
+      <trans-unit id="1b0cc7183377b461e298d0ebcf5f8548" approved="yes">
+        <source>An error occurred while updating the status.</source>
+        <target state="final">Dogodila se pogreška tijekom ažuriranja statusa.</target>
+        <note>Line: 768</note>
       </trans-unit>
     </body>
   </file>
@@ -891,22 +906,27 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="50b668816d2acbdb62484bb5ea5d25ab" approved="yes">
         <source>A Zip/Postal code is required.</source>
         <target state="final">Poštanski broj je obvezan.</target>
-        <note>Line: 382</note>
+        <note>Line: 384</note>
       </trans-unit>
       <trans-unit id="e6c1e151f2554afad6c0d551046650e8" approved="yes">
         <source>The Zip/Postal code is invalid.</source>
         <target state="final">Poštanski broj nije ispravan.</target>
-        <note>Line: 384</note>
+        <note>Line: 386</note>
       </trans-unit>
       <trans-unit id="6660b316abc0970476a09df63028d553" approved="yes">
         <source>It must be entered as follows:</source>
         <target state="final">Mora biti upisan kako slijedi:</target>
-        <note>Line: 380</note>
+        <note>Line: 382</note>
       </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminTranslationsController.php" source-language="en" target-language="hr" datatype="plaintext">
     <body>
+      <trans-unit id="d8d4c3b79181fdcca8cb5159208fa56a" approved="yes">
+        <source>You do not have permission to add this.</source>
+        <target state="final">Nemate dozvolu za dodavanje ovdje.</target>
+        <note>Line: 1532</note>
+      </trans-unit>
       <trans-unit id="e298a0bc9a35d45798e28c082dfc1dfa" approved="yes">
         <source>"%type%" does not exist.</source>
         <target state="final">"%type%" ne postoji.</target>
@@ -950,12 +970,12 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="e0a602c130d12d57cd4ca2a8b9240917" approved="yes">
         <source>This file must be writable:</source>
         <target state="final">Ova datoteka mora imati dozvolu za pisanje:</target>
-        <note>Line: 1747</note>
+        <note>Line: 1755</note>
       </trans-unit>
       <trans-unit id="bcfa9fd034fffbe5aa1a9c9e306386f1" approved="yes">
         <source>Fatal error: The module directory does not exist.</source>
         <target state="final">Fatalna pogreška: mapa modula ne postoji</target>
-        <note>Line: 2174</note>
+        <note>Line: 2182</note>
       </trans-unit>
     </body>
   </file>
@@ -1051,7 +1071,7 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="7cc92687130ea12abb80556681538001" approved="yes">
         <source>An error occurred during the image upload process.</source>
         <target state="final">Dogodila se pogreška prilikom prijenosa slike.</target>
-        <note>Line: 502</note>
+        <note>Line: 496</note>
       </trans-unit>
     </body>
   </file>
@@ -1115,14 +1135,10 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">Trebate dopuštenje za dodavanje.</target>
         <note>Line: 566</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ImportController.php" source-language="en" target-language="hr" datatype="plaintext">
-    <body>
       <trans-unit id="df3c280f0aaf0cb0d5c25ab322a8bcf9" approved="yes">
         <source>You do not have permission to update this.</source>
         <target state="final">Nemate dozvole za nadogradnju ovoga.</target>
-        <note>Line: 360</note>
+        <note>Line: 334</note>
       </trans-unit>
     </body>
   </file>
@@ -1276,7 +1292,7 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="dbf373dd3565accf2d2fd19700f6a5ae" approved="yes">
         <source>Invalid action</source>
         <target state="final">Nevažeći odabir</target>
-        <note>Line: 208</note>
+        <note>Line: 212</note>
       </trans-unit>
     </body>
   </file>
@@ -1315,6 +1331,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">Ne možete učitati više datoteka</target>
         <note>Line: 916</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/ManufacturerController.php" source-language="en" target-language="hr" datatype="plaintext">
+    <body>
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/CombinationController.php" source-language="en" target-language="hr" datatype="plaintext">
@@ -1440,20 +1461,6 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Employee/EmployeeType.php" source-language="en" target-language="hr" datatype="plaintext">
-    <body>
-      <trans-unit id="24e70577722f76a8245415c0a344b96c" approved="yes">
-        <source>This field is invalid</source>
-        <target state="final">Polje nije ispravno</target>
-        <note>Line: 163</note>
-      </trans-unit>
-      <trans-unit id="1a668ad0d1d7a5623d2710d2517bbdd1" approved="yes">
-        <source>This field cannot be shorter than %limit% characters</source>
-        <target state="final">Polje ne smije biti kraće od %limit% znakova</target>
-        <note>Line: 319</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceKeyType.php" source-language="en" target-language="hr" datatype="plaintext">
     <body>
       
@@ -1461,11 +1468,7 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/Contact/ContactType.php" source-language="en" target-language="hr" datatype="plaintext">
     <body>
-      <trans-unit id="ce09b68fe980afcd2181771fe3bf5b31" approved="yes">
-        <source>This field cannot be longer than %limit% characters</source>
-        <target state="final">Polje ne smije biti dulje od %limit% znakova</target>
-        <note>Line: 104</note>
-      </trans-unit>
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/CustomerPreferences/GeneralType.php" source-language="en" target-language="hr" datatype="plaintext">
@@ -1474,11 +1477,6 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/PaginationFormDataProvider.php" source-language="en" target-language="hr" datatype="plaintext">
-    <body>
-      
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/SearchEngines/SearchEngineType.php" source-language="en" target-language="hr" datatype="plaintext">
     <body>
       
     </body>
@@ -1499,6 +1497,16 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Currencies/CurrencyType.php" source-language="en" target-language="hr" datatype="plaintext">
     <body>
+      <trans-unit id="24e70577722f76a8245415c0a344b96c" approved="yes">
+        <source>This field is invalid</source>
+        <target state="final">Polje nije ispravno</target>
+        <note>Line: 235</note>
+      </trans-unit>
+      <trans-unit id="ce09b68fe980afcd2181771fe3bf5b31" approved="yes">
+        <source>This field cannot be longer than %limit% characters</source>
+        <target state="final">Polje ne smije biti dulje od %limit% znakova</target>
+        <note>Line: 158</note>
+      </trans-unit>
       <trans-unit id="a5d028cb6593937f07a5b50b210fc78d" approved="yes">
         <source>This value should be greater than %value%</source>
         <target state="final">vrijednost bi trebala biti veća od %value%</target>
@@ -1509,20 +1517,22 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">vrijednost bi trebala biti veća ili jednaka %value%</target>
         <note>Line: 240</note>
       </trans-unit>
+      <trans-unit id="1cf26a08db6ef9cd67be91523c68ab6a" approved="yes">
+        <source>This field is invalid, it must contain numeric values</source>
+        <target state="final">Polje je neispravno, mora sadržavati samo brojke</target>
+        <note>Line: 223</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Language/LanguageType.php" source-language="en" target-language="hr" datatype="plaintext">
     <body>
       
+      
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Tax/TaxType.php" source-language="en" target-language="hr" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Locations/ZoneType.php" source-language="en" target-language="hr" datatype="plaintext">
     <body>
-      <trans-unit id="1cf26a08db6ef9cd67be91523c68ab6a" approved="yes">
-        <source>This field is invalid, it must contain numeric values</source>
-        <target state="final">Polje je neispravno, mora sadržavati samo brojke</target>
-        <note>Line: 117</note>
-      </trans-unit>
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Address/CustomerAddressType.php" source-language="en" target-language="hr" datatype="plaintext">
@@ -1604,12 +1614,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Type/ChangePasswordType.php" source-language="en" target-language="hr" datatype="plaintext">
     <body>
-      
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Type/FormattedTextareaType.php" source-language="en" target-language="hr" datatype="plaintext">
-    <body>
-      
+      <trans-unit id="1a668ad0d1d7a5623d2710d2517bbdd1" approved="yes">
+        <source>This field cannot be shorter than %limit% characters</source>
+        <target state="final">Polje ne smije biti kraće od %limit% znakova</target>
+        <note>Line: 165</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Exception/error.html.twig" source-language="en" target-language="hr" datatype="plaintext">

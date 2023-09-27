@@ -263,7 +263,7 @@
       <trans-unit id="d56b081f1e66fdf5130276c68d528780" approved="yes">
         <source>Search reference</source>
         <target state="final">搜索參考編號</target>
-        <note>Line: 549</note>
+        <note>Line: 554</note>
       </trans-unit>
     </body>
   </file>
@@ -392,6 +392,21 @@
         <target state="final">如果在搜索結果頁面和你的產品總結說明不同的花，請在這裡填寫</target>
         <note>Line: 126</note>
       </trans-unit>
+      <trans-unit id="96bacc9c71fc8b7763f985fed3dfc545" approved="yes">
+        <source>To which product should the page redirect?</source>
+        <target state="final">頁面應該重定向到哪個商品？</target>
+        <note>Line: 186</note>
+      </trans-unit>
+      <trans-unit id="6dd1254fcdbcc7b3fd459617adad9289" approved="yes">
+        <source>To which category should the page redirect?</source>
+        <target state="final">頁面應該重定向到哪個分類？</target>
+        <note>Line: 188</note>
+      </trans-unit>
+      <trans-unit id="1b9648d6a32243bb7003ae8046dc7c1a" approved="yes">
+        <source>By default, the main category will be used if no category is selected.</source>
+        <target state="final">如果未選擇任何分類，則默認情況下將使用主分類。</target>
+        <note>Line: 189</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Manufacturer/ManufacturerType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -403,21 +418,21 @@
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/BulkCombinationPriceType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
-    <body>
-      <trans-unit id="c4b69e0455faf0784b6a8b2fd9634d16" approved="yes">
-        <source>If the price of this combination is different from the initial retail price, enter the value of the impact (negative or positive).</source>
-        <target state="final">如果此組合的價格與初始零售價不同，請輸入影響值（負面或正面）。</target>
-        <note>Line: 109</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationFormType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
       <trans-unit id="762d425093de542e7ab628b44ff68515" approved="yes">
         <source>This interface allows you to specify the suppliers of the current combination.</source>
         <target state="final">這個界面允許你定義當前商品屬性組合的供應商。</target>
         <note>Line: 88</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationPriceImpactType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
+    <body>
+      <trans-unit id="c4b69e0455faf0784b6a8b2fd9634d16" approved="yes">
+        <source>If the price of this combination is different from the initial retail price, enter the value of the impact (negative or positive).</source>
+        <target state="final">如果此組合的價格與初始零售價不同，請輸入影響值（負面或正面）。</target>
+        <note>Line: 123</note>
       </trans-unit>
     </body>
   </file>
@@ -490,22 +505,61 @@
       </trans-unit>
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/SEO/RedirectOptionType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
+    <body>
+      <trans-unit id="e35bdf9023b638203d854dd2d9382878" approved="yes">
+        <source>[1]No redirection (200), display product[/1] [2] Do not redirect anywhere, display product as discontinued and return normal 200 response.</source>
+        <target state="final">[1]不進行重定向（200）[/1]，[2]顯示商品 = 不要將其重定向到其他地方，將商品標示為已停產，返回正常的 200 響應。</target>
+        <note>Line: 216</note>
+      </trans-unit>
+      <trans-unit id="ce744fb5bb2b0706fdc5b33466a7b500" approved="yes">
+        <source>[1]No redirection (404), display product[/1] [2] Do not redirect anywhere, display product as discontinued and return 404 "Not Found" response.</source>
+        <target state="final">[1]不進行重定向（404）[/1]，[2]顯示商品 = 不要將其重定向到其他地方，將商品標示為已停產，返回 404 "Not Found" 的響應。</target>
+        <note>Line: 217</note>
+      </trans-unit>
+      <trans-unit id="201ef8721f9aac90fdb54cc6210493ff" approved="yes">
+        <source>[1]No redirection (410), display product[/1] [2] Do not redirect anywhere, display product as discontinued and return 410 "Gone" response.</source>
+        <target state="final">[1]不進行重定向（410）[/1]，[2]顯示商品 = 不要將其重定向到其他地方，將商品標示為已停產，返回 410 "Gone" 的響應。</target>
+        <note>Line: 218</note>
+      </trans-unit>
+      <trans-unit id="65c29c631954b1e422c860c9353c30f0" approved="yes">
+        <source>[1]No redirection (404), display error page[/1] [2] Do not redirect anywhere and display a 404 "Not Found" page.</source>
+        <target state="final">[1]不進行重定向（404）[/1]，[2]顯示錯誤頁面 = 不要將其重定向到其他地方，顯示 404 "Not Found" 頁面。</target>
+        <note>Line: 219</note>
+      </trans-unit>
+      <trans-unit id="511d9e488a706dcf908981d845e50a35" approved="yes">
+        <source>[1]No redirection (410), display error page[/1] [2] Do not redirect anywhere and display a 410 "Gone" page.</source>
+        <target state="final">[1]不進行重定向（410）[/1]，[2]顯示錯誤頁面 = 不要將其重定向到其他地方，顯示 410 "Gone" 頁面。</target>
+        <note>Line: 220</note>
+      </trans-unit>
+      <trans-unit id="63d8f0350459a5cc763e14c4c6411a07" approved="yes">
+        <source>[1]Permanent redirection (301)[/1] [2] Permanently display another product or category instead.</source>
+        <target state="final">[1] 永久重定向（301）[/1] [2] 永久顯示其他商品或分類而不是目前的頁面。</target>
+        <note>Line: 221</note>
+      </trans-unit>
+      <trans-unit id="be47cd3941d99bef338eda26d2c1a397" approved="yes">
+        <source>[1]Temporary redirection (302)[/1] [2] Temporarily display another product or category instead.</source>
+        <target state="final">[1] 暫時重定向 (302)[/1] [2] 暫時顯示其他商品或分類而不是目前的頁面。</target>
+        <note>Line: 222</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/SEO/SEOType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
       <trans-unit id="b51716b6494f24132f3543c516d59742" approved="yes">
         <source>Public title for the product page, and for search engines. Leave blank to use the product name. The number of remaining characters is displayed to the right of the field.</source>
         <target state="final">用於商品頁面和搜索引擎的公共標題。放空來使用商品名稱。剩餘的字符在欄位的右邊顯示。</target>
-        <note>Line: 103</note>
+        <note>Line: 117</note>
       </trans-unit>
       <trans-unit id="390348fb4642f64089e6e9ee71f25a7c" approved="yes">
         <source>This description will appear in search engines. It should be a single sentence, shorter than 160 characters (including spaces).</source>
         <target state="final">這個說明將出現在搜索引擎中。它應該是小於160字符（含空格）的簡短句子。</target>
-        <note>Line: 132</note>
+        <note>Line: 146</note>
       </trans-unit>
       <trans-unit id="a132c5ad0de6c917b5422b923608c87b" approved="yes">
         <source>Separate each tag with a comma or press the Enter key.</source>
         <target state="final">用逗號分隔每個標籤或按 Enter 鍵。</target>
-        <note>Line: 186</note>
+        <note>Line: 201</note>
       </trans-unit>
     </body>
   </file>
@@ -620,6 +674,21 @@
         <target state="final">這套裝是否有不同的價格？它比默認的零售價是貴還是便宜？</target>
         <note>Line: 169</note>
       </trans-unit>
+      <trans-unit id="ea8d1b4f32f86030683d8f9252c0a3e1" approved="yes">
+        <source>The minimum quantity required to buy this product (set to 1 to disable this feature). E.g.: if set to 3, customers will be able to purchase the product only if they take at least 3 in quantity.</source>
+        <target state="final">購買此商品所需最低數量 (數量設為 1 將隱藏此特性). 舉例: 假設最低數量設為 3, 顧客將只能購買 3 件或以上.</target>
+        <note>Line: 104</note>
+      </trans-unit>
+      <trans-unit id="1914ce33841a6e52c0577751d9004159" approved="yes">
+        <source><![CDATA[The email will be sent to all the users who have the right to run the stock page. To modify the permissions, go to [1]Advanced Parameters > Team[/1]]]></source>
+        <target state="final"><![CDATA[系統會發一份電子郵件給有擁有執行庫存頁面權限的全部用戶。要修改權限，請到 [1]Advanced Parameters > Team[/1] 進行修改。]]></target>
+        <note>Line: 146</note>
+      </trans-unit>
+      <trans-unit id="0041a5c39ca241f883f4e0516a32d290" approved="yes">
+        <source>This type of product code is specific to Europe and Japan, but is widely used internationally. It is a superset of the UPC code: all products marked with an EAN will be accepted in North America.</source>
+        <target state="final">這種類型的商品代碼是特定於歐洲和日本，但國際上被廣泛使用。它是UPC碼的擴展碼：標有條形碼的所有商品將在北美被接受。</target>
+        <note>Line: 234</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_combinations.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -667,6 +736,36 @@
         <source>Temporary redirection (302) = Temporarily display another product or category instead.</source>
         <target state="final">永久重新導向（302）= 永久顯示另一個產品或分類。</target>
         <note>Line: 134</note>
+      </trans-unit>
+      <trans-unit id="916ba4b2422000e9868d30814dc1cef3" approved="yes">
+        <source><![CDATA[Default behavior is specified in the Shop Parameters > Product settings page.]]></source>
+        <target state="final"><![CDATA[默認行為在「商店參數」>「商品設置」頁面中指定。]]></target>
+        <note>Line: 127</note>
+      </trans-unit>
+      <trans-unit id="8d9ca96605aac170ba7120491d770710" approved="yes">
+        <source>No redirection (200), display product = Do not redirect anywhere, display product as discontinued and return normal 200 response.</source>
+        <target state="final">不進行重定向（200），顯示商品 = 不要將其重定向到其他地方，將商品標示為已停產，返回正常的 200 響應。</target>
+        <note>Line: 128</note>
+      </trans-unit>
+      <trans-unit id="8e2b691e27a3ccb91f0b3a9baa091562" approved="yes">
+        <source>No redirection (404), display product = Do not redirect anywhere, display product as discontinued and return 404 "Not Found" response.</source>
+        <target state="final">不進行重定向（404），顯示商品 = 不要將其重定向到其他地方，將商品標示為已停產，返回 404 "Not Found" 的響應。</target>
+        <note>Line: 129</note>
+      </trans-unit>
+      <trans-unit id="76baa7f2e915f48214cd6577b59e1552" approved="yes">
+        <source>No redirection (410), display product = Do not redirect anywhere, display product as discontinued and return 410 "Gone" response.</source>
+        <target state="final">不進行重定向（410），顯示商品 = 不要將其重定向到其他地方，將商品標示為已停產，返回 410 "Gone" 的響應。</target>
+        <note>Line: 130</note>
+      </trans-unit>
+      <trans-unit id="97faaea8b9fbed3f6c5b7d7a9c60e648" approved="yes">
+        <source>No redirection (404), display error page = Do not redirect anywhere and display a 404 "Not Found" page.</source>
+        <target state="final">不進行重定向（404），顯示錯誤頁面 = 不要將其重定向到其他地方，顯示 404 "Not Found" 頁面。</target>
+        <note>Line: 131</note>
+      </trans-unit>
+      <trans-unit id="10bcd2f914bb6f74c3fef8c13e59ea61" approved="yes">
+        <source>No redirection (410), display error page = Do not redirect anywhere and display a 410 "Gone" page.</source>
+        <target state="final">不進行重定向（410），顯示錯誤頁面 = 不要將其重定向到其他地方，顯示 410 "Gone" 頁面。</target>
+        <note>Line: 132</note>
       </trans-unit>
     </body>
   </file>
@@ -758,16 +857,6 @@
         <target state="final">設定後在到期之後就沒辦法再下載，如果不想要設定截止日期請保留空白</target>
         <note>Line: 139</note>
       </trans-unit>
-      <trans-unit id="ea8d1b4f32f86030683d8f9252c0a3e1" approved="yes">
-        <source>The minimum quantity required to buy this product (set to 1 to disable this feature). E.g.: if set to 3, customers will be able to purchase the product only if they take at least 3 in quantity.</source>
-        <target state="final">購買此商品所需最低數量 (數量設為 1 將隱藏此特性). 舉例: 假設最低數量設為 3, 顧客將只能購買 3 件或以上.</target>
-        <note>Line: 43</note>
-      </trans-unit>
-      <trans-unit id="1914ce33841a6e52c0577751d9004159" approved="yes">
-        <source><![CDATA[The email will be sent to all the users who have the right to run the stock page. To modify the permissions, go to [1]Advanced Parameters > Team[/1]]]></source>
-        <target state="final"><![CDATA[系統會發一份電子郵件給有擁有執行庫存頁面權限的全部用戶。要修改權限，請到 [1]Advanced Parameters > Team[/1] 進行修改。]]></target>
-        <note>Line: 74</note>
-      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/essentials.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -823,11 +912,6 @@ Comment: First tag [1][/1] is for a HTML link. Second tag [2] is an icon (no clo
         <source>This type of product code is widely used in the United States, Canada, the United Kingdom, Australia, New Zealand and in other countries.</source>
         <target state="final">這種類型的商品代碼被廣泛用於美國，加拿大，英國，澳大利亞，新西蘭和其他國家。</target>
         <note>Line: 132</note>
-      </trans-unit>
-      <trans-unit id="0041a5c39ca241f883f4e0516a32d290" approved="yes">
-        <source>This type of product code is specific to Europe and Japan, but is widely used internationally. It is a superset of the UPC code: all products marked with an EAN will be accepted in North America.</source>
-        <target state="final">這種類型的商品代碼是特定於歐洲和日本，但國際上被廣泛使用。它是UPC碼的擴展碼：標有條形碼的所有商品將在北美被接受。</target>
-        <note>Line: 119</note>
       </trans-unit>
       <trans-unit id="633bf9436b67e19cd61db84ccab7fee2" approved="yes">
         <source>ISBN is used internationally to identify books and their various editions.</source>
