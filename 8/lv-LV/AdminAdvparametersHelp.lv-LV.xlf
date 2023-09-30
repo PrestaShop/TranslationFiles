@@ -107,42 +107,42 @@ Comment: Special case for Product : either one or the other. Not both.</note>
       <trans-unit id="c688fbbc9468ea3473172ca924290860" approved="yes">
         <source>If you want to add a virtual URL, you need to activate URL rewriting on your web server and enable Friendly URL option.</source>
         <target state="final">Ja vēlaties pievienot virtuālu URL, jums jāaktivizē URL pārrakstīšana jūsu tīmekļa serverī un jāaktivizē opcija Lasāms URL.</target>
-        <note>Line: 138</note>
+        <note>Line: 152</note>
       </trans-unit>
       <trans-unit id="05f8f0fab3ff5d86e0de9db902da7045" approved="yes">
         <source>You can use this option if you want to create a store with a URL that doesn't exist on your server (e.g. if you want your store to be available with the URL www.example.com/my-store/shoes/, you have to set shoes/ in this field, assuming that my-store/ is your Physical URL).</source>
         <target state="final">Izmantojiet šo opciju, ja vēlaties izveidot veikalu ar URL, kas jūsu serverī nepastāv (piemēram, ja vēlaties, lai jūsu veikals būtu pieejams ar URL www.example.com/my-store/shoes/, nepieciešams iestatīt shoes/ šajā laukā, pieņemot, ka my-store/ ir jūsu fiziskais URL).</target>
-        <note>Line: 142</note>
+        <note>Line: 156</note>
       </trans-unit>
       <trans-unit id="f6e7829277b67d5a8805d6728a810362" approved="yes">
         <source>URL rewriting must be activated on your server to use this feature.</source>
         <target state="final">Lai izmantotu šo funkciju, jūsu serverī jāaktivizē URL pārrakstīšana.</target>
-        <note>Line: 143</note>
+        <note>Line: 157</note>
       </trans-unit>
       <trans-unit id="a2e8a639b5fd3e34ab4def1e7aac3383" approved="yes">
         <source>If you set this URL as the Main URL for the selected shop, all URLs set to this shop will be redirected to this URL (you can only have one Main URL per shop).</source>
         <target state="final">Ja jūs izvēlaties šo URL kā atlasītā veikala galveno URL, visi URL, kas iestatīti uz šo veikalu, tiks novirzīti uz šo URL (katram veikalam var būt tikai viens Galvenais URL).</target>
-        <note>Line: 188</note>
+        <note>Line: 202</note>
       </trans-unit>
       <trans-unit id="819e18d335155ef4a9cdfe926ac8a3de" approved="yes">
         <source>Since the selected shop has no main URL, you have to set this URL as the Main URL.</source>
         <target state="final">Tā kā izvēlētajam veikalam nav Galvenā URL, jums ir jānosaka šis URL kā galvenais URL.</target>
-        <note>Line: 190</note>
+        <note>Line: 204</note>
       </trans-unit>
       <trans-unit id="fe42e7cf02611b9719a6db6513de19eb" approved="yes">
         <source>The selected shop already has a Main URL. Therefore, if you set this one as the Main URL, the older Main URL will be set as a regular URL.</source>
         <target state="final">Izvēlētajam veikalam jau ir galvenais URL. Tāpēc, ja jūs iestatāt šo kā galveno URL, vecāks galvenais URL tiks iestatīts kā parasts URL.</target>
-        <note>Line: 194</note>
+        <note>Line: 208</note>
       </trans-unit>
       <trans-unit id="7e7b350e5cee624789b1e263ec59db26" approved="yes">
         <source>This is the physical folder for your store on the web server. Leave this field empty if your store is installed on the root path. For instance, if your store is available at www.example.com/my-store/, you must input my-store/ in this field.</source>
         <target state="final">Šī ir jūsu e-veikala fiziskā kataloga mape uz web-servera. Atstājiet šo lauku tukšu, ja jūsu veikals ir instalēts kataloga pamatdaļā. Piemēram, ja jūsu veikals ir pieejams vietnē www.example.com/my-store/, šajā laukā jāievada my-store /.</target>
-        <note>Line: 246</note>
+        <note>Line: 260</note>
       </trans-unit>
       <trans-unit id="29f3eb1bea3049b52600a18ad4d0b96c" approved="yes">
         <source>Warning: URL rewriting (e.g. mod_rewrite for Apache) seems to be disabled. If your Virtual URL doesn't work, please check with your hosting provider on how to activate URL rewriting.</source>
         <target state="final">Brīdinājums: šķiet, ka URL pārrakstīšana (piemēram, Apache mod_rewrite) ir atslēgta. Ja jūsu URL nedarbojas, lūdzu, sazinieties ar savu hostinga pakalpojumu sniedzēju, kā aktivizēt URL pārrakstīšanu.</target>
-        <note>Line: 255</note>
+        <note>Line: 269</note>
       </trans-unit>
     </body>
   </file>
@@ -331,11 +331,6 @@ Comment: Special case for Product : either one or the other. Not both.</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Employee/EmployeeType.php" source-language="en" target-language="lv" datatype="plaintext">
     <body>
-      <trans-unit id="d222c4d0463bd3f146536ac89c0d7c77" approved="yes">
-        <source>Password should be at least %num% characters long.</source>
-        <target state="final">Parolē jābūt vismaz %num% zīmēm.</target>
-        <note>Line: 173</note>
-      </trans-unit>
       <trans-unit id="c4e326fcaa83c6b1ca3856175bb86d2e" approved="yes">
         <source>This page will be displayed just after login.</source>
         <target state="final">Šī lapa tiks parādīta tūlīt pēc pieslēgšanās.</target>
@@ -393,6 +388,15 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <source>Quick description of the key: who it is for, what permissions it has, etc.</source>
         <target state="final">Atslēgas īss apraksts: kas tas ir, kādas tiesības tas ir, utt.</target>
         <note>Line: 133</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Type/ChangePasswordType.php" source-language="en" target-language="lv" datatype="plaintext">
+    <body>
+      <trans-unit id="d222c4d0463bd3f146536ac89c0d7c77" approved="yes">
+        <source>Password should be at least %num% characters long.</source>
+        <target state="final">Parolē jābūt vismaz %num% zīmēm.</target>
+        <note>Line: 90</note>
       </trans-unit>
     </body>
   </file>
@@ -574,22 +578,22 @@ Comment: Special case for Product : either one or the other. Not both.</note>
       <trans-unit id="4bbb8f967da6d1a610596d7257179c2b" approved="yes">
         <source>Invalid</source>
         <target state="final">Nederīgs</target>
-        <note>Line: 1596</note>
+        <note>Line: 1604</note>
       </trans-unit>
       <trans-unit id="26b63f278101527e06a5547719568bb5" approved="yes">
         <source>Okay</source>
         <target state="final">Labi</target>
-        <note>Line: 1597</note>
+        <note>Line: 1605</note>
       </trans-unit>
       <trans-unit id="0c6ad70beb3a7e76c3fc7adab7c46acc" approved="yes">
         <source>Good</source>
         <target state="final">Labs</target>
-        <note>Line: 1598</note>
+        <note>Line: 1606</note>
       </trans-unit>
       <trans-unit id="b8dc7c80939667637db7ac31ece215b9" approved="yes">
         <source>Fabulous</source>
         <target state="final">Lieliski</target>
-        <note>Line: 1599</note>
+        <note>Line: 1607</note>
       </trans-unit>
     </body>
   </file>

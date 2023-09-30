@@ -244,22 +244,22 @@
       <trans-unit id="f45ed1483cf46972b5f225656c9c8991" approved="yes">
         <source>Whether or not to display this store.</source>
         <target state="final">顯示這商店與否。</target>
-        <note>Line: 277</note>
+        <note>Line: 279</note>
       </trans-unit>
       <trans-unit id="b950eb0054205bc67aa88899eadded22" approved="yes">
         <source>Storefront picture.</source>
         <target state="final">商店圖片。</target>
-        <note>Line: 286</note>
+        <note>Line: 288</note>
       </trans-unit>
       <trans-unit id="d42de30e9e03274c5c83bd6ce5c27a6f" approved="yes">
         <source>Displayed in emails sent to customers.</source>
         <target state="final">在發給客戶的郵件中顯示</target>
-        <note>Line: 466</note>
+        <note>Line: 484</note>
       </trans-unit>
       <trans-unit id="49aaf34d99febc7c13881d121288cd8a" approved="yes">
         <source>Shop registration information (e.g. SIRET or RCS).</source>
         <target state="final">商店登記資訊 (例如 鄉鎮市區 或 RCS)</target>
-        <note>Line: 473</note>
+        <note>Line: 491</note>
       </trans-unit>
     </body>
   </file>
@@ -332,6 +332,11 @@
         <source>Display a customized message when the store is disabled.</source>
         <target state="final">停用電子商店時顯示自定義消息。</target>
         <note>Line: 130</note>
+      </trans-unit>
+      <trans-unit id="a8de200ee3200616262682ff488ce2f3" approved="yes">
+        <source>When enabled, admins will access the store front office without storing their IP.</source>
+        <target state="final">啟用後，管理員將無需儲存其 IP 即可訪問商店前台。</target>
+        <note>Line: 93</note>
       </trans-unit>
     </body>
   </file>
@@ -441,6 +446,11 @@
         <target state="final">選擇作為"服務條款說明"的頁面</target>
         <note>Line: 141</note>
       </trans-unit>
+      <trans-unit id="1a9a8cbb0899db011b7fec6df3326aa7" approved="yes">
+        <source>The order status will be set to "On backorder" for new orders containing products that are out of stock.</source>
+        <target state="final">對於包含缺貨商品的新訂單，訂單狀態將設定為「延期交貨」。</target>
+        <note>Line: 153</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GiftOptionsType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -464,6 +474,11 @@
         <source>Suggest recycled packaging to customer.</source>
         <target state="final">推薦客戶使用環保包裝</target>
         <note>Line: 134</note>
+      </trans-unit>
+      <trans-unit id="bafe5bb026d9d3315199aec22c1be853" approved="yes">
+        <source><![CDATA[Remember to regenerate email templates in [1]Design > Email theme[/1] after enabling or disabling this feature.]]></source>
+        <target state="final"><![CDATA[啟用或停用此功能後，請記得在[1]設計 > 電子郵件主題[/1]中重新產生電郵範本。]]></target>
+        <note>Line: 102</note>
       </trans-unit>
     </body>
   </file>
@@ -508,6 +523,16 @@
         <source>If a customer meets multiple conditions, specific prices will be applied in this order of priority, unless a different order has been set for a particular product.</source>
         <target state="final">當客戶滿足多個條件，特定價格將應用於此訂單，除非有特定商品擁有其他優先度。</target>
         <note>Line: 160</note>
+      </trans-unit>
+      <trans-unit id="f53c8ac6acc0017629736d6d0ccd935c" approved="yes">
+        <source>You can specify the default behavior for all disabled products. The product page can display a "Discontinued" message or an error page. You can also specify which HTTP response is sent to users. This can be set specifically for each product.</source>
+        <target state="final">您可以指定所有停用商品的預設行為。商品頁面可以顯示「已停售」訊息或錯誤頁面。您還可以針對每個商品特別指定要傳送給用戶的HTTP回應。</target>
+        <note>Line: 171</note>
+      </trans-unit>
+      <trans-unit id="8f5320453e91fe37d7b5704c92f4f243" approved="yes">
+        <source>When enabled, friendly URL will be updated on every name change for offline products only.</source>
+        <target state="final">當啟用時，僅在離線商品的名稱更改時，友好URL才會更新。</target>
+        <note>Line: 138</note>
       </trans-unit>
     </body>
   </file>
@@ -648,7 +673,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/Blocks/customer_preferences_general.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      
+      <trans-unit id="744c64016466dfc0166c805ee96446e4" approved="yes">
+        <source>[1]Make[/1] sure partner offers are not set as required in the [2]Customers[/2] section of the back office before disabling them. Otherwise, new customers won't be able to create an account and [1]proceed[/1] to checkout.</source>
+        <target state="final">在停用合作夥伴提供的產品之前，[1]請確認[/1]在後台辦公室的[2]客戶[/2]部分中未設置其為必填項目。否則，新客戶將無法建立帳戶並[1]進行[/1]結帳。</target>
+        <note>Line: 40</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/OrderReturnStates/Blocks/form.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -658,10 +687,6 @@
         <target state="final">訂單退貨狀態名稱。</target>
         <note>Line: 41</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/OrderStates/Blocks/form.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
-    <body>
       <trans-unit id="a4bb440d400f4dc30f148b44d08680b4" approved="yes">
         <source>Invalid characters: numbers and</source>
         <target state="final">停用字元：數字 和</target>
@@ -670,8 +695,12 @@
       <trans-unit id="00b963b1cb1aad2142ae67ce65329944" approved="yes">
         <source>Status will be highlighted in this color. HTML colors only.</source>
         <target state="final">狀態會用這個顏色標示(只能使用 HTML 顏色)。</target>
-        <note>Line: 83</note>
+        <note>Line: 49</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/OrderStates/Blocks/form.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
+    <body>
       <trans-unit id="83b262520a65657b95fd686817c56a09" approved="yes">
         <source>Order status (e.g. 'Pending').</source>
         <target state="final">訂單狀態（例如＇待處理＇）。</target>
