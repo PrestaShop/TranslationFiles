@@ -286,7 +286,7 @@
     <body>
       <trans-unit id="6982640121765cb57f29e6fe170caadc" approved="yes">
         <source>Add a new condition group</source>
-        <target state="final">Dodaj novi uslov grupe</target>
+        <target state="final">Dodaj novi uslov za grupu</target>
         <note>Line: 33</note>
       </trans-unit>
       <trans-unit id="643202d7ee8cb01d888e058b5341455a" approved="yes">
@@ -296,7 +296,7 @@
       </trans-unit>
       <trans-unit id="e43e4f8aab3dbe1127082747a86a2120" approved="yes">
         <source>Condition group</source>
-        <target state="final">Uslov grupe</target>
+        <target state="final">Uslov za grupu</target>
         <note>Line: 197</note>
       </trans-unit>
     </body>
@@ -745,7 +745,7 @@
     <body>
       <trans-unit id="5e3c40bfa4026ab071712bf230b8f52f" approved="yes">
         <source>Reduction with or without taxes</source>
-        <target state="final">Sniženje sa ili bez poreza</target>
+        <target state="final">Sniženje sa ili bez PDV-a</target>
         <note>Line: 300</note>
       </trans-unit>
       <trans-unit id="7b28d39c479ba659159b3356616b0a04" approved="yes">
@@ -872,6 +872,11 @@
         <target state="final">nijedan</target>
         <note>Line: 95</note>
       </trans-unit>
+      <trans-unit id="078448d4b487ad94565d5d18739c317a" approved="yes">
+        <source>Specific delivery time for this product</source>
+        <target state="final">Specifično vreme isporuke za ovaj proizvod</target>
+        <note>Line: 104</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Core/Form/ChoiceProvider/OutOfStockTypeChoiceProvider.php" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -895,9 +900,21 @@
   </file>
   <file original="src/Core/Form/ChoiceProvider/PackStockTypeChoiceProvider.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="175db77b6b3ecd9633e85b5efc28bbc1" approved="yes">
+        <source>Decrement pack only.</source>
+        <target state="final">Umanjuj samo broj pakovanja.</target>
+        <note>Line: 82</note>
+      </trans-unit>
+      <trans-unit id="1ba020dea4ce06fa139a471db21f41a7" approved="yes">
+        <source>Decrement products in pack only.</source>
+        <target state="final">Umanjuj samo broj proizvoda u pakovanju.</target>
+        <note>Line: 83</note>
+      </trans-unit>
+      <trans-unit id="61b912928e920c280798dc648d4068fe" approved="yes">
+        <source>Decrement both.</source>
+        <target state="final">Umanjuj i broj pakovanja i broj proizvoda u pakovanju.</target>
+        <note>Line: 84</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Core/Form/ChoiceProvider/ProductConditionChoiceProvider.php" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -1064,7 +1081,7 @@
     <body>
       <trans-unit id="f5b3b36fe3abb6353ef765e5ace7b782" approved="yes">
         <source>List of products without description and summary</source>
-        <target state="final">Lista artikala bez opisa i rezimea</target>
+        <target state="final">Lista proizvoda bez opisa i rezimea</target>
         <note>Line: 41</note>
       </trans-unit>
     </body>
@@ -1073,7 +1090,7 @@
     <body>
       <trans-unit id="c205cafb2813572f3f96669cf2b97cf0" approved="yes">
         <source>List of products without images</source>
-        <target state="final">Lista artikala bez slika</target>
+        <target state="final">Lista proizvoda bez slika</target>
         <note>Line: 41</note>
       </trans-unit>
     </body>
@@ -1082,14 +1099,18 @@
     <body>
       <trans-unit id="3368abb84d65a50813d1ed17708ec130" approved="yes">
         <source>List of products without price</source>
-        <target state="final">Lista artikala bez cene</target>
+        <target state="final">Lista proizvoda bez cene</target>
         <note>Line: 41</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/Core/Grid/Definition/Factory/ProductGridDefinitionFactory.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
+      <trans-unit id="a4838f49c5701e128d7695c3dc45083c" approved="yes">
+        <source>Select a store</source>
+        <target state="final">Odaberite prodavnicu</target>
+        <note>Line: 749</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Core/Product/Combination/NameBuilder/CombinationNameBuilder.php" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -1724,7 +1745,7 @@
     <body>
       <trans-unit id="48a9e14d0d9d632219727607dbb81ecf" approved="yes">
         <source>You can bulk edit the selected combinations by enabling and filling each field that needs to be updated.</source>
-        <target state="final">Možete masovno urediti odabrane kombinacije tako što ćete omogućiti i popuniti svako polje koje treba ažurirati.</target>
+        <target state="final">Možete masovno urediti odabrane kombinacije tako što ćete aktivirati i popuniti svako polje koje treba ažurirati.</target>
         <note>Line: 66</note>
       </trans-unit>
     </body>
@@ -1740,7 +1761,11 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationImagesChoiceType.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
+      <trans-unit id="c1f630c03c76fae97cd5cc4316bd72b9" approved="yes">
+        <source>You can specify which images should be displayed when customer selects this combination. If you don't select any image, all will be displayed. The default image of the combination will be the first one selected from the list.</source>
+        <target state="final">Možete odrediti koje slike treba prikazati kada kupac izabere ovu kombinaciju. Ako ne izaberete nijednu sliku, prikazaće se sve. Podrazumevana slika za ovu kombinaciju biće prva izabrana sa liste.</target>
+        <note>Line: 70</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationManagerType.php" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -1754,6 +1779,11 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationPriceImpactType.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
+      <trans-unit id="7828a35d153636336475fa0774877bde" approved="yes">
+        <source>If the price per unit of this combination is different from the initial price per unit, enter the value of the impact (negative or positive).</source>
+        <target state="final">Ako je cena po jedinici ove kombinacije drugačija od početne cene po jedinici, unesite vrednost uticaja (negativna ili pozitivna).</target>
+        <note>Line: 233</note>
+      </trans-unit>
       <trans-unit id="ab9b7d5772de1c93d483522af5798fc9" approved="yes">
         <source>Final retail price (tax excl.)</source>
         <target state="final">Konačna prodajna cena (bez PDV-a)</target>
@@ -1768,6 +1798,11 @@
         <source>Impact on price per unit (tax incl.)</source>
         <target state="final">Uticaj na jediničnu cenu (bez PDV-a)</target>
         <note>Line: 232</note>
+      </trans-unit>
+      <trans-unit id="f5328bbc429966afadc1aaf5a5fc6030" approved="yes">
+        <source>Ecotax rate %rate%%</source>
+        <target state="final">Stopa eko takse %rate%%</target>
+        <note>Line: 151</note>
       </trans-unit>
       <trans-unit id="4fc9f49cb85af9ba5caab7747fe35846" approved="yes">
         <source>Ecotax (tax excl.)</source>
@@ -2118,6 +2153,11 @@
         <target state="final">Uredi količinu</target>
         <note>Line: 82</note>
       </trans-unit>
+      <trans-unit id="1dc2af14d15238ba67e03c99a6f415f6" approved="yes">
+        <source>Stocks</source>
+        <target state="final">Zalihe</target>
+        <note>Line: 140</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Stock/StockMovementType.php" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -2146,6 +2186,11 @@
         <target state="final">Unesite lokaciju magacina</target>
         <note>Line: 71</note>
       </trans-unit>
+      <trans-unit id="9b2fb753b169b94ab4de6a97d81e18d2" approved="yes">
+        <source>Enter threshold value</source>
+        <target state="final">Upišiti graničnu vrednost</target>
+        <note>Line: 101</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Stock/StockType.php" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -2171,7 +2216,7 @@
       </trans-unit>
       <trans-unit id="5c24f29d9da6d40aa53bf565ec91b13d" approved="yes">
         <source>Make some files available to your customers and facilitate their purchasing environment by adding them just here! It can be instruction manuals, technical works or anything you want to attach to a product.</source>
-        <target state="final">Učinite neke fajlove dostupne vašim kupcima / korisnicima postavljajući ih ovde! To mogu biti tehnička uputstva, istrukcije ili bilo šta drugo što želite da priložite uz proizvod.</target>
+        <target state="final">Učinite neke fajlove dostupne vašim klijenitima / kupcima postavljajući ih ovde! To mogu biti tehnička uputstva, istrukcije ili bilo šta drugo što želite da priložite uz proizvod.</target>
         <note>Line: 32</note>
       </trans-unit>
     </body>
@@ -2180,12 +2225,12 @@
     <body>
       <trans-unit id="473c840259ec075c2c2feb16d989b7f2" approved="yes">
         <source>Manage your credit slips</source>
-        <target state="final">Upravljajte sa vašim reversima (kreditnim listovima)</target>
+        <target state="final">Upravljajte sa vašim kreditnim listovima (kreditima)</target>
         <note>Line: 29</note>
       </trans-unit>
       <trans-unit id="3c67eb9783a941badbdf91bff38e6e2d" approved="yes">
         <source>When a customer returns a product, a credit slip must be created in his favor. Generate vouchers and have a look at their follow-up.</source>
-        <target state="final">Kada kupac vrati proizvod, jedan kreditni list ili vaučer mora biti krerian za njega. Kreirajte vaučere i pratite njihovo korišćenje.</target>
+        <target state="final">Kada kupac vrati proizvod, jedan kreditni list / kredit ili vaučer mora biti krerian za njega. Kreirajte vaučere i pratite njihovo korišćenje.</target>
         <note>Line: 32</note>
       </trans-unit>
     </body>
@@ -2996,7 +3041,7 @@ Comment: First tag [1] is number of combinations selected. Second tag [2] is the
       </trans-unit>
       <trans-unit id="9e834f13e35e4edf64863ab414a6217a" approved="yes">
         <source>Reduction</source>
-        <target state="final">Redukcija</target>
+        <target state="final">Umanjene</target>
         <note>Line: 80</note>
       </trans-unit>
       <trans-unit id="e5bfab8b7f97b8f0b19ad7e393d7c566" approved="yes">
@@ -3369,7 +3414,7 @@ Comment: First tag [1] is number of combinations selected. Second tag [2] is the
       </trans-unit>
       <trans-unit id="104d9898c04874d0fbac36e125fa1369" approved="yes">
         <source>Discount</source>
-        <target state="final">popust:</target>
+        <target state="final">Popust</target>
         <note>Line: 44</note>
       </trans-unit>
     </body>
@@ -3415,7 +3460,11 @@ Comment: First tag [1] is number of combinations selected. Second tag [2] is the
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/FormTheme/product_seo.html.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      
+      <trans-unit id="666f6c018fbf4864efdc09ee347c11dd" approved="yes">
+        <source>Generate URL from name</source>
+        <target state="final">Kreiraj URL od imena</target>
+        <note>Line: 37</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/SpecificPrice/Blocks/list.html.twig" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -3541,6 +3590,11 @@ Comment: First tag [1] is number of combinations selected. Second tag [2] is the
         <source>Type</source>
         <target state="final">Tip</target>
         <note>Line: 429</note>
+      </trans-unit>
+      <trans-unit id="df211c3d69ca4c3564b6ac95d368dc2e" approved="yes">
+        <source>[1][/1] of [2][/2] characters used (recommended)</source>
+        <target state="final">[1][/1] of [2][/2] znakova korišćeno (preporučeno)</target>
+        <note>Line: 811</note>
       </trans-unit>
       <trans-unit id="1a6570d1068d7dd6f811ff022da8f76d" approved="yes">
         <source>Main category</source>

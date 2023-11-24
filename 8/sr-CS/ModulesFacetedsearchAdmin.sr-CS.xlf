@@ -149,6 +149,11 @@
         <target state="final">Selekcija kategorja je deaktivirana iz razloga što nemate kategorije ili ste u režimu lanac prodavnica.</target>
         <note>Line: 26</note>
       </trans-unit>
+      <trans-unit id="6a84ae1d689983a9cc5fb6676eb46279" approved="yes">
+        <source>Effective only if category pages are selected above.</source>
+        <target state="final">Efikasno samo ako su izabrane stranice kategorija gore.</target>
+        <note>Line: 29</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/ps_facetedsearch/views/templates/admin/_partials/controllers.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -467,6 +472,61 @@
         <target state="final">Ukoliko želite automatski dodeliti filter šablon novim kategorijama, izaberite ga ovde.</target>
         <note>Line: 298</note>
       </trans-unit>
+      <trans-unit id="de9bebfdc6b9fc0ea050a478f27cbb92" approved="yes">
+        <source>You must select at least one page</source>
+        <target state="final">Morate odabrati makar jednu stranicu</target>
+        <note>Line: 326</note>
+      </trans-unit>
+      <trans-unit id="7ee2f2da463bebd7507e3e0a39de6e99" approved="yes">
+        <source>We recommend to set regular cron tasks to manage the indexes and cache on daily/weekly basis.</source>
+        <target state="final">Preporučujemo postavljanje redovnih cron zadataka za upravljanje indeksima i kešom na dnevnoj/nedeljnoj osnovi.</target>
+        <note>Line: 36</note>
+      </trans-unit>
+      <trans-unit id="964f08f089bd198a3b5433045510556b" approved="yes">
+        <source>Add missing products to price index:</source>
+        <target state="final">Dodaj proizvod koji nedostaje u indeks:</target>
+        <note>Line: 38</note>
+      </trans-unit>
+      <trans-unit id="d5da9a4cccaf88f37b2e097a9d34a836" approved="yes">
+        <source>Rebuild price index:</source>
+        <target state="final">Obnovi ceo indeks cena:</target>
+        <note>Line: 40</note>
+      </trans-unit>
+      <trans-unit id="203b4e9a5b29bb6ed5aeb6d0692941ce" approved="yes">
+        <source>Rebuild attribute index:</source>
+        <target state="final">Obnovi ceo indeks atributa / osobina:</target>
+        <note>Line: 42</note>
+      </trans-unit>
+      <trans-unit id="2707341ee97a7c74914e0d59adbcf5ab" approved="yes">
+        <source>Flush block cache:</source>
+        <target state="final">Isprazni keš bloka:</target>
+        <note>Line: 44</note>
+      </trans-unit>
+      <trans-unit id="5466dc891d678f772cc36162753e92fa" approved="yes">
+        <source>This option caches filtering blocks, so the module does not have to query for matching products all the time. The cache is invalidated on every modification on your store. If you encounter some incosistencies, disable this cache or make sure to flush it if needed.</source>
+        <target state="final">Ova opcija kešira blokove filtriranja, tako da modul ne mora stalno upitivati odgovarajuće proizvode. Keš se poništava pri svakoj izmeni na vašem prodajnom mestu. Ako naiđete na neke neslaganja, onemogućite ovaj keš ili se pobrinite da ga ispraznite ako je potrebno.</target>
+        <note>Line: 131</note>
+      </trans-unit>
+      <trans-unit id="2829d57ed813ec86c807b7dde4fe140c" approved="yes">
+        <source>Enable or disable display of matching products after filters. Disabling this won't bring any performance benefit, because matching products need to be calculated anyway.</source>
+        <target state="final">Omogućite ili onemogućite prikazivanje odgovarajućih proizvoda nakon primenjenih filtera. Onemogućavanje ove opcije neće doneti nikakvu korist u performansama, jer odgovarajući proizvodi moraju biti izračunati u svakom slučaju.</target>
+        <note>Line: 153</note>
+      </trans-unit>
+      <trans-unit id="86c8e8e4e43a8e6d27907e9cde0b3a71" approved="yes">
+        <source>Enable this, if you want to display products from subcategories, even if they are not specifically assigned to the currently browsed category.</source>
+        <target state="final">Omogućite ovo ako želite prikazivati proizvode iz podkategorija, čak i ako nisu posebno dodeljeni trenutno pregledanoj kategoriji.</target>
+        <note>Line: 175</note>
+      </trans-unit>
+      <trans-unit id="dc668816c4d715e1021b44a4823924a4" approved="yes">
+        <source>Category filter depth</source>
+        <target state="final">Dubina filtera kategorija</target>
+        <note>Line: 203</note>
+      </trans-unit>
+      <trans-unit id="917b770ceaad28f806736a648ff6e0d6" approved="yes">
+        <source>This option controls the behavior of category filter block - how deep children of the currently browsed category you want to display? The default value is 1 - only the direct children. Use 0 for unlimited depth.</source>
+        <target state="final">Ova opcija kontroliše ponašanje bloka filtera kategorija - koliko duboko želite prikazati potkategorije trenutno pregledane kategorije? Podrazumevana vrednost je 1 - samo direktna potkategorija. Koristite 0 za neograničenu dubinu.</target>
+        <note>Line: 209</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/ps_facetedsearch/views/templates/admin/view.tpl" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -516,10 +576,35 @@
         <target state="final">Padajuća lista</target>
         <note>Line: 201</note>
       </trans-unit>
+      <trans-unit id="ce9bd6e7a7bfa2fa2d9e43bc4fcfeb8a" approved="yes">
+        <source>List of ranges</source>
+        <target state="final">Lista opsega</target>
+        <note>Line: 72</note>
+      </trans-unit>
+      <trans-unit id="db6b86d05039c4f657a28647f8eb5140" approved="yes">
+        <source>Attribute group: %name% (%count% attributes)</source>
+        <target state="final">Grupa osobina: %name% (%count% osobina)</target>
+        <note>Line: 110</note>
+      </trans-unit>
+      <trans-unit id="788a474b0e55d612b3d500743c6251a0" approved="yes">
+        <source>Attribute group: %name% (%count% attribute)</source>
+        <target state="final">Grupa osobine: %name% (%count% osobine)</target>
+        <note>Line: 119</note>
+      </trans-unit>
       <trans-unit id="ee59f74265cd7f85d0ad30206a1a89b0" approved="yes">
         <source>This group will allow user to select a color</source>
         <target state="final">Ova grupa će omogućiti korisnicima da odaberu boju</target>
         <note>Line: 129</note>
+      </trans-unit>
+      <trans-unit id="4127fb33c1db9597f3c881ae057f1370" approved="yes">
+        <source>Feature: %name% (%count% values)</source>
+        <target state="final">Detalj: %name% (%count% vrednosti)</target>
+        <note>Line: 169</note>
+      </trans-unit>
+      <trans-unit id="cadad7b648bb2b1d3f22421b00a14fd2" approved="yes">
+        <source>Feature: %name% (%count% value)</source>
+        <target state="final">Karakteristika: %name% (%count% vrednost)</target>
+        <note>Line: 178</note>
       </trans-unit>
     </body>
   </file>
@@ -548,6 +633,11 @@
         <source>Indexable</source>
         <target state="final">Može se indeksovati</target>
         <note>Line: 78</note>
+      </trans-unit>
+      <trans-unit id="4e495bf87859dbd3914919cccea139e2" approved="yes">
+        <source>Use this attribute in URL generated by the Faceted Search module.</source>
+        <target state="final">Koristite ovaj atribut u URL adresi generisanoj od strane Modula za filtriranje sa više kriterijuma</target>
+        <note>Line: 93</note>
       </trans-unit>
       <trans-unit id="81e6451dad5734120899da86f7da4e4e" approved="yes">
         <source>When the Faceted Search module is enabled, you can get more detailed URLs by choosing the word that best represent this feature. By default, PrestaShop uses the feature's name, but you can change that setting using this field.</source>

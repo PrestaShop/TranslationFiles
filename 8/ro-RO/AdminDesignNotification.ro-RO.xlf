@@ -4,7 +4,7 @@
     <body>
       <trans-unit id="8c9b2e81e93417bf65ee4d1c674d00e9" approved="yes">
         <source>You can choose to keep your images stored in the previous system. There's nothing wrong with that.</source>
-        <target state="final">Poti alege pastrarea imaginilor folosind sistemul vechi. Nu este nimic in neregula cu acest lucru.</target>
+        <target state="final">Poti alege pastrarea imaginilor folosind sistemul vechi. Nu este nimic gresit cu aceasta.</target>
         <note>Line: 42</note>
       </trans-unit>
       <trans-unit id="cde488e6010c72acfb6ff2781683b030" approved="yes">
@@ -26,13 +26,25 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/images/modal_confirm_delete_type.tpl" source-language="en" target-language="ro" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="f031a290ace03a9f5d5dce82aefa86c6" approved="yes">
+        <source>If you delete this image format, the theme won't be able to use it anymore. This will result in a degraded experience on your front office.</source>
+        <target state="final">Daca stergi acest format de imagine, tema nu-l va mai putea folosi, ceea ce va degrada experienta vizitatorilor magazinului.</target>
+        <note>Line: 27</note>
+      </trans-unit>
+      <trans-unit id="01d51bf7619b2c4c234be88fa06ac16b" approved="yes">
+        <source>Delete the images linked to this image setting</source>
+        <target state="final">Sterge imaginile legate de aceasta setare.</target>
+        <note>Line: 35</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/images/modal_regenerate_thumbnails.tpl" source-language="en" target-language="ro" datatype="plaintext">
     <body>
-      
+      <trans-unit id="6d2d8a4592271225573b378ea6d12eeb" approved="yes">
+        <source>Regenerate thumbnails for the selected images? With the "erase" option enabled, the previously selected thumbnails will be deleted.</source>
+        <target state="final">Regenerezi miniaturile pentru imaginile selectate? Cu optiunea "sterge" activata, miniaturile selectate anterior vor fi sterse.</target>
+        <note>Line: 26</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/controller/FrontController.php" source-language="en" target-language="ro" datatype="plaintext">
@@ -130,6 +142,11 @@
         <source>After modification, do not forget to regenerate thumbnails</source>
         <target state="final">Dupa modificare, nu uita sa regenerezi miniaturile (thumbnail)</target>
         <note>Line: 1019</note>
+      </trans-unit>
+      <trans-unit id="de7bf0de52dfa524dc063d610496c957" approved="yes">
+        <source>Make sure the theme you use doesn't rely on this image format before deleting it.</source>
+        <target state="final">Inainte de a sterge acest format de imagine, asigura-te ca tema pe care o utilizezi nu depinde de el.</target>
+        <note>Line: 1020</note>
       </trans-unit>
     </body>
   </file>
