@@ -194,11 +194,6 @@ Comment: @todo Throw exception</note>
         <target state="final">Se produjo un error durante la actualización del grupo por defecto</target>
         <note>Line: 583</note>
       </trans-unit>
-      <trans-unit id="962f6e835582ebb404a37893f46c60f3" approved="yes">
-        <source>An error has occurred, this module does not exist: %s</source>
-        <target state="final">Se ha producido un error, este módulo no existe: %s</target>
-        <note>Line: 513</note>
-      </trans-unit>
     </body>
   </file>
   <file original="classes/Translate.php" source-language="en" target-language="es-CO" datatype="plaintext">
@@ -222,21 +217,6 @@ Comment: @todo Throw exception</note>
         <target state="final">No se puede añadir la configuración %1$s para el idioma %2$s</target>
         <note>Line: 1581</note>
       </trans-unit>
-      <trans-unit id="c9468b4bd45a165049277af6756db10e" approved="yes">
-        <source>Localization pack imported successfully.</source>
-        <target state="final">El paquete de localización ha sido importado exitosamente.</target>
-        <note>Line: 517</note>
-      </trans-unit>
-      <trans-unit id="6cfb80c26b415f8f6467cf07b0c700dd" approved="yes">
-        <source>The translation was successfully copied.</source>
-        <target state="final">La traducción fue copiada exitosamente</target>
-        <note>Line: 507</note>
-      </trans-unit>
-      <trans-unit id="f22def68c5c456936078623b6dcd27ff" approved="yes">
-        <source>The translations have been successfully added.</source>
-        <target state="final">Las traducciones fueron añadidas exitosamente</target>
-        <note>Line: 508</note>
-      </trans-unit>
     </body>
   </file>
   <file original="classes/tax/TaxManagerModule.php" source-language="en" target-language="es-CO" datatype="plaintext">
@@ -258,7 +238,7 @@ Comment: @todo Throw exception</note>
       <trans-unit id="6f3455d187a23443796efdcbe044096b" approved="yes">
         <source>No tax</source>
         <target state="final">Sin IVA</target>
-        <note>Line: 167</note>
+        <note>Line: 163</note>
       </trans-unit>
     </body>
   </file>
@@ -586,6 +566,11 @@ Comment: @todo Throw exception</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/LocalizationController.php" source-language="en" target-language="es-CO" datatype="plaintext">
     <body>
+      <trans-unit id="c9468b4bd45a165049277af6756db10e" approved="yes">
+        <source>Localization pack imported successfully.</source>
+        <target state="final">El paquete de localización ha sido importado exitosamente.</target>
+        <note>Line: 212</note>
+      </trans-unit>
       <trans-unit id="53802fa30d7e83f77eccfa376c33e6fa" approved="yes">
         <source>Importing a new language may fail without the OpenSSL module. Please enable "openssl.so" on your server configuration.</source>
         <target state="final">La importación de un nuevo idioma puede fallar sin el módulo OpenSSL. Por favor, activa "openssl.so" en la configuración de tu servidor.</target>
@@ -595,6 +580,21 @@ Comment: @todo Throw exception</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/TranslationsController.php" source-language="en" target-language="es-CO" datatype="plaintext">
     <body>
+      <trans-unit id="962f6e835582ebb404a37893f46c60f3" approved="yes">
+        <source>An error has occurred, this module does not exist: %s</source>
+        <target state="final">Se ha producido un error, este módulo no existe: %s</target>
+        <note>Line: 143</note>
+      </trans-unit>
+      <trans-unit id="6cfb80c26b415f8f6467cf07b0c700dd" approved="yes">
+        <source>The translation was successfully copied.</source>
+        <target state="final">La traducción fue copiada exitosamente</target>
+        <note>Line: 318</note>
+      </trans-unit>
+      <trans-unit id="f22def68c5c456936078623b6dcd27ff" approved="yes">
+        <source>The translations have been successfully added.</source>
+        <target state="final">Las traducciones fueron añadidas exitosamente</target>
+        <note>Line: 177</note>
+      </trans-unit>
       <trans-unit id="2c4113bd192a65a98ee212d9e946d152" approved="yes">
         <source>You must select at least one translation type to export translations.</source>
         <target state="final">Debe seleccionar al menos un tipo de traducción para exportar las traducciones.</target>
@@ -640,30 +640,26 @@ Comment: @todo Throw exception</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Geolocation/GeolocationByIpAddressFormDataProvider.php" source-language="en" target-language="es-CO" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Geolocation/GeolocationFormDataProvider.php" source-language="en" target-language="es-CO" datatype="plaintext">
     <body>
       <trans-unit id="7e093dcb7a9f75c8124b2adc265c5302" approved="yes">
         <source>The geolocation database is unavailable.</source>
         <target state="final">La base de datos de geolocalización no se está disponible.</target>
-        <note>Line: 77</note>
+        <note>Line: 107</note>
+      </trans-unit>
+      <trans-unit id="0861a67f819158c5690a1844d95390b4" approved="yes">
+        <source>Invalid whitelist</source>
+        <target state="final">Lista de regalos no válida</target>
+        <note>Line: 123</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Geolocation/GeolocationFormDataProvider.php" source-language="en" target-language="es-CO" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Geolocation/GeolocationOptionsFormDataProvider.php" source-language="en" target-language="es-CO" datatype="plaintext">
     <body>
       <trans-unit id="493ce56d58c4880dc32df56f12585a23" approved="yes">
         <source>Country selection is invalid.</source>
         <target state="final">La selección de país no es válida.</target>
-        <note>Line: 115</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Geolocation/GeolocationWhitelistFormDataProvider.php" source-language="en" target-language="es-CO" datatype="plaintext">
-    <body>
-      <trans-unit id="0861a67f819158c5690a1844d95390b4" approved="yes">
-        <source>Invalid whitelist</source>
-        <target state="final">Lista de regalos no válida</target>
-        <note>Line: 76</note>
+        <note>Line: 75</note>
       </trans-unit>
     </body>
   </file>

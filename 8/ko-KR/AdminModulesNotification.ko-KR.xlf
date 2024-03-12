@@ -38,7 +38,7 @@
       <trans-unit id="f996dce5bdfb1b1094e41cf996c5fdae" approved="yes">
         <source>Please specify module URL</source>
         <target state="final">모듈 URL을 지정하십시오 </target>
-        <note>Line: 119</note>
+        <note>Line: 120</note>
       </trans-unit>
     </body>
   </file>
@@ -73,16 +73,6 @@
         <source>Successfully signed in to PrestaShop Addons.</source>
         <target state="final">PrestaShop 추가기능에 로그인 했습니다.</target>
         <note>Line: 525</note>
-      </trans-unit>
-      <trans-unit id="980b6caee06822f8c5df45eb7db277be" approved="yes">
-        <source>The module transplanted successfully to the hook.</source>
-        <target state="final">후크로 모듈이 이식되었습니다.</target>
-        <note>Line: 509</note>
-      </trans-unit>
-      <trans-unit id="80e868e8d753c3ec4066aab283e66cbc" approved="yes">
-        <source>The module was successfully removed from the hook.</source>
-        <target state="final">모듈이 후크에서 제거되었습니다.</target>
-        <note>Line: 510</note>
       </trans-unit>
     </body>
   </file>
@@ -500,6 +490,11 @@
         <target state="final">먼저 %module% 모듈이 설치되야 합니다</target>
         <note>Line: 394</note>
       </trans-unit>
+      <trans-unit id="68c020e02cc93287d21c247e5526c526" approved="yes">
+        <source>You are not allowed to delete the module %module%.</source>
+        <target state="final">%module% 모듈을 삭제할 권한이 없습니다.</target>
+        <note>Line: 169</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Core/Module/SourceHandler/ZipSourceHandler.php" source-language="en" target-language="ko" datatype="plaintext">
@@ -518,16 +513,6 @@
   </file>
   <file original="src/PrestaShopBundle/Command/ModuleCommand.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
-      <trans-unit id="1ff626f78b7506f340c7b2ce3398367a" approved="yes">
-        <source>Cannot %action% module %module%. %error_details%</source>
-        <target state="final">모듈 %module%에서 %action% 을/를 할 수 없습니다. %error_details%</target>
-        <note>Line: 207</note>
-      </trans-unit>
-      <trans-unit id="9dca2e42fe7a0db763b8737e9a8f9133" approved="yes">
-        <source>%action% action on module %module% succeeded.</source>
-        <target state="final">%module% 모듈의 %action% 동작이 성공되었습니다.</target>
-        <note>Line: 193</note>
-      </trans-unit>
       <trans-unit id="6867740141667a3da88ac51e48ed1d9d" approved="yes">
         <source>Unknown module action. It must be one of these values: %actions%</source>
         <target state="final">알 수 없는 모듈 동작. 다음 값들 중 하나여야 합니다: %actions%</target>
@@ -545,8 +530,32 @@
       </trans-unit>
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Improve/Design/PositionsController.php" source-language="en" target-language="ko" datatype="plaintext">
+    <body>
+      <trans-unit id="980b6caee06822f8c5df45eb7db277be" approved="yes">
+        <source>The module transplanted successfully to the hook.</source>
+        <target state="final">후크로 모듈이 이식되었습니다.</target>
+        <note>Line: 236</note>
+      </trans-unit>
+      <trans-unit id="80e868e8d753c3ec4066aab283e66cbc" approved="yes">
+        <source>The module was successfully removed from the hook.</source>
+        <target state="final">모듈이 후크에서 제거되었습니다.</target>
+        <note>Line: 237</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/ModuleController.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
+      <trans-unit id="1ff626f78b7506f340c7b2ce3398367a" approved="yes">
+        <source>Cannot %action% module %module%. %error_details%</source>
+        <target state="final">모듈 %module%에서 %action% 을/를 할 수 없습니다. %error_details%</target>
+        <note>Line: 289</note>
+      </trans-unit>
+      <trans-unit id="9dca2e42fe7a0db763b8737e9a8f9133" approved="yes">
+        <source>%action% action on module %module% succeeded.</source>
+        <target state="final">%module% 모듈의 %action% 동작이 성공되었습니다.</target>
+        <note>Line: 263</note>
+      </trans-unit>
       <trans-unit id="89d371deca1b2b50a933fabc8005ccfb" approved="yes">
         <source>%module% did not return a valid response on installation.</source>
         <target state="final">설치시에 %module%이 정상적인 반응을 보이지 않았습니다.</target>
@@ -720,6 +729,11 @@
         <source>We strongly advise you to upgrade the modules on maintenance mode to avoid any cache issues.</source>
         <target state="final">캐시 문제를 방지하려면 유지보수 모드에서 모듈을 업그레이드 하는 것이 좋습니다.</target>
         <note>Line: 44</note>
+      </trans-unit>
+      <trans-unit id="301b8a0baa08b380f6f2af68cfc43573" approved="yes">
+        <source>An action is already in progress. Please wait for it to finish.</source>
+        <target state="final">작업이 이미 진행 중입니다. 완료될 때까지 기다려 주세요.</target>
+        <note>Line: 58</note>
       </trans-unit>
     </body>
   </file>
