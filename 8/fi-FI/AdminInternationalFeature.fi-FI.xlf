@@ -190,6 +190,16 @@
         <target state="final">Oletusvaluutta:</target>
         <note>Line: 229</note>
       </trans-unit>
+      <trans-unit id="756c1ac6c3e039a5b7ca1dc3bccc98c5" approved="yes">
+        <source>Does it need a ZIP/Postal code?</source>
+        <target state="final">Tarvitseeko se postinumeron?</target>
+        <note>Line: 254</note>
+      </trans-unit>
+      <trans-unit id="4244d08d539fd2db211bc5acea815014" approved="yes">
+        <source>ZIP/Postal code format</source>
+        <target state="final">Postinumeromuoto</target>
+        <note>Line: 273</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminStatesController.php" source-language="en" target-language="fi" datatype="plaintext">
@@ -363,15 +373,15 @@
         <target state="final">Verkkokauppa</target>
         <note>Line: 69</note>
       </trans-unit>
-      <trans-unit id="ce8ae9da5b7cd6c3df2929543a9af92d" approved="yes">
-        <source>Email</source>
-        <target state="final">Sähköposti</target>
-        <note>Line: 70</note>
-      </trans-unit>
       <trans-unit id="6311ae17c1ee52b36e68aaf4ad066387" approved="yes">
         <source>Other</source>
         <target state="final">Muut</target>
         <note>Line: 71</note>
+      </trans-unit>
+      <trans-unit id="ce8ae9da5b7cd6c3df2929543a9af92d" approved="yes">
+        <source>Email</source>
+        <target state="final">Sähköposti</target>
+        <note>Line: 70</note>
       </trans-unit>
     </body>
   </file>
@@ -419,6 +429,11 @@
   </file>
   <file original="src/Core/Grid/Definition/Factory/TaxGridDefinitionFactory.php" source-language="en" target-language="fi" datatype="plaintext">
     <body>
+      <trans-unit id="7087cbed62cddb06bd7506c46269f0b5" approved="yes">
+        <source>Search rate</source>
+        <target state="final">Hakunopeus</target>
+        <note>Line: 173</note>
+      </trans-unit>
       <trans-unit id="dcb66ff6e4a2517ade22183779939c9d" approved="yes">
         <source>Rate</source>
         <target state="final">Verokanta</target>
@@ -741,12 +756,12 @@
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Design/MailTheme/Blocks/generate_mails_form.html.twig" source-language="en" target-language="fi" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Design/MailTheme/Blocks/translate_mails_body_form.html.twig" source-language="en" target-language="fi" datatype="plaintext">
     <body>
       <trans-unit id="c96f531c0eda2dece593a2f8df3a58a8" approved="yes">
         <source>Select your language</source>
         <target state="final">Valitse kielesi</target>
-        <note>Line: 51</note>
+        <note>Line: 39</note>
       </trans-unit>
     </body>
   </file>
@@ -830,6 +845,11 @@
         <target state="final">Odota, kunnes valuuttatiedot on ladattu</target>
         <note>Line: 118</note>
       </trans-unit>
+      <trans-unit id="7c92376882a1b08d3f07b37b5ce500d3" approved="yes">
+        <source>{price}</source>
+        <target state="final">{price}</target>
+        <note>Line: 46</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/International/Currency/index.html.twig" source-language="en" target-language="fi" datatype="plaintext">
@@ -837,8 +857,7 @@
       <trans-unit id="076b68505282c6c0654708db343d6673" approved="yes">
         <source>Add new currency</source>
         <target state="final">Lisää uusi valuutta</target>
-        <note>Line: 31
-Comment: Stable feature flags form</note>
+        <note>Line: 31</note>
       </trans-unit>
     </body>
   </file>
@@ -991,20 +1010,21 @@ Comment: nb_translations can be 0 or 1</note>
         <target state="final">Hae käännöksiä</target>
         <note>Line: 58</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Twig/TranslationsExtension.php" source-language="en" target-language="fi" datatype="plaintext">
-    <body>
       <trans-unit id="c949bd6d096b356fc06f55ec5205e3b6" approved="yes">
         <source>%d missing</source>
         <target state="final">%d puuttuu</target>
-        <note>Line: 360</note>
+        <note><![CDATA[Line: 45
+Comment: Missing is plural, always > 1]]></note>
       </trans-unit>
       <trans-unit id="3a8b99657fcabfc65f45cd1be2b34de9" approved="yes">
         <source>%nb_translations% expressions</source>
         <target state="final">%nb_translations% ilmaisut</target>
-        <note>Line: 429</note>
+        <note>Line: 47</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Twig/TranslationsExtension.php" source-language="en" target-language="fi" datatype="plaintext">
+    <body>
       <trans-unit id="740b879fdd48f184f798b8018134f630" approved="yes">
         <source>Show messages</source>
         <target state="final">Näytä viestit</target>

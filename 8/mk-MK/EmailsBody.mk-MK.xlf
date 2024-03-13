@@ -113,16 +113,6 @@
         <target state="final">Наведете го бројот на налогот во описот на банковното плаќање.</target>
         <note>Line: 58</note>
       </trans-unit>
-      <trans-unit id="b4556791acee238c77be9ed338a29e80" approved="yes">
-        <source>Thank you for shopping with {shop_name}!</source>
-        <target state="final">Ви благодариме што пазаревте во {shop_name}!</target>
-        <note>Line: 8</note>
-      </trans-unit>
-      <trans-unit id="6702a6e3bc2dce95c3e3b61fe578f29c" approved="yes">
-        <source>Amount:</source>
-        <target state="final">износ:</target>
-        <note>Line: 54</note>
-      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/classic/core/cheque.html.twig" source-language="en" target-language="mk" datatype="plaintext">
@@ -142,6 +132,11 @@
         <target state="final">еве ги деталите за вашиот чек:</target>
         <note>Line: 53</note>
       </trans-unit>
+      <trans-unit id="6702a6e3bc2dce95c3e3b61fe578f29c" approved="yes">
+        <source>Amount:</source>
+        <target state="final">износ:</target>
+        <note>Line: 54</note>
+      </trans-unit>
       <trans-unit id="1c3bd8f6bd066270354607c08f930baf" approved="yes">
         <source>Payable to the order of:</source>
         <target state="final">да се плати на :</target>
@@ -156,20 +151,30 @@
   </file>
   <file original="mails/themes/classic/core/contact.html.twig" source-language="en" target-language="mk" datatype="plaintext">
     <body>
+      <trans-unit id="83fa39a28a4d159061c408fbd6a249e7" approved="yes">
+        <source>Order ID:</source>
+        <target state="final">порачка бр.:</target>
+        <note>Line: 24</note>
+      </trans-unit>
       <trans-unit id="a1cee0a898793ad5101154ac97984d8a" approved="yes">
         <source>Message from a {shop_name} customer</source>
         <target state="final">порака од {shop_name} клиент</target>
         <note>Line: 7</note>
       </trans-unit>
+      <trans-unit id="53659d236625358b98797389fd2504fa" approved="yes">
+        <source>Attached file:</source>
+        <target state="final">прикачување:</target>
+        <note>Line: 25</note>
+      </trans-unit>
+      <trans-unit id="5c1cc11c191c9a0f32d16439618ed3bb" approved="yes">
+        <source>Customer message:</source>
+        <target state="final">порака од клиентот:</target>
+        <note>Line: 23</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/classic/core/contact_form.html.twig" source-language="en" target-language="mk" datatype="plaintext">
     <body>
-      <trans-unit id="83fa39a28a4d159061c408fbd6a249e7" approved="yes">
-        <source>Order ID:</source>
-        <target state="final">порачка бр.:</target>
-        <note>Line: 23</note>
-      </trans-unit>
       <trans-unit id="1edbec13a38606f19c0bae544a7c6552" approved="yes">
         <source>Your message to {shop_name} Customer Service</source>
         <target state="final">вашата порака до {shop_name} грижа за корисници</target>
@@ -184,16 +189,6 @@
         <source>We will answer as soon as possible.</source>
         <target state="final">ќе ви одговориме во најкраток можен рок.</target>
         <note>Line: 41</note>
-      </trans-unit>
-      <trans-unit id="53659d236625358b98797389fd2504fa" approved="yes">
-        <source>Attached file:</source>
-        <target state="final">прикачување:</target>
-        <note>Line: 25</note>
-      </trans-unit>
-      <trans-unit id="465d60b936c982d7b57674f30ba022d0" approved="yes">
-        <source>Product:</source>
-        <target state="final">артикл:</target>
-        <note>Line: 24</note>
       </trans-unit>
     </body>
   </file>
@@ -322,12 +317,121 @@
       </trans-unit>
     </body>
   </file>
+  <file original="mails/themes/classic/core/order_conf.html.twig" source-language="en" target-language="mk" datatype="plaintext">
+    <body>
+      <trans-unit id="bb09440b8cab954c036c4a45558857a5" approved="yes">
+        <source>Total Tax paid</source>
+        <target state="final">вкупно данок платено</target>
+        <note>Line: 186</note>
+      </trans-unit>
+      <trans-unit id="b4556791acee238c77be9ed338a29e80" approved="yes">
+        <source>Thank you for shopping with {shop_name}!</source>
+        <target state="final">Ви благодариме што пазаревте во {shop_name}!</target>
+        <note>Line: 8</note>
+      </trans-unit>
+      <trans-unit id="f5d74ea75357b5e139854c14f8e24fe3" approved="yes">
+        <source>Order details</source>
+        <target state="final">детали за порачката</target>
+        <note>Line: 25</note>
+      </trans-unit>
+      <trans-unit id="2ca3deb5cd68fa9119b285804fab572f" approved="yes">
+        <source>Order:</source>
+        <target state="final">порачка:</target>
+        <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="101f2450ccefbd344b37971c5d27f96d" approved="yes">
+        <source>Placed on</source>
+        <target state="final">направена на:</target>
+        <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="a0e8e26f6f9354192425b9a23227a5ba" approved="yes">
+        <source>Payment:</source>
+        <target state="final">плаќање:</target>
+        <note>Line: 256</note>
+      </trans-unit>
+      <trans-unit id="63d5049791d9d79d86e9a108b0a999ca" approved="yes">
+        <source>Reference</source>
+        <target state="final">Референца</target>
+        <note>Line: 45</note>
+      </trans-unit>
+      <trans-unit id="deb10517653c255364175796ace3553f" approved="yes">
+        <source>Product</source>
+        <target state="final">наслов</target>
+        <note>Line: 46</note>
+      </trans-unit>
+      <trans-unit id="6c957f72dc8cdacc75762f2cbdcdfaf2" approved="yes">
+        <source>Unit price</source>
+        <target state="final">Единечна цена</target>
+        <note>Line: 47</note>
+      </trans-unit>
+      <trans-unit id="694e8d1f2ee056f98ee488bdc4982d73" approved="yes">
+        <source>Quantity</source>
+        <target state="final">Количина</target>
+        <note>Line: 48</note>
+      </trans-unit>
+      <trans-unit id="0eede552438475bdfe820c13f24c9399" approved="yes">
+        <source>Total price</source>
+        <target state="final">Вкупна цена</target>
+        <note>Line: 49</note>
+      </trans-unit>
+      <trans-unit id="068f80c7519d0528fb08e82137a72131" approved="yes">
+        <source>Products</source>
+        <target state="final">наслови</target>
+        <note>Line: 72</note>
+      </trans-unit>
+      <trans-unit id="9d5bf15117441a1b52eb1f0808e4aad3" approved="yes">
+        <source>Discounts</source>
+        <target state="final">Попусти</target>
+        <note>Line: 100</note>
+      </trans-unit>
+      <trans-unit id="41c1d61bfff3fc9b1fd8f195061b8caa" approved="yes">
+        <source>Gift-wrapping</source>
+        <target state="final">пакување</target>
+        <note>Line: 129</note>
+      </trans-unit>
+      <trans-unit id="ea9cf7e47ff33b2be14e6dd07cbcefc6" approved="yes">
+        <source>Shipping</source>
+        <target state="final">испорака</target>
+        <note>Line: 250</note>
+      </trans-unit>
+      <trans-unit id="ea067eb37801c5aab1a1c685eb97d601" approved="yes">
+        <source>Total paid</source>
+        <target state="final">Вкупно платено</target>
+        <note>Line: 214</note>
+      </trans-unit>
+      <trans-unit id="f8617a92ba0a0a4eabee724eab7c9f48" approved="yes">
+        <source>Carrier:</source>
+        <target state="final">Испорачател:</target>
+        <note>Line: 255</note>
+      </trans-unit>
+      <trans-unit id="af0f5bdc5be121b9307687aeeae38c17" approved="yes">
+        <source>Delivery address</source>
+        <target state="final">Адреса за испорака</target>
+        <note>Line: 287</note>
+      </trans-unit>
+      <trans-unit id="1fbc7e5f1b92c7ec072397b59a0bb5da" approved="yes">
+        <source>Billing address</source>
+        <target state="final">адреса за наплата</target>
+        <note>Line: 312</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="mails/themes/classic/core/order_customer_comment.html.twig" source-language="en" target-language="mk" datatype="plaintext">
     <body>
       <trans-unit id="381fc38b470ed543424afbd43f224453" approved="yes">
         <source>Message from a customer</source>
         <target state="final">порака од клиент</target>
         <note>Line: 24</note>
+      </trans-unit>
+      <trans-unit id="465d60b936c982d7b57674f30ba022d0" approved="yes">
+        <source>Product:</source>
+        <target state="final">артикл:</target>
+        <note>Line: 32</note>
+      </trans-unit>
+      <trans-unit id="5eea367ea73b909880393bd1ae79fc67" approved="yes">
+        <source>Customer:</source>
+        <target state="final">клиент:</target>
+        <note>Line: 30</note>
       </trans-unit>
     </body>
   </file>
@@ -366,10 +470,20 @@
         <target state="final">За жал во моментот една или повеќе ставки не се на залиха. Ова може да направи мало одлагање на испораката. Ве молиме примете го Нашето извинување и бидете сигурни дека работиме на случајот.</target>
         <note>Line: 30</note>
       </trans-unit>
+      <trans-unit id="008400d8db73946ba53b2d7f091eb845" approved="yes">
+        <source>Order {order_name}</source>
+        <target state="final">порачка {order_name}</target>
+        <note>Line: 25</note>
+      </trans-unit>
       <trans-unit id="be07158cdaa6c7244af799f3cdd6dad5" approved="yes">
         <source>Thanks for your order with the reference {order_name} from {shop_name}.</source>
         <target state="final">Ви благодариме за порачката со референца {order_name} од {shop_name}.</target>
         <note>Line: 8</note>
+      </trans-unit>
+      <trans-unit id="31ee1241ee08294dfc2ca85698fda2a1" approved="yes">
+        <source>Hi {firstname} {lastname},</source>
+        <target state="final">Здраво {firstname}{lastname},</target>
+        <note>Line: 7</note>
       </trans-unit>
     </body>
   </file>
@@ -448,6 +562,30 @@
       </trans-unit>
     </body>
   </file>
+  <file original="mails/themes/classic/core/productoutofstock.html.twig" source-language="en" target-language="mk" datatype="plaintext">
+    <body>
+      <trans-unit id="756a94b60256e8aacdf10706925eb01e" approved="yes">
+        <source>{product} is nearly out of stock.</source>
+        <target state="final">{product} е при крај.</target>
+        <note>Line: 24</note>
+      </trans-unit>
+      <trans-unit id="72943b79a01324b1875811ff792bdad0" approved="yes">
+        <source>The remaining stock is now less than the specified minimum of</source>
+        <target state="final">Преостанатата залиха е сега помала од зададениот минимум од</target>
+        <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="ab8f74636fc3f34b09b1300a2393a0b8" approved="yes">
+        <source>Remaining stock:</source>
+        <target state="final">преостаната стока:</target>
+        <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="bb372ddf88ad8fcc480f7a8599a92abc" approved="yes">
+        <source>Hi,</source>
+        <target state="final">Здраво,</target>
+        <note>Line: 7</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="mails/themes/classic/core/refund.html.twig" source-language="en" target-language="mk" datatype="plaintext">
     <body>
       <trans-unit id="b3e67c974cc0ca43712679a17bedf6db" approved="yes">
@@ -515,6 +653,16 @@
         <target state="final">Оваа порака е да ве информираме дека е креиран ваучер.</target>
         <note>Line: 24</note>
       </trans-unit>
+      <trans-unit id="abe1585bf97403d8a9a01a272183585a" approved="yes">
+        <source>Here is the code of your voucher:</source>
+        <target state="final">еве го кодот од Вашиот ваучер:</target>
+        <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="f4f614c22d9d2cbd0f9aa08cd59600d2" approved="yes">
+        <source>Simply copy/paste this code during the payment process for your next order.</source>
+        <target state="final">Едноставно копирај го идодади го во процесот за наплата за следната порачка.</target>
+        <note>Line: 30</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/classic/modules/ps_emailalerts/customer_qty.html.twig" source-language="en" target-language="mk" datatype="plaintext">
@@ -543,105 +691,10 @@
   </file>
   <file original="mails/themes/classic/modules/ps_emailalerts/new_order.html.twig" source-language="en" target-language="mk" datatype="plaintext">
     <body>
-      <trans-unit id="bb09440b8cab954c036c4a45558857a5" approved="yes">
-        <source>Total Tax paid</source>
-        <target state="final">вкупно данок платено</target>
-        <note>Line: 180</note>
-      </trans-unit>
       <trans-unit id="6881c1c321e65a31d35137f960022cf7" approved="yes">
         <source>A new order was placed on {shop_name} by the following customer: {firstname} {lastname} ({email})</source>
         <target state="final">Нова нарачка е поставена на {shop_name} од страна на следниов потрошувач: {firstname} {lastname} ({email})</target>
         <note>Line: 14</note>
-      </trans-unit>
-      <trans-unit id="f5d74ea75357b5e139854c14f8e24fe3" approved="yes">
-        <source>Order details</source>
-        <target state="final">детали за порачката</target>
-        <note>Line: 31</note>
-      </trans-unit>
-      <trans-unit id="2ca3deb5cd68fa9119b285804fab572f" approved="yes">
-        <source>Order:</source>
-        <target state="final">порачка:</target>
-        <note>Line: 36</note>
-      </trans-unit>
-      <trans-unit id="101f2450ccefbd344b37971c5d27f96d" approved="yes">
-        <source>Placed on</source>
-        <target state="final">направена на:</target>
-        <note>Line: 36</note>
-      </trans-unit>
-      <trans-unit id="a0e8e26f6f9354192425b9a23227a5ba" approved="yes">
-        <source>Payment:</source>
-        <target state="final">плаќање:</target>
-        <note>Line: 37</note>
-      </trans-unit>
-      <trans-unit id="63d5049791d9d79d86e9a108b0a999ca" approved="yes">
-        <source>Reference</source>
-        <target state="final">Референца</target>
-        <note>Line: 52</note>
-      </trans-unit>
-      <trans-unit id="deb10517653c255364175796ace3553f" approved="yes">
-        <source>Product</source>
-        <target state="final">наслов</target>
-        <note>Line: 53</note>
-      </trans-unit>
-      <trans-unit id="6c957f72dc8cdacc75762f2cbdcdfaf2" approved="yes">
-        <source>Unit price</source>
-        <target state="final">Единечна цена</target>
-        <note>Line: 54</note>
-      </trans-unit>
-      <trans-unit id="694e8d1f2ee056f98ee488bdc4982d73" approved="yes">
-        <source>Quantity</source>
-        <target state="final">Количина</target>
-        <note>Line: 55</note>
-      </trans-unit>
-      <trans-unit id="0eede552438475bdfe820c13f24c9399" approved="yes">
-        <source>Total price</source>
-        <target state="final">Вкупна цена</target>
-        <note>Line: 56</note>
-      </trans-unit>
-      <trans-unit id="068f80c7519d0528fb08e82137a72131" approved="yes">
-        <source>Products</source>
-        <target state="final">наслови</target>
-        <note>Line: 68</note>
-      </trans-unit>
-      <trans-unit id="9d5bf15117441a1b52eb1f0808e4aad3" approved="yes">
-        <source>Discounts</source>
-        <target state="final">Попусти</target>
-        <note>Line: 96</note>
-      </trans-unit>
-      <trans-unit id="41c1d61bfff3fc9b1fd8f195061b8caa" approved="yes">
-        <source>Gift-wrapping</source>
-        <target state="final">пакување</target>
-        <note>Line: 124</note>
-      </trans-unit>
-      <trans-unit id="ea9cf7e47ff33b2be14e6dd07cbcefc6" approved="yes">
-        <source>Shipping</source>
-        <target state="final">испорака</target>
-        <note>Line: 152</note>
-      </trans-unit>
-      <trans-unit id="ea067eb37801c5aab1a1c685eb97d601" approved="yes">
-        <source>Total paid</source>
-        <target state="final">Вкупно платено</target>
-        <note>Line: 208</note>
-      </trans-unit>
-      <trans-unit id="f8617a92ba0a0a4eabee724eab7c9f48" approved="yes">
-        <source>Carrier:</source>
-        <target state="final">Испорачател:</target>
-        <note>Line: 244</note>
-      </trans-unit>
-      <trans-unit id="af0f5bdc5be121b9307687aeeae38c17" approved="yes">
-        <source>Delivery address</source>
-        <target state="final">Адреса за испорака</target>
-        <note>Line: 274</note>
-      </trans-unit>
-      <trans-unit id="1fbc7e5f1b92c7ec072397b59a0bb5da" approved="yes">
-        <source>Billing address</source>
-        <target state="final">адреса за наплата</target>
-        <note>Line: 297</note>
-      </trans-unit>
-      <trans-unit id="5c1cc11c191c9a0f32d16439618ed3bb" approved="yes">
-        <source>Customer message:</source>
-        <target state="final">порака од клиентот:</target>
-        <note>Line: 327</note>
       </trans-unit>
       <trans-unit id="1a81759353d36dbd31059fc261af0aa2" approved="yes">
         <source>Congratulations!</source>
@@ -652,11 +705,6 @@
   </file>
   <file original="mails/themes/classic/modules/ps_emailalerts/order_changed.html.twig" source-language="en" target-language="mk" datatype="plaintext">
     <body>
-      <trans-unit id="008400d8db73946ba53b2d7f091eb845" approved="yes">
-        <source>Order {order_name}</source>
-        <target state="final">порачка {order_name}</target>
-        <note>Line: 24</note>
-      </trans-unit>
       <trans-unit id="6eaf1dae59f88437851d95f504f9cb3c" approved="yes">
         <source>Order edited</source>
         <target state="final">Нарачката е изменета</target>
@@ -683,30 +731,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="mails/themes/classic/modules/ps_emailalerts/productoutofstock.html.twig" source-language="en" target-language="mk" datatype="plaintext">
-    <body>
-      <trans-unit id="756a94b60256e8aacdf10706925eb01e" approved="yes">
-        <source>{product} is nearly out of stock.</source>
-        <target state="final">{product} е при крај.</target>
-        <note>Line: 24</note>
-      </trans-unit>
-      <trans-unit id="72943b79a01324b1875811ff792bdad0" approved="yes">
-        <source>The remaining stock is now less than the specified minimum of</source>
-        <target state="final">Преостанатата залиха е сега помала од зададениот минимум од</target>
-        <note>Line: 29</note>
-      </trans-unit>
-      <trans-unit id="ab8f74636fc3f34b09b1300a2393a0b8" approved="yes">
-        <source>Remaining stock:</source>
-        <target state="final">преостаната стока:</target>
-        <note>Line: 30</note>
-      </trans-unit>
-      <trans-unit id="bb372ddf88ad8fcc480f7a8599a92abc" approved="yes">
-        <source>Hi,</source>
-        <target state="final">Здраво,</target>
-        <note>Line: 7</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="mails/themes/classic/modules/ps_emailalerts/return_slip.html.twig" source-language="en" target-language="mk" datatype="plaintext">
     <body>
       <trans-unit id="cd8ee64ef80cd6bb4e320a7d0563b56f" approved="yes">
@@ -718,11 +742,6 @@
         <source>{order_name} Placed on {date}</source>
         <target state="final">{order_name} Поставено на {date}</target>
         <note>Line: 28</note>
-      </trans-unit>
-      <trans-unit id="5eea367ea73b909880393bd1ae79fc67" approved="yes">
-        <source>Customer:</source>
-        <target state="final">клиент:</target>
-        <note>Line: 29</note>
       </trans-unit>
       <trans-unit id="f285446f60a203b0f7c3ad0b14d13d29" approved="yes">
         <source>You have received a new return request for {shop_name}.</source>
@@ -775,11 +794,6 @@
         <target state="final">Вашите {shop_name} детали за најава</target>
         <note>Line: 53</note>
       </trans-unit>
-      <trans-unit id="784e102689c17fd18fe94135d4fa864d" approved="yes">
-        <source>Your cart at {shop_name}</source>
-        <target state="final">Вашата кошничка во {shop_name}</target>
-        <note>Line: 24</note>
-      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/classic/modules/ps_reminder/followup_2.html.twig" source-language="en" target-language="mk" datatype="plaintext">
@@ -788,6 +802,16 @@
         <source>Thank you for your order at {shop_name}.</source>
         <target state="final">Ви благодариме на поралката во {shop_name}.</target>
         <note>Line: 8</note>
+      </trans-unit>
+      <trans-unit id="42578524d7fb1953f903bcc5160495ea" approved="yes">
+        <source>Here is your coupon:</source>
+        <target state="final">Еве го Вашиот купон:</target>
+        <note>Line: 24</note>
+      </trans-unit>
+      <trans-unit id="24986b852e72fcfba407bd807f790abd" approved="yes">
+        <source>Enter this code in your shopping cart to get your discount.</source>
+        <target state="final">внеси го кодот во кошничката за да добиете попуст.</target>
+        <note>Line: 25</note>
       </trans-unit>
     </body>
   </file>
@@ -803,21 +827,6 @@
         <target state="final">Ви благодариме на довербата.</target>
         <note>Line: 8</note>
       </trans-unit>
-      <trans-unit id="42578524d7fb1953f903bcc5160495ea" approved="yes">
-        <source>Here is your coupon:</source>
-        <target state="final">Еве го Вашиот купон:</target>
-        <note>Line: 31</note>
-      </trans-unit>
-      <trans-unit id="24986b852e72fcfba407bd807f790abd" approved="yes">
-        <source>Enter this code in your shopping cart to get your discount.</source>
-        <target state="final">внеси го кодот во кошничката за да добиете попуст.</target>
-        <note>Line: 32</note>
-      </trans-unit>
-      <trans-unit id="31ee1241ee08294dfc2ca85698fda2a1" approved="yes">
-        <source>Hi {firstname} {lastname},</source>
-        <target state="final">Здраво {firstname}{lastname},</target>
-        <note>Line: 7</note>
-      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/classic/modules/ps_reminder/followup_4.html.twig" source-language="en" target-language="mk" datatype="plaintext">
@@ -827,15 +836,17 @@
         <target state="final">Вие сте еден од Нашите најверни клиети, но ве нема подолго време да направите порачка {days_threshold} веќе поминаа денови.</target>
         <note>Line: 29</note>
       </trans-unit>
+      <trans-unit id="784e102689c17fd18fe94135d4fa864d" approved="yes">
+        <source>Your cart at {shop_name}</source>
+        <target state="final">Вашата кошничка во {shop_name}</target>
+        <note>Line: 24</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/classic/modules/referralprogram/referralprogram-congratulations.html.twig" source-language="en" target-language="mk" datatype="plaintext">
     <body>
-      <trans-unit id="677182971924ee6799eb365f688c5572" approved="yes">
-        <source>Best regards,</source>
-        <target state="final">Поздрав,</target>
-        <note>Line: 38</note>
-      </trans-unit>
+      
+      
     </body>
   </file>
   <file original="mails/themes/classic/modules/referralprogram/referralprogram-invitation.html.twig" source-language="en" target-language="mk" datatype="plaintext">
@@ -845,6 +856,11 @@
         <target state="final">придружете Ни се!</target>
         <note>Line: 7</note>
       </trans-unit>
+      <trans-unit id="677182971924ee6799eb365f688c5572" approved="yes">
+        <source>Best regards,</source>
+        <target state="final">Поздрав,</target>
+        <note>Line: 41</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/classic/modules/referralprogram/referralprogram-voucher.html.twig" source-language="en" target-language="mk" datatype="plaintext">
@@ -853,16 +869,6 @@
         <source>Referral Program</source>
         <target state="final">Партнерска програма</target>
         <note>Line: 22</note>
-      </trans-unit>
-      <trans-unit id="abe1585bf97403d8a9a01a272183585a" approved="yes">
-        <source>Here is the code of your voucher:</source>
-        <target state="final">еве го кодот од Вашиот ваучер:</target>
-        <note>Line: 28</note>
-      </trans-unit>
-      <trans-unit id="f4f614c22d9d2cbd0f9aa08cd59600d2" approved="yes">
-        <source>Simply copy/paste this code during the payment process for your next order.</source>
-        <target state="final">Едноставно копирај го идодади го во процесот за наплата за следната порачка.</target>
-        <note>Line: 29</note>
       </trans-unit>
       <trans-unit id="dd863685846fc4eddcc9d6d09ddd5264" approved="yes">
         <source>We have created a voucher in your name for referring a friend.</source>
@@ -930,7 +936,6 @@
   </file>
   <file original="mails/themes/modern/core/contact_form.html.twig" source-language="en" target-language="mk" datatype="plaintext">
     <body>
-      
       
       
       
@@ -1020,6 +1025,11 @@
       
     </body>
   </file>
+  <file original="mails/themes/modern/core/order_changed.html.twig" source-language="en" target-language="mk" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
   <file original="mails/themes/modern/core/order_conf.html.twig" source-language="en" target-language="mk" datatype="plaintext">
     <body>
       <trans-unit id="fb077ecba55e5552916bde26d8b9e794" approved="yes">
@@ -1100,6 +1110,12 @@
       
     </body>
   </file>
+  <file original="mails/themes/modern/core/productoutofstock.html.twig" source-language="en" target-language="mk" datatype="plaintext">
+    <body>
+      
+      
+    </body>
+  </file>
   <file original="mails/themes/modern/core/refund.html.twig" source-language="en" target-language="mk" datatype="plaintext">
     <body>
       <trans-unit id="76f0ed934de85cc7131910b32ede7714" approved="yes">
@@ -1139,6 +1155,35 @@
       
     </body>
   </file>
+  <file original="mails/themes/modern/modules/followup/followup_1.html.twig" source-language="en" target-language="mk" datatype="plaintext">
+    <body>
+      
+      
+      
+      
+    </body>
+  </file>
+  <file original="mails/themes/modern/modules/followup/followup_2.html.twig" source-language="en" target-language="mk" datatype="plaintext">
+    <body>
+      
+      
+      
+      
+      
+    </body>
+  </file>
+  <file original="mails/themes/modern/modules/followup/followup_3.html.twig" source-language="en" target-language="mk" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
+  <file original="mails/themes/modern/modules/followup/followup_4.html.twig" source-language="en" target-language="mk" datatype="plaintext">
+    <body>
+      
+      
+      
+    </body>
+  </file>
   <file original="mails/themes/modern/modules/ps_emailalerts/customer_qty.html.twig" source-language="en" target-language="mk" datatype="plaintext">
     <body>
       
@@ -1155,19 +1200,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="mails/themes/modern/modules/ps_emailalerts/order_changed.html.twig" source-language="en" target-language="mk" datatype="plaintext">
-    <body>
-      
-      
-    </body>
-  </file>
   <file original="mails/themes/modern/modules/ps_emailalerts/productcoverage.html.twig" source-language="en" target-language="mk" datatype="plaintext">
-    <body>
-      
-      
-    </body>
-  </file>
-  <file original="mails/themes/modern/modules/ps_emailalerts/productoutofstock.html.twig" source-language="en" target-language="mk" datatype="plaintext">
     <body>
       
       
@@ -1192,28 +1225,6 @@
   </file>
   <file original="mails/themes/modern/modules/ps_emailsubscription/newsletter_voucher.html.twig" source-language="en" target-language="mk" datatype="plaintext">
     <body>
-      
-      
-      
-    </body>
-  </file>
-  <file original="mails/themes/modern/modules/ps_reminder/followup_1.html.twig" source-language="en" target-language="mk" datatype="plaintext">
-    <body>
-      
-      
-      
-      
-    </body>
-  </file>
-  <file original="mails/themes/modern/modules/ps_reminder/followup_2.html.twig" source-language="en" target-language="mk" datatype="plaintext">
-    <body>
-      
-      
-    </body>
-  </file>
-  <file original="mails/themes/modern/modules/ps_reminder/followup_3.html.twig" source-language="en" target-language="mk" datatype="plaintext">
-    <body>
-      
       
       
       

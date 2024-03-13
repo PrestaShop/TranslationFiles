@@ -109,27 +109,13 @@
     <body>
       <trans-unit id="6280ed214163d6e214763ff970910cdc">
         <source>Connected as [1]%firstname% %lastname%[/1].</source>
-        <target>crwdns5897506:0[1]crwdnd5897506:0%firstname%crwdnd5897506:0%lastname%crwdnd5897506:0[/1]crwdne5897506:0</target>
+        <target>crwdns5897506:0%firstname%crwdnd5897506:0%lastname%crwdne5897506:0</target>
         <note>Line: 13</note>
       </trans-unit>
       <trans-unit id="8e3ecabff428ab5465ab8feb928436e0">
         <source>Not you? [1]Log out[/1]</source>
-        <target>crwdns5897508:0[1]crwdnd5897508:0[/1]crwdne5897508:0</target>
+        <target>crwdns5897508:0crwdne5897508:0</target>
         <note>Line: 26</note>
-      </trans-unit>
-      <trans-unit id="2fdfd506efea08144c0794c32ca8250a">
-        <source>Create an account</source>
-        <target>crwdns5974399:0crwdne5974399:0</target>
-        <note>Line: 63</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="themes/classic/templates/checkout/order-confirmation.tpl" source-language="en" target-language="en-UD" datatype="plaintext">
-    <body>
-      <trans-unit id="755bb0834a77079fd1330b555b69e6bf">
-        <source>You have given permission to receive your order in recycled packaging.</source>
-        <target>crwdns5974401:0crwdne5974401:0</target>
-        <note>Line: 70</note>
       </trans-unit>
     </body>
   </file>
@@ -161,13 +147,17 @@
       </trans-unit>
     </body>
   </file>
-  <file original="themes/classic/templates/customer/_partials/order-detail-return.tpl" source-language="en" target-language="en-UD" datatype="plaintext">
+  <file original="themes/classic/templates/customer/_partials/order-detail-no-return.tpl" source-language="en" target-language="en-UD" datatype="plaintext">
     <body>
       <trans-unit id="10fe8cbbbb00225183547fea1d675020">
         <source>Virtual products can't be returned.</source>
-        <target>crwdns5974405:0crwdne5974405:0</target>
-        <note>Line: 55</note>
+        <target>crwdns5991900:0crwdne5991900:0</target>
+        <note>Line: 51</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="themes/classic/templates/customer/_partials/order-detail-return.tpl" source-language="en" target-language="en-UD" datatype="plaintext">
+    <body>
       <trans-unit id="fdfac28b5ad628f25649d9c2eb4fc62e">
         <source>Returned</source>
         <target>crwdns5897520:0crwdne5897520:0</target>
@@ -322,6 +312,11 @@
   </file>
   <file original="themes/classic/templates/customer/order-detail.tpl" source-language="en" target-language="en-UD" datatype="plaintext">
     <body>
+      <trans-unit id="755bb0834a77079fd1330b555b69e6bf">
+        <source>You have given permission to receive your order in recycled packaging.</source>
+        <target>crwdns5991902:0crwdne5991902:0</target>
+        <note>Line: 71</note>
+      </trans-unit>
       <trans-unit id="f5d74ea75357b5e139854c14f8e24fe3">
         <source>Order details</source>
         <target>crwdns5897566:0crwdne5897566:0</target>
@@ -407,7 +402,7 @@
       </trans-unit>
       <trans-unit id="77264630b0f035a114135e26f0e56a5c">
         <source>The current status of your merchandise return is: [1] %status% [/1]</source>
-        <target>crwdns5897600:0[1]crwdnd5897600:0%status%crwdnd5897600:0[/1]crwdne5897600:0</target>
+        <target>crwdns5897600:0%status%crwdne5897600:0</target>
         <note>Line: 25</note>
       </trans-unit>
       <trans-unit id="b24be74c768f02b296d4e8f41be486fb">
@@ -427,12 +422,12 @@
       </trans-unit>
       <trans-unit id="3407538083069a115822986f5b34b21f">
         <source>Please print out the [1]returns form[/1] and include it with your package.</source>
-        <target>crwdns5897608:0[1]crwdnd5897608:0[/1]crwdne5897608:0</target>
+        <target>crwdns5897608:0crwdne5897608:0</target>
         <note>Line: 113</note>
       </trans-unit>
       <trans-unit id="2e2d29136e330ac7ba96f9004901be3a">
         <source>Please check the [1]returns form[/1] for the correct address.</source>
-        <target>crwdns5897610:0[1]crwdnd5897610:0[/1]crwdne5897610:0</target>
+        <target>crwdns5897610:0crwdne5897610:0</target>
         <note>Line: 123</note>
       </trans-unit>
       <trans-unit id="16dafae9102750489087d1d087b72aba">
@@ -488,13 +483,9 @@
         <target>crwdns5897624:0crwdne5897624:0</target>
         <note>Line: 48</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="themes/classic/templates/customer/password-infos.tpl" source-language="en" target-language="en-UD" datatype="plaintext">
-    <body>
       <trans-unit id="01a569ddc6cf67ddec2a683f0a5f5956">
         <source>Forgot your password?</source>
-        <target>crwdns5991025:0crwdne5991025:0</target>
+        <target>crwdns5991904:0crwdne5991904:0</target>
         <note>Line: 28</note>
       </trans-unit>
     </body>
@@ -515,6 +506,11 @@
   </file>
   <file original="themes/classic/templates/customer/registration.tpl" source-language="en" target-language="en-UD" datatype="plaintext">
     <body>
+      <trans-unit id="2fdfd506efea08144c0794c32ca8250a">
+        <source>Create an account</source>
+        <target>crwdns5991906:0crwdne5991906:0</target>
+        <note>Line: 28</note>
+      </trans-unit>
       <trans-unit id="21bdc5689c12595ae14298354d5550d5">
         <source>Already have an account?</source>
         <target>crwdns5897634:0crwdne5897634:0</target>

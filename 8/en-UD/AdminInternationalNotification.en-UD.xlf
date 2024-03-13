@@ -194,11 +194,6 @@ Comment: @todo Throw exception</note>
         <target>crwdns5895200:0crwdne5895200:0</target>
         <note>Line: 583</note>
       </trans-unit>
-      <trans-unit id="962f6e835582ebb404a37893f46c60f3">
-        <source>An error has occurred, this module does not exist: %s</source>
-        <target>crwdns5973609:0%scrwdne5973609:0</target>
-        <note>Line: 513</note>
-      </trans-unit>
     </body>
   </file>
   <file original="classes/Translate.php" source-language="en" target-language="en-UD" datatype="plaintext">
@@ -222,21 +217,6 @@ Comment: @todo Throw exception</note>
         <target>crwdns5895206:0%1$scrwdnd5895206:0%2$scrwdne5895206:0</target>
         <note>Line: 1581</note>
       </trans-unit>
-      <trans-unit id="c9468b4bd45a165049277af6756db10e">
-        <source>Localization pack imported successfully.</source>
-        <target>crwdns5973611:0crwdne5973611:0</target>
-        <note>Line: 517</note>
-      </trans-unit>
-      <trans-unit id="6cfb80c26b415f8f6467cf07b0c700dd">
-        <source>The translation was successfully copied.</source>
-        <target>crwdns5973613:0crwdne5973613:0</target>
-        <note>Line: 507</note>
-      </trans-unit>
-      <trans-unit id="f22def68c5c456936078623b6dcd27ff">
-        <source>The translations have been successfully added.</source>
-        <target>crwdns5973615:0crwdne5973615:0</target>
-        <note>Line: 508</note>
-      </trans-unit>
     </body>
   </file>
   <file original="classes/tax/TaxManagerModule.php" source-language="en" target-language="en-UD" datatype="plaintext">
@@ -258,7 +238,7 @@ Comment: @todo Throw exception</note>
       <trans-unit id="6f3455d187a23443796efdcbe044096b">
         <source>No tax</source>
         <target>crwdns5895212:0crwdne5895212:0</target>
-        <note>Line: 167</note>
+        <note>Line: 163</note>
       </trans-unit>
     </body>
   </file>
@@ -540,7 +520,7 @@ Comment: @todo Throw exception</note>
       </trans-unit>
       <trans-unit id="32308f335c5aca97078cb283ce88f9d3">
         <source>Oops... it looks like this ISO code already exists. If you are: [1][2]trying to create an alternative currency, you must type a different ISO code[/2][2]trying to modify the currency with ISO code %isoCode%, make sure you did not check the creation box[/2][/1]</source>
-        <target>crwdns5895314:0[1]crwdnd5895314:0[2]crwdnd5895314:0[/2]crwdnd5895314:0[2]crwdnd5895314:0%isoCode%crwdnd5895314:0[/2]crwdnd5895314:0[/1]crwdne5895314:0</target>
+        <target>crwdns5895314:0%isoCode%crwdne5895314:0</target>
         <note>Line: 626</note>
       </trans-unit>
     </body>
@@ -586,6 +566,11 @@ Comment: @todo Throw exception</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/LocalizationController.php" source-language="en" target-language="en-UD" datatype="plaintext">
     <body>
+      <trans-unit id="c9468b4bd45a165049277af6756db10e">
+        <source>Localization pack imported successfully.</source>
+        <target>crwdns5993218:0crwdne5993218:0</target>
+        <note>Line: 212</note>
+      </trans-unit>
       <trans-unit id="53802fa30d7e83f77eccfa376c33e6fa">
         <source>Importing a new language may fail without the OpenSSL module. Please enable "openssl.so" on your server configuration.</source>
         <target>crwdns5895332:0crwdne5895332:0</target>
@@ -595,6 +580,21 @@ Comment: @todo Throw exception</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/TranslationsController.php" source-language="en" target-language="en-UD" datatype="plaintext">
     <body>
+      <trans-unit id="962f6e835582ebb404a37893f46c60f3">
+        <source>An error has occurred, this module does not exist: %s</source>
+        <target>crwdns5993220:0%scrwdne5993220:0</target>
+        <note>Line: 143</note>
+      </trans-unit>
+      <trans-unit id="6cfb80c26b415f8f6467cf07b0c700dd">
+        <source>The translation was successfully copied.</source>
+        <target>crwdns5993222:0crwdne5993222:0</target>
+        <note>Line: 318</note>
+      </trans-unit>
+      <trans-unit id="f22def68c5c456936078623b6dcd27ff">
+        <source>The translations have been successfully added.</source>
+        <target>crwdns5993224:0crwdne5993224:0</target>
+        <note>Line: 177</note>
+      </trans-unit>
       <trans-unit id="2c4113bd192a65a98ee212d9e946d152">
         <source>You must select at least one translation type to export translations.</source>
         <target>crwdns5895340:0crwdne5895340:0</target>
@@ -640,30 +640,26 @@ Comment: @todo Throw exception</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Geolocation/GeolocationByIpAddressFormDataProvider.php" source-language="en" target-language="en-UD" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Geolocation/GeolocationFormDataProvider.php" source-language="en" target-language="en-UD" datatype="plaintext">
     <body>
       <trans-unit id="7e093dcb7a9f75c8124b2adc265c5302">
         <source>The geolocation database is unavailable.</source>
-        <target>crwdns5973643:0crwdne5973643:0</target>
-        <note>Line: 77</note>
+        <target>crwdns5993226:0crwdne5993226:0</target>
+        <note>Line: 107</note>
+      </trans-unit>
+      <trans-unit id="0861a67f819158c5690a1844d95390b4">
+        <source>Invalid whitelist</source>
+        <target>crwdns5993228:0crwdne5993228:0</target>
+        <note>Line: 123</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Geolocation/GeolocationFormDataProvider.php" source-language="en" target-language="en-UD" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Geolocation/GeolocationOptionsFormDataProvider.php" source-language="en" target-language="en-UD" datatype="plaintext">
     <body>
       <trans-unit id="493ce56d58c4880dc32df56f12585a23">
         <source>Country selection is invalid.</source>
-        <target>crwdns5973645:0crwdne5973645:0</target>
-        <note>Line: 115</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Geolocation/GeolocationWhitelistFormDataProvider.php" source-language="en" target-language="en-UD" datatype="plaintext">
-    <body>
-      <trans-unit id="0861a67f819158c5690a1844d95390b4">
-        <source>Invalid whitelist</source>
-        <target>crwdns5895348:0crwdne5895348:0</target>
-        <note>Line: 76</note>
+        <target>crwdns5993230:0crwdne5993230:0</target>
+        <note>Line: 75</note>
       </trans-unit>
     </body>
   </file>
@@ -671,7 +667,7 @@ Comment: @todo Throw exception</note>
     <body>
       <trans-unit id="98c9ecc73936314c6b619fd01842688d">
         <source>Check the [a]developer documentation[/a] for setup instructions.</source>
-        <target>crwdns5895350:0[a]crwdnd5895350:0[/a]crwdne5895350:0</target>
+        <target>crwdns5895350:0crwdne5895350:0</target>
         <note>Line: 41</note>
       </trans-unit>
     </body>
