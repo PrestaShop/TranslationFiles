@@ -254,15 +254,15 @@
   </file>
   <file original="src/Core/Form/ChoiceProvider/TranslationTypeChoiceProvider.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      <trans-unit id="ce8ae9da5b7cd6c3df2929543a9af92d" approved="yes">
-        <source>Email</source>
-        <target state="final">メール</target>
-        <note>Line: 70</note>
-      </trans-unit>
       <trans-unit id="6311ae17c1ee52b36e68aaf4ad066387" approved="yes">
         <source>Other</source>
         <target state="final">その他</target>
         <note>Line: 71</note>
+      </trans-unit>
+      <trans-unit id="ce8ae9da5b7cd6c3df2929543a9af92d" approved="yes">
+        <source>Email</source>
+        <target state="final">メール</target>
+        <note>Line: 70</note>
       </trans-unit>
     </body>
   </file>
@@ -478,7 +478,7 @@
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Design/MailTheme/Blocks/generate_mails_form.html.twig" source-language="en" target-language="ja" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Design/MailTheme/Blocks/translate_mails_body_form.html.twig" source-language="en" target-language="ja" datatype="plaintext">
     <body>
       
     </body>
@@ -668,20 +668,21 @@ Comment: nb_translations can be 0 or 1</note>
         <target state="final">翻訳を検索</target>
         <note>Line: 58</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Twig/TranslationsExtension.php" source-language="en" target-language="ja" datatype="plaintext">
-    <body>
       <trans-unit id="c949bd6d096b356fc06f55ec5205e3b6" approved="yes">
         <source>%d missing</source>
         <target state="final">%d 不足</target>
-        <note>Line: 360</note>
+        <note><![CDATA[Line: 45
+Comment: Missing is plural, always > 1]]></note>
       </trans-unit>
       <trans-unit id="3a8b99657fcabfc65f45cd1be2b34de9" approved="yes">
         <source>%nb_translations% expressions</source>
         <target state="final">%nb_translations% の語句</target>
-        <note>Line: 429</note>
+        <note>Line: 47</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Twig/TranslationsExtension.php" source-language="en" target-language="ja" datatype="plaintext">
+    <body>
       <trans-unit id="740b879fdd48f184f798b8018134f630" approved="yes">
         <source>Show messages</source>
         <target state="final">メッセージを表示</target>

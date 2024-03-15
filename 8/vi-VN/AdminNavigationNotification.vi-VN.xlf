@@ -17,30 +17,35 @@
         <target state="final"><![CDATA[Khách ghé thăm và khách hàng của bạn không thể truy cập vào cửa hàng của bạn trong khi ở chế độ bảo trì.%s Để quản lý các thiết lập bảo trì, vào Tùy chọn> Bảo trì.]]></target>
         <note>Line: 245</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="admin-dev/themes/new-theme/template/components/layout/notifications_center.tpl" source-language="en" target-language="vi" datatype="plaintext">
-    <body>
       <trans-unit id="91a52a2a855d5abd5597a481c20f3972" approved="yes">
         <source>No new order for now :(</source>
         <target state="final">Không có đơn hàng mới vào lúc này :(</target>
-        <note>Line: 87</note>
+        <note>Line: 339</note>
       </trans-unit>
       <trans-unit id="235a11509f6bd6143ddf165affbf7dad" approved="yes">
         <source>No new customer for now :(</source>
         <target state="final">Không có khách hàng mới vào lúc này :(</target>
-        <note>Line: 97</note>
+        <note>Line: 349</note>
       </trans-unit>
       <trans-unit id="b7c3bb1b80422ee7587d604b1a97ce3c" approved="yes">
         <source>No new message for now.</source>
         <target state="final">Không có tin nhắn mới vào lúc này.</target>
-        <note>Line: 107</note>
+        <note>Line: 359</note>
       </trans-unit>
       <trans-unit id="a2b8ed9c305b8ea86116b603cca78a97" approved="yes">
         <source>registered</source>
         <target state="final">đã đăng ký</target>
-        <note>Line: 132</note>
+        <note>Line: 68</note>
       </trans-unit>
+      <trans-unit id="13886bc255a80b7c11e0585013feeb30" approved="yes">
+        <source>All the PHP errors and messages are displayed. When you no longer need it, [1]turn off[/1] this mode.</source>
+        <target state="final">Tất cả lỗi và tin nhắn PHP đều được hiển thị. Khi bạn không còn cần chúng nữa, [1]hãy tắt[/1] chế độ này.</target>
+        <note>Line: 231</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="admin-dev/themes/new-theme/template/components/layout/notifications_center.tpl" source-language="en" target-language="vi" datatype="plaintext">
+    <body>
       <trans-unit id="00843f41bd87586508e233b4b4947cf2" approved="yes">
         <source>Orders[1][/1]</source>
         <target state="final">Đơn hàng[1][/1]</target>
@@ -63,34 +68,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="admin-dev/themes/new-theme/template/layout.tpl" source-language="en" target-language="vi" datatype="plaintext">
-    <body>
-      <trans-unit id="13886bc255a80b7c11e0585013feeb30" approved="yes">
-        <source>All the PHP errors and messages are displayed. When you no longer need it, [1]turn off[/1] this mode.</source>
-        <target state="final">Tất cả lỗi và tin nhắn PHP đều được hiển thị. Khi bạn không còn cần chúng nữa, [1]hãy tắt[/1] chế độ này.</target>
-        <note>Line: 47</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="classes/controller/AdminController.php" source-language="en" target-language="vi" datatype="plaintext">
-    <body>
-      <trans-unit id="7c56f525288d680c6efa0c2d07d79d13" approved="yes">
-        <source>Have you checked your [1][2]abandoned carts[/2][/1]?[3]Your next order could be hiding there!</source>
-        <target state="final">Bạn đã kiểm tra [1][2]giỏ hàng chưa được thanh toán[/2][/1]?[3]Đơn hàng tiếp theo của bạn có thể ẩn ở đó!</target>
-        <note>Line: 2105</note>
-      </trans-unit>
-      <trans-unit id="70821661a53b31c40fdd6c9f3bbff741" approved="yes">
-        <source>Are you active on social media these days?</source>
-        <target state="final">Gần đây bạn có hoạt động trên mạng xã hội không?</target>
-        <note>Line: 2118</note>
-      </trans-unit>
-      <trans-unit id="b5ffb1ab1fe4ad00831c65b8dab60c0c" approved="yes">
-        <source>Seems like all your customers are happy :)</source>
-        <target state="final">Có vẻ như tất cả khách hàng của bạn đều hài lòng :)</target>
-        <note>Line: 2121</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="controllers/admin/AdminQuickAccessesController.php" source-language="en" target-language="vi" datatype="plaintext">
     <body>
       <trans-unit id="c059561b30601ffaf8759ae84f2b44b9" approved="yes">
@@ -102,6 +79,25 @@
         <source>An error occurred while updating the new window property for this object.</source>
         <target state="final">Đã xảy ra lỗi khi cập nhật các tính chất cửa sổ mới cho đối tượng này.</target>
         <note>Line: 234</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Bridge/Smarty/HeaderConfigurator.php" source-language="en" target-language="vi" datatype="plaintext">
+    <body>
+      <trans-unit id="7c56f525288d680c6efa0c2d07d79d13" approved="yes">
+        <source>Have you checked your [1][2]abandoned carts[/2][/1]?[3]Your next order could be hiding there!</source>
+        <target state="final">Bạn đã kiểm tra [1][2]giỏ hàng chưa được thanh toán[/2][/1]?[3]Đơn hàng tiếp theo của bạn có thể ẩn ở đó!</target>
+        <note>Line: 225</note>
+      </trans-unit>
+      <trans-unit id="70821661a53b31c40fdd6c9f3bbff741" approved="yes">
+        <source>Are you active on social media these days?</source>
+        <target state="final">Gần đây bạn có hoạt động trên mạng xã hội không?</target>
+        <note>Line: 237</note>
+      </trans-unit>
+      <trans-unit id="b5ffb1ab1fe4ad00831c65b8dab60c0c" approved="yes">
+        <source>Seems like all your customers are happy :)</source>
+        <target state="final">Có vẻ như tất cả khách hàng của bạn đều hài lòng :)</target>
+        <note>Line: 240</note>
       </trans-unit>
     </body>
   </file>

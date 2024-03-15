@@ -69,11 +69,6 @@
         <target state="final">Mistenkjer du at nokon nyttar seg av kontoen din utan løyve, må du varsla oss beinveges!</target>
         <note>Line: 55</note>
       </trans-unit>
-      <trans-unit id="2df994fe4798f819768c87824ec15ced" approved="yes">
-        <source>Email address:</source>
-        <target state="final">E-postadresse:</target>
-        <note>Line: 31</note>
-      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/classic/core/backoffice_order.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
@@ -127,25 +122,15 @@
         <target state="final">Vennligst angi din betalingsreferanse i bankoverføringens beskrivelse.</target>
         <note>Line: 58</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="mails/themes/classic/core/cheque.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
+    <body>
       <trans-unit id="ed750ed3b775eb7ed37644ceb05c713b" approved="yes">
         <source>Your order with the reference [1]{order_name}[/1] has been placed successfully and will be [1]shipped as soon as we receive your payment[/1].</source>
         <target state="final">Din ordre med referanse [1]{order_name}[/1] er mottatt hos oss. Vi vil [1]sende varene så snart vi har registrert betalingen[/1].</target>
         <note>Line: 30</note>
       </trans-unit>
-      <trans-unit id="b4556791acee238c77be9ed338a29e80" approved="yes">
-        <source>Thank you for shopping with {shop_name}!</source>
-        <target state="final">{shop_name} ynskjer å takka deg for handelen! Me vonar at du vert nøgd og at me høyrer frå deg ved eit seinare høve!</target>
-        <note>Line: 8</note>
-      </trans-unit>
-      <trans-unit id="6702a6e3bc2dce95c3e3b61fe578f29c" approved="yes">
-        <source>Amount:</source>
-        <target state="final">Sum:</target>
-        <note>Line: 54</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="mails/themes/classic/core/cheque.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
-    <body>
       <trans-unit id="d698e777b19f6f487ae0490950174fde" approved="yes">
         <source>Awaiting check payment</source>
         <target state="final">Ventar på betaling via sjekk</target>
@@ -161,6 +146,11 @@
         <target state="final">Her er bankdetaljane for sjekken:</target>
         <note>Line: 53</note>
       </trans-unit>
+      <trans-unit id="6702a6e3bc2dce95c3e3b61fe578f29c" approved="yes">
+        <source>Amount:</source>
+        <target state="final">Sum:</target>
+        <note>Line: 54</note>
+      </trans-unit>
       <trans-unit id="1c3bd8f6bd066270354607c08f930baf" approved="yes">
         <source>Payable to the order of:</source>
         <target state="final">Betaling til (firmanamn) for (ordrereferanse):</target>
@@ -175,20 +165,30 @@
   </file>
   <file original="mails/themes/classic/core/contact.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
     <body>
+      <trans-unit id="83fa39a28a4d159061c408fbd6a249e7" approved="yes">
+        <source>Order ID:</source>
+        <target state="final">Ordre-ID:</target>
+        <note>Line: 24</note>
+      </trans-unit>
       <trans-unit id="a1cee0a898793ad5101154ac97984d8a" approved="yes">
         <source>Message from a {shop_name} customer</source>
         <target state="final">Melding frå ein kunde hjå {shop_name}</target>
         <note>Line: 7</note>
       </trans-unit>
+      <trans-unit id="53659d236625358b98797389fd2504fa" approved="yes">
+        <source>Attached file:</source>
+        <target state="final">Vedlagt fil:</target>
+        <note>Line: 25</note>
+      </trans-unit>
+      <trans-unit id="5c1cc11c191c9a0f32d16439618ed3bb" approved="yes">
+        <source>Customer message:</source>
+        <target state="final">Kundemelding:</target>
+        <note>Line: 23</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/classic/core/contact_form.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
     <body>
-      <trans-unit id="83fa39a28a4d159061c408fbd6a249e7" approved="yes">
-        <source>Order ID:</source>
-        <target state="final">Ordre-ID:</target>
-        <note>Line: 23</note>
-      </trans-unit>
       <trans-unit id="1edbec13a38606f19c0bae544a7c6552" approved="yes">
         <source>Your message to {shop_name} Customer Service</source>
         <target state="final">Meldinga til kundeservice hjå {shop_name}</target>
@@ -203,16 +203,6 @@
         <source>We will answer as soon as possible.</source>
         <target state="final">Me vil svara deg så snart som mogleg.</target>
         <note>Line: 41</note>
-      </trans-unit>
-      <trans-unit id="53659d236625358b98797389fd2504fa" approved="yes">
-        <source>Attached file:</source>
-        <target state="final">Vedlagt fil:</target>
-        <note>Line: 25</note>
-      </trans-unit>
-      <trans-unit id="465d60b936c982d7b57674f30ba022d0" approved="yes">
-        <source>Product:</source>
-        <target state="final">Produkt:</target>
-        <note>Line: 24</note>
       </trans-unit>
     </body>
   </file>
@@ -396,12 +386,121 @@
       </trans-unit>
     </body>
   </file>
+  <file original="mails/themes/classic/core/order_conf.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
+    <body>
+      <trans-unit id="bb09440b8cab954c036c4a45558857a5" approved="yes">
+        <source>Total Tax paid</source>
+        <target state="final">Samla sum MVA</target>
+        <note>Line: 186</note>
+      </trans-unit>
+      <trans-unit id="b4556791acee238c77be9ed338a29e80" approved="yes">
+        <source>Thank you for shopping with {shop_name}!</source>
+        <target state="final">{shop_name} ynskjer å takka deg for handelen! Me vonar at du vert nøgd og at me høyrer frå deg ved eit seinare høve!</target>
+        <note>Line: 8</note>
+      </trans-unit>
+      <trans-unit id="f5d74ea75357b5e139854c14f8e24fe3" approved="yes">
+        <source>Order details</source>
+        <target state="final">Ordredetaljar</target>
+        <note>Line: 25</note>
+      </trans-unit>
+      <trans-unit id="2ca3deb5cd68fa9119b285804fab572f" approved="yes">
+        <source>Order:</source>
+        <target state="final">Ordre:</target>
+        <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="101f2450ccefbd344b37971c5d27f96d" approved="yes">
+        <source>Placed on</source>
+        <target state="final">Utført den</target>
+        <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="a0e8e26f6f9354192425b9a23227a5ba" approved="yes">
+        <source>Payment:</source>
+        <target state="final">Betaling:</target>
+        <note>Line: 256</note>
+      </trans-unit>
+      <trans-unit id="63d5049791d9d79d86e9a108b0a999ca" approved="yes">
+        <source>Reference</source>
+        <target state="final">Referanse</target>
+        <note>Line: 45</note>
+      </trans-unit>
+      <trans-unit id="deb10517653c255364175796ace3553f" approved="yes">
+        <source>Product</source>
+        <target state="final">Produkt</target>
+        <note>Line: 46</note>
+      </trans-unit>
+      <trans-unit id="6c957f72dc8cdacc75762f2cbdcdfaf2" approved="yes">
+        <source>Unit price</source>
+        <target state="final">Stykkpris</target>
+        <note>Line: 47</note>
+      </trans-unit>
+      <trans-unit id="694e8d1f2ee056f98ee488bdc4982d73" approved="yes">
+        <source>Quantity</source>
+        <target state="final">Antall</target>
+        <note>Line: 48</note>
+      </trans-unit>
+      <trans-unit id="0eede552438475bdfe820c13f24c9399" approved="yes">
+        <source>Total price</source>
+        <target state="final">Totalsum</target>
+        <note>Line: 49</note>
+      </trans-unit>
+      <trans-unit id="068f80c7519d0528fb08e82137a72131" approved="yes">
+        <source>Products</source>
+        <target state="final">Produkt</target>
+        <note>Line: 72</note>
+      </trans-unit>
+      <trans-unit id="9d5bf15117441a1b52eb1f0808e4aad3" approved="yes">
+        <source>Discounts</source>
+        <target state="final">Avslag</target>
+        <note>Line: 100</note>
+      </trans-unit>
+      <trans-unit id="41c1d61bfff3fc9b1fd8f195061b8caa" approved="yes">
+        <source>Gift-wrapping</source>
+        <target state="final">Gåveinnpakking</target>
+        <note>Line: 129</note>
+      </trans-unit>
+      <trans-unit id="ea9cf7e47ff33b2be14e6dd07cbcefc6" approved="yes">
+        <source>Shipping</source>
+        <target state="final">Frakt</target>
+        <note>Line: 250</note>
+      </trans-unit>
+      <trans-unit id="ea067eb37801c5aab1a1c685eb97d601" approved="yes">
+        <source>Total paid</source>
+        <target state="final">Samla sum</target>
+        <note>Line: 214</note>
+      </trans-unit>
+      <trans-unit id="f8617a92ba0a0a4eabee724eab7c9f48" approved="yes">
+        <source>Carrier:</source>
+        <target state="final">Transportør:</target>
+        <note>Line: 255</note>
+      </trans-unit>
+      <trans-unit id="af0f5bdc5be121b9307687aeeae38c17" approved="yes">
+        <source>Delivery address</source>
+        <target state="final">Leveringsadresse</target>
+        <note>Line: 287</note>
+      </trans-unit>
+      <trans-unit id="1fbc7e5f1b92c7ec072397b59a0bb5da" approved="yes">
+        <source>Billing address</source>
+        <target state="final">Fakturaadresse</target>
+        <note>Line: 312</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="mails/themes/classic/core/order_customer_comment.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
     <body>
       <trans-unit id="381fc38b470ed543424afbd43f224453" approved="yes">
         <source>Message from a customer</source>
         <target state="final">Melding frå ein kunde</target>
         <note>Line: 24</note>
+      </trans-unit>
+      <trans-unit id="465d60b936c982d7b57674f30ba022d0" approved="yes">
+        <source>Product:</source>
+        <target state="final">Produkt:</target>
+        <note>Line: 32</note>
+      </trans-unit>
+      <trans-unit id="5eea367ea73b909880393bd1ae79fc67" approved="yes">
+        <source>Customer:</source>
+        <target state="final">Kunde:</target>
+        <note>Line: 30</note>
       </trans-unit>
     </body>
   </file>
@@ -445,10 +544,20 @@
         <target state="final">Eit eller fleire produkt er ikkje lenger på lager. Dette vil nok mest sannsynleg diverre føra til ei forseinking av bestillinga. Me arbeidar fortast mogleg for å rette på dette, men me orsakar sjølvsagt hendinga på det sterkaste!</target>
         <note>Line: 30</note>
       </trans-unit>
+      <trans-unit id="008400d8db73946ba53b2d7f091eb845" approved="yes">
+        <source>Order {order_name}</source>
+        <target state="final">Ordre {order_name}</target>
+        <note>Line: 25</note>
+      </trans-unit>
       <trans-unit id="be07158cdaa6c7244af799f3cdd6dad5" approved="yes">
         <source>Thanks for your order with the reference {order_name} from {shop_name}.</source>
         <target state="final">Tusen takk for bestillinga hjå &lt;strong&gt;{shop_name}.&lt;/strong&gt; (Ordrereferanse: &lt;strong&gt;{order_name}.&lt;/strong&gt;)</target>
         <note>Line: 8</note>
+      </trans-unit>
+      <trans-unit id="31ee1241ee08294dfc2ca85698fda2a1" approved="yes">
+        <source>Hi {firstname} {lastname},</source>
+        <target state="final">Hei {firstname} {lastname},</target>
+        <note>Line: 7</note>
       </trans-unit>
     </body>
   </file>
@@ -458,6 +567,11 @@
         <source>Your new {shop_name} login details</source>
         <target state="final">Nye innloggingsdetaljar for {shop_name}</target>
         <note>Line: 24</note>
+      </trans-unit>
+      <trans-unit id="2df994fe4798f819768c87824ec15ced" approved="yes">
+        <source>Email address:</source>
+        <target state="final">E-postadresse:</target>
+        <note>Line: 29</note>
       </trans-unit>
     </body>
   </file>
@@ -529,6 +643,35 @@
         <source><![CDATA[We are currently processing your <strong><span>{shop_name}</span></strong> order with the reference <strong><span>{order_name}</span></strong>.]]></source>
         <target state="final"><![CDATA[For augneblinken vert ordren med referanse <strong><span>{order_name}</span></strong> behandla hjå <strong><span>{shop_name}</span></strong>.]]></target>
         <note>Line: 29</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="mails/themes/classic/core/productoutofstock.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
+    <body>
+      <trans-unit id="756a94b60256e8aacdf10706925eb01e" approved="yes">
+        <source>{product} is nearly out of stock.</source>
+        <target state="final">{product} er snart utseld.</target>
+        <note>Line: 24</note>
+      </trans-unit>
+      <trans-unit id="72943b79a01324b1875811ff792bdad0" approved="yes">
+        <source>The remaining stock is now less than the specified minimum of</source>
+        <target state="final">Lagerbehaldning er lågare enn det spesifiserte minimumsantallet på</target>
+        <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="ab8f74636fc3f34b09b1300a2393a0b8" approved="yes">
+        <source>Remaining stock:</source>
+        <target state="final">Attverande lagerbehaldning:</target>
+        <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="d3f03e2edd35c99abb3fd3d9bc51706e" approved="yes">
+        <source><![CDATA[Replenish your inventory, go to the [1]Catalog > Stocks[/1] section of your back office to manage your stock.]]></source>
+        <target state="final"><![CDATA[Oppdater ditt varelager, gå til [1]Katalog > Varelager[/1] i administrasjonsmodulen for å håndtere lageret ditt.]]></target>
+        <note>Line: 31</note>
+      </trans-unit>
+      <trans-unit id="bb372ddf88ad8fcc480f7a8599a92abc" approved="yes">
+        <source>Hi,</source>
+        <target state="final">Hei,</target>
+        <note>Line: 7</note>
       </trans-unit>
     </body>
   </file>
@@ -624,6 +767,16 @@
         <target state="final">Dette er for å informera deg angåande ei oppretting av ein verdikupong.</target>
         <note>Line: 24</note>
       </trans-unit>
+      <trans-unit id="abe1585bf97403d8a9a01a272183585a" approved="yes">
+        <source>Here is the code of your voucher:</source>
+        <target state="final">Her er koden for verdikupongen:</target>
+        <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="f4f614c22d9d2cbd0f9aa08cd59600d2" approved="yes">
+        <source>Simply copy/paste this code during the payment process for your next order.</source>
+        <target state="final">Legg til denne koden under betalingsprosessen neste gong du legg inn ei ordre.</target>
+        <note>Line: 30</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/classic/modules/ps_emailalerts/customer_qty.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
@@ -652,105 +805,10 @@
   </file>
   <file original="mails/themes/classic/modules/ps_emailalerts/new_order.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
     <body>
-      <trans-unit id="bb09440b8cab954c036c4a45558857a5" approved="yes">
-        <source>Total Tax paid</source>
-        <target state="final">Samla sum MVA</target>
-        <note>Line: 180</note>
-      </trans-unit>
       <trans-unit id="6881c1c321e65a31d35137f960022cf7" approved="yes">
         <source>A new order was placed on {shop_name} by the following customer: {firstname} {lastname} ({email})</source>
         <target state="final">{shop_name} har fått ei ny ordre frå: {firstname} {lastname} ({email})</target>
         <note>Line: 14</note>
-      </trans-unit>
-      <trans-unit id="f5d74ea75357b5e139854c14f8e24fe3" approved="yes">
-        <source>Order details</source>
-        <target state="final">Ordredetaljar</target>
-        <note>Line: 31</note>
-      </trans-unit>
-      <trans-unit id="2ca3deb5cd68fa9119b285804fab572f" approved="yes">
-        <source>Order:</source>
-        <target state="final">Ordre:</target>
-        <note>Line: 36</note>
-      </trans-unit>
-      <trans-unit id="101f2450ccefbd344b37971c5d27f96d" approved="yes">
-        <source>Placed on</source>
-        <target state="final">Utført den</target>
-        <note>Line: 36</note>
-      </trans-unit>
-      <trans-unit id="a0e8e26f6f9354192425b9a23227a5ba" approved="yes">
-        <source>Payment:</source>
-        <target state="final">Betaling:</target>
-        <note>Line: 37</note>
-      </trans-unit>
-      <trans-unit id="63d5049791d9d79d86e9a108b0a999ca" approved="yes">
-        <source>Reference</source>
-        <target state="final">Referanse</target>
-        <note>Line: 52</note>
-      </trans-unit>
-      <trans-unit id="deb10517653c255364175796ace3553f" approved="yes">
-        <source>Product</source>
-        <target state="final">Produkt</target>
-        <note>Line: 53</note>
-      </trans-unit>
-      <trans-unit id="6c957f72dc8cdacc75762f2cbdcdfaf2" approved="yes">
-        <source>Unit price</source>
-        <target state="final">Stykkpris</target>
-        <note>Line: 54</note>
-      </trans-unit>
-      <trans-unit id="694e8d1f2ee056f98ee488bdc4982d73" approved="yes">
-        <source>Quantity</source>
-        <target state="final">Antall</target>
-        <note>Line: 55</note>
-      </trans-unit>
-      <trans-unit id="0eede552438475bdfe820c13f24c9399" approved="yes">
-        <source>Total price</source>
-        <target state="final">Totalsum</target>
-        <note>Line: 56</note>
-      </trans-unit>
-      <trans-unit id="068f80c7519d0528fb08e82137a72131" approved="yes">
-        <source>Products</source>
-        <target state="final">Produkt</target>
-        <note>Line: 68</note>
-      </trans-unit>
-      <trans-unit id="9d5bf15117441a1b52eb1f0808e4aad3" approved="yes">
-        <source>Discounts</source>
-        <target state="final">Avslag</target>
-        <note>Line: 96</note>
-      </trans-unit>
-      <trans-unit id="41c1d61bfff3fc9b1fd8f195061b8caa" approved="yes">
-        <source>Gift-wrapping</source>
-        <target state="final">Gåveinnpakking</target>
-        <note>Line: 124</note>
-      </trans-unit>
-      <trans-unit id="ea9cf7e47ff33b2be14e6dd07cbcefc6" approved="yes">
-        <source>Shipping</source>
-        <target state="final">Frakt</target>
-        <note>Line: 152</note>
-      </trans-unit>
-      <trans-unit id="ea067eb37801c5aab1a1c685eb97d601" approved="yes">
-        <source>Total paid</source>
-        <target state="final">Samla sum</target>
-        <note>Line: 208</note>
-      </trans-unit>
-      <trans-unit id="f8617a92ba0a0a4eabee724eab7c9f48" approved="yes">
-        <source>Carrier:</source>
-        <target state="final">Transportør:</target>
-        <note>Line: 244</note>
-      </trans-unit>
-      <trans-unit id="af0f5bdc5be121b9307687aeeae38c17" approved="yes">
-        <source>Delivery address</source>
-        <target state="final">Leveringsadresse</target>
-        <note>Line: 274</note>
-      </trans-unit>
-      <trans-unit id="1fbc7e5f1b92c7ec072397b59a0bb5da" approved="yes">
-        <source>Billing address</source>
-        <target state="final">Fakturaadresse</target>
-        <note>Line: 297</note>
-      </trans-unit>
-      <trans-unit id="5c1cc11c191c9a0f32d16439618ed3bb" approved="yes">
-        <source>Customer message:</source>
-        <target state="final">Kundemelding:</target>
-        <note>Line: 327</note>
       </trans-unit>
       <trans-unit id="1a81759353d36dbd31059fc261af0aa2" approved="yes">
         <source>Congratulations!</source>
@@ -761,11 +819,6 @@
   </file>
   <file original="mails/themes/classic/modules/ps_emailalerts/order_changed.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
     <body>
-      <trans-unit id="008400d8db73946ba53b2d7f091eb845" approved="yes">
-        <source>Order {order_name}</source>
-        <target state="final">Ordre {order_name}</target>
-        <note>Line: 24</note>
-      </trans-unit>
       <trans-unit id="6eaf1dae59f88437851d95f504f9cb3c" approved="yes">
         <source>Order edited</source>
         <target state="final">Ordren er endret</target>
@@ -797,35 +850,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="mails/themes/classic/modules/ps_emailalerts/productoutofstock.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
-    <body>
-      <trans-unit id="756a94b60256e8aacdf10706925eb01e" approved="yes">
-        <source>{product} is nearly out of stock.</source>
-        <target state="final">{product} er snart utseld.</target>
-        <note>Line: 24</note>
-      </trans-unit>
-      <trans-unit id="72943b79a01324b1875811ff792bdad0" approved="yes">
-        <source>The remaining stock is now less than the specified minimum of</source>
-        <target state="final">Lagerbehaldning er lågare enn det spesifiserte minimumsantallet på</target>
-        <note>Line: 29</note>
-      </trans-unit>
-      <trans-unit id="ab8f74636fc3f34b09b1300a2393a0b8" approved="yes">
-        <source>Remaining stock:</source>
-        <target state="final">Attverande lagerbehaldning:</target>
-        <note>Line: 30</note>
-      </trans-unit>
-      <trans-unit id="d3f03e2edd35c99abb3fd3d9bc51706e" approved="yes">
-        <source><![CDATA[Replenish your inventory, go to the [1]Catalog > Stocks[/1] section of your back office to manage your stock.]]></source>
-        <target state="final"><![CDATA[Oppdater ditt varelager, gå til [1]Katalog > Varelager[/1] i administrasjonsmodulen for å håndtere lageret ditt.]]></target>
-        <note>Line: 31</note>
-      </trans-unit>
-      <trans-unit id="bb372ddf88ad8fcc480f7a8599a92abc" approved="yes">
-        <source>Hi,</source>
-        <target state="final">Hei,</target>
-        <note>Line: 7</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="mails/themes/classic/modules/ps_emailalerts/return_slip.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
     <body>
       <trans-unit id="cd8ee64ef80cd6bb4e320a7d0563b56f" approved="yes">
@@ -837,11 +861,6 @@
         <source>{order_name} Placed on {date}</source>
         <target state="final">{order_name} utført {date}</target>
         <note>Line: 28</note>
-      </trans-unit>
-      <trans-unit id="5eea367ea73b909880393bd1ae79fc67" approved="yes">
-        <source>Customer:</source>
-        <target state="final">Kunde:</target>
-        <note>Line: 29</note>
       </trans-unit>
       <trans-unit id="f285446f60a203b0f7c3ad0b14d13d29" approved="yes">
         <source>You have received a new return request for {shop_name}.</source>
@@ -899,11 +918,6 @@
         <target state="final">Her er innloggingsdetaljane dine hjå {shop_name}</target>
         <note>Line: 53</note>
       </trans-unit>
-      <trans-unit id="784e102689c17fd18fe94135d4fa864d" approved="yes">
-        <source>Your cart at {shop_name}</source>
-        <target state="final">Korga di hos {shop_name}</target>
-        <note>Line: 24</note>
-      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/classic/modules/ps_reminder/followup_2.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
@@ -917,6 +931,16 @@
         <source>As our way of saying thanks, we want to give you a discount of [1]{amount}%[/1] off your next order! This offer is valid for [1]{days}[/1] days, so do not waste a moment!</source>
         <target state="final">Vi ønsker å takke for tilliten du har vist oss, og ønsker derfor å gi deg en rabatt pålydende [1]{amount}%[/1] på din neste ordre! Dette tilbudet er gyldig i [1]{days}[/1] dager, så ikke vent for lenge!</target>
         <note>Line: 23</note>
+      </trans-unit>
+      <trans-unit id="42578524d7fb1953f903bcc5160495ea" approved="yes">
+        <source>Here is your coupon:</source>
+        <target state="final">Her er kupongen:</target>
+        <note>Line: 24</note>
+      </trans-unit>
+      <trans-unit id="24986b852e72fcfba407bd807f790abd" approved="yes">
+        <source>Enter this code in your shopping cart to get your discount.</source>
+        <target state="final">Skriv inn denne kupongkoden i samandraget av korga for å nytta deg av rabatten.</target>
+        <note>Line: 25</note>
       </trans-unit>
     </body>
   </file>
@@ -937,21 +961,6 @@
         <target state="final">Takk for tiltrua.</target>
         <note>Line: 8</note>
       </trans-unit>
-      <trans-unit id="42578524d7fb1953f903bcc5160495ea" approved="yes">
-        <source>Here is your coupon:</source>
-        <target state="final">Her er kupongen:</target>
-        <note>Line: 31</note>
-      </trans-unit>
-      <trans-unit id="24986b852e72fcfba407bd807f790abd" approved="yes">
-        <source>Enter this code in your shopping cart to get your discount.</source>
-        <target state="final">Skriv inn denne kupongkoden i samandraget av korga for å nytta deg av rabatten.</target>
-        <note>Line: 32</note>
-      </trans-unit>
-      <trans-unit id="31ee1241ee08294dfc2ca85698fda2a1" approved="yes">
-        <source>Hi {firstname} {lastname},</source>
-        <target state="final">Hei {firstname} {lastname},</target>
-        <note>Line: 7</note>
-      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/classic/modules/ps_reminder/followup_4.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
@@ -966,6 +975,11 @@
         <target state="final">Vi ønsker å takke for tilliten du har vist oss, og ønsker derfor å gi deg en rabatt på [1]{amount}%[/1] for din neste ordre! Dette tilbudet er gyldig i [1]{days}[/1] dager, så ikke kast bort tiden!</target>
         <note>Line: 31</note>
       </trans-unit>
+      <trans-unit id="784e102689c17fd18fe94135d4fa864d" approved="yes">
+        <source>Your cart at {shop_name}</source>
+        <target state="final">Korga di hos {shop_name}</target>
+        <note>Line: 24</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/classic/modules/referralprogram/referralprogram-congratulations.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
@@ -979,11 +993,6 @@
         <source>We are pleased to offer you a voucher worth [1]{discount_display} (voucher # {discount_name})[/1] that you can use on your next order.</source>
         <target state="final">Vi har gleden av å tilby deg en rabattkupong verdt [1]{discount_display} (rabattkupong-kode {discount_name})[/1] som du kan benytte på din neste ordre.</target>
         <note>Line: 23</note>
-      </trans-unit>
-      <trans-unit id="677182971924ee6799eb365f688c5572" approved="yes">
-        <source>Best regards,</source>
-        <target state="final">Venleg helsing,</target>
-        <note>Line: 38</note>
       </trans-unit>
     </body>
   </file>
@@ -1014,6 +1023,11 @@
         <target state="final">Når du registrerer deg, ikke glem å legge inn e-postadressen til vennen som vervet deg:</target>
         <note>Line: 40</note>
       </trans-unit>
+      <trans-unit id="677182971924ee6799eb365f688c5572" approved="yes">
+        <source>Best regards,</source>
+        <target state="final">Venleg helsing,</target>
+        <note>Line: 41</note>
+      </trans-unit>
       <trans-unit id="4a898b178164591fca68f786e164927d" approved="yes">
         <source>We are pleased to offer you a voucher worth [1]{discount}[/1] that you can use on your next order.</source>
         <target state="final">Vi har gleden av å tilby deg en rabattkupong verdt [1]{discount}[/1] som du kan benytte ved din neste ordre.</target>
@@ -1027,16 +1041,6 @@
         <source>Referral Program</source>
         <target state="final">Verveprogram</target>
         <note>Line: 22</note>
-      </trans-unit>
-      <trans-unit id="abe1585bf97403d8a9a01a272183585a" approved="yes">
-        <source>Here is the code of your voucher:</source>
-        <target state="final">Her er koden for verdikupongen:</target>
-        <note>Line: 28</note>
-      </trans-unit>
-      <trans-unit id="f4f614c22d9d2cbd0f9aa08cd59600d2" approved="yes">
-        <source>Simply copy/paste this code during the payment process for your next order.</source>
-        <target state="final">Legg til denne koden under betalingsprosessen neste gong du legg inn ei ordre.</target>
-        <note>Line: 29</note>
       </trans-unit>
       <trans-unit id="dd863685846fc4eddcc9d6d09ddd5264" approved="yes">
         <source>We have created a voucher in your name for referring a friend.</source>
@@ -1115,15 +1119,15 @@
         <target state="final">Her er informasjonen du trenger for å overføre betalingen:</target>
         <note>Line: 201</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="mails/themes/modern/core/cheque.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
+    <body>
       <trans-unit id="97b07b4e5caa086464d9f38956718d2b" approved="yes">
         <source>Your order with the reference [1]{order_name}[/1] has been placed successfully. You can expect [1]delivery as soon as your payment is received[/1].</source>
         <target state="final">Din ordre med referanse [1]{order_name}[/1] er registrert. Vi vil [1]sende varene så snart vi har registrert betalingen[/1].</target>
         <note>Line: 130</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="mails/themes/modern/core/cheque.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
-    <body>
       <trans-unit id="060bf2d587991d8f090a1309b285291c" approved="yes">
         <source>Check</source>
         <target state="final">Sjekk</target>
@@ -1163,15 +1167,15 @@
         <target state="final">Kundens e-postadresse:</target>
         <note>Line: 88</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="mails/themes/modern/core/contact_form.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
-    <body>
       <trans-unit id="c1ebb17bfd89ea960194a6162b299cda" approved="yes">
         <source>Order ID #:</source>
         <target state="final">Ordrenummer:</target>
         <note>Line: 93</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="mails/themes/modern/core/contact_form.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
+    <body>
       <trans-unit id="3f65d6e17a11466983fd177702cf6a71" approved="yes">
         <source>Contact Form</source>
         <target state="final">Kontaktskjema</target>
@@ -1354,6 +1358,15 @@
       </trans-unit>
     </body>
   </file>
+  <file original="mails/themes/modern/core/order_changed.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
+    <body>
+      <trans-unit id="c03924df23d22785084b06a548ca9976" approved="yes">
+        <source>Go to your customer account to learn more about it.</source>
+        <target state="final">Åpne din kundekonto for å få vite mere.</target>
+        <note>Line: 127</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="mails/themes/modern/core/order_conf.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
     <body>
       <trans-unit id="fb077ecba55e5552916bde26d8b9e794" approved="yes">
@@ -1365,6 +1378,11 @@
         <source>Thank you for shopping on [1]{shop_name}[/1]!</source>
         <target state="final">Takk for at du handler på [1]{shop_name}[/1]!</target>
         <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="5c9412907a7aabeea3491fafec5c082e" approved="yes">
+        <source>Including total tax</source>
+        <target state="final">Inkludert mva</target>
+        <note>Line: 225</note>
       </trans-unit>
     </body>
   </file>
@@ -1426,6 +1444,11 @@
         <source>Unfortunately, one or more items are currently out of stock and this may cause a slight delay for delivery. Please accept our apologies for this inconvenience and be sure we are doing our best to correct the situation.</source>
         <target state="final">Dessverre er en eller flere av varene ikke på lager akkurat nå. Dette kan medføre noe forsinkelse i forhold til levering. Vi beklager det inntrufne og arbeider hardt for å løse dette.</target>
         <note>Line: 130</note>
+      </trans-unit>
+      <trans-unit id="af6c5b694abbb964eec098febaa5d31d" approved="yes">
+        <source>Order ID {order_name}</source>
+        <target state="final">Ordrenummer: {order_name}</target>
+        <note>Line: 95</note>
       </trans-unit>
     </body>
   </file>
@@ -1524,6 +1547,20 @@
       </trans-unit>
     </body>
   </file>
+  <file original="mails/themes/modern/core/productoutofstock.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
+    <body>
+      <trans-unit id="644f9c907ef5a8315916bd1e2f61f783" approved="yes">
+        <source>Product out of stock</source>
+        <target state="final">Produktet er dessverre ikke på lager</target>
+        <note>Line: 3</note>
+      </trans-unit>
+      <trans-unit id="9300ac228fc7c8ec8d970d862d68432c" approved="yes">
+        <source>There are now less than [1]{last_qty}[/1] items in stock.</source>
+        <target state="final">Det er nå færre enn [1]{last_qty}[/1] på lager.</target>
+        <note>Line: 121</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="mails/themes/modern/core/refund.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
     <body>
       <trans-unit id="76f0ed934de85cc7131910b32ede7714" approved="yes">
@@ -1619,6 +1656,87 @@
       </trans-unit>
     </body>
   </file>
+  <file original="mails/themes/modern/modules/followup/followup_1.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
+    <body>
+      <trans-unit id="804e4e067b0e61e122e1a35771fcf144" approved="yes">
+        <source>Follow up 1</source>
+        <target state="final">Følg opp 1</target>
+        <note>Line: 3</note>
+      </trans-unit>
+      <trans-unit id="b9018fa1aff4ac6de7e50d6a8f1c9e4a" approved="yes">
+        <source>Thanks for your visit. However, it looks like you did not complete your purchase.</source>
+        <target state="final">Takk for besøket. Det se ikke ut til at du fikk lagt inn din bestilling.</target>
+        <note>Line: 123</note>
+      </trans-unit>
+      <trans-unit id="14c90ec7c3372b9f39c9cf24323bd959" approved="yes">
+        <source>Your cart has been saved, you can go back to your order on our shop:</source>
+        <target state="final">Din handlevogn er lagret, du kan fortsette bestillingen ved å besøke vår butikk:</target>
+        <note>Line: 128</note>
+      </trans-unit>
+      <trans-unit id="938ad8b6f0f1e5c4663bc171ad56822e" approved="yes">
+        <source>Your voucher code on {shop_name}</source>
+        <target state="final">Din rabattkupong på {shop_name}</target>
+        <note>Line: 168</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="mails/themes/modern/modules/followup/followup_2.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
+    <body>
+      <trans-unit id="7ff89d85f528f79efd0a85c01a43cb62" approved="yes">
+        <source>Follow up 2</source>
+        <target state="final">Følg opp 2</target>
+        <note>Line: 3</note>
+      </trans-unit>
+      <trans-unit id="605fc3ecd313608fe8c6cbbed5a25261" approved="yes">
+        <source>Thanks for your order.</source>
+        <target state="final">Takk for at du handlet hos oss.</target>
+        <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="18df3f8153de940176206b06a3610f80" approved="yes">
+        <source>We are pleased to offer you a discount of [1]{amount}%[/1] off your next order. And this offer is valid for [1]{days}[/1] days, so do not wait any longer!</source>
+        <target state="final">Som en liten gave kan vi gi deg en rabatt på [1]{amount}%[/1] på din neste ordre! Dette tilbudet er gyldig i [1]{days}[/1] dager, så ikke vent for lenge!</target>
+        <note>Line: 95</note>
+      </trans-unit>
+      <trans-unit id="5416511766be8537f357142a81ccd7a7" approved="yes">
+        <source>Here is your VOUCHER CODE:</source>
+        <target state="final">Her er din RABATTKUPONG-KODE:</target>
+        <note>Line: 100</note>
+      </trans-unit>
+      <trans-unit id="ececa54d96395d3afa79cdce8e7e0bd6" approved="yes">
+        <source>Enter this code in your shopping cart to get the discount.</source>
+        <target state="final">Skriv inn denne koden i handlekurven for å motta din rabatt.</target>
+        <note>Line: 105</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="mails/themes/modern/modules/followup/followup_3.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
+    <body>
+      <trans-unit id="383126b6a239da6f7d483220c63a46e2" approved="yes">
+        <source>Follow up 3</source>
+        <target state="final">Følg opp 3</target>
+        <note>Line: 3</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="mails/themes/modern/modules/followup/followup_4.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
+    <body>
+      <trans-unit id="a5672f20db3e09abb35f909cf56f3b23" approved="yes">
+        <source>Follow up 4</source>
+        <target state="final">Følg opp 4</target>
+        <note>Line: 3</note>
+      </trans-unit>
+      <trans-unit id="1e6f48752a20a5c6dc2f387c18777136" approved="yes">
+        <source>Your cart on {shop_name}</source>
+        <target state="final">Din handlekurv på {shop_name}</target>
+        <note>Line: 88</note>
+      </trans-unit>
+      <trans-unit id="8dfa91d2853e941e80553ab1336b6459" approved="yes">
+        <source>Congratulations, you are one of our best customers! However, it looks like you have not placed an order since {days_threshold} days.</source>
+        <target state="final">Du er en av våre beste kunder, men du har ikke lagt inn noen ordre på {days_threshold} dager.</target>
+        <note>Line: 123</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="mails/themes/modern/modules/ps_emailalerts/customer_qty.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
     <body>
       <trans-unit id="583b02c0b2f05171037b58c186a5461d" approved="yes">
@@ -1640,11 +1758,6 @@
   </file>
   <file original="mails/themes/modern/modules/ps_emailalerts/new_order.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
     <body>
-      <trans-unit id="5c9412907a7aabeea3491fafec5c082e" approved="yes">
-        <source>Including total tax</source>
-        <target state="final">Inkludert mva</target>
-        <note>Line: 208</note>
-      </trans-unit>
       <trans-unit id="6810a1cc40329a394b9d73b5f8dac744" approved="yes">
         <source>New Order</source>
         <target state="final">Ny ordre</target>
@@ -1662,20 +1775,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="mails/themes/modern/modules/ps_emailalerts/order_changed.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
-    <body>
-      <trans-unit id="af6c5b694abbb964eec098febaa5d31d" approved="yes">
-        <source>Order ID {order_name}</source>
-        <target state="final">Ordrenummer: {order_name}</target>
-        <note>Line: 88</note>
-      </trans-unit>
-      <trans-unit id="c03924df23d22785084b06a548ca9976" approved="yes">
-        <source>Go to your customer account to learn more about it.</source>
-        <target state="final">Åpne din kundekonto for å få vite mere.</target>
-        <note>Line: 128</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="mails/themes/modern/modules/ps_emailalerts/productcoverage.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
     <body>
       <trans-unit id="fdf4e97dcf4ad98512050ab60cf91bc3" approved="yes">
@@ -1687,20 +1786,6 @@
         <source>Your stock cover is now less than the specified minimum of:</source>
         <target state="final">Antall på lager er nå lavere enn det oppgitte minimum:</target>
         <note>Line: 88</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="mails/themes/modern/modules/ps_emailalerts/productoutofstock.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
-    <body>
-      <trans-unit id="644f9c907ef5a8315916bd1e2f61f783" approved="yes">
-        <source>Product out of stock</source>
-        <target state="final">Produktet er dessverre ikke på lager</target>
-        <note>Line: 3</note>
-      </trans-unit>
-      <trans-unit id="9300ac228fc7c8ec8d970d862d68432c" approved="yes">
-        <source>There are now less than [1]{last_qty}[/1] items in stock.</source>
-        <target state="final">Det er nå færre enn [1]{last_qty}[/1] på lager.</target>
-        <note>Line: 121</note>
       </trans-unit>
     </body>
   </file>
@@ -1760,89 +1845,12 @@
       </trans-unit>
     </body>
   </file>
-  <file original="mails/themes/modern/modules/ps_reminder/followup_1.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
-    <body>
-      <trans-unit id="804e4e067b0e61e122e1a35771fcf144" approved="yes">
-        <source>Follow up 1</source>
-        <target state="final">Følg opp 1</target>
-        <note>Line: 3</note>
-      </trans-unit>
-      <trans-unit id="b9018fa1aff4ac6de7e50d6a8f1c9e4a" approved="yes">
-        <source>Thanks for your visit. However, it looks like you did not complete your purchase.</source>
-        <target state="final">Takk for besøket. Det se ikke ut til at du fikk lagt inn din bestilling.</target>
-        <note>Line: 242</note>
-      </trans-unit>
-      <trans-unit id="14c90ec7c3372b9f39c9cf24323bd959" approved="yes">
-        <source>Your cart has been saved, you can go back to your order on our shop:</source>
-        <target state="final">Din handlevogn er lagret, du kan fortsette bestillingen ved å besøke vår butikk:</target>
-        <note>Line: 247</note>
-      </trans-unit>
-      <trans-unit id="938ad8b6f0f1e5c4663bc171ad56822e" approved="yes">
-        <source>Your voucher code on {shop_name}</source>
-        <target state="final">Din rabattkupong på {shop_name}</target>
-        <note>Line: 317</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="mails/themes/modern/modules/ps_reminder/followup_2.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
-    <body>
-      <trans-unit id="7ff89d85f528f79efd0a85c01a43cb62" approved="yes">
-        <source>Follow up 2</source>
-        <target state="final">Følg opp 2</target>
-        <note>Line: 3</note>
-      </trans-unit>
-      <trans-unit id="605fc3ecd313608fe8c6cbbed5a25261" approved="yes">
-        <source>Thanks for your order.</source>
-        <target state="final">Takk for at du handlet hos oss.</target>
-        <note>Line: 50</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="mails/themes/modern/modules/ps_reminder/followup_3.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
-    <body>
-      <trans-unit id="383126b6a239da6f7d483220c63a46e2" approved="yes">
-        <source>Follow up 3</source>
-        <target state="final">Følg opp 3</target>
-        <note>Line: 3</note>
-      </trans-unit>
-      <trans-unit id="18df3f8153de940176206b06a3610f80" approved="yes">
-        <source>We are pleased to offer you a discount of [1]{amount}%[/1] off your next order. And this offer is valid for [1]{days}[/1] days, so do not wait any longer!</source>
-        <target state="final">Som en liten gave kan vi gi deg en rabatt på [1]{amount}%[/1] på din neste ordre! Dette tilbudet er gyldig i [1]{days}[/1] dager, så ikke vent for lenge!</target>
-        <note>Line: 184</note>
-      </trans-unit>
-      <trans-unit id="5416511766be8537f357142a81ccd7a7" approved="yes">
-        <source>Here is your VOUCHER CODE:</source>
-        <target state="final">Her er din RABATTKUPONG-KODE:</target>
-        <note>Line: 189</note>
-      </trans-unit>
-      <trans-unit id="ececa54d96395d3afa79cdce8e7e0bd6" approved="yes">
-        <source>Enter this code in your shopping cart to get the discount.</source>
-        <target state="final">Skriv inn denne koden i handlekurven for å motta din rabatt.</target>
-        <note>Line: 194</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="mails/themes/modern/modules/ps_reminder/followup_4.html.twig" source-language="en" target-language="nn-NO" datatype="plaintext">
     <body>
       <trans-unit id="8dec16ec73558f6fb2515cce4293ce6f" approved="yes">
         <source>Your cart has been saved, you can resume your order by visiting our shop:</source>
         <target state="final">Korga di vart lagra, slik at du kan fortsetje ordren, dersom det er ynskjeleg, ved å besøke butikken:</target>
         <note>Line: 247</note>
-      </trans-unit>
-      <trans-unit id="a5672f20db3e09abb35f909cf56f3b23" approved="yes">
-        <source>Follow up 4</source>
-        <target state="final">Følg opp 4</target>
-        <note>Line: 3</note>
-      </trans-unit>
-      <trans-unit id="1e6f48752a20a5c6dc2f387c18777136" approved="yes">
-        <source>Your cart on {shop_name}</source>
-        <target state="final">Din handlekurv på {shop_name}</target>
-        <note>Line: 177</note>
-      </trans-unit>
-      <trans-unit id="8dfa91d2853e941e80553ab1336b6459" approved="yes">
-        <source>Congratulations, you are one of our best customers! However, it looks like you have not placed an order since {days_threshold} days.</source>
-        <target state="final">Du er en av våre beste kunder, men du har ikke lagt inn noen ordre på {days_threshold} dager.</target>
-        <note>Line: 242</note>
       </trans-unit>
     </body>
   </file>

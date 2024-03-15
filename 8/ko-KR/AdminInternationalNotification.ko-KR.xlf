@@ -179,11 +179,6 @@ Comment: @todo Throw exception</note>
         <target state="final">기본 그룹을 업데이트하는 동안 오류가 발생했습니다</target>
         <note>Line: 583</note>
       </trans-unit>
-      <trans-unit id="962f6e835582ebb404a37893f46c60f3" approved="yes">
-        <source>An error has occurred, this module does not exist: %s</source>
-        <target state="final">오류가 발생했습니다, 이 모듈은 존재하지 않습니다: %s</target>
-        <note>Line: 513</note>
-      </trans-unit>
     </body>
   </file>
   <file original="classes/Translate.php" source-language="en" target-language="ko" datatype="plaintext">
@@ -207,21 +202,6 @@ Comment: @todo Throw exception</note>
         <target state="final">%2$s 언어의 구성 %1$s를 추가할 수 없습니다</target>
         <note>Line: 1581</note>
       </trans-unit>
-      <trans-unit id="c9468b4bd45a165049277af6756db10e" approved="yes">
-        <source>Localization pack imported successfully.</source>
-        <target state="final">현지화 팩을 불러왔습니다.</target>
-        <note>Line: 517</note>
-      </trans-unit>
-      <trans-unit id="6cfb80c26b415f8f6467cf07b0c700dd" approved="yes">
-        <source>The translation was successfully copied.</source>
-        <target state="final">번역이 복사되었습니다.</target>
-        <note>Line: 507</note>
-      </trans-unit>
-      <trans-unit id="f22def68c5c456936078623b6dcd27ff" approved="yes">
-        <source>The translations have been successfully added.</source>
-        <target state="final">번역이 추가되었습니다.</target>
-        <note>Line: 508</note>
-      </trans-unit>
     </body>
   </file>
   <file original="classes/tax/TaxManagerModule.php" source-language="en" target-language="ko" datatype="plaintext">
@@ -243,7 +223,7 @@ Comment: @todo Throw exception</note>
       <trans-unit id="6f3455d187a23443796efdcbe044096b" approved="yes">
         <source>No tax</source>
         <target state="final">면세</target>
-        <note>Line: 167</note>
+        <note>Line: 163</note>
       </trans-unit>
     </body>
   </file>
@@ -571,6 +551,11 @@ Comment: @todo Throw exception</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/LocalizationController.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
+      <trans-unit id="c9468b4bd45a165049277af6756db10e" approved="yes">
+        <source>Localization pack imported successfully.</source>
+        <target state="final">현지화 팩을 불러왔습니다.</target>
+        <note>Line: 212</note>
+      </trans-unit>
       <trans-unit id="53802fa30d7e83f77eccfa376c33e6fa" approved="yes">
         <source>Importing a new language may fail without the OpenSSL module. Please enable "openssl.so" on your server configuration.</source>
         <target state="final">OpenSSL 모듈 없이 새 언어 불러오기를 하면 실패할 것입니다. 서버 구성의 "openssl.so" 를 활성화 하세요.</target>
@@ -580,6 +565,21 @@ Comment: @todo Throw exception</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/TranslationsController.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
+      <trans-unit id="962f6e835582ebb404a37893f46c60f3" approved="yes">
+        <source>An error has occurred, this module does not exist: %s</source>
+        <target state="final">오류가 발생했습니다, 이 모듈은 존재하지 않습니다: %s</target>
+        <note>Line: 143</note>
+      </trans-unit>
+      <trans-unit id="6cfb80c26b415f8f6467cf07b0c700dd" approved="yes">
+        <source>The translation was successfully copied.</source>
+        <target state="final">번역이 복사되었습니다.</target>
+        <note>Line: 318</note>
+      </trans-unit>
+      <trans-unit id="f22def68c5c456936078623b6dcd27ff" approved="yes">
+        <source>The translations have been successfully added.</source>
+        <target state="final">번역이 추가되었습니다.</target>
+        <note>Line: 177</note>
+      </trans-unit>
       <trans-unit id="2c4113bd192a65a98ee212d9e946d152" approved="yes">
         <source>You must select at least one translation type to export translations.</source>
         <target state="final">번역을 내보내기 위한 하나 이상의 번역 유형을 선택해야 합니다.</target>
@@ -625,30 +625,26 @@ Comment: @todo Throw exception</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Geolocation/GeolocationByIpAddressFormDataProvider.php" source-language="en" target-language="ko" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Geolocation/GeolocationFormDataProvider.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
       <trans-unit id="7e093dcb7a9f75c8124b2adc265c5302" approved="yes">
         <source>The geolocation database is unavailable.</source>
         <target state="final">위치 정보 데이터베이스는 사용할 수 없습니다.</target>
-        <note>Line: 77</note>
+        <note>Line: 107</note>
+      </trans-unit>
+      <trans-unit id="0861a67f819158c5690a1844d95390b4" approved="yes">
+        <source>Invalid whitelist</source>
+        <target state="final">잘못된 화이트 사이트 목록</target>
+        <note>Line: 123</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Geolocation/GeolocationFormDataProvider.php" source-language="en" target-language="ko" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Geolocation/GeolocationOptionsFormDataProvider.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
       <trans-unit id="493ce56d58c4880dc32df56f12585a23" approved="yes">
         <source>Country selection is invalid.</source>
         <target state="final">국가 선택이 잘못되었습니다.</target>
-        <note>Line: 115</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Geolocation/GeolocationWhitelistFormDataProvider.php" source-language="en" target-language="ko" datatype="plaintext">
-    <body>
-      <trans-unit id="0861a67f819158c5690a1844d95390b4" approved="yes">
-        <source>Invalid whitelist</source>
-        <target state="final">잘못된 화이트 사이트 목록</target>
-        <note>Line: 76</note>
+        <note>Line: 75</note>
       </trans-unit>
     </body>
   </file>
