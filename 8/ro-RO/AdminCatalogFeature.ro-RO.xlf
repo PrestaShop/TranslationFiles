@@ -305,7 +305,7 @@
     <body>
       <trans-unit id="294598238a4d88a9920c7e6fba9bb843" approved="yes">
         <source>MPN</source>
-        <target state="final">MPN</target>
+        <target state="final">Cod MPN</target>
         <note>Line: 41</note>
       </trans-unit>
     </body>
@@ -438,6 +438,11 @@
         <source>Attributes</source>
         <target state="final">Atribute</target>
         <note>Line: 206</note>
+      </trans-unit>
+      <trans-unit id="5bcd278346ef0ee9a549bd38478ed1e6" approved="yes">
+        <source>Edit value</source>
+        <target state="final">Modifica</target>
+        <note>Line: 658</note>
       </trans-unit>
       <trans-unit id="7d5672f569de406c85249db6f1c99ec0" approved="yes">
         <source>Save then add another value</source>
@@ -1460,6 +1465,11 @@
         <target state="final">Impact asupra pretului per unitate (excl. taxe)</target>
         <note>Line: 134</note>
       </trans-unit>
+      <trans-unit id="7828a35d153636336475fa0774877bde" approved="yes">
+        <source>If the price per unit of this combination is different from the initial price per unit, enter the value of the impact (negative or positive).</source>
+        <target state="final">Daca pretul unitar al acestei combinatii este diferit de pretul unitar de baza al produsului, introdu valoarea impactului (negativa sau pozitiva).</target>
+        <note>Line: 135</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/BulkCombinationReferencesType.php" source-language="en" target-language="ro" datatype="plaintext">
@@ -1503,6 +1513,16 @@
         <target state="final">Editeaza cantitatea fixa</target>
         <note>Line: 84</note>
       </trans-unit>
+      <trans-unit id="1dc2af14d15238ba67e03c99a6f415f6" approved="yes">
+        <source>Stocks</source>
+        <target state="final">Stocuri</target>
+        <note>Line: 176</note>
+      </trans-unit>
+      <trans-unit id="d35cb3c6879443815e6a9e6164a4edb2" approved="yes">
+        <source>Enter stock location</source>
+        <target state="final">Introdu locatia stocului</target>
+        <note>Line: 109</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/BulkCombinationType.php" source-language="en" target-language="ro" datatype="plaintext">
@@ -1516,10 +1536,20 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationAvailabilityType.php" source-language="en" target-language="ro" datatype="plaintext">
     <body>
+      <trans-unit id="8837388be67a2a656b903541ee7e6492" approved="yes">
+        <source>Label when out of stock (and backorders allowed)</source>
+        <target state="final">Eticheta afisata cand produsul nu este pe stoc (si este permisa comanda din stocul furnizorului)</target>
+        <note>Line: 93</note>
+      </trans-unit>
       <trans-unit id="5ce00f66be3fd54e40eab844c446e80d" approved="yes">
         <source>When out of stock</source>
         <target state="final">Cand nu este in stoc</target>
         <note>Line: 106</note>
+      </trans-unit>
+      <trans-unit id="4235583d61a97d9e21f01a1456fcf90d" approved="yes">
+        <source>[1]Edit default behavior[/1]</source>
+        <target state="final">[1]Editeaza comportamentul implicit[/1]</target>
+        <note>Line: 80</note>
       </trans-unit>
     </body>
   </file>
@@ -1678,7 +1708,11 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/HeaderType.php" source-language="en" target-language="ro" datatype="plaintext">
     <body>
-      
+      <trans-unit id="6fbafa1f93546890214b4d08845ae6f9" approved="yes">
+        <source>This field contains invalid characters: %invalidCharacters%</source>
+        <target state="final">Acest camp contine caractere invalide: %invalidCharacters%</target>
+        <note>Line: 103</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Image/ImageDropzoneType.php" source-language="en" target-language="ro" datatype="plaintext">
@@ -1865,6 +1899,11 @@
         <target state="final">Pret cu amanuntul (cu taxe)</target>
         <note>Line: 217</note>
       </trans-unit>
+      <trans-unit id="f5328bbc429966afadc1aaf5a5fc6030" approved="yes">
+        <source>Ecotax rate %rate%%</source>
+        <target state="final">Ecotaxa %rate%%</target>
+        <note>Line: 242</note>
+      </trans-unit>
       <trans-unit id="4fc9f49cb85af9ba5caab7747fe35846" approved="yes">
         <source>Ecotax (tax excl.)</source>
         <target state="final">Eco-taxa (fara TVA)</target>
@@ -1996,6 +2035,36 @@
         <target state="final">Redirectionare temporara (302) la un produs</target>
         <note>Line: 137</note>
       </trans-unit>
+      <trans-unit id="c316e39c07d1e8190d175cd0c917e624" approved="yes">
+        <source>Default behavior from configuration</source>
+        <target state="final">Comportamentul implicit din configurare</target>
+        <note>Line: 128</note>
+      </trans-unit>
+      <trans-unit id="3343aa2d119a121d3964cc68ee4eaf63" approved="yes">
+        <source>No redirection (200), display product</source>
+        <target state="final">Fara redirectionare (200), afiseaza produsul</target>
+        <note>Line: 129</note>
+      </trans-unit>
+      <trans-unit id="357a3a7090898e4052e22ceadbef0790" approved="yes">
+        <source>No redirection (404), display product</source>
+        <target state="final">Fara redirectionare (404), afiseaza produsul</target>
+        <note>Line: 130</note>
+      </trans-unit>
+      <trans-unit id="ebeeeea8dc93e6c9618ea3016663de4d" approved="yes">
+        <source>No redirection (410), display product</source>
+        <target state="final">Fara redirectionare (410), afiseaza produsul</target>
+        <note>Line: 131</note>
+      </trans-unit>
+      <trans-unit id="331e365aa18e5eeeeca966c367f2cde4" approved="yes">
+        <source>No redirection (404), display error page</source>
+        <target state="final">Fara redirectionare (404), afiseaza pagina de eroare</target>
+        <note>Line: 132</note>
+      </trans-unit>
+      <trans-unit id="66b4a3174c03f315a23177ec860240a2" approved="yes">
+        <source>No redirection (410), display error page</source>
+        <target state="final">Fara redirectionare (410), afiseaza pagina de eroare</target>
+        <note>Line: 133</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/SEO/SEOType.php" source-language="en" target-language="ro" datatype="plaintext">
@@ -2067,6 +2136,11 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Shipping/ShippingType.php" source-language="en" target-language="ro" datatype="plaintext">
     <body>
+      <trans-unit id="7320268d3e6def915f7a462afd0e5738" approved="yes">
+        <source>Delivery time</source>
+        <target state="final">Timp de livrare</target>
+        <note>Line: 94</note>
+      </trans-unit>
       <trans-unit id="6fa573b52d8f35231304916ea67f94a8" approved="yes">
         <source>Shipping fees</source>
         <target state="final">Costuri de livrare</target>
@@ -2128,6 +2202,11 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Stock/StockType.php" source-language="en" target-language="ro" datatype="plaintext">
     <body>
+      <trans-unit id="6f5b82eac1c5d9180ff114623b84cf29" approved="yes">
+        <source>Ref: %s</source>
+        <target state="final">Cod: %s</target>
+        <note>Line: 99</note>
+      </trans-unit>
       <trans-unit id="4b2f63dbdead89ca4263ede71ae4a892" approved="yes">
         <source>Pack quantities</source>
         <target state="final">Cantitati de pachete</target>
@@ -2142,6 +2221,11 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Stock/VirtualProductFileType.php" source-language="en" target-language="ro" datatype="plaintext">
     <body>
+      <trans-unit id="fb19faca551960dfc44963c9cee6b94c" approved="yes">
+        <source>Add downloadable file</source>
+        <target state="final">Adauga fisier descarcabil</target>
+        <note>Line: 99</note>
+      </trans-unit>
       <trans-unit id="58fd2b2308056ad80255a322b305742b" approved="yes">
         <source>Number of days</source>
         <target state="final">Numar de zile</target>
@@ -2619,7 +2703,7 @@ Comment: First tag [1] is number of combinations selected. Second tag [2] is the
       </trans-unit>
       <trans-unit id="e84e4bed9536affd3b2db4c43cb39f29" approved="yes">
         <source>Supplier reference(s)</source>
-        <target state="final">Referinta(ele) furnizorului</target>
+        <target state="final">Cod(uri) de la furnizor</target>
         <note>Line: 26</note>
       </trans-unit>
     </body>
@@ -2686,7 +2770,7 @@ Comment: First tag [1] is number of combinations selected. Second tag [2] is the
       </trans-unit>
       <trans-unit id="63d5049791d9d79d86e9a108b0a999ca" approved="yes">
         <source>Reference</source>
-        <target state="final">Referinta</target>
+        <target state="final">Cod</target>
         <note>Line: 180</note>
       </trans-unit>
       <trans-unit id="f99f15e7e2a30d8522f0a39ecf6bcc0d" approved="yes">
@@ -3061,7 +3145,7 @@ Comment: First tag [1] is number of combinations selected. Second tag [2] is the
       </trans-unit>
       <trans-unit id="eb2187ba47b5e09ca57e01222fbd71e8" approved="yes">
         <source>MPN:</source>
-        <target state="final">MPN:</target>
+        <target state="final">Cod MPN:</target>
         <note>Line: 97</note>
       </trans-unit>
       <trans-unit id="647b89b705fafd7d44aa6f01a5cb4711" approved="yes">
@@ -3071,7 +3155,7 @@ Comment: First tag [1] is number of combinations selected. Second tag [2] is the
       </trans-unit>
       <trans-unit id="00481fc2b38b4f5a85040e2afaba9762" approved="yes">
         <source>EAN-13:</source>
-        <target state="final">EAN-13:</target>
+        <target state="final">Cod EAN-13:</target>
         <note>Line: 95</note>
       </trans-unit>
       <trans-unit id="f8a09f634b7b3ede2da34607da2aaebe" approved="yes">
@@ -3091,7 +3175,7 @@ Comment: First tag [1] is number of combinations selected. Second tag [2] is the
       </trans-unit>
       <trans-unit id="a7b4930bf2fc5d57eec6b03097200152" approved="yes">
         <source>EAN-13</source>
-        <target state="final">EAN-13</target>
+        <target state="final">Cod EAN-13</target>
         <note>Line: 67</note>
       </trans-unit>
     </body>
@@ -3182,6 +3266,11 @@ Comment: First tag [1] is number of combinations selected. Second tag [2] is the
         <source>To manage all your modules go to the [1]Installed module page[/1]</source>
         <target state="final">Pentru a gestiona toate modulele, mergi la [1]pagina modulelor instalate[/1]</target>
         <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="d2c40c8374a27ccd6feacecfa44b87e2" approved="yes">
+        <source>These modules are relative to the product page of your store.</source>
+        <target state="final">Aceste module sunt destinate paginii produsului din magazinul tau.</target>
+        <note>Line: 29</note>
       </trans-unit>
     </body>
   </file>
@@ -3463,7 +3552,7 @@ Comment: First tag [1] is number of combinations selected. Second tag [2] is the
     <body>
       <trans-unit id="8284ae5df53e6e7ffc1f2cc67ae68765" approved="yes">
         <source>Supplier reference</source>
-        <target state="final">Referinta furnizorului</target>
+        <target state="final">Cod de la furnizor</target>
         <note>Line: 42</note>
       </trans-unit>
       <trans-unit id="52eb5928a34db3e3da7ba52b0644273b" approved="yes">
@@ -3669,7 +3758,7 @@ Comment: 'All' refers to statuses as if "All statuses". Please adapt as necessar
       </trans-unit>
       <trans-unit id="083e99de177243cffe65b7f8724c89ca" approved="yes">
         <source>Search products (search by name, reference, supplier)</source>
-        <target state="final">Cauta produse (cauta dupa nume, referinta, furnizor)</target>
+        <target state="final">Cauta produse (cauta dupa nume, cod, furnizor)</target>
         <note>Line: 67</note>
       </trans-unit>
       <trans-unit id="0e1f77838d33f77fef1c66958da371e6" approved="yes">
