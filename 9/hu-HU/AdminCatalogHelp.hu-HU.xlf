@@ -11,11 +11,6 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      <trans-unit id="5b41d7dc2da5ea15baf3e2d62d820ac2" approved="yes">
-        <source>You can choose a minimum amount for the cart either with or without the taxes and shipping.</source>
-        <target state="final">Kiválaszthatsz minimum kosármennyiséget adóval és szállítással vagy nélkülük.</target>
-        <note>Line: 74</note>
-      </trans-unit>
       <trans-unit id="cfc9489072f04e808ce4e01948b7fef8" approved="yes">
         <source>The cart rule will be applied to the first "X" customers only.</source>
         <target state="final">A kosárszabály csak az első ´X´ vásárlóra lesz alkalmazva.</target>
@@ -25,6 +20,11 @@
         <source>A customer will only be able to use the cart rule "X" time(s).</source>
         <target state="final">A vásárló csak ´X´ alkalommal tudja a kosárszabályt felhasználni.</target>
         <note>Line: 128</note>
+      </trans-unit>
+      <trans-unit id="5b41d7dc2da5ea15baf3e2d62d820ac2" approved="yes">
+        <source>You can choose a minimum amount for the cart either with or without the taxes and shipping.</source>
+        <target state="final">Kiválaszthatsz minimum kosármennyiséget adóval és szállítással vagy nélkülük.</target>
+        <note>Line: 74</note>
       </trans-unit>
       <trans-unit id="3fde87028c9327c15017b46e6d84ac80" approved="yes">
         <source>Optional: The cart rule will be available to everyone if you leave this field blank.</source>
@@ -79,50 +79,6 @@
         <source>Cart rules are applied by priority. A cart rule with a priority of "1" will be processed before a cart rule with a priority of "2".</source>
         <target state="final">A kosárszabályok prioritás szerint alkalmazottak. Az "1" számú kosárszabály a "2" számú előtt kerül feldolgozásra.</target>
         <note>Line: 130</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="controllers/admin/AdminAttributesGroupsController.php" source-language="en" target-language="hu" datatype="plaintext">
-    <body>
-      <trans-unit id="22cbf85c41427960736dc10cfec5faf4" approved="yes">
-        <source>Choose a color with the color picker, or enter an HTML color (e.g. "lightblue", "#CC6600").</source>
-        <target state="final">Válassz egy színt a színválasztóval, vagy adj meg egy HTML színt angolul (pl. "lightblue", "#CC6600")!</target>
-        <note>Line: 325</note>
-      </trans-unit>
-      <trans-unit id="f2d1c5443636295e9720caac90ea8d93" approved="yes">
-        <source>Your internal name for this attribute.</source>
-        <target state="final">Belső elnevezésed a variációhoz.</target>
-        <note>Line: 217</note>
-      </trans-unit>
-      <trans-unit id="b5e6921c2d093fbcb0088c9466ee9983" approved="yes">
-        <source>The public name for this attribute, displayed to the customers.</source>
-        <target state="final">A vásárlók számára megjelenített variáció publikus elnevezés.</target>
-        <note>Line: 226</note>
-      </trans-unit>
-      <trans-unit id="580de47d3bc3e99a0b6aba55066a983a" approved="yes">
-        <source>The way the attribute's values will be presented to the customers in the product's page.</source>
-        <target state="final">A variáció értékeinek a termék oldalán a vásárlók felé megjelenítendő mód.</target>
-        <note>Line: 239</note>
-      </trans-unit>
-      <trans-unit id="71c476c94d0a0e3dfc0826afd03d2dda" approved="yes">
-        <source>Choose the attribute group for this value.</source>
-        <target state="final">Variáció csoport kiválasztása az értékhez.</target>
-        <note>Line: 287</note>
-      </trans-unit>
-      <trans-unit id="dd24a1142c1070a0efbdf43b4f0167cc" approved="yes">
-        <source>Upload an image file containing the color texture from your computer.</source>
-        <target state="final">Képmintát tartalmazó képfájl feltöltése számítógépről.</target>
-        <note>Line: 333</note>
-      </trans-unit>
-      <trans-unit id="ba353198430b2004efeb1ac6d1f410d0" approved="yes">
-        <source>This will override the HTML color!</source>
-        <target state="final">Ez felül fogja bírálni a HTML színt!</target>
-        <note>Line: 334</note>
-      </trans-unit>
-      <trans-unit id="7d5672f569de406c85249db6f1c99ec0" approved="yes">
-        <source>Save then add another value</source>
-        <target state="final">Mentés és új érték hozzáadása</target>
-        <note>Line: 572</note>
       </trans-unit>
     </body>
   </file>
@@ -205,49 +161,31 @@
       </trans-unit>
     </body>
   </file>
-  <file original="controllers/admin/AdminSuppliersController.php" source-language="en" target-language="hu" datatype="plaintext">
+  <file original="controllers/admin/AdminShopController.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      <trans-unit id="dd0479e67d24cd2c2868d4c6b2dcba9a" approved="yes">
-        <source>Company name for this supplier</source>
-        <target state="final">A beszállító cégének elnevezése</target>
-        <note>Line: 151</note>
-      </trans-unit>
-      <trans-unit id="b51bea4eee9d9ef6bd9a6849337013d5" approved="yes">
-        <source>Phone number for this supplier</source>
-        <target state="final">Beszállító telefonszáma</target>
-        <note>Line: 173</note>
-      </trans-unit>
-      <trans-unit id="c24c0c9cd7bdb34eaff67028b0cb8349" approved="yes">
-        <source>Mobile phone number for this supplier.</source>
-        <target state="final">Beszállítói mobilszám.</target>
-        <note>Line: 182</note>
+      <trans-unit id="22cbf85c41427960736dc10cfec5faf4" approved="yes">
+        <source>Choose a color with the color picker, or enter an HTML color (e.g. "lightblue", "#CC6600").</source>
+        <target state="final">Válassz egy színt a színválasztóval, vagy adj meg egy HTML színt angolul (pl. "lightblue", "#CC6600")!</target>
+        <note>Line: 438</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/Core/Grid/Definition/Factory/ProductGridDefinitionFactory.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
+      <trans-unit id="542f59279cd5d73dfbdb069ce0833b0a" approved="yes">
+        <source>Search name</source>
+        <target state="final">Keresési név</target>
+        <note>Line: 544</note>
+      </trans-unit>
       <trans-unit id="d56b081f1e66fdf5130276c68d528780" approved="yes">
         <source>Search reference</source>
         <target state="final">Ref. keresés</target>
         <note>Line: 554</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Controller/Admin/ProductController.php" source-language="en" target-language="hu" datatype="plaintext">
-    <body>
-      <trans-unit id="cc2ac103a9c1411fd67952983e25978a" approved="yes">
-        <source>Create a new product: CTRL+P</source>
-        <target state="final">Új termék létrehozása: CTRL+P</target>
-        <note>Line: 381</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/HorizontalFeatureController.php" source-language="en" target-language="hu" datatype="plaintext">
-    <body>
-      <trans-unit id="7aad0283b11e41230d9d1fc7372c3862" approved="yes">
-        <source>Add new feature value</source>
-        <target state="final">Új tulajdonság érték hozzáadása</target>
-        <note>Line: 126</note>
+      <trans-unit id="84645920bd0fb266cb4acdbc00003e62" approved="yes">
+        <source>Search category</source>
+        <target state="final">Kategória keresés</target>
+        <note>Line: 564</note>
       </trans-unit>
     </body>
   </file>
@@ -256,12 +194,12 @@
       <trans-unit id="88fe88f4033791ef6f38fbb7f7c58f04" approved="yes">
         <source>To have a different title from the category name, enter it here.</source>
         <target state="final">Ha a kategória nevétől eltérő címet adnál meg, ide írd be.</target>
-        <note>Line: 207</note>
+        <note>Line: 208</note>
       </trans-unit>
       <trans-unit id="0a7ca3ce7cde025a585cd02d7382b48f" approved="yes">
         <source>To have a different description than your category summary in search results page, write it here.</source>
         <target state="final">Ha a keresőmotorok találati oldalán a kategória összefoglalótól eltérő leírást szeretnél, azt ide írd be.</target>
-        <note>Line: 241</note>
+        <note>Line: 242</note>
       </trans-unit>
     </body>
   </file>
@@ -274,99 +212,32 @@
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Product/ProductInformation.php" source-language="en" target-language="hu" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Catalog/AttributeGroupType.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      <trans-unit id="7bb36e0f484d91aeba5d83fe2af63d28" approved="yes">
-        <source>Search for a product</source>
-        <target state="final">Termék keresés</target>
-        <note>Line: 207</note>
-      </trans-unit>
-      <trans-unit id="9242ed633bcac07574f63fba6e184fd8" approved="yes">
-        <source>Enter your product name</source>
-        <target state="final">Add meg a terméked nevét</target>
-        <note>Line: 239</note>
-      </trans-unit>
-      <trans-unit id="7f6c27a96363effdda77216cf1251400" approved="yes">
-        <source><![CDATA[The summary is a short sentence describing your product.<br />It will appears at the top of your shop's product page, in product lists, and in search engines' results page (so it's important for SEO). To give more details about your product, use the "Description" tab.]]></source>
-        <target state="final"><![CDATA[Az összegzés a termékedet bemutató rövid leírás.<br />Ez az információ a boltod termékoldalának tetején, a termékek listáján és a keresőmotorok találati oldalán jelenik meg (ezért fontos a SEO szempontjából). Ha több adatot szeretnél megadni a termékedhez, használd a "Leírás" lapfület.]]></target>
-        <note>Line: 270</note>
-      </trans-unit>
-      <trans-unit id="1fbfcc9642d39544207c67f66ec3bc00" approved="yes">
-        <source>Search and add a related product</source>
-        <target state="final">Keresés és kapcsolódó termék hozzáadása</target>
-        <note>Line: 357</note>
+      <trans-unit id="b5e6921c2d093fbcb0088c9466ee9983" approved="yes">
+        <source>The public name for this attribute, displayed to the customers.</source>
+        <target state="final">A vásárlók számára megjelenített variáció publikus elnevezés.</target>
+        <note>Line: 95</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Product/ProductOptions.php" source-language="en" target-language="hu" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Catalog/AttributeType.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      <trans-unit id="8246ddfaa2c607ace3ae3a4643d957d1" approved="yes">
-        <source>Use a comma to create separate tags. E.g.: dress, cotton, party dresses.</source>
-        <target state="final">A különböző címkéket vesszővel válaszd el. Pl.: ruha, pamut, partiruhák.</target>
-        <note>Line: 115</note>
+      <trans-unit id="f2d1c5443636295e9720caac90ea8d93" approved="yes">
+        <source>Your internal name for this attribute.</source>
+        <target state="final">Belső elnevezésed a variációhoz.</target>
+        <note>Line: 106</note>
+      </trans-unit>
+      <trans-unit id="580de47d3bc3e99a0b6aba55066a983a" approved="yes">
+        <source>The way the attribute's values will be presented to the customers in the product's page.</source>
+        <target state="final">A variáció értékeinek a termék oldalán a vásárlók felé megjelenítendő mód.</target>
+        <note>Line: 89</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Product/ProductPrice.php" source-language="en" target-language="hu" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Category/SEO/RedirectOptionType.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      <trans-unit id="420f46a170eef476454fa134085a85a2" approved="yes">
-        <source>Per kilo, per litre</source>
-        <target state="final">Kilónként, literenként</target>
-        <note>Line: 235</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Product/ProductQuantity.php" source-language="en" target-language="hu" datatype="plaintext">
-    <body>
-      <trans-unit id="16a5534d559007de7e8f5b4f17112203" approved="yes">
-        <source>Leave empty to disable</source>
-        <target state="final">Hagyd üresen, ha nem akarod használni</target>
-        <note>Line: 171</note>
-      </trans-unit>
-      <trans-unit id="e63e2ba42470a41ba75e0d7ea35a410f" approved="yes">
-        <source>Combine several attributes, e.g.: "Size: all", "Color: red".</source>
-        <target state="final">Több variáció kombinálása, pl.: "Méret: összes", "Szín: piros".</target>
-        <note>Line: 111</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Product/ProductSeo.php" source-language="en" target-language="hu" datatype="plaintext">
-    <body>
-      <trans-unit id="8533d8d42f2c7ef3078797984ea14675" approved="yes">
-        <source>This description will appear in search engines. You need a single sentence, shorter than 160 characters (including spaces)</source>
-        <target state="final">Ez a leírás fog megjelenni a keresőmotoroknál. Egy mondatra törekedj és max. 160 karakter legyen (szóközökkel együtt)</target>
-        <note>Line: 133</note>
-      </trans-unit>
-      <trans-unit id="96bacc9c71fc8b7763f985fed3dfc545" approved="yes">
-        <source>To which product should the page redirect?</source>
-        <target state="final">Melyik termékre irányítson át az oldal?</target>
-        <note>Line: 182</note>
-      </trans-unit>
-      <trans-unit id="6dd1254fcdbcc7b3fd459617adad9289" approved="yes">
-        <source>To which category should the page redirect?</source>
-        <target state="final">Melyik kategóriára irányítson át az oldal?</target>
-        <note>Line: 184</note>
-      </trans-unit>
-      <trans-unit id="1b9648d6a32243bb7003ae8046dc7c1a" approved="yes">
-        <source>By default, the main category will be used if no category is selected.</source>
-        <target state="final">Alapértelmezettként a fő kategóriába kerül, ha nincs külön kategória választva.</target>
-        <note>Line: 185</note>
-      </trans-unit>
-      <trans-unit id="af809f35e40bd6f644509ad566ecf38c" approved="yes">
-        <source>To have a different title from the product name, enter it here.</source>
-        <target state="final">Ha a termék nevétől eltérő címet adnál meg, ide írd be.</target>
-        <note>Line: 97</note>
-      </trans-unit>
-      <trans-unit id="b0ea2bd9df4b8ee746b4e5fd28503851" approved="yes">
-        <source>Public title for the product's page, and for search engines. Leave blank to use the product name. The number of remaining characters is displayed to the left of the field.</source>
-        <target state="final">A termékoldal publikus címe keresőmotorokhoz. Hagyhatod üresen a terméknév használatához. A fennmaradó karakterek száma a baloldali mezőben jelenik meg.</target>
-        <note>Line: 108</note>
-      </trans-unit>
-      <trans-unit id="5f99bb8ecd940f311cb66fadfc467a2b" approved="yes">
-        <source>To have a different description than your product summary in search results pages, write it here.</source>
-        <target state="final">Ha a keresőmotorok termékösszegzésében szereplő adattól eltérő termékleírást szeretnél, azt ide írd be.</target>
-        <note>Line: 122</note>
-      </trans-unit>
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Manufacturer/ManufacturerType.php" source-language="en" target-language="hu" datatype="plaintext">
@@ -378,21 +249,63 @@
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/BulkCombinationPriceType.php" source-language="en" target-language="hu" datatype="plaintext">
-    <body>
-      <trans-unit id="c4b69e0455faf0784b6a8b2fd9634d16" approved="yes">
-        <source>If the price of this combination is different from the initial retail price, enter the value of the impact (negative or positive).</source>
-        <target state="final">Ha ennek a kombinációnak az ára eltér az alap kiskereskedelmi ártól, add meg az eltérés mértékét (negatív vagy pozitív).</target>
-        <note>Line: 110</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationFormType.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
       <trans-unit id="762d425093de542e7ab628b44ff68515" approved="yes">
         <source>This interface allows you to specify the suppliers of the current combination.</source>
         <target state="final">Ezen a felületen adhatod meg az aktuális kombináció beszállítóit.</target>
         <note>Line: 88</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationPriceImpactType.php" source-language="en" target-language="hu" datatype="plaintext">
+    <body>
+      <trans-unit id="c4b69e0455faf0784b6a8b2fd9634d16" approved="yes">
+        <source>If the price of this combination is different from the initial retail price, enter the value of the impact (negative or positive).</source>
+        <target state="final">Ha ennek a kombinációnak az ára eltér az alap kiskereskedelmi ártól, add meg az eltérés mértékét (lehet negatív vagy pozitív).</target>
+        <note>Line: 124</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/LowStockThresholdType.php" source-language="en" target-language="hu" datatype="plaintext">
+    <body>
+      <trans-unit id="1f24923e0351fff041635c7064d7d94c" approved="yes">
+        <source><![CDATA[The email will be sent to all users who have access to the Stock page. To modify permissions, go to [1]Advanced Parameters > Team[/1].]]></source>
+        <target state="final"><![CDATA[Emailt küld a készletkezelésre jogosult összes felhasználónak. A jogosultságok módosításához lépj a [1]Haladó beállítások > Alkalmazottak menüpontba[/1].]]></target>
+        <note>Line: 65</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Details/ReferencesType.php" source-language="en" target-language="hu" datatype="plaintext">
+    <body>
+      <trans-unit id="c268a2747d5680c617c361cd505c4576" approved="yes">
+        <source>MPN is used internationally to identify the Manufacturer Part Number.</source>
+        <target state="final">Az MPN-t nemzetközileg használják a gyártói cikkszám (Manufacturer Part Number) azonosítására.</target>
+        <note>Line: 64</note>
+      </trans-unit>
+      <trans-unit id="39bd7eba8aa2033579b5ae60bf0c774d" approved="yes">
+        <source>This type of product code is widely used in the United States, Canada, the United Kingdom, Australia, New Zealand and in other countries.</source>
+        <target state="final">Ez a termékkód széleskörűen használt az Egyesült Államokban, Kanadában, Angliában, Ausztráliában, Új-Zélandon és más országokban.</target>
+        <note>Line: 73</note>
+      </trans-unit>
+      <trans-unit id="0041a5c39ca241f883f4e0516a32d290" approved="yes">
+        <source>This type of product code is specific to Europe and Japan, but is widely used internationally. It is a superset of the UPC code: all products marked with an EAN will be accepted in North America.</source>
+        <target state="final">Ez a termékkód típus jellemző Európára és Japánra, de nemzetközileg is széleskörűen használt. Ez egy szuper UPC kód: Észak-Amerika minden EAN számmal jelölt terméket befogad.</target>
+        <note>Line: 83</note>
+      </trans-unit>
+      <trans-unit id="633bf9436b67e19cd61db84ccab7fee2" approved="yes">
+        <source>ISBN is used internationally to identify books and their various editions.</source>
+        <target state="final">A könyvek és azok különböző kiadásainak azonosítása érdekében nemzetközi szintem az ISBN-t használjuk.</target>
+        <note>Line: 93</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/FooterType.php" source-language="en" target-language="hu" datatype="plaintext">
+    <body>
+      <trans-unit id="82e3cb7a4be4e299701a182197dc9410" approved="yes">
+        <source>Save the product and stay on the current page: ALT+SHIFT+S</source>
+        <target state="final">Termék mentése, az aktuális oldal elhagyása nélkül: ALT+SHIFT+S</target>
+        <note>Line: 213</note>
       </trans-unit>
     </body>
   </file>
@@ -424,6 +337,15 @@
       </trans-unit>
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Options/ProductSupplierCollectionType.php" source-language="en" target-language="hu" datatype="plaintext">
+    <body>
+      <trans-unit id="738971709fcd7de4b5f8a87eb1e663a1" approved="yes">
+        <source>You can specify product reference(s) for each associated supplier. Click "%save_label%" after changing selected suppliers to display the associated product references.</source>
+        <target state="final">Megadhatod a termékreferenciá(ka)t minden egyes kapcsolódó beszállítóhoz. A kapcsolódó termékreferenciák megjelenítéséhez kattints a "%save_label%" gombra, miután megváltoztattad a kiválasztott beszállítókat.</target>
+        <note>Line: 61</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Pricing/PricingType.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
       <trans-unit id="127a2d0e467657187c3a043fb6179b17" approved="yes">
@@ -449,49 +371,150 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Pricing/UnitPriceType.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
+      <trans-unit id="420f46a170eef476454fa134085a85a2" approved="yes">
+        <source>Per kilo, per litre</source>
+        <target state="final">Kilónként, literenként</target>
+        <note>Line: 101</note>
+      </trans-unit>
       <trans-unit id="dfeaf70424e17fcd26f016ace18f2139" approved="yes">
         <source>Indicate the price for a single unit of the product. For instance, if you're selling fabrics, it would be the price per meter.</source>
         <target state="final">Add meg a termék egy egységére vonatkozó árát. Például, ha szövetet árulsz, ez a folyóméterenkénti ár.</target>
-        <note>Line: 129</note>
+        <note>Line: 122</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/SEO/RedirectOptionType.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="65c29c631954b1e422c860c9353c30f0" approved="yes">
+        <source>[1]No redirection (404), display error page[/1] [2] Do not redirect anywhere and display a 404 "Not Found" page.</source>
+        <target state="final">[1]Nincs átirányítás (404), hibaoldal megjelenítése[/1] [2] Ne irányítson át sehova, és jelenítsen meg egy 404-es "Nem található" oldalt.</target>
+        <note>Line: 219</note>
+      </trans-unit>
+      <trans-unit id="511d9e488a706dcf908981d845e50a35" approved="yes">
+        <source>[1]No redirection (410), display error page[/1] [2] Do not redirect anywhere and display a 410 "Gone" page.</source>
+        <target state="final">[1]Nincs átirányítás (410), hibaoldal megjelenítése[/1] [2] Ne irányítson át sehova, és jelenítsen meg egy 410-es "Eltűnt" oldalt.</target>
+        <note>Line: 220</note>
+      </trans-unit>
+      <trans-unit id="6dd1254fcdbcc7b3fd459617adad9289" approved="yes">
+        <source>To which category should the page redirect?</source>
+        <target state="final">Melyik kategóriára irányítson át az oldal?</target>
+        <note>Line: 114</note>
+      </trans-unit>
+      <trans-unit id="96bacc9c71fc8b7763f985fed3dfc545" approved="yes">
+        <source>To which product should the page redirect?</source>
+        <target state="final">Melyik termékre irányítson át az oldal?</target>
+        <note>Line: 104</note>
+      </trans-unit>
+      <trans-unit id="1b9648d6a32243bb7003ae8046dc7c1a" approved="yes">
+        <source>By default, the main category will be used if no category is selected.</source>
+        <target state="final">Alapértelmezettként a fő kategóriába kerül, ha nincs külön kategória választva.</target>
+        <note>Line: 115</note>
+      </trans-unit>
+      <trans-unit id="eb8b9b044f3b64b5ba5f7b047963714c" approved="yes">
+        <source>When your product is disabled, choose to which page you’d like to redirect the customers visiting its page by typing the product or category name.</source>
+        <target state="final">Ha a terméked ki van kapcsolva, akkor válaszd ki, hogy melyik oldalra szeretnéd átirányítani a termék oldalát meglátogató vevőid. Választhatsz egy másik terméket vagy akár termék kategóriát is.</target>
+        <note>Line: 189</note>
+      </trans-unit>
+      <trans-unit id="916ba4b2422000e9868d30814dc1cef3" approved="yes">
+        <source><![CDATA[Default behavior is specified in the Shop Parameters > Product settings page.]]></source>
+        <target state="final"><![CDATA[Az alapértelmezett működés az Áruházbeállítások > Termékbeállítások oldalon található.]]></target>
+        <note>Line: 194</note>
+      </trans-unit>
+      <trans-unit id="e35bdf9023b638203d854dd2d9382878" approved="yes">
+        <source>[1]No redirection (200), display product[/1] [2] Do not redirect anywhere, display product as discontinued and return normal 200 response.</source>
+        <target state="final">[1]Nincs átirányítás (200), termék megjelenítése[/1] [2] Ne irányítson át sehova, jelenítse meg a terméket megszűntként, és adjon vissza normál 200-as választ.</target>
+        <note>Line: 216</note>
+      </trans-unit>
+      <trans-unit id="ce744fb5bb2b0706fdc5b33466a7b500" approved="yes">
+        <source>[1]No redirection (404), display product[/1] [2] Do not redirect anywhere, display product as discontinued and return 404 "Not Found" response.</source>
+        <target state="final">[1]Nincs átirányítás (404), termék megjelenítése[/1] [2] Ne irányítsa át sehova, jelenítse meg a terméket megszűntként, és adja vissza a 404-es "Nem található" választ.</target>
+        <note>Line: 217</note>
+      </trans-unit>
+      <trans-unit id="201ef8721f9aac90fdb54cc6210493ff" approved="yes">
+        <source>[1]No redirection (410), display product[/1] [2] Do not redirect anywhere, display product as discontinued and return 410 "Gone" response.</source>
+        <target state="final">[1]Nincs átirányítás (410), termék megjelenítése[/1] [2] Ne irányítsa át sehova, jelenítse meg a terméket megszűntként, és adja vissza a 410-es "Eltűnt" választ.</target>
+        <note>Line: 218</note>
+      </trans-unit>
+      <trans-unit id="63d8f0350459a5cc763e14c4c6411a07" approved="yes">
+        <source>[1]Permanent redirection (301)[/1] [2] Permanently display another product or category instead.</source>
+        <target state="final">[1]Állandó átirányítás (301)[/1] [2] Egy másik termék vagy kategória jelenik meg helyette.</target>
+        <note>Line: 221</note>
+      </trans-unit>
+      <trans-unit id="be47cd3941d99bef338eda26d2c1a397" approved="yes">
+        <source>[1]Temporary redirection (302)[/1] [2] Temporarily display another product or category instead.</source>
+        <target state="final">[1]Ideiglenes átirányítás (302)[/1] [2] Ideiglenesen egy másik termék vagy kategória jelenik meg helyette.</target>
+        <note>Line: 222</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/SEO/SEOType.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      <trans-unit id="b51716b6494f24132f3543c516d59742" approved="yes">
-        <source>Public title for the product page, and for search engines. Leave blank to use the product name. The number of remaining characters is displayed to the right of the field.</source>
-        <target state="final">Nyilvános cím a termékoldalhoz és a keresőmotorokhoz. A terméknév használatához hagyd üresen. A fennmaradó karakterek száma a jobb oldali mezőben jelenik meg. </target>
-        <note>Line: 103</note>
-      </trans-unit>
-      <trans-unit id="390348fb4642f64089e6e9ee71f25a7c" approved="yes">
-        <source>This description will appear in search engines. It should be a single sentence, shorter than 160 characters (including spaces).</source>
-        <target state="final">Ez a leírás fog megjelenni a keresőmotoroknál. Egy mondatra törekedj és max. 160 karakter legyen (szóközökkel együtt).</target>
-        <note>Line: 132</note>
+      <trans-unit id="c533675166b567256cae22139534b713" approved="yes">
+        <source>This is the human-readable URL, as generated from the product's name. You can change it if you want.</source>
+        <target state="final">Ez az ember által olvasható URL, ami a terméknévből generálódott. Ha szeretnéd, módosíthatod.</target>
+        <note>Line: 175</note>
       </trans-unit>
       <trans-unit id="a132c5ad0de6c917b5422b923608c87b" approved="yes">
         <source>Separate each tag with a comma or press the Enter key.</source>
         <target state="final">Az egyes címkéket vesszővel válasszd el, vagy nyomd meg az Enter billentyűt.</target>
-        <note>Line: 186</note>
+        <note>Line: 201</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Stock/StockOptionsType.php" source-language="en" target-language="hu" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Shipping/ShippingType.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      <trans-unit id="1f24923e0351fff041635c7064d7d94c" approved="yes">
-        <source><![CDATA[The email will be sent to all users who have access to the Stock page. To modify permissions, go to [1]Advanced Parameters > Team[/1].]]></source>
-        <target state="final"><![CDATA[Emailt küld a készletkezelésre jogosult összes felhasználónak. A jogosultságok módosításához lépj a [1]Haladó beállítások > Alkalmazottak menüpontba[/1].]]></target>
-        <note>Line: 79</note>
+      <trans-unit id="305c255586949e297af4d74bb1bc9563" approved="yes">
+        <source>Display delivery time for a product is advised for merchants selling in Europe to comply with the local laws.</source>
+        <target state="final">Javasoljuk, hogy a termék szállítási határideje az Európában értékesítő kereskedőknél feleljen meg a helyi törvényeknek.</target>
+        <note>Line: 96</note>
+      </trans-unit>
+      <trans-unit id="8b2ff26690065c221599c196cb6adc82" approved="yes">
+        <source>If a carrier has a tax, it will be added to the shipping fees. Does not apply to free shipping.</source>
+        <target state="final">Ha a szállító adó köteles, az adó hozzá lesz adva a szállítási díjhoz. Ez nem vonatkozik az ingyenes szállításra.</target>
+        <note>Line: 104</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Stock/QuantityType.php" source-language="en" target-language="hu" datatype="plaintext">
+    <body>
+      <trans-unit id="ea8d1b4f32f86030683d8f9252c0a3e1" approved="yes">
+        <source>The minimum quantity required to buy this product (set to 1 to disable this feature). E.g.: if set to 3, customers will be able to purchase the product only if they take at least 3 in quantity.</source>
+        <target state="final">A termék minimális vásárlási mennyisége (állítsd 1-re, ha szeretnéd kikapcsolni ezt a funkciót). Pl.: ha 3-ra állítod, akkor az ügyfeleid csak akkor vásárolhatják meg a terméket, ha legalább 3 darabot rendelnek belőle.</target>
+        <note>Line: 127</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Stock/StockType.php" source-language="en" target-language="hu" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Stock/VirtualProductFileType.php" source-language="en" target-language="hu" datatype="plaintext">
+    <body>
+      <trans-unit id="5f4efe2735311bfd3e5784705fb0110f" approved="yes">
+        <source>Number of days this file can be accessed by customers. Set to zero for unlimited access.</source>
+        <target state="final">A fájl elérhetőségének száma napokban a vásárlók számára. Korlátlan eléréshez nulla.</target>
+        <note>Line: 160</note>
+      </trans-unit>
+      <trans-unit id="dbcf3c5f67528da5cf59dc0c042748da" approved="yes">
+        <source>Upload a file from your computer (%maxUploadSize% max.)</source>
+        <target state="final">Tölts fel egy fájlt a számítógépedről (max. %maxUploadSize%)</target>
+        <note>Line: 106</note>
+      </trans-unit>
+      <trans-unit id="c312034c9f17a264365e734de442ca0a" approved="yes">
+        <source>The full filename with its extension (e.g. Book.pdf)</source>
+        <target state="final">Teljes fájlnév kiterjesztéssel együtt (pl: konyv.pdf)</target>
+        <note>Line: 119</note>
+      </trans-unit>
+      <trans-unit id="48da1c11d36bd8b34f13821e996c7f97" approved="yes">
+        <source>Number of downloads allowed per customer. Set to 0 for unlimited downloads.</source>
+        <target state="final">Vásárlónként engedélyezett fájlletöltések száma. 0 esetén korlátlan.</target>
+        <note>Line: 131</note>
+      </trans-unit>
+      <trans-unit id="f049153f2c655d6d1ebd123f04b432cf" approved="yes">
+        <source>If set, the file will not be downloadable after this date. Leave blank if you do not wish to attach an expiration date.</source>
+        <target state="final">Beállítás esetén a megadott dátum után a fájl már nem letölthető. A lejárati idő nélküli használathoz hagyhatod üresen.</target>
+        <note>Line: 150</note>
       </trans-unit>
     </body>
   </file>
@@ -515,365 +538,6 @@
         <source>Search product</source>
         <target state="final">Termék keresése</target>
         <note>Line: 83</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/Lists/products_table.html.twig" source-language="en" target-language="hu" datatype="plaintext">
-    <body>
-      <trans-unit id="542f59279cd5d73dfbdb069ce0833b0a" approved="yes">
-        <source>Search name</source>
-        <target state="final">Keresési név</target>
-        <note>Line: 118</note>
-      </trans-unit>
-      <trans-unit id="84645920bd0fb266cb4acdbc00003e62" approved="yes">
-        <source>Search category</source>
-        <target state="final">Kategória keresés</target>
-        <note>Line: 140</note>
-      </trans-unit>
-      <trans-unit id="3ce14776b1408d0dc406766fd0c6a45d" approved="yes">
-        <source>Search ref.</source>
-        <target state="final">Ref. keresés</target>
-        <note>Line: 129</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Blocks/footer.html.twig" source-language="en" target-language="hu" datatype="plaintext">
-    <body>
-      <trans-unit id="82e3cb7a4be4e299701a182197dc9410" approved="yes">
-        <source>Save the product and stay on the current page: ALT+SHIFT+S</source>
-        <target state="final">Termék mentése, az aktuális oldal elhagyása nélkül: ALT+SHIFT+S</target>
-        <note>Line: 75</note>
-      </trans-unit>
-      <trans-unit id="548f88021c5b960f7eccd9ee81871aad" approved="yes">
-        <source>Permanently delete this product.</source>
-        <target state="final">Véglegesen töröld ezt a terméket.</target>
-        <note>Line: 33</note>
-      </trans-unit>
-      <trans-unit id="94e4259ad6f05c74b84eb6cca4d60ce6" approved="yes">
-        <source>See how your product sheet will look online: ALT+SHIFT+V</source>
-        <target state="final">Tekintsd meg, hogyan fog megjelenni a termékadatlapod online: ALT+SHIFT+V</target>
-        <note>Line: 48</note>
-      </trans-unit>
-      <trans-unit id="ad7478afcd575d882738a42546bc041a" approved="yes">
-        <source>Enable or disable the product on your shop: ALT+SHIFT+O</source>
-        <target state="final">Termék megjelenítés engedélyezése vagy letiltása a boltodban: ALT+SHIFT+O</target>
-        <note>Line: 56</note>
-      </trans-unit>
-      <trans-unit id="ac6f66dc450bc768229c1329aa7a48b1" approved="yes">
-        <source>Save and duplicate this product, then go to the new product: ALT+SHIFT+D</source>
-        <target state="final">A termék mentése és duplikálása, majd továbblépés az új termékre: ALT+SHIFT+D</target>
-        <note>Line: 84</note>
-      </trans-unit>
-      <trans-unit id="b110e989a1143b7f44cd5691324d4d11" approved="yes">
-        <source>Save and go back to the catalog: ALT+SHIFT+Q</source>
-        <target state="final">Mentés és visszatérés a termék katalógushoz: ALT+SHIFT+Q</target>
-        <note>Line: 95</note>
-      </trans-unit>
-      <trans-unit id="37163a2847189335a934c83e8ae32677" approved="yes">
-        <source>Save and create a new product: ALT+SHIFT+P</source>
-        <target state="final">Mentés és új termék létrehozása: ALT+SHIFT+P</target>
-        <note>Line: 105</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Blocks/header.html.twig" source-language="en" target-language="hu" datatype="plaintext">
-    <body>
-      <trans-unit id="bb03c14d14caa07e21f97cbe5eab022d" approved="yes">
-        <source>Is the product a pack (a combination of at least two existing products), a virtual product (downloadable file, service, etc.), or simply a standard, physical product?</source>
-        <target state="final">A termék csomag (legalább két meglévő termék kombinációja), virtuális termék (letölthető fájl, szolgáltatás, stb.) vagy egyszerűen egy szokásos, fizikai termék?</target>
-        <note>Line: 43</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_categories.html.twig" source-language="en" target-language="hu" datatype="plaintext">
-    <body>
-      <trans-unit id="c5abe76b24973299661ce389d1a092e1" approved="yes">
-        <source>Search categories</source>
-        <target state="final">Kategóriák keresése</target>
-        <note>Line: 35</note>
-      </trans-unit>
-      <trans-unit id="61010671991185f436b35030f599d327" approved="yes">
-        <source>Where should the product be available on your site? The main category is where the product appears by default: this is the category which is seen in the product page's URL. Disabled categories are written in italics.</source>
-        <target state="final">Hol legyen elérhető a termék az oldaladon? Alapértelmezés szerint a termék a fő kategóriában jelenik meg: ez az a kategória, amely a termékoldalon található URL-ben látható. A kikapcsolt kategóriák dőlt betűvel szerepelnek.</target>
-        <note>Line: 28</note>
-      </trans-unit>
-      <trans-unit id="b78db8ba6d89ef3a49b95e6f92235997" approved="yes">
-        <source>If you want to quickly create a new category, you can do it here. Don’t forget to then go to the Categories page to fill in the needed details (description, image, etc.).  A new category will not automatically appear in your shop's menu, please read the Help about it.</source>
-        <target state="final">Ha gyorsan szeretnél létrehozni új kategóriát, itt megteheted. Ne felejts el utána átmenni a Kategóriák oldalra, hogy megadd a szükséges részleteket (leírás, kép, stb.).  Az új kategóriák nem jelennek meg automatikusan a boltod menüjében, Kérlek olvasd el a Súgó idevágó részét.</target>
-        <note>Line: 55</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_combination.html.twig" source-language="en" target-language="hu" datatype="plaintext">
-    <body>
-      <trans-unit id="53f3eb21de0c7a8c909a86be984996f6" approved="yes">
-        <source>Does this combination have a different price? Is it cheaper or more expensive than the default retail price?</source>
-        <target state="final">A kombinációnak más az ára? Olcsóbb vagy drágább, mint az alapértelmezett kiskereskedelmi ár?</target>
-        <note>Line: 169</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_combinations.html.twig" source-language="en" target-language="hu" datatype="plaintext">
-    <body>
-      <trans-unit id="268bf51f15b2210472b2d42dd883214a" approved="yes">
-        <source><![CDATA[Combinations are the different variations of a product, with attributes like its size, weight or color taking different values. To create a combination, you need to create your product attributes first. Go to Catalog > Attributes & Features for this!]]></source>
-        <target state="final"><![CDATA[A kombinációk különböző termékváltozatok, amelyek variációi - pl. méret, tömeg vagy szín - eltérő értékeket kapnak. Egy kombináció létrehozásához először a termékvariációkat kell létrehozni. Ehhez először lépj a Katalógus > Variációk & Tulajdonságok menübe!]]></target>
-        <note>Line: 32</note>
-      </trans-unit>
-      <trans-unit id="ab80db7e778c7415ca2f34deb46d5f44" approved="yes">
-        <source><![CDATA[To add combinations, you first need to create proper attributes and values in [1]%attributes_and_features_label%[/1]. <br> When done, you may enter the wanted attributes (like "size" or "color") and their respective values ("XS", "red", "all", etc.) in the field below; or simply select them from the right column. Then click on "%generate_label%": it will automatically create all the combinations for you!]]></source>
-        <target state="final"><![CDATA[Kombinációk hozzáadásához először megfelelő variációkat és értékeket kell beállítanod a [1]%attributes_and_features_label%[/1] menüpontban. <br> Ha kész van, beírhatod a kívánt variációkat (mint "méret" vagy "szín") és a hozzájuk tartozó értékeket ("XS", "piros", "minden", stb.) az alábbi mezőbe; vagy  egyszerűen kiválaszthatod őket a jobb oldali oszlopból. Ezután kattints a "%generate_label%" gombra, ami létrehozza számodra az összes kombinációt!]]></target>
-        <note>Line: 38</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_seo.html.twig" source-language="en" target-language="hu" datatype="plaintext">
-    <body>
-      <trans-unit id="c533675166b567256cae22139534b713" approved="yes">
-        <source>This is the human-readable URL, as generated from the product's name. You can change it if you want.</source>
-        <target state="final">Ez az ember által olvasható URL, ami a terméknévből generálódott. Ha szeretnéd, módosíthatod.</target>
-        <note>Line: 59</note>
-      </trans-unit>
-      <trans-unit id="eb8b9b044f3b64b5ba5f7b047963714c" approved="yes">
-        <source>When your product is disabled, choose to which page you’d like to redirect the customers visiting its page by typing the product or category name.</source>
-        <target state="final">Ha a terméked ki van kapcsolva, akkor válaszd ki, hogy melyik oldalra szeretnéd átirányítani a termék oldalát meglátogató vevőid. Választhatsz egy másik terméket vagy akár termék kategóriát is.</target>
-        <note>Line: 100</note>
-      </trans-unit>
-      <trans-unit id="916ba4b2422000e9868d30814dc1cef3" approved="yes">
-        <source><![CDATA[Default behavior is specified in the Shop Parameters > Product settings page.]]></source>
-        <target state="final"><![CDATA[Az alapértelmezett működés az Áruházbeállítások > Termékbeállítások oldalon található.]]></target>
-        <note>Line: 127</note>
-      </trans-unit>
-      <trans-unit id="8d9ca96605aac170ba7120491d770710" approved="yes">
-        <source>No redirection (200), display product = Do not redirect anywhere, display product as discontinued and return normal 200 response.</source>
-        <target state="final">Nincs átirányítás (200), termék megjelenítése = Ne irányítson át sehova, jelenítse meg a terméket megszűntként, és adjon vissza normál 200-as választ.</target>
-        <note>Line: 128</note>
-      </trans-unit>
-      <trans-unit id="8e2b691e27a3ccb91f0b3a9baa091562" approved="yes">
-        <source>No redirection (404), display product = Do not redirect anywhere, display product as discontinued and return 404 "Not Found" response.</source>
-        <target state="final">Nincs átirányítás (404), termék megjelenítése = Ne irányítsa át sehova, jelenítse meg a terméket megszűntként, és adja vissza a 404-es "Nem található" választ.</target>
-        <note>Line: 129</note>
-      </trans-unit>
-      <trans-unit id="76baa7f2e915f48214cd6577b59e1552" approved="yes">
-        <source>No redirection (410), display product = Do not redirect anywhere, display product as discontinued and return 410 "Gone" response.</source>
-        <target state="final">Nincs átirányítás (410), termék megjelenítése = Ne irányítsa át sehova, jelenítse meg a terméket megszűntként, és adja vissza a 410-es "Eltűnt" választ.</target>
-        <note>Line: 130</note>
-      </trans-unit>
-      <trans-unit id="97faaea8b9fbed3f6c5b7d7a9c60e648" approved="yes">
-        <source>No redirection (404), display error page = Do not redirect anywhere and display a 404 "Not Found" page.</source>
-        <target state="final">Nincs átirányítás (404), hibaoldal megjelenítése = Ne irányítson át sehova, és jelenítsen meg egy 404-es "Nem található" oldalt.</target>
-        <note>Line: 131</note>
-      </trans-unit>
-      <trans-unit id="10bcd2f914bb6f74c3fef8c13e59ea61" approved="yes">
-        <source>No redirection (410), display error page = Do not redirect anywhere and display a 410 "Gone" page.</source>
-        <target state="final">Nincs átirányítás (410), hibaoldal megjelenítése = Ne irányítson át sehova, és jelenítsen meg egy 410-es "Eltűnt" oldalt.</target>
-        <note>Line: 132</note>
-      </trans-unit>
-      <trans-unit id="462864be2a8d87de471c82d553000030" approved="yes">
-        <source>Permanent redirection (301) = Permanently display another product or category instead.</source>
-        <target state="final">Átirányítás (301) = Egy másik termék vagy kategória jelenik meg helyette.</target>
-        <note>Line: 133</note>
-      </trans-unit>
-      <trans-unit id="50565048560ec8a9fe1f6ddec57a917a" approved="yes">
-        <source>Temporary redirection (302) = Temporarily display another product or category instead.</source>
-        <target state="final">Ideiglenes átirányítás (302) = Ideiglenesen egy másik termék vagy kategória jelenik meg helyette.</target>
-        <note>Line: 134</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_shipping.html.twig" source-language="en" target-language="hu" datatype="plaintext">
-    <body>
-      <trans-unit id="305c255586949e297af4d74bb1bc9563" approved="yes">
-        <source>Display delivery time for a product is advised for merchants selling in Europe to comply with the local laws.</source>
-        <target state="final">Javasoljuk, hogy a termék szállítási határideje az Európában értékesítő kereskedőknél feleljen meg a helyi törvényeknek.</target>
-        <note>Line: 74</note>
-      </trans-unit>
-      <trans-unit id="8b2ff26690065c221599c196cb6adc82" approved="yes">
-        <source>If a carrier has a tax, it will be added to the shipping fees. Does not apply to free shipping.</source>
-        <target state="final">Ha a szállító adó köteles, az adó hozzá lesz adva a szállítási díjhoz. Ez nem vonatkozik az ingyenes szállításra.</target>
-        <note>Line: 117</note>
-      </trans-unit>
-      <trans-unit id="de95b43bceeb4b998aed4aed5cef1ae7" approved="yes">
-        <source>edit</source>
-        <target state="final">szerkesztés</target>
-        <note>Line: 83</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_supplier_choice.html.twig" source-language="en" target-language="hu" datatype="plaintext">
-    <body>
-      <trans-unit id="aa25978d6b02e4e469c205afa9de0c46" approved="yes">
-        <source>This interface allows you to specify the suppliers of the current product and its combinations, if any.</source>
-        <target state="final">Ezen a felületen adhatod meg a jelenlegi termék beszállítóit és variációit, ha vannak.</target>
-        <note>Line: 31</note>
-      </trans-unit>
-      <trans-unit id="5f5641c7f2d62db16c4d12ce2bcf5898" approved="yes">
-        <source>You can specify supplier references according to previously associated suppliers.</source>
-        <target state="final">A korábban társított beszállítók alapján megadhatod a beszállítói referenciaszámokat.</target>
-        <note>Line: 32</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_supplier_combination.html.twig" source-language="en" target-language="hu" datatype="plaintext">
-    <body>
-      <trans-unit id="738971709fcd7de4b5f8a87eb1e663a1" approved="yes">
-        <source>You can specify product reference(s) for each associated supplier. Click "%save_label%" after changing selected suppliers to display the associated product references.</source>
-        <target state="final">Megadhatod a termékreferenciá(ka)t minden egyes kapcsolódó beszállítóhoz. A kapcsolódó termékreferenciák megjelenítéséhez kattints a "%save_label%" gombra, miután megváltoztattad a kiválasztott beszállítókat.</target>
-        <note>Line: 29</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/combinations.html.twig" source-language="en" target-language="hu" datatype="plaintext">
-    <body>
-      <trans-unit id="5f4efe2735311bfd3e5784705fb0110f" approved="yes">
-        <source>Number of days this file can be accessed by customers. Set to zero for unlimited access.</source>
-        <target state="final">A fájl elérhetőségének száma napokban a vásárlók számára. Korlátlan eléréshez nulla.</target>
-        <note>Line: 150</note>
-      </trans-unit>
-      <trans-unit id="dbcf3c5f67528da5cf59dc0c042748da" approved="yes">
-        <source>Upload a file from your computer (%maxUploadSize% max.)</source>
-        <target state="final">Tölts fel egy fájlt a számítógépedről (max. %maxUploadSize%)</target>
-        <note>Line: 101</note>
-      </trans-unit>
-      <trans-unit id="c312034c9f17a264365e734de442ca0a" approved="yes">
-        <source>The full filename with its extension (e.g. Book.pdf)</source>
-        <target state="final">Teljes fájlnév kiterjesztéssel együtt (pl: konyv.pdf)</target>
-        <note>Line: 117</note>
-      </trans-unit>
-      <trans-unit id="48da1c11d36bd8b34f13821e996c7f97" approved="yes">
-        <source>Number of downloads allowed per customer. Set to 0 for unlimited downloads.</source>
-        <target state="final">Vásárlónként engedélyezett fájlletöltések száma. 0 esetén korlátlan.</target>
-        <note>Line: 128</note>
-      </trans-unit>
-      <trans-unit id="f049153f2c655d6d1ebd123f04b432cf" approved="yes">
-        <source>If set, the file will not be downloadable after this date. Leave blank if you do not wish to attach an expiration date.</source>
-        <target state="final">Beállítás esetén a megadott dátum után a fájl már nem letölthető. A lejárati idő nélküli használathoz hagyhatod üresen.</target>
-        <note>Line: 139</note>
-      </trans-unit>
-      <trans-unit id="ea8d1b4f32f86030683d8f9252c0a3e1" approved="yes">
-        <source>The minimum quantity required to buy this product (set to 1 to disable this feature). E.g.: if set to 3, customers will be able to purchase the product only if they take at least 3 in quantity.</source>
-        <target state="final">A termék minimális vásárlási mennyisége (állítsd 1-re, ha szeretnéd kikapcsolni ezt a funkciót). Pl.: ha 3-ra állítod, akkor az ügyfeleid csak akkor vásárolhatják meg a terméket, ha legalább 3 darabot rendelnek belőle.</target>
-        <note>Line: 43</note>
-      </trans-unit>
-      <trans-unit id="1914ce33841a6e52c0577751d9004159" approved="yes">
-        <source><![CDATA[The email will be sent to all the users who have the right to run the stock page. To modify the permissions, go to [1]Advanced Parameters > Team[/1]]]></source>
-        <target state="final"><![CDATA[Emailt küld a készletkezelésre jogosult felhasználóknak. A jogosultságok módosításához lépj a [1]Haladó beállítások > Alkalmazottak menüpontba[/1]]]></target>
-        <note>Line: 74</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/essentials.html.twig" source-language="en" target-language="hu" datatype="plaintext">
-    <body>
-      <trans-unit id="0745d3d4082ad910137e24fd2901ca63" approved="yes">
-        <source>Combinations are the different variations of a product, with attributes like its size, weight or color taking different values. Does your product require combinations?</source>
-        <target state="final">A kombinációk különböző termékváltozatok, amelyek variációi - pl. méret, tömeg vagy szín - eltérő értékeket kapnak. A termékedhez szükség van kombinációkra?</target>
-        <note>Line: 153</note>
-      </trans-unit>
-      <trans-unit id="0a4595dd800cb3338d233a177f422758" approved="yes">
-        <source>Advanced settings in [1][2]Combinations[/1]</source>
-        <target state="final">Haladó beállítások a [1][2]Kombinációkban[/1]</target>
-        <note>Line: 171
-Comment: First tag [1][/1] is for a HTML link. Second tag [2] is an icon (no closing tag needed).</note>
-      </trans-unit>
-      <trans-unit id="01cfe41b8ece41634e85248382166271" approved="yes">
-        <source>Your reference code for this product. Allowed special characters: .-_#.</source>
-        <target state="final">Cikkszámod a termékhez. Megengedett speciális karakterek: .-_#.</target>
-        <note>Line: 183</note>
-      </trans-unit>
-      <trans-unit id="e2c7ed083cb894812fb5d2539f5e7ecb" approved="yes">
-        <source>How many products should be available for sale?</source>
-        <target state="final">Hány terméket szeretnél eladásra felkínálni?</target>
-        <note>Line: 200</note>
-      </trans-unit>
-      <trans-unit id="5e8b5ad38b1c0a76d41c2ebaa74c11f5" approved="yes">
-        <source>Advanced settings in [1][2]Quantities[/1]</source>
-        <target state="final">Haladó beállítások a [1][2]Mennyiségekben[/1]</target>
-        <note>Line: 212
-Comment: First tag [1][/1] is for a HTML link. Second tag [2] is an icon (no closing tag needed).</note>
-      </trans-unit>
-      <trans-unit id="1423e14cddc8aa38062c77d9b8fe8910" approved="yes">
-        <source>This is the retail price at which you intend to sell this product to your customers. The tax included price will change according to the tax rule you select.</source>
-        <target state="final">Ez a kiskereskedelmi ár, amelyen ezt a terméket szeretnéd eladni a vevőidnek. Az adóval növelt ár a kiválasztott adózási szabály szerint változik.</target>
-        <note>Line: 222</note>
-      </trans-unit>
-      <trans-unit id="143cb6dd5281d68859217704ad9c9f60" approved="yes">
-        <source>Advanced settings in [1][2]Pricing[/1]</source>
-        <target state="final">Haladó beállítások a [1][2]Árazás[/1]</target>
-        <note>Line: 253
-Comment: First tag [1][/1] is for a HTML link. Second tag [2] is an icon (no closing tag needed).</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/options.html.twig" source-language="en" target-language="hu" datatype="plaintext">
-    <body>
-      <trans-unit id="c268a2747d5680c617c361cd505c4576" approved="yes">
-        <source>MPN is used internationally to identify the Manufacturer Part Number.</source>
-        <target state="final">Az MPN-t nemzetközileg használják a gyártói cikkszám (Manufacturer Part Number) azonosítására.</target>
-        <note>Line: 143</note>
-      </trans-unit>
-      <trans-unit id="39bd7eba8aa2033579b5ae60bf0c774d" approved="yes">
-        <source>This type of product code is widely used in the United States, Canada, the United Kingdom, Australia, New Zealand and in other countries.</source>
-        <target state="final">Ez a termékkód széleskörűen használt az Egyesült Államokban, Kanadában, Angliában, Ausztráliában, Új-Zélandon és más országokban.</target>
-        <note>Line: 132</note>
-      </trans-unit>
-      <trans-unit id="0041a5c39ca241f883f4e0516a32d290" approved="yes">
-        <source>This type of product code is specific to Europe and Japan, but is widely used internationally. It is a superset of the UPC code: all products marked with an EAN will be accepted in North America.</source>
-        <target state="final">Ez a termékkód típus jellemző Európára és Japánra, de nemzetközileg is széleskörűen használt. Ez egy szuper UPC kód: Észak-Amerika minden EAN számmal jelölt terméket befogad.</target>
-        <note>Line: 119</note>
-      </trans-unit>
-      <trans-unit id="633bf9436b67e19cd61db84ccab7fee2" approved="yes">
-        <source>ISBN is used internationally to identify books and their various editions.</source>
-        <target state="final">A könyvek és azok különböző kiadásainak azonosítása érdekében nemzetközi szintem az ISBN-t használjuk.</target>
-        <note>Line: 108</note>
-      </trans-unit>
-      <trans-unit id="6fcccfb9dbed970c59c18752f6372703" approved="yes">
-        <source>Tags are meant to help your customers find your products via the search bar.</source>
-        <target state="final">A címkék segítenek vásárlóidnak megtalálni a termékeket a kereső sáv segítségével.</target>
-        <note>Line: 62</note>
-      </trans-unit>
-      <trans-unit id="cfd69f4f64142b71ff1ddd21b0053026" approved="yes">
-        <source>Choose terms and keywords that your customers will use to search for this product and make sure you are consistent with the tags you may have already used.</source>
-        <target state="final">Válaszd ki a feltételeket és a kulcsszavakat, amelyeket a vásárlóid fognak használni ehhez a termékhez, és ellenőrizd, hogy ezek megegyeznek a már esetlegesen használt címkékkel.</target>
-        <note>Line: 65</note>
-      </trans-unit>
-      <trans-unit id="8a08a645644d632f79ad988808ba2174" approved="yes">
-        <source>You can manage tag aliases in the [1]Search section[/1]. If you add new tags, you have to rebuild the index.</source>
-        <target state="final">A címke alias-okat a [1]Keresés szekció[/1] alatt menedzselheted. Új címkék hozzáadása után újra kell építened az indexet.</target>
-        <note>Line: 66</note>
-      </trans-unit>
-      <trans-unit id="19f31a842add8b13595ddb3a41a1ff27" approved="yes">
-        <source>Not all shops sell new products. This option enables you to indicate the condition of the product. It can be required on some marketplaces.</source>
-        <target state="final">Nem minden bolt árusít új termékeket. Ezzel az opcióval kijelezheted a termék állapotát. Egyes piacokon ez előírás lehet.</target>
-        <note>Line: 91</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/pricing.html.twig" source-language="en" target-language="hu" datatype="plaintext">
-    <body>
-      <trans-unit id="a4a8ceb87fae812bfac552e0169bb0f9" approved="yes">
-        <source>This is the price at which you intend to sell this product to your customers. The tax included price will change according to the tax rule you select.</source>
-        <target state="final">Ez az ár, amelyen a terméket szeretnéd eladni a vevőidnek. Az adóval növelt ár a kiválasztott adózási szabály szerint változik.</target>
-        <note>Line: 31</note>
-      </trans-unit>
-      <trans-unit id="6f8599613753d920188c3548a7d8fcb7" approved="yes">
-        <source>Some products can be purchased by unit (per bottle, per pound, etc.), and this is the price for one unit. For instance, if you’re selling fabrics, it would be the price per meter.</source>
-        <target state="final">Egyes termékeket egységenként (palackonként, kilónként, stb.) lehet megvásárolni, és ez az ár egyetlen egység ára. Pl. ha szövetet árulsz, akkor ez lesz a méterenkénti ár.</target>
-        <note>Line: 54</note>
-      </trans-unit>
-      <trans-unit id="eee67d763dcf287ca5d096650341f387" approved="yes">
-        <source>The cost price is the price you paid for the product. Do not include the tax. It should be lower than the retail price: the difference between the two will be your margin.</source>
-        <target state="final">A bekerülési költség az az ár, amit kifizettél a termékért. Az áfát ne számítsd bele. Ennek az árnak alacsonyabbnak kell lenni a kiskereskedelmi árnál: a két ár közötti rés lesz a hasznod.</target>
-        <note>Line: 110</note>
-      </trans-unit>
-      <trans-unit id="959f5f13ee3cc4199a335d1738351596" approved="yes">
-        <source>You can set specific prices for customers belonging to different groups, different countries, etc.</source>
-        <target state="final">Beállíthatsz egyedi árat az adott csoportokból, országokból stb. érkező vásárlóknak.</target>
-        <note>Line: 127</note>
-      </trans-unit>
-      <trans-unit id="fbade15b99b07c58fab7be777c0f4c0c" approved="yes">
-        <source>Sometimes one customer can fit into multiple price rules. Priorities allow you to define which rules apply first.</source>
-        <target state="final">Néha egy vevőre több árszabály is érvényes lehet. A prioritások beállításával tudod szabályozni, hogy melyik szabály legyen az első.</target>
-        <note>Line: 174</note>
       </trans-unit>
     </body>
   </file>
@@ -930,6 +594,15 @@ Comment: First tag [1][/1] is for a HTML link. Second tag [2] is an icon (no clo
         <source>To add combinations, you first need to create proper attributes and values in [1]%attributes_and_features_label%[/1].</source>
         <target state="final">Kombinációk hozzáadásához először megfelelő variációkat és értékeket kell beállítanod a [1]%attributes_and_features_label%[/1] menüpontban.</target>
         <note>Line: 34</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/FormTheme/categories.html.twig" source-language="en" target-language="hu" datatype="plaintext">
+    <body>
+      <trans-unit id="c5abe76b24973299661ce389d1a092e1" approved="yes">
+        <source>Search categories</source>
+        <target state="final">Kategóriák keresése</target>
+        <note>Line: 55</note>
       </trans-unit>
     </body>
   </file>

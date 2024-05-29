@@ -25,61 +25,26 @@
       <trans-unit id="c402321a8e5818b776007e8a2d00474a" approved="yes">
         <source>Current theme is unavailable. Please check your theme's directory name ("%s") and permissions.</source>
         <target state="final">İndiki bu tema açılmır. Zəhmət olmasa, temanın qovluq adını ("%s") və icazələrini yoxlayın.</target>
-        <note>Line: 280</note>
+        <note>Line: 289</note>
       </trans-unit>
     </body>
   </file>
-  <file original="controllers/admin/AdminImagesController.php" source-language="en" target-language="az" datatype="plaintext">
+  <file original="src/Adapter/ImageThumbnailsRegenerator.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      <trans-unit id="ffddcc65274efa9b4c624b34289c922c" approved="yes">
-        <source>Duplicate images were found when moving the product images. This is likely caused by unused demonstration images. Please make sure that the folder %folder% only contains demonstration images, and then delete it.</source>
-        <target state="final">Məhsul şəkilləri köçürülərkən eyni olan şəkillər tapıldı. Ola bilər ki, bu işlədilməyən göstəriş şəkillərinə görə olmuşdur. Buyurun, %folder% qovluğunda yalnız göstəriş şəkillərinin olduğundan əmin olun və sonra onları pozun.</target>
-        <note>Line: 488</note>
-      </trans-unit>
-      <trans-unit id="5b8cb2aa659c7d6a98b740d2d788c69d" approved="yes">
-        <source>Incorrect value for the selected JPEG image compression.</source>
-        <target state="final">Seçilmiş JPEG şəkil sıxılması üçün yanlış dəyər.</target>
-        <note>Line: 511</note>
-      </trans-unit>
-      <trans-unit id="8357fadc46ff52546c4c69965de0d653" approved="yes">
-        <source>Incorrect value for the selected PNG image compression.</source>
-        <target state="final">Seçilmiş PNG şəkil sıxışdırması üçün yanlış dəyər.</target>
-        <note>Line: 514</note>
-      </trans-unit>
       <trans-unit id="b88862891dbf9c20a73bc59258407d0b" approved="yes">
         <source>Source file does not exist or is empty (%filepath%)</source>
         <target state="final">Qaynaq faylı yoxdur, ya da boşdur (%filepath%)</target>
-        <note>Line: 678</note>
+        <note>Line: 158</note>
       </trans-unit>
       <trans-unit id="985b5b995c4574ae5eba2062a13ef168" approved="yes">
         <source>Failed to resize image file (%filepath%)</source>
         <target state="final">Şəkil faylının ölçüsü dəyişilmədi (%filepath%)</target>
-        <note>Line: 688</note>
+        <note>Line: 167</note>
       </trans-unit>
       <trans-unit id="2934958a3f658892ee502aaf8258a6f7" approved="yes">
         <source>Original image is missing or empty (%filename%) for product ID %id%</source>
         <target state="final">Məhsul ID %id% üçün şəklin əsli yoxdur, ya da boşdur</target>
-        <note>Line: 734</note>
-      </trans-unit>
-      <trans-unit id="8b772dad7cc4ed15eaf0c433f861e55c" approved="yes">
-        <source>Cannot write images for this type: %1$s. Please check the %2$s folder's writing permissions.</source>
-        <target state="final">Bu növ üçün şəkillər yazmaq olmur: %1$s. Buyurun, %2$s qovluğuna yazmaq icazələrini yoxlayın.</target>
-        <note>Line: 873</note>
-      </trans-unit>
-      <trans-unit id="606495559093a136ed6f2c9daee2645f" approved="yes">
-        <source>Cannot write "No picture" image to %s images folder. Please check the folder's writing permissions.</source>
-        <target state="final">%s şəkillər qovluğuna "Şəkil yoxdur" şəklini yazmaq olmur. Buyurun, qovluğun yazma icazələrini yoxlayın.</target>
-        <note>Line: 885</note>
-      </trans-unit>
-      <trans-unit id="95871efade00fbd0243355ce7937c40a" approved="yes">
-        <source>Error: Some -- or all -- images cannot be moved.</source>
-        <target state="final">Xəta: Bir neçə - ya da bütün - şəkillər köçürülə bilməz.</target>
-        <note>Line: 927</note>
-      </trans-unit>
-      <trans-unit id="cb2f901ceed5c3365d056794a1b5047f" approved="yes">
-        <source>After modification, do not forget to regenerate thumbnails</source>
-        <target state="final">Düzəlişlərdən sonra ilkin görüntüləri yenidən yaratmağı unutma</target>
-        <note>Line: 951</note>
+        <note>Line: 208</note>
       </trans-unit>
     </body>
   </file>
@@ -97,6 +62,15 @@
       </trans-unit>
     </body>
   </file>
+  <file original="src/Core/Domain/ImageSettings/CommandHandler/RegenerateThumbnailsHandler.php" source-language="en" target-language="az" datatype="plaintext">
+    <body>
+      <trans-unit id="8b772dad7cc4ed15eaf0c433f861e55c" approved="yes">
+        <source>Cannot write images for this type: %1$s. Please check the %2$s folder's writing permissions.</source>
+        <target state="final">Bu növ üçün şəkillər yazmaq olmur: %1$s. Buyurun, %2$s qovluğuna yazmaq icazələrini yoxlayın.</target>
+        <note>Line: 107</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/Core/Shop/LogoUploader.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
       
@@ -107,7 +81,7 @@
       <trans-unit id="ebc7584c0a97bc4aa867c11fc4760b3f" approved="yes">
         <source>Your theme has been correctly exported: %path%</source>
         <target state="final">Temanız düzgün ixrac edildi: %path%</target>
-        <note>Line: 83</note>
+        <note>Line: 86</note>
       </trans-unit>
     </body>
   </file>
@@ -116,7 +90,7 @@
       <trans-unit id="29dae1d163226f90bb206b333bbffe1d" approved="yes">
         <source>The page Category cannot be moved here.</source>
         <target state="final">Bu səhifə Bölməsi bura köçürülə bilməz.</target>
-        <note>Line: 1123</note>
+        <note>Line: 1025</note>
       </trans-unit>
     </body>
   </file>
@@ -144,6 +118,15 @@
         <source>Invalid file format.</source>
         <target state="final">Yanlış fayl formatı.</target>
         <note>Line: 77</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Design/ImageSettings/ImageType/edit.html.twig" source-language="en" target-language="az" datatype="plaintext">
+    <body>
+      <trans-unit id="cb2f901ceed5c3365d056794a1b5047f" approved="yes">
+        <source>After modification, do not forget to regenerate thumbnails</source>
+        <target state="final">Düzəlişlərdən sonra ilkin görüntüləri yenidən yaratmağı unutma</target>
+        <note>Line: 29</note>
       </trans-unit>
     </body>
   </file>
