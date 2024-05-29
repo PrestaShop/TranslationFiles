@@ -24,71 +24,31 @@
       <trans-unit id="c402321a8e5818b776007e8a2d00474a" approved="yes">
         <source>Current theme is unavailable. Please check your theme's directory name ("%s") and permissions.</source>
         <target state="final">Ang kasalukuyang tema ay hindi magagamit. Pakiusap suriin ang pangalan ng direktoryo ng iyong tema ("%s") at mga pahintulot.</target>
-        <note>Line: 280</note>
+        <note>Line: 289</note>
       </trans-unit>
     </body>
   </file>
-  <file original="controllers/admin/AdminImagesController.php" source-language="en" target-language="tl" datatype="plaintext">
+  <file original="src/Adapter/ImageThumbnailsRegenerator.php" source-language="en" target-language="tl" datatype="plaintext">
     <body>
-      <trans-unit id="5b8cb2aa659c7d6a98b740d2d788c69d" approved="yes">
-        <source>Incorrect value for the selected JPEG image compression.</source>
-        <target state="final">Mali ang pagpapahalaga para sa napili na JPEG na imahe ng compression.</target>
-        <note>Line: 511</note>
-      </trans-unit>
-      <trans-unit id="8357fadc46ff52546c4c69965de0d653" approved="yes">
-        <source>Incorrect value for the selected PNG image compression.</source>
-        <target state="final">Hindi tama ang halaga para sa napiling PNG na imahe ng kompresyon.</target>
-        <note>Line: 514</note>
-      </trans-unit>
       <trans-unit id="b88862891dbf9c20a73bc59258407d0b" approved="yes">
         <source>Source file does not exist or is empty (%filepath%)</source>
         <target state="final">Hindi umiiral ang pinagmulang payl o walang laman (%filepath%)</target>
-        <note>Line: 678</note>
+        <note>Line: 158</note>
       </trans-unit>
       <trans-unit id="985b5b995c4574ae5eba2062a13ef168" approved="yes">
         <source>Failed to resize image file (%filepath%)</source>
         <target state="final">Nabigong baguhin ang sukat ng payl ng imahe (%filepath%)</target>
-        <note>Line: 688</note>
+        <note>Line: 167</note>
       </trans-unit>
       <trans-unit id="103d86044b78fa59e02ff8480a3a2f46" approved="yes">
         <source>Original image is corrupt (%filename%) for product ID %id% or bad permission on folder.</source>
         <target state="final">Ang orihinal na larawan ay nasira sa (%filename%) para sa ID ng produkto %id% o masamang pahintulot sa polder.</target>
-        <note>Line: 721</note>
+        <note>Line: 195</note>
       </trans-unit>
       <trans-unit id="2934958a3f658892ee502aaf8258a6f7" approved="yes">
         <source>Original image is missing or empty (%filename%) for product ID %id%</source>
         <target state="final">Ang orihinal na imahe ay nawawala o walang laman sa (%filename%) para sa ID ng produkto %id%</target>
-        <note>Line: 734</note>
-      </trans-unit>
-      <trans-unit id="8b772dad7cc4ed15eaf0c433f861e55c" approved="yes">
-        <source>Cannot write images for this type: %1$s. Please check the %2$s folder's writing permissions.</source>
-        <target state="final">Hindi makapagsulat ng mga larawan para sa ganitong uri: %1$s. Pakiusap suriin ang mga pahintulot ng pagsusulat sa polder ng %2$s.</target>
-        <note>Line: 873</note>
-      </trans-unit>
-      <trans-unit id="d4f225ec09e4b0eba6558753f4bd8edd" approved="yes">
-        <source>Only part of the images have been regenerated. The server timed out before finishing.</source>
-        <target state="final">Ang bahagi ng mga imahe ay nabuo muli. Ang serber ay nag-time out bago ang pagtatapos.</target>
-        <note>Line: 876</note>
-      </trans-unit>
-      <trans-unit id="f2febdafe25d3517afc3c6dd3d815562" approved="yes">
-        <source>Server timed out. The watermark may not have been applied to all images.</source>
-        <target state="final">Ang serbe ay nag-time out. Ang watermark ay hindi nailapat sa lahat ng mga imahe.</target>
-        <note>Line: 880</note>
-      </trans-unit>
-      <trans-unit id="606495559093a136ed6f2c9daee2645f" approved="yes">
-        <source>Cannot write "No picture" image to %s images folder. Please check the folder's writing permissions.</source>
-        <target state="final">Hindi maaring isulat ang "Walang larawan" na imahe sa polder ng mga imahe ng %s. Pakiusap suriin ang mga pahintulot ng pagsusulat ng polder.</target>
-        <note>Line: 885</note>
-      </trans-unit>
-      <trans-unit id="4004c7590c68a8cbbe499736c56bc33c" approved="yes">
-        <source>Error: Your server configuration is not compatible with the new image system. No images were moved.</source>
-        <target state="final">Kamalian: Ang pagsasaayos ng iyong serber ay hindi tugma sa sistema ng bagong imahe. Walang mga imahe ang inilipat.</target>
-        <note>Line: 913</note>
-      </trans-unit>
-      <trans-unit id="95871efade00fbd0243355ce7937c40a" approved="yes">
-        <source>Error: Some -- or all -- images cannot be moved.</source>
-        <target state="final">Kamalian: Ilan sa -- o lahat -- hindi maaaring ilipat ang mga imahe.</target>
-        <note>Line: 927</note>
+        <note>Line: 208</note>
       </trans-unit>
     </body>
   </file>
@@ -106,12 +66,31 @@
       </trans-unit>
     </body>
   </file>
+  <file original="src/Core/Domain/ImageSettings/CommandHandler/RegenerateThumbnailsHandler.php" source-language="en" target-language="tl" datatype="plaintext">
+    <body>
+      <trans-unit id="d4f225ec09e4b0eba6558753f4bd8edd" approved="yes">
+        <source>Only part of the images have been regenerated. The server timed out before finishing.</source>
+        <target state="final">Ang bahagi ng mga imahe ay nabuo muli. Ang serber ay nag-time out bago ang pagtatapos.</target>
+        <note>Line: 95</note>
+      </trans-unit>
+      <trans-unit id="8b772dad7cc4ed15eaf0c433f861e55c" approved="yes">
+        <source>Cannot write images for this type: %1$s. Please check the %2$s folder's writing permissions.</source>
+        <target state="final">Hindi makapagsulat ng mga larawan para sa ganitong uri: %1$s. Pakiusap suriin ang mga pahintulot ng pagsusulat sa polder ng %2$s.</target>
+        <note>Line: 107</note>
+      </trans-unit>
+      <trans-unit id="f2febdafe25d3517afc3c6dd3d815562" approved="yes">
+        <source>Server timed out. The watermark may not have been applied to all images.</source>
+        <target state="final">Ang serbe ay nag-time out. Ang watermark ay hindi nailapat sa lahat ng mga imahe.</target>
+        <note>Line: 102</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/Core/Shop/LogoUploader.php" source-language="en" target-language="tl" datatype="plaintext">
     <body>
       <trans-unit id="f003149576f4755d74550952febe14bb" approved="yes">
         <source>An error occurred while uploading the favicon: cannot copy file "%s" to folder "%s".</source>
         <target state="final">Nangyayari ang isang kamalian habang nag-a-upload ang favicon: hindi pwede na kopyahin ang payl "%s" sa polder "%s".</target>
-        <note>Line: 234</note>
+        <note>Line: 222</note>
       </trans-unit>
     </body>
   </file>
@@ -120,7 +99,7 @@
       <trans-unit id="ebc7584c0a97bc4aa867c11fc4760b3f" approved="yes">
         <source>Your theme has been correctly exported: %path%</source>
         <target state="final">Na-export nang wasto ang iyong tema: %path%</target>
-        <note>Line: 83</note>
+        <note>Line: 86</note>
       </trans-unit>
     </body>
   </file>
@@ -129,7 +108,7 @@
       <trans-unit id="29dae1d163226f90bb206b333bbffe1d" approved="yes">
         <source>The page Category cannot be moved here.</source>
         <target state="final">Ang pahina ng Kategorya ay hindi maaaring ilipat dito.</target>
-        <note>Line: 1123</note>
+        <note>Line: 1025</note>
       </trans-unit>
     </body>
   </file>
@@ -158,6 +137,12 @@
         <target state="final">Hindi balido ang pomat ng payl.</target>
         <note>Line: 77</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Design/ImageSettings/ImageType/edit.html.twig" source-language="en" target-language="tl" datatype="plaintext">
+    <body>
+      
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Design/Theme/Blocks/logo_configuration.html.twig" source-language="en" target-language="tl" datatype="plaintext">

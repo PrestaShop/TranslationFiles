@@ -2,15 +2,15 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="admin-dev/themes/default/template/controllers/images/content.tpl" source-language="en" target-language="cs" datatype="plaintext">
     <body>
-      <trans-unit id="5fe1c6d39261cafbe5e6d827330d3841" approved="yes">
-        <source>By default, all images settings are already installed in your store. Do not delete them, you will need it!</source>
-        <target state="final">Ve výchozím stavu jsou všechna nastavení obrázků obchodu již provedena. Neodstraňujte je, budete je potřebovat!</target>
-        <note>Line: 27</note>
-      </trans-unit>
       <trans-unit id="85cf8b897040b0bc24d97db52d0922ee" approved="yes">
         <source>Select "No" only if your server timed out and you need to resume the regeneration.</source>
         <target state="final">Zvolte "Ne" pouze tehdy, pokud na váš server vypršela doba běhu skriptu a je třeba pokračovat v generování.</target>
         <note>Line: 121</note>
+      </trans-unit>
+      <trans-unit id="5fe1c6d39261cafbe5e6d827330d3841" approved="yes">
+        <source>By default, all images settings are already installed in your store. Do not delete them, you will need it!</source>
+        <target state="final">Ve výchozím stavu jsou všechna nastavení obrázků obchodu již provedena. Neodstraňujte je, budete je potřebovat!</target>
+        <note>Line: 27</note>
       </trans-unit>
     </body>
   </file>
@@ -43,110 +43,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="controllers/admin/AdminImagesController.php" source-language="en" target-language="cs" datatype="plaintext">
-    <body>
-      <trans-unit id="8f12dd450ceed5b4da6a4d6d11b1bd12" approved="yes">
-        <source>Choose which image formats you want to be generated. Base image will always have .jpg extension, other formats will have .webp or .avif.</source>
-        <target state="final">Vyberte, jaké formáty obrázků chcete generovat. Základní obrázek bude mít vždy příponu .jpg, ostatní formáty budou mít .webp nebo .avif.</target>
-        <note>Line: 124</note>
-      </trans-unit>
-      <trans-unit id="576d1a59cae85fc41c31d27433e17d37" approved="yes">
-        <source>Ranges from 0 (worst quality, smallest file) to 100 (best quality, biggest file).</source>
-        <target state="final">Se pohybuje od 0 (nejhorší kvalita, nejmenší soubor) do 100 (nejlepší kvalita, největší soubor)</target>
-        <note>Line: 187</note>
-      </trans-unit>
-      <trans-unit id="49caff79e5dca417b2b2c37fc7ef61af" approved="yes">
-        <source>Recommended: 90.</source>
-        <target state="final">Doporučeno: 90.</target>
-        <note>Line: 170</note>
-      </trans-unit>
-      <trans-unit id="c1a1204bac358b5068446c93ec34bc87" approved="yes">
-        <source>PNG compression is lossless: unlike JPG, you do not lose image quality with a high compression ratio. However, photographs will compress very badly.</source>
-        <target state="final">PNG komprese je bezztrátová: ne jako JPG, ale na fotkách se špatně aplikuje komprese.</target>
-        <note>Line: 178</note>
-      </trans-unit>
-      <trans-unit id="ce1cd64739c592c80f58012b38f5c42f" approved="yes">
-        <source>Ranges from 0 (biggest file) to 9 (smallest file, slowest decompression).</source>
-        <target state="final">Rozsah od 0 (největší soubor) do 9 (nejmenší soubor, nejpomalejší dekomprese).</target>
-        <note>Line: 178</note>
-      </trans-unit>
-      <trans-unit id="4b1fa40679bbc322bc244f9f09830681" approved="yes">
-        <source>Recommended: 7.</source>
-        <target state="final">Doporučeno: 7.</target>
-        <note>Line: 178</note>
-      </trans-unit>
-      <trans-unit id="d9fe6fa30a999a9a89d81de9faf02df8" approved="yes">
-        <source>Recommended: %d.</source>
-        <target state="final">Doporučeno: %d.</target>
-        <note>Line: 192</note>
-      </trans-unit>
-      <trans-unit id="e425d33122fa9152a34d746c60b0903b" approved="yes">
-        <source>The maximum file size of pictures that customers can upload to customize a product (in bytes).</source>
-        <target state="final">Maximální velikost souboru obrázku, který mohou zákazníci nahrát pro vylepšení povědomí o produktu (v bajtech).</target>
-        <note>Line: 223</note>
-      </trans-unit>
-      <trans-unit id="273ad45c9ec7fbd15b705f1d8b272bdb" approved="yes">
-        <source>Width of product customization pictures that customers can upload (in pixels).</source>
-        <target state="final">Šířka produktu přizpůsobení obrázků, které zákazníci mohou odeslat (v pixelech).</target>
-        <note>Line: 233</note>
-      </trans-unit>
-      <trans-unit id="fd70ea0d8dbbe0a675d717812b3253fe" approved="yes">
-        <source>Height of product customization pictures that customers can upload (in pixels).</source>
-        <target state="final">Šířka produktu přizpůsobení obrázků, které zákazníci mohou odeslat (v pixelech).</target>
-        <note>Line: 244</note>
-      </trans-unit>
-      <trans-unit id="48658689e18e12e430668e1f2419b0d0" approved="yes">
-        <source>JPEG images have a small file size and standard quality. PNG images have a larger file size, a higher quality and support transparency. Note that in all cases the image files will have the .jpg extension.</source>
-        <target state="final">JPEG obrázky mají malou velikost a standardní kvalitu. PNG obrázky mají větší velikost, vyšší kvalitu a podporu průhlednosti. Všimněte si, že ve všech případech obrazové soubory budou mít. jpg příponu.</target>
-        <note>Line: 262</note>
-      </trans-unit>
-      <trans-unit id="c031c7c1498d22082b4dcbac4fac27d4" approved="yes">
-        <source>WARNING: This feature may not be compatible with your theme, or with some of your modules. In particular, PNG mode is not compatible with the Watermark module. If you encounter any issues, turn it off by selecting "Use JPEG".</source>
-        <target state="final">UPOZORNĚNÍ: Tato funkce nemusí být kompatibilní s tématem nebo s některými moduly. Zejména PNG režim není kompatibilní s modulem Watermark. Pokud narazíte na problémy, vypněte jej pomocí volby "Použít JPEG".</target>
-        <note>Line: 263</note>
-      </trans-unit>
-      <trans-unit id="0e10ed6e73d3301bee138a59a23c5de9" approved="yes">
-        <source>Letters, underscores and hyphens only (e.g. "small_custom", "cart_medium", "large", "thickbox_extra-large").</source>
-        <target state="final">Písmena, podtržítka a pomlčky pouze (např "small_custom", "cart_medium","large", "thickbox_extra-large").</target>
-        <note>Line: 280</note>
-      </trans-unit>
-      <trans-unit id="845d4d07d4cfe4d1ccadcbab72efe199" approved="yes">
-        <source>Maximum image width in pixels.</source>
-        <target state="final">Maximální šířka obrázku v pixelech.</target>
-        <note>Line: 289</note>
-      </trans-unit>
-      <trans-unit id="0afd1617fde01be0d13f62668e7ad4f1" approved="yes">
-        <source>Maximum image height in pixels.</source>
-        <target state="final">Maximální výška obrázku v pixelech.</target>
-        <note>Line: 298</note>
-      </trans-unit>
-      <trans-unit id="a61f835bd3188471923b2da2717091ec" approved="yes">
-        <source>This type will be used for Product images.</source>
-        <target state="final">Tento typ bude použit pro obrázky produktů.</target>
-        <note>Line: 306</note>
-      </trans-unit>
-      <trans-unit id="1ad8a6b5f7d9fc6ca597ad11103fab6e" approved="yes">
-        <source>This type will be used for Category images.</source>
-        <target state="final">Tento typ bude použit pro obrázky kategorií.</target>
-        <note>Line: 327</note>
-      </trans-unit>
-      <trans-unit id="f193abb289c02779dabbdae3beb6e9e1" approved="yes">
-        <source>This type will be used for Brand images.</source>
-        <target state="final">Tento typ bude použit pro obrázky značek.</target>
-        <note>Line: 347</note>
-      </trans-unit>
-      <trans-unit id="01e1e70a11e81d8327a7a565869fb268" approved="yes">
-        <source>This type will be used for Supplier images.</source>
-        <target state="final">Tento typ bude použit pro obrázky dodavatelů.</target>
-        <note>Line: 367</note>
-      </trans-unit>
-      <trans-unit id="0096ae72d90ea092533743553617e0a5" approved="yes">
-        <source>This type will be used for Store images.</source>
-        <target state="final">Tento typ bude použit pro obrázky obchodů.</target>
-        <note>Line: 387</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="controllers/admin/AdminModulesPositionsController.php" source-language="en" target-language="cs" datatype="plaintext">
     <body>
       <trans-unit id="a06929291c19a7718975cb8c24dea961" approved="yes">
@@ -161,12 +57,100 @@
       <trans-unit id="cabfe7563d12c3e047000dc5703d9709" approved="yes">
         <source>Add new page category</source>
         <target state="final">Přidat novou stránku kategorie</target>
-        <note>Line: 1221</note>
+        <note>Line: 1123</note>
       </trans-unit>
       <trans-unit id="aa6f77f824eff8e896510f1bbaf9f8e5" approved="yes">
         <source>Add new page</source>
         <target state="final">Přidat novou stránku</target>
-        <note>Line: 1227</note>
+        <note>Line: 1129</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Improve/Design/ImageSettings/ImageSettingsType.php" source-language="en" target-language="cs" datatype="plaintext">
+    <body>
+      <trans-unit id="8f12dd450ceed5b4da6a4d6d11b1bd12" approved="yes">
+        <source>Choose which image formats you want to be generated. Base image will always have .jpg extension, other formats will have .webp or .avif.</source>
+        <target state="final">Vyberte, jaké formáty obrázků chcete generovat. Základní obrázek bude mít vždy příponu .jpg, ostatní formáty budou mít .webp nebo .avif.</target>
+        <note>Line: 54</note>
+      </trans-unit>
+      <trans-unit id="576d1a59cae85fc41c31d27433e17d37" approved="yes">
+        <source>Ranges from 0 (worst quality, smallest file) to 100 (best quality, biggest file).</source>
+        <target state="final">Se pohybuje od 0 (nejhorší kvalita, nejmenší soubor) do 100 (nejlepší kvalita, největší soubor)</target>
+        <note>Line: 145</note>
+      </trans-unit>
+      <trans-unit id="d9fe6fa30a999a9a89d81de9faf02df8" approved="yes">
+        <source>Recommended: %d.</source>
+        <target state="final">Doporučeno: %d.</target>
+        <note>Line: 145</note>
+      </trans-unit>
+      <trans-unit id="c1a1204bac358b5068446c93ec34bc87" approved="yes">
+        <source>PNG compression is lossless: unlike JPG, you do not lose image quality with a high compression ratio. However, photographs will compress very badly.</source>
+        <target state="final">PNG komprese je bezztrátová: ne jako JPG, ale na fotkách se špatně aplikuje komprese.</target>
+        <note>Line: 129</note>
+      </trans-unit>
+      <trans-unit id="ce1cd64739c592c80f58012b38f5c42f" approved="yes">
+        <source>Ranges from 0 (biggest file) to 9 (smallest file, slowest decompression).</source>
+        <target state="final">Rozsah od 0 (největší soubor) do 9 (nejmenší soubor, nejpomalejší dekomprese).</target>
+        <note>Line: 129</note>
+      </trans-unit>
+      <trans-unit id="e425d33122fa9152a34d746c60b0903b" approved="yes">
+        <source>The maximum file size of pictures that customers can upload to customize a product (in bytes).</source>
+        <target state="final">Maximální velikost souboru obrázku, který mohou zákazníci nahrát pro vylepšení povědomí o produktu (v bajtech).</target>
+        <note>Line: 160</note>
+      </trans-unit>
+      <trans-unit id="273ad45c9ec7fbd15b705f1d8b272bdb" approved="yes">
+        <source>Width of product customization pictures that customers can upload (in pixels).</source>
+        <target state="final">Šířka produktu přizpůsobení obrázků, které zákazníci mohou odeslat (v pixelech).</target>
+        <note>Line: 173</note>
+      </trans-unit>
+      <trans-unit id="fd70ea0d8dbbe0a675d717812b3253fe" approved="yes">
+        <source>Height of product customization pictures that customers can upload (in pixels).</source>
+        <target state="final">Šířka produktu přizpůsobení obrázků, které zákazníci mohou odeslat (v pixelech).</target>
+        <note>Line: 186</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Improve/Design/ImageSettings/ImageTypeType.php" source-language="en" target-language="cs" datatype="plaintext">
+    <body>
+      <trans-unit id="0e10ed6e73d3301bee138a59a23c5de9" approved="yes">
+        <source>Letters, underscores and hyphens only (e.g. "small_custom", "cart_medium", "large", "thickbox_extra-large").</source>
+        <target state="final">Písmena, podtržítka a pomlčky pouze (např "small_custom", "cart_medium","large", "thickbox_extra-large").</target>
+        <note>Line: 60</note>
+      </trans-unit>
+      <trans-unit id="845d4d07d4cfe4d1ccadcbab72efe199" approved="yes">
+        <source>Maximum image width in pixels.</source>
+        <target state="final">Maximální šířka obrázku v pixelech.</target>
+        <note>Line: 81</note>
+      </trans-unit>
+      <trans-unit id="0afd1617fde01be0d13f62668e7ad4f1" approved="yes">
+        <source>Maximum image height in pixels.</source>
+        <target state="final">Maximální výška obrázku v pixelech.</target>
+        <note>Line: 102</note>
+      </trans-unit>
+      <trans-unit id="a61f835bd3188471923b2da2717091ec" approved="yes">
+        <source>This type will be used for Product images.</source>
+        <target state="final">Tento typ bude použit pro obrázky produktů.</target>
+        <note>Line: 106</note>
+      </trans-unit>
+      <trans-unit id="1ad8a6b5f7d9fc6ca597ad11103fab6e" approved="yes">
+        <source>This type will be used for Category images.</source>
+        <target state="final">Tento typ bude použit pro obrázky kategorií.</target>
+        <note>Line: 111</note>
+      </trans-unit>
+      <trans-unit id="f193abb289c02779dabbdae3beb6e9e1" approved="yes">
+        <source>This type will be used for Brand images.</source>
+        <target state="final">Tento typ bude použit pro obrázky značek.</target>
+        <note>Line: 116</note>
+      </trans-unit>
+      <trans-unit id="01e1e70a11e81d8327a7a565869fb268" approved="yes">
+        <source>This type will be used for Supplier images.</source>
+        <target state="final">Tento typ bude použit pro obrázky dodavatelů.</target>
+        <note>Line: 121</note>
+      </trans-unit>
+      <trans-unit id="0096ae72d90ea092533743553617e0a5" approved="yes">
+        <source>This type will be used for Store images.</source>
+        <target state="final">Tento typ bude použit pro obrázky obchodů.</target>
+        <note>Line: 126</note>
       </trans-unit>
     </body>
   </file>
@@ -213,6 +197,15 @@
       <trans-unit id="4cd30cbec90b9e4a0b25f4e3222e417b" approved="yes">
         <source>Because it is not just selling products but also creating a universe, build pages to tell stories and catch your visitors’ interest, to turn them into loyal customers.</source>
         <target state="final">Protože to není jen prodej produktů, ale i vytvoření vesmíru, vytvořte si stránky, které budou vyprávět příběhy a zaujmou návštěvníky tak, aby se z nich staly věrný zákazníci.</target>
+        <note>Line: 34</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/Design/ImageSettings/form-settings.html.twig" source-language="en" target-language="cs" datatype="plaintext">
+    <body>
+      <trans-unit id="48658689e18e12e430668e1f2419b0d0" approved="yes">
+        <source>JPEG images have a small file size and standard quality. PNG images have a larger file size, a higher quality and support transparency. Note that in all cases the image files will have the .jpg extension.</source>
+        <target state="final">JPEG obrázky mají malou velikost a standardní kvalitu. PNG obrázky mají větší velikost, vyšší kvalitu a podporu průhlednosti. Všimněte si, že ve všech případech obrazové soubory budou mít. jpg příponu.</target>
         <note>Line: 34</note>
       </trans-unit>
     </body>
