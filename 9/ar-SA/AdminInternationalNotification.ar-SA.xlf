@@ -18,33 +18,42 @@
       </trans-unit>
     </body>
   </file>
-  <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_mails.tpl" source-language="en" target-language="ar" datatype="plaintext">
+  <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_form.tpl" source-language="en" target-language="ar" datatype="plaintext">
     <body>
+      <trans-unit id="7cefb4829c6de24b63f7a05716b43bec" approved="yes">
+        <source>This expression uses a special syntax:</source>
+        <target state="final">يستخدم هذا التعبير لبناء جملة خاص:</target>
+        <note>Line: 133</note>
+      </trans-unit>
       <trans-unit id="1f0f8b59397f34d499b181297714713a" approved="yes">
         <source>Warning! Your hosting provider is using the Suhosin patch for PHP, which limits the maximum number of fields allowed in a form:</source>
         <target state="final">تحذير! مزود الإستضافة الخاص بك يستخدم التصحيح suhosin من أجل PHP، الأمر الذي يحد من الحد الأقصى لعدد الحقول المسموح بها في الإستمارة:</target>
-        <note>Line: 39</note>
+        <note>Line: 37</note>
       </trans-unit>
       <trans-unit id="308c1cf98be9973142833c9a9dbbc2ef" approved="yes">
         <source>Please ask your hosting provider to increase the Suhosin limit to</source>
         <target state="final">يرجى طلب مزود الإستضافة رفع حد Suhosin الى</target>
-        <note>Line: 43</note>
+        <note>Line: 41</note>
       </trans-unit>
       <trans-unit id="5ad040870ae5ccaeb2d57e4d052163a4" approved="yes">
         <source>Warning! Your PHP configuration limits the maximum number of fields allowed in a form:</source>
         <target state="final">تحذير! إن إعدادات الPHP الخاصة بك تحد من عدد الحقول الأقصى المسموح به في النموذج الواحد:</target>
-        <note>Line: 45</note>
+        <note>Line: 43</note>
       </trans-unit>
       <trans-unit id="5607dc45ebdfc0baaab64d944aa88f47" approved="yes">
         <source>for max_input_vars.</source>
         <target state="final">من اجل max_input_vars.</target>
-        <note>Line: 46</note>
+        <note>Line: 44</note>
       </trans-unit>
       <trans-unit id="6e709babf4b5a0ed4194ad5240e1be2c" approved="yes">
         <source>Please ask your hosting provider to increase this limit to</source>
         <target state="final">يرجى طلب زيادة هذا الحد من مزود خدمة الإستضافة إلى</target>
-        <note>Line: 47</note>
+        <note>Line: 45</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_mails.tpl" source-language="en" target-language="ar" datatype="plaintext">
+    <body>
       <trans-unit id="bbfb7a636f839052067cc86c39fa595a" approved="yes">
         <source>%limit% for suhosin.post.max_vars.</source>
         <target state="final">%limit% من اجل suhosin.post.max_vars.</target>
@@ -57,38 +66,29 @@
       </trans-unit>
     </body>
   </file>
-  <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_modules.tpl" source-language="en" target-language="ar" datatype="plaintext">
-    <body>
-      <trans-unit id="7cefb4829c6de24b63f7a05716b43bec" approved="yes">
-        <source>This expression uses a special syntax:</source>
-        <target state="final">يستخدم هذا التعبير لبناء جملة خاص:</target>
-        <note>Line: 140</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="classes/Language.php" source-language="en" target-language="ar" datatype="plaintext">
     <body>
       <trans-unit id="bec88b0b441e9deb3008eb5b2a57ec70" approved="yes">
         <source>Sorry this language is not available</source>
         <target state="final">عذرا، هذه اللغة غير متوفرة</target>
-        <note>Line: 1210</note>
+        <note>Line: 1238</note>
       </trans-unit>
       <trans-unit id="edeb9e20655b946e4bee4ac44a6c0a7f" approved="yes">
         <source>Server does not have permissions for writing.</source>
         <target state="final">الملقم لا يكون لديك أذونات للكتابة.</target>
-        <note>Line: 1245
+        <note>Line: 1273
 Comment: @todo Throw exception</note>
       </trans-unit>
       <trans-unit id="19429992fd747ce8d7606c7ddb7fa272" approved="yes">
         <source>Language pack unavailable.</source>
         <target state="final">حزمة اللغات غير متاحة.</target>
-        <note>Line: 1282
+        <note>Line: 1310
 Comment: @todo Throw exception</note>
       </trans-unit>
       <trans-unit id="2e3dec4700000b6db379437f7d8d9fac" approved="yes">
         <source>An error occurred while creating the language: %s</source>
         <target state="final">حدث خطأ أثناء إنشاء اللغة: %s</target>
-        <note>Line: 1399</note>
+        <note>Line: 1427</note>
       </trans-unit>
     </body>
   </file>
@@ -197,15 +197,10 @@ Comment: @todo Throw exception</note>
   </file>
   <file original="classes/controller/AdminController.php" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      <trans-unit id="bb01c8c21884e974df8517110c92b22a" approved="yes">
-        <source>The translation was added successfully, but the language has not been created.</source>
-        <target state="final">وأضاف الترجمة بنجاح ولكن لم يخلق لغة كان</target>
-        <note>Line: 525</note>
-      </trans-unit>
       <trans-unit id="ae99f365ee39176c3ab50b76a95cf629" approved="yes">
         <source>Cannot add configuration %1$s for %2$s language</source>
         <target state="final">لا يمكن إضافة التهيئة%1$s للغة %2$s </target>
-        <note>Line: 1592</note>
+        <note>Line: 1604</note>
       </trans-unit>
     </body>
   </file>
@@ -220,7 +215,7 @@ Comment: @todo Throw exception</note>
       <trans-unit id="6f3455d187a23443796efdcbe044096b" approved="yes">
         <source>No tax</source>
         <target state="final">لا توجد ضريبة</target>
-        <note>Line: 169</note>
+        <note>Line: 163</note>
       </trans-unit>
     </body>
   </file>
@@ -252,87 +247,87 @@ Comment: @todo Throw exception</note>
       <trans-unit id="78973deca6d26ce225f6f66c6c30dd54" approved="yes">
         <source>Invalid theme "%theme%"</source>
         <target state="final">قالب غير صالح "%theme%"</target>
-        <note>Line: 1636</note>
+        <note>Line: 1632</note>
       </trans-unit>
       <trans-unit id="7d65d1400b9d08c5c638682170ff4d7c" approved="yes">
         <source>Invalid iso code "%iso_code%"</source>
         <target state="final">رمز Iso غير صالح "%iso_code%"</target>
-        <note>Line: 1258</note>
+        <note>Line: 1253</note>
       </trans-unit>
       <trans-unit id="b399fb01ee4e0a8ec1681fb9bcb31ce0" approved="yes">
         <source>This %type_content% file extension is not accepted.</source>
         <target state="final">لا يتم قبول امتداد هذا الملف %type_content%.</target>
-        <note>Line: 1479</note>
+        <note>Line: 1475</note>
       </trans-unit>
       <trans-unit id="1e5ec3cd42b5bac1b06b99f67cba41dd" approved="yes">
         <source>Invalid module name "%module%"</source>
         <target state="final">اسم الاضافة غير صالح "%module%"</target>
-        <note>Line: 1488</note>
+        <note>Line: 1484</note>
       </trans-unit>
       <trans-unit id="c68e9fe9015c5779289f32e2bdef0a7b" approved="yes">
         <source>Invalid mail name "%mail%"</source>
         <target state="final">اسم البريد الإلكتروني غير صالح "%mail%"</target>
-        <note>Line: 1492</note>
+        <note>Line: 1488</note>
       </trans-unit>
       <trans-unit id="40f5c232e433d178a4f912b3092d7df1" approved="yes">
         <source>Directory "%folder%" cannot be created</source>
         <target state="final">لا يمكن إنشاء المسار %folder%</target>
-        <note>Line: 1509</note>
+        <note>Line: 1505</note>
       </trans-unit>
       <trans-unit id="ccdf1aa6f4cb029f9846e53006115905" approved="yes">
         <source>Your email translations contain some invalid HTML and cannot be saved. Please check your content.</source>
         <target state="final">ترجمة البريد الإلكتروني الخاص بك يحتوي على بعض HTML غير صالحة ولا يمكن حفظه. الرجاء التحقق من المحتوى الخاص بك.</target>
-        <note>Line: 1515</note>
+        <note>Line: 1511</note>
       </trans-unit>
       <trans-unit id="f1c030f2fd8f1b382a4bffd04af59c2d" approved="yes">
         <source>Your HTML email templates cannot contain JavaScript code.</source>
         <target state="final">ويمكن HTML قوالب البريد الإلكتروني لا يحتوي على شفرة جافا سكريبت.</target>
-        <note>Line: 1521</note>
+        <note>Line: 1517</note>
       </trans-unit>
       <trans-unit id="5dc4babbd10d00e89d8e46a12942d394" approved="yes">
         <source>Empty string found, please edit: "%file%"</source>
         <target state="final">تم العثور على سلسلة فارغة، يرجى التعديل: "%file%"</target>
-        <note>Line: 1667</note>
+        <note>Line: 1663</note>
       </trans-unit>
       <trans-unit id="f2aca97fb94315864fd2fa52f3100f1e" approved="yes">
         <source>There is an error in template, an empty string has been found. Please edit: "%file%"</source>
         <target state="final">هناك خطأ في القالب، تم العثور على سلسلة فارغة. الرجاء التعديل: "%file%"</target>
-        <note>Line: 1939</note>
+        <note>Line: 1935</note>
       </trans-unit>
       <trans-unit id="616d8e7e6c0dc755a7e932c4db698317" approved="yes">
         <source>The module directory must be writable.</source>
         <target state="final">يجب أن يكون الدليل وحدة للكتابة</target>
-        <note>Line: 2002</note>
+        <note>Line: 1998</note>
       </trans-unit>
       <trans-unit id="1078d7e980a5a2fe78762cafd8480f0a" approved="yes">
         <source>A mail directory exists for the "%iso_code%" language, but not for the default language (%language%) in %folder%</source>
         <target state="final">يوجد ملف بريد للغة "%iso_code%"، ولكن ليست للغة الافتراضية (%language%) في %folder%</target>
-        <note>Line: 2261</note>
+        <note>Line: 2168</note>
       </trans-unit>
       <trans-unit id="fda679a1f72b8a9676b6926a81c5e139" approved="yes">
         <source>No Subject was found for %mail_name% in the database.</source>
         <target state="final">لم يتم العثور على أي عنوان %mail_name% في قاعدة البيانات.</target>
-        <note>Line: 2362</note>
+        <note>Line: 2275</note>
       </trans-unit>
       <trans-unit id="a662aa2e6538df75742383c7db8f3bd5" approved="yes">
         <source>There was a problem getting the mail files.</source>
         <target state="final">هناك مشكلة في الحصول على ملفات البريد.</target>
-        <note>Line: 2399</note>
+        <note>Line: 2312</note>
       </trans-unit>
       <trans-unit id="3eefb74a46023e6c9152c92803750f2b" approved="yes">
         <source>English language files must exist in %folder% folder</source>
         <target state="final">يجب أن توجد ملفات اللغة الإنجليزية في المجلد %folder%</target>
-        <note>Line: 2400</note>
+        <note>Line: 2313</note>
       </trans-unit>
       <trans-unit id="c4c005678d26a593268006bc4a44c179" approved="yes">
         <source>Cannot write language file for email subjects. Path is: %folder%</source>
         <target state="final">لا يمكن كتابة ملف اللغة لمواضيع البريد الإلكتروني. المسار هو: %folder%</target>
-        <note>Line: 2798</note>
+        <note>Line: 2728</note>
       </trans-unit>
       <trans-unit id="05b17ff64944116b14a3ec88f2080a5e" approved="yes">
         <source>Cannot write into the "%file%"</source>
         <target state="final">لا يمكن الكتابة في "%file%"</target>
-        <note>Line: 3000</note>
+        <note>Line: 2935</note>
       </trans-unit>
     </body>
   </file>
@@ -408,17 +403,17 @@ Comment: @todo Throw exception</note>
       <trans-unit id="9289665482a13fc74be054caef49b63e" approved="yes">
         <source>This currency already exists.</source>
         <target state="final">هذه العملة موجودة.</target>
-        <note>Line: 587</note>
+        <note>Line: 534</note>
       </trans-unit>
       <trans-unit id="8246d0c794e7db090587c4797b2a234f" approved="yes">
         <source>You cannot delete the default currency</source>
         <target state="final">لا يمكنك حذف العملة الافتراضية</target>
-        <note>Line: 626</note>
+        <note>Line: 573</note>
       </trans-unit>
       <trans-unit id="7c77e53206853cb381e91e037554faa3" approved="yes">
         <source>You cannot disable the default currency</source>
         <target state="final">لا يمكنك تعطيل العملة الافتراضية</target>
-        <note>Line: 630</note>
+        <note>Line: 577</note>
       </trans-unit>
     </body>
   </file>
@@ -427,65 +422,51 @@ Comment: @todo Throw exception</note>
       <trans-unit id="2f236f9450ce8714611e468181064659" approved="yes">
         <source>You cannot change the status of the default language.</source>
         <target state="final">لا يمكنك تغيير الوضع القائم في اللغة الافتراضية.</target>
-        <note>Line: 409</note>
+        <note>Line: 378</note>
       </trans-unit>
       <trans-unit id="8037670f9e6df1f09e040ff8ab047fac" approved="yes">
         <source>An error occurred while copying "No Picture" image to your product folder.</source>
         <target state="final">حدث خطأ أثناء نسخ صورة إلى مجلد المنتج.</target>
-        <note>Line: 361</note>
+        <note>Line: 330</note>
       </trans-unit>
       <trans-unit id="0773497a933e6c2b618678b02cbdf7a1" approved="yes">
         <source>An error occurred while copying "No picture" image to your category folder.</source>
         <target state="final">حدث خطأ أثناء نسخ صورة  إلى مجلد التصنيف الخاصة بك.</target>
-        <note>Line: 365</note>
+        <note>Line: 334</note>
       </trans-unit>
       <trans-unit id="6509c8bfa3f06725a6016e6a429dbcd9" approved="yes">
         <source>An error occurred while copying "No picture" image to your brand folder.</source>
         <target state="final">حدث خطأ أثناء نسخ صورة "لا صورة" إلى مجلد العلامة التجارية.</target>
-        <note>Line: 369</note>
+        <note>Line: 338</note>
       </trans-unit>
       <trans-unit id="59382adebc7f0d65c42fe773d443e4c7" approved="yes">
         <source>This ISO code is already linked to another language.</source>
         <target state="final">ويرتبط هذا الرمز ISO بالفعل إلى لغة أخرى.</target>
-        <note>Line: 395</note>
+        <note>Line: 364</note>
       </trans-unit>
       <trans-unit id="8bd94436fa6738863292fb9823368694" approved="yes">
         <source>You cannot delete the default language.</source>
         <target state="final">لا يمكنك حذف اللغة الافتراضية</target>
-        <note>Line: 413</note>
+        <note>Line: 382</note>
       </trans-unit>
       <trans-unit id="f25eedbf89efbd0cfce488fe01f9c4cb" approved="yes">
         <source>You cannot delete the language currently in use. Please select a different language.</source>
         <target state="final">لا يمكنك حذف اللغة قيد الاستخدام حاليا. الرجاء تغيير اللغات قبل حذفها.</target>
-        <note>Line: 417</note>
+        <note>Line: 386</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/LocalizationController.php" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      <trans-unit id="c9468b4bd45a165049277af6756db10e" approved="yes">
-        <source>Localization pack imported successfully.</source>
-        <target state="final">حزمة التعريب استيرادها بنجاح</target>
-        <note>Line: 212</note>
-      </trans-unit>
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/TranslationsController.php" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      <trans-unit id="6cfb80c26b415f8f6467cf07b0c700dd" approved="yes">
-        <source>The translation was successfully copied.</source>
-        <target state="final">اللغة نسخها بنجاح</target>
-        <note>Line: 318</note>
-      </trans-unit>
-      <trans-unit id="f22def68c5c456936078623b6dcd27ff" approved="yes">
-        <source>The translations have been successfully added.</source>
-        <target state="final">ترجمة وأضاف بنجاح</target>
-        <note>Line: 177</note>
-      </trans-unit>
       <trans-unit id="962f6e835582ebb404a37893f46c60f3" approved="yes">
         <source>An error has occurred, this module does not exist: %s</source>
         <target state="final">حدث خطأ، هذه الاضافة غير موجودة: %s</target>
-        <note>Line: 143</note>
+        <note>Line: 141</note>
       </trans-unit>
     </body>
   </file>
@@ -559,17 +540,41 @@ Comment: @todo Throw exception</note>
       
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Twig/Component/Legacy/LegacySessionAlert.php" source-language="en" target-language="ar" datatype="plaintext">
+    <body>
+      <trans-unit id="6cfb80c26b415f8f6467cf07b0c700dd" approved="yes">
+        <source>The translation was successfully copied.</source>
+        <target state="final">اللغة نسخها بنجاح</target>
+        <note>Line: 69</note>
+      </trans-unit>
+      <trans-unit id="f22def68c5c456936078623b6dcd27ff" approved="yes">
+        <source>The translations have been successfully added.</source>
+        <target state="final">ترجمة وأضاف بنجاح</target>
+        <note>Line: 70</note>
+      </trans-unit>
+      <trans-unit id="bb01c8c21884e974df8517110c92b22a" approved="yes">
+        <source>The translation was added successfully, but the language has not been created.</source>
+        <target state="final">وأضاف الترجمة بنجاح ولكن لم يخلق لغة كان</target>
+        <note>Line: 75</note>
+      </trans-unit>
+      <trans-unit id="c9468b4bd45a165049277af6756db10e" approved="yes">
+        <source>Localization pack imported successfully.</source>
+        <target state="final">حزمة التعريب استيرادها بنجاح</target>
+        <note>Line: 79</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Twig/TranslationsExtension.php" source-language="en" target-language="ar" datatype="plaintext">
     <body>
       <trans-unit id="41ca3d8439f6e8beab7af312714e37f0" approved="yes">
         <source>Translation successfully updated</source>
         <target state="final">تم تحديث الترجمة بنجاح</target>
-        <note>Line: 225</note>
+        <note>Line: 222</note>
       </trans-unit>
       <trans-unit id="b3991113a051bbeb759a923bc636ad8d" approved="yes">
         <source>Failed to update translation</source>
         <target state="final">فشل تحديث الترجمة</target>
-        <note>Line: 230</note>
+        <note>Line: 227</note>
       </trans-unit>
     </body>
   </file>
