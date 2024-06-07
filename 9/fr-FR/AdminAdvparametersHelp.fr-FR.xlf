@@ -7,6 +7,16 @@
         <target state="final">Activer ou désactiver la page Attributs migrée.</target>
         <note>Line: 29</note>
       </trans-unit>
+      <trans-unit id="54fc44d77b5d7cbb0234880a1931dad9" approved="yes">
+        <source>Enable or disable the Admin API when multistore is enabled.</source>
+        <target state="final">Activer ou désactiver l'API d'administration lorsque le mode multiboutique est activé.</target>
+        <note>Line: 33</note>
+      </trans-unit>
+      <trans-unit id="e6eadec0336eb998ef6d6f4ef534fc41" approved="yes">
+        <source>Experimental API endpoints are disabled by default in prod environment, this configuration allows to forcefully enable them.</source>
+        <target state="final">Les points de terminaison de l'API expérimentale sont désactivés par défaut dans l'environnement de production, cette configuration permet de les activer de force.</target>
+        <note>Line: 37</note>
+      </trans-unit>
       <trans-unit id="f86c7bed82286a17b1e557d7235ed4a0" approved="yes">
         <source>Enable or disable the migrated cart rules page.</source>
         <target state="final">Activer ou désactiver la page Règles panier migrée.</target>
@@ -56,6 +66,11 @@
         <source>Enable or disable the migrated order states page.</source>
         <target state="final">Activer ou désactiver la page d'États des commandes migrée.</target>
         <note>Line: 77</note>
+      </trans-unit>
+      <trans-unit id="15298e67b30b928fd857c6d2625debda" approved="yes">
+        <source>Enable / Disable the new front container.</source>
+        <target state="final">Activer / Désactiver le nouveau front container</target>
+        <note>Line: 80</note>
       </trans-unit>
     </body>
   </file>
@@ -201,6 +216,26 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <target state="final">Vérifiez que les six méthodes GET, POST, PUT, PATCH, DELETE et HEAD sont prises en charge par ce serveur.</target>
         <note>Line: 65</note>
       </trans-unit>
+      <trans-unit id="a69a11ce9386d040c3f8190631a94405" approved="yes">
+        <source>Before enabling the Admin API, you must be sure to:</source>
+        <target state="final">Avant d'activer l'API Admin, vous devez vous assurer que :</target>
+        <note>Line: 50</note>
+      </trans-unit>
+      <trans-unit id="baa8a433ad80dca4cd8228bed0f9830a" approved="yes">
+        <source>Check that the ps_apiressources module is installed and enabled.</source>
+        <target state="final">Vérifiez que le module ps_apiressources est installé et activé.</target>
+        <note>Line: 55</note>
+      </trans-unit>
+      <trans-unit id="4fd3837cfea9a5bd4ff2e83318df2cd5" approved="yes">
+        <source>Check that your Admin API endpoint uses HTTPS protocol.</source>
+        <target state="final">Vérifiez que le point de terminaison de votre API d'administration utilise le protocole HTTPS.</target>
+        <note>Line: 70</note>
+      </trans-unit>
+      <trans-unit id="256977e036c3b9977b5ad2057ce25747" approved="yes">
+        <source>Admin API forces the use of HTTPS with TLSv1.2 or higher, you can disable this check for debug mode only.</source>
+        <target state="final">L'API d'administration impose l'utilisation de HTTPS avec TLSv1.2 ou supérieur, vous pouvez désactiver cette vérification pour le mode de débogage uniquement.</target>
+        <note>Line: 86</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/CombineCompressCacheType.php" source-language="en" target-language="fr" datatype="plaintext">
@@ -218,6 +253,16 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <source>Enable or disable debug mode. Debug mode will enable extended error reporting, display the Symfony debug bar, and other features.</source>
         <target state="final">Activer ou désactiver le mode debug. Le mode debug affichera un rapport étendu d'erreur, la barre de debug Symfony ainsi que d'autres fonctionnalités.</target>
         <note>Line: 53</note>
+      </trans-unit>
+      <trans-unit id="fe050086c8e957bb40299c4611b4bbc3" approved="yes">
+        <source>(Optional) Insert a cookie name to enable the debug mode only when this cookie is set.</source>
+        <target state="final">(Facultatif) Insérer un nom de cookie pour activer le mode débogage uniquement lorsque ce cookie est défini.</target>
+        <note>Line: 59</note>
+      </trans-unit>
+      <trans-unit id="9bf478ab5066ec64ad324dc382ae9f4d" approved="yes">
+        <source>(Optional) Insert a value to enable the debug mode only when the cookie configured above is set to this value.</source>
+        <target state="final">(Facultatif) Insérer une valeur pour activer le mode de débogage uniquement lorsque le cookie configuré ci-dessus est défini sur cette valeur.</target>
+        <note>Line: 68</note>
       </trans-unit>
       <trans-unit id="913a55381fe0db5ad85c59b8a693fd18" approved="yes">
         <source>Enable or disable debug profiling. Debug profiling will display performance-related information under each page and help find performance bottlenecks in your store.</source>
@@ -594,6 +639,11 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <target state="final">Vous pouvez lire plus d'informations sur l'import sur :</target>
         <note>Line: 39</note>
       </trans-unit>
+      <trans-unit id="69b2fa39bac2b03f7b5c8e63bf5c6e99" approved="yes">
+        <source>https://docs.prestashop-project.org/v.8-documentation/user-guide/configuring-shop/advanced-parameters/import</source>
+        <target state="final">https://docs.prestashop-project.org/v.8-documentation/user-guide/configuring-shop/advanced-parameters/import</target>
+        <note>Line: 41</note>
+      </trans-unit>
       <trans-unit id="3bb4a695db0c87a3d70a2deffddeb743" approved="yes">
         <source>Read more about the CSV format at:</source>
         <target state="final">Plus d'informations sur le format CSV sur :</target>
@@ -636,7 +686,11 @@ Comment: Special case for Product : either one or the other. Not both.</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/FeatureFlag/FormTheme/feature_flag_form.html.twig" source-language="en" target-language="fr" datatype="plaintext">
     <body>
-      
+      <trans-unit id="dde647098e1fb2236dc49df662679a7f" approved="yes">
+        <source>This FeatureFlag is forced by Env.</source>
+        <target state="final">Ce FeatureFlag est forcé par Env.</target>
+        <note>Line: 51</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/LogsPage/Blocks/severity_levels.html.twig" source-language="en" target-language="fr" datatype="plaintext">
