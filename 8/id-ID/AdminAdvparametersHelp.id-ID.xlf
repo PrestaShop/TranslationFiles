@@ -27,21 +27,6 @@
         <note>Line: 1074
 Comment: Special case for Product : either one or the other. Not both.</note>
       </trans-unit>
-      <trans-unit id="4bc14a0f722453ba235bc3fb52d95ffb" approved="yes">
-        <source>A category root is where a category tree can begin. This is used with multistore.</source>
-        <target state="final">Kategori root adalah kategori dengan level teratas, biasanya digunakan pada multistore.</target>
-        <note>Line: 212</note>
-      </trans-unit>
-      <trans-unit id="2d743ae4c74db2a22d79e1e950e719e5" approved="yes">
-        <source>0 = Use quantity set in product, 1 = Use quantity from warehouse.</source>
-        <target state="final">0 = Gunakan stok dari produk, 1 = Gunakan stok dari gudang.</target>
-        <note>Line: 335</note>
-      </trans-unit>
-      <trans-unit id="aaf88088b0ac3f2992888fdfe00b5d76" approved="yes">
-        <source>ID of the warehouse to set as storage.</source>
-        <target state="final">ID gudang yang digunakan sebagai penyimpanan.</target>
-        <note>Line: 339</note>
-      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminShopController.php" source-language="en" target-language="id" datatype="plaintext">
@@ -148,6 +133,11 @@ Comment: Special case for Product : either one or the other. Not both.</note>
   </file>
   <file original="src/Core/Import/EntityField/Provider/CategoryFieldsProvider.php" source-language="en" target-language="id" datatype="plaintext">
     <body>
+      <trans-unit id="4bc14a0f722453ba235bc3fb52d95ffb" approved="yes">
+        <source>A category root is where a category tree can begin. This is used with multistore.</source>
+        <target state="final">Kategori root adalah kategori dengan level teratas, biasanya digunakan pada multistore.</target>
+        <note>Line: 64</note>
+      </trans-unit>
       <trans-unit id="11cd708df7411da4546d8580356e711a" approved="yes">
         <source>Ignore this field if you don't use the Multistore tool. If you leave this field empty, the default shop will be used.</source>
         <target state="final">Hiraukan field ini jika Anda tidak menggunakan Multistore. Jika field ini dikosongkan, toko default akan digunakan.</target>
@@ -157,6 +147,16 @@ Comment: Special case for Product : either one or the other. Not both.</note>
   </file>
   <file original="src/Core/Import/EntityField/Provider/CombinationFieldsProvider.php" source-language="en" target-language="id" datatype="plaintext">
     <body>
+      <trans-unit id="2d743ae4c74db2a22d79e1e950e719e5" approved="yes">
+        <source>0 = Use quantity set in product, 1 = Use quantity from warehouse.</source>
+        <target state="final">0 = Gunakan stok dari produk, 1 = Gunakan stok dari gudang.</target>
+        <note>Line: 95</note>
+      </trans-unit>
+      <trans-unit id="aaf88088b0ac3f2992888fdfe00b5d76" approved="yes">
+        <source>ID of the warehouse to set as storage.</source>
+        <target state="final">ID gudang yang digunakan sebagai penyimpanan.</target>
+        <note>Line: 100</note>
+      </trans-unit>
       <trans-unit id="5702db29cfdd93934ed330edb201ecf3" approved="yes">
         <source>Enable Advanced Stock Management on product (0 = No, 1 = Yes)</source>
         <target state="final">Aktifkan Advanced Stock Management on product (0 = Tidak, 1 = Ya)</target>
@@ -171,6 +171,11 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <target state="final">Aktifkan Advanced Stock Management on product (0 = Tidak, 1 = Ya).</target>
         <note>Line: 155</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="src/Core/Import/EntityField/Provider/StoreContactFieldsProvider.php" source-language="en" target-language="id" datatype="plaintext">
+    <body>
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/CombineCompressCacheType.php" source-language="en" target-language="id" datatype="plaintext">
@@ -331,11 +336,6 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <target state="final">Halaman ini akan ditampilkan pada saat login.</target>
         <note>Line: 229</note>
       </trans-unit>
-      <trans-unit id="d222c4d0463bd3f146536ac89c0d7c77" approved="yes">
-        <source>Password should be at least %num% characters long.</source>
-        <target state="final">Panjang password minimum %num% karakter.</target>
-        <note>Line: 173</note>
-      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Import/ImportType.php" source-language="en" target-language="id" datatype="plaintext">
@@ -383,6 +383,39 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <source>Quick description of the key: who it is for, what permissions it has, etc.</source>
         <target state="final">Keterangan singkat mengenai key: untuk siapa, apa hak aksesnya, dll.</target>
         <note>Line: 133</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Type/ChangePasswordType.php" source-language="en" target-language="id" datatype="plaintext">
+    <body>
+      <trans-unit id="d222c4d0463bd3f146536ac89c0d7c77" approved="yes">
+        <source>Password should be at least %num% characters long.</source>
+        <target state="final">Panjang password minimum %num% karakter.</target>
+        <note>Line: 90</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Common/Grid/Columns/Content/severity_level.html.twig" source-language="en" target-language="id" datatype="plaintext">
+    <body>
+      <trans-unit id="b80c52e7f679fba3c2837b42705fe779" approved="yes">
+        <source>Informative only</source>
+        <target state="final">Hanya Informatif</target>
+        <note>Line: 31</note>
+      </trans-unit>
+      <trans-unit id="0eaadb4fcb48a0a0ed7bc9868be9fbaa" approved="yes">
+        <source>Warning</source>
+        <target state="final">Peringatan</target>
+        <note>Line: 34</note>
+      </trans-unit>
+      <trans-unit id="902b0d55fddef6f8d651fe1035b7d4bd" approved="yes">
+        <source>Error</source>
+        <target state="final">Eror</target>
+        <note>Line: 37</note>
+      </trans-unit>
+      <trans-unit id="4a378407770df6a42474ec5db9f54740" approved="yes">
+        <source>Major issue (crash)!</source>
+        <target state="final">Mayor masalah (crash)</target>
+        <note>Line: 40</note>
       </trans-unit>
     </body>
   </file>
@@ -500,26 +533,6 @@ Comment: Special case for Product : either one or the other. Not both.</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/LogsPage/Blocks/severity_levels.html.twig" source-language="en" target-language="id" datatype="plaintext">
     <body>
-      <trans-unit id="b80c52e7f679fba3c2837b42705fe779" approved="yes">
-        <source>Informative only</source>
-        <target state="final">Hanya Informatif</target>
-        <note>Line: 36</note>
-      </trans-unit>
-      <trans-unit id="0eaadb4fcb48a0a0ed7bc9868be9fbaa" approved="yes">
-        <source>Warning</source>
-        <target state="final">Peringatan</target>
-        <note>Line: 41</note>
-      </trans-unit>
-      <trans-unit id="902b0d55fddef6f8d651fe1035b7d4bd" approved="yes">
-        <source>Error</source>
-        <target state="final">Eror</target>
-        <note>Line: 46</note>
-      </trans-unit>
-      <trans-unit id="4a378407770df6a42474ec5db9f54740" approved="yes">
-        <source>Major issue (crash)!</source>
-        <target state="final">Mayor masalah (crash)</target>
-        <note>Line: 51</note>
-      </trans-unit>
       <trans-unit id="3979bb684920e9e9dc86e266f93d8c87" approved="yes">
         <source>Severity levels</source>
         <target state="final">Keparahan tingkat</target>

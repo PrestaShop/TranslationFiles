@@ -14,12 +14,12 @@
       <trans-unit id="30a367ba686890c829937e768d588b8f" approved="yes">
         <source>You cannot set 0 or a negative position, the minimum is 1.</source>
         <target state="final">0 또는 음수 위치로 설정할 수 없으며, 최소값은 1입니다.</target>
-        <note>Line: 7233</note>
+        <note>Line: 7235</note>
       </trans-unit>
       <trans-unit id="cf99dad7d7306d9ac01ba5a2e2d2c715" approved="yes">
         <source>You cannot set a position greater than the total number of products in the category, starting at 1.</source>
         <target state="final">분류 내의 총 상품 갯수보다 더 큰 위치 값으로 설정할 수 없습니다, 1부터 시작합니다.</target>
-        <note>Line: 7254</note>
+        <note>Line: 7256</note>
       </trans-unit>
     </body>
   </file>
@@ -187,11 +187,6 @@
         <source>Invalid voucher.</source>
         <target state="final">잘못된 쿠폰.</target>
         <note>Line: 659</note>
-      </trans-unit>
-      <trans-unit id="2cb44aa56605e05e0b912131875edcb7" approved="yes">
-        <source>There are not enough products in stock.</source>
-        <target state="final">상품의 재고가 충분하지 않습니다.</target>
-        <note>Line: 490</note>
       </trans-unit>
       <trans-unit id="01816dd287bcb3b88ad3f63970ce045f" approved="yes">
         <source>Invalid quantity</source>
@@ -417,51 +412,6 @@
         <target state="final">묶음에 상품을 추가하던 중 오류가 발생했습니다.</target>
         <note>Line: 3187</note>
       </trans-unit>
-      <trans-unit id="9f0a59f1609218c049435abd2351bd84" approved="yes">
-        <source>An error occurred while updating the specific price.</source>
-        <target state="final">특정 가격을 업데이트하는 동안 오류가 발생했습니다. </target>
-        <note>Line: 1025</note>
-      </trans-unit>
-      <trans-unit id="184a2ae304c9a05459cca0cbf8755b3a" approved="yes">
-        <source>The specific price ID is invalid.</source>
-        <target state="final">특정 가격 ID가 잘못되었습니다.</target>
-        <note>Line: 1035</note>
-      </trans-unit>
-      <trans-unit id="0f8b5843f1391991d17f744ce9771e98" approved="yes">
-        <source>An error occurred while attempting to delete the specific price.</source>
-        <target state="final">특정 가격을 삭제하던 중 오류가 발생했습니다.</target>
-        <note>Line: 1039</note>
-      </trans-unit>
-      <trans-unit id="f19434225ce7712f091bcfc109413732" approved="yes">
-        <source>An attachment name is required.</source>
-        <target state="final">첨부 파일 이름이 필요합니다.</target>
-        <note>Line: 450</note>
-      </trans-unit>
-      <trans-unit id="34a22d134d958abd17afd6e6cd8b79e2" approved="yes">
-        <source>This attachment was unable to be loaded into the database.</source>
-        <target state="final">이 첨부 파일은 데이터베이스로 불러올 수 없습니다.</target>
-        <note>Line: 501</note>
-      </trans-unit>
-      <trans-unit id="c24ed8eb6e592f766cd1d31ae49ed5b1" approved="yes">
-        <source>A specific price already exists for these parameters.</source>
-        <target state="final">이 매개변수에 대한 특정 가격이 이미 존재합니다.</target>
-        <note>Line: 1599</note>
-      </trans-unit>
-      <trans-unit id="da792c9eb1652c5939671ae14592b264" approved="yes">
-        <source>Invalid description for %s language.</source>
-        <target state="final">%s 언어에 대한 잘못된 상세 내용.</target>
-        <note>Line: 445</note>
-      </trans-unit>
-      <trans-unit id="54ffb3fc99eb10252be750eccf60e4cd" approved="yes">
-        <source>No reduction value has been submitted.</source>
-        <target state="final">할인 값이 제출되지 않았습니다.</target>
-        <note>Line: 1003</note>
-      </trans-unit>
-      <trans-unit id="d4fc03cd1b9870d5a4fdef8d17f10e2c" approved="yes">
-        <source>The submitted reduction value (0-100) is out-of-range.</source>
-        <target state="final">제출된 할인 값 (0-100) 이 범위를 벗어났습니다.</target>
-        <note>Line: 1007</note>
-      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminSuppliersController.php" source-language="en" target-language="ko" datatype="plaintext">
@@ -475,11 +425,6 @@
         <source>The address is not correct. Please make sure all of the required fields are completed.</source>
         <target state="final">주소가 잘못 되었습니다. 모든 필수 항목들이 완료되었는지 확인해 주세요.</target>
         <note>Line: 529</note>
-      </trans-unit>
-      <trans-unit id="925c714b657d85c49a9718ef792fcb95" approved="yes">
-        <source>It is not possible to delete a supplier if there are pending supplier orders.</source>
-        <target state="final">보류중인 공급사 주문들이 있다면 공급사를 삭제할 수 없습니다.</target>
-        <note>Line: 544</note>
       </trans-unit>
     </body>
   </file>
@@ -556,6 +501,21 @@
   </file>
   <file original="src/Adapter/Product/AdminProductWrapper.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
+      <trans-unit id="9f0a59f1609218c049435abd2351bd84" approved="yes">
+        <source>An error occurred while updating the specific price.</source>
+        <target state="final">특정 가격을 업데이트하는 동안 오류가 발생했습니다. </target>
+        <note>Line: 366</note>
+      </trans-unit>
+      <trans-unit id="184a2ae304c9a05459cca0cbf8755b3a" approved="yes">
+        <source>The specific price ID is invalid.</source>
+        <target state="final">특정 가격 ID가 잘못되었습니다.</target>
+        <note>Line: 564</note>
+      </trans-unit>
+      <trans-unit id="0f8b5843f1391991d17f744ce9771e98" approved="yes">
+        <source>An error occurred while attempting to delete the specific price.</source>
+        <target state="final">특정 가격을 삭제하던 중 오류가 발생했습니다.</target>
+        <note>Line: 568</note>
+      </trans-unit>
       <trans-unit id="162c051f703406dd4fab3fde66296a6e" approved="yes">
         <source>Submitted reduction value (0-100) is out-of-range</source>
         <target state="final">제출된 할인 값 (0-100) 이 범위를 벗어났습니다</target>
@@ -672,6 +632,16 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/AttachmentController.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
+      <trans-unit id="f19434225ce7712f091bcfc109413732" approved="yes">
+        <source>An attachment name is required.</source>
+        <target state="final">첨부 파일 이름이 필요합니다.</target>
+        <note>Line: 352</note>
+      </trans-unit>
+      <trans-unit id="34a22d134d958abd17afd6e6cd8b79e2" approved="yes">
+        <source>This attachment was unable to be loaded into the database.</source>
+        <target state="final">이 첨부 파일은 데이터베이스로 불러올 수 없습니다.</target>
+        <note>Line: 384</note>
+      </trans-unit>
       <trans-unit id="8a23b9ee3a4502a0de3fc32c5ba7aa65" approved="yes">
         <source>Failed to copy the file.</source>
         <target state="final">파일 복사 실패</target>
@@ -746,17 +716,31 @@
       <trans-unit id="b49b6a333fc4422d8fbfad546c47b97c" approved="yes">
         <source>Error for product %product_id%: %error_message%</source>
         <target state="final">상품 %product_id%에 오류: %error_message%</target>
-        <note>Line: 1392</note>
+        <note>Line: 1439</note>
       </trans-unit>
       <trans-unit id="ee5c982526f2e7b8e72b282dc590aafd" approved="yes">
         <source>When redirecting towards a product you must select a target product.</source>
         <target state="final">상품으로 리디렉션 시에는 대상 상품을 선택해야 합니다.</target>
-        <note>Line: 1433</note>
+        <note>Line: 1480</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/SpecificPriceController.php" source-language="en" target-language="ko" datatype="plaintext">
+    <body>
+      <trans-unit id="c24ed8eb6e592f766cd1d31ae49ed5b1" approved="yes">
+        <source>A specific price already exists for these parameters.</source>
+        <target state="final">이 매개변수에 대한 특정 가격이 이미 존재합니다.</target>
+        <note>Line: 172</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/SupplierController.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
+      <trans-unit id="925c714b657d85c49a9718ef792fcb95" approved="yes">
+        <source>It is not possible to delete a supplier if there are pending supplier orders.</source>
+        <target state="final">보류중인 공급사 주문들이 있다면 공급사를 삭제할 수 없습니다.</target>
+        <note>Line: 518</note>
+      </trans-unit>
       <trans-unit id="60df675f17670057ec657783db03d35e" approved="yes">
         <source>Unable to resize one or more of your pictures.</source>
         <target state="final">하나 이상의 사진 크기를 변경 할 수 없습니다.</target>
@@ -785,6 +769,11 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
+      <trans-unit id="2cb44aa56605e05e0b912131875edcb7" approved="yes">
+        <source>There are not enough products in stock.</source>
+        <target state="final">상품의 재고가 충분하지 않습니다.</target>
+        <note>Line: 1979</note>
+      </trans-unit>
       <trans-unit id="4fce600d4fc0429af2f5bc5861eefb3e" approved="yes">
         <source>Selected products were successfully canceled.</source>
         <target state="final">선택된 상품들이 취소되었습니다.</target>
@@ -906,16 +895,16 @@
       <trans-unit id="cf456ee90912d9e25795925d067f8952" approved="yes">
         <source>This value is too long. It should have %limit% characters or less.</source>
         <target state="final">이 값은 너무 깁니다. %limit% 자 이하여야 합니다.</target>
-        <note>Line: 87</note>
+        <note>Line: 92</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/Lists/list.html.twig" source-language="en" target-language="ko" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/Lists/list_quicknav.html.twig" source-language="en" target-language="ko" datatype="plaintext">
     <body>
       <trans-unit id="1aa1527fa7dfdbe44acb4be33af88e4c" approved="yes">
         <source>There is no result for this search. Update your filters to view other products.</source>
         <target state="final">이 검색에 대한 결과가 없습니다. 다른 상품들을 보기 위해 필터를 갱신하세요.</target>
-        <note>Line: 143</note>
+        <note>Line: 78</note>
       </trans-unit>
     </body>
   </file>
@@ -1190,12 +1179,12 @@ Comment: "It" refers to the option "Force update of friendly URL"</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/TwigTemplateForm/prestashop_ui_kit_base.html.twig" source-language="en" target-language="ko" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Resources/views/Admin/TwigTemplateForm/bootstrap_4_layout.html.twig" source-language="en" target-language="ko" datatype="plaintext">
     <body>
       <trans-unit id="b385b71f1d14c0afa6d7ca6cb18927b3" approved="yes">
         <source>There is no attachment yet.</source>
         <target state="final">아직 첨부 파일이 없습니다.</target>
-        <note>Line: 613</note>
+        <note>Line: 419</note>
       </trans-unit>
     </body>
   </file>
