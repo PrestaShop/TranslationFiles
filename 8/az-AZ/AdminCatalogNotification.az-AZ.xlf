@@ -110,11 +110,6 @@
         <target state="final">Sizin artıq bu məhsul üçün olan maksimum sayınız var.</target>
         <note>Line: 509</note>
       </trans-unit>
-      <trans-unit id="2cb44aa56605e05e0b912131875edcb7" approved="yes">
-        <source>There are not enough products in stock.</source>
-        <target state="final">Anbarda yetəri qədər məhsul yoxdur.</target>
-        <note>Line: 490</note>
-      </trans-unit>
       <trans-unit id="01816dd287bcb3b88ad3f63970ce045f" approved="yes">
         <source>Invalid quantity</source>
         <target state="final">Yanlış say</target>
@@ -249,16 +244,6 @@
         <target state="final">Siz qutunun içinə məhsul qutuları qoya bilməzsiz</target>
         <note>Line: 3185</note>
       </trans-unit>
-      <trans-unit id="9f0a59f1609218c049435abd2351bd84" approved="yes">
-        <source>An error occurred while updating the specific price.</source>
-        <target state="final">Özəl qiyməti yeniləyərkən bir yanlışlıq oldu.</target>
-        <note>Line: 1025</note>
-      </trans-unit>
-      <trans-unit id="0f8b5843f1391991d17f744ce9771e98" approved="yes">
-        <source>An error occurred while attempting to delete the specific price.</source>
-        <target state="final">Özəl qiyməti pozmağa çalışarkən bir yanlışlıq oldu.</target>
-        <note>Line: 1039</note>
-      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminSuppliersController.php" source-language="en" target-language="az" datatype="plaintext">
@@ -310,9 +295,16 @@
   </file>
   <file original="src/Adapter/Product/AdminProductWrapper.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="9f0a59f1609218c049435abd2351bd84" approved="yes">
+        <source>An error occurred while updating the specific price.</source>
+        <target state="final">Özəl qiyməti yeniləyərkən bir yanlışlıq oldu.</target>
+        <note>Line: 366</note>
+      </trans-unit>
+      <trans-unit id="0f8b5843f1391991d17f744ce9771e98" approved="yes">
+        <source>An error occurred while attempting to delete the specific price.</source>
+        <target state="final">Özəl qiyməti pozmağa çalışarkən bir yanlışlıq oldu.</target>
+        <note>Line: 568</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Core/Form/ChoiceProvider/CategoryDeleteModeChoiceProvider.php" source-language="en" target-language="az" datatype="plaintext">
@@ -426,6 +418,11 @@
       
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/SpecificPriceController.php" source-language="en" target-language="az" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/SupplierController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
       <trans-unit id="60df675f17670057ec657783db03d35e" approved="yes">
@@ -442,7 +439,11 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      
+      <trans-unit id="2cb44aa56605e05e0b912131875edcb7" approved="yes">
+        <source>There are not enough products in stock.</source>
+        <target state="final">Anbarda yetəri qədər məhsul yoxdur.</target>
+        <note>Line: 1979</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/SpecificPriceController.php" source-language="en" target-language="az" datatype="plaintext">
@@ -494,12 +495,12 @@
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/Lists/list.html.twig" source-language="en" target-language="az" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/Lists/list_quicknav.html.twig" source-language="en" target-language="az" datatype="plaintext">
     <body>
       <trans-unit id="1aa1527fa7dfdbe44acb4be33af88e4c" approved="yes">
         <source>There is no result for this search. Update your filters to view other products.</source>
         <target state="final">Bu axtarış üçün heç bir nəticə yoxdur. Başqa məhsullara baxmaq üçün süzgəclərinizi yeniləyin.</target>
-        <note>Line: 143</note>
+        <note>Line: 78</note>
       </trans-unit>
     </body>
   </file>
@@ -646,12 +647,12 @@
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/TwigTemplateForm/prestashop_ui_kit_base.html.twig" source-language="en" target-language="az" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Resources/views/Admin/TwigTemplateForm/bootstrap_4_layout.html.twig" source-language="en" target-language="az" datatype="plaintext">
     <body>
       <trans-unit id="b385b71f1d14c0afa6d7ca6cb18927b3" approved="yes">
         <source>There is no attachment yet.</source>
         <target state="final">Hələlik heç bir qoşma yoxdur.</target>
-        <note>Line: 613</note>
+        <note>Line: 419</note>
       </trans-unit>
     </body>
   </file>
