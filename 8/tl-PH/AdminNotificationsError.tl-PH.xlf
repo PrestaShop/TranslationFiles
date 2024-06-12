@@ -14,17 +14,17 @@
       
     </body>
   </file>
-  <file original="admin-dev/themes/default/template/error.tpl" source-language="en" target-language="tl" datatype="plaintext">
+  <file original="admin-dev/themes/new-theme/template/components/layout/error_messages.tpl" source-language="en" target-language="tl" datatype="plaintext">
     <body>
       
     </body>
   </file>
-  <file original="admin-dev/themes/default/template/layout-ajax.tpl" source-language="en" target-language="tl" datatype="plaintext">
+  <file original="admin-dev/themes/new-theme/template/components/layout/warning_messages.tpl" source-language="en" target-language="tl" datatype="plaintext">
     <body>
       
     </body>
   </file>
-  <file original="admin-dev/themes/default/template/layout.tpl" source-language="en" target-language="tl" datatype="plaintext">
+  <file original="admin-dev/themes/new-theme/template/error.tpl" source-language="en" target-language="tl" datatype="plaintext">
     <body>
       
     </body>
@@ -267,16 +267,6 @@
         <target state="final">Ang Filetype ay hindi pinapayagan</target>
         <note>Line: 366</note>
       </trans-unit>
-      <trans-unit id="a5a6e6da29a779cece21518a4ba337e2" approved="yes">
-        <source>The uploaded file exceeds the post_max_size directive in php.ini</source>
-        <target state="final">Ang in-upload na payl ay lumampas ang post_max_size na direktiba sa php.ini</target>
-        <note>Line: 351</note>
-      </trans-unit>
-      <trans-unit id="0bff5a3a7cc19937dd97b8a995915222" approved="yes">
-        <source>File is too big. Current size is %1s, maximum size is %2s.</source>
-        <target state="final">Ang payl ay masyadong malaki. Ang kasalukuyang sukat ay %1s, ang pinakamalaking sukat ay %2s.</target>
-        <note>Line: 372</note>
-      </trans-unit>
     </body>
   </file>
   <file original="classes/controller/AdminController.php" source-language="en" target-language="tl" datatype="plaintext">
@@ -331,6 +321,16 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="classes/helper/HelperImageUploader.php" source-language="en" target-language="tl" datatype="plaintext">
     <body>
+      <trans-unit id="a5a6e6da29a779cece21518a4ba337e2" approved="yes">
+        <source>The uploaded file exceeds the post_max_size directive in php.ini</source>
+        <target state="final">Ang in-upload na payl ay lumampas ang post_max_size na direktiba sa php.ini</target>
+        <note>Line: 53</note>
+      </trans-unit>
+      <trans-unit id="0bff5a3a7cc19937dd97b8a995915222" approved="yes">
+        <source>File is too big. Current size is %1s, maximum size is %2s.</source>
+        <target state="final">Ang payl ay masyadong malaki. Ang kasalukuyang sukat ay %1s, ang pinakamalaking sukat ay %2s.</target>
+        <note>Line: 71</note>
+      </trans-unit>
       <trans-unit id="2368e33e3e01d53abb9b60061ab83903" approved="yes">
         <source>The uploaded file exceeds the upload_max_filesize directive in php.ini</source>
         <target state="final">Ang in-upload na file ay sumobra sa upload_max_filesize na direktiba sa php.ini</target>
@@ -364,21 +364,6 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">Bigo na i-update ang posisyon.</target>
         <note>Line: 780</note>
       </trans-unit>
-      <trans-unit id="ddd4e7f16c2032d59cb4fb4b86576bc5" approved="yes">
-        <source>You must select at least one element to delete.</source>
-        <target state="final">Kailangan mong pumili kahit isang elemento upang tanggalin.</target>
-        <note>Line: 818</note>
-      </trans-unit>
-      <trans-unit id="1d5dfad5ac415b412c20a05a89d43db6" approved="yes">
-        <source>An error occurred while deleting this selection.</source>
-        <target state="final">Nangyayari ang isang kamalian habang nagtatanggal ng pamimili nito.</target>
-        <note>Line: 816</note>
-      </trans-unit>
-      <trans-unit id="815e471ea2970db0b63b9b09feacc70f" approved="yes">
-        <source>An error occurred while updating the status for an object.</source>
-        <target state="final">Nangyayari ang isang kamalian habang nag-a-update ng kalagayan para sa isang bagay.</target>
-        <note>Line: 719</note>
-      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminCarrierWizardController.php" source-language="en" target-language="tl" datatype="plaintext">
@@ -390,26 +375,12 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
-  <file original="controllers/admin/AdminCarriersController.php" source-language="en" target-language="tl" datatype="plaintext">
-    <body>
-      <trans-unit id="954b49d26a3a0986aca720a7095f2aa9" approved="yes">
-        <source>An error occurred while updating an object.</source>
-        <target state="final">Nangyayari ang isang kamalian habang nag-a-update ng isang bagay.</target>
-        <note>Line: 463</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="controllers/admin/AdminCartsController.php" source-language="en" target-language="tl" datatype="plaintext">
     <body>
       <trans-unit id="dd6b089a49908d671c3e9cc8dc5899ae" approved="yes">
         <source>Invalid message</source>
         <target state="final">Hindi tama ang mensahe</target>
         <note>Line: 418</note>
-      </trans-unit>
-      <trans-unit id="959c96ec640d353311dd9763d57daad6" approved="yes">
-        <source>Please fill in all the required fields.</source>
-        <target state="final">Mangyaring punan ang lahat ng kailangan na mga patlang.</target>
-        <note>Line: 493</note>
       </trans-unit>
     </body>
   </file>
@@ -424,20 +395,6 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <source>An error occurred during the file upload process.</source>
         <target state="final">Nangyayari ang isang kamalian sa panahon ng proseso ng pag-upload ng payl.</target>
         <note>Line: 443</note>
-      </trans-unit>
-      <trans-unit id="84e4970c5c35731ac7084f09ca0a77cd" approved="yes">
-        <source>The email address is invalid.</source>
-        <target state="final">Ang adres ng email ay hindi tama.</target>
-        <note>Line: 427</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="controllers/admin/AdminDashboardController.php" source-language="en" target-language="tl" datatype="plaintext">
-    <body>
-      <trans-unit id="8f29c70fd66f50ce28b727cd40c6a3a3" approved="yes">
-        <source>The selected date range is not valid.</source>
-        <target state="final">Ang napiling pagitan ng petsa ay hindi tama.</target>
-        <note>Line: 325</note>
       </trans-unit>
     </body>
   </file>
@@ -457,11 +414,7 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="tl" datatype="plaintext">
     <body>
-      <trans-unit id="e96814b3d9ff9ae65c8f2be2ee3e0555" approved="yes">
-        <source>Invalid tag(s) (%s)</source>
-        <target state="final">Hindi balidong (mga) tag (%s)</target>
-        <note>Line: 2095</note>
-      </trans-unit>
+      
     </body>
   </file>
   <file original="controllers/admin/AdminLoginController.php" source-language="en" target-language="tl" datatype="plaintext">
@@ -481,34 +434,15 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">Hindi tama ang password.</target>
         <note>Line: 239</note>
       </trans-unit>
-      <trans-unit id="a7eca295291f53a23ab7ba0a9c7fd9de" approved="yes">
-        <source>This functionality has been disabled.</source>
-        <target state="final">Itong pag-andar ay naka-disable.</target>
-        <note>Line: 415</note>
-      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminModulesController.php" source-language="en" target-language="tl" datatype="plaintext">
     <body>
-      <trans-unit id="8c9067e52e4440d8a20e74fdc745b0c6" approved="yes">
-        <source>No file was uploaded.</source>
-        <target state="final">Walang file ang na-upload.</target>
-        <note>Line: 484</note>
-      </trans-unit>
+      
     </body>
   </file>
   <file original="controllers/admin/AdminModulesPositionsController.php" source-language="en" target-language="tl" datatype="plaintext">
     <body>
-      <trans-unit id="1bdd228669c9dd995eb664737e60786e" approved="yes">
-        <source>You do not have permission to edit this.</source>
-        <target state="final">Wala kang permiso na i-edit ito.</target>
-        <note>Line: 70</note>
-      </trans-unit>
-      <trans-unit id="d8d4c3b79181fdcca8cb5159208fa56a" approved="yes">
-        <source>You do not have permission to add this.</source>
-        <target state="final">Wala kang permiso na dagdagan ito.</target>
-        <note>Line: 187</note>
-      </trans-unit>
       <trans-unit id="aeca1e74dd7d86d85886996651937da9" approved="yes">
         <source>No valid value for field exceptions has been defined.</source>
         <target state="final">Walang balidong halaga para sa eksepsyon ng patlang ang natukoy.</target>
@@ -551,11 +485,6 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">Nagkamali habang ina-update ang katayuan.</target>
         <note>Line: 2942</note>
       </trans-unit>
-      <trans-unit id="b05c3c0bfce943b86e286e8e8103b6e5" approved="yes">
-        <source>An error occurred while uploading the image.</source>
-        <target state="final">Nangyayari ang isang kamalian habang nag-a-upload ng imahe.</target>
-        <note>Line: 1722</note>
-      </trans-unit>
       <trans-unit id="be694d5db9d32c43014995441a5939c4" approved="yes">
         <source>Invalid file name</source>
         <target state="final">Hindi tama ang pangalan ng payl</target>
@@ -565,11 +494,6 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <source>You cannot delete all of the items.</source>
         <target state="final">Hindi mo maaaring burahin ang lahat ng mga bagay.</target>
         <note>Line: 680</note>
-      </trans-unit>
-      <trans-unit id="5cd8dc8a58702a63e79af3ad9de16d7a" approved="yes">
-        <source>The %s field is invalid.</source>
-        <target state="final">Ang %s patlang ay hindi tama.</target>
-        <note>Line: 2167</note>
       </trans-unit>
       <trans-unit id="527d23f49ced7a14e50546e1b90672e7" approved="yes">
         <source>Cannot retrieve file.</source>
@@ -586,30 +510,21 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">Ang %1$s na patlang (%2$s) ay hindi balido.</target>
         <note>Line: 2182</note>
       </trans-unit>
-      <trans-unit id="505bbc38260c669d0793757e414caecc" approved="yes">
-        <source>The %s field is not valid</source>
-        <target state="final">Ang %s ng field ay hindi balido</target>
-        <note>Line: 772</note>
-      </trans-unit>
       <trans-unit id="b1367942aa02ea8c9d4aa07cdf5e473c" approved="yes">
         <source>You need at least one object.</source>
         <target state="final">Kailangan mo ng kahit isang bagay.</target>
         <note>Line: 680</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="controllers/admin/AdminQuickAccessesController.php" source-language="en" target-language="tl" datatype="plaintext">
-    <body>
       <trans-unit id="d9b5b2302d57f3d13d5387ba9c99daae" approved="yes">
         <source>An error occurred while creating an object.</source>
         <target state="final">Nangyayari ang isang kamalian habang bumubuo ng isang bagay.</target>
-        <note>Line: 180</note>
+        <note>Line: 1826</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="controllers/admin/AdminRequestSqlController.php" source-language="en" target-language="tl" datatype="plaintext">
-    <body>
-      
+      <trans-unit id="bc33aa1314e7dcd3472db72472b909b2" approved="yes">
+        <source>An error occurred during deletion.</source>
+        <target state="final">Nangyayari ang isang kamalian sa panahon ng pagtatanggal.</target>
+        <note>Line: 622</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminShopGroupController.php" source-language="en" target-language="tl" datatype="plaintext">
@@ -627,29 +542,6 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
-  <file original="controllers/admin/AdminStatesController.php" source-language="en" target-language="tl" datatype="plaintext">
-    <body>
-      <trans-unit id="bc33aa1314e7dcd3472db72472b909b2" approved="yes">
-        <source>An error occurred during deletion.</source>
-        <target state="final">Nangyayari ang isang kamalian sa panahon ng pagtatanggal.</target>
-        <note>Line: 248</note>
-      </trans-unit>
-      <trans-unit id="7f290594963a303db17a5e21dc4cf0b7" approved="yes">
-        <source>An error occurred while deleting the object.</source>
-        <target state="final">Nangyayari ang isang kamalian habang tinatanggal ang bagay.</target>
-        <note>Line: 253</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="controllers/admin/AdminStatusesController.php" source-language="en" target-language="tl" datatype="plaintext">
-    <body>
-      <trans-unit id="1b0cc7183377b461e298d0ebcf5f8548" approved="yes">
-        <source>An error occurred while updating the status.</source>
-        <target state="final">Nangyayari ang isang kamalian habang nag-a-update ang kalagayan.</target>
-        <note>Line: 768</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="controllers/admin/AdminStoresController.php" source-language="en" target-language="tl" datatype="plaintext">
     <body>
       <trans-unit id="50b668816d2acbdb62484bb5ea5d25ab" approved="yes">
@@ -661,20 +553,6 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <source>The Zip/Postal code is invalid.</source>
         <target state="final">Ang Zip/Postal na code ay hindi tama.</target>
         <note>Line: 386</note>
-      </trans-unit>
-      <trans-unit id="6660b316abc0970476a09df63028d553" approved="yes">
-        <source>It must be entered as follows:</source>
-        <target state="final">Kailangan na ipasok tulad ng mga sumusunod:</target>
-        <note>Line: 382</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="controllers/admin/AdminSuppliersController.php" source-language="en" target-language="tl" datatype="plaintext">
-    <body>
-      <trans-unit id="87ecb83d305a6af0e0438a0587e31de8" approved="yes">
-        <source>%s is invalid.</source>
-        <target state="final">Ang %s ay hindi balido.</target>
-        <note>Line: 516</note>
       </trans-unit>
     </body>
   </file>
@@ -778,6 +656,58 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       
     </body>
   </file>
+  <file original="src/Adapter/Import/Handler/ProductImportHandler.php" source-language="en" target-language="tl" datatype="plaintext">
+    <body>
+      <trans-unit id="e96814b3d9ff9ae65c8f2be2ee3e0555" approved="yes">
+        <source>Invalid tag(s) (%s)</source>
+        <target state="final">Hindi balidong (mga) tag (%s)</target>
+        <note>Line: 1058</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/Adapter/Product/GeneralConfiguration.php" source-language="en" target-language="tl" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
+  <file original="src/Adapter/SqlManager/SqlQueryValidator.php" source-language="en" target-language="tl" datatype="plaintext">
+    <body>
+      
+      
+    </body>
+  </file>
+  <file original="src/Adapter/Webservice/WebserviceKeyEraser.php" source-language="en" target-language="tl" datatype="plaintext">
+    <body>
+      <trans-unit id="ddd4e7f16c2032d59cb4fb4b86576bc5" approved="yes">
+        <source>You must select at least one element to delete.</source>
+        <target state="final">Kailangan mong pumili kahit isang elemento upang tanggalin.</target>
+        <note>Line: 51</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/Adapter/Webservice/WebserviceKeyStatusModifier.php" source-language="en" target-language="tl" datatype="plaintext">
+    <body>
+      <trans-unit id="815e471ea2970db0b63b9b09feacc70f" approved="yes">
+        <source>An error occurred while updating the status for an object.</source>
+        <target state="final">Nangyayari ang isang kamalian habang nag-a-update ng kalagayan para sa isang bagay.</target>
+        <note>Line: 70</note>
+      </trans-unit>
+      <trans-unit id="1b0cc7183377b461e298d0ebcf5f8548" approved="yes">
+        <source>An error occurred while updating the status.</source>
+        <target state="final">Nangyayari ang isang kamalian habang nag-a-update ang kalagayan.</target>
+        <note>Line: 82</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/Core/ConstraintValidator/AddressZipCodeValidator.php" source-language="en" target-language="tl" datatype="plaintext">
+    <body>
+      <trans-unit id="6660b316abc0970476a09df63028d553" approved="yes">
+        <source>It must be entered as follows:</source>
+        <target state="final">Kailangan na ipasok tulad ng mga sumusunod:</target>
+        <note>Line: 97</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/Core/Localization/Pack/Import/LocalizationPackImporter.php" source-language="en" target-language="tl" datatype="plaintext">
     <body>
       <trans-unit id="0bd212ed072143f56147f2f119892d03" approved="yes">
@@ -809,11 +739,9 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/EmployeeController.php" source-language="en" target-language="tl" datatype="plaintext">
     <body>
-      <trans-unit id="a62d7ffa591311c930a2017b07e55394" approved="yes">
-        <source>The object cannot be loaded (the identifier is missing or invalid)</source>
-        <target state="final">Ang bagay ay hindi maaaring mapuno (nawawala ang tagapagkilanlan o hindi tama)</target>
-        <note>Line: 492</note>
-      </trans-unit>
+      
+      
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/MemcacheServerController.php" source-language="en" target-language="tl" datatype="plaintext">
@@ -854,8 +782,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/FrameworkBundleAdminController.php" source-language="en" target-language="tl" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="a7eca295291f53a23ab7ba0a9c7fd9de" approved="yes">
+        <source>This functionality has been disabled.</source>
+        <target state="final">Itong pag-andar ay naka-disable.</target>
+        <note>Line: 269</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/Design/MailThemeController.php" source-language="en" target-language="tl" datatype="plaintext">
@@ -872,6 +803,7 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       
       
       
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/CurrencyController.php" source-language="en" target-language="tl" datatype="plaintext">
@@ -879,21 +811,10 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       
       
       
-      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/LanguageController.php" source-language="en" target-language="tl" datatype="plaintext">
     <body>
-      <trans-unit id="66042fc205784775b028ba4ac7acebf3" approved="yes">
-        <source>Due to memory limit restrictions, this image cannot be loaded. Please increase your memory_limit value via your server's configuration settings.</source>
-        <target state="final">Dahil sa mga paghihigpit sa limit ng memorya, ang imahe na ito ay hindi maaaring i-upload. Pakiusap taasan ang halaga ng iyong memory_limit sa pamamagitan ng mga pagtatakda ng kompigurasyon ng iyung serber.</target>
-        <note>Line: 366</note>
-      </trans-unit>
-      <trans-unit id="c4ae3afc5d4c01919142f8b39cc5c1c5" approved="yes">
-        <source>Image format not recognized, allowed formats are: .gif, .jpg, .png</source>
-        <target state="final">Ang pag-aayos ng imahe ay hindi kinilala, pinapayagan ang mga pag-aayos ang: .gif, .jpg, .png</target>
-        <note>Line: 346</note>
-      </trans-unit>
       <trans-unit id="fa4611fb85bb8f118f562d107ab790d4" approved="yes">
         <source>The object cannot be loaded (or found)</source>
         <target state="final">Ang bagay ay hindi maaaring mapuno (o matagpuan)</target>
@@ -903,11 +824,7 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/StateController.php" source-language="en" target-language="tl" datatype="plaintext">
     <body>
-      <trans-unit id="d52eaeff31af37a4a7e0550008aff5df" approved="yes">
-        <source>An error occurred while attempting to save.</source>
-        <target state="final">May maling naganap habang sinusubukang i-save.</target>
-        <note>Line: 411</note>
-      </trans-unit>
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/ZoneController.php" source-language="en" target-language="tl" datatype="plaintext">
@@ -926,11 +843,25 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/ProductController.php" source-language="en" target-language="tl" datatype="plaintext">
     <body>
-      
+      <trans-unit id="1bdd228669c9dd995eb664737e60786e" approved="yes">
+        <source>You do not have permission to edit this.</source>
+        <target state="final">Wala kang permiso na i-edit ito.</target>
+        <note>Line: 936</note>
+      </trans-unit>
+      <trans-unit id="d8d4c3b79181fdcca8cb5159208fa56a" approved="yes">
+        <source>You do not have permission to add this.</source>
+        <target state="final">Wala kang permiso na dagdagan ito.</target>
+        <note>Line: 406</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Address/AddressController.php" source-language="en" target-language="tl" datatype="plaintext">
     <body>
+      <trans-unit id="d52eaeff31af37a4a7e0550008aff5df" approved="yes">
+        <source>An error occurred while attempting to save.</source>
+        <target state="final">May maling naganap habang sinusubukang i-save.</target>
+        <note>Line: 665</note>
+      </trans-unit>
       <trans-unit id="efb49241363bce74c7d7899333cdebb5" approved="yes">
         <source>An error occurred when attempting to update the required fields.</source>
         <target state="final">Nangyayari ang isang kamalian habang sinusubukan na mag update ng kailangan na mga field.</target>
@@ -938,9 +869,23 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/AttachmentController.php" source-language="en" target-language="tl" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/CartRuleController.php" source-language="en" target-language="tl" datatype="plaintext">
     <body>
       
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/CatalogPriceRuleController.php" source-language="en" target-language="tl" datatype="plaintext">
+    <body>
+      <trans-unit id="954b49d26a3a0986aca720a7095f2aa9" approved="yes">
+        <source>An error occurred while updating an object.</source>
+        <target state="final">Nangyayari ang isang kamalian habang nag-a-update ng isang bagay.</target>
+        <note>Line: 281</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/CategoryController.php" source-language="en" target-language="tl" datatype="plaintext">
@@ -965,8 +910,16 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/ImageController.php" source-language="en" target-language="tl" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="8c9067e52e4440d8a20e74fdc745b0c6" approved="yes">
+        <source>No file was uploaded.</source>
+        <target state="final">Walang file ang na-upload.</target>
+        <note>Line: 329</note>
+      </trans-unit>
+      <trans-unit id="66042fc205784775b028ba4ac7acebf3" approved="yes">
+        <source>Due to memory limit restrictions, this image cannot be loaded. Please increase your memory_limit value via your server's configuration settings.</source>
+        <target state="final">Dahil sa mga paghihigpit sa limit ng memorya, ang imahe na ito ay hindi maaaring i-upload. Pakiusap taasan ang halaga ng iyong memory_limit sa pamamagitan ng mga pagtatakda ng kompigurasyon ng iyung serber.</target>
+        <note>Line: 320</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/ProductController.php" source-language="en" target-language="tl" datatype="plaintext">
@@ -976,28 +929,57 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       
       
       
-      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/SupplierController.php" source-language="en" target-language="tl" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="b05c3c0bfce943b86e286e8e8103b6e5" approved="yes">
+        <source>An error occurred while uploading the image.</source>
+        <target state="final">Nangyayari ang isang kamalian habang nag-a-upload ng imahe.</target>
+        <note>Line: 535</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/MerchandiseReturnController.php" source-language="en" target-language="tl" datatype="plaintext">
+    <body>
+      <trans-unit id="a62d7ffa591311c930a2017b07e55394" approved="yes">
+        <source>The object cannot be loaded (the identifier is missing or invalid)</source>
+        <target state="final">Ang bagay ay hindi maaaring mapuno (nawawala ang tagapagkilanlan o hindi tama)</target>
+        <note>Line: 150</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/OrderMessageController.php" source-language="en" target-language="tl" datatype="plaintext">
+    <body>
+      <trans-unit id="1d5dfad5ac415b412c20a05a89d43db6" approved="yes">
+        <source>An error occurred while deleting this selection.</source>
+        <target state="final">Nangyayari ang isang kamalian habang nagtatanggal ng pamimili nito.</target>
+        <note>Line: 250</note>
+      </trans-unit>
+      <trans-unit id="7f290594963a303db17a5e21dc4cf0b7" approved="yes">
+        <source>An error occurred while deleting the object.</source>
+        <target state="final">Nangyayari ang isang kamalian habang tinatanggal ang bagay.</target>
+        <note>Line: 246</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/CartController.php" source-language="en" target-language="tl" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="959c96ec640d353311dd9763d57daad6" approved="yes">
+        <source>Please fill in all the required fields.</source>
+        <target state="final">Mangyaring punan ang lahat ng kailangan na mga patlang.</target>
+        <note>Line: 571</note>
+      </trans-unit>
+      <trans-unit id="c4ae3afc5d4c01919142f8b39cc5c1c5" approved="yes">
+        <source>Image format not recognized, allowed formats are: .gif, .jpg, .png</source>
+        <target state="final">Ang pag-aayos ng imahe ay hindi kinilala, pinapayagan ang mga pag-aayos ang: .gif, .jpg, .png</target>
+        <note>Line: 598</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php" source-language="en" target-language="tl" datatype="plaintext">
     <body>
+      
       
       
       
@@ -1015,12 +997,6 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Administration/UploadQuotaType.php" source-language="en" target-language="tl" datatype="plaintext">
     <body>
-      
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Employee/EmployeeType.php" source-language="en" target-language="tl" datatype="plaintext">
-    <body>
-      
       
     </body>
   </file>
@@ -1044,11 +1020,6 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/SearchEngines/SearchEngineType.php" source-language="en" target-language="tl" datatype="plaintext">
-    <body>
-      
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/MetaSettingsShopUrlsFormDataProvider.php" source-language="en" target-language="tl" datatype="plaintext">
     <body>
       <trans-unit id="8fb7465fec179740502812519d1a8182" approved="yes">
@@ -1063,18 +1034,13 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/MetaType.php" source-language="en" target-language="tl" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/CustomerService/CustomerThread/ForwardCustomerThreadType.php" source-language="en" target-language="tl" datatype="plaintext">
     <body>
-      <trans-unit id="02af8c16ef4efa9fa9e2142372b0b90d" approved="yes">
-        <source>The %s field is required.</source>
-        <target state="final">Ang %s patlang ay kailangan.</target>
-        <note>Line: 92</note>
+      <trans-unit id="84e4970c5c35731ac7084f09ca0a77cd" approved="yes">
+        <source>The email address is invalid.</source>
+        <target state="final">Ang adres ng email ay hindi tama.</target>
+        <note>Line: 81</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Improve/Design/Pages/CmsPageType.php" source-language="en" target-language="tl" datatype="plaintext">
-    <body>
-      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/Design/Theme/ImportThemeType.php" source-language="en" target-language="tl" datatype="plaintext">
@@ -1088,12 +1054,14 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Currencies/CurrencyType.php" source-language="en" target-language="tl" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="02af8c16ef4efa9fa9e2142372b0b90d" approved="yes">
+        <source>The %s field is required.</source>
+        <target state="final">Ang %s patlang ay kailangan.</target>
+        <note>Line: 292</note>
+      </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Tax/TaxType.php" source-language="en" target-language="tl" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Address/CustomerAddressType.php" source-language="en" target-language="tl" datatype="plaintext">
     <body>
       
     </body>
@@ -1106,11 +1074,20 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Customer/CustomerType.php" source-language="en" target-language="tl" datatype="plaintext">
     <body>
+      <trans-unit id="5cd8dc8a58702a63e79af3ad9de16d7a" approved="yes">
+        <source>The %s field is invalid.</source>
+        <target state="final">Ang %s patlang ay hindi tama.</target>
+        <note>Line: 182</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/CustomerService/ReplyToCustomerThreadType.php" source-language="en" target-language="tl" datatype="plaintext">
+    <body>
       
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/CustomerService/ReplyToCustomerThreadType.php" source-language="en" target-language="tl" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Manufacturer/ManufacturerType.php" source-language="en" target-language="tl" datatype="plaintext">
     <body>
       
       
@@ -1122,9 +1099,24 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/CancelProductType.php" source-language="en" target-language="tl" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/CreditSlip/GeneratePdfByDateType.php" source-language="en" target-language="tl" datatype="plaintext">
     <body>
       
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/OrderMessageType.php" source-language="en" target-language="tl" datatype="plaintext">
+    <body>
+      <trans-unit id="505bbc38260c669d0793757e414caecc" approved="yes">
+        <source>The %s field is not valid</source>
+        <target state="final">Ang %s ng field ay hindi balido</target>
+        <note>Line: 92</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/OrderPaymentType.php" source-language="en" target-language="tl" datatype="plaintext">
@@ -1141,6 +1133,16 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Description/DescriptionType.php" source-language="en" target-language="tl" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/EventListener/FeatureValueListener.php" source-language="en" target-language="tl" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Image/ImageDropzoneType.php" source-language="en" target-language="tl" datatype="plaintext">
     <body>
       
@@ -1152,17 +1154,30 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Type/ApeType.php" source-language="en" target-language="tl" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Pricing/SpecificPriceType.php" source-language="en" target-language="tl" datatype="plaintext">
+    <body>
+      <trans-unit id="8f29c70fd66f50ce28b727cd40c6a3a3" approved="yes">
+        <source>The selected date range is not valid.</source>
+        <target state="final">Ang napiling pagitan ng petsa ay hindi tama.</target>
+        <note>Line: 192</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Shipping/DimensionsType.php" source-language="en" target-language="tl" datatype="plaintext">
+    <body>
+      <trans-unit id="87ecb83d305a6af0e0438a0587e31de8" approved="yes">
+        <source>%s is invalid.</source>
+        <target state="final">Ang %s ay hindi balido.</target>
+        <note>Line: 135</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Stock/VirtualProductFileType.php" source-language="en" target-language="tl" datatype="plaintext">
     <body>
       
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Type/ChangePasswordType.php" source-language="en" target-language="tl" datatype="plaintext">
-    <body>
-      
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Type/FormattedTextareaType.php" source-language="en" target-language="tl" datatype="plaintext">
     <body>
       
     </body>

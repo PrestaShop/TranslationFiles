@@ -156,36 +156,36 @@
       <trans-unit id="cb3c718c905f00adbb6735f55bfb38ef" approved="yes">
         <source>Product available with different options</source>
         <target state="final">Varan er til með öðrum eiginleikum</target>
-        <note>Line: 1016</note>
+        <note>Line: 1034</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/Core/Product/Search/SortOrdersCollection.php" source-language="en" target-language="is" datatype="plaintext">
+  <file original="src/Adapter/Search/SearchProductSearchProvider.php" source-language="en" target-language="is" datatype="plaintext">
     <body>
       <trans-unit id="05d61847840bcddb5d37374de3be0ccc" approved="yes">
         <source>Name, A to Z</source>
         <target state="final">Nafn, A til Ö</target>
-        <note>Line: 58</note>
+        <note>Line: 140</note>
       </trans-unit>
       <trans-unit id="e21f2ef58ff858167655c18a874f9706" approved="yes">
         <source>Name, Z to A</source>
         <target state="final">Nafn, Ö til A</target>
-        <note>Line: 61</note>
+        <note>Line: 143</note>
       </trans-unit>
       <trans-unit id="e2174d7435696694b8f4d984d99eef03" approved="yes">
         <source>Price, low to high</source>
         <target state="final">Verð, lægst til hæðst</target>
-        <note>Line: 64</note>
+        <note>Line: 146</note>
       </trans-unit>
       <trans-unit id="0ee81913615b71aba7dc8bbf1f144672" approved="yes">
         <source>Price, high to low</source>
         <target state="final">Verð, hæst til lægst</target>
-        <note>Line: 67</note>
+        <note>Line: 149</note>
       </trans-unit>
       <trans-unit id="ad24ffca4f9e9c0c7e80fe1512df6db9" approved="yes">
         <source>Relevance</source>
         <target state="final">Mikilvægi</target>
-        <note>Line: 55</note>
+        <note>Line: 137</note>
       </trans-unit>
     </body>
   </file>
@@ -205,11 +205,8 @@
   </file>
   <file original="themes/classic/modules/ps_brandlist/views/templates/hook/ps_brandlist.tpl" source-language="en" target-language="is" datatype="plaintext">
     <body>
-      <trans-unit id="84be54bb4bd1b755a27d86388700d097" approved="yes">
-        <source>Brands</source>
-        <target state="final">Vörumerki</target>
-        <note>Line: 34</note>
-      </trans-unit>
+      
+      
     </body>
   </file>
   <file original="themes/classic/modules/ps_categoryproducts/views/templates/hook/ps_categoryproducts.tpl" source-language="en" target-language="is" datatype="plaintext">
@@ -227,7 +224,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="themes/classic/modules/ps_emailalerts/views/templates/hook/my-account-footer.tpl" source-language="en" target-language="is" datatype="plaintext">
+  <file original="themes/classic/modules/ps_emailalerts/views/templates/hook/my-account.tpl" source-language="en" target-language="is" datatype="plaintext">
     <body>
       
     </body>
@@ -290,11 +287,6 @@
         <target state="final">Engir birgjar</target>
         <note>Line: 42</note>
       </trans-unit>
-      <trans-unit id="1814d65a76028fdfbadab64a5a8076df" approved="yes">
-        <source>Suppliers</source>
-        <target state="final">Birgjar</target>
-        <note>Line: 34</note>
-      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/modules/ps_viewedproduct/views/templates/hook/ps_viewedproduct.tpl" source-language="en" target-language="is" datatype="plaintext">
@@ -303,15 +295,6 @@
         <source>Viewed products</source>
         <target state="final">Áður skoðað</target>
         <note>Line: 26</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="themes/classic/templates/_partials/pagination.tpl" source-language="en" target-language="is" datatype="plaintext">
-    <body>
-      <trans-unit id="fb526aaa0add86e4e124263db50438c8" approved="yes">
-        <source>Showing %from%-%to% of %total% item(s)</source>
-        <target state="final">Sýni %from%-%to% af %total% vörum</target>
-        <note>Line: 28</note>
       </trans-unit>
     </body>
   </file>
@@ -398,10 +381,24 @@
   </file>
   <file original="themes/classic/templates/catalog/_partials/products-top.tpl" source-language="en" target-language="is" datatype="plaintext">
     <body>
+      <trans-unit id="fb526aaa0add86e4e124263db50438c8" approved="yes">
+        <source>Showing %from%-%to% of %total% item(s)</source>
+        <target state="final">Sýni %from%-%to% af %total% vörum</target>
+        <note>Line: 48</note>
+      </trans-unit>
       <trans-unit id="79ac892bd1769d83ef1c16dae9f4eddd" approved="yes">
         <source>There is 1 product.</source>
         <target state="final">Það er 1 vara.</target>
         <note>Line: 30</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="themes/classic/templates/catalog/brands.tpl" source-language="en" target-language="is" datatype="plaintext">
+    <body>
+      <trans-unit id="84be54bb4bd1b755a27d86388700d097" approved="yes">
+        <source>Brands</source>
+        <target state="final">Vörumerki</target>
+        <note>Line: 31</note>
       </trans-unit>
     </body>
   </file>
@@ -454,17 +451,30 @@
       </trans-unit>
     </body>
   </file>
-  <file original="themes/classic/templates/customer/_partials/order-detail-no-return.tpl" source-language="en" target-language="is" datatype="plaintext">
+  <file original="themes/classic/templates/catalog/suppliers.tpl" source-language="en" target-language="is" datatype="plaintext">
+    <body>
+      <trans-unit id="1814d65a76028fdfbadab64a5a8076df" approved="yes">
+        <source>Suppliers</source>
+        <target state="final">Birgjar</target>
+        <note>Line: 28</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="themes/classic/templates/checkout/_partials/order-confirmation-table.tpl" source-language="en" target-language="is" datatype="plaintext">
     <body>
       <trans-unit id="54c02ba7929b1fda4847991a45b58a48" approved="yes">
         <source>Product customization</source>
         <target state="final">Sérsnið vöru</target>
-        <note>Line: 140</note>
+        <note>Line: 73</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="themes/classic/templates/customer/_partials/order-detail-return.tpl" source-language="en" target-language="is" datatype="plaintext">
+    <body>
       <trans-unit id="deb10517653c255364175796ace3553f" approved="yes">
         <source>Product</source>
         <target state="final">Vara</target>
-        <note>Line: 30</note>
+        <note>Line: 33</note>
       </trans-unit>
     </body>
   </file>

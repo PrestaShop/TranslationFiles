@@ -88,36 +88,6 @@
         <note>Line: 1074
 Comment: Special case for Product : either one or the other. Not both.</note>
       </trans-unit>
-      <trans-unit id="4bc14a0f722453ba235bc3fb52d95ffb" approved="yes">
-        <source>A category root is where a category tree can begin. This is used with multistore.</source>
-        <target state="final">Una categoría raíz es donde el árbol de categorías puede comenzar. Esto es utilizado en Modo Multitienda.</target>
-        <note>Line: 212</note>
-      </trans-unit>
-      <trans-unit id="2d743ae4c74db2a22d79e1e950e719e5" approved="yes">
-        <source>0 = Use quantity set in product, 1 = Use quantity from warehouse.</source>
-        <target state="final">0 = Utilizar la cantidad establecida en el producto, 1 = Utilizar la cantidad del almacén.</target>
-        <note>Line: 335</note>
-      </trans-unit>
-      <trans-unit id="aaf88088b0ac3f2992888fdfe00b5d76" approved="yes">
-        <source>ID of the warehouse to set as storage.</source>
-        <target state="final">ID del almacén para establecer como almacenamiento.</target>
-        <note>Line: 339</note>
-      </trans-unit>
-      <trans-unit id="d2beb087630a099f2fada85e7f2f19fb" approved="yes">
-        <source>Ignore this field if you don't use the Multistore tool. If you leave this field empty, the default store will be used.</source>
-        <target state="final">Ignora este campo si no utilizas la herramienta Multitienda. Si dejas este campo vacío, se usará la tienda predeterminada.</target>
-        <note>Line: 543</note>
-      </trans-unit>
-      <trans-unit id="3fc09360fdbfd34338847f0c4d2c706a" approved="yes">
-        <source>Enable advanced stock management on product (0 = No, 1 = Yes)</source>
-        <target state="final">Activar gestión avanzada de stock en el producto (0 = No, 1 = Sí)</target>
-        <note>Line: 169</note>
-      </trans-unit>
-      <trans-unit id="5ed37ab0d176038cd3289e1fe4fb5637" approved="yes">
-        <source>Enable advanced stock management on product (0 = No, 1 = Yes).</source>
-        <target state="final">Activar gestión avanzada de stock en el producto (0 = No, 1 = Sí).</target>
-        <note>Line: 331</note>
-      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminShopController.php" source-language="en" target-language="es-AR" datatype="plaintext">
@@ -224,6 +194,11 @@ Comment: Special case for Product : either one or the other. Not both.</note>
   </file>
   <file original="src/Core/Import/EntityField/Provider/CategoryFieldsProvider.php" source-language="en" target-language="es-AR" datatype="plaintext">
     <body>
+      <trans-unit id="4bc14a0f722453ba235bc3fb52d95ffb" approved="yes">
+        <source>A category root is where a category tree can begin. This is used with multistore.</source>
+        <target state="final">Una categoría raíz es donde el árbol de categorías puede comenzar. Esto es utilizado en Modo Multitienda.</target>
+        <note>Line: 64</note>
+      </trans-unit>
       <trans-unit id="11cd708df7411da4546d8580356e711a" approved="yes">
         <source>Ignore this field if you don't use the Multistore tool. If you leave this field empty, the default shop will be used.</source>
         <target state="final">Ignore este campo si no se utiliza la herramienta Multitienda. Si deja este campo vacío, la tienda por defecto será usada</target>
@@ -233,6 +208,16 @@ Comment: Special case for Product : either one or the other. Not both.</note>
   </file>
   <file original="src/Core/Import/EntityField/Provider/CombinationFieldsProvider.php" source-language="en" target-language="es-AR" datatype="plaintext">
     <body>
+      <trans-unit id="2d743ae4c74db2a22d79e1e950e719e5" approved="yes">
+        <source>0 = Use quantity set in product, 1 = Use quantity from warehouse.</source>
+        <target state="final">0 = Utilizar la cantidad establecida en el producto, 1 = Utilizar la cantidad del almacén.</target>
+        <note>Line: 95</note>
+      </trans-unit>
+      <trans-unit id="aaf88088b0ac3f2992888fdfe00b5d76" approved="yes">
+        <source>ID of the warehouse to set as storage.</source>
+        <target state="final">ID del almacén para establecer como almacenamiento.</target>
+        <note>Line: 100</note>
+      </trans-unit>
       <trans-unit id="5702db29cfdd93934ed330edb201ecf3" approved="yes">
         <source>Enable Advanced Stock Management on product (0 = No, 1 = Yes)</source>
         <target state="final">Activar Administración Avanzada de Stock en el producto (0 = No, 1 = Sí)</target>
@@ -247,6 +232,11 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <target state="final">Activar Administración Avanzada de Stock en el producto (0 = No, 1 = Sí).</target>
         <note>Line: 155</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="src/Core/Import/EntityField/Provider/StoreContactFieldsProvider.php" source-language="en" target-language="es-AR" datatype="plaintext">
+    <body>
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/CombineCompressCacheType.php" source-language="en" target-language="es-AR" datatype="plaintext">
@@ -466,11 +456,6 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <target state="final">Esta página será mostrada tras iniciar sesión.</target>
         <note>Line: 229</note>
       </trans-unit>
-      <trans-unit id="d222c4d0463bd3f146536ac89c0d7c77" approved="yes">
-        <source>Password should be at least %num% characters long.</source>
-        <target state="final">La contraseña debe tener al menos %num% carácteres.</target>
-        <note>Line: 173</note>
-      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Import/ImportType.php" source-language="en" target-language="es-AR" datatype="plaintext">
@@ -564,6 +549,39 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <source>Quick description of the key: who it is for, what permissions it has, etc.</source>
         <target state="final">Descripción rápida de la clave: a quién va dirigida, qué permisos tiene, etc.</target>
         <note>Line: 133</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Type/ChangePasswordType.php" source-language="en" target-language="es-AR" datatype="plaintext">
+    <body>
+      <trans-unit id="d222c4d0463bd3f146536ac89c0d7c77" approved="yes">
+        <source>Password should be at least %num% characters long.</source>
+        <target state="final">La contraseña debe tener al menos %num% carácteres.</target>
+        <note>Line: 90</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Common/Grid/Columns/Content/severity_level.html.twig" source-language="en" target-language="es-AR" datatype="plaintext">
+    <body>
+      <trans-unit id="b80c52e7f679fba3c2837b42705fe779" approved="yes">
+        <source>Informative only</source>
+        <target state="final">Solo informativo</target>
+        <note>Line: 31</note>
+      </trans-unit>
+      <trans-unit id="0eaadb4fcb48a0a0ed7bc9868be9fbaa" approved="yes">
+        <source>Warning</source>
+        <target state="final">Advertencia</target>
+        <note>Line: 34</note>
+      </trans-unit>
+      <trans-unit id="902b0d55fddef6f8d651fe1035b7d4bd" approved="yes">
+        <source>Error</source>
+        <target state="final">Error</target>
+        <note>Line: 37</note>
+      </trans-unit>
+      <trans-unit id="4a378407770df6a42474ec5db9f54740" approved="yes">
+        <source>Major issue (crash)!</source>
+        <target state="final">Asunto mayor (caída)</target>
+        <note>Line: 40</note>
       </trans-unit>
     </body>
   </file>
@@ -704,26 +722,6 @@ Comment: Special case for Product : either one or the other. Not both.</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/LogsPage/Blocks/severity_levels.html.twig" source-language="en" target-language="es-AR" datatype="plaintext">
     <body>
-      <trans-unit id="b80c52e7f679fba3c2837b42705fe779" approved="yes">
-        <source>Informative only</source>
-        <target state="final">Solo informativo</target>
-        <note>Line: 36</note>
-      </trans-unit>
-      <trans-unit id="0eaadb4fcb48a0a0ed7bc9868be9fbaa" approved="yes">
-        <source>Warning</source>
-        <target state="final">Advertencia</target>
-        <note>Line: 41</note>
-      </trans-unit>
-      <trans-unit id="902b0d55fddef6f8d651fe1035b7d4bd" approved="yes">
-        <source>Error</source>
-        <target state="final">Error</target>
-        <note>Line: 46</note>
-      </trans-unit>
-      <trans-unit id="4a378407770df6a42474ec5db9f54740" approved="yes">
-        <source>Major issue (crash)!</source>
-        <target state="final">Asunto mayor (caída)</target>
-        <note>Line: 51</note>
-      </trans-unit>
       <trans-unit id="3979bb684920e9e9dc86e266f93d8c87" approved="yes">
         <source>Severity levels</source>
         <target state="final">Niveles de seguridad</target>
@@ -756,8 +754,7 @@ Comment: Special case for Product : either one or the other. Not both.</note>
       <trans-unit id="09fac4ee316f450e3defd79540c2d9fe" approved="yes">
         <source>You can also export the query results as a CSV file by clicking on the "%export_label%" button</source>
         <target state="final">También puedes exportar los resultados de la consulta como un archivo CSV haciendo clic en el botón "%export_label%"</target>
-        <note>Line: 37
-Comment: Recommended modules will be attached to here.</note>
+        <note>Line: 37</note>
       </trans-unit>
     </body>
   </file>

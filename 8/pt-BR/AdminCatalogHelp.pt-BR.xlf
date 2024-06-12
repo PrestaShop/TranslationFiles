@@ -119,6 +119,11 @@
         <target state="final">Salvar e adicionar outro valor</target>
         <note>Line: 576</note>
       </trans-unit>
+      <trans-unit id="22cbf85c41427960736dc10cfec5faf4" approved="yes">
+        <source>Choose a color with the color picker, or enter an HTML color (e.g. "lightblue", "#CC6600").</source>
+        <target state="final">Escolha uma com com o Color Picker, ou informe uma cor em HTML (ex: 'lightblue', '#CC6600').</target>
+        <note>Line: 325</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminCustomerThreadsController.php" source-language="en" target-language="pt-BR" datatype="plaintext">
@@ -217,20 +222,6 @@
         <target state="final">Adicionar novos valores à essa característica</target>
         <note>Line: 272</note>
       </trans-unit>
-      <trans-unit id="7aad0283b11e41230d9d1fc7372c3862" approved="yes">
-        <source>Add new feature value</source>
-        <target state="final">Adicionar um novo valor à essa característica</target>
-        <note>Line: 224</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="controllers/admin/AdminShopGroupController.php" source-language="en" target-language="pt-BR" datatype="plaintext">
-    <body>
-      <trans-unit id="22cbf85c41427960736dc10cfec5faf4" approved="yes">
-        <source>Choose a color with the color picker, or enter an HTML color (e.g. "lightblue", "#CC6600").</source>
-        <target state="final">Escolha uma com com o Color Picker, ou informe uma cor em HTML (ex: 'lightblue', '#CC6600').</target>
-        <note>Line: 202</note>
-      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminSuppliersController.php" source-language="en" target-language="pt-BR" datatype="plaintext">
@@ -250,16 +241,6 @@
         <target state="final">Número do telefone celular deste fornecedor.</target>
         <note>Line: 183</note>
       </trans-unit>
-      <trans-unit id="afd7431f75b5801226c9ee37acc1a504" approved="yes">
-        <source>Will appear in the list of suppliers.</source>
-        <target state="final">Vai aparecer na lista de fornecedores.</target>
-        <note>Line: 163</note>
-      </trans-unit>
-      <trans-unit id="e865605842d16d0d11c266c731e00507" approved="yes">
-        <source>Upload a supplier logo from your computer.</source>
-        <target state="final">Enviar um logo do fornecedor do seu computador.</target>
-        <note>Line: 256</note>
-      </trans-unit>
     </body>
   </file>
   <file original="src/Core/Grid/Definition/Factory/ProductGridDefinitionFactory.php" source-language="en" target-language="pt-BR" datatype="plaintext">
@@ -277,6 +258,15 @@
         <source>Create a new product: CTRL+P</source>
         <target state="final">Criar um novo produto: CTRL+P</target>
         <note>Line: 388</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/FeatureController.php" source-language="en" target-language="pt-BR" datatype="plaintext">
+    <body>
+      <trans-unit id="7aad0283b11e41230d9d1fc7372c3862" approved="yes">
+        <source>Add new feature value</source>
+        <target state="final">Adicionar um novo valor à essa característica</target>
+        <note>Line: 210</note>
       </trans-unit>
     </body>
   </file>
@@ -300,15 +290,6 @@
         <source><![CDATA[Unless the 'Accented URL' option is enabled (in Shop parameters > Traffic & SEO), only letters, numbers, underscores (_), and hyphens (-) are allowed.]]></source>
         <target state="final"><![CDATA[A não ser que a opção 'URL acentuada' esteja ativa (em Parâmetros da loja > Tráfego e SEO), apenas letras, números, sublinhados (_) e hifens (-) são permitidos.]]></target>
         <note>Line: 193</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Product/ProductCombination.php" source-language="en" target-language="pt-BR" datatype="plaintext">
-    <body>
-      <trans-unit id="16a5534d559007de7e8f5b4f17112203" approved="yes">
-        <source>Leave empty to disable</source>
-        <target state="final">Deixe vazio para desativar</target>
-        <note>Line: 200</note>
       </trans-unit>
     </body>
   </file>
@@ -345,8 +326,22 @@
       </trans-unit>
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Product/ProductPrice.php" source-language="en" target-language="pt-BR" datatype="plaintext">
+    <body>
+      <trans-unit id="420f46a170eef476454fa134085a85a2" approved="yes">
+        <source>Per kilo, per litre</source>
+        <target state="final">Por quilo, por litro</target>
+        <note>Line: 237</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Product/ProductQuantity.php" source-language="en" target-language="pt-BR" datatype="plaintext">
     <body>
+      <trans-unit id="16a5534d559007de7e8f5b4f17112203" approved="yes">
+        <source>Leave empty to disable</source>
+        <target state="final">Deixe vazio para desativar</target>
+        <note>Line: 209</note>
+      </trans-unit>
       <trans-unit id="e63e2ba42470a41ba75e0d7ea35a410f" approved="yes">
         <source>Combine several attributes, e.g.: "Size: all", "Color: red".</source>
         <target state="final">Combinar vários atributos, por exemplo:. "Tamanho: grande", "cor: vermelha".</target>
@@ -376,15 +371,20 @@
         <target state="final">Para ter um título diferente do nome do produto, insira-o aqui.</target>
         <note>Line: 101</note>
       </trans-unit>
-      <trans-unit id="b0ea2bd9df4b8ee746b4e5fd28503851" approved="yes">
-        <source>Public title for the product's page, and for search engines. Leave blank to use the product name. The number of remaining characters is displayed to the left of the field.</source>
-        <target state="final">Título público para a página do produto e para motores de busca. Deixe em branco para usar o nome do produto. O número restante de caracteres é apresentado à esquerda do campo.</target>
-        <note>Line: 112</note>
-      </trans-unit>
       <trans-unit id="5f99bb8ecd940f311cb66fadfc467a2b" approved="yes">
         <source>To have a different description than your product summary in search results pages, write it here.</source>
         <target state="final">Para ter uma descrição diferente de seu resumo de produtos, nas páginas de resultados de busca, escreva aqui.</target>
         <note>Line: 126</note>
+      </trans-unit>
+      <trans-unit id="8533d8d42f2c7ef3078797984ea14675" approved="yes">
+        <source>This description will appear in search engines. You need a single sentence, shorter than 160 characters (including spaces)</source>
+        <target state="final">Esta descrição irá aparecer nos motores de busca. Você precisa de uma frase única, mais curta do que 160 caracteres (incluindo espaços)</target>
+        <note>Line: 137</note>
+      </trans-unit>
+      <trans-unit id="b0ea2bd9df4b8ee746b4e5fd28503851" approved="yes">
+        <source>Public title for the product's page, and for search engines. Leave blank to use the product name. The number of remaining characters is displayed to the left of the field.</source>
+        <target state="final">Título público para a página do produto e para motores de busca. Deixe em branco para usar o nome do produto. O número restante de caracteres é apresentado à esquerda do campo.</target>
+        <note>Line: 112</note>
       </trans-unit>
     </body>
   </file>
@@ -397,15 +397,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/BulkCombinationPriceType.php" source-language="en" target-language="pt-BR" datatype="plaintext">
-    <body>
-      <trans-unit id="c4b69e0455faf0784b6a8b2fd9634d16" approved="yes">
-        <source>If the price of this combination is different from the initial retail price, enter the value of the impact (negative or positive).</source>
-        <target state="final">Se o preço desta combinação for diferente do preço de varejo inicial, digite o valor do impacto (negativo ou positivo).</target>
-        <note>Line: 109</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationFormType.php" source-language="en" target-language="pt-BR" datatype="plaintext">
     <body>
       <trans-unit id="762d425093de542e7ab628b44ff68515" approved="yes">
@@ -413,6 +404,11 @@
         <target state="final">Esta interface permite que você especifique os fornecedores da combinação atual.</target>
         <note>Line: 88</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationPriceImpactType.php" source-language="en" target-language="pt-BR" datatype="plaintext">
+    <body>
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/LowStockThresholdType.php" source-language="en" target-language="pt-BR" datatype="plaintext">
@@ -486,11 +482,6 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Pricing/UnitPriceType.php" source-language="en" target-language="pt-BR" datatype="plaintext">
     <body>
-      <trans-unit id="420f46a170eef476454fa134085a85a2" approved="yes">
-        <source>Per kilo, per litre</source>
-        <target state="final">Por quilo, por litro</target>
-        <note>Line: 101</note>
-      </trans-unit>
       <trans-unit id="dfeaf70424e17fcd26f016ace18f2139" approved="yes">
         <source>Indicate the price for a single unit of the product. For instance, if you're selling fabrics, it would be the price per meter.</source>
         <target state="final">Indique o preço para uma unidade do produto. Por exemplo, se você estiver vendendo tecidos, será o preço por metro.</target>
@@ -500,21 +491,6 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/SEO/RedirectOptionType.php" source-language="en" target-language="pt-BR" datatype="plaintext">
     <body>
-      <trans-unit id="96bacc9c71fc8b7763f985fed3dfc545" approved="yes">
-        <source>To which product should the page redirect?</source>
-        <target state="final">Para qual produto a página deve ser redirecionada?</target>
-        <note>Line: 104</note>
-      </trans-unit>
-      <trans-unit id="6dd1254fcdbcc7b3fd459617adad9289" approved="yes">
-        <source>To which category should the page redirect?</source>
-        <target state="final">Para qual categoria a página deve ser redirecionada?</target>
-        <note>Line: 114</note>
-      </trans-unit>
-      <trans-unit id="1b9648d6a32243bb7003ae8046dc7c1a" approved="yes">
-        <source>By default, the main category will be used if no category is selected.</source>
-        <target state="final">Por padrão, a categoria padrão será utilizada se nenhuma categoria for selecionada.</target>
-        <note>Line: 115</note>
-      </trans-unit>
       <trans-unit id="e35bdf9023b638203d854dd2d9382878" approved="yes">
         <source>[1]No redirection (200), display product[/1] [2] Do not redirect anywhere, display product as discontinued and return normal 200 response.</source>
         <target state="final">[1]Sem redirecionamento (200), mostrar produto[/1] [2] Não redirecionar para lugar nenhum, mostrar o produto como descontinuado e retornar resposta 200 normal.</target>
@@ -554,21 +530,6 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/SEO/SEOType.php" source-language="en" target-language="pt-BR" datatype="plaintext">
     <body>
-      <trans-unit id="8533d8d42f2c7ef3078797984ea14675" approved="yes">
-        <source>This description will appear in search engines. You need a single sentence, shorter than 160 characters (including spaces)</source>
-        <target state="final">Esta descrição irá aparecer nos motores de busca. Você precisa de uma frase única, mais curta do que 160 caracteres (incluindo espaços)</target>
-        <note>Line: 142</note>
-      </trans-unit>
-      <trans-unit id="b51716b6494f24132f3543c516d59742" approved="yes">
-        <source>Public title for the product page, and for search engines. Leave blank to use the product name. The number of remaining characters is displayed to the right of the field.</source>
-        <target state="final">Título público da página do produto, e para motores de busca. Deixe em branco para utilizar o nome do produto. O número de caracteres restantes é exibido à direita do campo.</target>
-        <note>Line: 117</note>
-      </trans-unit>
-      <trans-unit id="390348fb4642f64089e6e9ee71f25a7c" approved="yes">
-        <source>This description will appear in search engines. It should be a single sentence, shorter than 160 characters (including spaces).</source>
-        <target state="final">Esta descrição aparecerá em motores de busca. Deve ser uma única frase, menor que 160 caracteres (incluindo espaços).</target>
-        <note>Line: 146</note>
-      </trans-unit>
       <trans-unit id="a132c5ad0de6c917b5422b923608c87b" approved="yes">
         <source>Separate each tag with a comma or press the Enter key.</source>
         <target state="final">Separe cada tag com uma vírgula ou pressione a tecla Enter.</target>
@@ -582,6 +543,20 @@
         <source>Search combination</source>
         <target state="final">Buscar combinação</target>
         <note>Line: 104</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Supplier/SupplierType.php" source-language="en" target-language="pt-BR" datatype="plaintext">
+    <body>
+      <trans-unit id="afd7431f75b5801226c9ee37acc1a504" approved="yes">
+        <source>Will appear in the list of suppliers.</source>
+        <target state="final">Vai aparecer na lista de fornecedores.</target>
+        <note>Line: 150</note>
+      </trans-unit>
+      <trans-unit id="e865605842d16d0d11c266c731e00507" approved="yes">
+        <source>Upload a supplier logo from your computer.</source>
+        <target state="final">Enviar um logo do fornecedor do seu computador.</target>
+        <note>Line: 278</note>
       </trans-unit>
     </body>
   </file>
@@ -663,6 +638,11 @@
         <source>If you want to quickly create a new category, you can do it here. Don’t forget to then go to the Categories page to fill in the needed details (description, image, etc.).  A new category will not automatically appear in your shop's menu, please read the Help about it.</source>
         <target state="final">Se você quer criar uma nova categoria rapidamente, você pode fazer isso aqui. Não esquece de depois ir para a página de Categorias para preencher os detalhes necessários, como (descrição, imagem, etc.). Uma nova categoria não aparecerá automaticamente no menu da sua loja, por favor leia as Instruções sobre isso.</target>
         <note>Line: 56</note>
+      </trans-unit>
+      <trans-unit id="c5abe76b24973299661ce389d1a092e1" approved="yes">
+        <source>Search categories</source>
+        <target state="final">Buscar categorias</target>
+        <note>Line: 35</note>
       </trans-unit>
     </body>
   </file>
@@ -1026,15 +1006,6 @@ Comment: First tag [1][/1] is for a HTML link. Second tag [2] is an icon (no clo
         <source>To add combinations, you first need to create proper attributes and values in [1]%attributes_and_features_label%[/1].</source>
         <target state="final">Para adicionar combinações, você precisa primeiro criar os atributos e valores necessários em [1]%attributes_and_features_label%[/1].</target>
         <note>Line: 34</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/FormTheme/categories.html.twig" source-language="en" target-language="pt-BR" datatype="plaintext">
-    <body>
-      <trans-unit id="c5abe76b24973299661ce389d1a092e1" approved="yes">
-        <source>Search categories</source>
-        <target state="final">Buscar categorias</target>
-        <note>Line: 55</note>
       </trans-unit>
     </body>
   </file>

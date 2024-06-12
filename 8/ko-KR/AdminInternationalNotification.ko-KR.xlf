@@ -16,6 +16,10 @@
         <target state="final">%s 이상이거나, 또는 번역 파일들을 수동으로 편집해야 합니다.</target>
         <note>Line: 47</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_form.tpl" source-language="en" target-language="ko" datatype="plaintext">
+    <body>
       <trans-unit id="06a92b5dc72bff3b98bf4b932ce72864" approved="yes">
         <source>Apache mod_security is activated on your server. This could result in some Bad Request errors</source>
         <target state="final">서버의 Apache mod_security 가 활성화되었습니다. 이것은 몇가지 잘못된 요청 오류를 야기할 수 있습니다</target>
@@ -31,24 +35,20 @@
         <target state="final">경고! PHP 구성이 양식에 허용된 항목 최대 갯수를 제한했습니다:</target>
         <note>Line: 43</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_form.tpl" source-language="en" target-language="ko" datatype="plaintext">
-    <body>
       <trans-unit id="7cefb4829c6de24b63f7a05716b43bec" approved="yes">
         <source>This expression uses a special syntax:</source>
         <target state="final">이 표현식은 특별한 구문을 사용합니다:</target>
         <note>Line: 133</note>
       </trans-unit>
+      <trans-unit id="4fb6a3beb82f8d8aa4bbdf8f5a0c35fa" approved="yes">
+        <source>%s at least, or you will have to edit the translation files.</source>
+        <target state="final">%s 이상이거나, 또는 번역 파일들을 편집해야 합니다.</target>
+        <note>Line: 47</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_mails.tpl" source-language="en" target-language="ko" datatype="plaintext">
     <body>
-      <trans-unit id="4fb6a3beb82f8d8aa4bbdf8f5a0c35fa" approved="yes">
-        <source>%s at least, or you will have to edit the translation files.</source>
-        <target state="final">%s 이상이거나, 또는 번역 파일들을 편집해야 합니다.</target>
-        <note>Line: 49</note>
-      </trans-unit>
       <trans-unit id="bbfb7a636f839052067cc86c39fa595a" approved="yes">
         <source>%limit% for suhosin.post.max_vars.</source>
         <target state="final">suhosin.post.max_vars에 대한 %limit%.</target>
@@ -411,45 +411,49 @@ Comment: @todo Throw exception</note>
         <target state="final">"%file%"에 쓸 수 없음</target>
         <note>Line: 3183</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="src/Adapter/Language/LanguageCopier.php" source-language="en" target-language="ko" datatype="plaintext">
+    <body>
       <trans-unit id="4d7541fb66c9fc832a20a6f48b4d5613" approved="yes">
         <source>Cannot create the folder "%folder%". Please check your directory writing permissions.</source>
         <target state="final">폴더 "%folder%"를 생성할 수 없습니다. 디렉토리 쓰기 권한을 확인하세요.</target>
-        <note>Line: 302</note>
+        <note>Line: 93</note>
       </trans-unit>
       <trans-unit id="102c75f83994f206179912d118b8bc3c" approved="yes">
         <source>You must select two languages in order to copy data from one to another.</source>
         <target state="final">자료를 다른 쪽으로 복사하려면 두 개의 언어를 선택해야 합니다.</target>
-        <note>Line: 399</note>
+        <note>Line: 166</note>
       </trans-unit>
       <trans-unit id="fc15f62c244c6d8035874d556e6a7f7b" approved="yes">
         <source>You must select two themes in order to copy data from one to another.</source>
         <target state="final">자료를 다른 쪽으로 복사하려면 두 개의 테마를 선택해야 합니다.</target>
-        <note>Line: 404</note>
+        <note>Line: 172</note>
       </trans-unit>
       <trans-unit id="0a7402299bf78a7624da443a12cd78ab" approved="yes">
         <source>There is nothing to copy (same language and theme).</source>
         <target state="final">복사할 것이 없습니다 (같은 언어나 테마)</target>
-        <note>Line: 409</note>
+        <note>Line: 181</note>
       </trans-unit>
       <trans-unit id="6b5324e2e711f17c4d3db1f625178e86" approved="yes">
         <source>Theme(s) not found</source>
         <target state="final">테마(들) 을 찾을 수 없음</target>
-        <note>Line: 426</note>
+        <note>Line: 204</note>
       </trans-unit>
       <trans-unit id="434464e4353199dd20af7bd3cf8e6c64" approved="yes">
         <source>Impossible to copy "%source%" to "%dest%".</source>
         <target state="final">"%source%" 를 "%dest%"로 복사할 수 없습니다.</target>
-        <note>Line: 439</note>
+        <note>Line: 107</note>
       </trans-unit>
       <trans-unit id="07b33077111c506cf81b6cc5ef42a170" approved="yes">
         <source>Impossible to translate "%dest%".</source>
         <target state="final">"%dest%"를 번역할 수 없습니다.</target>
-        <note>Line: 442</note>
+        <note>Line: 127</note>
       </trans-unit>
       <trans-unit id="c7254dc1193c25493aa0a09df285b43c" approved="yes">
         <source>A part of the data has been copied but some of the language files could not be found.</source>
         <target state="final">일부 자료는 복사되었지만 일부 언어 파일은 찾을 수 없습니다.</target>
-        <note>Line: 449</note>
+        <note>Line: 139</note>
       </trans-unit>
     </body>
   </file>
@@ -637,14 +641,10 @@ Comment: @todo Throw exception</note>
         <target state="final">잘못된 화이트 사이트 목록</target>
         <note>Line: 123</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Geolocation/GeolocationOptionsFormDataProvider.php" source-language="en" target-language="ko" datatype="plaintext">
-    <body>
       <trans-unit id="493ce56d58c4880dc32df56f12585a23" approved="yes">
         <source>Country selection is invalid.</source>
         <target state="final">국가 선택이 잘못되었습니다.</target>
-        <note>Line: 75</note>
+        <note>Line: 115</note>
       </trans-unit>
     </body>
   </file>

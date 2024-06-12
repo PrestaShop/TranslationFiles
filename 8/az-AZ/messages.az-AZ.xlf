@@ -138,12 +138,12 @@
       <trans-unit id="dc647eb65e6711e155375218212b3964" approved="yes">
         <source>Password</source>
         <target state="final">Şifrə</target>
-        <note>Line: 68</note>
+        <note>Line: 67</note>
       </trans-unit>
       <trans-unit id="685de99eb748aa2bba879a87af2ffed4" approved="yes">
         <source>Your password has been successfully changed.</source>
         <target state="final">Keçidsözünüz uğurla dəyişdirildi.</target>
-        <note>Line: 118</note>
+        <note>Line: 117</note>
       </trans-unit>
     </body>
   </file>
@@ -172,6 +172,11 @@
         <source>Can I add my own modules?</source>
         <target state="final">Öz modullarımı artıra bilərəm?</target>
         <note>Line: 55</note>
+      </trans-unit>
+      <trans-unit id="96e36efe70e72835ae51946e2650f9e7" approved="yes">
+        <source>Add a new module</source>
+        <target state="final">Yeni modul artır</target>
+        <note>Line: 35</note>
       </trans-unit>
     </body>
   </file>
@@ -368,11 +373,6 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/modules/page.tpl" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      <trans-unit id="96e36efe70e72835ae51946e2650f9e7" approved="yes">
-        <source>Add a new module</source>
-        <target state="final">Yeni modul artır</target>
-        <note>Line: 31</note>
-      </trans-unit>
       <trans-unit id="6afd80bf62a1b8bdfe729af8a0159fee" approved="yes">
         <source>Modules list</source>
         <target state="final">Modullar siyahısı</target>
@@ -591,7 +591,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_errors.tpl" source-language="en" target-language="az" datatype="plaintext">
+  <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_form.tpl" source-language="en" target-language="az" datatype="plaintext">
     <body>
       <trans-unit id="bbfb7a636f839052067cc86c39fa595a" approved="yes">
         <source>%limit% for suhosin.post.max_vars.</source>
@@ -603,11 +603,6 @@
         <target state="final">suhosin.request.max_vars üçün %limit%.</target>
         <note>Line: 40</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_form.tpl" source-language="en" target-language="az" datatype="plaintext">
-    <body>
-      
     </body>
   </file>
   <file original="admin-dev/themes/default/template/helpers/calendar/calendar.tpl" source-language="en" target-language="az" datatype="plaintext">
@@ -747,6 +742,11 @@
         <target state="final">May </target>
         <note>Line: 115</note>
       </trans-unit>
+      <trans-unit id="5da618e8e4b89c66fe86e32cdafde142" approved="yes">
+        <source>From</source>
+        <target state="final">Kimdən</target>
+        <note>Line: 87</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/helpers/dataviz/graph.tpl" source-language="en" target-language="az" datatype="plaintext">
@@ -866,11 +866,6 @@
   </file>
   <file original="admin-dev/themes/default/template/helpers/list/list_header.tpl" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      <trans-unit id="5da618e8e4b89c66fe86e32cdafde142" approved="yes">
-        <source>From</source>
-        <target state="final">Kimdən</target>
-        <note>Line: 358</note>
-      </trans-unit>
       <trans-unit id="4493e821e06072415518bd7ae4077996" approved="yes">
         <source>Shop group</source>
         <target state="final">Dükan qrupu</target>
@@ -933,11 +928,6 @@
         <target state="final">Bütün dükanlar</target>
         <note>Line: 32</note>
       </trans-unit>
-      <trans-unit id="93f04304c09d561ed79442ea9ee722d4" approved="yes">
-        <source>%s group</source>
-        <target state="final">%s qrup</target>
-        <note>Line: 42</note>
-      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/helpers/tree/tree_node_folder_checkbox.tpl" source-language="en" target-language="az" datatype="plaintext">
@@ -994,6 +984,16 @@
         <target state="final">Faylı sil</target>
         <note>Line: 178</note>
       </trans-unit>
+      <trans-unit id="1908624a0bca678cd26b99bfd405324e" approved="yes">
+        <source>File size</source>
+        <target state="final">Fayl ölçüsü</target>
+        <note>Line: 32</note>
+      </trans-unit>
+      <trans-unit id="3fcbe6bd34e9279ec2c7b13adf7e4095" approved="yes">
+        <source>You have reached the limit (%s) of files to upload, please remove files to continue uploading</source>
+        <target state="final">Siz fayl yükləmə limitinə (%s) çatdınız. Buyurun, yükləməyə davam etmək üçün bir neçəsini silin</target>
+        <note>Line: 48</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/helpers/uploader/simple.tpl" source-language="en" target-language="az" datatype="plaintext">
@@ -1002,16 +1002,6 @@
         <source>Download current file</source>
         <target state="final">İndiki faylı endir</target>
         <note>Line: 72</note>
-      </trans-unit>
-      <trans-unit id="1908624a0bca678cd26b99bfd405324e" approved="yes">
-        <source>File size</source>
-        <target state="final">Fayl ölçüsü</target>
-        <note>Line: 39</note>
-      </trans-unit>
-      <trans-unit id="3fcbe6bd34e9279ec2c7b13adf7e4095" approved="yes">
-        <source>You have reached the limit (%s) of files to upload, please remove files to continue uploading</source>
-        <target state="final">Siz fayl yükləmə limitinə (%s) çatdınız. Buyurun, yükləməyə davam etmək üçün bir neçəsini silin</target>
-        <note>Line: 56</note>
       </trans-unit>
       <trans-unit id="d39ec66f08507e26fe86aa5325d070df" approved="yes">
         <source>Add files</source>
@@ -1070,6 +1060,15 @@
         <source>by ip address</source>
         <target state="final">ip ünvana görə</target>
         <note>Line: 46</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="admin-dev/themes/new-theme/template/helpers/shops_list/list.tpl" source-language="en" target-language="az" datatype="plaintext">
+    <body>
+      <trans-unit id="93f04304c09d561ed79442ea9ee722d4" approved="yes">
+        <source>%s group</source>
+        <target state="final">%s qrup</target>
+        <note>Line: 38</note>
       </trans-unit>
     </body>
   </file>
