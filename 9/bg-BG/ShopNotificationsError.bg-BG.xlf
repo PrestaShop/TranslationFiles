@@ -62,6 +62,11 @@
         <target state="final">Моля, влезте в профила си първо</target>
         <note>Line: 876</note>
       </trans-unit>
+      <trans-unit id="a5e06c56adb314048d97a666db5c1d5a" approved="yes">
+        <source>The minimum amount to benefit from this promo code is %s.</source>
+        <target state="final">Минималната сума, за да се възползвате от този промоционален код, е %s.</target>
+        <note>Line: 938</note>
+      </trans-unit>
       <trans-unit id="d0f1560c5d1b13b1e64fa87a301dd83b" approved="yes">
         <source>This voucher is already in your cart</source>
         <target state="final">Ваучерът вече е добавен към количката.</target>
@@ -91,8 +96,16 @@
   </file>
   <file original="classes/controller/FrontController.php" source-language="en" target-language="bg" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="914aabd65a536be202b28dc1ac5dd1af" approved="yes">
+        <source>This cart has expired.</source>
+        <target state="final">Времето за поръчка на тази количка е изтекло.</target>
+        <note>Line: 1309</note>
+      </trans-unit>
+      <trans-unit id="1e65dae319656efa0e4d3f49be9fdfda" approved="yes">
+        <source>This cart was already used in an order and has expired.</source>
+        <target state="final">С тази количка вече има направена поръчка или времето за поръчка е изтекло.</target>
+        <note>Line: 1316</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/form/CustomerForm.php" source-language="en" target-language="bg" datatype="plaintext">
@@ -202,6 +215,11 @@
         <target state="final">Продуктът (%product%) е изчерпан.</target>
         <note>Line: 673</note>
       </trans-unit>
+      <trans-unit id="eacc42ec99f31bde627c93b8ab96c0e5" approved="yes">
+        <source>You can only buy %quantity% "%product%". Please adjust the quantity in your cart to continue.</source>
+        <target state="final">Можете да закупите само %quantity% от "%product%". Моля, коригирайте количеството в количката си, за да продължите.</target>
+        <note>Line: 663</note>
+      </trans-unit>
       <trans-unit id="feb34b89eb5bf8066025f508b9b86ab2" approved="yes">
         <source>The minimum purchase order quantity for the product %product% is %quantity%.</source>
         <target state="final">Минималното количество за покупка на продукт %product% е %quantity%.</target>
@@ -293,6 +311,21 @@
   </file>
   <file original="controllers/front/OrderConfirmationController.php" source-language="en" target-language="bg" datatype="plaintext">
     <body>
+      <trans-unit id="e74bbc67e02323a626ce95619ef42fd5" approved="yes">
+        <source>Password must be between %d and %d characters long</source>
+        <target state="final">Дължината на паролата трябва да е между %d и %d знака</target>
+        <note>Line: 138</note>
+      </trans-unit>
+      <trans-unit id="f43333ea2272fed37fc121a2e09755c3" approved="yes">
+        <source>The minimum score must be: %s</source>
+        <target state="final">Минималният постигнат коефициент трябва да бъде: %s</target>
+        <note>Line: 155</note>
+      </trans-unit>
+      <trans-unit id="e9c8b958cbfb895182fe7eeeeadd1121" approved="yes">
+        <source>A customer account has already been created from this guest account. Please sign in.</source>
+        <target state="final">Вече имате създаден профил. Моля, влезте в системата.</target>
+        <note>Line: 186</note>
+      </trans-unit>
       <trans-unit id="97f79d53b078e529949d5c3c8b676d52" approved="yes">
         <source>An unexpected error occurred while creating your account.</source>
         <target state="final">При създаването на профила ви възникна неочаквана грешка.</target>
@@ -385,6 +418,11 @@
         <target state="final">Липсва парола: моля въведете вашата нова парола.</target>
         <note>Line: 152</note>
       </trans-unit>
+      <trans-unit id="65efaaf9ead1beea82672beb5ace1fe2" approved="yes">
+        <source>The confirmation password doesn't match.</source>
+        <target state="final">Паролите не съвпадат.</target>
+        <note>Line: 161</note>
+      </trans-unit>
       <trans-unit id="f01fb987f60542e0bff1bf7bed42d142" approved="yes">
         <source>The password is not in a valid format.</source>
         <target state="final">Паролата не е във валиден формат.</target>
@@ -456,6 +494,11 @@
         <target state="final">Възникна грешка по време на качването на изображение.</target>
         <note>Line: 975</note>
       </trans-unit>
+      <trans-unit id="e14005ecaeec15e1019f543a379b83cc" approved="yes">
+        <source>Invalid message.</source>
+        <target state="final">Невалидно съобщение.</target>
+        <note>Line: 1003</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/front/listing/CategoryController.php" source-language="en" target-language="bg" datatype="plaintext">
@@ -488,6 +531,11 @@
   </file>
   <file original="src/Adapter/Presenter/Product/ProductLazyArray.php" source-language="en" target-language="bg" datatype="plaintext">
     <body>
+      <trans-unit id="80d889c08e270f0016d61b963e13fec1" approved="yes">
+        <source>This product is no longer available for sale.</source>
+        <target state="final">Този продукт вече не е наличен за продажба.</target>
+        <note>Line: 1095</note>
+      </trans-unit>
       <trans-unit id="a923575984949608ce04c4984806ec2a" approved="yes">
         <source>There are not enough products in stock</source>
         <target state="final">Няма достатъчно продукти в наличност</target>

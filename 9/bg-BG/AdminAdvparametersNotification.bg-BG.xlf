@@ -143,6 +143,11 @@
         <target state="final">Не е намерено изображение за комбинацията id_product = %s и позиция на изображението = %s.</target>
         <note>Line: 2342</note>
       </trans-unit>
+      <trans-unit id="e8b6f82eaf10566aa372329388e13e39" approved="yes">
+        <source>EAN-13 "%ean13%" has incorrect value for product with ID %id%.</source>
+        <target state="final">EAN-13 "%ean13%" има неправилна стойност за продукт с ИН %id%.</target>
+        <note>Line: 2463</note>
+      </trans-unit>
       <trans-unit id="fd6d9d3ba7d4aaacc49f53c2e8c082c0" approved="yes">
         <source>Email address %1$s (ID: %2$s) cannot be validated.</source>
         <target state="final">Имейл адресът %1$s (ID: %2$s) не може да бъде проверен.</target>
@@ -212,6 +217,16 @@
   </file>
   <file original="controllers/admin/AdminShopController.php" source-language="en" target-language="bg" datatype="plaintext">
     <body>
+      <trans-unit id="e7cd23389f09dae6b4e79d876849a83d" approved="yes">
+        <source>You cannot have two stores with the same name in the same group.</source>
+        <target state="final">Не можете да имате два магазина с едно и също име в една и съща група.</target>
+        <note>Line: 269</note>
+      </trans-unit>
+      <trans-unit id="0f1fe9700af1a235b700670ede95ed81" approved="yes">
+        <source>Unable to load this store.</source>
+        <target state="final">Не може да се зареди този магазин.</target>
+        <note>Line: 299</note>
+      </trans-unit>
       <trans-unit id="cf52c411b5659457074fd9962435307f" approved="yes">
         <source>You need to select at least the root category.</source>
         <target state="final">Трябва да избереш поне основната директория.</target>
@@ -221,7 +236,11 @@
   </file>
   <file original="controllers/admin/AdminShopGroupController.php" source-language="en" target-language="bg" datatype="plaintext">
     <body>
-      
+      <trans-unit id="083020d21e9461b15d496bbb87198c34" approved="yes">
+        <source>You must configure this store's URL before setting it as default.</source>
+        <target state="final">Трябва да конфигурирате URL адреса на този магазин, преди да го зададете като основен.</target>
+        <note>Line: 360</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminStoresController.php" source-language="en" target-language="bg" datatype="plaintext">
@@ -277,11 +296,20 @@
         <target state="final">Грешка: не може да се разбере разрешен ли е режимът за отстраняване на грешки. Уверете се, че са зададени верни права за файла %s</target>
         <note>Line: 138</note>
       </trans-unit>
+      <trans-unit id="41925db348bd432023308554f2cde943" approved="yes">
+        <source>Error: Could not find whether debug profiling is enabled. Make sure that the correct permissions are set on the file %s</source>
+        <target state="final">Грешка: Не може да се установи дали режимът за отстраняване на грешки е активиран. Уверете се, че са зададени правилните права на файла %s</target>
+        <note>Line: 164</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/GeneralConfiguration.php" source-language="en" target-language="bg" datatype="plaintext">
     <body>
-      
+      <trans-unit id="6234474f7c68eb4436d392ed9645136b" approved="yes">
+        <source>The SameSite=None attribute is only available in secure mode.</source>
+        <target state="final">Атрибутът SameSite=None е наличен само в защитен режим.</target>
+        <note>Line: 80</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Import/Handler/AbstractImportHandler.php" source-language="en" target-language="bg" datatype="plaintext">
@@ -482,6 +510,11 @@
         <target state="final">Активирайте разширение OpenSSL на сървъра.</target>
         <note>Line: 103</note>
       </trans-unit>
+      <trans-unit id="8406b91fd5a290de3a1e1516db6e79b8" approved="yes">
+        <source>Unable to generate private keys using openssl_pkey_new. Check your OpenSSL configuration, especially the path to openssl.cafile.</source>
+        <target state="final">Невъзможно е да се генерират частни ключове чрез openssl_pkey_new. Проверете конфигурацията на OpenSSL, особено пътя до openssl.cafile.</target>
+        <note>Line: 104</note>
+      </trans-unit>
       <trans-unit id="a06111807d1bd6e8dd420e7ee5d0b0f8" approved="yes">
         <source>Enable the PDO Mysql extension on your server.</source>
         <target state="final">Активирайте разширение PDO Mysql на сървъра.</target>
@@ -626,6 +659,11 @@
         <target state="final">Операторът "*" не може да се използва във вложена заявка.</target>
         <note>Line: 178</note>
       </trans-unit>
+      <trans-unit id="61f5912b0425ad1895fe203e725d2d7e" approved="yes">
+        <source>The "%function%" function is not allowed.</source>
+        <target state="final">Функцията "%function%" не е разрешена.</target>
+        <note>Line: 186</note>
+      </trans-unit>
       <trans-unit id="20cc3893d65fa16fcd2fe317c555e28a" approved="yes">
         <source>The operator "%s" is incorrect.</source>
         <target state="final">Грешен оператор "%s" .</target>
@@ -683,6 +721,11 @@
         <source>The uploaded file was only partially uploaded.</source>
         <target state="final">Прикачваният файл беше само частично прикачен.</target>
         <note>Line: 120</note>
+      </trans-unit>
+      <trans-unit id="519a3cfe5400ef0f781671c700aaed05" approved="yes">
+        <source>The extension of your file should be ".csv".</source>
+        <target state="final">Разширението на файла трябва да бъде ".csv".</target>
+        <note>Line: 134</note>
       </trans-unit>
       <trans-unit id="50844c635a86264cc59d737d532df573" approved="yes">
         <source>An error occurred while uploading / copying the file.</source>
@@ -863,8 +906,16 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceKeyType.php" source-language="en" target-language="bg" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="3a59a0e5e521300876d4f2c596d6aeca" approved="yes">
+        <source>Key length must be %length% characters long.</source>
+        <target state="final">Дължината на ключа трябва да бъде %length% знака.</target>
+        <note>Line: 111</note>
+      </trans-unit>
+      <trans-unit id="2cb84ea6e832a3190d3ad11a3e1f415c" approved="yes">
+        <source>Only non-accented characters, numbers, and the following special characters are allowed: %allowed_characters%</source>
+        <target state="final">Разрешени са само букви без ударение, цифри и следните специални символи: %allowed_characters%</target>
+        <note>Line: 121</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Backup/Blocks/backup_form.html.twig" source-language="en" target-language="bg" datatype="plaintext">
@@ -965,12 +1016,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/FeatureFlag/index.html.twig" source-language="en" target-language="bg" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
+      <trans-unit id="413e71d77a70c6ddfbbee6979b47b90b" approved="yes">
+        <source>New features are available. Feel free to try them out!</source>
+        <target state="final">Налични са нови функции. Чувствайте се свободни да ги изпробвате!</target>
+        <note>Line: 43</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/RequestSql/Blocks/db_tables_panel.html.twig" source-language="en" target-language="bg" datatype="plaintext">
