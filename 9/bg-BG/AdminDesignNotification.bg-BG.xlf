@@ -16,13 +16,25 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/images/modal_confirm_delete_type.tpl" source-language="en" target-language="bg" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="01d51bf7619b2c4c234be88fa06ac16b" approved="yes">
+        <source>Delete the images linked to this image setting</source>
+        <target state="final">Изтриване на изображенията, свързани с тези настройки за изображения</target>
+        <note>Line: 35</note>
+      </trans-unit>
+      <trans-unit id="f031a290ace03a9f5d5dce82aefa86c6" approved="yes">
+        <source>If you delete this image format, the theme won't be able to use it anymore. This will result in a degraded experience on your front office.</source>
+        <target state="final">Ако изтриете този формат на изображение, темата няма да може да го използва повече. Това ще доведе до влошено преживяване във вашия потребителски интерфейс.</target>
+        <note>Line: 27</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/images/modal_regenerate_thumbnails.tpl" source-language="en" target-language="bg" datatype="plaintext">
     <body>
-      
+      <trans-unit id="6d2d8a4592271225573b378ea6d12eeb" approved="yes">
+        <source>Regenerate thumbnails for the selected images? With the "erase" option enabled, the previously selected thumbnails will be deleted.</source>
+        <target state="final">Повторно генериране на миниатюри за избраните изображения? При активирана опция "изтриване" съществуващите миниатюри ще бъдат изтрити.</target>
+        <note>Line: 26</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/controller/FrontController.php" source-language="en" target-language="bg" datatype="plaintext">
@@ -153,6 +165,12 @@ Context | Request Context</target>
         <source>After modification, do not forget to regenerate thumbnails</source>
         <target state="final">След промени, не забравяй да възстановиш иконки</target>
         <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="de7bf0de52dfa524dc063d610496c957" approved="yes">
+        <source>Make sure the theme you use doesn't rely on this image format before deleting it.</source>
+        <target state="final">Уверете се, че използваната от вас тема не разчита на този формат на изображението, преди да го изтриете.</target>
+        <note>Line: 30
+Comment: Regenerate button is only shown for internal API clients (identified via external_issuer field being null)</note>
       </trans-unit>
     </body>
   </file>

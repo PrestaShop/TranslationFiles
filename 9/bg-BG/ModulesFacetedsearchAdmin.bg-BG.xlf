@@ -12,6 +12,16 @@
         <target state="final">Необходимо е име на шаблона на филтъра (не може да бъде празно)</target>
         <note>Line: 606</note>
       </trans-unit>
+      <trans-unit id="9461ef0a8f8a2adbb3fa8ea0fda9949d" approved="yes">
+        <source>You must select at least one page.</source>
+        <target state="final">Трябва да изберете поне една страница.</target>
+        <note>Line: 608</note>
+      </trans-unit>
+      <trans-unit id="d4513f10f8edb4426a5723738e129861" approved="yes">
+        <source>You must select at least one category if you want to use this filter template on category pages.</source>
+        <target state="final">Трябва да изберете поне една категория, ако искате да използвате този шаблон за филтриране на страници с категории.</target>
+        <note>Line: 610</note>
+      </trans-unit>
       <trans-unit id="817c37b9c1f5cd4a450dad384e63e6c7" approved="yes">
         <source>Your filter</source>
         <target state="final">Вашият филтър</target>
@@ -92,6 +102,11 @@
         <target state="final">Търсене</target>
         <note>Line: 1751</note>
       </trans-unit>
+      <trans-unit id="bab956f96196bebabbfb693f920b1bc1" approved="yes">
+        <source>(experimental)</source>
+        <target state="final">(експериментално)</target>
+        <note>Line: 1751</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/ps_facetedsearch/src/Form/AttributeGroup/FormModifier.php" source-language="en" target-language="bg" datatype="plaintext">
@@ -124,11 +139,20 @@
         <target state="final">Избора на категории не е активен, защото нямате категории или сте в контекст на "всички магазини".</target>
         <note>Line: 26</note>
       </trans-unit>
+      <trans-unit id="6a84ae1d689983a9cc5fb6676eb46279" approved="yes">
+        <source>Effective only if category pages are selected above.</source>
+        <target state="final">Ефективно, само ако са избрани страници с категории по-горе.</target>
+        <note>Line: 29</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/ps_facetedsearch/views/templates/admin/_partials/controllers.tpl" source-language="en" target-language="bg" datatype="plaintext">
     <body>
-      
+      <trans-unit id="bd8da101b4d007b536f36eadc7f686e7" approved="yes">
+        <source>Pages using this template:</source>
+        <target state="final">Страници, използващи този шаблон:</target>
+        <note>Line: 20</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/ps_facetedsearch/views/templates/admin/_partials/footer.tpl" source-language="en" target-language="bg" datatype="plaintext">
@@ -137,6 +161,11 @@
         <source>You must select at least one category</source>
         <target state="final">Трябва да изберете поне една категория</target>
         <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="de9bebfdc6b9fc0ea050a478f27cbb92" approved="yes">
+        <source>You must select at least one page</source>
+        <target state="final">Трябва да изберете поне една страница</target>
+        <note>Line: 30</note>
       </trans-unit>
       <trans-unit id="dc3f85827350641490287c65c0c4ddf8" approved="yes">
         <source>You must select at least one filter</source>
@@ -224,6 +253,11 @@
         <target state="final">Филтър за продукти в наличност</target>
         <note>Line: 95</note>
       </trans-unit>
+      <trans-unit id="4e0e25a7f0ffc6adce58b7fd3412cd35" approved="yes">
+        <source>Product extras filter</source>
+        <target state="final">Филтър за допълнителни опции на продукт</target>
+        <note>Line: 127</note>
+      </trans-unit>
       <trans-unit id="048c1728a0a6cf36f56c9dcdd23d8a14" approved="yes">
         <source>Product condition filter</source>
         <target state="final">Филтър за състояние на продукти</target>
@@ -273,6 +307,31 @@
         <target state="final">Изчистване на кеша</target>
         <note>Line: 31</note>
       </trans-unit>
+      <trans-unit id="7ee2f2da463bebd7507e3e0a39de6e99" approved="yes">
+        <source>We recommend to set regular cron tasks to manage the indexes and cache on daily/weekly basis.</source>
+        <target state="final">Препоръчваме да настроите редовни cron задачи за управление на индексите и кеша на дневна/седмична база.</target>
+        <note>Line: 36</note>
+      </trans-unit>
+      <trans-unit id="964f08f089bd198a3b5433045510556b" approved="yes">
+        <source>Add missing products to price index:</source>
+        <target state="final">Добавяне на липсващите продукти към ценовия индекс:</target>
+        <note>Line: 38</note>
+      </trans-unit>
+      <trans-unit id="d5da9a4cccaf88f37b2e097a9d34a836" approved="yes">
+        <source>Rebuild price index:</source>
+        <target state="final">Възстановяване на индекса на цените:</target>
+        <note>Line: 40</note>
+      </trans-unit>
+      <trans-unit id="203b4e9a5b29bb6ed5aeb6d0692941ce" approved="yes">
+        <source>Rebuild attribute index:</source>
+        <target state="final">Възстановяване на индекса на атрибутите:</target>
+        <note>Line: 42</note>
+      </trans-unit>
+      <trans-unit id="2707341ee97a7c74914e0d59adbcf5ab" approved="yes">
+        <source>Flush block cache:</source>
+        <target state="final">Изчистване на кеша на блока:</target>
+        <note>Line: 44</note>
+      </trans-unit>
       <trans-unit id="16349835364cf839e6670b0de7da6362" approved="yes">
         <source>A nightly rebuild is recommended.</source>
         <target state="final">Препоръчва се изграждането да се провежда през нощта.</target>
@@ -308,15 +367,40 @@
         <target state="final">Добавяне на нов шаблон</target>
         <note>Line: 107</note>
       </trans-unit>
+      <trans-unit id="5466dc891d678f772cc36162753e92fa" approved="yes">
+        <source>This option caches filtering blocks, so the module does not have to query for matching products all the time. The cache is invalidated on every modification on your store. If you encounter some incosistencies, disable this cache or make sure to flush it if needed.</source>
+        <target state="final">Тази опция кешира блоковете за филтриране, така на модула не се налага да прави постоянно запитване за подобни продукти. Кешът се нулира при всяка промяна в магазина. Ако се сблъскате с някои несъответствия, деактивирайте този кеш или се уверете, че го изчиствате, ако е необходимо.</target>
+        <note>Line: 131</note>
+      </trans-unit>
       <trans-unit id="8531c73de81b9ed94322dda7cf947daa" approved="yes">
         <source>Show the number of matching products</source>
         <target state="final">Показване броя на съответстващите продукти</target>
         <note>Line: 137</note>
       </trans-unit>
+      <trans-unit id="2829d57ed813ec86c807b7dde4fe140c" approved="yes">
+        <source>Enable or disable display of matching products after filters. Disabling this won't bring any performance benefit, because matching products need to be calculated anyway.</source>
+        <target state="final">Активиране или деактивиране на показването на подобните продукти след филтрите. Деактивирането на това няма да доведе до подобрение на производителността, защото подобните продукти въпреки това трябва да бъдат изчислени.</target>
+        <note>Line: 153</note>
+      </trans-unit>
       <trans-unit id="ee61c015043c79c1370fc14980dd27b9" approved="yes">
         <source>Show products from subcategories</source>
         <target state="final">Показване на продуктите от подкатегориите</target>
         <note>Line: 159</note>
+      </trans-unit>
+      <trans-unit id="86c8e8e4e43a8e6d27907e9cde0b3a71" approved="yes">
+        <source>Enable this, if you want to display products from subcategories, even if they are not specifically assigned to the currently browsed category.</source>
+        <target state="final">Активирайте това, ако искате да показвате продукти от подкатегории, дори ако те не са специално присвоени към разглеждана категория.</target>
+        <note>Line: 175</note>
+      </trans-unit>
+      <trans-unit id="dc668816c4d715e1021b44a4823924a4" approved="yes">
+        <source>Category filter depth</source>
+        <target state="final">Дълбочина на филтъра за категория</target>
+        <note>Line: 203</note>
+      </trans-unit>
+      <trans-unit id="917b770ceaad28f806736a648ff6e0d6" approved="yes">
+        <source>This option controls the behavior of category filter block - how deep children of the currently browsed category you want to display? The default value is 1 - only the direct children. Use 0 for unlimited depth.</source>
+        <target state="final">Тази опция контролира поведението на блока за филтриране на категории - колко подкатегории на текущо разглежданата категория искате да покажете? Стойността по подразбиране е 1 - само първите подкатегории. Използвайте 0 за неограничено показване.</target>
+        <note>Line: 209</note>
       </trans-unit>
       <trans-unit id="3e652bd299bb3ee3d458c0dcc7fd706e" approved="yes">
         <source>Use tax to filter price</source>
@@ -327,6 +411,26 @@
         <source>Use rounding to filter price</source>
         <target state="final">Използване на закръгляне във филтъра на цената</target>
         <note>Line: 232</note>
+      </trans-unit>
+      <trans-unit id="2e465237d27547eb60889256909234e7" approved="yes">
+        <source>Use Jquery UI slider</source>
+        <target state="final">Използване на плъзгач Jquery UI</target>
+        <note>Line: 266</note>
+      </trans-unit>
+      <trans-unit id="1adb03626a4e0c1aaa27bf37f0f1096b" approved="yes">
+        <source>Switch this off only if your theme does not use Jquery UI slider. It is recommended to keep it on when using classic theme.</source>
+        <target state="final">Изключете това само ако вашата тема не използва Jquery UI плъзгач. Препоръчително е да го оставите включено, когато използвате класическата тема.</target>
+        <note>Line: 282</note>
+      </trans-unit>
+      <trans-unit id="b4f8e8e66907c50c52c0ad3bd31e29b0" approved="yes">
+        <source>Default filter template for new categories</source>
+        <target state="final">Шаблон на филтъра по подразбиране за нови категории</target>
+        <note>Line: 288</note>
+      </trans-unit>
+      <trans-unit id="9e80bb018eeeced7e38da900e5f47135" approved="yes">
+        <source>If you want to automatically assign a filter template to new categories, select it here.</source>
+        <target state="final">Ако искате автоматично да зададете шаблон за филтри към новите категории, изберете го тук.</target>
+        <note>Line: 298</note>
       </trans-unit>
       <trans-unit id="56fc8142961f1f3e9f9ec0c178881b69" approved="yes">
         <source>(in progress)</source>
