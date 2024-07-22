@@ -25,6 +25,18 @@
   </file>
   <file original="classes/lang/KeysReference/FeatureFlagLang.php" source-language="en" target-language="pl" datatype="plaintext">
     <body>
+      <trans-unit id="0fd871d97cbbdfdd3ab7e4cd30ad201f" approved="yes">
+        <source>Admin API - Multistore</source>
+        <target state="final">API administratora — Multistore</target>
+        <note>Line: 32
+Comment: Admin API - Multistore feature flag</note>
+      </trans-unit>
+      <trans-unit id="fe19273d01d8908995cd80c58963e9af" approved="yes">
+        <source>Admin API - Enable experimental endpoints</source>
+        <target state="final">API Administratora — Włącz eksperymentalne punkty końcowe</target>
+        <note>Line: 36
+Comment: Admin Api - Enable experimental endpoints</note>
+      </trans-unit>
       <trans-unit id="e5bfab8b7f97b8f0b19ad7e393d7c566" approved="yes">
         <source>Catalog price rules</source>
         <target state="final">Reguły katalogu cen</target>
@@ -72,6 +84,11 @@ Comment: Customer threads feature flag</note>
         <target state="final">Statusy zamówień</target>
         <note>Line: 76
 Comment: Order states feature flag</note>
+      </trans-unit>
+      <trans-unit id="eff83ce20156bcd1198f0eb5f9f83ad3" approved="yes">
+        <source>New front container</source>
+        <target state="final">Nowy kontener przedni</target>
+        <note>Line: 79</note>
       </trans-unit>
     </body>
   </file>
@@ -185,7 +202,7 @@ Comment: voluntary do affectation here</note>
       </trans-unit>
       <trans-unit id="4ae24b703273d53941a17737bb2b1a9a" approved="yes">
         <source>Product combinations</source>
-        <target state="final">Kombinacje produktów</target>
+        <target state="final">Warianty produktu</target>
         <note>Line: 585</note>
       </trans-unit>
       <trans-unit id="cf173b732a2a0377698d631db6185836" approved="yes">
@@ -373,7 +390,11 @@ Comment: voluntary do affectation here</note>
   </file>
   <file original="src/Adapter/AdminAPI/AdminAPIConfiguration.php" source-language="en" target-language="pl" datatype="plaintext">
     <body>
-      
+      <trans-unit id="68375f7b5582735a6594943831088a4f" approved="yes">
+        <source>Admin API</source>
+        <target state="final">API administratora</target>
+        <note>Line: 80</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Email/EmailConfigurationTester.php" source-language="en" target-language="pl" datatype="plaintext">
@@ -535,6 +556,26 @@ Comment: voluntary do affectation here</note>
         <target state="final">Ostatnia aktualizacja</target>
         <note>Line: 145</note>
       </trans-unit>
+      <trans-unit id="8c01c65cd2c7619b8bb617b441cd05c4" approved="yes">
+        <source>The user will be signed out from this session.</source>
+        <target state="final">Użytkownik zostanie wylogowany z tej sesji.</target>
+        <note>Line: 165</note>
+      </trans-unit>
+      <trans-unit id="b49d9bafc2f2394cdd875fb0b96bb974" approved="yes">
+        <source>Delete session?</source>
+        <target state="final">Usunąć sesję?</target>
+        <note>Line: 171</note>
+      </trans-unit>
+      <trans-unit id="12e882347d5f51cf292ca08e2e606eb2" approved="yes">
+        <source>Users will be signed out from all selected sessions.</source>
+        <target state="final">Użytkownicy zostaną wylogowani ze wszystkich wybranych sesji.</target>
+        <note>Line: 293</note>
+      </trans-unit>
+      <trans-unit id="b0778bfd9332089cdb4468bd9f04e031" approved="yes">
+        <source>Delete selected sessions?</source>
+        <target state="final">Usunąć wybrane sesje?</target>
+        <note>Line: 299</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Core/Grid/Definition/Factory/Security/Session/EmployeeGridDefinitionFactory.php" source-language="en" target-language="pl" datatype="plaintext">
@@ -627,7 +668,7 @@ Comment: voluntary do affectation here</note>
       </trans-unit>
       <trans-unit id="e933b93c26b14c12ac7818867e54c5d9" approved="yes">
         <source>Combination availability date</source>
-        <target state="final">Data dostępności kombinacji</target>
+        <target state="final">Data dostępności wariantu</target>
         <note>Line: 78</note>
       </trans-unit>
       <trans-unit id="657645fae83ad1673b25d3c027b77ed8" approved="yes">
@@ -847,6 +888,11 @@ Comment: voluntary do affectation here</note>
   </file>
   <file original="src/Core/Import/EntityField/Provider/StoreContactFieldsProvider.php" source-language="en" target-language="pl" datatype="plaintext">
     <body>
+      <trans-unit id="fad1595f2ba976ad028ec84cc57a56c2" approved="yes">
+        <source>ID / Name of the store</source>
+        <target state="final">ID / Nazwa sklepu</target>
+        <note>Line: 76</note>
+      </trans-unit>
       <trans-unit id="fd0dcc6233b026d257763713c133cf72" approved="yes">
         <source>Active (0/1)</source>
         <target state="final">Aktywny (0 lub 1)</target>
@@ -890,7 +936,11 @@ Comment: voluntary do affectation here</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ProfileController.php" source-language="en" target-language="pl" datatype="plaintext">
     <body>
-      
+      <trans-unit id="e4c29551cc148d92d776fe4bddef6e8d" approved="yes">
+        <source>Add new role</source>
+        <target state="final">Dodaj nową funkcję</target>
+        <note>Line: 76</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Api/StockController.php" source-language="en" target-language="pl" datatype="plaintext">
@@ -909,27 +959,58 @@ Comment: voluntary do affectation here</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ApiClientType.php" source-language="en" target-language="pl" datatype="plaintext">
     <body>
+      <trans-unit id="d1ab8bc9b4ddc9a0e4369f860f7b2ccf" approved="yes">
+        <source>Client Name</source>
+        <target state="final">Nazwa klienta</target>
+        <note>Line: 54</note>
+      </trans-unit>
       <trans-unit id="76525f0f34b48475e5ca33f71d296f3b" approved="yes">
         <source>Client ID</source>
         <target state="final">ID klienta</target>
         <note>Line: 72</note>
       </trans-unit>
+      <trans-unit id="f883a6dd8e5ef6452bf01659c44f1800" approved="yes">
+        <source>External issuer</source>
+        <target state="final">Zewnętrzny wydawca</target>
+        <note>Line: 129</note>
+      </trans-unit>
+      <trans-unit id="48b26d57c14af0500090800c2cdd0d58" approved="yes">
+        <source>Scopes</source>
+        <target state="final">Zakresy</target>
+        <note>Line: 123</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ConfigurationType.php" source-language="en" target-language="pl" datatype="plaintext">
     <body>
-      
+      <trans-unit id="7002dba196c61ac98f960a8257af7edd" approved="yes">
+        <source>Force security in debug mode</source>
+        <target state="final">Wymuś bezpieczeństwo w trybie debugowania</target>
+        <note>Line: 85</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ResourceScopesType.php" source-language="en" target-language="pl" datatype="plaintext">
     <body>
-      
+      <trans-unit id="09b7906e4edd34a9dcd48afb7b466ae5" approved="yes">
+        <source>Native scopes</source>
+        <target state="final">Zakresy natywne</target>
+        <note>Line: 140</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/SwitchScopeType.php" source-language="en" target-language="pl" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="3e5cabcc08bd6faf9b7fd4df9a882f27" approved="yes">
+        <source>Access: unauthorized</source>
+        <target state="final">Dostęp: nieautoryzowany</target>
+        <note>Line: 50</note>
+      </trans-unit>
+      <trans-unit id="4ae8f042157cf0e3b3c914507a9aae34" approved="yes">
+        <source>Access: authorized</source>
+        <target state="final">Dostęp: autoryzowany</target>
+        <note>Line: 51</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/CachingType.php" source-language="en" target-language="pl" datatype="plaintext">
@@ -996,6 +1077,16 @@ Comment: voluntary do affectation here</note>
         <source>Enable or disable all classes and controllers overrides.</source>
         <target state="final">Włącz lub wyłącz wszystkie nadpisywania klas i kontrolerów.</target>
         <note>Line: 48</note>
+      </trans-unit>
+      <trans-unit id="4efde5ec01f5d57584ce157af9f7790b" approved="yes">
+        <source>Debug cookie name</source>
+        <target state="final">Nazwa ciasteczka debugowania</target>
+        <note>Line: 58</note>
+      </trans-unit>
+      <trans-unit id="cdbe8b670b0a969bd2baa61e0d398ca2" approved="yes">
+        <source>Debug cookie value</source>
+        <target state="final">Wartość ciasteczka debugowania</target>
+        <note>Line: 67</note>
       </trans-unit>
       <trans-unit id="1fa864793aa2394f509c5fa391826f0e" approved="yes">
         <source>Debug profiler</source>
@@ -1546,29 +1637,76 @@ Comment: voluntary do affectation here</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/AdminAPI/ApiClient/edit.html.twig" source-language="en" target-language="pl" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="0226aca580b5d105d50b0e0f34198a6f" approved="yes">
+        <source>Regenerate client secret?</source>
+        <target state="final">Wygenerować nowy tajny kluczklienta?</target>
+        <note>Line: 34</note>
+      </trans-unit>
+      <trans-unit id="3b5b07e4685b1380df87295d85158ce8" approved="yes">
+        <source>If you regenerate your client secret, your former secret will become obsolete.</source>
+        <target state="final">Jeśli wygenerujesz nowy tajny klucz klienta, twój poprzedni klucz stanie się przestarzały.</target>
+        <note>Line: 35</note>
+      </trans-unit>
+      <trans-unit id="6e5c96995acda2bad8453b261f133447" approved="yes">
+        <source>Regenerate client secret</source>
+        <target state="final">Wygenerować nowy tajny klucz klienta</target>
+        <note>Line: 39</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/AdminAPI/ApiClient/form.html.twig" source-language="en" target-language="pl" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="e59f0b878ddd64917032713a022468f6" approved="yes">
+        <source>Client secret:</source>
+        <target state="final">Tajny klucz klienta:</target>
+        <note>Line: 39</note>
+      </trans-unit>
+      <trans-unit id="e0b720f0e859145e69fc98d32a7984c8" approved="yes">
+        <source>API client</source>
+        <target state="final">API klienta</target>
+        <note>Line: 56</note>
+      </trans-unit>
+      <trans-unit id="80c51f5505fde0cbc732084a8d16e112" approved="yes">
+        <source>Generate client secret and save</source>
+        <target state="final">Wygeneruj tajny klucz klienta i zapisz</target>
+        <note>Line: 72</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/AdminAPI/ApiClient/form_theme.html.twig" source-language="en" target-language="pl" datatype="plaintext">
     <body>
-      
+      <trans-unit id="499013f8769e20c088405919f2c16c3d" approved="yes">
+        <source>No scopes available</source>
+        <target state="final">Brak dostępnych zakresów</target>
+        <note>Line: 32</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/AdminAPI/index.html.twig" source-language="en" target-language="pl" datatype="plaintext">
     <body>
-      
-      
-      
-      
+      <trans-unit id="32ea781be980c1878a670513f6b3a2fc" approved="yes">
+        <source>PrestaShop provides numerous APIs if you need you can see their details in the dedicated automated documentation:</source>
+        <target state="final">PrestaShop udostępnia liczne interfejsy API, jeśli zajdzie taka potrzeba, możesz zobaczyć ich szczegóły w dedykowanej automatycznie generowanej dokumentacji:</target>
+        <note>Line: 31
+Comment: Stable feature flags form</note>
+      </trans-unit>
+      <trans-unit id="4077d7bc50a5d2464335146f72f3d3de" approved="yes">
+        <source>API Documentation (HTML format)</source>
+        <target state="final">Dokumentacja API (format HTML)</target>
+        <note>Line: 35</note>
+      </trans-unit>
+      <trans-unit id="9c67d7f634d7cff9d8a6da90a98dfb64" approved="yes">
+        <source>API Documentation (JSON format)</source>
+        <target state="final">Dokumentacja API (format JSON)</target>
+        <note>Line: 40</note>
+      </trans-unit>
+      <trans-unit id="0c242dfc517dee879497157489d8455b" approved="yes">
+        <source>The use of multistore and Admin API is an experimental feature. You need to
+        enabled the "Admin API - Multistore" functionality in</source>
+        <target state="final">Użycie multistore i interfejsu API Admin jest funkcją eksperymentalną. Musisz 
+        włączyć funkcjonalność "Interfejs API Admin - Multistore"</target>
+        <note>Line: 50</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Backup/Blocks/download_file.html.twig" source-language="en" target-language="pl" datatype="plaintext">
@@ -1688,6 +1826,11 @@ Comment: voluntary do affectation here</note>
         <target state="final">Zarządzaj zespołem pracowników</target>
         <note>Line: 32</note>
       </trans-unit>
+      <trans-unit id="12470772e1d22f18225ef5142bf89771" approved="yes">
+        <source>Create roles for your employees with specific rights. SuperAdmin can access the entire store while other people can only be dedicated to the catalog or orders pages.</source>
+        <target state="final">Twórz role dla swoich pracowników z określonymi uprawnieniami. SuperAdmin ma dostęp do całego sklepu, inne osoby mogą mieć dostęp tylko do katalogu lub stron zamówień.</target>
+        <note>Line: 33</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Employee/index.html.twig" source-language="en" target-language="pl" datatype="plaintext">
@@ -1786,7 +1929,11 @@ Comment: voluntary do affectation here</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Profiles/Blocks/form.html.twig" source-language="en" target-language="pl" datatype="plaintext">
     <body>
-      
+      <trans-unit id="bbbabdbe1b262f75d99d62880b953be1" approved="yes">
+        <source>Role</source>
+        <target state="final">Funkcja</target>
+        <note>Line: 32</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/RequestSql/Blocks/db_tables_panel.html.twig" source-language="en" target-language="pl" datatype="plaintext">
@@ -1843,7 +1990,11 @@ Comment: voluntary do affectation here</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/RequestSql/view.html.twig" source-language="en" target-language="pl" datatype="plaintext">
     <body>
-      
+      <trans-unit id="fe0eb4f46e9b34fc1147b36173fae5a0" approved="yes">
+        <source>SQL query results</source>
+        <target state="final">Wyniki zapytania SQL</target>
+        <note>Line: 33</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Security/clear_form.html.twig" source-language="en" target-language="pl" datatype="plaintext">
@@ -1877,6 +2028,21 @@ Comment: voluntary do affectation here</note>
         <target state="final">0 oznacza, że hasło jest niezwykle łatwe do odgadnięcia (w ciągu 10^3 prób). Słowa ze słownika, takie jak „hasło” lub „matka”, uzyskują wynik 0.</target>
         <note>Line: 68</note>
       </trans-unit>
+      <trans-unit id="478541a16f7d2800f3ea4427cb628ff0" approved="yes">
+        <source>1 is still very easy to guess (guesses less than 10^6). An extra character on a dictionary word can score 1.</source>
+        <target state="final">1 jest nadal bardzo łatwe do odgadnięcia (odgadywanie mniejsze niż 10^6). Dodatkowy znak w słowie ze słownika może uzyskać 1 punkt.</target>
+        <note>Line: 69</note>
+      </trans-unit>
+      <trans-unit id="1efea0fb945ffed57c73aec90dea4810" approved="yes">
+        <source>2 is pretty easy to guess (guesses less than 10^8). It provides some protection from unthrottled online attacks.</source>
+        <target state="final">2 jest dość łatwe do odgadnięcia (odgadywanie mniejsze niż 10^8). Zapewnia pewną ochronę przed atakami online bez ograniczeń.</target>
+        <note>Line: 70</note>
+      </trans-unit>
+      <trans-unit id="7355c93a5762175f1b68a5123e1234d7" approved="yes">
+        <source>3 is safely unguessable (guesses less than 10^10). It offers moderate protection from offline slow-hash scenario.</source>
+        <target state="final">3 jest trudne do odgadnięcia (odgadywanie mniejsze niż 10^10). Oferuje umiarkowaną ochronę przed metodą słownikową.</target>
+        <note>Line: 71</note>
+      </trans-unit>
       <trans-unit id="9e4ed1a59cbfd96288f7e6376ddadf0c" approved="yes">
         <source>4 is very unguessable (guesses greater than or equal to 10^10) and provides strong protection from offline slow-hash scenario.</source>
         <target state="final">4 jest bardzo trudne do odgadnięcia (zgadywanie większe lub równe 10^10) i zapewnia silną ochronę przed scenariuszem powolnego mieszania w trybie offline.</target>
@@ -1886,6 +2052,11 @@ Comment: voluntary do affectation here</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Webservice/Blocks/form.html.twig" source-language="en" target-language="pl" datatype="plaintext">
     <body>
+      <trans-unit id="ad87ea508b9dc8dddc98bf041b907c55" approved="yes">
+        <source>Webservice key</source>
+        <target state="final">Klucz usługi internetowej</target>
+        <note>Line: 32</note>
+      </trans-unit>
       <trans-unit id="51ba9470e0c6fcc53b976a6854b0f2e0" approved="yes">
         <source>Set the resource permissions for this key:</source>
         <target state="final">Ustaw uprawnienia zasobów dla tego klucza:</target>
@@ -1987,6 +2158,11 @@ Comment: voluntary do affectation here</note>
         <target state="final">Wyłącz moduły inne niż wbudowane</target>
         <note>Line: 103</note>
       </trans-unit>
+      <trans-unit id="2fa165ecfa7ca3d29d17c598c7b267fc" approved="yes">
+        <source>Disable all non-built-in modules?</source>
+        <target state="final">Wyłączyć wszystkie moduły poza wbudowanymi?</target>
+        <note>Line: 111</note>
+      </trans-unit>
       <trans-unit id="010a6cb0eccdea35662ad711d443f2ec" approved="yes">
         <source>Optional features</source>
         <target state="final">Opcjonalne funkcje</target>
@@ -2021,10 +2197,20 @@ Comment: voluntary do affectation here</note>
         <target state="final">Informacja o konfiguracji</target>
         <note>Line: 33</note>
       </trans-unit>
+      <trans-unit id="5f1e07304be1553f59d16379fdc9a997" approved="yes">
+        <source>You must provide this information when reporting an issue on GitHub or on the forum.</source>
+        <target state="final">Musisz podać te informacje, gdy zgłaszasz problem na GitHubie lub na forum.</target>
+        <note>Line: 36</note>
+      </trans-unit>
       <trans-unit id="7d30d49dcf91d103c59496aafc4e3187" approved="yes">
         <source>Server information</source>
         <target state="final">Informacja o serwerze</target>
         <note>Line: 42</note>
+      </trans-unit>
+      <trans-unit id="754e538a56c07f55620247295f114139" approved="yes">
+        <source>Server Hostname:</source>
+        <target state="final">Nazwa hosta serwera:</target>
+        <note>Line: 47</note>
       </trans-unit>
       <trans-unit id="15ac02a8b5dba62592162905dd085241" approved="yes">
         <source>Server information:</source>
@@ -2105,6 +2291,11 @@ Comment: voluntary do affectation here</note>
         <source>List of overrides</source>
         <target state="final">Lista nadpisań</target>
         <note>Line: 107</note>
+      </trans-unit>
+      <trans-unit id="4553c4c7dae513827f77f2cfd01982c7" approved="yes">
+        <source>No overrides have been found.</source>
+        <target state="final">Nie znaleziono żadnych nadpisań.</target>
+        <note>Line: 112</note>
       </trans-unit>
       <trans-unit id="3aea774cdcd8f2c45549f10758a71323" approved="yes">
         <source>Store information</source>
@@ -2245,6 +2436,11 @@ Comment: voluntary do affectation here</note>
         <target state="final">Powtórzenia takie jak „abcabcabc” są tylko nieco trudniejsze do odgadnięcia niż „abc”</target>
         <note>Line: 36</note>
       </trans-unit>
+      <trans-unit id="de3492070cd44f280a6f398dca2f1efb" approved="yes">
+        <source>Sequences like "abc" or "6543" are easy to guess</source>
+        <target state="final">Sekwencje takie jak "abc" lub "6543" są łatwe do odgadnięcia</target>
+        <note>Line: 37</note>
+      </trans-unit>
       <trans-unit id="25096ab4fbb9994547ace751ca107515" approved="yes">
         <source>Recent years are easy to guess</source>
         <target state="final">Ostatnie lata są łatwe do odgadnięcia</target>
@@ -2364,6 +2560,11 @@ Comment: voluntary do affectation here</note>
         <source>Reversed words aren't much harder to guess</source>
         <target state="final">Odwrócone słowa nie są dużo trudniejsze do odgadnięcia</target>
         <note>Line: 61</note>
+      </trans-unit>
+      <trans-unit id="8aedfe9265263408f5a72fff0a21c118" approved="yes">
+        <source>Predictable substitutions like "@" instead of "a" don't help very much</source>
+        <target state="final">Przewidywalne zamiany, takie jak zastosowanie "@" zamiast "a", nie pomagają zbyt wiele</target>
+        <note>Line: 62</note>
       </trans-unit>
       <trans-unit id="a2bfda43aef35df5f7edb8f8de1f5f30" approved="yes">
         <source>Add another word or two. Uncommon words are better.</source>
