@@ -138,6 +138,11 @@
         <target state="final">(kliknij aby otworzyć stronę "Generatory")</target>
         <note>Line: 697</note>
       </trans-unit>
+      <trans-unit id="0d96ef3283e08deb509dfe7bdf2a03ef" approved="yes">
+        <source>Product with reference %1$s (ID: %2$s) could not be saved because the product name is missing.</source>
+        <target state="final">Nie można zapisać produktu z referencją %1$s (ID: %2$s), ponieważ brakuje nazwy produktu.</target>
+        <note>Line: 1545</note>
+      </trans-unit>
       <trans-unit id="5c8707f79dbdd3abb28a8aa09e34f02f" approved="yes">
         <source>No image was found for combination with id_product = %s and image position = %s.</source>
         <target state="final">Nie znaleziono zdjęcia dla kombinacji z id_product = %s i pozycji zdjęcia = %s.</target>
@@ -291,16 +296,30 @@
         <target state="final">Błąd: Nie można zapisać do pliku. Upewnij się, że plik %s ma odpowiednie uprawnienia.</target>
         <note>Line: 156</note>
       </trans-unit>
+      <trans-unit id="cb2149fee22deb71d4eca9f25e4ab432" approved="yes">
+        <source>Error: The cookie name is required when the cookie value is set.</source>
+        <target state="final">Błąd: Do ustawienia wartości pliku cookie wymagana jest nazwa pliku cookie.</target>
+        <note>Line: 115</note>
+      </trans-unit>
       <trans-unit id="d4fb191ef219af010cc664bf47393e97" approved="yes">
         <source>Error: Could not find whether debug mode is enabled. Make sure that the correct permissions are set on the file %s</source>
         <target state="final">Błąd: Nie udało się ustalić, czy tryb debugowania jest włączony. Upewnij się, że plik %s ma odpowiednie uprawnienia.</target>
         <note>Line: 138</note>
       </trans-unit>
+      <trans-unit id="41925db348bd432023308554f2cde943" approved="yes">
+        <source>Error: Could not find whether debug profiling is enabled. Make sure that the correct permissions are set on the file %s</source>
+        <target state="final">Błąd: Nie można ustalić, czy profilowanie debugowania jest włączone. Upewnij się, że odpowiednie uprawnienia są ustawione dla pliku %s.</target>
+        <note>Line: 164</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/GeneralConfiguration.php" source-language="en" target-language="pl" datatype="plaintext">
     <body>
-      
+      <trans-unit id="6234474f7c68eb4436d392ed9645136b" approved="yes">
+        <source>The SameSite=None attribute is only available in secure mode.</source>
+        <target state="final">Atrybut SameSite=None jest dostępny tylko w trybie bezpiecznym.</target>
+        <note>Line: 80</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Import/Handler/AbstractImportHandler.php" source-language="en" target-language="pl" datatype="plaintext">
@@ -505,6 +524,11 @@
         <target state="final">Włącz rozszerzenie OpenSSL na swoim serwerze.</target>
         <note>Line: 103</note>
       </trans-unit>
+      <trans-unit id="8406b91fd5a290de3a1e1516db6e79b8" approved="yes">
+        <source>Unable to generate private keys using openssl_pkey_new. Check your OpenSSL configuration, especially the path to openssl.cafile.</source>
+        <target state="final">Nie można wygenerować kluczy prywatnych przy użyciu openssl_pkey_new. Sprawdź konfigurację OpenSSL, szczególnie ścieżkę do openssl.cafile.</target>
+        <note>Line: 104</note>
+      </trans-unit>
       <trans-unit id="a06111807d1bd6e8dd420e7ee5d0b0f8" approved="yes">
         <source>Enable the PDO Mysql extension on your server.</source>
         <target state="final">Włącz rozszerzenie PDO Mysql na swoim serwerze.</target>
@@ -649,6 +673,11 @@
         <target state="final">Operator "*" nie może być użyty w zagnieżdżonym zapytaniu.</target>
         <note>Line: 178</note>
       </trans-unit>
+      <trans-unit id="61f5912b0425ad1895fe203e725d2d7e" approved="yes">
+        <source>The "%function%" function is not allowed.</source>
+        <target state="final">Funkcja "%function%" jest niedozwolona.</target>
+        <note>Line: 186</note>
+      </trans-unit>
       <trans-unit id="20cc3893d65fa16fcd2fe317c555e28a" approved="yes">
         <source>The operator "%s" is incorrect.</source>
         <target state="final">Użyty operator "%s" jest nieprawidłowy.</target>
@@ -707,6 +736,11 @@
         <target state="final">Wgrywany plik został wgrany tylko częściowo.</target>
         <note>Line: 120</note>
       </trans-unit>
+      <trans-unit id="519a3cfe5400ef0f781671c700aaed05" approved="yes">
+        <source>The extension of your file should be ".csv".</source>
+        <target state="final">Rozszerzenie pliku powinno mieć postać ".csv".</target>
+        <note>Line: 134</note>
+      </trans-unit>
       <trans-unit id="50844c635a86264cc59d737d532df573" approved="yes">
         <source>An error occurred while uploading / copying the file.</source>
         <target state="final">Podczas wysyłania i kopiowania pliku wystąpił błąd.</target>
@@ -716,7 +750,11 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/AdminAPIController.php" source-language="en" target-language="pl" datatype="plaintext">
     <body>
-      
+      <trans-unit id="f0cd19d962eccf83b6da85a5c0754c11" approved="yes">
+        <source>An error occurred while creating the API Client.</source>
+        <target state="final">Wystąpił błąd podczas tworzenia API klienta.</target>
+        <note>Line: 386</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/BackupController.php" source-language="en" target-language="pl" datatype="plaintext">
@@ -830,7 +868,11 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ProfileController.php" source-language="en" target-language="pl" datatype="plaintext">
     <body>
-      
+      <trans-unit id="88fe11b7408b39e40eafd2123d4756a6" approved="yes">
+        <source>For security reasons, you cannot delete the Administrator's role.</source>
+        <target state="final">Ze względów bezpieczeństwa nie można usunąć roli Administratora.</target>
+        <note>Line: 292</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/WebserviceController.php" source-language="en" target-language="pl" datatype="plaintext">
@@ -886,6 +928,11 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceKeyType.php" source-language="en" target-language="pl" datatype="plaintext">
     <body>
+      <trans-unit id="3a59a0e5e521300876d4f2c596d6aeca" approved="yes">
+        <source>Key length must be %length% characters long.</source>
+        <target state="final">Długość klucza musi wynosić %length% znaków.</target>
+        <note>Line: 111</note>
+      </trans-unit>
       <trans-unit id="2cb84ea6e832a3190d3ad11a3e1f415c" approved="yes">
         <source>Only non-accented characters, numbers, and the following special characters are allowed: %allowed_characters%</source>
         <target state="final">Dozwolone są tylko znaki bez akcentów, cyfry i następujące znaki specjalne: %allowed_characters%</target>

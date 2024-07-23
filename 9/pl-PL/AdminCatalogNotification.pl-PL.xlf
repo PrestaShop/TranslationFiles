@@ -53,6 +53,11 @@
         <target state="final">Ograniczenie „%s” jest zaznaczone, ale nie wybrano żadnego elementu.</target>
         <note>Line: 228</note>
       </trans-unit>
+      <trans-unit id="e9e6c1ea4c16a7bd1b64b53209a8659f" approved="yes">
+        <source>Product with required customization fields cannot be used as a gift.</source>
+        <target state="final">Produkt z polami niestandardowymi, które są wymagane, nie może zostać użyty jako prezent.</target>
+        <note>Line: 244</note>
+      </trans-unit>
       <trans-unit id="fdf5ec6ad9d20c9985038e5d6521159f" approved="yes">
         <source>The voucher cannot end before it begins.</source>
         <target state="final">Bon rabatowy nie może zakończyć się przed swoim rozpoczęciem.</target>
@@ -172,7 +177,11 @@
   </file>
   <file original="src/Core/Grid/Definition/Factory/ProductGridDefinitionFactory.php" source-language="en" target-language="pl" datatype="plaintext">
     <body>
-      
+      <trans-unit id="3af7787bf8822cfd0cbeab09c9176a54" approved="yes">
+        <source>Remember to properly edit all information after duplicating - including SEO information and friendly URL.</source>
+        <target state="final">Pamiętaj, aby po zduplikowaniu odpowiednio edytować wszystkie informacje – łącznie z informacjami SEO i przyjaznym adresem URL.</target>
+        <note>Line: 480</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/AttachmentController.php" source-language="en" target-language="pl" datatype="plaintext">
@@ -192,6 +201,11 @@
         <target state="final">Wymagana nazwa załącznika</target>
         <note>Line: 327</note>
       </trans-unit>
+      <trans-unit id="da792c9eb1652c5939671ae14592b264" approved="yes">
+        <source>Invalid description for %s language.</source>
+        <target state="final">Nieprawidłowy opis dla języka %s.</target>
+        <note>Line: 339</note>
+      </trans-unit>
       <trans-unit id="34a22d134d958abd17afd6e6cd8b79e2" approved="yes">
         <source>This attachment was unable to be loaded into the database.</source>
         <target state="final">Nie można dodać tego załącznika do bazy danych</target>
@@ -201,7 +215,11 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/AttributeGroupController.php" source-language="en" target-language="pl" datatype="plaintext">
     <body>
-      
+      <trans-unit id="6d5d591e1fb4538c4d64e05b8a58942e" approved="yes">
+        <source>An error occurred while creating the attribute.</source>
+        <target state="final">Wystąpił błąd podczas tworzenia atrybutu.</target>
+        <note>Line: 324</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/CategoryController.php" source-language="en" target-language="pl" datatype="plaintext">
@@ -235,7 +253,11 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/FeatureController.php" source-language="en" target-language="pl" datatype="plaintext">
     <body>
-      
+      <trans-unit id="f568d0f89a82fd70eaec65a461fbcc88" approved="yes">
+        <source><![CDATA[The features are disabled on your store. Go to %sAdvanced Parameters > Performance%s to edit settings.]]></source>
+        <target state="final"><![CDATA[Funkcje są wyłączone w Twoim sklepie. Przejdź do %sZaawansowane parametry > Wydajność%s, aby edytować ustawienia.]]></target>
+        <note>Line: 330</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/ManufacturerController.php" source-language="en" target-language="pl" datatype="plaintext">
@@ -251,7 +273,7 @@
     <body>
       <trans-unit id="9edb260e4183e5f1fa35c1702f0cffa1" approved="yes">
         <source>Error for combination %combination_id%: %error_message%</source>
-        <target state="final">Błąd kombinacji %combination_id%: %error_message%</target>
+        <target state="final">Błąd wariantu %combination_id%: %error_message%</target>
         <note>Line: 482</note>
       </trans-unit>
     </body>
@@ -267,6 +289,11 @@
         <source>When redirecting towards a product you must select a target product.</source>
         <target state="final">Przekierowując w stronę produktu, musisz wybrać produkt docelowy.</target>
         <note>Line: 1364</note>
+      </trans-unit>
+      <trans-unit id="323970e84c7dc4bc7432a513f09959b6" approved="yes">
+        <source>To put this product online, please enter a name.</source>
+        <target state="final">Aby umieścić ten produkt online, wpisz nazwę.</target>
+        <note>Line: 1368</note>
       </trans-unit>
     </body>
   </file>
@@ -396,6 +423,11 @@
         <target state="final">Obraz został zamieniony</target>
         <note>Line: 106</note>
       </trans-unit>
+      <trans-unit id="11e1b8fba896a3b5618a554605412938" approved="yes">
+        <source>Are you sure you want to delete the selected image?|Are you sure you want to delete the {filesNb} selected images?</source>
+        <target state="final">Czy na pewno chcesz usunąć wybrany obraz?|Czy na pewno chcesz usunąć wybrane obrazy {filesNb}?</target>
+        <note>Line: 131</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Options/ProductAttachmentsType.php" source-language="en" target-language="pl" datatype="plaintext">
@@ -478,29 +510,48 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Manufacturer/Blocks/View/products.html.twig" source-language="en" target-language="pl" datatype="plaintext">
     <body>
-      
+      <trans-unit id="11ca7e16510805ca6ea97678351aa5ab" approved="yes">
+        <source>No products has been found for this brand.</source>
+        <target state="final">Nie znaleziono żadnych produktów tej marki.</target>
+        <note>Line: 121</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/Combination/not_found.html.twig" source-language="en" target-language="pl" datatype="plaintext">
     <body>
       <trans-unit id="a8b62b581b171eef3a4d73f53a1a1804" approved="yes">
         <source>This combination doesn't exist anymore</source>
-        <target state="final">Ta kombinacja już nie istnieje</target>
+        <target state="final">Ten wariant już nie istnieje</target>
         <note>Line: 36</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/Combination/paginated_list_header.html.twig" source-language="en" target-language="pl" datatype="plaintext">
     <body>
+      <trans-unit id="99bf2d0d54c3c3d988036435b5c85a51" approved="yes">
+        <source>Are you sure you want to delete selected combinations from store "%store_name%"?</source>
+        <target state="final">Czy na pewno chcesz usunąć wybrane warianty ze sklepu "%store_name%"?</target>
+        <note>Line: 50</note>
+      </trans-unit>
       <trans-unit id="0a93bc6a803478fc23cdef1d0947bf76" approved="yes">
         <source>Are you sure you want to delete selected combinations?</source>
-        <target state="final">Czy na pewno chcesz usunąć wybrane kombinacje?</target>
+        <target state="final">Czy na pewno chcesz usunąć wybrane warianty?</target>
         <note>Line: 53</note>
+      </trans-unit>
+      <trans-unit id="b7c81f9722737da40c428373101fe01c" approved="yes">
+        <source>Are you sure you want to delete selected combinations from all stores?</source>
+        <target state="final">Czy na pewno chcesz usunąć wybrane warianty ze wszystkich sklepów?</target>
+        <note>Line: 81</note>
       </trans-unit>
       <trans-unit id="d077aab0da809b9037b3e3974da6bad3" approved="yes">
         <source>Discard changes?</source>
         <target state="final">Odrzucić zmiany?</target>
         <note>Line: 121</note>
+      </trans-unit>
+      <trans-unit id="757830b27c4880fd8a0e6f35891eefe5" approved="yes">
+        <source>All unsaved modifications made on the combination [1]{combinationName}[/1] will be lost.</source>
+        <target state="final">Wszystkie niezapisane modyfikacje wariantu [1]{combinationName}[/1] zostaną utracone.</target>
+        <note>Line: 122</note>
       </trans-unit>
     </body>
   </file>
