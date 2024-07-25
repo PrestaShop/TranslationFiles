@@ -149,6 +149,11 @@
         <target state="final">Nie znaleziono produktu</target>
         <note>Line: 677</note>
       </trans-unit>
+      <trans-unit id="e9e6c1ea4c16a7bd1b64b53209a8659f" approved="yes">
+        <source>Product with required customization fields cannot be used as a gift.</source>
+        <target state="final">Produkt z polami niestandardowymi, które są wymagane, nie może zostać użyty jako prezent.</target>
+        <note>Line: 244</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminCartsController.php" source-language="en" target-language="pl" datatype="plaintext">
@@ -160,7 +165,7 @@
       </trans-unit>
       <trans-unit id="e5b55dc69d10c8673f9d5db587591526" approved="yes">
         <source>Invalid combination</source>
-        <target state="final">Niepoprawna kombinacja</target>
+        <target state="final">Niepoprawny wariant</target>
         <note>Line: 391</note>
       </trans-unit>
       <trans-unit id="7cc92687130ea12abb80556681538001" approved="yes">
@@ -249,7 +254,7 @@
       </trans-unit>
       <trans-unit id="e22a6ea51eb74bee7acaa4acf2846c7b" approved="yes">
         <source>This combination already exists.</source>
-        <target state="final">Ta kombinacja już istnieje.</target>
+        <target state="final">Ten wariant już istnieje.</target>
         <note>Line: 831</note>
       </trans-unit>
       <trans-unit id="0e461384b2f94dcd87f56a8a178fe768" approved="yes">
@@ -465,7 +470,7 @@
     <body>
       <trans-unit id="cf3905df049698bb01639e4394e82048" approved="yes">
         <source>It is not possible to delete a combination while it still has some quantities in the Advanced Stock Management. You must delete its stock first.</source>
-        <target state="final">Nie jest możliwe usuniecie kombinacji, jeżeli dostępna jest ona nadal na stanie w Zaawansowanym Zarządzaniu Magazynem. Najpierw musisz usunąć jej stan magazynowy.</target>
+        <target state="final">Nie jest możliwe usunięcie wariantu, jeżeli dostępna jest ona nadal na stanie w Zaawansowanym Zarządzaniu Magazynem. Najpierw musisz usunąć jej stan magazynowy.</target>
         <note>Line: 119</note>
       </trans-unit>
       <trans-unit id="66108be221251f01430ee5c2257e98ca" approved="yes">
@@ -515,6 +520,16 @@
         <source>An error occurred while attempting to delete the specific price.</source>
         <target state="final">Wystąpił błąd podczas usuwania ceny</target>
         <note>Line: 568</note>
+      </trans-unit>
+      <trans-unit id="54ffb3fc99eb10252be750eccf60e4cd" approved="yes">
+        <source>No reduction value has been submitted.</source>
+        <target state="final">Nie podano wartości obniżki.</target>
+        <note>Line: 310</note>
+      </trans-unit>
+      <trans-unit id="d4fc03cd1b9870d5a4fdef8d17f10e2c" approved="yes">
+        <source>The submitted reduction value (0-100) is out-of-range.</source>
+        <target state="final">Podana wartość redukcji (0-100) jest poza zakresem.</target>
+        <note>Line: 314</note>
       </trans-unit>
       <trans-unit id="162c051f703406dd4fab3fde66296a6e" approved="yes">
         <source>Submitted reduction value (0-100) is out-of-range</source>
@@ -568,7 +583,11 @@
   </file>
   <file original="src/Core/Grid/Definition/Factory/ProductGridDefinitionFactory.php" source-language="en" target-language="pl" datatype="plaintext">
     <body>
-      
+      <trans-unit id="3af7787bf8822cfd0cbeab09c9176a54" approved="yes">
+        <source>Remember to properly edit all information after duplicating - including SEO information and friendly URL.</source>
+        <target state="final">Pamiętaj, aby po zduplikowaniu odpowiednio edytować wszystkie informacje – łącznie z informacjami SEO i przyjaznym adresem URL.</target>
+        <note>Line: 480</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/ProductController.php" source-language="en" target-language="pl" datatype="plaintext">
@@ -618,6 +637,16 @@
         <target state="final">Produkt został dezaktywowany.</target>
         <note>Line: 1157</note>
       </trans-unit>
+      <trans-unit id="323970e84c7dc4bc7432a513f09959b6" approved="yes">
+        <source>To put this product online, please enter a name.</source>
+        <target state="final">Aby umieścić ten produkt online, wpisz nazwę.</target>
+        <note>Line: 1357</note>
+      </trans-unit>
+      <trans-unit id="17f8ed44513d0c7833b2b8fa1c170981" approved="yes">
+        <source>The product you are trying to access doesn't exist.</source>
+        <target state="final">Produkt, do którego próbujesz uzyskać dostęp, nie istnieje.</target>
+        <note>Line: 477</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/AttachmentController.php" source-language="en" target-language="pl" datatype="plaintext">
@@ -631,6 +660,11 @@
         <source>This attachment was unable to be loaded into the database.</source>
         <target state="final">Nie można dodać tego załącznika do bazy danych</target>
         <note>Line: 384</note>
+      </trans-unit>
+      <trans-unit id="da792c9eb1652c5939671ae14592b264" approved="yes">
+        <source>Invalid description for %s language.</source>
+        <target state="final">Nieprawidłowy opis dla języka %s.</target>
+        <note>Line: 364</note>
       </trans-unit>
       <trans-unit id="8a23b9ee3a4502a0de3fc32c5ba7aa65" approved="yes">
         <source>Failed to copy the file.</source>
@@ -696,7 +730,7 @@
     <body>
       <trans-unit id="9edb260e4183e5f1fa35c1702f0cffa1" approved="yes">
         <source>Error for combination %combination_id%: %error_message%</source>
-        <target state="final">Błąd kombinacji %combination_id%: %error_message%</target>
+        <target state="final">Błąd wariantu %combination_id%: %error_message%</target>
         <note>Line: 493</note>
       </trans-unit>
     </body>
@@ -827,7 +861,7 @@
       </trans-unit>
       <trans-unit id="d125a0ad5887eb2575a57c2149a12c1d" approved="yes">
         <source>This will delete all combinations.</source>
-        <target state="final">Ta operacja usunie wszystkie kombinacje.</target>
+        <target state="final">Ta operacja usunie wszystkie warianty.</target>
         <note>Line: 127</note>
       </trans-unit>
       <trans-unit id="6b7844c384e54ed301c7f3f6b4aac389" approved="yes">
@@ -863,6 +897,11 @@
         <source>Are you sure you want to delete the selected image?|Are you sure you want to delete the %filesNb% selected images?</source>
         <target state="final">Na pewno chcesz usunąć wybrany obraz?|Na pewno chcesz usunąć wybrany obraz %filesNb% ?</target>
         <note>Line: 79</note>
+      </trans-unit>
+      <trans-unit id="11e1b8fba896a3b5618a554605412938" approved="yes">
+        <source>Are you sure you want to delete the selected image?|Are you sure you want to delete the {filesNb} selected images?</source>
+        <target state="final">Czy na pewno chcesz usunąć wybrany obraz?|Czy na pewno chcesz usunąć wybrane obrazy {filesNb}?</target>
+        <note>Line: 131</note>
       </trans-unit>
     </body>
   </file>
@@ -1052,17 +1091,17 @@ Comment: "It" refers to the option "Force update of friendly URL"</note>
     <body>
       <trans-unit id="1b89ef639dabfd2f6eb19886f7c9f8c8" approved="yes">
         <source>This will delete all the combinations. Do you wish to proceed?</source>
-        <target state="final">Spowoduje to usunięcie wszystkich kombinacji. Czy chcesz kontynuować?</target>
+        <target state="final">Spowoduje to usunięcie wszystkich wariantów. Czy chcesz kontynuować?</target>
         <note>Line: 313</note>
       </trans-unit>
       <trans-unit id="dfd19ad4f089996c7eabcd5935f75e98" approved="yes">
         <source>A pack of products can't have combinations.</source>
-        <target state="final">Pakiet produktów nie może mieć kombinacji.</target>
+        <target state="final">Pakiet produktów nie może mieć wariantów.</target>
         <note>Line: 332</note>
       </trans-unit>
       <trans-unit id="5b75fdc0df647e8ac5275e31554dd0f9" approved="yes">
         <source>A virtual product can't have combinations.</source>
-        <target state="final">Produkt wirtualny nie może mieć kombinacji.</target>
+        <target state="final">Produkt wirtualny nie może mieć wariantów.</target>
         <note>Line: 333</note>
       </trans-unit>
     </body>
@@ -1116,7 +1155,7 @@ Comment: "It" refers to the option "Force update of friendly URL"</note>
     <body>
       <trans-unit id="a8b62b581b171eef3a4d73f53a1a1804" approved="yes">
         <source>This combination doesn't exist anymore</source>
-        <target state="final">Ta kombinacja już nie istnieje</target>
+        <target state="final">Ten wariant już nie istnieje</target>
         <note>Line: 36</note>
       </trans-unit>
     </body>
@@ -1125,7 +1164,7 @@ Comment: "It" refers to the option "Force update of friendly URL"</note>
     <body>
       <trans-unit id="0a93bc6a803478fc23cdef1d0947bf76" approved="yes">
         <source>Are you sure you want to delete selected combinations?</source>
-        <target state="final">Czy na pewno chcesz usunąć wybrane kombinacje?</target>
+        <target state="final">Czy na pewno chcesz usunąć wybrane warianty?</target>
         <note>Line: 53</note>
       </trans-unit>
       <trans-unit id="d077aab0da809b9037b3e3974da6bad3" approved="yes">
@@ -1135,8 +1174,23 @@ Comment: "It" refers to the option "Force update of friendly URL"</note>
       </trans-unit>
       <trans-unit id="e202ea17abd88b9634fb9939f6253ea9" approved="yes">
         <source>All unsaved modifications made on the combination [1]%combinationName%[/1] will be lost.</source>
-        <target state="final">Wszystkie niezapisane modyfikacje w kombinacji [1]%combinationName%[/1] zostaną utracone.</target>
+        <target state="final">Wszystkie niezapisane modyfikacje w wariancie [1]%combinationName%[/1] zostaną utracone.</target>
         <note>Line: 92</note>
+      </trans-unit>
+      <trans-unit id="99bf2d0d54c3c3d988036435b5c85a51" approved="yes">
+        <source>Are you sure you want to delete selected combinations from store "%store_name%"?</source>
+        <target state="final">Czy na pewno chcesz usunąć wybrane warianty ze sklepu "%store_name%"?</target>
+        <note>Line: 50</note>
+      </trans-unit>
+      <trans-unit id="b7c81f9722737da40c428373101fe01c" approved="yes">
+        <source>Are you sure you want to delete selected combinations from all stores?</source>
+        <target state="final">Czy na pewno chcesz usunąć wybrane warianty ze wszystkich sklepów?</target>
+        <note>Line: 81</note>
+      </trans-unit>
+      <trans-unit id="757830b27c4880fd8a0e6f35891eefe5" approved="yes">
+        <source>All unsaved modifications made on the combination [1]{combinationName}[/1] will be lost.</source>
+        <target state="final">Wszystkie niezapisane modyfikacje wariantu [1]{combinationName}[/1] zostaną utracone.</target>
+        <note>Line: 122</note>
       </trans-unit>
     </body>
   </file>
