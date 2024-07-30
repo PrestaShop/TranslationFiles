@@ -265,7 +265,7 @@
     <body>
       <trans-unit id="7aad0283b11e41230d9d1fc7372c3862" approved="yes">
         <source>Add new feature value</source>
-        <target state="final">Dodaj nową wartość funkcji</target>
+        <target state="final">Dodaj nową wartość cechy</target>
         <note>Line: 210</note>
       </trans-unit>
     </body>
@@ -344,7 +344,7 @@
       </trans-unit>
       <trans-unit id="e63e2ba42470a41ba75e0d7ea35a410f" approved="yes">
         <source>Combine several attributes, e.g.: "Size: all", "Color: red".</source>
-        <target state="final">Kombinacja kilku atrybutów, np.: "Rozmiar: wszystkie", "Kolor: czerwony".</target>
+        <target state="final">Wariant kilku atrybutów, np.: "Rozmiar: wszystkie", "Kolor: czerwony".</target>
         <note>Line: 111</note>
       </trans-unit>
     </body>
@@ -376,6 +376,21 @@
         <target state="final">Jeśli chcesz mieć inny opis niż podsumowanie produktu na stronach wyników wyszukiwania, wpisz go tutaj.</target>
         <note>Line: 126</note>
       </trans-unit>
+      <trans-unit id="96bacc9c71fc8b7763f985fed3dfc545" approved="yes">
+        <source>To which product should the page redirect?</source>
+        <target state="final">Do jakiego produktu strona powinna przekierowywać?</target>
+        <note>Line: 186</note>
+      </trans-unit>
+      <trans-unit id="6dd1254fcdbcc7b3fd459617adad9289" approved="yes">
+        <source>To which category should the page redirect?</source>
+        <target state="final">Do jakiej kategorii strona powinna przekierowywać?</target>
+        <note>Line: 188</note>
+      </trans-unit>
+      <trans-unit id="1b9648d6a32243bb7003ae8046dc7c1a" approved="yes">
+        <source>By default, the main category will be used if no category is selected.</source>
+        <target state="final">Domyślnie, jeśli nie wybrano żadnej kategorii, użyta zostanie kategoria główna.</target>
+        <note>Line: 189</note>
+      </trans-unit>
       <trans-unit id="8533d8d42f2c7ef3078797984ea14675" approved="yes">
         <source>This description will appear in search engines. You need a single sentence, shorter than 160 characters (including spaces)</source>
         <target state="final">Ten opis będzie się pojawiał w wyszukiwarkach. Potrzebujesz pojedynczego zdania o długości krótszej niż 160 znaków (ze spacjami)</target>
@@ -401,19 +416,27 @@
     <body>
       <trans-unit id="762d425093de542e7ab628b44ff68515" approved="yes">
         <source>This interface allows you to specify the suppliers of the current combination.</source>
-        <target state="final">Ten interfejs pozwala na określenie dostawców bieżącego produktu i ewentualnie jego kombinacji.</target>
+        <target state="final">Ten interfejs pozwala na określenie dostawców bieżącego produktu i ewentualnie jego wariantu.</target>
         <note>Line: 88</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationPriceImpactType.php" source-language="en" target-language="pl" datatype="plaintext">
     <body>
-      
+      <trans-unit id="c4b69e0455faf0784b6a8b2fd9634d16" approved="yes">
+        <source>If the price of this combination is different from the initial retail price, enter the value of the impact (negative or positive).</source>
+        <target state="final">Jeżeli cena tego wariantu różni się od początkowej ceny detalicznej, wpisz różnicę (ujemną lub dodatnią).</target>
+        <note>Line: 123</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/LowStockThresholdType.php" source-language="en" target-language="pl" datatype="plaintext">
     <body>
-      
+      <trans-unit id="1f24923e0351fff041635c7064d7d94c" approved="yes">
+        <source><![CDATA[The email will be sent to all users who have access to the Stock page. To modify permissions, go to [1]Advanced Parameters > Team[/1].]]></source>
+        <target state="final"><![CDATA[Wiadomość e-mail zostanie wysłana do wszystkich użytkowników, którzy mają dostęp do strony Magazyn. Aby zmodyfikować uprawnienia, przejdź do [1]Parametry zaawansowane > Zespół[/1].]]></target>
+        <note>Line: 65</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Description/DescriptionType.php" source-language="en" target-language="pl" datatype="plaintext">
@@ -457,7 +480,7 @@
     <body>
       <trans-unit id="127a2d0e467657187c3a043fb6179b17" approved="yes">
         <source>Set specific prices for customers meeting certain conditions.</source>
-        <target state="final">Ustal ceny specyficzne dla klientów spełniających określone warunki.</target>
+        <target state="final">Ustal indywidualne ceny dla klientów spełniających określone warunki.</target>
         <note>Line: 104</note>
       </trans-unit>
       <trans-unit id="5a533ff8b0bb46f6ddbe100864e44771" approved="yes">
@@ -487,17 +510,55 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/SEO/RedirectOptionType.php" source-language="en" target-language="pl" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="e35bdf9023b638203d854dd2d9382878" approved="yes">
+        <source>[1]No redirection (200), display product[/1] [2] Do not redirect anywhere, display product as discontinued and return normal 200 response.</source>
+        <target state="final">[1]Brak przekierowania (200), wyświetl produkt[/1] [2] Nie przekierowuj nigdzie, wyświetl produkt jako wycofany i zwróć normalną odpowiedź 200.</target>
+        <note>Line: 216</note>
+      </trans-unit>
+      <trans-unit id="ce744fb5bb2b0706fdc5b33466a7b500" approved="yes">
+        <source>[1]No redirection (404), display product[/1] [2] Do not redirect anywhere, display product as discontinued and return 404 "Not Found" response.</source>
+        <target state="final">[1]Brak przekierowania (404), wyświetl produkt[/1] [2] Nie przekierowuj nigdzie, wyświetl produkt jako wycofany i zwróć odpowiedź 404 „Nie znaleziono”.</target>
+        <note>Line: 217</note>
+      </trans-unit>
+      <trans-unit id="201ef8721f9aac90fdb54cc6210493ff" approved="yes">
+        <source>[1]No redirection (410), display product[/1] [2] Do not redirect anywhere, display product as discontinued and return 410 "Gone" response.</source>
+        <target state="final">[1]Brak przekierowania (410), wyświetl produkt[/1] [2] Nie przekierowuj nigdzie, wyświetl produkt jako wycofany i zwróć odpowiedź 410 „Nie ma”.</target>
+        <note>Line: 218</note>
+      </trans-unit>
+      <trans-unit id="65c29c631954b1e422c860c9353c30f0" approved="yes">
+        <source>[1]No redirection (404), display error page[/1] [2] Do not redirect anywhere and display a 404 "Not Found" page.</source>
+        <target state="final">[1]Brak przekierowania (404), wyświetl stronę błędu[/1] [2] Nie przekierowuj nigdzie i wyświetl stronę 404 „Nie znaleziono”.</target>
+        <note>Line: 219</note>
+      </trans-unit>
+      <trans-unit id="511d9e488a706dcf908981d845e50a35" approved="yes">
+        <source>[1]No redirection (410), display error page[/1] [2] Do not redirect anywhere and display a 410 "Gone" page.</source>
+        <target state="final">[1]Brak przekierowania (410), wyświetl stronę błędu[/1] [2] Nie przekierowuj nigdzie i wyświetl stronę 410 „Zniknęła”.</target>
+        <note>Line: 220</note>
+      </trans-unit>
+      <trans-unit id="63d8f0350459a5cc763e14c4c6411a07" approved="yes">
+        <source>[1]Permanent redirection (301)[/1] [2] Permanently display another product or category instead.</source>
+        <target state="final">[1]Trwałe przekierowanie (301)[/1] [2] Zamiast tego wyświetlaj na stałe inny produkt lub kategorię.</target>
+        <note>Line: 221</note>
+      </trans-unit>
+      <trans-unit id="be47cd3941d99bef338eda26d2c1a397" approved="yes">
+        <source>[1]Temporary redirection (302)[/1] [2] Temporarily display another product or category instead.</source>
+        <target state="final">[1]Tymczasowe przekierowanie (302)[/1] [2] Zamiast tego tymczasowo wyświetl inny produkt lub kategorię.</target>
+        <note>Line: 222</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/SEO/SEOType.php" source-language="en" target-language="pl" datatype="plaintext">
     <body>
+      <trans-unit id="bf8d04437124c71dcf4c8c9d067c59a4" approved="yes">
+        <source>Public title that may appear in the browser and search engines. The recommended length is about 60 characters (including spaces). If you leave it blank, the product name will be used.</source>
+        <target state="final">Tytuł publiczny, który może pojawić się w przeglądarce i wyszukiwarkach. Zalecana długość wynosi około 60 znaków (ze spacjami). Jeżeli pozostawisz to pole puste, użyta zostanie nazwa produktu.</target>
+        <note>Line: 117</note>
+      </trans-unit>
+      <trans-unit id="73e5c34274fdcc69469b9185f7c3fd96" approved="yes">
+        <source>Summary for robots, that could appear in search engines. The recommended length is about 160 characters (including spaces). If you leave it blank, an excerpt from the short description will be used.</source>
+        <target state="final">Podsumowanie dla robotów, które mogą pojawić się w wyszukiwarkach. Zalecana długość to około 160 znaków (ze spacjami). Jeżeli pozostawisz to pole puste, wykorzystany zostanie fragment krótkiego opisu.</target>
+        <note>Line: 146</note>
+      </trans-unit>
       <trans-unit id="a132c5ad0de6c917b5422b923608c87b" approved="yes">
         <source>Separate each tag with a comma or press the Enter key.</source>
         <target state="final">Oddziel każdy tag przecinkiem lub naciśnij klawisz Enter.</target>
@@ -509,8 +570,13 @@
     <body>
       <trans-unit id="44b7964ba71aa4c1ad9a99f5485371ce" approved="yes">
         <source>Search combination</source>
-        <target state="final">Wyszukaj kombinację</target>
+        <target state="final">Wyszukaj wariant</target>
         <note>Line: 104</note>
+      </trans-unit>
+      <trans-unit id="877410fd0e911c487f3d64381a98e592" approved="yes">
+        <source>Controls how you want stock of the pack to be calculated. You can decide, if you want to manage the stocks of packs manually, or if it should be calculated automatically depending on stock of the products inside. In that case, the quantity of the pack inside is ignored.</source>
+        <target state="final">Kontroluje sposób obliczania zapasów pakietu. Możesz zdecydować, czy chcesz zarządzać stanami opakowań ręcznie, czy też ma on być obliczany automatycznie w zależności od stanów znajdujących się w nich produktów. W takim przypadku ilość znajdującego się w opakowaniu jest ignorowana.</target>
+        <note>Line: 118</note>
       </trans-unit>
     </body>
   </file>
@@ -618,7 +684,7 @@
     <body>
       <trans-unit id="53f3eb21de0c7a8c909a86be984996f6" approved="yes">
         <source>Does this combination have a different price? Is it cheaper or more expensive than the default retail price?</source>
-        <target state="final">Czy ta kombinacja posiada inną cenę? Czy kombinacja ma wpływ na wzrost lub spadek ceny produktu?</target>
+        <target state="final">Czy ten wariant posiada inną cenę? Czy wariant ma wpływ na wzrost lub spadek ceny produktu?</target>
         <note>Line: 169</note>
       </trans-unit>
     </body>
@@ -627,7 +693,7 @@
     <body>
       <trans-unit id="268bf51f15b2210472b2d42dd883214a" approved="yes">
         <source><![CDATA[Combinations are the different variations of a product, with attributes like its size, weight or color taking different values. To create a combination, you need to create your product attributes first. Go to Catalog > Attributes & Features for this!]]></source>
-        <target state="final"><![CDATA[Kombinacje są to różne warianty produktu, o atrybutach takich jak rozmiar, waga lub kolor przyjmujące różne wartości. Aby utworzyć kombinacje, należy najpierw utworzyć atrybuty produktu. Aby to zrobić, przejdź do Katalog > Atrybuty & Cechy!]]></target>
+        <target state="final"><![CDATA[Warianty o atrybutach takich jak rozmiar, waga lub kolor przyjmujące różne wartości. Aby utworzyć wariant, należy najpierw utworzyć atrybuty produktu. Aby to zrobić, przejdź do Katalog > Atrybuty i cechy!]]></target>
         <note>Line: 32</note>
       </trans-unit>
       <trans-unit id="ab80db7e778c7415ca2f34deb46d5f44" approved="yes">
@@ -668,6 +734,36 @@
         <source>Temporary redirection (302) = Temporarily display another product or category instead.</source>
         <target state="final">Przekierowanie tymczasowe (302) = Tymczasowo wyświetlany jest w zamian inny produkt lub kategoria.</target>
         <note>Line: 134</note>
+      </trans-unit>
+      <trans-unit id="916ba4b2422000e9868d30814dc1cef3" approved="yes">
+        <source><![CDATA[Default behavior is specified in the Shop Parameters > Product settings page.]]></source>
+        <target state="final"><![CDATA[Domyślne zachowanie jest określone na stronie Ustawienia sklepu > Ustawienia produktu.]]></target>
+        <note>Line: 127</note>
+      </trans-unit>
+      <trans-unit id="8d9ca96605aac170ba7120491d770710" approved="yes">
+        <source>No redirection (200), display product = Do not redirect anywhere, display product as discontinued and return normal 200 response.</source>
+        <target state="final">Brak przekierowania (200), wyświetl produkt = Nie przekierowuj nigdzie, wyświetl produkt jako wycofany i zwróć normalny kod odpowiedzi 200.</target>
+        <note>Line: 128</note>
+      </trans-unit>
+      <trans-unit id="8e2b691e27a3ccb91f0b3a9baa091562" approved="yes">
+        <source>No redirection (404), display product = Do not redirect anywhere, display product as discontinued and return 404 "Not Found" response.</source>
+        <target state="final">Brak przekierowania (404), wyświetl produkt = Nie przekierowuj nigdzie, wyświetl produkt jako wycofany i zwróć odpowiedź 404 "Nie znaleziono".</target>
+        <note>Line: 129</note>
+      </trans-unit>
+      <trans-unit id="76baa7f2e915f48214cd6577b59e1552" approved="yes">
+        <source>No redirection (410), display product = Do not redirect anywhere, display product as discontinued and return 410 "Gone" response.</source>
+        <target state="final">Brak przekierowania (410), wyświetl produkt = Nie przekierowuj nigdzie, wyświetl produkt jako wycofany i zwróć odpowiedź 410 "Gone".</target>
+        <note>Line: 130</note>
+      </trans-unit>
+      <trans-unit id="97faaea8b9fbed3f6c5b7d7a9c60e648" approved="yes">
+        <source>No redirection (404), display error page = Do not redirect anywhere and display a 404 "Not Found" page.</source>
+        <target state="final">Brak przekierowania (404), wyświetl stronę błędu = Nie przekierowuj nigdzie i wyświetl stronę błędu 404 "Nie znaleziono".</target>
+        <note>Line: 131</note>
+      </trans-unit>
+      <trans-unit id="10bcd2f914bb6f74c3fef8c13e59ea61" approved="yes">
+        <source>No redirection (410), display error page = Do not redirect anywhere and display a 410 "Gone" page.</source>
+        <target state="final">"Brak przekierowania (410), wyświetl stronę błędu = Nie przekierowuj nigdzie i wyświetl stronę błędu 410 "Gone".</target>
+        <note>Line: 132</note>
       </trans-unit>
     </body>
   </file>
@@ -775,12 +871,12 @@
     <body>
       <trans-unit id="0745d3d4082ad910137e24fd2901ca63" approved="yes">
         <source>Combinations are the different variations of a product, with attributes like its size, weight or color taking different values. Does your product require combinations?</source>
-        <target state="final">Kombinacje są to różne warianty produktu, o atrybutach takich jak rozmiar, waga lub kolor przyjmujące różne wartości. Czy Twój produkt wymaga kombinacji?</target>
+        <target state="final">Warianty o atrybutach takich jak rozmiar, waga lub kolor przyjmujące różne wartości. Czy Twój produkt wymaga wariantów?</target>
         <note>Line: 153</note>
       </trans-unit>
       <trans-unit id="0a4595dd800cb3338d233a177f422758" approved="yes">
         <source>Advanced settings in [1][2]Combinations[/1]</source>
-        <target state="final">Ustawienia zaawansowane [1][2]Kombinacje[/1]</target>
+        <target state="final">Ustawienia zaawansowane [1][2]Warianty[/1]</target>
         <note>Line: 171
 Comment: First tag [1][/1] is for a HTML link. Second tag [2] is an icon (no closing tag needed).</note>
       </trans-unit>
@@ -876,7 +972,7 @@ Comment: First tag [1][/1] is for a HTML link. Second tag [2] is an icon (no clo
       </trans-unit>
       <trans-unit id="959f5f13ee3cc4199a335d1738351596" approved="yes">
         <source>You can set specific prices for customers belonging to different groups, different countries, etc.</source>
-        <target state="final">Możesz ustalić specyficzne ceny dla klientów należących do różnych grup, krajów itp.</target>
+        <target state="final">Możesz ustalić indywidualne ceny dla klientów należących do różnych grup, krajów itp.</target>
         <note>Line: 127</note>
       </trans-unit>
       <trans-unit id="fbade15b99b07c58fab7be777c0f4c0c" approved="yes">
@@ -972,7 +1068,7 @@ Comment: First tag [1][/1] is for a HTML link. Second tag [2] is an icon (no clo
     <body>
       <trans-unit id="d87fdec724af7ed0338f394852787788" approved="yes">
         <source>To add combinations, you first need to create proper attributes and values in [1]%attributes_and_features_label%[/1].</source>
-        <target state="final">Aby dodać kombinacje, musisz najpierw utworzyć odpowiednie atrybuty i wartości w [1]%attributes_and_features_label%[/1].</target>
+        <target state="final">Aby dodać wariant, musisz najpierw utworzyć odpowiednie atrybuty i wartości w [1]%attributes_and_features_label%[/1].</target>
         <note>Line: 34</note>
       </trans-unit>
     </body>
