@@ -134,6 +134,11 @@
         <target state="final">Fuzzy-søk er normalt aktivert. Med fuzzy-søk kan stavefeil i søket likevel føre til treff, f.eks. kan søk med ordet "stille" også gi treff som "stile", "spille" og "skille".</target>
         <note>Line: 191</note>
       </trans-unit>
+      <trans-unit id="39e61e5c1261f090e3c56f494a315f07" approved="yes">
+        <source>Disabling this option will require exact spelling for the search to match results.</source>
+        <target state="final">Å deaktivere dette alternativet vil kreve nøyaktig stavemåte for at søket skal matche resultater.</target>
+        <note>Line: 196</note>
+      </trans-unit>
       <trans-unit id="2324c421f8c5376051c024f15232cd80" approved="yes">
         <source>Enable approximate string matching.</source>
         <target state="final">Aktiver omtrentlige tekst-treff</target>
@@ -143,6 +148,16 @@
         <source>Note that this option is resource-consuming: the more you search, the longer it takes.</source>
         <target state="final">Husk på at denne funksjonen krever flere ressurser: jo mer du søker, jo lenger tid vil det ta.</target>
         <note>Line: 215</note>
+      </trans-unit>
+      <trans-unit id="6392d16e9ae94967fe13716b69e1d0b2" approved="yes">
+        <source>Only words fewer or equal to this maximum length will be searched.</source>
+        <target state="final">Bare ord med færre eller lik maksimal lengde vil bli søkt etter.</target>
+        <note>Line: 230</note>
+      </trans-unit>
+      <trans-unit id="2b610a936a358875e6f5a01564a3a0e6" approved="yes">
+        <source>This parameter will only be used if the fuzzy search is activated: the lower the value, the more tolerant your search will be.</source>
+        <target state="final">Denne parameteren vil kun bli brukt hvis fuzzy-søk er aktivert: jo lavere verdi, desto mer tolerant blir søket ditt.</target>
+        <note>Line: 235</note>
       </trans-unit>
       <trans-unit id="645115aba5ef431a04da95c746477544" approved="yes">
         <source>Only words this size or larger will be indexed.</source>
@@ -293,10 +308,26 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/MaintenanceType.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
-      
-      
-      
-      
+      <trans-unit id="122941b469f97a0c0750a62126fba6cd" approved="yes">
+        <source>We recommend that you deactivate your store while performing maintenance. Note that it will not disable the webservice.</source>
+        <target state="final">Vi anbefaler at du deaktiverer butikken din mens du utfører vedlikehold. Merk at dette ikke vil deaktivere webtjenesten.</target>
+        <note>Line: 80</note>
+      </trans-unit>
+      <trans-unit id="4db650b0232001140675125d740191be" approved="yes">
+        <source>Allow IP addresses to access the store, even in maintenance mode. Use a comma to separate them (e.g. 42.24.4.2,127.0.0.1,99.98.97.96).</source>
+        <target state="final">Tillat IP-adresser å få tilgang til butikken, selv i vedlikeholdsmodus. Bruk komma for å skille dem (f.eks. 42.24.4.2,127.0.0.1,99.98.97.96).</target>
+        <note>Line: 110</note>
+      </trans-unit>
+      <trans-unit id="541fbadd38ba459b4257b5822e9d0518" approved="yes">
+        <source>Display a customized message when the store is disabled.</source>
+        <target state="final">Vis en tilpasset melding når butikken er deaktivert.</target>
+        <note>Line: 130</note>
+      </trans-unit>
+      <trans-unit id="a8de200ee3200616262682ff488ce2f3" approved="yes">
+        <source>When enabled, admins will access the store front office without storing their IP.</source>
+        <target state="final">Når dette er aktivert, vil administratorer få tilgang til butikkens frontend uten at IP-adressen deres blir lagret.</target>
+        <note>Line: 93</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php" source-language="en" target-language="no" datatype="plaintext">
@@ -351,6 +382,11 @@
         <target state="final">Aktiver bestselgersiden i butikken selv når den aktuelle modulen er deaktivert.</target>
         <note>Line: 204</note>
       </trans-unit>
+      <trans-unit id="3d1ffb24b2e1b1381ca7da9a9b5dd97a" approved="yes">
+        <source>The multistore feature allows you to manage several front offices from a single back office. If this feature is enabled, a Multistore page is available in the Advanced Parameters menu.</source>
+        <target state="final">Multistore-funksjonen lar deg administrere flere butikkfrontkontorer fra én back office. Hvis denne funksjonen er aktivert, vil en Multistore-side være tilgjengelig i menyen for avanserte parametere.</target>
+        <note>Line: 212</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GeneralType.php" source-language="en" target-language="no" datatype="plaintext">
@@ -385,6 +421,11 @@
         <target state="final">Tillate kunden å sende ordre til flere adresser. Dette alternativet vil konvertere kundens handlevogn til en eller flere ordre.</target>
         <note>Line: 120</note>
       </trans-unit>
+      <trans-unit id="4acdb94f4cbc425ad20d457ffa1d81c1" approved="yes">
+        <source>It allows you to delay shipping if your customers request it.</source>
+        <target state="final">Det gjør det mulig å utsette forsendelsen dersom kundene dine ber om det.</target>
+        <note>Line: 129</note>
+      </trans-unit>
       <trans-unit id="fff92cdf417b8a468af180474057a575" approved="yes">
         <source>Require customers to accept or decline terms of service before processing an order.</source>
         <target state="final">Kunder må godkjenne eller avslå brukeravtale før ordren behandles.</target>
@@ -394,6 +435,11 @@
         <source>Choose the page which contains your store's terms and conditions of use.</source>
         <target state="final">Velg siden som inneholder din butikks vilkår og betingelser.</target>
         <note>Line: 141</note>
+      </trans-unit>
+      <trans-unit id="1a9a8cbb0899db011b7fec6df3326aa7" approved="yes">
+        <source>The order status will be set to "On backorder" for new orders containing products that are out of stock.</source>
+        <target state="final">Ordrestatusen vil bli satt til "På restordre" for nye bestillinger som inneholder produkter som er utsolgt.</target>
+        <note>Line: 153</note>
       </trans-unit>
     </body>
   </file>
@@ -418,6 +464,11 @@
         <source>Suggest recycled packaging to customer.</source>
         <target state="final">Foreslå miljøvennlig pakking til kunder.</target>
         <note>Line: 134</note>
+      </trans-unit>
+      <trans-unit id="bafe5bb026d9d3315199aec22c1be853" approved="yes">
+        <source><![CDATA[Remember to regenerate email templates in [1]Design > Email theme[/1] after enabling or disabling this feature.]]></source>
+        <target state="final"><![CDATA[Husk å regenerere e-postmalene i [1]Design > E-posttema[/1] etter å ha aktivert eller deaktivert denne funksjonen.]]></target>
+        <note>Line: 102</note>
       </trans-unit>
     </body>
   </file>
@@ -447,6 +498,11 @@
         <target state="final">Vis produktpriser når katalogmodus er aktivert.</target>
         <note>Line: 82</note>
       </trans-unit>
+      <trans-unit id="4253b29d6b167dac066027993398716e" approved="yes">
+        <source><![CDATA[To hide prices for a specific group, go to [1]Customer Settings > Groups[/1].]]></source>
+        <target state="final"><![CDATA[For å skjule priser for en spesifikk gruppe, gå til [1]Kundinnstillinger > Grupper[/1].]]></target>
+        <note>Line: 85</note>
+      </trans-unit>
       <trans-unit id="2593c7ce3ff937293feb1e61c152e551" approved="yes">
         <source>characters</source>
         <target state="final">tegn</target>
@@ -462,6 +518,26 @@
         <target state="final">Når aktiv vil vennlig URL bli oppdatert ved hver lagring.</target>
         <note>Line: 138</note>
       </trans-unit>
+      <trans-unit id="74be75bfd118a0c7a3df9308c45f44bb" approved="yes">
+        <source>Enable this option if you want to activate by default all your manually created new products.</source>
+        <target state="final">Aktiver dette alternativet hvis du vil at alle dine manuelt opprettede nye produkter skal være aktive som standard.</target>
+        <note>Line: 149</note>
+      </trans-unit>
+      <trans-unit id="e607353e02cd0a8928344d8761ddb245" approved="yes">
+        <source>If a customer meets multiple conditions, specific prices will be applied in this order of priority, unless a different order has been set for a particular product.</source>
+        <target state="final">Hvis en kunde oppfyller flere betingelser, vil spesifikke priser bli brukt i denne prioriteringsrekkefølgen, med mindre en annen rekkefølge er satt for et spesielt produkt.</target>
+        <note>Line: 160</note>
+      </trans-unit>
+      <trans-unit id="f53c8ac6acc0017629736d6d0ccd935c" approved="yes">
+        <source>You can specify the default behavior for all disabled products. The product page can display a "Discontinued" message or an error page. You can also specify which HTTP response is sent to users. This can be set specifically for each product.</source>
+        <target state="final">Du kan spesifisere standard oppførsel for alle deaktiverte produkter. Produktsiden kan vise en melding om "Utgått" eller en feilside. Du kan også spesifisere hvilken HTTP-respons som sendes til brukerne. Dette kan også settes spesifikt for hvert produkt.</target>
+        <note>Line: 171</note>
+      </trans-unit>
+      <trans-unit id="8f5320453e91fe37d7b5704c92f4f243" approved="yes">
+        <source>When enabled, friendly URL will be updated on every name change for offline products only.</source>
+        <target state="final">Når denne funksjonen er aktivert, vil vennlig URL oppdateres ved hver navneendring, men kun for produkter som er offline.</target>
+        <note>Line: 138</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/PageType.php" source-language="en" target-language="no" datatype="plaintext">
@@ -475,6 +551,11 @@
         <source>Display or hide the "%add_to_cart_label%" button on category pages for products that have attributes forcing customers to see product details.</source>
         <target state="final">Vis eller skjul "%add_to_cart_label%"-knappen når en kategoriside for produkter har attributter som tvinger kunder til å se produktdetaljene.</target>
         <note>Line: 66</note>
+      </trans-unit>
+      <trans-unit id="f9aa0af5fdadc92504092774a0afb472" approved="yes">
+        <source>In the volume discount table on the product page, display the discounted unit price instead of the unit discount. E.g. If you sell a product for $10 with a discount of $2 from 3 items purchased, the discounted unit price ($8) will be displayed instead of the unit discount ($2).</source>
+        <target state="final">I volumrabatt-tabellen på produktsiden, vis den rabatterte enhetsprisen i stedet for enhetsrabatten. For eksempel, hvis du selger et produkt for 10 Kr med en rabatt på 2 Kr ved kjøp av 3 eller flere enheter, vil den rabatterte enhetsprisen (8 Kr) bli vist i stedet for enhetsrabatten (2 Kr).</target>
+        <note>Line: 91</note>
       </trans-unit>
     </body>
   </file>
