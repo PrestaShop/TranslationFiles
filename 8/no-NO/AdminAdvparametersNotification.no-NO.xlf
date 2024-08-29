@@ -332,6 +332,11 @@
         <target state="final">E-posten med bekreftelse kunne ikke sendes, men importen ble gjennomført. Hurra!</target>
         <note>Line: 4823</note>
       </trans-unit>
+      <trans-unit id="e8b6f82eaf10566aa372329388e13e39" approved="yes">
+        <source>EAN-13 "%ean13%" has incorrect value for product with ID %id%.</source>
+        <target state="final">EAN-13 "%ean13%" har en feil verdi for produkt med ID %id%.</target>
+        <note>Line: 2667</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminRequestSqlController.php" source-language="en" target-language="no" datatype="plaintext">
@@ -360,11 +365,25 @@
         <target state="final">Du må velge minst en rotkategori.</target>
         <note>Line: 693</note>
       </trans-unit>
+      <trans-unit id="e7cd23389f09dae6b4e79d876849a83d" approved="yes">
+        <source>You cannot have two stores with the same name in the same group.</source>
+        <target state="final">Du kan ikke ha to butikker med samme navn i den samme gruppen.</target>
+        <note>Line: 264</note>
+      </trans-unit>
+      <trans-unit id="0f1fe9700af1a235b700670ede95ed81" approved="yes">
+        <source>Unable to load this store.</source>
+        <target state="final">Kan ikke laste denne butikken.</target>
+        <note>Line: 294</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminShopGroupController.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
-      
+      <trans-unit id="083020d21e9461b15d496bbb87198c34" approved="yes">
+        <source>You must configure this store's URL before setting it as default.</source>
+        <target state="final">Du må konfigurere URL-en for denne butikken før du kan sette den som standard.</target>
+        <note>Line: 355</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminStoresController.php" source-language="en" target-language="no" datatype="plaintext">
@@ -415,12 +434,25 @@
         <target state="final">Feil: kunne ikke finne ut om feilsøkingsmodusen er aktivert. Sjekk at du har satt korrekte tillatelser på filen %s</target>
         <note>Line: 125</note>
       </trans-unit>
+      <trans-unit id="41925db348bd432023308554f2cde943" approved="yes">
+        <source>Error: Could not find whether debug profiling is enabled. Make sure that the correct permissions are set on the file %s</source>
+        <target state="final">Feil: Kunne ikke finne ut om feilsøkingsprofilering er aktivert. Sørg for at de riktige tillatelsene er satt på filen %s.</target>
+        <note>Line: 151</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/GeneralConfiguration.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="8484fc3dd1ece15646c9cf04ab71b19c" approved="yes">
+        <source>The SameSite=None is only available in secure mode.</source>
+        <target state="final">SameSite=None er kun tilgjengelig i sikker modus.</target>
+        <note>Line: 80</note>
+      </trans-unit>
+      <trans-unit id="6234474f7c68eb4436d392ed9645136b" approved="yes">
+        <source>The SameSite=None attribute is only available in secure mode.</source>
+        <target state="final">SameSite=None-attributtet er kun tilgjengelig i sikker modus.</target>
+        <note>Line: 79</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Import/Handler/AbstractImportHandler.php" source-language="en" target-language="no" datatype="plaintext">
@@ -596,7 +628,11 @@
   </file>
   <file original="src/Adapter/Preferences/PreferencesConfiguration.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
-      
+      <trans-unit id="fae40e95d9558caac76c035cd93da2a2" approved="yes">
+        <source>Cannot disable SSL configuration due to the Cookie SameSite=None.</source>
+        <target state="final">Kan ikke deaktivere SSL-konfigurasjonen på grunn av Cookie SameSite=None.</target>
+        <note>Line: 87</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Requirement/CheckRequirements.php" source-language="en" target-language="no" datatype="plaintext">
@@ -839,6 +875,11 @@
         <target state="final">"%key%" er et uautorisert nøkkelord.</target>
         <note>Line: 406</note>
       </trans-unit>
+      <trans-unit id="61f5912b0425ad1895fe203e725d2d7e" approved="yes">
+        <source>The "%function%" function is not allowed.</source>
+        <target state="final">Funksjonen "%function%" er ikke tillatt.</target>
+        <note>Line: 186</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Adapter/Upload/UploadQuotaConfiguration.php" source-language="en" target-language="no" datatype="plaintext">
@@ -871,6 +912,11 @@
         <source>An error occurred while uploading / copying the file.</source>
         <target state="final">En feil oppstod under opplasting / kopiering av fil.</target>
         <note>Line: 90</note>
+      </trans-unit>
+      <trans-unit id="519a3cfe5400ef0f781671c700aaed05" approved="yes">
+        <source>The extension of your file should be ".csv".</source>
+        <target state="final">Utvidelsen på filen din bør være ".csv".</target>
+        <note>Line: 134</note>
       </trans-unit>
       <trans-unit id="fc2e88db6e13898dab6ddf3b44c5d68a" approved="yes">
         <source>The extension of your file should be .csv.</source>
@@ -1055,8 +1101,16 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceKeyType.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="3a59a0e5e521300876d4f2c596d6aeca" approved="yes">
+        <source>Key length must be %length% characters long.</source>
+        <target state="final">Nøkkelens lengde må være %length% tegn.</target>
+        <note>Line: 111</note>
+      </trans-unit>
+      <trans-unit id="2cb84ea6e832a3190d3ad11a3e1f415c" approved="yes">
+        <source>Only non-accented characters, numbers, and the following special characters are allowed: %allowed_characters%</source>
+        <target state="final">Kun ikke-akserte tegn, tall og følgende spesialtegn er tillatt: %allowed_characters%</target>
+        <note>Line: 121</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Backup/Blocks/backup_form.html.twig" source-language="en" target-language="no" datatype="plaintext">
