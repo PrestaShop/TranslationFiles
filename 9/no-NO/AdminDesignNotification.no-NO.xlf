@@ -16,6 +16,11 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/images/modal_confirm_delete_type.tpl" source-language="en" target-language="no" datatype="plaintext">
     <body>
+      <trans-unit id="01d51bf7619b2c4c234be88fa06ac16b" approved="yes">
+        <source>Delete the images linked to this image setting</source>
+        <target state="final">Slett bildene knyttet til denne bildesettingen.</target>
+        <note>Line: 35</note>
+      </trans-unit>
       <trans-unit id="f031a290ace03a9f5d5dce82aefa86c6" approved="yes">
         <source>If you delete this image format, the theme won't be able to use it anymore. This will result in a degraded experience on your front office.</source>
         <target state="final">Hvis du sletter dette bildeformatet, vil temaet ikke lenger kunne bruke det. Dette vil resultere i en redusert opplevelse i nettbutikken.</target>
@@ -25,7 +30,11 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/images/modal_regenerate_thumbnails.tpl" source-language="en" target-language="no" datatype="plaintext">
     <body>
-      
+      <trans-unit id="6d2d8a4592271225573b378ea6d12eeb" approved="yes">
+        <source>Regenerate thumbnails for the selected images? With the "erase" option enabled, the previously selected thumbnails will be deleted.</source>
+        <target state="final">Regenerer miniatyrbilder for de valgte bildene? Med "slett" alternativet aktivert, vil de tidligere valgte miniatyrbildene bli slettet.</target>
+        <note>Line: 26</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/controller/FrontController.php" source-language="en" target-language="no" datatype="plaintext">
@@ -174,6 +183,12 @@
         <source>After modification, do not forget to regenerate thumbnails</source>
         <target state="final">Ikke glem å regenerere småbilder etter endring</target>
         <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="de7bf0de52dfa524dc063d610496c957" approved="yes">
+        <source>Make sure the theme you use doesn't rely on this image format before deleting it.</source>
+        <target state="final">Sørg for at temaet du bruker ikke er avhengig av dette bildeformatet før du sletter det.</target>
+        <note>Line: 30
+Comment: Regenerate button is only shown for internal API clients (identified via external_issuer field being null)</note>
       </trans-unit>
     </body>
   </file>
