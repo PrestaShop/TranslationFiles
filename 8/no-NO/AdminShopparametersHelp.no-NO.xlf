@@ -562,10 +562,20 @@
         <target state="final">Vis "%add_to_cart_label%"-knappen når et produkt har kombinasjoner.</target>
         <note>Line: 56</note>
       </trans-unit>
+      <trans-unit id="75dfe702391b0e2cb38a1df614b40fb8" approved="yes">
+        <source>Some themes allow your customers to add a product to their cart directly from the product list. You may want to deactivate this feature if a product has combinations, requiring your customers to check product details and choose one of the options.</source>
+        <target state="final">Noen temaer lar kundene legge et produkt i handlekurven direkte fra produktlisten. Du kan ønske å deaktivere denne funksjonen hvis et produkt har kombinasjoner, som krever at kundene sjekker produktdetaljer og velger en av alternativene.</target>
+        <note>Line: 66</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/PaginationType.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
+      <trans-unit id="189091e5d4ecc3ebd81c491695fe0f0b" approved="yes">
+        <source>Number of products displayed per page. Default is 12</source>
+        <target state="final">Produkter vist per side. Standard er 12</target>
+        <note>Line: 52</note>
+      </trans-unit>
       <trans-unit id="c18179baaeadd4a2fc27fafd3d6f40b1" approved="yes">
         <source>The order in which products are displayed in the product list.</source>
         <target state="final">Produktsortering for produktliste.</target>
@@ -580,15 +590,30 @@
         <target state="final">Når du selger pakker av produkter, hvordan ønsker du lageret ditt skal kalkuleres?</target>
         <note>Line: 64</note>
       </trans-unit>
+      <trans-unit id="8bd1967f496dd2a0dd64dae32a3bc6e5" approved="yes">
+        <source>If an attribute is not available in every product combination, it will not be displayed.</source>
+        <target state="final">Hvis et attributt ikke er tilgjengelig i alle produktkombinasjoner, vil det ikke bli vist.</target>
+        <note>Line: 82</note>
+      </trans-unit>
       <trans-unit id="9175b705bec9604985209d1f2d88c785" approved="yes">
         <source>Set to "0" to disable this feature.</source>
         <target state="final">Sett til 0 for å deaktivere denne funksjonen.</target>
         <note>Line: 93</note>
       </trans-unit>
+      <trans-unit id="b5e585ab39ea18b6354e53370bfe7472" approved="yes">
+        <source>By default, the "%add_to_cart_label%" button is hidden when a product is unavailable. You can choose to have it displayed in all cases.</source>
+        <target state="final">Som standard er "%add_to_cart_label%"-knappen skjult når et produkt er utilgjengelig. Du kan velge å vise den i alle tilfeller.</target>
+        <note>Line: 104</note>
+      </trans-unit>
       <trans-unit id="fcebe56087b9373f15514831184fa572" approved="yes">
         <source>In stock</source>
         <target state="final">På lager</target>
         <note>Line: 124</note>
+      </trans-unit>
+      <trans-unit id="bdd3f1e97760014483e852ca58e8f3c1" approved="yes">
+        <source>On backorder</source>
+        <target state="final">På restordre</target>
+        <note>Line: 138</note>
       </trans-unit>
       <trans-unit id="b55197a49e8c4cd8c314bc2aa39d6feb" approved="yes">
         <source>Out of stock</source>
@@ -615,6 +640,16 @@
         <target state="final">Levering innen 5-7 dager</target>
         <note>Line: 194</note>
       </trans-unit>
+      <trans-unit id="6e39e91b64484f1b075287486b74a9a2" approved="yes">
+        <source>Note that the label will be displayed only if backorders are denied.</source>
+        <target state="final">Merk at etiketten bare vil bli vist hvis restordre er avvist.</target>
+        <note>Line: 205</note>
+      </trans-unit>
+      <trans-unit id="ebdfb266f97bd01d837a5cdeb992fd5c" approved="yes">
+        <source>For packs of products, stocks can be managed manually or automatically based on individual product stock levels. Further customization is possible for each product.</source>
+        <target state="final">For pakker med produkter kan lagerbeholdningen administreres manuelt eller automatisk basert på lagerbeholdningen for hvert enkelt produkt. Videre tilpasning er mulig for hvert produkt.</target>
+        <note>Line: 64</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/SEOOptionsType.php" source-language="en" target-language="no" datatype="plaintext">
@@ -638,6 +673,11 @@
         <target state="final">URL omskrivning (mod_rewrite) er ikke aktiv på serveren din, eller det er ikke mulig å sjekke serverkonfigurasjonen. Hvis du ønsker å bruke vennlige nettadresser, må du aktivere denne modulen.</target>
         <note>Line: 99</note>
       </trans-unit>
+      <trans-unit id="3c0127b2ac978b5ebf97533cee742da0" approved="yes">
+        <source>Enable this option if you want to allow accented characters in your friendly URLs. You should only activate this option if you are using non-Latin characters; for all the Latin charsets, your SEO will be better without this option.</source>
+        <target state="final">Aktiver dette alternativet hvis du vil tillate aksenttegn i dine vennlige URL-er. Du bør bare aktivere dette alternativet hvis du bruker ikke-latinske tegn; for alle latinske tegnsett vil SEO-en din være bedre uten dette alternativet.</target>
+        <note>Line: 113</note>
+      </trans-unit>
       <trans-unit id="7dcc0875a9e200be4d760155c09c2945" approved="yes">
         <source>Enable this option only if you have problems with URL rewriting.</source>
         <target state="final">Aktiver dette valget kun dersom du har problemer med URL omskrivning.</target>
@@ -652,7 +692,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/Blocks/customer_preferences_general.html.twig" source-language="en" target-language="no" datatype="plaintext">
     <body>
-      
+      <trans-unit id="744c64016466dfc0166c805ee96446e4" approved="yes">
+        <source>[1]Make[/1] sure partner offers are not set as required in the [2]Customers[/2] section of the back office before disabling them. Otherwise, new customers won't be able to create an account and [1]proceed[/1] to checkout.</source>
+        <target state="final">[1]Sørg for[/1] at partnertilbud ikke er satt som påkrevde i [2]Kunder[/2]-seksjonen i back office før du deaktiverer dem. Ellers vil ikke nye kunder kunne opprette en konto og [1]gå videre[/1] til kassen.</target>
+        <note>Line: 40</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/OrderReturnStates/Blocks/form.html.twig" source-language="en" target-language="no" datatype="plaintext">
