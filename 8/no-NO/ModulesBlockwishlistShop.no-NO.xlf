@@ -17,10 +17,20 @@
         <target state="final">Det oppsto en feil ved opprettelse av produktet</target>
         <note>Line: 105</note>
       </trans-unit>
+      <trans-unit id="8154473def79b8c99e7baac8658ab9ab" approved="yes">
+        <source>There was an error while adding the product attributes</source>
+        <target state="final">Det oppstod en feil under tillegg av produktegenskaper.</target>
+        <note>Line: 78</note>
+      </trans-unit>
       <trans-unit id="b13b3d3d8eeb819989fed9519e5eb2c1" approved="yes">
         <source>Product added</source>
         <target state="final">Produkt lagt til</target>
         <note>Line: 120</note>
+      </trans-unit>
+      <trans-unit id="afcb7c25464ab3e227fe3a935ad9b8cc" approved="yes">
+        <source>The list name is invalid.</source>
+        <target state="final">Listenavnet er ugyldig.</target>
+        <note>Line: 132</note>
       </trans-unit>
       <trans-unit id="cd50954edb2355b8b81c2efc37a619cb" approved="yes">
         <source>The list has been properly created</source>
@@ -36,6 +46,11 @@
         <source>Missing name parameter</source>
         <target state="final">Mangler navn</target>
         <note>Line: 170</note>
+      </trans-unit>
+      <trans-unit id="421df3a8024950968223fa4c1cf92d2f" approved="yes">
+        <source>The list name is invalid</source>
+        <target state="final">Listenavnet er ugyldig.</target>
+        <note>Line: 183</note>
       </trans-unit>
       <trans-unit id="e7f12696b48338b0133523a330516877" approved="yes">
         <source>List has been renamed</source>
@@ -57,17 +72,60 @@
         <target state="final">Sletting av liste feilet</target>
         <note>Line: 238</note>
       </trans-unit>
+      <trans-unit id="a08397252ca981b8d4cf5cd48aa504a5" approved="yes">
+        <source>Product successfully removed</source>
+        <target state="final">Produktet ble fjernet.</target>
+        <note>Line: 269</note>
+      </trans-unit>
       <trans-unit id="c48fb6f65f34201df51a310761ffc05c" approved="yes">
         <source>Unable to remove product from list</source>
         <target state="final">Kan ikke fjerne produktet fra listen</target>
         <note>Line: 277</note>
       </trans-unit>
+      <trans-unit id="faedddfa962f0e02c26297f0fee8c2fb" approved="yes">
+        <source>Product successfully updated</source>
+        <target state="final">Produktet ble oppdatert.</target>
+        <note>Line: 311</note>
+      </trans-unit>
+      <trans-unit id="f11a5449691a6083161a98a08a549541" approved="yes">
+        <source>Unable to update product from wishlist</source>
+        <target state="final">Kan ikke oppdatere produktet fra ønskelisten.</target>
+        <note>Line: 319</note>
+      </trans-unit>
+      <trans-unit id="331d764872260ecaec822a6768871e97" approved="yes">
+        <source>Request is missing one or multiple parameters</source>
+        <target state="final">Forespørselen mangler ett eller flere parametere.</target>
+        <note>Line: 369</note>
+      </trans-unit>
+      <trans-unit id="6354c00dadee375467a1b8bddfdc6aaa" approved="yes">
+        <source>Product added to cart</source>
+        <target state="final">Produktet er lagt til i handlekurven.</target>
+        <note>Line: 398</note>
+      </trans-unit>
+      <trans-unit id="5fde6bcb72b2b1f2a179fc2a62094f80" approved="yes">
+        <source>Error when adding product to cart</source>
+        <target state="final">Feil ved tillegg av produkt til handlekurven.</target>
+        <note>Line: 406</note>
+      </trans-unit>
+      <trans-unit id="3a9037f4f377fb6ff22367d375897faa" approved="yes">
+        <source>You're not allowed to manage this list.</source>
+        <target state="final">Du har ikke tillatelse til å administrere denne listen.</target>
+        <note>Line: 437</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/blockwishlist/controllers/front/view.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="4701eef0c0a005e2245180a983fe030e" approved="yes">
+        <source>You do not have access to this wishlist.</source>
+        <target state="final">Du har ikke tilgang til denne ønskelisten.</target>
+        <note>Line: 83</note>
+      </trans-unit>
+      <trans-unit id="d4e3353b723d705ed7a41ba11c17c9f2" approved="yes">
+        <source>WishList: %wishlist_name%</source>
+        <target state="final">Ønskeliste: %wishlist_name%</target>
+        <note>Line: 137</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/blockwishlist/views/templates/components/modals/add-to-wishlist.tpl" source-language="en" target-language="no" datatype="plaintext">
@@ -96,10 +154,30 @@
         <target state="final">Legg til navn</target>
         <note>Line: 25</note>
       </trans-unit>
+      <trans-unit id="ff54fda7befc2debddd893cb7bc65c68" approved="yes">
+        <source>List title is too short</source>
+        <target state="final">Liste-tittelen er for kort.</target>
+        <note>Line: 28</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/blockwishlist/views/templates/components/modals/delete.tpl" source-language="en" target-language="no" datatype="plaintext">
     <body>
+      <trans-unit id="a1cfe7cbeafd513db812282da3f01704" approved="yes">
+        <source>Remove product from wishlist</source>
+        <target state="final">Fjern produkt fra ønskelisten.</target>
+        <note>Line: 28</note>
+      </trans-unit>
+      <trans-unit id="1beb403d31c2e510c90d78c71460c088" approved="yes">
+        <source>Delete wishlist</source>
+        <target state="final">Slett ønskelisten.</target>
+        <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="7bd9ca3a2784a710caef154068db87b8" approved="yes">
+        <source>The product will be removed from "%nameofthewishlist%".</source>
+        <target state="final">Produktet vil bli fjernet fra "%nameofthewishlist%".</target>
+        <note>Line: 30</note>
+      </trans-unit>
       <trans-unit id="1063e38cb53d94d386f21227fcd84717" approved="yes">
         <source>Remove</source>
         <target state="final">Fjern</target>
@@ -124,6 +202,11 @@
         <target state="final">Logg inn</target>
         <note>Line: 37</note>
       </trans-unit>
+      <trans-unit id="30ca097d6f7ac158bc3d02dfb18979a1" approved="yes">
+        <source>You need to be logged in to save products in your wishlist.</source>
+        <target state="final">Du må være innlogget for å lagre produkter i ønskelisten din.</target>
+        <note>Line: 49</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/blockwishlist/views/templates/components/modals/rename.tpl" source-language="en" target-language="no" datatype="plaintext">
@@ -133,10 +216,20 @@
         <target state="final">Ønskeliste navn</target>
         <note>Line: 24</note>
       </trans-unit>
+      <trans-unit id="3f122c673ce2e03b7ed71889b17ec119" approved="yes">
+        <source>Rename wishlist</source>
+        <target state="final">Gi nytt navn til ønskelisten.</target>
+        <note>Line: 26</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/blockwishlist/views/templates/components/modals/share.tpl" source-language="en" target-language="no" datatype="plaintext">
     <body>
+      <trans-unit id="8f02ed5e74022ada127d2bd206049a36" approved="yes">
+        <source>Share wishlist</source>
+        <target state="final">Del ønskelisten.</target>
+        <note>Line: 23</note>
+      </trans-unit>
       <trans-unit id="6d6db52799620de23c1e87d00abde8c4" approved="yes">
         <source>Copied!</source>
         <target state="final">Kopiert!</target>
