@@ -243,11 +243,6 @@
         <target state="final">보안상의 이유로, 공식 장터의, PrestaShop 추가기능에서 배포된 모듈만 추가할 수 있음을 알려드립니다.</target>
         <note>Line: 56</note>
       </trans-unit>
-      <trans-unit id="96e36efe70e72835ae51946e2650f9e7" approved="yes">
-        <source>Add a new module</source>
-        <target state="final">새 모듈 추가</target>
-        <note>Line: 35</note>
-      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/modules/favorites.tpl" source-language="en" target-language="ko" datatype="plaintext">
@@ -511,6 +506,11 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/modules/page_header_toolbar-legacy.tpl" source-language="en" target-language="ko" datatype="plaintext">
     <body>
+      <trans-unit id="96e36efe70e72835ae51946e2650f9e7" approved="yes">
+        <source>Add a new module</source>
+        <target state="final">새 모듈 추가</target>
+        <note>Line: 70</note>
+      </trans-unit>
       <trans-unit id="28080c3603fb7e10f228381b181cae2c" approved="yes">
         <source>List of modules</source>
         <target state="final">모듈 목록</target>
@@ -533,37 +533,37 @@
       </trans-unit>
     </body>
   </file>
-  <file original="admin-dev/themes/default/template/controllers/modules/readmore-body.tpl" source-language="en" target-language="ko" datatype="plaintext">
+  <file original="admin-dev/themes/default/template/controllers/modules/quickview.tpl" source-language="en" target-language="ko" datatype="plaintext">
     <body>
       <trans-unit id="3424c86a3f3fdfcff4d8f310912ee82b" approved="yes">
         <source>(%s votes)</source>
         <target state="final">(%s 표)</target>
-        <note>Line: 35</note>
+        <note>Line: 52</note>
       </trans-unit>
       <trans-unit id="268cb3857932e260b03bf1334220f3bc" approved="yes">
         <source>(%s vote)</source>
         <target state="final">(%s 표)</target>
-        <note>Line: 35</note>
+        <note>Line: 52</note>
       </trans-unit>
       <trans-unit id="b5a7adde1af5c87d7fd797b6245c2a39" approved="yes">
         <source>Description</source>
         <target state="final">세부내용</target>
-        <note>Line: 52</note>
+        <note>Line: 64</note>
       </trans-unit>
       <trans-unit id="7a66d21cf5a4354933980f6d79ec78a4" approved="yes">
         <source>Merchant benefits</source>
         <target state="final">판매자 혜택</target>
-        <note>Line: 59</note>
+        <note>Line: 68</note>
       </trans-unit>
       <trans-unit id="8530d0ebaf22889c1b42061824f3769b" approved="yes">
         <source>Install module</source>
         <target state="final">모듈 설치</target>
-        <note>Line: 92</note>
+        <note>Line: 99</note>
       </trans-unit>
       <trans-unit id="a6642661dcfc0e354c61f4e8b8b9ec5a" approved="yes">
         <source>View on PrestaShop Addons</source>
         <target state="final">PrestaShop 추가기능에서 보기</target>
-        <note>Line: 94</note>
+        <note>Line: 101</note>
       </trans-unit>
     </body>
   </file>
@@ -705,7 +705,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_form.tpl" source-language="en" target-language="ko" datatype="plaintext">
+  <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_errors.tpl" source-language="en" target-language="ko" datatype="plaintext">
     <body>
       <trans-unit id="bbfb7a636f839052067cc86c39fa595a" approved="yes">
         <source>%limit% for suhosin.post.max_vars.</source>
@@ -717,15 +717,23 @@
         <target state="final">suhosin.request.max_vars에 대한 %limit%.</target>
         <note>Line: 40</note>
       </trans-unit>
-      <trans-unit id="a7bd935a88c629dc11c52e0c16c2a8a0" approved="yes">
-        <source>%d</source>
-        <target state="final">%d</target>
-        <note>Line: 58</note>
-      </trans-unit>
+    </body>
+  </file>
+  <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_form.tpl" source-language="en" target-language="ko" datatype="plaintext">
+    <body>
       <trans-unit id="54524210ee89080b3da6c88a11c6d438" approved="yes">
         <source>You must use this syntax in your translations. Here are several examples:</source>
         <target state="final">번역에는 이 구문을 사용해야 합니다. 몇가지 예시가 있습니다:</target>
         <note>Line: 86</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_modules.tpl" source-language="en" target-language="ko" datatype="plaintext">
+    <body>
+      <trans-unit id="a7bd935a88c629dc11c52e0c16c2a8a0" approved="yes">
+        <source>%d</source>
+        <target state="final">%d</target>
+        <note>Line: 57</note>
       </trans-unit>
     </body>
   </file>
@@ -1154,6 +1162,11 @@
         <target state="final">상점 그룹</target>
         <note>Line: 325</note>
       </trans-unit>
+      <trans-unit id="e9c7e4df74077626f7e42797c65273c4" approved="yes">
+        <source>and stay</source>
+        <target state="final">계속하기</target>
+        <note>Line: 206</note>
+      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/helpers/options/options.tpl" source-language="en" target-language="ko" datatype="plaintext">
@@ -1282,20 +1295,20 @@
         <target state="final">파일 제거</target>
         <note>Line: 178</note>
       </trans-unit>
-      <trans-unit id="1908624a0bca678cd26b99bfd405324e" approved="yes">
-        <source>File size</source>
-        <target state="final">파일 크기</target>
-        <note>Line: 32</note>
-      </trans-unit>
-      <trans-unit id="3fcbe6bd34e9279ec2c7b13adf7e4095" approved="yes">
-        <source>You have reached the limit (%s) of files to upload, please remove files to continue uploading</source>
-        <target state="final">파일 업로드 제한 (%s) 에 도달했습니다, 계속 업로드를 하려면 파일들을 제거하세요</target>
-        <note>Line: 48</note>
-      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/helpers/uploader/simple.tpl" source-language="en" target-language="ko" datatype="plaintext">
     <body>
+      <trans-unit id="1908624a0bca678cd26b99bfd405324e" approved="yes">
+        <source>File size</source>
+        <target state="final">파일 크기</target>
+        <note>Line: 39</note>
+      </trans-unit>
+      <trans-unit id="3fcbe6bd34e9279ec2c7b13adf7e4095" approved="yes">
+        <source>You have reached the limit (%s) of files to upload, please remove files to continue uploading</source>
+        <target state="final">파일 업로드 제한 (%s) 에 도달했습니다, 계속 업로드를 하려면 파일들을 제거하세요</target>
+        <note>Line: 56</note>
+      </trans-unit>
       <trans-unit id="c2299e6abb73991105dfacfb6fdd6dd4" approved="yes">
         <source>Download current file</source>
         <target state="final">현재 파일 다운로드</target>
@@ -1338,15 +1351,6 @@
         <source>123.45.67.89</source>
         <target state="final">123.45.67.89</target>
         <note>Line: 50</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="admin-dev/themes/default/template/toolbar.tpl" source-language="en" target-language="ko" datatype="plaintext">
-    <body>
-      <trans-unit id="e9c7e4df74077626f7e42797c65273c4" approved="yes">
-        <source>and stay</source>
-        <target state="final">계속하기</target>
-        <note>Line: 79</note>
       </trans-unit>
     </body>
   </file>

@@ -27,6 +27,21 @@
         <note>Line: 1074
 Comment: Special case for Product : either one or the other. Not both.</note>
       </trans-unit>
+      <trans-unit id="4bc14a0f722453ba235bc3fb52d95ffb" approved="yes">
+        <source>A category root is where a category tree can begin. This is used with multistore.</source>
+        <target state="final">Главна категорија има каде што категорија дрво може да започне. Овба се користи кај мулти продавници.</target>
+        <note>Line: 212</note>
+      </trans-unit>
+      <trans-unit id="2d743ae4c74db2a22d79e1e950e719e5" approved="yes">
+        <source>0 = Use quantity set in product, 1 = Use quantity from warehouse.</source>
+        <target state="final">0 = користи количина зададена во продуктот , 1= користи количина од магацин.</target>
+        <note>Line: 335</note>
+      </trans-unit>
+      <trans-unit id="aaf88088b0ac3f2992888fdfe00b5d76" approved="yes">
+        <source>ID of the warehouse to set as storage.</source>
+        <target state="final">број ID на магацинот кој ќе црпи од залиха.</target>
+        <note>Line: 339</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminShopController.php" source-language="en" target-language="mk" datatype="plaintext">
@@ -133,11 +148,6 @@ Comment: Special case for Product : either one or the other. Not both.</note>
   </file>
   <file original="src/Core/Import/EntityField/Provider/CategoryFieldsProvider.php" source-language="en" target-language="mk" datatype="plaintext">
     <body>
-      <trans-unit id="4bc14a0f722453ba235bc3fb52d95ffb" approved="yes">
-        <source>A category root is where a category tree can begin. This is used with multistore.</source>
-        <target state="final">Главна категорија има каде што категорија дрво може да започне. Овба се користи кај мулти продавници.</target>
-        <note>Line: 64</note>
-      </trans-unit>
       <trans-unit id="11cd708df7411da4546d8580356e711a" approved="yes">
         <source>Ignore this field if you don't use the Multistore tool. If you leave this field empty, the default shop will be used.</source>
         <target state="final">Игнорирај го ова полсе ако не користите Алатки на Мулти продавница. Ако го оставете полсто празно ќе се користат основни продавници.</target>
@@ -147,16 +157,6 @@ Comment: Special case for Product : either one or the other. Not both.</note>
   </file>
   <file original="src/Core/Import/EntityField/Provider/CombinationFieldsProvider.php" source-language="en" target-language="mk" datatype="plaintext">
     <body>
-      <trans-unit id="2d743ae4c74db2a22d79e1e950e719e5" approved="yes">
-        <source>0 = Use quantity set in product, 1 = Use quantity from warehouse.</source>
-        <target state="final">0 = користи количина зададена во продуктот , 1= користи количина од магацин.</target>
-        <note>Line: 95</note>
-      </trans-unit>
-      <trans-unit id="aaf88088b0ac3f2992888fdfe00b5d76" approved="yes">
-        <source>ID of the warehouse to set as storage.</source>
-        <target state="final">број ID на магацинот кој ќе црпи од залиха.</target>
-        <note>Line: 100</note>
-      </trans-unit>
       <trans-unit id="5702db29cfdd93934ed330edb201ecf3" approved="yes">
         <source>Enable Advanced Stock Management on product (0 = No, 1 = Yes)</source>
         <target state="final">овозможи напредно водење на залиха на артикл (0=не, 1=да)</target>
@@ -171,11 +171,6 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <target state="final">овозможи напредно водење на залиха на артикл (0=не, 1=да).</target>
         <note>Line: 155</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="src/Core/Import/EntityField/Provider/StoreContactFieldsProvider.php" source-language="en" target-language="mk" datatype="plaintext">
-    <body>
-      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/CombineCompressCacheType.php" source-language="en" target-language="mk" datatype="plaintext">
@@ -336,6 +331,11 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <target state="final">Оваа страна ќе се прикаже по логирањето.</target>
         <note>Line: 229</note>
       </trans-unit>
+      <trans-unit id="d222c4d0463bd3f146536ac89c0d7c77" approved="yes">
+        <source>Password should be at least %num% characters long.</source>
+        <target state="final">Лозинката треба да биде најмалку %num% карактери.</target>
+        <note>Line: 173</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Import/ImportType.php" source-language="en" target-language="mk" datatype="plaintext">
@@ -383,39 +383,6 @@ Comment: Special case for Product : either one or the other. Not both.</note>
         <source>Quick description of the key: who it is for, what permissions it has, etc.</source>
         <target state="final">брз опис на клучот: за кого е, какви дозволи има и така натаму.</target>
         <note>Line: 133</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Type/ChangePasswordType.php" source-language="en" target-language="mk" datatype="plaintext">
-    <body>
-      <trans-unit id="d222c4d0463bd3f146536ac89c0d7c77" approved="yes">
-        <source>Password should be at least %num% characters long.</source>
-        <target state="final">Лозинката треба да биде најмалку %num% карактери.</target>
-        <note>Line: 90</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Common/Grid/Columns/Content/severity_level.html.twig" source-language="en" target-language="mk" datatype="plaintext">
-    <body>
-      <trans-unit id="b80c52e7f679fba3c2837b42705fe779" approved="yes">
-        <source>Informative only</source>
-        <target state="final">Само информативно</target>
-        <note>Line: 31</note>
-      </trans-unit>
-      <trans-unit id="0eaadb4fcb48a0a0ed7bc9868be9fbaa" approved="yes">
-        <source>Warning</source>
-        <target state="final">Предупредување</target>
-        <note>Line: 34</note>
-      </trans-unit>
-      <trans-unit id="902b0d55fddef6f8d651fe1035b7d4bd" approved="yes">
-        <source>Error</source>
-        <target state="final">Грешка</target>
-        <note>Line: 37</note>
-      </trans-unit>
-      <trans-unit id="4a378407770df6a42474ec5db9f54740" approved="yes">
-        <source>Major issue (crash)!</source>
-        <target state="final">Голем проблем (пад)!</target>
-        <note>Line: 40</note>
       </trans-unit>
     </body>
   </file>
@@ -528,6 +495,26 @@ Comment: Special case for Product : either one or the other. Not both.</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/LogsPage/Blocks/severity_levels.html.twig" source-language="en" target-language="mk" datatype="plaintext">
     <body>
+      <trans-unit id="b80c52e7f679fba3c2837b42705fe779" approved="yes">
+        <source>Informative only</source>
+        <target state="final">Само информативно</target>
+        <note>Line: 36</note>
+      </trans-unit>
+      <trans-unit id="0eaadb4fcb48a0a0ed7bc9868be9fbaa" approved="yes">
+        <source>Warning</source>
+        <target state="final">Предупредување</target>
+        <note>Line: 41</note>
+      </trans-unit>
+      <trans-unit id="902b0d55fddef6f8d651fe1035b7d4bd" approved="yes">
+        <source>Error</source>
+        <target state="final">Грешка</target>
+        <note>Line: 46</note>
+      </trans-unit>
+      <trans-unit id="4a378407770df6a42474ec5db9f54740" approved="yes">
+        <source>Major issue (crash)!</source>
+        <target state="final">Голем проблем (пад)!</target>
+        <note>Line: 51</note>
+      </trans-unit>
       <trans-unit id="3979bb684920e9e9dc86e266f93d8c87" approved="yes">
         <source>Severity levels</source>
         <target state="final">Тежина на нивоата</target>

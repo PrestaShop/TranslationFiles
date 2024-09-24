@@ -45,6 +45,20 @@
       </trans-unit>
     </body>
   </file>
+  <file original="classes/Address.php" source-language="en" target-language="sl" datatype="plaintext">
+    <body>
+      <trans-unit id="fed3c8d832129d27b64c34fe410e7346" approved="yes">
+        <source>Property %s is empty.</source>
+        <target state="final">Lastnosti %s je prazno.</target>
+        <note>Line: 406</note>
+      </trans-unit>
+      <trans-unit id="02af8c16ef4efa9fa9e2142372b0b90d" approved="yes">
+        <source>The %s field is required.</source>
+        <target state="final">Polje %s je obvezno.</target>
+        <note>Line: 399</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="classes/AddressFormat.php" source-language="en" target-language="sl" datatype="plaintext">
     <body>
       <trans-unit id="47be00818e1acd46db0092d6586204cf" approved="yes">
@@ -142,6 +156,11 @@
         <target state="final">Datoteka ima neveljavno razširitev, mora biti ena od teh: %s.</target>
         <note>Line: 99</note>
       </trans-unit>
+      <trans-unit id="6e9550e40cc317663fbe81e759d098e8" approved="yes">
+        <source>The uploaded file is too large.</source>
+        <target state="final">Naložena datoteka je prevelika.</target>
+        <note>Line: 89</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/ImageManager.php" source-language="en" target-language="sl" datatype="plaintext">
@@ -198,11 +217,6 @@
   </file>
   <file original="classes/ObjectModel.php" source-language="en" target-language="sl" datatype="plaintext">
     <body>
-      <trans-unit id="fed3c8d832129d27b64c34fe410e7346" approved="yes">
-        <source>Property %s is empty.</source>
-        <target state="final">Lastnosti %s je prazno.</target>
-        <note>Line: 1202</note>
-      </trans-unit>
       <trans-unit id="872d428c40b36bba9fc5fafaa76c6f22" approved="yes">
         <source>Property %1$s has a bad value (allowed values are: %2$s).</source>
         <target state="final">Lastnosti %1$s imajo napačno vrednost (dovoljena vrednost je: %2$s).</target>
@@ -237,6 +251,11 @@
         <source>%1$s is too long. Maximum length: %2$d</source>
         <target state="final">%1$s je predloga.. Maksimalna dolžina: %2$d</target>
         <note>Line: 1360</note>
+      </trans-unit>
+      <trans-unit id="0e2338b37ab3dfeed544e8233b53d4e0" approved="yes">
+        <source>The %1$s field is too long (%2$d chars max).</source>
+        <target state="final">Polje %1$s je predolgo (maksimalno %2$d znakov).</target>
+        <note>Line: 1235</note>
       </trans-unit>
     </body>
   </file>
@@ -360,6 +379,40 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">Izbrati morate vsaj en element, ki vpliva na novo območje.</target>
         <note>Line: 4195</note>
       </trans-unit>
+      <trans-unit id="7c422404cb037e6781b5a553060670a6" approved="yes">
+        <source>Can't delete #%id%</source>
+        <target state="final">Ne morete odstraniti #%id%</target>
+        <note>Line: 4074</note>
+      </trans-unit>
+      <trans-unit id="efb49241363bce74c7d7899333cdebb5" approved="yes">
+        <source>An error occurred when attempting to update the required fields.</source>
+        <target state="final">Napaka pri posodabljanju zahtevanih polj.</target>
+        <note>Line: 1368</note>
+      </trans-unit>
+      <trans-unit id="10f97f4fea6d1ff9ffd1ed3260d6220d" approved="yes">
+        <source>Unable to delete associated images.</source>
+        <target state="final">Asociiranih slik ni mogoče odstraniti.</target>
+        <note>Line: 1145</note>
+      </trans-unit>
+      <trans-unit id="66042fc205784775b028ba4ac7acebf3" approved="yes">
+        <source>Due to memory limit restrictions, this image cannot be loaded. Please increase your memory_limit value via your server's configuration settings.</source>
+        <target state="final">Zaradi mejne omejitve pomnilnika, te slike ni mogoče naložiti. Prosimo, povečajte svoje memory_limit vrednosti preko konfiguracijskih nastavitev vašega strežnika.</target>
+        <note>Line: 4004</note>
+      </trans-unit>
+      <trans-unit id="a62d7ffa591311c930a2017b07e55394" approved="yes">
+        <source>The object cannot be loaded (the identifier is missing or invalid)</source>
+        <target state="final">Predmeta ni mogoče naložiti (manjkajoč ali neveljaven identifikator)</target>
+        <note>Line: 1779</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="classes/controller/Controller.php" source-language="en" target-language="sl" datatype="plaintext">
+    <body>
+      <trans-unit id="652122103181aa2752efaecab300edf0" approved="yes">
+        <source>Access denied.</source>
+        <target state="final">Vstop prepovedan.</target>
+        <note>Line: 321</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/helper/HelperImageUploader.php" source-language="en" target-language="sl" datatype="plaintext">
@@ -386,12 +439,12 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="fdc746e5693df31cf4f6ef789a8846c5" approved="yes">
         <source>file (%s) not writable</source>
         <target state="final">datoteka (%s) ni zapisljiva</target>
-        <note>Line: 2851</note>
+        <note>Line: 2874</note>
       </trans-unit>
       <trans-unit id="a9de928286071f457fcbc45656353761" approved="yes">
         <source>directory (%s) not writable</source>
         <target state="final">direktorij (%s) ni zapisljiv</target>
-        <note>Line: 2951</note>
+        <note>Line: 2974</note>
       </trans-unit>
     </body>
   </file>
@@ -400,12 +453,51 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       
     </body>
   </file>
+  <file original="controllers/admin/AdminAccessController.php" source-language="en" target-language="sl" datatype="plaintext">
+    <body>
+      <trans-unit id="a7eca295291f53a23ab7ba0a9c7fd9de" approved="yes">
+        <source>This functionality has been disabled.</source>
+        <target state="final">Ta funkcionalnost je bila izklopljena.</target>
+        <note>Line: 166</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="controllers/admin/AdminAttributesGroupsController.php" source-language="en" target-language="sl" datatype="plaintext">
     <body>
       <trans-unit id="45ebc64529137a007889ee445d64611c" approved="yes">
         <source>Failed to update the position.</source>
         <target state="final">Napaka pri posodabljanju položaja.</target>
         <note>Line: 780</note>
+      </trans-unit>
+      <trans-unit id="ddd4e7f16c2032d59cb4fb4b86576bc5" approved="yes">
+        <source>You must select at least one element to delete.</source>
+        <target state="final">Za brisanje morate izbrati vsaj en element.</target>
+        <note>Line: 818</note>
+      </trans-unit>
+      <trans-unit id="815e471ea2970db0b63b9b09feacc70f" approved="yes">
+        <source>An error occurred while updating the status for an object.</source>
+        <target state="final">Napaka pri posodabljanju statusa objekta.</target>
+        <note>Line: 719</note>
+      </trans-unit>
+      <trans-unit id="77ae44aa6c998166fcf1a87496278ad5" approved="yes">
+        <source>(cannot load object)</source>
+        <target state="final">(objekta ni mogoče naložiti)</target>
+        <note>Line: 720</note>
+      </trans-unit>
+      <trans-unit id="11a257a80f8c8d76132470b171de6795" approved="yes">
+        <source>You do not have permission to delete this.</source>
+        <target state="final">Nimate dovoljenja za brisanje tukaj.</target>
+        <note>Line: 821</note>
+      </trans-unit>
+      <trans-unit id="1bdd228669c9dd995eb664737e60786e" approved="yes">
+        <source>You do not have permission to edit this.</source>
+        <target state="final">Nimaš dovoljenja za urejanje.</target>
+        <note>Line: 771</note>
+      </trans-unit>
+      <trans-unit id="1d5dfad5ac415b412c20a05a89d43db6" approved="yes">
+        <source>An error occurred while deleting this selection.</source>
+        <target state="final">Napaka pri brisanju izbranega.</target>
+        <note>Line: 816</note>
       </trans-unit>
     </body>
   </file>
@@ -425,6 +517,16 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">Napačno sporočilo</target>
         <note>Line: 418</note>
       </trans-unit>
+      <trans-unit id="ee77ea46b0c548ed60eadf31bdd68613" approved="yes">
+        <source>Bad SQL query</source>
+        <target state="final">Neustrezna SQL poizvedba</target>
+        <note>Line: 954</note>
+      </trans-unit>
+      <trans-unit id="959c96ec640d353311dd9763d57daad6" approved="yes">
+        <source>Please fill in all the required fields.</source>
+        <target state="final">Prosimo, izpolnite vsa obvezna polja.</target>
+        <note>Line: 493</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminCountriesController.php" source-language="en" target-language="sl" datatype="plaintext">
@@ -442,6 +544,20 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <source>An error occurred during the file upload process.</source>
         <target state="final">Napaka pri nalaganju datoteke.</target>
         <note>Line: 443</note>
+      </trans-unit>
+      <trans-unit id="84e4970c5c35731ac7084f09ca0a77cd" approved="yes">
+        <source>The email address is invalid.</source>
+        <target state="final">E-poštni naslov ni veljaven.</target>
+        <note>Line: 427</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminDashboardController.php" source-language="en" target-language="sl" datatype="plaintext">
+    <body>
+      <trans-unit id="8f29c70fd66f50ce28b727cd40c6a3a3" approved="yes">
+        <source>The selected date range is not valid.</source>
+        <target state="final">Izbran razpon podatkov ni veljaven.</target>
+        <note>Line: 325</note>
       </trans-unit>
     </body>
   </file>
@@ -469,6 +585,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <source>Incorrect value for "Depends on stock" for product %name%</source>
         <target state="final">Napačna vrednost za "odvisno od zaloge" za izdelek %name%</target>
         <note>Line: 2852</note>
+      </trans-unit>
+      <trans-unit id="e96814b3d9ff9ae65c8f2be2ee3e0555" approved="yes">
+        <source>Invalid tag(s) (%s)</source>
+        <target state="final">Neveljavne oznake (%s)</target>
+        <note>Line: 2095</note>
       </trans-unit>
     </body>
   </file>
@@ -513,6 +634,26 @@ Comment: Error wordings, one_error is not used anymore</note>
         <source>File upload was not completed.</source>
         <target state="final">Nalaganje datoteke ni bilo popolno.</target>
         <note>Line: 480</note>
+      </trans-unit>
+      <trans-unit id="5dcea1234ac01d22f40ffc81d0bc4c2f" approved="yes">
+        <source>File too large (limit of %s bytes).</source>
+        <target state="final">Datoteka je prevelika (meja %s bajtov).</target>
+        <note>Line: 476</note>
+      </trans-unit>
+      <trans-unit id="acdcc688155bd653f51eaf710cac8af5" approved="yes">
+        <source>Internal error #%s</source>
+        <target state="final">Notranja napaka #%s</target>
+        <note>Line: 488</note>
+      </trans-unit>
+      <trans-unit id="5569135c321c16866b524ec82dcd2b2a" approved="yes">
+        <source>No file has been selected</source>
+        <target state="final">Ni izbrane datoteke</target>
+        <note>Line: 493</note>
+      </trans-unit>
+      <trans-unit id="8c9067e52e4440d8a20e74fdc745b0c6" approved="yes">
+        <source>No file was uploaded.</source>
+        <target state="final">Ni bila naložena nobena datoteka</target>
+        <note>Line: 484</note>
       </trans-unit>
     </body>
   </file>
@@ -655,15 +796,62 @@ Comment: Error wordings, one_error is not used anymore</note>
         <target state="final">Potrebujete vsaj en objekt.</target>
         <note>Line: 680</note>
       </trans-unit>
+      <trans-unit id="370835a4106d1c7860f2fbb5daabd050" approved="yes">
+        <source>The file is missing.</source>
+        <target state="final">Manjkajoča datoteka.</target>
+        <note>Line: 471</note>
+      </trans-unit>
+      <trans-unit id="954b49d26a3a0986aca720a7095f2aa9" approved="yes">
+        <source>An error occurred while updating an object.</source>
+        <target state="final">Napaka pri posodabljanju objekta.</target>
+        <note>Line: 2035</note>
+      </trans-unit>
+      <trans-unit id="fb86a99edb05e880b59843698a2fafbd" approved="yes">
+        <source>Cannot delete file</source>
+        <target state="final">Ni mogoče izbrisati datoteke</target>
+        <note>Line: 1162</note>
+      </trans-unit>
+      <trans-unit id="b05c3c0bfce943b86e286e8e8103b6e5" approved="yes">
+        <source>An error occurred while uploading the image.</source>
+        <target state="final">Napaka pri nalaganju slike.</target>
+        <note>Line: 1722</note>
+      </trans-unit>
+      <trans-unit id="e267d34972b3ab66b987fbad59fba513" approved="yes">
+        <source>Invalid date format.</source>
+        <target state="final">Neveljavna oblika datuma.</target>
+        <note>Line: 797</note>
+      </trans-unit>
+      <trans-unit id="505bbc38260c669d0793757e414caecc" approved="yes">
+        <source>The %s field is not valid</source>
+        <target state="final">Polje %s je neveljavno</target>
+        <note>Line: 772</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminRequestSqlController.php" source-language="en" target-language="sl" datatype="plaintext">
+    <body>
+      <trans-unit id="0b5512610b0c8548345f37a58bf51360" approved="yes">
+        <source>"%key%" does not exist.</source>
+        <target state="final">%key% ne obstaja.</target>
+        <note>Line: 549</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminSearchController.php" source-language="en" target-language="sl" datatype="plaintext">
+    <body>
+      <trans-unit id="1b0cc7183377b461e298d0ebcf5f8548" approved="yes">
+        <source>An error occurred while updating the status.</source>
+        <target state="final">Napaka pri posodabljanju statusa.</target>
+        <note>Line: 87</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminShopController.php" source-language="en" target-language="sl" datatype="plaintext">
+    <body>
       <trans-unit id="d9b5b2302d57f3d13d5387ba9c99daae" approved="yes">
         <source>An error occurred while creating an object.</source>
         <target state="final">Napaka pri ustvarjanju objekta.</target>
-        <note>Line: 1826</note>
-      </trans-unit>
-      <trans-unit id="bc33aa1314e7dcd3472db72472b909b2" approved="yes">
-        <source>An error occurred during deletion.</source>
-        <target state="final">Napaka med brisanjem.</target>
-        <note>Line: 622</note>
+        <note>Line: 710</note>
       </trans-unit>
     </body>
   </file>
@@ -705,6 +893,20 @@ Comment: Error wordings, one_error is not used anymore</note>
       </trans-unit>
     </body>
   </file>
+  <file original="controllers/admin/AdminStatesController.php" source-language="en" target-language="sl" datatype="plaintext">
+    <body>
+      <trans-unit id="bc33aa1314e7dcd3472db72472b909b2" approved="yes">
+        <source>An error occurred during deletion.</source>
+        <target state="final">Napaka med brisanjem.</target>
+        <note>Line: 248</note>
+      </trans-unit>
+      <trans-unit id="7f290594963a303db17a5e21dc4cf0b7" approved="yes">
+        <source>An error occurred while deleting the object.</source>
+        <target state="final">Napaka pri brisanju objekta.</target>
+        <note>Line: 253</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="controllers/admin/AdminStoresController.php" source-language="en" target-language="sl" datatype="plaintext">
     <body>
       <trans-unit id="50b668816d2acbdb62484bb5ea5d25ab" approved="yes">
@@ -716,6 +918,20 @@ Comment: Error wordings, one_error is not used anymore</note>
         <source>The Zip/Postal code is invalid.</source>
         <target state="final">Zip/Poštna koda je napačna.</target>
         <note>Line: 386</note>
+      </trans-unit>
+      <trans-unit id="6660b316abc0970476a09df63028d553" approved="yes">
+        <source>It must be entered as follows:</source>
+        <target state="final">Mora biti vnešeno kot sledi:</target>
+        <note>Line: 382</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminTaxRulesGroupController.php" source-language="en" target-language="sl" datatype="plaintext">
+    <body>
+      <trans-unit id="d8d4c3b79181fdcca8cb5159208fa56a" approved="yes">
+        <source>You do not have permission to add this.</source>
+        <target state="final">Nimate dovoljenja za dodajanje.</target>
+        <note>Line: 403</note>
       </trans-unit>
     </body>
   </file>
@@ -773,12 +989,35 @@ Comment: Error wordings, one_error is not used anymore</note>
       </trans-unit>
     </body>
   </file>
+  <file original="modules/blockreassurance/blockreassurance.php" source-language="en" target-language="sl" datatype="plaintext">
+    <body>
+      <trans-unit id="7c67bd3f540cf0ec5e7346bcea963013" approved="yes">
+        <source>The field %field_name% is required at least in your default language.</source>
+        <target state="final">Polje %field_name% je zahtevano v vašem privzetem jeziku.</target>
+        <note>Line: 523</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="modules/blockreassurance/controllers/admin/AdminBlockListingController.php" source-language="en" target-language="sl" datatype="plaintext">
     <body>
       <trans-unit id="198dabd328b3e93b2eec2f6d76ab3eb1" approved="yes">
         <source>Error while uploading image; please change your server's settings. (Error code: %s)</source>
         <target state="final">Napaka pri nalaganju slike. prosim, spremenite nastavitve vašega strežnika. (Koda napake: %s)</target>
         <note>Line: 199</note>
+      </trans-unit>
+      <trans-unit id="c4ae3afc5d4c01919142f8b39cc5c1c5" approved="yes">
+        <source>Image format not recognized, allowed formats are: .gif, .jpg, .png</source>
+        <target state="final">Format slike ni spoznan, dovoljeni formati so: .gif, .jpg, .png</target>
+        <note>Line: 196</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/dashproducts/dashproducts.php" source-language="en" target-language="sl" datatype="plaintext">
+    <body>
+      <trans-unit id="5cd8dc8a58702a63e79af3ad9de16d7a" approved="yes">
+        <source>The %s field is invalid.</source>
+        <target state="final">Polje %s je neveljavno.</target>
+        <note>Line: 589</note>
       </trans-unit>
     </body>
   </file>
@@ -828,6 +1067,15 @@ Comment: Error wordings, one_error is not used anymore</note>
       </trans-unit>
     </body>
   </file>
+  <file original="modules/ps_facetedsearch/src/Form/Attribute/FormModifier.php" source-language="en" target-language="sl" datatype="plaintext">
+    <body>
+      <trans-unit id="87ecb83d305a6af0e0438a0587e31de8" approved="yes">
+        <source>%s is invalid.</source>
+        <target state="final">%s ije napačno.</target>
+        <note>Line: 82</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="modules/ps_imageslider/ps_imageslider.php" source-language="en" target-language="sl" datatype="plaintext">
     <body>
       <trans-unit id="7cc92687130ea12abb80556681538001" approved="yes">
@@ -857,76 +1105,6 @@ Comment: Error wordings, one_error is not used anymore</note>
       
     </body>
   </file>
-  <file original="src/Adapter/Import/Handler/ProductImportHandler.php" source-language="en" target-language="sl" datatype="plaintext">
-    <body>
-      <trans-unit id="e96814b3d9ff9ae65c8f2be2ee3e0555" approved="yes">
-        <source>Invalid tag(s) (%s)</source>
-        <target state="final">Neveljavne oznake (%s)</target>
-        <note>Line: 1058</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/Adapter/Product/GeneralConfiguration.php" source-language="en" target-language="sl" datatype="plaintext">
-    <body>
-      
-    </body>
-  </file>
-  <file original="src/Adapter/SqlManager/SqlQueryValidator.php" source-language="en" target-language="sl" datatype="plaintext">
-    <body>
-      <trans-unit id="ee77ea46b0c548ed60eadf31bdd68613" approved="yes">
-        <source>Bad SQL query</source>
-        <target state="final">Neustrezna SQL poizvedba</target>
-        <note>Line: 60</note>
-      </trans-unit>
-      <trans-unit id="0b5512610b0c8548345f37a58bf51360" approved="yes">
-        <source>"%key%" does not exist.</source>
-        <target state="final">%key% ne obstaja.</target>
-        <note>Line: 388</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/Adapter/Webservice/WebserviceKeyEraser.php" source-language="en" target-language="sl" datatype="plaintext">
-    <body>
-      <trans-unit id="ddd4e7f16c2032d59cb4fb4b86576bc5" approved="yes">
-        <source>You must select at least one element to delete.</source>
-        <target state="final">Za brisanje morate izbrati vsaj en element.</target>
-        <note>Line: 51</note>
-      </trans-unit>
-      <trans-unit id="7c422404cb037e6781b5a553060670a6" approved="yes">
-        <source>Can't delete #%id%</source>
-        <target state="final">Ne morete odstraniti #%id%</target>
-        <note>Line: 66</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/Adapter/Webservice/WebserviceKeyStatusModifier.php" source-language="en" target-language="sl" datatype="plaintext">
-    <body>
-      <trans-unit id="815e471ea2970db0b63b9b09feacc70f" approved="yes">
-        <source>An error occurred while updating the status for an object.</source>
-        <target state="final">Napaka pri posodabljanju statusa objekta.</target>
-        <note>Line: 70</note>
-      </trans-unit>
-      <trans-unit id="77ae44aa6c998166fcf1a87496278ad5" approved="yes">
-        <source>(cannot load object)</source>
-        <target state="final">(objekta ni mogoče naložiti)</target>
-        <note>Line: 75</note>
-      </trans-unit>
-      <trans-unit id="1b0cc7183377b461e298d0ebcf5f8548" approved="yes">
-        <source>An error occurred while updating the status.</source>
-        <target state="final">Napaka pri posodabljanju statusa.</target>
-        <note>Line: 82</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/Core/ConstraintValidator/AddressZipCodeValidator.php" source-language="en" target-language="sl" datatype="plaintext">
-    <body>
-      <trans-unit id="6660b316abc0970476a09df63028d553" approved="yes">
-        <source>It must be entered as follows:</source>
-        <target state="final">Mora biti vnešeno kot sledi:</target>
-        <note>Line: 97</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/Core/Localization/Pack/Import/LocalizationPackImporter.php" source-language="en" target-language="sl" datatype="plaintext">
     <body>
       <trans-unit id="0bd212ed072143f56147f2f119892d03" approved="yes">
@@ -953,15 +1131,6 @@ Comment: Error wordings, one_error is not used anymore</note>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/AdministrationController.php" source-language="en" target-language="sl" datatype="plaintext">
     <body>
       
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/EmailController.php" source-language="en" target-language="sl" datatype="plaintext">
-    <body>
-      <trans-unit id="652122103181aa2752efaecab300edf0" approved="yes">
-        <source>Access denied.</source>
-        <target state="final">Vstop prepovedan.</target>
-        <note>Line: 251</note>
-      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/EmployeeController.php" source-language="en" target-language="sl" datatype="plaintext">
@@ -1036,16 +1205,6 @@ Comment: Error wordings, one_error is not used anymore</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/FrameworkBundleAdminController.php" source-language="en" target-language="sl" datatype="plaintext">
     <body>
-      <trans-unit id="a7eca295291f53a23ab7ba0a9c7fd9de" approved="yes">
-        <source>This functionality has been disabled.</source>
-        <target state="final">Ta funkcionalnost je bila izklopljena.</target>
-        <note>Line: 269</note>
-      </trans-unit>
-      <trans-unit id="11a257a80f8c8d76132470b171de6795" approved="yes">
-        <source>You do not have permission to delete this.</source>
-        <target state="final">Nimate dovoljenja za brisanje tukaj.</target>
-        <note>Line: 381</note>
-      </trans-unit>
       <trans-unit id="5ab1978ae9ce868183a34316327be062" approved="yes">
         <source>An unexpected error occurred. [%type% code %code%]: %message%</source>
         <target state="final">Prišlo je do nepredvidene napake. [%type% koda %code%]: %message%</target>
@@ -1079,11 +1238,6 @@ Comment: Error wordings, one_error is not used anymore</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/Design/ThemeController.php" source-language="en" target-language="sl" datatype="plaintext">
     <body>
-      <trans-unit id="5dcea1234ac01d22f40ffc81d0bc4c2f" approved="yes">
-        <source>File too large (limit of %s bytes).</source>
-        <target state="final">Datoteka je prevelika (meja %s bajtov).</target>
-        <note>Line: 605</note>
-      </trans-unit>
       <trans-unit id="85265e940fbb820dd2475946e7bc48d9" approved="yes">
         <source>Invalid configuration</source>
         <target state="final">Neveljavna konfiguracija</target>
@@ -1117,11 +1271,20 @@ Comment: Error wordings, one_error is not used anymore</note>
         <target state="final">Objekt ne more biti naložen (ali najden)</target>
         <note>Line: 332</note>
       </trans-unit>
+      <trans-unit id="25e49a9ca73fb59fa5fdb618f136ed48" approved="yes">
+        <source>Max file size allowed is "%s" bytes.</source>
+        <target state="final">Največja dovoljena velikost datoteke je "%s" bytes.</target>
+        <note>Line: 342</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/StateController.php" source-language="en" target-language="sl" datatype="plaintext">
     <body>
-      
+      <trans-unit id="d52eaeff31af37a4a7e0550008aff5df" approved="yes">
+        <source>An error occurred while attempting to save.</source>
+        <target state="final">Med shranjevanjem je prišlo do napake.</target>
+        <note>Line: 411</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/ZoneController.php" source-language="en" target-language="sl" datatype="plaintext">
@@ -1131,11 +1294,6 @@ Comment: Error wordings, one_error is not used anymore</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/ModuleController.php" source-language="en" target-language="sl" datatype="plaintext">
     <body>
-      <trans-unit id="370835a4106d1c7860f2fbb5daabd050" approved="yes">
-        <source>The file is missing.</source>
-        <target state="final">Manjkajoča datoteka.</target>
-        <note>Line: 352</note>
-      </trans-unit>
       <trans-unit id="dbf373dd3565accf2d2fd19700f6a5ae" approved="yes">
         <source>Invalid action</source>
         <target state="final">Napačna izbira</target>
@@ -1145,16 +1303,6 @@ Comment: Error wordings, one_error is not used anymore</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/ProductController.php" source-language="en" target-language="sl" datatype="plaintext">
     <body>
-      <trans-unit id="1bdd228669c9dd995eb664737e60786e" approved="yes">
-        <source>You do not have permission to edit this.</source>
-        <target state="final">Nimaš dovoljenja za urejanje.</target>
-        <note>Line: 936</note>
-      </trans-unit>
-      <trans-unit id="d8d4c3b79181fdcca8cb5159208fa56a" approved="yes">
-        <source>You do not have permission to add this.</source>
-        <target state="final">Nimate dovoljenja za dodajanje.</target>
-        <note>Line: 406</note>
-      </trans-unit>
       <trans-unit id="d3ee9a41133f8fc3c83c91d09053f249" approved="yes">
         <source>The value of the PHP.ini setting "max_input_vars" must be increased to %value% in order to be able to submit the product form.</source>
         <target state="final">Vrednost nastavitve PHP.ini "max_input_vars" je treba povečati na vrednost%value%, da bi lahko predložili obrazec izdelka.</target>
@@ -1164,21 +1312,6 @@ Comment: Error wordings, one_error is not used anymore</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Address/AddressController.php" source-language="en" target-language="sl" datatype="plaintext">
     <body>
-      <trans-unit id="acdcc688155bd653f51eaf710cac8af5" approved="yes">
-        <source>Internal error #%s</source>
-        <target state="final">Notranja napaka #%s</target>
-        <note>Line: 631</note>
-      </trans-unit>
-      <trans-unit id="d52eaeff31af37a4a7e0550008aff5df" approved="yes">
-        <source>An error occurred while attempting to save.</source>
-        <target state="final">Med shranjevanjem je prišlo do napake.</target>
-        <note>Line: 665</note>
-      </trans-unit>
-      <trans-unit id="efb49241363bce74c7d7899333cdebb5" approved="yes">
-        <source>An error occurred when attempting to update the required fields.</source>
-        <target state="final">Napaka pri posodabljanju zahtevanih polj.</target>
-        <note>Line: 646</note>
-      </trans-unit>
       <trans-unit id="ddb7f719baea8c9f335937b683e8f155" approved="yes">
         <source>Invalid data supplied.</source>
         <target state="final">Neveljavna podatkovna datoteka.</target>
@@ -1191,41 +1324,23 @@ Comment: Error wordings, one_error is not used anymore</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/AttachmentController.php" source-language="en" target-language="sl" datatype="plaintext">
-    <body>
-      <trans-unit id="5569135c321c16866b524ec82dcd2b2a" approved="yes">
-        <source>No file has been selected</source>
-        <target state="final">Ni izbrane datoteke</target>
-        <note>Line: 395</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/CartRuleController.php" source-language="en" target-language="sl" datatype="plaintext">
     <body>
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/CatalogPriceRuleController.php" source-language="en" target-language="sl" datatype="plaintext">
-    <body>
-      <trans-unit id="954b49d26a3a0986aca720a7095f2aa9" approved="yes">
-        <source>An error occurred while updating an object.</source>
-        <target state="final">Napaka pri posodabljanju objekta.</target>
-        <note>Line: 281</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/CategoryController.php" source-language="en" target-language="sl" datatype="plaintext">
     <body>
-      <trans-unit id="10f97f4fea6d1ff9ffd1ed3260d6220d" approved="yes">
-        <source>Unable to delete associated images.</source>
-        <target state="final">Asociiranih slik ni mogoče odstraniti.</target>
-        <note>Line: 883</note>
-      </trans-unit>
       <trans-unit id="2b4de48b49648d3323f20b6371f7e3c1" approved="yes">
         <source>You cannot upload more files</source>
         <target state="final">Ne morete naložit več datotek</target>
         <note>Line: 916</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/ManufacturerController.php" source-language="en" target-language="sl" datatype="plaintext">
+    <body>
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/CombinationController.php" source-language="en" target-language="sl" datatype="plaintext">
@@ -1236,21 +1351,8 @@ Comment: Error wordings, one_error is not used anymore</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/ImageController.php" source-language="en" target-language="sl" datatype="plaintext">
     <body>
-      <trans-unit id="8c9067e52e4440d8a20e74fdc745b0c6" approved="yes">
-        <source>No file was uploaded.</source>
-        <target state="final">Ni bila naložena nobena datoteka</target>
-        <note>Line: 329</note>
-      </trans-unit>
-      <trans-unit id="fb86a99edb05e880b59843698a2fafbd" approved="yes">
-        <source>Cannot delete file</source>
-        <target state="final">Ni mogoče izbrisati datoteke</target>
-        <note>Line: 334</note>
-      </trans-unit>
-      <trans-unit id="66042fc205784775b028ba4ac7acebf3" approved="yes">
-        <source>Due to memory limit restrictions, this image cannot be loaded. Please increase your memory_limit value via your server's configuration settings.</source>
-        <target state="final">Zaradi mejne omejitve pomnilnika, te slike ni mogoče naložiti. Prosimo, povečajte svoje memory_limit vrednosti preko konfiguracijskih nastavitev vašega strežnika.</target>
-        <note>Line: 320</note>
-      </trans-unit>
+      
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/ProductController.php" source-language="en" target-language="sl" datatype="plaintext">
@@ -1260,15 +1362,11 @@ Comment: Error wordings, one_error is not used anymore</note>
       
       
       
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/SupplierController.php" source-language="en" target-language="sl" datatype="plaintext">
     <body>
-      <trans-unit id="b05c3c0bfce943b86e286e8e8103b6e5" approved="yes">
-        <source>An error occurred while uploading the image.</source>
-        <target state="final">Napaka pri nalaganju slike.</target>
-        <note>Line: 535</note>
-      </trans-unit>
       <trans-unit id="2c576ac66b22c688a12278e88a976ab8" approved="yes">
         <source>The address for this supplier has been deleted.</source>
         <target state="final">Naslov tega dobavitelja je bil izbrisan.</target>
@@ -1276,46 +1374,8 @@ Comment: Error wordings, one_error is not used anymore</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/MerchandiseReturnController.php" source-language="en" target-language="sl" datatype="plaintext">
-    <body>
-      <trans-unit id="a62d7ffa591311c930a2017b07e55394" approved="yes">
-        <source>The object cannot be loaded (the identifier is missing or invalid)</source>
-        <target state="final">Predmeta ni mogoče naložiti (manjkajoč ali neveljaven identifikator)</target>
-        <note>Line: 150</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/OrderMessageController.php" source-language="en" target-language="sl" datatype="plaintext">
-    <body>
-      <trans-unit id="1d5dfad5ac415b412c20a05a89d43db6" approved="yes">
-        <source>An error occurred while deleting this selection.</source>
-        <target state="final">Napaka pri brisanju izbranega.</target>
-        <note>Line: 250</note>
-      </trans-unit>
-      <trans-unit id="7f290594963a303db17a5e21dc4cf0b7" approved="yes">
-        <source>An error occurred while deleting the object.</source>
-        <target state="final">Napaka pri brisanju objekta.</target>
-        <note>Line: 246</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/CartController.php" source-language="en" target-language="sl" datatype="plaintext">
     <body>
-      <trans-unit id="959c96ec640d353311dd9763d57daad6" approved="yes">
-        <source>Please fill in all the required fields.</source>
-        <target state="final">Prosimo, izpolnite vsa obvezna polja.</target>
-        <note>Line: 571</note>
-      </trans-unit>
-      <trans-unit id="c4ae3afc5d4c01919142f8b39cc5c1c5" approved="yes">
-        <source>Image format not recognized, allowed formats are: .gif, .jpg, .png</source>
-        <target state="final">Format slike ni spoznan, dovoljeni formati so: .gif, .jpg, .png</target>
-        <note>Line: 598</note>
-      </trans-unit>
-      <trans-unit id="25e49a9ca73fb59fa5fdb618f136ed48" approved="yes">
-        <source>Max file size allowed is "%s" bytes.</source>
-        <target state="final">Največja dovoljena velikost datoteke je "%s" bytes.</target>
-        <note>Line: 594</note>
-      </trans-unit>
       <trans-unit id="e1f19b2938605ab0bdc64ba270815786" approved="yes">
         <source>Same product quantity is already in cart</source>
         <target state="final">V košarici je že enaka količina izdelka</target>
@@ -1407,6 +1467,20 @@ Comment: Error wordings, one_error is not used anymore</note>
       
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Employee/EmployeeType.php" source-language="en" target-language="sl" datatype="plaintext">
+    <body>
+      <trans-unit id="24e70577722f76a8245415c0a344b96c" approved="yes">
+        <source>This field is invalid</source>
+        <target state="final">To polje je neveljavno</target>
+        <note>Line: 163</note>
+      </trans-unit>
+      <trans-unit id="1a668ad0d1d7a5623d2710d2517bbdd1" approved="yes">
+        <source>This field cannot be shorter than %limit% characters</source>
+        <target state="final">To polje ne sme biti krajše od %limit% znakov</target>
+        <note>Line: 319</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceKeyType.php" source-language="en" target-language="sl" datatype="plaintext">
     <body>
       
@@ -1414,7 +1488,11 @@ Comment: Error wordings, one_error is not used anymore</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/Contact/ContactType.php" source-language="en" target-language="sl" datatype="plaintext">
     <body>
-      
+      <trans-unit id="ce09b68fe980afcd2181771fe3bf5b31" approved="yes">
+        <source>This field cannot be longer than %limit% characters</source>
+        <target state="final">To polje ne sme biti daljše od %limit% znakov</target>
+        <note>Line: 104</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/CustomerPreferences/GeneralType.php" source-language="en" target-language="sl" datatype="plaintext">
@@ -1423,6 +1501,11 @@ Comment: Error wordings, one_error is not used anymore</note>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/PaginationFormDataProvider.php" source-language="en" target-language="sl" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/SearchEngines/SearchEngineType.php" source-language="en" target-language="sl" datatype="plaintext">
     <body>
       
     </body>
@@ -1441,31 +1524,8 @@ Comment: Error wordings, one_error is not used anymore</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/CustomerService/CustomerThread/ForwardCustomerThreadType.php" source-language="en" target-language="sl" datatype="plaintext">
-    <body>
-      <trans-unit id="84e4970c5c35731ac7084f09ca0a77cd" approved="yes">
-        <source>The email address is invalid.</source>
-        <target state="final">E-poštni naslov ni veljaven.</target>
-        <note>Line: 81</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Improve/Design/Theme/ImportThemeType.php" source-language="en" target-language="sl" datatype="plaintext">
-    <body>
-      <trans-unit id="6e9550e40cc317663fbe81e759d098e8" approved="yes">
-        <source>The uploaded file is too large.</source>
-        <target state="final">Naložena datoteka je prevelika.</target>
-        <note>Line: 109</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Currencies/CurrencyType.php" source-language="en" target-language="sl" datatype="plaintext">
     <body>
-      <trans-unit id="02af8c16ef4efa9fa9e2142372b0b90d" approved="yes">
-        <source>The %s field is required.</source>
-        <target state="final">Polje %s je obvezno.</target>
-        <note>Line: 292</note>
-      </trans-unit>
       <trans-unit id="a5d028cb6593937f07a5b50b210fc78d" approved="yes">
         <source>This value should be greater than %value%</source>
         <target state="final">Ta vrednost mora biti večja od %value%</target>
@@ -1478,12 +1538,12 @@ Comment: Error wordings, one_error is not used anymore</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Address/CustomerAddressType.php" source-language="en" target-language="sl" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Tax/TaxType.php" source-language="en" target-language="sl" datatype="plaintext">
     <body>
-      <trans-unit id="24e70577722f76a8245415c0a344b96c" approved="yes">
-        <source>This field is invalid</source>
-        <target state="final">To polje je neveljavno</target>
-        <note>Line: 124</note>
+      <trans-unit id="1cf26a08db6ef9cd67be91523c68ab6a" approved="yes">
+        <source>This field is invalid, it must contain numeric values</source>
+        <target state="final">To polje je neveljavno, mora vsebovati številčne vrednosti</target>
+        <note>Line: 117</note>
       </trans-unit>
     </body>
   </file>
@@ -1503,16 +1563,8 @@ Comment: Error wordings, one_error is not used anymore</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Customer/CustomerType.php" source-language="en" target-language="sl" datatype="plaintext">
     <body>
-      <trans-unit id="5cd8dc8a58702a63e79af3ad9de16d7a" approved="yes">
-        <source>The %s field is invalid.</source>
-        <target state="final">Polje %s je neveljavno.</target>
-        <note>Line: 182</note>
-      </trans-unit>
-      <trans-unit id="1a668ad0d1d7a5623d2710d2517bbdd1" approved="yes">
-        <source>This field cannot be shorter than %limit% characters</source>
-        <target state="final">To polje ne sme biti krajše od %limit% znakov</target>
-        <note>Line: 232</note>
-      </trans-unit>
+      
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/CustomerService/ReplyToCustomerThreadType.php" source-language="en" target-language="sl" datatype="plaintext">
@@ -1526,15 +1578,6 @@ Comment: Error wordings, one_error is not used anymore</note>
         <source>Reply message is invalid</source>
         <target state="final">Odgovor na sporočilo je neveljaven</target>
         <note>Line: 69</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Manufacturer/ManufacturerType.php" source-language="en" target-language="sl" datatype="plaintext">
-    <body>
-      <trans-unit id="ce09b68fe980afcd2181771fe3bf5b31" approved="yes">
-        <source>This field cannot be longer than %limit% characters</source>
-        <target state="final">To polje ne sme biti daljše od %limit% znakov</target>
-        <note>Line: 169</note>
       </trans-unit>
     </body>
   </file>
@@ -1552,35 +1595,12 @@ Comment: Error wordings, one_error is not used anymore</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/CancelProductType.php" source-language="en" target-language="sl" datatype="plaintext">
-    <body>
-      <trans-unit id="1cf26a08db6ef9cd67be91523c68ab6a" approved="yes">
-        <source>This field is invalid, it must contain numeric values</source>
-        <target state="final">To polje je neveljavno, mora vsebovati številčne vrednosti</target>
-        <note>Line: 74</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/CreditSlip/GeneratePdfByDateType.php" source-language="en" target-language="sl" datatype="plaintext">
     <body>
-      <trans-unit id="e267d34972b3ab66b987fbad59fba513" approved="yes">
-        <source>Invalid date format.</source>
-        <target state="final">Neveljavna oblika datuma.</target>
-        <note>Line: 53</note>
-      </trans-unit>
       <trans-unit id="0511ee0d41117aa7b4abaaf102aa513d" approved="yes">
         <source>This field is required</source>
         <target state="final">To polje je zahtevano</target>
         <note>Line: 52</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/OrderMessageType.php" source-language="en" target-language="sl" datatype="plaintext">
-    <body>
-      <trans-unit id="505bbc38260c669d0793757e414caecc" approved="yes">
-        <source>The %s field is not valid</source>
-        <target state="final">Polje %s je neveljavno</target>
-        <note>Line: 92</note>
       </trans-unit>
     </body>
   </file>
@@ -1589,29 +1609,6 @@ Comment: Error wordings, one_error is not used anymore</note>
       <trans-unit id="59af32e406ca8d94850e9a2a696c9dcd" approved="yes">
         <source>Invalid value: the payment must be a positive amount.</source>
         <target state="final">Neveljavna vrednost: plačilo mora biti pozitiven znesek.</target>
-        <note>Line: 119</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationItemType.php" source-language="en" target-language="sl" datatype="plaintext">
-    <body>
-      <trans-unit id="0e2338b37ab3dfeed544e8233b53d4e0" approved="yes">
-        <source>The %1$s field is too long (%2$d chars max).</source>
-        <target state="final">Polje %1$s je predolgo (maksimalno %2$d znakov).</target>
-        <note>Line: 179</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Description/DescriptionType.php" source-language="en" target-language="sl" datatype="plaintext">
-    <body>
-      
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/EventListener/FeatureValueListener.php" source-language="en" target-language="sl" datatype="plaintext">
-    <body>
-      <trans-unit id="7c67bd3f540cf0ec5e7346bcea963013" approved="yes">
-        <source>The field %field_name% is required at least in your default language.</source>
-        <target state="final">Polje %field_name% je zahtevano v vašem privzetem jeziku.</target>
         <note>Line: 119</note>
       </trans-unit>
     </body>
@@ -1627,30 +1624,17 @@ Comment: Error wordings, one_error is not used anymore</note>
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Pricing/SpecificPriceType.php" source-language="en" target-language="sl" datatype="plaintext">
-    <body>
-      <trans-unit id="8f29c70fd66f50ce28b727cd40c6a3a3" approved="yes">
-        <source>The selected date range is not valid.</source>
-        <target state="final">Izbran razpon podatkov ni veljaven.</target>
-        <note>Line: 192</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Shipping/DimensionsType.php" source-language="en" target-language="sl" datatype="plaintext">
-    <body>
-      <trans-unit id="87ecb83d305a6af0e0438a0587e31de8" approved="yes">
-        <source>%s is invalid.</source>
-        <target state="final">%s ije napačno.</target>
-        <note>Line: 135</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Stock/VirtualProductFileType.php" source-language="en" target-language="sl" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Type/ApeType.php" source-language="en" target-language="sl" datatype="plaintext">
     <body>
       
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Type/ChangePasswordType.php" source-language="en" target-language="sl" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Type/FormattedTextareaType.php" source-language="en" target-language="sl" datatype="plaintext">
     <body>
       
     </body>
