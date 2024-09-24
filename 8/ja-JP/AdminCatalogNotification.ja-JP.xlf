@@ -58,6 +58,15 @@
       </trans-unit>
     </body>
   </file>
+  <file original="classes/webservice/WebserviceSpecificManagementAttachments.php" source-language="en" target-language="ja" datatype="plaintext">
+    <body>
+      <trans-unit id="8a23b9ee3a4502a0de3fc32c5ba7aa65" approved="yes">
+        <source>Failed to copy the file.</source>
+        <target state="final">ファイルのコピーに失敗</target>
+        <note>Line: 363</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="controllers/admin/AdminAttributesGroupsController.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
       <trans-unit id="815e471ea2970db0b63b9b09feacc70f" approved="yes">
@@ -137,6 +146,11 @@
         <source>Invalid quantity</source>
         <target state="final">量が無効</target>
         <note>Line: 478</note>
+      </trans-unit>
+      <trans-unit id="2cb44aa56605e05e0b912131875edcb7" approved="yes">
+        <source>There are not enough products in stock.</source>
+        <target state="final">在庫に十分な商品がありません。</target>
+        <note>Line: 490</note>
       </trans-unit>
     </body>
   </file>
@@ -322,6 +336,36 @@
         <target state="final">パックへ商品追加中にエラーが発生</target>
         <note>Line: 3187</note>
       </trans-unit>
+      <trans-unit id="9f0a59f1609218c049435abd2351bd84" approved="yes">
+        <source>An error occurred while updating the specific price.</source>
+        <target state="final">特定価格の更新中にエラーが発生</target>
+        <note>Line: 1025</note>
+      </trans-unit>
+      <trans-unit id="184a2ae304c9a05459cca0cbf8755b3a" approved="yes">
+        <source>The specific price ID is invalid.</source>
+        <target state="final">特定価格IDが無効です。</target>
+        <note>Line: 1035</note>
+      </trans-unit>
+      <trans-unit id="0f8b5843f1391991d17f744ce9771e98" approved="yes">
+        <source>An error occurred while attempting to delete the specific price.</source>
+        <target state="final">特定価格の削除中にエラーが発生</target>
+        <note>Line: 1039</note>
+      </trans-unit>
+      <trans-unit id="f19434225ce7712f091bcfc109413732" approved="yes">
+        <source>An attachment name is required.</source>
+        <target state="final">添付名は必須</target>
+        <note>Line: 450</note>
+      </trans-unit>
+      <trans-unit id="34a22d134d958abd17afd6e6cd8b79e2" approved="yes">
+        <source>This attachment was unable to be loaded into the database.</source>
+        <target state="final">データベースにこの貼付ファイルを追加することができません</target>
+        <note>Line: 501</note>
+      </trans-unit>
+      <trans-unit id="c24ed8eb6e592f766cd1d31ae49ed5b1" approved="yes">
+        <source>A specific price already exists for these parameters.</source>
+        <target state="final">特定な価格は、これらのパラメータにすでに存在しています。</target>
+        <note>Line: 1599</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminSuppliersController.php" source-language="en" target-language="ja" datatype="plaintext">
@@ -335,6 +379,11 @@
         <source>The address is not correct. Please make sure all of the required fields are completed.</source>
         <target state="final">住所が正しくありません。すべての必須項目が入力されているか確認してください。</target>
         <note>Line: 529</note>
+      </trans-unit>
+      <trans-unit id="925c714b657d85c49a9718ef792fcb95" approved="yes">
+        <source>It is not possible to delete a supplier if there are pending supplier orders.</source>
+        <target state="final">保留中のサプライヤー注文がある場合は、サプライヤーを削除することができません。</target>
+        <note>Line: 544</note>
       </trans-unit>
     </body>
   </file>
@@ -376,21 +425,6 @@
   </file>
   <file original="src/Adapter/Product/AdminProductWrapper.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      <trans-unit id="9f0a59f1609218c049435abd2351bd84" approved="yes">
-        <source>An error occurred while updating the specific price.</source>
-        <target state="final">特定価格の更新中にエラーが発生</target>
-        <note>Line: 366</note>
-      </trans-unit>
-      <trans-unit id="184a2ae304c9a05459cca0cbf8755b3a" approved="yes">
-        <source>The specific price ID is invalid.</source>
-        <target state="final">特定価格IDが無効です。</target>
-        <note>Line: 564</note>
-      </trans-unit>
-      <trans-unit id="0f8b5843f1391991d17f744ce9771e98" approved="yes">
-        <source>An error occurred while attempting to delete the specific price.</source>
-        <target state="final">特定価格の削除中にエラーが発生</target>
-        <note>Line: 568</note>
-      </trans-unit>
       <trans-unit id="162c051f703406dd4fab3fde66296a6e" approved="yes">
         <source>Submitted reduction value (0-100) is out-of-range</source>
         <target state="final">指定した削減値 (0-100)は範囲外です。</target>
@@ -467,21 +501,6 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/AttachmentController.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      <trans-unit id="f19434225ce7712f091bcfc109413732" approved="yes">
-        <source>An attachment name is required.</source>
-        <target state="final">添付名は必須</target>
-        <note>Line: 352</note>
-      </trans-unit>
-      <trans-unit id="34a22d134d958abd17afd6e6cd8b79e2" approved="yes">
-        <source>This attachment was unable to be loaded into the database.</source>
-        <target state="final">データベースにこの貼付ファイルを追加することができません</target>
-        <note>Line: 384</note>
-      </trans-unit>
-      <trans-unit id="8a23b9ee3a4502a0de3fc32c5ba7aa65" approved="yes">
-        <source>Failed to copy the file.</source>
-        <target state="final">ファイルのコピーに失敗</target>
-        <note>Line: 376</note>
-      </trans-unit>
       <trans-unit id="d647666a6c4cef994b4fa1a540ba4481" approved="yes">
         <source>Upload error. Please check your server configurations for the maximum upload size allowed.</source>
         <target state="final">アップロードエラー。サーバーのアップロード最大サイズ設定を確認してください。</target>
@@ -505,8 +524,11 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/ManufacturerController.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="60df675f17670057ec657783db03d35e" approved="yes">
+        <source>Unable to resize one or more of your pictures.</source>
+        <target state="final">1つまたは複数の画像をリサイズすることができません</target>
+        <note>Line: 717</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/CombinationController.php" source-language="en" target-language="ja" datatype="plaintext">
@@ -520,27 +542,10 @@
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/SpecificPriceController.php" source-language="en" target-language="ja" datatype="plaintext">
-    <body>
-      <trans-unit id="c24ed8eb6e592f766cd1d31ae49ed5b1" approved="yes">
-        <source>A specific price already exists for these parameters.</source>
-        <target state="final">特定な価格は、これらのパラメータにすでに存在しています。</target>
-        <note>Line: 172</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/SupplierController.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      <trans-unit id="925c714b657d85c49a9718ef792fcb95" approved="yes">
-        <source>It is not possible to delete a supplier if there are pending supplier orders.</source>
-        <target state="final">保留中のサプライヤー注文がある場合は、サプライヤーを削除することができません。</target>
-        <note>Line: 518</note>
-      </trans-unit>
-      <trans-unit id="60df675f17670057ec657783db03d35e" approved="yes">
-        <source>Unable to resize one or more of your pictures.</source>
-        <target state="final">1つまたは複数の画像をリサイズすることができません</target>
-        <note>Line: 539</note>
-      </trans-unit>
+      
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/CartController.php" source-language="en" target-language="ja" datatype="plaintext">
@@ -550,11 +555,7 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      <trans-unit id="2cb44aa56605e05e0b912131875edcb7" approved="yes">
-        <source>There are not enough products in stock.</source>
-        <target state="final">在庫に十分な商品がありません。</target>
-        <note>Line: 1979</note>
-      </trans-unit>
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/SpecificPriceController.php" source-language="en" target-language="ja" datatype="plaintext">
@@ -607,12 +608,12 @@
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/Lists/list_quicknav.html.twig" source-language="en" target-language="ja" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Product/CatalogPage/Lists/list.html.twig" source-language="en" target-language="ja" datatype="plaintext">
     <body>
       <trans-unit id="1aa1527fa7dfdbe44acb4be33af88e4c" approved="yes">
         <source>There is no result for this search. Update your filters to view other products.</source>
         <target state="final">検索結果がありませんでした。検索フィルターを変更して再度お試しください。</target>
-        <note>Line: 78</note>
+        <note>Line: 143</note>
       </trans-unit>
     </body>
   </file>
@@ -782,13 +783,9 @@ Comment: "It" refers to the option "Force update of friendly URL"</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Categories/Blocks/delete_block.html.twig" source-language="en" target-language="ja" datatype="plaintext">
-    <body>
-      
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Categories/Blocks/delete_categories_modal.html.twig" source-language="en" target-language="ja" datatype="plaintext">
     <body>
+      
       
     </body>
   </file>
@@ -831,12 +828,12 @@ Comment: "It" refers to the option "Force update of friendly URL"</note>
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/TwigTemplateForm/bootstrap_4_layout.html.twig" source-language="en" target-language="ja" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Resources/views/Admin/TwigTemplateForm/prestashop_ui_kit_base.html.twig" source-language="en" target-language="ja" datatype="plaintext">
     <body>
       <trans-unit id="b385b71f1d14c0afa6d7ca6cb18927b3" approved="yes">
         <source>There is no attachment yet.</source>
         <target state="final">まだ添付ファイルはありません。</target>
-        <note>Line: 419</note>
+        <note>Line: 613</note>
       </trans-unit>
     </body>
   </file>
