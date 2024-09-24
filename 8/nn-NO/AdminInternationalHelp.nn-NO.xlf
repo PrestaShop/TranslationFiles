@@ -38,52 +38,43 @@
       </trans-unit>
     </body>
   </file>
-  <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_form.tpl" source-language="en" target-language="nn-NO" datatype="plaintext">
+  <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_mails.tpl" source-language="en" target-language="nn-NO" datatype="plaintext">
     <body>
       <trans-unit id="f75f58622599fa286aa5bdd94fb4404d" approved="yes">
         <source>Some of these expressions use this special syntax: %s.</source>
         <target state="final">Noen av uttrykkene bruker denne spesielle syntaksen: %s.</target>
-        <note>Line: 84</note>
+        <note>Line: 68</note>
       </trans-unit>
       <trans-unit id="919a5a4550f8f714f806f5590ed1b66a" approved="yes">
         <source>There are [1]%replace%[/1] products</source>
         <target state="final">Det er [1]%replace%[/1] produkter</target>
-        <note>Line: 89</note>
+        <note>Line: 73</note>
       </trans-unit>
       <trans-unit id="06fb8ada95eab3e2b5d4a3e834a9ab10" approved="yes">
         <source>"%s" will be replaced by a number.</source>
         <target state="final">"%s" vil bli erstattet av et nummer.</target>
-        <note>Line: 89</note>
+        <note>Line: 73</note>
       </trans-unit>
       <trans-unit id="cfe3ecf9fcc29ce36de15ee87cebd12b" approved="yes">
         <source>List of pages in [1]%replace%[/1]</source>
         <target state="final">Liste med sider i [1]%replace%[/1]</target>
-        <note>Line: 90</note>
+        <note>Line: 74</note>
       </trans-unit>
       <trans-unit id="a24386154e350ad7c608af84cdb4be11" approved="yes">
         <source>"%s" will be replaced by a string.</source>
         <target state="final">"%s" vil bli erstattet av en streng.</target>
-        <note>Line: 90</note>
+        <note>Line: 74</note>
       </trans-unit>
       <trans-unit id="9b4ca9541e2c3e7215a5fac1f4cecd2f" approved="yes">
         <source>Feature: [1]%1%[/1] ([1]%2%[/1] values)</source>
         <target state="final">Egenskap: [1]%1$s[/1] ([1]%2$d[/1] verdier)</target>
-        <note>Line: 91</note>
+        <note>Line: 75</note>
       </trans-unit>
       <trans-unit id="031775df42ef41141d4b4c7d4db89d65" approved="yes">
         <source>The numbers enable you to reorder the variables when necessary.</source>
         <target state="final">Nummerene lar deg flytte på variablene når nødvendig.</target>
-        <note>Line: 91</note>
+        <note>Line: 75</note>
       </trans-unit>
-      <trans-unit id="013afdec32d184dc61040022a45409ca" approved="yes">
-        <source>Click on the title of a section to open its fieldsets.</source>
-        <target state="final">Klikk på tittelen av en seksjon for å feltene.</target>
-        <note>Line: 53</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_mails.tpl" source-language="en" target-language="nn-NO" datatype="plaintext">
-    <body>
       <trans-unit id="54524210ee89080b3da6c88a11c6d438" approved="yes">
         <source>You must use this syntax in your translations. Here are several examples:</source>
         <target state="final">Du MÅ bruke denne syntaksen i oversettelsene. Her er flere eksempler:</target>
@@ -93,6 +84,11 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_modules.tpl" source-language="en" target-language="nn-NO" datatype="plaintext">
     <body>
+      <trans-unit id="013afdec32d184dc61040022a45409ca" approved="yes">
+        <source>Click on the title of a section to open its fieldsets.</source>
+        <target state="final">Klikk på tittelen av en seksjon for å feltene.</target>
+        <note>Line: 52</note>
+      </trans-unit>
       <trans-unit id="b3f4e400fe40a25d1c2b0c59e63668cf" approved="yes">
         <source>Here you can modify translations for all installed module.</source>
         <target state="final">Her kan du redigere oversettelser for alle installerte moduler.</target>
@@ -131,6 +127,50 @@
         <source>Display this country to your customers (the selected country will always be displayed in the Back Office).</source>
         <target state="final">Vis dette landet til kundene dine (det valgte landet vil alltid vises på adminsidene).</target>
         <note>Line: 305</note>
+      </trans-unit>
+      <trans-unit id="98ae2fd635525d30d2b0e8b643f9a23c" approved="yes">
+        <source>Indicate the format of the postal code: use L for a letter, N for a number, and C for the country's ISO 3166-1 alpha-2 code. For example, NNNNN for the United States, France, Poland and many other; LNNNNLLL for Argentina, etc. If you do not want PrestaShop to verify the postal code for this country, leave it blank.</source>
+        <target state="final">Angi formatet på postnummer: Bruk L for bokstav. N for nummer, og C for landets ISO 3166-1 alpha-2 kode.  For eksempel: NNNNN for USA, Frankrike, Polen og mange andre; LNNNNLLL for Argentina etc. Dersom du ikke ønsker at Prestashop skal kontrollere postnummeret for dette landet, la feltet være tomt.</target>
+        <note>Line: 276</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminStatesController.php" source-language="en" target-language="nn-NO" datatype="plaintext">
+    <body>
+      <trans-unit id="b6ff06f41cb66b5b89be6a3670e40d63" approved="yes">
+        <source>Provide the state name to be displayed in addresses and on invoices.</source>
+        <target state="final">Navn på fylke som skal vises i adresser og på fakturaer.</target>
+        <note>Line: 155</note>
+      </trans-unit>
+      <trans-unit id="473d5a5e7a18ca5e30b399ae0dfda18e" approved="yes">
+        <source>1 to 4 letter ISO code.</source>
+        <target state="final">1 til 4 tegn ISO-kode.</target>
+        <note>Line: 164</note>
+      </trans-unit>
+      <trans-unit id="d44080730b4d80fb65b9018d57c058b3" approved="yes">
+        <source>You can prefix it with the country ISO code if needed.</source>
+        <target state="final">Du kan sette ISO-koden til landet foran om nødvendig.</target>
+        <note>Line: 164</note>
+      </trans-unit>
+      <trans-unit id="0f6ca10753a64573af4ae286c7421e62" approved="yes">
+        <source>Country where the state is located.</source>
+        <target state="final">Land hvor butikken er lokalisert.</target>
+        <note>Line: 177</note>
+      </trans-unit>
+      <trans-unit id="68240d02aad03eed41bc52305688a035" approved="yes">
+        <source>Only the countries with the option "contains states" enabled are displayed.</source>
+        <target state="final">Kun land med valget "inneholder stater/fylker" aktivert vises.</target>
+        <note>Line: 177</note>
+      </trans-unit>
+      <trans-unit id="15c5d5dd58a9e70b8b86a7447dd00f70" approved="yes">
+        <source>Geographical region where this state is located.</source>
+        <target state="final">Geografisk område hvor denne staten er lokalisert.</target>
+        <note>Line: 190</note>
+      </trans-unit>
+      <trans-unit id="ec92dbe75bbcc2fbf4cad6302df97c19" approved="yes">
+        <source>Used for shipping</source>
+        <target state="final">Bruk for frakt</target>
+        <note>Line: 191</note>
       </trans-unit>
     </body>
   </file>
@@ -333,54 +373,6 @@
         <source>The default currency used in your shop.</source>
         <target state="final">Standardvaluta for din butikk.</target>
         <note>Line: 149</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Locations/CountryType.php" source-language="en" target-language="nn-NO" datatype="plaintext">
-    <body>
-      <trans-unit id="98ae2fd635525d30d2b0e8b643f9a23c" approved="yes">
-        <source>Indicate the format of the postal code: use L for a letter, N for a number, and C for the country's ISO 3166-1 alpha-2 code. For example, NNNNN for the United States, France, Poland and many other; LNNNNLLL for Argentina, etc. If you do not want PrestaShop to verify the postal code for this country, leave it blank.</source>
-        <target state="final">Angi formatet på postnummer: Bruk L for bokstav. N for nummer, og C for landets ISO 3166-1 alpha-2 kode.  For eksempel: NNNNN for USA, Frankrike, Polen og mange andre; LNNNNLLL for Argentina etc. Dersom du ikke ønsker at Prestashop skal kontrollere postnummeret for dette landet, la feltet være tomt.</target>
-        <note>Line: 146</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Locations/StateType.php" source-language="en" target-language="nn-NO" datatype="plaintext">
-    <body>
-      <trans-unit id="b6ff06f41cb66b5b89be6a3670e40d63" approved="yes">
-        <source>Provide the state name to be displayed in addresses and on invoices.</source>
-        <target state="final">Navn på fylke som skal vises i adresser og på fakturaer.</target>
-        <note>Line: 92</note>
-      </trans-unit>
-      <trans-unit id="473d5a5e7a18ca5e30b399ae0dfda18e" approved="yes">
-        <source>1 to 4 letter ISO code.</source>
-        <target state="final">1 til 4 tegn ISO-kode.</target>
-        <note>Line: 118</note>
-      </trans-unit>
-      <trans-unit id="d44080730b4d80fb65b9018d57c058b3" approved="yes">
-        <source>You can prefix it with the country ISO code if needed.</source>
-        <target state="final">Du kan sette ISO-koden til landet foran om nødvendig.</target>
-        <note>Line: 120</note>
-      </trans-unit>
-      <trans-unit id="0f6ca10753a64573af4ae286c7421e62" approved="yes">
-        <source>Country where the state is located.</source>
-        <target state="final">Land hvor butikken er lokalisert.</target>
-        <note>Line: 148</note>
-      </trans-unit>
-      <trans-unit id="68240d02aad03eed41bc52305688a035" approved="yes">
-        <source>Only the countries with the option "contains states" enabled are displayed.</source>
-        <target state="final">Kun land med valget "inneholder stater/fylker" aktivert vises.</target>
-        <note>Line: 150</note>
-      </trans-unit>
-      <trans-unit id="15c5d5dd58a9e70b8b86a7447dd00f70" approved="yes">
-        <source>Geographical region where this state is located.</source>
-        <target state="final">Geografisk område hvor denne staten er lokalisert.</target>
-        <note>Line: 163</note>
-      </trans-unit>
-      <trans-unit id="ec92dbe75bbcc2fbf4cad6302df97c19" approved="yes">
-        <source>Used for shipping</source>
-        <target state="final">Bruk for frakt</target>
-        <note>Line: 165</note>
       </trans-unit>
     </body>
   </file>

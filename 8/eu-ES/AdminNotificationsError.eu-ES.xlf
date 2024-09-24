@@ -25,6 +25,15 @@
       
     </body>
   </file>
+  <file original="classes/Address.php" source-language="en" target-language="eu" datatype="plaintext">
+    <body>
+      <trans-unit id="02af8c16ef4efa9fa9e2142372b0b90d" approved="yes">
+        <source>The %s field is required.</source>
+        <target state="final">%s eremua beharrezkoa da.</target>
+        <note>Line: 399</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="classes/AddressFormat.php" source-language="en" target-language="eu" datatype="plaintext">
     <body>
       <trans-unit id="47be00818e1acd46db0092d6586204cf" approved="yes">
@@ -140,6 +149,11 @@
         <target state="final">%1$s luzeegia da. Gehienezko luzera: %2$d</target>
         <note>Line: 1360</note>
       </trans-unit>
+      <trans-unit id="0e2338b37ab3dfeed544e8233b53d4e0" approved="yes">
+        <source>The %1$s field is too long (%2$d chars max).</source>
+        <target state="final">%1$s eremua luzeegia da. (gehienez %2$d)</target>
+        <note>Line: 1235</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/QqUploadedFileXhr.php" source-language="en" target-language="eu" datatype="plaintext">
@@ -194,6 +208,25 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">%s eremua beharrezkoa da.</target>
         <note>Line: 1523</note>
       </trans-unit>
+      <trans-unit id="efb49241363bce74c7d7899333cdebb5" approved="yes">
+        <source>An error occurred when attempting to update the required fields.</source>
+        <target state="final">Errorea </target>
+        <note>Line: 1368</note>
+      </trans-unit>
+      <trans-unit id="10f97f4fea6d1ff9ffd1ed3260d6220d" approved="yes">
+        <source>Unable to delete associated images.</source>
+        <target state="final">Erlazionaturiko irudiak ezabatzea ez da posible izan.</target>
+        <note>Line: 1145</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="classes/controller/Controller.php" source-language="en" target-language="eu" datatype="plaintext">
+    <body>
+      <trans-unit id="652122103181aa2752efaecab300edf0" approved="yes">
+        <source>Access denied.</source>
+        <target state="final">Sarbidea debekatuta.</target>
+        <note>Line: 321</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/helper/HelperImageUploader.php" source-language="en" target-language="eu" datatype="plaintext">
@@ -208,12 +241,12 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="fdc746e5693df31cf4f6ef789a8846c5" approved="yes">
         <source>file (%s) not writable</source>
         <target state="final">(%s) fitxategian ezin daiteke idatzi</target>
-        <note>Line: 2851</note>
+        <note>Line: 2874</note>
       </trans-unit>
       <trans-unit id="a9de928286071f457fcbc45656353761" approved="yes">
         <source>directory (%s) not writable</source>
         <target state="final">(%s) direktorioan ezin daiteke idatzi</target>
-        <note>Line: 2951</note>
+        <note>Line: 2974</note>
       </trans-unit>
     </body>
   </file>
@@ -222,12 +255,51 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       
     </body>
   </file>
+  <file original="controllers/admin/AdminAccessController.php" source-language="en" target-language="eu" datatype="plaintext">
+    <body>
+      <trans-unit id="a7eca295291f53a23ab7ba0a9c7fd9de" approved="yes">
+        <source>This functionality has been disabled.</source>
+        <target state="final">Berezitasun hau desgaitua izan da.</target>
+        <note>Line: 166</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="controllers/admin/AdminAttributesGroupsController.php" source-language="en" target-language="eu" datatype="plaintext">
     <body>
       <trans-unit id="45ebc64529137a007889ee445d64611c" approved="yes">
         <source>Failed to update the position.</source>
         <target state="final">Huts egin du kokapenaren eguneraketak.</target>
         <note>Line: 780</note>
+      </trans-unit>
+      <trans-unit id="ddd4e7f16c2032d59cb4fb4b86576bc5" approved="yes">
+        <source>You must select at least one element to delete.</source>
+        <target state="final">Ezabatzeko gutxienez elementu bat aukeratu behar duzu.</target>
+        <note>Line: 818</note>
+      </trans-unit>
+      <trans-unit id="815e471ea2970db0b63b9b09feacc70f" approved="yes">
+        <source>An error occurred while updating the status for an object.</source>
+        <target state="final">Errorea gertatu da objetuaren egoera eguneratzen zen bitartean.</target>
+        <note>Line: 719</note>
+      </trans-unit>
+      <trans-unit id="77ae44aa6c998166fcf1a87496278ad5" approved="yes">
+        <source>(cannot load object)</source>
+        <target state="final">(objetua ezin daiteke kargatu)</target>
+        <note>Line: 720</note>
+      </trans-unit>
+      <trans-unit id="11a257a80f8c8d76132470b171de6795" approved="yes">
+        <source>You do not have permission to delete this.</source>
+        <target state="final">Hau ezabatzeko baimenik ez duzu.</target>
+        <note>Line: 821</note>
+      </trans-unit>
+      <trans-unit id="1bdd228669c9dd995eb664737e60786e" approved="yes">
+        <source>You do not have permission to edit this.</source>
+        <target state="final">Ez duzu baimenik hemen editatzeko.</target>
+        <note>Line: 771</note>
+      </trans-unit>
+      <trans-unit id="1d5dfad5ac415b412c20a05a89d43db6" approved="yes">
+        <source>An error occurred while deleting this selection.</source>
+        <target state="final">Errorea gertatu da aukeraketa ezabatzerakoan.</target>
+        <note>Line: 816</note>
       </trans-unit>
     </body>
   </file>
@@ -242,8 +314,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="controllers/admin/AdminCartsController.php" source-language="en" target-language="eu" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="959c96ec640d353311dd9763d57daad6" approved="yes">
+        <source>Please fill in all the required fields.</source>
+        <target state="final">Mesedez, bete eskaturiko eremu guztiak.</target>
+        <note>Line: 493</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminCountriesController.php" source-language="en" target-language="eu" datatype="plaintext">
@@ -258,6 +333,16 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">Errorea gertatu da fitxategiaren bidalketan.</target>
         <note>Line: 443</note>
       </trans-unit>
+      <trans-unit id="84e4970c5c35731ac7084f09ca0a77cd" approved="yes">
+        <source>The email address is invalid.</source>
+        <target state="final">Email okerra.</target>
+        <note>Line: 427</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminDashboardController.php" source-language="en" target-language="eu" datatype="plaintext">
+    <body>
+      
     </body>
   </file>
   <file original="controllers/admin/AdminGroupsController.php" source-language="en" target-language="eu" datatype="plaintext">
@@ -276,6 +361,7 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="eu" datatype="plaintext">
     <body>
+      
       
     </body>
   </file>
@@ -300,7 +386,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="controllers/admin/AdminModulesController.php" source-language="en" target-language="eu" datatype="plaintext">
     <body>
-      
+      <trans-unit id="8c9067e52e4440d8a20e74fdc745b0c6" approved="yes">
+        <source>No file was uploaded.</source>
+        <target state="final">Ez da fitxategirik igo.</target>
+        <note>Line: 484</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminModulesPositionsController.php" source-language="en" target-language="eu" datatype="plaintext">
@@ -383,15 +473,48 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">Objetu bat behar duzu gutxienez.</target>
         <note>Line: 680</note>
       </trans-unit>
+      <trans-unit id="370835a4106d1c7860f2fbb5daabd050" approved="yes">
+        <source>The file is missing.</source>
+        <target state="final">Ez da horrelako fitxategirik.</target>
+        <note>Line: 471</note>
+      </trans-unit>
+      <trans-unit id="954b49d26a3a0986aca720a7095f2aa9" approved="yes">
+        <source>An error occurred while updating an object.</source>
+        <target state="final">Errorea gertatu da objetua eguneratzerakoan.</target>
+        <note>Line: 2035</note>
+      </trans-unit>
+      <trans-unit id="b05c3c0bfce943b86e286e8e8103b6e5" approved="yes">
+        <source>An error occurred while uploading the image.</source>
+        <target state="final">Errorea gertatu da irudia igotzerakoan.</target>
+        <note>Line: 1722</note>
+      </trans-unit>
+      <trans-unit id="e267d34972b3ab66b987fbad59fba513" approved="yes">
+        <source>Invalid date format.</source>
+        <target state="final">Data formatua ez da balekoa.</target>
+        <note>Line: 797</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminRequestSqlController.php" source-language="en" target-language="eu" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
+  <file original="controllers/admin/AdminSearchController.php" source-language="en" target-language="eu" datatype="plaintext">
+    <body>
+      <trans-unit id="1b0cc7183377b461e298d0ebcf5f8548" approved="yes">
+        <source>An error occurred while updating the status.</source>
+        <target state="final">Errorea gertatu da egoera eguneratzen zen bitartean.</target>
+        <note>Line: 87</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminShopController.php" source-language="en" target-language="eu" datatype="plaintext">
+    <body>
       <trans-unit id="d9b5b2302d57f3d13d5387ba9c99daae" approved="yes">
         <source>An error occurred while creating an object.</source>
         <target state="final">Errorea gertatu da objetua sortzerakoan.</target>
-        <note>Line: 1826</note>
-      </trans-unit>
-      <trans-unit id="bc33aa1314e7dcd3472db72472b909b2" approved="yes">
-        <source>An error occurred during deletion.</source>
-        <target state="final">Errorea gertatu da ezabatzerakoan.</target>
-        <note>Line: 622</note>
+        <note>Line: 710</note>
       </trans-unit>
     </body>
   </file>
@@ -423,10 +546,36 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
+  <file original="controllers/admin/AdminStatesController.php" source-language="en" target-language="eu" datatype="plaintext">
+    <body>
+      <trans-unit id="bc33aa1314e7dcd3472db72472b909b2" approved="yes">
+        <source>An error occurred during deletion.</source>
+        <target state="final">Errorea gertatu da ezabatzerakoan.</target>
+        <note>Line: 248</note>
+      </trans-unit>
+      <trans-unit id="7f290594963a303db17a5e21dc4cf0b7" approved="yes">
+        <source>An error occurred while deleting the object.</source>
+        <target state="final">Errorea gertatu da irudia ezabatzerakoan.</target>
+        <note>Line: 253</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="controllers/admin/AdminStoresController.php" source-language="en" target-language="eu" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="6660b316abc0970476a09df63028d553" approved="yes">
+        <source>It must be entered as follows:</source>
+        <target state="final">Jarraian bezala agertu beharra dauka:</target>
+        <note>Line: 382</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminTaxRulesGroupController.php" source-language="en" target-language="eu" datatype="plaintext">
+    <body>
+      <trans-unit id="d8d4c3b79181fdcca8cb5159208fa56a" approved="yes">
+        <source>You do not have permission to add this.</source>
+        <target state="final">Ez duzu baimenik hemen gehitzeko.</target>
+        <note>Line: 403</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminTranslationsController.php" source-language="en" target-language="eu" datatype="plaintext">
@@ -453,9 +602,27 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
-  <file original="modules/blockreassurance/controllers/admin/AdminBlockListingController.php" source-language="en" target-language="eu" datatype="plaintext">
+  <file original="modules/blockreassurance/blockreassurance.php" source-language="en" target-language="eu" datatype="plaintext">
     <body>
       
+    </body>
+  </file>
+  <file original="modules/blockreassurance/controllers/admin/AdminBlockListingController.php" source-language="en" target-language="eu" datatype="plaintext">
+    <body>
+      <trans-unit id="c4ae3afc5d4c01919142f8b39cc5c1c5" approved="yes">
+        <source>Image format not recognized, allowed formats are: .gif, .jpg, .png</source>
+        <target state="final">Irudiaren formatu ezezaguna; erabili hondokoak; .gif, .jpg, .png</target>
+        <note>Line: 196</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/dashproducts/dashproducts.php" source-language="en" target-language="eu" datatype="plaintext">
+    <body>
+      <trans-unit id="5cd8dc8a58702a63e79af3ad9de16d7a" approved="yes">
+        <source>The %s field is invalid.</source>
+        <target state="final">%s eremua ez da balekoa.</target>
+        <note>Line: 589</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/productcomments/productcomments.php" source-language="en" target-language="eu" datatype="plaintext">
@@ -493,6 +660,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
+  <file original="modules/ps_facetedsearch/src/Form/Attribute/FormModifier.php" source-language="en" target-language="eu" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
   <file original="modules/ps_imageslider/ps_imageslider.php" source-language="en" target-language="eu" datatype="plaintext">
     <body>
       <trans-unit id="7cc92687130ea12abb80556681538001" approved="yes">
@@ -522,59 +694,6 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       
     </body>
   </file>
-  <file original="src/Adapter/Import/Handler/ProductImportHandler.php" source-language="en" target-language="eu" datatype="plaintext">
-    <body>
-      
-    </body>
-  </file>
-  <file original="src/Adapter/Product/GeneralConfiguration.php" source-language="en" target-language="eu" datatype="plaintext">
-    <body>
-      
-    </body>
-  </file>
-  <file original="src/Adapter/SqlManager/SqlQueryValidator.php" source-language="en" target-language="eu" datatype="plaintext">
-    <body>
-      
-      
-    </body>
-  </file>
-  <file original="src/Adapter/Webservice/WebserviceKeyEraser.php" source-language="en" target-language="eu" datatype="plaintext">
-    <body>
-      <trans-unit id="ddd4e7f16c2032d59cb4fb4b86576bc5" approved="yes">
-        <source>You must select at least one element to delete.</source>
-        <target state="final">Ezabatzeko gutxienez elementu bat aukeratu behar duzu.</target>
-        <note>Line: 51</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/Adapter/Webservice/WebserviceKeyStatusModifier.php" source-language="en" target-language="eu" datatype="plaintext">
-    <body>
-      <trans-unit id="815e471ea2970db0b63b9b09feacc70f" approved="yes">
-        <source>An error occurred while updating the status for an object.</source>
-        <target state="final">Errorea gertatu da objetuaren egoera eguneratzen zen bitartean.</target>
-        <note>Line: 70</note>
-      </trans-unit>
-      <trans-unit id="77ae44aa6c998166fcf1a87496278ad5" approved="yes">
-        <source>(cannot load object)</source>
-        <target state="final">(objetua ezin daiteke kargatu)</target>
-        <note>Line: 75</note>
-      </trans-unit>
-      <trans-unit id="1b0cc7183377b461e298d0ebcf5f8548" approved="yes">
-        <source>An error occurred while updating the status.</source>
-        <target state="final">Errorea gertatu da egoera eguneratzen zen bitartean.</target>
-        <note>Line: 82</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/Core/ConstraintValidator/AddressZipCodeValidator.php" source-language="en" target-language="eu" datatype="plaintext">
-    <body>
-      <trans-unit id="6660b316abc0970476a09df63028d553" approved="yes">
-        <source>It must be entered as follows:</source>
-        <target state="final">Jarraian bezala agertu beharra dauka:</target>
-        <note>Line: 97</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/Core/Localization/Pack/Import/LocalizationPackImporter.php" source-language="en" target-language="eu" datatype="plaintext">
     <body>
       <trans-unit id="0bd212ed072143f56147f2f119892d03" approved="yes">
@@ -593,15 +712,6 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/AdministrationController.php" source-language="en" target-language="eu" datatype="plaintext">
     <body>
       
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/EmailController.php" source-language="en" target-language="eu" datatype="plaintext">
-    <body>
-      <trans-unit id="652122103181aa2752efaecab300edf0" approved="yes">
-        <source>Access denied.</source>
-        <target state="final">Sarbidea debekatuta.</target>
-        <note>Line: 251</note>
-      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/EmployeeController.php" source-language="en" target-language="eu" datatype="plaintext">
@@ -645,16 +755,8 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/FrameworkBundleAdminController.php" source-language="en" target-language="eu" datatype="plaintext">
     <body>
-      <trans-unit id="a7eca295291f53a23ab7ba0a9c7fd9de" approved="yes">
-        <source>This functionality has been disabled.</source>
-        <target state="final">Berezitasun hau desgaitua izan da.</target>
-        <note>Line: 269</note>
-      </trans-unit>
-      <trans-unit id="11a257a80f8c8d76132470b171de6795" approved="yes">
-        <source>You do not have permission to delete this.</source>
-        <target state="final">Hau ezabatzeko baimenik ez duzu.</target>
-        <note>Line: 381</note>
-      </trans-unit>
+      
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/Design/MailThemeController.php" source-language="en" target-language="eu" datatype="plaintext">
@@ -666,7 +768,6 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/Design/ThemeController.php" source-language="en" target-language="eu" datatype="plaintext">
     <body>
-      
       
       
       
@@ -702,38 +803,18 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/ModuleController.php" source-language="en" target-language="eu" datatype="plaintext">
     <body>
-      <trans-unit id="370835a4106d1c7860f2fbb5daabd050" approved="yes">
-        <source>The file is missing.</source>
-        <target state="final">Ez da horrelako fitxategirik.</target>
-        <note>Line: 352</note>
-      </trans-unit>
+      
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/ProductController.php" source-language="en" target-language="eu" datatype="plaintext">
     <body>
-      <trans-unit id="1bdd228669c9dd995eb664737e60786e" approved="yes">
-        <source>You do not have permission to edit this.</source>
-        <target state="final">Ez duzu baimenik hemen editatzeko.</target>
-        <note>Line: 936</note>
-      </trans-unit>
-      <trans-unit id="d8d4c3b79181fdcca8cb5159208fa56a" approved="yes">
-        <source>You do not have permission to add this.</source>
-        <target state="final">Ez duzu baimenik hemen gehitzeko.</target>
-        <note>Line: 406</note>
-      </trans-unit>
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Address/AddressController.php" source-language="en" target-language="eu" datatype="plaintext">
     <body>
-      <trans-unit id="efb49241363bce74c7d7899333cdebb5" approved="yes">
-        <source>An error occurred when attempting to update the required fields.</source>
-        <target state="final">Errorea </target>
-        <note>Line: 646</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/AttachmentController.php" source-language="en" target-language="eu" datatype="plaintext">
-    <body>
+      
       
     </body>
   </file>
@@ -742,22 +823,14 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/CatalogPriceRuleController.php" source-language="en" target-language="eu" datatype="plaintext">
-    <body>
-      <trans-unit id="954b49d26a3a0986aca720a7095f2aa9" approved="yes">
-        <source>An error occurred while updating an object.</source>
-        <target state="final">Errorea gertatu da objetua eguneratzerakoan.</target>
-        <note>Line: 281</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/CategoryController.php" source-language="en" target-language="eu" datatype="plaintext">
     <body>
-      <trans-unit id="10f97f4fea6d1ff9ffd1ed3260d6220d" approved="yes">
-        <source>Unable to delete associated images.</source>
-        <target state="final">Erlazionaturiko irudiak ezabatzea ez da posible izan.</target>
-        <note>Line: 883</note>
-      </trans-unit>
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/ManufacturerController.php" source-language="en" target-language="eu" datatype="plaintext">
+    <body>
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/CombinationController.php" source-language="en" target-language="eu" datatype="plaintext">
@@ -768,11 +841,8 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/ImageController.php" source-language="en" target-language="eu" datatype="plaintext">
     <body>
-      <trans-unit id="8c9067e52e4440d8a20e74fdc745b0c6" approved="yes">
-        <source>No file was uploaded.</source>
-        <target state="final">Ez da fitxategirik igo.</target>
-        <note>Line: 329</note>
-      </trans-unit>
+      
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/ProductController.php" source-language="en" target-language="eu" datatype="plaintext">
@@ -782,48 +852,22 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       
       
       
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/SupplierController.php" source-language="en" target-language="eu" datatype="plaintext">
     <body>
-      <trans-unit id="b05c3c0bfce943b86e286e8e8103b6e5" approved="yes">
-        <source>An error occurred while uploading the image.</source>
-        <target state="final">Errorea gertatu da irudia igotzerakoan.</target>
-        <note>Line: 535</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/MerchandiseReturnController.php" source-language="en" target-language="eu" datatype="plaintext">
-    <body>
       
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/OrderMessageController.php" source-language="en" target-language="eu" datatype="plaintext">
-    <body>
-      <trans-unit id="1d5dfad5ac415b412c20a05a89d43db6" approved="yes">
-        <source>An error occurred while deleting this selection.</source>
-        <target state="final">Errorea gertatu da aukeraketa ezabatzerakoan.</target>
-        <note>Line: 250</note>
-      </trans-unit>
-      <trans-unit id="7f290594963a303db17a5e21dc4cf0b7" approved="yes">
-        <source>An error occurred while deleting the object.</source>
-        <target state="final">Errorea gertatu da irudia ezabatzerakoan.</target>
-        <note>Line: 246</note>
-      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/CartController.php" source-language="en" target-language="eu" datatype="plaintext">
     <body>
-      <trans-unit id="959c96ec640d353311dd9763d57daad6" approved="yes">
-        <source>Please fill in all the required fields.</source>
-        <target state="final">Mesedez, bete eskaturiko eremu guztiak.</target>
-        <note>Line: 571</note>
-      </trans-unit>
-      <trans-unit id="c4ae3afc5d4c01919142f8b39cc5c1c5" approved="yes">
-        <source>Image format not recognized, allowed formats are: .gif, .jpg, .png</source>
-        <target state="final">Irudiaren formatu ezezaguna; erabili hondokoak; .gif, .jpg, .png</target>
-        <note>Line: 598</note>
-      </trans-unit>
+      
+      
+      
+      
+      
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php" source-language="en" target-language="eu" datatype="plaintext">
@@ -849,6 +893,12 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Employee/EmployeeType.php" source-language="en" target-language="eu" datatype="plaintext">
+    <body>
+      
+      
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceKeyType.php" source-language="en" target-language="eu" datatype="plaintext">
     <body>
       
@@ -856,6 +906,7 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/Contact/ContactType.php" source-language="en" target-language="eu" datatype="plaintext">
     <body>
+      
       
     </body>
   </file>
@@ -865,6 +916,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/PaginationFormDataProvider.php" source-language="en" target-language="eu" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/SearchEngines/SearchEngineType.php" source-language="en" target-language="eu" datatype="plaintext">
     <body>
       
     </body>
@@ -883,30 +939,14 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/CustomerService/CustomerThread/ForwardCustomerThreadType.php" source-language="en" target-language="eu" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Currencies/CurrencyType.php" source-language="en" target-language="eu" datatype="plaintext">
     <body>
-      <trans-unit id="84e4970c5c35731ac7084f09ca0a77cd" approved="yes">
-        <source>The email address is invalid.</source>
-        <target state="final">Email okerra.</target>
-        <note>Line: 81</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Improve/Design/Theme/ImportThemeType.php" source-language="en" target-language="eu" datatype="plaintext">
-    <body>
+      
+      
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Currencies/CurrencyType.php" source-language="en" target-language="eu" datatype="plaintext">
-    <body>
-      <trans-unit id="02af8c16ef4efa9fa9e2142372b0b90d" approved="yes">
-        <source>The %s field is required.</source>
-        <target state="final">%s eremua beharrezkoa da.</target>
-        <note>Line: 292</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Address/CustomerAddressType.php" source-language="en" target-language="eu" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Tax/TaxType.php" source-language="en" target-language="eu" datatype="plaintext">
     <body>
       
     </body>
@@ -919,20 +959,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Customer/CustomerType.php" source-language="en" target-language="eu" datatype="plaintext">
     <body>
-      <trans-unit id="5cd8dc8a58702a63e79af3ad9de16d7a" approved="yes">
-        <source>The %s field is invalid.</source>
-        <target state="final">%s eremua ez da balekoa.</target>
-        <note>Line: 182</note>
-      </trans-unit>
+      
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/CustomerService/ReplyToCustomerThreadType.php" source-language="en" target-language="eu" datatype="plaintext">
-    <body>
-      
-      
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Manufacturer/ManufacturerType.php" source-language="en" target-language="eu" datatype="plaintext">
     <body>
       
       
@@ -944,45 +975,12 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/CancelProductType.php" source-language="en" target-language="eu" datatype="plaintext">
-    <body>
-      
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/CreditSlip/GeneratePdfByDateType.php" source-language="en" target-language="eu" datatype="plaintext">
-    <body>
-      <trans-unit id="e267d34972b3ab66b987fbad59fba513" approved="yes">
-        <source>Invalid date format.</source>
-        <target state="final">Data formatua ez da balekoa.</target>
-        <note>Line: 53</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/OrderMessageType.php" source-language="en" target-language="eu" datatype="plaintext">
     <body>
       
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/OrderPaymentType.php" source-language="en" target-language="eu" datatype="plaintext">
-    <body>
-      
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationItemType.php" source-language="en" target-language="eu" datatype="plaintext">
-    <body>
-      <trans-unit id="0e2338b37ab3dfeed544e8233b53d4e0" approved="yes">
-        <source>The %1$s field is too long (%2$d chars max).</source>
-        <target state="final">%1$s eremua luzeegia da. (gehienez %2$d)</target>
-        <note>Line: 179</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Description/DescriptionType.php" source-language="en" target-language="eu" datatype="plaintext">
-    <body>
-      
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/EventListener/FeatureValueListener.php" source-language="en" target-language="eu" datatype="plaintext">
     <body>
       
     </body>
@@ -998,22 +996,17 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Pricing/SpecificPriceType.php" source-language="en" target-language="eu" datatype="plaintext">
-    <body>
-      
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Shipping/DimensionsType.php" source-language="en" target-language="eu" datatype="plaintext">
-    <body>
-      
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Stock/VirtualProductFileType.php" source-language="en" target-language="eu" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Type/ApeType.php" source-language="en" target-language="eu" datatype="plaintext">
     <body>
       
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Type/ChangePasswordType.php" source-language="en" target-language="eu" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Type/FormattedTextareaType.php" source-language="en" target-language="eu" datatype="plaintext">
     <body>
       
     </body>
