@@ -18,52 +18,43 @@
       </trans-unit>
     </body>
   </file>
-  <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_form.tpl" source-language="en" target-language="lt" datatype="plaintext">
+  <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_mails.tpl" source-language="en" target-language="lt" datatype="plaintext">
     <body>
-      <trans-unit id="7cefb4829c6de24b63f7a05716b43bec" approved="yes">
-        <source>This expression uses a special syntax:</source>
-        <target state="final">Išraiška naudoja specialią sintaksę:</target>
-        <note>Line: 133</note>
-      </trans-unit>
       <trans-unit id="06a92b5dc72bff3b98bf4b932ce72864" approved="yes">
         <source>Apache mod_security is activated on your server. This could result in some Bad Request errors</source>
         <target state="final">Apache modulis mod_security yra įjungtas jūsų serveryje. Tai gali sukelti "Bad Request" klaidas</target>
-        <note>Line: 31</note>
+        <note>Line: 33</note>
       </trans-unit>
       <trans-unit id="1f0f8b59397f34d499b181297714713a" approved="yes">
         <source>Warning! Your hosting provider is using the Suhosin patch for PHP, which limits the maximum number of fields allowed in a form:</source>
         <target state="final">Įspėjimas: jūsų hostingo tiekėjas naudoja suhosin PHP pataisą, kuri apriboja maksimalų laukų skaičių formoje:</target>
-        <note>Line: 37</note>
+        <note>Line: 39</note>
       </trans-unit>
       <trans-unit id="308c1cf98be9973142833c9a9dbbc2ef" approved="yes">
         <source>Please ask your hosting provider to increase the Suhosin limit to</source>
         <target state="final">Paprašykite savo hostingo tiekėjo padidinti suhosin limitą iki</target>
-        <note>Line: 41</note>
+        <note>Line: 43</note>
       </trans-unit>
       <trans-unit id="5ad040870ae5ccaeb2d57e4d052163a4" approved="yes">
         <source>Warning! Your PHP configuration limits the maximum number of fields allowed in a form:</source>
         <target state="final">Įspėjimas! Jūsų PHP konfigūracija riboja maksimalų laukų skaičių formoje</target>
-        <note>Line: 43</note>
+        <note>Line: 45</note>
       </trans-unit>
       <trans-unit id="5607dc45ebdfc0baaab64d944aa88f47" approved="yes">
         <source>for max_input_vars.</source>
         <target state="final">max_input_vars.</target>
-        <note>Line: 44</note>
+        <note>Line: 46</note>
       </trans-unit>
       <trans-unit id="6e709babf4b5a0ed4194ad5240e1be2c" approved="yes">
         <source>Please ask your hosting provider to increase this limit to</source>
         <target state="final">Paprašykite savo hostingo tiekėjo padidinti šį limitą iki</target>
-        <note>Line: 45</note>
+        <note>Line: 47</note>
       </trans-unit>
       <trans-unit id="4fb6a3beb82f8d8aa4bbdf8f5a0c35fa" approved="yes">
         <source>%s at least, or you will have to edit the translation files.</source>
         <target state="final">Bent jau %s , arba jums teks redaguoti vertimų failus.</target>
-        <note>Line: 47</note>
+        <note>Line: 49</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_mails.tpl" source-language="en" target-language="lt" datatype="plaintext">
-    <body>
       <trans-unit id="bbfb7a636f839052067cc86c39fa595a" approved="yes">
         <source>%limit% for suhosin.post.max_vars.</source>
         <target state="final">%limit% suhosin.post.max_vars.</target>
@@ -73,6 +64,15 @@
         <source>%limit% for suhosin.request.max_vars.</source>
         <target state="final">%limit% suhosin.request.max_vars.</target>
         <note>Line: 42</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_modules.tpl" source-language="en" target-language="lt" datatype="plaintext">
+    <body>
+      <trans-unit id="7cefb4829c6de24b63f7a05716b43bec" approved="yes">
+        <source>This expression uses a special syntax:</source>
+        <target state="final">Išraiška naudoja specialią sintaksę:</target>
+        <note>Line: 140</note>
       </trans-unit>
     </body>
   </file>
@@ -104,6 +104,11 @@ Comment: @todo Throw exception</note>
   </file>
   <file original="classes/LocalizationPack.php" source-language="en" target-language="lt" datatype="plaintext">
     <body>
+      <trans-unit id="962f6e835582ebb404a37893f46c60f3" approved="yes">
+        <source>An error has occurred, this module does not exist: %s</source>
+        <target state="final">Įvyko klaida, šis modulis neegzistuoja: %s</target>
+        <note>Line: 513</note>
+      </trans-unit>
       <trans-unit id="dd7edad69f95c053248e9b53eab73826" approved="yes">
         <source>Cannot load country: %d</source>
         <target state="final">Nepavyko užkrauti šalies: %d</target>
@@ -207,10 +212,30 @@ Comment: @todo Throw exception</note>
   </file>
   <file original="classes/controller/AdminController.php" source-language="en" target-language="lt" datatype="plaintext">
     <body>
+      <trans-unit id="c9468b4bd45a165049277af6756db10e" approved="yes">
+        <source>Localization pack imported successfully.</source>
+        <target state="final">Lokalizacijos paketas sėkmingai importuotas.</target>
+        <note>Line: 531</note>
+      </trans-unit>
+      <trans-unit id="f22def68c5c456936078623b6dcd27ff" approved="yes">
+        <source>The translations have been successfully added.</source>
+        <target state="final">Vertimas pridėtas.</target>
+        <note>Line: 522</note>
+      </trans-unit>
+      <trans-unit id="6cfb80c26b415f8f6467cf07b0c700dd" approved="yes">
+        <source>The translation was successfully copied.</source>
+        <target state="final">Vertimas sėkmingai nukopijuotas.</target>
+        <note>Line: 521</note>
+      </trans-unit>
+      <trans-unit id="bb01c8c21884e974df8517110c92b22a" approved="yes">
+        <source>The translation was added successfully, but the language has not been created.</source>
+        <target state="final">Vertimai pridėti sėkmingai, tačiau kalba nebuvo sukurta</target>
+        <note>Line: 527</note>
+      </trans-unit>
       <trans-unit id="ae99f365ee39176c3ab50b76a95cf629" approved="yes">
         <source>Cannot add configuration %1$s for %2$s language</source>
         <target state="final">Negalima pridėti %1$s konfigūracijos %2$s kalbai</target>
-        <note>Line: 1604</note>
+        <note>Line: 1587</note>
       </trans-unit>
     </body>
   </file>
@@ -451,32 +476,32 @@ Comment: @todo Throw exception</note>
       <trans-unit id="9289665482a13fc74be054caef49b63e" approved="yes">
         <source>This currency already exists.</source>
         <target state="final">Valiuta jau egzistuoja.</target>
-        <note>Line: 534</note>
+        <note>Line: 538</note>
       </trans-unit>
       <trans-unit id="0bb1c64dda8dcd3473e0eee6c06c8a4e" approved="yes">
         <source>%currency% is the default currency for shop %shop_name%, and therefore cannot be removed from shop association</source>
         <target state="final">%currency% yra numatytoji parduotuvės %shop_name% valiuta, todėl negali būti pašalinta iš parduotuvių asociacijos</target>
-        <note>Line: 548</note>
+        <note>Line: 555</note>
       </trans-unit>
       <trans-unit id="d51f13fb7e04f0002b08f14370e565a9" approved="yes">
         <source>%currency% is the default currency for shop %shop_name%, and therefore cannot be disabled</source>
         <target state="final">%currency% yra numatytoji parduotuvės %shop_name% valiuta, todėl negali būti išjungta</target>
-        <note>Line: 556</note>
+        <note>Line: 563</note>
       </trans-unit>
       <trans-unit id="8246d0c794e7db090587c4797b2a234f" approved="yes">
         <source>You cannot delete the default currency</source>
         <target state="final">Jūs negalite pašalinti numatytos valiutos</target>
-        <note>Line: 573</note>
+        <note>Line: 582</note>
       </trans-unit>
       <trans-unit id="7c77e53206853cb381e91e037554faa3" approved="yes">
         <source>You cannot disable the default currency</source>
         <target state="final">Negalite išjungti numatytosios valiutos</target>
-        <note>Line: 577</note>
+        <note>Line: 587</note>
       </trans-unit>
       <trans-unit id="32308f335c5aca97078cb283ce88f9d3" approved="yes">
         <source>Oops... it looks like this ISO code already exists. If you are: [1][2]trying to create an alternative currency, you must type a different ISO code[/2][2]trying to modify the currency with ISO code %isoCode%, make sure you did not check the creation box[/2][/1]</source>
         <target state="final">Oi... atrodo, kad šis ISO kodas jau yra. Jei jūs: [1][2]bandote sukurti alternatyvią valiutą, turite įvesti kitą ISO kodą[/2][2]bandydami redaguoti valiutą naudodami ISO kodą %isoCode%, įsitikinkite, ar nepažymėjote kūrimo langelio[/2][/1]</target>
-        <note>Line: 581</note>
+        <note>Line: 592</note>
       </trans-unit>
     </body>
   </file>
@@ -485,37 +510,37 @@ Comment: @todo Throw exception</note>
       <trans-unit id="2f236f9450ce8714611e468181064659" approved="yes">
         <source>You cannot change the status of the default language.</source>
         <target state="final">Negalite keisti numatytos kalbos būsenos.</target>
-        <note>Line: 378</note>
+        <note>Line: 407</note>
       </trans-unit>
       <trans-unit id="8037670f9e6df1f09e040ff8ab047fac" approved="yes">
         <source>An error occurred while copying "No Picture" image to your product folder.</source>
         <target state="final">Įvyko klaida kopijuojant no-picture image į prekės katalogą.</target>
-        <note>Line: 330</note>
+        <note>Line: 351</note>
       </trans-unit>
       <trans-unit id="0773497a933e6c2b618678b02cbdf7a1" approved="yes">
         <source>An error occurred while copying "No picture" image to your category folder.</source>
         <target state="final">Kopijuojant "No picture" paveiksliuką į kategorijų katalogą įvyko klaida.</target>
-        <note>Line: 334</note>
+        <note>Line: 356</note>
       </trans-unit>
       <trans-unit id="6509c8bfa3f06725a6016e6a429dbcd9" approved="yes">
         <source>An error occurred while copying "No picture" image to your brand folder.</source>
         <target state="final">Įvyko klaida kopijuojant "No-picture" paveiksliuką į prekės katalogą.</target>
-        <note>Line: 338</note>
+        <note>Line: 361</note>
       </trans-unit>
       <trans-unit id="59382adebc7f0d65c42fe773d443e4c7" approved="yes">
         <source>This ISO code is already linked to another language.</source>
         <target state="final">ISO kodas jau priskirtas kitai kalbai.</target>
-        <note>Line: 364</note>
+        <note>Line: 390</note>
       </trans-unit>
       <trans-unit id="8bd94436fa6738863292fb9823368694" approved="yes">
         <source>You cannot delete the default language.</source>
         <target state="final">Jūs negalite ištrinti numatytosios kalbos.</target>
-        <note>Line: 382</note>
+        <note>Line: 412</note>
       </trans-unit>
       <trans-unit id="f25eedbf89efbd0cfce488fe01f9c4cb" approved="yes">
         <source>You cannot delete the language currently in use. Please select a different language.</source>
         <target state="final">Negalite ištrinti dabar naudojamos kalbos. Prieš trindami pasirinkite kitą kalbą.</target>
-        <note>Line: 386</note>
+        <note>Line: 417</note>
       </trans-unit>
     </body>
   </file>
@@ -524,21 +549,16 @@ Comment: @todo Throw exception</note>
       <trans-unit id="53802fa30d7e83f77eccfa376c33e6fa" approved="yes">
         <source>Importing a new language may fail without the OpenSSL module. Please enable "openssl.so" on your server configuration.</source>
         <target state="final">Gali nepavykti įkelti naujos kalbos be OpenSSL modulio. Įjunkite "openssl.so" savo serverio nustatymuose.</target>
-        <note>Line: 57</note>
+        <note>Line: 66</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/TranslationsController.php" source-language="en" target-language="lt" datatype="plaintext">
     <body>
-      <trans-unit id="962f6e835582ebb404a37893f46c60f3" approved="yes">
-        <source>An error has occurred, this module does not exist: %s</source>
-        <target state="final">Įvyko klaida, šis modulis neegzistuoja: %s</target>
-        <note>Line: 141</note>
-      </trans-unit>
       <trans-unit id="2c4113bd192a65a98ee212d9e946d152" approved="yes">
         <source>You must select at least one translation type to export translations.</source>
         <target state="final">Norėdami eksportuoti vertimus, turite pasirinkti bent vieną vertimo tipą.</target>
-        <note>Line: 264</note>
+        <note>Line: 294</note>
       </trans-unit>
     </body>
   </file>
@@ -547,7 +567,7 @@ Comment: @todo Throw exception</note>
       <trans-unit id="e16530f22af16465d87a2dc7033060f8" approved="yes">
         <source>An error occurred while editing the zone.</source>
         <target state="final">Įvyko klaida redaguojant zoną.</target>
-        <note>Line: 304</note>
+        <note>Line: 314</note>
       </trans-unit>
     </body>
   </file>
@@ -625,30 +645,6 @@ Comment: @todo Throw exception</note>
         <source>Language files must be complete to allow copying of translations.</source>
         <target state="final">Norint kopijuoti kalbos vertimo failus, šie turi būti užbaigti.</target>
         <note>Line: 62</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Twig/Component/Legacy/LegacySessionAlert.php" source-language="en" target-language="lt" datatype="plaintext">
-    <body>
-      <trans-unit id="6cfb80c26b415f8f6467cf07b0c700dd" approved="yes">
-        <source>The translation was successfully copied.</source>
-        <target state="final">Vertimas sėkmingai nukopijuotas.</target>
-        <note>Line: 69</note>
-      </trans-unit>
-      <trans-unit id="f22def68c5c456936078623b6dcd27ff" approved="yes">
-        <source>The translations have been successfully added.</source>
-        <target state="final">Vertimas pridėtas.</target>
-        <note>Line: 70</note>
-      </trans-unit>
-      <trans-unit id="bb01c8c21884e974df8517110c92b22a" approved="yes">
-        <source>The translation was added successfully, but the language has not been created.</source>
-        <target state="final">Vertimai pridėti sėkmingai, tačiau kalba nebuvo sukurta</target>
-        <note>Line: 75</note>
-      </trans-unit>
-      <trans-unit id="c9468b4bd45a165049277af6756db10e" approved="yes">
-        <source>Localization pack imported successfully.</source>
-        <target state="final">Lokalizacijos paketas sėkmingai importuotas.</target>
-        <note>Line: 79</note>
       </trans-unit>
     </body>
   </file>
