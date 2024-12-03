@@ -93,12 +93,17 @@
       <trans-unit id="3ed07fe73e25bba69e3e5dac234b1941" approved="yes">
         <source>Error - The following e-mail template is missing: %s</source>
         <target state="final">エラー －次のメールテンプレートがありません：  %s</target>
-        <note>Line: 436</note>
+        <note>Line: 437</note>
       </trans-unit>
     </body>
   </file>
   <file original="classes/PrestaShopBackup.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
+      <trans-unit id="4e0ac45de6bd848503ffa98ff6247f2f" approved="yes">
+        <source>Error deleting</source>
+        <target state="final">削除中にエラー</target>
+        <note>Line: 192</note>
+      </trans-unit>
       <trans-unit id="47218fe85410a7029c216ef926cef044" approved="yes">
         <source>"Backup" directory does not exist.</source>
         <target state="final">"Backup"ディレクトリは存在しません。</target>
@@ -126,17 +131,17 @@
       <trans-unit id="613260718349db00d0b7b9c1eb77c76c" approved="yes">
         <source>Your file has been successfully imported into your shop. Don't forget to re-build the products' search index.</source>
         <target state="final">ファイルはショップに正常にインポートされました。　商品の検索インデックスを再構築することを忘れないでください。</target>
-        <note>Line: 567</note>
+        <note>Line: 566</note>
       </trans-unit>
       <trans-unit id="5b8f192b08644fdc9fd1fd86bcbbc57b" approved="yes">
         <source>(click to open "Generators" page)</source>
         <target state="final">(生成ページをクリックして開きます)</target>
-        <note>Line: 697</note>
+        <note>Line: 696</note>
       </trans-unit>
       <trans-unit id="5c8707f79dbdd3abb28a8aa09e34f02f" approved="yes">
         <source>No image was found for combination with id_product = %s and image position = %s.</source>
         <target state="final">商品ID = %s かつ 画像位置 = %s の組み合わせにあう画像が見つかりません</target>
-        <note>Line: 2342</note>
+        <note>Line: 2336</note>
       </trans-unit>
       <trans-unit id="fd6d9d3ba7d4aaacc49f53c2e8c082c0" approved="yes">
         <source>Email address %1$s (ID: %2$s) cannot be validated.</source>
@@ -247,21 +252,11 @@
   </file>
   <file original="src/Adapter/Debug/DebugModeConfiguration.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      <trans-unit id="667685497be44ab0fc2d4334a512405b" approved="yes">
-        <source>Error: Could not write to file. Make sure that the correct permissions are set on the file %s</source>
-        <target state="final">エラー：ファイルに対して書き込みが出来ませんでした。ファイル %s が正しいパーミッションになっているか確認してください。</target>
-        <note>Line: 156</note>
-      </trans-unit>
       <trans-unit id="d4fb191ef219af010cc664bf47393e97" approved="yes">
         <source>Error: Could not find whether debug mode is enabled. Make sure that the correct permissions are set on the file %s</source>
         <target state="final">エラー：デバッグモードが有効かどうかを確認できませんでした。ファイル %s が正しいパーミッションになっているか確認してください。</target>
-        <note>Line: 138</note>
+        <note>Line: 111</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="src/Adapter/GeneralConfiguration.php" source-language="en" target-language="ja" datatype="plaintext">
-    <body>
-      
     </body>
   </file>
   <file original="src/Adapter/Import/Handler/AbstractImportHandler.php" source-language="en" target-language="ja" datatype="plaintext">
@@ -269,17 +264,17 @@
       <trans-unit id="a080a85258618039d010a2136f85e69f" approved="yes">
         <source>There is an empty row in the file that won't be imported.</source>
         <target state="final">ファイル内にインポートされない空行があります。</target>
-        <note>Line: 295</note>
+        <note>Line: 293</note>
       </trans-unit>
       <trans-unit id="d165f0c742c272ed88dc27acc91e2642" approved="yes">
         <source>%s import</source>
         <target state="final">%sインポート</target>
-        <note>Line: 321</note>
+        <note>Line: 319</note>
       </trans-unit>
       <trans-unit id="b53b06c0e98a2db123f953f0059a0948" approved="yes">
         <source>with truncate</source>
         <target state="final">切り詰め操作を含め</target>
-        <note>Line: 332</note>
+        <note>Line: 330</note>
       </trans-unit>
     </body>
   </file>
@@ -299,11 +294,6 @@
         <source>A category can't be its own parent. You should rename it (current name: %1$s).</source>
         <target state="final">カテゴリは、それ自身の親になることはできません。名前を変更してください（現在の名前： %1$s）。</target>
         <note>Line: 271</note>
-      </trans-unit>
-      <trans-unit id="4798b868d51d8e259321deff0452c0f9" approved="yes">
-        <source>Rewrite link for %1$s (ID %2$s): re-written as %3$s.</source>
-        <target state="final">%1$s（ID: %2$s）用リライトリンクは、%3$s のようにリライトされます。</target>
-        <note>Line: 364</note>
       </trans-unit>
       <trans-unit id="a118c8120ef45c8b1bed36f341fa45f1" approved="yes">
         <source>A category cannot be its own parent. The parent category ID is either missing or unknown (ID: %1$s).</source>
@@ -329,6 +319,11 @@
   </file>
   <file original="src/Adapter/Import/Handler/ProductImportHandler.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
+      <trans-unit id="4798b868d51d8e259321deff0452c0f9" approved="yes">
+        <source>Rewrite link for %1$s (ID %2$s): re-written as %3$s.</source>
+        <target state="final">%1$s（ID: %2$s）用リライトリンクは、%3$s のようにリライトされます。</target>
+        <note>Line: 759</note>
+      </trans-unit>
       <trans-unit id="2666baaca25feea0b2dc641cfab50d8a" approved="yes">
         <source>Unknown tax rule group ID. You need to create a group with this ID first.</source>
         <target state="final">不明な税ルールグループIDです。まず、このIDでグループを作成してください。</target>
@@ -352,12 +347,12 @@
       <trans-unit id="87aae49bd054f2cfa4b7b395dee5f2d3" approved="yes">
         <source>Discount is invalid</source>
         <target state="final">割引は無効です。</target>
-        <note>Line: 983</note>
+        <note>Line: 970</note>
       </trans-unit>
       <trans-unit id="664d4132fc8dc3a158be4692b4246528" approved="yes">
         <source>Tags list is invalid</source>
         <target state="final">タグリストは無効です。</target>
-        <note>Line: 1032</note>
+        <note>Line: 1019</note>
       </trans-unit>
     </body>
   </file>
@@ -541,18 +536,30 @@
       </trans-unit>
     </body>
   </file>
+  <file original="src/Core/SqlManager/Configuration/SqlRequestConfiguration.php" source-language="en" target-language="ja" datatype="plaintext">
+    <body>
+      <trans-unit id="667685497be44ab0fc2d4334a512405b" approved="yes">
+        <source>Error: Could not write to file. Make sure that the correct permissions are set on the file %s</source>
+        <target state="final">エラー：ファイルに対して書き込みが出来ませんでした。ファイル %s が正しいパーミッションになっているか確認してください。</target>
+        <note>Line: 98</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/AdminAPIController.php" source-language="en" target-language="ja" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/AdministrationController.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
       
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/BackupController.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      <trans-unit id="4e0ac45de6bd848503ffa98ff6247f2f" approved="yes">
-        <source>Error deleting</source>
-        <target state="final">削除中にエラー</target>
-        <note>Line: 220</note>
-      </trans-unit>
+      
+      
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/EmployeeController.php" source-language="en" target-language="ja" datatype="plaintext">
@@ -560,22 +567,22 @@
       <trans-unit id="a375d9230fd61b4a70ac109ab7b11082" approved="yes">
         <source>You cannot edit the SuperAdmin profile.</source>
         <target state="final">スーパー管理者のプロファイルを編集することができません</target>
-        <note>Line: 340</note>
+        <note>Line: 301</note>
       </trans-unit>
       <trans-unit id="2450228823b8e17792cf687b8543b59d" approved="yes">
         <source>You cannot disable or delete the administrator account.</source>
         <target state="final">最後の管理者アカウントを無効または削除することができません。</target>
-        <note>Line: 496</note>
+        <note>Line: 427</note>
       </trans-unit>
       <trans-unit id="f5d44b60e38b28d19549bb7a107654ca" approved="yes">
         <source>You cannot disable or delete your own account.</source>
         <target state="final">自分自身のアカウントを無効または削除することができません</target>
-        <note>Line: 502</note>
+        <note>Line: 434</note>
       </trans-unit>
       <trans-unit id="cfe45dd92c1b71a640ea19767578f38c" approved="yes">
         <source>The employee must be associated with at least one shop.</source>
         <target state="final">従業員は少なくとも1つのショップに関連付けなければなりません</target>
-        <note>Line: 514</note>
+        <note>Line: 447</note>
       </trans-unit>
     </body>
   </file>
@@ -584,12 +591,12 @@
       <trans-unit id="af395851b27882221a6df82c727bca3e" approved="yes">
         <source>The import directory doesn't exist. Please check your file path.</source>
         <target state="final">インポートディレクトリが存在しません。ファイルパスを確認してください。</target>
-        <note>Line: 369</note>
+        <note>Line: 386</note>
       </trans-unit>
       <trans-unit id="8c9067e52e4440d8a20e74fdc745b0c6" approved="yes">
         <source>No file was uploaded.</source>
         <target state="final">アップロードされたファイルはありません</target>
-        <note>Line: 144</note>
+        <note>Line: 158</note>
       </trans-unit>
     </body>
   </file>
@@ -603,12 +610,12 @@
       <trans-unit id="9ad28fef1c6184adfe7397838891ba76" approved="yes">
         <source>The Memcached server cannot be added.</source>
         <target state="final">Memcached サーバの追加ができませんでした</target>
-        <note>Line: 129</note>
+        <note>Line: 125</note>
       </trans-unit>
       <trans-unit id="bf4ddd37d9f82a3ad1f405891dfaa235" approved="yes">
         <source>There was an error when attempting to delete the Memcached server.</source>
         <target state="final">Memcachedサーバの削除中にエラー</target>
-        <note>Line: 174</note>
+        <note>Line: 168</note>
       </trans-unit>
     </body>
   </file>
@@ -627,7 +634,7 @@
       <trans-unit id="441006dbdaef41a163047624fe1241ab" approved="yes">
         <source>This key already exists.</source>
         <target state="final">キーは既に存在します</target>
-        <note>Line: 367</note>
+        <note>Line: 381</note>
       </trans-unit>
     </body>
   </file>

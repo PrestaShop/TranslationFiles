@@ -60,11 +60,6 @@
   </file>
   <file original="mails/themes/classic/core/bankwire.html.twig" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      <trans-unit id="b4556791acee238c77be9ed338a29e80" approved="yes">
-        <source>Thank you for shopping with {shop_name}!</source>
-        <target state="final">{shop_name} にてご注文ありがとうございます!</target>
-        <note>Line: 8</note>
-      </trans-unit>
       <trans-unit id="6702a6e3bc2dce95c3e3b61fe578f29c" approved="yes">
         <source>Amount:</source>
         <target state="final">金額:</target>
@@ -152,11 +147,6 @@
         <target state="final">添付ファイル:</target>
         <note>Line: 25</note>
       </trans-unit>
-      <trans-unit id="465d60b936c982d7b57674f30ba022d0" approved="yes">
-        <source>Product:</source>
-        <target state="final">商品:</target>
-        <note>Line: 24</note>
-      </trans-unit>
       <trans-unit id="83fa39a28a4d159061c408fbd6a249e7" approved="yes">
         <source>Order ID:</source>
         <target state="final">注文ID:</target>
@@ -190,6 +180,11 @@
   </file>
   <file original="mails/themes/classic/core/download_product.html.twig" source-language="en" target-language="ja" datatype="plaintext">
     <body>
+      <trans-unit id="31ee1241ee08294dfc2ca85698fda2a1" approved="yes">
+        <source>Hi {firstname} {lastname},</source>
+        <target state="final">{lastname} {firstname} 様</target>
+        <note>Line: 7</note>
+      </trans-unit>
       <trans-unit id="5f55a607fea61a402ceac66cc99f1e9e" approved="yes">
         <source><![CDATA[Thank you for your order with the reference {order_name} from <strong>{shop_name}</strong>]]></source>
         <target state="final"><![CDATA[{order_name} の注文ありがとうございました。]]></target>
@@ -270,11 +265,6 @@
         <target state="final">次のリンクよりご注文商品の配送状況をご確認いただけます：</target>
         <note>Line: 55</note>
       </trans-unit>
-      <trans-unit id="008400d8db73946ba53b2d7f091eb845" approved="yes">
-        <source>Order {order_name}</source>
-        <target state="final">注文ID: {order_name}</target>
-        <note>Line: 49</note>
-      </trans-unit>
       <trans-unit id="1b0d1cd23421d9cea08507e950e87094" approved="yes">
         <source>{followup}</source>
         <target state="final">{followup}</target>
@@ -288,15 +278,6 @@
         <source>You have received a new log alert</source>
         <target state="final">ログ警告が発生しています</target>
         <note>Line: 24</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="mails/themes/classic/core/newsletter.html.twig" source-language="en" target-language="ja" datatype="plaintext">
-    <body>
-      <trans-unit id="31ee1241ee08294dfc2ca85698fda2a1" approved="yes">
-        <source>Hi {firstname} {lastname},</source>
-        <target state="final">{lastname} {firstname} 様</target>
-        <note>Line: 6</note>
       </trans-unit>
     </body>
   </file>
@@ -414,10 +395,20 @@
   </file>
   <file original="mails/themes/classic/core/order_customer_comment.html.twig" source-language="en" target-language="ja" datatype="plaintext">
     <body>
+      <trans-unit id="bb372ddf88ad8fcc480f7a8599a92abc" approved="yes">
+        <source>Hi,</source>
+        <target state="final">お知らせ</target>
+        <note>Line: 7</note>
+      </trans-unit>
       <trans-unit id="5eea367ea73b909880393bd1ae79fc67" approved="yes">
         <source>Customer:</source>
         <target state="final">お客様：</target>
         <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="465d60b936c982d7b57674f30ba022d0" approved="yes">
+        <source>Product:</source>
+        <target state="final">商品:</target>
+        <note>Line: 32</note>
       </trans-unit>
       <trans-unit id="381fc38b470ed543424afbd43f224453" approved="yes">
         <source>Message from a customer</source>
@@ -507,6 +498,11 @@
   </file>
   <file original="mails/themes/classic/core/payment_error.html.twig" source-language="en" target-language="ja" datatype="plaintext">
     <body>
+      <trans-unit id="008400d8db73946ba53b2d7f091eb845" approved="yes">
+        <source>Order {order_name}</source>
+        <target state="final">注文ID: {order_name}</target>
+        <note>Line: 24</note>
+      </trans-unit>
       <trans-unit id="3dd0be333980f0b0f0895cdb6322d117" approved="yes">
         <source>Payment processing error</source>
         <target state="final">支払い処理エラー</target>
@@ -530,11 +526,10 @@
   </file>
   <file original="mails/themes/classic/core/productoutofstock.html.twig" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      <trans-unit id="bb372ddf88ad8fcc480f7a8599a92abc" approved="yes">
-        <source>Hi,</source>
-        <target state="final">お知らせ</target>
-        <note>Line: 7</note>
-      </trans-unit>
+      
+      
+      
+      
     </body>
   </file>
   <file original="mails/themes/classic/core/refund.html.twig" source-language="en" target-language="ja" datatype="plaintext">
@@ -554,9 +549,11 @@
   </file>
   <file original="mails/themes/classic/core/shipped.html.twig" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="b4556791acee238c77be9ed338a29e80" approved="yes">
+        <source>Thank you for shopping with {shop_name}!</source>
+        <target state="final">{shop_name} にてご注文ありがとうございます!</target>
+        <note>Line: 31</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/classic/core/test.html.twig" source-language="en" target-language="ja" datatype="plaintext">
@@ -571,11 +568,11 @@
       
       
       
+      
     </body>
   </file>
   <file original="mails/themes/classic/core/voucher_new.html.twig" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      
       
       
     </body>
@@ -746,7 +743,6 @@
   <file original="mails/themes/modern/core/in_transit.html.twig" source-language="en" target-language="ja" datatype="plaintext">
     <body>
       
-      
     </body>
   </file>
   <file original="mails/themes/modern/core/log_alert.html.twig" source-language="en" target-language="ja" datatype="plaintext">
@@ -768,6 +764,10 @@
   <file original="mails/themes/modern/core/order_canceled.html.twig" source-language="en" target-language="ja" datatype="plaintext">
     <body>
       
+    </body>
+  </file>
+  <file original="mails/themes/modern/core/order_changed.html.twig" source-language="en" target-language="ja" datatype="plaintext">
+    <body>
       
     </body>
   </file>
@@ -888,7 +888,6 @@
   </file>
   <file original="mails/themes/modern/core/voucher_new.html.twig" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      
       
       
       
