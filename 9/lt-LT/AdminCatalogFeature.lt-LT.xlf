@@ -190,15 +190,15 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/cart_rules/form.tpl" source-language="en" target-language="lt" datatype="plaintext">
     <body>
-      <trans-unit id="a82be0f551b8708bc08eb33cd9ded0cf" approved="yes">
-        <source>Information</source>
-        <target state="final">Informacija</target>
-        <note>Line: 30</note>
-      </trans-unit>
       <trans-unit id="229eb04083e06f419f9ac494329f957d" approved="yes">
         <source>Conditions</source>
         <target state="final">Sąlygos</target>
         <note>Line: 33</note>
+      </trans-unit>
+      <trans-unit id="a82be0f551b8708bc08eb33cd9ded0cf" approved="yes">
+        <source>Information</source>
+        <target state="final">Informacija</target>
+        <note>Line: 30</note>
       </trans-unit>
       <trans-unit id="48bc4d0ad8c02bb7d116b43d907570e2" approved="yes">
         <source>Cart rule</source>
@@ -301,20 +301,30 @@
       </trans-unit>
     </body>
   </file>
-  <file original="classes/lang/KeysReference/CategoryLang.php" source-language="en" target-language="lt" datatype="plaintext">
+  <file original="classes/AttributeGroup.php" source-language="en" target-language="lt" datatype="plaintext">
     <body>
-      <trans-unit id="fa03eb688ad8aa1db593d33dabd89bad" approved="yes">
-        <source>Root</source>
-        <target state="final">Šakninis</target>
-        <note>Line: 26</note>
+      <trans-unit id="d274013ea65428454962a59b7b373a41" approved="yes">
+        <source>Public name</source>
+        <target state="final">Viešas pavadinimas</target>
+        <note>Line: 57</note>
+      </trans-unit>
+      <trans-unit id="17af8baa9b3f90e936589069e4223280" approved="yes">
+        <source>Attribute type</source>
+        <target state="final">Savybės tipas</target>
+        <note>Line: 52</note>
       </trans-unit>
     </body>
   </file>
-  <file original="classes/lang/KeysReference/CmsCategoryLang.php" source-language="en" target-language="lt" datatype="plaintext">
+  <file original="classes/lang/KeysReference/CategoryLang.php" source-language="en" target-language="lt" datatype="plaintext">
     <body>
       <trans-unit id="8cf04a9734132302f96da8e113e80ce5" approved="yes">
         <source>Home</source>
         <target state="final">Pagrindinis</target>
+        <note>Line: 27</note>
+      </trans-unit>
+      <trans-unit id="fa03eb688ad8aa1db593d33dabd89bad" approved="yes">
+        <source>Root</source>
+        <target state="final">Šakninis</target>
         <note>Line: 26</note>
       </trans-unit>
     </body>
@@ -550,11 +560,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="src/Adapter/Product/Pack/QueryHandler/GetPackedProductsHandler.php" source-language="en" target-language="lt" datatype="plaintext">
-    <body>
-      
-    </body>
-  </file>
   <file original="src/Adapter/Product/Update/ProductDuplicator.php" source-language="en" target-language="lt" datatype="plaintext">
     <body>
       <trans-unit id="6fe7d4b3e1e5e192b61d1c74c6821b84" approved="yes">
@@ -775,15 +780,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="src/Core/Grid/Definition/Factory/AttachmentGridDefinitionFactory.php" source-language="en" target-language="lt" datatype="plaintext">
-    <body>
-      <trans-unit id="068f80c7519d0528fb08e82137a72131" approved="yes">
-        <source>Products</source>
-        <target state="final">Prekės</target>
-        <note>Line: 203</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/Core/Grid/Definition/Factory/AttributeGridDefinitionFactory.php" source-language="en" target-language="lt" datatype="plaintext">
     <body>
       <trans-unit id="cb5feb1b7314637725a2e73bdc9f7295" approved="yes">
@@ -850,6 +846,11 @@
   </file>
   <file original="src/Core/Grid/Definition/Factory/ManufacturerGridDefinitionFactory.php" source-language="en" target-language="lt" datatype="plaintext">
     <body>
+      <trans-unit id="068f80c7519d0528fb08e82137a72131" approved="yes">
+        <source>Products</source>
+        <target state="final">Prekės</target>
+        <note>Line: 111</note>
+      </trans-unit>
       <trans-unit id="84be54bb4bd1b755a27d86388700d097" approved="yes">
         <source>Brands</source>
         <target state="final">Prekių ženklai</target>
@@ -922,11 +923,6 @@
   </file>
   <file original="src/Core/Grid/Definition/Factory/ProductGridDefinitionFactory.php" source-language="en" target-language="lt" datatype="plaintext">
     <body>
-      <trans-unit id="77eb276f5dcdf4fbca854e908216f7b2" approved="yes">
-        <source>Price (tax incl.)</source>
-        <target state="final">Kaina (su PVM)</target>
-        <note>Line: 218</note>
-      </trans-unit>
       <trans-unit id="63d5049791d9d79d86e9a108b0a999ca" approved="yes">
         <source>Reference</source>
         <target state="final">Kodas</target>
@@ -953,7 +949,7 @@
       <trans-unit id="9e2941b3c81256fac10392aaca4ccfde" approved="yes">
         <source>Condition</source>
         <target state="final">Būklė</target>
-        <note>Line: 119</note>
+        <note>Line: 118</note>
       </trans-unit>
     </body>
   </file>
@@ -971,12 +967,12 @@
       <trans-unit id="7adc46ed1d0f7889dcc09845a720ac73" approved="yes">
         <source>%price% (tax incl.)</source>
         <target state="final">%price% (su mok.)</target>
-        <note>Line: 382</note>
+        <note>Line: 383</note>
       </trans-unit>
       <trans-unit id="21ab51e78cd88a6c7702f5a780de63c5" approved="yes">
         <source>%price% (tax excl.)</source>
         <target state="final">%price% (be mok.)</target>
-        <note>Line: 385</note>
+        <note>Line: 386</note>
       </trans-unit>
     </body>
   </file>
@@ -985,12 +981,12 @@
       <trans-unit id="5f573e91e5eaa092e00a4c4df393c0cb" approved="yes">
         <source>Add new root category</source>
         <target state="final">Pridėti pagrindinę kategoriją</target>
-        <note>Line: 747</note>
+        <note>Line: 802</note>
       </trans-unit>
       <trans-unit id="d0d4e3688fdaee5afa292083b855e143" approved="yes">
         <source>Add new category</source>
         <target state="final">Pridėti kategoriją</target>
-        <note>Line: 764</note>
+        <note>Line: 819</note>
       </trans-unit>
     </body>
   </file>
@@ -999,12 +995,12 @@
       <trans-unit id="7aad0283b11e41230d9d1fc7372c3862" approved="yes">
         <source>Add new feature value</source>
         <target state="final">Pridėti naujos ypatybės reikšmę</target>
-        <note>Line: 83</note>
+        <note>Line: 95</note>
       </trans-unit>
       <trans-unit id="5f46be79c24b6cde1ff2176a2ce917e9" approved="yes">
         <source>Add new feature</source>
         <target state="final">Pridėti naują ypatybę</target>
-        <note>Line: 78</note>
+        <note>Line: 90</note>
       </trans-unit>
     </body>
   </file>
@@ -1013,7 +1009,7 @@
       <trans-unit id="fd380496c889dcb05d6e996fd1ecaf0b" approved="yes">
         <source>Choose a value</source>
         <target state="final">Pasirinkite reikšmę</target>
-        <note>Line: 293</note>
+        <note>Line: 313</note>
       </trans-unit>
     </body>
   </file>
@@ -1036,18 +1032,27 @@
       <trans-unit id="694e8d1f2ee056f98ee488bdc4982d73" approved="yes">
         <source>Quantity</source>
         <target state="final">Kiekis</target>
-        <note>Line: 731</note>
+        <note>Line: 716</note>
+      </trans-unit>
+      <trans-unit id="78167a214fe755d9a2f5a7f2bc62cecf" approved="yes">
+        <source>Low stock level</source>
+        <target state="final">Žemas atsargų lygis</target>
+        <note>Line: 694</note>
       </trans-unit>
       <trans-unit id="24eb41ae265b268c0ce14e1fef872399" approved="yes">
         <source>Low stock alert</source>
         <target state="final">Žemo atsargų lygio įspėjimas</target>
-        <note>Line: 714</note>
+        <note>Line: 699</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/ProductController.php" source-language="en" target-language="lt" datatype="plaintext">
     <body>
-      
+      <trans-unit id="77eb276f5dcdf4fbca854e908216f7b2" approved="yes">
+        <source>Price (tax incl.)</source>
+        <target state="final">Kaina (su PVM)</target>
+        <note>Line: 769</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/SupplierController.php" source-language="en" target-language="lt" datatype="plaintext">
@@ -1055,7 +1060,7 @@
       <trans-unit id="990fc90e39367377c314f1d61522ae61" approved="yes">
         <source>Number of products</source>
         <target state="final">Prekių kiekis</target>
-        <note>Line: 391</note>
+        <note>Line: 410</note>
       </trans-unit>
     </body>
   </file>
@@ -1064,17 +1069,12 @@
       <trans-unit id="d21b5a78517318e6d35414d4217950ce" approved="yes">
         <source>Message forwarded to</source>
         <target state="final">Žinutė persiųsta (kam)</target>
-        <note>Line: 272</note>
+        <note>Line: 282</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Api/StockController.php" source-language="en" target-language="lt" datatype="plaintext">
     <body>
-      <trans-unit id="78167a214fe755d9a2f5a7f2bc62cecf" approved="yes">
-        <source>Low stock level</source>
-        <target state="final">Žemas atsargų lygis</target>
-        <note>Line: 185</note>
-      </trans-unit>
       <trans-unit id="5321a616e36742f66aa933956e839217" approved="yes">
         <source>Combination name</source>
         <target state="final">Derinio pavadinimas</target>
@@ -1102,22 +1102,22 @@
       <trans-unit id="41f0e77fb6816355f1ced8334847c681" approved="yes">
         <source>Additional description</source>
         <target state="final">Papildomas aprašymas</target>
-        <note>Line: 153</note>
+        <note>Line: 154</note>
       </trans-unit>
       <trans-unit id="8987d8bb6500cb0889946c2655e930b6" approved="yes">
         <source>Category cover image</source>
         <target state="final">Kategorijos viršelio paveiksliukas</target>
-        <note>Line: 178</note>
+        <note>Line: 180</note>
       </trans-unit>
       <trans-unit id="4ae362f049719078c429941bed5dd440" approved="yes">
         <source>Category thumbnail</source>
         <target state="final">Kategorijos miniatiūra</target>
-        <note>Line: 186</note>
+        <note>Line: 187</note>
       </trans-unit>
       <trans-unit id="920bd1fb6d54c93fca528ce941464225" approved="yes">
         <source>Group access</source>
         <target state="final">Grupės teisės:</target>
-        <note>Line: 326</note>
+        <note>Line: 298</note>
       </trans-unit>
     </body>
   </file>
@@ -1171,16 +1171,6 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Catalog/AttributeGroupType.php" source-language="en" target-language="lt" datatype="plaintext">
     <body>
-      <trans-unit id="17af8baa9b3f90e936589069e4223280" approved="yes">
-        <source>Attribute type</source>
-        <target state="final">Savybės tipas</target>
-        <note>Line: 100</note>
-      </trans-unit>
-      <trans-unit id="d274013ea65428454962a59b7b373a41" approved="yes">
-        <source>Public name</source>
-        <target state="final">Viešas pavadinimas</target>
-        <note>Line: 84</note>
-      </trans-unit>
       <trans-unit id="f68b27443f6e6f685cce3f9f422a2b84" approved="yes">
         <source>Color or texture</source>
         <target state="final">Spalva arba tekstūra</target>
@@ -1199,7 +1189,16 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Category/SEO/RedirectOptionType.php" source-language="en" target-language="lt" datatype="plaintext">
     <body>
-      
+      <trans-unit id="34c6d1495d38f91ae785bc94849dc771" approved="yes">
+        <source>Permanent redirection to a category (301)</source>
+        <target state="final">Nuolatinis peradresavimas į kategoriją (301)</target>
+        <note>Line: 70</note>
+      </trans-unit>
+      <trans-unit id="7a13ef5d084a640d199018c55d415fac" approved="yes">
+        <source>Temporary redirection to a category (302)</source>
+        <target state="final">Laikinas peradresavimo į kategoriją (302)</target>
+        <note>Line: 69</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Manufacturer/ManufacturerType.php" source-language="en" target-language="lt" datatype="plaintext">
@@ -1208,6 +1207,16 @@
         <source>Short description</source>
         <target state="final">Trumpas aprašymas</target>
         <note>Line: 101</note>
+      </trans-unit>
+      <trans-unit id="9e11e4b371570340ca07913bc4783a7a" approved="yes">
+        <source>Meta title</source>
+        <target state="final">Meta pavadinimas (title)</target>
+        <note>Line: 138</note>
+      </trans-unit>
+      <trans-unit id="3f64b2beede1082fd32ddb0bf11a641f" approved="yes">
+        <source>Meta description</source>
+        <target state="final">Meta aprašymas (description)</target>
+        <note>Line: 159</note>
       </trans-unit>
     </body>
   </file>
@@ -1234,6 +1243,40 @@
       </trans-unit>
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/BulkCombinationPriceType.php" source-language="en" target-language="lt" datatype="plaintext">
+    <body>
+      <trans-unit id="3c1a34587e45bd9e9ae2efd9a6ecbb92" approved="yes">
+        <source>Impact on weight</source>
+        <target state="final">Įtaka svoriui</target>
+        <note>Line: 149</note>
+      </trans-unit>
+      <trans-unit id="8dd1ed71179c8d13c19ba445dfb01460" approved="yes">
+        <source>Cost price (tax excl.)</source>
+        <target state="final">Savikaina (be mok.)</target>
+        <note>Line: 95</note>
+      </trans-unit>
+      <trans-unit id="1fd6db3332676692077360fec4df12e4" approved="yes">
+        <source>Retail price</source>
+        <target state="final">Mažmeninė kaina</target>
+        <note>Line: 173</note>
+      </trans-unit>
+      <trans-unit id="8ef6e226754a31bf67ebf50047c142b9" approved="yes">
+        <source>Impact on price (tax excl.)</source>
+        <target state="final">Poveikis kainai (be PVM)</target>
+        <note>Line: 109</note>
+      </trans-unit>
+      <trans-unit id="152feab7588733220c3720773724c8d5" approved="yes">
+        <source>Impact on price (tax incl.)</source>
+        <target state="final">Poveikis kainai (su PVM)</target>
+        <note>Line: 123</note>
+      </trans-unit>
+      <trans-unit id="a04586da5cc69ed7dee68e3b26786999" approved="yes">
+        <source>Impact on price per unit (tax excl.)</source>
+        <target state="final">Poveikis vieneto kainai (be PVM)</target>
+        <note>Line: 135</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/BulkCombinationReferencesType.php" source-language="en" target-language="lt" datatype="plaintext">
     <body>
       <trans-unit id="c8effe37e0fefd95ff0cc4873de6e6a6" approved="yes">
@@ -1250,25 +1293,20 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/BulkCombinationStockType.php" source-language="en" target-language="lt" datatype="plaintext">
     <body>
-      <trans-unit id="af39c53c91dc46e2576f28b843b82988" approved="yes">
-        <source>Label when in stock</source>
-        <target state="final">Etiketė, kai yra atsargose</target>
-        <note>Line: 128</note>
-      </trans-unit>
-      <trans-unit id="2438bf77baed0680f816ca0f4a7d0321" approved="yes">
-        <source>Availability date</source>
-        <target state="final">Gavimo data</target>
-        <note>Line: 118</note>
+      <trans-unit id="cdba184783a0253218efd734da81a9da" approved="yes">
+        <source>Stock location</source>
+        <target state="final">Prekių būvimo vieta</target>
+        <note>Line: 106</note>
       </trans-unit>
       <trans-unit id="c612bf4e7b59c1b364ead6752fe63ed3" approved="yes">
         <source>Minimum order quantity</source>
         <target state="final">Minimalus užsakomas kiekis</target>
         <note>Line: 95</note>
       </trans-unit>
-      <trans-unit id="cdba184783a0253218efd734da81a9da" approved="yes">
-        <source>Stock location</source>
-        <target state="final">Prekių būvimo vieta</target>
-        <note>Line: 106</note>
+      <trans-unit id="ac43f4edefaf0db72e60d681332c8437" approved="yes">
+        <source>Edit quantity</source>
+        <target state="final">Redaguoti kiekį</target>
+        <note>Line: 74</note>
       </trans-unit>
       <trans-unit id="515447b09cce54e693574f0c98fadc6e" approved="yes">
         <source>Edit fixed quantity</source>
@@ -1316,16 +1354,6 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationItemType.php" source-language="en" target-language="lt" datatype="plaintext">
     <body>
-      <trans-unit id="8ef6e226754a31bf67ebf50047c142b9" approved="yes">
-        <source>Impact on price (tax excl.)</source>
-        <target state="final">Poveikis kainai (be PVM)</target>
-        <note>Line: 197</note>
-      </trans-unit>
-      <trans-unit id="152feab7588733220c3720773724c8d5" approved="yes">
-        <source>Impact on price (tax incl.)</source>
-        <target state="final">Poveikis kainai (su PVM)</target>
-        <note>Line: 205</note>
-      </trans-unit>
       <trans-unit id="528b50268977416fd8aacb16d07c2cf8" approved="yes">
         <source>Final price (tax excl.)</source>
         <target state="final">Galutinė kaina (be PVM)</target>
@@ -1349,15 +1377,15 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationPriceImpactType.php" source-language="en" target-language="lt" datatype="plaintext">
     <body>
-      <trans-unit id="3c1a34587e45bd9e9ae2efd9a6ecbb92" approved="yes">
-        <source>Impact on weight</source>
-        <target state="final">Įtaka svoriui</target>
-        <note>Line: 245</note>
+      <trans-unit id="4fc9f49cb85af9ba5caab7747fe35846" approved="yes">
+        <source>Ecotax (tax excl.)</source>
+        <target state="final">Ekologinis mokestis (be mokesčių)</target>
+        <note>Line: 160</note>
       </trans-unit>
-      <trans-unit id="a04586da5cc69ed7dee68e3b26786999" approved="yes">
-        <source>Impact on price per unit (tax excl.)</source>
-        <target state="final">Poveikis vieneto kainai (be PVM)</target>
-        <note>Line: 221</note>
+      <trans-unit id="c265e7bd60b9bf0470d39a8ef87e0727" approved="yes">
+        <source>Ecotax (tax incl.)</source>
+        <target state="final">Ekomokestis (su PVM)</target>
+        <note>Line: 176</note>
       </trans-unit>
       <trans-unit id="ab9b7d5772de1c93d483522af5798fc9" approved="yes">
         <source>Final retail price (tax excl.)</source>
@@ -1373,6 +1401,20 @@
         <source>Impact on price per unit (tax incl.)</source>
         <target state="final">Poveikis vieneto kainai (su PVM)</target>
         <note>Line: 233</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationStockType.php" source-language="en" target-language="lt" datatype="plaintext">
+    <body>
+      <trans-unit id="af39c53c91dc46e2576f28b843b82988" approved="yes">
+        <source>Label when in stock</source>
+        <target state="final">Etiketė, kai yra atsargose</target>
+        <note>Line: 67</note>
+      </trans-unit>
+      <trans-unit id="2438bf77baed0680f816ca0f4a7d0321" approved="yes">
+        <source>Availability date</source>
+        <target state="final">Gavimo data</target>
+        <note>Line: 58</note>
       </trans-unit>
     </body>
   </file>
@@ -1404,12 +1446,12 @@
       <trans-unit id="38070661d5ad384d9c7d21895dc4e784" approved="yes">
         <source>Related products</source>
         <target state="final">Susijusios prekės</target>
-        <note>Line: 145</note>
+        <note>Line: 132</note>
       </trans-unit>
       <trans-unit id="b5a7adde1af5c87d7fd797b6245c2a39" approved="yes">
         <source>Description</source>
         <target state="final">Aprašymas</target>
-        <note>Line: 170</note>
+        <note>Line: 157</note>
       </trans-unit>
     </body>
   </file>
@@ -1729,11 +1771,6 @@
         <target state="final">Bazinė kaina</target>
         <note>Line: 79</note>
       </trans-unit>
-      <trans-unit id="8dd1ed71179c8d13c19ba445dfb01460" approved="yes">
-        <source>Cost price (tax excl.)</source>
-        <target state="final">Savikaina (be mok.)</target>
-        <note>Line: 81</note>
-      </trans-unit>
       <trans-unit id="133bc9aa44eaaf809041c01ea1361a07" approved="yes">
         <source>Display the "On sale!" flag on the product page, and on product listings.</source>
         <target state="final">Rodyti "Išpardavimas!" vėliavėlę prekės puslapyje ir prekių sąrašuose.</target>
@@ -1781,21 +1818,6 @@
         <source>Retail price (tax excl.)</source>
         <target state="final">Mažmeninė kaina (be PVM)</target>
         <note>Line: 151</note>
-      </trans-unit>
-      <trans-unit id="1fd6db3332676692077360fec4df12e4" approved="yes">
-        <source>Retail price</source>
-        <target state="final">Mažmeninė kaina</target>
-        <note>Line: 272</note>
-      </trans-unit>
-      <trans-unit id="4fc9f49cb85af9ba5caab7747fe35846" approved="yes">
-        <source>Ecotax (tax excl.)</source>
-        <target state="final">Ekologinis mokestis (be mokesčių)</target>
-        <note>Line: 197</note>
-      </trans-unit>
-      <trans-unit id="c265e7bd60b9bf0470d39a8ef87e0727" approved="yes">
-        <source>Ecotax (tax incl.)</source>
-        <target state="final">Ekomokestis (su PVM)</target>
-        <note>Line: 245</note>
       </trans-unit>
       <trans-unit id="acf5661be359419d6c2cd638e69a231e" approved="yes">
         <source>Tax %1$s : %2$s%%</source>
@@ -1912,16 +1934,6 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/SEO/RedirectOptionType.php" source-language="en" target-language="lt" datatype="plaintext">
     <body>
-      <trans-unit id="7a13ef5d084a640d199018c55d415fac" approved="yes">
-        <source>Temporary redirection to a category (302)</source>
-        <target state="final">Laikinas peradresavimo į kategoriją (302)</target>
-        <note>Line: 135</note>
-      </trans-unit>
-      <trans-unit id="34c6d1495d38f91ae785bc94849dc771" approved="yes">
-        <source>Permanent redirection to a category (301)</source>
-        <target state="final">Nuolatinis peradresavimas į kategoriją (301)</target>
-        <note>Line: 134</note>
-      </trans-unit>
       <trans-unit id="2afea1f31bf30bdcef8b3316025d6ae5" approved="yes">
         <source>Target product</source>
         <target state="final">Tikslinė prekė</target>
@@ -1956,16 +1968,6 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/SEO/SEOType.php" source-language="en" target-language="lt" datatype="plaintext">
     <body>
-      <trans-unit id="9e11e4b371570340ca07913bc4783a7a" approved="yes">
-        <source>Meta title</source>
-        <target state="final">Meta pavadinimas (title)</target>
-        <note>Line: 112</note>
-      </trans-unit>
-      <trans-unit id="3f64b2beede1082fd32ddb0bf11a641f" approved="yes">
-        <source>Meta description</source>
-        <target state="final">Meta aprašymas (description)</target>
-        <note>Line: 141</note>
-      </trans-unit>
       <trans-unit id="1dec4f55522b828fe5dacf8478021a9e" approved="yes">
         <source>Friendly URL</source>
         <target state="final">Draugiškas URL</target>
@@ -2165,6 +2167,11 @@
       </trans-unit>
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Type/ProductSearchType.php" source-language="en" target-language="lt" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Form/Toolbar/ProductToolbarButtonsProvider.php" source-language="en" target-language="lt" datatype="plaintext">
     <body>
       <trans-unit id="81355310011c137fdd21cf9a1394ed6a" approved="yes">
@@ -2247,6 +2254,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Common/javascript_pagination.html.twig" source-language="en" target-language="lt" datatype="plaintext">
     <body>
+      <trans-unit id="a0c13a65c06cd78909e5842e19af2c49" approved="yes">
+        <source>Items per page:</source>
+        <target state="final">Prekės puslapyje:</target>
+        <note>Line: 74</note>
+      </trans-unit>
       <trans-unit id="41d2418efb64cdecb72df1e2aeb7a36b" approved="yes">
         <source>Viewing %from%-%to% on %total% (page %current_page% / %page_count%)</source>
         <target state="final">Matoma %from%-%to% iš %total% (puslapis %current_page% / %page_count%)</target>
@@ -2261,11 +2273,6 @@
         <target state="final">Įveskite puslapio numerį ir spauskite Enter klavišą</target>
         <note>Line: 34</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Common/unavailable-feature.html.twig" source-language="en" target-language="lt" datatype="plaintext">
-    <body>
-      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Module/Includes/menu_top.html.twig" source-language="en" target-language="lt" datatype="plaintext">
@@ -2444,8 +2451,7 @@
       <trans-unit id="1be6f9eb563f3bf85c78b4219bf09de9" approved="yes">
         <source>Brand</source>
         <target state="final">Prekės ženklas</target>
-        <note>Line: 32
-Comment: Display generated client secrets passed by session</note>
+        <note>Line: 32</note>
       </trans-unit>
     </body>
   </file>
@@ -2531,11 +2537,6 @@ Comment: Display generated client secrets passed by session</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/Combination/empty_state.html.twig" source-language="en" target-language="lt" datatype="plaintext">
     <body>
-      <trans-unit id="506d3aac9a4f4f5a298df14e71b6ccfe" approved="yes">
-        <source>Generate combinations</source>
-        <target state="final">Kurti derinius</target>
-        <note>Line: 40</note>
-      </trans-unit>
       <trans-unit id="c5cc1fd4333cd32baa65a5574de05186" approved="yes">
         <source>Generate product combinations</source>
         <target state="final">Sukurti prekės derinius</target>
@@ -2577,6 +2578,11 @@ Comment: Display generated client secrets passed by session</note>
         <source>Error log</source>
         <target state="final">Klaidos įrašas</target>
         <note>Line: 93</note>
+      </trans-unit>
+      <trans-unit id="506d3aac9a4f4f5a298df14e71b6ccfe" approved="yes">
+        <source>Generate combinations</source>
+        <target state="final">Kurti derinius</target>
+        <note>Line: 102</note>
       </trans-unit>
       <trans-unit id="d3d2e617335f08df83599665eef8a418" approved="yes">
         <source>Close</source>
@@ -2831,12 +2837,7 @@ Comment: Display generated client secrets passed by session</note>
       <trans-unit id="ea9cf7e47ff33b2be14e6dd07cbcefc6" approved="yes">
         <source>Shipping</source>
         <target state="final">Pristatymas</target>
-        <note>Line: 202</note>
-      </trans-unit>
-      <trans-unit id="a0c13a65c06cd78909e5842e19af2c49" approved="yes">
-        <source>Items per page:</source>
-        <target state="final">Prekės puslapyje:</target>
-        <note>Line: 115</note>
+        <note>Line: 200</note>
       </trans-unit>
     </body>
   </file>
@@ -2845,7 +2846,7 @@ Comment: Display generated client secrets passed by session</note>
       <trans-unit id="6253e193e6e17cb8255eb66deff72289" approved="yes">
         <source>Product deleted</source>
         <target state="final">Prekė ištrinta</target>
-        <note>Line: 146</note>
+        <note>Line: 145</note>
       </trans-unit>
     </body>
   </file>
@@ -2856,6 +2857,11 @@ Comment: Display generated client secrets passed by session</note>
         <target state="final">Tipas</target>
         <note>Line: 429</note>
       </trans-unit>
+      <trans-unit id="df211c3d69ca4c3564b6ac95d368dc2e" approved="yes">
+        <source>[1][/1] of [2][/2] characters used (recommended)</source>
+        <target state="final">Panaudota [1][/1] iš [2][/2] simbolių (rekomenduojama)</target>
+        <note>Line: 802</note>
+      </trans-unit>
       <trans-unit id="1a6570d1068d7dd6f811ff022da8f76d" approved="yes">
         <source>Main category</source>
         <target state="final">Pagrindinė kategorija</target>
@@ -2865,16 +2871,16 @@ Comment: Display generated client secrets passed by session</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/TwigTemplateForm/form_max_length.html.twig" source-language="en" target-language="lt" datatype="plaintext">
     <body>
-      <trans-unit id="df211c3d69ca4c3564b6ac95d368dc2e" approved="yes">
-        <source>[1][/1] of [2][/2] characters used (recommended)</source>
-        <target state="final">Panaudota [1][/1] iš [2][/2] simbolių (rekomenduojama)</target>
-        <note>Line: 30</note>
-      </trans-unit>
       <trans-unit id="db65e64331ad696848ba5bfa44a757b5" approved="yes">
         <source>[1][/1] of [2][/2] characters allowed</source>
         <target state="final">[1][/1] iš [2][/2] simboliai leidžiami</target>
         <note>Line: 37</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/TwigTemplateForm/prestashop_ui_kit_base.html.twig" source-language="en" target-language="lt" datatype="plaintext">
+    <body>
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Translation/Api/StockApi.php" source-language="en" target-language="lt" datatype="plaintext">
@@ -2883,11 +2889,6 @@ Comment: Display generated client secrets passed by session</note>
         <source>None</source>
         <target state="final">Joks</target>
         <note>Line: 65</note>
-      </trans-unit>
-      <trans-unit id="ac43f4edefaf0db72e60d681332c8437" approved="yes">
-        <source>Edit quantity</source>
-        <target state="final">Redaguoti kiekį</target>
-        <note>Line: 75</note>
       </trans-unit>
       <trans-unit id="5f89a705df3646f402ca886e3c01b034" approved="yes">
         <source>Use checkboxes to bulk edit quantities</source>

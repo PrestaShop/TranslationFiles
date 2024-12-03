@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file original="modules/ps_wirepayment/controllers/front/payment.php" source-language="en" target-language="da" datatype="plaintext">
-    <body>
-      <trans-unit id="763538d192c0e4a3a341c1c7d0db9240" approved="yes">
-        <source>%1$s (tax incl.)</source>
-        <target state="final">%1$s (inkl. moms)</target>
-        <note>Line: 43</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="modules/ps_wirepayment/controllers/front/validation.php" source-language="en" target-language="da" datatype="plaintext">
     <body>
       <trans-unit id="e2b7dec8fa4b498156dfee6e4c84b156" approved="yes">
@@ -18,27 +9,12 @@
       </trans-unit>
     </body>
   </file>
-  <file original="modules/ps_wirepayment/views/templates/hook/_partials/payment_infos.tpl" source-language="en" target-language="da" datatype="plaintext">
+  <file original="modules/ps_wirepayment/ps_wirepayment.php" source-language="en" target-language="da" datatype="plaintext">
     <body>
-      <trans-unit id="b2f40690858b404ed10e62bdf422c704" approved="yes">
-        <source>Amount</source>
-        <target state="final">Beløb</target>
-        <note>Line: 22</note>
-      </trans-unit>
-      <trans-unit id="5ca0b1b910f393ed1f9f6fa99e414255" approved="yes">
-        <source>Name of account owner</source>
-        <target state="final">Modtager:</target>
-        <note>Line: 24</note>
-      </trans-unit>
-      <trans-unit id="51f4741f4c53f0fe3ba1be9ac3a34f2f" approved="yes">
-        <source>Please include these details</source>
-        <target state="final">Inkluder disse oplysninger</target>
-        <note>Line: 26</note>
-      </trans-unit>
-      <trans-unit id="984482eb9ff11e6310fef641d2268a2a" approved="yes">
-        <source>Bank name</source>
-        <target state="final">Bank:</target>
-        <note>Line: 28</note>
+      <trans-unit id="763538d192c0e4a3a341c1c7d0db9240" approved="yes">
+        <source>%1$s (tax incl.)</source>
+        <target state="final">%1$s (inkl. moms)</target>
+        <note>Line: 420</note>
       </trans-unit>
     </body>
   </file>
@@ -68,26 +44,6 @@
         <target state="final">Send os venligst en bankoverførsel med:</target>
         <note>Line: 22</note>
       </trans-unit>
-      <trans-unit id="e82b76a36b23218201ac431c5c2da4c6" approved="yes">
-        <source>Please specify your order reference %s in the bankwire description.</source>
-        <target state="final">Angiv venligst din ordrereference %s i beskrivelsen af bankoverførslen.</target>
-        <note>Line: 27</note>
-      </trans-unit>
-      <trans-unit id="09e6ed8a978471819332e14dcc5cbe39" approved="yes">
-        <source>We've also sent you this information by e-mail.</source>
-        <target state="final">Vi har også sendt disse oplysninger pr. e-mail.</target>
-        <note>Line: 28</note>
-      </trans-unit>
-      <trans-unit id="b9a1cae09e5754424e33764777cfcaa0" approved="yes">
-        <source>Your order will be sent as soon as we receive payment.</source>
-        <target state="final">Din ordre vil blive sendt så snart vi modtager din betaling.</target>
-        <note>Line: 30</note>
-      </trans-unit>
-      <trans-unit id="1b22721c0967c351b34d82496917654f" approved="yes">
-        <source>If you have questions, comments or concerns, please contact our [1]expert customer support team[/1].</source>
-        <target state="final">Hvis du har nogen spørgsmål, kommentarer eller bekymringer, bedes du kontakte vores [1]fagkyndige kundesupport-team[/1].</target>
-        <note>Line: 32</note>
-      </trans-unit>
     </body>
   </file>
   <file original="modules/ps_wirepayment/views/templates/hook/ps_wirepayment_intro.tpl" source-language="en" target-language="da" datatype="plaintext">
@@ -116,6 +72,60 @@
         <source>Payment is made by transfer of the invoice amount to the following account:</source>
         <target state="final">Betaling foretages via overførsel af fakturabeløbet til følgende konto:</target>
         <note>Line: 45</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="themes/hummingbird/modules/ps_wirepayment/views/templates/hook/payment_return.tpl" source-language="en" target-language="da" datatype="plaintext">
+    <body>
+      <trans-unit id="e82b76a36b23218201ac431c5c2da4c6" approved="yes">
+        <source>Please specify your order reference %s in the bankwire description.</source>
+        <target state="final">Angiv venligst din ordrereference %s i beskrivelsen af bankoverførslen.</target>
+        <note>Line: 53</note>
+      </trans-unit>
+      <trans-unit id="09e6ed8a978471819332e14dcc5cbe39" approved="yes">
+        <source>We've also sent you this information by e-mail.</source>
+        <target state="final">Vi har også sendt disse oplysninger pr. e-mail.</target>
+        <note>Line: 54</note>
+      </trans-unit>
+      <trans-unit id="b9a1cae09e5754424e33764777cfcaa0" approved="yes">
+        <source>Your order will be sent as soon as we receive payment.</source>
+        <target state="final">Din ordre vil blive sendt så snart vi modtager din betaling.</target>
+        <note>Line: 55</note>
+      </trans-unit>
+      <trans-unit id="1b22721c0967c351b34d82496917654f" approved="yes">
+        <source>If you have questions, comments or concerns, please contact our [1]expert customer support team[/1].</source>
+        <target state="final">Hvis du har nogen spørgsmål, kommentarer eller bekymringer, bedes du kontakte vores [1]fagkyndige kundesupport-team[/1].</target>
+        <note>Line: 70</note>
+      </trans-unit>
+      <trans-unit id="b2f40690858b404ed10e62bdf422c704" approved="yes">
+        <source>Amount</source>
+        <target state="final">Beløb</target>
+        <note>Line: 18</note>
+      </trans-unit>
+      <trans-unit id="5ca0b1b910f393ed1f9f6fa99e414255" approved="yes">
+        <source>Name of account owner</source>
+        <target state="final">Modtager:</target>
+        <note>Line: 27</note>
+      </trans-unit>
+      <trans-unit id="51f4741f4c53f0fe3ba1be9ac3a34f2f" approved="yes">
+        <source>Please include these details</source>
+        <target state="final">Inkluder disse oplysninger</target>
+        <note>Line: 36</note>
+      </trans-unit>
+      <trans-unit id="984482eb9ff11e6310fef641d2268a2a" approved="yes">
+        <source>Bank name</source>
+        <target state="final">Bank:</target>
+        <note>Line: 45</note>
+      </trans-unit>
+      <trans-unit id="4ffaad55a1d22c453e7c9bad67b0598f" approved="yes">
+        <source>Pay by Bank Wire</source>
+        <target state="final">Betal med bankoverførsel</target>
+        <note>Line: 9</note>
+      </trans-unit>
+      <trans-unit id="c00373052588907ffdd28d1866a75aee" approved="yes">
+        <source>We noticed a problem with your order. If you think this is an error, feel free to contact our [1]expert customer support team[/1].</source>
+        <target state="final">Vi bemærkede et problem med din ordre. Hvis du mener, det er en fejl, må du endelig kontakte vores [1]fagkyndige kundesupport-team[/1].</target>
+        <note>Line: 61</note>
       </trans-unit>
     </body>
   </file>
