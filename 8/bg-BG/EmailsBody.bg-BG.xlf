@@ -747,6 +747,11 @@
         <target state="final">Количество</target>
         <note>Line: 55</note>
       </trans-unit>
+      <trans-unit id="0eede552438475bdfe820c13f24c9399" approved="yes">
+        <source>Total price</source>
+        <target state="final">Обща стойност</target>
+        <note>Line: 56</note>
+      </trans-unit>
       <trans-unit id="068f80c7519d0528fb08e82137a72131" approved="yes">
         <source>Products</source>
         <target state="final">Продукти</target>
@@ -806,6 +811,16 @@
         <target state="final">Поръчка {order_name}</target>
         <note>Line: 24</note>
       </trans-unit>
+      <trans-unit id="3ebff793cbc89d5addc60ab86ede74ec" approved="yes">
+        <source><![CDATA[Follow your order and download your invoice on our store, go to the <a href="{history_url}" target="_blank">%order_history_label%</a> section of your customer account.]]></source>
+        <target state="final"><![CDATA[Проследете вашата поръчката и изтеглете вашата фактура в нашия магазин, като отидете в раздела <a href="{history_url}" target="_blank">%order_history_label%</a> на вашия потребителски профил.]]></target>
+        <note>Line: 45</note>
+      </trans-unit>
+      <trans-unit id="a1985adc2a7be8af1d6beafa7527c062" approved="yes">
+        <source><![CDATA[If you have a guest account, you can follow your order via the <a href="{guest_tracking_url}" target="_blank">%guest_tracking_label%</a> section on our shop.]]></source>
+        <target state="final"><![CDATA[Ако сте направили поръчката без регистрация, можете да следите нейния статус чрез раздела <a href="{guest_tracking_url}" target="_blank">%guest_tracking_label%</a> на нашия магазин.]]></target>
+        <note>Line: 54</note>
+      </trans-unit>
       <trans-unit id="6eaf1dae59f88437851d95f504f9cb3c" approved="yes">
         <source>Order edited</source>
         <target state="final">Променена поръчка</target>
@@ -853,6 +868,11 @@
         <source>Remaining stock:</source>
         <target state="final">Оставаща наличност:</target>
         <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="d3f03e2edd35c99abb3fd3d9bc51706e" approved="yes">
+        <source><![CDATA[Replenish your inventory, go to the [1]Catalog > Stocks[/1] section of your back office to manage your stock.]]></source>
+        <target state="final"><![CDATA[Управлявайте вашата складова наличност, като отидете в раздела [1]Каталог &gt; Складова наличност[/1] на вашия администраторски панел.]]></target>
+        <note>Line: 31</note>
       </trans-unit>
     </body>
   </file>
@@ -1643,6 +1663,11 @@
         <target state="final">[1]Код на ваучера: {voucher_num}[/1] на стойност [1]{voucher_amount}[/1]</target>
         <note>Line: 127</note>
       </trans-unit>
+      <trans-unit id="bba6345ca09bf0e21cb502bc6d960cde" approved="yes">
+        <source>In order to use it, just copy/paste this code during check out.</source>
+        <target state="final">За да го използвате, просто копирайте/поставете този код по време на вашата следваща поръчка.</target>
+        <note>Line: 132</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/modern/core/voucher_new.html.twig" source-language="en" target-language="bg" datatype="plaintext">
@@ -1685,6 +1710,11 @@
   </file>
   <file original="mails/themes/modern/modules/ps_emailalerts/new_order.html.twig" source-language="en" target-language="bg" datatype="plaintext">
     <body>
+      <trans-unit id="5c9412907a7aabeea3491fafec5c082e" approved="yes">
+        <source>Including total tax</source>
+        <target state="final">ДДС</target>
+        <note>Line: 208</note>
+      </trans-unit>
       <trans-unit id="6810a1cc40329a394b9d73b5f8dac744" approved="yes">
         <source>New Order</source>
         <target state="final">Нова поръчка</target>
@@ -1704,8 +1734,16 @@
   </file>
   <file original="mails/themes/modern/modules/ps_emailalerts/order_changed.html.twig" source-language="en" target-language="bg" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="af6c5b694abbb964eec098febaa5d31d" approved="yes">
+        <source>Order ID {order_name}</source>
+        <target state="final">Номер на поръчка {order_name}</target>
+        <note>Line: 88</note>
+      </trans-unit>
+      <trans-unit id="c03924df23d22785084b06a548ca9976" approved="yes">
+        <source>Go to your customer account to learn more about it.</source>
+        <target state="final">Посетете вашия потребителски профил, за да научите повече.</target>
+        <note>Line: 128</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/modern/modules/ps_emailalerts/productcoverage.html.twig" source-language="en" target-language="bg" datatype="plaintext">
@@ -1724,8 +1762,16 @@
   </file>
   <file original="mails/themes/modern/modules/ps_emailalerts/productoutofstock.html.twig" source-language="en" target-language="bg" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="644f9c907ef5a8315916bd1e2f61f783" approved="yes">
+        <source>Product out of stock</source>
+        <target state="final">Изчерпан продукт</target>
+        <note>Line: 3</note>
+      </trans-unit>
+      <trans-unit id="9300ac228fc7c8ec8d970d862d68432c" approved="yes">
+        <source>There are now less than [1]{last_qty}[/1] items in stock.</source>
+        <target state="final">В момента има по-малко от [1]{last_qty}[/1] артикула в наличност.</target>
+        <note>Line: 121</note>
+      </trans-unit>
     </body>
   </file>
   <file original="mails/themes/modern/modules/ps_emailalerts/return_slip.html.twig" source-language="en" target-language="bg" datatype="plaintext">
@@ -1805,6 +1851,21 @@
         <source>Your voucher code on {shop_name}</source>
         <target state="final">Вашият код за отстъпка в {shop_name}</target>
         <note>Line: 317</note>
+      </trans-unit>
+      <trans-unit id="18df3f8153de940176206b06a3610f80" approved="yes">
+        <source>We are pleased to offer you a discount of [1]{amount}%[/1] off your next order. And this offer is valid for [1]{days}[/1] days, so do not wait any longer!</source>
+        <target state="final">С удоволствие ви предлагаме отстъпка от [1]{amount}%[/1] за вашата следваща поръчка. Тази оферта е валидна за [1]{days}[/1] дни!</target>
+        <note>Line: 252</note>
+      </trans-unit>
+      <trans-unit id="5416511766be8537f357142a81ccd7a7" approved="yes">
+        <source>Here is your VOUCHER CODE:</source>
+        <target state="final">Вашият код за отстъпка:</target>
+        <note>Line: 382</note>
+      </trans-unit>
+      <trans-unit id="ececa54d96395d3afa79cdce8e7e0bd6" approved="yes">
+        <source>Enter this code in your shopping cart to get the discount.</source>
+        <target state="final">За да получите отстъпката, въведете този код преди да завършите вашата следваща поръчка.</target>
+        <note>Line: 387</note>
       </trans-unit>
     </body>
   </file>
