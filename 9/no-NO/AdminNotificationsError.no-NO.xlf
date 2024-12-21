@@ -38,11 +38,6 @@
   </file>
   <file original="classes/Address.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
-      <trans-unit id="02af8c16ef4efa9fa9e2142372b0b90d" approved="yes">
-        <source>The %s field is required.</source>
-        <target state="final">Feltet %s er påkrevd.</target>
-        <note>Line: 380</note>
-      </trans-unit>
       <trans-unit id="fed3c8d832129d27b64c34fe410e7346" approved="yes">
         <source>Property %s is empty.</source>
         <target state="final">Egenskap %s er tom.</target>
@@ -128,11 +123,6 @@
   </file>
   <file original="classes/ImageManager.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
-      <trans-unit id="198dabd328b3e93b2eec2f6d76ab3eb1" approved="yes">
-        <source>Error while uploading image; please change your server's settings. (Error code: %s)</source>
-        <target state="final">Feil under opplasting av bilde; kontroller dine serverinnstillinger. (Feilkode: %s)</target>
-        <note>Line: 526</note>
-      </trans-unit>
       <trans-unit id="30fb35f3cf2b6e6e599b30dacc6c19c8" approved="yes">
         <source>Image is too large (%1$d kB). Maximum allowed: %2$d kB</source>
         <target state="final">Bildefilen er for stor (%1$d kB). Maksimum tillatt: %2$d kB</target>
@@ -185,16 +175,6 @@
   </file>
   <file original="classes/ObjectModel.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
-      <trans-unit id="87ecb83d305a6af0e0438a0587e31de8" approved="yes">
-        <source>%s is invalid.</source>
-        <target state="final">%s er ugyldig.</target>
-        <note>Line: 1226</note>
-      </trans-unit>
-      <trans-unit id="0e2338b37ab3dfeed544e8233b53d4e0" approved="yes">
-        <source>The %1$s field is too long (%2$d chars max).</source>
-        <target state="final">Feltet %1$s er for langt (maks %2$d tegn).</target>
-        <note>Line: 1091</note>
-      </trans-unit>
       <trans-unit id="872d428c40b36bba9fc5fafaa76c6f22" approved="yes">
         <source>Property %1$s has a bad value (allowed values are: %2$s).</source>
         <target state="final">Egenskap %1$s har en ugyldig verdi (tillatte verdier er: %2$s).</target>
@@ -248,6 +228,16 @@
   </file>
   <file original="classes/Uploader.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
+      <trans-unit id="a5a6e6da29a779cece21518a4ba337e2" approved="yes">
+        <source>The uploaded file exceeds the post_max_size directive in php.ini</source>
+        <target state="final">Den opplastede filen er større enn post_max_size directivet i php.ini</target>
+        <note>Line: 351</note>
+      </trans-unit>
+      <trans-unit id="0bff5a3a7cc19937dd97b8a995915222" approved="yes">
+        <source>File is too big. Current size is %1s, maximum size is %2s.</source>
+        <target state="final">Filen er for stor. Nåværende størrelse er %1s, maksimal størrelse er %2s.</target>
+        <note>Line: 372</note>
+      </trans-unit>
       <trans-unit id="fb0e0badcf5ac5c98f791447646f5ac8" approved="yes">
         <source>Server file size is different from local file size</source>
         <target state="final">Serverfilstørrelse er annerledes fra lokal filstørrelse</target>
@@ -295,117 +285,8 @@
       </trans-unit>
     </body>
   </file>
-  <file original="classes/Validate.php" source-language="en" target-language="no" datatype="plaintext">
-    <body>
-      <trans-unit id="f9c7939a8397ee022fefee2bdb3407af" approved="yes">
-        <source>Invalid URL</source>
-        <target state="final">Ugyldig URL</target>
-        <note>Line: 106</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="classes/controller/AdminController.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
-      <trans-unit id="5cd8dc8a58702a63e79af3ad9de16d7a" approved="yes">
-        <source>The %s field is invalid.</source>
-        <target state="final">Feltet %s er ugyldig.</target>
-        <note>Line: 1552</note>
-      </trans-unit>
-      <trans-unit id="11a257a80f8c8d76132470b171de6795" approved="yes">
-        <source>You do not have permission to delete this.</source>
-        <target state="final">Du har ikke tilgang til å slette dette.</target>
-        <note>Line: 3049</note>
-      </trans-unit>
-      <trans-unit id="d8d4c3b79181fdcca8cb5159208fa56a" approved="yes">
-        <source>You do not have permission to add this.</source>
-        <target state="final">Du har ikke tilgang til å legge til dette.</target>
-        <note>Line: 2970</note>
-      </trans-unit>
-      <trans-unit id="954b49d26a3a0986aca720a7095f2aa9" approved="yes">
-        <source>An error occurred while updating an object.</source>
-        <target state="final">En feil oppstod under oppdatering objekt.</target>
-        <note>Line: 1341</note>
-      </trans-unit>
-      <trans-unit id="1bdd228669c9dd995eb664737e60786e" approved="yes">
-        <source>You do not have permission to edit this.</source>
-        <target state="final">Du har ikke tillatelse til å redigere her.</target>
-        <note>Line: 3057</note>
-      </trans-unit>
-      <trans-unit id="d9b5b2302d57f3d13d5387ba9c99daae" approved="yes">
-        <source>An error occurred while creating an object.</source>
-        <target state="final">Det oppstod en feil under oppretting av objekt.</target>
-        <note>Line: 1219</note>
-      </trans-unit>
-      <trans-unit id="815e471ea2970db0b63b9b09feacc70f" approved="yes">
-        <source>An error occurred while updating the status for an object.</source>
-        <target state="final">Det oppstod en feil under oppdateringen av status for et objekt.</target>
-        <note>Line: 1426</note>
-      </trans-unit>
-      <trans-unit id="77ae44aa6c998166fcf1a87496278ad5" approved="yes">
-        <source>(cannot load object)</source>
-        <target state="final">(kan ikke laste objektet)</target>
-        <note>Line: 1427</note>
-      </trans-unit>
-      <trans-unit id="45ebc64529137a007889ee445d64611c" approved="yes">
-        <source>Failed to update the position.</source>
-        <target state="final">Kunne ikke oppdatere posisjon.</target>
-        <note>Line: 1429</note>
-      </trans-unit>
-      <trans-unit id="1b0cc7183377b461e298d0ebcf5f8548" approved="yes">
-        <source>An error occurred while updating the status.</source>
-        <target state="final">Det oppstod en feil under oppdatering av status.</target>
-        <note>Line: 4072</note>
-      </trans-unit>
-      <trans-unit id="b42cd3af71fc00ef268910709255320a" approved="yes">
-        <source>You do not have permission to view this.</source>
-        <target state="final">Du har ikke tillatelse til å se dette.</target>
-        <note>Line: 2989</note>
-      </trans-unit>
-      <trans-unit id="ddd4e7f16c2032d59cb4fb4b86576bc5" approved="yes">
-        <source>You must select at least one element to delete.</source>
-        <target state="final">Du må velge minst ett element som skal slettes.</target>
-        <note>Line: 3985</note>
-      </trans-unit>
-      <trans-unit id="7c422404cb037e6781b5a553060670a6" approved="yes">
-        <source>Can't delete #%id%</source>
-        <target state="final">Kan ikke slette #%id%</target>
-        <note>Line: 3976</note>
-      </trans-unit>
-      <trans-unit id="7f290594963a303db17a5e21dc4cf0b7" approved="yes">
-        <source>An error occurred while deleting the object.</source>
-        <target state="final">Det oppstod en feil under sletting objekt.</target>
-        <note>Line: 1175</note>
-      </trans-unit>
-      <trans-unit id="1d5dfad5ac415b412c20a05a89d43db6" approved="yes">
-        <source>An error occurred while deleting this selection.</source>
-        <target state="final">Det oppstod en feil under sletting av utvalg.</target>
-        <note>Line: 3982</note>
-      </trans-unit>
-      <trans-unit id="efb49241363bce74c7d7899333cdebb5" approved="yes">
-        <source>An error occurred when attempting to update the required fields.</source>
-        <target state="final">Feil under forsøk på oppdatering av obligatoriske felter.</target>
-        <note>Line: 1374</note>
-      </trans-unit>
-      <trans-unit id="a62d7ffa591311c930a2017b07e55394" approved="yes">
-        <source>The object cannot be loaded (the identifier is missing or invalid)</source>
-        <target state="final">Objektet kan ikke lastes (identifikator mangler eller er ugyldig)</target>
-        <note>Line: 1785</note>
-      </trans-unit>
-      <trans-unit id="10f97f4fea6d1ff9ffd1ed3260d6220d" approved="yes">
-        <source>Unable to delete associated images.</source>
-        <target state="final">Kunne ikke slette assosierte bilder.</target>
-        <note>Line: 1151</note>
-      </trans-unit>
-      <trans-unit id="66042fc205784775b028ba4ac7acebf3" approved="yes">
-        <source>Due to memory limit restrictions, this image cannot be loaded. Please increase your memory_limit value via your server's configuration settings.</source>
-        <target state="final">På grunn av minnerestriksjoner kan ikke dette bildet lastes. Øk din memory_limit verdi i dine serverinnstillinger.</target>
-        <note>Line: 3906</note>
-      </trans-unit>
-      <trans-unit id="b05c3c0bfce943b86e286e8e8103b6e5" approved="yes">
-        <source>An error occurred while uploading the image.</source>
-        <target state="final">Det oppstod en feil under opplasting av bilde.</target>
-        <note>Line: 3911</note>
-      </trans-unit>
       <trans-unit id="df2751083713a6a971814c07d88c3eb5" approved="yes">
         <source>The 'From' date format is invalid (YYYY-MM-DD)</source>
         <target state="final">'Fra' datoformatet er ugyldig (YYYY-MM-DD)</target>
@@ -479,40 +360,12 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
-  <file original="classes/controller/Controller.php" source-language="en" target-language="no" datatype="plaintext">
-    <body>
-      <trans-unit id="652122103181aa2752efaecab300edf0" approved="yes">
-        <source>Access denied.</source>
-        <target state="final">Ingen adgang.</target>
-        <note>Line: 332</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="classes/helper/HelperImageUploader.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
-      <trans-unit id="a5a6e6da29a779cece21518a4ba337e2" approved="yes">
-        <source>The uploaded file exceeds the post_max_size directive in php.ini</source>
-        <target state="final">Den opplastede filen er større enn post_max_size directivet i php.ini</target>
-        <note>Line: 53</note>
-      </trans-unit>
-      <trans-unit id="0bff5a3a7cc19937dd97b8a995915222" approved="yes">
-        <source>File is too big. Current size is %1s, maximum size is %2s.</source>
-        <target state="final">Filen er for stor. Nåværende størrelse er %1s, maksimal størrelse er %2s.</target>
-        <note>Line: 71</note>
-      </trans-unit>
       <trans-unit id="2368e33e3e01d53abb9b60061ab83903" approved="yes">
         <source>The uploaded file exceeds the upload_max_filesize directive in php.ini</source>
         <target state="final">Den opplastede filen overskrider direktivet upload_max_filesize i filen php.ini</target>
         <note>Line: 59</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="classes/helper/HelperList.php" source-language="en" target-language="no" datatype="plaintext">
-    <body>
-      <trans-unit id="ee77ea46b0c548ed60eadf31bdd68613" approved="yes">
-        <source>Bad SQL query</source>
-        <target state="final">Feil i SQL spørring</target>
-        <note>Line: 214</note>
       </trans-unit>
     </body>
   </file>
@@ -521,12 +374,12 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="fdc746e5693df31cf4f6ef789a8846c5" approved="yes">
         <source>file (%s) not writable</source>
         <target state="final">fil (%s) er ikke skrivbar</target>
-        <note>Line: 2885</note>
+        <note>Line: 2973</note>
       </trans-unit>
       <trans-unit id="a9de928286071f457fcbc45656353761" approved="yes">
         <source>directory (%s) not writable</source>
         <target state="final">mappe (%s) er ikke skrivbar</target>
-        <note>Line: 2985</note>
+        <note>Line: 3073</note>
       </trans-unit>
     </body>
   </file>
@@ -544,12 +397,31 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
-  <file original="controllers/admin/AdminCarrierWizardController.php" source-language="en" target-language="no" datatype="plaintext">
+  <file original="controllers/admin/AdminAccessController.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
+      <trans-unit id="a7eca295291f53a23ab7ba0a9c7fd9de" approved="yes">
+        <source>This functionality has been disabled.</source>
+        <target state="final">Denne funksjonaliteten er deaktivert.</target>
+        <note>Line: 166</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminCarriersController.php" source-language="en" target-language="no" datatype="plaintext">
+    <body>
+      <trans-unit id="d9b5b2302d57f3d13d5387ba9c99daae" approved="yes">
+        <source>An error occurred while creating an object.</source>
+        <target state="final">Det oppstod en feil under oppretting av objekt.</target>
+        <note>Line: 483</note>
+      </trans-unit>
+      <trans-unit id="954b49d26a3a0986aca720a7095f2aa9" approved="yes">
+        <source>An error occurred while updating an object.</source>
+        <target state="final">En feil oppstod under oppdatering objekt.</target>
+        <note>Line: 459</note>
+      </trans-unit>
       <trans-unit id="574af21ff5cd555457e49205287f7e9b" approved="yes">
         <source>The object cannot be loaded.</source>
         <target state="final">Kan ikke laste objekt</target>
-        <note>Line: 907</note>
+        <note>Line: 599</note>
       </trans-unit>
     </body>
   </file>
@@ -564,10 +436,24 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="controllers/admin/AdminCustomerThreadsController.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
+      <trans-unit id="84e4970c5c35731ac7084f09ca0a77cd" approved="yes">
+        <source>The email address is invalid.</source>
+        <target state="final">Ugyldig e-postadresse.</target>
+        <note>Line: 427</note>
+      </trans-unit>
       <trans-unit id="62867691cceb8f8a7e7683b924cc20c5" approved="yes">
         <source>An error occurred during the file upload process.</source>
         <target state="final">Det oppstod en feil under opplasting av filen.</target>
         <note>Line: 443</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminDashboardController.php" source-language="en" target-language="no" datatype="plaintext">
+    <body>
+      <trans-unit id="8f29c70fd66f50ce28b727cd40c6a3a3" approved="yes">
+        <source>The selected date range is not valid.</source>
+        <target state="final">Det valgte datointervallet er ugyldig.</target>
+        <note>Line: 325</note>
       </trans-unit>
     </body>
   </file>
@@ -580,8 +466,27 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
+  <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="no" datatype="plaintext">
+    <body>
+      <trans-unit id="e96814b3d9ff9ae65c8f2be2ee3e0555" approved="yes">
+        <source>Invalid tag(s) (%s)</source>
+        <target state="final">Ugyldig(e) merkelapp(er) (%s)</target>
+        <note>Line: 1996</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="controllers/admin/AdminModulesPositionsController.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
+      <trans-unit id="11a257a80f8c8d76132470b171de6795" approved="yes">
+        <source>You do not have permission to delete this.</source>
+        <target state="final">Du har ikke tilgang til å slette dette.</target>
+        <note>Line: 209</note>
+      </trans-unit>
+      <trans-unit id="d8d4c3b79181fdcca8cb5159208fa56a" approved="yes">
+        <source>You do not have permission to add this.</source>
+        <target state="final">Du har ikke tilgang til å legge til dette.</target>
+        <note>Line: 187</note>
+      </trans-unit>
       <trans-unit id="aeca1e74dd7d86d85886996651937da9" approved="yes">
         <source>No valid value for field exceptions has been defined.</source>
         <target state="final">Ingen gyldig verdi for feltet unntak.</target>
@@ -591,6 +496,15 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <source>An error occurred while transplanting the module to its hook.</source>
         <target state="final">En feil oppstod under forsøk på å transplantere denne modulen til dens krok.</target>
         <note>Line: 107</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminPdfController.php" source-language="en" target-language="no" datatype="plaintext">
+    <body>
+      <trans-unit id="b42cd3af71fc00ef268910709255320a" approved="yes">
+        <source>You do not have permission to view this.</source>
+        <target state="final">Du har ikke tillatelse til å se dette.</target>
+        <note>Line: 71</note>
       </trans-unit>
     </body>
   </file>
@@ -610,6 +524,26 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="controllers/admin/AdminShopUrlController.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
+      <trans-unit id="77ae44aa6c998166fcf1a87496278ad5" approved="yes">
+        <source>(cannot load object)</source>
+        <target state="final">(kan ikke laste objektet)</target>
+        <note>Line: 456</note>
+      </trans-unit>
+      <trans-unit id="1b0cc7183377b461e298d0ebcf5f8548" approved="yes">
+        <source>An error occurred while updating the status.</source>
+        <target state="final">Det oppstod en feil under oppdatering av status.</target>
+        <note>Line: 437</note>
+      </trans-unit>
+      <trans-unit id="815e471ea2970db0b63b9b09feacc70f" approved="yes">
+        <source>An error occurred while updating the status for an object.</source>
+        <target state="final">Det oppstod en feil under oppdateringen av status for et objekt.</target>
+        <note>Line: 456</note>
+      </trans-unit>
+      <trans-unit id="1bdd228669c9dd995eb664737e60786e" approved="yes">
+        <source>You do not have permission to edit this.</source>
+        <target state="final">Du har ikke tillatelse til å redigere her.</target>
+        <note>Line: 459</note>
+      </trans-unit>
       <trans-unit id="fd44c173b6a7897151a978b9015fec76" approved="yes">
         <source>You cannot disable the Main URL.</source>
         <target state="final">Du kan ikke deaktivere hovedurl.</target>
@@ -634,6 +568,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="controllers/admin/AdminStoresController.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
+      <trans-unit id="6660b316abc0970476a09df63028d553" approved="yes">
+        <source>It must be entered as follows:</source>
+        <target state="final">Må være skrevet som følger:</target>
+        <note>Line: 384</note>
+      </trans-unit>
       <trans-unit id="50b668816d2acbdb62484bb5ea5d25ab" approved="yes">
         <source>A Zip/Postal code is required.</source>
         <target state="final">Et postnummer er påkrevet.</target>
@@ -643,6 +582,15 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <source>The Zip/Postal code is invalid.</source>
         <target state="final">Ugyldig postnummer.</target>
         <note>Line: 388</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminTabsController.php" source-language="en" target-language="no" datatype="plaintext">
+    <body>
+      <trans-unit id="45ebc64529137a007889ee445d64611c" approved="yes">
+        <source>Failed to update the position.</source>
+        <target state="final">Kunne ikke oppdatere posisjon.</target>
+        <note>Line: 303</note>
       </trans-unit>
     </body>
   </file>
@@ -682,6 +630,15 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <source>Fatal error: The module directory does not exist.</source>
         <target state="final">Feilmelding: Mappen for moduler finnes ikke mer.</target>
         <note>Line: 1995</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/blockreassurance/controllers/admin/AdminBlockListingController.php" source-language="en" target-language="no" datatype="plaintext">
+    <body>
+      <trans-unit id="198dabd328b3e93b2eec2f6d76ab3eb1" approved="yes">
+        <source>Error while uploading image; please change your server's settings. (Error code: %s)</source>
+        <target state="final">Feil under opplasting av bilde; kontroller dine serverinnstillinger. (Feilkode: %s)</target>
+        <note>Line: 199</note>
       </trans-unit>
     </body>
   </file>
@@ -754,23 +711,42 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       
     </body>
   </file>
+  <file original="modules/ps_socialfollow/ps_socialfollow.php" source-language="en" target-language="no" datatype="plaintext">
+    <body>
+      <trans-unit id="f9c7939a8397ee022fefee2bdb3407af" approved="yes">
+        <source>Invalid URL</source>
+        <target state="final">Ugyldig URL</target>
+        <note>Line: 397</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/Adapter/AdminAPI/AdminAPIConfiguration.php" source-language="en" target-language="no" datatype="plaintext">
+    <body>
+      <trans-unit id="5cd8dc8a58702a63e79af3ad9de16d7a" approved="yes">
+        <source>The %s field is invalid.</source>
+        <target state="final">Feltet %s er ugyldig.</target>
+        <note>Line: 79</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/Adapter/Configuration/LogsConfiguration.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
       
       
     </body>
   </file>
-  <file original="src/Adapter/Import/Handler/ProductImportHandler.php" source-language="en" target-language="no" datatype="plaintext">
+  <file original="src/Adapter/Product/GeneralConfiguration.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
-      <trans-unit id="e96814b3d9ff9ae65c8f2be2ee3e0555" approved="yes">
-        <source>Invalid tag(s) (%s)</source>
-        <target state="final">Ugyldig(e) merkelapp(er) (%s)</target>
-        <note>Line: 1040</note>
-      </trans-unit>
+      
     </body>
   </file>
   <file original="src/Adapter/SqlManager/SqlQueryValidator.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
+      <trans-unit id="ee77ea46b0c548ed60eadf31bdd68613" approved="yes">
+        <source>Bad SQL query</source>
+        <target state="final">Feil i SQL spørring</target>
+        <note>Line: 60</note>
+      </trans-unit>
       <trans-unit id="0b5512610b0c8548345f37a58bf51360" approved="yes">
         <source>"%key%" does not exist.</source>
         <target state="final">"%key%" eksisterer ikke.</target>
@@ -778,12 +754,26 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/Core/ConstraintValidator/AddressZipCodeValidator.php" source-language="en" target-language="no" datatype="plaintext">
+  <file original="src/Adapter/Webservice/WebserviceKeyEraser.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
-      <trans-unit id="6660b316abc0970476a09df63028d553" approved="yes">
-        <source>It must be entered as follows:</source>
-        <target state="final">Må være skrevet som følger:</target>
-        <note>Line: 97</note>
+      <trans-unit id="7c422404cb037e6781b5a553060670a6" approved="yes">
+        <source>Can't delete #%id%</source>
+        <target state="final">Kan ikke slette #%id%</target>
+        <note>Line: 67</note>
+      </trans-unit>
+      <trans-unit id="ddd4e7f16c2032d59cb4fb4b86576bc5" approved="yes">
+        <source>You must select at least one element to delete.</source>
+        <target state="final">Du må velge minst ett element som skal slettes.</target>
+        <note>Line: 52</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/Core/Localization/Pack/Import/LocalizationPackImporter.php" source-language="en" target-language="no" datatype="plaintext">
+    <body>
+      <trans-unit id="0bd212ed072143f56147f2f119892d03" approved="yes">
+        <source>Invalid selection</source>
+        <target state="final">Ugyldig valg</target>
+        <note>Line: 150</note>
       </trans-unit>
     </body>
   </file>
@@ -795,25 +785,33 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/AdministrationController.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="87ecb83d305a6af0e0438a0587e31de8" approved="yes">
+        <source>%s is invalid.</source>
+        <target state="final">%s er ugyldig.</target>
+        <note>Line: 215</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/EmailController.php" source-language="en" target-language="no" datatype="plaintext">
+    <body>
+      <trans-unit id="652122103181aa2752efaecab300edf0" approved="yes">
+        <source>Access denied.</source>
+        <target state="final">Ingen adgang.</target>
+        <note>Line: 206</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/EmployeeController.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
+      <trans-unit id="df3c280f0aaf0cb0d5c25ab322a8bcf9" approved="yes">
+        <source>You do not have permission to update this.</source>
+        <target state="final">Du har ikke tillatelse til å oppdatere dette.</target>
+        <note>Line: 288</note>
+      </trans-unit>
       <trans-unit id="4094e2b5b97c257c5805be4554a7e589" approved="yes">
         <source>The password doesn't meet the password policy requirements.</source>
         <target state="final">Passordet møter ikke kravene til passordpolicyen.</target>
         <note>Line: 487</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ImportController.php" source-language="en" target-language="no" datatype="plaintext">
-    <body>
-      <trans-unit id="df3c280f0aaf0cb0d5c25ab322a8bcf9" approved="yes">
-        <source>You do not have permission to update this.</source>
-        <target state="final">Du har ikke tillatelse til å oppdatere dette.</target>
-        <note>Line: 361</note>
       </trans-unit>
     </body>
   </file>
@@ -853,6 +851,15 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Configure/ShopParameters/ContactsController.php" source-language="en" target-language="no" datatype="plaintext">
+    <body>
+      <trans-unit id="7c67bd3f540cf0ec5e7346bcea963013" approved="yes">
+        <source>The field %field_name% is required at least in your default language.</source>
+        <target state="final">Feltet %field_name% må fylles ut - i alle fall for ditt eget språk.</target>
+        <note>Line: 226</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/ShopParameters/MetaController.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
       <trans-unit id="e31f2dac034e1437efa1dbf499509963" approved="yes">
@@ -865,6 +872,25 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/ShopParameters/OrderStateController.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
       
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Improve/Design/CmsPageController.php" source-language="en" target-language="no" datatype="plaintext">
+    <body>
+      <trans-unit id="7f290594963a303db17a5e21dc4cf0b7" approved="yes">
+        <source>An error occurred while deleting the object.</source>
+        <target state="final">Det oppstod en feil under sletting objekt.</target>
+        <note>Line: 1068</note>
+      </trans-unit>
+      <trans-unit id="1d5dfad5ac415b412c20a05a89d43db6" approved="yes">
+        <source>An error occurred while deleting this selection.</source>
+        <target state="final">Det oppstod en feil under sletting av utvalg.</target>
+        <note>Line: 1063</note>
+      </trans-unit>
+      <trans-unit id="505bbc38260c669d0793757e414caecc" approved="yes">
+        <source>The %s field is not valid</source>
+        <target state="final">Feltet %s er ugyldig</target>
+        <note>Line: 1044</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/Design/MailThemeController.php" source-language="en" target-language="no" datatype="plaintext">
@@ -896,12 +922,12 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="4dedf35a15365e00b8a151fc1daed3af" approved="yes">
         <source>Image format not recognized, allowed format(s) is(are): .%s</source>
         <target state="final">Ukjent bildeformat, tillatt(e) format(er) er: .%s</target>
-        <note>Line: 544</note>
+        <note>Line: 539</note>
       </trans-unit>
       <trans-unit id="5dcea1234ac01d22f40ffc81d0bc4c2f" approved="yes">
         <source>File too large (limit of %s bytes).</source>
         <target state="final">Filen er for stor (grense på %s bytes).</target>
-        <note>Line: 555</note>
+        <note>Line: 550</note>
       </trans-unit>
     </body>
   </file>
@@ -916,15 +942,25 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/LanguageController.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
+      <trans-unit id="b05c3c0bfce943b86e286e8e8103b6e5" approved="yes">
+        <source>An error occurred while uploading the image.</source>
+        <target state="final">Det oppstod en feil under opplasting av bilde.</target>
+        <note>Line: 367</note>
+      </trans-unit>
+      <trans-unit id="66042fc205784775b028ba4ac7acebf3" approved="yes">
+        <source>Due to memory limit restrictions, this image cannot be loaded. Please increase your memory_limit value via your server's configuration settings.</source>
+        <target state="final">På grunn av minnerestriksjoner kan ikke dette bildet lastes. Øk din memory_limit verdi i dine serverinnstillinger.</target>
+        <note>Line: 362</note>
+      </trans-unit>
       <trans-unit id="c4ae3afc5d4c01919142f8b39cc5c1c5" approved="yes">
         <source>Image format not recognized, allowed formats are: .gif, .jpg, .png</source>
         <target state="final">Ukjent bildeformat, tillatte formater er: .gif, .jpg, .png</target>
-        <note>Line: 344</note>
+        <note>Line: 338</note>
       </trans-unit>
       <trans-unit id="25e49a9ca73fb59fa5fdb618f136ed48" approved="yes">
         <source>Max file size allowed is "%s" bytes.</source>
         <target state="final">Maksimal filstørrelse som er tillatt er "%s" bytes.</target>
-        <note>Line: 337</note>
+        <note>Line: 331</note>
       </trans-unit>
     </body>
   </file>
@@ -933,13 +969,26 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="d52eaeff31af37a4a7e0550008aff5df" approved="yes">
         <source>An error occurred while attempting to save.</source>
         <target state="final">En feil skjedde ved lagring.</target>
-        <note>Line: 415</note>
+        <note>Line: 412</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/TaxRulesGroupController.php" source-language="en" target-language="no" datatype="plaintext">
+    <body>
+      <trans-unit id="a62d7ffa591311c930a2017b07e55394" approved="yes">
+        <source>The object cannot be loaded (the identifier is missing or invalid)</source>
+        <target state="final">Objektet kan ikke lastes (identifikator mangler eller er ugyldig)</target>
+        <note>Line: 380</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/ZoneController.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
-      
+      <trans-unit id="02af8c16ef4efa9fa9e2142372b0b90d" approved="yes">
+        <source>The %s field is required.</source>
+        <target state="final">Feltet %s er påkrevd.</target>
+        <note>Line: 319</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/ModuleController.php" source-language="en" target-language="no" datatype="plaintext">
@@ -963,11 +1012,6 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/PrestaShopAdminController.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
-      <trans-unit id="a7eca295291f53a23ab7ba0a9c7fd9de" approved="yes">
-        <source>This functionality has been disabled.</source>
-        <target state="final">Denne funksjonaliteten er deaktivert.</target>
-        <note>Line: 400</note>
-      </trans-unit>
       <trans-unit id="5ab1978ae9ce868183a34316327be062" approved="yes">
         <source>An unexpected error occurred. [%type% code %code%]: %message%</source>
         <target state="final">En uventet feil oppstod [%type% kode %code%]: %message%</target>
@@ -982,6 +1026,16 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Address/AddressController.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
+      <trans-unit id="efb49241363bce74c7d7899333cdebb5" approved="yes">
+        <source>An error occurred when attempting to update the required fields.</source>
+        <target state="final">Feil under forsøk på oppdatering av obligatoriske felter.</target>
+        <note>Line: 623</note>
+      </trans-unit>
+      <trans-unit id="a031742eeff8c55743063075a141da16" approved="yes">
+        <source>Address fields contain invalid values.</source>
+        <target state="final">Adressefeltene inneholder ugyldige verdier.</target>
+        <note>Line: 629</note>
+      </trans-unit>
       <trans-unit id="acdcc688155bd653f51eaf710cac8af5" approved="yes">
         <source>Internal error #%s</source>
         <target state="final">Intern feil #%s</target>
@@ -1016,12 +1070,12 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/ManufacturerController.php" source-language="en" target-language="no" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/CategoryController.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
-      <trans-unit id="a031742eeff8c55743063075a141da16" approved="yes">
-        <source>Address fields contain invalid values.</source>
-        <target state="final">Adressefeltene inneholder ugyldige verdier.</target>
-        <note>Line: 750</note>
+      <trans-unit id="10f97f4fea6d1ff9ffd1ed3260d6220d" approved="yes">
+        <source>Unable to delete associated images.</source>
+        <target state="final">Kunne ikke slette assosierte bilder.</target>
+        <note>Line: 835</note>
       </trans-unit>
     </body>
   </file>
@@ -1035,7 +1089,7 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="fdc24eb8de33764908945df96c66812b" approved="yes">
         <source>To create combinations for all your stores, the selected attributes must be available on each of them.</source>
         <target state="final">For å lage kombinasjoner for alle butikkene dine, må de valgte attributtene være tilgjengelige i hver av dem.</target>
-        <note>Line: 732</note>
+        <note>Line: 730</note>
       </trans-unit>
     </body>
   </file>
@@ -1063,12 +1117,12 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="b64b49fceb6719b964e08084a3997eba" approved="yes">
         <source>Product price per unit is invalid</source>
         <target state="final">Produktpris per enhet er ugyldig.</target>
-        <note>Line: 1401</note>
+        <note>Line: 1399</note>
       </trans-unit>
       <trans-unit id="9ddbf7ca8d42128f5a6875b6b90252f7" approved="yes">
         <source>This product cannot be changed into a pack because it is already associated to another pack.</source>
         <target state="final">Dette produktet kan ikke endres til en pakke fordi det allerede er knyttet til en annen pakke.</target>
-        <note>Line: 1435</note>
+        <note>Line: 1433</note>
       </trans-unit>
     </body>
   </file>
@@ -1080,11 +1134,6 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/CartController.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
-      <trans-unit id="0bd212ed072143f56147f2f119892d03" approved="yes">
-        <source>Invalid selection</source>
-        <target state="final">Ugyldig valg</target>
-        <note>Line: 800</note>
-      </trans-unit>
       <trans-unit id="959c96ec640d353311dd9763d57daad6" approved="yes">
         <source>Please fill in all the required fields.</source>
         <target state="final">Vennligst fyll inn alle påkrevde felt</target>
@@ -1099,6 +1148,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
+      <trans-unit id="59af32e406ca8d94850e9a2a696c9dcd" approved="yes">
+        <source>Invalid value: the payment must be a positive amount.</source>
+        <target state="final">Ugyldig verdi: beløp må være et beløp større enn null</target>
+        <note>Line: 1924</note>
+      </trans-unit>
       <trans-unit id="059cfac7937209448c9fb1cf8f07e321" approved="yes">
         <source>Positive product quantity is required.</source>
         <target state="final">Et positivt antall produkter er påkrevd.</target>
@@ -1168,26 +1222,17 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/CustomerService/CustomerThread/ForwardCustomerThreadType.php" source-language="en" target-language="no" datatype="plaintext">
-    <body>
-      <trans-unit id="84e4970c5c35731ac7084f09ca0a77cd" approved="yes">
-        <source>The email address is invalid.</source>
-        <target state="final">Ugyldig e-postadresse.</target>
-        <note>Line: 81</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/Design/ImageSettings/ImageTypeType.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Improve/Design/Pages/CmsPageType.php" source-language="en" target-language="no" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Improve/Design/Pages/CmsPageCategoryType.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
-      <trans-unit id="7c67bd3f540cf0ec5e7346bcea963013" approved="yes">
-        <source>The field %field_name% is required at least in your default language.</source>
-        <target state="final">Feltet %field_name% må fylles ut - i alle fall for ditt eget språk.</target>
-        <note>Line: 207</note>
+      <trans-unit id="ce09b68fe980afcd2181771fe3bf5b31" approved="yes">
+        <source>This field cannot be longer than %limit% characters</source>
+        <target state="final">Feltet kan ikke inneholde flere enn %limit% tegn</target>
+        <note>Line: 179</note>
       </trans-unit>
     </body>
   </file>
@@ -1229,7 +1274,7 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Locations/ZoneType.php" source-language="en" target-language="no" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Locations/CountryType.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
       
     </body>
@@ -1241,30 +1286,20 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Login/ResetPasswordType.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
-      <trans-unit id="ce09b68fe980afcd2181771fe3bf5b31" approved="yes">
-        <source>This field cannot be longer than %limit% characters</source>
-        <target state="final">Feltet kan ikke inneholde flere enn %limit% tegn</target>
-        <note>Line: 155</note>
+      <trans-unit id="65efaaf9ead1beea82672beb5ace1fe2" approved="yes">
+        <source>The confirmation password doesn't match.</source>
+        <target state="final">Bekreftelsespassordet stemmer ikke overens.</target>
+        <note>Line: 83</note>
       </trans-unit>
       <trans-unit id="1a668ad0d1d7a5623d2710d2517bbdd1" approved="yes">
         <source>This field cannot be shorter than %limit% characters</source>
         <target state="final">Innholdet i feltet kan ikke inneholde færre enn %limit% tegn</target>
         <note>Line: 141</note>
       </trans-unit>
-      <trans-unit id="65efaaf9ead1beea82672beb5ace1fe2" approved="yes">
-        <source>The confirmation password doesn't match.</source>
-        <target state="final">Bekreftelsespassordet stemmer ikke overens.</target>
-        <note>Line: 83</note>
-      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/CatalogPriceRule/CatalogPriceRuleType.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
-      <trans-unit id="8f29c70fd66f50ce28b727cd40c6a3a3" approved="yes">
-        <source>The selected date range is not valid.</source>
-        <target state="final">Det valgte datointervallet er ugyldig.</target>
-        <note>Line: 149</note>
-      </trans-unit>
       <trans-unit id="2fe13fdedc51b372d555f49493993a7e" approved="yes">
         <source>Reduction value "%value%" is invalid. Allowed values from 0 to %max%</source>
         <target state="final">Redusjonsverdien "%value%" er ugyldig. Tillatte verdier er mellom 0 og %max%</target>
@@ -1328,21 +1363,12 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/OrderMessageType.php" source-language="en" target-language="no" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationItemType.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
-      <trans-unit id="505bbc38260c669d0793757e414caecc" approved="yes">
-        <source>The %s field is not valid</source>
-        <target state="final">Feltet %s er ugyldig</target>
-        <note>Line: 95</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/OrderPaymentType.php" source-language="en" target-language="no" datatype="plaintext">
-    <body>
-      <trans-unit id="59af32e406ca8d94850e9a2a696c9dcd" approved="yes">
-        <source>Invalid value: the payment must be a positive amount.</source>
-        <target state="final">Ugyldig verdi: beløp må være et beløp større enn null</target>
-        <note>Line: 119</note>
+      <trans-unit id="0e2338b37ab3dfeed544e8233b53d4e0" approved="yes">
+        <source>The %1$s field is too long (%2$d chars max).</source>
+        <target state="final">Feltet %1$s er for langt (maks %2$d tegn).</target>
+        <note>Line: 179</note>
       </trans-unit>
     </body>
   </file>
@@ -1351,26 +1377,26 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Pricing/SpecificPriceImpactType.php" source-language="en" target-language="no" datatype="plaintext">
+    <body>
+      <trans-unit id="e6510b8946a51a3d98ddcd431ca4fef9" approved="yes">
+        <source>Reduction value "%value%" is invalid. It must be greater than 0 and maximum %max%.</source>
+        <target state="final">Reduksjonsverdien "%value%" er ugyldig. Den må være større enn 0 og maks %max%.</target>
+        <note>Line: 79</note>
+      </trans-unit>
+      <trans-unit id="e7126a8aabc4f2862a1dfa85fc14d0fe" approved="yes">
+        <source>Reduction value "%value%" is invalid. It must be greater than 0.</source>
+        <target state="final">Reduksjonsverdien "%value%" er ugyldig. Den må være større enn 0.</target>
+        <note>Line: 84</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Type/EmailType.php" source-language="en" target-language="no" datatype="plaintext">
     <body>
       <trans-unit id="e267e2be02cf3e29f4ba53b5d97cf78a" approved="yes">
         <source>Invalid email address.</source>
         <target state="final">Ugyldig epost-adresse.</target>
         <note>Line: 55</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Type/PriceReductionType.php" source-language="en" target-language="no" datatype="plaintext">
-    <body>
-      <trans-unit id="e6510b8946a51a3d98ddcd431ca4fef9" approved="yes">
-        <source>Reduction value "%value%" is invalid. It must be greater than 0 and maximum %max%.</source>
-        <target state="final">Reduksjonsverdien "%value%" er ugyldig. Den må være større enn 0 og maks %max%.</target>
-        <note>Line: 115</note>
-      </trans-unit>
-      <trans-unit id="e7126a8aabc4f2862a1dfa85fc14d0fe" approved="yes">
-        <source>Reduction value "%value%" is invalid. It must be greater than 0.</source>
-        <target state="final">Reduksjonsverdien "%value%" er ugyldig. Den må være større enn 0.</target>
-        <note>Line: 120</note>
       </trans-unit>
     </body>
   </file>
