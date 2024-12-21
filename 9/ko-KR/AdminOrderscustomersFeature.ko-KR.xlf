@@ -118,11 +118,6 @@
         <target state="final">주문과 메시지 연대표</target>
         <note>Line: 126</note>
       </trans-unit>
-      <trans-unit id="3f8faa0e229dbd775fa36b8c15bf73a6" approved="yes">
-        <source>Forward this discussion to another employee</source>
-        <target state="final">다른 직원에게 이 토론 전달</target>
-        <note>Line: 47</note>
-      </trans-unit>
       <trans-unit id="33caa076f23f453dd4061726f3706325" approved="yes">
         <source>To:</source>
         <target state="final">까지:</target>
@@ -132,6 +127,11 @@
         <source>[1]%count%[/1] order(s) validated for a total amount of [2]%total%[/2]</source>
         <target state="final">총 금액 [2]%total%[/2] 에 대해 검증된 주문(들) [1]%count%[/1]</target>
         <note>Line: 74</note>
+      </trans-unit>
+      <trans-unit id="3f8faa0e229dbd775fa36b8c15bf73a6" approved="yes">
+        <source>Forward this discussion to another employee</source>
+        <target state="final">다른 직원에게 이 토론 전달</target>
+        <note>Line: 47</note>
       </trans-unit>
       <trans-unit id="d97477d6d8a838ead9348185bb5b6742" approved="yes">
         <source>Thread</source>
@@ -254,15 +254,6 @@
         <source>View this order</source>
         <target state="final">이 주문 보기</target>
         <note>Line: 59</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="classes/checkout/PaymentOptionsFinder.php" source-language="en" target-language="ko" datatype="plaintext">
-    <body>
-      <trans-unit id="71754079aaeefc5c6e745ddd59f8a35f" approved="yes">
-        <source>Free order</source>
-        <target state="final">무료 주문</target>
-        <note>Line: 72</note>
       </trans-unit>
     </body>
   </file>
@@ -438,8 +429,37 @@ Best regards,</source>
       </trans-unit>
     </body>
   </file>
+  <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="ko" datatype="plaintext">
+    <body>
+      <trans-unit id="b60bb13a87fe3ae5463aeb0980a5a8a1" approved="yes">
+        <source>Identification number</source>
+        <target state="final">식별 번호</target>
+        <note>Line: 410</note>
+      </trans-unit>
+      <trans-unit id="7cb32e708d6b961d476baced73d362bb" approved="yes">
+        <source>VAT number</source>
+        <target state="final">VAT 번호</target>
+        <note>Line: 409</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="controllers/admin/AdminReturnController.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
+      <trans-unit id="f374280fc7cab62785714cfca79b85a1" approved="yes">
+        <source>Enable returns</source>
+        <target state="final">반품 활성화</target>
+        <note>Line: 60</note>
+      </trans-unit>
+      <trans-unit id="f504da64aae2dcfd85ce565121248f93" approved="yes">
+        <source>Customer explanation</source>
+        <target state="final">고객 설명</target>
+        <note>Line: 116</note>
+      </trans-unit>
+      <trans-unit id="446faa7da2d42ba4ffeda73cb119dd91" approved="yes">
+        <source>Date issued</source>
+        <target state="final">발행일</target>
+        <note>Line: 52</note>
+      </trans-unit>
       <trans-unit id="587398fde24739a1b7ecdb632e6855dd" approved="yes">
         <source>Time limit of validity</source>
         <target state="final">유효 기한</target>
@@ -473,6 +493,15 @@ Best regards,</source>
         <source>Back office order</source>
         <target state="final">관리자 사이트 주문</target>
         <note>Line: 35</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/front/OrderConfirmationController.php" source-language="en" target-language="ko" datatype="plaintext">
+    <body>
+      <trans-unit id="71754079aaeefc5c6e745ddd59f8a35f" approved="yes">
+        <source>Free order</source>
+        <target state="final">무료 주문</target>
+        <note>Line: 291</note>
       </trans-unit>
     </body>
   </file>
@@ -590,12 +619,12 @@ Best regards,</source>
       <trans-unit id="c12a553ab6ad810580afa3f07aa9f51f" approved="yes">
         <source>not paid</source>
         <target state="final">지불 안됨</target>
-        <note>Line: 452</note>
+        <note>Line: 455</note>
       </trans-unit>
       <trans-unit id="8d4ac0e8c6f5900930ddfccd45d10abf" approved="yes">
         <source>overpaid</source>
         <target state="final">초과 지불</target>
-        <note>Line: 458</note>
+        <note>Line: 461</note>
       </trans-unit>
     </body>
   </file>
@@ -617,26 +646,26 @@ Best regards,</source>
       </trans-unit>
     </body>
   </file>
+  <file original="src/Core/Grid/Data/Factory/CartGridDataFactory.php" source-language="en" target-language="ko" datatype="plaintext">
+    <body>
+      <trans-unit id="90855df1b2d1240c62d81bd35d4cfb06" approved="yes">
+        <source>Non ordered</source>
+        <target state="final">주문 없음</target>
+        <note>Line: 128</note>
+      </trans-unit>
+      <trans-unit id="121401ccf0e3e23bcefe6a454f0f0601" approved="yes">
+        <source>Abandoned cart</source>
+        <target state="final">폐기된 장바구니</target>
+        <note>Line: 130</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/Core/Grid/Data/Factory/CreditSlipGridDataFactory.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
       <trans-unit id="a4c0c09247c3e56ff08971ff5558c596" approved="yes">
         <source>Download credit slip</source>
         <target state="final">신용 전표 다운로드</target>
         <note>Line: 88</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/Core/Grid/Definition/Factory/CartGridDefinitionFactory.php" source-language="en" target-language="ko" datatype="plaintext">
-    <body>
-      <trans-unit id="90855df1b2d1240c62d81bd35d4cfb06" approved="yes">
-        <source>Non ordered</source>
-        <target state="final">주문 없음</target>
-        <note>Line: 237</note>
-      </trans-unit>
-      <trans-unit id="121401ccf0e3e23bcefe6a454f0f0601" approved="yes">
-        <source>Abandoned cart</source>
-        <target state="final">폐기된 장바구니</target>
-        <note>Line: 238</note>
       </trans-unit>
     </body>
   </file>
@@ -660,6 +689,16 @@ Best regards,</source>
   </file>
   <file original="src/Core/Grid/Definition/Factory/CustomerGridDefinitionFactory.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
+      <trans-unit id="0f98b7f230f3c91292f0de4c99e263f2" approved="yes">
+        <source>Registration</source>
+        <target state="final">등록</target>
+        <note>Line: 207</note>
+      </trans-unit>
+      <trans-unit id="5e5914912e8d2f2765525840acf98bea" approved="yes">
+        <source>Last visit</source>
+        <target state="final">최근 방문</target>
+        <note>Line: 215</note>
+      </trans-unit>
       <trans-unit id="e6d0e1c8fc6a4fcf47869df87e04cd88" approved="yes">
         <source>Customers</source>
         <target state="final">고객</target>
@@ -667,17 +706,13 @@ Best regards,</source>
       </trans-unit>
     </body>
   </file>
-  <file original="src/Core/Grid/Definition/Factory/MerchandiseReturnGridDefinitionFactory.php" source-language="en" target-language="ko" datatype="plaintext">
-    <body>
-      <trans-unit id="446faa7da2d42ba4ffeda73cb119dd91" approved="yes">
-        <source>Date issued</source>
-        <target state="final">발행일</target>
-        <note>Line: 95</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/Core/Grid/Definition/Factory/OrderGridDefinitionFactory.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
+      <trans-unit id="94003250a2187a9f51b227b490e5ab6b" approved="yes">
+        <source>New client</source>
+        <target state="final">새 클라이언트</target>
+        <note>Line: 195</note>
+      </trans-unit>
       <trans-unit id="e13004b81566bfc42daa48372c15111b" approved="yes">
         <source>Change Order Status</source>
         <target state="final">주문 상태 변경</target>
@@ -725,15 +760,15 @@ Best regards,</source>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Customer/CustomerController.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
-      <trans-unit id="0f98b7f230f3c91292f0de4c99e263f2" approved="yes">
-        <source>Registration</source>
-        <target state="final">등록</target>
-        <note>Line: 821</note>
+      <trans-unit id="aac772216aecbeca0e86d06671fe985a" approved="yes">
+        <source>Birthday</source>
+        <target state="final">생일</target>
+        <note>Line: 989</note>
       </trans-unit>
-      <trans-unit id="5e5914912e8d2f2765525840acf98bea" approved="yes">
-        <source>Last visit</source>
-        <target state="final">최근 방문</target>
-        <note>Line: 822</note>
+      <trans-unit id="0fb69d35aaa499b0a2cb9417de976168" approved="yes">
+        <source>You can use this feature in a single-store context only. Switch contexts to enable it.</source>
+        <target state="final">이 기능은 하나의 상점 컨텍스트에만 사용할 수 있습니다. 활성화하려면 컨텍스트를 전환하세요.</target>
+        <note>Line: 1063</note>
       </trans-unit>
     </body>
   </file>
@@ -757,16 +792,6 @@ Best regards,</source>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
-      <trans-unit id="94003250a2187a9f51b227b490e5ab6b" approved="yes">
-        <source>New client</source>
-        <target state="final">새 클라이언트</target>
-        <note>Line: 377</note>
-      </trans-unit>
-      <trans-unit id="0fb69d35aaa499b0a2cb9417de976168" approved="yes">
-        <source>You can use this feature in a single-store context only. Switch contexts to enable it.</source>
-        <target state="final">이 기능은 하나의 상점 컨텍스트에만 사용할 수 있습니다. 활성화하려면 컨텍스트를 전환하세요.</target>
-        <note>Line: 196</note>
-      </trans-unit>
       <trans-unit id="e5d61db40a917c78a9d8e821dd0dd8de" approved="yes">
         <source>Add new order</source>
         <target state="final">새 주문 추가</target>
@@ -786,16 +811,6 @@ Best regards,</source>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Address/CustomerAddressType.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
-      <trans-unit id="7cb32e708d6b961d476baced73d362bb" approved="yes">
-        <source>VAT number</source>
-        <target state="final">VAT 번호</target>
-        <note>Line: 258</note>
-      </trans-unit>
-      <trans-unit id="b60bb13a87fe3ae5463aeb0980a5a8a1" approved="yes">
-        <source>Identification number</source>
-        <target state="final">식별 번호</target>
-        <note>Line: 137</note>
-      </trans-unit>
       <trans-unit id="03361eda68f746619c2ae3341eaa2f07" approved="yes">
         <source>Customer email</source>
         <target state="final">고객 이메일</target>
@@ -815,11 +830,6 @@ Best regards,</source>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Customer/CustomerType.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
-      <trans-unit id="aac772216aecbeca0e86d06671fe985a" approved="yes">
-        <source>Birthday</source>
-        <target state="final">생일</target>
-        <note>Line: 270</note>
-      </trans-unit>
       <trans-unit id="920bd1fb6d54c93fca528ce941464225" approved="yes">
         <source>Group access</source>
         <target state="final">그룹 접근</target>
@@ -872,11 +882,6 @@ Best regards,</source>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/CustomerService/MerchandiseReturn/MerchandiseReturnOptionsType.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
-      <trans-unit id="f374280fc7cab62785714cfca79b85a1" approved="yes">
-        <source>Enable returns</source>
-        <target state="final">반품 활성화</target>
-        <note>Line: 55</note>
-      </trans-unit>
       <trans-unit id="53f2da10b8b14a1db85d28656a4cc489" approved="yes">
         <source>Return window</source>
         <target state="final">반품 창</target>
@@ -886,15 +891,6 @@ Best regards,</source>
         <source>Return prefix</source>
         <target state="final">반품 말머리</target>
         <note>Line: 78</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/CustomerService/MerchandiseReturn/OrderReturnType.php" source-language="en" target-language="ko" datatype="plaintext">
-    <body>
-      <trans-unit id="f504da64aae2dcfd85ce565121248f93" approved="yes">
-        <source>Customer explanation</source>
-        <target state="final">고객 설명</target>
-        <note>Line: 90</note>
       </trans-unit>
     </body>
   </file>
@@ -1113,10 +1109,24 @@ Best regards,</source>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/Blocks/View/discounts.html.twig" source-language="en" target-language="ko" datatype="plaintext">
     <body>
+      <trans-unit id="a82868319826fb092b73968e661b5b38" approved="yes">
+        <source>Vouchers</source>
+        <target state="final">할인쿠폰</target>
+        <note>Line: 29</note>
+      </trans-unit>
       <trans-unit id="c8b4c13e6ad3227e192c118261c0e179" approved="yes">
         <source>%firstname% %lastname% has no discount vouchers</source>
         <target state="final">%lastname% %firstname% 는 할인 쿠폰이 없음</target>
         <note>Line: 43</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/Blocks/View/groups.html.twig" source-language="en" target-language="ko" datatype="plaintext">
+    <body>
+      <trans-unit id="c21f969b5f03d33d43e04f8f136e7682" approved="yes">
+        <source>default</source>
+        <target state="final">기본</target>
+        <note>Line: 58</note>
       </trans-unit>
     </body>
   </file>
@@ -1368,6 +1378,20 @@ Best regards,</source>
       </trans-unit>
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/CreditSlip/Blocks/pdf_by_date.html.twig" source-language="en" target-language="ko" datatype="plaintext">
+    <body>
+      <trans-unit id="9a0a4f0869ab12a21407047290750e7a" approved="yes">
+        <source>By date</source>
+        <target state="final">날짜 순</target>
+        <note>Line: 36</note>
+      </trans-unit>
+      <trans-unit id="1f0a7c7f8461359ede310318e3d44cd8" approved="yes">
+        <source>Generate PDF file by date</source>
+        <target state="final">일자별로 PDF 파일 생성</target>
+        <note>Line: 50</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Delivery/slip.html.twig" source-language="en" target-language="ko" datatype="plaintext">
     <body>
       <trans-unit id="afa0e443a161e904a03bbbc333506256" approved="yes">
@@ -1384,20 +1408,6 @@ Best regards,</source>
         <source>Delivery slip options</source>
         <target state="final">배송장 선택사항</target>
         <note>Line: 60</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Invoices/Blocks/generate_by_date.html.twig" source-language="en" target-language="ko" datatype="plaintext">
-    <body>
-      <trans-unit id="9a0a4f0869ab12a21407047290750e7a" approved="yes">
-        <source>By date</source>
-        <target state="final">날짜 순</target>
-        <note>Line: 34</note>
-      </trans-unit>
-      <trans-unit id="1f0a7c7f8461359ede310318e3d44cd8" approved="yes">
-        <source>Generate PDF file by date</source>
-        <target state="final">일자별로 PDF 파일 생성</target>
-        <note>Line: 57</note>
       </trans-unit>
     </body>
   </file>
@@ -1464,11 +1474,6 @@ Best regards,</source>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/Create/cart_rules.html.twig" source-language="en" target-language="ko" datatype="plaintext">
     <body>
-      <trans-unit id="a82868319826fb092b73968e661b5b38" approved="yes">
-        <source>Vouchers</source>
-        <target state="final">할인쿠폰</target>
-        <note>Line: 28</note>
-      </trans-unit>
       <trans-unit id="c89db248919294ef0291a6586f6e9a5b" approved="yes">
         <source>Search for a voucher</source>
         <target state="final">쿠폰 검색</target>
@@ -1629,6 +1634,11 @@ Best regards,</source>
         <target state="final">새 청구서 생성</target>
         <note>Line: 64</note>
       </trans-unit>
+      <trans-unit id="419fca4bebf663adb696fce24499ce0d" approved="yes">
+        <source>Edit the price</source>
+        <target state="final">가격 수정</target>
+        <note>Line: 68</note>
+      </trans-unit>
       <trans-unit id="4800d00deaa0a28a18151d76feb858cb" approved="yes">
         <source>New invoice information</source>
         <target state="final">새 청구서 정보</target>
@@ -1638,45 +1648,40 @@ Best regards,</source>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/customer.html.twig" source-language="en" target-language="ko" datatype="plaintext">
     <body>
-      <trans-unit id="85fb93a8ee9440499692da24a1621769" approved="yes">
-        <source>APE</source>
-        <target state="final">APE</target>
-        <note>Line: 122</note>
-      </trans-unit>
       <trans-unit id="4f68183551e5dbd7c341347ffe308682" approved="yes">
         <source>SIRET</source>
         <target state="final">SIRET</target>
-        <note>Line: 91</note>
+        <note>Line: 83</note>
+      </trans-unit>
+      <trans-unit id="85fb93a8ee9440499692da24a1621769" approved="yes">
+        <source>APE</source>
+        <target state="final">APE</target>
+        <note>Line: 86</note>
       </trans-unit>
       <trans-unit id="1402e450396cb76b53b95f6e1746d700" approved="yes">
         <source>Account registered:</source>
         <target state="final">계정 등록됨:</target>
-        <note>Line: 84</note>
-      </trans-unit>
-      <trans-unit id="73f60d0b9f47c606d71c17498266776e" approved="yes">
-        <source>Validated orders placed:</source>
-        <target state="final">검증된 접수 주문:</target>
-        <note>Line: 105</note>
+        <note>Line: 78</note>
       </trans-unit>
       <trans-unit id="5c63fcad7f3534fdcf4ee426a54a6e00" approved="yes">
         <source>Total spent since registration:</source>
         <target state="final">등록 이후 총 지출액:</target>
-        <note>Line: 113</note>
+        <note>Line: 79</note>
+      </trans-unit>
+      <trans-unit id="73f60d0b9f47c606d71c17498266776e" approved="yes">
+        <source>Validated orders placed:</source>
+        <target state="final">검증된 접수 주문:</target>
+        <note>Line: 80</note>
       </trans-unit>
       <trans-unit id="0c458988127eb2150776881e2ef3f0c4" approved="yes">
         <source>Shipping address</source>
         <target state="final">배송 주소</target>
-        <note>Line: 134</note>
+        <note>Line: 95</note>
       </trans-unit>
       <trans-unit id="601d8c4b9f72fc1862013c19b677a499" approved="yes">
         <source>Invoice address</source>
         <target state="final">청구서 주소</target>
-        <note>Line: 166</note>
-      </trans-unit>
-      <trans-unit id="66dc0eb61ab4157d6170494e6841a77a" approved="yes">
-        <source>Private note</source>
-        <target state="final">비공개 참고</target>
-        <note>Line: 206</note>
+        <note>Line: 127</note>
       </trans-unit>
     </body>
   </file>
@@ -1687,15 +1692,15 @@ Best regards,</source>
         <target state="final">상품 반품</target>
         <note>Line: 39</note>
       </trans-unit>
-      <trans-unit id="484f5a79672cebe198ebdde45a1d672f" approved="yes">
-        <source>Gift wrapping</source>
-        <target state="final">선물 포장</target>
-        <note>Line: 121</note>
-      </trans-unit>
       <trans-unit id="f28128b38efbc6134dc40751ee21fd29" approved="yes">
         <source>Documents</source>
         <target state="final">문서</target>
         <note>Line: 31</note>
+      </trans-unit>
+      <trans-unit id="484f5a79672cebe198ebdde45a1d672f" approved="yes">
+        <source>Gift wrapping</source>
+        <target state="final">선물 포장</target>
+        <note>Line: 121</note>
       </trans-unit>
     </body>
   </file>
@@ -1738,15 +1743,6 @@ Best regards,</source>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/edit_product_row.html.twig" source-language="en" target-language="ko" datatype="plaintext">
-    <body>
-      <trans-unit id="419fca4bebf663adb696fce24499ce0d" approved="yes">
-        <source>Edit the price</source>
-        <target state="final">가격 수정</target>
-        <note>Line: 51</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/history.html.twig" source-language="en" target-language="ko" datatype="plaintext">
     <body>
       <trans-unit id="d71940f24ee38ee09f6e06b908480bcf" approved="yes">
@@ -1758,11 +1754,7 @@ Best regards,</source>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/internal_note.html.twig" source-language="en" target-language="ko" datatype="plaintext">
     <body>
-      <trans-unit id="d505e651b2a69330a46db995ed98c243" approved="yes">
-        <source>Order note</source>
-        <target state="final">주문 참고</target>
-        <note>Line: 31</note>
-      </trans-unit>
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/linked_orders.html.twig" source-language="en" target-language="ko" datatype="plaintext">
@@ -1814,16 +1806,6 @@ Best regards,</source>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/order_actions.html.twig" source-language="en" target-language="ko" datatype="plaintext">
     <body>
-      <trans-unit id="a6ecff447ea8327b43f5d16a924fb6be" approved="yes">
-        <source>View invoice</source>
-        <target state="final">청구서 보기</target>
-        <note>Line: 71</note>
-      </trans-unit>
-      <trans-unit id="ddd167afc1441dcab03a9546c8ef8b51" approved="yes">
-        <source>View delivery slip</source>
-        <target state="final">배송장 보기</target>
-        <note>Line: 92</note>
-      </trans-unit>
       <trans-unit id="4ad439b4f7069964e258259e049fa90c" approved="yes">
         <source>Standard refund</source>
         <target state="final">표준 환불</target>
@@ -1838,6 +1820,16 @@ Best regards,</source>
         <source>Cancel products</source>
         <target state="final">상품 취소</target>
         <note>Line: 113</note>
+      </trans-unit>
+      <trans-unit id="a6ecff447ea8327b43f5d16a924fb6be" approved="yes">
+        <source>View invoice</source>
+        <target state="final">청구서 보기</target>
+        <note>Line: 71</note>
+      </trans-unit>
+      <trans-unit id="ddd167afc1441dcab03a9546c8ef8b51" approved="yes">
+        <source>View delivery slip</source>
+        <target state="final">배송장 보기</target>
+        <note>Line: 92</note>
       </trans-unit>
       <trans-unit id="be4254ec37a7bf0d2babdf04bce774cf" approved="yes">
         <source>Print order</source>
@@ -1892,15 +1884,25 @@ Best regards,</source>
         <target state="final">참조 번호:</target>
         <note>Line: 38</note>
       </trans-unit>
+      <trans-unit id="eb2187ba47b5e09ca57e01222fbd71e8" approved="yes">
+        <source>MPN:</source>
+        <target state="final">제조업체 부품 번호:</target>
+        <note>Line: 44</note>
+      </trans-unit>
       <trans-unit id="a9971a36ea6236b1577b27dba46775ed" approved="yes">
         <source>Supplier reference:</source>
         <target state="final">공급자 참고:</target>
-        <note>Line: 44</note>
+        <note>Line: 50</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/products.html.twig" source-language="en" target-language="ko" datatype="plaintext">
     <body>
+      <trans-unit id="cc61945cbbf46721a053467c395c666f" approved="yes">
+        <source>Refunded</source>
+        <target state="final">환불</target>
+        <note>Line: 79</note>
+      </trans-unit>
       <trans-unit id="77fd2b4393b379bedd30efcd5df02090" approved="yes">
         <source>Partial refund</source>
         <target state="final">일부 환불</target>
@@ -1910,16 +1912,6 @@ Best regards,</source>
         <source>Add a product</source>
         <target state="final">상품 추가</target>
         <note>Line: 153</note>
-      </trans-unit>
-      <trans-unit id="cc61945cbbf46721a053467c395c666f" approved="yes">
-        <source>Refunded</source>
-        <target state="final">환불</target>
-        <note>Line: 79</note>
-      </trans-unit>
-      <trans-unit id="cdba184783a0253218efd734da81a9da" approved="yes">
-        <source>Stock location</source>
-        <target state="final">재고 위치</target>
-        <note>Line: 76</note>
       </trans-unit>
       <trans-unit id="d9c66f411da5faef9c46d5b679214ae1" approved="yes">
         <source>Add a discount</source>
@@ -1972,11 +1964,6 @@ Best regards,</source>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/create.html.twig" source-language="en" target-language="ko" datatype="plaintext">
     <body>
-      <trans-unit id="c21f969b5f03d33d43e04f8f136e7682" approved="yes">
-        <source>default</source>
-        <target state="final">기본</target>
-        <note>Line: 52</note>
-      </trans-unit>
       <trans-unit id="03937134cedab9078be39a77ee3a48a0" approved="yes">
         <source>Group</source>
         <target state="final">그룹</target>
@@ -1991,6 +1978,11 @@ Best regards,</source>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/preview.html.twig" source-language="en" target-language="ko" datatype="plaintext">
     <body>
+      <trans-unit id="cdba184783a0253218efd734da81a9da" approved="yes">
+        <source>Stock location</source>
+        <target state="final">재고 위치</target>
+        <note>Line: 125</note>
+      </trans-unit>
       <trans-unit id="169d7487a2ea841e5cdd6b9052c54f37" approved="yes">
         <source>Shipping details</source>
         <target state="final">배송 상세</target>

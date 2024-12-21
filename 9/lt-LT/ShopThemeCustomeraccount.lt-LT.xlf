@@ -20,15 +20,20 @@
   </file>
   <file original="themes/classic/modules/ps_customeraccountlinks/ps_customeraccountlinks.tpl" source-language="en" target-language="lt" datatype="plaintext">
     <body>
-      <trans-unit id="7442e29d7d53e549b78d93c46b8cdcfc" approved="yes">
-        <source>Orders</source>
-        <target state="final">Užsakymai</target>
-        <note>Line: 50</note>
-      </trans-unit>
       <trans-unit id="4b877ba8588b19f1b278510bf2b57ebb" approved="yes">
         <source>Log me out</source>
         <target state="final">Atsijungti nuo sistemos</target>
         <note>Line: 62</note>
+      </trans-unit>
+      <trans-unit id="d4151a9a3959bdd43690735737034f27" approved="yes">
+        <source>Log in to your customer account</source>
+        <target state="final">Prisijungti prie savo paskyros</target>
+        <note>Line: 65</note>
+      </trans-unit>
+      <trans-unit id="7442e29d7d53e549b78d93c46b8cdcfc" approved="yes">
+        <source>Orders</source>
+        <target state="final">Užsakymai</target>
+        <note>Line: 50</note>
       </trans-unit>
       <trans-unit id="11035a6e3e5aceb6563c44c6e464e577" approved="yes">
         <source>Order tracking</source>
@@ -44,11 +49,6 @@
   </file>
   <file original="themes/classic/modules/ps_customersignin/ps_customersignin.tpl" source-language="en" target-language="lt" datatype="plaintext">
     <body>
-      <trans-unit id="d4151a9a3959bdd43690735737034f27" approved="yes">
-        <source>Log in to your customer account</source>
-        <target state="final">Prisijungti prie savo paskyros</target>
-        <note>Line: 48</note>
-      </trans-unit>
       <trans-unit id="2cbfb6731610056e1d0aaacde07096c1" approved="yes">
         <source>View my customer account</source>
         <target state="final">Peržiureti mano paskyrą</target>
@@ -72,11 +72,6 @@
   </file>
   <file original="themes/classic/templates/checkout/_partials/steps/personal-information.tpl" source-language="en" target-language="lt" datatype="plaintext">
     <body>
-      <trans-unit id="2fdfd506efea08144c0794c32ca8250a" approved="yes">
-        <source>Create an account</source>
-        <target state="final">Sukurti paskyrą</target>
-        <note>Line: 63</note>
-      </trans-unit>
       <trans-unit id="6280ed214163d6e214763ff970910cdc" approved="yes">
         <source>Connected as [1]%firstname% %lastname%[/1].</source>
         <target state="final">Prisijungęs [1]%firstname% %lastname%[/1].</target>
@@ -86,15 +81,6 @@
         <source>Not you? [1]Log out[/1]</source>
         <target state="final">Ne jūs? [1]Atsijunkite[/1]</target>
         <note>Line: 26</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="themes/classic/templates/checkout/order-confirmation.tpl" source-language="en" target-language="lt" datatype="plaintext">
-    <body>
-      <trans-unit id="755bb0834a77079fd1330b555b69e6bf" approved="yes">
-        <source>You have given permission to receive your order in recycled packaging.</source>
-        <target state="final">Jūs davėte leidimą gauti jūsų užsakymą perdirbtoje pakuotoje.</target>
-        <note>Line: 70</note>
       </trans-unit>
     </body>
   </file>
@@ -124,6 +110,11 @@
         <target state="final">Grįžti į savo paskyrą</target>
         <note>Line: 28</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="themes/classic/templates/customer/_partials/order-detail-no-return.tpl" source-language="en" target-language="lt" datatype="plaintext">
+    <body>
+      
     </body>
   </file>
   <file original="themes/classic/templates/customer/_partials/order-detail-return.tpl" source-language="en" target-language="lt" datatype="plaintext">
@@ -273,20 +264,15 @@
   </file>
   <file original="themes/classic/templates/customer/my-account.tpl" source-language="en" target-language="lt" datatype="plaintext">
     <body>
-      <trans-unit id="a82868319826fb092b73968e661b5b38" approved="yes">
-        <source>Vouchers</source>
-        <target state="final">Kuponai</target>
-        <note>Line: 80</note>
-      </trans-unit>
-      <trans-unit id="d1a365ea7809ae5831c6d9f86886630c" approved="yes">
-        <source>Credit slips</source>
-        <target state="final">Kredito kvitai</target>
-        <note>Line: 71</note>
-      </trans-unit>
       <trans-unit id="f2fc7490cbdb0db5cd6f1a4e7edb0da1" approved="yes">
         <source>Your account</source>
         <target state="final">Jūsų paskyra</target>
         <note>Line: 28</note>
+      </trans-unit>
+      <trans-unit id="a82868319826fb092b73968e661b5b38" approved="yes">
+        <source>Vouchers</source>
+        <target state="final">Kuponai</target>
+        <note>Line: 80</note>
       </trans-unit>
       <trans-unit id="cea4dedd9147586b361b90e900944690" approved="yes">
         <source>Order history and details</source>
@@ -308,11 +294,6 @@
         <target state="final">Pridėti naują adresą</target>
         <note>Line: 53</note>
       </trans-unit>
-      <trans-unit id="e06d7593c1cd6dabef450be6c3da7091" approved="yes">
-        <source>Merchandise returns</source>
-        <target state="final">Prekių grąžinimai</target>
-        <note>Line: 89</note>
-      </trans-unit>
     </body>
   </file>
   <file original="themes/classic/templates/customer/order-detail.tpl" source-language="en" target-language="lt" datatype="plaintext">
@@ -331,6 +312,11 @@
         <source>Download your invoice as a PDF file.</source>
         <target state="final">Parsisiųsti sąskaitą kaip PDF bylą.</target>
         <note>Line: 64</note>
+      </trans-unit>
+      <trans-unit id="755bb0834a77079fd1330b555b69e6bf" approved="yes">
+        <source>You have given permission to receive your order in recycled packaging.</source>
+        <target state="final">Jūs davėte leidimą gauti jūsų užsakymą perdirbtoje pakuotoje.</target>
+        <note>Line: 71</note>
       </trans-unit>
       <trans-unit id="e14bc5cef02df7369b604ea3885adb96" approved="yes">
         <source>You have requested gift wrapping for this order.</source>
@@ -356,6 +342,11 @@
   </file>
   <file original="themes/classic/templates/customer/order-follow.tpl" source-language="en" target-language="lt" datatype="plaintext">
     <body>
+      <trans-unit id="e06d7593c1cd6dabef450be6c3da7091" approved="yes">
+        <source>Merchandise returns</source>
+        <target state="final">Prekių grąžinimai</target>
+        <note>Line: 28</note>
+      </trans-unit>
       <trans-unit id="a240fa27925a635b08dc28c9e4f9216d" approved="yes">
         <source>Order</source>
         <target state="final">Užsakymas</target>
@@ -459,6 +450,11 @@
   </file>
   <file original="themes/classic/templates/customer/order-slip.tpl" source-language="en" target-language="lt" datatype="plaintext">
     <body>
+      <trans-unit id="d1a365ea7809ae5831c6d9f86886630c" approved="yes">
+        <source>Credit slips</source>
+        <target state="final">Kredito kvitai</target>
+        <note>Line: 28</note>
+      </trans-unit>
       <trans-unit id="5996bd24bf8b740b8205e0d9fe1a0709" approved="yes">
         <source>Credit slips you have received after canceled orders.</source>
         <target state="final">Jūsų gauti kreditiniai dokumentai po atšauktų užsakymų.</target>
@@ -510,6 +506,11 @@
   </file>
   <file original="themes/classic/templates/customer/registration.tpl" source-language="en" target-language="lt" datatype="plaintext">
     <body>
+      <trans-unit id="2fdfd506efea08144c0794c32ca8250a" approved="yes">
+        <source>Create an account</source>
+        <target state="final">Sukurti paskyrą</target>
+        <note>Line: 28</note>
+      </trans-unit>
       <trans-unit id="21bdc5689c12595ae14298354d5550d5" approved="yes">
         <source>Already have an account?</source>
         <target state="final">Jau turite paskyrą?</target>

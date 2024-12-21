@@ -38,43 +38,52 @@
       </trans-unit>
     </body>
   </file>
-  <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_mails.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
+  <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_form.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="013afdec32d184dc61040022a45409ca" approved="yes">
+        <source>Click on the title of a section to open its fieldsets.</source>
+        <target state="final">点击章节的标题来打开字段设置。</target>
+        <note>Line: 53</note>
+      </trans-unit>
       <trans-unit id="f75f58622599fa286aa5bdd94fb4404d" approved="yes">
         <source>Some of these expressions use this special syntax: %s.</source>
         <target state="final">一些句子表达使用这种特别的语法:%s。</target>
-        <note>Line: 68</note>
+        <note>Line: 84</note>
       </trans-unit>
       <trans-unit id="919a5a4550f8f714f806f5590ed1b66a" approved="yes">
         <source>There are [1]%replace%[/1] products</source>
         <target state="final">有[1]%replace%[/1] 商品</target>
-        <note>Line: 73</note>
+        <note>Line: 89</note>
       </trans-unit>
       <trans-unit id="06fb8ada95eab3e2b5d4a3e834a9ab10" approved="yes">
         <source>"%s" will be replaced by a number.</source>
         <target state="final">"%s" 将被数字取代。</target>
-        <note>Line: 73</note>
+        <note>Line: 89</note>
       </trans-unit>
       <trans-unit id="cfe3ecf9fcc29ce36de15ee87cebd12b" approved="yes">
         <source>List of pages in [1]%replace%[/1]</source>
         <target state="final">在[1]%replace%[/1] 的页面列表</target>
-        <note>Line: 74</note>
+        <note>Line: 90</note>
       </trans-unit>
       <trans-unit id="a24386154e350ad7c608af84cdb4be11" approved="yes">
         <source>"%s" will be replaced by a string.</source>
         <target state="final">“%s” 将由字串替代。</target>
-        <note>Line: 74</note>
+        <note>Line: 90</note>
       </trans-unit>
       <trans-unit id="9b4ca9541e2c3e7215a5fac1f4cecd2f" approved="yes">
         <source>Feature: [1]%1%[/1] ([1]%2%[/1] values)</source>
         <target state="final">特性[1]%1%[/1] ([1]%2%[/1] 数值）</target>
-        <note>Line: 75</note>
+        <note>Line: 91</note>
       </trans-unit>
       <trans-unit id="031775df42ef41141d4b4c7d4db89d65" approved="yes">
         <source>The numbers enable you to reorder the variables when necessary.</source>
         <target state="final">这些数量可以让您在必要的情况下重新订购差异数量</target>
-        <note>Line: 75</note>
+        <note>Line: 91</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_mails.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
+    <body>
       <trans-unit id="54524210ee89080b3da6c88a11c6d438" approved="yes">
         <source>You must use this syntax in your translations. Here are several examples:</source>
         <target state="final">您必须在翻译中使用此语法。以下是几个例子：</target>
@@ -84,11 +93,6 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_modules.tpl" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
-      <trans-unit id="013afdec32d184dc61040022a45409ca" approved="yes">
-        <source>Click on the title of a section to open its fieldsets.</source>
-        <target state="final">点击章节的标题来打开字段设置。</target>
-        <note>Line: 52</note>
-      </trans-unit>
       <trans-unit id="b3f4e400fe40a25d1c2b0c59e63668cf" approved="yes">
         <source>Here you can modify translations for all installed module.</source>
         <target state="final">在这里你可以更改所有已装模块的翻译。</target>
@@ -103,6 +107,11 @@
   </file>
   <file original="controllers/admin/AdminCountriesController.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
+      <trans-unit id="98ae2fd635525d30d2b0e8b643f9a23c" approved="yes">
+        <source>Indicate the format of the postal code: use L for a letter, N for a number, and C for the country's ISO 3166-1 alpha-2 code. For example, NNNNN for the United States, France, Poland and many other; LNNNNLLL for Argentina, etc. If you do not want PrestaShop to verify the postal code for this country, leave it blank.</source>
+        <target state="final">显示的邮政编码格式：使用L表示字母，N代表数字，C为国家 ISO 3166-1 alpha-2 码。例如，NNNNN为美国，法国，波兰和其他许多; LNNNNLLL为阿根廷等，如果你不希望 Prestashop 验证某个国家验证邮政编码，请留空白。</target>
+        <note>Line: 276</note>
+      </trans-unit>
       <trans-unit id="abb056fd74a8bdf858dbe3e68c5ea97c" approved="yes">
         <source>Restrict country selections in front office to those covered by active carriers</source>
         <target state="final">限制前台可以选择的国家，只包含货运商涵盖的区域。</target>
@@ -164,6 +173,25 @@
       </trans-unit>
     </body>
   </file>
+  <file original="src/Core/Grid/Definition/Factory/LanguageGridDefinitionFactory.php" source-language="en" target-language="zh-CN" datatype="plaintext">
+    <body>
+      <trans-unit id="56b533c60a6c6d0b172c4ba5ec971eeb" approved="yes">
+        <source>Search ISO code</source>
+        <target state="final">搜索ISO代码</target>
+        <note>Line: 216</note>
+      </trans-unit>
+      <trans-unit id="0534d3a8a5d85f380852d74575f77744" approved="yes">
+        <source>Search code</source>
+        <target state="final">搜索代码</target>
+        <note>Line: 226</note>
+      </trans-unit>
+      <trans-unit id="5009286a303ef99a9b58979e866476a1" approved="yes">
+        <source>Search date format</source>
+        <target state="final">搜索日期格式</target>
+        <note>Line: 256</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Currencies/CurrencyType.php" source-language="en" target-language="zh-CN" datatype="plaintext">
     <body>
       <trans-unit id="3b3f9615aaf2ed5974c15881a08e0b8e" approved="yes">
@@ -192,47 +220,47 @@
       <trans-unit id="8ffd2caeab1261d512816def0690329d" approved="yes">
         <source>Two-letter ISO code (e.g. FR, EN, DE).</source>
         <target state="final">两个字母ISO代码（例如，FR，EN，DE）。</target>
-        <note>Line: 92</note>
+        <note>Line: 93</note>
       </trans-unit>
       <trans-unit id="5b5f150ebfc12cefc4bf889c3fcb7149" approved="yes">
         <source>IETF language tag (e.g. en-US, pt-BR).</source>
         <target state="final">IETF语言标签（例如，EN-US，PT-BR）。</target>
-        <note>Line: 107</note>
+        <note>Line: 120</note>
       </trans-unit>
       <trans-unit id="cb832fdb1310ad1cb4b36705e3e043d2" approved="yes">
         <source>Short date format (e.g., Y-m-d).</source>
         <target state="final">段日期格式（比如：年-月-日）</target>
-        <note>Line: 119</note>
+        <note>Line: 124</note>
       </trans-unit>
       <trans-unit id="11fb95583b7d678407bb64582a2ca3c6" approved="yes">
         <source>Full date format (e.g., Y-m-d H:i:s).</source>
         <target state="final">完整的日期格式（比如：年-月-日 小时：秒）</target>
-        <note>Line: 135</note>
+        <note>Line: 140</note>
       </trans-unit>
       <trans-unit id="342634d26b64e430960c263ab202e02d" approved="yes">
         <source>Upload the country flag from your computer.</source>
         <target state="final">上传国旗</target>
-        <note>Line: 151</note>
+        <note>Line: 156</note>
       </trans-unit>
       <trans-unit id="2e5dbe80db3202a360b608da07f1c2de" approved="yes">
         <source>Image is displayed when no picture is found.</source>
         <target state="final">未找到图片时显示图片。</target>
-        <note>Line: 161</note>
+        <note>Line: 166</note>
       </trans-unit>
       <trans-unit id="6f570144d5f5ca1404b40cab00a9fa3f" approved="yes">
         <source>Enable if this language is read from right to left.</source>
         <target state="final">如果启用该语言是从右到左阅读。</target>
-        <note>Line: 172</note>
+        <note>Line: 177</note>
       </trans-unit>
       <trans-unit id="6235bd7718134ee703c36fb7d3c78e69" approved="yes">
         <source>(Experimental: your theme must be compliant with RTL languages).</source>
         <target state="final">（实验：你的主题必须与RTL语言兼容）。</target>
-        <note>Line: 175</note>
+        <note>Line: 180</note>
       </trans-unit>
       <trans-unit id="1e817248a18ffae64e10be49a46fa9ee" approved="yes">
         <source>Activate this language.</source>
         <target state="final">激活此语言。</target>
-        <note>Line: 182</note>
+        <note>Line: 187</note>
       </trans-unit>
     </body>
   </file>
@@ -309,15 +337,6 @@
         <source>The default currency used in your shop.</source>
         <target state="final">在您的店铺使用的默认货币。</target>
         <note>Line: 125</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Locations/CountryType.php" source-language="en" target-language="zh-CN" datatype="plaintext">
-    <body>
-      <trans-unit id="98ae2fd635525d30d2b0e8b643f9a23c" approved="yes">
-        <source>Indicate the format of the postal code: use L for a letter, N for a number, and C for the country's ISO 3166-1 alpha-2 code. For example, NNNNN for the United States, France, Poland and many other; LNNNNLLL for Argentina, etc. If you do not want PrestaShop to verify the postal code for this country, leave it blank.</source>
-        <target state="final">显示的邮政编码格式：使用L表示字母，N代表数字，C为国家 ISO 3166-1 alpha-2 码。例如，NNNNN为美国，法国，波兰和其他许多; LNNNNLLL为阿根廷等，如果你不希望 Prestashop 验证某个国家验证邮政编码，请留空白。</target>
-        <note>Line: 138</note>
       </trans-unit>
     </body>
   </file>
