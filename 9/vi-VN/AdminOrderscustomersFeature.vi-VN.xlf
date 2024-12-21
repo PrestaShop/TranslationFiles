@@ -123,16 +123,6 @@
         <target state="final">Dòng thời gian tin nhắn và đơn hàng</target>
         <note>Line: 126</note>
       </trans-unit>
-      <trans-unit id="76a6d3995bf5a66e8c92d84401d6435e" approved="yes">
-        <source>Your answer to</source>
-        <target state="final">Trả lời của bạn đến</target>
-        <note>Line: 96</note>
-      </trans-unit>
-      <trans-unit id="3f8faa0e229dbd775fa36b8c15bf73a6" approved="yes">
-        <source>Forward this discussion to another employee</source>
-        <target state="final">Chuyển tiếp cuộc thảo luận này đến một nhân viên khác</target>
-        <note>Line: 47</note>
-      </trans-unit>
       <trans-unit id="33caa076f23f453dd4061726f3706325" approved="yes">
         <source>To:</source>
         <target state="final">Đến:</target>
@@ -142,6 +132,16 @@
         <source>[1]%count%[/1] order(s) validated for a total amount of [2]%total%[/2]</source>
         <target state="final">[1]%count%[/1] đơn hàng đã được xác thực với tổng số tiền [2]%total%[/2]</target>
         <note>Line: 74</note>
+      </trans-unit>
+      <trans-unit id="3f8faa0e229dbd775fa36b8c15bf73a6" approved="yes">
+        <source>Forward this discussion to another employee</source>
+        <target state="final">Chuyển tiếp cuộc thảo luận này đến một nhân viên khác</target>
+        <note>Line: 47</note>
+      </trans-unit>
+      <trans-unit id="76a6d3995bf5a66e8c92d84401d6435e" approved="yes">
+        <source>Your answer to</source>
+        <target state="final">Trả lời của bạn đến</target>
+        <note>Line: 96</note>
       </trans-unit>
       <trans-unit id="d97477d6d8a838ead9348185bb5b6742" approved="yes">
         <source>Thread</source>
@@ -264,15 +264,6 @@
         <source>View this order</source>
         <target state="final">Xem đơn hàng này</target>
         <note>Line: 59</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="classes/checkout/PaymentOptionsFinder.php" source-language="en" target-language="vi" datatype="plaintext">
-    <body>
-      <trans-unit id="71754079aaeefc5c6e745ddd59f8a35f" approved="yes">
-        <source>Free order</source>
-        <target state="final">Miễn phí đặt hàng</target>
-        <note>Line: 72</note>
       </trans-unit>
     </body>
   </file>
@@ -449,8 +440,37 @@ Trân trọng,</target>
       </trans-unit>
     </body>
   </file>
+  <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="vi" datatype="plaintext">
+    <body>
+      <trans-unit id="b60bb13a87fe3ae5463aeb0980a5a8a1" approved="yes">
+        <source>Identification number</source>
+        <target state="final">Số chứng minh nhân dân</target>
+        <note>Line: 410</note>
+      </trans-unit>
+      <trans-unit id="7cb32e708d6b961d476baced73d362bb" approved="yes">
+        <source>VAT number</source>
+        <target state="final">Mã số thuế</target>
+        <note>Line: 409</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="controllers/admin/AdminReturnController.php" source-language="en" target-language="vi" datatype="plaintext">
     <body>
+      <trans-unit id="f374280fc7cab62785714cfca79b85a1" approved="yes">
+        <source>Enable returns</source>
+        <target state="final">Cho phép đổi trả hàng</target>
+        <note>Line: 60</note>
+      </trans-unit>
+      <trans-unit id="f504da64aae2dcfd85ce565121248f93" approved="yes">
+        <source>Customer explanation</source>
+        <target state="final">Khách hàng giải thích</target>
+        <note>Line: 116</note>
+      </trans-unit>
+      <trans-unit id="446faa7da2d42ba4ffeda73cb119dd91" approved="yes">
+        <source>Date issued</source>
+        <target state="final">Ngày phát hành</target>
+        <note>Line: 52</note>
+      </trans-unit>
       <trans-unit id="587398fde24739a1b7ecdb632e6855dd" approved="yes">
         <source>Time limit of validity</source>
         <target state="final">Thời gian hiệu lực</target>
@@ -484,6 +504,15 @@ Trân trọng,</target>
         <source>Back office order</source>
         <target state="final">Đơn hàng Back office</target>
         <note>Line: 35</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/front/OrderConfirmationController.php" source-language="en" target-language="vi" datatype="plaintext">
+    <body>
+      <trans-unit id="71754079aaeefc5c6e745ddd59f8a35f" approved="yes">
+        <source>Free order</source>
+        <target state="final">Miễn phí đặt hàng</target>
+        <note>Line: 291</note>
       </trans-unit>
     </body>
   </file>
@@ -601,12 +630,12 @@ Trân trọng,</target>
       <trans-unit id="c12a553ab6ad810580afa3f07aa9f51f" approved="yes">
         <source>not paid</source>
         <target state="final">chưa thanh toán</target>
-        <note>Line: 452</note>
+        <note>Line: 455</note>
       </trans-unit>
       <trans-unit id="8d4ac0e8c6f5900930ddfccd45d10abf" approved="yes">
         <source>overpaid</source>
         <target state="final">trả thừa</target>
-        <note>Line: 458</note>
+        <note>Line: 461</note>
       </trans-unit>
     </body>
   </file>
@@ -624,26 +653,26 @@ Trân trọng,</target>
       
     </body>
   </file>
+  <file original="src/Core/Grid/Data/Factory/CartGridDataFactory.php" source-language="en" target-language="vi" datatype="plaintext">
+    <body>
+      <trans-unit id="90855df1b2d1240c62d81bd35d4cfb06" approved="yes">
+        <source>Non ordered</source>
+        <target state="final">Không được đặt hàng</target>
+        <note>Line: 128</note>
+      </trans-unit>
+      <trans-unit id="121401ccf0e3e23bcefe6a454f0f0601" approved="yes">
+        <source>Abandoned cart</source>
+        <target state="final">Giỏ hàng bị cấm</target>
+        <note>Line: 130</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/Core/Grid/Data/Factory/CreditSlipGridDataFactory.php" source-language="en" target-language="vi" datatype="plaintext">
     <body>
       <trans-unit id="a4c0c09247c3e56ff08971ff5558c596" approved="yes">
         <source>Download credit slip</source>
         <target state="final">Tải về phiếu tín dụng</target>
         <note>Line: 88</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/Core/Grid/Definition/Factory/CartGridDefinitionFactory.php" source-language="en" target-language="vi" datatype="plaintext">
-    <body>
-      <trans-unit id="90855df1b2d1240c62d81bd35d4cfb06" approved="yes">
-        <source>Non ordered</source>
-        <target state="final">Không được đặt hàng</target>
-        <note>Line: 237</note>
-      </trans-unit>
-      <trans-unit id="121401ccf0e3e23bcefe6a454f0f0601" approved="yes">
-        <source>Abandoned cart</source>
-        <target state="final">Giỏ hàng bị cấm</target>
-        <note>Line: 238</note>
       </trans-unit>
     </body>
   </file>
@@ -667,6 +696,16 @@ Trân trọng,</target>
   </file>
   <file original="src/Core/Grid/Definition/Factory/CustomerGridDefinitionFactory.php" source-language="en" target-language="vi" datatype="plaintext">
     <body>
+      <trans-unit id="0f98b7f230f3c91292f0de4c99e263f2" approved="yes">
+        <source>Registration</source>
+        <target state="final">Đăng ký</target>
+        <note>Line: 207</note>
+      </trans-unit>
+      <trans-unit id="5e5914912e8d2f2765525840acf98bea" approved="yes">
+        <source>Last visit</source>
+        <target state="final">Lần đăng nhập cuối</target>
+        <note>Line: 215</note>
+      </trans-unit>
       <trans-unit id="e6d0e1c8fc6a4fcf47869df87e04cd88" approved="yes">
         <source>Customers</source>
         <target state="final">Khách hàng</target>
@@ -674,17 +713,13 @@ Trân trọng,</target>
       </trans-unit>
     </body>
   </file>
-  <file original="src/Core/Grid/Definition/Factory/MerchandiseReturnGridDefinitionFactory.php" source-language="en" target-language="vi" datatype="plaintext">
-    <body>
-      <trans-unit id="446faa7da2d42ba4ffeda73cb119dd91" approved="yes">
-        <source>Date issued</source>
-        <target state="final">Ngày phát hành</target>
-        <note>Line: 95</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/Core/Grid/Definition/Factory/OrderGridDefinitionFactory.php" source-language="en" target-language="vi" datatype="plaintext">
     <body>
+      <trans-unit id="94003250a2187a9f51b227b490e5ab6b" approved="yes">
+        <source>New client</source>
+        <target state="final">Khách hàng mới</target>
+        <note>Line: 195</note>
+      </trans-unit>
       <trans-unit id="e13004b81566bfc42daa48372c15111b" approved="yes">
         <source>Change Order Status</source>
         <target state="final">Thay đổi tình trạng đơn hàng</target>
@@ -712,15 +747,10 @@ Trân trọng,</target>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Customer/CustomerController.php" source-language="en" target-language="vi" datatype="plaintext">
     <body>
-      <trans-unit id="0f98b7f230f3c91292f0de4c99e263f2" approved="yes">
-        <source>Registration</source>
-        <target state="final">Đăng ký</target>
-        <note>Line: 821</note>
-      </trans-unit>
-      <trans-unit id="5e5914912e8d2f2765525840acf98bea" approved="yes">
-        <source>Last visit</source>
-        <target state="final">Lần đăng nhập cuối</target>
-        <note>Line: 822</note>
+      <trans-unit id="aac772216aecbeca0e86d06671fe985a" approved="yes">
+        <source>Birthday</source>
+        <target state="final">Ngày sinh</target>
+        <note>Line: 989</note>
       </trans-unit>
     </body>
   </file>
@@ -744,11 +774,6 @@ Trân trọng,</target>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php" source-language="en" target-language="vi" datatype="plaintext">
     <body>
-      <trans-unit id="94003250a2187a9f51b227b490e5ab6b" approved="yes">
-        <source>New client</source>
-        <target state="final">Khách hàng mới</target>
-        <note>Line: 377</note>
-      </trans-unit>
       <trans-unit id="e5d61db40a917c78a9d8e821dd0dd8de" approved="yes">
         <source>Add new order</source>
         <target state="final">Thêm đơn hàng mới</target>
@@ -768,16 +793,6 @@ Trân trọng,</target>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Address/CustomerAddressType.php" source-language="en" target-language="vi" datatype="plaintext">
     <body>
-      <trans-unit id="7cb32e708d6b961d476baced73d362bb" approved="yes">
-        <source>VAT number</source>
-        <target state="final">Mã số thuế</target>
-        <note>Line: 258</note>
-      </trans-unit>
-      <trans-unit id="b60bb13a87fe3ae5463aeb0980a5a8a1" approved="yes">
-        <source>Identification number</source>
-        <target state="final">Số chứng minh nhân dân</target>
-        <note>Line: 137</note>
-      </trans-unit>
       <trans-unit id="03361eda68f746619c2ae3341eaa2f07" approved="yes">
         <source>Customer email</source>
         <target state="final">E-mail khách hàng</target>
@@ -797,11 +812,6 @@ Trân trọng,</target>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Customer/CustomerType.php" source-language="en" target-language="vi" datatype="plaintext">
     <body>
-      <trans-unit id="aac772216aecbeca0e86d06671fe985a" approved="yes">
-        <source>Birthday</source>
-        <target state="final">Ngày sinh</target>
-        <note>Line: 270</note>
-      </trans-unit>
       <trans-unit id="920bd1fb6d54c93fca528ce941464225" approved="yes">
         <source>Group access</source>
         <target state="final">Truy cập nhóm</target>
@@ -850,20 +860,8 @@ Trân trọng,</target>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/CustomerService/MerchandiseReturn/MerchandiseReturnOptionsType.php" source-language="en" target-language="vi" datatype="plaintext">
     <body>
-      <trans-unit id="f374280fc7cab62785714cfca79b85a1" approved="yes">
-        <source>Enable returns</source>
-        <target state="final">Cho phép đổi trả hàng</target>
-        <note>Line: 55</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/CustomerService/MerchandiseReturn/OrderReturnType.php" source-language="en" target-language="vi" datatype="plaintext">
-    <body>
-      <trans-unit id="f504da64aae2dcfd85ce565121248f93" approved="yes">
-        <source>Customer explanation</source>
-        <target state="final">Khách hàng giải thích</target>
-        <note>Line: 90</note>
-      </trans-unit>
+      
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/AddProductRowType.php" source-language="en" target-language="vi" datatype="plaintext">
@@ -1064,11 +1062,21 @@ Trân trọng,</target>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/Blocks/View/discounts.html.twig" source-language="en" target-language="vi" datatype="plaintext">
     <body>
+      <trans-unit id="a82868319826fb092b73968e661b5b38" approved="yes">
+        <source>Vouchers</source>
+        <target state="final">Mã giảm giá</target>
+        <note>Line: 29</note>
+      </trans-unit>
       <trans-unit id="c8b4c13e6ad3227e192c118261c0e179" approved="yes">
         <source>%firstname% %lastname% has no discount vouchers</source>
         <target state="final">%firstname% %lastname% không có phiếu giảm giá</target>
         <note>Line: 43</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/Blocks/View/groups.html.twig" source-language="en" target-language="vi" datatype="plaintext">
+    <body>
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/Blocks/View/last_connections.html.twig" source-language="en" target-language="vi" datatype="plaintext">
@@ -1316,6 +1324,20 @@ Trân trọng,</target>
       </trans-unit>
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/CreditSlip/Blocks/pdf_by_date.html.twig" source-language="en" target-language="vi" datatype="plaintext">
+    <body>
+      <trans-unit id="9a0a4f0869ab12a21407047290750e7a" approved="yes">
+        <source>By date</source>
+        <target state="final">Theo ngày</target>
+        <note>Line: 36</note>
+      </trans-unit>
+      <trans-unit id="1f0a7c7f8461359ede310318e3d44cd8" approved="yes">
+        <source>Generate PDF file by date</source>
+        <target state="final">Tạo tệp tin PDF theo ngày</target>
+        <note>Line: 50</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Delivery/slip.html.twig" source-language="en" target-language="vi" datatype="plaintext">
     <body>
       <trans-unit id="afa0e443a161e904a03bbbc333506256" approved="yes">
@@ -1332,20 +1354,6 @@ Trân trọng,</target>
         <source>Delivery slip options</source>
         <target state="final">Tùy chọn phiếu giao hàng</target>
         <note>Line: 60</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Invoices/Blocks/generate_by_date.html.twig" source-language="en" target-language="vi" datatype="plaintext">
-    <body>
-      <trans-unit id="9a0a4f0869ab12a21407047290750e7a" approved="yes">
-        <source>By date</source>
-        <target state="final">Theo ngày</target>
-        <note>Line: 34</note>
-      </trans-unit>
-      <trans-unit id="1f0a7c7f8461359ede310318e3d44cd8" approved="yes">
-        <source>Generate PDF file by date</source>
-        <target state="final">Tạo tệp tin PDF theo ngày</target>
-        <note>Line: 57</note>
       </trans-unit>
     </body>
   </file>
@@ -1412,11 +1420,6 @@ Trân trọng,</target>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/Create/cart_rules.html.twig" source-language="en" target-language="vi" datatype="plaintext">
     <body>
-      <trans-unit id="a82868319826fb092b73968e661b5b38" approved="yes">
-        <source>Vouchers</source>
-        <target state="final">Mã giảm giá</target>
-        <note>Line: 28</note>
-      </trans-unit>
       <trans-unit id="c89db248919294ef0291a6586f6e9a5b" approved="yes">
         <source>Search for a voucher</source>
         <target state="final">Tìm kiếm một phiếu giảm giá</target>
@@ -1571,35 +1574,30 @@ Trân trọng,</target>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/customer.html.twig" source-language="en" target-language="vi" datatype="plaintext">
     <body>
-      <trans-unit id="85fb93a8ee9440499692da24a1621769" approved="yes">
-        <source>APE</source>
-        <target state="final">APE</target>
-        <note>Line: 122</note>
-      </trans-unit>
       <trans-unit id="4f68183551e5dbd7c341347ffe308682" approved="yes">
         <source>SIRET</source>
         <target state="final">SIRET</target>
-        <note>Line: 91</note>
+        <note>Line: 83</note>
+      </trans-unit>
+      <trans-unit id="85fb93a8ee9440499692da24a1621769" approved="yes">
+        <source>APE</source>
+        <target state="final">APE</target>
+        <note>Line: 86</note>
       </trans-unit>
       <trans-unit id="5c63fcad7f3534fdcf4ee426a54a6e00" approved="yes">
         <source>Total spent since registration:</source>
         <target state="final">Tổng giá trị thanh toán từ khi đăng ký:</target>
-        <note>Line: 113</note>
+        <note>Line: 79</note>
       </trans-unit>
       <trans-unit id="0c458988127eb2150776881e2ef3f0c4" approved="yes">
         <source>Shipping address</source>
         <target state="final">Địa chỉ chuyển hàng</target>
-        <note>Line: 134</note>
+        <note>Line: 95</note>
       </trans-unit>
       <trans-unit id="601d8c4b9f72fc1862013c19b677a499" approved="yes">
         <source>Invoice address</source>
         <target state="final">Địa chỉ hóa đơn</target>
-        <note>Line: 166</note>
-      </trans-unit>
-      <trans-unit id="66dc0eb61ab4157d6170494e6841a77a" approved="yes">
-        <source>Private note</source>
-        <target state="final">Ghi chú riêng</target>
-        <note>Line: 206</note>
+        <note>Line: 127</note>
       </trans-unit>
     </body>
   </file>
@@ -1610,15 +1608,15 @@ Trân trọng,</target>
         <target state="final">Hàng hóa trả lại</target>
         <note>Line: 39</note>
       </trans-unit>
-      <trans-unit id="484f5a79672cebe198ebdde45a1d672f" approved="yes">
-        <source>Gift wrapping</source>
-        <target state="final">Gói quà</target>
-        <note>Line: 121</note>
-      </trans-unit>
       <trans-unit id="f28128b38efbc6134dc40751ee21fd29" approved="yes">
         <source>Documents</source>
         <target state="final">Tài liệu</target>
         <note>Line: 31</note>
+      </trans-unit>
+      <trans-unit id="484f5a79672cebe198ebdde45a1d672f" approved="yes">
+        <source>Gift wrapping</source>
+        <target state="final">Gói quà</target>
+        <note>Line: 121</note>
       </trans-unit>
     </body>
   </file>
@@ -1659,11 +1657,6 @@ Trân trọng,</target>
         <target state="final">Tạo hóa đơn</target>
         <note>Line: 148</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/edit_product_row.html.twig" source-language="en" target-language="vi" datatype="plaintext">
-    <body>
-      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/history.html.twig" source-language="en" target-language="vi" datatype="plaintext">
@@ -1719,16 +1712,6 @@ Trân trọng,</target>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/order_actions.html.twig" source-language="en" target-language="vi" datatype="plaintext">
     <body>
-      <trans-unit id="a6ecff447ea8327b43f5d16a924fb6be" approved="yes">
-        <source>View invoice</source>
-        <target state="final">Xem hóa đơn</target>
-        <note>Line: 71</note>
-      </trans-unit>
-      <trans-unit id="ddd167afc1441dcab03a9546c8ef8b51" approved="yes">
-        <source>View delivery slip</source>
-        <target state="final">Xem phiếu giao hàng</target>
-        <note>Line: 92</note>
-      </trans-unit>
       <trans-unit id="4ad439b4f7069964e258259e049fa90c" approved="yes">
         <source>Standard refund</source>
         <target state="final">Tiêu chuẩn hoàn lại phí</target>
@@ -1743,6 +1726,16 @@ Trân trọng,</target>
         <source>Cancel products</source>
         <target state="final">Hủy bỏ sản phẩm</target>
         <note>Line: 113</note>
+      </trans-unit>
+      <trans-unit id="a6ecff447ea8327b43f5d16a924fb6be" approved="yes">
+        <source>View invoice</source>
+        <target state="final">Xem hóa đơn</target>
+        <note>Line: 71</note>
+      </trans-unit>
+      <trans-unit id="ddd167afc1441dcab03a9546c8ef8b51" approved="yes">
+        <source>View delivery slip</source>
+        <target state="final">Xem phiếu giao hàng</target>
+        <note>Line: 92</note>
       </trans-unit>
       <trans-unit id="be4254ec37a7bf0d2babdf04bce774cf" approved="yes">
         <source>Print order</source>
@@ -1785,12 +1778,17 @@ Trân trọng,</target>
       <trans-unit id="a9971a36ea6236b1577b27dba46775ed" approved="yes">
         <source>Supplier reference:</source>
         <target state="final">Tham chiếu nhà cung ứng:</target>
-        <note>Line: 44</note>
+        <note>Line: 50</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/products.html.twig" source-language="en" target-language="vi" datatype="plaintext">
     <body>
+      <trans-unit id="cc61945cbbf46721a053467c395c666f" approved="yes">
+        <source>Refunded</source>
+        <target state="final">Hoàn trả lại</target>
+        <note>Line: 79</note>
+      </trans-unit>
       <trans-unit id="77fd2b4393b379bedd30efcd5df02090" approved="yes">
         <source>Partial refund</source>
         <target state="final">Hoàn lại một phần</target>
@@ -1800,11 +1798,6 @@ Trân trọng,</target>
         <source>Add a product</source>
         <target state="final">Thêm một sản phẩm</target>
         <note>Line: 153</note>
-      </trans-unit>
-      <trans-unit id="cc61945cbbf46721a053467c395c666f" approved="yes">
-        <source>Refunded</source>
-        <target state="final">Hoàn trả lại</target>
-        <note>Line: 79</note>
       </trans-unit>
       <trans-unit id="ba794350deb07c0c96fe73bd12239059" approved="yes">
         <source>Wrapping</source>
@@ -1872,6 +1865,7 @@ Trân trọng,</target>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/preview.html.twig" source-language="en" target-language="vi" datatype="plaintext">
     <body>
+      
       
       
       

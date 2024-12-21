@@ -2,11 +2,6 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="admin-dev/themes/default/template/controllers/groups/helpers/form/form.tpl" source-language="en" target-language="en-UD" datatype="plaintext">
     <body>
-      <trans-unit id="734d291b0d07bae874a51370a032312e">
-        <source>Discount: %.2f%%</source>
-        <target>crwdns6020960:0%.2fcrwdne6020960:0</target>
-        <note>Line: 136</note>
-      </trans-unit>
       <trans-unit id="40382ca2b15ff499eb4e5c101424bc81">
         <source>Authorized modules:</source>
         <target>crwdns5997328:0crwdne5997328:0</target>
@@ -36,6 +31,11 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/groups/helpers/view/view.tpl" source-language="en" target-language="en-UD" datatype="plaintext">
     <body>
+      <trans-unit id="734d291b0d07bae874a51370a032312e">
+        <source>Discount: %.2f%%</source>
+        <target>crwdns6022258:0%.2fcrwdne6022258:0</target>
+        <note>Line: 71</note>
+      </trans-unit>
       <trans-unit id="c20aefc1b11dc684191ded8079cedab4">
         <source>Group information</source>
         <target>crwdns5997340:0crwdne5997340:0</target>
@@ -205,6 +205,21 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
   </file>
   <file original="controllers/admin/AdminGroupsController.php" source-language="en" target-language="en-UD" datatype="plaintext">
     <body>
+      <trans-unit id="f870b8a1af52a144a646db03f6f63f7d">
+        <source>Show prices</source>
+        <target>crwdns6022260:0crwdne6022260:0</target>
+        <note>Line: 403</note>
+      </trans-unit>
+      <trans-unit id="9ba58ad734a38b533febf81361bd1a4f">
+        <source>Discount (%)</source>
+        <target>crwdns6022262:0crwdne6022262:0</target>
+        <note>Line: 70</note>
+      </trans-unit>
+      <trans-unit id="ef53538ae41a651c7f72ab6cb1135d8c">
+        <source>Members</source>
+        <target>crwdns6022264:0crwdne6022264:0</target>
+        <note>Line: 75</note>
+      </trans-unit>
       <trans-unit id="c6155aaecccf794cd2a00fcc35898022">
         <source>Group name</source>
         <target>crwdns5997396:0crwdne5997396:0</target>
@@ -262,162 +277,186 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       </trans-unit>
     </body>
   </file>
+  <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="en-UD" datatype="plaintext">
+    <body>
+      <trans-unit id="13348442cc6a27032d2b4aa28b75a5d3">
+        <source>Search</source>
+        <target>crwdns6022266:0crwdne6022266:0</target>
+        <note>Line: 464</note>
+      </trans-unit>
+      <trans-unit id="effdb9ce6c5d44df31b89d7069c8e0fb">
+        <source>Alias</source>
+        <target>crwdns6022268:0crwdne6022268:0</target>
+        <note>Line: 4043</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="controllers/admin/AdminSearchConfController.php" source-language="en" target-language="en-UD" datatype="plaintext">
     <body>
+      <trans-unit id="9ab81f57823f6aeb02362291f23883e6">
+        <source>Aliases</source>
+        <target>crwdns6022270:0crwdne6022270:0</target>
+        <note>Line: 407</note>
+      </trans-unit>
+      <trans-unit id="58e8dcd40d13b2c661ac86dbc9e04e02">
+        <source>Add new alias</source>
+        <target>crwdns6022272:0crwdne6022272:0</target>
+        <note>Line: 357</note>
+      </trans-unit>
       <trans-unit id="521d4edc7c22d5f63bc5912ff2afa61a">
         <source>Indexing</source>
         <target>crwdns5997420:0crwdne5997420:0</target>
-        <note>Line: 116</note>
+        <note>Line: 93</note>
       </trans-unit>
       <trans-unit id="325c9099ecef84ddc2912d5f0ed3fe2f">
         <source>The "indexed" products have been analyzed by PrestaShop and will appear in the results of a front office search.</source>
         <target>crwdns5997422:0crwdne5997422:0</target>
-        <note>Line: 92</note>
+        <note>Line: 69</note>
       </trans-unit>
       <trans-unit id="b9a7c2c18f61b96ff75de6468d1c7519">
         <source>Indexed products</source>
         <target>crwdns5997424:0crwdne5997424:0</target>
-        <note>Line: 93</note>
+        <note>Line: 70</note>
       </trans-unit>
       <trans-unit id="a1f25953ca9e49615b12a626584680c5">
         <source>Building the product index may take a few minutes.</source>
         <target>crwdns5997426:0crwdne5997426:0</target>
-        <note>Line: 96</note>
+        <note>Line: 73</note>
       </trans-unit>
       <trans-unit id="d86f8ed15ec7a8f87fb1b0ed501dbb6b">
         <source>Add missing products to the index</source>
         <target>crwdns5997428:0crwdne5997428:0</target>
-        <note>Line: 101</note>
+        <note>Line: 78</note>
       </trans-unit>
       <trans-unit id="80a087b1e6a8c144b2f7acb705bde01c">
         <source>If your server stops before the process ends, you can resume the indexing by clicking "%add_missing_products_label%".</source>
         <target>crwdns5997430:0%add_missing_products_label%crwdne5997430:0</target>
-        <note>Line: 97</note>
+        <note>Line: 74</note>
       </trans-unit>
       <trans-unit id="9897b2f361910e5188f231de872d8856">
         <source>Re-build the entire index</source>
         <target>crwdns5997432:0crwdne5997432:0</target>
-        <note>Line: 105</note>
+        <note>Line: 82</note>
       </trans-unit>
       <trans-unit id="9ed967cf992b654e59df8663fce97d59">
         <source>You can set a cron job that will rebuild your index using the following URL:</source>
         <target>crwdns5997434:0crwdne5997434:0</target>
-        <note>Line: 108</note>
+        <note>Line: 85</note>
       </trans-unit>
       <trans-unit id="f4ff8a799e3f7446a3a67254cf038e7e">
         <source>Search within word</source>
         <target>crwdns5997436:0crwdne5997436:0</target>
-        <note>Line: 130</note>
+        <note>Line: 107</note>
       </trans-unit>
       <trans-unit id="969e3f96787be55242155cad3cd630d3">
         <source>Search exact end match</source>
         <target>crwdns5997438:0crwdne5997438:0</target>
-        <note>Line: 158</note>
+        <note>Line: 135</note>
       </trans-unit>
       <trans-unit id="b0d4e69d1ce1d2db2c060d311a4e2144">
         <source>Fuzzy search</source>
         <target>crwdns5997440:0crwdne5997440:0</target>
-        <note>Line: 186</note>
+        <note>Line: 163</note>
       </trans-unit>
       <trans-unit id="dc759a9deb56cc5ad4974559da2a148f">
         <source>Maximum approximate words allowed by fuzzy search</source>
         <target>crwdns5997442:0crwdne5997442:0</target>
-        <note>Line: 210</note>
+        <note>Line: 187</note>
       </trans-unit>
       <trans-unit id="5fdbecf393b6f7ae06d12280bfcbf395">
         <source>Maximum acceptable word difference</source>
         <target>crwdns6020962:0crwdne6020962:0</target>
-        <note>Line: 225</note>
+        <note>Line: 202</note>
       </trans-unit>
       <trans-unit id="91ef1a24c02b7efb35b5ff3c79230d5c">
         <source>Maximum word length (in characters)</source>
         <target>crwdns5997444:0crwdne5997444:0</target>
-        <note>Line: 240</note>
+        <note>Line: 217</note>
       </trans-unit>
       <trans-unit id="8e7ace556216459cd9197423709bdd3a">
         <source>Minimum word length (in characters)</source>
         <target>crwdns5997446:0crwdne5997446:0</target>
-        <note>Line: 261</note>
+        <note>Line: 238</note>
       </trans-unit>
       <trans-unit id="5bff181421d95b49ad5ce5bb08f0ffbe">
         <source>Blacklisted words</source>
         <target>crwdns5997448:0crwdne5997448:0</target>
-        <note>Line: 275</note>
+        <note>Line: 252</note>
       </trans-unit>
       <trans-unit id="8c489d0946f66d17d73f26366a4bf620">
         <source>Weight</source>
         <target>crwdns5997450:0crwdne5997450:0</target>
-        <note>Line: 288</note>
+        <note>Line: 265</note>
       </trans-unit>
       <trans-unit id="a9f445d59022dee4cb33385aef61620f">
         <source>The "weight" represents its importance and relevance for the ranking of the products when completing a new search.</source>
         <target>crwdns5997452:0crwdne5997452:0</target>
-        <note>Line: 291</note>
+        <note>Line: 268</note>
       </trans-unit>
       <trans-unit id="892e1b613b7d9628760008536bdef5da">
         <source>A word with a weight of eight will have four times more value than a word with a weight of two.</source>
         <target>crwdns5997454:0crwdne5997454:0</target>
-        <note>Line: 296</note>
+        <note>Line: 273</note>
       </trans-unit>
       <trans-unit id="33846fa0095bd29abbc2a8b742669b25">
         <source>We advise you to set a greater weight for words which appear in the name or reference of a product. This will allow the search results to be as precise and relevant as possible.</source>
         <target>crwdns5997456:0crwdne5997456:0</target>
-        <note>Line: 301</note>
+        <note>Line: 278</note>
       </trans-unit>
       <trans-unit id="15b481c8ea8041ab6000bec80b97db5a">
         <source>Setting a weight to 0 will exclude that field from search index. Re-build of the entire index is required when changing to or from 0</source>
         <target>crwdns5997458:0crwdne5997458:0</target>
-        <note>Line: 306</note>
+        <note>Line: 283</note>
       </trans-unit>
       <trans-unit id="76a591808a254d4094e1c43f937b834f">
         <source>Product name weight</source>
         <target>crwdns5997460:0crwdne5997460:0</target>
-        <note>Line: 312</note>
+        <note>Line: 289</note>
       </trans-unit>
       <trans-unit id="f391844c98222451204cbb678d591f86">
         <source>Reference weight</source>
         <target>crwdns5997462:0crwdne5997462:0</target>
-        <note>Line: 318</note>
+        <note>Line: 295</note>
       </trans-unit>
       <trans-unit id="6af0a6ff1f2f2a61cbd8b98232314b03">
         <source>Short description weight</source>
         <target>crwdns5997464:0crwdne5997464:0</target>
-        <note>Line: 325</note>
+        <note>Line: 302</note>
       </trans-unit>
       <trans-unit id="f90f799bc686f5d6a731b1f8074b4580">
         <source>Description weight</source>
         <target>crwdns5997466:0crwdne5997466:0</target>
-        <note>Line: 334</note>
+        <note>Line: 311</note>
       </trans-unit>
       <trans-unit id="05cdca5b85ff26e596c3af66ed4820d5">
         <source>Category weight</source>
         <target>crwdns5997468:0crwdne5997468:0</target>
-        <note>Line: 340</note>
+        <note>Line: 317</note>
       </trans-unit>
       <trans-unit id="3474b76644954c739226a10127d83329">
         <source>Brand weight</source>
         <target>crwdns5997470:0crwdne5997470:0</target>
-        <note>Line: 346</note>
+        <note>Line: 323</note>
       </trans-unit>
       <trans-unit id="c152439199cebb7e1c27633efeaf1eda">
         <source>Tags weight</source>
         <target>crwdns5997472:0crwdne5997472:0</target>
-        <note>Line: 352</note>
+        <note>Line: 329</note>
       </trans-unit>
       <trans-unit id="1b25f9ffbf4d185dbb985380a04732cc">
         <source>Attributes weight</source>
         <target>crwdns5997474:0crwdne5997474:0</target>
-        <note>Line: 358</note>
+        <note>Line: 335</note>
       </trans-unit>
       <trans-unit id="4871216a35362aebc0d9908e6e288765">
         <source>Features weight</source>
         <target>crwdns5997476:0crwdne5997476:0</target>
-        <note>Line: 364</note>
+        <note>Line: 341</note>
       </trans-unit>
       <trans-unit id="8eea62084ca7e541d918e823422bd82e">
         <source>Result</source>
         <target>crwdns5997478:0crwdne5997478:0</target>
-        <note>Line: 446</note>
+        <note>Line: 423</note>
       </trans-unit>
     </body>
   </file>
@@ -625,26 +664,22 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       </trans-unit>
     </body>
   </file>
-  <file original="modules/statsbestcustomers/statsbestcustomers.php" source-language="en" target-language="en-UD" datatype="plaintext">
+  <file original="modules/statsforecast/statsforecast.php" source-language="en" target-language="en-UD" datatype="plaintext">
     <body>
       <trans-unit id="d7e637a6e9ff116de2fa89551240a94d">
         <source>Visits</source>
-        <target>crwdns6020968:0crwdne6020968:0</target>
-        <note>Line: 78</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="modules/statsforecast/statsforecast.php" source-language="en" target-language="en-UD" datatype="plaintext">
-    <body>
-      <trans-unit id="88183b946cc5f0e8c96b2e66e1c74a7e">
-        <source>Unknown</source>
-        <target>crwdns5997554:0crwdne5997554:0</target>
-        <note>Line: 474</note>
+        <target>crwdns6022274:0crwdne6022274:0</target>
+        <note>Line: 221</note>
       </trans-unit>
       <trans-unit id="ae5d01b6efa819cc7a7c05a8c57fcc2c">
         <source>Visitors</source>
         <target>crwdns5997552:0crwdne5997552:0</target>
         <note>Line: 352</note>
+      </trans-unit>
+      <trans-unit id="88183b946cc5f0e8c96b2e66e1c74a7e">
+        <source>Unknown</source>
+        <target>crwdns5997554:0crwdne5997554:0</target>
+        <note>Line: 474</note>
       </trans-unit>
       <trans-unit id="a28735af01fbb1e35371cb120985ac47">
         <source>Registrations</source>
@@ -679,6 +714,16 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
   </file>
   <file original="src/Core/Grid/Data/Factory/TitleGridDataFactory.php" source-language="en" target-language="en-UD" datatype="plaintext">
     <body>
+      <trans-unit id="63889cfb9d3cbe05d1bd2be5cc9953fd">
+        <source>Male</source>
+        <target>crwdns6022276:0crwdne6022276:0</target>
+        <note>Line: 101</note>
+      </trans-unit>
+      <trans-unit id="b719ce180ec7bd9641fece2f920f4817">
+        <source>Female</source>
+        <target>crwdns6022278:0crwdne6022278:0</target>
+        <note>Line: 104</note>
+      </trans-unit>
       <trans-unit id="6311ae17c1ee52b36e68aaf4ad066387">
         <source>Other</source>
         <target>crwdns6020970:0crwdne6020970:0</target>
@@ -686,17 +731,12 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/Core/Grid/Definition/Factory/CustomerGroupsGridDefinitionFactory.php" source-language="en" target-language="en-UD" datatype="plaintext">
+  <file original="src/Core/Grid/Definition/Factory/AliasGridDefinitionFactory.php" source-language="en" target-language="en-UD" datatype="plaintext">
     <body>
-      <trans-unit id="9ba58ad734a38b533febf81361bd1a4f">
-        <source>Discount (%)</source>
-        <target>crwdns5997568:0crwdne5997568:0</target>
-        <note>Line: 91</note>
-      </trans-unit>
-      <trans-unit id="ef53538ae41a651c7f72ab6cb1135d8c">
-        <source>Members</source>
-        <target>crwdns5997570:0crwdne5997570:0</target>
-        <note>Line: 98</note>
+      <trans-unit id="90868bb81c8f0bb2172bfe537c0be674">
+        <source>Search term</source>
+        <target>crwdns6022280:0crwdne6022280:0</target>
+        <note>Line: 86</note>
       </trans-unit>
     </body>
   </file>
@@ -725,6 +765,11 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
   </file>
   <file original="src/Core/Grid/Definition/Factory/SearchEngineGridDefinitionFactory.php" source-language="en" target-language="en-UD" datatype="plaintext">
     <body>
+      <trans-unit id="9aa1b03934893d7134a660af4204f2a9">
+        <source>Server</source>
+        <target>crwdns6022282:0crwdne6022282:0</target>
+        <note>Line: 100</note>
+      </trans-unit>
       <trans-unit id="b864759d534539519ceaa2c03a39d4c2">
         <source>GET variable</source>
         <target>crwdns5997578:0crwdne5997578:0</target>
@@ -738,15 +783,6 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
         <source>Social title</source>
         <target>crwdns5997580:0crwdne5997580:0</target>
         <note>Line: 109</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/Core/Import/EntityField/Provider/AliasFieldsProvider.php" source-language="en" target-language="en-UD" datatype="plaintext">
-    <body>
-      <trans-unit id="13348442cc6a27032d2b4aa28b75a5d3">
-        <source>Search</source>
-        <target>crwdns5997582:0crwdne5997582:0</target>
-        <note>Line: 59</note>
       </trans-unit>
     </body>
   </file>
@@ -770,11 +806,6 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/ShopParameters/SearchAliasController.php" source-language="en" target-language="en-UD" datatype="plaintext">
     <body>
-      <trans-unit id="58e8dcd40d13b2c661ac86dbc9e04e02">
-        <source>Add new alias</source>
-        <target>crwdns6020972:0crwdne6020972:0</target>
-        <note>Line: 70</note>
-      </trans-unit>
       <trans-unit id="096d6d7e461a830bdbad4b84ebe288a2">
         <source>New aliases</source>
         <target>crwdns6020974:0crwdne6020974:0</target>
@@ -823,15 +854,6 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
         <source>hours</source>
         <target>crwdns5997590:0crwdne5997590:0</target>
         <note>Line: 61</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Import/ImportType.php" source-language="en" target-language="en-UD" datatype="plaintext">
-    <body>
-      <trans-unit id="effdb9ce6c5d44df31b89d7069c8e0fb">
-        <source>Alias</source>
-        <target>crwdns5997592:0crwdne5997592:0</target>
-        <note>Line: 68</note>
       </trans-unit>
     </body>
   </file>
@@ -885,16 +907,6 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/CustomerPreferences/TitleType.php" source-language="en" target-language="en-UD" datatype="plaintext">
     <body>
-      <trans-unit id="63889cfb9d3cbe05d1bd2be5cc9953fd">
-        <source>Male</source>
-        <target>crwdns5997610:0crwdne5997610:0</target>
-        <note>Line: 64</note>
-      </trans-unit>
-      <trans-unit id="b719ce180ec7bd9641fece2f920f4817">
-        <source>Female</source>
-        <target>crwdns5997612:0crwdne5997612:0</target>
-        <note>Line: 65</note>
-      </trans-unit>
       <trans-unit id="e9bb5320b3890b6747c91b5a71ae5a01">
         <source>Neutral</source>
         <target>crwdns5997614:0crwdne5997614:0</target>
@@ -1032,6 +1044,11 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GeneralType.php" source-language="en" target-language="en-UD" datatype="plaintext">
     <body>
+      <trans-unit id="c6ca929dc4c8193ad6cd154e9e075ac9">
+        <source>Minimum purchase total required in order to validate the order</source>
+        <target>crwdns6022284:0crwdne6022284:0</target>
+        <note>Line: 104</note>
+      </trans-unit>
       <trans-unit id="28e503c3e4f502b3631e255dfc527620">
         <source>Enable final summary</source>
         <target>crwdns5997664:0crwdne5997664:0</target>
@@ -1098,27 +1115,8 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/OrderPreferencesGeneralFormDataProvider.php" source-language="en" target-language="en-UD" datatype="plaintext">
-    <body>
-      <trans-unit id="c6ca929dc4c8193ad6cd154e9e075ac9">
-        <source>Minimum purchase total required in order to validate the order</source>
-        <target>crwdns5997686:0crwdne5997686:0</target>
-        <note>Line: 106</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderReturnStates/OrderReturnStateType.php" source-language="en" target-language="en-UD" datatype="plaintext">
     <body>
-      <trans-unit id="69a31da4cb502aa192d07ae4a8f48613">
-        <source>Status name</source>
-        <target>crwdns6020992:0crwdne6020992:0</target>
-        <note>Line: 58</note>
-      </trans-unit>
-      <trans-unit id="cb5feb1b7314637725a2e73bdc9f7295">
-        <source>Color</source>
-        <target>crwdns6020994:0crwdne6020994:0</target>
-        <note>Line: 85</note>
-      </trans-unit>
       <trans-unit id="a4bb440d400f4dc30f148b44d08680b4">
         <source>Invalid characters: numbers and</source>
         <target>crwdns5997690:0crwdne5997690:0</target>
@@ -1128,6 +1126,16 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php" source-language="en" target-language="en-UD" datatype="plaintext">
     <body>
+      <trans-unit id="69a31da4cb502aa192d07ae4a8f48613">
+        <source>Status name</source>
+        <target>crwdns6022286:0crwdne6022286:0</target>
+        <note>Line: 120</note>
+      </trans-unit>
+      <trans-unit id="cb5feb1b7314637725a2e73bdc9f7295">
+        <source>Color</source>
+        <target>crwdns6022288:0crwdne6022288:0</target>
+        <note>Line: 160</note>
+      </trans-unit>
       <trans-unit id="817434295a673aed431435658b65d9a7">
         <source>Icon</source>
         <target>crwdns5997696:0crwdne5997696:0</target>
@@ -1185,26 +1193,17 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/GeneralFormDataProvider.php" source-language="en" target-language="en-UD" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/GeneralType.php" source-language="en" target-language="en-UD" datatype="plaintext">
     <body>
       <trans-unit id="eb1cef1202fdc4d7954899fbf9f1734b">
         <source>Number of days for which the product is considered 'new'</source>
-        <target>crwdns5997718:0crwdne5997718:0</target>
-        <note>Line: 92</note>
+        <target>crwdns6022290:0crwdne6022290:0</target>
+        <note>Line: 102</note>
       </trans-unit>
       <trans-unit id="9d980493b9016efc42443b1fdae49f33">
         <source>Max size of product summary</source>
-        <target>crwdns5997720:0crwdne5997720:0</target>
-        <note>Line: 101</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/GeneralType.php" source-language="en" target-language="en-UD" datatype="plaintext">
-    <body>
-      <trans-unit id="f870b8a1af52a144a646db03f6f63f7d">
-        <source>Show prices</source>
-        <target>crwdns5997722:0crwdne5997722:0</target>
-        <note>Line: 80</note>
+        <target>crwdns6022292:0crwdne6022292:0</target>
+        <note>Line: 109</note>
       </trans-unit>
       <trans-unit id="bb98eaca8d91531f4ae177c9d395f1d4">
         <source>Catalog mode</source>
@@ -1302,21 +1301,17 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/PaginationFormDataProvider.php" source-language="en" target-language="en-UD" datatype="plaintext">
-    <body>
-      <trans-unit id="7e1b4ee573c4ef023904fd90eb9ddea7">
-        <source>Products per page</source>
-        <target>crwdns5997754:0crwdne5997754:0</target>
-        <note>Line: 93</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/PaginationType.php" source-language="en" target-language="en-UD" datatype="plaintext">
     <body>
       <trans-unit id="df644ae155e79abf54175bd15d75f363">
         <source>Product name</source>
         <target>crwdns5997756:0crwdne5997756:0</target>
         <note>Line: 65</note>
+      </trans-unit>
+      <trans-unit id="7e1b4ee573c4ef023904fd90eb9ddea7">
+        <source>Products per page</source>
+        <target>crwdns6022294:0crwdne6022294:0</target>
+        <note>Line: 49</note>
       </trans-unit>
       <trans-unit id="290b7c47045d269e2ccfa69e6477acfe">
         <source>Product price</source>
@@ -1353,6 +1348,11 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
         <target>crwdns5997770:0crwdne5997770:0</target>
         <note>Line: 72</note>
       </trans-unit>
+      <trans-unit id="aa690c7566fa052edf9db33d69db306f">
+        <source>Product sales</source>
+        <target>crwdns6022296:0crwdne6022296:0</target>
+        <note>Line: 73</note>
+      </trans-unit>
       <trans-unit id="e29857ad6c4bbba99614831d7e3e5a3f">
         <source>Default order by</source>
         <target>crwdns5997772:0crwdne5997772:0</target>
@@ -1361,7 +1361,7 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       <trans-unit id="114a8ec626471fdc120f863a9fb25e4c">
         <source>Default order method</source>
         <target>crwdns5997774:0crwdne5997774:0</target>
-        <note>Line: 79</note>
+        <note>Line: 80</note>
       </trans-unit>
     </body>
   </file>
@@ -1404,56 +1404,37 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       <trans-unit id="3385e522bc49e8f8fcb008788bc1762d">
         <source>Label of out-of-stock products with allowed backorders</source>
         <target>crwdns5997788:0crwdne5997788:0</target>
-        <note>Line: 131</note>
+        <note>Line: 132</note>
       </trans-unit>
       <trans-unit id="d79daa535ef1e90b7b1230b501b7b6c6">
         <source>Label of out-of-stock products with denied backorders</source>
         <target>crwdns5997790:0crwdne5997790:0</target>
-        <note>Line: 145</note>
+        <note>Line: 147</note>
       </trans-unit>
       <trans-unit id="480cb944a0974a27ec0f964de23a18f4">
         <source>Delivery time of in-stock products</source>
         <target>crwdns5997792:0crwdne5997792:0</target>
-        <note>Line: 159</note>
+        <note>Line: 162</note>
       </trans-unit>
       <trans-unit id="16a5534d559007de7e8f5b4f17112203">
         <source>Leave empty to disable</source>
         <target>crwdns5997794:0crwdne5997794:0</target>
-        <note>Line: 187</note>
+        <note>Line: 190</note>
       </trans-unit>
       <trans-unit id="d8b9fadcb2c1164975877a18731b1f4a">
         <source>Delivery time of out-of-stock products with allowed backorders</source>
         <target>crwdns5997796:0crwdne5997796:0</target>
-        <note>Line: 180</note>
+        <note>Line: 183</note>
       </trans-unit>
       <trans-unit id="7afe5d98107dd5ece88fef732a89d8b0">
         <source>Display out-of-stock label on product listing pages</source>
         <target>crwdns5997798:0crwdne5997798:0</target>
-        <note>Line: 201</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/Search/SearchTermType.php" source-language="en" target-language="en-UD" datatype="plaintext">
-    <body>
-      <trans-unit id="9ab81f57823f6aeb02362291f23883e6">
-        <source>Aliases</source>
-        <target>crwdns6021002:0crwdne6021002:0</target>
-        <note>Line: 55</note>
-      </trans-unit>
-      <trans-unit id="90868bb81c8f0bb2172bfe537c0be674">
-        <source>Search term</source>
-        <target>crwdns6021004:0crwdne6021004:0</target>
-        <note>Line: 49</note>
+        <note>Line: 204</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/SearchEngines/SearchEngineType.php" source-language="en" target-language="en-UD" datatype="plaintext">
     <body>
-      <trans-unit id="9aa1b03934893d7134a660af4204f2a9">
-        <source>Server</source>
-        <target>crwdns5997800:0crwdne5997800:0</target>
-        <note>Line: 50</note>
-      </trans-unit>
       <trans-unit id="52e1c423b768c6e9850d70f3a41aca1d">
         <source>$_GET variable</source>
         <target>crwdns5997802:0$_GETcrwdne5997802:0</target>
@@ -1630,7 +1611,8 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
       <trans-unit id="3bc18b9a688cd9ee9c915cb0023a8d74">
         <source>Add new group</source>
         <target>crwdns5997852:0crwdne5997852:0</target>
-        <note>Line: 31</note>
+        <note>Line: 31
+Comment: Stable feature flags form</note>
       </trans-unit>
     </body>
   </file>
@@ -1704,6 +1686,11 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/TrafficSeo/Meta/Blocks/form.html.twig" source-language="en" target-language="en-UD" datatype="plaintext">
     <body>
+      <trans-unit id="c0a1f9eff88edb62c46edb084004e32b">
+        <source>Page name</source>
+        <target>crwdns5997872:0crwdne5997872:0</target>
+        <note>Line: 44</note>
+      </trans-unit>
       <trans-unit id="db72e24b402e8baf8df6ca786a59e4de">
         <source>Rewritten URL</source>
         <target>crwdns5997868:0crwdne5997868:0</target>
@@ -1713,11 +1700,6 @@ Comment: PS_LABEL_OOS_PRODUCTS_BOD on configuration_lang table</note>
         <source>Page title</source>
         <target>crwdns5997870:0crwdne5997870:0</target>
         <note>Line: 54</note>
-      </trans-unit>
-      <trans-unit id="c0a1f9eff88edb62c46edb084004e32b">
-        <source>Page name</source>
-        <target>crwdns5997872:0crwdne5997872:0</target>
-        <note>Line: 44</note>
       </trans-unit>
       <trans-unit id="eff583da754980d2ae9628799dde5606">
         <source>Meta configuration</source>

@@ -35,11 +35,6 @@
   </file>
   <file original="classes/PrestaShopBackup.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      <trans-unit id="4e0ac45de6bd848503ffa98ff6247f2f" approved="yes">
-        <source>Error deleting</source>
-        <target state="final">Greška pri brisanju</target>
-        <note>Line: 192</note>
-      </trans-unit>
       <trans-unit id="47218fe85410a7029c216ef926cef044" approved="yes">
         <source>"Backup" directory does not exist.</source>
         <target state="final">Direktorijum za rezervne kopije ne postoji.</target>
@@ -64,6 +59,76 @@
   </file>
   <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
+      <trans-unit id="8c9067e52e4440d8a20e74fdc745b0c6" approved="yes">
+        <source>No file was uploaded.</source>
+        <target state="final">Nijedna datoteka nije dodata</target>
+        <note>Line: 704</note>
+      </trans-unit>
+      <trans-unit id="c775530fad852632f78395a11820ba23" approved="yes">
+        <source>The import directory must be writable (CHMOD 755 / 777).</source>
+        <target state="final">Uvoz direktorijuma mora biti upisiv (CHMOD 755 / 777).</target>
+        <note>Line: 589</note>
+      </trans-unit>
+      <trans-unit id="50844c635a86264cc59d737d532df573" approved="yes">
+        <source>An error occurred while uploading / copying the file.</source>
+        <target state="final">Došlo je do greške prilikom postavljanja i kopiranja dokumenta.</target>
+        <note>Line: 712</note>
+      </trans-unit>
+      <trans-unit id="68e8d36b17584f88614fb3201925a7ac" approved="yes">
+        <source>The uploaded file exceeds the upload_max_filesize directive in php.ini. If your server configuration allows it, you may add a directive in your .htaccess.</source>
+        <target state="final">Otpremljeni dokument prevazilazi upload_max_filesize direktivu u php.ini dokumentu. Ako vaš server to dozvoljava, možete dodati direktivu u vašem .htaccess dokumentu.</target>
+        <note>Line: 689</note>
+      </trans-unit>
+      <trans-unit id="4f12b222c9659d62afa795987259933f" approved="yes">
+        <source>The uploaded file was only partially uploaded.</source>
+        <target state="final">Datoteka je samo delimično postavljena</target>
+        <note>Line: 700</note>
+      </trans-unit>
+      <trans-unit id="d165f0c742c272ed88dc27acc91e2642" approved="yes">
+        <source>%s import</source>
+        <target state="final">%s uvezi</target>
+        <note>Line: 4087</note>
+      </trans-unit>
+      <trans-unit id="02b5205ddff3073efc5c8b5b9cc165ba" approved="yes">
+        <source>(from %s to %s)</source>
+        <target state="final">(od %s do %s)</target>
+        <note>Line: 4089</note>
+      </trans-unit>
+      <trans-unit id="b53b06c0e98a2db123f953f0059a0948" approved="yes">
+        <source>with truncate</source>
+        <target state="final">sa skraćenjem</target>
+        <note>Line: 4092</note>
+      </trans-unit>
+      <trans-unit id="43bf950e043950e2da10f917b902c131" approved="yes">
+        <source>%1$s (ID: %2$s) cannot be saved</source>
+        <target state="final">%1$s (ID: %2$s) se ne može snimiti</target>
+        <note>Line: 3663</note>
+      </trans-unit>
+      <trans-unit id="32fa1d06b5d0a192c9991c4bf038b30c" approved="yes">
+        <source>Shop is not valid</source>
+        <target state="final">Radnja je nevažeća</target>
+        <note>Line: 1878</note>
+      </trans-unit>
+      <trans-unit id="87aae49bd054f2cfa4b7b395dee5f2d3" approved="yes">
+        <source>Discount is invalid</source>
+        <target state="final">Popust je nevažeći</target>
+        <note>Line: 1953</note>
+      </trans-unit>
+      <trans-unit id="664d4132fc8dc3a158be4692b4246528" approved="yes">
+        <source>Tags list is invalid</source>
+        <target state="final">Lista tag-ova nevažeća</target>
+        <note>Line: 1980</note>
+      </trans-unit>
+      <trans-unit id="7bc08d1a3178f4927b2c07a18f417b4b" approved="yes">
+        <source>The root category cannot be modified.</source>
+        <target state="final">Glavna kategorija se ne može menjati.</target>
+        <note>Line: 1331</note>
+      </trans-unit>
+      <trans-unit id="50fe5f166bc7695a0c0db12ea8a346e7" approved="yes">
+        <source>cannot be copied.</source>
+        <target state="final">se ne može kopirati.</target>
+        <note>Line: 3560</note>
+      </trans-unit>
       <trans-unit id="5b8f192b08644fdc9fd1fd86bcbbc57b" approved="yes">
         <source>(click to open "Generators" page)</source>
         <target state="final">(klikni za otvaranje "Generators" stranice)</target>
@@ -171,61 +236,9 @@
       </trans-unit>
     </body>
   </file>
-  <file original="src/Adapter/Import/Handler/AbstractImportHandler.php" source-language="en" target-language="sr-CS" datatype="plaintext">
+  <file original="src/Adapter/GeneralConfiguration.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      <trans-unit id="d165f0c742c272ed88dc27acc91e2642" approved="yes">
-        <source>%s import</source>
-        <target state="final">%s uvezi</target>
-        <note>Line: 319</note>
-      </trans-unit>
-      <trans-unit id="02b5205ddff3073efc5c8b5b9cc165ba" approved="yes">
-        <source>(from %s to %s)</source>
-        <target state="final">(od %s do %s)</target>
-        <note>Line: 324</note>
-      </trans-unit>
-      <trans-unit id="b53b06c0e98a2db123f953f0059a0948" approved="yes">
-        <source>with truncate</source>
-        <target state="final">sa skraćenjem</target>
-        <note>Line: 330</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/Adapter/Import/Handler/CategoryImportHandler.php" source-language="en" target-language="sr-CS" datatype="plaintext">
-    <body>
-      <trans-unit id="7bc08d1a3178f4927b2c07a18f417b4b" approved="yes">
-        <source>The root category cannot be modified.</source>
-        <target state="final">Glavna kategorija se ne može menjati.</target>
-        <note>Line: 447</note>
-      </trans-unit>
-      <trans-unit id="50fe5f166bc7695a0c0db12ea8a346e7" approved="yes">
-        <source>cannot be copied.</source>
-        <target state="final">se ne može kopirati.</target>
-        <note>Line: 491</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/Adapter/Import/Handler/ProductImportHandler.php" source-language="en" target-language="sr-CS" datatype="plaintext">
-    <body>
-      <trans-unit id="43bf950e043950e2da10f917b902c131" approved="yes">
-        <source>%1$s (ID: %2$s) cannot be saved</source>
-        <target state="final">%1$s (ID: %2$s) se ne može snimiti</target>
-        <note>Line: 676</note>
-      </trans-unit>
-      <trans-unit id="32fa1d06b5d0a192c9991c4bf038b30c" approved="yes">
-        <source>Shop is not valid</source>
-        <target state="final">Radnja je nevažeća</target>
-        <note>Line: 464</note>
-      </trans-unit>
-      <trans-unit id="87aae49bd054f2cfa4b7b395dee5f2d3" approved="yes">
-        <source>Discount is invalid</source>
-        <target state="final">Popust je nevažeći</target>
-        <note>Line: 970</note>
-      </trans-unit>
-      <trans-unit id="664d4132fc8dc3a158be4692b4246528" approved="yes">
-        <source>Tags list is invalid</source>
-        <target state="final">Lista tag-ova nevažeća</target>
-        <note>Line: 1019</note>
-      </trans-unit>
+      
     </body>
   </file>
   <file original="src/Adapter/Media/MediaServerConfiguration.php" source-language="en" target-language="sr-CS" datatype="plaintext">
@@ -468,42 +481,18 @@
       </trans-unit>
     </body>
   </file>
-  <file original="src/Core/Import/File/FileUploader.php" source-language="en" target-language="sr-CS" datatype="plaintext">
-    <body>
-      <trans-unit id="68e8d36b17584f88614fb3201925a7ac" approved="yes">
-        <source>The uploaded file exceeds the upload_max_filesize directive in php.ini. If your server configuration allows it, you may add a directive in your .htaccess.</source>
-        <target state="final">Otpremljeni dokument prevazilazi upload_max_filesize direktivu u php.ini dokumentu. Ako vaš server to dozvoljava, možete dodati direktivu u vašem .htaccess dokumentu.</target>
-        <note>Line: 111</note>
-      </trans-unit>
-      <trans-unit id="4f12b222c9659d62afa795987259933f" approved="yes">
-        <source>The uploaded file was only partially uploaded.</source>
-        <target state="final">Datoteka je samo delimično postavljena</target>
-        <note>Line: 120</note>
-      </trans-unit>
-      <trans-unit id="50844c635a86264cc59d737d532df573" approved="yes">
-        <source>An error occurred while uploading / copying the file.</source>
-        <target state="final">Došlo je do greške prilikom postavljanja i kopiranja dokumenta.</target>
-        <note>Line: 90</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/Core/SqlManager/Configuration/SqlRequestConfiguration.php" source-language="en" target-language="sr-CS" datatype="plaintext">
-    <body>
-      
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/AdminAPIController.php" source-language="en" target-language="sr-CS" datatype="plaintext">
-    <body>
-      
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/AdministrationController.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
       
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/BackupController.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
+      <trans-unit id="4e0ac45de6bd848503ffa98ff6247f2f" approved="yes">
+        <source>Error deleting</source>
+        <target state="final">Greška pri brisanju</target>
+        <note>Line: 190</note>
+      </trans-unit>
       <trans-unit id="f36c9a20c2ce51f491c944e41fde5ace" approved="yes">
         <source>It appears the backup was successful, however you must download and carefully verify the backup file before proceeding.</source>
         <target state="final">Izgleda da je pravljenje rezervne kopije uspešno završeno, ipak je neophodno da preuzmete i pažljivo proverite fajl rezervne kopije pre nego što nastavite dalje.</target>
@@ -555,20 +544,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ImportController.php" source-language="en" target-language="sr-CS" datatype="plaintext">
-    <body>
-      <trans-unit id="c775530fad852632f78395a11820ba23" approved="yes">
-        <source>The import directory must be writable (CHMOD 755 / 777).</source>
-        <target state="final">Uvoz direktorijuma mora biti upisiv (CHMOD 755 / 777).</target>
-        <note>Line: 399</note>
-      </trans-unit>
-      <trans-unit id="8c9067e52e4440d8a20e74fdc745b0c6" approved="yes">
-        <source>No file was uploaded.</source>
-        <target state="final">Nijedna datoteka nije dodata</target>
-        <note>Line: 158</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ImportDataConfigurationController.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
       <trans-unit id="1ffbb6a3722eb0c39784c1c646e104cd" approved="yes">
@@ -604,6 +579,11 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/WebserviceController.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
+      <trans-unit id="3a59a0e5e521300876d4f2c596d6aeca" approved="yes">
+        <source>Key length must be %length% characters long.</source>
+        <target state="final">Lozinaka mora imati dužinu od %length% karaktera.</target>
+        <note>Line: 374</note>
+      </trans-unit>
       <trans-unit id="441006dbdaef41a163047624fe1241ab" approved="yes">
         <source>This key already exists.</source>
         <target state="final">Ovaj ključ već postoji.</target>
@@ -630,11 +610,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Import/ImportFormDataProvider.php" source-language="en" target-language="sr-CS" datatype="plaintext">
-    <body>
-      
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Import/ImportType.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
       <trans-unit id="e4cdcd51e6cf787d4ecc7d813f0c23cb" approved="yes">
@@ -646,11 +621,6 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceKeyType.php" source-language="en" target-language="sr-CS" datatype="plaintext">
     <body>
-      <trans-unit id="3a59a0e5e521300876d4f2c596d6aeca" approved="yes">
-        <source>Key length must be %length% characters long.</source>
-        <target state="final">Lozinaka mora imati dužinu od %length% karaktera.</target>
-        <note>Line: 111</note>
-      </trans-unit>
       <trans-unit id="2cb84ea6e832a3190d3ad11a3e1f415c" approved="yes">
         <source>Only non-accented characters, numbers, and the following special characters are allowed: %allowed_characters%</source>
         <target state="final">Dozvoljeni su samo znakovi bez akcenata, brojevi i sledeći specijalni znakovi: %allowed_characters%</target>

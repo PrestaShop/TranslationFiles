@@ -35,11 +35,6 @@
   </file>
   <file original="classes/PrestaShopBackup.php" source-language="en" target-language="bn" datatype="plaintext">
     <body>
-      <trans-unit id="4e0ac45de6bd848503ffa98ff6247f2f" approved="yes">
-        <source>Error deleting</source>
-        <target state="final">মুছে ফেলার সময় ত্রুটি ঘটেছে</target>
-        <note>Line: 192</note>
-      </trans-unit>
       <trans-unit id="47218fe85410a7029c216ef926cef044" approved="yes">
         <source>"Backup" directory does not exist.</source>
         <target state="final">"ব্যাক আপ" ডিরেক্টরির অস্তিত্ব নেই</target>
@@ -59,6 +54,71 @@
   </file>
   <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="bn" datatype="plaintext">
     <body>
+      <trans-unit id="8c9067e52e4440d8a20e74fdc745b0c6" approved="yes">
+        <source>No file was uploaded.</source>
+        <target state="final">কোনো ফাইল আপলোড করা হয় নি </target>
+        <note>Line: 704</note>
+      </trans-unit>
+      <trans-unit id="50844c635a86264cc59d737d532df573" approved="yes">
+        <source>An error occurred while uploading / copying the file.</source>
+        <target state="final">ফাইল আপলোড/কপি প্রক্রিয়ার সময় একটি ত্রুটি ঘটেছে .</target>
+        <note>Line: 712</note>
+      </trans-unit>
+      <trans-unit id="68e8d36b17584f88614fb3201925a7ac" approved="yes">
+        <source>The uploaded file exceeds the upload_max_filesize directive in php.ini. If your server configuration allows it, you may add a directive in your .htaccess.</source>
+        <target state="final">আপলোড করা ফাইল php.ini এর upload_max_filesize ডিরেকটিভ হতে আকারে বড়।যদি আপনার সার্ভার কনফিগারেশন অনুমতি দেয় তবে আপনি আপনি .htaccess এ একটি  ডিরেকটিভ যোগ করতে পারেন। </target>
+        <note>Line: 689</note>
+      </trans-unit>
+      <trans-unit id="4f12b222c9659d62afa795987259933f" approved="yes">
+        <source>The uploaded file was only partially uploaded.</source>
+        <target state="final">আপলোড করার ফাইলটি শুধুমাত্র আংশিকভাবে আপলোড হয়েছে </target>
+        <note>Line: 700</note>
+      </trans-unit>
+      <trans-unit id="d165f0c742c272ed88dc27acc91e2642" approved="yes">
+        <source>%s import</source>
+        <target state="final">%s ইমপোর্ট</target>
+        <note>Line: 4087</note>
+      </trans-unit>
+      <trans-unit id="02b5205ddff3073efc5c8b5b9cc165ba" approved="yes">
+        <source>(from %s to %s)</source>
+        <target state="final"> (%s হতে  %s পর্যন্ত) </target>
+        <note>Line: 4089</note>
+      </trans-unit>
+      <trans-unit id="b53b06c0e98a2db123f953f0059a0948" approved="yes">
+        <source>with truncate</source>
+        <target state="final">সংক্ষিপ্ত করনের সহিত</target>
+        <note>Line: 4092</note>
+      </trans-unit>
+      <trans-unit id="43bf950e043950e2da10f917b902c131" approved="yes">
+        <source>%1$s (ID: %2$s) cannot be saved</source>
+        <target state="final">%1$s (ID: %2$s)সংরক্ষণ করা যাবে না</target>
+        <note>Line: 3663</note>
+      </trans-unit>
+      <trans-unit id="32fa1d06b5d0a192c9991c4bf038b30c" approved="yes">
+        <source>Shop is not valid</source>
+        <target state="final">দোকানটি  ভ্যালিড নয় </target>
+        <note>Line: 1878</note>
+      </trans-unit>
+      <trans-unit id="87aae49bd054f2cfa4b7b395dee5f2d3" approved="yes">
+        <source>Discount is invalid</source>
+        <target state="final">ছাড়টি ভ্যালিড নয় </target>
+        <note>Line: 1953</note>
+      </trans-unit>
+      <trans-unit id="664d4132fc8dc3a158be4692b4246528" approved="yes">
+        <source>Tags list is invalid</source>
+        <target state="final">ট্যাগ লিস্টটি ভ্যালিড নয় </target>
+        <note>Line: 1980</note>
+      </trans-unit>
+      <trans-unit id="7bc08d1a3178f4927b2c07a18f417b4b" approved="yes">
+        <source>The root category cannot be modified.</source>
+        <target state="final">রুট ক্যাটাগরি পরিবর্তন করা যাবে না। </target>
+        <note>Line: 1331</note>
+      </trans-unit>
+      <trans-unit id="50fe5f166bc7695a0c0db12ea8a346e7" approved="yes">
+        <source>cannot be copied.</source>
+        <target state="final">কপি করা যাবে না।</target>
+        <note>Line: 3560</note>
+      </trans-unit>
       <trans-unit id="5b8f192b08644fdc9fd1fd86bcbbc57b" approved="yes">
         <source>(click to open "Generators" page)</source>
         <target state="final">("জেনারেটর" পৃষ্ঠা খোলার জন্য ক্লিক করুন)</target>
@@ -138,63 +198,12 @@
       
       
       
+      
     </body>
   </file>
-  <file original="src/Adapter/Import/Handler/AbstractImportHandler.php" source-language="en" target-language="bn" datatype="plaintext">
+  <file original="src/Adapter/GeneralConfiguration.php" source-language="en" target-language="bn" datatype="plaintext">
     <body>
-      <trans-unit id="d165f0c742c272ed88dc27acc91e2642" approved="yes">
-        <source>%s import</source>
-        <target state="final">%s ইমপোর্ট</target>
-        <note>Line: 319</note>
-      </trans-unit>
-      <trans-unit id="02b5205ddff3073efc5c8b5b9cc165ba" approved="yes">
-        <source>(from %s to %s)</source>
-        <target state="final"> (%s হতে  %s পর্যন্ত) </target>
-        <note>Line: 324</note>
-      </trans-unit>
-      <trans-unit id="b53b06c0e98a2db123f953f0059a0948" approved="yes">
-        <source>with truncate</source>
-        <target state="final">সংক্ষিপ্ত করনের সহিত</target>
-        <note>Line: 330</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/Adapter/Import/Handler/CategoryImportHandler.php" source-language="en" target-language="bn" datatype="plaintext">
-    <body>
-      <trans-unit id="7bc08d1a3178f4927b2c07a18f417b4b" approved="yes">
-        <source>The root category cannot be modified.</source>
-        <target state="final">রুট ক্যাটাগরি পরিবর্তন করা যাবে না। </target>
-        <note>Line: 447</note>
-      </trans-unit>
-      <trans-unit id="50fe5f166bc7695a0c0db12ea8a346e7" approved="yes">
-        <source>cannot be copied.</source>
-        <target state="final">কপি করা যাবে না।</target>
-        <note>Line: 491</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/Adapter/Import/Handler/ProductImportHandler.php" source-language="en" target-language="bn" datatype="plaintext">
-    <body>
-      <trans-unit id="43bf950e043950e2da10f917b902c131" approved="yes">
-        <source>%1$s (ID: %2$s) cannot be saved</source>
-        <target state="final">%1$s (ID: %2$s)সংরক্ষণ করা যাবে না</target>
-        <note>Line: 676</note>
-      </trans-unit>
-      <trans-unit id="32fa1d06b5d0a192c9991c4bf038b30c" approved="yes">
-        <source>Shop is not valid</source>
-        <target state="final">দোকানটি  ভ্যালিড নয় </target>
-        <note>Line: 464</note>
-      </trans-unit>
-      <trans-unit id="87aae49bd054f2cfa4b7b395dee5f2d3" approved="yes">
-        <source>Discount is invalid</source>
-        <target state="final">ছাড়টি ভ্যালিড নয় </target>
-        <note>Line: 970</note>
-      </trans-unit>
-      <trans-unit id="664d4132fc8dc3a158be4692b4246528" approved="yes">
-        <source>Tags list is invalid</source>
-        <target state="final">ট্যাগ লিস্টটি ভ্যালিড নয় </target>
-        <note>Line: 1019</note>
-      </trans-unit>
+      
     </body>
   </file>
   <file original="src/Adapter/Media/MediaServerConfiguration.php" source-language="en" target-language="bn" datatype="plaintext">
@@ -323,45 +332,18 @@
       </trans-unit>
     </body>
   </file>
-  <file original="src/Core/Import/File/FileUploader.php" source-language="en" target-language="bn" datatype="plaintext">
-    <body>
-      <trans-unit id="68e8d36b17584f88614fb3201925a7ac" approved="yes">
-        <source>The uploaded file exceeds the upload_max_filesize directive in php.ini. If your server configuration allows it, you may add a directive in your .htaccess.</source>
-        <target state="final">আপলোড করা ফাইল php.ini এর upload_max_filesize ডিরেকটিভ হতে আকারে বড়।যদি আপনার সার্ভার কনফিগারেশন অনুমতি দেয় তবে আপনি আপনি .htaccess এ একটি  ডিরেকটিভ যোগ করতে পারেন। </target>
-        <note>Line: 111</note>
-      </trans-unit>
-      <trans-unit id="4f12b222c9659d62afa795987259933f" approved="yes">
-        <source>The uploaded file was only partially uploaded.</source>
-        <target state="final">আপলোড করার ফাইলটি শুধুমাত্র আংশিকভাবে আপলোড হয়েছে </target>
-        <note>Line: 120</note>
-      </trans-unit>
-      <trans-unit id="50844c635a86264cc59d737d532df573" approved="yes">
-        <source>An error occurred while uploading / copying the file.</source>
-        <target state="final">ফাইল আপলোড/কপি প্রক্রিয়ার সময় একটি ত্রুটি ঘটেছে .</target>
-        <note>Line: 90</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/Core/SqlManager/Configuration/SqlRequestConfiguration.php" source-language="en" target-language="bn" datatype="plaintext">
-    <body>
-      
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/AdminAPIController.php" source-language="en" target-language="bn" datatype="plaintext">
-    <body>
-      
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/AdministrationController.php" source-language="en" target-language="bn" datatype="plaintext">
     <body>
       
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/BackupController.php" source-language="en" target-language="bn" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="4e0ac45de6bd848503ffa98ff6247f2f" approved="yes">
+        <source>Error deleting</source>
+        <target state="final">মুছে ফেলার সময় ত্রুটি ঘটেছে</target>
+        <note>Line: 190</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/EmployeeController.php" source-language="en" target-language="bn" datatype="plaintext">
@@ -385,15 +367,6 @@
         <source>The employee must be associated with at least one shop.</source>
         <target state="final">কর্মচারীকে অন্তত একটি দোকানের সঙ্গে যুক্ত করা প্রয়োজন</target>
         <note>Line: 447</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ImportController.php" source-language="en" target-language="bn" datatype="plaintext">
-    <body>
-      <trans-unit id="8c9067e52e4440d8a20e74fdc745b0c6" approved="yes">
-        <source>No file was uploaded.</source>
-        <target state="final">কোনো ফাইল আপলোড করা হয় নি </target>
-        <note>Line: 158</note>
       </trans-unit>
     </body>
   </file>
@@ -443,11 +416,6 @@
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Import/ImportFormDataProvider.php" source-language="en" target-language="bn" datatype="plaintext">
-    <body>
-      
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Import/ImportType.php" source-language="en" target-language="bn" datatype="plaintext">
     <body>
       <trans-unit id="e4cdcd51e6cf787d4ecc7d813f0c23cb" approved="yes">
@@ -459,7 +427,6 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceKeyType.php" source-language="en" target-language="bn" datatype="plaintext">
     <body>
-      
       
     </body>
   </file>

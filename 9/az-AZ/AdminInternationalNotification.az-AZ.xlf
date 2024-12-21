@@ -18,18 +18,27 @@
       </trans-unit>
     </body>
   </file>
-  <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_mails.tpl" source-language="en" target-language="az" datatype="plaintext">
+  <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_form.tpl" source-language="en" target-language="az" datatype="plaintext">
     <body>
+      <trans-unit id="7cefb4829c6de24b63f7a05716b43bec" approved="yes">
+        <source>This expression uses a special syntax:</source>
+        <target state="final">Bu deyim özəl bir sintaksis işlədir:</target>
+        <note>Line: 133</note>
+      </trans-unit>
       <trans-unit id="5607dc45ebdfc0baaab64d944aa88f47" approved="yes">
         <source>for max_input_vars.</source>
         <target state="final">max_input_vars üçün.</target>
-        <note>Line: 46</note>
+        <note>Line: 44</note>
       </trans-unit>
       <trans-unit id="4fb6a3beb82f8d8aa4bbdf8f5a0c35fa" approved="yes">
         <source>%s at least, or you will have to edit the translation files.</source>
         <target state="final">Ən azı %s, ya da tərcümə fayllarına düzəliş etməli olacaqsız.</target>
-        <note>Line: 49</note>
+        <note>Line: 47</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_mails.tpl" source-language="en" target-language="az" datatype="plaintext">
+    <body>
       <trans-unit id="bbfb7a636f839052067cc86c39fa595a" approved="yes">
         <source>%limit% for suhosin.post.max_vars.</source>
         <target state="final">suhosin.post.max_vars üçün %limit%.</target>
@@ -39,15 +48,6 @@
         <source>%limit% for suhosin.request.max_vars.</source>
         <target state="final">suhosin.request.max_vars üçün %limit%.</target>
         <note>Line: 42</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_modules.tpl" source-language="en" target-language="az" datatype="plaintext">
-    <body>
-      <trans-unit id="7cefb4829c6de24b63f7a05716b43bec" approved="yes">
-        <source>This expression uses a special syntax:</source>
-        <target state="final">Bu deyim özəl bir sintaksis işlədir:</target>
-        <note>Line: 140</note>
       </trans-unit>
     </body>
   </file>
@@ -115,26 +115,7 @@
   </file>
   <file original="classes/controller/AdminController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      <trans-unit id="c9468b4bd45a165049277af6756db10e" approved="yes">
-        <source>Localization pack imported successfully.</source>
-        <target state="final">Lokallaşdırma paketi uğurla idxal edildi.</target>
-        <note>Line: 531</note>
-      </trans-unit>
-      <trans-unit id="f22def68c5c456936078623b6dcd27ff" approved="yes">
-        <source>The translations have been successfully added.</source>
-        <target state="final">Tərcümələr müvəffəqiyyətlə əlavə edildi</target>
-        <note>Line: 522</note>
-      </trans-unit>
-      <trans-unit id="6cfb80c26b415f8f6467cf07b0c700dd" approved="yes">
-        <source>The translation was successfully copied.</source>
-        <target state="final">Dil müvəffəqiyyətlə köçürüldü</target>
-        <note>Line: 521</note>
-      </trans-unit>
-      <trans-unit id="bb01c8c21884e974df8517110c92b22a" approved="yes">
-        <source>The translation was added successfully, but the language has not been created.</source>
-        <target state="final">Çevirmə uğurla artırılmışdır, ancaq bu dil yaradılmayıb.</target>
-        <note>Line: 527</note>
-      </trans-unit>
+      
     </body>
   </file>
   <file original="classes/tax/TaxManagerModule.php" source-language="en" target-language="az" datatype="plaintext">
@@ -179,6 +160,26 @@
   </file>
   <file original="controllers/admin/AdminTranslationsController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
+      <trans-unit id="07b33077111c506cf81b6cc5ef42a170" approved="yes">
+        <source>Impossible to translate "%dest%".</source>
+        <target state="final">"%dest%" tərcümə edilmir.</target>
+        <note>Line: 443</note>
+      </trans-unit>
+      <trans-unit id="c7254dc1193c25493aa0a09df285b43c" approved="yes">
+        <source>A part of the data has been copied but some of the language files could not be found.</source>
+        <target state="final">Məlumatların bir parçası köçürüldü, ancaq dil fayllarının bir neçəsi tapılmadı.</target>
+        <note>Line: 450</note>
+      </trans-unit>
+      <trans-unit id="fc15f62c244c6d8035874d556e6a7f7b" approved="yes">
+        <source>You must select two themes in order to copy data from one to another.</source>
+        <target state="final">Birindən o birinə köçürə bilmək üçün iki tema seçməlisiniz.</target>
+        <note>Line: 405</note>
+      </trans-unit>
+      <trans-unit id="6b5324e2e711f17c4d3db1f625178e86" approved="yes">
+        <source>Theme(s) not found</source>
+        <target state="final">Tema(lar) tapılmadı</target>
+        <note>Line: 427</note>
+      </trans-unit>
       <trans-unit id="02ae08296d544eb7c674182122645631" approved="yes">
         <source>Tab "%s" is not valid</source>
         <target state="final">"%s" çərçivəsi keçərli deyil</target>
@@ -218,30 +219,6 @@
         <source>There was a problem getting the mail files.</source>
         <target state="final">Məktub fayllarının alınmasında bir çətinlik oldu.</target>
         <note>Line: 2312</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/Adapter/Language/LanguageCopier.php" source-language="en" target-language="az" datatype="plaintext">
-    <body>
-      <trans-unit id="fc15f62c244c6d8035874d556e6a7f7b" approved="yes">
-        <source>You must select two themes in order to copy data from one to another.</source>
-        <target state="final">Birindən o birinə köçürə bilmək üçün iki tema seçməlisiniz.</target>
-        <note>Line: 172</note>
-      </trans-unit>
-      <trans-unit id="6b5324e2e711f17c4d3db1f625178e86" approved="yes">
-        <source>Theme(s) not found</source>
-        <target state="final">Tema(lar) tapılmadı</target>
-        <note>Line: 204</note>
-      </trans-unit>
-      <trans-unit id="07b33077111c506cf81b6cc5ef42a170" approved="yes">
-        <source>Impossible to translate "%dest%".</source>
-        <target state="final">"%dest%" tərcümə edilmir.</target>
-        <note>Line: 127</note>
-      </trans-unit>
-      <trans-unit id="c7254dc1193c25493aa0a09df285b43c" approved="yes">
-        <source>A part of the data has been copied but some of the language files could not be found.</source>
-        <target state="final">Məlumatların bir parçası köçürüldü, ancaq dil fayllarının bir neçəsi tapılmadı.</target>
-        <note>Line: 139</note>
       </trans-unit>
     </body>
   </file>
@@ -287,43 +264,56 @@
       <trans-unit id="2f236f9450ce8714611e468181064659" approved="yes">
         <source>You cannot change the status of the default language.</source>
         <target state="final">Susmaya görə olan dilin durumunu dəyişdirə bilməzsiniz.</target>
-        <note>Line: 407</note>
+        <note>Line: 401</note>
       </trans-unit>
       <trans-unit id="8037670f9e6df1f09e040ff8ab047fac" approved="yes">
         <source>An error occurred while copying "No Picture" image to your product folder.</source>
         <target state="final">"Şəkil Yoxdur" şəklinin məhsul qovluğunuza köçürülməsində bir yanlışlıq oldu.</target>
-        <note>Line: 351</note>
+        <note>Line: 345</note>
       </trans-unit>
       <trans-unit id="0773497a933e6c2b618678b02cbdf7a1" approved="yes">
         <source>An error occurred while copying "No picture" image to your category folder.</source>
         <target state="final">"Şəkil Yoxdur" şəklinin bölmə qovluğunuza köçürülməsində bir yanlışlıq oldu.</target>
-        <note>Line: 356</note>
+        <note>Line: 350</note>
       </trans-unit>
       <trans-unit id="6509c8bfa3f06725a6016e6a429dbcd9" approved="yes">
         <source>An error occurred while copying "No picture" image to your brand folder.</source>
         <target state="final">"Şəkil Yoxdur" şəklinin brend qovluğunuza köçürülməsində bir yanlışlıq oldu.</target>
-        <note>Line: 361</note>
+        <note>Line: 355</note>
       </trans-unit>
       <trans-unit id="8bd94436fa6738863292fb9823368694" approved="yes">
         <source>You cannot delete the default language.</source>
         <target state="final">Susmaya görə olan dili poza bilməzsiniz.</target>
-        <note>Line: 412</note>
+        <note>Line: 406</note>
       </trans-unit>
       <trans-unit id="f25eedbf89efbd0cfce488fe01f9c4cb" approved="yes">
         <source>You cannot delete the language currently in use. Please select a different language.</source>
         <target state="final">İndi işlədilən dili poza bilməzsiniz. Buyurun, başqa bir dili seçin.</target>
-        <note>Line: 417</note>
+        <note>Line: 411</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/LocalizationController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      
+      <trans-unit id="c9468b4bd45a165049277af6756db10e" approved="yes">
+        <source>Localization pack imported successfully.</source>
+        <target state="final">Lokallaşdırma paketi uğurla idxal edildi.</target>
+        <note>Line: 214</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/TranslationsController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      
+      <trans-unit id="6cfb80c26b415f8f6467cf07b0c700dd" approved="yes">
+        <source>The translation was successfully copied.</source>
+        <target state="final">Dil müvəffəqiyyətlə köçürüldü</target>
+        <note>Line: 345</note>
+      </trans-unit>
+      <trans-unit id="f22def68c5c456936078623b6dcd27ff" approved="yes">
+        <source>The translations have been successfully added.</source>
+        <target state="final">Tərcümələr müvəffəqiyyətlə əlavə edildi</target>
+        <note>Line: 199</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/ZoneController.php" source-language="en" target-language="az" datatype="plaintext">
@@ -390,6 +380,15 @@
   <file original="src/PrestaShopBundle/Resources/views/Admin/Improve/International/Translations/Blocks/copy_language.html.twig" source-language="en" target-language="az" datatype="plaintext">
     <body>
       
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Twig/Component/Legacy/LegacySessionAlert.php" source-language="en" target-language="az" datatype="plaintext">
+    <body>
+      <trans-unit id="bb01c8c21884e974df8517110c92b22a" approved="yes">
+        <source>The translation was added successfully, but the language has not been created.</source>
+        <target state="final">Çevirmə uğurla artırılmışdır, ancaq bu dil yaradılmayıb.</target>
+        <note>Line: 75</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Twig/TranslationsExtension.php" source-language="en" target-language="az" datatype="plaintext">
