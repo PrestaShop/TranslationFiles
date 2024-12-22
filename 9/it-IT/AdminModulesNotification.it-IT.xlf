@@ -16,6 +16,11 @@
   </file>
   <file original="classes/module/Module.php" source-language="en" target-language="it" datatype="plaintext">
     <body>
+      <trans-unit id="b59a5b6adc36beaec10f2452506dadd7" approved="yes">
+        <source>Starting module install: %s v%s</source>
+        <target state="final">Inizio dell'installazione del modulo: %s v%s</target>
+        <note>Line: 597</note>
+      </trans-unit>
       <trans-unit id="cda10a1476bc741e9cec7b0a4fd2cb7d" approved="yes">
         <source>Unable to install the module (Module name is not valid).</source>
         <target state="final">Impossibile installare il modulo (Nome del modulo non valido).</target>
@@ -45,6 +50,11 @@
         <source>Technical error: PrestaShop could not install this module.</source>
         <target state="final">Errore tecnico: PrestaShop non può installare questo modulo.</target>
         <note>Line: 456</note>
+      </trans-unit>
+      <trans-unit id="b71f3d411fd9169e714e2d48ab29b3ba" approved="yes">
+        <source>Module installed successfully: %s v%s</source>
+        <target state="final">Modulo installato correttamente: %s v%s</target>
+        <note>Line: 496</note>
       </trans-unit>
       <trans-unit id="071fd3819a08e165553f33babf3dc334" approved="yes">
         <source>Current version: %s</source>
@@ -81,10 +91,30 @@
         <target state="final">Per evitare qualsiasi problema, questo modulo è stato disattivato</target>
         <note>Line: 573</note>
       </trans-unit>
+      <trans-unit id="9a61413a718938d00a12283705b2f07b" approved="yes">
+        <source>Starting module upgrade: %s v%s to v%s</source>
+        <target state="final">Inizio dell'aggiornamento del modulo: %s v%s a v%s</target>
+        <note>Line: 610</note>
+      </trans-unit>
+      <trans-unit id="e53e6260211523fd8887fc175bbe57c0" approved="yes">
+        <source>Module upgraded successfully: %s to v%s</source>
+        <target state="final">Modulo aggiornato correttamente: %s a v%s</target>
+        <note>Line: 696</note>
+      </trans-unit>
+      <trans-unit id="53245a7b59e22ec5f184b32f1cddde6b" approved="yes">
+        <source>Starting module uninstall: %s v%s</source>
+        <target state="final">Inizio della disinstallazione del modulo: %s v%s</target>
+        <note>Line: 871</note>
+      </trans-unit>
       <trans-unit id="4762b130ddcc0e4d2eacf0c59a8b17a2" approved="yes">
         <source>The module is not installed.</source>
         <target state="final">Il modulo non è installato.</target>
         <note>Line: 883</note>
+      </trans-unit>
+      <trans-unit id="b7021f145b4df6d2e4392dd78bdeff3c" approved="yes">
+        <source>Module uninstalled successfully: %s v%s</source>
+        <target state="final">Modulo disinstallato correttamente: %s v%s</target>
+        <note>Line: 939</note>
       </trans-unit>
       <trans-unit id="6869dc1977dbff7c5749120241f74ff0" approved="yes">
         <source>Unable to install override: %s</source>
@@ -269,6 +299,11 @@
   </file>
   <file original="src/Core/Module/ModuleManager.php" source-language="en" target-language="it" datatype="plaintext">
     <body>
+      <trans-unit id="4d373e9888aff2340f84ff4d11256e7b" approved="yes">
+        <source>You are not allowed to upload modules.</source>
+        <target state="final">Non ti è consentito caricare moduli.</target>
+        <note>Line: 97</note>
+      </trans-unit>
       <trans-unit id="f2715f72988009e4f50e94d88b3df89f" approved="yes">
         <source>You are not allowed to install modules.</source>
         <target state="final">Non ti è consentito installare moduli.</target>
@@ -388,6 +423,16 @@
         <source>Cannot %action% module %module%. %error_details%</source>
         <target state="final">Impossibile %action% il modulo %module%. %error_details%</target>
         <note>Line: 306</note>
+      </trans-unit>
+      <trans-unit id="1813abdaaf1d6cb0a856a8e41cea2e44" approved="yes">
+        <source>The module "%modulename%" cannot be found</source>
+        <target state="final">Impossibile trovare il modulo "%modulename%"</target>
+        <note>Line: 131</note>
+      </trans-unit>
+      <trans-unit id="9647889314f2f03cea13c132df2a8dc9" approved="yes">
+        <source>Module %s has no getContent() method</source>
+        <target state="final">Il modulo %s non ha il metodo getContent()</target>
+        <note>Line: 158</note>
       </trans-unit>
       <trans-unit id="35e839bc1864dd50a75500028c3ebb33" approved="yes">
         <source>Installation of module %module% was successful.</source>
