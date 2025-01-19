@@ -2,6 +2,11 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="classes/CartRule.php" source-language="en" target-language="sq" datatype="plaintext">
     <body>
+      <trans-unit id="a20fe641706c6d834ac58b38b9f51e68" approved="yes">
+        <source>This voucher is not valid.</source>
+        <target state="final">Ky kupon nuk është i vlefshëm.</target>
+        <note>Line: 724</note>
+      </trans-unit>
       <trans-unit id="5a6448a8d8e77fa43df91db2eea79fb1" approved="yes">
         <source>This voucher is disabled</source>
         <target state="final">Ky kupon është çaktivizuar</target>
@@ -52,6 +57,11 @@
         <target state="final">Ju nuk mund ta përdorni këtë kupon me këtë transportues</target>
         <note>Line: 841</note>
       </trans-unit>
+      <trans-unit id="40869c38d826da9c21cc0359f905e5b3" approved="yes">
+        <source>You cannot use this voucher on products on sale</source>
+        <target state="final">Nuk mund ta përdorësh këtë kupon për produktet në ofertë</target>
+        <note>Line: 856</note>
+      </trans-unit>
       <trans-unit id="3fb396b59440efc171f576e02ecfa88a" approved="yes">
         <source>Please log in first</source>
         <target state="final">Ju lutemi identifikohuni më parë</target>
@@ -67,10 +77,20 @@
         <target state="final">Ky kupon është tashmë në shportën tuaj</target>
         <note>Line: 965</note>
       </trans-unit>
+      <trans-unit id="4837d38bc896f38c39d6f7024e466967" approved="yes">
+        <source>This voucher is not combinable with an other voucher already in your cart: %s</source>
+        <target state="final">Ky kupon nuk mund të kombinohet me një kupon tjetër që ndodhet tashmë në shportën tënde: %s</target>
+        <note>Line: 985</note>
+      </trans-unit>
       <trans-unit id="e199546c0a1d80f1bf116b131ee02e22" approved="yes">
         <source>Cart is empty</source>
         <target state="final">Shporta është e zbraztë</target>
         <note>Line: 996</note>
+      </trans-unit>
+      <trans-unit id="1a0c8c4e381164295f1e06d777411d11" approved="yes">
+        <source>You cannot use this voucher because it has manually been removed.</source>
+        <target state="final">Ti nuk mund ta përdorësh këtë kupon sepse është hequr manualisht.</target>
+        <note>Line: 1008</note>
       </trans-unit>
       <trans-unit id="f6b43936fe8476614100c342b9c4750d" approved="yes">
         <source>You cannot use this voucher in an empty cart</source>
@@ -100,11 +120,20 @@
   </file>
   <file original="classes/form/AbstractForm.php" source-language="en" target-language="sq" datatype="plaintext">
     <body>
-      
+      <trans-unit id="0e2338b37ab3dfeed544e8233b53d4e0" approved="yes">
+        <source>The %1$s field is too long (%2$d chars max).</source>
+        <target state="final">Fusha %1$s është shumë e gjatë (maks. %2$d karaktere).</target>
+        <note>Line: 176</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/form/CustomerLoginForm.php" source-language="en" target-language="sq" datatype="plaintext">
     <body>
+      <trans-unit id="90162cff1b4a1a5a765c542ddc499998" approved="yes">
+        <source>Your account isn't available at this time, please contact us</source>
+        <target state="final">Llogaria jote nuk është e disponueshme për momentin, të lutem na kontakto</target>
+        <note>Line: 76</note>
+      </trans-unit>
       <trans-unit id="802b207b05fe5cea22e11b9db804b33d" approved="yes">
         <source>Authentication failed.</source>
         <target state="final">Authentication failed</target>
@@ -114,15 +143,35 @@
   </file>
   <file original="classes/form/CustomerPersister.php" source-language="en" target-language="sq" datatype="plaintext">
     <body>
+      <trans-unit id="d2f614cac7a0f970168f6d129860a1c0" approved="yes">
+        <source>Invalid email/password combination</source>
+        <target state="final">Kombinimi email/fjalëkalim është i pavlefshëm</target>
+        <note>Line: 80</note>
+      </trans-unit>
+      <trans-unit id="5f377de6cd38d0577c9628eeaecb3d0f" approved="yes">
+        <source>There seems to be an issue with your account, please contact support</source>
+        <target state="final">Duket se ka një problem me llogarinë tënde, të lutem kontakto shërbimin e mbështetjes</target>
+        <note>Line: 110</note>
+      </trans-unit>
       <trans-unit id="eefb581d7c421334e62a68223c7a242a" approved="yes">
         <source>The email is already used, please choose another one or sign in</source>
         <target state="final">Ky email tashmë është përdorur, të lutem zgjidh një tjetër.</target>
         <note>Line: 217</note>
       </trans-unit>
+      <trans-unit id="47be05698f8dd87bb445ceefce6abd0d" approved="yes">
+        <source>Password is required</source>
+        <target state="final">Kërkohet fjalëkalimi</target>
+        <note>Line: 189</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/front/AddressController.php" source-language="en" target-language="sq" datatype="plaintext">
     <body>
+      <trans-unit id="0adae640fffe5e6c0208e25f13aaa414" approved="yes">
+        <source>Please fix the error below.</source>
+        <target state="final">Të lutem rregullo gabimin e mëposhtëm.</target>
+        <note>Line: 74</note>
+      </trans-unit>
       <trans-unit id="beb19eac775bc240590f89e361d2baab" approved="yes">
         <source>Could not delete the address since it is used in the shopping cart.</source>
         <target state="final">Adresa nuk mund të fshihej pasi përdoret në shportën e blerjeve.</target>
@@ -141,10 +190,20 @@
   </file>
   <file original="controllers/front/CartController.php" source-language="en" target-language="sq" datatype="plaintext">
     <body>
+      <trans-unit id="897bbb78781eb767eee3a4ac3e820185" approved="yes">
+        <source>You must enter a voucher code.</source>
+        <target state="final">Duhet të futësh një kod kuponi.</target>
+        <note>Line: 251</note>
+      </trans-unit>
       <trans-unit id="417d63b1effb110e438d4b4b9f0fbd95" approved="yes">
         <source>The voucher code is invalid.</source>
         <target state="final">Kodi i kuponit është i pavlefshëm.</target>
         <note>Line: 257</note>
+      </trans-unit>
+      <trans-unit id="d21c3bf7d25db04b73e7e269aef555fe" approved="yes">
+        <source>This voucher does not exist.</source>
+        <target state="final">Ky kupn nuk ekziston.</target>
+        <note>Line: 271</note>
       </trans-unit>
       <trans-unit id="8b84452c494aa9106d26b20c9df0e431" approved="yes">
         <source>You must add %quantity% minimum quantity</source>
@@ -155,6 +214,11 @@
         <source>Null quantity.</source>
         <target state="final">Null quantity</target>
         <note>Line: 379</note>
+      </trans-unit>
+      <trans-unit id="dfbe69c6d9568ecb0e65e7b32ed92a3a" approved="yes">
+        <source>Product not found</source>
+        <target state="final">Produkti nuk u gjet</target>
+        <note>Line: 385</note>
       </trans-unit>
       <trans-unit id="cb0b5b032f2426b3fe341460320b5a8e" approved="yes">
         <source>This product (%product%) is no longer available.</source>
