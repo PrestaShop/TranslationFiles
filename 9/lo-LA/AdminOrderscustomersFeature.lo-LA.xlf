@@ -2,11 +2,6 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="admin-dev/themes/default/template/controllers/customer_threads/helpers/list/list_header.tpl" source-language="en" target-language="lo" datatype="plaintext">
     <body>
-      <trans-unit id="f08d50397194b8e1679b11fd16f60ebc" approved="yes">
-        <source>New messages</source>
-        <target state="final">ຂໍ້ຄວາມໃໝ່</target>
-        <note>Line: 55</note>
-      </trans-unit>
       <trans-unit id="c3bf447eabe632720a3aa1a7ce401274" approved="yes">
         <source>Open</source>
         <target state="final">ເປີດ</target>
@@ -26,6 +21,11 @@
         <source>Pending 2</source>
         <target state="final">ລໍຖ້າດຳເນີນການ 2</target>
         <note>Line: 70</note>
+      </trans-unit>
+      <trans-unit id="f08d50397194b8e1679b11fd16f60ebc" approved="yes">
+        <source>New messages</source>
+        <target state="final">ຂໍ້ຄວາມໃໝ່</target>
+        <note>Line: 55</note>
       </trans-unit>
       <trans-unit id="6d88865acb8658a92b188e47ba03906d" approved="yes">
         <source>No new messages</source>
@@ -128,7 +128,7 @@
       
     </body>
   </file>
-  <file original="admin-dev/themes/new-theme/template/header.tpl" source-language="en" target-language="lo" datatype="plaintext">
+  <file original="admin-dev/themes/default/template/header.tpl" source-language="en" target-language="lo" datatype="plaintext">
     <body>
       
       
@@ -189,15 +189,15 @@
   </file>
   <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="lo" datatype="plaintext">
     <body>
-      <trans-unit id="b60bb13a87fe3ae5463aeb0980a5a8a1" approved="yes">
-        <source>Identification number</source>
-        <target state="final">ໝາຍເລກບັດປະຈຳຕົວ</target>
-        <note>Line: 410</note>
-      </trans-unit>
       <trans-unit id="7cb32e708d6b961d476baced73d362bb" approved="yes">
         <source>VAT number</source>
         <target state="final">ໝາຍເລກ VAT</target>
         <note>Line: 409</note>
+      </trans-unit>
+      <trans-unit id="b60bb13a87fe3ae5463aeb0980a5a8a1" approved="yes">
+        <source>Identification number</source>
+        <target state="final">ໝາຍເລກບັດປະຈຳຕົວ</target>
+        <note>Line: 410</note>
       </trans-unit>
     </body>
   </file>
@@ -310,15 +310,15 @@
       
     </body>
   </file>
-  <file original="src/Core/Grid/Data/Factory/CartGridDataFactory.php" source-language="en" target-language="lo" datatype="plaintext">
+  <file original="src/Core/Grid/Data/Factory/CreditSlipGridDataFactory.php" source-language="en" target-language="lo" datatype="plaintext">
     <body>
-      
-      
       
     </body>
   </file>
-  <file original="src/Core/Grid/Data/Factory/CreditSlipGridDataFactory.php" source-language="en" target-language="lo" datatype="plaintext">
+  <file original="src/Core/Grid/Definition/Factory/CartGridDefinitionFactory.php" source-language="en" target-language="lo" datatype="plaintext">
     <body>
+      
+      
       
     </body>
   </file>
@@ -338,16 +338,6 @@
   </file>
   <file original="src/Core/Grid/Definition/Factory/CustomerGridDefinitionFactory.php" source-language="en" target-language="lo" datatype="plaintext">
     <body>
-      <trans-unit id="0f98b7f230f3c91292f0de4c99e263f2" approved="yes">
-        <source>Registration</source>
-        <target state="final">ລົງທະບຽນ</target>
-        <note>Line: 207</note>
-      </trans-unit>
-      <trans-unit id="5e5914912e8d2f2765525840acf98bea" approved="yes">
-        <source>Last visit</source>
-        <target state="final">ເຂົ້າຢ້ຽມຫຼ້າສຸດ</target>
-        <note>Line: 215</note>
-      </trans-unit>
       <trans-unit id="e6d0e1c8fc6a4fcf47869df87e04cd88" approved="yes">
         <source>Customers</source>
         <target state="final">ລູກຄ້າ</target>
@@ -357,7 +347,6 @@
   </file>
   <file original="src/Core/Grid/Definition/Factory/OrderGridDefinitionFactory.php" source-language="en" target-language="lo" datatype="plaintext">
     <body>
-      
       
       
       
@@ -381,9 +370,16 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Customer/CustomerController.php" source-language="en" target-language="lo" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="0f98b7f230f3c91292f0de4c99e263f2" approved="yes">
+        <source>Registration</source>
+        <target state="final">ລົງທະບຽນ</target>
+        <note>Line: 821</note>
+      </trans-unit>
+      <trans-unit id="5e5914912e8d2f2765525840acf98bea" approved="yes">
+        <source>Last visit</source>
+        <target state="final">ເຂົ້າຢ້ຽມຫຼ້າສຸດ</target>
+        <note>Line: 822</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/OrderMessageController.php" source-language="en" target-language="lo" datatype="plaintext">
@@ -471,7 +467,6 @@
     <body>
       
       
-      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/InternalNoteType.php" source-language="en" target-language="lo" datatype="plaintext">
@@ -481,6 +476,7 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Order/Invoices/InvoiceOptionsType.php" source-language="en" target-language="lo" datatype="plaintext">
     <body>
+      
       
       
       
@@ -516,6 +512,15 @@
       </trans-unit>
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Address/index.html.twig" source-language="en" target-language="lo" datatype="plaintext">
+    <body>
+      <trans-unit id="0470d45929f27e1161330164c423b415" approved="yes">
+        <source>Set required fields for this section</source>
+        <target state="final">ຕັ້ງເປັນ ຊ່ອງຕ້ອງການສຳລັບສ່ວນນີ້</target>
+        <note>Line: 36</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/Blocks/Index/required_fields.html.twig" source-language="en" target-language="lo" datatype="plaintext">
     <body>
       <trans-unit id="70397c4b252a5168c5ec003931cea215" approved="yes">
@@ -541,15 +546,6 @@
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/Blocks/View/discounts.html.twig" source-language="en" target-language="lo" datatype="plaintext">
-    <body>
-      <trans-unit id="a82868319826fb092b73968e661b5b38" approved="yes">
-        <source>Vouchers</source>
-        <target state="final">ບັດຂອງຂວັນ</target>
-        <note>Line: 29</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/Blocks/View/groups.html.twig" source-language="en" target-language="lo" datatype="plaintext">
     <body>
       
     </body>
@@ -639,15 +635,6 @@
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/index.html.twig" source-language="en" target-language="lo" datatype="plaintext">
-    <body>
-      <trans-unit id="0470d45929f27e1161330164c423b415" approved="yes">
-        <source>Set required fields for this section</source>
-        <target state="final">ຕັ້ງເປັນ ຊ່ອງຕ້ອງການສຳລັບສ່ວນນີ້</target>
-        <note>Line: 59</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/CustomerService/CustomerThread/Block/customer_information.html.twig" source-language="en" target-language="lo" datatype="plaintext">
     <body>
       
@@ -717,21 +704,21 @@
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/CreditSlip/Blocks/pdf_by_date.html.twig" source-language="en" target-language="lo" datatype="plaintext">
-    <body>
-      <trans-unit id="9a0a4f0869ab12a21407047290750e7a" approved="yes">
-        <source>By date</source>
-        <target state="final">ອອກວັນທີ</target>
-        <note>Line: 36</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Delivery/slip.html.twig" source-language="en" target-language="lo" datatype="plaintext">
     <body>
       <trans-unit id="947c66d55a8038fd0c16fef605186573" approved="yes">
         <source>Delivery slip options</source>
         <target state="final">ຕົວເລືອກໃບນຳສົ່່ງ</target>
         <note>Line: 60</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Invoices/Blocks/generate_by_date.html.twig" source-language="en" target-language="lo" datatype="plaintext">
+    <body>
+      <trans-unit id="9a0a4f0869ab12a21407047290750e7a" approved="yes">
+        <source>By date</source>
+        <target state="final">ອອກວັນທີ</target>
+        <note>Line: 34</note>
       </trans-unit>
     </body>
   </file>
@@ -786,9 +773,11 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/Create/cart_rules.html.twig" source-language="en" target-language="lo" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="a82868319826fb092b73968e661b5b38" approved="yes">
+        <source>Vouchers</source>
+        <target state="final">ບັດຂອງຂວັນ</target>
+        <note>Line: 28</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/Create/customer.html.twig" source-language="en" target-language="lo" datatype="plaintext">
@@ -828,6 +817,11 @@
       </trans-unit>
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/Modal/add_product_modal.html.twig" source-language="en" target-language="lo" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/Modal/update_shipping_modal.html.twig" source-language="en" target-language="lo" datatype="plaintext">
     <body>
       
@@ -835,7 +829,6 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/add_product_row.html.twig" source-language="en" target-language="lo" datatype="plaintext">
     <body>
-      
       
       
     </body>
@@ -877,6 +870,11 @@
       </trans-unit>
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/edit_product_row.html.twig" source-language="en" target-language="lo" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/history.html.twig" source-language="en" target-language="lo" datatype="plaintext">
     <body>
       
@@ -911,16 +909,6 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/order_actions.html.twig" source-language="en" target-language="lo" datatype="plaintext">
     <body>
-      <trans-unit id="6a5efd211a422296eab4adc476c98f0e" approved="yes">
-        <source>Return products</source>
-        <target state="final">ສົ່ງຄືນສິນຄ້າ</target>
-        <note>Line: 104</note>
-      </trans-unit>
-      <trans-unit id="4b8def9be8f45a8d6baea36b26868965" approved="yes">
-        <source>Cancel products</source>
-        <target state="final">ຍົກເລີກສິນຄ້າ</target>
-        <note>Line: 113</note>
-      </trans-unit>
       <trans-unit id="a6ecff447ea8327b43f5d16a924fb6be" approved="yes">
         <source>View invoice</source>
         <target state="final">ສະແດງໃບກັບກັບສິນຄ້າ</target>
@@ -930,6 +918,16 @@
         <source>View delivery slip</source>
         <target state="final">ສະແດງໃບນຳສົ່ງ</target>
         <note>Line: 92</note>
+      </trans-unit>
+      <trans-unit id="6a5efd211a422296eab4adc476c98f0e" approved="yes">
+        <source>Return products</source>
+        <target state="final">ສົ່ງຄືນສິນຄ້າ</target>
+        <note>Line: 104</note>
+      </trans-unit>
+      <trans-unit id="4b8def9be8f45a8d6baea36b26868965" approved="yes">
+        <source>Cancel products</source>
+        <target state="final">ຍົກເລີກສິນຄ້າ</target>
+        <note>Line: 113</note>
       </trans-unit>
       <trans-unit id="be4254ec37a7bf0d2babdf04bce774cf" approved="yes">
         <source>Print order</source>
@@ -954,18 +952,15 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/product.html.twig" source-language="en" target-language="lo" datatype="plaintext">
     <body>
-      
-      
-      
+      <trans-unit id="cc61945cbbf46721a053467c395c666f" approved="yes">
+        <source>Refunded</source>
+        <target state="final">ສົ່ງເງິນຄືນແລ້ວ</target>
+        <note>Line: 76</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/products.html.twig" source-language="en" target-language="lo" datatype="plaintext">
     <body>
-      <trans-unit id="cc61945cbbf46721a053467c395c666f" approved="yes">
-        <source>Refunded</source>
-        <target state="final">ສົ່ງເງິນຄືນແລ້ວ</target>
-        <note>Line: 79</note>
-      </trans-unit>
       <trans-unit id="ba794350deb07c0c96fe73bd12239059" approved="yes">
         <source>Wrapping</source>
         <target state="final">ຫໍ່</target>
@@ -1000,7 +995,6 @@
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/change_orders_status_modal.html.twig" source-language="en" target-language="lo" datatype="plaintext">
     <body>
       
-      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/create.html.twig" source-language="en" target-language="lo" datatype="plaintext">
@@ -1019,7 +1013,6 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/preview.html.twig" source-language="en" target-language="lo" datatype="plaintext">
     <body>
-      
       
       
       

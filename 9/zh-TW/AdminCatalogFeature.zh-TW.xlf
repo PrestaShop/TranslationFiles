@@ -2,11 +2,6 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="admin-dev/themes/default/template/controllers/cart_rules/actions.tpl" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      <trans-unit id="2f73d13f0a878086ce1f9933aed3ac80" approved="yes">
-        <source>Send a free gift</source>
-        <target state="final">贈送一個禮品</target>
-        <note>Line: 165</note>
-      </trans-unit>
       <trans-unit id="629b9591d5085cf14edd26c9d376bb3a" approved="yes">
         <source>Order (without shipping)</source>
         <target state="final">訂購(不含運費)</target>
@@ -26,6 +21,11 @@
         <source>Selected product(s)</source>
         <target state="final">已選商品</target>
         <note>Line: 125</note>
+      </trans-unit>
+      <trans-unit id="2f73d13f0a878086ce1f9933aed3ac80" approved="yes">
+        <source>Send a free gift</source>
+        <target state="final">贈送一個禮品</target>
+        <note>Line: 165</note>
       </trans-unit>
       <trans-unit id="fc6341fa76fe93b837d748563e0a60c1" approved="yes">
         <source>Apply a discount</source>
@@ -66,6 +66,11 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="9f6e99bdd4184b83dc478d0ab1b4cbf7" approved="yes">
+        <source>Minimum amount</source>
+        <target state="final">最小值</target>
+        <note>Line: 75</note>
+      </trans-unit>
       <trans-unit id="7d058d4cdbc3a0f480bd472b62a0bf53" approved="yes">
         <source>Total available</source>
         <target state="final">可用總計</target>
@@ -75,11 +80,6 @@
         <source>Total available for each user</source>
         <target state="final">每個用戶的可用總計</target>
         <note>Line: 129</note>
-      </trans-unit>
-      <trans-unit id="9f6e99bdd4184b83dc478d0ab1b4cbf7" approved="yes">
-        <source>Minimum amount</source>
-        <target state="final">最小值</target>
-        <note>Line: 75</note>
       </trans-unit>
       <trans-unit id="cd8e66c655070f24cbece45141a505c3" approved="yes">
         <source>Country selection</source>
@@ -301,16 +301,34 @@
       </trans-unit>
     </body>
   </file>
+  <file original="classes/AttributeGroup.php" source-language="en" target-language="zh-TW" datatype="plaintext">
+    <body>
+      <trans-unit id="d274013ea65428454962a59b7b373a41" approved="yes">
+        <source>Public name</source>
+        <target state="final">公開名稱</target>
+        <note>Line: 57</note>
+      </trans-unit>
+      <trans-unit id="17af8baa9b3f90e936589069e4223280" approved="yes">
+        <source>Attribute type</source>
+        <target state="final">屬性類型</target>
+        <note>Line: 52</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="classes/lang/KeysReference/CategoryLang.php" source-language="en" target-language="zh-TW" datatype="plaintext">
+    <body>
+      <trans-unit id="fa03eb688ad8aa1db593d33dabd89bad" approved="yes">
+        <source>Root</source>
+        <target state="final">根</target>
+        <note>Line: 26</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="classes/lang/KeysReference/CmsCategoryLang.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
       <trans-unit id="8cf04a9734132302f96da8e113e80ce5" approved="yes">
         <source>Home</source>
         <target state="final">主頁</target>
-        <note>Line: 27</note>
-      </trans-unit>
-      <trans-unit id="fa03eb688ad8aa1db593d33dabd89bad" approved="yes">
-        <source>Root</source>
-        <target state="final">根</target>
         <note>Line: 26</note>
       </trans-unit>
     </body>
@@ -365,26 +383,6 @@
   </file>
   <file original="controllers/admin/AdminCustomerThreadsController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      <trans-unit id="d21b5a78517318e6d35414d4217950ce" approved="yes">
-        <source>Message forwarded to</source>
-        <target state="final">訊息轉出</target>
-        <note>Line: 423</note>
-      </trans-unit>
-      <trans-unit id="03f4a47830f97377a35321051685071e" approved="yes">
-        <source>Closed</source>
-        <target state="final">關閉</target>
-        <note>Line: 57</note>
-      </trans-unit>
-      <trans-unit id="70e7ab74282fb27b8c100e017b037135" approved="yes">
-        <source>Pending 1</source>
-        <target state="final">等候中 1</target>
-        <note>Line: 58</note>
-      </trans-unit>
-      <trans-unit id="1033cc268ed0919b5d4e76ea6053ed25" approved="yes">
-        <source>Pending 2</source>
-        <target state="final">等候中 2</target>
-        <note>Line: 59</note>
-      </trans-unit>
       <trans-unit id="0a62046a3c3ac8c3627e63d1e2aa3745" approved="yes">
         <source>Message to:</source>
         <target state="final">訊息：</target>
@@ -424,6 +422,26 @@
         <source>Mark as "pending 2" (will be answered later)</source>
         <target state="final">標示為"稍後回覆2"</target>
         <note>Line: 727</note>
+      </trans-unit>
+      <trans-unit id="d21b5a78517318e6d35414d4217950ce" approved="yes">
+        <source>Message forwarded to</source>
+        <target state="final">訊息轉出</target>
+        <note>Line: 423</note>
+      </trans-unit>
+      <trans-unit id="03f4a47830f97377a35321051685071e" approved="yes">
+        <source>Closed</source>
+        <target state="final">關閉</target>
+        <note>Line: 57</note>
+      </trans-unit>
+      <trans-unit id="70e7ab74282fb27b8c100e017b037135" approved="yes">
+        <source>Pending 1</source>
+        <target state="final">等候中 1</target>
+        <note>Line: 58</note>
+      </trans-unit>
+      <trans-unit id="1033cc268ed0919b5d4e76ea6053ed25" approved="yes">
+        <source>Pending 2</source>
+        <target state="final">等候中 2</target>
+        <note>Line: 59</note>
       </trans-unit>
       <trans-unit id="c3bf447eabe632720a3aa1a7ce401274" approved="yes">
         <source>Open</source>
@@ -554,6 +572,66 @@
   </file>
   <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="13f13e9a00350642fed860ff27b9976e" approved="yes">
+        <source>Cost price</source>
+        <target state="final">底價</target>
+        <note>Line: 226</note>
+      </trans-unit>
+      <trans-unit id="e92cfa244b5eb9025d07522080468445" approved="yes">
+        <source>Ecotax</source>
+        <target state="final">環保稅</target>
+        <note>Line: 239</note>
+      </trans-unit>
+      <trans-unit id="7e34f33e1a881aff98acbf2b766ac883" approved="yes">
+        <source>Delivery time of in-stock products:</source>
+        <target state="final">庫存商品的送貨時間：</target>
+        <note>Line: 246</note>
+      </trans-unit>
+      <trans-unit id="78167a214fe755d9a2f5a7f2bc62cecf" approved="yes">
+        <source>Low stock level</source>
+        <target state="final">最低庫存水平</target>
+        <note>Line: 260</note>
+      </trans-unit>
+      <trans-unit id="f0a309e6326af053d5d8839c9cb41c73" approved="yes">
+        <source>Receive a low stock alert by email</source>
+        <target state="final">通過電子郵件接收低庫存警報</target>
+        <note>Line: 261</note>
+      </trans-unit>
+      <trans-unit id="1729a56cfc89021478498fe0c89a843a" approved="yes">
+        <source>Visibility</source>
+        <target state="final">可見性</target>
+        <note>Line: 263</note>
+      </trans-unit>
+      <trans-unit id="290612199861c31d1036b185b4e69b75" approved="yes">
+        <source>Summary</source>
+        <target state="final">彙總</target>
+        <note>Line: 267</note>
+      </trans-unit>
+      <trans-unit id="af39c53c91dc46e2576f28b843b82988" approved="yes">
+        <source>Label when in stock</source>
+        <target state="final">有庫存時顯示的文字</target>
+        <note>Line: 273</note>
+      </trans-unit>
+      <trans-unit id="9e2941b3c81256fac10392aaca4ccfde" approved="yes">
+        <source>Condition</source>
+        <target state="final">狀態</target>
+        <note>Line: 286</note>
+      </trans-unit>
+      <trans-unit id="c925e061d42989c43e6d3a7e43f2a878" approved="yes">
+        <source>Number of allowed downloads</source>
+        <target state="final">允許下載次數</target>
+        <note>Line: 294</note>
+      </trans-unit>
+      <trans-unit id="52b68aaa602d202c340d9e4e9157f276" approved="yes">
+        <source>Parent category</source>
+        <target state="final">父分類</target>
+        <note>Line: 187</note>
+      </trans-unit>
+      <trans-unit id="622d67c7a2ea6386a4480e02b12fadd8" approved="yes">
+        <source>Impact on price</source>
+        <target state="final">價格影響：</target>
+        <note>Line: 139</note>
+      </trans-unit>
       <trans-unit id="3c1a34587e45bd9e9ae2efd9a6ecbb92" approved="yes">
         <source>Impact on weight</source>
         <target state="final">重量影響</target>
@@ -564,70 +642,10 @@
         <target state="final">庫存地點</target>
         <note>Line: 262</note>
       </trans-unit>
-      <trans-unit id="af39c53c91dc46e2576f28b843b82988" approved="yes">
-        <source>Label when in stock</source>
-        <target state="final">有庫存時顯示的文字</target>
-        <note>Line: 273</note>
-      </trans-unit>
-      <trans-unit id="f0a309e6326af053d5d8839c9cb41c73" approved="yes">
-        <source>Receive a low stock alert by email</source>
-        <target state="final">通過電子郵件接收低庫存警報</target>
-        <note>Line: 261</note>
-      </trans-unit>
-      <trans-unit id="c925e061d42989c43e6d3a7e43f2a878" approved="yes">
-        <source>Number of allowed downloads</source>
-        <target state="final">允許下載次數</target>
-        <note>Line: 294</note>
-      </trans-unit>
-      <trans-unit id="1729a56cfc89021478498fe0c89a843a" approved="yes">
-        <source>Visibility</source>
-        <target state="final">可見性</target>
-        <note>Line: 263</note>
-      </trans-unit>
-      <trans-unit id="7e34f33e1a881aff98acbf2b766ac883" approved="yes">
-        <source>Delivery time of in-stock products:</source>
-        <target state="final">庫存商品的送貨時間：</target>
-        <note>Line: 246</note>
-      </trans-unit>
-      <trans-unit id="13f13e9a00350642fed860ff27b9976e" approved="yes">
-        <source>Cost price</source>
-        <target state="final">底價</target>
-        <note>Line: 226</note>
-      </trans-unit>
-      <trans-unit id="622d67c7a2ea6386a4480e02b12fadd8" approved="yes">
-        <source>Impact on price</source>
-        <target state="final">價格影響：</target>
-        <note>Line: 139</note>
-      </trans-unit>
       <trans-unit id="c1069a480848e06782b81b8bea9c0c94" approved="yes">
         <source>Short description</source>
         <target state="final">簡介</target>
         <note>Line: 435</note>
-      </trans-unit>
-      <trans-unit id="52b68aaa602d202c340d9e4e9157f276" approved="yes">
-        <source>Parent category</source>
-        <target state="final">父分類</target>
-        <note>Line: 187</note>
-      </trans-unit>
-      <trans-unit id="78167a214fe755d9a2f5a7f2bc62cecf" approved="yes">
-        <source>Low stock level</source>
-        <target state="final">最低庫存水平</target>
-        <note>Line: 260</note>
-      </trans-unit>
-      <trans-unit id="e92cfa244b5eb9025d07522080468445" approved="yes">
-        <source>Ecotax</source>
-        <target state="final">環保稅</target>
-        <note>Line: 239</note>
-      </trans-unit>
-      <trans-unit id="290612199861c31d1036b185b4e69b75" approved="yes">
-        <source>Summary</source>
-        <target state="final">彙總</target>
-        <note>Line: 267</note>
-      </trans-unit>
-      <trans-unit id="9e2941b3c81256fac10392aaca4ccfde" approved="yes">
-        <source>Condition</source>
-        <target state="final">狀態</target>
-        <note>Line: 286</note>
       </trans-unit>
     </body>
   </file>
@@ -642,19 +660,15 @@
   </file>
   <file original="controllers/admin/AdminShopController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="cb5feb1b7314637725a2e73bdc9f7295" approved="yes">
+        <source>Color</source>
+        <target state="final">顏色</target>
+        <note>Line: 433</note>
+      </trans-unit>
       <trans-unit id="1379a6b19242372c1f23cc9adedfcdd6" approved="yes">
         <source>Category root</source>
         <target state="final">根分類</target>
         <note>Line: 490</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="controllers/admin/AdminShopGroupController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
-    <body>
-      <trans-unit id="cb5feb1b7314637725a2e73bdc9f7295" approved="yes">
-        <source>Color</source>
-        <target state="final">顏色</target>
-        <note>Line: 202</note>
       </trans-unit>
     </body>
   </file>
@@ -766,11 +780,6 @@
   </file>
   <file original="src/Core/Form/ChoiceProvider/DeliveryTimeNoteTypesProvider.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      <trans-unit id="6adf97f83acf6453d4a6a4b1070f3754" approved="yes">
-        <source>None</source>
-        <target state="final">無</target>
-        <note>Line: 95</note>
-      </trans-unit>
       <trans-unit id="236b8bc8872219bbcb2aeba829fd28eb" approved="yes">
         <source>Default delivery time: [1]%delivery_time% - %oos_delivery_time%[/1] [2]Edit delivery time[/2]</source>
         <target state="final">默認交貨時間: [1]%delivery_time% - %oos_delivery_time%[/1] [2]編輯交貨時間[/2]</target>
@@ -802,25 +811,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="src/Core/Form/ChoiceProvider/PackStockTypeChoiceProvider.php" source-language="en" target-language="zh-TW" datatype="plaintext">
-    <body>
-      <trans-unit id="ae18c0a08d4ab8f39b7069d51e1e1068" approved="yes">
-        <source>Use pack quantity</source>
-        <target state="final">使用組合數量</target>
-        <note>Line: 83</note>
-      </trans-unit>
-      <trans-unit id="de8d854343e57683a295b91ea466414e" approved="yes">
-        <source>Use quantity of products in the pack</source>
-        <target state="final">使用組合中的商品數量</target>
-        <note>Line: 84</note>
-      </trans-unit>
-      <trans-unit id="882ae1f92dacd9de7e659a39761a2565" approved="yes">
-        <source>Use both, whatever is lower</source>
-        <target state="final">兩者都使用，以較低者為準</target>
-        <note>Line: 85</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/Core/Form/ChoiceProvider/ProductConditionChoiceProvider.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
       <trans-unit id="03c2e7e41ffc181a4e84080b4710e81e" approved="yes">
@@ -842,16 +832,6 @@
   </file>
   <file original="src/Core/Form/ChoiceProvider/ProductTypeChoiceProvider.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      <trans-unit id="49a2d6f2a33dc367666a860bff4a8f5f" approved="yes">
-        <source>Pack of products</source>
-        <target state="final">商品組合</target>
-        <note>Line: 94</note>
-      </trans-unit>
-      <trans-unit id="23470f2faa48c53e6fb5fad4e3de3cdd" approved="yes">
-        <source>Virtual product</source>
-        <target state="final">虛擬商品</target>
-        <note>Line: 95</note>
-      </trans-unit>
       <trans-unit id="2b5d1ce10d1df2892eb6033604e4df0b" approved="yes">
         <source>Standard product</source>
         <target state="final">標準商品</target>
@@ -937,15 +917,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="src/Core/Grid/Definition/Factory/AttachmentGridDefinitionFactory.php" source-language="en" target-language="zh-TW" datatype="plaintext">
-    <body>
-      <trans-unit id="068f80c7519d0528fb08e82137a72131" approved="yes">
-        <source>Products</source>
-        <target state="final">商品</target>
-        <note>Line: 203</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/Core/Grid/Definition/Factory/AttributeGroupGridDefinitionFactory.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
       <trans-unit id="287234a1ff35a314b5b6bc4e5828e745" approved="yes">
@@ -973,17 +944,18 @@
       </trans-unit>
     </body>
   </file>
-  <file original="src/Core/Grid/Definition/Factory/ManufacturerAddressGridDefinitionFactory.php" source-language="en" target-language="zh-TW" datatype="plaintext">
+  <file original="src/Core/Grid/Definition/Factory/ManufacturerGridDefinitionFactory.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
       <trans-unit id="284b47b0bb63ae2df3b29f0e691d6fcf" approved="yes">
         <source>Addresses</source>
         <target state="final">地址</target>
-        <note>Line: 69</note>
+        <note>Line: 105</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="src/Core/Grid/Definition/Factory/ManufacturerGridDefinitionFactory.php" source-language="en" target-language="zh-TW" datatype="plaintext">
-    <body>
+      <trans-unit id="068f80c7519d0528fb08e82137a72131" approved="yes">
+        <source>Products</source>
+        <target state="final">商品</target>
+        <note>Line: 111</note>
+      </trans-unit>
       <trans-unit id="84be54bb4bd1b755a27d86388700d097" approved="yes">
         <source>Brands</source>
         <target state="final">牌子</target>
@@ -1056,24 +1028,10 @@
   </file>
   <file original="src/Core/Grid/Definition/Factory/ProductGridDefinitionFactory.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      <trans-unit id="a4838f49c5701e128d7695c3dc45083c" approved="yes">
-        <source>Select a store</source>
-        <target state="final">選擇商店</target>
-        <note>Line: 757</note>
-      </trans-unit>
       <trans-unit id="63d5049791d9d79d86e9a108b0a999ca" approved="yes">
         <source>Reference</source>
         <target state="final">編號</target>
         <note>Line: 187</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/Core/Grid/Definition/Factory/SupplierGridDefinitionFactory.php" source-language="en" target-language="zh-TW" datatype="plaintext">
-    <body>
-      <trans-unit id="990fc90e39367377c314f1d61522ae61" approved="yes">
-        <source>Number of products</source>
-        <target state="final">產品數量</target>
-        <note>Line: 190</note>
       </trans-unit>
     </body>
   </file>
@@ -1163,15 +1121,15 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/CombinationController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      <trans-unit id="c612bf4e7b59c1b364ead6752fe63ed3" approved="yes">
-        <source>Minimum order quantity</source>
-        <target state="final">最低訂購數量。</target>
-        <note>Line: 707</note>
-      </trans-unit>
       <trans-unit id="2438bf77baed0680f816ca0f4a7d0321" approved="yes">
         <source>Availability date</source>
         <target state="final">上架日期</target>
         <note>Line: 702</note>
+      </trans-unit>
+      <trans-unit id="c612bf4e7b59c1b364ead6752fe63ed3" approved="yes">
+        <source>Minimum order quantity</source>
+        <target state="final">最低訂購數量。</target>
+        <note>Line: 707</note>
       </trans-unit>
       <trans-unit id="24eb41ae265b268c0ce14e1fef872399" approved="yes">
         <source>Low stock alert</source>
@@ -1182,6 +1140,11 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/ProductController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="a4838f49c5701e128d7695c3dc45083c" approved="yes">
+        <source>Select a store</source>
+        <target state="final">選擇商店</target>
+        <note>Line: 1492</note>
+      </trans-unit>
       <trans-unit id="3fa8c89ef63fbb7056fc1d8d1b67f97a" approved="yes">
         <source>Add new product</source>
         <target state="final">新增商品</target>
@@ -1200,6 +1163,11 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/SupplierController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="990fc90e39367377c314f1d61522ae61" approved="yes">
+        <source>Number of products</source>
+        <target state="final">產品數量</target>
+        <note>Line: 410</note>
+      </trans-unit>
       <trans-unit id="a33965ce6124acbb6897c1b0475c4a52" approved="yes">
         <source>Edit supplier</source>
         <target state="final">編輯供應商</target>
@@ -1236,23 +1204,30 @@
       <trans-unit id="41f0e77fb6816355f1ced8334847c681" approved="yes">
         <source>Additional description</source>
         <target state="final">追加說明</target>
-        <note>Line: 154</note>
+        <note>Line: 145</note>
       </trans-unit>
       <trans-unit id="8987d8bb6500cb0889946c2655e930b6" approved="yes">
         <source>Category cover image</source>
         <target state="final">分類封面圖像</target>
-        <note>Line: 180</note>
+        <note>Line: 163</note>
       </trans-unit>
       <trans-unit id="4ae362f049719078c429941bed5dd440" approved="yes">
         <source>Category thumbnail</source>
         <target state="final">分類縮略圖</target>
-        <note>Line: 187</note>
+        <note>Line: 170</note>
       </trans-unit>
       <trans-unit id="920bd1fb6d54c93fca528ce941464225" approved="yes">
         <source>Group access</source>
         <target state="final">群組存取：</target>
-        <note>Line: 298</note>
+        <note>Line: 281</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/StockType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
+    <body>
+      
+      
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/CartRule/CartRuleType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
@@ -1298,16 +1273,6 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Catalog/AttributeGroupType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      <trans-unit id="17af8baa9b3f90e936589069e4223280" approved="yes">
-        <source>Attribute type</source>
-        <target state="final">屬性類型</target>
-        <note>Line: 100</note>
-      </trans-unit>
-      <trans-unit id="d274013ea65428454962a59b7b373a41" approved="yes">
-        <source>Public name</source>
-        <target state="final">公開名稱</target>
-        <note>Line: 84</note>
-      </trans-unit>
       <trans-unit id="f68b27443f6e6f685cce3f9f422a2b84" approved="yes">
         <source>Color or texture</source>
         <target state="final">顏色 或 質料</target>
@@ -1392,6 +1357,16 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/BulkCombinationPriceType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="8dd1ed71179c8d13c19ba445dfb01460" approved="yes">
+        <source>Cost price (tax excl.)</source>
+        <target state="final">成本價（未稅）</target>
+        <note>Line: 95</note>
+      </trans-unit>
+      <trans-unit id="1fd6db3332676692077360fec4df12e4" approved="yes">
+        <source>Retail price</source>
+        <target state="final">零售價</target>
+        <note>Line: 173</note>
+      </trans-unit>
       <trans-unit id="8ef6e226754a31bf67ebf50047c142b9" approved="yes">
         <source>Impact on price (tax excl.)</source>
         <target state="final">對價格的影響（不含稅）</target>
@@ -1416,6 +1391,16 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/BulkCombinationReferencesType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="5bb4529a7441854e00e00f8ed0096756" approved="yes">
+        <source>UPC barcode</source>
+        <target state="final">UPC 條碼</target>
+        <note>Line: 71</note>
+      </trans-unit>
+      <trans-unit id="9609dddf3618cff8f67b7829e6fc575e" approved="yes">
+        <source>ISBN</source>
+        <target state="final">ISBN</target>
+        <note>Line: 93</note>
+      </trans-unit>
       <trans-unit id="c8effe37e0fefd95ff0cc4873de6e6a6" approved="yes">
         <source>EAN-13 or JAN barcode</source>
         <target state="final">EAN-13 或 JAN 條碼</target>
@@ -1499,6 +1484,21 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationPriceImpactType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="4fc9f49cb85af9ba5caab7747fe35846" approved="yes">
+        <source>Ecotax (tax excl.)</source>
+        <target state="final">生態稅（不含稅）</target>
+        <note>Line: 160</note>
+      </trans-unit>
+      <trans-unit id="f5328bbc429966afadc1aaf5a5fc6030" approved="yes">
+        <source>Ecotax rate %rate%%</source>
+        <target state="final">環保稅 %rate%%</target>
+        <note>Line: 152</note>
+      </trans-unit>
+      <trans-unit id="c265e7bd60b9bf0470d39a8ef87e0727" approved="yes">
+        <source>Ecotax (tax incl.)</source>
+        <target state="final">生態稅（含稅）</target>
+        <note>Line: 176</note>
+      </trans-unit>
       <trans-unit id="ab9b7d5772de1c93d483522af5798fc9" approved="yes">
         <source>Final retail price (tax excl.)</source>
         <target state="final">最終零售價格（不含稅）</target>
@@ -1620,16 +1620,6 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Details/ReferencesType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      <trans-unit id="5bb4529a7441854e00e00f8ed0096756" approved="yes">
-        <source>UPC barcode</source>
-        <target state="final">UPC 條碼</target>
-        <note>Line: 72</note>
-      </trans-unit>
-      <trans-unit id="9609dddf3618cff8f67b7829e6fc575e" approved="yes">
-        <source>ISBN</source>
-        <target state="final">ISBN</target>
-        <note>Line: 92</note>
-      </trans-unit>
       <trans-unit id="8ff591c410973a007389cd1ee529b029" approved="yes">
         <source>GTIN (EAN, JA, ITF or UCC code)</source>
         <target state="final">GTIN（EAN、JA、ITF 或 UCC 代碼）</target>
@@ -1863,11 +1853,6 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Pricing/PricingType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      <trans-unit id="8dd1ed71179c8d13c19ba445dfb01460" approved="yes">
-        <source>Cost price (tax excl.)</source>
-        <target state="final">成本價（未稅）</target>
-        <note>Line: 81</note>
-      </trans-unit>
       <trans-unit id="133bc9aa44eaaf809041c01ea1361a07" approved="yes">
         <source>Display the "On sale!" flag on the product page, and on product listings.</source>
         <target state="final">在貨品頁中顯示打折圖示，並在貨品列表中顯示打折字樣.</target>
@@ -1916,26 +1901,6 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Pricing/RetailPriceType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      <trans-unit id="f5328bbc429966afadc1aaf5a5fc6030" approved="yes">
-        <source>Ecotax rate %rate%%</source>
-        <target state="final">環保稅 %rate%%</target>
-        <note>Line: 242</note>
-      </trans-unit>
-      <trans-unit id="4fc9f49cb85af9ba5caab7747fe35846" approved="yes">
-        <source>Ecotax (tax excl.)</source>
-        <target state="final">生態稅（不含稅）</target>
-        <note>Line: 197</note>
-      </trans-unit>
-      <trans-unit id="c265e7bd60b9bf0470d39a8ef87e0727" approved="yes">
-        <source>Ecotax (tax incl.)</source>
-        <target state="final">生態稅（含稅）</target>
-        <note>Line: 245</note>
-      </trans-unit>
-      <trans-unit id="1fd6db3332676692077360fec4df12e4" approved="yes">
-        <source>Retail price</source>
-        <target state="final">零售價</target>
-        <note>Line: 272</note>
-      </trans-unit>
       <trans-unit id="acf5661be359419d6c2cd638e69a231e" approved="yes">
         <source>Tax %1$s : %2$s%%</source>
         <target state="final">稅 %1$s : %2$s%%</target>
@@ -2046,11 +2011,6 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/SEO/RedirectOptionType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      <trans-unit id="4235583d61a97d9e21f01a1456fcf90d" approved="yes">
-        <source>[1]Edit default behavior[/1]</source>
-        <target state="final">[1]編輯默認行為[/1]</target>
-        <note>Line: 141</note>
-      </trans-unit>
       <trans-unit id="2afea1f31bf30bdcef8b3316025d6ae5" approved="yes">
         <source>Target product</source>
         <target state="final">目標商品</target>
@@ -2230,6 +2190,11 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Stock/AvailabilityType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="4235583d61a97d9e21f01a1456fcf90d" approved="yes">
+        <source>[1]Edit default behavior[/1]</source>
+        <target state="final">[1]編輯默認行為[/1]</target>
+        <note>Line: 87</note>
+      </trans-unit>
       <trans-unit id="e38ca66d3c48bb4255aa26128e2c69b2" approved="yes">
         <source>Label when out of stock</source>
         <target state="final">缺貨時的標籤</target>
@@ -2244,11 +2209,6 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Stock/QuantityType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      <trans-unit id="ac43f4edefaf0db72e60d681332c8437" approved="yes">
-        <source>Edit quantity</source>
-        <target state="final">修改數量</target>
-        <note>Line: 82</note>
-      </trans-unit>
       <trans-unit id="1dc2af14d15238ba67e03c99a6f415f6" approved="yes">
         <source>Stocks</source>
         <target state="final">庫存</target>
@@ -2306,6 +2266,16 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Stock/StockType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="49a2d6f2a33dc367666a860bff4a8f5f" approved="yes">
+        <source>Pack of products</source>
+        <target state="final">商品組合</target>
+        <note>Line: 85</note>
+      </trans-unit>
+      <trans-unit id="23470f2faa48c53e6fb5fad4e3de3cdd" approved="yes">
+        <source>Virtual product</source>
+        <target state="final">虛擬商品</target>
+        <note>Line: 148</note>
+      </trans-unit>
       <trans-unit id="7a056af3d9eac91727fd16f8ecf68ece" approved="yes">
         <source>Pack stock behavior</source>
         <target state="final">組合庫存行為</target>
@@ -2412,26 +2382,31 @@
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Common/javascript_pagination.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Common/pagination.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
       <trans-unit id="a0c13a65c06cd78909e5842e19af2c49" approved="yes">
         <source>Items per page:</source>
         <target state="final">每頁顯示的項目：</target>
-        <note>Line: 74</note>
+        <note>Line: 56</note>
       </trans-unit>
       <trans-unit id="41d2418efb64cdecb72df1e2aeb7a36b" approved="yes">
         <source>Viewing %from%-%to% on %total% (page %current_page% / %page_count%)</source>
         <target state="final">瀏覽 %total% 之 %from%-%to%（頁面 %current_page% / %page_count%）</target>
-        <note>Line: 62</note>
+        <note>Line: 45</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Common/pagination.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
-    <body>
       <trans-unit id="1a8ab329e4d9b0717b2f1a3f9d2cde34" approved="yes">
         <source>Enter page number and press enter</source>
         <target state="final">輸入頁號並按下 enter 鍵</target>
         <note>Line: 34</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Common/unavailable-feature.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
+    <body>
+      <trans-unit id="23eb06d7a6e7b5ef43affd916a50ae6c" approved="yes">
+        <source>Not available yet.</source>
+        <target state="final">目前不可用！</target>
+        <note>Line: 38</note>
       </trans-unit>
     </body>
   </file>
@@ -2441,6 +2416,15 @@
         <source>Category</source>
         <target state="final">分類</target>
         <note>Line: 44</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Attribute/Blocks/form.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
+    <body>
+      <trans-unit id="7d5672f569de406c85249db6f1c99ec0" approved="yes">
+        <source>Save then add another value</source>
+        <target state="final">儲存後新增另一個數值</target>
+        <note>Line: 49</note>
       </trans-unit>
     </body>
   </file>
@@ -2483,15 +2467,15 @@
         <target state="final">價格 (未稅)</target>
         <note>Line: 65</note>
       </trans-unit>
-      <trans-unit id="9e834f13e35e4edf64863ab414a6217a" approved="yes">
-        <source>Reduction</source>
-        <target state="final">降價</target>
-        <note>Line: 79</note>
-      </trans-unit>
       <trans-unit id="fc7b398d4af2074cfe73febdb5971153" approved="yes">
         <source>From quantity</source>
         <target state="final">開始數量</target>
         <note>Line: 61</note>
+      </trans-unit>
+      <trans-unit id="9e834f13e35e4edf64863ab414a6217a" approved="yes">
+        <source>Reduction</source>
+        <target state="final">降價</target>
+        <note>Line: 79</note>
       </trans-unit>
       <trans-unit id="e1a775c4e5e46e7b89d74fda416e87ec" approved="yes">
         <source>Catalog price rule</source>
@@ -2573,11 +2557,6 @@ Comment: Add data attribute to allow form iframe modal to easily get the data</n
         <target state="final">特性數值</target>
         <note>Line: 30
 Comment: Add data attribute to allow form iframe modal to easily get the data</note>
-      </trans-unit>
-      <trans-unit id="7d5672f569de406c85249db6f1c99ec0" approved="yes">
-        <source>Save then add another value</source>
-        <target state="final">儲存後新增另一個數值</target>
-        <note>Line: 47</note>
       </trans-unit>
     </body>
   </file>
@@ -2721,6 +2700,41 @@ Comment: Add data attribute to allow form iframe modal to easily get the data</n
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/Combination/bulk.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="2365f9d6614b9f34f41e33f1f46329b2" approved="yes">
+        <source>Error log</source>
+        <target state="final">錯誤日誌</target>
+        <note>Line: 49</note>
+      </trans-unit>
+      <trans-unit id="d3d2e617335f08df83599665eef8a418" approved="yes">
+        <source>Close</source>
+        <target state="final">關閉</target>
+        <note>Line: 43</note>
+      </trans-unit>
+      <trans-unit id="6567238975275105f4e51e99ee3b4e17" approved="yes">
+        <source>Stop processing</source>
+        <target state="final">停止處理</target>
+        <note>Line: 44</note>
+      </trans-unit>
+      <trans-unit id="5cf5bf2c9fc4975745fbad4e88fdf2c0" approved="yes">
+        <source>%error_count% errors occurred. You can download the logs for future reference.</source>
+        <target state="final">發生 %error_count% 個錯誤。 您可以下載日誌以供將來參考。</target>
+        <note>Line: 45</note>
+      </trans-unit>
+      <trans-unit id="9c69fa21979cbe7490c20c19537cf08f" approved="yes">
+        <source>Back to processing</source>
+        <target state="final">返回至處理</target>
+        <note>Line: 46</note>
+      </trans-unit>
+      <trans-unit id="07176ccdd3cd24acb62ab4323fc68a51" approved="yes">
+        <source>Download error log</source>
+        <target state="final">下載錯誤日誌</target>
+        <note>Line: 47</note>
+      </trans-unit>
+      <trans-unit id="2048fe880813217b00797eafa12e00a4" approved="yes">
+        <source>View %error_count% error logs</source>
+        <target state="final">查看 %error_count% 錯誤日誌</target>
+        <note>Line: 48</note>
+      </trans-unit>
       <trans-unit id="0abe25541b68ddd799f00d5ef4832b16" approved="yes">
         <source>Editing %total% combinations</source>
         <target state="final">編輯 %total% 商品屬性組合</target>
@@ -2735,6 +2749,11 @@ Comment: Add data attribute to allow form iframe modal to easily get the data</n
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/Combination/empty_state.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="506d3aac9a4f4f5a298df14e71b6ccfe" approved="yes">
+        <source>Generate combinations</source>
+        <target state="final">生成組合</target>
+        <note>Line: 40</note>
+      </trans-unit>
       <trans-unit id="c5cc1fd4333cd32baa65a5574de05186" approved="yes">
         <source>Generate product combinations</source>
         <target state="final">生成商品組合</target>
@@ -2772,41 +2791,6 @@ Comment: Add data attribute to allow form iframe modal to easily get the data</n
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/Combination/paginated_list_header.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      <trans-unit id="2365f9d6614b9f34f41e33f1f46329b2" approved="yes">
-        <source>Error log</source>
-        <target state="final">錯誤日誌</target>
-        <note>Line: 93</note>
-      </trans-unit>
-      <trans-unit id="d3d2e617335f08df83599665eef8a418" approved="yes">
-        <source>Close</source>
-        <target state="final">關閉</target>
-        <note>Line: 87</note>
-      </trans-unit>
-      <trans-unit id="6567238975275105f4e51e99ee3b4e17" approved="yes">
-        <source>Stop processing</source>
-        <target state="final">停止處理</target>
-        <note>Line: 88</note>
-      </trans-unit>
-      <trans-unit id="5cf5bf2c9fc4975745fbad4e88fdf2c0" approved="yes">
-        <source>%error_count% errors occurred. You can download the logs for future reference.</source>
-        <target state="final">發生 %error_count% 個錯誤。 您可以下載日誌以供將來參考。</target>
-        <note>Line: 89</note>
-      </trans-unit>
-      <trans-unit id="9c69fa21979cbe7490c20c19537cf08f" approved="yes">
-        <source>Back to processing</source>
-        <target state="final">返回至處理</target>
-        <note>Line: 90</note>
-      </trans-unit>
-      <trans-unit id="07176ccdd3cd24acb62ab4323fc68a51" approved="yes">
-        <source>Download error log</source>
-        <target state="final">下載錯誤日誌</target>
-        <note>Line: 91</note>
-      </trans-unit>
-      <trans-unit id="2048fe880813217b00797eafa12e00a4" approved="yes">
-        <source>View %error_count% error logs</source>
-        <target state="final">查看 %error_count% 錯誤日誌</target>
-        <note>Line: 92</note>
-      </trans-unit>
       <trans-unit id="b318944bdc95134d6284f7e54040970a" approved="yes">
         <source>Edit %combinations_number% combinations</source>
         <target state="final">編輯 %combinations_number% 商品屬性組合</target>
@@ -2899,11 +2883,6 @@ Comment: Add data attribute to allow form iframe modal to easily get the data</n
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/FormTheme/combination.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      <trans-unit id="506d3aac9a4f4f5a298df14e71b6ccfe" approved="yes">
-        <source>Generate combinations</source>
-        <target state="final">生成組合</target>
-        <note>Line: 59</note>
-      </trans-unit>
       <trans-unit id="8f2fa92c753b2b5a793f20e1c89370de" approved="yes">
         <source>Open combinations generator</source>
         <target state="final">開啟商品屬性組合產生器</target>
@@ -3047,20 +3026,6 @@ Comment: Add data attribute to allow form iframe modal to easily get the data</n
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/TwigTemplateForm/bootstrap_4_layout.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
-    <body>
-      <trans-unit id="a1fa27779242b4902f7ae3bdd5c6d508" approved="yes">
-        <source>Type</source>
-        <target state="final">類型</target>
-        <note>Line: 429</note>
-      </trans-unit>
-      <trans-unit id="1a6570d1068d7dd6f811ff022da8f76d" approved="yes">
-        <source>Main category</source>
-        <target state="final">主分類</target>
-        <note>Line: 175</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/TwigTemplateForm/form_max_length.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
       <trans-unit id="df211c3d69ca4c3564b6ac95d368dc2e" approved="yes">
@@ -3077,15 +3042,30 @@ Comment: Add data attribute to allow form iframe modal to easily get the data</n
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/TwigTemplateForm/prestashop_ui_kit_base.html.twig" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      <trans-unit id="23eb06d7a6e7b5ef43affd916a50ae6c" approved="yes">
-        <source>Not available yet.</source>
-        <target state="final">目前不可用！</target>
-        <note>Line: 1287</note>
+      <trans-unit id="a1fa27779242b4902f7ae3bdd5c6d508" approved="yes">
+        <source>Type</source>
+        <target state="final">類型</target>
+        <note>Line: 622</note>
+      </trans-unit>
+      <trans-unit id="1a6570d1068d7dd6f811ff022da8f76d" approved="yes">
+        <source>Main category</source>
+        <target state="final">主分類</target>
+        <note>Line: 361</note>
       </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Translation/Api/StockApi.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="6adf97f83acf6453d4a6a4b1070f3754" approved="yes">
+        <source>None</source>
+        <target state="final">無</target>
+        <note>Line: 65</note>
+      </trans-unit>
+      <trans-unit id="ac43f4edefaf0db72e60d681332c8437" approved="yes">
+        <source>Edit quantity</source>
+        <target state="final">修改數量</target>
+        <note>Line: 75</note>
+      </trans-unit>
       <trans-unit id="5f89a705df3646f402ca886e3c01b034" approved="yes">
         <source>Use checkboxes to bulk edit quantities</source>
         <target state="final">使用複選框批量編輯數量</target>

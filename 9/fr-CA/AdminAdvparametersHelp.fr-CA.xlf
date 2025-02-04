@@ -193,16 +193,6 @@ Comment: Special case for Product : either one or the other. Not both.</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ConfigurationType.php" source-language="en" target-language="fr-CA" datatype="plaintext">
     <body>
-      <trans-unit id="45d7b1d28cb1afbb45fdb620db725c10" approved="yes">
-        <source>Check that URL rewriting is available on this server.</source>
-        <target state="final">la réécriture d'URL est activée sur le serveur.</target>
-        <note>Line: 60</note>
-      </trans-unit>
-      <trans-unit id="000552d95fb9e18ac08ca27098bf1d41" approved="yes">
-        <source>Check that the six methods GET, POST, PUT, PATCH, DELETE and HEAD are supported by this server.</source>
-        <target state="final">Vérifiez que les six méthodes GET, POST, PUT, PATCH, DELETE et HEAD sont prises en charge par ce serveur.</target>
-        <note>Line: 65</note>
-      </trans-unit>
       <trans-unit id="a69a11ce9386d040c3f8190631a94405" approved="yes">
         <source>Before enabling the Admin API, you must be sure to:</source>
         <target state="final">Avant d'activer l'API Admin, vous devez vous assurer que :</target>
@@ -501,6 +491,16 @@ Comment: Special case for Product : either one or the other. Not both.</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceConfigurationType.php" source-language="en" target-language="fr-CA" datatype="plaintext">
     <body>
+      <trans-unit id="45d7b1d28cb1afbb45fdb620db725c10" approved="yes">
+        <source>Check that URL rewriting is available on this server.</source>
+        <target state="final">la réécriture d'URL est activée sur le serveur.</target>
+        <note>Line: 52</note>
+      </trans-unit>
+      <trans-unit id="000552d95fb9e18ac08ca27098bf1d41" approved="yes">
+        <source>Check that the six methods GET, POST, PUT, PATCH, DELETE and HEAD are supported by this server.</source>
+        <target state="final">Vérifiez que les six méthodes GET, POST, PUT, PATCH, DELETE et HEAD sont prises en charge par ce serveur.</target>
+        <note>Line: 57</note>
+      </trans-unit>
       <trans-unit id="e8602bda90ef985a71054950e6f1981e" approved="yes">
         <source>Before activating the webservice, you must be sure to: </source>
         <target state="final">Avant d'activer le service web, vous devez vous assurer que :</target>
@@ -522,12 +522,36 @@ Comment: Special case for Product : either one or the other. Not both.</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Login/ResetPasswordType.php" source-language="en" target-language="fr-CA" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Type/ChangePasswordType.php" source-language="en" target-language="fr-CA" datatype="plaintext">
     <body>
       <trans-unit id="d222c4d0463bd3f146536ac89c0d7c77" approved="yes">
         <source>Password should be at least %num% characters long.</source>
         <target state="final">Le mot de passe doit comporter au moins %num% caractères.</target>
-        <note>Line: 66</note>
+        <note>Line: 92</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Common/Grid/Columns/Content/severity_level.html.twig" source-language="en" target-language="fr-CA" datatype="plaintext">
+    <body>
+      <trans-unit id="b80c52e7f679fba3c2837b42705fe779" approved="yes">
+        <source>Informative only</source>
+        <target state="final">À but informatif</target>
+        <note>Line: 31</note>
+      </trans-unit>
+      <trans-unit id="0eaadb4fcb48a0a0ed7bc9868be9fbaa" approved="yes">
+        <source>Warning</source>
+        <target state="final">Attention</target>
+        <note>Line: 34</note>
+      </trans-unit>
+      <trans-unit id="902b0d55fddef6f8d651fe1035b7d4bd" approved="yes">
+        <source>Error</source>
+        <target state="final">Erreur</target>
+        <note>Line: 37</note>
+      </trans-unit>
+      <trans-unit id="4a378407770df6a42474ec5db9f54740" approved="yes">
+        <source>Major issue (crash)!</source>
+        <target state="final">Problème majeur (erreur critique)</target>
+        <note>Line: 40</note>
       </trans-unit>
     </body>
   </file>
@@ -658,26 +682,6 @@ Comment: Special case for Product : either one or the other. Not both.</note>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/LogsPage/Blocks/severity_levels.html.twig" source-language="en" target-language="fr-CA" datatype="plaintext">
     <body>
-      <trans-unit id="b80c52e7f679fba3c2837b42705fe779" approved="yes">
-        <source>Informative only</source>
-        <target state="final">À but informatif</target>
-        <note>Line: 36</note>
-      </trans-unit>
-      <trans-unit id="0eaadb4fcb48a0a0ed7bc9868be9fbaa" approved="yes">
-        <source>Warning</source>
-        <target state="final">Attention</target>
-        <note>Line: 41</note>
-      </trans-unit>
-      <trans-unit id="902b0d55fddef6f8d651fe1035b7d4bd" approved="yes">
-        <source>Error</source>
-        <target state="final">Erreur</target>
-        <note>Line: 46</note>
-      </trans-unit>
-      <trans-unit id="4a378407770df6a42474ec5db9f54740" approved="yes">
-        <source>Major issue (crash)!</source>
-        <target state="final">Problème majeur (erreur critique)</target>
-        <note>Line: 51</note>
-      </trans-unit>
       <trans-unit id="3979bb684920e9e9dc86e266f93d8c87" approved="yes">
         <source>Severity levels</source>
         <target state="final">Niveau de gravité</target>
@@ -690,7 +694,8 @@ Comment: Special case for Product : either one or the other. Not both.</note>
       <trans-unit id="68db67219aa1fd6e5f8820e20fd78b25" approved="yes">
         <source>How do I create a new SQL query?</source>
         <target state="final">Comment créer une nouvelle requête SQL ?</target>
-        <note>Line: 31</note>
+        <note>Line: 31
+Comment: Stable feature flags form</note>
       </trans-unit>
       <trans-unit id="bd98e6133da373d5d4d0241cae2e5df5" approved="yes">
         <source>Click "%add_new_label%".</source>
@@ -765,22 +770,22 @@ Comment: Special case for Product : either one or the other. Not both.</note>
       <trans-unit id="4bbb8f967da6d1a610596d7257179c2b" approved="yes">
         <source>Invalid</source>
         <target state="final">Invalide</target>
-        <note>Line: 1617</note>
+        <note>Line: 1618</note>
       </trans-unit>
       <trans-unit id="26b63f278101527e06a5547719568bb5" approved="yes">
         <source>Okay</source>
         <target state="final">OK</target>
-        <note>Line: 1618</note>
+        <note>Line: 1619</note>
       </trans-unit>
       <trans-unit id="0c6ad70beb3a7e76c3fc7adab7c46acc" approved="yes">
         <source>Good</source>
         <target state="final">bon</target>
-        <note>Line: 1619</note>
+        <note>Line: 1620</note>
       </trans-unit>
       <trans-unit id="b8dc7c80939667637db7ac31ece215b9" approved="yes">
         <source>Fabulous</source>
         <target state="final">Formidable</target>
-        <note>Line: 1620</note>
+        <note>Line: 1621</note>
       </trans-unit>
     </body>
   </file>

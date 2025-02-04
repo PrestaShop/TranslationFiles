@@ -2,11 +2,6 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="admin-dev/themes/default/template/controllers/cart_rules/actions.tpl" source-language="en" target-language="hy-AM" datatype="plaintext">
     <body>
-      <trans-unit id="2f73d13f0a878086ce1f9933aed3ac80" approved="yes">
-        <source>Send a free gift</source>
-        <target state="final">Ուղարկել անվճար նվեր</target>
-        <note>Line: 165</note>
-      </trans-unit>
       <trans-unit id="629b9591d5085cf14edd26c9d376bb3a" approved="yes">
         <source>Order (without shipping)</source>
         <target state="final">Պատվեր (առանց առաքման գնի)</target>
@@ -26,6 +21,11 @@
         <source>Selected product(s)</source>
         <target state="final">Ընտրված ապրանքը(ները)</target>
         <note>Line: 125</note>
+      </trans-unit>
+      <trans-unit id="2f73d13f0a878086ce1f9933aed3ac80" approved="yes">
+        <source>Send a free gift</source>
+        <target state="final">Ուղարկել անվճար նվեր</target>
+        <note>Line: 165</note>
       </trans-unit>
       <trans-unit id="fc6341fa76fe93b837d748563e0a60c1" approved="yes">
         <source>Apply a discount</source>
@@ -61,15 +61,15 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl" source-language="en" target-language="hy-AM" datatype="plaintext">
     <body>
-      <trans-unit id="7d058d4cdbc3a0f480bd472b62a0bf53" approved="yes">
-        <source>Total available</source>
-        <target state="final">Ընդամենը հասանելի է</target>
-        <note>Line: 117</note>
-      </trans-unit>
       <trans-unit id="9f6e99bdd4184b83dc478d0ab1b4cbf7" approved="yes">
         <source>Minimum amount</source>
         <target state="final">Նվազագույն գումարը</target>
         <note>Line: 75</note>
+      </trans-unit>
+      <trans-unit id="7d058d4cdbc3a0f480bd472b62a0bf53" approved="yes">
+        <source>Total available</source>
+        <target state="final">Ընդամենը հասանելի է</target>
+        <note>Line: 117</note>
       </trans-unit>
       <trans-unit id="cd8e66c655070f24cbece45141a505c3" approved="yes">
         <source>Country selection</source>
@@ -268,16 +268,26 @@
       
     </body>
   </file>
+  <file original="classes/AttributeGroup.php" source-language="en" target-language="hy-AM" datatype="plaintext">
+    <body>
+      
+      
+    </body>
+  </file>
   <file original="classes/lang/KeysReference/CategoryLang.php" source-language="en" target-language="hy-AM" datatype="plaintext">
+    <body>
+      <trans-unit id="fa03eb688ad8aa1db593d33dabd89bad" approved="yes">
+        <source>Root</source>
+        <target state="final">Արմատային</target>
+        <note>Line: 26</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="classes/lang/KeysReference/CmsCategoryLang.php" source-language="en" target-language="hy-AM" datatype="plaintext">
     <body>
       <trans-unit id="8cf04a9734132302f96da8e113e80ce5" approved="yes">
         <source>Home</source>
         <target state="final">Գլխավոր</target>
-        <note>Line: 27</note>
-      </trans-unit>
-      <trans-unit id="fa03eb688ad8aa1db593d33dabd89bad" approved="yes">
-        <source>Root</source>
-        <target state="final">Արմատային</target>
         <note>Line: 26</note>
       </trans-unit>
     </body>
@@ -441,40 +451,15 @@
   </file>
   <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="hy-AM" datatype="plaintext">
     <body>
-      <trans-unit id="3c1a34587e45bd9e9ae2efd9a6ecbb92" approved="yes">
-        <source>Impact on weight</source>
-        <target state="final">Ազդում է քաշի վրա</target>
-        <note>Line: 146</note>
-      </trans-unit>
-      <trans-unit id="c925e061d42989c43e6d3a7e43f2a878" approved="yes">
-        <source>Number of allowed downloads</source>
-        <target state="final">Թույլատրված ներբեռնումների քանակը</target>
-        <note>Line: 294</note>
+      <trans-unit id="e92cfa244b5eb9025d07522080468445" approved="yes">
+        <source>Ecotax</source>
+        <target state="final">Բնապահպ.հարկ</target>
+        <note>Line: 239</note>
       </trans-unit>
       <trans-unit id="1729a56cfc89021478498fe0c89a843a" approved="yes">
         <source>Visibility</source>
         <target state="final">Տեսանելիությունը.</target>
         <note>Line: 263</note>
-      </trans-unit>
-      <trans-unit id="622d67c7a2ea6386a4480e02b12fadd8" approved="yes">
-        <source>Impact on price</source>
-        <target state="final">ազդեցությունը գնի վրա</target>
-        <note>Line: 139</note>
-      </trans-unit>
-      <trans-unit id="c1069a480848e06782b81b8bea9c0c94" approved="yes">
-        <source>Short description</source>
-        <target state="final">Կարճ նկարագրություն</target>
-        <note>Line: 435</note>
-      </trans-unit>
-      <trans-unit id="52b68aaa602d202c340d9e4e9157f276" approved="yes">
-        <source>Parent category</source>
-        <target state="final">Ծնող կատեգորիա</target>
-        <note>Line: 187</note>
-      </trans-unit>
-      <trans-unit id="e92cfa244b5eb9025d07522080468445" approved="yes">
-        <source>Ecotax</source>
-        <target state="final">Բնապահպ.հարկ</target>
-        <note>Line: 239</note>
       </trans-unit>
       <trans-unit id="290612199861c31d1036b185b4e69b75" approved="yes">
         <source>Summary</source>
@@ -485,6 +470,31 @@
         <source>Condition</source>
         <target state="final">Վիճակը</target>
         <note>Line: 286</note>
+      </trans-unit>
+      <trans-unit id="c925e061d42989c43e6d3a7e43f2a878" approved="yes">
+        <source>Number of allowed downloads</source>
+        <target state="final">Թույլատրված ներբեռնումների քանակը</target>
+        <note>Line: 294</note>
+      </trans-unit>
+      <trans-unit id="52b68aaa602d202c340d9e4e9157f276" approved="yes">
+        <source>Parent category</source>
+        <target state="final">Ծնող կատեգորիա</target>
+        <note>Line: 187</note>
+      </trans-unit>
+      <trans-unit id="622d67c7a2ea6386a4480e02b12fadd8" approved="yes">
+        <source>Impact on price</source>
+        <target state="final">ազդեցությունը գնի վրա</target>
+        <note>Line: 139</note>
+      </trans-unit>
+      <trans-unit id="3c1a34587e45bd9e9ae2efd9a6ecbb92" approved="yes">
+        <source>Impact on weight</source>
+        <target state="final">Ազդում է քաշի վրա</target>
+        <note>Line: 146</note>
+      </trans-unit>
+      <trans-unit id="c1069a480848e06782b81b8bea9c0c94" approved="yes">
+        <source>Short description</source>
+        <target state="final">Կարճ նկարագրություն</target>
+        <note>Line: 435</note>
       </trans-unit>
     </body>
   </file>
@@ -499,15 +509,10 @@
   </file>
   <file original="controllers/admin/AdminShopController.php" source-language="en" target-language="hy-AM" datatype="plaintext">
     <body>
-      
-    </body>
-  </file>
-  <file original="controllers/admin/AdminShopGroupController.php" source-language="en" target-language="hy-AM" datatype="plaintext">
-    <body>
       <trans-unit id="cb5feb1b7314637725a2e73bdc9f7295" approved="yes">
         <source>Color</source>
         <target state="final">Գույնը.</target>
-        <note>Line: 202</note>
+        <note>Line: 433</note>
       </trans-unit>
     </body>
   </file>
@@ -572,11 +577,8 @@
   </file>
   <file original="src/Core/Form/ChoiceProvider/DeliveryTimeNoteTypesProvider.php" source-language="en" target-language="hy-AM" datatype="plaintext">
     <body>
-      <trans-unit id="6adf97f83acf6453d4a6a4b1070f3754" approved="yes">
-        <source>None</source>
-        <target state="final">Ոչ մեկը</target>
-        <note>Line: 95</note>
-      </trans-unit>
+      
+      
     </body>
   </file>
   <file original="src/Core/Form/ChoiceProvider/OutOfStockTypeChoiceProvider.php" source-language="en" target-language="hy-AM" datatype="plaintext">
@@ -591,13 +593,6 @@
         <target state="final">Մերժել պատվերները</target>
         <note>Line: 68</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="src/Core/Form/ChoiceProvider/PackStockTypeChoiceProvider.php" source-language="en" target-language="hy-AM" datatype="plaintext">
-    <body>
-      
-      
-      
     </body>
   </file>
   <file original="src/Core/Form/ChoiceProvider/ProductConditionChoiceProvider.php" source-language="en" target-language="hy-AM" datatype="plaintext">
@@ -621,8 +616,6 @@
   </file>
   <file original="src/Core/Form/ChoiceProvider/ProductTypeChoiceProvider.php" source-language="en" target-language="hy-AM" datatype="plaintext">
     <body>
-      
-      
       
       
       
@@ -660,15 +653,6 @@
       
     </body>
   </file>
-  <file original="src/Core/Grid/Definition/Factory/AttachmentGridDefinitionFactory.php" source-language="en" target-language="hy-AM" datatype="plaintext">
-    <body>
-      <trans-unit id="068f80c7519d0528fb08e82137a72131" approved="yes">
-        <source>Products</source>
-        <target state="final">Ապրանքները</target>
-        <note>Line: 203</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/Core/Grid/Definition/Factory/AttributeGroupGridDefinitionFactory.php" source-language="en" target-language="hy-AM" datatype="plaintext">
     <body>
       <trans-unit id="287234a1ff35a314b5b6bc4e5828e745" approved="yes">
@@ -696,18 +680,18 @@
       </trans-unit>
     </body>
   </file>
-  <file original="src/Core/Grid/Definition/Factory/ManufacturerAddressGridDefinitionFactory.php" source-language="en" target-language="hy-AM" datatype="plaintext">
+  <file original="src/Core/Grid/Definition/Factory/ManufacturerGridDefinitionFactory.php" source-language="en" target-language="hy-AM" datatype="plaintext">
     <body>
       <trans-unit id="284b47b0bb63ae2df3b29f0e691d6fcf" approved="yes">
         <source>Addresses</source>
         <target state="final">Հասցեներ</target>
-        <note>Line: 69</note>
+        <note>Line: 105</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="src/Core/Grid/Definition/Factory/ManufacturerGridDefinitionFactory.php" source-language="en" target-language="hy-AM" datatype="plaintext">
-    <body>
-      
+      <trans-unit id="068f80c7519d0528fb08e82137a72131" approved="yes">
+        <source>Products</source>
+        <target state="final">Ապրանքները</target>
+        <note>Line: 111</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/Core/Grid/Definition/Factory/Monitoring/DisabledProductGridDefinitionFactory.php" source-language="en" target-language="hy-AM" datatype="plaintext">
@@ -762,15 +746,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="src/Core/Grid/Definition/Factory/SupplierGridDefinitionFactory.php" source-language="en" target-language="hy-AM" datatype="plaintext">
-    <body>
-      <trans-unit id="990fc90e39367377c314f1d61522ae61" approved="yes">
-        <source>Number of products</source>
-        <target state="final">Ապրանքների թիվը</target>
-        <note>Line: 190</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/Core/Product/Combination/NameBuilder/CombinationNameBuilder.php" source-language="en" target-language="hy-AM" datatype="plaintext">
     <body>
       
@@ -819,6 +794,7 @@
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/ProductController.php" source-language="en" target-language="hy-AM" datatype="plaintext">
     <body>
       
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/SpecificPriceController.php" source-language="en" target-language="hy-AM" datatype="plaintext">
@@ -828,7 +804,11 @@
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/SupplierController.php" source-language="en" target-language="hy-AM" datatype="plaintext">
     <body>
-      
+      <trans-unit id="990fc90e39367377c314f1d61522ae61" approved="yes">
+        <source>Number of products</source>
+        <target state="final">Ապրանքների թիվը</target>
+        <note>Line: 410</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Api/StockController.php" source-language="en" target-language="hy-AM" datatype="plaintext">
@@ -845,8 +825,15 @@
       <trans-unit id="920bd1fb6d54c93fca528ce941464225" approved="yes">
         <source>Group access</source>
         <target state="final">Մուտք դեպի խումբ.</target>
-        <note>Line: 298</note>
+        <note>Line: 281</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/StockType.php" source-language="en" target-language="hy-AM" datatype="plaintext">
+    <body>
+      
+      
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/CartRule/CartRuleType.php" source-language="en" target-language="hy-AM" datatype="plaintext">
@@ -883,8 +870,6 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Catalog/AttributeGroupType.php" source-language="en" target-language="hy-AM" datatype="plaintext">
     <body>
-      
-      
       
     </body>
   </file>
@@ -937,10 +922,14 @@
       
       
       
+      
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/BulkCombinationReferencesType.php" source-language="en" target-language="hy-AM" datatype="plaintext">
     <body>
+      
+      
       
       
     </body>
@@ -980,6 +969,9 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationPriceImpactType.php" source-language="en" target-language="hy-AM" datatype="plaintext">
     <body>
+      
+      
+      
       
       
       
@@ -1043,8 +1035,6 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Details/ReferencesType.php" source-language="en" target-language="hy-AM" datatype="plaintext">
     <body>
-      
-      
       
       
     </body>
@@ -1203,7 +1193,6 @@
       
       
       
-      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/SEO/SEOType.php" source-language="en" target-language="hy-AM" datatype="plaintext">
@@ -1268,11 +1257,11 @@
     <body>
       
       
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Stock/QuantityType.php" source-language="en" target-language="hy-AM" datatype="plaintext">
     <body>
-      
       
       
       
@@ -1342,13 +1331,14 @@
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Common/javascript_pagination.html.twig" source-language="en" target-language="hy-AM" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Common/pagination.html.twig" source-language="en" target-language="hy-AM" datatype="plaintext">
     <body>
+      
       
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Common/pagination.html.twig" source-language="en" target-language="hy-AM" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Common/unavailable-feature.html.twig" source-language="en" target-language="hy-AM" datatype="plaintext">
     <body>
       
     </body>
@@ -1359,6 +1349,15 @@
         <source>Category</source>
         <target state="final">Կատեգորիա</target>
         <note>Line: 44</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Attribute/Blocks/form.html.twig" source-language="en" target-language="hy-AM" datatype="plaintext">
+    <body>
+      <trans-unit id="7d5672f569de406c85249db6f1c99ec0" approved="yes">
+        <source>Save then add another value</source>
+        <target state="final">Պահպանել հետո ավելացնել նոր արժեք</target>
+        <note>Line: 49</note>
       </trans-unit>
     </body>
   </file>
@@ -1385,15 +1384,15 @@
         <target state="final">Գինը (առանց հարկի)</target>
         <note>Line: 65</note>
       </trans-unit>
-      <trans-unit id="9e834f13e35e4edf64863ab414a6217a" approved="yes">
-        <source>Reduction</source>
-        <target state="final">Նվազեցում</target>
-        <note>Line: 79</note>
-      </trans-unit>
       <trans-unit id="fc7b398d4af2074cfe73febdb5971153" approved="yes">
         <source>From quantity</source>
         <target state="final">Սկսած քանակությունից</target>
         <note>Line: 61</note>
+      </trans-unit>
+      <trans-unit id="9e834f13e35e4edf64863ab414a6217a" approved="yes">
+        <source>Reduction</source>
+        <target state="final">Նվազեցում</target>
+        <note>Line: 79</note>
       </trans-unit>
     </body>
   </file>
@@ -1438,11 +1437,6 @@ Comment: Add data attribute to allow form iframe modal to easily get the data</n
         <target state="final">Հատկանիշների արժեքը</target>
         <note>Line: 30
 Comment: Add data attribute to allow form iframe modal to easily get the data</note>
-      </trans-unit>
-      <trans-unit id="7d5672f569de406c85249db6f1c99ec0" approved="yes">
-        <source>Save then add another value</source>
-        <target state="final">Պահպանել հետո ավելացնել նոր արժեք</target>
-        <note>Line: 47</note>
       </trans-unit>
     </body>
   </file>
@@ -1508,12 +1502,16 @@ Comment: Add data attribute to allow form iframe modal to easily get the data</n
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/Combination/bulk.html.twig" source-language="en" target-language="hy-AM" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="d3d2e617335f08df83599665eef8a418" approved="yes">
+        <source>Close</source>
+        <target state="final">Փակել</target>
+        <note>Line: 43</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/Combination/empty_state.html.twig" source-language="en" target-language="hy-AM" datatype="plaintext">
     <body>
+      
       
       
     </body>
@@ -1531,11 +1529,19 @@ Comment: Add data attribute to allow form iframe modal to easily get the data</n
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/Combination/paginated_list_header.html.twig" source-language="en" target-language="hy-AM" datatype="plaintext">
     <body>
-      <trans-unit id="d3d2e617335f08df83599665eef8a418" approved="yes">
-        <source>Close</source>
-        <target state="final">Փակել</target>
-        <note>Line: 87</note>
-      </trans-unit>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/FormTheme/catalog_price_rules.html.twig" source-language="en" target-language="hy-AM" datatype="plaintext">
@@ -1554,7 +1560,6 @@ Comment: Add data attribute to allow form iframe modal to easily get the data</n
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Product/FormTheme/combination.html.twig" source-language="en" target-language="hy-AM" datatype="plaintext">
     <body>
-      
       
       
       
@@ -1640,15 +1645,6 @@ Comment: Add data attribute to allow form iframe modal to easily get the data</n
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/TwigTemplateForm/bootstrap_4_layout.html.twig" source-language="en" target-language="hy-AM" datatype="plaintext">
-    <body>
-      <trans-unit id="a1fa27779242b4902f7ae3bdd5c6d508" approved="yes">
-        <source>Type</source>
-        <target state="final">Տիպը</target>
-        <note>Line: 429</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/TwigTemplateForm/form_max_length.html.twig" source-language="en" target-language="hy-AM" datatype="plaintext">
     <body>
       
@@ -1657,11 +1653,20 @@ Comment: Add data attribute to allow form iframe modal to easily get the data</n
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/TwigTemplateForm/prestashop_ui_kit_base.html.twig" source-language="en" target-language="hy-AM" datatype="plaintext">
     <body>
-      
+      <trans-unit id="a1fa27779242b4902f7ae3bdd5c6d508" approved="yes">
+        <source>Type</source>
+        <target state="final">Տիպը</target>
+        <note>Line: 622</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Translation/Api/StockApi.php" source-language="en" target-language="hy-AM" datatype="plaintext">
     <body>
+      <trans-unit id="6adf97f83acf6453d4a6a4b1070f3754" approved="yes">
+        <source>None</source>
+        <target state="final">Ոչ մեկը</target>
+        <note>Line: 65</note>
+      </trans-unit>
       <trans-unit id="d940660a1591632abf56608dd80b0f41" approved="yes">
         <source>Filter by period</source>
         <target state="final">Ֆիտրել ըստ ժամանակահատվածի</target>

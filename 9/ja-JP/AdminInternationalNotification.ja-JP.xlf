@@ -21,20 +21,20 @@
         <target state="final">この式は、特別な構文を使用します：</target>
         <note>Line: 133</note>
       </trans-unit>
-      <trans-unit id="5ad040870ae5ccaeb2d57e4d052163a4" approved="yes">
-        <source>Warning! Your PHP configuration limits the maximum number of fields allowed in a form:</source>
-        <target state="final">警告　フォームに登録できる項目数がPHP設定の最大制限数です：</target>
-        <note>Line: 43</note>
-      </trans-unit>
-      <trans-unit id="5607dc45ebdfc0baaab64d944aa88f47" approved="yes">
-        <source>for max_input_vars.</source>
-        <target state="final">最大入力値のため</target>
-        <note>Line: 44</note>
-      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_mails.tpl" source-language="en" target-language="ja" datatype="plaintext">
     <body>
+      <trans-unit id="5ad040870ae5ccaeb2d57e4d052163a4" approved="yes">
+        <source>Warning! Your PHP configuration limits the maximum number of fields allowed in a form:</source>
+        <target state="final">警告　フォームに登録できる項目数がPHP設定の最大制限数です：</target>
+        <note>Line: 45</note>
+      </trans-unit>
+      <trans-unit id="5607dc45ebdfc0baaab64d944aa88f47" approved="yes">
+        <source>for max_input_vars.</source>
+        <target state="final">最大入力値のため</target>
+        <note>Line: 46</note>
+      </trans-unit>
       <trans-unit id="bbfb7a636f839052067cc86c39fa595a" approved="yes">
         <source>%limit% for suhosin.post.max_vars.</source>
         <target state="final">suhosin.post.max_varsの %limit%。</target>
@@ -75,6 +75,11 @@ Comment: @todo Throw exception</note>
   </file>
   <file original="classes/LocalizationPack.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
+      <trans-unit id="962f6e835582ebb404a37893f46c60f3" approved="yes">
+        <source>An error has occurred, this module does not exist: %s</source>
+        <target state="final">このモジュールが存在しないため、エラーが発生しました：%s</target>
+        <note>Line: 513</note>
+      </trans-unit>
       <trans-unit id="dd7edad69f95c053248e9b53eab73826" approved="yes">
         <source>Cannot load country: %d</source>
         <target state="final">次の国を読み込む事ができません：%d</target>
@@ -178,6 +183,26 @@ Comment: @todo Throw exception</note>
   </file>
   <file original="classes/controller/AdminController.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
+      <trans-unit id="6cfb80c26b415f8f6467cf07b0c700dd" approved="yes">
+        <source>The translation was successfully copied.</source>
+        <target state="final">言語のコピーに成功</target>
+        <note>Line: 521</note>
+      </trans-unit>
+      <trans-unit id="f22def68c5c456936078623b6dcd27ff" approved="yes">
+        <source>The translations have been successfully added.</source>
+        <target state="final">翻訳の追加に成功しました</target>
+        <note>Line: 522</note>
+      </trans-unit>
+      <trans-unit id="bb01c8c21884e974df8517110c92b22a" approved="yes">
+        <source>The translation was added successfully, but the language has not been created.</source>
+        <target state="final">翻訳の追加に成功しましたが、言語は作成されていません</target>
+        <note>Line: 527</note>
+      </trans-unit>
+      <trans-unit id="c9468b4bd45a165049277af6756db10e" approved="yes">
+        <source>Localization pack imported successfully.</source>
+        <target state="final">地域パックのインポートに成功しました。</target>
+        <note>Line: 531</note>
+      </trans-unit>
       <trans-unit id="ae99f365ee39176c3ab50b76a95cf629" approved="yes">
         <source>Cannot add configuration %1$s for %2$s language</source>
         <target state="final">%2$s 言語に対して、設定 %1$s 設定を追加できません</target>
@@ -373,30 +398,12 @@ Comment: @todo Throw exception</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/LocalizationController.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      <trans-unit id="c9468b4bd45a165049277af6756db10e" approved="yes">
-        <source>Localization pack imported successfully.</source>
-        <target state="final">地域パックのインポートに成功しました。</target>
-        <note>Line: 214</note>
-      </trans-unit>
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/TranslationsController.php" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      <trans-unit id="962f6e835582ebb404a37893f46c60f3" approved="yes">
-        <source>An error has occurred, this module does not exist: %s</source>
-        <target state="final">このモジュールが存在しないため、エラーが発生しました：%s</target>
-        <note>Line: 163</note>
-      </trans-unit>
-      <trans-unit id="6cfb80c26b415f8f6467cf07b0c700dd" approved="yes">
-        <source>The translation was successfully copied.</source>
-        <target state="final">言語のコピーに成功</target>
-        <note>Line: 345</note>
-      </trans-unit>
-      <trans-unit id="f22def68c5c456936078623b6dcd27ff" approved="yes">
-        <source>The translations have been successfully added.</source>
-        <target state="final">翻訳の追加に成功しました</target>
-        <note>Line: 199</note>
-      </trans-unit>
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/ZoneController.php" source-language="en" target-language="ja" datatype="plaintext">
@@ -470,15 +477,6 @@ Comment: @todo Throw exception</note>
         <source>Language files must be complete to allow copying of translations.</source>
         <target state="final">言語ファイルは翻訳のコピーを可能にするために完全でなければなりません</target>
         <note>Line: 62</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Twig/Component/Legacy/LegacySessionAlert.php" source-language="en" target-language="ja" datatype="plaintext">
-    <body>
-      <trans-unit id="bb01c8c21884e974df8517110c92b22a" approved="yes">
-        <source>The translation was added successfully, but the language has not been created.</source>
-        <target state="final">翻訳の追加に成功しましたが、言語は作成されていません</target>
-        <note>Line: 75</note>
       </trans-unit>
     </body>
   </file>

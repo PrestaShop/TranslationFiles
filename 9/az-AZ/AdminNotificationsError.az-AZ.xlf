@@ -5,27 +5,27 @@
       
     </body>
   </file>
-  <file original="admin-dev/themes/new-theme/template/components/layout/error_messages.tpl" source-language="en" target-language="az" datatype="plaintext">
+  <file original="admin-dev/themes/default/template/error.tpl" source-language="en" target-language="az" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
+  <file original="admin-dev/themes/default/template/layout-ajax.tpl" source-language="en" target-language="az" datatype="plaintext">
     <body>
       <trans-unit id="1e460c9780e870a025de51dbac61eeae" approved="yes">
         <source>There are %d errors.</source>
         <target state="final">%d yanlışlıq var.</target>
-        <note>Line: 32</note>
+        <note>Line: 49</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="admin-dev/themes/new-theme/template/components/layout/warning_messages.tpl" source-language="en" target-language="az" datatype="plaintext">
-    <body>
-      
-    </body>
-  </file>
-  <file original="admin-dev/themes/new-theme/template/error.tpl" source-language="en" target-language="az" datatype="plaintext">
-    <body>
-      
     </body>
   </file>
   <file original="classes/Address.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
+      <trans-unit id="02af8c16ef4efa9fa9e2142372b0b90d" approved="yes">
+        <source>The %s field is required.</source>
+        <target state="final">%s daması doldurulmalıdır.</target>
+        <note>Line: 380</note>
+      </trans-unit>
       <trans-unit id="fed3c8d832129d27b64c34fe410e7346" approved="yes">
         <source>Property %s is empty.</source>
         <target state="final">%s özəlliyi boşdur.</target>
@@ -104,6 +104,7 @@
       
       
       
+      
     </body>
   </file>
   <file original="classes/Language.php" source-language="en" target-language="az" datatype="plaintext">
@@ -128,6 +129,11 @@
   </file>
   <file original="classes/ObjectModel.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
+      <trans-unit id="0e2338b37ab3dfeed544e8233b53d4e0" approved="yes">
+        <source>The %1$s field is too long (%2$d chars max).</source>
+        <target state="final">%1$s daması çox uzundur (ən çox %2$d simvol ola bilər).</target>
+        <note>Line: 1091</note>
+      </trans-unit>
       <trans-unit id="872d428c40b36bba9fc5fafaa76c6f22" approved="yes">
         <source>Property %1$s has a bad value (allowed values are: %2$s).</source>
         <target state="final">%1$s özəlliyinin dəyəri pisdir (ola bilən dəyərlər: %2$s).</target>
@@ -175,6 +181,31 @@
   </file>
   <file original="classes/controller/AdminController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
+      <trans-unit id="7f290594963a303db17a5e21dc4cf0b7" approved="yes">
+        <source>An error occurred while deleting the object.</source>
+        <target state="final">Obyekti pozarkən bir yanlışlıq oldu.</target>
+        <note>Line: 1175</note>
+      </trans-unit>
+      <trans-unit id="1d5dfad5ac415b412c20a05a89d43db6" approved="yes">
+        <source>An error occurred while deleting this selection.</source>
+        <target state="final">Bu seçimi pozarkən bir yanlışlıq oldu.</target>
+        <note>Line: 3982</note>
+      </trans-unit>
+      <trans-unit id="66042fc205784775b028ba4ac7acebf3" approved="yes">
+        <source>Due to memory limit restrictions, this image cannot be loaded. Please increase your memory_limit value via your server's configuration settings.</source>
+        <target state="final">Yaddaş qadağalarına görə bu şəkli yükləmək olmur. Buyurun, serverinizin konfiqurasiya quraşdırmalarından memory_limit value dəyərini artırın.</target>
+        <note>Line: 3906</note>
+      </trans-unit>
+      <trans-unit id="ddd4e7f16c2032d59cb4fb4b86576bc5" approved="yes">
+        <source>You must select at least one element to delete.</source>
+        <target state="final">Pozmaq üçün siz ən azı bir element seçməlisiniz.</target>
+        <note>Line: 3985</note>
+      </trans-unit>
+      <trans-unit id="ee77ea46b0c548ed60eadf31bdd68613" approved="yes">
+        <source>Bad SQL query</source>
+        <target state="final">Pis SQL sorğusu</target>
+        <note>Line: 2392</note>
+      </trans-unit>
       <trans-unit id="df2751083713a6a971814c07d88c3eb5" approved="yes">
         <source>The 'From' date format is invalid (YYYY-MM-DD)</source>
         <target state="final">'Başlanğıc' tarix formatı yanlışdır (İİİİ-AA-GG)</target>
@@ -228,6 +259,15 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
+  <file original="classes/controller/Controller.php" source-language="en" target-language="az" datatype="plaintext">
+    <body>
+      <trans-unit id="652122103181aa2752efaecab300edf0" approved="yes">
+        <source>Access denied.</source>
+        <target state="final">Giriş əngəlləndi.</target>
+        <note>Line: 332</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="classes/helper/HelperImageUploader.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
       <trans-unit id="2368e33e3e01d53abb9b60061ab83903" approved="yes">
@@ -258,6 +298,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="classes/webservice/WebserviceSpecificManagementImages.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
+      <trans-unit id="b05c3c0bfce943b86e286e8e8103b6e5" approved="yes">
+        <source>An error occurred while uploading the image.</source>
+        <target state="final">Şəkil yüklənərkən bir yanlışlıq oldu.</target>
+        <note>Line: 993</note>
+      </trans-unit>
       <trans-unit id="6c3609de8769a4456305ec22e764573d" approved="yes">
         <source>An error occurred while copying this image: %s</source>
         <target state="final">Bu şəklin köçürülməsində bir yanlışlıq oldu: %s</target>
@@ -265,22 +310,13 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
-  <file original="controllers/admin/AdminAccessController.php" source-language="en" target-language="az" datatype="plaintext">
+  <file original="controllers/admin/AdminCarrierWizardController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      <trans-unit id="a7eca295291f53a23ab7ba0a9c7fd9de" approved="yes">
-        <source>This functionality has been disabled.</source>
-        <target state="final">Bu funksiya söndürüldü.</target>
-        <note>Line: 166</note>
-      </trans-unit>
+      
     </body>
   </file>
   <file original="controllers/admin/AdminCarriersController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      <trans-unit id="d9b5b2302d57f3d13d5387ba9c99daae" approved="yes">
-        <source>An error occurred while creating an object.</source>
-        <target state="final">Obyekt yaradılmasında bir yanlışlıq oldu.</target>
-        <note>Line: 483</note>
-      </trans-unit>
       <trans-unit id="954b49d26a3a0986aca720a7095f2aa9" approved="yes">
         <source>An error occurred while updating an object.</source>
         <target state="final">Obyekti yeniləyərkən bir yanlışlıq oldu.</target>
@@ -327,16 +363,6 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="controllers/admin/AdminModulesPositionsController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      <trans-unit id="11a257a80f8c8d76132470b171de6795" approved="yes">
-        <source>You do not have permission to delete this.</source>
-        <target state="final">Sizin bunu pozmağa icazəniz yoxdur.</target>
-        <note>Line: 209</note>
-      </trans-unit>
-      <trans-unit id="d8d4c3b79181fdcca8cb5159208fa56a" approved="yes">
-        <source>You do not have permission to add this.</source>
-        <target state="final">Sizin bunu əlavə etməyə icazəniz yoxdur</target>
-        <note>Line: 187</note>
-      </trans-unit>
       <trans-unit id="0ce2f4a4f40a2d23525b5b02bcfe611f" approved="yes">
         <source>An error occurred while transplanting the module to its hook.</source>
         <target state="final">Modulu qarmağa yerləşdirərkən bir yanlışlıq oldu.</target>
@@ -350,6 +376,15 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <source>You do not have permission to view this.</source>
         <target state="final">Bura daxil olmağa icazəniz yoxdur.</target>
         <note>Line: 71</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="controllers/admin/AdminShopController.php" source-language="en" target-language="az" datatype="plaintext">
+    <body>
+      <trans-unit id="d9b5b2302d57f3d13d5387ba9c99daae" approved="yes">
+        <source>An error occurred while creating an object.</source>
+        <target state="final">Obyekt yaradılmasında bir yanlışlıq oldu.</target>
+        <note>Line: 713</note>
       </trans-unit>
     </body>
   </file>
@@ -369,11 +404,6 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="controllers/admin/AdminShopUrlController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      <trans-unit id="77ae44aa6c998166fcf1a87496278ad5" approved="yes">
-        <source>(cannot load object)</source>
-        <target state="final">(əşya yüklənmir)</target>
-        <note>Line: 456</note>
-      </trans-unit>
       <trans-unit id="1b0cc7183377b461e298d0ebcf5f8548" approved="yes">
         <source>An error occurred while updating the status.</source>
         <target state="final">Durumu yeniləyərkən bir yanlışlıq oldu.</target>
@@ -388,6 +418,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <source>You do not have permission to edit this.</source>
         <target state="final">Sizin bunu redaktə etməyə icazəniz yoxdur</target>
         <note>Line: 459</note>
+      </trans-unit>
+      <trans-unit id="77ae44aa6c998166fcf1a87496278ad5" approved="yes">
+        <source>(cannot load object)</source>
+        <target state="final">(əşya yüklənmir)</target>
+        <note>Line: 456</note>
       </trans-unit>
       <trans-unit id="fd44c173b6a7897151a978b9015fec76" approved="yes">
         <source>You cannot disable the Main URL.</source>
@@ -425,8 +460,27 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       
     </body>
   </file>
+  <file original="controllers/admin/AdminTaxRulesGroupController.php" source-language="en" target-language="az" datatype="plaintext">
+    <body>
+      <trans-unit id="d8d4c3b79181fdcca8cb5159208fa56a" approved="yes">
+        <source>You do not have permission to add this.</source>
+        <target state="final">Sizin bunu əlavə etməyə icazəniz yoxdur</target>
+        <note>Line: 403</note>
+      </trans-unit>
+      <trans-unit id="11a257a80f8c8d76132470b171de6795" approved="yes">
+        <source>You do not have permission to delete this.</source>
+        <target state="final">Sizin bunu pozmağa icazəniz yoxdur.</target>
+        <note>Line: 397</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="controllers/admin/AdminTranslationsController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
+      <trans-unit id="a7eca295291f53a23ab7ba0a9c7fd9de" approved="yes">
+        <source>This functionality has been disabled.</source>
+        <target state="final">Bu funksiya söndürüldü.</target>
+        <note>Line: 1327</note>
+      </trans-unit>
       <trans-unit id="e298a0bc9a35d45798e28c082dfc1dfa" approved="yes">
         <source>"%type%" does not exist.</source>
         <target state="final">"%type%" yoxdur.</target>
@@ -454,9 +508,27 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
-  <file original="modules/blockreassurance/controllers/admin/AdminBlockListingController.php" source-language="en" target-language="az" datatype="plaintext">
+  <file original="modules/blockreassurance/blockreassurance.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
       
+    </body>
+  </file>
+  <file original="modules/blockreassurance/controllers/admin/AdminBlockListingController.php" source-language="en" target-language="az" datatype="plaintext">
+    <body>
+      <trans-unit id="c4ae3afc5d4c01919142f8b39cc5c1c5" approved="yes">
+        <source>Image format not recognized, allowed formats are: .gif, .jpg, .png</source>
+        <target state="final">Şəkil formatı tanınmadı. Yol verilən formatlar: .gif, .jpg, .png</target>
+        <note>Line: 196</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/dashproducts/dashproducts.php" source-language="en" target-language="az" datatype="plaintext">
+    <body>
+      <trans-unit id="5cd8dc8a58702a63e79af3ad9de16d7a" approved="yes">
+        <source>The %s field is invalid.</source>
+        <target state="final">%s daması yanlışdır.</target>
+        <note>Line: 589</note>
+      </trans-unit>
     </body>
   </file>
   <file original="modules/productcomments/productcomments.php" source-language="en" target-language="az" datatype="plaintext">
@@ -478,7 +550,7 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       <trans-unit id="23e0d4ecc25de9b2777fdaca3e2f3193" approved="yes">
         <source>Maximum depth: Invalid number.</source>
         <target state="final">Maksimum dərinlik: yalnış rəqəm</target>
-        <note>Line: 125</note>
+        <note>Line: 91</note>
       </trans-unit>
     </body>
   </file>
@@ -497,6 +569,15 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <source>The voucher code is invalid.</source>
         <target state="final">Kupon kodu yanlışdır.</target>
         <note>Line: 224</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/ps_facetedsearch/src/Form/Feature/FormModifier.php" source-language="en" target-language="az" datatype="plaintext">
+    <body>
+      <trans-unit id="87ecb83d305a6af0e0438a0587e31de8" approved="yes">
+        <source>%s is invalid.</source>
+        <target state="final">%s yalnışdır.</target>
+        <note>Line: 84</note>
       </trans-unit>
     </body>
   </file>
@@ -519,15 +600,6 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/Adapter/AdminAPI/AdminAPIConfiguration.php" source-language="en" target-language="az" datatype="plaintext">
-    <body>
-      <trans-unit id="5cd8dc8a58702a63e79af3ad9de16d7a" approved="yes">
-        <source>The %s field is invalid.</source>
-        <target state="final">%s daması yanlışdır.</target>
-        <note>Line: 79</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/Adapter/Configuration/LogsConfiguration.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
       
@@ -541,33 +613,10 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/Adapter/SqlManager/SqlQueryValidator.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      <trans-unit id="ee77ea46b0c548ed60eadf31bdd68613" approved="yes">
-        <source>Bad SQL query</source>
-        <target state="final">Pis SQL sorğusu</target>
-        <note>Line: 60</note>
-      </trans-unit>
       <trans-unit id="0b5512610b0c8548345f37a58bf51360" approved="yes">
         <source>"%key%" does not exist.</source>
         <target state="final">"%key%" yoxdur.</target>
         <note>Line: 388</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/Adapter/Webservice/WebserviceKeyEraser.php" source-language="en" target-language="az" datatype="plaintext">
-    <body>
-      <trans-unit id="ddd4e7f16c2032d59cb4fb4b86576bc5" approved="yes">
-        <source>You must select at least one element to delete.</source>
-        <target state="final">Pozmaq üçün siz ən azı bir element seçməlisiniz.</target>
-        <note>Line: 52</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/Core/Localization/Pack/Import/LocalizationPackImporter.php" source-language="en" target-language="az" datatype="plaintext">
-    <body>
-      <trans-unit id="0bd212ed072143f56147f2f119892d03" approved="yes">
-        <source>Invalid selection</source>
-        <target state="final">Yanlış seçim</target>
-        <note>Line: 150</note>
       </trans-unit>
     </body>
   </file>
@@ -579,28 +628,22 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/AdministrationController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      <trans-unit id="87ecb83d305a6af0e0438a0587e31de8" approved="yes">
-        <source>%s is invalid.</source>
-        <target state="final">%s yalnışdır.</target>
-        <note>Line: 215</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/EmailController.php" source-language="en" target-language="az" datatype="plaintext">
-    <body>
-      <trans-unit id="652122103181aa2752efaecab300edf0" approved="yes">
-        <source>Access denied.</source>
-        <target state="final">Giriş əngəlləndi.</target>
-        <note>Line: 206</note>
-      </trans-unit>
+      
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/EmployeeController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
+      
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ImportController.php" source-language="en" target-language="az" datatype="plaintext">
+    <body>
       <trans-unit id="df3c280f0aaf0cb0d5c25ab322a8bcf9" approved="yes">
         <source>You do not have permission to update this.</source>
         <target state="final">Sizin bunu yeniləmək üçün yetkiniz yoxdur.</target>
-        <note>Line: 288</note>
+        <note>Line: 361</note>
       </trans-unit>
     </body>
   </file>
@@ -632,7 +675,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/ShopParameters/ContactsController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      
+      <trans-unit id="505bbc38260c669d0793757e414caecc" approved="yes">
+        <source>The %s field is not valid</source>
+        <target state="final">%s daması keçərli deyil</target>
+        <note>Line: 245</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Configure/ShopParameters/MetaController.php" source-language="en" target-language="az" datatype="plaintext">
@@ -645,23 +692,10 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Controller/Admin/Improve/Design/CmsPageController.php" source-language="en" target-language="az" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Controller/Admin/FrameworkBundleAdminController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      <trans-unit id="7f290594963a303db17a5e21dc4cf0b7" approved="yes">
-        <source>An error occurred while deleting the object.</source>
-        <target state="final">Obyekti pozarkən bir yanlışlıq oldu.</target>
-        <note>Line: 1068</note>
-      </trans-unit>
-      <trans-unit id="1d5dfad5ac415b412c20a05a89d43db6" approved="yes">
-        <source>An error occurred while deleting this selection.</source>
-        <target state="final">Bu seçimi pozarkən bir yanlışlıq oldu.</target>
-        <note>Line: 1063</note>
-      </trans-unit>
-      <trans-unit id="505bbc38260c669d0793757e414caecc" approved="yes">
-        <source>The %s field is not valid</source>
-        <target state="final">%s daması keçərli deyil</target>
-        <note>Line: 1044</note>
-      </trans-unit>
+      
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/Design/MailThemeController.php" source-language="en" target-language="az" datatype="plaintext">
@@ -679,33 +713,16 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       
       
       
-      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/CurrencyController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
       
-      
-      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/LanguageController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      <trans-unit id="b05c3c0bfce943b86e286e8e8103b6e5" approved="yes">
-        <source>An error occurred while uploading the image.</source>
-        <target state="final">Şəkil yüklənərkən bir yanlışlıq oldu.</target>
-        <note>Line: 367</note>
-      </trans-unit>
-      <trans-unit id="66042fc205784775b028ba4ac7acebf3" approved="yes">
-        <source>Due to memory limit restrictions, this image cannot be loaded. Please increase your memory_limit value via your server's configuration settings.</source>
-        <target state="final">Yaddaş qadağalarına görə bu şəkli yükləmək olmur. Buyurun, serverinizin konfiqurasiya quraşdırmalarından memory_limit value dəyərini artırın.</target>
-        <note>Line: 362</note>
-      </trans-unit>
-      <trans-unit id="c4ae3afc5d4c01919142f8b39cc5c1c5" approved="yes">
-        <source>Image format not recognized, allowed formats are: .gif, .jpg, .png</source>
-        <target state="final">Şəkil formatı tanınmadı. Yol verilən formatlar: .gif, .jpg, .png</target>
-        <note>Line: 338</note>
-      </trans-unit>
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/StateController.php" source-language="en" target-language="az" datatype="plaintext">
@@ -717,18 +734,9 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/TaxRulesGroupController.php" source-language="en" target-language="az" datatype="plaintext">
-    <body>
-      
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/ZoneController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      <trans-unit id="02af8c16ef4efa9fa9e2142372b0b90d" approved="yes">
-        <source>The %s field is required.</source>
-        <target state="final">%s daması doldurulmalıdır.</target>
-        <note>Line: 319</note>
-      </trans-unit>
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/ModuleController.php" source-language="en" target-language="az" datatype="plaintext">
@@ -745,16 +753,8 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Controller/Admin/PrestaShopAdminController.php" source-language="en" target-language="az" datatype="plaintext">
-    <body>
-      
-      
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Address/AddressController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      
-      
       
       
     </body>
@@ -781,7 +781,7 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/CategoryController.php" source-language="en" target-language="az" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/ManufacturerController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
       
     </body>
@@ -818,6 +818,11 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/CartController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
+      <trans-unit id="0bd212ed072143f56147f2f119892d03" approved="yes">
+        <source>Invalid selection</source>
+        <target state="final">Yanlış seçim</target>
+        <note>Line: 800</note>
+      </trans-unit>
       <trans-unit id="959c96ec640d353311dd9763d57daad6" approved="yes">
         <source>Please fill in all the required fields.</source>
         <target state="final">Bütün gərəkli damaları doldurun.</target>
@@ -846,6 +851,12 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Administration/UploadQuotaType.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Employee/EmployeeType.php" source-language="en" target-language="az" datatype="plaintext">
+    <body>
+      
       
     </body>
   </file>
@@ -888,11 +899,6 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Improve/Design/Pages/CmsPageCategoryType.php" source-language="en" target-language="az" datatype="plaintext">
-    <body>
-      
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/Design/Theme/ImportThemeType.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
       <trans-unit id="6e9550e40cc317663fbe81e759d098e8" approved="yes">
@@ -904,31 +910,22 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Currencies/CurrencyType.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
+      
+      
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Tax/TaxType.php" source-language="en" target-language="az" datatype="plaintext">
+    <body>
       <trans-unit id="1cf26a08db6ef9cd67be91523c68ab6a" approved="yes">
         <source>This field is invalid, it must contain numeric values</source>
         <target state="final">Bu dama yanlışdır. Say dəyərləri olmalıdır</target>
-        <note>Line: 221</note>
+        <note>Line: 117</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Language/LanguageType.php" source-language="en" target-language="az" datatype="plaintext">
-    <body>
-      
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Improve/International/Locations/CountryType.php" source-language="en" target-language="az" datatype="plaintext">
-    <body>
-      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Improve/Shipping/Carrier/GeneralSettings.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Login/ResetPasswordType.php" source-language="en" target-language="az" datatype="plaintext">
-    <body>
-      
       
     </body>
   </file>
@@ -973,22 +970,19 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
       </trans-unit>
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationItemType.php" source-language="en" target-language="az" datatype="plaintext">
-    <body>
-      <trans-unit id="0e2338b37ab3dfeed544e8233b53d4e0" approved="yes">
-        <source>The %1$s field is too long (%2$d chars max).</source>
-        <target state="final">%1$s daması çox uzundur (ən çox %2$d simvol ola bilər).</target>
-        <note>Line: 179</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Image/ImageDropzoneType.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Pricing/SpecificPriceImpactType.php" source-language="en" target-language="az" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Type/ApeType.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Type/ChangePasswordType.php" source-language="en" target-language="az" datatype="plaintext">
+    <body>
+      
       
       
     </body>
@@ -1000,6 +994,17 @@ Comment: check if some ids are in list_skip_actions and forbid deletion</note>
         <target state="final">E-poçt ünvan səhvdir</target>
         <note>Line: 55</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Type/FormattedTextareaType.php" source-language="en" target-language="az" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Type/PriceReductionType.php" source-language="en" target-language="az" datatype="plaintext">
+    <body>
+      
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Error/error.html.twig" source-language="en" target-language="az" datatype="plaintext">
