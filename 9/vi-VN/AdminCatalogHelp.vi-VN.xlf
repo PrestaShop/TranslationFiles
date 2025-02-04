@@ -11,6 +11,11 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl" source-language="en" target-language="vi" datatype="plaintext">
     <body>
+      <trans-unit id="5b41d7dc2da5ea15baf3e2d62d820ac2" approved="yes">
+        <source>You can choose a minimum amount for the cart either with or without the taxes and shipping.</source>
+        <target state="final">Bạn có thể chọn số lượng giỏ hàng tối thiểu bao gồm thuế và giao hàng hoặc không.</target>
+        <note>Line: 74</note>
+      </trans-unit>
       <trans-unit id="cfc9489072f04e808ce4e01948b7fef8" approved="yes">
         <source>The cart rule will be applied to the first "X" customers only.</source>
         <target state="final">Các quy tắc giỏ hàng sẽ được áp dụng cho lần đầu tiên "X" chỉ có khách hàng.</target>
@@ -20,11 +25,6 @@
         <source>A customer will only be able to use the cart rule "X" time(s).</source>
         <target state="final">Một khách hàng sẽ chỉ có thể sử dụng các giỏ trị "X" thời gian.</target>
         <note>Line: 128</note>
-      </trans-unit>
-      <trans-unit id="5b41d7dc2da5ea15baf3e2d62d820ac2" approved="yes">
-        <source>You can choose a minimum amount for the cart either with or without the taxes and shipping.</source>
-        <target state="final">Bạn có thể chọn số lượng giỏ hàng tối thiểu bao gồm thuế và giao hàng hoặc không.</target>
-        <note>Line: 74</note>
       </trans-unit>
       <trans-unit id="3fde87028c9327c15017b46e6d84ac80" approved="yes">
         <source>Optional: The cart rule will be available to everyone if you leave this field blank.</source>
@@ -170,12 +170,12 @@
       </trans-unit>
     </body>
   </file>
-  <file original="controllers/admin/AdminShopGroupController.php" source-language="en" target-language="vi" datatype="plaintext">
+  <file original="controllers/admin/AdminShopController.php" source-language="en" target-language="vi" datatype="plaintext">
     <body>
       <trans-unit id="22cbf85c41427960736dc10cfec5faf4" approved="yes">
         <source>Choose a color with the color picker, or enter an HTML color (e.g. "lightblue", "#CC6600").</source>
         <target state="final">Chọn 1 màu bằng công cụ chọn màu, hoặc điền mã màu (vd: "lightblue", "#CC6600").</target>
-        <note>Line: 207</note>
+        <note>Line: 438</note>
       </trans-unit>
     </body>
   </file>
@@ -222,20 +222,24 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Catalog/AttributeGroupType.php" source-language="en" target-language="vi" datatype="plaintext">
     <body>
-      <trans-unit id="580de47d3bc3e99a0b6aba55066a983a" approved="yes">
-        <source>The way the attribute's values will be presented to the customers in the product's page.</source>
-        <target state="final">Cách thức hiển thị của các giá trị thuộc tính trên trang sản phẩm.</target>
-        <note>Line: 101</note>
-      </trans-unit>
-      <trans-unit id="f2d1c5443636295e9720caac90ea8d93" approved="yes">
-        <source>Your internal name for this attribute.</source>
-        <target state="final">Tên lưu trữ nội bộ cho thuộc tính này.</target>
-        <note>Line: 78</note>
-      </trans-unit>
       <trans-unit id="b5e6921c2d093fbcb0088c9466ee9983" approved="yes">
         <source>The public name for this attribute, displayed to the customers.</source>
         <target state="final">Tên công khai cho thuộc tính này, đã hiển thị cho khách hàng.</target>
         <note>Line: 95</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Catalog/AttributeType.php" source-language="en" target-language="vi" datatype="plaintext">
+    <body>
+      <trans-unit id="f2d1c5443636295e9720caac90ea8d93" approved="yes">
+        <source>Your internal name for this attribute.</source>
+        <target state="final">Tên lưu trữ nội bộ cho thuộc tính này.</target>
+        <note>Line: 106</note>
+      </trans-unit>
+      <trans-unit id="580de47d3bc3e99a0b6aba55066a983a" approved="yes">
+        <source>The way the attribute's values will be presented to the customers in the product's page.</source>
+        <target state="final">Cách thức hiển thị của các giá trị thuộc tính trên trang sản phẩm.</target>
+        <note>Line: 89</note>
       </trans-unit>
     </body>
   </file>
@@ -259,23 +263,12 @@
       
     </body>
   </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationFormType.php" source-language="en" target-language="vi" datatype="plaintext">
-    <body>
-      
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationStockType.php" source-language="en" target-language="vi" datatype="plaintext">
-    <body>
-      
-      
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Details/ReferencesType.php" source-language="en" target-language="vi" datatype="plaintext">
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/BulkCombinationReferencesType.php" source-language="en" target-language="vi" datatype="plaintext">
     <body>
       <trans-unit id="39bd7eba8aa2033579b5ae60bf0c774d" approved="yes">
         <source>This type of product code is widely used in the United States, Canada, the United Kingdom, Australia, New Zealand and in other countries.</source>
         <target state="final">Kiểu mã sản phẩm này được sử dụng rộng rãi ở Mỹ, Canada, Anh, Australia, New Zealand và trong các quốc gia khác.</target>
-        <note>Line: 73</note>
+        <note>Line: 72</note>
       </trans-unit>
       <trans-unit id="0041a5c39ca241f883f4e0516a32d290" approved="yes">
         <source>This type of product code is specific to Europe and Japan, but is widely used internationally. It is a superset of the UPC code: all products marked with an EAN will be accepted in North America.</source>
@@ -285,8 +278,19 @@
       <trans-unit id="633bf9436b67e19cd61db84ccab7fee2" approved="yes">
         <source>ISBN is used internationally to identify books and their various editions.</source>
         <target state="final">ISBN được sử dụng trên thế giới để nhận dạng sách và các ấn bản khác nhau của chúng.</target>
-        <note>Line: 93</note>
+        <note>Line: 94</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationFormType.php" source-language="en" target-language="vi" datatype="plaintext">
+    <body>
+      
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationStockType.php" source-language="en" target-language="vi" datatype="plaintext">
+    <body>
+      
+      
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/FooterType.php" source-language="en" target-language="vi" datatype="plaintext">

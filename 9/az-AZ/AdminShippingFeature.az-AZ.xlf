@@ -106,10 +106,25 @@
   </file>
   <file original="controllers/admin/AdminCarrierWizardController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
+      <trans-unit id="4f890cf6a72112cad95093baecf39831" approved="yes">
+        <source>Disable carrier</source>
+        <target state="final">Daşıyıcını deaktiv edin</target>
+        <note>Line: 368</note>
+      </trans-unit>
       <trans-unit id="c91e596246bbf8fdff9dae7b349d71d9" approved="yes">
         <source>Carrier name</source>
         <target state="final">Daşıyıcı adı</target>
         <note>Line: 208</note>
+      </trans-unit>
+      <trans-unit id="dde695268ea519ababd83f0ca3d274fc" approved="yes">
+        <source>Transit time</source>
+        <target state="final">Daşıma vaxtı</target>
+        <note>Line: 219</note>
+      </trans-unit>
+      <trans-unit id="c8b462f779749d2e27abed2e9501b2bd" approved="yes">
+        <source>Speed grade</source>
+        <target state="final">Sürət dərəcəsi</target>
+        <note>Line: 228</note>
       </trans-unit>
       <trans-unit id="0979779c4569141b98591d326d343ec2" approved="yes">
         <source>Tracking URL</source>
@@ -130,6 +145,11 @@
         <source>Shipping locations and costs</source>
         <target state="final">Çatdırılma yerləri və xərcləri</target>
         <note>Line: 90</note>
+      </trans-unit>
+      <trans-unit id="780c462e85ba4399a5d42e88f69a15ca" approved="yes">
+        <source>Billing</source>
+        <target state="final">Ödəniş</target>
+        <note>Line: 324</note>
       </trans-unit>
       <trans-unit id="e2fb9fa6091dd9f779b98efdf998a00a" approved="yes">
         <source>Size, weight, and group access</source>
@@ -175,35 +195,15 @@
   </file>
   <file original="controllers/admin/AdminCarriersController.php" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      <trans-unit id="dde695268ea519ababd83f0ca3d274fc" approved="yes">
-        <source>Transit time</source>
-        <target state="final">Daşıma vaxtı</target>
-        <note>Line: 189</note>
-      </trans-unit>
-      <trans-unit id="c8b462f779749d2e27abed2e9501b2bd" approved="yes">
-        <source>Speed grade</source>
-        <target state="final">Sürət dərəcəsi</target>
-        <note>Line: 198</note>
-      </trans-unit>
-      <trans-unit id="b00b85425e74ed2c85dc3119b78ff2c3" approved="yes">
-        <source>Free Shipping</source>
-        <target state="final">Pulsuz çatdırılma</target>
-        <note>Line: 97</note>
-      </trans-unit>
-      <trans-unit id="4f890cf6a72112cad95093baecf39831" approved="yes">
-        <source>Disable carrier</source>
-        <target state="final">Daşıyıcını deaktiv edin</target>
-        <note>Line: 340</note>
-      </trans-unit>
       <trans-unit id="8f497c1a3d15af9e0c215019f26b887d" approved="yes">
         <source>Delay</source>
         <target state="final">Gecikmə</target>
         <note>Line: 85</note>
       </trans-unit>
-      <trans-unit id="780c462e85ba4399a5d42e88f69a15ca" approved="yes">
-        <source>Billing</source>
-        <target state="final">Ödəniş</target>
-        <note>Line: 305</note>
+      <trans-unit id="b00b85425e74ed2c85dc3119b78ff2c3" approved="yes">
+        <source>Free Shipping</source>
+        <target state="final">Pulsuz çatdırılma</target>
+        <note>Line: 97</note>
       </trans-unit>
       <trans-unit id="1c0e287237d8c352c6ead633b019c047" approved="yes">
         <source>Apply shipping cost</source>
@@ -372,6 +372,24 @@
       </trans-unit>
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/Modal/update_shipping_modal.html.twig" source-language="en" target-language="az" datatype="plaintext">
+    <body>
+      <trans-unit id="5068c162a60b5859f973f701333f45c5" approved="yes">
+        <source>Tracking number</source>
+        <target state="final">İzləmə Nömrəsi</target>
+        <note>Line: 49</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/add_product_row.html.twig" source-language="en" target-language="az" datatype="plaintext">
+    <body>
+      <trans-unit id="914419aa32f04011357d3b604a86d7eb" approved="yes">
+        <source>Carrier</source>
+        <target state="final">Kuriyer</target>
+        <note>Line: 87</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/details.html.twig" source-language="en" target-language="az" datatype="plaintext">
     <body>
       <trans-unit id="1d6af794b2599c1407a83029a09d1ecf" approved="yes">
@@ -383,24 +401,10 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/shipping.html.twig" source-language="en" target-language="az" datatype="plaintext">
     <body>
-      <trans-unit id="914419aa32f04011357d3b604a86d7eb" approved="yes">
-        <source>Carrier</source>
-        <target state="final">Kuriyer</target>
-        <note>Line: 32</note>
-      </trans-unit>
       <trans-unit id="552a0d8c17d95d5dbdc0c28217024f5a" approved="yes">
         <source>Shipping cost</source>
         <target state="final">Çatdırılma xərci</target>
         <note>Line: 34</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/preview.html.twig" source-language="en" target-language="az" datatype="plaintext">
-    <body>
-      <trans-unit id="5068c162a60b5859f973f701333f45c5" approved="yes">
-        <source>Tracking number</source>
-        <target state="final">İzləmə Nömrəsi</target>
-        <note>Line: 48</note>
       </trans-unit>
     </body>
   </file>

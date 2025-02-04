@@ -25,30 +25,25 @@
         <target state="final">이 표현식은 특별한 구문을 사용합니다:</target>
         <note>Line: 133</note>
       </trans-unit>
-      <trans-unit id="06a92b5dc72bff3b98bf4b932ce72864" approved="yes">
-        <source>Apache mod_security is activated on your server. This could result in some Bad Request errors</source>
-        <target state="final">서버의 Apache mod_security 가 활성화되었습니다. 이것은 몇가지 잘못된 요청 오류를 야기할 수 있습니다</target>
-        <note>Line: 31</note>
-      </trans-unit>
-      <trans-unit id="1f0f8b59397f34d499b181297714713a" approved="yes">
-        <source>Warning! Your hosting provider is using the Suhosin patch for PHP, which limits the maximum number of fields allowed in a form:</source>
-        <target state="final">경고! 호스팅 제공업체에서 PHP에 Suhosin 패치를 적용 중이기에, 한 양식 내의 허용된 항목의 최대 갯수 제한은 다음과 같습니다:</target>
-        <note>Line: 37</note>
-      </trans-unit>
-      <trans-unit id="5ad040870ae5ccaeb2d57e4d052163a4" approved="yes">
-        <source>Warning! Your PHP configuration limits the maximum number of fields allowed in a form:</source>
-        <target state="final">경고! PHP 구성이 양식에 허용된 항목 최대 갯수를 제한했습니다:</target>
-        <note>Line: 43</note>
-      </trans-unit>
-      <trans-unit id="4fb6a3beb82f8d8aa4bbdf8f5a0c35fa" approved="yes">
-        <source>%s at least, or you will have to edit the translation files.</source>
-        <target state="final">%s 이상이거나, 또는 번역 파일들을 편집해야 합니다.</target>
-        <note>Line: 47</note>
-      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/translations/helpers/view/translation_mails.tpl" source-language="en" target-language="ko" datatype="plaintext">
     <body>
+      <trans-unit id="06a92b5dc72bff3b98bf4b932ce72864" approved="yes">
+        <source>Apache mod_security is activated on your server. This could result in some Bad Request errors</source>
+        <target state="final">서버의 Apache mod_security 가 활성화되었습니다. 이것은 몇가지 잘못된 요청 오류를 야기할 수 있습니다</target>
+        <note>Line: 33</note>
+      </trans-unit>
+      <trans-unit id="1f0f8b59397f34d499b181297714713a" approved="yes">
+        <source>Warning! Your hosting provider is using the Suhosin patch for PHP, which limits the maximum number of fields allowed in a form:</source>
+        <target state="final">경고! 호스팅 제공업체에서 PHP에 Suhosin 패치를 적용 중이기에, 한 양식 내의 허용된 항목의 최대 갯수 제한은 다음과 같습니다:</target>
+        <note>Line: 39</note>
+      </trans-unit>
+      <trans-unit id="5ad040870ae5ccaeb2d57e4d052163a4" approved="yes">
+        <source>Warning! Your PHP configuration limits the maximum number of fields allowed in a form:</source>
+        <target state="final">경고! PHP 구성이 양식에 허용된 항목 최대 갯수를 제한했습니다:</target>
+        <note>Line: 45</note>
+      </trans-unit>
       <trans-unit id="bbfb7a636f839052067cc86c39fa595a" approved="yes">
         <source>%limit% for suhosin.post.max_vars.</source>
         <target state="final">suhosin.post.max_vars에 대한 %limit%.</target>
@@ -58,6 +53,11 @@
         <source>%limit% for suhosin.request.max_vars.</source>
         <target state="final">suhosin.request.max_vars에 대한 %limit%.</target>
         <note>Line: 42</note>
+      </trans-unit>
+      <trans-unit id="4fb6a3beb82f8d8aa4bbdf8f5a0c35fa" approved="yes">
+        <source>%s at least, or you will have to edit the translation files.</source>
+        <target state="final">%s 이상이거나, 또는 번역 파일들을 편집해야 합니다.</target>
+        <note>Line: 49</note>
       </trans-unit>
     </body>
   </file>
@@ -89,6 +89,11 @@ Comment: @todo Throw exception</note>
   </file>
   <file original="classes/LocalizationPack.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
+      <trans-unit id="962f6e835582ebb404a37893f46c60f3" approved="yes">
+        <source>An error has occurred, this module does not exist: %s</source>
+        <target state="final">오류가 발생했습니다, 이 모듈은 존재하지 않습니다: %s</target>
+        <note>Line: 513</note>
+      </trans-unit>
       <trans-unit id="dd7edad69f95c053248e9b53eab73826" approved="yes">
         <source>Cannot load country: %d</source>
         <target state="final">국가 불러올 수 없음:%d</target>
@@ -192,6 +197,26 @@ Comment: @todo Throw exception</note>
   </file>
   <file original="classes/controller/AdminController.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
+      <trans-unit id="6cfb80c26b415f8f6467cf07b0c700dd" approved="yes">
+        <source>The translation was successfully copied.</source>
+        <target state="final">번역이 복사되었습니다.</target>
+        <note>Line: 521</note>
+      </trans-unit>
+      <trans-unit id="f22def68c5c456936078623b6dcd27ff" approved="yes">
+        <source>The translations have been successfully added.</source>
+        <target state="final">번역이 추가되었습니다.</target>
+        <note>Line: 522</note>
+      </trans-unit>
+      <trans-unit id="bb01c8c21884e974df8517110c92b22a" approved="yes">
+        <source>The translation was added successfully, but the language has not been created.</source>
+        <target state="final">번역이 추가됐지만, 언어는 생성되지 않았습니다.</target>
+        <note>Line: 527</note>
+      </trans-unit>
+      <trans-unit id="c9468b4bd45a165049277af6756db10e" approved="yes">
+        <source>Localization pack imported successfully.</source>
+        <target state="final">현지화 팩을 불러왔습니다.</target>
+        <note>Line: 531</note>
+      </trans-unit>
       <trans-unit id="ae99f365ee39176c3ab50b76a95cf629" approved="yes">
         <source>Cannot add configuration %1$s for %2$s language</source>
         <target state="final">%2$s 언어의 구성 %1$s를 추가할 수 없습니다</target>
@@ -502,11 +527,6 @@ Comment: @todo Throw exception</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/LocalizationController.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
-      <trans-unit id="c9468b4bd45a165049277af6756db10e" approved="yes">
-        <source>Localization pack imported successfully.</source>
-        <target state="final">현지화 팩을 불러왔습니다.</target>
-        <note>Line: 214</note>
-      </trans-unit>
       <trans-unit id="53802fa30d7e83f77eccfa376c33e6fa" approved="yes">
         <source>Importing a new language may fail without the OpenSSL module. Please enable "openssl.so" on your server configuration.</source>
         <target state="final">OpenSSL 모듈 없이 새 언어 불러오기를 하면 실패할 것입니다. 서버 구성의 "openssl.so" 를 활성화 하세요.</target>
@@ -516,21 +536,6 @@ Comment: @todo Throw exception</note>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Improve/International/TranslationsController.php" source-language="en" target-language="ko" datatype="plaintext">
     <body>
-      <trans-unit id="962f6e835582ebb404a37893f46c60f3" approved="yes">
-        <source>An error has occurred, this module does not exist: %s</source>
-        <target state="final">오류가 발생했습니다, 이 모듈은 존재하지 않습니다: %s</target>
-        <note>Line: 163</note>
-      </trans-unit>
-      <trans-unit id="6cfb80c26b415f8f6467cf07b0c700dd" approved="yes">
-        <source>The translation was successfully copied.</source>
-        <target state="final">번역이 복사되었습니다.</target>
-        <note>Line: 345</note>
-      </trans-unit>
-      <trans-unit id="f22def68c5c456936078623b6dcd27ff" approved="yes">
-        <source>The translations have been successfully added.</source>
-        <target state="final">번역이 추가되었습니다.</target>
-        <note>Line: 199</note>
-      </trans-unit>
       <trans-unit id="2c4113bd192a65a98ee212d9e946d152" approved="yes">
         <source>You must select at least one translation type to export translations.</source>
         <target state="final">번역을 내보내기 위한 하나 이상의 번역 유형을 선택해야 합니다.</target>
@@ -641,15 +646,6 @@ Comment: @todo Throw exception</note>
         <source>Language files must be complete to allow copying of translations.</source>
         <target state="final">번역본을 복사하려면 언어 파일이 완전해야 합니다.</target>
         <note>Line: 62</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Twig/Component/Legacy/LegacySessionAlert.php" source-language="en" target-language="ko" datatype="plaintext">
-    <body>
-      <trans-unit id="bb01c8c21884e974df8517110c92b22a" approved="yes">
-        <source>The translation was added successfully, but the language has not been created.</source>
-        <target state="final">번역이 추가됐지만, 언어는 생성되지 않았습니다.</target>
-        <note>Line: 75</note>
       </trans-unit>
     </body>
   </file>
