@@ -11,6 +11,11 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
+      <trans-unit id="5b41d7dc2da5ea15baf3e2d62d820ac2" approved="yes">
+        <source>You can choose a minimum amount for the cart either with or without the taxes and shipping.</source>
+        <target state="final">您可以選擇購物車金額下限，無論是否含稅金與運費</target>
+        <note>Line: 74</note>
+      </trans-unit>
       <trans-unit id="cfc9489072f04e808ce4e01948b7fef8" approved="yes">
         <source>The cart rule will be applied to the first "X" customers only.</source>
         <target state="final">這個購物車規則只會套用到前 X 個客戶</target>
@@ -20,11 +25,6 @@
         <source>A customer will only be able to use the cart rule "X" time(s).</source>
         <target state="final">一個客戶只能夠使用這個購物車規則 X 次</target>
         <note>Line: 128</note>
-      </trans-unit>
-      <trans-unit id="5b41d7dc2da5ea15baf3e2d62d820ac2" approved="yes">
-        <source>You can choose a minimum amount for the cart either with or without the taxes and shipping.</source>
-        <target state="final">您可以選擇購物車金額下限，無論是否含稅金與運費</target>
-        <note>Line: 74</note>
       </trans-unit>
       <trans-unit id="3fde87028c9327c15017b46e6d84ac80" approved="yes">
         <source>Optional: The cart rule will be available to everyone if you leave this field blank.</source>
@@ -170,12 +170,12 @@
       </trans-unit>
     </body>
   </file>
-  <file original="controllers/admin/AdminShopGroupController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
+  <file original="controllers/admin/AdminShopController.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
       <trans-unit id="22cbf85c41427960736dc10cfec5faf4" approved="yes">
         <source>Choose a color with the color picker, or enter an HTML color (e.g. "lightblue", "#CC6600").</source>
         <target state="final">透過調色盤選擇一個顏色，或是輸入一個 HTML 色碼 (例如 "lightblue"，"#CC6600")</target>
-        <note>Line: 207</note>
+        <note>Line: 438</note>
       </trans-unit>
     </body>
   </file>
@@ -203,57 +203,42 @@
       <trans-unit id="65c29c631954b1e422c860c9353c30f0" approved="yes">
         <source>[1]No redirection (404), display error page[/1] [2] Do not redirect anywhere and display a 404 "Not Found" page.</source>
         <target state="final">[1]不進行重定向（404）[/1]，[2]顯示錯誤頁面 = 不要將其重定向到其他地方，顯示 404 "Not Found" 頁面。</target>
-        <note>Line: 325</note>
+        <note>Line: 308</note>
       </trans-unit>
       <trans-unit id="511d9e488a706dcf908981d845e50a35" approved="yes">
         <source>[1]No redirection (410), display error page[/1] [2] Do not redirect anywhere and display a 410 "Gone" page.</source>
         <target state="final">[1]不進行重定向（410）[/1]，[2]顯示錯誤頁面 = 不要將其重定向到其他地方，顯示 410 "Gone" 頁面。</target>
-        <note>Line: 326</note>
-      </trans-unit>
-      <trans-unit id="739d9250414669d4dcbcf189f4db48c9" approved="yes">
-        <source><![CDATA[If you want a category to appear in your store's menu, configure your menu module in [1]Modules > Module Manager[/1].]]></source>
-        <target state="final"><![CDATA[如果您希望某個分類出現在商店的選單中，請在 [1]模塊 > 模塊管理器[/1] 中配置您的選單模塊。]]></target>
-        <note>Line: 170</note>
-      </trans-unit>
-      <trans-unit id="d227bb016fe4862389c292b5708db741" approved="yes">
-        <source>This is the cover image for your category: it will be displayed on the category's page. The description will appear in its top-left corner.</source>
-        <target state="final">這是您分類的封面圖片：將在分類頁面上顯示。描述將出現在左上角。</target>
-        <note>Line: 181</note>
-      </trans-unit>
-      <trans-unit id="e4128eb4934611a9c28e82de23e0916c" approved="yes">
-        <source>It will display a thumbnail on the parent category's page, if the theme allows it.</source>
-        <target state="final">如果主題允許，將在父類別的頁面上顯示縮略圖。</target>
-        <note>Line: 188</note>
+        <note>Line: 309</note>
       </trans-unit>
       <trans-unit id="88fe88f4033791ef6f38fbb7f7c58f04" approved="yes">
         <source>To have a different title from the category name, enter it here.</source>
         <target state="final">分類名稱有不同的抬頭的話請在此輸入。</target>
-        <note>Line: 209</note>
+        <note>Line: 192</note>
       </trans-unit>
       <trans-unit id="0a7ca3ce7cde025a585cd02d7382b48f" approved="yes">
         <source>To have a different description than your category summary in search results page, write it here.</source>
         <target state="final">要在搜索結果頁中使用與分類摘要不同的說明，請在此處填寫。</target>
-        <note>Line: 243</note>
+        <note>Line: 226</note>
       </trans-unit>
       <trans-unit id="2aed1d6a09ee1c1b35ea452b67c01278" approved="yes">
         <source><![CDATA[Allowed characters: letters, numbers, underscores (_) and hyphens (-). To allow more characters, enable the 'Accented URL' feature in Shop Parameters > Traffic & SEO.]]></source>
         <target state="final"><![CDATA[允許的字符：字母、數字、下劃線 (_) 和連字符 (-)。要允許更多字符，請在商店參數 > 流量與 SEO 中啟用 "重音 URL" 功能。]]></target>
-        <note>Line: 266</note>
+        <note>Line: 249</note>
       </trans-unit>
       <trans-unit id="dbf7ca6ce67648b790f71e6ae2f5c8dd" approved="yes">
         <source>Select the customer groups which will have access to this category.</source>
         <target state="final">選擇將獲得訪問此分類權限的客戶群組。</target>
-        <note>Line: 299</note>
+        <note>Line: 282</note>
       </trans-unit>
       <trans-unit id="8e1c1bbb700b8d95a17d70fdd1069560" approved="yes">
         <source>[1]Permanent redirection (301)[/1] [2] Permanently display another category instead.</source>
         <target state="final">[1]永久重定向 (301)[/1] [2] 永久顯示另一個類別。</target>
-        <note>Line: 331</note>
+        <note>Line: 314</note>
       </trans-unit>
       <trans-unit id="71c2da230bf01a81d5764e62d9f6ce86" approved="yes">
         <source>[1]Temporary redirection (302)[/1] [2] Temporarily display another category instead.</source>
         <target state="final">[1]臨時重定向 (302)[/1] [2] 暫時顯示另一個類別。</target>
-        <note>Line: 332</note>
+        <note>Line: 315</note>
       </trans-unit>
     </body>
   </file>
@@ -287,20 +272,24 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Catalog/AttributeGroupType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
-      <trans-unit id="580de47d3bc3e99a0b6aba55066a983a" approved="yes">
-        <source>The way the attribute's values will be presented to the customers in the product's page.</source>
-        <target state="final">屬性的值在產品頁面向客戶顯示的方法。</target>
-        <note>Line: 101</note>
-      </trans-unit>
-      <trans-unit id="f2d1c5443636295e9720caac90ea8d93" approved="yes">
-        <source>Your internal name for this attribute.</source>
-        <target state="final">你為這個屬性的內部名稱。</target>
-        <note>Line: 78</note>
-      </trans-unit>
       <trans-unit id="b5e6921c2d093fbcb0088c9466ee9983" approved="yes">
         <source>The public name for this attribute, displayed to the customers.</source>
         <target state="final">你為這個屬性的公開名稱, 這名稱將會向顧客顯示。</target>
         <note>Line: 95</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Catalog/AttributeType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
+    <body>
+      <trans-unit id="f2d1c5443636295e9720caac90ea8d93" approved="yes">
+        <source>Your internal name for this attribute.</source>
+        <target state="final">你為這個屬性的內部名稱。</target>
+        <note>Line: 106</note>
+      </trans-unit>
+      <trans-unit id="580de47d3bc3e99a0b6aba55066a983a" approved="yes">
+        <source>The way the attribute's values will be presented to the customers in the product's page.</source>
+        <target state="final">屬性的值在產品頁面向客戶顯示的方法。</target>
+        <note>Line: 89</note>
       </trans-unit>
     </body>
   </file>
@@ -336,6 +325,30 @@
       </trans-unit>
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/BulkCombinationReferencesType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
+    <body>
+      <trans-unit id="c268a2747d5680c617c361cd505c4576" approved="yes">
+        <source>MPN is used internationally to identify the Manufacturer Part Number.</source>
+        <target state="final">MPN在國際上用於標識製造商零件編號。</target>
+        <note>Line: 62</note>
+      </trans-unit>
+      <trans-unit id="39bd7eba8aa2033579b5ae60bf0c774d" approved="yes">
+        <source>This type of product code is widely used in the United States, Canada, the United Kingdom, Australia, New Zealand and in other countries.</source>
+        <target state="final">這種類型的商品代碼被廣泛用於美國，加拿大，英國，澳大利亞，新西蘭和其他國家。</target>
+        <note>Line: 72</note>
+      </trans-unit>
+      <trans-unit id="0041a5c39ca241f883f4e0516a32d290" approved="yes">
+        <source>This type of product code is specific to Europe and Japan, but is widely used internationally. It is a superset of the UPC code: all products marked with an EAN will be accepted in North America.</source>
+        <target state="final">這種類型的商品代碼是特定於歐洲和日本，但國際上被廣泛使用。它是UPC碼的擴展碼：標有條形碼的所有商品將在北美被接受。</target>
+        <note>Line: 83</note>
+      </trans-unit>
+      <trans-unit id="633bf9436b67e19cd61db84ccab7fee2" approved="yes">
+        <source>ISBN is used internationally to identify books and their various editions.</source>
+        <target state="final">ISBN 在國際上通用，它用於辨別書和他們不同的版本。</target>
+        <note>Line: 94</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationFormType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
     <body>
       <trans-unit id="762d425093de542e7ab628b44ff68515" approved="yes">
@@ -356,30 +369,6 @@
         <source>This will be the displayed availability of the combination, if it's not in stock. If you don't enter anything, the base value set on the product will be used.</source>
         <target state="final">這將是組合的顯示可用性，如果它缺貨。如果您不輸入任何內容，將使用商品上設置的基本值。</target>
         <note>Line: 106</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Details/ReferencesType.php" source-language="en" target-language="zh-TW" datatype="plaintext">
-    <body>
-      <trans-unit id="c268a2747d5680c617c361cd505c4576" approved="yes">
-        <source>MPN is used internationally to identify the Manufacturer Part Number.</source>
-        <target state="final">MPN在國際上用於標識製造商零件編號。</target>
-        <note>Line: 64</note>
-      </trans-unit>
-      <trans-unit id="39bd7eba8aa2033579b5ae60bf0c774d" approved="yes">
-        <source>This type of product code is widely used in the United States, Canada, the United Kingdom, Australia, New Zealand and in other countries.</source>
-        <target state="final">這種類型的商品代碼被廣泛用於美國，加拿大，英國，澳大利亞，新西蘭和其他國家。</target>
-        <note>Line: 73</note>
-      </trans-unit>
-      <trans-unit id="0041a5c39ca241f883f4e0516a32d290" approved="yes">
-        <source>This type of product code is specific to Europe and Japan, but is widely used internationally. It is a superset of the UPC code: all products marked with an EAN will be accepted in North America.</source>
-        <target state="final">這種類型的商品代碼是特定於歐洲和日本，但國際上被廣泛使用。它是UPC碼的擴展碼：標有條形碼的所有商品將在北美被接受。</target>
-        <note>Line: 83</note>
-      </trans-unit>
-      <trans-unit id="633bf9436b67e19cd61db84ccab7fee2" approved="yes">
-        <source>ISBN is used internationally to identify books and their various editions.</source>
-        <target state="final">ISBN 在國際上通用，它用於辨別書和他們不同的版本。</target>
-        <note>Line: 93</note>
       </trans-unit>
     </body>
   </file>

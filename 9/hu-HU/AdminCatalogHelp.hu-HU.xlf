@@ -11,6 +11,11 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl" source-language="en" target-language="hu" datatype="plaintext">
     <body>
+      <trans-unit id="5b41d7dc2da5ea15baf3e2d62d820ac2" approved="yes">
+        <source>You can choose a minimum amount for the cart either with or without the taxes and shipping.</source>
+        <target state="final">Kiválaszthatsz minimum kosármennyiséget adóval és szállítással vagy nélkülük.</target>
+        <note>Line: 74</note>
+      </trans-unit>
       <trans-unit id="cfc9489072f04e808ce4e01948b7fef8" approved="yes">
         <source>The cart rule will be applied to the first "X" customers only.</source>
         <target state="final">A kosárszabály csak az első ´X´ vásárlóra lesz alkalmazva.</target>
@@ -20,11 +25,6 @@
         <source>A customer will only be able to use the cart rule "X" time(s).</source>
         <target state="final">A vásárló csak ´X´ alkalommal tudja a kosárszabályt felhasználni.</target>
         <note>Line: 128</note>
-      </trans-unit>
-      <trans-unit id="5b41d7dc2da5ea15baf3e2d62d820ac2" approved="yes">
-        <source>You can choose a minimum amount for the cart either with or without the taxes and shipping.</source>
-        <target state="final">Kiválaszthatsz minimum kosármennyiséget adóval és szállítással vagy nélkülük.</target>
-        <note>Line: 74</note>
       </trans-unit>
       <trans-unit id="3fde87028c9327c15017b46e6d84ac80" approved="yes">
         <source>Optional: The cart rule will be available to everyone if you leave this field blank.</source>
@@ -170,12 +170,12 @@
       </trans-unit>
     </body>
   </file>
-  <file original="controllers/admin/AdminShopGroupController.php" source-language="en" target-language="hu" datatype="plaintext">
+  <file original="controllers/admin/AdminShopController.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
       <trans-unit id="22cbf85c41427960736dc10cfec5faf4" approved="yes">
         <source>Choose a color with the color picker, or enter an HTML color (e.g. "lightblue", "#CC6600").</source>
         <target state="final">Válassz egy színt a színválasztóval, vagy adj meg egy HTML színt angolul (pl. "lightblue", "#CC6600")!</target>
-        <note>Line: 207</note>
+        <note>Line: 438</note>
       </trans-unit>
     </body>
   </file>
@@ -203,22 +203,22 @@
       <trans-unit id="65c29c631954b1e422c860c9353c30f0" approved="yes">
         <source>[1]No redirection (404), display error page[/1] [2] Do not redirect anywhere and display a 404 "Not Found" page.</source>
         <target state="final">[1]Nincs átirányítás (404), hibaoldal megjelenítése[/1] [2] Ne irányítson át sehova, és jelenítsen meg egy 404-es "Nem található" oldalt.</target>
-        <note>Line: 325</note>
+        <note>Line: 308</note>
       </trans-unit>
       <trans-unit id="511d9e488a706dcf908981d845e50a35" approved="yes">
         <source>[1]No redirection (410), display error page[/1] [2] Do not redirect anywhere and display a 410 "Gone" page.</source>
         <target state="final">[1]Nincs átirányítás (410), hibaoldal megjelenítése[/1] [2] Ne irányítson át sehova, és jelenítsen meg egy 410-es "Eltűnt" oldalt.</target>
-        <note>Line: 326</note>
+        <note>Line: 309</note>
       </trans-unit>
       <trans-unit id="88fe88f4033791ef6f38fbb7f7c58f04" approved="yes">
         <source>To have a different title from the category name, enter it here.</source>
         <target state="final">Ha a kategória nevétől eltérő címet adnál meg, ide írd be.</target>
-        <note>Line: 209</note>
+        <note>Line: 192</note>
       </trans-unit>
       <trans-unit id="0a7ca3ce7cde025a585cd02d7382b48f" approved="yes">
         <source>To have a different description than your category summary in search results page, write it here.</source>
         <target state="final">Ha a keresőmotorok találati oldalán a kategória összefoglalótól eltérő leírást szeretnél, azt ide írd be.</target>
-        <note>Line: 243</note>
+        <note>Line: 226</note>
       </trans-unit>
     </body>
   </file>
@@ -240,20 +240,24 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Catalog/AttributeGroupType.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
-      <trans-unit id="580de47d3bc3e99a0b6aba55066a983a" approved="yes">
-        <source>The way the attribute's values will be presented to the customers in the product's page.</source>
-        <target state="final">A variáció értékeinek a termék oldalán a vásárlók felé megjelenítendő mód.</target>
-        <note>Line: 101</note>
-      </trans-unit>
-      <trans-unit id="f2d1c5443636295e9720caac90ea8d93" approved="yes">
-        <source>Your internal name for this attribute.</source>
-        <target state="final">Belső elnevezésed a variációhoz.</target>
-        <note>Line: 78</note>
-      </trans-unit>
       <trans-unit id="b5e6921c2d093fbcb0088c9466ee9983" approved="yes">
         <source>The public name for this attribute, displayed to the customers.</source>
         <target state="final">A vásárlók számára megjelenített variáció publikus elnevezés.</target>
         <note>Line: 95</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Catalog/AttributeType.php" source-language="en" target-language="hu" datatype="plaintext">
+    <body>
+      <trans-unit id="f2d1c5443636295e9720caac90ea8d93" approved="yes">
+        <source>Your internal name for this attribute.</source>
+        <target state="final">Belső elnevezésed a variációhoz.</target>
+        <note>Line: 106</note>
+      </trans-unit>
+      <trans-unit id="580de47d3bc3e99a0b6aba55066a983a" approved="yes">
+        <source>The way the attribute's values will be presented to the customers in the product's page.</source>
+        <target state="final">A variáció értékeinek a termék oldalán a vásárlók felé megjelenítendő mód.</target>
+        <note>Line: 89</note>
       </trans-unit>
     </body>
   </file>
@@ -284,6 +288,30 @@
       </trans-unit>
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/BulkCombinationReferencesType.php" source-language="en" target-language="hu" datatype="plaintext">
+    <body>
+      <trans-unit id="c268a2747d5680c617c361cd505c4576" approved="yes">
+        <source>MPN is used internationally to identify the Manufacturer Part Number.</source>
+        <target state="final">Az MPN-t nemzetközileg használják a gyártói cikkszám (Manufacturer Part Number) azonosítására.</target>
+        <note>Line: 62</note>
+      </trans-unit>
+      <trans-unit id="39bd7eba8aa2033579b5ae60bf0c774d" approved="yes">
+        <source>This type of product code is widely used in the United States, Canada, the United Kingdom, Australia, New Zealand and in other countries.</source>
+        <target state="final">Ez a termékkód széleskörűen használt az Egyesült Államokban, Kanadában, Angliában, Ausztráliában, Új-Zélandon és más országokban.</target>
+        <note>Line: 72</note>
+      </trans-unit>
+      <trans-unit id="0041a5c39ca241f883f4e0516a32d290" approved="yes">
+        <source>This type of product code is specific to Europe and Japan, but is widely used internationally. It is a superset of the UPC code: all products marked with an EAN will be accepted in North America.</source>
+        <target state="final">Ez a termékkód típus jellemző Európára és Japánra, de nemzetközileg is széleskörűen használt. Ez egy szuper UPC kód: Észak-Amerika minden EAN számmal jelölt terméket befogad.</target>
+        <note>Line: 83</note>
+      </trans-unit>
+      <trans-unit id="633bf9436b67e19cd61db84ccab7fee2" approved="yes">
+        <source>ISBN is used internationally to identify books and their various editions.</source>
+        <target state="final">A könyvek és azok különböző kiadásainak azonosítása érdekében nemzetközi szintem az ISBN-t használjuk.</target>
+        <note>Line: 94</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationFormType.php" source-language="en" target-language="hu" datatype="plaintext">
     <body>
       <trans-unit id="762d425093de542e7ab628b44ff68515" approved="yes">
@@ -297,30 +325,6 @@
     <body>
       
       
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Details/ReferencesType.php" source-language="en" target-language="hu" datatype="plaintext">
-    <body>
-      <trans-unit id="c268a2747d5680c617c361cd505c4576" approved="yes">
-        <source>MPN is used internationally to identify the Manufacturer Part Number.</source>
-        <target state="final">Az MPN-t nemzetközileg használják a gyártói cikkszám (Manufacturer Part Number) azonosítására.</target>
-        <note>Line: 64</note>
-      </trans-unit>
-      <trans-unit id="39bd7eba8aa2033579b5ae60bf0c774d" approved="yes">
-        <source>This type of product code is widely used in the United States, Canada, the United Kingdom, Australia, New Zealand and in other countries.</source>
-        <target state="final">Ez a termékkód széleskörűen használt az Egyesült Államokban, Kanadában, Angliában, Ausztráliában, Új-Zélandon és más országokban.</target>
-        <note>Line: 73</note>
-      </trans-unit>
-      <trans-unit id="0041a5c39ca241f883f4e0516a32d290" approved="yes">
-        <source>This type of product code is specific to Europe and Japan, but is widely used internationally. It is a superset of the UPC code: all products marked with an EAN will be accepted in North America.</source>
-        <target state="final">Ez a termékkód típus jellemző Európára és Japánra, de nemzetközileg is széleskörűen használt. Ez egy szuper UPC kód: Észak-Amerika minden EAN számmal jelölt terméket befogad.</target>
-        <note>Line: 83</note>
-      </trans-unit>
-      <trans-unit id="633bf9436b67e19cd61db84ccab7fee2" approved="yes">
-        <source>ISBN is used internationally to identify books and their various editions.</source>
-        <target state="final">A könyvek és azok különböző kiadásainak azonosítása érdekében nemzetközi szintem az ISBN-t használjuk.</target>
-        <note>Line: 93</note>
-      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/FooterType.php" source-language="en" target-language="hu" datatype="plaintext">
