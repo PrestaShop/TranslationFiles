@@ -2,6 +2,16 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="Admin.Advparameters.Help.xlf" source-language="en" target-language="ca" datatype="plaintext">
     <body>
+      <trans-unit id="fe050086c8e957bb40299c4611b4bbc3" approved="yes">
+        <source>(Optional) Insert a cookie name to enable the debug mode only when this cookie is set.</source>
+        <target state="final">(Opcional) Inseriu un nom de galeta per a activar la modalitat de depuració sols quan aquesta galeta estigui configurada.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/DebugModeType.php [Line: 59]</note>
+      </trans-unit>
+      <trans-unit id="9bf478ab5066ec64ad324dc382ae9f4d" approved="yes">
+        <source>(Optional) Insert a value to enable the debug mode only when the cookie configured above is set to this value.</source>
+        <target state="final">(Opcional) Inseriu un valor per a activar la modalitat de depuració sols quan la galeta configurada anteriorment estigui configurada en aquest valor.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/DebugModeType.php [Line: 68]</note>
+      </trans-unit>
       <trans-unit id="10402f7c5b23f2156415aefabea831d2" approved="yes">
         <source>A DKIM selector usually looks like 12345.domain. It must match the name of your DNS record.</source>
         <target state="final">Un selector DKIM sol semblar 12345.domain. Ha de coincidir amb el nom del vostre registre DNS.</target>
@@ -11,6 +21,11 @@
         <source>A category root is where a category tree can begin. This is used with multistore.</source>
         <target state="final">La categoria arrel és on comença l'arbre de categories. Això s'utilitza amb Multibotiga</target>
         <note>File: src/Core/Import/EntityField/Provider/CategoryFieldsProvider.php [Line: 64]</note>
+      </trans-unit>
+      <trans-unit id="256977e036c3b9977b5ad2057ce25747" approved="yes">
+        <source>Admin API forces the use of HTTPS with TLSv1.2 or higher, you can disable this check for debug mode only.</source>
+        <target state="final">L'API administració obliga a fer servir HTTPS amb TLSv1.2 o superior, sols podeu desactivar aquesta comprovació per a la modalitat de depuració.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ConfigurationType.php [Line: 86]</note>
       </trans-unit>
       <trans-unit id="54cde7677b5a5624041c00c100224cbc" approved="yes">
         <source>All outdated sessions will be automatically cleared after the first connection attempt, but you can do it manually now if needed.</source>
@@ -52,6 +67,11 @@
         <target state="final">Abans de triar "Sí", verifiqueu que PHP no està configurat com a mòdul d'Apache al vostre servidor.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceConfigurationType.php [Line: 77]</note>
       </trans-unit>
+      <trans-unit id="a69a11ce9386d040c3f8190631a94405" approved="yes">
+        <source>Before enabling the Admin API, you must be sure to:</source>
+        <target state="final">Abans d'activar l'API administració, heu d'assegurar-vos de:</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ConfigurationType.php [Line: 50]</note>
+      </trans-unit>
       <trans-unit id="460e080fb0af5e1ca93a24dbf1e3da2f" approved="yes">
         <source>CCC allows you to reduce the loading time of your page. With these settings you will gain performance without even touching the code of your theme. Make sure, however, that your theme is compatible with PrestaShop 1.7+. Otherwise, CCC will cause problems.</source>
         <target state="final">CCC us permet de reduir el temps de càrrega de la vostra pàgina. Amb aquesta configuració guanyareu rendiment sense ni tan sols tocar el codi del vostre tema. Assegureu-vos, però, que el vostre tema sigui compatible amb PrestaShop 1.7+. En cas contrari, CCC causarà problemes.</target>
@@ -62,10 +82,20 @@
         <target state="final">Verifiqueu que la reescriptura d'URL està disponible en aquest servidor.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceConfigurationType.php [Line: 52]</note>
       </trans-unit>
+      <trans-unit id="baa8a433ad80dca4cd8228bed0f9830a" approved="yes">
+        <source>Check that the ps_apiressources module is installed and enabled.</source>
+        <target state="final">Comproveu que el mòdul ps_apiressources hagi estat instal·lat i activat.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ConfigurationType.php [Line: 55]</note>
+      </trans-unit>
       <trans-unit id="000552d95fb9e18ac08ca27098bf1d41" approved="yes">
         <source>Check that the six methods GET, POST, PUT, PATCH, DELETE and HEAD are supported by this server.</source>
         <target state="final">Comproveu que els sis mètodes GET, POST, PUT, PATCH, DELETE i HEAD són compatibles amb aquest servidor.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceConfigurationType.php [Line: 57]</note>
+      </trans-unit>
+      <trans-unit id="4fd3837cfea9a5bd4ff2e83318df2cd5" approved="yes">
+        <source>Check that your Admin API endpoint uses HTTPS protocol.</source>
+        <target state="final">Comproveu que el endpoint de l'API administració fa servir el protocol HTTPS.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ConfigurationType.php [Line: 70]</note>
       </trans-unit>
       <trans-unit id="0f81567617bb8ebc23f48e74d8ae8acf" approved="yes">
         <source>Check the IP address of the cookie in order to prevent your cookie from being stolen.</source>
@@ -157,6 +187,31 @@
         <target state="final">Suprimir les taules existents durant la importació.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Backup/BackupOptionsType.php [Line: 67]</note>
       </trans-unit>
+      <trans-unit id="2b04cfec31e54bfc9116278681c88c54" approved="yes">
+        <source>Enable / Disable the customer group page.</source>
+        <target state="final">Activar/desactivar la pàgina del grup de client.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 83]</note>
+      </trans-unit>
+      <trans-unit id="e3b0435c3f0d00986c9a3c36f2adc541" approved="yes">
+        <source>Enable / Disable the merchandise return page.</source>
+        <target state="final">Activar/desactivar la pàgina de retorn de mercaderies.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 89]</note>
+      </trans-unit>
+      <trans-unit id="ba40d461815161e3564db4c519f5ba32" approved="yes">
+        <source>Enable / Disable the module configuration page.</source>
+        <target state="final">Activar / Desactivar la pàgina de configuració del mòdul.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 92]</note>
+      </trans-unit>
+      <trans-unit id="15298e67b30b928fd857c6d2625debda" approved="yes">
+        <source>Enable / Disable the new front container.</source>
+        <target state="final">Activar / Desactivar el nou contenidor frontal.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 80]</note>
+      </trans-unit>
+      <trans-unit id="437ad32eb05dae211c16bff63c093e05" approved="yes">
+        <source>Enable / Disable the store page.</source>
+        <target state="final">Activar / Desactivar la pàgina de la botiga.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 86]</note>
+      </trans-unit>
       <trans-unit id="3d24e5589702a2ecfd1d65813b4a892e" approved="yes">
         <source>Enable DKIM, fill in the fields and give it a try. If no email is sent, check logs.</source>
         <target state="final">Activeu DKIM, empleneu els camps i proveu-lo. Si no s'envia cap correu electrònic, comproveu els registres de log.</target>
@@ -171,6 +226,11 @@
         <source>Enable or disable debug profiling. Debug profiling will display performance-related information under each page and help find performance bottlenecks in your store.</source>
         <target state="final">Activar o desactivar l'eina de depuració. L'eina de depuració mostrarà informació relacionada amb el rendiment a cada pàgina i ajudarà a trobar colls d'ampolla de rendiment a la vostra botiga.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/DebugModeType.php [Line: 76]</note>
+      </trans-unit>
+      <trans-unit id="54fc44d77b5d7cbb0234880a1931dad9" approved="yes">
+        <source>Enable or disable the Admin API when multistore is enabled.</source>
+        <target state="final">Activar o desactivar l'API administració quan hagi estat activada la multibotiga.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 33]</note>
       </trans-unit>
       <trans-unit id="a536359574c27ee963de828ff56241c7" approved="yes">
         <source>Enable or disable the migrated attribute page.</source>
@@ -246,6 +306,11 @@
         <source>Error</source>
         <target state="final">Error</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/LogsPage/Blocks/severity_levels.html.twig [Line: 46]</note>
+      </trans-unit>
+      <trans-unit id="e6eadec0336eb998ef6d6f4ef534fc41" approved="yes">
+        <source>Experimental API endpoints are disabled by default in prod environment, this configuration allows to forcefully enable them.</source>
+        <target state="final">Els endpoints de l'API experimental estan desactivats per defecte a l'entorn de producció, aquesta configuració permet d'activar-los de manera forçada.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 37]</note>
       </trans-unit>
       <trans-unit id="b8dc7c80939667637db7ac31ece215b9" approved="yes">
         <source>Fabulous</source>
@@ -471,6 +536,11 @@
         <target state="final">La botiga seleccionada ja té una URL principal. Per tant, si configureu aquesta com a URL principal, la URL principal més antiga es definirà com a URL normal.</target>
         <note>File: controllers/admin/AdminShopUrlController.php [Line: 208]</note>
       </trans-unit>
+      <trans-unit id="dde647098e1fb2236dc49df662679a7f" approved="yes">
+        <source>This FeatureFlag is forced by Env.</source>
+        <target state="final">Aquesta FeatureFlag és forçada per Env.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/FeatureFlag/FormTheme/feature_flag_form.html.twig [Line: 51]</note>
+      </trans-unit>
       <trans-unit id="767bd2cbfe41f0aa3f3e4ff306a75b89" approved="yes">
         <source>This feature allows you to identify modules that might be causing bugs on your store. Disable all non-built-in modules (not listed in composer.json). Then, re-enable each module one by one and check that everything works properly before moving on to the next one.</source>
         <target state="final">Aquesta característica us permet identificar mòduls que poden causar errors a la vostra botiga. Desactiveu tots els mòduls no integrats (no es mostren a composer.json). Tot seguit, torneu a activar cada mòdul un per un i comproveu que tot funcioni correctament abans de passar al següent.</target>
@@ -580,6 +650,11 @@
         <source>e.g. Blouse; red.jpg, blue.jpg, green.jpg; 129.90 </source>
         <target state="final">p.ex. Blouse; red.jpg, blue.jpg, green.jpg; 129.90 </target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Import/ImportType.php [Line: 88]</note>
+      </trans-unit>
+      <trans-unit id="69b2fa39bac2b03f7b5c8e63bf5c6e99" approved="yes">
+        <source>https://docs.prestashop-project.org/v.8-documentation/user-guide/configuring-shop/advanced-parameters/import</source>
+        <target state="final">https://docs.prestashop-project.org/v.8-documentation/user-guide/configuring-shop/advanced-parameters/import</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Blocks/import_panel.html.twig [Line: 41]</note>
       </trans-unit>
       <trans-unit id="9d23c31f2dcc1ace9296037f327563a4" approved="yes">
         <source>https://en.wikipedia.org/wiki/Comma-separated_values</source>
