@@ -187,6 +187,11 @@
         <target state="final">Module supprimé avec succès.</target>
         <note>File: src/PrestaShopBundle/Twig/Component/Legacy/LegacySessionAlert.php [Line: 77]</note>
       </trans-unit>
+      <trans-unit id="b71f3d411fd9169e714e2d48ab29b3ba" approved="yes">
+        <source>Module installed successfully: %s v%s</source>
+        <target state="final">Le module s'est installé avec succès: %s v%s</target>
+        <note>File: classes/module/Module.php [Line: 496]</note>
+      </trans-unit>
       <trans-unit id="f48a5ae14fa2b0c85442d1199a08b3b4" approved="yes">
         <source>Module installed!</source>
         <target state="final">Module installé !</target>
@@ -196,6 +201,16 @@
         <source>Module reset successfully.</source>
         <target state="final">Module réinitialisé avec succès.</target>
         <note>File: src/PrestaShopBundle/Twig/Component/Legacy/LegacySessionAlert.php [Line: 76]</note>
+      </trans-unit>
+      <trans-unit id="b7021f145b4df6d2e4392dd78bdeff3c" approved="yes">
+        <source>Module uninstalled successfully: %s v%s</source>
+        <target state="final">Le module s'est désinstallé avec succès: %s v%s</target>
+        <note>File: classes/module/Module.php [Line: 939]</note>
+      </trans-unit>
+      <trans-unit id="e53e6260211523fd8887fc175bbe57c0" approved="yes">
+        <source>Module upgraded successfully: %s to v%s</source>
+        <target state="final">Le module s'est mis à jour avec succès: %s to v%s</target>
+        <note>File: classes/module/Module.php [Line: 696]</note>
       </trans-unit>
       <trans-unit id="6832d3339f3238558d9e290f4ff36bb8" approved="yes">
         <source>Module(s) installed successfully.</source>
@@ -226,6 +241,11 @@
         <source>No template found for module</source>
         <target state="final">Aucun gabarit trouvé pour le module</target>
         <note>File: classes/module/Module.php [Line: 2339]</note>
+      </trans-unit>
+      <trans-unit id="f1ca8d16777736f2082eddbcb3911fc2" approved="yes">
+        <source>No update has been applied</source>
+        <target state="final">Aucune mise à jour n'a été appliquée</target>
+        <note>File: classes/module/Module.php [Line: 564]</note>
       </trans-unit>
       <trans-unit id="824e2fcb263ee94399a6a261ee1ec7c1" approved="yes">
         <source>Oops... Upload failed.</source>
@@ -286,6 +306,16 @@
         <source>The method %1$s in the class %2$s is already overridden.</source>
         <target state="final">La méthode %1$s dans la classe %2$s est déjà surchargée.</target>
         <note>File: classes/module/Module.php [Line: 3024]</note>
+      </trans-unit>
+      <trans-unit id="1813abdaaf1d6cb0a856a8e41cea2e44" approved="yes">
+        <source>The module "%modulename%" cannot be found</source>
+        <target state="final">Le module %modulename% est introuvable</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Improve/ModuleController.php [Line: 131]</note>
+      </trans-unit>
+      <trans-unit id="23358893750daf48d62120b4478b06b5" approved="yes">
+        <source>The module %module% is invalid and cannot be loaded.</source>
+        <target state="final">Le module %module% n'est pas valide et ne peut pas être chargé.</target>
+        <note>File: src/Core/Module/ModuleManager.php [Line: 326]</note>
       </trans-unit>
       <trans-unit id="83a812de8784135990c57d25d0f9b34b" approved="yes">
         <source>The module %module% must be installed first</source>
@@ -377,6 +407,11 @@
         <target state="final">Impossible d'installer ce module (le nom du module n'est pas valide).</target>
         <note>File: classes/module/Module.php [Line: 396]</note>
       </trans-unit>
+      <trans-unit id="51efcbeb7c19dd51c9fe8ed9c7216285" approved="yes">
+        <source>Unfortunately, the module %module% did not return additional details.</source>
+        <target state="final">Malheureusement, le module %module% n'a pas fourni plus de détails.</target>
+        <note>File: src/Core/Module/ModuleManager.php [Line: 317]</note>
+      </trans-unit>
       <trans-unit id="8095c31813f8e77d292bf6bec964169b" approved="yes">
         <source>Unknown archive type.</source>
         <target state="final">Type d'archive inconnu</target>
@@ -387,10 +422,20 @@
         <target state="final">Action inconnue. Doit être l'une de ces valeurs : %actions%</target>
         <note>File: src/PrestaShopBundle/Command/ModuleCommand.php [Line: 113]</note>
       </trans-unit>
+      <trans-unit id="139e603a7f90e7745502f371c0f31d24" approved="yes">
+        <source>Updated from: %s to %s</source>
+        <target state="final">Mise à jour de %s à %s</target>
+        <note>File: classes/module/Module.php [Line: 566]</note>
+      </trans-unit>
       <trans-unit id="e92af04f3580fee9164214abd4b621a4" approved="yes">
         <source>Validation of configuration details failed:</source>
         <target state="final">La validation des paramètres de configuration a échoué : </target>
         <note>File: src/PrestaShopBundle/Command/ModuleCommand.php [Line: 146]</note>
+      </trans-unit>
+      <trans-unit id="d2a7540602512845be7664d4acb23f2c" approved="yes">
+        <source>We strongly advise you to update the modules on maintenance mode to avoid any cache issues.</source>
+        <target state="final">Nous vous recommandons fortement de mettre à jour les modules en mode maintenance pour éviter tout problème de cache.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Module/common.html.twig [Line: 44]</note>
       </trans-unit>
       <trans-unit id="a7f0cf21776c1a6ed951c58620b4507a" approved="yes">
         <source>You are about to [1] the following modules:</source>
@@ -436,6 +481,11 @@
         <source>You are not allowed to uninstall the module %module%.</source>
         <target state="final">Vous n'êtes pas autorisé à désinstaller le module %module%.</target>
         <note>File: src/Core/Module/ModuleManager.php [Line: 152]</note>
+      </trans-unit>
+      <trans-unit id="b09ef7cfc0d14e9cda28259db10e5b67" approved="yes">
+        <source>You are not allowed to update the module %module%.</source>
+        <target state="final">Vous n'êtes pas autorisé à mettre à jour le module %module%.</target>
+        <note>File: src/Core/Module/ModuleManager.php [Line: 199]</note>
       </trans-unit>
       <trans-unit id="634ec4fb81df959627996a95fa0e799c" approved="yes">
         <source>You need to select at least one module to use the bulk action.</source>

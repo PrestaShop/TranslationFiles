@@ -2,6 +2,16 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="Admin.Advparameters.Help.xlf" source-language="en" target-language="fr-CA" datatype="plaintext">
     <body>
+      <trans-unit id="fe050086c8e957bb40299c4611b4bbc3" approved="yes">
+        <source>(Optional) Insert a cookie name to enable the debug mode only when this cookie is set.</source>
+        <target state="final">(Facultatif) Insérer un nom de cookie pour activer le mode debug uniquement lorsque ce cookie est défini.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/DebugModeType.php [Line: 59]</note>
+      </trans-unit>
+      <trans-unit id="9bf478ab5066ec64ad324dc382ae9f4d" approved="yes">
+        <source>(Optional) Insert a value to enable the debug mode only when the cookie configured above is set to this value.</source>
+        <target state="final">(Facultatif) Insérer une valeur pour activer le mode debug uniquement lorsque le cookie configuré ci-dessus est défini sur cette valeur.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/DebugModeType.php [Line: 68]</note>
+      </trans-unit>
       <trans-unit id="10402f7c5b23f2156415aefabea831d2" approved="yes">
         <source>A DKIM selector usually looks like 12345.domain. It must match the name of your DNS record.</source>
         <target state="final">Un sélecteur DKIM ressemble généralement à 12345.domain. Il doit correspondre au nom de votre enregistrement DNS.</target>
@@ -11,6 +21,11 @@
         <source>A category root is where a category tree can begin. This is used with multistore.</source>
         <target state="final">Une catégorie racine est une catégorie qui peut servir de point de départ à un arbre de catégories. C'est utilisé en multiboutique.</target>
         <note>File: src/Core/Import/EntityField/Provider/CategoryFieldsProvider.php [Line: 64]</note>
+      </trans-unit>
+      <trans-unit id="256977e036c3b9977b5ad2057ce25747" approved="yes">
+        <source>Admin API forces the use of HTTPS with TLSv1.2 or higher, you can disable this check for debug mode only.</source>
+        <target state="final">L'API d'administration impose l'utilisation de HTTPS avec TLSv1.2 ou supérieur, vous pouvez désactiver cette vérification pour le mode debug uniquement.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ConfigurationType.php [Line: 86]</note>
       </trans-unit>
       <trans-unit id="54cde7677b5a5624041c00c100224cbc" approved="yes">
         <source>All outdated sessions will be automatically cleared after the first connection attempt, but you can do it manually now if needed.</source>
@@ -52,6 +67,11 @@
         <target state="final">Si vous choisissez "Oui", assurez-vous que PHP n'est pas configuré en tant que module Apache sur votre serveur.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceConfigurationType.php [Line: 77]</note>
       </trans-unit>
+      <trans-unit id="a69a11ce9386d040c3f8190631a94405" approved="yes">
+        <source>Before enabling the Admin API, you must be sure to:</source>
+        <target state="final">Avant d'activer l'API Admin, vous devez vous assurer que :</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ConfigurationType.php [Line: 50]</note>
+      </trans-unit>
       <trans-unit id="460e080fb0af5e1ca93a24dbf1e3da2f" approved="yes">
         <source>CCC allows you to reduce the loading time of your page. With these settings you will gain performance without even touching the code of your theme. Make sure, however, that your theme is compatible with PrestaShop 1.7+. Otherwise, CCC will cause problems.</source>
         <target state="final">CCC vous permet de réduire le temps de chargement de vos pages. Avec ces paramètres, vous allez gagner en performance sans modifier le code de votre thème. Cependant, vérifiez bien que votre thème est compatible avec PrestaShop 1.7+, sinon, CCC pourrait causer des problèmes.</target>
@@ -62,10 +82,20 @@
         <target state="final">la réécriture d'URL est activée sur le serveur.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceConfigurationType.php [Line: 52]</note>
       </trans-unit>
+      <trans-unit id="baa8a433ad80dca4cd8228bed0f9830a" approved="yes">
+        <source>Check that the ps_apiressources module is installed and enabled.</source>
+        <target state="final">Vérifiez que le module ps_apiressources est installé et activé.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ConfigurationType.php [Line: 55]</note>
+      </trans-unit>
       <trans-unit id="000552d95fb9e18ac08ca27098bf1d41" approved="yes">
         <source>Check that the six methods GET, POST, PUT, PATCH, DELETE and HEAD are supported by this server.</source>
         <target state="final">Vérifiez que les six méthodes GET, POST, PUT, PATCH, DELETE et HEAD sont prises en charge par ce serveur.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceConfigurationType.php [Line: 57]</note>
+      </trans-unit>
+      <trans-unit id="4fd3837cfea9a5bd4ff2e83318df2cd5" approved="yes">
+        <source>Check that your Admin API endpoint uses HTTPS protocol.</source>
+        <target state="final">Vérifiez que l'endpoint de votre API d'administration utilise le protocole HTTPS.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ConfigurationType.php [Line: 70]</note>
       </trans-unit>
       <trans-unit id="0f81567617bb8ebc23f48e74d8ae8acf" approved="yes">
         <source>Check the IP address of the cookie in order to prevent your cookie from being stolen.</source>
@@ -157,6 +187,31 @@
         <target state="final">Supprimer les tables existantes dans la base de données lors de l'import.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Backup/BackupOptionsType.php [Line: 67]</note>
       </trans-unit>
+      <trans-unit id="2b04cfec31e54bfc9116278681c88c54" approved="yes">
+        <source>Enable / Disable the customer group page.</source>
+        <target state="final">Activer / Désactiver la page de groupe de clients.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 83]</note>
+      </trans-unit>
+      <trans-unit id="e3b0435c3f0d00986c9a3c36f2adc541" approved="yes">
+        <source>Enable / Disable the merchandise return page.</source>
+        <target state="final">Activer / Désactiver la page de retour de marchandises.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 89]</note>
+      </trans-unit>
+      <trans-unit id="ba40d461815161e3564db4c519f5ba32" approved="yes">
+        <source>Enable / Disable the module configuration page.</source>
+        <target state="final">Activer / Désactiver la page de configuration des modules.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 92]</note>
+      </trans-unit>
+      <trans-unit id="15298e67b30b928fd857c6d2625debda" approved="yes">
+        <source>Enable / Disable the new front container.</source>
+        <target state="final">Activer / Désactiver le nouveau container front.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 80]</note>
+      </trans-unit>
+      <trans-unit id="437ad32eb05dae211c16bff63c093e05" approved="yes">
+        <source>Enable / Disable the store page.</source>
+        <target state="final">Activer / Désactiver la page de la boutique.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 86]</note>
+      </trans-unit>
       <trans-unit id="3d24e5589702a2ecfd1d65813b4a892e" approved="yes">
         <source>Enable DKIM, fill in the fields and give it a try. If no email is sent, check logs.</source>
         <target state="final">Activez DKIM, remplissez les champs et faites un essai. Si aucun e-mail n'est envoyé, vérifiez les logs.</target>
@@ -171,6 +226,11 @@
         <source>Enable or disable debug profiling. Debug profiling will display performance-related information under each page and help find performance bottlenecks in your store.</source>
         <target state="final">Activer ou désactiver l'outil de debug. Celui-ci affichera des informations liées à la performance sous chaque page et vous aidera à trouver d'éventuels problèmes de performance sur votre boutique.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/DebugModeType.php [Line: 76]</note>
+      </trans-unit>
+      <trans-unit id="54fc44d77b5d7cbb0234880a1931dad9" approved="yes">
+        <source>Enable or disable the Admin API when multistore is enabled.</source>
+        <target state="final">Activer ou désactiver l'API d'administration lorsque le mode multiboutique est activé.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 33]</note>
       </trans-unit>
       <trans-unit id="a536359574c27ee963de828ff56241c7" approved="yes">
         <source>Enable or disable the migrated attribute page.</source>
@@ -247,6 +307,11 @@
         <target state="final">Erreur</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/LogsPage/Blocks/severity_levels.html.twig [Line: 46]</note>
       </trans-unit>
+      <trans-unit id="e6eadec0336eb998ef6d6f4ef534fc41" approved="yes">
+        <source>Experimental API endpoints are disabled by default in prod environment, this configuration allows to forcefully enable them.</source>
+        <target state="final">Les endpoints de l'API expérimentale sont désactivés par défaut dans l'environnement de production, cette configuration permet de les activer de force.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 37]</note>
+      </trans-unit>
       <trans-unit id="b8dc7c80939667637db7ac31ece215b9" approved="yes">
         <source>Fabulous</source>
         <target state="final">Formidable</target>
@@ -315,6 +380,11 @@
         <source>If your backup file exceeds this limit, contact your hosting provider for assistance. </source>
         <target state="final">Si le poids de votre fichier de sauvegarde est trop important, contactez votre hébergeur. </target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Backup/Blocks/backup_info.html.twig [Line: 40]</note>
+      </trans-unit>
+      <trans-unit id="d2beb087630a099f2fada85e7f2f19fb" approved="yes">
+        <source>Ignore this field if you don't use the Multistore tool. If you leave this field empty, the default store will be used.</source>
+        <target state="final">Ignorez ce champ si vous n'utilisez pas la fonctionnalité multiboutique. Si vous laissez ce champ vide, la boutique par défaut sera utilisée.</target>
+        <note>File: src/Core/Import/EntityField/Provider/SupplierFieldsProvider.php [Line: 67]</note>
       </trans-unit>
       <trans-unit id="b80c52e7f679fba3c2837b42705fe779" approved="yes">
         <source>Informative only</source>
@@ -466,6 +536,11 @@
         <target state="final">La boutique sélectionnée a déjà une URL principale. De fait, si vous choisissez de faire cette URL l'URL principale, l'ancienne URL principale sera transformée en URL normale.</target>
         <note>File: controllers/admin/AdminShopUrlController.php [Line: 208]</note>
       </trans-unit>
+      <trans-unit id="dde647098e1fb2236dc49df662679a7f" approved="yes">
+        <source>This FeatureFlag is forced by Env.</source>
+        <target state="final">Ce FeatureFlag est forcé par Env.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/FeatureFlag/FormTheme/feature_flag_form.html.twig [Line: 51]</note>
+      </trans-unit>
       <trans-unit id="767bd2cbfe41f0aa3f3e4ff306a75b89" approved="yes">
         <source>This feature allows you to identify modules that might be causing bugs on your store. Disable all non-built-in modules (not listed in composer.json). Then, re-enable each module one by one and check that everything works properly before moving on to the next one.</source>
         <target state="final">Cette fonctionnalité vous permet d'identifier les modules qui pourraient causer des bugs sur votre boutique. Désactivez tous les modules non intégrés (non listés dans composer.json). Puis, ré-activez chaque module un par un en vérifiant que tout fonctionne correctement avant de passer au suivant.</target>
@@ -575,6 +650,11 @@
         <source>e.g. Blouse; red.jpg, blue.jpg, green.jpg; 129.90 </source>
         <target state="final">ex : Chemisier; rouge.jpg, bleu.jpg, vert.jpg; 129.90 </target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Import/ImportType.php [Line: 88]</note>
+      </trans-unit>
+      <trans-unit id="69b2fa39bac2b03f7b5c8e63bf5c6e99" approved="yes">
+        <source>https://docs.prestashop-project.org/v.8-documentation/user-guide/configuring-shop/advanced-parameters/import</source>
+        <target state="final">https://docs.prestashop-project.org/v.8-documentation/user-guide/configuring-shop/advanced-parameters/import</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Blocks/import_panel.html.twig [Line: 41]</note>
       </trans-unit>
       <trans-unit id="9d23c31f2dcc1ace9296037f327563a4" approved="yes">
         <source>https://en.wikipedia.org/wiki/Comma-separated_values</source>
