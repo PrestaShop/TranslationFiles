@@ -27,6 +27,11 @@
         <target state="final">Une catégorie vide est une catégorie qui n'a pas de produit lui étant associé. Une catégorie vide peut cependant contenir certains produits par le biais de ses sous-catégories.</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Monitoring/index.html.twig [Line: 39]</note>
       </trans-unit>
+      <trans-unit id="7fd504935caa035aba87030e2a33ab16" approved="yes">
+        <source>By default, the closest active parent category will be used if no category is selected.</source>
+        <target state="final">Par défaut, la catégorie parente active la plus proche sera utilisée si aucune catégorie n'est sélectionnée.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Category/SEO/RedirectOptionType.php [Line: 94]</note>
+      </trans-unit>
       <trans-unit id="1b9648d6a32243bb7003ae8046dc7c1a" approved="yes">
         <source>By default, the main category will be used if no category is selected.</source>
         <target state="final">La catégorie principale sera utilisée par défaut si aucune catégorie n'est sélectionnée.</target>
@@ -36,6 +41,11 @@
         <source>Cart rules are applied by priority. A cart rule with a priority of "1" will be processed before a cart rule with a priority of "2".</source>
         <target state="final">Les règles s'appliquent au panier par ordre de priorité. Une règle avec une priorité de 1 sera exécutée avant une règle avec une priorité de 2.</target>
         <note>File: admin-dev/themes/default/template/controllers/cart_rules/informations.tpl [Line: 130]</note>
+      </trans-unit>
+      <trans-unit id="fc3c1f74cff1fd4018a9b337ad53cdd2" approved="yes">
+        <source>Category image that is usually displayed on the category page next to description, depending on your theme.</source>
+        <target state="final">Image de la catégorie qui est généralement affichée sur la page de la catégorie à côté de la description, en fonction de votre thème.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Catalog/Category/AbstractCategoryType.php [Line: 164]</note>
       </trans-unit>
       <trans-unit id="b9fe1289d4d385c85d61f262aea8de40" approved="yes">
         <source>Caution! If you leave this field blank, the rule will automatically be applied to benefiting customers.</source>
@@ -167,6 +177,11 @@
         <target state="final">MPN est utilisé au niveau international pour identifier la référence fabriquant du produit.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Details/ReferencesType.php [Line: 64]</note>
       </trans-unit>
+      <trans-unit id="c35f3106689f99788eed211e0d6fbc20" approved="yes">
+        <source>Miniature image that is used when displaying subcategories. Could be also used in menus and other places, depending on your theme.</source>
+        <target state="final">Image miniature utilisée pour afficher les sous-catégories. Elle peut également être utilisée dans les menus et à d'autres endroits, en fonction de votre thème.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Catalog/Category/AbstractCategoryType.php [Line: 171]</note>
+      </trans-unit>
       <trans-unit id="5f4efe2735311bfd3e5784705fb0110f" approved="yes">
         <source>Number of days this file can be accessed by customers. Set to zero for unlimited access.</source>
         <target state="final">Nombre de jours durant lesquels le fichier sera accessible par les clients (saisir 0 pour un accès illimité).</target>
@@ -272,6 +287,11 @@
         <target state="final">Sortez-moi d'ici !</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Security/compromised.html.twig [Line: 51]</note>
       </trans-unit>
+      <trans-unit id="4e37efbe3f97a5a374222ef2f59108cf" approved="yes">
+        <source>Text that is usually displayed after the product list on category page. It's a good place to put longer SEO related content.</source>
+        <target state="final">Texte qui s'affiche généralement après la liste des produits sur la page des catégories. C'est un bon endroit pour placer du contenu plus long lié au référencement.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Catalog/Category/AbstractCategoryType.php [Line: 146]</note>
+      </trans-unit>
       <trans-unit id="cfc9489072f04e808ce4e01948b7fef8" approved="yes">
         <source>The cart rule will be applied to the first "X" customers only.</source>
         <target state="final">La règle ne sera appliquée qu'aux X premiers clients uniquement.</target>
@@ -342,10 +362,40 @@
         <target state="final">Le nom sera affiché dans le récapitulatif du panier du client ainsi que sur la facture.</target>
         <note>File: admin-dev/themes/default/template/controllers/cart_rules/informations.tpl [Line: 28]</note>
       </trans-unit>
+      <trans-unit id="e997b584e38bc9e3a34f92c46ef737cf" approved="yes">
+        <source>This will be the default displayed availability of a product, if it's not in stock and backordering it is denied. If you don't enter anything, nothing will be displayed. Further customization is possible for each product.</source>
+        <target state="final">Il s'agit de la disponibilité affichée par défaut d'un produit, s'il n'est pas en stock et que la commande différée est refusée. Si vous n'entrez rien, rien ne sera affiché. Il est possible de personnaliser davantage chaque produit.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/StockType.php [Line: 158]</note>
+      </trans-unit>
+      <trans-unit id="2b39a1e77e6bd2f3c0afe07f105c7f5a" approved="yes">
+        <source>This will be the default displayed availability of a product, if it's not in stock and backordering it is enabled. If you don't enter anything, nothing will be displayed. Further customization is possible for each product.</source>
+        <target state="final">Il s'agit de la disponibilité affichée par défaut d'un produit, s'il n'est pas en stock et si la commande différée est activée. Si vous n'entrez rien, rien ne sera affiché. Il est possible de personnaliser davantage chaque produit.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/StockType.php [Line: 143]</note>
+      </trans-unit>
       <trans-unit id="dbb5df5ca2112e0125b866522e062df5" approved="yes">
         <source>This will be the default displayed availability of a product, if there is at least 1 in stock. If you don't enter anything, nothing will be displayed. Further customization is possible for each product.</source>
         <target state="final">Il s'agit de la disponibilité affichée par défaut d'un produit, s'il y en a au moins un en stock. Si vous n'entrez rien, rien ne sera affiché. Il est possible de personnaliser davantage chaque produit.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/StockType.php [Line: 128]</note>
+      </trans-unit>
+      <trans-unit id="4dae4d27021765208ae8fba5a45a9fde" approved="yes">
+        <source>This will be the displayed availability of the combination, if it's not in stock. If you don't enter anything, the base value set on the product will be used.</source>
+        <target state="final">Il s'agit de la disponibilité affichée de la combinaison, si elle n'est pas en stock. Si vous n'entrez rien, c'est la valeur de base définie pour le produit qui sera utilisée.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationStockType.php [Line: 106]</note>
+      </trans-unit>
+      <trans-unit id="21ff177c36a5c41ca7d9ede46ceb5ac4" approved="yes">
+        <source>This will be the displayed availability of the combination, if there is at least 1 in stock. If you don't enter anything, the base value set on the product will be used.</source>
+        <target state="final">Il s'agit de la disponibilité affichée de la combinaison, s'il y en a au moins une en stock. Si vous n'entrez rien, c'est la valeur de base définie pour le produit qui sera utilisée.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationStockType.php [Line: 83]</note>
+      </trans-unit>
+      <trans-unit id="84d1664447cfb64f77eb58f8ecc7ab42" approved="yes">
+        <source><![CDATA[This will be the displayed availability of the product, if it's not in stock. If you don't enter anything, value from [1]Shop Parameters > Product Settings[/1] will be used.]]></source>
+        <target state="final"><![CDATA[Il s'agit de la disponibilité affichée du produit, s'il n'est pas en stock. Si vous n'entrez rien, la valeur de [1]Paramètres de la boutique > Paramètres des produits[/1] sera utilisée.]]></target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Stock/AvailabilityType.php [Line: 138]</note>
+      </trans-unit>
+      <trans-unit id="2a06390040d49692fb8fa7584e1ea111" approved="yes">
+        <source><![CDATA[This will be the displayed availability of the product, if there is at least 1 in stock. If you don't enter anything, value from [1]Shop Parameters > Product Settings[/1] will be used.]]></source>
+        <target state="final"><![CDATA[Il s'agit de la disponibilité affichée du produit, s'il y en a au moins un en stock. Si vous n'entrez rien, la valeur de [1]Paramètres de la boutique > Paramètres des produits[/1] sera utilisée.]]></target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Stock/AvailabilityType.php [Line: 109]</note>
       </trans-unit>
       <trans-unit id="d87fdec724af7ed0338f394852787788" approved="yes">
         <source>To add combinations, you first need to create proper attributes and values in [1]%attributes_and_features_label%[/1].</source>
