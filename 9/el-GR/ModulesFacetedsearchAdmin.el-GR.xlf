@@ -132,10 +132,25 @@
         <target state="final">Αναπτυσσόμενη λίστα</target>
         <note>File: modules/ps_facetedsearch/views/templates/admin/view.tpl [Line: 201]</note>
       </trans-unit>
+      <trans-unit id="6a84ae1d689983a9cc5fb6676eb46279" approved="yes">
+        <source>Effective only if category pages are selected above.</source>
+        <target state="final">Επιδρά μόνο αν είναι επιλεγμένες οι σελίδες κατηγορίων από επάνω.</target>
+        <note>File: modules/ps_facetedsearch/views/templates/admin/_partials/categories-tree.tpl [Line: 29]</note>
+      </trans-unit>
       <trans-unit id="2b2aaeeb1d226ef5566bfb781c66ffbd" approved="yes">
         <source>Enable cache system</source>
         <target state="final">Ενεργοποίηση συστήματος κρυφής μνήμης</target>
         <note>File: modules/ps_facetedsearch/views/templates/admin/manage.tpl [Line: 115]</note>
+      </trans-unit>
+      <trans-unit id="2829d57ed813ec86c807b7dde4fe140c" approved="yes">
+        <source>Enable or disable display of matching products after filters. Disabling this won't bring any performance benefit, because matching products need to be calculated anyway.</source>
+        <target state="final">Ενεργοποιήστε ή απενεργοποιήστε την εμφάνιση προϊόντων που ταιριάζουν μετά τα φίλτρα. Απενεργοποιώντας το δεν θα βελτιώσει την απόδοσή, καθόσον τα προϊόντα που ταιριάζουν θα πρέπει να υπολογιστούν.</target>
+        <note>File: modules/ps_facetedsearch/views/templates/admin/manage.tpl [Line: 153]</note>
+      </trans-unit>
+      <trans-unit id="86c8e8e4e43a8e6d27907e9cde0b3a71" approved="yes">
+        <source>Enable this, if you want to display products from subcategories, even if they are not specifically assigned to the currently browsed category.</source>
+        <target state="final">Ενεργοποιήστε το, αν θέλετε τα εμφανιζόμενα προϊόντα από τις υποκατηγορίας, ακόμα και αν δεν έχουν οριστεί συγκεκριμένα στην παρούσα κατηγορία που εμφανίζεται.</target>
+        <note>File: modules/ps_facetedsearch/views/templates/admin/manage.tpl [Line: 175]</note>
       </trans-unit>
       <trans-unit id="d67b7992a94709663ce72ce9c1606597" approved="yes">
         <source>Faceted search</source>
@@ -322,6 +337,11 @@
         <target state="final">Φίλτρο κατάστασης προϊόντων</target>
         <note>File: modules/ps_facetedsearch/views/templates/admin/add.tpl [Line: 156]</note>
       </trans-unit>
+      <trans-unit id="4e0e25a7f0ffc6adce58b7fd3412cd35" approved="yes">
+        <source>Product extras filter</source>
+        <target state="final">Επιπλέον φίλτρα προϊόντος</target>
+        <note>File: modules/ps_facetedsearch/views/templates/admin/add.tpl [Line: 127]</note>
+      </trans-unit>
       <trans-unit id="0649bb392812f99ff6b0e2ba160675fa" approved="yes">
         <source>Product price filter (slider)</source>
         <target state="final">Φίλτρο τιμής προϊόντος (slider)</target>
@@ -412,6 +432,16 @@
         <target state="final">Αυτή η ομάδα θα επιτρέψει τον χρήστη να διαλέξει ένα χρώμα</target>
         <note>File: modules/ps_facetedsearch/views/templates/admin/view.tpl [Line: 129]</note>
       </trans-unit>
+      <trans-unit id="5466dc891d678f772cc36162753e92fa" approved="yes">
+        <source>This option caches filtering blocks, so the module does not have to query for matching products all the time. The cache is invalidated on every modification on your store. If you encounter some incosistencies, disable this cache or make sure to flush it if needed.</source>
+        <target state="final">Αυτή η επιλογή αποθηκεύει προσωρινά τα μπλοκ φιλτραρίσματος, ώστε to πρόσθετο δεν χρειάζεται να υποβάλλει συνεχώς ερωτήματα για αντίστοιχα προϊόντα. Η προσωρινή μνήμη ακυρώνεται με κάθε τροποποίηση στο κατάστημά σας. Εάν αντιμετωπίσετε κάποιες ασυνέπειες, απενεργοποιήστε αυτήν την προσωρινή μνήμη ή φροντίστε να την εκκαθαρίσετε, εάν χρειάζεται.</target>
+        <note>File: modules/ps_facetedsearch/views/templates/admin/manage.tpl [Line: 131]</note>
+      </trans-unit>
+      <trans-unit id="917b770ceaad28f806736a648ff6e0d6" approved="yes">
+        <source>This option controls the behavior of category filter block - how deep children of the currently browsed category you want to display? The default value is 1 - only the direct children. Use 0 for unlimited depth.</source>
+        <target state="final">Αυτή η επιλογή ελέγχει τη συμπεριφορά του μπλοκ φίλτρου κατηγορίας - πόσο βαθιά θυγατρικά στοιχεία της κατηγορίας που περιηγείστε αυτήν τη στιγμή θέλετε να εμφανίσετε; Η προεπιλεγμένη τιμή είναι 1 - μόνο τα άμεσα θυγατρικά στοιχεία. Χρησιμοποιήστε 0 για απεριόριστο βάθος.</target>
+        <note>File: modules/ps_facetedsearch/views/templates/admin/manage.tpl [Line: 209]</note>
+      </trans-unit>
       <trans-unit id="29da3cb8b65298a3e88f5041e9fb9761" approved="yes">
         <source>Total filters: %s</source>
         <target state="final">Συνολικά φίλτρα: %s</target>
@@ -461,6 +491,11 @@
         <source>Warning! Your hosting provider is using the Suhosin patch for PHP, which limits the maximum number of fields allowed in a form:</source>
         <target state="final">Προειδοποίηση, πάροχος σας χρησιμοποιει το επίθεμα suhosin για το PHP, το οποίο περιορίζει τον μέγιστο αριθμό των πεδίων να δημοσιεύσετε σε μορφή:</target>
         <note>File: modules/ps_facetedsearch/views/templates/admin/_partials/messages.tpl [Line: 31]</note>
+      </trans-unit>
+      <trans-unit id="7ee2f2da463bebd7507e3e0a39de6e99" approved="yes">
+        <source>We recommend to set regular cron tasks to manage the indexes and cache on daily/weekly basis.</source>
+        <target state="final">Προτείνουμε να ορίσετε συχνά cron εργασίες για να διαχειριστείτε την ταξινόμηση και την κρυφή μνήμη σε ημερήσια/εβδομαδιαία βάση.</target>
+        <note>File: modules/ps_facetedsearch/views/templates/admin/manage.tpl [Line: 36]</note>
       </trans-unit>
       <trans-unit id="e919c0dcca631198a18993158182c96b" approved="yes">
         <source>When the Faceted Search module is enabled, you can get more detailed URLs by choosing the word that best represent this attribute. By default, PrestaShop uses the attribute's name, but you can change that setting using this field.</source>
@@ -516,6 +551,11 @@
         <source>You must select at least one filter</source>
         <target state="final">Πρέπει να επιλέξετε τουλάχιστον ένα φίλτρο</target>
         <note>File: modules/ps_facetedsearch/views/templates/admin/_partials/footer.tpl [Line: 31]</note>
+      </trans-unit>
+      <trans-unit id="de9bebfdc6b9fc0ea050a478f27cbb92" approved="yes">
+        <source>You must select at least one page</source>
+        <target state="final">Πρέπει να επιλέξετε τουλάχιστον μια σελίδα</target>
+        <note>File: modules/ps_facetedsearch/views/templates/admin/manage.tpl [Line: 326]</note>
       </trans-unit>
       <trans-unit id="9461ef0a8f8a2adbb3fa8ea0fda9949d" approved="yes">
         <source>You must select at least one page.</source>
