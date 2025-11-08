@@ -2,6 +2,16 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="Admin.Advparameters.Help.xlf" source-language="en" target-language="el" datatype="plaintext">
     <body>
+      <trans-unit id="fe050086c8e957bb40299c4611b4bbc3" approved="yes">
+        <source>(Optional) Insert a cookie name to enable the debug mode only when this cookie is set.</source>
+        <target state="final">(Προαιρετικά) Εισαγάγετε ένα όνομα cookie για να ενεργοποιήσετε τη λειτουργία εντοπισμού σφαλμάτων μόνο όταν έχει οριστεί αυτό το cookie.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/DebugModeType.php [Line: 59]</note>
+      </trans-unit>
+      <trans-unit id="9bf478ab5066ec64ad324dc382ae9f4d" approved="yes">
+        <source>(Optional) Insert a value to enable the debug mode only when the cookie configured above is set to this value.</source>
+        <target state="final">(Προαιρετικά) Εισαγάγετε μια τιμή για να ενεργοποιήσετε τη λειτουργία εντοπισμού σφαλμάτων μόνο όταν το cookie που έχει ρυθμιστεί παραπάνω έχει οριστεί σε αυτήν την τιμή.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/DebugModeType.php [Line: 68]</note>
+      </trans-unit>
       <trans-unit id="10402f7c5b23f2156415aefabea831d2" approved="yes">
         <source>A DKIM selector usually looks like 12345.domain. It must match the name of your DNS record.</source>
         <target state="final">Ένας DKIM επιλογέας συνήθως μοιάζει σαν 12345.domain. Πρέπει να ταιριάζει με το όνομα του DNS record.</target>
@@ -11,6 +21,11 @@
         <source>A category root is where a category tree can begin. This is used with multistore.</source>
         <target state="final">Ριζική κατηγορία είναι όπου το δέντρο κατηγορίας ξεκινά. Χρησιμοποιείται στα Πολυκαταστήματα.</target>
         <note>File: src/Core/Import/EntityField/Provider/CategoryFieldsProvider.php [Line: 64]</note>
+      </trans-unit>
+      <trans-unit id="256977e036c3b9977b5ad2057ce25747" approved="yes">
+        <source>Admin API forces the use of HTTPS with TLSv1.2 or higher, you can disable this check for debug mode only.</source>
+        <target state="final">Το API διαχειριστή επιβάλλει τη χρήση HTTPS με TLSv1.2 ή νεότερη έκδοση. Μπορείτε να απενεργοποιήσετε αυτόν τον έλεγχο μόνο για τη λειτουργία εντοπισμού σφαλμάτων.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ConfigurationType.php [Line: 86]</note>
       </trans-unit>
       <trans-unit id="54cde7677b5a5624041c00c100224cbc" approved="yes">
         <source>All outdated sessions will be automatically cleared after the first connection attempt, but you can do it manually now if needed.</source>
@@ -52,6 +67,11 @@
         <target state="final">Πριν επιλέξεις "Ναι", έλεγξε ότι η PHP δεν είναι ρυθμισμένη σαν ένα Apache module στο server σου.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceConfigurationType.php [Line: 77]</note>
       </trans-unit>
+      <trans-unit id="a69a11ce9386d040c3f8190631a94405" approved="yes">
+        <source>Before enabling the Admin API, you must be sure to:</source>
+        <target state="final">Πριν ενεργοποιήσετε το Admin API, πρέπει να βεβαιωθείτε ότι:</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ConfigurationType.php [Line: 50]</note>
+      </trans-unit>
       <trans-unit id="460e080fb0af5e1ca93a24dbf1e3da2f" approved="yes">
         <source>CCC allows you to reduce the loading time of your page. With these settings you will gain performance without even touching the code of your theme. Make sure, however, that your theme is compatible with PrestaShop 1.7+. Otherwise, CCC will cause problems.</source>
         <target state="final">Το CCC σας επιτρέπει να μειώσετε το χρόνο φόρτωσης της σελίδας σας. Με τις ρυθμίσεις αυτές θα αποκτήσετε επιδόσεις χωρίς καν να αγγίξει τον κώδικα του θέματός σας. Βεβαιωθείτε όμως, ότι το θέμα σας είναι συμβατό με PrestaShop 1.7 +. Διαφορετικά, το CCC θα προκαλέσει προβλήματα.</target>
@@ -62,10 +82,20 @@
         <target state="final">Ελέγξτε ότι η επανεγγραφή URL είναι διαθέσιμη σε αυτόν τον server.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceConfigurationType.php [Line: 52]</note>
       </trans-unit>
+      <trans-unit id="baa8a433ad80dca4cd8228bed0f9830a" approved="yes">
+        <source>Check that the ps_apiressources module is installed and enabled.</source>
+        <target state="final">Ελέγξτε ότι το ps_apiressources πρόσθετο είναι εγκατεστημένο και ενεργοποιημένο.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ConfigurationType.php [Line: 55]</note>
+      </trans-unit>
       <trans-unit id="000552d95fb9e18ac08ca27098bf1d41" approved="yes">
         <source>Check that the six methods GET, POST, PUT, PATCH, DELETE and HEAD are supported by this server.</source>
         <target state="final">Ελέγξτε ότι οι 6 μέθοδοι GET, POST, PUT, PATCH, DELETE και HEAD υποστηρίζονται από αυτό το διακομιστή.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceConfigurationType.php [Line: 57]</note>
+      </trans-unit>
+      <trans-unit id="4fd3837cfea9a5bd4ff2e83318df2cd5" approved="yes">
+        <source>Check that your Admin API endpoint uses HTTPS protocol.</source>
+        <target state="final">Ελέγξτε ότι το API διαχειριστή endpoint χρησιμοποιεί HTTPS πρωτόκολλο.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ConfigurationType.php [Line: 70]</note>
       </trans-unit>
       <trans-unit id="0f81567617bb8ebc23f48e74d8ae8acf" approved="yes">
         <source>Check the IP address of the cookie in order to prevent your cookie from being stolen.</source>
@@ -157,6 +187,31 @@
         <target state="final">Απόρριψη υπαρχουσών πινάκων κατά τη διάρκεια της εισαγωγής.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Backup/BackupOptionsType.php [Line: 67]</note>
       </trans-unit>
+      <trans-unit id="2b04cfec31e54bfc9116278681c88c54" approved="yes">
+        <source>Enable / Disable the customer group page.</source>
+        <target state="final">Ενεργοποίηση / Απενεργοποίηση της σελίδας ομάδας πελατών.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 83]</note>
+      </trans-unit>
+      <trans-unit id="e3b0435c3f0d00986c9a3c36f2adc541" approved="yes">
+        <source>Enable / Disable the merchandise return page.</source>
+        <target state="final">Ενεργοποίηση / Απενεργοποίηση της σελίδας επιστροφής εμπορευμάτων.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 89]</note>
+      </trans-unit>
+      <trans-unit id="ba40d461815161e3564db4c519f5ba32" approved="yes">
+        <source>Enable / Disable the module configuration page.</source>
+        <target state="final">Ενεργοποίηση / Απενεργοποίηση της σελίδας ρύθμισης πρόσθετων.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 92]</note>
+      </trans-unit>
+      <trans-unit id="15298e67b30b928fd857c6d2625debda" approved="yes">
+        <source>Enable / Disable the new front container.</source>
+        <target state="final">Ενεργοποίηση / Απενεργοποίηση του περιέκτη της νέας βιτρίνας.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 80]</note>
+      </trans-unit>
+      <trans-unit id="437ad32eb05dae211c16bff63c093e05" approved="yes">
+        <source>Enable / Disable the store page.</source>
+        <target state="final">Ενεργοποίηση / Απενεργοποίηση της σελίδας καταστήματος.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 86]</note>
+      </trans-unit>
       <trans-unit id="3d24e5589702a2ecfd1d65813b4a892e" approved="yes">
         <source>Enable DKIM, fill in the fields and give it a try. If no email is sent, check logs.</source>
         <target state="final">Ενεργοποίηση DKIM, συμπληρώστε τα πεδία και δοκιμάστε το. Αν δεν αποσταλούν email, ελέγξτε τα logs.</target>
@@ -171,6 +226,11 @@
         <source>Enable or disable debug profiling. Debug profiling will display performance-related information under each page and help find performance bottlenecks in your store.</source>
         <target state="final">Ενεργοποιήστε ή απενεργοποιήστε τη αποσφαλμάτωση επίδοσης. Θα εμφανιστούν πληροφορίες σχετικά με την επίδοση κάθε σελίδας και θα σας βοηθήσει να βρείτε πιθανά προβλήματα επίδοσης στο κατάστημά σας.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/DebugModeType.php [Line: 76]</note>
+      </trans-unit>
+      <trans-unit id="54fc44d77b5d7cbb0234880a1931dad9" approved="yes">
+        <source>Enable or disable the Admin API when multistore is enabled.</source>
+        <target state="final">Ενεργοποιήστε ή απενεργοποιήστε το Admin API όταν είναι ενεργοποιημένο το πολυκατάστημα.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 33]</note>
       </trans-unit>
       <trans-unit id="a536359574c27ee963de828ff56241c7" approved="yes">
         <source>Enable or disable the migrated attribute page.</source>
@@ -247,6 +307,11 @@
         <target state="final">Σφάλμα</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/LogsPage/Blocks/severity_levels.html.twig [Line: 46]</note>
       </trans-unit>
+      <trans-unit id="e6eadec0336eb998ef6d6f4ef534fc41" approved="yes">
+        <source>Experimental API endpoints are disabled by default in prod environment, this configuration allows to forcefully enable them.</source>
+        <target state="final">Τα πειραματικά τελικά σημεία API είναι απενεργοποιημένα από προεπιλογή στο περιβάλλον prod. Αυτή η διαμόρφωση επιτρέπει την αναγκαστική ενεργοποίησή τους.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 37]</note>
+      </trans-unit>
       <trans-unit id="b8dc7c80939667637db7ac31ece215b9" approved="yes">
         <source>Fabulous</source>
         <target state="final">Υπέροχος</target>
@@ -314,6 +379,11 @@
         <source>If your backup file exceeds this limit, contact your hosting provider for assistance. </source>
         <target state="final">Αν το αρχείο αντιγράφου ασφαλείας σας υπερβαίνει αυτό το όριο, επικοινωνήστε με τον πάροχο φιλοξενίας σας για βοήθεια. </target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Backup/Blocks/backup_info.html.twig [Line: 40]</note>
+      </trans-unit>
+      <trans-unit id="d2beb087630a099f2fada85e7f2f19fb" approved="yes">
+        <source>Ignore this field if you don't use the Multistore tool. If you leave this field empty, the default store will be used.</source>
+        <target state="final">Αγνοήστε το πεδίο αν δε χρησιμοποιείτε το εργαλείο Πολυκαταστημάτων. Εάν το αφήσετε κενό, θα χρησιμοποιηθεί το προεπιλεγμένο κατάστημα.</target>
+        <note>File: src/Core/Import/EntityField/Provider/SupplierFieldsProvider.php [Line: 67]</note>
       </trans-unit>
       <trans-unit id="b80c52e7f679fba3c2837b42705fe779" approved="yes">
         <source>Informative only</source>
@@ -465,6 +535,11 @@
         <target state="final">Το επιλεγμένο κατάστημα έχει ήδη ένα Κύριο URL. Συνεπώς, αν ορίσετε αυτό ως το Κύριο URL, το παλιότερο Κύριο URL θα μετατραπεί σε απλό URL.</target>
         <note>File: controllers/admin/AdminShopUrlController.php [Line: 208]</note>
       </trans-unit>
+      <trans-unit id="dde647098e1fb2236dc49df662679a7f" approved="yes">
+        <source>This FeatureFlag is forced by Env.</source>
+        <target state="final">Αυτή η FeatureFlag επιβάλλετε από το Env.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/FeatureFlag/FormTheme/feature_flag_form.html.twig [Line: 51]</note>
+      </trans-unit>
       <trans-unit id="767bd2cbfe41f0aa3f3e4ff306a75b89" approved="yes">
         <source>This feature allows you to identify modules that might be causing bugs on your store. Disable all non-built-in modules (not listed in composer.json). Then, re-enable each module one by one and check that everything works properly before moving on to the next one.</source>
         <target state="final">Αυτή η λειτουργεία σου επιτρέπει να αναγνωρίσεις τα πρόσθετα που μπορεί να προκαλούν προβλήματα στο κατάστημα σου. Απενεργοποιείστε όλα τα πρόσθετα που προσθέσατε (δεν συμπεριλαμβάνονται στην composer.json). Μετά, ενεργοποιήστε τα ένα ένα και ελέξγτε ότι όλα λειτουργούν σωστά πριν περάσετε στο επόμενο.</target>
@@ -574,6 +649,11 @@
         <source>e.g. Blouse; red.jpg, blue.jpg, green.jpg; 129.90 </source>
         <target state="final">π.χ. Μπλούζα; kokkino.jpg, mple.jpg, prasino.jpg; 129,90 </target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Import/ImportType.php [Line: 88]</note>
+      </trans-unit>
+      <trans-unit id="69b2fa39bac2b03f7b5c8e63bf5c6e99" approved="yes">
+        <source>https://docs.prestashop-project.org/v.8-documentation/user-guide/configuring-shop/advanced-parameters/import</source>
+        <target state="final">https://docs.prestashop-project.org/v.8-documentation/user-guide/configuring-shop/advanced-parameters/import</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Blocks/import_panel.html.twig [Line: 41]</note>
       </trans-unit>
       <trans-unit id="9d23c31f2dcc1ace9296037f327563a4" approved="yes">
         <source>https://en.wikipedia.org/wiki/Comma-separated_values</source>
