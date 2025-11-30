@@ -67,6 +67,11 @@
         <target state="final">Actualitzar automàticament els costos d'enviament quan modifiqueu una comanda.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GeneralType.php [Line: 113]</note>
       </trans-unit>
+      <trans-unit id="dcc9a3ac81d54b27a1e7f522a17a3d2a" approved="yes">
+        <source>Background color of this status label. Used both in backoffice and on order tracking page. HTML colors only.</source>
+        <target state="final">Color de fons d'aquesta etiqueta d'estat. Usada tant al backoffice com a la pàgina de seguiment de comandes. Sols colors HTML.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 181]</note>
+      </trans-unit>
       <trans-unit id="1122eba5946331d2709712f64fa1d66b" approved="yes">
         <source>By default, if you search "book", you will have "book", "bookcase" and "bookend".</source>
         <target state="final">Per defecte, si cerqueu "llibre", tindreu "llibre", "llibreria" i "llibreter".</target>
@@ -266,9 +271,18 @@
         <target state="final">Per als paquets de productes, l'inventari es pot gestionar manualment o automàticament en funció dels nivells d'inventari de productes individuals. És possible una personalització addicional per a cada producte.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/StockType.php [Line: 64]</note>
       </trans-unit>
+      <trans-unit id="c4abbce80d49fc23a12cb0380fe4daaf" approved="yes">
+        <source><![CDATA[Forbidden characters: <>{}]]></source>
+        <target state="final"><![CDATA[Caràcters no permesos: <>{}]]></target>
+        <note>File: controllers/admin/AdminSearchConfController.php [Line: 418]</note>
+      </trans-unit>
       <trans-unit id="259b411f284388d228a30c1e2ed0c61d" approved="yes">
         <source><![CDATA[Forbidden characters: <>;=#{}]]></source>
         <target state="final"><![CDATA[Caràcters prohibits: <>;=#{}]]></target>
+      </trans-unit>
+      <trans-unit id="f11c8ae12be3f5a61df2361c0024fc1b" approved="yes">
+        <source><![CDATA[Forbidden characters: <>{}]]></source>
+        <target state="final"><![CDATA[Caràcters no permesos: <>{}]]></target>
       </trans-unit>
       <trans-unit id="21e445ba767d4fd41332b6eceab2be1a" approved="yes">
         <source>How prices are displayed in the order summary for this customer group.</source>
@@ -295,6 +309,11 @@
         <target state="final">Si està activat, tots els missatges seran desats en el "Servei d'atenció al client" de la pàgina, sota el menú "Client".</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/Contact/ContactType.php [Line: 127]</note>
       </trans-unit>
+      <trans-unit id="0d30027d8f6516854c9da7469b6d8a49" approved="yes">
+        <source>If order's invoice is not generated yet, this will generate it.</source>
+        <target state="final">Si la factura de la comanda encara no ha estat generada, això la generarà.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 197]</note>
+      </trans-unit>
       <trans-unit id="220990e3866bfc3d5d967410e3507ae9" approved="yes">
         <source>If there are multiple languages enabled on the shop, all URLs are prefixed with the ISO code of the language. Do you want to do this also for the default language, or keep it un-prefixed? If adding a language to a well established single language shop, it's a good idea to disable this and avoid changing the URLs.</source>
         <target state="final">Si hi ha diversos idiomes activats a la botiga, totes les URL tenen el prefix del codi ISO de l'idioma. Voleu fer-ho també per a l'idioma predeterminat o tenir-lo sense prefix? Si afegiu un idioma a una botiga d'un sol idioma ben establerta, és una bona idea de desactivar-ho i evitar de canviar les URL.</target>
@@ -319,6 +338,11 @@
         <source>Image height in pixels. Enter "0" to use the original size.</source>
         <target state="final">Altura d'imatge en píxels. Escriviu "0" per usar les dimensions originals</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/CustomerPreferences/TitleType.php [Line: 94]</note>
+      </trans-unit>
+      <trans-unit id="e63a2ccfb58547d1d4dcdb6b96aa42f2" approved="yes">
+        <source>Image of this status used in the backoffice. (File type: .gif, suggested size: 16x16).</source>
+        <target state="final">Imatge d'aquest estat usada al backoffice. (Tipus de fitxer: .gif, mida suggerida: 16x16).</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 176]</note>
       </trans-unit>
       <trans-unit id="62c7ceb6de5c4d39e49c9762af6ddb4d" approved="yes">
         <source>Image width in pixels. Enter "0" to use the original size.</source>
@@ -454,6 +478,11 @@
         <target state="final">Cercar aquesta paraula en el seu lloc.</target>
         <note>File: controllers/admin/AdminSearchConfController.php [Line: 426]</note>
       </trans-unit>
+      <trans-unit id="e0bbd55d0b2049bb5dd4f88094ad0809" approved="yes">
+        <source>Select an email template that will be sent after setting this status.</source>
+        <target state="final">Seleccioneu una plantilla de correu electrònic que s'enviarà després de definir aquest estat.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 241]</note>
+      </trans-unit>
       <trans-unit id="7b4cd4d72926ab37dc21b9e12b444a1f" approved="yes">
         <source>Select which category to display on the product page breadcrumbs. It can be the product's default category or the category the customer came from.</source>
         <target state="final">Seleccioneu quina categoria voleu mostrar a la ruta de la pàgina del producte. Pot ser la categoria predefinida del producte o la categoria de la qual prové el client.</target>
@@ -564,6 +593,41 @@
         <target state="final">Aquest paràmetre solament s’utilitzarà si s’activa la recerca difusa: com més baix sigui el valor, més tolerant serà la vostra cerca.</target>
         <note>File: controllers/admin/AdminSearchConfController.php [Line: 227]</note>
       </trans-unit>
+      <trans-unit id="d71f4f6669b9df2a1bc83f4bf2a186c5" approved="yes">
+        <source>This will add an entry to order's "Payments" table, if it doesn't exist yet.</source>
+        <target state="final">Això afegirà una entrada a la taula "Pagaments" de la comanda, si encara no existeix.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 221]</note>
+      </trans-unit>
+      <trans-unit id="8b6f21abb5306a5fa051fdeee4c918e0" approved="yes">
+        <source>This will attach delivery slip PDF to the sent email, if it exists. If it doesn't, it will have no effect.</source>
+        <target state="final">Això adjuntarà el PDF de l'albarà al correu electrònic enviat, si existeix. Si no existeix, no tindrà cap efecte.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 268]</note>
+      </trans-unit>
+      <trans-unit id="e8c9630127603f55eea5e4d89455d7cd" approved="yes">
+        <source>This will attach invoice PDF to the sent email, if it exists. If it doesn't, it will have no effect.</source>
+        <target state="final">Això adjuntarà el PDF de la factura al correu electrònic enviat, si existeix. Si no existeix, no tindrà cap efecte.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 260]</note>
+      </trans-unit>
+      <trans-unit id="d21af1d7df87c9b01b3141840adef2f1" approved="yes">
+        <source>This will create a delivery slip and mark a delivery date on order's invoice.</source>
+        <target state="final">Això crearà un albarà i marcarà una data de lliurament a la factura de la comanda.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 229]</note>
+      </trans-unit>
+      <trans-unit id="1645de8c2684266ea78ab325c2fc44c3" approved="yes">
+        <source>This will mark the order as shipped. It will register a stock movement entry, prevent modifying the order and other things.</source>
+        <target state="final">Això marcarà la comanda com a enviada. Registrarà un moviment d'inventari, evitarà la modificació de la comanda i altres coses.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 213]</note>
+      </trans-unit>
+      <trans-unit id="72993cc97904585ea4f16aa9d0fda4ef" approved="yes">
+        <source>This will mark the order as successfuly processed - including it in customer's revenue, your shop stats etc.</source>
+        <target state="final">Això marcarà la comanda com a processada correctament, incloent-la als ingressos del client, a les estadístiques de la botiga, etc.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 189]</note>
+      </trans-unit>
+      <trans-unit id="bf1fc852eb4242c369934b81e3117c63" approved="yes">
+        <source>This will send an email to the customer after assigning this status. Make sure to select proper email template below.</source>
+        <target state="final">Això enviarà un correu electrònic al client després d'assignar aquest estat. Assegureu-vos de seleccionar la plantilla de correu electrònic adequada tot seguit.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 237]</note>
+      </trans-unit>
       <trans-unit id="14bc1d17bbcf8fb45debf11fb7c5f80b" approved="yes">
         <source>Title of this page.</source>
         <target state="final">Títol d'aquesta pàgina.</target>
@@ -587,6 +651,11 @@
       <trans-unit id="a9c2e14555131d68a4ac37b604ee52a8" approved="yes">
         <source>Upload an icon from your computer (File type: .gif, suggested size: 16x16).</source>
         <target state="final">Carregueu una icona del vostre ordinador (tipus de fitxer: .gif, mida suggerida: 16 x 16).</target>
+      </trans-unit>
+      <trans-unit id="7e7c876c57cabc4c3c99034d6b3764b0" approved="yes">
+        <source>Use this if you want this status to be internal only.</source>
+        <target state="final">Feu servir això si voleu que aquest estat sigui solament intern.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 205]</note>
       </trans-unit>
       <trans-unit id="122941b469f97a0c0750a62126fba6cd" approved="yes">
         <source>We recommend that you deactivate your store while performing maintenance. Note that it will not disable the webservice.</source>
