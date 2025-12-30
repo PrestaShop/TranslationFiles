@@ -67,6 +67,11 @@
         <target state="final">Automatikusan frissíti a szállítási költségeket, amikor módosítasz egy rendelést.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GeneralType.php [Line: 113]</note>
       </trans-unit>
+      <trans-unit id="dcc9a3ac81d54b27a1e7f522a17a3d2a" approved="yes">
+        <source>Background color of this status label. Used both in backoffice and on order tracking page. HTML colors only.</source>
+        <target state="final">Ennek az állapotcímkének a háttérszíne. A háttérirodában és a vásárló rendeléskövetési oldalán is használva lesz. Csak HTML-színek.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 181]</note>
+      </trans-unit>
       <trans-unit id="1122eba5946331d2709712f64fa1d66b" approved="yes">
         <source>By default, if you search "book", you will have "book", "bookcase" and "bookend".</source>
         <target state="final">Alapértelmezetten, ha pl. a keresőbe beírod azt, hogy "könyv", akkor a "könyv", "könyvpolc" és "könyvjelző" is a találatok közt lesz.</target>
@@ -261,9 +266,23 @@
         <target state="final">Például, "kapcsolatokhoz" a http://cegem.hu/shop/contacts helyett átirányítás http://cegem.hu/shop/kapcsolatok.php címre</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/TrafficSeo/Meta/Blocks/form.html.twig [Line: 69]</note>
       </trans-unit>
+      <trans-unit id="ebdfb266f97bd01d837a5cdeb992fd5c" approved="yes">
+        <source>For packs of products, stocks can be managed manually or automatically based on individual product stock levels. Further customization is possible for each product.</source>
+        <target state="final">A termékeket tartalmazó csomagoknál a készletek manuálisan vagy automatikusan kezelhetőek az egyes termékek készletszintjei alapján. Minden terméknél további testreszabás lehetséges.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/StockType.php [Line: 64]</note>
+      </trans-unit>
+      <trans-unit id="c4abbce80d49fc23a12cb0380fe4daaf" approved="yes">
+        <source><![CDATA[Forbidden characters: <>{}]]></source>
+        <target state="final"><![CDATA[Tiltott karakterek: <>{}]]></target>
+        <note>File: controllers/admin/AdminSearchConfController.php [Line: 418]</note>
+      </trans-unit>
       <trans-unit id="259b411f284388d228a30c1e2ed0c61d" approved="yes">
         <source><![CDATA[Forbidden characters: <>;=#{}]]></source>
         <target state="final"><![CDATA[Tiltott karakterek: <>;=#{}]]></target>
+      </trans-unit>
+      <trans-unit id="f11c8ae12be3f5a61df2361c0024fc1b" approved="yes">
+        <source><![CDATA[Forbidden characters: <>{}]]></source>
+        <target state="final"><![CDATA[Tiltott karakterek: <>{}]]></target>
       </trans-unit>
       <trans-unit id="21e445ba767d4fd41332b6eceab2be1a" approved="yes">
         <source>How prices are displayed in the order summary for this customer group.</source>
@@ -290,15 +309,40 @@
         <target state="final">Bekapcsolt állapotnál a "Vásárló" menü alatti "Vevőszolgálat" oldalnál minden üzenet mentésre kerül.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/Contact/ContactType.php [Line: 127]</note>
       </trans-unit>
+      <trans-unit id="0d30027d8f6516854c9da7469b6d8a49" approved="yes">
+        <source>If order's invoice is not generated yet, this will generate it.</source>
+        <target state="final">Ha a rendelés számlája még nincs legenerálva, ez létrehozza azt.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 197]</note>
+      </trans-unit>
+      <trans-unit id="220990e3866bfc3d5d967410e3507ae9" approved="yes">
+        <source>If there are multiple languages enabled on the shop, all URLs are prefixed with the ISO code of the language. Do you want to do this also for the default language, or keep it un-prefixed? If adding a language to a well established single language shop, it's a good idea to disable this and avoid changing the URLs.</source>
+        <target state="final">Ha az áruházban több nyelv van engedélyezve, az összes URL a nyelv ISO-kódjával van előtagolva. Szeretnéd ezt a fő (alapértelmezett) nyelvre is alkalmazni, vagy maradjon előtag nélküli? Ha egy már jól bejáratott, egynyelvű áruházhoz adsz hozzá új nyelvet, érdemes ezt kikapcsolni, így elkerülve az URL-ek megváltoztatását.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/SetUpUrlType.php [Line: 114]</note>
+      </trans-unit>
+      <trans-unit id="3bc8663376c647160124246b5567fe1f" approved="yes">
+        <source>If you own an SSL certificate for your shop's domain name, you can activate SSL encryption (https://) for all the pages of your shop.</source>
+        <target state="final">Ha rendelkezel SSL-tanúsítvánnyal az áruházad domainnevéhez, akkor bekapcsolhatod az SSL-titkosítást (https://) az áruház összes oldalán.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php [Line: 106]</note>
+      </trans-unit>
       <trans-unit id="a3a0f3b2f4c12d1c11b9916c8c10c48c" approved="yes">
         <source>If you want to enable SSL on all the pages of your shop, activate the "Enable on all the pages" option below.</source>
         <target state="final">Ha az összes oldalon engedélyezni akarod az SSL-t, akkor kapcsold be az alábbi opciót: Az összes oldalon engedélyezem.</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/preferences.html.twig [Line: 53]</note>
       </trans-unit>
+      <trans-unit id="5ed7ed1560621badd569811a48b238ae" approved="yes">
+        <source>If your customer already has this product in their cart, a notification will be displayed on top of the product page. The customer will also be notified if the product they are browsing is part of a pack that's in their cart.</source>
+        <target state="final">Ha a vásárlónak ez a termék már szerepel a kosarában, értesítés jelenik meg a termékoldal tetején. A vásárló akkor is értesítést kap, ha az általa éppen megtekintett termék egy olyan csomag része, amely már a kosarában van.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/PageType.php [Line: 113]</note>
+      </trans-unit>
       <trans-unit id="aec8651b033be4d4056785d43763d7ca" approved="yes">
         <source>Image height in pixels. Enter "0" to use the original size.</source>
         <target state="final">Kép magassága pixelben. Adj meg 0-t, ha az eredeti méretet szeretnéd</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/CustomerPreferences/TitleType.php [Line: 94]</note>
+      </trans-unit>
+      <trans-unit id="e63a2ccfb58547d1d4dcdb6b96aa42f2" approved="yes">
+        <source>Image of this status used in the backoffice. (File type: .gif, suggested size: 16x16).</source>
+        <target state="final">Az állapothoz tartozó kép, amely a háttérirodában használatos. (Fájltípus: .gif, javasolt méret: 16x16).</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 176]</note>
       </trans-unit>
       <trans-unit id="62c7ceb6de5c4d39e49c9762af6ddb4d" approved="yes">
         <source>Image width in pixels. Enter "0" to use the original size.</source>
@@ -309,6 +353,11 @@
         <source>In stock</source>
         <target state="final">Raktáron</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/StockType.php [Line: 124]</note>
+      </trans-unit>
+      <trans-unit id="26fff3462cbd41b144327d0afa56b90a" approved="yes">
+        <source>In the product page, feature values can be sorted alphabetically by value or by position.</source>
+        <target state="final">A termékoldalon a tulajdonságok értékei ábécé szerint vagy pozíció alapján rendezhetők.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/PageType.php [Line: 124]</note>
       </trans-unit>
       <trans-unit id="f9aa0af5fdadc92504092774a0afb472" approved="yes">
         <source>In the volume discount table on the product page, display the discounted unit price instead of the unit discount. E.g. If you sell a product for $10 with a discount of $2 from 3 items purchased, the discounted unit price ($8) will be displayed instead of the unit discount ($2).</source>
@@ -429,6 +478,16 @@
         <target state="final">Ezt használd inkább a keresésre.</target>
         <note>File: controllers/admin/AdminSearchConfController.php [Line: 426]</note>
       </trans-unit>
+      <trans-unit id="e0bbd55d0b2049bb5dd4f88094ad0809" approved="yes">
+        <source>Select an email template that will be sent after setting this status.</source>
+        <target state="final">Válaszd ki azt az email sablont, amely ennek az állapotnak a beállítása után kerül elküldésre.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 241]</note>
+      </trans-unit>
+      <trans-unit id="7b4cd4d72926ab37dc21b9e12b444a1f" approved="yes">
+        <source>Select which category to display on the product page breadcrumbs. It can be the product's default category or the category the customer came from.</source>
+        <target state="final">Válaszd ki, melyik kategória jelenjen meg a termékoldal morzsamenüjében: a termék alapértelmezett kategóriája, vagy az a kategória, ahonnan a vásárló érkezett.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/GeneralType.php [Line: 155]</note>
+      </trans-unit>
       <trans-unit id="4c80d371ca1a14e173c5480ee32f1c90" approved="yes">
         <source>Send an email with a summary of the account information after registration.</source>
         <target state="final">Regisztráció után email küldése a fiók fontosabb adatairól.</target>
@@ -524,10 +583,50 @@
         <target state="final">Ez a létrehozott bolt gyökérkategóriája. Ha boltodhoz új gyökérkategóriát szeretnél megadni, [1]kattints ide[/1].</target>
         <note>File: controllers/admin/AdminShopController.php [Line: 519]</note>
       </trans-unit>
+      <trans-unit id="5f6092eeaf31414a503b747005ceedc5" approved="yes">
+        <source>This option defines how much different can the alternative words found by fuzzy search be. Or, how many characters can be different/missing/added. The default value is 5.</source>
+        <target state="final">Ez a beállítás határozza meg, hogy a fuzzy keresés során talált alternatív szavak mennyire térhetnek el, vagyis hány karakter lehet eltérő, hiányzó vagy hozzáadott. Az alapértelmezett érték 5.</target>
+        <note>File: controllers/admin/AdminSearchConfController.php [Line: 207]</note>
+      </trans-unit>
       <trans-unit id="2b610a936a358875e6f5a01564a3a0e6" approved="yes">
         <source>This parameter will only be used if the fuzzy search is activated: the lower the value, the more tolerant your search will be.</source>
         <target state="final">Ez a paraméter csak akkor használható, ha a fuzzy keresés be van kapcsolva: minél alacsonyabb az érték, annál toleránsabb lesz a keresés.</target>
         <note>File: controllers/admin/AdminSearchConfController.php [Line: 227]</note>
+      </trans-unit>
+      <trans-unit id="d71f4f6669b9df2a1bc83f4bf2a186c5" approved="yes">
+        <source>This will add an entry to order's "Payments" table, if it doesn't exist yet.</source>
+        <target state="final">Ez hozzáad egy bejegyzést a rendelés „Fizetések” táblájához, ha az még nem létezik.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 221]</note>
+      </trans-unit>
+      <trans-unit id="8b6f21abb5306a5fa051fdeee4c918e0" approved="yes">
+        <source>This will attach delivery slip PDF to the sent email, if it exists. If it doesn't, it will have no effect.</source>
+        <target state="final">Ez csatolja a szállítólevelet PDF formátumban az elküldött emailhez, ha az létezik. Ha nem, akkor nincs hatása.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 268]</note>
+      </trans-unit>
+      <trans-unit id="e8c9630127603f55eea5e4d89455d7cd" approved="yes">
+        <source>This will attach invoice PDF to the sent email, if it exists. If it doesn't, it will have no effect.</source>
+        <target state="final">Ez csatolja a számla PDF-jét az elküldött emailhez, ha az létezik. Ha nem, akkor nincs hatása.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 260]</note>
+      </trans-unit>
+      <trans-unit id="d21af1d7df87c9b01b3141840adef2f1" approved="yes">
+        <source>This will create a delivery slip and mark a delivery date on order's invoice.</source>
+        <target state="final">Ez létrehoz egy szállítólevelet, és feltünteti a szállítás dátumát a rendelés számláján.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 229]</note>
+      </trans-unit>
+      <trans-unit id="1645de8c2684266ea78ab325c2fc44c3" approved="yes">
+        <source>This will mark the order as shipped. It will register a stock movement entry, prevent modifying the order and other things.</source>
+        <target state="final">Ez a rendelést elküldöttként jelöli meg. Rögzít egy készletmozgás-bejegyzést, megakadályozza a rendelés módosítását és egyéb műveleteket is.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 213]</note>
+      </trans-unit>
+      <trans-unit id="72993cc97904585ea4f16aa9d0fda4ef" approved="yes">
+        <source>This will mark the order as successfuly processed - including it in customer's revenue, your shop stats etc.</source>
+        <target state="final">Ez a rendelést sikeresen feldolgozottként jelöli meg - beleszámítva a vásárló költéseibe, az áruház statisztikáiba stb.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 189]</note>
+      </trans-unit>
+      <trans-unit id="bf1fc852eb4242c369934b81e3117c63" approved="yes">
+        <source>This will send an email to the customer after assigning this status. Make sure to select proper email template below.</source>
+        <target state="final">Ez az állapot hozzárendelése után emailt küld a vásárlónak. Ügyelj arra, hogy alább a megfelelő email sablont válaszd ki.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 237]</note>
       </trans-unit>
       <trans-unit id="14bc1d17bbcf8fb45debf11fb7c5f80b" approved="yes">
         <source>Title of this page.</source>
@@ -552,6 +651,11 @@
       <trans-unit id="a9c2e14555131d68a4ac37b604ee52a8" approved="yes">
         <source>Upload an icon from your computer (File type: .gif, suggested size: 16x16).</source>
         <target state="final">Tölts fel egy ikont a számítógépedről (fájltípus: .gif, ajánlott méret: 16x16)!</target>
+      </trans-unit>
+      <trans-unit id="7e7c876c57cabc4c3c99034d6b3764b0" approved="yes">
+        <source>Use this if you want this status to be internal only.</source>
+        <target state="final">Használd ezt, ha azt szeretnéd, hogy ez az állapot csak belső használatú legyen.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 205]</note>
       </trans-unit>
       <trans-unit id="122941b469f97a0c0750a62126fba6cd" approved="yes">
         <source>We recommend that you deactivate your store while performing maintenance. Note that it will not disable the webservice.</source>
