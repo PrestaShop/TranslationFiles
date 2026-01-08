@@ -40,7 +40,6 @@
       <trans-unit id="b9716d3d87447a2275318bf88ced7bf8" approved="yes">
         <source>After a customer logs in, you can recall and display the content of his/her last shopping cart.</source>
         <target state="final">Po přihlášení zákazníka se obnoví a zobrazí obsah jeho posledního nákupního košíku.</target>
-        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/CustomerPreferences/GeneralType.php [Line: 54]</note>
       </trans-unit>
       <trans-unit id="4db650b0232001140675125d740191be" approved="yes">
         <source>Allow IP addresses to access the store, even in maintenance mode. Use a comma to separate them (e.g. 42.24.4.2,127.0.0.1,99.98.97.96).</source>
@@ -55,6 +54,15 @@
       <trans-unit id="4f70bd9998bb35643fa3dfc88d6a6373" approved="yes">
         <source>Allow iframes on text fields like product description. We recommend that you leave this option disabled.</source>
         <target state="final">Povolit iframe v polích, jako je popis produktu. Doporučujeme vám ponechat tuto volbu vypnutou.</target>
+      </trans-unit>
+      <trans-unit id="c2585925167101587128f7782c5dd757" approved="yes">
+        <source>Allow or deny customers to order products that are out of stock. Further customization is possible for each product.</source>
+        <target state="final">Povolit nebo zakázat zákazníkům objednávat produkty, které nejsou skladem. Další přizpůsobení je možné u každého produktu zvlášť.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/StockType.php [Line: 104]</note>
+      </trans-unit>
+      <trans-unit id="cffcb6b76faff5fd9cb6a310aab445d2" approved="yes">
+        <source>Allows the use of iframes in rich text fields such as product descriptions. It is recommended to keep this option disabled unless you specifically need iframes for video embeds or other external content.</source>
+        <target state="final">Povoluje použití iframe prvků v polích s formátovaným textem, jako jsou popisy produktů. Doporučuje se ponechat tuto možnost vypnutou, pokud iframe prvky výslovně nepotřebujete (např. pro vložení videí nebo jiného externího obsahu).</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php [Line: 130]</note>
       </trans-unit>
       <trans-unit id="a5fa9ffd3ddf89fe263675358032e7fb" approved="yes">
@@ -62,10 +70,14 @@
         <target state="final">Automaticky bude použita tato hodnota jako sleva na všechny produkty pro členy této skupiny zákazníků.</target>
         <note>File: controllers/admin/AdminGroupsController.php [Line: 378]</note>
       </trans-unit>
+      <trans-unit id="562da52195b6e52ac39be2dccbae6901" approved="yes">
+        <source>Automatically updates the shipping costs when an order is edited in the back office. If you disable this option, make sure to review the shipping costs whenever you make changes to an order.</source>
+        <target state="final">Automaticky aktualizuje náklady na dopravu při úpravě objednávky v administraci. Pokud tuto možnost vypnete, nezapomeňte při každé změně objednávky zkontrolovat náklady na dopravu.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GeneralType.php [Line: 113]</note>
+      </trans-unit>
       <trans-unit id="5ed533875d7388ffdbb60818e9596bdc" approved="yes">
         <source>Automatically updates the shipping costs when you edit an order.</source>
         <target state="final">Automaticky aktualizuje náklady na dopravu při úpravě objednávky.</target>
-        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GeneralType.php [Line: 113]</note>
       </trans-unit>
       <trans-unit id="dcc9a3ac81d54b27a1e7f522a17a3d2a" approved="yes">
         <source>Background color of this status label. Used both in backoffice and on order tracking page. HTML colors only.</source>
@@ -81,7 +93,6 @@
         <source>By default, the "%add_to_cart_label%" button is hidden when a product is unavailable. You can choose to have it displayed in all cases.</source>
         <target state="final">Pokud není produkt k dispozici, je tlačítko "%add_to_cart_label%" skryté (výchozí). Můžete si zvolit, zda se má zobrazovat ve všech případech.
 </target>
-        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/StockType.php [Line: 104]</note>
       </trans-unit>
       <trans-unit id="b080303b551112c7b9dcdf6a21051f42" approved="yes">
         <source>By default, the fuzzy search is enabled. It means spelling errors are allowed, e.g. you can search for "bird" with words like "burd", "bard" or "beerd".</source>
@@ -111,6 +122,10 @@
       <trans-unit id="7ba34b929c8241268ab5eac35a772ab1" approved="yes">
         <source>Clean the HTML content on text fields. We recommend that you leave this option enabled.</source>
         <target state="final">Vyčistí HTML obsah textových polí. Doporučujeme ponechat tuto volbu povolenou.</target>
+      </trans-unit>
+      <trans-unit id="5b6d89f93deda9c02c553196a5d73cb7" approved="yes">
+        <source>Cleans the HTML content in rich text fields before saving. It is recommended to keep this option enabled to ensure safe and valid content is saved into the database.</source>
+        <target state="final">Čistí HTML obsah v polích s formátovaným textem před uložením. Doporučuje se ponechat tuto možnost zapnutou, aby byl do databáze ukládán bezpečný a validní obsah.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php [Line: 140]</note>
       </trans-unit>
       <trans-unit id="9cd9efd3eb168071eb0a199972c54aab" approved="yes">
@@ -195,12 +210,10 @@
       <trans-unit id="0678cf17f202cb7fd14d79054a2e628c" approved="yes">
         <source>Enable best sellers page on your front office even when its respective module is disabled.</source>
         <target state="final">Aktivovat zobrazení nejprodávanějších na stránkách obchodu, přestože je modul neaktivní.</target>
-        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php [Line: 194]</note>
       </trans-unit>
       <trans-unit id="8e17743ca02e7c24310531d34d0c89ff" approved="yes">
         <source>Enable brands page on your front office even when its module is disabled.</source>
         <target state="final">Aktivovat zobrazení značek, na stránkách obchodu, přestože je modul neaktivní.</target>
-        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php [Line: 186]</note>
       </trans-unit>
       <trans-unit id="c4474326e7d8129b7c04ada10f34f5b1" approved="yes">
         <source>Enable more precise search with the end of the word.</source>
@@ -220,7 +233,6 @@
       <trans-unit id="7c6efc73556c295515e6f3c2129eee32" approved="yes">
         <source>Enable suppliers page on your front office even when its module is disabled.</source>
         <target state="final">Aktivovat zobrazení dodavatelů, na stránkách obchodu, přestože je modul neaktivní.</target>
-        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php [Line: 178]</note>
       </trans-unit>
       <trans-unit id="12399d580627a1a5889cdc44e6e48b5a" approved="yes">
         <source>Enable the automatic indexing of products. If you enable this feature, the products will be indexed in the search automatically when they are saved. If the feature is disabled, you will have to index products manually by using the links provided in the field set.</source>
@@ -245,12 +257,32 @@
       <trans-unit id="7dcc0875a9e200be4d760155c09c2945" approved="yes">
         <source>Enable this option only if you have problems with URL rewriting.</source>
         <target state="final">Povolte tuto možnost, pokud máte problémy s přepisováním URL na některých stránkách</target>
-        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/SetUpUrlType.php [Line: 143]</note>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/SetUpUrlType.php [Line: 147]</note>
       </trans-unit>
       <trans-unit id="3ff4fabe93bbb10c32a27c54ea13a5e1" approved="yes">
         <source>Enable this option only if your server allows URL rewriting (recommended).</source>
         <target state="final">Povolte pouze v případě, že váš server podporuje URL přepisování (doporučeno).</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/SetUpUrlType.php [Line: 93]</note>
+      </trans-unit>
+      <trans-unit id="feb02e79a9b6bca4bb9559914d218455" approved="yes">
+        <source>Enables or disables SSL encryption (https://) for your shop. This is a security standard and you should always keep this option enabled, unless there is a specific technical issue.</source>
+        <target state="final">Zapíná nebo vypíná šifrování SSL (https://) pro váš obchod. Jedná se o bezpečnostní standard a tuto možnost byste měli mít vždy zapnutou, pokud neřešíte nějaký technický problém se serverem.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php [Line: 106]</note>
+      </trans-unit>
+      <trans-unit id="3745e6d203a2be11a15c749586ba592f" approved="yes">
+        <source>Enables or disables the best sellers page in your shop. When disabled, the page and related links are also removed from the sitemap and other sections.</source>
+        <target state="final">Zapíná nebo vypíná stránku s nejprodávanějšími produkty ve vašem obchodě. Při vypnutí je tato stránka i související odkazy odstraněny z mapy stránek a dalších částí webu.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php [Line: 194]</note>
+      </trans-unit>
+      <trans-unit id="f44ccb9feb9694644d7ddb842809af7c" approved="yes">
+        <source>Enables or disables the brands listing in your shop. When disabled, brands are also removed from the sitemap and other related sections.</source>
+        <target state="final">Zapíná nebo vypíná výpis značek ve vašem obchodě. Při vypnutí jsou značky také odstraněny z mapy stránek a dalších souvisejících částí webu.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php [Line: 186]</note>
+      </trans-unit>
+      <trans-unit id="9955808073b701a1d996e190b0fa2b6b" approved="yes">
+        <source>Enables or disables the suppliers listing in your shop. When disabled, suppliers are also removed from the sitemap and other related sections.</source>
+        <target state="final">Zapíná nebo vypíná výpis dodavatelů ve vašem obchodě. Při vypnutí jsou dodavatelé také odstraněni z mapy stránek a dalších souvisejících částí webu.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php [Line: 178]</note>
       </trans-unit>
       <trans-unit id="786471035f60ea5955fd93f6998e8637" approved="yes">
         <source>Enter each alias separated by a comma (e.g. 'prestshop,preztashop,prestasohp').</source>
@@ -300,6 +332,11 @@
         <target state="final">Pokud zákazník splňuje několik podmínek najednou, specifické ceny budou aplikovány v tomto pořadí - pokud jste u daného produktu nenastavili jiné pořadí.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/GeneralType.php [Line: 177]</note>
       </trans-unit>
+      <trans-unit id="78c4fac28bb7772e31c75299bdbf31bf" approved="yes">
+        <source>If a visitor accesses a page using a non-canonical URL, this option defines how the shop should respond. For SEO reasons, we recommend choosing "301 Moved Permanently".</source>
+        <target state="final">Pokud návštěvník přistoupí na stránku pomocí nekanonické URL, tato možnost určuje, jak má obchod reagovat. Z SEO důvodů doporučujeme zvolit možnost „301 Moved Permanently“.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/SetUpUrlType.php [Line: 135]</note>
+      </trans-unit>
       <trans-unit id="8bd1967f496dd2a0dd64dae32a3bc6e5" approved="yes">
         <source>If an attribute is not available in every product combination, it will not be displayed.</source>
         <target state="final">Pokud atribut není dostupný pro každou kombinaci produktu, nebude zobrazen.</target>
@@ -320,10 +357,14 @@
         <target state="final">Pokud je v eshopu povoleno více jazyků, všechny URL adresy mají předponu ISO kódu jazyka (třeba /cs/). Chcete příponu přidávat i pro výchozí jazyk, nebo ho nechat bez předpony? Pokud přidáváte jazyk do již zavedeného obchodu s jedním jazykem, je dobré to zakázat a neměnit tak URL adresy.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/SetUpUrlType.php [Line: 114]</note>
       </trans-unit>
+      <trans-unit id="6530353e5fc38824748de002f5b2d80a" approved="yes">
+        <source>If this option is enabled, the customer's last cart will be restored when they log back in. Otherwise, a new, empty cart will be created.</source>
+        <target state="final">Pokud je tato možnost zapnutá, poslední košík zákazníka se po opětovném přihlášení obnoví. V opačném případě se vytvoří nový, prázdný košík.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/CustomerPreferences/GeneralType.php [Line: 54]</note>
+      </trans-unit>
       <trans-unit id="3bc8663376c647160124246b5567fe1f" approved="yes">
         <source>If you own an SSL certificate for your shop's domain name, you can activate SSL encryption (https://) for all the pages of your shop.</source>
         <target state="final">Pokud máte SSL certifikát pro doménu vašeho obchodu, můžete si aktivovat SSL šifrování (https://) na všech stránkách vašeho obchodu.</target>
-        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php [Line: 106]</note>
       </trans-unit>
       <trans-unit id="a3a0f3b2f4c12d1c11b9916c8c10c48c" approved="yes">
         <source>If you want to enable SSL on all the pages of your shop, activate the "Enable on all the pages" option below.</source>
@@ -472,6 +513,10 @@
       <trans-unit id="fff92cdf417b8a468af180474057a575" approved="yes">
         <source>Require customers to accept or decline terms of service before processing an order.</source>
         <target state="final">Vyžadovat od zákazníků přijmouti nebo odmítnouti podmínek služby před potvrzením objednávky</target>
+      </trans-unit>
+      <trans-unit id="de3c63a6c46e2ed9b86014d9da949b3e" approved="yes">
+        <source>Require customers to accept terms of service before processing an order.</source>
+        <target state="final">Vyžadovat, aby zákazníci před zpracováním objednávky odsouhlasili obchodní podmínky.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GeneralType.php [Line: 127]</note>
       </trans-unit>
       <trans-unit id="01d2aac5d20787a1e873f2bdc79b514a" approved="yes">
@@ -504,6 +549,11 @@
         <target state="final">Nastavit daň pro dárkové balení.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GiftOptionsType.php [Line: 125]</note>
       </trans-unit>
+      <trans-unit id="c673507ef400a7b700e8c8ede0ed7bac" approved="yes">
+        <source>Set the minimum order value required to proceed to checkout. Customers won’t be able to continue if their cart total is below this amount. Set to 0 to disable this restriction.</source>
+        <target state="final">Nastavte minimální hodnotu objednávky potřebnou pro pokračování k pokladně. Zákazníci nebudou moci pokračovat, pokud celková hodnota košíku nedosáhne této částky. Pro vypnutí tohoto omezení nastavte hodnotu 0.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GeneralType.php [Line: 105]</note>
+      </trans-unit>
       <trans-unit id="9175b705bec9604985209d1f2d88c785" approved="yes">
         <source>Set to "0" to disable this feature.</source>
         <target state="final">Nastavte 0, pokud chcete vypnout tuto vlastnost</target>
@@ -512,7 +562,6 @@
       <trans-unit id="96b2f955774aee5f11e61646b7d5ae43" approved="yes">
         <source>Set to 0 to disable this feature.</source>
         <target state="final">Nastavte 0, pokud chcete vypnout tuto vlastnost.</target>
-        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GeneralType.php [Line: 105]</note>
       </trans-unit>
       <trans-unit id="49aaf34d99febc7c13881d121288cd8a" approved="yes">
         <source>Shop registration information (e.g. SIRET or RCS).</source>
@@ -522,7 +571,7 @@
       <trans-unit id="9e9ad9fb2adc8da0aaec808b3d4e73e4" approved="yes">
         <source>Some of PrestaShop's features might not work correctly with a specific configuration of Apache's mod_security module. We recommend to turn it off.</source>
         <target state="final">Některé z funkcí PrestaShop nemusí s konkrétním nastavením modulu Apache mod_security pracovat správně. Doporučujeme jej vypnout.</target>
-        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/SetUpUrlType.php [Line: 151]</note>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/SetUpUrlType.php [Line: 155]</note>
       </trans-unit>
       <trans-unit id="75dfe702391b0e2cb38a1df614b40fb8" approved="yes">
         <source>Some themes allow your customers to add a product to their cart directly from the product list. You may want to deactivate this feature if a product has combinations, requiring your customers to check product details and choose one of the options.</source>
@@ -543,6 +592,11 @@
         <source>Suggest recycled packaging to customer.</source>
         <target state="final">Navrhněte zákazníkům použití recyklovaného obalu.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GiftOptionsType.php [Line: 135]</note>
+      </trans-unit>
+      <trans-unit id="d7ea625e2b60f5f00947667c1b46506a" approved="yes">
+        <source>The default order in which products are displayed in listings. The available sorting methods differ based on the page type.</source>
+        <target state="final">Výchozí pořadí, ve kterém se produkty zobrazují ve výpisech. Dostupné způsoby řazení se liší podle typu stránky.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/PaginationType.php [Line: 61]</note>
       </trans-unit>
       <trans-unit id="e3e0c764f81f1a3677d59aa238fddd14" approved="yes">
         <source>The group defined for your identified guest customers (used in guest checkout).</source>
@@ -567,7 +621,6 @@
       <trans-unit id="c18179baaeadd4a2fc27fafd3d6f40b1" approved="yes">
         <source>The order in which products are displayed in the product list.</source>
         <target state="final">Výchozí řazení pro seznam produktů.</target>
-        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/PaginationType.php [Line: 61]</note>
       </trans-unit>
       <trans-unit id="1a9a8cbb0899db011b7fec6df3326aa7" approved="yes">
         <source>The order status will be set to "On backorder" for new orders containing products that are out of stock.</source>
