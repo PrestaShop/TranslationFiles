@@ -87,6 +87,16 @@
         <target state="final">No es pot crear el missatge en una nova discussió.</target>
         <note>File: controllers/admin/AdminCustomerThreadsController.php [Line: 1114]</note>
       </trans-unit>
+      <trans-unit id="9c118b2bea17d0237608a634507f9caf" approved="yes">
+        <source>Choose the products you wish to combine into another shipment. These products will be moved from their current shipment to the selected destination shipment.</source>
+        <target state="final">Trieu els productes que voleu fusionar en un altre enviament. Aquests productes es traslladaran del seu enviament actual a l'enviament de destinació seleccionat.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/merge_shipment_form.html.twig [Line: 44]</note>
+      </trans-unit>
+      <trans-unit id="68d199965a726b3f85b8e42e4f5a6343" approved="yes">
+        <source>Choose the products you wish to separate into new, distinct shipments. These products will be moved from their original shipment.</source>
+        <target state="final">Trieu els productes que voleu separar en enviaments nous i diferents. Aquests productes es mouran del seu enviament original.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/split_shipment_form.html.twig [Line: 41]</note>
+      </trans-unit>
       <trans-unit id="14542f5997c4a02d4276da364657f501" approved="yes">
         <source>Direct link</source>
         <target state="final">Enllaç directe</target>
@@ -327,6 +337,16 @@
         <target state="final">Cercar productes</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/Create/cart.html.twig [Line: 50]</note>
       </trans-unit>
+      <trans-unit id="63bc73a8d5d3a542e2df2ca701864dda" approved="yes">
+        <source>Select an existing shipment to add the chosen products. Only shipments without a tracking number and not yet shipped are available.</source>
+        <target state="final">Seleccioneu un enviament existent per a afegir els productes triats. Sols són disponibles els enviaments sense número de seguiment i que encara no han estat enviats.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/merge_shipment_form.html.twig [Line: 105]</note>
+      </trans-unit>
+      <trans-unit id="e5bd2646e708767c77375896ead2d26e" approved="yes">
+        <source>Select the carrier that will be responsible for shipping the newly created shipment(s) containing the selected products.</source>
+        <target state="final">Seleccioneu el transportista que serà responsable d'enviar els enviaments acabats de creat que contenen els productes seleccionats.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/split_shipment_form.html.twig [Line: 108]</note>
+      </trans-unit>
       <trans-unit id="0e6becfb4c6566c35a8fda2d94891c70" approved="yes">
         <source>Shipping discount value cannot exceed the total price of this order.</source>
         <target state="final">El valor del descompte d'enviament no pot depassar el preu total d'aquesta comanda.</target>
@@ -427,6 +447,16 @@
         <target state="final">Aquest producte està exhaurit:</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 1068]</note>
       </trans-unit>
+      <trans-unit id="d89d6327e7e7f00b1aee73c12ee5c0a8" approved="yes">
+        <source>This shipment can't be merged because a tracking number has already been assigned, indicating that it has already been shipped.</source>
+        <target state="final">Aquest enviament no es pot fusionar perquè ja ha estat assignat un número de seguiment, cosa que indica que ja ha estat enviat.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/merge_shipment_form.html.twig [Line: 53]</note>
+      </trans-unit>
+      <trans-unit id="7c0e6fb2f9d772993e8e4dac43adaf69" approved="yes">
+        <source>This shipment can't be modified because a tracking number has already been assigned, indicating that it has already been shipped.</source>
+        <target state="final">Aquest enviament no pot ser modificat perquè ja ha estat assignat un número de seguiment, cosa que indica que ja ha estat enviat.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/split_shipment_form.html.twig [Line: 55]</note>
+      </trans-unit>
       <trans-unit id="4d734cc32a5cac86597621969696baa8" approved="yes">
         <source>This value must include taxes.</source>
         <target state="final">Aquest valor ha d'incloure impostos.</target>
@@ -466,6 +496,21 @@
         <source>You cannot edit the cart once the order delivered.</source>
         <target state="final">No podeu modificar la cistella un cop lliurada la comanda.</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2194]</note>
+      </trans-unit>
+      <trans-unit id="3c55c4e4f0f6d7be29df9ded3d51459d" approved="yes">
+        <source>You cannot merge shipment when is already shipped.</source>
+        <target state="final">No podeu fusionar un enviament quan ja ha estat enviat.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 730]</note>
+      </trans-unit>
+      <trans-unit id="e30e7be7409ca04e3ea3df998b46c65e" approved="yes">
+        <source>You cannot split shipment when is already shipped.</source>
+        <target state="final">No és possible de dividir l'enviament quan ja ha estat enviat.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 818]</note>
+      </trans-unit>
+      <trans-unit id="863f9820de8513ef6318191f496891dd" approved="yes">
+        <source>You can’t select all items to split the shipment. At least one item must remain in the original package to proceed.</source>
+        <target state="final">No podeu seleccionar tots els articles per a dividir l'enviament. Com a mínim un article ha de romandre al paquet original per a continuar.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/split_shipment_form.html.twig [Line: 50]</note>
       </trans-unit>
       <trans-unit id="aea807cc550550acd7b8d9a7bc469f6a" approved="yes">
         <source>You have to select a shop before creating new orders.</source>
