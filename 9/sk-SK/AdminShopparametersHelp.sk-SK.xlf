@@ -64,6 +64,11 @@
         <source>Automatically updates the shipping costs when you edit an order.</source>
         <target state="final">Pri úprave objednávky automaticky aktualizuje náklady na prepravu.</target>
       </trans-unit>
+      <trans-unit id="dcc9a3ac81d54b27a1e7f522a17a3d2a" approved="yes">
+        <source>Background color of this status label. Used both in backoffice and on order tracking page. HTML colors only.</source>
+        <target state="final">Farba pozadia štítku tohto stavu. Používa sa v administrácii aj na stránke sledovania objednávky. Iba HTML farby.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 181]</note>
+      </trans-unit>
       <trans-unit id="1122eba5946331d2709712f64fa1d66b" approved="yes">
         <source>By default, if you search "book", you will have "book", "bookcase" and "bookend".</source>
         <target state="final">Vo východzom nastavení, pokiaľ hľadáte slovo "auto", bude sa vo výsledkoch zobrazovať aj "automat" a "autobus".</target>
@@ -282,6 +287,11 @@
         <target state="final">Ak je povolené, všetky správy budu uložené na stránke "Zákazníci &gt; Zákaznícka podpora"</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/Contact/ContactType.php [Line: 127]</note>
       </trans-unit>
+      <trans-unit id="0d30027d8f6516854c9da7469b6d8a49" approved="yes">
+        <source>If order's invoice is not generated yet, this will generate it.</source>
+        <target state="final">Ak objednávke ešte nebola vygenerovaná faktúra, týmto sa vygeneruje.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 197]</note>
+      </trans-unit>
       <trans-unit id="a3a0f3b2f4c12d1c11b9916c8c10c48c" approved="yes">
         <source>If you want to enable SSL on all the pages of your shop, activate the "Enable on all the pages" option below.</source>
         <target state="final">Pokiaľ chcete používať SSL pre celý e-shop (všetky stránky e-shopu), aktivujte "Povoliť na všetkých stránkach" voľbu nižšie.</target>
@@ -291,6 +301,11 @@
         <source>Image height in pixels. Enter "0" to use the original size.</source>
         <target state="final">Výška obrázku v pixeloch. Zadajte "0" pre použitie pôvodnej veľkosti.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/CustomerPreferences/TitleType.php [Line: 94]</note>
+      </trans-unit>
+      <trans-unit id="e63a2ccfb58547d1d4dcdb6b96aa42f2" approved="yes">
+        <source>Image of this status used in the backoffice. (File type: .gif, suggested size: 16x16).</source>
+        <target state="final">Obrázok tohto stavu používaný v administrácii. (Typ súboru: .gif, odporúčaná veľkosť: 16 × 16).</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 176]</note>
       </trans-unit>
       <trans-unit id="62c7ceb6de5c4d39e49c9762af6ddb4d" approved="yes">
         <source>Image width in pixels. Enter "0" to use the original size.</source>
@@ -518,6 +533,31 @@
         <target state="final">Tento parameter sa použije, iba ak je aktivované nejasné vyhľadávanie, čím nižšia je hodnota, tým tolerantnejší bude váš výsledok.</target>
         <note>File: controllers/admin/AdminSearchConfController.php [Line: 227]</note>
       </trans-unit>
+      <trans-unit id="d71f4f6669b9df2a1bc83f4bf2a186c5" approved="yes">
+        <source>This will add an entry to order's "Payments" table, if it doesn't exist yet.</source>
+        <target state="final">Týmto sa pridá záznam do tabuľky „Platby“ objednávky, ak ešte neexistuje.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 221]</note>
+      </trans-unit>
+      <trans-unit id="d21af1d7df87c9b01b3141840adef2f1" approved="yes">
+        <source>This will create a delivery slip and mark a delivery date on order's invoice.</source>
+        <target state="final">Týmto sa vytvorí dodací list a vo faktúre objednávky sa nastaví dátum doručenia.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 229]</note>
+      </trans-unit>
+      <trans-unit id="1645de8c2684266ea78ab325c2fc44c3" approved="yes">
+        <source>This will mark the order as shipped. It will register a stock movement entry, prevent modifying the order and other things.</source>
+        <target state="final">Týmto sa objednávka označí ako odoslaná. Zaznamená sa pohyb na sklade, zablokujú sa úpravy objednávky a vykonajú sa ďalšie súvisiace kroky.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 213]</note>
+      </trans-unit>
+      <trans-unit id="72993cc97904585ea4f16aa9d0fda4ef" approved="yes">
+        <source>This will mark the order as successfuly processed - including it in customer's revenue, your shop stats etc.</source>
+        <target state="final">Týmto sa objednávka označí ako úspešne spracovaná - bude započítaná do obratu zákazníka, štatistík vášho e-shopu a pod.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 189]</note>
+      </trans-unit>
+      <trans-unit id="bf1fc852eb4242c369934b81e3117c63" approved="yes">
+        <source>This will send an email to the customer after assigning this status. Make sure to select proper email template below.</source>
+        <target state="final">Po priradení tohto stavu sa zákazníkovi odošle e-mail. Uistite sa, že nižšie vyberiete správnu e-mailovú šablónu.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 237]</note>
+      </trans-unit>
       <trans-unit id="14bc1d17bbcf8fb45debf11fb7c5f80b" approved="yes">
         <source>Title of this page.</source>
         <target state="final">Nadpis tejto stránky.</target>
@@ -541,6 +581,11 @@
       <trans-unit id="a9c2e14555131d68a4ac37b604ee52a8" approved="yes">
         <source>Upload an icon from your computer (File type: .gif, suggested size: 16x16).</source>
         <target state="final">Nahrať ikonu z počítača (typ: .gif, doporučená veľkosť: 16x16)</target>
+      </trans-unit>
+      <trans-unit id="7e7c876c57cabc4c3c99034d6b3764b0" approved="yes">
+        <source>Use this if you want this status to be internal only.</source>
+        <target state="final">Použite, ak chcete, aby bol tento stav určený iba na interné použitie.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 205]</note>
       </trans-unit>
       <trans-unit id="122941b469f97a0c0750a62126fba6cd" approved="yes">
         <source>We recommend that you deactivate your store while performing maintenance. Note that it will not disable the webservice.</source>
