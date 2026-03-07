@@ -32,6 +32,11 @@
         <target state="final">%s no válido.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Sell/Supplier/SupplierType.php [Line: 138]</note>
       </trans-unit>
+      <trans-unit id="1c4c6cc0c43756c723e1c9ebfc6748ab" approved="yes">
+        <source>%s is invalid. Please enter an integer between 0 and %s.</source>
+        <target state="final">%s es válido. Por favor, introduce un número entero entre 0 y %s.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Customer/CustomerType.php [Line: 348]</note>
+      </trans-unit>
       <trans-unit id="8f2569cb25ecb7b7540661a20ac65e68" approved="yes">
         <source>%s is invalid. Please enter an integer greater than %s.</source>
         <target state="final">%s no es válido. Introduce un número entero mayor que %s.</target>
@@ -246,6 +251,11 @@
         <target state="final">Autorización no permitida para este contexto de tienda.</target>
         <note>File: src/PrestaShopBundle/EventListener/Admin/Context/ShopContextSubscriber.php [Line: 278]</note>
       </trans-unit>
+      <trans-unit id="96a01e03fa91cafcf72ee464ee7b718e" approved="yes">
+        <source>Authorization not allowed for this store.</source>
+        <target state="final">Autorización no permitida para esta tienda.</target>
+        <note>File: src/PrestaShopBundle/EventListener/Admin/Context/ShopContextSubscriber.php [Line: 266]</note>
+      </trans-unit>
       <trans-unit id="ee77ea46b0c548ed60eadf31bdd68613" approved="yes">
         <source>Bad SQL query</source>
         <target state="final">Consulta SQL incorrecta</target>
@@ -430,6 +440,16 @@
         <source>Gift message not valid</source>
         <target state="final">Mensaje de regalo no válido</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/CartController.php [Line: 768]</note>
+      </trans-unit>
+      <trans-unit id="6b2bd67e6f59d45845a496888d11260c" approved="yes">
+        <source>Graph module could not be loaded.</source>
+        <target state="final">El módulo de gráficos no se ha podido cargar.</target>
+        <note>File: controllers/admin/AdminStatsController.php [Line: 984]</note>
+      </trans-unit>
+      <trans-unit id="90ac55dafa8dbb3a4329ed3960402eef" approved="yes">
+        <source>Grid module could not be loaded.</source>
+        <target state="final">El módulo de cuadrícula no se ha podido cargar.</target>
+        <note>File: controllers/admin/AdminStatsController.php [Line: 1028]</note>
       </trans-unit>
       <trans-unit id="4dedf35a15365e00b8a151fc1daed3af" approved="yes">
         <source>Image format not recognized, allowed format(s) is(are): .%s</source>
@@ -714,6 +734,11 @@
         <target state="final">Se requiere mensaje de respuesta</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Sell/CustomerService/ReplyToCustomerThreadType.php [Line: 42]</note>
       </trans-unit>
+      <trans-unit id="876bf016176064bc6ef0cdfca73bdafb" approved="yes">
+        <source>Role(s) assigned to employee cannot be deleted</source>
+        <target state="final">Los roles asignados al empleado no puede ser eliminado</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ProfileController.php [Line: 294]</note>
+      </trans-unit>
       <trans-unit id="e1f19b2938605ab0bdc64ba270815786" approved="yes">
         <source>Same product quantity is already in cart</source>
         <target state="final">La misma cantidad del producto ya está en el carrito</target>
@@ -819,6 +844,16 @@
         <target state="final">El correo electrónico ya está en uso, elija otro</target>
         <note>File: classes/Customer.php [Line: 369]</note>
       </trans-unit>
+      <trans-unit id="111ca1faaef531298d7dfb58ac45644e" approved="yes">
+        <source>The expiration date must be after start date</source>
+        <target state="final">La fecha de caducidad debe ser posterior a la fecha de inicio.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Discount/DiscountPeriodType.php [Line: 35]</note>
+      </trans-unit>
+      <trans-unit id="bc59794bf2e27147861f4014fb25ffe7" approved="yes">
+        <source>The field "%field%" cannot be longer than %limit% characters.</source>
+        <target state="final">El campo "%field%" no puede tener más de %limit% caracteres.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/AdminAPIController.php [Line: 318]</note>
+      </trans-unit>
       <trans-unit id="2782e6f430c2658c79aecfcecdc0d0e8" approved="yes">
         <source>The field %field_name% is required at least in %lang%.</source>
         <target state="final">El campo %field_name% es requerido al menos en %lang%.</target>
@@ -879,6 +914,11 @@
         <target state="final">La opción seleccionada en el campo %s no es válida.</target>
         <note>File: classes/controller/AdminController.php [Line: 1515]</note>
       </trans-unit>
+      <trans-unit id="7a9297dee3c09f4cd95c34f371812fca" approved="yes">
+        <source>The page you're looking for could not be found. This might be due to a typo in the URL, an outdated link, or because the page was part of a module that is no longer installed.</source>
+        <target state="final">No se pudo encontrar la página que buscas. Esto podría deberse a un error tipográfico en la URL, a un enlace desactualizado o a que la página formaba parte de un módulo que ya no está instalado.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Error/error404.html.twig [Line: 30]</note>
+      </trans-unit>
       <trans-unit id="4094e2b5b97c257c5805be4554a7e589" approved="yes">
         <source>The password doesn't meet the password policy requirements.</source>
         <target state="final">La contraseña no cumple con los requisitos de la política de contraseñas.</target>
@@ -896,13 +936,18 @@
       </trans-unit>
       <trans-unit id="cc8f0fe2d629bd1810331b1a265914ec" approved="yes">
         <source>The selected condition must be different in each field to set an order of priority.</source>
-        <target state="final">La condición seleccionada debe ser diferente en cada campo para definir un orden de prioridad.</target>
+        <target state="final">La condición seleccionada debe ser diferente en cada campo para establecer un orden de prioridad.</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/ProductController.php [Line: 1766]</note>
       </trans-unit>
       <trans-unit id="8f29c70fd66f50ce28b727cd40c6a3a3" approved="yes">
         <source>The selected date range is not valid.</source>
         <target state="final">El intervalo de fechas seleccionado no es válido.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Pricing/SpecificPriceType.php [Line: 140]</note>
+      </trans-unit>
+      <trans-unit id="b9858844487d4453664143257f104266" approved="yes">
+        <source>The selected default page is not accessible by the selected profile.</source>
+        <target state="final">La página por defecto seleccionada no es accesible para el perfil seleccionado.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/EmployeeController.php [Line: 481]</note>
       </trans-unit>
       <trans-unit id="1348633590e241b276cdbb7ceaeb8295" approved="yes">
         <source>The selected value belongs to another feature.</source>
@@ -958,6 +1003,10 @@
         <source>This association has too many elements.</source>
         <target state="final">Esta asociación contiene ya demasiados elementos.</target>
         <note>File: classes/AddressFormat.php [Line: 158]</note>
+      </trans-unit>
+      <trans-unit id="fdd0f930eba8bb3e975eaeb7e8036ec2" approved="yes">
+        <source>This cart rule code is already used</source>
+        <target state="final">Este código para el carrito ya está siendo utilizado</target>
       </trans-unit>
       <trans-unit id="47be00818e1acd46db0092d6586204cf" approved="yes">
         <source>This class name does not exist.</source>
@@ -1019,6 +1068,11 @@
         <target state="final">Este campo es obligatorio.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceKeyType.php [Line: 85]</note>
       </trans-unit>
+      <trans-unit id="257ec95a959075f6af07ab976e07e87c" approved="yes">
+        <source>This field must be between %min% and %max%</source>
+        <target state="final">Este campo debe estar entre %min% y %max%</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Improve/Design/ImageSettings/ImageTypeType.php [Line: 76]</note>
+      </trans-unit>
       <trans-unit id="e0a602c130d12d57cd4ca2a8b9240917" approved="yes">
         <source>This file must be writable:</source>
         <target state="final">Este archivo debe tener permisos de escritura:</target>
@@ -1068,6 +1122,11 @@
         <source>This property does not exist in the class or is forbidden.</source>
         <target state="final">Esta propiedad no existe en la clase o está prohibida.</target>
         <note>File: classes/AddressFormat.php [Line: 131]</note>
+      </trans-unit>
+      <trans-unit id="0b23d15a0490ea1b57d347923236bde8" approved="yes">
+        <source>This value for "%field%" is already used and must be unique.</source>
+        <target state="final">Este valor para "%field%" ya está en uso y debe ser único.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/AdminAPIController.php [Line: 282]</note>
       </trans-unit>
       <trans-unit id="a5d028cb6593937f07a5b50b210fc78d" approved="yes">
         <source>This value should be greater than %value%</source>
@@ -1148,6 +1207,11 @@
         <source>You cannot delete this item.</source>
         <target state="final">No puede eliminar este elemento.</target>
         <note>File: classes/controller/AdminController.php [Line: 1123]</note>
+      </trans-unit>
+      <trans-unit id="171460399d524a507ddf20a4c37275fa" approved="yes">
+        <source>You cannot delete your own role</source>
+        <target state="final">No puedes eliminar tu propio rol</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ProfileController.php [Line: 299]</note>
       </trans-unit>
       <trans-unit id="fd44c173b6a7897151a978b9015fec76" approved="yes">
         <source>You cannot disable the Main URL.</source>
