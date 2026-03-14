@@ -2,6 +2,16 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="Admin.Advparameters.Help.xlf" source-language="en" target-language="bs" datatype="plaintext">
     <body>
+      <trans-unit id="fe050086c8e957bb40299c4611b4bbc3" approved="yes">
+        <source>(Optional) Insert a cookie name to enable the debug mode only when this cookie is set.</source>
+        <target state="final">(Opcionalno) Unesite naziv kolačića da biste omogućili debug mod samo kada je ovaj kolačić postavljen.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/DebugModeType.php [Line: 39]</note>
+      </trans-unit>
+      <trans-unit id="9bf478ab5066ec64ad324dc382ae9f4d" approved="yes">
+        <source>(Optional) Insert a value to enable the debug mode only when the cookie configured above is set to this value.</source>
+        <target state="final">(Opcionalno) Unesite vrijednost da biste omogućili debug mod samo kada je kolačić iznad konfigurisan postavljen na ovu vrijednost.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/DebugModeType.php [Line: 48]</note>
+      </trans-unit>
       <trans-unit id="10402f7c5b23f2156415aefabea831d2" approved="yes">
         <source>A DKIM selector usually looks like 12345.domain. It must match the name of your DNS record.</source>
         <target state="final">DKIM selektor obično izgleda kao 12345.domain. Mora odgovarati imenu vašeg DNS zapisa.</target>
@@ -12,10 +22,25 @@
         <target state="final">Korijenska kategorija je kategorija od koje počinje stablo. Ovo se koristi kod multi-trgovina.</target>
         <note>File: src/Core/Import/EntityField/Provider/CategoryFieldsProvider.php [Line: 44]</note>
       </trans-unit>
+      <trans-unit id="9afeb8748337da04d433f34b5a4e2ae8" approved="yes">
+        <source>A friendly name to identify this API client.</source>
+        <target state="final">Prijateljski naziv za identifikaciju ovog API klijenta.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ApiClientType.php [Line: 35]</note>
+      </trans-unit>
+      <trans-unit id="256977e036c3b9977b5ad2057ce25747" approved="yes">
+        <source>Admin API forces the use of HTTPS with TLSv1.2 or higher, you can disable this check for debug mode only.</source>
+        <target state="final">Admin API forsira korištenje HTTPS-a s TLSv1.2 ili novijim, ovu provjeru možete onemogućiti samo za debug mod.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ConfigurationType.php [Line: 66]</note>
+      </trans-unit>
       <trans-unit id="54cde7677b5a5624041c00c100224cbc" approved="yes">
         <source>All outdated sessions will be automatically cleared after the first connection attempt, but you can do it manually now if needed.</source>
         <target state="final">Sve zastarjele sesije će se automatski obrisati nakon prvog pokušaja povezivanja, ali sada to možete učiniti ručno ako je potrebno.</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Security/clear_form.html.twig [Line: 19]</note>
+      </trans-unit>
+      <trans-unit id="a951bd27ed3722e63e13ff4c73a3749a" approved="yes">
+        <source>Allow or deny this employee's access to the Admin panel.</source>
+        <target state="final">Dozvolite ili zabranite pristup ovom zaposleniku Admin panelu.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Employee/EmployeeType.php [Line: 186]</note>
       </trans-unit>
       <trans-unit id="a27780d9bb7b3595998465aadcaaeed7" approved="yes">
         <source>Allowed formats: .csv, .xls, .xlsx, .xlst, .ods, .ots</source>
@@ -47,6 +72,11 @@
         <target state="final">Prije odabira "Da", provjerite da PHP nije podešen kao Apache modul na vašem serveru.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceConfigurationType.php [Line: 57]</note>
       </trans-unit>
+      <trans-unit id="a69a11ce9386d040c3f8190631a94405" approved="yes">
+        <source>Before enabling the Admin API, you must be sure to:</source>
+        <target state="final">Prije omogućavanja Admin API-ja, morate biti sigurni da:</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ConfigurationType.php [Line: 30]</note>
+      </trans-unit>
       <trans-unit id="460e080fb0af5e1ca93a24dbf1e3da2f" approved="yes">
         <source>CCC allows you to reduce the loading time of your page. With these settings you will gain performance without even touching the code of your theme. Make sure, however, that your theme is compatible with PrestaShop 1.7+. Otherwise, CCC will cause problems.</source>
         <target state="final">KKK  am dozvoljava smanjenje vremena učitavanja vaše stranice. S ovim podešavanjima dobit ćete performanse bez diranja koda vaše teme. Osigurajte, ipak, da je vaša tema kompatibilna s PrestaShop 1.7+. Ukoliko nije, KKK bi mogao uzrokovati probleme.</target>
@@ -57,10 +87,20 @@
         <target state="final">Provjerite da li je URL rewriting omogućen na ovom serveru.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceConfigurationType.php [Line: 32]</note>
       </trans-unit>
+      <trans-unit id="baa8a433ad80dca4cd8228bed0f9830a" approved="yes">
+        <source>Check that the ps_apiressources module is installed and enabled.</source>
+        <target state="final">Provjerite je li modul ps_apiressources instaliran i omogućen.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ConfigurationType.php [Line: 35]</note>
+      </trans-unit>
       <trans-unit id="000552d95fb9e18ac08ca27098bf1d41" approved="yes">
         <source>Check that the six methods GET, POST, PUT, PATCH, DELETE and HEAD are supported by this server.</source>
         <target state="final">Provjerite podržava li ovaj server šest metoda GET, POST, PUT, PATCH, DELETE i HEAD.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceConfigurationType.php [Line: 37]</note>
+      </trans-unit>
+      <trans-unit id="4fd3837cfea9a5bd4ff2e83318df2cd5" approved="yes">
+        <source>Check that your Admin API endpoint uses HTTPS protocol.</source>
+        <target state="final">Provjerite da li vaša krajnja tačka Admin API-ja koristi HTTPS protokol.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ConfigurationType.php [Line: 50]</note>
       </trans-unit>
       <trans-unit id="0f81567617bb8ebc23f48e74d8ae8acf" approved="yes">
         <source>Check the IP address of the cookie in order to prevent your cookie from being stolen.</source>
@@ -162,25 +202,111 @@
         <target state="final">Omogući/Onemogući stranicu grupe kupaca.</target>
         <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 51]</note>
       </trans-unit>
+      <trans-unit id="e3b0435c3f0d00986c9a3c36f2adc541" approved="yes">
+        <source>Enable / Disable the merchandise return page.</source>
+        <target state="final">Omogući / Onemogući stranicu za povrat robe.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 57]</note>
+      </trans-unit>
+      <trans-unit id="ba40d461815161e3564db4c519f5ba32" approved="yes">
+        <source>Enable / Disable the module configuration page.</source>
+        <target state="final">Omogući / Onemogući stranicu za konfiguraciju modula.</target>
+      </trans-unit>
+      <trans-unit id="aa98968d82b215222dd5e4b3518050a9" approved="yes">
+        <source>Enable / Disable the new discount system.</source>
+        <target state="final">Omogući / Onemogući novi sistem popusta.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 63]</note>
+      </trans-unit>
+      <trans-unit id="15298e67b30b928fd857c6d2625debda" approved="yes">
+        <source>Enable / Disable the new front container.</source>
+        <target state="final">Omogući / Onemogući novi prednji kontejner.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 48]</note>
+      </trans-unit>
+      <trans-unit id="619c636194b7d9017b2f76f37ae7e781" approved="yes">
+        <source>Enable / Disable the newly improved shipment system.</source>
+        <target state="final">Omogući / Onemogući novo poboljšani sistem otpreme.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 60]</note>
+      </trans-unit>
       <trans-unit id="437ad32eb05dae211c16bff63c093e05" approved="yes">
         <source>Enable / Disable the store page.</source>
         <target state="final">Omogući/Onemogući stranicu prodavnice.</target>
         <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 54]</note>
+      </trans-unit>
+      <trans-unit id="791671e0c5bc533d24d236d1f03c554a" approved="yes">
+        <source>Enable / Disable the tag page.</source>
+        <target state="final">Omogući / Onemogući stranicu s tagovima.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 66]</note>
       </trans-unit>
       <trans-unit id="3d24e5589702a2ecfd1d65813b4a892e" approved="yes">
         <source>Enable DKIM, fill in the fields and give it a try. If no email is sent, check logs.</source>
         <target state="final">Omogućite DKIM, ispunite polja i pokušajte. Ako nije poslan e-mail, provjerite logove.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Email/EmailConfigurationType.php [Line: 94]</note>
       </trans-unit>
+      <trans-unit id="abef01780b7419768943a18d85666f09" approved="yes">
+        <source>Enable or disable debug mode. Debug mode will enable extended error reporting, display the Symfony debug bar, and other features.</source>
+        <target state="final">Omogućite ili onemogućite način otklanjanja grešaka. Režim za otklanjanje grešaka(debug mod) će omogućiti prošireno izveštavanje o greškama, prikazati Symfony traku za otklanjanje grešaka i druge funkcije.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/DebugModeType.php [Line: 33]</note>
+      </trans-unit>
+      <trans-unit id="913a55381fe0db5ad85c59b8a693fd18" approved="yes">
+        <source>Enable or disable debug profiling. Debug profiling will display performance-related information under each page and help find performance bottlenecks in your store.</source>
+        <target state="final">Omogućite ili onemogućite profiliranje otklanjanja grešaka. Profiliranje za otklanjanje grešaka će prikazati informacije vezane za performanse ispod svake stranice i pomoći u pronalaženju uskih grla u performansama u vašoj trgovini.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/DebugModeType.php [Line: 56]</note>
+      </trans-unit>
+      <trans-unit id="54fc44d77b5d7cbb0234880a1931dad9" approved="yes">
+        <source>Enable or disable the Admin API when multistore is enabled.</source>
+        <target state="final">Omogućite ili onemogućite Admin API kada je omogućen multistore.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 9]</note>
+      </trans-unit>
+      <trans-unit id="a536359574c27ee963de828ff56241c7" approved="yes">
+        <source>Enable or disable the migrated attribute page.</source>
+        <target state="final">Omogućite ili onemogućite preseljenu stranicu atributa.</target>
+      </trans-unit>
       <trans-unit id="8437c82aa6a57b80f6956352690d7e47" approved="yes">
         <source>Enable or disable the migrated carriers page.</source>
         <target state="final">Omogućite ili onemogućite stranicu migriranih operatera.</target>
         <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 29]</note>
       </trans-unit>
+      <trans-unit id="f86c7bed82286a17b1e557d7235ed4a0" approved="yes">
+        <source>Enable or disable the migrated cart rules page.</source>
+        <target state="final">Omogućite ili onemogućite stranicu s pravilima migrirane korpe.</target>
+      </trans-unit>
+      <trans-unit id="17e98e038d333c2d89bc59c843414298" approved="yes">
+        <source>Enable or disable the migrated catalog price rules page.</source>
+        <target state="final">Omogućite ili onemogućite stranicu s migriranim kataloškim pravilima cijena.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 17]</note>
+      </trans-unit>
+      <trans-unit id="dec852ff965efbef1b33366c7b927acd" approved="yes">
+        <source>Enable or disable the migrated countries page.</source>
+        <target state="final">Omogućite ili onemogućite stranicu migriranih zemalja.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 21]</note>
+      </trans-unit>
+      <trans-unit id="4c225d5d1f44741cfa6e05837c40d4e3" approved="yes">
+        <source>Enable or disable the migrated customer threads page.</source>
+        <target state="final">Omogućite ili onemogućite preseljenu stranicu s temama korisnika.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 41]</note>
+      </trans-unit>
       <trans-unit id="a7980eefb5f08f8f3555df73e3dfa63f" approved="yes">
         <source>Enable or disable the migrated order states page.</source>
         <target state="final">Omogućite ili onemogućite stranicu stanja migrirane narudžbe.</target>
         <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 45]</note>
+      </trans-unit>
+      <trans-unit id="e93e9e56b71f065655b06fd7b069f181" approved="yes">
+        <source>Enable or disable the migrated permissions page.</source>
+        <target state="final">Omogućite ili onemogućite preseljenu stranicu dozvola.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 33]</note>
+      </trans-unit>
+      <trans-unit id="21686cbcfb36e6039ba2f0af0909b05b" approved="yes">
+        <source>Enable or disable the migrated states page.</source>
+        <target state="final">Omogućite ili onemogućite stranicu migriranih stanja.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 25]</note>
+      </trans-unit>
+      <trans-unit id="acf9650ec7716ce837f6865d0dcc289b" approved="yes">
+        <source>Enable or disable the migrated tax rules page.</source>
+        <target state="final">Omogućite ili onemogućite stranicu migriranih poreznih pravila.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 37]</note>
+      </trans-unit>
+      <trans-unit id="375f32d57378784ca73de6ae649adf60" approved="yes">
+        <source>Enable or disable the migrated titles page.</source>
+        <target state="final">Omogućite ili onemogućite migriranu stranicu naslova.</target>
       </trans-unit>
       <trans-unit id="e667b16af30e0820218ad32242e284dc" approved="yes">
         <source>Enable or disable this shop group?</source>
@@ -192,10 +318,20 @@
         <target state="final">Omogućite ovu opciju da bi čuvali vaš uvezeni ID broj proizvoda. Inače PrestaShop će ignorisati taj broj i kreirati nove auto rastuće ID brojeve.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Import/ImportType.php [Line: 101]</note>
       </trans-unit>
+      <trans-unit id="408b9afa3037a223d76ff924a1e98fad" approved="yes">
+        <source>Enabling multi-statements queries increases the risk of SQL injection vulnerabilities being exploited.</source>
+        <target state="final">Omogućavanje upita s više izraza povećava rizik od iskorištavanja ranjivosti SQL injekcije.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/RequestSql/SqlRequestSettingsType.php [Line: 43]</note>
+      </trans-unit>
       <trans-unit id="902b0d55fddef6f8d651fe1035b7d4bd" approved="yes">
         <source>Error</source>
         <target state="final">Greška</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/LogsPage/Blocks/severity_levels.html.twig [Line: 31]</note>
+      </trans-unit>
+      <trans-unit id="e6eadec0336eb998ef6d6f4ef534fc41" approved="yes">
+        <source>Experimental API endpoints are disabled by default in prod environment, this configuration allows to forcefully enable them.</source>
+        <target state="final">Eksperimentalne API krajnje tačke su podrazumevano onemogućene u prod okruženju, ova konfiguracija omogućava njihovo prisilno omogućavanje.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 13]</note>
       </trans-unit>
       <trans-unit id="b8dc7c80939667637db7ac31ece215b9" approved="yes">
         <source>Fabulous</source>
@@ -236,6 +372,11 @@
         <target state="final">Kako vratiti sigurnosnu kopiju (backup) u 10 lakih koraka</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Backup/Blocks/backup_info.html.twig [Line: 8]</note>
       </trans-unit>
+      <trans-unit id="2a3c280f73a3389c6ba4b2d87c8aa15f" approved="yes">
+        <source>IP address or server name (e.g. smtp.mydomain.com).</source>
+        <target state="final">IP adresa ili naziv servera (npr. smtp.mydomain.com).</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Email/SmtpConfigurationType.php [Line: 38]</note>
+      </trans-unit>
       <trans-unit id="a1e749fdff79ab0d40843bacb8fe0de2" approved="yes">
         <source>If enabled, the backup script will drop your tables prior to restoring data. (ie. "DROP TABLE IF EXISTS")</source>
         <target state="final">Ako je omogućeno, skripta za sigurnosnu kopiju će obrisati vaše tabele prije povrata podataka sigurnosne kopije. (npr. "DROP TABLE IF EXISTS")</target>
@@ -260,6 +401,16 @@
         <source>If your backup file exceeds this limit, contact your hosting provider for assistance. </source>
         <target state="final">Ako vaša datoteka sigurnosne kopije prelazi tu granicu, kontaktirajte vašeg web provajdera usluge za pomoć. </target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Backup/Blocks/backup_info.html.twig [Line: 20]</note>
+      </trans-unit>
+      <trans-unit id="d2beb087630a099f2fada85e7f2f19fb" approved="yes">
+        <source>Ignore this field if you don't use the Multistore tool. If you leave this field empty, the default store will be used.</source>
+        <target state="final">Zanemarite ovo polje ako ne koristite alatku Multistore. Ako ostavite ovo polje prazno, koristit će se zadana trgovina.</target>
+        <note>File: src/Core/Import/EntityField/Provider/SupplierFieldsProvider.php [Line: 47]</note>
+      </trans-unit>
+      <trans-unit id="78718fcedf6e109eefb8fc2da41946b3" approved="yes">
+        <source>Indicate the minimum log levels that will be saved in database.</source>
+        <target state="final">Označava minimalne log nivoe koji će biti sačuvani u bazu podataka.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Logs/DatabaseLogsType.php [Line: 32]</note>
       </trans-unit>
       <trans-unit id="b80c52e7f679fba3c2837b42705fe779" approved="yes">
         <source>Informative only</source>
@@ -301,6 +452,11 @@
         <target state="final">Naziv druge domene Vaše trgovine, (npr. moja-trgovina-media-server-2.com). Ukoliko nemate drugu domenu, ostavite ovo polje praznim.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/MediaServersType.php [Line: 32]</note>
       </trans-unit>
+      <trans-unit id="2566fed9ede40ae26636b773594094cf" approved="yes">
+        <source>Notifications are numbered bubbles displayed at the very top of your back office, right next to the shop's name. They display the number of new items since you last clicked on them.</source>
+        <target state="final">Obavijesti su numerirani mjehurići prikazani na samom vrhu admin panela, desno do imena trgovine. Oni prikazuju broj novih predmeta od zadnjeg klika na njih.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/administration.html.twig [Line: 66]</note>
+      </trans-unit>
       <trans-unit id="26b63f278101527e06a5547719568bb5" approved="yes">
         <source>Okay</source>
         <target state="final">Okej</target>
@@ -320,6 +476,11 @@
         <source>Only UTF-8 and ISO 8859-1 encodings are allowed</source>
         <target state="final">Samo UTF-8 i ISO-8859-1 formati su dozvoljeni</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Blocks/import_panel.html.twig [Line: 71]</note>
+      </trans-unit>
+      <trans-unit id="6d490db61b8ecf0265c12a19a569cf70" approved="yes">
+        <source>Optional description to help identify the purpose of this API client.</source>
+        <target state="final">Opcionalni opis koji pomaže u identifikaciji svrhe ovog API klijenta.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ApiClientType.php [Line: 79]</note>
       </trans-unit>
       <trans-unit id="d222c4d0463bd3f146536ac89c0d7c77" approved="yes">
         <source>Password should be at least %num% characters long.</source>
@@ -356,6 +517,11 @@
         <target state="final">Rezultati su cijeli brojevi od 0 do 4.</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Security/index.html.twig [Line: 46]</note>
       </trans-unit>
+      <trans-unit id="7774f7ea613f49f5246f9ff5e96d29de" approved="yes">
+        <source>Select the stores the employee is allowed to access.</source>
+        <target state="final">Odaberite trgovine kojima je zaposleniku dozvoljen pristup.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Employee/EmployeeType.php [Line: 203]</note>
+      </trans-unit>
       <trans-unit id="7bf215c957e661c3bd8ad7f6221675c9" approved="yes">
         <source>Set "Enable Shop" to "No" in the "Maintenance" page under the "Preferences" menu.</source>
         <target state="final">Postavite "Omogući trgovinu" na "Ne" na stranici "Održavanje" pod menijem "Postavke".</target>
@@ -391,6 +557,11 @@
         <target state="final">Neke osobine mogu se onemogućiti kako bi poboljšali performanse.</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/performance.html.twig [Line: 117]</note>
       </trans-unit>
+      <trans-unit id="632302a9aad39525dd7c924a2cd01053" approved="yes">
+        <source>The duration for which an access token remains valid.</source>
+        <target state="final">Trajanje u kojem token za pristup ostaje važeći.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ApiClientType.php [Line: 101]</note>
+      </trans-unit>
       <trans-unit id="7256aed5ef7ebd86c3b3d98480d9cc60" approved="yes">
         <source>The private key starts with -----BEGIN RSA PRIVATE KEY-----.</source>
         <target state="final">Privatni ključ počinje s -----BEGIN RSA PRIVATE KEY-----.</target>
@@ -400,6 +571,16 @@
         <source>The selected shop already has a Main URL. Therefore, if you set this one as the Main URL, the older Main URL will be set as a regular URL.</source>
         <target state="final">Odabrana trgovina već ima glavni URL. Stoga, ako postavite ovaj kao glavni URL, stari glavni URL biti će postavljen kao normalan URL.</target>
         <note>File: controllers/admin/AdminShopUrlController.php [Line: 188]</note>
+      </trans-unit>
+      <trans-unit id="4c63a96067c3efe7d753b811696f7bac" approved="yes">
+        <source>The unique identifier for this client, used for API authentication. Only lowercase letters, numbers and hyphens are allowed.</source>
+        <target state="final">Jedinstveni identifikator za ovog klijenta, koji se koristi za API autentifikaciju. Dozvoljena su samo mala slova, brojevi i crtice.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ApiClientType.php [Line: 57]</note>
+      </trans-unit>
+      <trans-unit id="dde647098e1fb2236dc49df662679a7f" approved="yes">
+        <source>This FeatureFlag is forced by Env.</source>
+        <target state="final">Ovaj FeatureFlag je nametnut od strane Env.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/FeatureFlag/FormTheme/feature_flag_form.html.twig [Line: 31]</note>
       </trans-unit>
       <trans-unit id="767bd2cbfe41f0aa3f3e4ff306a75b89" approved="yes">
         <source>This feature allows you to identify modules that might be causing bugs on your store. Disable all non-built-in modules (not listed in composer.json). Then, re-enable each module one by one and check that everything works properly before moving on to the next one.</source>
@@ -476,6 +657,11 @@
         <target state="final">Također možete izvesti rezultat upita u CSV datoteku klikom na dugme "%export_label%"</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/RequestSql/index.html.twig [Line: 16]</note>
       </trans-unit>
+      <trans-unit id="6578c8c9a3dbadb0a3672c3ca6c0b513" approved="yes">
+        <source>You can also upload your file via FTP to the following directory: %s .</source>
+        <target state="final">Također, možete prabeciti Vašu datoteku putem FTP-a u sljedeću mapu: %s .</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Blocks/import_panel.html.twig [Line: 72]</note>
+      </trans-unit>
       <trans-unit id="084ad8abffc138f8d43f0a77824396b9" approved="yes">
         <source>You can read information on import at:</source>
         <target state="final">Možete pročitati informacije o uvozu na:</target>
@@ -505,6 +691,11 @@
         <source>e.g. Blouse; red.jpg, blue.jpg, green.jpg; 129.90 </source>
         <target state="final">npr. Blouse; red.jpg, blue.jpg, green.jpg; 129.90 </target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Import/ImportType.php [Line: 68]</note>
+      </trans-unit>
+      <trans-unit id="69b2fa39bac2b03f7b5c8e63bf5c6e99" approved="yes">
+        <source>https://docs.prestashop-project.org/v.8-documentation/user-guide/configuring-shop/advanced-parameters/import</source>
+        <target state="final">https://docs.prestashop-project.org/v.8-documentation/user-guide/configuring-shop/advanced-parameters/import</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Blocks/import_panel.html.twig [Line: 21]</note>
       </trans-unit>
       <trans-unit id="9d23c31f2dcc1ace9296037f327563a4" approved="yes">
         <source>https://en.wikipedia.org/wiki/Comma-separated_values</source>
