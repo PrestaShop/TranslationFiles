@@ -2,6 +2,11 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="Shop.Notifications.Error.xlf" source-language="en" target-language="bs" datatype="plaintext">
     <body>
+      <trans-unit id="e9c8b958cbfb895182fe7eeeeadd1121" approved="yes">
+        <source>A customer account has already been created from this guest account. Please sign in.</source>
+        <target state="final">Korisnički račun je već kreiran s ovog gos računa. Molimo vas da se prijavite.</target>
+        <note>File: controllers/front/OrderConfirmationController.php [Line: 174]</note>
+      </trans-unit>
       <trans-unit id="7cc92687130ea12abb80556681538001" approved="yes">
         <source>An error occurred during the image upload process.</source>
         <target state="final">Došlo je do greške prilikom dodavanja uploada slike.</target>
@@ -87,6 +92,11 @@
         <target state="final">Nevažeća poruka</target>
         <note>File: modules/contactform/contactform.php [Line: 419]</note>
       </trans-unit>
+      <trans-unit id="e14005ecaeec15e1019f543a379b83cc" approved="yes">
+        <source>Invalid message.</source>
+        <target state="final">Nevažeća poruka.</target>
+        <note>File: controllers/front/ProductController.php [Line: 951]</note>
+      </trans-unit>
       <trans-unit id="6b9cc232bf4044274ec42062b60736fb" approved="yes">
         <source>Invoices are disabled in this shop.</source>
         <target state="final">Fakture su onemogućene u ovoj trgovini.</target>
@@ -116,6 +126,11 @@
         <source>Password is required</source>
         <target state="final">Potrebna je lozinka</target>
         <note>File: classes/form/CustomerPersister.php [Line: 169]</note>
+      </trans-unit>
+      <trans-unit id="e74bbc67e02323a626ce95619ef42fd5" approved="yes">
+        <source>Password must be between %d and %d characters long</source>
+        <target state="final">Lozinka mora biti dugačka između %d i %d znakova</target>
+        <note>File: controllers/front/PasswordController.php [Line: 151]</note>
       </trans-unit>
       <trans-unit id="e6f6a5e58ee6d010f22e4b3dbd756213" approved="yes">
         <source>Please check at least one product you would like to return.</source>
@@ -157,6 +172,11 @@
         <target state="final">Neki proizvodi nisu dostupni, nismo u mogućnosti obnoviti Vašu narudžbu.</target>
         <note>File: controllers/front/OrderController.php [Line: 74]</note>
       </trans-unit>
+      <trans-unit id="09389b199ea8bfbfbaae78c3ba7a22e9" approved="yes">
+        <source>Some of the countries used in your cart are not available and cannot be used.</source>
+        <target state="final">Neke od zemalja koje ste koristili u svojoj korpi nisu dostupne i ne mogu se koristiti.</target>
+        <note>File: controllers/front/CartController.php [Line: 74]</note>
+      </trans-unit>
       <trans-unit id="56ca67fde405db4d75fb5fc3350db81b" approved="yes">
         <source>Sorry. We cannot renew your order.</source>
         <target state="final">Nažalost, ne možemo obnoviti Vašu narudžbu.</target>
@@ -166,6 +186,11 @@
         <source>The %1$s field is too long (%2$d chars max).</source>
         <target state="final">Polje %1$s je predugačko (%2$d max znakova).</target>
         <note>File: classes/form/CustomerForm.php [Line: 239]</note>
+      </trans-unit>
+      <trans-unit id="fd1126287a58ab175c3b0897e7edd58c" approved="yes">
+        <source>The %1$s field is too short (%2$d chars min).</source>
+        <target state="final">Polje %1$s je prekratko (najmanje %2$d znakova).</target>
+        <note>File: classes/form/AbstractForm.php [Line: 172]</note>
       </trans-unit>
       <trans-unit id="f3e3f424a084383aa2931fae612b1ff1" approved="yes">
         <source>The confirmation is empty: please fill in the password confirmation as well</source>
@@ -252,6 +277,11 @@
         <target state="final">Kod vaučera nije ispravan.</target>
         <note>File: controllers/front/CartController.php [Line: 245]</note>
       </trans-unit>
+      <trans-unit id="b4467fe25466af11a606a43505ca709b" approved="yes">
+        <source>There are %d% errors:</source>
+        <target state="final">Postoji %d% grešaka:</target>
+        <note>File: themes/hummingbird/templates/_partials/form-errors.tpl [Line: 11]</note>
+      </trans-unit>
       <trans-unit id="a923575984949608ce04c4984806ec2a" approved="yes">
         <source>There are not enough products in stock</source>
         <target state="final">Nema dovoljno proizvoda na zalihi</target>
@@ -261,6 +291,21 @@
         <source>There seems to be an issue with your account, please contact support</source>
         <target state="final">Čini se da postoji problem s računom, obratite se podršci</target>
         <note>File: classes/form/CustomerPersister.php [Line: 90]</note>
+      </trans-unit>
+      <trans-unit id="914aabd65a536be202b28dc1ac5dd1af" approved="yes">
+        <source>This cart has expired.</source>
+        <target state="final">Ova kolica su istekla.</target>
+        <note>File: classes/controller/FrontController.php [Line: 1316]</note>
+      </trans-unit>
+      <trans-unit id="1e65dae319656efa0e4d3f49be9fdfda" approved="yes">
+        <source>This cart was already used in an order and has expired.</source>
+        <target state="final">Ova korpa je već korištena u narudžbi i istekla je.</target>
+        <note>File: classes/controller/FrontController.php [Line: 1323]</note>
+      </trans-unit>
+      <trans-unit id="79658ac80c7883992c8a1963edf9a15b" approved="yes">
+        <source>This category is no longer available.</source>
+        <target state="final">Ova kategorija više nije dostupna.</target>
+        <note>File: controllers/front/listing/CategoryController.php [Line: 119]</note>
       </trans-unit>
       <trans-unit id="c9615dc36879116ef8c5f1ab08543191" approved="yes">
         <source>This file no longer exists.</source>
@@ -291,6 +336,11 @@
         <source>This product has been refunded.</source>
         <target state="final">Ovaj proizvod je refundiran.</target>
         <note>File: controllers/front/GetFileController.php [Line: 328]</note>
+      </trans-unit>
+      <trans-unit id="80d889c08e270f0016d61b963e13fec1" approved="yes">
+        <source>This product is no longer available for sale.</source>
+        <target state="final">Ovaj proizvod više nije dostupan za prodaju.</target>
+        <note>File: src/Adapter/Presenter/Product/ProductLazyArray.php [Line: 1344]</note>
       </trans-unit>
       <trans-unit id="91e6cde963af2000218553722fc7a093" approved="yes">
         <source>This product is no longer available.</source>
@@ -332,6 +382,16 @@
         <target state="final">Ovaj vaučer još uvijek nije ispravan</target>
         <note>File: classes/CartRule.php [Line: 787]</note>
       </trans-unit>
+      <trans-unit id="a20fe641706c6d834ac58b38b9f51e68" approved="yes">
+        <source>This voucher is not valid.</source>
+        <target state="final">Ovaj vaučer nije važeći.</target>
+        <note>File: classes/CartRule.php [Line: 745]</note>
+      </trans-unit>
+      <trans-unit id="ed939db0f58724536e02ee865759f6aa" approved="yes">
+        <source>Unknown type of product restriction</source>
+        <target state="final">Nepoznata vrsta ograničenja proizvoda</target>
+        <note>File: classes/CartRule.php [Line: 1347]</note>
+      </trans-unit>
       <trans-unit id="909179695703d6a048fab0bcc9af4758" approved="yes">
         <source>We cannot regenerate your password with the data you've submitted</source>
         <target state="final">Ne možemo obnoviti lozinku s podacima koje ste poslali</target>
@@ -347,10 +407,20 @@
         <target state="final">Već imate maksimalnu raspoloživu količinu za ovaj proizvod.</target>
         <note>File: controllers/front/CartController.php [Line: 520]</note>
       </trans-unit>
+      <trans-unit id="eacc42ec99f31bde627c93b8ab96c0e5" approved="yes">
+        <source>You can only buy %quantity% "%product%". Please adjust the quantity in your cart to continue.</source>
+        <target state="final">Možete kupiti samo %quantity% "%product%". Molimo vas da prilagodite količinu u korpi da biste nastavili.</target>
+        <note>File: controllers/front/CartController.php [Line: 676]</note>
+      </trans-unit>
       <trans-unit id="922dc0515643fb69585b67281692644a" approved="yes">
         <source>You can regenerate your password only every %d minute(s)</source>
         <target state="final">Možete regenerisati lozinku samo svakih %d minuta</target>
         <note>File: controllers/front/PasswordController.php [Line: 68]</note>
+      </trans-unit>
+      <trans-unit id="b5617edd6c80a257d3cb7bbc9b3e5bdf" approved="yes">
+        <source>You can't transform your account into a customer account, because a registered customer with the same email already exists.</source>
+        <target state="final">Ne možete transformirati svoj račun u korisnički račun, jer već postoji registrovani kupac s istom e-mail adresom.</target>
+        <note>File: controllers/front/OrderConfirmationController.php [Line: 181]</note>
       </trans-unit>
       <trans-unit id="194496a52d41fba1c9e6140c4eb34f83" approved="yes">
         <source>You cannot regenerate the password for this account.</source>
