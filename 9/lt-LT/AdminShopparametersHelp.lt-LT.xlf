@@ -55,14 +55,34 @@
         <source>Allow iframes on text fields like product description. We recommend that you leave this option disabled.</source>
         <target state="final">Leisti iframes naudoti tekstiniuose laukuose, pvz. prekės aprašyme. Rekomenduojame išjungti šį nustatymą.</target>
       </trans-unit>
+      <trans-unit id="c2585925167101587128f7782c5dd757" approved="yes">
+        <source>Allow or deny customers to order products that are out of stock. Further customization is possible for each product.</source>
+        <target state="final">Leisti arba neleisti klientams užsisakyti prekes, kurių nėra sandėlyje. Kiekvienai prekei galima atlikti tolesnius pakeitimus.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/StockType.php [Line: 84]</note>
+      </trans-unit>
+      <trans-unit id="cffcb6b76faff5fd9cb6a310aab445d2" approved="yes">
+        <source>Allows the use of iframes in rich text fields such as product descriptions. It is recommended to keep this option disabled unless you specifically need iframes for video embeds or other external content.</source>
+        <target state="final">Leidžia naudoti iframe raiškiojo teksto laukuose, pvz., prekių aprašymuose. Rekomenduojama šią parinktį palikti išjungtą, nebent jums specialiai reikia iframe vaizdo įrašų įterpimui ar kitam išoriniam turiniui.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php [Line: 110]</note>
+      </trans-unit>
       <trans-unit id="a5fa9ffd3ddf89fe263675358032e7fb" approved="yes">
         <source>Automatically apply this value as a discount on all products for members of this customer group.</source>
         <target state="final">Visiems šios grupės pirkėjams automatiškai taikyti šią reikšmę kaip nuolaidą visoms prekėms.</target>
         <note>File: controllers/admin/AdminGroupsController.php [Line: 358]</note>
       </trans-unit>
+      <trans-unit id="562da52195b6e52ac39be2dccbae6901" approved="yes">
+        <source>Automatically updates the shipping costs when an order is edited in the back office. If you disable this option, make sure to review the shipping costs whenever you make changes to an order.</source>
+        <target state="final">Automatiškai atnaujina siuntimo išlaidas, kai užsakymas redaguojamas administracinėje dalyje. Jei išjungsite šią parinktį, būtinai peržiūrėkite siuntimo išlaidas kaskart, kai atliekate užsakymo pakeitimus.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GeneralType.php [Line: 93]</note>
+      </trans-unit>
       <trans-unit id="5ed533875d7388ffdbb60818e9596bdc" approved="yes">
         <source>Automatically updates the shipping costs when you edit an order.</source>
         <target state="final">Automatiškai atnaujinti pristatymo kainą, kai redaguojate užsakymą.</target>
+      </trans-unit>
+      <trans-unit id="dcc9a3ac81d54b27a1e7f522a17a3d2a" approved="yes">
+        <source>Background color of this status label. Used both in backoffice and on order tracking page. HTML colors only.</source>
+        <target state="final">Šios būsenos etiketės fono spalva. Naudojama tiek administracinėje dalyje, tiek užsakymo stebėjimo puslapyje. Tik HTML spalvos.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 161]</note>
       </trans-unit>
       <trans-unit id="1122eba5946331d2709712f64fa1d66b" approved="yes">
         <source>By default, if you search "book", you will have "book", "bookcase" and "bookend".</source>
@@ -101,6 +121,11 @@
       <trans-unit id="7ba34b929c8241268ab5eac35a772ab1" approved="yes">
         <source>Clean the HTML content on text fields. We recommend that you leave this option enabled.</source>
         <target state="final">Išvalo HTML turinį nuo nesaugių elementų tekstiniuose laukuose. Rekomenduojame palikti šią funkciją įjungtą.</target>
+      </trans-unit>
+      <trans-unit id="5b6d89f93deda9c02c553196a5d73cb7" approved="yes">
+        <source>Cleans the HTML content in rich text fields before saving. It is recommended to keep this option enabled to ensure safe and valid content is saved into the database.</source>
+        <target state="final">Prieš išsaugojant išvalo HTML turinį raiškiojo teksto laukuose. Rekomenduojama šią parinktį palikti įjungtą, kad į duomenų bazę būtų įrašytas saugus ir galiojantis turinys.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php [Line: 120]</note>
       </trans-unit>
       <trans-unit id="9cd9efd3eb168071eb0a199972c54aab" approved="yes">
         <source>Contact name (e.g. Customer Support).</source>
@@ -156,6 +181,11 @@
         <source>Display product prices when in catalog mode.</source>
         <target state="final">Rodyti prekės kainą katalogo rėžime.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/GeneralType.php [Line: 62]</note>
+      </trans-unit>
+      <trans-unit id="91440687d19da0f6c7d96d9a5b3f1dec" approved="yes">
+        <source>Display the "%add_to_cart_label%" button when a product has combinations</source>
+        <target state="final">Rodyti mygtuką „%add_to_cart_label%“, kai prekė turi derinių</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/PageType.php [Line: 36]</note>
       </trans-unit>
       <trans-unit id="d42de30e9e03274c5c83bd6ce5c27a6f" approved="yes">
         <source>Displayed in emails sent to customers.</source>
@@ -233,6 +263,26 @@
         <target state="final">Įjunkite, jei Jūsų serveris leidžia perrašyti URL (rekomenduojama).</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/SetUpUrlType.php [Line: 73]</note>
       </trans-unit>
+      <trans-unit id="feb02e79a9b6bca4bb9559914d218455" approved="yes">
+        <source>Enables or disables SSL encryption (https://) for your shop. This is a security standard and you should always keep this option enabled, unless there is a specific technical issue.</source>
+        <target state="final">Įjungia arba išjungia SSL šifravimą (https://) jūsų parduotuvėje. Tai yra saugumo standartas, todėl šią parinktį visada turėtumėte palikti įjungtą, nebent iškiltų konkreti techninė problema.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php [Line: 86]</note>
+      </trans-unit>
+      <trans-unit id="3745e6d203a2be11a15c749586ba592f" approved="yes">
+        <source>Enables or disables the best sellers page in your shop. When disabled, the page and related links are also removed from the sitemap and other sections.</source>
+        <target state="final">Įjungia arba išjungia perkamiausių prekių puslapį jūsų parduotuvėje. Kai išjungiama, puslapis ir susijusios nuorodos taip pat pašalinamos iš svetainės žemėlapio ir kitų skyrių.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php [Line: 174]</note>
+      </trans-unit>
+      <trans-unit id="f44ccb9feb9694644d7ddb842809af7c" approved="yes">
+        <source>Enables or disables the brands listing in your shop. When disabled, brands are also removed from the sitemap and other related sections.</source>
+        <target state="final">Įjungia arba išjungia prekių ženklų puslapį jūsų parduotuvėje. Kai išjungiama, puslapis ir susijusios nuorodos taip pat pašalinamos iš svetainės žemėlapio ir kitų skyrių.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php [Line: 166]</note>
+      </trans-unit>
+      <trans-unit id="9955808073b701a1d996e190b0fa2b6b" approved="yes">
+        <source>Enables or disables the suppliers listing in your shop. When disabled, suppliers are also removed from the sitemap and other related sections.</source>
+        <target state="final">Įjungia arba išjungia tiekėjų sąrašą jūsų parduotuvėje. Kai išjungiama, tiekėjai taip pat pašalinami iš svetainės žemėlapio ir kitų skyrių.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php [Line: 158]</note>
+      </trans-unit>
       <trans-unit id="786471035f60ea5955fd93f6998e8637" approved="yes">
         <source>Enter each alias separated by a comma (e.g. 'prestshop,preztashop,prestasohp').</source>
         <target state="final">Įveskite sinonimus atskirdami kableliais ',' (pvz., 'prestshop,preztashop,prestasohp').</target>
@@ -248,9 +298,23 @@
         <target state="final">Pavyzdžiui, "kontaktai" http://example.com/shop/kontaktai peradresuoja į http://example.com/shop/contact-form.php</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/TrafficSeo/Meta/Blocks/form.html.twig [Line: 49]</note>
       </trans-unit>
+      <trans-unit id="ebdfb266f97bd01d837a5cdeb992fd5c" approved="yes">
+        <source>For packs of products, stocks can be managed manually or automatically based on individual product stock levels. Further customization is possible for each product.</source>
+        <target state="final">Prekių pakuočių atveju atsargas galima valdyti rankiniu būdu arba automatiškai, atsižvelgiant į individualių prekių atsargų lygį. Kiekvienai prekei galima atlikti tolesnius pritaikymus.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/StockType.php [Line: 44]</note>
+      </trans-unit>
+      <trans-unit id="c4abbce80d49fc23a12cb0380fe4daaf" approved="yes">
+        <source><![CDATA[Forbidden characters: <>{}]]></source>
+        <target state="final"><![CDATA[Draudžiami simboliai: <>{}]]></target>
+        <note>File: controllers/admin/AdminSearchConfController.php [Line: 398]</note>
+      </trans-unit>
       <trans-unit id="259b411f284388d228a30c1e2ed0c61d" approved="yes">
         <source><![CDATA[Forbidden characters: <>;=#{}]]></source>
         <target state="final"><![CDATA[Draudžiami simboliai: <>;=#{}]]></target>
+      </trans-unit>
+      <trans-unit id="f11c8ae12be3f5a61df2361c0024fc1b" approved="yes">
+        <source><![CDATA[Forbidden characters: <>{}]]></source>
+        <target state="final"><![CDATA[Draudžiami simboliai: <>{}]]></target>
       </trans-unit>
       <trans-unit id="21e445ba767d4fd41332b6eceab2be1a" approved="yes">
         <source>How prices are displayed in the order summary for this customer group.</source>
@@ -267,6 +331,11 @@
         <target state="final">Jei klientas atitinka kelias sąlygas,specifinės kainos bus taikomos šia prioriteto tvarka, nebent konkrečiai prekei buvo nustatytas kitoks rikiavimas.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/GeneralType.php [Line: 157]</note>
       </trans-unit>
+      <trans-unit id="78c4fac28bb7772e31c75299bdbf31bf" approved="yes">
+        <source>If a visitor accesses a page using a non-canonical URL, this option defines how the shop should respond. For SEO reasons, we recommend choosing "301 Moved Permanently".</source>
+        <target state="final">Jei lankytojas pasiekia puslapį naudodamas nekanoninį URL, ši parinktis apibrėžia, kaip parduotuvė turėtų reaguoti. Dėl SEO priežasčių rekomenduojame pasirinkti „301 Perkelta visam laikui“.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/SetUpUrlType.php [Line: 115]</note>
+      </trans-unit>
       <trans-unit id="8bd1967f496dd2a0dd64dae32a3bc6e5" approved="yes">
         <source>If an attribute is not available in every product combination, it will not be displayed.</source>
         <target state="final">Jei atributas nėra prieinamas prekių derinyje, jis nebus rodomas.</target>
@@ -277,15 +346,44 @@
         <target state="final">Jei įjungta, tai visos žinutės bus išsaugotos "Klientų aptarnavimo" puslapyje esančiame "Klientų" meniu.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/Contact/ContactType.php [Line: 107]</note>
       </trans-unit>
+      <trans-unit id="0d30027d8f6516854c9da7469b6d8a49" approved="yes">
+        <source>If order's invoice is not generated yet, this will generate it.</source>
+        <target state="final">Jei užsakymo sąskaita faktūra dar nesugeneruota, ji bus sugeneruota šiuo būdu.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 177]</note>
+      </trans-unit>
+      <trans-unit id="220990e3866bfc3d5d967410e3507ae9" approved="yes">
+        <source>If there are multiple languages enabled on the shop, all URLs are prefixed with the ISO code of the language. Do you want to do this also for the default language, or keep it un-prefixed? If adding a language to a well established single language shop, it's a good idea to disable this and avoid changing the URLs.</source>
+        <target state="final">Jei parduotuvėje įjungtos kelios kalbos, visi URL adresai turi kalbos ISO kodo priešdėlį. Ar norite tai padaryti ir su numatyta kalba, ar palikti jį be priešdėlio? Jei pridedate kalbą prie gerai žinomos vienos kalbos parduotuvės, geriausia tai išjungti ir vengti keisti URL adresus.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/SetUpUrlType.php [Line: 94]</note>
+      </trans-unit>
+      <trans-unit id="6530353e5fc38824748de002f5b2d80a" approved="yes">
+        <source>If this option is enabled, the customer's last cart will be restored when they log back in. Otherwise, a new, empty cart will be created.</source>
+        <target state="final">Jei ši parinktis įjungta, klientui prisijungus bus atkurtas paskutinis jo krepšelis. Priešingu atveju bus sukurtas naujas, tuščias krepšelis.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/CustomerPreferences/GeneralType.php [Line: 34]</note>
+      </trans-unit>
+      <trans-unit id="3bc8663376c647160124246b5567fe1f" approved="yes">
+        <source>If you own an SSL certificate for your shop's domain name, you can activate SSL encryption (https://) for all the pages of your shop.</source>
+        <target state="final">Jei turite SSL sertifikatą savo parduotuvės domeno vardui, galite aktyvuoti SSL šifravimą (https://) visiems savo parduotuvės puslapiams.</target>
+      </trans-unit>
       <trans-unit id="a3a0f3b2f4c12d1c11b9916c8c10c48c" approved="yes">
         <source>If you want to enable SSL on all the pages of your shop, activate the "Enable on all the pages" option below.</source>
         <target state="final">Jei jūs norite įjungti SSL ant visų parduotuvės puslapių, aktyvuokite "Įjungti SSL visiems puslapiams" pasirinkimą žemiau.</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/preferences.html.twig [Line: 33]</note>
       </trans-unit>
+      <trans-unit id="5ed7ed1560621badd569811a48b238ae" approved="yes">
+        <source>If your customer already has this product in their cart, a notification will be displayed on top of the product page. The customer will also be notified if the product they are browsing is part of a pack that's in their cart.</source>
+        <target state="final">Jei jūsų klientas jau turi šią prekę krepšelyje, prekės puslapio viršuje bus rodomas pranešimas. Klientas taip pat bus informuotas, jei jo peržiūrima prekė yra krepšelyje esančios pakuotės dalis.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/PageType.php [Line: 93]</note>
+      </trans-unit>
       <trans-unit id="aec8651b033be4d4056785d43763d7ca" approved="yes">
         <source>Image height in pixels. Enter "0" to use the original size.</source>
         <target state="final">Paveikslėlio aukštis pikseliais. Įveskite "0" norėdami naudoti originalų dydį.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/CustomerPreferences/TitleType.php [Line: 74]</note>
+      </trans-unit>
+      <trans-unit id="e63a2ccfb58547d1d4dcdb6b96aa42f2" approved="yes">
+        <source>Image of this status used in the backoffice. (File type: .gif, suggested size: 16x16).</source>
+        <target state="final">Šios būsenos paveikslėlis, naudojamas administracinėje dalyje. (Failo tipas: .gif, siūlomas dydis: 16x16).</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 156]</note>
       </trans-unit>
       <trans-unit id="62c7ceb6de5c4d39e49c9762af6ddb4d" approved="yes">
         <source>Image width in pixels. Enter "0" to use the original size.</source>
@@ -296,6 +394,11 @@
         <source>In stock</source>
         <target state="final">Yra sandėlyje</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/StockType.php [Line: 104]</note>
+      </trans-unit>
+      <trans-unit id="26fff3462cbd41b144327d0afa56b90a" approved="yes">
+        <source>In the product page, feature values can be sorted alphabetically by value or by position.</source>
+        <target state="final">Prekės puslapyje ypatybes galima rūšiuoti abėcėlės tvarka pagal vertę arba poziciją.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/PageType.php [Line: 104]</note>
       </trans-unit>
       <trans-unit id="f9aa0af5fdadc92504092774a0afb472" approved="yes">
         <source>In the volume discount table on the product page, display the discounted unit price instead of the unit discount. E.g. If you sell a product for $10 with a discount of $2 from 3 items purchased, the discounted unit price ($8) will be displayed instead of the unit discount ($2).</source>
@@ -410,10 +513,25 @@
         <source>Require customers to accept or decline terms of service before processing an order.</source>
         <target state="final">Reikalingas klientų sutikimas su paslaugų sąlygoms prieš pirkimą.</target>
       </trans-unit>
+      <trans-unit id="de3c63a6c46e2ed9b86014d9da949b3e" approved="yes">
+        <source>Require customers to accept terms of service before processing an order.</source>
+        <target state="final">Reikalauti, kad klientai sutiktų su paslaugų teikimo sąlygomis prieš apdorodami užsakymą.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GeneralType.php [Line: 107]</note>
+      </trans-unit>
       <trans-unit id="01d2aac5d20787a1e873f2bdc79b514a" approved="yes">
         <source>Search this word instead.</source>
         <target state="final">Ieškoti šio žodžio.</target>
         <note>File: controllers/admin/AdminSearchConfController.php [Line: 406]</note>
+      </trans-unit>
+      <trans-unit id="e0bbd55d0b2049bb5dd4f88094ad0809" approved="yes">
+        <source>Select an email template that will be sent after setting this status.</source>
+        <target state="final">Pasirinkite el. laiško šabloną, kuris bus išsiųstas nustačius šią būseną.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 221]</note>
+      </trans-unit>
+      <trans-unit id="7b4cd4d72926ab37dc21b9e12b444a1f" approved="yes">
+        <source>Select which category to display on the product page breadcrumbs. It can be the product's default category or the category the customer came from.</source>
+        <target state="final">Pasirinkite, kurią kategoriją rodyti prekės puslapio navigacijos juostoje. Tai gali būti numatytoji prekės kategorija arba kategorija, iš kurios atėjo klientas.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/GeneralType.php [Line: 135]</note>
       </trans-unit>
       <trans-unit id="4c80d371ca1a14e173c5480ee32f1c90" approved="yes">
         <source>Send an email with a summary of the account information after registration.</source>
@@ -429,6 +547,11 @@
         <source>Set a tax for gift wrapping.</source>
         <target state="final">Nurodykite kainą už dovanų įpakavimą.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GiftOptionsType.php [Line: 105]</note>
+      </trans-unit>
+      <trans-unit id="c673507ef400a7b700e8c8ede0ed7bac" approved="yes">
+        <source>Set the minimum order value required to proceed to checkout. Customers won’t be able to continue if their cart total is below this amount. Set to 0 to disable this restriction.</source>
+        <target state="final">Nustatykite minimalią užsakymo vertę, reikalingą norint pereiti prie atsiskaitymo. Klientai negalės tęsti, jei jų krepšelio suma bus mažesnė nei ši suma. Nustatykite reikšmę 0, kad išjungtumėte šį apribojimą.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GeneralType.php [Line: 85]</note>
       </trans-unit>
       <trans-unit id="9175b705bec9604985209d1f2d88c785" approved="yes">
         <source>Set to "0" to disable this feature.</source>
@@ -469,6 +592,11 @@
         <target state="final">Siūlyti klientams perdirbtą pakuotę.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GiftOptionsType.php [Line: 115]</note>
       </trans-unit>
+      <trans-unit id="d7ea625e2b60f5f00947667c1b46506a" approved="yes">
+        <source>The default order in which products are displayed in listings. The available sorting methods differ based on the page type.</source>
+        <target state="final">Numatytoji tvarka, kuria prekės rodomos sąrašuose. Galimi rūšiavimo metodai skiriasi priklausomai nuo puslapio tipo.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/PaginationType.php [Line: 41]</note>
+      </trans-unit>
       <trans-unit id="e3e0c764f81f1a3677d59aa238fddd14" approved="yes">
         <source>The group defined for your identified guest customers (used in guest checkout).</source>
         <target state="final">Grupė, kuri apima atpažintus svečius lankytojus (naudojama svečio užsakymo procese).</target>
@@ -508,10 +636,50 @@
         <target state="final">Tai yra šakninė kategorija jūsų parduotuvėje. Jei norite nurodyti naują šakninę kategoriją savo parduotuvėje, [1]pauskite čia[/1].</target>
         <note>File: controllers/admin/AdminShopController.php [Line: 499]</note>
       </trans-unit>
+      <trans-unit id="5f6092eeaf31414a503b747005ceedc5" approved="yes">
+        <source>This option defines how much different can the alternative words found by fuzzy search be. Or, how many characters can be different/missing/added. The default value is 5.</source>
+        <target state="final">Ši parinktis apibrėžia, kiek gali skirtis neapibrėžtos paieškos rasti alternatyvūs žodžiai. Arba kiek simbolių gali skirtis/trūkti/būti pridėta. Numatytoji reikšmė yra 5.</target>
+        <note>File: controllers/admin/AdminSearchConfController.php [Line: 187]</note>
+      </trans-unit>
       <trans-unit id="2b610a936a358875e6f5a01564a3a0e6" approved="yes">
         <source>This parameter will only be used if the fuzzy search is activated: the lower the value, the more tolerant your search will be.</source>
         <target state="final">Šis parametras naudojamas tik tada, kai apytikslė paieška yra įjungta. Kuo mažesnė reikšmė, tuo paieškos rezultatas bus netikslesnis.</target>
         <note>File: controllers/admin/AdminSearchConfController.php [Line: 207]</note>
+      </trans-unit>
+      <trans-unit id="d71f4f6669b9df2a1bc83f4bf2a186c5" approved="yes">
+        <source>This will add an entry to order's "Payments" table, if it doesn't exist yet.</source>
+        <target state="final">Tai pridės įrašą užsakymo lentelėje „Mokėjimai“, jei jo dar nėra.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 201]</note>
+      </trans-unit>
+      <trans-unit id="8b6f21abb5306a5fa051fdeee4c918e0" approved="yes">
+        <source>This will attach delivery slip PDF to the sent email, if it exists. If it doesn't, it will have no effect.</source>
+        <target state="final">Tai prisegs važtaraščio PDF failą prie išsiųsto el. laiško, jei toks yra. Jei ne, tai neturės jokio poveikio.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 248]</note>
+      </trans-unit>
+      <trans-unit id="e8c9630127603f55eea5e4d89455d7cd" approved="yes">
+        <source>This will attach invoice PDF to the sent email, if it exists. If it doesn't, it will have no effect.</source>
+        <target state="final">Tai prisegs sąskaitos faktūros PDF failą prie išsiųsto el. laiško, jei toks yra. Jei ne, tai neturės jokio poveikio.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 240]</note>
+      </trans-unit>
+      <trans-unit id="d21af1d7df87c9b01b3141840adef2f1" approved="yes">
+        <source>This will create a delivery slip and mark a delivery date on order's invoice.</source>
+        <target state="final">Tai sukurs važtaraštį ir pažymės pristatymo datą užsakymo sąskaitoje faktūroje.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 209]</note>
+      </trans-unit>
+      <trans-unit id="1645de8c2684266ea78ab325c2fc44c3" approved="yes">
+        <source>This will mark the order as shipped. It will register a stock movement entry, prevent modifying the order and other things.</source>
+        <target state="final">Tai pažymės užsakymą kaip išsiųstą. Bus užregistruotas prekių judėjimas, bus išvengta užsakymo modifikavimo ir kitų dalykų.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 193]</note>
+      </trans-unit>
+      <trans-unit id="72993cc97904585ea4f16aa9d0fda4ef" approved="yes">
+        <source>This will mark the order as successfuly processed - including it in customer's revenue, your shop stats etc.</source>
+        <target state="final">Tai pažymės užsakymą kaip sėkmingai įvykdytą – įtraukiant jį į kliento sugeneruotas pajamas, jūsų parduotuvės statistiką ir pan.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 169]</note>
+      </trans-unit>
+      <trans-unit id="bf1fc852eb4242c369934b81e3117c63" approved="yes">
+        <source>This will send an email to the customer after assigning this status. Make sure to select proper email template below.</source>
+        <target state="final">Priskyrus šią būseną, klientui bus išsiųstas el. laiškas. Pasirinkite tinkamą el. laiško šabloną apačioje.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 217]</note>
       </trans-unit>
       <trans-unit id="14bc1d17bbcf8fb45debf11fb7c5f80b" approved="yes">
         <source>Title of this page.</source>
@@ -537,6 +705,11 @@
         <source>Upload an icon from your computer (File type: .gif, suggested size: 16x16).</source>
         <target state="final">Įkelkite piktogramą iš savo kompiuterio (bylos tipas: .gif, siūlomas dydis: 16x16).</target>
       </trans-unit>
+      <trans-unit id="7e7c876c57cabc4c3c99034d6b3764b0" approved="yes">
+        <source>Use this if you want this status to be internal only.</source>
+        <target state="final">Naudokite šią būseną, jei norite, kad ši būtų taikoma tik viduje.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 185]</note>
+      </trans-unit>
       <trans-unit id="122941b469f97a0c0750a62126fba6cd" approved="yes">
         <source>We recommend that you deactivate your store while performing maintenance. Note that it will not disable the webservice.</source>
         <target state="final">Atliekant techninę priežiūrą, rekomenduojame išjungti el. parduotuvę. Atminkite, kad tai neišjungs web servisų.</target>
@@ -546,6 +719,11 @@
         <source>When enabled, admins will access the store front office without storing their IP.</source>
         <target state="final">Kai įjungta, el. parduotuvės administratoriai galės matyti parduotuvę neišsaugodami savo IP.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/MaintenanceType.php [Line: 74]</note>
+      </trans-unit>
+      <trans-unit id="8f5320453e91fe37d7b5704c92f4f243" approved="yes">
+        <source>When enabled, friendly URL will be updated on every name change for offline products only.</source>
+        <target state="final">Įjungus, draugiškas URL bus automatiškai atnaujinamas keičiant pavadinimą, tik neaktyvioms/neparduodamoms/išjungtoms prekėms.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/GeneralType.php [Line: 118]</note>
       </trans-unit>
       <trans-unit id="f45ed1483cf46972b5f225656c9c8991" approved="yes">
         <source>Whether or not to display this store.</source>

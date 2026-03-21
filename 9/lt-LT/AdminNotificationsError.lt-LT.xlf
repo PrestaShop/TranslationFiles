@@ -32,6 +32,11 @@
         <target state="final">%s yra neteisingas.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Sell/Supplier/SupplierType.php [Line: 138]</note>
       </trans-unit>
+      <trans-unit id="1c4c6cc0c43756c723e1c9ebfc6748ab" approved="yes">
+        <source>%s is invalid. Please enter an integer between 0 and %s.</source>
+        <target state="final">%s yra neteisingas. Įveskite sveikąjį skaičių nuo 0 iki %s.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Customer/CustomerType.php [Line: 348]</note>
+      </trans-unit>
       <trans-unit id="8f2569cb25ecb7b7540661a20ac65e68" approved="yes">
         <source>%s is invalid. Please enter an integer greater than %s.</source>
         <target state="final">%s yra neteisingas. Prašome įvesti sveikąjį skaičių didesnį negu %s</target>
@@ -176,6 +181,11 @@
         <target state="final">Įvyko klaida atnaujinant  objektą.</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Catalog/CatalogPriceRuleController.php [Line: 280]</note>
       </trans-unit>
+      <trans-unit id="32f301ecad189ab63743501849b67991" approved="yes">
+        <source>An error occurred while updating the discount.</source>
+        <target state="final">Atnaujinant nuolaidą įvyko klaida.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Catalog/DiscountController.php [Line: 254]</note>
+      </trans-unit>
       <trans-unit id="815e471ea2970db0b63b9b09feacc70f" approved="yes">
         <source>An error occurred while updating the status for an object.</source>
         <target state="final">Įvyko klaida atnaujinant objekto būseną.</target>
@@ -206,10 +216,45 @@
         <target state="final">Įvyko nenumatyta klaida. [%type% kodas %code%]: %message%</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/PrestaShopAdminController.php [Line: 243]</note>
       </trans-unit>
+      <trans-unit id="e90b7d853212b37c8ebd277803a0b671" approved="yes">
+        <source>At least one product segment must be selected.</source>
+        <target state="final">Turi būti pasirinktas bent vienas prekės segmentas.</target>
+        <note>File: src/Core/ConstraintValidator/DiscountProductSegmentValidator.php [Line: 35]</note>
+      </trans-unit>
+      <trans-unit id="fa7f44fdd62689c43d0f8f372ce5d1e5" approved="yes">
+        <source>Attribute color is invalid </source>
+        <target state="final">Atributo spalva netinkama </target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Catalog/AttributeController.php [Line: 343]</note>
+      </trans-unit>
       <trans-unit id="4496b5be6539dd817e80c50f5a52c949" approved="yes">
         <source>Attribute group is invalid</source>
         <target state="final">Savybės grupė neteisinga</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Catalog/AttributeController.php [Line: 348]</note>
+      </trans-unit>
+      <trans-unit id="b6064b175aca1507103559599479a144" approved="yes">
+        <source>Attribute name is invalid</source>
+        <target state="final">Atributo pavadinimas netinkamas</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Catalog/AttributeController.php [Line: 338]</note>
+      </trans-unit>
+      <trans-unit id="e332bf6bafc5d3dc35a650b13e169728" approved="yes">
+        <source>Authorization not allowed for all stores.</source>
+        <target state="final">Autorizacija neleidžiama visose parduotuvėse.</target>
+        <note>File: src/PrestaShopBundle/EventListener/Admin/Context/ShopContextSubscriber.php [Line: 260]</note>
+      </trans-unit>
+      <trans-unit id="6e338cdc7323a043140583ef4d6555cd" approved="yes">
+        <source>Authorization not allowed for this group of stores.</source>
+        <target state="final">Šiai parduotuvių grupei autorizacija neleidžiama.</target>
+        <note>File: src/PrestaShopBundle/EventListener/Admin/Context/ShopContextSubscriber.php [Line: 272]</note>
+      </trans-unit>
+      <trans-unit id="4a907d14cc0943cc2d44515f07267f18" approved="yes">
+        <source>Authorization not allowed for this store context.</source>
+        <target state="final">Šios parduotuvės kontekste autorizacija neleidžiama.</target>
+        <note>File: src/PrestaShopBundle/EventListener/Admin/Context/ShopContextSubscriber.php [Line: 278]</note>
+      </trans-unit>
+      <trans-unit id="96a01e03fa91cafcf72ee464ee7b718e" approved="yes">
+        <source>Authorization not allowed for this store.</source>
+        <target state="final">Šiai parduotuvei autorizacija neleidžiama.</target>
+        <note>File: src/PrestaShopBundle/EventListener/Admin/Context/ShopContextSubscriber.php [Line: 266]</note>
       </trans-unit>
       <trans-unit id="ee77ea46b0c548ed60eadf31bdd68613" approved="yes">
         <source>Bad SQL query</source>
@@ -255,6 +300,11 @@
         <source>Cannot parse feed.</source>
         <target state="final">Negalima išnagrinėti srauto.</target>
         <note>File: classes/Currency.php [Line: 1038]</note>
+      </trans-unit>
+      <trans-unit id="846f7e7b28be2689ff7d896c532201d6" approved="yes">
+        <source>Cannot remove cover image.</source>
+        <target state="final">Nepavyko pašalinti viršelio paveikslėlio.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/ImageController.php [Line: 321]</note>
       </trans-unit>
       <trans-unit id="c0c29d8902aa2cb256ea9eaefe307bf5" approved="yes">
         <source>Cannot scan "override" directory</source>
@@ -390,6 +440,16 @@
         <source>Gift message not valid</source>
         <target state="final">Netinkama dovanos žinutė</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/CartController.php [Line: 768]</note>
+      </trans-unit>
+      <trans-unit id="6b2bd67e6f59d45845a496888d11260c" approved="yes">
+        <source>Graph module could not be loaded.</source>
+        <target state="final">Nepavyko įkelti grafiko modulio.</target>
+        <note>File: controllers/admin/AdminStatsController.php [Line: 984]</note>
+      </trans-unit>
+      <trans-unit id="90ac55dafa8dbb3a4329ed3960402eef" approved="yes">
+        <source>Grid module could not be loaded.</source>
+        <target state="final">Nepavyko įkelti tinklelio modulio.</target>
+        <note>File: controllers/admin/AdminStatsController.php [Line: 1028]</note>
       </trans-unit>
       <trans-unit id="4dedf35a15365e00b8a151fc1daed3af" approved="yes">
         <source>Image format not recognized, allowed format(s) is(are): .%s</source>
@@ -586,6 +646,11 @@
         <target state="final">Būtinas slaptažodis.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Sell/Customer/CustomerType.php [Line: 135]</note>
       </trans-unit>
+      <trans-unit id="bc4b8805c947b08122f7cf67c8b7e7a3" approved="yes">
+        <source>Please enter a valid URL.</source>
+        <target state="final">Įveskite tinkamą URL</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Improve/Shipping/Carrier/GeneralSettings.php [Line: 106]</note>
+      </trans-unit>
       <trans-unit id="959c96ec640d353311dd9763d57daad6" approved="yes">
         <source>Please fill in all the required fields.</source>
         <target state="final">Užpildykite visus būtinus laukus.</target>
@@ -610,9 +675,19 @@
         <source>Product price is invalid</source>
         <target state="final">Prekės kaina neteisinga</target>
       </trans-unit>
+      <trans-unit id="fe3b8ef0ca123dc66a4fdc7fafba3c26" approved="yes">
+        <source>Product price is invalid.</source>
+        <target state="final">Prekės kaina neteisinga.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/ProductController.php [Line: 1499]</note>
+      </trans-unit>
       <trans-unit id="b64b49fceb6719b964e08084a3997eba" approved="yes">
         <source>Product price per unit is invalid</source>
         <target state="final">Prekės vieneto kaina neteisinga</target>
+      </trans-unit>
+      <trans-unit id="74471fba5353d197ffffed4383391ccd" approved="yes">
+        <source>Product price per unit is invalid.</source>
+        <target state="final">Prekės vieneto kaina neteisinga.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/ProductController.php [Line: 1504]</note>
       </trans-unit>
       <trans-unit id="872d428c40b36bba9fc5fafaa76c6f22" approved="yes">
         <source>Property %1$s has a bad value (allowed values are: %2$s).</source>
@@ -659,6 +734,11 @@
         <source>Reply message is required</source>
         <target state="final">Reikalinga atsakymo žinutė</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Sell/CustomerService/ReplyToCustomerThreadType.php [Line: 42]</note>
+      </trans-unit>
+      <trans-unit id="876bf016176064bc6ef0cdfca73bdafb" approved="yes">
+        <source>Role(s) assigned to employee cannot be deleted</source>
+        <target state="final">Darbuotojui priskirtas profilis(-ai) negali būti ištrintas</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ProfileController.php [Line: 294]</note>
       </trans-unit>
       <trans-unit id="e1f19b2938605ab0bdc64ba270815786" approved="yes">
         <source>Same product quantity is already in cart</source>
@@ -765,6 +845,16 @@
         <target state="final">El. pašto adresas yra panaudotas, naudokite kitą.</target>
         <note>File: classes/Customer.php [Line: 369]</note>
       </trans-unit>
+      <trans-unit id="111ca1faaef531298d7dfb58ac45644e" approved="yes">
+        <source>The expiration date must be after start date</source>
+        <target state="final">Galiojimo pabaigos data turi būti vėlesnė nei pradžios data</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Discount/DiscountPeriodType.php [Line: 35]</note>
+      </trans-unit>
+      <trans-unit id="bc59794bf2e27147861f4014fb25ffe7" approved="yes">
+        <source>The field "%field%" cannot be longer than %limit% characters.</source>
+        <target state="final">Laukas „%field%“ negali būti ilgesnis nei %limit% simbolių.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/AdminAPIController.php [Line: 318]</note>
+      </trans-unit>
       <trans-unit id="2782e6f430c2658c79aecfcecdc0d0e8" approved="yes">
         <source>The field %field_name% is required at least in %lang%.</source>
         <target state="final">Laukas %field_name% privalomas bent jau %lang%.</target>
@@ -825,6 +915,11 @@
         <target state="final">%s lauke pasirinkta parinktis neteisinga.</target>
         <note>File: classes/controller/AdminController.php [Line: 1515]</note>
       </trans-unit>
+      <trans-unit id="7a9297dee3c09f4cd95c34f371812fca" approved="yes">
+        <source>The page you're looking for could not be found. This might be due to a typo in the URL, an outdated link, or because the page was part of a module that is no longer installed.</source>
+        <target state="final">Nepavyko rasti puslapio, kurio ieškote. Tai galėjo būti dėl URL adreso rašybos klaidos, pasenusios nuorodos arba dėl to, kad puslapis buvo nebeįdiegto modulio dalis.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Error/error404.html.twig [Line: 30]</note>
+      </trans-unit>
       <trans-unit id="4094e2b5b97c257c5805be4554a7e589" approved="yes">
         <source>The password doesn't meet the password policy requirements.</source>
         <target state="final">Slaptažodis neatitinka slaptažodžių politikos reikalavimų.</target>
@@ -835,10 +930,25 @@
         <target state="final">Nepavyko rasti prekės personalizacijos paveiksliukų.</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2024]</note>
       </trans-unit>
+      <trans-unit id="36fa50f9470229a5409dead853a3ad60" approved="yes">
+        <source>The range of property %1$s is currently %2$d. It must be between %3$d and %4$d.</source>
+        <target state="final">%1$s reikšmių diapazonas šiuo metu yra %2$d. Jis turi būti tarp %3$d ir %4$d.</target>
+        <note>File: classes/ObjectModel.php [Line: 1096]</note>
+      </trans-unit>
+      <trans-unit id="cc8f0fe2d629bd1810331b1a265914ec" approved="yes">
+        <source>The selected condition must be different in each field to set an order of priority.</source>
+        <target state="final">Pasirinkta sąlyga kiekviename lauke turi skirtis, kad būtų nustatyta prioriteto tvarka.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Catalog/Product/ProductController.php [Line: 1766]</note>
+      </trans-unit>
       <trans-unit id="8f29c70fd66f50ce28b727cd40c6a3a3" approved="yes">
         <source>The selected date range is not valid.</source>
         <target state="final">Pasirinktas datos intervalas nėra galiojantis.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Pricing/SpecificPriceType.php [Line: 140]</note>
+      </trans-unit>
+      <trans-unit id="b9858844487d4453664143257f104266" approved="yes">
+        <source>The selected default page is not accessible by the selected profile.</source>
+        <target state="final">Pasirinktoji numatytoji puslapio versija nėra pasiekiama pasirinktam profiliui.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/EmployeeController.php [Line: 481]</note>
       </trans-unit>
       <trans-unit id="1348633590e241b276cdbb7ceaeb8295" approved="yes">
         <source>The selected value belongs to another feature.</source>
@@ -894,6 +1004,10 @@
         <source>This association has too many elements.</source>
         <target state="final">Asociacija turi per daug elementų.</target>
         <note>File: classes/AddressFormat.php [Line: 158]</note>
+      </trans-unit>
+      <trans-unit id="fdd0f930eba8bb3e975eaeb7e8036ec2" approved="yes">
+        <source>This cart rule code is already used</source>
+        <target state="final">Šis krepšelio taisyklės kodas jau naudojamas</target>
       </trans-unit>
       <trans-unit id="47be00818e1acd46db0092d6586204cf" approved="yes">
         <source>This class name does not exist.</source>
@@ -955,6 +1069,11 @@
         <target state="final">Šis laukas yra privalomas.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceKeyType.php [Line: 85]</note>
       </trans-unit>
+      <trans-unit id="257ec95a959075f6af07ab976e07e87c" approved="yes">
+        <source>This field must be between %min% and %max%</source>
+        <target state="final">Šis laukas turi būti tarp %min% ir %max%</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Improve/Design/ImageSettings/ImageTypeType.php [Line: 76]</note>
+      </trans-unit>
       <trans-unit id="e0a602c130d12d57cd4ca2a8b9240917" approved="yes">
         <source>This file must be writable:</source>
         <target state="final">Failas turi būti su rašymo teisėmis:</target>
@@ -1004,6 +1123,11 @@
         <source>This property does not exist in the class or is forbidden.</source>
         <target state="final">Ši savybė klasėje neegzistuoja arba yra uždrausta.</target>
         <note>File: classes/AddressFormat.php [Line: 131]</note>
+      </trans-unit>
+      <trans-unit id="0b23d15a0490ea1b57d347923236bde8" approved="yes">
+        <source>This value for "%field%" is already used and must be unique.</source>
+        <target state="final">Ši „%field%“ reikšmė jau naudojama ir turi būti unikali.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/AdminAPIController.php [Line: 282]</note>
       </trans-unit>
       <trans-unit id="a5d028cb6593937f07a5b50b210fc78d" approved="yes">
         <source>This value should be greater than %value%</source>
@@ -1085,6 +1209,11 @@
         <target state="final">Jūs negalite ištrinti šio elemento.</target>
         <note>File: classes/controller/AdminController.php [Line: 1123]</note>
       </trans-unit>
+      <trans-unit id="171460399d524a507ddf20a4c37275fa" approved="yes">
+        <source>You cannot delete your own role</source>
+        <target state="final">Negalite ištrinti savo profilio</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ProfileController.php [Line: 299]</note>
+      </trans-unit>
       <trans-unit id="fd44c173b6a7897151a978b9015fec76" approved="yes">
         <source>You cannot disable the Main URL.</source>
         <target state="final">Negalite išjungti pagrindinio URL.</target>
@@ -1109,6 +1238,11 @@
         <source>You do not have permission to delete this.</source>
         <target state="final">Jūs neturite leidimo tai ištrinti.</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/FrameworkBundleAdminController.php [Line: 455]</note>
+      </trans-unit>
+      <trans-unit id="d3898eaa73cd333af874808eb0dbf13c" approved="yes">
+        <source>You do not have permission to do this</source>
+        <target state="final">Jūs neturite teisių tai daryti</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Error/error403.html.twig [Line: 25]</note>
       </trans-unit>
       <trans-unit id="1bdd228669c9dd995eb664737e60786e" approved="yes">
         <source>You do not have permission to edit this.</source>
