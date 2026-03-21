@@ -47,6 +47,11 @@
         <target state="final">Siunčiant el. laišką pirkėjui įvyko klaida.</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2185]</note>
       </trans-unit>
+      <trans-unit id="dc30c095a6e57c3146babe8f9088984f" approved="yes">
+        <source>An error occurred while trying to update merchandise return.</source>
+        <target state="final">Bandant atnaujinti prekių grąžinimą, įvyko klaida.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/MerchandiseReturnController.php [Line: 141]</note>
+      </trans-unit>
       <trans-unit id="beaa75cbedc3443661b894ed66c76b13" approved="yes">
         <source>An error occurred while updating customer information.</source>
         <target state="final">Įvyko klaida atnaujinant vartotojo informaciją.</target>
@@ -81,6 +86,16 @@
         <source>Cannot create message in a new thread.</source>
         <target state="final">Nepavyko sukurti pranešimo naujoje gijoje.</target>
         <note>File: controllers/admin/AdminCustomerThreadsController.php [Line: 1094]</note>
+      </trans-unit>
+      <trans-unit id="9c118b2bea17d0237608a634507f9caf" approved="yes">
+        <source>Choose the products you wish to combine into another shipment. These products will be moved from their current shipment to the selected destination shipment.</source>
+        <target state="final">Pasirinkite prekes, kurias norite sujungti prie kitos siuntos. Šios prekės bus perkeltos iš dabartinės siuntos į pasirinktą siuntą.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/merge_shipment_form.html.twig [Line: 24]</note>
+      </trans-unit>
+      <trans-unit id="68d199965a726b3f85b8e42e4f5a6343" approved="yes">
+        <source>Choose the products you wish to separate into new, distinct shipments. These products will be moved from their original shipment.</source>
+        <target state="final">Pasirinkite prekes, kurias norite padalinti į naujas, atskiras siuntas. Šios prekės bus perkeltos iš pradinės siuntos.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/split_shipment_form.html.twig [Line: 21]</note>
       </trans-unit>
       <trans-unit id="14542f5997c4a02d4276da364657f501" approved="yes">
         <source>Direct link</source>
@@ -151,6 +166,11 @@
         <source>Invalid new order status</source>
         <target state="final">Klaidinga naujo užsakymo būsena</target>
         <note>File: classes/order/OrderHistory.php [Line: 263]</note>
+      </trans-unit>
+      <trans-unit id="fb31a2cb28ec3e7dee5df6dce5e1a68f" approved="yes">
+        <source>Merchandise return not found.</source>
+        <target state="final">Prekių grąžinimas nerastas.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/MerchandiseReturnController.php [Line: 129]</note>
       </trans-unit>
       <trans-unit id="ef5f330df17f8c955005c26466c2463c" approved="yes">
         <source>Merchandise returns are disabled</source>
@@ -317,6 +337,16 @@
         <target state="final">Ieškoma prekės</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/Create/cart.html.twig [Line: 30]</note>
       </trans-unit>
+      <trans-unit id="63bc73a8d5d3a542e2df2ca701864dda" approved="yes">
+        <source>Select an existing shipment to add the chosen products. Only shipments without a tracking number and not yet shipped are available.</source>
+        <target state="final">Pasirinkite esamą siuntą, kad pridėtumėte pasirinktas prekes. Galimos tik siuntos be sekimo numerio ir dar neišsiųstos.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/merge_shipment_form.html.twig [Line: 85]</note>
+      </trans-unit>
+      <trans-unit id="e5bd2646e708767c77375896ead2d26e" approved="yes">
+        <source>Select the carrier that will be responsible for shipping the newly created shipment(s) containing the selected products.</source>
+        <target state="final">Pasirinkite vežėją, kuris bus atsakingas už naujai sukurtos (-ų) siuntos (-ų), kurioje (-iose) yra pasirinktos prekės, išsiuntimą.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/split_shipment_form.html.twig [Line: 88]</note>
+      </trans-unit>
       <trans-unit id="0e6becfb4c6566c35a8fda2d94891c70" approved="yes">
         <source>Shipping discount value cannot exceed the total price of this order.</source>
         <target state="final">Nuolaida siuntimui negali būti didesnė negu viso užsakymo suma.</target>
@@ -417,6 +447,16 @@
         <target state="final">Šios prekės sandėlyje nėra:</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 1048]</note>
       </trans-unit>
+      <trans-unit id="d89d6327e7e7f00b1aee73c12ee5c0a8" approved="yes">
+        <source>This shipment can't be merged because a tracking number has already been assigned, indicating that it has already been shipped.</source>
+        <target state="final">Šios siuntos negalima sujungti, nes jai jau priskirtas sekimo numeris, rodantis, kad ji jau išsiųsta.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/merge_shipment_form.html.twig [Line: 33]</note>
+      </trans-unit>
+      <trans-unit id="7c0e6fb2f9d772993e8e4dac43adaf69" approved="yes">
+        <source>This shipment can't be modified because a tracking number has already been assigned, indicating that it has already been shipped.</source>
+        <target state="final">Šios siuntos negalima modifikuoti, nes jai jau priskirtas sekimo numeris, rodantis, kad ji jau išsiųsta.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/split_shipment_form.html.twig [Line: 35]</note>
+      </trans-unit>
       <trans-unit id="4d734cc32a5cac86597621969696baa8" approved="yes">
         <source>This value must include taxes.</source>
         <target state="final">Į šią reikšmę reikia įskaičiuoti mokesčius.</target>
@@ -432,10 +472,45 @@
         <target state="final">Įspėjimas taip pat galioja kitiems užsakymams:</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/payments_alert.html.twig [Line: 17]</note>
       </trans-unit>
+      <trans-unit id="2c4570e803942e8a79b25156c80bec57" approved="yes">
+        <source>You can transform this guest to a registered customer. The customer will receive an email with a link to set a password.</source>
+        <target state="final">Šį svečią galite pakeisti į registruotą klientą. Klientas gaus el. laišką su nuoroda slaptažodžiui nustatyti.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/Blocks/View/personal_information.html.twig [Line: 176]</note>
+      </trans-unit>
+      <trans-unit id="4489aa990b1be20fcfe1bbac827947ef" approved="yes">
+        <source>You can't create a registered customer with email "%s", because a registered customer with this email already exists.</source>
+        <target state="final">Negalite sukurti kaip registruoto kliento su el. pašto adresu „%s“, nes jau yra registruotas klientas su šiuo el. pašto adresu.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Customer/CustomerController.php [Line: 929]</note>
+      </trans-unit>
+      <trans-unit id="f28229c2f922945da0fda2b88872c8d7" approved="yes">
+        <source>You can't transform this guest to a registered customer, because a registered customer with this email address already exists. </source>
+        <target state="final">Negalite šio svečio paversti registruotu klientu, nes registruotas klientas su šiuo el. pašto adresu jau yra. </target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/Blocks/View/personal_information.html.twig [Line: 174]</note>
+      </trans-unit>
+      <trans-unit id="4cd3d04366db371e6157a4eb1c3af5b0" approved="yes">
+        <source>You can't update the email to "%s", because a registered customer with this email already exists.</source>
+        <target state="final">Negalite atnaujinti el. pašto adreso į „%s“, nes jau yra registruotas klientas su šiuo el. pašto adresu.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Customer/CustomerController.php [Line: 934]</note>
+      </trans-unit>
       <trans-unit id="f77fd3f9865f0c725901d48dbc00619f" approved="yes">
         <source>You cannot edit the cart once the order delivered.</source>
         <target state="final">Negalima redaguoti krepšelio, kai užsakymas pristatytas.</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2174]</note>
+      </trans-unit>
+      <trans-unit id="3c55c4e4f0f6d7be29df9ded3d51459d" approved="yes">
+        <source>You cannot merge shipment when is already shipped.</source>
+        <target state="final">Siuntos sujungti negalima, jei ji jau išsiųsta.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 710]</note>
+      </trans-unit>
+      <trans-unit id="e30e7be7409ca04e3ea3df998b46c65e" approved="yes">
+        <source>You cannot split shipment when is already shipped.</source>
+        <target state="final">Siuntos negalima padalinti, jei ji jau išsiųsta.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 798]</note>
+      </trans-unit>
+      <trans-unit id="863f9820de8513ef6318191f496891dd" approved="yes">
+        <source>You can’t select all items to split the shipment. At least one item must remain in the original package to proceed.</source>
+        <target state="final">Negalite pasirinkti visų prekių, kad padalintumėte siuntą. Norint tęsti, bent viena prekė turi likti originalioje pakuotėje.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/split_shipment_form.html.twig [Line: 30]</note>
       </trans-unit>
       <trans-unit id="aea807cc550550acd7b8d9a7bc469f6a" approved="yes">
         <source>You have to select a shop before creating new orders.</source>
