@@ -60,14 +60,29 @@
         <target state="final">Dozvolite ili zabranite kupcima naručivanje proizvoda koji nisu na zalihama. Moguće je daljnje prilagođavanje za svaki proizvod.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/StockType.php [Line: 84]</note>
       </trans-unit>
+      <trans-unit id="cffcb6b76faff5fd9cb6a310aab445d2" approved="yes">
+        <source>Allows the use of iframes in rich text fields such as product descriptions. It is recommended to keep this option disabled unless you specifically need iframes for video embeds or other external content.</source>
+        <target state="final">Omogućava korištenje iframeova u poljima obogaćenog teksta kao što su opisi proizvoda. Preporučuje se da ova opcija bude onemogućena osim ako vam iframeovi nisu posebno potrebni za ugrađene videozapise ili drugi vanjski sadržaj.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php [Line: 110]</note>
+      </trans-unit>
       <trans-unit id="a5fa9ffd3ddf89fe263675358032e7fb" approved="yes">
         <source>Automatically apply this value as a discount on all products for members of this customer group.</source>
         <target state="final">Ova vrijednost će se automatski dodijeliti kao popust svim proizvodima za članove ove grupe kupaca.</target>
         <note>File: controllers/admin/AdminGroupsController.php [Line: 358]</note>
       </trans-unit>
+      <trans-unit id="562da52195b6e52ac39be2dccbae6901" approved="yes">
+        <source>Automatically updates the shipping costs when an order is edited in the back office. If you disable this option, make sure to review the shipping costs whenever you make changes to an order.</source>
+        <target state="final">Automatski ažurira troškove dostave kada se narudžba uredi u administraciji. Ako onemogućite ovu opciju, obavezno provjerite troškove dostave svaki put kada vršite promjene u narudžbi.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GeneralType.php [Line: 93]</note>
+      </trans-unit>
       <trans-unit id="5ed533875d7388ffdbb60818e9596bdc" approved="yes">
         <source>Automatically updates the shipping costs when you edit an order.</source>
         <target state="final">Automatski ažurira troškove prijevoza kada uređujete narudžbe.</target>
+      </trans-unit>
+      <trans-unit id="dcc9a3ac81d54b27a1e7f522a17a3d2a" approved="yes">
+        <source>Background color of this status label. Used both in backoffice and on order tracking page. HTML colors only.</source>
+        <target state="final">Boja pozadine ove oznake statusa. Koristi se i u admin panel i na stranici za praćenje narudžbe. Samo HTML boje.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 161]</note>
       </trans-unit>
       <trans-unit id="1122eba5946331d2709712f64fa1d66b" approved="yes">
         <source>By default, if you search "book", you will have "book", "bookcase" and "bookend".</source>
@@ -106,6 +121,11 @@
       <trans-unit id="7ba34b929c8241268ab5eac35a772ab1" approved="yes">
         <source>Clean the HTML content on text fields. We recommend that you leave this option enabled.</source>
         <target state="final">Očisti HTML sadržaj u tekst poljima. Preporučujemo ostaviti ovu opciju omogućenu.</target>
+      </trans-unit>
+      <trans-unit id="5b6d89f93deda9c02c553196a5d73cb7" approved="yes">
+        <source>Cleans the HTML content in rich text fields before saving. It is recommended to keep this option enabled to ensure safe and valid content is saved into the database.</source>
+        <target state="final">Čisti HTML sadržaj u poljima obogaćenog teksta prije spremanja. Preporučuje se da ova opcija ostane omogućena kako bi se osiguralo spremanje sigurnog i valjanog sadržaja u bazu podataka.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php [Line: 120]</note>
       </trans-unit>
       <trans-unit id="9cd9efd3eb168071eb0a199972c54aab" approved="yes">
         <source>Contact name (e.g. Customer Support).</source>
@@ -161,6 +181,11 @@
         <source>Display product prices when in catalog mode.</source>
         <target state="final">Prikaži cijene proizvoda u kataloškom modu.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/GeneralType.php [Line: 62]</note>
+      </trans-unit>
+      <trans-unit id="91440687d19da0f6c7d96d9a5b3f1dec" approved="yes">
+        <source>Display the "%add_to_cart_label%" button when a product has combinations</source>
+        <target state="final">Prikažite dugme "%add_to_cart_label%" kada proizvod ima kombinacije</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/PageType.php [Line: 36]</note>
       </trans-unit>
       <trans-unit id="d42de30e9e03274c5c83bd6ce5c27a6f" approved="yes">
         <source>Displayed in emails sent to customers.</source>
@@ -238,6 +263,26 @@
         <target state="final">Omogućite ovu opciju samo ako vaš server omogućuje URL prepisivanje (preporučeno).</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/SetUpUrlType.php [Line: 73]</note>
       </trans-unit>
+      <trans-unit id="feb02e79a9b6bca4bb9559914d218455" approved="yes">
+        <source>Enables or disables SSL encryption (https://) for your shop. This is a security standard and you should always keep this option enabled, unless there is a specific technical issue.</source>
+        <target state="final">Omogućava ili onemogućava SSL enkripciju (https://) za vašu trgovinu. Ovo je sigurnosni standard i uvijek biste trebali držati ovu opciju omogućenom, osim ako ne postoji određeni tehnički problem.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php [Line: 86]</note>
+      </trans-unit>
+      <trans-unit id="3745e6d203a2be11a15c749586ba592f" approved="yes">
+        <source>Enables or disables the best sellers page in your shop. When disabled, the page and related links are also removed from the sitemap and other sections.</source>
+        <target state="final">Omogućava ili onemogućava stranicu najprodavanijih proizvoda u vašoj trgovini. Kada je onemogućena, stranica i povezani linkovi se također uklanjaju sa mape stranice i drugih sekcija.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php [Line: 174]</note>
+      </trans-unit>
+      <trans-unit id="f44ccb9feb9694644d7ddb842809af7c" approved="yes">
+        <source>Enables or disables the brands listing in your shop. When disabled, brands are also removed from the sitemap and other related sections.</source>
+        <target state="final">Omogućava ili onemogućava prikazivanje brendova u vašoj prodavnici. Kada je onemogućeno, brendovi se također uklanjaju sa mape sajta i drugih povezanih odjeljaka.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php [Line: 166]</note>
+      </trans-unit>
+      <trans-unit id="9955808073b701a1d996e190b0fa2b6b" approved="yes">
+        <source>Enables or disables the suppliers listing in your shop. When disabled, suppliers are also removed from the sitemap and other related sections.</source>
+        <target state="final">Omogućava ili onemogućava prikaz dobavljača u vašoj trgovini. Kada je onemogućeno, dobavljači se također uklanjaju sa mape stranice i drugih povezanih odjeljaka.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php [Line: 158]</note>
+      </trans-unit>
       <trans-unit id="786471035f60ea5955fd93f6998e8637" approved="yes">
         <source>Enter each alias separated by a comma (e.g. 'prestshop,preztashop,prestasohp').</source>
         <target state="final">Upišite svaki nadimak odvojen zarezom (npr. 'prestshop,preztashop,prestasohp').</target>
@@ -253,9 +298,23 @@
         <target state="final">Na primjer, "contacts" za http://example.com/shop/contacts preusmjerava na http://example.com/shop/contact-form.php</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/TrafficSeo/Meta/Blocks/form.html.twig [Line: 49]</note>
       </trans-unit>
+      <trans-unit id="ebdfb266f97bd01d837a5cdeb992fd5c" approved="yes">
+        <source>For packs of products, stocks can be managed manually or automatically based on individual product stock levels. Further customization is possible for each product.</source>
+        <target state="final">Za pakete proizvoda, zalihe se mogu upravljati ručno ili automatski na osnovu nivoa zaliha pojedinačnih proizvoda. Daljnje prilagođavanje je moguće za svaki proizvod.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/StockType.php [Line: 44]</note>
+      </trans-unit>
+      <trans-unit id="c4abbce80d49fc23a12cb0380fe4daaf" approved="yes">
+        <source><![CDATA[Forbidden characters: <>{}]]></source>
+        <target state="final"><![CDATA[Zabranjeni znakovi: <>{}]]></target>
+        <note>File: controllers/admin/AdminSearchConfController.php [Line: 398]</note>
+      </trans-unit>
       <trans-unit id="259b411f284388d228a30c1e2ed0c61d" approved="yes">
         <source><![CDATA[Forbidden characters: <>;=#{}]]></source>
         <target state="final"><![CDATA[Zabranjeni znakovi: <>;=#{}]]></target>
+      </trans-unit>
+      <trans-unit id="f11c8ae12be3f5a61df2361c0024fc1b" approved="yes">
+        <source><![CDATA[Forbidden characters: <>{}]]></source>
+        <target state="final"><![CDATA[Zabranjeni znakovi: <>{}]]></target>
       </trans-unit>
       <trans-unit id="21e445ba767d4fd41332b6eceab2be1a" approved="yes">
         <source>How prices are displayed in the order summary for this customer group.</source>
@@ -272,6 +331,11 @@
         <target state="final">Ako kupac ispunjava više uslova, određene cijene će se primijeniti prema ovom redoslijedu prioriteta, osim ako za određeni proizvod nije postavljen drugačiji redoslijed.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/GeneralType.php [Line: 157]</note>
       </trans-unit>
+      <trans-unit id="78c4fac28bb7772e31c75299bdbf31bf" approved="yes">
+        <source>If a visitor accesses a page using a non-canonical URL, this option defines how the shop should respond. For SEO reasons, we recommend choosing "301 Moved Permanently".</source>
+        <target state="final">Ako posjetilac pristupi stranici koristeći nekanonski URL, ova opcija definira kako bi trgovina trebala reagirati. Iz SEO razloga preporučujemo da odaberete "301 Trajno premješteno".</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/SetUpUrlType.php [Line: 115]</note>
+      </trans-unit>
       <trans-unit id="8bd1967f496dd2a0dd64dae32a3bc6e5" approved="yes">
         <source>If an attribute is not available in every product combination, it will not be displayed.</source>
         <target state="final">Ako atribut nije dostupan za svaku kombinaciju proizvoda, kombinacija neće biti prikazana.</target>
@@ -282,15 +346,44 @@
         <target state="final">Ukoliko je omogućeno, sve poruke bit će spremljene na stranici "Korisnička podrška" pod menijem "Kupac".</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/Contact/ContactType.php [Line: 107]</note>
       </trans-unit>
+      <trans-unit id="0d30027d8f6516854c9da7469b6d8a49" approved="yes">
+        <source>If order's invoice is not generated yet, this will generate it.</source>
+        <target state="final">Ako faktura za narudžbu još nije generisana, ovo će je generisati.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 177]</note>
+      </trans-unit>
+      <trans-unit id="220990e3866bfc3d5d967410e3507ae9" approved="yes">
+        <source>If there are multiple languages enabled on the shop, all URLs are prefixed with the ISO code of the language. Do you want to do this also for the default language, or keep it un-prefixed? If adding a language to a well established single language shop, it's a good idea to disable this and avoid changing the URLs.</source>
+        <target state="final">Ako je u trgovini omogućeno više jezika, svi URL-ovi imaju prefiks ISO koda jezika. Želite li to učiniti i za zadani jezik ili ga zadržati bez prefiksa? Ako dodajete jezik u dobro uspostavljenu jednojezičku trgovinu, dobra je ideja onemogućiti ovo i izbjegavati promjenu URL-ova.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/SetUpUrlType.php [Line: 94]</note>
+      </trans-unit>
+      <trans-unit id="6530353e5fc38824748de002f5b2d80a" approved="yes">
+        <source>If this option is enabled, the customer's last cart will be restored when they log back in. Otherwise, a new, empty cart will be created.</source>
+        <target state="final">Ako je ova opcija omogućena, posljednja korpa kupca će biti vraćena kada se ponovo prijavi. U suprotnom, biće kreirana nova, prazna korpa.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/CustomerPreferences/GeneralType.php [Line: 34]</note>
+      </trans-unit>
+      <trans-unit id="3bc8663376c647160124246b5567fe1f" approved="yes">
+        <source>If you own an SSL certificate for your shop's domain name, you can activate SSL encryption (https://) for all the pages of your shop.</source>
+        <target state="final">Ako posjedujete SSL certifikat za domenu vaše trgovine, možete aktivirati SSL enkripciju (https://) za sve stranice vaše trgovine.</target>
+      </trans-unit>
       <trans-unit id="a3a0f3b2f4c12d1c11b9916c8c10c48c" approved="yes">
         <source>If you want to enable SSL on all the pages of your shop, activate the "Enable on all the pages" option below.</source>
         <target state="final">Ako želite omogućiti SSL na svim stranicama svoje trgovine, aktivirajte "Omogućeno na svim stranicama" opciju u nastavku.</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/preferences.html.twig [Line: 33]</note>
       </trans-unit>
+      <trans-unit id="5ed7ed1560621badd569811a48b238ae" approved="yes">
+        <source>If your customer already has this product in their cart, a notification will be displayed on top of the product page. The customer will also be notified if the product they are browsing is part of a pack that's in their cart.</source>
+        <target state="final">Ako vaš kupac već ima ovaj proizvod u svojoj korpi, obavještenje će se prikazati na vrhu stranice proizvoda. Kupac će također biti obaviješten ako je proizvod koji pregleda dio paketa koji se nalazi u njegovoj korpi.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/PageType.php [Line: 93]</note>
+      </trans-unit>
       <trans-unit id="aec8651b033be4d4056785d43763d7ca" approved="yes">
         <source>Image height in pixels. Enter "0" to use the original size.</source>
         <target state="final">Visina slike u px. Unesite "0" za izvornu veličinu.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/CustomerPreferences/TitleType.php [Line: 74]</note>
+      </trans-unit>
+      <trans-unit id="e63a2ccfb58547d1d4dcdb6b96aa42f2" approved="yes">
+        <source>Image of this status used in the backoffice. (File type: .gif, suggested size: 16x16).</source>
+        <target state="final">Slika ovog statusa korištena u admin panelu. (Tip datoteke: .gif, predložena veličina: 16x16).</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 156]</note>
       </trans-unit>
       <trans-unit id="62c7ceb6de5c4d39e49c9762af6ddb4d" approved="yes">
         <source>Image width in pixels. Enter "0" to use the original size.</source>
@@ -301,6 +394,11 @@
         <source>In stock</source>
         <target state="final">Na stanju</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/StockType.php [Line: 104]</note>
+      </trans-unit>
+      <trans-unit id="26fff3462cbd41b144327d0afa56b90a" approved="yes">
+        <source>In the product page, feature values can be sorted alphabetically by value or by position.</source>
+        <target state="final">Na stranici proizvoda, vrijednosti karakteristika mogu se sortirati abecednim redom po vrijednosti ili po poziciji.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/PageType.php [Line: 104]</note>
       </trans-unit>
       <trans-unit id="f9aa0af5fdadc92504092774a0afb472" approved="yes">
         <source>In the volume discount table on the product page, display the discounted unit price instead of the unit discount. E.g. If you sell a product for $10 with a discount of $2 from 3 items purchased, the discounted unit price ($8) will be displayed instead of the unit discount ($2).</source>
@@ -406,14 +504,34 @@
         <target state="final">PrestaShop ima tri zadane grupe kupaca:</target>
         <note>File: controllers/admin/AdminGroupsController.php [Line: 650]</note>
       </trans-unit>
+      <trans-unit id="bafe5bb026d9d3315199aec22c1be853" approved="yes">
+        <source><![CDATA[Remember to regenerate email templates in [1]Design > Email theme[/1] after enabling or disabling this feature.]]></source>
+        <target state="final"><![CDATA[Ne zaboravite regenerisati predloške e-pošte u [1]Dizajn > Tema e-pošte[/1] nakon što omogućite ili onemogućite ovu funkciju.]]></target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GiftOptionsType.php [Line: 83]</note>
+      </trans-unit>
       <trans-unit id="fff92cdf417b8a468af180474057a575" approved="yes">
         <source>Require customers to accept or decline terms of service before processing an order.</source>
         <target state="final">Zahtjeva od kupca za prihvati ili odbije Uslove pružanja usluge prije obrade narudžbe.</target>
+      </trans-unit>
+      <trans-unit id="de3c63a6c46e2ed9b86014d9da949b3e" approved="yes">
+        <source>Require customers to accept terms of service before processing an order.</source>
+        <target state="final">Zahtijevajte od kupaca da prihvate uslove korištenja usluge prije obrade narudžbe.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GeneralType.php [Line: 107]</note>
       </trans-unit>
       <trans-unit id="01d2aac5d20787a1e873f2bdc79b514a" approved="yes">
         <source>Search this word instead.</source>
         <target state="final">Pretraži ovu riječ umjesto.</target>
         <note>File: controllers/admin/AdminSearchConfController.php [Line: 406]</note>
+      </trans-unit>
+      <trans-unit id="e0bbd55d0b2049bb5dd4f88094ad0809" approved="yes">
+        <source>Select an email template that will be sent after setting this status.</source>
+        <target state="final">Odaberite predložak e-maila koji će biti poslan nakon postavljanja ovog statusa.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 221]</note>
+      </trans-unit>
+      <trans-unit id="7b4cd4d72926ab37dc21b9e12b444a1f" approved="yes">
+        <source>Select which category to display on the product page breadcrumbs. It can be the product's default category or the category the customer came from.</source>
+        <target state="final">Odaberite koju kategoriju želite prikazati na navigacijskim mrvicama stranice proizvoda. To može biti zadana kategorija proizvoda ili kategorija iz koje je kupac došao.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/GeneralType.php [Line: 135]</note>
       </trans-unit>
       <trans-unit id="4c80d371ca1a14e173c5480ee32f1c90" approved="yes">
         <source>Send an email with a summary of the account information after registration.</source>
@@ -429,6 +547,11 @@
         <source>Set a tax for gift wrapping.</source>
         <target state="final">Postavite porez za poklon pakiranje.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GiftOptionsType.php [Line: 105]</note>
+      </trans-unit>
+      <trans-unit id="c673507ef400a7b700e8c8ede0ed7bac" approved="yes">
+        <source>Set the minimum order value required to proceed to checkout. Customers won’t be able to continue if their cart total is below this amount. Set to 0 to disable this restriction.</source>
+        <target state="final">Postavite minimalnu vrijednost narudžbe potrebnu za nastavak na plaćanje. Kupci neće moći nastaviti ako je ukupan iznos u njihovoj korpi manji od ovog iznosa. Postavite na 0 da biste onemogućili ovo ograničenje.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GeneralType.php [Line: 85]</note>
       </trans-unit>
       <trans-unit id="9175b705bec9604985209d1f2d88c785" approved="yes">
         <source>Set to "0" to disable this feature.</source>
@@ -449,6 +572,11 @@
         <target state="final">Neke PrestaShop-ove mogućnosti ne moraju raditi ispravno sa specifičnim postavkama Apache's mod_security modula. Preporučujemo da to isključite.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/SetUpUrlType.php [Line: 135]</note>
       </trans-unit>
+      <trans-unit id="75dfe702391b0e2cb38a1df614b40fb8" approved="yes">
+        <source>Some themes allow your customers to add a product to their cart directly from the product list. You may want to deactivate this feature if a product has combinations, requiring your customers to check product details and choose one of the options.</source>
+        <target state="final">Neke teme omogućavaju vašim kupcima da dodaju proizvod u svoju korpu direktno sa liste proizvoda. Možda ćete htjeti deaktivirati ovu funkciju ako proizvod ima kombinacije, zahtijevajući od vaših kupaca da provjere detalje o proizvodu i odaberu jednu od opcija.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/PageType.php [Line: 46]</note>
+      </trans-unit>
       <trans-unit id="00b963b1cb1aad2142ae67ce65329944" approved="yes">
         <source>Status will be highlighted in this color. HTML colors only.</source>
         <target state="final">Status će biti istaknut ovom bojom. Samo HTML boje.</target>
@@ -463,6 +591,11 @@
         <source>Suggest recycled packaging to customer.</source>
         <target state="final">Predložite recikliranu ambalažu kupcu.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GiftOptionsType.php [Line: 115]</note>
+      </trans-unit>
+      <trans-unit id="d7ea625e2b60f5f00947667c1b46506a" approved="yes">
+        <source>The default order in which products are displayed in listings. The available sorting methods differ based on the page type.</source>
+        <target state="final">Zadani redoslijed kojim se proizvodi prikazuju u oglasima. Dostupne metode sortiranja razlikuju se ovisno o vrsti stranice.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/PaginationType.php [Line: 41]</note>
       </trans-unit>
       <trans-unit id="e3e0c764f81f1a3677d59aa238fddd14" approved="yes">
         <source>The group defined for your identified guest customers (used in guest checkout).</source>
@@ -488,6 +621,11 @@
         <source>The order in which products are displayed in the product list.</source>
         <target state="final">Redoslijed po kojem se proizvodi prikazuju u listi proizvoda.</target>
       </trans-unit>
+      <trans-unit id="1a9a8cbb0899db011b7fec6df3326aa7" approved="yes">
+        <source>The order status will be set to "On backorder" for new orders containing products that are out of stock.</source>
+        <target state="final">Status narudžbe bit će postavljen na "Na čekanju" za nove narudžbe koje sadrže proizvode koji nisu na zalihama.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GeneralType.php [Line: 122]</note>
+      </trans-unit>
       <trans-unit id="5c85aec638229f60a035c7a6ab3623c8" approved="yes">
         <source>This field does not refer to the shop name visible in the front office.</source>
         <target state="final">Ovo polje se ne odnosi na vidljivi naziv trgovine na početnoj stranici.</target>
@@ -498,10 +636,50 @@
         <target state="final">Ovo je glavna kategorija trgovine koju ste kreirali. Da definišete novu glavnu kategoriju za vašu trgovinu, [1]kliknite ovdje[/1].</target>
         <note>File: controllers/admin/AdminShopController.php [Line: 499]</note>
       </trans-unit>
+      <trans-unit id="5f6092eeaf31414a503b747005ceedc5" approved="yes">
+        <source>This option defines how much different can the alternative words found by fuzzy search be. Or, how many characters can be different/missing/added. The default value is 5.</source>
+        <target state="final">Ova opcija definira koliko se mogu razlikovati alternativne riječi pronađene fuzzy pretragom. Ili, koliko znakova može biti drugačije/nedostajati/dodano. Zadana vrijednost je 5.</target>
+        <note>File: controllers/admin/AdminSearchConfController.php [Line: 187]</note>
+      </trans-unit>
       <trans-unit id="2b610a936a358875e6f5a01564a3a0e6" approved="yes">
         <source>This parameter will only be used if the fuzzy search is activated: the lower the value, the more tolerant your search will be.</source>
         <target state="final">Ovaj parametar će biti korišten samo ako je nejasna pretraga aktivirana: što je manja vrijednost ovog parametra više će biti tolerantna pretraga.</target>
         <note>File: controllers/admin/AdminSearchConfController.php [Line: 207]</note>
+      </trans-unit>
+      <trans-unit id="d71f4f6669b9df2a1bc83f4bf2a186c5" approved="yes">
+        <source>This will add an entry to order's "Payments" table, if it doesn't exist yet.</source>
+        <target state="final">Ovo će dodati unos u tabelu "Plaćanja" narudžbe, ako već ne postoji.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 201]</note>
+      </trans-unit>
+      <trans-unit id="8b6f21abb5306a5fa051fdeee4c918e0" approved="yes">
+        <source>This will attach delivery slip PDF to the sent email, if it exists. If it doesn't, it will have no effect.</source>
+        <target state="final">Ovo će priložiti PDF otpremnicu poslanom e-mailu, ako postoji. Ako ne postoji, neće imati nikakvog efekta.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 248]</note>
+      </trans-unit>
+      <trans-unit id="e8c9630127603f55eea5e4d89455d7cd" approved="yes">
+        <source>This will attach invoice PDF to the sent email, if it exists. If it doesn't, it will have no effect.</source>
+        <target state="final">Ovo će priložiti PDF fakture poslanom e-mailu, ako postoji. Ako ne postoji, neće imati nikakvog efekta.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 240]</note>
+      </trans-unit>
+      <trans-unit id="d21af1d7df87c9b01b3141840adef2f1" approved="yes">
+        <source>This will create a delivery slip and mark a delivery date on order's invoice.</source>
+        <target state="final">Ovo će kreirati otpremnicu i označiti datum isporuke na fakturi narudžbe.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 209]</note>
+      </trans-unit>
+      <trans-unit id="1645de8c2684266ea78ab325c2fc44c3" approved="yes">
+        <source>This will mark the order as shipped. It will register a stock movement entry, prevent modifying the order and other things.</source>
+        <target state="final">Ovo će označiti narudžbu kao otpremljenu. Registrovat će unos kretanja zaliha, spriječiti izmjenu narudžbe i druge stvari.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 193]</note>
+      </trans-unit>
+      <trans-unit id="72993cc97904585ea4f16aa9d0fda4ef" approved="yes">
+        <source>This will mark the order as successfuly processed - including it in customer's revenue, your shop stats etc.</source>
+        <target state="final">Ovo će označiti narudžbu kao uspješno obrađenu - uključujući je u prihod kupca, statistiku vaše trgovine itd.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 169]</note>
+      </trans-unit>
+      <trans-unit id="bf1fc852eb4242c369934b81e3117c63" approved="yes">
+        <source>This will send an email to the customer after assigning this status. Make sure to select proper email template below.</source>
+        <target state="final">Nakon dodjeljivanja ovog statusa, korisniku će biti poslan e-mail. Obavezno odaberite odgovarajući e-mail predložak ispod.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 217]</note>
       </trans-unit>
       <trans-unit id="14bc1d17bbcf8fb45debf11fb7c5f80b" approved="yes">
         <source>Title of this page.</source>
@@ -527,10 +705,25 @@
         <source>Upload an icon from your computer (File type: .gif, suggested size: 16x16).</source>
         <target state="final">Učitajte ikonu iz vašeg računara (Tip datoteke: .gif, predložena veličina: 16x16).</target>
       </trans-unit>
+      <trans-unit id="7e7c876c57cabc4c3c99034d6b3764b0" approved="yes">
+        <source>Use this if you want this status to be internal only.</source>
+        <target state="final">Koristite ovo ako želite da ovaj status bude samo interni.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderStates/OrderStateType.php [Line: 185]</note>
+      </trans-unit>
       <trans-unit id="122941b469f97a0c0750a62126fba6cd" approved="yes">
         <source>We recommend that you deactivate your store while performing maintenance. Note that it will not disable the webservice.</source>
         <target state="final">Preporučujemo da deaktivirate vašu trgovinu dok radite ažuriranje. Obratite pažnju da to neće deaktivirati vebservis.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/MaintenanceType.php [Line: 61]</note>
+      </trans-unit>
+      <trans-unit id="a8de200ee3200616262682ff488ce2f3" approved="yes">
+        <source>When enabled, admins will access the store front office without storing their IP.</source>
+        <target state="final">Kada je omogućeno, administratori će pristupiti stranici trgovine bez pohranjivanja svoje IP adrese.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/MaintenanceType.php [Line: 74]</note>
+      </trans-unit>
+      <trans-unit id="8f5320453e91fe37d7b5704c92f4f243" approved="yes">
+        <source>When enabled, friendly URL will be updated on every name change for offline products only.</source>
+        <target state="final">Kada je omogućeno, prilagođeni URL će se ažurirati pri svakoj promjeni imena samo za offline proizvode.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/GeneralType.php [Line: 118]</note>
       </trans-unit>
       <trans-unit id="f45ed1483cf46972b5f225656c9c8991" approved="yes">
         <source>Whether or not to display this store.</source>
@@ -557,10 +750,20 @@
         <target state="final">Možete odabrati kada se zaokružuju cijene: bilo na svaku stavku, svaku liniju ili ukupno (od računa, na primjer).</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php [Line: 150]</note>
       </trans-unit>
+      <trans-unit id="f53c8ac6acc0017629736d6d0ccd935c" approved="yes">
+        <source>You can specify the default behavior for all disabled products. The product page can display a "Discontinued" message or an error page. You can also specify which HTTP response is sent to users. This can be set specifically for each product.</source>
+        <target state="final">Možete odrediti zadano ponašanje za sve onemogućene proizvode. Stranica proizvoda može prikazati poruku "Ukinuto" ili stranicu s greškom. Također možete odrediti koji HTTP odgovor se šalje korisnicima. Ovo se može postaviti posebno za svaki proizvod.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/GeneralType.php [Line: 168]</note>
+      </trans-unit>
       <trans-unit id="92aaf3cf7e8f1434886a8887e102391b" approved="yes">
         <source>You can't edit the shop group because the current shop belongs to a group with the "share" option enabled.</source>
         <target state="final">Ne možete urediti grupu trgovine jer trenutna trgovina pripada grupi s omogućenim "dijeljenim" opcijama.</target>
         <note>File: controllers/admin/AdminShopController.php [Line: 489]</note>
+      </trans-unit>
+      <trans-unit id="744c64016466dfc0166c805ee96446e4" approved="yes">
+        <source>[1]Make[/1] sure partner offers are not set as required in the [2]Customers[/2] section of the back office before disabling them. Otherwise, new customers won't be able to create an account and [1]proceed[/1] to checkout.</source>
+        <target state="final">[1]Uvjerite se[/1] da ponude partnera nisu postavljene kako se zahtijevaju u odjelu [2]Kupci[/2] admin panela prije nego što ih onemogućite. U suprotnom, novi kupci neće moći kreirati račun i [1]nastaviti[/1] na plaćanje.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/ShopParameters/Blocks/customer_preferences_general.html.twig [Line: 20]</note>
       </trans-unit>
       <trans-unit id="2593c7ce3ff937293feb1e61c152e551" approved="yes">
         <source>characters</source>
