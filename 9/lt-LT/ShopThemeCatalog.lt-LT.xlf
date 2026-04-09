@@ -2,11 +2,6 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="Shop.Theme.Catalog.xlf" source-language="en" target-language="lt" datatype="plaintext">
     <body>
-      <trans-unit id="734346d44245de59214137842ab17744" approved="yes">
-        <source>%1$s:</source>
-        <target state="final">%1$s:</target>
-        <note>File: themes/hummingbird/templates/catalog/_partials/active_filters.tpl [Line: 15]</note>
-      </trans-unit>
       <trans-unit id="c24cf2abae9286b8f69a8ccdf7ed8d5e" approved="yes">
         <source>%nb_people% people are currently watching this product.</source>
         <target state="final">%nb_people% asmenys šiuo metu peržiūri šią prekę.</target>
@@ -359,6 +354,11 @@
         <target state="final">Nėra prekių</target>
         <note>File: themes/classic/templates/errors/410.tpl [Line: 34]</note>
       </trans-unit>
+      <trans-unit id="6235304701da57331e00bba0867eead2" approved="yes">
+        <source>No products available at the moment</source>
+        <target state="final">Šiuo metu prekių nėra</target>
+        <note>File: themes/hummingbird/templates/catalog/listing/product-list.tpl [Line: 42]</note>
+      </trans-unit>
       <trans-unit id="85c435036ee6b5b6ae8dc26b5c336e3a" approved="yes">
         <source>No products available yet</source>
         <target state="final">Prekių nėra</target>
@@ -403,6 +403,11 @@
         <source>Pages</source>
         <target state="final">Puslapiai</target>
         <note>File: controllers/front/SitemapController.php [Line: 32]</note>
+      </trans-unit>
+      <trans-unit id="2ebe388cb82225492a45c9043c271585" approved="yes">
+        <source>Payment method: %payment_method%</source>
+        <target state="final">Mokėjimo būdas: %payment_method%</target>
+        <note>File: themes/hummingbird/templates/customer/order-detail.tpl [Line: 30]</note>
       </trans-unit>
       <trans-unit id="efa34a2b5f4bc39bf375243c2a33cad0" approved="yes">
         <source>Please try other keywords to describe what you are looking for.</source>
@@ -464,6 +469,11 @@
         <target state="final">Prekė su papildomais pasirinkimais</target>
         <note>File: src/Adapter/Presenter/Product/ProductLazyArray.php [Line: 1456]</note>
       </trans-unit>
+      <trans-unit id="04c06765e76fdf5efd32d865bb1e9210" approved="yes">
+        <source>Product brand: %brand_name%</source>
+        <target state="final">Prekės ženklas: %brand_name%</target>
+        <note>File: themes/hummingbird/templates/catalog/product.tpl [Line: 50]</note>
+      </trans-unit>
       <trans-unit id="54c02ba7929b1fda4847991a45b58a48" approved="yes">
         <source>Product customization</source>
         <target state="final">Prekės personalizacija</target>
@@ -487,6 +497,11 @@
         <source>Quantity</source>
         <target state="final">Kiekis</target>
         <note>File: themes/hummingbird/templates/customer/_partials/order-detail-return.tpl [Line: 135]</note>
+      </trans-unit>
+      <trans-unit id="c874fc2a4f2ea4c93c8b66532a27bd3c" approved="yes">
+        <source>Quantity inside the pack: %quantity%.</source>
+        <target state="final">Kiekis pakuotėje: %quantity%.</target>
+        <note>File: themes/hummingbird/templates/catalog/_partials/miniatures/product-pack.tpl [Line: 94]</note>
       </trans-unit>
       <trans-unit id="63b539babcf7978229d66ba4052ca71f" approved="yes">
         <source>Reduced price</source>
@@ -537,6 +552,11 @@
         <source>Relevance</source>
         <target state="final">Aktualumas</target>
         <note>File: src/Adapter/Search/SearchProductSearchProvider.php [Line: 126]</note>
+      </trans-unit>
+      <trans-unit id="662cf2be14207e2b0bcbbef6d2f24fb7" approved="yes">
+        <source>Remove %1$s filter: %2$s</source>
+        <target state="final">Pašalinti %1$s filtrą: %2$s</target>
+        <note>File: themes/hummingbird/modules/ps_facetedsearch/views/templates/front/catalog/active-filters.tpl [Line: 22]</note>
       </trans-unit>
       <trans-unit id="fdfac28b5ad628f25649d9c2eb4fc62e" approved="yes">
         <source>Returned</source>
@@ -598,10 +618,25 @@
         <target state="final">Pasirinkti visas prekes</target>
         <note>File: themes/hummingbird/templates/customer/_partials/order-detail-return.tpl [Line: 11]</note>
       </trans-unit>
+      <trans-unit id="1b43324e279c08e5972631cebeb792b7" approved="yes">
+        <source>Select product to return</source>
+        <target state="final">Pasirinkite grąžinamą prekę</target>
+        <note>File: themes/hummingbird/templates/customer/_partials/order-detail-return.tpl [Line: 10]</note>
+      </trans-unit>
+      <trans-unit id="a1ab8a6719008b1b5b146dc898c8e9f0" approved="yes">
+        <source>Select quantity to return</source>
+        <target state="final">Pasirinkite grąžinamą kiekį</target>
+        <note>File: themes/hummingbird/templates/customer/_partials/order-detail-return.tpl [Line: 143]</note>
+      </trans-unit>
       <trans-unit id="fb526aaa0add86e4e124263db50438c8" approved="yes">
         <source>Showing %from%-%to% of %total% item(s)</source>
         <target state="final">Rodoma %from%-%to% iš %total% prekės(-ių)</target>
         <note>File: themes/hummingbird/templates/_partials/pagination.tpl [Line: 10]</note>
+      </trans-unit>
+      <trans-unit id="5919aef8e646ef4512137c70e3a264f3" approved="yes">
+        <source>Special deals</source>
+        <target state="final">Specialūs pasiūlymai</target>
+        <note>File: themes/hummingbird/modules/ps_specials/views/templates/hook/ps_specials.tpl [Line: 11]</note>
       </trans-unit>
       <trans-unit id="4594f39c6dac58760daeb19d79389576" approved="yes">
         <source>Specific References</source>
@@ -612,6 +647,11 @@
         <source>Stay tuned! More products will be shown here as they are added.</source>
         <target state="final">Sekite naujienas! Čia bus pateikiama daugiau prekių, kai tik jos bus pridėtos.</target>
         <note>File: themes/hummingbird/templates/catalog/listing/product-list.tpl [Line: 43]</note>
+      </trans-unit>
+      <trans-unit id="79d8da3f44da799b07993211c1b205cd" approved="yes">
+        <source>Subcategories for %s</source>
+        <target state="final">%s subkategorijos</target>
+        <note>File: themes/hummingbird/modules/ps_categorytree/views/templates/hook/ps_categorytree.tpl [Line: 27]</note>
       </trans-unit>
       <trans-unit id="1814d65a76028fdfbadab64a5a8076df" approved="yes">
         <source>Suppliers</source>
@@ -658,6 +698,16 @@
         <target state="final">Panaudotas</target>
         <note>File: src/Adapter/Presenter/Product/ProductLazyArray.php [Line: 278]</note>
       </trans-unit>
+      <trans-unit id="d9d697694800fc1320e90fd0d6a7d92d" approved="yes">
+        <source>View product %product_name%</source>
+        <target state="final">Peržiūrėti prekę %product_name%</target>
+        <note>File: themes/hummingbird/templates/catalog/_partials/miniatures/product.tpl [Line: 105]</note>
+      </trans-unit>
+      <trans-unit id="27c58e5a84e08e2f404d31c258946c90" approved="yes">
+        <source>View product %product_name%, part of the pack.</source>
+        <target state="final">Peržiūrėti prekę %product_name%, kuri yra pakuotės dalis.</target>
+        <note>File: themes/hummingbird/templates/catalog/_partials/miniatures/product-pack.tpl [Line: 94]</note>
+      </trans-unit>
       <trans-unit id="43560641f91e63dc83682bc598892fa1" approved="yes">
         <source>Viewed products</source>
         <target state="final">Peržiūrėta</target>
@@ -683,6 +733,16 @@
         <target state="final">Jums taip pat gali patikti</target>
         <note>File: themes/hummingbird/templates/catalog/_partials/product-accessories.tpl [Line: 15]</note>
       </trans-unit>
+      <trans-unit id="eeb1ea8686e8d4f7e4f645cb4c1a1125" approved="yes">
+        <source>Your cart contains %1s of these products and another %2s of these are included in packs in your cart.</source>
+        <target state="final">Jūsų krepšelyje yra %1s šių prekių, o dar %2s jų yra įtraukti į pakuotes.</target>
+        <note>File: controllers/front/ProductController.php [Line: 507]</note>
+      </trans-unit>
+      <trans-unit id="75ab944a828d35122e062c504de6970b" approved="yes">
+        <source>Your cart contains %1s of these products.</source>
+        <target state="final">Jūsų krepšelyje yra %1s šių prekių.</target>
+        <note>File: controllers/front/ProductController.php [Line: 513]</note>
+      </trans-unit>
       <trans-unit id="5d1190edfb16f1dcaaecc56570c864be" approved="yes">
         <source>Your customization:</source>
         <target state="final">Jūsų specifikacija:</target>
@@ -707,6 +767,11 @@
         <source>isbn</source>
         <target state="final">isbn</target>
         <note>File: src/Adapter/Presenter/Product/ProductLazyArray.php [Line: 1532]</note>
+      </trans-unit>
+      <trans-unit id="f286999e8dee46f02dbd9f8f523220f5" approved="yes">
+        <source>quick view</source>
+        <target state="final">greita peržiūra</target>
+        <note>File: themes/hummingbird/templates/catalog/_partials/quickview.tpl [Line: 9]</note>
       </trans-unit>
       <trans-unit id="2f9e567efb6a38663162f65eaac2d73b" approved="yes">
         <source>upc</source>
