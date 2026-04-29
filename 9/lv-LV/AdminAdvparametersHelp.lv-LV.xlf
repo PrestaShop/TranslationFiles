@@ -2,10 +2,25 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="Admin.Advparameters.Help.xlf" source-language="en" target-language="lv" datatype="plaintext">
     <body>
+      <trans-unit id="10402f7c5b23f2156415aefabea831d2" approved="yes">
+        <source>A DKIM selector usually looks like 12345.domain. It must match the name of your DNS record.</source>
+        <target state="final">DKIM selektors parasti izskatās kā 12345.domain. Tam jāatbilst jūsu DNS ieraksta nosaukumam.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Email/DkimConfigurationType.php [Line: 34]</note>
+      </trans-unit>
       <trans-unit id="4bc14a0f722453ba235bc3fb52d95ffb" approved="yes">
         <source>A category root is where a category tree can begin. This is used with multistore.</source>
         <target state="final">No pamatkategorijas sākas kategoriju koks. To lieto kopā ar Multiveikalu.</target>
         <note>File: src/Core/Import/EntityField/Provider/CategoryFieldsProvider.php [Line: 44]</note>
+      </trans-unit>
+      <trans-unit id="54cde7677b5a5624041c00c100224cbc" approved="yes">
+        <source>All outdated sessions will be automatically cleared after the first connection attempt, but you can do it manually now if needed.</source>
+        <target state="final">Visas novecojušās sesijas tiks automātiski izdzēstas pēc pirmā pieslēgšanās mēģinājuma, taču, ja nepieciešams, to var izdarīt arī manuāli tagad.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Security/clear_form.html.twig [Line: 19]</note>
+      </trans-unit>
+      <trans-unit id="a951bd27ed3722e63e13ff4c73a3749a" approved="yes">
+        <source>Allow or deny this employee's access to the Admin panel.</source>
+        <target state="final">Atļaut vai aizliegt šim darbiniekam ieiet Adminstratora vadības panelī.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Employee/EmployeeType.php [Line: 186]</note>
       </trans-unit>
       <trans-unit id="a27780d9bb7b3595998465aadcaaeed7" approved="yes">
         <source>Allowed formats: .csv, .xls, .xlsx, .xlst, .ods, .ots</source>
@@ -16,6 +31,11 @@
         <source>At the top of the screen, please select the "Import" tab</source>
         <target state="final">Ekrāna augšpusē izvēlieties cilni "Importēt"</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Backup/Blocks/backup_info.html.twig [Line: 16]</note>
+      </trans-unit>
+      <trans-unit id="4b620493cd5571cb4af81dba9c68812e" approved="yes">
+        <source>Back office pages require the use of a token. This protection can be disabled if needed.</source>
+        <target state="final">Administrācijas paneļa lapām ir nepieciešama tokena izmantošana. Šo aizsardzību var atspējot, ja nepieciešams.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Security/GeneralType.php [Line: 29]</note>
       </trans-unit>
       <trans-unit id="e8602bda90ef985a71054950e6f1981e" approved="yes">
         <source>Before activating the webservice, you must be sure to: </source>
@@ -31,6 +51,11 @@
         <source>Check that URL rewriting is available on this server.</source>
         <target state="final">Pārbaudiet vai šajā serverī ir pieejama URL pārrakstīšana.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceConfigurationType.php [Line: 32]</note>
+      </trans-unit>
+      <trans-unit id="000552d95fb9e18ac08ca27098bf1d41" approved="yes">
+        <source>Check that the six methods GET, POST, PUT, PATCH, DELETE and HEAD are supported by this server.</source>
+        <target state="final">Pārbaudiet, vai šis serveris atbalsta sešas metodes: GET, POST, PUT, PATCH, DELETE un HEAD.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceConfigurationType.php [Line: 37]</note>
       </trans-unit>
       <trans-unit id="0f81567617bb8ebc23f48e74d8ae8acf" approved="yes">
         <source>Check the IP address of the cookie in order to prevent your cookie from being stolen.</source>
@@ -77,6 +102,11 @@
         <target state="final">Noklikšķiniet lai parādītu visus veikalus %name% veikala grupā</target>
         <note>File: controllers/admin/AdminShopController.php [Line: 833]</note>
       </trans-unit>
+      <trans-unit id="2e516ba34e888923fa0f76e5dad9e24a" approved="yes">
+        <source>Click on the "%phpmyadmin_browse_label%" button and select the backup file from your hard drive.</source>
+        <target state="final">Noklikšķiniet uz pogas "%phpmyadmin_browse_label%" un izvēlieties dublējuma failu no sava cietā diska.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Backup/Blocks/backup_info.html.twig [Line: 17]</note>
+      </trans-unit>
       <trans-unit id="04abc58df1575dd465a28c86d859d302" approved="yes">
         <source>Connect to "phpMyAdmin" and select your current database.</source>
         <target state="final">Pieslēdzieties "phpMyAdmin" un izvēlieties nepieciešamo datubāzi.</target>
@@ -102,10 +132,82 @@
         <target state="final">Atmest eksistējošās tabulas importēšanas laikā.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Backup/BackupOptionsType.php [Line: 47]</note>
       </trans-unit>
+      <trans-unit id="3d24e5589702a2ecfd1d65813b4a892e" approved="yes">
+        <source>Enable DKIM, fill in the fields and give it a try. If no email is sent, check logs.</source>
+        <target state="final">Iespējojiet DKIM, aizpildiet laukus un izmēģiniet. Ja e-pasts netiek nosūtīts, pārbaudiet žurnālus.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Email/EmailConfigurationType.php [Line: 94]</note>
+      </trans-unit>
+      <trans-unit id="abef01780b7419768943a18d85666f09" approved="yes">
+        <source>Enable or disable debug mode. Debug mode will enable extended error reporting, display the Symfony debug bar, and other features.</source>
+        <target state="final">Iespējot vai atspējot atkļūdošanas režīmu. Atkļūdošanas režīms aktivizēs paplašinātu kļūdu ziņošanu, parādīs Symfony atkļūdošanas joslu un citas funkcijas.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/DebugModeType.php [Line: 33]</note>
+      </trans-unit>
+      <trans-unit id="913a55381fe0db5ad85c59b8a693fd18" approved="yes">
+        <source>Enable or disable debug profiling. Debug profiling will display performance-related information under each page and help find performance bottlenecks in your store.</source>
+        <target state="final">Iespējot vai atspējot atkļūdošanas profilēšanu. Atkļūdošanas profilēšana parādīs veiktspējas informāciju katras lapas apakšā un palīdzēs atrast veiktspējas "pudeles kaklus" jūsu veikalā.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/DebugModeType.php [Line: 56]</note>
+      </trans-unit>
+      <trans-unit id="a536359574c27ee963de828ff56241c7" approved="yes">
+        <source>Enable or disable the migrated attribute page.</source>
+        <target state="final">Iespējot vai atspējot migrēto atribūtu lapu.</target>
+      </trans-unit>
+      <trans-unit id="8437c82aa6a57b80f6956352690d7e47" approved="yes">
+        <source>Enable or disable the migrated carriers page.</source>
+        <target state="final">Iespējot vai atspējot migrēto piegādātāju lapu.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 29]</note>
+      </trans-unit>
+      <trans-unit id="f86c7bed82286a17b1e557d7235ed4a0" approved="yes">
+        <source>Enable or disable the migrated cart rules page.</source>
+        <target state="final">Iespējot vai atspējot migrēto groza noteikumu lapu.</target>
+      </trans-unit>
+      <trans-unit id="17e98e038d333c2d89bc59c843414298" approved="yes">
+        <source>Enable or disable the migrated catalog price rules page.</source>
+        <target state="final">Iespējot vai atspējot migrēto kataloga cenu noteikumu lapu.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 17]</note>
+      </trans-unit>
+      <trans-unit id="dec852ff965efbef1b33366c7b927acd" approved="yes">
+        <source>Enable or disable the migrated countries page.</source>
+        <target state="final">Iespējot vai atspējot migrēto valstu lapu.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 21]</note>
+      </trans-unit>
+      <trans-unit id="4c225d5d1f44741cfa6e05837c40d4e3" approved="yes">
+        <source>Enable or disable the migrated customer threads page.</source>
+        <target state="final">Iespējot vai atspējot migrēto klientu sarakstes lapu.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 41]</note>
+      </trans-unit>
+      <trans-unit id="a7980eefb5f08f8f3555df73e3dfa63f" approved="yes">
+        <source>Enable or disable the migrated order states page.</source>
+        <target state="final">Iespējot vai atspējot migrēto pasūtījumu statusu lapu.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 45]</note>
+      </trans-unit>
+      <trans-unit id="e93e9e56b71f065655b06fd7b069f181" approved="yes">
+        <source>Enable or disable the migrated permissions page.</source>
+        <target state="final">Iespējot vai atspējot migrēto piekļuves atļauju lapu.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 33]</note>
+      </trans-unit>
+      <trans-unit id="21686cbcfb36e6039ba2f0af0909b05b" approved="yes">
+        <source>Enable or disable the migrated states page.</source>
+        <target state="final">Iespējot vai atspējot migrēto štatu lapu.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 25]</note>
+      </trans-unit>
+      <trans-unit id="acf9650ec7716ce837f6865d0dcc289b" approved="yes">
+        <source>Enable or disable the migrated tax rules page.</source>
+        <target state="final">Iespējot vai atspējot migrēto nodokļu noteikumu lapu.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 37]</note>
+      </trans-unit>
+      <trans-unit id="375f32d57378784ca73de6ae649adf60" approved="yes">
+        <source>Enable or disable the migrated titles page.</source>
+        <target state="final">Iespējot vai atspējot migrēto titulu lapu.</target>
+      </trans-unit>
       <trans-unit id="e667b16af30e0820218ad32242e284dc" approved="yes">
         <source>Enable or disable this shop group?</source>
         <target state="final">Ieslēgt vai atslēgt šo veikala grupu?</target>
         <note>File: controllers/admin/AdminShopGroupController.php [Line: 265]</note>
+      </trans-unit>
+      <trans-unit id="408b9afa3037a223d76ff924a1e98fad" approved="yes">
+        <source>Enabling multi-statements queries increases the risk of SQL injection vulnerabilities being exploited.</source>
+        <target state="final">Iespējojot vairāku paziņojumu SQL vaicājumus, palielinās risks, ka tiks izmantotas SQL injekcijas ievainojamības.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/RequestSql/SqlRequestSettingsType.php [Line: 43]</note>
       </trans-unit>
       <trans-unit id="902b0d55fddef6f8d651fe1035b7d4bd" approved="yes">
         <source>Error</source>
@@ -116,6 +218,15 @@
         <source>Fabulous</source>
         <target state="final">Lieliski</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/TwigTemplateForm/prestashop_ui_kit_base.html.twig [Line: 1657]</note>
+      </trans-unit>
+      <trans-unit id="71032b7b42c511e76dd7054aba7c1fb0" approved="yes">
+        <source>Fill in the fields below to set up DKIM signing of outgoing emails. This will reduce the likelihood of your emails being marked as spam.
+              You can get the data below from your server administrator or generate it yourself by using one of the freely available tools, such as dkimcore.org.
+              Also, make sure that your server is registered as an authorized sender in your SPF record. </source>
+        <target state="final">Aizpildiet zemāk esošos laukus, lai iestatītu izejošo e-pastu DKIM parakstīšanu. Tas samazinās iespēju, ka jūsu e-pasti tiks atzīmēti kā surogātpasts.
+              Šos datus varat saņemt no sava servera administratora vai ģenerēt pats, izmantojot kādu no bezmaksas rīkiem, piemēram, dkimcore.org.  
+              Pārliecinieties arī, ka jūsu serveris ir reģistrēts kā autorizēts sūtītājs SPF ierakstā. </target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Email/Blocks/email_configuration.html.twig [Line: 26]</note>
       </trans-unit>
       <trans-unit id="a60bc065c0296646c5a07e55c0cfff6e" approved="yes">
         <source>Fully qualified domain name (keep this field empty if you don't know).</source>
@@ -161,6 +272,11 @@
         <source>If your backup file exceeds this limit, contact your hosting provider for assistance. </source>
         <target state="final">Ja jūsu rezerves kopijas fails pārsniedz šo ierobežojumu, sazinieties ar savu hostinga pakalpojumu sniedzēju, lai saņemtu palīdzību. </target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Backup/Blocks/backup_info.html.twig [Line: 20]</note>
+      </trans-unit>
+      <trans-unit id="d2beb087630a099f2fada85e7f2f19fb" approved="yes">
+        <source>Ignore this field if you don't use the Multistore tool. If you leave this field empty, the default store will be used.</source>
+        <target state="final">Ignorēt šo lauku, ja neizmantojat rīku Multiveikals. Ja atstājat šo lauku tukšu, tiks izmantots veikals pēc noklusējuma.</target>
+        <note>File: src/Core/Import/EntityField/Provider/SupplierFieldsProvider.php [Line: 47]</note>
       </trans-unit>
       <trans-unit id="b80c52e7f679fba3c2837b42705fe779" approved="yes">
         <source>Informative only</source>
@@ -247,6 +363,16 @@
         <target state="final">Vairāk par CSV formātu lasīt:</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Blocks/import_panel.html.twig [Line: 25]</note>
       </trans-unit>
+      <trans-unit id="04da1735a100af1089236ff39c5021ca" approved="yes">
+        <source>Scores are integers from 0 to 4.</source>
+        <target state="final">Vērtējumi ir veselie skaitļi no 0 līdz 4.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Security/index.html.twig [Line: 46]</note>
+      </trans-unit>
+      <trans-unit id="7774f7ea613f49f5246f9ff5e96d29de" approved="yes">
+        <source>Select the stores the employee is allowed to access.</source>
+        <target state="final">Izvēlieties veikalus, kuriem darbiniekam ir atļauts piekļūt.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Employee/EmployeeType.php [Line: 203]</note>
+      </trans-unit>
       <trans-unit id="7bf215c957e661c3bd8ad7f6221675c9" approved="yes">
         <source>Set "Enable Shop" to "No" in the "Maintenance" page under the "Preferences" menu.</source>
         <target state="final">Iestatiet "Ieslēgt veikalu" uz "Nē" ierīces "Preferences" sadaļā "Apkope".</target>
@@ -277,10 +403,20 @@
         <target state="final">Lai uzlabotu veiktspēju dažas funkcijas var tikt izslēgtas,.</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/performance.html.twig [Line: 117]</note>
       </trans-unit>
+      <trans-unit id="7256aed5ef7ebd86c3b3d98480d9cc60" approved="yes">
+        <source>The private key starts with -----BEGIN RSA PRIVATE KEY-----.</source>
+        <target state="final">Privātā atslēga sākas ar -----BEGIN RSA PRIVATE KEY-----.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Email/DkimConfigurationType.php [Line: 40]</note>
+      </trans-unit>
       <trans-unit id="fe42e7cf02611b9719a6db6513de19eb" approved="yes">
         <source>The selected shop already has a Main URL. Therefore, if you set this one as the Main URL, the older Main URL will be set as a regular URL.</source>
         <target state="final">Izvēlētajam veikalam jau ir galvenais URL. Tāpēc, ja jūs iestatāt šo kā galveno URL, vecāks galvenais URL tiks iestatīts kā parasts URL.</target>
         <note>File: controllers/admin/AdminShopUrlController.php [Line: 188]</note>
+      </trans-unit>
+      <trans-unit id="767bd2cbfe41f0aa3f3e4ff306a75b89" approved="yes">
+        <source>This feature allows you to identify modules that might be causing bugs on your store. Disable all non-built-in modules (not listed in composer.json). Then, re-enable each module one by one and check that everything works properly before moving on to the next one.</source>
+        <target state="final">Šī funkcija ļauj identificēt moduļus, kas varētu radīt kļūdas jūsu veikalā. Atspējojiet visus iebūvētajā versijā neietilpstošos moduļus (kas nav uzskaitīti composer.json). Pēc tam atkārtoti iespējojiet katru moduli pa vienam un pārliecinieties, ka viss darbojas pareizi, pirms pārejat pie nākamā.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/performance.html.twig [Line: 73]</note>
       </trans-unit>
       <trans-unit id="7e7b350e5cee624789b1e263ec59db26" approved="yes">
         <source>This is the physical folder for your store on the web server. Leave this field empty if your store is installed on the root path. For instance, if your store is available at www.example.com/my-store/, you must input my-store/ in this field.</source>

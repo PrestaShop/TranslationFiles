@@ -12,6 +12,16 @@
         <target state="final">Veiksmīgi tika izveidota daļēja atmaksa.</target>
         <note>File: src/PrestaShopBundle/Twig/Component/Legacy/LegacySessionAlert.php [Line: 65]</note>
       </trans-unit>
+      <trans-unit id="50c5ffd8dadba5bcc7b83cfe3d874f54" approved="yes">
+        <source>A standard refund was successfully created.</source>
+        <target state="final">Standarta atmaksa tika veiksmīgi izveidota.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 986]</note>
+      </trans-unit>
+      <trans-unit id="2b0c8d4ac85a4f8ddf1427f7ad537f55" approved="yes">
+        <source>Amount value must be greater than 0.</source>
+        <target state="final">Summas vērtībai jābūt lielākai par 0.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2216]</note>
+      </trans-unit>
       <trans-unit id="9e2dcf2660b82a0204f668565417010a" approved="yes">
         <source>An account already exists for this email address:</source>
         <target state="final">Konts ar šādu epastu jau eksistē:</target>
@@ -61,6 +71,11 @@
         <source>Direct link</source>
         <target state="final">Tiešā adrese</target>
         <note>File: src/Adapter/Customer/QueryHandler/GetCustomerForViewingHandler.php [Line: 317]</note>
+      </trans-unit>
+      <trans-unit id="bd69d7116253ba1407fa8f2611ea6866" approved="yes">
+        <source>Discount value cannot exceed the total price of this order.</source>
+        <target state="final">Atlaides vērtība nedrīkst pārsniegt šī pasūtījuma kopējo summu.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2221]</note>
       </trans-unit>
       <trans-unit id="dc8d1b4e8c9bdf1eed97eb9ed5877a43" approved="yes">
         <source>Do you want to overwrite your existing message?</source>
@@ -202,10 +217,55 @@
         <target state="final">Produkti nav atrasti</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/Create/cart.html.twig [Line: 24]</note>
       </trans-unit>
+      <trans-unit id="c3cb19afc3cf5cd7d07346dcd3504fe2" approved="yes">
+        <source>Only numbers and decimal points (".") are allowed in the amount fields of the payment block, e.g. 10.50 or 1050.</source>
+        <target state="final">Maksājuma bloka summas laukos atļauti tikai cipari un decimālpunkts (“.”), piemēram, 10.50 vai 1050.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2335]</note>
+      </trans-unit>
+      <trans-unit id="f131fb3c210a32ca24a4910b42b6e2ef" approved="yes">
+        <source>Only numbers and decimal points (".") are allowed in the amount fields, e.g. 10.50 or 1050.</source>
+        <target state="final">Summas laukos atļauti tikai cipari un decimālpunkts (“.”), piemēram, 10.50 vai 1050.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2200]</note>
+      </trans-unit>
+      <trans-unit id="918093e8ad4567f6b99e9851eab8bc69" approved="yes">
+        <source>Order #%d cannot be loaded.</source>
+        <target state="final">Pasūtījumu #%d nevar ielādēt.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2397]</note>
+      </trans-unit>
       <trans-unit id="409f3dfd9f910287f86fd6c25c94c4d8" approved="yes">
         <source>Order #%d has already been assigned this status.</source>
         <target state="final">Pasūtījumam #%d ir piešķirts šis statuss.</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2384]</note>
+      </trans-unit>
+      <trans-unit id="1166740db50174894a068c0c51b94c66" approved="yes">
+        <source><![CDATA[Order history email could not be sent, test your email configuration in the Advanced Parameters > E-mail section of your back office.]]></source>
+        <target state="final"><![CDATA[Pasūtījuma vēstures e-pastu neizdevās nosūtīt. Pārbaudiet e-pasta konfigurāciju sadaļā “Papildu parametri > E-pasts” savā administrācijas panelī.]]></target>
+        <note>File: src/Adapter/Order/CommandHandler/CancelOrderProductHandler.php [Line: 142]</note>
+      </trans-unit>
+      <trans-unit id="7f35d95de964c02a558f322bf683ff93" approved="yes">
+        <source>Percent value cannot exceed 100.</source>
+        <target state="final">Procentu vērtība nedrīkst pārsniegt 100.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2211]</note>
+      </trans-unit>
+      <trans-unit id="7b310c5ac94a5e50139d50574395683b" approved="yes">
+        <source>Percent value must be greater than 0.</source>
+        <target state="final">Procentu vērtībai jābūt lielākai par 0.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2206]</note>
+      </trans-unit>
+      <trans-unit id="2a11327ffe3e46a9ffadddf38b4b9fff" approved="yes">
+        <source>Please enter a maximum quantity of [1].</source>
+        <target state="final">Lūdzu, ievadiet maksimālo daudzumu [1].</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2238]</note>
+      </trans-unit>
+      <trans-unit id="d31c479bcda04bd5b859f7cff371c3d0" approved="yes">
+        <source>Please enter a positive amount.</source>
+        <target state="final">Lūdzu, ievadiet pozitīvu summu.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2248]</note>
+      </trans-unit>
+      <trans-unit id="4b0c5f16b969b647ff0b63481af6c3e5" approved="yes">
+        <source>Please generate at least one credit slip or voucher.</source>
+        <target state="final">Lūdzu, izveidojiet vismaz vienu kredītrēķinu vai kuponu.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2253]</note>
       </trans-unit>
       <trans-unit id="2e66149518ba8dc45a9e51c4f153cebf" approved="yes">
         <source><![CDATA[Please note that carrier change will not recalculate your shipping costs, if you want to change this please visit Shop Parameters > Order Settings]]></source>
@@ -216,6 +276,11 @@
         <source>Please select at least one product.</source>
         <target state="final">Izvēlieties vismaz vienu preci.</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2243]</note>
+      </trans-unit>
+      <trans-unit id="0e6becfb4c6566c35a8fda2d94891c70" approved="yes">
+        <source>Shipping discount value cannot exceed the total price of this order.</source>
+        <target state="final">Piegādes atlaides vērtība nedrīkst pārsniegt šī pasūtījuma kopējo summu.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2226]</note>
       </trans-unit>
       <trans-unit id="4174f012bc63b679f092acd1a933bf5c" approved="yes">
         <source>The email was sent to your customer.</source>
@@ -267,6 +332,11 @@
         <target state="final">Cenas ir bez nodokļiem.</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/Create/cart.html.twig [Line: 102]</note>
       </trans-unit>
+      <trans-unit id="265b2b7a9f792e941faac362bc37f30b" approved="yes">
+        <source>The product was successfully returned.</source>
+        <target state="final">Produkts tika veiksmīgi atgriezts.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 1020]</note>
+      </trans-unit>
       <trans-unit id="6ab061ec12504fab2c41f0689579d623" approved="yes">
         <source>The selected payment method is invalid.</source>
         <target state="final">Izvēlētais maksājuma veids nav derīgs.</target>
@@ -312,6 +382,11 @@
         <target state="final">Šis brīdinājums attiecas arī uz nākamajiem pasūtījumiem:</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/payments_alert.html.twig [Line: 17]</note>
       </trans-unit>
+      <trans-unit id="f77fd3f9865f0c725901d48dbc00619f" approved="yes">
+        <source>You cannot edit the cart once the order delivered.</source>
+        <target state="final">Jūs nevarat rediģēt iepirkumu grozu pēc tam, kad pasūtījums ir piegādāts.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2174]</note>
+      </trans-unit>
       <trans-unit id="aea807cc550550acd7b8d9a7bc469f6a" approved="yes">
         <source>You have to select a shop before creating new orders.</source>
         <target state="final">Pirms jaunu pasūtījumu izveidošanas jums ir jāizvēlas veikals.</target>
@@ -331,6 +406,11 @@
         <source>You must add at least one address to process the order.</source>
         <target state="final">Lai apstrādātu pasūtījumu, jums jāpievieno vismaz viena adrese.</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/Create/addresses.html.twig [Line: 14]</note>
+      </trans-unit>
+      <trans-unit id="500f3380713af59cab7bdd14d8fefea2" approved="yes">
+        <source>You must choose a payment module to create the order.</source>
+        <target state="final">Lai izveidotu pasūtījumu, jums jāizvēlas maksājuma modulis.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2259]</note>
       </trans-unit>
       <trans-unit id="eb9173ba78d315a23d8978a2b772bd9a" approved="yes">
         <source>You must select at least one order status.</source>
