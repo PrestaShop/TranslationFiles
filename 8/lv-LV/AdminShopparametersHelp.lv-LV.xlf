@@ -129,6 +129,36 @@
         <target state="final">Tas pārbauda, vai meklējamais termins ir precīzs indeksētā vārda beigas.</target>
         <note>Line: 179</note>
       </trans-unit>
+      <trans-unit id="b080303b551112c7b9dcdf6a21051f42" approved="yes">
+        <source>By default, the fuzzy search is enabled. It means spelling errors are allowed, e.g. you can search for "bird" with words like "burd", "bard" or "beerd".</source>
+        <target state="final">Pēc noklusējuma aptuvenā meklēšana ir iespējota. Tas nozīmē, ka ir pieļaujamas pareizrakstības kļūdas, piemēram, varat meklēt “bird” ar vārdiem kā “burd”, “bard” vai “beerd”.</target>
+        <note>Line: 191</note>
+      </trans-unit>
+      <trans-unit id="39e61e5c1261f090e3c56f494a315f07" approved="yes">
+        <source>Disabling this option will require exact spelling for the search to match results.</source>
+        <target state="final">Atspējojot šo opciju, lai meklēšana atgrieztu rezultātus, būs nepieciešama precīza pareizrakstība.</target>
+        <note>Line: 196</note>
+      </trans-unit>
+      <trans-unit id="2324c421f8c5376051c024f15232cd80" approved="yes">
+        <source>Enable approximate string matching.</source>
+        <target state="final">Iespējot aptuveno virkņu salīdzināšanu.</target>
+        <note>Line: 202</note>
+      </trans-unit>
+      <trans-unit id="a4b432b49016cf0de70c747fde4f815b" approved="yes">
+        <source>Note that this option is resource-consuming: the more you search, the longer it takes.</source>
+        <target state="final">Ņemiet vērā, ka šī opcija patērē daudz resursu: jo vairāk meklējat, jo ilgāku laiku tas aizņems.</target>
+        <note>Line: 215</note>
+      </trans-unit>
+      <trans-unit id="6392d16e9ae94967fe13716b69e1d0b2" approved="yes">
+        <source>Only words fewer or equal to this maximum length will be searched.</source>
+        <target state="final">Tiks meklēti tikai vārdi, kuru garums ir mazāks vai vienāds ar šo maksimālo vērtību.</target>
+        <note>Line: 230</note>
+      </trans-unit>
+      <trans-unit id="2b610a936a358875e6f5a01564a3a0e6" approved="yes">
+        <source>This parameter will only be used if the fuzzy search is activated: the lower the value, the more tolerant your search will be.</source>
+        <target state="final">Šis parametrs tiks izmantots tikai tad, ja ir aktivizēta aptuvenā meklēšana: jo zemāka vērtība, jo precīzāka būs meklēšana.</target>
+        <note>Line: 235</note>
+      </trans-unit>
       <trans-unit id="645115aba5ef431a04da95c746477544" approved="yes">
         <source>Only words this size or larger will be indexed.</source>
         <target state="final">Tikai vārdi, kas garāki par norādīto skaitli, tiks indeksēti.</target>
@@ -326,6 +356,16 @@
         <target state="final">Varat izvēlēties, kad cenu noapaļot: vai nu katram precei, katrai rindai vai kopējai summai (piemēram, rēķinam).</target>
         <note>Line: 180</note>
       </trans-unit>
+      <trans-unit id="7c6efc73556c295515e6f3c2129eee32" approved="yes">
+        <source>Enable suppliers page on your front office even when its module is disabled.</source>
+        <target state="final">Iespējot piegādātāju lapu jūsu klientu daļā pat tad, ja modulis ir atspējots.</target>
+        <note>Line: 188</note>
+      </trans-unit>
+      <trans-unit id="8e17743ca02e7c24310531d34d0c89ff" approved="yes">
+        <source>Enable brands page on your front office even when its module is disabled.</source>
+        <target state="final">Iespējot zīmolu lapu jūsu klientu daļā pat tad, ja modulis ir atspējots.</target>
+        <note>Line: 196</note>
+      </trans-unit>
       <trans-unit id="0678cf17f202cb7fd14d79054a2e628c" approved="yes">
         <source>Enable best sellers page on your front office even when its respective module is disabled.</source>
         <target state="final">Iespējojiet pirktākās preces lapu vietnes priekšpusē, pat ja tās attiecīgais modulis ir atspējots.</target>
@@ -364,6 +404,11 @@
         <source>Allow the customer to ship orders to multiple addresses. This option will convert the customer's cart into one or more orders.</source>
         <target state="final">Ļaujiet klientam pasūtījumus piegādāt uz vairākām adresēm. Šī opcija pārvērš klienta grozu vienā vai vairākos pasūtījumos.</target>
         <note>Line: 120</note>
+      </trans-unit>
+      <trans-unit id="4acdb94f4cbc425ad20d457ffa1d81c1" approved="yes">
+        <source>It allows you to delay shipping if your customers request it.</source>
+        <target state="final">Tas ļauj jums atlikt piegādi, ja klienti to pieprasa.</target>
+        <note>Line: 129</note>
       </trans-unit>
       <trans-unit id="fff92cdf417b8a468af180474057a575" approved="yes">
         <source>Require customers to accept or decline terms of service before processing an order.</source>
@@ -432,11 +477,16 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/PageType.php" source-language="en" target-language="lv" datatype="plaintext">
     <body>
-      
-      
-      
-      
-      
+      <trans-unit id="572a918fa0b6c312c2c8c3447ce57421" approved="yes">
+        <source>Display the "%add_to_cart_label%" button when a product has attributes</source>
+        <target state="final">Rādīt pogu “%add_to_cart_label%”, ja produktam ir atribūti</target>
+        <note>Line: 56</note>
+      </trans-unit>
+      <trans-unit id="26071fff3423bbdfda80e24ef3a0d6e3" approved="yes">
+        <source>Display or hide the "%add_to_cart_label%" button on category pages for products that have attributes forcing customers to see product details.</source>
+        <target state="final">Rādīt vai paslēpt pogu “%add_to_cart_label%” kategoriju lapās produktiem ar atribūtiem, liekot klientiem apskatīt produkta detaļas.</target>
+        <note>Line: 66</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/PaginationType.php" source-language="en" target-language="lv" datatype="plaintext">
@@ -459,6 +509,11 @@
         <source>Set to "0" to disable this feature.</source>
         <target state="final">Uzstādiet "0", lai atslēgtu šo iespēju</target>
         <note>Line: 93</note>
+      </trans-unit>
+      <trans-unit id="b5e585ab39ea18b6354e53370bfe7472" approved="yes">
+        <source>By default, the "%add_to_cart_label%" button is hidden when a product is unavailable. You can choose to have it displayed in all cases.</source>
+        <target state="final">Pēc noklusējuma poga “%add_to_cart_label%” tiek paslēpta, ja produkts nav pieejams. Jūs varat izvēlēties to rādīt visos gadījumos.</target>
+        <note>Line: 104</note>
       </trans-unit>
       <trans-unit id="fcebe56087b9373f15514831184fa572" approved="yes">
         <source>In stock</source>

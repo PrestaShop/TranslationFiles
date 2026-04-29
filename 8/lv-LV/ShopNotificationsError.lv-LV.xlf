@@ -62,6 +62,11 @@
         <target state="final">Lūdzu vispirms autorizēties</target>
         <note>Line: 847</note>
       </trans-unit>
+      <trans-unit id="a5e06c56adb314048d97a666db5c1d5a" approved="yes">
+        <source>The minimum amount to benefit from this promo code is %s.</source>
+        <target state="final">Minimālā summa, lai izmantotu šo promo kodu, ir %s.</target>
+        <note>Line: 892</note>
+      </trans-unit>
       <trans-unit id="d0f1560c5d1b13b1e64fa87a301dd83b" approved="yes">
         <source>This voucher is already in your cart</source>
         <target state="final">Šis vaučers jau ir jūsu grozā.</target>
@@ -77,6 +82,11 @@
         <target state="final">Grozs ir tukšs</target>
         <note>Line: 939</note>
       </trans-unit>
+      <trans-unit id="1a0c8c4e381164295f1e06d777411d11" approved="yes">
+        <source>You cannot use this voucher because it has manually been removed.</source>
+        <target state="final">Jūs nevarat izmantot šo kuponu, jo tas ir manuāli noņemts.</target>
+        <note>Line: 951</note>
+      </trans-unit>
       <trans-unit id="f6b43936fe8476614100c342b9c4750d" approved="yes">
         <source>You cannot use this voucher in an empty cart</source>
         <target state="final">Nevar pielietot kopunu pie tukša groza</target>
@@ -91,8 +101,16 @@
   </file>
   <file original="classes/controller/FrontController.php" source-language="en" target-language="lv" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="914aabd65a536be202b28dc1ac5dd1af" approved="yes">
+        <source>This cart has expired.</source>
+        <target state="final">Šim iepirkuma grozam ir beidzies derīguma termiņš.</target>
+        <note>Line: 1334</note>
+      </trans-unit>
+      <trans-unit id="1e65dae319656efa0e4d3f49be9fdfda" approved="yes">
+        <source>This cart was already used in an order and has expired.</source>
+        <target state="final">Šis iepirkumu grozs jau tika izmantots pasūtījumā un tam ir beidzies derīguma termiņš.</target>
+        <note>Line: 1341</note>
+      </trans-unit>
     </body>
   </file>
   <file original="classes/form/CustomerForm.php" source-language="en" target-language="lv" datatype="plaintext">
@@ -173,6 +191,11 @@
         <target state="final">Lūdzu, labojiet tālāk minēto kļūdu.</target>
         <note>Line: 74</note>
       </trans-unit>
+      <trans-unit id="beb19eac775bc240590f89e361d2baab" approved="yes">
+        <source>Could not delete the address since it is used in the shopping cart.</source>
+        <target state="final">Nevarēja dzēst adresi, jo tā tiek izmantota iepirkumu grozā.</target>
+        <note>Line: 98</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/front/AddressesController.php" source-language="en" target-language="lv" datatype="plaintext">
@@ -221,6 +244,11 @@
         <target state="final">Produkts (%product%) vairs nav pieejams.</target>
         <note>Line: 670</note>
       </trans-unit>
+      <trans-unit id="826a646b380b3eecb77bc4cec1b8fb9c" approved="yes">
+        <source>The product is no longer available in this quantity.</source>
+        <target state="final">Produkts vairs nav pieejams šādā daudzumā.</target>
+        <note>Line: 518</note>
+      </trans-unit>
       <trans-unit id="feb34b89eb5bf8066025f508b9b86ab2" approved="yes">
         <source>The minimum purchase order quantity for the product %product% is %quantity%.</source>
         <target state="final">Mazākais pasūtījums produktam %product% ir %quantity%.</target>
@@ -235,6 +263,26 @@
         <source>You already have the maximum quantity available for this product.</source>
         <target state="final">Tev jau ir sasniegta maksimālais produkta daudzums.</target>
         <note>Line: 521</note>
+      </trans-unit>
+      <trans-unit id="9fa9fed2500d3834c9ab9ed7509eabd2" approved="yes">
+        <source>The item %product% in your cart is now a product with attributes. Please delete it and choose one of its combinations to proceed with your order.</source>
+        <target state="final">Prece %product% jūsu iepirkumu grozā tagad ir produkts ar atribūtiem. Lūdzu, dzēsiet to un izvēlieties kādu no tā kombinācijām, lai turpinātu pasūtījumu.</target>
+        <note>Line: 645</note>
+      </trans-unit>
+      <trans-unit id="fcdd5cdc83ccc2c10e4973bff9836b8c" approved="yes">
+        <source>%product% is no longer available in this quantity. You cannot proceed with your order until the quantity is adjusted.</source>
+        <target state="final">%product% vairs nav pieejams šādā daudzumā. Jūs nevarat turpināt pasūtījumu, kamēr daudzums nav pielāgots.</target>
+        <note>Line: 642</note>
+      </trans-unit>
+      <trans-unit id="c537c5f84e2a246b4743b7db3457963f" approved="yes">
+        <source>The available purchase order quantity for this product is %quantity%.</source>
+        <target state="final">Šī produkta pieejamais pasūtījuma daudzums ir %quantity%.</target>
+        <note>Line: 527</note>
+      </trans-unit>
+      <trans-unit id="eacc42ec99f31bde627c93b8ab96c0e5" approved="yes">
+        <source>You can only buy %quantity% "%product%". Please adjust the quantity in your cart to continue.</source>
+        <target state="final">Jūs varat iegādāties tikai %quantity% “%product%”. Lūdzu, pielāgojiet daudzumu savā iepirkumu grozā, lai turpinātu.</target>
+        <note>Line: 660</note>
       </trans-unit>
     </body>
   </file>
@@ -299,10 +347,20 @@
         <target state="final">Mēs nevarējām atrast jūsu pasūtījumu ar sniegto informāciju, lūdzu, mēģiniet vēlreiz</target>
         <note>Line: 78</note>
       </trans-unit>
+      <trans-unit id="e9c8b958cbfb895182fe7eeeeadd1121" approved="yes">
+        <source>A customer account has already been created from this guest account. Please sign in.</source>
+        <target state="final">No šī viesa konta jau ir izveidots klienta konts. Lūdzu, piesakieties.</target>
+        <note>Line: 112</note>
+      </trans-unit>
       <trans-unit id="97f79d53b078e529949d5c3c8b676d52" approved="yes">
         <source>An unexpected error occurred while creating your account.</source>
         <target state="final">Veidojot kontu, radās neparedzēta kļūda.</target>
         <note>Line: 132</note>
+      </trans-unit>
+      <trans-unit id="b5617edd6c80a257d3cb7bbc9b3e5bdf" approved="yes">
+        <source>You can't transform your account into a customer account, because a registered customer with the same email already exists.</source>
+        <target state="final">Jūs nevarat pārveidot savu kontu par klienta kontu, jo jau eksistē reģistrēts klients ar tādu pašu e-pasta adresi.</target>
+        <note>Line: 119</note>
       </trans-unit>
     </body>
   </file>
@@ -317,8 +375,16 @@
   </file>
   <file original="controllers/front/OrderConfirmationController.php" source-language="en" target-language="lv" datatype="plaintext">
     <body>
-      
-      
+      <trans-unit id="e74bbc67e02323a626ce95619ef42fd5" approved="yes">
+        <source>Password must be between %d and %d characters long</source>
+        <target state="final">Paroles garumam jābūt no %d līdz %d rakstzīmēm</target>
+        <note>Line: 138</note>
+      </trans-unit>
+      <trans-unit id="f43333ea2272fed37fc121a2e09755c3" approved="yes">
+        <source>The minimum score must be: %s</source>
+        <target state="final">Minimālajam punktu skaitam jābūt: %s</target>
+        <note>Line: 155</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/front/OrderController.php" source-language="en" target-language="lv" datatype="plaintext">
@@ -411,6 +477,11 @@
         <target state="final">Apstiprinājums ir tukšs: aizpildiet arī paroles apstiprinājumu</target>
         <note>Line: 156</note>
       </trans-unit>
+      <trans-unit id="65efaaf9ead1beea82672beb5ace1fe2" approved="yes">
+        <source>The confirmation password doesn't match.</source>
+        <target state="final">Apstiprinājuma parole nesakrīt.</target>
+        <note>Line: 161</note>
+      </trans-unit>
       <trans-unit id="f01fb987f60542e0bff1bf7bed42d142" approved="yes">
         <source>The password is not in a valid format.</source>
         <target state="final">Parolei nav pieejams formāts.</target>
@@ -482,6 +553,11 @@
         <target state="final">Attēla ielādes laikā radās kļūda.</target>
         <note>Line: 954</note>
       </trans-unit>
+      <trans-unit id="e14005ecaeec15e1019f543a379b83cc" approved="yes">
+        <source>Invalid message.</source>
+        <target state="final">Nederīga ziņa.</target>
+        <note>Line: 982</note>
+      </trans-unit>
     </body>
   </file>
   <file original="controllers/front/listing/CategoryController.php" source-language="en" target-language="lv" datatype="plaintext">
@@ -518,6 +594,11 @@
         <source>There are not enough products in stock</source>
         <target state="final">Noliktavā nav pietiekami daudz produktu</target>
         <note>Line: 1021</note>
+      </trans-unit>
+      <trans-unit id="80d889c08e270f0016d61b963e13fec1" approved="yes">
+        <source>This product is no longer available for sale.</source>
+        <target state="final">Šis produkts vairs nav pieejams.</target>
+        <note>Line: 957</note>
       </trans-unit>
     </body>
   </file>
