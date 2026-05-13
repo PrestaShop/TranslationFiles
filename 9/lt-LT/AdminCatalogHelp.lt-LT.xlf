@@ -64,7 +64,7 @@
       </trans-unit>
       <trans-unit id="4b2747d59329d8164554a3f6330b5977" approved="yes">
         <source>Choose what should happen when this product is not in stock. Can it be ordered? Use the default store setting or override it for this product.</source>
-        <target state="final">Pasirinkite, kas turėtų nutikti, kai šios prekės nėra sandėlyje. Ar jį galima užsisakyti? Naudokite numatytuosius parduotuvės nustatymus arba pakeiskite juos šiai prekei.</target>
+        <target state="final">Pasirinkite, kas turėtų nutikti, kai šios prekės nėra sandėlyje. Ar ją galima užsisakyti? Naudokite numatytuosius parduotuvės nustatymus arba pakeiskite juos šiai prekei.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Stock/AvailabilityType.php [Line: 145]</note>
       </trans-unit>
       <trans-unit id="458ad9c2eeb0f07135e0a34635952080" approved="yes">
@@ -196,6 +196,11 @@
         <target state="final">Neteisinga žyma</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Security/compromised.html.twig [Line: 13]</note>
       </trans-unit>
+      <trans-unit id="0d42fdc56a0571e75383a990bde2ce67" approved="yes">
+        <source>Lower numbers indicate higher priority. When multiple discounts are applied, lower priority numbers are processed first.</source>
+        <target state="final">Mažesni skaičiai rodo didesnį prioritetą. Kai taikomos kelios nuolaidos, pirmiausia taikomi mažesnio prioriteto skaičiai.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Discount/DiscountUsabilityType.php [Line: 101]</note>
+      </trans-unit>
       <trans-unit id="c268a2747d5680c617c361cd505c4576" approved="yes">
         <source>MPN is used internationally to identify the Manufacturer Part Number.</source>
         <target state="final">MPN numeris yra tarptautiniu mastu naudojamas gamintojo dalies numeriui identifikuoti.</target>
@@ -225,6 +230,16 @@
         <target state="final">Taikoma tik jei kupono vertė yra didesnė už krepšelio.</target>
         <note>File: admin-dev/themes/default/template/controllers/cart_rules/informations.tpl [Line: 91]</note>
       </trans-unit>
+      <trans-unit id="69f3af81a513ef4f221187b81498930e" approved="yes">
+        <source>Optional additional fee added to the shipping cost for each purchased item. Applies only if shipping is not free.</source>
+        <target state="final">Prie kiekvienos įsigytos prekės siuntimo kainos pridedamas neprivalomas papildomas mokestis. Taikomas tik tuo atveju, jei pristatymas nėra nemokamas.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Shipping/ShippingType.php [Line: 84]</note>
+      </trans-unit>
+      <trans-unit id="39fe0bb83d46a90711119bd7b5807a34" approved="yes">
+        <source>Optional detailed information about the product, such as its features, specifications, images, videos, or package contents. Use this field when you need to provide more details beyond the short summary.</source>
+        <target state="final">Pasirinktinai išsami informacija apie prekę, pvz., jos ypatybės, specifikacijos, vaizdai, vaizdo įrašai ar pakuotės turinys. Naudokite šį lauką, kai reikia pateikti daugiau informacijos, be trumpos santraukos.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Description/DescriptionType.php [Line: 98]</note>
+      </trans-unit>
       <trans-unit id="3fde87028c9327c15017b46e6d84ac80" approved="yes">
         <source>Optional: The cart rule will be available to everyone if you leave this field blank.</source>
         <target state="final">Neprivaloma:  jei paliksite tuščią, krepšelio taisyklė bus prieinama visiems.</target>
@@ -249,6 +264,11 @@
         <source>Port to use to connect to your IMAP server.</source>
         <target state="final">Portas, kuris naudojamas prisijungimui prie IMAP serverio.</target>
         <note>File: controllers/admin/AdminCustomerThreadsController.php [Line: 154]</note>
+      </trans-unit>
+      <trans-unit id="83817e901c79cb88317d36da8ee882d5" approved="yes">
+        <source>Products closely connected to this item, such as accessories or complementary goods. Adding them helps customers discover relevant items and improves product navigation.</source>
+        <target state="final">Su šiuo elementu glaudžiai susijusios prekės, pavyzdžiui, priedai arba papildomos prekės. Jų pridėjimas padeda klientams atrasti atitinkamus elementus ir pagerina prekės navigaciją.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Description/DescriptionType.php [Line: 116]</note>
       </trans-unit>
       <trans-unit id="bf8d04437124c71dcf4c8c9d067c59a4" approved="yes">
         <source>Public title that may appear in the browser and search engines. The recommended length is about 60 characters (including spaces). If you leave it blank, the product name will be used.</source>
@@ -295,6 +315,11 @@
         <target state="final">Pažymėkite klientų grupes, kurioms norite suteikti prieigą prie šios kategorijos.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Catalog/Category/AbstractCategoryType.php [Line: 262]</note>
       </trans-unit>
+      <trans-unit id="9576640520abce2594645f2a4436b7fd" approved="yes">
+        <source>Select which discount types this discount is compatible with.</source>
+        <target state="final">Pasirinkite, su kuriais nuolaidų tipais ši nuolaida suderinama.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Discount/DiscountUsabilityType.php [Line: 91]</note>
+      </trans-unit>
       <trans-unit id="a132c5ad0de6c917b5422b923608c87b" approved="yes">
         <source>Separate each tag with a comma or press the Enter key.</source>
         <target state="final">Kiekvieną žymą atskirkite kableliu arba paspauskite klavišą Enter.</target>
@@ -304,6 +329,11 @@
         <source>Set specific prices for customers meeting certain conditions.</source>
         <target state="final">Nustatykite konkrečias kainas klientams, atitinkantiems tam tikras sąlygas.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Pricing/PricingType.php [Line: 85]</note>
+      </trans-unit>
+      <trans-unit id="a05ce821cab187eec53725269340bb28" approved="yes">
+        <source>Short description of the product. We recommend two to three sentences or a few clear phrases that describe the item. It's displayed near the product name, used in the meta description, and shown in several other places. Avoid duplicating this text across different products.</source>
+        <target state="final">Trumpas prekės aprašymas. Rekomenduojame du tris sakinius arba kelias aiškias frazes, apibūdinančias prekę. Jis rodomas šalia prekės pavadinimo, naudojamas meta aprašyme ir keliose kitose vietose. Venkite šio teksto dubliavimo skirtingose prekėse.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Description/DescriptionType.php [Line: 84]</note>
       </trans-unit>
       <trans-unit id="73e5c34274fdcc69469b9185f7c3fd96" approved="yes">
         <source>Summary for robots, that could appear in search engines. The recommended length is about 160 characters (including spaces). If you leave it blank, an excerpt from the short description will be used.</source>
@@ -345,6 +375,11 @@
         <target state="final">Minimalus kiekis, būtinas norint įsigyti šią prekę (nurodžius 1 - parinktis išjungiama). Pvz.: jei nurodysite 3, pirkėjas galės įsigyti prekę, jei nurodys 3 prekės vnt.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Stock/QuantityType.php [Line: 109]</note>
       </trans-unit>
+      <trans-unit id="9e393b7c3a8d54af9dc3684086ca365d" approved="yes">
+        <source>The product's worldwide barcode. Filling this field improves product traceability, catalog management, and overall searchability.</source>
+        <target state="final">Prekės pasaulinis brūkšninis kodas. Užpildžius šį lauką, pagerėja prrekės atsekamumas, katalogo valdymas ir bendros paieškos galimybės.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Details/ReferencesType.php [Line: 63]</note>
+      </trans-unit>
       <trans-unit id="b5e6921c2d093fbcb0088c9466ee9983" approved="yes">
         <source>The public name for this attribute, displayed to the customers.</source>
         <target state="final">Viešas pavadinimas šiai savybei, kuris bus rodomas klientams.</target>
@@ -354,6 +389,11 @@
         <source>The way the attribute's values will be presented to the customers in the product's page.</source>
         <target state="final">Būdas, kuriuo savybės reikšmės bus atvaizduojamos vartotojams prekės puslapyje.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Sell/Catalog/AttributeType.php [Line: 53]</note>
+      </trans-unit>
+      <trans-unit id="41c6d984f6151b014a8fe191263803c6" approved="yes">
+        <source>This discount can be used "X" time(s) in total.</source>
+        <target state="final">Šią nuolaidą iš viso galima panaudoti X kartų.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Discount/DiscountUsabilityType.php [Line: 43]</note>
       </trans-unit>
       <trans-unit id="762d425093de542e7ab628b44ff68515" approved="yes">
         <source>This interface allows you to specify the suppliers of the current combination.</source>
@@ -388,6 +428,31 @@
         <source>This will be the default displayed availability of a product, if it's not in stock and backordering it is denied. If you don't enter anything, nothing will be displayed. Further customization is possible for each product.</source>
         <target state="final">Tai bus numatytasis rodomas prekės prieinamumas. Jei jo nėra sandėlyje ir užsakyti iš anksto negalima, niekas nebus rodoma. Galimas savas tinkinimas pačioje prekėje.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/StockType.php [Line: 138]</note>
+      </trans-unit>
+      <trans-unit id="dbb5df5ca2112e0125b866522e062df5" approved="yes">
+        <source>This will be the default displayed availability of a product, if there is at least 1 in stock. If you don't enter anything, nothing will be displayed. Further customization is possible for each product.</source>
+        <target state="final">Tai bus numatytasis rodomas prekės prieinamumas, jei sandėlyje yra bent 1. Jei nieko neįvesite, niekas nebus rodoma. Kiekvienai prekei galima atlikti tolesnius pakeitimus.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/StockType.php [Line: 108]</note>
+      </trans-unit>
+      <trans-unit id="4dae4d27021765208ae8fba5a45a9fde" approved="yes">
+        <source>This will be the displayed availability of the combination, if it's not in stock. If you don't enter anything, the base value set on the product will be used.</source>
+        <target state="final">Tai bus rodoma, jei derinio nėra sandėlyje. Jei nieko neįvesite, bus naudojama prekei nustatyta bazinė vertė.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationStockType.php [Line: 86]</note>
+      </trans-unit>
+      <trans-unit id="21ff177c36a5c41ca7d9ede46ceb5ac4" approved="yes">
+        <source>This will be the displayed availability of the combination, if there is at least 1 in stock. If you don't enter anything, the base value set on the product will be used.</source>
+        <target state="final">Tai bus rodoma, kai šios kombinacijos sandėlyje bus bent 1 vnt. Jei nieko nenurodysite, bus naudojama prekės bazinė reikšmė.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationStockType.php [Line: 63]</note>
+      </trans-unit>
+      <trans-unit id="84d1664447cfb64f77eb58f8ecc7ab42" approved="yes">
+        <source><![CDATA[This will be the displayed availability of the product, if it's not in stock. If you don't enter anything, value from [1]Shop Parameters > Product Settings[/1] will be used.]]></source>
+        <target state="final"><![CDATA[Tai bus rodoma, kai prekės nėra sandėlyje. Jei nieko nenurodysite, bus naudojama reikšmė iš [1]Parduotuvės parametrai > Prekės nustatymai[/1].]]></target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Stock/AvailabilityType.php [Line: 118]</note>
+      </trans-unit>
+      <trans-unit id="2a06390040d49692fb8fa7584e1ea111" approved="yes">
+        <source><![CDATA[This will be the displayed availability of the product, if there is at least 1 in stock. If you don't enter anything, value from [1]Shop Parameters > Product Settings[/1] will be used.]]></source>
+        <target state="final"><![CDATA[Bus rodomas prekės prieinamumas, jei sandėlyje yra bent 1 vnt. Jei nieko neįvesite, bus naudojama reikšmė iš [1] Parduotuvės parametrai > Prekės nustatymai[/1].]]></target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Stock/AvailabilityType.php [Line: 89]</note>
       </trans-unit>
       <trans-unit id="d87fdec724af7ed0338f394852787788" approved="yes">
         <source>To add combinations, you first need to create proper attributes and values in [1]%attributes_and_features_label%[/1].</source>
