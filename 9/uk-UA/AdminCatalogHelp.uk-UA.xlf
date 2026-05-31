@@ -4,8 +4,13 @@
     <body>
       <trans-unit id="15391e9d908034a4458cd78296a945a8" approved="yes">
         <source>A customer will only be able to use the cart rule "X" time(s).</source>
-        <target state="final">Клієнт матиме можливість використовувати умову придбання лише X раз.</target>
+        <target state="final">Клієнт може скористатися цим правилом кошика не більше ніж "X" разів.</target>
         <note>File: admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl [Line: 108]</note>
+      </trans-unit>
+      <trans-unit id="f0e75ca843971e784658a3a9764d5d9f" approved="yes">
+        <source>A customer will only be able to use this discount "X" time(s).</source>
+        <target state="final">Клієнт може скористатися цією знижкою не більше ніж "X" разів.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Discount/DiscountUsabilityType.php [Line: 65]</note>
       </trans-unit>
       <trans-unit id="1ffce2188d1a60720990e3f6ca9e8b0c" approved="yes">
         <source>Add new specific price</source>
@@ -61,6 +66,11 @@
         <source>Choose a color with the color picker, or enter an HTML color (e.g. "lightblue", "#CC6600").</source>
         <target state="final">Виберіть колір з набору, кольорів або введіть у HTML-кольорах (напр. "lightblue", "#CC6600").</target>
         <note>File: controllers/admin/AdminShopGroupController.php [Line: 187]</note>
+      </trans-unit>
+      <trans-unit id="4b2747d59329d8164554a3f6330b5977" approved="yes">
+        <source>Choose what should happen when this product is not in stock. Can it be ordered? Use the default store setting or override it for this product.</source>
+        <target state="final">Виберіть, що має відбуватися, коли цього товару немає в наявності. Чи можна його замовити? Використовуйте налаштування магазину за замовчуванням або перевизначте його для цього товару.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Stock/AvailabilityType.php [Line: 145]</note>
       </trans-unit>
       <trans-unit id="458ad9c2eeb0f07135e0a34635952080" approved="yes">
         <source>Controls how you want stock of the pack to be calculated. You can decide, if you want to manage the stock of pack manually, or if it should be calculated automatically depending on stock of the products inside. In that case, the quantity of the pack is ignored.</source>
@@ -137,6 +147,11 @@
         <target state="final">Примусово використовувати start-TLS для шифрування сесій і відхилити з'єднання з серверами, що не підтримують цю функцію.</target>
         <note>File: controllers/admin/AdminCustomerThreadsController.php [Line: 206]</note>
       </trans-unit>
+      <trans-unit id="7878343ae65aacddc8037fd6869cc61c" approved="yes">
+        <source>Here you can restrict which carriers are available for this product. For example, if the product cannot be shipped, you can allow only in-store pickup.</source>
+        <target state="final">Тут ви можете обмежити перелік перевізників, доступних для цього товару. Наприклад, якщо товар не підлягає доставці, можна дозволити лише самовивіз із магазину.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Shipping/ShippingType.php [Line: 111]</note>
+      </trans-unit>
       <trans-unit id="633bf9436b67e19cd61db84ccab7fee2" approved="yes">
         <source>ISBN is used internationally to identify books and their various editions.</source>
         <target state="final">ISBN використовується для міжнародного визначення книг та їхніх редакцій.</target>
@@ -176,14 +191,29 @@
         <target state="final">Інструкції, таблиця розмірів або будь-який файл, який ви хочете додати до товару.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Options/ProductAttachmentsType.php [Line: 85]</note>
       </trans-unit>
+      <trans-unit id="67065d7314000c61a6176c4e588e613f" approved="yes">
+        <source>Internal purchase price of the product. You can use it for margin calculations, statistics, and internal reporting. This value is not shown to customers.</source>
+        <target state="final">Внутрішня закупівельна ціна товару. Її можна використовувати для розрахунку маржі, статистики та внутрішньої звітності. Це значення не відображається клієнтам.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Pricing/PricingType.php [Line: 62]</note>
+      </trans-unit>
       <trans-unit id="607e1d854783c8229998ac2b5b6923d3" approved="yes">
         <source>Invalid token</source>
         <target state="final">Хибне значення</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Security/compromised.html.twig [Line: 13]</note>
       </trans-unit>
+      <trans-unit id="0d42fdc56a0571e75383a990bde2ce67" approved="yes">
+        <source>Lower numbers indicate higher priority. When multiple discounts are applied, lower priority numbers are processed first.</source>
+        <target state="final">Чим менше значення, тим вищий пріоритет. Якщо застосовується кілька знижок, першими обробляються знижки з вищим пріоритетом.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Discount/DiscountUsabilityType.php [Line: 101]</note>
+      </trans-unit>
       <trans-unit id="c268a2747d5680c617c361cd505c4576" approved="yes">
         <source>MPN is used internationally to identify the Manufacturer Part Number.</source>
         <target state="final">MPN використовується на міжнародному рівні для ідентифікації  Manufacturer Part Number (номер деталі виробника).</target>
+      </trans-unit>
+      <trans-unit id="4d843fd9d56800175ccdab1c264d9233" approved="yes">
+        <source>Manufacturer part number that allows to identify this product internationally.</source>
+        <target state="final">Код (артикул) виробника, що використовується для міжнародної ідентифікації товару.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Details/ReferencesType.php [Line: 44]</note>
       </trans-unit>
       <trans-unit id="c35f3106689f99788eed211e0d6fbc20" approved="yes">
         <source>Miniature image that is used when displaying subcategories. Could be also used in menus and other places, depending on your theme.</source>
@@ -204,6 +234,16 @@
         <source>Only applicable if the voucher value is greater than the cart total.</source>
         <target state="final">Застосовується лише у тому випадку, коли сума купону більша ніж сума кошика.</target>
         <note>File: admin-dev/themes/default/template/controllers/cart_rules/informations.tpl [Line: 91]</note>
+      </trans-unit>
+      <trans-unit id="69f3af81a513ef4f221187b81498930e" approved="yes">
+        <source>Optional additional fee added to the shipping cost for each purchased item. Applies only if shipping is not free.</source>
+        <target state="final">Необов’язкова додаткова плата за доставку для кожної придбаної одиниці товару. Застосовується лише в разі платної доставки.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Shipping/ShippingType.php [Line: 84]</note>
+      </trans-unit>
+      <trans-unit id="39fe0bb83d46a90711119bd7b5807a34" approved="yes">
+        <source>Optional detailed information about the product, such as its features, specifications, images, videos, or package contents. Use this field when you need to provide more details beyond the short summary.</source>
+        <target state="final">Необов’язкова детальна інформація про товар, зокрема його особливості, технічні характеристики, зображення, відео або комплект постачання. Використовуйте це поле, якщо потрібно надати більше відомостей, ніж у короткому описі.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Description/DescriptionType.php [Line: 98]</note>
       </trans-unit>
       <trans-unit id="3fde87028c9327c15017b46e6d84ac80" approved="yes">
         <source>Optional: The cart rule will be available to everyone if you leave this field blank.</source>
@@ -229,6 +269,11 @@
         <source>Port to use to connect to your IMAP server.</source>
         <target state="final">Порт, що використовується для з'єднання з вашим IMAP-сервером.</target>
         <note>File: controllers/admin/AdminCustomerThreadsController.php [Line: 154]</note>
+      </trans-unit>
+      <trans-unit id="83817e901c79cb88317d36da8ee882d5" approved="yes">
+        <source>Products closely connected to this item, such as accessories or complementary goods. Adding them helps customers discover relevant items and improves product navigation.</source>
+        <target state="final">Товари, пов’язані з цим товаром, наприклад аксесуари або товари, що його доповнюють. Їх додавання допомагає клієнтам знаходити релевантні пропозиції та покращує навігацію по каталогу.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Description/DescriptionType.php [Line: 116]</note>
       </trans-unit>
       <trans-unit id="bf8d04437124c71dcf4c8c9d067c59a4" approved="yes">
         <source>Public title that may appear in the browser and search engines. The recommended length is about 60 characters (including spaces). If you leave it blank, the product name will be used.</source>
@@ -275,6 +320,11 @@
         <target state="final">Виберіть групи клієнтів, які матимуть доступ до цієї категорії.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Catalog/Category/AbstractCategoryType.php [Line: 262]</note>
       </trans-unit>
+      <trans-unit id="9576640520abce2594645f2a4436b7fd" approved="yes">
+        <source>Select which discount types this discount is compatible with.</source>
+        <target state="final">Виберіть типи знижок, з якими можна поєднувати цю знижку.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Discount/DiscountUsabilityType.php [Line: 91]</note>
+      </trans-unit>
       <trans-unit id="a132c5ad0de6c917b5422b923608c87b" approved="yes">
         <source>Separate each tag with a comma or press the Enter key.</source>
         <target state="final">Розділіть кожен тег комою або натисніть клавішу Enter.</target>
@@ -284,6 +334,11 @@
         <source>Set specific prices for customers meeting certain conditions.</source>
         <target state="final">Встановіть спеціальні ціни для клієнтів, які відповідають певним умовам.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Pricing/PricingType.php [Line: 85]</note>
+      </trans-unit>
+      <trans-unit id="a05ce821cab187eec53725269340bb28" approved="yes">
+        <source>Short description of the product. We recommend two to three sentences or a few clear phrases that describe the item. It's displayed near the product name, used in the meta description, and shown in several other places. Avoid duplicating this text across different products.</source>
+        <target state="final">Короткий опис товару. Рекомендуємо вказати два-три речення або кілька лаконічних фраз, що описують товар. Цей текст відображається поруч із назвою товару, використовується в метаописі та показується в кількох інших місцях. Уникайте дублювання цього тексту для різних товарів.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Description/DescriptionType.php [Line: 84]</note>
       </trans-unit>
       <trans-unit id="73e5c34274fdcc69469b9185f7c3fd96" approved="yes">
         <source>Summary for robots, that could appear in search engines. The recommended length is about 160 characters (including spaces). If you leave it blank, an excerpt from the short description will be used.</source>
@@ -345,6 +400,11 @@
         <target state="final">Як буде відображатися значення атрибуту покупцям на сторінці товару.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Sell/Catalog/AttributeType.php [Line: 53]</note>
       </trans-unit>
+      <trans-unit id="41c6d984f6151b014a8fe191263803c6" approved="yes">
+        <source>This discount can be used "X" time(s) in total.</source>
+        <target state="final">Цю знижку можна використати загалом "X" раз(ів).</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Discount/DiscountUsabilityType.php [Line: 43]</note>
+      </trans-unit>
       <trans-unit id="762d425093de542e7ab628b44ff68515" approved="yes">
         <source>This interface allows you to specify the suppliers of the current combination.</source>
         <target state="final">Цей інтерфейс дозволяє вказати постачальників для поточної комбінації.</target>
@@ -373,6 +433,41 @@
         <source>This will be displayed in the cart summary, as well as on the invoice.</source>
         <target state="final">Буде показано на сторінці кошика так, як і у рахунку-фактурі</target>
         <note>File: admin-dev/themes/default/template/controllers/cart_rules/informations.tpl [Line: 8]</note>
+      </trans-unit>
+      <trans-unit id="e997b584e38bc9e3a34f92c46ef737cf" approved="yes">
+        <source>This will be the default displayed availability of a product, if it's not in stock and backordering it is denied. If you don't enter anything, nothing will be displayed. Further customization is possible for each product.</source>
+        <target state="final">Це стандартний текст про наявність товару, який буде відображатися, якщо товару немає в наявності та замовлення відсутнього товару заборонено. Якщо поле залишити порожнім, жодне повідомлення не відображатиметься. Для кожного товару цей текст можна налаштувати окремо.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/StockType.php [Line: 138]</note>
+      </trans-unit>
+      <trans-unit id="2b39a1e77e6bd2f3c0afe07f105c7f5a" approved="yes">
+        <source>This will be the default displayed availability of a product, if it's not in stock and backordering it is enabled. If you don't enter anything, nothing will be displayed. Further customization is possible for each product.</source>
+        <target state="final">Це стандартний текст про наявність товару, який буде відображатися, якщо товару немає в наявності, але дозволено його передзамовлення. Якщо поле залишити порожнім, жодне повідомлення не відображатиметься. Для кожного товару цей текст можна налаштувати окремо.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/StockType.php [Line: 123]</note>
+      </trans-unit>
+      <trans-unit id="dbb5df5ca2112e0125b866522e062df5" approved="yes">
+        <source>This will be the default displayed availability of a product, if there is at least 1 in stock. If you don't enter anything, nothing will be displayed. Further customization is possible for each product.</source>
+        <target state="final">Це стандартний текст про наявність товару, який буде відображатися, якщо товар є в наявності (залишок становить щонайменше 1 одиницю). Якщо поле залишити порожнім, жодне повідомлення не відображатиметься. Для кожного товару цей текст можна налаштувати окремо.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/StockType.php [Line: 108]</note>
+      </trans-unit>
+      <trans-unit id="4dae4d27021765208ae8fba5a45a9fde" approved="yes">
+        <source>This will be the displayed availability of the combination, if it's not in stock. If you don't enter anything, the base value set on the product will be used.</source>
+        <target state="final">Це повідомлення про наявність буде відображатися для комбінації, якщо її немає в наявності. Якщо поле залишити порожнім, буде використано значення, налаштоване на рівні товару.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationStockType.php [Line: 86]</note>
+      </trans-unit>
+      <trans-unit id="21ff177c36a5c41ca7d9ede46ceb5ac4" approved="yes">
+        <source>This will be the displayed availability of the combination, if there is at least 1 in stock. If you don't enter anything, the base value set on the product will be used.</source>
+        <target state="final">Це повідомлення про наявність буде відображатися для комбінації, якщо вона є в наявності. Якщо поле залишити порожнім, буде використано значення, задане для товару.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationStockType.php [Line: 63]</note>
+      </trans-unit>
+      <trans-unit id="84d1664447cfb64f77eb58f8ecc7ab42" approved="yes">
+        <source><![CDATA[This will be the displayed availability of the product, if it's not in stock. If you don't enter anything, value from [1]Shop Parameters > Product Settings[/1] will be used.]]></source>
+        <target state="final"><![CDATA[Це повідомлення про наявність буде відображатися, якщо товару немає в наявності. Якщо поле залишити порожнім, буде використано значення з розділу [1]Параметри магазину > Налаштування товарів[/1].]]></target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Stock/AvailabilityType.php [Line: 118]</note>
+      </trans-unit>
+      <trans-unit id="2a06390040d49692fb8fa7584e1ea111" approved="yes">
+        <source><![CDATA[This will be the displayed availability of the product, if there is at least 1 in stock. If you don't enter anything, value from [1]Shop Parameters > Product Settings[/1] will be used.]]></source>
+        <target state="final"><![CDATA[Це повідомлення про наявність буде відображатися, якщо товар є в наявності. Якщо поле залишити порожнім, буде використано значення з розділу [1]Параметри магазину → Налаштування товарів[/1].]]></target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Stock/AvailabilityType.php [Line: 89]</note>
       </trans-unit>
       <trans-unit id="d87fdec724af7ed0338f394852787788" approved="yes">
         <source>To add combinations, you first need to create proper attributes and values in [1]%attributes_and_features_label%[/1].</source>
@@ -464,10 +559,20 @@
         <target state="final">Так, я розумію ризики</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Security/compromised.html.twig [Line: 28]</note>
       </trans-unit>
+      <trans-unit id="86b310a95aa85957a00acb1415e40772" approved="yes">
+        <source>You can choose a free gift.</source>
+        <target state="final">Ви можете вибрати безкоштовний подарунок.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Discount/DiscountType.php [Line: 64]</note>
+      </trans-unit>
       <trans-unit id="5b41d7dc2da5ea15baf3e2d62d820ac2" approved="yes">
         <source>You can choose a minimum amount for the cart either with or without the taxes and shipping.</source>
         <target state="final">Ви можете обрати мінімальну вартість кошика з врахуванням податків або без, та з вартістю доставки або без її врахування.</target>
         <note>File: admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl [Line: 54]</note>
+      </trans-unit>
+      <trans-unit id="190a25c3f15e1544ed2bd6efbafb1a97" approved="yes">
+        <source>You can choose a minimum amount for the cart either with or without the taxes.</source>
+        <target state="final">Ви можете встановити мінімальну суму кошика як з урахуванням податків, так і без них.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Discount/DiscountValueType.php [Line: 22]</note>
       </trans-unit>
       <trans-unit id="738971709fcd7de4b5f8a87eb1e663a1" approved="yes">
         <source>You can specify product reference(s) for each associated supplier. Click "%save_label%" after changing selected suppliers to display the associated product references.</source>
