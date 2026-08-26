@@ -22,6 +22,11 @@
         <target state="final"><![CDATA[<b>Upozornenie: Na aktualizáciu vášho obchodu už nie je možné použiť tohto sprievodcu.</b><br><br>Už máte verziu <b>PrestaShop %version% nainštalovanú</b>.<br /><br />Ak chcete PrestaShop aktualizovať a prejsť na najnovšiu verziu, použite modul "Aktualizácia na jeden klik".]]></target>
         <note>File: install-dev/theme/views/welcome.php [Line: 12]</note>
       </trans-unit>
+      <trans-unit id="b806a1ab08328688f0ffd7ddae7ca0b9" approved="yes">
+        <source>A warning was triggered during installation</source>
+        <target state="final">Počas inštalácie sa zobrazilo upozornenie</target>
+        <note>File: install-dev/theme/views/process.php [Line: 40]</note>
+      </trans-unit>
       <trans-unit id="5b56439cb79f3a01ae56d92e52be2218" approved="yes">
         <source><![CDATA[An SQL error occurred for entity <i>%entity%</i>: <i>%message%</i>]]></source>
         <target state="final"><![CDATA[Došlo k SQL chybe pre entitu <i>%entity%</i>: <i>%message%</i>]]></target>
@@ -331,6 +336,11 @@
         <source>Files</source>
         <target state="final">Súbory</target>
         <note>File: install-dev/controllers/http/system.php [Line: 95]</note>
+      </trans-unit>
+      <trans-unit id="54f1d2c740c2bc4f7866c1cdb42ae9c9" approved="yes">
+        <source>Finalization</source>
+        <target state="final">Dokončenie</target>
+        <note>File: install-dev/controllers/http/process.php [Line: 341]</note>
       </trans-unit>
       <trans-unit id="20db0bfeecd8fe60533206a2b5e9891a" approved="yes">
         <source>First name</source>
@@ -707,6 +717,11 @@
         <target state="final">Otestovať pripojenie k databáze!</target>
         <note>File: install-dev/theme/views/database.php [Line: 43]</note>
       </trans-unit>
+      <trans-unit id="c331bfefd5fde2616161931bcc9e0c3c" approved="yes">
+        <source>The admin folder could not be renamed into %folderName%</source>
+        <target state="final">Priečinok administrácie sa nepodarilo premenovať na %folderName%</target>
+        <note>File: src/PrestaShopBundle/Install/Install.php [Line: 1222]</note>
+      </trans-unit>
       <trans-unit id="bc4b85255c14de3bf09748a093c63529" approved="yes">
         <source>The default port is 3306. To use a different port, add the port number at the end of your server's address i.e ":4242".</source>
         <target state="final">Predvolený port je 3306. Ak chcete použiť iný port, doplňte číslo portu na koniec adresy servera napríklad takto ":4242".</target>
@@ -761,6 +776,11 @@
         <source>To install PrestaShop, you need to have JavaScript enabled in your browser.</source>
         <target state="final">Pre inštaláciu PrestaShop-u je potrebné mať vo Vašom prehliadači povolený JavaScript.</target>
         <note>File: install-dev/theme/views/layout.php [Line: 73]</note>
+      </trans-unit>
+      <trans-unit id="2c1443814274bb61e95631e43a85d642" approved="yes">
+        <source><![CDATA[To use PrestaShop, you must <a href="https://devdocs.prestashop-project.org/9/basics/installation/#creating-a-database-for-your-shop" target="_blank">create a database</a> to collect all of your store's data-related activities.]]></source>
+        <target state="final"><![CDATA[Ak chcete používať PrestaShop, musíte <a href="https://devdocs.prestashop-project.org/9/basics/installation/#creating-a-database-for-your-shop" target="_blank">vytvoriť databázu</a>, v ktorej sa budú zhromažďovať všetky údaje o činnosti vášho obchodu.]]></target>
+        <note>File: install-dev/theme/views/database.php [Line: 12]</note>
       </trans-unit>
       <trans-unit id="8406b91fd5a290de3a1e1516db6e79b8" approved="yes">
         <source>Unable to generate private keys using openssl_pkey_new. Check your OpenSSL configuration, especially the path to openssl.cafile.</source>

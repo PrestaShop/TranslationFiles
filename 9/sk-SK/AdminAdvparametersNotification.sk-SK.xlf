@@ -42,6 +42,11 @@
         <target state="final">%category_name% (ID: %id%) nie je možné uložiť</target>
         <note>File: src/Adapter/Import/Handler/CategoryImportHandler.php [Line: 285]</note>
       </trans-unit>
+      <trans-unit id="341fc30b0b77b9031b3af5e792fa033f" approved="yes">
+        <source>%count% module-owned definition(s) were skipped and cannot be deleted from the back office.</source>
+        <target state="final">%count% definícií vlastnených modulmi bolo preskočených a nemožno ich odstrániť z administrácie.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ExtraPropertyDefinitionController.php [Line: 360]</note>
+      </trans-unit>
       <trans-unit id="994e8f1b72a9fe7a9e8949343be6bde7" approved="yes">
         <source>%data% cannot be saved</source>
         <target state="final">%data% nie je možné uložiť</target>
@@ -51,6 +56,11 @@
         <source>%s import</source>
         <target state="final">%s importovať</target>
         <note>File: src/Adapter/Import/Handler/AbstractImportHandler.php [Line: 299]</note>
+      </trans-unit>
+      <trans-unit id="06ccbe3a1cc58c65a4b559188a5effac" approved="yes">
+        <source>%s is invalid. Please enter an integer between %s and %s.</source>
+        <target state="final">Hodnota %s je neplatná. Zadajte celé číslo od %s do %s.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/AdministrationController.php [Line: 199]</note>
       </trans-unit>
       <trans-unit id="5b8f192b08644fdc9fd1fd86bcbbc57b" approved="yes">
         <source>(click to open "Generators" page)</source>
@@ -92,6 +102,16 @@
         <target state="final">Kategória nemôže byť nadradená sama sebe. ID nadradenej kategórie buď chýba ale je neznáme 
 (ID: %1$s).</target>
         <note>File: src/Adapter/Import/Handler/CategoryImportHandler.php [Line: 402]</note>
+      </trans-unit>
+      <trans-unit id="01e9a0109babd8b4eceda818ec2cac56" approved="yes">
+        <source>A label wording is required when the property is displayed in forms or grids.</source>
+        <target state="final">Ak sa vlastnosť zobrazuje vo formulároch alebo tabuľkách, je potrebné zadať text označenia.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/ExtraPropertyDefinitionType.php [Line: 110]</note>
+      </trans-unit>
+      <trans-unit id="7b99c298039291770453f97afb242859" approved="yes">
+        <source>A quick access link to this URL already exists.</source>
+        <target state="final">Odkaz rýchleho prístupu na túto URL už existuje.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/QuickAccessController.php [Line: 284]</note>
       </trans-unit>
       <trans-unit id="b8388ec68dcac2402d944fbb3382b0f1" approved="yes">
         <source>Abort import</source>
@@ -242,6 +262,16 @@
         <source>Do you really want to remove the server %serverIp%:%serverPort% ?</source>
         <target state="final">Naozaj chcete odstrániť server %serverIp%:%serverPort% ?</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/memcache_servers.html.twig [Line: 49]</note>
+      </trans-unit>
+      <trans-unit id="329e8c024c62a8fcf12fc05d3e6d221c" approved="yes">
+        <source>Duplicate form "%id%" — each form may only be referenced once.</source>
+        <target state="final">Duplicitný formulár „%id%“ — každý formulár možno použiť iba raz.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/ExtraPropertyDefinitionAdvancedType.php [Line: 85]</note>
+      </trans-unit>
+      <trans-unit id="ecd8b1f09c6d4e89a3c44b9eafeda8d3" approved="yes">
+        <source>Duplicate grid "%id%" — each grid may only be referenced once.</source>
+        <target state="final">Duplicitná tabuľka „%id%“ — každú tabuľku možno použiť iba raz.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/ExtraPropertyDefinitionAdvancedType.php [Line: 89]</note>
       </trans-unit>
       <trans-unit id="e8b6f82eaf10566aa372329388e13e39" approved="yes">
         <source>EAN-13 "%ean13%" has incorrect value for product with ID %id%.</source>
@@ -403,6 +433,16 @@
         <target state="final">Neplatné ID</target>
         <note>File: classes/PrestaShopBackup.php [Line: 173]</note>
       </trans-unit>
+      <trans-unit id="896a806b97a0a3c930492e9a596a54e6" approved="yes">
+        <source>Invalid JSON: %error%</source>
+        <target state="final">Neplatný JSON: %error%</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/FormTheme/definition_form_theme.html.twig [Line: 132]</note>
+      </trans-unit>
+      <trans-unit id="c722fa2e2fb02dcebc2283646cb71a20" approved="yes">
+        <source>Invalid placement position.</source>
+        <target state="final">Neplatná pozícia umiestnenia.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/ExtraPropertyGridPlacementRowType.php [Line: 57]</note>
+      </trans-unit>
       <trans-unit id="f36c9a20c2ce51f491c944e41fde5ace" approved="yes">
         <source>It appears the backup was successful, however you must download and carefully verify the backup file before proceeding.</source>
         <target state="final">Zdá sa, že záloha bola úspešná, avšak pred tým, ako budete pokračovať, musíte stiahnuť a dôkladne skontrolovať súbor zálohy.</target>
@@ -422,6 +462,11 @@
         <source>Linking accessories...</source>
         <target state="final">Prepojovanie príslušenstva...</target>
         <note>File: admin-dev/themes/default/template/controllers/import/modal_import_progress.tpl [Line: 61]</note>
+      </trans-unit>
+      <trans-unit id="8aab8e1b701bde5084c43f76ffbb1a8f" approved="yes">
+        <source>Loading fields…</source>
+        <target state="final">Načítavajú sa polia…</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/FormTheme/definition_form_theme.html.twig [Line: 184]</note>
       </trans-unit>
       <trans-unit id="118f9dbc8442c6be19dfc0b70d965929" approved="yes">
         <source>Look at your listings to make sure it's all there as you wished.</source>
@@ -458,6 +503,21 @@
         <target state="final">K dispozícii sú nové funkcie. Neváhajte a vyskúšajte ich!</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/FeatureFlag/index.html.twig [Line: 23]</note>
       </trans-unit>
+      <trans-unit id="ffb8cd47a38a247c8e843fddc0c40be7" approved="yes">
+        <source>No Admin API operation with URI template "%path%" was detected — the property will not be exposed until such an endpoint exists.</source>
+        <target state="final">Nebola zistená žiadna operácia Admin API so šablónou URI „%path%“ — vlastnosť nebude sprístupnená, kým nebude existovať takýto koncový bod.</target>
+        <note>File: src/Core/ExtraProperty/Catalog/AssociationExistenceChecker.php [Line: 138]</note>
+      </trans-unit>
+      <trans-unit id="38686ce8ef9c3dd9300de73ee85008da" approved="yes">
+        <source>No back-office form with id "%formId%" was detected — the placement will be ignored until such a form exists.</source>
+        <target state="final">Nebol zistený žiadny formulár administrácie s ID „%formId%“ — umiestnenie sa bude ignorovať, kým takýto formulár nebude existovať.</target>
+        <note>File: src/Core/ExtraProperty/Catalog/AssociationExistenceChecker.php [Line: 69]</note>
+      </trans-unit>
+      <trans-unit id="a08f259941cb5e859e241c0212092fd5" approved="yes">
+        <source>No back-office grid with id "%gridId%" was detected — the placement will be ignored until such a grid exists.</source>
+        <target state="final">Nebola zistená žiadna tabuľka administrácie s ID „%gridId%“ — umiestnenie sa bude ignorovať, kým takáto tabuľka nebude existovať.</target>
+        <note>File: src/Core/ExtraProperty/Catalog/AssociationExistenceChecker.php [Line: 95]</note>
+      </trans-unit>
       <trans-unit id="4757718002cbae6feee5c372b66b6a29" approved="yes">
         <source>No change has been detected in your files.</source>
         <target state="final">Vo Vašich súboroch nebola zistená žiadna zmena.</target>
@@ -477,6 +537,11 @@
         <source>No valid tables were found to backup.</source>
         <target state="final">Žiadne platné tabuľky neboli nájdené k zálohe.</target>
         <note>File: classes/PrestaShopBackup.php [Line: 315]</note>
+      </trans-unit>
+      <trans-unit id="16c0ffb063c880778dbeddcd7143c227" approved="yes">
+        <source>Not in catalog</source>
+        <target state="final">Nie je v katalógu</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/FormTheme/definition_form_theme.html.twig [Line: 364]</note>
       </trans-unit>
       <trans-unit id="418dde4b22e22a725e75b2819c0373b2" approved="yes">
         <source>Note that the Category import does not support having two categories with the same name.</source>
@@ -532,6 +597,11 @@
         <source>Product with reference %1$s (ID: %2$s) could not be saved because the product name is missing.</source>
         <target state="final">Produkt s kódom %1$s (ID: %2$s) nie je možné uložiť, pretože chýba názov.</target>
         <note>File: controllers/admin/AdminImportController.php [Line: 1526]</note>
+      </trans-unit>
+      <trans-unit id="1ab2368d1bd33a9b66abd347d1c9b530" approved="yes">
+        <source>Registered by the module "%module%" — definitions owned by modules are read-only.</source>
+        <target state="final">Zaregistrované modulom „%module%“ — definície vlastnené modulmi sú iba na čítanie.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/FormTheme/definition_form_theme.html.twig [Line: 22]</note>
       </trans-unit>
       <trans-unit id="4798b868d51d8e259321deff0452c0f9" approved="yes">
         <source>Rewrite link for %1$s (ID %2$s): re-written as %3$s.</source>
@@ -698,6 +768,11 @@
         <target state="final">Atribút SameSite=None je dostupný iba v zabezpečenom režime (SSL).</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/AdministrationController.php [Line: 193]</note>
       </trans-unit>
+      <trans-unit id="b5e7329ccd32fd63175163357c4d2632" approved="yes">
+        <source>The URL must point to a back office page (must start with "index.php").</source>
+        <target state="final">URL musí smerovať na stránku administrácie (musí sa začínať reťazcom „index.php“).</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/QuickAccess/QuickAccessType.php [Line: 69]</note>
+      </trans-unit>
       <trans-unit id="fe7ff4ed0a66abe86361ba0f8d6e919a" approved="yes">
         <source>The backup file does not exist</source>
         <target state="final">Zálohový súbor neexistuje</target>
@@ -718,6 +793,11 @@
         <target state="final">Nebolo možné poslať potvrdzujúci email, ale import je úspešný. Hurá!</target>
         <note>File: controllers/admin/AdminImportController.php [Line: 4199]</note>
       </trans-unit>
+      <trans-unit id="b0df7a86aa1ae776ccf35e2cd0445f8f" approved="yes">
+        <source>The constraint name is required.</source>
+        <target state="final">Názov obmedzenia je povinný.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/ExtraPropertyConstraintRowType.php [Line: 69]</note>
+      </trans-unit>
       <trans-unit id="608ec99cc3ef74d962769c1958a1fa62" approved="yes">
         <source>The customer ID #%d does not exist in the database, and therefore cannot be saved.</source>
         <target state="final">ID zákazníka #%d neexistuje v databáze, a preto nemôže byť uložené.</target>
@@ -733,10 +813,45 @@
         <target state="final">Zamestnanec musí byť priradený aspoň k jednému obchodu.</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/EmployeeController.php [Line: 436]</note>
       </trans-unit>
+      <trans-unit id="61756a6d6d90e8eb32468a9e2dc80a95" approved="yes">
+        <source>The endpoint path is required.</source>
+        <target state="final">Cesta koncového bodu je povinná.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/ExtraPropertyApiPlacementRowType.php [Line: 60]</note>
+      </trans-unit>
       <trans-unit id="519a3cfe5400ef0f781671c700aaed05" approved="yes">
         <source>The extension of your file should be ".csv".</source>
         <target state="final">Prípona súboru musí byť ".csv".</target>
         <note>File: src/Core/Import/File/FileUploader.php [Line: 114]</note>
+      </trans-unit>
+      <trans-unit id="9c24ee12582d563f5a24444e4c3f82b4" approved="yes">
+        <source>The extra property definition was not found.</source>
+        <target state="final">Definícia dodatočnej vlastnosti sa nenašla.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ExtraPropertyDefinitionController.php [Line: 403]</note>
+      </trans-unit>
+      <trans-unit id="ffccf8f3737fd905f76b2f7c7283169e" approved="yes">
+        <source>The form identifier is required.</source>
+        <target state="final">Identifikátor formulára je povinný.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/ExtraPropertyFormPlacementRowType.php [Line: 75]</note>
+      </trans-unit>
+      <trans-unit id="e97331b344525b2f2292dcb052bff95c" approved="yes">
+        <source>The form options are not compatible with the form field type: the field could not be built. Fix the "Advanced form integration" card and try again.</source>
+        <target state="final">Možnosti formulára nie sú kompatibilné s typom poľa formulára: pole sa nepodarilo vytvoriť. Opravte kartu „Pokročilá integrácia formulára“ a skúste to znova.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ExtraPropertyDefinitionController.php [Line: 413]</note>
+      </trans-unit>
+      <trans-unit id="269935d0b4839194b169775568d2dc5e" approved="yes">
+        <source>The form options must be a valid JSON object.</source>
+        <target state="final">Možnosti formulára musia byť platným objektom JSON.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/ExtraPropertyDefinitionType.php [Line: 146]</note>
+      </trans-unit>
+      <trans-unit id="1858270d6067e7250d67ab6a61b36bfe" approved="yes">
+        <source>The grid "%gridId%" has no column with id "%columnId%" — the extra column will be appended at the default position instead.</source>
+        <target state="final">Tabuľka „%gridId%“ nemá stĺpec s ID „%columnId%“ — dodatočný stĺpec sa namiesto toho pridá na predvolenú pozíciu.</target>
+        <note>File: src/Core/ExtraProperty/Catalog/AssociationExistenceChecker.php [Line: 105]</note>
+      </trans-unit>
+      <trans-unit id="b91c6da7f28d12aa1602c2d376b502f0" approved="yes">
+        <source>The grid identifier is required.</source>
+        <target state="final">Identifikátor tabuľky je povinný.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/ExtraPropertyGridPlacementRowType.php [Line: 72]</note>
       </trans-unit>
       <trans-unit id="af395851b27882221a6df82c727bca3e" approved="yes">
         <source>The import directory doesn't exist. Please check your file path.</source>
@@ -783,6 +898,11 @@
         <target state="final">Nedá sa prepísať súbor nastavení.</target>
         <note>File: src/Adapter/Cache/CachingConfiguration.php [Line: 126]</note>
       </trans-unit>
+      <trans-unit id="895cd25ab668fac19d9bb499192ba4a0" approved="yes">
+        <source>The submitted extra property definition is invalid. Check the form values and try again.</source>
+        <target state="final">Odoslaná definícia dodatočnej vlastnosti je neplatná. Skontrolujte hodnoty formulára a skúste to znova.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ExtraPropertyDefinitionController.php [Line: 408]</note>
+      </trans-unit>
       <trans-unit id="0bedafc96db94da3f85caa7101944eb5" approved="yes">
         <source>The uploaded file exceeds the post_max_size directive in php.ini. If your server configuration allows it, you may add a directive in your .htaccess, for example:</source>
         <target state="final">Nahraný súbor presahuje hodnotu post_max_size v php.ini. Ak Vám to konfigurácia serveru umožňuje, môžete pridať príkaz do vášho súboru .htaccess, napríklad:</target>
@@ -812,6 +932,11 @@
         <source>This SQL query has no result.</source>
         <target state="final">Tento SQL dopyt nemá žiaden výsledok.</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/RequestSql/view.html.twig [Line: 44]</note>
+      </trans-unit>
+      <trans-unit id="76974e84d16b3ee889478bf760deb0b6" approved="yes">
+        <source>This extra property is managed by a module and cannot be modified from the back office.</source>
+        <target state="final">Túto dodatočnú vlastnosť spravuje modul a nemožno ju upraviť v administrácii.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/ExtraPropertyDefinitionController.php [Line: 418]</note>
       </trans-unit>
       <trans-unit id="4d247cbe2dbd06ce20b9affd635e7982" approved="yes">
         <source>This function only backs up your database, not your files.</source>
@@ -872,6 +997,11 @@
         <source>Updated files</source>
         <target state="final">Upravené súbory</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/system_information.html.twig [Line: 241]</note>
+      </trans-unit>
+      <trans-unit id="cc4bf3e36714c7ce1b5c2d64c51d4c9b" approved="yes">
+        <source>Valid JSON</source>
+        <target state="final">Platný JSON</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/FormTheme/definition_form_theme.html.twig [Line: 131]</note>
       </trans-unit>
       <trans-unit id="6e17621d481059924339f91ed431a116" approved="yes">
         <source>Validating data...</source>
