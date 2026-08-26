@@ -2,10 +2,20 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="Admin.Orderscustomers.Notification.xlf" source-language="en" target-language="cs" datatype="plaintext">
     <body>
+      <trans-unit id="c7482ebf23122c67ab318991104558e3" approved="yes">
+        <source>%class% requires at least one shipment ID.</source>
+        <target state="final">Třída %class% vyžaduje alespoň jedno ID zásilky.</target>
+        <note>File: src/Adapter/PDF/ShipmentDeliverySlipPdfGenerator.php [Line: 52]</note>
+      </trans-unit>
       <trans-unit id="c0498039cc042a1109b53933dc33b2e7" approved="yes">
         <source>A default customer group must be selected in group box.</source>
         <target state="final">Je třeba vybrat výchozí zákaznickou skupinu v boxu kategorie.</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Customer/CustomerController.php [Line: 944]</note>
+      </trans-unit>
+      <trans-unit id="50d268f2b383ed10c280a1ac7f090fc0" approved="yes">
+        <source>A merchandise return must contain at least one product.</source>
+        <target state="final">Vrácení zboží musí obsahovat alespoň jeden produkt.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/OrderReturnController.php [Line: 257]</note>
       </trans-unit>
       <trans-unit id="1923e1e610686f1182bf54f573b86921" approved="yes">
         <source>A partial refund was successfully created.</source>
@@ -27,6 +37,11 @@
         <target state="final">Účet pro tuto e-mailovou adresu již existuje: </target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/EmployeeController.php [Line: 448]</note>
       </trans-unit>
+      <trans-unit id="a4123555a2d41b94560ea6eb8259bf40" approved="yes">
+        <source>An error occured while fulfilling shipment</source>
+        <target state="final">Při vyřizování zásilky došlo k chybě</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 875]</note>
+      </trans-unit>
       <trans-unit id="18893a82469e2cd9492fc8d46fa8ac01" approved="yes">
         <source>An error occurred while changing the status for order #%d, or we were unable to send an email to the customer.</source>
         <target state="final">Při změně stavu objednávky č. %d došlo k chybě nebo se nepodařilo odeslat e-mail zákazníkovi.</target>
@@ -46,6 +61,16 @@
         <source>An error occurred while sending the e-mail to the customer.</source>
         <target state="final">Došlo k chybě při zasílání E-mailu zákazníkovi.</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2309]</note>
+      </trans-unit>
+      <trans-unit id="4c264429703fa66786e0345deebeedf4" approved="yes">
+        <source>An error occurred while trying to delete the merchandise return.</source>
+        <target state="final">Při pokusu o odstranění vrácení zboží došlo k chybě.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/OrderReturnController.php [Line: 272]</note>
+      </trans-unit>
+      <trans-unit id="f1258643e8370b8fa5fa530927613c94" approved="yes">
+        <source>An error occurred while trying to remove a product from the merchandise return.</source>
+        <target state="final">Při pokusu o odstranění produktu z vrácení zboží došlo k chybě.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/OrderReturnController.php [Line: 262]</note>
       </trans-unit>
       <trans-unit id="dc30c095a6e57c3146babe8f9088984f" approved="yes">
         <source>An error occurred while trying to update merchandise return.</source>
@@ -196,6 +221,11 @@
         <source>No cart was found with this ID:</source>
         <target state="final">Nenalezen košík č.</target>
         <note>File: controllers/admin/AdminSearchController.php [Line: 183]</note>
+      </trans-unit>
+      <trans-unit id="74a72e017429d21a61cf0c0e98b20469" approved="yes">
+        <source>No change is persisted until you click Save.</source>
+        <target state="final">Žádná změna nebude uložena, dokud nekliknete na tlačítko Uložit.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/CustomerService/OrderReturn/Blocks/form.html.twig [Line: 114]</note>
       </trans-unit>
       <trans-unit id="afdbd71037839ec5a581febacab7bad7" approved="yes">
         <source>No customers found</source>
@@ -352,6 +382,16 @@
         <target state="final">Hodnota slevy za doručení nemůže překročit celkovou cenu této objednávky.</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2350]</note>
       </trans-unit>
+      <trans-unit id="d9770c44bc420a10b0e3d0958b48ce52" approved="yes">
+        <source>Some merchandise returns could not be deleted.</source>
+        <target state="final">Některá vrácení zboží se nepodařilo odstranit.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/OrderReturnController.php [Line: 277]</note>
+      </trans-unit>
+      <trans-unit id="db8e51088cbaa601710b424a5023f3fb" approved="yes">
+        <source>Some products could not be removed from the merchandise return.</source>
+        <target state="final">Některé produkty se nepodařilo odstranit z vrácení zboží.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/OrderReturnController.php [Line: 267]</note>
+      </trans-unit>
       <trans-unit id="4174f012bc63b679f092acd1a933bf5c" approved="yes">
         <source>The email was sent to your customer.</source>
         <target state="final">E-mail byl odeslán zákazníkovi.</target>
@@ -412,10 +452,25 @@
         <target state="final">Produkt byl úspěšně vrácen.</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 1073]</note>
       </trans-unit>
+      <trans-unit id="50a716ef8c87fa70bec79e76b915f944" approved="yes">
+        <source>The return PDF is only available when the return is waiting for the package.</source>
+        <target state="final">PDF pro vrácení je dostupné pouze tehdy, když se čeká na balík.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/OrderReturnController.php [Line: 162]</note>
+      </trans-unit>
       <trans-unit id="6ab061ec12504fab2c41f0689579d623" approved="yes">
         <source>The selected payment method is invalid.</source>
         <target state="final">Platební metoda není platná</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2472]</note>
+      </trans-unit>
+      <trans-unit id="1916f412aea69e61b4476b49832128e5" approved="yes">
+        <source>The shipment was successfully fulfilled.</source>
+        <target state="final">Zásilka byla úspěšně vyřízena.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 887]</note>
+      </trans-unit>
+      <trans-unit id="79a466105be38ea072ddd923730383c6" approved="yes">
+        <source>The shipment with ID %id% cannot be found within your database.</source>
+        <target state="final">Zásilka s ID %id% nebyla v databázi nalezena.</target>
+        <note>File: src/Adapter/PDF/ShipmentDeliverySlipPdfGenerator.php [Line: 72]</note>
       </trans-unit>
       <trans-unit id="6513e5e8645f98d950d6174b30c151b8" approved="yes">
         <source>There are two ways of deleting a customer. Please choose your preferred method.</source>
@@ -442,10 +497,20 @@
         <target state="final">E-mail není registrován.</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Customer/CustomerController.php [Line: 949]</note>
       </trans-unit>
+      <trans-unit id="51c467b71c2b622f2bbcf3496b57ff2f" approved="yes">
+        <source>This order already has a free shipping discount.</source>
+        <target state="final">Tato objednávka již obsahuje slevu na dopravu zdarma.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2355]</note>
+      </trans-unit>
       <trans-unit id="282426403b9a14678d5dd35e024ec84c" approved="yes">
         <source>This product is out of stock:</source>
         <target state="final">Tento produkt není skladem:</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 1101]</note>
+      </trans-unit>
+      <trans-unit id="341d3a855a06bc0c407826405504635e" approved="yes">
+        <source>This product will be removed from the merchandise return when you save the page.</source>
+        <target state="final">Tento produkt bude po uložení stránky odstraněn z vrácení zboží.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/CustomerService/OrderReturn/Blocks/form.html.twig [Line: 113]</note>
       </trans-unit>
       <trans-unit id="d89d6327e7e7f00b1aee73c12ee5c0a8" approved="yes">
         <source>This shipment can't be merged because a tracking number has already been assigned, indicating that it has already been shipped.</source>
