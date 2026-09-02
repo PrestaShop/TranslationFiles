@@ -2,10 +2,20 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="Admin.Orderscustomers.Notification.xlf" source-language="en" target-language="pt-BR" datatype="plaintext">
     <body>
+      <trans-unit id="c7482ebf23122c67ab318991104558e3" approved="yes">
+        <source>%class% requires at least one shipment ID.</source>
+        <target state="final">%class% exige ao menos um ID de remessa.</target>
+        <note>File: src/Adapter/PDF/ShipmentDeliverySlipPdfGenerator.php [Line: 52]</note>
+      </trans-unit>
       <trans-unit id="c0498039cc042a1109b53933dc33b2e7" approved="yes">
         <source>A default customer group must be selected in group box.</source>
         <target state="final">Grupo padrão do cliente deve ser selecionado na caixa de grupo.</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Customer/CustomerController.php [Line: 944]</note>
+      </trans-unit>
+      <trans-unit id="50d268f2b383ed10c280a1ac7f090fc0" approved="yes">
+        <source>A merchandise return must contain at least one product.</source>
+        <target state="final">Uma devolução deve conter ao menos um produto.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/OrderReturnController.php [Line: 257]</note>
       </trans-unit>
       <trans-unit id="1923e1e610686f1182bf54f573b86921" approved="yes">
         <source>A partial refund was successfully created.</source>
@@ -27,6 +37,11 @@
         <target state="final">Já existe uma conta para este endereço de e-mail:</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/EmployeeController.php [Line: 448]</note>
       </trans-unit>
+      <trans-unit id="a4123555a2d41b94560ea6eb8259bf40" approved="yes">
+        <source>An error occured while fulfilling shipment</source>
+        <target state="final">Ocorreu um erro ao despachar a remessa</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 875]</note>
+      </trans-unit>
       <trans-unit id="18893a82469e2cd9492fc8d46fa8ac01" approved="yes">
         <source>An error occurred while changing the status for order #%d, or we were unable to send an email to the customer.</source>
         <target state="final">Ocorreu um erro ao alterar o status do pedido nº %d, ou não foi possível enviar um e-mail para o cliente.</target>
@@ -46,6 +61,16 @@
         <source>An error occurred while sending the e-mail to the customer.</source>
         <target state="final">Ocorreu um erro ao enviar o e-mail para o cliente.</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2309]</note>
+      </trans-unit>
+      <trans-unit id="4c264429703fa66786e0345deebeedf4" approved="yes">
+        <source>An error occurred while trying to delete the merchandise return.</source>
+        <target state="final">Ocorreu um erro ao tentar excluir a devolução.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/OrderReturnController.php [Line: 272]</note>
+      </trans-unit>
+      <trans-unit id="f1258643e8370b8fa5fa530927613c94" approved="yes">
+        <source>An error occurred while trying to remove a product from the merchandise return.</source>
+        <target state="final">Ocorreu um erro ao tentar remover um produto da devolução.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/OrderReturnController.php [Line: 262]</note>
       </trans-unit>
       <trans-unit id="dc30c095a6e57c3146babe8f9088984f" approved="yes">
         <source>An error occurred while trying to update merchandise return.</source>
@@ -86,6 +111,16 @@
         <source>Cannot create message in a new thread.</source>
         <target state="final">Não foi possível criar uma mensagem em num novo tópico.</target>
         <note>File: controllers/admin/AdminCustomerThreadsController.php [Line: 1094]</note>
+      </trans-unit>
+      <trans-unit id="9c118b2bea17d0237608a634507f9caf" approved="yes">
+        <source>Choose the products you wish to combine into another shipment. These products will be moved from their current shipment to the selected destination shipment.</source>
+        <target state="final">Escolha os produtos que deseja combinar em outra remessa. Esses produtos serão movidos da remessa atual para a remessa de destino selecionada.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/merge_shipment_form.html.twig [Line: 24]</note>
+      </trans-unit>
+      <trans-unit id="68d199965a726b3f85b8e42e4f5a6343" approved="yes">
+        <source>Choose the products you wish to separate into new, distinct shipments. These products will be moved from their original shipment.</source>
+        <target state="final">Escolha os produtos que deseja separar em novas remessas distintas. Esses produtos serão movidos da remessa original.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/split_shipment_form.html.twig [Line: 21]</note>
       </trans-unit>
       <trans-unit id="14542f5997c4a02d4276da364657f501" approved="yes">
         <source>Direct link</source>
@@ -186,6 +221,11 @@
         <source>No cart was found with this ID:</source>
         <target state="final">Nenhum carrinho encontrado com esta ID:</target>
         <note>File: controllers/admin/AdminSearchController.php [Line: 183]</note>
+      </trans-unit>
+      <trans-unit id="74a72e017429d21a61cf0c0e98b20469" approved="yes">
+        <source>No change is persisted until you click Save.</source>
+        <target state="final">Nenhuma alteração é gravada até você clicar em Salvar.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/CustomerService/OrderReturn/Blocks/form.html.twig [Line: 114]</note>
       </trans-unit>
       <trans-unit id="afdbd71037839ec5a581febacab7bad7" approved="yes">
         <source>No customers found</source>
@@ -327,10 +367,30 @@
         <target state="final">Buscando produtos</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/Create/cart.html.twig [Line: 30]</note>
       </trans-unit>
+      <trans-unit id="63bc73a8d5d3a542e2df2ca701864dda" approved="yes">
+        <source>Select an existing shipment to add the chosen products. Only shipments without a tracking number and not yet shipped are available.</source>
+        <target state="final">Selecione uma remessa existente para adicionar os produtos escolhidos. Só estão disponíveis as remessas sem número de rastreamento e ainda não enviadas.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/merge_shipment_form.html.twig [Line: 85]</note>
+      </trans-unit>
+      <trans-unit id="e5bd2646e708767c77375896ead2d26e" approved="yes">
+        <source>Select the carrier that will be responsible for shipping the newly created shipment(s) containing the selected products.</source>
+        <target state="final">Selecione a transportadora que será responsável pelo envio da(s) nova(s) remessa(s) com os produtos selecionados.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/split_shipment_form.html.twig [Line: 88]</note>
+      </trans-unit>
       <trans-unit id="0e6becfb4c6566c35a8fda2d94891c70" approved="yes">
         <source>Shipping discount value cannot exceed the total price of this order.</source>
         <target state="final">O valor do desconto no frete não pode exceder o valor total deste pedido.</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2350]</note>
+      </trans-unit>
+      <trans-unit id="d9770c44bc420a10b0e3d0958b48ce52" approved="yes">
+        <source>Some merchandise returns could not be deleted.</source>
+        <target state="final">Não foi possível excluir algumas devoluções.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/OrderReturnController.php [Line: 277]</note>
+      </trans-unit>
+      <trans-unit id="db8e51088cbaa601710b424a5023f3fb" approved="yes">
+        <source>Some products could not be removed from the merchandise return.</source>
+        <target state="final">Não foi possível remover alguns produtos da devolução.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/OrderReturnController.php [Line: 267]</note>
       </trans-unit>
       <trans-unit id="4174f012bc63b679f092acd1a933bf5c" approved="yes">
         <source>The email was sent to your customer.</source>
@@ -392,10 +452,25 @@
         <target state="final">O produto foi devolvido com sucesso.</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 1073]</note>
       </trans-unit>
+      <trans-unit id="50a716ef8c87fa70bec79e76b915f944" approved="yes">
+        <source>The return PDF is only available when the return is waiting for the package.</source>
+        <target state="final">O PDF da devolução só fica disponível quando a devolução está aguardando o pacote.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/OrderReturnController.php [Line: 162]</note>
+      </trans-unit>
       <trans-unit id="6ab061ec12504fab2c41f0689579d623" approved="yes">
         <source>The selected payment method is invalid.</source>
         <target state="final">Método de pagamento não é válido</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2472]</note>
+      </trans-unit>
+      <trans-unit id="1916f412aea69e61b4476b49832128e5" approved="yes">
+        <source>The shipment was successfully fulfilled.</source>
+        <target state="final">A remessa foi despachada com sucesso.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 887]</note>
+      </trans-unit>
+      <trans-unit id="79a466105be38ea072ddd923730383c6" approved="yes">
+        <source>The shipment with ID %id% cannot be found within your database.</source>
+        <target state="final">A remessa com o ID %id% não foi encontrada no seu banco de dados.</target>
+        <note>File: src/Adapter/PDF/ShipmentDeliverySlipPdfGenerator.php [Line: 72]</note>
       </trans-unit>
       <trans-unit id="6513e5e8645f98d950d6174b30c151b8" approved="yes">
         <source>There are two ways of deleting a customer. Please choose your preferred method.</source>
@@ -422,10 +497,30 @@
         <target state="final">Endereço de e-mail não registrado</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Customer/CustomerController.php [Line: 949]</note>
       </trans-unit>
+      <trans-unit id="51c467b71c2b622f2bbcf3496b57ff2f" approved="yes">
+        <source>This order already has a free shipping discount.</source>
+        <target state="final">Este pedido já tem um desconto de frete grátis.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2355]</note>
+      </trans-unit>
       <trans-unit id="282426403b9a14678d5dd35e024ec84c" approved="yes">
         <source>This product is out of stock:</source>
         <target state="final">Este produto está esgotado:</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 1101]</note>
+      </trans-unit>
+      <trans-unit id="341d3a855a06bc0c407826405504635e" approved="yes">
+        <source>This product will be removed from the merchandise return when you save the page.</source>
+        <target state="final">Este produto será removido da devolução quando você salvar a página.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/CustomerService/OrderReturn/Blocks/form.html.twig [Line: 113]</note>
+      </trans-unit>
+      <trans-unit id="d89d6327e7e7f00b1aee73c12ee5c0a8" approved="yes">
+        <source>This shipment can't be merged because a tracking number has already been assigned, indicating that it has already been shipped.</source>
+        <target state="final">Esta remessa não pode ser mesclada porque já recebeu um número de rastreamento, o que indica que ela já foi enviada.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/merge_shipment_form.html.twig [Line: 33]</note>
+      </trans-unit>
+      <trans-unit id="7c0e6fb2f9d772993e8e4dac43adaf69" approved="yes">
+        <source>This shipment can't be modified because a tracking number has already been assigned, indicating that it has already been shipped.</source>
+        <target state="final">Esta remessa não pode ser alterada porque já recebeu um número de rastreamento, o que indica que ela já foi enviada.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/split_shipment_form.html.twig [Line: 35]</note>
       </trans-unit>
       <trans-unit id="4d734cc32a5cac86597621969696baa8" approved="yes">
         <source>This value must include taxes.</source>
@@ -442,10 +537,45 @@
         <target state="final">Este alerta também diz respeito aos seguintes pedidos:</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/payments_alert.html.twig [Line: 17]</note>
       </trans-unit>
+      <trans-unit id="2c4570e803942e8a79b25156c80bec57" approved="yes">
+        <source>You can transform this guest to a registered customer. The customer will receive an email with a link to set a password.</source>
+        <target state="final">Você pode transformar este convidado em um cliente cadastrado. O cliente receberá um e-mail com um link para definir uma senha.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/Blocks/View/personal_information.html.twig [Line: 176]</note>
+      </trans-unit>
+      <trans-unit id="4489aa990b1be20fcfe1bbac827947ef" approved="yes">
+        <source>You can't create a registered customer with email "%s", because a registered customer with this email already exists.</source>
+        <target state="final">Não é possível criar um cliente cadastrado com o e-mail "%s", porque já existe um cliente cadastrado com este e-mail.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Customer/CustomerController.php [Line: 933]</note>
+      </trans-unit>
+      <trans-unit id="f28229c2f922945da0fda2b88872c8d7" approved="yes">
+        <source>You can't transform this guest to a registered customer, because a registered customer with this email address already exists. </source>
+        <target state="final">Não é possível transformar este convidado em um cliente cadastrado, porque já existe um cliente cadastrado com este endereço de e-mail. </target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Customer/Blocks/View/personal_information.html.twig [Line: 174]</note>
+      </trans-unit>
+      <trans-unit id="4cd3d04366db371e6157a4eb1c3af5b0" approved="yes">
+        <source>You can't update the email to "%s", because a registered customer with this email already exists.</source>
+        <target state="final">Não é possível alterar o e-mail para "%s", porque já existe um cliente cadastrado com este e-mail.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Customer/CustomerController.php [Line: 938]</note>
+      </trans-unit>
       <trans-unit id="f77fd3f9865f0c725901d48dbc00619f" approved="yes">
         <source>You cannot edit the cart once the order delivered.</source>
         <target state="final">Você não pode editar o carrinho depois de o pedido já ter sido entregue.</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2298]</note>
+      </trans-unit>
+      <trans-unit id="3c55c4e4f0f6d7be29df9ded3d51459d" approved="yes">
+        <source>You cannot merge shipment when is already shipped.</source>
+        <target state="final">Não é possível mesclar uma remessa que já foi enviada.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 805]</note>
+      </trans-unit>
+      <trans-unit id="e30e7be7409ca04e3ea3df998b46c65e" approved="yes">
+        <source>You cannot split shipment when is already shipped.</source>
+        <target state="final">Não é possível dividir uma remessa que já foi enviada.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 916]</note>
+      </trans-unit>
+      <trans-unit id="863f9820de8513ef6318191f496891dd" approved="yes">
+        <source>You can’t select all items to split the shipment. At least one item must remain in the original package to proceed.</source>
+        <target state="final">Você não pode selecionar todos os itens para dividir a remessa. Pelo menos um item deve permanecer no pacote original para continuar.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/split_shipment_form.html.twig [Line: 30]</note>
       </trans-unit>
       <trans-unit id="aea807cc550550acd7b8d9a7bc469f6a" approved="yes">
         <source>You have to select a shop before creating new orders.</source>

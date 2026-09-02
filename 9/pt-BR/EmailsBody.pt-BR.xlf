@@ -2,6 +2,21 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="Emails.Body.xlf" source-language="en" target-language="pt-BR" datatype="plaintext">
     <body>
+      <trans-unit id="7a351763d8af425401ef8fd5f217c6a3" approved="yes">
+        <source> - %attributes%</source>
+        <target state="final"> - %attributes%</target>
+        <note>File: src/Adapter/MailTemplate/MailPreviewVariablesBuilder.php [Line: 379]</note>
+      </trans-unit>
+      <trans-unit id="2c41bb03e31b351556f12c7e5d05f499" approved="yes">
+        <source> - Carrier: %carrier_name%</source>
+        <target state="final"> - Transportadora: %carrier_name%</target>
+        <note>File: src/Adapter/MailTemplate/MailPreviewVariablesBuilder.php [Line: 380]</note>
+      </trans-unit>
+      <trans-unit id="a206fe3ef35260b1f923e0e9ebd915bf" approved="yes">
+        <source>%name%%attributes%%carrier%</source>
+        <target state="final">%name%%attributes%%carrier%</target>
+        <note>File: src/Adapter/MailTemplate/MailPreviewVariablesBuilder.php [Line: 376]</note>
+      </trans-unit>
       <trans-unit id="44aa13304026bb46ad79f4151f16634a" approved="yes">
         <source>(waiting for validation)</source>
         <target state="final">(aguardando validação)</target>
@@ -245,6 +260,11 @@
         <source>First name:</source>
         <target state="final">Nome:</target>
         <note>File: mails/themes/modern/core/employee_password.html.twig [Line: 128]</note>
+      </trans-unit>
+      <trans-unit id="3ebff793cbc89d5addc60ab86ede74ec" approved="yes">
+        <source><![CDATA[Follow your order and download your invoice on our store, go to the <a href="{history_url}" target="_blank">%order_history_label%</a> section of your customer account.]]></source>
+        <target state="final"><![CDATA[Acompanhe seu pedido e baixe sua fatura em nossa loja, na seção <a href="{history_url}" target="_blank">%order_history_label%</a> de sua conta de cliente.]]></target>
+        <note>File: mails/themes/modern/core/shipped.html.twig [Line: 154]</note>
       </trans-unit>
       <trans-unit id="459ea98b5f18960e8c26da4754208f75" approved="yes">
         <source>Forward message</source>
@@ -546,6 +566,11 @@
         <target state="final">Comentário do vendedor do pedido</target>
         <note>File: mails/themes/modern/core/order_merchant_comment.html.twig [Line: 3]</note>
       </trans-unit>
+      <trans-unit id="b913dabf84a2fbeb711e6873210228b7" approved="yes">
+        <source>Order reference:</source>
+        <target state="final">Referência do pedido:</target>
+        <note>File: mails/themes/classic/core/order_customer_comment.html.twig [Line: 31]</note>
+      </trans-unit>
       <trans-unit id="3bc517b4a402645da419438914f481c6" approved="yes">
         <source>Order return #{id_order_return} - Update</source>
         <target state="final">Devolução de pedido nº {id_order_return} - Atualização</target>
@@ -796,6 +821,11 @@
         <target state="final">Detalhes da solicitação de devolução</target>
         <note>File: mails/themes/classic/modules/ps_emailalerts/return_slip.html.twig [Line: 25]</note>
       </trans-unit>
+      <trans-unit id="1360206d809eed2f532ddac6b75493cf" approved="yes">
+        <source><![CDATA[Review this credit slip and download your invoice on our store, go to the <a href="{history_url}" target="_blank">%credit_slips_label%</a> section of your customer account.]]></source>
+        <target state="final"><![CDATA[Confira este crédito e baixe sua fatura em nossa loja, na seção <a href="{history_url}" target="_blank">%credit_slips_label%</a> de sua conta de cliente.]]></target>
+        <note>File: mails/themes/modern/core/credit_slip.html.twig [Line: 154]</note>
+      </trans-unit>
       <trans-unit id="747cf5c8587184b9e489ff897d97c20d" approved="yes">
         <source>Shipped</source>
         <target state="final">Enviado</target>
@@ -875,6 +905,11 @@
         <source>Thanks for your order with the reference {order_name} from {shop_name}.</source>
         <target state="final">Muito obrigado pelo seu pedido com referência {order_name} na {shop_name}.</target>
         <note>File: mails/themes/modern/core/outofstock.html.twig [Line: 30]</note>
+      </trans-unit>
+      <trans-unit id="b19d16126c46e1f48377ab861c8fcdd9" approved="yes">
+        <source>The file {filename} has been successfully imported to your store.</source>
+        <target state="final">O arquivo {filename} foi importado com sucesso em sua loja.</target>
+        <note>File: mails/themes/modern/core/import.html.twig [Line: 123]</note>
       </trans-unit>
       <trans-unit id="72943b79a01324b1875811ff792bdad0" approved="yes">
         <source>The remaining stock is now less than the specified minimum of</source>
@@ -1031,6 +1066,11 @@
         <target state="final">Você pode acessar a página do produto, clicando no link:</target>
         <note>File: mails/themes/classic/modules/ps_emailalerts/customer_qty.html.twig [Line: 30]</note>
       </trans-unit>
+      <trans-unit id="e58389ff0a43d3903d0276cc1e652352" approved="yes">
+        <source>You can access your customer account on our store:</source>
+        <target state="final">Você já pode acessar sua conta através do nosso site:</target>
+        <note>File: mails/themes/modern/core/guest_to_customer.html.twig [Line: 161]</note>
+      </trans-unit>
       <trans-unit id="ad69fd3d0352d7e45ccca96a1048a747" approved="yes">
         <source><![CDATA[You can check for it in the [1]Advanced Parameters > Logs[/1] section of your back office.]]></source>
         <target state="final"><![CDATA[Você pode vê-lo na seção [1]Parâmetros Avançados > Logs[/1] de sua área de administração.]]></target>
@@ -1040,6 +1080,11 @@
         <source>You can expect delivery as soon as your payment is received.</source>
         <target state="final">Você pode esperar o envio assim que seu pagamento for recebido.</target>
         <note>File: mails/themes/modern/core/payment_error.html.twig [Line: 124]</note>
+      </trans-unit>
+      <trans-unit id="2ac0da0b931db51a873357eaf978c99e" approved="yes">
+        <source>You can now place orders on our store:</source>
+        <target state="final">Você já pode realizar pedidos em nossa loja:</target>
+        <note>File: mails/themes/modern/core/account.html.twig [Line: 251]</note>
       </trans-unit>
       <trans-unit id="d5c8de069674d35946f2e88642635485" approved="yes">
         <source>You can order it right now from our online shop.</source>
@@ -1080,6 +1125,11 @@
         <source>You have received a new message regarding order with the reference</source>
         <target state="final">Você recebeu uma nova mensagem em relação ao pedido com referência</target>
         <note>File: mails/themes/modern/core/order_customer_comment.html.twig [Line: 123]</note>
+      </trans-unit>
+      <trans-unit id="71a5b9e9365900296d640e466fe6205d" approved="yes">
+        <source>You have received a new message.</source>
+        <target state="final">Você recebeu uma nova mensagem.</target>
+        <note>File: mails/themes/classic/core/order_customer_comment.html.twig [Line: 29]</note>
       </trans-unit>
       <trans-unit id="f285446f60a203b0f7c3ad0b14d13d29" approved="yes">
         <source>You have received a new return request for {shop_name}.</source>
