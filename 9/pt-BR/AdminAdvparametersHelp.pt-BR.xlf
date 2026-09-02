@@ -2,6 +2,16 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="Admin.Advparameters.Help.xlf" source-language="en" target-language="pt-BR" datatype="plaintext">
     <body>
+      <trans-unit id="fe050086c8e957bb40299c4611b4bbc3" approved="yes">
+        <source>(Optional) Insert a cookie name to enable the debug mode only when this cookie is set.</source>
+        <target state="final">(Opcional) Informe o nome de um cookie para ativar o modo de depuração apenas quando esse cookie estiver definido.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/DebugModeType.php [Line: 39]</note>
+      </trans-unit>
+      <trans-unit id="9bf478ab5066ec64ad324dc382ae9f4d" approved="yes">
+        <source>(Optional) Insert a value to enable the debug mode only when the cookie configured above is set to this value.</source>
+        <target state="final">(Opcional) Informe um valor para ativar o modo de depuração apenas quando o cookie configurado acima estiver com esse valor.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/DebugModeType.php [Line: 48]</note>
+      </trans-unit>
       <trans-unit id="10402f7c5b23f2156415aefabea831d2" approved="yes">
         <source>A DKIM selector usually looks like 12345.domain. It must match the name of your DNS record.</source>
         <target state="final">Um seletor DKIM normalmente parece com 12345.domain. Ele deve coincidir como nome do seu registro DNS.</target>
@@ -11,6 +21,16 @@
         <source>A category root is where a category tree can begin. This is used with multistore.</source>
         <target state="final">Uma raiz categoria é onde uma árvore de categoria pode começar. Isto é usado com multistore</target>
         <note>File: src/Core/Import/EntityField/Provider/CategoryFieldsProvider.php [Line: 44]</note>
+      </trans-unit>
+      <trans-unit id="9afeb8748337da04d433f34b5a4e2ae8" approved="yes">
+        <source>A friendly name to identify this API client.</source>
+        <target state="final">Um nome amigável para identificar este cliente de API.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ApiClientType.php [Line: 35]</note>
+      </trans-unit>
+      <trans-unit id="256977e036c3b9977b5ad2057ce25747" approved="yes">
+        <source>Admin API forces the use of HTTPS with TLSv1.2 or higher, you can disable this check for debug mode only.</source>
+        <target state="final">A Admin API exige o uso de HTTPS com TLSv1.2 ou superior; você pode desativar essa verificação apenas no modo de depuração.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ConfigurationType.php [Line: 66]</note>
       </trans-unit>
       <trans-unit id="54cde7677b5a5624041c00c100224cbc" approved="yes">
         <source>All outdated sessions will be automatically cleared after the first connection attempt, but you can do it manually now if needed.</source>
@@ -52,20 +72,40 @@
         <target state="final">Antes de escolher \"Sim\", verifique se o PHP não esta configurado como um módulo do Apache no servidor.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceConfigurationType.php [Line: 57]</note>
       </trans-unit>
+      <trans-unit id="a69a11ce9386d040c3f8190631a94405" approved="yes">
+        <source>Before enabling the Admin API, you must be sure to:</source>
+        <target state="final">Antes de ativar a Admin API, é necessário garantir que:</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ConfigurationType.php [Line: 30]</note>
+      </trans-unit>
       <trans-unit id="460e080fb0af5e1ca93a24dbf1e3da2f" approved="yes">
         <source>CCC allows you to reduce the loading time of your page. With these settings you will gain performance without even touching the code of your theme. Make sure, however, that your theme is compatible with PrestaShop 1.7+. Otherwise, CCC will cause problems.</source>
         <target state="final">CCC permite que você reduza o tempo de carregamento da página. Com essas configurações você ganha performance sem nem tocar no código do seu tema. Contudo, certifique-se que seu tema é compatível com o PrestaShop 1.7+, caso contrário, CCC vai causar problemas.</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/performance.html.twig [Line: 149]</note>
+      </trans-unit>
+      <trans-unit id="571696489833d0436b478e10c526d6f2" approved="yes">
+        <source>Can be changed at any time.</source>
+        <target state="final">Pode ser alterado a qualquer momento.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/ExtraPropertyDefinitionFieldDefinitionType.php [Line: 95]</note>
       </trans-unit>
       <trans-unit id="45d7b1d28cb1afbb45fdb620db725c10" approved="yes">
         <source>Check that URL rewriting is available on this server.</source>
         <target state="final">Verifique se a reescrita de URL está disponível no servidor.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceConfigurationType.php [Line: 32]</note>
       </trans-unit>
+      <trans-unit id="baa8a433ad80dca4cd8228bed0f9830a" approved="yes">
+        <source>Check that the ps_apiressources module is installed and enabled.</source>
+        <target state="final">Verifique se o módulo ps_apiressources está instalado e ativado.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ConfigurationType.php [Line: 35]</note>
+      </trans-unit>
       <trans-unit id="000552d95fb9e18ac08ca27098bf1d41" approved="yes">
         <source>Check that the six methods GET, POST, PUT, PATCH, DELETE and HEAD are supported by this server.</source>
         <target state="final">Verifique se os seis métodos GET, POST, PUT, PATCH, DELETE e HEAD são suportados por este servidor.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Webservice/WebserviceConfigurationType.php [Line: 37]</note>
+      </trans-unit>
+      <trans-unit id="4fd3837cfea9a5bd4ff2e83318df2cd5" approved="yes">
+        <source>Check that your Admin API endpoint uses HTTPS protocol.</source>
+        <target state="final">Verifique se o endpoint da Admin API usa o protocolo HTTPS.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ConfigurationType.php [Line: 50]</note>
       </trans-unit>
       <trans-unit id="0f81567617bb8ebc23f48e74d8ae8acf" approved="yes">
         <source>Check the IP address of the cookie in order to prevent your cookie from being stolen.</source>
@@ -137,6 +177,16 @@
         <target state="final">Acesse o "phpMyAdmin" e selecione o seu banco de dados atual</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Backup/Blocks/backup_info.html.twig [Line: 14]</note>
       </trans-unit>
+      <trans-unit id="a603905470e2a5b8c13e96b579ef0dba" approved="yes">
+        <source>Debug</source>
+        <target state="final">Depuração</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/LogsPage/Blocks/severity_levels.html.twig [Line: 16]</note>
+      </trans-unit>
+      <trans-unit id="37d7cc8fbd7928aa4a070298b5c65f65" approved="yes">
+        <source>Default: %type% — derived from the field type</source>
+        <target state="final">Padrão: %type% — derivado do tipo do campo</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/FormTheme/definition_form_theme.html.twig [Line: 130]</note>
+      </trans-unit>
       <trans-unit id="dae623d110235f2837ca0a6e753305b8" approved="yes">
         <source>Define the upload limit for a downloadable product (in megabytes). This value has to be lower or equal to the maximum file upload allotted by your server (currently: %size% MB).</source>
         <target state="final">Defina o limite de upload para um produto do tipo download (em megabytes). O valor deve ser menor ou igual ao upload máximo de arquivos definido no servidor (atualmente: %size% MB).</target>
@@ -157,6 +207,55 @@
         <target state="final">Apagar tabelas existentes durante a importação</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Backup/BackupOptionsType.php [Line: 47]</note>
       </trans-unit>
+      <trans-unit id="2b04cfec31e54bfc9116278681c88c54" approved="yes">
+        <source>Enable / Disable the customer group page.</source>
+        <target state="final">Ativar / Desativar a página de grupos de clientes.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 51]</note>
+      </trans-unit>
+      <trans-unit id="e3b0435c3f0d00986c9a3c36f2adc541" approved="yes">
+        <source>Enable / Disable the merchandise return page.</source>
+        <target state="final">Ativar / Desativar a página de devoluções.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 57]</note>
+      </trans-unit>
+      <trans-unit id="653da7468215e92375e35507b38e8baa" approved="yes">
+        <source>Enable / Disable the migrated quick access page.</source>
+        <target state="final">Ativar / Desativar a página de acesso rápido migrada.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 74]</note>
+      </trans-unit>
+      <trans-unit id="ba40d461815161e3564db4c519f5ba32" approved="yes">
+        <source>Enable / Disable the module configuration page.</source>
+        <target state="final">Ativar / Desativar a página de configuração de módulos.</target>
+      </trans-unit>
+      <trans-unit id="aa98968d82b215222dd5e4b3518050a9" approved="yes">
+        <source>Enable / Disable the new discount system.</source>
+        <target state="final">Ativar / Desativar o novo sistema de descontos.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 63]</note>
+      </trans-unit>
+      <trans-unit id="15298e67b30b928fd857c6d2625debda" approved="yes">
+        <source>Enable / Disable the new front container.</source>
+        <target state="final">Ativar / Desativar o novo container do front office.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 48]</note>
+      </trans-unit>
+      <trans-unit id="996e7f50eaeadbb91f9dca2c2d1b9003" approved="yes">
+        <source>Enable / Disable the new pricing system. This feature introduces an improved pricing engine.</source>
+        <target state="final">Ativar / Desativar o novo sistema de preços. Este recurso introduz um motor de preços aprimorado.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 70]</note>
+      </trans-unit>
+      <trans-unit id="619c636194b7d9017b2f76f37ae7e781" approved="yes">
+        <source>Enable / Disable the newly improved shipment system.</source>
+        <target state="final">Ativar / Desativar o novo sistema de remessas aprimorado.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 60]</note>
+      </trans-unit>
+      <trans-unit id="437ad32eb05dae211c16bff63c093e05" approved="yes">
+        <source>Enable / Disable the store page.</source>
+        <target state="final">Ativar / Desativar a página de lojas.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 54]</note>
+      </trans-unit>
+      <trans-unit id="791671e0c5bc533d24d236d1f03c554a" approved="yes">
+        <source>Enable / Disable the tag page.</source>
+        <target state="final">Ativar / Desativar a página de tags.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 66]</note>
+      </trans-unit>
       <trans-unit id="3d24e5589702a2ecfd1d65813b4a892e" approved="yes">
         <source>Enable DKIM, fill in the fields and give it a try. If no email is sent, check logs.</source>
         <target state="final">Ative o DKIM, preencha os campos e faça um teste. Se nenhum e-mail for enviado, verifique os logs.</target>
@@ -171,6 +270,11 @@
         <source>Enable or disable debug profiling. Debug profiling will display performance-related information under each page and help find performance bottlenecks in your store.</source>
         <target state="final">Ativar ou desativar o perfil de depuração. O perfil de depuração exibirá informações relacionadas ao desempenho em cada página e ajudará a identificar gargalos de desempenho em sua loja.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/DebugModeType.php [Line: 56]</note>
+      </trans-unit>
+      <trans-unit id="54fc44d77b5d7cbb0234880a1931dad9" approved="yes">
+        <source>Enable or disable the Admin API when multistore is enabled.</source>
+        <target state="final">Ativar ou desativar a Admin API quando o multiloja estiver ativado.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 9]</note>
       </trans-unit>
       <trans-unit id="a536359574c27ee963de828ff56241c7" approved="yes">
         <source>Enable or disable the migrated attribute page.</source>
@@ -244,6 +348,21 @@
         <target state="final">Erro</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/LogsPage/Blocks/severity_levels.html.twig [Line: 31]</note>
       </trans-unit>
+      <trans-unit id="e6eadec0336eb998ef6d6f4ef534fc41" approved="yes">
+        <source>Experimental API endpoints are disabled by default in prod environment, this configuration allows to forcefully enable them.</source>
+        <target state="final">Os endpoints experimentais da API ficam desativados por padrão no ambiente de produção; esta configuração permite ativá-los à força.</target>
+        <note>File: classes/lang/KeysReference/FeatureFlagLang.php [Line: 13]</note>
+      </trans-unit>
+      <trans-unit id="9801b5b0fd3f6e9dd65fe57fc5414b03" approved="yes">
+        <source>Expose this field in front-office presenters (Smarty templates).</source>
+        <target state="final">Expor este campo nos presenters da loja (templates Smarty).</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/ExtraPropertyDefinitionVisibilityType.php [Line: 31]</note>
+      </trans-unit>
+      <trans-unit id="1978b25a26b9b14b908d39cf95e627c1" approved="yes">
+        <source>Extra options merged into the Symfony form type constructor, as a JSON object. Example: {"attr": {"class": "my-class"}, "row_attr": {"data-toggle": "tooltip"}}</source>
+        <target state="final">Opções extras mescladas ao construtor do form type do Symfony, como um objeto JSON. Exemplo: {"attr": {"class": "my-class"}, "row_attr": {"data-toggle": "tooltip"}}</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/ExtraPropertyDefinitionAdvancedType.php [Line: 76]</note>
+      </trans-unit>
       <trans-unit id="b8dc7c80939667637db7ac31ece215b9" approved="yes">
         <source>Fabulous</source>
         <target state="final">Excelente</target>
@@ -268,6 +387,11 @@
         <target state="final">Nome de domínio completamente qualificado (manter vazio se você não sabe)</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Email/SmtpConfigurationType.php [Line: 30]</note>
       </trans-unit>
+      <trans-unit id="e74177cfd62cc619b5801c684550f633" approved="yes">
+        <source>Fully-qualified Symfony form type class name to override the default type mapping (e.g. Symfony\Component\Form\Extension\Core\Type\UrlType).</source>
+        <target state="final">Nome completo (fully-qualified) da classe do form type do Symfony para substituir o mapeamento de tipo padrão (ex.: Symfony\Component\Form\Extension\Core\Type\UrlType).</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/ExtraPropertyDefinitionAdvancedType.php [Line: 71]</note>
+      </trans-unit>
       <trans-unit id="0c6ad70beb3a7e76c3fc7adab7c46acc" approved="yes">
         <source>Good</source>
         <target state="final">bom</target>
@@ -287,6 +411,11 @@
         <source>IP address or server name (e.g. smtp.mydomain.com).</source>
         <target state="final">Endereço IP ou nome do servidor (ex: mail.seudomínio.com).</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Email/SmtpConfigurationType.php [Line: 38]</note>
+      </trans-unit>
+      <trans-unit id="6719fa135d15e3a9e1ec09409e5e09da" approved="yes">
+        <source>Identifier used as the column name (e.g. internal_code). Only letters, digits, and underscores.</source>
+        <target state="final">Identificador usado como nome da coluna (ex.: internal_code). Apenas letras, dígitos e underscores.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/ExtraPropertyDefinitionFieldDefinitionType.php [Line: 67]</note>
       </trans-unit>
       <trans-unit id="a1e749fdff79ab0d40843bacb8fe0de2" approved="yes">
         <source>If enabled, the backup script will drop your tables prior to restoring data. (ie. "DROP TABLE IF EXISTS")</source>
@@ -313,6 +442,16 @@
         <target state="final">Se o arquivo de backup exceder esse limite, contacte o seu provedor de hospedagem. </target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Backup/Blocks/backup_info.html.twig [Line: 20]</note>
       </trans-unit>
+      <trans-unit id="d2beb087630a099f2fada85e7f2f19fb" approved="yes">
+        <source>Ignore this field if you don't use the Multistore tool. If you leave this field empty, the default store will be used.</source>
+        <target state="final">Ignore este campo se você não usa a ferramenta Multi-loja. Se você deixar este campo em branco, a loja padrão será utilizada.</target>
+        <note>File: src/Core/Import/EntityField/Provider/SupplierFieldsProvider.php [Line: 47]</note>
+      </trans-unit>
+      <trans-unit id="78718fcedf6e109eefb8fc2da41946b3" approved="yes">
+        <source>Indicate the minimum log levels that will be saved in database.</source>
+        <target state="final">Indique os níveis mínimos de log que serão salvos no banco de dados.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Logs/DatabaseLogsType.php [Line: 32]</note>
+      </trans-unit>
       <trans-unit id="b80c52e7f679fba3c2837b42705fe779" approved="yes">
         <source>Informative only</source>
         <target state="final">Apena informativo</target>
@@ -338,6 +477,11 @@
         <target state="final">Problema grave (crash)</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/LogsPage/Blocks/severity_levels.html.twig [Line: 36]</note>
       </trans-unit>
+      <trans-unit id="a2e5956fbf71415db2731d4a42a312ad" approved="yes">
+        <source>Mark the field as required in the BO form and in the Admin API schema. This only drives the HTML/OpenAPI "required" flag — it never adds a server-side validation constraint by itself.</source>
+        <target state="final">Marca o campo como obrigatório no formulário da área administrativa e no schema da Admin API. Isso controla apenas o atributo "required" do HTML/OpenAPI — por si só, nunca adiciona uma restrição de validação no servidor.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/ExtraPropertyDefinitionVisibilityType.php [Line: 36]</note>
+      </trans-unit>
       <trans-unit id="1e4e1915fcb0b296ce2ffb029b27d730" approved="yes">
         <source>Name of the fourth domain of your shop, (e.g. myshop-media-server-3.com). If you do not have another domain, leave this field blank.</source>
         <target state="final">Nome do domínio quarto de sua loja, (por exemplo myshop-media-server-3.com). Se você não tem outro domínio, deixe este campo em branco</target>
@@ -353,10 +497,25 @@
         <target state="final">Nome do terceiro domínio da sua loja, (por exemplo myshop-media-server-2.com). Se você não tem outro domínio, deixe este campo em branco</target>
         <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/MediaServersType.php [Line: 32]</note>
       </trans-unit>
+      <trans-unit id="3ba4d8f6bfe74084fe07e4af68de0b41" approved="yes">
+        <source>No rules — any value is accepted.</source>
+        <target state="final">Sem regras — qualquer valor é aceito.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/FormTheme/definition_form_theme.html.twig [Line: 267]</note>
+      </trans-unit>
+      <trans-unit id="a41f275826ca47fb692cd336d4592706" approved="yes">
+        <source>Not exposed on the Admin API yet.</source>
+        <target state="final">Ainda não exposto na Admin API.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/FormTheme/definition_form_theme.html.twig [Line: 113]</note>
+      </trans-unit>
       <trans-unit id="2566fed9ede40ae26636b773594094cf" approved="yes">
         <source>Notifications are numbered bubbles displayed at the very top of your back office, right next to the shop's name. They display the number of new items since you last clicked on them.</source>
         <target state="final">Notificações são balões numerados apresentados no topo da sua Área de Administração, ao lado do nome da loja. Eles apresentam o número de novos itens desde a última vez que clicou neles.</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/administration.html.twig [Line: 66]</note>
+      </trans-unit>
+      <trans-unit id="63516ccf290d2c29026e49372588fc26" approved="yes">
+        <source>ObjectModel table name (e.g. product, customer, order).</source>
+        <target state="final">Nome da tabela do ObjectModel (ex.: product, customer, order).</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/ExtraPropertyDefinitionFieldDefinitionType.php [Line: 59]</note>
       </trans-unit>
       <trans-unit id="26b63f278101527e06a5547719568bb5" approved="yes">
         <source>Okay</source>
@@ -373,10 +532,25 @@
         <target state="final">Uma vez que esta opção é ativada, as lojas deste grupo irão compartilhar clientes. Se um cliente se cadastra em qualquer uma dessas lojas, a conta estará automaticamente disponível nas outras lojas deste grupo.</target>
         <note>File: controllers/admin/AdminShopGroupController.php [Line: 207]</note>
       </trans-unit>
+      <trans-unit id="7c9a4bcccbddf2c0e59d5fab8a3c36b9" approved="yes">
+        <source>One value per line. Only used for the "Choice list" field type.</source>
+        <target state="final">Um valor por linha. Usado apenas para o tipo de campo "Lista de opções".</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/ExtraPropertyDefinitionFieldDefinitionType.php [Line: 118]</note>
+      </trans-unit>
+      <trans-unit id="22536a0dd81fcab274a357e29a36d0d6" approved="yes">
+        <source>One value per line. Only used for the "Choice list" field type. Existing values cannot be removed, only new ones added.</source>
+        <target state="final">Um valor por linha. Usado apenas para o tipo de campo "Lista de opções". Os valores existentes não podem ser removidos, apenas novos podem ser adicionados.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/ExtraPropertyDefinitionFieldDefinitionType.php [Line: 117]</note>
+      </trans-unit>
       <trans-unit id="c9f7248e8f5712f5438def77389e1c46" approved="yes">
         <source>Only UTF-8 and ISO 8859-1 encodings are allowed</source>
         <target state="final">Apenas são permitidas as codificações UTF-8 e ISO-8859-1</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Blocks/import_panel.html.twig [Line: 71]</note>
+      </trans-unit>
+      <trans-unit id="6d490db61b8ecf0265c12a19a569cf70" approved="yes">
+        <source>Optional description to help identify the purpose of this API client.</source>
+        <target state="final">Descrição opcional para ajudar a identificar a finalidade deste cliente de API.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ApiClientType.php [Line: 79]</note>
       </trans-unit>
       <trans-unit id="d222c4d0463bd3f146536ac89c0d7c77" approved="yes">
         <source>Password should be at least %num% characters long.</source>
@@ -408,6 +582,11 @@
         <target state="final">Receber um e-mail quando a importação for completada. Isto pode ser útil quando se tratar de arquivos grandes, pois a importação pode levar algum tempo.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Import/ImportType.php [Line: 105]</note>
       </trans-unit>
+      <trans-unit id="93374083974efdc447b9dff0c649a670" approved="yes">
+        <source>SQL DEFAULT clause value. Leave empty for no default.</source>
+        <target state="final">Valor da cláusula SQL DEFAULT. Deixe vazio para não definir um padrão.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/ExtraPropertyDefinitionFieldDefinitionType.php [Line: 124]</note>
+      </trans-unit>
       <trans-unit id="04da1735a100af1089236ff39c5021ca" approved="yes">
         <source>Scores are integers from 0 to 4.</source>
         <target state="final">Pontuações são inteiros de 0 a 4.</target>
@@ -417,6 +596,11 @@
         <source>Select the stores the employee is allowed to access.</source>
         <target state="final">Selecione as lojas às quais este empregado terá acesso.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Employee/EmployeeType.php [Line: 203]</note>
+      </trans-unit>
+      <trans-unit id="3671c56ff8fdb767b599fa7f0942de2a" approved="yes">
+        <source>Serialized as All[…]</source>
+        <target state="final">Serializado como All[…]</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/FormTheme/definition_form_theme.html.twig [Line: 250]</note>
       </trans-unit>
       <trans-unit id="7bf215c957e661c3bd8ad7f6221675c9" approved="yes">
         <source>Set "Enable Shop" to "No" in the "Maintenance" page under the "Preferences" menu.</source>
@@ -453,6 +637,26 @@
         <target state="final">Alguns recursos podem ser desativados, a fim de melhorar o desempenho.</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/performance.html.twig [Line: 117]</note>
       </trans-unit>
+      <trans-unit id="405fb020d5b119508ae22b0c885fb0df" approved="yes">
+        <source>Symfony translation domain for the description wording.</source>
+        <target state="final">Domínio de tradução do Symfony para o texto da descrição.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/ExtraPropertyDefinitionLabelsType.php [Line: 46]</note>
+      </trans-unit>
+      <trans-unit id="11760cb45895447ee908431c7d706b9e" approved="yes">
+        <source>Symfony translation domain for the label wording (e.g. "Admin.Catalog.Feature").</source>
+        <target state="final">Domínio de tradução do Symfony para o texto do rótulo (ex.: "Admin.Catalog.Feature").</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/ExtraPropertyDefinitionLabelsType.php [Line: 36]</note>
+      </trans-unit>
+      <trans-unit id="0b89d9e2b2fcb4f0c78ba70999eb2e94" approved="yes">
+        <source>The URL must start with "index.php" (e.g. index.php?controller=AdminProducts).</source>
+        <target state="final">A URL deve começar com "index.php" (ex.: index.php?controller=AdminProducts).</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/QuickAccess/QuickAccessType.php [Line: 47]</note>
+      </trans-unit>
+      <trans-unit id="632302a9aad39525dd7c924a2cd01053" approved="yes">
+        <source>The duration for which an access token remains valid.</source>
+        <target state="final">O tempo durante o qual um token de acesso permanece válido.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ApiClientType.php [Line: 101]</note>
+      </trans-unit>
       <trans-unit id="7256aed5ef7ebd86c3b3d98480d9cc60" approved="yes">
         <source>The private key starts with -----BEGIN RSA PRIVATE KEY-----.</source>
         <target state="final">A chave privada começa com -----BEGIN RSA PRIVATE KEY-----.</target>
@@ -463,10 +667,30 @@
         <target state="final">A loja selecionada já têm uma URL principal associada. Assim, caso defina esta nova como URL principal, a antiga será definida como uma URL normal.</target>
         <note>File: controllers/admin/AdminShopUrlController.php [Line: 188]</note>
       </trans-unit>
+      <trans-unit id="4c63a96067c3efe7d753b811696f7bac" approved="yes">
+        <source>The unique identifier for this client, used for API authentication. Only lowercase letters, numbers and hyphens are allowed.</source>
+        <target state="final">O identificador único deste cliente, usado na autenticação da API. São permitidos apenas letras minúsculas, números e hifens.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/AdminAPI/ApiClientType.php [Line: 57]</note>
+      </trans-unit>
+      <trans-unit id="dde647098e1fb2236dc49df662679a7f" approved="yes">
+        <source>This FeatureFlag is forced by Env.</source>
+        <target state="final">Esta FeatureFlag é forçada por Env.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/FeatureFlag/FormTheme/feature_flag_form.html.twig [Line: 31]</note>
+      </trans-unit>
       <trans-unit id="767bd2cbfe41f0aa3f3e4ff306a75b89" approved="yes">
         <source>This feature allows you to identify modules that might be causing bugs on your store. Disable all non-built-in modules (not listed in composer.json). Then, re-enable each module one by one and check that everything works properly before moving on to the next one.</source>
         <target state="final">Esta funcionalidade permite que você identifique módulos que podem estar causando bugs em sua loja. Desative todos os módulos não-nativos (não listados no composer.json). Depois, reative cada módulo um por um e verifique se tudo funciona corretamente antes de ir para o próximo.</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/performance.html.twig [Line: 73]</note>
+      </trans-unit>
+      <trans-unit id="e24cfb028e792dcb7072b340106e7b86" approved="yes">
+        <source>This field doesn't appear in any back-office form yet.</source>
+        <target state="final">Este campo ainda não aparece em nenhum formulário da área administrativa.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/FormTheme/definition_form_theme.html.twig [Line: 90]</note>
+      </trans-unit>
+      <trans-unit id="4ad6dbf7bfa141bb4acd0c80563ab577" approved="yes">
+        <source>This field doesn't appear in any back-office grid yet.</source>
+        <target state="final">Este campo ainda não aparece em nenhuma listagem da área administrativa.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/FormTheme/definition_form_theme.html.twig [Line: 102]</note>
       </trans-unit>
       <trans-unit id="7e7b350e5cee624789b1e263ec59db26" approved="yes">
         <source>This is the physical folder for your store on the web server. Leave this field empty if your store is installed on the root path. For instance, if your store is available at www.example.com/my-store/, you must input my-store/ in this field.</source>
@@ -483,6 +707,16 @@
         <target state="final">Isto irá adicionar diretivas para o arquivo .htaccess que deve melhorar a cache e compressão.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/CombineCompressCacheType.php [Line: 32]</note>
       </trans-unit>
+      <trans-unit id="19255a75ba7ff68fd04da7f41d7601ce" approved="yes">
+        <source>Translation wording shown as help text below the BO form field.</source>
+        <target state="final">Texto de tradução exibido como ajuda abaixo do campo no formulário da área administrativa.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/ExtraPropertyDefinitionLabelsType.php [Line: 41]</note>
+      </trans-unit>
+      <trans-unit id="b15d3d3b1286c0558048cfc81a2f6dde" approved="yes">
+        <source>Translation wording shown as label in BO forms and grids (e.g. "Internal code").</source>
+        <target state="final">Texto de tradução exibido como rótulo nos formulários e listagens da área administrativa (ex.: "Internal code").</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/ExtraPropertyDefinitionLabelsType.php [Line: 31]</note>
+      </trans-unit>
       <trans-unit id="f6e7829277b67d5a8805d6728a810362" approved="yes">
         <source>URL rewriting must be activated on your server to use this feature.</source>
         <target state="final">Reescrita de URL deve ser ativado em seu servidor para usar este recurso.</target>
@@ -497,6 +731,16 @@
         <source>Use this option to associate data (products, modules, etc.) the same way for each selected shop.</source>
         <target state="final">Use esta opção para associar dados (produtos, módulos, etc) da mesma forma para a loja selecionada</target>
         <note>File: controllers/admin/AdminShopController.php [Line: 638]</note>
+      </trans-unit>
+      <trans-unit id="5d35a5091a1ea7c3463a9d36938921fa" approved="yes">
+        <source>VARCHAR size for string type only (defaults to 255). Can only be increased once set.</source>
+        <target state="final">Tamanho do VARCHAR, apenas para o tipo string (padrão 255). Depois de definido, só pode ser aumentado.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/ExtraPropertyDefinitionFieldDefinitionType.php [Line: 102]</note>
+      </trans-unit>
+      <trans-unit id="6157d830a73f46b873bfd8f80622bc2d" approved="yes">
+        <source>VARCHAR size for string type only (defaults to 255). Ignored for other types.</source>
+        <target state="final">Tamanho do VARCHAR, apenas para o tipo string (padrão 255). Ignorado para os demais tipos.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/ExtraPropertyDefinitionFieldDefinitionType.php [Line: 103]</note>
       </trans-unit>
       <trans-unit id="0eaadb4fcb48a0a0ed7bc9868be9fbaa" approved="yes">
         <source>Warning</source>
@@ -533,6 +777,21 @@
         <target state="final">Onde clientes enviam mensagens da página de compras.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Email/EmailConfigurationType.php [Line: 58]</note>
       </trans-unit>
+      <trans-unit id="482587f62d9271292565e699a38d1fdc" approved="yes">
+        <source>Where this field appears in the back office and Admin API.</source>
+        <target state="final">Onde este campo aparece na área administrativa e na Admin API.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/ExtraPropertyDefinitionAdvancedType.php [Line: 166]</note>
+      </trans-unit>
+      <trans-unit id="8c9efd21dc4745179cd578c8288f0766" approved="yes">
+        <source>Whether the storage column allows NULL values.</source>
+        <target state="final">Se a coluna de armazenamento aceita valores NULL.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/ExtraPropertyDefinitionFieldDefinitionType.php [Line: 111]</note>
+      </trans-unit>
+      <trans-unit id="09b11e8e027ae8a936c05c1920ff3cd5" approved="yes">
+        <source>Whether the storage column allows NULL values. Can only be relaxed (not tightened) once set.</source>
+        <target state="final">Se a coluna de armazenamento aceita valores NULL. Depois de definido, só pode ser flexibilizado, nunca restringido.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/ExtraPropertyDefinitionFieldDefinitionType.php [Line: 110]</note>
+      </trans-unit>
       <trans-unit id="09fac4ee316f450e3defd79540c2d9fe" approved="yes">
         <source>You can also export the query results as a CSV file by clicking on the "%export_label%" button</source>
         <target state="final">Você também pode exportar os resultados da consulta SQL como um arquivo CSV, usando o botão "%export_label%"</target>
@@ -563,6 +822,11 @@
         <target state="final">Você não pode desativar este recurso quando existem combinações ativas em um ou mais produtos.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/AdvancedParameters/Performance/OptionalFeaturesType.php [Line: 48]</note>
       </trans-unit>
+      <trans-unit id="8db282bbacb665026960e0792359ed0a" approved="yes">
+        <source>common: one value per entity. lang: one value per entity × language. shop: one value per entity × shop.</source>
+        <target state="final">common: um valor por entidade. lang: um valor por entidade × idioma. shop: um valor por entidade × loja.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/ExtraPropertyDefinitionFieldDefinitionType.php [Line: 87]</note>
+      </trans-unit>
       <trans-unit id="45af6698125d6f9be9517cd8879d0285" approved="yes">
         <source>e.g. 1; Blouse; 129.90; 5</source>
         <target state="final">ex.: 1; Blusa; 129.90; 5</target>
@@ -573,10 +837,20 @@
         <target state="final">ex.: Blusa, vermelho.jpg, azul.jpg, verde.jpg, 129.90</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/AdvancedParameters/Import/ImportType.php [Line: 68]</note>
       </trans-unit>
+      <trans-unit id="69b2fa39bac2b03f7b5c8e63bf5c6e99" approved="yes">
+        <source>https://docs.prestashop-project.org/v.8-documentation/user-guide/configuring-shop/advanced-parameters/import</source>
+        <target state="final">https://docs.prestashop-project.org/v.8-documentation/user-guide/configuring-shop/advanced-parameters/import</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Blocks/import_panel.html.twig [Line: 21]</note>
+      </trans-unit>
       <trans-unit id="9d23c31f2dcc1ace9296037f327563a4" approved="yes">
         <source>https://en.wikipedia.org/wiki/Comma-separated_values</source>
         <target state="final">https://pt.wikipedia.org/wiki/Comma-separated_values</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/Blocks/import_panel.html.twig [Line: 27]</note>
+      </trans-unit>
+      <trans-unit id="8f721ea172bf088a113e7ba6a62f381d" approved="yes">
+        <source>no options</source>
+        <target state="final">sem opções</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Configure/AdvancedParameters/ExtraPropertyDefinition/FormTheme/definition_form_theme.html.twig [Line: 347]</note>
       </trans-unit>
       <trans-unit id="e81c4e4f2b7b93b481e13a8553c2ae1b" approved="yes">
         <source>or</source>
