@@ -30,7 +30,7 @@ jobs:
         steps:
             # Initial checkout of the full repository to get the latest tag and change branch depending on the environment
             - name: Checkout TranslationTools app
-              uses: actions/checkout@v5
+              uses: actions/checkout@v6
               with:
                 repository: PrestaShopCorp/TranslationTool
                 fetch-depth: 0
@@ -74,7 +74,7 @@ jobs:
 
             # Checkout repository TranslationFiles in var dir so that the command can use it with the appropriate branch
             - name: Checkout TranslationFiles in var dir
-              uses: actions/checkout@v5
+              uses: actions/checkout@v6
               with:
                   path: var/TranslationFiles
                   ref: ${{ steps.job-settings.outputs.TRANSLATION_FILES_BRANCH }}
