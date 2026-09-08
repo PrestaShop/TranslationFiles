@@ -17,6 +17,16 @@
         <target state="final">Direktori %folder% tidak dapat ditulisi (cek hak akses)</target>
         <note>File: src/PrestaShopBundle/Install/Install.php [Line: 165]</note>
       </trans-unit>
+      <trans-unit id="e1a83d307c77f54bc40ff911943669f1" approved="yes">
+        <source><![CDATA[<b>Warning: You cannot use this tool to upgrade your store anymore.</b><br /><br />You already have <b>PrestaShop version %version% installed</b>.<br /><br />If you want to upgrade to the latest version, please use the 1-Click Upgrade module and follow its instructions.]]></source>
+        <target state="final"><![CDATA[<b>Perhatian: Anda tidak dapat menggunakan modul ini lagi untuk memperbaharui toko Anda.</b><br /><br />Prestashop yang Anda gunakan <b>versi %version%</b>.<br /><br />Untuk memperbaharui toko Anda ke versi terbaru, gunakan modul 1-Click Upgrade dan ikuti petunjuknya.]]></target>
+        <note>File: install-dev/theme/views/welcome.php [Line: 12]</note>
+      </trans-unit>
+      <trans-unit id="b806a1ab08328688f0ffd7ddae7ca0b9" approved="yes">
+        <source>A warning was triggered during installation</source>
+        <target state="final">Ditemukan beberapa catatan selama instalasi</target>
+        <note>File: install-dev/theme/views/process.php [Line: 40]</note>
+      </trans-unit>
       <trans-unit id="5b56439cb79f3a01ae56d92e52be2218" approved="yes">
         <source><![CDATA[An SQL error occurred for entity <i>%entity%</i>: <i>%message%</i>]]></source>
         <target state="final"><![CDATA[Terdapat kesalahan SQL untuk objek <i>%entity%</i>: <i>%message%</i>]]></target>
@@ -167,6 +177,11 @@
         <target state="final">Koneksi ke server MySQL berhasil, tapi database "%database%" tidak ditemukan</target>
         <note>File: src/PrestaShopBundle/Install/Database.php [Line: 92]</note>
       </trans-unit>
+      <trans-unit id="0e8ea4263454e813a58e0f1bbad5958f" approved="yes">
+        <source>Content of your store</source>
+        <target state="final">Konten toko Anda</target>
+        <note>File: install-dev/theme/views/content.php [Line: 9]</note>
+      </trans-unit>
       <trans-unit id="edbaa44341f3064baa5a5676aabc91e5" approved="yes">
         <source>Continue the installation in:</source>
         <target state="final">Lanjutkan instalasi di:</target>
@@ -267,6 +282,11 @@
         <target state="final">Selesai !</target>
         <note>File: install-dev/theme/views/process.php [Line: 10]</note>
       </trans-unit>
+      <trans-unit id="615081c1bdd1f281451f7fcebe9332ac" approved="yes">
+        <source>Drop existing tables</source>
+        <target state="final">Hapus tabel</target>
+        <note>File: install-dev/theme/views/database.php [Line: 39]</note>
+      </trans-unit>
       <trans-unit id="1e884e3078d9978e216a027ecd57fb34" approved="yes">
         <source>E-mail</source>
         <target state="final">Email</target>
@@ -316,6 +336,11 @@
         <source>Files</source>
         <target state="final">File</target>
         <note>File: install-dev/controllers/http/system.php [Line: 95]</note>
+      </trans-unit>
+      <trans-unit id="54f1d2c740c2bc4f7866c1cdb42ae9c9" approved="yes">
+        <source>Finalization</source>
+        <target state="final">Finalisasi</target>
+        <note>File: install-dev/controllers/http/process.php [Line: 341]</note>
       </trans-unit>
       <trans-unit id="20db0bfeecd8fe60533206a2b5e9891a" approved="yes">
         <source>First name</source>
@@ -402,6 +427,11 @@
         <target state="final">Instalasi tema</target>
         <note>File: install-dev/theme/views/content.php [Line: 16]</note>
       </trans-unit>
+      <trans-unit id="f7df4c84260e89f8aa1644b31a795282" approved="yes">
+        <source>Installing PrestaShop is quick and easy. In just a few moments, you will become part of a community consisting of more than %numMerchants% merchants. You are on the way to creating your own unique online store that you can manage easily every day.</source>
+        <target state="final">Instalasi Prestashop cepat dan mudah. Dalam waktu singkat, Anda akan menjadi bagian dari komunitas kami yang terdiri dari lebih %numMerchants% pengguna. Anda akan segera memiliki toko online yang dapat dikelola dengan mudah.</target>
+        <note>File: install-dev/theme/views/welcome.php [Line: 23]</note>
+      </trans-unit>
       <trans-unit id="e1aa192240d00d1f6ea2ad7a030f9642" approved="yes">
         <source>Intl extension is not loaded</source>
         <target state="final">Ekstensi Intl tidak aktif</target>
@@ -472,15 +502,30 @@
         <target state="final">Tidak semua file berhasil diunggah ke server Anda</target>
         <note>File: install-dev/controllers/http/system.php [Line: 98]</note>
       </trans-unit>
+      <trans-unit id="a023e6b72fd99acbf5329340a09ea1f9" approved="yes">
+        <source>Oops! Please correct the item(s) below, and then click "%refresh_label%" to test the compatibility of your new system.</source>
+        <target state="final">Harap perbaiki item-item dibawah ini terlebih dahulu, lalu klik tombol "%refresh_label%" untuk tes ulang kompabilitas sistem Anda.</target>
+        <note>File: install-dev/theme/views/system.php [Line: 16]</note>
+      </trans-unit>
       <trans-unit id="0e359a480284508d7d9c7a90a9c94b57" approved="yes">
         <source>PDO MySQL extension is not loaded</source>
         <target state="final">Extensi PDO MySQL tidak aktif</target>
         <note>File: install-dev/controllers/http/system.php [Line: 79]</note>
       </trans-unit>
+      <trans-unit id="b980f0f59e930d473eefd5968dd06e7e" approved="yes">
+        <source>PHP %version% or later is not enabled</source>
+        <target state="final">PHP %version% atau terbaru tidak ditemukan</target>
+        <note>File: install-dev/controllers/http/system.php [Line: 71]</note>
+      </trans-unit>
       <trans-unit id="8e36201b3398a5af1e571037b16cb7cc" approved="yes">
         <source>PHP OpenSSL extension is not loaded</source>
         <target state="final">Extensi OpenSSL PHP tidak aktif</target>
         <note>File: install-dev/controllers/http/system.php [Line: 77]</note>
+      </trans-unit>
+      <trans-unit id="c6805f594c7b2b56eccf7d5d6cd377da" approved="yes">
+        <source>PHP's config "memory_limit" must be to a minimum of 256M</source>
+        <target state="final">Konfigurasi PHP "memory_limit" yang diperlukan minimum 256M</target>
+        <note>File: install-dev/controllers/http/system.php [Line: 84]</note>
       </trans-unit>
       <trans-unit id="dc647eb65e6711e155375218212b3964" approved="yes">
         <source>Password</source>
@@ -537,6 +582,11 @@
         <target state="final">Cetak informasi login saya</target>
         <note>File: install-dev/theme/views/process.php [Line: 65]</note>
       </trans-unit>
+      <trans-unit id="dadc147971798a0e004bbb75fb3a550c" approved="yes">
+        <source>Privacy note</source>
+        <target state="final">Perihal Privasi</target>
+        <note>File: install-dev/theme/views/license.php [Line: 24]</note>
+      </trans-unit>
       <trans-unit id="540155f9adc935c8f3a9d8a77beb8860" approved="yes">
         <source>Re-type to confirm</source>
         <target state="final">Tulis ulang password untuk konfirmasi&amp;nbsp;</target>
@@ -551,6 +601,11 @@
         <source>Recursive write permissions for %user% user on %folder%</source>
         <target state="final">Hak tulis rekursif untuk %user% pada %folder%</target>
         <note>File: install-dev/controllers/http/system.php [Line: 116]</note>
+      </trans-unit>
+      <trans-unit id="3388c1aa7b0c78c5751c56bd8984e095" approved="yes">
+        <source>Refresh information</source>
+        <target state="final">Update informasi</target>
+        <note>File: install-dev/theme/views/system.php [Line: 40]</note>
       </trans-unit>
       <trans-unit id="9985ec427b90450fffe50ef87916f316" approved="yes">
         <source>Required Apache configuration</source>
@@ -582,6 +637,11 @@
         <target state="final">Pilih modul yang akan digunakan</target>
         <note>File: install-dev/theme/views/content.php [Line: 70]</note>
       </trans-unit>
+      <trans-unit id="2b6dffeb7fe74b952dccebb3784a947e" approved="yes">
+        <source>Select the theme to install</source>
+        <target state="final">Pilih tema yang akan digunakan</target>
+        <note>File: install-dev/theme/views/content.php [Line: 17]</note>
+      </trans-unit>
       <trans-unit id="a7bb58222222b064f0721e6e0fe4c486" approved="yes">
         <source>Select your country</source>
         <target state="final">Pilih negara Anda</target>
@@ -611,6 +671,11 @@
         <source>SimpleXML extension is not loaded</source>
         <target state="final">Ekstensi SimpleXML tidak dimuatkan</target>
         <note>File: install-dev/controllers/http/system.php [Line: 80]</note>
+      </trans-unit>
+      <trans-unit id="c1ed7fcca4fa79d958f8d7c1e6621a61" approved="yes">
+        <source>Some project modules may submit public and technical information about your store to the PrestaShop Project for analytics purposes. To learn more and make an informed choice, read %link%.</source>
+        <target state="final">Beberapa modul akan mengirim informasi publik dan teknis tentang toko Anda ke PrestaShop untuk keperluan analisis. Untuk mempelajari hal ini lebih lanjut dan menentukan pilihan, temukan di %link%.</target>
+        <note>File: install-dev/theme/views/license.php [Line: 27]</note>
       </trans-unit>
       <trans-unit id="3aea774cdcd8f2c45549f10758a71323" approved="yes">
         <source>Store information</source>
@@ -651,6 +716,11 @@
         <source>Test your database connection now!</source>
         <target state="final">Tes koneksi ke database sekarang!</target>
         <note>File: install-dev/theme/views/database.php [Line: 43]</note>
+      </trans-unit>
+      <trans-unit id="c331bfefd5fde2616161931bcc9e0c3c" approved="yes">
+        <source>The admin folder could not be renamed into %folderName%</source>
+        <target state="final">Nama folder admin tidak dapat diganti menjadi %folderName%</target>
+        <note>File: src/PrestaShopBundle/Install/Install.php [Line: 1222]</note>
       </trans-unit>
       <trans-unit id="bc4b85255c14de3bf09748a093c63529" approved="yes">
         <source>The default port is 3306. To use a different port, add the port number at the end of your server's address i.e ":4242".</source>
@@ -707,6 +777,16 @@
         <target state="final">Untuk proses instalasi Prestashop, Javascript di browser Anda harus aktif.</target>
         <note>File: install-dev/theme/views/layout.php [Line: 73]</note>
       </trans-unit>
+      <trans-unit id="2c1443814274bb61e95631e43a85d642" approved="yes">
+        <source><![CDATA[To use PrestaShop, you must <a href="https://devdocs.prestashop-project.org/9/basics/installation/#creating-a-database-for-your-shop" target="_blank">create a database</a> to collect all of your store's data-related activities.]]></source>
+        <target state="final"><![CDATA[Untuk menggunakan PrestaShop, Anda harus <a href="https://devdocs.prestashop-project.org/9/basics/installation/#creating-a-database-for-your-shop" target="_blank">membuat database</a> untuk menyimpan data terkait aktifitas di toko Anda.]]></target>
+        <note>File: install-dev/theme/views/database.php [Line: 12]</note>
+      </trans-unit>
+      <trans-unit id="8406b91fd5a290de3a1e1516db6e79b8" approved="yes">
+        <source>Unable to generate private keys using openssl_pkey_new. Check your OpenSSL configuration, especially the path to openssl.cafile.</source>
+        <target state="final">Gagal membuat private keys menggunakan openssl_pkey_new. Harap cek konfigurasi OpenSSL, khususnya path ke file openssl.ca.</target>
+        <note>File: install-dev/controllers/http/system.php [Line: 78]</note>
+      </trans-unit>
       <trans-unit id="9d290d3434589e33be3d2cad4f8323ec" approved="yes">
         <source>Version:</source>
         <target state="final">Versi:</target>
@@ -746,6 +826,11 @@
         <source>You have just finished installing your shop. Thank you for using PrestaShop!</source>
         <target state="final">Proses instalasi berhasil dan selesai. Terima kasih telah menggunakan PrestaShop !</target>
         <note>File: install-dev/theme/views/process.php [Line: 46]</note>
+      </trans-unit>
+      <trans-unit id="ffb062d75b155dab7c60d7ea84385abc" approved="yes">
+        <source>You must be granted the privilege to select data in the tables of database "%s". Ask your hosting provider to enable it.</source>
+        <target state="final">Anda harus memiliki akses untuk membuka data di database "%s". Minta ke tempat hosting Anda untuk menambahkan akses tersebut.</target>
+        <note>File: src/PrestaShopBundle/Install/Database.php [Line: 78]</note>
       </trans-unit>
       <trans-unit id="eb6e8b3fa25d57b419896d6f8b3609da" approved="yes">
         <source>You must enter a database login</source>
@@ -811,6 +896,11 @@
         <source>shop name</source>
         <target state="final">nama toko</target>
         <note>File: install-dev/controllers/http/configure.php [Line: 82]</note>
+      </trans-unit>
+      <trans-unit id="8acadeccb90bf205135348e4902b9c20" approved="yes">
+        <source>this article</source>
+        <target state="final">artikel ini</target>
+        <note>File: install-dev/theme/views/license.php [Line: 30]</note>
       </trans-unit>
     </body>
   </file>
