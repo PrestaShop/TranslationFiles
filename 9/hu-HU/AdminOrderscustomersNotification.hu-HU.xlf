@@ -2,10 +2,20 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="Admin.Orderscustomers.Notification.xlf" source-language="en" target-language="hu" datatype="plaintext">
     <body>
+      <trans-unit id="c7482ebf23122c67ab318991104558e3" approved="yes">
+        <source>%class% requires at least one shipment ID.</source>
+        <target state="final">%class% legalább egy szállításazonosítót igényel.</target>
+        <note>File: src/Adapter/PDF/ShipmentDeliverySlipPdfGenerator.php [Line: 52]</note>
+      </trans-unit>
       <trans-unit id="c0498039cc042a1109b53933dc33b2e7" approved="yes">
         <source>A default customer group must be selected in group box.</source>
         <target state="final">Alapértelmezett vásárlói csoportot jelölje ki.</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Customer/CustomerController.php [Line: 944]</note>
+      </trans-unit>
+      <trans-unit id="50d268f2b383ed10c280a1ac7f090fc0" approved="yes">
+        <source>A merchandise return must contain at least one product.</source>
+        <target state="final">Az áruvisszaküldésnek legalább egy terméket kell tartalmaznia.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/OrderReturnController.php [Line: 257]</note>
       </trans-unit>
       <trans-unit id="1923e1e610686f1182bf54f573b86921" approved="yes">
         <source>A partial refund was successfully created.</source>
@@ -27,6 +37,11 @@
         <target state="final">A fiók már létezik erre az e-mail címre:</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Configure/AdvancedParameters/EmployeeController.php [Line: 448]</note>
       </trans-unit>
+      <trans-unit id="a4123555a2d41b94560ea6eb8259bf40" approved="yes">
+        <source>An error occured while fulfilling shipment</source>
+        <target state="final">Hiba történt a szállítmány teljesítése során.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 875]</note>
+      </trans-unit>
       <trans-unit id="18893a82469e2cd9492fc8d46fa8ac01" approved="yes">
         <source>An error occurred while changing the status for order #%d, or we were unable to send an email to the customer.</source>
         <target state="final">#%d megrendelés állapotának megváltoztatása során hiba történt, vagy nem tudtunk e-mailt küldeni az ügyfélnek.</target>
@@ -46,6 +61,16 @@
         <source>An error occurred while sending the e-mail to the customer.</source>
         <target state="final">Hiba történt a vevőnek címzett email küldése során.</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2309]</note>
+      </trans-unit>
+      <trans-unit id="4c264429703fa66786e0345deebeedf4" approved="yes">
+        <source>An error occurred while trying to delete the merchandise return.</source>
+        <target state="final">Hiba történt az áruvisszaküldés törlésekor.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/OrderReturnController.php [Line: 272]</note>
+      </trans-unit>
+      <trans-unit id="f1258643e8370b8fa5fa530927613c94" approved="yes">
+        <source>An error occurred while trying to remove a product from the merchandise return.</source>
+        <target state="final">Hiba történt egy termék eltávolításakor az áruvisszaküldésből.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/OrderReturnController.php [Line: 262]</note>
       </trans-unit>
       <trans-unit id="dc30c095a6e57c3146babe8f9088984f" approved="yes">
         <source>An error occurred while trying to update merchandise return.</source>
@@ -86,6 +111,16 @@
         <source>Cannot create message in a new thread.</source>
         <target state="final">Nem hozható létre üzenet egy új szálban.</target>
         <note>File: controllers/admin/AdminCustomerThreadsController.php [Line: 1094]</note>
+      </trans-unit>
+      <trans-unit id="9c118b2bea17d0237608a634507f9caf" approved="yes">
+        <source>Choose the products you wish to combine into another shipment. These products will be moved from their current shipment to the selected destination shipment.</source>
+        <target state="final">Válaszd ki azokat a termékeket, amelyeket egy másik szállítmányba szeretnél összevonni. Ezek a termékek átkerülnek a jelenlegi szállítmányukból a kiválasztott célszállítmányba.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/merge_shipment_form.html.twig [Line: 24]</note>
+      </trans-unit>
+      <trans-unit id="68d199965a726b3f85b8e42e4f5a6343" approved="yes">
+        <source>Choose the products you wish to separate into new, distinct shipments. These products will be moved from their original shipment.</source>
+        <target state="final">Válaszd ki azokat a termékeket, amelyeket különálló új szállítmányokba szeretnél szétosztani. Ezek a termékek kikerülnek az eredeti szállítmányukból.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/split_shipment_form.html.twig [Line: 21]</note>
       </trans-unit>
       <trans-unit id="14542f5997c4a02d4276da364657f501" approved="yes">
         <source>Direct link</source>
@@ -186,6 +221,11 @@
         <source>No cart was found with this ID:</source>
         <target state="final">Nem található a kosár ID:</target>
         <note>File: controllers/admin/AdminSearchController.php [Line: 183]</note>
+      </trans-unit>
+      <trans-unit id="74a72e017429d21a61cf0c0e98b20469" approved="yes">
+        <source>No change is persisted until you click Save.</source>
+        <target state="final">A módosítások csak a Mentés gombra kattintva kerülnek mentésre.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/CustomerService/OrderReturn/Blocks/form.html.twig [Line: 114]</note>
       </trans-unit>
       <trans-unit id="afdbd71037839ec5a581febacab7bad7" approved="yes">
         <source>No customers found</source>
@@ -327,10 +367,30 @@
         <target state="final">Termékek keresése</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/Create/cart.html.twig [Line: 30]</note>
       </trans-unit>
+      <trans-unit id="63bc73a8d5d3a542e2df2ca701864dda" approved="yes">
+        <source>Select an existing shipment to add the chosen products. Only shipments without a tracking number and not yet shipped are available.</source>
+        <target state="final">Válassz ki egy meglévő szállítmányt a kiválasztott termékek hozzáadásához. Csak azok a szállítmányok érhetők el, amelyekhez még nincs nyomkövetési szám rendelve, és amelyeket még nem adtak fel.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/merge_shipment_form.html.twig [Line: 85]</note>
+      </trans-unit>
+      <trans-unit id="e5bd2646e708767c77375896ead2d26e" approved="yes">
+        <source>Select the carrier that will be responsible for shipping the newly created shipment(s) containing the selected products.</source>
+        <target state="final">Válaszd ki azt a fuvarozót, amely a kiválasztott termékeket tartalmazó új szállítmány(ok) feladásáért felel.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/split_shipment_form.html.twig [Line: 88]</note>
+      </trans-unit>
       <trans-unit id="0e6becfb4c6566c35a8fda2d94891c70" approved="yes">
         <source>Shipping discount value cannot exceed the total price of this order.</source>
         <target state="final">A szállítási engedmény értéke nem haladhatja meg a rendelés teljes összegét.</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2350]</note>
+      </trans-unit>
+      <trans-unit id="d9770c44bc420a10b0e3d0958b48ce52" approved="yes">
+        <source>Some merchandise returns could not be deleted.</source>
+        <target state="final">Néhány áruvisszaküldést nem sikerült törölni.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/OrderReturnController.php [Line: 277]</note>
+      </trans-unit>
+      <trans-unit id="db8e51088cbaa601710b424a5023f3fb" approved="yes">
+        <source>Some products could not be removed from the merchandise return.</source>
+        <target state="final">Néhány terméket nem sikerült eltávolítani az áruvisszaküldésből.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/OrderReturnController.php [Line: 267]</note>
       </trans-unit>
       <trans-unit id="4174f012bc63b679f092acd1a933bf5c" approved="yes">
         <source>The email was sent to your customer.</source>
@@ -392,10 +452,25 @@
         <target state="final">A termék sikeresen vissza érkezett.</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 1073]</note>
       </trans-unit>
+      <trans-unit id="50a716ef8c87fa70bec79e76b915f944" approved="yes">
+        <source>The return PDF is only available when the return is waiting for the package.</source>
+        <target state="final">A visszaküldési PDF csak akkor érhető el, ha a visszaküldés csomagra vár.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/OrderReturnController.php [Line: 162]</note>
+      </trans-unit>
       <trans-unit id="6ab061ec12504fab2c41f0689579d623" approved="yes">
         <source>The selected payment method is invalid.</source>
         <target state="final">Hibás fizetési mód</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2472]</note>
+      </trans-unit>
+      <trans-unit id="1916f412aea69e61b4476b49832128e5" approved="yes">
+        <source>The shipment was successfully fulfilled.</source>
+        <target state="final">A szállítmány feldolgozása sikeresen megtörtént.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 887]</note>
+      </trans-unit>
+      <trans-unit id="79a466105be38ea072ddd923730383c6" approved="yes">
+        <source>The shipment with ID %id% cannot be found within your database.</source>
+        <target state="final">A(z) %id% azonosítójú szállítmány nem található az adatbázisban.</target>
+        <note>File: src/Adapter/PDF/ShipmentDeliverySlipPdfGenerator.php [Line: 72]</note>
       </trans-unit>
       <trans-unit id="6513e5e8645f98d950d6174b30c151b8" approved="yes">
         <source>There are two ways of deleting a customer. Please choose your preferred method.</source>
@@ -422,10 +497,30 @@
         <target state="final">Ez az e-mail cím nem regisztrált</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Customer/CustomerController.php [Line: 949]</note>
       </trans-unit>
+      <trans-unit id="51c467b71c2b622f2bbcf3496b57ff2f" approved="yes">
+        <source>This order already has a free shipping discount.</source>
+        <target state="final">Ehhez a rendeléshez már tartozik ingyenes szállítási kedvezmény.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2355]</note>
+      </trans-unit>
       <trans-unit id="282426403b9a14678d5dd35e024ec84c" approved="yes">
         <source>This product is out of stock:</source>
         <target state="final">Az a termék nincs raktáron:</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 1101]</note>
+      </trans-unit>
+      <trans-unit id="341d3a855a06bc0c407826405504635e" approved="yes">
+        <source>This product will be removed from the merchandise return when you save the page.</source>
+        <target state="final">Az oldal mentésekor ez a termék eltávolításra kerül az áruvisszaküldésből.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/CustomerService/OrderReturn/Blocks/form.html.twig [Line: 113]</note>
+      </trans-unit>
+      <trans-unit id="d89d6327e7e7f00b1aee73c12ee5c0a8" approved="yes">
+        <source>This shipment can't be merged because a tracking number has already been assigned, indicating that it has already been shipped.</source>
+        <target state="final">A szállítmány nem vonható össze, mert már kapott nyomkövetési számot, ami azt jelzi, hogy már feladták.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/merge_shipment_form.html.twig [Line: 33]</note>
+      </trans-unit>
+      <trans-unit id="7c0e6fb2f9d772993e8e4dac43adaf69" approved="yes">
+        <source>This shipment can't be modified because a tracking number has already been assigned, indicating that it has already been shipped.</source>
+        <target state="final">A szállítmány nem módosítható, mert már kapott nyomkövetési számot, ami azt jelzi, hogy már feladták.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/split_shipment_form.html.twig [Line: 35]</note>
       </trans-unit>
       <trans-unit id="4d734cc32a5cac86597621969696baa8" approved="yes">
         <source>This value must include taxes.</source>
@@ -466,6 +561,21 @@
         <source>You cannot edit the cart once the order delivered.</source>
         <target state="final">A rendelés kézbesítése után már nem szerkesztheted a kosarat.</target>
         <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 2298]</note>
+      </trans-unit>
+      <trans-unit id="3c55c4e4f0f6d7be29df9ded3d51459d" approved="yes">
+        <source>You cannot merge shipment when is already shipped.</source>
+        <target state="final">A már feladott szállítmányt nem lehet összevonni.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 805]</note>
+      </trans-unit>
+      <trans-unit id="e30e7be7409ca04e3ea3df998b46c65e" approved="yes">
+        <source>You cannot split shipment when is already shipped.</source>
+        <target state="final">A már feladott szállítmányt nem lehet szétbontani.</target>
+        <note>File: src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php [Line: 916]</note>
+      </trans-unit>
+      <trans-unit id="863f9820de8513ef6318191f496891dd" approved="yes">
+        <source>You can’t select all items to split the shipment. At least one item must remain in the original package to proceed.</source>
+        <target state="final">A szállítmány szétbontásához nem jelölheted ki az összes tételt. A folytatáshoz legalább egy tételnek az eredeti csomagban kell maradnia.</target>
+        <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/split_shipment_form.html.twig [Line: 30]</note>
       </trans-unit>
       <trans-unit id="aea807cc550550acd7b8d9a7bc469f6a" approved="yes">
         <source>You have to select a shop before creating new orders.</source>

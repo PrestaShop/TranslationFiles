@@ -55,10 +55,25 @@
         <source>Allow iframes on text fields like product description. We recommend that you leave this option disabled.</source>
         <target state="final">Iframe engedélyezése szövegmezőknél, mint amilyen a termékleírás. Javasoljuk az opció letiltását.</target>
       </trans-unit>
+      <trans-unit id="c2585925167101587128f7782c5dd757" approved="yes">
+        <source>Allow or deny customers to order products that are out of stock. Further customization is possible for each product.</source>
+        <target state="final">Engedélyezheted vagy letilthatod, hogy a vásárlók megrendelhessék a készleten kívüli termékeket. A beállítás termékenként külön is módosítható.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/StockType.php [Line: 90]</note>
+      </trans-unit>
+      <trans-unit id="cffcb6b76faff5fd9cb6a310aab445d2" approved="yes">
+        <source>Allows the use of iframes in rich text fields such as product descriptions. It is recommended to keep this option disabled unless you specifically need iframes for video embeds or other external content.</source>
+        <target state="final">Lehetővé teszi az iframe-ek használatát a formázott szövegmezőkben, például a termékleírásokban. Javasoljuk, hogy hagyd kikapcsolva ezt a beállítást, kivéve, ha kifejezetten szükséged van iframe-ekre videók vagy más külső tartalmak beágyazásához.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php [Line: 142]</note>
+      </trans-unit>
       <trans-unit id="a5fa9ffd3ddf89fe263675358032e7fb" approved="yes">
         <source>Automatically apply this value as a discount on all products for members of this customer group.</source>
         <target state="final">A kedvezmény a csoport minden tagjára automatikusan érvényes lesz.</target>
         <note>File: controllers/admin/AdminGroupsController.php [Line: 358]</note>
+      </trans-unit>
+      <trans-unit id="562da52195b6e52ac39be2dccbae6901" approved="yes">
+        <source>Automatically updates the shipping costs when an order is edited in the back office. If you disable this option, make sure to review the shipping costs whenever you make changes to an order.</source>
+        <target state="final">A háttérirodában módosított rendelések szállítási költségei automatikusan frissülnek. Ha kikapcsolod ezt a beállítást, minden rendelésmódosítás után ellenőrizd a szállítási költségeket.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GeneralType.php [Line: 93]</note>
       </trans-unit>
       <trans-unit id="5ed533875d7388ffdbb60818e9596bdc" approved="yes">
         <source>Automatically updates the shipping costs when you edit an order.</source>
@@ -103,9 +118,19 @@
         <target state="final">Válaszd ki a boltod használati feltételeit tartalmazó oldalt.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GeneralType.php [Line: 113]</note>
       </trans-unit>
+      <trans-unit id="b5dc879d20aba70ab5a7b8c269b427eb" approved="yes">
+        <source>Choose which features are enabled in your shop: B2C only, B2B only, or both.</source>
+        <target state="final">Válaszd ki, mely funkciók legyenek engedélyezve az áruházadban: csak B2C, csak B2B vagy mindkettő.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php [Line: 125]</note>
+      </trans-unit>
       <trans-unit id="7ba34b929c8241268ab5eac35a772ab1" approved="yes">
         <source>Clean the HTML content on text fields. We recommend that you leave this option enabled.</source>
         <target state="final">Tisztítja a szövegmezők HTML-tartalmát. Javasoljuk az opció bekapcsolva hagyását.</target>
+      </trans-unit>
+      <trans-unit id="5b6d89f93deda9c02c553196a5d73cb7" approved="yes">
+        <source>Cleans the HTML content in rich text fields before saving. It is recommended to keep this option enabled to ensure safe and valid content is saved into the database.</source>
+        <target state="final">Mentés előtt megtisztítja a formázott szövegmezők HTML-tartalmát. Javasoljuk, hogy hagyd bekapcsolva ezt a beállítást, így biztonságos és érvényes tartalom kerül az adatbázisba.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php [Line: 152]</note>
       </trans-unit>
       <trans-unit id="9cd9efd3eb168071eb0a199972c54aab" approved="yes">
         <source>Contact name (e.g. Customer Support).</source>
@@ -243,6 +268,26 @@
         <target state="final">Csak akkor engedélyezd az opciót, ha szerver támogatja az URL-újraírást (javasolt)!</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/SetUpUrlType.php [Line: 73]</note>
       </trans-unit>
+      <trans-unit id="feb02e79a9b6bca4bb9559914d218455" approved="yes">
+        <source>Enables or disables SSL encryption (https://) for your shop. This is a security standard and you should always keep this option enabled, unless there is a specific technical issue.</source>
+        <target state="final">Engedélyezi vagy letiltja az áruházad SSL-titkosítását (https://). Ez biztonsági szabvány, ezért mindig hagyd bekapcsolva, kivéve, ha konkrét műszaki probléma merül fel.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php [Line: 99]</note>
+      </trans-unit>
+      <trans-unit id="3745e6d203a2be11a15c749586ba592f" approved="yes">
+        <source>Enables or disables the best sellers page in your shop. When disabled, the page and related links are also removed from the sitemap and other sections.</source>
+        <target state="final">Engedélyezi vagy letiltja az áruházad népszerű termékeinek oldalát. Letiltásakor az oldal és a hozzá tartozó hivatkozások a webhelytérképből és más részekből is eltűnnek.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php [Line: 206]</note>
+      </trans-unit>
+      <trans-unit id="f44ccb9feb9694644d7ddb842809af7c" approved="yes">
+        <source>Enables or disables the brands listing in your shop. When disabled, brands are also removed from the sitemap and other related sections.</source>
+        <target state="final">Engedélyezi vagy letiltja a márkák listáját az áruházadban. Letiltásakor a márkák a webhelytérképből és más kapcsolódó részekből is eltűnnek.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php [Line: 198]</note>
+      </trans-unit>
+      <trans-unit id="9955808073b701a1d996e190b0fa2b6b" approved="yes">
+        <source>Enables or disables the suppliers listing in your shop. When disabled, suppliers are also removed from the sitemap and other related sections.</source>
+        <target state="final">Engedélyezi vagy letiltja a beszállítók listáját az áruházadban. Letiltásakor a beszállítók a webhelytérképből és más kapcsolódó részekből is eltűnnek.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/General/PreferencesType.php [Line: 190]</note>
+      </trans-unit>
       <trans-unit id="786471035f60ea5955fd93f6998e8637" approved="yes">
         <source>Enter each alias separated by a comma (e.g. 'prestshop,preztashop,prestasohp').</source>
         <target state="final">Minden alias-t vesszővel elválasztva adj meg (pl. 'prestshop,preztashop,prestasohp')!</target>
@@ -291,6 +336,11 @@
         <target state="final">Ha egy vásárló több feltételnek is megfelel, az egyéni árak ebben a prioritási sorrendben kerülnek alkalmazásra, kivéve, ha egy adott termékhez eltérő rendelés lett beállítva.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/GeneralType.php [Line: 167]</note>
       </trans-unit>
+      <trans-unit id="78c4fac28bb7772e31c75299bdbf31bf" approved="yes">
+        <source>If a visitor accesses a page using a non-canonical URL, this option defines how the shop should respond. For SEO reasons, we recommend choosing "301 Moved Permanently".</source>
+        <target state="final">Ha egy látogató nem kanonikus URL-en ér el egy oldalt, ez a beállítás határozza meg, hogyan reagáljon az áruház. SEO okokból a "301-es végleges átirányítás" lehetőséget javasoljuk.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/SetUpUrlType.php [Line: 115]</note>
+      </trans-unit>
       <trans-unit id="8bd1967f496dd2a0dd64dae32a3bc6e5" approved="yes">
         <source>If an attribute is not available in every product combination, it will not be displayed.</source>
         <target state="final">Ha egy variáció egyik termék kombinációban sem érhető el, akkor nem fog megjelenni.</target>
@@ -310,6 +360,11 @@
         <source>If there are multiple languages enabled on the shop, all URLs are prefixed with the ISO code of the language. Do you want to do this also for the default language, or keep it un-prefixed? If adding a language to a well established single language shop, it's a good idea to disable this and avoid changing the URLs.</source>
         <target state="final">Ha az áruházban több nyelv van engedélyezve, az összes URL a nyelv ISO-kódjával van előtagolva. Szeretnéd ezt a fő (alapértelmezett) nyelvre is alkalmazni, vagy maradjon előtag nélküli? Ha egy már jól bejáratott, egynyelvű áruházhoz adsz hozzá új nyelvet, érdemes ezt kikapcsolni, így elkerülve az URL-ek megváltoztatását.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/TrafficSeo/Meta/SetUpUrlType.php [Line: 94]</note>
+      </trans-unit>
+      <trans-unit id="6530353e5fc38824748de002f5b2d80a" approved="yes">
+        <source>If this option is enabled, the customer's last cart will be restored when they log back in. Otherwise, a new, empty cart will be created.</source>
+        <target state="final">Ha ez a beállítás be van kapcsolva, a vásárló legutóbbi kosara visszaáll, amikor újra bejelentkezik. Ellenkező esetben új, üres kosár jön létre.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/CustomerPreferences/GeneralType.php [Line: 34]</note>
       </trans-unit>
       <trans-unit id="3bc8663376c647160124246b5567fe1f" approved="yes">
         <source>If you own an SSL certificate for your shop's domain name, you can activate SSL encryption (https://) for all the pages of your shop.</source>
@@ -463,6 +518,11 @@
         <source>Require customers to accept or decline terms of service before processing an order.</source>
         <target state="final">A szolgáltatási feltétel elfogadása vagy elutasítása - feltétele a megrendelés kezelésének</target>
       </trans-unit>
+      <trans-unit id="de3c63a6c46e2ed9b86014d9da949b3e" approved="yes">
+        <source>Require customers to accept terms of service before processing an order.</source>
+        <target state="final">A rendelés feldolgozása előtt a vásárlóknak el kell fogadniuk a szolgáltatási feltételeket.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GeneralType.php [Line: 107]</note>
+      </trans-unit>
       <trans-unit id="01d2aac5d20787a1e873f2bdc79b514a" approved="yes">
         <source>Search this word instead.</source>
         <target state="final">Ezt használd inkább a keresésre.</target>
@@ -492,6 +552,11 @@
         <source>Set a tax for gift wrapping.</source>
         <target state="final">Ajándékcsomagolás adójának beállítása.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GiftOptionsType.php [Line: 105]</note>
+      </trans-unit>
+      <trans-unit id="c673507ef400a7b700e8c8ede0ed7bac" approved="yes">
+        <source>Set the minimum order value required to proceed to checkout. Customers won’t be able to continue if their cart total is below this amount. Set to 0 to disable this restriction.</source>
+        <target state="final">Állítsd be a rendeléshez szükséges minimális összeget. A vásárlók nem léphetnek tovább a pénztárhoz, ha a kosaruk végösszege ennél alacsonyabb. A korlátozás kikapcsolásához adj meg 0-t.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GeneralType.php [Line: 85]</note>
       </trans-unit>
       <trans-unit id="9175b705bec9604985209d1f2d88c785" approved="yes">
         <source>Set to "0" to disable this feature.</source>
@@ -531,6 +596,11 @@
         <source>Suggest recycled packaging to customer.</source>
         <target state="final">Újrahasznosított csomagolás javaslása a vevőnek.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/OrderPreferences/GiftOptionsType.php [Line: 115]</note>
+      </trans-unit>
+      <trans-unit id="d7ea625e2b60f5f00947667c1b46506a" approved="yes">
+        <source>The default order in which products are displayed in listings. The available sorting methods differ based on the page type.</source>
+        <target state="final">A termékek listákban való megjelenítésének alapértelmezett sorrendje. Az elérhető rendezési módok az oldal típusától függnek.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/PaginationType.php [Line: 44]</note>
       </trans-unit>
       <trans-unit id="e3e0c764f81f1a3677d59aa238fddd14" approved="yes">
         <source>The group defined for your identified guest customers (used in guest checkout).</source>
