@@ -4,23 +4,43 @@
     <body>
       <trans-unit id="15391e9d908034a4458cd78296a945a8" approved="yes">
         <source>A customer will only be able to use the cart rule "X" time(s).</source>
-        <target state="final">A vásárló csak ´X´ alkalommal tudja a kosárszabályt felhasználni.</target>
+        <target state="final">A vásárló csak "X" alkalommal használhatja fel a kosárszabályt.</target>
         <note>File: admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl [Line: 108]</note>
+      </trans-unit>
+      <trans-unit id="f0e75ca843971e784658a3a9764d5d9f" approved="yes">
+        <source>A customer will only be able to use this discount "X" time(s).</source>
+        <target state="final">A vásárló ezt a kedvezményt legfeljebb "X" alkalommal használhatja fel.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Discount/DiscountUsabilityType.php [Line: 60]</note>
       </trans-unit>
       <trans-unit id="1ffce2188d1a60720990e3f6ca9e8b0c" approved="yes">
         <source>Add new specific price</source>
         <target state="final">Új egyéni ár hozzáadása</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Pricing/SpecificPricesType.php [Line: 27]</note>
       </trans-unit>
+      <trans-unit id="13afe23d5f8f35f842ed67ae75ac2968" approved="yes">
+        <source>All existing identifiers of the product. We recommend filling in every relevant field you can obtain, as it will improve the product's searchability and management.</source>
+        <target state="final">A termék összes meglévő azonosítója. Javasoljuk, hogy tölts ki minden releváns mezőt, amelynek adatait meg tudod adni, mert ezzel javul a termék kereshetősége és kezelhetősége.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Details/ReferencesType.php [Line: 92]</note>
+      </trans-unit>
       <trans-unit id="7db5022f86dda7b39e31e754afd5c6a0" approved="yes">
         <source>Allow customers to upload files using the contact page.</source>
         <target state="final">Engedélyezi a vásárlók számára a fájl-feltöltést a kapcsolati oldalon keresztül</target>
         <note>File: controllers/admin/AdminCustomerThreadsController.php [Line: 131]</note>
       </trans-unit>
+      <trans-unit id="2aed1d6a09ee1c1b35ea452b67c01278" approved="yes">
+        <source><![CDATA[Allowed characters: letters, numbers, underscores (_) and hyphens (-). To allow more characters, enable the 'Accented URL' feature in Shop Parameters > Traffic & SEO.]]></source>
+        <target state="final"><![CDATA[Engedélyezett karakterek: betűk, számok, aláhúzásjel (_) és kötőjel (-). További karakterek használatához engedélyezd az 'Accented URL' funkciót az Áruház beállításai > Forgalom és SEO menüpontban.]]></target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Catalog/Category/AbstractCategoryType.php [Line: 229]</note>
+      </trans-unit>
       <trans-unit id="b40b4b1a0589005b45e9fa351c1b91f3" approved="yes">
         <source>An empty category is a category that has no product directly associated to it. An empty category may however contain products through its subcategories.</source>
         <target state="final">Egy üres kategória az a kategória, mely nem rendelkezik közvetlenül hozzá társított termékkel. Mindazonáltal, az alkategóriái miatt mégis tartalmazhat termékeket.</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Sell/Catalog/Monitoring/index.html.twig [Line: 19]</note>
+      </trans-unit>
+      <trans-unit id="7fd504935caa035aba87030e2a33ab16" approved="yes">
+        <source>By default, the closest active parent category will be used if no category is selected.</source>
+        <target state="final">Ha nincs kiválasztva kategória, alapértelmezés szerint a legközelebbi aktív szülőkategória lesz használatban.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Category/SEO/RedirectOptionType.php [Line: 74]</note>
       </trans-unit>
       <trans-unit id="1b9648d6a32243bb7003ae8046dc7c1a" approved="yes">
         <source>By default, the main category will be used if no category is selected.</source>
@@ -32,6 +52,11 @@
         <target state="final">A kosárszabályok prioritás szerint alkalmazottak. Az "1" számú kosárszabály a "2" számú előtt kerül feldolgozásra.</target>
         <note>File: admin-dev/themes/default/template/controllers/cart_rules/informations.tpl [Line: 110]</note>
       </trans-unit>
+      <trans-unit id="fc3c1f74cff1fd4018a9b337ad53cdd2" approved="yes">
+        <source>Category image that is usually displayed on the category page next to description, depending on your theme.</source>
+        <target state="final">A kategóriaoldalon általában a leírás mellett megjelenő kategóriakép; megjelenése a sablontól is függ.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Catalog/Category/AbstractCategoryType.php [Line: 144]</note>
+      </trans-unit>
       <trans-unit id="b9fe1289d4d385c85d61f262aea8de40" approved="yes">
         <source>Caution! If you leave this field blank, the rule will automatically be applied to benefiting customers.</source>
         <target state="final">Figyelem! Ha ezt a mezőt üresen hagyod, akkor a szabály automatikusan életbe lép a kedvezményezett vásárlókhoz.</target>
@@ -41,6 +66,11 @@
         <source>Choose a color with the color picker, or enter an HTML color (e.g. "lightblue", "#CC6600").</source>
         <target state="final">Válassz egy színt a színválasztóval, vagy adj meg egy HTML színt angolul (pl. "lightblue", "#CC6600")!</target>
         <note>File: controllers/admin/AdminShopGroupController.php [Line: 187]</note>
+      </trans-unit>
+      <trans-unit id="4b2747d59329d8164554a3f6330b5977" approved="yes">
+        <source>Choose what should happen when this product is not in stock. Can it be ordered? Use the default store setting or override it for this product.</source>
+        <target state="final">Válaszd ki, mi történjen, ha ez a termék nincs készleten. Megrendelhető legyen? Használd az áruház alapértelmezett beállítását, vagy módosítsd ennél a terméknél.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Stock/AvailabilityType.php [Line: 151]</note>
       </trans-unit>
       <trans-unit id="458ad9c2eeb0f07135e0a34635952080" approved="yes">
         <source>Controls how you want stock of the pack to be calculated. You can decide, if you want to manage the stock of pack manually, or if it should be calculated automatically depending on stock of the products inside. In that case, the quantity of the pack is ignored.</source>
@@ -66,6 +96,11 @@
         <source>Define which condition should apply first when a customer is eligible for multiple specific prices.</source>
         <target state="final">Határozd meg, melyik feltételt kell először alkalmazni, ha egy ügyfél több egyéni árra is jogosult.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Pricing/PricingType.php [Line: 99]</note>
+      </trans-unit>
+      <trans-unit id="d052f4d5e3abd3ce257a51cafbc59746" approved="yes">
+        <source>Defines the product's primary placement, usually the deepest category in the hierarchy. It's used in breadcrumbs, URLs, structured data and many other parts of the shop.</source>
+        <target state="final">Meghatározza a termék elsődleges elhelyezését, amely általában a hierarchia legmélyebb kategóriája. Ez jelenik meg a morzsamenüben, az URL-ekben, a strukturált adatokban és az áruház számos más részén.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Category/CategoriesType.php [Line: 66]</note>
       </trans-unit>
       <trans-unit id="e9d5cadd20f10058a5bb0823aed17584" approved="yes">
         <source>Delete messages after synchronization. If you do not enable this option, the synchronization will take more time.</source>
@@ -112,6 +147,11 @@
         <target state="final">Start-TLS-titkosítás kényszerítése munkafolyamatokhoz és kapcsolat elutasítása olyan szerverekhez, melyek ezt nem támogatják.</target>
         <note>File: controllers/admin/AdminCustomerThreadsController.php [Line: 206]</note>
       </trans-unit>
+      <trans-unit id="7878343ae65aacddc8037fd6869cc61c" approved="yes">
+        <source>Here you can restrict which carriers are available for this product. For example, if the product cannot be shipped, you can allow only in-store pickup.</source>
+        <target state="final">Itt korlátozhatod, hogy mely szállítók érhetők el ehhez a termékhez. Például, ha a termék nem szállítható, csak a bolti átvételt engedélyezheted.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Shipping/ShippingType.php [Line: 111]</note>
+      </trans-unit>
       <trans-unit id="633bf9436b67e19cd61db84ccab7fee2" approved="yes">
         <source>ISBN is used internationally to identify books and their various editions.</source>
         <target state="final">A könyvek és azok különböző kiadásainak azonosítása érdekében nemzetközi szintem az ISBN-t használjuk.</target>
@@ -151,14 +191,34 @@
         <target state="final">Útmutató, méret-táblázat vagy bármilyen fájl, amit hozzá szeretnél adni a termékhez.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Options/ProductAttachmentsType.php [Line: 85]</note>
       </trans-unit>
+      <trans-unit id="67065d7314000c61a6176c4e588e613f" approved="yes">
+        <source>Internal purchase price of the product. You can use it for margin calculations, statistics, and internal reporting. This value is not shown to customers.</source>
+        <target state="final">A termék beszerzési ára. Használhatod árrésszámításhoz, statisztikákhoz és belső jelentésekhez. Ez az érték nem jelenik meg a vásárlóknak.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Pricing/PricingType.php [Line: 62]</note>
+      </trans-unit>
       <trans-unit id="607e1d854783c8229998ac2b5b6923d3" approved="yes">
         <source>Invalid token</source>
         <target state="final">Érvénytelen munkafolyamat-azonosító</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Security/compromised.html.twig [Line: 13]</note>
       </trans-unit>
+      <trans-unit id="0d42fdc56a0571e75383a990bde2ce67" approved="yes">
+        <source>Lower numbers indicate higher priority. When multiple discounts are applied, lower priority numbers are processed first.</source>
+        <target state="final">Az alacsonyabb számok magasabb prioritást jelölnek. Több kedvezmény együttes alkalmazásakor az alacsonyabb prioritásúak kerülnek először feldolgozásra.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Discount/DiscountUsabilityType.php [Line: 96]</note>
+      </trans-unit>
       <trans-unit id="c268a2747d5680c617c361cd505c4576" approved="yes">
         <source>MPN is used internationally to identify the Manufacturer Part Number.</source>
         <target state="final">Az MPN-t nemzetközileg használják a gyártói cikkszám (Manufacturer Part Number) azonosítására.</target>
+      </trans-unit>
+      <trans-unit id="4d843fd9d56800175ccdab1c264d9233" approved="yes">
+        <source>Manufacturer part number that allows to identify this product internationally.</source>
+        <target state="final">Gyártói cikkszám, amely nemzetközileg azonosítja a terméket.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Details/ReferencesType.php [Line: 44]</note>
+      </trans-unit>
+      <trans-unit id="c35f3106689f99788eed211e0d6fbc20" approved="yes">
+        <source>Miniature image that is used when displaying subcategories. Could be also used in menus and other places, depending on your theme.</source>
+        <target state="final">Az alkategóriák megjelenítésekor használt miniatűrkép. A sablontól függően a menükben és más helyeken is megjelenhet.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Catalog/Category/AbstractCategoryType.php [Line: 151]</note>
       </trans-unit>
       <trans-unit id="5f4efe2735311bfd3e5784705fb0110f" approved="yes">
         <source>Number of days this file can be accessed by customers. Set to zero for unlimited access.</source>
@@ -174,6 +234,16 @@
         <source>Only applicable if the voucher value is greater than the cart total.</source>
         <target state="final">Csak akkor alkalmazható, ha a kupon értéke nagyobb, mint a kosáré.</target>
         <note>File: admin-dev/themes/default/template/controllers/cart_rules/informations.tpl [Line: 91]</note>
+      </trans-unit>
+      <trans-unit id="69f3af81a513ef4f221187b81498930e" approved="yes">
+        <source>Optional additional fee added to the shipping cost for each purchased item. Applies only if shipping is not free.</source>
+        <target state="final">Minden megvásárolt termék szállítási költségéhez opcionális felár adható. Csak akkor érvényes, ha a szállítás nem ingyenes.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Shipping/ShippingType.php [Line: 84]</note>
+      </trans-unit>
+      <trans-unit id="39fe0bb83d46a90711119bd7b5807a34" approved="yes">
+        <source>Optional detailed information about the product, such as its features, specifications, images, videos, or package contents. Use this field when you need to provide more details beyond the short summary.</source>
+        <target state="final">A termék részletes, opcionális adatai, például jellemzői, műszaki adatai, képei, videói vagy a csomag tartalma. Ezt a mezőt a rövid összefoglalón túli információk megadására használd.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Description/DescriptionType.php [Line: 98]</note>
       </trans-unit>
       <trans-unit id="3fde87028c9327c15017b46e6d84ac80" approved="yes">
         <source>Optional: The cart rule will be available to everyone if you leave this field blank.</source>
@@ -199,6 +269,16 @@
         <source>Port to use to connect to your IMAP server.</source>
         <target state="final">Az IMAP szerver által használt port.</target>
         <note>File: controllers/admin/AdminCustomerThreadsController.php [Line: 154]</note>
+      </trans-unit>
+      <trans-unit id="83817e901c79cb88317d36da8ee882d5" approved="yes">
+        <source>Products closely connected to this item, such as accessories or complementary goods. Adding them helps customers discover relevant items and improves product navigation.</source>
+        <target state="final">A termékhez szorosan kapcsolódó termékek, például kiegészítők vagy kapcsolódó áruk. Hozzáadásukkal a vásárlók releváns termékeket fedezhetnek fel, és könnyebben navigálhatnak a kínálatban.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Description/DescriptionType.php [Line: 116]</note>
+      </trans-unit>
+      <trans-unit id="bf8d04437124c71dcf4c8c9d067c59a4" approved="yes">
+        <source>Public title that may appear in the browser and search engines. The recommended length is about 60 characters (including spaces). If you leave it blank, the product name will be used.</source>
+        <target state="final">Nyilvános cím, amely megjelenhet a böngészőben és a keresőmotorokban. Az ajánlott hossz körülbelül 60 karakter (szóközökkel együtt). Ha üresen hagyod, akkor a terméknév lesz használva.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/SEO/SEOType.php [Line: 99]</note>
       </trans-unit>
       <trans-unit id="82e3cb7a4be4e299701a182197dc9410" approved="yes">
         <source>Save the product and stay on the current page: ALT+SHIFT+S</source>
@@ -235,6 +315,21 @@
         <target state="final">Ref. keresés</target>
         <note>File: src/Core/Grid/Definition/Factory/ProductGridDefinitionFactory.php [Line: 548]</note>
       </trans-unit>
+      <trans-unit id="163cc0d45ff1784e185a8dd29a86d990" approved="yes">
+        <source>Select a product from your catalog to offer it for free when this discount is applied.</source>
+        <target state="final">Válassz egy terméket a katalógusból, amelyet ingyenesen adhatsz a kedvezmény alkalmazásakor.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Discount/DiscountType.php [Line: 59]</note>
+      </trans-unit>
+      <trans-unit id="dbf7ca6ce67648b790f71e6ae2f5c8dd" approved="yes">
+        <source>Select the customer groups which will have access to this category.</source>
+        <target state="final">Válaszd ki azokat a vásárlói csoportokat, amelyek hozzáférhetnek ehhez a kategóriához.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Catalog/Category/AbstractCategoryType.php [Line: 262]</note>
+      </trans-unit>
+      <trans-unit id="9576640520abce2594645f2a4436b7fd" approved="yes">
+        <source>Select which discount types this discount is compatible with.</source>
+        <target state="final">Válaszd ki, hogy ez a kedvezmény mely kedvezménytípusokkal kompatibilis.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Discount/DiscountUsabilityType.php [Line: 86]</note>
+      </trans-unit>
       <trans-unit id="a132c5ad0de6c917b5422b923608c87b" approved="yes">
         <source>Separate each tag with a comma or press the Enter key.</source>
         <target state="final">Az egyes címkéket vesszővel válasszd el, vagy nyomd meg az Enter billentyűt.</target>
@@ -245,10 +340,30 @@
         <target state="final">Állíts be konkrét árakat bizonyos feltételeknek megfelelő ügyfelek számára.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Pricing/PricingType.php [Line: 85]</note>
       </trans-unit>
+      <trans-unit id="6de3adb7510122ff9b8bd6b9b64e5721" approved="yes">
+        <source>Shipping fees are excluded.</source>
+        <target state="final">A szállítási díjak nem tartoznak bele.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Discount/DiscountValueType.php [Line: 21]</note>
+      </trans-unit>
+      <trans-unit id="a05ce821cab187eec53725269340bb28" approved="yes">
+        <source>Short description of the product. We recommend two to three sentences or a few clear phrases that describe the item. It's displayed near the product name, used in the meta description, and shown in several other places. Avoid duplicating this text across different products.</source>
+        <target state="final">A termék rövid leírása. Javasoljuk, hogy két-három mondatban vagy néhány tömör kifejezéssel mutasd be a terméket. A terméknév mellett jelenik meg, a meta leírásban is felhasználjuk, és több más helyen is látható. Kerüld ugyanennek a szövegnek a használatát több terméknél.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Description/DescriptionType.php [Line: 84]</note>
+      </trans-unit>
+      <trans-unit id="73e5c34274fdcc69469b9185f7c3fd96" approved="yes">
+        <source>Summary for robots, that could appear in search engines. The recommended length is about 160 characters (including spaces). If you leave it blank, an excerpt from the short description will be used.</source>
+        <target state="final">Összefoglaló a robotoknak, amely megjelenhet a keresőmotorokban. Az ajánlott hossz körülbelül 160 karakter (szóközökkel együtt). Ha üresen hagyod, a rövid leírás egy részlete lesz használva.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/SEO/SEOType.php [Line: 128]</note>
+      </trans-unit>
       <trans-unit id="a5b0a810681c7fca4581d7f7524009f4" approved="yes">
         <source>Take me out of there!</source>
         <target state="final">Vigyél el innen!</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Security/compromised.html.twig [Line: 31]</note>
+      </trans-unit>
+      <trans-unit id="4e37efbe3f97a5a374222ef2f59108cf" approved="yes">
+        <source>Text that is usually displayed after the product list on category page. It's a good place to put longer SEO related content.</source>
+        <target state="final">A kategóriaoldalon a terméklista után általában megjelenő szöveg. Hosszabb, keresőoptimalizálást támogató tartalom elhelyezésére is alkalmas.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Catalog/Category/AbstractCategoryType.php [Line: 126]</note>
       </trans-unit>
       <trans-unit id="cfc9489072f04e808ce4e01948b7fef8" approved="yes">
         <source>The cart rule will be applied to the first "X" customers only.</source>
@@ -259,6 +374,11 @@
         <source>The default period is one month.</source>
         <target state="final">Alapértelmezett időszak egy hónap</target>
         <note>File: admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl [Line: 25]</note>
+      </trans-unit>
+      <trans-unit id="795d3a0bfd8080159e471dfaa0d838c8" approved="yes">
+        <source><![CDATA[The email will be sent to all users who have access to the Stock page. To modify permissions, go to Advanced Parameters > Team.]]></source>
+        <target state="final"><![CDATA[Az e-mailt minden olyan felhasználó megkapja, aki hozzáfér a Készlet oldalhoz. A jogosultságok módosításához lépj a Speciális beállítások > Csapat menüpontba.]]></target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Stock/StockOptionsType.php [Line: 38]</note>
       </trans-unit>
       <trans-unit id="1f24923e0351fff041635c7064d7d94c" approved="yes">
         <source><![CDATA[The email will be sent to all users who have access to the Stock page. To modify permissions, go to [1]Advanced Parameters > Team[/1].]]></source>
@@ -275,6 +395,11 @@
         <target state="final">A termék minimális vásárlási mennyisége (állítsd 1-re, ha szeretnéd kikapcsolni ezt a funkciót). Pl.: ha 3-ra állítod, akkor az ügyfeleid csak akkor vásárolhatják meg a terméket, ha legalább 3 darabot rendelnek belőle.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Stock/QuantityType.php [Line: 109]</note>
       </trans-unit>
+      <trans-unit id="9e393b7c3a8d54af9dc3684086ca365d" approved="yes">
+        <source>The product's worldwide barcode. Filling this field improves product traceability, catalog management, and overall searchability.</source>
+        <target state="final">A termék nemzetközi vonalkódja. A mező kitöltése megkönnyíti a termék nyomon követését, a katalógus kezelését és a keresést.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Details/ReferencesType.php [Line: 63]</note>
+      </trans-unit>
       <trans-unit id="b5e6921c2d093fbcb0088c9466ee9983" approved="yes">
         <source>The public name for this attribute, displayed to the customers.</source>
         <target state="final">A vásárlók számára megjelenített variáció publikus elnevezés.</target>
@@ -284,6 +409,11 @@
         <source>The way the attribute's values will be presented to the customers in the product's page.</source>
         <target state="final">A variáció értékeinek a termék oldalán a vásárlók felé megjelenítendő mód.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Sell/Catalog/AttributeType.php [Line: 53]</note>
+      </trans-unit>
+      <trans-unit id="41c6d984f6151b014a8fe191263803c6" approved="yes">
+        <source>This discount can be used "X" time(s) in total.</source>
+        <target state="final">Ez a kedvezmény összesen "X" alkalommal használható fel.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Discount/DiscountUsabilityType.php [Line: 35]</note>
       </trans-unit>
       <trans-unit id="762d425093de542e7ab628b44ff68515" approved="yes">
         <source>This interface allows you to specify the suppliers of the current combination.</source>
@@ -313,6 +443,41 @@
         <source>This will be displayed in the cart summary, as well as on the invoice.</source>
         <target state="final">Ez fog megjelenni a kosárösszesítőn és a számlán is.</target>
         <note>File: admin-dev/themes/default/template/controllers/cart_rules/informations.tpl [Line: 8]</note>
+      </trans-unit>
+      <trans-unit id="e997b584e38bc9e3a34f92c46ef737cf" approved="yes">
+        <source>This will be the default displayed availability of a product, if it's not in stock and backordering it is denied. If you don't enter anything, nothing will be displayed. Further customization is possible for each product.</source>
+        <target state="final">Ez jelenik meg alapértelmezett elérhetőségi üzenetként, ha a termék nincs készleten, és az utánrendelés nem engedélyezett. Ha üresen hagyod, nem jelenik meg semmi. Az üzenet termékenként külön is testre szabható.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/StockType.php [Line: 147]</note>
+      </trans-unit>
+      <trans-unit id="2b39a1e77e6bd2f3c0afe07f105c7f5a" approved="yes">
+        <source>This will be the default displayed availability of a product, if it's not in stock and backordering it is enabled. If you don't enter anything, nothing will be displayed. Further customization is possible for each product.</source>
+        <target state="final">Ez jelenik meg alapértelmezett elérhetőségi üzenetként, ha a termék nincs készleten, és az utánrendelés engedélyezett. Ha üresen hagyod, nem jelenik meg semmi. Az üzenet termékenként külön is testre szabható.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/StockType.php [Line: 131]</note>
+      </trans-unit>
+      <trans-unit id="dbb5df5ca2112e0125b866522e062df5" approved="yes">
+        <source>This will be the default displayed availability of a product, if there is at least 1 in stock. If you don't enter anything, nothing will be displayed. Further customization is possible for each product.</source>
+        <target state="final">Ez jelenik meg alapértelmezett elérhetőségi üzenetként, ha a termékből legalább 1 darab készleten van. Ha üresen hagyod, nem jelenik meg semmi. Az üzenet termékenként külön is testre szabható.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Configure/ShopParameters/ProductPreferences/StockType.php [Line: 115]</note>
+      </trans-unit>
+      <trans-unit id="4dae4d27021765208ae8fba5a45a9fde" approved="yes">
+        <source>This will be the displayed availability of the combination, if it's not in stock. If you don't enter anything, the base value set on the product will be used.</source>
+        <target state="final">Ez jelenik meg a kombináció elérhetőségi üzeneteként, ha nincs készleten. Ha üresen hagyod, a terméknél megadott alapértelmezett érték lesz használva.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationStockType.php [Line: 86]</note>
+      </trans-unit>
+      <trans-unit id="21ff177c36a5c41ca7d9ede46ceb5ac4" approved="yes">
+        <source>This will be the displayed availability of the combination, if there is at least 1 in stock. If you don't enter anything, the base value set on the product will be used.</source>
+        <target state="final">Ez jelenik meg a kombináció elérhetőségi üzeneteként, ha legalább 1 darab készleten van. Ha üresen hagyod, a terméknél megadott alapértelmezett érték lesz használva.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/CombinationStockType.php [Line: 63]</note>
+      </trans-unit>
+      <trans-unit id="84d1664447cfb64f77eb58f8ecc7ab42" approved="yes">
+        <source><![CDATA[This will be the displayed availability of the product, if it's not in stock. If you don't enter anything, value from [1]Shop Parameters > Product Settings[/1] will be used.]]></source>
+        <target state="final"><![CDATA[Ez jelenik meg a termék elérhetőségi üzeneteként, ha nincs készleten. Ha üresen hagyod, a [1]Áruház beállításai > Termékbeállítások[/1] menüpontban megadott érték lesz használva.]]></target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Stock/AvailabilityType.php [Line: 124]</note>
+      </trans-unit>
+      <trans-unit id="2a06390040d49692fb8fa7584e1ea111" approved="yes">
+        <source><![CDATA[This will be the displayed availability of the product, if there is at least 1 in stock. If you don't enter anything, value from [1]Shop Parameters > Product Settings[/1] will be used.]]></source>
+        <target state="final"><![CDATA[Ez jelenik meg a termék elérhetőségi üzeneteként, ha legalább 1 darab készleten van. Ha üresen hagyod, a [1]Áruház beállításai > Termékbeállítások[/1] menüpontban megadott érték lesz használva.]]></target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/Stock/AvailabilityType.php [Line: 95]</note>
       </trans-unit>
       <trans-unit id="d87fdec724af7ed0338f394852787788" approved="yes">
         <source>To add combinations, you first need to create proper attributes and values in [1]%attributes_and_features_label%[/1].</source>
@@ -404,10 +569,19 @@
         <target state="final">Igen, megértettem a kockázatokat</target>
         <note>File: src/PrestaShopBundle/Resources/views/Admin/Security/compromised.html.twig [Line: 28]</note>
       </trans-unit>
+      <trans-unit id="86b310a95aa85957a00acb1415e40772" approved="yes">
+        <source>You can choose a free gift.</source>
+        <target state="final">Választhatsz egy ingyenes ajándékot.</target>
+      </trans-unit>
       <trans-unit id="5b41d7dc2da5ea15baf3e2d62d820ac2" approved="yes">
         <source>You can choose a minimum amount for the cart either with or without the taxes and shipping.</source>
         <target state="final">Kiválaszthatsz minimum kosármennyiséget adóval és szállítással vagy nélkülük.</target>
         <note>File: admin-dev/themes/default/template/controllers/cart_rules/conditions.tpl [Line: 54]</note>
+      </trans-unit>
+      <trans-unit id="190a25c3f15e1544ed2bd6efbafb1a97" approved="yes">
+        <source>You can choose a minimum amount for the cart either with or without the taxes.</source>
+        <target state="final">Megadhatsz egy minimum kosárértéket adóval vagy adó nélkül.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Sell/Discount/DiscountValueType.php [Line: 20]</note>
       </trans-unit>
       <trans-unit id="738971709fcd7de4b5f8a87eb1e663a1" approved="yes">
         <source>You can specify product reference(s) for each associated supplier. Click "%save_label%" after changing selected suppliers to display the associated product references.</source>
@@ -454,10 +628,20 @@
         <target state="final">[1]Nincs átirányítás (410), termék megjelenítése[/1] [2] Ne irányítsa át sehova, jelenítse meg a terméket megszűntként, és adja vissza a 410-es "Eltűnt" választ.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/SEO/RedirectOptionType.php [Line: 198]</note>
       </trans-unit>
+      <trans-unit id="8e1c1bbb700b8d95a17d70fdd1069560" approved="yes">
+        <source>[1]Permanent redirection (301)[/1] [2] Permanently display another category instead.</source>
+        <target state="final">[1]Állandó átirányítás (301)[/1] [2] Ehelyett véglegesen egy másik kategória jelenik meg.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Catalog/Category/AbstractCategoryType.php [Line: 294]</note>
+      </trans-unit>
       <trans-unit id="63d8f0350459a5cc763e14c4c6411a07" approved="yes">
         <source>[1]Permanent redirection (301)[/1] [2] Permanently display another product or category instead.</source>
         <target state="final">[1]Állandó átirányítás (301)[/1] [2] Egy másik termék vagy kategória jelenik meg helyette.</target>
         <note>File: src/PrestaShopBundle/Form/Admin/Sell/Product/SEO/RedirectOptionType.php [Line: 201]</note>
+      </trans-unit>
+      <trans-unit id="71c2da230bf01a81d5764e62d9f6ce86" approved="yes">
+        <source>[1]Temporary redirection (302)[/1] [2] Temporarily display another category instead.</source>
+        <target state="final">[1]Ideiglenes átirányítás (302)[/1] [2] Ehelyett ideiglenesen egy másik kategória jelenik meg.</target>
+        <note>File: src/PrestaShopBundle/Form/Admin/Catalog/Category/AbstractCategoryType.php [Line: 295]</note>
       </trans-unit>
       <trans-unit id="be47cd3941d99bef338eda26d2c1a397" approved="yes">
         <source>[1]Temporary redirection (302)[/1] [2] Temporarily display another product or category instead.</source>
