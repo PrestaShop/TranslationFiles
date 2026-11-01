@@ -2,6 +2,11 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="Shop.Notifications.Error.xlf" source-language="en" target-language="id" datatype="plaintext">
     <body>
+      <trans-unit id="e9c8b958cbfb895182fe7eeeeadd1121" approved="yes">
+        <source>A customer account has already been created from this guest account. Please sign in.</source>
+        <target state="final">Akun pelanggan sudah dibuat dari akun tamu ini. Silakan masuk ke akun Anda.</target>
+        <note>File: controllers/front/OrderConfirmationController.php [Line: 174]</note>
+      </trans-unit>
       <trans-unit id="7cc92687130ea12abb80556681538001" approved="yes">
         <source>An error occurred during the image upload process.</source>
         <target state="final">Kesalahan terjadi ketika mengunggah image</target>
@@ -41,6 +46,11 @@
         <source>Could not delete address.</source>
         <target state="final">Tidak dapat menghapus alamat.</target>
         <note>File: controllers/front/AddressController.php [Line: 94]</note>
+      </trans-unit>
+      <trans-unit id="beb19eac775bc240590f89e361d2baab" approved="yes">
+        <source>Could not delete the address since it is used in the shopping cart.</source>
+        <target state="final">Gagal menghapus alamat ini karena sedang digunakan di keranjang belanja.</target>
+        <note>File: controllers/front/AddressController.php [Line: 78]</note>
       </trans-unit>
       <trans-unit id="7cee9e5fd53cf1d3d1677ef3edc4a613" approved="yes">
         <source>Could not update your information, please check your data.</source>
@@ -82,6 +92,11 @@
         <target state="final">Pesan tidak valid</target>
         <note>File: modules/contactform/contactform.php [Line: 419]</note>
       </trans-unit>
+      <trans-unit id="e14005ecaeec15e1019f543a379b83cc" approved="yes">
+        <source>Invalid message.</source>
+        <target state="final">Pesan tidak valid.</target>
+        <note>File: controllers/front/ProductController.php [Line: 1004]</note>
+      </trans-unit>
       <trans-unit id="6b9cc232bf4044274ec42062b60736fb" approved="yes">
         <source>Invoices are disabled in this shop.</source>
         <target state="final">Invoice dinonaktifkan di toko ini.</target>
@@ -111,6 +126,11 @@
         <source>Password is required</source>
         <target state="final">Password harus diisi</target>
         <note>File: classes/form/CustomerPersister.php [Line: 169]</note>
+      </trans-unit>
+      <trans-unit id="e74bbc67e02323a626ce95619ef42fd5" approved="yes">
+        <source>Password must be between %d and %d characters long</source>
+        <target state="final">Panjang kata sandi harus diantara %d dan %d</target>
+        <note>File: controllers/front/PasswordController.php [Line: 151]</note>
       </trans-unit>
       <trans-unit id="e6f6a5e58ee6d010f22e4b3dbd756213" approved="yes">
         <source>Please check at least one product you would like to return.</source>
@@ -152,6 +172,11 @@
         <target state="final">Beberapa produk tidak lagi tersedia, dan sistem tidak dapat memproses pembelian Anda.</target>
         <note>File: controllers/front/OrderController.php [Line: 75]</note>
       </trans-unit>
+      <trans-unit id="09389b199ea8bfbfbaae78c3ba7a22e9" approved="yes">
+        <source>Some of the countries used in your cart are not available and cannot be used.</source>
+        <target state="final">Beberapa negara yang digunakan di keranjang belanja Anda tidak tersedia dan tidak dapat digunakan.</target>
+        <note>File: controllers/front/CartController.php [Line: 74]</note>
+      </trans-unit>
       <trans-unit id="56ca67fde405db4d75fb5fc3350db81b" approved="yes">
         <source>Sorry. We cannot renew your order.</source>
         <target state="final">Maaf, kami tidak dapat memperbaharui pesanan Anda.</target>
@@ -162,6 +187,21 @@
         <target state="final">Field %1$s terlalu panjang (maks %2$d karakter).</target>
         <note>File: classes/form/CustomerForm.php [Line: 239]</note>
       </trans-unit>
+      <trans-unit id="fd1126287a58ab175c3b0897e7edd58c" approved="yes">
+        <source>The %1$s field is too short (%2$d chars min).</source>
+        <target state="final">Field %1$s terlalu pendek (min %2$d karakter).</target>
+        <note>File: classes/form/AbstractForm.php [Line: 172]</note>
+      </trans-unit>
+      <trans-unit id="f3e3f424a084383aa2931fae612b1ff1" approved="yes">
+        <source>The confirmation is empty: please fill in the password confirmation as well</source>
+        <target state="final">Kolom konfirmasi kosong: harap isi kolom konfirmasi kata sandi</target>
+        <note>File: controllers/front/PasswordController.php [Line: 136]</note>
+      </trans-unit>
+      <trans-unit id="65efaaf9ead1beea82672beb5ace1fe2" approved="yes">
+        <source>The confirmation password doesn't match.</source>
+        <target state="final">Konfirmasi kata sandi tidak cocok.</target>
+        <note>File: controllers/front/PasswordController.php [Line: 141]</note>
+      </trans-unit>
       <trans-unit id="a3abb251955ac102dfda84c06e7e2e13" approved="yes">
         <source>The customer could not be found.</source>
         <target state="final">Pelanggan tidak ditemukan</target>
@@ -171,6 +211,21 @@
         <source>The email is already used, please choose another one or sign in</source>
         <target state="final">Alamat email telah digunakan, harap gunakan email lainnya atau login</target>
         <note>File: classes/form/CustomerPersister.php [Line: 197]</note>
+      </trans-unit>
+      <trans-unit id="9f959372268fda5f06b49d077ed941e1" approved="yes">
+        <source>The gift product does not exist.</source>
+        <target state="final">Produk hadiah tidak ada.</target>
+        <note>File: classes/CartRule.php [Line: 933]</note>
+      </trans-unit>
+      <trans-unit id="4baa4e35a1173de37bce58af05803bda" approved="yes">
+        <source>The gift product does not meet the minimum quantity.</source>
+        <target state="final">Produk hadiah tidak memenuhi jumlah minimum.</target>
+        <note>File: classes/CartRule.php [Line: 941]</note>
+      </trans-unit>
+      <trans-unit id="ed56a97de28eeeda0a69ab1b81076ff9" approved="yes">
+        <source>The gift product is out of stock.</source>
+        <target state="final">Produk hadiah tidak tersedia.</target>
+        <note>File: classes/CartRule.php [Line: 957]</note>
       </trans-unit>
       <trans-unit id="2ef90fa1b9369f1ad3ca66852ca464a2" approved="yes">
         <source>The invoice was not found.</source>
@@ -227,6 +282,11 @@
         <target state="final">Kode voucher tidak valid.</target>
         <note>File: controllers/front/CartController.php [Line: 245]</note>
       </trans-unit>
+      <trans-unit id="b4467fe25466af11a606a43505ca709b" approved="yes">
+        <source>There are %d% errors:</source>
+        <target state="final">Ditemukan %d% kesalahan:</target>
+        <note>File: themes/hummingbird/templates/_partials/form-errors.tpl [Line: 11]</note>
+      </trans-unit>
       <trans-unit id="a923575984949608ce04c4984806ec2a" approved="yes">
         <source>There are not enough products in stock</source>
         <target state="final">Tidak cukup produk di dalam stok</target>
@@ -236,6 +296,11 @@
         <source>There seems to be an issue with your account, please contact support</source>
         <target state="final">Sepertinya ada masalah dengan akun Anda, harap hubungi layanan pelanggan</target>
         <note>File: classes/form/CustomerPersister.php [Line: 90]</note>
+      </trans-unit>
+      <trans-unit id="914aabd65a536be202b28dc1ac5dd1af" approved="yes">
+        <source>This cart has expired.</source>
+        <target state="final">Keranjang belanja ini telah kedaluwarsa.</target>
+        <note>File: classes/controller/FrontController.php [Line: 1366]</note>
       </trans-unit>
       <trans-unit id="c9615dc36879116ef8c5f1ab08543191" approved="yes">
         <source>This file no longer exists.</source>
