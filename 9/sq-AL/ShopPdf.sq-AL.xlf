@@ -14,27 +14,27 @@
       </trans-unit>
       <trans-unit id="99d48dba6b2b30a09c4a84a2912a5e5d" approved="yes">
         <source>(After discount)</source>
-        <target state="final">(Pas uljes)</target>
+        <target state="final">(Pas zbritjes)</target>
         <note>File: pdf/supply-order.total-tab.tpl [Line: 22]</note>
       </trans-unit>
       <trans-unit id="d1f223eb051fae871c3c29a0777e95aa" approved="yes">
         <source>(Before discount)</source>
-        <target state="final">(Para uljes)</target>
+        <target state="final">(Para zbritjes)</target>
         <note>File: pdf/supply-order.total-tab.tpl [Line: 10]</note>
       </trans-unit>
       <trans-unit id="078ac079d154d21533c57bced9fcb10f" approved="yes">
         <source>(Tax Excl.)</source>
-        <target state="final">(pa taksa)</target>
+        <target state="final">(pa TVSH)</target>
         <note>File: pdf/order-slip.product-tab.tpl [Line: 13]</note>
       </trans-unit>
       <trans-unit id="29103375229a5c363403ec4afb5c3e8f" approved="yes">
         <source>(Tax Incl.)</source>
-        <target state="final">(me taksa)</target>
+        <target state="final">(me TVSH)</target>
         <note>File: pdf/order-slip.product-tab.tpl [Line: 13]</note>
       </trans-unit>
       <trans-unit id="9fec2102dd0b5b29d6cdf9d5614fabf7" approved="yes">
         <source>(Tax excl.)</source>
-        <target state="final">(pa taksa)</target>
+        <target state="final">(pa TVSH)</target>
         <note>File: pdf/invoice.product-tab.tpl [Line: 30]</note>
       </trans-unit>
       <trans-unit id="e265492707dd0595fd1f399bb8a2690e" approved="yes">
@@ -49,18 +49,23 @@
       </trans-unit>
       <trans-unit id="38134e53d40c6e4288f27868aa79d63f" approved="yes">
         <source>All products must be returned in their original package and condition, unused and without damage.</source>
-        <target state="final">Të gjitha produktet duhet të kthehen në paketimin e tyre origjinal dhe gjendje të papërdorura dhe pa dëme.</target>
+        <target state="final">Të gjitha produktet duhet të kthehen në paketimin dhe gjendjen origjinale, të papërdorura dhe pa dëmtime.</target>
         <note>File: pdf/order-return.conditions-tab.tpl [Line: 13]</note>
       </trans-unit>
       <trans-unit id="ff5db4935fb0fbf583796b50f05e25bc" approved="yes">
         <source>An electronic version of this invoice is available in your account. To access it, log in to our website using your e-mail address and password (which you created when placing your first order).</source>
-        <target state="final">Një version elektronik të kësaj fature mund ta gjeni në llogarinë tuaj. Për të pasur akses, kyçuni në uebfaqe duke përdorur emailin tuaj dhe fjalëkalimin (që e keni krijuar kur keni plasuar urdhërblerjen e parë).</target>
+        <target state="final">Një version elektronik i kësaj fature gjendet në llogarinë tënde. Për ta parë, identifikohu në sajtin tonë me adresën e emailit dhe fjalëkalimin (që krijove kur bëre porosinë e parë).</target>
         <note>File: pdf/footer.tpl [Line: 9]</note>
       </trans-unit>
       <trans-unit id="f4a232c48df10124ee867767a4e7280e" approved="yes">
         <source>Base TE</source>
-        <target state="final">Baza pa taksa</target>
+        <target state="final">Baza pa TVSH</target>
         <note>File: pdf/supply-order.tax-tab.tpl [Line: 10]</note>
+      </trans-unit>
+      <trans-unit id="ad0d28cdd9113d3ce911bc064b137cde" approved="yes">
+        <source>Base price</source>
+        <target state="final">Çmimi bazë</target>
+        <note>File: pdf/invoice.tax-tab.tpl [Line: 19]</note>
       </trans-unit>
       <trans-unit id="7521172dd37ba56442ea866ac18eb49d" approved="yes">
         <source>Before discount</source>
@@ -69,7 +74,7 @@
       </trans-unit>
       <trans-unit id="e2f324b87eac820c81e4d4a1105dcddf" approved="yes">
         <source><![CDATA[Billing & Delivery Address]]></source>
-        <target state="final"><![CDATA[Adresa e faturimit dhe e livrimit]]></target>
+        <target state="final"><![CDATA[Adresa e faturimit dhe e dorëzimit]]></target>
         <note>File: pdf/order-return.addresses-tab.tpl [Line: 16]</note>
       </trans-unit>
       <trans-unit id="1fbc7e5f1b92c7ec072397b59a0bb5da" approved="yes">
@@ -77,15 +82,40 @@
         <target state="final">Adresa e faturimit</target>
         <note>File: pdf/order-return.addresses-tab.tpl [Line: 12]</note>
       </trans-unit>
+      <trans-unit id="914419aa32f04011357d3b604a86d7eb" approved="yes">
+        <source>Carrier</source>
+        <target state="final">Transportuesi</target>
+        <note>File: pdf/shipment-delivery-slip.summary-tab.tpl [Line: 10]</note>
+      </trans-unit>
+      <trans-unit id="cf3bae95c5f6023d5a10fe415b205a45" approved="yes">
+        <source>Credit slip</source>
+        <target state="final">Nota e kreditit</target>
+        <note>File: classes/pdf/HTMLTemplateOrderSlip.php [Line: 58]</note>
+      </trans-unit>
       <trans-unit id="44749712dbec183e983dcd78a7736c41" approved="yes">
         <source>Date</source>
         <target state="final">Data</target>
         <note>File: pdf/order-return.summary-tab.tpl [Line: 11]</note>
       </trans-unit>
+      <trans-unit id="065ab3a28ca4f16f55f103adc7d0226f" approved="yes">
+        <source>Delivery</source>
+        <target state="final">Dorëzimi</target>
+        <note>File: classes/pdf/HTMLTemplateShipmentDeliverySlip.php [Line: 88]</note>
+      </trans-unit>
       <trans-unit id="af0f5bdc5be121b9307687aeeae38c17" approved="yes">
         <source>Delivery address</source>
-        <target state="final">Adresa e livrimit:</target>
+        <target state="final">Adresa e dorëzimit</target>
         <note>File: pdf/order-return.addresses-tab.tpl [Line: 8]</note>
+      </trans-unit>
+      <trans-unit id="f107f5a9ee4ecea58d0f29ae7959baa8" approved="yes">
+        <source>Designation</source>
+        <target state="final">Përshkrimi</target>
+        <note>File: pdf/supply-order.product-tab.tpl [Line: 12]</note>
+      </trans-unit>
+      <trans-unit id="6703aa9936582b4381418f7d523370b4" approved="yes">
+        <source>Discount Rate</source>
+        <target state="final">Norma e zbritjes</target>
+        <note>File: pdf/supply-order.product-tab.tpl [Line: 16]</note>
       </trans-unit>
       <trans-unit id="9d5bf15117441a1b52eb1f0808e4aad3" approved="yes">
         <source>Discounts</source>
@@ -104,18 +134,23 @@
       </trans-unit>
       <trans-unit id="38b35526b23761f26b29a19af18df6e5" approved="yes">
         <source>Fax: %s</source>
-        <target state="final">Fax: %s</target>
+        <target state="final">Faksi: %s</target>
         <note>File: pdf/supply-order-footer.tpl [Line: 17]</note>
       </trans-unit>
       <trans-unit id="59aac4eb50a8249cbc9c12240c6a0a14" approved="yes">
         <source>For more assistance, contact Support:</source>
-        <target state="final">Për më shumë ndihmë, kontakto Suportin:</target>
+        <target state="final">Për më shumë ndihmë, kontakto mbështetjen:</target>
         <note>File: pdf/supply-order-footer.tpl [Line: 11]</note>
       </trans-unit>
       <trans-unit id="b00b85425e74ed2c85dc3119b78ff2c3" approved="yes">
         <source>Free Shipping</source>
-        <target state="final">Livrimi falas</target>
+        <target state="final">Dërgim falas</target>
         <note>File: pdf/invoice.total-tab.tpl [Line: 37]</note>
+      </trans-unit>
+      <trans-unit id="583aef07f75a57bda4f3ea63f9666ad1" approved="yes">
+        <source>If the following conditions are not met, we reserve the right to refuse your package and/or refund:</source>
+        <target state="final">Nëse kushtet e mëposhtme nuk plotësohen, rezervojmë të drejtën ta refuzojmë pakon dhe/ose rimbursimin:</target>
+        <note>File: pdf/order-return.conditions-tab.tpl [Line: 7]</note>
       </trans-unit>
       <trans-unit id="466eadd40b3c10580e3ab4e8061161ce" approved="yes">
         <source>Invoice</source>
@@ -134,7 +169,7 @@
       </trans-unit>
       <trans-unit id="adcf8d924285bef43f517d8f6c040e97" approved="yes">
         <source>Items to be returned</source>
-        <target state="final">Artikuj për tu kthyer</target>
+        <target state="final">Artikujt për t'u kthyer</target>
         <note>File: pdf/order-return.product-tab.tpl [Line: 9]</note>
       </trans-unit>
       <trans-unit id="720a61482c95ee6def09718b963f8fa0" approved="yes">
@@ -149,13 +184,23 @@
       </trans-unit>
       <trans-unit id="baf5d10866a7a240830dcf34f29d2d11" approved="yes">
         <source>No taxes</source>
-        <target state="final">Pa taksa</target>
+        <target state="final">Pa TVSH</target>
         <note>File: pdf/supply-order.tax-tab.tpl [Line: 30]</note>
+      </trans-unit>
+      <trans-unit id="3b0649c72650c313a357338dcdfb64ec" approved="yes">
+        <source>Note</source>
+        <target state="final">Shënim</target>
+        <note>File: pdf/invoice.note-tab.tpl [Line: 15]</note>
       </trans-unit>
       <trans-unit id="6b9e9f2472786ed1e76005bfc37bc8af" approved="yes">
         <source>Order Discount</source>
-        <target state="final">Zbritja në çmim e porosisë</target>
+        <target state="final">Zbritja e porosisë</target>
         <note>File: pdf/supply-order.total-tab.tpl [Line: 16]</note>
+      </trans-unit>
+      <trans-unit id="1e860e56970a81a1ba3e1fcb7fccc846" approved="yes">
+        <source>Order Reference</source>
+        <target state="final">Referenca e porosisë</target>
+        <note>File: pdf/shipment-delivery-slip.summary-tab.tpl [Line: 7]</note>
       </trans-unit>
       <trans-unit id="559e7ca805230fc80e3644f87bb3994d" approved="yes">
         <source>Order date</source>
@@ -177,6 +222,16 @@
         <target state="final">Mënyra e pagesës</target>
         <note>File: pdf/order-slip.payment-tab.tpl [Line: 7]</note>
       </trans-unit>
+      <trans-unit id="20f3d1a3e717b7de53d14f0d3848a1c8" approved="yes">
+        <source>Please include this return reference on your return package:</source>
+        <target state="final">Shëno këtë referencë kthimi në pakon që kthen:</target>
+        <note>File: pdf/order-return.conditions-tab.tpl [Line: 12]</note>
+      </trans-unit>
+      <trans-unit id="34bfda153cbe51eef5d4a88cdd7b616d" approved="yes">
+        <source>Please print out this document and slip it into your package.</source>
+        <target state="final">Printoje këtë dokument dhe fute në pako.</target>
+        <note>File: pdf/order-return.conditions-tab.tpl [Line: 14]</note>
+      </trans-unit>
       <trans-unit id="3601146c4e948c32b6424d2c0a7f0118" approved="yes">
         <source>Price</source>
         <target state="final">Çmimi</target>
@@ -194,17 +249,17 @@
       </trans-unit>
       <trans-unit id="5082245495aa792b3d0874088d2b111b" approved="yes">
         <source>Product Total</source>
-        <target state="final">Totali i produktit</target>
+        <target state="final">Totali i produkteve</target>
         <note>File: pdf/order-slip.total-tab.tpl [Line: 44]</note>
       </trans-unit>
       <trans-unit id="7926243ab60a08b15932021bf108c578" approved="yes">
         <source>Product Total (Tax Excl.)</source>
-        <target state="final">Totali i produktit (pa taksa)</target>
+        <target state="final">Totali i produkteve (pa TVSH)</target>
         <note>File: pdf/order-slip.total-tab.tpl [Line: 25]</note>
       </trans-unit>
       <trans-unit id="984a93f9899bf0b0a250ba66f022c630" approved="yes">
         <source>Product Total (Tax Incl.)</source>
-        <target state="final">Totali i produktit (me taksa)</target>
+        <target state="final">Totali i produkteve (me TVSH)</target>
         <note>File: pdf/order-slip.total-tab.tpl [Line: 34]</note>
       </trans-unit>
       <trans-unit id="068f80c7519d0528fb08e82137a72131" approved="yes">
@@ -232,19 +287,24 @@
         <target state="final">Numri i kthimit</target>
         <note>File: pdf/order-return.summary-tab.tpl [Line: 10]</note>
       </trans-unit>
+      <trans-unit id="ea9cf7e47ff33b2be14e6dd07cbcefc6" approved="yes">
+        <source>Shipping</source>
+        <target state="final">Dërgimi</target>
+        <note>File: pdf/invoice.tax-tab.tpl [Line: 44]</note>
+      </trans-unit>
       <trans-unit id="f61e91b684fc1063894baa9e61fde630" approved="yes">
         <source>Shipping (Tax Excl.)</source>
-        <target state="final">Dërgimi (pa taksa)</target>
+        <target state="final">Dërgimi (pa TVSH)</target>
         <note>File: pdf/order-slip.total-tab.tpl [Line: 10]</note>
       </trans-unit>
       <trans-unit id="4bcc004e904bd1b84d255a9953e242fd" approved="yes">
         <source>Shipping (Tax Incl.)</source>
-        <target state="final">Dërgimi (me taksa)</target>
+        <target state="final">Dërgimi (me TVSH)</target>
         <note>File: pdf/order-slip.total-tab.tpl [Line: 12]</note>
       </trans-unit>
       <trans-unit id="f54bdce4ab4d26c259216da67b9d6431" approved="yes">
         <source>Shipping Costs</source>
-        <target state="final">Kosto e livrimit</target>
+        <target state="final">Kostot e dërgimit</target>
         <note>File: pdf/invoice.total-tab.tpl [Line: 31]</note>
       </trans-unit>
       <trans-unit id="1300f86974cafc2d65eb1f082a26bdf1" approved="yes">
@@ -254,47 +314,47 @@
       </trans-unit>
       <trans-unit id="f771e4a4df40bf061607fdb8e3f140dc" approved="yes">
         <source>Supply order form</source>
-        <target state="final">Forma e urdhërblerjes së furnizimit</target>
+        <target state="final">Formulari i urdhërblerjes së furnizimit</target>
         <note>File: classes/pdf/HTMLTemplateSupplyOrderForm.php [Line: 55]</note>
       </trans-unit>
       <trans-unit id="37bd15f0a465c1b6e96e516cdeee41fa" approved="yes">
         <source>TE: Tax excluded</source>
-        <target state="final">PT: Pa taksa</target>
+        <target state="final">PT: pa TVSH</target>
         <note>File: classes/pdf/HTMLTemplateSupplyOrderForm.php [Line: 195]</note>
       </trans-unit>
       <trans-unit id="8bcc82aa54d3755fffa1f1d4cbd8e95d" approved="yes">
         <source>TI: Tax included</source>
-        <target state="final">MT: Me taksa</target>
+        <target state="final">MT: me TVSH</target>
         <note>File: classes/pdf/HTMLTemplateSupplyOrderForm.php [Line: 196]</note>
       </trans-unit>
       <trans-unit id="023f66b09075fa1cc29e74bed9f5ac40" approved="yes">
         <source>Tax Detail</source>
-        <target state="final">Detaje mbi taksën</target>
+        <target state="final">Detajet e TVSH-së</target>
         <note>File: pdf/invoice.tax-tab.tpl [Line: 16]</note>
       </trans-unit>
       <trans-unit id="8fe77c2601e54f1aaef28cfde997bbad" approved="yes">
         <source>Tax Rate</source>
-        <target state="final">Norma e TVSH</target>
+        <target state="final">Norma e TVSH-së</target>
         <note>File: pdf/supply-order.tax-tab.tpl [Line: 11]</note>
       </trans-unit>
       <trans-unit id="01a2436b8e3782c1f99e6b26adf901b2" approved="yes">
         <source>Tax Value</source>
-        <target state="final">Shkalla e taksës</target>
+        <target state="final">Vlera e TVSH-së</target>
         <note>File: pdf/supply-order.tax-tab.tpl [Line: 12]</note>
       </trans-unit>
       <trans-unit id="20a34c4e30c5bbe1d3f870ac55f0d831" approved="yes">
         <source>Tax rate</source>
-        <target state="final">tax rate</target>
+        <target state="final">Norma e TVSH-së</target>
         <note>File: pdf/supply-order.product-tab.tpl [Line: 18]</note>
       </trans-unit>
       <trans-unit id="699e6bd4690ed3bd5f658052e12aba04" approved="yes">
         <source>Tax value</source>
-        <target state="final">Vlera e taksës</target>
+        <target state="final">Vlera e TVSH-së</target>
         <note>File: pdf/supply-order.total-tab.tpl [Line: 28]</note>
       </trans-unit>
       <trans-unit id="716be2c7de31f063369ca297a9928403" approved="yes">
         <source>Taxes:</source>
-        <target state="final">Taksat:</target>
+        <target state="final">TVSH:</target>
         <note>File: pdf/supply-order.tax-tab.tpl [Line: 5]</note>
       </trans-unit>
       <trans-unit id="baf85890915b2793aac2b3282f0ea175" approved="yes">
@@ -314,17 +374,22 @@
       </trans-unit>
       <trans-unit id="4118e1a6606ae9bff5134ba3cf50db67" approved="yes">
         <source>Total (Tax Excl.)</source>
-        <target state="final">Gjithsej (pa taksa)</target>
+        <target state="final">Totali (pa TVSH)</target>
         <note>File: pdf/order-slip.total-tab.tpl [Line: 67]</note>
       </trans-unit>
       <trans-unit id="11ef70f0c7f9fed90c43dffb9a0e813e" approved="yes">
         <source>Total (Tax Incl.)</source>
-        <target state="final">Gjithsej (me taksa)</target>
+        <target state="final">Totali (me TVSH)</target>
         <note>File: pdf/order-slip.total-tab.tpl [Line: 83]</note>
+      </trans-unit>
+      <trans-unit id="b94cb106eaa958b2ab473da305e57977" approved="yes">
+        <source>Total (Tax excl.)</source>
+        <target state="final">Totali (pa TVSH)</target>
+        <note>File: pdf/invoice.total-tab.tpl [Line: 55]</note>
       </trans-unit>
       <trans-unit id="dd704458c6b79d0e86d171f1523918c3" approved="yes">
         <source>Total Discounts</source>
-        <target state="final">Gjithsej ulje</target>
+        <target state="final">Gjithsej zbritje</target>
         <note>File: pdf/invoice.total-tab.tpl [Line: 20]</note>
       </trans-unit>
       <trans-unit id="b0f79042ac83c64f3ccc42268c8ade26" approved="yes">
@@ -334,17 +399,17 @@
       </trans-unit>
       <trans-unit id="3a6a6d37bea2c7567f8599ea88b47930" approved="yes">
         <source>Total TE</source>
-        <target state="final">Totali (pa taksa)</target>
+        <target state="final">Totali pa TVSH</target>
         <note>File: pdf/supply-order.total-tab.tpl [Line: 22]</note>
       </trans-unit>
       <trans-unit id="fa2ce544158555e8f06c69dd9e681832" approved="yes">
         <source>Total TI</source>
-        <target state="final">Totali me taksa</target>
+        <target state="final">Totali me TVSH</target>
         <note>File: pdf/supply-order.total-tab.tpl [Line: 34]</note>
       </trans-unit>
       <trans-unit id="b602e0d0c6a72053d0a5be60cb2f8126" approved="yes">
         <source>Total Tax</source>
-        <target state="final">Totali i taksës</target>
+        <target state="final">TVSH-ja totale</target>
         <note>File: pdf/order-slip.total-tab.tpl [Line: 56]</note>
       </trans-unit>
       <trans-unit id="8cc072b14a8fda0c4f9aa0c166471cc9" approved="yes">
@@ -364,22 +429,27 @@
       </trans-unit>
       <trans-unit id="c8ba77264f6e923f5ee35abf3108ae7c" approved="yes">
         <source>Unit Price TE</source>
-        <target state="final">Çmimi / njësi (pa taksa)</target>
+        <target state="final">Çmimi për njësi pa TVSH</target>
         <note>File: pdf/supply-order.product-tab.tpl [Line: 14]</note>
+      </trans-unit>
+      <trans-unit id="6c957f72dc8cdacc75762f2cbdcdfaf2" approved="yes">
+        <source>Unit price</source>
+        <target state="final">Çmimi për njësi</target>
+        <note>File: pdf/order-slip.product-tab.tpl [Line: 12]</note>
       </trans-unit>
       <trans-unit id="141fe419586cdebe331fd7317e88954c" approved="yes">
         <source>Upon receiving your package, we will notify you by e-mail. We will then begin processing the refund, if applicable. Let us know if you have any questions</source>
-        <target state="final">Pas marrjes së paketës tuaj, do t'ju njoftojë me email. Ne atëherë do të fillojmë përpunimin e rimbursimit, nëse është i aplikueshëm. Na bëni me dije në qoftë se keni ndonjë pyetje.</target>
+        <target state="final">Kur ta marrim pakon, do të të njoftojmë me email. Pastaj do të fillojmë përpunimin e rimbursimit, nëse vlen. Na njofto nëse ke pyetje</target>
         <note>File: pdf/order-return.conditions-tab.tpl [Line: 22]</note>
       </trans-unit>
       <trans-unit id="c462960a6bd53db34f778d0562703ad3" approved="yes">
         <source>VAT Number</source>
-        <target state="final">Nr. TVSH</target>
+        <target state="final">Numri i TVSH-së</target>
         <note>File: pdf/order-slip.summary-tab.tpl [Line: 10]</note>
       </trans-unit>
       <trans-unit id="88be9ea838e21273267409d76af3b284" approved="yes">
         <source>We have logged your return request.</source>
-        <target state="final">Ne e kemi regjistruar kërkesën tuaj të kthimit.</target>
+        <target state="final">E regjistruam kërkesën tënde për kthim.</target>
         <note>File: pdf/order-return.summary-tab.tpl [Line: 5]</note>
       </trans-unit>
       <trans-unit id="ba794350deb07c0c96fe73bd12239059" approved="yes">
@@ -394,13 +464,23 @@
       </trans-unit>
       <trans-unit id="dd0b8feb4eb6c389c284518f5683017c" approved="yes">
         <source>Your package must be returned to us within</source>
-        <target state="final">Pakoja juaj duhet të na kthehet brenda</target>
+        <target state="final">Pakoja duhet të na kthehet brenda</target>
+        <note>File: pdf/order-return.summary-tab.tpl [Line: 6]</note>
+      </trans-unit>
+      <trans-unit id="ea62a2e28a800c367509773730120a67" approved="yes">
+        <source>days of receiving your order.</source>
+        <target state="final">ditëve nga marrja e porosisë.</target>
         <note>File: pdf/order-return.summary-tab.tpl [Line: 6]</note>
       </trans-unit>
       <trans-unit id="49005859f978fcb0dfddcf676e841245" approved="yes">
         <source>ecotax: %s</source>
-        <target state="final">taksa ekologjike: %s</target>
+        <target state="final">ekotaksa: %s</target>
         <note>File: pdf/invoice.product-tab.tpl [Line: 85]</note>
+      </trans-unit>
+      <trans-unit id="1d744a9ad1dac20645cfc4a36b77323b" approved="yes">
+        <source>image(s)</source>
+        <target state="final">imazh(e)</target>
+        <note>File: pdf/order-slip.product-tab.tpl [Line: 64]</note>
       </trans-unit>
       <trans-unit id="1be15dd275084ad2cae8f2aaa604c110" approved="yes">
         <source>image(s):</source>
