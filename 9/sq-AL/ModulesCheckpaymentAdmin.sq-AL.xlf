@@ -4,7 +4,7 @@
     <body>
       <trans-unit id="1f87346a16cf80c372065de3c54c86d9" approved="yes">
         <source>(tax incl.)</source>
-        <target state="final">(me taksa)</target>
+        <target state="final">(me TVSH)</target>
         <note>File: modules/ps_checkpayment/ps_checkpayment.php [Line: 268]</note>
       </trans-unit>
       <trans-unit id="dd7bf230fde8d4836917806aff6a6b27" approved="yes">
@@ -12,9 +12,14 @@
         <target state="final">Adresa</target>
         <note>File: modules/ps_checkpayment/ps_checkpayment.php [Line: 224]</note>
       </trans-unit>
+      <trans-unit id="0fe62049ad5246bc188ec1bae347269e" approved="yes">
+        <source>Address where the check should be sent to.</source>
+        <target state="final">Adresa ku duhet dërguar çeku.</target>
+        <note>File: modules/ps_checkpayment/ps_checkpayment.php [Line: 225]</note>
+      </trans-unit>
       <trans-unit id="e09484ba6c16bc20236b63cc0d87ee95" approved="yes">
         <source>Are you sure you want to delete these details?</source>
-        <target state="final">Jeni i sigurt që dëshironi t'i fshini detajet tuaja?</target>
+        <target state="final">Je i sigurt që dëshiron t'i fshish këto të dhëna?</target>
         <note>File: modules/ps_checkpayment/ps_checkpayment.php [Line: 66]</note>
       </trans-unit>
       <trans-unit id="5dd532f0a63d89c5af0243b74732f63c" approved="yes">
@@ -22,20 +27,60 @@
         <target state="final">Detajet e kontaktit</target>
         <note>File: modules/ps_checkpayment/ps_checkpayment.php [Line: 212]</note>
       </trans-unit>
+      <trans-unit id="08aa5198d33cc5b74602b3235539321c" approved="yes">
+        <source>Display contact details blocks to make it easy for customers to pay by check on your store.</source>
+        <target state="final">Shfaq blloqe me të dhënat e kontaktit që klientët të paguajnë lehtë me çek në dyqan.</target>
+        <note>File: modules/ps_checkpayment/ps_checkpayment.php [Line: 65]</note>
+      </trans-unit>
+      <trans-unit id="22df5428ca8a4d0f5ec081d4815c86f6" approved="yes">
+        <source>If the client chooses this payment method, the order status will change to 'Waiting for payment'.</source>
+        <target state="final">Nëse klienti zgjedh këtë mënyrë pagese, statusi i porosisë do të ndryshojë në 'Në pritje të pagesës'.</target>
+        <note>File: modules/ps_checkpayment/views/templates/hook/infos.tpl [Line: 29]</note>
+      </trans-unit>
       <trans-unit id="a02758d758e8bec77a33d7f392eb3f8a" approved="yes">
         <source>No currency has been set for this module.</source>
         <target state="final">Nuk është zgjedhur asnjë valutë për këtë modul.</target>
         <note>File: modules/ps_checkpayment/ps_checkpayment.php [Line: 73]</note>
       </trans-unit>
+      <trans-unit id="a60468657881aa431a0a5fccc76258e2" approved="yes">
+        <source>Pay by Check</source>
+        <target state="final">Paguaj me çek</target>
+        <note>File: modules/ps_checkpayment/ps_checkpayment.php [Line: 160]</note>
+      </trans-unit>
+      <trans-unit id="84649906133e37fefda33a301de8cd4f" approved="yes">
+        <source>Payee (name)</source>
+        <target state="final">Përfituesi (emri)</target>
+        <note>File: modules/ps_checkpayment/ps_checkpayment.php [Line: 218]</note>
+      </trans-unit>
       <trans-unit id="7b4cc4f79be9aae43efd53b4ae5cba4d" approved="yes">
         <source>Payments by check</source>
-        <target state="final">Check</target>
+        <target state="final">Pagesa me çek</target>
         <note>File: modules/ps_checkpayment/ps_checkpayment.php [Line: 64]</note>
+      </trans-unit>
+      <trans-unit id="00a369029140cfd18857425d49b472f8" approved="yes">
+        <source>The "Address" field is required.</source>
+        <target state="final">Fusha "Adresa" është e detyrueshme.</target>
+        <note>File: modules/ps_checkpayment/ps_checkpayment.php [Line: 105]</note>
+      </trans-unit>
+      <trans-unit id="eb7ee09497f2bb2a5c766c4e5ef0cc4b" approved="yes">
+        <source>The "Payee" and "Address" fields must be configured before using this module.</source>
+        <target state="final">Fushat "Përfituesi" dhe "Adresa" duhet të konfigurohen para se të përdoret ky modul.</target>
+        <note>File: modules/ps_checkpayment/ps_checkpayment.php [Line: 70]</note>
+      </trans-unit>
+      <trans-unit id="a6911ad28a15bf35c506e46c3a613c68" approved="yes">
+        <source>The "Payee" field is required.</source>
+        <target state="final">Fusha "Përfituesi" është e detyrueshme.</target>
+        <note>File: modules/ps_checkpayment/ps_checkpayment.php [Line: 103]</note>
       </trans-unit>
       <trans-unit id="14e41f4cfd99b10766cc15676d8cda66" approved="yes">
         <source>This module allows you to accept payments by check.</source>
-        <target state="final">Moduli për pagesat me Check</target>
+        <target state="final">Ky modul të lejon të pranosh pagesa me çek.</target>
         <note>File: modules/ps_checkpayment/views/templates/hook/infos.tpl [Line: 28]</note>
+      </trans-unit>
+      <trans-unit id="8c88bbf5712292b26e2a6bbeb0a7b5c4" approved="yes">
+        <source>You will need to manually confirm the order as soon as you receive a check.</source>
+        <target state="final">Do të duhet ta konfirmosh porosinë me dorë sapo të marrësh çekun.</target>
+        <note>File: modules/ps_checkpayment/views/templates/hook/infos.tpl [Line: 30]</note>
       </trans-unit>
     </body>
   </file>
